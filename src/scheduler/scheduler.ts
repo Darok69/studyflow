@@ -18,9 +18,11 @@ export interface SchedCard {
 export interface SubjectPlan {
   subjectId: string
   daysUntilExam: number | null
+  total: number // all cards in the subject
+  studied: number // cards no longer in the "new" state
   dueReviews: number
   newRemaining: number
-  newQuota: number // new cards actually scheduled today
+  newQuota: number // new cards actually scheduled today (after any cap)
 }
 
 export interface SessionPlan {
@@ -29,6 +31,11 @@ export interface SessionPlan {
   dueReviews: number
   newCards: number
   perSubject: SubjectPlan[]
+}
+
+export interface SessionOptions {
+  /** Soft daily cap on TOTAL new cards across subjects (wellbeing guardrail). */
+  newCardCap?: number | null
 }
 
 // Horizon used to pace new cards for subjects without an exam date.
@@ -74,6 +81,7 @@ export function buildSession(
   subjects: SchedSubject[],
   cards: SchedCard[],
   now: Date = new Date(),
+  opts: SessionOptions = {},
 ): SessionPlan {
   const bySubject = new Map<string, SchedCard[]>()
   for (const c of cards) {
@@ -86,12 +94,18 @@ export function buildSession(
   const perSubject: SubjectPlan[] = []
   const lanes: string[][] = []
 
+  // Soft daily cap on new cards, spent in deadline order so nearer exams keep
+  // their share. Due reviews are never capped — only the new-card intake.
+  let capRemaining =
+    typeof opts.newCardCap === 'number' ? Math.max(0, Math.floor(opts.newCardCap)) : Infinity
+
   for (const s of ordered) {
     const list = bySubject.get(s.id) ?? []
     const due = list.filter((c) => isDueReview(c, now)).sort(byDueAsc)
     const news = list.filter((c) => c.state === 'new')
     const dExam = daysUntil(s.examDate, now)
-    const quota = Math.min(newCardQuota(news.length, dExam), news.length)
+    const quota = Math.min(newCardQuota(news.length, dExam), news.length, capRemaining)
+    capRemaining -= quota
 
     // Within a subject: clear the backlog (due reviews) first, then new cards.
     const lane = [...due.map((c) => c.id), ...news.slice(0, quota).map((c) => c.id)]
@@ -99,6 +113,8 @@ export function buildSession(
     perSubject.push({
       subjectId: s.id,
       daysUntilExam: dExam,
+      total: list.length,
+      studied: list.filter((c) => c.state !== 'new').length,
       dueReviews: due.length,
       newRemaining: news.length,
       newQuota: quota,

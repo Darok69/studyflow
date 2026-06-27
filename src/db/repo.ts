@@ -1,7 +1,11 @@
 // Data-access layer: the only module that touches Dexie from the UI/session.
-import { db, type Card, type RatingName, type Review, type Subject } from './db'
+import { db, type Card, type RatingName, type Review, type Settings, type Subject } from './db'
 import type { ParsedDeck } from '../import/parseDeck'
 import { newFsrsFields, rate } from '../scheduler/fsrs'
+import { subjectColorIndex } from '../lib/theme'
+import { DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
+
+const SETTINGS_ID = 'app'
 
 function uuid(): string {
   return crypto.randomUUID()
@@ -13,6 +17,10 @@ export async function getSubjects(): Promise<Subject[]> {
 
 export async function getCards(): Promise<Card[]> {
   return db.cards.toArray()
+}
+
+export async function getReviews(): Promise<Review[]> {
+  return db.reviews.toArray()
 }
 
 export async function getCardsBySubject(subjectId: string): Promise<Card[]> {
@@ -30,6 +38,7 @@ export async function importDeck(parsed: ParsedDeck): Promise<{ subjectId: strin
     examDate: parsed.subject.examDate,
     reminderTime: parsed.subject.reminderTime,
     createdAt: now.toISOString(),
+    colorIndex: subjectColorIndex(subjectId),
   }
 
   const cards: Card[] = parsed.cards.map((d) => ({
@@ -86,7 +95,28 @@ export async function deleteSubject(subjectId: string): Promise<void> {
 
 /** Wipe everything (used by the reset action). */
 export async function resetAll(): Promise<void> {
-  await db.transaction('rw', db.subjects, db.cards, db.reviews, async () => {
-    await Promise.all([db.subjects.clear(), db.cards.clear(), db.reviews.clear()])
+  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.settings, async () => {
+    await Promise.all([
+      db.subjects.clear(),
+      db.cards.clear(),
+      db.reviews.clear(),
+      db.settings.clear(),
+    ])
   })
+}
+
+const DEFAULT_SETTINGS: Settings = {
+  id: SETTINGS_ID,
+  dailyNewCapEnabled: false,
+  dailyNewCap: DEFAULT_DAILY_NEW_CAP,
+}
+
+export async function getSettings(): Promise<Settings> {
+  return (await db.settings.get(SETTINGS_ID)) ?? DEFAULT_SETTINGS
+}
+
+export async function saveSettings(patch: Partial<Omit<Settings, 'id'>>): Promise<Settings> {
+  const next: Settings = { ...(await getSettings()), ...patch, id: SETTINGS_ID }
+  await db.settings.put(next)
+  return next
 }

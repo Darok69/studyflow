@@ -21,6 +21,7 @@ npm run dev        # dev server (http://localhost:5173)
 npm run build      # type-check + production build → dist/ (installable PWA)
 npm run preview    # serve the production build locally
 npm run lint       # oxlint
+npm test           # pure-logic unit suite (scheduler, FSRS, wellbeing, stats)
 ```
 
 ### Try it
@@ -107,7 +108,56 @@ The scheduling logic is a pure, dependency-free module (`src/scheduler`).
   FSRS state `due, stability, difficulty, reps, lapses, state, lastReview`
 - **reviews** — `id, cardId, rating, ts` (for stats / streaks)
 
+## Visual identity & wellbeing
+
+Sprint 2 makes the app calm, legible, and supportive. The design optimises for
+**adherence** and **low strain** — the learning science lives in the scheduler;
+this layer is about whether the user keeps coming back and feels okay doing it.
+
+### Colour system — two channels that never clash
+
+Colour carries meaning, and the two meanings are kept strictly separate:
+
+- **Identity** — each subject gets one of **8 curated hues** (violet, teal,
+  amber, rose, sky, sage, coral, lavender). The hue is chosen deterministically
+  from a hash of the subject id and stored as `colorIndex`, so a subject's colour
+  is stable forever. Identity colour appears **only** as a graphical accent —
+  the left bar on a subject card and the dot next to the subject label in study —
+  never as text, so contrast is never a concern.
+- **Urgency** — the deadline countdown and the progress bar use a separate
+  far/mid/near scale (`#34C9A3` / `#E3A53A` / `#E5564E`). Urgency text is neutral
+  ink on a tinted pill (the hue is the border/tint), and the label itself
+  ("za 3 dny" / "dnes" / "po termínu") carries the meaning too, so it never relies
+  on colour alone.
+- **The study surface is never colourised.** The card face stays warm paper
+  (`#F4EFE3`), high-contrast and serif — it's the focus zone.
+
+### Wellbeing decisions
+
+- **Today-focus + overwhelm guardrail.** Home shows today's load as due + new
+  counts *and* an estimated time (~8 s/card). When a day is heavy (> 60 cards or
+  > 25 min) a gentle banner reassures rather than pressures: *"Klidně to rozlož
+  během dne — nemusíš všechno najednou."* It never auto-punishes.
+- **Soft daily new-card cap** (Settings, default **off**). When enabled it caps
+  total new cards per day so a pre-exam cram never dumps an impossible pile in one
+  sitting; due reviews are never capped. The cap is spent nearest-deadline first.
+- **Gentle, recoverable streak.** A current streak counts consecutive days with
+  ≥1 review (with a one-day grace so it doesn't read 0 before you've studied
+  today). Breaking it resets quietly — there is no "you lost it" UI anywhere.
+- **Supportive copy, never punitive.** A missed day is met with *"Včera jsi
+  vynechal — nevadí, jdeme dál."*, a finished day with calm praise. Empty states
+  guide rather than blame.
+- **Healthy session rhythm.** After ~22 min of continuous studying, a soft,
+  dismissible nudge suggests a break. It's a suggestion — it never blocks.
+- **Comfort & accessibility.** Text targets WCAG-AA contrast on the dark base;
+  the base is warmed a hair for long-session eye comfort; `prefers-reduced-motion`
+  disables transitions/animations.
+
+These signals are computed by small pure modules (`src/lib/wellbeing.ts`,
+`src/stats/stats.ts`, `src/lib/encouragement.ts`) and covered by `npm test`.
+
 ## Status
 
-Sprint 1 scaffold: import → schedule → study → persist, fully offline. No
-backend, sync, notifications, or stats screens yet.
+Sprints 1–2, fully offline, no backend: import → deadline-weighted schedule →
+study → persist, with per-subject colour identity, wellbeing guardrails, a gentle
+stats/streak view, and a settings screen. No sync, push, or accounts yet.

@@ -14,6 +14,20 @@ export function endOfDay(d: Date): Date {
   return e
 }
 
+/** Local calendar-day key, 'YYYY-MM-DD' (used for streaks / day bucketing). */
+export function dayKey(d: Date): string {
+  const y = d.getFullYear()
+  const m = String(d.getMonth() + 1).padStart(2, '0')
+  const day = String(d.getDate()).padStart(2, '0')
+  return `${y}-${m}-${day}`
+}
+
+export function addDays(d: Date, n: number): Date {
+  const r = new Date(d)
+  r.setDate(r.getDate() + n)
+  return r
+}
+
 /** Parse a 'YYYY-MM-DD' string as a local Date (midnight). */
 export function parseExamDate(examDate: string): Date {
   return new Date(`${examDate}T00:00:00`)

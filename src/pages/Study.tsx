@@ -1,11 +1,18 @@
 import { useCallback, useEffect, useState } from 'react'
 import type { Card, RatingName, Subject } from '../db/db'
-import { getCards, getSubjects, recordRating } from '../db/repo'
+import { getCards, getSettings, getSubjects, recordRating } from '../db/repo'
 import { buildSession, reinsertAgain, type SchedCard } from '../scheduler/scheduler'
 import { CardFace } from '../components/CardFace'
 import { RatingButtons } from '../components/RatingButtons'
 import { ProgressBar } from '../components/ProgressBar'
-import { palette } from '../lib/theme'
+import { palette, subjectColor, subjectColorIndex } from '../lib/theme'
+import { BREAK_NUDGE_MINUTES } from '../lib/wellbeing'
+
+function czCards(n: number): string {
+  if (n === 1) return 'kartu'
+  if (n >= 2 && n <= 4) return 'karty'
+  return 'karet'
+}
 
 export function Study({ onDone }: { onDone: () => void }) {
   const [loading, setLoading] = useState(true)
@@ -18,9 +25,17 @@ export function Study({ onDone }: { onDone: () => void }) {
   const [total, setTotal] = useState(0)
   const [reviewCount, setReviewCount] = useState(0)
 
+  // Break nudge: re-armable baseline so it stays a suggestion, never a block.
+  const [nudgeBaseAt, setNudgeBaseAt] = useState<number>(() => Date.now())
+  const [showNudge, setShowNudge] = useState(false)
+
   useEffect(() => {
     void (async () => {
-      const [subjects, cards] = await Promise.all([getSubjects(), getCards()])
+      const [subjects, cards, settings] = await Promise.all([
+        getSubjects(),
+        getCards(),
+        getSettings(),
+      ])
       const schedCards: SchedCard[] = cards.map((c) => ({
         id: c.id,
         subjectId: c.subjectId,
@@ -30,6 +45,8 @@ export function Study({ onDone }: { onDone: () => void }) {
       const session = buildSession(
         subjects.map((s) => ({ id: s.id, examDate: s.examDate })),
         schedCards,
+        new Date(),
+        { newCardCap: settings.dailyNewCapEnabled ? settings.dailyNewCap : null },
       )
       setCardMap(new Map(cards.map((c) => [c.id, c])))
       setSubjectMap(new Map(subjects.map((s) => [s.id, s])))
@@ -86,6 +103,20 @@ export function Study({ onDone }: { onDone: () => void }) {
     return () => window.removeEventListener('keydown', onKey)
   }, [revealed, loading, done, handleRate])
 
+  // Soft "time for a break?" suggestion after ~22 min of continuous studying.
+  useEffect(() => {
+    if (loading || done) return
+    const id = window.setInterval(() => {
+      if (Date.now() - nudgeBaseAt >= BREAK_NUDGE_MINUTES * 60_000) setShowNudge(true)
+    }, 20_000)
+    return () => window.clearInterval(id)
+  }, [loading, done, nudgeBaseAt])
+
+  function dismissNudge() {
+    setShowNudge(false)
+    setNudgeBaseAt(Date.now()) // re-arm for another interval
+  }
+
   if (loading) {
     return <div className="page center muted">Načítám…</div>
   }
@@ -93,8 +124,9 @@ export function Study({ onDone }: { onDone: () => void }) {
   if (total === 0) {
     return (
       <div className="page center done-screen">
-        <p className="done-emoji">☕</p>
-        <h2>Na dnešek nemáš žádné karty</h2>
+        <p className="done-emoji">🌿</p>
+        <h2>Na dnešek nic nečeká</h2>
+        <p className="muted">Užij si pauzu — uvidíme se zase, až budeš chtít.</p>
         <button className="btn btn-primary" onClick={onDone}>
           Zpět na přehled
         </button>
@@ -108,7 +140,7 @@ export function Study({ onDone }: { onDone: () => void }) {
         <p className="done-emoji">🎉</p>
         <h2>Hotovo!</h2>
         <p className="muted">
-          Zopakoval jsi {reviewCount} {reviewCount === 1 ? 'kartu' : reviewCount < 5 ? 'karty' : 'karet'}.
+          Dal sis na tom záležet — prošel jsi {reviewCount} {czCards(reviewCount)}. Pěkná práce. 🌿
         </p>
         <button className="btn btn-primary" onClick={onDone}>
           Zpět na přehled
@@ -116,6 +148,8 @@ export function Study({ onDone }: { onDone: () => void }) {
       </div>
     )
   }
+
+  const identity = subjectColor(subject.colorIndex ?? subjectColorIndex(subject.id))
 
   return (
     <div className="page study">
@@ -132,11 +166,21 @@ export function Study({ onDone }: { onDone: () => void }) {
       </div>
 
       <div className="study-subject">
+        <span className="subject-dot" style={{ background: identity }} aria-hidden="true" />
         <span className="subject-tag">{subject.name}</span>
         <span className={`type-tag ${card.state === 'new' ? 'type-new' : 'type-review'}`}>
           {card.state === 'new' ? 'nová' : 'opakování'}
         </span>
       </div>
+
+      {showNudge && (
+        <div className="break-nudge" role="status">
+          <span>Studuješ přes 20 minut — dáš si pauzu? 🙂</span>
+          <button className="nudge-dismiss" onClick={dismissNudge}>
+            Pokračovat
+          </button>
+        </div>
+      )}
 
       <CardFace card={card} revealed={revealed} />
 
