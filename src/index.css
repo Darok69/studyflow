@@ -1387,6 +1387,70 @@ h3 {
   margin-top: 10px;
 }
 
+/* ===================================================================
+   Sprint 5 — login, account, admin
+   =================================================================== */
+
+.login-page {
+  min-height: 70vh;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 28px 24px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  text-align: left;
+}
+
+.login-mark {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.login-card h2 {
+  text-align: center;
+}
+
+.login-card > .muted {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
+
+.login-code {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.issued-code {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  background: color-mix(in srgb, var(--far) 10%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--far) 35%, transparent);
+  border-radius: 12px;
+}
+
+.issued-code-value {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--far);
+  margin: 4px 0;
+}
+
 /* ---------- Comfort: respect reduced-motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,

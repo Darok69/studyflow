@@ -2,6 +2,10 @@ import { useEffect, useRef, useState } from 'react'
 import type { Settings as AppSettings } from '../db/db'
 import { exportBackupJson, getSettings, resetAll, restoreBackup, saveSettings } from '../db/repo'
 import { parseBackup } from '../import/backup'
+import { getConfig, logout, SERVER_MODE, type Account } from '../lib/api'
+import { pushSync, syncMeta } from '../lib/sync'
+import { disableReminder, enableReminder, pushSupported, reminderPrefs } from '../lib/push'
+import { AdminUsers } from '../components/AdminUsers'
 
 const FONT_SCALES: { value: number; label: string }[] = [
   { value: 0.9, label: 'Menší' },
@@ -41,14 +45,76 @@ function ToggleRow({ name, desc, checked, onChange }: ToggleRowProps) {
   )
 }
 
-export function Settings({ onBack, onReset }: { onBack: () => void; onReset: () => void }) {
+interface Props {
+  onBack: () => void
+  onReset: () => void
+  account?: Account | null
+  onLoggedOut?: () => void
+}
+
+export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
   const [s, setS] = useState<AppSettings | null>(null)
   const [restoreError, setRestoreError] = useState<string | null>(null)
   const fileRef = useRef<HTMLInputElement>(null)
 
+  // Server-mode extras: sync status, push reminder prefs.
+  const [syncState, setSyncState] = useState(() => syncMeta())
+  const [syncBusy, setSyncBusy] = useState(false)
+  const [pushAvailable, setPushAvailable] = useState(false)
+  const [reminder, setReminder] = useState(() => reminderPrefs())
+  const [reminderError, setReminderError] = useState<string | null>(null)
+
   useEffect(() => {
     void getSettings().then(setS)
+    if (SERVER_MODE && pushSupported()) {
+      void getConfig()
+        .then((c) => setPushAvailable(c.pushEnabled))
+        .catch(() => setPushAvailable(false))
+    }
   }, [])
+
+  async function handleSyncNow() {
+    setSyncBusy(true)
+    try {
+      await pushSync()
+      setSyncState(syncMeta())
+    } catch {
+      setRestoreError('Synchronizace se nepovedla — zkus to znovu.')
+    } finally {
+      setSyncBusy(false)
+    }
+  }
+
+  async function handleLogout() {
+    await logout().catch(() => {})
+    onLoggedOut?.()
+  }
+
+  async function toggleReminder(enabled: boolean) {
+    setReminderError(null)
+    try {
+      if (enabled) {
+        await enableReminder(reminder.time, 'cs')
+        setReminder({ enabled: true, time: reminder.time })
+      } else {
+        await disableReminder()
+        setReminder({ ...reminder, enabled: false })
+      }
+    } catch (err) {
+      setReminderError(
+        (err as Error).message === 'permission-denied'
+          ? 'Prohlížeč notifikace zablokoval — povol je v nastavení stránky.'
+          : 'Nepodařilo se zapnout připomínky — zkus to znovu.',
+      )
+    }
+  }
+
+  async function changeReminderTime(time: string) {
+    setReminder((r) => ({ ...r, time }))
+    if (reminder.enabled && /^\d{2}:\d{2}$/.test(time)) {
+      await enableReminder(time, 'cs').catch(() => {})
+    }
+  }
 
   async function update(patch: Partial<Omit<AppSettings, 'id'>>) {
     if (!s) return
@@ -77,6 +143,7 @@ export function Settings({ onBack, onReset }: { onBack: () => void; onReset: () 
     const what = `${backup.subjects.length} předmětů, ${backup.cards.length} karet`
     if (!window.confirm(`Nahradit všechna současná data zálohou (${what})?`)) return
     await restoreBackup(backup)
+    if (SERVER_MODE) await pushSync().catch(() => {})
     onReset()
   }
 
@@ -90,6 +157,56 @@ export function Settings({ onBack, onReset }: { onBack: () => void; onReset: () 
         </button>
       </div>
       <h2 className="page-title">Nastavení</h2>
+
+      {SERVER_MODE && account && (
+        <>
+          <h3 className="section-title">Účet a synchronizace</h3>
+          <section className="setting-row">
+            <div className="setting-text">
+              <div className="setting-name">{account.email}</div>
+              <p className="muted setting-desc">
+                {syncState.lastSyncAt
+                  ? `Poslední synchronizace: ${new Date(syncState.lastSyncAt).toLocaleString('cs-CZ')}`
+                  : 'Zatím nesynchronizováno.'}
+                {' '}Data se zálohují na server automaticky — na dalším zařízení se stačí přihlásit.
+              </p>
+              <div className="button-row" style={{ marginTop: 10 }}>
+                <button className="btn btn-ghost btn-small" onClick={() => void handleSyncNow()} disabled={syncBusy}>
+                  {syncBusy ? 'Synchronizuji…' : 'Synchronizovat teď'}
+                </button>
+                <button className="btn btn-ghost btn-small" onClick={() => void handleLogout()}>
+                  Odhlásit se
+                </button>
+              </div>
+            </div>
+          </section>
+
+          {pushAvailable && (
+            <>
+              <ToggleRow
+                name="Denní připomínka"
+                desc="Push notifikace s počtem kartiček, které na tebe ten den čekají. Funguje i při zavřené aplikaci (nainstaluj si ji na plochu)."
+                checked={reminder.enabled}
+                onChange={(v) => void toggleReminder(v)}
+              />
+              {reminder.enabled && (
+                <div className="cap-row">
+                  <span>Čas připomínky</span>
+                  <input
+                    className="cap-input"
+                    type="time"
+                    value={reminder.time}
+                    onChange={(e) => void changeReminderTime(e.target.value)}
+                  />
+                </div>
+              )}
+              {reminderError && <p className="form-error">{reminderError}</p>}
+            </>
+          )}
+
+          {account.isAdmin && <AdminUsers />}
+        </>
+      )}
 
       <h3 className="section-title">Učení</h3>
 

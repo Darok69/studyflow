@@ -8,6 +8,10 @@ const base = process.env.STUDYFLOW_BASE ?? '/'
 // https://vite.dev/config/
 export default defineConfig({
   base,
+  server: {
+    // Dev against a local StudyFlow server (server mode): VITE_SERVER=1 npm run dev
+    proxy: { '/api': process.env.STUDYFLOW_API ?? 'http://localhost:3000' },
+  },
   plugins: [
     react(),
     VitePWA({
@@ -39,6 +43,9 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff,woff2}'],
         cleanupOutdatedCaches: true,
         navigateFallback: `${base}index.html`,
+        navigateFallbackDenylist: [/^\/api\//],
+        // Web-push handlers (public/push-sw.js) ride along with the generated SW.
+        importScripts: ['push-sw.js'],
       },
       devOptions: {
         // Keep dev fast; flip to true to exercise the service worker via `npm run dev`.

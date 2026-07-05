@@ -14,6 +14,11 @@ function uuid(): string {
   return crypto.randomUUID()
 }
 
+/** Broadcast that persisted data changed — the sync layer listens for this. */
+function notifyDataChanged(): void {
+  if (typeof window !== 'undefined') window.dispatchEvent(new Event('sf-data-changed'))
+}
+
 export async function getSubjects(): Promise<Subject[]> {
   return db.subjects.toArray()
 }
@@ -62,6 +67,7 @@ export async function importDeck(parsed: ParsedDeck): Promise<{ subjectId: strin
     if (cards.length) await db.cards.bulkAdd(cards)
   })
 
+  notifyDataChanged()
   return { subjectId, cardCount: cards.length }
 }
 
@@ -90,6 +96,7 @@ export async function recordRating(
     await db.cards.put(updated)
     await db.reviews.add(review)
   })
+  notifyDataChanged()
 
   const prev: FsrsFields = {
     due: card.due,
@@ -112,14 +119,16 @@ export async function undoRating(
   reviewId: string,
   prev: FsrsFields,
 ): Promise<Card | null> {
-  return db.transaction('rw', db.cards, db.reviews, async () => {
+  const restored = await db.transaction('rw', db.cards, db.reviews, async () => {
     const cur = await db.cards.get(cardId)
     if (!cur) return null
-    const restored: Card = { ...cur, ...prev }
-    await db.cards.put(restored)
+    const result: Card = { ...cur, ...prev }
+    await db.cards.put(result)
     await db.reviews.delete(reviewId)
-    return restored
+    return result
   })
+  notifyDataChanged()
+  return restored
 }
 
 // ---- Card CRUD (in-app authoring / browser) ----
@@ -138,6 +147,7 @@ export async function addCard(subjectId: string, draft: CardDraft): Promise<Card
     ...newFsrsFields(new Date()),
   }
   await db.cards.add(card)
+  notifyDataChanged()
   return card
 }
 
@@ -146,13 +156,15 @@ export async function updateCard(
   id: string,
   patch: Partial<Pick<Card, 'front' | 'back' | 'raw' | 'tags' | 'svg' | 'image' | 'type' | 'subjectId'>>,
 ): Promise<Card | null> {
-  return db.transaction('rw', db.cards, async () => {
+  const next = await db.transaction('rw', db.cards, async () => {
     const cur = await db.cards.get(id)
     if (!cur) return null
-    const next: Card = { ...cur, ...patch }
-    await db.cards.put(next)
-    return next
+    const result: Card = { ...cur, ...patch }
+    await db.cards.put(result)
+    return result
   })
+  notifyDataChanged()
+  return next
 }
 
 export async function deleteCard(id: string): Promise<void> {
@@ -160,20 +172,24 @@ export async function deleteCard(id: string): Promise<void> {
     await db.reviews.where('cardId').equals(id).delete()
     await db.cards.delete(id)
   })
+  notifyDataChanged()
 }
 
 export async function setCardSuspended(id: string, suspended: boolean): Promise<void> {
   await db.cards.update(id, { suspended })
+  notifyDataChanged()
 }
 
 /** Bury: hide the card for the rest of today; it re-enters the queue tomorrow. */
 export async function buryCard(id: string, now: Date = new Date()): Promise<void> {
   await db.cards.update(id, { buriedUntil: dayKey(now) })
+  notifyDataChanged()
 }
 
 /** Unbury: bring a buried card straight back into today's queue. */
 export async function unburyCard(id: string): Promise<void> {
   await db.cards.update(id, { buriedUntil: null })
+  notifyDataChanged()
 }
 
 // ---- Subject editing ----
@@ -183,6 +199,7 @@ export async function updateSubject(
   patch: Partial<Pick<Subject, 'name' | 'examDate' | 'reminderTime' | 'colorIndex'>>,
 ): Promise<void> {
   await db.subjects.update(id, patch)
+  notifyDataChanged()
 }
 
 // ---- Export / backup ----
@@ -231,6 +248,7 @@ export async function deleteSubject(subjectId: string): Promise<void> {
     await db.cards.where('subjectId').equals(subjectId).delete()
     await db.subjects.delete(subjectId)
   })
+  notifyDataChanged()
 }
 
 /** Wipe everything (used by the reset action). */
@@ -243,6 +261,7 @@ export async function resetAll(): Promise<void> {
       db.settings.clear(),
     ])
   })
+  notifyDataChanged()
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -266,5 +285,6 @@ export async function getSettings(): Promise<Settings> {
 export async function saveSettings(patch: Partial<Omit<Settings, 'id'>>): Promise<Settings> {
   const next: Settings = { ...(await getSettings()), ...patch, id: SETTINGS_ID }
   await db.settings.put(next)
+  notifyDataChanged()
   return next
 }

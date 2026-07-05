@@ -6,6 +6,7 @@ import { assessLoad } from '../lib/wellbeing'
 import { encouragement } from '../lib/encouragement'
 import { subjectReadiness, type Readiness } from '../lib/readiness'
 import { currentStreak, reviewsToday } from '../stats/stats'
+import { updateAppBadge } from '../lib/badge'
 import { SubjectCard } from '../components/SubjectCard'
 import { SubjectEditor } from '../components/SubjectEditor'
 
@@ -59,6 +60,9 @@ export function Home({ onImport, onStudy, onCram, onBrowser, onStats, onSettings
     { newCardCap: settings?.dailyNewCapEnabled ? settings.dailyNewCap : null },
   )
 
+  // "Widget": the installed-app icon shows how many cards wait today.
+  updateAppBadge(session.total)
+
   const load_ = assessLoad(session.total)
   const ts = reviews.map((r) => r.ts)
   const message = encouragement({
@@ -82,19 +86,17 @@ export function Home({ onImport, onStudy, onCram, onBrowser, onStats, onSettings
 
   return (
     <div className="page">
-      {subjects.length > 0 && (
-        <nav className="home-nav">
-          <button className="btn btn-ghost btn-small" onClick={onBrowser}>
-            Kartičky
-          </button>
-          <button className="btn btn-ghost btn-small" onClick={onStats}>
-            Statistiky
-          </button>
-          <button className="btn btn-ghost btn-small" onClick={onSettings}>
-            Nastavení
-          </button>
-        </nav>
-      )}
+      <nav className="home-nav">
+        <button className="btn btn-ghost btn-small" onClick={onBrowser}>
+          Kartičky
+        </button>
+        <button className="btn btn-ghost btn-small" onClick={onStats}>
+          Statistiky
+        </button>
+        <button className="btn btn-ghost btn-small" onClick={onSettings}>
+          Nastavení
+        </button>
+      </nav>
 
       <section className="today-banner">
         <div>
