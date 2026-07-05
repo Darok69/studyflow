@@ -19,4 +19,4 @@ volumes:
 networks:
   web:
     external: true
-    name: dmarka_default
+    name: dmarka-prod_dmarka
