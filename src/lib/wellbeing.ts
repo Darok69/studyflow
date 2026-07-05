@@ -29,3 +29,12 @@ export function assessLoad(cardCount: number): LoadAssessment {
     heavy: cardCount > HEAVY_CARD_THRESHOLD || minutes > HEAVY_MINUTES_THRESHOLD,
   }
 }
+
+// ---- Leech detection ----
+// A card that keeps lapsing is a formulation problem, not a willpower problem.
+// Anki suspends leeches; we instead surface a gentle "rewrite me" suggestion.
+export const LEECH_LAPSES = 6
+
+export function isLeech(card: { lapses: number; state: string }): boolean {
+  return card.state !== 'new' && card.lapses >= LEECH_LAPSES
+}

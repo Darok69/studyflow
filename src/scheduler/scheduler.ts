@@ -1,7 +1,7 @@
 // Pure scheduling core. No DB, no React, no side effects — easy to test and
 // reason about. Builds today's interleaved study queue across subjects.
 import type { FsrsStateName } from '../db/db'
-import { daysUntil, endOfDay } from '../lib/date'
+import { dayKey, daysUntil, endOfDay } from '../lib/date'
 
 export interface SchedSubject {
   id: string
@@ -13,6 +13,18 @@ export interface SchedCard {
   subjectId: string
   state: FsrsStateName
   due: string // ISO
+  suspended?: boolean
+  buriedUntil?: string | null // YYYY-MM-DD
+}
+
+/**
+ * A card takes part in scheduling unless it is suspended or still buried.
+ * (Day keys are ISO dates, so string comparison is chronological.)
+ */
+export function isSchedulable(card: SchedCard, now: Date): boolean {
+  if (card.suspended) return false
+  if (card.buriedUntil && card.buriedUntil >= dayKey(now)) return false
+  return true
 }
 
 export interface SubjectPlan {
@@ -100,9 +112,12 @@ export function buildSession(
     typeof opts.newCardCap === 'number' ? Math.max(0, Math.floor(opts.newCardCap)) : Infinity
 
   for (const s of ordered) {
-    const list = bySubject.get(s.id) ?? []
-    const due = list.filter((c) => isDueReview(c, now)).sort(byDueAsc)
-    const news = list.filter((c) => c.state === 'new')
+    // Suspended cards leave the subject entirely; buried ones only sit out the
+    // queue for today but still count toward the subject's totals.
+    const list = (bySubject.get(s.id) ?? []).filter((c) => !c.suspended)
+    const active = list.filter((c) => isSchedulable(c, now))
+    const due = active.filter((c) => isDueReview(c, now)).sort(byDueAsc)
+    const news = active.filter((c) => c.state === 'new')
     const dExam = daysUntil(s.examDate, now)
     const quota = Math.min(newCardQuota(news.length, dExam), news.length, capRemaining)
     capRemaining -= quota
@@ -159,13 +174,14 @@ export function subjectStats(
   cards: SchedCard[],
   now: Date = new Date(),
 ): SubjectStats {
-  const list = cards.filter((c) => c.subjectId === subject.id)
-  const news = list.filter((c) => c.state === 'new')
+  const list = cards.filter((c) => c.subjectId === subject.id && !c.suspended)
+  const active = list.filter((c) => isSchedulable(c, now))
+  const news = active.filter((c) => c.state === 'new')
   const dExam = daysUntil(subject.examDate, now)
   return {
     total: list.length,
     studied: list.filter((c) => c.state !== 'new').length,
-    dueToday: list.filter((c) => isDueReview(c, now)).length,
+    dueToday: active.filter((c) => isDueReview(c, now)).length,
     newToday: Math.min(newCardQuota(news.length, dExam), news.length),
     daysUntilExam: dExam,
   }

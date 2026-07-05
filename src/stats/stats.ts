@@ -70,3 +70,57 @@ export function reviewsInLastDays(timestamps: string[], days: number, now: Date 
   const cutoff = startOfDay(addDays(now, -(days - 1))).getTime()
   return timestamps.reduce((n, ts) => (new Date(ts).getTime() >= cutoff ? n + 1 : n), 0)
 }
+
+export interface HeatCell {
+  key: string // YYYY-MM-DD
+  count: number
+  level: 0 | 1 | 2 | 3 | 4 // 0 = none; 1–4 scale relative to the busiest day
+  future: boolean // after today (rendered blank)
+}
+
+/**
+ * GitHub-style activity heatmap: `weeks` columns of Monday-first weeks ending
+ * with the current week. Levels are relative to the busiest day in range so
+ * light and heavy studiers both get a readable gradient.
+ */
+export function heatmapWeeks(
+  timestamps: string[],
+  weeks: number = 12,
+  now: Date = new Date(),
+): HeatCell[][] {
+  const counts = new Map<string, number>()
+  for (const ts of timestamps) {
+    const k = dayKey(new Date(ts))
+    counts.set(k, (counts.get(k) ?? 0) + 1)
+  }
+
+  const today = startOfDay(now)
+  // Monday of the current week (getDay(): 0 = Sunday → back 6 days).
+  const mondayShift = (today.getDay() + 6) % 7
+  const firstMonday = addDays(today, -mondayShift - (weeks - 1) * 7)
+
+  let max = 0
+  for (const [, n] of counts) max = Math.max(max, n)
+
+  const level = (n: number): HeatCell['level'] => {
+    if (n <= 0 || max === 0) return 0
+    const r = n / max
+    if (r <= 0.25) return 1
+    if (r <= 0.5) return 2
+    if (r <= 0.75) return 3
+    return 4
+  }
+
+  const grid: HeatCell[][] = []
+  for (let w = 0; w < weeks; w++) {
+    const col: HeatCell[] = []
+    for (let d = 0; d < 7; d++) {
+      const day = addDays(firstMonday, w * 7 + d)
+      const k = dayKey(day)
+      const n = counts.get(k) ?? 0
+      col.push({ key: k, count: n, level: level(n), future: day.getTime() > today.getTime() })
+    }
+    grid.push(col)
+  }
+  return grid
+}

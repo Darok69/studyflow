@@ -156,8 +156,50 @@ Colour carries meaning, and the two meanings are kept strictly separate:
 These signals are computed by small pure modules (`src/lib/wellbeing.ts`,
 `src/stats/stats.ts`, `src/lib/encouragement.ts`) and covered by `npm test`.
 
+## Sprint 3 — Anki parity, customisation, learning extras
+
+**Anki-basics parity**
+
+- **Card browser** (Kartičky): full-text search (front/back/tags), filter by
+  subject and state (new / learning / suspended / leech), inline edit.
+- **In-app authoring**: create/edit basic + cloze cards (cloze re-derived from
+  the `{{...}}` source), move cards between subjects, edit tags, delete.
+- **Suspend & bury**: suspend indefinitely (excluded from scheduling and
+  readiness; restore from the browser), bury for the rest of today.
+- **Undo** (button or `Z`): restores the card's FSRS state and deletes the
+  review log entry; works mid-session and on the finish screen.
+- **Interval previews** on the rating buttons (what each answer schedules),
+  deadline clamp included. Toggleable.
+- **Export / import**: per-subject deck export (round-trips through the JSON
+  import), full-app backup + restore (subjects, cards, reviews, settings).
+- **Subject editing**: rename, exam date, reminder, identity colour (8 swatches),
+  delete, export.
+
+**Customisation** (Settings)
+
+- FSRS **target retention** slider (80–95 %), interval previews, typed answers,
+  daily new-card cap, break-nudge interval, card font size (3 steps),
+  serif/sans card face.
+
+**Learning extras (beyond Anki)**
+
+- **Exam readiness** — per-subject mean FSRS retrievability *at the exam date*
+  ("if the exam were on its day, how much would I recall?"). Shown on the
+  subject card and as bars in Stats. New cards count 0, so it honestly reflects
+  both coverage and stability.
+- **Typed answers** (active recall): for short answers you type first; graded
+  with a diacritics/typo-forgiving similarity (correct / close / wrong). Cloze
+  cards expect the blanked answers.
+- **Cram mode** (Procvičit on a subject card): practice the whole subject,
+  weakest-recall first, **without touching the FSRS plan** or the review log.
+- **Leech detection**: a card with ≥ 6 lapses triggers a gentle "rewrite me"
+  suggestion with a one-tap editor (no auto-suspend punishment).
+- **Activity heatmap**: GitHub-style 12-week review grid in Stats.
+
 ## Status
 
-Sprints 1–2, fully offline, no backend: import → deadline-weighted schedule →
-study → persist, with per-subject colour identity, wellbeing guardrails, a gentle
-stats/streak view, and a settings screen. No sync, push, or accounts yet.
+Sprints 1–3, fully offline, no backend: import/authoring → deadline-weighted
+schedule → study (typed answers, undo, previews, cram) → persist, with
+per-subject colour identity, wellbeing guardrails, readiness forecasting,
+stats/streak/heatmap, deep customisation, and full backup/restore. No sync,
+push, or accounts yet.

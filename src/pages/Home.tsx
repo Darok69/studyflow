@@ -1,25 +1,30 @@
 import { useEffect, useState } from 'react'
 import type { Card, Review, Settings, Subject } from '../db/db'
-import { deleteSubject, getCards, getReviews, getSettings, getSubjects } from '../db/repo'
+import { getCards, getReviews, getSettings, getSubjects } from '../db/repo'
 import { buildSession, type SchedCard, type SubjectPlan } from '../scheduler/scheduler'
 import { assessLoad } from '../lib/wellbeing'
 import { encouragement } from '../lib/encouragement'
+import { subjectReadiness, type Readiness } from '../lib/readiness'
 import { currentStreak, reviewsToday } from '../stats/stats'
 import { SubjectCard } from '../components/SubjectCard'
+import { SubjectEditor } from '../components/SubjectEditor'
 
 interface Props {
   onImport: () => void
   onStudy: () => void
+  onCram: (subjectId: string) => void
+  onBrowser: () => void
   onStats: () => void
   onSettings: () => void
 }
 
-export function Home({ onImport, onStudy, onStats, onSettings }: Props) {
+export function Home({ onImport, onStudy, onCram, onBrowser, onStats, onSettings }: Props) {
   const [loading, setLoading] = useState(true)
   const [subjects, setSubjects] = useState<Subject[]>([])
   const [cards, setCards] = useState<Card[]>([])
   const [reviews, setReviews] = useState<Review[]>([])
   const [settings, setSettings] = useState<Settings | null>(null)
+  const [editing, setEditing] = useState<Subject | null>(null)
 
   async function load() {
     const [s, c, r, st] = await Promise.all([getSubjects(), getCards(), getReviews(), getSettings()])
@@ -34,12 +39,6 @@ export function Home({ onImport, onStudy, onStats, onSettings }: Props) {
     void load()
   }, [])
 
-  async function handleDelete(subject: Subject) {
-    if (!window.confirm(`Smazat předmět „${subject.name}" a všechny jeho karty?`)) return
-    await deleteSubject(subject.id)
-    await load()
-  }
-
   if (loading) {
     return <div className="page center muted">Načítám…</div>
   }
@@ -50,6 +49,8 @@ export function Home({ onImport, onStudy, onStats, onSettings }: Props) {
     subjectId: c.subjectId,
     state: c.state,
     due: c.due,
+    suspended: c.suspended,
+    buriedUntil: c.buriedUntil,
   }))
   const session = buildSession(
     subjects.map((s) => ({ id: s.id, examDate: s.examDate })),
@@ -68,14 +69,24 @@ export function Home({ onImport, onStudy, onStats, onSettings }: Props) {
   })
 
   const subjectById = new Map(subjects.map((s) => [s.id, s]))
-  const plans: { subject: Subject; plan: SubjectPlan }[] = session.perSubject
-    .map((plan) => ({ subject: subjectById.get(plan.subjectId), plan }))
-    .filter((x): x is { subject: Subject; plan: SubjectPlan } => x.subject !== undefined)
+  const retention = settings?.targetRetention
+  const plans: { subject: Subject; plan: SubjectPlan; readiness: Readiness | null }[] =
+    session.perSubject
+      .map((plan) => {
+        const subject = subjectById.get(plan.subjectId)
+        if (!subject) return null
+        const own = cards.filter((c) => c.subjectId === subject.id)
+        return { subject, plan, readiness: subjectReadiness(own, subject.examDate, now, retention) }
+      })
+      .filter((x): x is { subject: Subject; plan: SubjectPlan; readiness: Readiness | null } => x !== null)
 
   return (
     <div className="page">
       {subjects.length > 0 && (
         <nav className="home-nav">
+          <button className="btn btn-ghost btn-small" onClick={onBrowser}>
+            Kartičky
+          </button>
           <button className="btn btn-ghost btn-small" onClick={onStats}>
             Statistiky
           </button>
@@ -125,10 +136,26 @@ export function Home({ onImport, onStudy, onStats, onSettings }: Props) {
         </div>
       ) : (
         <div className="subject-list">
-          {plans.map(({ subject, plan }) => (
-            <SubjectCard key={subject.id} subject={subject} plan={plan} onDelete={handleDelete} />
+          {plans.map(({ subject, plan, readiness }) => (
+            <SubjectCard
+              key={subject.id}
+              subject={subject}
+              plan={plan}
+              readiness={readiness}
+              onEdit={setEditing}
+              onCram={(s) => onCram(s.id)}
+            />
           ))}
         </div>
+      )}
+
+      {editing && (
+        <SubjectEditor
+          subject={editing}
+          onSaved={() => void load()}
+          onDeleted={() => void load()}
+          onClose={() => setEditing(null)}
+        />
       )}
     </div>
   )

@@ -36,8 +36,13 @@ function isValidTime(v: unknown): v is string {
   return typeof v === 'string' && TIME_RE.test(v)
 }
 
+/** True when a text contains at least one {{cloze}} blank (editor validation). */
+export function hasCloze(text: string): boolean {
+  return HAS_CLOZE.test(text)
+}
+
 /** A cloze "The {{Twelve Tables}} were ..." → blanked front + filled back. */
-function makeCloze(text: string): { front: string; back: string; raw: string } {
+export function makeCloze(text: string): { front: string; back: string; raw: string } {
   const front = text.replace(CLOZE_RE, BLANK)
   const back = text.replace(CLOZE_RE, (_m, answer) => `［ ${String(answer).trim()} ］`)
   return { front, back, raw: text }

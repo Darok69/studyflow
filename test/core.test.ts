@@ -1,14 +1,31 @@
 // Pure-logic test suite (no DOM / no IndexedDB). Run with `npm test`, which
 // bundles this with rolldown and executes it on Node. Covers the Sprint 1
-// scheduler/FSRS/parsing core plus the Sprint 2 identity + wellbeing + stats.
-import { parseDeck } from '../src/import/parseDeck'
-import { buildSession, newCardQuota, subjectStats, reinsertAgain } from '../src/scheduler/scheduler'
-import { rate, newFsrsFields } from '../src/scheduler/fsrs'
-import { daysUntil, endOfDay } from '../src/lib/date'
+// scheduler/FSRS/parsing core, the Sprint 2 identity + wellbeing + stats, and
+// the Sprint 3 Anki-parity / customisation / learning extras.
+import { parseDeck, makeCloze, hasCloze } from '../src/import/parseDeck'
+import { deckToJson } from '../src/import/exportDeck'
+import { backupToJson, parseBackup } from '../src/import/backup'
+import {
+  buildSession,
+  isSchedulable,
+  newCardQuota,
+  subjectStats,
+  reinsertAgain,
+} from '../src/scheduler/scheduler'
+import { rate, newFsrsFields, previewIntervals, retrievabilityAt } from '../src/scheduler/fsrs'
+import { daysUntil, daysUntilDate, endOfDay } from '../src/lib/date'
 import { subjectColor, subjectColorIndex, subjectPalette, SUBJECT_COLOR_COUNT } from '../src/lib/theme'
-import { assessLoad, estimateMinutes } from '../src/lib/wellbeing'
-import { currentStreak, reviewsInLastDays, reviewsLast7Days, reviewsToday } from '../src/stats/stats'
+import { assessLoad, estimateMinutes, isLeech, LEECH_LAPSES } from '../src/lib/wellbeing'
+import {
+  currentStreak,
+  heatmapWeeks,
+  reviewsInLastDays,
+  reviewsLast7Days,
+  reviewsToday,
+} from '../src/stats/stats'
 import { encouragement } from '../src/lib/encouragement'
+import { answerSimilarity, checkAnswer, normalizeAnswer, typedAnswerTarget } from '../src/lib/answer'
+import { readinessBand, subjectReadiness } from '../src/lib/readiness'
 
 let pass = 0
 let fail = 0
@@ -170,6 +187,146 @@ ok(encouragement({ totalReviews: 10, remainingToday: 0, studiedToday: true, stre
 const missed = encouragement({ totalReviews: 10, remainingToday: 5, studiedToday: false, streak: 0 })
 ok(missed.includes('nevadí') && !/zmeškal|selhal|ztratil/i.test(missed), 'missed day is kind, never punitive')
 ok(encouragement({ totalReviews: 10, remainingToday: 5, studiedToday: true, streak: 3 }).includes('sérii 3'), 'active streak is framed positively')
+
+// ============================================================
+// Sprint 3 — suspend / bury scheduling
+// ============================================================
+console.log('— suspend + bury filtering —')
+const today = new Date('2026-07-05T09:00:00')
+ok(isSchedulable(mk('a', 's', 'new', today.toISOString()), today), 'plain card is schedulable')
+ok(
+  !isSchedulable({ ...mk('a', 's', 'new', today.toISOString()), suspended: true }, today),
+  'suspended card is not schedulable',
+)
+ok(
+  !isSchedulable({ ...mk('a', 's', 'new', today.toISOString()), buriedUntil: '2026-07-05' }, today),
+  'card buried through today is not schedulable',
+)
+ok(
+  isSchedulable({ ...mk('a', 's', 'new', today.toISOString()), buriedUntil: '2026-07-04' }, today),
+  'card buried through yesterday is schedulable again',
+)
+
+const mixSubjects = [{ id: 's1', examDate: '2026-07-10' }]
+const mixCards = [
+  mk('due-ok', 's1', 'review', '2026-07-04T09:00:00'),
+  { ...mk('due-susp', 's1', 'review', '2026-07-04T09:00:00'), suspended: true },
+  { ...mk('due-buried', 's1', 'review', '2026-07-04T09:00:00'), buriedUntil: '2026-07-05' },
+  mk('new-ok', 's1', 'new', today.toISOString()),
+]
+const mixSession = buildSession(mixSubjects, mixCards, today)
+ok(mixSession.dueReviews === 1, `suspended+buried excluded from due (got ${mixSession.dueReviews})`)
+ok(!mixSession.order.includes('due-susp') && !mixSession.order.includes('due-buried'), 'queue omits them')
+const mixPlan = mixSession.perSubject[0]
+ok(mixPlan.total === 3, `suspended card leaves totals; buried stays (total ${mixPlan.total})`)
+const mixStats = subjectStats(mixSubjects[0], mixCards, today)
+ok(mixStats.dueToday === 1 && mixStats.total === 3, 'subjectStats applies the same filtering')
+
+console.log('— interval previews + retention —')
+const previewCard = {
+  id: 'p', subjectId: 's1', type: 'basic' as const, front: 'q', back: 'a', tags: [],
+  due: today.toISOString(), stability: 10, difficulty: 5, reps: 4, lapses: 0,
+  state: 'review' as const, lastReview: '2026-06-30T09:00:00',
+}
+const prev = previewIntervals(previewCard, null, today)
+ok(prev.again <= prev.hard && prev.hard <= prev.good && prev.good <= prev.easy, 'intervals are monotone in rating')
+ok(prev.good >= 1, 'good schedules at least a day ahead')
+const prevClamped = previewIntervals(previewCard, '2026-07-08', today)
+ok(prevClamped.easy <= 3, `deadline clamp caps preview at exam (easy ${prevClamped.easy})`)
+const lowRet = rate(previewCard, 'good', null, today, 0.8)
+const highRet = rate(previewCard, 'good', null, today, 0.95)
+ok(
+  new Date(lowRet.due).getTime() > new Date(highRet.due).getTime(),
+  'lower target retention spaces reviews further apart',
+)
+
+console.log('— retrievability + readiness —')
+const newCard = {
+  id: 'n', subjectId: 's1', type: 'basic' as const, front: 'q', back: 'a', tags: [],
+  ...newFsrsFields(today),
+}
+ok(retrievabilityAt(newCard, today) === 0, 'never-studied card has 0 retrievability')
+const strongCard = { ...previewCard, stability: 200 }
+const rNow = retrievabilityAt(strongCard, today)
+ok(rNow > 0.9, `stable card recently reviewed ≈ high recall (got ${rNow.toFixed(3)})`)
+const rLater = retrievabilityAt(strongCard, new Date('2027-07-05T09:00:00'))
+ok(rLater < rNow, 'recall decays with time')
+
+ok(subjectReadiness([], null, today) === null, 'empty subject has no readiness')
+const readyAllNew = subjectReadiness([newCard], '2026-07-10', today)!
+ok(readyAllNew.percent === 0 && readyAllNew.learned === 0, 'all-new subject reads 0 %')
+const readyMixed = subjectReadiness([newCard, strongCard], '2026-07-06', today)!
+ok(readyMixed.percent > 0 && readyMixed.percent < 100, 'mixed subject lands between 0 and 100')
+ok(readyMixed.learned === 1 && readyMixed.total === 2, 'readiness counts learned/total')
+const readySuspended = subjectReadiness([newCard, { ...strongCard, suspended: true }], '2026-07-06', today)!
+ok(readySuspended.percent === 0, 'suspended cards do not count toward readiness')
+ok(readinessBand(90) === 'solid' && readinessBand(60) === 'building' && readinessBand(20) === 'fragile', 'readiness bands')
+
+console.log('— typed answers —')
+ok(normalizeAnswer('  Řím,  hlavní!  ') === 'rim hlavni', 'normalize strips diacritics + punctuation')
+ok(answerSimilarity('Praha', 'praha') === 1, 'case-insensitive match')
+ok(checkAnswer('Ceska republika', 'Česká republika').verdict === 'correct', 'diacritics-free answer is correct')
+ok(checkAnswer('Cesk republika', 'Česká republika').verdict === 'correct', 'one typo in a long answer still correct')
+ok(checkAnswer('Ceska repulika ano', 'Česká republika').verdict !== 'wrong', 'near-miss is at least close')
+ok(checkAnswer('Brno', 'Česká republika').verdict === 'wrong', 'different answer is wrong')
+ok(typedAnswerTarget({ type: 'basic', back: 'Praha' }) === 'Praha', 'short basic back is typeable')
+ok(typedAnswerTarget({ type: 'basic', back: 'a\nb' }) === null, 'multi-line back is not typeable')
+ok(typedAnswerTarget({ type: 'basic', back: 'x'.repeat(100) }) === null, 'long back is not typeable')
+ok(
+  typedAnswerTarget({ type: 'cloze', back: '', raw: 'A {{b}} c {{d}}.' }) === 'b, d',
+  'cloze target joins the blanked answers',
+)
+
+console.log('— leech detection —')
+ok(!isLeech({ lapses: LEECH_LAPSES - 1, state: 'review' }), 'below threshold is not a leech')
+ok(isLeech({ lapses: LEECH_LAPSES, state: 'review' }), 'at threshold is a leech')
+ok(!isLeech({ lapses: LEECH_LAPSES, state: 'new' }), 'new card is never a leech')
+
+console.log('— cloze helpers —')
+ok(hasCloze('a {{b}} c') && !hasCloze('a b c'), 'hasCloze detects blanks')
+const mc = makeCloze('a {{b}} c')
+ok(mc.front.includes('___') && mc.back.includes('b') && mc.raw === 'a {{b}} c', 'makeCloze round trip')
+
+console.log('— deck export round trip —')
+const exported = deckToJson(
+  { name: 'Právo', examDate: '2026-07-15', reminderTime: '18:30' },
+  [
+    { ...newCard, front: 'Q?', back: 'A', tags: ['ius'] },
+    { ...newCard, id: 'n2', type: 'cloze', ...makeCloze('The {{Twelve Tables}}.'), tags: [] },
+  ],
+)
+const reparsed = parseDeck(exported)
+ok(reparsed.errors.length === 0, 'exported deck re-imports without errors')
+ok(reparsed.subject.name === 'Právo' && reparsed.subject.examDate === '2026-07-15', 'subject fields survive')
+ok(reparsed.cards.length === 2, 'both cards survive')
+ok(reparsed.cards[1].raw === 'The {{Twelve Tables}}.', 'cloze raw text survives the round trip')
+ok(reparsed.cards[0].tags.join() === 'ius', 'tags survive')
+
+console.log('— backup parse —')
+const backupJson = backupToJson({
+  exportedAt: today.toISOString(),
+  subjects: [{ id: 's1', name: 'X', examDate: null, reminderTime: null, createdAt: today.toISOString(), colorIndex: 0 }],
+  cards: [newCard],
+  reviews: [],
+  settings: null,
+})
+const parsedBackup = parseBackup(backupJson)
+ok(parsedBackup.error === null && parsedBackup.backup !== null, 'valid backup parses')
+ok(parsedBackup.backup!.subjects.length === 1 && parsedBackup.backup!.cards.length === 1, 'backup keeps data')
+ok(parseBackup('{ nope').backup === null, 'invalid JSON rejected')
+ok(parseBackup('{"kind":"x"}').backup === null, 'foreign JSON rejected')
+ok(parseBackup(JSON.stringify({ kind: 'studyflow-backup', version: 99, subjects: [], cards: [], reviews: [] })).backup === null, 'newer version rejected')
+
+console.log('— heatmap —')
+const heat = heatmapWeeks([T('27'), T('27'), T('26')], 12, now)
+ok(heat.length === 12 && heat.every((w) => w.length === 7), '12 weeks × 7 days')
+const flat = heat.flat()
+const todayCell = flat.find((c) => c.key === '2026-06-27')!
+ok(todayCell.count === 2 && todayCell.level === 4, 'busiest day gets the top level')
+ok(flat.find((c) => c.key === '2026-06-26')!.level >= 1, 'lighter day gets a lighter level')
+ok(flat.find((c) => c.key === '2026-06-28')!.future === true, 'days after today are marked future')
+ok(flat.filter((c) => !c.future).every((c) => c.level >= 0), 'no negative levels')
+ok(daysUntilDate(new Date('2026-06-30T01:00:00'), now) === 3, 'daysUntilDate counts local days')
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)
 if (fail > 0) process.exit(1)

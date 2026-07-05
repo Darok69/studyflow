@@ -1,15 +1,22 @@
 import { useState } from 'react'
 import { Home } from './pages/Home'
 import { Import } from './pages/Import'
-import { Study } from './pages/Study'
+import { Study, type StudyMode } from './pages/Study'
 import { Stats } from './pages/Stats'
 import { Settings } from './pages/Settings'
+import { Browser } from './pages/Browser'
 
-type View = 'home' | 'import' | 'study' | 'stats' | 'settings'
+type View = 'home' | 'import' | 'study' | 'browser' | 'stats' | 'settings'
 
 function App() {
   const [view, setView] = useState<View>('home')
+  const [studyMode, setStudyMode] = useState<StudyMode>({ kind: 'today' })
   const goHome = () => setView('home')
+
+  function startStudy(mode: StudyMode) {
+    setStudyMode(mode)
+    setView('study')
+  }
 
   return (
     <div className="app">
@@ -29,13 +36,16 @@ function App() {
         {view === 'home' && (
           <Home
             onImport={() => setView('import')}
-            onStudy={() => setView('study')}
+            onStudy={() => startStudy({ kind: 'today' })}
+            onCram={(subjectId) => startStudy({ kind: 'cram', subjectId })}
+            onBrowser={() => setView('browser')}
             onStats={() => setView('stats')}
             onSettings={() => setView('settings')}
           />
         )}
         {view === 'import' && <Import onDone={goHome} onCancel={goHome} />}
-        {view === 'study' && <Study onDone={goHome} />}
+        {view === 'study' && <Study onDone={goHome} mode={studyMode} />}
+        {view === 'browser' && <Browser onBack={goHome} />}
         {view === 'stats' && <Stats onBack={goHome} />}
         {view === 'settings' && <Settings onBack={goHome} onReset={goHome} />}
       </main>

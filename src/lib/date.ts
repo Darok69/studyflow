@@ -41,6 +41,11 @@ export function daysUntil(examDate: string | null, now: Date = new Date()): numb
   return Math.round((exam - today) / DAY_MS)
 }
 
+/** Whole local calendar days from today to a Date (negative = in the past). */
+export function daysUntilDate(d: Date, now: Date = new Date()): number {
+  return Math.round((startOfDay(d).getTime() - startOfDay(now).getTime()) / DAY_MS)
+}
+
 export function urgency(days: number | null): Urgency {
   if (days === null) return 'none'
   if (days <= 3) return 'near'

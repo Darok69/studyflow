@@ -253,24 +253,6 @@ h3 {
   color: var(--far);
 }
 
-.subject-delete {
-  position: absolute;
-  top: 14px;
-  right: 16px;
-  display: none;
-  background: none;
-  border: 0;
-  color: var(--muted);
-  font-size: 12px;
-}
-
-.subject-card:hover .subject-delete {
-  display: block;
-}
-
-.subject-delete:hover {
-  color: var(--near);
-}
 
 /* ---------- Progress bar ---------- */
 .progress {
@@ -840,6 +822,569 @@ h3 {
 .btn-danger:hover {
   background: color-mix(in srgb, var(--near) 14%, var(--panel));
   border-color: var(--near);
+}
+
+/* ===================================================================
+   Sprint 3 — Anki-parity + customisation + learning extras
+   =================================================================== */
+
+/* Card text scales with the user's font-size preference. */
+.card-front {
+  font-size: calc(21px * var(--card-scale, 1));
+}
+
+.card-back {
+  font-size: calc(18px * var(--card-scale, 1));
+}
+
+.paper-sans {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* ---------- Modal ---------- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(10, 10, 16, 0.6);
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 48px 16px 16px;
+  overflow-y: auto;
+}
+
+.modal-panel {
+  width: 100%;
+  max-width: 520px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 18px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+}
+
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.modal-title {
+  font-size: 17px;
+}
+
+.modal-actions {
+  margin-top: 4px;
+  align-items: center;
+}
+
+.flex-spacer {
+  flex: 1;
+}
+
+/* ---------- Forms ---------- */
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+}
+
+.form-row .form-field {
+  flex: 1;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 12px;
+  background: var(--desk);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font: inherit;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.form-textarea {
+  min-height: 84px;
+  resize: vertical;
+}
+
+.form-error {
+  margin: 0;
+  padding: 10px 14px;
+  background: color-mix(in srgb, var(--near) 14%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--near) 40%, transparent);
+  border-radius: 10px;
+  color: #ffd9d6;
+  font-size: 14px;
+}
+
+/* ---------- Segmented control ---------- */
+.segmented {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--desk);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.segment {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 7px 12px;
+  border-radius: 7px;
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.segment:hover {
+  color: var(--ink);
+}
+
+.segment-active {
+  background: var(--panel);
+  color: var(--ink);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- Colour swatches (subject editor) ---------- */
+.swatch-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.swatch {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  padding: 0;
+  transition: transform 0.08s ease;
+}
+
+.swatch:hover {
+  transform: scale(1.1);
+}
+
+.swatch-active {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ink) 25%, transparent);
+}
+
+/* ---------- Subject card actions + readiness ---------- */
+.subject-actions {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  display: none;
+  gap: 6px;
+}
+
+.subject-card:hover .subject-actions,
+.subject-card:focus-within .subject-actions {
+  display: flex;
+}
+
+.subject-action {
+  background: var(--desk);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+.subject-action:hover {
+  color: var(--ink);
+  border-color: var(--muted);
+}
+
+/* No hover on touch devices → keep the actions always visible there. */
+@media (hover: none) {
+  .subject-actions {
+    display: flex;
+  }
+}
+
+.readiness-pill {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* ---------- Study extras ---------- */
+.rate-interval {
+  font-size: 11px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.card-tools {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+}
+
+.card-tool {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.card-tool:hover {
+  color: var(--ink);
+  border-color: var(--muted);
+}
+
+.type-cram {
+  background: color-mix(in srgb, var(--mid) 20%, transparent);
+  color: var(--mid);
+}
+
+.cram-note {
+  padding: 10px 14px;
+  font-size: 13.5px;
+  background: color-mix(in srgb, var(--mid) 10%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--mid) 30%, transparent);
+  border-radius: 10px;
+  color: var(--muted);
+}
+
+.leech-hint {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+  background: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 36%, transparent);
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.leech-actions {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.answer-row {
+  display: flex;
+  gap: 8px;
+}
+
+.answer-input {
+  flex: 1;
+  font-size: 16px;
+}
+
+.verdict {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 14.5px;
+  font-weight: 600;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.verdict-answer {
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 13.5px;
+}
+
+.verdict-correct {
+  background: color-mix(in srgb, var(--far) 14%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--far) 40%, transparent);
+  color: var(--far);
+}
+
+.verdict-close {
+  background: color-mix(in srgb, var(--mid) 14%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--mid) 40%, transparent);
+  color: var(--mid);
+}
+
+.verdict-wrong {
+  background: color-mix(in srgb, var(--near) 12%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--near) 36%, transparent);
+  color: #ffb3ad;
+}
+
+/* ---------- Card browser ---------- */
+.browser-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.browser-search {
+  flex: 2;
+  min-width: 200px;
+}
+
+.browser-select {
+  flex: 1;
+  min-width: 150px;
+}
+
+.browser-states {
+  align-self: flex-start;
+}
+
+.browser-count {
+  margin: -6px 0 0;
+  font-size: 13px;
+}
+
+.card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.card-row-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: 0;
+  color: var(--ink);
+  text-align: left;
+  padding: 0;
+}
+
+.card-row-front {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14.5px;
+}
+
+.card-row-meta {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.row-chip {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--desk);
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.row-chip-new {
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  color: #c2bbff;
+}
+
+.row-chip-suspended {
+  border-color: color-mix(in srgb, var(--muted) 60%, transparent);
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
+.row-chip-leech {
+  border-color: color-mix(in srgb, var(--near) 50%, transparent);
+  color: #ffb3ad;
+}
+
+.row-chip-tag {
+  border-style: dashed;
+}
+
+/* ---------- Heatmap ---------- */
+.heatmap {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.heatmap-days {
+  display: grid;
+  grid-template-rows: repeat(7, 12px);
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.heatmap-day-label {
+  font-size: 9px;
+  color: var(--muted);
+  line-height: 12px;
+}
+
+.heatmap-grid {
+  display: flex;
+  gap: 3px;
+}
+
+.heatmap-col {
+  display: grid;
+  grid-template-rows: repeat(7, 12px);
+  gap: 3px;
+}
+
+.heat-cell {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--desk);
+  border: 1px solid color-mix(in srgb, var(--line) 60%, transparent);
+}
+
+.heat-future {
+  background: transparent;
+  border-color: transparent;
+}
+
+.heat-1 {
+  background: color-mix(in srgb, var(--accent) 25%, var(--desk));
+}
+
+.heat-2 {
+  background: color-mix(in srgb, var(--accent) 45%, var(--desk));
+}
+
+.heat-3 {
+  background: color-mix(in srgb, var(--accent) 70%, var(--desk));
+}
+
+.heat-4 {
+  background: var(--accent);
+}
+
+/* ---------- Readiness (stats) ---------- */
+.readiness-note {
+  margin: -4px 0 0;
+  font-size: 13px;
+}
+
+.readiness-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.readiness-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.readiness-name {
+  flex: 0 0 32%;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.readiness-bar {
+  flex: 1;
+  height: 8px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.readiness-fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.25s ease;
+}
+
+.readiness-value {
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  min-width: 42px;
+  text-align: right;
+}
+
+/* ---------- Settings extras ---------- */
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.slider-row input[type='range'] {
+  flex: 1;
+  accent-color: var(--accent);
+}
+
+.slider-value {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  min-width: 44px;
+  text-align: right;
+}
+
+.setting-segmented {
+  margin-top: 10px;
 }
 
 /* ---------- Comfort: respect reduced-motion ---------- */

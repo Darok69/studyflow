@@ -24,6 +24,8 @@ export interface Card {
   tags: string[]
   svg?: string // inline SVG markup (sanitized at render time)
   image?: string // image URL (rendered as-is; for later)
+  suspended?: boolean // excluded from scheduling until re-enabled
+  buriedUntil?: string | null // YYYY-MM-DD — hidden from the queue through this day
 
   // ---- FSRS scheduling state ----
   due: string // ISO
@@ -43,10 +45,18 @@ export interface Review {
 }
 
 // Singleton app settings (one row, id = 'app').
+// New optional-behaviour fields get defaults in repo.getSettings, so older
+// stored rows upgrade transparently without a schema migration.
 export interface Settings {
   id: string
   dailyNewCapEnabled: boolean
   dailyNewCap: number
+  targetRetention: number // FSRS request_retention (0.80–0.95)
+  showIntervalPreviews: boolean // interval hint on the rating buttons
+  typedAnswers: boolean // active-recall typing before reveal
+  breakNudgeMinutes: number // soft break suggestion interval
+  cardFontScale: number // card text size multiplier (0.9 / 1 / 1.2)
+  cardSans: boolean // sans-serif card face instead of serif
 }
 
 // Typed Dexie instance. We avoid the `class extends Dexie` pattern because, with

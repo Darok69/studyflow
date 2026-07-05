@@ -3,12 +3,25 @@
 import { createEmptyCard, fsrs, generatorParameters, Rating, State } from 'ts-fsrs'
 import type { Card as FsrsCard, Grade } from 'ts-fsrs'
 import type { Card, FsrsStateName, RatingName } from '../db/db'
-import { endOfDay, parseExamDate } from '../lib/date'
+import { endOfDay, parseExamDate, startOfDay } from '../lib/date'
+
+/** Default FSRS target retention; user-tunable in Settings (0.80–0.95). */
+export const DEFAULT_RETENTION = 0.9
 
 // Day-granular intervals: the deadline-driven planner works in whole days, and
 // intra-session re-review of "again" cards is handled by the scheduler, so the
 // sub-day (re)learning steps are disabled.
-const scheduler = fsrs(generatorParameters({ enable_short_term: false }))
+const schedulers = new Map<number, ReturnType<typeof fsrs>>()
+
+function schedulerFor(retention: number): ReturnType<typeof fsrs> {
+  const key = Math.round(retention * 100) / 100
+  let s = schedulers.get(key)
+  if (!s) {
+    s = fsrs(generatorParameters({ enable_short_term: false, request_retention: key }))
+    schedulers.set(key, s)
+  }
+  return s
+}
 
 const STATE_NAME: Record<number, FsrsStateName> = {
   [State.New]: 'new',
@@ -85,8 +98,9 @@ export function rate(
   rating: RatingName,
   examDate: string | null,
   now: Date = new Date(),
+  retention: number = DEFAULT_RETENTION,
 ): FsrsFields {
-  const { card: next } = scheduler.next(toFsrsCard(card), now, RATING_GRADE[rating])
+  const { card: next } = schedulerFor(retention).next(toFsrsCard(card), now, RATING_GRADE[rating])
   const fields = toFields(next, now)
 
   if (examDate) {
@@ -99,4 +113,38 @@ export function rate(
   }
 
   return fields
+}
+
+const DAY_MS = 86_400_000
+
+/**
+ * Anki-style interval preview: for each rating, the calendar-day distance to
+ * the due date it would produce (deadline clamp included), so the rating
+ * buttons can show what each choice means before it is made.
+ */
+export function previewIntervals(
+  card: Card,
+  examDate: string | null,
+  now: Date = new Date(),
+  retention: number = DEFAULT_RETENTION,
+): Record<RatingName, number> {
+  const days = (r: RatingName): number => {
+    const due = new Date(rate(card, r, examDate, now, retention).due)
+    return Math.max(0, Math.round((startOfDay(due).getTime() - startOfDay(now).getTime()) / DAY_MS))
+  }
+  return { again: days('again'), hard: days('hard'), good: days('good'), easy: days('easy') }
+}
+
+/**
+ * FSRS forgetting-curve recall probability of a card at a moment (0..1).
+ * A card never studied has nothing to recall yet → 0.
+ */
+export function retrievabilityAt(
+  card: Card,
+  at: Date,
+  retention: number = DEFAULT_RETENTION,
+): number {
+  if (card.state === 'new' || card.reps === 0) return 0
+  const r = schedulerFor(retention).get_retrievability(toFsrsCard(card), at, false)
+  return Math.min(1, Math.max(0, r))
 }
