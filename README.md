@@ -209,11 +209,19 @@ These signals are computed by small pure modules (`src/lib/wellbeing.ts`,
 
 ## Deployment (GitHub Pages)
 
-Pushing to `main` triggers `.github/workflows/deploy.yml`: tests → build with
-`STUDYFLOW_BASE=/studyflow/` → deploy to GitHub Pages. The base path feeds
-Vite's `base`, the PWA manifest (`start_url`/`scope`) and the service-worker
-navigate fallback, so the app works both locally (`/`) and under
-`https://<user>.github.io/studyflow/`.
+Live at **https://darok69.github.io/studyflow/** (repo `Darok69/studyflow`).
+
+`npm run deploy` builds with `STUDYFLOW_BASE=/studyflow/` and force-pushes
+`dist/` to the `gh-pages` branch (Pages serves that branch). The base path
+feeds Vite's `base`, the PWA manifest (`start_url`/`scope`) and the
+service-worker navigate fallback, so the app works both locally (`/`) and
+under the project path.
+
+> Optional: `docs/github-pages-workflow.yml` is a ready-made GitHub Actions
+> workflow (test → build → Pages). To switch to push-triggered deploys, run
+> `gh auth refresh -s workflow` once and move the file to
+> `.github/workflows/deploy.yml` (the current token lacks the `workflow`
+> scope, so it can't push workflow files).
 
 Each visitor's data lives only in their own browser (IndexedDB) — publishing
 the app shares no data between users; decks travel via export files or share

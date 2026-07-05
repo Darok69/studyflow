@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
+    "deploy": "sh scripts/deploy.sh",
     "test": "rolldown test/core.test.ts --format esm --external ts-fsrs -o node_modules/.cache/studyflow-test.mjs && node node_modules/.cache/studyflow-test.mjs"
   },
   "dependencies": {
