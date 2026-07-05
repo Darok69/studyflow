@@ -124,6 +124,11 @@ export const de: Messages = {
   errBadCredentials: 'E-Mail oder Zugangscode passt nicht.',
   errServer: 'Der Server war nicht erreichbar — versuch es noch einmal.',
   welcome: 'Willkommen bei StudyFlow',
+  introTagline: 'Schlaue Karteikarten fürs Langzeitgedächtnis.',
+  introPoint1:
+    'Die Wiederholungen plant der FSRS-Algorithmus — du lernst genau dann, wenn du zu vergessen beginnen würdest.',
+  introPoint2: 'Prüfungsbereitschaft: du siehst, wie viel % des Stoffs du am Prüfungstag wirklich wüsstest.',
+  introPoint3: 'Funktioniert offline als App auf Handy und Computer. Deine Daten bleiben bei dir.',
   inviteOnly:
     'Die App ist nur auf Einladung. Melde dich mit deiner E-Mail und dem Zugangscode an, den du bekommen hast.',
   emailLabel: 'E-Mail',

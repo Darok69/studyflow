@@ -32,6 +32,21 @@ export function Login({ onLoggedIn }: { onLoggedIn: (account: Account) => void }
       <div className="login-card">
         <span className="brand-mark login-mark" aria-hidden="true" />
         <h2>{t('welcome')}</h2>
+        <p className="login-tagline">{t('introTagline')}</p>
+        <ul className="login-intro">
+          <li>
+            <span className="login-intro-icon" aria-hidden="true">🧠</span>
+            {t('introPoint1')}
+          </li>
+          <li>
+            <span className="login-intro-icon" aria-hidden="true">🎯</span>
+            {t('introPoint2')}
+          </li>
+          <li>
+            <span className="login-intro-icon" aria-hidden="true">📱</span>
+            {t('introPoint3')}
+          </li>
+        </ul>
         <p className="muted">{t('inviteOnly')}</p>
         <form className="form-grid" onSubmit={handleSubmit}>
           <label className="form-field">
