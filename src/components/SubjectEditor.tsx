@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Subject } from '../db/db'
 import { deleteSubject, exportSubjectJson, updateSubject } from '../db/repo'
+import { DECK_HASH_PREFIX, encodeDeckPayload, MAX_LINK_LENGTH } from '../lib/sharelink'
 import { subjectPalette } from '../lib/theme'
 import { Modal } from './Modal'
 
@@ -39,6 +40,7 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
   const [reminderTime, setReminderTime] = useState(subject.reminderTime ?? '')
   const [colorIndex, setColorIndex] = useState(subject.colorIndex)
   const [error, setError] = useState<string | null>(null)
+  const [shareState, setShareState] = useState<'idle' | 'copied' | 'too-big'>('idle')
 
   async function handleSave() {
     if (!name.trim()) {
@@ -65,6 +67,20 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
   async function handleExport() {
     const json = await exportSubjectJson(subject.id)
     if (json) download(`studyflow-${slug(subject.name)}.json`, json)
+  }
+
+  /** Copy a #deck= link so a friend can import this subject with one click. */
+  async function handleShare() {
+    const json = await exportSubjectJson(subject.id)
+    if (!json) return
+    const link = `${window.location.origin}${window.location.pathname}${DECK_HASH_PREFIX}${await encodeDeckPayload(json)}`
+    if (link.length > MAX_LINK_LENGTH) {
+      setShareState('too-big')
+      return
+    }
+    await navigator.clipboard?.writeText(link)
+    setShareState('copied')
+    window.setTimeout(() => setShareState('idle'), 2500)
   }
 
   return (
@@ -114,6 +130,11 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
         </div>
 
         {error && <p className="form-error">{error}</p>}
+        {shareState === 'too-big' && (
+          <p className="form-error">
+            Balíček je na odkaz moc velký — použij Exportovat a pošli soubor.
+          </p>
+        )}
 
         <div className="button-row modal-actions">
           <button className="btn btn-ghost btn-danger" onClick={handleDelete}>
@@ -121,6 +142,9 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
           </button>
           <button className="btn btn-ghost" onClick={handleExport}>
             Exportovat
+          </button>
+          <button className="btn btn-ghost" onClick={() => void handleShare()}>
+            {shareState === 'copied' ? 'Odkaz zkopírován ✓' : 'Sdílet odkazem'}
           </button>
           <span className="flex-spacer" />
           <button className="btn btn-ghost" onClick={onClose}>

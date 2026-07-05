@@ -71,6 +71,53 @@ export function reviewsInLastDays(timestamps: string[], days: number, now: Date 
   return timestamps.reduce((n, ts) => (new Date(ts).getTime() >= cutoff ? n + 1 : n), 0)
 }
 
+export interface ForecastCard {
+  state: string
+  due: string // ISO
+  suspended?: boolean
+  buriedUntil?: string | null // YYYY-MM-DD
+}
+
+/**
+ * Review forecast: how many scheduled reviews land on each of the next `days`
+ * days. Overdue cards pile onto today; a buried card counts from the day it
+ * comes back. New cards are excluded — this is the committed review load.
+ * Output shape matches DayBucket so the sparkline can render it directly.
+ */
+export function reviewForecast(
+  cards: ForecastCard[],
+  days: number = 14,
+  now: Date = new Date(),
+): DayBucket[] {
+  const todayStart = startOfDay(now).getTime()
+  const DAY_MS = 86_400_000
+
+  const counts = new Array<number>(days).fill(0)
+  for (const c of cards) {
+    if (c.state === 'new' || c.suspended) continue
+    let idx = Math.max(0, Math.floor((startOfDay(new Date(c.due)).getTime() - todayStart) / DAY_MS))
+    if (c.buriedUntil) {
+      const back = Math.floor(
+        (startOfDay(addDays(new Date(`${c.buriedUntil}T00:00:00`), 1)).getTime() - todayStart) / DAY_MS,
+      )
+      idx = Math.max(idx, back)
+    }
+    if (idx < days) counts[idx]++
+  }
+
+  const todayK = dayKey(now)
+  return counts.map((count, i) => {
+    const d = startOfDay(addDays(now, i))
+    const k = dayKey(d)
+    return {
+      key: k,
+      label: i === 0 ? 'dnes' : WEEKDAY_CS[d.getDay()],
+      count,
+      isToday: k === todayK,
+    }
+  })
+}
+
 export interface HeatCell {
   key: string // YYYY-MM-DD
   count: number

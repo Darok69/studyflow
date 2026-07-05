@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { Card, Subject } from '../db/db'
-import { getCards, getSubjects, setCardSuspended } from '../db/repo'
-import { countdownLabel, daysUntilDate } from '../lib/date'
+import { getCards, getSubjects, setCardSuspended, unburyCard } from '../db/repo'
+import { countdownLabel, dayKey, daysUntilDate } from '../lib/date'
 import { isLeech } from '../lib/wellbeing'
 import { subjectColor, subjectColorIndex } from '../lib/theme'
 import { CardEditor } from '../components/CardEditor'
@@ -72,6 +72,14 @@ export function Browser({ onBack }: { onBack: () => void }) {
     await setCardSuspended(card.id, !card.suspended)
     await load()
   }
+
+  async function handleUnbury(card: Card) {
+    await unburyCard(card.id)
+    await load()
+  }
+
+  const todayKey = dayKey(new Date())
+  const isBuried = (c: Card) => !!c.buriedUntil && c.buriedUntil >= todayKey
 
   if (loading) return <div className="page center muted">Načítám…</div>
 
@@ -155,6 +163,9 @@ export function Browser({ onBack }: { onBack: () => void }) {
                     ) : (
                       <span className="row-chip">{countdownLabel(dueDays)}</span>
                     )}
+                    {isBuried(c) && !c.suspended && (
+                      <span className="row-chip row-chip-suspended">odložená</span>
+                    )}
                     {isLeech(c) && <span className="row-chip row-chip-leech">problémová</span>}
                     {c.tags.map((t) => (
                       <span key={t} className="row-chip row-chip-tag">
@@ -163,6 +174,15 @@ export function Browser({ onBack }: { onBack: () => void }) {
                     ))}
                   </span>
                 </button>
+                {isBuried(c) && !c.suspended && (
+                  <button
+                    className="card-tool"
+                    onClick={() => void handleUnbury(c)}
+                    title="Vrátit odloženou kartu do dnešní fronty"
+                  >
+                    Vrátit
+                  </button>
+                )}
                 <button
                   className="card-tool"
                   onClick={() => void toggleSuspend(c)}

@@ -1,7 +1,13 @@
 import { useEffect, useState } from 'react'
 import type { Card, Review, Settings, Subject } from '../db/db'
 import { getCards, getReviews, getSettings, getSubjects } from '../db/repo'
-import { currentStreak, heatmapWeeks, reviewsInLastDays, reviewsLast7Days } from '../stats/stats'
+import {
+  currentStreak,
+  heatmapWeeks,
+  reviewForecast,
+  reviewsInLastDays,
+  reviewsLast7Days,
+} from '../stats/stats'
 import { readinessBand, subjectReadiness } from '../lib/readiness'
 import { palette } from '../lib/theme'
 import { Sparkline } from '../components/Sparkline'
@@ -36,6 +42,7 @@ export function Stats({ onBack }: { onBack: () => void }) {
   const week = reviewsInLastDays(ts, 7, now)
   const learned = cards.filter((c) => c.state !== 'new').length
   const heat = heatmapWeeks(ts, 12, now)
+  const forecast = reviewForecast(cards, 14, now)
 
   const readinessRows = subjects
     .map((s) => ({
@@ -76,6 +83,14 @@ export function Stats({ onBack }: { onBack: () => void }) {
       <section className="panel-section">
         <h3 className="section-title">Posledních 7 dní</h3>
         <Sparkline data={last7} />
+      </section>
+
+      <section className="panel-section">
+        <h3 className="section-title">Co tě čeká (14 dní)</h3>
+        <p className="muted readiness-note">
+          Naplánovaná opakování den po dni — nové karty se přidávají zvlášť podle termínů zkoušek.
+        </p>
+        <Sparkline data={forecast} label="Naplánovaná opakování na příštích 14 dní" />
       </section>
 
       <section className="panel-section">

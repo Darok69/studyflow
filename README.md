@@ -196,6 +196,29 @@ These signals are computed by small pure modules (`src/lib/wellbeing.ts`,
   suggestion with a one-tap editor (no auto-suspend punishment).
 - **Activity heatmap**: GitHub-style 12-week review grid in Stats.
 
+## Sprint 4 — sharing + forecast + deploy
+
+- **Deck sharing by link**: "Sdílet odkazem" on a subject copies a URL with the
+  whole deck compressed into the fragment (`#deck=` + deflate-raw + base64url,
+  ~10× smaller than the JSON). Opening the link pre-fills the Import screen —
+  no server involved, the deck never leaves the browsers.
+- **Review forecast**: Stats shows the scheduled review load for the next
+  14 days (overdue piles onto today, buried cards count from their return day).
+- **Unbury**: buried cards show an "odložená" chip in the browser with a
+  one-tap return to today's queue.
+
+## Deployment (GitHub Pages)
+
+Pushing to `main` triggers `.github/workflows/deploy.yml`: tests → build with
+`STUDYFLOW_BASE=/studyflow/` → deploy to GitHub Pages. The base path feeds
+Vite's `base`, the PWA manifest (`start_url`/`scope`) and the service-worker
+navigate fallback, so the app works both locally (`/`) and under
+`https://<user>.github.io/studyflow/`.
+
+Each visitor's data lives only in their own browser (IndexedDB) — publishing
+the app shares no data between users; decks travel via export files or share
+links.
+
 ## Status
 
 Sprints 1–3, fully offline, no backend: import/authoring → deadline-weighted

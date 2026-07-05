@@ -171,6 +171,11 @@ export async function buryCard(id: string, now: Date = new Date()): Promise<void
   await db.cards.update(id, { buriedUntil: dayKey(now) })
 }
 
+/** Unbury: bring a buried card straight back into today's queue. */
+export async function unburyCard(id: string): Promise<void> {
+  await db.cards.update(id, { buriedUntil: null })
+}
+
 // ---- Subject editing ----
 
 export async function updateSubject(

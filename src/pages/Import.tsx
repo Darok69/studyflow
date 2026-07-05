@@ -6,10 +6,14 @@ import { aiPrompt, sampleDeckJson } from '../import/sampleDeck'
 interface Props {
   onDone: () => void
   onCancel: () => void
+  /** Pre-filled deck JSON (e.g. from a shared #deck= link). */
+  initialText?: string
+  /** True when the pre-fill came from a shared link — shows a friendly banner. */
+  shared?: boolean
 }
 
-export function Import({ onDone, onCancel }: Props) {
-  const [text, setText] = useState('')
+export function Import({ onDone, onCancel, initialText, shared = false }: Props) {
+  const [text, setText] = useState(initialText ?? '')
   const [errors, setErrors] = useState<string[]>([])
   const [busy, setBusy] = useState(false)
   const [copied, setCopied] = useState(false)
@@ -38,7 +42,13 @@ export function Import({ onDone, onCancel }: Props) {
   return (
     <div className="page">
       <h2 className="page-title">Import balíčku</h2>
-      <p className="muted">Vlož JSON s kartami, nebo si načti ukázkový balíček.</p>
+      {shared ? (
+        <div className="guardrail" role="status">
+          Někdo ti poslal balíček kartiček 🎁 — mrkni na obsah níže a potvrď import.
+        </div>
+      ) : (
+        <p className="muted">Vlož JSON s kartami, nebo si načti ukázkový balíček.</p>
+      )}
 
       <textarea
         className="json-input"

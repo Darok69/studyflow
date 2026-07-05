@@ -2,8 +2,12 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
+// Deploy base path: '/' locally, '/studyflow/' on GitHub Pages (set by CI).
+const base = process.env.STUDYFLOW_BASE ?? '/'
+
 // https://vite.dev/config/
 export default defineConfig({
+  base,
   plugins: [
     react(),
     VitePWA({
@@ -17,8 +21,8 @@ export default defineConfig({
         theme_color: '#15151E',
         background_color: '#15151E',
         display: 'standalone',
-        start_url: '/',
-        scope: '/',
+        start_url: base,
+        scope: base,
         icons: [
           { src: 'pwa-192x192.png', sizes: '192x192', type: 'image/png' },
           { src: 'pwa-512x512.png', sizes: '512x512', type: 'image/png' },
@@ -34,7 +38,7 @@ export default defineConfig({
         // Precache the full app shell so it loads with no network.
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff,woff2}'],
         cleanupOutdatedCaches: true,
-        navigateFallback: 'index.html',
+        navigateFallback: `${base}index.html`,
       },
       devOptions: {
         // Keep dev fast; flip to true to exercise the service worker via `npm run dev`.

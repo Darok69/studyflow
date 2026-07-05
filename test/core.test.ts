@@ -19,10 +19,12 @@ import { assessLoad, estimateMinutes, isLeech, LEECH_LAPSES } from '../src/lib/w
 import {
   currentStreak,
   heatmapWeeks,
+  reviewForecast,
   reviewsInLastDays,
   reviewsLast7Days,
   reviewsToday,
 } from '../src/stats/stats'
+import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/lib/sharelink'
 import { encouragement } from '../src/lib/encouragement'
 import { answerSimilarity, checkAnswer, normalizeAnswer, typedAnswerTarget } from '../src/lib/answer'
 import { readinessBand, subjectReadiness } from '../src/lib/readiness'
@@ -327,6 +329,45 @@ ok(flat.find((c) => c.key === '2026-06-26')!.level >= 1, 'lighter day gets a lig
 ok(flat.find((c) => c.key === '2026-06-28')!.future === true, 'days after today are marked future')
 ok(flat.filter((c) => !c.future).every((c) => c.level >= 0), 'no negative levels')
 ok(daysUntilDate(new Date('2026-06-30T01:00:00'), now) === 3, 'daysUntilDate counts local days')
+
+console.log('— review forecast —')
+{
+  const fNow = new Date('2026-07-05T09:00:00')
+  const fc = reviewForecast(
+    [
+      { state: 'review', due: '2026-07-01T10:00:00' }, // overdue → today
+      { state: 'review', due: '2026-07-05T10:00:00' }, // today
+      { state: 'review', due: '2026-07-07T10:00:00' }, // +2 days
+      { state: 'review', due: '2026-07-05T10:00:00', buriedUntil: '2026-07-05' }, // buried → tomorrow
+      { state: 'review', due: '2026-07-06T10:00:00', suspended: true }, // excluded
+      { state: 'new', due: fNow.toISOString() }, // excluded
+      { state: 'review', due: '2026-08-30T10:00:00' }, // beyond horizon
+    ],
+    14,
+    fNow,
+  )
+  ok(fc.length === 14, 'forecast has 14 buckets')
+  ok(fc[0].count === 2 && fc[0].isToday && fc[0].label === 'dnes', `today = overdue + due today (got ${fc[0].count})`)
+  ok(fc[1].count === 1, 'buried card lands on tomorrow')
+  ok(fc[2].count === 1, 'future due lands on its day')
+  ok(fc.reduce((n, d) => n + d.count, 0) === 4, 'suspended/new/beyond-horizon excluded')
+}
+
+console.log('— deck share link —')
+{
+  const json = JSON.stringify({ subject: 'Řím — právo', cards: [{ type: 'basic', front: 'Q?', back: 'Á' }] })
+  const payload = await encodeDeckPayload(json)
+  ok(/^[01]\.[A-Za-z0-9_-]+$/.test(payload), `payload is URL-safe (got ${payload.slice(0, 12)}…)`)
+  ok((await decodeDeckPayload(payload)) === json, 'encode → decode round-trips UTF-8 exactly')
+  const big = JSON.stringify({ subject: 'X', cards: Array.from({ length: 60 }, (_, i) => ({ type: 'basic', front: `Otázka číslo ${i} s delším textem?`, back: `Odpověď číslo ${i} s ještě delším textem.` })) })
+  const bigPayload = await encodeDeckPayload(big)
+  ok(bigPayload.length < big.length, `compression shrinks a real deck (${big.length} → ${bigPayload.length})`)
+  ok((await decodeDeckPayload(bigPayload)) === big, 'big deck round-trips')
+  ok((await decodeDeckPayload('1.@@@nonsense')) === null, 'malformed payload returns null, never throws')
+  ok((await decodeDeckPayload('9.abc')) === null, 'unknown version returns null')
+  ok(payloadFromHash('#deck=1.abc') === '1.abc', 'payloadFromHash extracts the payload')
+  ok(payloadFromHash('#other') === null, 'foreign hash is ignored')
+}
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)
 if (fail > 0) process.exit(1)
