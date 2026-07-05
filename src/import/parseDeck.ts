@@ -1,4 +1,5 @@
 import type { CardType } from '../db/db'
+import { t } from '../i18n'
 
 // A card ready to import — id and subjectId are assigned by the repository.
 export interface CardDraft {
@@ -58,28 +59,28 @@ export function parseDeck(raw: string): ParsedDeck {
   try {
     data = JSON.parse(raw)
   } catch (e) {
-    return { subject: emptySubject(), cards: [], errors: [`Neplatný JSON: ${(e as Error).message}`] }
+    return { subject: emptySubject(), cards: [], errors: [t('errInvalidJson', (e as Error).message)] }
   }
 
   if (!data || typeof data !== 'object') {
-    return { subject: emptySubject(), cards: [], errors: ['Kořenový prvek musí být objekt balíčku.'] }
+    return { subject: emptySubject(), cards: [], errors: [t('errRootObject')] }
   }
 
   const obj = data as Record<string, unknown>
   const errors: string[] = []
 
   const name = typeof obj.subject === 'string' ? obj.subject.trim() : ''
-  if (!name) errors.push('Chybí název předmětu ("subject").')
+  if (!name) errors.push(t('errMissingSubject'))
 
   if (obj.examDate != null && !isValidDate(obj.examDate)) {
-    errors.push('Pole "examDate" musí být ve formátu YYYY-MM-DD.')
+    errors.push(t('errExamDateFormat'))
   }
   const examDate = isValidDate(obj.examDate) ? obj.examDate : null
   const reminderTime = isValidTime(obj.reminderTime) ? obj.reminderTime : null
 
   const cards: CardDraft[] = []
   const rawCards = Array.isArray(obj.cards) ? obj.cards : []
-  if (!Array.isArray(obj.cards)) errors.push('Pole "cards" musí být pole karet.')
+  if (!Array.isArray(obj.cards)) errors.push(t('errCardsArray'))
 
   rawCards.forEach((entry, i) => {
     const c = (entry ?? {}) as Record<string, unknown>
@@ -92,7 +93,7 @@ export function parseDeck(raw: string): ParsedDeck {
     if (type === 'cloze') {
       const text = typeof c.text === 'string' ? c.text : typeof c.front === 'string' ? c.front : ''
       if (!text || !HAS_CLOZE.test(text)) {
-        errors.push(`Karta #${n}: cloze musí obsahovat alespoň jedno {{vynechané slovo}}.`)
+        errors.push(t('errClozeCardNeedsBlank', n))
         return
       }
       const { front, back, raw } = makeCloze(text)
@@ -101,7 +102,7 @@ export function parseDeck(raw: string): ParsedDeck {
       const front = typeof c.front === 'string' ? c.front.trim() : ''
       const back = typeof c.back === 'string' ? c.back.trim() : ''
       if (!front || !back) {
-        errors.push(`Karta #${n}: základní karta musí mít "front" i "back".`)
+        errors.push(t('errBasicCardNeedsBoth', n))
         return
       }
       cards.push({ type, front, back, tags, svg, image })
@@ -109,7 +110,7 @@ export function parseDeck(raw: string): ParsedDeck {
   })
 
   if (cards.length === 0 && errors.length === 0) {
-    errors.push('Balíček neobsahuje žádné použitelné karty.')
+    errors.push(t('errNoUsableCards'))
   }
 
   return { subject: { name, examDate, reminderTime }, cards, errors }

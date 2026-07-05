@@ -18,14 +18,9 @@ import { CardEditor } from '../components/CardEditor'
 import { RatingButtons } from '../components/RatingButtons'
 import { ProgressBar } from '../components/ProgressBar'
 import { palette, subjectColor, subjectColorIndex } from '../lib/theme'
+import { t } from '../i18n'
 
 export type StudyMode = { kind: 'today' } | { kind: 'cram'; subjectId: string }
-
-function czCards(n: number): string {
-  if (n === 1) return 'kartu'
-  if (n >= 2 && n <= 4) return 'karty'
-  return 'karet'
-}
 
 interface UndoEntry {
   queue: string[]
@@ -239,8 +234,8 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   useEffect(() => {
     if (loading || done) return
     function onKey(e: KeyboardEvent) {
-      const t = e.target as HTMLElement | null
-      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT')) return
+      const target = e.target as HTMLElement | null
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'SELECT')) return
       if (editing) return
 
       if (e.key === 'z' || e.key === 'Z') {
@@ -282,17 +277,17 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   }
 
   if (loading || !settings) {
-    return <div className="page center muted">Načítám…</div>
+    return <div className="page center muted">{t('loading')}</div>
   }
 
   if (total === 0) {
     return (
       <div className="page center done-screen">
         <p className="done-emoji">🌿</p>
-        <h2>{cram ? 'Není co procvičovat' : 'Na dnešek nic nečeká'}</h2>
-        <p className="muted">Užij si pauzu — uvidíme se zase, až budeš chtít.</p>
+        <h2>{cram ? t('nothingToCram') : t('nothingTodayPlain')}</h2>
+        <p className="muted">{t('enjoyBreak')}</p>
         <button className="btn btn-primary" onClick={onDone}>
-          Zpět na přehled
+          {t('backToOverview')}
         </button>
       </div>
     )
@@ -302,18 +297,14 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
     return (
       <div className="page center done-screen">
         <p className="done-emoji">🎉</p>
-        <h2>Hotovo!</h2>
-        <p className="muted">
-          {cram
-            ? `Procvičil sis ${reviewCount} ${czCards(reviewCount)} nanečisto — plán opakování zůstal nedotčený. 🌿`
-            : `Dal sis na tom záležet — prošel jsi ${reviewCount} ${czCards(reviewCount)}. Pěkná práce. 🌿`}
-        </p>
+        <h2>{t('doneHeading')}</h2>
+        <p className="muted">{cram ? t('doneCram', reviewCount) : t('doneStudy', reviewCount)}</p>
         <button className="btn btn-primary" onClick={onDone}>
-          Zpět na přehled
+          {t('backToOverview')}
         </button>
         {canUndo && (
           <button className="btn btn-ghost btn-small" onClick={() => void handleUndo()} disabled={busy}>
-            ⌫ Vrátit poslední hodnocení
+            {t('undoLast')}
           </button>
         )}
       </div>
@@ -325,16 +316,16 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   const verdictView =
     answerCheck &&
     {
-      correct: { className: 'verdict verdict-correct', text: '✓ Správně' },
-      close: { className: 'verdict verdict-close', text: '≈ Skoro — mrkni na rozdíl' },
-      wrong: { className: 'verdict verdict-wrong', text: 'Jinak — nevadí, od toho opakujeme' },
+      correct: { className: 'verdict verdict-correct', text: t('verdictCorrect') },
+      close: { className: 'verdict verdict-close', text: t('verdictClose') },
+      wrong: { className: 'verdict verdict-wrong', text: t('verdictWrong') },
     }[answerCheck.verdict]
 
   return (
     <div className="page study">
       <div className="study-top">
         <button className="btn btn-ghost btn-small" onClick={onDone}>
-          Konec
+          {t('endSession')}
         </button>
         <div className="study-progress">
           <ProgressBar value={finished.size} max={total} color={palette.accent} />
@@ -346,9 +337,9 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
           className="btn btn-ghost btn-small"
           onClick={() => void handleUndo()}
           disabled={!canUndo || busy}
-          title="Vrátit poslední hodnocení (Z)"
+          title={t('undoTitle')}
         >
-          ⌫ Zpět
+          {t('undoShort')}
         </button>
       </div>
 
@@ -356,19 +347,19 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         <span className="subject-dot" style={{ background: identity }} aria-hidden="true" />
         <span className="subject-tag">{subject.name}</span>
         {cram ? (
-          <span className="type-tag type-cram">procvičování</span>
+          <span className="type-tag type-cram">{t('typeCram')}</span>
         ) : (
           <span className={`type-tag ${card.state === 'new' ? 'type-new' : 'type-review'}`}>
-            {card.state === 'new' ? 'nová' : 'opakování'}
+            {card.state === 'new' ? t('typeNew') : t('typeReview')}
           </span>
         )}
         {!cram && (
           <span className="card-tools">
-            <button className="card-tool" onClick={() => void handleBury()} title="Kartu dnes přeskočit — vrátí se zítra">
-              Odložit
+            <button className="card-tool" onClick={() => void handleBury()} title={t('buryTitle')}>
+              {t('buryBtn')}
             </button>
-            <button className="card-tool" onClick={() => void handleSuspend()} title="Vyřadit z opakování (obnovíš v Kartičkách)">
-              Pozastavit
+            <button className="card-tool" onClick={() => void handleSuspend()} title={t('suspendTitle')}>
+              {t('suspendBtn')}
             </button>
           </span>
         )}
@@ -376,30 +367,28 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
 
       {cram && (
         <div className="cram-note" role="status">
-          Procvičování nanečisto — hodnocení neovlivní naplánovaná opakování.
+          {t('cramNote')}
         </div>
       )}
 
       {showNudge && (
         <div className="break-nudge" role="status">
-          <span>Studuješ přes {nudgeMinutes} minut — dáš si pauzu? 🙂</span>
+          <span>{t('breakNudge', nudgeMinutes)}</span>
           <button className="nudge-dismiss" onClick={dismissNudge}>
-            Pokračovat
+            {t('keepGoing')}
           </button>
         </div>
       )}
 
       {leechCard && (
         <div className="leech-hint" role="status">
-          <span>
-            Tahle kartička se ti pořád vrací. Často pomůže ji přeformulovat nebo rozdělit na menší.
-          </span>
+          <span>{t('leechHint')}</span>
           <span className="leech-actions">
             <button className="nudge-dismiss" onClick={() => setEditing(leechCard)}>
-              Upravit
+              {t('edit')}
             </button>
             <button className="nudge-dismiss" onClick={() => setLeechCard(null)}>
-              Nechat
+              {t('keepCard')}
             </button>
           </span>
         </div>
@@ -416,7 +405,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         <div className={verdictView.className} role="status">
           {verdictView.text}
           {answerCheck && answerCheck.verdict !== 'correct' && answerText.trim() && (
-            <span className="verdict-answer">tvoje odpověď: „{answerText.trim()}"</span>
+            <span className="verdict-answer">{t('yourAnswer', answerText.trim())}</span>
           )}
         </div>
       )}
@@ -429,7 +418,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
             <input
               ref={answerRef}
               className="form-input answer-input"
-              placeholder="Napiš odpověď…"
+              placeholder={t('answerPlaceholder')}
               value={answerText}
               autoFocus
               onChange={(e) => setAnswerText(e.target.value)}
@@ -441,15 +430,15 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
               }}
             />
             <button className="btn btn-primary" onClick={handleCheckAnswer}>
-              Zkontrolovat
+              {t('checkAnswer')}
             </button>
-            <button className="btn btn-ghost" onClick={() => setRevealed(true)} title="Přeskočit psaní">
-              Jen zobrazit
+            <button className="btn btn-ghost" onClick={() => setRevealed(true)} title={t('skipTypingTitle')}>
+              {t('justShow')}
             </button>
           </div>
         ) : (
           <button className="btn btn-primary btn-reveal" onClick={() => setRevealed(true)}>
-            Zobrazit odpověď
+            {t('showAnswer')}
           </button>
         )}
       </div>

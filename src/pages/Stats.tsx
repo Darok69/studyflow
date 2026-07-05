@@ -12,6 +12,7 @@ import { readinessBand, subjectReadiness } from '../lib/readiness'
 import { palette } from '../lib/theme'
 import { Sparkline } from '../components/Sparkline'
 import { Heatmap } from '../components/Heatmap'
+import { t } from '../i18n'
 
 const BAND_COLOR = { solid: palette.far, building: palette.mid, fragile: palette.near } as const
 
@@ -33,7 +34,7 @@ export function Stats({ onBack }: { onBack: () => void }) {
     })()
   }, [])
 
-  if (loading) return <div className="page center muted">Načítám…</div>
+  if (loading) return <div className="page center muted">{t('loading')}</div>
 
   const now = new Date()
   const ts = reviews.map((r) => r.ts)
@@ -60,51 +61,46 @@ export function Stats({ onBack }: { onBack: () => void }) {
     <div className="page">
       <div className="page-nav">
         <button className="btn btn-ghost btn-small" onClick={onBack}>
-          ← Zpět
+          {t('back')}
         </button>
       </div>
-      <h2 className="page-title">Tvůj pokrok</h2>
+      <h2 className="page-title">{t('statsTitle')}</h2>
 
       <div className="stat-grid">
         <div className="stat-card">
           <div className="stat-num">{streak}</div>
-          <div className="stat-label">{streak === 1 ? 'den v řadě' : 'dní v řadě'}</div>
+          <div className="stat-label">{t('daysInRow', streak)}</div>
         </div>
         <div className="stat-card">
           <div className="stat-num">{week}</div>
-          <div className="stat-label">opakování / 7 dní</div>
+          <div className="stat-label">{t('reviewsPer7')}</div>
         </div>
         <div className="stat-card">
           <div className="stat-num">{learned}</div>
-          <div className="stat-label">naučených karet</div>
+          <div className="stat-label">{t('learnedCardsLabel')}</div>
         </div>
       </div>
 
       <section className="panel-section">
-        <h3 className="section-title">Posledních 7 dní</h3>
+        <h3 className="section-title">{t('last7Days')}</h3>
         <Sparkline data={last7} />
       </section>
 
       <section className="panel-section">
-        <h3 className="section-title">Co tě čeká (14 dní)</h3>
-        <p className="muted readiness-note">
-          Naplánovaná opakování den po dni — nové karty se přidávají zvlášť podle termínů zkoušek.
-        </p>
-        <Sparkline data={forecast} label="Naplánovaná opakování na příštích 14 dní" />
+        <h3 className="section-title">{t('upcoming14')}</h3>
+        <p className="muted readiness-note">{t('forecastNote')}</p>
+        <Sparkline data={forecast} label={t('forecastSparkLabel')} />
       </section>
 
       <section className="panel-section">
-        <h3 className="section-title">Posledních 12 týdnů</h3>
+        <h3 className="section-title">{t('last12Weeks')}</h3>
         <Heatmap weeks={heat} />
       </section>
 
       {readinessRows.length > 0 && (
         <section className="panel-section">
-          <h3 className="section-title">Připravenost ke zkoušce</h3>
-          <p className="muted readiness-note">
-            Odhad z křivky zapomínání (FSRS): kolik si toho budeš pamatovat v den zkoušky, kdyby ses
-            ode dneška už neučil. Roste s každým opakováním.
-          </p>
+          <h3 className="section-title">{t('readinessSection')}</h3>
+          <p className="muted readiness-note">{t('readinessNote')}</p>
           <ul className="readiness-list">
             {readinessRows.map(({ subject, readiness }) => {
               const r = readiness!
@@ -134,9 +130,7 @@ export function Stats({ onBack }: { onBack: () => void }) {
       )}
 
       <p className="muted gentle-note">
-        {streak > 0
-          ? 'Konzistence je víc než výkon. Hezky pokračuj. 🌿'
-          : 'Každý den je nový začátek — klidně se vrať dnes. 🌱'}
+        {streak > 0 ? t('statsKeepGoing') : t('statsFreshStart')}
       </p>
     </div>
   )

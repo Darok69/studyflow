@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { addUser, ApiError, listUsers, removeUser, resetUserCode, type UserRow } from '../lib/api'
+import { t } from '../i18n'
 
 /** Admin-only: manage who can log in. Codes are shown exactly once. */
 export function AdminUsers() {
@@ -14,7 +15,7 @@ export function AdminUsers() {
   }
 
   useEffect(() => {
-    void load().catch(() => setError('Nepodařilo se načíst uživatele.'))
+    void load().catch(() => setError(t('loadUsersFailed')))
   }, [])
 
   async function handleAdd(e: React.FormEvent) {
@@ -26,20 +27,20 @@ export function AdminUsers() {
       setEmail('')
       await load()
     } catch (err) {
-      if (err instanceof ApiError && err.message === 'exists') setError('Tenhle e-mail už přístup má.')
-      else if (err instanceof ApiError && err.message === 'invalid-email') setError('To nevypadá jako e-mail.')
-      else setError('Přidání se nepovedlo — zkus to znovu.')
+      if (err instanceof ApiError && err.message === 'exists') setError(t('emailExists'))
+      else if (err instanceof ApiError && err.message === 'invalid-email') setError(t('invalidEmail'))
+      else setError(t('addFailed'))
     }
   }
 
   async function handleReset(user: UserRow) {
-    if (!window.confirm(`Vygenerovat nový kód pro ${user.email}? Starý přestane platit a odhlásí se.`)) return
+    if (!window.confirm(t('confirmNewCode', user.email))) return
     const { code } = await resetUserCode(user.id)
     setIssued({ email: user.email, code })
   }
 
   async function handleRemove(user: UserRow) {
-    if (!window.confirm(`Odebrat přístup pro ${user.email}? Smaže se i jeho záloha na serveru.`)) return
+    if (!window.confirm(t('confirmRemoveUser', user.email))) return
     await removeUser(user.id)
     await load()
   }
@@ -47,7 +48,7 @@ export function AdminUsers() {
   function copyIssued() {
     if (!issued) return
     void navigator.clipboard
-      ?.writeText(`StudyFlow → https://study.dmarka.eu\nE-mail: ${issued.email}\nPřístupový kód: ${issued.code}`)
+      ?.writeText(t('issuedMessage', issued.email, issued.code))
       .then(() => {
         setCopied(true)
         window.setTimeout(() => setCopied(false), 2000)
@@ -56,23 +57,20 @@ export function AdminUsers() {
 
   return (
     <section className="panel-section">
-      <h3 className="section-title">Přístupy (admin)</h3>
-      <p className="muted setting-desc">
-        Kdo tu je, může se přihlásit. Nový uživatel dostane přístupový kód — zobrazí se jen jednou,
-        pošli mu ho třeba WhatsAppem.
-      </p>
+      <h3 className="section-title">{t('adminSection')}</h3>
+      <p className="muted setting-desc">{t('adminDesc')}</p>
 
       <form className="answer-row" onSubmit={handleAdd}>
         <input
           className="form-input answer-input"
           type="email"
-          placeholder="kamarad@email.cz"
+          placeholder={t('adminEmailPlaceholder')}
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
         <button className="btn btn-primary" type="submit">
-          Přidat
+          {t('addBtn')}
         </button>
       </form>
 
@@ -83,14 +81,14 @@ export function AdminUsers() {
           <div>
             <strong>{issued.email}</strong>
             <div className="issued-code-value">{issued.code}</div>
-            <p className="muted setting-desc">Kód se už znovu nezobrazí — teď ho zkopíruj a pošli.</p>
+            <p className="muted setting-desc">{t('codeShownOnce')}</p>
           </div>
           <div className="leech-actions">
             <button className="btn btn-ghost btn-small" onClick={copyIssued}>
-              {copied ? 'Zkopírováno ✓' : 'Zkopírovat zprávu'}
+              {copied ? t('copied') : t('copyMessage')}
             </button>
             <button className="btn btn-ghost btn-small" onClick={() => setIssued(null)}>
-              Zavřít
+              {t('close')}
             </button>
           </div>
         </div>
@@ -107,17 +105,17 @@ export function AdminUsers() {
               <span className="card-row-meta">
                 <span className="row-chip">
                   {u.lastLoginAt
-                    ? `naposledy ${new Date(u.lastLoginAt).toLocaleDateString('cs-CZ')}`
-                    : 'zatím nepřihlášen'}
+                    ? t('lastLoginAt', new Date(u.lastLoginAt).toLocaleDateString(t('locale')))
+                    : t('notLoggedInYet')}
                 </span>
               </span>
             </div>
             <button className="card-tool" onClick={() => void handleReset(u)}>
-              Nový kód
+              {t('newCodeBtn')}
             </button>
             {!u.isAdmin && (
               <button className="card-tool" onClick={() => void handleRemove(u)}>
-                Odebrat
+                {t('removeBtn')}
               </button>
             )}
           </li>

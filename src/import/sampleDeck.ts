@@ -1,5 +1,8 @@
 // A ready-to-import demo deck (basic + cloze + an inline-SVG diagram card) and
 // a copyable prompt users can hand to an AI to generate their own decks.
+// The sample deck content stays Czech in every language; the AI prompt follows
+// the UI language.
+import { currentLang } from '../i18n'
 
 export const sampleDeck = {
   subject: 'Římské právo',
@@ -46,7 +49,7 @@ export const sampleDeck = {
 
 export const sampleDeckJson = JSON.stringify(sampleDeck, null, 2)
 
-export const aiPrompt = `Vytvoř studijní balíček karet ve formátu JSON pro aplikaci StudyFlow.
+const aiPromptCs = `Vytvoř studijní balíček karet ve formátu JSON pro aplikaci StudyFlow.
 
 Vrať POUZE platný JSON (žádný další text) přesně v této struktuře:
 
@@ -69,3 +72,53 @@ Pravidla:
 - Vytvoř 15–25 karet, věcně přesných a stručných.
 
 Téma: [SEM DOPLŇ TÉMA, NAPŘ. „Římské právo — věcná práva“]`
+
+const aiPromptEn = `Create a study deck of flashcards in JSON format for the StudyFlow app.
+
+Return ONLY valid JSON (no other text) in exactly this structure:
+
+{
+  "subject": "Subject name",
+  "examDate": "YYYY-MM-DD",        // exam date, or null
+  "reminderTime": "HH:MM",          // reminder time, or null
+  "cards": [
+    { "type": "basic", "front": "Question?", "back": "Answer", "tags": [] },
+    { "type": "cloze", "text": "A sentence with a {{blanked term}}.", "tags": [] },
+    { "type": "basic", "front": "Question with a diagram?", "back": "Answer", "svg": "<svg ...>...</svg>" }
+  ]
+}
+
+Rules:
+- A "basic" card has "front" (question) and "back" (answer).
+- A "cloze" card has "text" with one or more spots marked {{like this}}, which get hidden during study.
+- Optionally add "svg" with a simple diagram or mind map (clean inline SVG, no scripts).
+- Optionally add "tags" as an array of labels.
+- Create 15–25 cards, factually accurate and concise.
+
+Topic: [FILL IN THE TOPIC HERE, E.G. “Roman law — property rights”]`
+
+const aiPromptDe = `Erstelle ein Lernkarten-Deck im JSON-Format für die App StudyFlow.
+
+Gib NUR gültiges JSON zurück (keinen weiteren Text), exakt in dieser Struktur:
+
+{
+  "subject": "Name des Fachs",
+  "examDate": "JJJJ-MM-TT",        // Prüfungsdatum, oder null
+  "reminderTime": "HH:MM",          // Erinnerungszeit, oder null
+  "cards": [
+    { "type": "basic", "front": "Frage?", "back": "Antwort", "tags": [] },
+    { "type": "cloze", "text": "Ein Satz mit einem {{ausgelassenen Begriff}}.", "tags": [] },
+    { "type": "basic", "front": "Frage mit Diagramm?", "back": "Antwort", "svg": "<svg ...>...</svg>" }
+  ]
+}
+
+Regeln:
+- Eine "basic"-Karte hat "front" (Frage) und "back" (Antwort).
+- Eine "cloze"-Karte hat "text" mit einer oder mehreren Stellen {{wie hier}}, die beim Lernen verborgen werden.
+- Optional füge "svg" mit einem einfachen Diagramm oder einer Mindmap hinzu (sauberes Inline-SVG, ohne Skripte).
+- Optional füge "tags" als Array von Schlagwörtern hinzu.
+- Erstelle 15–25 Karten, sachlich korrekt und knapp.
+
+Thema: [HIER DAS THEMA EINSETZEN, Z. B. „Römisches Recht — Sachenrechte“]`
+
+export const aiPrompt = { cs: aiPromptCs, en: aiPromptEn, de: aiPromptDe }[currentLang()]

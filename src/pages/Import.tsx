@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { parseDeck } from '../import/parseDeck'
 import { importDeck } from '../db/repo'
 import { aiPrompt, sampleDeckJson } from '../import/sampleDeck'
+import { t } from '../i18n'
 
 interface Props {
   onDone: () => void
@@ -41,19 +42,19 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
 
   return (
     <div className="page">
-      <h2 className="page-title">Import balíčku</h2>
+      <h2 className="page-title">{t('importTitle')}</h2>
       {shared ? (
         <div className="guardrail" role="status">
-          Někdo ti poslal balíček kartiček 🎁 — mrkni na obsah níže a potvrď import.
+          {t('sharedBanner')}
         </div>
       ) : (
-        <p className="muted">Vlož JSON s kartami, nebo si načti ukázkový balíček.</p>
+        <p className="muted">{t('pasteHint')}</p>
       )}
 
       <textarea
         className="json-input"
         spellCheck={false}
-        placeholder='{ "subject": "...", "examDate": "RRRR-MM-DD", "cards": [ ... ] }'
+        placeholder={t('jsonPlaceholder')}
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
@@ -68,26 +69,24 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
 
       <div className="button-row">
         <button className="btn btn-ghost" onClick={() => setText(sampleDeckJson)}>
-          Načíst ukázkový balíček
+          {t('loadSample')}
         </button>
         <button className="btn btn-primary" onClick={handleImport} disabled={busy || !text.trim()}>
-          {busy ? 'Importuji…' : 'Importovat'}
+          {busy ? t('importing') : t('importBtn')}
         </button>
         <button className="btn btn-ghost" onClick={onCancel}>
-          Zpět
+          {t('backPlain')}
         </button>
       </div>
 
       <section className="ai-prompt">
         <div className="ai-prompt-head">
-          <h3>Vygeneruj balíček pomocí AI</h3>
+          <h3>{t('aiHeading')}</h3>
           <button className="btn btn-ghost btn-small" onClick={copyPrompt}>
-            {copied ? 'Zkopírováno ✓' : 'Zkopírovat'}
+            {copied ? t('copied') : t('copy')}
           </button>
         </div>
-        <p className="muted">
-          Zkopíruj prompt do svého oblíbeného AI nástroje, doplň téma a výsledný JSON vlož výše.
-        </p>
+        <p className="muted">{t('aiHint')}</p>
         <pre className="prompt-box">{aiPrompt}</pre>
       </section>
     </div>

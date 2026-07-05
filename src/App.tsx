@@ -9,6 +9,7 @@ import { Login } from './pages/Login'
 import { decodeDeckPayload, payloadFromHash } from './lib/sharelink'
 import { AUTH_EXPIRED_EVENT, getMe, SERVER_MODE, type Account } from './lib/api'
 import { initSync, startSyncListener } from './lib/sync'
+import { t } from './i18n'
 
 type View = 'home' | 'import' | 'study' | 'browser' | 'stats' | 'settings'
 type AuthState = 'checking' | 'login' | 'ready'
@@ -68,7 +69,7 @@ function App() {
   if (auth === 'checking') {
     return (
       <div className="app">
-        <div className="page center muted">Načítám…</div>
+        <div className="page center muted">{t('loading')}</div>
       </div>
     )
   }
@@ -90,7 +91,7 @@ function App() {
         </button>
         {view === 'home' && (
           <button className="btn btn-ghost btn-small" onClick={() => setView('import')}>
-            Import
+            {t('navImport')}
           </button>
         )}
       </header>

@@ -4,6 +4,7 @@
 import { getSyncSnapshot, putSyncSnapshot, SERVER_MODE } from './api'
 import { exportBackupJson, restoreBackup, getSubjects } from '../db/repo'
 import { parseBackup } from '../import/backup'
+import { t } from '../i18n'
 
 const META_KEY = 'studyflow-sync-meta'
 const PUSH_DEBOUNCE_MS = 15_000
@@ -90,9 +91,7 @@ export async function initSync(): Promise<SyncStartResult> {
 
     // Server moved on (another device). Apply unless we'd lose local edits.
     if (meta.dirty) {
-      const useServer = window.confirm(
-        'Na serveru jsou novější data (z jiného zařízení), ale i tady máš neuložené změny.\n\nOK = načíst data ze serveru (místní změny se zahodí)\nZrušit = nechat moje a přepsat server',
-      )
+      const useServer = window.confirm(t('syncConflict'))
       if (!useServer) {
         await pushSync()
         return 'kept-local'

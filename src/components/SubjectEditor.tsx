@@ -4,6 +4,7 @@ import { deleteSubject, exportSubjectJson, updateSubject } from '../db/repo'
 import { DECK_HASH_PREFIX, encodeDeckPayload, MAX_LINK_LENGTH } from '../lib/sharelink'
 import { subjectPalette } from '../lib/theme'
 import { Modal } from './Modal'
+import { t } from '../i18n'
 
 interface Props {
   subject: Subject
@@ -44,7 +45,7 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
 
   async function handleSave() {
     if (!name.trim()) {
-      setError('Předmět potřebuje název.')
+      setError(t('errSubjectNeedsName'))
       return
     }
     await updateSubject(subject.id, {
@@ -58,7 +59,7 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
   }
 
   async function handleDelete() {
-    if (!window.confirm(`Smazat předmět „${subject.name}" a všechny jeho karty?`)) return
+    if (!window.confirm(t('confirmDeleteSubject', subject.name))) return
     await deleteSubject(subject.id)
     onDeleted()
     onClose()
@@ -84,16 +85,16 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
   }
 
   return (
-    <Modal title="Upravit předmět" onClose={onClose}>
+    <Modal title={t('editSubjectTitle')} onClose={onClose}>
       <div className="form-grid">
         <label className="form-field">
-          <span className="form-label">Název</span>
+          <span className="form-label">{t('nameLabel')}</span>
           <input className="form-input" value={name} onChange={(e) => setName(e.target.value)} />
         </label>
 
         <div className="form-row">
           <label className="form-field">
-            <span className="form-label">Datum zkoušky</span>
+            <span className="form-label">{t('examDateLabel')}</span>
             <input
               className="form-input"
               type="date"
@@ -102,7 +103,7 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
             />
           </label>
           <label className="form-field">
-            <span className="form-label">Připomínka</span>
+            <span className="form-label">{t('reminderLabel')}</span>
             <input
               className="form-input"
               type="time"
@@ -113,8 +114,8 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
         </div>
 
         <div className="form-field">
-          <span className="form-label">Barva předmětu</span>
-          <div className="swatch-row" role="radiogroup" aria-label="Barva předmětu">
+          <span className="form-label">{t('subjectColorLabel')}</span>
+          <div className="swatch-row" role="radiogroup" aria-label={t('subjectColorLabel')}>
             {subjectPalette.map((hex, i) => (
               <button
                 key={hex}
@@ -123,7 +124,7 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
                 className={`swatch${i === colorIndex ? ' swatch-active' : ''}`}
                 style={{ background: hex }}
                 onClick={() => setColorIndex(i)}
-                aria-label={`Barva ${i + 1}`}
+                aria-label={t('colorN', i + 1)}
               />
             ))}
           </div>
@@ -131,27 +132,25 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
 
         {error && <p className="form-error">{error}</p>}
         {shareState === 'too-big' && (
-          <p className="form-error">
-            Balíček je na odkaz moc velký — použij Exportovat a pošli soubor.
-          </p>
+          <p className="form-error">{t('shareTooBig')}</p>
         )}
 
         <div className="button-row modal-actions">
           <button className="btn btn-ghost btn-danger" onClick={handleDelete}>
-            Smazat
+            {t('delete')}
           </button>
           <button className="btn btn-ghost" onClick={handleExport}>
-            Exportovat
+            {t('exportBtn')}
           </button>
           <button className="btn btn-ghost" onClick={() => void handleShare()}>
-            {shareState === 'copied' ? 'Odkaz zkopírován ✓' : 'Sdílet odkazem'}
+            {shareState === 'copied' ? t('linkCopied') : t('shareLink')}
           </button>
           <span className="flex-spacer" />
           <button className="btn btn-ghost" onClick={onClose}>
-            Zrušit
+            {t('cancel')}
           </button>
           <button className="btn btn-primary" onClick={handleSave}>
-            Uložit
+            {t('save')}
           </button>
         </div>
       </div>

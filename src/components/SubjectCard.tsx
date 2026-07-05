@@ -4,6 +4,7 @@ import { countdownLabel, formatExamDate, urgency } from '../lib/date'
 import { readinessBand, type Readiness } from '../lib/readiness'
 import { subjectColor, subjectColorIndex, urgencyColor, palette } from '../lib/theme'
 import { ProgressBar } from './ProgressBar'
+import { t } from '../i18n'
 
 interface Props {
   subject: Subject
@@ -46,31 +47,29 @@ export function SubjectCard({ subject, plan, readiness, onEdit, onCram }: Props)
 
       <ProgressBar value={plan.studied} max={plan.total} color={urgent} />
       <div className="subject-meta">
-        <span>
-          naučeno {plan.studied} / {plan.total}
-        </span>
+        <span>{t('learnedRatio', plan.studied, plan.total)}</span>
         {readiness && (
           <span
             className="readiness-pill"
             style={{ color: readyColor }}
-            title="Odhad, kolik si toho budeš pamatovat v den zkoušky (FSRS křivka zapomínání)"
+            title={t('readinessPillTitle')}
           >
-            připravenost {readiness.percent} %
+            {t('readinessPercent', readiness.percent)}
           </span>
         )}
         <span className={todayCount > 0 ? 'today-due' : 'today-clear'}>
           {todayCount > 0
-            ? `${plan.dueReviews} k opakování · ${plan.newQuota} nových`
-            : 'pro dnešek hotovo'}
+            ? t('subjectTodayCounts', plan.dueReviews, plan.newQuota)
+            : t('doneForToday')}
         </span>
       </div>
 
       <div className="subject-actions">
         <button className="subject-action" onClick={() => onCram(subject)}>
-          Procvičit
+          {t('cramBtn')}
         </button>
         <button className="subject-action" onClick={() => onEdit(subject)}>
-          Upravit
+          {t('edit')}
         </button>
       </div>
     </article>

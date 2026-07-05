@@ -1,15 +1,17 @@
 import type { HeatCell } from '../stats/stats'
+import { t } from '../i18n'
 
-const DAY_LABELS = ['po', '', 'st', '', 'pá', '', 'ne']
+// Row labels (Mon..Sun, every other one) as Date.getDay() indices; null = blank.
+const DAY_ROWS: (number | null)[] = [1, null, 3, null, 5, null, 0]
 
 /** GitHub-style review-activity grid (columns = weeks, rows = Mon..Sun). */
 export function Heatmap({ weeks }: { weeks: HeatCell[][] }) {
   return (
-    <div className="heatmap" role="img" aria-label="Aktivita opakování v posledních týdnech">
+    <div className="heatmap" role="img" aria-label={t('heatmapLabel')}>
       <div className="heatmap-days" aria-hidden="true">
-        {DAY_LABELS.map((l, i) => (
+        {DAY_ROWS.map((d, i) => (
           <span key={i} className="heatmap-day-label">
-            {l}
+            {d === null ? '' : t('weekdayShort', d)}
           </span>
         ))}
       </div>

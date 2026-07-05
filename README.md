@@ -207,6 +207,33 @@ These signals are computed by small pure modules (`src/lib/wellbeing.ts`,
 - **Unbury**: buried cards show an "odložená" chip in the browser with a
   one-tap return to today's queue.
 
+## Sprint 5 — server mode: login, sync, reminders, languages
+
+- **Server mode** (`VITE_SERVER=1` build + `server/`): the app lives behind a
+  login. Auth is **email + access code** — no passwords to forget, no email
+  sending; the admin issues codes (shown once, scrypt-hashed at rest) and
+  hands them to friends directly. Sessions are httpOnly cookies; the login
+  endpoint is rate-limited.
+- **Sync**: each user's whole state (the backup JSON) auto-syncs — pull on
+  start, debounced push after changes, keepalive flush on tab close, a
+  conflict prompt when two devices diverge. Log in on a new device and your
+  cards are just there.
+- **Admin panel** (Nastavení → Přístupy): add/remove people, issue/reset
+  codes, see last logins. Deleting a user also deletes their server snapshot.
+- **Daily push reminder**: pick a time; the server (VAPID web-push, per-user
+  timezone) sends "N cards waiting today" — computed from the user's last
+  sync snapshot. Works with the app closed (installed PWA).
+- **App-icon badge**: the installed app's icon shows today's card count
+  (iOS 16.4+/Android/desktop) — the closest thing the web has to a widget.
+- **Languages**: Czech (default), English, German — switchable in Settings.
+
+Run locally: `cd server && npm i && ADMIN_EMAIL=you@example.com INSECURE_COOKIES=1 PORT=3555 npm start`,
+then `VITE_SERVER=1 STUDYFLOW_API=http://localhost:3555 npm run dev`.
+The admin access code prints in the server log on first start.
+
+Production: `Dockerfile` + `docker-compose.yml` + `deploy/RUNBOOK.md`
+(study.dmarka.eu behind the existing Caddy).
+
 ## Deployment (GitHub Pages)
 
 Live at **https://darok69.github.io/studyflow/** (repo `Darok69/studyflow`).

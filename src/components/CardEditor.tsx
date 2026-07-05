@@ -3,6 +3,7 @@ import type { Card, CardType, Subject } from '../db/db'
 import { addCard, deleteCard, updateCard } from '../db/repo'
 import { hasCloze, makeCloze } from '../import/parseDeck'
 import { Modal } from './Modal'
+import { t } from '../i18n'
 
 interface Props {
   subjects: Subject[]
@@ -36,20 +37,20 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
     setError(null)
 
     if (!subjectId) {
-      setError('Vyber předmět.')
+      setError(t('errSelectSubject'))
       return
     }
 
     let content: Pick<Card, 'type' | 'front' | 'back' | 'raw'>
     if (type === 'cloze') {
       if (!hasCloze(clozeText)) {
-        setError('Doplňovačka musí obsahovat alespoň jedno {{vynechané slovo}}.')
+        setError(t('errClozeNeedsBlank'))
         return
       }
       content = { type, ...makeCloze(clozeText) }
     } else {
       if (!front.trim() || !back.trim()) {
-        setError('Základní karta musí mít otázku i odpověď.')
+        setError(t('errBasicNeedsBoth'))
         return
       }
       content = { type, front: front.trim(), back: back.trim(), raw: undefined }
@@ -70,17 +71,17 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
 
   async function handleDelete() {
     if (!card) return
-    if (!window.confirm('Smazat tuhle kartu i s její historií?')) return
+    if (!window.confirm(t('confirmDeleteCard'))) return
     await deleteCard(card.id)
     onDeleted?.(card.id)
     onClose()
   }
 
   return (
-    <Modal title={card ? 'Upravit kartu' : 'Nová karta'} onClose={onClose}>
+    <Modal title={card ? t('editCardTitle') : t('newCardTitle')} onClose={onClose}>
       <div className="form-grid">
         <label className="form-field">
-          <span className="form-label">Předmět</span>
+          <span className="form-label">{t('subjectLabel')}</span>
           <select className="form-input" value={subjectId} onChange={(e) => setSubjectId(e.target.value)}>
             {subjects.map((s) => (
               <option key={s.id} value={s.id}>
@@ -91,19 +92,19 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
         </label>
 
         <div className="form-field">
-          <span className="form-label">Typ karty</span>
+          <span className="form-label">{t('cardTypeLabel')}</span>
           <div className="segmented">
             <button
               className={`segment${type === 'basic' ? ' segment-active' : ''}`}
               onClick={() => setType('basic')}
             >
-              Základní
+              {t('typeBasic')}
             </button>
             <button
               className={`segment${type === 'cloze' ? ' segment-active' : ''}`}
               onClick={() => setType('cloze')}
             >
-              Doplňovačka
+              {t('typeCloze')}
             </button>
           </div>
         </div>
@@ -111,7 +112,7 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
         {type === 'basic' ? (
           <>
             <label className="form-field">
-              <span className="form-label">Přední strana (otázka)</span>
+              <span className="form-label">{t('frontLabel')}</span>
               <textarea
                 className="form-input form-textarea"
                 value={front}
@@ -119,7 +120,7 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
               />
             </label>
             <label className="form-field">
-              <span className="form-label">Zadní strana (odpověď)</span>
+              <span className="form-label">{t('backLabel')}</span>
               <textarea
                 className="form-input form-textarea"
                 value={back}
@@ -129,12 +130,10 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
           </>
         ) : (
           <label className="form-field">
-            <span className="form-label">
-              Text s {'{{vynechanými}}'} slovy — každé {'{{...}}'} se stane doplňovačkou
-            </span>
+            <span className="form-label">{t('clozeFieldLabel')}</span>
             <textarea
               className="form-input form-textarea"
-              placeholder="Dvanáct desek pochází z roku {{451 př. n. l.}}."
+              placeholder={t('clozePlaceholder')}
               value={clozeText}
               onChange={(e) => setClozeText(e.target.value)}
             />
@@ -142,7 +141,7 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
         )}
 
         <label className="form-field">
-          <span className="form-label">Štítky (oddělené čárkou)</span>
+          <span className="form-label">{t('tagsLabel')}</span>
           <input className="form-input" value={tags} onChange={(e) => setTags(e.target.value)} />
         </label>
 
@@ -151,15 +150,15 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
         <div className="button-row modal-actions">
           {card && (
             <button className="btn btn-ghost btn-danger" onClick={handleDelete}>
-              Smazat
+              {t('delete')}
             </button>
           )}
           <span className="flex-spacer" />
           <button className="btn btn-ghost" onClick={onClose}>
-            Zrušit
+            {t('cancel')}
           </button>
           <button className="btn btn-primary" onClick={handleSave} disabled={busy}>
-            {busy ? 'Ukládám…' : 'Uložit'}
+            {busy ? t('saving') : t('save')}
           </button>
         </div>
       </div>

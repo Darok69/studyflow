@@ -1,4 +1,5 @@
 import type { Urgency } from './theme'
+import { t } from '../i18n'
 
 const DAY_MS = 86_400_000
 
@@ -53,27 +54,18 @@ export function urgency(days: number | null): Urgency {
   return 'far'
 }
 
-/** Czech, human-friendly countdown label for the home screen. */
+/** Human-friendly countdown label for the home screen (localised). */
 export function countdownLabel(days: number | null): string {
-  if (days === null) return 'bez termínu'
-  if (days < 0) {
-    const n = Math.abs(days)
-    return `${n} ${czDays(n)} po termínu`
-  }
-  if (days === 0) return 'dnes'
-  if (days === 1) return 'zítra'
-  return `za ${days} ${czDays(days)}`
-}
-
-function czDays(n: number): string {
-  if (n === 1) return 'den'
-  if (n >= 2 && n <= 4) return 'dny'
-  return 'dní'
+  if (days === null) return t('countdownNone')
+  if (days < 0) return t('countdownOverdue', Math.abs(days))
+  if (days === 0) return t('countdownToday')
+  if (days === 1) return t('countdownTomorrow')
+  return t('countdownIn', days)
 }
 
 export function formatExamDate(examDate: string | null): string {
   if (!examDate) return ''
-  return parseExamDate(examDate).toLocaleDateString('cs-CZ', {
+  return parseExamDate(examDate).toLocaleDateString(t('locale'), {
     day: 'numeric',
     month: 'long',
     year: 'numeric',

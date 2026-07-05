@@ -1,12 +1,13 @@
 import type { DayBucket } from '../stats/stats'
 import { palette } from '../lib/theme'
+import { t } from '../i18n'
 
 interface Props {
   data: DayBucket[]
   label?: string
 }
 
-export function Sparkline({ data, label = 'Opakování za posledních 7 dní' }: Props) {
+export function Sparkline({ data, label = t('sparklineLabel') }: Props) {
   const max = Math.max(1, ...data.map((d) => d.count))
   return (
     <div className="sparkline" role="img" aria-label={label}>

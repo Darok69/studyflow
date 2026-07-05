@@ -5,22 +5,17 @@ import { countdownLabel, dayKey, daysUntilDate } from '../lib/date'
 import { isLeech } from '../lib/wellbeing'
 import { subjectColor, subjectColorIndex } from '../lib/theme'
 import { CardEditor } from '../components/CardEditor'
+import { t, type MsgKey } from '../i18n'
 
 type StateFilter = 'all' | 'new' | 'learning' | 'suspended' | 'leech'
 
-const STATE_FILTERS: { value: StateFilter; label: string }[] = [
-  { value: 'all', label: 'Vše' },
-  { value: 'new', label: 'Nové' },
-  { value: 'learning', label: 'V učení' },
-  { value: 'suspended', label: 'Pozastavené' },
-  { value: 'leech', label: 'Problémové' },
+const STATE_FILTERS: { value: StateFilter; labelKey: MsgKey }[] = [
+  { value: 'all', labelKey: 'filterAll' },
+  { value: 'new', labelKey: 'filterNew' },
+  { value: 'learning', labelKey: 'filterLearning' },
+  { value: 'suspended', labelKey: 'filterSuspended' },
+  { value: 'leech', labelKey: 'filterLeech' },
 ]
-
-function czCards(n: number): string {
-  if (n === 1) return 'karta'
-  if (n >= 2 && n <= 4) return 'karty'
-  return 'karet'
-}
 
 export function Browser({ onBack }: { onBack: () => void }) {
   const [loading, setLoading] = useState(true)
@@ -81,13 +76,13 @@ export function Browser({ onBack }: { onBack: () => void }) {
   const todayKey = dayKey(new Date())
   const isBuried = (c: Card) => !!c.buriedUntil && c.buriedUntil >= todayKey
 
-  if (loading) return <div className="page center muted">Načítám…</div>
+  if (loading) return <div className="page center muted">{t('loading')}</div>
 
   return (
     <div className="page">
       <div className="page-nav">
         <button className="btn btn-ghost btn-small" onClick={onBack}>
-          ← Zpět
+          {t('back')}
         </button>
         <span className="flex-spacer" />
         <button
@@ -95,15 +90,15 @@ export function Browser({ onBack }: { onBack: () => void }) {
           onClick={() => setEditing('new')}
           disabled={subjects.length === 0}
         >
-          + Nová karta
+          {t('newCardBtn')}
         </button>
       </div>
-      <h2 className="page-title">Kartičky</h2>
+      <h2 className="page-title">{t('navCards')}</h2>
 
       <div className="browser-filters">
         <input
           className="form-input browser-search"
-          placeholder="Hledat v otázkách, odpovědích a štítcích…"
+          placeholder={t('searchPlaceholder')}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
@@ -112,7 +107,7 @@ export function Browser({ onBack }: { onBack: () => void }) {
           value={subjectFilter}
           onChange={(e) => setSubjectFilter(e.target.value)}
         >
-          <option value="all">Všechny předměty</option>
+          <option value="all">{t('allSubjects')}</option>
           {subjects.map((s) => (
             <option key={s.id} value={s.id}>
               {s.name}
@@ -128,19 +123,17 @@ export function Browser({ onBack }: { onBack: () => void }) {
             className={`segment${stateFilter === f.value ? ' segment-active' : ''}`}
             onClick={() => setStateFilter(f.value)}
           >
-            {f.label}
+            {t(f.labelKey)}
           </button>
         ))}
       </div>
 
-      <p className="muted browser-count">
-        {filtered.length} {czCards(filtered.length)}
-      </p>
+      <p className="muted browser-count">{t('cardsCount', filtered.length)}</p>
 
       {filtered.length === 0 ? (
         <div className="empty-state">
           <p className="empty-emoji">🔍</p>
-          <p className="muted">Žádná karta neodpovídá filtru.</p>
+          <p className="muted">{t('noCardMatches')}</p>
         </div>
       ) : (
         <ul className="card-list">
@@ -153,20 +146,20 @@ export function Browser({ onBack }: { onBack: () => void }) {
             return (
               <li key={c.id} className="card-row">
                 <span className="subject-dot" style={{ background: identity }} aria-hidden="true" />
-                <button className="card-row-main" onClick={() => setEditing(c)} title="Upravit kartu">
+                <button className="card-row-main" onClick={() => setEditing(c)} title={t('editCardTitle')}>
                   <span className="card-row-front">{c.front}</span>
                   <span className="card-row-meta">
                     {c.suspended ? (
-                      <span className="row-chip row-chip-suspended">pozastavená</span>
+                      <span className="row-chip row-chip-suspended">{t('chipSuspended')}</span>
                     ) : c.state === 'new' ? (
-                      <span className="row-chip row-chip-new">nová</span>
+                      <span className="row-chip row-chip-new">{t('typeNew')}</span>
                     ) : (
                       <span className="row-chip">{countdownLabel(dueDays)}</span>
                     )}
                     {isBuried(c) && !c.suspended && (
-                      <span className="row-chip row-chip-suspended">odložená</span>
+                      <span className="row-chip row-chip-suspended">{t('chipBuried')}</span>
                     )}
-                    {isLeech(c) && <span className="row-chip row-chip-leech">problémová</span>}
+                    {isLeech(c) && <span className="row-chip row-chip-leech">{t('chipLeech')}</span>}
                     {c.tags.map((t) => (
                       <span key={t} className="row-chip row-chip-tag">
                         {t}
@@ -178,17 +171,17 @@ export function Browser({ onBack }: { onBack: () => void }) {
                   <button
                     className="card-tool"
                     onClick={() => void handleUnbury(c)}
-                    title="Vrátit odloženou kartu do dnešní fronty"
+                    title={t('unburyTitle')}
                   >
-                    Vrátit
+                    {t('unburyBtn')}
                   </button>
                 )}
                 <button
                   className="card-tool"
                   onClick={() => void toggleSuspend(c)}
-                  title={c.suspended ? 'Vrátit do opakování' : 'Vyřadit z opakování'}
+                  title={c.suspended ? t('resumeTitle') : t('suspendTitleShort')}
                 >
-                  {c.suspended ? 'Obnovit' : 'Pozastavit'}
+                  {c.suspended ? t('resumeBtn') : t('suspendBtn')}
                 </button>
               </li>
             )

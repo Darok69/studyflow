@@ -9,6 +9,7 @@ import { currentStreak, reviewsToday } from '../stats/stats'
 import { updateAppBadge } from '../lib/badge'
 import { SubjectCard } from '../components/SubjectCard'
 import { SubjectEditor } from '../components/SubjectEditor'
+import { t } from '../i18n'
 
 interface Props {
   onImport: () => void
@@ -41,7 +42,7 @@ export function Home({ onImport, onStudy, onCram, onBrowser, onStats, onSettings
   }, [])
 
   if (loading) {
-    return <div className="page center muted">Načítám…</div>
+    return <div className="page center muted">{t('loading')}</div>
   }
 
   const now = new Date()
@@ -88,33 +89,33 @@ export function Home({ onImport, onStudy, onCram, onBrowser, onStats, onSettings
     <div className="page">
       <nav className="home-nav">
         <button className="btn btn-ghost btn-small" onClick={onBrowser}>
-          Kartičky
+          {t('navCards')}
         </button>
         <button className="btn btn-ghost btn-small" onClick={onStats}>
-          Statistiky
+          {t('navStats')}
         </button>
         <button className="btn btn-ghost btn-small" onClick={onSettings}>
-          Nastavení
+          {t('navSettings')}
         </button>
       </nav>
 
       <section className="today-banner">
         <div>
-          <div className="today-title">Dnešní plán</div>
+          <div className="today-title">{t('todayPlan')}</div>
           <div className="today-counts">
             {session.total > 0 ? (
               <>
-                <strong>{session.dueReviews}</strong> k opakování ·{' '}
-                <strong>{session.newCards}</strong> nových ·{' '}
-                <span className="today-est">~{load_.minutes} min</span>
+                <strong>{session.dueReviews}</strong> {t('toReview')} ·{' '}
+                <strong>{session.newCards}</strong> {t('newCount')} ·{' '}
+                <span className="today-est">{t('estMinutes', load_.minutes)}</span>
               </>
             ) : (
-              'Na dnešek nic nečeká 🌿'
+              t('nothingTodayLeaf')
             )}
           </div>
         </div>
         <button className="btn btn-primary" onClick={onStudy} disabled={session.total === 0}>
-          Studovat vše
+          {t('studyAll')}
         </button>
       </section>
 
@@ -122,18 +123,17 @@ export function Home({ onImport, onStudy, onCram, onBrowser, onStats, onSettings
 
       {load_.heavy && (
         <div className="guardrail" role="status">
-          Dnes je toho víc ({load_.cards} karet, ~{load_.minutes} min). Klidně to rozlož během dne —
-          nemusíš všechno najednou. 🌱
+          {t('heavyLoad', load_.cards, load_.minutes)}
         </div>
       )}
 
       {subjects.length === 0 ? (
         <div className="empty-state">
           <p className="empty-emoji">🌱</p>
-          <p>Zatím tu nic není — a to je úplně v pořádku.</p>
-          <p className="muted">Naimportuj si první balíček a můžeme začít v klidu.</p>
+          <p>{t('emptyNothingYet')}</p>
+          <p className="muted">{t('emptyImportHint')}</p>
           <button className="btn btn-primary" onClick={onImport}>
-            Importovat balíček
+            {t('importDeckBtn')}
           </button>
         </div>
       ) : (

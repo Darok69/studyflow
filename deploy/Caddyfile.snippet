@@ -1,0 +1,12 @@
+# Append to the DMARKA Caddyfile (separate site block — no overlap with the
+# company app). Caddy obtains the study.dmarka.eu certificate automatically
+# once DNS resolves.
+#
+# REMINDER (Caddyfile inode trap): after `git pull` / editing the mounted
+# Caddyfile, `caddy reload` silently reloads the OLD content. Use:
+#   docker compose up -d --force-recreate caddy
+
+study.dmarka.eu {
+	encode gzip
+	reverse_proxy studyflow:3000
+}

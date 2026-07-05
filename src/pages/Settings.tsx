@@ -6,11 +6,19 @@ import { getConfig, logout, SERVER_MODE, type Account } from '../lib/api'
 import { pushSync, syncMeta } from '../lib/sync'
 import { disableReminder, enableReminder, pushSupported, reminderPrefs } from '../lib/push'
 import { AdminUsers } from '../components/AdminUsers'
+import { currentLang, setLang, t, type Lang, type MsgKey } from '../i18n'
 
-const FONT_SCALES: { value: number; label: string }[] = [
-  { value: 0.9, label: 'Menší' },
-  { value: 1, label: 'Normální' },
-  { value: 1.2, label: 'Větší' },
+const FONT_SCALES: { value: number; labelKey: MsgKey }[] = [
+  { value: 0.9, labelKey: 'fontSmaller' },
+  { value: 1, labelKey: 'fontNormal' },
+  { value: 1.2, labelKey: 'fontLarger' },
+]
+
+// Language names stay in their own language on purpose.
+const LANGS: { value: Lang; label: string }[] = [
+  { value: 'cs', label: 'Čeština' },
+  { value: 'en', label: 'English' },
+  { value: 'de', label: 'Deutsch' },
 ]
 
 function download(filename: string, text: string) {
@@ -79,7 +87,7 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
       await pushSync()
       setSyncState(syncMeta())
     } catch {
-      setRestoreError('Synchronizace se nepovedla — zkus to znovu.')
+      setRestoreError(t('syncFailed'))
     } finally {
       setSyncBusy(false)
     }
@@ -94,7 +102,7 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
     setReminderError(null)
     try {
       if (enabled) {
-        await enableReminder(reminder.time, 'cs')
+        await enableReminder(reminder.time, currentLang())
         setReminder({ enabled: true, time: reminder.time })
       } else {
         await disableReminder()
@@ -102,9 +110,7 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
       }
     } catch (err) {
       setReminderError(
-        (err as Error).message === 'permission-denied'
-          ? 'Prohlížeč notifikace zablokoval — povol je v nastavení stránky.'
-          : 'Nepodařilo se zapnout připomínky — zkus to znovu.',
+        (err as Error).message === 'permission-denied' ? t('reminderBlocked') : t('reminderFailed'),
       )
     }
   }
@@ -112,7 +118,7 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
   async function changeReminderTime(time: string) {
     setReminder((r) => ({ ...r, time }))
     if (reminder.enabled && /^\d{2}:\d{2}$/.test(time)) {
-      await enableReminder(time, 'cs').catch(() => {})
+      await enableReminder(time, currentLang()).catch(() => {})
     }
   }
 
@@ -124,13 +130,13 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
   }
 
   async function handleReset() {
-    if (!window.confirm('Opravdu smazat všechna data (předměty, karty i historii)?')) return
+    if (!window.confirm(t('confirmDeleteAll'))) return
     await resetAll()
     onReset()
   }
 
   async function handleExport() {
-    download(`studyflow-zaloha-${new Date().toISOString().slice(0, 10)}.json`, await exportBackupJson())
+    download(t('backupFileName', new Date().toISOString().slice(0, 10)), await exportBackupJson())
   }
 
   async function handleRestoreFile(file: File) {
@@ -140,42 +146,41 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
       setRestoreError(error)
       return
     }
-    const what = `${backup.subjects.length} předmětů, ${backup.cards.length} karet`
-    if (!window.confirm(`Nahradit všechna současná data zálohou (${what})?`)) return
+    if (!window.confirm(t('confirmRestore', backup.subjects.length, backup.cards.length))) return
     await restoreBackup(backup)
     if (SERVER_MODE) await pushSync().catch(() => {})
     onReset()
   }
 
-  if (!s) return <div className="page center muted">Načítám…</div>
+  if (!s) return <div className="page center muted">{t('loading')}</div>
 
   return (
     <div className="page">
       <div className="page-nav">
         <button className="btn btn-ghost btn-small" onClick={onBack}>
-          ← Zpět
+          {t('back')}
         </button>
       </div>
-      <h2 className="page-title">Nastavení</h2>
+      <h2 className="page-title">{t('navSettings')}</h2>
 
       {SERVER_MODE && account && (
         <>
-          <h3 className="section-title">Účet a synchronizace</h3>
+          <h3 className="section-title">{t('sectionAccount')}</h3>
           <section className="setting-row">
             <div className="setting-text">
               <div className="setting-name">{account.email}</div>
               <p className="muted setting-desc">
                 {syncState.lastSyncAt
-                  ? `Poslední synchronizace: ${new Date(syncState.lastSyncAt).toLocaleString('cs-CZ')}`
-                  : 'Zatím nesynchronizováno.'}
-                {' '}Data se zálohují na server automaticky — na dalším zařízení se stačí přihlásit.
+                  ? t('lastSyncAt', new Date(syncState.lastSyncAt).toLocaleString(t('locale')))
+                  : t('notSyncedYet')}
+                {' '}{t('syncAutoNote')}
               </p>
               <div className="button-row" style={{ marginTop: 10 }}>
                 <button className="btn btn-ghost btn-small" onClick={() => void handleSyncNow()} disabled={syncBusy}>
-                  {syncBusy ? 'Synchronizuji…' : 'Synchronizovat teď'}
+                  {syncBusy ? t('syncing') : t('syncNow')}
                 </button>
                 <button className="btn btn-ghost btn-small" onClick={() => void handleLogout()}>
-                  Odhlásit se
+                  {t('logout')}
                 </button>
               </div>
             </div>
@@ -184,14 +189,14 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
           {pushAvailable && (
             <>
               <ToggleRow
-                name="Denní připomínka"
-                desc="Push notifikace s počtem kartiček, které na tebe ten den čekají. Funguje i při zavřené aplikaci (nainstaluj si ji na plochu)."
+                name={t('reminderName')}
+                desc={t('reminderDesc')}
                 checked={reminder.enabled}
                 onChange={(v) => void toggleReminder(v)}
               />
               {reminder.enabled && (
                 <div className="cap-row">
-                  <span>Čas připomínky</span>
+                  <span>{t('reminderTimeLabel')}</span>
                   <input
                     className="cap-input"
                     type="time"
@@ -208,15 +213,12 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
         </>
       )}
 
-      <h3 className="section-title">Učení</h3>
+      <h3 className="section-title">{t('sectionLearning')}</h3>
 
       <section className="setting-row">
         <div className="setting-text">
-          <div className="setting-name">Cílová zapamatovanost</div>
-          <p className="muted setting-desc">
-            Kolik procent karet chceš mít v hlavě, když přijdou na řadu. Vyšší hodnota = častější
-            opakování; 90 % je rozumný standard.
-          </p>
+          <div className="setting-name">{t('retentionName')}</div>
+          <p className="muted setting-desc">{t('retentionDesc')}</p>
           <div className="slider-row">
             <input
               type="range"
@@ -232,31 +234,31 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
       </section>
 
       <ToggleRow
-        name="Náhledy intervalů"
-        desc="Na tlačítkách hodnocení uvidíš, za jak dlouho se karta vrátí (jako v Anki)."
+        name={t('previewsName')}
+        desc={t('previewsDesc')}
         checked={s.showIntervalPreviews}
         onChange={(v) => update({ showIntervalPreviews: v })}
       />
 
       <ToggleRow
-        name="Psané odpovědi"
-        desc="U krátkých odpovědí nejdřív napíšeš, co si myslíš — aktivní vybavování je nejsilnější forma učení. Překlepy a diakritika se odpouští."
+        name={t('typedName')}
+        desc={t('typedDesc')}
         checked={s.typedAnswers}
         onChange={(v) => update({ typedAnswers: v })}
       />
 
-      <h3 className="section-title">Tempo a pohoda</h3>
+      <h3 className="section-title">{t('sectionPace')}</h3>
 
       <ToggleRow
-        name="Denní strop nových karet"
-        desc="Klidnější tempo před zkouškou — nové karty se rozloží do více dní místo jednoho velkého sezení. Opakování se nestropuje."
+        name={t('capName')}
+        desc={t('capDesc')}
         checked={s.dailyNewCapEnabled}
         onChange={(v) => update({ dailyNewCapEnabled: v })}
       />
 
       {s.dailyNewCapEnabled && (
         <div className="cap-row">
-          <span>Max. nových karet za den</span>
+          <span>{t('capMaxLabel')}</span>
           <input
             className="cap-input"
             type="number"
@@ -271,7 +273,7 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
       )}
 
       <div className="cap-row">
-        <span>Připomenout pauzu po (min)</span>
+        <span>{t('breakAfterLabel')}</span>
         <input
           className="cap-input"
           type="number"
@@ -284,11 +286,11 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
         />
       </div>
 
-      <h3 className="section-title">Vzhled karet</h3>
+      <h3 className="section-title">{t('sectionAppearance')}</h3>
 
       <section className="setting-row">
         <div className="setting-text">
-          <div className="setting-name">Velikost písma</div>
+          <div className="setting-name">{t('fontSizeName')}</div>
           <div className="segmented setting-segmented">
             {FONT_SCALES.map((f) => (
               <button
@@ -296,7 +298,7 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
                 className={`segment${s.cardFontScale === f.value ? ' segment-active' : ''}`}
                 onClick={() => update({ cardFontScale: f.value })}
               >
-                {f.label}
+                {t(f.labelKey)}
               </button>
             ))}
           </div>
@@ -304,26 +306,41 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
       </section>
 
       <ToggleRow
-        name="Bezpatkové písmo"
-        desc="Karty se standardně zobrazují patkovým (knižním) písmem. Pokud ti sedí víc bezpatkové, přepni."
+        name={t('sansName')}
+        desc={t('sansDesc')}
         checked={s.cardSans}
         onChange={(v) => update({ cardSans: v })}
       />
 
-      <h3 className="section-title">Data</h3>
+      <h3 className="section-title">{t('sectionLanguage')}</h3>
+
+      <section className="setting-row">
+        <div className="setting-text">
+          <div className="segmented setting-segmented">
+            {LANGS.map((l) => (
+              <button
+                key={l.value}
+                className={`segment${currentLang() === l.value ? ' segment-active' : ''}`}
+                onClick={() => setLang(l.value)}
+              >
+                {l.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <h3 className="section-title">{t('sectionData')}</h3>
 
       <section className="panel-section">
-        <p className="muted">
-          Vše je uložené jen v tomto prohlížeči (offline). Záloha přenese předměty, karty i celou
-          historii učení na jiné zařízení.
-        </p>
+        <p className="muted">{t('dataDesc')}</p>
         {restoreError && <p className="form-error">{restoreError}</p>}
         <div className="button-row">
           <button className="btn btn-ghost" onClick={() => void handleExport()}>
-            Stáhnout zálohu
+            {t('downloadBackup')}
           </button>
           <button className="btn btn-ghost" onClick={() => fileRef.current?.click()}>
-            Obnovit ze zálohy
+            {t('restoreFromBackup')}
           </button>
           <input
             ref={fileRef}
@@ -338,7 +355,7 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
           />
         </div>
         <button className="btn btn-ghost btn-danger" onClick={handleReset}>
-          Smazat všechna data
+          {t('deleteAllData')}
         </button>
       </section>
     </div>

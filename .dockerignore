@@ -1,0 +1,10 @@
+node_modules
+server/node_modules
+server/data
+dist
+.git
+docs
+deploy
+scripts
+test
+.claude

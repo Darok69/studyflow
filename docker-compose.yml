@@ -1,0 +1,22 @@
+# StudyFlow on the prod box — fully separate from the DMARKA stack:
+# own directory (/opt/studyflow), own compose project, own volume.
+# Caddy (from the DMARKA stack) reverse-proxies study.dmarka.eu to this
+# container over the shared external network.
+services:
+  studyflow:
+    build: .
+    container_name: studyflow
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - studyflow-data:/data
+    networks:
+      - web
+
+volumes:
+  studyflow-data:
+
+networks:
+  web:
+    external: true
+    name: dmarka_default

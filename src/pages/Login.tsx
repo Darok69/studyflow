@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { ApiError, login, type Account } from '../lib/api'
+import { t } from '../i18n'
 
 export function Login({ onLoggedIn }: { onLoggedIn: (account: Account) => void }) {
   const [email, setEmail] = useState('')
@@ -15,11 +16,11 @@ export function Login({ onLoggedIn }: { onLoggedIn: (account: Account) => void }
       onLoggedIn(await login(email, code))
     } catch (err) {
       if (err instanceof ApiError && err.status === 429) {
-        setError('Příliš mnoho pokusů — zkus to za chvíli znovu.')
+        setError(t('errTooManyAttempts'))
       } else if (err instanceof ApiError && err.status === 401) {
-        setError('E-mail nebo přístupový kód nesedí.')
+        setError(t('errBadCredentials'))
       } else {
-        setError('Nepodařilo se spojit se serverem — zkus to znovu.')
+        setError(t('errServer'))
       }
     } finally {
       setBusy(false)
@@ -30,13 +31,11 @@ export function Login({ onLoggedIn }: { onLoggedIn: (account: Account) => void }
     <div className="page center login-page">
       <div className="login-card">
         <span className="brand-mark login-mark" aria-hidden="true" />
-        <h2>Vítej ve StudyFlow</h2>
-        <p className="muted">
-          Aplikace je jen pro zvané. Přihlas se e-mailem a přístupovým kódem, který jsi dostal.
-        </p>
+        <h2>{t('welcome')}</h2>
+        <p className="muted">{t('inviteOnly')}</p>
         <form className="form-grid" onSubmit={handleSubmit}>
           <label className="form-field">
-            <span className="form-label">E-mail</span>
+            <span className="form-label">{t('emailLabel')}</span>
             <input
               className="form-input"
               type="email"
@@ -47,7 +46,7 @@ export function Login({ onLoggedIn }: { onLoggedIn: (account: Account) => void }
             />
           </label>
           <label className="form-field">
-            <span className="form-label">Přístupový kód</span>
+            <span className="form-label">{t('accessCodeLabel')}</span>
             <input
               className="form-input login-code"
               placeholder="XXXX-XXXX-XXXX"
@@ -60,7 +59,7 @@ export function Login({ onLoggedIn }: { onLoggedIn: (account: Account) => void }
           </label>
           {error && <p className="form-error">{error}</p>}
           <button className="btn btn-primary btn-reveal" type="submit" disabled={busy}>
-            {busy ? 'Přihlašuji…' : 'Přihlásit se'}
+            {busy ? t('loggingIn') : t('loginBtn')}
           </button>
         </form>
       </div>

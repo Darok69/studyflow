@@ -2,9 +2,7 @@
 // change). Streak is SUPPORTIVE and RECOVERABLE — there is no "you lost it"
 // state here, only counts the UI can frame kindly.
 import { addDays, dayKey, startOfDay } from '../lib/date'
-
-// Czech short weekday names, indexed by Date.getDay() (0 = Sunday).
-const WEEKDAY_CS = ['ne', 'po', 'út', 'st', 'čt', 'pá', 'so']
+import { t } from '../i18n'
 
 /**
  * Current streak = consecutive calendar days with ≥1 review, counting back from
@@ -52,7 +50,7 @@ export function reviewsLast7Days(timestamps: string[], now: Date = new Date()): 
     const k = dayKey(d)
     buckets.push({
       key: k,
-      label: WEEKDAY_CS[d.getDay()],
+      label: t('weekdayShort', d.getDay()),
       count: counts.get(k) ?? 0,
       isToday: k === todayK,
     })
@@ -111,7 +109,7 @@ export function reviewForecast(
     const k = dayKey(d)
     return {
       key: k,
-      label: i === 0 ? 'dnes' : WEEKDAY_CS[d.getDay()],
+      label: i === 0 ? t('countdownToday') : t('weekdayShort', d.getDay()),
       count,
       isToday: k === todayK,
     }
