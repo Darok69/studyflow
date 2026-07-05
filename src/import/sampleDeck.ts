@@ -69,7 +69,7 @@ Pravidla:
 - "cloze" karta má "text" a v něm jedno či více míst {{takto}}, která se při studiu skryjí.
 - Volitelně přidej "svg" s jednoduchým diagramem nebo myšlenkovou mapou (čistý inline SVG, bez skriptů).
 - Volitelně přidej "tags" jako pole štítků.
-- Vytvoř 15–25 karet, věcně přesných a stručných.
+- Počet karet neomezuj — pokryj téma vyčerpávajícím způsobem, do plné hloubky a detailu (klidně stovky karet, 500–1000 u rozsáhlých témat). Každá karta musí být věcně naprosto přesná.
 
 Téma: [SEM DOPLŇ TÉMA, NAPŘ. „Římské právo — věcná práva“]`
 
@@ -93,7 +93,7 @@ Rules:
 - A "cloze" card has "text" with one or more spots marked {{like this}}, which get hidden during study.
 - Optionally add "svg" with a simple diagram or mind map (clean inline SVG, no scripts).
 - Optionally add "tags" as an array of labels.
-- Create 15–25 cards, factually accurate and concise.
+- Do not limit the number of cards — cover the topic exhaustively, in full depth and detail (hundreds of cards are fine, 500–1000 for large topics). Every card must be factually precise.
 
 Topic: [FILL IN THE TOPIC HERE, E.G. “Roman law — property rights”]`
 
@@ -117,7 +117,7 @@ Regeln:
 - Eine "cloze"-Karte hat "text" mit einer oder mehreren Stellen {{wie hier}}, die beim Lernen verborgen werden.
 - Optional füge "svg" mit einem einfachen Diagramm oder einer Mindmap hinzu (sauberes Inline-SVG, ohne Skripte).
 - Optional füge "tags" als Array von Schlagwörtern hinzu.
-- Erstelle 15–25 Karten, sachlich korrekt und knapp.
+- Begrenze die Kartenanzahl nicht — decke das Thema erschöpfend und in voller Tiefe ab (gern Hunderte Karten, 500–1000 bei umfangreichen Themen). Jede Karte muss sachlich absolut korrekt sein.
 
 Thema: [HIER DAS THEMA EINSETZEN, Z. B. „Römisches Recht — Sachenrechte“]`
 
