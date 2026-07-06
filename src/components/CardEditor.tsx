@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import type { Card, CardType, Subject } from '../db/db'
 import { addCard, deleteCard, updateCard } from '../db/repo'
 import { hasCloze, makeCloze } from '../import/parseDeck'
+import { fileToCardPhoto } from '../lib/image'
 import { Modal } from './Modal'
 import { t } from '../i18n'
 
@@ -23,6 +24,69 @@ function parseTags(raw: string): string[] {
     .filter(Boolean)
 }
 
+/** Photo attach/preview/remove for one card side (camera or gallery). */
+function PhotoField({
+  label,
+  value,
+  onChange,
+}: {
+  label: string
+  value?: string
+  onChange: (v?: string) => void
+}) {
+  const fileRef = useRef<HTMLInputElement>(null)
+  const [error, setError] = useState<string | null>(null)
+  const [busy, setBusy] = useState(false)
+
+  async function pick(file: File) {
+    setError(null)
+    setBusy(true)
+    try {
+      onChange(await fileToCardPhoto(file))
+    } catch (err) {
+      setError((err as Error).message === 'too-big' ? t('photoTooBig') : t('photoUnreadable'))
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  return (
+    <div className="form-field">
+      <span className="form-label">{label}</span>
+      {value ? (
+        <div className="photo-row">
+          <img className="photo-thumb" src={value} alt="" />
+          <button className="btn btn-ghost btn-small" onClick={() => onChange(undefined)}>
+            {t('removePhoto')}
+          </button>
+        </div>
+      ) : (
+        <div>
+          <button
+            className="btn btn-ghost btn-small"
+            onClick={() => fileRef.current?.click()}
+            disabled={busy}
+          >
+            {busy ? t('loading') : t('addPhoto')}
+          </button>
+        </div>
+      )}
+      <input
+        ref={fileRef}
+        type="file"
+        accept="image/*"
+        hidden
+        onChange={(e) => {
+          const f = e.target.files?.[0]
+          if (f) void pick(f)
+          e.target.value = ''
+        }}
+      />
+      {error && <p className="form-error">{error}</p>}
+    </div>
+  )
+}
+
 export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDeleted, onClose }: Props) {
   const [type, setType] = useState<CardType>(card?.type ?? 'basic')
   const [subjectId, setSubjectId] = useState(card?.subjectId ?? defaultSubjectId ?? subjects[0]?.id ?? '')
@@ -30,6 +94,8 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
   const [back, setBack] = useState(card?.type === 'basic' ? card.back : '')
   const [clozeText, setClozeText] = useState(card?.type === 'cloze' ? (card.raw ?? '') : '')
   const [tags, setTags] = useState(card?.tags.join(', ') ?? '')
+  const [image, setImage] = useState<string | undefined>(card?.image)
+  const [imageBack, setImageBack] = useState<string | undefined>(card?.imageBack)
   const [error, setError] = useState<string | null>(null)
   const [busy, setBusy] = useState(false)
 
@@ -57,12 +123,17 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
     }
 
     setBusy(true)
-    const patch = { ...content, tags: parseTags(tags), subjectId }
+    const patch = { ...content, tags: parseTags(tags), subjectId, image, imageBack }
     if (card) {
       const updated = await updateCard(card.id, patch)
       if (updated) onSaved(updated)
     } else {
-      const created = await addCard(subjectId, { ...content, tags: parseTags(tags) })
+      const created = await addCard(subjectId, {
+        ...content,
+        tags: parseTags(tags),
+        image,
+        imageBack,
+      })
       onSaved(created)
     }
     setBusy(false)
@@ -139,6 +210,11 @@ export function CardEditor({ subjects, card, defaultSubjectId, onSaved, onDelete
             />
           </label>
         )}
+
+        <div className="form-row">
+          <PhotoField label={t('photoFrontLabel')} value={image} onChange={setImage} />
+          <PhotoField label={t('photoBackLabel')} value={imageBack} onChange={setImageBack} />
+        </div>
 
         <label className="form-field">
           <span className="form-label">{t('tagsLabel')}</span>

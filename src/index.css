@@ -568,6 +568,26 @@ h3 {
   margin-top: 4px;
 }
 
+.new-deck-btn {
+  align-self: center;
+  margin-top: 4px;
+}
+
+/* Card-photo attach preview (CardEditor) */
+.photo-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.photo-thumb {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
 .subject-dot {
   width: 10px;
   height: 10px;

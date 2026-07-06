@@ -272,6 +272,20 @@ export const cs = {
   colorN: (n: number) => `Barva ${n}`,
   shareTooBig: 'Balíček je na odkaz moc velký — použij Exportovat a pošli soubor.',
   exportBtn: 'Exportovat',
+
+  // New deck (manual, in-app)
+  newDeckBtn: '+ Nový balíček',
+  newDeckTitle: 'Nový balíček',
+  newDeckHint: 'Vytvoř balíček ručně — kartičky (klidně i s fotkami) přidáš hned v dalším kroku.',
+  createDeckBtn: 'Vytvořit a přidat kartičky',
+
+  // Card photos
+  photoFrontLabel: 'Fotka k otázce',
+  photoBackLabel: 'Fotka k odpovědi',
+  addPhoto: '📷 Přidat fotku',
+  removePhoto: 'Odebrat fotku',
+  photoTooBig: 'Fotka je i po zmenšení příliš velká — zkus menší výřez.',
+  photoUnreadable: 'Tenhle soubor se nepodařilo načíst jako obrázek.',
   linkCopied: 'Odkaz zkopírován ✓',
   shareLink: 'Sdílet odkazem',
 

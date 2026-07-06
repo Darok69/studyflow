@@ -10,6 +10,7 @@ export interface CardDraft {
   tags: string[]
   svg?: string
   image?: string
+  imageBack?: string
 }
 
 export interface ParsedDeck {
@@ -88,6 +89,8 @@ export function parseDeck(raw: string): ParsedDeck {
     const tags = Array.isArray(c.tags) ? c.tags.map((t) => String(t)) : []
     const svg = typeof c.svg === 'string' && c.svg.trim() ? c.svg : undefined
     const image = typeof c.image === 'string' && c.image.trim() ? c.image : undefined
+    const imageBack =
+      typeof c.imageBack === 'string' && c.imageBack.trim() ? c.imageBack : undefined
     const type: CardType = c.type === 'cloze' ? 'cloze' : 'basic'
 
     if (type === 'cloze') {
@@ -97,7 +100,7 @@ export function parseDeck(raw: string): ParsedDeck {
         return
       }
       const { front, back, raw } = makeCloze(text)
-      cards.push({ type, front, back, raw, tags, svg, image })
+      cards.push({ type, front, back, raw, tags, svg, image, imageBack })
     } else {
       const front = typeof c.front === 'string' ? c.front.trim() : ''
       const back = typeof c.back === 'string' ? c.back.trim() : ''
@@ -105,7 +108,7 @@ export function parseDeck(raw: string): ParsedDeck {
         errors.push(t('errBasicCardNeedsBoth', n))
         return
       }
-      cards.push({ type, front, back, tags, svg, image })
+      cards.push({ type, front, back, tags, svg, image, imageBack })
     }
   })
 

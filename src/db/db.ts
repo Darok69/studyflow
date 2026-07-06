@@ -24,7 +24,8 @@ export interface Card {
   raw?: string // original cloze source text
   tags: string[]
   svg?: string // inline SVG markup (sanitized at render time)
-  image?: string // image URL (rendered as-is; for later)
+  image?: string // question photo — data URL (in-app upload) or plain URL (import)
+  imageBack?: string // answer photo, revealed together with the back side
   suspended?: boolean // excluded from scheduling until re-enabled
   buriedUntil?: string | null // YYYY-MM-DD — hidden from the queue through this day
 

@@ -17,14 +17,22 @@ const STATE_FILTERS: { value: StateFilter; labelKey: MsgKey }[] = [
   { value: 'leech', labelKey: 'filterLeech' },
 ]
 
-export function Browser({ onBack }: { onBack: () => void }) {
+interface BrowserProps {
+  onBack: () => void
+  /** Pre-select this deck's filter (e.g. right after creating it). */
+  initialSubjectId?: string
+  /** Open the new-card editor immediately (fresh hand-made deck flow). */
+  startNewCard?: boolean
+}
+
+export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps) {
   const [loading, setLoading] = useState(true)
   const [subjects, setSubjects] = useState<Subject[]>([])
   const [cards, setCards] = useState<Card[]>([])
   const [search, setSearch] = useState('')
-  const [subjectFilter, setSubjectFilter] = useState<string>('all')
+  const [subjectFilter, setSubjectFilter] = useState<string>(initialSubjectId ?? 'all')
   const [stateFilter, setStateFilter] = useState<StateFilter>('all')
-  const [editing, setEditing] = useState<Card | 'new' | null>(null)
+  const [editing, setEditing] = useState<Card | 'new' | null>(startNewCard ? 'new' : null)
 
   async function load() {
     const [s, c] = await Promise.all([getSubjects(), getCards()])

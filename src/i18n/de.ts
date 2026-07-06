@@ -279,6 +279,20 @@ export const de: Messages = {
   colorN: (n: number) => `Farbe ${n}`,
   shareTooBig: 'Das Deck ist zu groß für einen Link — nutze Exportieren und schick die Datei.',
   exportBtn: 'Exportieren',
+
+  // New deck (manual, in-app)
+  newDeckBtn: '+ Neues Deck',
+  newDeckTitle: 'Neues Deck',
+  newDeckHint: 'Erstelle ein Deck von Hand — Karten (gern mit Fotos) fügst du gleich im nächsten Schritt hinzu.',
+  createDeckBtn: 'Erstellen & Karten hinzufügen',
+
+  // Card photos
+  photoFrontLabel: 'Foto zur Frage',
+  photoBackLabel: 'Foto zur Antwort',
+  addPhoto: '\U0001F4F7 Foto hinzufügen',
+  removePhoto: 'Foto entfernen',
+  photoTooBig: 'Das Foto ist auch nach dem Verkleinern zu groß — versuch einen kleineren Ausschnitt.',
+  photoUnreadable: 'Diese Datei ließ sich nicht als Bild laden.',
   linkCopied: 'Link kopiert ✓',
   shareLink: 'Per Link teilen',
 

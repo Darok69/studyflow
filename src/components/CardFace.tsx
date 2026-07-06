@@ -23,6 +23,9 @@ export function CardFace({ card, revealed, fontScale = 1, sans = false }: Props)
       {revealed && (
         <>
           <hr className="card-divider" />
+          {card.imageBack && (
+            <img className="card-image" src={card.imageBack} alt="" loading="lazy" />
+          )}
           <div className="card-back">{card.back}</div>
         </>
       )}

@@ -14,6 +14,7 @@ import { currentStreak, reviewsToday } from '../stats/stats'
 import { updateAppBadge } from '../lib/badge'
 import { SubjectCard } from '../components/SubjectCard'
 import { SubjectEditor } from '../components/SubjectEditor'
+import { NewDeckModal } from '../components/NewDeckModal'
 import { t } from '../i18n'
 
 interface Props {
@@ -22,17 +23,29 @@ interface Props {
   onStudySubject: (subjectId: string) => void
   onCram: (subjectId: string) => void
   onBrowser: () => void
+  /** A hand-made deck was just created → jump straight to adding its cards. */
+  onDeckCreated: (subjectId: string) => void
   onStats: () => void
   onSettings: () => void
 }
 
-export function Home({ onImport, onStudy, onStudySubject, onCram, onBrowser, onStats, onSettings }: Props) {
+export function Home({
+  onImport,
+  onStudy,
+  onStudySubject,
+  onCram,
+  onBrowser,
+  onDeckCreated,
+  onStats,
+  onSettings,
+}: Props) {
   const [loading, setLoading] = useState(true)
   const [subjects, setSubjects] = useState<Subject[]>([])
   const [cards, setCards] = useState<Card[]>([])
   const [reviews, setReviews] = useState<Review[]>([])
   const [settings, setSettings] = useState<Settings | null>(null)
   const [editing, setEditing] = useState<Subject | null>(null)
+  const [creating, setCreating] = useState(false)
 
   async function load() {
     const [s, c, r, st] = await Promise.all([getSubjects(), getCards(), getReviews(), getSettings()])
@@ -141,9 +154,14 @@ export function Home({ onImport, onStudy, onStudySubject, onCram, onBrowser, onS
           <p className="empty-emoji">🌱</p>
           <p>{t('emptyNothingYet')}</p>
           <p className="muted">{t('emptyImportHint')}</p>
-          <button className="btn btn-primary" onClick={onImport}>
-            {t('importDeckBtn')}
-          </button>
+          <div className="button-row" style={{ justifyContent: 'center' }}>
+            <button className="btn btn-primary" onClick={() => setCreating(true)}>
+              {t('newDeckBtn')}
+            </button>
+            <button className="btn btn-ghost" onClick={onImport}>
+              {t('importDeckBtn')}
+            </button>
+          </div>
         </div>
       ) : (
         <div className="subject-list">
@@ -162,7 +180,20 @@ export function Home({ onImport, onStudy, onStudySubject, onCram, onBrowser, onS
               }
             />
           ))}
+          <button className="btn btn-ghost new-deck-btn" onClick={() => setCreating(true)}>
+            {t('newDeckBtn')}
+          </button>
         </div>
+      )}
+
+      {creating && (
+        <NewDeckModal
+          onCreated={(subjectId) => {
+            setCreating(false)
+            onDeckCreated(subjectId)
+          }}
+          onClose={() => setCreating(false)}
+        />
       )}
 
       {editing && (

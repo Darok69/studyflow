@@ -211,6 +211,35 @@ ok((introMap.get('near') ?? 0) === 1, 'introducedTodayBySubject counts only firs
 const subjStatsIntro = subjectStats({ id: 'near', examDate: '2026-06-30', dailyNewLimit: 4 }, cards, now, 4)
 ok(subjStatsIntro.newToday === 0, 'subjectStats: manual limit fully used up today → 0 more')
 
+console.log('— card photos survive export/import —')
+const photoDeck = parseDeck(
+  JSON.stringify({
+    subject: 'Foto',
+    cards: [
+      { front: 'q', back: 'a', image: 'data:image/jpeg;base64,AAAA', imageBack: 'data:image/jpeg;base64,BBBB' },
+      { type: 'cloze', text: 'rok {{451}}', imageBack: 'data:image/jpeg;base64,CCCC' },
+    ],
+  }),
+)
+ok(photoDeck.cards[0].image === 'data:image/jpeg;base64,AAAA', 'parseDeck keeps the front photo')
+ok(photoDeck.cards[0].imageBack === 'data:image/jpeg;base64,BBBB', 'parseDeck keeps the back photo')
+ok(photoDeck.cards[1].imageBack === 'data:image/jpeg;base64,CCCC', 'cloze cards carry photos too')
+const photoJson = deckToJson(
+  { name: 'Foto', examDate: null, reminderTime: null },
+  photoDeck.cards.map((d, i) => ({
+    id: `p${i}`, subjectId: 's', type: d.type, front: d.front, back: d.back, raw: d.raw,
+    tags: d.tags, svg: d.svg, image: d.image, imageBack: d.imageBack,
+    due: '2026-06-27T09:00:00', stability: 0, difficulty: 0, reps: 0, lapses: 0,
+    state: 'new' as const, lastReview: null,
+  })),
+)
+const rePhoto = parseDeck(photoJson)
+ok(
+  rePhoto.cards[0].imageBack === 'data:image/jpeg;base64,BBBB' &&
+    rePhoto.cards[1].imageBack === 'data:image/jpeg;base64,CCCC',
+  'export → import round-trips both photo sides',
+)
+
 // ============================================================
 // Sprint 2 — stats (streak / sparkline)
 // ============================================================

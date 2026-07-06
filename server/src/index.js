@@ -27,7 +27,8 @@ const DIST_DIR = process.env.DIST_DIR ?? join(__dirname, '../../dist')
 const PORT = Number(process.env.PORT ?? 3000)
 const ADMIN_EMAIL = (process.env.ADMIN_EMAIL ?? '').trim().toLowerCase()
 const SECURE_COOKIES = process.env.INSECURE_COOKIES !== '1' // dev opt-out only
-const MAX_SYNC_BYTES = 8 * 1024 * 1024
+// Card photos travel inside the snapshot as compressed data URLs (~≤0.8 MB each).
+const MAX_SYNC_BYTES = 32 * 1024 * 1024
 
 const app = Fastify({ logger: true, bodyLimit: MAX_SYNC_BYTES })
 await app.register(fastifyCookie)

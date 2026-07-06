@@ -20,6 +20,7 @@ export function deckToJson(
     if (c.tags.length) base.tags = c.tags
     if (c.svg) base.svg = c.svg
     if (c.image) base.image = c.image
+    if (c.imageBack) base.imageBack = c.imageBack
     return base
   })
 

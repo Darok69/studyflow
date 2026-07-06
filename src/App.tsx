@@ -19,6 +19,8 @@ type AuthState = 'checking' | 'login' | 'ready'
 function App() {
   const [view, setView] = useState<View>('home')
   const [studyMode, setStudyMode] = useState<StudyMode>({ kind: 'today' })
+  // Set when a hand-made deck was just created → Browser opens ready to add cards.
+  const [freshDeckId, setFreshDeckId] = useState<string | null>(null)
   const [sharedDeck, setSharedDeck] = useState<string | null>(null)
   const [auth, setAuth] = useState<AuthState>(SERVER_MODE ? 'checking' : 'ready')
   const [account, setAccount] = useState<Account | null>(null)
@@ -106,7 +108,14 @@ function App() {
             onStudy={() => startStudy({ kind: 'today' })}
             onStudySubject={(subjectId) => startStudy({ kind: 'subject', subjectId })}
             onCram={(subjectId) => startStudy({ kind: 'cram', subjectId })}
-            onBrowser={() => setView('browser')}
+            onBrowser={() => {
+              setFreshDeckId(null)
+              setView('browser')
+            }}
+            onDeckCreated={(subjectId) => {
+              setFreshDeckId(subjectId)
+              setView('browser')
+            }}
             onStats={() => setView('stats')}
             onSettings={() => setView('settings')}
           />
@@ -126,7 +135,9 @@ function App() {
           />
         )}
         {view === 'study' && <Study onDone={goHome} mode={studyMode} />}
-        {view === 'browser' && <Browser onBack={goHome} />}
+        {view === 'browser' && (
+          <Browser onBack={goHome} initialSubjectId={freshDeckId ?? undefined} startNewCard={!!freshDeckId} />
+        )}
         {view === 'stats' && <Stats onBack={goHome} />}
         {view === 'settings' && (
           <Settings

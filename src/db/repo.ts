@@ -59,6 +59,7 @@ export async function importDeck(parsed: ParsedDeck): Promise<{ subjectId: strin
     tags: d.tags,
     svg: d.svg,
     image: d.image,
+    imageBack: d.imageBack,
     ...newFsrsFields(now),
   }))
 
@@ -144,6 +145,7 @@ export async function addCard(subjectId: string, draft: CardDraft): Promise<Card
     tags: draft.tags,
     svg: draft.svg,
     image: draft.image,
+    imageBack: draft.imageBack,
     ...newFsrsFields(new Date()),
   }
   await db.cards.add(card)
@@ -154,7 +156,9 @@ export async function addCard(subjectId: string, draft: CardDraft): Promise<Card
 /** Update card content/placement; FSRS state is intentionally untouched. */
 export async function updateCard(
   id: string,
-  patch: Partial<Pick<Card, 'front' | 'back' | 'raw' | 'tags' | 'svg' | 'image' | 'type' | 'subjectId'>>,
+  patch: Partial<
+    Pick<Card, 'front' | 'back' | 'raw' | 'tags' | 'svg' | 'image' | 'imageBack' | 'type' | 'subjectId'>
+  >,
 ): Promise<Card | null> {
   const next = await db.transaction('rw', db.cards, async () => {
     const cur = await db.cards.get(id)
@@ -193,6 +197,27 @@ export async function unburyCard(id: string): Promise<void> {
 }
 
 // ---- Subject editing ----
+
+/** Create an empty deck by hand (no import) — cards are added in the app. */
+export async function createSubject(input: {
+  name: string
+  examDate?: string | null
+  dailyNewLimit?: number | null
+}): Promise<Subject> {
+  const id = uuid()
+  const subject: Subject = {
+    id,
+    name: input.name.trim() || 'Bez názvu',
+    examDate: input.examDate ?? null,
+    reminderTime: null,
+    createdAt: new Date().toISOString(),
+    colorIndex: subjectColorIndex(id),
+    dailyNewLimit: input.dailyNewLimit ?? null,
+  }
+  await db.subjects.add(subject)
+  notifyDataChanged()
+  return subject
+}
 
 export async function updateSubject(
   id: string,
