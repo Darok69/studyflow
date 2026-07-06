@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import type { Settings as AppSettings } from '../db/db'
 import { exportBackupJson, getSettings, resetAll, restoreBackup, saveSettings } from '../db/repo'
 import { parseBackup } from '../import/backup'
-import { getConfig, logout, SERVER_MODE, type Account } from '../lib/api'
+import { getConfig, logout, sendTestPush, SERVER_MODE, type Account } from '../lib/api'
 import { pushSync, syncMeta } from '../lib/sync'
 import { disableReminder, enableReminder, pushSupported, reminderPrefs } from '../lib/push'
 import { AdminUsers } from '../components/AdminUsers'
@@ -71,6 +71,7 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
   const [pushAvailable, setPushAvailable] = useState(false)
   const [reminder, setReminder] = useState(() => reminderPrefs())
   const [reminderError, setReminderError] = useState<string | null>(null)
+  const [testState, setTestState] = useState<'idle' | 'sending' | 'sent' | 'failed'>('idle')
 
   useEffect(() => {
     void getSettings().then(setS)
@@ -113,6 +114,17 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
         (err as Error).message === 'permission-denied' ? t('reminderBlocked') : t('reminderFailed'),
       )
     }
+  }
+
+  async function handleTestPush() {
+    setTestState('sending')
+    try {
+      await sendTestPush()
+      setTestState('sent')
+    } catch {
+      setTestState('failed')
+    }
+    window.setTimeout(() => setTestState('idle'), 6000)
   }
 
   async function changeReminderTime(time: string) {
@@ -190,23 +202,45 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
             <>
               <ToggleRow
                 name={t('reminderName')}
-                desc={t('reminderDesc')}
+                desc={`${t('reminderDesc')} ${t('reminderConfirmNote')}`}
                 checked={reminder.enabled}
                 onChange={(v) => void toggleReminder(v)}
               />
               {reminder.enabled && (
-                <div className="cap-row">
-                  <span>{t('reminderTimeLabel')}</span>
-                  <input
-                    className="cap-input"
-                    type="time"
-                    value={reminder.time}
-                    onChange={(e) => void changeReminderTime(e.target.value)}
-                  />
-                </div>
+                <>
+                  <div className="cap-row">
+                    <span>{t('reminderTimeLabel')}</span>
+                    <input
+                      className="cap-input"
+                      type="time"
+                      value={reminder.time}
+                      onChange={(e) => void changeReminderTime(e.target.value)}
+                    />
+                  </div>
+                  <div className="cap-row">
+                    <button
+                      className="btn btn-ghost btn-small"
+                      onClick={() => void handleTestPush()}
+                      disabled={testState === 'sending'}
+                    >
+                      {testState === 'sending' ? t('pushTestSending') : t('pushTestBtn')}
+                    </button>
+                    {testState === 'sent' && <span className="muted">{t('pushTestSent')}</span>}
+                  </div>
+                  {testState === 'failed' && <p className="form-error">{t('pushTestFailed')}</p>}
+                </>
               )}
               {reminderError && <p className="form-error">{reminderError}</p>}
             </>
+          )}
+
+          {!pushSupported() && (
+            <section className="setting-row">
+              <div className="setting-text">
+                <div className="setting-name">{t('reminderName')}</div>
+                <p className="muted setting-desc">{t('pushInstallHint')}</p>
+              </div>
+            </section>
           )}
 
           {account.isAdmin && <AdminUsers />}

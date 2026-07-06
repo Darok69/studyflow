@@ -40,6 +40,9 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
   const [examDate, setExamDate] = useState(subject.examDate ?? '')
   const [reminderTime, setReminderTime] = useState(subject.reminderTime ?? '')
   const [colorIndex, setColorIndex] = useState(subject.colorIndex)
+  const [dailyNew, setDailyNew] = useState(
+    subject.dailyNewLimit != null ? String(subject.dailyNewLimit) : '',
+  )
   const [error, setError] = useState<string | null>(null)
   const [shareState, setShareState] = useState<'idle' | 'copied' | 'too-big'>('idle')
 
@@ -48,11 +51,13 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
       setError(t('errSubjectNeedsName'))
       return
     }
+    const dailyTrim = dailyNew.trim()
     await updateSubject(subject.id, {
       name: name.trim(),
       examDate: examDate || null,
       reminderTime: reminderTime || null,
       colorIndex,
+      dailyNewLimit: dailyTrim === '' ? null : Math.min(500, Math.max(0, Number(dailyTrim) || 0)),
     })
     onSaved()
     onClose()
@@ -112,6 +117,20 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
             />
           </label>
         </div>
+
+        <label className="form-field">
+          <span className="form-label">{t('dailyNewLabel')}</span>
+          <input
+            className="form-input"
+            type="number"
+            min={0}
+            max={500}
+            placeholder={t('dailyNewAuto')}
+            value={dailyNew}
+            onChange={(e) => setDailyNew(e.target.value)}
+          />
+          <span className="form-hint muted">{t('dailyNewHint')}</span>
+        </label>
 
         <div className="form-field">
           <span className="form-label">{t('subjectColorLabel')}</span>

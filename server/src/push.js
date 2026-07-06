@@ -56,6 +56,38 @@ const MESSAGES = {
       : { title: 'StudyFlow', body: `Heute warten ${n} Karte${n === 1 ? '' : 'n'} auf dich 🌿` },
 }
 
+// One-off notifications: subscribe confirmation + the "test" button in Settings.
+const EXTRA = {
+  confirm: {
+    cs: (time) => ({
+      title: 'StudyFlow',
+      body: `Připomínky zapnuty ✅ Každý den v ${time} ti napíšu, kolik kartiček čeká.`,
+    }),
+    en: (time) => ({
+      title: 'StudyFlow',
+      body: `Reminders on ✅ Every day at ${time} I'll tell you how many cards are waiting.`,
+    }),
+    de: (time) => ({
+      title: 'StudyFlow',
+      body: `Erinnerungen an ✅ Jeden Tag um ${time} sage ich dir, wie viele Karten warten.`,
+    }),
+  },
+  test: {
+    cs: () => ({ title: 'StudyFlow', body: 'Zkušební notifikace — funguje to! 🔔' }),
+    en: () => ({ title: 'StudyFlow', body: 'Test notification — it works! 🔔' }),
+    de: () => ({ title: 'StudyFlow', body: 'Test-Benachrichtigung — es funktioniert! 🔔' }),
+  },
+}
+
+export function extraMessage(kind, lang, arg) {
+  return (EXTRA[kind][lang] ?? EXTRA[kind].cs)(arg)
+}
+
+/** Send one payload to one subscription (throws on failure, incl. 404/410). */
+export async function sendPush(subscription, msg) {
+  await webpush.sendNotification(subscription, JSON.stringify(msg), { TTL: 3600 })
+}
+
 /** Local 'HH:MM' + 'YYYY-MM-DD' for a timezone; null when tz is invalid. */
 function localNow(tz, now = new Date()) {
   try {

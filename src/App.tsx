@@ -1,11 +1,13 @@
-import { useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useState } from 'react'
 import { Home } from './pages/Home'
-import { Import } from './pages/Import'
 import { Study, type StudyMode } from './pages/Study'
-import { Stats } from './pages/Stats'
-import { Settings } from './pages/Settings'
-import { Browser } from './pages/Browser'
 import { Login } from './pages/Login'
+// Secondary screens load on demand — keeps the startup bundle (login → home →
+// study) small; the PWA precache still makes the chunks instant when offline.
+const Import = lazy(() => import('./pages/Import').then((m) => ({ default: m.Import })))
+const Stats = lazy(() => import('./pages/Stats').then((m) => ({ default: m.Stats })))
+const Settings = lazy(() => import('./pages/Settings').then((m) => ({ default: m.Settings })))
+const Browser = lazy(() => import('./pages/Browser').then((m) => ({ default: m.Browser })))
 import { decodeDeckPayload, payloadFromHash } from './lib/sharelink'
 import { AUTH_EXPIRED_EVENT, getMe, SERVER_MODE, type Account } from './lib/api'
 import { initSync, startSyncListener } from './lib/sync'
@@ -97,10 +99,12 @@ function App() {
       </header>
 
       <main className="app-main">
+        <Suspense fallback={<div className="page center muted">{t('loading')}</div>}>
         {view === 'home' && (
           <Home
             onImport={() => setView('import')}
             onStudy={() => startStudy({ kind: 'today' })}
+            onStudySubject={(subjectId) => startStudy({ kind: 'subject', subjectId })}
             onCram={(subjectId) => startStudy({ kind: 'cram', subjectId })}
             onBrowser={() => setView('browser')}
             onStats={() => setView('stats')}
@@ -132,6 +136,7 @@ function App() {
             onLoggedOut={() => setAuth('login')}
           />
         )}
+        </Suspense>
       </main>
     </div>
   )

@@ -12,6 +12,7 @@ export interface Subject {
   reminderTime: string | null // HH:MM
   createdAt: string // ISO
   colorIndex: number // stable identity hue (0..7), assigned once and never changed
+  dailyNewLimit?: number | null // manual new-cards-per-day; null/undefined = auto pace
 }
 
 export interface Card {

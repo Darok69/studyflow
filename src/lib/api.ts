@@ -95,6 +95,10 @@ export function unsubscribePush(endpoint?: string): Promise<{ ok: true }> {
   return api('/api/push/subscribe', { method: 'DELETE', body: JSON.stringify({ endpoint }) })
 }
 
+export function sendTestPush(): Promise<{ sent: number }> {
+  return api('/api/push/test', { method: 'POST' })
+}
+
 export function listUsers(): Promise<UserRow[]> {
   return api('/api/users')
 }

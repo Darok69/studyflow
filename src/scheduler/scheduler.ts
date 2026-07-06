@@ -6,6 +6,8 @@ import { dayKey, daysUntil, endOfDay } from '../lib/date'
 export interface SchedSubject {
   id: string
   examDate: string | null
+  /** Manual "new cards per day" for this subject; null/undefined = auto from exam date. */
+  dailyNewLimit?: number | null
 }
 
 export interface SchedCard {
@@ -48,6 +50,38 @@ export interface SessionPlan {
 export interface SessionOptions {
   /** Soft daily cap on TOTAL new cards across subjects (wellbeing guardrail). */
   newCardCap?: number | null
+  /**
+   * New cards already introduced (first-ever review) today, per subject id.
+   * Makes quotas and the global cap hold across sessions — re-opening the app
+   * mid-day no longer offers a fresh batch on top of what was studied.
+   */
+  introducedToday?: Map<string, number>
+}
+
+/**
+ * Count cards whose FIRST review ever happened today, grouped by subject.
+ * Pure companion for SessionOptions.introducedToday.
+ */
+export function introducedTodayBySubject(
+  reviews: { cardId: string; ts: string }[],
+  cards: Pick<SchedCard, 'id' | 'subjectId'>[],
+  now: Date = new Date(),
+): Map<string, number> {
+  const firstTs = new Map<string, string>()
+  for (const r of reviews) {
+    const prev = firstTs.get(r.cardId)
+    if (!prev || r.ts < prev) firstTs.set(r.cardId, r.ts)
+  }
+  const today = dayKey(now)
+  const subjectOf = new Map(cards.map((c) => [c.id, c.subjectId]))
+  const out = new Map<string, number>()
+  for (const [cardId, ts] of firstTs) {
+    if (dayKey(new Date(ts)) !== today) continue
+    const subjectId = subjectOf.get(cardId)
+    if (!subjectId) continue
+    out.set(subjectId, (out.get(subjectId) ?? 0) + 1)
+  }
+  return out
 }
 
 // Horizon used to pace new cards for subjects without an exam date.
@@ -108,8 +142,13 @@ export function buildSession(
 
   // Soft daily cap on new cards, spent in deadline order so nearer exams keep
   // their share. Due reviews are never capped — only the new-card intake.
+  // Cards already introduced today count against both the cap and the quotas.
+  const introduced = opts.introducedToday ?? new Map<string, number>()
+  const introducedTotal = [...introduced.values()].reduce((a, b) => a + b, 0)
   let capRemaining =
-    typeof opts.newCardCap === 'number' ? Math.max(0, Math.floor(opts.newCardCap)) : Infinity
+    typeof opts.newCardCap === 'number'
+      ? Math.max(0, Math.floor(opts.newCardCap) - introducedTotal)
+      : Infinity
 
   for (const s of ordered) {
     // Suspended cards leave the subject entirely; buried ones only sit out the
@@ -119,7 +158,15 @@ export function buildSession(
     const due = active.filter((c) => isDueReview(c, now)).sort(byDueAsc)
     const news = active.filter((c) => c.state === 'new')
     const dExam = daysUntil(s.examDate, now)
-    const quota = Math.min(newCardQuota(news.length, dExam), news.length, capRemaining)
+    const alreadyToday = introduced.get(s.id) ?? 0
+    // Manual per-day limit wins over the auto pace; the auto pace is computed
+    // over the day's full pool (remaining + already introduced) so finishing
+    // today's batch and reopening the app doesn't top the quota back up.
+    const wanted =
+      s.dailyNewLimit != null
+        ? Math.max(0, Math.floor(s.dailyNewLimit))
+        : newCardQuota(news.length + alreadyToday, dExam)
+    const quota = Math.min(Math.max(0, wanted - alreadyToday), news.length, capRemaining)
     capRemaining -= quota
 
     // Within a subject: clear the backlog (due reviews) first, then new cards.
@@ -173,16 +220,21 @@ export function subjectStats(
   subject: SchedSubject,
   cards: SchedCard[],
   now: Date = new Date(),
+  introducedToday = 0,
 ): SubjectStats {
   const list = cards.filter((c) => c.subjectId === subject.id && !c.suspended)
   const active = list.filter((c) => isSchedulable(c, now))
   const news = active.filter((c) => c.state === 'new')
   const dExam = daysUntil(subject.examDate, now)
+  const wanted =
+    subject.dailyNewLimit != null
+      ? Math.max(0, Math.floor(subject.dailyNewLimit))
+      : newCardQuota(news.length + introducedToday, dExam)
   return {
     total: list.length,
     studied: list.filter((c) => c.state !== 'new').length,
     dueToday: active.filter((c) => isDueReview(c, now)).length,
-    newToday: Math.min(newCardQuota(news.length, dExam), news.length),
+    newToday: Math.min(Math.max(0, wanted - introducedToday), news.length),
     daysUntilExam: dExam,
   }
 }

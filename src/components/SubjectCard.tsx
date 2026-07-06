@@ -13,6 +13,8 @@ interface Props {
   readiness: Readiness | null
   onEdit: (subject: Subject) => void
   onCram: (subject: Subject) => void
+  /** Tap anywhere on the card → start studying this subject right away. */
+  onOpen: (subject: Subject) => void
 }
 
 const BAND_COLOR: Record<ReturnType<typeof readinessBand>, string> = {
@@ -21,7 +23,7 @@ const BAND_COLOR: Record<ReturnType<typeof readinessBand>, string> = {
   fragile: palette.near,
 }
 
-export function SubjectCard({ subject, plan, readiness, onEdit, onCram }: Props) {
+export function SubjectCard({ subject, plan, readiness, onEdit, onCram, onOpen }: Props) {
   // Identity colour (left accent bar) is kept separate from the urgency colour
   // (countdown + progress) so the two signals never clash.
   const identity = subjectColor(subject.colorIndex ?? subjectColorIndex(subject.id))
@@ -30,7 +32,20 @@ export function SubjectCard({ subject, plan, readiness, onEdit, onCram }: Props)
   const readyColor = readiness ? BAND_COLOR[readinessBand(readiness.percent)] : palette.muted
 
   return (
-    <article className="subject-card" style={{ borderLeftColor: identity }}>
+    <article
+      className="subject-card subject-card-clickable"
+      style={{ borderLeftColor: identity }}
+      role="button"
+      tabIndex={0}
+      title={t('subjectOpenTitle')}
+      onClick={() => onOpen(subject)}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault()
+          onOpen(subject)
+        }
+      }}
+    >
       <header className="subject-head">
         <h3 className="subject-name">{subject.name}</h3>
         <span
@@ -65,10 +80,22 @@ export function SubjectCard({ subject, plan, readiness, onEdit, onCram }: Props)
       </div>
 
       <div className="subject-actions">
-        <button className="subject-action" onClick={() => onCram(subject)}>
+        <button
+          className="subject-action"
+          onClick={(e) => {
+            e.stopPropagation()
+            onCram(subject)
+          }}
+        >
           {t('cramBtn')}
         </button>
-        <button className="subject-action" onClick={() => onEdit(subject)}>
+        <button
+          className="subject-action"
+          onClick={(e) => {
+            e.stopPropagation()
+            onEdit(subject)
+          }}
+        >
           {t('edit')}
         </button>
       </div>

@@ -95,6 +95,7 @@ export const cs = {
   subjectTodayCounts: (due: number, fresh: number) => `${due} k opakování · ${fresh} nových`,
   doneForToday: 'pro dnešek hotovo',
   cramBtn: 'Procvičit',
+  subjectOpenTitle: 'Klepnutím spustíš dnešní učení tohoto předmětu',
 
   // Browser
   filterAll: 'Vše',
@@ -176,6 +177,13 @@ export const cs = {
   reminderTimeLabel: 'Čas připomínky',
   reminderBlocked: 'Prohlížeč notifikace zablokoval — povol je v nastavení stránky.',
   reminderFailed: 'Nepodařilo se zapnout připomínky — zkus to znovu.',
+  reminderConfirmNote: 'Hned po zapnutí ti přijde potvrzovací notifikace, ať víš, že to funguje.',
+  pushTestBtn: 'Poslat zkušební notifikaci',
+  pushTestSending: 'Posílám…',
+  pushTestSent: 'Odesláno — během chvilky ti přijde oznámení 🔔',
+  pushTestFailed: 'Odeslání se nepovedlo — zkus připomínku vypnout a znovu zapnout.',
+  pushInstallHint:
+    'Na iPhonu/iPadu fungují notifikace jen z nainstalované aplikace: v Safari klepni na Sdílet → „Přidat na plochu" a otevři StudyFlow z plochy — pak tu jde denní připomínka zapnout.',
   sectionLearning: 'Učení',
   retentionName: 'Cílová zapamatovanost',
   retentionDesc:
@@ -257,6 +265,9 @@ export const cs = {
   nameLabel: 'Název',
   examDateLabel: 'Datum zkoušky',
   reminderLabel: 'Připomínka',
+  dailyNewLabel: 'Nových kartiček denně',
+  dailyNewAuto: 'auto',
+  dailyNewHint: 'Prázdné = automaticky podle termínu zkoušky. 0 = žádné nové karty.',
   subjectColorLabel: 'Barva předmětu',
   colorN: (n: number) => `Barva ${n}`,
   shareTooBig: 'Balíček je na odkaz moc velký — použij Exportovat a pošli soubor.',

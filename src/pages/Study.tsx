@@ -3,13 +3,19 @@ import type { Card, RatingName, Settings, Subject } from '../db/db'
 import {
   buryCard,
   getCards,
+  getReviews,
   getSettings,
   getSubjects,
   recordRating,
   setCardSuspended,
   undoRating,
 } from '../db/repo'
-import { buildSession, reinsertAgain, type SchedCard } from '../scheduler/scheduler'
+import {
+  buildSession,
+  introducedTodayBySubject,
+  reinsertAgain,
+  type SchedCard,
+} from '../scheduler/scheduler'
 import { previewIntervals, retrievabilityAt, type FsrsFields } from '../scheduler/fsrs'
 import { checkAnswer, typedAnswerTarget, type AnswerCheck } from '../lib/answer'
 import { isLeech } from '../lib/wellbeing'
@@ -20,7 +26,10 @@ import { ProgressBar } from '../components/ProgressBar'
 import { palette, subjectColor, subjectColorIndex } from '../lib/theme'
 import { t } from '../i18n'
 
-export type StudyMode = { kind: 'today' } | { kind: 'cram'; subjectId: string }
+export type StudyMode =
+  | { kind: 'today' }
+  | { kind: 'subject'; subjectId: string } // today's plan, one subject only (real FSRS ratings)
+  | { kind: 'cram'; subjectId: string }
 
 interface UndoEntry {
   queue: string[]
@@ -67,9 +76,10 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
 
   useEffect(() => {
     void (async () => {
-      const [subjects, cards, loadedSettings] = await Promise.all([
+      const [subjects, cards, reviews, loadedSettings] = await Promise.all([
         getSubjects(),
         getCards(),
+        getReviews(),
         getSettings(),
       ])
 
@@ -84,19 +94,29 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
           .sort((a, b) => a.r - b.r)
           .map((x) => x.id)
       } else {
-        const schedCards: SchedCard[] = cards.map((c) => ({
-          id: c.id,
-          subjectId: c.subjectId,
-          state: c.state,
-          due: c.due,
-          suspended: c.suspended,
-          buriedUntil: c.buriedUntil,
-        }))
+        // 'subject' narrows the queue to one subject; the introduced-today map
+        // stays global so the daily new-card cap holds across subjects.
+        const target = mode.kind === 'subject' ? mode.subjectId : null
+        const schedCards: SchedCard[] = cards
+          .filter((c) => !target || c.subjectId === target)
+          .map((c) => ({
+            id: c.id,
+            subjectId: c.subjectId,
+            state: c.state,
+            due: c.due,
+            suspended: c.suspended,
+            buriedUntil: c.buriedUntil,
+          }))
         const session = buildSession(
-          subjects.map((s) => ({ id: s.id, examDate: s.examDate })),
+          subjects
+            .filter((s) => !target || s.id === target)
+            .map((s) => ({ id: s.id, examDate: s.examDate, dailyNewLimit: s.dailyNewLimit })),
           schedCards,
           new Date(),
-          { newCardCap: loadedSettings.dailyNewCapEnabled ? loadedSettings.dailyNewCap : null },
+          {
+            newCardCap: loadedSettings.dailyNewCapEnabled ? loadedSettings.dailyNewCap : null,
+            introducedToday: introducedTodayBySubject(reviews, cards, new Date()),
+          },
         )
         order = session.order
       }

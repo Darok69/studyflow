@@ -96,6 +96,7 @@ export const en: Messages = {
   subjectTodayCounts: (due: number, fresh: number) => `${due} to review · ${fresh} new`,
   doneForToday: 'done for today',
   cramBtn: 'Practise',
+  subjectOpenTitle: 'Tap to start today\u2019s studying for this subject',
 
   // Browser
   filterAll: 'All',
@@ -177,6 +178,13 @@ export const en: Messages = {
   reminderTimeLabel: 'Reminder time',
   reminderBlocked: 'Your browser blocked notifications — allow them in the site settings.',
   reminderFailed: 'Couldn’t turn on reminders — try again.',
+  reminderConfirmNote: 'A confirmation notification arrives right after you turn this on, so you know it works.',
+  pushTestBtn: 'Send a test notification',
+  pushTestSending: 'Sending…',
+  pushTestSent: 'Sent — a notification should arrive in a moment 🔔',
+  pushTestFailed: 'Sending failed — try turning the reminder off and on again.',
+  pushInstallHint:
+    'On iPhone/iPad notifications only work from the installed app: in Safari tap Share → “Add to Home Screen” and open StudyFlow from there — then the daily reminder can be turned on here.',
   sectionLearning: 'Learning',
   retentionName: 'Target retention',
   retentionDesc:
@@ -258,6 +266,9 @@ export const en: Messages = {
   nameLabel: 'Name',
   examDateLabel: 'Exam date',
   reminderLabel: 'Reminder',
+  dailyNewLabel: 'New cards per day',
+  dailyNewAuto: 'auto',
+  dailyNewHint: 'Empty = automatic, based on the exam date. 0 = no new cards.',
   subjectColorLabel: 'Subject colour',
   colorN: (n: number) => `Colour ${n}`,
   shareTooBig: 'The deck is too big for a link — use Export and send the file instead.',

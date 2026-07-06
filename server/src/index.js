@@ -20,7 +20,7 @@ import {
   verifyCode,
 } from './auth.js'
 import { findUserByEmail, getBackup, getPushSubs, getUsers, saveBackup, savePushSubs, deleteBackup, DATA_DIR } from './store.js'
-import { publicKey, pushEnabled, startPushCron } from './push.js'
+import { extraMessage, publicKey, pushEnabled, sendPush, startPushCron } from './push.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DIST_DIR = process.env.DIST_DIR ?? join(__dirname, '../../dist')
@@ -146,16 +146,43 @@ app.post('/api/push/subscribe', async (req, reply) => {
   const subs = getPushSubs().filter(
     (s) => s.subscription?.endpoint !== subscription.endpoint,
   )
+  const safeLang = ['cs', 'en', 'de'].includes(lang) ? lang : 'cs'
   subs.push({
     userId: user.id,
     subscription,
     time,
     tz: typeof tz === 'string' ? tz : 'Europe/Prague',
-    lang: ['cs', 'en', 'de'].includes(lang) ? lang : 'cs',
+    lang: safeLang,
     lastSentDate: null,
   })
   savePushSubs(subs)
+  // Instant confirmation push — the user sees on the lock screen that it works.
+  // Failure never breaks the subscribe itself.
+  if (pushEnabled) {
+    sendPush(subscription, extraMessage('confirm', safeLang, time)).catch((err) =>
+      req.log.warn({ err: err?.message }, 'confirmation push failed'),
+    )
+  }
   return { ok: true }
+})
+
+app.post('/api/push/test', async (req, reply) => {
+  const user = requireUser(req, reply)
+  if (!user) return
+  if (!pushEnabled) return reply.code(404).send({ error: 'push-disabled' })
+  const subs = getPushSubs().filter((s) => s.userId === user.id)
+  if (subs.length === 0) return reply.code(404).send({ error: 'no-subscription' })
+  let sent = 0
+  for (const sub of subs) {
+    try {
+      await sendPush(sub.subscription, extraMessage('test', sub.lang))
+      sent++
+    } catch (err) {
+      req.log.warn({ err: err?.message }, 'test push failed')
+    }
+  }
+  if (sent === 0) return reply.code(502).send({ error: 'send-failed' })
+  return { sent }
 })
 
 app.delete('/api/push/subscribe', async (req, reply) => {

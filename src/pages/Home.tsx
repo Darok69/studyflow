@@ -1,7 +1,12 @@
 import { useEffect, useState } from 'react'
 import type { Card, Review, Settings, Subject } from '../db/db'
 import { getCards, getReviews, getSettings, getSubjects } from '../db/repo'
-import { buildSession, type SchedCard, type SubjectPlan } from '../scheduler/scheduler'
+import {
+  buildSession,
+  introducedTodayBySubject,
+  type SchedCard,
+  type SubjectPlan,
+} from '../scheduler/scheduler'
 import { assessLoad } from '../lib/wellbeing'
 import { encouragement } from '../lib/encouragement'
 import { subjectReadiness, type Readiness } from '../lib/readiness'
@@ -14,13 +19,14 @@ import { t } from '../i18n'
 interface Props {
   onImport: () => void
   onStudy: () => void
+  onStudySubject: (subjectId: string) => void
   onCram: (subjectId: string) => void
   onBrowser: () => void
   onStats: () => void
   onSettings: () => void
 }
 
-export function Home({ onImport, onStudy, onCram, onBrowser, onStats, onSettings }: Props) {
+export function Home({ onImport, onStudy, onStudySubject, onCram, onBrowser, onStats, onSettings }: Props) {
   const [loading, setLoading] = useState(true)
   const [subjects, setSubjects] = useState<Subject[]>([])
   const [cards, setCards] = useState<Card[]>([])
@@ -55,10 +61,13 @@ export function Home({ onImport, onStudy, onCram, onBrowser, onStats, onSettings
     buriedUntil: c.buriedUntil,
   }))
   const session = buildSession(
-    subjects.map((s) => ({ id: s.id, examDate: s.examDate })),
+    subjects.map((s) => ({ id: s.id, examDate: s.examDate, dailyNewLimit: s.dailyNewLimit })),
     schedCards,
     now,
-    { newCardCap: settings?.dailyNewCapEnabled ? settings.dailyNewCap : null },
+    {
+      newCardCap: settings?.dailyNewCapEnabled ? settings.dailyNewCap : null,
+      introducedToday: introducedTodayBySubject(reviews, cards, now),
+    },
   )
 
   // "Widget": the installed-app icon shows how many cards wait today.
@@ -146,6 +155,11 @@ export function Home({ onImport, onStudy, onCram, onBrowser, onStats, onSettings
               readiness={readiness}
               onEdit={setEditing}
               onCram={(s) => onCram(s.id)}
+              onOpen={(s) =>
+                // Tap the deck → study it right away. Nothing due today →
+                // fall back to a no-stakes practice run instead of a dead end.
+                plan.dueReviews + plan.newQuota > 0 ? onStudySubject(s.id) : onCram(s.id)
+              }
             />
           ))}
         </div>

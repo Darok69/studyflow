@@ -97,6 +97,7 @@ export const de: Messages = {
   subjectTodayCounts: (due: number, fresh: number) => `${due} zu wiederholen · ${fresh} neue`,
   doneForToday: 'für heute geschafft',
   cramBtn: 'Üben',
+  subjectOpenTitle: 'Antippen, um das heutige Lernen für dieses Fach zu starten',
 
   // Browser
   filterAll: 'Alle',
@@ -183,6 +184,13 @@ export const de: Messages = {
   reminderTimeLabel: 'Erinnerungszeit',
   reminderBlocked: 'Dein Browser hat Benachrichtigungen blockiert — erlaube sie in den Seiteneinstellungen.',
   reminderFailed: 'Die Erinnerungen ließen sich nicht aktivieren — versuch es noch einmal.',
+  reminderConfirmNote: 'Direkt nach dem Einschalten kommt eine Bestätigungs-Benachrichtigung — so weißt du, dass es funktioniert.',
+  pushTestBtn: 'Test-Benachrichtigung senden',
+  pushTestSending: 'Sende…',
+  pushTestSent: 'Gesendet — die Benachrichtigung kommt gleich 🔔',
+  pushTestFailed: 'Senden fehlgeschlagen — schalte die Erinnerung aus und wieder ein.',
+  pushInstallHint:
+    'Auf iPhone/iPad funktionieren Benachrichtigungen nur aus der installierten App: in Safari auf Teilen → „Zum Home-Bildschirm“ tippen und StudyFlow von dort öffnen — dann lässt sich die tägliche Erinnerung hier einschalten.',
   sectionLearning: 'Lernen',
   retentionName: 'Ziel-Behaltensquote',
   retentionDesc:
@@ -264,6 +272,9 @@ export const de: Messages = {
   nameLabel: 'Name',
   examDateLabel: 'Prüfungsdatum',
   reminderLabel: 'Erinnerung',
+  dailyNewLabel: 'Neue Karten pro Tag',
+  dailyNewAuto: 'auto',
+  dailyNewHint: 'Leer = automatisch nach Prüfungstermin. 0 = keine neuen Karten.',
   subjectColorLabel: 'Fachfarbe',
   colorN: (n: number) => `Farbe ${n}`,
   shareTooBig: 'Das Deck ist zu groß für einen Link — nutze Exportieren und schick die Datei.',

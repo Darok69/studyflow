@@ -546,6 +546,28 @@ h3 {
   border-left-width: 4px;
 }
 
+/* The whole deck card is a tap target — tap it to start studying. */
+.subject-card-clickable {
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.subject-card-clickable:hover,
+.subject-card-clickable:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+.subject-card-clickable:active {
+  transform: translateY(0);
+}
+
+.form-hint {
+  font-size: 0.82rem;
+  margin-top: 4px;
+}
+
 .subject-dot {
   width: 10px;
   height: 10px;

@@ -196,7 +196,7 @@ export async function unburyCard(id: string): Promise<void> {
 
 export async function updateSubject(
   id: string,
-  patch: Partial<Pick<Subject, 'name' | 'examDate' | 'reminderTime' | 'colorIndex'>>,
+  patch: Partial<Pick<Subject, 'name' | 'examDate' | 'reminderTime' | 'colorIndex' | 'dailyNewLimit'>>,
 ): Promise<void> {
   await db.subjects.update(id, patch)
   notifyDataChanged()

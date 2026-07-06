@@ -7,6 +7,7 @@ import { deckToJson } from '../src/import/exportDeck'
 import { backupToJson, parseBackup } from '../src/import/backup'
 import {
   buildSession,
+  introducedTodayBySubject,
   isSchedulable,
   newCardQuota,
   subjectStats,
@@ -161,6 +162,54 @@ const nearPlan = capped2.perSubject.find((p) => p.subjectId === 'near')!
 const farPlan = capped2.perSubject.find((p) => p.subjectId === 'far')!
 ok(nearPlan.newQuota === 2 && farPlan.newQuota === 0, 'cap is spent nearest-deadline first')
 ok(buildSession(subjects, cards, now, { newCardCap: null }).newCards === 3, 'null cap = uncapped')
+
+console.log('— manual daily new limit + introduced-today —')
+const limSubjects = [
+  { id: 'near', examDate: '2026-06-30', dailyNewLimit: 5 },
+  { id: 'far', examDate: '2026-08-30' },
+]
+const lim = buildSession(limSubjects, cards, now)
+ok(
+  lim.perSubject.find((p) => p.subjectId === 'near')!.newQuota === 5,
+  `manual limit 5 overrides auto pace (got ${lim.perSubject.find((p) => p.subjectId === 'near')!.newQuota})`,
+)
+ok(
+  buildSession([{ id: 'near', examDate: '2026-06-30', dailyNewLimit: 0 }], cards, now).newCards === 0,
+  'manual limit 0 = no new cards',
+)
+const introSession = buildSession(limSubjects, cards, now, {
+  introducedToday: new Map([['near', 3]]),
+})
+ok(
+  introSession.perSubject.find((p) => p.subjectId === 'near')!.newQuota === 2,
+  'cards already introduced today reduce the manual quota (5 - 3 = 2)',
+)
+const introCapped = buildSession(subjects, cards, now, {
+  newCardCap: 4,
+  introducedToday: new Map([['near', 3]]),
+})
+ok(introCapped.newCards === 1, `introduced-today also spends the global cap (got ${introCapped.newCards})`)
+const introAuto = buildSession([{ id: 'near', examDate: '2026-06-30' }], cards, now, {
+  introducedToday: new Map([['near', 2]]),
+})
+ok(
+  introAuto.newCards === 1,
+  `auto pace counts today's already-introduced cards (pool 8 / 3 days = 3, minus 2 done → 1; got ${introAuto.newCards})`,
+)
+
+const introMap = introducedTodayBySubject(
+  [
+    { cardId: 'n-new-0', ts: now.toISOString() }, // first review today → counts
+    { cardId: 'n-new-0', ts: '2026-06-27T10:00:00' }, // same card again → still 1
+    { cardId: 'n-due', ts: '2026-06-20T09:00:00' }, // introduced in the past
+    { cardId: 'n-due', ts: now.toISOString() }, // today's review of an old card → no count
+  ],
+  cards,
+  now,
+)
+ok((introMap.get('near') ?? 0) === 1, 'introducedTodayBySubject counts only first-ever reviews today')
+const subjStatsIntro = subjectStats({ id: 'near', examDate: '2026-06-30', dailyNewLimit: 4 }, cards, now, 4)
+ok(subjStatsIntro.newToday === 0, 'subjectStats: manual limit fully used up today → 0 more')
 
 // ============================================================
 // Sprint 2 — stats (streak / sparkline)
