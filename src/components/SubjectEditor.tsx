@@ -11,6 +11,8 @@ interface Props {
   onSaved: () => void
   onDeleted: () => void
   onClose: () => void
+  /** Start a no-stakes practice run for this deck (ratings don't touch the plan). */
+  onCram?: (subject: Subject) => void
 }
 
 function download(filename: string, text: string) {
@@ -35,7 +37,7 @@ function slug(name: string): string {
   )
 }
 
-export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
+export function SubjectEditor({ subject, onSaved, onDeleted, onClose, onCram }: Props) {
   const [name, setName] = useState(subject.name)
   const [examDate, setExamDate] = useState(subject.examDate ?? '')
   const [reminderTime, setReminderTime] = useState(subject.reminderTime ?? '')
@@ -158,6 +160,17 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose }: Props) {
           <button className="btn btn-ghost btn-danger" onClick={handleDelete}>
             {t('delete')}
           </button>
+          {onCram && (
+            <button
+              className="btn btn-ghost"
+              onClick={() => {
+                onClose()
+                onCram(subject)
+              }}
+            >
+              {t('cramBtn')}
+            </button>
+          )}
           <button className="btn btn-ghost" onClick={handleExport}>
             {t('exportBtn')}
           </button>

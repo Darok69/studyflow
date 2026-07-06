@@ -1526,6 +1526,253 @@ h3 {
   margin: 4px 0;
 }
 
+/* ===================================================================
+   Sprint 8 — luxury polish + responsive (mobile / tablet / laptop)
+   =================================================================== */
+
+/* Ambient glow behind everything — depth without stealing contrast. */
+body {
+  background:
+    radial-gradient(1100px 480px at 50% -120px, color-mix(in srgb, var(--accent) 13%, transparent), transparent 70%),
+    radial-gradient(900px 500px at 110% 110%, color-mix(in srgb, var(--far) 5%, transparent), transparent 70%),
+    #16151c;
+  background-attachment: fixed;
+}
+
+/* Wider shell on big screens; every page keeps a comfortable reading column. */
+.app {
+  max-width: 1080px;
+}
+
+.page {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.home-page {
+  max-width: 980px;
+}
+
+.study {
+  max-width: 680px;
+}
+
+/* Glassier sticky header + notch/home-indicator safe areas (installed PWA). */
+.app-header {
+  padding-top: calc(14px + env(safe-area-inset-top));
+  background: color-mix(in srgb, var(--desk) 78%, transparent);
+  backdrop-filter: blur(16px) saturate(1.5);
+  -webkit-backdrop-filter: blur(16px) saturate(1.5);
+}
+
+.app-main {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Panels get a soft top-light gradient + gentle depth. */
+.subject-card,
+.today-banner,
+.panel-section,
+.setting-row,
+.stat-card,
+.login-card,
+.ai-prompt,
+.card-row {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--panel) 88%, #34344a), var(--panel));
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+/* Today = the hero of the home screen. */
+.today-banner {
+  flex-wrap: wrap;
+  padding: 22px 24px;
+  border-color: color-mix(in srgb, var(--accent) 26%, var(--line));
+  background:
+    radial-gradient(420px 140px at 0% 0%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 70%),
+    linear-gradient(180deg, color-mix(in srgb, var(--panel) 88%, #34344a), var(--panel));
+}
+
+.today-counts {
+  font-size: 19px;
+}
+
+/* Primary button: gradient + glow, lifts on hover, settles on press. */
+.btn-primary {
+  background: linear-gradient(135deg, #9187f5, #6a5ee8);
+  box-shadow: 0 4px 16px color-mix(in srgb, var(--accent) 35%, transparent);
+  transition: transform 0.12s ease, box-shadow 0.15s ease, filter 0.15s ease;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, #9c93f7, #7568ee);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 22px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-ghost {
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+
+.btn-ghost:hover {
+  background: color-mix(in srgb, var(--ink) 5%, transparent);
+}
+
+/* Deck meta: wrap between items, never inside one. */
+.subject-meta {
+  flex-wrap: wrap;
+  row-gap: 4px;
+}
+
+.subject-meta > span {
+  white-space: nowrap;
+}
+
+/* Deck cards: accent-tinted lift on hover (tap target = whole card). */
+.subject-card-clickable:hover,
+.subject-card-clickable:focus-visible {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent) 38%, var(--line));
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.32);
+}
+
+/* Study card: a heavier, more tactile sheet of paper. */
+.paper {
+  border-radius: 22px;
+  padding: 32px 28px;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.35) inset,
+    0 18px 50px rgba(0, 0, 0, 0.45);
+}
+
+.card-image {
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(42, 39, 34, 0.25);
+  max-height: 46vh;
+  object-fit: contain;
+}
+
+/* Rating buttons: pre-tinted so the choice reads instantly. */
+.rate-again {
+  background: color-mix(in srgb, var(--near) 8%, var(--panel));
+}
+.rate-hard {
+  background: color-mix(in srgb, var(--mid) 8%, var(--panel));
+}
+.rate-good {
+  background: color-mix(in srgb, var(--accent) 9%, var(--panel));
+}
+.rate-easy {
+  background: color-mix(in srgb, var(--far) 8%, var(--panel));
+}
+
+/* Modals: deeper glass, comfy on small screens. */
+.modal-overlay {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: max(24px, env(safe-area-inset-top)) 14px calc(16px + env(safe-area-inset-bottom));
+}
+
+.modal-panel {
+  border-radius: 20px;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.55);
+}
+
+/* Consistent, visible keyboard focus everywhere. */
+:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 80%, transparent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Thin, unobtrusive scrollbars (desktop). */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+/* ---------- Phone (≤480px): stack the hero, full-width CTA ---------- */
+@media (max-width: 480px) {
+  .page {
+    padding: 16px 14px calc(24px + env(safe-area-inset-bottom));
+  }
+
+
+  .today-banner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .today-banner .btn-primary {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  .paper {
+    padding: 24px 20px;
+    min-height: 200px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+/* ---------- Tablet & up (≥700px): decks become a grid ---------- */
+@media (min-width: 700px) {
+  .page {
+    padding: 28px 24px calc(32px + env(safe-area-inset-bottom));
+    gap: 20px;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+
+  .subject-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    align-items: stretch;
+  }
+
+  .subject-card {
+    height: 100%;
+  }
+
+  .new-deck-btn {
+    grid-column: 1 / -1;
+    justify-self: center;
+    min-width: 220px;
+  }
+
+  .stat-num {
+    font-size: 38px;
+  }
+}
+
+/* ---------- Laptop & up (≥1000px): roomier hero + study ---------- */
+@media (min-width: 1000px) {
+  .home-page {
+    padding-top: 36px;
+  }
+
+  .today-banner {
+    padding: 26px 30px;
+  }
+
+  .paper {
+    min-height: 300px;
+    padding: 40px 36px;
+  }
+}
+
 /* ---------- Comfort: respect reduced-motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,

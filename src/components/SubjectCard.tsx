@@ -12,7 +12,6 @@ interface Props {
   /** Predicted recall at the exam moment (FSRS); null when subject is empty. */
   readiness: Readiness | null
   onEdit: (subject: Subject) => void
-  onCram: (subject: Subject) => void
   /** Tap anywhere on the card → start studying this subject right away. */
   onOpen: (subject: Subject) => void
 }
@@ -23,7 +22,7 @@ const BAND_COLOR: Record<ReturnType<typeof readinessBand>, string> = {
   fragile: palette.near,
 }
 
-export function SubjectCard({ subject, plan, readiness, onEdit, onCram, onOpen }: Props) {
+export function SubjectCard({ subject, plan, readiness, onEdit, onOpen }: Props) {
   // Identity colour (left accent bar) is kept separate from the urgency colour
   // (countdown + progress) so the two signals never clash.
   const identity = subjectColor(subject.colorIndex ?? subjectColorIndex(subject.id))
@@ -80,15 +79,6 @@ export function SubjectCard({ subject, plan, readiness, onEdit, onCram, onOpen }
       </div>
 
       <div className="subject-actions">
-        <button
-          className="subject-action"
-          onClick={(e) => {
-            e.stopPropagation()
-            onCram(subject)
-          }}
-        >
-          {t('cramBtn')}
-        </button>
         <button
           className="subject-action"
           onClick={(e) => {

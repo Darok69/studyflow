@@ -108,7 +108,7 @@ export function Home({
       .filter((x): x is { subject: Subject; plan: SubjectPlan; readiness: Readiness | null } => x !== null)
 
   return (
-    <div className="page">
+    <div className="page home-page">
       <nav className="home-nav">
         <button className="btn btn-ghost btn-small" onClick={onBrowser}>
           {t('navCards')}
@@ -172,7 +172,6 @@ export function Home({
               plan={plan}
               readiness={readiness}
               onEdit={setEditing}
-              onCram={(s) => onCram(s.id)}
               onOpen={(s) =>
                 // Tap the deck → study it right away. Nothing due today →
                 // fall back to a no-stakes practice run instead of a dead end.
@@ -202,6 +201,7 @@ export function Home({
           onSaved={() => void load()}
           onDeleted={() => void load()}
           onClose={() => setEditing(null)}
+          onCram={(s) => onCram(s.id)}
         />
       )}
     </div>
