@@ -1,9 +1,15 @@
-import type { CardType } from '../db/db'
+import type { CardImage, CardType, Occlusion, SourceRef } from '../db/db'
+import { type CardKind, type CardLevel, isCardKind, isCardLevel } from '../db/cardKinds'
 import { t } from '../i18n'
 
 // A card ready to import — id and subjectId are assigned by the repository.
+// The generation pipeline produces the very same shape, so a generated deck and
+// a hand-written JSON deck travel through one code path.
 export interface CardDraft {
-  type: CardType
+  type: CardType // how it renders
+  kind?: CardKind // what it teaches (definice, proces, případ…)
+  level?: CardLevel // 1 recall, 2 understanding, 3 application
+  topic?: string // heading from the approved outline
   front: string
   back: string
   raw?: string
@@ -11,6 +17,12 @@ export interface CardDraft {
   svg?: string
   image?: string
   imageBack?: string
+  images?: CardImage[]
+  occlusion?: Occlusion | null
+  sourceId?: string
+  sourceRef?: SourceRef
+  draft?: boolean // failed quality control
+  draftReason?: string
 }
 
 export interface ParsedDeck {
@@ -92,6 +104,11 @@ export function parseDeck(raw: string): ParsedDeck {
     const imageBack =
       typeof c.imageBack === 'string' && c.imageBack.trim() ? c.imageBack : undefined
     const type: CardType = c.type === 'cloze' ? 'cloze' : 'basic'
+    // Didactic fields are optional in the import format: a hand-written deck
+    // without them still imports, it just teaches at recall level.
+    const kind: CardKind = isCardKind(c.kind) ? c.kind : type
+    const level: CardLevel = isCardLevel(c.level) ? c.level : 1
+    const topic = typeof c.topic === 'string' && c.topic.trim() ? c.topic.trim() : undefined
 
     if (type === 'cloze') {
       const text = typeof c.text === 'string' ? c.text : typeof c.front === 'string' ? c.front : ''
@@ -100,7 +117,7 @@ export function parseDeck(raw: string): ParsedDeck {
         return
       }
       const { front, back, raw } = makeCloze(text)
-      cards.push({ type, front, back, raw, tags, svg, image, imageBack })
+      cards.push({ type, kind, level, topic, front, back, raw, tags, svg, image, imageBack })
     } else {
       const front = typeof c.front === 'string' ? c.front.trim() : ''
       const back = typeof c.back === 'string' ? c.back.trim() : ''
@@ -108,7 +125,7 @@ export function parseDeck(raw: string): ParsedDeck {
         errors.push(t('errBasicCardNeedsBoth', n))
         return
       }
-      cards.push({ type, front, back, tags, svg, image, imageBack })
+      cards.push({ type, kind, level, topic, front, back, tags, svg, image, imageBack })
     }
   })
 

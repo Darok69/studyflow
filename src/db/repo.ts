@@ -1,11 +1,20 @@
 // Data-access layer: the only module that touches Dexie from the UI/session.
-import { db, type Card, type RatingName, type Review, type Settings, type Subject } from './db'
+import {
+  db,
+  type Card,
+  type RatingName,
+  type Review,
+  type Settings,
+  type SourceMeta,
+  type Subject,
+  type SubjectKind,
+} from './db'
 import type { CardDraft, ParsedDeck } from '../import/parseDeck'
 import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
 import { subjectColorIndex } from '../lib/theme'
-import { BREAK_NUDGE_MINUTES, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
+import { BREAK_NUDGE_MINUTES, DEFAULT_AI_BUDGET_USD, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
 import { dayKey } from '../lib/date'
 
 const SETTINGS_ID = 'app'
@@ -17,6 +26,36 @@ function uuid(): string {
 /** Broadcast that persisted data changed — the sync layer listens for this. */
 function notifyDataChanged(): void {
   if (typeof window !== 'undefined') window.dispatchEvent(new Event('sf-data-changed'))
+}
+
+/**
+ * Draft → card, minus the FSRS state the caller adds. One place where a card is
+ * born, whether it came from a JSON import, the in-app editor or the generator.
+ */
+function cardFromDraft(draft: CardDraft, subjectId: string): Omit<Card, keyof FsrsFields> {
+  return {
+    id: uuid(),
+    subjectId,
+    type: draft.type,
+    // A deck written by hand carries no didactic kind: what it renders as is
+    // what it teaches, at recall level.
+    kind: draft.kind ?? draft.type,
+    level: draft.level ?? 1,
+    topic: draft.topic,
+    front: draft.front,
+    back: draft.back,
+    raw: draft.raw,
+    tags: draft.tags,
+    svg: draft.svg,
+    image: draft.image,
+    imageBack: draft.imageBack,
+    images: draft.images,
+    occlusion: draft.occlusion,
+    sourceId: draft.sourceId,
+    sourceRef: draft.sourceRef,
+    draft: draft.draft,
+    draftReason: draft.draftReason,
+  }
 }
 
 export async function getSubjects(): Promise<Subject[]> {
@@ -50,16 +89,7 @@ export async function importDeck(parsed: ParsedDeck): Promise<{ subjectId: strin
   }
 
   const cards: Card[] = parsed.cards.map((d) => ({
-    id: uuid(),
-    subjectId,
-    type: d.type,
-    front: d.front,
-    back: d.back,
-    raw: d.raw,
-    tags: d.tags,
-    svg: d.svg,
-    image: d.image,
-    imageBack: d.imageBack,
+    ...cardFromDraft(d, subjectId),
     ...newFsrsFields(now),
   }))
 
@@ -136,16 +166,7 @@ export async function undoRating(
 
 export async function addCard(subjectId: string, draft: CardDraft): Promise<Card> {
   const card: Card = {
-    id: uuid(),
-    subjectId,
-    type: draft.type,
-    front: draft.front,
-    back: draft.back,
-    raw: draft.raw,
-    tags: draft.tags,
-    svg: draft.svg,
-    image: draft.image,
-    imageBack: draft.imageBack,
+    ...cardFromDraft(draft, subjectId),
     ...newFsrsFields(new Date()),
   }
   await db.cards.add(card)
@@ -157,7 +178,25 @@ export async function addCard(subjectId: string, draft: CardDraft): Promise<Card
 export async function updateCard(
   id: string,
   patch: Partial<
-    Pick<Card, 'front' | 'back' | 'raw' | 'tags' | 'svg' | 'image' | 'imageBack' | 'type' | 'subjectId'>
+    Pick<
+      Card,
+      | 'front'
+      | 'back'
+      | 'raw'
+      | 'tags'
+      | 'svg'
+      | 'image'
+      | 'imageBack'
+      | 'images'
+      | 'occlusion'
+      | 'type'
+      | 'kind'
+      | 'level'
+      | 'topic'
+      | 'subjectId'
+      | 'draft'
+      | 'draftReason'
+    >
   >,
 ): Promise<Card | null> {
   const next = await db.transaction('rw', db.cards, async () => {
@@ -203,6 +242,8 @@ export async function createSubject(input: {
   name: string
   examDate?: string | null
   dailyNewLimit?: number | null
+  kind?: SubjectKind
+  ects?: number | null
 }): Promise<Subject> {
   const id = uuid()
   const subject: Subject = {
@@ -213,6 +254,8 @@ export async function createSubject(input: {
     createdAt: new Date().toISOString(),
     colorIndex: subjectColorIndex(id),
     dailyNewLimit: input.dailyNewLimit ?? null,
+    kind: input.kind ?? 'other',
+    ects: input.ects ?? null,
   }
   await db.subjects.add(subject)
   notifyDataChanged()
@@ -221,7 +264,9 @@ export async function createSubject(input: {
 
 export async function updateSubject(
   id: string,
-  patch: Partial<Pick<Subject, 'name' | 'examDate' | 'reminderTime' | 'colorIndex' | 'dailyNewLimit'>>,
+  patch: Partial<
+    Pick<Subject, 'name' | 'examDate' | 'reminderTime' | 'colorIndex' | 'dailyNewLimit' | 'kind' | 'ects'>
+  >,
 ): Promise<void> {
   await db.subjects.update(id, patch)
   notifyDataChanged()
@@ -265,12 +310,46 @@ export async function restoreBackup(backup: Backup): Promise<void> {
   })
 }
 
+// ---- Source materials (local mirror of the server's blob store) ----
+// Sources deliberately do NOT call notifyDataChanged: they are not part of the
+// backup snapshot, so a source change must not mark the whole app dirty.
+
+export async function getSources(): Promise<SourceMeta[]> {
+  return db.sources.toArray()
+}
+
+export async function getSourcesBySubject(subjectId: string): Promise<SourceMeta[]> {
+  return db.sources.where('subjectId').equals(subjectId).toArray()
+}
+
+export async function getSource(id: string): Promise<SourceMeta | undefined> {
+  return db.sources.get(id)
+}
+
+/** Upsert one source's metadata as reported by the server. */
+export async function putSource(meta: SourceMeta): Promise<void> {
+  await db.sources.put(meta)
+}
+
+/** Replace the whole local mirror with the server's list (authoritative). */
+export async function replaceSources(list: SourceMeta[]): Promise<void> {
+  await db.transaction('rw', db.sources, async () => {
+    await db.sources.clear()
+    if (list.length) await db.sources.bulkAdd(list)
+  })
+}
+
+export async function deleteSourceMeta(id: string): Promise<void> {
+  await db.sources.delete(id)
+}
+
 /** Delete a subject and all of its cards + reviews. */
 export async function deleteSubject(subjectId: string): Promise<void> {
-  await db.transaction('rw', db.subjects, db.cards, db.reviews, async () => {
+  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.sources, async () => {
     const cardIds = await db.cards.where('subjectId').equals(subjectId).primaryKeys()
     await db.reviews.where('cardId').anyOf(cardIds as string[]).delete()
     await db.cards.where('subjectId').equals(subjectId).delete()
+    await db.sources.where('subjectId').equals(subjectId).delete()
     await db.subjects.delete(subjectId)
   })
   notifyDataChanged()
@@ -278,12 +357,13 @@ export async function deleteSubject(subjectId: string): Promise<void> {
 
 /** Wipe everything (used by the reset action). */
 export async function resetAll(): Promise<void> {
-  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.settings, async () => {
+  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.settings, db.sources, async () => {
     await Promise.all([
       db.subjects.clear(),
       db.cards.clear(),
       db.reviews.clear(),
       db.settings.clear(),
+      db.sources.clear(),
     ])
   })
   notifyDataChanged()
@@ -299,6 +379,7 @@ export const DEFAULT_SETTINGS: Settings = {
   breakNudgeMinutes: BREAK_NUDGE_MINUTES,
   cardFontScale: 1,
   cardSans: false,
+  aiMonthlyBudgetUsd: DEFAULT_AI_BUDGET_USD,
 }
 
 export async function getSettings(): Promise<Settings> {

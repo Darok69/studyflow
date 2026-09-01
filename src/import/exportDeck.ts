@@ -17,6 +17,9 @@ export function deckToJson(
       base.front = c.front
       base.back = c.back
     }
+    if (c.kind && c.kind !== c.type) base.kind = c.kind
+    if (c.level && c.level !== 1) base.level = c.level
+    if (c.topic) base.topic = c.topic
     if (c.tags.length) base.tags = c.tags
     if (c.svg) base.svg = c.svg
     if (c.image) base.image = c.image

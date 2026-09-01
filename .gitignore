@@ -25,3 +25,6 @@ dist-ssr
 server/node_modules
 server/data
 .env
+
+# graphify — lokální znalostní graf kódu (negenerovat do repa)
+graphify-out/
