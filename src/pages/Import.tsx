@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { parseDeck } from '../import/parseDeck'
+import { parsePlainDeck } from '../import/parsePlainText'
 import { importDeck } from '../db/repo'
 import { aiPrompt, sampleDeckJson } from '../import/sampleDeck'
 import { t } from '../i18n'
@@ -19,16 +20,40 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
   const [busy, setBusy] = useState(false)
   const [copied, setCopied] = useState(false)
 
+  /**
+   * JSON when the text is JSON, your own notes otherwise. Guessing beats making
+   * the student pick a format: a pasted table, "Pojem — význam" lines or
+   * question/answer pairs all end up as cards without a model.
+   */
   async function handleImport() {
     setBusy(true)
     setErrors([])
-    const parsed = parseDeck(text)
-    if (parsed.errors.length > 0) {
-      setErrors(parsed.errors)
+
+    const looksLikeJson = text.trim().startsWith('{')
+    if (looksLikeJson) {
+      const parsed = parseDeck(text)
+      if (parsed.errors.length > 0) {
+        setErrors(parsed.errors)
+        setBusy(false)
+        return
+      }
+      await importDeck(parsed)
+      setBusy(false)
+      onDone()
+      return
+    }
+
+    const plain = parsePlainDeck(text)
+    if (plain.cards.length === 0) {
+      setErrors([t('errPlainNoCards')])
       setBusy(false)
       return
     }
-    await importDeck(parsed)
+    await importDeck({
+      subject: { name: plain.subject ?? t('plainDeckName'), examDate: null, reminderTime: null },
+      cards: plain.cards,
+      errors: [],
+    })
     setBusy(false)
     onDone()
   }
@@ -48,7 +73,10 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
           {t('sharedBanner')}
         </div>
       ) : (
-        <p className="muted">{t('pasteHint')}</p>
+        <>
+          <p className="muted">{t('pasteHint')}</p>
+          <p className="muted plain-hint">{t('plainHint')}</p>
+        </>
       )}
 
       <textarea

@@ -6,6 +6,9 @@ const dny = (n: number) => (n === 1 ? 'den' : n >= 2 && n <= 4 ? 'dny' : 'dní')
 const karty = (n: number) => (n === 1 ? 'karta' : n >= 2 && n <= 4 ? 'karty' : 'karet')
 const kartyAcc = (n: number) => (n === 1 ? 'kartu' : n >= 2 && n <= 4 ? 'karty' : 'karet')
 const predmety = (n: number) => (n === 1 ? 'předmět' : n >= 2 && n <= 4 ? 'předměty' : 'předmětů')
+const stran = (n: number) => (n === 1 ? 'strana' : n >= 2 && n <= 4 ? 'strany' : 'stran')
+const chyby = (n: number) => (n === 1 ? 'chyba' : n >= 2 && n <= 4 ? 'chyby' : 'chyb')
+const bloku = (n: number) => (n === 1 ? 'blok' : n >= 2 && n <= 4 ? 'bloky' : 'bloků')
 
 const WEEKDAYS = ['ne', 'po', 'út', 'st', 'čt', 'pá', 'so']
 
@@ -325,6 +328,155 @@ export const cs = {
   // Sync conflict
   syncConflict:
     'Na serveru jsou novější data (z jiného zařízení), ale i tady máš neuložené změny.\n\nOK = načíst data ze serveru (místní změny se zahodí)\nZrušit = nechat moje a přepsat server',
+  // Podklady → osnova → karty
+  navSources: 'Podklady',
+  sourcesTitle: 'Podklady',
+  sourcesIntro:
+    'Nahraj skripta, fotku poznámek nebo vlastní text. Nejdřív z toho vznikne osnova témat, kterou schválíš, a teprve pak karty.',
+  sourcesNeedDeck: 'Nejdřív si založ balíček — podklad vždycky patří k nějakému předmětu.',
+  sourcesDeckLabel: 'Balíček',
+  sourcesUpload: 'Nahrát soubor',
+  sourcesUploadHint: 'PDF, text nebo fotka stránky.',
+  sourcesPaste: 'Vložit text',
+  sourcesPasteHint: 'Zkopíruj text z přednášky nebo ze skript.',
+  sourcesUploading: 'Nahrávám…',
+  sourcesEmpty: 'Zatím tu nic není.',
+  sourcesOffline: 'Bez připojení podklady zpracovat nejde. Učení běží dál.',
+  sourceStatusUploaded: 'Nahráno',
+  sourceStatusExtracting: 'Čtu podklad…',
+  sourceStatusExtracted: (pages: number, blocks: number) =>
+    `${pages} ${stran(pages)} · ${blocks} ${bloku(blocks)}`,
+  sourceStatusOutlined: 'Osnova připravená',
+  sourceStatusGenerating: 'Generuji karty…',
+  sourceStatusGenerated: 'Karty připravené',
+  sourceStatusDone: 'Hotovo',
+  sourceStatusError: 'Nepovedlo se',
+  sourceExtract: 'Zpracovat',
+  sourceOutlineBtn: 'Navrhnout osnovu',
+  sourceOutlineWorking: 'Připravuji osnovu…',
+  sourceApprove: 'Schválit a vygenerovat karty',
+  sourceGenerating: (done: number, total: number) => `Generuji… ${done} z ${total}`,
+  sourceImportBtn: (n: number) => `Přidat ${n} ${kartyAcc(n)} do balíčku`,
+  sourceImported: (n: number) => `Přidáno ${n} ${karty(n)}.`,
+  sourceReviewBtn: 'Zkontrolovat modelem',
+  sourceReviewTitle: 'Nepovinný druhý průchod: model projde hotové karty proti podkladu (stojí navíc)',
+  sourceReviewed: (drafts: number) =>
+    drafts === 0 ? 'Kontrola hotová, vše prošlo.' : `Kontrola hotová — ${drafts} ${karty(drafts)} k přepsání.`,
+  sourceDelete: 'Smazat podklad',
+  sourceDeleteConfirm: 'Smazat podklad i s vygenerovanými kartami? Karty už přidané do balíčku zůstanou.',
+  sourceEstimate: (usd: string) => `Odhad ceny: ${usd}`,
+  sourceSpent: (spent: string, budget: string) => `Tento měsíc utraceno ${spent} z ${budget}`,
+  sectionAi: 'Generování karet',
+  aiBudgetName: 'Měsíční strop',
+  aiBudgetDesc:
+    'Kolik smí generování karet za měsíc stát. Po vyčerpání se přepne na pravidlový generátor a řekne to.',
+  sourceModelUnavailable: 'Model není k dispozici — poběží pravidlový generátor.',
+  sourceModelOff: 'Model není k dispozici — karty vyrobila pravidla.',
+  modelOffName: 'Zdarma podle pravidel',
+  modelOffDesc:
+    'Karty vyrobí vzory v textu — definice, znaky, paragrafy, procesy, letopočty a čísla. Nic to nestojí a funguje to i bez internetu.',
+  modelOnName: 'S modelem (platí se)',
+  modelOnDesc:
+    'Model projde podklad a napíše karty i tam, kde pravidla nestačí. Odhad ceny uvidíš u podkladu předem.',
+  sourceReasonChoice: 'zvolil sis pravidla',
+  sourceReasonNoKey: 'chybí API klíč',
+  sourceReasonBudget: 'vyčerpaný měsíční rozpočet',
+  sourceReasonApiError: 'API neodpovědělo',
+  sourceReasonOffline: 'bez připojení',
+  sourceNeedsModel: 'Fotku bez modelu přečíst neumíme.',
+  outlineTitle: 'Osnova ke schválení',
+  outlineHint: 'Přejmenuj témata nebo odškrtni ta, která se učit nechceš. Karty vzniknou až potom.',
+  outlineTopicMeta: (cards: number, minutes: number) => `${cards} ${karty(cards)} · ${minutes} min`,
+  outlineNoneSelected: 'Vyber aspoň jedno téma.',
+  draftBadge: 'Koncept',
+  draftReasonEmpty: 'prázdná karta',
+  draftReasonTooLong: 'odpověď je delší než tři věty',
+  draftReasonEcho: 'odpověď je obsažená v otázce',
+  draftReasonCloze: 'doplňovačka bez vynechaného místa',
+  draftReasonImage: 'chybí obrázek, na který se karta ptá',
+  draftReasonDuplicate: 'duplicita',
+  draftReasonSource: 'odpověď se v podkladu nenašla',
+  draftApproveBtn: 'Použít',
+  draftApproveTitle: 'Zařadit kartu do učení tak, jak je',
+  filterDrafts: 'Jen koncepty',
+  plainHint:
+    'Nemusí to být JSON. Vlož klidně vlastní poznámky — „Pojem — význam" na řádek, tabulku z tabulkového editoru, nebo věty s {{vynechávkou}}. Karty z toho uděláme bez modelu.',
+  plainDeckName: 'Vložené poznámky',
+  errPlainNoCards: 'V textu jsem nenašel dvojice otázka–odpověď. Zkus je oddělit pomlčkou, tabulátorem nebo prázdným řádkem.',
+  errUploadFailed: 'Soubor se nepodařilo nahrát.',
+  errSourceFailed: 'Podklad se nepodařilo zpracovat.',
+  // Učení: kalibrace, vlastní formulace, kroky
+  confidenceName: 'Ptát se na jistotu',
+  confidenceDesc:
+    'Před odkrytím jedním klepnutím řekneš, jak si věříš. Ve statistikách pak vidíš, jak přesně se odhaduješ — a jistá chyba se ti vrátí ještě dnes.',
+  confidenceQuestion: 'Jak si věříš?',
+  confKnow: 'Vím',
+  confUnsure: 'Tuším',
+  confNo: 'Nevím',
+  produceHint: 'Napiš pár slov vlastními slovy — pak se odpověď ukáže. Vybavování z hlavy drží líp než čtení.',
+  producePlaceholder: 'Pár slov stačí…',
+  nextStep: (shown: number, total: number) => `Další krok (${shown}/${total})`,
+  remainingLeft: (n: number) => `ještě ${n}`,
+  hyperHint: 'Byl sis jistý a nevyšlo to — tahle karta se dnes vrátí. Přesně takové chyby se opravují nejlíp.',
+  // Slabá místa
+  weakTitle: 'Slabá místa',
+  weakEmpty: 'Zatím žádné chyby k řešení. 🌿',
+  weakTopic: (topic: string, n: number) => `${topic} — ${n}× ${chyby(n)}`,
+  weakNoTopic: 'Bez tématu',
+  calibTitle: 'Odhad vlastních znalostí',
+  calibEmpty: 'Zatím málo dat — po pár dnech učení tu uvidíš, jak přesně se odhaduješ.',
+  calibSure: (pct: number) => `Když si věříš, vyjde to v ${pct} %.`,
+  calibUnsure: (pct: number) => `Když tušíš, vyjde to v ${pct} %.`,
+  calibOverconfident: 'Přeceňuješ se — to je nejčastější důvod, proč lidi u zkoušky překvapí.',
+  calibHonest: 'Odhaduješ se poctivě. To je při přípravě k nezaplacení.',
+  // Plán
+  navPlan: 'Plán',
+  planTitle: 'Plán do zkoušek',
+  planEmpty: 'Nejdřív si založ balíček a nastav mu termín zkoušky.',
+  planAvailableName: 'Kolik času denně mám',
+  planAvailableDesc: 'Realisticky, ne jak by to bylo hezké. Plán se počítá proti tomuhle číslu.',
+  planFits: (need: number, have: number) => `Vejde se to: potřebuješ ${need} min denně, máš ${have}.`,
+  planTight: (need: number, have: number, over: number) =>
+    `Nevejde se to: plán chce ${need} min denně, máš ${have} — o ${over} min víc, než je.`,
+  planCutIntro: 'Nejmenší škoda — škrtej od nejvzdálenější zkoušky:',
+  planCut: (cards: number, subject: string) => `${cards} ${karty(cards)} z předmětu ${subject}`,
+  planNotEnough:
+    'Ani to nestačí — nejbližší zkouška sama o sobě přeteče den. Buď si přidej čas, nebo z balíčku vyhoď, co u zkoušky nepotřebuješ.',
+  planPerDay: (cards: number, minutes: number) => `${cards} nových/den · ~${minutes} min`,
+  planRemaining: (n: number) => `zbývá ${n} ${karty(n)}`,
+  planIntentionPlaceholder: 'Kdy a kde se tomu budu věnovat?',
+  planIntentionHint:
+    'Konkrétní věta („V úterý v 19:00 u kuchyňského stolu 25 minut práva") drží líp než dobrý úmysl — a přesně tohle ti přijde v připomínce.',
+  // Zeigarnik + nová etapa
+  noteToday: (topic: string) => `Dnes jsi skončil u tématu ${topic}. Až budeš mít chvíli, naváž tam.`,
+  noteLater: (topic: string) => `Začni tématem ${topic} — tam jsi minule přestal.`,
+  noteNoTopic: 'Minule jsi to nedokončil — naváž, kde jsi přestal.',
+  freshMonday: 'Pondělí. Dobrý den na to začít novou etapu.',
+  freshMonth: 'První den v měsíci — čistý štít, banka volných dní je zase plná.',
+  freshAfterExam: 'Zkouška je za tebou. Nastav si termín další a jedeme dál.',
+  freshDismiss: 'Díky, vím',
+  // Hranice
+  overdoingTitle: 'Dost pro dnešek',
+  overdoingBody:
+    'Dnešní dávku máš dávno za sebou. Přeučení před zkouškou výsledek spíš zhorší — zbytek si nech na zítra.',
+  overdoingStop: 'Končím',
+  overdoingMore: 'Ještě chvíli',
+  examTomorrow: 'Zkouška je za dveřmi — dnes už jen opakování, žádné nové karty.',
+  // Slepá mapa (image occlusion)
+  newMapBtn: '+ Slepá mapa',
+  occlusionTitle: 'Slepá mapa',
+  occlusionPick: 'Vyber mapu nebo schéma',
+  occlusionHint: 'Táhni prstem přes místo, které chceš zakrýt. Klepnutím na název ho přejmenuješ, křížkem smažeš.',
+  occlusionLabelPlaceholder: 'Název místa (Dunaj, Alpy…)',
+  occlusionAltLabel: 'Popis obrázku',
+  occlusionAltPlaceholder: 'Slepá mapa Rakouska',
+  occlusionModeLabel: 'Co se zakrývá',
+  occlusionModeOne: 'Jen hledané místo',
+  occlusionModeAll: 'Všechna místa',
+  occlusionModeOneDesc: 'Zbytek mapy zůstane vidět — poznáváš podle okolí.',
+  occlusionModeAllDesc: 'Zakryjí se všechna místa, sousedi nenapoví. Těžší a účinnější.',
+  occlusionSave: (n: number) => `Vytvořit ${n} ${karty(n)}`,
+  occlusionNeedLabels: 'Pojmenuj aspoň jedno zakryté místo — název je odpověď na kartě.',
 }
 
 /**
@@ -335,4 +487,5 @@ export type Messages = {
   [K in keyof typeof cs]: (typeof cs)[K] extends (...args: infer A) => string
     ? (...args: A) => string
     : string
+
 }

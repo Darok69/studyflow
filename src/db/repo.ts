@@ -1,11 +1,22 @@
 // Data-access layer: the only module that touches Dexie from the UI/session.
-import { db, type Card, type RatingName, type Review, type Settings, type Subject } from './db'
+import {
+  db,
+  type Card,
+  type Confidence,
+  type ErrorEntry,
+  type RatingName,
+  type Review,
+  type Settings,
+  type SourceMeta,
+  type Subject,
+  type SubjectKind,
+} from './db'
 import type { CardDraft, ParsedDeck } from '../import/parseDeck'
 import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
 import { subjectColorIndex } from '../lib/theme'
-import { BREAK_NUDGE_MINUTES, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
+import { BREAK_NUDGE_MINUTES, DEFAULT_DAILY_MINUTES, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
 import { dayKey } from '../lib/date'
 
 const SETTINGS_ID = 'app'
@@ -17,6 +28,36 @@ function uuid(): string {
 /** Broadcast that persisted data changed — the sync layer listens for this. */
 function notifyDataChanged(): void {
   if (typeof window !== 'undefined') window.dispatchEvent(new Event('sf-data-changed'))
+}
+
+/**
+ * Draft → card, minus the FSRS state the caller adds. One place where a card is
+ * born, whether it came from a JSON import, the in-app editor or the generator.
+ */
+function cardFromDraft(draft: CardDraft, subjectId: string): Omit<Card, keyof FsrsFields> {
+  return {
+    id: uuid(),
+    subjectId,
+    type: draft.type,
+    // A deck written by hand carries no didactic kind: what it renders as is
+    // what it teaches, at recall level.
+    kind: draft.kind ?? draft.type,
+    level: draft.level ?? 1,
+    topic: draft.topic,
+    front: draft.front,
+    back: draft.back,
+    raw: draft.raw,
+    tags: draft.tags,
+    svg: draft.svg,
+    image: draft.image,
+    imageBack: draft.imageBack,
+    images: draft.images,
+    occlusion: draft.occlusion,
+    sourceId: draft.sourceId,
+    sourceRef: draft.sourceRef,
+    draft: draft.draft,
+    draftReason: draft.draftReason,
+  }
 }
 
 export async function getSubjects(): Promise<Subject[]> {
@@ -50,16 +91,7 @@ export async function importDeck(parsed: ParsedDeck): Promise<{ subjectId: strin
   }
 
   const cards: Card[] = parsed.cards.map((d) => ({
-    id: uuid(),
-    subjectId,
-    type: d.type,
-    front: d.front,
-    back: d.back,
-    raw: d.raw,
-    tags: d.tags,
-    svg: d.svg,
-    image: d.image,
-    imageBack: d.imageBack,
+    ...cardFromDraft(d, subjectId),
     ...newFsrsFields(now),
   }))
 
@@ -77,6 +109,8 @@ export interface RatingResult {
   reviewId: string
   /** FSRS fields as they were BEFORE this rating — everything undo needs. */
   prev: FsrsFields
+  /** Set when the mistake went into the error log, so undo can take it back. */
+  errorId: string | null
 }
 
 /**
@@ -88,14 +122,39 @@ export async function recordRating(
   rating: RatingName,
   examDate: string | null,
   retention: number = DEFAULT_RETENTION,
+  meta: { confidence?: Confidence; elapsedMs?: number } = {},
 ): Promise<RatingResult> {
   const now = new Date()
   const updated: Card = { ...card, ...rate(card, rating, examDate, now, retention) }
-  const review: Review = { id: uuid(), cardId: card.id, rating, ts: now.toISOString() }
+  const review: Review = {
+    id: uuid(),
+    cardId: card.id,
+    rating,
+    ts: now.toISOString(),
+    confidence: meta.confidence,
+    elapsedMs: meta.elapsedMs,
+  }
 
-  await db.transaction('rw', db.cards, db.reviews, async () => {
+  // Being SURE and wrong is the most valuable mistake there is — it corrects
+  // best and it is exactly what the exam punishes, so it goes on the record.
+  const sureAndWrong = meta.confidence === 'know' && rating === 'again'
+  const lapsed = rating === 'again' && card.state === 'review'
+  const error: ErrorEntry | null =
+    sureAndWrong || lapsed
+      ? {
+          id: uuid(),
+          cardId: card.id,
+          subjectId: card.subjectId,
+          topic: card.topic,
+          ts: now.toISOString(),
+          kind: sureAndWrong ? 'hypercorrection' : 'lapse',
+        }
+      : null
+
+  await db.transaction('rw', db.cards, db.reviews, db.errorLog, async () => {
     await db.cards.put(updated)
     await db.reviews.add(review)
+    if (error) await db.errorLog.add(error)
   })
   notifyDataChanged()
 
@@ -108,7 +167,7 @@ export async function recordRating(
     state: card.state,
     lastReview: card.lastReview,
   }
-  return { updated, reviewId: review.id, prev }
+  return { updated, reviewId: review.id, prev, errorId: error?.id ?? null }
 }
 
 /**
@@ -119,13 +178,15 @@ export async function undoRating(
   cardId: string,
   reviewId: string,
   prev: FsrsFields,
+  errorId: string | null = null,
 ): Promise<Card | null> {
-  const restored = await db.transaction('rw', db.cards, db.reviews, async () => {
+  const restored = await db.transaction('rw', db.cards, db.reviews, db.errorLog, async () => {
     const cur = await db.cards.get(cardId)
     if (!cur) return null
     const result: Card = { ...cur, ...prev }
     await db.cards.put(result)
     await db.reviews.delete(reviewId)
+    if (errorId) await db.errorLog.delete(errorId)
     return result
   })
   notifyDataChanged()
@@ -136,16 +197,7 @@ export async function undoRating(
 
 export async function addCard(subjectId: string, draft: CardDraft): Promise<Card> {
   const card: Card = {
-    id: uuid(),
-    subjectId,
-    type: draft.type,
-    front: draft.front,
-    back: draft.back,
-    raw: draft.raw,
-    tags: draft.tags,
-    svg: draft.svg,
-    image: draft.image,
-    imageBack: draft.imageBack,
+    ...cardFromDraft(draft, subjectId),
     ...newFsrsFields(new Date()),
   }
   await db.cards.add(card)
@@ -153,17 +205,50 @@ export async function addCard(subjectId: string, draft: CardDraft): Promise<Card
   return card
 }
 
+/**
+ * Add a whole batch of cards to an EXISTING subject — how a generated deck
+ * lands in the app (importDeck always creates a new subject instead).
+ */
+export async function addCards(subjectId: string, drafts: CardDraft[]): Promise<number> {
+  if (drafts.length === 0) return 0
+  const now = new Date()
+  const cards: Card[] = drafts.map((d) => ({ ...cardFromDraft(d, subjectId), ...newFsrsFields(now) }))
+  await db.cards.bulkAdd(cards)
+  notifyDataChanged()
+  return cards.length
+}
+
 /** Update card content/placement; FSRS state is intentionally untouched. */
 export async function updateCard(
   id: string,
   patch: Partial<
-    Pick<Card, 'front' | 'back' | 'raw' | 'tags' | 'svg' | 'image' | 'imageBack' | 'type' | 'subjectId'>
+    Pick<
+      Card,
+      | 'front'
+      | 'back'
+      | 'raw'
+      | 'tags'
+      | 'svg'
+      | 'image'
+      | 'imageBack'
+      | 'images'
+      | 'occlusion'
+      | 'type'
+      | 'kind'
+      | 'level'
+      | 'topic'
+      | 'subjectId'
+      | 'draft'
+      | 'draftReason'
+    >
   >,
 ): Promise<Card | null> {
   const next = await db.transaction('rw', db.cards, async () => {
     const cur = await db.cards.get(id)
     if (!cur) return null
-    const result: Card = { ...cur, ...patch }
+    // A hand-edited card carries a visible mark: own material is learned more
+    // willingly than material somebody else wrote (BRIEF §5.18).
+    const result: Card = { ...cur, ...patch, userEdited: true }
     await db.cards.put(result)
     return result
   })
@@ -171,9 +256,19 @@ export async function updateCard(
   return next
 }
 
+/**
+ * Accept a card that failed quality control as it stands. Nothing else changes —
+ * the reason is dropped and the card joins the queue tomorrow like any other.
+ */
+export async function approveDraft(id: string): Promise<void> {
+  await db.cards.update(id, { draft: false, draftReason: undefined })
+  notifyDataChanged()
+}
+
 export async function deleteCard(id: string): Promise<void> {
-  await db.transaction('rw', db.cards, db.reviews, async () => {
+  await db.transaction('rw', db.cards, db.reviews, db.errorLog, async () => {
     await db.reviews.where('cardId').equals(id).delete()
+    await db.errorLog.where('cardId').equals(id).delete()
     await db.cards.delete(id)
   })
   notifyDataChanged()
@@ -203,6 +298,8 @@ export async function createSubject(input: {
   name: string
   examDate?: string | null
   dailyNewLimit?: number | null
+  kind?: SubjectKind
+  ects?: number | null
 }): Promise<Subject> {
   const id = uuid()
   const subject: Subject = {
@@ -213,6 +310,8 @@ export async function createSubject(input: {
     createdAt: new Date().toISOString(),
     colorIndex: subjectColorIndex(id),
     dailyNewLimit: input.dailyNewLimit ?? null,
+    kind: input.kind ?? 'other',
+    ects: input.ects ?? null,
   }
   await db.subjects.add(subject)
   notifyDataChanged()
@@ -221,7 +320,19 @@ export async function createSubject(input: {
 
 export async function updateSubject(
   id: string,
-  patch: Partial<Pick<Subject, 'name' | 'examDate' | 'reminderTime' | 'colorIndex' | 'dailyNewLimit'>>,
+  patch: Partial<
+    Pick<
+      Subject,
+      | 'name'
+      | 'examDate'
+      | 'reminderTime'
+      | 'colorIndex'
+      | 'dailyNewLimit'
+      | 'kind'
+      | 'ects'
+      | 'intention'
+    >
+  >,
 ): Promise<void> {
   await db.subjects.update(id, patch)
   notifyDataChanged()
@@ -239,10 +350,11 @@ export async function exportSubjectJson(subjectId: string): Promise<string | nul
 
 /** Export the whole app (all tables, FSRS state included) as one JSON file. */
 export async function exportBackupJson(): Promise<string> {
-  const [subjects, cards, reviews, settings] = await Promise.all([
+  const [subjects, cards, reviews, errors, settings] = await Promise.all([
     db.subjects.toArray(),
     db.cards.toArray(),
     db.reviews.toArray(),
+    db.errorLog.toArray(),
     db.settings.get(SETTINGS_ID),
   ])
   return backupToJson({
@@ -250,27 +362,83 @@ export async function exportBackupJson(): Promise<string> {
     subjects,
     cards,
     reviews,
+    errorLog: errors,
     settings: settings ?? null,
   })
 }
 
 /** Replace ALL local data with a parsed backup (one transaction). */
 export async function restoreBackup(backup: Backup): Promise<void> {
-  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.settings, async () => {
-    await Promise.all([db.subjects.clear(), db.cards.clear(), db.reviews.clear(), db.settings.clear()])
+  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.settings, db.errorLog, async () => {
+    await Promise.all([
+      db.subjects.clear(),
+      db.cards.clear(),
+      db.reviews.clear(),
+      db.settings.clear(),
+      db.errorLog.clear(),
+    ])
     if (backup.subjects.length) await db.subjects.bulkAdd(backup.subjects)
     if (backup.cards.length) await db.cards.bulkAdd(backup.cards)
     if (backup.reviews.length) await db.reviews.bulkAdd(backup.reviews)
+    // Backups written before the error log existed simply have none.
+    if (backup.errorLog?.length) await db.errorLog.bulkAdd(backup.errorLog)
     if (backup.settings) await db.settings.put({ ...backup.settings, id: SETTINGS_ID })
   })
 }
 
+// ---- Error log (weak spots) ----
+
+export async function getErrors(): Promise<ErrorEntry[]> {
+  return db.errorLog.toArray()
+}
+
+/** The user's own explanation of a mistake — elaboration beats re-reading. */
+export async function setErrorNote(id: string, note: string): Promise<void> {
+  await db.errorLog.update(id, { note: note.trim() || undefined })
+  notifyDataChanged()
+}
+
+// ---- Source materials (local mirror of the server's blob store) ----
+// Sources deliberately do NOT call notifyDataChanged: they are not part of the
+// backup snapshot, so a source change must not mark the whole app dirty.
+
+export async function getSources(): Promise<SourceMeta[]> {
+  return db.sources.toArray()
+}
+
+export async function getSourcesBySubject(subjectId: string): Promise<SourceMeta[]> {
+  return db.sources.where('subjectId').equals(subjectId).toArray()
+}
+
+export async function getSource(id: string): Promise<SourceMeta | undefined> {
+  return db.sources.get(id)
+}
+
+/** Upsert one source's metadata as reported by the server. */
+export async function putSource(meta: SourceMeta): Promise<void> {
+  await db.sources.put(meta)
+}
+
+/** Replace the whole local mirror with the server's list (authoritative). */
+export async function replaceSources(list: SourceMeta[]): Promise<void> {
+  await db.transaction('rw', db.sources, async () => {
+    await db.sources.clear()
+    if (list.length) await db.sources.bulkAdd(list)
+  })
+}
+
+export async function deleteSourceMeta(id: string): Promise<void> {
+  await db.sources.delete(id)
+}
+
 /** Delete a subject and all of its cards + reviews. */
 export async function deleteSubject(subjectId: string): Promise<void> {
-  await db.transaction('rw', db.subjects, db.cards, db.reviews, async () => {
+  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.sources, db.errorLog, async () => {
     const cardIds = await db.cards.where('subjectId').equals(subjectId).primaryKeys()
+    await db.errorLog.where('subjectId').equals(subjectId).delete()
     await db.reviews.where('cardId').anyOf(cardIds as string[]).delete()
     await db.cards.where('subjectId').equals(subjectId).delete()
+    await db.sources.where('subjectId').equals(subjectId).delete()
     await db.subjects.delete(subjectId)
   })
   notifyDataChanged()
@@ -278,12 +446,15 @@ export async function deleteSubject(subjectId: string): Promise<void> {
 
 /** Wipe everything (used by the reset action). */
 export async function resetAll(): Promise<void> {
-  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.settings, async () => {
+  // Six tables: Dexie's positional overload stops at five, so pass an array.
+  await db.transaction('rw', [db.subjects, db.cards, db.reviews, db.settings, db.sources, db.errorLog], async () => {
     await Promise.all([
       db.subjects.clear(),
       db.cards.clear(),
       db.reviews.clear(),
       db.settings.clear(),
+      db.sources.clear(),
+      db.errorLog.clear(),
     ])
   })
   notifyDataChanged()
@@ -299,6 +470,8 @@ export const DEFAULT_SETTINGS: Settings = {
   breakNudgeMinutes: BREAK_NUDGE_MINUTES,
   cardFontScale: 1,
   cardSans: false,
+  askConfidence: true,
+  dailyMinutes: DEFAULT_DAILY_MINUTES,
 }
 
 export async function getSettings(): Promise<Settings> {

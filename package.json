@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:server": "VITE_SERVER=1 vite",
     "build": "tsc -b && vite build",
+    "build:pipeline": "rolldown src/pipeline/index.ts --format esm -o server/gen/pipeline.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "deploy": "sh scripts/deploy.sh",

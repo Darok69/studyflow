@@ -2,7 +2,16 @@ import { useEffect, useRef, useState } from 'react'
 import type { Settings as AppSettings } from '../db/db'
 import { exportBackupJson, getSettings, resetAll, restoreBackup, saveSettings } from '../db/repo'
 import { parseBackup } from '../import/backup'
-import { getConfig, logout, sendTestPush, SERVER_MODE, type Account } from '../lib/api'
+import {
+  aiStatus,
+  getConfig,
+  logout,
+  sendTestPush,
+  setAiBudget,
+  SERVER_MODE,
+  type Account,
+  type AiStatus,
+} from '../lib/api'
 import { pushSync, syncMeta } from '../lib/sync'
 import { disableReminder, enableReminder, pushSupported, reminderPrefs } from '../lib/push'
 import { AdminUsers } from '../components/AdminUsers'
@@ -72,10 +81,16 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
   const [reminder, setReminder] = useState(() => reminderPrefs())
   const [reminderError, setReminderError] = useState<string | null>(null)
   const [testState, setTestState] = useState<'idle' | 'sending' | 'sent' | 'failed'>('idle')
+  // The generation budget lives on the server — it is the side that spends.
+  const [ai, setAi] = useState<AiStatus | null>(null)
 
   useEffect(() => {
     void getSettings().then(setS)
-    if (SERVER_MODE && pushSupported()) {
+    if (!SERVER_MODE) return
+    void aiStatus()
+      .then(setAi)
+      .catch(() => setAi(null))
+    if (pushSupported()) {
       void getConfig()
         .then((c) => setPushAvailable(c.pushEnabled))
         .catch(() => setPushAvailable(false))
@@ -281,6 +296,13 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
         onChange={(v) => update({ typedAnswers: v })}
       />
 
+      <ToggleRow
+        name={t('confidenceName')}
+        desc={t('confidenceDesc')}
+        checked={s.askConfidence}
+        onChange={(v) => update({ askConfidence: v })}
+      />
+
       <h3 className="section-title">{t('sectionPace')}</h3>
 
       <ToggleRow
@@ -319,6 +341,35 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
           }
         />
       </div>
+
+      {SERVER_MODE && ai && (
+        <>
+          <h3 className="section-title">{t('sectionAi')}</h3>
+          <section className="setting-row">
+            <div className="setting-text">
+              <div className="setting-name">{t('aiBudgetName')}</div>
+              <p className="muted setting-desc">{t('aiBudgetDesc')}</p>
+              <p className="muted setting-desc">
+                {t('sourceSpent', `$${ai.spentUsd.toFixed(2)}`, `$${ai.budgetUsd.toFixed(2)}`)}
+                {!ai.enabled && ` · ${t('sourceModelUnavailable')}`}
+              </p>
+            </div>
+            <input
+              className="cap-input"
+              type="number"
+              min={0}
+              max={200}
+              step={5}
+              value={ai.budgetUsd}
+              onChange={(e) => {
+                const budgetUsd = Math.min(200, Math.max(0, Number(e.target.value) || 0))
+                setAi({ ...ai, budgetUsd })
+                void setAiBudget(budgetUsd).catch(() => {})
+              }}
+            />
+          </section>
+        </>
+      )}
 
       <h3 className="section-title">{t('sectionAppearance')}</h3>
 

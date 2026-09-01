@@ -1291,6 +1291,322 @@ h3 {
   border-style: dashed;
 }
 
+/* A card that failed quality control — visible, but not alarming. */
+.row-chip-draft {
+  border-color: color-mix(in srgb, var(--mid) 55%, transparent);
+  color: var(--ink);
+  background: color-mix(in srgb, var(--mid) 14%, var(--desk));
+}
+
+/* ---------- Image occlusion (blind maps) ---------- */
+.occlusion {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 0;
+}
+
+.occlusion-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Masks are positioned in per cent, so they hold at any size — the whole point
+   of storing relative coordinates. */
+.occlusion-mask {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: var(--panel);
+  border: 2px solid var(--accent);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.occlusion-target {
+  border-color: var(--mid);
+}
+
+.occlusion-revealed {
+  background: color-mix(in srgb, var(--far) 22%, var(--panel));
+  border-color: var(--far);
+  font-size: 12.5px;
+}
+
+.occlusion-surface {
+  touch-action: none; /* the finger draws a mask, it does not scroll the page */
+  cursor: crosshair;
+  user-select: none;
+}
+
+.occlusion-editable {
+  opacity: 0.85;
+}
+
+.occlusion-preview {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  border-style: dashed;
+}
+
+.occlusion-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.occlusion-hint {
+  font-size: 13px;
+  margin: 0;
+}
+
+.occlusion-row {
+  gap: 8px;
+}
+
+.occlusion-row .form-input {
+  flex: 1;
+  min-width: 0;
+}
+
+.occlusion-index {
+  width: 22px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+/* ---------- Plan, day note, boundaries ---------- */
+.plan-verdict {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.plan-verdict-tight {
+  background: color-mix(in srgb, var(--mid) 12%, var(--panel));
+  border-color: color-mix(in srgb, var(--mid) 36%, transparent);
+}
+
+.plan-cut {
+  font-weight: 600;
+}
+
+.plan-cuts {
+  margin: 2px 0 0;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.plan-bar {
+  margin: 4px 0 12px;
+}
+
+.plan-row .card-row-main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.plan-intention {
+  width: 100%;
+  font-size: 14px;
+}
+
+.plan-note {
+  font-size: 13px;
+}
+
+.day-note,
+.fresh-start,
+.overdoing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.overdoing-body {
+  margin: 4px 0 0;
+  font-size: 13.5px;
+}
+
+/* ---------- Calibration + worked examples ---------- */
+.confidence-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.confidence-label {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* Three equal targets, thumb-sized, side by side even on the narrowest phone. */
+.confidence-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.confidence-btn {
+  flex: 1;
+  min-height: 52px;
+  padding: 8px 4px;
+}
+
+.confidence-picked {
+  border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+  color: var(--ink);
+}
+
+.produce-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.produce-hint {
+  margin: 0;
+  font-size: 13px;
+}
+
+.produce-input {
+  min-height: 76px;
+  resize: vertical;
+}
+
+.step-btn {
+  align-self: center;
+}
+
+.hyper-hint {
+  margin-top: 4px;
+}
+
+.study-left {
+  margin-left: 8px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* Steps of a worked example, revealed one at a time. */
+.card-steps {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-step {
+  font-size: calc(17px * var(--card-scale, 1));
+  line-height: 1.5;
+}
+
+.weak-list {
+  margin-bottom: 4px;
+}
+
+.weak-row {
+  justify-content: space-between;
+}
+
+.calib-box p {
+  margin: 0 0 6px;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
+.calib-warn {
+  color: color-mix(in srgb, var(--mid) 75%, var(--ink));
+}
+
+/* The free/paid switch sits above the list — it decides what the buttons do. */
+.model-row {
+  align-items: center;
+}
+
+/* ---------- Sources (material → outline → cards) ---------- */
+/* The file picker is a styled label; the input itself stays in the accessibility
+   tree (focusable, announced) but out of sight. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.btn-disabled {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.source-row {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.source-row .card-row-main {
+  flex: 1 1 220px;
+  min-width: 0;
+  text-align: left;
+}
+
+/* Primary actions stay within thumb reach: full width on a phone, inline on a
+   desktop where the row has room. */
+.source-actions {
+  flex: 1 1 100%;
+  justify-content: flex-end;
+}
+
+.outline-panel h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.outline-topic {
+  align-items: center;
+  gap: 12px;
+}
+
+.outline-topic input[type='checkbox'] {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  accent-color: var(--accent);
+}
+
+.outline-topic .card-row-main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+@media (min-width: 620px) {
+  .source-actions {
+    flex: 0 0 auto;
+  }
+}
+
 /* ---------- Heatmap ---------- */
 .heatmap {
   display: flex;

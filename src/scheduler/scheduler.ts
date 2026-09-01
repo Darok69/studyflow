@@ -13,9 +13,13 @@ export interface SchedSubject {
 export interface SchedCard {
   id: string
   subjectId: string
+  /** Topic from the approved outline — drives interleaving inside a subject. */
+  topic?: string
   state: FsrsStateName
   due: string // ISO
   suspended?: boolean
+  /** Failed quality control — waits for a human, never for the queue. */
+  draft?: boolean
   buriedUntil?: string | null // YYYY-MM-DD
 }
 
@@ -24,7 +28,7 @@ export interface SchedCard {
  * (Day keys are ISO dates, so string comparison is chronological.)
  */
 export function isSchedulable(card: SchedCard, now: Date): boolean {
-  if (card.suspended) return false
+  if (card.suspended || card.draft) return false
   if (card.buriedUntil && card.buriedUntil >= dayKey(now)) return false
   return true
 }
@@ -88,6 +92,17 @@ export function introducedTodayBySubject(
 export const DEFAULT_HORIZON_DAYS = 14
 
 /**
+ * Days before the exam when new cards stop. Cramming fresh material the night
+ * before costs sleep and buys nothing: the last day is for reviewing what is
+ * already half-known (BRIEF §5, healthy boundaries).
+ */
+export const NO_NEW_CARDS_DAYS = 1
+
+export function isExamImminent(daysUntilExam: number | null): boolean {
+  return daysUntilExam !== null && daysUntilExam >= 0 && daysUntilExam <= NO_NEW_CARDS_DAYS
+}
+
+/**
  * Per-subject daily new-card quota = ceil(remaining new / days until exam).
  * An exam today/in the past (days <= 0) collapses the horizon to 1 → cram all
  * remaining new cards today. No exam → pace over a default horizon.
@@ -96,6 +111,43 @@ export function newCardQuota(newRemaining: number, daysUntilExam: number | null)
   if (newRemaining <= 0) return 0
   const horizon = daysUntilExam === null ? DEFAULT_HORIZON_DAYS : Math.max(1, daysUntilExam)
   return Math.ceil(newRemaining / horizon)
+}
+
+/**
+ * Spread cards so the same topic does not run back to back (BRIEF §5.3).
+ * Round-robin over topic buckets, relative order preserved inside each bucket:
+ * blocked practice feels easier and teaches less, interleaved practice feels
+ * worse and sticks. Cards with no topic form one bucket of their own.
+ */
+export function interleaveByTopic(cards: SchedCard[]): SchedCard[] {
+  if (cards.length < 3) return [...cards]
+
+  const buckets = new Map<string, SchedCard[]>()
+  for (const c of cards) {
+    const key = c.topic ?? ''
+    const list = buckets.get(key)
+    if (list) list.push(c)
+    else buckets.set(key, [c])
+  }
+  if (buckets.size < 2) return [...cards]
+
+  // Largest bucket first in every round, so one dominant topic cannot bunch up
+  // at the end once the smaller ones run out.
+  const lanes = [...buckets.values()].sort((a, b) => b.length - a.length)
+  const out: SchedCard[] = []
+  const cursors = new Array(lanes.length).fill(0)
+  let remaining = cards.length
+  while (remaining > 0) {
+    for (let i = 0; i < lanes.length; i++) {
+      const at = cursors[i]
+      if (at < lanes[i].length) {
+        out.push(lanes[i][at])
+        cursors[i] = at + 1
+        remaining--
+      }
+    }
+  }
+  return out
 }
 
 function isDueReview(card: SchedCard, now: Date): boolean {
@@ -151,9 +203,9 @@ export function buildSession(
       : Infinity
 
   for (const s of ordered) {
-    // Suspended cards leave the subject entirely; buried ones only sit out the
-    // queue for today but still count toward the subject's totals.
-    const list = (bySubject.get(s.id) ?? []).filter((c) => !c.suspended)
+    // Suspended cards and drafts leave the subject entirely; buried ones only
+    // sit out the queue for today but still count toward the subject's totals.
+    const list = (bySubject.get(s.id) ?? []).filter((c) => !c.suspended && !c.draft)
     const active = list.filter((c) => isSchedulable(c, now))
     const due = active.filter((c) => isDueReview(c, now)).sort(byDueAsc)
     const news = active.filter((c) => c.state === 'new')
@@ -166,11 +218,18 @@ export function buildSession(
       s.dailyNewLimit != null
         ? Math.max(0, Math.floor(s.dailyNewLimit))
         : newCardQuota(news.length + alreadyToday, dExam)
-    const quota = Math.min(Math.max(0, wanted - alreadyToday), news.length, capRemaining)
+    // The day before the exam: reviews only.
+    const quota = isExamImminent(dExam)
+      ? 0
+      : Math.min(Math.max(0, wanted - alreadyToday), news.length, capRemaining)
     capRemaining -= quota
 
-    // Within a subject: clear the backlog (due reviews) first, then new cards.
-    const lane = [...due.map((c) => c.id), ...news.slice(0, quota).map((c) => c.id)]
+    // Within a subject: clear the backlog (due reviews) first, then new cards —
+    // and inside each of those, mix the topics up.
+    const lane = [
+      ...interleaveByTopic(due).map((c) => c.id),
+      ...interleaveByTopic(news.slice(0, quota)).map((c) => c.id),
+    ]
 
     perSubject.push({
       subjectId: s.id,
@@ -222,7 +281,7 @@ export function subjectStats(
   now: Date = new Date(),
   introducedToday = 0,
 ): SubjectStats {
-  const list = cards.filter((c) => c.subjectId === subject.id && !c.suspended)
+  const list = cards.filter((c) => c.subjectId === subject.id && !c.suspended && !c.draft)
   const active = list.filter((c) => isSchedulable(c, now))
   const news = active.filter((c) => c.state === 'new')
   const dExam = daysUntil(subject.examDate, now)
@@ -234,7 +293,7 @@ export function subjectStats(
     total: list.length,
     studied: list.filter((c) => c.state !== 'new').length,
     dueToday: active.filter((c) => isDueReview(c, now)).length,
-    newToday: Math.min(Math.max(0, wanted - introducedToday), news.length),
+    newToday: isExamImminent(dExam) ? 0 : Math.min(Math.max(0, wanted - introducedToday), news.length),
     daysUntilExam: dExam,
   }
 }

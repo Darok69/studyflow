@@ -7,6 +7,8 @@ import { deckToJson } from '../src/import/exportDeck'
 import { backupToJson, parseBackup } from '../src/import/backup'
 import {
   buildSession,
+  interleaveByTopic,
+  isExamImminent,
   introducedTodayBySubject,
   isSchedulable,
   newCardQuota,
@@ -16,9 +18,16 @@ import {
 import { rate, newFsrsFields, previewIntervals, retrievabilityAt } from '../src/scheduler/fsrs'
 import { daysUntil, daysUntilDate, endOfDay } from '../src/lib/date'
 import { subjectColor, subjectColorIndex, subjectPalette, SUBJECT_COLOR_COUNT } from '../src/lib/theme'
-import { assessLoad, estimateMinutes, isLeech, LEECH_LAPSES } from '../src/lib/wellbeing'
+import { assessLoad, estimateMinutes, isLeech, isOverdoing, LEECH_LAPSES } from '../src/lib/wellbeing'
 import {
+  accuracy,
+  calibration,
+  calibrationVerdict,
   currentStreak,
+  streakWithBank,
+  weakTopics,
+  CALIBRATION_MIN_SAMPLES,
+  FREE_DAYS_PER_MONTH,
   heatmapWeeks,
   reviewForecast,
   reviewsInLastDays,
@@ -26,9 +35,61 @@ import {
   reviewsToday,
 } from '../src/stats/stats'
 import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/lib/sharelink'
+import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
-import { answerSimilarity, checkAnswer, normalizeAnswer, typedAnswerTarget } from '../src/lib/answer'
+import {
+  answerSimilarity,
+  checkAnswer,
+  checkQuantityAnswer,
+  normalizeAnswer,
+  parseQuantities,
+  typedAnswerTarget,
+} from '../src/lib/answer'
+import { answerSteps, isStepped, preRevealedSteps } from '../src/lib/steps'
+import { capacityPlan } from '../src/lib/plan'
+import { freshStart } from '../src/lib/freshStart'
+import { noteTone } from '../src/lib/dayNote'
+import {
+  isTooSmall,
+  maskAt,
+  maskRoles,
+  occlusionCards,
+  rectFromPoints,
+  toRelative,
+} from '../src/lib/occlusion'
 import { readinessBand, subjectReadiness } from '../src/lib/readiness'
+import { readdirSync, readFileSync, statSync } from 'node:fs'
+import { join } from 'node:path'
+import {
+  blockDigest,
+  blocksLength,
+  digestBlocks,
+  isHeading,
+  DIGEST_CHARS,
+  MAX_BLOCK_CHARS,
+  segmentPages,
+} from '../src/pipeline/segment'
+import { dedupeCards, normalizeQuestion, similarity } from '../src/pipeline/dedupe'
+import { checkCard, checkEvidence, countSentences, markDrafts } from '../src/pipeline/qc'
+import {
+  fallbackCards,
+  fallbackCardsFromBlock,
+  fallbackOutline,
+  FALLBACK_TAG,
+  MAX_CARDS_PER_BLOCK,
+  significantTerm,
+} from '../src/pipeline/fallback'
+import { parseGeneratedCards, parseOutline } from '../src/pipeline/schema'
+import {
+  addSpend,
+  costUsd,
+  estimateCostUsd,
+  monthKey,
+  reviewCostUsd,
+  withinBudget,
+} from '../src/pipeline/budget'
+import { SYSTEM_PROMPT, cardsPrompt, disciplineOf, kindMenu } from '../src/pipeline/prompts'
+import type { Block, GeneratedCard } from '../src/pipeline/types'
 
 let pass = 0
 let fail = 0
@@ -246,7 +307,10 @@ ok(
 console.log('— stats: streak + last 7 days —')
 const T = (day: string, h = 10) => `2026-06-${day}T${String(h).padStart(2, '0')}:00:00`
 ok(currentStreak([T('27'), T('26'), T('25')], now) === 3, 'three consecutive days = streak 3')
-ok(currentStreak([T('27'), T('25')], now) === 1, 'gap yesterday breaks streak back to today only')
+// A single missed day no longer wipes the streak — it spends a free day
+// instead (BRIEF §5.15). Two gaps in a row still end it.
+ok(currentStreak([T('27'), T('25')], now) === 2, 'one missed day is absorbed by the free-day bank')
+ok(currentStreak([T('27'), T('24')], now) === 1, 'two missed days in a row still end the streak')
 ok(currentStreak([T('26'), T('25')], now) === 2, 'grace: no review today yet still counts from yesterday')
 ok(currentStreak([T('24'), T('23')], now) === 0, 'no review today or yesterday = streak 0')
 ok(currentStreak([], now) === 0, 'no reviews = streak 0')
@@ -445,6 +509,756 @@ console.log('— deck share link —')
   ok((await decodeDeckPayload('9.abc')) === null, 'unknown version returns null')
   ok(payloadFromHash('#deck=1.abc') === '1.abc', 'payloadFromHash extracts the payload')
   ok(payloadFromHash('#other') === null, 'foreign hash is ignored')
+}
+
+
+// ============================================================
+// Pipeline — podklad → osnova → karty (BRIEF §4)
+// ============================================================
+console.log('— segmentation —')
+{
+  ok(isHeading('2.1 Besitz und Eigentum'), 'numbered line is a heading')
+  ok(isHeading('§ 823 BGB'), 'paragraph sign is a heading')
+  ok(isHeading('ŘÍMSKÉ PRÁVO'), 'all caps is a heading')
+  ok(!isHeading('Besitz ist die tatsächliche Herrschaft über eine Sache.'), 'a sentence is not a heading')
+  ok(!isHeading('12'), 'a bare page number is not a heading')
+
+  const blocks = segmentPages([
+    {
+      page: 3,
+      text: '2.1 Besitz\n\nBesitz ist die tatsächliche Herrschaft über eine Sache, unabhängig vom Recht daran.\n\nDominium: římské označení pro vlastnické právo k věci, které zahrnuje ius utendi et fruendi.',
+    },
+  ])
+  ok(blocks.length === 2, `two paragraphs → two blocks (got ${blocks.length})`)
+  ok(blocks.every((b) => b.heading === '2.1 Besitz'), 'heading carries onto the blocks below it')
+  ok(blocks.every((b) => b.page === 3), 'blocks keep their page')
+  ok(blocks[0].id === 'p3-b1' && blocks[1].id === 'p3-b2', 'block ids are stable within a page')
+  ok(segmentPages(segmentPages([{ page: 3, text: 'x' }]).map((b) => ({ page: b.page, text: b.text })))[0]?.id === 'p3-b1', 'segmentation is deterministic')
+
+  const long = 'Tato věta má rozumnou délku a opakuje se pořád dokola. '.repeat(80)
+  const split = segmentPages([{ page: 1, text: long }])
+  ok(split.length > 1, 'an oversized paragraph is split')
+  ok(split.every((b) => b.text.length <= MAX_BLOCK_CHARS + 200), 'no block runs far past the cap')
+  ok(split.every((b) => /[.!?]$/.test(b.text.trim())), 'splitting happens at sentence ends, never mid-sentence')
+  ok(blocksLength(blocks) > 0, 'blocksLength counts characters')
+  ok(segmentPages([]).length === 0, 'no pages → no blocks')
+}
+
+console.log('— dedupe —')
+{
+  ok(normalizeQuestion('Co je  DOMINIUM?') === normalizeQuestion('co je dominium'), 'normalisation ignores case and punctuation')
+  ok(normalizeQuestion('Co je vlastnické právo?') === normalizeQuestion('Co je vlastnicke pravo?'), 'diacritics do not make a new question')
+  ok(similarity('Co je dominium?', 'Co je dominium') === 1, 'identical questions score 1')
+  ok(similarity('Co je dominium?', 'Jaké byly fáze procesu?') < 0.4, 'different questions score low')
+
+  const cards: GeneratedCard[] = [
+    { type: 'basic', kind: 'definice', level: 1, front: 'Co je dominium?', back: 'Vlastnické právo.' },
+    { type: 'basic', kind: 'definice', level: 1, front: 'Co je DOMINIUM?', back: 'Vlastnictví věci.' },
+    { type: 'basic', kind: 'definice', level: 1, front: 'Co je possessio?', back: 'Držba.' },
+  ]
+  const { kept, dropped } = dedupeCards(cards)
+  ok(kept.length === 2 && dropped.length === 1, `near-duplicate dropped (kept ${kept.length})`)
+  ok(dedupeCards(cards, ['Co je possessio?']).kept.length === 1, 'questions already in the deck are dropped too')
+  ok(dedupeCards([{ type: 'basic', kind: 'basic', level: 1, front: '  ', back: 'x' }]).kept.length === 0, 'an empty question is never kept')
+}
+
+console.log('— quality control —')
+{
+  ok(countSentences('Jedna věta.') === 1, 'one sentence')
+  ok(countSentences('První. Druhá! Třetí?') === 3, 'three sentences')
+  ok(countSentences('Podle § 823 BGB, tj. z. B. u věcných práv, platí odpovědnost.') === 1, 'abbreviations do not end a sentence')
+
+  const short: GeneratedCard = { type: 'basic', kind: 'definice', level: 1, front: 'Co je dominium?', back: 'Vlastnické právo k věci.' }
+  ok(checkCard(short).length === 0, 'a good card has no issues')
+
+  const long: GeneratedCard = { ...short, back: 'První věta. Druhá věta. Třetí věta. Čtvrtá věta.' }
+  ok(checkCard(long)[0] === 'answer-too-long', 'four sentences fail the chunking rule')
+
+  const echo: GeneratedCard = { type: 'basic', kind: 'definice', level: 1, front: 'Vlastnické právo k věci je co?', back: 'Vlastnické právo k věci' }
+  ok(checkCard(echo).includes('answer-in-question'), 'an answer standing in the question is caught')
+
+  ok(checkCard({ type: 'cloze', kind: 'cloze', level: 1, text: 'Bez vynechání.' })[0] === 'cloze-no-blank', 'a cloze without a blank fails')
+  ok(checkCard({ type: 'basic', kind: 'mapa', level: 1, front: 'Kde leží Dunaj?', back: 'Ve střední Evropě.' })[0] === 'needs-image', 'a map card without a picture fails')
+  ok(checkCard({ type: 'basic', kind: 'basic', level: 1, front: '', back: '' })[0] === 'empty', 'an empty card fails first')
+
+  const marked = markDrafts([short, long])
+  ok(marked[0].draft === undefined, 'a passing card is left untouched')
+  ok(marked[1].draft === true && marked[1].draftReason === 'answer-too-long', 'a failing card becomes a draft with the reason')
+}
+
+console.log('— rule-based fallback (no model) —')
+{
+  const block: Block = {
+    id: 'p1-b1',
+    heading: 'Vlastnictví',
+    page: 1,
+    text: 'Besitz ist die tatsächliche Herrschaft über eine Sache, unabhängig vom Recht daran. Das Eigentum wurde im Jahr 1811 im ABGB geregelt. Rakousko má rozlohu 83 879 km² a hraničí s osmi státy.',
+  }
+  const cards = fallbackCardsFromBlock(block)
+  ok(cards.length >= 3, `fallback made cards without a model (got ${cards.length})`)
+  ok(cards.every((c) => c.tags?.includes(FALLBACK_TAG)), 'every fallback card is tagged koncept')
+  ok(cards.every((c) => c.sourceRef?.page === 1 && c.sourceRef?.block === 'p1-b1'), 'fallback cards point back at the source')
+  ok(cards.every((c) => c.topic === 'Vlastnictví'), 'fallback cards inherit the heading as topic')
+
+  const def = cards.find((c) => c.kind === 'definice')
+  ok(def?.front === 'Was ist Besitz?', `German definition keeps its language (got ${def?.front})`)
+  ok(!def?.back?.includes('Besitz ist'), 'the definition answer is the definiens only')
+
+  const year = cards.find((c) => c.text?.includes('{{1811}}'))
+  ok(!!year && year.type === 'cloze', 'a year becomes a cloze')
+  const figure = cards.find((c) => c.text?.includes('{{83 879 km²}}'))
+  ok(!!figure, 'a figure becomes a cloze')
+
+  const czech = fallbackCardsFromBlock({ id: 'p2-b1', heading: '', page: 2, text: 'Dominium je vlastnické právo k věci, které zahrnuje užívání, požívání i zcizení věci.' })
+  ok(czech[0]?.front === 'Co je Dominium?', `Czech definition uses the Czech stem (got ${czech[0]?.front})`)
+
+  const plain = fallbackCardsFromBlock({ id: 'p3-b1', heading: '', page: 3, text: 'Zkoumání této problematiky vyžaduje trpělivost a soustředění během celého semestru.' })
+  ok(plain.length === 1 && plain[0].text?.includes('{{'), 'a plain paragraph still yields one cloze')
+  ok(fallbackCardsFromBlock({ id: 'p4-b1', heading: '', page: 4, text: '' }).length === 0, 'an empty block yields nothing')
+  ok(significantTerm('Krátká věta o věcech') !== null, 'significantTerm finds a term')
+
+  const outline = fallbackOutline([block, { ...block, id: 'p1-b2' }, { id: 'p2-b1', heading: 'Držba', page: 2, text: 'Text.' }])
+  ok(outline.topics.length === 2, 'fallback outline groups blocks by heading')
+  ok(outline.topics[0].blockIds.length === 2, 'a topic collects all its blocks')
+  ok(outline.topics.every((t) => t.estimatedMinutes >= 5), 'every topic carries a time estimate')
+}
+
+console.log('— model output validation —')
+{
+  const known = ['p1-b1', 'p1-b2']
+  const good = parseOutline({ topics: [{ title: 'Vlastnictví', blockIds: ['p1-b1'], difficulty: 3, estimatedMinutes: 20, cardEstimate: 12 }] }, known)
+  ok(good.errors.length === 0 && good.value.topics.length === 1, 'a well-formed outline passes')
+  ok(good.value.topics[0].id === 't1', 'topics get their own ids')
+
+  const bogus = parseOutline({ topics: [{ title: 'X', blockIds: ['nope'], difficulty: 9, estimatedMinutes: 0, cardEstimate: 0 }] }, known)
+  ok(bogus.value.topics.length === 0 && bogus.errors.length > 0, 'a topic referencing unknown blocks is dropped')
+  ok(parseOutline('not json at all', known).errors.length > 0, 'a foreign shape never throws')
+  ok(parseOutline({ topics: [] }, known).errors.length > 0, 'an empty outline is an error')
+
+  const ctx = { topic: 'Vlastnictví', pages: { 'p1-b1': 7 } }
+  const parsed = parseGeneratedCards(
+    {
+      cards: [
+        { type: 'basic', kind: 'definice', level: 2, front: 'Co je dominium?', back: 'Vlastnické právo.', blockId: 'p1-b1' },
+        { type: 'cloze', kind: 'cloze', level: 1, text: 'Vzniklo roku {{1811}}.', blockId: 'p1-b1' },
+        { type: 'basic', kind: 'vymyslene', level: 7, front: 'Q?', back: 'A', blockId: 'p1-b1' },
+        { type: 'basic', kind: 'definice', level: 1, front: '', back: '', blockId: 'p1-b1' },
+      ],
+    },
+    ctx,
+  )
+  ok(parsed.value.length === 3, `unusable cards are dropped, the rest kept (got ${parsed.value.length})`)
+  ok(parsed.value[0].sourceRef?.page === 7, 'blockId is resolved to a page')
+  ok(parsed.value[0].topic === 'Vlastnictví', 'cards inherit the approved topic')
+  ok(parsed.value[2].kind === 'basic' && parsed.value[2].level === 1, 'an unknown kind/level falls back instead of failing')
+  ok(parseGeneratedCards({}, ctx).errors.length > 0, 'a missing cards array is an error')
+  ok(parseGeneratedCards({ cards: [{ type: 'basic', kind: 'definice', level: 1, front: 'Q?', back: 'A', blockId: 'p1-b1' }] }, { ...ctx, allowedKinds: ['proces'] }).value[0].kind === 'basic', 'a kind outside the discipline is not accepted')
+}
+
+console.log('— budget —')
+{
+  ok(Math.abs(costUsd('claude-sonnet-5', { input: 1_000_000, output: 0 }) - 2) < 1e-9, 'sonnet input is $2 per 1M tokens')
+  ok(Math.abs(costUsd('claude-opus-5', { output: 1_000_000 }) - 25) < 1e-9, 'opus output is $25 per 1M tokens')
+  ok(costUsd('claude-sonnet-5', { input: 1_000_000 }, true) === 1, 'batch halves the price')
+  ok(costUsd('claude-sonnet-5', { input: 1_000_000, cacheRead: 1_000_000 }) > 2, 'cached reads still cost something')
+
+  const big = estimateCostUsd({ chars: 300 * 1800, cardEstimate: 800 })
+  ok(big > 0.5 && big < 20, `a 300-page script estimates in single dollars (got ${big})`)
+  ok(estimateCostUsd({ chars: 300 * 1800, cardEstimate: 800, batch: true }) < big, 'the batch estimate is lower')
+
+  const jan = new Date('2026-01-15T12:00:00')
+  const feb = new Date('2026-02-01T12:00:00')
+  ok(monthKey(jan) === '2026-01', 'month key is local YYYY-MM')
+  const ledger = addSpend(addSpend(null, 3, jan), 4, jan)
+  ok(ledger.spentUsd === 7, 'spend accumulates within a month')
+  ok(withinBudget(ledger, 15, 5, jan), 'a run that fits under the ceiling is allowed')
+  ok(!withinBudget(ledger, 15, 9, jan), 'a run that would cross the ceiling is refused')
+  ok(withinBudget(ledger, 15, 9, feb), 'a new month starts from zero')
+  ok(addSpend(ledger, 1, feb).spentUsd === 1, 'the ledger resets with the month')
+  ok(!withinBudget(ledger, 0, 0.01, jan), 'a zero budget refuses everything')
+}
+
+console.log('— prompts —')
+{
+  ok(SYSTEM_PROMPT === SYSTEM_PROMPT.trim(), 'the cached prefix has no stray whitespace')
+  ok(!/\d{4}-\d{2}-\d{2}|\d{2}:\d{2}/.test(SYSTEM_PROMPT), 'no timestamp in the cached prefix (it would kill the cache)')
+  ok(SYSTEM_PROMPT.includes('NIKDY nepřekládej'), 'the prompt forbids translating terms')
+  ok(disciplineOf('law') === 'law' && disciplineOf(undefined) === 'general', 'discipline falls back to general')
+  ok(kindMenu('law').includes('pripad') && !kindMenu('law').includes('klimadiagram'), 'the law menu offers law kinds only')
+  ok(kindMenu('geography').includes('proces'), 'the geography menu offers processes')
+  ok(kindMenu('law').includes('cloze'), 'shared kinds are offered in every discipline')
+
+  const block: Block = { id: 'p1-b1', heading: 'Vlastnictví', page: 1, text: 'Dominium je vlastnické právo.' }
+  const prompt = cardsPrompt({
+    subjectName: 'Římské právo',
+    discipline: 'law',
+    topic: { id: 't1', title: 'Vlastnictví', blockIds: ['p1-b1'], difficulty: 2, estimatedMinutes: 10, cardEstimate: 6 },
+    blocks: [block],
+  })
+  ok(prompt.includes('[p1-b1]') && prompt.includes('strana 1'), 'the prompt carries block ids and pages')
+  ok(prompt.includes('Dominium je vlastnické právo.'), 'the prompt carries the material itself')
+}
+
+
+console.log('— drafts stay out of the queue —')
+{
+  const dNow = new Date('2026-03-01T10:00:00')
+  const draft = { ...mk('d1', 's1', 'new', dNow.toISOString()), draft: true }
+  const ready = mk('c1', 's1', 'new', dNow.toISOString())
+  ok(!isSchedulable(draft, dNow), 'a draft is not schedulable')
+  ok(isSchedulable(ready, dNow), 'an accepted card is')
+
+  const plan = buildSession([{ id: 's1', examDate: null }], [draft, ready], dNow)
+  ok(plan.order.length === 1 && plan.order[0] === 'c1', 'only the accepted card enters today’s queue')
+  ok(plan.perSubject[0].total === 1, 'a draft does not inflate the deck size')
+
+  const stats = subjectStats({ id: 's1', examDate: null }, [draft, ready], dNow)
+  ok(stats.total === 1 && stats.newToday === 1, 'the home counts ignore drafts')
+}
+
+console.log('— generated cards round-trip through the import path —')
+{
+  const deck = JSON.stringify({
+    subject: 'Sachenrecht',
+    cards: [
+      {
+        type: 'basic',
+        kind: 'definice',
+        level: 2,
+        topic: 'Besitz',
+        front: 'Was ist Besitz?',
+        back: 'Die tatsächliche Herrschaft über eine Sache.',
+        tags: ['koncept'],
+        sourceRef: { page: 7, block: 'p7-b2' },
+      },
+      {
+        type: 'basic',
+        kind: 'definice',
+        level: 1,
+        front: 'Q?',
+        back: 'A',
+        draft: true,
+        draftReason: 'answer-too-long',
+      },
+    ],
+  })
+  const parsed = parseDeck(deck)
+  ok(parsed.errors.length === 0 && parsed.cards.length === 2, 'a generated deck parses')
+  ok(parsed.cards[0].kind === 'definice' && parsed.cards[0].level === 2, 'kind and level survive the import')
+  ok(parsed.cards[0].topic === 'Besitz', 'the approved topic survives')
+  ok(parsed.cards[0].sourceRef?.page === 7 && parsed.cards[0].sourceRef?.block === 'p7-b2', 'the card keeps its page reference')
+  ok(parsed.cards[1].draft === true && parsed.cards[1].draftReason === 'answer-too-long', 'a draft arrives as a draft, with its reason')
+  ok(parsed.cards[0].draft === undefined, 'a passing card is not marked draft')
+
+  // …and back out again, unchanged.
+  const exported = deckToJson(
+    { name: 'Sachenrecht', examDate: null, reminderTime: null },
+    [
+      {
+        id: 'x', subjectId: 's', type: 'basic', kind: 'definice', level: 2, topic: 'Besitz',
+        front: 'Was ist Besitz?', back: 'Die tatsächliche Herrschaft über eine Sache.', tags: ['koncept'],
+        sourceRef: { page: 7, block: 'p7-b2' }, due: '2026-03-01T00:00:00.000Z', stability: 0,
+        difficulty: 0, reps: 0, lapses: 0, state: 'new', lastReview: null,
+      },
+    ],
+  )
+  const back = parseDeck(exported)
+  ok(back.cards[0].sourceRef?.page === 7, 'export → import keeps the page reference')
+  ok(back.cards[0].level === 2 && back.cards[0].kind === 'definice', 'export → import keeps kind and level')
+
+  const plain = parseDeck(JSON.stringify({ subject: 'X', cards: [{ type: 'basic', front: 'Q?', back: 'A' }] }))
+  ok(plain.cards[0].kind === 'basic' && plain.cards[0].level === 1, 'a hand-written deck still imports without the new fields')
+}
+
+
+console.log('— the API key never reaches the browser —')
+{
+  // A static guard, not a promise in a document: nothing under src/ (everything
+  // that gets bundled into the PWA) may reach for the Anthropic SDK, and the
+  // shared pipeline core must stay free of the DOM so the server can run it.
+  function walk(dir: string): string[] {
+    return readdirSync(dir).flatMap((entry) => {
+      const full = join(dir, entry)
+      return statSync(full).isDirectory() ? walk(full) : full.endsWith('.ts') || full.endsWith('.tsx') ? [full] : []
+    })
+  }
+
+  const clientFiles = walk(join(process.cwd(), 'src'))
+  const withSdk = clientFiles.filter((f) => /@anthropic-ai\/sdk/.test(readFileSync(f, 'utf8')))
+  ok(clientFiles.length > 20, `walked the client sources (${clientFiles.length} files)`)
+  ok(withSdk.length === 0, `no client module imports the Anthropic SDK${withSdk.length ? `: ${withSdk.join(', ')}` : ''}`)
+
+  const pipelineFiles = walk(join(process.cwd(), 'src', 'pipeline'))
+  const impure = pipelineFiles.filter((f) => {
+    const code = readFileSync(f, 'utf8')
+    return /\b(document|localStorage|navigator)\./.test(code) || /from '\.\.\/i18n/.test(code)
+  })
+  ok(impure.length === 0, `the pipeline core stays DOM- and i18n-free${impure.length ? `: ${impure.join(', ')}` : ''}`)
+}
+
+
+console.log('— interleaving by topic —')
+{
+  const c = (id: string, topic: string) => ({ ...mk(id, 's1', 'new', '2026-03-01T00:00:00'), topic })
+  const cards = [c('a1', 'A'), c('a2', 'A'), c('a3', 'A'), c('b1', 'B'), c('b2', 'B'), c('c1', 'C')]
+  const mixed = interleaveByTopic(cards)
+  ok(mixed.length === cards.length, 'no card is lost when mixing')
+  ok(new Set(mixed.map((x) => x.id)).size === cards.length, 'no card is duplicated')
+  const adjacent = mixed.filter((x, i) => i > 0 && mixed[i - 1].topic === x.topic).length
+  ok(adjacent <= 1, `topics do not bunch up (${adjacent} adjacent pair(s))`)
+  ok(mixed[0].topic === 'A' && mixed[1].topic !== 'A', 'the round-robin starts with the biggest topic')
+  const order = mixed.filter((x) => x.topic === 'A').map((x) => x.id)
+  ok(order.join() === 'a1,a2,a3', 'order inside a topic is preserved')
+  ok(interleaveByTopic([c('x', 'A')]).length === 1, 'a single card is returned as is')
+  ok(interleaveByTopic(cards.slice(0, 3)).map((x) => x.id).join() === 'a1,a2,a3', 'one topic only stays untouched')
+
+  const iNow = new Date('2026-03-01T10:00:00')
+  const plan = buildSession(
+    [{ id: 's1', examDate: null, dailyNewLimit: 4 }],
+    [c('a1', 'A'), c('a2', 'A'), c('b1', 'B'), c('b2', 'B')].map((x) => ({ ...x, due: iNow.toISOString() })),
+    iNow,
+    { newCardCap: 4 },
+  )
+  const topicOf = new Map([['a1', 'A'], ['a2', 'A'], ['b1', 'B'], ['b2', 'B']])
+  const runs = plan.order.filter((id, i) => i > 0 && topicOf.get(plan.order[i - 1]) === topicOf.get(id)).length
+  ok(plan.order.length === 4 && runs === 0, 'today’s queue alternates topics inside a subject')
+}
+
+console.log('— streak with a bank of free days —')
+{
+  const sNow = new Date('2026-03-10T20:00:00')
+  const day = (n: number) => new Date(2026, 2, 10 - n, 12).toISOString()
+
+  const perfect = streakWithBank([day(0), day(1), day(2), day(3)], sNow)
+  ok(perfect.days === 4 && perfect.used === 0, 'an unbroken week counts every day')
+  ok(perfect.left === FREE_DAYS_PER_MONTH, 'nothing is spent when nothing is missed')
+
+  // Missed a single day in the middle — the streak must survive it.
+  const oneGap = streakWithBank([day(0), day(1), day(3), day(4)], sNow)
+  ok(oneGap.days === 4 && oneGap.used === 1, `one missed day is absorbed (${oneGap.days} days)`)
+  ok(oneGap.left === FREE_DAYS_PER_MONTH - 1, 'the free day is visibly spent')
+
+  const twoGaps = streakWithBank([day(0), day(2), day(4), day(6)], sNow)
+  ok(twoGaps.used === 2 && twoGaps.days === 3, 'the bank covers two gaps, then stops')
+
+  ok(streakWithBank([], sNow).days === 0, 'no reviews, no streak')
+  ok(currentStreak([day(0), day(1)], sNow) === 2, 'currentStreak still returns a plain number')
+  // A day that has only begun is not a missed day.
+  ok(streakWithBank([day(1), day(2)], sNow).days === 2, 'today being empty does not break anything')
+}
+
+console.log('— numeric estimates (geography) —')
+{
+  ok(parseQuantities('Rakousko má 83 879 km²')[0] === 83879, 'a space-separated thousand parses')
+  ok(parseQuantities('asi 1,5 mil.')[0] === 1.5, 'a decimal comma parses')
+  ok(parseQuantities('bez čísla').length === 0, 'text without numbers gives nothing')
+
+  ok(checkQuantityAnswer('84 000', '83 879 km²').verdict === 'correct', 'a good estimate is correct')
+  ok(checkQuantityAnswer('80000', '83 879 km²').verdict === 'correct', 'so is one 5 % off')
+  ok(checkQuantityAnswer('120 000', '83 879 km²').verdict === 'close', '40 % off is close, not correct')
+  ok(checkQuantityAnswer('500', '83 879 km²').verdict === 'wrong', 'an order of magnitude off is wrong')
+
+  ok(checkQuantityAnswer('85', '80–90 %').verdict === 'correct', 'inside a range is correct')
+  ok(checkQuantityAnswer('80', '80–90 %').verdict === 'correct', 'the edge of a range counts')
+  ok(checkQuantityAnswer('95', '80–90 %').verdict === 'close', 'just outside a range is close')
+  ok(checkQuantityAnswer('150', '80–90 %').verdict === 'wrong', 'far outside a range is wrong')
+  ok(checkQuantityAnswer('nevím', 'asi 40 %').verdict === checkAnswer('nevím', 'asi 40 %').verdict, 'no number falls back to text')
+}
+
+console.log('— worked examples with fading —')
+{
+  ok(isStepped('pripad') && isStepped('schema') && !isStepped('definice'), 'only sequential kinds fade')
+  ok(isStepped('znaky'), 'a list of elements is recited one by one, so it fades too')
+
+  const solved = 'Norma: § 823 BGB\nZnaky: jednání, protiprávnost, zavinění\nSubsumpce: řidič porušil povinnost\nVýsledek: nárok na náhradu'
+  const steps = answerSteps(solved)
+  ok(steps.length === 4, `a solved case splits into its steps (${steps.length})`)
+  ok(steps[0].startsWith('Norma'), 'the first step is the norm')
+
+  ok(answerSteps('příčina → mechanismus → důsledek').length === 3, 'arrows split a causal chain')
+  ok(answerSteps('1) první 2) druhé 3) třetí').length === 3, 'numbering splits a scheme')
+  ok(answerSteps('Jedna souvislá odpověď.').length === 1, 'a plain answer is one step')
+  ok(answerSteps('').length === 0, 'an empty answer has no steps')
+
+  ok(preRevealedSteps('pripad', 0, 4) === 4, 'the first encounter is a full worked example')
+  ok(preRevealedSteps('pripad', 1, 4) === 3, 'then one step is withheld')
+  ok(preRevealedSteps('pripad', 3, 4) === 1, 'later only the opening step is given')
+  ok(preRevealedSteps('pripad', 9, 4) === 0, 'in the end nothing is handed over')
+  ok(preRevealedSteps('definice', 5, 3) === 3, 'a definition never fades')
+  ok(preRevealedSteps('pripad', 5, 1) === 1, 'a one-step answer never fades')
+}
+
+
+console.log('— calibration + weak spots —')
+{
+  const review = (confidence: 'know' | 'unsure' | 'no' | undefined, ok_: boolean) => ({
+    rating: ok_ ? 'good' : 'again',
+    confidence,
+  })
+  const many = (n: number, c: 'know' | 'unsure' | 'no', ok_: boolean) =>
+    Array.from({ length: n }, () => review(c, ok_))
+
+  const c = calibration([...many(8, 'know', true), ...many(2, 'know', false), ...many(5, 'unsure', true), review(undefined, true)])
+  ok(c.sure.total === 10 && c.sure.correct === 8, 'sure answers are counted with their outcome')
+  ok(c.samples === 15, 'reviews without a confidence answer are ignored')
+  ok(accuracy(c.sure) === 0.8, 'accuracy is a plain ratio')
+  ok(accuracy({ total: 0, correct: 0 }) === null, 'no data, no number')
+
+  ok(calibrationVerdict(c) === 'unknown', `under ${CALIBRATION_MIN_SAMPLES} answers nothing is claimed`)
+  const optimistic = calibration([...many(10, 'know', true), ...many(15, 'know', false)])
+  ok(calibrationVerdict(optimistic) === 'overconfident', 'being sure and wrong a lot reads as overconfident')
+  const honest = calibration([...many(24, 'know', true), ...many(1, 'know', false)])
+  ok(calibrationVerdict(honest) === 'honest', 'a good hit rate on "I know it" reads as honest')
+
+  const weak = weakTopics([
+    { topic: 'Besitz', kind: 'lapse' },
+    { topic: 'Besitz', kind: 'hypercorrection' },
+    { topic: 'Eigentum', kind: 'lapse' },
+    { kind: 'lapse' },
+  ])
+  ok(weak[0].topic === 'Besitz' && weak[0].count === 2 && weak[0].hyper === 1, 'the worst topic comes first')
+  ok(weak.some((w) => w.topic === null), 'mistakes without a topic still show up')
+  ok(weakTopics([], 5).length === 0, 'no mistakes, no list')
+  ok(weakTopics(Array.from({ length: 9 }, (_, i) => ({ topic: `T${i}`, kind: 'lapse' as const })), 3).length === 3, 'the list is capped')
+}
+
+
+console.log('— cost: the outline reads a digest, grounding is free —')
+{
+  const long: Block = {
+    id: 'p1-b1',
+    heading: 'Besitz',
+    page: 1,
+    text: 'Besitz ist die tatsächliche Herrschaft über eine Sache. '.repeat(20),
+  }
+  const digest = blockDigest(long)
+  ok(digest.text.length < long.text.length, 'a long block is cut down for the outline')
+  ok(digest.text.length <= DIGEST_CHARS + 4, `the digest respects the cap (${digest.text.length})`)
+  ok(digest.text.trim().endsWith('…'), 'the cut is visible to the model')
+  ok(digest.id === long.id && digest.heading === long.heading, 'id and heading survive — the outline needs them')
+  const short: Block = { id: 'p1-b2', heading: '', page: 1, text: 'Krátký blok.' }
+  ok(blockDigest(short).text === short.text, 'a short block is passed through untouched')
+  ok(digestBlocks([long, short]).length === 2, 'digesting maps over the list')
+
+  // The saving has to be real, not cosmetic.
+  const chars = 300 * 1800
+  const now = estimateCostUsd({ chars, cardEstimate: 800 })
+  ok(now < 2.5, `a 300-page script now estimates under $2.50 (got ${now})`)
+  ok(reviewCostUsd(800, chars) < now, 'the optional model check is the cheaper add-on')
+
+  const grounded: GeneratedCard = {
+    type: 'basic',
+    kind: 'definice',
+    level: 1,
+    front: 'Was ist Besitz?',
+    back: 'Die tatsächliche Herrschaft über eine Sache.',
+    evidence: 'Besitz ist die tatsächliche Herrschaft über eine Sache',
+  }
+  ok(checkEvidence(grounded, long.text), 'a quote that stands in the source passes')
+  ok(!checkEvidence({ ...grounded, evidence: 'Besitz erlischt nach drei Jahren automatisch' }, long.text), 'an invented quote is caught')
+  ok(checkEvidence({ ...grounded, evidence: undefined }, long.text), 'a card without a quote is not punished (rule-based cards have none)')
+  ok(checkEvidence({ ...grounded, evidence: 'krátké' }, long.text), 'a fragment too short to prove anything is ignored')
+
+  const marked = markDrafts([grounded, { ...grounded, evidence: 'Das Eigentum endet mit dem Tod des Eigentümers' }], long.text)
+  ok(marked[0].draft === undefined, 'the grounded card passes untouched')
+  ok(marked[1].draft === true && marked[1].draftReason === 'not-in-source', 'the ungrounded one becomes a draft')
+}
+
+
+console.log('— rules alone make real law cards (no model, no bill) —')
+{
+  const law: Block = {
+    id: 'p1-b1',
+    heading: 'Delikt',
+    page: 1,
+    text: [
+      'Besitz ist die tatsächliche Herrschaft über eine Sache, unabhängig vom Recht daran.',
+      'Znaky deliktu jsou: jednání, protiprávnost, zavinění a škoda.',
+      'Podle § 823 BGB je každý povinen nahradit škodu, kterou způsobil zaviněným protiprávním jednáním.',
+      'Držba na rozdíl od vlastnictví, chrání pouze faktický stav věci a nikoli právní titul.',
+      'Ein Schaden liegt vor, wenn das Vermögen des Geschädigten unfreiwillig gemindert wird.',
+    ].join('\n'),
+  }
+  const cards = fallbackCardsFromBlock(law, { discipline: 'law' })
+  const byKind = new Map(cards.map((c) => [c.kind, c]))
+  ok(cards.length >= 5, `a paragraph of law yields a deck (${cards.length} cards)`)
+  ok(cards.every((c) => c.tags?.includes(FALLBACK_TAG)), 'every rule-made card is tagged')
+  ok(cards.every((c) => c.sourceRef?.page === 1), 'every card points back at its page')
+
+  const elements = byKind.get('znaky')
+  ok(elements?.front === 'Jaké jsou znaky deliktu?', `the list question reads naturally (${elements?.front})`)
+  ok(elements?.back?.split('\n').length === 4, 'the four elements land on four lines — the study screen reveals them one by one')
+
+  const norm = byKind.get('norma')
+  ok(norm?.front === 'Co stanoví § 823 BGB?', `a paragraph becomes a norm card (${norm?.front})`)
+  ok(!cards.some((c) => c.front?.startsWith('Co je Podle')), 'a sentence pointing at a norm is not mistaken for a definition')
+
+  const distinction = byKind.get('rozliseni')
+  ok(distinction?.front === 'Čím se držba liší od vlastnictví?', `confusable institutes get their own card (${distinction?.front})`)
+  ok(distinction?.back === 'chrání pouze faktický stav věci a nikoli právní titul', 'the answer is the difference, not the whole sentence')
+
+  const german = cards.find((c) => c.front === 'Was ist Schaden?')
+  ok(!!german, 'German "liegt vor, wenn" is a definition too')
+  ok(!cards.some((c) => c.front?.includes('Ein Schaden')), 'the article is not part of the term')
+  ok(cards.every((c) => (c.front ?? '').length < 90), 'no question turns into a paragraph')
+}
+
+console.log('— and real geography cards —')
+{
+  const geo: Block = {
+    id: 'p2-b1',
+    heading: 'Alpy',
+    page: 2,
+    text: [
+      'Orografické zvedání vlhkého vzduchu vede k intenzivním srážkám na návětrné straně pohoří.',
+      'Alpy mají rozlohu 200 000 km² a zasahují do osmi států.',
+      'Föhn ist ein warmer Fallwind, der auf der Leeseite entsteht.',
+    ].join('\n'),
+  }
+  const cards = fallbackCardsFromBlock(geo, { discipline: 'geography' })
+  const process = cards.find((c) => c.kind === 'proces')
+  ok(process?.front === 'K čemu vede Orografické zvedání vlhkého vzduchu?', `a causal chain becomes a process card (${process?.front})`)
+  ok(process?.level === 2, 'a process is understanding, not recall')
+
+  const figure = cards.find((c) => c.kind === 'cisla')
+  ok(!!figure && figure.text?.includes('{{200 000 km²}}'), 'a magnitude becomes a `cisla` card — graded by order of magnitude')
+  ok(cards.some((c) => c.front === 'Was ist Föhn?'), 'definitions still work in geography')
+
+  // The same text read as law must not produce a geography-shaped deck.
+  const asLaw = fallbackCardsFromBlock(geo, { discipline: 'law' })
+  ok(!asLaw.some((c) => c.kind === 'cisla'), 'the discipline decides which patterns run')
+}
+
+console.log('— the free path stays honest —')
+{
+  const block: Block = { id: 'p3-b1', heading: '', page: 3, text: 'Zkoumání této problematiky vyžaduje trpělivost a soustředění během celého semestru.' }
+  const plain = fallbackCardsFromBlock(block)
+  ok(plain.length === 1 && plain[0].text?.includes('{{'), 'an ordinary paragraph still yields one cloze')
+  ok(fallbackCardsFromBlock({ ...block, text: '' }).length === 0, 'an empty block yields nothing')
+
+  const dense: Block = {
+    id: 'p4-b1',
+    heading: 'Hodně',
+    page: 4,
+    text: Array.from({ length: 12 }, (_, i) => `Pojem${i} je vysvětlení číslo ${i} popsané dostatečně dlouhou větou.`).join('\n'),
+  }
+  ok(fallbackCardsFromBlock(dense).length <= MAX_CARDS_PER_BLOCK, 'a dense block does not explode into dozens of cards')
+  ok(fallbackCards([dense, block]).length > 1, 'cards come from every block')
+
+  // Duplicates inside one block are pointless.
+  const repeated: Block = { id: 'p5-b1', heading: '', page: 5, text: 'Dominium je vlastnické právo k věci podle vůle vlastníka.\nDominium je vlastnické právo k věci podle vůle vlastníka.' }
+  ok(fallbackCardsFromBlock(repeated).length === 1, 'the same sentence twice is one card')
+
+  // Dates matter in law and history — and Czech writes them with abbreviations
+  // that used to tear the sentence apart before it could be turned into a card.
+  const dated: Block = {
+    id: 'p7-b1',
+    heading: '',
+    page: 7,
+    text: 'Zákon dvanácti desek vznikl roku 451 př. n. l. a stal se základem civilního práva.',
+  }
+  const datedCards = fallbackCardsFromBlock(dated, { discipline: 'law' })
+  ok(datedCards.some((c) => c.text?.includes('{{451 př. n. l.}}')), `a "před naším letopočtem" date becomes a cloze (${datedCards[0]?.text ?? '—'})`)
+
+  const outline = fallbackOutline([law2(), law2('p6-b2')], { discipline: 'law' })
+  ok(outline.topics[0].cardEstimate > 0, 'the outline promises the number of cards the rules will really make')
+}
+
+function law2(id = 'p6-b1'): Block {
+  return { id, heading: 'Vlastnictví', page: 6, text: 'Dominium je vlastnické právo k věci, které zahrnuje užívání, požívání i zcizení.' }
+}
+
+
+console.log('— the plan meets the clock —')
+{
+  const cards = (subjectId: string, fresh: number, learned: number) => [
+    ...Array.from({ length: fresh }, (_, i) => ({ subjectId, state: 'new', id: `n${i}` })),
+    ...Array.from({ length: learned }, (_, i) => ({ subjectId, state: 'review', id: `r${i}` })),
+  ]
+
+  const easy = capacityPlan(
+    [{ id: 's1', name: 'Právo', daysUntilExam: 30 }],
+    cards('s1', 60, 20),
+    25,
+  )
+  ok(easy.perSubject[0].newPerDay === 2, `60 cards over 30 days is 2 a day (got ${easy.perSubject[0].newPerDay})`)
+  ok(easy.fits, `a month of runway fits into 25 minutes (needs ${easy.neededMinutes})`)
+  ok(easy.cuts.length === 0 && !easy.notEnough, 'nothing has to be cut when it fits')
+
+  const tight = capacityPlan(
+    [
+      { id: 's1', name: 'Právo', daysUntilExam: 3 },
+      { id: 's2', name: 'Zeměpis', daysUntilExam: 60 },
+    ],
+    [...cards('s1', 300, 100), ...cards('s2', 200, 50)],
+    25,
+  )
+  ok(!tight.fits, `300 cards in three days does not fit (needs ${tight.neededMinutes} min)`)
+  ok(tight.cuts[0]?.name === 'Zeměpis', `the distant exam gives way first (${tight.cuts[0]?.name})`)
+  ok((tight.cuts[0]?.cards ?? 0) <= 200, 'it never suggests cutting more than a subject has')
+  // Once the distant deck is exhausted the near one has to give too — 300 cards
+  // in three days is not a plan, and saying so is the point of this screen.
+  ok(tight.cuts.length === 2 && tight.cuts[1].name === 'Právo', 'the near deck is cut only after the distant one is used up')
+  ok(tight.cuts[1].cards < 300, `and only as deep as needed (${tight.cuts[1]?.cards} of 300)`)
+
+  // Nothing left to cut: a pile of already-learned cards still has to be
+  // reviewed, and no cut can fix that — the screen must say so.
+  const reviewsOnly = capacityPlan([{ id: 's1', name: 'Právo', daysUntilExam: 10 }], cards('s1', 0, 2000), 25)
+  ok(!reviewsOnly.fits && reviewsOnly.cuts.length === 0, 'reviews of learned cards cannot be cut away')
+  ok(reviewsOnly.notEnough, 'so the plan admits the day simply overflows')
+
+  // The opposite case: a small overshoot that a partial cut really does solve.
+  const nearlyFits = capacityPlan(
+    [
+      { id: 's1', name: 'Právo', daysUntilExam: 20 },
+      { id: 's2', name: 'Zeměpis', daysUntilExam: 60 },
+    ],
+    [...cards('s1', 100, 40), ...cards('s2', 120, 30)],
+    25,
+  )
+  if (!nearlyFits.fits) {
+    ok(nearlyFits.cuts.length > 0, 'a small overshoot gets a concrete cut')
+    ok(nearlyFits.cuts[0].cards < 120, `and it is a PART of the deck, not all of it (${nearlyFits.cuts[0].cards})`)
+    ok(!nearlyFits.notEnough, 'that cut is enough, so nothing further is claimed')
+  } else {
+    ok(nearlyFits.cuts.length === 0, 'a plan that fits needs no cut')
+  }
+
+  ok(capacityPlan([], [], 25).fits, 'no subjects, nothing to fit')
+  const single = capacityPlan([{ id: 's1', name: 'Právo', daysUntilExam: 2 }], cards('s1', 400, 0), 25)
+  ok(single.cuts.length === 1 && single.cuts[0].name === 'Právo', 'with one subject the cut can only come from it')
+  const noExam = capacityPlan([{ id: 's1', name: 'X', daysUntilExam: null }], cards('s1', 28, 0), 25)
+  ok(noExam.perSubject[0].horizon === 14, 'without an exam date the plan spreads over the default horizon')
+  const drafts = capacityPlan(
+    [{ id: 's1', name: 'X', daysUntilExam: 10 }],
+    [...cards('s1', 10, 0), { subjectId: 's1', state: 'new', draft: true }, { subjectId: 's1', state: 'new', suspended: true }],
+    25,
+  )
+  ok(drafts.perSubject[0].cardsRemaining === 10, 'drafts and suspended cards are not part of the plan')
+}
+
+console.log('— the last day before an exam —')
+{
+  ok(isExamImminent(0) && isExamImminent(1), 'today and tomorrow count as imminent')
+  ok(!isExamImminent(2) && !isExamImminent(null) && !isExamImminent(-1), 'anything else does not')
+
+  const eNow = new Date('2026-03-10T09:00:00')
+  const tomorrow = '2026-03-11'
+  const cards = [
+    mk('r1', 's1', 'review', '2026-03-10T08:00:00'),
+    mk('n1', 's1', 'new', '2026-03-10T08:00:00'),
+    mk('n2', 's1', 'new', '2026-03-10T08:00:00'),
+  ]
+  const plan = buildSession([{ id: 's1', examDate: tomorrow }], cards, eNow)
+  ok(plan.newCards === 0, 'no new cards the day before the exam')
+  ok(plan.dueReviews === 1 && plan.order.length === 1, 'reviews still run — that is the light repetition')
+  ok(subjectStats({ id: 's1', examDate: tomorrow }, cards, eNow).newToday === 0, 'the home screen agrees')
+
+  const later = buildSession([{ id: 's1', examDate: '2026-03-20' }], cards, eNow)
+  ok(later.newCards > 0, 'ten days out the new cards keep coming')
+}
+
+console.log('— healthy boundaries —')
+{
+  ok(!isOverdoing(20, 20), 'finishing the batch is not overdoing it')
+  ok(!isOverdoing(29, 20), 'a little extra is fine')
+  ok(isOverdoing(30, 20), '150 % of the plan is where the app says stop')
+  ok(!isOverdoing(5, 0), 'with no plan there is nothing to exceed')
+}
+
+console.log('— a thread for tomorrow, and days that feel like a start —')
+{
+  const note = { subjectId: 's1', subjectName: 'Právo', topic: 'Besitz', savedOn: '2026-03-10', remaining: 12 }
+  ok(noteTone(note, '2026-03-10') === 'today', 'the same day it reads as "you stopped here"')
+  ok(noteTone(note, '2026-03-11') === 'later', 'the next day it reads as "start here"')
+  ok(noteTone({ ...note, remaining: 0 }, '2026-03-11') === null, 'a finished session leaves no thread')
+  ok(noteTone(null, '2026-03-11') === null, 'no note, nothing to show')
+
+  ok(freshStart(new Date('2026-03-09T08:00:00'), []) === 'monday', 'Monday is a beginning')
+  ok(freshStart(new Date('2026-04-01T08:00:00'), []) === 'month', 'so is the first of the month')
+  ok(freshStart(new Date('2026-03-11T08:00:00'), []) === null, 'an ordinary Wednesday is not')
+  ok(freshStart(new Date('2026-03-11T08:00:00'), ['2026-03-10']) === 'after-exam', 'the day after an exam outranks the calendar')
+  ok(freshStart(new Date('2026-03-11T08:00:00'), ['2026-03-01']) === null, 'an exam from last week is not a fresh start any more')
+}
+
+
+console.log('— your own notes become a deck (no model) —')
+{
+  const dashes = parsePlainDeck([
+    'Římské právo',
+    'Dominium — vlastnické právo k věci',
+    'Possessio — držba, faktické ovládání věci',
+    'Usus — užívání věci',
+  ].join('\n'))
+  ok(dashes.subject === 'Římské právo', `a title line names the deck (${dashes.subject})`)
+  ok(dashes.cards.length === 3, `three notes, three cards (${dashes.cards.length})`)
+  ok(dashes.cards[0].front === 'Dominium' && dashes.cards[0].back === 'vlastnické právo k věci', 'the halves land the right way round')
+
+  const table = parsePlainDeck([
+    '| Pojem | Význam |',
+    '|---|---|',
+    '| Besitz | tatsächliche Herrschaft |',
+    '| Eigentum | rechtliche Zuordnung |',
+  ].join('\n'))
+  ok(table.cards.length === 2, `a markdown table drops its header and rule (${table.cards.length} cards)`)
+  ok(table.cards[0].front === 'Besitz', 'the first column is the question')
+
+  const tabs = parsePlainDeck('Dunaj\tnejdelší řeka Rakouska\nInn\tpřítok Dunaje')
+  ok(tabs.cards.length === 2, 'a spreadsheet paste (tabs) works')
+
+  const cloze = parsePlainDeck('Zákon dvanácti desek vznikl roku {{451 př. n. l.}}.\nDominium je {{vlastnické právo}}.')
+  ok(cloze.cards.length === 2 && cloze.cards.every((c) => c.type === 'cloze'), 'lines with blanks become cloze cards')
+  ok(cloze.cards[0].front.includes('［ ___ ］'), 'the blank is blanked on the front')
+
+  const pairs = parsePlainDeck('Co je dominium?\nVlastnické právo k věci.\n\nCo je possessio?\nDržba.')
+  ok(pairs.cards.length === 2, 'question and answer on consecutive lines work too')
+  ok(pairs.cards[1].front === 'Co je possessio?', 'blank lines separate the pairs')
+
+  ok(parsePlainDeck('').cards.length === 0, 'empty text yields nothing')
+  ok(parsePlainDeck('Jen jedna věta bez struktury.').cards.length === 0, 'prose is not silently turned into junk cards')
+  ok(detectSeparator(['a — b', 'c — d']) === ' — ', 'the shared separator is detected')
+  ok(detectSeparator(['pouze: jedna z pěti', 'b', 'c', 'd', 'e']) === null, 'punctuation in one line out of five is not a separator')
+}
+
+
+console.log('— blind maps: masks stay relative, one card per place —')
+{
+  const rect = rectFromPoints({ x: 0.6, y: 0.7 }, { x: 0.2, y: 0.3 })
+  ok(rect.x === 0.2 && rect.y === 0.3, 'a drag backwards still gives a top-left corner')
+  ok(Math.abs(rect.w - 0.4) < 1e-9 && Math.abs(rect.h - 0.4) < 1e-9, 'width and height are never negative')
+
+  const clamped = rectFromPoints({ x: -0.5, y: 0.5 }, { x: 1.4, y: 2 })
+  ok(clamped.x === 0 && clamped.y === 0.5 && clamped.w === 1, 'a drag off the picture is clamped to it')
+  ok(isTooSmall({ x: 0, y: 0, w: 0.005, h: 0.5 }), 'a stray tap is not a mask')
+  ok(!isTooSmall({ x: 0, y: 0, w: 0.2, h: 0.2 }), 'a real rectangle is')
+
+  ok(toRelative({ x: 100, y: 50 }, { width: 400, height: 200 }).x === 0.25, 'pixels become relative coordinates')
+  ok(toRelative({ x: 10, y: 10 }, { width: 0, height: 0 }).x === 0, 'a zero-sized box never divides by zero')
+
+  const masks = [
+    { id: 'm1', shape: 'rect' as const, x: 0.1, y: 0.1, w: 0.2, h: 0.2, label: 'Dunaj' },
+    { id: 'm2', shape: 'rect' as const, x: 0.5, y: 0.5, w: 0.2, h: 0.2, label: 'Alpy' },
+    { id: 'm3', shape: 'rect' as const, x: 0.8, y: 0.8, w: 0.1, h: 0.1, label: '' },
+  ]
+  ok(maskAt(masks, { x: 0.15, y: 0.15 })?.id === 'm1', 'a point inside a mask finds it')
+  ok(maskAt(masks, { x: 0.4, y: 0.4 }) === undefined, 'a point on bare map finds nothing')
+
+  const cards = occlusionCards({ masks, mode: 'hide-one-guess-one', imageKey: 'card.image', alt: 'Slepá mapa Rakouska' })
+  ok(cards.length === 2, `one card per NAMED place (${cards.length}) — an unnamed mask is context`)
+  ok(cards[0].back === 'Dunaj' && cards[1].back === 'Alpy', 'the label is the answer')
+  ok(cards[0].front.includes('Slepá mapa Rakouska'), 'the picture description carries into the question')
+  ok(cards.every((c) => c.kind === 'mapa'), 'they are map cards')
+  ok(cards.every((c) => c.occlusion?.masks.length === 3), 'every card keeps the whole map for context')
+  ok(cards[1].occlusion?.masks[0].id === 'm2', 'the asked mask comes first on its own card')
+  ok(cards.every((c) => c.images?.[0]?.alt), 'every card carries alt text — an occlusion card is useless without it')
+
+  const roles = maskRoles(cards[0].occlusion!, 'm1')
+  ok(roles.get('m1') === 'target', 'the asked mask is the target')
+  ok(roles.get('m2') === 'context', 'in hide-one mode the rest of the map stays readable')
+  const allRoles = maskRoles({ ...cards[0].occlusion!, mode: 'hide-all-guess-one' }, 'm1')
+  ok(allRoles.get('m2') === 'hidden-context', 'in hide-all mode the neighbours are covered too')
+
+  ok(occlusionCards({ masks: [masks[2]], mode: 'hide-one-guess-one', imageKey: 'k', alt: '' }).length === 0, 'no names, no cards')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

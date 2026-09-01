@@ -15,6 +15,10 @@ import { updateAppBadge } from '../lib/badge'
 import { SubjectCard } from '../components/SubjectCard'
 import { SubjectEditor } from '../components/SubjectEditor'
 import { NewDeckModal } from '../components/NewDeckModal'
+import { SERVER_MODE } from '../lib/api'
+import { clearDayNote, noteTone, readDayNote, type DayNote } from '../lib/dayNote'
+import { freshStart, freshStartSeen, markFreshStartSeen, type FreshStart } from '../lib/freshStart'
+import { dayKey } from '../lib/date'
 import { t } from '../i18n'
 
 interface Props {
@@ -23,6 +27,10 @@ interface Props {
   onStudySubject: (subjectId: string) => void
   onCram: (subjectId: string) => void
   onBrowser: () => void
+  /** Source materials → outline → cards. Server mode only. */
+  onSources: () => void
+  /** Capacity plan up to the exam dates. */
+  onPlan: () => void
   /** A hand-made deck was just created → jump straight to adding its cards. */
   onDeckCreated: (subjectId: string) => void
   onStats: () => void
@@ -35,6 +43,8 @@ export function Home({
   onStudySubject,
   onCram,
   onBrowser,
+  onSources,
+  onPlan,
   onDeckCreated,
   onStats,
   onSettings,
@@ -46,6 +56,9 @@ export function Home({
   const [settings, setSettings] = useState<Settings | null>(null)
   const [editing, setEditing] = useState<Subject | null>(null)
   const [creating, setCreating] = useState(false)
+  // Zeigarnik: the thread left hanging when a session was cut short.
+  const [note, setNote] = useState<DayNote | null>(null)
+  const [fresh, setFresh] = useState<FreshStart>(null)
 
   async function load() {
     const [s, c, r, st] = await Promise.all([getSubjects(), getCards(), getReviews(), getSettings()])
@@ -60,6 +73,17 @@ export function Home({
     void load()
   }, [])
 
+  useEffect(() => {
+    setNote(readDayNote())
+  }, [])
+
+  useEffect(() => {
+    if (loading) return
+    const today = new Date()
+    if (freshStartSeen(today)) return
+    setFresh(freshStart(today, subjects.map((s) => s.examDate)))
+  }, [loading, subjects])
+
   if (loading) {
     return <div className="page center muted">{t('loading')}</div>
   }
@@ -71,6 +95,7 @@ export function Home({
     state: c.state,
     due: c.due,
     suspended: c.suspended,
+    draft: c.draft,
     buriedUntil: c.buriedUntil,
   }))
   const session = buildSession(
@@ -113,6 +138,14 @@ export function Home({
         <button className="btn btn-ghost btn-small" onClick={onBrowser}>
           {t('navCards')}
         </button>
+        {SERVER_MODE && (
+          <button className="btn btn-ghost btn-small" onClick={onSources}>
+            {t('navSources')}
+          </button>
+        )}
+        <button className="btn btn-ghost btn-small" onClick={onPlan}>
+          {t('navPlan')}
+        </button>
         <button className="btn btn-ghost btn-small" onClick={onStats}>
           {t('navStats')}
         </button>
@@ -142,6 +175,51 @@ export function Home({
       </section>
 
       <p className="encouragement">{message}</p>
+
+      {(() => {
+        const tone = noteTone(note, dayKey(now))
+        if (!tone || !note) return null
+        const text = note.topic
+          ? tone === 'today'
+            ? t('noteToday', note.topic)
+            : t('noteLater', note.topic)
+          : t('noteNoTopic')
+        return (
+          <div className="guardrail day-note" role="status">
+            <span>{text}</span>
+            <button
+              className="nudge-dismiss"
+              onClick={() => {
+                clearDayNote()
+                setNote(null)
+              }}
+            >
+              {t('close')}
+            </button>
+          </div>
+        )
+      })()}
+
+      {fresh && (
+        <div className="guardrail fresh-start" role="status">
+          <span>
+            {fresh === 'after-exam'
+              ? t('freshAfterExam')
+              : fresh === 'month'
+                ? t('freshMonth')
+                : t('freshMonday')}
+          </span>
+          <button
+            className="nudge-dismiss"
+            onClick={() => {
+              markFreshStartSeen(new Date())
+              setFresh(null)
+            }}
+          >
+            {t('freshDismiss')}
+          </button>
+        </div>
+      )}
 
       {load_.heavy && (
         <div className="guardrail" role="status">

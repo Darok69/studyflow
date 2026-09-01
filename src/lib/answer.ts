@@ -56,6 +56,56 @@ export function checkAnswer(input: string, expected: string): AnswerCheck {
   return { verdict, similarity }
 }
 
+// ---- Quantities (geography `cisla` cards) ----
+// The point of those cards is the ORDER OF MAGNITUDE, not the digits: someone
+// who says Austria is roughly 84 000 km² knows it. Demanding "83 879" would
+// teach trivia and punish knowledge (BRIEF §4, kind `cisla`).
+
+/** Numbers in a text, tolerant of Czech/German formatting: "83 879", "1,5 mil.". */
+export function parseQuantities(text: string): number[] {
+  const cleaned = text
+    .replace(/(\d)[\s\u00a0](?=\d{3}\b)/g, '$1') // thousands separated by a space
+    .replace(/(\d),(\d)/g, '$1.$2') // decimal comma
+  const out: number[] = []
+  for (const m of cleaned.matchAll(/-?\d+(?:\.\d+)?/g)) {
+    const value = Number(m[0])
+    if (Number.isFinite(value)) out.push(value)
+  }
+  return out
+}
+
+/** Within this factor of the expected value the estimate counts as right. */
+export const QUANTITY_TOLERANCE = 0.25
+
+/**
+ * Compare a numeric estimate. Two numbers in the expected answer are read as a
+ * RANGE and anything inside it is correct; a single number is correct within
+ * ±25 % and close within ±50 %. Without a number on either side this falls back
+ * to the ordinary text comparison.
+ */
+export function checkQuantityAnswer(input: string, expected: string): AnswerCheck {
+  const got = parseQuantities(input)
+  const want = parseQuantities(expected)
+  if (got.length === 0 || want.length === 0) return checkAnswer(input, expected)
+
+  const value = got[0]
+  if (want.length >= 2) {
+    const low = Math.min(want[0], want[1])
+    const high = Math.max(want[0], want[1])
+    if (value >= low && value <= high) return { verdict: 'correct', similarity: 1 }
+    const span = high - low || Math.abs(high) || 1
+    const off = value < low ? low - value : value - high
+    return { verdict: off <= span ? 'close' : 'wrong', similarity: off <= span ? 0.7 : 0 }
+  }
+
+  const target = want[0]
+  if (target === 0) return { verdict: value === 0 ? 'correct' : 'wrong', similarity: value === 0 ? 1 : 0 }
+  const ratio = Math.abs(value - target) / Math.abs(target)
+  if (ratio <= QUANTITY_TOLERANCE) return { verdict: 'correct', similarity: 1 - ratio }
+  if (ratio <= QUANTITY_TOLERANCE * 2) return { verdict: 'close', similarity: 0.6 }
+  return { verdict: 'wrong', similarity: 0 }
+}
+
 const MAX_TYPED_LENGTH = 80
 
 /**

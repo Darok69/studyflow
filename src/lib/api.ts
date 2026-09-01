@@ -50,7 +50,7 @@ async function api<T>(path: string, init?: RequestInit & { skipAuthEvent?: boole
   return (await res.json()) as T
 }
 
-export function getConfig(): Promise<{ server: boolean; pushEnabled: boolean }> {
+export function getConfig(): Promise<{ server: boolean; pushEnabled: boolean; aiEnabled: boolean }> {
   return api('/api/config')
 }
 
@@ -113,4 +113,169 @@ export function resetUserCode(id: string): Promise<{ code: string }> {
 
 export function removeUser(id: string): Promise<{ ok: true }> {
   return api(`/api/users/${id}`, { method: 'DELETE' })
+}
+
+// ---- source materials + the generation pipeline ----
+// The API key lives on the server; the client only ever sees these results.
+
+export type PipelineMode = 'model' | 'fallback' | 'local'
+export type FallbackReason = 'by-choice' | 'no-key' | 'budget' | 'api-error' | 'offline'
+
+export interface ServerSource {
+  id: string
+  subjectId: string
+  kind: 'pdf' | 'image' | 'text' | 'audio' | 'url'
+  name: string
+  ext: string
+  pages: number
+  blocks?: number
+  chars?: number
+  bytes?: number
+  /** Cards generated so far — what the "add to deck" button offers. */
+  cards?: number
+  importedAt?: string | null
+  status:
+    | 'uploaded'
+    | 'extracting'
+    | 'extracted'
+    | 'outlined'
+    | 'generating'
+    | 'generated'
+    | 'done'
+    | 'error'
+  createdAt: string
+  error?: string | null
+}
+
+export interface AiStatus {
+  enabled: boolean
+  month: string
+  spentUsd: number
+  budgetUsd: number
+}
+
+export interface OutlineTopicDto {
+  id: string
+  title: string
+  blockIds: string[]
+  difficulty: 1 | 2 | 3
+  estimatedMinutes: number
+  cardEstimate: number
+}
+
+export interface SourceEstimate extends AiStatus {
+  estimateUsd: number
+  cardEstimate: number
+  blocks: number
+  mode: PipelineMode
+  reason?: FallbackReason
+}
+
+export interface StepResult {
+  mode: PipelineMode
+  reason?: FallbackReason
+}
+
+export function listSources(): Promise<ServerSource[]> {
+  return api('/api/sources')
+}
+
+export function aiStatus(): Promise<AiStatus> {
+  return api('/api/ai/status')
+}
+
+export function setAiBudget(budgetUsd: number): Promise<AiStatus> {
+  return api('/api/ai/budget', { method: 'PUT', body: JSON.stringify({ budgetUsd }) })
+}
+
+/**
+ * Upload raw bytes — a File goes straight into the body, so a 30 MB script does
+ * not get inflated by base64 on the way. The caller must not clear its file
+ * input before this resolves (Safari invalidates the File the moment it does).
+ */
+export async function uploadSource(input: {
+  subjectId: string
+  name: string
+  contentType: string
+  body: Blob | string
+}): Promise<ServerSource> {
+  const query = new URLSearchParams({ subjectId: input.subjectId, name: input.name })
+  const res = await fetch(`/api/sources?${query}`, {
+    method: 'POST',
+    credentials: 'same-origin',
+    headers: { 'content-type': input.contentType },
+    body: input.body,
+  })
+  if (res.status === 401) window.dispatchEvent(new Event(AUTH_EXPIRED_EVENT))
+  if (!res.ok) throw new ApiError(res.status, `http-${res.status}`)
+  return (await res.json()) as ServerSource
+}
+
+export function extractSource(
+  id: string,
+): Promise<{ source: ServerSource; pages: number; blocks: number } & StepResult> {
+  return api(`/api/sources/${id}/extract`, { method: 'POST' })
+}
+
+export function sourcePage(id: string, page: number): Promise<{ page: number; text: string }> {
+  return api(`/api/sources/${id}/pages/${page}`)
+}
+
+export function estimateSource(id: string): Promise<SourceEstimate> {
+  return api(`/api/sources/${id}/estimate`)
+}
+
+/** `useModel` is opt-in: without it the free rule-based path runs. */
+export function proposeOutline(
+  id: string,
+  discipline: string,
+  useModel = false,
+): Promise<{ outline: { topics: OutlineTopicDto[] } } & StepResult> {
+  return api(`/api/sources/${id}/outline?discipline=${discipline}${useModel ? '&model=1' : ''}`, {
+    method: 'POST',
+  })
+}
+
+export function getOutline(id: string): Promise<{ topics: OutlineTopicDto[] }> {
+  return api(`/api/sources/${id}/outline`)
+}
+
+export function saveOutline(
+  id: string,
+  topics: OutlineTopicDto[],
+): Promise<{ topics: OutlineTopicDto[] }> {
+  return api(`/api/sources/${id}/outline`, { method: 'PUT', body: JSON.stringify({ topics }) })
+}
+
+export function generateTopic(
+  id: string,
+  topicId: string,
+  discipline: string,
+  useModel = false,
+): Promise<{ topicId: string; cards: number; drafts?: number; cached?: boolean } & StepResult> {
+  return api(`/api/sources/${id}/generate?discipline=${discipline}${useModel ? '&model=1' : ''}`, {
+    method: 'POST',
+    body: JSON.stringify({ topicId }),
+  })
+}
+
+export function reviewTopic(
+  id: string,
+  topicId: string,
+): Promise<{ topicId: string; reviewed: number; drafts?: number } & StepResult> {
+  return api(`/api/sources/${id}/qc`, { method: 'POST', body: JSON.stringify({ topicId }) })
+}
+
+/** The finished deck in the app's own import format — parseDeck validates it. */
+export function sourceDeck(id: string): Promise<{ subject: string; cards: unknown[]; mode: PipelineMode }> {
+  return api(`/api/sources/${id}/deck`)
+}
+
+/** Stamp the source as landed in a deck, so it is not imported twice. */
+export function markSourceImported(id: string): Promise<ServerSource> {
+  return api(`/api/sources/${id}/imported`, { method: 'POST' })
+}
+
+export function deleteSource(id: string): Promise<{ ok: true }> {
+  return api(`/api/sources/${id}`, { method: 'DELETE' })
 }

@@ -4,28 +4,56 @@
 import { addDays, dayKey, startOfDay } from '../lib/date'
 import { t } from '../i18n'
 
+/** Missed days a month may absorb before a streak actually breaks (BRIEF §5.15). */
+export const FREE_DAYS_PER_MONTH = 2
+
+export interface Streak {
+  days: number
+  /** Free days already spent inside the running streak. */
+  used: number
+  /** Free days still available this month. */
+  left: number
+}
+
 /**
- * Current streak = consecutive calendar days with ≥1 review, counting back from
- * today. Grace: if today has no reviews yet, counting starts at yesterday, so
- * the streak never reads 0 just because the day has only begun. A genuine gap
- * (no reviews today or yesterday) quietly resets it to 0.
+ * Current streak = calendar days with ≥1 review, counting back from today —
+ * with a BANK OF FREE DAYS. A single missed day does not wipe weeks of work:
+ * two skips a month are absorbed silently, because a zeroed streak is what
+ * drives people out of a study app for good. Only a third gap ends it.
+ *
+ * Grace as before: a day that has only just begun does not count as missed.
  */
-export function currentStreak(timestamps: string[], now: Date = new Date()): number {
+export function streakWithBank(timestamps: string[], now: Date = new Date()): Streak {
   const days = new Set(timestamps.map((ts) => dayKey(new Date(ts))))
-  if (days.size === 0) return 0
+  if (days.size === 0) return { days: 0, used: 0, left: FREE_DAYS_PER_MONTH }
 
   let cursor = startOfDay(now)
-  if (!days.has(dayKey(cursor))) {
-    cursor = startOfDay(addDays(now, -1))
-    if (!days.has(dayKey(cursor))) return 0
-  }
+  if (!days.has(dayKey(cursor))) cursor = startOfDay(addDays(now, -1))
 
   let streak = 0
-  while (days.has(dayKey(cursor))) {
-    streak++
-    cursor = startOfDay(addDays(cursor, -1))
+  let used = 0
+  // Walk backwards; a gap spends a free day as long as the bank holds and the
+  // streak actually continues before it.
+  for (;;) {
+    if (days.has(dayKey(cursor))) {
+      streak++
+      cursor = startOfDay(addDays(cursor, -1))
+      continue
+    }
+    if (used >= FREE_DAYS_PER_MONTH || streak === 0) break
+    // Only spend a free day if the streak really goes on beyond the gap.
+    const before = startOfDay(addDays(cursor, -1))
+    if (!days.has(dayKey(before))) break
+    used++
+    cursor = before
   }
-  return streak
+
+  return { days: streak, used, left: Math.max(0, FREE_DAYS_PER_MONTH - used) }
+}
+
+/** Streak length only — the shape the older callers expect. */
+export function currentStreak(timestamps: string[], now: Date = new Date()): number {
+  return streakWithBank(timestamps, now).days
 }
 
 export interface DayBucket {
@@ -168,4 +196,82 @@ export function heatmapWeeks(
     grid.push(col)
   }
   return grid
+}
+
+// ---- Calibration + weak spots (BRIEF §5.6, §6.7) ----
+
+export interface ConfidenceBucket {
+  total: number
+  correct: number
+}
+
+export interface Calibration {
+  sure: ConfidenceBucket
+  unsure: ConfidenceBucket
+  no: ConfidenceBucket
+  /** Reviews that carried a confidence answer at all. */
+  samples: number
+}
+
+/** Below this hit rate on "I know it" the self-assessment is optimistic. */
+export const OVERCONFIDENCE_THRESHOLD = 0.8
+/** Fewer answers than this say nothing yet. */
+export const CALIBRATION_MIN_SAMPLES = 20
+
+/**
+ * How well the pre-answer confidence matches the outcome. "Correct" means the
+ * card was not rated Again — the same bar the scheduler uses.
+ */
+export function calibration(
+  reviews: { rating: string; confidence?: 'know' | 'unsure' | 'no' }[],
+): Calibration {
+  const empty = (): ConfidenceBucket => ({ total: 0, correct: 0 })
+  const out: Calibration = { sure: empty(), unsure: empty(), no: empty(), samples: 0 }
+  for (const r of reviews) {
+    if (!r.confidence) continue
+    const bucket = r.confidence === 'know' ? out.sure : r.confidence === 'unsure' ? out.unsure : out.no
+    bucket.total++
+    if (r.rating !== 'again') bucket.correct++
+    out.samples++
+  }
+  return out
+}
+
+export function accuracy(bucket: ConfidenceBucket): number | null {
+  return bucket.total === 0 ? null : bucket.correct / bucket.total
+}
+
+export type CalibrationVerdict = 'unknown' | 'overconfident' | 'honest'
+
+export function calibrationVerdict(c: Calibration): CalibrationVerdict {
+  if (c.samples < CALIBRATION_MIN_SAMPLES || c.sure.total === 0) return 'unknown'
+  return (accuracy(c.sure) ?? 1) < OVERCONFIDENCE_THRESHOLD ? 'overconfident' : 'honest'
+}
+
+export interface WeakTopic {
+  topic: string | null
+  count: number
+  /** Of those, mistakes made while feeling sure. */
+  hyper: number
+}
+
+/**
+ * Topics that keep going wrong, worst first. Confident mistakes count double:
+ * a wrong answer you trusted is worse than one you already doubted.
+ */
+export function weakTopics(
+  errors: { topic?: string; kind: 'hypercorrection' | 'lapse' }[],
+  limit = 5,
+): WeakTopic[] {
+  const byTopic = new Map<string, WeakTopic>()
+  for (const e of errors) {
+    const key = e.topic ?? ''
+    const cur = byTopic.get(key) ?? { topic: e.topic ?? null, count: 0, hyper: 0 }
+    cur.count++
+    if (e.kind === 'hypercorrection') cur.hyper++
+    byTopic.set(key, cur)
+  }
+  return [...byTopic.values()]
+    .sort((a, b) => b.count + b.hyper - (a.count + a.hyper))
+    .slice(0, limit)
 }

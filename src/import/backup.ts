@@ -1,7 +1,7 @@
 // Full-app backup: every table in one JSON file, so the whole study history
 // (FSRS state included) can move between browsers/devices. Validation is pure;
 // the actual DB swap lives in the repository.
-import type { Card, Review, Settings, Subject } from '../db/db'
+import type { Card, ErrorEntry, Review, Settings, Subject } from '../db/db'
 import { t } from '../i18n'
 
 export const BACKUP_KIND = 'studyflow-backup'
@@ -14,6 +14,8 @@ export interface Backup {
   subjects: Subject[]
   cards: Card[]
   reviews: Review[]
+  /** Absent in backups written before the error log existed. */
+  errorLog?: ErrorEntry[]
   settings: Settings | null
 }
 

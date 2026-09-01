@@ -1,12 +1,17 @@
 import { useEffect, useState } from 'react'
 import type { Card, Review, Settings, Subject } from '../db/db'
-import { getCards, getReviews, getSettings, getSubjects } from '../db/repo'
+import type { ErrorEntry } from '../db/db'
+import { getCards, getErrors, getReviews, getSettings, getSubjects } from '../db/repo'
 import {
+  accuracy,
+  calibration,
+  calibrationVerdict,
   currentStreak,
   heatmapWeeks,
   reviewForecast,
   reviewsInLastDays,
   reviewsLast7Days,
+  weakTopics,
 } from '../stats/stats'
 import { readinessBand, subjectReadiness } from '../lib/readiness'
 import { palette } from '../lib/theme'
@@ -22,14 +27,22 @@ export function Stats({ onBack }: { onBack: () => void }) {
   const [cards, setCards] = useState<Card[]>([])
   const [subjects, setSubjects] = useState<Subject[]>([])
   const [settings, setSettings] = useState<Settings | null>(null)
+  const [errors, setErrors] = useState<ErrorEntry[]>([])
 
   useEffect(() => {
     void (async () => {
-      const [r, c, s, st] = await Promise.all([getReviews(), getCards(), getSubjects(), getSettings()])
+      const [r, c, s, st, e] = await Promise.all([
+        getReviews(),
+        getCards(),
+        getSubjects(),
+        getSettings(),
+        getErrors(),
+      ])
       setReviews(r)
       setCards(c)
       setSubjects(s)
       setSettings(st)
+      setErrors(e)
       setLoading(false)
     })()
   }, [])
@@ -44,6 +57,12 @@ export function Stats({ onBack }: { onBack: () => void }) {
   const learned = cards.filter((c) => c.state !== 'new').length
   const heat = heatmapWeeks(ts, 12, now)
   const forecast = reviewForecast(cards, 14, now)
+
+  const calib = calibration(reviews)
+  const verdict = calibrationVerdict(calib)
+  const sureAccuracy = accuracy(calib.sure)
+  const unsureAccuracy = accuracy(calib.unsure)
+  const weak = weakTopics(errors)
 
   const readinessRows = subjects
     .map((s) => ({
@@ -93,6 +112,35 @@ export function Stats({ onBack }: { onBack: () => void }) {
       </section>
 
       <section className="panel-section">
+        <h3 className="section-title">{t('weakTitle')}</h3>
+        {weak.length === 0 ? (
+          <p className="muted">{t('weakEmpty')}</p>
+        ) : (
+          <ul className="card-list weak-list">
+            {weak.map((w) => (
+              <li key={w.topic ?? 'none'} className="card-row weak-row">
+                <span className="card-row-front">{t('weakTopic', w.topic ?? t('weakNoTopic'), w.count)}</span>
+                {w.hyper > 0 && <span className="row-chip row-chip-draft">{t('confKnow')} ✕ {w.hyper}</span>}
+              </li>
+            ))}
+          </ul>
+        )}
+
+        <h3 className="section-title">{t('calibTitle')}</h3>
+        {verdict === 'unknown' ? (
+          <p className="muted">{t('calibEmpty')}</p>
+        ) : (
+          <div className="calib-box">
+            {sureAccuracy !== null && <p>{t('calibSure', Math.round(sureAccuracy * 100))}</p>}
+            {unsureAccuracy !== null && (
+              <p className="muted">{t('calibUnsure', Math.round(unsureAccuracy * 100))}</p>
+            )}
+            <p className={verdict === 'overconfident' ? 'calib-warn' : 'muted'}>
+              {verdict === 'overconfident' ? t('calibOverconfident') : t('calibHonest')}
+            </p>
+          </div>
+        )}
+
         <h3 className="section-title">{t('last12Weeks')}</h3>
         <Heatmap weeks={heat} />
       </section>
