@@ -2,6 +2,46 @@
 
 Nejnovější nahoře. Formát: co, proč, jaké alternativy zamítnuty.
 
+## 2026-09-02 — Učení podle briefu §5 + poloviční cena pipeline
+
+**Kalibrace je zároveň odkrytí.** „Vím / Tuším / Nevím" nahradí tlačítko
+„Zobrazit odpověď" — jedno klepnutí místo dvou. Zamítnuto: samostatný krok navíc;
+u appky, kterou otvíráš unavený po směně, každý klik navíc znamená, že se to
+přestane používat. U karet s psaním je to volba nad polem (vypínatelné v Nastavení).
+
+**Jistá chyba se vrací s jednou kartou mezi tím, ne hned.** Okamžitý návrat je
+čtení odpovědi, ne vybavování. `HYPERCORRECTION_GAP = 2`.
+
+**Koncept „chybníku" (`errorLog`) místo počítání laps na kartě.** Chyba nese téma
+a to, jestli sis byl jistý — jinak by ze Slabých míst nešlo poznat, co přesně
+opakovat. Jisté chyby se ve žebříčku počítají dvakrát.
+
+**Série má banku dvou volných dní na měsíc.** Vynulovaná série lidi z appky vyhání
+(BRIEF §5.15); jeden vynechaný den ji nesmí smazat. Starý test, který očekával
+opak, byl s odůvodněním přepsán.
+
+**Ubírání kroků (worked examples) jede z ŘÁDKŮ odpovědi**, ne ze zvláštní
+struktury: generátor je instruovaný psát schéma a případ po krocích, takže
+`answerSteps` stačí rozdělit text (řádky → šipky → číslování). Ubírá se podle
+`reps`: poprvé celý vyřešený případ, pak o krok míň, nakonec jen zadání.
+
+**Karty `cisla` se známkují řádově.** 84 000 pro 83 879 km² je správně, rozpětí
+v odpovědi je rozpětí. Trvat na číslicích by učilo trivia a trestalo znalost.
+
+### Cena: $3,68 → $1,81 za 300stránkové skriptum
+
+**Osnova čte jen výtah bloků** (nadpis + první řádky, `blockDigest`). Rozhodnout,
+jaká témata v podkladu jsou, nikdy nevyžadovalo každou větu — a materiál je to,
+co ten dotaz prodražuje. Úspora ~75 % vstupu u nejdražšího čtení.
+
+**Kontrola opory je zadarmo.** Každá karta musí vrátit doslovný úryvek podkladu,
+na kterém odpověď stojí (`evidence`), a pravidlo ověří, že v bloku opravdu je.
+Tím odpadl automatický druhý průchod modelem (~40 % účtu, běžel na Opusu);
+zůstal jako **nepovinné tlačítko** „Zkontrolovat modelem" na Haiku 4.5.
+
+**Effort podle úlohy**: psaní karet z bloku je dobře zadaná práce → `low`;
+hloubka uvažování se tam platí v output tokenech a nic nepřináší.
+
 ## 2026-09-01 — Pipeline podklad → osnova → karty (sprint 1)
 
 **Osnova jde ke schválení dřív, než vznikne jediná karta.** Model vrátí témata

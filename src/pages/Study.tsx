@@ -45,8 +45,12 @@ interface UndoEntry {
   errorId: string | null
 }
 
-/** Confident errors come back sooner than ordinary ones (hypercorrection). */
-const HYPERCORRECTION_GAP = 1
+/**
+ * Confident errors come back sooner than ordinary ones (hypercorrection) — but
+ * never back to back: one card has to sit in between, otherwise it is re-reading
+ * the answer, not retrieving it.
+ */
+const HYPERCORRECTION_GAP = 2
 /** Level-3 cards: seconds the reveal stays locked while nothing was written. */
 const PRODUCE_LOCK_MS = 3000
 
