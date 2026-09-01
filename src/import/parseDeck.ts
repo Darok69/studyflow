@@ -109,6 +109,16 @@ export function parseDeck(raw: string): ParsedDeck {
     const kind: CardKind = isCardKind(c.kind) ? c.kind : type
     const level: CardLevel = isCardLevel(c.level) ? c.level : 1
     const topic = typeof c.topic === 'string' && c.topic.trim() ? c.topic.trim() : undefined
+    // Generated cards carry where they came from and whether they passed the
+    // quality check; hand-written decks simply have none of this.
+    const ref = c.sourceRef as { page?: unknown; block?: unknown } | undefined
+    const sourceRef: SourceRef | undefined =
+      ref && typeof ref.page === 'number'
+        ? { page: ref.page, block: typeof ref.block === 'string' ? ref.block : undefined }
+        : undefined
+    const sourceId = typeof c.sourceId === 'string' ? c.sourceId : undefined
+    const draft = c.draft === true ? true : undefined
+    const draftReason = draft && typeof c.draftReason === 'string' ? c.draftReason : undefined
 
     if (type === 'cloze') {
       const text = typeof c.text === 'string' ? c.text : typeof c.front === 'string' ? c.front : ''
@@ -117,7 +127,7 @@ export function parseDeck(raw: string): ParsedDeck {
         return
       }
       const { front, back, raw } = makeCloze(text)
-      cards.push({ type, kind, level, topic, front, back, raw, tags, svg, image, imageBack })
+      cards.push({ type, kind, level, topic, front, back, raw, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
     } else {
       const front = typeof c.front === 'string' ? c.front.trim() : ''
       const back = typeof c.back === 'string' ? c.back.trim() : ''
@@ -125,7 +135,7 @@ export function parseDeck(raw: string): ParsedDeck {
         errors.push(t('errBasicCardNeedsBoth', n))
         return
       }
-      cards.push({ type, kind, level, topic, front, back, tags, svg, image, imageBack })
+      cards.push({ type, kind, level, topic, front, back, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
     }
   })
 

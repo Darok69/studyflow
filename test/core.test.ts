@@ -29,6 +29,8 @@ import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/li
 import { encouragement } from '../src/lib/encouragement'
 import { answerSimilarity, checkAnswer, normalizeAnswer, typedAnswerTarget } from '../src/lib/answer'
 import { readinessBand, subjectReadiness } from '../src/lib/readiness'
+import { readdirSync, readFileSync, statSync } from 'node:fs'
+import { join } from 'node:path'
 import { blocksLength, isHeading, MAX_BLOCK_CHARS, segmentPages } from '../src/pipeline/segment'
 import { dedupeCards, normalizeQuestion, similarity } from '../src/pipeline/dedupe'
 import { checkCard, countSentences, markDrafts } from '../src/pipeline/qc'
@@ -641,6 +643,103 @@ console.log('— prompts —')
   })
   ok(prompt.includes('[p1-b1]') && prompt.includes('strana 1'), 'the prompt carries block ids and pages')
   ok(prompt.includes('Dominium je vlastnické právo.'), 'the prompt carries the material itself')
+}
+
+
+console.log('— drafts stay out of the queue —')
+{
+  const dNow = new Date('2026-03-01T10:00:00')
+  const draft = { ...mk('d1', 's1', 'new', dNow.toISOString()), draft: true }
+  const ready = mk('c1', 's1', 'new', dNow.toISOString())
+  ok(!isSchedulable(draft, dNow), 'a draft is not schedulable')
+  ok(isSchedulable(ready, dNow), 'an accepted card is')
+
+  const plan = buildSession([{ id: 's1', examDate: null }], [draft, ready], dNow)
+  ok(plan.order.length === 1 && plan.order[0] === 'c1', 'only the accepted card enters today’s queue')
+  ok(plan.perSubject[0].total === 1, 'a draft does not inflate the deck size')
+
+  const stats = subjectStats({ id: 's1', examDate: null }, [draft, ready], dNow)
+  ok(stats.total === 1 && stats.newToday === 1, 'the home counts ignore drafts')
+}
+
+console.log('— generated cards round-trip through the import path —')
+{
+  const deck = JSON.stringify({
+    subject: 'Sachenrecht',
+    cards: [
+      {
+        type: 'basic',
+        kind: 'definice',
+        level: 2,
+        topic: 'Besitz',
+        front: 'Was ist Besitz?',
+        back: 'Die tatsächliche Herrschaft über eine Sache.',
+        tags: ['koncept'],
+        sourceRef: { page: 7, block: 'p7-b2' },
+      },
+      {
+        type: 'basic',
+        kind: 'definice',
+        level: 1,
+        front: 'Q?',
+        back: 'A',
+        draft: true,
+        draftReason: 'answer-too-long',
+      },
+    ],
+  })
+  const parsed = parseDeck(deck)
+  ok(parsed.errors.length === 0 && parsed.cards.length === 2, 'a generated deck parses')
+  ok(parsed.cards[0].kind === 'definice' && parsed.cards[0].level === 2, 'kind and level survive the import')
+  ok(parsed.cards[0].topic === 'Besitz', 'the approved topic survives')
+  ok(parsed.cards[0].sourceRef?.page === 7 && parsed.cards[0].sourceRef?.block === 'p7-b2', 'the card keeps its page reference')
+  ok(parsed.cards[1].draft === true && parsed.cards[1].draftReason === 'answer-too-long', 'a draft arrives as a draft, with its reason')
+  ok(parsed.cards[0].draft === undefined, 'a passing card is not marked draft')
+
+  // …and back out again, unchanged.
+  const exported = deckToJson(
+    { name: 'Sachenrecht', examDate: null, reminderTime: null },
+    [
+      {
+        id: 'x', subjectId: 's', type: 'basic', kind: 'definice', level: 2, topic: 'Besitz',
+        front: 'Was ist Besitz?', back: 'Die tatsächliche Herrschaft über eine Sache.', tags: ['koncept'],
+        sourceRef: { page: 7, block: 'p7-b2' }, due: '2026-03-01T00:00:00.000Z', stability: 0,
+        difficulty: 0, reps: 0, lapses: 0, state: 'new', lastReview: null,
+      },
+    ],
+  )
+  const back = parseDeck(exported)
+  ok(back.cards[0].sourceRef?.page === 7, 'export → import keeps the page reference')
+  ok(back.cards[0].level === 2 && back.cards[0].kind === 'definice', 'export → import keeps kind and level')
+
+  const plain = parseDeck(JSON.stringify({ subject: 'X', cards: [{ type: 'basic', front: 'Q?', back: 'A' }] }))
+  ok(plain.cards[0].kind === 'basic' && plain.cards[0].level === 1, 'a hand-written deck still imports without the new fields')
+}
+
+
+console.log('— the API key never reaches the browser —')
+{
+  // A static guard, not a promise in a document: nothing under src/ (everything
+  // that gets bundled into the PWA) may reach for the Anthropic SDK, and the
+  // shared pipeline core must stay free of the DOM so the server can run it.
+  function walk(dir: string): string[] {
+    return readdirSync(dir).flatMap((entry) => {
+      const full = join(dir, entry)
+      return statSync(full).isDirectory() ? walk(full) : full.endsWith('.ts') || full.endsWith('.tsx') ? [full] : []
+    })
+  }
+
+  const clientFiles = walk(join(process.cwd(), 'src'))
+  const withSdk = clientFiles.filter((f) => /@anthropic-ai\/sdk/.test(readFileSync(f, 'utf8')))
+  ok(clientFiles.length > 20, `walked the client sources (${clientFiles.length} files)`)
+  ok(withSdk.length === 0, `no client module imports the Anthropic SDK${withSdk.length ? `: ${withSdk.join(', ')}` : ''}`)
+
+  const pipelineFiles = walk(join(process.cwd(), 'src', 'pipeline'))
+  const impure = pipelineFiles.filter((f) => {
+    const code = readFileSync(f, 'utf8')
+    return /\b(document|localStorage|navigator)\./.test(code) || /from '\.\.\/i18n/.test(code)
+  })
+  ok(impure.length === 0, `the pipeline core stays DOM- and i18n-free${impure.length ? `: ${impure.join(', ')}` : ''}`)
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

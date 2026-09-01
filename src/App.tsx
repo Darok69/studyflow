@@ -8,12 +8,13 @@ const Import = lazy(() => import('./pages/Import').then((m) => ({ default: m.Imp
 const Stats = lazy(() => import('./pages/Stats').then((m) => ({ default: m.Stats })))
 const Settings = lazy(() => import('./pages/Settings').then((m) => ({ default: m.Settings })))
 const Browser = lazy(() => import('./pages/Browser').then((m) => ({ default: m.Browser })))
+const Sources = lazy(() => import('./pages/Sources').then((m) => ({ default: m.Sources })))
 import { decodeDeckPayload, payloadFromHash } from './lib/sharelink'
 import { AUTH_EXPIRED_EVENT, getMe, SERVER_MODE, type Account } from './lib/api'
 import { initSync, startSyncListener } from './lib/sync'
 import { t } from './i18n'
 
-type View = 'home' | 'import' | 'study' | 'browser' | 'stats' | 'settings'
+type View = 'home' | 'import' | 'sources' | 'study' | 'browser' | 'stats' | 'settings'
 type AuthState = 'checking' | 'login' | 'ready'
 
 function App() {
@@ -116,6 +117,7 @@ function App() {
               setFreshDeckId(subjectId)
               setView('browser')
             }}
+            onSources={() => setView('sources')}
             onStats={() => setView('stats')}
             onSettings={() => setView('settings')}
           />
@@ -134,6 +136,7 @@ function App() {
             }}
           />
         )}
+        {view === 'sources' && <Sources onBack={goHome} />}
         {view === 'study' && <Study onDone={goHome} mode={studyMode} />}
         {view === 'browser' && (
           <Browser onBack={goHome} initialSubjectId={freshDeckId ?? undefined} startNewCard={!!freshDeckId} />

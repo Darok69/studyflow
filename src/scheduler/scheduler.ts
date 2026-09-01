@@ -16,6 +16,8 @@ export interface SchedCard {
   state: FsrsStateName
   due: string // ISO
   suspended?: boolean
+  /** Failed quality control — waits for a human, never for the queue. */
+  draft?: boolean
   buriedUntil?: string | null // YYYY-MM-DD
 }
 
@@ -24,7 +26,7 @@ export interface SchedCard {
  * (Day keys are ISO dates, so string comparison is chronological.)
  */
 export function isSchedulable(card: SchedCard, now: Date): boolean {
-  if (card.suspended) return false
+  if (card.suspended || card.draft) return false
   if (card.buriedUntil && card.buriedUntil >= dayKey(now)) return false
   return true
 }
@@ -151,9 +153,9 @@ export function buildSession(
       : Infinity
 
   for (const s of ordered) {
-    // Suspended cards leave the subject entirely; buried ones only sit out the
-    // queue for today but still count toward the subject's totals.
-    const list = (bySubject.get(s.id) ?? []).filter((c) => !c.suspended)
+    // Suspended cards and drafts leave the subject entirely; buried ones only
+    // sit out the queue for today but still count toward the subject's totals.
+    const list = (bySubject.get(s.id) ?? []).filter((c) => !c.suspended && !c.draft)
     const active = list.filter((c) => isSchedulable(c, now))
     const due = active.filter((c) => isDueReview(c, now)).sort(byDueAsc)
     const news = active.filter((c) => c.state === 'new')
@@ -222,7 +224,7 @@ export function subjectStats(
   now: Date = new Date(),
   introducedToday = 0,
 ): SubjectStats {
-  const list = cards.filter((c) => c.subjectId === subject.id && !c.suspended)
+  const list = cards.filter((c) => c.subjectId === subject.id && !c.suspended && !c.draft)
   const active = list.filter((c) => isSchedulable(c, now))
   const news = active.filter((c) => c.state === 'new')
   const dExam = daysUntil(subject.examDate, now)

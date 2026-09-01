@@ -6,6 +6,8 @@ const dny = (n: number) => (n === 1 ? 'den' : n >= 2 && n <= 4 ? 'dny' : 'dní')
 const karty = (n: number) => (n === 1 ? 'karta' : n >= 2 && n <= 4 ? 'karty' : 'karet')
 const kartyAcc = (n: number) => (n === 1 ? 'kartu' : n >= 2 && n <= 4 ? 'karty' : 'karet')
 const predmety = (n: number) => (n === 1 ? 'předmět' : n >= 2 && n <= 4 ? 'předměty' : 'předmětů')
+const stran = (n: number) => (n === 1 ? 'strana' : n >= 2 && n <= 4 ? 'strany' : 'stran')
+const bloku = (n: number) => (n === 1 ? 'blok' : n >= 2 && n <= 4 ? 'bloky' : 'bloků')
 
 const WEEKDAYS = ['ne', 'po', 'út', 'st', 'čt', 'pá', 'so']
 
@@ -325,6 +327,64 @@ export const cs = {
   // Sync conflict
   syncConflict:
     'Na serveru jsou novější data (z jiného zařízení), ale i tady máš neuložené změny.\n\nOK = načíst data ze serveru (místní změny se zahodí)\nZrušit = nechat moje a přepsat server',
+  // Podklady → osnova → karty
+  navSources: 'Podklady',
+  sourcesTitle: 'Podklady',
+  sourcesIntro:
+    'Nahraj skripta, fotku poznámek nebo vlastní text. Nejdřív z toho vznikne osnova témat, kterou schválíš, a teprve pak karty.',
+  sourcesNeedDeck: 'Nejdřív si založ balíček — podklad vždycky patří k nějakému předmětu.',
+  sourcesDeckLabel: 'Balíček',
+  sourcesUpload: 'Nahrát soubor',
+  sourcesUploadHint: 'PDF, text nebo fotka stránky.',
+  sourcesPaste: 'Vložit text',
+  sourcesPasteHint: 'Zkopíruj text z přednášky nebo ze skript.',
+  sourcesUploading: 'Nahrávám…',
+  sourcesEmpty: 'Zatím tu nic není.',
+  sourcesOffline: 'Bez připojení podklady zpracovat nejde. Učení běží dál.',
+  sourceStatusUploaded: 'Nahráno',
+  sourceStatusExtracting: 'Čtu podklad…',
+  sourceStatusExtracted: (pages: number, blocks: number) =>
+    `${pages} ${stran(pages)} · ${blocks} ${bloku(blocks)}`,
+  sourceStatusOutlined: 'Osnova připravená',
+  sourceStatusGenerating: 'Generuji karty…',
+  sourceStatusGenerated: 'Karty připravené',
+  sourceStatusDone: 'Hotovo',
+  sourceStatusError: 'Nepovedlo se',
+  sourceExtract: 'Zpracovat',
+  sourceOutlineBtn: 'Navrhnout osnovu',
+  sourceOutlineWorking: 'Připravuji osnovu…',
+  sourceApprove: 'Schválit a vygenerovat karty',
+  sourceGenerating: (done: number, total: number) => `Generuji… ${done} z ${total}`,
+  sourceImportBtn: (n: number) => `Přidat ${n} ${kartyAcc(n)} do balíčku`,
+  sourceImported: (n: number) => `Přidáno ${n} ${karty(n)}.`,
+  sourceDelete: 'Smazat podklad',
+  sourceDeleteConfirm: 'Smazat podklad i s vygenerovanými kartami? Karty už přidané do balíčku zůstanou.',
+  sourceEstimate: (usd: string) => `Odhad ceny: ${usd}`,
+  sourceSpent: (spent: string, budget: string) => `Tento měsíc utraceno ${spent} z ${budget}`,
+  sourceModelUnavailable: 'Model není k dispozici — poběží pravidlový generátor.',
+  sourceModelOff: 'Model není k dispozici — karty vyrobila pravidla.',
+  sourceReasonNoKey: 'chybí API klíč',
+  sourceReasonBudget: 'vyčerpaný měsíční rozpočet',
+  sourceReasonApiError: 'API neodpovědělo',
+  sourceReasonOffline: 'bez připojení',
+  sourceNeedsModel: 'Fotku bez modelu přečíst neumíme.',
+  outlineTitle: 'Osnova ke schválení',
+  outlineHint: 'Přejmenuj témata nebo odškrtni ta, která se učit nechceš. Karty vzniknou až potom.',
+  outlineTopicMeta: (cards: number, minutes: number) => `${cards} ${karty(cards)} · ${minutes} min`,
+  outlineNoneSelected: 'Vyber aspoň jedno téma.',
+  draftBadge: 'Koncept',
+  draftReasonEmpty: 'prázdná karta',
+  draftReasonTooLong: 'odpověď je delší než tři věty',
+  draftReasonEcho: 'odpověď je obsažená v otázce',
+  draftReasonCloze: 'doplňovačka bez vynechaného místa',
+  draftReasonImage: 'chybí obrázek, na který se karta ptá',
+  draftReasonDuplicate: 'duplicita',
+  draftReasonSource: 'odpověď se v podkladu nenašla',
+  draftApproveBtn: 'Použít',
+  draftApproveTitle: 'Zařadit kartu do učení tak, jak je',
+  filterDrafts: 'Jen koncepty',
+  errUploadFailed: 'Soubor se nepodařilo nahrát.',
+  errSourceFailed: 'Podklad se nepodařilo zpracovat.',
 }
 
 /**
@@ -335,4 +395,5 @@ export type Messages = {
   [K in keyof typeof cs]: (typeof cs)[K] extends (...args: infer A) => string
     ? (...args: A) => string
     : string
+
 }

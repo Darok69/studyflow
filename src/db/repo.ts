@@ -174,6 +174,19 @@ export async function addCard(subjectId: string, draft: CardDraft): Promise<Card
   return card
 }
 
+/**
+ * Add a whole batch of cards to an EXISTING subject — how a generated deck
+ * lands in the app (importDeck always creates a new subject instead).
+ */
+export async function addCards(subjectId: string, drafts: CardDraft[]): Promise<number> {
+  if (drafts.length === 0) return 0
+  const now = new Date()
+  const cards: Card[] = drafts.map((d) => ({ ...cardFromDraft(d, subjectId), ...newFsrsFields(now) }))
+  await db.cards.bulkAdd(cards)
+  notifyDataChanged()
+  return cards.length
+}
+
 /** Update card content/placement; FSRS state is intentionally untouched. */
 export async function updateCard(
   id: string,
@@ -202,12 +215,23 @@ export async function updateCard(
   const next = await db.transaction('rw', db.cards, async () => {
     const cur = await db.cards.get(id)
     if (!cur) return null
-    const result: Card = { ...cur, ...patch }
+    // A hand-edited card carries a visible mark: own material is learned more
+    // willingly than material somebody else wrote (BRIEF §5.18).
+    const result: Card = { ...cur, ...patch, userEdited: true }
     await db.cards.put(result)
     return result
   })
   notifyDataChanged()
   return next
+}
+
+/**
+ * Accept a card that failed quality control as it stands. Nothing else changes —
+ * the reason is dropped and the card joins the queue tomorrow like any other.
+ */
+export async function approveDraft(id: string): Promise<void> {
+  await db.cards.update(id, { draft: false, draftReason: undefined })
+  notifyDataChanged()
 }
 
 export async function deleteCard(id: string): Promise<void> {

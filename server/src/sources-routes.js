@@ -145,7 +145,6 @@ export function registerSourceRoutes(app, { requireUser }) {
     patchSource(user.id, meta.id, { status: 'extracting', error: null })
     let pages = []
     let mode = 'model'
-    let reason
 
     try {
       if (meta.kind === 'pdf') {
@@ -185,7 +184,7 @@ export function registerSourceRoutes(app, { requireUser }) {
       blocks: blocks.length,
       chars: blocksLength(blocks),
     })
-    return { source: updated, pages: pages.length, blocks: blocks.length, mode, reason }
+    return { source: updated, pages: pages.length, blocks: blocks.length, mode }
   })
 
   /** Source preview: the text of one page, so a card can show where it came from. */
@@ -342,6 +341,14 @@ export function registerSourceRoutes(app, { requireUser }) {
       generatedAt: new Date().toISOString(),
     })
 
+    // Keep the running total on the metadata so the list can offer "add N cards"
+    // without fetching the whole deck first.
+    let total = 0
+    for (const other of outline.topics) {
+      total += (readTopicCards(user.id, meta.id, other.id)?.cards ?? []).length
+    }
+    patchSource(user.id, meta.id, { cards: total, status: 'generated' })
+
     return {
       topicId: topic.id,
       cards: checked.length,
@@ -389,6 +396,18 @@ export function registerSourceRoutes(app, { requireUser }) {
     )
     writeTopicCards(user.id, meta.id, topic.id, { ...stored, cards, reviewedAt: new Date().toISOString() })
     return { topicId: topic.id, reviewed: cards.length, drafts: cards.filter((c) => c.draft).length, mode: 'model' }
+  })
+
+  /** The client confirms the deck landed in a subject — stops a double import. */
+  app.post('/api/sources/:id/imported', async (req, reply) => {
+    const user = requireUser(req, reply)
+    if (!user) return
+    const updated = patchSource(user.id, req.params.id, {
+      importedAt: new Date().toISOString(),
+      status: 'done',
+    })
+    if (!updated) return reply.code(404).send({ error: 'not-found' })
+    return updated
   })
 
   // ---- the finished deck, in the app's own import format ----

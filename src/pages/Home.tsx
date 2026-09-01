@@ -15,6 +15,7 @@ import { updateAppBadge } from '../lib/badge'
 import { SubjectCard } from '../components/SubjectCard'
 import { SubjectEditor } from '../components/SubjectEditor'
 import { NewDeckModal } from '../components/NewDeckModal'
+import { SERVER_MODE } from '../lib/api'
 import { t } from '../i18n'
 
 interface Props {
@@ -23,6 +24,8 @@ interface Props {
   onStudySubject: (subjectId: string) => void
   onCram: (subjectId: string) => void
   onBrowser: () => void
+  /** Source materials → outline → cards. Server mode only. */
+  onSources: () => void
   /** A hand-made deck was just created → jump straight to adding its cards. */
   onDeckCreated: (subjectId: string) => void
   onStats: () => void
@@ -35,6 +38,7 @@ export function Home({
   onStudySubject,
   onCram,
   onBrowser,
+  onSources,
   onDeckCreated,
   onStats,
   onSettings,
@@ -71,6 +75,7 @@ export function Home({
     state: c.state,
     due: c.due,
     suspended: c.suspended,
+    draft: c.draft,
     buriedUntil: c.buriedUntil,
   }))
   const session = buildSession(
@@ -113,6 +118,11 @@ export function Home({
         <button className="btn btn-ghost btn-small" onClick={onBrowser}>
           {t('navCards')}
         </button>
+        {SERVER_MODE && (
+          <button className="btn btn-ghost btn-small" onClick={onSources}>
+            {t('navSources')}
+          </button>
+        )}
         <button className="btn btn-ghost btn-small" onClick={onStats}>
           {t('navStats')}
         </button>

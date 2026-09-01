@@ -107,6 +107,7 @@ export type SourceStatus =
   | 'extracted'
   | 'outlined'
   | 'generating'
+  | 'generated'
   | 'done'
   | 'error'
 

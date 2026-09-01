@@ -89,7 +89,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         // Ratings here never touch the FSRS plan.
         const now = new Date()
         order = cards
-          .filter((c) => c.subjectId === mode.subjectId && !c.suspended)
+          .filter((c) => c.subjectId === mode.subjectId && !c.suspended && !c.draft)
           .map((c) => ({ id: c.id, r: retrievabilityAt(c, now, loadedSettings.targetRetention) }))
           .sort((a, b) => a.r - b.r)
           .map((x) => x.id)
@@ -105,6 +105,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
             state: c.state,
             due: c.due,
             suspended: c.suspended,
+            draft: c.draft,
             buriedUntil: c.buriedUntil,
           }))
         const session = buildSession(

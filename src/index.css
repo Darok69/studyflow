@@ -1291,6 +1291,80 @@ h3 {
   border-style: dashed;
 }
 
+/* A card that failed quality control — visible, but not alarming. */
+.row-chip-draft {
+  border-color: color-mix(in srgb, var(--mid) 55%, transparent);
+  color: var(--ink);
+  background: color-mix(in srgb, var(--mid) 14%, var(--desk));
+}
+
+/* ---------- Sources (material → outline → cards) ---------- */
+/* The file picker is a styled label; the input itself stays in the accessibility
+   tree (focusable, announced) but out of sight. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.btn-disabled {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.source-row {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.source-row .card-row-main {
+  flex: 1 1 220px;
+  min-width: 0;
+  text-align: left;
+}
+
+/* Primary actions stay within thumb reach: full width on a phone, inline on a
+   desktop where the row has room. */
+.source-actions {
+  flex: 1 1 100%;
+  justify-content: flex-end;
+}
+
+.outline-panel h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.outline-topic {
+  align-items: center;
+  gap: 12px;
+}
+
+.outline-topic input[type='checkbox'] {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  accent-color: var(--accent);
+}
+
+.outline-topic .card-row-main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+@media (min-width: 620px) {
+  .source-actions {
+    flex: 0 0 auto;
+  }
+}
+
 /* ---------- Heatmap ---------- */
 .heatmap {
   display: flex;

@@ -18,7 +18,8 @@ export type ReadinessBand = 'solid' | 'building' | 'fragile'
 /**
  * Mean predicted recall across a subject's cards, evaluated at the exam day
  * (or right now when there is no exam date / the exam already passed).
- * Suspended cards are excluded — they were deliberately parked.
+ * Suspended cards and drafts are excluded — one was deliberately parked, the
+ * other has not been accepted into the deck yet.
  */
 export function subjectReadiness(
   cards: Card[],
@@ -26,7 +27,7 @@ export function subjectReadiness(
   now: Date = new Date(),
   retention: number = DEFAULT_RETENTION,
 ): Readiness | null {
-  const list = cards.filter((c) => !c.suspended)
+  const list = cards.filter((c) => !c.suspended && !c.draft)
   if (list.length === 0) return null
 
   const examMoment = examDate ? endOfDay(parseExamDate(examDate)) : now

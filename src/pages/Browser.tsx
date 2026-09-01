@@ -1,18 +1,30 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { Card, Subject } from '../db/db'
-import { getCards, getSubjects, setCardSuspended, unburyCard } from '../db/repo'
+import { approveDraft, getCards, getSubjects, setCardSuspended, unburyCard } from '../db/repo'
 import { countdownLabel, dayKey, daysUntilDate } from '../lib/date'
 import { isLeech } from '../lib/wellbeing'
 import { subjectColor, subjectColorIndex } from '../lib/theme'
 import { CardEditor } from '../components/CardEditor'
 import { t, type MsgKey } from '../i18n'
 
-type StateFilter = 'all' | 'new' | 'learning' | 'suspended' | 'leech'
+type StateFilter = 'all' | 'new' | 'learning' | 'draft' | 'suspended' | 'leech'
+
+/** Quality-control reasons are stored as codes; the UI translates them. */
+const DRAFT_REASONS: Record<string, MsgKey> = {
+  empty: 'draftReasonEmpty',
+  'answer-too-long': 'draftReasonTooLong',
+  'answer-in-question': 'draftReasonEcho',
+  'cloze-no-blank': 'draftReasonCloze',
+  'needs-image': 'draftReasonImage',
+  duplicate: 'draftReasonDuplicate',
+  'not-in-source': 'draftReasonSource',
+}
 
 const STATE_FILTERS: { value: StateFilter; labelKey: MsgKey }[] = [
   { value: 'all', labelKey: 'filterAll' },
   { value: 'new', labelKey: 'filterNew' },
   { value: 'learning', labelKey: 'filterLearning' },
+  { value: 'draft', labelKey: 'filterDrafts' },
   { value: 'suspended', labelKey: 'filterSuspended' },
   { value: 'leech', labelKey: 'filterLeech' },
 ]
@@ -53,10 +65,13 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
       if (subjectFilter !== 'all' && c.subjectId !== subjectFilter) return false
       switch (stateFilter) {
         case 'new':
-          if (c.state !== 'new' || c.suspended) return false
+          if (c.state !== 'new' || c.suspended || c.draft) return false
           break
         case 'learning':
           if (c.state === 'new' || c.suspended) return false
+          break
+        case 'draft':
+          if (!c.draft) return false
           break
         case 'suspended':
           if (!c.suspended) return false
@@ -73,6 +88,11 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
 
   async function toggleSuspend(card: Card) {
     await setCardSuspended(card.id, !card.suspended)
+    await load()
+  }
+
+  async function handleApproveDraft(card: Card) {
+    await approveDraft(card.id)
     await load()
   }
 
@@ -157,6 +177,13 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
                 <button className="card-row-main" onClick={() => setEditing(c)} title={t('editCardTitle')}>
                   <span className="card-row-front">{c.front}</span>
                   <span className="card-row-meta">
+                    {c.draft && (
+                      <span className="row-chip row-chip-draft">
+                        {c.draftReason && DRAFT_REASONS[c.draftReason]
+                          ? `${t('draftBadge')}: ${t(DRAFT_REASONS[c.draftReason])}`
+                          : t('draftBadge')}
+                      </span>
+                    )}
                     {c.suspended ? (
                       <span className="row-chip row-chip-suspended">{t('chipSuspended')}</span>
                     ) : c.state === 'new' ? (
@@ -175,6 +202,15 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
                     ))}
                   </span>
                 </button>
+                {c.draft && (
+                  <button
+                    className="card-tool"
+                    onClick={() => void handleApproveDraft(c)}
+                    title={t('draftApproveTitle')}
+                  >
+                    {t('draftApproveBtn')}
+                  </button>
+                )}
                 {isBuried(c) && !c.suspended && (
                   <button
                     className="card-tool"
