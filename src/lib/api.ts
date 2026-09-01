@@ -119,7 +119,7 @@ export function removeUser(id: string): Promise<{ ok: true }> {
 // The API key lives on the server; the client only ever sees these results.
 
 export type PipelineMode = 'model' | 'fallback' | 'local'
-export type FallbackReason = 'no-key' | 'budget' | 'api-error' | 'offline'
+export type FallbackReason = 'by-choice' | 'no-key' | 'budget' | 'api-error' | 'offline'
 
 export interface ServerSource {
   id: string
@@ -225,11 +225,15 @@ export function estimateSource(id: string): Promise<SourceEstimate> {
   return api(`/api/sources/${id}/estimate`)
 }
 
+/** `useModel` is opt-in: without it the free rule-based path runs. */
 export function proposeOutline(
   id: string,
   discipline: string,
+  useModel = false,
 ): Promise<{ outline: { topics: OutlineTopicDto[] } } & StepResult> {
-  return api(`/api/sources/${id}/outline?discipline=${discipline}`, { method: 'POST' })
+  return api(`/api/sources/${id}/outline?discipline=${discipline}${useModel ? '&model=1' : ''}`, {
+    method: 'POST',
+  })
 }
 
 export function getOutline(id: string): Promise<{ topics: OutlineTopicDto[] }> {
@@ -247,8 +251,9 @@ export function generateTopic(
   id: string,
   topicId: string,
   discipline: string,
+  useModel = false,
 ): Promise<{ topicId: string; cards: number; drafts?: number; cached?: boolean } & StepResult> {
-  return api(`/api/sources/${id}/generate?discipline=${discipline}`, {
+  return api(`/api/sources/${id}/generate?discipline=${discipline}${useModel ? '&model=1' : ''}`, {
     method: 'POST',
     body: JSON.stringify({ topicId }),
   })

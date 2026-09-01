@@ -379,6 +379,13 @@ export const de: Messages = {
     'Wie viel die Kartenerstellung pro Monat kosten darf. Ist es aufgebraucht, übernimmt der regelbasierte Generator — und sagt es.',
   sourceModelUnavailable: 'Kein Modell verfügbar — es läuft der regelbasierte Generator.',
   sourceModelOff: 'Kein Modell verfügbar — die Karten stammen aus Regeln.',
+  modelOffName: 'Kostenlos, nach Regeln',
+  modelOffDesc:
+    'Karten entstehen aus Mustern im Text — Definitionen, Merkmale, Paragrafen, Prozesse, Jahreszahlen und Zahlen. Kostet nichts und geht offline.',
+  modelOnName: 'Mit Modell (kostenpflichtig)',
+  modelOnDesc:
+    'Das Modell liest die Unterlage und schreibt Karten auch dort, wo Regeln nicht reichen. Die Schätzung steht vorher an der Unterlage.',
+  sourceReasonChoice: 'du hast die Regeln gewählt',
   sourceReasonNoKey: 'kein API-Schlüssel',
   sourceReasonBudget: 'Monatsbudget aufgebraucht',
   sourceReasonApiError: 'die API hat nicht geantwortet',

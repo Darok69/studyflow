@@ -175,6 +175,29 @@ export function digestBlocks(blocks: Block[]): Block[] {
   return blocks.map(blockDigest)
 }
 
+/**
+ * Abbreviations whose full stop does not end a sentence. Without this, "roku
+ * 451 př. n. l. a stal se…" falls apart into three fragments and the date is
+ * lost — exactly the sentence a history card would have been made from.
+ */
+const ABBREVIATIONS = [
+  'př', 'n', 'l', 'st', 'sv', 'tj', 'tzv', 'např', 'č', 'čl', 'odst', 'písm', 'resp', 'atd', 'apod',
+  'Abs', 'Nr', 'bzw', 'ggf', 'vgl', 'ca', 'z', 'B', 'd', 'h', 'u', 'a', 'S',
+]
+const MASK = '\u0001'
+
+/** Split into sentences, keeping abbreviations intact. */
+export function splitSentences(text: string, minLength = 25): string[] {
+  let masked = text
+  for (const abbr of ABBREVIATIONS) {
+    masked = masked.replace(new RegExp(`\\b${abbr}\\.`, 'gu'), `${abbr}${MASK}`)
+  }
+  return masked
+    .split(/(?<=[.!?])\s+/u)
+    .map((s) => s.replaceAll(MASK, '.').trim())
+    .filter((s) => s.length >= minLength)
+}
+
 /** Total characters — used for the pre-run cost estimate. */
 export function blocksLength(blocks: Block[]): number {
   return blocks.reduce((n, b) => n + b.text.length + b.heading.length, 0)

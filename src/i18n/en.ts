@@ -371,6 +371,13 @@ export const en: Messages = {
     'How much card generation may cost per month. Once it is spent, the rule-based generator takes over and says so.',
   sourceModelUnavailable: 'No model available — the rule-based generator will run.',
   sourceModelOff: 'No model available — the cards were made by rules.',
+  modelOffName: 'Free, by rules',
+  modelOffDesc:
+    'Cards come from patterns in the text — definitions, elements, paragraphs, processes, dates and figures. Costs nothing and works offline.',
+  modelOnName: 'With the model (paid)',
+  modelOnDesc:
+    'The model reads the material and writes cards where rules cannot. The estimate is shown on the source beforehand.',
+  sourceReasonChoice: 'you chose the rules',
   sourceReasonNoKey: 'no API key',
   sourceReasonBudget: 'monthly budget spent',
   sourceReasonApiError: 'the API did not answer',

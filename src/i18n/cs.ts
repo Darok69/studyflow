@@ -372,6 +372,13 @@ export const cs = {
     'Kolik smí generování karet za měsíc stát. Po vyčerpání se přepne na pravidlový generátor a řekne to.',
   sourceModelUnavailable: 'Model není k dispozici — poběží pravidlový generátor.',
   sourceModelOff: 'Model není k dispozici — karty vyrobila pravidla.',
+  modelOffName: 'Zdarma podle pravidel',
+  modelOffDesc:
+    'Karty vyrobí vzory v textu — definice, znaky, paragrafy, procesy, letopočty a čísla. Nic to nestojí a funguje to i bez internetu.',
+  modelOnName: 'S modelem (platí se)',
+  modelOnDesc:
+    'Model projde podklad a napíše karty i tam, kde pravidla nestačí. Odhad ceny uvidíš u podkladu předem.',
+  sourceReasonChoice: 'zvolil sis pravidla',
   sourceReasonNoKey: 'chybí API klíč',
   sourceReasonBudget: 'vyčerpaný měsíční rozpočet',
   sourceReasonApiError: 'API neodpovědělo',

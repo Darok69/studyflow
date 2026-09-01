@@ -3,8 +3,12 @@
 // produced from memory. Pure + testable: no React, no DB.
 import type { CardKind } from '../db/cardKinds'
 
-/** Kinds whose answer is a sequence of steps rather than one statement. */
-const STEPPED: ReadonlySet<CardKind> = new Set<CardKind>(['pripad', 'schema', 'proces'])
+/**
+ * Kinds whose answer is a sequence rather than one statement. A list of
+ * elements belongs here too: at the exam they are recited one by one, so they
+ * should be retrieved one by one.
+ */
+const STEPPED: ReadonlySet<CardKind> = new Set<CardKind>(['pripad', 'schema', 'proces', 'znaky'])
 
 export function isStepped(kind: CardKind | undefined): boolean {
   return kind !== undefined && STEPPED.has(kind)

@@ -58,7 +58,14 @@ import {
 } from '../src/pipeline/segment'
 import { dedupeCards, normalizeQuestion, similarity } from '../src/pipeline/dedupe'
 import { checkCard, checkEvidence, countSentences, markDrafts } from '../src/pipeline/qc'
-import { fallbackCardsFromBlock, fallbackOutline, FALLBACK_TAG, significantTerm } from '../src/pipeline/fallback'
+import {
+  fallbackCards,
+  fallbackCardsFromBlock,
+  fallbackOutline,
+  FALLBACK_TAG,
+  MAX_CARDS_PER_BLOCK,
+  significantTerm,
+} from '../src/pipeline/fallback'
 import { parseGeneratedCards, parseOutline } from '../src/pipeline/schema'
 import {
   addSpend,
@@ -848,6 +855,7 @@ console.log('— numeric estimates (geography) —')
 console.log('— worked examples with fading —')
 {
   ok(isStepped('pripad') && isStepped('schema') && !isStepped('definice'), 'only sequential kinds fade')
+  ok(isStepped('znaky'), 'a list of elements is recited one by one, so it fades too')
 
   const solved = 'Norma: § 823 BGB\nZnaky: jednání, protiprávnost, zavinění\nSubsumpce: řidič porušil povinnost\nVýsledek: nárok na náhradu'
   const steps = answerSteps(solved)
@@ -941,6 +949,110 @@ console.log('— cost: the outline reads a digest, grounding is free —')
   const marked = markDrafts([grounded, { ...grounded, evidence: 'Das Eigentum endet mit dem Tod des Eigentümers' }], long.text)
   ok(marked[0].draft === undefined, 'the grounded card passes untouched')
   ok(marked[1].draft === true && marked[1].draftReason === 'not-in-source', 'the ungrounded one becomes a draft')
+}
+
+
+console.log('— rules alone make real law cards (no model, no bill) —')
+{
+  const law: Block = {
+    id: 'p1-b1',
+    heading: 'Delikt',
+    page: 1,
+    text: [
+      'Besitz ist die tatsächliche Herrschaft über eine Sache, unabhängig vom Recht daran.',
+      'Znaky deliktu jsou: jednání, protiprávnost, zavinění a škoda.',
+      'Podle § 823 BGB je každý povinen nahradit škodu, kterou způsobil zaviněným protiprávním jednáním.',
+      'Držba na rozdíl od vlastnictví, chrání pouze faktický stav věci a nikoli právní titul.',
+      'Ein Schaden liegt vor, wenn das Vermögen des Geschädigten unfreiwillig gemindert wird.',
+    ].join('\n'),
+  }
+  const cards = fallbackCardsFromBlock(law, { discipline: 'law' })
+  const byKind = new Map(cards.map((c) => [c.kind, c]))
+  ok(cards.length >= 5, `a paragraph of law yields a deck (${cards.length} cards)`)
+  ok(cards.every((c) => c.tags?.includes(FALLBACK_TAG)), 'every rule-made card is tagged')
+  ok(cards.every((c) => c.sourceRef?.page === 1), 'every card points back at its page')
+
+  const elements = byKind.get('znaky')
+  ok(elements?.front === 'Jaké jsou znaky deliktu?', `the list question reads naturally (${elements?.front})`)
+  ok(elements?.back?.split('\n').length === 4, 'the four elements land on four lines — the study screen reveals them one by one')
+
+  const norm = byKind.get('norma')
+  ok(norm?.front === 'Co stanoví § 823 BGB?', `a paragraph becomes a norm card (${norm?.front})`)
+  ok(!cards.some((c) => c.front?.startsWith('Co je Podle')), 'a sentence pointing at a norm is not mistaken for a definition')
+
+  const distinction = byKind.get('rozliseni')
+  ok(distinction?.front === 'Čím se držba liší od vlastnictví?', `confusable institutes get their own card (${distinction?.front})`)
+  ok(distinction?.back === 'chrání pouze faktický stav věci a nikoli právní titul', 'the answer is the difference, not the whole sentence')
+
+  const german = cards.find((c) => c.front === 'Was ist Schaden?')
+  ok(!!german, 'German "liegt vor, wenn" is a definition too')
+  ok(!cards.some((c) => c.front?.includes('Ein Schaden')), 'the article is not part of the term')
+  ok(cards.every((c) => (c.front ?? '').length < 90), 'no question turns into a paragraph')
+}
+
+console.log('— and real geography cards —')
+{
+  const geo: Block = {
+    id: 'p2-b1',
+    heading: 'Alpy',
+    page: 2,
+    text: [
+      'Orografické zvedání vlhkého vzduchu vede k intenzivním srážkám na návětrné straně pohoří.',
+      'Alpy mají rozlohu 200 000 km² a zasahují do osmi států.',
+      'Föhn ist ein warmer Fallwind, der auf der Leeseite entsteht.',
+    ].join('\n'),
+  }
+  const cards = fallbackCardsFromBlock(geo, { discipline: 'geography' })
+  const process = cards.find((c) => c.kind === 'proces')
+  ok(process?.front === 'K čemu vede Orografické zvedání vlhkého vzduchu?', `a causal chain becomes a process card (${process?.front})`)
+  ok(process?.level === 2, 'a process is understanding, not recall')
+
+  const figure = cards.find((c) => c.kind === 'cisla')
+  ok(!!figure && figure.text?.includes('{{200 000 km²}}'), 'a magnitude becomes a `cisla` card — graded by order of magnitude')
+  ok(cards.some((c) => c.front === 'Was ist Föhn?'), 'definitions still work in geography')
+
+  // The same text read as law must not produce a geography-shaped deck.
+  const asLaw = fallbackCardsFromBlock(geo, { discipline: 'law' })
+  ok(!asLaw.some((c) => c.kind === 'cisla'), 'the discipline decides which patterns run')
+}
+
+console.log('— the free path stays honest —')
+{
+  const block: Block = { id: 'p3-b1', heading: '', page: 3, text: 'Zkoumání této problematiky vyžaduje trpělivost a soustředění během celého semestru.' }
+  const plain = fallbackCardsFromBlock(block)
+  ok(plain.length === 1 && plain[0].text?.includes('{{'), 'an ordinary paragraph still yields one cloze')
+  ok(fallbackCardsFromBlock({ ...block, text: '' }).length === 0, 'an empty block yields nothing')
+
+  const dense: Block = {
+    id: 'p4-b1',
+    heading: 'Hodně',
+    page: 4,
+    text: Array.from({ length: 12 }, (_, i) => `Pojem${i} je vysvětlení číslo ${i} popsané dostatečně dlouhou větou.`).join('\n'),
+  }
+  ok(fallbackCardsFromBlock(dense).length <= MAX_CARDS_PER_BLOCK, 'a dense block does not explode into dozens of cards')
+  ok(fallbackCards([dense, block]).length > 1, 'cards come from every block')
+
+  // Duplicates inside one block are pointless.
+  const repeated: Block = { id: 'p5-b1', heading: '', page: 5, text: 'Dominium je vlastnické právo k věci podle vůle vlastníka.\nDominium je vlastnické právo k věci podle vůle vlastníka.' }
+  ok(fallbackCardsFromBlock(repeated).length === 1, 'the same sentence twice is one card')
+
+  // Dates matter in law and history — and Czech writes them with abbreviations
+  // that used to tear the sentence apart before it could be turned into a card.
+  const dated: Block = {
+    id: 'p7-b1',
+    heading: '',
+    page: 7,
+    text: 'Zákon dvanácti desek vznikl roku 451 př. n. l. a stal se základem civilního práva.',
+  }
+  const datedCards = fallbackCardsFromBlock(dated, { discipline: 'law' })
+  ok(datedCards.some((c) => c.text?.includes('{{451 př. n. l.}}')), `a "před naším letopočtem" date becomes a cloze (${datedCards[0]?.text ?? '—'})`)
+
+  const outline = fallbackOutline([law2(), law2('p6-b2')], { discipline: 'law' })
+  ok(outline.topics[0].cardEstimate > 0, 'the outline promises the number of cards the rules will really make')
+}
+
+function law2(id = 'p6-b1'): Block {
+  return { id, heading: 'Vlastnictví', page: 6, text: 'Dominium je vlastnické právo k věci, které zahrnuje užívání, požívání i zcizení.' }
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

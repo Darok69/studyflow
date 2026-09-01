@@ -1392,6 +1392,11 @@ h3 {
   color: color-mix(in srgb, var(--mid) 75%, var(--ink));
 }
 
+/* The free/paid switch sits above the list — it decides what the buttons do. */
+.model-row {
+  align-items: center;
+}
+
 /* ---------- Sources (material → outline → cards) ---------- */
 /* The file picker is a styled label; the input itself stays in the accessibility
    tree (focusable, announced) but out of sight. */

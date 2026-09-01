@@ -88,7 +88,13 @@ export type QcIssue =
  */
 export type PipelineMode = 'model' | 'fallback' | 'local'
 
-export type FallbackReason = 'no-key' | 'budget' | 'offline' | 'api-error'
+export type FallbackReason =
+  /** The user did not ask for the model — the free rules are the default. */
+  | 'by-choice'
+  | 'no-key'
+  | 'budget'
+  | 'offline'
+  | 'api-error'
 
 export interface GenerationResult {
   mode: PipelineMode

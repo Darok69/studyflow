@@ -57,11 +57,18 @@ function spend(userId, usd) {
   return saveLedger(userId, { ...addSpend(ledger, usd), budgetUsd: ledger.budgetUsd })
 }
 
+/** The model is opt-in per request: `?model=1`. Anything else stays free. */
+function wantsModel(req) {
+  return req.query?.model === '1' || req.query?.model === 'true'
+}
+
 /**
- * May this step call the model? A missing key, an exhausted budget and an API
- * outage all end the same way — rules take over and the answer says which.
+ * May this step call the model? Not asking for it is the DEFAULT and not a
+ * failure; a missing key, an exhausted budget and an API outage end the same
+ * way as asking without being able to — rules take over and the answer says so.
  */
-function modelAllowed(userId, plannedUsd) {
+function modelAllowed(userId, plannedUsd, req) {
+  if (req && !wantsModel(req)) return { mode: 'fallback', reason: 'by-choice' }
   if (!aiEnabled()) return { mode: 'fallback', reason: 'no-key' }
   const ledger = ledgerOf(userId)
   if (ledger.spentUsd + plannedUsd > ledger.budgetUsd) return { mode: 'fallback', reason: 'budget' }
@@ -155,7 +162,7 @@ export function registerSourceRoutes(app, { requireUser }) {
         if (!IMAGE_MEDIA_TYPES.has(mediaType)) {
           throw new AiError('bad-output', 'unsupported image type')
         }
-        const gate = modelAllowed(user.id, 0.05)
+        const gate = modelAllowed(user.id, 0.05, req)
         if (gate.mode === 'fallback') {
           // A picture without a model cannot be read. Say it plainly instead of
           // pretending the source is empty.
@@ -217,6 +224,8 @@ export function registerSourceRoutes(app, { requireUser }) {
       cardEstimate,
       blocks: blocks.length,
       ...ledger,
+      // What it would cost if the model were asked for — the estimate exists
+      // precisely so that choice can be made with a number in front of you.
       ...modelAllowed(user.id, estimateUsd),
     }
   })
@@ -232,7 +241,7 @@ export function registerSourceRoutes(app, { requireUser }) {
     if (blocks.length === 0) return reply.code(409).send({ error: 'not-extracted' })
 
     const planned = estimateCostUsd({ chars: blocksLength(blocks), cardEstimate: 0 })
-    let gate = modelAllowed(user.id, planned)
+    let gate = modelAllowed(user.id, planned, req)
     let outline
 
     if (gate.mode === 'model') {
@@ -249,7 +258,9 @@ export function registerSourceRoutes(app, { requireUser }) {
         gate = { mode: 'fallback', reason: error instanceof AiError ? error.code : 'api-error' }
       }
     }
-    if (!outline) outline = fallbackOutline(blocks)
+    // The rule-based outline counts the cards the rules would really make, so
+    // the approval screen shows a real number, not a guess.
+    if (!outline) outline = fallbackOutline(blocks, { discipline: subjectDiscipline(req.query) })
 
     writeArtefact(user.id, meta.id, 'outline', outline)
     patchSource(user.id, meta.id, { status: 'outlined' })
@@ -310,7 +321,7 @@ export function registerSourceRoutes(app, { requireUser }) {
     if (blocks.length === 0) return reply.code(409).send({ error: 'no-blocks' })
 
     const planned = estimateCostUsd({ chars: blocksLength(blocks), cardEstimate: topic.cardEstimate })
-    let gate = modelAllowed(user.id, planned)
+    let gate = modelAllowed(user.id, planned, req)
     let cards = null
 
     patchSource(user.id, meta.id, { status: 'generating' })
@@ -330,7 +341,7 @@ export function registerSourceRoutes(app, { requireUser }) {
         gate = { mode: 'fallback', reason: error instanceof AiError ? error.code : 'api-error' }
       }
     }
-    if (!cards) cards = fallbackCards(blocks)
+    if (!cards) cards = fallbackCards(blocks, { discipline: subjectDiscipline(req.query) })
 
     // Deduplicate against everything already generated for this source.
     const existing = []

@@ -2,6 +2,38 @@
 
 Nejnovější nahoře. Formát: co, proč, jaké alternativy zamítnuty.
 
+## 2026-09-02 — Bez modelu je VÝCHOZÍ stav, ne nouzovka
+
+Daniel: „chci aby to bylo nejperfektnější bez AI, nechci za vše platit."
+
+**Model je opt-in per běh.** Server pustí model jen na `?model=1`; bez toho
+jedou pravidla a odpověď nese `reason: 'by-choice'`. V UI je přepínač
+„Zdarma podle pravidel / S modelem (platí se)", výchozí vypnutý, odhad ceny se
+ukazuje jen když je zapnutý. Zamítnuto: „použij model, když je klíč" — to je
+přesně ten stav, kdy se platí za věci, které umí pravidla.
+
+**„Bez modelu" ≠ „bez kvality".** Pravidlový generátor umí typy karet obou oborů:
+- `definice` (cs/de/en včetně „liegt vor, wenn", „se rozumí", „Unter X versteht man"),
+- `znaky` — výčet za dvojtečkou se rozpadne na položky, každá na svůj řádek
+  (učení je pak odkrývá po jedné),
+- `norma` — věta s § / čl. se ptá „Co stanoví § 823 BGB?" místo aby z toho dělala definici,
+- `rozliseni` — „na rozdíl od / im Gegensatz zu" dá kartu na dva zaměnitelné instituty,
+- `proces` — „vede k / führt zu" dá kauzální řetěz (úroveň 2),
+- `cisla` — číslo s jednotkou v zeměpise (známkuje se řádově),
+- letopočty a cloze na nejvýznamnější termín jako záchranná síť.
+
+Každá karta prochází stejnou kontrolou kvality jako výstup modelu; co neprojde,
+se zahodí. **Špatná karta je horší než chybějící — naučí se.**
+
+Dvě pasti, které to skoro potopily a jsou pokryté testy:
+- 🔴 `sentences()` dělené na `[.!?]` rozsekalo „451 př. n. l." na tři kusy a datum
+  zmizelo → `splitSentences` maskuje zkratky (a `\b` v JS je ASCII-only!).
+- 🔴 Po reflow PDF odstavce list za dvojtečkou pokračoval přes konec věty →
+  položky se berou jen z první věty za dvojtečkou.
+
+Odhad v osnově u pravidel **není odhad** — spočítá se skutečným během generátoru,
+takže „7 karet" znamená 7 karet.
+
 ## 2026-09-02 — Učení podle briefu §5 + poloviční cena pipeline
 
 **Kalibrace je zároveň odkrytí.** „Vím / Tuším / Nevím" nahradí tlačítko

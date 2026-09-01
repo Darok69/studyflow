@@ -36,6 +36,7 @@ function money(usd: number): string {
 }
 
 function reasonLabel(reason: FallbackReason | undefined): string {
+  if (reason === 'by-choice') return t('sourceReasonChoice')
   if (reason === 'budget') return t('sourceReasonBudget')
   if (reason === 'api-error') return t('sourceReasonApiError')
   if (reason === 'offline') return t('sourceReasonOffline')
@@ -88,6 +89,8 @@ export function Sources({ onBack }: Props) {
   const [pasting, setPasting] = useState(false)
   const [pasted, setPasted] = useState('')
   const [online, setOnline] = useState(navigator.onLine)
+  // The model is opt-in. Everything works without it — and free.
+  const [useModel, setUseModel] = useState(false)
   const fileInput = useRef<HTMLInputElement>(null)
 
   async function reload() {
@@ -191,7 +194,7 @@ export function Sources({ onBack }: Props) {
 
   async function handleOutline(source: ServerSource) {
     const res = await run(source.id, async () => {
-      const out = await proposeOutline(source.id, disciplineOf(subject))
+      const out = await proposeOutline(source.id, disciplineOf(subject), useModel)
       await reload()
       return out
     })
@@ -201,7 +204,9 @@ export function Sources({ onBack }: Props) {
       topics: res.outline.topics,
       selected: new Set(res.outline.topics.map((topic) => topic.id)),
     })
-    if (res.mode === 'fallback') setNote(`${t('sourceModelOff')} (${reasonLabel(res.reason)})`)
+    if (res.mode === 'fallback' && res.reason !== 'by-choice') {
+      setNote(`${t('sourceModelOff')} (${reasonLabel(res.reason)})`)
+    }
   }
 
   /**
@@ -226,7 +231,7 @@ export function Sources({ onBack }: Props) {
         // One request per topic: a failure costs one topic, not the batch. The
         // grounding check runs inside it (each card must quote the source), so
         // no second model pass is chained on — that used to be ~40 % of the bill.
-        const res = await generateTopic(outline.sourceId, topic.id, disciplineOf(subject))
+        const res = await generateTopic(outline.sourceId, topic.id, disciplineOf(subject), useModel)
         if (res.mode === 'fallback') {
           usedFallback = true
           fellBack = res.reason
@@ -235,7 +240,8 @@ export function Sources({ onBack }: Props) {
       }
       setOutline(null)
       await reload()
-      setNote(usedFallback ? `${t('sourceModelOff')} (${reasonLabel(fellBack)})` : null)
+      // Rules by choice need no apology; a model that could not run does.
+      setNote(usedFallback && fellBack !== 'by-choice' ? `${t('sourceModelOff')} (${reasonLabel(fellBack)})` : null)
     } catch {
       setError(t('errSourceFailed'))
     } finally {
@@ -330,12 +336,29 @@ export function Sources({ onBack }: Props) {
             </select>
           </label>
 
-          {status && (
-            <p className="muted">
-              {t('sourceSpent', money(status.spentUsd), money(status.budgetUsd))}
-              {!status.enabled && ` · ${t('sourceModelUnavailable')}`}
-            </p>
-          )}
+          <label className="setting-row model-row">
+            <div className="setting-text">
+              <div className="setting-name">{useModel ? t('modelOnName') : t('modelOffName')}</div>
+              <p className="muted setting-desc">
+                {useModel ? t('modelOnDesc') : t('modelOffDesc')}
+              </p>
+              {status && (
+                <p className="muted setting-desc">
+                  {t('sourceSpent', money(status.spentUsd), money(status.budgetUsd))}
+                  {!status.enabled && ` · ${t('sourceModelUnavailable')}`}
+                </p>
+              )}
+            </div>
+            <label className="switch">
+              <input
+                type="checkbox"
+                checked={useModel}
+                disabled={!status?.enabled}
+                onChange={(e) => setUseModel(e.target.checked)}
+              />
+              <span className="switch-slider" aria-hidden="true" />
+            </label>
+          </label>
 
           {note && (
             <div className="guardrail" role="status">
@@ -362,7 +385,7 @@ export function Sources({ onBack }: Props) {
                       {source.status === 'error' && source.error === 'no-key' && (
                         <span className="row-chip">{t('sourceNeedsModel')}</span>
                       )}
-                      {estimate && source.status !== 'done' && (
+                      {useModel && estimate && source.status !== 'done' && (
                         <span className="row-chip">{t('sourceEstimate', money(estimate.estimateUsd))}</span>
                       )}
                     </div>
