@@ -54,6 +54,31 @@ export const CARDS_SCHEMA = {
   },
 } as const
 
+export const VERDICTS_SCHEMA = {
+  type: 'object',
+  additionalProperties: false,
+  required: ['verdicts'],
+  properties: {
+    verdicts: {
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        required: ['ok'],
+        properties: {
+          ok: { type: 'boolean' },
+          issue: { type: 'string' },
+        },
+      },
+    },
+  },
+} as const
+
+export interface Verdict {
+  ok: boolean
+  issue?: string
+}
+
 function asRecord(value: unknown): Record<string, unknown> | null {
   return value && typeof value === 'object' && !Array.isArray(value)
     ? (value as Record<string, unknown>)
@@ -160,4 +185,24 @@ export function parseGeneratedCards(data: unknown, ctx: CardContext): ParseResul
   })
 
   return { value: out, errors }
+}
+
+/**
+ * Verdicts of the model's quality pass, aligned with the cards that were sent.
+ * A missing or malformed verdict counts as "passed": quality control may
+ * demote a card to draft, it must never silently delete work.
+ */
+export function parseVerdicts(data: unknown, expected: number): ParseResult<Verdict[]> {
+  const errors: string[] = []
+  const root = asRecord(data)
+  const raw = root && Array.isArray(root.verdicts) ? root.verdicts : null
+  if (!raw) return { value: Array.from({ length: expected }, () => ({ ok: true })), errors: ['qc: missing verdicts'] }
+  if (raw.length !== expected) errors.push(`qc: ${raw.length} verdicts for ${expected} cards`)
+
+  const value: Verdict[] = Array.from({ length: expected }, (_, i) => {
+    const v = asRecord(raw[i])
+    if (!v || typeof v.ok !== 'boolean') return { ok: true }
+    return { ok: v.ok, issue: typeof v.issue === 'string' ? v.issue.slice(0, 200) : undefined }
+  })
+  return { value, errors }
 }

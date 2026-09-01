@@ -21,6 +21,9 @@ import {
 } from './auth.js'
 import { findUserByEmail, getBackup, getPushSubs, getUsers, saveBackup, savePushSubs, deleteBackup, DATA_DIR } from './store.js'
 import { extraMessage, publicKey, pushEnabled, sendPush, startPushCron } from './push.js'
+import { registerSourceRoutes } from './sources-routes.js'
+import { listSources, deleteSource } from './blobs.js'
+import { aiEnabled } from './ai.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DIST_DIR = process.env.DIST_DIR ?? join(__dirname, '../../dist')
@@ -67,7 +70,7 @@ function requireAdmin(req, reply) {
 }
 
 // ---- public ----
-app.get('/api/config', async () => ({ server: true, pushEnabled }))
+app.get('/api/config', async () => ({ server: true, pushEnabled, aiEnabled: aiEnabled() }))
 
 app.post('/api/login', async (req, reply) => {
   const { email, code } = req.body ?? {}
@@ -233,8 +236,13 @@ app.delete('/api/users/:id', async (req, reply) => {
   if (!deleteUser(req.params.id)) return reply.code(404).send({ error: 'not-found' })
   deleteBackup(req.params.id)
   savePushSubs(getPushSubs().filter((s) => s.userId !== req.params.id))
+  // Source materials belong to the account too — they go with it.
+  for (const source of listSources(req.params.id)) deleteSource(req.params.id, source.id)
   return { ok: true }
 })
+
+// ---- source materials + generation pipeline ----
+registerSourceRoutes(app, { requireUser })
 
 // ---- static PWA shell ----
 await app.register(fastifyStatic, {

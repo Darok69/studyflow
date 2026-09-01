@@ -73,9 +73,14 @@ export type QcIssue =
   | 'cloze-no-blank'
   | 'needs-image'
   | 'duplicate'
+  /** The model's second pass did not find the answer in the source. */
+  | 'not-in-source'
 
-/** How a batch of cards was produced — the UI must say when it was the fallback. */
-export type PipelineMode = 'model' | 'fallback'
+/**
+ * How a step was carried out — the UI must say which. 'local' means no model was
+ * ever needed (reading a PDF), 'fallback' means one was wanted and not available.
+ */
+export type PipelineMode = 'model' | 'fallback' | 'local'
 
 export type FallbackReason = 'no-key' | 'budget' | 'offline' | 'api-error'
 

@@ -30,6 +30,51 @@ export function isHeading(line: string): boolean {
   return /^\p{Lu}/u.test(s) && s.split(/\s+/).length <= 8
 }
 
+/**
+ * PDF text arrives as visual LINES, not paragraphs — pdf.js knows where a line
+ * broke on the page, not where a thought ended. Without this step every page
+ * collapses into a single block and headings vanish into the body.
+ *
+ * Rules that survive Czech and German typography: a hyphen at the end of a line
+ * is a broken word, a heading stands on its own, and a line noticeably shorter
+ * than the rest ends its paragraph.
+ */
+export function normalizePdfText(raw: string): string {
+  const lines = raw
+    .split('\n')
+    .map((l) => l.replace(/\s+/g, ' ').trim())
+    .filter((l) => l && !PAGE_NUMBER_ONLY.test(l))
+  if (lines.length === 0) return ''
+
+  const lengths = [...lines.map((l) => l.length)].sort((a, b) => a - b)
+  const median = lengths[Math.floor(lengths.length / 2)]
+  const shortLine = Math.max(24, median * 0.6)
+
+  const out: string[] = []
+  let para = ''
+  const flush = (): void => {
+    if (para.trim()) out.push(para.trim())
+    para = ''
+  }
+
+  for (const line of lines) {
+    if (isHeading(line)) {
+      flush()
+      out.push(line)
+      continue
+    }
+    if (para.endsWith('-')) para = para.slice(0, -1) + line // hyphenated word
+    else para = para ? `${para} ${line}` : line
+
+    // A short line is the last line of its paragraph — unless the text simply
+    // has short lines everywhere (tables, verse), which the median absorbs.
+    if (line.length < shortLine) flush()
+  }
+  flush()
+
+  return out.join('\n\n')
+}
+
 function paragraphs(text: string): string[] {
   return text
     .split(/\n\s*\n/)
