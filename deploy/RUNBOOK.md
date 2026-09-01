@@ -59,3 +59,31 @@ docker run --rm -v studyflow_studyflow-data:/data -v /root:/out alpine \
 - User codes are shown once at creation; "Nový kód" invalidates the old one.
 - The container serves the PWA shell publicly; all DATA endpoints require a
   session. Rate limiting is on the login endpoint.
+
+## Generování karet z podkladů (od 2026-09)
+
+Pipeline (podklad → osnova → karty) volá Anthropic API **výhradně ze serveru**.
+Bez klíče appka funguje dál: karty vyrobí pravidlový generátor a UI to řekne.
+
+1. Klíč do `/opt/studyflow/.env` (vedle ostatních secrets):
+
+   ```
+   ANTHROPIC_API_KEY=sk-ant-…
+   AI_MONTHLY_BUDGET_USD=15     # volitelné, výchozí strop pro nový účet
+   ```
+
+2. Přebuildovat a nasadit jako obvykle (`docker compose up -d --build`).
+   Dockerfile ve fázi build spouští i `npm run build:pipeline` → `server/gen/`.
+
+3. Ověření po nasazení:
+
+   ```
+   curl -s https://study.dmarka.eu/api/config     # aiEnabled: true
+   ```
+
+   Měsíční strop se nastavuje v aplikaci (Nastavení → Generování karet) a drží
+   ho server v `/data/usage/{userId}.json`; po jeho vyčerpání se generování samo
+   přepne na pravidla.
+
+4. Data podkladů leží v `/data/sources/{userId}/{sourceId}/` (originál, text po
+   stranách, bloky, osnova, karty po tématech). Smazáním účtu se mažou i ony.

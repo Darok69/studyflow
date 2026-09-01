@@ -361,6 +361,10 @@ export const cs = {
   sourceDeleteConfirm: 'Smazat podklad i s vygenerovanými kartami? Karty už přidané do balíčku zůstanou.',
   sourceEstimate: (usd: string) => `Odhad ceny: ${usd}`,
   sourceSpent: (spent: string, budget: string) => `Tento měsíc utraceno ${spent} z ${budget}`,
+  sectionAi: 'Generování karet',
+  aiBudgetName: 'Měsíční strop',
+  aiBudgetDesc:
+    'Kolik smí generování karet za měsíc stát. Po vyčerpání se přepne na pravidlový generátor a řekne to.',
   sourceModelUnavailable: 'Model není k dispozici — poběží pravidlový generátor.',
   sourceModelOff: 'Model není k dispozici — karty vyrobila pravidla.',
   sourceReasonNoKey: 'chybí API klíč',

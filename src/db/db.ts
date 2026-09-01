@@ -140,7 +140,6 @@ export interface Settings {
   breakNudgeMinutes: number // soft break suggestion interval
   cardFontScale: number // card text size multiplier (0.9 / 1 / 1.2)
   cardSans: boolean // sans-serif card face instead of serif
-  aiMonthlyBudgetUsd: number // hard monthly ceiling for the generation pipeline
 }
 
 // Typed Dexie instance. We avoid the `class extends Dexie` pattern because, with

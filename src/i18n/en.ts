@@ -361,6 +361,10 @@ export const en: Messages = {
   sourceDeleteConfirm: 'Delete the material and its generated cards? Cards already added to the deck stay.',
   sourceEstimate: (usd: string) => `Estimated cost: ${usd}`,
   sourceSpent: (spent: string, budget: string) => `Spent this month: ${spent} of ${budget}`,
+  sectionAi: 'Card generation',
+  aiBudgetName: 'Monthly ceiling',
+  aiBudgetDesc:
+    'How much card generation may cost per month. Once it is spent, the rule-based generator takes over and says so.',
   sourceModelUnavailable: 'No model available — the rule-based generator will run.',
   sourceModelOff: 'No model available — the cards were made by rules.',
   sourceReasonNoKey: 'no API key',

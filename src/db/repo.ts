@@ -14,7 +14,7 @@ import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
 import { subjectColorIndex } from '../lib/theme'
-import { BREAK_NUDGE_MINUTES, DEFAULT_AI_BUDGET_USD, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
+import { BREAK_NUDGE_MINUTES, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
 import { dayKey } from '../lib/date'
 
 const SETTINGS_ID = 'app'
@@ -403,7 +403,6 @@ export const DEFAULT_SETTINGS: Settings = {
   breakNudgeMinutes: BREAK_NUDGE_MINUTES,
   cardFontScale: 1,
   cardSans: false,
-  aiMonthlyBudgetUsd: DEFAULT_AI_BUDGET_USD,
 }
 
 export async function getSettings(): Promise<Settings> {

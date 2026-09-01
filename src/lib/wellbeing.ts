@@ -7,8 +7,6 @@ export const HEAVY_CARD_THRESHOLD = 60
 export const HEAVY_MINUTES_THRESHOLD = 25
 export const BREAK_NUDGE_MINUTES = 22
 export const DEFAULT_DAILY_NEW_CAP = 20
-/** Monthly ceiling for the generation pipeline; over it the rule-based fallback takes over. */
-export const DEFAULT_AI_BUDGET_USD = 15
 
 /** Rough minutes for a number of cards (≈8 s each), min 1 when there are any. */
 export function estimateMinutes(cardCount: number): number {

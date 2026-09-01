@@ -369,6 +369,10 @@ export const de: Messages = {
     'Unterlage samt erzeugten Karten löschen? Bereits ins Deck übernommene Karten bleiben.',
   sourceEstimate: (usd: string) => `Geschätzte Kosten: ${usd}`,
   sourceSpent: (spent: string, budget: string) => `Diesen Monat ausgegeben: ${spent} von ${budget}`,
+  sectionAi: 'Kartenerstellung',
+  aiBudgetName: 'Monatslimit',
+  aiBudgetDesc:
+    'Wie viel die Kartenerstellung pro Monat kosten darf. Ist es aufgebraucht, übernimmt der regelbasierte Generator — und sagt es.',
   sourceModelUnavailable: 'Kein Modell verfügbar — es läuft der regelbasierte Generator.',
   sourceModelOff: 'Kein Modell verfügbar — die Karten stammen aus Regeln.',
   sourceReasonNoKey: 'kein API-Schlüssel',
