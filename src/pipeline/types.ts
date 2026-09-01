@@ -51,6 +51,12 @@ export interface GeneratedCard {
   /** Cloze source text with `{{blanks}}` (used instead of front/back). */
   text?: string
   tags?: string[]
+  /**
+   * Verbatim fragment of the source the answer rests on. Asked for during
+   * generation and checked by a rule afterwards — a grounding check that costs
+   * no extra model call (see qc.checkEvidence).
+   */
+  evidence?: string
   /** Blob key of the picture this card asks about (map, chart, scheme). */
   imageKey?: string
   sourceRef?: { page: number; block?: string }

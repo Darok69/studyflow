@@ -13,6 +13,8 @@ export interface SchedSubject {
 export interface SchedCard {
   id: string
   subjectId: string
+  /** Topic from the approved outline — drives interleaving inside a subject. */
+  topic?: string
   state: FsrsStateName
   due: string // ISO
   suspended?: boolean
@@ -100,6 +102,43 @@ export function newCardQuota(newRemaining: number, daysUntilExam: number | null)
   return Math.ceil(newRemaining / horizon)
 }
 
+/**
+ * Spread cards so the same topic does not run back to back (BRIEF §5.3).
+ * Round-robin over topic buckets, relative order preserved inside each bucket:
+ * blocked practice feels easier and teaches less, interleaved practice feels
+ * worse and sticks. Cards with no topic form one bucket of their own.
+ */
+export function interleaveByTopic(cards: SchedCard[]): SchedCard[] {
+  if (cards.length < 3) return [...cards]
+
+  const buckets = new Map<string, SchedCard[]>()
+  for (const c of cards) {
+    const key = c.topic ?? ''
+    const list = buckets.get(key)
+    if (list) list.push(c)
+    else buckets.set(key, [c])
+  }
+  if (buckets.size < 2) return [...cards]
+
+  // Largest bucket first in every round, so one dominant topic cannot bunch up
+  // at the end once the smaller ones run out.
+  const lanes = [...buckets.values()].sort((a, b) => b.length - a.length)
+  const out: SchedCard[] = []
+  const cursors = new Array(lanes.length).fill(0)
+  let remaining = cards.length
+  while (remaining > 0) {
+    for (let i = 0; i < lanes.length; i++) {
+      const at = cursors[i]
+      if (at < lanes[i].length) {
+        out.push(lanes[i][at])
+        cursors[i] = at + 1
+        remaining--
+      }
+    }
+  }
+  return out
+}
+
 function isDueReview(card: SchedCard, now: Date): boolean {
   return card.state !== 'new' && new Date(card.due).getTime() <= endOfDay(now).getTime()
 }
@@ -171,8 +210,12 @@ export function buildSession(
     const quota = Math.min(Math.max(0, wanted - alreadyToday), news.length, capRemaining)
     capRemaining -= quota
 
-    // Within a subject: clear the backlog (due reviews) first, then new cards.
-    const lane = [...due.map((c) => c.id), ...news.slice(0, quota).map((c) => c.id)]
+    // Within a subject: clear the backlog (due reviews) first, then new cards —
+    // and inside each of those, mix the topics up.
+    const lane = [
+      ...interleaveByTopic(due).map((c) => c.id),
+      ...interleaveByTopic(news.slice(0, quota)).map((c) => c.id),
+    ]
 
     perSubject.push({
       subjectId: s.id,

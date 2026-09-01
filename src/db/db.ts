@@ -92,11 +92,36 @@ export interface Card {
   lastReview: string | null // ISO
 }
 
+/**
+ * How sure the user was BEFORE the answer was revealed. Comparing this with the
+ * rating is the calibration signal: overconfidence is the main reason people
+ * walk into an exam thinking they know the material (BRIEF §5.6).
+ */
+export type Confidence = 'know' | 'unsure' | 'no'
+
 export interface Review {
   id: string
   cardId: string
   rating: RatingName
   ts: string // ISO — used for stats / streaks
+  confidence?: Confidence // absent on reviews made before calibration existed
+  /** Milliseconds from showing the question to the rating — thinking time. */
+  elapsedMs?: number
+}
+
+/**
+ * A mistake worth learning from. Written when the user was SURE and still got
+ * it wrong (hypercorrection: confident errors are the ones that correct best)
+ * and when a learned card lapses.
+ */
+export interface ErrorEntry {
+  id: string
+  cardId: string
+  subjectId: string
+  topic?: string
+  ts: string // ISO
+  kind: 'hypercorrection' | 'lapse'
+  note?: string // the user's own "why did I get this wrong?"
 }
 
 export type SourceKind = 'pdf' | 'image' | 'text' | 'audio' | 'url'
@@ -140,6 +165,7 @@ export interface Settings {
   breakNudgeMinutes: number // soft break suggestion interval
   cardFontScale: number // card text size multiplier (0.9 / 1 / 1.2)
   cardSans: boolean // sans-serif card face instead of serif
+  askConfidence: boolean // the "vím / tuším / nevím" step before the reveal
 }
 
 // Typed Dexie instance. We avoid the `class extends Dexie` pattern because, with
@@ -151,6 +177,7 @@ export const db = new Dexie('studyflow') as Dexie & {
   reviews: Table<Review, string>
   settings: Table<Settings, string>
   sources: Table<SourceMeta, string>
+  errorLog: Table<ErrorEntry, string>
 }
 
 db.version(1).stores({
@@ -197,3 +224,9 @@ db.version(3)
         if (!c.level) c.level = 1
       })
   })
+
+// v4: calibration (confidence on a review) + the error log behind weak spots.
+// Reviews gain optional fields only, so no backfill is needed.
+db.version(4).stores({
+  errorLog: 'id, cardId, subjectId, ts, kind',
+})

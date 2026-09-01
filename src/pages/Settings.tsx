@@ -296,6 +296,13 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
         onChange={(v) => update({ typedAnswers: v })}
       />
 
+      <ToggleRow
+        name={t('confidenceName')}
+        desc={t('confidenceDesc')}
+        checked={s.askConfidence}
+        onChange={(v) => update({ askConfidence: v })}
+      />
+
       <h3 className="section-title">{t('sectionPace')}</h3>
 
       <ToggleRow

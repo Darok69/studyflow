@@ -8,6 +8,7 @@ import {
   estimateSource,
   extractSource,
   generateTopic,
+  getOutline,
   listSources,
   markSourceImported,
   proposeOutline,
@@ -222,19 +223,46 @@ export function Sources({ onBack }: Props) {
       let fellBack: FallbackReason | undefined
       let usedFallback = false
       for (const [i, topic] of chosen.entries()) {
+        // One request per topic: a failure costs one topic, not the batch. The
+        // grounding check runs inside it (each card must quote the source), so
+        // no second model pass is chained on — that used to be ~40 % of the bill.
         const res = await generateTopic(outline.sourceId, topic.id, disciplineOf(subject))
         if (res.mode === 'fallback') {
           usedFallback = true
           fellBack = res.reason
-        } else {
-          // The second pass only runs where a model actually generated.
-          await reviewTopic(outline.sourceId, topic.id).catch(() => null)
         }
         setProgress({ done: i + 1, total: chosen.length })
       }
       setOutline(null)
       await reload()
       setNote(usedFallback ? `${t('sourceModelOff')} (${reasonLabel(fellBack)})` : null)
+    } catch {
+      setError(t('errSourceFailed'))
+    } finally {
+      setBusy(null)
+      setProgress(null)
+    }
+  }
+
+  /**
+   * Optional second opinion from the model over cards that already exist.
+   * Not part of generating any more — the rules and the evidence quote catch
+   * most of it — so this stays a deliberate, separately priced step.
+   */
+  async function handleReview(source: ServerSource) {
+    setBusy(source.id)
+    setError(null)
+    try {
+      const { topics } = await getOutline(source.id)
+      setProgress({ done: 0, total: topics.length })
+      let drafts = 0
+      for (const [i, topic] of topics.entries()) {
+        const res = await reviewTopic(source.id, topic.id).catch(() => null)
+        drafts += res?.drafts ?? 0
+        setProgress({ done: i + 1, total: topics.length })
+      }
+      setNote(t('sourceReviewed', drafts))
+      await reload()
     } catch {
       setError(t('errSourceFailed'))
     } finally {
@@ -359,13 +387,23 @@ export function Sources({ onBack }: Props) {
                       </button>
                     )}
                     {(source.cards ?? 0) > 0 && !source.importedAt && (
-                      <button
-                        className="btn btn-primary btn-small"
-                        disabled={working || !online}
-                        onClick={() => void handleImport(source)}
-                      >
-                        {t('sourceImportBtn', source.cards ?? 0)}
-                      </button>
+                      <>
+                        <button
+                          className="btn btn-ghost btn-small"
+                          disabled={working || !online || !status?.enabled}
+                          onClick={() => void handleReview(source)}
+                          title={t('sourceReviewTitle')}
+                        >
+                          {t('sourceReviewBtn')}
+                        </button>
+                        <button
+                          className="btn btn-primary btn-small"
+                          disabled={working || !online}
+                          onClick={() => void handleImport(source)}
+                        >
+                          {t('sourceImportBtn', source.cards ?? 0)}
+                        </button>
+                      </>
                     )}
                     <button
                       className="btn btn-ghost btn-small"

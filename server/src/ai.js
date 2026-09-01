@@ -12,6 +12,7 @@ import {
   VERDICTS_SCHEMA,
   cardsPrompt,
   costUsd,
+  digestBlocks,
   outlinePrompt,
   parseGeneratedCards,
   parseOutline,
@@ -21,7 +22,9 @@ import {
 
 const MODEL_OUTLINE = 'claude-opus-5'
 const MODEL_CARDS = 'claude-sonnet-5'
-const MODEL_QC = 'claude-opus-5'
+// Verification over already written cards — the cheapest model that reads
+// carefully is the right tool, and this pass is opt-in anyway.
+const MODEL_QC = 'claude-haiku-4-5'
 const MODEL_VISION = 'claude-sonnet-5'
 
 const MAX_ATTEMPTS = 3
@@ -124,13 +127,17 @@ async function callJson({ model, user, schema, effort = 'high', maxTokens = 1600
   return { data, usage: usageOf(response), model: response.model, costUsd: costUsd(model, usageOf(response)) }
 }
 
-/** Step 4: the outline the user approves before a single card is generated. */
+/**
+ * Step 4: the outline the user approves before a single card is generated.
+ * Only the digest of each block is sent — naming the topics does not require
+ * reading every sentence, and the material is what makes this call expensive.
+ */
 export async function generateOutline({ blocks, subjectName, discipline }) {
   const { data, usage, costUsd: spent } = await callJson({
     model: MODEL_OUTLINE,
-    user: outlinePrompt({ subjectName, discipline, blocks }),
+    user: outlinePrompt({ subjectName, discipline, blocks: digestBlocks(blocks) }),
     schema: OUTLINE_SCHEMA,
-    effort: 'high',
+    effort: 'medium',
     maxTokens: 8000,
   })
   const { value, errors } = parseOutline(data, blocks.map((b) => b.id))
@@ -144,7 +151,9 @@ export async function generateCards({ topic, blocks, subjectName, discipline }) 
     model: MODEL_CARDS,
     user: cardsPrompt({ subjectName, discipline, topic, blocks }),
     schema: CARDS_SCHEMA,
-    effort: 'medium',
+    // Writing cards from a block is well specified work — depth of reasoning
+    // buys little here and thinking tokens are billed as output.
+    effort: 'low',
     maxTokens: 16000,
   })
   const pages = Object.fromEntries(blocks.map((b) => [b.id, b.page]))
@@ -162,7 +171,7 @@ export async function reviewCards({ cards, sourceText }) {
     model: MODEL_QC,
     user: qcPrompt({ cards: compact, sourceText }),
     schema: VERDICTS_SCHEMA,
-    effort: 'high',
+    effort: 'medium',
     maxTokens: 8000,
   })
   const { value } = parseVerdicts(data, cards.length)

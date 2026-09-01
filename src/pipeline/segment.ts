@@ -153,6 +153,28 @@ export function segmentPages(pages: SourcePage[]): Block[] {
   return out
 }
 
+/** How much of a block the outline step gets to see. */
+export const DIGEST_CHARS = 220
+
+/**
+ * A block boiled down for the outline call. Deciding WHICH topics exist needs
+ * the heading and the opening lines, not every sentence — and the material is
+ * the expensive part of that request (it is the whole script). Cutting it here
+ * is the single biggest saving in the pipeline.
+ */
+export function blockDigest(block: Block): Block {
+  if (block.text.length <= DIGEST_CHARS) return block
+  const cut = block.text.slice(0, DIGEST_CHARS)
+  // Prefer ending on a sentence so the model never reads half a definition.
+  const stop = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('! '), cut.lastIndexOf('? '))
+  const text = stop > DIGEST_CHARS / 2 ? cut.slice(0, stop + 1) : cut
+  return { ...block, text: `${text.trim()} …` }
+}
+
+export function digestBlocks(blocks: Block[]): Block[] {
+  return blocks.map(blockDigest)
+}
+
 /** Total characters — used for the pre-run cost estimate. */
 export function blocksLength(blocks: Block[]): number {
   return blocks.reduce((n, b) => n + b.text.length + b.heading.length, 0)

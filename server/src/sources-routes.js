@@ -256,6 +256,15 @@ export function registerSourceRoutes(app, { requireUser }) {
     return { outline, ...gate }
   })
 
+  /** The outline as it stands — proposed or approved. */
+  app.get('/api/sources/:id/outline', async (req, reply) => {
+    const user = requireUser(req, reply)
+    if (!user) return
+    const outline = readArtefact(user.id, req.params.id, 'outline')
+    if (!outline) return reply.code(404).send({ error: 'no-outline' })
+    return outline
+  })
+
   /** The user's approved (and possibly rewritten) outline — nothing generates before this. */
   app.put('/api/sources/:id/outline', async (req, reply) => {
     const user = requireUser(req, reply)
@@ -331,7 +340,9 @@ export function registerSourceRoutes(app, { requireUser }) {
       for (const c of stored?.cards ?? []) existing.push(c.front ?? c.text ?? '')
     }
     const { kept, dropped } = dedupeCards(cards, existing)
-    const checked = markDrafts(kept)
+    // Rules + the evidence quote each card had to bring: a card whose quote is
+    // not in the block was invented and becomes a draft. No second call needed.
+    const checked = markDrafts(kept, blocks.map((b) => b.text).join('\n\n'))
 
     writeTopicCards(user.id, meta.id, topic.id, {
       topicId: topic.id,

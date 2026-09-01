@@ -38,7 +38,7 @@ export const CARDS_SCHEMA = {
       items: {
         type: 'object',
         additionalProperties: false,
-        required: ['type', 'kind', 'level'],
+        required: ['type', 'kind', 'level', 'blockId', 'evidence'],
         properties: {
           type: { type: 'string', enum: ['basic', 'cloze'] },
           kind: { type: 'string' },
@@ -47,7 +47,9 @@ export const CARDS_SCHEMA = {
           back: { type: 'string' },
           text: { type: 'string' },
           blockId: { type: 'string' },
-          tags: { type: 'array', items: { type: 'string' } },
+          // The fragment of the block the answer rests on — checked by a rule,
+          // which is why no second model pass is needed to catch inventions.
+          evidence: { type: 'string' },
         },
       },
     },
@@ -163,7 +165,7 @@ export function parseGeneratedCards(data: unknown, ctx: CardContext): ParseResul
     const blockId = typeof c.blockId === 'string' ? c.blockId : undefined
     const page = blockId ? ctx.pages[blockId] : undefined
     const sourceRef = page != null ? { page, block: blockId } : undefined
-    const tags = Array.isArray(c.tags) ? c.tags.map(String).filter(Boolean) : undefined
+    const evidence = typeof c.evidence === 'string' ? c.evidence.trim().slice(0, 400) : undefined
 
     if (type === 'cloze') {
       const text = typeof c.text === 'string' ? c.text.trim() : ''
@@ -171,7 +173,7 @@ export function parseGeneratedCards(data: unknown, ctx: CardContext): ParseResul
         errors.push(`cards[${i}]: cloze without text`)
         return
       }
-      out.push({ type, kind, level, topic: ctx.topic, text, tags, sourceRef })
+      out.push({ type, kind, level, topic: ctx.topic, text, evidence, sourceRef })
       return
     }
 
@@ -181,7 +183,7 @@ export function parseGeneratedCards(data: unknown, ctx: CardContext): ParseResul
       errors.push(`cards[${i}]: missing front/back`)
       return
     }
-    out.push({ type, kind, level, topic: ctx.topic, front, back, tags, sourceRef })
+    out.push({ type, kind, level, topic: ctx.topic, front, back, evidence, sourceRef })
   })
 
   return { value: out, errors }

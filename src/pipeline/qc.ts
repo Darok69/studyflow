@@ -24,6 +24,23 @@ export function countSentences(text: string): number {
   return Math.max(1, parts.length)
 }
 
+/** Shorter quotes than this prove nothing either way. */
+const MIN_EVIDENCE_CHARS = 15
+
+/**
+ * Does the card's quoted evidence really stand in the source? The model is
+ * asked to return the fragment it built the answer on; if that fragment cannot
+ * be found in the block, the card was invented. This is the grounding check
+ * from BRIEF §4.7 done by a rule — no second model pass, no extra cost.
+ *
+ * A card with no quote is NOT punished here: rule-based cards never carry one.
+ */
+export function checkEvidence(card: GeneratedCard, sourceText: string): boolean {
+  const quote = card.evidence?.trim()
+  if (!quote || quote.length < MIN_EVIDENCE_CHARS) return true
+  return normalizeQuestion(sourceText).includes(normalizeQuestion(quote))
+}
+
 /** Answer side of a card as plain text (cloze answers live inside the text). */
 function answerText(card: GeneratedCard): string {
   return card.back ?? card.text ?? ''
@@ -67,12 +84,16 @@ export function checkCard(card: GeneratedCard): QcIssue[] {
 }
 
 /**
- * Run the check over a batch: passing cards come back untouched, failing ones
- * as drafts carrying the reason.
+ * Run the checks over a batch: passing cards come back untouched, failing ones
+ * as drafts carrying the reason. Pass the block text the batch came from and
+ * every card is grounding-checked against it as well.
  */
-export function markDrafts(cards: GeneratedCard[]): GeneratedCard[] {
+export function markDrafts(cards: GeneratedCard[], sourceText?: string): GeneratedCard[] {
   return cards.map((card) => {
     const issues = checkCard(card)
+    if (issues.length === 0 && sourceText && !checkEvidence(card, sourceText)) {
+      issues.push('not-in-source')
+    }
     if (issues.length === 0) return card
     return { ...card, draft: true, draftReason: issues[0] }
   })

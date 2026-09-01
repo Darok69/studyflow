@@ -4,7 +4,7 @@
 //
 // Prices are USD per 1M tokens, Anthropic first-party rates.
 
-export type PipelineModel = 'claude-opus-5' | 'claude-sonnet-5'
+export type PipelineModel = 'claude-opus-5' | 'claude-sonnet-5' | 'claude-haiku-4-5'
 
 export interface Pricing {
   input: number
@@ -18,7 +18,13 @@ export const PRICING: Record<PipelineModel, Pricing> = {
   'claude-opus-5': { input: 5, output: 25, cacheRead: 0.5, cacheWrite: 6.25 },
   // Per-block generation and vision transcription — the bulk of the traffic.
   'claude-sonnet-5': { input: 2, output: 10, cacheRead: 0.2, cacheWrite: 2.5 },
+  // Opt-in second opinion on already-generated cards: a verification task, so
+  // the cheapest model that can read carefully is the right one.
+  'claude-haiku-4-5': { input: 1, output: 5, cacheRead: 0.1, cacheWrite: 1.25 },
 }
+
+/** Share of the material the outline step actually reads (see segment.blockDigest). */
+export const OUTLINE_DIGEST_SHARE = 0.25
 
 /** Batch API runs asynchronously for half the price (BRIEF §8). */
 export const BATCH_DISCOUNT = 0.5
@@ -58,20 +64,40 @@ export interface EstimateInput {
 }
 
 /**
- * Rough pre-run estimate: outline reads the whole material once (Opus),
- * generation reads each block once and writes the cards (Sonnet), quality
- * control re-reads the cards (Opus). Shown as an order of magnitude — the
- * ledger afterwards uses the real usage numbers.
+ * Rough pre-run estimate of what a whole source costs:
+ *
+ * - outline (Opus) reads only the DIGEST of each block — headings and opening
+ *   lines are enough to decide which topics exist,
+ * - generation (Sonnet) reads each block once and writes the cards, including
+ *   the evidence quote that makes the grounding check free.
+ *
+ * The model quality pass is not in here: it is opt-in, because the rules plus
+ * the evidence check already cover what it used to do.
  */
 export function estimateCostUsd({ chars, cardEstimate, batch = false }: EstimateInput): number {
   const materialTokens = tokensForChars(chars)
-  const cardTokens = cardEstimate * 140 // question + answer + metadata
+  const cardTokens = cardEstimate * 160 // question + answer + evidence + metadata
 
-  const outline = costUsd('claude-opus-5', { input: materialTokens, output: 1200 })
+  const outline = costUsd('claude-opus-5', {
+    input: Math.ceil(materialTokens * OUTLINE_DIGEST_SHARE),
+    output: 1200,
+  })
   const generate = costUsd('claude-sonnet-5', { input: materialTokens, output: cardTokens }, batch)
-  const qc = costUsd('claude-opus-5', { input: cardTokens + materialTokens / 4, output: cardTokens / 4 })
 
-  return Math.round((outline + generate + qc) * 100) / 100
+  return Math.round((outline + generate) * 100) / 100
+}
+
+/** What an opt-in second opinion over already generated cards adds. */
+export function reviewCostUsd(cardEstimate: number, chars: number): number {
+  const cardTokens = cardEstimate * 160
+  return (
+    Math.round(
+      costUsd('claude-haiku-4-5', {
+        input: cardTokens + tokensForChars(chars),
+        output: Math.ceil(cardTokens / 4),
+      }) * 100,
+    ) / 100
+  )
 }
 
 export interface BudgetLedger {

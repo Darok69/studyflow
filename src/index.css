@@ -1298,6 +1298,100 @@ h3 {
   background: color-mix(in srgb, var(--mid) 14%, var(--desk));
 }
 
+/* ---------- Calibration + worked examples ---------- */
+.confidence-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.confidence-label {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* Three equal targets, thumb-sized, side by side even on the narrowest phone. */
+.confidence-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.confidence-btn {
+  flex: 1;
+  min-height: 52px;
+  padding: 8px 4px;
+}
+
+.confidence-picked {
+  border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+  color: var(--ink);
+}
+
+.produce-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.produce-hint {
+  margin: 0;
+  font-size: 13px;
+}
+
+.produce-input {
+  min-height: 76px;
+  resize: vertical;
+}
+
+.step-btn {
+  align-self: center;
+}
+
+.hyper-hint {
+  margin-top: 4px;
+}
+
+.study-left {
+  margin-left: 8px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* Steps of a worked example, revealed one at a time. */
+.card-steps {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-step {
+  font-size: calc(17px * var(--card-scale, 1));
+  line-height: 1.5;
+}
+
+.weak-list {
+  margin-bottom: 4px;
+}
+
+.weak-row {
+  justify-content: space-between;
+}
+
+.calib-box p {
+  margin: 0 0 6px;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
+.calib-warn {
+  color: color-mix(in srgb, var(--mid) 75%, var(--ink));
+}
+
 /* ---------- Sources (material → outline → cards) ---------- */
 /* The file picker is a styled label; the input itself stays in the accessibility
    tree (focusable, announced) but out of sight. */

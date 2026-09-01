@@ -7,6 +7,7 @@ const karty = (n: number) => (n === 1 ? 'karta' : n >= 2 && n <= 4 ? 'karty' : '
 const kartyAcc = (n: number) => (n === 1 ? 'kartu' : n >= 2 && n <= 4 ? 'karty' : 'karet')
 const predmety = (n: number) => (n === 1 ? 'předmět' : n >= 2 && n <= 4 ? 'předměty' : 'předmětů')
 const stran = (n: number) => (n === 1 ? 'strana' : n >= 2 && n <= 4 ? 'strany' : 'stran')
+const chyby = (n: number) => (n === 1 ? 'chyba' : n >= 2 && n <= 4 ? 'chyby' : 'chyb')
 const bloku = (n: number) => (n === 1 ? 'blok' : n >= 2 && n <= 4 ? 'bloky' : 'bloků')
 
 const WEEKDAYS = ['ne', 'po', 'út', 'st', 'čt', 'pá', 'so']
@@ -357,6 +358,10 @@ export const cs = {
   sourceGenerating: (done: number, total: number) => `Generuji… ${done} z ${total}`,
   sourceImportBtn: (n: number) => `Přidat ${n} ${kartyAcc(n)} do balíčku`,
   sourceImported: (n: number) => `Přidáno ${n} ${karty(n)}.`,
+  sourceReviewBtn: 'Zkontrolovat modelem',
+  sourceReviewTitle: 'Nepovinný druhý průchod: model projde hotové karty proti podkladu (stojí navíc)',
+  sourceReviewed: (drafts: number) =>
+    drafts === 0 ? 'Kontrola hotová, vše prošlo.' : `Kontrola hotová — ${drafts} ${karty(drafts)} k přepsání.`,
   sourceDelete: 'Smazat podklad',
   sourceDeleteConfirm: 'Smazat podklad i s vygenerovanými kartami? Karty už přidané do balíčku zůstanou.',
   sourceEstimate: (usd: string) => `Odhad ceny: ${usd}`,
@@ -389,6 +394,30 @@ export const cs = {
   filterDrafts: 'Jen koncepty',
   errUploadFailed: 'Soubor se nepodařilo nahrát.',
   errSourceFailed: 'Podklad se nepodařilo zpracovat.',
+  // Učení: kalibrace, vlastní formulace, kroky
+  confidenceName: 'Ptát se na jistotu',
+  confidenceDesc:
+    'Před odkrytím jedním klepnutím řekneš, jak si věříš. Ve statistikách pak vidíš, jak přesně se odhaduješ — a jistá chyba se ti vrátí ještě dnes.',
+  confidenceQuestion: 'Jak si věříš?',
+  confKnow: 'Vím',
+  confUnsure: 'Tuším',
+  confNo: 'Nevím',
+  produceHint: 'Napiš pár slov vlastními slovy — pak se odpověď ukáže. Vybavování z hlavy drží líp než čtení.',
+  producePlaceholder: 'Pár slov stačí…',
+  nextStep: (shown: number, total: number) => `Další krok (${shown}/${total})`,
+  remainingLeft: (n: number) => `ještě ${n}`,
+  hyperHint: 'Byl sis jistý a nevyšlo to — tahle karta se dnes vrátí. Přesně takové chyby se opravují nejlíp.',
+  // Slabá místa
+  weakTitle: 'Slabá místa',
+  weakEmpty: 'Zatím žádné chyby k řešení. 🌿',
+  weakTopic: (topic: string, n: number) => `${topic} — ${n}× ${chyby(n)}`,
+  weakNoTopic: 'Bez tématu',
+  calibTitle: 'Odhad vlastních znalostí',
+  calibEmpty: 'Zatím málo dat — po pár dnech učení tu uvidíš, jak přesně se odhaduješ.',
+  calibSure: (pct: number) => `Když si věříš, vyjde to v ${pct} %.`,
+  calibUnsure: (pct: number) => `Když tušíš, vyjde to v ${pct} %.`,
+  calibOverconfident: 'Přeceňuješ se — to je nejčastější důvod, proč lidi u zkoušky překvapí.',
+  calibHonest: 'Odhaduješ se poctivě. To je při přípravě k nezaplacení.',
 }
 
 /**

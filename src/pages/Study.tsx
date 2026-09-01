@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import type { Card, RatingName, Settings, Subject } from '../db/db'
+import type { Card, Confidence, RatingName, Settings, Subject } from '../db/db'
 import {
   buryCard,
   getCards,
@@ -17,7 +17,8 @@ import {
   type SchedCard,
 } from '../scheduler/scheduler'
 import { previewIntervals, retrievabilityAt, type FsrsFields } from '../scheduler/fsrs'
-import { checkAnswer, typedAnswerTarget, type AnswerCheck } from '../lib/answer'
+import { checkAnswer, checkQuantityAnswer, typedAnswerTarget, type AnswerCheck } from '../lib/answer'
+import { answerSteps, isStepped, preRevealedSteps } from '../lib/steps'
 import { isLeech } from '../lib/wellbeing'
 import { CardFace } from '../components/CardFace'
 import { CardEditor } from '../components/CardEditor'
@@ -40,9 +41,52 @@ interface UndoEntry {
   // Persisted-rating info; null in cram mode (nothing was written).
   reviewId: string | null
   prev: FsrsFields | null
+  /** Error-log entry this rating produced, so undo can take it back too. */
+  errorId: string | null
 }
 
+/** Confident errors come back sooner than ordinary ones (hypercorrection). */
+const HYPERCORRECTION_GAP = 1
+/** Level-3 cards: seconds the reveal stays locked while nothing was written. */
+const PRODUCE_LOCK_MS = 3000
+
 const UNDO_LIMIT = 50
+
+const CONFIDENCE_OPTIONS: { value: Confidence; labelKey: 'confKnow' | 'confUnsure' | 'confNo' }[] = [
+  { value: 'know', labelKey: 'confKnow' },
+  { value: 'unsure', labelKey: 'confUnsure' },
+  { value: 'no', labelKey: 'confNo' },
+]
+
+/**
+ * Calibration: a single tap on how sure you are, BEFORE the answer shows.
+ * Comparing it with the rating afterwards is what exposes overconfidence —
+ * the reason people walk into an exam believing they know the material.
+ */
+function ConfidenceRow({
+  onPick,
+  picked,
+}: {
+  onPick: (c: Confidence) => void
+  picked: Confidence | null
+}) {
+  return (
+    <div className="confidence-row">
+      <span className="confidence-label">{t('confidenceQuestion')}</span>
+      <div className="confidence-buttons">
+        {CONFIDENCE_OPTIONS.map((o) => (
+          <button
+            key={o.value}
+            className={`btn btn-ghost confidence-btn${picked === o.value ? ' confidence-picked' : ''}`}
+            onClick={() => onPick(o.value)}
+          >
+            {t(o.labelKey)}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
 
 export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void; mode?: StudyMode }) {
   const [loading, setLoading] = useState(true)
@@ -62,10 +106,21 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   const [answerCheck, setAnswerCheck] = useState<AnswerCheck | null>(null)
   const answerRef = useRef<HTMLInputElement>(null)
 
+  // Calibration: how sure the user was BEFORE seeing the answer.
+  const [confidence, setConfidence] = useState<Confidence | null>(null)
+  const shownAtRef = useRef<number>(Date.now())
+  // Worked examples: how many steps of the answer are on the table.
+  const [shownSteps, setShownSteps] = useState(0)
+  // Level 3 asks for a few words of your own before the answer appears.
+  const [produced, setProduced] = useState('')
+  const [produceUnlocked, setProduceUnlocked] = useState(false)
+
   // Undo stack + leech nudge + inline editor.
   const undoStack = useRef<UndoEntry[]>([])
   const [canUndo, setCanUndo] = useState(false)
   const [leechCard, setLeechCard] = useState<Card | null>(null)
+  // Shown right after a confident miss, so the return of the card makes sense.
+  const [hyperHint, setHyperHint] = useState(false)
   const [editing, setEditing] = useState<Card | null>(null)
 
   const cram = mode.kind === 'cram'
@@ -141,6 +196,15 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   const typedTarget =
     settings?.typedAnswers && card && !cram ? typedAnswerTarget(card) : null
 
+  // Level 3 is application: producing something of your own beats recognising
+  // the answer, so the reveal waits for a few words (or three seconds).
+  const mustProduce = !cram && !typedTarget && card?.level === 3
+  const steps = useMemo(
+    () => (card && isStepped(card.kind) ? answerSteps(card.back) : null),
+    [card],
+  )
+  const askConfidence = !cram && (settings?.askConfidence ?? true) && confidence === null
+
   const previews = useMemo(() => {
     if (!card || !subject || !settings || cram || !settings.showIntervalPreviews || !revealed) {
       return null
@@ -152,7 +216,18 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
     setRevealed(false)
     setAnswerText('')
     setAnswerCheck(null)
+    setConfidence(null)
+    setShownSteps(0)
+    setProduced('')
+    setProduceUnlocked(false)
+    shownAtRef.current = Date.now()
   }
+
+  /** Reveal the answer, handing over as much of a worked example as is due. */
+  const reveal = useCallback(() => {
+    if (card && steps) setShownSteps(preRevealedSteps(card.kind, card.reps, steps.length))
+    setRevealed(true)
+  }, [card, steps])
 
   const handleRate = useCallback(
     async (rating: RatingName) => {
@@ -167,12 +242,17 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         cardId: card.id,
         reviewId: null,
         prev: null,
+        errorId: null,
       }
 
       if (!cram) {
-        const result = await recordRating(card, rating, subject.examDate, settings.targetRetention)
+        const result = await recordRating(card, rating, subject.examDate, settings.targetRetention, {
+          confidence: confidence ?? undefined,
+          elapsedMs: Date.now() - shownAtRef.current,
+        })
         entry.reviewId = result.reviewId
         entry.prev = result.prev
+        entry.errorId = result.errorId
         setCardMap((m) => new Map(m).set(result.updated.id, result.updated))
 
         // A card that keeps lapsing is a formulation problem — offer a rewrite.
@@ -186,8 +266,13 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
       setCanUndo(true)
 
       if (rating === 'again') {
-        setQueue((q) => reinsertAgain(q, index))
+        // Being sure and wrong is the mistake that corrects best — bring the
+        // card back sooner than an ordinary miss (BRIEF §5.5).
+        const sureAndWrong = confidence === 'know' && !cram
+        setHyperHint(sureAndWrong)
+        setQueue((q) => reinsertAgain(q, index, sureAndWrong ? HYPERCORRECTION_GAP : undefined))
       } else {
+        setHyperHint(false)
         setFinished((f) => new Set(f).add(card.id))
       }
       setReviewCount((n) => n + 1)
@@ -195,7 +280,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
       setIndex((i) => i + 1)
       setBusy(false)
     },
-    [card, subject, settings, index, queue, finished, reviewCount, cram, busy],
+    [card, subject, settings, index, queue, finished, reviewCount, cram, busy, confidence],
   )
 
   const handleUndo = useCallback(async () => {
@@ -208,7 +293,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
     setBusy(true)
 
     if (entry.reviewId && entry.prev) {
-      const restored = await undoRating(entry.cardId, entry.reviewId, entry.prev)
+      const restored = await undoRating(entry.cardId, entry.reviewId, entry.prev, entry.errorId)
       if (restored) setCardMap((m) => new Map(m).set(restored.id, restored))
     }
 
@@ -246,9 +331,11 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   }
 
   function handleCheckAnswer() {
-    if (!typedTarget) return
-    setAnswerCheck(checkAnswer(answerText, typedTarget))
-    setRevealed(true)
+    if (!typedTarget || !card) return
+    // A `cisla` card asks for an order of magnitude, not for the exact digits.
+    const check = card.kind === 'cisla' ? checkQuantityAnswer : checkAnswer
+    setAnswerCheck(check(answerText, typedTarget))
+    reveal()
   }
 
   // Keyboard shortcuts: space/enter reveals, 1–4 rate once revealed, Z undoes.
@@ -266,7 +353,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
       }
       if (!revealed && (e.key === ' ' || e.key === 'Enter')) {
         e.preventDefault()
-        setRevealed(true)
+        if (!mustProduce || produceUnlocked || produced.trim()) reveal()
         return
       }
       if (revealed) {
@@ -280,7 +367,16 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [revealed, loading, done, handleRate, handleUndo, editing])
+  }, [revealed, loading, done, handleRate, handleUndo, editing, reveal, mustProduce, produceUnlocked, produced])
+
+  // The three-second lock is a nudge, never a wall: after it the answer is
+  // available even with an empty box.
+  useEffect(() => {
+    if (!mustProduce || revealed) return
+    setProduceUnlocked(false)
+    const id = window.setTimeout(() => setProduceUnlocked(true), PRODUCE_LOCK_MS)
+    return () => window.clearTimeout(id)
+  }, [mustProduce, revealed, currentId])
 
   // Soft "time for a break?" suggestion (interval is user-tunable in Settings).
   const nudgeMinutes = settings?.breakNudgeMinutes ?? 22
@@ -353,6 +449,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         </div>
         <span className="study-count">
           {Math.min(finished.size + 1, total)} / {total}
+          <span className="study-left">{t('remainingLeft', Math.max(0, total - finished.size))}</span>
         </span>
         <button
           className="btn btn-ghost btn-small"
@@ -401,6 +498,12 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         </div>
       )}
 
+      {hyperHint && (
+        <div className="guardrail hyper-hint" role="status">
+          {t('hyperHint')}
+        </div>
+      )}
+
       {leechCard && (
         <div className="leech-hint" role="status">
           <span>{t('leechHint')}</span>
@@ -420,6 +523,8 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         revealed={revealed}
         fontScale={settings.cardFontScale}
         sans={settings.cardSans}
+        steps={steps ?? undefined}
+        shownSteps={shownSteps}
       />
 
       {revealed && verdictView && (
@@ -433,9 +538,20 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
 
       <div className="study-actions">
         {revealed ? (
-          <RatingButtons onRate={(r) => void handleRate(r)} previews={previews} />
+          <>
+            {steps && shownSteps < steps.length && (
+              <button
+                className="btn btn-ghost btn-small step-btn"
+                onClick={() => setShownSteps((n) => n + 1)}
+              >
+                {t('nextStep', shownSteps + 1, steps.length)}
+              </button>
+            )}
+            <RatingButtons onRate={(r) => void handleRate(r)} previews={previews} />
+          </>
         ) : typedTarget ? (
           <div className="answer-row">
+            {askConfidence && <ConfidenceRow picked={confidence} onPick={setConfidence} />}
             <input
               ref={answerRef}
               className="form-input answer-input"
@@ -457,8 +573,36 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
               {t('justShow')}
             </button>
           </div>
+        ) : mustProduce ? (
+          <div className="produce-row">
+            {askConfidence && <ConfidenceRow picked={confidence} onPick={setConfidence} />}
+            <p className="muted produce-hint">{t('produceHint')}</p>
+            <textarea
+              className="form-input produce-input"
+              placeholder={t('producePlaceholder')}
+              value={produced}
+              onChange={(e) => setProduced(e.target.value)}
+            />
+            <button
+              className="btn btn-primary btn-reveal"
+              disabled={!produced.trim() && !produceUnlocked}
+              onClick={reveal}
+            >
+              {t('showAnswer')}
+            </button>
+          </div>
+        ) : askConfidence ? (
+          // No typing needed: the calibration tap is the reveal itself, so
+          // knowing how sure you were costs no extra step.
+          <ConfidenceRow
+            picked={confidence}
+            onPick={(c) => {
+              setConfidence(c)
+              reveal()
+            }}
+          />
         ) : (
-          <button className="btn btn-primary btn-reveal" onClick={() => setRevealed(true)}>
+          <button className="btn btn-primary btn-reveal" onClick={reveal}>
             {t('showAnswer')}
           </button>
         )}

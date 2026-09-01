@@ -364,6 +364,10 @@ export const de: Messages = {
   sourceGenerating: (done: number, total: number) => `Erstelle… ${done} von ${total}`,
   sourceImportBtn: (n: number) => `${n} ${n === 1 ? 'Karte' : 'Karten'} zum Deck hinzufügen`,
   sourceImported: (n: number) => `${n} ${n === 1 ? 'Karte' : 'Karten'} hinzugefügt.`,
+  sourceReviewBtn: 'Mit dem Modell prüfen',
+  sourceReviewTitle: 'Optionaler zweiter Durchgang: das Modell prüft die fertigen Karten gegen die Unterlage (kostet extra)',
+  sourceReviewed: (drafts: number) =>
+    drafts === 0 ? 'Prüfung fertig, alles bestanden.' : `Prüfung fertig — ${drafts} ${drafts === 1 ? 'Karte' : 'Karten'} zu überarbeiten.`,
   sourceDelete: 'Unterlage löschen',
   sourceDeleteConfirm:
     'Unterlage samt erzeugten Karten löschen? Bereits ins Deck übernommene Karten bleiben.',
@@ -398,4 +402,28 @@ export const de: Messages = {
   filterDrafts: 'Nur Entwürfe',
   errUploadFailed: 'Die Datei konnte nicht hochgeladen werden.',
   errSourceFailed: 'Die Unterlage konnte nicht verarbeitet werden.',
+  // Lernen: Kalibrierung, eigene Worte, Schritte
+  confidenceName: 'Nach der Sicherheit fragen',
+  confidenceDesc:
+    'Ein Tipp vor dem Aufdecken. In der Statistik siehst du dann, wie gut du dich einschätzt — und ein sicherer Fehler kommt noch heute zurück.',
+  confidenceQuestion: 'Wie sicher bist du?',
+  confKnow: 'Weiß ich',
+  confUnsure: 'Ahnung',
+  confNo: 'Keine Ahnung',
+  produceHint: 'Schreib ein paar Worte in eigenen Worten — dann kommt die Antwort. Abrufen schlägt Nachlesen.',
+  producePlaceholder: 'Ein paar Worte reichen…',
+  nextStep: (shown: number, total: number) => `Nächster Schritt (${shown}/${total})`,
+  remainingLeft: (n: number) => `noch ${n}`,
+  hyperHint: 'Du warst sicher und es ging daneben — diese Karte kommt heute wieder. Genau solche Fehler sitzen danach am besten.',
+  // Schwachstellen
+  weakTitle: 'Schwachstellen',
+  weakEmpty: 'Noch keine Fehler zum Aufarbeiten. 🌿',
+  weakTopic: (topic: string, n: number) => `${topic} — ${n} ${n === 1 ? 'Fehler' : 'Fehler'}`,
+  weakNoTopic: 'Ohne Thema',
+  calibTitle: 'Selbsteinschätzung',
+  calibEmpty: 'Noch zu wenig Daten — nach ein paar Lerntagen siehst du hier, wie gut du dich einschätzt.',
+  calibSure: (pct: number) => `Wenn du sicher bist, stimmt es zu ${pct} %.`,
+  calibUnsure: (pct: number) => `Wenn du ahnst, stimmt es zu ${pct} %.`,
+  calibOverconfident: 'Du überschätzt dich — der häufigste Grund, warum Prüfungen überraschen.',
+  calibHonest: 'Du schätzt dich ehrlich ein. Das ist in der Vorbereitung viel wert.',
 }

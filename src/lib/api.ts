@@ -232,6 +232,10 @@ export function proposeOutline(
   return api(`/api/sources/${id}/outline?discipline=${discipline}`, { method: 'POST' })
 }
 
+export function getOutline(id: string): Promise<{ topics: OutlineTopicDto[] }> {
+  return api(`/api/sources/${id}/outline`)
+}
+
 export function saveOutline(
   id: string,
   topics: OutlineTopicDto[],

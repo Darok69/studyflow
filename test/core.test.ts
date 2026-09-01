@@ -7,6 +7,7 @@ import { deckToJson } from '../src/import/exportDeck'
 import { backupToJson, parseBackup } from '../src/import/backup'
 import {
   buildSession,
+  interleaveByTopic,
   introducedTodayBySubject,
   isSchedulable,
   newCardQuota,
@@ -18,7 +19,14 @@ import { daysUntil, daysUntilDate, endOfDay } from '../src/lib/date'
 import { subjectColor, subjectColorIndex, subjectPalette, SUBJECT_COLOR_COUNT } from '../src/lib/theme'
 import { assessLoad, estimateMinutes, isLeech, LEECH_LAPSES } from '../src/lib/wellbeing'
 import {
+  accuracy,
+  calibration,
+  calibrationVerdict,
   currentStreak,
+  streakWithBank,
+  weakTopics,
+  CALIBRATION_MIN_SAMPLES,
+  FREE_DAYS_PER_MONTH,
   heatmapWeeks,
   reviewForecast,
   reviewsInLastDays,
@@ -27,16 +35,39 @@ import {
 } from '../src/stats/stats'
 import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/lib/sharelink'
 import { encouragement } from '../src/lib/encouragement'
-import { answerSimilarity, checkAnswer, normalizeAnswer, typedAnswerTarget } from '../src/lib/answer'
+import {
+  answerSimilarity,
+  checkAnswer,
+  checkQuantityAnswer,
+  normalizeAnswer,
+  parseQuantities,
+  typedAnswerTarget,
+} from '../src/lib/answer'
+import { answerSteps, isStepped, preRevealedSteps } from '../src/lib/steps'
 import { readinessBand, subjectReadiness } from '../src/lib/readiness'
 import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
-import { blocksLength, isHeading, MAX_BLOCK_CHARS, segmentPages } from '../src/pipeline/segment'
+import {
+  blockDigest,
+  blocksLength,
+  digestBlocks,
+  isHeading,
+  DIGEST_CHARS,
+  MAX_BLOCK_CHARS,
+  segmentPages,
+} from '../src/pipeline/segment'
 import { dedupeCards, normalizeQuestion, similarity } from '../src/pipeline/dedupe'
-import { checkCard, countSentences, markDrafts } from '../src/pipeline/qc'
+import { checkCard, checkEvidence, countSentences, markDrafts } from '../src/pipeline/qc'
 import { fallbackCardsFromBlock, fallbackOutline, FALLBACK_TAG, significantTerm } from '../src/pipeline/fallback'
 import { parseGeneratedCards, parseOutline } from '../src/pipeline/schema'
-import { addSpend, costUsd, estimateCostUsd, monthKey, withinBudget } from '../src/pipeline/budget'
+import {
+  addSpend,
+  costUsd,
+  estimateCostUsd,
+  monthKey,
+  reviewCostUsd,
+  withinBudget,
+} from '../src/pipeline/budget'
 import { SYSTEM_PROMPT, cardsPrompt, disciplineOf, kindMenu } from '../src/pipeline/prompts'
 import type { Block, GeneratedCard } from '../src/pipeline/types'
 
@@ -256,7 +287,10 @@ ok(
 console.log('— stats: streak + last 7 days —')
 const T = (day: string, h = 10) => `2026-06-${day}T${String(h).padStart(2, '0')}:00:00`
 ok(currentStreak([T('27'), T('26'), T('25')], now) === 3, 'three consecutive days = streak 3')
-ok(currentStreak([T('27'), T('25')], now) === 1, 'gap yesterday breaks streak back to today only')
+// A single missed day no longer wipes the streak — it spends a free day
+// instead (BRIEF §5.15). Two gaps in a row still end it.
+ok(currentStreak([T('27'), T('25')], now) === 2, 'one missed day is absorbed by the free-day bank')
+ok(currentStreak([T('27'), T('24')], now) === 1, 'two missed days in a row still end the streak')
 ok(currentStreak([T('26'), T('25')], now) === 2, 'grace: no review today yet still counts from yesterday')
 ok(currentStreak([T('24'), T('23')], now) === 0, 'no review today or yesterday = streak 0')
 ok(currentStreak([], now) === 0, 'no reviews = streak 0')
@@ -740,6 +774,173 @@ console.log('— the API key never reaches the browser —')
     return /\b(document|localStorage|navigator)\./.test(code) || /from '\.\.\/i18n/.test(code)
   })
   ok(impure.length === 0, `the pipeline core stays DOM- and i18n-free${impure.length ? `: ${impure.join(', ')}` : ''}`)
+}
+
+
+console.log('— interleaving by topic —')
+{
+  const c = (id: string, topic: string) => ({ ...mk(id, 's1', 'new', '2026-03-01T00:00:00'), topic })
+  const cards = [c('a1', 'A'), c('a2', 'A'), c('a3', 'A'), c('b1', 'B'), c('b2', 'B'), c('c1', 'C')]
+  const mixed = interleaveByTopic(cards)
+  ok(mixed.length === cards.length, 'no card is lost when mixing')
+  ok(new Set(mixed.map((x) => x.id)).size === cards.length, 'no card is duplicated')
+  const adjacent = mixed.filter((x, i) => i > 0 && mixed[i - 1].topic === x.topic).length
+  ok(adjacent <= 1, `topics do not bunch up (${adjacent} adjacent pair(s))`)
+  ok(mixed[0].topic === 'A' && mixed[1].topic !== 'A', 'the round-robin starts with the biggest topic')
+  const order = mixed.filter((x) => x.topic === 'A').map((x) => x.id)
+  ok(order.join() === 'a1,a2,a3', 'order inside a topic is preserved')
+  ok(interleaveByTopic([c('x', 'A')]).length === 1, 'a single card is returned as is')
+  ok(interleaveByTopic(cards.slice(0, 3)).map((x) => x.id).join() === 'a1,a2,a3', 'one topic only stays untouched')
+
+  const iNow = new Date('2026-03-01T10:00:00')
+  const plan = buildSession(
+    [{ id: 's1', examDate: null, dailyNewLimit: 4 }],
+    [c('a1', 'A'), c('a2', 'A'), c('b1', 'B'), c('b2', 'B')].map((x) => ({ ...x, due: iNow.toISOString() })),
+    iNow,
+    { newCardCap: 4 },
+  )
+  const topicOf = new Map([['a1', 'A'], ['a2', 'A'], ['b1', 'B'], ['b2', 'B']])
+  const runs = plan.order.filter((id, i) => i > 0 && topicOf.get(plan.order[i - 1]) === topicOf.get(id)).length
+  ok(plan.order.length === 4 && runs === 0, 'today’s queue alternates topics inside a subject')
+}
+
+console.log('— streak with a bank of free days —')
+{
+  const sNow = new Date('2026-03-10T20:00:00')
+  const day = (n: number) => new Date(2026, 2, 10 - n, 12).toISOString()
+
+  const perfect = streakWithBank([day(0), day(1), day(2), day(3)], sNow)
+  ok(perfect.days === 4 && perfect.used === 0, 'an unbroken week counts every day')
+  ok(perfect.left === FREE_DAYS_PER_MONTH, 'nothing is spent when nothing is missed')
+
+  // Missed a single day in the middle — the streak must survive it.
+  const oneGap = streakWithBank([day(0), day(1), day(3), day(4)], sNow)
+  ok(oneGap.days === 4 && oneGap.used === 1, `one missed day is absorbed (${oneGap.days} days)`)
+  ok(oneGap.left === FREE_DAYS_PER_MONTH - 1, 'the free day is visibly spent')
+
+  const twoGaps = streakWithBank([day(0), day(2), day(4), day(6)], sNow)
+  ok(twoGaps.used === 2 && twoGaps.days === 3, 'the bank covers two gaps, then stops')
+
+  ok(streakWithBank([], sNow).days === 0, 'no reviews, no streak')
+  ok(currentStreak([day(0), day(1)], sNow) === 2, 'currentStreak still returns a plain number')
+  // A day that has only begun is not a missed day.
+  ok(streakWithBank([day(1), day(2)], sNow).days === 2, 'today being empty does not break anything')
+}
+
+console.log('— numeric estimates (geography) —')
+{
+  ok(parseQuantities('Rakousko má 83 879 km²')[0] === 83879, 'a space-separated thousand parses')
+  ok(parseQuantities('asi 1,5 mil.')[0] === 1.5, 'a decimal comma parses')
+  ok(parseQuantities('bez čísla').length === 0, 'text without numbers gives nothing')
+
+  ok(checkQuantityAnswer('84 000', '83 879 km²').verdict === 'correct', 'a good estimate is correct')
+  ok(checkQuantityAnswer('80000', '83 879 km²').verdict === 'correct', 'so is one 5 % off')
+  ok(checkQuantityAnswer('120 000', '83 879 km²').verdict === 'close', '40 % off is close, not correct')
+  ok(checkQuantityAnswer('500', '83 879 km²').verdict === 'wrong', 'an order of magnitude off is wrong')
+
+  ok(checkQuantityAnswer('85', '80–90 %').verdict === 'correct', 'inside a range is correct')
+  ok(checkQuantityAnswer('80', '80–90 %').verdict === 'correct', 'the edge of a range counts')
+  ok(checkQuantityAnswer('95', '80–90 %').verdict === 'close', 'just outside a range is close')
+  ok(checkQuantityAnswer('150', '80–90 %').verdict === 'wrong', 'far outside a range is wrong')
+  ok(checkQuantityAnswer('nevím', 'asi 40 %').verdict === checkAnswer('nevím', 'asi 40 %').verdict, 'no number falls back to text')
+}
+
+console.log('— worked examples with fading —')
+{
+  ok(isStepped('pripad') && isStepped('schema') && !isStepped('definice'), 'only sequential kinds fade')
+
+  const solved = 'Norma: § 823 BGB\nZnaky: jednání, protiprávnost, zavinění\nSubsumpce: řidič porušil povinnost\nVýsledek: nárok na náhradu'
+  const steps = answerSteps(solved)
+  ok(steps.length === 4, `a solved case splits into its steps (${steps.length})`)
+  ok(steps[0].startsWith('Norma'), 'the first step is the norm')
+
+  ok(answerSteps('příčina → mechanismus → důsledek').length === 3, 'arrows split a causal chain')
+  ok(answerSteps('1) první 2) druhé 3) třetí').length === 3, 'numbering splits a scheme')
+  ok(answerSteps('Jedna souvislá odpověď.').length === 1, 'a plain answer is one step')
+  ok(answerSteps('').length === 0, 'an empty answer has no steps')
+
+  ok(preRevealedSteps('pripad', 0, 4) === 4, 'the first encounter is a full worked example')
+  ok(preRevealedSteps('pripad', 1, 4) === 3, 'then one step is withheld')
+  ok(preRevealedSteps('pripad', 3, 4) === 1, 'later only the opening step is given')
+  ok(preRevealedSteps('pripad', 9, 4) === 0, 'in the end nothing is handed over')
+  ok(preRevealedSteps('definice', 5, 3) === 3, 'a definition never fades')
+  ok(preRevealedSteps('pripad', 5, 1) === 1, 'a one-step answer never fades')
+}
+
+
+console.log('— calibration + weak spots —')
+{
+  const review = (confidence: 'know' | 'unsure' | 'no' | undefined, ok_: boolean) => ({
+    rating: ok_ ? 'good' : 'again',
+    confidence,
+  })
+  const many = (n: number, c: 'know' | 'unsure' | 'no', ok_: boolean) =>
+    Array.from({ length: n }, () => review(c, ok_))
+
+  const c = calibration([...many(8, 'know', true), ...many(2, 'know', false), ...many(5, 'unsure', true), review(undefined, true)])
+  ok(c.sure.total === 10 && c.sure.correct === 8, 'sure answers are counted with their outcome')
+  ok(c.samples === 15, 'reviews without a confidence answer are ignored')
+  ok(accuracy(c.sure) === 0.8, 'accuracy is a plain ratio')
+  ok(accuracy({ total: 0, correct: 0 }) === null, 'no data, no number')
+
+  ok(calibrationVerdict(c) === 'unknown', `under ${CALIBRATION_MIN_SAMPLES} answers nothing is claimed`)
+  const optimistic = calibration([...many(10, 'know', true), ...many(15, 'know', false)])
+  ok(calibrationVerdict(optimistic) === 'overconfident', 'being sure and wrong a lot reads as overconfident')
+  const honest = calibration([...many(24, 'know', true), ...many(1, 'know', false)])
+  ok(calibrationVerdict(honest) === 'honest', 'a good hit rate on "I know it" reads as honest')
+
+  const weak = weakTopics([
+    { topic: 'Besitz', kind: 'lapse' },
+    { topic: 'Besitz', kind: 'hypercorrection' },
+    { topic: 'Eigentum', kind: 'lapse' },
+    { kind: 'lapse' },
+  ])
+  ok(weak[0].topic === 'Besitz' && weak[0].count === 2 && weak[0].hyper === 1, 'the worst topic comes first')
+  ok(weak.some((w) => w.topic === null), 'mistakes without a topic still show up')
+  ok(weakTopics([], 5).length === 0, 'no mistakes, no list')
+  ok(weakTopics(Array.from({ length: 9 }, (_, i) => ({ topic: `T${i}`, kind: 'lapse' as const })), 3).length === 3, 'the list is capped')
+}
+
+
+console.log('— cost: the outline reads a digest, grounding is free —')
+{
+  const long: Block = {
+    id: 'p1-b1',
+    heading: 'Besitz',
+    page: 1,
+    text: 'Besitz ist die tatsächliche Herrschaft über eine Sache. '.repeat(20),
+  }
+  const digest = blockDigest(long)
+  ok(digest.text.length < long.text.length, 'a long block is cut down for the outline')
+  ok(digest.text.length <= DIGEST_CHARS + 4, `the digest respects the cap (${digest.text.length})`)
+  ok(digest.text.trim().endsWith('…'), 'the cut is visible to the model')
+  ok(digest.id === long.id && digest.heading === long.heading, 'id and heading survive — the outline needs them')
+  const short: Block = { id: 'p1-b2', heading: '', page: 1, text: 'Krátký blok.' }
+  ok(blockDigest(short).text === short.text, 'a short block is passed through untouched')
+  ok(digestBlocks([long, short]).length === 2, 'digesting maps over the list')
+
+  // The saving has to be real, not cosmetic.
+  const chars = 300 * 1800
+  const now = estimateCostUsd({ chars, cardEstimate: 800 })
+  ok(now < 2.5, `a 300-page script now estimates under $2.50 (got ${now})`)
+  ok(reviewCostUsd(800, chars) < now, 'the optional model check is the cheaper add-on')
+
+  const grounded: GeneratedCard = {
+    type: 'basic',
+    kind: 'definice',
+    level: 1,
+    front: 'Was ist Besitz?',
+    back: 'Die tatsächliche Herrschaft über eine Sache.',
+    evidence: 'Besitz ist die tatsächliche Herrschaft über eine Sache',
+  }
+  ok(checkEvidence(grounded, long.text), 'a quote that stands in the source passes')
+  ok(!checkEvidence({ ...grounded, evidence: 'Besitz erlischt nach drei Jahren automatisch' }, long.text), 'an invented quote is caught')
+  ok(checkEvidence({ ...grounded, evidence: undefined }, long.text), 'a card without a quote is not punished (rule-based cards have none)')
+  ok(checkEvidence({ ...grounded, evidence: 'krátké' }, long.text), 'a fragment too short to prove anything is ignored')
+
+  const marked = markDrafts([grounded, { ...grounded, evidence: 'Das Eigentum endet mit dem Tod des Eigentümers' }], long.text)
+  ok(marked[0].draft === undefined, 'the grounded card passes untouched')
+  ok(marked[1].draft === true && marked[1].draftReason === 'not-in-source', 'the ungrounded one becomes a draft')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)
