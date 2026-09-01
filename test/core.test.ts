@@ -29,6 +29,14 @@ import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/li
 import { encouragement } from '../src/lib/encouragement'
 import { answerSimilarity, checkAnswer, normalizeAnswer, typedAnswerTarget } from '../src/lib/answer'
 import { readinessBand, subjectReadiness } from '../src/lib/readiness'
+import { blocksLength, isHeading, MAX_BLOCK_CHARS, segmentPages } from '../src/pipeline/segment'
+import { dedupeCards, normalizeQuestion, similarity } from '../src/pipeline/dedupe'
+import { checkCard, countSentences, markDrafts } from '../src/pipeline/qc'
+import { fallbackCardsFromBlock, fallbackOutline, FALLBACK_TAG, significantTerm } from '../src/pipeline/fallback'
+import { parseGeneratedCards, parseOutline } from '../src/pipeline/schema'
+import { addSpend, costUsd, estimateCostUsd, monthKey, withinBudget } from '../src/pipeline/budget'
+import { SYSTEM_PROMPT, cardsPrompt, disciplineOf, kindMenu } from '../src/pipeline/prompts'
+import type { Block, GeneratedCard } from '../src/pipeline/types'
 
 let pass = 0
 let fail = 0
@@ -445,6 +453,194 @@ console.log('— deck share link —')
   ok((await decodeDeckPayload('9.abc')) === null, 'unknown version returns null')
   ok(payloadFromHash('#deck=1.abc') === '1.abc', 'payloadFromHash extracts the payload')
   ok(payloadFromHash('#other') === null, 'foreign hash is ignored')
+}
+
+
+// ============================================================
+// Pipeline — podklad → osnova → karty (BRIEF §4)
+// ============================================================
+console.log('— segmentation —')
+{
+  ok(isHeading('2.1 Besitz und Eigentum'), 'numbered line is a heading')
+  ok(isHeading('§ 823 BGB'), 'paragraph sign is a heading')
+  ok(isHeading('ŘÍMSKÉ PRÁVO'), 'all caps is a heading')
+  ok(!isHeading('Besitz ist die tatsächliche Herrschaft über eine Sache.'), 'a sentence is not a heading')
+  ok(!isHeading('12'), 'a bare page number is not a heading')
+
+  const blocks = segmentPages([
+    {
+      page: 3,
+      text: '2.1 Besitz\n\nBesitz ist die tatsächliche Herrschaft über eine Sache, unabhängig vom Recht daran.\n\nDominium: římské označení pro vlastnické právo k věci, které zahrnuje ius utendi et fruendi.',
+    },
+  ])
+  ok(blocks.length === 2, `two paragraphs → two blocks (got ${blocks.length})`)
+  ok(blocks.every((b) => b.heading === '2.1 Besitz'), 'heading carries onto the blocks below it')
+  ok(blocks.every((b) => b.page === 3), 'blocks keep their page')
+  ok(blocks[0].id === 'p3-b1' && blocks[1].id === 'p3-b2', 'block ids are stable within a page')
+  ok(segmentPages(segmentPages([{ page: 3, text: 'x' }]).map((b) => ({ page: b.page, text: b.text })))[0]?.id === 'p3-b1', 'segmentation is deterministic')
+
+  const long = 'Tato věta má rozumnou délku a opakuje se pořád dokola. '.repeat(80)
+  const split = segmentPages([{ page: 1, text: long }])
+  ok(split.length > 1, 'an oversized paragraph is split')
+  ok(split.every((b) => b.text.length <= MAX_BLOCK_CHARS + 200), 'no block runs far past the cap')
+  ok(split.every((b) => /[.!?]$/.test(b.text.trim())), 'splitting happens at sentence ends, never mid-sentence')
+  ok(blocksLength(blocks) > 0, 'blocksLength counts characters')
+  ok(segmentPages([]).length === 0, 'no pages → no blocks')
+}
+
+console.log('— dedupe —')
+{
+  ok(normalizeQuestion('Co je  DOMINIUM?') === normalizeQuestion('co je dominium'), 'normalisation ignores case and punctuation')
+  ok(normalizeQuestion('Co je vlastnické právo?') === normalizeQuestion('Co je vlastnicke pravo?'), 'diacritics do not make a new question')
+  ok(similarity('Co je dominium?', 'Co je dominium') === 1, 'identical questions score 1')
+  ok(similarity('Co je dominium?', 'Jaké byly fáze procesu?') < 0.4, 'different questions score low')
+
+  const cards: GeneratedCard[] = [
+    { type: 'basic', kind: 'definice', level: 1, front: 'Co je dominium?', back: 'Vlastnické právo.' },
+    { type: 'basic', kind: 'definice', level: 1, front: 'Co je DOMINIUM?', back: 'Vlastnictví věci.' },
+    { type: 'basic', kind: 'definice', level: 1, front: 'Co je possessio?', back: 'Držba.' },
+  ]
+  const { kept, dropped } = dedupeCards(cards)
+  ok(kept.length === 2 && dropped.length === 1, `near-duplicate dropped (kept ${kept.length})`)
+  ok(dedupeCards(cards, ['Co je possessio?']).kept.length === 1, 'questions already in the deck are dropped too')
+  ok(dedupeCards([{ type: 'basic', kind: 'basic', level: 1, front: '  ', back: 'x' }]).kept.length === 0, 'an empty question is never kept')
+}
+
+console.log('— quality control —')
+{
+  ok(countSentences('Jedna věta.') === 1, 'one sentence')
+  ok(countSentences('První. Druhá! Třetí?') === 3, 'three sentences')
+  ok(countSentences('Podle § 823 BGB, tj. z. B. u věcných práv, platí odpovědnost.') === 1, 'abbreviations do not end a sentence')
+
+  const short: GeneratedCard = { type: 'basic', kind: 'definice', level: 1, front: 'Co je dominium?', back: 'Vlastnické právo k věci.' }
+  ok(checkCard(short).length === 0, 'a good card has no issues')
+
+  const long: GeneratedCard = { ...short, back: 'První věta. Druhá věta. Třetí věta. Čtvrtá věta.' }
+  ok(checkCard(long)[0] === 'answer-too-long', 'four sentences fail the chunking rule')
+
+  const echo: GeneratedCard = { type: 'basic', kind: 'definice', level: 1, front: 'Vlastnické právo k věci je co?', back: 'Vlastnické právo k věci' }
+  ok(checkCard(echo).includes('answer-in-question'), 'an answer standing in the question is caught')
+
+  ok(checkCard({ type: 'cloze', kind: 'cloze', level: 1, text: 'Bez vynechání.' })[0] === 'cloze-no-blank', 'a cloze without a blank fails')
+  ok(checkCard({ type: 'basic', kind: 'mapa', level: 1, front: 'Kde leží Dunaj?', back: 'Ve střední Evropě.' })[0] === 'needs-image', 'a map card without a picture fails')
+  ok(checkCard({ type: 'basic', kind: 'basic', level: 1, front: '', back: '' })[0] === 'empty', 'an empty card fails first')
+
+  const marked = markDrafts([short, long])
+  ok(marked[0].draft === undefined, 'a passing card is left untouched')
+  ok(marked[1].draft === true && marked[1].draftReason === 'answer-too-long', 'a failing card becomes a draft with the reason')
+}
+
+console.log('— rule-based fallback (no model) —')
+{
+  const block: Block = {
+    id: 'p1-b1',
+    heading: 'Vlastnictví',
+    page: 1,
+    text: 'Besitz ist die tatsächliche Herrschaft über eine Sache, unabhängig vom Recht daran. Das Eigentum wurde im Jahr 1811 im ABGB geregelt. Rakousko má rozlohu 83 879 km² a hraničí s osmi státy.',
+  }
+  const cards = fallbackCardsFromBlock(block)
+  ok(cards.length >= 3, `fallback made cards without a model (got ${cards.length})`)
+  ok(cards.every((c) => c.tags?.includes(FALLBACK_TAG)), 'every fallback card is tagged koncept')
+  ok(cards.every((c) => c.sourceRef?.page === 1 && c.sourceRef?.block === 'p1-b1'), 'fallback cards point back at the source')
+  ok(cards.every((c) => c.topic === 'Vlastnictví'), 'fallback cards inherit the heading as topic')
+
+  const def = cards.find((c) => c.kind === 'definice')
+  ok(def?.front === 'Was ist Besitz?', `German definition keeps its language (got ${def?.front})`)
+  ok(!def?.back?.includes('Besitz ist'), 'the definition answer is the definiens only')
+
+  const year = cards.find((c) => c.text?.includes('{{1811}}'))
+  ok(!!year && year.type === 'cloze', 'a year becomes a cloze')
+  const figure = cards.find((c) => c.text?.includes('{{83 879 km²}}'))
+  ok(!!figure, 'a figure becomes a cloze')
+
+  const czech = fallbackCardsFromBlock({ id: 'p2-b1', heading: '', page: 2, text: 'Dominium je vlastnické právo k věci, které zahrnuje užívání, požívání i zcizení věci.' })
+  ok(czech[0]?.front === 'Co je Dominium?', `Czech definition uses the Czech stem (got ${czech[0]?.front})`)
+
+  const plain = fallbackCardsFromBlock({ id: 'p3-b1', heading: '', page: 3, text: 'Zkoumání této problematiky vyžaduje trpělivost a soustředění během celého semestru.' })
+  ok(plain.length === 1 && plain[0].text?.includes('{{'), 'a plain paragraph still yields one cloze')
+  ok(fallbackCardsFromBlock({ id: 'p4-b1', heading: '', page: 4, text: '' }).length === 0, 'an empty block yields nothing')
+  ok(significantTerm('Krátká věta o věcech') !== null, 'significantTerm finds a term')
+
+  const outline = fallbackOutline([block, { ...block, id: 'p1-b2' }, { id: 'p2-b1', heading: 'Držba', page: 2, text: 'Text.' }])
+  ok(outline.topics.length === 2, 'fallback outline groups blocks by heading')
+  ok(outline.topics[0].blockIds.length === 2, 'a topic collects all its blocks')
+  ok(outline.topics.every((t) => t.estimatedMinutes >= 5), 'every topic carries a time estimate')
+}
+
+console.log('— model output validation —')
+{
+  const known = ['p1-b1', 'p1-b2']
+  const good = parseOutline({ topics: [{ title: 'Vlastnictví', blockIds: ['p1-b1'], difficulty: 3, estimatedMinutes: 20, cardEstimate: 12 }] }, known)
+  ok(good.errors.length === 0 && good.value.topics.length === 1, 'a well-formed outline passes')
+  ok(good.value.topics[0].id === 't1', 'topics get their own ids')
+
+  const bogus = parseOutline({ topics: [{ title: 'X', blockIds: ['nope'], difficulty: 9, estimatedMinutes: 0, cardEstimate: 0 }] }, known)
+  ok(bogus.value.topics.length === 0 && bogus.errors.length > 0, 'a topic referencing unknown blocks is dropped')
+  ok(parseOutline('not json at all', known).errors.length > 0, 'a foreign shape never throws')
+  ok(parseOutline({ topics: [] }, known).errors.length > 0, 'an empty outline is an error')
+
+  const ctx = { topic: 'Vlastnictví', pages: { 'p1-b1': 7 } }
+  const parsed = parseGeneratedCards(
+    {
+      cards: [
+        { type: 'basic', kind: 'definice', level: 2, front: 'Co je dominium?', back: 'Vlastnické právo.', blockId: 'p1-b1' },
+        { type: 'cloze', kind: 'cloze', level: 1, text: 'Vzniklo roku {{1811}}.', blockId: 'p1-b1' },
+        { type: 'basic', kind: 'vymyslene', level: 7, front: 'Q?', back: 'A', blockId: 'p1-b1' },
+        { type: 'basic', kind: 'definice', level: 1, front: '', back: '', blockId: 'p1-b1' },
+      ],
+    },
+    ctx,
+  )
+  ok(parsed.value.length === 3, `unusable cards are dropped, the rest kept (got ${parsed.value.length})`)
+  ok(parsed.value[0].sourceRef?.page === 7, 'blockId is resolved to a page')
+  ok(parsed.value[0].topic === 'Vlastnictví', 'cards inherit the approved topic')
+  ok(parsed.value[2].kind === 'basic' && parsed.value[2].level === 1, 'an unknown kind/level falls back instead of failing')
+  ok(parseGeneratedCards({}, ctx).errors.length > 0, 'a missing cards array is an error')
+  ok(parseGeneratedCards({ cards: [{ type: 'basic', kind: 'definice', level: 1, front: 'Q?', back: 'A', blockId: 'p1-b1' }] }, { ...ctx, allowedKinds: ['proces'] }).value[0].kind === 'basic', 'a kind outside the discipline is not accepted')
+}
+
+console.log('— budget —')
+{
+  ok(Math.abs(costUsd('claude-sonnet-5', { input: 1_000_000, output: 0 }) - 2) < 1e-9, 'sonnet input is $2 per 1M tokens')
+  ok(Math.abs(costUsd('claude-opus-5', { output: 1_000_000 }) - 25) < 1e-9, 'opus output is $25 per 1M tokens')
+  ok(costUsd('claude-sonnet-5', { input: 1_000_000 }, true) === 1, 'batch halves the price')
+  ok(costUsd('claude-sonnet-5', { input: 1_000_000, cacheRead: 1_000_000 }) > 2, 'cached reads still cost something')
+
+  const big = estimateCostUsd({ chars: 300 * 1800, cardEstimate: 800 })
+  ok(big > 0.5 && big < 20, `a 300-page script estimates in single dollars (got ${big})`)
+  ok(estimateCostUsd({ chars: 300 * 1800, cardEstimate: 800, batch: true }) < big, 'the batch estimate is lower')
+
+  const jan = new Date('2026-01-15T12:00:00')
+  const feb = new Date('2026-02-01T12:00:00')
+  ok(monthKey(jan) === '2026-01', 'month key is local YYYY-MM')
+  const ledger = addSpend(addSpend(null, 3, jan), 4, jan)
+  ok(ledger.spentUsd === 7, 'spend accumulates within a month')
+  ok(withinBudget(ledger, 15, 5, jan), 'a run that fits under the ceiling is allowed')
+  ok(!withinBudget(ledger, 15, 9, jan), 'a run that would cross the ceiling is refused')
+  ok(withinBudget(ledger, 15, 9, feb), 'a new month starts from zero')
+  ok(addSpend(ledger, 1, feb).spentUsd === 1, 'the ledger resets with the month')
+  ok(!withinBudget(ledger, 0, 0.01, jan), 'a zero budget refuses everything')
+}
+
+console.log('— prompts —')
+{
+  ok(SYSTEM_PROMPT === SYSTEM_PROMPT.trim(), 'the cached prefix has no stray whitespace')
+  ok(!/\d{4}-\d{2}-\d{2}|\d{2}:\d{2}/.test(SYSTEM_PROMPT), 'no timestamp in the cached prefix (it would kill the cache)')
+  ok(SYSTEM_PROMPT.includes('NIKDY nepřekládej'), 'the prompt forbids translating terms')
+  ok(disciplineOf('law') === 'law' && disciplineOf(undefined) === 'general', 'discipline falls back to general')
+  ok(kindMenu('law').includes('pripad') && !kindMenu('law').includes('klimadiagram'), 'the law menu offers law kinds only')
+  ok(kindMenu('geography').includes('proces'), 'the geography menu offers processes')
+  ok(kindMenu('law').includes('cloze'), 'shared kinds are offered in every discipline')
+
+  const block: Block = { id: 'p1-b1', heading: 'Vlastnictví', page: 1, text: 'Dominium je vlastnické právo.' }
+  const prompt = cardsPrompt({
+    subjectName: 'Římské právo',
+    discipline: 'law',
+    topic: { id: 't1', title: 'Vlastnictví', blockIds: ['p1-b1'], difficulty: 2, estimatedMinutes: 10, cardEstimate: 6 },
+    blocks: [block],
+  })
+  ok(prompt.includes('[p1-b1]') && prompt.includes('strana 1'), 'the prompt carries block ids and pages')
+  ok(prompt.includes('Dominium je vlastnické právo.'), 'the prompt carries the material itself')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

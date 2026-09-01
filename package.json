@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:pipeline": "rolldown src/pipeline/index.ts --format esm -o server/gen/pipeline.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "deploy": "sh scripts/deploy.sh",

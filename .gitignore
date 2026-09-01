@@ -24,6 +24,8 @@ dist-ssr
 *.sw?
 server/node_modules
 server/data
+# pipeline core, bundled from src/pipeline by `npm run build:pipeline`
+server/gen
 .env
 
 # graphify — lokální znalostní graf kódu (negenerovat do repa)
