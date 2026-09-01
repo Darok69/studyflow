@@ -2,6 +2,42 @@
 
 Nejnovější nahoře. Formát: co, proč, jaké alternativy zamítnuty.
 
+## 2026-09-02 — Dotažení: plán, hranice, slepé mapy, vlastní poznámky
+
+**Plán do zkoušek počítá potřebu proti SKUTEČNÉMU času** (Nastavení „kolik času
+denně mám"), a když se to nevejde, řekne co škrtnout — od nejvzdálenější zkoušky.
+🔴 První verze radila „škrtni 300 karet ze zeměpisu" a ušetřila tím 3 minuty,
+zatímco problém dělalo právo. Teď se škrtá **jen tak hluboko, jak je potřeba**,
+postupně přes předměty, a když ani to nestačí (hromada už naučených karet, které
+se prostě musí opakovat), appka to **přizná** místo aby vymyslela další radu.
+
+**Den před zkouškou žádné nové karty** (`isExamImminent`) — jen opakování.
+Nabifloval bys nové věci na úkor spánku a výsledek by to zhoršilo.
+
+**Nad 150 % dnešní dávky appka sama řekne dost** (`isOverdoing`) — dá se odklepnout,
+ale ne přehlédnout. Přeučení před zkouškou výsledek snižuje.
+
+**Zeigarnik**: konec uprostřed tématu uloží nit („Dnes jsi skončil u tématu X"),
+druhý den zní „Začni tématem X". Dokončená dávka nit smaže — není co dotahovat.
+
+**Nová etapa** (pondělí / 1. v měsíci / den po zkoušce) se nabídne **jednou za den**,
+jinak by z toho bylo otravování.
+
+**Slepé mapy jsou zdarma a offline.** Prst nakreslí obdélník, název je odpověď,
+z každého pojmenovaného místa vznikne karta se **stejnou mapou pro kontext**.
+Souřadnice jsou relativní (0–1), takže maska nakreslená na mobilu sedí i na
+notebooku. Dva režimy: odkrytý zbytek mapy (poznáváš podle okolí) vs. zakryté
+všechno (sousedi nenapoví).
+
+**Import vlastních poznámek bez modelu**: „Pojem — význam" na řádek, tabulka
+z tabulkového editoru, markdown tabulka, věty s {{vynechávkou}} nebo otázka a
+odpověď na dvou řádcích. Formát se **hádá** (oddělovač musí sedět aspoň na
+polovině řádků), místo aby si uživatel vybíral z menu.
+
+**Připomínka říká tvou vlastní větu** (implementation intention ze Plánu), ne
+„čas na učení". Server ji čte ze sync snapshotu, vyhrává předmět s nejbližší
+zkouškou.
+
 ## 2026-09-02 — Bez modelu je VÝCHOZÍ stav, ne nouzovka
 
 Daniel: „chci aby to bylo nejperfektnější bez AI, nechci za vše platit."

@@ -1,6 +1,7 @@
 import type { CSSProperties } from 'react'
 import type { Card } from '../db/db'
 import { SvgView } from './SvgView'
+import { OcclusionView } from './OcclusionView'
 
 interface Props {
   card: Card
@@ -30,7 +31,16 @@ export function CardFace({
   return (
     <div className={`paper${sans ? ' paper-sans' : ''}`} style={style}>
       {card.svg && <SvgView svg={card.svg} />}
-      {card.image && <img className="card-image" src={card.image} alt="" loading="lazy" />}
+      {card.occlusion && card.image ? (
+        <OcclusionView
+          image={card.image}
+          occlusion={card.occlusion}
+          revealed={revealed}
+          alt={card.images?.[0]?.alt ?? card.front}
+        />
+      ) : (
+        card.image && <img className="card-image" src={card.image} alt="" loading="lazy" />
+      )}
 
       <div className="card-front">{card.front}</div>
 

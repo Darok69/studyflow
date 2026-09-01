@@ -399,6 +399,10 @@ export const cs = {
   draftApproveBtn: 'Použít',
   draftApproveTitle: 'Zařadit kartu do učení tak, jak je',
   filterDrafts: 'Jen koncepty',
+  plainHint:
+    'Nemusí to být JSON. Vlož klidně vlastní poznámky — „Pojem — význam" na řádek, tabulku z tabulkového editoru, nebo věty s {{vynechávkou}}. Karty z toho uděláme bez modelu.',
+  plainDeckName: 'Vložené poznámky',
+  errPlainNoCards: 'V textu jsem nenašel dvojice otázka–odpověď. Zkus je oddělit pomlčkou, tabulátorem nebo prázdným řádkem.',
   errUploadFailed: 'Soubor se nepodařilo nahrát.',
   errSourceFailed: 'Podklad se nepodařilo zpracovat.',
   // Učení: kalibrace, vlastní formulace, kroky
@@ -425,6 +429,54 @@ export const cs = {
   calibUnsure: (pct: number) => `Když tušíš, vyjde to v ${pct} %.`,
   calibOverconfident: 'Přeceňuješ se — to je nejčastější důvod, proč lidi u zkoušky překvapí.',
   calibHonest: 'Odhaduješ se poctivě. To je při přípravě k nezaplacení.',
+  // Plán
+  navPlan: 'Plán',
+  planTitle: 'Plán do zkoušek',
+  planEmpty: 'Nejdřív si založ balíček a nastav mu termín zkoušky.',
+  planAvailableName: 'Kolik času denně mám',
+  planAvailableDesc: 'Realisticky, ne jak by to bylo hezké. Plán se počítá proti tomuhle číslu.',
+  planFits: (need: number, have: number) => `Vejde se to: potřebuješ ${need} min denně, máš ${have}.`,
+  planTight: (need: number, have: number, over: number) =>
+    `Nevejde se to: plán chce ${need} min denně, máš ${have} — o ${over} min víc, než je.`,
+  planCutIntro: 'Nejmenší škoda — škrtej od nejvzdálenější zkoušky:',
+  planCut: (cards: number, subject: string) => `${cards} ${karty(cards)} z předmětu ${subject}`,
+  planNotEnough:
+    'Ani to nestačí — nejbližší zkouška sama o sobě přeteče den. Buď si přidej čas, nebo z balíčku vyhoď, co u zkoušky nepotřebuješ.',
+  planPerDay: (cards: number, minutes: number) => `${cards} nových/den · ~${minutes} min`,
+  planRemaining: (n: number) => `zbývá ${n} ${karty(n)}`,
+  planIntentionPlaceholder: 'Kdy a kde se tomu budu věnovat?',
+  planIntentionHint:
+    'Konkrétní věta („V úterý v 19:00 u kuchyňského stolu 25 minut práva") drží líp než dobrý úmysl — a přesně tohle ti přijde v připomínce.',
+  // Zeigarnik + nová etapa
+  noteToday: (topic: string) => `Dnes jsi skončil u tématu ${topic}. Až budeš mít chvíli, naváž tam.`,
+  noteLater: (topic: string) => `Začni tématem ${topic} — tam jsi minule přestal.`,
+  noteNoTopic: 'Minule jsi to nedokončil — naváž, kde jsi přestal.',
+  freshMonday: 'Pondělí. Dobrý den na to začít novou etapu.',
+  freshMonth: 'První den v měsíci — čistý štít, banka volných dní je zase plná.',
+  freshAfterExam: 'Zkouška je za tebou. Nastav si termín další a jedeme dál.',
+  freshDismiss: 'Díky, vím',
+  // Hranice
+  overdoingTitle: 'Dost pro dnešek',
+  overdoingBody:
+    'Dnešní dávku máš dávno za sebou. Přeučení před zkouškou výsledek spíš zhorší — zbytek si nech na zítra.',
+  overdoingStop: 'Končím',
+  overdoingMore: 'Ještě chvíli',
+  examTomorrow: 'Zkouška je za dveřmi — dnes už jen opakování, žádné nové karty.',
+  // Slepá mapa (image occlusion)
+  newMapBtn: '+ Slepá mapa',
+  occlusionTitle: 'Slepá mapa',
+  occlusionPick: 'Vyber mapu nebo schéma',
+  occlusionHint: 'Táhni prstem přes místo, které chceš zakrýt. Klepnutím na název ho přejmenuješ, křížkem smažeš.',
+  occlusionLabelPlaceholder: 'Název místa (Dunaj, Alpy…)',
+  occlusionAltLabel: 'Popis obrázku',
+  occlusionAltPlaceholder: 'Slepá mapa Rakouska',
+  occlusionModeLabel: 'Co se zakrývá',
+  occlusionModeOne: 'Jen hledané místo',
+  occlusionModeAll: 'Všechna místa',
+  occlusionModeOneDesc: 'Zbytek mapy zůstane vidět — poznáváš podle okolí.',
+  occlusionModeAllDesc: 'Zakryjí se všechna místa, sousedi nenapoví. Těžší a účinnější.',
+  occlusionSave: (n: number) => `Vytvořit ${n} ${karty(n)}`,
+  occlusionNeedLabels: 'Pojmenuj aspoň jedno zakryté místo — název je odpověď na kartě.',
 }
 
 /**

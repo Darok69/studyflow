@@ -5,6 +5,7 @@ import { countdownLabel, dayKey, daysUntilDate } from '../lib/date'
 import { isLeech } from '../lib/wellbeing'
 import { subjectColor, subjectColorIndex } from '../lib/theme'
 import { CardEditor } from '../components/CardEditor'
+import { NewMapModal } from '../components/NewMapModal'
 import { t, type MsgKey } from '../i18n'
 
 type StateFilter = 'all' | 'new' | 'learning' | 'draft' | 'suspended' | 'leech'
@@ -45,6 +46,7 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
   const [subjectFilter, setSubjectFilter] = useState<string>(initialSubjectId ?? 'all')
   const [stateFilter, setStateFilter] = useState<StateFilter>('all')
   const [editing, setEditing] = useState<Card | 'new' | null>(startNewCard ? 'new' : null)
+  const [mapping, setMapping] = useState(false)
 
   async function load() {
     const [s, c] = await Promise.all([getSubjects(), getCards()])
@@ -113,6 +115,14 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
           {t('back')}
         </button>
         <span className="flex-spacer" />
+        <button
+          className="btn btn-ghost btn-small"
+          onClick={() => setMapping(true)}
+          disabled={subjects.length === 0}
+          title={t('occlusionTitle')}
+        >
+          {t('newMapBtn')}
+        </button>
         <button
           className="btn btn-primary btn-small"
           onClick={() => setEditing('new')}
@@ -231,6 +241,18 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
             )
           })}
         </ul>
+      )}
+
+      {mapping && (
+        <NewMapModal
+          subjects={subjects}
+          defaultSubjectId={subjectFilter !== 'all' ? subjectFilter : undefined}
+          onCreated={() => {
+            setMapping(false)
+            void load()
+          }}
+          onClose={() => setMapping(false)}
+        />
       )}
 
       {editing && (

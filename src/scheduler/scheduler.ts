@@ -92,6 +92,17 @@ export function introducedTodayBySubject(
 export const DEFAULT_HORIZON_DAYS = 14
 
 /**
+ * Days before the exam when new cards stop. Cramming fresh material the night
+ * before costs sleep and buys nothing: the last day is for reviewing what is
+ * already half-known (BRIEF §5, healthy boundaries).
+ */
+export const NO_NEW_CARDS_DAYS = 1
+
+export function isExamImminent(daysUntilExam: number | null): boolean {
+  return daysUntilExam !== null && daysUntilExam >= 0 && daysUntilExam <= NO_NEW_CARDS_DAYS
+}
+
+/**
  * Per-subject daily new-card quota = ceil(remaining new / days until exam).
  * An exam today/in the past (days <= 0) collapses the horizon to 1 → cram all
  * remaining new cards today. No exam → pace over a default horizon.
@@ -207,7 +218,10 @@ export function buildSession(
       s.dailyNewLimit != null
         ? Math.max(0, Math.floor(s.dailyNewLimit))
         : newCardQuota(news.length + alreadyToday, dExam)
-    const quota = Math.min(Math.max(0, wanted - alreadyToday), news.length, capRemaining)
+    // The day before the exam: reviews only.
+    const quota = isExamImminent(dExam)
+      ? 0
+      : Math.min(Math.max(0, wanted - alreadyToday), news.length, capRemaining)
     capRemaining -= quota
 
     // Within a subject: clear the backlog (due reviews) first, then new cards —
@@ -279,7 +293,7 @@ export function subjectStats(
     total: list.length,
     studied: list.filter((c) => c.state !== 'new').length,
     dueToday: active.filter((c) => isDueReview(c, now)).length,
-    newToday: Math.min(Math.max(0, wanted - introducedToday), news.length),
+    newToday: isExamImminent(dExam) ? 0 : Math.min(Math.max(0, wanted - introducedToday), news.length),
     daysUntilExam: dExam,
   }
 }

@@ -16,7 +16,7 @@ import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
 import { subjectColorIndex } from '../lib/theme'
-import { BREAK_NUDGE_MINUTES, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
+import { BREAK_NUDGE_MINUTES, DEFAULT_DAILY_MINUTES, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
 import { dayKey } from '../lib/date'
 
 const SETTINGS_ID = 'app'
@@ -321,7 +321,17 @@ export async function createSubject(input: {
 export async function updateSubject(
   id: string,
   patch: Partial<
-    Pick<Subject, 'name' | 'examDate' | 'reminderTime' | 'colorIndex' | 'dailyNewLimit' | 'kind' | 'ects'>
+    Pick<
+      Subject,
+      | 'name'
+      | 'examDate'
+      | 'reminderTime'
+      | 'colorIndex'
+      | 'dailyNewLimit'
+      | 'kind'
+      | 'ects'
+      | 'intention'
+    >
   >,
 ): Promise<void> {
   await db.subjects.update(id, patch)
@@ -461,6 +471,7 @@ export const DEFAULT_SETTINGS: Settings = {
   cardFontScale: 1,
   cardSans: false,
   askConfidence: true,
+  dailyMinutes: DEFAULT_DAILY_MINUTES,
 }
 
 export async function getSettings(): Promise<Settings> {

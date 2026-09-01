@@ -19,7 +19,11 @@ import {
 import { previewIntervals, retrievabilityAt, type FsrsFields } from '../scheduler/fsrs'
 import { checkAnswer, checkQuantityAnswer, typedAnswerTarget, type AnswerCheck } from '../lib/answer'
 import { answerSteps, isStepped, preRevealedSteps } from '../lib/steps'
-import { isLeech } from '../lib/wellbeing'
+import { isLeech, isOverdoing } from '../lib/wellbeing'
+import { clearDayNote, writeDayNote } from '../lib/dayNote'
+import { dayKey } from '../lib/date'
+import { isExamImminent } from '../scheduler/scheduler'
+import { daysUntil } from '../lib/date'
 import { CardFace } from '../components/CardFace'
 import { CardEditor } from '../components/CardEditor'
 import { RatingButtons } from '../components/RatingButtons'
@@ -125,6 +129,8 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   const [leechCard, setLeechCard] = useState<Card | null>(null)
   // Shown right after a confident miss, so the return of the card makes sense.
   const [hyperHint, setHyperHint] = useState(false)
+  // "That is enough for today" — dismissible, never a lock.
+  const [overdoingShown, setOverdoingShown] = useState(false)
   const [editing, setEditing] = useState<Card | null>(null)
 
   const cram = mode.kind === 'cram'
@@ -196,6 +202,26 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   const card = currentId ? cardMap.get(currentId) : undefined
   const subject = card ? subjectMap.get(card.subjectId) : undefined
   const done = !loading && index >= queue.length
+
+  /**
+   * Leaving in the middle of a topic leaves a thread for tomorrow (Zeigarnik).
+   * Finishing the batch clears it — there is nothing hanging any more.
+   */
+  function finish() {
+    const remaining = queue.length - index
+    if (!cram && card && subject && remaining > 0) {
+      writeDayNote({
+        subjectId: subject.id,
+        subjectName: subject.name,
+        topic: card.topic ?? null,
+        savedOn: dayKey(new Date()),
+        remaining,
+      })
+    } else if (!cram) {
+      clearDayNote()
+    }
+    onDone()
+  }
 
   const typedTarget =
     settings?.typedAnswers && card && !cram ? typedAnswerTarget(card) : null
@@ -407,7 +433,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         <p className="done-emoji">🌿</p>
         <h2>{cram ? t('nothingToCram') : t('nothingTodayPlain')}</h2>
         <p className="muted">{t('enjoyBreak')}</p>
-        <button className="btn btn-primary" onClick={onDone}>
+        <button className="btn btn-primary" onClick={finish}>
           {t('backToOverview')}
         </button>
       </div>
@@ -420,7 +446,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         <p className="done-emoji">🎉</p>
         <h2>{t('doneHeading')}</h2>
         <p className="muted">{cram ? t('doneCram', reviewCount) : t('doneStudy', reviewCount)}</p>
-        <button className="btn btn-primary" onClick={onDone}>
+        <button className="btn btn-primary" onClick={finish}>
           {t('backToOverview')}
         </button>
         {canUndo && (
@@ -445,7 +471,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   return (
     <div className="page study">
       <div className="study-top">
-        <button className="btn btn-ghost btn-small" onClick={onDone}>
+        <button className="btn btn-ghost btn-small" onClick={finish}>
           {t('endSession')}
         </button>
         <div className="study-progress">
@@ -499,6 +525,29 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
           <button className="nudge-dismiss" onClick={dismissNudge}>
             {t('keepGoing')}
           </button>
+        </div>
+      )}
+
+      {!cram && isOverdoing(reviewCount, total) && !overdoingShown && (
+        <div className="guardrail overdoing" role="status">
+          <div>
+            <strong>{t('overdoingTitle')}</strong>
+            <p className="muted overdoing-body">{t('overdoingBody')}</p>
+          </div>
+          <span className="leech-actions">
+            <button className="nudge-dismiss" onClick={finish}>
+              {t('overdoingStop')}
+            </button>
+            <button className="nudge-dismiss" onClick={() => setOverdoingShown(true)}>
+              {t('overdoingMore')}
+            </button>
+          </span>
+        </div>
+      )}
+
+      {!cram && isExamImminent(daysUntil(subject.examDate, new Date())) && (
+        <div className="cram-note" role="status">
+          {t('examTomorrow')}
         </div>
       )}
 

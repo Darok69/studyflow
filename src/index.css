@@ -1298,6 +1298,149 @@ h3 {
   background: color-mix(in srgb, var(--mid) 14%, var(--desk));
 }
 
+/* ---------- Image occlusion (blind maps) ---------- */
+.occlusion {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 0;
+}
+
+.occlusion-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Masks are positioned in per cent, so they hold at any size — the whole point
+   of storing relative coordinates. */
+.occlusion-mask {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: var(--panel);
+  border: 2px solid var(--accent);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.occlusion-target {
+  border-color: var(--mid);
+}
+
+.occlusion-revealed {
+  background: color-mix(in srgb, var(--far) 22%, var(--panel));
+  border-color: var(--far);
+  font-size: 12.5px;
+}
+
+.occlusion-surface {
+  touch-action: none; /* the finger draws a mask, it does not scroll the page */
+  cursor: crosshair;
+  user-select: none;
+}
+
+.occlusion-editable {
+  opacity: 0.85;
+}
+
+.occlusion-preview {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  border-style: dashed;
+}
+
+.occlusion-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.occlusion-hint {
+  font-size: 13px;
+  margin: 0;
+}
+
+.occlusion-row {
+  gap: 8px;
+}
+
+.occlusion-row .form-input {
+  flex: 1;
+  min-width: 0;
+}
+
+.occlusion-index {
+  width: 22px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+/* ---------- Plan, day note, boundaries ---------- */
+.plan-verdict {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.plan-verdict-tight {
+  background: color-mix(in srgb, var(--mid) 12%, var(--panel));
+  border-color: color-mix(in srgb, var(--mid) 36%, transparent);
+}
+
+.plan-cut {
+  font-weight: 600;
+}
+
+.plan-cuts {
+  margin: 2px 0 0;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.plan-bar {
+  margin: 4px 0 12px;
+}
+
+.plan-row .card-row-main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.plan-intention {
+  width: 100%;
+  font-size: 14px;
+}
+
+.plan-note {
+  font-size: 13px;
+}
+
+.day-note,
+.fresh-start,
+.overdoing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.overdoing-body {
+  margin: 4px 0 0;
+  font-size: 13.5px;
+}
+
 /* ---------- Calibration + worked examples ---------- */
 .confidence-row {
   display: flex;

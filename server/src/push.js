@@ -41,6 +41,30 @@ export function dueTodayCount(backupData, now = new Date()) {
   }
 }
 
+/**
+ * The user's own implementation intention (BRIEF §5.11) — "V úterý v 19:00 u
+ * kuchyňského stolu 25 minut práva." A concrete when/where/what is what makes
+ * people actually sit down, so the reminder says that instead of a generic
+ * nudge. The subject with the nearest exam wins; without an exam date, the
+ * first one that has an intention.
+ */
+export function pickIntention(backupData, now = new Date()) {
+  try {
+    const parsed = typeof backupData === 'string' ? JSON.parse(backupData) : backupData
+    const subjects = Array.isArray(parsed?.subjects) ? parsed.subjects : []
+    const withIntention = subjects.filter((s) => typeof s?.intention === 'string' && s.intention.trim())
+    if (withIntention.length === 0) return null
+
+    const upcoming = withIntention
+      .filter((s) => s.examDate && new Date(`${s.examDate}T23:59:59`).getTime() >= now.getTime())
+      .sort((a, b) => (a.examDate < b.examDate ? -1 : 1))
+
+    return (upcoming[0] ?? withIntention[0]).intention.trim()
+  } catch {
+    return null
+  }
+}
+
 const MESSAGES = {
   cs: (n) =>
     n == null || n === 0
@@ -122,8 +146,12 @@ async function tick(log) {
     if (local && local.time === sub.time && sub.lastSentDate !== local.date) {
       sub.lastSentDate = local.date
       changed = true
-      const n = dueTodayCount(getBackup(sub.userId)?.data)
-      const msg = (MESSAGES[sub.lang] ?? MESSAGES.cs)(n)
+      const snapshot = getBackup(sub.userId)?.data
+      const n = dueTodayCount(snapshot)
+      const base = (MESSAGES[sub.lang] ?? MESSAGES.cs)(n)
+      // The plan first, the count second — "time to study" persuades nobody.
+      const intention = pickIntention(snapshot)
+      const msg = intention ? { title: base.title, body: `${intention}\n${base.body}` } : base
       try {
         await webpush.sendNotification(sub.subscription, JSON.stringify(msg), { TTL: 3600 })
       } catch (err) {

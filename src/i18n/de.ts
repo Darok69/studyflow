@@ -407,6 +407,10 @@ export const de: Messages = {
   draftApproveBtn: 'Übernehmen',
   draftApproveTitle: 'Die Karte so ins Lernen übernehmen',
   filterDrafts: 'Nur Entwürfe',
+  plainHint:
+    'Es muss kein JSON sein. Füg deine eigenen Notizen ein — „Begriff — Bedeutung" pro Zeile, eine Tabelle aus der Tabellenkalkulation oder Sätze mit einer {{Lücke}}. Karten entstehen daraus ohne Modell.',
+  plainDeckName: 'Eingefügte Notizen',
+  errPlainNoCards: 'Ich habe keine Frage-Antwort-Paare gefunden. Trenne sie mit Gedankenstrich, Tabulator oder Leerzeile.',
   errUploadFailed: 'Die Datei konnte nicht hochgeladen werden.',
   errSourceFailed: 'Die Unterlage konnte nicht verarbeitet werden.',
   // Lernen: Kalibrierung, eigene Worte, Schritte
@@ -433,4 +437,52 @@ export const de: Messages = {
   calibUnsure: (pct: number) => `Wenn du ahnst, stimmt es zu ${pct} %.`,
   calibOverconfident: 'Du überschätzt dich — der häufigste Grund, warum Prüfungen überraschen.',
   calibHonest: 'Du schätzt dich ehrlich ein. Das ist in der Vorbereitung viel wert.',
+  // Plan
+  navPlan: 'Plan',
+  planTitle: 'Plan bis zu den Prüfungen',
+  planEmpty: 'Lege zuerst ein Deck an und gib ihm einen Prüfungstermin.',
+  planAvailableName: 'Zeit, die ich täglich habe',
+  planAvailableDesc: 'Realistisch, nicht schöngerechnet. Der Plan misst sich an dieser Zahl.',
+  planFits: (need: number, have: number) => `Es passt: du brauchst ${need} Min. täglich und hast ${have}.`,
+  planTight: (need: number, have: number, over: number) =>
+    `Es passt nicht: der Plan will ${need} Min. täglich, du hast ${have} — ${over} Min. zu viel.`,
+  planCutIntro: 'Geringster Schaden — streiche bei der fernsten Prüfung zuerst:',
+  planCut: (cards: number, subject: string) => `${cards} ${cards === 1 ? 'Karte' : 'Karten'} aus ${subject}`,
+  planNotEnough:
+    'Auch das reicht nicht — die nächste Prüfung sprengt den Tag allein. Entweder mehr Zeit einplanen oder aus dem Deck streichen, was die Prüfung nicht braucht.',
+  planPerDay: (cards: number, minutes: number) => `${cards} neue/Tag · ~${minutes} Min.`,
+  planRemaining: (n: number) => `noch ${n}`,
+  planIntentionPlaceholder: 'Wann und wo mache ich das?',
+  planIntentionHint:
+    'Ein konkreter Satz („Dienstag 19:00, Küchentisch, 25 Minuten Recht") trägt weiter als guter Wille — und genau das steht in deiner Erinnerung.',
+  // Zeigarnik + Neuanfang
+  noteToday: (topic: string) => `Heute hast du bei ${topic} aufgehört. Knüpf dort an, wenn du Zeit hast.`,
+  noteLater: (topic: string) => `Fang mit ${topic} an — dort hast du aufgehört.`,
+  noteNoTopic: 'Letztes Mal nicht fertig geworden — mach dort weiter, wo du aufgehört hast.',
+  freshMonday: 'Montag. Ein guter Tag für einen neuen Abschnitt.',
+  freshMonth: 'Erster des Monats — reiner Tisch, die Freitage sind wieder voll.',
+  freshAfterExam: 'Die Prüfung ist geschafft. Setz den nächsten Termin und weiter geht’s.',
+  freshDismiss: 'Danke, weiß ich',
+  // Grenzen
+  overdoingTitle: 'Genug für heute',
+  overdoingBody:
+    'Du bist weit über dem heutigen Pensum. Überlernen vor der Prüfung verschlechtert das Ergebnis eher — lass den Rest für morgen.',
+  overdoingStop: 'Ich höre auf',
+  overdoingMore: 'Noch kurz',
+  examTomorrow: 'Die Prüfung steht vor der Tür — heute nur Wiederholung, keine neuen Karten.',
+  // Stumme Karte (Image Occlusion)
+  newMapBtn: '+ Stumme Karte',
+  occlusionTitle: 'Stumme Karte',
+  occlusionPick: 'Karte oder Schema wählen',
+  occlusionHint: 'Zieh mit dem Finger über die Stelle, die verdeckt werden soll. Tippe den Namen zum Umbenennen, das Kreuz zum Löschen.',
+  occlusionLabelPlaceholder: 'Name des Ortes (Donau, Alpen…)',
+  occlusionAltLabel: 'Bildbeschreibung',
+  occlusionAltPlaceholder: 'Stumme Karte von Österreich',
+  occlusionModeLabel: 'Was verdeckt wird',
+  occlusionModeOne: 'Nur der gefragte Ort',
+  occlusionModeAll: 'Alle Orte',
+  occlusionModeOneDesc: 'Der Rest der Karte bleibt sichtbar — du erkennst es an der Umgebung.',
+  occlusionModeAllDesc: 'Alles ist verdeckt, die Nachbarn verraten nichts. Schwerer und wirksamer.',
+  occlusionSave: (n: number) => `${n} ${n === 1 ? 'Karte' : 'Karten'} erstellen`,
+  occlusionNeedLabels: 'Benenne mindestens einen verdeckten Ort — der Name ist die Antwort auf der Karte.',
 }

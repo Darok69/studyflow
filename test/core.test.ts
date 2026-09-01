@@ -8,6 +8,7 @@ import { backupToJson, parseBackup } from '../src/import/backup'
 import {
   buildSession,
   interleaveByTopic,
+  isExamImminent,
   introducedTodayBySubject,
   isSchedulable,
   newCardQuota,
@@ -17,7 +18,7 @@ import {
 import { rate, newFsrsFields, previewIntervals, retrievabilityAt } from '../src/scheduler/fsrs'
 import { daysUntil, daysUntilDate, endOfDay } from '../src/lib/date'
 import { subjectColor, subjectColorIndex, subjectPalette, SUBJECT_COLOR_COUNT } from '../src/lib/theme'
-import { assessLoad, estimateMinutes, isLeech, LEECH_LAPSES } from '../src/lib/wellbeing'
+import { assessLoad, estimateMinutes, isLeech, isOverdoing, LEECH_LAPSES } from '../src/lib/wellbeing'
 import {
   accuracy,
   calibration,
@@ -34,6 +35,7 @@ import {
   reviewsToday,
 } from '../src/stats/stats'
 import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/lib/sharelink'
+import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
 import {
   answerSimilarity,
@@ -44,6 +46,17 @@ import {
   typedAnswerTarget,
 } from '../src/lib/answer'
 import { answerSteps, isStepped, preRevealedSteps } from '../src/lib/steps'
+import { capacityPlan } from '../src/lib/plan'
+import { freshStart } from '../src/lib/freshStart'
+import { noteTone } from '../src/lib/dayNote'
+import {
+  isTooSmall,
+  maskAt,
+  maskRoles,
+  occlusionCards,
+  rectFromPoints,
+  toRelative,
+} from '../src/lib/occlusion'
 import { readinessBand, subjectReadiness } from '../src/lib/readiness'
 import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
@@ -1053,6 +1066,199 @@ console.log('— the free path stays honest —')
 
 function law2(id = 'p6-b1'): Block {
   return { id, heading: 'Vlastnictví', page: 6, text: 'Dominium je vlastnické právo k věci, které zahrnuje užívání, požívání i zcizení.' }
+}
+
+
+console.log('— the plan meets the clock —')
+{
+  const cards = (subjectId: string, fresh: number, learned: number) => [
+    ...Array.from({ length: fresh }, (_, i) => ({ subjectId, state: 'new', id: `n${i}` })),
+    ...Array.from({ length: learned }, (_, i) => ({ subjectId, state: 'review', id: `r${i}` })),
+  ]
+
+  const easy = capacityPlan(
+    [{ id: 's1', name: 'Právo', daysUntilExam: 30 }],
+    cards('s1', 60, 20),
+    25,
+  )
+  ok(easy.perSubject[0].newPerDay === 2, `60 cards over 30 days is 2 a day (got ${easy.perSubject[0].newPerDay})`)
+  ok(easy.fits, `a month of runway fits into 25 minutes (needs ${easy.neededMinutes})`)
+  ok(easy.cuts.length === 0 && !easy.notEnough, 'nothing has to be cut when it fits')
+
+  const tight = capacityPlan(
+    [
+      { id: 's1', name: 'Právo', daysUntilExam: 3 },
+      { id: 's2', name: 'Zeměpis', daysUntilExam: 60 },
+    ],
+    [...cards('s1', 300, 100), ...cards('s2', 200, 50)],
+    25,
+  )
+  ok(!tight.fits, `300 cards in three days does not fit (needs ${tight.neededMinutes} min)`)
+  ok(tight.cuts[0]?.name === 'Zeměpis', `the distant exam gives way first (${tight.cuts[0]?.name})`)
+  ok((tight.cuts[0]?.cards ?? 0) <= 200, 'it never suggests cutting more than a subject has')
+  // Once the distant deck is exhausted the near one has to give too — 300 cards
+  // in three days is not a plan, and saying so is the point of this screen.
+  ok(tight.cuts.length === 2 && tight.cuts[1].name === 'Právo', 'the near deck is cut only after the distant one is used up')
+  ok(tight.cuts[1].cards < 300, `and only as deep as needed (${tight.cuts[1]?.cards} of 300)`)
+
+  // Nothing left to cut: a pile of already-learned cards still has to be
+  // reviewed, and no cut can fix that — the screen must say so.
+  const reviewsOnly = capacityPlan([{ id: 's1', name: 'Právo', daysUntilExam: 10 }], cards('s1', 0, 2000), 25)
+  ok(!reviewsOnly.fits && reviewsOnly.cuts.length === 0, 'reviews of learned cards cannot be cut away')
+  ok(reviewsOnly.notEnough, 'so the plan admits the day simply overflows')
+
+  // The opposite case: a small overshoot that a partial cut really does solve.
+  const nearlyFits = capacityPlan(
+    [
+      { id: 's1', name: 'Právo', daysUntilExam: 20 },
+      { id: 's2', name: 'Zeměpis', daysUntilExam: 60 },
+    ],
+    [...cards('s1', 100, 40), ...cards('s2', 120, 30)],
+    25,
+  )
+  if (!nearlyFits.fits) {
+    ok(nearlyFits.cuts.length > 0, 'a small overshoot gets a concrete cut')
+    ok(nearlyFits.cuts[0].cards < 120, `and it is a PART of the deck, not all of it (${nearlyFits.cuts[0].cards})`)
+    ok(!nearlyFits.notEnough, 'that cut is enough, so nothing further is claimed')
+  } else {
+    ok(nearlyFits.cuts.length === 0, 'a plan that fits needs no cut')
+  }
+
+  ok(capacityPlan([], [], 25).fits, 'no subjects, nothing to fit')
+  const single = capacityPlan([{ id: 's1', name: 'Právo', daysUntilExam: 2 }], cards('s1', 400, 0), 25)
+  ok(single.cuts.length === 1 && single.cuts[0].name === 'Právo', 'with one subject the cut can only come from it')
+  const noExam = capacityPlan([{ id: 's1', name: 'X', daysUntilExam: null }], cards('s1', 28, 0), 25)
+  ok(noExam.perSubject[0].horizon === 14, 'without an exam date the plan spreads over the default horizon')
+  const drafts = capacityPlan(
+    [{ id: 's1', name: 'X', daysUntilExam: 10 }],
+    [...cards('s1', 10, 0), { subjectId: 's1', state: 'new', draft: true }, { subjectId: 's1', state: 'new', suspended: true }],
+    25,
+  )
+  ok(drafts.perSubject[0].cardsRemaining === 10, 'drafts and suspended cards are not part of the plan')
+}
+
+console.log('— the last day before an exam —')
+{
+  ok(isExamImminent(0) && isExamImminent(1), 'today and tomorrow count as imminent')
+  ok(!isExamImminent(2) && !isExamImminent(null) && !isExamImminent(-1), 'anything else does not')
+
+  const eNow = new Date('2026-03-10T09:00:00')
+  const tomorrow = '2026-03-11'
+  const cards = [
+    mk('r1', 's1', 'review', '2026-03-10T08:00:00'),
+    mk('n1', 's1', 'new', '2026-03-10T08:00:00'),
+    mk('n2', 's1', 'new', '2026-03-10T08:00:00'),
+  ]
+  const plan = buildSession([{ id: 's1', examDate: tomorrow }], cards, eNow)
+  ok(plan.newCards === 0, 'no new cards the day before the exam')
+  ok(plan.dueReviews === 1 && plan.order.length === 1, 'reviews still run — that is the light repetition')
+  ok(subjectStats({ id: 's1', examDate: tomorrow }, cards, eNow).newToday === 0, 'the home screen agrees')
+
+  const later = buildSession([{ id: 's1', examDate: '2026-03-20' }], cards, eNow)
+  ok(later.newCards > 0, 'ten days out the new cards keep coming')
+}
+
+console.log('— healthy boundaries —')
+{
+  ok(!isOverdoing(20, 20), 'finishing the batch is not overdoing it')
+  ok(!isOverdoing(29, 20), 'a little extra is fine')
+  ok(isOverdoing(30, 20), '150 % of the plan is where the app says stop')
+  ok(!isOverdoing(5, 0), 'with no plan there is nothing to exceed')
+}
+
+console.log('— a thread for tomorrow, and days that feel like a start —')
+{
+  const note = { subjectId: 's1', subjectName: 'Právo', topic: 'Besitz', savedOn: '2026-03-10', remaining: 12 }
+  ok(noteTone(note, '2026-03-10') === 'today', 'the same day it reads as "you stopped here"')
+  ok(noteTone(note, '2026-03-11') === 'later', 'the next day it reads as "start here"')
+  ok(noteTone({ ...note, remaining: 0 }, '2026-03-11') === null, 'a finished session leaves no thread')
+  ok(noteTone(null, '2026-03-11') === null, 'no note, nothing to show')
+
+  ok(freshStart(new Date('2026-03-09T08:00:00'), []) === 'monday', 'Monday is a beginning')
+  ok(freshStart(new Date('2026-04-01T08:00:00'), []) === 'month', 'so is the first of the month')
+  ok(freshStart(new Date('2026-03-11T08:00:00'), []) === null, 'an ordinary Wednesday is not')
+  ok(freshStart(new Date('2026-03-11T08:00:00'), ['2026-03-10']) === 'after-exam', 'the day after an exam outranks the calendar')
+  ok(freshStart(new Date('2026-03-11T08:00:00'), ['2026-03-01']) === null, 'an exam from last week is not a fresh start any more')
+}
+
+
+console.log('— your own notes become a deck (no model) —')
+{
+  const dashes = parsePlainDeck([
+    'Římské právo',
+    'Dominium — vlastnické právo k věci',
+    'Possessio — držba, faktické ovládání věci',
+    'Usus — užívání věci',
+  ].join('\n'))
+  ok(dashes.subject === 'Římské právo', `a title line names the deck (${dashes.subject})`)
+  ok(dashes.cards.length === 3, `three notes, three cards (${dashes.cards.length})`)
+  ok(dashes.cards[0].front === 'Dominium' && dashes.cards[0].back === 'vlastnické právo k věci', 'the halves land the right way round')
+
+  const table = parsePlainDeck([
+    '| Pojem | Význam |',
+    '|---|---|',
+    '| Besitz | tatsächliche Herrschaft |',
+    '| Eigentum | rechtliche Zuordnung |',
+  ].join('\n'))
+  ok(table.cards.length === 2, `a markdown table drops its header and rule (${table.cards.length} cards)`)
+  ok(table.cards[0].front === 'Besitz', 'the first column is the question')
+
+  const tabs = parsePlainDeck('Dunaj\tnejdelší řeka Rakouska\nInn\tpřítok Dunaje')
+  ok(tabs.cards.length === 2, 'a spreadsheet paste (tabs) works')
+
+  const cloze = parsePlainDeck('Zákon dvanácti desek vznikl roku {{451 př. n. l.}}.\nDominium je {{vlastnické právo}}.')
+  ok(cloze.cards.length === 2 && cloze.cards.every((c) => c.type === 'cloze'), 'lines with blanks become cloze cards')
+  ok(cloze.cards[0].front.includes('［ ___ ］'), 'the blank is blanked on the front')
+
+  const pairs = parsePlainDeck('Co je dominium?\nVlastnické právo k věci.\n\nCo je possessio?\nDržba.')
+  ok(pairs.cards.length === 2, 'question and answer on consecutive lines work too')
+  ok(pairs.cards[1].front === 'Co je possessio?', 'blank lines separate the pairs')
+
+  ok(parsePlainDeck('').cards.length === 0, 'empty text yields nothing')
+  ok(parsePlainDeck('Jen jedna věta bez struktury.').cards.length === 0, 'prose is not silently turned into junk cards')
+  ok(detectSeparator(['a — b', 'c — d']) === ' — ', 'the shared separator is detected')
+  ok(detectSeparator(['pouze: jedna z pěti', 'b', 'c', 'd', 'e']) === null, 'punctuation in one line out of five is not a separator')
+}
+
+
+console.log('— blind maps: masks stay relative, one card per place —')
+{
+  const rect = rectFromPoints({ x: 0.6, y: 0.7 }, { x: 0.2, y: 0.3 })
+  ok(rect.x === 0.2 && rect.y === 0.3, 'a drag backwards still gives a top-left corner')
+  ok(Math.abs(rect.w - 0.4) < 1e-9 && Math.abs(rect.h - 0.4) < 1e-9, 'width and height are never negative')
+
+  const clamped = rectFromPoints({ x: -0.5, y: 0.5 }, { x: 1.4, y: 2 })
+  ok(clamped.x === 0 && clamped.y === 0.5 && clamped.w === 1, 'a drag off the picture is clamped to it')
+  ok(isTooSmall({ x: 0, y: 0, w: 0.005, h: 0.5 }), 'a stray tap is not a mask')
+  ok(!isTooSmall({ x: 0, y: 0, w: 0.2, h: 0.2 }), 'a real rectangle is')
+
+  ok(toRelative({ x: 100, y: 50 }, { width: 400, height: 200 }).x === 0.25, 'pixels become relative coordinates')
+  ok(toRelative({ x: 10, y: 10 }, { width: 0, height: 0 }).x === 0, 'a zero-sized box never divides by zero')
+
+  const masks = [
+    { id: 'm1', shape: 'rect' as const, x: 0.1, y: 0.1, w: 0.2, h: 0.2, label: 'Dunaj' },
+    { id: 'm2', shape: 'rect' as const, x: 0.5, y: 0.5, w: 0.2, h: 0.2, label: 'Alpy' },
+    { id: 'm3', shape: 'rect' as const, x: 0.8, y: 0.8, w: 0.1, h: 0.1, label: '' },
+  ]
+  ok(maskAt(masks, { x: 0.15, y: 0.15 })?.id === 'm1', 'a point inside a mask finds it')
+  ok(maskAt(masks, { x: 0.4, y: 0.4 }) === undefined, 'a point on bare map finds nothing')
+
+  const cards = occlusionCards({ masks, mode: 'hide-one-guess-one', imageKey: 'card.image', alt: 'Slepá mapa Rakouska' })
+  ok(cards.length === 2, `one card per NAMED place (${cards.length}) — an unnamed mask is context`)
+  ok(cards[0].back === 'Dunaj' && cards[1].back === 'Alpy', 'the label is the answer')
+  ok(cards[0].front.includes('Slepá mapa Rakouska'), 'the picture description carries into the question')
+  ok(cards.every((c) => c.kind === 'mapa'), 'they are map cards')
+  ok(cards.every((c) => c.occlusion?.masks.length === 3), 'every card keeps the whole map for context')
+  ok(cards[1].occlusion?.masks[0].id === 'm2', 'the asked mask comes first on its own card')
+  ok(cards.every((c) => c.images?.[0]?.alt), 'every card carries alt text — an occlusion card is useless without it')
+
+  const roles = maskRoles(cards[0].occlusion!, 'm1')
+  ok(roles.get('m1') === 'target', 'the asked mask is the target')
+  ok(roles.get('m2') === 'context', 'in hide-one mode the rest of the map stays readable')
+  const allRoles = maskRoles({ ...cards[0].occlusion!, mode: 'hide-all-guess-one' }, 'm1')
+  ok(allRoles.get('m2') === 'hidden-context', 'in hide-all mode the neighbours are covered too')
+
+  ok(occlusionCards({ masks: [masks[2]], mode: 'hide-one-guess-one', imageKey: 'k', alt: '' }).length === 0, 'no names, no cards')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

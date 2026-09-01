@@ -399,6 +399,10 @@ export const en: Messages = {
   draftApproveBtn: 'Use it',
   draftApproveTitle: 'Put the card into study as it is',
   filterDrafts: 'Drafts only',
+  plainHint:
+    'It does not have to be JSON. Paste your own notes — "Term — meaning" per line, a table from a spreadsheet, or sentences with a {{blank}}. Cards come out of it without a model.',
+  plainDeckName: 'Pasted notes',
+  errPlainNoCards: 'I could not find question–answer pairs in that text. Try separating them with a dash, a tab or a blank line.',
   errUploadFailed: 'The file could not be uploaded.',
   errSourceFailed: 'The material could not be processed.',
   // Study: calibration, own words, steps
@@ -425,4 +429,52 @@ export const en: Messages = {
   calibUnsure: (pct: number) => `When you think so, you are right ${pct} % of the time.`,
   calibOverconfident: 'You overestimate yourself — the most common reason exams surprise people.',
   calibHonest: 'You judge yourself honestly. That is worth a lot while preparing.',
+  // Plan
+  navPlan: 'Plan',
+  planTitle: 'Plan up to the exams',
+  planEmpty: 'Create a deck first and give it an exam date.',
+  planAvailableName: 'Time I have per day',
+  planAvailableDesc: 'Realistically, not wishfully. The plan is measured against this number.',
+  planFits: (need: number, have: number) => `It fits: you need ${need} min a day and you have ${have}.`,
+  planTight: (need: number, have: number, over: number) =>
+    `It does not fit: the plan wants ${need} min a day, you have ${have} — ${over} min too many.`,
+  planCutIntro: 'Least damage — cut from the most distant exam first:',
+  planCut: (cards: number, subject: string) => `${cards} ${cards === 1 ? 'card' : 'cards'} from ${subject}`,
+  planNotEnough:
+    'Even that is not enough — the nearest exam alone overflows the day. Either add time, or drop from that deck what the exam does not need.',
+  planPerDay: (cards: number, minutes: number) => `${cards} new/day · ~${minutes} min`,
+  planRemaining: (n: number) => `${n} left`,
+  planIntentionPlaceholder: 'When and where will I do this?',
+  planIntentionHint:
+    'A concrete sentence ("Tuesday 19:00, kitchen table, 25 minutes of law") beats good will — and it is what your reminder will say.',
+  // Zeigarnik + fresh start
+  noteToday: (topic: string) => `You stopped at ${topic} today. Pick it up when you have a moment.`,
+  noteLater: (topic: string) => `Start with ${topic} — that is where you left off.`,
+  noteNoTopic: 'You did not finish last time — carry on where you stopped.',
+  freshMonday: 'Monday. A good day to start a new stage.',
+  freshMonth: 'First of the month — clean slate, the free-day bank is full again.',
+  freshAfterExam: 'That exam is behind you. Set the date for the next one and off we go.',
+  freshDismiss: 'Thanks, got it',
+  // Boundaries
+  overdoingTitle: 'Enough for today',
+  overdoingBody:
+    'You are well past today’s batch. Overlearning before an exam tends to lower the result — leave the rest for tomorrow.',
+  overdoingStop: 'I am done',
+  overdoingMore: 'A little more',
+  examTomorrow: 'The exam is upon you — reviews only today, no new cards.',
+  // Blind map (image occlusion)
+  newMapBtn: '+ Blind map',
+  occlusionTitle: 'Blind map',
+  occlusionPick: 'Pick a map or a diagram',
+  occlusionHint: 'Drag across the place you want covered. Tap the name to rename it, the cross to delete.',
+  occlusionLabelPlaceholder: 'Name of the place (Danube, Alps…)',
+  occlusionAltLabel: 'Image description',
+  occlusionAltPlaceholder: 'Blind map of Austria',
+  occlusionModeLabel: 'What gets covered',
+  occlusionModeOne: 'Only the asked place',
+  occlusionModeAll: 'All places',
+  occlusionModeOneDesc: 'The rest of the map stays visible — you recognise it from its surroundings.',
+  occlusionModeAllDesc: 'Everything is covered, the neighbours give nothing away. Harder and more effective.',
+  occlusionSave: (n: number) => `Create ${n} ${n === 1 ? 'card' : 'cards'}`,
+  occlusionNeedLabels: 'Name at least one covered place — the name is the answer on the card.',
 }
