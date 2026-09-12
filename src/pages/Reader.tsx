@@ -47,6 +47,42 @@ function writePositions(positions: Positions): void {
   }
 }
 
+/**
+ * Scrolling a lecture crosses a slide boundary every second or so, and
+ * localStorage writes block the main thread. The bookmark only has to survive
+ * leaving the page, so it is written at most once a second.
+ */
+function usePositionWriter(): (positions: Positions) => void {
+  const pending = useRef<Positions | null>(null)
+  const timer = useRef<number | null>(null)
+
+  const flush = useCallback(() => {
+    timer.current = null
+    if (pending.current) {
+      writePositions(pending.current)
+      pending.current = null
+    }
+  }, [])
+
+  useEffect(() => {
+    const onHide = () => flush()
+    window.addEventListener('pagehide', onHide)
+    return () => {
+      window.removeEventListener('pagehide', onHide)
+      if (timer.current !== null) window.clearTimeout(timer.current)
+      flush()
+    }
+  }, [flush])
+
+  return useCallback(
+    (positions: Positions) => {
+      pending.current = positions
+      if (timer.current === null) timer.current = window.setTimeout(flush, 1000)
+    },
+    [flush],
+  )
+}
+
 export function Reader({ onBack }: { onBack: () => void }) {
   const [index, setIndex] = useState<MaterialIndex | null>(null)
   const [lecture, setLecture] = useState<MaterialLecture | null>(null)
@@ -62,6 +98,7 @@ export function Reader({ onBack }: { onBack: () => void }) {
     }
   })
   const slideRefs = useRef(new Map<number, HTMLElement>())
+  const savePosition = usePositionWriter()
 
   useEffect(() => {
     let alive = true
@@ -104,7 +141,7 @@ export function Reader({ onBack }: { onBack: () => void }) {
           setPositions((prev) => {
             if (prev[lectureId] === n) return prev
             const next = { ...prev, [lectureId]: n }
-            writePositions(next)
+            savePosition(next)
             return next
           })
         }
@@ -113,7 +150,7 @@ export function Reader({ onBack }: { onBack: () => void }) {
     )
     for (const el of slideRefs.current.values()) observer.observe(el)
     return () => observer.disconnect()
-  }, [lecture])
+  }, [lecture, savePosition])
 
   const questions = useMemo(() => {
     if (!lecture) return []
