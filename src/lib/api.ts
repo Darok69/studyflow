@@ -301,6 +301,9 @@ export interface MaterialSlide {
   n: number
   img: string
   title: string
+  /** Render dimensions — set on the <img> so the text does not jump while loading. */
+  w?: number
+  h?: number
   text?: string
   terms?: MaterialTerm[]
   cards?: MaterialCard[]

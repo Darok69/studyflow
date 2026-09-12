@@ -2208,6 +2208,8 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  /* width/height attributes give the browser the ratio before the bytes
+     arrive, so a lazy image does not shove the text it belongs to. */
 }
 
 .reader-slide-title {

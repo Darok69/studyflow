@@ -184,6 +184,8 @@ export function Reader({ onBack }: { onBack: () => void }) {
                 alt={t('readerSlideAlt', slide.title, slide.n)}
                 loading="lazy"
                 decoding="async"
+                width={slide.w}
+                height={slide.h}
               />
             </figure>
             {slide.title && <h3 className="reader-slide-title">{slide.title}</h3>}

@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.11"
-# dependencies = []
+# dependencies = ["pillow>=10"]
 # ///
 """Payload pro čtecí obrazovku v appce.
 
@@ -16,9 +16,22 @@ import json
 import sys
 from pathlib import Path
 
+from PIL import Image
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "out" / "data"
+IMG = ROOT / "out" / "img"
 DEST = ROOT / "out" / "materials"
+
+
+def size_of(rel: str) -> tuple[int, int] | None:
+    """Rozměry renderu. Bez nich prohlížeč nezná poměr stran a text při
+    scrollování poskakuje, dokud se obrázek nenačte."""
+    path = ROOT / "out" / rel
+    if not path.exists():
+        return None
+    with Image.open(path) as im:
+        return im.width, im.height
 
 
 def main() -> int:
@@ -38,6 +51,9 @@ def main() -> int:
                 if not has:
                     continue
                 slide = {"n": s["n"], "img": s["img"], "title": s.get("title") or ""}
+                wh = size_of(s["img"])
+                if wh:
+                    slide["w"], slide["h"] = wh
                 if (s.get("text") or "").strip():
                     slide["text"] = s["text"]
                 if s.get("terms"):
