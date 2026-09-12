@@ -619,6 +619,22 @@ h3 {
   justify-content: flex-end;
 }
 
+/* Six destinations do not fit one phone row, and a wrapped flex row leaves a
+   ragged last line hanging on the right. An even grid shows all of them, keeps
+   the tap targets the same size, and needs no swiping to reach anything. */
+@media (max-width: 560px) {
+  .home-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .home-nav .btn {
+    padding-inline: 6px;
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+
 .today-est {
   color: var(--muted);
   font-weight: 600;
