@@ -378,8 +378,19 @@ h3 {
 
 .study-subject {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 10px;
+  gap: 6px 10px;
+}
+
+/* The name keeps the dot and claims a sensible minimum: squeezed between a
+   badge and two buttons it used to break into a one-word-per-line column. */
+.subject-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 12rem;
+  min-width: 0;
 }
 
 .subject-tag {
@@ -411,8 +422,8 @@ h3 {
   background: var(--paper);
   color: var(--paper-ink);
   border-radius: 18px;
-  padding: 28px 24px;
-  min-height: 240px;
+  padding: 24px 20px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -603,6 +614,7 @@ h3 {
 /* ---------- Home nav + today focus ---------- */
 .home-nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   justify-content: flex-end;
 }
@@ -2347,4 +2359,19 @@ body {
   padding: 0 12px 10px 42px;
   font-size: 14.5px;
   color: var(--muted);
+}
+
+/* Phones: the question, the answer and the buttons belong on one screen, so the
+   card face gives back the padding and the height it does not need. */
+@media (max-width: 430px) {
+  .page {
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .paper {
+    padding: 18px 16px;
+    min-height: 150px;
+    gap: 12px;
+  }
 }

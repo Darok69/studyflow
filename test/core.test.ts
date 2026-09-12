@@ -141,7 +141,8 @@ ok(missing.errors.some((e) => e.includes('#1')), 'basic card missing back report
 console.log('— newCardQuota —')
 ok(newCardQuota(10, 5) === 2, '10 new / 5 days = 2')
 ok(newCardQuota(10, 0) === 10, 'exam today crams all 10')
-ok(newCardQuota(10, -3) === 10, 'past exam crams all')
+ok(newCardQuota(10, -3) === 1, 'past exam paces like no deadline, it does not cram')
+ok(newCardQuota(420, -11) === 30, 'a finished subject does not dump 420 cards into today')
 ok(newCardQuota(0, 5) === 0, 'no new cards = 0')
 ok(newCardQuota(10, null) === 1, '10 new / 14-day horizon = 1')
 
@@ -162,6 +163,27 @@ ok(session.newCards === 3, `newCards = 3 (got ${session.newCards})`)
 ok(session.total === 4, `total = 4 (got ${session.total})`)
 ok(session.order[0] === 'n-due', `first slot is nearest subject's due review (got ${session.order[0]})`)
 ok(session.order[1].startsWith('f-'), `second slot interleaves the other subject (got ${session.order[1]})`)
+
+console.log('— buildSession: a finished subject waits its turn —')
+const past = [
+  { id: 'done', examDate: '2026-06-01' }, // eleven days ago
+  { id: 'soon', examDate: '2026-06-30' },
+]
+const pastCards = [
+  ...Array.from({ length: 40 }, (_, i) => mk(`d-new-${i}`, 'done', 'new', now.toISOString())),
+  ...Array.from({ length: 40 }, (_, i) => mk(`s-new-${i}`, 'soon', 'new', now.toISOString())),
+]
+const pastSession = buildSession(past, pastCards, now)
+ok(
+  pastSession.perSubject.find((p) => p.subjectId === 'done')!.newQuota === 3,
+  `finished subject paced over the default horizon (got ${pastSession.perSubject.find((p) => p.subjectId === 'done')!.newQuota})`,
+)
+ok(pastSession.order[0].startsWith('s-'), `the upcoming exam takes the first slot (got ${pastSession.order[0]})`)
+const capped = buildSession(past, pastCards, now, { newCardCap: 5 })
+ok(
+  capped.perSubject.find((p) => p.subjectId === 'soon')!.newQuota === 5,
+  'the upcoming exam spends the daily cap before the finished one',
+)
 
 console.log('— subjectStats —')
 const st = subjectStats(subjects[1], cards, now)

@@ -104,12 +104,19 @@ export function isExamImminent(daysUntilExam: number | null): boolean {
 
 /**
  * Per-subject daily new-card quota = ceil(remaining new / days until exam).
- * An exam today/in the past (days <= 0) collapses the horizon to 1 → cram all
- * remaining new cards today. No exam → pace over a default horizon.
+ *
+ * An exam TODAY (days === 0) collapses the horizon to 1 → cram all remaining
+ * new cards, which is the only sensible answer on the day itself. An exam that
+ * has ALREADY PASSED paces like a subject without a deadline: the date has
+ * nothing left to say, and treating it as "one day left" dumped every unseen
+ * card of a finished subject into today's queue.
  */
 export function newCardQuota(newRemaining: number, daysUntilExam: number | null): number {
   if (newRemaining <= 0) return 0
-  const horizon = daysUntilExam === null ? DEFAULT_HORIZON_DAYS : Math.max(1, daysUntilExam)
+  const horizon =
+    daysUntilExam === null || daysUntilExam < 0
+      ? DEFAULT_HORIZON_DAYS
+      : Math.max(1, daysUntilExam)
   return Math.ceil(newRemaining / horizon)
 }
 
@@ -158,16 +165,25 @@ function byDueAsc(a: SchedCard, b: SchedCard): number {
   return new Date(a.due).getTime() - new Date(b.due).getTime()
 }
 
-/** Sort subjects nearer-deadline first; subjects without an exam date go last. */
+/**
+ * Sort subjects nearer-deadline first; subjects without an exam date — and
+ * those whose exam has already passed — go last. A finished subject must not
+ * outrank tomorrow's exam for the earliest slots or the daily new-card cap.
+ */
 function byDeadline(now: Date) {
   return (a: SchedSubject, b: SchedSubject): number => {
-    const da = daysUntil(a.examDate, now)
-    const db = daysUntil(b.examDate, now)
+    const da = upcoming(daysUntil(a.examDate, now))
+    const db = upcoming(daysUntil(b.examDate, now))
     if (da === null && db === null) return 0
     if (da === null) return 1
     if (db === null) return -1
     return da - db
   }
+}
+
+/** Days until an exam that is still ahead; null for none and for past ones. */
+function upcoming(days: number | null): number | null {
+  return days === null || days < 0 ? null : days
 }
 
 /**

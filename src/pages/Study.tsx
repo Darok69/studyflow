@@ -492,8 +492,10 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
       </div>
 
       <div className="study-subject">
-        <span className="subject-dot" style={{ background: identity }} aria-hidden="true" />
-        <span className="subject-tag">{subject.name}</span>
+        <span className="subject-name">
+          <span className="subject-dot" style={{ background: identity }} aria-hidden="true" />
+          <span className="subject-tag">{subject.name}</span>
+        </span>
         {cram ? (
           <span className="type-tag type-cram">{t('typeCram')}</span>
         ) : (
