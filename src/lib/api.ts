@@ -7,6 +7,8 @@ export const SERVER_MODE = import.meta.env.VITE_SERVER === '1'
 export interface Account {
   email: string
   isAdmin: boolean
+  /** True when the server holds study materials — the reading screen has something to show. */
+  materials?: boolean
 }
 
 export interface UserRow {
@@ -278,4 +280,64 @@ export function markSourceImported(id: string): Promise<ServerSource> {
 
 export function deleteSource(id: string): Promise<{ ok: true }> {
   return api(`/api/sources/${id}`, { method: 'DELETE' })
+}
+
+// ---- study materials (the reading screen) ----
+
+export interface MaterialTerm {
+  term: string
+  def: string
+}
+
+export interface MaterialCard {
+  q: string
+  a: string
+  difficulty: number
+  kind?: string
+  priority?: string
+}
+
+export interface MaterialSlide {
+  n: number
+  img: string
+  title: string
+  text?: string
+  terms?: MaterialTerm[]
+  cards?: MaterialCard[]
+  note?: string
+}
+
+export interface MaterialLecture {
+  lecture_id: string
+  course: string
+  course_title: string
+  unit: string
+  title: string
+  slides: MaterialSlide[]
+}
+
+export interface MaterialIndex {
+  exam: { name: string; date: string; language: string; format: string }
+  courses: {
+    code: string
+    number: string
+    title: string
+    lectures: { id: string; unit: string; title: string; slides: number; cards: number }[]
+  }[]
+}
+
+export function getMaterialIndex(): Promise<MaterialIndex> {
+  return api('/api/materials')
+}
+
+export function getMaterialLecture(id: string): Promise<MaterialLecture> {
+  return api(`/api/materials/lecture/${encodeURIComponent(id)}`)
+}
+
+/**
+ * URL of a slide render. The payload stores `img/<LECTURE>/<file>.webp`; the
+ * server serves it from the blob store, never from the sync snapshot.
+ */
+export function materialImageUrl(img: string): string {
+  return `/api/materials/${img}`
 }

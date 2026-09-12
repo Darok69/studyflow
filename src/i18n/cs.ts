@@ -477,6 +477,21 @@ export const cs = {
   occlusionModeAllDesc: 'Zakryjí se všechna místa, sousedi nenapoví. Těžší a účinnější.',
   occlusionSave: (n: number) => `Vytvořit ${n} ${karty(n)}`,
   occlusionNeedLabels: 'Pojmenuj aspoň jedno zakryté místo — název je odpověď na kartě.',
+  // ---- textbook (reading screen over the study materials) ----
+  navReader: 'Učebnice',
+  readerTitle: 'Učebnice',
+  readerLead: 'Slide, pod ním výklad, pojmy a na konci otázky. Postup se pamatuje.',
+  readerLectures: (n: number) => `${n} ${n === 1 ? 'přednáška' : n >= 2 && n <= 4 ? 'přednášky' : 'přednášek'}`,
+  readerSlideCount: (n: number) => `${n} ${stran(n)}`,
+  readerCardCount: (n: number) => `${n} ${karty(n)}`,
+  readerContinue: (n: number) => `Pokračovat u ${n}. strany`,
+  readerTerms: (n: number) => `Pojmy (${n})`,
+  readerQuestions: (n: number) => `Otázky (${n})`,
+  readerCoreOnly: 'jen jádro',
+  readerEmpty: 'Na serveru zatím žádné podklady nejsou.',
+  readerError: 'Podklady se nepodařilo načíst.',
+  readerRead: (done: number, total: number) => `přečteno ${done} / ${total}`,
+  readerSlideAlt: (title: string, n: number) => `${title} — strana ${n}`,
 }
 
 /**

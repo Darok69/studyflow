@@ -1,0 +1,285 @@
+{
+  "lecture_id": "IL07",
+  "title": "International Organizations I",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+
+    "2": {
+      "title": "What an international organization is",
+      "text": "The ILC's 2011 definition, and every word of it is a condition: an organization established by a treaty or other instrument governed by international law, and possessing ITS OWN international legal personality. The sentence closes by noting that members may include entities other than states — which is how the EU can be a member of the WTO. Set this against the NGO definition from the previous lecture: an organization not founded by international agreement is not an IO at all.",
+      "terms": [
+        { "term": "international organization (IO)", "def": "ILC Art 2(a): an organization established by a treaty or other instrument governed by international law and possessing its own international legal personality." }
+      ],
+      "cards": [
+        { "q": "What two conditions must an entity satisfy to be an international organization?", "a": "It must be established by a treaty or other instrument governed by international law, and it must possess its own international legal personality (ILC Art 2(a)).", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "3": {
+      "title": "Two roots: administrative unions and peace organizations",
+      "text": "IOs grew from two different impulses. Administrative unions were technical organizations solving cross-border coordination problems — the International Telegraph Union of 1865 and the Universal Postal Union of 1874. Peace organizations were political, starting with the League of Nations in 1919. The distinction between technical and political organizations survives today as one of the classification axes on slide 6.",
+      "terms": [],
+      "cards": [
+        { "q": "Which two historical strands did international organizations grow out of?", "a": "Technical administrative unions solving coordination problems (ITU 1865, UPU 1874) and political peace organizations (League of Nations 1919).", "difficulty": 1, "kind": "definice", "priority": "extra" }
+      ],
+      "vision_used": false
+    },
+
+    "4": {
+      "title": "The characteristics of an IO",
+      "text": "The diagram gathers five features around the concept. A founding treaty governed by international law, which functions as the organization's constitution. Members — states, and also other IOs. Organs that decide for the organization and adopt and implement its decisions. Establishment for the long term, described as institutionalized cooperation. And a seat, regulated by a headquarters agreement. Running through it all, the diagram notes a permanent tension between integration and sovereignty: every competence the organization gains, a member has given up.",
+      "terms": [
+        { "term": "institutionalized cooperation", "def": "Cooperation given permanent organs and procedures, as opposed to ad hoc diplomacy." }
+      ],
+      "cards": [
+        { "q": "Name the characteristic features of an international organization.", "a": "A founding treaty serving as its constitution; members (states and other IOs); organs that decide and implement; establishment for the long term — institutionalized cooperation; and a seat governed by a headquarters agreement.", "difficulty": 2, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "5": {
+      "title": "Where the organizations sit",
+      "text": "A world map of UN headquarters, and the clustering is the message. New York holds the UN itself with UNICEF, UNFPA and UNDP; Washington the World Bank Group and the IMF; Geneva the ILO, WTO, WHO, ITU, WMO, WIPO, UNCTAD and UNHCR; Vienna the IAEA, UNIDO and UNODC; The Hague the ICJ; Rome the FAO, IFAD and WFP; plus Montreal (ICAO), Paris (UNESCO), Bern (UPU), London (IMO), Madrid (World Tourism Organization) and Nairobi (UNEP). Vienna as a UN seat is why the headquarters agreement material later in this lecture is Austrian.",
+      "terms": [],
+      "cards": [
+        { "q": "Which international organizations have their seat in Vienna?", "a": "The IAEA, UNIDO and UNODC — which is why Austria's headquarters agreement with the UN is the worked example in this course.", "difficulty": 1, "kind": "mapa", "priority": "extra" }
+      ],
+      "vision_used": true
+    },
+
+    "6": {
+      "title": "Three ways to classify IOs",
+      "text": "By composition of members: universal or regional. By area of activity and objectives: technical or political. And by the scope of the competences transferred to them — which is where the EU appears as a supranational organization, the limiting case in which members have transferred so much that the organization legislates directly for their citizens. That third axis is the bridge to the EU half of the exam.",
+      "terms": [
+        { "term": "supranational organization", "def": "An organization to which members transferred competences so extensive that it makes law binding directly on their citizens; the EU is the example." }
+      ],
+      "cards": [
+        { "q": "By which three criteria are international organizations classified?", "a": "Composition of members (universal or regional), area of activity (technical or political), and scope of transferred competences — the last of which distinguishes the EU as supranational.", "difficulty": 2, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "7": {
+      "title": "The personality of an IO is derivative and functional",
+      "text": "Two contrasts carry this slide. A state's international legal personality is ORIGINAL; an organization's is DERIVATIVE — it extends only as far as the members transferred it. And it is FUNCTIONAL: not only the powers written into the founding treaty, but also those necessary for the organization to fulfil its tasks effectively. That is the implied powers doctrine, established in the Bernadotte opinion of 1949. The question mark over 'ultra vires' is the flip side: an organization acting beyond its competences acts without legal basis.",
+      "terms": [
+        { "term": "implied powers", "def": "Powers not expressly conferred but necessary for the organization to perform its functions effectively (Bernadotte, ICJ 1949)." },
+        { "term": "ultra vires", "def": "Beyond the powers conferred; an act of an organ outside its competence." }
+      ],
+      "cards": [
+        { "q": "How does an international organization's legal personality differ from a state's?", "a": "A state's is original; an organization's is derivative — it extends only as far as its members transferred it — and functional, covering the powers necessary to fulfil its tasks effectively.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "8": {
+      "title": "Two personalities, not one",
+      "text": "An organization has international legal personality — the capacity to bear rights and obligations at the international level, and so for example to conclude treaties. It separately has legal personality under DOMESTIC law, which lets it acquire and sell property, sign a lease or employ staff in the state where it sits. Keep the two apart: a dispute about an office lease is a domestic-law matter, even though the tenant is a subject of international law.",
+      "terms": [],
+      "cards": [
+        { "q": "Why does an international organization need legal personality under domestic law as well as international personality?", "a": "International personality lets it act on the international plane — conclude treaties, bring claims. Domestic personality lets it acquire and dispose of property, contract and employ staff in the states where it operates.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "9": {
+      "title": "The three implied-powers opinions",
+      "text": "The doctrine was built in three advisory opinions, and the lecture takes them in order: Reparation for Injuries Suffered in the Service of the United Nations, the Bernadotte opinion of 1949, on functional protection; Effects of Awards of Compensation Made by the UN Administrative Tribunal of 1954; and Certain Expenses of the United Nations of 1962, on peacekeeping. Each found a power the Charter does not mention.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "10": {
+      "title": "Bernadotte: the facts",
+      "text": "Count Folke Bernadotte, a Swedish diplomat, was appointed in May 1948 as the first mediator in UN history and deployed in the Arab-Israeli conflict; he negotiated with Israel over recognition of the Palestinian refugees' right of return. In September 1948 he was murdered by the Zionist paramilitary group Lechi; in December, Resolution 194 affirmed the right of return for refugees of both sides, and Israel issued a general amnesty for Lechi members. The first Palestine war of 1948 also prompted the creation of UNRWA.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+
+    "11": {
+      "title": "Bernadotte: the question",
+      "text": "Could the UN claim reparation from Israel? The difficulty was that the Charter contains no explicit authorization to do so. The General Assembly therefore asked the ICJ for an advisory opinion on two distinct questions: whether the UN could claim reparation for the injury to ITSELF, and whether it could claim on behalf of the victim and his relatives. Keep the two questions apart — the second is the harder one, because it means an organization protecting an individual the way a state protects its national.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "12": {
+      "title": "Bernadotte: the holding",
+      "text": "The Court reasoned from function to power: the UN needs extensive legal personality to achieve the objectives of the Charter, and therefore has the right to claim reparation in its own name AND the right to claim for the victim and his relatives. This is functional protection — the organization's counterpart to a state's diplomatic protection — and it is the origin of the implied powers doctrine, since neither right is written in the Charter.",
+      "terms": [
+        { "term": "functional protection", "def": "An organization's claim on behalf of its agent injured in the performance of duties; the counterpart to a state's diplomatic protection." }
+      ],
+      "cards": [
+        { "q": "What two rights did the ICJ recognise for the UN in the Bernadotte opinion, and by what reasoning?", "a": "The right to claim reparation in its own name and the right to claim for the victim and his relatives — reasoning that the UN must have the personality and powers necessary to achieve the Charter's objectives, even where the Charter does not say so expressly.", "difficulty": 3, "kind": "judikat", "priority": "core" },
+        { "q": "A UN official is injured abroad by a state's wrongful act. Who may claim, the UN or the official's state of nationality?", "a": "Both may. The UN may exercise functional protection under Bernadotte for the injury to its agent and to itself; the state of nationality may exercise diplomatic protection.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "13": {
+      "title": "The Administrative Tribunal opinion",
+      "text": "After staff members were dismissed, the UN Administrative Tribunal awarded them compensation, and the General Assembly resisted voting the budget to pay it. The Assembly asked whether it had the right to refuse to give effect to an award. The Court answered that the Administrative Tribunal is an INDEPENDENT JUDICIAL BODY pronouncing final and binding judgments, and that the binding effect extends to the General Assembly itself. An organ created by the Assembly can therefore bind the Assembly.",
+      "terms": [],
+      "cards": [
+        { "q": "Can the UN General Assembly refuse to pay an award made by the UN Administrative Tribunal?", "a": "No. The ICJ held the Tribunal to be an independent judicial body whose judgments are final and binding, and that this binding effect extends to the General Assembly which created it.", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "14": {
+      "title": "Peacekeeping as an implied power",
+      "text": "The UN Charter nowhere mentions peacekeeping operations. Certain Expenses held that they nevertheless serve the main object and purpose of the UN — maintaining international peace and security — and are therefore covered by implied powers, with the consequence that their costs are expenses of the Organization which members must bear. Peacekeeping is thus the largest activity of the UN resting on no express treaty basis at all.",
+      "terms": [],
+      "cards": [
+        { "q": "On what legal basis do UN peacekeeping operations rest, given that the Charter does not mention them?", "a": "On implied powers: they serve the Organization's main object and purpose of maintaining international peace and security (Certain Expenses, ICJ 1962).", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "15": {
+      "title": "Treaties concluded by organizations",
+      "text": "Because the 1969 VCLT covers only treaties between states, a second convention was drafted in 1986 for treaties between states and IOs and between IOs. Two things to remember about it. It has not entered into force, for want of the required thirty-five ratifications — so its rules apply only as custom. And it does not apply to founding treaties, which are treaties between states and therefore governed by the 1969 Convention.",
+      "terms": [
+        { "term": "VCLT II (1986)", "def": "Vienna Convention on the Law of Treaties between States and International Organizations or between International Organizations; not in force." }
+      ],
+      "cards": [
+        { "q": "Which convention governs a treaty between an international organization and a state, and is it in force?", "a": "The 1986 Vienna Convention (VCLT II) — but it has not entered into force for lack of the required 35 ratifications, so its rules apply only as customary law. Founding treaties remain under the 1969 Convention.", "difficulty": 3, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "16": {
+      "title": "Representative and administrative organs",
+      "text": "Organizations are built from two kinds of organ. Representative organs decide: the plenary organ or assembly, in which all members are represented and which meets at regular intervals — the UN General Assembly — and the council, with limited membership, able to react quickly, such as the Security Council with fifteen members of whom five are permanent, or ECOSOC with fifty-four. Administrative organs implement: a secretariat headed by a Secretary-General, handling ongoing administration and staff appointments.",
+      "terms": [
+        { "term": "plenary organ", "def": "The assembly in which all members are represented." }
+      ],
+      "cards": [
+        { "q": "What is the functional difference between a plenary organ and a council in an international organization?", "a": "The plenary organ represents all members and meets periodically, giving legitimacy; a council has limited membership and can react quickly. Both are representative organs; the secretariat by contrast implements.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "17": {
+      "title": "The other three kinds of organ",
+      "text": "Beyond the representative/administrative pair the slide names three more: parliamentary bodies, as in the European Union and the Council of Europe; expert bodies such as the International Law Commission; and judicial bodies — the ICJ and the UN Administrative Tribunal, or the Court of Justice of the EU. Note where the ILC sits: it is an expert organ of the UN, which is why its draft articles are authoritative without being binding.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "18": {
+      "title": "How decisions are taken",
+      "text": "The founding treaty sets the modality, and there are two families. Unanimity, still required for the most sovereignty-sensitive matters — in the EU, decisions on the Common Foreign and Security Policy and the admission of new members. Or majority voting, which subdivides into simple majority, qualified majority such as two thirds, and rules fixing a quorum for the number of votes cast. The choice between them is the integration-versus-sovereignty tension in procedural form.",
+      "terms": [],
+      "cards": [
+        { "q": "Which EU decisions still require unanimity, according to the lecture?", "a": "Decisions on the Common Foreign and Security Policy and the admission of new member states.", "difficulty": 1, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "19": {
+      "title": "One state one vote, and its exceptions",
+      "text": "The default follows sovereign equality: one state, one vote. Two departures matter. The veto of the five permanent members of the Security Council — formally an exception written into the Charter. And weighted voting, where votes carry different weight: in the World Bank and the IMF according to capital contributions, in the Council of the EU according to population under the qualified majority rules. A third route avoids voting altogether: the consensus procedure used by the OSCE and the WTO.",
+      "terms": [
+        { "term": "weighted voting", "def": "Voting in which members' votes carry different weight, by capital contribution (IMF, World Bank) or population (Council of the EU)." },
+        { "term": "consensus procedure", "def": "Decisions taken without a vote unless a member formally objects; used by the OSCE and the WTO." }
+      ],
+      "cards": [
+        { "q": "Give the three departures from 'one state, one vote' in international organizations.", "a": "The veto of the five permanent members of the Security Council; weighted voting by capital contribution (IMF, World Bank) or population (Council of the EU); and consensus procedures that avoid voting altogether (OSCE, WTO).", "difficulty": 2, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "20": {
+      "title": "The headquarters agreement",
+      "text": "An organization needs a seat, and the seat needs a treaty with the host state. The headquarters agreement is described here as an important source of the rights and obligations of an IO; it governs principally the legal status of the organization and the privileges and immunities of its employees. Austria has concluded such agreements with all the organizations based in Vienna.",
+      "terms": [
+        { "term": "headquarters agreement", "def": "A treaty between an organization and its host state governing its legal status and the privileges and immunities of its staff." }
+      ],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "21": {
+      "title": "Why organizations have immunity — and how far",
+      "text": "States grant immunity by treaty, in the founding treaty or the headquarters agreement, and the purpose is stated plainly: interference by state authorities or courts must not affect the organization's functioning. That makes it FUNCTIONAL immunity in principle. But the slide adds the practical truth, and it is the exam point: in practice it operates as ABSOLUTE immunity before domestic courts, with no distinction between private and sovereign acts — unlike state immunity, where exactly that distinction decides.",
+      "terms": [
+        { "term": "functional immunity of IOs", "def": "Immunity justified by the need to protect the organization's functioning; in practice applied absolutely before domestic courts." }
+      ],
+      "cards": [
+        { "q": "How does the immunity of an international organization differ from that of a state?", "a": "A state enjoys immunity only for acta iure imperii; an organization's immunity is functional in rationale but absolute in practice, with no distinction between private and sovereign acts.", "difficulty": 3, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "22": {
+      "title": "What the immunity package contains",
+      "text": "Three further elements. Alternative dispute settlement — arbitral or administrative tribunals, especially for employment disputes — which is the price of shutting claimants out of domestic courts. Buildings, archives and other assets are INVIOLABLE, and the slide insists they are not 'extraterritorial': the territory remains the host state's, the authorities simply may not enter. And extensive tax exemptions.",
+      "terms": [
+        { "term": "inviolability", "def": "Host state authorities may not enter or interfere with premises and archives; this is not extraterritoriality — the premises remain on the host state's territory." }
+      ],
+      "cards": [
+        { "q": "Are the premises of an international organization extraterritorial?", "a": "No. They are inviolable — the host state's authorities may not enter or interfere — but they remain part of the host state's territory and, as a rule, its law applies there.", "difficulty": 3, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "23": {
+      "title": "The Vienna International Centre",
+      "text": "An aerial photograph of the UN complex on the Donaustadt side of Vienna — the Y-shaped towers of the Vienna International Centre with the Danube behind. It is the physical object the headquarters agreement on the following slides is about.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "24": {
+      "title": "The Austrian headquarters agreement",
+      "text": "The title page of the Agreement Between the Republic of Austria and the United Nations Regarding the Seat of the United Nations in Vienna — the instrument whose provisions the next two slides quote.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+
+    "25": {
+      "title": "Inviolability in the actual text",
+      "text": "Article III, Section 15 does three things at once, and together they show how carefully inviolability is drafted. Austria recognises the inviolability of the seat, which is under UN control and authority. But (b) Austrian law applies within the seat, except as otherwise provided. And (c) Austrian courts have jurisdiction over acts done and transactions taking place within the seat. Section 16 then lets the UN make regulations operative within the seat, and provides that inconsistent Austrian law is inapplicable to the extent of the inconsistency — with fire protection and sanitary regulations expressly preserved. This is the concrete proof of the previous slide: inviolable, but not extraterritorial.",
+      "terms": [],
+      "cards": [
+        { "q": "Does Austrian law apply inside the UN seat in Vienna?", "a": "Yes. Article III Section 15(b)-(c) of the headquarters agreement provides that Austrian laws apply and Austrian courts have jurisdiction within the seat, except as otherwise provided — subject to UN regulations under Section 16, which displace inconsistent Austrian law to the extent of the inconsistency.", "difficulty": 3, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "26": {
+      "title": "Tax privileges in the actual text",
+      "text": "Article VII, Section 24: the UN, its assets, income and property are exempt from all forms of taxation, though the exemption does not extend to the owner or lessor of property the UN rents. Where Austria cannot grant exemption from indirect taxes forming part of the price of goods and services, it reimburses the UN by agreed lump sums; the UN does not claim reimbursement for minor purchases, and claims no exemption from what are really charges for public utility services. Transactions to which the UN is a party and the documents recording them are exempt from taxes and recording fees.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "27": {
+      "title": "The staff of an organization",
+      "text": "Staff are not state representatives, and their immunity is functional — it covers official acts only. Two consequences follow. It applies also against their HOME state, unlike diplomats, whose immunity protects them only in the receiving state; and the highest-ranking officials are an exception, enjoying absolute immunity. Employment is decided by professional qualification, geographical distribution and, realistically, political considerations such as support from the home state. Because the organization is immune, employment disputes cannot go to domestic courts — hence the special administrative tribunals.",
+      "terms": [],
+      "cards": [
+        { "q": "Why does an international civil servant's immunity apply even against their own state?", "a": "Because it is functional, protecting the independence of the organization's work rather than the person. A diplomat's immunity by contrast operates only in the receiving state.", "difficulty": 3, "kind": "rozliseni", "priority": "core" },
+        { "q": "An employee of an international organization is dismissed. Why can they not sue in the host state's labour court?", "a": "Because the organization enjoys immunity from domestic jurisdiction. The counterpart is an internal administrative tribunal — UNAT or ILOAT — which exists precisely so that the immunity does not amount to a denial of justice.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "28": {
+      "title": "The administrative tribunals",
+      "text": "Two of them do most of the work. The UN Administrative Tribunal (UNAT) is the UN's employment tribunal, reorganized in 2009 under the Office of Administration of Justice with its main seat in New York and four locations. The Administrative Tribunal of the ILO (ILOAT), seated in Geneva, serves the ILO and a long list of other organizations — which is why its judgments appeared as authorities on general principles in the previous lecture.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    }
+  }
+}

@@ -1,0 +1,803 @@
+{
+  "lecture_id": "EU02",
+  "course": "EU",
+  "course_title": "Introduction to European Union Law",
+  "course_number": "030337",
+  "unit": "Lecture 2",
+  "title": "EU Institutions I — European Council and Commission",
+  "source_file": "raw/EU02_slides-introduction-2.pdf",
+  "source_sha256": "682c208d2e1e7b7400805aed0280f0006ba3d7e7a65eb4ed86e638f65d9b219b",
+  "source_pages": 40,
+  "slides_per_page": 1,
+  "slide_count": 40,
+  "updated_at": "2026-09-11T17:10:54+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/EU02/EU02_s001.webp",
+      "title": "Title slide",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 81,
+      "text_sha": "4c50a66546e0d889",
+      "pdf_page": 1
+    },
+    {
+      "n": 2,
+      "img": "img/EU02/EU02_s002.webp",
+      "title": "Section: EU institutions",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 15,
+      "text_sha": "0a29cbcfdd0962bc",
+      "pdf_page": 2
+    },
+    {
+      "n": 3,
+      "img": "img/EU02/EU02_s003.webp",
+      "title": "The outline",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 459,
+      "text_sha": "139e4986dec168b3",
+      "pdf_page": 3
+    },
+    {
+      "n": 4,
+      "img": "img/EU02/EU02_s004.webp",
+      "title": "Course map",
+      "text": "The overview diagram, with institutions highlighted.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 2814,
+      "text_sha": "149739643dc2044f",
+      "pdf_page": 4
+    },
+    {
+      "n": 5,
+      "img": "img/EU02/EU02_s005.webp",
+      "title": "The seven institutions of Article 13(1) TEU",
+      "text": "The list is closed and worth memorising in the Treaty's own order: the European Parliament, the European Council, the Council, the European Commission, the Court of Justice of the European Union, the European Central Bank, and the Court of Auditors. Note that the Treaty calls the third one simply 'the Council' — 'Council of the EU' is the everyday name, and the distinction from the European Council is a favourite trap.",
+      "terms": [
+        {
+          "term": "Art 13(1) TEU",
+          "def": "The exhaustive list of the Union's institutions: Parliament, European Council, Council, Commission, CJEU, ECB, Court of Auditors."
+        }
+      ],
+      "cards": [
+        {
+          "q": "List the seven institutions of the Union under Article 13(1) TEU.",
+          "a": "The European Parliament, the European Council, the Council, the European Commission, the Court of Justice of the European Union, the European Central Bank and the Court of Auditors.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 381,
+      "text_sha": "db1050ac889768d8",
+      "pdf_page": 5
+    },
+    {
+      "n": 6,
+      "img": "img/EU02/EU02_s006.webp",
+      "title": "The advisory bodies",
+      "text": "Article 13(4) TEU adds the Economic and Social Committee and the Committee of the Regions. The slide calls them institutions of the EU but immediately qualifies it: they are primarily supporting and advising, so they do not decide. In a question about who adopts an act, they never appear as the author.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What role do the Economic and Social Committee and the Committee of the Regions play?",
+          "a": "They are supporting and advisory bodies under Article 13(4) TEU. They may have to be consulted where a legal basis requires it, but they adopt no binding acts.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 276,
+      "text_sha": "bc6f2a8b07a3ea78",
+      "pdf_page": 6
+    },
+    {
+      "n": 7,
+      "img": "img/EU02/EU02_s007.webp",
+      "title": "And other actors",
+      "text": "Beyond the institutions there are agencies, non-institutional actors and private parties. They appear later in the course; the point here is that the Article 13 list does not exhaust who acts in the Union.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 208,
+      "text_sha": "5aac361f77a46533",
+      "pdf_page": 7
+    },
+    {
+      "n": 8,
+      "img": "img/EU02/EU02_s008.webp",
+      "title": "Section: the European Council",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 20,
+      "text_sha": "c977f9d44998a5b5",
+      "pdf_page": 8
+    },
+    {
+      "n": 9,
+      "img": "img/EU02/EU02_s009.webp",
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 2814,
+      "text_sha": "b5610100a2933a09",
+      "pdf_page": 9
+    },
+    {
+      "n": 10,
+      "img": "img/EU02/EU02_s010.webp",
+      "title": "Exercise: ask ChatGPT",
+      "text": "A classroom exercise — students ask a chatbot what the European Council is and the answer is checked against the lecture on slide 19.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 311,
+      "text_sha": "7521302cbf6a487a",
+      "pdf_page": 10
+    },
+    {
+      "n": 11,
+      "img": "img/EU02/EU02_s011.webp",
+      "title": "Three councils, one trap",
+      "text": "Three bodies whose names are almost identical and which the exam will test. The EUROPEAN COUNCIL: heads of state or government, sets the Union's political direction, an EU institution. The COUNCIL OF THE EU (in the Treaties simply 'the Council'): national ministers, co-legislator with the Parliament, an EU institution. The COUNCIL OF EUROPE: not an EU body at all — a separate international organization of 46 states in Strasbourg, home of the European Convention on Human Rights and the European Court of Human Rights.",
+      "terms": [
+        {
+          "term": "Council of Europe",
+          "def": "An international organization separate from the EU, seated in Strasbourg; the ECHR and the European Court of Human Rights belong to it."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Distinguish the European Council, the Council of the EU and the Council of Europe.",
+          "a": "European Council: heads of state or government, gives political impetus, no legislative function. Council of the EU: national ministers, co-legislator with Parliament. Council of Europe: not an EU body at all — a separate organization in Strasbourg, home of the ECHR and the ECtHR.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 229,
+      "text_sha": "954df773a3983f14",
+      "pdf_page": 11
+    },
+    {
+      "n": 12,
+      "img": "img/EU02/EU02_s012.webp",
+      "title": "The European Council: the facts",
+      "text": "It consists of the heads of state or government of the member states plus its own permanent President, with the President of the Commission and the High Representative for Foreign and Security Policy attending. Seat in Brussels; meetings are not open to the public. Its history explains its odd position: informal since 1974, formally established by the Single European Act, and only made an INSTITUTION by the Treaty of Lisbon in 2009.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Who sits in the European Council, and since when is it an institution?",
+          "a": "The heads of state or government of the member states and its permanent President, with the Commission President and the High Representative taking part. It existed informally from 1974, was formalised by the Single European Act, and became an institution only with the Treaty of Lisbon (2009).",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 467,
+      "text_sha": "cd12bbf5ccf525b9",
+      "pdf_page": 12
+    },
+    {
+      "n": 13,
+      "img": "img/EU02/EU02_s013.webp",
+      "title": "Composition, drawn",
+      "text": "The elected President for two and a half years, and the European Council itself meeting at four summits a year plus crisis meetings.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 275,
+      "text_sha": "000e8eae7a44a459",
+      "pdf_page": 13
+    },
+    {
+      "n": 14,
+      "img": "img/EU02/EU02_s014.webp",
+      "title": "The President of the European Council",
+      "text": "Elected by the heads of state or government for two and a half years, renewable once — Donald Tusk (PL) 2014-2019, Charles Michel (BE) 2019-2024, António Costa (PT) from December 2024. And the rule that makes the office genuinely European: the elected President may NOT simultaneously be a head of state or government, which is why Charles Michel had to resign as Belgian Prime Minister.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "For how long is the President of the European Council elected, and what office may they not hold at the same time?",
+          "a": "Two and a half years, renewable once. They may not simultaneously be a head of state or government of a member state — Charles Michel had to step down as Belgian Prime Minister.",
+          "difficulty": 2,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 578,
+      "text_sha": "c5195a71034b8a43",
+      "pdf_page": 14
+    },
+    {
+      "n": 15,
+      "img": "img/EU02/EU02_s015.webp",
+      "title": "Article 15 TEU",
+      "text": "The provision to quote: the European Council shall provide the Union with the necessary impetus for its development and shall define the general political directions and priorities thereof. IT SHALL NOT EXERCISE LEGISLATIVE FUNCTIONS. That last sentence is the whole exam point — the most politically powerful body in the Union has no law-making power, which is what distinguishes it from the Council of the EU.",
+      "terms": [
+        {
+          "term": "Art 15 TEU",
+          "def": "The European Council gives impetus and defines general political directions and priorities; it exercises no legislative functions."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Can the European Council adopt a regulation?",
+          "a": "No. Article 15 TEU expressly provides that it shall not exercise legislative functions. It gives political impetus and sets priorities; legislation is for the Council of the EU together with the Parliament.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 396,
+      "text_sha": "880f8571b189ebd1",
+      "pdf_page": 15
+    },
+    {
+      "n": 16,
+      "img": "img/EU02/EU02_s016.webp",
+      "title": "What it actually does",
+      "text": "Five roles. It defines and reviews the Union's general political directions and priorities. It is a RECRUITING BODY, selecting the candidate for Commission President and the High Representative. It arbitrates fundamental conflicts. It acts as constitutional architect — it is where treaty change is driven. And its President represents the Union externally, together with the High Representative.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Name the functions of the European Council beyond setting political direction.",
+          "a": "Recruitment (proposing the Commission President, appointing the High Representative), arbitrating fundamental conflicts, acting as constitutional architect in treaty reform, and external representation of the Union through its President with the High Representative.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 441,
+      "text_sha": "fe611167bac13698",
+      "pdf_page": 16
+    },
+    {
+      "n": 17,
+      "img": "img/EU02/EU02_s017.webp",
+      "title": "How it decides",
+      "text": "Two different figures, and they answer different questions. The PRESENCE quorum is two thirds — that many members must be there for the body to act. The regular DECISION-MAKING quorum is consensus: agreement without a formal vote. Consensus is not unanimity in the voting sense; it means nobody formally objects, which is what makes the body's work so dependent on package deals.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What are the presence quorum and the regular decision-making quorum in the European Council?",
+          "a": "Presence: two thirds of members. Decision-making: consensus — agreement without a formal vote rather than a counted unanimity.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 207,
+      "text_sha": "9110c55f459cc2c0",
+      "pdf_page": 17
+    },
+    {
+      "n": 18,
+      "img": "img/EU02/EU02_s018.webp",
+      "title": "How it really works",
+      "text": "The slide calls it club behaviour: the search for compromises through long-term package deals, resting on an understanding of solidarity and reciprocity, and facilitated by agreements among the 'chiefs' without formal backing from national administrations or legislatures — a strong tendency towards informality. The problem it names is current: that shared understanding of solidarity and reciprocity is disturbed by questions about the rule of law in some member states and the legal action that has followed.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 627,
+      "text_sha": "66f217ac7b2e76f2",
+      "pdf_page": 18
+    },
+    {
+      "n": 19,
+      "img": "img/EU02/EU02_s019.webp",
+      "title": "Was ChatGPT right?",
+      "text": "The check-back on the opening exercise.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 156,
+      "text_sha": "c3e169315deab7ed",
+      "pdf_page": 19
+    },
+    {
+      "n": 20,
+      "img": "img/EU02/EU02_s020.webp",
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 114,
+      "text_sha": "5898bd774ee0d78b",
+      "pdf_page": 20
+    },
+    {
+      "n": 21,
+      "img": "img/EU02/EU02_s021.webp",
+      "title": "Questions",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 133,
+      "text_sha": "792ec8879b68d993",
+      "pdf_page": 21
+    },
+    {
+      "n": 22,
+      "img": "img/EU02/EU02_s022.webp",
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 114,
+      "text_sha": "f6f9264a6b89e3ba",
+      "pdf_page": 22
+    },
+    {
+      "n": 23,
+      "img": "img/EU02/EU02_s023.webp",
+      "title": "Section: the European Commission",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 23,
+      "text_sha": "7d96e06f48450c63",
+      "pdf_page": 23
+    },
+    {
+      "n": 24,
+      "img": "img/EU02/EU02_s024.webp",
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 2814,
+      "text_sha": "5b13e64310bff2df",
+      "pdf_page": 24
+    },
+    {
+      "n": 25,
+      "img": "img/EU02/EU02_s025.webp",
+      "title": "What do you know about the Commission?",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 167,
+      "text_sha": "de21ae97da3beaa0",
+      "pdf_page": 25
+    },
+    {
+      "n": 26,
+      "img": "img/EU02/EU02_s026.webp",
+      "title": "Commission video",
+      "text": "A video from the Commission's own YouTube channel.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 221,
+      "text_sha": "989aeecb2e104b83",
+      "pdf_page": 26
+    },
+    {
+      "n": 27,
+      "img": "img/EU02/EU02_s027.webp",
+      "title": "The Commission: the facts",
+      "text": "A COLLEGIATE body — it decides as one, not department by department. President Ursula von der Leyen, the High Representative, and one Commissioner per member state. The Secretariat General connects the political and administrative levels; below it the administration consists of Directorates-General and services. Seat in Brussels, a five-year term, meetings not open to the public.",
+      "terms": [
+        {
+          "term": "collegiality",
+          "def": "The Commission decides as a single body; a decision binds the whole College, not only the responsible Commissioner."
+        }
+      ],
+      "cards": [
+        {
+          "q": "How many Commissioners are there and what does 'collegiate body' mean?",
+          "a": "One per member state, plus the President and the High Representative among them. Collegiate means the Commission decides as one body: there is no department principle, and decisions are attributed to the College as a whole.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 427,
+      "text_sha": "2e39450fbec2dd16",
+      "pdf_page": 27
+    },
+    {
+      "n": 28,
+      "img": "img/EU02/EU02_s028.webp",
+      "title": "How the Commission is appointed",
+      "text": "A four-step procedure worth reproducing exactly. The European Council proposes the President of the Commission by QUALIFIED MAJORITY, taking into account the result of the European elections — the source of the Spitzenkandidaten debate. The Parliament must consent and formally ELECTS the President. The other Commissioners are appointed on the Council's suggestion by qualified majority, in agreement with the President-designate. Finally the ENTIRE Commission is subject to a vote of approval by the Parliament.",
+      "terms": [
+        {
+          "term": "Spitzenkandidat",
+          "def": "The lead candidate of a European political party for the Commission presidency; the claim that the European Council must propose the winner is contested."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Set out the four steps by which the Commission is appointed.",
+          "a": "The European Council proposes the President by qualified majority, taking account of the European election result; Parliament elects the President; the other Commissioners are appointed by the Council by qualified majority in agreement with the President-designate; and Parliament approves the Commission as a whole by vote.",
+          "difficulty": 3,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 549,
+      "text_sha": "735bf43dcc82eb54",
+      "pdf_page": 28
+    },
+    {
+      "n": 29,
+      "img": "img/EU02/EU02_s029.webp",
+      "title": "Parliamentary supervision — and its limits",
+      "text": "Parliament approves the composition, 'elects' the President — though that election follows the European Council's proposal, which must take the election result into account — and can bring down the WHOLE Commission by a vote of no confidence. Note the limits the slide draws: no such rights exist over the European Council or the Council of the EU, because those are composed of nationally elected politicians; and the censure motion works only against the entire Commission, never against one Commissioner.",
+      "terms": [
+        {
+          "term": "motion of censure",
+          "def": "Parliament's vote of no confidence, which can force the resignation of the whole Commission but not of an individual Commissioner."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Can the European Parliament dismiss a single Commissioner it disapproves of?",
+          "a": "No. Its instrument is a vote of no confidence against the ENTIRE Commission. And it has no equivalent power over the European Council or the Council of the EU, whose members hold national mandates.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 614,
+      "text_sha": "93ff2a709d125901",
+      "pdf_page": 29
+    },
+    {
+      "n": 30,
+      "img": "img/EU02/EU02_s030.webp",
+      "title": "Recent developments",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 136,
+      "text_sha": "5ee7aefa3e9d3bcd",
+      "pdf_page": 30
+    },
+    {
+      "n": 31,
+      "img": "img/EU02/EU02_s031.webp",
+      "title": "Political leadership inside the Commission",
+      "text": "The President sets the policy guidelines for the whole Commission. Because it is a collegiate body there is no department principle — a Commissioner does not own their portfolio the way a national minister owns a ministry. Each Commissioner is supported by a cabinet of five to seven people, deliberately multinational.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 324,
+      "text_sha": "20830d59e794e6b4",
+      "pdf_page": 31
+    },
+    {
+      "n": 32,
+      "img": "img/EU02/EU02_s032.webp",
+      "title": "The administration",
+      "text": "The Secretariat General, and below it the Directorates-General, each headed by a Director-General and divided into directorates and units. The European civil service numbers fewer than 40,000 staff — two thirds civil servants and temporary staff, with many employed in the language services. The figure is smaller than most people assume and is a good corrective to talk of a Brussels bureaucracy.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 398,
+      "text_sha": "b4df7fb4b9702847",
+      "pdf_page": 32
+    },
+    {
+      "n": 33,
+      "img": "img/EU02/EU02_s033.webp",
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 114,
+      "text_sha": "ba6eb40c29a46836",
+      "pdf_page": 33
+    },
+    {
+      "n": 34,
+      "img": "img/EU02/EU02_s034.webp",
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 114,
+      "text_sha": "ddc41406602bc804",
+      "pdf_page": 34
+    },
+    {
+      "n": 35,
+      "img": "img/EU02/EU02_s035.webp",
+      "title": "Article 17 TEU",
+      "text": "The Commission promotes the general interest of the Union and takes initiatives to that end; ensures the application of the Treaties and of measures adopted under them; oversees the application of Union law under the control of the Court of Justice; executes the budget and manages programmes; exercises coordinating, executive and management functions; and ensures external representation except in the common foreign and security policy. Then the sentence that shapes the whole legislative process: UNION LEGISLATIVE ACTS MAY ONLY BE ADOPTED ON THE BASIS OF A COMMISSION PROPOSAL, except where the Treaties provide otherwise.",
+      "terms": [
+        {
+          "term": "right of initiative",
+          "def": "Legislative acts may as a rule only be adopted on a Commission proposal (Art 17(2) TEU) — the Commission's monopoly of initiative."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Who can start the EU legislative process, and what is the exception?",
+          "a": "The Commission: legislative acts may only be adopted on the basis of a Commission proposal (Art 17(2) TEU) — the monopoly of initiative — except where the Treaties provide otherwise.",
+          "difficulty": 2,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 1057,
+      "text_sha": "2d5e2bace68940e4",
+      "pdf_page": 35
+    },
+    {
+      "n": 36,
+      "img": "img/EU02/EU02_s036.webp",
+      "title": "The Commission's four tasks",
+      "text": "Legislative proposals; execution; guardian of the Treaties; and the budget. 'Guardian of the Treaties' is the one that generates litigation — it is the basis of the infringement procedure against member states, which returns later in the course.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Name the four tasks of the European Commission.",
+          "a": "Making legislative proposals; execution and management; acting as guardian of the Treaties (including the infringement procedure); and implementing the budget.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 226,
+      "text_sha": "12d28d232c11a3da",
+      "pdf_page": 36
+    },
+    {
+      "n": 37,
+      "img": "img/EU02/EU02_s037.webp",
+      "title": "What the Commission decides",
+      "text": "Proposals for EU legislation, decisions with legal force, and communications setting out the political agenda. The middle category is the one that binds; communications are soft law.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 231,
+      "text_sha": "ca839e00e6f5691b",
+      "pdf_page": 37
+    },
+    {
+      "n": 38,
+      "img": "img/EU02/EU02_s038.webp",
+      "title": "How the Commission decides",
+      "text": "Presence quorum: 50 per cent plus one. Decision-making quorum: a simple absolute majority of the constituent members — that is, of all Commissioners, not merely of those present. In practice decisions are usually taken by consensus. Compare this with the European Council on slide 17: two thirds presence, consensus decisions.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Compare the voting rules of the Commission and the European Council.",
+          "a": "Commission: presence quorum 50 per cent plus one, decisions by simple absolute majority of all constituent members, usually consensus in practice. European Council: presence quorum two thirds, decisions by consensus.",
+          "difficulty": 2,
+          "kind": "srovnani",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 262,
+      "text_sha": "dac0ff7a1f67bc7c",
+      "pdf_page": 38
+    },
+    {
+      "n": 39,
+      "img": "img/EU02/EU02_s039.webp",
+      "title": "One minute paper",
+      "text": "A classroom exercise.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 287,
+      "text_sha": "78a4f35cd8da5a99",
+      "pdf_page": 39
+    },
+    {
+      "n": 40,
+      "img": "img/EU02/EU02_s040.webp",
+      "title": "Questions",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 133,
+      "text_sha": "c2081efc67bf15b6",
+      "pdf_page": 40
+    }
+  ]
+}

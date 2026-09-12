@@ -2100,3 +2100,249 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* ---------- Textbook (reading the study materials) ---------- */
+.reader {
+  max-width: 46rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.reader-course h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.reader-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reader-row {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  text-align: left;
+  padding: 10px 12px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink);
+}
+
+.reader-row:hover {
+  border-color: var(--accent);
+}
+
+.reader-row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.reader-row-id {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 13px;
+  min-width: 3.4rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.reader-row-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.reader-row-title {
+  font-size: 15px;
+}
+
+.reader-row-main .muted {
+  font-size: 13px;
+}
+
+.reader-head {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  border-bottom: 2px solid var(--line);
+  padding-bottom: 12px;
+}
+
+.reader-eyebrow {
+  color: var(--muted);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.reader-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  scroll-margin-top: 12px;
+}
+
+.reader-num {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* The slides are white documents; they keep their own ground in the dark UI. */
+.reader-figure {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.reader-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.reader-slide-title {
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.reader-text {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.62;
+}
+
+.reader-note {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  border-left: 2px solid var(--mid);
+  padding-left: 10px;
+}
+
+.reader-terms,
+.reader-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.reader-terms > summary,
+.reader-card > summary {
+  cursor: pointer;
+  padding: 8px 12px;
+  list-style: none;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.reader-terms > summary::-webkit-details-marker,
+.reader-card > summary::-webkit-details-marker {
+  display: none;
+}
+
+.reader-terms > summary:focus-visible,
+.reader-card > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.reader-terms dl {
+  margin: 0;
+  padding: 0 12px 10px;
+}
+
+.reader-terms dt {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.reader-terms dd {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.reader-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: rgba(122, 111, 240, 0.07);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.reader-questions h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.reader-filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.reader-card > summary {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: var(--ink);
+  font-size: 14.5px;
+  line-height: 1.45;
+}
+
+.reader-q {
+  flex: 1;
+}
+
+.reader-lvl {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  background: var(--line);
+  color: var(--muted);
+}
+
+.reader-lvl.lvl-2 {
+  background: rgba(122, 111, 240, 0.25);
+  color: #b9b2ff;
+}
+
+.reader-lvl.lvl-3 {
+  background: rgba(227, 165, 58, 0.25);
+  color: var(--mid);
+}
+
+.reader-a {
+  margin: 0;
+  padding: 0 12px 10px 42px;
+  font-size: 14.5px;
+  color: var(--muted);
+}

@@ -1,0 +1,120 @@
+{
+  "lecture_id": "IL02",
+  "slides": {
+    "43": {
+      "title": "Who interprets a treaty",
+      "text": "Before the method comes the question of the interpreter, and the default answer is uncomfortable: interpretation is decentralized, meaning each party interprets for itself. Some treaties fix that by creating an organ competent to interpret, or by sending disputes to a court or arbitral tribunal. Two examples on the slide: Article 32 ECHR gives the European Court of Human Rights jurisdiction over all matters concerning interpretation and application of the Convention, and Article 1 of the Optional Protocol to the Vienna Convention on Consular Relations puts such disputes under the compulsory jurisdiction of the ICJ.",
+      "terms": [
+        { "term": "decentralized interpretation", "def": "Each party interprets the treaty for itself; there is no general authoritative interpreter in international law." }
+      ],
+      "cards": [
+        { "q": "Who is competent to interpret a treaty if the treaty says nothing about it?", "a": "Each party for itself — interpretation is decentralized. An authoritative interpreter exists only where the treaty creates one, such as the ECtHR under Article 32 ECHR or the ICJ under the Optional Protocol to the VCCR.", "difficulty": 2, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "44": {
+      "title": "Article 31 VCLT: the general rule",
+      "text": "Two framing statements first: all methods are of equal rank — there is no hierarchy of canons, and the approach is objective, oriented towards the text — and everything happens in good faith. Then the four elements: (a) the ordinary meaning of the terms; (b) the context, which the Convention defines to include the preamble and annexes, any agreement made between all the parties in connection with the conclusion, and any instrument made by one or more parties and accepted by the others as related to the treaty; (c) subsequent agreements, subsequent practice, and any relevant rules of international law applicable between the parties; and (d) the object and purpose, which carries effet utile and implied powers with it.",
+      "terms": [
+        { "term": "effet utile", "def": "A treaty should be read so that its provisions have practical effect rather than none." },
+        { "term": "implied powers", "def": "Powers not written into the constituent instrument but necessary for an organization to perform its functions; a teleological reading." }
+      ],
+      "cards": [
+        { "q": "Is the ordinary meaning of the words the primary method of treaty interpretation under Article 31 VCLT?", "a": "It is the starting point, but all the methods are of equal rank — ordinary meaning, context, subsequent agreement and practice, and object and purpose are applied together in good faith as a single operation.", "difficulty": 2, "kind": "rozliseni", "priority": "core" },
+        { "q": "What counts as 'context' under Article 31(2) VCLT?", "a": "The treaty text with its preamble and annexes, any agreement made between all the parties in connection with the conclusion of the treaty, and any instrument made by one or more parties and accepted by the others as related to it.", "difficulty": 2, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "45": {
+      "title": "Interpretation as a diagram",
+      "text": "The same rule drawn as three branches from the node '6. Interpretation'. Ordinary meaning stands alone on top. Systematic interpretation splits into Article 31(2) — treaty text with preamble and attachments, plus every agreement or document by the parties made on the occasion of the conclusion — and Article 31(3) — subsequent agreements, uniform subsequent practice by all the parties, and any relevant rules of international law between them, with Article 103 of the UN Charter given as the example. Teleological interpretation carries effet utile and implied powers, and the diagram flags that implied powers matter especially for international organizations.",
+      "terms": [],
+      "cards": [
+        { "q": "Under Article 31(3) VCLT, whose subsequent practice counts?", "a": "Uniform practice by all the parties to the treaty — the practice of one or a few parties is not enough to establish an agreed interpretation.", "difficulty": 3, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "46": {
+      "title": "A worked example: the VCCR preamble",
+      "text": "The next two slides take one provision and show interpretation in action. This one is the preamble of the Vienna Convention on Consular Relations 1963 — the parties recall the purposes of the UN Charter on sovereign equality and friendly relations and state their belief that a convention on consular relations would contribute to friendly relations among nations irrespective of differing constitutional and social systems. Under Article 31(2) the preamble is part of the context, so these sentences are legitimate material for reading Article 36.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "47": {
+      "title": "Article 36(1)(b) VCCR: the provision being interpreted",
+      "text": "The text itself: if a detained foreign national so requests, the authorities of the receiving state must without delay inform the consular post of the sending state, must forward any communication from the detainee to the consulate, and — the words the slide emphasises — must inform the person concerned without delay of HIS RIGHTS under the subparagraph. That last phrase is why the provision is famous: read with the preamble and the object and purpose, it was held to give rights to the individual and not only to the sending state, which is what the LaGrand and Avena litigation before the ICJ turned on.",
+      "terms": [
+        { "term": "consular notification", "def": "Art 36(1)(b) VCCR: on request, the receiving state must inform the detainee's consulate without delay and must inform the detainee of that right." }
+      ],
+      "cards": [
+        { "q": "Why is the phrase 'shall inform the person concerned without delay of his rights' in Art 36(1)(b) VCCR significant?", "a": "Because it is textual evidence that the provision confers rights on the individual, not only on the sending state — the reading that the preamble and the object and purpose of the Convention support.", "difficulty": 3, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "48": {
+      "title": "Checklist position: scope of application",
+      "text": "The wheel with item 7 highlighted, and it branches into two questions that must be asked separately: the temporal scope of application — from when and until when does the treaty apply — and the territorial scope — to which territories.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "49": {
+      "title": "Territorial scope, published in the gazette",
+      "text": "A German-language announcement from the Austrian Bundesgesetzblatt of 18 August 2011: the Chancellor announces the Geltungsbereich — the scope of application — of the UN Convention on Contracts for the International Sale of Goods, recording that Benin deposited its instrument of accession on 29 July 2011. The practical lesson: for a multilateral treaty the circle of parties changes over time, and the answer to 'does this treaty apply between these two states' is looked up in such lists, not assumed.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "note": "Slide in German."
+    },
+
+    "50": {
+      "title": "Temporal scope: a termination clause read closely",
+      "text": "Article 15 of the bilateral investment treaty between Austria and Kuwait shows how carefully treaties handle their own end. Paragraph 1: the agreement runs for thirty years and renews automatically for like periods unless a party gives written notice one year before the expiry of a period. Paragraph 2 is the survival clause: for investments made before the termination takes effect, the agreement's provisions continue to apply for a further twenty years. So a treaty can go on producing legal effects two decades after it has been terminated — a favourite trap in a fact pattern with dates.",
+      "terms": [
+        { "term": "survival clause", "def": "A provision keeping a treaty's protections in force for existing situations for a stated period after termination." }
+      ],
+      "cards": [
+        { "q": "A BIT is terminated in 2020. An investment was made in 2015. Until when can the investor rely on the treaty, under a clause like Article 15 Austria-Kuwait?", "a": "For twenty years from termination, i.e. until 2040 — the survival clause keeps the provisions effective for investments made before the notice took effect.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "51": { "title": "Checklist position: treaties and third states", "text": "The wheel with item 8 highlighted.", "terms": [], "cards": [], "vision_used": true },
+
+    "52": {
+      "title": "Pacta tertiis nec nocent nec prosunt",
+      "text": "The rule and its two qualifications. Agreements neither harm nor benefit third parties; a treaty produces effects for a third state only if that state consents. The asymmetry is what to remember: where the treaty benefits the third state, consent is assumed; where it imposes an obligation, consent must be in writing. The reason is obvious once stated — nobody objects to being given a right, but nobody may be burdened without a clear act of will.",
+      "terms": [
+        { "term": "pacta tertiis nec nocent nec prosunt", "def": "Treaties neither harm nor benefit third parties; effects for a third state require its consent." }
+      ],
+      "cards": [
+        { "q": "Treaty A-B grants a right to state C and imposes a duty on state D. What consent does each require?", "a": "For C the consent is presumed, because the treaty confers a benefit. For D consent must be given in writing, because the treaty imposes an obligation.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "53": {
+      "title": "Checklist position: modification of treaties",
+      "text": "The wheel with item 9 highlighted, branching into three words the lecture distinguishes: revision, amendment and modification.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "54": {
+      "title": "Checklist position: reservations",
+      "text": "The wheel with item 10 highlighted. The small chart beside it shows the percentage of state parties with at least one reservation for a series of human rights treaties — the values run from roughly a tenth to over half, which is the point: reservations are not an exception but ordinary practice in multilateral treaty-making.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "note": "The chart's axis labels are too small to read reliably at slide resolution; the individual treaty values are not reproduced here."
+    }
+  }
+}

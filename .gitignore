@@ -30,3 +30,11 @@ server/gen
 
 # graphify — lokální znalostní graf kódu (negenerovat do repa)
 graphify-out/
+
+# StEOP podklady — obrázky slidů a kopie zdrojových PDF se do repa nedávají
+# (55 MB); nahrávají se do datového volume serveru. Text a pipeline ano.
+content/irewi/out/img/
+content/irewi/raw/
+content/irewi/.cache/
+content/irewi/out/work/
+content/irewi/out/studyflow/

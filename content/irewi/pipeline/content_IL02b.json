@@ -1,0 +1,116 @@
+{
+  "lecture_id": "IL02",
+  "slides": {
+    "21": {
+      "title": "Full powers in virtue of a person's functions (Art 7(2) VCLT)",
+      "text": "Article 7(2) lists who needs no document at all, and the list has a structure worth seeing. Under (a) Heads of State, Heads of Government and Ministers of Foreign Affairs represent the state for everything — the classic 'big three'. Under (b) heads of diplomatic missions and under (c) representatives accredited to a conference or an organization can do far less: they may only adopt the TEXT, and only in that bilateral relationship or in that forum. So an ambassador may adopt a text with the receiving state, but may not thereby bind the state to the treaty.",
+      "terms": [
+        { "term": "Art 7(2) VCLT", "def": "Persons representing their state in virtue of their functions: (a) Head of State, Head of Government, Minister of Foreign Affairs — for all acts; (b) heads of diplomatic missions and (c) accredited representatives — only for adopting the text." }
+      ],
+      "cards": [
+        { "q": "Which three office-holders represent their state for all treaty acts without producing full powers?", "a": "The Head of State, the Head of Government and the Minister of Foreign Affairs (Article 7(2)(a) VCLT).", "difficulty": 1, "kind": "znaky", "priority": "core" },
+        { "q": "An ambassador signs, on behalf of the sending state, a treaty with the receiving state expressing consent to be bound. Was he competent ex officio?", "a": "No. Under Article 7(2)(b) a head of mission is considered to represent the state only for adopting the TEXT of a treaty with the receiving state — not for expressing consent to be bound. For that he needs full powers.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "22": {
+      "title": "Cameroon v. Nigeria: Article 46 VCLT, the rule",
+      "text": "Four slides now quote the ICJ judgment in Cameroon v. Nigeria (Land and Maritime Boundary, 2002), the standard case on what happens when a Head of State binds the state contrary to domestic constitutional rules. The rule is Article 46(1) VCLT: a state may NOT invoke the fact that its consent was expressed in violation of its internal law on competence to conclude treaties — unless that violation was manifest and concerned a rule of internal law of fundamental importance. Article 46(2) defines manifest: objectively evident to any state conducting itself in the matter in accordance with normal practice and in good faith. The Court's conclusion is on the slide: a limitation on a Head of State's capacity is not manifest unless at least properly publicized.",
+      "terms": [
+        { "term": "Art 46 VCLT", "def": "Internal law on competence to conclude treaties cannot be invoked to invalidate consent unless the violation was manifest and concerned a rule of fundamental importance." },
+        { "term": "manifest violation", "def": "One that is objectively evident to any state conducting itself in accordance with normal practice and in good faith (Art 46(2) VCLT)." }
+      ],
+      "cards": [
+        { "q": "State A's president signs a treaty although its constitution requires parliamentary approval. Can State A rely on that to escape the treaty?", "a": "Only if the violation was manifest and concerned a rule of internal law of fundamental importance (Art 46 VCLT). Per Cameroon v. Nigeria, a limitation on the Head of State's capacity is not manifest unless it has at least been properly publicized.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "What is the test for a 'manifest' violation under Article 46(2) VCLT?", "a": "It must be objectively evident to any state conducting itself in the matter in accordance with normal practice and in good faith.", "difficulty": 2, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "23": {
+      "title": "Cameroon v. Nigeria: why the Head of State binds fully",
+      "text": "Nigeria argued that Article 7(2) only establishes that a person has a representative function, not how far that person's powers go. The Court rejected this and relied on the ILC commentary to Article 7(2): Heads of State are considered as representing their state for the purpose of performing ALL acts relating to the conclusion of a treaty. This is what makes the 'big three' different from an ambassador — their authority is not limited to a stage of the procedure.",
+      "terms": [],
+      "cards": [
+        { "q": "How far does a Head of State's ex officio authority reach under Article 7(2) VCLT, according to Cameroon v. Nigeria?", "a": "To all acts relating to the conclusion of a treaty — the Court adopted the ILC commentary and rejected the argument that Article 7(2) only establishes the representative function without defining its extent.", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "24": {
+      "title": "Cameroon v. Nigeria: no duty to research the other state's constitution",
+      "text": "Nigeria's second line of argument was that Cameroon knew or ought to have known that its Head of State could not bind Nigeria alone. The Court's answer is the practical heart of the case: there is no general legal obligation for states to keep themselves informed of legislative and constitutional developments in other states. It then read the Nigerian president's 1974 letter and held that the two statements in it could not be regarded as a specific warning that Nigeria would not be bound.",
+      "terms": [],
+      "cards": [
+        { "q": "Must a state check the constitutional law of its treaty partner before relying on a signature?", "a": "No. Cameroon v. Nigeria: there is no general legal obligation for states to keep themselves informed of legislative and constitutional developments in other states. That is why Article 46 sets such a high bar.", "difficulty": 3, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "25": {
+      "title": "Cameroon v. Nigeria: the holding",
+      "text": "The Court noted that the two Heads of State had for years resolved boundary difficulties through person-to-person agreements, including Yaoundé II and Maroua, and concluded in paragraph 268 that the Maroua Declaration and the Yaoundé II Declaration must be considered binding and as establishing a legal obligation on Nigeria. Two lessons for an exam answer: a 'declaration' can be a treaty if the parties intended obligations, and prior practice between the parties is evidence of that intention.",
+      "terms": [
+        { "term": "Maroua Declaration", "def": "A 1975 agreement between the Heads of State of Cameroon and Nigeria on the maritime boundary, held binding on Nigeria in ICJ, Cameroon v. Nigeria (2002)." }
+      ],
+      "cards": [
+        { "q": "A document is titled 'Declaration' and signed by two Heads of State. Can it be a binding treaty?", "a": "Yes. In Cameroon v. Nigeria the Maroua and Yaoundé II Declarations were held binding and to establish a legal obligation. The title does not decide; the parties' intention, shown here by their established practice, does.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "26": { "title": "Checklist position: adoption of a treaty", "text": "The wheel with item 4 highlighted: how a treaty text comes into being and how a state becomes bound by it.", "terms": [], "cards": [], "vision_used": true },
+
+    "27": {
+      "title": "Simplified procedure: treaty-making without ratification",
+      "text": "The short route has three stages: negotiations, then optionally initialling, then signature — or an exchange of instruments constituting a treaty. Initialling is marked 'facultative' because it only authenticates the text initialed by the negotiators; it is not consent. In this route signature itself expresses consent to be bound, so the treaty binds from that moment.",
+      "terms": [
+        { "term": "initialling", "def": "Optional authentication of a negotiated text by the negotiators' initials; it fixes the text, it does not bind the state." },
+        { "term": "exchange of instruments constituting a treaty", "def": "A treaty concluded by exchanging notes or letters, without a single signed document." }
+      ],
+      "cards": [
+        { "q": "In the simplified procedure, which act makes the state bound?", "a": "Signature itself (or the exchange of instruments). Initialling only authenticates the text and is optional.", "difficulty": 2, "kind": "schema", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "28": {
+      "title": "A real simplified-procedure treaty",
+      "text": "The example is an agreement of 20 December 2006 between the Austrian and Hungarian foreign ministers on cooperation at their foreign missions. Its Article 6 shows every feature of the short route at once: it enters into force on the day of signature, it is concluded for an indefinite period, it may be amended by agreement through diplomatic channels, and either party may terminate it in writing through diplomatic channels, with effect three months after receipt. Read the final provisions of any treaty first — they answer questions 5 and 12 on the wheel.",
+      "terms": [],
+      "cards": [
+        { "q": "Where in a treaty do you look first to answer when it enters into force and how it can be terminated?", "a": "In its final provisions — as in the Austrian-Hungarian agreement of 2006, whose Article 6 states entry into force on signature, indefinite duration, amendment by agreement, and termination in writing effective three months after receipt.", "difficulty": 2, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": true,
+      "note": "This example slide is in German, unlike the rest of the deck. The exam is written in English."
+    },
+
+    "29": {
+      "title": "Treaties requiring ratification: five stages",
+      "text": "The long route adds two stages: negotiations, optional initialling, signature, domestic approval, and finally ratification. The slide marks with a coloured bar that the state is bound only from ratification — signature alone does not bind here. It also marks the stretch between signature and ratification with an arrow labelled 'prohibition to defeat object & purpose': a signatory must not frustrate the treaty in the meantime, even though it is not yet bound by its substance. That interim duty is Article 18 VCLT and it is a favourite exam trap.",
+      "terms": [
+        { "term": "ratification", "def": "The international act by which a state establishes its consent to be bound, following domestic approval." },
+        { "term": "obligation not to defeat the object and purpose", "def": "Between signature and ratification a state must refrain from acts that would defeat the treaty's object and purpose (Art 18 VCLT)." }
+      ],
+      "cards": [
+        { "q": "State A has signed but not ratified a treaty. Is it free to act as it pleases?", "a": "No. It is not yet bound by the treaty's substance, but it must refrain from acts that would defeat the object and purpose of the treaty until it makes its intention clear (Art 18 VCLT).", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "Which two stages does the ratification procedure add to the simplified one, and at which point is the state bound?", "a": "Domestic approval and ratification. The state is bound only upon ratification, not upon signature.", "difficulty": 2, "kind": "schema", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "30": {
+      "title": "Final provisions of the VCLT itself",
+      "text": "The Convention is its own example. Article 81 opens it for signature to a defined circle of states and sets deadlines; Article 82 makes it subject to ratification, with instruments deposited with the UN Secretary-General; Article 83 keeps it open for accession by the same circle. Accession is the route for a state that did not sign in time — it joins in a single act, with no prior signature. That is how most states, including Austria in 1979, became parties.",
+      "terms": [
+        { "term": "accession", "def": "A single act by which a state becomes party to a treaty it did not sign, deposited with the depositary." },
+        { "term": "depositary", "def": "The body that keeps the original text and receives instruments of ratification and accession — for the VCLT, the UN Secretary-General." }
+      ],
+      "cards": [
+        { "q": "What is the difference between ratification and accession?", "a": "Ratification follows a prior signature and completes it. Accession is a single act by which a state that never signed becomes a party, and it is the route left open after the signature period closes.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    }
+  }
+}

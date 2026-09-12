@@ -1,0 +1,250 @@
+{
+  "lecture_id": "IL13",
+  "course": "IL",
+  "course_title": "Foundations of International Law",
+  "course_number": "030477",
+  "unit": "Unit XIII",
+  "title": "International Responsibility II — Organizations, Individuals, Liability",
+  "source_file": "raw/IL13_fum-en-responsibility-ii.pdf",
+  "source_sha256": "96ec9e74153cbb8ecc23a2ad8ba78b7b6914eb923eaa77d02068029b8ac722e9",
+  "source_pages": 9,
+  "slides_per_page": 1,
+  "slide_count": 9,
+  "updated_at": "2026-09-11T17:10:53+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/IL13/IL13_s001.webp",
+      "title": "Title slide",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 103,
+      "text_sha": "73c74d20b9b1f88c",
+      "pdf_page": 1
+    },
+    {
+      "n": 2,
+      "img": "img/IL13/IL13_s002.webp",
+      "title": "Responsibility of international organizations",
+      "text": "Organizations are subjects of international law and so answer for their internationally wrongful acts — but the hard question is WHO answers, the organization or its member states. The standard scenario: the Security Council mandates peacekeeping troops in Kosovo, troops of a contributing state commit human rights violations, and the answer decides whether an individual complaint in the European system can be brought at all. The European Court of Human Rights makes EFFECTIVE CONTROL — command and control over the relevant troops — the decisive criterion.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Peacekeepers under a UN mandate commit violations. Is the UN or the contributing state responsible?",
+          "a": "It turns on effective control — command and control over the troops at the relevant time, the criterion applied by the European Court of Human Rights. The formal mandate does not decide.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 591,
+      "text_sha": "7bdae257b89a8c00",
+      "pdf_page": 2
+    },
+    {
+      "n": 3,
+      "img": "img/IL13/IL13_s003.webp",
+      "title": "International criminal responsibility",
+      "text": "Certain serious crimes are prohibited under international law and their commission entails INDIVIDUAL criminal responsibility, prosecuted before international courts. Four crimes: genocide, crimes against humanity, war crimes and aggression. The development runs from the Nuremberg and Tokyo military tribunals against the main war criminals of the Axis, through ad hoc tribunals established temporarily — the ICTY 1993-2017 and the ICTR 1994-2018 — to the permanent International Criminal Court agreed at Rome in 1998 and in force since 2002, alongside hybrid courts for Sierra Leone and Lebanon.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Name the four core international crimes and the three generations of courts that prosecute them.",
+          "a": "Genocide, crimes against humanity, war crimes, aggression. Courts: the post-war military tribunals (Nuremberg, Tokyo); the ad hoc tribunals (ICTY 1993-2017, ICTR 1994-2018); and the permanent ICC (Rome Statute 1998, in force 2002), with hybrid courts alongside.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 793,
+      "text_sha": "77cc491cf250fe35",
+      "pdf_page": 3
+    },
+    {
+      "n": 4,
+      "img": "img/IL13/IL13_s004.webp",
+      "title": "Genocide and crimes against humanity",
+      "text": "Genocide: certain acts, such as killing or torture, committed with the INTENT to destroy a national, ethnical, racial or religious group. The special intent is what makes it genocide rather than mass murder, and it is what makes it so hard to prove. Crimes against humanity: certain acts — murder, enslavement, torture, deportation — committed as part of a WIDESPREAD OR SYSTEMATIC attack against the civilian population, pursuant to a state or organizational policy. And the point the slide flags: both may be committed in PEACETIME, unlike war crimes.",
+      "terms": [
+        {
+          "term": "dolus specialis",
+          "def": "The special intent to destroy a protected group, which distinguishes genocide from other mass crimes."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What distinguishes genocide from crimes against humanity?",
+          "a": "Genocide requires the special intent to destroy a national, ethnical, racial or religious group as such. Crimes against humanity require a widespread or systematic attack against a civilian population pursuant to a state or organizational policy, but no such destructive intent.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Can genocide or crimes against humanity be committed in peacetime?",
+          "a": "Yes — both can. Only war crimes require an armed conflict.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 445,
+      "text_sha": "ac7aa1cad22fdfd9",
+      "pdf_page": 4
+    },
+    {
+      "n": 5,
+      "img": "img/IL13/IL13_s005.webp",
+      "title": "War crimes, command responsibility, superior orders",
+      "text": "War crimes are grave breaches of international humanitarian law: wilful killing of civilians, killing or torture of prisoners of war, attacks on civilians and civilian objects, use of particularly cruel weapons such as chemical weapons, pillaging towns. Two doctrines attach. COMMAND RESPONSIBILITY: immediate superiors answer for the crimes of their subordinates, and the slide stresses this holds in civilian as well as military hierarchies. And superior orders: following the orders of a superior does NOT exempt from criminal responsibility.",
+      "terms": [
+        {
+          "term": "command responsibility",
+          "def": "A superior's liability for crimes of subordinates they knew or should have known of and failed to prevent or punish."
+        }
+      ],
+      "cards": [
+        {
+          "q": "A soldier pleads that he was following his commander's orders. Does that exempt him?",
+          "a": "No — superior orders do not exempt from criminal responsibility. And the commander is separately liable under command responsibility, which applies in civilian hierarchies too.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 554,
+      "text_sha": "3d79454426f224ac",
+      "pdf_page": 5
+    },
+    {
+      "n": 6,
+      "img": "img/IL13/IL13_s006.webp",
+      "title": "The International Criminal Court",
+      "text": "Rome Statute 1998, in force 2002, seat in The Hague. Its jurisdiction covers crimes committed on the territory of a state party (territoriality) or by a national of a state party (nationality) — or where the Security Council refers a situation directly, which is how non-parties can be reached. And the governing principle is COMPLEMENTARITY: the Court may act only where the state with jurisdiction cannot, or is unwilling to, conduct proceedings — for instance to shield its own nationals. Member states have a duty to cooperate, and decisions are executed in them.",
+      "terms": [
+        {
+          "term": "complementarity",
+          "def": "The ICC acts only where the state with jurisdiction is unable or unwilling genuinely to prosecute."
+        }
+      ],
+      "cards": [
+        {
+          "q": "A state party investigates its own general for war crimes in a sham proceeding. Can the ICC act?",
+          "a": "Yes. Complementarity bars the Court only where the state is genuinely willing and able; proceedings designed to shield the accused make the state unwilling, and the ICC's jurisdiction revives.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        },
+        {
+          "q": "On what three bases can the ICC have jurisdiction over a crime?",
+          "a": "The crime was committed on the territory of a state party; it was committed by a national of a state party; or the Security Council referred the situation.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 596,
+      "text_sha": "254cd9f415c031c9",
+      "pdf_page": 6
+    },
+    {
+      "n": 7,
+      "img": "img/IL13/IL13_s007.webp",
+      "title": "Liability for lawful activities",
+      "text": "Liability means bearing responsibility for material damage arising from acts that are otherwise LAWFUL under international law — particularly risky activities with a high damage potential, such as operating nuclear power plants, or transporting highly toxic waste. There is no violation of international law at all. The effect is that on the occurrence of damage the private operator must pay compensation, as a civil claim. And the crucial limit: liability exists only on the basis of TREATY law, never customary law.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "A neighbouring state's lawful nuclear plant causes cross-border damage. Is there liability in the absence of a treaty?",
+          "a": "No. Liability for lawful activities exists only where a treaty creates it; it is not part of customary international law. Absent a treaty the injured state must show an internationally wrongful act instead.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 643,
+      "text_sha": "ecea098806d70a3c",
+      "pdf_page": 7
+    },
+    {
+      "n": 8,
+      "img": "img/IL13/IL13_s008.webp",
+      "title": "How liability regimes are built",
+      "text": "In practice four devices recur: compulsory liability insurance as a condition of carrying out the activity; an obligation to establish and endow a national cover fund; payment from a special private-law fund to which all operators contribute; and the state as guarantor — which is where true liability under international law appears. The model provision is Article II of the Liability Convention in space law: a launching state shall be ABSOLUTELY liable to pay compensation for damage caused by its space object on the surface of the earth or to aircraft in flight.",
+      "terms": [
+        {
+          "term": "absolute liability",
+          "def": "Liability without fault and without any need to prove unlawfulness — Art II Liability Convention for damage on the earth's surface or to aircraft in flight."
+        }
+      ],
+      "cards": [
+        {
+          "q": "State the rule of Article II of the Liability Convention.",
+          "a": "A launching state is absolutely liable to pay compensation for damage caused by its space object on the surface of the earth or to aircraft in flight — no fault and no wrongfulness need be shown.",
+          "difficulty": 2,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 597,
+      "text_sha": "43269f9c53fb1546",
+      "pdf_page": 8
+    },
+    {
+      "n": 9,
+      "img": "img/IL13/IL13_s009.webp",
+      "title": "Closing slide",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 103,
+      "text_sha": "73c74d20b9b1f88c",
+      "pdf_page": 9
+    }
+  ]
+}

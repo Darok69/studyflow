@@ -22,6 +22,7 @@ import {
 import { findUserByEmail, getBackup, getPushSubs, getUsers, saveBackup, savePushSubs, deleteBackup, DATA_DIR } from './store.js'
 import { extraMessage, publicKey, pushEnabled, sendPush, startPushCron } from './push.js'
 import { registerSourceRoutes } from './sources-routes.js'
+import { materialsAvailable, registerMaterialRoutes } from './materials-routes.js'
 import { listSources, deleteSource } from './blobs.js'
 import { aiEnabled } from './ai.js'
 
@@ -95,7 +96,7 @@ app.post('/api/login', async (req, reply) => {
     path: '/',
     maxAge: 120 * 86_400,
   })
-  return { email: user.email, isAdmin: !!user.isAdmin }
+  return { email: user.email, isAdmin: !!user.isAdmin, materials: materialsAvailable() }
 })
 
 // ---- session ----
@@ -109,7 +110,9 @@ app.post('/api/logout', async (req, reply) => {
 app.get('/api/me', async (req, reply) => {
   const user = requireUser(req, reply)
   if (!user) return
-  return { email: user.email, isAdmin: !!user.isAdmin }
+  // `materials` tells the client whether the reading screen has anything to
+  // show, so the navigation can stay honest on an install without them.
+  return { email: user.email, isAdmin: !!user.isAdmin, materials: materialsAvailable() }
 })
 
 // ---- sync (whole-app snapshot per user) ----
@@ -243,6 +246,9 @@ app.delete('/api/users/:id', async (req, reply) => {
 
 // ---- source materials + generation pipeline ----
 registerSourceRoutes(app, { requireUser })
+
+// ---- study materials for the reading screen ----
+registerMaterialRoutes(app, { requireUser })
 
 // ---- static PWA shell ----
 await app.register(fastifyStatic, {

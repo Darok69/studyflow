@@ -1,0 +1,209 @@
+{
+  "exam": {
+    "name": "StEOP MP Einführung in das internationale Recht (IREWI, UG2002, 6 ECTS)",
+    "date": "2026-10-05",
+    "language": "en",
+    "format": "60 min written, English. 30 min International Law + 30 min EU Law. Max 60 pts (30+30). Pass: 30 pts total AND min 15 pts in each half. Problem/case questions with open answers, not multiple choice."
+  },
+  "updated_at": "2026-09-11T17:10:56+00:00",
+  "courses": [
+    {
+      "code": "IL",
+      "number": "030477",
+      "title": "Foundations of International Law",
+      "lectures": [
+        {
+          "lecture_id": "IL01",
+          "unit": "Unit I",
+          "title": "The International Legal Order: Introduction",
+          "slides": 33,
+          "data": "data/IL01.json",
+          "done": 33
+        },
+        {
+          "lecture_id": "IL02",
+          "unit": "Unit II",
+          "title": "The Law of Treaties",
+          "slides": 70,
+          "data": "data/IL02.json",
+          "done": 70
+        },
+        {
+          "lecture_id": "IL04",
+          "unit": "Unit IV",
+          "title": "Customary International Law",
+          "slides": 22,
+          "data": "data/IL04.json",
+          "done": 22
+        },
+        {
+          "lecture_id": "IL05",
+          "unit": "Unit V",
+          "title": "General Principles of Law, Unilateral Acts and Subsidiary Means",
+          "slides": 27,
+          "data": "data/IL05.json",
+          "done": 27
+        },
+        {
+          "lecture_id": "IL06",
+          "unit": "Unit VI",
+          "title": "States, Diplomatic Protection, Succession and Immunity",
+          "slides": 38,
+          "data": "data/IL06.json",
+          "done": 38
+        },
+        {
+          "lecture_id": "IL07",
+          "unit": "Unit VII",
+          "title": "International Organizations I",
+          "slides": 28,
+          "data": "data/IL07.json",
+          "done": 28
+        },
+        {
+          "lecture_id": "IL08",
+          "unit": "Unit VIII",
+          "title": "International Organizations II — the UN, and exam cases",
+          "slides": 40,
+          "data": "data/IL08.json",
+          "done": 40
+        },
+        {
+          "lecture_id": "IL10",
+          "unit": "Unit X",
+          "title": "Prohibition of the Use of Force and Non-Intervention",
+          "slides": 20,
+          "data": "data/IL10.json",
+          "done": 20
+        },
+        {
+          "lecture_id": "IL11",
+          "unit": "Unit XI",
+          "title": "Self-determination and Human Rights",
+          "slides": 11,
+          "data": "data/IL11.json",
+          "done": 11
+        },
+        {
+          "lecture_id": "IL11b",
+          "unit": "Unit XI",
+          "title": "Peaceful Settlement of Disputes",
+          "slides": 8,
+          "data": "data/IL11b.json",
+          "done": 8
+        },
+        {
+          "lecture_id": "IL12",
+          "unit": "Unit XII",
+          "title": "International Responsibility I — State Responsibility",
+          "slides": 12,
+          "data": "data/IL12.json",
+          "done": 12
+        },
+        {
+          "lecture_id": "IL13",
+          "unit": "Unit XIII",
+          "title": "International Responsibility II — Organizations, Individuals, Liability",
+          "slides": 9,
+          "data": "data/IL13.json",
+          "done": 9
+        }
+      ]
+    },
+    {
+      "code": "EU",
+      "number": "030337",
+      "title": "Introduction to European Union Law",
+      "lectures": [
+        {
+          "lecture_id": "EU01",
+          "unit": "Lecture 1",
+          "title": "Introduction and Basics",
+          "slides": 41,
+          "data": "data/EU01.json",
+          "done": 41
+        },
+        {
+          "lecture_id": "EU02",
+          "unit": "Lecture 2",
+          "title": "EU Institutions I — European Council and Commission",
+          "slides": 40,
+          "data": "data/EU02.json",
+          "done": 40
+        },
+        {
+          "lecture_id": "EU03",
+          "unit": "Lecture 3",
+          "title": "EU Institutions II — Council, Parliament, other bodies",
+          "slides": 51,
+          "data": "data/EU03.json",
+          "done": 51
+        },
+        {
+          "lecture_id": "EU04",
+          "unit": "Lecture 4",
+          "title": "Competences and Legislating",
+          "slides": 45,
+          "data": "data/EU04.json",
+          "done": 45
+        },
+        {
+          "lecture_id": "EU05",
+          "unit": "Lecture 5",
+          "title": "Sources of EU Law and Hierarchy",
+          "slides": 54,
+          "data": "data/EU05.json",
+          "done": 54
+        },
+        {
+          "lecture_id": "EU06",
+          "unit": "Lecture 6",
+          "title": "Primacy of EU Law",
+          "slides": 31,
+          "data": "data/EU06.json",
+          "done": 31
+        },
+        {
+          "lecture_id": "EU07",
+          "unit": "Lecture 7",
+          "title": "Direct Effect of EU Law",
+          "slides": 33,
+          "data": "data/EU07.json",
+          "done": 33
+        },
+        {
+          "lecture_id": "EU08",
+          "unit": "Lecture 8",
+          "title": "Workarounds, Enforcement and State Liability",
+          "slides": 60,
+          "data": "data/EU08.json",
+          "done": 60
+        },
+        {
+          "lecture_id": "EU09",
+          "unit": "Lecture 9",
+          "title": "EU Judicial Procedures",
+          "slides": 46,
+          "data": "data/EU09.json",
+          "done": 46
+        },
+        {
+          "lecture_id": "EU10",
+          "unit": "Lecture 10",
+          "title": "Annulment, Failure to Act and Fundamental Rights",
+          "slides": 31,
+          "data": "data/EU10.json",
+          "done": 31
+        },
+        {
+          "lecture_id": "EU99",
+          "unit": "Session on Exam",
+          "title": "Session on the Exam",
+          "slides": 8,
+          "data": "data/EU99.json",
+          "done": 8
+        }
+      ]
+    }
+  ]
+}

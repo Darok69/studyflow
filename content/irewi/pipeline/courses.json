@@ -1,0 +1,147 @@
+{
+  "exam": {
+    "name": "StEOP MP Einführung in das internationale Recht (IREWI, UG2002, 6 ECTS)",
+    "date": "2026-10-05",
+    "language": "en",
+    "format": "60 min written, English. 30 min International Law + 30 min EU Law. Max 60 pts (30+30). Pass: 30 pts total AND min 15 pts in each half. Problem/case questions with open answers, not multiple choice."
+  },
+  "courses": [
+    {
+      "code": "IL",
+      "number": "030477",
+      "title": "Foundations of International Law",
+      "root": "/Users/danielmarek/Downloads/WS2025-030477-1_20260911_1647",
+      "lectures": [
+        {
+          "id": "IL01",
+          "unit": "Unit I",
+          "file": "Unit I/Foundations Intro Winter 2025.pdf"
+        },
+        {
+          "id": "IL02",
+          "unit": "Unit II",
+          "file": "Unit II/The Law of Treaties_ Prezi_2023.pdf",
+          "nup": [
+            2,
+            2
+          ],
+          "text_layer": "broken",
+          "note": "Handout 4 slidy na stranu; textová vrstva PDF neodpovídá vykreslenému obsahu (ověřeno na spanech) — čte se výhradně z obrázků."
+        },
+        {
+          "id": "IL04",
+          "unit": "Unit IV",
+          "file": "Unit IV/PIL sources II custom AR.pdf"
+        },
+        {
+          "id": "IL05",
+          "unit": "Unit V",
+          "file": "Unit V/Sources III GPL and unilateral acts_UK .pdf"
+        },
+        {
+          "id": "IL06",
+          "unit": "Unit VI",
+          "file": "Unit VI/States_AR.pdf"
+        },
+        {
+          "id": "IL07",
+          "unit": "Unit VII",
+          "file": "Unit VII/IOs I.pdf"
+        },
+        {
+          "id": "IL08",
+          "unit": "Unit VIII",
+          "file": "Unit VIII/IOs II.pdf"
+        },
+        {
+          "id": "IL10",
+          "unit": "Unit X",
+          "file": "Unit X/FÜM - Use of Force.pdf"
+        },
+        {
+          "id": "IL11",
+          "unit": "Unit XI",
+          "file": "Unit XI/FÜM - Self-determination and human rights.pdf"
+        },
+        {
+          "id": "IL11b",
+          "unit": "Unit XI",
+          "file": "Unit XI/FÜM - en - peaceful settlement of disputes.pdf"
+        },
+        {
+          "id": "IL12",
+          "unit": "Unit XII",
+          "file": "Unit XII/FÜM - en - responsibility I.pdf"
+        },
+        {
+          "id": "IL13",
+          "unit": "Unit XIII",
+          "file": "Unit XIII/FÜM - en - responsibility II.pdf"
+        }
+      ]
+    },
+    {
+      "code": "EU",
+      "number": "030337",
+      "title": "Introduction to European Union Law",
+      "root": "/Users/danielmarek/Downloads/WS2025-030337-1_20260911_1647",
+      "lectures": [
+        {
+          "id": "EU01",
+          "unit": "Lecture 1",
+          "file": "Slides/Slides_Introduction_1.pdf"
+        },
+        {
+          "id": "EU02",
+          "unit": "Lecture 2",
+          "file": "Slides/Slides_Introduction_2.pdf"
+        },
+        {
+          "id": "EU03",
+          "unit": "Lecture 3",
+          "file": "Slides/Slides_Introduction_3.pdf"
+        },
+        {
+          "id": "EU04",
+          "unit": "Lecture 4",
+          "file": "Slides/Slides_Introduction_4.pdf"
+        },
+        {
+          "id": "EU05",
+          "unit": "Lecture 5",
+          "file": "Slides/Slides_Introduction_5.pdf"
+        },
+        {
+          "id": "EU06",
+          "unit": "Lecture 6",
+          "file": "Slides/Slides_Introduction_6_forupload.pdf"
+        },
+        {
+          "id": "EU07",
+          "unit": "Lecture 7",
+          "file": "Slides/Slides_Introduction_7_forupload.pdf"
+        },
+        {
+          "id": "EU08",
+          "unit": "Lecture 8",
+          "file": "Slides/Slides_Introduction_8.pdf"
+        },
+        {
+          "id": "EU09",
+          "unit": "Lecture 9",
+          "file": "Slides/Slides_Introduction_9.pdf"
+        },
+        {
+          "id": "EU10",
+          "unit": "Lecture 10",
+          "file": "Slides/Slides_Introduction_10.pdf"
+        },
+        {
+          "id": "EU99",
+          "unit": "Session on Exam",
+          "file": "Slides/Session on Exam/Slides_Introduction_Exam1.pdf"
+        }
+      ]
+    }
+  ]
+}

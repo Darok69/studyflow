@@ -29,6 +29,9 @@ interface Props {
   onBrowser: () => void
   /** Source materials → outline → cards. Server mode only. */
   onSources: () => void
+  /** The study materials read as a textbook. Shown only when the server has them. */
+  onReader: () => void
+  hasMaterials: boolean
   /** Capacity plan up to the exam dates. */
   onPlan: () => void
   /** A hand-made deck was just created → jump straight to adding its cards. */
@@ -44,6 +47,8 @@ export function Home({
   onCram,
   onBrowser,
   onSources,
+  onReader,
+  hasMaterials,
   onPlan,
   onDeckCreated,
   onStats,
@@ -138,6 +143,11 @@ export function Home({
         <button className="btn btn-ghost btn-small" onClick={onBrowser}>
           {t('navCards')}
         </button>
+        {SERVER_MODE && hasMaterials && (
+          <button className="btn btn-ghost btn-small" onClick={onReader}>
+            {t('navReader')}
+          </button>
+        )}
         {SERVER_MODE && (
           <button className="btn btn-ghost btn-small" onClick={onSources}>
             {t('navSources')}

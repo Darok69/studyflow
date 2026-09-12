@@ -1,3 +1,25 @@
+## Učebnice: podklady se čtou v appce, ale nežijí v sync snapshotu
+
+**Co:** Nová obrazovka „Učebnice" (`src/pages/Reader.tsx`) ukazuje slide,
+pod ním psaný výklad, glosář pojmů a na konci přednášky otázky. Data servíruje
+server z `/data/materials` (`server/src/materials-routes.js`), obrázky slidů
+jako běžné soubory za session cookie.
+
+**Proč ne do snapshotu:** slidů je 758 a jejich rendery váží 55 MB. Sync
+snapshot nese celý stav appky v jednom requestu se stropem 32 MB — materiál by
+ho roztrhl. Navíc je pro všechna zařízení stejný, takže nemá důvod cestovat
+s uživatelským stavem.
+
+**Proč ne do `sources`:** ta tabulka je pipeline na výrobu karet (nahrát →
+extrahovat → vygenerovat), ne čtečka; její obrazovka neumí zobrazit stranu.
+
+**Pozice ve čtení** je v `localStorage`, ne v datech: je to pohodlí jednoho
+zařízení, ne studijní stav, a nemá co dělat v FSRS ani v záloze.
+
+**Zamítnuto:** vykreslovat podklady jako pozastavené karty v prohlížeči karet —
+bez obrázků by to nebyla učebnice, a plnit kartami něco, co se nemá opakovat,
+je zneužití plánovače.
+
 # Rozhodnutí
 
 Nejnovější nahoře. Formát: co, proč, jaké alternativy zamítnuty.

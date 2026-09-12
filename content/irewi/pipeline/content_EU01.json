@@ -1,0 +1,166 @@
+{
+  "lecture_id": "EU01",
+  "title": "Introduction and Basics",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Section: introduction to the course", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "3": { "title": "Get to know: where you are from", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "4": { "title": "Get to know: exchange students", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "5": { "title": "Get to know: prior EU law", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "6": { "title": "Get to know: number of member states", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "7": {
+      "title": "Get to know: president of the European Council",
+      "text": "An icebreaker slide, but with one fact worth keeping: the President of the European Council is António Costa of Portugal, in office since December 2024. Do not confuse the three presidencies — European Council, Commission, and the rotating presidency of the Council of the EU.",
+      "terms": [],
+      "cards": [
+        { "q": "Who presides over the European Council, and how does that differ from the Council of the EU?", "a": "The European Council has a standing President — António Costa (PT) — elected for two and a half years. The Council of the EU has no such president: its configurations are chaired by the member state holding the six-month rotating presidency.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+    "8": { "title": "Get to know: IREWI students", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "9": { "title": "Divider", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "10": {
+      "title": "The whole course in one diagram",
+      "text": "This map reappears at the start of every lecture and it is worth learning as the skeleton of the EU half of the exam. Left column: the institutions under Article 13(1) TEU — European Council, Commission, Council of the EU, Parliament, Court of Justice with its five procedures (preliminary references, annulment, failure to act, infringement, others), other institutions and non-institutional actors. Second column: competences (exclusive, shared, complementary) and procedures (ordinary, special, trilogues). Third column: the sources, arranged down a 'Hierarchy' arrow — primary law (TEU, TFEU, Charter, protocols, general principles), secondary law (regulations, directives, decisions), tertiary law (delegated and implementing acts), soft law, and the role of member state law. Fourth: the unique features that make the EU supranational — primacy, enforcement (direct and decentralised, with procedural autonomy, effectiveness and equivalence), direct effect (its conditions, and the vertical/horizontal distinction), indirect effect, and state and tortious liability. Right: fundamental rights, and the basics of internal market and competition law.",
+      "terms": [
+        { "term": "supranationality", "def": "The features that make EU law unlike ordinary international law: primacy, direct effect, and enforcement through national courts." }
+      ],
+      "cards": [
+        { "q": "Name the five institutions of Article 13(1) TEU that this course covers, plus the Court's five procedures.", "a": "European Council, European Commission, Council of the EU, European Parliament, Court of Justice of the EU. The Court's procedures: preliminary references, annulment, failure to act, infringement, and others.", "difficulty": 2, "kind": "znaky", "priority": "core" },
+        { "q": "In what order does the hierarchy of EU legal sources run?", "a": "Primary law (TEU, TFEU, Charter, protocols, general principles) → secondary law (regulations, directives, decisions) → tertiary law (delegated and implementing acts) → soft law, with member state law below.", "difficulty": 2, "kind": "schema", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+    "11": {
+      "title": "What the class is for",
+      "text": "Two aims, stated by the lecturer herself: to introduce EU law and the corresponding basics of EU policy, and to prepare for the European law part of the StEOP exam. The second is the one that should shape how you read everything that follows.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+    "12": {
+      "title": "Learning objectives",
+      "text": "Four, and notice that two of them are about doing rather than knowing: understand the structure, roles and evolution of the core institutions, how EU law works and its unique features, and the key legislative and decision-making procedures; apply that knowledge through simulation and critical reflection; ANSWER PROBLEM QUESTIONS on EU law; and SOLVE CASES involving EU law. The last two are what the exam actually measures.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+    "13": { "title": "Organisational information", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "14": { "title": "Teaching methods", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "15": {
+      "title": "Hybrid organisation",
+      "text": "Classes are in person, live-streamed via Zoom without video — slides and audio only — and recorded and made available the same way. The slide notes that recordings are available with the October 2026 exam in view, which is the sitting you are preparing for. The lecturer also states plainly that in-person participation correlates with a higher success rate.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+    "16": {
+      "title": "The fourteen topics",
+      "text": "The course runs: 1 introduction and basics, 2 history, 3 EU institutions, 4 competences, 5 legislating, 6 sources of EU law, 7 hierarchy, 8 primacy, 9 direct effect, 10 enforcement, 11 state and tortious liability, 12 judicial proceedings, 13 fundamental rights, 14 introduction to internal market and competition law. Items 6 to 11 are the core of 'formal EU law' that the exam concentrates on.",
+      "terms": [],
+      "cards": [
+        { "q": "Which topics does the EU part of the exam concentrate on?", "a": "Formal EU law — sources, hierarchy, primacy, direct effect, enforcement, and state liability — with the basics of internal market and competition law only in so far as they interact with it.", "difficulty": 2, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+    "17": {
+      "title": "The exam, in the lecturer's own words",
+      "text": "Written, in English, 60 minutes split 30/30 between international and EU law. Maximum 60 points, 30 from each half. To pass you need 30 points overall AND at least 15 in each half — so a brilliant international law paper cannot rescue a weak EU one. Offered four times a year; registration and de-registration must be done in time, and any problems go to the SSC, not to the professors.",
+      "terms": [],
+      "cards": [
+        { "q": "What are the two separate thresholds you must clear to pass the StEOP exam?", "a": "At least 30 points out of 60 overall, AND at least 15 points in each half. Neither half can be compensated by the other.", "difficulty": 1, "kind": "cisla", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+    "18": {
+      "title": "What the EU half consists of",
+      "text": "Two components. First, problem questions mainly on formal EU law, but also on the basics of internal market and competition law in the way they interact with formal EU law. Second, ONE case exercise with open questions and less guidance, on formal EU law — and the sentence to take seriously: without solving at least part of the case you cannot pass. Hence the lecturer's own instruction: practice, practice, practice case exercises.",
+      "terms": [],
+      "cards": [
+        { "q": "What happens if you answer every problem question but do not attempt the case exercise?", "a": "You cannot pass. The lecturer states expressly that without solving at least part of the case exercise the exam is failed, however good the rest.", "difficulty": 1, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+    "19": {
+      "title": "A real problem question",
+      "text": "The example given is worth two points and has two parts. (a) How does the ordinary legislative procedure under Articles 289(1) and 294 TFEU differ from the special legislative procedure under Article 289(2) TFEU? — one point. (b) How are the legal acts adopted pursuant to a procedure under Article 289 TFEU called? — one point. Note the scale: one point per short, precise answer, so an exam answer here is two or three sentences with the article numbers, not an essay.",
+      "terms": [],
+      "cards": [
+        { "q": "How does the ordinary legislative procedure (Arts 289(1), 294 TFEU) differ from the special one (Art 289(2) TFEU)?", "a": "In the ordinary procedure Parliament and Council adopt the act jointly on a Commission proposal, as co-legislators of equal rank, following the Article 294 stages. In a special procedure one of them adopts the act with the mere participation — consultation or consent — of the other, as the specific legal basis provides.", "difficulty": 2, "kind": "rozliseni", "priority": "core" },
+        { "q": "What are acts adopted under a procedure of Article 289 TFEU called?", "a": "Legislative acts. The label depends on the procedure, not on the form: a regulation, directive or decision adopted under Article 289 is a legislative act.", "difficulty": 1, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+    "20": {
+      "title": "A real case exercise",
+      "text": "Ten points, and it is the classic direct-effect fact pattern. Leonidas is a laboratory research scientist employed by the Austrian Ministry of Agriculture. A fictitious Directive 2010/123 requires laboratory research scientists to be paid at least three times the normal hourly rate for weekend shifts, with an implementation deadline of 31 December 2012. The fictitious Research Scientists Act 2000 provides only twice the normal rate, and that is what Leonidas gets. Question (a), six points: does he have any cause of action against his employer under EU law, leaving aside any damages action against the Austrian state? Work through it in the order the course teaches: is the deadline passed; is the provision unconditional and sufficiently precise; is the defendant the state or a private party.",
+      "terms": [],
+      "cards": [
+        { "q": "Leonidas works for an Austrian ministry. An unimplemented directive requires triple pay for weekend shifts; the national act gives him double. Can he rely on the directive against his employer?", "a": "Yes, by vertical direct effect. The implementation deadline has passed; the provision is unconditional and sufficiently precise (a definite multiple of the hourly rate); and his employer is a ministry, i.e. the state — so the state cannot rely on its own failure to implement. A private employer could not be sued this way, since directives have no horizontal direct effect.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "What three questions do you ask, in order, when someone invokes a directive against a defendant?", "a": "Has the implementation deadline expired? Is the provision unconditional and sufficiently precise? And is the defendant the state or an emanation of the state (vertical) rather than a private party (horizontal, where direct effect is excluded)?", "difficulty": 3, "kind": "schema", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+    "21": {
+      "title": "What the lecture can and cannot do",
+      "text": "The lecturer's warning, repeated on the exam slides: the aim is not to list things but to get you thinking and, ideally, understanding. Everything cannot be covered, so you need to read; and the lecture format means you need to practise. Both sentences are really about the case exercise.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+    "22": { "title": "Section: literature", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "23": {
+      "title": "The recommended books",
+      "text": "Jaeger, Introduction to European Union Law; Davies, Understanding European Union Law; Tobler/Beglinger, Essential EU Law in Text; Chalmers/Davies/Monti, European Union Law; Craig/De Búrca, EU Law: Text, Cases, and Materials. And separately, for case practice: Kopetzki/Potocnik-Manzouri/Tillian/Wieser, Casebook Europarecht, 2nd edition 2023 — that is the one that trains the part of the exam you cannot fail.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+    "24": { "title": "Journals and blogs", "text": "For following current developments: the Common Market Law Review, European Law Journal, European Law Open, Europarecht and EuZW, and the blogs EU Law Live, European Law Blog, Blog Droit Européen and Verfassungsblog.", "terms": [], "cards": [], "vision_used": true },
+    "25": { "title": "Section: exercises", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "26": { "title": "The preparatory exercises", "text": "Four PUE courses in the winter semester, with places limited to 45-50 students each. The syllabus notes a measurable correlation between attending one and passing the exam.", "terms": [], "cards": [], "vision_used": false },
+    "27": { "title": "Hornkohl's own exercise", "text": "Hypothetical mock cases, online quizzes, discussion of EU law questions, a mock written exam and a final exam. Registered students are graded on participation plus a final exam (40 per cent) and two Moodle assignments (30 per cent each); listeners may attend and receive the mock and final exam uncorrected.", "terms": [], "cards": [], "vision_used": false },
+    "28": { "title": "Questions", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "29": { "title": "Divider", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "30": { "title": "Section: EU law basics", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "31": { "title": "The outline again", "text": "The same fourteen topics, repeated at the start of the substantive part.", "terms": [], "cards": [], "vision_used": false },
+    "32": { "title": "The course map again", "text": "The overview diagram from slide 10, repeated. It reappears throughout the course with the current topic highlighted.", "terms": [], "cards": [], "vision_used": false },
+    "33": { "title": "Speed dating exercise", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "34": { "title": "Section: what is the European Union?", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "35": {
+      "title": "Why the EU exists",
+      "text": "Three answers set side by side: the EU as a PEACE PROJECT, the importance of TRADE AND MARKET OPPORTUNITIES, and a SOCIAL UNION AND FUNDAMENTAL RIGHTS. They correspond to three historical layers — the post-war settlement, the common market, and the rights-and-values Union of the Maastricht era onwards — and they explain why the Treaties contain both market freedoms and a Charter of Fundamental Rights.",
+      "terms": [],
+      "cards": [
+        { "q": "Name the three rationales for European integration the course puts forward.", "a": "The EU as a peace project; the importance of trade and market opportunities; and a social union with fundamental rights. They map onto the successive historical layers of integration.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+    "36": {
+      "title": "Early obstacles",
+      "text": "Integration was not a smooth ascent. In 1954 the plans for a European Defence Community and a European Political Community failed. In 1960 EFTA was founded as a competing project. And in 1963 and again in 1967 France vetoed British membership of the EEC. Useful in an essay: the Union's competences grew where the political projects failed and the economic ones succeeded.",
+      "terms": [],
+      "cards": [
+        { "q": "Name three early setbacks to European integration.", "a": "The failure of the European Defence Community and European Political Community plans in 1954; the founding of EFTA as a competing project in 1960; and the French vetoes of British EEC membership in 1963 and 1967.", "difficulty": 1, "kind": "znaky", "priority": "extra" }
+      ],
+      "vision_used": false
+    },
+    "37": {
+      "title": "The milestones",
+      "text": "Four: the Single Market through the Single European Act; Economic and Monetary Union; Political Union through the Maastricht Treaty; and enlargement. Each added a layer — a market, a currency, a polity, and a membership — and each is the answer to a different exam question about why the EU looks as it does.",
+      "terms": [],
+      "cards": [
+        { "q": "Which four milestones does the course identify in the deepening of integration?", "a": "The Single Market via the Single European Act; Economic and Monetary Union; Political Union through the Maastricht Treaty; and enlargement.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+    "38": {
+      "title": "Enlargement, as a timeline and a map",
+      "text": "The timeline runs EC 6 in 1957 (Belgium, France, Germany, Italy, Luxembourg, Netherlands) → EC 9 in 1973 (Denmark, Ireland, United Kingdom) → EC 10 in 1981 (Greece) → EC 12 in 1986 (Portugal, Spain) → EU 15 in 1995 (Austria, Finland, Sweden) → EU 25 in 2004 (Cyprus, Czechia, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Slovakia, Slovenia) → EU 27 in 2007 (Bulgaria, Romania) → EU 28 in 2013 (Croatia) → EU 27 again in 2020, when the United Kingdom left. The map beside it marks current candidates — Ukraine, Moldova, Georgia, Serbia, Montenegro, Bosnia, Albania, North Macedonia, Kosovo — and Turkey as a candidate with no active accession talks.",
+      "terms": [],
+      "cards": [
+        { "q": "When did Austria and Czechia join, and what were the member counts before and after 2004?", "a": "Austria joined in 1995 in the enlargement to EU 15; Czechia in 2004 in the enlargement from 15 to 25. Later steps: 27 in 2007, 28 in 2013, back to 27 in 2020 with the UK's departure.", "difficulty": 1, "kind": "cisla", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+    "39": {
+      "title": "Recent doubts",
+      "text": "The counter-narrative, listed without comment: the failure of the EU constitutional treaty, the financial crisis, the migration crisis, Brexit, Covid, the Russian invasion of Ukraine, the rule of law crisis and the right-wing push. Each of these produced legal responses you will meet later — the Lisbon Treaty after the constitutional treaty failed, the rule-of-law conditionality mechanism, and Article 50 itself.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+    "40": { "title": "What the EU does for you", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "41": { "title": "Questions", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
+}

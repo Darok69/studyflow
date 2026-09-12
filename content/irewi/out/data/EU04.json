@@ -1,0 +1,957 @@
+{
+  "lecture_id": "EU04",
+  "course": "EU",
+  "course_title": "Introduction to European Union Law",
+  "course_number": "030337",
+  "unit": "Lecture 4",
+  "title": "Competences and Legislating",
+  "source_file": "raw/EU04_slides-introduction-4.pdf",
+  "source_sha256": "572b498292e7a62ee82deca8a690873fbc24003356ba66b55105b76398ec6028",
+  "source_pages": 45,
+  "slides_per_page": 1,
+  "slide_count": 45,
+  "updated_at": "2026-09-11T17:10:55+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/EU04/EU04_s001.webp",
+      "title": "Title slide",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 81,
+      "text_sha": "4c50a66546e0d889",
+      "pdf_page": 1
+    },
+    {
+      "n": 2,
+      "img": "img/EU04/EU04_s002.webp",
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 114,
+      "text_sha": "f7e5b115f24d792a",
+      "pdf_page": 2
+    },
+    {
+      "n": 3,
+      "img": "img/EU04/EU04_s003.webp",
+      "title": "Brainstorming: the 2024 elections",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 199,
+      "text_sha": "8e4edf78f9dcd09d",
+      "pdf_page": 3
+    },
+    {
+      "n": 4,
+      "img": "img/EU04/EU04_s004.webp",
+      "title": "The political groups after 2024",
+      "text": "A chart from the Parliament's own site showing the groups in the current term.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 271,
+      "text_sha": "1ada1e7b5b9b8e5f",
+      "pdf_page": 4
+    },
+    {
+      "n": 5,
+      "img": "img/EU04/EU04_s005.webp",
+      "title": "The outline",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 459,
+      "text_sha": "0adfe52bfe044b6f",
+      "pdf_page": 5
+    },
+    {
+      "n": 6,
+      "img": "img/EU04/EU04_s006.webp",
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 2814,
+      "text_sha": "0f9ed24a6dc32bee",
+      "pdf_page": 6
+    },
+    {
+      "n": 7,
+      "img": "img/EU04/EU04_s007.webp",
+      "title": "The sources, in one picture",
+      "text": "Two boxes. PRIMARY LAW: the TEU and TFEU, the protocols, the Charter of Fundamental Rights, and the general principles of law. SECONDARY LAW: regulation, directive, decision — the binding acts — and recommendation and opinion, which are not binding. Article 288 TFEU lists exactly these five, and the division between the first three and the last two is the one the exam tests.",
+      "terms": [
+        {
+          "term": "Art 288 TFEU",
+          "def": "Regulations, directives and decisions are binding; recommendations and opinions have no binding force."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Which acts does Article 288 TFEU list, and which of them bind?",
+          "a": "Regulations, directives and decisions — binding. Recommendations and opinions — not binding.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 306,
+      "text_sha": "831992b4c918d979",
+      "pdf_page": 7
+    },
+    {
+      "n": 8,
+      "img": "img/EU04/EU04_s008.webp",
+      "title": "The sources again",
+      "text": "The same diagram repeated.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 306,
+      "text_sha": "bf51830574837352",
+      "pdf_page": 8
+    },
+    {
+      "n": 9,
+      "img": "img/EU04/EU04_s009.webp",
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 2814,
+      "text_sha": "b5610100a2933a09",
+      "pdf_page": 9
+    },
+    {
+      "n": 10,
+      "img": "img/EU04/EU04_s010.webp",
+      "title": "Section: competences",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 11,
+      "text_sha": "9ed18f450a002350",
+      "pdf_page": 10
+    },
+    {
+      "n": 11,
+      "img": "img/EU04/EU04_s011.webp",
+      "title": "Two distributions of competence",
+      "text": "Keep them apart. VERTICAL distribution: between the Union and the member states — does the EU have power to act at all? HORIZONTAL distribution: among the EU institutions — which of them may act, and in what procedure? A case can fail on either, and the exam sometimes tests the second by asking whether the right legal basis and the right procedure were used.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What is the difference between the vertical and horizontal distribution of competences?",
+          "a": "Vertical: between the Union and the member states — whether the EU may act at all. Horizontal: among the EU institutions — which institution acts and under which procedure.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 266,
+      "text_sha": "1b22052b92839562",
+      "pdf_page": 11
+    },
+    {
+      "n": 12,
+      "img": "img/EU04/EU04_s012.webp",
+      "title": "Legality and conferral",
+      "text": "Two principles that amount to the same discipline: any binding measure taken by an EU institution must be based on a legal provision allowing it to take precisely that measure. Legality points at the institution, conferral at the Union as a whole. In practice this is why the first question in any EU law problem is: what is the legal basis?",
+      "terms": [
+        {
+          "term": "principle of legality",
+          "def": "Every binding EU measure must rest on a provision authorising precisely that measure."
+        }
+      ],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 339,
+      "text_sha": "e0af8ea3d47ae19b",
+      "pdf_page": 12
+    },
+    {
+      "n": 13,
+      "img": "img/EU04/EU04_s013.webp",
+      "title": "Conferral in the Treaty text",
+      "text": "Five provisions say the same thing from different angles. Article 1 TEU: the member states CONFER competences on the Union to attain objectives they have in common. Article 4(1) TEU: competences not conferred remain with the member states. Article 5(1): the limits of Union competences are governed by conferral. Article 5(2): the Union shall act only within the limits of the competences conferred. Article 13(2): institutions shall act within the limits of the powers conferred. The consequence to state in an exam: there is no general Union competence, and a silence in the Treaties means the member states keep the power.",
+      "terms": [
+        {
+          "term": "principle of conferral",
+          "def": "The Union has only the competences the member states conferred on it; the rest remain with them (Arts 4(1), 5(1)-(2) TEU)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "The Treaties say nothing about a field. Who may act, the Union or the member states?",
+          "a": "The member states. Under the principle of conferral, competences not conferred upon the Union in the Treaties remain with the member states (Art 4(1) TEU); there is no general Union competence.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 744,
+      "text_sha": "cded68cae5f1be19",
+      "pdf_page": 13
+    },
+    {
+      "n": 14,
+      "img": "img/EU04/EU04_s014.webp",
+      "title": "The common mistake: catalogue is not legal basis",
+      "text": "The slide is headed 'Common mistake!' for a reason, and it is worth more than one exam mark. The TYPE of competence comes from the catalogue in Articles 2 to 6 TFEU — exclusive (Arts 2(1), 3), shared (Arts 2(2), 4), coordinating/supporting/supplementing (Arts 2(3), 2(5), 5, 6), plus the CFSP (Art 2(4) TFEU, Arts 21 et seq. TEU). The LEGAL BASIS comes from the policy chapters of the TFEU. Article 2(6) TFEU says so expressly: the scope of and arrangements for exercising the Union's competences are determined by the provisions of the Treaties relating to each area. So you cannot legislate on Article 3 TFEU; you legislate on the article in the policy chapter, and the catalogue only tells you what kind of competence it is.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Can an EU act be based on Article 3 TFEU, which lists the exclusive competences?",
+          "a": "No. Articles 2-6 TFEU are a catalogue stating the TYPE of competence; the legal basis for an act comes from the relevant policy chapter of the TFEU (Art 2(6) TFEU). Confusing the two is the standard mistake.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 665,
+      "text_sha": "868285a258945db4",
+      "pdf_page": 14
+    },
+    {
+      "n": 15,
+      "img": "img/EU04/EU04_s015.webp",
+      "title": "Worked example: competition policy",
+      "text": "The two steps applied. Catalogue: competition rules necessary for the functioning of the internal market are an EXCLUSIVE Union competence under Article 3(1)(b) TFEU. Legal basis: the competition chapter supplies Article 103(1) TFEU, under which the appropriate regulations or directives giving effect to Articles 101 and 102 are laid down by the Council on a Commission proposal after consulting the Parliament. Note in passing that this is a special legislative procedure — consultation, not co-decision.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Show the two-step competence analysis on the example of EU competition law.",
+          "a": "Step 1, catalogue: competition rules for the internal market are an exclusive competence, Art 3(1)(b) TFEU. Step 2, legal basis: Art 103(1) TFEU in the competition chapter, under which the Council legislates on a Commission proposal after consulting Parliament.",
+          "difficulty": 3,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 664,
+      "text_sha": "138e273955301265",
+      "pdf_page": 15
+    },
+    {
+      "n": 16,
+      "img": "img/EU04/EU04_s016.webp",
+      "title": "Exclusive competence",
+      "text": "Article 2(1) TFEU: where the Treaties confer exclusive competence, ONLY THE UNION may legislate and adopt legally binding acts; member states may do so only if empowered by the Union or to implement Union acts. The areas under Article 3(1): the customs union; the competition rules necessary for the internal market; monetary policy for the euro area; conservation of marine biological resources under the common fisheries policy; and the common commercial policy.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "List the areas of exclusive Union competence.",
+          "a": "The customs union; competition rules necessary for the functioning of the internal market; monetary policy for the member states whose currency is the euro; conservation of marine biological resources under the common fisheries policy; and the common commercial policy.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "May a member state legislate in an area of exclusive Union competence?",
+          "a": "Only if empowered by the Union to do so, or in order to implement Union acts (Art 2(1) TFEU). Otherwise the competence is entirely the Union's.",
+          "difficulty": 2,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 719,
+      "text_sha": "1cb89842cb3517d5",
+      "pdf_page": 16
+    },
+    {
+      "n": 17,
+      "img": "img/EU04/EU04_s017.webp",
+      "title": "Exclusive external competence (Art 3(2) TFEU)",
+      "text": "Beyond the five listed areas, the Union has exclusive competence to conclude an international agreement in ANY field in three situations: where its conclusion is provided for in a legislative act of the Union; where it is necessary to enable the Union to exercise its internal competence; or in so far as its conclusion may affect common rules or alter their scope. The third limb is the codified ERTA doctrine: once the Union has legislated internally, member states lose the power to make treaties that would cut across those rules. See also Article 216 TFEU.",
+      "terms": [
+        {
+          "term": "ERTA doctrine",
+          "def": "Internal EU legislation generates exclusive external competence in so far as an international agreement could affect those common rules."
+        }
+      ],
+      "cards": [
+        {
+          "q": "When does the Union acquire exclusive competence to conclude an international agreement outside the Article 3(1) list?",
+          "a": "Where conclusion is provided for in a Union legislative act; where it is necessary to enable the Union to exercise its internal competence; or in so far as it may affect common rules or alter their scope (Art 3(2) TFEU).",
+          "difficulty": 3,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 505,
+      "text_sha": "0baebb82b035f956",
+      "pdf_page": 17
+    },
+    {
+      "n": 18,
+      "img": "img/EU04/EU04_s018.webp",
+      "title": "Shared competence and pre-emption",
+      "text": "Article 2(2) TFEU: both the Union and the member states may legislate, but the member states exercise their competence TO THE EXTENT THAT the Union has not exercised its own — and regain it to the extent the Union decides to cease exercising it. That is pre-emption: the Union occupying a field pushes the member states out of it. The areas under Article 4(2) include the internal market, social policy, cohesion, agriculture and fisheries, environment, consumer protection, transport, trans-European networks, energy, the area of freedom, security and justice, and common safety concerns in public health — with Article 4(1) working as a catch-all for everything not listed elsewhere. Note the exception: in research, technological development, space, development cooperation and humanitarian aid (Art 4(3) and (4)) there is NO pre-emption — Union action does not prevent member states from acting.",
+      "terms": [
+        {
+          "term": "pre-emption",
+          "def": "In shared competence, member states may act only in so far as the Union has not exercised its competence."
+        }
+      ],
+      "cards": [
+        {
+          "q": "The Union adopts a directive in an area of shared competence. What happens to the member states' power?",
+          "a": "They lose it to the extent the Union has exercised its competence — pre-emption under Art 2(2) TFEU — and regain it if the Union decides to cease exercising it.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        },
+        {
+          "q": "In which shared-competence areas does Union action NOT pre-empt the member states?",
+          "a": "Research, technological development and space, and development cooperation and humanitarian aid — Art 4(3) and (4) TFEU. There Union action does not prevent member states from exercising their own competence.",
+          "difficulty": 3,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 1487,
+      "text_sha": "625ecd3f0f5841d1",
+      "pdf_page": 18
+    },
+    {
+      "n": 19,
+      "img": "img/EU04/EU04_s019.webp",
+      "title": "Supporting, coordinating and supplementary competence",
+      "text": "Article 2(5) TFEU: the Union may carry out actions to support, coordinate or supplement member state action WITHOUT superseding their competence — and legally binding acts adopted on these bases SHALL NOT ENTAIL HARMONISATION of member states' laws. The areas under Article 6: human health, industry, culture, tourism, education/vocational training/youth/sport, civil protection and administrative cooperation. The no-harmonisation rule is the exam point: an act purporting to harmonise in one of these fields lacks a valid basis.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What is the decisive limit on Union acts in areas of supporting competence?",
+          "a": "They may not entail harmonisation of member states' laws or regulations (Art 2(5) TFEU), and they do not supersede member state competence. Areas: health, industry, culture, tourism, education and sport, civil protection, administrative cooperation.",
+          "difficulty": 2,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 966,
+      "text_sha": "8f89d3e192f185aa",
+      "pdf_page": 19
+    },
+    {
+      "n": 20,
+      "img": "img/EU04/EU04_s020.webp",
+      "title": "Implied powers",
+      "text": "Case 8/55, Fédération Charbonnière: could the High Authority — today the Commission — fix coal prices on the internal market although the ECSC Treaty did not expressly say so? The Court accepted the doctrine of implied powers: beyond competences explicitly conferred, the Union has those that follow from the factual context or the nature of the matter, especially where they are a necessary supplement to an expressly conferred competence. Note how this sits against conferral — implied powers stretch conferral without abandoning it, because the implied power must attach to an express one.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "How do implied powers coexist with the principle of conferral?",
+          "a": "An implied power must be a necessary supplement to an expressly conferred competence, following from the nature of the matter (Fédération Charbonnière, 8/55). It extends a conferred power; it does not create a free-standing one.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 667,
+      "text_sha": "b38b93167e79a7a0",
+      "pdf_page": 20
+    },
+    {
+      "n": 21,
+      "img": "img/EU04/EU04_s021.webp",
+      "title": "The flexibility clause, Article 352 TFEU",
+      "text": "Where action proves necessary within the framework of the Treaties' policies to attain a Treaty objective and the Treaties have not provided the necessary powers, the Council acting UNANIMOUSLY on a Commission proposal and after the CONSENT of the Parliament may adopt the appropriate measures. Three safeguards follow in the article: the Commission must draw national parliaments' attention to such proposals under the subsidiarity monitoring procedure; the article cannot be used to harmonise where the Treaties exclude harmonisation; and it cannot serve CFSP objectives.",
+      "terms": [
+        {
+          "term": "flexibility clause",
+          "def": "Art 352 TFEU: a residual legal basis where the Treaties provide no power, requiring unanimity in the Council and Parliament's consent."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What are the conditions and the limits of Article 352 TFEU?",
+          "a": "Conditions: action necessary within the framework of Treaty policies to attain a Treaty objective, no power provided elsewhere, Council unanimity on a Commission proposal, and Parliament's consent. Limits: no harmonisation where the Treaties exclude it, and no use for CFSP objectives.",
+          "difficulty": 3,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 1415,
+      "text_sha": "c82cfe28fd6cc41a",
+      "pdf_page": 21
+    },
+    {
+      "n": 22,
+      "img": "img/EU04/EU04_s022.webp",
+      "title": "Exercising competence: two further tests",
+      "text": "Having a competence is not enough; its exercise is controlled by two principles. PROPORTIONALITY, Article 5(4) TEU, applies to all Union action. SUBSIDIARITY, Article 5(3) TEU, applies ONLY where the competence is shared — the slide says so in red. That restriction is a favourite trap: there is no subsidiarity test for exclusive competences.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Does the subsidiarity principle apply to exclusive Union competences?",
+          "a": "No. Subsidiarity (Art 5(3) TEU) applies only where competence is shared. Proportionality (Art 5(4) TEU) applies to all Union action.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 196,
+      "text_sha": "3f22ceee0e755cd8",
+      "pdf_page": 22
+    },
+    {
+      "n": 23,
+      "img": "img/EU04/EU04_s023.webp",
+      "title": "The proportionality test",
+      "text": "Three questions in order. Is the measure SUITABLE for achieving an objective within the Union's competence? Is it NECESSARY — could the same result be reached in a way less intrusive on member state sovereignty? Is it APPROPRIATE — does it have an excessive impact? The Court applies the third stage with great restraint: the measure must be MANIFESTLY inappropriate, because the legislature has discretion. Authorities: C-331/88 Fedesa (The Queen v Minister of Agriculture) and C-58/08 Vodafone.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "State the three steps of the EU proportionality test and the standard of review at the last one.",
+          "a": "Suitability, necessity (least intrusive means), and appropriateness. At the third step the Court reviews only whether the measure is MANIFESTLY inappropriate, because the legislature enjoys discretion (Fedesa C-331/88, Vodafone C-58/08).",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 655,
+      "text_sha": "ec36822f4371f367",
+      "pdf_page": 23
+    },
+    {
+      "n": 24,
+      "img": "img/EU04/EU04_s024.webp",
+      "title": "The subsidiarity test and its policing",
+      "text": "Two conditions, both of which must be met. The NEGATIVE condition, necessity: the objectives of the proposed action cannot be sufficiently achieved by the member states, at central, regional or local level. The POSITIVE condition, Union added value: by reason of the scale or effects of the action, the objectives can be better achieved at Union level. Authorities: C-233/94 Germany v Parliament and Council, C-154/04 and 155/04 Alliance for Natural Health. Enforcement runs through Protocol 2, the early warning mechanism: national parliaments can issue a YELLOW CARD, obliging review, or an ORANGE CARD, with stronger consequences, and national parliaments and the Committee of the Regions have privileged standing to bring an annulment action for breach of subsidiarity.",
+      "terms": [
+        {
+          "term": "yellow card / orange card",
+          "def": "Thresholds of reasoned opinions from national parliaments obliging the Commission to review or, at the higher threshold, triggering a reinforced procedure."
+        }
+      ],
+      "cards": [
+        {
+          "q": "State the two conditions of the subsidiarity test.",
+          "a": "Negative condition: the objectives cannot be sufficiently achieved by the member states at any level. Positive condition: by reason of scale or effects they can be better achieved at Union level (Art 5(3) TEU).",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "How can national parliaments police subsidiarity?",
+          "a": "Through Protocol 2's early warning mechanism — yellow and orange cards against a proposal — and by the privileged standing of national parliaments and the Committee of the Regions to bring an annulment action for infringement of subsidiarity.",
+          "difficulty": 3,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 860,
+      "text_sha": "8aa8335d3831eac5",
+      "pdf_page": 24
+    },
+    {
+      "n": 25,
+      "img": "img/EU04/EU04_s025.webp",
+      "title": "Interim evaluation",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 134,
+      "text_sha": "40e39d933aad05ae",
+      "pdf_page": 25
+    },
+    {
+      "n": 26,
+      "img": "img/EU04/EU04_s026.webp",
+      "title": "Questions",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 133,
+      "text_sha": "838200543b10afd6",
+      "pdf_page": 26
+    },
+    {
+      "n": 27,
+      "img": "img/EU04/EU04_s027.webp",
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 114,
+      "text_sha": "c7797ab9ab7301ef",
+      "pdf_page": 27
+    },
+    {
+      "n": 28,
+      "img": "img/EU04/EU04_s028.webp",
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 114,
+      "text_sha": "051be6dc762626e5",
+      "pdf_page": 28
+    },
+    {
+      "n": 29,
+      "img": "img/EU04/EU04_s029.webp",
+      "title": "Section: legislation",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 11,
+      "text_sha": "f040781d8221f3ef",
+      "pdf_page": 29
+    },
+    {
+      "n": 30,
+      "img": "img/EU04/EU04_s030.webp",
+      "title": "The outline",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 459,
+      "text_sha": "460304e4e0836137",
+      "pdf_page": 30
+    },
+    {
+      "n": 31,
+      "img": "img/EU04/EU04_s031.webp",
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 2814,
+      "text_sha": "dd08a1e52ef81eb1",
+      "pdf_page": 31
+    },
+    {
+      "n": 32,
+      "img": "img/EU04/EU04_s032.webp",
+      "title": "Who legislates",
+      "text": "Three institutions: the Commission proposes, the Council of the EU and the European Parliament decide.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 259,
+      "text_sha": "18fcd73d39958336",
+      "pdf_page": 32
+    },
+    {
+      "n": 33,
+      "img": "img/EU04/EU04_s033.webp",
+      "title": "Video: how the EU passes laws",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 218,
+      "text_sha": "848212863677e363",
+      "pdf_page": 33
+    },
+    {
+      "n": 34,
+      "img": "img/EU04/EU04_s034.webp",
+      "title": "Two legislative procedures",
+      "text": "The ordinary legislative procedure and the special legislative procedure — and the slide's marginal note matters: NON-legislative acts follow different procedures again, see Article 289(3) TFEU. The ordinary procedure has been the usual one since the Treaty of Lisbon; which applies in a given case is determined by the legal basis, not by choice.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "How do you know which legislative procedure applies to a proposed EU act?",
+          "a": "From the legal basis: the Treaty article empowering the action prescribes the procedure. The ordinary procedure is the default since Lisbon, but the specific policy article decides.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 365,
+      "text_sha": "644d1cbd366838d6",
+      "pdf_page": 34
+    },
+    {
+      "n": 35,
+      "img": "img/EU04/EU04_s035.webp",
+      "title": "The ordinary legislative procedure: first reading",
+      "text": "The flowchart from the Parliament's own site. A Commission proposal goes to Parliament and Council. Then three routes. Parliament approves without amendments and the Council approves Parliament's position — ACT ADOPTED. Parliament adopts amendments and the Council adopts them too — ACT ADOPTED. Or Parliament amends, the Council does not accept, and the file moves on to the Council's first-reading position and the second reading. The important structural point: there is no hierarchy between the two co-legislators; either can stop the act.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What are the possible outcomes of the first reading in the ordinary legislative procedure?",
+          "a": "The act is adopted if Parliament approves the proposal and the Council approves Parliament's position — with or without amendments that both accept. Otherwise the Council adopts its own first-reading position and the file goes to second reading.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 240,
+      "text_sha": "64508142db03fdc8",
+      "pdf_page": 35
+    },
+    {
+      "n": 36,
+      "img": "img/EU04/EU04_s036.webp",
+      "title": "OLP: second reading",
+      "text": "The continuation of the same chart — Parliament has three months to approve, reject or amend the Council's position, and the Council then accepts or does not, in which case conciliation follows.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 240,
+      "text_sha": "f65bfea0058a1655",
+      "pdf_page": 36
+    },
+    {
+      "n": 37,
+      "img": "img/EU04/EU04_s037.webp",
+      "title": "OLP: conciliation and third reading",
+      "text": "The final stage: a Conciliation Committee of both co-legislators seeks a joint text, which both must then approve in a third reading; failure at any of these points kills the act.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 240,
+      "text_sha": "c4a794c87557d952",
+      "pdf_page": 37
+    },
+    {
+      "n": 38,
+      "img": "img/EU04/EU04_s038.webp",
+      "title": "Exercise: ask ChatGPT",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 228,
+      "text_sha": "f6b1343768d35d3c",
+      "pdf_page": 38
+    },
+    {
+      "n": 39,
+      "img": "img/EU04/EU04_s039.webp",
+      "title": "Exercise: the answer",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 135,
+      "text_sha": "11cce01ca4dbe267",
+      "pdf_page": 39
+    },
+    {
+      "n": 40,
+      "img": "img/EU04/EU04_s040.webp",
+      "title": "Which reading, in practice",
+      "text": "A bar chart of the stage at which OLP acts were actually adopted per legislative term, and the trend is dramatic: first-reading agreements rose from 28 per cent in 1999-2004 to 72 per cent in 2004-2009, 85 per cent in 2009-2014 and 89 per cent in 2014-2019, while third-reading adoptions fell from 22 per cent to 1 per cent. In other words, the formal three-reading procedure has almost disappeared in practice — and the reason is the subject of the next slide.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "At which reading are most OLP acts actually adopted today, and what does that reveal?",
+          "a": "At first reading — about 89 per cent in 2014-2019, against 28 per cent in 1999-2004, with third readings down to around 1 per cent. It reveals that the real negotiation happens informally in trilogues before the formal readings.",
+          "difficulty": 3,
+          "kind": "graf",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 230,
+      "text_sha": "7c7f1f39107f4674",
+      "pdf_page": 40
+    },
+    {
+      "n": 41,
+      "img": "img/EU04/EU04_s041.webp",
+      "title": "Informal trilogues",
+      "text": "Trilogues are informal negotiations between Parliament, Council and Commission that produce the agreement which the formal readings then rubber-stamp. They explain the previous slide's figures. The standard criticism is transparency: the decisive bargaining happens outside the procedure the Treaties set out, in a format the Treaties do not mention.",
+      "terms": [
+        {
+          "term": "trilogue",
+          "def": "Informal tripartite negotiation between Parliament, Council and Commission producing the text later adopted in the formal readings."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is a trilogue and what is the standard objection to it?",
+          "a": "An informal negotiation between Parliament, Council and Commission that settles the text before the formal readings. The objection is transparency: the decisive bargaining happens outside the Treaty procedure and largely out of public view.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 200,
+      "text_sha": "5a1a76009594b5a0",
+      "pdf_page": 41
+    },
+    {
+      "n": 42,
+      "img": "img/EU04/EU04_s042.webp",
+      "title": "Two special legislative procedures",
+      "text": "Consultation and consent — the two forms the special legislative procedure takes.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 211,
+      "text_sha": "764c158b0fbc2c8c",
+      "pdf_page": 42
+    },
+    {
+      "n": 43,
+      "img": "img/EU04/EU04_s043.webp",
+      "title": "The consent procedure",
+      "text": "Used for agreements with non-member states, the accession of new member states, and the multiannual financial framework regulation. Parliament must give its consent to the proposed measure but has NO RIGHT TO AMEND it — a veto without a pen. That is why consent is strong on the most constitutional questions and useless for fine-tuning.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What can Parliament do in the consent procedure, and what can it not do?",
+          "a": "It can give or refuse consent — an all-or-nothing veto — but it cannot amend the proposal. Used for international agreements, accession of new member states and the multiannual financial framework.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 451,
+      "text_sha": "181196e262e08c5c",
+      "pdf_page": 43
+    },
+    {
+      "n": 44,
+      "img": "img/EU04/EU04_s044.webp",
+      "title": "The consultation procedure",
+      "text": "Used in a limited set of policies — sensitive matters of police cooperation, emergency rules in asylum policy, tax policy, state aid, the system of own resources, employment policy guidelines. The Council, usually acting unanimously, adopts the act on a Commission proposal after consulting Parliament — and the crucial words: the Council MUST consult but is NOT BOUND by Parliament's position. Failing to consult at all, however, is a procedural defect that annuls the act. The slide notes the two faces of the procedure: in fiscal matters it preserves intergovernmental features, while in foreign and defence policy it represents a step towards involving a Parliament previously not heard at all.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "In the consultation procedure, what happens if the Council disagrees with Parliament — and what if it never asks?",
+          "a": "Disagreement is permitted: the Council must consult but is not bound by Parliament's opinion. Failing to consult at all is an infringement of an essential procedural requirement and makes the act annullable.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 874,
+      "text_sha": "6f90c25188610490",
+      "pdf_page": 44
+    },
+    {
+      "n": 45,
+      "img": "img/EU04/EU04_s045.webp",
+      "title": "Questions",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 133,
+      "text_sha": "0e1f0a27f010e2fa",
+      "pdf_page": 45
+    }
+  ]
+}

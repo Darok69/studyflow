@@ -1,0 +1,381 @@
+{
+  "lecture_id": "IL06",
+  "title": "States, Diplomatic Protection, Succession and Immunity",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": {
+      "title": "The five blocks of this lecture",
+      "text": "A long unit with five parts: state elements and diplomatic protection; state territory, state authority and recognition; state succession; selected cases of succession; and state immunity together with the other subjects of international law. Keep the blocks apart when revising — the exam question will sit inside one of them.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+
+    "3": {
+      "title": "The three-elements doctrine",
+      "text": "What makes a state is answered by the three-elements doctrine and by Article 1 of the Montevideo Convention of 1933: a permanent population, a defined territory, and a government. The Convention adds a fourth qualification, the capacity to enter into relations with other states, which the slide puts in square brackets because it is contested — it arguably describes a consequence of statehood rather than a condition of it.",
+      "terms": [
+        { "term": "Montevideo Convention (1933)", "def": "Art 1: a state should possess a permanent population, a defined territory, government, and capacity to enter into relations with other states." },
+        { "term": "three-elements doctrine", "def": "Staatsvolk, Staatsgebiet, Staatsgewalt — population, territory, government." }
+      ],
+      "cards": [
+        { "q": "What are the elements of statehood under Article 1 Montevideo Convention, and which one is disputed?", "a": "A permanent population, a defined territory and a government; the fourth listed qualification, capacity to enter into relations with other states, is disputed as being a consequence rather than a condition of statehood.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "4": {
+      "title": "The population element",
+      "text": "The permanent population is defined by the legal bond of nationality, and the slide describes that bond through its content: nationals have the right of residence and return and the right to take part in political decision-making, and they owe tax duties and military service. Rights and duties both — which is exactly the structure the Nottebohm case will use to test whether a nationality is real.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+
+    "5": {
+      "title": "How nationality is acquired and lost",
+      "text": "Two acquisition principles: ius sanguinis, nationality by descent, and ius soli, nationality by place of birth. Most states combine them. Beside them stand the problem of the genuine link — whether a nationality conferred without real attachment counts internationally — and the routes out: acquisition of a foreign nationality and expatriation.",
+      "terms": [
+        { "term": "ius sanguinis", "def": "Nationality acquired by descent." },
+        { "term": "ius soli", "def": "Nationality acquired by birth on the territory." }
+      ],
+      "cards": [
+        { "q": "Distinguish ius sanguinis from ius soli.", "a": "Ius sanguinis confers nationality by descent from a national; ius soli by birth on the state's territory. Most states use a combination.", "difficulty": 1, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "6": {
+      "title": "Nationality of companies",
+      "text": "For legal persons there is no birth or descent, so international practice uses four possible connecting factors: the law under which the entity was founded, its registration, its seat, and control over it. Which factor applies decides who may protect the company — and the Barcelona Traction case on slide 10 shows which two the ICJ chose.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+
+    "7": {
+      "title": "Diplomatic protection defined",
+      "text": "Diplomatic protection is a state protecting the rights and interests of its nationals — natural and legal persons, and its ships and aircraft — against another state. Article 1 of the ILC Draft Articles gives the precise form: the invocation by a state, through diplomatic action or other means of peaceful settlement, of the responsibility of another state for an injury caused by an internationally wrongful act to a natural or legal person who is its national, with a view to implementing that responsibility. Note whose right it is: the state's own, not the individual's.",
+      "terms": [
+        { "term": "diplomatic protection", "def": "A state's invocation, by diplomatic action or other peaceful means, of another state's responsibility for injury to its national." }
+      ],
+      "cards": [
+        { "q": "Whose right is exercised in diplomatic protection — the individual's or the state's?", "a": "The state's own right. It invokes the responsibility of the other state for an injury done to its national; the national has no entitlement to have the claim brought.", "difficulty": 2, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "8": {
+      "title": "The three conditions",
+      "text": "Before a state may exercise diplomatic protection, three requirements must be met, and each brings its own problem. Continuity of claims — the injured person must have held the protecting state's nationality throughout, which raises the problems of multiple nationality and of the nationality of companies. Exhaustion of local remedies. And espousal of the claim by the state. The Calvo clause, by which an investor promises never to seek its home state's protection, is the recurring difficulty under the third heading.",
+      "terms": [
+        { "term": "continuity of claims", "def": "The injured person must hold the protecting state's nationality from the date of injury to the date of the claim." },
+        { "term": "espousal", "def": "The state taking the individual's claim up as its own." }
+      ],
+      "cards": [
+        { "q": "Name the three conditions for the exercise of diplomatic protection.", "a": "Continuity of nationality of the claim, exhaustion of local remedies, and espousal of the claim by the state.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "9": {
+      "title": "Nottebohm and the genuine link",
+      "text": "The ICJ's formula: according to the practice of states, to arbitral and judicial decisions and to the opinions of writers, nationality is a legal bond having as its basis a SOCIAL FACT OF ATTACHMENT, a genuine connection of existence, interests and sentiments, together with the existence of reciprocal rights and duties. Nottebohm had acquired Liechtenstein nationality with almost no real ties to it, and Liechtenstein was therefore not permitted to protect him against Guatemala. The rule to take away: a state decides who its nationals are, but a nationality without genuine attachment need not be recognised by other states for the purposes of protection.",
+      "terms": [
+        { "term": "genuine link", "def": "The requirement of real attachment — existence, interests, sentiments and reciprocal rights and duties — between a state and its national (Nottebohm, ICJ 1955)." }
+      ],
+      "cards": [
+        { "q": "A state grants nationality to an investor who has never lived there and then claims on his behalf. What is the objection?", "a": "The genuine link requirement from Nottebohm: nationality must rest on a social fact of attachment — a genuine connection of existence, interests and sentiments with reciprocal rights and duties — before other states must accept it for purposes of diplomatic protection.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "10": {
+      "title": "Barcelona Traction: which state may protect a company",
+      "text": "The traditional rule attributes diplomatic protection of a corporate entity to the state under whose laws it is incorporated and in whose territory it has its registered office — two criteria, confirmed by long practice and numerous instruments. The consequence in that case was harsh and is the reason the case is famous: Belgium could not protect Belgian shareholders in a Canadian-incorporated company injured in Spain, because the company's nationality, not the shareholders', decided.",
+      "terms": [],
+      "cards": [
+        { "q": "Which state may exercise diplomatic protection for a company, and what follows for its shareholders?", "a": "The state of incorporation in whose territory the registered office lies (Barcelona Traction). Shareholders of another nationality generally cannot be protected by their own state, because the company's nationality governs.", "difficulty": 3, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "11": {
+      "title": "Exhaustion of local remedies: the rule",
+      "text": "The Interhandel case states it as well-established customary law: local remedies must be exhausted before international proceedings may be instituted, because the state where the violation occurred should have the opportunity to redress it by its own means, within its own legal system. The rationale is what makes the exceptions on the next slide intelligible — if that opportunity is illusory, the rule has no work to do.",
+      "terms": [
+        { "term": "local remedies rule", "def": "Customary rule requiring the injured individual to exhaust the remedies of the respondent state before an international claim may be brought." }
+      ],
+      "cards": [
+        { "q": "Why must local remedies be exhausted before an international claim?", "a": "So that the state where the violation occurred has the opportunity to redress it by its own means within its own legal system (Interhandel, ICJ 1959).", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "12": {
+      "title": "When local remedies need not be exhausted",
+      "text": "Article 15 of the Draft Articles lists five exceptions: (a) there are no reasonably available remedies providing effective redress, or no reasonable possibility of such redress; (b) there is undue delay attributable to the responsible state; (c) there was no relevant connection between the injured person and that state at the date of injury; (d) the injured person is manifestly precluded from pursuing local remedies; or (e) the responsible state has waived the requirement. In a case, walk through them in order rather than asserting futility in the abstract.",
+      "terms": [],
+      "cards": [
+        { "q": "Give three situations in which local remedies need not be exhausted.", "a": "No reasonably available remedy offering effective redress; undue delay attributable to the respondent state; no relevant connection between the injured person and that state at the date of injury; the person is manifestly precluded from pursuing remedies; or the state has waived the requirement (Art 15 Draft Articles).", "difficulty": 2, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "13": {
+      "title": "Espousal is discretionary",
+      "text": "Barcelona Traction again: the state must be viewed as the sole judge of whether its protection will be granted, to what extent and when it will cease; it retains a discretionary power whose exercise may be determined by political or other considerations unrelated to the case. For the individual this is the sting of the doctrine — you can be injured abroad, meet every condition, and still have no claim, because your state chose not to take it up.",
+      "terms": [],
+      "cards": [
+        { "q": "Can a national compel their state to exercise diplomatic protection?", "a": "No. Barcelona Traction: the state is the sole judge of whether, to what extent and for how long protection is granted, and may decide on political grounds unrelated to the case.", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "14": {
+      "title": "The Calvo doctrine",
+      "text": "A Latin American answer to diplomatic protection: foreign investors should be treated equally with nationals and should have recourse only to local courts. Contracts accordingly contained Calvo clauses in which the investor waived the right to seek diplomatic protection. The question mark on the slide is the doctrinal point — since the right of protection belongs to the STATE and not to the investor, an investor cannot validly waive what is not theirs to give up.",
+      "terms": [
+        { "term": "Calvo clause", "def": "A contractual undertaking by a foreign investor not to seek the diplomatic protection of its home state." }
+      ],
+      "cards": [
+        { "q": "Can an investor validly waive diplomatic protection through a Calvo clause?", "a": "Not as against its home state: the right of diplomatic protection belongs to the state, not to the investor, so the investor cannot waive it. The clause may still bind the investor contractually.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "15": {
+      "title": "The territory element",
+      "text": "State territory covers the land surface, the territorial sea and internal waters, and the airspace above them. Two further items on the slide: the problem of demarcation, and the uti possidetis principle, under which a new state inherits the administrative boundaries that existed before independence — the rule that kept colonial borders in place across Africa and Latin America and then applied again to the former Yugoslavia.",
+      "terms": [
+        { "term": "uti possidetis (iuris)", "def": "A new state takes the boundaries of the administrative units existing at the moment of independence." }
+      ],
+      "cards": [
+        { "q": "What does the uti possidetis principle do, and why was it adopted?", "a": "It converts the pre-existing administrative boundaries into the international frontiers of a newly independent state — adopted to prevent the boundary wars that redrawing lines from scratch would cause.", "difficulty": 2, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "16": {
+      "title": "State authority and its limits",
+      "text": "The third element is the power to regulate, and international law limits it by requiring sufficient proximity between the regulating state and the matter regulated. Where several states each have a claim to regulate, the conflict rules step in: private international law, international criminal law, and international administrative law. The next slide gives the criminal-law list, which is the one exams use.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+
+    "17": {
+      "title": "The bases of criminal jurisdiction",
+      "text": "Six or seven heads, and the exam technique is to run through them in order. Territoriality — the offence was committed here. Personality, active where the offender is a national and passive where the victim is. The effects doctrine, where conduct abroad produces effects here. The protective principle, for offences against the state's own vital interests such as currency or security. Universality, for crimes against the international community, where no link at all is needed. And vicarious or representative administration of criminal justice, where a state prosecutes on behalf of another that cannot.",
+      "terms": [
+        { "term": "active vs passive personality", "def": "Active: jurisdiction because the offender is a national. Passive: because the victim is." },
+        { "term": "universality principle", "def": "Jurisdiction over certain grave crimes regardless of any link to the prosecuting state." },
+        { "term": "effects doctrine", "def": "Jurisdiction over conduct abroad producing substantial effects on the regulating state's territory." }
+      ],
+      "cards": [
+        { "q": "A national of state A commits a crime in state B against a national of state C. Which states may claim jurisdiction and on what basis?", "a": "B by territoriality; A by active personality; C by passive personality. Depending on the offence, a further state may claim under the protective principle or, for grave international crimes, universality.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "Name the bases of criminal jurisdiction in international law.", "a": "Territoriality, active and passive personality, the effects doctrine, the protective principle, universality, and vicarious/representative administration of criminal justice.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "18": {
+      "title": "Recognition of states",
+      "text": "The slide takes a position in the old debate: recognition is only DECLARATORY, not constitutive — an entity is a state because it meets the three elements, not because others say so. Recognition may be express, by formal letter or diplomatic note, or implied, by establishing diplomatic relations or concluding a bilateral treaty. And two things are expressly NOT implied recognition: admitting the entity to an international organization, since admission can be decided by majority against the will of some members, and ratifying a multilateral treaty to which it is also party.",
+      "terms": [
+        { "term": "declaratory theory", "def": "Recognition merely acknowledges an existing statehood; it does not create it." },
+        { "term": "constitutive theory", "def": "The rival view that an entity becomes a state only through recognition by others." }
+      ],
+      "cards": [
+        { "q": "State A votes to admit entity X to the United Nations. Has A recognised X as a state?", "a": "No. Admission to an international organization is not implied recognition — admission can be decided by majority, so it cannot be read as each member's individual act of recognition. Nor is ratification of a multilateral treaty.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "Is recognition declaratory or constitutive, and what follows?", "a": "Declaratory: an entity is a state if it has a permanent population, a defined territory and a government. Recognition acknowledges that; it does not create statehood.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "19": {
+      "title": "What an act of recognition looks like",
+      "text": "The Austrian letter of 25 April 1996 recognising the Federal Republic of Yugoslavia, within its existing borders, as a successor state to the former Socialist Federal Republic of Yugoslavia and an independent and sovereign member of the community of states. Notice how much is packed into one sentence: the entity, its borders, its status as successor, and its sovereignty — recognition is a legal act with a defined content, not a gesture.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+
+    "20": {
+      "title": "The four forms of state succession",
+      "text": "Dismembratio, where a state breaks up and ceases to exist — Czechoslovakia and the SFRY. Secession or separation, where a part breaks away and the predecessor survives. Merger or fusion of two states into one. And annexation or incorporation, where one state absorbs another. Identify the form first in any succession problem; the answers about treaties, property and debts follow from it.",
+      "terms": [
+        { "term": "dismembratio", "def": "A state dissolves into several new states and ceases to exist." },
+        { "term": "secession", "def": "Part of a state breaks away while the predecessor state continues to exist." }
+      ],
+      "cards": [
+        { "q": "Distinguish dismembratio from secession.", "a": "In dismembratio the predecessor state ceases to exist and several successors replace it (Czechoslovakia, SFRY). In secession the predecessor continues to exist and only a part breaks away.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "21": {
+      "title": "The law of succession",
+      "text": "Two Vienna Conventions and customary law: the 1978 Convention on Succession of States in respect of Treaties, the 1983 Convention on Succession in respect of State Property, Archives and Debts, and custom. Both conventions have few parties, so in practice the customary position does most of the work — which is why the competing basic positions on the next slide matter.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+
+    "22": {
+      "title": "Three theories, and the distinctions that survive them",
+      "text": "The basic positions are automatic legal succession, in which the successor takes over everything; clean slate or tabula rasa, in which it starts free of the predecessor's treaties; and pick and choose, in which it selects. The practical law is less doctrinal than this: what really decides is the type of treaty. Localized or territorial treaties — boundaries, rights of passage, river regimes — run with the land and pass to the successor. Highly personal or political treaties, such as alliances, do not.",
+      "terms": [
+        { "term": "tabula rasa", "def": "The clean-slate rule: a new state is not bound by its predecessor's treaties." },
+        { "term": "localized (territorial) treaty", "def": "A treaty attaching to territory — boundaries, transit, river regimes — which passes to the successor state." }
+      ],
+      "cards": [
+        { "q": "A new state emerges. Which of its predecessor's treaties does it inherit?", "a": "Localized or territorial treaties — boundaries, rights of passage, river regimes — run with the land and pass to it. Highly personal or political treaties such as alliances do not. The competing theories are automatic succession, clean slate and pick and choose.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "23": {
+      "title": "State immunity: the two maxims",
+      "text": "Immunity rests on two Latin phrases. Par in parem non habet imperium — an equal has no authority over an equal, met already in the first lecture as the root of sovereign equality. And ne impediatur legatio — the conduct of diplomatic relations must not be impeded, which is the functional rationale for diplomatic immunities.",
+      "terms": [
+        { "term": "ne impediatur legatio", "def": "The functional rationale of diplomatic immunity: the mission's work must not be obstructed." }
+      ],
+      "cards": [], "vision_used": false
+    },
+
+    "24": {
+      "title": "Where immunity law is found",
+      "text": "Three layers. Treaties: the European Convention on State Immunity of 1972 and the UN Convention on Jurisdictional Immunities of States and Their Property of 2004. Customary international law, which still governs for non-parties. And national immunity statutes, of which the American FSIA and the British SIA are the models — an unusual field in which domestic legislation drives the international rule.",
+      "terms": [
+        { "term": "FSIA / SIA", "def": "US Foreign Sovereign Immunities Act 1976 and UK State Immunity Act 1978 — the leading national codifications." }
+      ],
+      "cards": [], "vision_used": false
+    },
+
+    "25": {
+      "title": "The structure of immunity",
+      "text": "Two questions, always asked separately. Immunity from JURISDICTION turns on the nature of the act: sovereign acts, acta iure imperii, are immune; private or commercial acts, acta iure gestionis, are not; and tortious action is treated separately again. Immunity from ENFORCEMENT turns on something else entirely — the intended purpose of the assets. A state can therefore lose the case and still keep its property out of reach, which is the point most often missed.",
+      "terms": [
+        { "term": "acta iure imperii", "def": "Sovereign acts, for which a state enjoys immunity from jurisdiction." },
+        { "term": "acta iure gestionis", "def": "Commercial or private-law acts, for which the restrictive doctrine denies immunity." }
+      ],
+      "cards": [
+        { "q": "A claimant wins a judgment against a foreign state over a commercial contract and seeks to seize its embassy account. Will immunity bar enforcement?", "a": "Very likely yes. Immunity from enforcement is a separate question from immunity from jurisdiction and turns on the intended purpose of the assets; property serving sovereign purposes, such as embassy accounts, cannot be executed against without consent.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "On what criterion does immunity from jurisdiction turn, and on what criterion immunity from enforcement?", "a": "Jurisdiction: the nature of the act — iure imperii (immune) or iure gestionis (not). Enforcement: the intended purpose of the assets in question.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "26": {
+      "title": "Dralle: the turn to restrictive immunity",
+      "text": "Hoffmann v. Dralle, decided by the Austrian Supreme Court in 1950, is the landmark of the change from absolute to restrictive immunity: the Court concluded that it could no longer be said that recognized international law excludes acta gestionis from domestic jurisdiction. Austria thus joined the movement that made the imperii/gestionis distinction the general rule.",
+      "terms": [
+        { "term": "restrictive immunity", "def": "The doctrine granting immunity only for sovereign acts, not for commercial ones — established for Austria in Dralle (OGH 1950)." }
+      ],
+      "cards": [
+        { "q": "What did Hoffmann v. Dralle (OGH 1950) decide?", "a": "That acta iure gestionis are no longer excluded from domestic jurisdiction under recognized international law — the Austrian move from absolute to restrictive state immunity.", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "27": {
+      "title": "Commercial transactions: Article 10 UN Convention",
+      "text": "The codified version of the Dralle rule: if a state engages in a commercial transaction with a foreign natural or juridical person and, under the applicable rules of private international law, disputes fall within the jurisdiction of another state's court, the state cannot invoke immunity in a proceeding arising out of that transaction. Two conditions are embedded: a commercial transaction, and jurisdiction that exists under the ordinary conflict rules.",
+      "terms": [],
+      "cards": [
+        { "q": "Under Article 10 of the 2004 UN Convention, when does a state lose immunity for a commercial transaction?", "a": "When it engages in a commercial transaction with a foreign natural or juridical person and, under the applicable private international law rules, disputes about it fall within another state's courts — then it cannot invoke immunity in proceedings arising out of that transaction.", "difficulty": 2, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "28": {
+      "title": "The territorial tort exception (Article 12)",
+      "text": "A state cannot invoke immunity in proceedings for pecuniary compensation for death or personal injury, or damage to or loss of tangible property, caused by an act or omission attributable to it, IF the act or omission occurred wholly or partly in the territory of the forum state AND the author was present in that territory at the time. Both conditions are territorial — which is precisely what makes the wartime cases on the next two slides so hard.",
+      "terms": [
+        { "term": "territorial tort exception", "def": "Art 12 UN Convention: no immunity for death, injury or property damage caused by an act or omission in the forum state, where the author was present there." }
+      ],
+      "cards": [
+        { "q": "What are the two territorial conditions of the tort exception under Article 12 UN Convention?", "a": "The act or omission must have occurred wholly or partly in the territory of the forum state, and its author must have been present in that territory at the time.", "difficulty": 2, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "29": {
+      "title": "Distomo in Greece: immunity denied",
+      "text": "The Greek Supreme Court held that the tort exception applied even to claims arising out of military operations, where the acts breached a peremptory rule of international law. The reasoning is attractive — a jus cogens violation cannot be a protected sovereign act — and it is the argument to know. It is also the argument that lost: read the next slide, and note that the ICJ later took the same view as Germany in Jurisdictional Immunities of the State (2012).",
+      "terms": [],
+      "cards": [], "vision_used": false
+    },
+
+    "30": {
+      "title": "Distomo in Germany: immunity upheld",
+      "text": "The German Federal Constitutional Court reached the opposite result on the same facts. Under current international law a state may claim exemption from another state's jurisdiction so far as the assessment of its sovereign conduct — acta iure imperii — is concerned; and since the SS unit involved at Distomo was integrated into the armed forces of the German Reich, the attacks are to be classified as sovereign acts REGARDLESS of whether they violated international law. That last clause is the holding: the unlawfulness of an act does not remove its sovereign character, and therefore does not remove immunity.",
+      "terms": [],
+      "cards": [
+        { "q": "Does a serious violation of international law deprive a state of immunity for that act?", "a": "On the prevailing view, no. The German Constitutional Court in the Distomo case held that acts of armed forces remain acta iure imperii regardless of their unlawfulness; the Greek Areios Pagos had held the opposite, and the ICJ later sided with Germany.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "31": {
+      "title": "Immunity from enforcement: the Philippine Embassy case",
+      "text": "The general rule as formulated by the German Constitutional Court: forced execution by the forum state against a foreign state's property situated in the forum, under a writ issued in respect of acta iure gestionis, is inadmissible without that state's consent IF at the time the measure of execution begins the property serves sovereign purposes. Note the timing — the question is what the assets serve when execution is attempted, not what they served when the debt arose.",
+      "terms": [],
+      "cards": [
+        { "q": "At what moment is the purpose of assets assessed for immunity from enforcement?", "a": "At the time the measure of execution is initiated. If the property then serves sovereign purposes, execution is inadmissible without the foreign state's consent — even for a judgment about acta iure gestionis.", "difficulty": 3, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "32": {
+      "title": "State-like subjects",
+      "text": "Entities that are not states but stand close to them: groups of states and state unions, constituent member states of federations, protectorates, mandate and trust territories, and territories under international administration. Each has some capacity in international law without meeting the three elements in its own right.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+
+    "33": {
+      "title": "The other subjects, listed",
+      "text": "Five entities the lecture treats one by one: the Holy See, the Sovereign Military Order of Malta, the International Committee of the Red Cross, NGOs and transnational corporations. Recall the answer from the first lecture — the first three have a personality of their own, NGOs have none, and corporations only partial and derived.",
+      "terms": [], "cards": [], "vision_used": false
+    },
+
+    "34": {
+      "title": "The Holy See",
+      "text": "The supreme organ of the Catholic Church and the episcopal see of the Diocese of Rome; it has personality under international law, maintains diplomatic relations with many states, concludes concordats, and is a member or observer in several international organizations. It represents both the Church and the Vatican City State internationally. Note the structure — the Holy See is the subject; the Vatican City State is the territory.",
+      "terms": [
+        { "term": "concordat", "def": "A treaty between the Holy See and a state regulating the position of the Catholic Church there." }
+      ],
+      "cards": [
+        { "q": "What is the difference between the Holy See and the Vatican City State?", "a": "The Holy See is the subject of international law — it has personality, sends and receives diplomats and concludes concordats. The Vatican City State is the territory it represents.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "35": {
+      "title": "The Sovereign Military Order of Malta",
+      "text": "A subject with personality, diplomatic relations with many states and treaties with states — but no territory at all today. Historically an order of knights that held territory in the Mediterranean and had military significance between the eleventh and fourteenth centuries; today its activity is humanitarian aid. It is the standing proof that territory is a condition of statehood, not of international personality.",
+      "terms": [],
+      "cards": [
+        { "q": "How can the Order of Malta have international legal personality without any territory?", "a": "Because territory is an element of statehood, not of personality. The Order's personality rests on historical continuity and on the practice of states that maintain diplomatic relations and conclude treaties with it.", "difficulty": 3, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "36": {
+      "title": "The ICRC",
+      "text": "Founded in 1863 by Henry Dunant — the Solferino connection from the first lecture — and constituted as an association under Swiss law, followed by national Red Cross societies. Its monitoring functions in armed conflict under the 1949 Geneva Conventions and the 1977 Additional Protocols give it a LIMITED personality under international law: a private Swiss association that states have entrusted with functions under treaties. Other actors in the movement are the Federation of national societies and the International Red Cross Conference.",
+      "terms": [],
+      "cards": [
+        { "q": "Where does the ICRC's international legal personality come from?", "a": "From the functions states conferred on it by treaty — monitoring under the 1949 Geneva Conventions and the 1977 Additional Protocols — not from its form, which is an association under Swiss law. Hence its personality is limited.", "difficulty": 2, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "37": {
+      "title": "NGOs",
+      "text": "Organized civil society. Article 71 of the UN Charter allows the Economic and Social Council to make arrangements for consultation with non-governmental organizations, and Resolution 288 B (X) of 1950 supplies the definition by exclusion: any international organization which is NOT established by international agreement is a non-governmental organization for those purposes. So the dividing line between an IGO and an NGO is the founding instrument, not the size or the field of work.",
+      "terms": [],
+      "cards": [
+        { "q": "What formally distinguishes an intergovernmental organization from an NGO?", "a": "The founding instrument: an IGO is established by international agreement between states; any international organization not so established is an NGO (UN GA Res 288 B (X), 1950).", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "38": {
+      "title": "Transnational corporations",
+      "text": "The 1988 UN Code of Conduct definition: an enterprise comprising entities in two or more countries, whatever their legal form and field of activity, operating under a system of decision-making that permits coherent policies and a common strategy through one or more decision-making centres, the entities being so linked by ownership or otherwise that one or more may exercise significant influence over the others and share knowledge, resources and responsibilities. The definition looks to CONTROL, not to corporate form — which is why the nationality of companies on slide 6 is such a difficult question.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    }
+  }
+}

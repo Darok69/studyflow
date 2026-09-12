@@ -1,0 +1,643 @@
+{
+  "lecture_id": "EU06",
+  "course": "EU",
+  "course_title": "Introduction to European Union Law",
+  "course_number": "030337",
+  "unit": "Lecture 6",
+  "title": "Primacy of EU Law",
+  "source_file": "raw/EU06_slides-introduction-6-forupload.pdf",
+  "source_sha256": "304fcc5601e8a8b787a938dc073311b8c577047fedd719562a579d863f613877",
+  "source_pages": 31,
+  "slides_per_page": 1,
+  "slide_count": 31,
+  "updated_at": "2026-09-11T17:10:56+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/EU06/EU06_s001.webp",
+      "title": "Title slide",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 81,
+      "text_sha": "4c50a66546e0d889",
+      "pdf_page": 1
+    },
+    {
+      "n": 2,
+      "img": "img/EU06/EU06_s002.webp",
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 114,
+      "text_sha": "f7e5b115f24d792a",
+      "pdf_page": 2
+    },
+    {
+      "n": 3,
+      "img": "img/EU06/EU06_s003.webp",
+      "title": "Section: primacy of EU law",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 17,
+      "text_sha": "b5340d798207d824",
+      "pdf_page": 3
+    },
+    {
+      "n": 4,
+      "img": "img/EU06/EU06_s004.webp",
+      "title": "The outline",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 459,
+      "text_sha": "9ee7c611abb6513f",
+      "pdf_page": 4
+    },
+    {
+      "n": 5,
+      "img": "img/EU06/EU06_s005.webp",
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 2860,
+      "text_sha": "939ec6f11c99a340",
+      "pdf_page": 5
+    },
+    {
+      "n": 6,
+      "img": "img/EU06/EU06_s006.webp",
+      "title": "The hierarchy",
+      "text": "The hierarchy diagram from the previous lecture, now with the bottom relationship — EU law against member state law — as the subject.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 241,
+      "text_sha": "e7320eb4642bcc18",
+      "pdf_page": 6
+    },
+    {
+      "n": 7,
+      "img": "img/EU06/EU06_s007.webp",
+      "title": "Competence, primacy, integration-proof core",
+      "text": "The three concepts again, as the frame for this lecture.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 185,
+      "text_sha": "c0156fe80cc19f4b",
+      "pdf_page": 7
+    },
+    {
+      "n": 8,
+      "img": "img/EU06/EU06_s008.webp",
+      "title": "Why is EU law special?",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 138,
+      "text_sha": "ce139cc1e470387b",
+      "pdf_page": 8
+    },
+    {
+      "n": 9,
+      "img": "img/EU06/EU06_s009.webp",
+      "title": "Van Gend en Loos: the facts",
+      "text": "Case 26/62. Van Gend & Loos, a transport company, argued that Dutch customs duties on a product imported from West Germany breached the standstill clause in Article 12 of the Treaty of Rome, which forbade member states to introduce new customs duties or raise existing ones. The product had carried a 3 per cent duty when the Treaty entered into force and was later reclassified so that it bore 8 per cent. The question referred: can individuals claim rights directly under EU law and enforce them before national courts?",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 792,
+      "text_sha": "de4eeea5a18de23d",
+      "pdf_page": 9
+    },
+    {
+      "n": 10,
+      "img": "img/EU06/EU06_s010.webp",
+      "title": "Van Gend en Loos: the holding",
+      "text": "Two steps, and both are quotable. First, the objective of establishing an internal market whose functioning directly concerns interested parties implies that the Treaty is MORE THAN AN AGREEMENT creating mutual obligations between contracting states. Second, the Union constitutes a NEW LEGAL ORDER of international law, for the benefit of which the states have limited their sovereign rights, albeit within limited fields, and whose subjects comprise not only member states but also their nationals; Union law therefore not only imposes obligations on individuals but is intended to confer rights that become part of their legal heritage. That is the birth of direct effect — and the premise on which primacy is built.",
+      "terms": [
+        {
+          "term": "new legal order",
+          "def": "Van Gend en Loos: the Union is a legal order for whose benefit states limited their sovereign rights, and whose subjects include individuals."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What did Van Gend en Loos decide, and on what reasoning?",
+          "a": "That individuals can derive rights from EU law enforceable in national courts. Reasoning: the Treaty is more than an agreement between states — the Union is a new legal order for whose benefit states limited their sovereign rights, whose subjects include their nationals, so Union law confers rights that become part of the individuals' legal heritage.",
+          "difficulty": 2,
+          "kind": "judikat",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 955,
+      "text_sha": "68dba480e866642e",
+      "pdf_page": 10
+    },
+    {
+      "n": 11,
+      "img": "img/EU06/EU06_s011.webp",
+      "title": "Eight features that make EU law special",
+      "text": "The full list, and it doubles as a revision checklist for the whole course. The UNION METHOD: Commission monopoly of initiative, qualified majority in the Council, Parliament as co-legislator, full judicial control. AUTONOMY: a legal order sui generis with its own terminology and methodology. PRIMACY. DIRECT APPLICABILITY: EU law generally applies in the member states without further consent. DIRECT EFFECT: justiciable EU law confers rights and obligations enforceable in national courts. DECENTRALISED ENFORCEMENT: by the member states, under procedural autonomy limited by effectiveness and equivalence. STATE LIABILITY: protection against violations by the institutions (Art 340 TFEU) and by member states. And FUNDAMENTAL RIGHTS protection against both.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Name the features that distinguish EU law from ordinary international law.",
+          "a": "The Union method; autonomy as a sui generis order; primacy; direct applicability; direct effect; decentralised enforcement under procedural autonomy limited by effectiveness and equivalence; state liability; and fundamental rights protection.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 1015,
+      "text_sha": "aa6a1dd41c9799fa",
+      "pdf_page": 11
+    },
+    {
+      "n": 12,
+      "img": "img/EU06/EU06_s012.webp",
+      "title": "The three concepts",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 176,
+      "text_sha": "81b19e02113c8f6f",
+      "pdf_page": 12
+    },
+    {
+      "n": 13,
+      "img": "img/EU06/EU06_s013.webp",
+      "title": "Primacy defined",
+      "text": "Precedence of ANY EU law over ANY conflicting national law. Both 'any' are deliberate and both are contested — the first covers tertiary acts, the second covers national constitutions.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 186,
+      "text_sha": "1aa835f5052920c2",
+      "pdf_page": 13
+    },
+    {
+      "n": 14,
+      "img": "img/EU06/EU06_s014.webp",
+      "title": "Where does primacy come from?",
+      "text": "The awkward fact: THERE IS NO EXPRESS TREATY PROVISION establishing primacy. The Constitutional Treaty would have written it in; after its failure the Lisbon Treaty relegated it to Declaration 17, which merely recalls the case law. Primacy is therefore entirely judge-made — which is exactly why national constitutional courts feel free to argue about its limits.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Which Treaty article establishes the primacy of EU law?",
+          "a": "None. Primacy has no express Treaty basis; it was developed by the Court of Justice in Costa v ENEL and is only recalled in Declaration 17 annexed to the Lisbon Treaty.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 264,
+      "text_sha": "acea54524f5a6d0c",
+      "pdf_page": 14
+    },
+    {
+      "n": 15,
+      "img": "img/EU06/EU06_s015.webp",
+      "title": "Video on primacy",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 209,
+      "text_sha": "177aa7159b665f2f",
+      "pdf_page": 15
+    },
+    {
+      "n": 16,
+      "img": "img/EU06/EU06_s016.webp",
+      "title": "Van Gend en Loos, quoted again",
+      "text": "The same two passages, now as the foundation of the primacy argument rather than of direct effect.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 967,
+      "text_sha": "c57cc148a44f1c4e",
+      "pdf_page": 16
+    },
+    {
+      "n": 17,
+      "img": "img/EU06/EU06_s017.webp",
+      "title": "Costa v ENEL: the contractarian argument",
+      "text": "Case 6/64, first line of reasoning. By contrast with ordinary international treaties, the EEC Treaty created its OWN LEGAL SYSTEM which on entry into force became an integral part of the member states' legal systems and which their courts are bound to apply. By creating a Union of unlimited duration with its own institutions, personality, legal capacity and international representation, and more particularly REAL POWERS stemming from a limitation of sovereignty or a transfer of powers, the member states have limited their sovereign rights and created a body of law binding both their nationals and themselves. The argument is from consent: they agreed to this.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Summarise the contractarian argument for primacy in Costa v ENEL.",
+          "a": "By creating a Union of unlimited duration with its own institutions and real powers stemming from a limitation of their sovereignty, the member states themselves created a legal system that binds both their nationals and themselves — so they cannot afterwards escape it.",
+          "difficulty": 3,
+          "kind": "judikat",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 991,
+      "text_sha": "ff8ffd163c91837c",
+      "pdf_page": 17
+    },
+    {
+      "n": 18,
+      "img": "img/EU06/EU06_s018.webp",
+      "title": "Costa v ENEL: the functional argument",
+      "text": "The second line, and the one that actually decides. It is impossible for states to accord precedence to a unilateral and subsequent measure over a legal system they accepted on the basis of RECIPROCITY. The executive force of Union law cannot VARY FROM ONE STATE TO ANOTHER in deference to subsequent domestic laws, without jeopardising the attainment of the Treaty's objectives and giving rise to prohibited discrimination. In short: without primacy, EU law would mean different things in different member states, and then it would not be a common legal order at all.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "State the functional argument for primacy.",
+          "a": "If national law could override EU law, the force of EU law would vary from state to state, defeating the Treaty's objectives and producing discrimination. Uniform application requires that EU law prevail.",
+          "difficulty": 2,
+          "kind": "judikat",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 895,
+      "text_sha": "d0299988d3cad2b3",
+      "pdf_page": 18
+    },
+    {
+      "n": 19,
+      "img": "img/EU06/EU06_s019.webp",
+      "title": "Primacy, restated",
+      "text": "Precedence of any EU law over any conflicting national law.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 212,
+      "text_sha": "df8b9ae909ff8c45",
+      "pdf_page": 19
+    },
+    {
+      "n": 20,
+      "img": "img/EU06/EU06_s020.webp",
+      "title": "ANY EU law",
+      "text": "The first 'any' unpacked: primary, secondary AND tertiary law all take precedence. A Commission implementing act outranks a national statute.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Does a delegated or implementing act of the Commission take precedence over a national statute?",
+          "a": "Yes. Primacy attaches to any EU law — primary, secondary and tertiary alike — over any conflicting national rule.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 241,
+      "text_sha": "58d4ba773b07ef3a",
+      "pdf_page": 20
+    },
+    {
+      "n": 21,
+      "img": "img/EU06/EU06_s021.webp",
+      "title": "ANY national law",
+      "text": "The second 'any': constitutional as well as ordinary national law — subject to the contested claim of an integration-proof core, which the last part of the lecture examines.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 265,
+      "text_sha": "af9541a1207e6672",
+      "pdf_page": 21
+    },
+    {
+      "n": 22,
+      "img": "img/EU06/EU06_s022.webp",
+      "title": "Internationale Handelsgesellschaft",
+      "text": "Case 11/70, and the sentence that states the claim at its strongest: the law stemming from the Treaty, an independent source of law, cannot BECAUSE OF ITS VERY NATURE be overridden by rules of national law, HOWEVER FRAMED, without being deprived of its character as Union law and without the legal basis of the Union itself being called into question. Therefore the validity or effect of a Union measure cannot be affected by allegations that it runs counter to fundamental rights as formulated by a national constitution or to the principles of a national constitutional structure. Note the price the Court had to pay for this: in the same judgment it accepted fundamental rights as general principles of EU law, which is what made Solange II possible.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Does EU law prevail over a member state's constitution, according to the Court of Justice?",
+          "a": "Yes. Internationale Handelsgesellschaft: EU law cannot be overridden by national rules 'however framed', and the validity of an EU measure cannot be affected by its conflict with national constitutional rights or structures.",
+          "difficulty": 2,
+          "kind": "judikat",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 766,
+      "text_sha": "f903cf71a4565bb3",
+      "pdf_page": 22
+    },
+    {
+      "n": 23,
+      "img": "img/EU06/EU06_s023.webp",
+      "title": "Primacy is disapplication, not invalidity",
+      "text": "The most-tested refinement, from C-10/97 IN.CO.GE.'90. It cannot be inferred from Simmenthal that incompatibility with EU law renders the national rule NON-EXISTENT; the national court is obliged to DISAPPLY it. So primacy is a conflict-resolution rule, not an annulment power. The slide's own example: if EU law gives workers a minimum one-hour break and national law thirty minutes, the national rule is set aside in cases where EU law applies — but it is not struck from the statute book, and continues to govern situations outside the scope of EU law.",
+      "terms": [
+        {
+          "term": "disapplication",
+          "def": "The national court sets the conflicting national rule aside in the case before it; the rule remains valid in the national legal order."
+        }
+      ],
+      "cards": [
+        {
+          "q": "A national statute conflicts with a directly effective EU rule. Is the statute void?",
+          "a": "No. The national court must DISAPPLY it in the case at hand (IN.CO.GE.'90). Primacy resolves the conflict of application; it does not render the national rule non-existent or invalid.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 1158,
+      "text_sha": "cad7d018fc78b16d",
+      "pdf_page": 23
+    },
+    {
+      "n": 24,
+      "img": "img/EU06/EU06_s024.webp",
+      "title": "From disapplication to invalidity in extreme cases?",
+      "text": "A recent qualification. In C-487/19 W.Ż. and C-225/22 AW the Court held that where a judgment was delivered by a body that is not an independent and impartial tribunal previously established by law within the meaning of EU law, no consideration of legal certainty or finality can prevent a national court from declaring that decision NULL AND VOID, where that consequence is essential to ensure the primacy of EU law. So in extreme situations — the Polish judiciary cases — the remedy goes beyond disapplication.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "When has the Court of Justice gone beyond disapplication towards invalidity?",
+          "a": "In the rule-of-law cases (C-487/19 W.Ż., C-225/22 AW): where a decision was given by a body that is not an independent and impartial tribunal established by law, a national court may declare it null and void if that is essential to ensure the primacy of EU law.",
+          "difficulty": 3,
+          "kind": "judikat",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 1173,
+      "text_sha": "5233057d6595d56d",
+      "pdf_page": 24
+    },
+    {
+      "n": 25,
+      "img": "img/EU06/EU06_s025.webp",
+      "title": "Who applies primacy? Simmenthal",
+      "text": "Case 106/77 answers the question that matters most in practice. EVERY national court must, in a case within its jurisdiction, apply Union law in its entirety, protect the rights it confers on individuals, and accordingly SET ASIDE any conflicting provision of national law, whether prior or subsequent to the EU rule. So it is not reserved to constitutional courts, and the ordinary judge need not wait for the national constitutional court to strike the rule down.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Must an ordinary national court refer a conflicting statute to its constitutional court before disapplying it?",
+          "a": "No. Simmenthal: every national court must itself set aside any conflicting national provision, whether prior or subsequent to the EU rule, in any case within its jurisdiction.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 692,
+      "text_sha": "894f79ec6f17b52a",
+      "pdf_page": 25
+    },
+    {
+      "n": 26,
+      "img": "img/EU06/EU06_s026.webp",
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 114,
+      "text_sha": "3b6b20591aa3b7c0",
+      "pdf_page": 26
+    },
+    {
+      "n": 27,
+      "img": "img/EU06/EU06_s027.webp",
+      "title": "The three concepts and the hierarchy",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 383,
+      "text_sha": "71e73390a7db3c26",
+      "pdf_page": 27
+    },
+    {
+      "n": 28,
+      "img": "img/EU06/EU06_s028.webp",
+      "title": "Primacy seen from the member states",
+      "text": "Three findings. First, ALL member states have accepted primacy, on the assumption that the Union acts within its proper sphere of competence. Second, they accepted it on different grounds — some follow the reasoning of Costa v ENEL, others rely on a provision of their own constitutions. Third, several — Austria, the Czech Republic, Denmark, France, Germany, Italy, Spain — place limits on that acceptance derived from their own constitution or fundamental rights: the integration-proof core. Note the structure of the disagreement: it is not about whether EU law prevails but about WHO decides the limits.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Do the member states accept the primacy of EU law on the same basis as the Court of Justice?",
+          "a": "They accept primacy, but many on their own constitutional basis rather than on the Court's reasoning, and several — including Austria, Czechia, Germany, Italy, France, Spain, Denmark — reserve limits drawn from their own constitutions. The real dispute is who has the last word.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 663,
+      "text_sha": "28f7a7290fff8ae2",
+      "pdf_page": 28
+    },
+    {
+      "n": 29,
+      "img": "img/EU06/EU06_s029.webp",
+      "title": "The Solange saga",
+      "text": "Three steps, and the pattern is worth learning as a model of judicial dialogue. SOLANGE I (1974): the German Constitutional Court reserved the right to review EU law AS LONG AS ('solange') the EU legal order guaranteed no effective fundamental rights protection, declining primacy where German protection was higher. Internationale Handelsgesellschaft: the Court of Justice accepted fundamental rights as general principles of EU law. SOLANGE II (1986): the German court stated that, unless it gave further notice, it would NOT exercise its review, because protection at EU level had become sufficient. In other words, the threat produced the protection, and the threat was then suspended rather than withdrawn.",
+      "terms": [
+        {
+          "term": "Solange",
+          "def": "German 'as long as' — the conditional reservation of constitutional review of EU acts, first asserted (Solange I) and then suspended (Solange II)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Explain the move from Solange I to Solange II.",
+          "a": "Solange I: the BVerfG would review EU law against German fundamental rights as long as EU-level protection was inadequate. After the CJEU recognised fundamental rights as general principles, Solange II declared that the BVerfG would not exercise that review unless protection at EU level ceased to be sufficient — suspended, not abandoned.",
+          "difficulty": 3,
+          "kind": "judikat",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 820,
+      "text_sha": "1bd2154f55237cf5",
+      "pdf_page": 29
+    },
+    {
+      "n": 30,
+      "img": "img/EU06/EU06_s030.webp",
+      "title": "Ultra vires review in Germany",
+      "text": "The competence strand, in three decisions. MAASTRICHT (1993): the Constitutional Court asserted jurisdiction to review whether the EU stayed within the powers conferred and did not transgress German basic rights. HONEYWELL (2010): it disciplined itself — the Court of Justice must first have the opportunity to rule, and ultra vires may be found only where the excess of power is MANIFEST and the act is HIGHLY SIGNIFICANT for the structure of competences. PSPP (2020): it exceptionally declared an EU act ultra vires, over the circumvention of the prohibition of monetary financing of budgets — the first time a national constitutional court actually pulled the trigger.",
+      "terms": [
+        {
+          "term": "ultra vires",
+          "def": "An EU act beyond the competences conferred; the German conditions are a manifest excess of power in a highly significant matter, after the CJEU has had its say."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Under Honeywell, when may the German Constitutional Court declare an EU act ultra vires?",
+          "a": "Only after giving the Court of Justice the opportunity to rule, and only where the excess of power is manifest and the act is highly significant for the structure of competences between the member states and the EU.",
+          "difficulty": 3,
+          "kind": "judikat",
+          "priority": "core"
+        },
+        {
+          "q": "Which decision actually declared an EU act ultra vires, and about what?",
+          "a": "PSPP (2 BvR 859/15, 2020), concerning the ECB's public sector purchase programme and the circumvention of the prohibition of monetary financing of budgets.",
+          "difficulty": 2,
+          "kind": "judikat",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 1037,
+      "text_sha": "cb676cda093b298b",
+      "pdf_page": 30
+    },
+    {
+      "n": 31,
+      "img": "img/EU06/EU06_s031.webp",
+      "title": "Questions",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 133,
+      "text_sha": "418ffad5414a3fcd",
+      "pdf_page": 31
+    }
+  ]
+}

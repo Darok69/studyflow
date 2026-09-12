@@ -1,0 +1,237 @@
+{
+  "lecture_id": "IL04",
+  "title": "Customary International Law",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": true },
+
+    "2": {
+      "title": "The starting point: Article 38(1)(b)",
+      "text": "Article 38 is quoted again, but this lecture lives in a single phrase of subparagraph (b): international custom, as evidence of a general practice ACCEPTED AS LAW. Those four words carry the two-element structure that the whole lecture unpacks — a practice, plus its acceptance as law.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+
+    "3": {
+      "title": "The two elements",
+      "text": "Custom has an objective element, state practice, and a subjective one, opinio iuris. The International Law Commission's 2018 Draft Conclusions on the identification of customary international law put it in a single sentence in Conclusion 2: to determine the existence and content of a rule of customary international law it is necessary to ascertain whether there is a general practice that is accepted as law. Both elements must be shown separately — that is the discipline an exam answer has to display.",
+      "terms": [
+        { "term": "state practice", "def": "The objective element of custom: what states actually do." },
+        { "term": "opinio iuris", "def": "The subjective element: the conviction that the practice is required by law, not merely convenient or courteous." },
+        { "term": "ILC Draft Conclusions 2018", "def": "Draft conclusions on identification of customary international law — the authoritative modern restatement, cited throughout this lecture." }
+      ],
+      "cards": [
+        { "q": "What must be established to prove a rule of customary international law, and in what structure?", "a": "Two elements, separately: a general state practice (objective) and its acceptance as law, opinio iuris (subjective) — ILC Draft Conclusion 2 (2018).", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "4": {
+      "title": "What counts as state practice",
+      "text": "Conclusion 6(2) gives a non-exhaustive list, and its breadth is the point: diplomatic acts and correspondence, conduct in connection with resolutions of international organizations or intergovernmental conferences, conduct in connection with treaties, executive conduct including operational conduct 'on the ground', legislative and administrative acts, and decisions of national courts. Note that words count as practice, not only deeds — a diplomatic protest is practice.",
+      "terms": [],
+      "cards": [
+        { "q": "Does a diplomatic protest count as state practice for the formation of custom?", "a": "Yes. ILC Conclusion 6(2) lists diplomatic acts and correspondence among the forms of state practice; practice is not limited to physical conduct.", "difficulty": 2, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "5": {
+      "title": "What evidences opinio iuris",
+      "text": "Conclusion 10(2) lists public statements made on behalf of states, official publications, government legal opinions, diplomatic correspondence, decisions of national courts, treaty provisions, and conduct in connection with resolutions of international organizations. Compare this list with the one on the previous slide and you will see that the same act — a diplomatic note, a national judgment — can serve as evidence of both elements. That is why an answer must say which element it is using an act for, and why, rather than simply listing acts.",
+      "terms": [],
+      "cards": [
+        { "q": "The same national court judgment appears in both ILC lists. What does that mean for an exam answer?", "a": "That one act can evidence both practice and opinio iuris — so you must state which element you are relying on it for and why, instead of listing acts undifferentiated.", "difficulty": 3, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "6": {
+      "title": "The Lotus case: the facts",
+      "text": "A photograph of the French mail steamer Lotus. In 1926 it collided on the high seas with a Turkish vessel; when the Lotus reached Istanbul, a French naval officer was taken into custody and criminally charged by Turkey. France protested, relying on the flag-state principle: only the flag state may prosecute for acts on board. The question put to the Permanent Court was whether international law permitted Turkey to exercise jurisdiction.",
+      "terms": [
+        { "term": "flag-state principle", "def": "The claim that jurisdiction over events on board a ship on the high seas belongs to the state whose flag it flies." }
+      ],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "7": {
+      "title": "The Lotus principle",
+      "text": "The Court's answer became the most quoted sentence on the structure of international law. Far from laying down a general prohibition on extending laws and jurisdiction to persons and acts outside the territory, international law leaves states a wide measure of discretion, limited only in certain areas by prohibitive rules; for the rest every state remains free to adopt the principles it regards as best. The presumption therefore runs in favour of freedom: what is not prohibited is permitted. Everything in this lecture about proving custom matters precisely because a claimant must show the prohibitive rule exists.",
+      "terms": [
+        { "term": "Lotus principle", "def": "Restrictions on the independence of states are not presumed; what international law does not prohibit, a state remains free to do." }
+      ],
+      "cards": [
+        { "q": "State A does something international law nowhere addresses. Who bears the burden of proof, and why?", "a": "The state alleging a prohibition. Under the Lotus principle, states retain a wide discretion limited only by prohibitive rules, so the existence of the limiting rule — by treaty or custom — has to be proved.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "8": {
+      "title": "The Asylum case: the facts",
+      "text": "The Peruvian politician Víctor Raúl Haya de la Torre took refuge in the Colombian embassy in Lima. Colombia claimed a right to qualify unilaterally and definitively whether he was a political offender — and thus to grant him diplomatic asylum — relying on a regional Latin American custom. Two questions follow: is there a rule of diplomatic asylum, and can custom be regional rather than general?",
+      "terms": [
+        { "term": "diplomatic asylum", "def": "Asylum granted inside the premises of a diplomatic mission, as distinct from territorial asylum." },
+        { "term": "regional custom", "def": "Customary law binding only within a defined group of states." }
+      ],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "9": {
+      "title": "The Asylum case: why the claim failed",
+      "text": "The Court found so much uncertainty and contradiction, so much fluctuation and discrepancy in the exercise of diplomatic asylum and in the official views expressed, so much inconsistency in the rapid succession of asylum conventions ratified by some and rejected by others, and so much influence of political expediency, that it could not discern any constant and uniform usage accepted as law. Read this as the practical test: practice that is inconsistent and politically opportunistic does not become custom, however often it occurs.",
+      "terms": [],
+      "cards": [
+        { "q": "What phrase did the ICJ use in the Asylum case for the standard state practice must meet?", "a": "A 'constant and uniform usage, accepted as law'. Fluctuating, contradictory practice influenced by political expediency does not satisfy it.", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "10": {
+      "title": "Custom between two states only",
+      "text": "In Right of Passage over Indian Territory the Court dealt with the opposite end of the scale. It saw no reason why the number of states between which a local custom may be established must necessarily be larger than two: long continued practice between two states, accepted by them as regulating their relations, can form the basis of mutual rights and obligations. So custom exists in three sizes — general, regional, and bilateral — and the Asylum case failed on the evidence, not because regional custom is impossible.",
+      "terms": [
+        { "term": "local (bilateral) custom", "def": "Customary rights and obligations arising from long continued practice accepted between as few as two states." }
+      ],
+      "cards": [
+        { "q": "Can a customary rule bind only two states?", "a": "Yes. In Right of Passage over Indian Territory the ICJ held that long continued practice between two states, accepted by them as regulating their relations, can form the basis of mutual rights and obligations.", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "11": {
+      "title": "The North Sea Continental Shelf cases: the map",
+      "text": "A map of the North Sea with the maritime boundaries drawn in red between the United Kingdom, Norway, Denmark, Germany, the Netherlands, Belgium and France. The dispute was about how to delimit the shelf between Germany on one side and Denmark and the Netherlands on the other; because the German coast is concave, the equidistance method would have squeezed Germany's shelf into a narrow wedge. Germany was not party to the 1958 Convention containing the equidistance rule, so the question became whether that rule had become customary.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "12": {
+      "title": "North Sea: the test for practice",
+      "text": "The Court's formula, and the one to quote: within the period in question, short though it might be, state practice — including that of states whose interests are specially affected — should have been both extensive and virtually uniform in the sense of the provision invoked, and should have occurred in such a way as to show general recognition that a rule of law or legal obligation is involved. Three requirements in one sentence: extensive, virtually uniform, and weighted towards specially affected states.",
+      "terms": [
+        { "term": "specially affected states", "def": "States whose interests are particularly engaged by a rule; their practice weighs more heavily in assessing whether custom has formed." }
+      ],
+      "cards": [
+        { "q": "State the North Sea Continental Shelf test for state practice.", "a": "The practice, including that of states whose interests are specially affected, must be extensive and virtually uniform in the sense of the provision invoked, and must show general recognition that a rule of law is involved.", "difficulty": 2, "kind": "judikat", "priority": "core" },
+        { "q": "A rule is followed by ninety states but rejected by the five states whose industry the rule actually concerns. Is it custom?", "a": "Doubtful. North Sea requires the practice of specially affected states — a headcount of indifferent states does not make virtually uniform practice in the relevant sense.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "13": {
+      "title": "North Sea: opinio iuris sive necessitatis",
+      "text": "The second half of the same paragraph defines the subjective element. The acts must not only amount to a settled practice; they must be carried out in such a way as to be evidence of a belief that the practice is rendered obligatory by the existence of a rule of law requiring it. The need for such a belief — the subjective element — is implicit in the notion of opinio iuris sive necessitatis. The practical corollary is the one exams test: conduct followed out of courtesy, habit or convenience is not custom, however settled.",
+      "terms": [
+        { "term": "opinio iuris sive necessitatis", "def": "The belief that a practice is obligatory because a rule of law requires it." },
+        { "term": "comity", "def": "Conduct followed out of courtesy or convenience rather than legal obligation; it produces no custom." }
+      ],
+      "cards": [
+        { "q": "States have saluted each other's warships for two centuries without fail. Is that custom?", "a": "No, unless the states act in the belief that a rule of law requires it. North Sea: the practice must be evidence of a belief that it is rendered obligatory by law — courtesy and habit are not opinio iuris.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "14": {
+      "title": "Nicaragua: what the case settled",
+      "text": "During the Nicaraguan civil war the United States supported the Contras with arms and money; Nicaragua sued. For the law of custom the judgment did four things: it confirmed the two-element theory; it treated opinio iuris as particularly important, arguably more so than practice; it accepted that opinio iuris may be found in General Assembly resolutions; and it concluded that the prohibition of the use of force, the prohibition of intervention and state sovereignty are rules of customary international law — which mattered because a US reservation kept the Court from applying the UN Charter itself.",
+      "terms": [],
+      "cards": [
+        { "q": "Which rules did the ICJ hold to be customary in the Nicaragua case, and why did that matter?", "a": "The prohibition of the use of force, the prohibition of intervention, and state sovereignty. It mattered because the Court could not apply the UN Charter in that case, so the customary parallel rules carried the judgment.", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "15": {
+      "title": "Nicaragua: how much inconsistency custom tolerates",
+      "text": "The most useful passage in the whole lecture for solving problems. The Court held it sufficient that state conduct should IN GENERAL be consistent with the rule, and that inconsistent instances should generally have been treated as breaches of the rule rather than as signs of a new one. And if a state acts prima facie incompatibly with a rule but defends itself by appealing to exceptions or justifications contained WITHIN the rule, that attitude confirms rather than weakens the rule. So a violator who pleads self-defence is strengthening the prohibition it has broken.",
+      "terms": [],
+      "cards": [
+        { "q": "State A invades State B and justifies it as self-defence. Does that violation weaken the customary prohibition of force?", "a": "No — it confirms it. Nicaragua: where a state defends prima facie incompatible conduct by appealing to an exception contained within the rule, its attitude confirms rather than weakens the rule.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "How consistent must practice be under the Nicaragua standard?", "a": "Consistent 'in general'. Inconsistent instances do not destroy the rule provided they have generally been treated as breaches of it rather than as evidence of a new rule.", "difficulty": 2, "kind": "judikat", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "16": {
+      "title": "Nicaragua: opinio iuris from General Assembly resolutions",
+      "text": "The Court said it had to be satisfied that an opinio iuris existed as to the binding character of the abstention from the threat or use of force, and that this opinio iuris may — though with all due caution — be deduced from the attitude of the parties and of states towards certain General Assembly resolutions, particularly Resolution 2625 (XXV), the Friendly Relations Declaration. This is the bridge between soft law and custom: a non-binding resolution is not a source, but the way states vote on it and speak about it is evidence of what they believe the law to be.",
+      "terms": [
+        { "term": "GA Resolution 2625 (XXV)", "def": "Declaration on Principles of International Law concerning Friendly Relations and Co-operation among States (1970); non-binding, but strong evidence of opinio iuris." }
+      ],
+      "cards": [
+        { "q": "A General Assembly resolution is not binding. How can it still matter for customary law?", "a": "States' attitudes towards it can evidence opinio iuris. In Nicaragua the ICJ deduced opinio iuris on the prohibition of force from attitudes towards Resolution 2625 — with, as the Court put it, all due caution.", "difficulty": 3, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "17": {
+      "title": "How much time custom needs",
+      "text": "None, in principle. The North Sea cases said the period may be short provided the practice is extensive and virtually uniform. Two examples on the slide show how fast it can go: the Truman Proclamation of 1945, after which coastal states' claims to the continental shelf spread within a few years, and the Sputnik flights of 1957 over foreign territory, met without protest, from which the freedom of outer space followed. Duration is evidence of settled practice, not a requirement in itself.",
+      "terms": [
+        { "term": "Truman Proclamation (1945)", "def": "US claim to the natural resources of its continental shelf; followed rapidly by similar claims, generating customary law within years." },
+        { "term": "instant custom", "def": "The idea that custom can form very quickly where practice is dense, uniform and unopposed — Sputnik and outer space being the stock example." }
+      ],
+      "cards": [
+        { "q": "Is a long-standing practice required for custom to form?", "a": "No. The passage of time is evidence, not a condition: North Sea accepted that the period may be short provided the practice is extensive and virtually uniform. Truman Proclamation 1945 and Sputnik 1957 are the standard examples.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "18": {
+      "title": "Codification and the International Law Commission",
+      "text": "Because custom is hard to prove, it gets written down. Article 13 of the UN Charter gives the General Assembly the task of encouraging the progressive development of international law and its codification, and the body that does the work is the International Law Commission — a subsidiary organ of the General Assembly created by Resolution 174 (II) in 1947, with 34 members elected for five-year terms and representing the main legal systems, distributed by region. The two halves of its mandate are different jobs: codification writes down what the law already is, progressive development proposes what it should become.",
+      "terms": [
+        { "term": "ILC", "def": "International Law Commission, subsidiary organ of the UN General Assembly (GA Res 174 (II), 1947), 34 members, five-year terms." },
+        { "term": "codification vs progressive development", "def": "Codification states existing customary law with precision; progressive development proposes new rules where none are settled." }
+      ],
+      "cards": [
+        { "q": "What is the difference between codification and progressive development of international law?", "a": "Codification formulates existing customary rules more precisely; progressive development proposes rules on subjects not yet regulated or not yet settled in practice. Article 13 UN Charter mandates both.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "19": {
+      "title": "Article 13 UN Charter, in its own words",
+      "text": "The text of the mandate: the General Assembly shall initiate studies and make recommendations for the purpose of promoting international co-operation in the political field and encouraging the progressive development of international law and its codification. Note the verbs — initiate studies and make recommendations. The Assembly does not legislate; the output becomes law only when it is turned into a treaty or is accepted as custom.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+
+    "20": {
+      "title": "Is codification a good thing?",
+      "text": "The slide balances five advantages against three disadvantages. For: systematization, precision, progressive development, the articulation of community interests, and legitimization. Against: it can block further legal development by freezing the law; the text is a compromise and tends towards the lowest common denominator; and a failed codification creates legal insecurity, because afterwards nobody is sure what the customary position was. That last point is the one most often missed.",
+      "terms": [],
+      "cards": [
+        { "q": "Name a disadvantage of codifying a customary rule.", "a": "It can freeze the law and block further development; the text is a compromise tending to the lowest common denominator; and a failed codification attempt leaves the underlying customary position less certain than before.", "difficulty": 2, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": false
+    },
+
+    "21": {
+      "title": "The Vienna codifications",
+      "text": "The examples are worth knowing by name and year, because they are the instruments the rest of the course cites: the Vienna Convention on Diplomatic Relations 1961, on Consular Relations 1963, on the Law of Treaties 1969, on Succession of States in respect of Treaties 1978, on Succession of States in respect of State Property, Archives and Debts 1983, and the UN Convention on Jurisdictional Immunities of States and Their Property 2004.",
+      "terms": [],
+      "cards": [
+        { "q": "Match the years: Vienna Conventions on Diplomatic Relations, Consular Relations and the Law of Treaties.", "a": "Diplomatic Relations 1961, Consular Relations 1963, Law of Treaties 1969.", "difficulty": 1, "kind": "cisla", "priority": "extra" }
+      ],
+      "vision_used": false
+    },
+
+    "22": {
+      "title": "Custom inside Austrian law",
+      "text": "Article 9(1) of the Austrian Federal Constitution provides that the generally recognized rules of international law are valid parts of federal law. Customary international law therefore enters the Austrian legal order automatically, without any act of transformation — unlike treaties, which pass through approval and possibly an Erfüllungsvorbehalt. The examples given are state immunity and the immunity of foreign state officials, and state succession.",
+      "terms": [
+        { "term": "Art 9(1) B-VG", "def": "„Die allgemein anerkannten Regeln des Völkerrechtes gelten als Bestandteile des Bundesrechts.\" — generally recognized rules of international law are part of Austrian federal law." }
+      ],
+      "cards": [
+        { "q": "How does customary international law enter Austrian law, and how does that differ from treaties?", "a": "Automatically, under Article 9(1) B-VG: generally recognized rules of international law are parts of federal law. Treaties by contrast go through approval and may be subject to an Erfüllungsvorbehalt requiring implementing legislation.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": false
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "lecture_id": "IL02",
+  "title": "The Law of Treaties",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": true },
+
+    "2": {
+      "title": "Article 38 ICJ Statute, quoted in full",
+      "text": "The lecture opens by re-anchoring treaties in the catalogue of sources: Article 38 lists international conventions first, before custom and general principles. The photograph beside the text is the Peace Palace in The Hague, the seat of the ICJ. Note the same structural point as in the introductory lecture — paragraph (d), judicial decisions and the teachings of publicists, is expressly labelled 'subsidiary means', and applies only 'subject to the provisions of Article 59'.",
+      "terms": [
+        { "term": "ICJ Statute", "def": "The Statute of the International Court of Justice, annexed to the UN Charter; Article 38 is the conventional catalogue of the sources of international law." }
+      ],
+      "cards": [
+        { "q": "Which paragraph of Article 38 ICJ Statute deals with treaties, and how does it describe them?", "a": "Paragraph (a): international conventions, whether general or particular, establishing rules expressly recognized by the contesting states.", "difficulty": 1, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "3": {
+      "title": "The sources, listed",
+      "text": "The same list as in the introductory lecture, now as the map for this course: treaties, international custom, general principles of law, decisions of international organizations and unilateral acts. Soft law and, separately, teachings and judicial decisions are set apart at the bottom of the slide — visually below the five, because they are not sources in the same sense. Treaties, the first item, are what the remaining seventy slides are about.",
+      "terms": [],
+      "cards": [
+        { "q": "Which two items on the list of 'sources' are deliberately set apart from the five, and why?", "a": "Soft law and, separately, teachings and judicial decisions. Soft law is not binding at all; teachings and judicial decisions are subsidiary means for determining the law, not ways of creating it.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "4": {
+      "title": "No hierarchy of norms — except jus cogens",
+      "text": "Two lines that decide a whole class of exam questions: there is no hierarchy among the sources, and the single exception is jus cogens. The slide gives the standard examples of peremptory norms: the prohibition of torture, apartheid, slavery and genocide. So if a treaty conflicts with custom, neither automatically wins on rank; but if either conflicts with a peremptory norm, the peremptory norm prevails.",
+      "terms": [
+        { "term": "jus cogens", "def": "A peremptory norm from which no derogation is permitted. Slide examples: prohibition of torture, apartheid, slavery, genocide." }
+      ],
+      "cards": [
+        { "q": "Is a treaty superior to custom in international law?", "a": "No — there is no hierarchy among the sources. The only exception is jus cogens, which prevails over all of them.", "difficulty": 2, "kind": "rozliseni", "priority": "core" },
+        { "q": "Name the four examples of peremptory norms given in the lecture.", "a": "The prohibitions of torture, apartheid, slavery and genocide.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "5": {
+      "title": "Conflict of norms: the three rules",
+      "text": "If rank does not resolve a conflict, these three do. Lex specialis derogat legi generali — the more specific rule displaces the general one. Lex posterior derogat legi priori — the later rule displaces the earlier one. And Article 103 of the UN Charter adds a rule of its own: where obligations under the Charter conflict with obligations under any other international agreement, the Charter prevails. Article 103 is the one to reach for whenever a fact pattern involves the UN.",
+      "terms": [
+        { "term": "lex specialis derogat legi generali", "def": "The more specific rule prevails over the more general one." },
+        { "term": "lex posterior derogat legi priori", "def": "The later rule prevails over the earlier one." },
+        { "term": "Article 103 UN Charter", "def": "In a conflict between Charter obligations and obligations under any other international agreement, Charter obligations prevail." }
+      ],
+      "cards": [
+        { "q": "A state's obligation under a bilateral treaty conflicts with an obligation under the UN Charter. Which prevails and on what basis?", "a": "The Charter obligation, under Article 103 of the UN Charter: in the event of a conflict with obligations under any other international agreement, Charter obligations prevail.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "Which two maxims resolve conflicts between norms of equal rank?", "a": "Lex specialis derogat legi generali (specific over general) and lex posterior derogat legi priori (later over earlier).", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "6": {
+      "title": "Decisions of international organizations: SC Resolution 1973",
+      "text": "The worked example of a binding IO decision is Security Council Resolution 1973 (2011) on Libya, with a photograph of the vote in the chamber. The extract shows the two formulas that matter: 'Determining that the situation … continues to constitute a threat to international peace and security' and 'Acting under Chapter VII of the Charter'. Those are the conditions and the legal basis on which the Council may bind all states. The recitals also carry the responsibility-to-protect language about protecting the Libyan population.",
+      "terms": [
+        { "term": "threat to international peace and security", "def": "The determination under Article 39 UN Charter that opens the Council's Chapter VII powers." }
+      ],
+      "cards": [
+        { "q": "Which two elements must appear in a Security Council resolution before it can impose binding obligations?", "a": "A determination that the situation constitutes a threat to international peace and security, and acting under Chapter VII of the Charter.", "difficulty": 2, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "7": {
+      "title": "What a treaty looks like, across three millennia",
+      "text": "A picture slide with five documents: the Treaty of Osnabrück (Peace of Westphalia) 1648, the Austrian State Treaty 1955, the Egyptian-Hittite peace treaty of 1296 BC carved into a temple wall, and the Treaty of Lisbon 2007 on an EU flag. The point is the range: the form varies from stone relief to a bound volume with wax seals, but the legal category is the same. Note that this slide dates Kadesh to 1296 BC while the introductory lecture said 1280 BC — the discrepancy is in the sources, not in your notes.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "note": "The Egyptian-Hittite treaty is dated 1296 BC here and 1280 BC in IL01 s006. The course materials are inconsistent about the date; do not rely on it."
+    },
+
+    "8": {
+      "title": "The twelve questions about a treaty",
+      "text": "This wheel is the structure of the whole lecture and the best case-solving checklist you will get: 1 legal basis, 2 scope of application of the VCLT, 3 treaty-making power, 4 adoption, 5 entry into force, 6 interpretation, 7 scope of application, 8 treaties and third states, 9 modification, 10 reservations, 11 invalidity, 12 termination and suspension. The wheel reappears throughout the lecture with the current topic highlighted, so it also works as your position marker. Here item 1, legal basis, is highlighted.",
+      "terms": [],
+      "cards": [
+        { "q": "A problem question turns on a treaty. Which twelve questions does the course checklist ask about it?", "a": "Legal basis; scope of application of the VCLT; treaty-making power; adoption; entry into force; interpretation; scope of application; treaties and third states; modification; reservations; invalidity; termination and suspension.", "difficulty": 2, "kind": "schema", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "9": {
+      "title": "Definition of a treaty",
+      "text": "Three elements, and all three must be present: every agreement, between two or more states or subjects of international law, governed by international law. The third element does the work in exam questions — an agreement between two states about buying office furniture under Austrian contract law is not a treaty, because it is not governed by international law. Note also that this general definition says 'or subjects of international law', so it is wider than the VCLT's own definition on the next slides.",
+      "terms": [
+        { "term": "treaty", "def": "Every agreement between two or more states or subjects of international law, governed by international law." }
+      ],
+      "cards": [
+        { "q": "Two states sign a contract for the purchase of a building, expressly governed by the domestic law of one of them. Is it a treaty?", "a": "No. The definition requires the agreement to be governed by international law; the parties and the written form are not enough.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "What are the three elements of the general definition of a treaty?", "a": "An agreement; between two or more states or subjects of international law; governed by international law.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "10": {
+      "title": "The VCLT: dates that matter",
+      "text": "The law of treaties is codified in the Vienna Convention on the Law of Treaties of 1969 — and the callout on the slide warns you that 1969 is the date of adoption, not of entry into force. It entered into force only in 1980. Austria acceded in 1979, before entry into force. As of 2023 there are 116 parties, which is well short of the UN's 193 members, and that gap is the reason for the next two slides.",
+      "terms": [
+        { "term": "VCLT", "def": "Vienna Convention on the Law of Treaties, adopted 1969, in force 1980. Austria acceded in 1979. 116 parties as of 2023." }
+      ],
+      "cards": [
+        { "q": "The VCLT is called the 'Vienna Convention of 1969'. What does 1969 refer to, and when did it enter into force?", "a": "1969 is the date of adoption. It entered into force only in 1980 — the slide flags this distinction expressly.", "difficulty": 2, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "11": {
+      "title": "Who is party to the VCLT",
+      "text": "The map colours states green for parties, yellow for signatories that have not ratified, and red for non-parties. Green covers most of Europe, much of Africa and South America; conspicuously yellow are the United States and Iran; conspicuously red are France, India, Indonesia, South Africa, Turkey and several others. The lesson is practical: in a case involving a red or yellow state you cannot simply apply the VCLT as a treaty, and you must fall back on customary law — which is exactly what slide 13 says.",
+      "terms": [],
+      "cards": [
+        { "q": "Why does it matter, in a problem question, whether the states involved are parties to the VCLT?", "a": "Because the VCLT binds as a treaty only its parties. Many states — including France, India and Turkey — are not parties, so for them the same rules apply only in so far as they are customary international law.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "12": {
+      "title": "Checklist position: scope of application of the VCLT",
+      "text": "The wheel again, now with item 2 highlighted — the question whether the VCLT applies at all to the agreement in front of you.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "13": {
+      "title": "When the VCLT itself applies",
+      "text": "The general definition of a treaty on slide 9 is wider than the VCLT's own reach. For the Convention to apply as a convention, the agreement must be concluded between states — not with an international organization — and it must be in written form. Where those conditions fail, the agreement is still a treaty; it is just governed by customary international law instead, and the slide says so in its final line. In practice the two sets of rules largely coincide, because most of the VCLT codifies custom.",
+      "terms": [],
+      "cards": [
+        { "q": "What are the two additional requirements for the VCLT itself to apply, and what happens when they are not met?", "a": "The treaty must be concluded between states and must be in written form. If not, the agreement is still a treaty but is governed by customary international law rather than by the Convention.", "difficulty": 2, "kind": "znaky", "priority": "core" },
+        { "q": "A state and an international organization conclude a written agreement governed by international law. Does the VCLT 1969 apply?", "a": "Not as a convention — it covers treaties between states. The agreement is still a treaty, governed by customary international law (and by the separate 1986 Vienna Convention where applicable).", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "14": {
+      "title": "Bilateral and multilateral treaties",
+      "text": "The diagram contrasts two circles joined by a single double-headed arrow with five circles joined by arrows to each of the others. The picture makes the practical difference visible: in a bilateral treaty there is one relationship, so a breach or a reservation concerns one partner. In a multilateral treaty each party stands in a relationship with every other, which is why reservations, modification between some parties only, and termination become complicated — the topics numbered 9 to 12 on the wheel.",
+      "terms": [],
+      "cards": [
+        { "q": "Why do reservations and modification raise problems in multilateral treaties but hardly any in bilateral ones?", "a": "Because a multilateral treaty creates a separate relationship between every pair of parties. A reservation or a modification alters some of those relationships and not others, whereas a bilateral treaty has only one relationship to alter.", "difficulty": 3, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "15": {
+      "title": "Peace of Westphalia 1648, as treaty practice",
+      "text": "Photographs of the two town halls and the treaty volumes. The slide adds the detail the introductory lecture left out: the peace was made in two places at once because of confession — Osnabrück was the Protestant venue, where the Holy Roman Empire settled with Sweden, and Münster the Catholic one, where Spain settled with the Netherlands and the Empire with France. Two parallel congresses producing linked treaties is an early example of multilateral treaty-making by conference.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "16": {
+      "title": "The Congress of Vienna 1814/15",
+      "text": "A map of Europe after the Congress, the well-known painting of the delegates, the Acte Final of 1815 with its seals, and a commemorative medal. For the law of treaties the Congress matters as the model of the multilateral peace conference: many states negotiating one instrument together, rather than a web of bilateral settlements. The slide carries no explanatory text of its own.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "note": "Illustration only; the slide gives no text explaining why the Congress belongs here. The reading above supplies the usual doctrinal context."
+    },
+
+    "17": {
+      "title": "Self-executing and non-self-executing treaties",
+      "text": "The second classification of treaties asks whether a provision can be applied by domestic authorities as it stands or whether it first needs implementing legislation. The slide illustrates the non-self-executing type with Article 86 of the Rome Statute: 'States Parties shall … cooperate fully with the Court in its investigation and prosecution of crimes' — an obligation addressed to the state, which must set up its own procedures before anything happens in a domestic courtroom. A self-executing provision, by contrast, is precise enough for a court or an official to apply directly.",
+      "terms": [
+        { "term": "self-executing", "def": "A treaty provision precise enough to be applied directly by domestic organs, without implementing legislation." },
+        { "term": "non-self-executing", "def": "A provision that obliges the state to act but needs domestic implementation before it can be applied to individuals." }
+      ],
+      "cards": [
+        { "q": "How do you tell a self-executing treaty provision from a non-self-executing one?", "a": "By whether the provision is precise enough to be applied directly by domestic organs. If it merely obliges the state to achieve something and needs implementing legislation first — like Article 86 Rome Statute's duty to cooperate — it is non-self-executing.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "18": {
+      "title": "Checklist position: treaty-making power",
+      "text": "The wheel with item 3 highlighted: who may bind the state.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "19": {
+      "title": "Treaty-making power: the structure",
+      "text": "The diagram answers one question — who may conclude a treaty for a subject of international law — with three connected propositions. First, subjects of international law themselves stipulate which of their organs may conclude a treaty; international law does not prescribe it. Second, a person may act either on production of full powers or in virtue of their functions, that is by holding an office that carries the authority without a document. Third, if a treaty is concluded without full powers, it is either confirmed by retroactive consent or it is invalid.",
+      "terms": [
+        { "term": "full powers", "def": "A document issued by the competent authority designating a person to represent the state for negotiating, adopting or consenting to be bound by a treaty." }
+      ],
+      "cards": [
+        { "q": "An official concludes a treaty without full powers and without holding an office that confers them. What are the two possible outcomes?", "a": "Either the state confirms the act by retroactive consent, or the treaty is invalid.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "Does international law determine which organ of a state may conclude treaties?", "a": "No. Subjects of international law stipulate that themselves — international law only asks whether the person could be taken to represent the state.", "difficulty": 2, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "20": {
+      "title": "Full powers under Article 7(1) VCLT",
+      "text": "Article 7(1) gives the two routes in the Convention's own words. Under (a) a person represents the state if they produce appropriate full powers. Under (b) the state may dispense with full powers: authorization can be established from the practice of the state concerned, or from other circumstances showing that the states intended to treat that person as representing the state. So the document is the safe route, and conduct is the fallback.",
+      "terms": [
+        { "term": "Art 7(1) VCLT", "def": "A person represents a state if they produce appropriate full powers, or if it appears from practice or other circumstances that the states so intended." }
+      ],
+      "cards": [
+        { "q": "Under Article 7(1) VCLT, how can a person be treated as representing a state without producing full powers?", "a": "If it appears from the practice of the state concerned, or from other circumstances, that the states intended to consider that person as representing the state for those purposes.", "difficulty": 2, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": true
+    }
+  }
+}

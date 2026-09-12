@@ -1,0 +1,1005 @@
+{
+  "lecture_id": "IL01",
+  "course": "IL",
+  "course_title": "Foundations of International Law",
+  "course_number": "030477",
+  "unit": "Unit I",
+  "title": "The International Legal Order: Introduction",
+  "source_file": "raw/IL01_foundations-intro-winter-2025.pdf",
+  "source_sha256": "86a942cec4764715111924af00be231c1e87822fe8ff3702280410376f1a3e8c",
+  "source_pages": 33,
+  "slides_per_page": 1,
+  "slide_count": 33,
+  "updated_at": "2026-09-11T17:10:51+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/IL01/IL01_s001.webp",
+      "title": "Title slide",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 141,
+      "text_sha": "8f12258f7e95eca9",
+      "pdf_page": 1
+    },
+    {
+      "n": 2,
+      "img": "img/IL01/IL01_s002.webp",
+      "title": "Overview",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": true,
+      "text_chars": 320,
+      "text_sha": "2906dc14ff4567da",
+      "pdf_page": 2
+    },
+    {
+      "n": 3,
+      "img": "img/IL01/IL01_s003.webp",
+      "title": "Defining public international law",
+      "text": "The definition is deliberately circular-sounding, and that is the point: PIL is not identified by its subject-matter but by WHO bears the rights and duties and WHOSE relations are governed. It covers relations between subjects of international law — primarily states — not between private persons. The closing words, 'do not belong exclusively to the internal law of one state', do the limiting work: once a matter falls entirely within a state's own domain, international law has nothing to say about it. That boundary returns later as the prohibition of intervention in internal affairs (slide 18).",
+      "terms": [
+        {
+          "term": "public international law (PIL)",
+          "def": "The law governing relations between subjects of international law. Abbreviated PIL throughout the course."
+        },
+        {
+          "term": "subject of international law",
+          "def": "An entity that bears rights and obligations under international law in its own name. Not every actor in international relations is one."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Why is a cross-border element not enough to make a rule part of public international law?",
+          "a": "PIL is defined by its subjects, not by its subject-matter: it governs rights and obligations between subjects of international law, and only matters that do not belong exclusively to the internal law of one state. A cross-border element points equally to private international law or to EU law.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What does the phrase 'do not belong exclusively to the internal law of one state' exclude from PIL?",
+          "a": "Matters falling entirely within a state's domestic jurisdiction. It is the definitional root of the prohibition of intervention in internal affairs.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 360,
+      "text_sha": "ad8dc3d8c0e0577d",
+      "pdf_page": 3
+    },
+    {
+      "n": 4,
+      "img": "img/IL01/IL01_s004.webp",
+      "title": "What PIL is not: EU law and conflict of laws",
+      "text": "The slide fences the subject off from its two closest neighbours, the ones most often confused with it. EU law has a cross-border dimension but is a supranational order sui generis: it was created by treaties between states, yet it has its own sources, its own court and direct effect on individuals, so it is not treated as ordinary international law. Conflict of law rules, i.e. private international law, decide which of several national laws applies to a private relationship with a foreign element — that makes them part of domestic law, not law between states. Since the exam tests the two halves separately, this distinction also tells you which body of material a question belongs to.",
+      "terms": [
+        {
+          "term": "sui generis",
+          "def": "Latin, 'of its own kind' — a legal order that fits none of the existing categories."
+        },
+        {
+          "term": "conflict of law rules / private international law",
+          "def": "Rules determining which national law applies to a private relationship with a foreign element; part of domestic law."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Why is EU law described as a 'sui generis' legal order rather than as ordinary public international law?",
+          "a": "Because although it was created by treaties between states, it has its own sources, its own court and direct effect on individuals — features ordinary international law does not have.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "A Czech company sues an Austrian company over a contract and the court must decide which national law applies. Is that public international law?",
+          "a": "No. That is private international law (conflict of laws) — part of domestic law deciding which national law governs a private relationship, not a relationship between subjects of international law.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 397,
+      "text_sha": "26fb3484efca876a",
+      "pdf_page": 4
+    },
+    {
+      "n": 5,
+      "img": "img/IL01/IL01_s005.webp",
+      "title": "Four turning points in the history of PIL",
+      "text": "The course does not tell history as a story but as four moments at which the answer changed to the question of who makes the law and for whom it is valid. 'Classical international law' 1648–1918 is the law of a handful of European states that still allowed war as a lawful instrument. The October Revolution of 1917 produced a state that challenged the whole system from outside; decolonization after 1945 multiplied the membership several times over; and the end of the East–West conflict in 1989 raised the question whether that new unity would hold — hence the '(Seeming?)' in the heading. Slides 6 to 15 illustrate these four points with pictures.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Why does the course treat 1648, 1917, 1945 and 1989 as turning points rather than just dates?",
+          "a": "Each changed who makes international law and for whom it is valid: the Westphalian club of European states, its ideological challenge from outside, its multiplication through decolonization, and the questionable consensus after the Cold War.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 381,
+      "text_sha": "a2df0fb401a5dba9",
+      "pdf_page": 5
+    },
+    {
+      "n": 6,
+      "img": "img/IL01/IL01_s006.webp",
+      "title": "The oldest surviving peace treaty: Kadesh",
+      "text": "The picture shows cuneiform clay tablets in a display case at the Istanbul Archaeology Museum — the Egyptian-Hittite peace treaty, dated on the slide to around 1280 BC. The date is not what you need to retain; the claim is. Binding agreements between powers are some three thousand years older than the modern state. The treaty as an instrument did not arrive with Westphalia; what arrived later was the system that turns a treaty into a source of law.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What is the point of showing the Egyptian-Hittite treaty of Kadesh in a course on modern international law?",
+          "a": "That treaty-making between powers is millennia older than the modern state. What 1648 added was not the treaty as an instrument but the system in which treaties became a source of law between sovereign equals.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 125,
+      "text_sha": "d183e1f4499be73e",
+      "pdf_page": 6
+    },
+    {
+      "n": 7,
+      "img": "img/IL01/IL01_s007.webp",
+      "title": "1648: the Peace of Westphalia",
+      "text": "Gerard ter Borch's painting shows the ratification of the Treaty of Münster — envoys around a table, hands raised in oath over the documents. Münster together with Osnabrück makes up the Peace of Westphalia, with which, according to slide 5, 'classical international law' begins. The date has stuck for a reason: for the first time a major European settlement was negotiated by a congress of formally equal states rather than decided by a superior authority, emperor or pope. That is the origin of the horizontal picture developed on slide 19.",
+      "terms": [
+        {
+          "term": "Peace of Westphalia (1648)",
+          "def": "The treaties of Münster and Osnabrück ending the Thirty Years' War; the conventional starting point of the modern system of sovereign states."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Why is 1648 conventionally taken as the start of 'classical international law'?",
+          "a": "Because the settlement was negotiated among formally equal states rather than imposed by a superior authority (emperor or pope) — the model of a horizontal order of sovereigns.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 98,
+      "text_sha": "2e951bb4c7c0b40b",
+      "pdf_page": 7
+    },
+    {
+      "n": 8,
+      "img": "img/IL01/IL01_s008.webp",
+      "title": "Grotius and De iure belli ac pacis",
+      "text": "The slide shows the title page of the second Amsterdam edition of 1631 and Mierevelt's portrait of Hugo Grotius. Grotius is conventionally called the father of the modern discipline: he derived rules from reason and the nature of things, that is from something that holds between rulers even where nobody stands above them. That single step — law without a superior legislator — is the foundation of the whole construction the lecture defends on slide 29 against Austin's objection that international law is not law at all.",
+      "terms": [
+        {
+          "term": "De iure belli ac pacis",
+          "def": "'On the Law of War and Peace' (1625), Grotius's principal work; the slide shows the second edition of 1631."
+        },
+        {
+          "term": "natural law (ius naturae)",
+          "def": "Rules derived from reason and the nature of things rather than from the will of a legislator."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is Grotius's structural contribution, beyond writing an early textbook?",
+          "a": "He grounded binding rules in reason and natural law — law that binds sovereigns even though no superior legislator stands above them, which is the premise the whole horizontal system rests on.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 171,
+      "text_sha": "f37d1478a48a0995",
+      "pdf_page": 8
+    },
+    {
+      "n": 9,
+      "img": "img/IL01/IL01_s009.webp",
+      "title": "Roots of sovereignty I: par in parem non habet imperium",
+      "text": "In the fourteenth century Bartolus de Saxoferrato formulated the maxim that an equal has no authority over an equal. It is the oldest of the three quotations with which slides 9 to 11 assemble the modern concept of sovereignty, and the only one with a direct procedural consequence: state immunity grows out of it, meaning the courts of one state may not sit in judgment over another. The image is only a period portrait printed in a book and adds nothing further.",
+      "terms": [
+        {
+          "term": "par in parem non habet imperium",
+          "def": "'An equal has no authority over an equal.' The basis of sovereign equality and of state immunity."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Which modern doctrine follows directly from 'par in parem non habet imperium'?",
+          "a": "State immunity: the courts of one state cannot sit in judgment over another state, because neither is subordinate to the other.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 349,
+      "text_sha": "bc126466b5192219",
+      "pdf_page": 9
+    },
+    {
+      "n": 10,
+      "img": "img/IL01/IL01_s010.webp",
+      "title": "Roots of sovereignty II: Bodin",
+      "text": "In Les six livres de la république (1576) Jean Bodin described sovereignty as supreme and indivisible power within the state; the quotation on the slide — the rules of other states do not bind the state — is its outward-facing side. Bodin therefore answers the question who has the last word at home. That is precisely the half which slide 20 will call internal sovereignty.",
+      "terms": [
+        {
+          "term": "Les six livres de la république (1576)",
+          "def": "Bodin's work defining sovereignty as supreme, indivisible and perpetual power."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Bodin and Vattel are both quoted under 'historical roots of sovereignty'. Which half of the concept does each supply?",
+          "a": "Bodin supplies internal sovereignty — supreme, indivisible authority at home. Vattel supplies external sovereignty — the formal equality of states regardless of their size or power.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 345,
+      "text_sha": "be647b506ee20c97",
+      "pdf_page": 10,
+      "note": "Flagged as image-heavy, but the text layer is complete and the picture is only a portrait with a book title — vision was not used."
+    },
+    {
+      "n": 11,
+      "img": "img/IL01/IL01_s011.webp",
+      "title": "Roots of sovereignty III: Vattel and the equality of states",
+      "text": "In Le droit des gens (1758) Emer de Vattel put the equality of states into an image: a dwarf is as much a man as a giant, and a small republic is no less a sovereign state than the most powerful kingdom. This is formal equality — legal status does not depend on size, population or strength. Slide 22 will then show the other side of it: the equality is formal and does not capture real differences in power.",
+      "terms": [
+        {
+          "term": "sovereign equality",
+          "def": "Every state has the same legal status regardless of size or power. Today codified in Article 2(1) of the UN Charter."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What exactly is 'equal' in the sovereign equality of states?",
+          "a": "Their legal status and capacity — rights, duties, one vote — not their power, size or influence. The equality is formal, not factual.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 417,
+      "text_sha": "f86f79b4d4162e61",
+      "pdf_page": 11
+    },
+    {
+      "n": 12,
+      "img": "img/IL01/IL01_s012.webp",
+      "title": "Solferino 1859",
+      "text": "The slide shows only Bossoli's painting of the battle of Solferino with a caption and offers no explanation. In the history of the discipline Solferino is known as the event out of which the Red Cross and the first Geneva Convention emerged, that is the beginning of humanitarian law, which is why it usually appears in a historical overview. Check against the lecture or a textbook whether that connection was in fact drawn here; it cannot be read off the slide itself.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 76,
+      "text_sha": "7eb70ac9217bd763",
+      "pdf_page": 12,
+      "note": "Slide carries no explanatory text. The link to the birth of humanitarian law is supplied from general knowledge, not from the slide. See REPORT.md."
+    },
+    {
+      "n": 13,
+      "img": "img/IL01/IL01_s013.webp",
+      "title": "CSS Alabama",
+      "text": "The caption says only that CSS Alabama was built in Liverpool in 1862. In the history of the discipline the ship is associated with the Alabama claims — a dispute between the United States and Britain over breaches of the duties of a neutral state, settled by international arbitration in 1871–72 and usually cited as a breakthrough in the peaceful settlement of disputes. None of this follows from the slide, so treat it as context to verify rather than as material from the slide.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 150,
+      "text_sha": "26fa3a1c9e855c9e",
+      "pdf_page": 13,
+      "note": "The slide also carries a photograph of a modern submarine with a Cyrillic marking, which the slide neither explains nor captions. See REPORT.md."
+    },
+    {
+      "n": 14,
+      "img": "img/IL01/IL01_s014.webp",
+      "title": "The world in 1945",
+      "text": "The map is a colour key, not decoration: blue marks the 51 founding members of the UN, yellow states outside it, and the remainder (largely orange and red here) non-independent entities. What matters is what is NOT blue — almost all of Africa, much of South and South-East Asia, and the Caribbean. In 1945 the 'international community' was therefore some fifty states, predominantly American and European, plus the USSR and Australia. Hold this map next to the one on the following slide: the difference between them is the whole of decolonization.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Looking at the map of the world in 1945, which regions are largely absent from the group of UN founding members, and why does that matter?",
+          "a": "Almost all of Africa, much of South and South-East Asia and the Caribbean — they were not independent states. It matters because international law is consent-based: the rules of the classical system were made without the states that make up most of the membership today.",
+          "difficulty": 3,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 302,
+      "text_sha": "d4c005cd88a47117",
+      "pdf_page": 14
+    },
+    {
+      "n": 15,
+      "img": "img/IL01/IL01_s015.webp",
+      "title": "The world in 2025",
+      "text": "The same map eighty years later is almost entirely blue: 193 UN member states. Red marks the handful of remaining non-self-governing territories, most visibly Western Sahara and a few islands. The pair of maps on slides 14 and 15 is a visual argument for what slide 5 said: decolonization changed not only politics but whose consent is needed to make rules — which is why general practice is now much harder to establish.",
+      "terms": [
+        {
+          "term": "non-self-governing territory",
+          "def": "A territory whose people have not yet attained full self-government, listed by the UN under Chapter XI of the Charter."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Why is the jump from roughly 51 to 193 states a legal problem, not just a political fact?",
+          "a": "Because international law rests on the consent of its subjects. Rules made by a small club must be shown to be accepted by a far larger and more diverse membership, which makes general practice and consent harder to establish.",
+          "difficulty": 3,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 158,
+      "text_sha": "6021b45ddcffac0e",
+      "pdf_page": 15
+    },
+    {
+      "n": 16,
+      "img": "img/IL01/IL01_s016.webp",
+      "title": "International legal personality: who bears rights",
+      "text": "Personality is not all-or-nothing; the slide grades it. Only states have full personality, and only states are sovereign. Partial personality belongs to intergovernmental organizations, to individuals and corporations (typically in human rights and in the criminal responsibility of individuals), and to national liberation movements and insurgents. Non-governmental organizations have none at all, however influential they are in practice — influence and legal personality are different things, and that pair is a favourite trap.",
+      "terms": [
+        {
+          "term": "international legal personality",
+          "def": "The capacity to bear rights and obligations under international law."
+        },
+        {
+          "term": "NGO",
+          "def": "Non-governmental organization — according to the slide, without international legal personality."
+        },
+        {
+          "term": "IGO",
+          "def": "Intergovernmental organization created by states; holds derived, partial personality."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Amnesty International is more influential than many small states. Does it have international legal personality?",
+          "a": "No. NGOs have none, however influential they are. Influence and legal personality are different things; personality means being a bearer of rights and duties under international law.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        },
+        {
+          "q": "Which subjects have only partial international legal personality?",
+          "a": "Intergovernmental organizations, individuals and corporations, and national liberation movements and insurgents. Only states have full personality — and only states are sovereign.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 626,
+      "text_sha": "75922ce5ad170712",
+      "pdf_page": 16
+    },
+    {
+      "n": 17,
+      "img": "img/IL01/IL01_s017.webp",
+      "title": "Where personality comes from: the diagram",
+      "text": "Read the diagram from left to right. On the left stands a single box, States (original) — states hold personality of their own, derived from no one. Two branches run from it: 'persons that States create' leads to international organizations, and 'persons that States recognize' leads to insurgents, national liberation movements, individuals, multinational corporations, the Holy See and the International Committee of the Red Cross. The message of the diagram is that every other personality is derived: a state either creates it or recognizes it.",
+      "terms": [
+        {
+          "term": "Holy See",
+          "def": "Spelled 'Holy Sea' on the slide; a subject recognized by states rather than created by them."
+        },
+        {
+          "term": "ICRC",
+          "def": "International Committee of the Red Cross — a private Swiss body whose international standing was recognized by states."
+        }
+      ],
+      "cards": [
+        {
+          "q": "By what two routes can an entity other than a state acquire international legal personality?",
+          "a": "States create it (international organizations) or states recognize it (insurgents, national liberation movements, individuals, multinational corporations, the Holy See, the ICRC). Only states hold original personality.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 485,
+      "text_sha": "625264e402ed8434",
+      "pdf_page": 17
+    },
+    {
+      "n": 18,
+      "img": "img/IL01/IL01_s018.webp",
+      "title": "Six features of PIL (outline of part III)",
+      "text": "This slide is the signpost for the whole of part III: state sovereignty, the territory of a state, sovereign equality, non-intervention in internal affairs, consent and sources, and state responsibility. It is worth memorising as a skeleton — in a problem question it works as a checklist of the angles from which a set of facts can be attacked.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 385,
+      "text_sha": "b4a67d72f7dc90d4",
+      "pdf_page": 18
+    },
+    {
+      "n": 19,
+      "img": "img/IL01/IL01_s019.webp",
+      "title": "A horizontal legal system",
+      "text": "Domestic law is vertical: central organs of the state make rules for all persons and objects on the territory and enforce them from above. International law is horizontal — there is no central legislature, no court with compulsory jurisdiction and no enforcement body. The addressees of the rules are also their authors, which is described as a system of coordination rather than subordination. This single feature explains almost everything else in the course: why the sources rest on consent (slide 23), why enforcement runs through self-help (slide 30), and why the question arises at all whether this is law (slide 29).",
+      "terms": [
+        {
+          "term": "coordination vs subordination",
+          "def": "Coordination: rules made among equals who are themselves bound by them. Subordination: rules imposed from above by a superior authority."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Name three consequences of international law being a horizontal rather than a vertical legal system.",
+          "a": "Law is made by its own addressees, so it rests on consent; there is no compulsory jurisdiction; and enforcement runs through self-help rather than a central executive.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 568,
+      "text_sha": "16c3a9e2d579d198",
+      "pdf_page": 19
+    },
+    {
+      "n": 20,
+      "img": "img/IL01/IL01_s020.webp",
+      "title": "Internal and external sovereignty",
+      "text": "The slide is a two-column table. On the left, internal sovereignty: autonomy and supreme authority to govern all people and objects on the state's territory, and beneath it, as a newer feature, the responsibility to protect (R2P), i.e. protecting another state's population against the gravest human rights violations. On the right, external sovereignty: independence and equality of states in their mutual relations, no state subject to the authority of another, and the principle of 'one state, one vote' in organizations and negotiations. Note where R2P has been placed — under internal sovereignty, as a limit on it: sovereignty no longer means that what happens inside is nobody else's business.",
+      "terms": [
+        {
+          "term": "R2P (responsibility to protect)",
+          "def": "The idea that responsibility for protecting a population from the gravest crimes passes to the international community when the state fails to do so."
+        }
+      ],
+      "cards": [
+        {
+          "q": "How does the responsibility to protect (R2P) sit with internal sovereignty?",
+          "a": "It qualifies it. Internal sovereignty means supreme authority over people and things on the territory, but R2P treats the protection of a population against the gravest human rights violations as a matter others may act on.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "'One state, one vote' belongs to which side of sovereignty, internal or external?",
+          "a": "External — it expresses the independence and formal equality of states in their relations with each other.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 855,
+      "text_sha": "bd9ee3e27eb2191b",
+      "pdf_page": 20,
+      "note": "The R2P bullet on the slide breaks off at a colon ('violations:') — the list of crimes is missing from the slide."
+    },
+    {
+      "n": 21,
+      "img": "img/IL01/IL01_s021.webp",
+      "title": "Absolute versus relative sovereignty",
+      "text": "Two answers to the question whether international law binds the state at all. On the absolute view, which the slide attributes to Hegel, international law is merely 'external state law' from which a state may withdraw unilaterally — in which case it is not law in any real sense. On the relative view, which prevails today, no state is subject to another state, but all states are subject to and bound by international law. The difference between 'subject to nobody' and 'subject to no other state' is exactly the two-word trap that costs marks in the exam.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "State A argues it may withdraw from a rule of international law whenever it wishes, because it is sovereign. Which conception is that, and why is it rejected today?",
+          "a": "Absolute sovereignty — international law as mere 'external state law' (Hegel). It is rejected because under the relative conception no state is subject to another state, but all states are subject to and bound by international law.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 511,
+      "text_sha": "b88738369ab73c6c",
+      "pdf_page": 21
+    },
+    {
+      "n": 22,
+      "img": "img/IL01/IL01_s022.webp",
+      "title": "Equality on paper and the reality of power",
+      "text": "The slide concedes a contradiction you need to be able to name: formal sovereign equality does not match reality, because states are deeply unequal in economic and political terms and the rule of 'one state, one vote' does not capture that. At the same time it offers a reason why the law keeps growing: ubi interactio, ibi ius — where there is interaction, there is law; as states become more interdependent, more rules appear. A useful exam note: equality is a legal category, not a description of the world.",
+      "terms": [
+        {
+          "term": "ubi interactio, ibi ius",
+          "def": "'Where there is interaction, there is law.' The denser the relations between states, the more rules arise."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Is 'one state, one vote' evidence that states really are equal?",
+          "a": "No. It expresses formal legal equality only; economically and politically states are deeply unequal, and the voting rule does not capture that distribution of power.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 637,
+      "text_sha": "502cb43a193b9a74",
+      "pdf_page": 22
+    },
+    {
+      "n": 23,
+      "img": "img/IL01/IL01_s023.webp",
+      "title": "The consent of states",
+      "text": "This slide is the hinge between the part on sovereignty and the part on sources. Because nobody stands above states, states themselves create, interpret and apply the rules, and the rules bind them because they consented. Consent comes in two forms: express, through treaties, and tacit, in customary law, where it is enough that the state did not object to the emerging rule. The persistent objector doctrine grows out of the second form and is developed in the later lectures on sources.",
+      "terms": [
+        {
+          "term": "consent",
+          "def": "The state's agreement as the ground of a rule's binding force: express in treaties, tacit in custom where the state did not object."
+        }
+      ],
+      "cards": [
+        {
+          "q": "In what two different ways do states consent to rules of international law?",
+          "a": "Expressly, by becoming party to a treaty; and tacitly, by not objecting to a rule as it emerges in customary law.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Why does the consent basis of international law follow from its horizontal structure?",
+          "a": "Because there is no legislator above states, the addressees of the rules are also their authors — so a rule can only bind a state on the basis of its own consent.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 432,
+      "text_sha": "9df4be845ee01abe",
+      "pdf_page": 23
+    },
+    {
+      "n": 24,
+      "img": "img/IL01/IL01_s024.webp",
+      "title": "Article 38 of the ICJ Statute",
+      "text": "The slide quotes Article 38 of the Statute of the International Court of Justice and divides it graphically: paragraphs (a), (b) and (c) are boxed together and labelled formal sources — international conventions, international custom and general principles of law. Paragraph (d) is boxed separately and labelled 'subsidiary means / material sources': judicial decisions and the teachings of publicists are not sources but aids in determining what the rules are. This distinction is the single most common trap in the chapter. Note also that the literal text still carries the period phrase 'civilized nations', which is no longer used but remains in the Statute.",
+      "terms": [
+        {
+          "term": "ICJ",
+          "def": "International Court of Justice, the principal judicial organ of the UN; its Statute is annexed to the Charter."
+        },
+        {
+          "term": "formal source",
+          "def": "The process by which a rule comes into existence and becomes binding: treaty, custom, general principles."
+        },
+        {
+          "term": "subsidiary means",
+          "def": "Case law and scholarly writing — they do not create law, they help determine what it is."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Are judicial decisions a source of international law under Article 38 of the ICJ Statute?",
+          "a": "No. Article 38(d) lists judicial decisions and the teachings of publicists as subsidiary means for the determination of rules of law, not as formal sources. The formal sources are (a) conventions, (b) custom and (c) general principles.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What does Article 59 do to the weight of ICJ judgments, and why is it mentioned in Article 38(d)?",
+          "a": "Article 38(d) applies 'subject to the provisions of Article 59', i.e. a decision binds only the parties and only in that case — which is why case law can serve as a subsidiary means but not as a source creating general rules.",
+          "difficulty": 3,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 899,
+      "text_sha": "77d7bab726f0efba",
+      "pdf_page": 24
+    },
+    {
+      "n": 25,
+      "img": "img/IL01/IL01_s025.webp",
+      "title": "Five sources — and which are not in Article 38",
+      "text": "The slide assembles the full list and the arrows on the right say where each part comes from. Treaties, custom and general principles of law are in Article 38. Decisions of international organizations (typically binding Security Council resolutions) and unilateral acts are NOT in Article 38, and yet they function as sources. The explanation is historical: the provision dates from 1920 and the catalogue has not been revised since, while practice has moved on — which is itself a usable argument in an essay answer.",
+      "terms": [
+        {
+          "term": "unilateral act",
+          "def": "A one-sided act by which a state may bind itself, typically a public undertaking; not listed in Article 38."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Name two sources of international law that are not listed in Article 38 of the ICJ Statute.",
+          "a": "Binding decisions of international organizations (e.g. UN Security Council resolutions under Chapter VII) and unilateral acts of states.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Why does the list in Article 38 not match the sources actually used today?",
+          "a": "The provision was carried over unchanged from the 1920 Statute of the PCIJ, while practice added binding IO decisions and unilateral acts. Article 38 is a good but incomplete catalogue.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 474,
+      "text_sha": "6248c7d0ad7c7285",
+      "pdf_page": 25
+    },
+    {
+      "n": 26,
+      "img": "img/IL01/IL01_s026.webp",
+      "title": "A decision of an international organization: SC Resolution 1373",
+      "text": "The extract is the worked example for the previous slide. Security Council Resolution 1373 (2001), adopted three weeks after 11 September, is introduced by the formula 'Acting under Chapter VII of the Charter' and continues with 'Decides that all States shall' — not 'recommends'. Those words are what turn the resolution into a binding decision for every state rather than a political declaration. It also imposes general obligations for the future, such as preventing and criminalizing the financing of terrorism, which is why it is described as quasi-legislative action by the Council.",
+      "terms": [
+        {
+          "term": "Chapter VII",
+          "def": "The chapter of the UN Charter giving the Security Council power to adopt binding measures in response to threats to the peace."
+        },
+        {
+          "term": "'Decides that all States shall'",
+          "def": "The operative formula creating a binding obligation, as opposed to 'recommends' or 'calls upon'."
+        }
+      ],
+      "cards": [
+        {
+          "q": "How do you tell from the text of a Security Council resolution that it is binding?",
+          "a": "By the basis and the operative language: acting under Chapter VII and 'decides that all States shall…' creates obligations, whereas 'recommends' or 'calls upon' does not.",
+          "difficulty": 3,
+          "kind": "norma",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 776,
+      "text_sha": "5c6597ab14ece313",
+      "pdf_page": 26
+    },
+    {
+      "n": 27,
+      "img": "img/IL01/IL01_s027.webp",
+      "title": "Soft law",
+      "text": "Soft law means non-binding resolutions of international organizations and political declarations; the slide illustrates it with the Universal Declaration of Human Rights of 1948, shown as a photograph of Eleanor Roosevelt holding the printed text and as the cover of the document. The key point: the Declaration was not adopted as a binding instrument, yet it became the starting point of later binding treaties and part of its content has hardened into custom. Soft law is therefore not 'weak law' but non-law that shapes what will become law.",
+      "terms": [
+        {
+          "term": "soft law",
+          "def": "Non-binding instruments — resolutions, declarations, codes of conduct — that are not sources of law but shape future practice and interpretation."
+        },
+        {
+          "term": "UDHR",
+          "def": "Universal Declaration of Human Rights (1948), a General Assembly resolution and as such not binding in itself."
+        }
+      ],
+      "cards": [
+        {
+          "q": "The UDHR is 'only' a General Assembly resolution. Why is it still legally relevant?",
+          "a": "As soft law it is not binding in itself, but it shaped later binding treaties and parts of its content have hardened into customary international law.",
+          "difficulty": 3,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 368,
+      "text_sha": "baa276f5fe6d1483",
+      "pdf_page": 27
+    },
+    {
+      "n": 28,
+      "img": "img/IL01/IL01_s028.webp",
+      "title": "Hierarchy of sources",
+      "text": "The diagram is drawn as a temple. Five yellow pillars stand side by side at the SAME height — treaties, custom, unilateral acts, general principles of law and binding decisions of international organizations — so there is NO hierarchy among them. Above them lies the pediment of ius cogens, the peremptory norms no source may contradict. Below the pillars runs a band of soft law, separated by an arrow labelled 'normative threshold': the line under which something is no longer law. The single vertical arrow on the right marked 'Hierarchy' therefore separates only three levels: peremptory norms, ordinary sources, and soft law.",
+      "terms": [
+        {
+          "term": "ius cogens",
+          "def": "A peremptory norm of general international law from which no derogation by agreement is permitted; it prevails over the other sources."
+        },
+        {
+          "term": "normative threshold",
+          "def": "The line below which instruments (soft law) are no longer legally binding rules."
+        }
+      ],
+      "cards": [
+        {
+          "q": "A treaty and a rule of customary law conflict. Does the treaty automatically prevail because treaties rank higher?",
+          "a": "No. The five sources stand at the same level — there is no hierarchy among them. Only ius cogens ranks above them all; soft law sits below the normative threshold and is not law at all.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What is the 'normative threshold' in the hierarchy diagram?",
+          "a": "The line separating binding sources from soft law: below it, instruments may influence practice but do not create legal obligations.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 751,
+      "text_sha": "74b2aebe61836808",
+      "pdf_page": 28
+    },
+    {
+      "n": 29,
+      "img": "img/IL01/IL01_s029.webp",
+      "title": "Is international law law? Is it effective?",
+      "text": "The slide sets two columns against each other and answers two questions at once — whether this is law and whether it works. On the left, 'No / No': John Austin, whose portrait sits at the top, held that without a central legislature, without compulsory jurisdiction and without a body monopolising force there is no law, and that collective security is ineffective. On the right, 'Yes / Yes (most of the time)': reciprocity generates a compliance pull, there is a basic consensus on the validity of the international legal order, and compliance usually pays. The next four slides are the elaboration of the right-hand column — how the system is enforced and what motivates compliance.",
+      "terms": [
+        {
+          "term": "John Austin",
+          "def": "Nineteenth-century legal positivist; on his command theory law is the command of a sovereign backed by sanction, which is why he denied that international law is law."
+        },
+        {
+          "term": "compliance pull",
+          "def": "The pressure to comply arising from reciprocity: a state that breaks a rule forfeits its claim that others keep it."
+        }
+      ],
+      "cards": [
+        {
+          "q": "On what premise does Austin's claim that international law is not law rest, and how is it answered?",
+          "a": "On a command theory: law requires a sovereign commanding with sanctions, which international law lacks. The answer is that a horizontal order works through reciprocity, a basic consensus on its validity, and the cost-benefit calculus of states.",
+          "difficulty": 3,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 782,
+      "text_sha": "50c24dac15199098",
+      "pdf_page": 29
+    },
+    {
+      "n": 30,
+      "img": "img/IL01/IL01_s030.webp",
+      "title": "Enforcement through self-help: countermeasures and retorsion",
+      "text": "Because there is no central executive and judicial settlement remains uncommon, enforcement runs through self-help — and the slide separates two things students routinely confuse. A countermeasure is conduct that would in principle be unlawful, but is not, because its addressee itself previously breached international law; its limits are proportionality and ius cogens. A retaliatory measure (retorsion) is conduct that is lawful but unfriendly — breaking off diplomatic relations, discontinuing economic aid. The first question to ask in the exam: would this conduct be unlawful if no prior breach had occurred?",
+      "terms": [
+        {
+          "term": "countermeasure",
+          "def": "Otherwise unlawful conduct whose wrongfulness is precluded as a response to a prior breach. Limits: proportionality and ius cogens."
+        },
+        {
+          "term": "retorsion / retaliatory measure",
+          "def": "Unfriendly but inherently lawful conduct (severing relations, ending aid). Needs no prior breach to justify it."
+        },
+        {
+          "term": "proportionality",
+          "def": "A countermeasure must not be disproportionate to the injury suffered."
+        }
+      ],
+      "cards": [
+        {
+          "q": "How do you tell a countermeasure from an act of retorsion?",
+          "a": "Ask whether the act would be unlawful without the prior breach. A countermeasure would be — its wrongfulness is precluded by the other state's prior violation. Retorsion is lawful anyway, merely unfriendly.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "State A freezes assets it is treaty-bound to release, after State B breached the same treaty. Lawful?",
+          "a": "Potentially, as a countermeasure: the wrongfulness is precluded by B's prior breach, provided the response is proportionate and does not violate ius cogens.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 578,
+      "text_sha": "0f0a81055224d290",
+      "pdf_page": 30
+    },
+    {
+      "n": 31,
+      "img": "img/IL01/IL01_s031.webp",
+      "title": "Retorsion in practice",
+      "text": "A photograph from Hangzhou, 4 September 2016: President Obama walks down the aircraft's own stairs, and a red arrow on the slide marks 'NO RED CARPET' — the missing carpet at the G20 arrival. Not rolling out a carpet breaches no obligation; it is a demonstrative unfriendly gesture, and so a textbook act of retorsion. The slide puts a face on the distinction from the previous slide: retorsion is recognised by the fact that no rule is broken at all.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Why is refusing a head of state the red carpet an example of retorsion rather than a countermeasure?",
+          "a": "Because no legal obligation is breached by it — it is an unfriendly but lawful act, and it needs no prior violation by the other state to justify it.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 285,
+      "text_sha": "9ba54d91b19b4d3b",
+      "pdf_page": 31
+    },
+    {
+      "n": 32,
+      "img": "img/IL01/IL01_s032.webp",
+      "title": "Why states comply: international costs",
+      "text": "The table sorts the pressure by where it comes from. Bilaterally the injured state can reach for countermeasures, retorsion and individual self-defence — all reactions by a single state. Multilaterally the costs rise: exclusion from international organizations, loss of goodwill and reputation, losing disputes before international courts, collective self-defence, Security Council sanctions or authorization of force, non-recognition of territorial gains and treaties obtained by force, and finally international criminal responsibility. That last item matters because of its addressee: it is not the state that is punished but the individual who decided.",
+      "terms": [
+        {
+          "term": "non-recognition",
+          "def": "The duty not to recognize territorial gains or treaties procured by the unlawful use of force."
+        },
+        {
+          "term": "collective self-defence",
+          "def": "Assistance to an attacked state by other states."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Which costs of breaking international law are bilateral and which are multilateral?",
+          "a": "Bilateral: countermeasures, retorsion, individual self-defence. Multilateral: exclusion from IOs, reputational loss, losing cases before international courts, collective self-defence, Security Council sanctions or authorization of force, non-recognition of gains made by force, and individual criminal responsibility.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 774,
+      "text_sha": "e2a66b2a1a6fb2f6",
+      "pdf_page": 32
+    },
+    {
+      "n": 33,
+      "img": "img/IL01/IL01_s033.webp",
+      "title": "Why states comply: domestic costs",
+      "text": "The last slide turns the view inward: breaking the law does not pay because it damages the government at home. It hands an advantage to the political opposition, meets resistance from organized interest groups, draws criticism from the media and NGOs, and burdens the foreign policy bureaucracy. Together with slide 32 this is the answer to Austin: the system is not enforced by a police force, it is enforced by costs — external and internal alike.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Give the domestic reasons why a government may comply with international law even when no sanction threatens.",
+          "a": "A breach hands an advantage to the political opposition, provokes resistance from organized interest groups, draws criticism from media and NGOs, and burdens the foreign policy bureaucracy.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 385,
+      "text_sha": "27a1acfd1dbe6fdc",
+      "pdf_page": 33
+    }
+  ]
+}

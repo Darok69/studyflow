@@ -1,0 +1,117 @@
+{
+  "lecture_id": "IL02",
+  "slides": {
+    "31": {
+      "title": "The Austrian procedure, step by step",
+      "text": "Austria's route through the five stages: negotiations with full powers from the Federal President under Article 50 of the Constitution, signature on the President's full powers, ratification after approval by the National Council and the Federal Council, deposit with the depositary or exchange with the contracting states, entry into application, and finally publication in the Bundesgesetzblatt III. The last two steps are domestic: international entry into force and domestic applicability are separate questions.",
+      "terms": [
+        { "term": "BGBl III", "def": "Bundesgesetzblatt Teil III — the part of the Austrian official gazette in which treaties are published." }
+      ],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "32": {
+      "title": "The Austrian instrument of ratification (1)",
+      "text": "Two slides reproduce a real Austrian instrument of ratification in German — for the International Convention on the Elimination of All Forms of Racial Discrimination, BGBl 1972/377. The opening recital records that the convention was opened for signature in New York on 7 March 1966, that its Articles 1, 2 and 14 contain provisions amending the constitution, and that Austria attached a declaration to Article 4.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "note": "Slides 32–34 are in German; the rest of the deck and the exam are in English."
+    },
+
+    "33": {
+      "title": "The Austrian instrument of ratification (2)",
+      "text": "The operative part shows who signs what. After the National Council has given its constitutional approval, the Federal President declares the convention ratified and promises its conscientious fulfilment in the name of the Republic; the instrument is signed by the Federal President, countersigned by the Chancellor and every federal minister, and sealed with the state seal. The point for the law of treaties: ratification is the international act, but it rests on a completed domestic approval procedure.",
+      "terms": [],
+      "cards": [
+        { "q": "Who signs an Austrian instrument of ratification, and what must have happened first?", "a": "The Federal President signs, countersigned by the Chancellor and the federal ministers and sealed with the state seal — after the National Council has given its constitutional approval.", "difficulty": 1, "kind": "definice", "priority": "extra" }
+      ],
+      "vision_used": true
+    },
+
+    "34": {
+      "title": "Erfüllungsvorbehalt: approval with a reservation of implementation",
+      "text": "A third German slide, and the one with a real doctrinal point. When approving the racial discrimination convention, the National Council resolved under Article 50(2) of the Federal Constitution that it was to be fulfilled by enacting laws. That is the Erfüllungsvorbehalt: parliament approves the treaty but declares that it will not be directly applicable, so courts and authorities cannot apply it until implementing legislation exists. It is the Austrian counterpart of the self-executing / non-self-executing distinction from slide 17. Internationally the treaty entered into force for Austria on 8 June 1972 regardless.",
+      "terms": [
+        { "term": "Erfüllungsvorbehalt", "def": "Art 50(2) B-VG: parliament's declaration that a treaty is to be implemented by statute, so it is not directly applicable in Austrian law." }
+      ],
+      "cards": [
+        { "q": "What does an Erfüllungsvorbehalt change, and what does it not change?", "a": "It bars direct application of the treaty in domestic law until implementing statutes are passed. It does not affect the treaty's binding force internationally — the state is bound from entry into force either way.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "35": {
+      "title": "The four ways of expressing consent to be bound",
+      "text": "Signature, where no ratification is required; ratification, defined on the slide as the internal act of approval plus the declaration of acceptance; accession; and exchange of instruments constituting a treaty. Note the composite definition of ratification — it has a domestic half and an international half, which is exactly what the Austrian example on the previous slides showed.",
+      "terms": [],
+      "cards": [
+        { "q": "List the four means of expressing consent to be bound by a treaty.", "a": "Signature (where no ratification is required), ratification, accession, and exchange of instruments constituting a treaty.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "36": { "title": "Checklist position: entry into force", "text": "The wheel with item 5 highlighted.", "terms": [], "cards": [], "vision_used": true },
+
+    "37": {
+      "title": "Entry into force — Article 24 VCLT",
+      "text": "Three rules in descending order. First, the treaty enters into force in the manner and on the date it provides, or as the negotiating states agree — party autonomy comes first. Second, failing any such provision, it enters into force as soon as consent to be bound has been established for ALL the negotiating states. Third, where a state's consent is established after the treaty has already come into force, the treaty enters into force for that state on that later date, unless it provides otherwise. The third paragraph is the seed of the objective/subjective distinction two slides on.",
+      "terms": [
+        { "term": "Art 24 VCLT", "def": "Entry into force: as the treaty provides or the negotiating states agree; failing that, when all negotiating states have consented; for later joiners, on the date of their own consent." }
+      ],
+      "cards": [
+        { "q": "A treaty says nothing about its entry into force and the negotiating states agreed nothing. When does it enter into force?", "a": "As soon as consent to be bound has been established for all the negotiating states (Art 24(2) VCLT).", "difficulty": 2, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "38": {
+      "title": "The VCLT's own entry-into-force clause (Art 84)",
+      "text": "Article 84 is the standard pattern for a multilateral treaty: it enters into force on the thirtieth day after the thirty-fifth instrument of ratification or accession is deposited, and for every later state on the thirtieth day after that state's own deposit. Two numbers do the work — a threshold of parties and a waiting period. This is why the VCLT, adopted in 1969, only entered into force in 1980.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "39": {
+      "title": "Objective and subjective entry into force",
+      "text": "The table compares four treaties — VCLT, UNCLOS, UN-CAT and the Paris Agreement — along the same rows, and its purpose is one distinction. Objective entry into force is the date the treaty comes into force at all, once the required number of ratifications (35, 60, 20, 55 respectively) is reached. Subjective entry into force is the date it comes into force for one particular state. A state that ratified early waits for the threshold: Austria ratified the VCLT on 30.04.1979 but was bound only from 27.01.1980. A state that joins later waits only its own stipulated period: Switzerland deposited in 1990 and was bound thirty days after. Always answer both questions separately in a case.",
+      "terms": [
+        { "term": "objective entry into force", "def": "The date on which the treaty enters into force as such, once the required number of ratifications is reached." },
+        { "term": "subjective entry into force", "def": "The date on which the treaty enters into force for one particular state." }
+      ],
+      "cards": [
+        { "q": "State A ratifies a treaty two years before the required number of ratifications is reached. From when is it bound?", "a": "From the objective entry into force, i.e. when the threshold is met and any waiting period expires — not from its own ratification. Austria ratified the VCLT in April 1979 but was bound from 27 January 1980.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "What is the difference between objective and subjective entry into force?", "a": "Objective is the date the treaty enters into force at all; subjective is the date it enters into force for a given state. For a late joiner the two differ.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "40": {
+      "title": "A double threshold: the Paris Agreement",
+      "text": "Article 21 of the Paris Agreement shows that the threshold need not be a bare headcount. It required at least 55 Parties accounting in total for at least an estimated 55 per cent of global greenhouse gas emissions, and then the usual thirty days. The second condition is political engineering: without it a treaty on emissions could have entered into force without the states that actually emit.",
+      "terms": [],
+      "cards": [
+        { "q": "Why does the Paris Agreement's entry-into-force clause require 55 per cent of emissions and not only 55 parties?", "a": "Because a bare headcount could be met by states that emit almost nothing, leaving the treaty in force without the major emitters. The double threshold ties entry into force to the states whose conduct the treaty is about.", "difficulty": 2, "kind": "norma", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "41": {
+      "title": "What entry into force triggers: validity",
+      "text": "The diagram splits the consequences of entry into force into two branches. On the right, timing: the treaty applies from the agreed moment, or if nothing was agreed, from consent by all negotiating parties. On the left, validity, with the two rules to memorise. Article 26 VCLT — pacta sunt servanda: every treaty in force binds the parties and must be performed in good faith. Article 27 — a party may not invoke its internal law as justification for failure to perform. The exception is the one from Cameroon v. Nigeria: a manifest violation of a rule of internal law of fundamental importance regarding competence, Articles 27 and 46 read together.",
+      "terms": [
+        { "term": "pacta sunt servanda", "def": "Art 26 VCLT: every treaty in force is binding upon the parties and must be performed by them in good faith." },
+        { "term": "Art 27 VCLT", "def": "A party may not invoke the provisions of its internal law as justification for its failure to perform a treaty." }
+      ],
+      "cards": [
+        { "q": "A state pleads that its new domestic statute makes performance of a treaty impossible. Is that a defence?", "a": "No. Article 27 VCLT: internal law may not be invoked as justification for failure to perform. The only opening is Article 46 — a manifest violation of a rule of internal law of fundamental importance concerning competence to conclude treaties, which goes to validity of consent, not to performance.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "State the rule of Article 26 VCLT in its Latin name and in substance.", "a": "Pacta sunt servanda: every treaty in force is binding upon the parties to it and must be performed by them in good faith.", "difficulty": 1, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "42": { "title": "Checklist position: interpretation", "text": "The wheel with item 6 highlighted — how the text of a treaty is to be read.", "terms": [], "cards": [], "vision_used": true }
+  }
+}

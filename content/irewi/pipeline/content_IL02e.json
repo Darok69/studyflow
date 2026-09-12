@@ -1,0 +1,177 @@
+{
+  "lecture_id": "IL02",
+  "slides": {
+    "55": {
+      "title": "What a reservation is (Art 2(1)(d) VCLT)",
+      "text": "A reservation is a unilateral statement by which a state purports to change how the treaty applies to it, and it comes in only two shapes: excluding a certain provision altogether, or modifying the legal effect of a certain provision. What matters is the substance, not the label — a statement called an 'interpretative declaration' is a reservation if it excludes or modifies legal effect.",
+      "terms": [
+        { "term": "reservation", "def": "Art 2(1)(d) VCLT: a unilateral statement made on signing, ratifying or acceding, purporting to exclude or modify the legal effect of certain treaty provisions for that state." }
+      ],
+      "cards": [
+        { "q": "What are the only two things a reservation can do?", "a": "Exclude a certain provision of the treaty, or modify the legal effect of a certain provision — for the reserving state.", "difficulty": 1, "kind": "definice", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "56": {
+      "title": "When a reservation is prohibited (Art 19 VCLT)",
+      "text": "Three cases, and they run from explicit to implicit. Under (a) the treaty itself prohibits reservations. Under (b) the treaty permits only specified reservations and the one made is not among them. Under (c) — the residual and by far the most litigated — the reservation is incompatible with the object and purpose of the treaty. The first question in any reservation problem is Article 19; only if the reservation clears it do you move on to its effects.",
+      "terms": [
+        { "term": "Art 19 VCLT", "def": "A reservation is prohibited if the treaty forbids reservations, if it allows only specified ones and this is not among them, or if it is incompatible with the treaty's object and purpose." }
+      ],
+      "cards": [
+        { "q": "A treaty is silent about reservations and a state makes one that guts its central obligation. Is it permissible?", "a": "No — Article 19(c) VCLT: a reservation incompatible with the object and purpose of the treaty is prohibited even where the treaty says nothing about reservations.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "Name the three grounds on which Article 19 VCLT prohibits a reservation.", "a": "(a) the treaty prohibits reservations; (b) the treaty allows only specified reservations and this is not one of them; (c) the reservation is incompatible with the treaty's object and purpose.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "57": {
+      "title": "How reservations become public",
+      "text": "A German-language page of the Austrian gazette listing the reservations and declarations made by other states to the racial discrimination convention. Egypt declared that it does not consider itself bound by Article 22, under which disputes about interpretation go to the ICJ at the request of one party, and insisted that the consent of all parties to the dispute is needed in each case. Denmark declared that the local government of the Faroe Islands must first approve the implementing legislation. The practical point: reservations by OTHER states are part of the legal position you must check, and they are published exactly like the treaty.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "note": "Slide in German."
+    },
+
+    "58": {
+      "title": "Saudi Arabia's reservation to CEDAW",
+      "text": "The worked example, in two parts. First a general reservation: in case of contradiction between any term of the Convention and the norms of Islamic law, the Kingdom is not under an obligation to observe the contradictory terms. Second, specific reservations to Article 9(2) — equal rights of women with respect to the nationality of their children — and Article 29(1), the dispute settlement clause. Read this against Article 19(c) and ask yourself what is left of the Convention if a party may set aside any term that conflicts with an unspecified body of other norms.",
+      "terms": [
+        { "term": "CEDAW", "def": "Convention on the Elimination of All Forms of Discrimination against Women (1979)." },
+        { "term": "general reservation", "def": "A reservation referring to a whole body of domestic or religious law rather than to identified provisions; criticised as too imprecise to assess." }
+      ],
+      "cards": [
+        { "q": "Why is a reservation subordinating a human rights treaty to 'the norms of Islamic law' problematic under Article 19 VCLT?", "a": "Because it does not specify which provisions it affects, so its extent cannot be assessed — and to the extent it releases the state from obligations essential to the treaty's object and purpose it is incompatible with them under Article 19(c).", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "59": {
+      "title": "The legal effect of a reservation: four reactions",
+      "text": "This diagram is the heart of the reservations topic; learn it as a decision tree. A reservation can be met with explicit acceptance (Art 20(4)(a)) or tacit acceptance (Art 20(5), silence for twelve months) — both create treaty relations between the accepting and the reserving state, with the provisions modified to the extent of the reservation under Article 21. Or it can be met with an objection, and everything turns on the objection's form. An UNQUALIFIED objection does not intend to preclude entry into force: the treaty applies between the two states, but under Article 21(3) the provision to which the reservation relates does not apply between them to the extent of the reservation. A QUALIFIED objection does preclude entry into force: under Article 20(4)(b) there are no treaty relations between those two states at all.",
+      "terms": [
+        { "term": "tacit acceptance", "def": "Art 20(5): a reservation is considered accepted if no objection is raised within twelve months of notification, or by the date of consent to be bound, whichever is later." },
+        { "term": "unqualified objection", "def": "An objection that does not preclude entry into force; the treaty applies between the two states minus the reserved provision (Art 21(3))." },
+        { "term": "qualified objection", "def": "An objection stating that it precludes entry into force; no treaty relations arise between objector and reserving state (Art 20(4)(b))." }
+      ],
+      "cards": [
+        { "q": "State A reserves Article 5. State B objects but says the objection does not preclude entry into force. What applies between A and B?", "a": "The treaty applies between them, except that Article 5 does not apply as between A and B to the extent of the reservation (Art 21(3) VCLT).", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "State C says nothing about state A's reservation for over a year. What is the effect?", "a": "Tacit acceptance under Article 20(5) VCLT. Treaty relations arise between A and C with the reserved provision modified to the extent of the reservation (Art 21).", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "What is the difference between a qualified and an unqualified objection to a reservation?", "a": "A qualified objection precludes the entry into force of the treaty between the objecting and the reserving state (Art 20(4)(b)). An unqualified one leaves the treaty in force between them, minus the reserved provision (Art 21(3)).", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "60": {
+      "title": "Austria's objection to the Saudi reservation",
+      "text": "The Austrian objection of 21 August 2001 is the same decision tree applied to real facts. Austria reasons that the reservation to Islamic law does not clearly specify which provisions it covers or the extent of the derogation, which raises doubts about the commitment; that a final assessment of admissibility cannot be made without clarification; and that the reservation is inadmissible in so far as it negatively affects compliance with obligations essential to the object and purpose. It objects separately to the reservation to Article 9(2) as incompatible with object and purpose. And it closes with the decisive sentence: this position does not preclude the entry into force in its entirety of the Convention between Saudi Arabia and Austria — an unqualified objection.",
+      "terms": [],
+      "cards": [
+        { "q": "Austria objected to Saudi Arabia's CEDAW reservation but added that its position 'does not preclude the entry into force in its entirety of the Convention' between them. What type of objection is that, and what follows?", "a": "An unqualified objection. The Convention is in force between the two states; the provisions covered by the reservation do not apply between them to the extent of the reservation (Art 21(3) VCLT).", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "61": {
+      "title": "Checklist position: invalidity of treaties",
+      "text": "The wheel with item 11 highlighted, branching into two questions to keep apart: the grounds of invalidity, and the procedure for invoking it.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "62": {
+      "title": "Invalidity for lack of consent",
+      "text": "The first family of grounds concerns defects in who consented. One is the manifest violation of a rule of domestic law of fundamental importance — Article 46, met already in Cameroon v. Nigeria. The other is acts of a person lacking competence to represent the state, which splits in two: violation of internal law governing competence, and failure to observe a restriction on the representative's authority. The slide flags the condition for the second with an exclamation mark: notification is needed — the restriction can only be invoked if it was notified to the other negotiating states beforehand.",
+      "terms": [
+        { "term": "restriction on authority", "def": "A specific limitation on a representative's power; it can be invoked as invalidating consent only if notified to the other negotiating states before consent was expressed (Art 47 VCLT)." }
+      ],
+      "cards": [
+        { "q": "A state instructs its negotiator not to accept a particular clause; the negotiator accepts it anyway. Can the state rely on the restriction?", "a": "Only if the restriction was notified to the other negotiating states before the negotiator expressed consent. Without prior notification it cannot be invoked as invalidating consent.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "63": {
+      "title": "The other grounds of invalidity",
+      "text": "Five more, in ascending order of gravity: error, meaning a mistaken impression of facts that vitiates consent; fraud and corruption; coercion of a representative of a state; coercion of a state by the threat or use of force; and incompatibility with jus cogens. The photograph is of Emil Hácha with Hitler and Göring in Berlin in 1939 — the textbook case of coercion of a representative, the night the Czechoslovak president was pressed into signing away what remained of his state. Note the difference between the third and fourth ground: coercion of the person, versus coercion of the state itself.",
+      "terms": [
+        { "term": "error", "def": "A mistaken impression of facts which vitiates consent to a treaty." },
+        { "term": "coercion of a representative", "def": "Pressure directed at the person negotiating or signing; the classic example is Hácha in Berlin, 1939." },
+        { "term": "coercion of a state", "def": "Procuring a treaty by the threat or use of force against the state itself." }
+      ],
+      "cards": [
+        { "q": "Distinguish coercion of a representative from coercion of a state as grounds of invalidity.", "a": "Coercion of a representative targets the individual negotiating or signing (Hácha, Berlin 1939). Coercion of a state is the threat or use of force against the state itself to procure the treaty. Both invalidate, but they are separate grounds.", "difficulty": 2, "kind": "rozliseni", "priority": "core" },
+        { "q": "List the grounds of invalidity of a treaty other than lack of competence.", "a": "Error, fraud and corruption, coercion of a representative, coercion of a state by threat or use of force, and incompatibility with jus cogens.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "64": { "title": "Checklist position: termination and suspension", "text": "The wheel with item 12 highlighted — the last question on the list.", "terms": [], "cards": [], "vision_used": true },
+
+    "65": {
+      "title": "Termination and suspension",
+      "text": "Obligations can stop in two ways, and the diagram reduces the difference to one word each: termination is final, suspension is temporary. Everything that follows — the grounds, the procedure — attaches to one or the other, so in a case always say which of the two is being claimed.",
+      "terms": [],
+      "cards": [
+        { "q": "What separates termination from suspension of a treaty?", "a": "Termination ends the obligations finally; suspension stops them temporarily, after which they revive.", "difficulty": 1, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "66": {
+      "title": "Termination in bilateral and multilateral treaties",
+      "text": "The same event has different names depending on the treaty. In a bilateral treaty one party's exit ends the treaty — termination. In a multilateral treaty one party's exit is withdrawal, and the treaty continues among the rest. This follows from the picture on slide 14: a bilateral treaty is one relationship, a multilateral treaty is many.",
+      "terms": [
+        { "term": "withdrawal", "def": "One party's exit from a multilateral treaty; the treaty remains in force among the other parties." }
+      ],
+      "cards": [
+        { "q": "A party leaves a multilateral treaty. Is the treaty terminated?", "a": "No — that is withdrawal. The treaty remains in force between the remaining parties. Termination is what the equivalent act does to a bilateral treaty.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "67": {
+      "title": "Three routes to discontinuance",
+      "text": "Obligations may end in conformity with the provisions of the treaty itself — the termination clause, as in the Austrian-Kuwaiti investment treaty; by consent of the parties, which is available at any time regardless of what the treaty says; or on grounds drawn from customary international law, which are listed two slides on. Check them in that order: the text first, then agreement, then the customary grounds as a last resort.",
+      "terms": [],
+      "cards": [
+        { "q": "In which order do you check the routes by which treaty obligations may end?", "a": "First the treaty's own provisions; then consent of the parties, available at any time; then the grounds of customary international law.", "difficulty": 2, "kind": "schema", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "68": {
+      "title": "The termination clause again",
+      "text": "Article 15 of the Austria-Kuwait investment treaty is shown a second time, now as the illustration of the first route — termination in conformity with the provisions of the treaty. Thirty years, automatic renewal, one year's written notice before the end of a period, and the twenty-year survival clause for existing investments.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+
+    "69": {
+      "title": "The customary grounds of termination",
+      "text": "Four grounds that operate even where the treaty is silent. Material breach — a serious violation by one party entitles the other to terminate or suspend. Supervening impossibility of performance — the object of the treaty has permanently disappeared. Clausula rebus sic stantibus, a fundamental change of circumstances, which is deliberately hard to invoke: the changed circumstances must have been an essential basis of consent and the change must radically transform the extent of the obligations. And desuetude or obsolescence, where the parties' conduct shows the treaty has fallen out of use.",
+      "terms": [
+        { "term": "material breach", "def": "A serious violation entitling the other party to invoke it as a ground for terminating or suspending the treaty." },
+        { "term": "clausula rebus sic stantibus", "def": "Fundamental change of circumstances; admissible only where the circumstances were an essential basis of consent and the change radically transforms the obligations." },
+        { "term": "desuetude", "def": "A treaty falling out of use by the conduct of the parties." }
+      ],
+      "cards": [
+        { "q": "A state argues that economic conditions have changed dramatically and it can no longer afford a treaty. Will clausula rebus sic stantibus help?", "a": "Almost certainly not. The changed circumstances must have been an essential basis of the parties' consent and the change must radically transform the extent of obligations still to be performed; hardship or a bad bargain is not enough.", "difficulty": 3, "kind": "pripad", "priority": "core" },
+        { "q": "Name the four customary grounds for discontinuing treaty obligations.", "a": "Material breach, supervening impossibility of performance, fundamental change of circumstances (clausula rebus sic stantibus), and desuetude or obsolescence.", "difficulty": 1, "kind": "znaky", "priority": "core" }
+      ],
+      "vision_used": true
+    },
+
+    "70": {
+      "title": "The checklist, closed",
+      "text": "The wheel one last time with nothing highlighted — all twelve questions have now been worked through. Use it as the skeleton for any treaty problem: legal basis, scope of the VCLT, treaty-making power, adoption, entry into force, interpretation, scope of application, third states, modification, reservations, invalidity, termination.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    }
+  }
+}
