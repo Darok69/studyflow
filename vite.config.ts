@@ -46,6 +46,33 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/api\//],
         // Web-push handlers (public/push-sw.js) ride along with the generated SW.
         importScripts: ['push-sw.js'],
+        // The app promises offline study, so the textbook has to survive a
+        // train too. Slide renders never change under the same name → cache
+        // first; the lecture texts can be refreshed when there is a network,
+        // with the cached copy as the fallback. Only 200s are stored, so a
+        // 401 after the session expires never poisons the cache.
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }: { url: URL }) => url.pathname.startsWith('/api/materials/img/'),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'materials-images',
+              expiration: { maxEntries: 400, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheableResponse: { statuses: [200] },
+            },
+          },
+          {
+            urlPattern: ({ url }: { url: URL }) =>
+              url.pathname === '/api/materials' || url.pathname.startsWith('/api/materials/lecture/'),
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'materials-text',
+              networkTimeoutSeconds: 4,
+              expiration: { maxEntries: 40, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheableResponse: { statuses: [200] },
+            },
+          },
+        ],
       },
       devOptions: {
         // Keep dev fast; flip to true to exercise the service worker via `npm run dev`.

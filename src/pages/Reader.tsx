@@ -134,7 +134,14 @@ export function Reader({ onBack }: { onBack: () => void }) {
   }
 
   function jumpTo(n: number) {
-    slideRefs.current.get(n)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    // The stylesheet's reduced-motion block sets scroll-behavior, but a
+    // `behavior` passed here would override it — so ask the media query.
+    const reduced =
+      typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches
+    slideRefs.current.get(n)?.scrollIntoView({
+      behavior: reduced ? 'auto' : 'smooth',
+      block: 'start',
+    })
   }
 
   // ---- one lecture ----
