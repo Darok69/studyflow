@@ -258,7 +258,7 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
             </section>
           )}
 
-          {account.isAdmin && <AdminUsers />}
+          {account.isAdmin && <AdminUsers selfEmail={account.email} />}
         </>
       )}
 

@@ -235,7 +235,11 @@ export const de: Messages = {
   invalidEmail: 'Das sieht nicht wie eine E-Mail aus.',
   addFailed: 'Das Hinzufügen hat nicht geklappt — versuch es noch einmal.',
   confirmNewCode: (email: string) =>
-    `Neuen Code für ${email} erzeugen? Der alte wird ungültig und die Person wird abgemeldet.`,
+    `Neuen Code für ${email} erzeugen? Der alte wird ungültig, bereits angemeldete Geräte bleiben aber angemeldet.`,
+  confirmSignOut: (email: string) =>
+    `Alle Geräte von ${email} abmelden und einen neuen Code erzeugen? Überall ist eine erneute Anmeldung nötig.`,
+  confirmSignOutSelf:
+    'Alle Geräte abmelden, dieses eingeschlossen, und einen neuen Code erzeugen? Kopiere den Code sofort — ohne ihn kommst du nicht zurück.',
   confirmRemoveUser: (email: string) =>
     `Zugang für ${email} entfernen? Auch das Backup auf dem Server wird gelöscht.`,
   issuedMessage: (email: string, code: string) =>
@@ -246,6 +250,8 @@ export const de: Messages = {
   lastLoginAt: (when: string) => `zuletzt ${when}`,
   notLoggedInYet: 'noch nicht angemeldet',
   newCodeBtn: 'Neuer Code',
+  signOutBtn: 'Geräte abmelden',
+  devicesChip: (n: number) => (n === 1 ? '1 Gerät' : `${n} Geräte`),
   removeBtn: 'Entfernen',
   adminEmailPlaceholder: 'freund@email.de',
 
@@ -289,7 +295,7 @@ export const de: Messages = {
   // Card photos
   photoFrontLabel: 'Foto zur Frage',
   photoBackLabel: 'Foto zur Antwort',
-  addPhoto: '\U0001F4F7 Foto hinzufügen',
+  addPhoto: '📷 Foto hinzufügen',
   removePhoto: 'Foto entfernen',
   photoTooBig: 'Das Foto ist auch nach dem Verkleinern zu groß — versuch einen kleineren Ausschnitt.',
   photoUnreadable: 'Diese Datei ließ sich nicht als Bild laden.',

@@ -231,7 +231,11 @@ export const cs = {
   invalidEmail: 'To nevypadá jako e-mail.',
   addFailed: 'Přidání se nepovedlo — zkus to znovu.',
   confirmNewCode: (email: string) =>
-    `Vygenerovat nový kód pro ${email}? Starý přestane platit a odhlásí se.`,
+    `Vygenerovat nový kód pro ${email}? Starý přestane platit, ale už přihlášená zařízení zůstanou přihlášená.`,
+  confirmSignOut: (email: string) =>
+    `Odhlásit všechna zařízení uživatele ${email} a vydat nový kód? Na každém zařízení se bude muset přihlásit znovu.`,
+  confirmSignOutSelf:
+    'Odhlásit všechna zařízení včetně tohohle a vydat nový kód? Kód si hned zkopíruj — bez něj se zpátky nedostaneš.',
   confirmRemoveUser: (email: string) =>
     `Odebrat přístup pro ${email}? Smaže se i jeho záloha na serveru.`,
   issuedMessage: (email: string, code: string) =>
@@ -242,6 +246,9 @@ export const cs = {
   lastLoginAt: (when: string) => `naposledy ${when}`,
   notLoggedInYet: 'zatím nepřihlášen',
   newCodeBtn: 'Nový kód',
+  signOutBtn: 'Odhlásit zařízení',
+  // „zařízení" je ve všech pádech stejné, takže žádné skloňování počtu.
+  devicesChip: (n: number) => `${n} zařízení`,
   removeBtn: 'Odebrat',
   adminEmailPlaceholder: 'kamarad@email.cz',
 

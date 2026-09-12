@@ -17,6 +17,8 @@ export interface UserRow {
   isAdmin: boolean
   createdAt: string
   lastLoginAt: string | null
+  /** Devices currently signed in. One account may be logged in on several. */
+  devices: number
 }
 
 export class ApiError extends Error {
@@ -76,8 +78,15 @@ export function getSyncSnapshot(): Promise<{ updatedAt: string; data: string } |
   return api('/api/sync')
 }
 
-export function putSyncSnapshot(data: string): Promise<{ updatedAt: string }> {
-  return api('/api/sync', { method: 'PUT', body: JSON.stringify({ data }) })
+/**
+ * `baseUpdatedAt` is the server version this snapshot was built on. The server
+ * refuses the write with 409 when it has moved on since — see PUT /api/sync.
+ */
+export function putSyncSnapshot(
+  data: string,
+  baseUpdatedAt: string | null,
+): Promise<{ updatedAt: string }> {
+  return api('/api/sync', { method: 'PUT', body: JSON.stringify({ data, baseUpdatedAt }) })
 }
 
 export function getPushKey(): Promise<{ publicKey: string }> {
@@ -109,8 +118,14 @@ export function addUser(email: string): Promise<{ id: string; email: string; cod
   return api('/api/users', { method: 'POST', body: JSON.stringify({ email }) })
 }
 
+/** A new code for one more device. Devices already signed in stay signed in. */
 export function resetUserCode(id: string): Promise<{ code: string }> {
   return api(`/api/users/${id}/reset`, { method: 'POST' })
+}
+
+/** Somebody else saw the code: throw every device off and issue a new one. */
+export function signOutUserDevices(id: string): Promise<{ code: string }> {
+  return api(`/api/users/${id}/signout`, { method: 'POST' })
 }
 
 export function removeUser(id: string): Promise<{ ok: true }> {

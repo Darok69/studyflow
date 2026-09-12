@@ -229,7 +229,11 @@ export const en: Messages = {
   invalidEmail: 'That doesn’t look like an e-mail.',
   addFailed: 'Adding didn’t go through — try again.',
   confirmNewCode: (email: string) =>
-    `Generate a new code for ${email}? The old one stops working and they’ll be logged out.`,
+    `Generate a new code for ${email}? The old one stops working, but devices already signed in stay signed in.`,
+  confirmSignOut: (email: string) =>
+    `Sign out every device of ${email} and issue a new code? They will have to log in again everywhere.`,
+  confirmSignOutSelf:
+    'Sign out every device including this one and issue a new code? Copy the code right away — without it you cannot get back in.',
   confirmRemoveUser: (email: string) =>
     `Remove access for ${email}? Their backup on the server will be deleted too.`,
   issuedMessage: (email: string, code: string) =>
@@ -240,6 +244,8 @@ export const en: Messages = {
   lastLoginAt: (when: string) => `last seen ${when}`,
   notLoggedInYet: 'not logged in yet',
   newCodeBtn: 'New code',
+  signOutBtn: 'Sign out devices',
+  devicesChip: (n: number) => (n === 1 ? '1 device' : `${n} devices`),
   removeBtn: 'Remove',
   adminEmailPlaceholder: 'friend@email.com',
 
@@ -283,7 +289,7 @@ export const en: Messages = {
   // Card photos
   photoFrontLabel: 'Question photo',
   photoBackLabel: 'Answer photo',
-  addPhoto: '\U0001F4F7 Add a photo',
+  addPhoto: '📷 Add a photo',
   removePhoto: 'Remove photo',
   photoTooBig: 'The photo is still too large after shrinking — try a smaller crop.',
   photoUnreadable: 'This file couldn\u2019t be read as an image.',

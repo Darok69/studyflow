@@ -1,3 +1,31 @@
+## Jeden účet na víc zařízeních: dvě různá „nový kód"
+
+**Co bylo špatně:** `resetUserCode()` vždycky zabil všechny session. Kdo si
+vygeneroval kód, aby se přihlásil na mobilu, vyletěl z notebooku — na dvou
+zařízeních současně to nešlo nikdy. Druhá půlka problému: `PUT /api/sync`
+zapisoval naslepo, takže zařízení, které začalo pracovat nad starší verzí,
+tiše přepsalo, co mezitím uložilo to druhé.
+
+**Rozdělení podle úmyslu.** „Potřebuju kód pro další zařízení" (`/reset`)
+už session nesahá — starý kód přestane platit, přihlášená zařízení běží dál.
+„Někdo mi ten kód viděl" (`/signout`) vydá nový kód a zároveň vyhodí všechno
+včetně zařízení, ze kterého se to klikalo. V admin seznamu je u každého účtu
+vidět, kolik zařízení je zrovna přihlášených, aby se ta volba dělala s fakty.
+
+**Konflikt sync se řeší optimisticky**, ne zámkem: klient posílá `baseUpdatedAt`
+— verzi, ze které vyšel. Když se server mezitím pohnul, vrátí 409 i s aktuálním
+snapshotem a klient se jednou zeptá (vzít server, nebo přepsat svým). Klient bez
+`baseUpdatedAt` (starší build) projde postaru, ať se mu sync úplně nerozbije.
+
+**Proč ne skutečný merge:** snapshot je celý stav appky v jednom JSONu. Sloučit
+dvě historie opakování by znamenalo CRDT nebo per-entitu verzování — na jednoho
+člověka se dvěma zařízeními je otázka levnější a poctivější než tichý merge,
+který by se občas spletl.
+
+**Odhlášení při zavření záložky:** `pagehide` posílá `keepalive` fetch, který
+409 jen zahodí. Zeptat se není koho a `dirty` zůstává nastavené, takže se
+konflikt vyřeší s otázkou hned při dalším startu.
+
 ## Učebnice: podklady se čtou v appce, ale nežijí v sync snapshotu
 
 **Co:** Nová obrazovka „Učebnice" (`src/pages/Reader.tsx`) ukazuje slide,

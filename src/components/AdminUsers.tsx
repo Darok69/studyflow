@@ -1,9 +1,17 @@
 import { useEffect, useState } from 'react'
-import { addUser, ApiError, listUsers, removeUser, resetUserCode, type UserRow } from '../lib/api'
+import {
+  addUser,
+  ApiError,
+  listUsers,
+  removeUser,
+  resetUserCode,
+  signOutUserDevices,
+  type UserRow,
+} from '../lib/api'
 import { t } from '../i18n'
 
 /** Admin-only: manage who can log in. Codes are shown exactly once. */
-export function AdminUsers() {
+export function AdminUsers({ selfEmail }: { selfEmail?: string }) {
   const [users, setUsers] = useState<UserRow[]>([])
   const [email, setEmail] = useState('')
   const [issued, setIssued] = useState<{ email: string; code: string } | null>(null)
@@ -33,10 +41,24 @@ export function AdminUsers() {
     }
   }
 
+  // Two different intents, deliberately two buttons: "I need a code for one
+  // more device" must not kick the devices that are already signed in.
   async function handleReset(user: UserRow) {
     if (!window.confirm(t('confirmNewCode', user.email))) return
     const { code } = await resetUserCode(user.id)
     setIssued({ email: user.email, code })
+    await load()
+  }
+
+  async function handleSignOut(user: UserRow) {
+    // Signing yourself out kills the session this screen is running on, so the
+    // list must not be reloaded afterwards — that request would 401 and throw
+    // the admin back to the login screen before they could read the new code.
+    const isSelf = !!selfEmail && user.email === selfEmail
+    if (!window.confirm(isSelf ? t('confirmSignOutSelf') : t('confirmSignOut', user.email))) return
+    const { code } = await signOutUserDevices(user.id)
+    setIssued({ email: user.email, code })
+    if (!isSelf) await load()
   }
 
   async function handleRemove(user: UserRow) {
@@ -108,11 +130,17 @@ export function AdminUsers() {
                     ? t('lastLoginAt', new Date(u.lastLoginAt).toLocaleDateString(t('locale')))
                     : t('notLoggedInYet')}
                 </span>
+                {u.devices > 0 && <span className="row-chip">{t('devicesChip', u.devices)}</span>}
               </span>
             </div>
             <button className="card-tool" onClick={() => void handleReset(u)}>
               {t('newCodeBtn')}
             </button>
+            {u.devices > 0 && (
+              <button className="card-tool" onClick={() => void handleSignOut(u)}>
+                {t('signOutBtn')}
+              </button>
+            )}
             {!u.isAdmin && (
               <button className="card-tool" onClick={() => void handleRemove(u)}>
                 {t('removeBtn')}

@@ -117,15 +117,31 @@ export function createUser(email, { isAdmin = false } = {}) {
   return { user, code }
 }
 
-export function resetUserCode(id) {
+/**
+ * Issue a new access code.
+ *
+ * Signing the devices out is NOT the default: the usual reason for a new code
+ * is adding a phone or a tablet, and killing the sessions made that impossible
+ * — every new device kicked out the one already in use. Pass
+ * `signOutDevices: true` for the other reason, a code somebody else has seen.
+ */
+export function resetUserCode(id, { signOutDevices = false } = {}) {
   const users = getUsers()
   const user = users.find((u) => u.id === id)
   if (!user) return null
   const code = generateCode()
   Object.assign(user, makeCredentials(code))
   saveUsers(users)
-  destroyUserSessions(id)
+  if (signOutDevices) destroyUserSessions(id)
   return code
+}
+
+/** How many devices currently hold a live session for this user. */
+export function countUserSessions(userId) {
+  const now = Date.now()
+  return Object.values(getSessions()).filter(
+    (s) => s.userId === userId && new Date(s.expiresAt).getTime() > now,
+  ).length
 }
 
 export function deleteUser(id) {

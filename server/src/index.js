@@ -13,6 +13,7 @@ import {
   deleteUser,
   destroySession,
   rateLimited,
+  countUserSessions,
   resetUserCode,
   SESSION_COOKIE,
   touchLastLogin,
@@ -127,9 +128,18 @@ app.get('/api/sync', async (req, reply) => {
 app.put('/api/sync', async (req, reply) => {
   const user = requireUser(req, reply)
   if (!user) return
-  const { data } = req.body ?? {}
+  const { data, baseUpdatedAt } = req.body ?? {}
   if (typeof data !== 'string' || data.length > MAX_SYNC_BYTES) {
     return reply.code(400).send({ error: 'bad-payload' })
+  }
+  // One account, several devices: a client that writes over a snapshot it has
+  // never seen would silently erase what the other device did. The client sends
+  // the version it started from; if the server has moved on, it has to look at
+  // the newer state first. (A client that sends no base is an older build —
+  // let it through rather than break its sync entirely.)
+  const current = getBackup(user.id)
+  if (current && typeof baseUpdatedAt === 'string' && baseUpdatedAt !== current.updatedAt) {
+    return reply.code(409).send({ error: 'conflict', snapshot: current })
   }
   const snapshot = saveBackup(user.id, data)
   return { updatedAt: snapshot.updatedAt }
@@ -212,6 +222,9 @@ app.get('/api/users', async (req, reply) => {
     isAdmin: !!u.isAdmin,
     createdAt: u.createdAt,
     lastLoginAt: u.lastLoginAt,
+    // How many devices are signed in — so "new code" and "sign everything out"
+    // are a choice made with the facts visible.
+    devices: countUserSessions(u.id),
   }))
 })
 
@@ -225,9 +238,19 @@ app.post('/api/users', async (req, reply) => {
   return { id: result.user.id, email: result.user.email, code: result.code }
 })
 
+// A new code for another device — the devices already signed in stay signed in.
 app.post('/api/users/:id/reset', async (req, reply) => {
   if (!requireAdmin(req, reply)) return
   const code = resetUserCode(req.params.id)
+  if (!code) return reply.code(404).send({ error: 'not-found' })
+  return { code }
+})
+
+// The other reason for a new code: somebody else has seen it. This one throws
+// every device off and issues a fresh code in the same step.
+app.post('/api/users/:id/signout', async (req, reply) => {
+  if (!requireAdmin(req, reply)) return
+  const code = resetUserCode(req.params.id, { signOutDevices: true })
   if (!code) return reply.code(404).send({ error: 'not-found' })
   return { code }
 })

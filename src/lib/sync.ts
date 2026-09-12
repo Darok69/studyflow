@@ -1,7 +1,7 @@
 // Whole-app sync: the existing backup JSON is the payload, the server stores
 // one snapshot per user. Simple and honest for a single-person-many-devices
 // pattern: pull on start, debounce-push after local changes, ask on conflict.
-import { getSyncSnapshot, putSyncSnapshot, SERVER_MODE } from './api'
+import { ApiError, getSyncSnapshot, putSyncSnapshot, SERVER_MODE } from './api'
 import { exportBackupJson, restoreBackup, getSubjects } from '../db/repo'
 import { parseBackup } from '../import/backup'
 import { t } from '../i18n'
@@ -36,8 +36,44 @@ let pushTimer: number | null = null
 /** Push the current local state to the server now. */
 export async function pushSync(): Promise<void> {
   if (!SERVER_MODE) return
+  const base = readMeta().serverUpdatedAt
   const data = await exportBackupJson()
-  const { updatedAt } = await putSyncSnapshot(data)
+  try {
+    const { updatedAt } = await putSyncSnapshot(data, base)
+    writeMeta({ serverUpdatedAt: updatedAt, dirty: false, lastSyncAt: new Date().toISOString() })
+  } catch (err) {
+    if (err instanceof ApiError && err.status === 409) {
+      await resolvePushConflict(data)
+      return
+    }
+    throw err
+  }
+}
+
+/**
+ * The other device wrote while this one was working. A whole-snapshot sync
+ * cannot merge two histories, so the choice belongs to the person — the same
+ * question the app asks at start-up, only now at the moment it matters. Taking
+ * the server version reloads the page: half the screens are already rendered
+ * from the data that is about to be replaced.
+ */
+async function resolvePushConflict(localData: string): Promise<void> {
+  const snapshot = await getSyncSnapshot()
+  if (!snapshot) return
+  if (window.confirm(t('syncConflict'))) {
+    const { backup } = parseBackup(snapshot.data)
+    if (!backup) return
+    await restoreBackup(backup)
+    writeMeta({
+      serverUpdatedAt: snapshot.updatedAt,
+      dirty: false,
+      lastSyncAt: new Date().toISOString(),
+    })
+    window.location.reload()
+    return
+  }
+  // Keep this device's state: write on top of what the server holds now.
+  const { updatedAt } = await putSyncSnapshot(localData, snapshot.updatedAt)
   writeMeta({ serverUpdatedAt: updatedAt, dirty: false, lastSyncAt: new Date().toISOString() })
 }
 
@@ -93,6 +129,10 @@ export async function initSync(): Promise<SyncStartResult> {
     if (meta.dirty) {
       const useServer = window.confirm(t('syncConflict'))
       if (!useServer) {
+        // The question has been answered: overwrite what the server holds now.
+        // Without adopting its version as the base, the push would come back
+        // 409 and ask the very same question a second time.
+        writeMeta({ ...meta, serverUpdatedAt: snapshot.updatedAt })
         await pushSync()
         return 'kept-local'
       }
@@ -112,14 +152,18 @@ export function startSyncListener() {
   if (!SERVER_MODE) return
   window.addEventListener('sf-data-changed', markDirty)
   // Last-chance flush when the tab closes with unsaved changes.
+  // A 409 here is dropped on the floor on purpose: there is no one left to ask.
+  // `dirty` stays set, so the next start reconciles with the question intact.
   window.addEventListener('pagehide', () => {
-    if (readMeta().dirty) {
+    const meta = readMeta()
+    if (meta.dirty) {
+      const base = meta.serverUpdatedAt
       void exportBackupJson().then((data) =>
         fetch('/api/sync', {
           method: 'PUT',
           credentials: 'same-origin',
           headers: { 'content-type': 'application/json' },
-          body: JSON.stringify({ data }),
+          body: JSON.stringify({ data, baseUpdatedAt: base }),
           keepalive: true,
         }),
       )
