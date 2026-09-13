@@ -212,31 +212,33 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
                     ))}
                   </span>
                 </button>
-                {c.draft && (
+                <span className="card-tools">
+                  {c.draft && (
+                    <button
+                      className="card-tool"
+                      onClick={() => void handleApproveDraft(c)}
+                      title={t('draftApproveTitle')}
+                    >
+                      {t('draftApproveBtn')}
+                    </button>
+                  )}
+                  {isBuried(c) && !c.suspended && (
+                    <button
+                      className="card-tool"
+                      onClick={() => void handleUnbury(c)}
+                      title={t('unburyTitle')}
+                    >
+                      {t('unburyBtn')}
+                    </button>
+                  )}
                   <button
                     className="card-tool"
-                    onClick={() => void handleApproveDraft(c)}
-                    title={t('draftApproveTitle')}
+                    onClick={() => void toggleSuspend(c)}
+                    title={c.suspended ? t('resumeTitle') : t('suspendTitleShort')}
                   >
-                    {t('draftApproveBtn')}
+                    {c.suspended ? t('resumeBtn') : t('suspendBtn')}
                   </button>
-                )}
-                {isBuried(c) && !c.suspended && (
-                  <button
-                    className="card-tool"
-                    onClick={() => void handleUnbury(c)}
-                    title={t('unburyTitle')}
-                  >
-                    {t('unburyBtn')}
-                  </button>
-                )}
-                <button
-                  className="card-tool"
-                  onClick={() => void toggleSuspend(c)}
-                  title={c.suspended ? t('resumeTitle') : t('suspendTitleShort')}
-                >
-                  {c.suspended ? t('resumeBtn') : t('suspendBtn')}
-                </button>
+                </span>
               </li>
             )
           })}

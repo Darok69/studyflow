@@ -133,19 +133,21 @@ export function AdminUsers({ selfEmail }: { selfEmail?: string }) {
                 {u.devices > 0 && <span className="row-chip">{t('devicesChip', u.devices)}</span>}
               </span>
             </div>
-            <button className="card-tool" onClick={() => void handleReset(u)}>
-              {t('newCodeBtn')}
-            </button>
-            {u.devices > 0 && (
-              <button className="card-tool" onClick={() => void handleSignOut(u)}>
-                {t('signOutBtn')}
+            <span className="card-tools">
+              <button className="card-tool" onClick={() => void handleReset(u)}>
+                {t('newCodeBtn')}
               </button>
-            )}
-            {!u.isAdmin && (
-              <button className="card-tool" onClick={() => void handleRemove(u)}>
-                {t('removeBtn')}
-              </button>
-            )}
+              {u.devices > 0 && (
+                <button className="card-tool" onClick={() => void handleSignOut(u)}>
+                  {t('signOutBtn')}
+                </button>
+              )}
+              {!u.isAdmin && (
+                <button className="card-tool" onClick={() => void handleRemove(u)}>
+                  {t('removeBtn')}
+                </button>
+              )}
+            </span>
           </li>
         ))}
       </ul>

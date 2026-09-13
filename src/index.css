@@ -1122,6 +1122,10 @@ h3 {
 .card-tools {
   margin-left: auto;
   display: flex;
+  /* Zalomená skupina zůstane u pravého okraje, ať se zarovnání nemění
+     podle toho, kolik tlačítek se zrovna vejde na jednu řádku. */
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 6px;
 }
 
@@ -1253,9 +1257,12 @@ h3 {
   gap: 8px;
 }
 
+/* Tlačítka mají white-space: nowrap, takže se pod svoji šířku nesmrsknou.
+   Bez zalomení proto tři nástroje na telefonu vystrčí řádek mimo obrazovku. */
 .card-row {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   padding: 10px 14px;
   background: var(--panel);
@@ -1265,7 +1272,9 @@ h3 {
 
 .card-row-main {
   flex: 1;
-  min-width: 0;
+  /* Ne 0: teprve když si text nárokuje místo, přeteče řádek a nástroje
+     spadnou na vlastní řádku místo za okraj displeje. */
+  min-width: 12rem;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -1292,6 +1301,11 @@ h3 {
 .row-chip {
   font-size: 11px;
   font-weight: 600;
+  /* „naposledy 13. 9. 2026" rozlámané na tři řádky vypadá jako chyba. */
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
   padding: 1px 8px;
   border-radius: 999px;
   background: var(--desk);
@@ -1854,6 +1868,8 @@ h3 {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  /* Kód i dvě tlačítka se na šířku telefonu nevejdou vedle sebe. */
+  flex-wrap: wrap;
   gap: 12px;
   padding: 14px 16px;
   background: color-mix(in srgb, var(--far) 10%, var(--panel));
