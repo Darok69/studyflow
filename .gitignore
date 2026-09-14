@@ -38,3 +38,6 @@ content/irewi/raw/
 content/irewi/.cache/
 content/irewi/out/work/
 content/irewi/out/studyflow/
+# 49 MB namluvených epizod — vyrábí je make_audio.py z podkladů, do gitu nepatří.
+content/irewi/out/audio/
+content/irewi/pipeline/__pycache__/

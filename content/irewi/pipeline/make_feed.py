@@ -1,0 +1,154 @@
+#!/usr/bin/env -S uv run --quiet --script
+# /// script
+# requires-python = ">=3.11"
+# dependencies = ["pillow>=10"]
+# ///
+"""Z hotových epizod udělá soukromý podcast feed + obal.
+
+Proč feed a ne přehrávač v appce: podcastová aplikace umí to, co se v autě a
+v metru počítá — stahování offline, CarPlay, rychlost, zapamatovanou pozici a
+přehrávání při zhasnutém displeji. Nic z toho bych v appce nedostal zadarmo.
+
+Soukromí: feed NENÍ veřejný katalog. Adresa nese náhodný token a feed má
+<itunes:block>yes</itunes:block>, což Applu říká „neindexovat". Kdo ale tu
+adresu dostane, poslechne si to — proto se token nikam nesdílí.
+
+Použití:
+    ./make_feed.py --base https://study.dmarka.eu --token <token>
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+from datetime import datetime, timedelta, timezone
+from email.utils import format_datetime
+from pathlib import Path
+from xml.sax.saxutils import escape
+
+from PIL import Image, ImageDraw, ImageFont
+
+ROOT = Path(__file__).resolve().parent.parent
+AUDIO = ROOT / "out" / "audio"
+
+SERIES = {
+    "quiz": {
+        "title": "IREWI — Questions",
+        "desc": ("Exam questions from the StEOP course Introduction to International Law "
+                 "(University of Vienna). Question, a pause to answer out loud, then the "
+                 "answer. Made for running and for the metro."),
+        "colour": (106, 94, 232),
+    },
+    "narration": {
+        "title": "IREWI — Lectures",
+        "desc": ("The written explanation of every slide of the StEOP course Introduction "
+                 "to International Law (University of Vienna), read as one piece. "
+                 "Made for the car."),
+        "colour": (52, 52, 74),
+    },
+}
+
+AUTHOR = "StudyFlow"
+# Datum, od kterého se epizody číslují. Podcastová aplikace řadí podle data,
+# takže první přednáška musí být nejstarší — jinak by se poslouchalo pozpátku.
+EPOCH = datetime(2026, 1, 1, 8, 0, tzinfo=timezone.utc)
+
+
+def cover(path: Path, title: str, subtitle: str, colour: tuple[int, int, int]) -> None:
+    """Obal 1500×1500. Apple chce nejmíň 1400 a čtverec."""
+    size = 1500
+    img = Image.new("RGB", (size, size), colour)
+    d = ImageDraw.Draw(img)
+    for i in range(size):  # jemný přechod, ať to není placka
+        f = i / size
+        d.line([(0, i), (size, i)],
+               fill=tuple(int(c * (1 - 0.35 * f)) for c in colour))
+
+    def font(px: int) -> ImageFont.FreeTypeFont:
+        for candidate in ("/System/Library/Fonts/SFNSDisplay.ttf",
+                          "/System/Library/Fonts/Helvetica.ttc",
+                          "/Library/Fonts/Arial.ttf"):
+            if Path(candidate).exists():
+                return ImageFont.truetype(candidate, px)
+        return ImageFont.load_default(px)
+
+    d.text((110, 980), "IREWI", font=font(210), fill=(255, 255, 255))
+    d.text((110, 1200), title, font=font(78), fill=(212, 208, 255))
+    d.text((110, 1300), subtitle, font=font(56), fill=(168, 162, 220))
+    img.save(path, "JPEG", quality=88)
+
+
+def feed_xml(series: str, manifest: dict, base: str, token: str) -> str:
+    meta = SERIES[series]
+    root = f"{base}/podcast/{token}/{series}"
+    items = []
+    for i, ep in enumerate(manifest["episodes"]):
+        published = EPOCH + timedelta(days=i)
+        url = f"{root}/{Path(ep['file']).name}"
+        items.append(f"""    <item>
+      <title>{escape(ep['title'])}</title>
+      <description>{escape(ep['subtitle'])}</description>
+      <itunes:summary>{escape(ep['subtitle'])}</itunes:summary>
+      <enclosure url="{escape(url)}" length="{ep['bytes']}" type="audio/x-m4a"/>
+      <guid isPermaLink="false">irewi-{series}-{ep['lecture_id']}</guid>
+      <pubDate>{format_datetime(published)}</pubDate>
+      <itunes:duration>{int(round(ep['seconds']))}</itunes:duration>
+      <itunes:episode>{i + 1}</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>""")
+
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{escape(meta['title'])}</title>
+    <link>{escape(base)}</link>
+    <atom:link href="{escape(root)}/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <description>{escape(meta['desc'])}</description>
+    <itunes:summary>{escape(meta['desc'])}</itunes:summary>
+    <itunes:author>{AUTHOR}</itunes:author>
+    <itunes:owner><itunes:name>{AUTHOR}</itunes:name></itunes:owner>
+    <itunes:image href="{escape(root)}/cover.jpg"/>
+    <itunes:category text="Education"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <!-- Soukromý feed: Apple ho nesmí zařadit do katalogu. -->
+    <itunes:block>yes</itunes:block>
+{chr(10).join(items)}
+  </channel>
+</rss>
+"""
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--base", default="https://study.dmarka.eu")
+    ap.add_argument("--token", required=True)
+    args = ap.parse_args()
+
+    made = 0
+    for series, meta in SERIES.items():
+        manifest_file = AUDIO / f"{series}.json"
+        if not manifest_file.exists():
+            print(f"  {series}: zatím není {manifest_file.name}, přeskakuji")
+            continue
+        manifest = json.loads(manifest_file.read_text(encoding="utf-8"))
+        out_dir = AUDIO / series
+        cover(out_dir / "cover.jpg", meta["title"].split("—")[-1].strip(),
+              f"{len(manifest['episodes'])} episodes", meta["colour"])
+        (out_dir / "feed.xml").write_text(
+            feed_xml(series, manifest, args.base.rstrip("/"), args.token),
+            encoding="utf-8")
+        total = sum(e["seconds"] for e in manifest["episodes"])
+        print(f"  {series}: {len(manifest['episodes'])} epizod, "
+              f"{total / 3600:.1f} h → {out_dir / 'feed.xml'}")
+        made += 1
+    if made:
+        print(f"\nadresa k odběru: {args.base.rstrip('/')}/podcast/{args.token}/<řada>/feed.xml")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

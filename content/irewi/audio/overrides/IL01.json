@@ -1,0 +1,8 @@
+{
+  "_comment": "Ruční opravy pro poslech. Klíč u 'cards' je PŘESNÉ znění otázky z materiálů; prázdná hodnota otázku z audia vypne. Klíč u 'slides' je číslo slidu.",
+
+  "cards": {
+    "Looking at the map of the world in 1945, which regions are largely absent from the group of UN founding members, and why does that matter?": "In 1945, which regions of the world were largely absent from the group of United Nations founding members, and why does that matter?",
+    "What is the 'normative threshold' in the hierarchy diagram?": "What is the normative threshold in the hierarchy of norms?"
+  }
+}

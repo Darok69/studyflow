@@ -1,3 +1,41 @@
+## Podcast: podklady k poslechu jako soukromý feed, ne přehrávač v appce
+
+**Proč vůbec:** materiál se dá číst jen u stolu. Cesta autem, metro a běhání
+jsou hodiny denně, kdy se dá poslouchat — a u zkoušky rozhoduje, kolikrát to
+projde hlavou.
+
+**Dvě řady, protože se poslouchají jinak.** `quiz` je otázka, ticho a odpověď:
+nutí vzpomínat, což je jediné, co se pasivním poslechem opravdu učí — na běh a
+do metra. `narration` je souvislý výklad přednášky — do auta, na první
+seznámení. Stejný zdroj, jiné sestavení.
+
+**Proč feed a ne přehrávač ve StudyFlow:** podcastová aplikace umí zadarmo to,
+co v prohlížeči stojí spoustu práce a stejně je křehké — přehrávání při
+zhasnutém displeji, CarPlay a Bluetooth v autě, stažení offline (metro nemá
+signál), rychlost, zapamatovanou pozici. Vlastní přehrávač by byl nejvíc práce
+a nejhorší výsledek.
+
+**Autorizace tokenem, ne session.** Podcastová aplikace se neumí přihlásit;
+jediné, co s sebou nese, je adresa. Token je proto v cestě, porovnává se
+v konstantním čase a feed má `<itunes:block>yes</itunes:block>`, aby ho Apple
+nezařadil do katalogu. Kdo tu adresu dostane, poslechne si to — je to jediná
+cesta serverem, která nechce cookie, a ví to.
+
+**Range requesty se musely napsat ručně.** Přehrávač si o zvuk žádá po kusech;
+bez odpovědi 206 se v pětadvacetiminutové epizodě nedá přetáčet a některé
+aplikace ji odmítnou stáhnout.
+
+**Text se pro poslech PŘEPISUJE.** Výklad je psaný pod obrázek a ve 12 % vět
+(202 z 1724) mluví o tom, co je vidět: „left column", „the photograph beside
+the text". Nahlas je to nesmysl. Takové věty jsou v `audio/overrides/<ID>.json`
+přepsané nebo vypnuté; zbytek jde do zvuku tak, jak je. Zkratky a ustanovení
+řeší `pipeline/speech.py` — „Art. 38(1)(b)" se nahlas říká jinak, než se píše.
+
+**Zvuk dělá systémové `say`:** žádný klíč, žádný text neodchází z notebooku,
+rovnou do AAC bez ffmpeg. Kvalitu určuje hlas — Premium hlasy (Ava, Zoe) jsou
+zdarma, ale stahují se ručně v Nastavení. Převod je idempotentní přes otisk
+textu a hlasu, takže výměna hlasu je jeden příkaz.
+
 ## Jeden účet na víc zařízeních: dvě různá „nový kód"
 
 **Co bylo špatně:** `resetUserCode()` vždycky zabil všechny session. Kdo si

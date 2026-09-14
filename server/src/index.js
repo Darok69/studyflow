@@ -24,6 +24,7 @@ import { findUserByEmail, getBackup, getPushSubs, getUsers, saveBackup, savePush
 import { extraMessage, publicKey, pushEnabled, sendPush, startPushCron } from './push.js'
 import { registerSourceRoutes } from './sources-routes.js'
 import { materialsAvailable, registerMaterialRoutes } from './materials-routes.js'
+import { podcastAvailable, podcastToken, registerPodcastRoutes } from './podcast-routes.js'
 import { listSources, deleteSource } from './blobs.js'
 import { aiEnabled } from './ai.js'
 
@@ -272,6 +273,20 @@ registerSourceRoutes(app, { requireUser })
 
 // ---- study materials for the reading screen ----
 registerMaterialRoutes(app, { requireUser })
+registerPodcastRoutes(app)
+
+// Adresy soukromého feedu. Jen pro přihlášeného — token je to jediné, co
+// odběr chrání, takže se nesmí dát vytáhnout bez přihlášení.
+app.get('/api/podcast', async (req, reply) => {
+  const user = requireUser(req, reply)
+  if (!user) return
+  if (!podcastAvailable()) return reply.code(404).send({ error: 'no podcast' })
+  const token = podcastToken()
+  return {
+    quiz: `/podcast/${token}/quiz/feed.xml`,
+    narration: `/podcast/${token}/narration/feed.xml`,
+  }
+})
 
 // ---- static PWA shell ----
 await app.register(fastifyStatic, {
