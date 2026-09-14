@@ -1,0 +1,10 @@
+{
+  "_comment": "Ruční opravy pro poslech. Klíč u 'slides' je číslo slidu; u 'cards' přesné znění otázky.",
+  "intro": "Introduction to European Union Law. Lecture ten: annulment, failure to act, and fundamental rights.",
+  "slides": {
+    "12": "Gateway three: regulatory acts. Direct concern is required, as before, plus a regulatory act as defined in Inuit, case C-583/11 P. A regulatory act is not a legislative act — so it means tertiary or administrative acts; it has general and abstract scope; and it does not require further implementing measures. The Court's reading disappointed those who hoped Lisbon had opened standing: legislative acts remain subject to the full Plaumann test.",
+    "15": "The requirements for failure to act — the mirror image of annulment. A legally binding Union act that should have been adopted; standing of applicant and defendant; legal interest; and a time limit of two months since the request. The request is the key step: the institution must first be called upon to act, and only its failure to define its position within two months opens the action.",
+    "22": "The early stage. There was no codified fundamental rights instrument, and in cases 36/59 and following — the Ruhrkohlenverkaufsgesellschaften cases — the Court treated fundamental rights as a matter of member state law, outside its remit. The member state reaction was Solange One. And the underlying problem is worth stating exactly: with direct effect and primacy, supranational law reached individuals directly while offering them no rights protection. A deficit of legal protection.",
+    "28": "Who holds Charter rights. Natural persons — though some rights belong only to Union citizens, such as the right to vote and the other rights tied to citizenship. And legal persons, except for highly personal rights such as human dignity and the right to life, which a company cannot hold."
+  }
+}

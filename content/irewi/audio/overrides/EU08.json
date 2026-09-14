@@ -1,0 +1,12 @@
+{
+  "_comment": "Ruční opravy pro poslech. Klíč u 'slides' je číslo slidu; u 'cards' přesné znění otázky.",
+  "intro": "Introduction to European Union Law. Lecture eight: the workarounds, enforcement, and state liability.",
+  "slides": {
+    "3": "Direct applicability versus direct effect — the common mistake, repeated from the previous lecture as revision. They are not the same thing, and the exam rewards keeping them apart.",
+    "10": "Workaround two: indirect effect. The duty of national courts to interpret national law, as far as possible, in line with Union law — Von Colson, case 14/83. Two bases for it: Article 4, paragraph 3 of the Treaty on European Union, under which member states take any appropriate measure to ensure fulfilment of obligations arising from the Treaties or from the acts of the institutions; and effet utile. And the crucial point about its scope: this applies to all Union law, not only to directives.",
+    "21": "A collection of academic criticism of the doctrine.",
+    "31": "The structure of decentralised enforcement — three layers, stacked as a pyramid. Union procedural rules at the top. Below them, procedural autonomy. And framing that autonomy, the principles of equivalence and effectiveness — Rewe, case 33/76, and Comet, case 45/76.",
+    "42": "What follows from a breach — a three-step remedy. First, interpret the national rule in conformity with Union law. If that is impossible, disapply it, in line with primacy. And third, with a question mark over it, possibly base a remedy directly on Article 4, paragraph 3 of the Treaty on European Union.",
+    "53": "The legal basis of state liability: a general principle of Union law, derived among other things from Articles 4, paragraph 3 and 19, paragraph 1 of the Treaty on European Union, and from effet utile. Be emphatic about what it is not. It is not Article 340 of the Treaty on the Functioning of the European Union, which governs the liability of the Union itself. And it is not member state law — although member state law supplies the procedure. Getting that right is worth a mark."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "_comment": "Ruční opravy pro poslech. Klíč u 'slides' je číslo slidu; u 'cards' přesné znění otázky.",
+  "intro": "Introduction to European Union Law. Lecture six: the primacy of Union law — what happens when Union law and national law say different things.",
+  "slides": {
+    "6": "The hierarchy from the previous lecture returns, and this time the subject is the relationship at its foot: Union law set against the law of the member states.",
+    "23": "Primacy is disapplication, not invalidity — the most-tested refinement, from case C-10/97, IN.CO.GE. '90. It cannot be inferred from Simmenthal that incompatibility with Union law renders the national rule non-existent; the national court is obliged to disapply it. So primacy is a conflict-resolution rule, not an annulment power. The example given: if Union law gives workers a minimum one-hour break and national law gives thirty minutes, the national rule is set aside in cases where Union law applies — but it is not struck from the statute book, and it continues to govern situations outside the scope of Union law."
+  }
+}

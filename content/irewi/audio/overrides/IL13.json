@@ -1,0 +1,8 @@
+{
+  "_comment": "Ruční opravy pro poslech. Klíč u 'slides' je číslo slidu; u 'cards' přesné znění otázky.",
+  "intro": "Foundations of International Law. Unit thirteen: international responsibility, part two — organizations, individuals, and liability.",
+  "slides": {
+    "4": "Genocide and crimes against humanity. Genocide is certain acts, such as killing or torture, committed with the intent to destroy a national, ethnical, racial or religious group. That special intent is what makes it genocide rather than mass murder, and it is what makes it so hard to prove. Crimes against humanity are certain acts — murder, enslavement, torture, deportation — committed as part of a widespread or systematic attack against the civilian population, pursuant to a state or organizational policy. And the point worth flagging: both may be committed in peacetime, unlike war crimes.",
+    "5": "War crimes, command responsibility, and superior orders. War crimes are grave breaches of international humanitarian law: wilful killing of civilians, killing or torture of prisoners of war, attacks on civilians and civilian objects, use of particularly cruel weapons such as chemical weapons, pillaging towns. Two doctrines attach to them. First, command responsibility: immediate superiors answer for the crimes of their subordinates — and this holds in civilian hierarchies, not only military ones. Second, superior orders: following the orders of a superior does not exempt anyone from criminal responsibility."
+  }
+}
