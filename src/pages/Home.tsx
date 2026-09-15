@@ -24,7 +24,8 @@ import { t } from '../i18n'
 interface Props {
   onImport: () => void
   onStudy: () => void
-  onStudySubject: (subjectId: string) => void
+  /** Tap a deck → the subject screen: today's batch, its textbook, its topics. */
+  onOpenSubject: (subjectId: string) => void
   onCram: (subjectId: string) => void
   onBrowser: () => void
   /** Source materials → outline → cards. Server mode only. */
@@ -43,7 +44,7 @@ interface Props {
 export function Home({
   onImport,
   onStudy,
-  onStudySubject,
+  onOpenSubject,
   onCram,
   onBrowser,
   onSources,
@@ -260,11 +261,10 @@ export function Home({
               plan={plan}
               readiness={readiness}
               onEdit={setEditing}
-              onOpen={(s) =>
-                // Tap the deck → study it right away. Nothing due today →
-                // fall back to a no-stakes practice run instead of a dead end.
-                plan.dueReviews + plan.newQuota > 0 ? onStudySubject(s.id) : onCram(s.id)
-              }
+              // Tap the deck → the subject: today's batch, the textbook it was
+              // made from, and the topics underneath. A semester is learned
+              // lecture by lecture, so the way in has to show the lectures.
+              onOpen={(s) => onOpenSubject(s.id)}
             />
           ))}
           <button className="btn btn-ghost new-deck-btn" onClick={() => setCreating(true)}>

@@ -121,6 +121,23 @@ export function newCardQuota(newRemaining: number, daysUntilExam: number | null)
 }
 
 /**
+ * New cards this subject wants to introduce today, before the global cap.
+ * A manual per-day limit wins over the auto pace; the auto pace is computed
+ * over the day's full pool (remaining + already introduced) so finishing
+ * today's batch and reopening the app doesn't top the quota back up.
+ */
+function wantedNewToday(
+  subject: SchedSubject,
+  newRemaining: number,
+  alreadyToday: number,
+  daysUntilExam: number | null,
+): number {
+  return subject.dailyNewLimit != null
+    ? Math.max(0, Math.floor(subject.dailyNewLimit))
+    : newCardQuota(newRemaining + alreadyToday, daysUntilExam)
+}
+
+/**
  * Spread cards so the same topic does not run back to back (BRIEF §5.3).
  * Round-robin over topic buckets, relative order preserved inside each bucket:
  * blocked practice feels easier and teaches less, interleaved practice feels
@@ -227,13 +244,7 @@ export function buildSession(
     const news = active.filter((c) => c.state === 'new')
     const dExam = daysUntil(s.examDate, now)
     const alreadyToday = introduced.get(s.id) ?? 0
-    // Manual per-day limit wins over the auto pace; the auto pace is computed
-    // over the day's full pool (remaining + already introduced) so finishing
-    // today's batch and reopening the app doesn't top the quota back up.
-    const wanted =
-      s.dailyNewLimit != null
-        ? Math.max(0, Math.floor(s.dailyNewLimit))
-        : newCardQuota(news.length + alreadyToday, dExam)
+    const wanted = wantedNewToday(s, news.length, alreadyToday, dExam)
     // The day before the exam: reviews only.
     const quota = isExamImminent(dExam)
       ? 0
@@ -301,10 +312,7 @@ export function subjectStats(
   const active = list.filter((c) => isSchedulable(c, now))
   const news = active.filter((c) => c.state === 'new')
   const dExam = daysUntil(subject.examDate, now)
-  const wanted =
-    subject.dailyNewLimit != null
-      ? Math.max(0, Math.floor(subject.dailyNewLimit))
-      : newCardQuota(news.length + introducedToday, dExam)
+  const wanted = wantedNewToday(subject, news.length, introducedToday, dExam)
   return {
     total: list.length,
     studied: list.filter((c) => c.state !== 'new').length,
@@ -327,4 +335,109 @@ export function reinsertAgain(queue: string[], index: number, gap: number = REIN
   const at = Math.min(index + gap, next.length)
   next.splice(at, 0, id)
   return next
+}
+
+/** Cards that carry no topic of their own form one bucket, keyed by ''. */
+export function topicKey(card: SchedCard): string {
+  return card.topic ?? ''
+}
+
+export interface TopicPlan {
+  topic: string // '' = the cards that came without a topic
+  total: number
+  studied: number // cards no longer in the "new" state
+  dueReviews: number
+  newRemaining: number
+}
+
+/**
+ * Per-topic counts inside one subject, in the order the topics first appear in
+ * `cards`. Card ids are random, so that order carries no meaning on its own —
+ * the screen sorts the result by the textbook's lecture order and only falls
+ * back to this one for topics the textbook does not know.
+ */
+export function topicPlans(
+  subjectId: string,
+  cards: SchedCard[],
+  now: Date = new Date(),
+): TopicPlan[] {
+  const byTopic = new Map<string, TopicPlan>()
+  for (const c of cards) {
+    if (c.subjectId !== subjectId || c.suspended || c.draft) continue
+    const key = topicKey(c)
+    let plan = byTopic.get(key)
+    if (!plan) {
+      plan = { topic: key, total: 0, studied: 0, dueReviews: 0, newRemaining: 0 }
+      byTopic.set(key, plan)
+    }
+    plan.total++
+    if (c.state !== 'new') plan.studied++
+    // Buried cards still belong to the topic, they just sit out today.
+    if (!isSchedulable(c, now)) continue
+    if (isDueReview(c, now)) plan.dueReviews++
+    if (c.state === 'new') plan.newRemaining++
+  }
+  return [...byTopic.values()]
+}
+
+/**
+ * Today's queue for ONE topic — the screen for working through a single
+ * lecture. Every due review of the topic comes back (a backlog is a backlog),
+ * and new cards are drawn from this topic up to the subject's ordinary daily
+ * dose.
+ *
+ * The dose is deliberately computed over the WHOLE subject: choosing a topic
+ * should spend today's batch here, not shrink it to the topic's proportional
+ * sliver. The global new-card cap and the day-before-the-exam stop still hold,
+ * and cards already introduced today still count against both — picking topics
+ * is a way to aim the day's work, never a way to get more of it.
+ */
+export function buildTopicSession(
+  subject: SchedSubject,
+  cards: SchedCard[],
+  topic: string,
+  now: Date = new Date(),
+  opts: SessionOptions = {},
+): SessionPlan {
+  const list = cards.filter((c) => c.subjectId === subject.id && !c.suspended && !c.draft)
+  const active = list.filter((c) => isSchedulable(c, now))
+  const dExam = daysUntil(subject.examDate, now)
+
+  const introduced = opts.introducedToday ?? new Map<string, number>()
+  const alreadyToday = introduced.get(subject.id) ?? 0
+  const introducedTotal = [...introduced.values()].reduce((a, b) => a + b, 0)
+  const capRemaining =
+    typeof opts.newCardCap === 'number'
+      ? Math.max(0, Math.floor(opts.newCardCap) - introducedTotal)
+      : Infinity
+
+  const wanted = wantedNewToday(subject, active.filter((c) => c.state === 'new').length, alreadyToday, dExam)
+  const quota = isExamImminent(dExam) ? 0 : Math.max(0, wanted - alreadyToday)
+
+  const mine = active.filter((c) => topicKey(c) === topic)
+  const due = mine.filter((c) => isDueReview(c, now)).sort(byDueAsc)
+  const news = mine.filter((c) => c.state === 'new')
+  const take = Math.max(0, Math.min(quota, news.length, capRemaining))
+
+  const order = [...due.map((c) => c.id), ...news.slice(0, take).map((c) => c.id)]
+  const own = list.filter((c) => topicKey(c) === topic)
+
+  return {
+    order,
+    total: order.length,
+    dueReviews: due.length,
+    newCards: take,
+    // One plan, describing the slice that is actually being studied.
+    perSubject: [
+      {
+        subjectId: subject.id,
+        daysUntilExam: dExam,
+        total: own.length,
+        studied: own.filter((c) => c.state !== 'new').length,
+        dueReviews: due.length,
+        newRemaining: news.length,
+        newQuota: take,
+      },
+    ],
+  }
 }

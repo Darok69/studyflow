@@ -96,7 +96,7 @@ export const en: Messages = {
   subjectTodayCounts: (due: number, fresh: number) => `${due} to review · ${fresh} new`,
   doneForToday: 'done for today',
   cramBtn: 'Practise',
-  subjectOpenTitle: 'Tap to start today\u2019s studying for this subject',
+  subjectOpenTitle: 'Tap to open the subject — its textbook and topics',
 
   // Browser
   filterAll: 'All',
@@ -498,4 +498,21 @@ export const en: Messages = {
   readerError: 'The materials could not be loaded.',
   readerRead: (done: number, total: number) => `read ${done} / ${total}`,
   readerSlideAlt: (title: string, n: number) => `${title} — slide ${n}`,
+  // --- the subject as a hub: textbook + topics ---
+  subjectGone: 'This subject no longer exists.',
+  studyTodayCount: (n: number) => `Study today (${n})`,
+  practice: 'Practice',
+  textbookTitle: 'Textbook',
+  topicsTitle: (n: number) => `Topics (${n})`,
+  topicsEmpty: 'The cards of this subject carry no topics yet — they are studied together.',
+  topicNone: 'No topic',
+  topicLearned: (done: number, total: number) => `learned ${done} / ${total}`,
+  topicDue: (n: number) => `${n} to review`,
+  topicStudyTitle: "Study today's batch from this topic",
+  topicPracticeTitle: 'Nothing is due here today — run through it for practice',
+  topicRead: 'Read',
+  topicReadTitle: 'Open the textbook at this topic',
+  topicCards: 'Cards',
+  topicCardsTitle: 'Show the cards of this topic',
+  allTopics: 'All topics',
 }

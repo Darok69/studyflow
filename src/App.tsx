@@ -11,12 +11,23 @@ const Browser = lazy(() => import('./pages/Browser').then((m) => ({ default: m.B
 const Sources = lazy(() => import('./pages/Sources').then((m) => ({ default: m.Sources })))
 const Plan = lazy(() => import('./pages/Plan').then((m) => ({ default: m.Plan })))
 const Reader = lazy(() => import('./pages/Reader').then((m) => ({ default: m.Reader })))
+const SubjectPage = lazy(() => import('./pages/Subject').then((m) => ({ default: m.Subject })))
 import { decodeDeckPayload, payloadFromHash } from './lib/sharelink'
 import { AUTH_EXPIRED_EVENT, getMe, SERVER_MODE, type Account } from './lib/api'
 import { initSync, startSyncListener } from './lib/sync'
 import { t } from './i18n'
 
-type View = 'home' | 'import' | 'sources' | 'reader' | 'plan' | 'study' | 'browser' | 'stats' | 'settings'
+type View =
+  | 'home'
+  | 'subject'
+  | 'import'
+  | 'sources'
+  | 'reader'
+  | 'plan'
+  | 'study'
+  | 'browser'
+  | 'stats'
+  | 'settings'
 type AuthState = 'checking' | 'login' | 'ready'
 
 function App() {
@@ -27,7 +38,30 @@ function App() {
   const [sharedDeck, setSharedDeck] = useState<string | null>(null)
   const [auth, setAuth] = useState<AuthState>(SERVER_MODE ? 'checking' : 'ready')
   const [account, setAccount] = useState<Account | null>(null)
-  const goHome = () => setView('home')
+  // The subject screen is a hub: studying, the textbook and the card browser can
+  // all be opened from it, and each of them has to come back to it rather than
+  // drop the user on the home list.
+  const [openSubjectId, setOpenSubjectId] = useState<string | null>(null)
+  const [returnView, setReturnView] = useState<View>('home')
+  const [readerAt, setReaderAt] = useState<{ lectureId: string | null; course: string | null }>({
+    lectureId: null,
+    course: null,
+  })
+  const [browserTopic, setBrowserTopic] = useState<string | null>(null)
+  // Which deck the card browser opens on. Separate from freshDeckId, which
+  // means "just created — open the new-card editor straight away".
+  const [browserSubjectId, setBrowserSubjectId] = useState<string | null>(null)
+  const goHome = () => {
+    setReturnView('home')
+    setView('home')
+  }
+  const goBack = () => setView(returnView)
+
+  function openSubject(subjectId: string) {
+    setOpenSubjectId(subjectId)
+    setReturnView('home')
+    setView('subject')
+  }
 
   // Server mode: resolve the session, then reconcile local data with the
   // server snapshot BEFORE any view loads from IndexedDB.
@@ -109,18 +143,31 @@ function App() {
           <Home
             onImport={() => setView('import')}
             onStudy={() => startStudy({ kind: 'today' })}
-            onStudySubject={(subjectId) => startStudy({ kind: 'subject', subjectId })}
-            onCram={(subjectId) => startStudy({ kind: 'cram', subjectId })}
+            onOpenSubject={openSubject}
+            onCram={(subjectId) => {
+              setReturnView('home')
+              startStudy({ kind: 'cram', subjectId })
+            }}
             onBrowser={() => {
               setFreshDeckId(null)
+              setBrowserSubjectId(null)
+              setBrowserTopic(null)
+              setReturnView('home')
               setView('browser')
             }}
             onDeckCreated={(subjectId) => {
               setFreshDeckId(subjectId)
+              setBrowserSubjectId(subjectId)
+              setBrowserTopic(null)
+              setReturnView('home')
               setView('browser')
             }}
             onSources={() => setView('sources')}
-            onReader={() => setView('reader')}
+            onReader={() => {
+              setReaderAt({ lectureId: null, course: null })
+              setReturnView('home')
+              setView('reader')
+            }}
             hasMaterials={account?.materials === true}
             onPlan={() => setView('plan')}
             onStats={() => setView('stats')}
@@ -141,12 +188,58 @@ function App() {
             }}
           />
         )}
+        {view === 'subject' && openSubjectId && (
+          <SubjectPage
+            subjectId={openSubjectId}
+            hasMaterials={account?.materials === true}
+            onBack={goHome}
+            onStudy={() => {
+              setReturnView('subject')
+              startStudy({ kind: 'subject', subjectId: openSubjectId })
+            }}
+            onCram={() => {
+              setReturnView('subject')
+              startStudy({ kind: 'cram', subjectId: openSubjectId })
+            }}
+            onStudyTopic={(topic) => {
+              setReturnView('subject')
+              startStudy({ kind: 'topic', subjectId: openSubjectId, topic })
+            }}
+            onCramTopic={(topic) => {
+              setReturnView('subject')
+              startStudy({ kind: 'cram', subjectId: openSubjectId, topic })
+            }}
+            onRead={(lectureId, course) => {
+              setReaderAt({ lectureId, course })
+              setReturnView('subject')
+              setView('reader')
+            }}
+            onBrowse={(topic) => {
+              setFreshDeckId(null)
+              setBrowserSubjectId(openSubjectId)
+              setBrowserTopic(topic)
+              setReturnView('subject')
+              setView('browser')
+            }}
+          />
+        )}
         {view === 'sources' && <Sources onBack={goHome} />}
-        {view === 'reader' && <Reader onBack={goHome} />}
+        {view === 'reader' && (
+          <Reader
+            onBack={goBack}
+            initialLectureId={readerAt.lectureId}
+            courseCode={readerAt.course}
+          />
+        )}
         {view === 'plan' && <Plan onBack={goHome} />}
-        {view === 'study' && <Study onDone={goHome} mode={studyMode} />}
+        {view === 'study' && <Study onDone={goBack} mode={studyMode} />}
         {view === 'browser' && (
-          <Browser onBack={goHome} initialSubjectId={freshDeckId ?? undefined} startNewCard={!!freshDeckId} />
+          <Browser
+            onBack={goBack}
+            initialSubjectId={browserSubjectId ?? undefined}
+            startNewCard={!!freshDeckId}
+            initialTopic={browserTopic}
+          />
         )}
         {view === 'stats' && <Stats onBack={goHome} />}
         {view === 'settings' && (

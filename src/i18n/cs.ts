@@ -98,7 +98,7 @@ export const cs = {
   subjectTodayCounts: (due: number, fresh: number) => `${due} k opakování · ${fresh} nových`,
   doneForToday: 'pro dnešek hotovo',
   cramBtn: 'Procvičit',
-  subjectOpenTitle: 'Klepnutím spustíš dnešní učení tohoto předmětu',
+  subjectOpenTitle: 'Klepnutím otevřeš předmět — učebnici a témata',
 
   // Browser
   filterAll: 'Vše',
@@ -499,6 +499,23 @@ export const cs = {
   readerError: 'Podklady se nepodařilo načíst.',
   readerRead: (done: number, total: number) => `přečteno ${done} / ${total}`,
   readerSlideAlt: (title: string, n: number) => `${title} — strana ${n}`,
+  // --- předmět jako rozcestník: učebnice + témata ---
+  subjectGone: 'Předmět už neexistuje.',
+  studyTodayCount: (n: number) => `Učit dnes (${n})`,
+  practice: 'Procvičit',
+  textbookTitle: 'Učebnice',
+  topicsTitle: (n: number) => `Témata (${n})`,
+  topicsEmpty: 'Karty tohoto předmětu zatím nemají témata — učí se dohromady.',
+  topicNone: 'Bez tématu',
+  topicLearned: (done: number, total: number) => `naučeno ${done} / ${total}`,
+  topicDue: (n: number) => `${n} k opakování`,
+  topicStudyTitle: 'Učit dnešní dávku z tohoto tématu',
+  topicPracticeTitle: 'Dnes tu nic nečeká — projít nanečisto',
+  topicRead: 'Číst',
+  topicReadTitle: 'Otevřít učebnici u tohoto tématu',
+  topicCards: 'Karty',
+  topicCardsTitle: 'Ukázat kartičky tématu',
+  allTopics: 'Všechna témata',
 }
 
 /**

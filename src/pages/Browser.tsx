@@ -36,15 +36,24 @@ interface BrowserProps {
   initialSubjectId?: string
   /** Open the new-card editor immediately (fresh hand-made deck flow). */
   startNewCard?: boolean
+  /** Pre-select one topic — arriving from a topic row in the subject screen. */
+  initialTopic?: string | null
 }
 
-export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps) {
+export function Browser({
+  onBack,
+  initialSubjectId,
+  startNewCard,
+  initialTopic = null,
+}: BrowserProps) {
   const [loading, setLoading] = useState(true)
   const [subjects, setSubjects] = useState<Subject[]>([])
   const [cards, setCards] = useState<Card[]>([])
   const [search, setSearch] = useState('')
   const [subjectFilter, setSubjectFilter] = useState<string>(initialSubjectId ?? 'all')
   const [stateFilter, setStateFilter] = useState<StateFilter>('all')
+  // '' is a real value here: the cards that came without a topic.
+  const [topicFilter, setTopicFilter] = useState<string | null>(initialTopic)
   const [editing, setEditing] = useState<Card | 'new' | null>(startNewCard ? 'new' : null)
   const [mapping, setMapping] = useState(false)
 
@@ -65,6 +74,7 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
     const q = search.trim().toLowerCase()
     return cards.filter((c) => {
       if (subjectFilter !== 'all' && c.subjectId !== subjectFilter) return false
+      if (topicFilter !== null && (c.topic ?? '') !== topicFilter) return false
       switch (stateFilter) {
         case 'new':
           if (c.state !== 'new' || c.suspended || c.draft) return false
@@ -86,7 +96,22 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
       const hay = `${c.front}\n${c.back}\n${c.tags.join(' ')}`.toLowerCase()
       return hay.includes(q)
     })
-  }, [cards, search, subjectFilter, stateFilter])
+  }, [cards, search, subjectFilter, stateFilter, topicFilter])
+
+  /**
+   * Topics of the decks currently in view, sorted by name. Card ids are random,
+   * so the order they come out of the database in is noise; the subject screen
+   * is where topics appear in the order the course teaches them, and this is a
+   * pick-list — being findable matters more here than being chronological.
+   */
+  const topics = useMemo(() => {
+    const seen = new Set<string>()
+    for (const c of cards) {
+      if (subjectFilter !== 'all' && c.subjectId !== subjectFilter) continue
+      seen.add(c.topic ?? '')
+    }
+    return [...seen].sort((a, b) => a.localeCompare(b, t('locale')))
+  }, [cards, subjectFilter])
 
   async function toggleSuspend(card: Card) {
     await setCardSuspended(card.id, !card.suspended)
@@ -152,6 +177,20 @@ export function Browser({ onBack, initialSubjectId, startNewCard }: BrowserProps
             </option>
           ))}
         </select>
+        {topics.length > 1 && (
+          <select
+            className="form-input browser-select"
+            value={topicFilter ?? 'all'}
+            onChange={(e) => setTopicFilter(e.target.value === 'all' ? null : e.target.value)}
+          >
+            <option value="all">{t('allTopics')}</option>
+            {topics.map((topic) => (
+              <option key={topic || '—'} value={topic}>
+                {topic || t('topicNone')}
+              </option>
+            ))}
+          </select>
+        )}
       </div>
 
       <div className="segmented browser-states">

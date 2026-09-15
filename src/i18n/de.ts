@@ -97,7 +97,7 @@ export const de: Messages = {
   subjectTodayCounts: (due: number, fresh: number) => `${due} zu wiederholen · ${fresh} neue`,
   doneForToday: 'für heute geschafft',
   cramBtn: 'Üben',
-  subjectOpenTitle: 'Antippen, um das heutige Lernen für dieses Fach zu starten',
+  subjectOpenTitle: 'Antippen, um das Fach zu öffnen — Lehrbuch und Themen',
 
   // Browser
   filterAll: 'Alle',
@@ -506,4 +506,21 @@ export const de: Messages = {
   readerError: 'Die Unterlagen konnten nicht geladen werden.',
   readerRead: (done: number, total: number) => `gelesen ${done} / ${total}`,
   readerSlideAlt: (title: string, n: number) => `${title} — Folie ${n}`,
+  // --- Fach als Übersicht: Lehrbuch + Themen ---
+  subjectGone: 'Dieses Fach gibt es nicht mehr.',
+  studyTodayCount: (n: number) => `Heute lernen (${n})`,
+  practice: 'Üben',
+  textbookTitle: 'Lehrbuch',
+  topicsTitle: (n: number) => `Themen (${n})`,
+  topicsEmpty: 'Die Karten dieses Fachs haben noch keine Themen — sie werden gemeinsam gelernt.',
+  topicNone: 'Ohne Thema',
+  topicLearned: (done: number, total: number) => `gelernt ${done} / ${total}`,
+  topicDue: (n: number) => `${n} zu wiederholen`,
+  topicStudyTitle: 'Das heutige Pensum aus diesem Thema lernen',
+  topicPracticeTitle: 'Heute steht hier nichts an — zur Übung durchgehen',
+  topicRead: 'Lesen',
+  topicReadTitle: 'Das Lehrbuch bei diesem Thema öffnen',
+  topicCards: 'Karten',
+  topicCardsTitle: 'Die Karten des Themas zeigen',
+  allTopics: 'Alle Themen',
 }

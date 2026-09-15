@@ -14,6 +14,8 @@ import {
   newCardQuota,
   subjectStats,
   reinsertAgain,
+  topicPlans,
+  buildTopicSession,
 } from '../src/scheduler/scheduler'
 import { rate, newFsrsFields, previewIntervals, retrievabilityAt } from '../src/scheduler/fsrs'
 import { daysUntil, daysUntilDate, endOfDay } from '../src/lib/date'
@@ -37,6 +39,7 @@ import {
 import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/lib/sharelink'
 import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
+import { lectureForTopic, matchCourse, orderByCourse } from '../src/lib/materials'
 import {
   answerSimilarity,
   checkAnswer,
@@ -1281,6 +1284,123 @@ console.log('— blind maps: masks stay relative, one card per place —')
   ok(allRoles.get('m2') === 'hidden-context', 'in hide-all mode the neighbours are covered too')
 
   ok(occlusionCards({ masks: [masks[2]], mode: 'hide-one-guess-one', imageKey: 'k', alt: '' }).length === 0, 'no names, no cards')
+}
+
+
+// ============================================================
+// Topics — a semester is learned lecture by lecture
+// ============================================================
+{
+  console.log('— topicPlans —')
+  const tNow = new Date('2026-06-27T09:00:00')
+  const mkT = (id: string, topic: string | undefined, state: string, due: string, extra = {}) => ({
+    id,
+    subjectId: 's1',
+    topic,
+    state: state as 'new' | 'learning' | 'review' | 'relearning',
+    due,
+    ...extra,
+  })
+  const tCards = [
+    mkT('a1', 'Treaties', 'new', tNow.toISOString()),
+    mkT('a2', 'Treaties', 'review', '2026-06-26T09:00:00'), // due
+    mkT('a3', 'Treaties', 'review', '2026-09-01T09:00:00'), // not due
+    mkT('b1', 'Custom', 'new', tNow.toISOString()),
+    mkT('x1', undefined, 'new', tNow.toISOString()),
+    mkT('sus', 'Treaties', 'new', tNow.toISOString(), { suspended: true }),
+    mkT('bur', 'Custom', 'review', '2026-06-26T09:00:00', { buriedUntil: '2026-06-27' }),
+    mkT('other', 'Treaties', 'new', tNow.toISOString()),
+  ]
+  tCards[tCards.length - 1].subjectId = 's2'
+
+  const plans = topicPlans('s1', tCards, tNow)
+  const treaties = plans.find((p) => p.topic === 'Treaties')!
+  const custom = plans.find((p) => p.topic === 'Custom')!
+  const none = plans.find((p) => p.topic === '')!
+  ok(plans.length === 3, `three topics, the untitled one included (got ${plans.length})`)
+  ok(treaties.total === 3, `suspended cards leave the topic entirely (got ${treaties.total})`)
+  ok(treaties.studied === 2 && treaties.dueReviews === 1, 'studied vs. due are counted apart')
+  ok(treaties.newRemaining === 1, 'one new card left in the topic')
+  ok(custom.total === 2 && custom.dueReviews === 0, 'a buried card still belongs to its topic, it just sits out today')
+  ok(none.topic === '' && none.total === 1, 'cards without a topic form their own bucket')
+  ok(!plans.some((p) => p.total === 0), 'no empty topics are invented')
+  ok(topicPlans('s2', tCards, tNow).length === 1, 'another subject is not counted in')
+
+  console.log('— buildTopicSession: picking a topic aims the day, it does not shrink it —')
+  // 100 new cards, ten days to the exam → the subject introduces 10 a day.
+  const exam = '2026-07-07' // ten days out
+  const many = [
+    ...Array.from({ length: 30 }, (_, i) => mkT(`t1-${i}`, 'Treaties', 'new', tNow.toISOString())),
+    ...Array.from({ length: 70 }, (_, i) => mkT(`t2-${i}`, 'Custom', 'new', tNow.toISOString())),
+    mkT('t1-due', 'Treaties', 'review', '2026-06-20T09:00:00'),
+    mkT('t2-due', 'Custom', 'review', '2026-06-20T09:00:00'),
+  ]
+  const subject = { id: 's1', examDate: exam }
+  const whole = buildSession([subject], many, tNow)
+  ok(whole.newCards === 10, `the subject's own dose is 10 a day (got ${whole.newCards})`)
+
+  const topicRun = buildTopicSession(subject, many, 'Treaties', tNow)
+  ok(topicRun.newCards === 10, `the topic gets the subject's whole dose, not its 30/100 share (got ${topicRun.newCards})`)
+  ok(topicRun.dueReviews === 1, 'the topic\'s backlog comes back in full')
+  ok(topicRun.order.length === 11, `queue = backlog + dose (got ${topicRun.order.length})`)
+  ok(topicRun.order[0] === 't1-due', 'reviews before new cards')
+  ok(topicRun.order.every((id) => id.startsWith('t1-')), 'not one card from another topic slips in')
+  ok(
+    topicRun.perSubject[0].total === 31,
+    `the plan describes the topic, not the subject (got ${topicRun.perSubject[0].total})`,
+  )
+
+  console.log('— buildTopicSession keeps the guardrails —')
+  const capped = buildTopicSession(subject, many, 'Treaties', tNow, { newCardCap: 4 })
+  ok(capped.newCards === 4, `the global daily cap still holds (got ${capped.newCards})`)
+  // The invariant that matters: choosing a topic must never buy extra new
+  // cards. Whatever the subject would hand out today, the topic hands out —
+  // no more, just aimed at one lecture.
+  const already = { introducedToday: new Map([['s1', 10]]) }
+  const spent = buildTopicSession(subject, many, 'Treaties', tNow, already)
+  const spentWhole = buildSession([subject], many, tNow, already)
+  ok(
+    spent.newCards === spentWhole.newCards,
+    `already-met cards count the same on both routes (topic ${spent.newCards} vs subject ${spentWhole.newCards})`,
+  )
+  ok(spent.dueReviews === 1, 'reviews are never rationed')
+  const eve = buildTopicSession({ id: 's1', examDate: '2026-06-28' }, many, 'Treaties', tNow)
+  ok(eve.newCards === 0, 'the day before the exam: reviews only, topics included')
+  const empty = buildTopicSession(subject, many, 'Nothing here', tNow)
+  ok(empty.order.length === 0, 'an unknown topic is an empty queue, not a crash')
+
+  console.log('— the textbook orders the topics —')
+  const courses = [
+    {
+      code: 'IL',
+      title: 'Foundations of International Law',
+      lectures: [
+        { id: 'IL01', unit: 'Unit I', title: 'Introduction', slides: 3, cards: 2 },
+        { id: 'IL02', unit: 'Unit II', title: 'Treaties', slides: 5, cards: 4 },
+        { id: 'IL04', unit: 'Unit IV', title: 'Custom', slides: 4, cards: 3 },
+      ],
+    },
+    {
+      code: 'EU',
+      title: 'Introduction to European Union Law',
+      lectures: [{ id: 'EU01', unit: 'Lecture 1', title: 'Basics', slides: 2, cards: 1 }],
+    },
+  ]
+  ok(matchCourse(courses, ['Treaties', 'Custom'])?.code === 'IL', 'a deck finds its course by the topics it carries')
+  ok(matchCourse(courses, ['Basics'])?.code === 'EU', 'the other course is found the same way')
+  ok(matchCourse(courses, ['Something hand-made']) === null, 'a hand-made deck has no textbook and says so')
+  ok(matchCourse(courses, []) === null, 'no topics, no course')
+
+  const unsorted = [{ topic: 'Custom' }, { topic: 'Mine' }, { topic: 'Treaties' }, { topic: 'Introduction' }]
+  const sorted = orderByCourse(unsorted, courses[0]).map((p) => p.topic)
+  ok(
+    sorted.join(' | ') === 'Introduction | Treaties | Custom | Mine',
+    `topics follow the lectures, unknown ones go last (got ${sorted.join(' | ')})`,
+  )
+  ok(orderByCourse(unsorted, null).map((p) => p.topic).join() === 'Custom,Mine,Treaties,Introduction', 'without a textbook the order is left alone')
+  ok(lectureForTopic(courses[0], 'Treaties')?.id === 'IL02', 'a topic points at the lecture that explains it')
+  ok(lectureForTopic(courses[0], 'Mine') === null, 'a topic the textbook does not know has no lecture')
+  ok(lectureForTopic(null, 'Treaties') === null, 'no course, no lecture')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

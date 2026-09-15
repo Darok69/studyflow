@@ -83,10 +83,18 @@ function usePositionWriter(): (positions: Positions) => void {
   )
 }
 
-export function Reader({ onBack }: { onBack: () => void }) {
+interface ReaderProps {
+  onBack: () => void
+  /** Open straight at one lecture (a topic row in the subject screen). */
+  initialLectureId?: string | null
+  /** Show only this course — the textbook of the subject we came from. */
+  courseCode?: string | null
+}
+
+export function Reader({ onBack, initialLectureId = null, courseCode = null }: ReaderProps) {
   const [index, setIndex] = useState<MaterialIndex | null>(null)
   const [lecture, setLecture] = useState<MaterialLecture | null>(null)
-  const [openId, setOpenId] = useState<string | null>(null)
+  const [openId, setOpenId] = useState<string | null>(initialLectureId)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [positions, setPositions] = useState<Positions>(() => readPositions())
@@ -116,6 +124,26 @@ export function Reader({ onBack }: { onBack: () => void }) {
       alive = false
     }
   }, [])
+
+  // Arriving from a topic: fetch that lecture right away, no list in between.
+  useEffect(() => {
+    if (!initialLectureId) return
+    let alive = true
+    setLoading(true)
+    getMaterialLecture(initialLectureId)
+      .then((data) => {
+        if (alive) setLecture(data)
+      })
+      .catch(() => {
+        if (alive) setError(t('readerError'))
+      })
+      .finally(() => {
+        if (alive) setLoading(false)
+      })
+    return () => {
+      alive = false
+    }
+  }, [initialLectureId])
 
   const openLecture = useCallback((id: string) => {
     setOpenId(id)
@@ -190,9 +218,14 @@ export function Reader({ onBack }: { onBack: () => void }) {
           <button
             className="btn btn-ghost btn-small"
             onClick={() => {
+              slideRefs.current.clear()
+              // Opened straight at a lecture → the way back is where we came from.
+              if (initialLectureId && openId === initialLectureId) {
+                onBack()
+                return
+              }
               setOpenId(null)
               setLecture(null)
-              slideRefs.current.clear()
             }}
           >
             {t('back')}
@@ -293,7 +326,9 @@ export function Reader({ onBack }: { onBack: () => void }) {
       {loading && <p className="muted">{t('loading')}</p>}
       {error && !loading && <p className="muted">{error}</p>}
 
-      {index?.courses.map((course) => (
+      {index?.courses
+        .filter((course) => !courseCode || course.code === courseCode)
+        .map((course) => (
         <section key={course.code} className="reader-course">
           <h3>
             {course.title}
@@ -317,7 +352,7 @@ export function Reader({ onBack }: { onBack: () => void }) {
             })}
           </div>
         </section>
-      ))}
+        ))}
     </div>
   )
 }

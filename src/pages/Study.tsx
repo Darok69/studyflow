@@ -12,6 +12,7 @@ import {
 } from '../db/repo'
 import {
   buildSession,
+  buildTopicSession,
   introducedTodayBySubject,
   reinsertAgain,
   type SchedCard,
@@ -34,7 +35,10 @@ import { t } from '../i18n'
 export type StudyMode =
   | { kind: 'today' }
   | { kind: 'subject'; subjectId: string } // today's plan, one subject only (real FSRS ratings)
-  | { kind: 'cram'; subjectId: string }
+  // One lecture of a subject, today's plan (real FSRS ratings). A semester is
+  // learned topic by topic; the queue has to be able to follow.
+  | { kind: 'topic'; subjectId: string; topic: string }
+  | { kind: 'cram'; subjectId: string; topic?: string }
 
 interface UndoEntry {
   queue: string[]
@@ -153,11 +157,37 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
         // Practice run: every card of the subject, weakest recall first.
         // Ratings here never touch the FSRS plan.
         const now = new Date()
+        const onlyTopic = mode.topic
         order = cards
           .filter((c) => c.subjectId === mode.subjectId && !c.suspended && !c.draft)
+          .filter((c) => onlyTopic === undefined || (c.topic ?? '') === onlyTopic)
           .map((c) => ({ id: c.id, r: retrievabilityAt(c, now, loadedSettings.targetRetention) }))
           .sort((a, b) => a.r - b.r)
           .map((x) => x.id)
+      } else if (mode.kind === 'topic') {
+        const subject = subjects.find((s) => s.id === mode.subjectId)
+        const schedCards: SchedCard[] = cards.map((c) => ({
+          id: c.id,
+          subjectId: c.subjectId,
+          topic: c.topic,
+          state: c.state,
+          due: c.due,
+          suspended: c.suspended,
+          draft: c.draft,
+          buriedUntil: c.buriedUntil,
+        }))
+        order = subject
+          ? buildTopicSession(
+              { id: subject.id, examDate: subject.examDate, dailyNewLimit: subject.dailyNewLimit },
+              schedCards,
+              mode.topic,
+              new Date(),
+              {
+                newCardCap: loadedSettings.dailyNewCapEnabled ? loadedSettings.dailyNewCap : null,
+                introducedToday: introducedTodayBySubject(reviews, cards, new Date()),
+              },
+            ).order
+          : []
       } else {
         // 'subject' narrows the queue to one subject; the introduced-today map
         // stays global so the daily new-card cap holds across subjects.
@@ -167,6 +197,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
           .map((c) => ({
             id: c.id,
             subjectId: c.subjectId,
+            topic: c.topic,
             state: c.state,
             due: c.due,
             suspended: c.suspended,
