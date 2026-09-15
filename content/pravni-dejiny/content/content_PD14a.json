@@ -1,100 +1,13 @@
 {
   "lecture_id": "PD14a",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 18",
   "title": "Dictatorships of the 20th Century I",
-  "source_file": "raw/PD14a_pp-14a-dictatorships-i-staudigl-ciechowicz.pdf",
-  "source_sha256": "a7cfceebcc7eccbba4f8064ae27513ade090379776448b9e79641a851615b351",
-  "source_pages": 45,
-  "slides_per_page": 1,
-  "slide_count": 45,
-  "updated_at": "2026-09-15T12:12:46+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD14a/PD14a_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 120,
-      "text_sha": "5cf62fd31e7c748f",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD14a/PD14a_s002.webp",
-      "title": "Schedule",
-      "text": "Dictatorships I, Dictatorships II, and then Europe during the Cold War.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 363,
-      "text_sha": "cd21c949e1ac6976",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD14a/PD14a_s003.webp",
-      "title": "Dictatorships of the 20th Century I",
-      "text": "Kamila Staudigl-Ciechowicz.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 117,
-      "text_sha": "6ff9266d62d7f5e2",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD14a/PD14a_s004.webp",
-      "title": "Think – Pair – Share",
-      "text": "The questions put to the room: what shaped the period 1918–1939, and what changed in 1918?",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 118,
-      "text_sha": "d383099ce2e7077d",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PD14a/PD14a_s005.webp",
-      "title": "The images of the period",
-      "text": "Gas and flame attack in the war; a begging war invalid in Berlin in 1923; crowds at the Berliner Sparkasse when the banks closed in 1931; and the Frankfurt kitchen — catastrophe and modernity in the same two decades.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 332,
-      "text_sha": "6a9c8977c085a0d7",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PD14a/PD14a_s006.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Schedule", "text": "Dictatorships I, Dictatorships II, and then Europe during the Cold War.", "terms": [], "cards": [], "vision_used": false },
+    "3": { "title": "Dictatorships of the 20th Century I", "text": "Kamila Staudigl-Ciechowicz.", "terms": [], "cards": [], "vision_used": false },
+    "4": { "title": "Think – Pair – Share", "text": "The questions put to the room: what shaped the period 1918–1939, and what changed in 1918?", "terms": [], "cards": [], "vision_used": false },
+    "5": { "title": "The images of the period", "text": "Gas and flame attack in the war; a begging war invalid in Berlin in 1923; crowds at the Berliner Sparkasse when the banks closed in 1931; and the Frankfurt kitchen — catastrophe and modernity in the same two decades.", "terms": [], "cards": [], "vision_used": true },
+    "6": {
       "title": "The aftermath of the war",
       "text": "Six consequences: a NEW ORDER OF EUROPE and the COLLAPSE OF EMPIRES; the emergence of YOUNG DEMOCRACIES; SOCIAL UPHEAVAL; ECONOMIC DIFFICULTIES; TRAUMATIZATION due to the war; and IMPROVEMENT OF THE LEGAL POSITION OF WOMEN. Note the combination that follows: new, inexperienced democracies inheriting economic collapse and a traumatised population.",
       "terms": [],
@@ -107,34 +20,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 291,
-      "text_sha": "da5e9e100930db88",
-      "pdf_page": 6
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD14a/PD14a_s007.webp",
-      "title": "Dictatorships spreading",
-      "text": "The maps of 1934 and 1938 — the democracies of 1921 turning one by one.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 40,
-      "text_sha": "686694d072b81d9c",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PD14a/PD14a_s008.webp",
+    "7": { "title": "Dictatorships spreading", "text": "The maps of 1934 and 1938 — the democracies of 1921 turning one by one.", "terms": [], "cards": [], "vision_used": false },
+    "8": {
       "title": "The battle of ideologies",
       "text": "Three columns, and the exam wants them apart. DEMOCRACY: free elections, political and social PLURALISM, rule of law — civil liberties and an independent judiciary — and the expansion of the WELFARE STATE. FASCISM AND AUTHORITARIANISM: ban on opposition parties, control of the media, HIERARCHICAL structure of state and society, CULT OF THE LEADER, nationalism, partly CORPORATISM, and omnipresent state power. COMMUNISM: PLANNED ECONOMY, COLLECTIVE OWNERSHIP, political and social CENTRALISM, elections BUT WITH NO REAL CHOICE, a hierarchically structured party and society, CONCENTRATION OF POWER IN A SMALL GROUP, and omnipresent state power. Note what the two dictatorships share — omnipresent state power, hierarchy, no real choice — and where they differ: ownership and economy.",
       "terms": [],
@@ -154,34 +43,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 688,
-      "text_sha": "ebf3aa8eccac086c",
-      "pdf_page": 8
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD14a/PD14a_s009.webp",
-      "title": "Marx and Engels",
-      "text": "Karl Marx (1818–1883), who studied at Bonn and Berlin among followers of Hegel and worked mainly as a journalist; and Friedrich Engels (1820–1895), a manufacturer's son who learned about the conditions of factory workers in England. The Communist Manifesto (1848), the Critique of Political Economy (1859), Capital (1867).",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 428,
-      "text_sha": "9e521916c9f856fd",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PD14a/PD14a_s010.webp",
+    "9": { "title": "Marx and Engels", "text": "Karl Marx (1818–1883), who studied at Bonn and Berlin among followers of Hegel and worked mainly as a journalist; and Friedrich Engels (1820–1895), a manufacturer's son who learned about the conditions of factory workers in England. The Communist Manifesto (1848), the Critique of Political Economy (1859), Capital (1867).", "terms": [], "cards": [], "vision_used": true },
+    "10": {
       "title": "Historical materialism",
       "text": "The stages: PRIMITIVE COMMUNISM; the SLAVE SOCIETY of antiquity; MEDIEVAL FEUDALISM; now MODERN CAPITALISM; in the near future SOCIALISM; in the far future COMMUNISM. A theory of history in which the present is a stage and the destination is known in advance — which is what makes it a programme as well as an analysis.",
       "terms": [],
@@ -194,34 +59,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 234,
-      "text_sha": "4b549fac44fb0738",
-      "pdf_page": 10
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD14a/PD14a_s011.webp",
-      "title": "The pyramid of Tsarist society",
-      "text": "The famous poster: 'We rule you' — 'we fool you' — 'we shoot at you' — 'we eat for you' — 'we work for all, we feed all'. Monarchy, church, army, bourgeoisie, and the workers at the bottom carrying them.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 192,
-      "text_sha": "ad7c06ae8b69f168",
-      "pdf_page": 11
-    },
-    {
-      "n": 12,
-      "img": "img/PD14a/PD14a_s012.webp",
+    "11": { "title": "The pyramid of Tsarist society", "text": "The famous poster: 'We rule you' — 'we fool you' — 'we shoot at you' — 'we eat for you' — 'we work for all, we feed all'. Monarchy, church, army, bourgeoisie, and the workers at the bottom carrying them.", "terms": [], "cards": [], "vision_used": false },
+    "12": {
       "title": "The Russian revolutions",
       "text": "1905: revolution forces Nicholas II to abandon absolutism and enact a constitution in 1907, though the DUMA has little power; workers and soldiers also form COUNCILS — soviets. The disastrous course of the war leads to the Tsar's abdication in February (March) 1917. The PROVISIONAL GOVERNMENT proclaims a republic and REMAINS IN THE WAR — and GERMANY HELPS LENIN RETURN from his exile in Switzerland. Lenin leads the majority, the BOLSHEVIKS, of the Social Democratic Party, from 1918 the Communist Party. And the lecture's verdict on October 1917: IT HAS MORE THE CHARACTER OF A COUP THAN OF A POPULAR UPRISING.",
       "terms": [],
@@ -241,25 +82,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 759,
-      "text_sha": "71d54c5407815c78",
-      "pdf_page": 12
+      "vision_used": true
     },
-    {
-      "n": 13,
-      "img": "img/PD14a/PD14a_s013.webp",
+    "13": {
       "title": "Marxism-Leninism meets reality",
       "text": "Marx and Engels taught the DYING OFF of law and state in communist society. After the seizure of power it becomes clear that FOR THE TIME BEING IT WILL NOT WORK WITHOUT LAWS — hence the RUSSIAN CIVIL CODE OF 1922. Means of production must not be privately owned, so farms are either STATE-OWNED (sovkhoz) or owned by CO-OPERATIVES (kolkhoz). And a PLANNED economy replaces the market: production according to actual needs — which OFTEN DOES NOT WORK, producing SHORTAGES AND MISMANAGEMENT. A theory predicting the withering away of law, issuing a civil code five years in.",
       "terms": [
-        {
-          "term": "sovkhoz / kolkhoz",
-          "def": "State-owned farm and co-operative farm — the two permitted forms once private ownership of the means of production is excluded."
-        }
+        { "term": "sovkhoz / kolkhoz", "def": "State-owned farm and co-operative farm — the two permitted forms once private ownership of the means of production is excluded." }
       ],
       "cards": [
         {
@@ -277,34 +106,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 586,
-      "text_sha": "39725b3a0447cbd2",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD14a/PD14a_s014.webp",
-      "title": "Think – Pair – Share",
-      "text": "The poster: 'Comrade Lenin cleanses the earth of filth' — and the question of what it means.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 189,
-      "text_sha": "3d32739a6477e11f",
-      "pdf_page": 14
-    },
-    {
-      "n": 15,
-      "img": "img/PD14a/PD14a_s015.webp",
+    "14": { "title": "Think – Pair – Share", "text": "The poster: 'Comrade Lenin cleanses the earth of filth' — and the question of what it means.", "terms": [], "cards": [], "vision_used": false },
+    "15": {
       "title": "Fear of communism",
       "text": "The RED SCARE in the US; the Bolshevist danger as a theme in novels; the EXPLOITATION OF ANTI-COMMUNIST HYSTERIA FOR POLITICAL ENDS; and — the part that matters most — the COMBINATION OF ANTI-COMMUNIST AND ANTI-SEMITIC THEMES, shown by a Christian Social election poster of 1920 in Austria and a Nazi propaganda poster, 'Bolshevism without the Mask', of 1937. Anti-communism and antisemitism are fused into a single image of the enemy.",
       "terms": [],
@@ -317,18 +122,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 502,
-      "text_sha": "638a3582923e9c74",
-      "pdf_page": 15
+      "vision_used": true
     },
-    {
-      "n": 16,
-      "img": "img/PD14a/PD14a_s016.webp",
+    "16": {
       "title": "The council system",
       "text": "NO MPs WITH A FREE MANDATE, BUT A BOUND MANDATE. The will of the people is to be CONTINUED FROM THE BOTTOM UP: working people elect WORKERS' COUNCILS, these send delegates to REGIONAL COUNCILS, and those to the SUPREME COUNCIL. And the consequence the lecture states plainly: THE COUNCILS LOSE THEIR FUNCTION AS A PLACE OF POLITICAL DEBATE. The structure that was meant to bring the people's will closer removes the one thing a deliberative body is for.",
       "terms": [],
@@ -341,34 +137,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 436,
-      "text_sha": "f7644d14f42db5b6",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD14a/PD14a_s017.webp",
-      "title": "Rousseau again",
-      "text": "The same quotation as in the democracy unit, with the question turned into the exam's own: IS THE IDEA OF DEMOCRACY REALIZED MORE SUCCESSFULLY BY THE BOUND MANDATE? The council system is the experiment that answers it.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 412,
-      "text_sha": "347128053165bd92",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PD14a/PD14a_s018.webp",
+    "17": { "title": "Rousseau again", "text": "The same quotation as in the democracy unit, with the question turned into the exam's own: IS THE IDEA OF DEMOCRACY REALIZED MORE SUCCESSFULLY BY THE BOUND MANDATE? The council system is the experiment that answers it.", "terms": [], "cards": [], "vision_used": false },
+    "18": {
       "title": "The Soviet constitution of 1918: who may vote",
       "text": "ARTICLE 64: the right to vote and be elected belongs to citizens of BOTH SEXES who have completed their eighteenth year, IRRESPECTIVE OF RELIGION — a) all who have acquired THE MEANS OF LIVING THROUGH LABOR that is productive and useful to society, and also persons engaged in HOUSEKEEPING which enables the former to do productive work. ARTICLE 20 goes further: in consequence of the solidarity of the toilers of all nations, the Republic grants ALL POLITICAL RIGHTS OF RUSSIAN CITIZENS TO FOREIGNERS who live in its territory, are engaged in toil and belong to the toiling class. Suffrage detached from nationality and attached to labour — more inclusive than any western franchise of 1918 in one direction, and about to be far more exclusive in another.",
       "terms": [],
@@ -381,18 +153,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 949,
-      "text_sha": "7f82fb7ab5eeeaee",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD14a/PD14a_s019.webp",
+    "19": {
       "title": "And who may not",
       "text": "ARTICLE 65 takes the vote away from: persons who EMPLOY HIRED LABOUR in order to obtain an increase in profits; persons who HAVE AN INCOME WITHOUT DOING ANY WORK; and MONKS AND CLERGY OF ALL DENOMINATIONS. Read Articles 64 and 65 together and the principle is clear: the franchise is not universal but CLASS-BASED — the same document that enfranchises a foreign worker disenfranchises a native employer and every priest.",
       "terms": [],
@@ -405,18 +168,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 398,
-      "text_sha": "62118d55ac7a8dc4",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD14a/PD14a_s020.webp",
+    "20": {
       "title": "Five phases of the Soviet Union",
       "text": "1. CIVIL WAR (1917–1921): the attempt to enforce communist ideas WITH ALL BRUTALITY. 2. NEW ECONOMIC POLICY (1921–1928): relaxations, private ownership possible to a limited extent — and the USSR founded at the same time. 3. STALINISM (1928–1953): the council system DISTORTED BEYOND RECOGNITION; the lecture's judgment is blunt — a dictatorship IN NO WAY INFERIOR TO FASCISM, 'left-wing fascism', with millions of deaths, for instance through DELIBERATELY INDUCED AGRICULTURAL CRISES. 4. POST-STALINIST ERA (1953–1985). 5. PERESTROIKA (1985–1991).",
       "terms": [],
@@ -436,18 +190,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 664,
-      "text_sha": "f36fa0c9d3d72bae",
-      "pdf_page": 20
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD14a/PD14a_s021.webp",
+    "21": {
       "title": "The socialist bloc",
       "text": "NO WORLD REVOLUTION: the USSR remains the ONLY socialist state for decades. After 1945 come the SOCIALIST PEOPLE'S DEMOCRACIES of east-central Europe, lasting until 1989/91. 1949–1991: COMECON, the Council for Mutual Economic Assistance, coordinating the member states' planned economies. 1955–1991: the WARSAW PACT, the military alliance.",
       "terms": [],
@@ -460,29 +205,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 443,
-      "text_sha": "27bc79ee1bfcace4",
-      "pdf_page": 21
+      "vision_used": true
     },
-    {
-      "n": 22,
-      "img": "img/PD14a/PD14a_s022.webp",
+    "22": {
       "title": "The legal system of the socialist states",
       "text": "Three features, and they are a legal answer, not just a political one. LEADERSHIP OF THE COMMUNIST PARTY, usually the only permitted party. SOCIALIST LEGALITY: IDEOLOGICAL CONSIDERATIONS TAKE PRECEDENCE OVER THE RULE OF LAW. And UNITY OF STATE POWER: NO SEPARATION OF POWERS, NO ADMINISTRATIVE OR CONSTITUTIONAL JURISDICTION, and FEDERALISM WITHOUT SIGNIFICANCE. Note the second and third together — with no administrative or constitutional courts there is no institution that could enforce legality against the state even in principle.",
       "terms": [
-        {
-          "term": "socialist legality",
-          "def": "Legality in which ideological considerations take precedence over the rule of law — law applied in the service of the party's aims."
-        },
-        {
-          "term": "unity of state power",
-          "def": "The socialist rejection of the separation of powers: no administrative or constitutional jurisdiction, and federalism without significance."
-        }
+        { "term": "socialist legality", "def": "Legality in which ideological considerations take precedence over the rule of law — law applied in the service of the party's aims." },
+        { "term": "unity of state power", "def": "The socialist rejection of the separation of powers: no administrative or constitutional jurisdiction, and federalism without significance." }
       ],
       "cards": [
         {
@@ -500,18 +230,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 400,
-      "text_sha": "39b3ac0c2a3e3245",
-      "pdf_page": 22
+      "vision_used": true
     },
-    {
-      "n": 23,
-      "img": "img/PD14a/PD14a_s023.webp",
+    "23": {
       "title": "Why democracy was refused",
       "text": "The mechanism, and it is the most useful thing in the lecture. The war has devastating economic consequences ESPECIALLY FOR THE BOURGEOISIE — currency devaluation, company insolvency. Marxists hope to WIN OVER the impoverished bourgeoisie — AND THE OPPOSITE IS TRUE: it responds with DELIMITATION and ESCAPE TO THE PAST. The future is uncertain, democratically elected parliaments look like a bunch of rubbish — Goebbels' 'QUATSCHBUDEN', talking shops — INCAPABLE OF SOLVING URGENT PROBLEMS. And out of the FEAR OF LOSING EVERYTHING UNDER COMMUNISM comes the LONGING FOR A STRONG LEADER. Impoverishment did not radicalise the middle class leftwards; it radicalised it rightwards.",
       "terms": [],
@@ -524,18 +245,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 539,
-      "text_sha": "8db244caab815379",
-      "pdf_page": 23
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "img": "img/PD14a/PD14a_s024.webp",
+    "24": {
       "title": "The rise of Hitler",
       "text": "From a lower-middle-class background; moves to VIENNA in 1907 to become a painter and fails; learns about Jews and ANTISEMITISM in Vienna, listening to the speeches of KARL LUEGER, mayor of Vienna 1897–1910. Volunteers for the German army in 1914 and is twice awarded the Iron Cross — SUCCESS AND ORDER IN HIS LIFE FOR THE FIRST TIME. And he CANNOT UNDERSTAND THE DEFEAT: hence the STAB-IN-THE-BACK LEGEND, that Germany was defeated by internal enemies.",
       "terms": [],
@@ -548,50 +260,11 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 805,
-      "text_sha": "aaf17391fa16b954",
-      "pdf_page": 24
+      "vision_used": true
     },
-    {
-      "n": 25,
-      "img": "img/PD14a/PD14a_s025.webp",
-      "title": "The stab-in-the-back legend",
-      "text": "The claim that in 1918 Jews and communists destroyed the German defence force — A LEGEND, and one told through the Nibelungenlied, where Hagen kills Siegfried by striking him FROM BEHIND. A defeat explained as a betrayal, with a myth supplying the picture.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 248,
-      "text_sha": "278e5eb6bf0d0bd3",
-      "pdf_page": 25
-    },
-    {
-      "n": 26,
-      "img": "img/PD14a/PD14a_s026.webp",
-      "title": "Two republics proclaimed in one day",
-      "text": "9 November 1918: Philipp Scheidemann proclaims the 'German Republic' — and on the SAME DAY Karl Liebknecht proclaims the 'Socialist Republic of Germany'. The choice between the western and the Russian model, announced twice within hours.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 244,
-      "text_sha": "ff412358e35e25cd",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PD14a/PD14a_s027.webp",
+    "25": { "title": "The stab-in-the-back legend", "text": "The claim that in 1918 Jews and communists destroyed the German defence force — A LEGEND, and one told through the Nibelungenlied, where Hagen kills Siegfried by striking him FROM BEHIND. A defeat explained as a betrayal, with a myth supplying the picture.", "terms": [], "cards": [], "vision_used": true },
+    "26": { "title": "Two republics proclaimed in one day", "text": "9 November 1918: Philipp Scheidemann proclaims the 'German Republic' — and on the SAME DAY Karl Liebknecht proclaims the 'Socialist Republic of Germany'. The choice between the western and the Russian model, announced twice within hours.", "terms": [], "cards": [], "vision_used": true },
+    "27": {
       "title": "Weimar: which kind of republic",
       "text": "WESTERN-STYLE DEMOCRACY OR RUSSIAN-STYLE COUNCIL DEMOCRACY? The CONGRESS OF SOVIETS itself decides on elections to a National Assembly — a DECISION IN FAVOUR OF DEMOCRACY, taken by the councils against their own model. The communist uprising in Berlin is violently suppressed, with repeated unrest and attempted coups FROM THE LEFT AND THE RIGHT. The National Assembly convenes in Weimar and adopts a democratic constitution in 1919.",
       "terms": [],
@@ -604,25 +277,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 521,
-      "text_sha": "b388e18ecc99d041",
-      "pdf_page": 27
+      "vision_used": false
     },
-    {
-      "n": 28,
-      "img": "img/PD14a/PD14a_s028.webp",
+    "28": {
       "title": "Article 48 of the Weimar Constitution",
       "text": "The provision that matters more than any other. IN THE EVENT THAT PUBLIC ORDER AND SECURITY ARE SERIOUSLY DISTURBED OR ENDANGERED, THE REICH PRESIDENT MAY TAKE THE MEASURES NECESSARY FOR THEIR RESTORATION, intervening if necessary with the armed forces — and FOR THIS PURPOSE HE MAY TEMPORARILY ABROGATE, WHOLLY OR IN PART, the fundamental principles laid down in Articles 114, 115, 117, 118, 123, 124 and 153. Which are those? ARTICLE 114: personal liberty is inviolable. ARTICLE 118: every German has the right to express his opinion freely by word, writing, print or picture — AND CENSORSHIP IS FORBIDDEN. A constitution that lists its own suspendable rights by number.",
       "terms": [
-        {
-          "term": "Article 48 WRV",
-          "def": "The Weimar emergency article: where public order and security are seriously endangered the Reich President may take the necessary measures and temporarily suspend the fundamental rights of Arts. 114, 115, 117, 118, 123, 124 and 153."
-        }
+        { "term": "Article 48 WRV", "def": "The Weimar emergency article: where public order and security are seriously endangered the Reich President may take the necessary measures and temporarily suspend the fundamental rights of Arts. 114, 115, 117, 118, 123, 124 and 153." }
       ],
       "cards": [
         {
@@ -633,18 +294,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 976,
-      "text_sha": "c8b64c188b44486d",
-      "pdf_page": 28
+      "vision_used": false
     },
-    {
-      "n": 29,
-      "img": "img/PD14a/PD14a_s029.webp",
+    "29": {
       "title": "How Weimar worked in practice",
       "text": "The president is DIRECTLY ELECTED BY THE PEOPLE — Hindenburg from 1925 to 1934 — and has an EXTENSIVE RIGHT TO ISSUE EMERGENCY DECREES. LARGE PARTY DIVERSITY makes parliament's work difficult, with several votes of no confidence against governments; and FROM 1932 GOVERNMENT IS ALMOST ONLY BY EMERGENCY DECREE. Parliamentary government had effectively stopped a year before Hitler was appointed.",
       "terms": [],
@@ -657,18 +309,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 789,
-      "text_sha": "bc5af0a40eb82123",
-      "pdf_page": 29
+      "vision_used": false
     },
-    {
-      "n": 30,
-      "img": "img/PD14a/PD14a_s030.webp",
+    "30": {
       "title": "Mussolini and the march on Rome",
       "text": "Benito Mussolini is EXPELLED FROM THE SOCIAL DEMOCRATIC PARTY in 1914 and founds the Partito Nazionale Fascista in 1921, as DUCE. He benefits from dissatisfaction with the PARIS TREATIES and with the democratic system in Italy. 1922: the MARCH ON ROME — Mussolini FORCES THE KING TO MAKE HIM MINISTER-PRESIDENT. And then the legal step: an ELECTORAL LAW REFORM IN 1923 secures the PNF a majority in parliament, and the gradual transformation into a dictatorship follows. Power taken by threat, then secured by changing the voting rules.",
       "terms": [],
@@ -681,18 +324,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 528,
-      "text_sha": "bbc6b855a183d855",
-      "pdf_page": 30
+      "vision_used": true
     },
-    {
-      "n": 31,
-      "img": "img/PD14a/PD14a_s031.webp",
+    "31": {
       "title": "What fascism is",
       "text": "The definition to reproduce: REJECTION OF FREEDOM OF OPINION AND OF DIVERSITY OF OPINION — no other parties, which means no democracy, and no freedom of the press; REJECTION OF FUNDAMENTAL RIGHTS — TOTALITARIANISM; ANTI-MARXISM; EXTREME NATIONALISM, including RACISM; and the AFFIRMATION OF VIOLENCE AS A MEANS to achieve political goals.",
       "terms": [],
@@ -705,18 +339,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 386,
-      "text_sha": "18be2a10e252ee7a",
-      "pdf_page": 31
+      "vision_used": true
     },
-    {
-      "n": 32,
-      "img": "img/PD14a/PD14a_s032.webp",
+    "32": {
       "title": "The failed coup of 1923",
       "text": "9 November 1923: Hitler exploits chaotic conditions in Munich and attempts a coup. He is DEFEATED MILITARILY and arrested, SENTENCED TO FIVE YEARS — AND RELEASED ON PAROLE AFTER JUST A FEW MONTHS. He writes 'Mein Kampf' and plans TO TAKE POWER BY THE DEMOCRATIC ROUTE. The lenient sentence and the change of strategy are the two things to remember: the failed putsch taught him to use the constitution instead.",
       "terms": [],
@@ -729,34 +354,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 497,
-      "text_sha": "c59bf7c9b683856d",
-      "pdf_page": 32
+      "vision_used": false
     },
-    {
-      "n": 33,
-      "img": "img/PD14a/PD14a_s033.webp",
-      "title": "The Reichstag in May 1924",
-      "text": "The seat distribution: SPD 100, DNVP 95, Zentrum 65, KPD 62, NSDAP 32, others 118 — the NSDAP a small party among many.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 191,
-      "text_sha": "ce63b7ae280f7fea",
-      "pdf_page": 33
-    },
-    {
-      "n": 34,
-      "img": "img/PD14a/PD14a_s034.webp",
+    "33": { "title": "The Reichstag in May 1924", "text": "The seat distribution: SPD 100, DNVP 95, Zentrum 65, KPD 62, NSDAP 32, others 118 — the NSDAP a small party among many.", "terms": [], "cards": [], "vision_used": false },
+    "34": {
       "title": "The Reichstag in July 1932",
       "text": "The same chart eight years later: NSDAP 230, SPD 133, KPD 89, Zentrum 75, DNVP 37, others 44. From 32 seats to 230 — the largest party in parliament, WITHOUT A MAJORITY. Hold both halves of that: the rise was electoral, and it never produced a majority.",
       "terms": [],
@@ -769,41 +370,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 302,
-      "text_sha": "eeba3428e1cc142f",
-      "pdf_page": 34
+      "vision_used": false
     },
-    {
-      "n": 35,
-      "img": "img/PD14a/PD14a_s035.webp",
-      "title": "30 January 1933",
-      "text": "President Hindenburg APPOINTS Hitler Reich Chancellor. Not an election and not a coup — an appointment, made under the ordinary rules by the head of state.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 206,
-      "text_sha": "29ef17ad1ec3d060",
-      "pdf_page": 35
-    },
-    {
-      "n": 36,
-      "img": "img/PD14a/PD14a_s036.webp",
+    "35": { "title": "30 January 1933", "text": "President Hindenburg APPOINTS Hitler Reich Chancellor. Not an election and not a coup — an appointment, made under the ordinary rules by the head of state.", "terms": [], "cards": [], "vision_used": true },
+    "36": {
       "title": "The Reichstag Fire Decree, 28 February 1933",
       "text": "Made ON THE BASIS OF ARTICLE 48(2) of the Weimar Constitution, and decreed 'AS A DEFENSIVE MEASURE AGAINST COMMUNIST ACTS OF VIOLENCE THAT ENDANGER THE STATE'. § 1: Articles 114, 115, 117, 118, 123, 124 and 153 of the Constitution ARE SUSPENDED UNTIL FURTHER NOTICE. Thus restrictions on personal liberty, on free expression including freedom of the press, on assembly and association, violations of the privacy of post, telegraph and telephone, warrants for house searches, orders of confiscation and restrictions on property ARE PERMISSIBLE BEYOND THE LEGAL LIMITS OTHERWISE PRESCRIBED. Note the phrase 'UNTIL FURTHER NOTICE': Article 48 spoke of temporary abrogation, and the decree simply left the end open. It was never lifted.",
       "terms": [
-        {
-          "term": "Reichstag Fire Decree (28 Feb 1933)",
-          "def": "The emergency decree under Art. 48(2) suspending the Weimar fundamental rights 'until further notice' — the legal basis of the dictatorship, never lifted."
-        }
+        { "term": "Reichstag Fire Decree (28 Feb 1933)", "def": "The emergency decree under Art. 48(2) suspending the Weimar fundamental rights 'until further notice' — the legal basis of the dictatorship, never lifted." }
       ],
       "cards": [
         {
@@ -821,41 +395,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 875,
-      "text_sha": "bf1783d76ca3042b",
-      "pdf_page": 36
+      "vision_used": true
     },
-    {
-      "n": 37,
-      "img": "img/PD14a/PD14a_s037.webp",
-      "title": "The decree in context",
-      "text": "28 February 1933: the emergency decree 'for the Protection of the People and the State' — restriction of fundamental rights and persecution of communists.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 280,
-      "text_sha": "4fc370191672cff8",
-      "pdf_page": 37
-    },
-    {
-      "n": 38,
-      "img": "img/PD14a/PD14a_s038.webp",
+    "37": { "title": "The decree in context", "text": "28 February 1933: the emergency decree 'for the Protection of the People and the State' — restriction of fundamental rights and persecution of communists.", "terms": [], "cards": [], "vision_used": true },
+    "38": {
       "title": "The Enabling Act, 24 March 1933",
       "text": "Its own preamble insists on legality: the Reichstag HAS PASSED the law, with the approval of the Reichsrat, AFTER IT HAS BEEN ESTABLISHED THAT IT MEETS THE REQUIREMENTS FOR LEGISLATION ALTERING THE CONSTITUTION. ARTICLE 1: national laws can be enacted BY THE REICH CABINET as well as by the procedure established in the Constitution. ARTICLE 2: laws enacted by the cabinet MAY DEVIATE FROM THE CONSTITUTION as long as they do not affect the position of the Reichstag and the Reichsrat; the powers of the President remain undisturbed. Signed by Hindenburg, Hitler, Frick, Neurath and Schwerin von Krosigk. A constitutional amendment, passed by the required majority, transferring the power to legislate — and to legislate against the constitution — to the government.",
       "terms": [
-        {
-          "term": "Enabling Act (Ermächtigungsgesetz, 24 March 1933)",
-          "def": "The constitutional amendment allowing the Reich Cabinet to enact laws, including laws deviating from the constitution — passed by the Reichstag itself under massive pressure and violence."
-        }
+        { "term": "Enabling Act (Ermächtigungsgesetz, 24 March 1933)", "def": "The constitutional amendment allowing the Reich Cabinet to enact laws, including laws deviating from the constitution — passed by the Reichstag itself under massive pressure and violence." }
       ],
       "cards": [
         {
@@ -873,18 +420,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1119,
-      "text_sha": "db0c310ff7742978",
-      "pdf_page": 38
+      "vision_used": false
     },
-    {
-      "n": 39,
-      "img": "img/PD14a/PD14a_s039.webp",
+    "39": {
       "title": "The three steps of the seizure of power",
       "text": "28 FEBRUARY 1933: the Reichstag Fire Decree restricts fundamental rights and begins the persecution of communists. 24 MARCH 1933: the Enabling Act gives the government the right to pass laws itself — PARLIAMENT HAS RENDERED ITSELF MEANINGLESS, under MASSIVE PRESSURE WITH PHYSICAL VIOLENCE. 2 AUGUST 1934: Hindenburg dies and HITLER TAKES OVER HIS FUNCTIONS AS HEAD OF STATE, WITHOUT THE TITLE 'PRESIDENT'. Rights, then legislature, then head of state — eighteen months, each step in legal form.",
       "terms": [],
@@ -897,25 +435,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 619,
-      "text_sha": "2ef82a6fccdb42ad",
-      "pdf_page": 39
+      "vision_used": true
     },
-    {
-      "n": 40,
-      "img": "img/PD14a/PD14a_s040.webp",
+    "40": {
       "title": "Legality, Carl Schmitt and the dual state",
       "text": "The SA wants to go on terrorising, which is no longer opportune for Hitler; on 30 JUNE / 1 JULY 1934 he orders the murder of RÖHM and many other SA leaders. The famous jurist CARL SCHMITT justifies it as STATE SELF-DEFENCE: 'THE FÜHRER PROTECTS THE STATE' — murder recast as an act of law. And the counter-analysis: ERNST FRAENKEL, an emigrated lawyer, writes 'THE DUAL STATE' (1941) in US exile: the rule of law STILL WORKS IN SOME AREAS — the NORMATIVE STATE — while in other areas there is COMPLETE ARBITRARINESS — the PREROGATIVE STATE. And the two EXIST SIDE BY SIDE, SEEMINGLY WITHOUT NOTICING EACH OTHER. That is the answer to the puzzle of how ordinary contracts were still being enforced in the same country and the same year.",
       "terms": [
-        {
-          "term": "dual state (Fraenkel, 1941)",
-          "def": "The normative state, where law still functions ordinarily, existing side by side with the prerogative state, where power acts with complete arbitrariness — the two seemingly not noticing each other."
-        }
+        { "term": "dual state (Fraenkel, 1941)", "def": "The normative state, where law still functions ordinarily, existing side by side with the prerogative state, where power acts with complete arbitrariness — the two seemingly not noticing each other." }
       ],
       "cards": [
         {
@@ -933,18 +459,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 848,
-      "text_sha": "df8c31c2a17c2d58",
-      "pdf_page": 40
+      "vision_used": false
     },
-    {
-      "n": 41,
-      "img": "img/PD14a/PD14a_s041.webp",
+    "41": {
       "title": "The persecution of the Jews: the first two phases",
       "text": "FIRST PHASE, 1933–1935: dismissal of Jewish civil servants, boycott of Jewish businesses, marginalisation in everyday life, and ISOLATED — BUT MANY — ACTS OF VIOLENCE. SECOND PHASE, 1935: THE NUREMBERG RACE LAWS, creating a SPECIAL CITIZENSHIP for Jews — STAATSANGEHÖRIGE, subjects, NOT REICHSBÜRGER, citizens of the Reich — and forbidding 'mixed-blood' marriages.",
       "terms": [],
@@ -957,25 +474,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 409,
-      "text_sha": "1cd5f9e4816b9848",
-      "pdf_page": 41
+      "vision_used": true
     },
-    {
-      "n": 42,
-      "img": "img/PD14a/PD14a_s042.webp",
+    "42": {
       "title": "The Reich Citizenship Law, 15 September 1935",
       "text": "§ 1(1): A SUBJECT OF THE STATE is a person who belongs to the protective union of the German Reich and who THEREFORE HAS PARTICULAR OBLIGATIONS TOWARDS THE REICH. § 2(1): A CITIZEN OF THE REICH IS ONLY THAT SUBJECT WHO IS OF GERMAN OR KINDRED BLOOD and who, through his conduct, shows that he is BOTH WILLING AND ABLE TO FAITHFULLY SERVE the German people and Reich. § 2(3): ONLY THE CITIZEN OF THE REICH ENJOYS FULL POLITICAL RIGHTS. The structure is what matters: citizenship is split in two, the lower tier keeps the OBLIGATIONS, and the rights are moved to a tier defined by blood.",
       "terms": [
-        {
-          "term": "Staatsangehöriger / Reichsbürger",
-          "def": "Subject of the state, who has obligations towards the Reich, against citizen of the Reich, who alone enjoys full political rights and must be 'of German or kindred blood'."
-        }
+        { "term": "Staatsangehöriger / Reichsbürger", "def": "Subject of the state, who has obligations towards the Reich, against citizen of the Reich, who alone enjoys full political rights and must be 'of German or kindred blood'." }
       ],
       "cards": [
         {
@@ -986,18 +491,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 693,
-      "text_sha": "0e57fcc22bb2ae26",
-      "pdf_page": 42
+      "vision_used": false
     },
-    {
-      "n": 43,
-      "img": "img/PD14a/PD14a_s043.webp",
+    "43": {
       "title": "How 'Jew' was defined",
       "text": "The First Executive Order on the Reich Citizenship Law: THREE OR FOUR Jewish grandparents — 'JEW'. ONE OR TWO Jewish grandparents — 'MIXED RACE'. But if a person of mixed race IS A MEMBER OF THE JEWISH RELIGIOUS COMMUNITY, he counts as a Jew too. And in case of doubt, the authority for GENEALOGICAL RESEARCH, the Reichssippenamt, decides. Note the incoherence at the heart of it: a supposedly racial definition falls back on RELIGIOUS AFFILIATION when the arithmetic runs out — because the grandparents themselves were classified by the religious community they belonged to.",
       "terms": [],
@@ -1010,46 +506,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 418,
-      "text_sha": "5c1255618feaa381",
-      "pdf_page": 43
+      "vision_used": true
     },
-    {
-      "n": 44,
-      "img": "img/PD14a/PD14a_s044.webp",
-      "title": "The third phase: the November pogroms, 1938",
-      "text": "The 'Reichskristallnacht': synagogues and Jewish businesses destroyed, around 2,000 Jews killed.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 312,
-      "text_sha": "eee9001503977872",
-      "pdf_page": 44
-    },
-    {
-      "n": 45,
-      "img": "img/PD14a/PD14a_s045.webp",
-      "title": "",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 473,
-      "text_sha": "6cb539b8309a5afe",
-      "pdf_page": 45
-    }
-  ]
+    "44": { "title": "The third phase: the November pogroms, 1938", "text": "The 'Reichskristallnacht': synagogues and Jewish businesses destroyed, around 2,000 Jews killed.", "terms": [], "cards": [], "vision_used": true },
+    "45": { "title": "", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }
