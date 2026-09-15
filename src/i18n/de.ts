@@ -528,6 +528,13 @@ export const de: Messages = {
   importMergeBtn: 'Nur die neuen Karten hinzufügen',
   importNewBtn: 'Zweites Fach anlegen',
   importMergeHint: 'Karten, die schon im Fach sind, werden weder überschrieben noch verdoppelt — sie werden an der Frage erkannt und behalten ihren Fortschritt.',
+  serverDecksTitle: 'Fertige Pakete',
+  serverDecksHint: 'Liegen am Server — ein Tippen, keine Datei suchen. Gibt es das Fach schon, kommen nur die neuen Karten dazu.',
+  serverDeckLoad: 'Laden',
+  serverDeckFiles: 'ordnet auch deine älteren Karten ein',
+  serverDeckFilingOnly: 'ordnet nur deine Karten nach ihren Schlagwörtern ein',
+  serverDeckError: 'Das Paket konnte nicht vom Server geladen werden.',
+  importFiled: (n: number) => `${n} deiner älteren Karten wurden Themen zugeordnet.`,
   importMerged: (added: number, dup: number) =>
     `${added} neue ${added === 1 ? 'Karte' : 'Karten'} hinzugefügt` +
     (dup > 0 ? `; ${dup} ${dup === 1 ? 'war' : 'waren'} schon da und ${dup === 1 ? 'bleibt' : 'bleiben'} unverändert.` : '.'),

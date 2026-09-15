@@ -5,13 +5,260 @@
     "language": "en",
     "format": "Modulová zkouška k přednášce 030362. Zkouší se podle seznamu „What to read for the exam\" — 24 témat, ke každému přednáška a povinná četba. Otázky jsou pramenné: úryvek (smlouva, ústava, dobový text) a k němu několik otevřených podotázek — kdo, kdy, co z toho plyne a jak to souvisí s dalším vývojem. Viz „Second Exam.pdf\" ve cvičení (030152), kde jsou i odpovědi."
   },
-  "updated_at": "2026-09-15T11:03:23+00:00",
+  "updated_at": "2026-09-15T12:12:48+00:00",
+  "organisers": [],
   "courses": [
     {
       "code": "PD",
       "number": "030362",
       "title": "European and Global Legal History",
-      "subject": "Právní dějiny — Modulprüfung",
+      "subject": "European and Global Legal History",
+      "filing": [
+        {
+          "match": "ius gentium",
+          "topic": "The Westphalian Order and Early Constitutionalism"
+        },
+        {
+          "match": "congress of vienna",
+          "topic": "The Westphalian Order and Early Constitutionalism"
+        },
+        {
+          "match": "westphalia",
+          "topic": "The Westphalian Order and Early Constitutionalism"
+        },
+        {
+          "match": "nuremberg",
+          "topic": "Dictatorships of the 20th Century II"
+        },
+        {
+          "match": "international criminal",
+          "topic": "Dictatorships of the 20th Century II"
+        },
+        {
+          "match": "icc",
+          "topic": "Dictatorships of the 20th Century II"
+        },
+        {
+          "match": "tokyo tribunal",
+          "topic": "Dictatorships of the 20th Century II"
+        },
+        {
+          "match": "united nations",
+          "topic": "Europe during the Cold War (1945–1955)"
+        },
+        {
+          "match": "udhr",
+          "topic": "Europe during the Cold War (1945–1955)"
+        },
+        {
+          "match": "paris peace",
+          "topic": "World War I and the Paris Peace Conference"
+        },
+        {
+          "match": "st. germain",
+          "topic": "World War I and the Paris Peace Conference"
+        },
+        {
+          "match": "brest-litovsk",
+          "topic": "World War I and the Paris Peace Conference"
+        },
+        {
+          "match": "versailles",
+          "topic": "World War I and the Paris Peace Conference"
+        },
+        {
+          "match": "world war i",
+          "topic": "World War I and the Paris Peace Conference"
+        },
+        {
+          "match": "german-austria",
+          "topic": "World War I and the Paris Peace Conference"
+        },
+        {
+          "match": "deutschösterreich",
+          "topic": "World War I and the Paris Peace Conference"
+        },
+        {
+          "tag": "jewish-law",
+          "topic": "Jewish Legal History"
+        },
+        {
+          "tag": "islamic-law",
+          "topic": "Ancient Legal Cultures; History of Islamic Law"
+        },
+        {
+          "tag": "antiquity",
+          "topic": "Ancient Legal Cultures; History of Islamic Law"
+        },
+        {
+          "tag": "roman-law",
+          "topic": "Ancient Legal Cultures; History of Islamic Law"
+        },
+        {
+          "tag": "byzantium",
+          "topic": "Ancient Legal Cultures; History of Islamic Law"
+        },
+        {
+          "tag": "middle-ages",
+          "topic": "Development of Law in the Middle Ages"
+        },
+        {
+          "tag": "feudalism",
+          "topic": "Development of Law in the Middle Ages"
+        },
+        {
+          "tag": "manorialism",
+          "topic": "Development of Law in the Middle Ages"
+        },
+        {
+          "tag": "canon-law",
+          "topic": "Development of Law in the Middle Ages"
+        },
+        {
+          "tag": "glossators",
+          "topic": "Development of Law in the Middle Ages"
+        },
+        {
+          "tag": "commentators",
+          "topic": "Development of Law in the Middle Ages"
+        },
+        {
+          "tag": "universities",
+          "topic": "Development of Law in the Middle Ages"
+        },
+        {
+          "tag": "ius-commune",
+          "topic": "The Ius Commune and the Early Modern Times"
+        },
+        {
+          "tag": "early-modern",
+          "topic": "The Ius Commune and the Early Modern Times"
+        },
+        {
+          "tag": "humanism",
+          "topic": "The Ius Commune and the Early Modern Times"
+        },
+        {
+          "tag": "england",
+          "topic": "The Common Law"
+        },
+        {
+          "tag": "absolutism",
+          "topic": "The Westphalian Order and Early Constitutionalism"
+        },
+        {
+          "tag": "natural-law",
+          "topic": "Natural Law, Enlightenment and Revolutions"
+        },
+        {
+          "tag": "professions",
+          "topic": "Constitutionalism & Norm Production III; Legal Education and Legal Professions"
+        },
+        {
+          "tag": "historical-school",
+          "topic": "Constitutionalism & Norm Production I"
+        },
+        {
+          "tag": "codification",
+          "topic": "Constitutionalism & Norm Production I"
+        },
+        {
+          "tag": "norm-production",
+          "topic": "Constitutionalism & Norm Production I"
+        },
+        {
+          "tag": "constitutionalism",
+          "topic": "Constitutionalism & Norm Production I"
+        },
+        {
+          "tag": "colonialism",
+          "topic": "Imperialism and Constitutionalism before 1914"
+        },
+        {
+          "tag": "china",
+          "topic": "Chinese Legal History"
+        },
+        {
+          "tag": "asia",
+          "topic": "Chinese Legal History"
+        },
+        {
+          "tag": "b-vg",
+          "topic": "The Austrian 1st Republic, Democracy and the B-VG I"
+        },
+        {
+          "tag": "democracy",
+          "topic": "The Austrian 1st Republic, Democracy and the B-VG I"
+        },
+        {
+          "tag": "third-reich",
+          "topic": "Dictatorships of the 20th Century I"
+        },
+        {
+          "tag": "austria-1933-45",
+          "topic": "Dictatorships of the 20th Century I"
+        },
+        {
+          "tag": "europe-1918-45",
+          "topic": "Dictatorships of the 20th Century I"
+        },
+        {
+          "tag": "cold-war",
+          "topic": "Europe during the Cold War (1945–1955)"
+        },
+        {
+          "tag": "soviet-fall",
+          "topic": "Europe and the European Integration since 1955"
+        },
+        {
+          "tag": "eu",
+          "topic": "Europe and the European Integration since 1955"
+        },
+        {
+          "tag": "marxism",
+          "topic": "Globalization of Law I"
+        },
+        {
+          "tag": "globalisation",
+          "topic": "Globalization of Law I"
+        },
+        {
+          "tag": "decolonisation",
+          "topic": "Globalization of Law I"
+        },
+        {
+          "tag": "human-rights",
+          "topic": "Globalization of Law II"
+        },
+        {
+          "tag": "international-law",
+          "topic": "The Westphalian Order and Early Constitutionalism"
+        },
+        {
+          "tag": "latin",
+          "topic": "Latinské pojmy"
+        },
+        {
+          "tag": "dates",
+          "topic": "Letopočty a osobnosti"
+        },
+        {
+          "tag": "figures",
+          "topic": "Letopočty a osobnosti"
+        },
+        {
+          "tag": "traps",
+          "topic": "Zkouška: chytáky a strategie"
+        },
+        {
+          "tag": "strategy",
+          "topic": "Zkouška: chytáky a strategie"
+        },
+        {
+          "tag": "exam-focus",
+          "topic": "Zkouška: chytáky a strategie"
+        }
+      ],
       "lectures": [
         {
           "lecture_id": "PD01",

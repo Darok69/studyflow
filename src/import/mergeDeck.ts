@@ -14,6 +14,64 @@
  */
 import type { CardDraft } from './parseDeck'
 
+/**
+ * A rule for filing cards that are ALREADY in the subject but carry no topic.
+ * Decks made before topics existed still describe what they are about — in
+ * their tags, and in the wording of the question. A deck can therefore bring
+ * the knowledge of how its own older cards should be filed, instead of leaving
+ * hundreds of them in one undifferentiated pile.
+ *
+ * Rules are tried in order and the first match wins, so put the specific ones
+ * first. A rule never touches a card that already has a topic.
+ */
+export interface FilingRule {
+  /** Matches when the card carries this tag (compared case-insensitively). */
+  tag?: string
+  /**
+   * Matches when the card carries ALL of these tags. Needed where one tag is
+   * not enough to tell topics apart — "sources" means one thing under the tag
+   * PIL and another under EU.
+   */
+  tags?: string[]
+  /** Matches when the question contains this text (case-insensitive). */
+  match?: string
+  topic: string
+}
+
+export interface FilingTarget {
+  id: string
+  topic?: string
+  tags?: string[]
+  front: string
+}
+
+/**
+ * Which cards would get which topic. Returns only actual changes, so an import
+ * that files nothing can say so instead of writing every card back unchanged.
+ */
+export function planFiling(cards: FilingTarget[], rules: FilingRule[]): Map<string, string> {
+  const out = new Map<string, string>()
+  if (rules.length === 0) return out
+  for (const card of cards) {
+    if (card.topic && card.topic.trim()) continue
+    const tags = new Set((card.tags ?? []).map((t) => t.trim().toLowerCase()))
+    const front = card.front.toLowerCase()
+    for (const rule of rules) {
+      const hit =
+        (rule.tag !== undefined && tags.has(rule.tag.trim().toLowerCase())) ||
+        (rule.tags !== undefined &&
+          rule.tags.length > 0 &&
+          rule.tags.every((t) => tags.has(t.trim().toLowerCase()))) ||
+        (rule.match !== undefined && rule.match !== '' && front.includes(rule.match.toLowerCase()))
+      if (hit && rule.topic.trim()) {
+        out.set(card.id, rule.topic.trim())
+        break
+      }
+    }
+  }
+  return out
+}
+
 /** Same question apart from case, spacing and surrounding whitespace. */
 export function questionKey(front: string): string {
   return front.replace(/\s+/g, ' ').trim().toLowerCase()

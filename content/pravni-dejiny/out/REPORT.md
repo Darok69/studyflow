@@ -1,6 +1,6 @@
 # REPORT — podklady pro Modulprüfung European and Global Legal History (030362 VO + 030152 PUE)
 
-Běh: 2026-09-15T13:03:23+02:00
+Běh: 2026-09-15T14:12:48+02:00
 
 ## Zkouška
 - Modulprüfung European and Global Legal History (030362 VO + 030152 PUE)

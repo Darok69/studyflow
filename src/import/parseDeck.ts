@@ -1,4 +1,5 @@
 import type { CardImage, CardType, Occlusion, SourceRef } from '../db/db'
+import type { FilingRule } from './mergeDeck'
 import { type CardKind, type CardLevel, isCardKind, isCardLevel } from '../db/cardKinds'
 import { t } from '../i18n'
 
@@ -32,6 +33,8 @@ export interface ParsedDeck {
     reminderTime: string | null
   }
   cards: CardDraft[]
+  /** Rules for filing cards the subject ALREADY has (see mergeDeck.ts). */
+  filing: FilingRule[]
   errors: string[]
 }
 
@@ -62,6 +65,33 @@ export function makeCloze(text: string): { front: string; back: string; raw: str
   return { front, back, raw: text }
 }
 
+/**
+ * `filing` is optional and hand-written, so anything malformed is dropped
+ * silently rather than failing an import that is otherwise fine.
+ */
+function parseFiling(value: unknown): FilingRule[] {
+  if (!Array.isArray(value)) return []
+  const out: FilingRule[] = []
+  for (const raw of value) {
+    if (!raw || typeof raw !== 'object') continue
+    const r = raw as Record<string, unknown>
+    const topic = typeof r.topic === 'string' ? r.topic.trim() : ''
+    const tag = typeof r.tag === 'string' ? r.tag.trim() : undefined
+    const match = typeof r.match === 'string' ? r.match.trim() : undefined
+    const tags = Array.isArray(r.tags)
+      ? r.tags.filter((x): x is string => typeof x === 'string' && x.trim() !== '').map((x) => x.trim())
+      : undefined
+    if (!topic || (!tag && !match && !(tags && tags.length))) continue
+    out.push({
+      topic,
+      ...(tag ? { tag } : {}),
+      ...(tags && tags.length ? { tags } : {}),
+      ...(match ? { match } : {}),
+    })
+  }
+  return out
+}
+
 function emptySubject(): ParsedDeck['subject'] {
   return { name: '', examDate: null, reminderTime: null }
 }
@@ -72,11 +102,11 @@ export function parseDeck(raw: string): ParsedDeck {
   try {
     data = JSON.parse(raw)
   } catch (e) {
-    return { subject: emptySubject(), cards: [], errors: [t('errInvalidJson', (e as Error).message)] }
+    return { subject: emptySubject(), cards: [], filing: [], errors: [t('errInvalidJson', (e as Error).message)] }
   }
 
   if (!data || typeof data !== 'object') {
-    return { subject: emptySubject(), cards: [], errors: [t('errRootObject')] }
+    return { subject: emptySubject(), cards: [], filing: [], errors: [t('errRootObject')] }
   }
 
   const obj = data as Record<string, unknown>
@@ -143,5 +173,5 @@ export function parseDeck(raw: string): ParsedDeck {
     errors.push(t('errNoUsableCards'))
   }
 
-  return { subject: { name, examDate, reminderTime }, cards, errors }
+  return { subject: { name, examDate, reminderTime }, cards, filing: parseFiling(obj.filing), errors }
 }

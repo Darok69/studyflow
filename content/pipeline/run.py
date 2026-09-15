@@ -578,10 +578,12 @@ def main() -> int:
 
     index = {"exam": cfg["exam"],
              "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+             "organisers": cfg.get("organisers", []),
              "courses": []}
     for course in cfg["courses"]:
         entry = {"code": course["code"], "number": course["number"],
                  "title": course["title"], "subject": course.get("subject"),
+                 "filing": course.get("filing", []),
                  "lectures": []}
         for lec in course["lectures"]:
             d = load_json(DATA / f"{lec['id']}.json", None)

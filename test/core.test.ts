@@ -40,7 +40,7 @@ import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/li
 import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
 import { lectureForTopic, matchCourse, orderByCourse } from '../src/lib/materials'
-import { newCardsOnly, questionKey } from '../src/import/mergeDeck'
+import { newCardsOnly, planFiling, questionKey } from '../src/import/mergeDeck'
 import {
   answerSimilarity,
   checkAnswer,
@@ -1438,6 +1438,55 @@ console.log('— blind maps: masks stay relative, one card per place —')
   ok(newCardsOnly([], []).fresh.length === 0, 'nothing in, nothing out')
   const allNew = newCardsOnly([], [draft('a'), draft('b')])
   ok(allNew.fresh.length === 2 && allNew.duplicates === 0, 'an empty subject takes the whole deck')
+
+  console.log('— planFiling: staré karty do témat —')
+  const card = (id: string, front: string, tags: string[], topic?: string) => ({ id, front, tags, topic })
+  const rules = [
+    { tag: 'jewish-law', topic: 'Jewish Legal History' },
+    { tag: 'middle-ages', topic: 'Development of Law in the Middle Ages' },
+    { match: 'Nuremberg', topic: 'Dictatorships of the 20th Century II' },
+    { tag: 'latin', topic: 'Latin terms' },
+  ]
+  const filed = planFiling(
+    [
+      card('a', 'What is the Mishnah?', ['jewish-law', 'depth']),
+      card('b', 'Latin: nullum crimen — challenged at Nuremberg', ['latin']),
+      card('c', 'Who were the glossators?', ['middle-ages', 'latin']),
+      card('d', 'Something with no usable tag', ['exam-focus']),
+      card('e', 'Already filed', ['jewish-law'], 'Set by hand'),
+    ],
+    rules,
+  )
+  ok(filed.get('a') === 'Jewish Legal History', 'a tag rule files the card')
+  ok(
+    filed.get('b') === 'Dictatorships of the 20th Century II',
+    `an earlier rule wins over a later one (got ${filed.get('b')})`,
+  )
+  ok(filed.get('c') === 'Development of Law in the Middle Ages', 'the first matching tag decides, not the last')
+  ok(!filed.has('d'), 'a card no rule matches stays unfiled rather than mis-filed')
+  ok(!filed.has('e'), 'a topic that is already set is never overwritten')
+  ok(filed.size === 3, `only real changes are returned (got ${filed.size})`)
+  ok(planFiling([card('x', 'anything', ['latin'])], []).size === 0, 'no rules, no changes')
+  ok(
+    planFiling([card('y', 'MISHNAH in caps', [], undefined)], [{ match: 'mishnah', topic: 'T' }]).get('y') === 'T',
+    'matching on the question ignores case',
+  )
+  ok(
+    planFiling([card('z', 'q', ['JEWISH-LAW'])], [{ tag: 'jewish-law', topic: 'T' }]).get('z') === 'T',
+    'tag matching ignores case too',
+  )
+
+  // One tag is not always enough: "sources" means different things under PIL
+  // and under EU, so a rule can require several tags at once.
+  const both = [
+    { tags: ['eu', 'sources'], topic: 'Sources of EU Law' },
+    { tags: ['pil', 'sources'], topic: 'Sources of International Law' },
+  ]
+  ok(
+    planFiling([card('p', 'q', ['PIL', 'sources'])], both).get('p') === 'Sources of International Law',
+    'a multi-tag rule picks the right one of two same-named topics',
+  )
+  ok(planFiling([card('q', 'q', ['sources'])], both).size === 0, 'a multi-tag rule needs ALL its tags')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

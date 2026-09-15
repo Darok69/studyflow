@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { parseDeck } from '../import/parseDeck'
 import { parsePlainDeck } from '../import/parsePlainText'
 import { addNewCardsToSubject, findSubjectsByName, importDeck } from '../db/repo'
 import type { ParsedDeck } from '../import/parseDeck'
 import type { Subject } from '../db/db'
 import { aiPrompt, sampleDeckJson } from '../import/sampleDeck'
+import { getServerDeck, getServerDecks, SERVER_MODE, type ServerDeck } from '../lib/api'
 import { t } from '../i18n'
 
 interface Props {
@@ -28,7 +29,60 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
    * first copy. Rather than guess, ask.
    */
   const [existing, setExisting] = useState<{ subject: Subject; parsed: ParsedDeck } | null>(null)
-  const [merged, setMerged] = useState<{ added: number; duplicates: number } | null>(null)
+  const [merged, setMerged] = useState<{ added: number; duplicates: number; filed: number } | null>(null)
+  /**
+   * Decks the server already holds. Material arrives topic by topic, and
+   * hunting down a JSON file on disk to paste into a box is not a thing anyone
+   * should have to do on a phone — so the app fetches them itself.
+   */
+  const [serverDecks, setServerDecks] = useState<ServerDeck[]>([])
+  const [loadingDeck, setLoadingDeck] = useState<string | null>(null)
+
+  useEffect(() => {
+    if (!SERVER_MODE) return
+    let alive = true
+    getServerDecks()
+      .then((r) => {
+        if (alive) setServerDecks(r.decks)
+      })
+      .catch(() => {
+        /* no decks on the server is a normal state — pasting still works */
+      })
+    return () => {
+      alive = false
+    }
+  }, [])
+
+  /**
+   * Load a deck straight from the server. A deck named like a subject that is
+   * already here is MERGED into it — that is what the name means, and material
+   * that grows gets loaded again and again. Nothing is ever overwritten.
+   */
+  async function loadServerDeck(deck: ServerDeck) {
+    setErrors([])
+    setMerged(null)
+    setLoadingDeck(deck.id)
+    try {
+      const raw = await getServerDeck(deck.id)
+      const parsed = parseDeck(JSON.stringify(raw))
+      if (parsed.errors.length > 0) {
+        setErrors(parsed.errors)
+        return
+      }
+      const same = await findSubjectsByName(parsed.subject.name)
+      if (same.length > 0) {
+        const r = await addNewCardsToSubject(same[0].id, parsed)
+        setMerged({ added: r.cardCount, duplicates: r.duplicates, filed: r.filed })
+        return
+      }
+      await importDeck(parsed)
+      onDone()
+    } catch {
+      setErrors([t('serverDeckError')])
+    } finally {
+      setLoadingDeck(null)
+    }
+  }
 
   /**
    * JSON when the text is JSON, your own notes otherwise. Guessing beats making
@@ -68,6 +122,7 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
     await importDeck({
       subject: { name: plain.subject ?? t('plainDeckName'), examDate: null, reminderTime: null },
       cards: plain.cards,
+      filing: [],
       errors: [],
     })
     setBusy(false)
@@ -80,7 +135,7 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
     const result = await addNewCardsToSubject(existing.subject.id, existing.parsed)
     setBusy(false)
     setExisting(null)
-    setMerged({ added: result.cardCount, duplicates: result.duplicates })
+    setMerged({ added: result.cardCount, duplicates: result.duplicates, filed: result.filed })
   }
 
   async function importAsNew() {
@@ -113,6 +168,34 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
         </>
       )}
 
+      {serverDecks.length > 0 && (
+        <section className="server-decks">
+          <h3>{t('serverDecksTitle')}</h3>
+          <p className="muted">{t('serverDecksHint')}</p>
+          <div className="server-deck-list">
+            {serverDecks.map((deck) => (
+              <button
+                key={deck.id}
+                className="server-deck"
+                onClick={() => void loadServerDeck(deck)}
+                disabled={loadingDeck !== null}
+              >
+                <span className="server-deck-main">
+                  <span className="server-deck-name">{deck.subject}</span>
+                  <span className="muted">
+                    {deck.cards > 0 ? t('cardsCount', deck.cards) : t('serverDeckFilingOnly')}
+                    {deck.filing > 0 && deck.cards > 0 ? ` · ${t('serverDeckFiles')}` : ''}
+                  </span>
+                </span>
+                <span className="server-deck-go">
+                  {loadingDeck === deck.id ? t('importing') : t('serverDeckLoad')}
+                </span>
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
+
       <textarea
         className="json-input"
         spellCheck={false}
@@ -142,6 +225,7 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
       {merged && (
         <div className="guardrail" role="status">
           <p>{t('importMerged', merged.added, merged.duplicates)}</p>
+          {merged.filed > 0 && <p>{t('importFiled', merged.filed)}</p>}
           <div className="button-row">
             <button className="btn btn-primary" onClick={onDone}>
               {t('backPlain')}

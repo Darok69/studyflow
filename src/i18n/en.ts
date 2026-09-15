@@ -520,6 +520,13 @@ export const en: Messages = {
   importMergeBtn: 'Add only its new cards',
   importNewBtn: 'Create a second subject',
   importMergeHint: 'Cards already in the subject are neither overwritten nor duplicated — they are matched by their question and keep their progress.',
+  serverDecksTitle: 'Ready-made decks',
+  serverDecksHint: 'Held on the server — one tap, no file to find. If a subject of that name is already here, only the new cards are added.',
+  serverDeckLoad: 'Load',
+  serverDeckFiles: 'also files your older cards',
+  serverDeckFilingOnly: 'only files your cards by their tags',
+  serverDeckError: 'The deck could not be loaded from the server.',
+  importFiled: (n: number) => `${n} of your older cards were filed into topics.`,
   importMerged: (added: number, dup: number) =>
     `Added ${added} new ${added === 1 ? 'card' : 'cards'}` +
     (dup > 0 ? `; ${dup} ${dup === 1 ? 'was' : 'were'} already there and left untouched.` : '.'),

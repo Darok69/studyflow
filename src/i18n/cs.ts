@@ -521,6 +521,13 @@ export const cs = {
   importMergeBtn: 'Přidat do něj jen nové karty',
   importNewBtn: 'Založit další předmět',
   importMergeHint: 'Karty, které už v předmětu jsou, se nepřepíšou ani nezdvojí — poznají se podle otázky a nechají si svůj postup.',
+  serverDecksTitle: 'Připravené balíčky',
+  serverDecksHint: 'Leží na serveru — stačí klepnout, nic nehledej na disku. Když už předmět toho jména máš, přidají se jen nové karty.',
+  serverDeckLoad: 'Načíst',
+  serverDeckFiles: 'roztřídí i tvoje starší karty',
+  serverDeckFilingOnly: 'jen roztřídí tvoje karty podle štítků',
+  serverDeckError: 'Balíček se nepodařilo načíst ze serveru.',
+  importFiled: (n: number) => `Do témat se roztřídilo ${n} tvých starších karet.`,
   importMerged: (added: number, dup: number) =>
     `Přidáno ${added} ${added === 1 ? 'nová karta' : added >= 2 && added <= 4 ? 'nové karty' : 'nových karet'}` +
     (dup > 0 ? `, ${dup} už tam ${dup === 1 ? 'byla' : 'bylo'} a ${dup === 1 ? 'zůstala' : 'zůstalo'} beze změny.` : '.'),

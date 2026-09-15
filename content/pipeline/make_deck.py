@@ -68,12 +68,31 @@ def main() -> int:
             "examDate": exam_date,
             "cards": cards,
         }
+        # Pravidla, jak zařadit karty, které uživatel v předmětu UŽ má z dřívějška
+        # a nemají téma. Appka je použije jen na prázdné téma, nikdy nepřepisuje.
+        if course.get("filing"):
+            deck["filing"] = course["filing"]
         out = DEST / f"{ROOT.name}-{code.lower()}.json"
         out.write_text(json.dumps(deck, ensure_ascii=False, indent=1) + "\n", "utf-8")
         core = sum(1 for c in cards if "core" in c["tags"])
         print(f"{code}: {len(cards)} karet ({core} jádro) → {out.relative_to(ROOT)} "
               f"· {out.stat().st_size // 1024} kB")
         total += len(cards)
+    # Balíčky bez karet: jen roztřídí, co už uživatel má. Starší balíček bez
+    # témat je jinak jedna nerozlišená hromada a nová obrazovka předmětu s ním
+    # neumí nic udělat.
+    for org in index.get("organisers", []):
+        deck = {
+            "subject": org["subject"],
+            "examDate": org.get("examDate", exam_date),
+            "cards": [],
+            "filing": org.get("filing", []),
+        }
+        out = DEST / f"{ROOT.name}-{org['id']}.json"
+        out.write_text(json.dumps(deck, ensure_ascii=False, indent=1) + "\n", "utf-8")
+        print(f"{org['id']}: 0 karet, {len(deck['filing'])} pravidel třídění "
+              f"→ {out.relative_to(ROOT)}")
+
     print(f"celkem {total} karet")
     return 0
 

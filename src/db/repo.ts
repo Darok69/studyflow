@@ -12,7 +12,7 @@ import {
   type SubjectKind,
 } from './db'
 import type { CardDraft, ParsedDeck } from '../import/parseDeck'
-import { newCardsOnly } from '../import/mergeDeck'
+import { newCardsOnly, planFiling } from '../import/mergeDeck'
 import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
@@ -97,13 +97,22 @@ export async function findSubjectsByName(name: string): Promise<Subject[]> {
 export async function addNewCardsToSubject(
   subjectId: string,
   parsed: ParsedDeck,
-): Promise<{ subjectId: string; cardCount: number; duplicates: number }> {
+): Promise<{ subjectId: string; cardCount: number; duplicates: number; filed: number }> {
   const existing = await db.cards.where('subjectId').equals(subjectId).toArray()
   const { fresh, duplicates } = newCardsOnly(
     existing.map((c) => c.front),
     parsed.cards,
   )
   const added = await addCards(subjectId, fresh)
+
+  // File the cards that were already here and never had a topic. Only ever
+  // fills a blank — a topic the user (or an earlier import) set is left alone.
+  const filing = planFiling(existing, parsed.filing)
+  if (filing.size > 0) {
+    await db.transaction('rw', db.cards, async () => {
+      for (const [id, topic] of filing) await db.cards.update(id, { topic })
+    })
+  }
   // An exam date that moved is worth taking over; the rest of the subject
   // (colour, limits, intention) belongs to the user, not to the file.
   if (parsed.subject.examDate) {
@@ -113,7 +122,7 @@ export async function addNewCardsToSubject(
     }
   }
   notifyDataChanged()
-  return { subjectId, cardCount: added, duplicates }
+  return { subjectId, cardCount: added, duplicates, filed: filing.size }
 }
 
 /** Persist a parsed deck as a new subject + its cards (one transaction). */

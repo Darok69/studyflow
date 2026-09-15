@@ -22,10 +22,18 @@ trap 'rm -rf "$STAGE"' EXIT
 mkdir -p "$STAGE/materials"
 cp "$ROOT"/out/materials/*.json "$STAGE/materials/"
 mv "$STAGE/materials/index.json" "$STAGE/materials/index-$PACK.json"
+# Balíčky karet: appka si je stáhne sama, uživatel nehledá soubor na disku.
+for f in "$ROOT"/out/studyflow/*.json; do
+  [ -e "$f" ] || continue
+  name=$(basename "$f" .json)
+  case "$name" in *backup*) continue ;; esac
+  cp "$f" "$STAGE/materials/deck-$name.json"
+done
+
 # Obrázky jen k přednáškám, které v učebnici opravdu jsou.
 for f in "$ROOT"/out/materials/*.json; do
   id=$(basename "$f" .json)
-  [ "$id" = "index-$PACK" ] && continue
+  case "$id" in index-*|deck-*) continue ;; esac
   [ -d "$ROOT/out/img/$id" ] && cp -R "$ROOT/out/img/$id" "$STAGE/materials/img/$id" 2>/dev/null || {
     mkdir -p "$STAGE/materials/img"; [ -d "$ROOT/out/img/$id" ] && cp -R "$ROOT/out/img/$id" "$STAGE/materials/img/$id"; }
 done

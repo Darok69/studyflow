@@ -154,5 +154,240 @@
   "podcast": {
     "short": "IREWI",
     "course": "the StEOP course Introduction to International Law"
-  }
+  },
+  "organisers": [
+    {
+      "id": "stary-balicek",
+      "subject": "IREWI – Introduction to International Law (PIL + EU Law)",
+      "note": "Starší balíček z 5. 7. 2026 — karty nemají témata, jen štítky. Tohle jim témata doplní; nové karty nepřidává.",
+      "filing": [
+        {
+          "tags": [
+            "pil",
+            "sources"
+          ],
+          "topic": "The International Legal Order: Introduction"
+        },
+        {
+          "tags": [
+            "eu",
+            "sources"
+          ],
+          "topic": "Sources of EU Law and Hierarchy"
+        },
+        {
+          "tags": [
+            "pil",
+            "institutions"
+          ],
+          "topic": "International Organizations I"
+        },
+        {
+          "tags": [
+            "eu",
+            "institutions"
+          ],
+          "topic": "EU Institutions I — European Council and Commission"
+        },
+        {
+          "tags": [
+            "eu",
+            "basics"
+          ],
+          "topic": "Introduction and Basics"
+        },
+        {
+          "tags": [
+            "pil",
+            "basics"
+          ],
+          "topic": "The International Legal Order: Introduction"
+        },
+        {
+          "tag": "VCLT",
+          "topic": "The Law of Treaties"
+        },
+        {
+          "tag": "reservations",
+          "topic": "The Law of Treaties"
+        },
+        {
+          "tag": "interpretation",
+          "topic": "The Law of Treaties"
+        },
+        {
+          "tag": "invalidity",
+          "topic": "The Law of Treaties"
+        },
+        {
+          "tag": "ius cogens",
+          "topic": "The Law of Treaties"
+        },
+        {
+          "tag": "custom",
+          "topic": "Customary International Law"
+        },
+        {
+          "tag": "statehood",
+          "topic": "States, Diplomatic Protection, Succession and Immunity"
+        },
+        {
+          "tag": "succession",
+          "topic": "States, Diplomatic Protection, Succession and Immunity"
+        },
+        {
+          "tag": "immunities",
+          "topic": "States, Diplomatic Protection, Succession and Immunity"
+        },
+        {
+          "tag": "jurisdiction",
+          "topic": "States, Diplomatic Protection, Succession and Immunity"
+        },
+        {
+          "tag": "nationality",
+          "topic": "States, Diplomatic Protection, Succession and Immunity"
+        },
+        {
+          "tag": "IOs",
+          "topic": "International Organizations I"
+        },
+        {
+          "tag": "UN",
+          "topic": "International Organizations II — the UN, and exam cases"
+        },
+        {
+          "tag": "peacekeeping",
+          "topic": "International Organizations II — the UN, and exam cases"
+        },
+        {
+          "tag": "force",
+          "topic": "Prohibition of the Use of Force and Non-Intervention"
+        },
+        {
+          "tag": "self-determination",
+          "topic": "Self-determination and Human Rights"
+        },
+        {
+          "tag": "human rights",
+          "topic": "Self-determination and Human Rights"
+        },
+        {
+          "tag": "disputes",
+          "topic": "Peaceful Settlement of Disputes"
+        },
+        {
+          "tag": "ICJ",
+          "topic": "Peaceful Settlement of Disputes"
+        },
+        {
+          "tag": "ARSIWA",
+          "topic": "International Responsibility I — State Responsibility"
+        },
+        {
+          "tag": "erga omnes",
+          "topic": "International Responsibility I — State Responsibility"
+        },
+        {
+          "tag": "liability",
+          "topic": "International Responsibility II — Organizations, Individuals, Liability"
+        },
+        {
+          "tag": "primacy",
+          "topic": "Primacy of EU Law"
+        },
+        {
+          "tag": "direct effect",
+          "topic": "Direct Effect of EU Law"
+        },
+        {
+          "tag": "directives",
+          "topic": "Competences and Legislating"
+        },
+        {
+          "tag": "legislation",
+          "topic": "Competences and Legislating"
+        },
+        {
+          "tag": "competences",
+          "topic": "Competences and Legislating"
+        },
+        {
+          "tag": "state liability",
+          "topic": "Workarounds, Enforcement and State Liability"
+        },
+        {
+          "tag": "enforcement",
+          "topic": "Workarounds, Enforcement and State Liability"
+        },
+        {
+          "tag": "preliminary ruling",
+          "topic": "EU Judicial Procedures"
+        },
+        {
+          "tag": "CJEU",
+          "topic": "EU Judicial Procedures"
+        },
+        {
+          "tag": "actions",
+          "topic": "Annulment, Failure to Act and Fundamental Rights"
+        },
+        {
+          "tag": "fundamental rights",
+          "topic": "Annulment, Failure to Act and Fundamental Rights"
+        },
+        {
+          "tag": "goods",
+          "topic": "Vnitřní trh a svobody (mimo osnovu zkoušky)"
+        },
+        {
+          "tag": "workers",
+          "topic": "Vnitřní trh a svobody (mimo osnovu zkoušky)"
+        },
+        {
+          "tag": "services",
+          "topic": "Vnitřní trh a svobody (mimo osnovu zkoušky)"
+        },
+        {
+          "tag": "establishment",
+          "topic": "Vnitřní trh a svobody (mimo osnovu zkoušky)"
+        },
+        {
+          "tag": "capital",
+          "topic": "Vnitřní trh a svobody (mimo osnovu zkoušky)"
+        },
+        {
+          "tag": "internal market",
+          "topic": "Vnitřní trh a svobody (mimo osnovu zkoušky)"
+        },
+        {
+          "tag": "competition",
+          "topic": "Vnitřní trh a svobody (mimo osnovu zkoušky)"
+        },
+        {
+          "tag": "history",
+          "topic": "The International Legal Order: Introduction"
+        },
+        {
+          "tag": "method",
+          "topic": "The International Legal Order: Introduction"
+        },
+        {
+          "tag": "domestic law",
+          "topic": "Primacy of EU Law"
+        },
+        {
+          "tag": "cases",
+          "topic": "Judikatura napříč tématy"
+        },
+        {
+          "tag": "traps",
+          "topic": "Zkouška: chytáky a strategie"
+        },
+        {
+          "tag": "exam",
+          "topic": "Zkouška: chytáky a strategie"
+        }
+      ]
+    }
+  ]
 }

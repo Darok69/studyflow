@@ -344,6 +344,24 @@ export interface MaterialIndex {
   }[]
 }
 
+export interface ServerDeck {
+  id: string
+  subject: string
+  examDate: string | null
+  cards: number
+  /** How many filing rules the deck carries for cards you already have. */
+  filing: number
+}
+
+/** Card decks the server holds, ready to load without touching a file. */
+export function getServerDecks(): Promise<{ decks: ServerDeck[] }> {
+  return api('/api/materials/decks')
+}
+
+export function getServerDeck(id: string): Promise<unknown> {
+  return api(`/api/materials/deck/${encodeURIComponent(id)}`)
+}
+
 export function getMaterialIndex(): Promise<MaterialIndex> {
   return api('/api/materials')
 }
