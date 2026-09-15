@@ -1,6 +1,6 @@
 # REPORT — podklady pro Modulprüfung European and Global Legal History (030362 VO + 030152 PUE)
 
-Běh: 2026-09-15T14:56:06+02:00
+Běh: 2026-09-15T15:07:00+02:00
 
 ## Zkouška
 - Modulprüfung European and Global Legal History (030362 VO + 030152 PUE)
@@ -8,9 +8,9 @@ Běh: 2026-09-15T14:56:06+02:00
 - Formát: Modulová zkouška k přednášce 030362. Zkouší se podle seznamu „What to read for the exam" — 24 témat, ke každému přednáška a povinná četba. Otázky jsou pramenné: úryvek (smlouva, ústava, dobový text) a k němu několik otevřených podotázek — kdo, kdy, co z toho plyne a jak to souvisí s dalším vývojem. Viz „Second Exam.pdf" ve cvičení (030152), kde jsou i odpovědi.
 
 ## Souhrn
-- Přednášek: 46 · slidů: 1253 · obrázky celkem: 117.5 MB
+- Přednášek: 61 · slidů: 1253 · obrázky celkem: 117.5 MB
 - Na vision vybráno: 688 slidů (55%)
-- Obsah hotový: 273 · čeká na dopsání: 980
+- Obsah hotový: 278 · čeká na dopsání: 975
 
 ## Po přednáškách
 
@@ -40,7 +40,7 @@ Běh: 2026-09-15T14:56:06+02:00
 | PD18a | 24 | 11 | 1 | 0 | 24 |
 | PD18b | 15 | 3 | 1 | 0 | 15 |
 | PUINFO | 10 | 3 | 0 | 0 | 10 |
-| PUEXAM | 5 | 0 | 0 | 0 | 5 |
+| PUEXAM | 5 | 0 | 0 | 5 | 0 |
 | PU01 | 43 | 43 | 0 | 0 | 43 |
 | PUQ12 | 2 | 0 | 0 | 0 | 2 |
 | PU02 | 37 | 37 | 0 | 0 | 37 |
@@ -62,6 +62,21 @@ Běh: 2026-09-15T14:56:06+02:00
 | PUQ9 | 2 | 0 | 0 | 0 | 2 |
 | PU10 | 31 | 31 | 0 | 0 | 31 |
 | PUQ10 | 4 | 0 | 0 | 0 | 4 |
+| RD01 | 0 | 0 | 0 | 0 | 0 |
+| RD02 | 0 | 0 | 0 | 0 | 0 |
+| RD03 | 0 | 0 | 0 | 0 | 0 |
+| RD04 | 0 | 0 | 0 | 0 | 0 |
+| RD05 | 0 | 0 | 0 | 0 | 0 |
+| RD06 | 0 | 0 | 0 | 0 | 0 |
+| RD07 | 0 | 0 | 0 | 0 | 0 |
+| RD08 | 0 | 0 | 0 | 0 | 0 |
+| RD09 | 0 | 0 | 0 | 0 | 0 |
+| RD10 | 0 | 0 | 0 | 0 | 0 |
+| RD11 | 0 | 0 | 0 | 0 | 0 |
+| RD12 | 0 | 0 | 0 | 0 | 0 |
+| RD13 | 0 | 0 | 0 | 0 | 0 |
+| RD14 | 0 | 0 | 0 | 0 | 0 |
+| RD15 | 0 | 0 | 0 | 0 | 0 |
 
 ## Kontrola obrázků vs. JSON
 

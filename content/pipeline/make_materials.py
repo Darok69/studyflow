@@ -54,10 +54,13 @@ def main() -> int:
                 has = (s.get("text") or "").strip() or s.get("terms") or s.get("cards")
                 if not has:
                     continue
-                slide = {"n": s["n"], "img": s["img"], "title": s.get("title") or ""}
-                wh = size_of(s["img"])
-                if wh:
-                    slide["w"], slide["h"] = wh
+                slide = {"n": s["n"], "title": s.get("title") or ""}
+                # Povinná četba nemá obrázky — je to souhrn, ne prezentace.
+                if s.get("img"):
+                    slide["img"] = s["img"]
+                    wh = size_of(s["img"])
+                    if wh:
+                        slide["w"], slide["h"] = wh
                 if (s.get("text") or "").strip():
                     slide["text"] = s["text"]
                 if s.get("terms"):

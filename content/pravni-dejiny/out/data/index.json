@@ -5,7 +5,7 @@
     "language": "en",
     "format": "Modulová zkouška k přednášce 030362. Zkouší se podle seznamu „What to read for the exam\" — 24 témat, ke každému přednáška a povinná četba. Otázky jsou pramenné: úryvek (smlouva, ústava, dobový text) a k němu několik otevřených podotázek — kdo, kdy, co z toho plyne a jak to souvisí s dalším vývojem. Viz „Second Exam.pdf\" ve cvičení (030152), kde jsou i odpovědi."
   },
-  "updated_at": "2026-09-15T12:56:06+00:00",
+  "updated_at": "2026-09-15T13:07:00+00:00",
   "organisers": [],
   "courses": [
     {
@@ -467,7 +467,7 @@
           "title": "A past module examination, with answers",
           "slides": 5,
           "data": "data/PUEXAM.json",
-          "done": 0
+          "done": 5
         },
         {
           "lecture_id": "PU01",
@@ -635,6 +635,135 @@
           "title": "Questions and Sources, Unit X",
           "slides": 4,
           "data": "data/PUQ10.json",
+          "done": 0
+        }
+      ]
+    },
+    {
+      "code": "RD",
+      "number": "030362",
+      "title": "Required reading",
+      "subject": "European and Global Legal History",
+      "filing": [],
+      "lectures": [
+        {
+          "lecture_id": "RD01",
+          "unit": "Téma 2",
+          "title": "Johansen/Weiss/Motzki, Islamic Law (Oxford Encyclopedia of Legal History)",
+          "slides": 0,
+          "data": "data/RD01.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD02",
+          "unit": "Téma 5",
+          "title": "Ben-Menahem, Jewish Law (Int. Encyclopedia of the Social & Behavioral Sciences)",
+          "slides": 0,
+          "data": "data/RD02.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD03",
+          "unit": "Téma 6",
+          "title": "Herzog, A Short History of European Law — the English common law",
+          "slides": 0,
+          "data": "data/RD03.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD04",
+          "unit": "Téma 7",
+          "title": "Duchhardt, From the Peace of Westphalia to the Congress of Vienna",
+          "slides": 0,
+          "data": "data/RD04.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD05",
+          "unit": "Téma 8",
+          "title": "Ibbetson, Natural Law in Early Modern Legal Thought",
+          "slides": 0,
+          "data": "data/RD05.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD06",
+          "unit": "Téma 9–11",
+          "title": "Koch/Skodvin/Sunde, Comparing Legal Cultures — introduction",
+          "slides": 0,
+          "data": "data/RD06.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD07",
+          "unit": "Téma 13",
+          "title": "Wenzlhuemer, Colonial Systems of Law (British Empire)",
+          "slides": 0,
+          "data": "data/RD07.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD08",
+          "unit": "Téma 13",
+          "title": "Guéraiche, Colonial Systems of Law (French Empire)",
+          "slides": 0,
+          "data": "data/RD08.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD09",
+          "unit": "Téma 14",
+          "title": "Xu, Five Punishments and Penal Codes in Imperial China",
+          "slides": 0,
+          "data": "data/RD09.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD10",
+          "unit": "Téma 14",
+          "title": "Chen, Traditionalising Chinese Law",
+          "slides": 0,
+          "data": "data/RD10.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD11",
+          "unit": "Téma 15",
+          "title": "Gassner, From Brest-Litovsk via St. Germain to Sèvres",
+          "slides": 0,
+          "data": "data/RD11.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD12",
+          "unit": "Téma 18–19",
+          "title": "Stolleis, European Twentieth-Century Dictatorship and the Law",
+          "slides": 0,
+          "data": "data/RD12.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD13",
+          "unit": "Téma 18–19",
+          "title": "Kreß, International Criminal Law (MPEPIL)",
+          "slides": 0,
+          "data": "data/RD13.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD14",
+          "unit": "Téma 20–21",
+          "title": "Kimble/Löwekamp, Legal Culture in European History 1860–1960s",
+          "slides": 0,
+          "data": "data/RD14.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "RD15",
+          "unit": "Téma 23–24",
+          "title": "Kennedy, Three Globalizations of Law and Legal Thought 1850–2000",
+          "slides": 0,
+          "data": "data/RD15.json",
           "done": 0
         }
       ]

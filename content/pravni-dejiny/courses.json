@@ -545,6 +545,120 @@
           "file": "Unit 10 Jan.12, 2026/Questions and Sources Unit 10.pdf"
         }
       ]
+    },
+    {
+      "code": "RD",
+      "number": "030362",
+      "title": "Required reading",
+      "subject": "European and Global Legal History",
+      "root": "/Users/danielmarek/Library/Mobile Documents/com~apple~CloudDocs/Uni Wien/IREWI/3. Semester/PUE Global Legal History/Věci na učení/WS2025-030362-1_20260915_1035/Reading list",
+      "lectures": [
+        {
+          "id": "RD01",
+          "unit": "Téma 2",
+          "title": "Johansen/Weiss/Motzki, Islamic Law (Oxford Encyclopedia of Legal History)",
+          "kind": "reading",
+          "file": "1_Johansen-Islamic_Law_Oxford_I____Encyclopedia_of_Legal_History.pdf"
+        },
+        {
+          "id": "RD02",
+          "unit": "Téma 5",
+          "title": "Ben-Menahem, Jewish Law (Int. Encyclopedia of the Social & Behavioral Sciences)",
+          "kind": "reading",
+          "file": "2_Ben-Menahem_Jewish Law_Intern___cial  Behavioral Sciences_2001.pdf"
+        },
+        {
+          "id": "RD03",
+          "unit": "Téma 6",
+          "title": "Herzog, A Short History of European Law — the English common law",
+          "kind": "reading",
+          "file": "3_Tamar Herzog, A Short History___of an English Common Law, 2018.pdf"
+        },
+        {
+          "id": "RD04",
+          "unit": "Téma 7",
+          "title": "Duchhardt, From the Peace of Westphalia to the Congress of Vienna",
+          "kind": "reading",
+          "file": "4_Duchhardt From The Peace of W___alia To The Congress Of Vienna.pdf"
+        },
+        {
+          "id": "RD05",
+          "unit": "Téma 8",
+          "title": "Ibbetson, Natural Law in Early Modern Legal Thought",
+          "kind": "reading",
+          "file": "5_Ibbetson, Natural Law in Early Modern Legal Thought.pdf"
+        },
+        {
+          "id": "RD06",
+          "unit": "Téma 9–11",
+          "title": "Koch/Skodvin/Sunde, Comparing Legal Cultures — introduction",
+          "kind": "reading",
+          "file": "6_Koch_Skodvin_Sunde_Comaring_L____Inhaltsverzeichnis_Einleitung.pdf"
+        },
+        {
+          "id": "RD07",
+          "unit": "Téma 13",
+          "title": "Wenzlhuemer, Colonial Systems of Law (British Empire)",
+          "kind": "reading",
+          "file": "7_Wenzlhuemer_Law_Colonial_Systems_of_British_Empire.pdf"
+        },
+        {
+          "id": "RD08",
+          "unit": "Téma 13",
+          "title": "Guéraiche, Colonial Systems of Law (French Empire)",
+          "kind": "reading",
+          "file": "8_Gueraiche_Law_Colonial_Systems_of_French_Empire.pdf"
+        },
+        {
+          "id": "RD09",
+          "unit": "Téma 14",
+          "title": "Xu, Five Punishments and Penal Codes in Imperial China",
+          "kind": "reading",
+          "file": "9_Xu Xiaoqun Five Punishments a___ Penal Codes in Imperial China.pdf"
+        },
+        {
+          "id": "RD10",
+          "unit": "Téma 14",
+          "title": "Chen, Traditionalising Chinese Law",
+          "kind": "reading",
+          "file": "10_Chen_Li-traditionalising_chinese_law.pdf"
+        },
+        {
+          "id": "RD11",
+          "unit": "Téma 15",
+          "title": "Gassner, From Brest-Litovsk via St. Germain to Sèvres",
+          "kind": "reading",
+          "file": "11_Gassner From Brest-Litovsk v___ Germain to Sèvres JHL_01_2023.pdf"
+        },
+        {
+          "id": "RD12",
+          "unit": "Téma 18–19",
+          "title": "Stolleis, European Twentieth-Century Dictatorship and the Law",
+          "kind": "reading",
+          "file": "12_Stolleis, European Twentieth-Century Dictatorship and the Law.pdf"
+        },
+        {
+          "id": "RD13",
+          "unit": "Téma 18–19",
+          "title": "Kreß, International Criminal Law (MPEPIL)",
+          "kind": "reading",
+          "file": "13_Kreß, International Criminal Law (MPEIL).pdf"
+        },
+        {
+          "id": "RD14",
+          "unit": "Téma 20–21",
+          "title": "Kimble/Löwekamp, Legal Culture in European History 1860–1960s",
+          "kind": "reading",
+          "file": "14_Kimble, Löwekamp, Legal Cult___n European History, 1860–1960s.pdf"
+        },
+        {
+          "id": "RD15",
+          "unit": "Téma 23–24",
+          "title": "Kennedy, Three Globalizations of Law and Legal Thought 1850–2000",
+          "kind": "reading",
+          "file": "15_Kennedy, Three Globalizations of Law and Legal Thought-1.pdf"
+        }
+      ]
     }
   ],
   "gaps": [

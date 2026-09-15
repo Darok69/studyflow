@@ -243,6 +243,13 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
         RAW.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src, raw_path)
 
+    # Povinná četba není prezentace. Stránka odborného článku jako obrázek je
+    # k ničemu — nedá se v ní listovat ani se z ní učit. Z článku se proto
+    # vytáhne jen text do out/work (podklad k napsání souhrnu) a data zůstanou
+    # bez slidů; oddíly souhrnu vyrobí merge z obsahového souboru.
+    if lec.get("kind") == "reading":
+        return process_reading(lec, course, src, raw_name, digest, write_work)
+
     doc = pymupdf.open(src)
     cols, rows = lec["nup"] if lec.get("nup") else detect_grid(doc)
     per_page = cols * rows
@@ -384,6 +391,56 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
         + (f" · prázdných buněk {stats['blank']}" if stats["blank"] else "")
         + f" · hotové zachované {stats['kept']} · k dopsání {stats['new']}")
     return {"lecture_id": lid, "pages": len(slides), **stats}
+
+
+def process_reading(lec: dict, course: dict, src: Path, raw_name: str,
+                    digest: str, write_work: bool) -> dict:
+    """Článek z povinné četby: text ven, obrázky ne, hotový souhrn zachovat."""
+    lid = lec["id"]
+    doc = pymupdf.open(src)
+    data_path = DATA / f"{lid}.json"
+    prev = load_json(data_path, {})
+    kept = prev.get("slides", []) if prev.get("kind") == "reading" else []
+
+    out = {
+        "lecture_id": lid,
+        "kind": "reading",
+        "course": course["code"],
+        "course_title": course["title"],
+        "course_number": course["number"],
+        "unit": lec.get("unit", ""),
+        "title": prev.get("title") or lec.get("title") or lid,
+        "source_file": f"raw/{raw_name}",
+        "source_sha256": digest,
+        "source_pages": doc.page_count,
+        "slides_per_page": 1,
+        "slide_count": len(kept),
+        "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "slides": kept,
+    }
+    DATA.mkdir(parents=True, exist_ok=True)
+    write_json(data_path, out)
+
+    if write_work:
+        WORK.mkdir(parents=True, exist_ok=True)
+        lines = [
+            f"# {lid} — {out['title']}",
+            f"_{out['course_title']} ({out['course_number']}) · {out['unit']} · "
+            f"povinná četba, {doc.page_count} stran_",
+            "",
+        ]
+        for i, page in enumerate(doc, 1):
+            text = page.get_text().strip()
+            if not text:
+                continue
+            lines += [f"## str. {i}", "```", text, "```", ""]
+        (WORK / f"{lid}.md").write_text("\n".join(lines), "utf-8")
+
+    doc.close()
+    log(f"  ~ {lid}: povinná četba, {out['source_pages']} stran → text do work/, "
+        f"bez obrázků · hotových oddílů {len(kept)}")
+    return {"lecture_id": lid, "pages": len(kept), "vision": 0, "filler": 0,
+            "kept": len(kept), "new": 0}
 
 
 def write_work_packet(lid: str, data: dict, doc, cols: int, rows: int,

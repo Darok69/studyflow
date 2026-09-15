@@ -38,11 +38,18 @@ def main(paths: list[str]) -> int:
         data = json.loads(target.read_text("utf-8"))
         if "title" in content:
             data["title"] = content["title"]
+        reading = data.get("kind") == "reading"
         by_n = {s["n"]: s for s in data["slides"]}
         written = skipped = 0
         for key, payload in content["slides"].items():
             n = int(key)
             slide = by_n.get(n)
+            if slide is None and reading:
+                # Článek nemá stránky k napárování — oddíly souhrnu vznikají tady.
+                slide = {"n": n, "text_sha": None}
+                by_n[n] = slide
+                data["slides"].append(slide)
+                data["slides"].sort(key=lambda s: s["n"])
             if slide is None:
                 print(f"  ! {lid} s{n:03d}: slide neexistuje")
                 skipped += 1
@@ -57,6 +64,7 @@ def main(paths: list[str]) -> int:
                     slide[f] = payload[f]
             slide["status"] = "done"
             written += 1
+        data["slide_count"] = len(data["slides"])
         target.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", "utf-8")
         print(f"{lid}: vloženo {written} slidů, přeskočeno {skipped}")
     return 0

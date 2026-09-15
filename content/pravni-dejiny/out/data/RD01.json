@@ -1,0 +1,16 @@
+{
+  "lecture_id": "RD01",
+  "kind": "reading",
+  "course": "RD",
+  "course_title": "Required reading",
+  "course_number": "030362",
+  "unit": "Téma 2",
+  "title": "Johansen/Weiss/Motzki, Islamic Law (Oxford Encyclopedia of Legal History)",
+  "source_file": "raw/RD01_1-johansen-islamic-law-oxford-i-encyclopedia-of-legal-histor.pdf",
+  "source_sha256": "a86f6fc2f7b1654dc4e09b10d4d411e7f7948e9bfa11758b08a8238ab071faf6",
+  "source_pages": 30,
+  "slides_per_page": 1,
+  "slide_count": 0,
+  "updated_at": "2026-09-15T13:06:59+00:00",
+  "slides": []
+}

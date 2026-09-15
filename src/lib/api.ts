@@ -314,7 +314,8 @@ export interface MaterialCard {
 
 export interface MaterialSlide {
   n: number
-  img: string
+  /** Absent for required reading, which is a written summary, not slides. */
+  img?: string
   title: string
   /** Render dimensions — set on the <img> so the text does not jump while loading. */
   w?: number

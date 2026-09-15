@@ -1,68 +1,11 @@
 {
   "lecture_id": "PD09a",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 9",
   "title": "Constitutionalism & Norm Production I",
-  "source_file": "raw/PD09a_pp-091-constitutionalism-norm-production-staudigl-ciechowicz.pdf",
-  "source_sha256": "e4516de41ab4fee12384a78bbfa2bf57c32d916263f2b68a4e501a196985dae0",
-  "source_pages": 46,
-  "slides_per_page": 1,
-  "slide_count": 46,
-  "updated_at": "2026-09-15T12:12:44+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD09a/PD09a_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 135,
-      "text_sha": "10f1cd9be61d01eb",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD09a/PD09a_s002.webp",
-      "title": "Norm Production: Codifications, Judge-made Law, and Academic Production of Law",
-      "text": "Kamila Staudigl-Ciechowicz. Topics 9–11 form one block; this first part is about norm production through codifications.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 123,
-      "text_sha": "acc33a096884388c",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD09a/PD09a_s003.webp",
-      "title": "Where we left off",
-      "text": "Natural law in early modern times, and the several purposes it served. Today: norm production through codifications.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 225,
-      "text_sha": "24d837e8d551b2b7",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD09a/PD09a_s004.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Norm Production: Codifications, Judge-made Law, and Academic Production of Law", "text": "Kamila Staudigl-Ciechowicz. Topics 9–11 form one block; this first part is about norm production through codifications.", "terms": [], "cards": [], "vision_used": false },
+    "3": { "title": "Where we left off", "text": "Natural law in early modern times, and the several purposes it served. Today: norm production through codifications.", "terms": [], "cards": [], "vision_used": false },
+    "4": {
       "title": "Tocqueville on the resemblance of laws",
       "text": "The quotation that sets up the whole block. Tocqueville, 1856: studying the medieval political institutions of France, England and Germany he was struck with ASTONISHMENT at the extraordinary RESEMBLANCE of the laws he found, and perplexed that peoples who so rarely engaged with one another could have drawn up such similar laws. The laws are never the same and vary almost infinitely in detail — nevertheless IN THEIR ESSENCE THEY ARE ALL SIMILAR. Once he had found an institution, a legal order or a public office in the old German legislature, he knew in advance that careful research would find something essentially similar in France and England; and each of the three peoples helped him understand the other two.",
       "terms": [],
@@ -75,57 +18,21 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1076,
-      "text_sha": "46b3f59224dd38d0",
-      "pdf_page": 4
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PD09a/PD09a_s005.webp",
-      "title": "Write – Pair – Share",
-      "text": "The questions put to the room on Tocqueville: why is this the case, why are the laws so similar, and what can we learn by comparing them.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1305,
-      "text_sha": "bd2d270fe341864a",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PD09a/PD09a_s006.webp",
+    "5": { "title": "Write – Pair – Share", "text": "The questions put to the room on Tocqueville: why is this the case, why are the laws so similar, and what can we learn by comparing them.", "terms": [], "cards": [], "vision_used": false },
+    "6": {
       "title": "Why compare at all",
       "text": "Because there is a common European development in legal history AND significant differences — and comparison does two things: it makes similarities and differences VISIBLE, and it invites us to ANALYSE THE REASONS for them. Not a catalogue of curiosities: the point is the explanation.",
       "terms": [],
       "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 291,
-      "text_sha": "c9f5f08184a91a52",
-      "pdf_page": 6
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PD09a/PD09a_s007.webp",
+    "7": {
       "title": "What is compared: legal culture",
       "text": "LEGAL CULTURE is the characteristics of a certain legal order with regard to HOW A LEGAL SYSTEM OPERATES and HOW IT INTERACTS WITH SOCIETY. It includes norms, institutions, actors, their explicit AND IMPLICIT knowledge, and the conventions of how to practise law. Since that is too big to compare as a whole, the lecture sets up POINTS OF OBSERVATION: norm production; legal professions and legal methods; and constitutions. Those three are the programme of topics 9 to 11.",
       "terms": [
-        {
-          "term": "legal culture",
-          "def": "The characteristics of a legal order in how it operates and how it interacts with society — norms, institutions, actors, their explicit and implicit knowledge, and the conventions of practising law."
-        }
+        { "term": "legal culture", "def": "The characteristics of a legal order in how it operates and how it interacts with society — norms, institutions, actors, their explicit and implicit knowledge, and the conventions of practising law." }
       ],
       "cards": [
         {
@@ -136,18 +43,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 464,
-      "text_sha": "f9e623c3719622ab",
-      "pdf_page": 7
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD09a/PD09a_s008.webp",
+    "8": {
       "title": "How the comparison is done",
       "text": "Focus on AUSTRIA, FRANCE and ENGLAND. Legal culture is split up analytically into pillars, while keeping in mind that what is compared are NOT STATIC ENTITIES BUT DYNAMIC LEGAL CULTURES. The aim is a broad European perspective and an analytical approach through FUNDAMENTAL STRUCTURES — which should make it easier to connect legal history with contemporary law.",
       "terms": [],
@@ -160,34 +58,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 605,
-      "text_sha": "0980efd851b41a30",
-      "pdf_page": 8
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD09a/PD09a_s009.webp",
-      "title": "Europe from 1815",
-      "text": "The map after the Napoleonic Wars — the political setting in which the codifications spread.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 136,
-      "text_sha": "dcaebdf0da939fb2",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PD09a/PD09a_s010.webp",
+    "9": { "title": "Europe from 1815", "text": "The map after the Napoleonic Wars — the political setting in which the codifications spread.", "terms": [], "cards": [], "vision_used": true },
+    "10": {
       "title": "Three sources of norm production",
       "text": "The scheme the whole block hangs on. LEGISLATION: codifications and statutory law as normative sources. COURT DECISIONS: case law and judge-made law as the production of new norms. LEGAL SCHOLARSHIP: the creation of DOGMATICS by interpretation and systematization, as a contribution to the production of new norms. Each of the three has a country where it dominates — France and Austria for legislation, England for the courts, Germany for scholarship — and the question at the end is how the three stand to each other today.",
       "terms": [],
@@ -200,41 +74,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 417,
-      "text_sha": "f74e55623d99c4c1",
-      "pdf_page": 10
+      "vision_used": true
     },
-    {
-      "n": 11,
-      "img": "img/PD09a/PD09a_s011.webp",
-      "title": "The age of codifications",
-      "text": "The question put to the room: what requirements must a law book fulfil to count as a CODIFICATION? The next slides answer it.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 140,
-      "text_sha": "f91d250eb695a766",
-      "pdf_page": 11
-    },
-    {
-      "n": 12,
-      "img": "img/PD09a/PD09a_s012.webp",
+    "11": { "title": "The age of codifications", "text": "The question put to the room: what requirements must a law book fulfil to count as a CODIFICATION? The next slides answer it.", "terms": [], "cards": [], "vision_used": false },
+    "12": {
       "title": "The first model: codification as a new form of legislation",
       "text": "France and Austria. Two conditions made it possible. RATIONALISM as a new paradigm — abstract regulation, systematisation, accessible language. And the CREATION OF A UNITARY STATE — enlightened absolutism in Austria, post-revolutionary nation-state building in France — which produces the demand for HOMOGENOUS regulation of an entire legal field. The word itself goes back to the Latin CODEX, the original wooden tablets bound together, and the definition to learn is: a law book that claims to regulate a subject COMPLETELY, SYSTEMATICALLY AND EXCLUSIVELY.",
       "terms": [
-        {
-          "term": "codification",
-          "def": "A law book claiming to regulate a subject completely, systematically and exclusively. From Latin codex, the wooden tablets bound together."
-        }
+        { "term": "codification", "def": "A law book claiming to regulate a subject completely, systematically and exclusively. From Latin codex, the wooden tablets bound together." }
       ],
       "cards": [
         {
@@ -245,18 +92,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 576,
-      "text_sha": "b115b9c940aeddb1",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD09a/PD09a_s013.webp",
+    "13": {
       "title": "What is new about a codification",
       "text": "Three novelties, each on a different level. A NEW FORM OF LEGISLATION: the creation of new law, a systematic structure, a claim to completeness and exclusivity. NEW DELIMITATIONS: a clear separation of PRIVATE and PUBLIC law — which had not existed in that form before. And NEW CONTENT: private law as law subject to THE PRIMACY OF FREEDOM. A codification is not just the old law written down tidily.",
       "terms": [],
@@ -269,18 +107,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 348,
-      "text_sha": "0ba2ac0f1b42747b",
-      "pdf_page": 13
+      "vision_used": true
     },
-    {
-      "n": 14,
-      "img": "img/PD09a/PD09a_s014.webp",
+    "14": {
       "title": "Scope: universal or partial codification",
       "text": "A UNIVERSAL codification covers the entire legal order; a PARTIAL one covers a complete specific legal area — civil law, criminal law. The examples named: the Prussian ALR as the universal type, against the French Code civil (CC), the West Galician Code (WGGB), the Codex Theresianus (CCTh) and the Allgemeine Gerichtsordnung (AGO).",
       "terms": [],
@@ -293,29 +122,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 388,
-      "text_sha": "20462a36911b1c6e",
-      "pdf_page": 14
+      "vision_used": true
     },
-    {
-      "n": 15,
-      "img": "img/PD09a/PD09a_s015.webp",
+    "15": {
       "title": "Systematic and free of inconsistencies: two systems",
       "text": "The INSTITUTIONAL system, on the model of Justinian's Institutes and used by the ABGB: an introduction on the civil laws in general, then a first part on the rights of PERSONS, a second on the law of THINGS — subdivided into real rights and personal rights to things — and a third part. The PANDECTIC system, used by the German BGB: a GENERAL PART first, then obligations, property, family and succession. The difference is not cosmetic: the pandectic system pulls everything common out into a general part, which is a scholarly achievement and the signature of the Historical School.",
       "terms": [
-        {
-          "term": "institutional system",
-          "def": "Arrangement following Justinian's Institutes — persons, things, actions. Used by the ABGB."
-        },
-        {
-          "term": "pandectic system",
-          "def": "Arrangement with a GENERAL PART first, then obligations, property, family, succession. Used by the BGB — the signature of German legal scholarship."
-        }
+        { "term": "institutional system", "def": "Arrangement following Justinian's Institutes — persons, things, actions. Used by the ABGB." },
+        { "term": "pandectic system", "def": "Arrangement with a GENERAL PART first, then obligations, property, family, succession. Used by the BGB — the signature of German legal scholarship." }
       ],
       "cards": [
         {
@@ -326,18 +140,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 932,
-      "text_sha": "2c4a5140836564b2",
-      "pdf_page": 15
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD09a/PD09a_s016.webp",
+    "16": {
       "title": "Abstract propositions against casuistry",
       "text": "A spectrum rather than a pair. At one end a COLLECTION OF CASES — case law. At the other ABSTRACT LEGAL PROPOSITIONS, which is the ABGB's manner. And in between the question mark the slide puts on the Prussian ALR, with its HIGHLY CASUISTIC structure: a codification can claim completeness by stating principles abstractly, or by trying to foresee every case — and the ALR chose the second, which is why it runs to thousands of paragraphs.",
       "terms": [],
@@ -350,41 +155,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 167,
-      "text_sha": "b64900d5748f579d",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD09a/PD09a_s017.webp",
-      "title": "An act of legislation",
-      "text": "Set against a codification: the Sachsenspiegel, Landrecht III 42 § 4 — Saxon customary law in a law book, which is recorded law rather than enacted law.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 157,
-      "text_sha": "9f7339c75b41e8ca",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PD09a/PD09a_s018.webp",
+    "17": { "title": "An act of legislation", "text": "Set against a codification: the Sachsenspiegel, Landrecht III 42 § 4 — Saxon customary law in a law book, which is recorded law rather than enacted law.", "terms": [], "cards": [], "vision_used": false },
+    "18": {
       "title": "Exclusivity",
       "text": "EXCLUSIVE APPLICABILITY: no subsidiary validity of other legal sources in the same legal area. Bentham states it as a slogan — 'WHATEVER IS NOT IN THE CODE OF LAWS, OUGHT NOT TO BE LAW.' Compare what came before: the Codex Maximilianeus Bavaricus Civilis of 1756 still told the authorities to decide doubts of law from the common written, natural and other former principles of law — that is, to reach OUTSIDE the book. The ABGB's promulgation of 1811 does the opposite and says so expressly.",
       "terms": [
-        {
-          "term": "exclusivity",
-          "def": "A codification's claim that no other source of law is subsidiarily valid in its field — 'whatever is not in the code of laws ought not to be law' (Bentham)."
-        }
+        { "term": "exclusivity", "def": "A codification's claim that no other source of law is subsidiarily valid in its field — 'whatever is not in the code of laws ought not to be law' (Bentham)." }
       ],
       "cards": [
         {
@@ -395,18 +173,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 1112,
-      "text_sha": "bdc85aa5a0c7783a",
-      "pdf_page": 18
+      "vision_used": true
     },
-    {
-      "n": 19,
-      "img": "img/PD09a/PD09a_s019.webp",
+    "19": {
       "title": "The promulgation of the ABGB (1811)",
       "text": "The source: we have decided to promulgate this general civil code for Our entire German hereditary lands, and to decree that it shall come into force on THE FIRST OF JANUARY 1812. THEREBY the common law applied until now, the first part of the civil code promulgated on 1 November 1786, the civil code given for Galicia, together with ALL LAWS AND CUSTOMS relating to the subjects of this general civil law, SHALL CEASE TO HAVE EFFECT.",
       "terms": [],
@@ -419,18 +188,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 555,
-      "text_sha": "e83c380d25255ac1",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD09a/PD09a_s020.webp",
+    "20": {
       "title": "Which characteristics do you recognise?",
       "text": "The exercise on the promulgation text — and the answer is all three at once. COMPLETENESS and SYSTEM: one general civil code for an entire legal field. EXCLUSIVITY: everything else on the same subjects, including CUSTOM, ceases to have effect. And the UNITARY STATE: 'for Our entire German hereditary lands', one law for one territory.",
       "terms": [],
@@ -443,41 +203,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 700,
-      "text_sha": "b14378d0db625d99",
-      "pdf_page": 20
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD09a/PD09a_s021.webp",
-      "title": "The German wording",
-      "text": "The Kundmachungspatent of 1811 in the original German.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 649,
-      "text_sha": "981a3f835e8d4175",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PD09a/PD09a_s022.webp",
+    "21": { "title": "The German wording", "text": "The Kundmachungspatent of 1811 in the original German.", "terms": [], "cards": [], "vision_used": false },
+    "22": {
       "title": "The long road to the ABGB",
       "text": "Six steps, and they are examined. CODEX THERESIANUS 1766 — based on Roman law and strongly casuistic. DRAFT HORTEN 1774. GENERAL CIVIL CODE PART I, the JOSEPHINIAN CODE, 1786 — containing only personal, family and matrimonial property law. The legislative commission led by KARL ANTON VON MARTINI (1726–1800) and then by his pupil FRANZ VON ZEILLER (1751–1828). The CIVIL CODE FOR GALICIA 1797/98, implemented in West and East Galicia and Bukovina. And finally the ABGB in 1811. Note the pattern: Galicia serves as the testing ground for a code that is then given to the whole monarchy.",
       "terms": [
-        {
-          "term": "Franz von Zeiller",
-          "def": "1751–1828, pupil of Martini, who led the commission to the finished ABGB of 1811."
-        }
+        { "term": "Franz von Zeiller", "def": "1751–1828, pupil of Martini, who led the commission to the finished ABGB of 1811." }
       ],
       "cards": [
         {
@@ -495,50 +228,11 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 631,
-      "text_sha": "e1ff76a2e3647ff2",
-      "pdf_page": 22
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "img": "img/PD09a/PD09a_s023.webp",
-      "title": "Where the earlier codes applied",
-      "text": "The Josephinian Code of 1786 in red, the Civil Code for Galicia of 1797 in green — and Hungary outside the area of application altogether, as of 1798.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 255,
-      "text_sha": "bb662d85a05e5d8d",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PD09a/PD09a_s024.webp",
-      "title": "The ABGB in 1812",
-      "text": "The area in which the ABGB entered into force.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 89,
-      "text_sha": "dcccc1c7edac038c",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PD09a/PD09a_s025.webp",
+    "23": { "title": "Where the earlier codes applied", "text": "The Josephinian Code of 1786 in red, the Civil Code for Galicia of 1797 in green — and Hungary outside the area of application altogether, as of 1798.", "terms": [], "cards": [], "vision_used": true },
+    "24": { "title": "The ABGB in 1812", "text": "The area in which the ABGB entered into force.", "terms": [], "cards": [], "vision_used": false },
+    "25": {
       "title": "The ABGB in 1853 — and beyond its borders",
       "text": "By 1853 the code applies across the monarchy, and its INFLUENCE reaches further: Parma, several Swiss cantons, and Serbia. A codification exports itself by being copied, without any act of the exporting state.",
       "terms": [],
@@ -551,73 +245,22 @@
           "priority": "extra"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 208,
-      "text_sha": "e31d5d78d85eb77f",
-      "pdf_page": 25
+      "vision_used": true
     },
-    {
-      "n": 26,
-      "img": "img/PD09a/PD09a_s026.webp",
-      "title": "So why does this matter?",
-      "text": "The question put to the room before the answer on the next slide.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 72,
-      "text_sha": "d0d000e54a7a7329",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PD09a/PD09a_s027.webp",
+    "26": { "title": "So why does this matter?", "text": "The question put to the room before the answer on the next slide.", "terms": [], "cards": [], "vision_used": false },
+    "27": {
       "title": "Why it matters",
       "text": "Because these codifications SHAPED THE LAW AS WE KNOW IT. They had a high impact globally, and some are IN FORCE UNTIL TODAY — the ABGB among them, which is why a legal historian's question about 1811 is also a question about the code an Austrian lawyer opens this morning.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 116,
-      "text_sha": "98b95078e7c8bc05",
-      "pdf_page": 27
+      "vision_used": false
     },
-    {
-      "n": 28,
-      "img": "img/PD09a/PD09a_s028.webp",
-      "title": "The ABGB in 1921",
-      "text": "After the monarchy: the ABGB in the version of the three Teilnovellen, the version without them, the Burgenland without marriage law, the Serbian civil code, and the code's continuing impact in Bosnia — one code splintering into versions as the state that made it disappears.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 262,
-      "text_sha": "7f97d46c61a90deb",
-      "pdf_page": 28
-    },
-    {
-      "n": 29,
-      "img": "img/PD09a/PD09a_s029.webp",
+    "28": { "title": "The ABGB in 1921", "text": "After the monarchy: the ABGB in the version of the three Teilnovellen, the version without them, the Burgenland without marriage law, the Serbian civil code, and the code's continuing impact in Bosnia — one code splintering into versions as the state that made it disappears.", "terms": [], "cards": [], "vision_used": true },
+    "29": {
       "title": "The problem: codifications and courts",
       "text": "Codifications were often accompanied by the RÉFÉRÉ LÉGISLATIF: interpretation and further development of the law ONLY BY THE LEGISLATOR, and the judge BOUND. The logic is straightforward — if the code is complete and exclusive, a judge who interprets it is making law, and law-making belongs to the legislator. The price is a judiciary that must stop and ask whenever the text runs out.",
       "terms": [
-        {
-          "term": "référé législatif",
-          "def": "The duty of a court to refer a doubt about the law back to the legislator, who alone may interpret and develop it. The logical consequence of a code claiming completeness."
-        }
+        { "term": "référé législatif", "def": "The duty of a court to refer a doubt about the law back to the legislator, who alone may interpret and develop it. The logical consequence of a code claiming completeness." }
       ],
       "cards": [
         {
@@ -628,18 +271,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 287,
-      "text_sha": "8f1f735489a44dc2",
-      "pdf_page": 29
+      "vision_used": false
     },
-    {
-      "n": 30,
-      "img": "img/PD09a/PD09a_s030.webp",
+    "30": {
       "title": "Austria: the patent of 1 November 1786",
       "text": "The Codex Theresianus (1766) and the Josephinian Code (1786) still provide for the référé législatif. The patent of 1786: judges and subjects are instructed to adhere to THE TRUE AND GENERAL MEANING OF THE WORDS of this law and shall not deviate from its provisions UNDER ANY CONCEIVABLE PRETEXT. Only if a judge meets a case not specified in the law, or has REASONABLE DOUBT about its meaning, shall the superior authority seek the highest decision.",
       "terms": [],
@@ -652,34 +286,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 720,
-      "text_sha": "c217a4ec25cb8b94",
-      "pdf_page": 30
+      "vision_used": false
     },
-    {
-      "n": 31,
-      "img": "img/PD09a/PD09a_s031.webp",
-      "title": "The same patent in English",
-      "text": "The translation of the 1786 patent used in the lecture.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 680,
-      "text_sha": "e91250c8b6a49b48",
-      "pdf_page": 31
-    },
-    {
-      "n": 32,
-      "img": "img/PD09a/PD09a_s032.webp",
+    "31": { "title": "The same patent in English", "text": "The translation of the 1786 patent used in the lecture.", "terms": [], "cards": [], "vision_used": false },
+    "32": {
       "title": "Austria changes its mind: § 7 ABGB",
       "text": "The Codex Theresianus (1766) and the Josephinian Code (1786) still provide for the référé législatif — but the WEST GALICIAN CODE (1797) and the ABGB (1811) NO LONGER CONTAIN IT. The ABGB goes further and gives the judge EXPRESS POWER to decide where neither the words nor the natural meaning are clear. § 7: if a case cannot be decided from the words or the natural meaning of a law, regard must be had to SIMILAR CASES decided in the laws and to the REASONS OF OTHER RELATED LAWS; and if it remains doubtful, it must be decided ACCORDING TO THE NATURAL PRINCIPLES OF LAW, having regard to the carefully collected and maturely considered circumstances. Natural law, written into a code, as the instruction for the gaps.",
       "terms": [],
@@ -699,41 +309,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1108,
-      "text_sha": "06307f138276483a",
-      "pdf_page": 32
+      "vision_used": false
     },
-    {
-      "n": 33,
-      "img": "img/PD09a/PD09a_s033.webp",
-      "title": "§ 7 in English",
-      "text": "The translation of § 7 ABGB used in the lecture.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1086,
-      "text_sha": "b03d681976d2b1da",
-      "pdf_page": 33
-    },
-    {
-      "n": 34,
-      "img": "img/PD09a/PD09a_s034.webp",
+    "33": { "title": "§ 7 in English", "text": "The translation of § 7 ABGB used in the lecture.", "terms": [], "cards": [], "vision_used": false },
+    "34": {
       "title": "Authentic interpretation: § 8 ABGB",
       "text": "The référé législatif must be DISTINGUISHED from AUTHENTIC INTERPRETATION, under which only the legislator may explain a law in a generally binding manner. Interpretation by the courts IS allowed — but its result is NOT generally binding, only relevant for the individual case. § 8 ABGB: only the legislator has the power to explain a law in a generally binding way; such an explanation must be applied to all cases still to be decided, unless the legislator adds that it shall not apply to cases concerning acts and rights arising BEFORE the explanation.",
       "terms": [
-        {
-          "term": "authentic interpretation",
-          "def": "An explanation of a law by the legislator himself, binding generally (§ 8 ABGB). Distinct from the référé législatif: courts may still interpret, but only for the case at hand."
-        }
+        { "term": "authentic interpretation", "def": "An explanation of a law by the legislator himself, binding generally (§ 8 ABGB). Distinct from the référé législatif: courts may still interpret, but only for the case at hand." }
       ],
       "cards": [
         {
@@ -751,34 +334,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 980,
-      "text_sha": "6ca5dcade6bd4a2a",
-      "pdf_page": 34
+      "vision_used": false
     },
-    {
-      "n": 35,
-      "img": "img/PD09a/PD09a_s035.webp",
-      "title": "§ 8 in English",
-      "text": "The translation of § 8 ABGB used in the lecture.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 917,
-      "text_sha": "46e0cb063e15ff1e",
-      "pdf_page": 35
-    },
-    {
-      "n": 36,
-      "img": "img/PD09a/PD09a_s036.webp",
+    "35": { "title": "§ 8 in English", "text": "The translation of § 8 ABGB used in the lecture.", "terms": [], "cards": [], "vision_used": false },
+    "36": {
       "title": "France: the law of 16 and 24 August 1790",
       "text": "The French answer is harder than the Austrian. Art. 10: the courts may take NO PART, directly or indirectly, in the exercise of legislative power, nor prevent or suspend the execution of the decrees of the legislative body sanctioned by the King — ON PAIN OF FORFEITURE. Art. 12: they may NOT make regulations, but shall APPLY TO THE LEGISLATIVE BODY whenever they think it necessary either to interpret a law or to make a new one. A separation of powers enforced against the judiciary by threat of losing office.",
       "terms": [],
@@ -798,57 +357,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 571,
-      "text_sha": "cee0e84da3b499cf",
-      "pdf_page": 36
+      "vision_used": false
     },
-    {
-      "n": 37,
-      "img": "img/PD09a/PD09a_s037.webp",
-      "title": "The French law in English",
-      "text": "The translation used in the lecture.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 556,
-      "text_sha": "a6c3b949338ddd35",
-      "pdf_page": 37
-    },
-    {
-      "n": 38,
-      "img": "img/PD09a/PD09a_s038.webp",
-      "title": "Write – Pair – Share",
-      "text": "The question put to the room: what is the role of the legislator and what of the judge, in the référé législatif and in authentic interpretation — and what is the aim behind each?",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 269,
-      "text_sha": "ea993f559f65b8a1",
-      "pdf_page": 38
-    },
-    {
-      "n": 39,
-      "img": "img/PD09a/PD09a_s039.webp",
+    "37": { "title": "The French law in English", "text": "The translation used in the lecture.", "terms": [], "cards": [], "vision_used": false },
+    "38": { "title": "Write – Pair – Share", "text": "The question put to the room: what is the role of the legislator and what of the judge, in the référé législatif and in authentic interpretation — and what is the aim behind each?", "terms": [], "cards": [], "vision_used": false },
+    "39": {
       "title": "The second model: judge-made law (England)",
       "text": "Common law as CASE LAW developed by the courts from the 11th century. Publication of court decisions in the YEAR BOOKS begins in the 14th century. STARE DECISIS: former cases have binding power. And application to new cases proceeds by DISTINGUISHING and ANALOGY, which is itself a mode of norm production. Hence the formula: THE DECISION OF CASES AND THE PRODUCTION OF NEW NORMS TAKE PLACE AT THE VERY SAME TIME — exactly what the continental model was built to prevent.",
       "terms": [
-        {
-          "term": "stare decisis",
-          "def": "The binding power of former decisions. With distinguishing and analogy it makes deciding a case and producing a norm one and the same act."
-        }
+        { "term": "stare decisis", "def": "The binding power of former decisions. With distinguishing and analogy it makes deciding a case and producing a norm one and the same act." }
       ],
       "cards": [
         {
@@ -859,18 +376,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 473,
-      "text_sha": "b5b520c78524a250",
-      "pdf_page": 39
+      "vision_used": false
     },
-    {
-      "n": 40,
-      "img": "img/PD09a/PD09a_s040.webp",
+    "40": {
       "title": "Bentham for codification",
       "text": "The English enthusiasm, at its sharpest. 'A COMPLETE DIGEST: such is the first rule. Whatever is not in the code of laws, ought not to be law. Nothing ought to be referred either to custom, or to foreign law, or to pretended natural law, or to pretended laws of nations.' And the argument against borrowing Roman law: does the legislator who adopts it know what he does? Can he? Is it not a field of eternal disputes — is it not, in a word, to render ARBITRARY everything he pretends to take from it? His image: when you add a finite quantity to an infinite one, that the sum is infinite is a mathematical axiom.",
       "terms": [],
@@ -883,18 +391,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 831,
-      "text_sha": "850b521496e8fa70",
-      "pdf_page": 40
+      "vision_used": false
     },
-    {
-      "n": 41,
-      "img": "img/PD09a/PD09a_s041.webp",
+    "41": {
       "title": "Voices against codification",
       "text": "The other side, and it wins in England. Common law is held SUPERIOR to codifications because it is customary law SHAPED OVER CENTURIES BY THE COURTS; because it is CONCRETE AND FLEXIBLE; because it ensures TAILORED DECISIONS and by that freedom; and because it is granted by JUDGES, who were seen as the best legal experts. And all of it is accompanied by one more thing: DISTRUST IN THE PARLIAMENT. The continental argument was that only the legislator may make law; the English answer was that the legislator is the one you would least want making it.",
       "terms": [],
@@ -907,25 +406,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 384,
-      "text_sha": "009018f32cd8c9e6",
-      "pdf_page": 41
+      "vision_used": false
     },
-    {
-      "n": 42,
-      "img": "img/PD09a/PD09a_s042.webp",
+    "42": {
       "title": "England in the 19th century: legislation",
       "text": "The codification attempts FAIL: for criminal law in 1833 and again in 1878–1880; and the attempt to compile and revise English statute law and create a digest of case law in 1866–1880. What is enacted instead are CONSOLIDATION ACTS, which reproduce the statutory norms and the case law of a certain field with Parliament's approval — and which often change the law along the way through SELECTION AND RE-INTERPRETATION. And the striking item: CODIFICATIONS FOR THE COLONIES, starting with India in 1860. England would not codify itself, and codified the empire.",
       "terms": [
-        {
-          "term": "Consolidation Act",
-          "def": "An act reproducing the statutory norms and case law of a field with parliamentary approval — England's answer instead of a codification, which often changed the law by selection and re-interpretation."
-        }
+        { "term": "Consolidation Act", "def": "An act reproducing the statutory norms and case law of a field with parliamentary approval — England's answer instead of a codification, which often changed the law by selection and re-interpretation." }
       ],
       "cards": [
         {
@@ -943,25 +430,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 619,
-      "text_sha": "25e0155aec98b569",
-      "pdf_page": 42
+      "vision_used": false
     },
-    {
-      "n": 43,
-      "img": "img/PD09a/PD09a_s043.webp",
+    "43": {
       "title": "England in the 19th century: case law tightens",
       "text": "While codification fails, the METHOD of case law is made strict. The binding power of STARE DECISIS holds even where the rule is stated in only ONE judgment, based on the RATIO DECIDENDI — the legal rules on which the court builds the decision. The binding is not only VERTICAL but also HORIZONTAL for appellate courts: courts are bound by THEIR OWN previous judgments. And the requirements for OVERRULING are tight. So the century in which the continent got certainty from codes gave England certainty from a hardened doctrine of precedent.",
       "terms": [
-        {
-          "term": "ratio decidendi",
-          "def": "The legal rules on which a court builds its decision — the part that binds, as against the rest of the judgment."
-        }
+        { "term": "ratio decidendi", "def": "The legal rules on which a court builds its decision — the part that binds, as against the rest of the judgment." }
       ],
       "cards": [
         {
@@ -979,18 +454,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 477,
-      "text_sha": "6a5e5fb3e7dfcd74",
-      "pdf_page": 43
+      "vision_used": false
     },
-    {
-      "n": 44,
-      "img": "img/PD09a/PD09a_s044.webp",
+    "44": {
       "title": "Summary",
       "text": "Norm production can take place through LEGISLATION — codifications from the early 19th century; through the COURTS — judge-made law, especially in England; and through LEGAL SCHOLARSHIP — the HISTORICAL SCHOOL in Germany and later Austria, which claims that legal scholarship is MOST COMPETENT for norm production, and which is the subject of the next session. And the closing question: all three sources play a role in today's legal world — in what relation do they stand?",
       "terms": [],
@@ -1003,46 +469,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 547,
-      "text_sha": "9732705e966989d6",
-      "pdf_page": 44
+      "vision_used": false
     },
-    {
-      "n": 45,
-      "img": "img/PD09a/PD09a_s045.webp",
-      "title": "Reading for topics 9–11",
-      "text": "Koch/Sunde (eds.), Comparing Legal Cultures, 2nd ed. 2020, pp. 23–40, 333–386, 471–510, 511–540; Olechowski, Introduction, par. 2220, 3304–3315, 4101–4117, 4201–4227, 4301–4312, 6301–6302.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 377,
-      "text_sha": "8e366db07a6e7e8c",
-      "pdf_page": 45
-    },
-    {
-      "n": 46,
-      "img": "img/PD09a/PD09a_s046.webp",
-      "title": "Thank you",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 10,
-      "text_sha": "3afdda2c098fc834",
-      "pdf_page": 46
-    }
-  ]
+    "45": { "title": "Reading for topics 9–11", "text": "Koch/Sunde (eds.), Comparing Legal Cultures, 2nd ed. 2020, pp. 23–40, 333–386, 471–510, 511–540; Olechowski, Introduction, par. 2220, 3304–3315, 4101–4117, 4201–4227, 4301–4312, 6301–6302.", "terms": [], "cards": [], "vision_used": false },
+    "46": { "title": "Thank you", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }

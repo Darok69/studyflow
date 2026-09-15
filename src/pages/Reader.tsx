@@ -258,16 +258,18 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
             }}
           >
             <span className="reader-num">{slide.n}</span>
-            <figure className="reader-figure">
-              <img
-                src={materialImageUrl(slide.img)}
-                alt={t('readerSlideAlt', slide.title, slide.n)}
-                loading="lazy"
-                decoding="async"
-                width={slide.w}
-                height={slide.h}
-              />
-            </figure>
+            {slide.img && (
+              <figure className="reader-figure">
+                <img
+                  src={materialImageUrl(slide.img)}
+                  alt={t('readerSlideAlt', slide.title, slide.n)}
+                  loading="lazy"
+                  decoding="async"
+                  width={slide.w}
+                  height={slide.h}
+                />
+              </figure>
+            )}
             {slide.title && <h3 className="reader-slide-title">{slide.title}</h3>}
             {slide.text && <p className="reader-text">{slide.text}</p>}
             {slide.note && <p className="reader-note">{slide.note}</p>}
