@@ -10,6 +10,7 @@
       "code": "IL",
       "number": "030477",
       "title": "Foundations of International Law",
+      "subject": "IREWI — mezinárodní právo",
       "root": "/Users/danielmarek/Downloads/WS2025-030477-1_20260911_1647",
       "lectures": [
         {
@@ -84,6 +85,7 @@
       "code": "EU",
       "number": "030337",
       "title": "Introduction to European Union Law",
+      "subject": "IREWI — unijní právo",
       "root": "/Users/danielmarek/Downloads/WS2025-030337-1_20260911_1647",
       "lectures": [
         {
@@ -143,5 +145,10 @@
         }
       ]
     }
+  ],
+  "gaps": [
+    "**Foundations of International Law: chybí Unit III a Unit IX** — v Moodle exportu nejsou žádné slidy a složka „Schedule and topics\" neobsahuje rozpis témat, takže se z podkladů nedá zjistit, co v nich bylo. Sehnat jinde.",
+    "**030712 Exercise in International Law for Beginners** neobsahuje výukové materiály, jen zadání (Oral participation, Preview) a jeden vlastní odevzdaný dokument. Do balíčku nevstupuje.",
+    "**Pomůcky u zkoušky** (např. text smluv) nejsou nikde v podkladech uvedené — ověřit na SSC."
   ]
 }

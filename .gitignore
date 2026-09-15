@@ -33,11 +33,14 @@ graphify-out/
 
 # StEOP podklady — obrázky slidů a kopie zdrojových PDF se do repa nedávají
 # (55 MB); nahrávají se do datového volume serveru. Text a pipeline ano.
-content/irewi/out/img/
-content/irewi/raw/
-content/irewi/.cache/
-content/irewi/out/work/
-content/irewi/out/studyflow/
+# Balíky předmětů (content/<předmět>/): do gitu patří jen to, co je psané
+# rukou — courses.json, content/*.json a hotové out/data/*.json. Rendery,
+# kopie zdrojů, zvuk a odvozené balíčky se dají kdykoli přegenerovat.
+content/*/out/img/
+content/*/raw/
+content/*/.cache/
+content/*/out/work/
+content/*/out/studyflow/
 # 49 MB namluvených epizod — vyrábí je make_audio.py z podkladů, do gitu nepatří.
-content/irewi/out/audio/
-content/irewi/pipeline/__pycache__/
+content/*/out/audio/
+content/pipeline/__pycache__/

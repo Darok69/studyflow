@@ -34,10 +34,12 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pack import pack_root  # noqa: E402
+
 from speech import for_speech, pause  # noqa: E402
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = pack_root()
 MATERIALS = ROOT / "out" / "materials"
 OVERRIDES = ROOT / "audio" / "overrides"
 OUT = ROOT / "out" / "audio"

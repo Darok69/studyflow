@@ -4,26 +4,28 @@
 # ///
 """Z hotových dat udělá balíček karet ve formátu, který umí obrazovka Import.
 
-Jeden soubor na každou půlku zkoušky, protože se hodnotí zvlášť (30 + 30 bodů,
-v každé minimum 15) — v appce tak vzniknou dva předměty a je vidět, jak která
-polovina stojí.
+Jeden soubor na kurz. Kolik kurzů má předmět, rozhoduje zkouška: IREWI se
+známkuje po půlkách (30 + 30 bodů, v každé minimum 15), takže jsou dva a je
+vidět, jak která polovina stojí; jednotná zkouška má jeden.
 
-Spuštění:  uv run pipeline/make_deck.py
-Výstup:    out/studyflow/irewi-<kód>.json
+Název balíčku bere z `courses.json` (`subject`, jinak `title`) — v appce se
+tak předmět pozná a podle názvů přednášek si najde svou učebnici.
+
+Spuštění:  ./run.sh <předmět> deck
+Výstup:    out/studyflow/<předmět>-<kód>.json
 """
 
 import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pack import pack_root  # noqa: E402
+
+ROOT = pack_root()
 DATA = ROOT / "out" / "data"
 DEST = ROOT / "out" / "studyflow"
 
-SUBJECTS = {
-    "IL": "IREWI — mezinárodní právo",
-    "EU": "IREWI — unijní právo",
-}
 # slovník karet, který zná src/db/cardKinds.ts; cokoli jiného by appka ztišila na 'basic'
 KNOWN_KINDS = {"basic", "cloze", "definice", "znaky", "schema", "pripad", "rozliseni",
                "norma", "judikat", "proces", "mapa", "cisla", "srovnani", "model", "graf"}
@@ -62,11 +64,11 @@ def main() -> int:
         if unknown:
             print(f"  ! {code}: neznámé druhy karet {sorted(unknown)} → 'basic'")
         deck = {
-            "subject": SUBJECTS.get(code, course["title"]),
+            "subject": course.get("subject") or course["title"],
             "examDate": exam_date,
             "cards": cards,
         }
-        out = DEST / f"irewi-{code.lower()}.json"
+        out = DEST / f"{ROOT.name}-{code.lower()}.json"
         out.write_text(json.dumps(deck, ensure_ascii=False, indent=1) + "\n", "utf-8")
         core = sum(1 for c in cards if "core" in c["tags"])
         print(f"{code}: {len(cards)} karet ({core} jádro) → {out.relative_to(ROOT)} "

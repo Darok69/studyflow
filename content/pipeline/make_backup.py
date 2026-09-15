@@ -19,7 +19,10 @@ import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pack import pack_root  # noqa: E402
+
+ROOT = pack_root()
 DEST = ROOT / "out" / "studyflow"
 
 # barva předmětu se v appce odvozuje z id; 0–7, stačí stabilní volba

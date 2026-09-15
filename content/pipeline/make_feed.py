@@ -23,12 +23,16 @@ import argparse
 import json
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pack import pack_root  # noqa: E402
 from xml.sax.saxutils import escape
 
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = pack_root()
 AUDIO = ROOT / "out" / "audio"
 
 SERIES = {

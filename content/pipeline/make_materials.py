@@ -16,9 +16,12 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pack import pack_root  # noqa: E402
+
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = pack_root()
 DATA = ROOT / "out" / "data"
 IMG = ROOT / "out" / "img"
 DEST = ROOT / "out" / "materials"

@@ -28,11 +28,14 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pack import pack_root  # noqa: E402
+
 import pymupdf
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parent.parent
-CONFIG = ROOT / "pipeline" / "courses.json"
+ROOT = pack_root()
+CONFIG = ROOT / "courses.json"
 RAW = ROOT / "raw"
 OUT = ROOT / "out"
 IMG = OUT / "img"
@@ -223,13 +226,19 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
             write_work: bool = True) -> dict:
     lid = lec["id"]
     src = Path(course["root"]) / lec["file"]
-    if not src.exists():
-        log(f"  ! {lid}: zdroj chybí — {src}")
-        return {"lecture_id": lid, "error": f"missing source: {src}"}
-
-    digest = sha256_file(src)
     raw_name = f"{lid}_{slugify(Path(lec['file']).stem)}.pdf"
     raw_path = RAW / raw_name
+    # Moodle export ve Stažených se smazat může, kopie v raw/ ne — když původní
+    # cesta zmizí, běží se z kopie. Bez toho by po úklidu Stažených přestala
+    # jít pipeline pustit znovu, i když jsou všechna data v repu.
+    if not src.exists():
+        if not raw_path.exists():
+            log(f"  ! {lid}: zdroj chybí — {src}")
+            return {"lecture_id": lid, "error": f"missing source: {src}"}
+        log(f"  ~ {lid}: zdroj na původní cestě není, čtu kopii {raw_path.name}")
+        src = raw_path
+
+    digest = sha256_file(src)
     if not raw_path.exists() or sha256_file(raw_path) != digest:
         RAW.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src, raw_path)
@@ -433,7 +442,42 @@ def consistency(results: list[dict]) -> list[str]:
     return problems
 
 
+def stats_from_disk(lid: str) -> dict | None:
+    """Čísla pro přednášku, která v tomhle běhu nešla přes render.
+
+    Bez toho `--only IL01` přepsal REPORT jediným řádkem a zbytek předmětu
+    z něj zmizel — report pak tvrdil, že přednáška je jedna.
+    """
+    d = load_json(DATA / f"{lid}.json", None)
+    if not d:
+        return None
+    slides = d.get("slides", [])
+    done = sum(1 for sl in slides if sl.get("status") == "done")
+    return {
+        "lecture_id": lid,
+        "pages": len(slides),
+        "vision": sum(1 for sl in slides if sl.get("needs_vision")),
+        "filler": sum(1 for sl in slides if sl.get("likely_filler")),
+        "kept": done,
+        "new": len(slides) - done,
+    }
+
+
 def write_report(cfg: dict, results: list[dict], problems: list[str]) -> None:
+    # Report mluví za celý předmět, i když se právě přerenderovala jedna přednáška.
+    seen = {r["lecture_id"] for r in results}
+    full: list[dict] = []
+    for course in cfg["courses"]:
+        for lec in course["lectures"]:
+            lid = lec["id"]
+            if lid in seen:
+                full.append(next(r for r in results if r["lecture_id"] == lid))
+            else:
+                from_disk = stats_from_disk(lid)
+                if from_disk:
+                    full.append(from_disk)
+    results = full or results
+
     done = sum(r.get("kept", 0) for r in results)
     todo = sum(r.get("new", 0) for r in results)
     total = sum(r.get("pages", 0) for r in results)
@@ -441,7 +485,7 @@ def write_report(cfg: dict, results: list[dict], problems: list[str]) -> None:
     size_mb = sum(p.stat().st_size for p in IMG.rglob("*.webp")) / 1e6
 
     L = [
-        "# REPORT — podklady pro StEOP Einführung in das internationale Recht",
+        f"# REPORT — podklady pro {cfg['exam']['name']}",
         "",
         f"Běh: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
@@ -491,15 +535,12 @@ def write_report(cfg: dict, results: list[dict], problems: list[str]) -> None:
     L += ["", "## Co na slidech nesedí nebo chybí", ""]
     L += notes if notes else ["- Zatím nic označeného."]
 
-    L += ["", "## Mezery v podkladech", "",
-          "- **Foundations of International Law: chybí Unit III a Unit IX** — v Moodle "
-          "exportu nejsou žádné slidy a složka „Schedule and topics\" neobsahuje rozpis "
-          "témat, takže se z podkladů nedá zjistit, co v nich bylo. Sehnat jinde.",
-          "- **030712 Exercise in International Law for Beginners** neobsahuje výukové "
-          "materiály, jen zadání (Oral participation, Preview) a jeden vlastní odevzdaný "
-          "dokument. Do balíčku nevstupuje.",
-          "- **Pomůcky u zkoušky** (např. text smluv) nejsou nikde v podkladech uvedené "
-          "— ověřit na SSC.", ""]
+    # Co v podkladech chybí, ví předmět, ne skript — jinak by report o jednom
+    # předmětu tvrdil mezery druhého.
+    gaps = cfg.get("gaps") or []
+    L += ["", "## Mezery v podkladech", ""]
+    L += [f"- {g}" for g in gaps] if gaps else ["- Zatím nic označeného."]
+    L += [""]
     (OUT / "REPORT.md").write_text("\n".join(L), "utf-8")
 
 

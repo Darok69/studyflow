@@ -1,6 +1,6 @@
-# REPORT — podklady pro StEOP Einführung in das internationale Recht
+# REPORT — podklady pro StEOP MP Einführung in das internationale Recht (IREWI, UG2002, 6 ECTS)
 
-Běh: 2026-09-11T19:10:56+02:00
+Běh: 2026-09-15T11:05:37+02:00
 
 ## Zkouška
 - StEOP MP Einführung in das internationale Recht (IREWI, UG2002, 6 ECTS)

@@ -16,7 +16,10 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pack import pack_root  # noqa: E402
+
+ROOT = pack_root()
 FIELDS = ("title", "text", "terms", "cards", "vision_used", "note")
 # karta: {q, a, difficulty 1-3, kind (slovník StudyFlow), priority core|extra}
 
