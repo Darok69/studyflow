@@ -220,6 +220,43 @@ export const en: Messages = {
     `Replace all current data with the backup (${nSubjects} ${subjects(nSubjects)}, ${nCards} ${cards(nCards)})?`,
   backupFileName: (date: string) => `studyflow-backup-${date}.json`,
 
+  // Subject pace
+  paceTitle: 'Pace and exam date',
+  paceAuto: 'paced automatically',
+  paceManual: (n: number) => `${n} new a day`,
+  paceTodayIs: (nw: number, due: number) => `today ${nw} new, ${due} to review`,
+  paceNewPerDay: 'New cards per day',
+  paceAutoBtn: 'Automatic',
+  paceCustom: 'custom',
+  paceAutoDesc:
+    'The app spreads the remaining cards over the days left until the exam. As the date nears, the batch grows by itself.',
+  paceManualDesc: 'Your number holds regardless of the deadline. Put in a hundred if you want — there is no ceiling here.',
+  paceCapNote: (cap: number) => `A shared cap of ${cap} new cards a day still applies across all subjects.`,
+  paceCapLift: 'Lift the cap',
+
+  // Claude link
+  claudeSection: 'Your own textbooks from Claude',
+  claudeDesc:
+    'Got your lecture slides and Claude? Connect it to StudyFlow and it will turn them into a textbook and cards right here — nothing to download, nothing to upload. Only you see your textbooks.',
+  claudeNewToken: 'Create a connection',
+  claudeStep1: '1. Paste this into Claude Code, once',
+  claudeShownOnce: 'The key is shown only now. Lose it and just make a new one.',
+  claudeCopyCommand: 'Copy the command',
+  claudeStep2: '2. Then tell Claude what to do',
+  claudeAsk:
+    'Read these lectures and build a StudyFlow textbook from them, with questions. Write continuous explanation, not bullet points, and attach each question to the section it can be answered from.',
+  claudeCopyAsk: 'Copy the instruction',
+  claudeTokenName: (label: string) => `Connection ${label}`,
+  claudeTokenUsed: (date: string) => `last used ${date}`,
+  claudeTokenUnused: 'not used yet',
+  claudeRevoke: 'Revoke',
+  claudeConfirmRevoke: 'Revoke this connection? Claude will not be able to upload through it. Your textbooks stay.',
+  claudeMyPacks: 'My textbooks',
+  claudePackCounts: (lectures: number, cards: number) => `${lectures} lectures · ${cards} cards`,
+  claudeConfirmDeletePack: (name: string) => `Delete the textbook "${name}" and its cards?`,
+  claudeLoadFailed: 'Could not load the connections.',
+  claudeTokenFailed: 'Could not create the connection — try again.',
+
   // Admin users
   adminSection: 'Access (admin)',
   adminDesc:

@@ -1,68 +1,11 @@
 {
   "lecture_id": "PD18b",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 24",
   "title": "Globalisation of Law II",
-  "source_file": "raw/PD18b_pp-18-b-globalisation-foljanty.pdf",
-  "source_sha256": "e974d4c3573c22429fe7f53cb68ff011b98b6aff4bd4c8c14ea8ea35a025fa66",
-  "source_pages": 15,
-  "slides_per_page": 1,
-  "slide_count": 15,
-  "updated_at": "2026-09-15T12:12:48+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD18b/PD18b_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 57,
-      "text_sha": "a006f7aeb119f75c",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD18b/PD18b_s002.webp",
-      "title": "Globalisation of Law",
-      "text": "Lena Foljanty, 15 January 2026 — the second session.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 137,
-      "text_sha": "7604c962d0cc8af6",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD18b/PD18b_s003.webp",
-      "title": "Recapitulation: what is globalisation?",
-      "text": "The definition and the factors from the previous session: a term used since the 1990s; densification of global networking, new global actors, societies as open and interacting entities; and the conditions — communication and transport, global markets, mobility of goods and people, global institutions.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 713,
-      "text_sha": "e67393333940ac99",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD18b/PD18b_s004.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "2": { "title": "Globalisation of Law", "text": "Lena Foljanty, 15 January 2026 — the second session.", "terms": [], "cards": [], "vision_used": true },
+    "3": { "title": "Recapitulation: what is globalisation?", "text": "The definition and the factors from the previous session: a term used since the 1990s; densification of global networking, new global actors, societies as open and interacting entities; and the conditions — communication and transport, global markets, mobility of goods and people, global institutions.", "terms": [], "cards": [], "vision_used": false },
+    "4": {
       "title": "Recapitulation: globalisation after 1945",
       "text": "The end of the war changed the power constellations fundamentally — a BIPOLAR WORLD IN THE COLD WAR, and DECOLONISATION. The insurance of human rights in the UN context INTERACTS CLOSELY with these developments: the RIGHT TO SELF-DETERMINATION OF THE PEOPLES, BESIDE LIBERAL INDIVIDUAL RIGHTS, BECOMES A MAJOR CLAIM OF THE GLOBAL SOUTH IN THE COURSE OF DECOLONISATION; and the RIGHT OF COMMUNITIES WITHIN A STATE TO PROTECT THEIR OWN CULTURE BECOMES RELEVANT AFTER THE CONSOLIDATION OF THE NEW DECOLONISED NATION STATES, DUE TO THE PRECARIOUS PLACE THAT CUSTOMARY LAW OFTEN HAD IN THESE PROCESSES. Two claims, made by different holders at different moments: first a people against an empire, then a community against its own new state.",
       "terms": [],
@@ -75,41 +18,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 843,
-      "text_sha": "0a07623a63ddea8b",
-      "pdf_page": 4
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PD18b/PD18b_s005.webp",
-      "title": "Law and development (repeated)",
-      "text": "The World Bank and the IMF, national and regional development agencies, and credits bound to conditions — legal and economic reforms such as human rights, the rule of law and economic de-regulation. Legal transfer as a main tool.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 662,
-      "text_sha": "8eeb777224f552f4",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PD18b/PD18b_s006.webp",
+    "5": { "title": "Law and development (repeated)", "text": "The World Bank and the IMF, national and regional development agencies, and credits bound to conditions — legal and economic reforms such as human rights, the rule of law and economic de-regulation. Legal transfer as a main tool.", "terms": [], "cards": [], "vision_used": false },
+    "6": {
       "title": "Economic globalisation and the law",
       "text": "Three layers to keep apart. HARMONISATION OF SALES LAW: the UN CONVENTION ON CONTRACTS FOR THE INTERNATIONAL SALE OF GOODS (CISG), and MODEL LAWS AND GUIDELINES — e.g. by UNCITRAL and UNIDROIT. Note the difference in technique: a CONVENTION binds ratifying states, a MODEL LAW binds no one and works by being copied. REGULATION OF TRADE SINCE 1947: the GENERAL AGREEMENT ON TARIFFS AND TRADE (GATT), the GENERAL AGREEMENT ON TRADE IN SERVICES (GATS), and the AGREEMENT ON TRADE-RELATED ASPECTS OF INTELLECTUAL PROPERTY RIGHTS (TRIPS). And in 1995 the FOUNDATION OF THE WORLD TRADE ORGANISATION. The aim throughout: THE LIBERALISATION OF MARKETS AND THE REDUCTION OF CUSTOMS DUTIES. Watch the widening: from goods in 1947, to services, to intellectual property — trade law reaching progressively further into what states regulate domestically.",
       "terms": [
-        {
-          "term": "model law",
-          "def": "A text with no binding force, drafted by bodies such as UNCITRAL or UNIDROIT, which harmonises law by being voluntarily copied into national legislation."
-        }
+        { "term": "model law", "def": "A text with no binding force, drafted by bodies such as UNCITRAL or UNIDROIT, which harmonises law by being voluntarily copied into national legislation." }
       ],
       "cards": [
         {
@@ -127,25 +43,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 734,
-      "text_sha": "4e4b8294973bb16e",
-      "pdf_page": 6
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD18b/PD18b_s007.webp",
+    "7": {
       "title": "The re-emergence of a lex mercatoria",
       "text": "LEX MERCATORIA AS THE LAW FORMED BY COMMERCIAL PRACTICE — that is, CUSTOMARY LAW — and therefore NON-STATE COMMERCIAL LAW. Its three marks: BASED ON CONTRACTS, i.e. LAW SHAPED BY THE PARTIES; SHAPED BY PRACTICE; and CONFLICT RESOLUTION THROUGH INTERNATIONAL COMMERCIAL ARBITRATION. The word RE-emergence is the point: the medieval merchants' law returns, after four centuries in which the state claimed the monopoly on law. Everything the codifications took from practice and gave to the legislator, this gives back — and the arbitral tribunal replaces the state court.",
       "terms": [
-        {
-          "term": "lex mercatoria",
-          "def": "Non-state commercial law formed by the practice of merchants: made by the parties' contracts, shaped by practice, and enforced through international commercial arbitration rather than state courts."
-        }
+        { "term": "lex mercatoria", "def": "Non-state commercial law formed by the practice of merchants: made by the parties' contracts, shaped by practice, and enforced through international commercial arbitration rather than state courts." }
       ],
       "cards": [
         {
@@ -156,18 +60,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 477,
-      "text_sha": "4b0882e7542c4be0",
-      "pdf_page": 7
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD18b/PD18b_s008.webp",
+    "8": {
       "title": "Jessup's definition of transnational law",
       "text": "PHILIP C. JESSUP, Transnational Law, 1956: the term is 'TO INCLUDE ALL LAW WHICH REGULATES ACTIONS OR EVENTS THAT TRANSCEND NATIONAL FRONTIERS. BOTH PUBLIC AND PRIVATE INTERNATIONAL LAW ARE INCLUDED, AS ARE OTHER RULES WHICH DO NOT WHOLLY FIT INTO SUCH STANDARD CATEGORIES.' The definition is deliberately built around its last clause: the category exists in order to capture what the established categories leave out.",
       "terms": [],
@@ -180,18 +75,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 514,
-      "text_sha": "328d1a0895c676ec",
-      "pdf_page": 8
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD18b/PD18b_s009.webp",
+    "9": {
       "title": "Transnational law: its features and its problem",
       "text": "PRIVATE POWER AS THE MAIN SOURCE — hence a LACK OF A CENTRAL AUTHORITY AND OF A PRE-DEFINED TERRITORIALITY. HYBRID LEGAL CONSTELLATIONS: interactions between PUBLIC AND PRIVATE REGULATORY REGIMES, FORMAL AND INFORMAL ARRANGEMENTS. INHERENT LEGAL PLURALISM. And a SOCIO-LEGAL NATURE. From which the conclusion the lecture draws in one line: LEGITIMACY IS PROBLEMATIC. Say why, because that is the exam answer: state law can point to an authorisation — a constitution, an election, a legislature — and transnational law cannot. It is made by those with the power to make it, binds those who must deal with them, and no one voted for it. Note also that legal pluralism returns here as a description of the present, after appearing in this course as a feature of colonial rule.",
       "terms": [],
@@ -211,18 +97,9 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 570,
-      "text_sha": "ac745c3c770073d1",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD18b/PD18b_s010.webp",
+    "10": {
       "title": "Legal education in a globalised world: the variables",
       "text": "The comparative grid, put as questions rather than as a list. Is a LAW DEGREE NECESSARY OR NOT? Is there PRACTICAL TRAINING AFTER THE DEGREE? A focus on EARLY SPECIALISATION OR A GENERALIST EDUCATION? A STATE EXAM OR A BAR EXAM? ON-THE-JOB TRAINING? And DOCTRINAL KNOWLEDGE OR CASE ANALYSIS? Each national system is one set of answers to the same six questions — which is what makes the systems comparable at all.",
       "terms": [],
@@ -235,18 +112,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 769,
-      "text_sha": "bb7dd43cf31b08da",
-      "pdf_page": 10
+      "vision_used": true
     },
-    {
-      "n": 11,
-      "img": "img/PD18b/PD18b_s011.webp",
+    "11": {
       "title": "England: vocational training since the Middle Ages",
       "text": "Legal education FIRST AS AN APPRENTICE AT THE KING'S BENCH; LATER THE INNS OF COURT BECOME THE CENTRE OF LEGAL EDUCATION, and HAVING STUDIED AT A UNIVERSITY WAS NO REQUIREMENT FOR BECOMING A LAWYER. What education at the Inns consisted of: VISITING COURTS, COPYING AND READING BOOKS, ATTENDING LECTURES AND DINNERS AT THE INNS, AND KEEPING CONTACT WITH THE MEMBERS OF THE INNS. Hence the formula: LEGAL EDUCATION AS VOCATIONAL TRAINING AND SOCIALISATION. The dinners are not a curiosity — belonging to the profession was itself the qualification, which is the opposite of an examination.",
       "terms": [],
@@ -259,18 +127,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 584,
-      "text_sha": "54c002adbb00e1de",
-      "pdf_page": 11
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD18b/PD18b_s012.webp",
+    "12": {
       "title": "Prussia and Austria",
       "text": "PRUSSIA SINCE THE MID-18TH CENTURY, STRONG STATE ORIENTATION: LEGAL STUDIES AT A UNIVERSITY NECESSARY, FOLLOWED BY FOUR YEARS OF PRACTICAL TRAINING ORGANISED BY THE STATE; a SYSTEM OF STATE EXAMINATIONS; and LAWYERS GAINED PROFESSIONAL AUTONOMY ONLY BY 1878, BEING CONTROLLED BY THE STATE UNTIL THEN. AUSTRIA, A MIXTURE OF ACADEMIC AND PRACTICAL ORIENTATION: UNIVERSITY STUDIES NECESSARY TO BECOME A LAWYER OR A JUDGE, FOLLOWED BY PRACTICAL TRAINING AND A PROFESSIONAL EXAM, WITH LENGTH AND REGULATIONS CHANGING THROUGHOUT THE 19TH CENTURY. Set beside England the contrast is exact: there the profession admitted its own members, here the STATE examines and, in Prussia, controls the advocates until 1878.",
       "terms": [],
@@ -290,18 +149,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 630,
-      "text_sha": "e183819a5047ae41",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD18b/PD18b_s013.webp",
+    "13": {
       "title": "And nowadays: convergence",
       "text": "VARIOUS MODELS STILL EXIST AROUND THE GLOBE, BUT IN SOME ASPECTS CONVERGENCE CAN BE OBSERVED. COUNTRIES WITH A FOCUS ON VOCATIONAL TRAINING NOW OFTEN REQUIRE A LAW DEGREE — England and Wales. LL.M. PROGRAMS AROUND THE WORLD FACILITATE SPECIALISATION. And there is an INCREASING FOCUS ON THE EDUCATION OF LAWYERS IN COUNTRIES THAT SO FAR FOCUSED ON THE EDUCATION OF JUDGES — Germany. The two traditions move towards each other from opposite directions. And globalisation shows in the CONTENT too: the INCREASING IMPORTANCE OF INTERNATIONAL AND SUPRANATIONAL LAW IN LEGAL EDUCATION — ALSO IN LEGAL HISTORY CLASSES, which is this course's own account of itself.",
       "terms": [],
@@ -314,46 +164,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 803,
-      "text_sha": "c8c336db742069c3",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD18b/PD18b_s014.webp",
-      "title": "Open questions",
-      "text": "The close of the lecture, left for questions.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 270,
-      "text_sha": "5d8eeb94591995f7",
-      "pdf_page": 14
-    },
-    {
-      "n": 15,
-      "img": "img/PD18b/PD18b_s015.webp",
-      "title": "Thank you",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": true,
-      "text_chars": 220,
-      "text_sha": "62c8d30e90952e6c",
-      "pdf_page": 15
-    }
-  ]
+    "14": { "title": "Open questions", "text": "The close of the lecture, left for questions.", "terms": [], "cards": [], "vision_used": false },
+    "15": { "title": "Thank you", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }

@@ -95,6 +95,7 @@ import {
 } from '../src/pipeline/budget'
 import { SYSTEM_PROMPT, cardsPrompt, disciplineOf, kindMenu } from '../src/pipeline/prompts'
 import type { Block, GeneratedCard } from '../src/pipeline/types'
+import { normalizePack, packSlug } from '../src/pipeline/pack'
 
 let pass = 0
 let fail = 0
@@ -1547,6 +1548,98 @@ console.log('— blind maps: masks stay relative, one card per place —')
   ok(pos.get('p') === 0 && pos.get('r') === 2, 'positions follow the list')
   ok(pos.size === 3, 'every card gets one, so none is left half-placed')
   ok(positionsFor([]).size === 0, 'nothing in, nothing to write')
+}
+
+
+// ============================================================
+// Učebnice odjinud — co smí přijít z cizího Clauda
+// ============================================================
+{
+  console.log('— packSlug —')
+  ok(packSlug('Ústavní právo I.') === 'ustavni-pravo-i', 'diakritika pryč, mezery na pomlčky')
+  ok(packSlug('  --Právo--  ') === 'pravo', 'pomlčky na krajích se ořežou')
+  ok(packSlug('!!!') === '', 'když nezbude nic, neříkáme si o jméno sami')
+
+  console.log('— normalizePack —')
+  const okPack = {
+    subject: 'Římské právo',
+    examDate: '2027-01-20',
+    code: 'rp',
+    lectures: [
+      {
+        id: 'L01',
+        unit: 'Téma 1',
+        title: 'Prameny',
+        slides: [
+          {
+            n: 1,
+            title: 'Zákon XII desek',
+            text: 'První kodifikace.',
+            terms: [{ term: 'lex', def: 'zákon' }],
+            cards: [{ q: 'Kdy?', a: '451 př. n. l.', kind: 'cisla', difficulty: 2 }],
+          },
+          { title: 'Edikt', text: 'Praetorské právo.', cards: [{ front: 'Kdo?', back: 'Praetor' }] },
+        ],
+      },
+    ],
+  }
+  const res = normalizePack(okPack, { slug: 'rimske-pravo', prefix: 'ab12cd' })
+  ok('pack' in res, 'platný balíček projde')
+  if ('pack' in res) {
+    const p = res.pack
+    // Prefix je jediné, co drží ID přednášek oddělená mezi uživateli — bez něj
+    // by cizí „L01“ v rejstříku přebilo jiné „L01“.
+    ok(Object.keys(p.lectures)[0] === 'ab12cdL01', 'ID přednášky nese prefix balíčku')
+    ok(p.lectures.ab12cdL01.slides.length === 2, 'oba oddíly prošly')
+    ok(p.lectures.ab12cdL01.slides[1].n === 2, 'chybějící pořadí se doplní')
+    ok(p.index.courses[0].lectures[0].cards === 2, 'rejstřík počítá karty přednášky')
+    ok(p.deck.cards.length === 2, 'karty ze slidů jdou do balíčku')
+    ok(p.deck.cards[0].kind === 'cisla' && p.deck.cards[0].level === 2, 'kind a difficulty se uznají')
+    ok(p.deck.cards[0].topic === 'Prameny', 'bez vlastního tématu se bere název přednášky')
+    ok(p.deck.cards[0].sourceRef === 'ab12cdL01#1', 'karta ví, ze kterého oddílu je')
+    ok(p.deck.cards[1].front === 'Kdo?' && p.deck.cards[1].back === 'Praetor', 'front/back vedle q/a')
+    ok(p.deck.examDate === '2027-01-20', 'datum zkoušky projde do balíčku')
+    ok(p.lectures.ab12cdL01.slides[0].terms?.length === 1, 'termíny zůstanou u slidu')
+  }
+
+  const err = (input: unknown) => {
+    const r = normalizePack(input as never, { slug: 'x', prefix: 'ab12cd' })
+    return 'error' in r ? r.error : 'ŽÁDNÁ CHYBA'
+  }
+  ok(err({ lectures: okPack.lectures }) === 'missing-subject', 'bez předmětu to není učebnice')
+  ok(err({ subject: 'A', lectures: [] }) === 'no-lectures', 'prázdná učebnice se neuloží')
+  ok(err({ subject: 'A', lectures: [{ id: 'L1', title: 'T', slides: [] }] }) === 'no-slides:L1', 'přednáška bez obsahu se neuloží')
+  ok(err({ subject: 'A', lectures: [{ id: 'L1', title: '', slides: [{ title: 'x' }] }] }) === 'missing-lecture-title:L1', 'přednáška musí mít název')
+  ok(err({ subject: 'A', examDate: '20. 1. 2027', lectures: okPack.lectures }) === 'bad-exam-date', 'datum jen ISO, jinak by tiše zmizelo')
+  ok(
+    err({ subject: 'A', lectures: [{ id: 'L1', title: 'T', slides: [{ title: 'a' }] }, { id: 'L1', title: 'U', slides: [{ title: 'b' }] }] }) ===
+      'duplicate-lecture-id:L1',
+    'dvě přednášky se stejným ID by se přepsaly',
+  )
+  const badSlug = normalizePack(okPack as never, { slug: 'Velké', prefix: 'ab12cd' })
+  ok('error' in badSlug && badSlug.error === 'bad-slug', 'jméno mimo tvar se odmítne')
+  const badPrefix = normalizePack(okPack as never, { slug: 'ok', prefix: 'XX' })
+  ok('error' in badPrefix && badPrefix.error === 'bad-prefix', 'prefix mimo tvar se odmítne')
+
+  // Karta bez odpovědi není karta — ale nesmí shodit celý balíček, jinak by
+  // jedna překlepnutá otázka zahodila dvacet přednášek.
+  const partial = normalizePack(
+    {
+      subject: 'A',
+      lectures: [{ id: 'L1', title: 'T', slides: [{ title: 'a', text: 'b', cards: [{ q: 'Kdy?' }, { q: 'Co?', a: 'To' }] }] }],
+    } as never,
+    { slug: 'ok', prefix: 'ab12cd' },
+  )
+  ok('pack' in partial && partial.pack.deck.cards.length === 1, 'neúplná karta se zahodí')
+  ok('pack' in partial && partial.pack.warnings.some((w) => w.startsWith('card-skipped')), 'a řekne se to')
+
+  // Prázdný oddíl (ani nadpis, ani text) by se v učebnici zobrazil jako díra.
+  const empty = normalizePack(
+    { subject: 'A', lectures: [{ id: 'L1', title: 'T', slides: [{}, { title: 'a' }] }] } as never,
+    { slug: 'ok', prefix: 'ab12cd' },
+  )
+  ok('pack' in empty && empty.pack.lectures.ab12cdL1.slides.length === 1, 'prázdný oddíl se vynechá')
+  ok('pack' in empty && empty.pack.warnings.some((w) => w.startsWith('empty-slide')), 'a řekne se to')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

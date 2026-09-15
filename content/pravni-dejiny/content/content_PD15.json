@@ -1,84 +1,12 @@
 {
   "lecture_id": "PD15",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 20",
   "title": "Europe during the Cold War (1945–1955)",
-  "source_file": "raw/PD15_pp-15-europe-during-the-cold-wa-5-1955-staudigl-ciechowicz.pdf",
-  "source_sha256": "a0e4453eab02414d494bbe4d48f36912998458a546bf50c3784e2e433946cfc9",
-  "source_pages": 27,
-  "slides_per_page": 1,
-  "slide_count": 27,
-  "updated_at": "2026-09-15T12:12:47+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD15/PD15_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 120,
-      "text_sha": "5cf62fd31e7c748f",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD15/PD15_s002.webp",
-      "title": "The 1938 propaganda film",
-      "text": "The exercise opening the session: summarise the film, say what its aims were and what caught your attention — set beside the Nazi election poster for the Anschluss vote.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 303,
-      "text_sha": "6cc0d42c743b8deb",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD15/PD15_s003.webp",
-      "title": "The Second World War",
-      "text": "The recap: the Hitler–Stalin pact of August 1939 dividing east-central Europe into zones of interest, and the invasion of Poland bringing British and French declarations of war.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 472,
-      "text_sha": "7df79974cdfd36d5",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD15/PD15_s004.webp",
-      "title": "Europe during the Cold War (1945–1955)",
-      "text": "Kamila Staudigl-Ciechowicz.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 116,
-      "text_sha": "f015991e165e74bd",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PD15/PD15_s005.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "The 1938 propaganda film", "text": "The exercise opening the session: summarise the film, say what its aims were and what caught your attention — set beside the Nazi election poster for the Anschluss vote.", "terms": [], "cards": [], "vision_used": true },
+    "3": { "title": "The Second World War", "text": "The recap: the Hitler–Stalin pact of August 1939 dividing east-central Europe into zones of interest, and the invasion of Poland bringing British and French declarations of war.", "terms": [], "cards": [], "vision_used": true },
+    "4": { "title": "Europe during the Cold War (1945–1955)", "text": "Kamila Staudigl-Ciechowicz.", "terms": [], "cards": [], "vision_used": false },
+    "5": {
       "title": "Austria under Allied control",
       "text": "THREE ANTI-FASCIST PARTIES proclaim Austria's independence and install a PROVISIONAL GOVERNMENT, with the goal of a QUICK RETURN TO DEMOCRATIC STRUCTURES — but the WESTERN ALLIES DO NOT WANT TO RECOGNISE IT UNTIL OCTOBER 1945. 4 JULY 1945: the FIRST ALLIED CONTROL AGREEMENT — concluded WITHOUT RENNER'S PARTICIPATION — giving the Allies supreme power, creating the ALLIED COUNCIL and four occupation zones. 25 NOVEMBER: the first elections — ÖVP 85 seats, SPÖ 76, KPÖ 4. 19 DECEMBER: the first session of the National Council, and the B-VG IS AGAIN IN FULL FORCE. 28 JUNE 1946: the SECOND ALLIED CONTROL AGREEMENT, under which ONLY CONSTITUTIONAL LAWS need Allied approval.",
       "terms": [],
@@ -98,18 +26,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 963,
-      "text_sha": "64647be1faf776e3",
-      "pdf_page": 5
+      "vision_used": true
     },
-    {
-      "n": 6,
-      "img": "img/PD15/PD15_s006.webp",
+    "6": {
       "title": "Source: Article 6 of the Control Agreement",
       "text": "ALL LEGISLATIVE MEASURES, as defined by the Allied Council, shall BEFORE THEY TAKE EFFECT OR ARE PUBLISHED be submitted by the Austrian Government to the Allied Council. IN THE CASE OF CONSTITUTIONAL LAWS, THE WRITTEN APPROVAL OF THE ALLIED COUNCIL IS REQUIRED. In the case of ALL OTHER legislative measures and international agreements, IT MAY BE ASSUMED THAT THE ALLIED COUNCIL HAS GIVEN ITS APPROVAL IF WITHIN THIRTY-ONE DAYS it has not objected. The technique is worth noting: constitutional law needs EXPRESS consent, ordinary law only needs SILENCE — a tacit-approval rule that hands most of the legislative process back while keeping the constitution under control.",
       "terms": [],
@@ -122,34 +41,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 793,
-      "text_sha": "1854951303f9d198",
-      "pdf_page": 6
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD15/PD15_s007.webp",
-      "title": "The two Control Agreements",
-      "text": "First Allied Control Agreement, 4 July 1945: the Allied Council created; recognition of the provisional state government in October 1945; approval of its laws by the Council necessary. Second Allied Control Agreement, 28 June 1946, after the first National Council elections: written approval required only for constitutional law.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 510,
-      "text_sha": "48ee86e2cf4d1147",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PD15/PD15_s008.webp",
+    "7": { "title": "The two Control Agreements", "text": "First Allied Control Agreement, 4 July 1945: the Allied Council created; recognition of the provisional state government in October 1945; approval of its laws by the Council necessary. Second Allied Control Agreement, 28 June 1946, after the first National Council elections: written approval required only for constitutional law.", "terms": [], "cards": [], "vision_used": false },
+    "8": {
       "title": "Austria and Germany compared",
       "text": "SIMILARITIES: an Allied Control Council in both; division into FOUR OCCUPATION ZONES; and JOINT OCCUPATION OF THE CAPITAL — Berlin and Vienna. DIFFERENCES, and they decide everything that follows: some German territories are TRANSFERRED TO POLAND AND THE USSR with EXPULSION of the local population; there is NO GOVERNMENT FOR THE WHOLE OF GERMANY, so the ALLIED CONTROL COUNCIL LEGISLATES FOR GERMANY ITSELF; the Control Council BREAKS UP IN 1948; countries emerge within the individual zones; the western zones unite into a SINGLE ECONOMIC AREA in 1948; and in 1949 the FEDERAL REPUBLIC and the GERMAN DEMOCRATIC REPUBLIC are founded. Austria kept a government of its own for the whole country — which is why it stayed one state.",
       "terms": [],
@@ -169,18 +64,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 769,
-      "text_sha": "28a873c9f81a92a3",
-      "pdf_page": 8
+      "vision_used": true
     },
-    {
-      "n": 9,
-      "img": "img/PD15/PD15_s009.webp",
+    "9": {
       "title": "Berlin",
       "text": "Jointly occupied by all four Allies from 1945, divided into four sectors — though SOVIET PATROLS CONTINUED THROUGHOUT BERLIN UNTIL 1990. From 1948 there is one mayor and one city parliament each for West and East Berlin. The GDR CLAIMS EAST BERLIN AS ITS CAPITAL. And the western side's own oddity: THE WESTERN ALLIES PREVENT WEST BERLIN FROM JOINING THE FEDERAL REPUBLIC — its representatives sit in the Bundestag only as ADVISORY MEMBERS WITHOUT VOTING RIGHTS. Both sides kept the four-power status they found convenient.",
       "terms": [],
@@ -193,34 +79,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 515,
-      "text_sha": "86ff537e54c926f9",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD15/PD15_s010.webp",
-      "title": "Berlin in film",
-      "text": "Ulbricht on the building of the Wall, and Schabowski announcing its opening.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 230,
-      "text_sha": "7c7e62429a831043",
-      "pdf_page": 10
-    },
-    {
-      "n": 11,
-      "img": "img/PD15/PD15_s011.webp",
+    "10": { "title": "Berlin in film", "text": "Ulbricht on the building of the Wall, and Schabowski announcing its opening.", "terms": [], "cards": [], "vision_used": true },
+    "11": {
       "title": "The Wall",
       "text": "The flow of refugees to the West leads to the CONSTRUCTION OF THE BERLIN WALL ON 13 AUGUST 1961. The WESTERN ALLIES DEPLOY TANKS and force the maintenance of their position throughout Berlin — insisting on the four-power right of movement in the whole city, which is why Soviet patrols also continued in the west until 1990.",
       "terms": [],
@@ -233,25 +95,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 654,
-      "text_sha": "22117658577ec0e2",
-      "pdf_page": 11
+      "vision_used": true
     },
-    {
-      "n": 12,
-      "img": "img/PD15/PD15_s012.webp",
+    "12": {
       "title": "The Prague Spring and the Brezhnev Doctrine",
       "text": "The Czechoslovak Communist Party strives for reform — a SOCIALIST MARKET ECONOMY instead of a planned one. In 1968 the new First Secretary ALEXANDER DUBČEK wants COMMUNISM WITH A HUMANE FACE. On 21 AUGUST 1968 WARSAW PACT TROOPS — USSR, Poland, Hungary, Bulgaria — invade, and Dubček is imprisoned and deposed. The legal doctrine offered for it is the BREZHNEV DOCTRINE: ANY THREAT TO SOCIALIST RULE IN ANY STATE OF THE EASTERN BLOC IS A THREAT TO ALL OF THEM, AND THEREFORE JUSTIFIES THE INTERVENTION OF FELLOW SOCIALIST STATES. Note what it does to sovereignty: a state's internal political order becomes the alliance's business. ALBANIA protests, withdraws from the Warsaw Pact and falls into complete isolation.",
       "terms": [
-        {
-          "term": "Brezhnev Doctrine",
-          "def": "Any threat to socialist rule in one Eastern-bloc state is a threat to all, justifying intervention by fellow socialist states — limited sovereignty as a doctrine of international law."
-        }
+        { "term": "Brezhnev Doctrine", "def": "Any threat to socialist rule in one Eastern-bloc state is a threat to all, justifying intervention by fellow socialist states — limited sovereignty as a doctrine of international law." }
       ],
       "cards": [
         {
@@ -269,18 +119,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 762,
-      "text_sha": "959655e997e6d24a",
-      "pdf_page": 12
+      "vision_used": true
     },
-    {
-      "n": 13,
-      "img": "img/PD15/PD15_s013.webp",
+    "13": {
       "title": "Two economies, two organisations",
       "text": "1947: US Secretary of State GEORGE MARSHALL promises financial aid for Europe — the MARSHALL PLAN. 1948: the ORGANISATION FOR EUROPEAN ECONOMIC CO-OPERATION (OEEC) is founded. And the Austrian peculiarity: AUSTRIA IS ALLOWED TO PARTICIPATE IN THE OEEC ALTHOUGH PARTLY UNDER SOVIET OCCUPATION — UNLIKE CZECHOSLOVAKIA, which was not. 1949: the COUNCIL FOR MUTUAL ECONOMIC ASSISTANCE (COMECON) on the other side. Special status for FINLAND and YUGOSLAVIA; SPAIN isolated.",
       "terms": [],
@@ -293,34 +134,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 526,
-      "text_sha": "63430577e974f12f",
-      "pdf_page": 13
+      "vision_used": true
     },
-    {
-      "n": 14,
-      "img": "img/PD15/PD15_s014.webp",
-      "title": "Where does European integration come from?",
-      "text": "The question put to the room before the answer.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 103,
-      "text_sha": "384c2c31379f7f09",
-      "pdf_page": 14
-    },
-    {
-      "n": 15,
-      "img": "img/PD15/PD15_s015.webp",
+    "14": { "title": "Where does European integration come from?", "text": "The question put to the room before the answer.", "terms": [], "cards": [], "vision_used": false },
+    "15": {
       "title": "The Council of Europe and the ECHR",
       "text": "Founded in 1949, with accessions through 1989 and a further wave after it — and in 2022 the EXPULSION OF RUSSIA. 1950: the EUROPEAN CONVENTION ON HUMAN RIGHTS. And the Austrian dates, which matter: Austria JOINS THE COUNCIL OF EUROPE IN 1956, ADOPTS THE ECHR IN 1958, and the Convention is RECOGNISED AS CONSTITUTIONAL LAW SINCE 1964. Remember the last one: the B-VG had no catalogue of fundamental rights, and the ECHR is how Austria finally acquired one at constitutional rank.",
       "terms": [],
@@ -333,18 +150,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 399,
-      "text_sha": "d3630f5b5c10853a",
-      "pdf_page": 15
+      "vision_used": true
     },
-    {
-      "n": 16,
-      "img": "img/PD15/PD15_s016.webp",
+    "16": {
       "title": "The Schuman Plan, 9 May 1950",
       "text": "The French Government proposes that FRANCO-GERMAN PRODUCTION OF COAL AND STEEL AS A WHOLE BE PLACED UNDER A COMMON HIGH AUTHORITY, within an organization OPEN TO THE PARTICIPATION OF THE OTHER COUNTRIES OF EUROPE. Pooling coal and steel should provide common foundations for economic development AS A FIRST STEP IN THE FEDERATION OF EUROPE, and will change the destinies of regions long devoted to the manufacture of munitions of war, OF WHICH THEY HAVE BEEN THE MOST CONSTANT VICTIMS. And the sentence everything turns on: THE SOLIDARITY IN PRODUCTION THUS ESTABLISHED WILL MAKE IT PLAIN THAT ANY WAR BETWEEN FRANCE AND GERMANY BECOMES NOT MERELY UNTHINKABLE, BUT MATERIALLY IMPOSSIBLE. Not a declaration of friendship — a plan to remove the physical means of war by placing them under joint control.",
       "terms": [],
@@ -357,57 +165,21 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1109,
-      "text_sha": "66c74e57224b66b8",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD15/PD15_s017.webp",
-      "title": "The ECSC",
-      "text": "1952: the Treaty on the European Coal and Steel Community, in force 1952–2002 — a common market for the production, trade and consumption of coal and steel.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 373,
-      "text_sha": "87e20c7f08113ac7",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PD15/PD15_s018.webp",
+    "17": { "title": "The ECSC", "text": "1952: the Treaty on the European Coal and Steel Community, in force 1952–2002 — a common market for the production, trade and consumption of coal and steel.", "terms": [], "cards": [], "vision_used": true },
+    "18": {
       "title": "The ECSC's task",
       "text": "To 'CONTRIBUTE TO ECONOMIC EXPANSION, THE DEVELOPMENT OF EMPLOYMENT AND THE IMPROVEMENT OF THE STANDARD OF LIVING in the participating countries through the institution, in harmony with the general economy of the member States, of A COMMON MARKET'. The common market appears here as the INSTRUMENT, and prosperity and employment as the aim.",
       "terms": [],
       "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 333,
-      "text_sha": "96fb057682398f26",
-      "pdf_page": 18
+      "vision_used": true
     },
-    {
-      "n": 19,
-      "img": "img/PD15/PD15_s019.webp",
+    "19": {
       "title": "The ECSC's organs — and today's EU",
       "text": "Four organs, and each is the ancestor of a present one. HIGH AUTHORITY, today the COMMISSION: represents the interests OF THE COMMUNITY, INDEPENDENT OF THE MEMBER STATES — 'A SUPRANATIONAL CHARACTER'. COUNCIL OF MINISTERS, today the COUNCIL OF THE EU: the interests OF THE MEMBER STATES, staffed by ministers from national governments. COMMON ASSEMBLY, today the EUROPEAN PARLIAMENT: the interests OF THE PEOPLE — DIRECTLY ELECTED SINCE 1980. COURT OF JUSTICE: legal control, seat in LUXEMBOURG. The institutional triangle of community, states and people is there from 1952.",
       "terms": [
-        {
-          "term": "supranational",
-          "def": "The character of the High Authority — acting for the community and independent of the member states, as against an intergovernmental body composed of their representatives."
-        }
+        { "term": "supranational", "def": "The character of the High Authority — acting for the community and independent of the member states, as against an intergovernmental body composed of their representatives." }
       ],
       "cards": [
         {
@@ -418,18 +190,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 562,
-      "text_sha": "ac72d8f644439f07",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD15/PD15_s020.webp",
+    "20": {
       "title": "The problem behind European defence",
       "text": "Hundreds of thousands of American soldiers have been stationed in Europe since 1945 — HOW TO WITHDRAW THEM? The US answer: WESTERN GERMANY MUST HAVE ITS OWN TROOPS AGAIN — which causes GREAT FEARS IN WESTERN EUROPE, especially FRANCE. Hence the idea of a COMMON WESTERN EUROPEAN ARMY IN WHICH NO COUNTRY MAY HAVE ITS OWN TROOPS ALONGSIDE IT. European integration in defence begins as a way of rearming Germany without giving Germany an army.",
       "terms": [],
@@ -442,18 +205,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 481,
-      "text_sha": "e72534305a6d6ebb",
-      "pdf_page": 20
+      "vision_used": true
     },
-    {
-      "n": 21,
-      "img": "img/PD15/PD15_s021.webp",
+    "21": {
       "title": "The plan that failed",
       "text": "The EUROPEAN POLITICAL COMMUNITY was projected for 1953 as the roof over two pillars: the ECSC and the EUROPEAN DEFENCE COMMUNITY. The EDC agreement was SIGNED IN 1953 AND NEVER REALISED; the European Political Community remained ONLY PROJECTED. European political union was attempted in 1953, failed, and integration then proceeded through the economy instead — which is why the EU is built out of a coal and steel community rather than a political one.",
       "terms": [],
@@ -466,18 +220,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 257,
-      "text_sha": "02c901dfff26b62d",
-      "pdf_page": 21
+      "vision_used": false
     },
-    {
-      "n": 22,
-      "img": "img/PD15/PD15_s022.webp",
+    "22": {
       "title": "The Paris Agreements, 23 October 1954 — and the symmetry",
       "text": "SOVEREIGNTY FOR THE FEDERAL REPUBLIC, with small exceptions, and the END OF OCCUPATION; INTEGRATION OF THE BUNDESWEHR INTO NATO. And the EASTERN BLOC'S REACTION, point for point: SOVEREIGNTY FOR THE GDR with small exceptions and the end of occupation; the GDR gets its NATIONALE VOLKSARMEE; and on 14 MAY 1955 the WARSAW PACT is founded. Each step on one side is answered by the mirror step on the other — which is the structure of the Cold War in miniature.",
       "terms": [],
@@ -490,41 +235,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 423,
-      "text_sha": "91d92d7ca4a8d168",
-      "pdf_page": 22
+      "vision_used": true
     },
-    {
-      "n": 23,
-      "img": "img/PD15/PD15_s023.webp",
-      "title": "Think – Pair – Share",
-      "text": "Three images from 1955, and the question of which event they refer to — with Figl's joke: 'and now, Raab, play the Reblaus, then they are ready to negotiate'.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 285,
-      "text_sha": "ef51cb97ab440610",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PD15/PD15_s024.webp",
+    "23": { "title": "Think – Pair – Share", "text": "Three images from 1955, and the question of which event they refer to — with Figl's joke: 'and now, Raab, play the Reblaus, then they are ready to negotiate'.", "terms": [], "cards": [], "vision_used": true },
+    "24": {
       "title": "The State Treaty and neutrality, 1955",
       "text": "Three dates, and the order of them is the whole point. 15 APRIL 1955: the MOSCOW MEMORANDUM — leading Austrian politicians PLEDGE NEUTRALITY AS THE PRICE FOR TROOP WITHDRAWAL, and it is NO FORMAL TREATY. 15 MAY: the STATE TREATY of Vienna-Belvedere, providing for the withdrawal of Allied troops by 25 October — AND NEUTRALITY IS NOT MENTIONED IN IT. 26 OCTOBER: the CONSTITUTIONAL LAW ON AUSTRIA'S PERMANENT NEUTRALITY, declared 'OF OUR OWN FREE WILL'. So neutrality was promised informally, deliberately left out of the treaty, and then enacted by Austria itself as a free decision — the legal form says free will, the sequence says price. PERMANENT NEUTRALITY on the Swiss model carries duties ALSO IN PEACETIME: the state must avoid anything that could draw it into a war — no military alliance, and arguably no customs union.",
       "terms": [
-        {
-          "term": "permanent neutrality",
-          "def": "Neutrality binding also in peacetime, on the Swiss model: the state must avoid anything that could draw it into a war — no military alliance, and arguably no customs union."
-        }
+        { "term": "permanent neutrality", "def": "Neutrality binding also in peacetime, on the Swiss model: the state must avoid anything that could draw it into a war — no military alliance, and arguably no customs union." }
       ],
       "cards": [
         {
@@ -542,34 +260,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 793,
-      "text_sha": "e3dfd882a108a5ac",
-      "pdf_page": 24
+      "vision_used": false
     },
-    {
-      "n": 25,
-      "img": "img/PD15/PD15_s025.webp",
-      "title": "The State Treaty",
-      "text": "The signing at the Belvedere, 15 May 1955.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 98,
-      "text_sha": "a7193df09a6c65fb",
-      "pdf_page": 25
-    },
-    {
-      "n": 26,
-      "img": "img/PD15/PD15_s026.webp",
+    "25": { "title": "The State Treaty", "text": "The signing at the Belvedere, 15 May 1955.", "terms": [], "cards": [], "vision_used": false },
+    "26": {
       "title": "What the State Treaty contained",
       "text": "PROHIBITION OF ANNEXATION TO GERMANY — the Anschlussverbot again, thirty-six years after Saint-Germain. DEMOCRACY, HUMAN RIGHTS, MINORITY RIGHTS. NO 'NAZI' ORGANISATIONS, AND NO HABSBURGS — the Habsburg Law of 1919 written into an international treaty. PROHIBITION OF ARMS, RESTITUTION, and MATERIAL OBLIGATIONS TOWARDS THE USSR.",
       "terms": [],
@@ -589,30 +283,8 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 433,
-      "text_sha": "0e473aec174431b0",
-      "pdf_page": 26
+      "vision_used": false
     },
-    {
-      "n": 27,
-      "img": "img/PD15/PD15_s027.webp",
-      "title": "",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 193,
-      "text_sha": "33957fc2ce23f6e4",
-      "pdf_page": 27
-    }
-  ]
+    "27": { "title": "", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }

@@ -15,6 +15,7 @@ import {
 import { pushSync, syncMeta } from '../lib/sync'
 import { disableReminder, enableReminder, pushSupported, reminderPrefs } from '../lib/push'
 import { AdminUsers } from '../components/AdminUsers'
+import { ClaudeLink } from '../components/ClaudeLink'
 import { currentLang, setLang, t, type Lang, type MsgKey } from '../i18n'
 
 const FONT_SCALES: { value: number; labelKey: MsgKey }[] = [
@@ -257,6 +258,8 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
               </div>
             </section>
           )}
+
+          <ClaudeLink />
 
           {account.isAdmin && <AdminUsers selfEmail={account.email} />}
         </>

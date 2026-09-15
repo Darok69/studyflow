@@ -1888,6 +1888,23 @@ h3 {
   margin: 4px 0;
 }
 
+/* Příkaz pro Claude Code. Je dlouhý a nese v sobě klíč, takže se nesmí nikde
+   uříznout — na telefonu se láme, a zalomí se i uprostřed slova, protože jinak
+   by ho jeden nepřerušený token roztáhl přes celou šířku. */
+.claude-cmd {
+  display: block;
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--far);
+  background: color-mix(in srgb, var(--far) 12%, transparent);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 6px 0;
+  overflow-wrap: anywhere;
+  user-select: all;
+}
+
 /* ===================================================================
    Sprint 8 — luxury polish + responsive (mobile / tablet / laptop)
    =================================================================== */
@@ -2713,4 +2730,97 @@ body {
 
 .subject-list-dragging {
   cursor: grabbing;
+}
+
+
+/* ===================================================================
+   Tempo předmětu — nastavení přímo na stránce předmětu
+   =================================================================== */
+
+.pace-box {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  overflow: hidden;
+}
+
+.pace-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 14px;
+  background: none;
+  border: 0;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  /* Na telefonu se souhrn nevejde vedle nadpisu, tak se podsune pod něj. */
+  flex-wrap: wrap;
+}
+
+.pace-title {
+  font-weight: 600;
+}
+
+.pace-summary {
+  font-size: 13px;
+  flex: 1 1 auto;
+}
+
+.pace-chevron {
+  margin-left: auto;
+  opacity: 0.7;
+}
+
+.pace-body {
+  display: grid;
+  gap: 14px;
+  padding: 0 14px 14px;
+}
+
+.pace-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.chip {
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  /* Palec potřebuje 44 px; na tlačítko s číslem 10 by to jinak nevyšlo. */
+  min-height: 40px;
+}
+
+.chip-on {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  font-weight: 600;
+}
+
+.pace-custom {
+  width: 8ch;
+  min-height: 40px;
+}
+
+.pace-note {
+  margin: 0;
+  font-size: 13px;
+  color: var(--near);
+}
+
+.link-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--accent);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
 }

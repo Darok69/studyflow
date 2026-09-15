@@ -1,95 +1,23 @@
 {
   "lecture_id": "PD17",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 22",
   "title": "HERstory — the legal position of women through the centuries",
-  "source_file": "raw/PD17_pp-17-her-story.pdf",
-  "source_sha256": "6b07bdce62d9dc8ac004aa9767385bf1d490fee2a5a9eabab7e34db5f45bb11c",
-  "source_pages": 31,
-  "slides_per_page": 1,
-  "slide_count": 31,
-  "updated_at": "2026-09-15T12:12:47+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD17/PD17_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 120,
-      "text_sha": "5cf62fd31e7c748f",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD17/PD17_s002.webp",
-      "title": "HERstory",
-      "text": "The legal position of women through the centuries — Kamila Staudigl-Ciechowicz.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 135,
-      "text_sha": "da5e695526d30082",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD17/PD17_s003.webp",
-      "title": "Is studying women's rights history relevant today?",
-      "text": "The opening question put to the room, with the live poll.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 175,
-      "text_sha": "d3795ea5d2a79423",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD17/PD17_s004.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "2": { "title": "HERstory", "text": "The legal position of women through the centuries — Kamila Staudigl-Ciechowicz.", "terms": [], "cards": [], "vision_used": true },
+    "3": { "title": "Is studying women's rights history relevant today?", "text": "The opening question put to the room, with the live poll.", "terms": [], "cards": [], "vision_used": true },
+    "4": {
       "title": "Today's unit",
       "text": "So far the course has covered natural law, Enlightenment and revolutions; constitutions and codifications; democracy; and Europe after the Second World War. Today adds AN ADDITIONAL PERSPECTIVE from the point of view of WOMEN'S RIGHTS HISTORY, in three parts: LEGAL EQUALITY, the LEGAL POSITION OF WIVES, and WOMEN AND LEGAL SCIENCE. The structure is the answer to the exam question: the same material, re-read from a position the earlier lectures did not take.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 344,
-      "text_sha": "d29cd709b9b489af",
-      "pdf_page": 4
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PD17/PD17_s005.webp",
+    "5": {
       "title": "Legal capacity and competence",
       "text": "The technical terms first: RECHT- UND GESCHÄFTSFÄHIGKEIT — the capacity to HAVE rights, and the capacity to ACT. Restrictions on women ran along three lines. CURA SEXUS, GENDER GUARDIANSHIP (Geschlechtsvormundschaft) — a woman placed under a guardian by reason of sex alone. DIFFERENT LEGAL STATUS ACCORDING TO DIFFERENCES IN SOCIAL CLASSES. And the distinction that matters most in practice: MARRIED WOMEN AGAINST UNMARRIED WOMEN. The classic formulation is WILLIAM BLACKSTONE (1765): 'BY MARRIAGE THE HUSBAND AND THE WIFE ARE ONE PERSON IN LAW; THAT IS, THE VERY BEING OR LEGAL EXISTENCE OF WOMAN IS SUSPENDED DURING MARRIAGE.' Add the RESTRICTION OR EXCLUSION OF WOMEN FROM CERTAIN LEGAL ACTS — WILLS, GUARDIANSHIP. Note the shape of the disability: it is often not the woman as such who is disqualified but the WIFE, so marriage — the institution presented as her purpose — is what removes her legal personality.",
       "terms": [
-        {
-          "term": "cura sexus",
-          "def": "Gender guardianship (Geschlechtsvormundschaft) — a woman subjected to a guardian by reason of her sex alone."
-        },
-        {
-          "term": "coverture",
-          "def": "Blackstone's doctrine: by marriage husband and wife are one person in law, the wife's legal existence 'suspended' for the duration of the marriage."
-        }
+        { "term": "cura sexus", "def": "Gender guardianship (Geschlechtsvormundschaft) — a woman subjected to a guardian by reason of her sex alone." },
+        { "term": "coverture", "def": "Blackstone's doctrine: by marriage husband and wife are one person in law, the wife's legal existence 'suspended' for the duration of the marriage." }
       ],
       "cards": [
         {
@@ -107,29 +35,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 591,
-      "text_sha": "83bff3d74c86d46a",
-      "pdf_page": 5
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD17/PD17_s006.webp",
+    "6": {
       "title": "The Middle Ages and the Early Modern era",
       "text": "MUND (Germanic MUNT): a PATRIARCHAL SOCIAL SYSTEM in which the HEAD OF THE HOUSEHOLD HAS AUTHORITY. Then two movements in opposite directions, and the second is the counter-intuitive one. IMPROVEMENT of women's legal status in the LATE MIDDLE AGES — through URBANISATION and the DECLINE OF LARGE RURAL FAMILIES — DUE TO ECONOMIC NECESSITY. And DETERIORATION of women's legal position DUE TO THE RECEPTION OF LEARNED LAW, ROMAN AND CANON LAW, ESPECIALLY IN FAMILY LAW. So the rediscovery of Roman law, elsewhere in this course a story of rationalisation, here makes things worse. Add the JUSTIFICATION OF THE INFERIORITY OF THE FEMALE SEX BY THEOLOGICAL TREATISES; the FIRST WOMEN'S RESISTANCE MOVEMENT, the QUERELLE DES FEMMES (CHRISTINE DE PIZAN, MARIE LE JARS DE GOURNAY); and the COUNTER-MOVEMENT BY THEOLOGIANS — the WITCH HUNTS, with their gender-specific dimension: AROUND 80 % OF THE VICTIMS WERE WOMEN.",
       "terms": [
-        {
-          "term": "Mund / munt",
-          "def": "The Germanic patriarchal household authority: the head of the household holds power over its members."
-        },
-        {
-          "term": "Querelle des Dames",
-          "def": "The first women's resistance movement in European letters — Christine de Pizan, Marie le Jars de Gournay — disputing the theological doctrine of female inferiority."
-        }
+        { "term": "Mund / munt", "def": "The Germanic patriarchal household authority: the head of the household holds power over its members." },
+        { "term": "Querelle des Dames", "def": "The first women's resistance movement in European letters — Christine de Pizan, Marie le Jars de Gournay — disputing the theological doctrine of female inferiority." }
       ],
       "cards": [
         {
@@ -147,34 +60,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 769,
-      "text_sha": "a0d26e876de3f886",
-      "pdf_page": 6
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD17/PD17_s007.webp",
-      "title": "Think – Pair – Share: the Declaration of 1791",
-      "text": "The source put to the room before its author is named: contextualise it historically, describe the legal position of women and the demands listed in it.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 882,
-      "text_sha": "78e9752eca1491a6",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PD17/PD17_s008.webp",
+    "7": { "title": "Think – Pair – Share: the Declaration of 1791", "text": "The source put to the room before its author is named: contextualise it historically, describe the legal position of women and the demands listed in it.", "terms": [], "cards": [], "vision_used": false },
+    "8": {
       "title": "Olympe de Gouges, Declaration of the Rights of Woman and of the Female Citizen (1791)",
       "text": "ART. 1: 'WOMAN IS BORN FREE AND REMAINS EQUAL TO MAN IN RIGHTS. SOCIAL DISTINCTIONS MAY BE BASED ONLY ON COMMON UTILITY.' ART. 6: 'THE LAW SHOULD BE THE EXPRESSION OF THE GENERAL WILL. ALL CITIZENESSES AND CITIZENS SHOULD TAKE PART, IN PERSON OR BY THEIR REPRESENTATIVES, IN ITS FORMATION. IT MUST BE THE SAME FOR EVERYONE. ALL CITIZENESSES AND CITIZENS, BEING EQUAL IN ITS EYES, SHOULD BE EQUALLY ADMISSIBLE TO ALL PUBLIC DIGNITIES, OFFICES AND EMPLOYMENTS, ACCORDING TO THEIR ABILITY, AND WITH NO OTHER DISTINCTION THAN THAT OF THEIR VIRTUES AND TALENTS.' The technique is the argument: OLYMPE DE GOUGES rewrites the Declaration of the Rights of Man and of the Citizen of 1789 article by article, inserting women — which demonstrates that the 1789 text could have been written that way and was not. Universality was available and was declined.",
       "terms": [],
@@ -187,18 +76,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 863,
-      "text_sha": "7ae860f53ffbf01b",
-      "pdf_page": 8
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD17/PD17_s009.webp",
+    "9": {
       "title": "The Enlightenment argument, for and against",
       "text": "The ARGUMENTATION against equality: DIFFERENCES BETWEEN MEN AND WOMEN ARE ROOTED IN NATURE AND BIOLOGY; GENDER-SPECIFIC CHARACTERISTICS mean HUMAN BEINGS ARE SHAPED BY THEIR SEX IN THEIR ENTIRE MENTAL AND PHYSICAL CONSTITUTION; the INFERIORITY OF WOMEN AS A BIOLOGICAL FACT; and EDUCATING WOMEN TO BE MOTHERS, women's purpose in life being to have children — JEAN-JACQUES ROUSSEAU holding that THE COMPLETE DEPENDENCE OF WOMEN ON MEN IS A RESULT OF THE LAW OF NATURE. Against that, DEMANDS FOR EQUAL RIGHTS from MARY WOLLSTONECRAFT and CATHARINE MACAULAY, turning on the QUESTION OF THE EDUCATION OF WOMEN — because if the alleged incapacity is produced by the denial of education, the argument from nature collapses. And the practical fact: the PARTICIPATION OF WOMEN IN THE FRENCH REVOLUTION.",
       "terms": [],
@@ -211,18 +91,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 703,
-      "text_sha": "3a29f0f6ce26085c",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD17/PD17_s010.webp",
+    "10": {
       "title": "Equality in the codifications — the general clauses",
       "text": "Three codifications, three ways of saying the same thing. CODEX MAXIMILIANEUS BAVARICUS (1756): 'Humans are divided in different ways by nature, primarily in the male and female sex. […] IN GENERAL NO SEX HAS A PREFERENCE OVER THE OTHER ONE.' PRUSSIAN ALR (1794) I.1 § 24: 'THE RIGHTS OF BOTH SEXES ARE EQUAL AS LONG AS NO EXCEPTIONS HAVE BEEN ESTABLISHED BY SPECIAL LAWS OR BY LEGALLY VALID DECLARATIONS OF INTENT.' AUSTRIAN ABGB (1811): NO EXPLICIT REGULATION AT ALL — and ZEILLER'S COMMENTARY explains why: 'Our law does not generally distinguish between the male and female sexes, from which it follows AUTOMATICALLY, WITHOUT THE NEED FOR EXPLICIT STATEMENT, that both sexes are generally entitled to equal private rights.' Hold on to the qualifiers — 'in general', 'as long as no exceptions', 'generally' — because the following slides are the exceptions.",
       "terms": [],
@@ -242,18 +113,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 740,
-      "text_sha": "f136c83f4fb02c3a",
-      "pdf_page": 10
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD17/PD17_s011.webp",
+    "11": {
       "title": "Martini on the household",
       "text": "KARL ANTON VON MARTINI, Lehrbegriff des Naturrechts (1799): 'THE FATHER AND MOTHER OF THE HOUSEHOLD ARE THE HEADS AND RULERS OF THE FAMILY. […] THEY ARE THEREFORE EQUAL TO EACH OTHER ACCORDING TO NATURAL LAW AND TOGETHER CONSTITUTE A MORAL PERSON.' Natural-law theory could and did state spousal equality — which makes the codified inequality a choice rather than an inheritance.",
       "terms": [],
@@ -266,18 +128,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 538,
-      "text_sha": "6e36aa0eaeb7a9e6",
-      "pdf_page": 11
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD17/PD17_s012.webp",
+    "12": {
       "title": "The Bavarian code: the same code, the marital duties",
       "text": "Beside the general clause of 1756 stands I Kap 6 § 12: the duties and rights of spouses consist first in CONSTANT LOVE AND FIDELITY, then in COHABITATION AND ALL NECESSARY ASSISTANCE, 'NOT LEAST IN MARITAL INTERCOURSE, WHICH CANNOT BE DENIED TO ONE PARTY BY THE OTHER WITHOUT A LEGALLY VALID REASON'. And then: 'IN PARTICULAR, THE HUSBAND IS REGARDED AS THE HEAD OF THE FAMILY, THEREFORE HIS WIFE IS NOT ONLY SUBORDINATE AND SUBJECT TO HIM IN DOMESTIC MATTERS, BUT IS ALSO BOUND TO PERFORM ORDINARY AND DECENT PERSONAL AND HOUSEHOLD SERVICES, FOR WHICH SHE MAY BE REPRIMANDED BY HER HUSBAND AS APPROPRIATE AND, IF NECESSARY, CHASTISED WITH MODERATION.' The same code, a few pages apart: no sex has preference over the other, and the husband may chastise his wife with moderation.",
       "terms": [],
@@ -290,18 +143,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 958,
-      "text_sha": "618181aec6597fa3",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD17/PD17_s013.webp",
+    "13": {
       "title": "The Prussian ALR: the same code, the exceptions",
       "text": "I.1 § 24 promises equal rights subject to exceptions — and the exceptions follow in the same code. II.1 § 184: 'THE HUSBAND IS THE HEAD OF THE MARITAL UNION, AND HIS DECISION IS DECISIVE IN MATTERS OF COMMON INTEREST.' II.1 § 195: 'SHE MAY NOT ENGAGE IN ANY OCCUPATION OF HER OWN WITHOUT HER HUSBAND'S CONSENT.' The second is the economically decisive one: without her own occupation there is no independent income, and without income no independence at all.",
       "terms": [],
@@ -314,18 +158,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 475,
-      "text_sha": "9b0bc2fbf449c88e",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD17/PD17_s014.webp",
+    "14": {
       "title": "The ABGB: the same silence, and § 591",
       "text": "Zeiller says equality follows automatically without need of explicit statement — and then § 591 ABGB lists the INCOMPETENT WITNESSES TO LAST WILLS AND TESTAMENTS: 'MEMBERS OF A RELIGIOUS ORDER, YOUNG MEN UNDER THE AGE OF EIGHTEEN, WOMEN, THE MENTALLY DISABLED, THE BLIND, THE DEAF, OR THE MUTE, AS WELL AS THOSE WHO DO NOT UNDERSTAND THE LANGUAGE OF THE TESTATOR, CANNOT BE WITNESSES TO LAST WILLS AND TESTAMENTS.' Read the company the provision puts women in — minors, the mentally disabled, the sensorily impaired, those who do not understand the language. That is the answer to Zeiller: the silence about equality did not produce equality, it merely spared the legislator the trouble of defending the exceptions.",
       "terms": [],
@@ -338,18 +173,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 727,
-      "text_sha": "19e17bcb47f3ec06",
-      "pdf_page": 14
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD17/PD17_s015.webp",
+    "15": {
       "title": "The Code civil 1804",
       "text": "ART 213: 'THE HUSBAND OWES PROTECTION TO HIS WIFE, THE WIFE OBEDIENCE TO HER HUSBAND.' ART 215: 'THE WIFE CANNOT PLEAD IN HER OWN NAME, WITHOUT THE AUTHORITY OF HER HUSBAND' — the loss of standing in court, which makes every other right unenforceable by her alone. And the pair to memorise together: ART 340 'SCRUTINY AS TO PATERNITY IS FORBIDDEN'; ART 341 'SCRUTINY AS TO MATERNITY IS ADMISSIBLE'. An unmarried mother may be identified and held to her child; the father may not be sought at all. The asymmetry is not an oversight — it protects men from paternity claims and leaves the consequences of extramarital birth entirely with the woman.",
       "terms": [],
@@ -369,18 +195,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 392,
-      "text_sha": "581f60ce75d00e04",
-      "pdf_page": 15
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD17/PD17_s016.webp",
+    "16": {
       "title": "§ 91 ABGB 1811",
       "text": "'THE MAN IS THE HEAD OF THE FAMILY. IN THIS CAPACITY, HE HAS THE PRIMARY RIGHT TO MANAGE THE HOUSEHOLD; HOWEVER, HE ALSO HAS THE OBLIGATION TO PROVIDE HIS SPOUSE WITH A DECENT LIVELIHOOD ACCORDING TO HIS MEANS AND TO REPRESENT HER IN ALL MATTERS.' The structure is the same everywhere: authority coupled with a duty of maintenance and of REPRESENTATION — and representation means she does not appear herself. This provision survived until the partnership marriage of 1975.",
       "terms": [],
@@ -393,18 +210,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 362,
-      "text_sha": "ed77f982d266638f",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD17/PD17_s017.webp",
+    "17": {
       "title": "Codifications as codification of male domination?",
       "text": "The summing-up, and the question mark belongs in the title. FREEDOM AND EQUALITY AS POSTULATES FOR THE STATE — LACK OF FREEDOM AND INEQUALITY WITHIN THE FAMILY UNIT. RESTRICTIONS ON LEGAL CAPACITY, ESPECIALLY THE QUESTION OF WORKING. ECONOMIC DEPENDENCE AND UNFAIR PROPERTY REGULATIONS. And, from the other side, REFORM PROPOSALS ON PRIVATE LAW FROM THE WOMEN'S MOVEMENT. The thesis to be able to defend: the age that made equality before the law a constitutional principle preserved a sphere — the household — in which it deliberately did not apply.",
       "terms": [],
@@ -417,18 +225,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 462,
-      "text_sha": "c973cd519b614d01",
-      "pdf_page": 17
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "img": "img/PD17/PD17_s018.webp",
+    "18": {
       "title": "Differences in penal law: the French Penal Code 1811",
       "text": "Three articles, and they must be read together. ART 324(2): 'NEVERTHELESS, IN THE CASE OF ADULTERY […] MURDER COMMITTED UPON THE WIFE AS WELL AS UPON HER ACCOMPLICE, AT THE MOMENT WHEN THE HUSBAND SHALL HAVE CAUGHT THEM IN THE FACT, IN THE HOUSE WHERE THE HUSBAND AND WIFE DWELL, IS EXCUSABLE.' ART 337: 'THE WIFE, CONVICTED OF ADULTERY, SHALL UNDERGO THE PENALTY OF IMPRISONMENT, DURING NOT LESS THAN THREE MONTHS, NOR MORE THAN TWO YEARS. THE HUSBAND SHALL HAVE THE POWER OF STOPPING THE EFFECT OF THIS CONDEMNATION, BY CONSENTING TO TAKE HIS WIFE AGAIN.' ART 339: 'THE HUSBAND, WHO SHALL KEEP A CONCUBINE IN THE HOUSE WHERE HE AND HIS WIFE LIVE, AND WHO SHALL BE CONVICTED, UPON THE COMPLAINT OF THE WIFE, SHALL BE PUNISHED WITH A FINE OF FROM 100 TO 2,000 FRANCS.' Three asymmetries in one page: her adultery is prison and his is a fine; his is punishable only if committed IN THE MARITAL HOME; her killing is excusable; and the execution of her sentence lies in HIS hands, so that the criminal law hands the husband a power of pardon over his own wife.",
       "terms": [],
@@ -441,25 +240,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 832,
-      "text_sha": "227c20f1019586d5",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD17/PD17_s019.webp",
+    "19": {
       "title": "The first wave of feminism",
       "text": "The demands: BETTER EDUCATIONAL AND CAREER OPPORTUNITIES; FIGHTING FOR PASSIVE AND ACTIVE VOTING RIGHTS — the right to BE ELECTED and the right to VOTE; the ABILITY TO HOLD POLITICAL OFFICE AND POSITIONS; the aim being CHANGES IN EVERYDAY REALITY. And the point students forget: there was no single women's movement but DIFFERENT MAIN DIRECTIONS WITH DIFFERENT REFORM PRIORITIES — CHRISTIAN-SOCIAL, SOCIAL DEMOCRATIC, BOURGEOIS-LIBERAL. Whether the priority was suffrage, protective labour legislation or access to the professions depended on which movement one belonged to.",
       "terms": [
-        {
-          "term": "active and passive voting rights",
-          "def": "Active: the right to vote. Passive: the right to stand for election and hold office. The first wave demanded both."
-        }
+        { "term": "active and passive voting rights", "def": "Active: the right to vote. Passive: the right to stand for election and hold office. The first wave demanded both." }
       ],
       "cards": [
         {
@@ -470,18 +257,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 580,
-      "text_sha": "8df0466d7bb864a0",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD17/PD17_s020.webp",
+    "20": {
       "title": "Gradual improvement — the examples to name",
       "text": "UK: the MARRIED WOMEN'S PROPERTY ACT 1870 — a married woman's own property at last. AUSTRIA: the POSSIBILITY TO BE APPOINTED AS GUARDIAN, 1914. UK: the GUARDIANSHIP ACT 1925, improving the legal status of MOTHERS. FRANCE: improvement of legal capacity and the RIGHT OF THE WIFE TO PURSUE HER OWN PROFESSION, 1938 — a hundred and thirty-four years after the Code civil, and only just before the war.",
       "terms": [],
@@ -494,45 +272,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 399,
-      "text_sha": "479683c800966069",
-      "pdf_page": 20
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD17/PD17_s021.webp",
-      "title": "Austria in the 1970s — the newsreels",
-      "text": "Two Austria Wochenschau clips, 1972 on the changes in penal law and 1974 on the changes in private law, with the question of what the big legal challenges of the decade were.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 277,
-      "text_sha": "b245ccaba7588b06",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PD17/PD17_s022.webp",
+    "21": { "title": "Austria in the 1970s — the newsreels", "text": "Two Austria Wochenschau clips, 1972 on the changes in penal law and 1974 on the changes in private law, with the question of what the big legal challenges of the decade were.", "terms": [], "cards": [], "vision_used": false },
+    "22": {
       "title": "The big changes from the 1960s on",
       "text": "SECOND-WAVE FEMINISM, and in Austria a dated sequence: 1967 CHANGES IN GUARDIANSHIP LAW; 1974 the NEW ABORTION LAW, the so-called FRISTENLÖSUNG — the time-limit solution; 1975 PARTNERSHIP MARRIAGE INSTEAD OF PATRIARCHAL MARRIAGE, which is the repeal of § 91 ABGB's head-of-the-family rule; 1977 REORGANISATION OF FAMILY LAW. And the institutional marker: JOHANNA DOHNAL, MINISTER FOR WOMEN'S AFFAIRS FROM 1990 TO 1995.",
       "terms": [
-        {
-          "term": "Fristenlösung",
-          "def": "The time-limit solution of 1974: abortion unpunishable within a fixed period from conception, replacing the indications model."
-        },
-        {
-          "term": "partnership marriage",
-          "def": "The 1975 Austrian reform replacing the patriarchal marriage of § 91 ABGB — spouses equal, with no head of the family."
-        }
+        { "term": "Fristenlösung", "def": "The time-limit solution of 1974: abortion unpunishable within a fixed period from conception, replacing the indications model." },
+        { "term": "partnership marriage", "def": "The 1975 Austrian reform replacing the patriarchal marriage of § 91 ABGB — spouses equal, with no head of the family." }
       ],
       "cards": [
         {
@@ -543,34 +291,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 708,
-      "text_sha": "210dd51c73455f00",
-      "pdf_page": 22
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "img": "img/PD17/PD17_s023.webp",
-      "title": "Source in German: the suffrage debate of 1849",
-      "text": "The original wording of the Austrian debate of February 1849, given before its translation.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 589,
-      "text_sha": "10e64eceeeb3ae9d",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PD17/PD17_s024.webp",
+    "23": { "title": "Source in German: the suffrage debate of 1849", "text": "The original wording of the Austrian debate of February 1849, given before its translation.", "terms": [], "cards": [], "vision_used": false },
+    "24": {
       "title": "The suffrage debate, Austrian Empire, February 1849",
       "text": "'SOME SAY THAT IN THE END, MINORS AND WOMEN WILL HAVE TO BE GRANTED THE RIGHT TO VOTE. HOW WRONG THEY ARE! IN THE CASE OF MINORS, IT IS ONLY POSTPONED FOR A CERTAIN PERIOD OF TIME; AS FAR AS WOMEN ARE CONCERNED, HUMAN LAWS DO NOT CONTRADICT THE LAWS OF NATURE. THERE HAS NEVER BEEN ANY AGITATION ON THE PART OF WOMEN IN THIS REGARD; THEY ARE REPRESENTED BOTH WITHIN AND OUTSIDE THE FAMILY AND DESIRE NOTHING ELSE.' Three arguments in four lines, and the comparison with minors is the sharpest: a minor's exclusion is TEMPORARY, a woman's PERMANENT — so her exclusion cannot be about capacity at all. Then: the exclusion merely follows nature; women are ALREADY REPRESENTED by the men of their family; and they DO NOT ASK FOR IT — the last being an argument that any agitation would immediately refute, which is why the movement itself became the answer to it.",
       "terms": [],
@@ -583,18 +307,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 682,
-      "text_sha": "6cce8e0fce6adf4e",
-      "pdf_page": 24
+      "vision_used": false
     },
-    {
-      "n": 25,
-      "img": "img/PD17/PD17_s025.webp",
+    "25": {
       "title": "Contemporary arguments against women's suffrage",
       "text": "The catalogue: WOMEN HAVE NO CAPACITY TO UNDERSTAND POLITICS; suffrage would be UPSETTING THE NATURAL ORDER OF THINGS, WOMEN HAVING NO PLACE IN THE PUBLIC SPHERE; 'THOSE WHO MAKE THE LAWS SHOULD HAVE THE PHYSICAL FORCE TO ENFORCE THEM, AND THIS WOMEN DO NOT POSSESS' (Lord Cromer); GIVING WOMEN THE VOTE WOULD DESTROY FAMILIES; and WOMEN DO NOT PARTICIPATE IN THE DEFENCE OF THE STATE. Note that they do not agree with each other: the capacity argument says women cannot, the family argument says they would vote too effectively against their households, and the physical-force argument concedes capacity entirely and shifts to conscription. A set of incompatible reasons for one conclusion is the sign that the conclusion came first.",
       "terms": [],
@@ -607,50 +322,11 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 849,
-      "text_sha": "8d2e0cf5b0303e24",
-      "pdf_page": 25
+      "vision_used": false
     },
-    {
-      "n": 26,
-      "img": "img/PD17/PD17_s026.webp",
-      "title": "Cartoons and pamphlets",
-      "text": "Anti-suffrage material from the National Association Opposed to Woman Suffrage and the suffrage cartoons of the New York Press, with Alice Duer Miller's satires of 1916.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 557,
-      "text_sha": "eda21ed604cdbff0",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PD17/PD17_s027.webp",
-      "title": "The first female members of parliament in Austria",
-      "text": "The eight women elected to the Constituent National Assembly of 1919.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 117,
-      "text_sha": "bfe9a039685413b3",
-      "pdf_page": 27
-    },
-    {
-      "n": 28,
-      "img": "img/PD17/PD17_s028.webp",
+    "26": { "title": "Cartoons and pamphlets", "text": "Anti-suffrage material from the National Association Opposed to Woman Suffrage and the suffrage cartoons of the New York Press, with Alice Duer Miller's satires of 1916.", "terms": [], "cards": [], "vision_used": true },
+    "27": { "title": "The first female members of parliament in Austria", "text": "The eight women elected to the Constituent National Assembly of 1919.", "terms": [], "cards": [], "vision_used": true },
+    "28": {
       "title": "The general principle of equality — three texts",
       "text": "STAATSGRUNDGESETZ of 21 DECEMBER 1867, Art. 2: 'ALL NATIONALS ARE EQUAL BEFORE THE LAW.' WEIMAR CONSTITUTION 1919, Art. 109: 'ALL GERMANS ARE EQUAL BEFORE THE LAW. MEN AND WOMEN HAVE THE SAME FUNDAMENTAL CIVIL RIGHTS AND DUTIES. PUBLIC LEGAL PRIVILEGES OR DISADVANTAGES OF BIRTH OR OF RANK ARE ABOLISHED.' B-VG 1920, Art. 7: 'ALL CITIZENS ARE EQUAL BEFORE THE LAW. PRIVILEGES BASED ON BIRTH, GENDER, STATUS, CLASS OR CONFESSION ARE PROHIBITED.' Watch the wording change: 1867 says only 'equal before the law', which left every statutory distinction untouched; 1919 and 1920 NAME THE SEXES — Weimar granting the same fundamental civil rights and duties, the B-VG prohibiting privileges BASED ON GENDER. Naming the ground is what turns a general clause into an enforceable prohibition.",
       "terms": [],
@@ -663,34 +339,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 666,
-      "text_sha": "a85d80ded630caea",
-      "pdf_page": 28
+      "vision_used": false
     },
-    {
-      "n": 29,
-      "img": "img/PD17/PD17_s029.webp",
-      "title": "Frauen Fragmente: women in legal scholarship",
-      "text": "Film clips on the situation of women in the field of legal studies, with the question of when they were made.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 300,
-      "text_sha": "861019f6d79c24cd",
-      "pdf_page": 29
-    },
-    {
-      "n": 30,
-      "img": "img/PD17/PD17_s030.webp",
+    "29": { "title": "Frauen Fragmente: women in legal scholarship", "text": "Film clips on the situation of women in the field of legal studies, with the question of when they were made.", "terms": [], "cards": [], "vision_used": false },
+    "30": {
       "title": "Legal education for women",
       "text": "LATE ADMISSION TO ACADEMIC EDUCATION — in AUSTRIA the PHILOSOPHICAL FACULTY IN 1896 and the FACULTY OF LEGAL SCIENCES ONLY IN 1919. Note the order: women were admitted to legal studies AFTER they had the vote, not before, so the profession was the last door to open. The arguments used against admission to legal studies and the legal profession: 'GREATER SUGGESTIBILITY'; 'NATURAL MODESTY'; WOMEN AS SENSITIVE BEINGS; LACK OF OBJECTIVITY; LACK OF LOGIC; EMOTIONALITY. Each is a claim about the mind, and each was made unfalsifiable by refusing the education that would have tested it.",
       "terms": [],
@@ -703,25 +355,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 512,
-      "text_sha": "5a5123d2dcaccf97",
-      "pdf_page": 30
+      "vision_used": true
     },
-    {
-      "n": 31,
-      "img": "img/PD17/PD17_s031.webp",
+    "31": {
       "title": "Recent developments: Art. 7(2) B-VG 1998",
       "text": "The 1998 amendment to the B-VG: 'THE FEDERATION, PROVINCES AND MUNICIPALITIES ARE COMMITTED TO ACHIEVING REAL GENDER EQUALITY. THEY MAY ADOPT MEASURES TO PROMOTE DE FACTO GENDER EQUALITY, IN PARTICULAR BY ELIMINATING EXISTING INEQUALITIES.' The step beyond 1920 is the distinction between FORMAL and REAL — DE FACTO — equality: Art. 7(1) forbids privileges, Art. 7(2) permits measures that treat people unequally in order to remove inequality. Without that second paragraph, affirmative measures would themselves offend the prohibition in the first.",
       "terms": [
-        {
-          "term": "de facto equality",
-          "def": "Real as opposed to merely formal equality: Art. 7(2) B-VG (1998) permits unequal measures aimed at eliminating existing inequalities, which the bare prohibition of Art. 7(1) would otherwise forbid."
-        }
+        { "term": "de facto equality", "def": "Real as opposed to merely formal equality: Art. 7(2) B-VG (1998) permits unequal measures aimed at eliminating existing inequalities, which the bare prohibition of Art. 7(1) would otherwise forbid." }
       ],
       "cards": [
         {
@@ -732,14 +372,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 347,
-      "text_sha": "eec44d985f975fe6",
-      "pdf_page": 31
+      "vision_used": true
     }
-  ]
+  }
 }

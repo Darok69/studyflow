@@ -1,32 +1,13 @@
 {
   "lecture_id": "RD01",
-  "kind": "reading",
-  "course": "RD",
-  "course_title": "Required reading",
-  "course_number": "030362",
-  "unit": "Téma 2",
   "title": "Johansen/Weiss/Motzki, Islamic Law (Oxford Encyclopedia of Legal History)",
-  "source_file": "raw/RD01_1-johansen-islamic-law-oxford-i-encyclopedia-of-legal-histor.pdf",
-  "source_sha256": "a86f6fc2f7b1654dc4e09b10d4d411e7f7948e9bfa11758b08a8238ab071faf6",
-  "source_pages": 30,
-  "slides_per_page": 1,
-  "slide_count": 18,
-  "updated_at": "2026-09-15T13:06:59+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "text_sha": null,
+  "slides": {
+    "1": {
       "title": "What the fiqh is, and what it is not",
       "text": "The entry has six subentries — an overview, the sources and methodology, the genres of legal literature, the legal and ethical qualifications, the spheres of the law, and the transmission of the reports from the Prophet. Start with the term. The FIQH is a SYSTEM OF ETHICAL AND LEGAL NORMS, as a discipline with its own literature and methods dating FROM THE SECOND HALF OF THE EIGHTH CENTURY, and for the next 1,100 YEARS it embodied the discipline of legal thought in Islam. Before the ninth century the word fiqh — usually rendered 'jurisprudence' — meant no more than 'THE INDEPENDENT COMPREHENSION OF CONTEXTS AND INTERRELATIONS' or 'INSIGHT'. Its rules regulate ACTS OF WORSHIP (ʿIBĀDĀT) and TRANSACTIONS (MUʿĀMALĀT) between human beings, and — the decisive sentence of the whole article — they are WRITTEN DOWN OR TAUGHT ORALLY BY INDIVIDUAL RELIGIOUS SCHOLARS, NOT BY POLITICAL LAWGIVERS. From the eighth to the nineteenth century the fiqh REMAINS A JURISTS' LAW, produced, discussed and developed by scholars. Rules of worship are not normally under the control of the judiciary; rules governing transactions — marriage and family, commercial exchange, penal sanctions — are.",
       "terms": [
-        {
-          "term": "fiqh",
-          "def": "The Islamic discipline of legal and ethical norms, from the 8th to the 19th century a JURISTS' law — made by scholars, not by political lawgivers."
-        },
-        {
-          "term": "ʿibādāt / muʿāmalāt",
-          "def": "The two great fields of the fiqh: acts of worship owed to God, and transactions between human beings — the second controlled by the judiciary, the first largely not."
-        }
+        { "term": "fiqh", "def": "The Islamic discipline of legal and ethical norms, from the 8th to the 19th century a JURISTS' law — made by scholars, not by political lawgivers." },
+        { "term": "ʿibādāt / muʿāmalāt", "def": "The two great fields of the fiqh: acts of worship owed to God, and transactions between human beings — the second controlled by the judiciary, the first largely not." }
       ],
       "cards": [
         {
@@ -38,19 +19,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "text_sha": null,
+    "2": {
       "title": "The jurists close the ranks",
       "text": "The FUQAHĀʾ hold that their conduct-related rules constitute A NORMATIVE FIELD OF ITS OWN WITH METHODS, PROCEDURES AND TECHNICAL REASONING SO COMPLEX THAT ONLY SCHOLARS INSTRUCTED IN THEM CAN MASTER THEM. The consequence is institutional: the jurists EXCLUDE FROM THE CONSENSUS OF THE LEARNED (IJMĀʿ) — itself one of the sources of the law — THOSE MEMBERS OF THE RELIGIOUS DISCIPLINES WHO ARE NOT TRAINED AS JURISTS, AND THIS HOLDS TRUE EVEN FOR THE THEOLOGIANS, justified by their INCOMPETENCY IN THE FIELD OF LEGAL REASONING. This is a claim to professional autonomy made through the doctrine of sources: by defining who counts in the consensus, the jurists define who makes law.",
       "terms": [
-        {
-          "term": "ijmāʿ",
-          "def": "The consensus of the learned, one of the four sources of the law — from which the jurists excluded even theologians, on the ground of their incompetence in legal reasoning."
-        }
+        { "term": "ijmāʿ", "def": "The consensus of the learned, one of the four sources of the law — from which the jurists excluded even theologians, on the ground of their incompetence in legal reasoning." }
       ],
       "cards": [
         {
@@ -62,12 +37,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "The judiciary as the engine of the schools",
       "text": "The fiqh quickly acquired the leading position in religious knowledge — the MADRASAS of the eleventh century were devoted primarily to the study of Islamic law, other disciplines assigned an AUXILIARY role. But the article insists on the role of the EMPIREWIDE JUDICIARY established by the ABBASID DYNASTY (750–1258) in the second half of the eighth century, with an administration under a CHIEF JUSTICE responsible for appointing and removing the QADIS in the provinces. The logic: AN EMPIREWIDE JUDICIARY REQUIRED NORMS WITH A CLAIM TO UNIVERSAL VALIDITY, and the burgeoning schools found in the administration of the judiciary AN IMPORTANT TOOL FOR SPREADING THEIR NORMS. Since the qadis mattered in the distribution and control of power in the cities, URBAN ELITES BECAME INTERESTED IN CONTROLLING THE OFFICE, and their competition ENCOURAGED IDENTIFICATION WITH SCHOOLS OF LAW as locally relevant instances of legitimisation. Doctrine spread because appointments did.",
       "terms": [],
@@ -81,19 +53,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Dissent as a structural principle",
       "text": "As a jurists' law the fiqh is INDIVIDUALISTIC in the production of norms, in DISSENT among jurists, and in the stress on the SUBJECTIVE RIGHTS OF THE INDIVIDUAL — which is why it produced a great number of SCHOOLS OF LAW. And the differences are not trivial: on who may become a PROTECTED SUBJECT of Muslim authority, the HANAFIS admitted everybody except Arab polytheists, even 'idolators and fire adorers'; the MALIKIS did not even exclude Arab polytheists; the HANBALIS AND SHAFIʿIS admitted ONLY MONOTHEISTS BELIEVING IN A SACRED BOOK, all others being left the choice AMONG CONVERSION, MIGRATION AND DEATH. Differences of that magnitude were accepted. From the tenth century a specialised genre treated DISSENT (KHILĀF) AS A HISTORICAL SUBJECT showing the magnitude of LICIT differences, and the legal literature acquired a HIGHLY DEVELOPED ARGUMENTATIVE STRUCTURE exposing dissent and the arguments for each choice. As Joseph Schacht put it, Islamic law is 'an objective law which guarantees the subjective rights of individuals… the sum total of the personal privileges of all individuals'.",
       "terms": [
-        {
-          "term": "khilāf",
-          "def": "Dissent among jurists — from the 10th century a literary genre of its own, treating licit disagreement as a historical subject."
-        }
+        { "term": "khilāf", "def": "Dissent among jurists — from the 10th century a literary genre of its own, treating licit disagreement as a historical subject." }
       ],
       "cards": [
         {
@@ -113,23 +79,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Shariʿa and fiqh — the distinction everything turns on",
       "text": "In the eighth and ninth centuries method and material were not separated. The separation begins with the question WHETHER LEGAL RULES MAY REST ON THE REASONED OPINION AND JURISTIC PREFERENCE OF THE JURISTS OR MUST REST ON THE QURʾAN AND THE SUNNA OR ANALOGIES FROM THEM — and the first book systematically distinguishing legal METHOD from legal MATERIAL is SHAFIʿI'S EPISTLE (RISĀLA), whose final version was written in Egypt BETWEEN 815 AND 820. The genre USUL AL-FIQH itself comes into existence only in the SECOND HALF OF THE TENTH CENTURY, more than a hundred years after Shafiʿi's death. And the payoff: because the fiqh became known as 'THE BRANCHES' whose 'ROOTS' were treated in another discipline, the discipline has HAD THE IMPORTANT MERIT OF CONSTANTLY REMINDING MUSLIMS THAT THE FIQH IS NOT IDENTICAL WITH ITS REVEALED SOURCE, THE SHARIʿA. IT IS A HISTORICAL FORM OF ITS INTERPRETATION. Hold on to that sentence — the modern half of the article depends on it entirely.",
       "terms": [
-        {
-          "term": "uṣūl al-fiqh",
-          "def": "The 'roots' of the fiqh: the theory of the sources of law and of legal argumentation, a genre from the second half of the 10th century. Prepared by Shafiʿi's Risāla (815–820)."
-        },
-        {
-          "term": "shariʿa ≠ fiqh",
-          "def": "The shariʿa is the revealed law; the fiqh is a HISTORICAL FORM OF ITS INTERPRETATION — the distinction that allows fiqh rules to be replaced without abandoning the shariʿa."
-        }
+        { "term": "uṣūl al-fiqh", "def": "The 'roots' of the fiqh: the theory of the sources of law and of legal argumentation, a genre from the second half of the 10th century. Prepared by Shafiʿi's Risāla (815–820)." },
+        { "term": "shariʿa ≠ fiqh", "def": "The shariʿa is the revealed law; the fiqh is a HISTORICAL FORM OF ITS INTERPRETATION — the distinction that allows fiqh rules to be replaced without abandoning the shariʿa." }
       ],
       "cards": [
         {
@@ -149,19 +106,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Modern developments: codes, constitutions, and the shariʿa clauses",
       "text": "From the END OF THE NINETEENTH CENTURY CODES WERE IMPORTED FROM THE WEST and replaced historical fiqh rules on transactions by modern CIVIL, PENAL AND COMMERCIAL CODES and codes of procedure; WRITTEN CONSTITUTIONS INTRODUCED THE POLITICAL LAWGIVER AS THE LEGISLATIVE POWER AND LEFT NO PLACE FOR A JURISTS' LAW. Under those circumstances the distinction between fiqh and shariʿa allowed the replacement of fiqh rules to be understood NOT AS A DESTRUCTION OF THE SHARIʿA BUT AS AN INVITATION TO DERIVE A NEW INTERPRETATION from the revealed sources. SINCE THE 1970s a great number of constitutions have made 'THE PRINCIPLES OF THE SHARIʿA' a or the principal source of legislation — Kuwait 1962, Egypt 1971 (amended 1980), the UAE 1971, Qatar 1972 and 2003, Bahrain 1973, Syria 1973, Yemen 1991, Mauritania 1991, Oman 1996, Sudan 1998; Pakistan's Objectives Resolution as Art. 2-A (1985), and Afghanistan's repugnancy clause in Art. 3 of the 2004 constitution: 'IN AFGHANISTAN, NO LAW CAN BE CONTRARY TO THE BELIEFS AND PROVISIONS OF THE SACRED RELIGION OF ISLAM'. And the point to notice: NONE of these constitutions refers to the RULES OF THE FIQH, and most do not even declare Qurʾanic verses self-enacting — they refer to PRINCIPLES (MABĀDIʾ AL-SHARIʿA), that is, TO SOMETHING THAT MUST BE DETERMINED BY LEGAL INTERPRETATION. In practice the fiqh in its classical form dominates national law in VERY FEW states.",
       "terms": [
-        {
-          "term": "shariʿa clause",
-          "def": "A constitutional provision making 'the principles of the shariʿa' a principal source of legislation — principles requiring interpretation, not the rules of the classical fiqh."
-        }
+        { "term": "shariʿa clause", "def": "A constitutional provision making 'the principles of the shariʿa' a principal source of legislation — principles requiring interpretation, not the rules of the classical fiqh." }
       ],
       "cards": [
         {
@@ -181,12 +132,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Weiss: what the shariʿa is, and who the source is",
       "text": "In Muslim legal thought ALL LAW WORTHY OF THE NAME IS SUBSUMED UNDER THE MORE GENERAL CATEGORY OF SHARIʿA: a normative system embracing NOT ONLY STATE LAW BUT ALSO ETHICAL NORMS AND RITUAL DUTIES AND PROPRIETIES, carrying the breadth of meaning that TORAH and NOMOS do in the Bible. Infractions are SIN, with consequences in the life beyond as well as in this one. And the shariʿa does not simply REQUIRE, FORBID AND PERMIT — it also ADVISES, RECOMMENDS AND DISAPPROVES; it is thus MORE THAN LAW even in the broadest sense, setting before people ASPIRATIONS AS WELL AS DUTIES. As for sources: one may say there is ONLY ONE SOURCE AND THAT SOURCE IS GOD — which tells us that the law does NOT COME FROM HUMAN INSTITUTIONS, that APART FROM THE OBLIGATIONS GOD PLACES UPON US THERE ARE NO OBLIGATIONS AND APART FROM THE RIGHTS HE CONFERS THERE ARE NO RIGHTS, but LEAVES US IN THE DARK AS TO WHERE TO GO TO FIND GOD'S LAW. Hence the real question is not the source of the law but THE SOURCES OF KNOWLEDGE OF THE LAW.",
       "terms": [],
@@ -208,12 +156,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "The four sources — and why they are not four of the same thing",
       "text": "The famous FOUR-SOURCE THEORY names the QURʾAN, the SUNNA, IJMĀʿ (consensus) and ANALOGICAL REASONING as USUL, literally 'ROOTS'. But they are not homogeneous. The QURʾAN AND THE SUNNA ARE MATERIAL SOURCES — they CONTAIN RULES WITHIN THEIR MEANING, to be extracted by interpretation. ANALOGICAL REASONING IS CLEARLY A METHOD, NOT A MATERIAL SOURCE, though a method that uses material sources to build law. IJMĀʿ is the hard case: the common view was that it TRANSFORMED OPINION INTO CERTAINTY, a tentative construction into a final one, once an opinion was shared by all living qualified scholars — the principle being 'MY COMMUNITY WILL NEVER CONCUR ON AN ERROR'. On that view the ijmāʿ BROUGHT ABOUT AN EPISTEMIC TRANSFORMATION WITHOUT ACTUALLY BECOMING A MATERIAL SOURCE, though some jurists held it could produce law on its own.",
       "terms": [],
@@ -227,19 +172,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "Ijtihād: constructing a law that is not one's own",
       "text": "The whole enterprise rests on the assumption that THE LAW OF GOD IS NOT GIVEN TO HUMANS AS A BODY OF READY-MADE NORMS: THE LAW IS FOR THE MOST PART SOMETHING THAT HUMANS CONSTRUCT ON THE BASIS OF REVEALED TEXTS — while never regarding it as of their own making. When jurists differed, as they generally did, this COULD ONLY MEAN THAT ALL BUT ONE — AND PERHAPS NOT EVEN WITH THE EXCEPTION OF ONE — WERE IN ERROR. The saving grace is the maxim 'DIFFERENCE OF OPINION IS A MERCY FROM GOD': as long as each scholar did his best and believed his construction true, EVEN IF HE HAD NOT ATTAINED FULL CERTAINTY, HIS CONSTRUCTION WAS CREDITED TO HIM AS VALID. The endeavour is IJTIHĀD ('effort'), its qualified practitioner a MUJTAHID ('one who toils'), and it presupposes a TEXT-CRITICAL PHASE — the methodologies of the science of hadith — before interpretation can begin. Once the variations crystallised into the MADHĀHIB, SCHOLARS TENDED TO BACK AWAY FROM THE RIGORS OF IJTIHĀD, resting in the confidence that the ijtihād embodied in the schools' traditions was sufficient for their times.",
       "terms": [
-        {
-          "term": "ijtihād / mujtahid",
-          "def": "The strenuous effort of constructing the law from the revealed texts, and the scholar qualified to undertake it."
-        }
+        { "term": "ijtihād / mujtahid", "def": "The strenuous effort of constructing the law from the revealed texts, and the scholar qualified to undertake it." }
       ],
       "cards": [
         {
@@ -259,23 +198,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "The genres, I: school texts, commentaries, glosses",
       "text": "The MUTŪN (sing. MATN), 'SCHOOL TEXTS', embody the doctrine of a school and serve as its textbooks — but not every text of a school's doctrine is a matn: A MATN IS CHARACTERISED BY THE FACT THAT OTHER SCHOLARS OF THE SCHOOL HAVE RECOGNISED ITS DOCTRINAL IMPORTANCE AND COMMENTED UPON IT. Since the tenth century at the latest all schools have had their mutūn; STUDENTS LEARN THEM BY HEART, and only MINOR CHANGES have been introduced over the centuries, since they GUARANTEE THE CONTINUITY OF THE CORE OF A SCHOOL'S DOCTRINE. Movement happens elsewhere — in the COMMENTARIES (SHURŪḤ) and GLOSSES (ḤAWĀSHĪ), written in different regions and periods, which let us follow the geographical and historical recognition of a matn, record DISSENT WITHIN the school and the REPLACEMENT OF SOME OF ITS RULES BY NEWER ONES, refer to CHANGING SOCIAL AND ECONOMIC CONDITIONS, and stress the difference between the CLASSICAL JURISTS (AL-MUTAQADDIMŪN) and the LATER JURISTS (AL-MUTAʾAKHKHIRŪN) — thereby underlining the DIACHRONIC character of the school doctrines. A fixed core with a moving commentary: that is how a law with no legislator changes.",
       "terms": [
-        {
-          "term": "matn (pl. mutūn)",
-          "def": "A 'school text': the memorised core of a school's doctrine, recognised as such by the school commenting on it, changed only minimally so as to preserve continuity."
-        },
-        {
-          "term": "mutaqaddimūn / mutaʾakhkhirūn",
-          "def": "The classical (early) jurists and the later ones — a distinction that becomes a major division of the law from the end of the 11th century, with priority given to the later."
-        }
+        { "term": "matn (pl. mutūn)", "def": "A 'school text': the memorised core of a school's doctrine, recognised as such by the school commenting on it, changed only minimally so as to preserve continuity." },
+        { "term": "mutaqaddimūn / mutaʾakhkhirūn", "def": "The classical (early) jurists and the later ones — a distinction that becomes a major division of the law from the end of the 11th century, with priority given to the later." }
       ],
       "cards": [
         {
@@ -295,23 +225,14 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "The genres, II: the fatwa, ḥiyal, shurūṭ, rasāʾil",
       "text": "The FATWA is the opinion of a MUFTI giving believers religious and legal guidance, and its peculiarity is that THE MUFTI CANNOT SIMPLY ENUMERATE OPINIONS OR FORMS OF DISSENT BUT MUST DECLARE ONE OPINION TO BE BINDING — 'the chosen opinion on which the fatwa is based' — and often the choice follows THE LATER ('MODERN') JURISTS while the classical opinions are EXPLICITLY DISCARDED. Two limits matter. A mufti asked by a qadi or the authorities DOES NOT CHECK THE FACTS — he decides what the doctrinal answer would be ASSUMING THE FACTS ARE TRUE, the examination of facts remaining the exclusive task of the qadi. And a mufti asked by an individual about an unintentional slip is NOT NECESSARILY OBLIGED to impose the school's norms: satisfied that the questioner will not repeat the misconduct, HE MAY EVEN ADVISE AGAINST TREATING IT AS A LEGAL PROBLEM — but SUCH RELIGIOUS GUIDANCE SHOULD ONLY BE GIVEN ORALLY, THE WRITTEN FORM REMAINING RESERVED TO JUDICIAL EXPERTISE. Hence the formula: THE FATWA REPRESENTS A LEVEL OF THE LAW IN WHICH LEGAL AND RELIGIOUS ASPECTS ARE DIFFERENTIATED BUT NOT SEPARATED. Beside it stand the books of LEGAL DEVICES (ḤIYAL) — Hanafi, from the eighth and ninth centuries — indicating THE LEGAL MEANS BY WHICH EXTRALEGAL PURPOSES MAY BE ACHIEVED, indispensable for understanding how the law was used to LEGALISE COMMERCIAL PRACTICES; the HANDBOOKS FOR NOTARIES (SHURŪṬ), a genre from the tenth century, entirely focused on the CORRECT WRITTEN FORM OF CONTRACTS and reflecting the merchants' interest in stable and credible legal forms; and the TREATISES (RASĀʾIL), in which prominent jurists defend CUSTOMS AND PRACTICES LINKED TO SPECIAL INTERESTS in critical political situations.",
       "terms": [
-        {
-          "term": "fatwa",
-          "def": "A mufti's binding opinion for a questioner — he must choose ONE opinion, does not examine the facts (that is the qadi's task), and may give purely religious guidance orally only."
-        },
-        {
-          "term": "ḥiyal",
-          "def": "'Legal devices': the legal means by which extralegal purposes may be achieved — the Hanafi genre that shows how the law legalised commercial practice."
-        }
+        { "term": "fatwa", "def": "A mufti's binding opinion for a questioner — he must choose ONE opinion, does not examine the facts (that is the qadi's task), and may give purely religious guidance orally only." },
+        { "term": "ḥiyal", "def": "'Legal devices': the legal means by which extralegal purposes may be achieved — the Hanafi genre that shows how the law legalised commercial practice." }
       ],
       "cards": [
         {
@@ -339,23 +260,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "text_sha": null,
+    "12": {
       "title": "Qawāʿid and furūq: theory from below",
       "text": "Beside the theologically inclined uṣūl al-fiqh there is a second theoretical approach, entirely dependent on the individual norms of a particular school. The QAWĀʿID, 'LEGAL PRINCIPLES', are found by ANALYSING GROUPS OF INDIVIDUAL NORMS AND DISCOVERING THE COMMON PRINCIPLES THAT UNITE THEM — and the principle then becomes AN INSTRUMENT THAT ALLOWS THE PRODUCTION OF NEW NORMS in line with the school's doctrine. Already Sarakhsi (d. 1090) credits Shaybani (d. 804) with linking disputed questions to their principles; it is in the FIFTEENTH CENTURY, according to Wolfhart Heinrichs, that jurists intensify 'the search for further general rules BY IMPLICIT INDUCTION from the great legal handbooks of the schools'. The FURŪQ literature of the Mamluk period does the converse: it COMPARES NORMS THAT SEEM TO BE BASED ON THE SAME PRINCIPLE BUT DO NOT PRODUCE THE SAME RULES, and explains the difference by finding a 'DETERMINING ELEMENT OF DIFFERENCE' that submits one of them to another principle. A famous sixteenth-century Egyptian author DECLARES THE THEORY OF COMMON LEGAL PRINCIPLES TO CONSTITUTE THE REAL THEORY OF THE LAW. Induction from the cases upward, against deduction from the revealed sources downward.",
       "terms": [
-        {
-          "term": "qawāʿid",
-          "def": "Legal principles found by induction from groups of existing norms, and then used to produce new ones within a school's doctrine."
-        },
-        {
-          "term": "furūq",
-          "def": "'Determining elements of difference': the Mamluk genre explaining why norms apparently resting on one principle yield different rules."
-        }
+        { "term": "qawāʿid", "def": "Legal principles found by induction from groups of existing norms, and then used to produce new ones within a school's doctrine." },
+        { "term": "furūq", "def": "'Determining elements of difference': the Mamluk genre explaining why norms apparently resting on one principle yield different rules." }
       ],
       "cards": [
         {
@@ -375,23 +287,14 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "text_sha": null,
+    "13": {
       "title": "The five qualifications, and the two forums",
       "text": "The fiqh ranks ALL human acts in FIVE INTERCONNECTED CATEGORIES, agreed by all schools: OBLIGATORY (WĀJIB), RECOMMENDED (MANDŪB/SUNNA), INDIFFERENT OR PERMISSIBLE (MUBĀḤ), REPREHENSIBLE (MAKRŪH), FORBIDDEN (ḤARĀM). The Hanafis added a distinction between RELIGIOUS DUTY (FARḌ) and PURELY LEGAL OBLIGATION (WĀJIB): a legal obligation MUST BE FOLLOWED EVEN BY ONE WHO DOES NOT BELIEVE IN THE REASONING BEHIND IT, whereas a farḍ requires the subject BOTH TO ABIDE BY THE RULE AND TO BELIEVE IN ITS CHARACTER as a religious duty. INDIFFERENCE (IBĀḤA) WAS THE LAST CATEGORY TO BE ACCEPTED, still controversial in the eighth century — hard to reconcile with a sacred law determining the status of ALL acts, but it ALLOWED SCHOLARS TO TREAT CUSTOMARY SOCIAL AND ECONOMIC PRACTICES AS IN ACCORDANCE WITH THE SACRED LAW. The system separates law from ethics: A QADI IS NOT ENTITLED TO PROHIBIT ACTS OR IMPOSE OBLIGATIONS ON THE BASIS OF NORMS QUALIFYING ACTS AS INDIFFERENT, RECOMMENDABLE OR REPREHENSIBLE — those categories DIRECT THE CONSCIENCE; the qadi must decide on WĀJIB and ḤARĀM. Hence the compendia treat problems differently QAḌĀʾAN (judicially) and DIYĀNATAN (ethically), and hence the strongest expression of the distinction: the EXTERIOR FORUM (ẒĀHIR), the qadi's judgment, against the INTERIOR FORUM (BĀṬIN), 'BETWEEN THE BELIEVER AND HIS LORD'. A QADI'S JUDGMENT DOES NOT RENDER LICIT WHAT IS ILLICIT: a party who gained an unjustified advantage by a decision resting on false testimony SHOULD NOT USE IT.",
       "terms": [
-        {
-          "term": "the five qualifications",
-          "def": "wājib (obligatory), mandūb (recommended), mubāḥ (indifferent), makrūh (reprehensible), ḥarām (forbidden). Only the first and last are enforceable by the qadi."
-        },
-        {
-          "term": "ẓāhir / bāṭin",
-          "def": "The exterior forum of the qadi's judgment and the interior forum 'between the believer and his Lord'. A judgment does not make the illicit licit."
-        }
+        { "term": "the five qualifications", "def": "wājib (obligatory), mandūb (recommended), mubāḥ (indifferent), makrūh (reprehensible), ḥarām (forbidden). Only the first and last are enforceable by the qadi." },
+        { "term": "ẓāhir / bāṭin", "def": "The exterior forum of the qadi's judgment and the interior forum 'between the believer and his Lord'. A judgment does not make the illicit licit." }
       ],
       "cards": [
         {
@@ -427,23 +330,14 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "text_sha": null,
+    "14": {
       "title": "Property, religion, and the claims of God",
       "text": "Contracts are VALID (ṢAḤĪḤ), NULL AND VOID (BĀṬIL) when a constituent element is missing, or VOIDABLE (FĀSID) when the elements exist but the object is insufficiently defined, the cause tainted by an inadmissible purpose, or the term uncertain. Religious affiliation then produces DEGREES OF PROPERTY. For NON-MUSLIMS, WINE AND SWINE ARE LEGALLY PROTECTED VALUABLE GOODS, since their own religious norms treat them so, and whoever destroys them OWES DAMAGES. For MUSLIMS the same things are LICIT PROPERTY THAT CAN NEITHER BE SOLD NOR BOUGHT, and their destruction GIVES NO CLAIM FOR DAMAGES — property whose content religion has voided while leaving the form in existence. A NON-MUSLIM MAY NOT USE THE SERVICES OF A MUSLIM SLAVE, because a Muslim must never be the slave of a non-Muslim, but NO ONE MAY SIMPLY DISREGARD HIS PROPERTY RIGHT: he is OBLIGED TO SELL and ENTITLED TO THE PRICE. Under a voidable sale the buyer acquires no right to use or consume — but IF HE SELLS ON TO A THIRD PERSON THE SALE IS VALID: THE ACT OF SELLING PURGES THE ILLICIT CHARACTER, so the first buyer is an owner FOR THE PURPOSES OF COMMERCIAL CIRCULATION AND NO FURTHER. Across all of this runs the classification of CLAIMS OF GOD (ḤUQŪQ ALLĀH) — the requirements protecting NOT PRIVATE CLAIMS BUT THE PUBLIC ORDER: worship, a number of penalties, and every norm serving 'the interest of all Muslims' — against CLAIMS OF MEN (ḤUQŪQ AL-NĀS), the subjective rights of human beings, Muslim or not. And the striking rule: CLAIMS OF GOD DO NOT NECESSARILY ENJOY PRECEDENCE, because HUMAN BEINGS DEPEND ON THEIR RIGHTS TO ESCAPE POVERTY AND NEED, WHILE GOD IS TOO EXALTED TO NEED THE FULFILMENT OF HIS CLAIMS — so where the two compete, priority is often given to THE CLAIM OF THE NEEDY PERSON OVER THE CLAIM OF GOD.",
       "terms": [
-        {
-          "term": "ḥuqūq Allāh / ḥuqūq al-nās",
-          "def": "Claims of God — norms protecting public order (worship, some penalties, the interest of all Muslims) — and claims of men, the subjective rights of persons. A universal classification across all fields of the law."
-        },
-        {
-          "term": "ṣaḥīḥ / bāṭil / fāsid",
-          "def": "Valid; null and void (a constituent element missing); voidable (elements present but the object undefined, the cause tainted, or the term uncertain)."
-        }
+        { "term": "ḥuqūq Allāh / ḥuqūq al-nās", "def": "Claims of God — norms protecting public order (worship, some penalties, the interest of all Muslims) — and claims of men, the subjective rights of persons. A universal classification across all fields of the law." },
+        { "term": "ṣaḥīḥ / bāṭil / fāsid", "def": "Valid; null and void (a constituent element missing); voidable (elements present but the object undefined, the cause tainted, or the term uncertain)." }
       ],
       "cards": [
         {
@@ -471,23 +365,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "text_sha": null,
+    "15": {
       "title": "Punishment: ḥudūd, talio, and the principle of doubt",
       "text": "Within transactions the ḤUDŪD — fixed punishments imposed as CLAIMS OF GOD: capital punishment for robbery and illicit sexual relations, amputation for theft, lashes for wine drinking and false accusation — are marked off from everything else by PROCEDURE AND PROOF, as is QIṢĀṢ (talio) for intentional homicide, which is conceived as A RIGHT OF THE VICTIM'S FAMILY: they may DEMAND ITS EXECUTION, ARRANGE A SETTLEMENT, OR RENOUNCE ANY CLAIM — a three-way choice showing it to be their PRIVATE right. Neither may be imposed where a relevant SHUBHA exists, and the maxim runs: 'THE FIXED PUNISHMENTS OF THE LAW BECOME INAPPLICABLE IF DOUBTS EXIST' (AL-ḤUDŪD TUDRAʾU BI-L-SHUBUHĀT). Doubt has THREE DIMENSIONS: SUBJECTIVE ERROR of the perpetrator (he believed himself entitled); OBJECTIVE DOUBT (he mistook another woman for his wife, or killed a man he took for a beast); and PROCEDURAL DOUBT arising from INDIRECT EVIDENCE such as hearsay. Further peculiarities: WOMEN ARE NOT ACCEPTED AS WITNESSES in these trials; if witnesses WITHDRAW their testimony AFTER the condemnation the accused IS RELEASED, by JURISTIC PREFERENCE (ISTIḤSĀN) and CONTRARY TO ANALOGY, which would leave the judgment standing; an avowal may be revoked; and possible witnesses are admonished to 'VEIL' THE SLIPS OF THEIR FELLOW MUSLIMS. But the special status does NOT extend to all corporal punishment: TAʿZĪR, 'chastisement', has NO DEFINED CRIME, NO PRESCRIBED PROCEDURE AND NO FIXED PENALTY — in the classical period kept below the least hadd penalty, but GROWING RAPIDLY IN IMPORTANCE afterwards, so that in the NINETEENTH CENTURY capital punishment was imposed for behaviour the classical fiqh had never punished so harshly. So the protective doubt principle guards precisely the punishments BASED ON REVEALED TEXTS — and the discretionary track beside them was the one that expanded.",
       "terms": [
-        {
-          "term": "shubha",
-          "def": "Doubt excluding a hadd or talio punishment, in three forms: the perpetrator's subjective error, objective error about the object, and procedural doubt from indirect evidence."
-        },
-        {
-          "term": "taʿzīr",
-          "def": "Discretionary chastisement: no defined crime, no prescribed procedure, no fixed penalty — and therefore none of the protections of the doubt principle."
-        }
+        { "term": "shubha", "def": "Doubt excluding a hadd or talio punishment, in three forms: the perpetrator's subjective error, objective error about the object, and procedural doubt from indirect evidence." },
+        { "term": "taʿzīr", "def": "Discretionary chastisement: no defined crime, no prescribed procedure, no fixed penalty — and therefore none of the protections of the doubt principle." }
       ],
       "cards": [
         {
@@ -523,12 +408,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "text_sha": null,
+    "16": {
       "title": "Spheres of the law: against Schacht",
       "text": "Joseph Schacht held that 'NONE OF THE MODERN SYSTEMATIC DISTINCTIONS, BETWEEN PRIVATE AND PUBLIC LAW, OR BETWEEN CIVIL AND PENAL LAW, OR BETWEEN SUBSTANTIVE AND ADJECTIVE LAW, EXISTS WITHIN THE RELIGIOUS LAW OF ISLAM… THE CONCEPT OF ANY SYSTEMATIC DISTINCTION IS LACKING', and arranged his own exposition according to the divisions of MODERN legal science instead. Johansen's answer: the jurists DID differentiate spheres, only not by abstract concepts — they used THE INTENT OF THE ACTORS, THE LAW OF PROCEDURE AND PROOF, CONTRACT TERMINOLOGY AND THE PURPOSE OF THE ACTS. WORSHIP: all acts require a DECLARATION OF INTENT (NIYYA) — the only sphere where all acts do; they are owed ONLY BY MUSLIMS, since non-Muslims lack the capacity to perform them; mistakes are SINS, NOT CRIMES, and the qadi does not correct prayers — a Muslim accused of neglecting them is BELIEVED ON HIS WORD, as one in a fiduciary relationship with God (AMĪN); yet one who admits persistent neglect without excuse faces, in three of the four Sunni schools, CAPITAL PUNISHMENT (the Hanafis are content with imprisonment). COMMERCE: defined by PROFIT — Jassas: 'COMMERCIAL EXCHANGE IS A NAME APPLIED TO BILATERAL RECIPROCAL CONTRACTS THE PURPOSE OF WHICH IS THE QUEST FOR PROFIT'; Sarakhsi: 'THE SALE HAS NOT BEEN INSTITUTED EXCEPT FOR THE SEARCH OF PROFIT AND SURPLUS' — and hence the requirement that genus, kind, quality and quantity be exactly declared, since the contract is a means of INFORMATION about exchange value. Commercial contracts are built on CALCULATION, HARASSMENT (MUḌĀYAQA) AND HAGGLING (MUMĀKASA); marriage, consensual divorce and settlement on INDULGENCE AND GENEROSITY, since — as Kasani puts it — A HUMAN BEING NORMALLY TOLERATES FOR HIS PERSON WHAT HE DOES NOT TOLERATE FOR HIS PROPERTY. MARRIAGE AND FAMILY: distinguished by STRICT FORMALISM — any declaration expressing the will to marry, to emancipate a slave, or to repudiate is BINDING ON ITS AUTHOR WITH NO INTENT REQUIRED — while the financial consideration is treated loosely, because IT IS THE SOCIAL STATUS AND NOT THE FINANCIAL CONSIDERATION THAT MATTERS. Sarakhsi's principle of interpretation covers the whole: 'IT IS THE PURPOSE THAT IS RELEVANT. CONTRACTS DIFFER THROUGH PURPOSE, NOT THROUGH THE CONSIDERATION OF THEIR EXPRESSIONS.'",
       "terms": [],
@@ -566,23 +448,14 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "text_sha": null,
+    "17": {
       "title": "Motzki: the Sunna and the problem of authenticity",
       "text": "Two sources are singled out as the divine basis: the QURʾAN — God's word, literally reproduced, accurately transmitted, finally written down — and the SUNNA, meaning LEGALLY RELEVANT WORDS OR ACTIONS OF THE PROPHET OR HIS TACIT CONSENT to current practices. Its authority rests on Qurʾanic verses calling believers to obey the Prophet, and on the Sunna itself. The rank is explained precisely: the Sunna too is of divine origin, since the Prophet is assumed to have been divinely inspired, BUT THE TEXTS IN WHICH IT IS ARTICULATED ARE HUMAN SPEECH — his own or his companions' — SO ONLY THE CONTENT, NOT THE WORDING, IS OF DIVINE ORIGIN, which gives it SECOND rank. What is debated is whether the Sunna is INDEPENDENT of the Qurʾan and whether either can ABROGATE the other; the majority allow abrogation on conditions. Authenticity is the hard problem: NEITHER SOURCE EXISTS AS AN AUTOGRAPH. For the Qurʾan the scholars answer that SO MANY PEOPLE OF EACH GENERATION TRANSMITTED IT that loss or distortion is improbable. For the Sunna, a hadith is authentic if its transmission is UNBROKEN (MUTTAṢIL) — no gaps in the chain of transmitters, the ISNĀD — and RECURRENT (MUTAWĀTIR) — many transmitters in each generation, especially the first three, spreading it INDEPENDENTLY of each other, the number large enough to PRECLUDE COLLUSION (five, twelve, twenty, seventy are proposed; the more the better). Such a hadith gives the same sure knowledge as a Qurʾanic verse and may even abrogate one. But the theorists know that FEW traditions meet the test: most are ḤADĪTH AL-ĀḤĀD, SOLITARY REPORTS, giving only PROBABILITY — and the majority hold these CAN AND MUST BE USED FOR LEGAL RULES IN RELIGIOUS PRACTICE BUT NOT IN MATTERS OF BELIEF. Since their weight then depends on the individual transmitter, the chains must be studied and the transmitters graded — TRUSTWORTHY (THIQA), RELIABLE (THABT), SINCERE (ṢADŪQ), WEAK (ḌAʿĪF), MENDACIOUS (KADHDHĀB) — and the hadiths in turn SOUND (ṢAḤĪḤ), SATISFACTORY (ḤASAN) or WEAK (ḌAʿĪF).",
       "terms": [
-        {
-          "term": "isnād",
-          "def": "The chain of transmitters accompanying a hadith; its unbrokenness is one of the two conditions of authenticity."
-        },
-        {
-          "term": "mutawātir / āḥād",
-          "def": "Recurrent transmission by many independent transmitters in each generation, yielding certainty — against the solitary report of one or few, yielding only probability."
-        }
+        { "term": "isnād", "def": "The chain of transmitters accompanying a hadith; its unbrokenness is one of the two conditions of authenticity." },
+        { "term": "mutawātir / āḥād", "def": "Recurrent transmission by many independent transmitters in each generation, yielding certainty — against the solitary report of one or few, yielding only probability." }
       ],
       "cards": [
         {
@@ -610,19 +483,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "text_sha": null,
+    "18": {
       "title": "The Western debate, and what it is not about",
       "text": "Many Western specialists doubt the authenticity of the legal hadiths — and the article is careful about what that means: THEY DO NOT INTEND TO UNDERMINE THE IDEA THAT THE SUNNA IS A DIVINE SOURCE OF LAW; IN THEIR VIEW THIS IS A QUESTION OF NORMS AND BELIEF, NOT OF FACTS AND EMPIRIC SCHOLARSHIP. They ask instead which hadiths can serve as sources for reconstructing which period. Two arguments are made. First, an origin in the Prophet's time is improbable because THE HADITHS OF THE PROPHET SEEM TO BE A LATE ELEMENT IN THE DISCUSSIONS OF EIGHTH-CENTURY JURISTS: HAD THEY EXISTED FROM THE BEGINNING THEY WOULD HAVE BEEN USED AS LEGAL ARGUMENTS, AND THERE WOULD HAVE BEEN NO DEBATE ABOUT THEIR RANK AS A LEGAL SOURCE. Second, the very pattern of solitary transmission followed by wide diffusion in the eighth century is held to be AN ANOMALY THAT CANNOT REFLECT REAL TRANSMISSION but points to fabrication of the isnād by the supposed transmitter of the third generation — the 'COMMON LINK'. Against this, other scholars study THE TRANSMISSION HISTORY OF INDIVIDUAL HADITHS, dating them by comparing isnāds, textual variants, the sources in which they appear and the data on the transmitters; in their view THE COMMON LINK CAN ALSO BE A TRANSMITTING COLLECTOR, NOT NECESSARILY A FABRICATOR. By that route several hadiths have been traced back to the first Islamic century — and one of the few assumed to be recurrent turned out to be only 'well known' (MASHHŪR), going back to a single companion and not transmitted literally. The honest conclusion: AN EARLY DATE DOES NOT MEAN THE HADITH ACTUALLY REPORTS A SAYING OR ACTION OF THE PROPHET — THIS REMAINS AN OPEN QUESTION THAT SO FAR CANNOT BE ANSWERED BY WESTERN SCHOLARLY METHODS.",
       "terms": [
-        {
-          "term": "common link",
-          "def": "The transmitter at the point where a solitary chain branches into many. Read by some as the fabricator of the isnād, by others as simply a transmitting collector."
-        }
+        { "term": "common link", "def": "The transmitter at the point where a solitary chain branches into many. Read by some as the fabricator of the isnād, by others as simply a transmitting collector." }
       ],
       "cards": [
         {
@@ -650,8 +517,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

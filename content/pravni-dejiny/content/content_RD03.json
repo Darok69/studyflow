@@ -1,21 +1,8 @@
 {
   "lecture_id": "RD03",
-  "kind": "reading",
-  "course": "RD",
-  "course_title": "Required reading",
-  "course_number": "030362",
-  "unit": "Téma 6",
   "title": "Herzog, A Short History of European Law — the English common law",
-  "source_file": "raw/RD03_3-tamar-herzog-a-short-history-of-an-english-common-law-2018.pdf",
-  "source_sha256": "1b28ef1f4bb41495e22e110b73d1ec3ec4085631140737ea4e2fbdcfb1590413",
-  "source_pages": 24,
-  "slides_per_page": 1,
-  "slide_count": 17,
-  "updated_at": "2026-09-15T13:06:59+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "text_sha": null,
+  "slides": {
+    "1": {
       "title": "England before the divergence",
       "text": "England was part of the ROMAN EMPIRE UNTIL THE FIFTH CENTURY, and Roman law was introduced to the island. What happened at the withdrawal of the troops is debated — most scholars hold that Roman law and Christianity VIRTUALLY CEASED TO EXIST, others that POCKETS OF BOTH PERSISTED. But there is agreement on the sequel: IN THE LATE SIXTH CENTURY ROMAN AND CANON LAW WERE REINTRODUCED BY CHRISTIAN MISSIONARIES, and GERMANIC LAW arrived with the invading Germanic groups. Hence, FROM THE SEVENTH TO THE ELEVENTH CENTURY THE LEGAL SITUATION IN ENGLAND WAS NOT DRAMATICALLY DIFFERENT FROM THAT IN OTHER PARTS OF EUROPE, where native, Germanic, Danish, canon and Roman law all coexisted. The evidence: Roman law TAUGHT AT A SCHOOL IN CANTERBURY in the seventh century; Anglo-Saxon remedies written down to REPLACE BLOOD FEUDS WITH MONETARY PAYMENT; donations and testaments citing JUS ECCLESIASTICUM; charters imitating PAPAL FORMULAS and Italian practice; and after the Norman Conquest the QUADRIPARTITUS (ca. 1108–1118), a Latin translation of Anglo-Saxon laws with treatises FOLLOWING THE STRUCTURE OF ROMAN LAW. The chapter's question follows from this: if England began where everyone else began, WHEN, HOW AND WHY DID IT TAKE A DIFFERENT PATH?",
       "terms": [],
@@ -29,12 +16,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "text_sha": null,
+    "2": {
       "title": "Law under the early Normans",
       "text": "AFTER 1066 NOTHING INDICATED THAT ENGLAND WOULD TAKE A DIFFERENT PATH. The political upheaval — Norman kings establishing themselves as COLONIAL RULERS, taking over the properties of natives — was ACCOMPANIED BY A LEGAL CONTINUITY: the monarchs recorded the laws PREDATING THEIR ARRIVAL, with the alleged aim of ARRESTING ANY POSSIBLE ENCROACHMENT ON THE EXISTING NORMATIVE ORDER. They employed men of letters, among them LANFRANC (1005–1089), an ITALIAN-BORN teacher and canonist, archbishop of Canterbury and member of the King's Council. The teaching of Roman and canon law was introduced IN THE MIDDLE OF THE TWELFTH CENTURY BY A JURIST FROM BOLOGNA, VACARIUS, who taught at OXFORD and composed the LIBER PAUPERUM from the Digest and the Codex with gloss. Copies of the CORPUS IURIS CIVILIS soon circulated; Roman law study spread beyond Oxford; canon law entered local universities and cathedral schools; and many Englishmen studied on the Continent. CANON LAW WAS PRACTISED IN THE ECCLESIASTICAL COURTS THE NORMANS INSTITUTED IN THE 1070s — and only AFTER THE SIXTEENTH-CENTURY REFORMATION did a doctrine emerge requiring canon law, NOW PERCEIVED AS A FOREIGN LAW, to be approved by kings before application.",
       "terms": [],
@@ -56,19 +40,13 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "The superimposition of royal jurisdiction",
       "text": "Norman kings depended on the FEUDAL LORDS who had helped them take the island — and, like other monarchs, WISHED TO LIMIT THEIR POWERS, OBTAIN DIRECT ACCESS TO THEIR VASSALS AND ACQUIRE FULL MASTERY OF THE LAND. Their method was to EXTEND THEIR JURISDICTION THROUGHOUT THE REALM, beginning with HENRY I (1100–1135) and intensifying substantially with HENRY II (1154–1189). The classic nineteenth-century account — now contested as a legend, but worth telling — runs in stages: first the king intervened only when PHYSICALLY NEXT TO THE LITIGATING PARTIES; then he protected SPECIAL DAYS, his coronation, Christmas, Easter, Pentecost; then TERRITORY, a perimeter of UP TO THREE MILES from wherever he was; then the MAIN ROADS AND WATERWAYS, UNDER THE EXCUSE THAT THEY LED TO THE COURT, gradually broadened to include almost all of them; until by the close of the thirteenth century royal lawyers developed A LEGAL FICTION ACCORDING TO WHICH THE KING WAS PRESENT EVERYWHERE IN THE KINGDOM, so that 'the king's peace had fully grown from an occasional privilege into a common right'. In parallel the king claimed MATTERS of particular interest to him. The crucial structural point: local, municipal, feudal and ecclesiastical courts PERSISTED, with royal jurisdiction superimposed as AN EXTREMELY THIN WEB — until the late eighteenth century RARELY MORE THAN FIFTEEN JUDGES IN ALL ROYAL COURTS — and royal judges HAD NO SUPERVISORY FUNCTIONS, their jurisdiction being ENTIRELY SEPARATE. So this was NOT A HIERARCHICAL PYRAMID: it gave litigants A CHOICE of forum. And choice was given ONLY TO FREEMEN: THOSE WHO WERE UNFREE HAD NO RIGHT TO PLEAD BEFORE THE KING.",
       "terms": [
-        {
-          "term": "the king's peace",
-          "def": "The royal protection extended stage by stage — from the king's physical presence, to feast days, to a three-mile perimeter, to roads and waterways, until a legal fiction made the king present everywhere."
-        }
+        { "term": "the king's peace", "def": "The royal protection extended stage by stage — from the king's physical presence, to feast days, to a three-mile perimeter, to roads and waterways, until a legal fiction made the king present everywhere." }
       ],
       "cards": [
         {
@@ -96,23 +74,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "The writ, and the moment it became litigation",
       "text": "EARLY ROYAL INTERVENTION WAS ADMINISTRATIVE RATHER THAN JUDICIAL. On a report of wrongdoing or breach of the peace, the king sent trustworthy individuals AN ORDER TO REDRESS THE SITUATION — written in LATIN ON A SMALL PARCHMENT, BEARING THE KING'S SEAL: a WRIT. Drafted in the royal chancery, IT REPRODUCED THE VERSION OF THE OFFENDED PARTY and instructed how to remedy the matter. Writs carried AN EXECUTIVE PEREMPTORY INSTRUCTION and were EASILY ABUSED: ISSUED EX PARTE at the request of the interested party, THEIR GRANT ASSUMED THAT THE PETITION WAS JUSTIFIED. Because petitioners sometimes MISREPRESENTED what had happened, in the twelfth century writs BEGAN ALLOWING ALLEGED WRONGDOERS TO CHOOSE BETWEEN COMPLYING WITH THE ORDER OR APPEARING BEFORE A ROYAL DELEGATE TO EXPLAIN WHY THEY SHOULD NOT. This was REVOLUTIONARY: IT TRANSFORMED WRITS FROM ADMINISTRATIVE DOCUMENTS INTO ORDERS TO INITIATE LITIGATION. Out of the need to appear and argue arose, in the thirteenth century, PLEADING: the plaintiff narrates the facts justifying the remedy; the defendant DENIES SOME OR ALL THE FACTS, ADMITS THEM BUT GIVES ANOTHER INTERPRETATION, DENIES THE RELEVANCE OF THE WRIT, OR INTRODUCES EXCUSES; the plaintiff answers from a similar set. The exchange was EXTREMELY FORMAL — NOT A DESCRIPTION OF THE FACTS BUT A SET OF PRE-ASCRIBED POSITIONS AND RESPONSES — and continued UNTIL IT BECAME CLEAR WHAT WAS AGREED AND WHAT WAS CONTESTED. Only then did the case go to TRIAL, where the facts were proven by OATH, ORDEAL OR JURY, and the official — NOW PROPERLY FUNCTIONING AS A JUDGE — decided whether the remedy in the writ should be granted.",
       "terms": [
-        {
-          "term": "writ",
-          "def": "A Latin order under the king's seal, first an administrative command to redress a wrong, then — once the addressee could instead appear and object — an order initiating litigation."
-        },
-        {
-          "term": "pleading",
-          "def": "The formal exchange of pre-ascribed positions by which the parties establish what is agreed and what is contested, before any trial of the facts."
-        }
+        { "term": "writ", "def": "A Latin order under the king's seal, first an administrative command to redress a wrong, then — once the addressee could instead appear and object — an order initiating litigation." },
+        { "term": "pleading", "def": "The formal exchange of pre-ascribed positions by which the parties establish what is agreed and what is contested, before any trial of the facts." }
       ],
       "cards": [
         {
@@ -132,12 +101,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "How writs functioned — and what their denial meant",
       "text": "A writ issued by the chancery reproduced two decisions: THAT THE CASE WAS WITHIN ROYAL JURISDICTION, AND THAT IT JUSTIFIED THE KING'S INTERVENTION; it instructed the JUSTICES to hear the case. Conversely, ITS DENIAL MARKED THE IMPOSSIBILITY OF ADDRESSING THE ROYAL COURTS — though litigants could still find redress in local, feudal or ecclesiastical courts. Early writs were AD HOC AND PARTICULAR, delivered SEALED, theoretically USABLE ONLY ONCE, and obtaining one REQUIRED A SUBSTANTIAL INVESTMENT IN TIME, ENERGY AND FUNDS, since royal attention was PRESENTED AS AN EXCEPTIONAL GRANT RATHER THAN A ROUTINE RIGHT. Hence they went to individuals THE KING WANTED TO PROTECT and covered issues he was KEEN TO CONTROL — mainly those that could CURB THE POWERS OF LORDS — or that risked a serious breach of the peace. And the sociological conclusion: writs existed only where there was a conflict, a party who chose to bring it, and a chancery willing to intervene — so THE CREATION OF WRITS WAS DRIVEN BY PRIVATE INTERESTS RATHER THAN BY CONSIDERATIONS OF PUBLIC GOOD.",
       "terms": [],
@@ -159,12 +125,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Institutionalisation — and why 'common' means something different here",
       "text": "By the mid-twelfth and more clearly in the thirteenth century the chancery BEGAN KEEPING A RECORD OF WHICH WRITS HAD BEEN ISSUED and expressed willingness to continue doing the same, so that writs became A FIXED FORMULA THAT LITIGANTS COULD OBTAIN IF THEY KNEW WHAT TO ASK FOR. They acquired names — PRAECIPE QUOD REDDAT ('command that he render'), for land claimed as one's own; NOVEL DISSEISIN ('recent dispossession'), for possession — and a PUBLIC LIST OF OBTAINABLE WRITS appeared. The growth was spectacular: AROUND 1189 SOME FORTY WRITS; BY THE END OF THE THIRTEENTH CENTURY TEN TIMES THAT NUMBER. Royal intervention, ORIGINALLY EXCEPTIONAL, BECAME ROUTINE. Why did litigants prefer royal courts? Historians suggest they thought them MORE EQUITABLE OR MORE EFFICIENT; concretely, the royal courts could COMPEL DEFENDANTS AND JURORS TO APPEAR, their judgments were RECORDED IN ROLLS SAFELY STORED IN THE TOWER OF LONDON, and they may have been seen as offering AN IMPERSONAL, RULE-BOUND PROCESS. And now the term: the system was 'COMMON' BECAUSE IT WAS SUPERIMPOSED ON LOCAL, MUNICIPAL AND FEUDAL JURISDICTIONS, POTENTIALLY ENCOMPASSED THE ENTIRE REALM, AND WAS OPEN TO ALL THOSE UNDER ALLEGIANCE TO THE KING — ITS COMMONNESS WAS POLITICAL. That stands in clear opposition to IUS COMMUNE, called common because it was THEORETICALLY SHARED BY ALL THE INHABITANTS OF LATIN CHRISTENDOM, divided into rival polities yet adhering to a single culture, religion and law. Two different meanings of one word.",
       "terms": [],
@@ -186,19 +149,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Remedies create rights",
       "text": "In theory the king supplied THE FORUM AND THE PROCEDURE, NOT THE SUBSTANTIVE NORMS. In practice, by granting access and remedies in some cases and not others, HE SUBSTANTIALLY MODIFIED THE EXISTING NORMATIVE ORDER: EACH TIME THE CHANCERY ISSUED A WRIT ALLOWING A SPECIFIC REMEDY, IT ALSO IMPLICITLY RECOGNISED THE EXISTENCE OF A RIGHT — AND DENYING A WRIT WAS THE SAME AS THE SUPPRESSION OF A RIGHT. Such rights theoretically continued to exist but were IN PRACTICE NO LONGER AVAILABLE. THIS RELATIONSHIP BETWEEN REMEDIES AND RIGHTS WAS TO BECOME THE MOST SALIENT FEATURE OF COMMON LAW. Examples from the formative period: the ASSIZE OF MORT D'ANCESTOR created the RIGHT TO INHERIT LAND, by letting a plaintiff sue for land he had inherited on a kinsman's death; the ASSIZE OF CLARENDON (1166) established the right NOT TO BE CHARGED WITH A CRIME UNLESS THERE WAS AN OFFICIAL INDICTMENT OR PRESENTMENT; and HABEAS CORPUS ('have the body'), ordering authorities to produce the person in custody, was later read as A REMEDY AGAINST UNLAWFUL IMPRISONMENT AND THEREFORE AS INDIRECTLY RECOGNISING THE RIGHT NOT TO BE IMPRISONED WITHOUT CAUSE. The doctrine's force shows in 1704, when the HOUSE OF LORDS reversed the Queen's Bench in the case of a man denied the vote: the lower court had reasoned that HE NEEDED NO REMEDY BECAUSE HIS CANDIDATE HAD WON ANYWAY. The Lords disagreed — 'IF THE PLAINTIFF HAS A RIGHT, HE MUST OF NECESSITY HAVE A MEANS TO VINDICATE AND MAINTAIN IT AND A REMEDY IF HE IS INJURED'; it was 'A VAIN THING TO IMAGINE A RIGHT WITHOUT A REMEDY, FOR WANT OF RIGHT AND WANT OF REMEDY ARE RECIPROCAL'. The logic is inescapable: refusing the remedy would have been to deny the right to vote itself.",
       "terms": [
-        {
-          "term": "ubi remedium ibi ius",
-          "def": "The common law's central feature: granting a writ implicitly recognises a right, and denying one suppresses it — 'want of right and want of remedy are reciprocal'."
-        }
+        { "term": "ubi remedium ibi ius", "def": "The common law's central feature: granting a writ implicitly recognises a right, and denying one suppresses it — 'want of right and want of remedy are reciprocal'." }
       ],
       "cards": [
         {
@@ -218,12 +175,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "The centrality of procedure — and why there were almost no appeals",
       "text": "Common law focused attention NOT ON ENSURING MATERIAL JUSTICE, AS CONTINENTAL COURTS DID, BUT ON CONTROLLING THE WAY THE COURTS FUNCTIONED: IT DID NOT ASK WHAT THE PROPER RESULT SHOULD BE BUT WHETHER THE RIGHT PROCEDURE WOULD BE FOLLOWED. Pleading was therefore the most important issue, and ensuring it was done correctly became THE MAIN TASK OF ROYAL JUSTICES, who presided over the exchanges and made sure the parties FOLLOWED AN ACCEPTABLE SCRIPT. Legal literature followed: the YEARBOOKS did NOT describe rules and principles or narrate decisions but REPRODUCED THE DIALOGUES between the parties and the judge — the issue for them being HOW THE FACTS OF THE CONFLICT WERE TRANSFORMED INTO LEGAL ARGUMENTS. Procedure also SAFEGUARDED THE PRESTIGE of royal justice: to compete with the other courts it had to assure litigants that A CERTAIN PROCEDURE WOULD BE FOLLOWED WITHOUT EXCEPTIONS BECAUSE OF THE IDENTITY OF THE PARTIES, and the rules devised for that are the ones WE NOW IDENTIFY AS DUE PROCESS, making judges IMPARTIAL UMPIRES giving both sides the same opportunities. From all of which follows a striking consequence: COMMON LAW LEFT ALMOST NO ROOM FOR APPEALS. 'WRITS OF ERROR' let a superior court review proceedings BUT WERE MOSTLY RESTRICTED TO PROCEDURAL ERRORS EVIDENT IN THE RECORD, not to the factual or legal basis of the decision; exceptionally a NEW TRIAL was ordered instead. Hence even in the fifteenth century common-law judges OFTEN REFUSED TO DEPART FROM THE TRADITIONAL SYSTEM OF RULES IN ORDER TO ENSURE MATERIAL JUSTICE. The contrast could not be greater: CONTINENTAL JUDGES WERE CHARGED WITH DOING JUSTICE, and how they arrived at a just decision was NOT PARTICULARLY CONSEQUENTIAL; procedure there rested on the 'PRACTICE OF THE COURT' and could be ABBREVIATED OR PROLONGED as justice required; until the sixteenth or seventeenth century Continental judges could decide 'FOLLOWING THEIR CONSCIENCE' RATHER THAN THE LAW. So the appeals run opposite ways: ENGLISH APPEALS ON PROCEDURE, CONTINENTAL APPEALS ON THE ALLEGATION THAT THE DECISION WAS UNJUST, the question of procedure being there almost irrelevant.",
       "terms": [],
@@ -253,12 +207,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "The professionals, and the turn to laymen",
       "text": "In the formative period the higher royal administration, judges included, were OFTEN TRAINED PROFESSIONALS WHO HAD STUDIED CANON OR ROMAN LAW. RANULF DE GLANVIL (ca. 1112–1190), an influential judge under Henry II, was said to have written the TRACTATUS DE LEGIBUS ET CONSUETUDINIBUS REGNI ANGLIAE (ca. 1187–1189), a manual surveying the royal courts and composed IN LATIN RATHER THAN IN FRENCH — the language of the court — PROBABLY TO BRING IT TO EUROPEAN-WIDE SCHOLARLY ATTENTION. HENRY OF BRACTON is the alleged author of DE LEGIBUS ET CONSUETUDINIBUS ANGLIAE (ca. 1220s–1250s), now attributed to several hands; whoever wrote it was EXTREMELY FAMILIAR WITH ROMAN LAW, appealing to IUS COMMUNE CATEGORIES AND TO SCHOLASTICS to lend coherence to the English records, EMULATING THE ORDER AND DIVISIONS OF THE CORPUS IURIS CIVILIS and citing it alongside canon law. These cases were NOT unique: in the twelfth and thirteenth centuries common-law experts ADOPTED ROMAN LAW SOLUTIONS MUCH MORE FREQUENTLY THAN WE HAVE IMAGINED. Then the turn: FROM THE FOURTEENTH CENTURY MONARCHS BEGAN APPOINTING TO THE BENCH LAYMEN WITH NO UNIVERSITY TRAINING — THE MAIN QUALIFICATION OF A ROYAL JUDGE WAS NOW THAT HE WAS AN OBEDIENT SERVANT — and since great practical knowledge was needed to know which writ fitted which case, judges came to be selected FROM AMONG THE ADVOCATES WORKING AT THE KING'S COURT. Adjudication also required FRENCH, the spoken language of the royal courts, and LATIN, its written language, well into the early modern period. Out of this grew the professions — PROCURATORS who stood for an absent party, BARRISTERS who did the actual pleading, ATTORNEYS who counselled clients — and the INNS: FOUR INNS OF COURT for barristers and an INN OF CHANCERY where aspiring attorneys watched writs being drawn up, offering MOCK TRIALS, ARGUMENTATION EXERCISES ('MOOTS') and LECTURES ('READINGS') on written texts, mostly statutes.",
       "terms": [],
@@ -280,12 +231,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "Calvin's Case (1608): how the system actually worked",
       "text": "The judges declared in 1608 that BIRTH IN A TERRITORY UNDER ALLEGIANCE TO THE MONARCH was what rendered individuals English. CALVIN — really Robert Colville — was a Scot born AFTER THE ACCESSION OF KING JAMES OF SCOTLAND TO THE ENGLISH THRONE (1603); the question was whether he could be an English subject, which mattered because IF ENGLISH HE COULD INHERIT LAND IN ENGLAND. The court said yes: ALLEGIANCE WAS OWED TO A PHYSICAL PERSON (JAMES), NOT TO A CROWN OR A KINGDOM, so those born under allegiance to James in one kingdom were subject to his jurisdiction everywhere. And now the mechanism. THE CASE WAS FABRICATED, sponsored by people who wanted to force a decision on the status of Scots. James's own commission had concluded that Scots should be treated as English subjects, BUT THE ENGLISH PARLIAMENT REFUSED. BECAUSE UNDER COMMON LAW REMEDIES CREATED RIGHTS, THE ONLY WAY TO UNBLOCK THE SITUATION WAS TO BRING A CASE IN WHICH, BY GIVING A REMEDY, THE JUDGES WOULD RECOGNISE A RIGHT — so they had to FIND A PERSON IN NEED OF A REMEDY: a young child born in Scotland after the union who had inherited property in England and was denied it as a foreigner. The court gave him the remedy, and thereby the status. So AS LATE AS 1608 THE QUESTION OF WHO WAS AN ENGLISH SUBJECT WAS SETTLED NOT BY ROYAL DECREE OR PARLIAMENTARY ACT BUT BY APPEALING TO THE COURTS AND REQUESTING A REMEDY.",
       "terms": [],
@@ -307,12 +255,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "How a procedural difficulty became a rule about foreigners",
       "text": "The best illustration in the chapter of common-law reasoning running backwards. TODAY WE KNOW THAT THE DISTINCTION BETWEEN THOSE WHO COULD AND COULD NOT INHERIT LAND PROBABLY HAD NOTHING TO DO WITH FOREIGNNESS, AND THAT INITIALLY BIRTH OUTSIDE THE KINGDOM DID NOT MAKE PEOPLE ALIEN. The origin was PROCEDURAL: the writ regulating succession required petitioners to PROVE THEIR GENEALOGY BY SUPPLYING LOCAL WITNESSES; for someone born outside the court's jurisdiction the king could order the sheriff of their hometown to send local men — BUT THIS SOLUTION WAS IMPOSSIBLE WHEN PETITIONERS WERE BORN ABROAD. So those born abroad WERE ELIGIBLE TO INHERIT BUT FACED REAL DIFFICULTIES IN PROVING IT; whether they were English was COMPLETELY IRRELEVANT. Then the tight connection between remedy and right closed the circle: THE PRACTICAL DIFFICULTY IN PROVING GENEALOGY, AND THEREFORE IN SECURING A REMEDY, WAS INTERPRETED AS INABILITY TO INHERIT — THE ABSENCE OF A RIGHT. Thereafter foreign-born individuals had no right to inherit land, AND THOSE WHO COULD NOT INHERIT BECAUSE BORN ABROAD WERE IDENTIFIED AS FOREIGNERS. A rule of substantive law, and eventually a definition of who is a foreigner, produced by an evidentiary inconvenience.",
       "terms": [],
@@ -326,19 +271,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "text_sha": null,
+    "12": {
       "title": "The backlash: Magna Carta, the freeze, and the birth of equity",
       "text": "The proliferation of writs was NOT APPRECIATED BY THE LORDS AND BARONS WHO SAW THEIR POWERS DIMINISH, and the protests led to the rebellion ending in the MAGNA CARTA (1215). CONTRARY TO WHAT IS COMMONLY BELIEVED, THE MAGNA CARTA SOUGHT TO GUARANTEE MAINLY THE PRIVILEGES OF THE BARONS AND FREEMEN, NOT THE RIGHTS OF ALL ENGLISHMEN: it was concerned with FEUDAL CONTROL OVER LAND AND FEUDAL INHERITANCE, which the legal developments of the previous decades threatened. It failed to settle the matter, so under renewed baronial pressure HENRY III IN 1258 ORDERED HIS OFFICIALS TO HALT THE CREATION OF NEW WRITS, and in 1285 EDWARD I promised that NO NEW ROYAL COURTS WOULD BE ESTABLISHED and none would extend its jurisdiction to new subject matters. But the demand continued — and in the LATE FOURTEENTH CENTURY a new system appeared, justified by the argument that although no new writs were to be created, ROYAL CONSCIENCE COULD BE DISCHARGED ONLY IF THE KING DID WHAT HE OUGHT TO DO, THAT IS, DEFEND THE WEAK AND DISPENSE JUSTICE. In exceptional cases he would let his CHANCELLOR hear litigants and grant AN EXTRAORDINARY REMEDY WHERE EXISTING WRITS SUPPLIED NONE. That system is EQUITY, adjudicated in the CHANCERY COURT: INTENTIONALLY FASHIONED AS FLEXIBLE, WITH FLUIDLY DEFINED RULES AND NO PRESET LIST OF CAUSES OF ACTION, depending on the chancellor's DISCRETIONARY POWERS — but NOT ARBITRARY, since most Chancery officials were UNIVERSITY TRAINED AND MANY WERE ECCLESIASTICS, and so adopted THE CRITERIA, DOCTRINES AND PROCEDURE OF CANON AND ROMAN LAW. Note the irony: the freeze on common-law creativity is what let Roman and canon law back in.",
       "terms": [
-        {
-          "term": "equity",
-          "def": "The extraordinary jurisdiction of the Chancellor from the late 14th century, giving remedies where no writ existed — flexible, discretionary, and shaped by the canon and Roman law of its university-trained officials."
-        }
+        { "term": "equity", "def": "The extraordinary jurisdiction of the Chancellor from the late 14th century, giving remedies where no writ existed — flexible, discretionary, and shaped by the canon and Roman law of its university-trained officials." }
       ],
       "cards": [
         {
@@ -366,19 +305,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "text_sha": null,
+    "13": {
       "title": "What equity invented, and how it hardened",
       "text": "In the fourteenth and fifteenth centuries EQUITY WAS WHERE THE MOST EXCITING LEGAL DEVELOPMENTS TOOK PLACE, FILLING THE VACUUM LEFT BY THE INSTITUTIONALISATION OF COMMON LAW. Its creations: INJUNCTIONS — remedies FORBIDDING THE DEFENDANT FROM TAKING ACTIONS OTHERWISE ALLOWED; means of ENFORCING JUDICIAL DECISIONS, such as SEQUESTRATION, authorising the seizure of the property of an opponent who refused to obey; the PROHIBITION OF ENFORCING UNREASONABLE, EVEN IF LEGAL, CONTRACTS; and whole new areas — TRUST, MORTGAGES, GUARDIANSHIP, BANKRUPTCY, COMMERCIAL PARTNERSHIP, CORPORATIONS — plus doctrines on HONEST MISTAKES AND FRAUD. Then it repeated the history of the writs: OVER TIME EQUITY ALSO BECAME MORE INSTITUTIONALISED AND MORE RIGID, EVOLVING INTO A SYSTEM OF PERMANENT SOLUTIONS listed as remedies the parties could invoke. By the late fifteenth century it was A SECOND SYSTEM OF ROYAL ADJUDICATION RUNNING PARALLEL TO COMMON LAW, and the two began integrating — partly because common lawyers became chancellors, as THOMAS MORE (1478–1535) did, and partly because chancellors began APPLYING THE SAME PRINCIPLES OF FAIRNESS TO ALL SIMILAR CASES. That became the rule in the SECOND HALF OF THE SEVENTEENTH CENTURY, when the principles of equity were FORMALLY SYSTEMATISED AND CLASSIFIED — 'THEREAFTER THE ROYAL CONSCIENCE THAT EQUITY GUARDED BECAME CIVIL AND POLITICAL RATHER THAN NATURAL AND INTERNAL', no longer a subjective royal sense of right and wrong but AN OBJECTIVE FAIRNESS GIVING COMPARABLE SOLUTIONS TO SIMILAR CONFLICTS.",
       "terms": [
-        {
-          "term": "injunction",
-          "def": "An equitable remedy forbidding the defendant from doing what would otherwise be allowed — one of the instruments equity created where the writs could not."
-        }
+        { "term": "injunction", "def": "An equitable remedy forbidding the defendant from doing what would otherwise be allowed — one of the instruments equity created where the writs could not." }
       ],
       "cards": [
         {
@@ -398,12 +331,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "text_sha": null,
+    "14": {
       "title": "Royal legislation and Parliament",
       "text": "Alongside the writs and equity, English monarchs LEGISLATED. HENRY II's ASSIZE OF CLARENDON (1166) modified criminal procedure, instructing that ALL CRIMINAL ACCUSATIONS WERE TO BE MADE BY A JURY OF TWELVE MEN (PRESENTMENT), and established that CRIMINAL JURISDICTION WOULD BE IN ROYAL HANDS, as would the execution of convicted felons. EDWARD I's statutes MADE TRIAL BY JURY COMPULSORY IN CRIMINAL CASES, extended actions for damages and modified land regimes. HENRY VIII's STATUTE OF USES (1536) regulated ownership and taxation and the STATUTE OF WILLS (1540) allowed owners to determine who would inherit their land; the STATUTE OF FRAUDS (1677) conditioned the validity of certain real-estate transactions on WRITING AND APPROPRIATE SIGNATURE. From the late thirteenth and fourteenth centuries PARLIAMENT — which HAD BEGUN AS AN ADVISORY COUNCIL AND A COURT — acquired the hearing and presentation of PETITIONS, and THE KING'S RESPONSE TO THESE PETITIONS WAS CONSIDERED A LEGISLATIVE ACT, especially where it included instructions for the future; but THE POWER TO ENACT REMAINED EXCLUSIVELY IN THE HANDS OF THE KING. Historians dispute the weight of all this: some hold statutes marginal — royal courts assumed LEGISLATION COULD NOT CONTRADICT EXISTING ARRANGEMENTS and interpreted it freely, even ignoring it; others note that judges discussed statutes as early as the thirteenth century, that lawyers at the Inns were TAUGHT TO COMMENT ON ROYAL LEGISLATION with statute books copied for their use, and that some even call THE STUDY OF STATUTES THE CENTREPIECE OF A LAWYER'S EDUCATION. The sceptical question Herzog leaves: IS IT POSSIBLE THAT OUR IMAGE OF EARLY COMMON LAW WAS INFLUENCED TOO MUCH BY SEVENTEENTH-CENTURY DEVELOPMENTS THAT SOUGHT TO DECENTRE THE KING AND MAKE THIS LAW CUSTOMARY?",
       "terms": [],
@@ -433,12 +363,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "text_sha": null,
+    "15": {
       "title": "Was England exceptional? The case against",
       "text": "The traditional narrative: England was exceptional because of THE IMPERMEABILITY OF ITS LEGAL SYSTEM TO ROMAN LAW — ius commune failed to penetrate because the Normans HAD NO REASON TO PERMIT IT, since BY THE TIME IT BECAME AVAILABLE THE ENGLISH ALREADY HAD A NEW, MODERN, CENTRALIZED AND EFFICIENT LEGAL SYSTEM THAT NEEDED NO IMPROVEMENT. Herzog's answer is a demolition in four moves. FIRST, DURING THE MIDDLE AGES NO MODERN, CENTRALIZED OR EFFICIENT ENGLISH SYSTEM EVER EXISTED: the normative order was divided among royal, feudal and local courts, with rules of Roman, canon, Germanic, feudal and local origin; royal courts had very few judges and, until the eighteenth century, relatively few cases. SECOND, COMMON LAW WAS DEVELOPED BY A FRENCH DYNASTY USING THE SERVICES OF ROMAN AND CANON LAW JURISTS, WHO EMPLOYED IUS COMMUNE TERMINOLOGY, CONCEPTS AND METHODOLOGY — in GUARDIANSHIP AND DEFAMATION common law was highly influenced by the ECCLESIASTICAL COURTS, and as late as the fifteenth century Roman jurists were allowed to plead; even in the eighteenth and nineteenth centuries judges may have treated Roman law as NOT BINDING BUT A COLLECTIVE WISDOM WORTH CONSIDERING, much as Continental jurists used it to support their IUS PROPRIUM. THIRD, THE AIM WAS THE SAME EVERYWHERE — affirming royal superiority over the feudal lords, justified by the duty to guarantee peace — ONLY THE MEANS DIFFERED: the Normans created their own courts, while other monarchs used ius commune for the same purpose, believing its combination of Roman and canon law SUFFICIENTLY UNIVERSAL to solve conflicts among communities with radically distinct laws (the German reception is now read as the emperors' urgent need for COORDINATION AND PEACEMAKING AMONG RIVAL POLITIES).",
       "terms": [],
@@ -468,12 +395,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "text_sha": null,
+    "16": {
       "title": "Where the divergence really lies: juries, and the date",
       "text": "IF ALL OF THE ABOVE IS TRUE, THEN ENGLAND DIVERGED FROM EUROPE ONLY GRADUALLY — noticeably in the FOURTEENTH AND FIFTEENTH CENTURIES, when the monarchs at last extended royal jurisdiction efficiently and when they stopped appointing clerics and jurists. The second engine of divergence is the LAY JURY. Juries began as ASSEMBLIES OF LOCAL MEN ANSWERING COLLECTIVELY UNDER OATH to questions from royal officials, used in the eleventh and twelfth centuries mostly TO COLLECT INFORMATION LOCALLY; in the thirteenth century they were introduced in CIVIL AND CRIMINAL litigation as a means of FACT-FINDING when oath-taking, trial by battle and ordeal BECAME UNAVAILABLE OR WERE CONSIDERED UNTRUSTWORTHY. Initially they testified from what they already knew as members of local society; BY THE FIFTEENTH CENTURY THEY COULD ALSO CONSIDER INFORMATION BROUGHT TO THEIR ATTENTION. Juries existed on the Continent too, with similar tasks — BUT AFTER THE CONTINENT ADOPTED THE INQUISITORIAL PROCESS IN THE THIRTEENTH CENTURY, IDENTIFYING THE FACTS AND DECIDING THE CASE WAS RESERVED TO JUDGES, NOT JURIES. Hence the two paths: on the Continent the judge decides WHETHER TO INVESTIGATE, WHETHER TO BRING THE SUSPECT TO TRIAL, WHETHER THE PROOFS SUFFICE AND WHAT A JUST RESOLUTION WOULD BE; in England the judge OVERSEES PROCEDURE while JURIES DECIDE WHETHER TO PROSECUTE, WHAT THE FACTS ARE, AND WHETHER A CONVICTION SHOULD FOLLOW. The same distinction holds, less notoriously, in civil cases.",
       "terms": [],
@@ -495,12 +419,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "text_sha": null,
+    "17": {
       "title": "Siblings, not twins",
       "text": "The differences did not make the English system NEW. Many historians point to STRIKING SIMILARITIES BETWEEN COMMON AND ANCIENT ROMAN LAW. In both, CONFLICT RESOLUTION AND THE COURTS WERE AT THE CENTRE. In both, trials were divided into a first stage FRAMING THE DEBATED QUESTION — BEFORE A PRAETOR IN ROME, DURING PLEADING BEFORE A JUDGE IN ENGLAND — and a second in which NONPROFESSIONALS — IUDEX IN ROME, JURORS IN ENGLAND — EVALUATED THE FACTS AND RENDERED JUDGMENT. In both, BY GRANTING REMEDIES the praetor and the king's officials CREATED RIGHTS; those remedies — WRITS IN ENGLAND, FORMULAS IN ROME — began as AD HOC solutions and, by repetition, became A CLOSED LIST: the praetorian EDICT in Rome, the PUBLIC REGISTRY OF WRITS in England. And after formulas and writs FOSSILIZED, legal creation was channelled elsewhere: JURISPRUDENCE AND LEGISLATION IN ROME, LEGISLATION AND EQUITY IN ENGLAND. Hence the verdict: IUS COMMUNE AND COMMON LAW WERE PERHAPS NOT TWINS, BUT THEY WERE CERTAINLY SIBLINGS — one historian would 'CALL THE COMMON LAW SIMPLY A VARIANT, ADMITTEDLY AN ECCENTRIC VARIANT, OF THE MULTITUDE OF LEGAL SYSTEMS THAT ULTIMATELY DERIVED FROM IUS COMMUNE'. The Norman monarchs promoted their jurisdiction in unprecedented ways, BUT THE LEGAL SYSTEM THEY INSTITUTED WAS HEIR TO A EUROPEAN PAST AND ENGAGED IN THEIR EUROPEAN PRESENT. And the closing thesis, which is the one to carry into the exam: IF ENGLAND SERIOUSLY PARTED WAYS FROM EUROPE, THIS MAY HAVE HAPPENED NOT DURING THE MIDDLE AGES BUT DURING THE SIXTEENTH AND SEVENTEENTH CENTURIES, WHEN COMMON LAW WAS REINVENTED BY LEGAL EXPERTS WHO SOUGHT TO CURB ROYAL AMBITIONS.",
       "terms": [],
@@ -522,8 +443,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

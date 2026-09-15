@@ -1,0 +1,27 @@
+{
+  "exam": null,
+  "courses": [
+    {
+      "code": "UKAZKAUK",
+      "number": "",
+      "title": "Ukázková učebnice StudyFlow",
+      "subject": "Ukázka — Úvod do římského práva",
+      "lectures": [
+        {
+          "id": "ukazkaU01",
+          "unit": "Téma 1",
+          "title": "Prameny římského práva",
+          "slides": 5,
+          "cards": 4
+        },
+        {
+          "id": "ukazkaU02",
+          "unit": "Téma 2",
+          "title": "Jak si udělat vlastní učebnici přes Clauda",
+          "slides": 4,
+          "cards": 4
+        }
+      ]
+    }
+  ]
+}

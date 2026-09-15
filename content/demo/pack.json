@@ -1,0 +1,156 @@
+{
+  "subject": "Ukázka — Úvod do římského práva",
+  "title": "Ukázková učebnice StudyFlow",
+  "code": "UK",
+  "lectures": [
+    {
+      "id": "U01",
+      "unit": "Téma 1",
+      "title": "Prameny římského práva",
+      "slides": [
+        {
+          "n": 1,
+          "title": "Jak číst tuhle učebnici",
+          "text": "Tohle je UKÁZKA, ne kurz. Je tu proto, abys viděl, jak učebnice ve StudyFlow vypadá zevnitř — a mohl si stejnou nechat udělat ze svých vlastních přednášek.\n\nDrž se struktury, kterou vidíš: jedna PŘEDNÁŠKA je jedno téma zkoušky, jeden ODDÍL je jedna myšlenka, a OTÁZKY visí u toho oddílu, ze kterého se dají zodpovědět. Právě proto, že otázka zná svůj oddíl, ti appka u karty umí ukázat i výklad, ze kterého vyšla.\n\nA druhá věc, kterou si všimni: text není odrážkový výtah z prezentace. Je psaný souvisle, protože se z něj učíš sám, bez přednášejícího vedle sebe. Odrážky fungují, dokud někdo mluví; učebnice musí mluvit sama."
+        },
+        {
+          "n": 2,
+          "title": "Co znamená „prameny práva“",
+          "text": "PRAMEN PRÁVA má dva různé významy a zaměnit je je klasická chyba u zkoušky. PRAMEN VE FORMÁLNÍM SMYSLU je forma, ve které právo platí — zákon, edikt, obyčej. PRAMEN V MATERIÁLNÍM SMYSLU je to, co právo vyvolalo — hospodářské poměry, mocenské zájmy, spor, který se musel nějak rozhodnout. A PRAMEN POZNÁNÍ je něco třetího: text, ze kterého o právu víme, třeba rukopis nebo nápis.\n\nTen rozdíl není slovíčkaření. Když se ptají „jaké byly prameny klasického práva“, chtějí formy; když se ptají „proč vzniklo praetorské právo“, chtějí materiální příčinu.",
+          "terms": [
+            {
+              "term": "pramen ve formálním smyslu",
+              "def": "Forma, ve které právo platí — zákon, edikt, obyčej."
+            },
+            {
+              "term": "pramen v materiálním smyslu",
+              "def": "To, co právo vyvolalo: hospodářské poměry, zájmy, spory."
+            },
+            {
+              "term": "pramen poznání",
+              "def": "Text, ze kterého o právu víme — rukopis, nápis, papyrus."
+            }
+          ],
+          "cards": [
+            {
+              "q": "Rozliš pramen práva ve formálním a v materiálním smyslu a přidej pramen poznání.",
+              "a": "Formální pramen je FORMA, ve které právo platí — zákon, edikt, obyčej. Materiální pramen je to, CO PRÁVO VYVOLALO — hospodářské poměry, zájmy, spor, který se musel rozhodnout. Pramen poznání je TEXT, ZE KTERÉHO O PRÁVU VÍME — rukopis, nápis, papyrus.",
+              "kind": "rozliseni",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Zákon dvanácti desek",
+          "text": "Kolem roku 451–450 př. n. l. vzniká ZÁKON DVANÁCTI DESEK (lex duodecim tabularum), první sepsání římského práva. Podstatné není, co všechno v něm stálo — text se nedochoval a známe ho jen z citací. Podstatné je, PROČ vznikl: plebejové vymohli, aby právo bylo ZAPSANÉ A VEŘEJNÉ, protože dokud ho znali jen patricijští pontifikové, znamenalo „znát právo“ totéž co „mít moc“.\n\nTohle je vzorec, který se v dějinách práva opakuje pořád dokola: zveřejnění pravidla je politický akt, ne technický. Uvidíš ho znovu u středověkých kodifikací i u ústav 19. století.",
+          "terms": [
+            {
+              "term": "lex duodecim tabularum",
+              "def": "Zákon dvanácti desek, kolem 451–450 př. n. l. — první sepsání římského práva."
+            }
+          ],
+          "cards": [
+            {
+              "q": "Kdy vznikl Zákon dvanácti desek a v čem byl jeho hlavní význam?",
+              "a": "Kolem 451–450 př. n. l. Význam nebyl v obsahu — ten se nedochoval a známe ho z citací — ale v tom, že právo bylo POPRVÉ ZAPSANÉ A VEŘEJNÉ. Dokud ho znali jen patricijští pontifikové, byla znalost práva mocí; jeho zveřejnění bylo politický akt.",
+              "kind": "cisla",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Praetorský edikt",
+          "text": "PRAETOR nebyl zákonodárce a nové právo tvořit nesměl. Přesto ho tvořil — a stojí za to rozumět jak. Při nástupu do úřadu vyhlásil EDIKT: seznam žalob, které během roku propůjčí. Kdo se do některé z nich vešel, dostal soudní ochranu; kdo ne, neměl nic.\n\nTím se dělo přesně to, co v anglickém common law dělaly writy: ROZHODOVÁNÍM O TOM, KOMU DÁ ŽALOBU, ROZHODOVAL PRAETOR O TOM, KDO MÁ PRÁVO. Formálně jen spravoval proces. Fakticky měnil obsah práva — a dělal to tak, že civilní právo (ius civile) nechával stát a vedle něj stavěl vlastní vrstvu, IUS HONORARIUM.\n\nEdikty se rok co rok z velké části opisovaly, takže se ustálily; kolem roku 130 n. l. je Salvius Iulianus sjednotil do edictum perpetuum a tím se tahle cesta tvorby práva uzavřela.",
+          "terms": [
+            {
+              "term": "ius honorarium",
+              "def": "Právo úřednické — vrstva, kterou vedle ius civile vytvořil praetor svým ediktem."
+            },
+            {
+              "term": "edictum perpetuum",
+              "def": "Ustálený praetorský edikt, sjednocený Salviem Iulianem kolem roku 130 n. l."
+            }
+          ],
+          "cards": [
+            {
+              "q": "Jak mohl praetor měnit právo, když nesměl vydávat zákony?",
+              "a": "Vyhlášením EDIKTU, seznamu žalob, které během svého roku propůjčí. Kdo se do některé vešel, dostal soudní ochranu, kdo ne, neměl nic — takže ROZHODOVÁNÍM O ŽALOBÁCH rozhodoval o tom, kdo má právo. Formálně spravoval jen proces; fakticky postavil vedle ius civile vlastní vrstvu, IUS HONORARIUM.",
+              "kind": "pripad",
+              "level": 3
+            },
+            {
+              "q": "Čím se praetorský edikt podobá anglickým writům?",
+              "a": "Obojí je systém ŽALOBNÍCH FOREM, ve kterém vzniká hmotné právo z procesního: kdo dostane žalobu, má právo, a komu se odepře, tomu právo fakticky zanikne. A obojí se opakováním ustálilo do uzavřeného seznamu — edictum perpetuum kolem roku 130 n. l., registr writů ve 13. století.",
+              "kind": "srovnani",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "title": "Co si z tématu odnést",
+          "text": "Tři věci. Zaprvé, prameny se dělí podle toho, na co se ptáš — forma, příčina, nebo text, ze kterého to víme. Zadruhé, sepsání práva je politický krok, ne redakční. Zatřetí, právo umí vzniknout i tam, kde nikdo nemá pravomoc ho tvořit, stačí, když někdo rozhoduje o přístupu k soudu.\n\nTakhle vypadá poslední oddíl přednášky, který je dobré psát: ne shrnutí všeho, ale to, co má zůstat v hlavě, až se detaily zapomenou."
+        }
+      ]
+    },
+    {
+      "id": "U02",
+      "unit": "Téma 2",
+      "title": "Jak si udělat vlastní učebnici přes Clauda",
+      "slides": [
+        {
+          "n": 1,
+          "title": "K čemu to je",
+          "text": "Tahle přednáška není o právu — je návod. Vysvětluje, jak dostat do StudyFlow vlastní předmět, aniž bys cokoli psal ručně.\n\nPrincip je jednoduchý: StudyFlow umí mluvit s Claudem. Ty dáš Claudovi svoje přednášky, on z nich udělá učebnici i kartičky a rovnou je nahraje sem. Ty pak jen otevřeš appku a máš to tam."
+        },
+        {
+          "n": 2,
+          "title": "Krok za krokem",
+          "text": "1. V Nastavení najdi sekci VLASTNÍ UČEBNICE Z CLAUDA a klikni na „Vytvořit propojení“. Zobrazí se jeden příkaz — zkopíruj ho. Obsahuje tvůj klíč a ukáže se jen jednou.\n\n2. Ten příkaz vlož do Claude Code a odešli. Tím Claude získá přístup k tvému StudyFlow — a jen k tvému.\n\n3. Dej Claudovi svoje podklady: PDF přednášek, slidy, skripta, poznámky. Klidně celou složku.\n\n4. Řekni mu, co chceš. Například: „Přečti tyhle přednášky a udělej z nich ve StudyFlow učebnici i s otázkami.“\n\n5. Otevři StudyFlow. Učebnice i karty tam jsou.",
+          "cards": [
+            {
+              "q": "Co je první krok k vlastní učebnici ve StudyFlow?",
+              "a": "V Nastavení v sekci „Vlastní učebnice z Clauda“ vytvořit propojení a zkopírovat zobrazený příkaz — obsahuje klíč a ukáže se jen jednou. Ten příkaz se pak jednou vloží do Claude Code.",
+              "kind": "proces",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "title": "Co Claudovi říct, aby to bylo dobré",
+          "text": "Výsledek stojí a padá se zadáním. Tři věci, které se vyplatí říct:\n\nSOUVISLÝ VÝKLAD, NE ODRÁŽKY. Odrážky z prezentace fungují, když u nich někdo mluví. Sám z nich neuvíš nic.\n\nOTÁZKY K ODDÍLŮM, NE NA KONEC. Když otázka visí u oddílu, ze kterého se dá zodpovědět, appka ti u karty umí ukázat i výklad.\n\nJEDNA PŘEDNÁŠKA = JEDNO TÉMA ZKOUŠKY. Pak se dá učit po tématech a nemíchá se ti všechno dohromady.\n\nA jestli máš zkouškové okruhy nebo seznam povinné četby, dej je Claudovi taky. Učebnice se pak drží toho, co se opravdu zkouší, a ne toho, co bylo náhodou na slidech.",
+          "cards": [
+            {
+              "q": "Proč mají otázky viset u konkrétního oddílu výkladu, a ne být na konci přednášky?",
+              "a": "Protože si tím karta nese odkaz na místo, ze kterého vznikla — appka pak u karty umí ukázat i výklad. Navíc to nutí psát otázky, které jsou z textu opravdu zodpověditelné, místo obecných otázek přes celou přednášku.",
+              "kind": "basic",
+              "level": 2
+            },
+            {
+              "q": "Co Claudovi dát navíc k přednáškám, aby učebnice mířila na zkoušku?",
+              "a": "Zkouškové okruhy a seznam povinné četby. Bez nich se učebnice drží toho, co bylo náhodou na slidech; s nimi se drží toho, co se opravdu zkouší.",
+              "kind": "basic",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "title": "Co se s tím dá dělat dál",
+          "text": "Učebnici jde kdykoli opravit: nech Clauda přepsat jednu přednášku a nahraje ji přes tu starou, zbytek zůstane. Celou učebnici smažeš v Nastavení jedním tlačítkem — zmizí i její karty.\n\nKarty z učebnice se do opakování nenasypou samy. Najdeš je v Importu mezi připravenými balíčky a přidáš si je, až budeš chtít — takže ti nový předmět nerozhodí denní dávku uprostřed zkouškového.\n\nA co je tvoje, vidíš jen ty. Cizí učebnice se ti v appce neobjeví a tvoje se neobjeví nikomu jinému.",
+          "cards": [
+            {
+              "q": "Objeví se karty z nově nahrané učebnice rovnou v dnešní dávce?",
+              "a": "Ne. Balíček se objeví v Importu mezi připravenými a přidáš si ho, až budeš chtít — aby nový předmět nerozhodil denní dávku uprostřed zkouškového.",
+              "kind": "basic",
+              "level": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -25,6 +25,9 @@ import { extraMessage, publicKey, pushEnabled, sendPush, startPushCron } from '.
 import { registerSourceRoutes } from './sources-routes.js'
 import { materialsAvailable, registerMaterialRoutes } from './materials-routes.js'
 import { podcastAvailable, podcastSeries, podcastToken, registerPodcastRoutes } from './podcast-routes.js'
+import { registerPubRoutes } from './pub-routes.js'
+import { registerMcpRoutes } from './mcp-routes.js'
+import { deleteAllUserMaterials, revokeAllPubTokens } from './pub.js'
 import { listSources, deleteSource } from './blobs.js'
 import { aiEnabled } from './ai.js'
 
@@ -98,7 +101,7 @@ app.post('/api/login', async (req, reply) => {
     path: '/',
     maxAge: 120 * 86_400,
   })
-  return { email: user.email, isAdmin: !!user.isAdmin, materials: materialsAvailable() }
+  return { email: user.email, isAdmin: !!user.isAdmin, materials: materialsAvailable(user) }
 })
 
 // ---- session ----
@@ -114,7 +117,7 @@ app.get('/api/me', async (req, reply) => {
   if (!user) return
   // `materials` tells the client whether the reading screen has anything to
   // show, so the navigation can stay honest on an install without them.
-  return { email: user.email, isAdmin: !!user.isAdmin, materials: materialsAvailable() }
+  return { email: user.email, isAdmin: !!user.isAdmin, materials: materialsAvailable(user) }
 })
 
 // ---- sync (whole-app snapshot per user) ----
@@ -265,6 +268,9 @@ app.delete('/api/users/:id', async (req, reply) => {
   savePushSubs(getPushSubs().filter((s) => s.userId !== req.params.id))
   // Source materials belong to the account too — they go with it.
   for (const source of listSources(req.params.id)) deleteSource(req.params.id, source.id)
+  // A stejně tak vlastní učebnice a publikační tokeny.
+  revokeAllPubTokens(req.params.id)
+  deleteAllUserMaterials(req.params.id)
   return { ok: true }
 })
 
@@ -275,10 +281,16 @@ registerSourceRoutes(app, { requireUser })
 registerMaterialRoutes(app, { requireUser })
 registerPodcastRoutes(app)
 
-// Adresy soukromého feedu. Jen pro přihlášeného — token je to jediné, co
-// odběr chrání, takže se nesmí dát vytáhnout bez přihlášení.
+// ---- vlastní učebnice: nahrávání zvenčí a MCP pro Clauda ----
+registerPubRoutes(app, { requireUser })
+registerMcpRoutes(app)
+
+// Adresy soukromého feedu. Jen pro admina: pořady jsou namluvené Danielovy
+// učebnice, a ty od téhle chvíle nevidí nikdo jiný — vydávat k nim zvuk by ten
+// samý obsah pustilo ven zadními dveřmi. Token je navíc to jediné, co odběr
+// chrání, takže se nesmí dát vytáhnout bez přihlášení.
 app.get('/api/podcast', async (req, reply) => {
-  const user = requireUser(req, reply)
+  const user = requireAdmin(req, reply)
   if (!user) return
   if (!podcastAvailable()) return reply.code(404).send({ error: 'no podcast' })
   const token = podcastToken()

@@ -6,6 +6,8 @@ const dny = (n: number) => (n === 1 ? 'den' : n >= 2 && n <= 4 ? 'dny' : 'dní')
 const karty = (n: number) => (n === 1 ? 'karta' : n >= 2 && n <= 4 ? 'karty' : 'karet')
 const kartyAcc = (n: number) => (n === 1 ? 'kartu' : n >= 2 && n <= 4 ? 'karty' : 'karet')
 const predmety = (n: number) => (n === 1 ? 'předmět' : n >= 2 && n <= 4 ? 'předměty' : 'předmětů')
+const prednasky = (n: number) => (n === 1 ? 'přednáška' : n >= 2 && n <= 4 ? 'přednášky' : 'přednášek')
+const novych = (n: number) => (n === 1 ? 'nová' : n >= 2 && n <= 4 ? 'nové' : 'nových')
 const stran = (n: number) => (n === 1 ? 'strana' : n >= 2 && n <= 4 ? 'strany' : 'stran')
 const chyby = (n: number) => (n === 1 ? 'chyba' : n >= 2 && n <= 4 ? 'chyby' : 'chyb')
 const bloku = (n: number) => (n === 1 ? 'blok' : n >= 2 && n <= 4 ? 'bloky' : 'bloků')
@@ -221,6 +223,45 @@ export const cs = {
   confirmRestore: (nSubjects: number, nCards: number) =>
     `Nahradit všechna současná data zálohou (${nSubjects} ${predmety(nSubjects)}, ${nCards} ${karty(nCards)})?`,
   backupFileName: (date: string) => `studyflow-zaloha-${date}.json`,
+
+  // Tempo předmětu
+  paceTitle: 'Tempo a termín',
+  paceAuto: 'tempo automaticky',
+  paceManual: (n: number) => `${n} ${novych(n)} denně`,
+  paceTodayIs: (nw: number, due: number) => `dnes ${nw} ${novych(nw)}, ${due} k opakování`,
+  paceNewPerDay: 'Nových karet denně',
+  paceAutoBtn: 'Automaticky',
+  paceCustom: 'vlastní',
+  paceAutoDesc:
+    'Appka rozpočítá zbývající karty do dne zkoušky. Když se termín přiblíží, dávka sama povyroste.',
+  paceManualDesc: 'Držím se svého čísla bez ohledu na termín. Napiš si klidně stovku, strop tu není.',
+  paceCapNote: (cap: number) =>
+    `Napříč všemi předměty platí ještě společný strop ${cap} nových karet denně.`,
+  paceCapLift: 'Zrušit strop',
+
+  // Propojení s Claudem
+  claudeSection: 'Vlastní učebnice z Clauda',
+  claudeDesc:
+    'Máš svoje přednášky a Clauda? Připoj ho k StudyFlow a on ti z nich udělá učebnici i kartičky rovnou sem — nemusíš nic stahovat ani nahrávat. Tvoje učebnice vidíš jen ty.',
+  claudeNewToken: 'Vytvořit propojení',
+  claudeStep1: '1. Tenhle příkaz vlož jednou do Claude Code',
+  claudeShownOnce: 'Klíč se už znovu neukáže. Když ho ztratíš, udělej si prostě nový.',
+  claudeCopyCommand: 'Zkopírovat příkaz',
+  claudeStep2: '2. Pak Claudovi řekni, co má udělat',
+  claudeAsk:
+    'Přečti tyhle přednášky a udělej z nich ve StudyFlow učebnici i s otázkami. Piš souvislý výklad, ne odrážky, a otázky dávej k tomu oddílu, ze kterého se dají zodpovědět.',
+  claudeCopyAsk: 'Zkopírovat zadání',
+  claudeTokenName: (label: string) => `Propojení ${label}`,
+  claudeTokenUsed: (date: string) => `naposledy ${date}`,
+  claudeTokenUnused: 'zatím nepoužito',
+  claudeRevoke: 'Zrušit',
+  claudeConfirmRevoke: 'Zrušit tohle propojení? Claude přes něj už nic nenahraje. Učebnice zůstanou.',
+  claudeMyPacks: 'Moje učebnice',
+  claudePackCounts: (lectures: number, cards: number) =>
+    `${lectures} ${prednasky(lectures)} · ${cards} ${karty(cards)}`,
+  claudeConfirmDeletePack: (name: string) => `Smazat učebnici „${name}" i s jejími kartami?`,
+  claudeLoadFailed: 'Propojení se nepodařilo načíst.',
+  claudeTokenFailed: 'Propojení se nepovedlo vytvořit — zkus to znovu.',
 
   // Admin users
   adminSection: 'Přístupy (admin)',

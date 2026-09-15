@@ -59,7 +59,9 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose, onCram }: 
       examDate: examDate || null,
       reminderTime: reminderTime || null,
       colorIndex,
-      dailyNewLimit: dailyTrim === '' ? null : Math.min(500, Math.max(0, Number(dailyTrim) || 0)),
+      // Bez horního stropu: kdo si chce dát sto nových denně, ať si je dá.
+      // Appka má radit (a varuje jinde, viz wellbeing), ne zakazovat.
+      dailyNewLimit: dailyTrim === '' ? null : Math.max(0, Math.floor(Number(dailyTrim) || 0)),
     })
     onSaved()
     onClose()

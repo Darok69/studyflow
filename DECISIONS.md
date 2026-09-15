@@ -1,3 +1,77 @@
+## Cizí Claude umí vložit učebnici; cizí oči na tu Danielovu nevidí
+
+**Zadání:** „lidi co to budou používat taky mají Clauda, vymysli jak to
+propojit" — a hned nato „a já nechci aby viděli moje učebnice, ale nech jim tam
+jeden ukázkový".
+
+**Propojení dělá MCP, ne export souboru.** Kdyby si měl uživatel nechat od
+Clauda vygenerovat JSON, uložit ho a nahrát v appce, ztroskotá to na kroku
+„najdi ten soubor" — přesně na tom už jednou ztroskotal i Daniel. Server proto
+mluví MCP (`POST /mcp`, JSON-RPC bez SSE) a uživatel jednou vloží do Claude
+Code řádek s tokenem. Dál už jen řekne, co chce; Claude zapisuje rovnou sem.
+
+**Vlastní implementace protokolu místo SDK,** protože z něj potřebujeme tři
+metody (`initialize`, `tools/list`, `tools/call`) a stateless POST. Streamovaná
+varianta se SSE by přinesla relace a držení spojení, které tenhle server
+nepotřebuje: každé volání se autentizuje hlavičkou a stojí samo o sobě.
+
+**Přírůstkově po přednáškách, ne celý balíček znovu.** U dvaceti přednášek by
+každá oprava znamenala poslat megabajty. Server si proto vedle výsledku drží
+i ZDROJ balíčku (`src-<slug>.json`), a `studyflow_add_lecture` v něm jednu
+položku vymění a přepočítá učebnici i karty. Přednáška se stejným ID se
+přepíše, takže se dá opravovat bez duplikátů.
+
+**Otázky visí u oddílu, ne zvlášť.** Karta si nese `sourceRef` na oddíl, ze
+kterého vznikla — stejně jako u vlastní pipeline v `content/`. Píše se tím jen
+jednou a appka umí u karty ukázat i výklad.
+
+**Prefix balíčku je to, co drží uživatele oddělené.** ID přednášek si volí
+autor balíčku, takže cizí „PD01" by v rejstříku přebilo to pravé. Server proto
+každému balíčku přidělí šest znaků, které se lepí před ID (`ab12cdPD01`), a
+`LECTURE_RE` povoluje 24 znaků místo 12.
+
+**Viditelnost má tři vrstvy, ne dvě.** `/data/materials/` je Danielova soukromá
+knihovna a vidí ji JEN ADMIN; `/data/materials/demo/` vidí každý;
+`/data/materials/users/<id>/` vidí jeho majitel. Obrázek se vydá jen z toho
+adresáře, ve kterém leží i samotná přednáška — jinak by šlo cizí slidy stáhnout
+uhodnutím jména souboru. Ze stejného důvodu je `/api/podcast` nově jen pro
+admina: pořady jsou namluvené tytéž učebnice.
+
+**Ukázka je skutečná učebnice, ne lorem ipsum** (`content/demo/pack.json`,
+`scripts/build-demo.mjs`). Prochází přesně tou validací, kterou server pouští na
+nahrávky zvenčí, takže nemůže ukazovat tvar, který by appka nepřijala. Druhá
+přednáška v ní je návod, jak si udělat vlastní — návod čtený v tom rozhraní,
+o kterém mluví. Prefix má napevno `ukazka`: při přenahrání se ID přednášek
+nesmí změnit, jinak by lidem zmizela rozečtená stránka.
+
+**Token, ne přístupový kód.** Kód od účtu by Claudovi dal celý účet. Publikační
+token umí jen nahrát a smazat vlastní učebnice, jde kdykoli zrušit a na serveru
+z něj leží jen otisk (sha256 — je to 192bitové náhodné číslo, ne heslo).
+
+## Tempo předmětu patří na stránku předmětu, obrazovka Plán zmizela
+
+**Zadání:** „když rozkliknu ten balíček ať je i nastavení v kterém můžu
+upravovat datum zkoušky a kolik kartiček můžu denně dělat a ať jich mužu dělat
+kolik chci" — a vzápětí „tlačítko učebnice nahoře nedává smysl a i ten plán ne
+když se budu všechny nastavovat zvlášť".
+
+**Nastavení je rozbalovací panel na stránce předmětu, ne dialog.** Termín
+a denní dávka se během semestru mění pořád; co je schované za tlačítkem
+„Upravit", nikdo nezmění.
+
+**Žádný horní strop.** `Math.min(500, …)` v editoru předmětu padlo; kdo si chce
+dát sto nových denně, dá si je. Appka má radit — a varuje jinde (wellbeing) —
+ne zakazovat. Nabídnutá čísla 10/20/40 jsou zkratka, ne výběr.
+
+**Společný strop se hlásí, ale netvrdí se o něm, že dnes uřízl dávku** — na to
+by stránka předmětu musela spočítat plán celého dne. Říká se, že platí, a dá se
+jedním klikem zrušit.
+
+**Obrazovka Plán byla smazaná**, protože nastavovala totéž per předmět na druhém
+místě, a „Učebnice" z horní lišty taky: učebnice se otevírá ze svého předmětu.
+`src/lib/plan.ts` i jeho testy zůstaly — logika kapacity týdne je správná a dá
+se z ní udělat čtecí přehled, až bude na co koukat.
+
 ## Podcast: podklady k poslechu jako soukromý feed, ne přehrávač v appce
 
 **Proč vůbec:** materiál se dá číst jen u stolu. Cesta autem, metro a běhání

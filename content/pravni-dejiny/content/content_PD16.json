@@ -1,36 +1,9 @@
 {
   "lecture_id": "PD16",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 21",
   "title": "Europe and the European Integration since 1955",
-  "source_file": "raw/PD16_pp-16-europe-since-1955-olechowski.pdf",
-  "source_sha256": "e5ed75dfc4f23c866f437cc5240a2dc1d0b783e897d692764637708ff0a65b44",
-  "source_pages": 29,
-  "slides_per_page": 1,
-  "slide_count": 29,
-  "updated_at": "2026-09-15T12:12:47+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD16/PD16_s001.webp",
-      "title": "Title slide",
-      "text": "Europe since 1945, Part 2: Contemporary Developments.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 273,
-      "text_sha": "7a20c58d2ed065ea",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD16/PD16_s002.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "Europe since 1945, Part 2: Contemporary Developments.", "terms": [], "cards": [], "vision_used": true },
+    "2": {
       "title": "Pan-Europa (1923)",
       "text": "Before any of it: in 1923 RICHARD COUDENHOVE-KALERGI (1894–1972), son of an Austrian father and a Japanese mother, develops a plan for Europe — UNIFICATION OF ALL EUROPEAN STATES INCLUDING THEIR COLONIES, BUT EXCEPT THE BRITISH EMPIRE AND EXCEPT THE USSR. Then the recap of the Council of Europe, the ECHR of 1950 and the Austrian dates (Council 1956, ECHR 1958, constitutional rank since 1964).",
       "terms": [],
@@ -43,93 +16,18 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 728,
-      "text_sha": "20f071c1210491c7",
-      "pdf_page": 2
+      "vision_used": true
     },
-    {
-      "n": 3,
-      "img": "img/PD16/PD16_s003.webp",
-      "title": "Marshall Plan and the Schuman Plan",
-      "text": "Recap: the Marshall Plan and the OEEC of 1948 against COMECON of 1949, Austria admitted although partly under Soviet occupation unlike the CSR; and the Schuman declaration of 9 May 1950 with the ECSC Treaty of 1952, in force 1952–2002.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 896,
-      "text_sha": "7c4c8dc54bc9fd51",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD16/PD16_s004.webp",
-      "title": "The ECSC organs",
-      "text": "Recap: High Authority (today the Commission, supranational), Council of Ministers (today the Council), Common Assembly (today the Parliament, directly elected since 1980), Court of Justice in Luxembourg.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 648,
-      "text_sha": "a6ee48f183285427",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PD16/PD16_s005.webp",
-      "title": "The EDC and the EPC",
-      "text": "Recap: the withdrawal of American troops, the fear of German rearmament, the European Defence Community signed in 1953 and never realised, the European Political Community only projected.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 678,
-      "text_sha": "15529d3e87f0d3bc",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PD16/PD16_s006.webp",
-      "title": "Paris Agreements, Warsaw Pact, State Treaty",
-      "text": "Recap: the Paris agreements of 23 October 1954 and their mirror image in the East, the Warsaw Pact of 14 May 1955, and the Austrian State Treaty with the neutrality law of 26 October 1955.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1221,
-      "text_sha": "8554c7882b87481f",
-      "pdf_page": 6
-    },
-    {
-      "n": 7,
-      "img": "img/PD16/PD16_s007.webp",
+    "3": { "title": "Marshall Plan and the Schuman Plan", "text": "Recap: the Marshall Plan and the OEEC of 1948 against COMECON of 1949, Austria admitted although partly under Soviet occupation unlike the CSR; and the Schuman declaration of 9 May 1950 with the ECSC Treaty of 1952, in force 1952–2002.", "terms": [], "cards": [], "vision_used": false },
+    "4": { "title": "The ECSC organs", "text": "Recap: High Authority (today the Commission, supranational), Council of Ministers (today the Council), Common Assembly (today the Parliament, directly elected since 1980), Court of Justice in Luxembourg.", "terms": [], "cards": [], "vision_used": false },
+    "5": { "title": "The EDC and the EPC", "text": "Recap: the withdrawal of American troops, the fear of German rearmament, the European Defence Community signed in 1953 and never realised, the European Political Community only projected.", "terms": [], "cards": [], "vision_used": true },
+    "6": { "title": "Paris Agreements, Warsaw Pact, State Treaty", "text": "Recap: the Paris agreements of 23 October 1954 and their mirror image in the East, the Warsaw Pact of 14 May 1955, and the Austrian State Treaty with the neutrality law of 26 October 1955.", "terms": [], "cards": [], "vision_used": false },
+    "7": {
       "title": "Customs union or free trade area?",
       "text": "A CUSTOMS UNION FOR ALL OEEC MEMBERS WOULD BE IMPOSSIBLE FOR SOME — SWITZERLAND, AUSTRIA, THE UK — so the plan of a great FREE TRADE AREA emerges; but at the MESSINA CONFERENCE OF 1955 the ECSC states decide instead to create a CUSTOMS UNION. The difference is worth having exactly. FREE TRADE AREA: only goods FROM member states move duty-free between members; CUSTOMS DUTIES FOR GOODS FROM THIRD STATES CONTINUE, each member keeping its own external tariff. CUSTOMS UNION: once a product has been brought into the common market AND CLEARED THROUGH CUSTOMS, it can be transported onwards exactly like goods from member states — a single external tariff. That is why a customs union collides with neutrality and with Swiss or British independence in a way a free trade area does not: it means a common trade policy towards the outside world.",
       "terms": [
-        {
-          "term": "free trade area",
-          "def": "Only goods originating in member states move duty-free between them; each member keeps its own customs duties towards third states."
-        },
-        {
-          "term": "customs union",
-          "def": "A common external tariff: once goods are cleared through customs anywhere in the union they circulate onwards like domestic goods."
-        }
+        { "term": "free trade area", "def": "Only goods originating in member states move duty-free between them; each member keeps its own customs duties towards third states." },
+        { "term": "customs union", "def": "A common external tariff: once goods are cleared through customs anywhere in the union they circulate onwards like domestic goods." }
       ],
       "cards": [
         {
@@ -147,18 +45,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 936,
-      "text_sha": "2580bb350c92a3ce",
-      "pdf_page": 7
+      "vision_used": true
     },
-    {
-      "n": 8,
-      "img": "img/PD16/PD16_s008.webp",
+    "8": {
       "title": "From the ECSC to the EEC: sectoral or general integration?",
       "text": "Two models, and the answer shapes the EU. SECTORAL INTEGRATION — the line of JEAN MONNET, President of the High Authority 1952–1955: coal and steel will be GRADUALLY FOLLOWED BY OTHER ECONOMIC SECTORS, agriculture, fisheries, transport, one at a time. GENERAL INTEGRATION — the line of JOHAN W. BEYEN, Dutch Foreign Secretary 1952–1956: ALL ECONOMIC SECTORS SHOULD BE INTEGRATED EQUALLY, with transition periods. The COMPROMISE: SECTORAL INTEGRATION ONLY FOR NUCLEAR ENERGY, OTHERWISE GENERAL INTEGRATION — which is exactly why there are two new communities in 1957 and not one.",
       "terms": [],
@@ -171,18 +60,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 913,
-      "text_sha": "950df24b95cda1a3",
-      "pdf_page": 8
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD16/PD16_s009.webp",
+    "9": {
       "title": "The three European Communities, 1957",
       "text": "The ROME TREATIES of 1957 add to the ECSC the EUROPEAN ATOMIC ENERGY COMMUNITY (EAEC/Euratom) and the EUROPEAN ECONOMIC COMMUNITY (EEC). SIX STATES ARE NOW UNITED IN THREE COMMUNITIES. And note the institutional sequence: FROM THE BEGINNING THE THREE COMMUNITIES SHARE PARLIAMENT AND COURT OF JUSTICE; FROM 1967 ON THEY SHARE ALSO COMMISSION AND COUNCIL. Separate legal communities, gradually merging organs.",
       "terms": [],
@@ -195,25 +75,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 929,
-      "text_sha": "b10223e937c8e5d7",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD16/PD16_s010.webp",
+    "10": {
       "title": "What makes an organisation supranational",
       "text": "Four marks, and they are the examination answer. MAJORITY VOTING WITH THE POWER TO BIND OUTVOTED MEMBER STATES. A SYSTEM OF OBLIGATORY DISPUTE SETTLEMENT (the ECJ). THE INDEPENDENCE OF ITS INSTITUTIONS FROM THE MEMBER STATES — Art 9 ECSC Treaty: 'EACH MEMBER STATE UNDERTAKES TO RESPECT THIS SUPRANATIONAL CHARACTER AND NOT TO SEEK TO INFLUENCE THE MEMBERS OF THE HIGH AUTHORITY IN THE PERFORMANCE OF THEIR TASKS.' And THE DIRECT EFFECT AND PRIMACY OF SUPRANATIONAL LAW WITHIN NATIONAL LEGAL SYSTEMS. Ordinary international law binds states that consent, through their own organs; supranational law binds them against their vote and reaches into their courts directly.",
       "terms": [
-        {
-          "term": "direct effect",
-          "def": "Supranational law operates inside the national legal system without transformation, and takes precedence over conflicting national law."
-        }
+        { "term": "direct effect", "def": "Supranational law operates inside the national legal system without transformation, and takes precedence over conflicting national law." }
       ],
       "cards": [
         {
@@ -231,18 +99,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 605,
-      "text_sha": "a4b817f4d1c0122e",
-      "pdf_page": 10
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD16/PD16_s011.webp",
+    "11": {
       "title": "On the brink of World War III",
       "text": "Berlin, recapitulated — four sectors, Soviet patrols throughout the city until 1990, the Wall of 13 August 1961 — and then CUBA. 1958: COMMUNIST REVOLUTION IN CUBA. The SOVIET UNION STATIONS NUCLEAR MISSILES IN CUBA — THE USA WITHIN REACH. AUGUST 1962: the superpowers SERIOUSLY CONSIDER THE USE OF NUCLEAR WEAPONS; a DIPLOMATIC SOLUTION IN THE END. Out of it comes the POLICY OF DÉTENTE and the establishment of the 'RED TELEPHONE' BETWEEN MOSCOW AND WASHINGTON — the first institutional admission that the two blocs must be able to talk to avoid annihilating each other.",
       "terms": [],
@@ -255,25 +114,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 969,
-      "text_sha": "b9b89bf5c57d3b6a",
-      "pdf_page": 11
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD16/PD16_s012.webp",
+    "12": {
       "title": "De Gaulle and the Luxembourg Compromise",
       "text": "1954: the WAR OF INDEPENDENCE IN ALGERIA breaks out — ALGERIA HAD BEEN PART OF FRANCE AND THEREFORE OF THE EEC — and a state crisis follows. CHARLES DE GAULLE becomes prime minister in 1958, gives France a new constitution (the FIFTH REPUBLIC) and is state president 1959–1969: economic and monetary reform, development of nuclear weapons, and in 1966 FRANCE WITHDRAWS FROM THE MILITARY ARM OF NATO UNTIL 2009. In 1963 AND 1967 HE VETOES UK ACCESSION, fearing too much American influence. Then the constitutional moment: in 1965 France is OUTVOTED in the Council over agricultural subsidies, and from 1 JULY 1965 TO 29 JANUARY 1966 SENDS NO REPRESENTATIVE TO THE COUNCIL — the 'empty chair', the Council NOT CAPABLE OF ACTING. The result is the LUXEMBOURG COMPROMISE, a GENTLEMEN'S AGREEMENT — not a treaty amendment: IF VERY IMPORTANT INTERESTS OF A MEMBER STATE ARE AT STAKE, THE OTHERS WILL NOT OUTVOTE IT BUT MUST FIND A SOLUTION ADOPTABLE UNANIMOUSLY. Of great practical importance UNTIL ABOUT 1982, and the attempts to weaken majority voting continue afterwards — the compromise of IOANNINA 1994, the TREATY OF NICE 2000.",
       "terms": [
-        {
-          "term": "Luxembourg Compromise",
-          "def": "A gentlemen's agreement of 1966: where a member state's 'very important interests' are at stake the others will not outvote it but seek a unanimous solution — majority voting suspended in practice, without any treaty change."
-        }
+        { "term": "Luxembourg Compromise", "def": "A gentlemen's agreement of 1966: where a member state's 'very important interests' are at stake the others will not outvote it but seek a unanimous solution — majority voting suspended in practice, without any treaty change." }
       ],
       "cards": [
         {
@@ -305,18 +152,9 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1397,
-      "text_sha": "9a344707875db652",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD16/PD16_s013.webp",
+    "13": {
       "title": "The 1960s and the Prague Spring",
       "text": "Social and cultural upheaval: PACIFISM, CRITICISM OF CAPITALISM, CRITICISM OF THE TRADITIONAL IMAGE OF WOMEN, THE FIGHT AGAINST RACISM — King's speech of 28 August 1963, Woodstock in August 1969 — and the RENOVATION OF THE CATHOLIC CHURCH AT THE SECOND VATICAN COUNCIL 1962–1965 ('aggiornamento'), whose legal product is the CODEX IURIS CANONICI OF 1983. Then the Prague Spring again, with the Brezhnev Doctrine and Albania's protest.",
       "terms": [],
@@ -329,25 +167,13 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1115,
-      "text_sha": "b35dce9196a26626",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD16/PD16_s014.webp",
+    "14": {
       "title": "New politics in Austria and in Germany",
       "text": "AUSTRIA: 1966 the end of the GRAND COALITION and an ÖVP single-party government to 1970; 1970/71 an SPÖ MINORITY GOVERNMENT TOLERATED BY THE FPÖ in exchange for electoral reform; 1971 an SPÖ majority to 1983 under BRUNO KREISKY. The legal harvest: 1971 LEGALISATION OF HOMOSEXUALITY; 1975 a NEW PENAL CODE including the legalisation of abortion; 1975 EQUALITY OF SPOUSES IN MARRIAGE; 1975 PARTICIPATION OF STUDENTS IN UNIVERSITY MANAGEMENT. GERMANY: 1955–1969 the HALLSTEIN DOCTRINE — ANY STATE MAINTAINING DIPLOMATIC RELATIONS WITH THE GDR CANNOT HAVE THEM WITH THE FRG, a claim to EXCLUSIVE REPRESENTATION FOR GERMANY. Then WILLY BRANDT (Chancellor 1969–74): 1970 treaties with POLAND AND THE USSR, DE FACTO ACCEPTANCE OF THE ODER–NEISSE BORDER; 1972 the BASIC TREATY in which both German states DE FACTO RECOGNISE EACH OTHER; 1973 BOTH ARE ADMITTED TO THE UN. The Olympic detail carries it: one all-German team in 1956, 1960 and 1964, both teams under one flag in 1968, separate flags 1972–1988.",
       "terms": [
-        {
-          "term": "Hallstein Doctrine",
-          "def": "1955–1969: the FRG broke off relations with any state recognising the GDR — a claim to be the sole representative of Germany."
-        }
+        { "term": "Hallstein Doctrine", "def": "1955–1969: the FRG broke off relations with any state recognising the GDR — a claim to be the sole representative of Germany." }
       ],
       "cards": [
         {
@@ -365,18 +191,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1254,
-      "text_sha": "703f06a5f6609252",
-      "pdf_page": 14
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD16/PD16_s015.webp",
+    "15": {
       "title": "One China or two Chinas?",
       "text": "1912: the REPUBLIC OF CHINA is proclaimed in Beijing. 1927–1949: CIVIL WAR; the last republican government under CHIANG KAI-SHEK retreats to TAIWAN while a communist government under MAO ZEDONG establishes itself on the mainland. The international community is FIRST ON THE SIDE OF TAIWAN — the PERMANENT SEAT ON THE UN SECURITY COUNCIL belongs to the 'Republic of China', i.e. Taiwan. Then 1971: UN GENERAL ASSEMBLY RESOLUTION 2758 recognises the communist government in Beijing as 'THE ONLY LEGITIMATE REPRESENTATIVE OF CHINA', and almost all states break off relations with Taiwan. The twist: in 2007 TAIWAN RENOUNCES ITS OWN CLAIM TO SOLE REPRESENTATION OF THE WHOLE OF CHINA — and Beijing rejects that too, as striving for a TWO-STATE SOLUTION. Each side insisted there was one China; when one of them stopped, that became the offence.",
       "terms": [],
@@ -396,34 +213,10 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 853,
-      "text_sha": "3533044fc2f51750",
-      "pdf_page": 15
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD16/PD16_s016.webp",
-      "title": "Maps 1973 and 1986",
-      "text": "EEC in green, EFTA in blue, COMECON in red — the shift from 1960 to 1973 to 1986.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 104,
-      "text_sha": "8e20cfbf44c9e296",
-      "pdf_page": 16
-    },
-    {
-      "n": 17,
-      "img": "img/PD16/PD16_s017.webp",
+    "16": { "title": "Maps 1973 and 1986", "text": "EEC in green, EFTA in blue, COMECON in red — the shift from 1960 to 1973 to 1986.", "terms": [], "cards": [], "vision_used": true },
+    "17": {
       "title": "Enlargements of the European Communities",
       "text": "NORTHERN ENLARGEMENT 1973: UK, DENMARK, IRELAND — which WEAKENS THE EFTA. Fisheries policy keeps NORWAY out, and GREENLAND WITHDRAWS IN 1985 — the only territory ever to leave by that route. SOUTHERN ENLARGEMENT: GREECE 1981, SPAIN AND PORTUGAL 1986 — and all three had just left dictatorship. GREECE: military dictatorship 1967–1974, and the FAILED ANNEXATION OF CYPRUS both DIVIDED THE ISLAND AND BROUGHT DOWN THE DICTATORSHIP. PORTUGAL AND SPAIN: authoritarian/fascist regimes until 1974, and an ATTEMPTED COUP IN SPAIN IN 1981 FAILED DUE TO THE KING'S RESISTANCE. The southern countries are MUCH WEAKER ECONOMICALLY than the north, and their accession IS INTENDED TO STRENGTHEN THE YOUNG DEMOCRACIES — enlargement used as a constitutional stabiliser, not only as a market.",
       "terms": [],
@@ -443,18 +236,9 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1328,
-      "text_sha": "02266f472b76f4be",
-      "pdf_page": 17
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "img": "img/PD16/PD16_s018.webp",
+    "18": {
       "title": "From customs union to the Single European Act",
       "text": "1968: the CUSTOMS UNION IS ACHIEVED — BUT NOT A SINGLE MARKET: IMPORT BANS FOR OTHER REASONS THAN CUSTOMS survive, and the EEC answers with MANY VERY DETAILED REGULATIONS. Efforts to PEG NATIONAL CURRENCIES to one another FAIL, which produces DEMANDS FOR A REAL ECONOMIC AND MONETARY UNION. 1970: EUROPEAN POLITICAL COOPERATION — a general common foreign policy AS A CONSEQUENCE OF THE COMMON ECONOMIC POLICY. 1974: the EUROPEAN COUNCIL, meetings of the heads of state or government. 1986: the SINGLE EUROPEAN ACT, THE FIRST BIG AMENDMENT TO THE ROME TREATIES — under Commission President JACQUES DELORS (1985–1995). Remember the mechanism of the whole period: each economic step generates the political one that was not originally intended.",
       "terms": [],
@@ -474,18 +258,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 819,
-      "text_sha": "bbef3629799063f0",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD16/PD16_s019.webp",
+    "19": {
       "title": "The Single European Act 1986 — the structure",
       "text": "The picture to hold: EPC AND THE THREE COMMUNITIES ARE LINKED TOGETHER, with 'EUROPEAN UNION' MARKED AS A GOAL FOR THE FUTURE; the THREE COMMUNITIES GET MORE COMPETENCES, for example LABOUR LAW; and the PARLIAMENT IS STRENGTHENED. Underneath: ECSC, EAEC and EEC as the economic base, EPC beside them as the political cooperation, and the projected EU as the roof.",
       "terms": [],
@@ -498,18 +273,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1434,
-      "text_sha": "87c38e639cf7d678",
-      "pdf_page": 19
+      "vision_used": true
     },
-    {
-      "n": 20,
-      "img": "img/PD16/PD16_s020.webp",
+    "20": {
       "title": "The Soviet Union in transition",
       "text": "BREZHNEV 1964–1982, ANDROPOV 1982–1984, CHERNENKO 1984–1985, GORBACHEV 1985–1991. After Brezhnev's death the USSR WAVERS BETWEEN REFORM AND INSISTENCE. In 1985 GORBACHEV becomes General Secretary and plans an OPENING (GLASNOST) AND RENEWAL (PERESTROIKA) of the USSR. The decisive fact for 1989: THE SOCIALIST STATES OF EAST-CENTRAL EUROPE DO NOT WANT TO SUPPORT HIS REFORM POLICY, AND WHEN THOSE DICTATORSHIPS COLLAPSED GORBACHEV THEREFORE REMAINED PASSIVE. The Brezhnev Doctrine was not repealed; it was simply not applied.",
       "terms": [],
@@ -522,18 +288,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1008,
-      "text_sha": "523717a86771bba2",
-      "pdf_page": 20
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD16/PD16_s021.webp",
+    "21": {
       "title": "1989 and German reunification",
       "text": "In POLAND resistance grows with support from POPE JOHN PAUL II; the shipyard worker LECH WAŁĘSA founds the NON-PARTY TRADE UNION SOLIDARNOŚĆ — EFFECTIVELY AN OPPOSITION PARTY — martial law cannot break it, 1989 brings the FIRST NON-COMMUNIST GOVERNMENT SINCE 1945, and Wałęsa is president from 1990 to 1995. The events TRIGGER A CHAIN REACTION: Hungary, the GDR, the CSR, Romania and Bulgaria collapse WITHIN A FEW MONTHS, LARGELY WITHOUT BLOODSHED; on 27 June 1989 the Austrian and Hungarian foreign ministers CUT THROUGH THE IRON CURTAIN. Then the legal construction of reunification, and it matters which of two roads was taken: economic and monetary union as early as MAY 1990, and an ACCESSION TREATY under which ON 3 OCTOBER 1990 THE GDR JOINS THE FRG and is SIMULTANEOUSLY SPLIT INTO FIVE STATES, with Berlin united. THE LEGAL EXISTENCE OF THE FRG REMAINS UNCHANGED: the GRUNDGESETZ becomes the constitution of united Germany, MEMBERSHIP IN NATO AND THE EUROPEAN COMMUNITIES IS UNCHANGED, and WEST GERMAN LAW — the BGB, for instance — IS EXTENDED TO THE FIVE NEW STATES. Not a new state founded by two, but ACCESSION TO AN EXISTING ONE — which is why no treaties had to be renegotiated.",
       "terms": [],
@@ -553,18 +310,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 736,
-      "text_sha": "f798707a1becb7d1",
-      "pdf_page": 21
+      "vision_used": false
     },
-    {
-      "n": 22,
-      "img": "img/PD16/PD16_s022.webp",
+    "22": {
       "title": "The 2+4 Treaty and the end of the Soviet Union",
       "text": "The FRG and the GDR conclude a treaty with the USSR, USA, UK and FRANCE — the '2+4 TREATY'. The question the lecture leaves open: A DELAYED PEACE TREATY OR SOMETHING ELSE? Its content: THE ALLIES RENOUNCE ALL REMAINING RIGHTS AND GERMANY IS FULLY SOVEREIGN; UNIFIED GERMANY CONSISTS OF THE TERRITORIES OF THE FRG, THE GDR AND BERLIN — and hence NOW ALSO A FORMAL RENUNCIATION OF THE COUNTRIES BEYOND THE ODER–NEISSE LINE; NO NUCLEAR WEAPONS AND LIMITATION OF CONVENTIONAL WEAPONS. Then the East dissolves: JUNE/JULY 1991 COMECON AND THE WARSAW PACT DISSOLVE; AUGUST 1991 A COUP AGAINST GORBACHEV FAILS and Russian president YELTSIN BANS THE CPSU; in DECEMBER the presidents of RUSSIA, BELARUS AND UKRAINE decide to DISSOLVE THE USSR and form the COMMONWEALTH OF INDEPENDENT STATES; 25 DECEMBER 1991 GORBACHEV RESIGNS.",
       "terms": [],
@@ -584,18 +332,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 456,
-      "text_sha": "aee58b2bae600d60",
-      "pdf_page": 22
+      "vision_used": true
     },
-    {
-      "n": 23,
-      "img": "img/PD16/PD16_s023.webp",
+    "23": {
       "title": "The break-up of the multi-ethnic states",
       "text": "1 JANUARY 1993: the PEACEFUL DIVISION OF CZECHOSLOVAKIA — and it is the exception. 1989: unrest in the Serbian province of KOSOVO, declaration of independence in 2008. 1991: SLOVENIA and CROATIA declare independence — CIVIL WAR WITH THE SERBIAN MINORITY; MACEDONIA declares independence — civil war with the Albanian minority. 1992: BOSNIA declares independence — the civil war ENDS IN 1995 WITH PARTITION INTO TWO ENTITIES; SERBIA AND MONTENEGRO form a new 'FEDERAL REPUBLIC OF YUGOSLAVIA', dissolved in 2006. And the legal legacy: the SPECIAL TRIBUNAL FOR WAR CRIMES IS THE PREDECESSOR OF THE INTERNATIONAL CRIMINAL COURT, ESTABLISHED IN 2002.",
       "terms": [],
@@ -615,25 +354,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 577,
-      "text_sha": "933d06b83f160cfe",
-      "pdf_page": 23
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "img": "img/PD16/PD16_s024.webp",
+    "24": {
       "title": "Maastricht 1992 — the three pillars",
       "text": "GERMAN REUNIFICATION AND THE FALL OF THE EASTERN BLOC PROVIDE SIGNIFICANT NEW IMPETUS — and Chancellor HELMUT KOHL HOPES TO OVERCOME FEARS OF AN OVERLY STRONG GERMANY WITH THE EUROPEAN UNION. The TREATY OF MAASTRICHT 1992 builds the temple: under the roof of the EU stand the FIRST PILLAR (the E(E)C, the ECSC and Euratom), the SECOND PILLAR — the COMMON FOREIGN AND SECURITY POLICY, into which European political cooperation is expanded — and the THIRD, NEW pillar of JUSTICE AND HOME AFFAIRS. The decisive distinction: PILLARS TWO AND THREE ARE NOT SUPRANATIONAL — THEY ARE COOPERATION ON THE BASIS OF INTERNATIONAL LAW, BUT CARRIED OUT WITH THE HELP OF THE FIRST PILLAR'S BODIES. The competences of the EEC are significantly expanded and it is RENAMED THE EUROPEAN COMMUNITY (dropping 'Economic'), and the FOUNDATIONS FOR ECONOMIC AND MONETARY UNION are laid.",
       "terms": [
-        {
-          "term": "pillar structure",
-          "def": "Maastricht's design: a supranational first pillar (the Communities) beside two intergovernmental pillars — CFSP and Justice and Home Affairs — which use the Community's organs but not its supranational method."
-        }
+        { "term": "pillar structure", "def": "Maastricht's design: a supranational first pillar (the Communities) beside two intergovernmental pillars — CFSP and Justice and Home Affairs — which use the Community's organs but not its supranational method." }
       ],
       "cards": [
         {
@@ -651,18 +378,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 363,
-      "text_sha": "fccd537a6e4fea9d",
-      "pdf_page": 24
+      "vision_used": true
     },
-    {
-      "n": 25,
-      "img": "img/PD16/PD16_s025.webp",
+    "25": {
       "title": "Economic and Monetary Union, and the EEA",
       "text": "1994: DEFINITION OF THE CONVERGENCE CRITERIA — INFLATION, GOVERNMENT DEFICIT AND DEBT, AND EXCEEDING OF LONG-TERM INTEREST RATES. 1999: INTRODUCTION OF THE EURO IN NON-PHYSICAL FORM. 2002: INTRODUCTION OF EURO PAPER MONEY AND COINS. And beside it the other solution for the states that did not join: the TREATY OF PORTO OF 1992 creating the EUROPEAN ECONOMIC AREA between the EU and the EFTA states.",
       "terms": [],
@@ -682,18 +400,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 355,
-      "text_sha": "2de491e7c67f2019",
-      "pdf_page": 25
+      "vision_used": false
     },
-    {
-      "n": 26,
-      "img": "img/PD16/PD16_s026.webp",
+    "26": {
       "title": "Austria joins the EU, 1995",
       "text": "Two legal problems, both constitutional. First, accession amounted to a TOTAL REVISION OF THE B-VG, which under ART 44(3) B-VG requires an OBLIGATORY REFERENDUM — held on 2 JUNE 1994 with 66.5 % 'YES'. That is the only occasion on which the referendum provision of 1920 has actually been used. Second, the PROBLEM OF NEUTRALITY, solved by RE-INTERPRETATION: neutrality now means NON-PARTICIPATION IN WARS, NON-PARTICIPATION IN MILITARY ALLIANCES, AND THE PROHIBITION OF FOREIGN MILITARY BASES IN AUSTRIA — the customs-union objection quietly dropped, so that the duty is narrowed to fit the membership.",
       "terms": [],
@@ -713,18 +422,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 346,
-      "text_sha": "ef81c01c43063d68",
-      "pdf_page": 26
+      "vision_used": false
     },
-    {
-      "n": 27,
-      "img": "img/PD16/PD16_s027.webp",
+    "27": {
       "title": "Amsterdam, Nice, the Constitution, Lisbon",
       "text": "TREATY OF AMSTERDAM 1997: COMPETENCES OF THE THIRD PILLAR ARE SHIFTED TO THE FIRST — AND THUS SUBJECT TO THE JURISDICTION OF THE ECJ. Note what the move does: transferring a matter between pillars transfers it from diplomacy to a court. TREATY OF NICE 2001: PREPARATION OF THE EASTERN ENLARGEMENT and the CHARTER OF FUNDAMENTAL RIGHTS — NOT ENFORCEABLE IN COURT UNTIL 2010. TREATY OF ROME 2004, the 'TREATY ESTABLISHING A CONSTITUTION FOR EUROPE': COMPLETELY NEW STRUCTURES for the much larger community, MANY TERMINOLOGICAL INNOVATIONS ('MINISTERS', 'EUROPEAN LAWS'), FEAR OF A EUROPEAN SUPERSTATE; referenda YES in Spain and Luxembourg, NO IN FRANCE AND THE NETHERLANDS — FAILED. TREATY OF LISBON 2007: IN FORMAL TERMS ONLY A REVISION OF THE PREVIOUS TREATIES, like the SEA and Maastricht — BUT IN TERMS OF CONTENT MUCH CAN BE 'SAVED' FROM THE TREATY OF ROME. The constitutional vocabulary was abandoned and the substance kept.",
       "terms": [],
@@ -751,46 +451,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 620,
-      "text_sha": "36bf9516e6a3ae8f",
-      "pdf_page": 27
+      "vision_used": false
     },
-    {
-      "n": 28,
-      "img": "img/PD16/PD16_s028.webp",
-      "title": "Maps 2024 and 2026",
-      "text": "EU green, EFTA blue, the Eurasian Economic Union yellow; NATO green against the CSTO red.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 90,
-      "text_sha": "3c1352a62f686b78",
-      "pdf_page": 28
-    },
-    {
-      "n": 29,
-      "img": "img/PD16/PD16_s029.webp",
+    "28": { "title": "Maps 2024 and 2026", "text": "EU green, EFTA blue, the Eurasian Economic Union yellow; NATO green against the CSTO red.", "terms": [], "cards": [], "vision_used": true },
+    "29": {
       "title": "Quo vadis, Europe? Quo vadis, democracy?",
       "text": "The closing questions: the COVID crisis, the financial crisis, the refugee crisis, BREXIT. And on democracy: WASHINGTON, 6 JANUARY 2021, supporters of the defeated president storming the Capitol TO PREVENT THE ELECTION RESULT FROM BEING CONFIRMED, five dead; and the 2025 German federal election in which the AfD IS THE STRONGEST FORCE ALMOST EXACTLY IN THE CONSTITUENCIES THAT FORMERLY BELONGED TO THE GDR. The course ends where it began — with the observation that constitutional forms outlive the states that made them, and that the map of 1990 is still legible in the vote of 2025.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 344,
-      "text_sha": "c35cb3e4bfbdbaea",
-      "pdf_page": 29
+      "vision_used": false
     }
-  ]
+  }
 }

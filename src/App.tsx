@@ -9,7 +9,6 @@ const Stats = lazy(() => import('./pages/Stats').then((m) => ({ default: m.Stats
 const Settings = lazy(() => import('./pages/Settings').then((m) => ({ default: m.Settings })))
 const Browser = lazy(() => import('./pages/Browser').then((m) => ({ default: m.Browser })))
 const Sources = lazy(() => import('./pages/Sources').then((m) => ({ default: m.Sources })))
-const Plan = lazy(() => import('./pages/Plan').then((m) => ({ default: m.Plan })))
 const Reader = lazy(() => import('./pages/Reader').then((m) => ({ default: m.Reader })))
 const SubjectPage = lazy(() => import('./pages/Subject').then((m) => ({ default: m.Subject })))
 import { decodeDeckPayload, payloadFromHash } from './lib/sharelink'
@@ -23,7 +22,6 @@ type View =
   | 'import'
   | 'sources'
   | 'reader'
-  | 'plan'
   | 'study'
   | 'browser'
   | 'stats'
@@ -163,13 +161,6 @@ function App() {
               setView('browser')
             }}
             onSources={() => setView('sources')}
-            onReader={() => {
-              setReaderAt({ lectureId: null, course: null })
-              setReturnView('home')
-              setView('reader')
-            }}
-            hasMaterials={account?.materials === true}
-            onPlan={() => setView('plan')}
             onStats={() => setView('stats')}
             onSettings={() => setView('settings')}
           />
@@ -231,7 +222,6 @@ function App() {
             courseCode={readerAt.course}
           />
         )}
-        {view === 'plan' && <Plan onBack={goHome} />}
         {view === 'study' && <Study onDone={goBack} mode={studyMode} />}
         {view === 'browser' && (
           <Browser

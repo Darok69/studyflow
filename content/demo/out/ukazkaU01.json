@@ -1,0 +1,64 @@
+{
+  "lecture_id": "ukazkaU01",
+  "course": "UK",
+  "course_title": "Ukázková učebnice StudyFlow",
+  "unit": "Téma 1",
+  "title": "Prameny římského práva",
+  "slides": [
+    {
+      "n": 1,
+      "title": "Jak číst tuhle učebnici",
+      "text": "Tohle je UKÁZKA, ne kurz. Je tu proto, abys viděl, jak učebnice ve StudyFlow vypadá zevnitř — a mohl si stejnou nechat udělat ze svých vlastních přednášek.\n\nDrž se struktury, kterou vidíš: jedna PŘEDNÁŠKA je jedno téma zkoušky, jeden ODDÍL je jedna myšlenka, a OTÁZKY visí u toho oddílu, ze kterého se dají zodpovědět. Právě proto, že otázka zná svůj oddíl, ti appka u karty umí ukázat i výklad, ze kterého vyšla.\n\nA druhá věc, kterou si všimni: text není odrážkový výtah z prezentace. Je psaný souvisle, protože se z něj učíš sám, bez přednášejícího vedle sebe. Odrážky fungují, dokud někdo mluví; učebnice musí mluvit sama."
+    },
+    {
+      "n": 2,
+      "title": "Co znamená „prameny práva“",
+      "text": "PRAMEN PRÁVA má dva různé významy a zaměnit je je klasická chyba u zkoušky. PRAMEN VE FORMÁLNÍM SMYSLU je forma, ve které právo platí — zákon, edikt, obyčej. PRAMEN V MATERIÁLNÍM SMYSLU je to, co právo vyvolalo — hospodářské poměry, mocenské zájmy, spor, který se musel nějak rozhodnout. A PRAMEN POZNÁNÍ je něco třetího: text, ze kterého o právu víme, třeba rukopis nebo nápis.\n\nTen rozdíl není slovíčkaření. Když se ptají „jaké byly prameny klasického práva“, chtějí formy; když se ptají „proč vzniklo praetorské právo“, chtějí materiální příčinu.",
+      "terms": [
+        {
+          "term": "pramen ve formálním smyslu",
+          "def": "Forma, ve které právo platí — zákon, edikt, obyčej."
+        },
+        {
+          "term": "pramen v materiálním smyslu",
+          "def": "To, co právo vyvolalo: hospodářské poměry, zájmy, spory."
+        },
+        {
+          "term": "pramen poznání",
+          "def": "Text, ze kterého o právu víme — rukopis, nápis, papyrus."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Zákon dvanácti desek",
+      "text": "Kolem roku 451–450 př. n. l. vzniká ZÁKON DVANÁCTI DESEK (lex duodecim tabularum), první sepsání římského práva. Podstatné není, co všechno v něm stálo — text se nedochoval a známe ho jen z citací. Podstatné je, PROČ vznikl: plebejové vymohli, aby právo bylo ZAPSANÉ A VEŘEJNÉ, protože dokud ho znali jen patricijští pontifikové, znamenalo „znát právo“ totéž co „mít moc“.\n\nTohle je vzorec, který se v dějinách práva opakuje pořád dokola: zveřejnění pravidla je politický akt, ne technický. Uvidíš ho znovu u středověkých kodifikací i u ústav 19. století.",
+      "terms": [
+        {
+          "term": "lex duodecim tabularum",
+          "def": "Zákon dvanácti desek, kolem 451–450 př. n. l. — první sepsání římského práva."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Praetorský edikt",
+      "text": "PRAETOR nebyl zákonodárce a nové právo tvořit nesměl. Přesto ho tvořil — a stojí za to rozumět jak. Při nástupu do úřadu vyhlásil EDIKT: seznam žalob, které během roku propůjčí. Kdo se do některé z nich vešel, dostal soudní ochranu; kdo ne, neměl nic.\n\nTím se dělo přesně to, co v anglickém common law dělaly writy: ROZHODOVÁNÍM O TOM, KOMU DÁ ŽALOBU, ROZHODOVAL PRAETOR O TOM, KDO MÁ PRÁVO. Formálně jen spravoval proces. Fakticky měnil obsah práva — a dělal to tak, že civilní právo (ius civile) nechával stát a vedle něj stavěl vlastní vrstvu, IUS HONORARIUM.\n\nEdikty se rok co rok z velké části opisovaly, takže se ustálily; kolem roku 130 n. l. je Salvius Iulianus sjednotil do edictum perpetuum a tím se tahle cesta tvorby práva uzavřela.",
+      "terms": [
+        {
+          "term": "ius honorarium",
+          "def": "Právo úřednické — vrstva, kterou vedle ius civile vytvořil praetor svým ediktem."
+        },
+        {
+          "term": "edictum perpetuum",
+          "def": "Ustálený praetorský edikt, sjednocený Salviem Iulianem kolem roku 130 n. l."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Co si z tématu odnést",
+      "text": "Tři věci. Zaprvé, prameny se dělí podle toho, na co se ptáš — forma, příčina, nebo text, ze kterého to víme. Zadruhé, sepsání práva je politický krok, ne redakční. Zatřetí, právo umí vzniknout i tam, kde nikdo nemá pravomoc ho tvořit, stačí, když někdo rozhoduje o přístupu k soudu.\n\nTakhle vypadá poslední oddíl přednášky, který je dobré psát: ne shrnutí všeho, ale to, co má zůstat v hlavě, až se detaily zapomenou."
+    }
+  ]
+}

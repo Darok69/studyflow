@@ -14,6 +14,7 @@ import { readinessBand } from '../lib/readiness'
 import { palette, subjectColor, subjectColorIndex, urgencyColor } from '../lib/theme'
 import { ProgressBar } from '../components/ProgressBar'
 import { SubjectEditor } from '../components/SubjectEditor'
+import { SubjectPace } from '../components/SubjectPace'
 import { getMaterialIndex, SERVER_MODE, type MaterialIndex } from '../lib/api'
 import { lectureForTopic, matchCourses, orderByCourse, type CourseRef } from '../lib/materials'
 import { t } from '../i18n'
@@ -191,6 +192,14 @@ export function Subject({
           </button>
         </div>
       </header>
+
+      <SubjectPace
+        subject={subject}
+        settings={settings}
+        newToday={stats.newToday}
+        dueToday={stats.dueToday}
+        onChanged={() => void load()}
+      />
 
       {courses.length > 0 && (
         <button className="textbook-row" onClick={() => onRead(null, courses.map((c) => c.code).join(','))}>

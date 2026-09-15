@@ -1,68 +1,11 @@
 {
   "lecture_id": "PD18a",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 23",
   "title": "Globalisation of Law I",
-  "source_file": "raw/PD18a_pp-18-a-glbbalisation-foljanty.pdf",
-  "source_sha256": "1a461944c525ce01eeb8b7b2e2b6c9675c73978d4ff4ef1343170dd2fca20683",
-  "source_pages": 24,
-  "slides_per_page": 1,
-  "slide_count": 24,
-  "updated_at": "2026-09-15T12:12:48+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD18a/PD18a_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 57,
-      "text_sha": "a006f7aeb119f75c",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD18a/PD18a_s002.webp",
-      "title": "Globalisation of Law",
-      "text": "Lena Foljanty, 14 January 2026.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 139,
-      "text_sha": "9542d268dd448095",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD18a/PD18a_s003.webp",
-      "title": "Plan of the session",
-      "text": "What is globalisation? The institutionalisation of globalisation: the United Nations. The background: decolonisation after 1945. Economic globalisation and law. Law and development. The guiding question throughout: WHAT DOES GLOBALISATION MEAN FOR THE FIELD OF LAW?",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 479,
-      "text_sha": "68507fc0c356ba4d",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD18a/PD18a_s004.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "2": { "title": "Globalisation of Law", "text": "Lena Foljanty, 14 January 2026.", "terms": [], "cards": [], "vision_used": true },
+    "3": { "title": "Plan of the session", "text": "What is globalisation? The institutionalisation of globalisation: the United Nations. The background: decolonisation after 1945. Economic globalisation and law. Law and development. The guiding question throughout: WHAT DOES GLOBALISATION MEAN FOR THE FIELD OF LAW?", "terms": [], "cards": [], "vision_used": false },
+    "4": {
       "title": "What is globalisation?",
       "text": "A TERM USED SINCE THE 1990s TO DESCRIBE THE CURRENT AGE — so it is a word for a self-description, not a neutral label. Three components: the DENSIFICATION AND INCREASED IMPORTANCE OF GLOBAL NETWORKING; the EMERGENCE OF NEW GLOBAL ACTORS; and SOCIETIES SEEN NOT AS CLOSED BUT AS OPEN AND INTERACTING ENTITIES. The third is the one with consequences for law: a legal order built for a closed society regulates a territory, while an open and interacting one keeps producing questions its own state cannot answer alone.",
       "terms": [],
@@ -75,18 +18,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 447,
-      "text_sha": "fc3e7679bc252c04",
-      "pdf_page": 4
+      "vision_used": true
     },
-    {
-      "n": 5,
-      "img": "img/PD18a/PD18a_s005.webp",
+    "5": {
       "title": "Factors and conditions",
       "text": "NEW TECHNICAL TOOLS FOR COMMUNICATION AND TRANSPORT — decreasing costs and increasing speed. INCREASING GLOBAL MARKETS. INCREASING MOBILITY OF GOODS AND PEOPLE, INCLUDING MIGRATION. And GLOBAL INSTITUTIONS. The first three are conditions the law does not create; the fourth is itself a legal construction — which is why the story divides into what law responds to and what law builds.",
       "terms": [],
@@ -99,29 +33,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 495,
-      "text_sha": "aa1a4809efa365f7",
-      "pdf_page": 5
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD18a/PD18a_s006.webp",
+    "6": {
       "title": "Three patterns of globalisation in law",
       "text": "The framework for both sessions, each with its example. FIRST, the CREATION OF SUPRA-NATIONAL LAW AND INSTITUTIONS — e.g. UN INSTITUTIONS AND CONVENTIONS. SECOND, the HARMONISATION OF LAW VIA LEGAL TRANSFERS, PARTLY AUTONOMOUS AND PARTLY HETERONOMOUS — e.g. DECOLONISATION AND DEVELOPMENT AID. Autonomous means the receiving state chooses; HETERONOMOUS means the transfer is imposed or conditioned from outside — the distinction is the whole moral difference between borrowing a code and being required to adopt one. THIRD, HETERARCHICAL NETWORKS BEYOND THE STATE — e.g. GLOBAL CONTRACT AND BUSINESS LAW. Heterarchical, not hierarchical: no level above the others, no legislator at the top.",
       "terms": [
-        {
-          "term": "heteronomous transfer",
-          "def": "A legal transfer imposed or made a condition from outside, as against an autonomous one chosen by the receiving legal order."
-        },
-        {
-          "term": "heterarchical",
-          "def": "Ordered without a hierarchy — networks of norm-production beyond the state with no level above the others and no central legislator."
-        }
+        { "term": "heteronomous transfer", "def": "A legal transfer imposed or made a condition from outside, as against an autonomous one chosen by the receiving legal order." },
+        { "term": "heterarchical", "def": "Ordered without a hierarchy — networks of norm-production beyond the state with no level above the others and no central legislator." }
       ],
       "cards": [
         {
@@ -139,18 +58,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 629,
-      "text_sha": "7f19ac2894230e43",
-      "pdf_page": 6
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PD18a/PD18a_s007.webp",
+    "7": {
       "title": "The United Nations",
       "text": "The starting point is a FAILURE: the LEAGUE OF NATIONS. Then the DECLARATION OF 1942 BY THE ALLIES IN THE SECOND WORLD WAR — fighting against the aggressors, with a commitment 'TO DEFEND LIFE, LIBERTY, INDEPENDENCE AND RELIGIOUS FREEDOM, AND TO PRESERVE HUMAN RIGHTS AND JUSTICE IN THEIR OWN LANDS AS WELL AS IN OTHER LANDS'. Note the date: the human-rights commitment is made IN 1942, in the middle of the war, as a war aim. FOUNDATION OF THE UNITED NATIONS IN JUNE 1945, INITIALLY 50 MEMBER STATES, TODAY 193 — and the growth from 50 to 193 is itself the history of decolonisation, which is why the organisation's majority changed character without any amendment to its charter.",
       "terms": [],
@@ -163,57 +73,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 625,
-      "text_sha": "19736311b5f6ef44",
-      "pdf_page": 7
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD18a/PD18a_s008.webp",
-      "title": "Images",
-      "text": "The founding of the United Nations.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 208,
-      "text_sha": "4c80b71bd31052be",
-      "pdf_page": 8
-    },
-    {
-      "n": 9,
-      "img": "img/PD18a/PD18a_s009.webp",
-      "title": "Images",
-      "text": "The United Nations organisation.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 208,
-      "text_sha": "180c65cf4fdaf6bf",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PD18a/PD18a_s010.webp",
+    "8": { "title": "Images", "text": "The founding of the United Nations.", "terms": [], "cards": [], "vision_used": true },
+    "9": { "title": "Images", "text": "The United Nations organisation.", "terms": [], "cards": [], "vision_used": true },
+    "10": {
       "title": "Universal human rights and the generations",
       "text": "The UNIVERSAL DECLARATION OF HUMAN RIGHTS of 10 DECEMBER 1948, IN REACTION TO THE ATROCITIES OF THE SECOND WORLD WAR AND THE HOLOCAUST. And the scheme to reproduce: FIRST GENERATION — CIVIL AND POLITICAL RIGHTS; SECOND GENERATION — ECONOMIC, SOCIAL AND CULTURAL RIGHTS; THIRD GENERATION — COLLECTIVE OR SOLIDARITY RIGHTS; FOURTH GENERATION? with the question mark. The generations are not only chronological: they differ in who holds the right and what the state owes. The first requires the state to ABSTAIN, the second to PROVIDE, and the third is held by GROUPS rather than individuals — which is why the later slides read each generation back to the political constellation that produced it.",
       "terms": [
-        {
-          "term": "generations of human rights",
-          "def": "First: civil and political (the state must abstain). Second: economic, social and cultural (the state must provide). Third: collective or solidarity rights (held by groups, not individuals)."
-        }
+        { "term": "generations of human rights", "def": "First: civil and political (the state must abstain). Second: economic, social and cultural (the state must provide). Third: collective or solidarity rights (held by groups, not individuals)." }
       ],
       "cards": [
         {
@@ -231,18 +99,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 563,
-      "text_sha": "6f2499b5070048ca",
-      "pdf_page": 10
+      "vision_used": true
     },
-    {
-      "n": 11,
-      "img": "img/PD18a/PD18a_s011.webp",
+    "11": {
       "title": "Decolonisation after 1945",
       "text": "MAJOR CHALLENGES TO THE COLONIAL SITUATION AFTER THE SECOND WORLD WAR, driven by the CHANGE OF GLOBAL POWER CONSTELLATIONS WITH A NEW BI-POLAR CONSTELLATION IN THE COLD WAR — neither superpower had an interest in preserving the European empires. Two routes to independence: by TRANSFER OF POWER, e.g. FRENCH WEST AFRICA, or by SELF-LIBERATION WARS, e.g. INDOCHINA, ALGERIA, KENYA. The route matters for the law that follows: a transfer of power hands over the colonial state's institutions intact, while a war of liberation leaves a movement that has already governed territory of its own.",
       "terms": [],
@@ -262,18 +121,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 519,
-      "text_sha": "7b37eca6cc395b4f",
-      "pdf_page": 11
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD18a/PD18a_s012.webp",
+    "12": {
       "title": "The speed of it",
       "text": "THE END OF THE COLONIAL EMPIRES IN THE MID-1960s, WITH POST-COLONIAL STATE FORMATION. The numbers for Africa, and they are the thing to memorise: 1945 — 3 INDEPENDENT COUNTRIES; 1959 — 15; 1960 — 32. A continent's states created in a decade and a half, most of them in a single year. That pace is the reason for what follows: there was no time to build a legal order from nothing.",
       "terms": [],
@@ -286,34 +136,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 425,
-      "text_sha": "e941f90c7fbc9533",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD18a/PD18a_s013.webp",
-      "title": "Map",
-      "text": "The map of decolonisation.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 207,
-      "text_sha": "7772846ffae3ca0b",
-      "pdf_page": 13
-    },
-    {
-      "n": 14,
-      "img": "img/PD18a/PD18a_s014.webp",
+    "13": { "title": "Map", "text": "The map of decolonisation.", "terms": [], "cards": [], "vision_used": true },
+    "14": {
       "title": "Bandung and the solidarity of the post-colonial states",
       "text": "ANTI-COLONIAL INDEPENDENCE MOVEMENTS WERE OFTEN SOCIALIST OR COMMUNIST — IN REJECTION OF CAPITALISM AS THE ECONOMIC FORM OF COLONIALISM. Hold on to that clause: the political alignment was not incidental, it followed from an analysis of what colonialism had been. And SOLIDARITY AMONG THE (POST-)COLONIAL STATES: the AFRO-ASIAN CONFERENCES IN BANDUNG IN 1955, with FOLLOW-UP CONFERENCES UNTIL 1963, raising the CLAIM FOR INDEPENDENCE AND NON-INTERFERENCE.",
       "terms": [],
@@ -326,18 +152,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 570,
-      "text_sha": "b5335037a37d1f6d",
-      "pdf_page": 14
+      "vision_used": true
     },
-    {
-      "n": 15,
-      "img": "img/PD18a/PD18a_s015.webp",
+    "15": {
       "title": "The right to self-determination",
       "text": "The decisive shift: THE DEBATE WAS DOMINATED LESS BY THE DEMAND FOR INDIVIDUAL RIGHTS THAN FOR THE RIGHT OF PEOPLES TO SELF-DETERMINATION, which was SEEN AS A PREREQUISITE FOR THE ENJOYMENT OF HUMAN RIGHTS — there was a STRUGGLE FOR ITS INCLUSION IN THE HUMAN RIGHTS CONVENTIONS. The result is ART. 1 OF THE INTERNATIONAL COVENANT ON ECONOMIC, SOCIAL AND CULTURAL RIGHTS (1966): 'ALL PEOPLES HAVE THE RIGHT OF SELF-DETERMINATION. BY VIRTUE OF THAT RIGHT THEY FREELY DETERMINE THEIR POLITICAL STATUS AND FREELY PURSUE THEIR ECONOMIC, SOCIAL AND CULTURAL DEVELOPMENT.' Note where it stands: ARTICLE ONE, ahead of every individual right in the covenant, and the holder is a PEOPLE, not a person. The Global South did not merely join the human-rights system; it changed what stands at the front of it.",
       "terms": [],
@@ -350,18 +167,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 877,
-      "text_sha": "083a05c3e0b31995",
-      "pdf_page": 15
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD18a/PD18a_s016.webp",
+    "16": {
       "title": "Charter of the Organization of African Unity (1963)",
       "text": "ART. II PURPOSES: '(c) TO DEFEND THEIR SOVEREIGNTY, THEIR TERRITORIAL INTEGRITY AND INDEPENDENCE; (d) TO ERADICATE ALL FORMS OF COLONIALISM FROM AFRICA; (e) TO PROMOTE INTERNATIONAL COOPERATION, HAVING DUE REGARD TO THE CHARTER OF THE UNITED NATIONS AND THE UNIVERSAL DECLARATION OF HUMAN RIGHTS.' ART. III PRINCIPLES: '2. NON-INTERFERENCE IN THE INTERNAL AFFAIRS OF STATES. 3. RESPECT FOR THE SOVEREIGNTY AND TERRITORIAL INTEGRITY OF EACH STATE AND FOR ITS INALIENABLE RIGHT TO INDEPENDENT EXISTENCE. 6. ABSOLUTE DEDICATION TO THE TOTAL EMANCIPATION OF THE AFRICAN TERRITORIES WHICH ARE STILL DEPENDENT.' Two things to notice. TERRITORIAL INTEGRITY means the COLONIAL BORDERS are kept — the new states guaranteed each other the frontiers the empires had drawn. And NON-INTERFERENCE cuts both ways: it is a shield against the former colonial powers, and it later stands in the way of any external response to what a member state does to its own population.",
       "terms": [],
@@ -374,18 +182,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 863,
-      "text_sha": "29b71061a18e1a66",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD18a/PD18a_s017.webp",
+    "17": {
       "title": "Law in decolonised states",
       "text": "DECOLONISATION GOES HAND IN HAND WITH NATION-STATE BUILDING, and therefore with a STRONG INTEREST IN STABILITY, ECONOMIC GROWTH, STATE FORMATION AND STATE UNITY. From it follows the NECESSITY TO CREATE AS QUICKLY AS POSSIBLE A WELL-WORKING LEGAL ORDER — and hence, OFTEN, STRONG CONTINUITY WITH THE LAW OF THE FORMER COLONIAL POWER. The paradox to state plainly: independence produced legal continuity, because the one thing a new state cannot afford is a period without a functioning legal system.",
       "terms": [],
@@ -398,18 +197,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 549,
-      "text_sha": "e8b8ac4e1b4877bd",
-      "pdf_page": 17
+      "vision_used": true
     },
-    {
-      "n": 18,
-      "img": "img/PD18a/PD18a_s018.webp",
+    "18": {
       "title": "Legal transfer as the main tool",
       "text": "How the continuity worked in practice: INSTITUTIONS OFTEN REMAINED; LOCAL ELITES HAD BEEN TRAINED IN THE LAW OF THE METROPOLIS; and OWN LEGAL EDUCATION PROGRAMMES had first to be built up. Then POSTCOLONIAL CODIFICATION WITH A METROPOLITAN MODEL: FORMER FRENCH COLONIES MOSTLY BASED ON THE FRENCH CONSTITUTION OF 1958, and FORMER BRITISH COLONIES GIVEN A 'STANDARD CONSTITUTION' ADAPTED IN COOPERATION WITH THE COLONIAL OFFICE. Note the second: the departing power supplied a constitutional template and helped adapt it — decolonisation drafted by the Colonial Office.",
       "terms": [],
@@ -422,18 +212,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 744,
-      "text_sha": "696417aae3f7ec07",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD18a/PD18a_s019.webp",
+    "19": {
       "title": "The dual court system and customary law",
       "text": "ABOLITION OF THE DUAL COURT SYSTEM WITH ITS OWN JURISDICTION FOR 'INDIGENOUS PEOPLE' — the colonial legal pluralism of the earlier lecture, dismantled. But in two different ways: PARTLY AN ATTEMPT TO ABOLISH CUSTOMARY LAW, PARTLY A CODIFICATION OF IT — and codifying custom is not preserving it, since writing it down fixes it and hands its interpretation to state courts. OFTEN A LIMITATION OF CUSTOMARY LAW IN ORDER TO CREATE A UNIFIED LEGAL ORDER FOR THE NEW NATION STATE. The consequences: ASSIMILATION OF INDIGENOUS CUSTOMS AND PRACTICES, and CUSTOMARY LAW OFTEN PREVAILING UNOFFICIALLY — driven out of the courts, not out of life.",
       "terms": [],
@@ -446,18 +227,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 611,
-      "text_sha": "5c1ec495d98be648",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD18a/PD18a_s020.webp",
+    "20": {
       "title": "Contextualising human rights",
       "text": "The pay-off of the whole lecture, and the best single exam answer in it. THE SECOND GENERATION OF HUMAN RIGHTS REFLECTS CLEARLY THE MOVEMENT TOWARDS INDEPENDENCE AND DECOLONISATION — the claim of SELF-DETERMINATION, NON-INTERFERENCE AND SOVEREIGNTY. THE THIRD GENERATION REFLECTS THE ASSIMILATION OF INDIGENOUS CULTURES THAT TOOK PLACE IN THE COURSE OF NATION-STATE BUILDING — the PROTECTION OF INDIGENOUS CUSTOMS AND PRACTICES. So the generations are not a natural unfolding of an idea: each answers the political situation of the moment, and the third answers a harm caused by the second's own success.",
       "terms": [],
@@ -470,41 +242,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 593,
-      "text_sha": "04c47b3a1a6f42fd",
-      "pdf_page": 20
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD18a/PD18a_s021.webp",
-      "title": "Images",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 207,
-      "text_sha": "c1d4c4de9a2e28cb",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PD18a/PD18a_s022.webp",
+    "21": { "title": "Images", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "22": {
       "title": "Law and development",
       "text": "THE WORLD BANK AND THE INTERNATIONAL MONETARY FUND (IMF) AS GLOBAL INSTITUTIONS FOR FINANCIAL AID TO LESS DEVELOPED COUNTRIES AND COUNTRIES IN CRISIS, beside NATIONAL OR REGIONAL DEVELOPMENT AGENCIES. And the mechanism: CREDITS AND AID ARE OFTEN BOUND TO CONDITIONS — LEGAL AND ECONOMIC REFORMS, for example the IMPLEMENTATION OF HUMAN RIGHTS AND THE RULE OF LAW, AND ECONOMIC DE-REGULATION. This is LEGAL TRANSFER AS A MAIN TOOL in its HETERONOMOUS form: the receiving state formally chooses, but the alternative is no credit. The same instrument that carries the rule of law also carries de-regulation, and both arrive as conditions rather than as decisions.",
       "terms": [
-        {
-          "term": "conditionality",
-          "def": "Credits and development aid tied to legal and economic reforms — human rights and the rule of law, but also economic de-regulation — making legal transfer heteronomous in form."
-        }
+        { "term": "conditionality", "def": "Credits and development aid tied to legal and economic reforms — human rights and the rule of law, but also economic de-regulation — making legal transfer heteronomous in form." }
       ],
       "cards": [
         {
@@ -515,18 +260,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 663,
-      "text_sha": "a07ac07f26976380",
-      "pdf_page": 22
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "img": "img/PD18a/PD18a_s023.webp",
+    "23": {
       "title": "Summary",
       "text": "SUPRA-NATIONAL NORMATIVE REGIMES AND INSTITUTIONS ARE FORMED AFTER 1945 IN ORDER TO KEEP PEACE — and DECOLONISATION CHANGES THE POWER BALANCE WITHIN THESE INSTITUTIONS. LEGAL TRANSFER AS A TOOL PLAYS A MAJOR ROLE both in building new legal orders for decolonised nation states and in the context of development aid. And the conclusion, with its qualification: DESPITE THE FALL OF THE COLONIAL EMPIRES, THE LAW OF THE FORMER COLONIAL POWER AND OF THE GLOBAL NORTH REMAIN INFLUENTIAL — so there is a CONVERGENCE OF THE WORLD'S LEGAL ORDERS, HOWEVER WITH A LOT OF DIFFERENCES IN DETAIL. Convergence, not identity: the same formula as at the end of the lecture on the 19th century — spread is not sameness.",
       "terms": [],
@@ -539,30 +275,8 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 809,
-      "text_sha": "a73f84014bd11297",
-      "pdf_page": 23
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "img": "img/PD18a/PD18a_s024.webp",
-      "title": "Thank you",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": true,
-      "text_chars": 219,
-      "text_sha": "ac80adfa28812280",
-      "pdf_page": 24
-    }
-  ]
+    "24": { "title": "Thank you", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }

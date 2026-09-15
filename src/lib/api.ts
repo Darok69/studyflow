@@ -380,3 +380,38 @@ export function getMaterialLecture(id: string): Promise<MaterialLecture> {
 export function materialImageUrl(img: string): string {
   return `/api/materials/${img}`
 }
+
+// ---- vlastní učebnice z Clauda ----
+
+export interface PubToken {
+  id: string
+  label: string
+  createdAt: string
+  lastUsedAt: string | null
+}
+
+export interface PubPack {
+  slug: string
+  subject: string
+  examDate: string | null
+  lectures: number
+  cards: number
+  updatedAt: string | null
+}
+
+export function getPubState(): Promise<{ tokens: PubToken[]; packs: PubPack[] }> {
+  return api('/api/pub/state')
+}
+
+/** The token comes back exactly once — the server keeps only its hash. */
+export function createPubToken(label: string): Promise<{ token: string; tokens: PubToken[] }> {
+  return api('/api/pub/token', { method: 'POST', body: JSON.stringify({ label }) })
+}
+
+export function revokePubToken(id: string): Promise<{ tokens: PubToken[] }> {
+  return api(`/api/pub/token/${encodeURIComponent(id)}`, { method: 'DELETE' })
+}
+
+export function deletePubPack(slug: string): Promise<{ packs: PubPack[] }> {
+  return api(`/api/pub/pack/${encodeURIComponent(slug)}`, { method: 'DELETE' })
+}

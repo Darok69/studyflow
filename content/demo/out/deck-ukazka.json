@@ -1,0 +1,87 @@
+{
+  "subject": "Ukázka — Úvod do římského práva",
+  "examDate": null,
+  "cards": [
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "topic": "Prameny římského práva",
+      "front": "Rozliš pramen práva ve formálním a v materiálním smyslu a přidej pramen poznání.",
+      "back": "Formální pramen je FORMA, ve které právo platí — zákon, edikt, obyčej. Materiální pramen je to, CO PRÁVO VYVOLALO — hospodářské poměry, zájmy, spor, který se musel rozhodnout. Pramen poznání je TEXT, ZE KTERÉHO O PRÁVU VÍME — rukopis, nápis, papyrus.",
+      "tags": [],
+      "sourceRef": "ukazkaU01#2"
+    },
+    {
+      "type": "basic",
+      "kind": "cisla",
+      "level": 2,
+      "topic": "Prameny římského práva",
+      "front": "Kdy vznikl Zákon dvanácti desek a v čem byl jeho hlavní význam?",
+      "back": "Kolem 451–450 př. n. l. Význam nebyl v obsahu — ten se nedochoval a známe ho z citací — ale v tom, že právo bylo POPRVÉ ZAPSANÉ A VEŘEJNÉ. Dokud ho znali jen patricijští pontifikové, byla znalost práva mocí; jeho zveřejnění bylo politický akt.",
+      "tags": [],
+      "sourceRef": "ukazkaU01#3"
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "topic": "Prameny římského práva",
+      "front": "Jak mohl praetor měnit právo, když nesměl vydávat zákony?",
+      "back": "Vyhlášením EDIKTU, seznamu žalob, které během svého roku propůjčí. Kdo se do některé vešel, dostal soudní ochranu, kdo ne, neměl nic — takže ROZHODOVÁNÍM O ŽALOBÁCH rozhodoval o tom, kdo má právo. Formálně spravoval jen proces; fakticky postavil vedle ius civile vlastní vrstvu, IUS HONORARIUM.",
+      "tags": [],
+      "sourceRef": "ukazkaU01#4"
+    },
+    {
+      "type": "basic",
+      "kind": "srovnani",
+      "level": 3,
+      "topic": "Prameny římského práva",
+      "front": "Čím se praetorský edikt podobá anglickým writům?",
+      "back": "Obojí je systém ŽALOBNÍCH FOREM, ve kterém vzniká hmotné právo z procesního: kdo dostane žalobu, má právo, a komu se odepře, tomu právo fakticky zanikne. A obojí se opakováním ustálilo do uzavřeného seznamu — edictum perpetuum kolem roku 130 n. l., registr writů ve 13. století.",
+      "tags": [],
+      "sourceRef": "ukazkaU01#4"
+    },
+    {
+      "type": "basic",
+      "kind": "proces",
+      "level": 1,
+      "topic": "Jak si udělat vlastní učebnici přes Clauda",
+      "front": "Co je první krok k vlastní učebnici ve StudyFlow?",
+      "back": "V Nastavení v sekci „Vlastní učebnice z Clauda“ vytvořit propojení a zkopírovat zobrazený příkaz — obsahuje klíč a ukáže se jen jednou. Ten příkaz se pak jednou vloží do Claude Code.",
+      "tags": [],
+      "sourceRef": "ukazkaU02#2"
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 2,
+      "topic": "Jak si udělat vlastní učebnici přes Clauda",
+      "front": "Proč mají otázky viset u konkrétního oddílu výkladu, a ne být na konci přednášky?",
+      "back": "Protože si tím karta nese odkaz na místo, ze kterého vznikla — appka pak u karty umí ukázat i výklad. Navíc to nutí psát otázky, které jsou z textu opravdu zodpověditelné, místo obecných otázek přes celou přednášku.",
+      "tags": [],
+      "sourceRef": "ukazkaU02#3"
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 1,
+      "topic": "Jak si udělat vlastní učebnici přes Clauda",
+      "front": "Co Claudovi dát navíc k přednáškám, aby učebnice mířila na zkoušku?",
+      "back": "Zkouškové okruhy a seznam povinné četby. Bez nich se učebnice drží toho, co bylo náhodou na slidech; s nimi se drží toho, co se opravdu zkouší.",
+      "tags": [],
+      "sourceRef": "ukazkaU02#3"
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 1,
+      "topic": "Jak si udělat vlastní učebnici přes Clauda",
+      "front": "Objeví se karty z nově nahrané učebnice rovnou v dnešní dávce?",
+      "back": "Ne. Balíček se objeví v Importu mezi připravenými a přidáš si ho, až budeš chtít — aby nový předmět nerozhodil denní dávku uprostřed zkouškového.",
+      "tags": [],
+      "sourceRef": "ukazkaU02#4"
+    }
+  ],
+  "filing": []
+}

@@ -226,6 +226,45 @@ export const de: Messages = {
     `Alle aktuellen Daten durch das Backup ersetzen (${nSubjects} ${faecher(nSubjects)}, ${nCards} ${karten(nCards)})?`,
   backupFileName: (date: string) => `studyflow-sicherung-${date}.json`,
 
+  // Tempo des Fachs
+  paceTitle: 'Tempo und Prüfungstermin',
+  paceAuto: 'Tempo automatisch',
+  paceManual: (n: number) => `${n} neue pro Tag`,
+  paceTodayIs: (nw: number, due: number) => `heute ${nw} neue, ${due} zu wiederholen`,
+  paceNewPerDay: 'Neue Karten pro Tag',
+  paceAutoBtn: 'Automatisch',
+  paceCustom: 'eigene',
+  paceAutoDesc:
+    'Die App verteilt die restlichen Karten auf die Tage bis zur Prüfung. Rückt der Termin näher, wächst die Portion von selbst.',
+  paceManualDesc: 'Deine Zahl gilt unabhängig vom Termin. Schreib ruhig hundert hinein — hier gibt es keine Obergrenze.',
+  paceCapNote: (cap: number) =>
+    `Über alle Fächer gilt zusätzlich eine gemeinsame Obergrenze von ${cap} neuen Karten pro Tag.`,
+  paceCapLift: 'Obergrenze aufheben',
+
+  // Claude-Verbindung
+  claudeSection: 'Eigene Lehrbücher aus Claude',
+  claudeDesc:
+    'Du hast deine Vorlesungsunterlagen und Claude? Verbinde es mit StudyFlow, und es macht daraus direkt hier ein Lehrbuch samt Karten — nichts herunterladen, nichts hochladen. Deine Lehrbücher siehst nur du.',
+  claudeNewToken: 'Verbindung erstellen',
+  claudeStep1: '1. Diesen Befehl einmal in Claude Code einfügen',
+  claudeShownOnce: 'Der Schlüssel wird nur jetzt angezeigt. Wenn er weg ist, erstelle einfach einen neuen.',
+  claudeCopyCommand: 'Befehl kopieren',
+  claudeStep2: '2. Dann sag Claude, was es tun soll',
+  claudeAsk:
+    'Lies diese Vorlesungen und baue daraus in StudyFlow ein Lehrbuch mit Fragen. Schreibe zusammenhängenden Text, keine Stichpunkte, und hänge jede Frage an den Abschnitt, aus dem sie beantwortet werden kann.',
+  claudeCopyAsk: 'Aufgabe kopieren',
+  claudeTokenName: (label: string) => `Verbindung ${label}`,
+  claudeTokenUsed: (date: string) => `zuletzt ${date}`,
+  claudeTokenUnused: 'noch nicht genutzt',
+  claudeRevoke: 'Widerrufen',
+  claudeConfirmRevoke:
+    'Diese Verbindung widerrufen? Claude kann darüber nichts mehr hochladen. Die Lehrbücher bleiben.',
+  claudeMyPacks: 'Meine Lehrbücher',
+  claudePackCounts: (lectures: number, cards: number) => `${lectures} Vorlesungen · ${cards} Karten`,
+  claudeConfirmDeletePack: (name: string) => `Das Lehrbuch „${name}" samt Karten löschen?`,
+  claudeLoadFailed: 'Verbindungen konnten nicht geladen werden.',
+  claudeTokenFailed: 'Verbindung konnte nicht erstellt werden — versuch es noch einmal.',
+
   // Admin users
   adminSection: 'Zugänge (Admin)',
   adminDesc:

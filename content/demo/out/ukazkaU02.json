@@ -1,0 +1,29 @@
+{
+  "lecture_id": "ukazkaU02",
+  "course": "UK",
+  "course_title": "Ukázková učebnice StudyFlow",
+  "unit": "Téma 2",
+  "title": "Jak si udělat vlastní učebnici přes Clauda",
+  "slides": [
+    {
+      "n": 1,
+      "title": "K čemu to je",
+      "text": "Tahle přednáška není o právu — je návod. Vysvětluje, jak dostat do StudyFlow vlastní předmět, aniž bys cokoli psal ručně.\n\nPrincip je jednoduchý: StudyFlow umí mluvit s Claudem. Ty dáš Claudovi svoje přednášky, on z nich udělá učebnici i kartičky a rovnou je nahraje sem. Ty pak jen otevřeš appku a máš to tam."
+    },
+    {
+      "n": 2,
+      "title": "Krok za krokem",
+      "text": "1. V Nastavení najdi sekci VLASTNÍ UČEBNICE Z CLAUDA a klikni na „Vytvořit propojení“. Zobrazí se jeden příkaz — zkopíruj ho. Obsahuje tvůj klíč a ukáže se jen jednou.\n\n2. Ten příkaz vlož do Claude Code a odešli. Tím Claude získá přístup k tvému StudyFlow — a jen k tvému.\n\n3. Dej Claudovi svoje podklady: PDF přednášek, slidy, skripta, poznámky. Klidně celou složku.\n\n4. Řekni mu, co chceš. Například: „Přečti tyhle přednášky a udělej z nich ve StudyFlow učebnici i s otázkami.“\n\n5. Otevři StudyFlow. Učebnice i karty tam jsou."
+    },
+    {
+      "n": 3,
+      "title": "Co Claudovi říct, aby to bylo dobré",
+      "text": "Výsledek stojí a padá se zadáním. Tři věci, které se vyplatí říct:\n\nSOUVISLÝ VÝKLAD, NE ODRÁŽKY. Odrážky z prezentace fungují, když u nich někdo mluví. Sám z nich neuvíš nic.\n\nOTÁZKY K ODDÍLŮM, NE NA KONEC. Když otázka visí u oddílu, ze kterého se dá zodpovědět, appka ti u karty umí ukázat i výklad.\n\nJEDNA PŘEDNÁŠKA = JEDNO TÉMA ZKOUŠKY. Pak se dá učit po tématech a nemíchá se ti všechno dohromady.\n\nA jestli máš zkouškové okruhy nebo seznam povinné četby, dej je Claudovi taky. Učebnice se pak drží toho, co se opravdu zkouší, a ne toho, co bylo náhodou na slidech."
+    },
+    {
+      "n": 4,
+      "title": "Co se s tím dá dělat dál",
+      "text": "Učebnici jde kdykoli opravit: nech Clauda přepsat jednu přednášku a nahraje ji přes tu starou, zbytek zůstane. Celou učebnici smažeš v Nastavení jedním tlačítkem — zmizí i její karty.\n\nKarty z učebnice se do opakování nenasypou samy. Najdeš je v Importu mezi připravenými balíčky a přidáš si je, až budeš chtít — takže ti nový předmět nerozhodí denní dávku uprostřed zkouškového.\n\nA co je tvoje, vidíš jen ty. Cizí učebnice se ti v appce neobjeví a tvoje se neobjeví nikomu jinému."
+    }
+  ]
+}
