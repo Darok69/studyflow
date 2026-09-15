@@ -397,7 +397,8 @@
           "tag": "exam-focus",
           "topic": "Zkouška: chytáky a strategie"
         }
-      ]
+      ],
+      "kind": "lecture"
     },
     {
       "code": "PU",
@@ -410,141 +411,241 @@
           "id": "PUINFO",
           "unit": "Zkouška",
           "title": "What to read for the exam: the 24 topics and their required reading",
-          "file": "General Information/What to read for the exam (Modulprüfung).pdf"
+          "file": "General Information/What to read for the exam (Modulprüfung).pdf",
+          "topics": []
         },
         {
           "id": "PUEXAM",
           "unit": "Zkouška",
           "title": "A past module examination, with answers",
-          "file": "General Information/Second Exam.pdf"
+          "file": "General Information/Second Exam.pdf",
+          "topics": []
         },
         {
           "id": "PU01",
           "unit": "Cvičení 1",
           "title": "PUE Unit 1: Introduction and Ancient Legal Cultures",
-          "file": "Unit 1 October 13/ppt. unit 1_13_10_2025"
+          "file": "Unit 1 October 13/ppt. unit 1_13_10_2025",
+          "topics": [
+            1,
+            2
+          ]
         },
         {
           "id": "PUQ12",
           "unit": "Otázky 1/2",
           "title": "Questions and Sources, Units I and II",
-          "file": "Unit 1 October 13/Questions and Sources Unit 1 and 2.pdf"
+          "file": "Unit 1 October 13/Questions and Sources Unit 1 and 2.pdf",
+          "topics": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
         },
         {
           "id": "PU02",
           "unit": "Cvičení 2",
           "title": "PUE Unit 2: Jewish and Islamic Law, Corpus Iuris Civilis",
-          "file": "Unit 2 October 20/ppt. unit 2_20_10_2025"
+          "file": "Unit 2 October 20/ppt. unit 2_20_10_2025",
+          "topics": [
+            2,
+            3,
+            5
+          ]
         },
         {
           "id": "PU03",
           "unit": "Cvičení 3",
           "title": "PUE Unit 3: Ius Commune and Early Modern Times I",
-          "file": "Unit 3 October 27/ppt. unit 3_27_10_2025_pdf"
+          "file": "Unit 3 October 27/ppt. unit 3_27_10_2025_pdf",
+          "topics": [
+            3,
+            4
+          ]
         },
         {
           "id": "PUQ3",
           "unit": "Otázky 3",
           "title": "Questions and Sources, Unit III",
-          "file": "Unit 3 October 27/Questions and Sources Unit 3_27_10_2025.pdf"
+          "file": "Unit 3 October 27/Questions and Sources Unit 3_27_10_2025.pdf",
+          "topics": [
+            3,
+            4
+          ]
         },
         {
           "id": "PU04",
           "unit": "Cvičení 4",
           "title": "PUE Unit 4: Ius Commune II, Common Law, Ius gentium I",
-          "file": "Unit 4 November 3/ppt. unit 4_3_11_2025"
+          "file": "Unit 4 November 3/ppt. unit 4_3_11_2025",
+          "topics": [
+            4,
+            6,
+            7
+          ]
         },
         {
           "id": "PUQ4",
           "unit": "Otázky 4",
           "title": "Questions and Sources, Unit IV",
-          "file": "Unit 4 November 3/Questions and Sources Unit 4_WS 2025.pdf"
+          "file": "Unit 4 November 3/Questions and Sources Unit 4_WS 2025.pdf",
+          "topics": [
+            4,
+            6,
+            7
+          ]
         },
         {
           "id": "PU05",
           "unit": "Cvičení 5",
           "title": "PUE Unit 5: Ius gentium II, the Westphalian Order, Natural Law",
-          "file": "Unit 5 Nov.10/ppt. unit 5"
+          "file": "Unit 5 Nov.10/ppt. unit 5",
+          "topics": [
+            7,
+            8
+          ]
         },
         {
           "id": "PUQ5",
           "unit": "Otázky 5",
           "title": "Questions and Sources, Unit V",
-          "file": "Unit 5 Nov.10/Questions and Sources Unit 5.pdf"
+          "file": "Unit 5 Nov.10/Questions and Sources Unit 5.pdf",
+          "topics": [
+            7,
+            8
+          ]
         },
         {
           "id": "PU06",
           "unit": "Cvičení 6",
           "title": "PUE Unit 6: Enlightenment, Revolutions, Constitutions, Norm Production",
-          "file": "Unit 6 Nov. 17/ppt. unit 6_11_17_2025"
+          "file": "Unit 6 Nov. 17/ppt. unit 6_11_17_2025",
+          "topics": [
+            8,
+            9,
+            10,
+            11
+          ]
         },
         {
           "id": "PU08",
           "unit": "Cvičení 8",
           "title": "PUE Unit 8: Imperialism and International Law in the 20th Century",
-          "file": "Unit 8 Dec. 1/ppt. Unit 8 Dec., 1, 2025"
+          "file": "Unit 8 Dec. 1/ppt. Unit 8 Dec., 1, 2025",
+          "topics": [
+            13
+          ]
         },
         {
           "id": "PU08N1",
           "unit": "Cvičení 8",
           "title": "Norm production I (Foljanty)",
-          "file": "Unit 8 Dec. 1/ppt. Prof. foljanty norm production 1"
+          "file": "Unit 8 Dec. 1/ppt. Prof. foljanty norm production 1",
+          "topics": [
+            9,
+            10,
+            11
+          ]
         },
         {
           "id": "PU08N2",
           "unit": "Cvičení 8",
           "title": "Norm production II (Foljanty)",
-          "file": "Unit 8 Dec. 1/ppt. Prof.foljanty norm production 2"
+          "file": "Unit 8 Dec. 1/ppt. Prof.foljanty norm production 2",
+          "topics": [
+            9,
+            10,
+            11
+          ]
         },
         {
           "id": "PUQ8",
           "unit": "Otázky 8",
           "title": "Questions and Sources, Unit VIII",
-          "file": "Unit 8 Dec. 1/Questions and Sources Unit 8.pdf"
+          "file": "Unit 8 Dec. 1/Questions and Sources Unit 8.pdf",
+          "topics": [
+            13
+          ]
         },
         {
           "id": "PU09",
           "unit": "Cvičení 9",
           "title": "PUE Unit 9: Europe from 1918, Decolonisation",
-          "file": "Unit 9 Dec.15/ppt. unit 9"
+          "file": "Unit 9 Dec.15/ppt. unit 9",
+          "topics": [
+            15,
+            16,
+            17
+          ]
         },
         {
           "id": "PU09IL",
           "unit": "Cvičení 9",
           "title": "International law in the 20th century (Vec)",
-          "file": "Unit 9 Dec.15/ppt. Int. law (vec)"
+          "file": "Unit 9 Dec.15/ppt. Int. law (vec)",
+          "topics": [
+            13,
+            23,
+            24
+          ]
         },
         {
           "id": "PU09IM",
           "unit": "Cvičení 9",
           "title": "Imperialism (Foljanty)",
-          "file": "Unit 9 Dec.15/ppt. Prof. foljanty (imperialism)"
+          "file": "Unit 9 Dec.15/ppt. Prof. foljanty (imperialism)",
+          "topics": [
+            13
+          ]
         },
         {
           "id": "PU09WW",
           "unit": "Cvičení 9",
           "title": "World War I and the Paris Peace Treaties (Gassner)",
-          "file": "Unit 9 Dec.15/ppt. gassner (ww i and paris peace treaties)"
+          "file": "Unit 9 Dec.15/ppt. gassner (ww i and paris peace treaties)",
+          "topics": [
+            15
+          ]
         },
         {
           "id": "PUQ9",
           "unit": "Otázky 9",
           "title": "Questions and Sources, Unit IX",
-          "file": "Unit 9 Dec.15/Questions and Sources Unit 9.pdf"
+          "file": "Unit 9 Dec.15/Questions and Sources Unit 9.pdf",
+          "topics": [
+            15,
+            16,
+            17
+          ]
         },
         {
           "id": "PU10",
           "unit": "Cvičení 10",
           "title": "PUE Unit 10: Europe from 1918 onwards, Decolonisation",
-          "file": "Unit 10 Jan.12, 2026/ppt. unit 10; january 12, 2026"
+          "file": "Unit 10 Jan.12, 2026/ppt. unit 10; january 12, 2026",
+          "topics": [
+            18,
+            19,
+            20,
+            21
+          ]
         },
         {
           "id": "PUQ10",
           "unit": "Otázky 10",
           "title": "Questions and Sources, Unit X",
-          "file": "Unit 10 Jan.12, 2026/Questions and Sources Unit 10.pdf"
+          "file": "Unit 10 Jan.12, 2026/Questions and Sources Unit 10.pdf",
+          "topics": [
+            18,
+            19,
+            20,
+            21
+          ]
         }
-      ]
+      ],
+      "kind": "exercise"
     },
     {
       "code": "RD",
@@ -649,7 +750,10 @@
           "unit": "Téma 20–21",
           "title": "Kimble/Löwekamp, Legal Culture in European History 1860–1960s",
           "kind": "reading",
-          "file": "14_Kimble, Löwekamp, Legal Cult___n European History, 1860–1960s.pdf"
+          "file": "14_Kimble, Löwekamp, Legal Cult___n European History, 1860–1960s.pdf",
+          "topics": [
+            22
+          ]
         },
         {
           "id": "RD15",
@@ -658,7 +762,8 @@
           "kind": "reading",
           "file": "15_Kennedy, Three Globalizations of Law and Legal Thought-1.pdf"
         }
-      ]
+      ],
+      "kind": "reading"
     }
   ],
   "gaps": [

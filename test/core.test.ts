@@ -1413,6 +1413,33 @@ console.log('— blind maps: masks stay relative, one card per place —')
     'with no name match it falls back to topic overlap and takes the best one only',
   )
 
+  // Povinná četba se jmenuje po článku a cvičení po hodině, takže podle názvů
+  // je nenajde nikdo — a v učebnici by chyběly, přestože patří k témuž tématu
+  // téže zkoušky. Nalezené kurzy proto přitáhnou i ty, které sdílí téma.
+  const byTopic = [
+    { code: 'PD', title: 'Lecture', lectures: [{ id: 'PD01', unit: 'Topic 1', title: 'Introduction', slides: 4, cards: 2, topics: ['030362-1'] }] },
+    { code: 'RD', title: 'Reading', lectures: [{ id: 'RD01', unit: 'Téma 1', title: 'Kreß, International Criminal Law', slides: 9, cards: 5, topics: ['030362-1'] }] },
+    { code: 'PU', title: 'Exercise', lectures: [{ id: 'PU01', unit: 'Cvičení 1', title: 'PUE Unit 1', slides: 3, cards: 1, topics: ['030362-1'] }] },
+    { code: 'ZZ', title: 'Another subject', lectures: [{ id: 'ZZ01', unit: 'Topic 1', title: 'Introduction', slides: 1, cards: 0, topics: ['030999-1'] }] },
+  ]
+  const pulled = matchCourses(byTopic, 'Unknown deck', ['Introduction'])
+  ok(
+    pulled.map((c) => c.code).join() === 'PD,RD,PU',
+    `a shared topic pulls in the reading and the exercise (got ${pulled.map((c) => c.code).join()})`,
+  )
+  ok(
+    !pulled.some((c) => c.code === 'ZZ'),
+    'but not another subject that happens to number its topics the same way',
+  )
+  // Bez témat se nesmí přitáhnout nic — jinak by jeden balíček stáhl do
+  // učebnice všechno, na co uživatel dosáhne.
+  const noTopics = matchCourses(
+    byTopic.map((c) => ({ ...c, lectures: c.lectures.map(({ topics: _t, ...l }) => l) })),
+    'Unknown deck',
+    ['Introduction'],
+  )
+  ok(noTopics.map((c) => c.code).join() === 'PD', 'material without topics behaves as before')
+
   const unsorted = [{ topic: 'Custom' }, { topic: 'Mine' }, { topic: 'Treaties' }, { topic: 'Introduction' }]
   const sorted = orderByCourse(unsorted, [courses[0]]).map((p) => p.topic)
   ok(

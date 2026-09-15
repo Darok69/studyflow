@@ -44,3 +44,6 @@ content/*/out/studyflow/
 # 49 MB namluvených epizod — vyrábí je make_audio.py z podkladů, do gitu nepatří.
 content/*/out/audio/
 content/pipeline/__pycache__/
+
+# Dev server data (prod lives in a docker volume).
+data/

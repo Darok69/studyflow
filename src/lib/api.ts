@@ -337,13 +337,29 @@ export interface MaterialLecture {
 
 export interface MaterialIndex {
   exam: { name: string; date: string; language: string; format: string }
+  /**
+   * The exam topics, in exam order. A topic usually covers one number; when a
+   * single lecture teaches two, they share one group (`numbers: [11, 12]`).
+   */
+  topics?: { key: string; numbers: number[]; title: string }[]
   courses: {
     code: string
     number: string
     title: string
     /** Deck this course was made for — how a subject finds its textbook. */
     subject?: string | null
-    lectures: { id: string; unit: string; title: string; slides: number; cards: number }[]
+    /** What this course is to a topic: the lecture, the exercise, the reading. */
+    kind?: 'lecture' | 'exercise' | 'reading'
+
+    lectures: {
+      id: string
+      unit: string
+      title: string
+      slides: number
+      cards: number
+      /** Topic groups this belongs to — how lecture, reading and exercise meet. */
+      topics?: string[]
+    }[]
   }[]
 }
 

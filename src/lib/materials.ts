@@ -16,6 +16,8 @@ export interface LectureRef {
   title: string
   slides: number
   cards: number
+  /** Exam topics this belongs to; how a reading finds its lecture. */
+  topics?: string[]
 }
 
 export interface CourseRef {
@@ -45,7 +47,7 @@ export function matchCourses<T extends CourseRef>(
 ): T[] {
   const name = subjectName.trim().toLowerCase()
   const named = courses.filter((c) => (c.subject ?? '').trim().toLowerCase() === name && name !== '')
-  if (named.length > 0) return named
+  if (named.length > 0) return withSameTopics(courses, named)
 
   const wanted = new Set(topics.filter(Boolean))
   if (wanted.size === 0) return []
@@ -53,7 +55,30 @@ export function matchCourses<T extends CourseRef>(
     .map((course) => ({ course, hits: course.lectures.filter((l) => wanted.has(l.title)).length }))
     .filter((x) => x.hits > 0)
     .sort((a, b) => b.hits - a.hits)
-  return scored.length > 0 ? [scored[0].course] : []
+  return scored.length > 0 ? withSameTopics(courses, [scored[0].course]) : []
+}
+
+/**
+ * Přibalí kurzy, které učí TÁŽ TÉMATA jako ty nalezené.
+ *
+ * Kartu nese přednáška, a tak se podle názvů najde právě přednáškový kurz.
+ * Jenže povinná četba se jmenuje po článku („Kreß, Mezinárodní trestní
+ * právo") a cvičení po hodině („Cvičení 3") — podle názvu by je nenašel nikdo
+ * a v učebnici by chyběly, přestože patří k témuž tématu téže zkoušky.
+ *
+ * U zkoušky se téma dostane celé, ne po kurzech. Proto se k nalezeným kurzům
+ * přidá každý další, který sdílí aspoň jedno téma.
+ */
+function withSameTopics<T extends CourseRef>(courses: T[], seed: T[]): T[] {
+  const keys = new Set(seed.flatMap((c) => c.lectures.flatMap((l) => l.topics ?? [])))
+  if (keys.size === 0) return seed
+  const has = new Set(seed.map((c) => c.code))
+  const out = [...seed]
+  for (const course of courses) {
+    if (has.has(course.code)) continue
+    if (course.lectures.some((l) => (l.topics ?? []).some((k) => keys.has(k)))) out.push(course)
+  }
+  return out
 }
 
 /**

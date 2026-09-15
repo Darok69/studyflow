@@ -111,6 +111,69 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
   const slideRefs = useRef(new Map<number, HTMLElement>())
   const savePosition = usePositionWriter()
 
+  /**
+   * Seznam se řadí podle TÉMAT ZKOUŠKY, ne podle kurzů. U zkoušky se téma
+   * nedostane jako „přednáška" nebo „cvičení" — dostane se celé, takže
+   * přednáška, povinná četba i cvičení k němu patří na jednu hromádku.
+   *
+   * Balíček, který témata nemá (cizí nahrávka přes Clauda), se vypíše postaru
+   * po kurzech. Jinak by měl prázdnou učebnici.
+   */
+  const groups = useMemo(() => {
+    const courses = (index?.courses ?? []).filter(
+      (course) => !courseCode || courseCode.split(',').includes(course.code),
+    )
+    const items = courses.flatMap((course) =>
+      course.lectures.map((lec) => ({ lec, kind: course.kind ?? 'lecture', course })),
+    )
+    const topics = index?.topics ?? []
+    const filed = topics.length > 0 && items.some((it) => (it.lec.topics?.length ?? 0) > 0)
+    if (!filed) {
+      return courses.map((course) => ({
+        key: course.code,
+        label: '',
+        title: course.title,
+        items: course.lectures.map((lec) => ({
+          lec,
+          kind: 'id' as const,
+          badge: lec.id,
+          label: lec.title,
+        })),
+      }))
+    }
+    const out = topics.map((topic) => ({
+      key: topic.key,
+      label: topic.numbers.join('/'),
+      title: topic.title,
+      items: items
+        .filter((it) => it.lec.topics?.includes(topic.key))
+        .map((it) => ({
+          lec: it.lec,
+          kind: it.kind,
+          badge: '',
+          // Přednáška se jmenuje stejně jako téma — vypsat to dvakrát pod sebou
+          // nic neřekne. Místo toho se ukáže, ze kterého kurzu řádek je.
+          label: it.lec.title === topic.title ? it.course.title : it.lec.title,
+        })),
+    }))
+    // Co nepatří k žádnému tématu (seznam četby, stará zkouška) se nesmí ztratit.
+    const loose = items.filter((it) => !(it.lec.topics ?? []).some((k) => topics.some((tp) => tp.key === k)))
+    if (loose.length > 0) {
+      out.push({
+        key: 'loose',
+        label: '',
+        title: t('readerLoose'),
+        items: loose.map((it) => ({
+          lec: it.lec,
+          kind: it.kind,
+          badge: '',
+          label: it.lec.title,
+        })),
+      })
+    }
+    return out.filter((g) => g.items.length > 0)
+  }, [index, courseCode])
+
   useEffect(() => {
     let alive = true
     getMaterialIndex()
@@ -331,25 +394,21 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
       {loading && <p className="muted">{t('loading')}</p>}
       {error && !loading && <p className="muted">{error}</p>}
 
-      {index?.courses
-        .filter((course) => {
-          if (!courseCode) return true
-          return courseCode.split(',').includes(course.code)
-        })
-        .map((course) => (
-        <section key={course.code} className="reader-course">
+      {groups.map((group) => (
+        <section key={group.key} className="reader-course">
           <h3>
-            {course.title}
-            <span className="muted"> · {t('readerLectures', course.lectures.length)}</span>
+            {group.label && <span className="reader-topic-no">{group.label}</span>} {group.title}
           </h3>
           <div className="reader-list">
-            {course.lectures.map((lec) => {
+            {group.items.map(({ lec, kind, badge, label }) => {
               const at = positions[lec.id]
               return (
                 <button key={lec.id} className="reader-row" onClick={() => openLecture(lec.id)}>
-                  <span className="reader-row-id">{lec.id}</span>
+                  <span className={`reader-row-kind kind-${kind}`}>
+                    {kind === 'id' ? badge : t(`readerKind_${kind}`)}
+                  </span>
                   <span className="reader-row-main">
-                    <span className="reader-row-title">{lec.title}</span>
+                    <span className="reader-row-title">{label}</span>
                     <span className="muted">
                       {t('readerSlideCount', lec.slides)} · {t('readerCardCount', lec.cards)}
                       {at !== undefined && ` · ${t('readerRead', at, lec.slides)}`}
@@ -360,7 +419,7 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
             })}
           </div>
         </section>
-        ))}
+      ))}
     </div>
   )
 }

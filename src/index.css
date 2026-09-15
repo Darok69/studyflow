@@ -2211,6 +2211,53 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+/* Číslo tématu před názvem: podle něj se hledá v seznamu ke zkoušce. */
+.reader-topic-no {
+  display: inline-block;
+  min-width: 2.2rem;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Odkud řádek je — přednáška, cvičení, četba. Sloupec drží pevnou šířku, aby
+ * názvy pod sebou začínaly na stejném místě a seznam šel projet očima.
+ */
+.reader-row-kind {
+  min-width: 5.2rem;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+}
+
+.reader-row-kind.kind-lecture {
+  color: var(--accent);
+}
+
+.reader-row-kind.kind-exercise {
+  color: var(--mid);
+}
+
+.reader-row-kind.kind-reading {
+  color: var(--muted);
+}
+
+.reader-row-kind.kind-id {
+  min-width: 3.4rem;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: none;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 420px) {
+  .reader-row-kind {
+    min-width: 4.4rem;
+  }
+}
+
 .reader-row-main {
   display: flex;
   flex-direction: column;

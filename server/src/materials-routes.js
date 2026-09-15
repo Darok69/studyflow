@@ -70,12 +70,21 @@ function indexFilesIn(dir) {
 function mergedIndex(user) {
   const courses = []
   const seen = new Set()
+  // Témata zkoušky ze všech předmětů za sebou. Klíč nese číslo kurzu, takže
+  // se „téma 1" z jednoho předmětu nepotká s „tématem 1" z druhého.
+  const topics = []
+  const topicKeys = new Set()
   let exam = null
   for (const dir of readableDirs(user)) {
     for (const file of indexFilesIn(dir)) {
       const part = readJsonFile(file)
       if (!part || !Array.isArray(part.courses)) continue
       exam ??= part.exam ?? null
+      for (const topic of part.topics ?? []) {
+        if (!topic?.key || topicKeys.has(topic.key)) continue
+        topicKeys.add(topic.key)
+        topics.push(topic)
+      }
       for (const course of part.courses) {
         if (!course?.code || seen.has(course.code)) continue
         seen.add(course.code)
@@ -83,7 +92,7 @@ function mergedIndex(user) {
       }
     }
   }
-  return courses.length ? { exam, courses } : null
+  return courses.length ? { exam, topics, courses } : null
 }
 
 export function materialsAvailable(user) {
