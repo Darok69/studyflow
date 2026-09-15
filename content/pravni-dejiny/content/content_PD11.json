@@ -1,132 +1,15 @@
 {
   "lecture_id": "PD11",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 14",
   "title": "Chinese Legal History",
-  "source_file": "raw/PD11_pp-11-chinese-legal-history-li.pdf",
-  "source_sha256": "02253b2c1a318dbb2e2cee764b985c9a2accf76d784c2a076d92ea894e71f3b5",
-  "source_pages": 46,
-  "slides_per_page": 1,
-  "slide_count": 46,
-  "updated_at": "2026-09-15T12:12:45+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD11/PD11_s001.webp",
-      "title": "A Brief Introduction to Chinese Legal History, until the early 20th century",
-      "text": "Zheng Li, 20 November 2025.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 118,
-      "text_sha": "efb6a81216591c4c",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD11/PD11_s002.webp",
-      "title": "What do you already think you know?",
-      "text": "The lecture opens by asking for the first impression or imagination of Chinese law in history — and then spends forty slides taking it apart.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 128,
-      "text_sha": "9013b0abc5025f2c",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD11/PD11_s003.webp",
-      "title": "About China",
-      "text": "Today about 9.6 million square kilometres, over 1.4 billion people from 56 ethnic groups — and a geographical territory and population that CHANGED THROUGHOUT HISTORY. The dynasty maps later in the lecture are not the same country drawn again and again.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 475,
-      "text_sha": "5fe51c524fab654c",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD11/PD11_s004.webp",
-      "title": "History of China in 20 minutes",
-      "text": "A video link for the general chronology.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 93,
-      "text_sha": "99ab87b68a29c01a",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PD11/PD11_s005.webp",
-      "title": "Chronology of Chinese history (1)",
-      "text": "The chronology follows Xu Xiaoqun, Heaven Has Eyes — with the warning printed on the slide: SCHOLARS DIFFER about how to count the dynasties and their start and end years.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 233,
-      "text_sha": "a7b2f79390777f0c",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PD11/PD11_s006.webp",
-      "title": "Chronology of Chinese history (2)",
-      "text": "The continuation of the same table.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 202,
-      "text_sha": "bf2e81d80342e9b3",
-      "pdf_page": 6
-    },
-    {
-      "n": 7,
-      "img": "img/PD11/PD11_s007.webp",
-      "title": "Chronology of Chinese history (3)",
-      "text": "The end of the table.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 91,
-      "text_sha": "9affbcc86c92775d",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PD11/PD11_s008.webp",
+  "slides": {
+    "1": { "title": "A Brief Introduction to Chinese Legal History, until the early 20th century", "text": "Zheng Li, 20 November 2025.", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "What do you already think you know?", "text": "The lecture opens by asking for the first impression or imagination of Chinese law in history — and then spends forty slides taking it apart.", "terms": [], "cards": [], "vision_used": false },
+    "3": { "title": "About China", "text": "Today about 9.6 million square kilometres, over 1.4 billion people from 56 ethnic groups — and a geographical territory and population that CHANGED THROUGHOUT HISTORY. The dynasty maps later in the lecture are not the same country drawn again and again.", "terms": [], "cards": [], "vision_used": false },
+    "4": { "title": "History of China in 20 minutes", "text": "A video link for the general chronology.", "terms": [], "cards": [], "vision_used": false },
+    "5": { "title": "Chronology of Chinese history (1)", "text": "The chronology follows Xu Xiaoqun, Heaven Has Eyes — with the warning printed on the slide: SCHOLARS DIFFER about how to count the dynasties and their start and end years.", "terms": [], "cards": [], "vision_used": false },
+    "6": { "title": "Chronology of Chinese history (2)", "text": "The continuation of the same table.", "terms": [], "cards": [], "vision_used": false },
+    "7": { "title": "Chronology of Chinese history (3)", "text": "The end of the table.", "terms": [], "cards": [], "vision_used": false },
+    "8": {
       "title": "What 'Chinese legal history' means",
       "text": "Two senses, and the lecture keeps them apart. AS A HISTORICAL CONCEPT: the legal institutions, legal thoughts and legal culture that once existed in the history of China. AS A DISCIPLINARY CONCEPT: the field that studies, introduces and transmits that system and culture — Chinese legal HISTORIOGRAPHY. The object, and the discipline that writes about it.",
       "terms": [],
@@ -139,18 +22,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 327,
-      "text_sha": "ff7ba70e75209d1b",
-      "pdf_page": 8
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD11/PD11_s009.webp",
+    "9": {
       "title": "The four major periods",
       "text": "THE EMERGING AND EARLY PERIOD: the Xia, Shang and Zhou dynasties, 21st century BC to 770 BC. THE ANCIENT PERIOD: from the Spring and Autumn period to the OPIUM WAR, 770 BC to 1840. THE MODERN PERIOD: from the Opium War to the establishment of the PRC, 1840–1949. THE CONTEMPORARY PERIOD: the People's Republic, 1949 to today. Note where the break falls — the 'ancient' period of Chinese law ends not with a dynasty but with a WAR AGAINST A EUROPEAN POWER.",
       "terms": [],
@@ -170,34 +44,16 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": true,
-      "text_chars": 393,
-      "text_sha": "0149460413dad34b",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD11/PD11_s010.webp",
+    "10": {
       "title": "Why study it",
       "text": "Three reasons: comprehension of Chinese society, legal culture, traditions, history and civilisation; enriching one's knowledge with a DIFFERENT AND COMPARATIVE VISION OF LAW; and the role of history as A MIRROR — reflecting, and helping to understand, the contemporary.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 279,
-      "text_sha": "abb2f0c3555b75fd",
-      "pdf_page": 10
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD11/PD11_s011.webp",
+    "11": {
       "title": "Where Chinese law came from — four answers",
       "text": "There is no agreed origin, and the four candidate answers each come from a different quarter. THE LEGALISTS: the era of the Yellow Emperor, 27th–26th century BC. THE PEOPLE OF ZHOU: the reign of Shun, 23rd–21st century BC. SCHOLARS of the Warring States, Qin and Han: the reign of Yu in the Xia dynasty, and the CODE OF YU. And the historical records of the pre-Qin period: 'PUNISHMENT ORIGINATED IN WAR' — in the order of the army and military discipline for soldiers. The last is the one to remember, because it says something about what law was taken to be.",
       "terms": [],
@@ -210,25 +66,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 476,
-      "text_sha": "3f68c8b634f4e59d",
-      "pdf_page": 11
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD11/PD11_s012.webp",
+    "12": {
       "title": "Gaoyao and the character for law",
       "text": "The legend: Gaoyao, down to the early Xia dynasty, is the FIRST JUDGE in China and the originator of Chinese justice. Appointed by the ruler Shun, he made the first code of criminal justice, built the prison and is worshipped as the god of prison. He adjudicated with the help of the legendary beast XIEZHI — a symbol of justice that gores the guilty party — and the Chinese character for law is composed of three parts, one of them that beast. A legal system whose word for 'law' contains an animal that identifies the guilty.",
       "terms": [
-        {
-          "term": "Xiezhi",
-          "def": "The legendary beast that identifies the guilty — the symbol of justice, part of the old Chinese character for law, and still placed in front of courts today."
-        }
+        { "term": "Xiezhi", "def": "The legendary beast that identifies the guilty — the symbol of justice, part of the old Chinese character for law, and still placed in front of courts today." }
       ],
       "cards": [
         {
@@ -239,57 +83,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 710,
-      "text_sha": "239d02dc2edc892c",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD11/PD11_s013.webp",
-      "title": "Xiezhi across the centuries",
-      "text": "A statue of the beast; the embroidery on a Ming official's and inspector's robe; and a Xiezhi statue standing in front of a court in the People's Republic today.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 343,
-      "text_sha": "496ce9456f0e0459",
-      "pdf_page": 13
-    },
-    {
-      "n": 14,
-      "img": "img/PD11/PD11_s014.webp",
-      "title": "The Xia dynasty",
-      "text": "About 2070 BC to the 16th century BC: believed to be the FIRST state and first dynasty in China, established by tribes in the region of today's Henan province — an evolutionary stage between the late Neolithic cultures and the typical Chinese urban civilization of the Shang.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 486,
-      "text_sha": "6286df44e49e05c9",
-      "pdf_page": 14
-    },
-    {
-      "n": 15,
-      "img": "img/PD11/PD11_s015.webp",
+    "13": { "title": "Xiezhi across the centuries", "text": "A statue of the beast; the embroidery on a Ming official's and inspector's robe; and a Xiezhi statue standing in front of a court in the People's Republic today.", "terms": [], "cards": [], "vision_used": false },
+    "14": { "title": "The Xia dynasty", "text": "About 2070 BC to the 16th century BC: believed to be the FIRST state and first dynasty in China, established by tribes in the region of today's Henan province — an evolutionary stage between the late Neolithic cultures and the typical Chinese urban civilization of the Shang.", "terms": [], "cards": [], "vision_used": false },
+    "15": {
       "title": "Law under the Xia",
       "text": "The rise of THEOCRACY and PUNISHMENT BY CELESTIAL MANDATE. The CODE OF YU, with the death penalty as the main punishment and corporal punishments beside it. A MILITARY LAW — the earliest in ancient China, which fits the 'punishment originated in war' account. The official DALI in charge of trials. Prisons built — Huantu in the reign of Fen, and Xiatai. And a tax and tribute system in copper and harvest.",
       "terms": [
-        {
-          "term": "punishment by celestial mandate",
-          "def": "Punishment justified as carrying out the will of heaven — the theocratic legitimation of penal power under the Xia and Shang."
-        }
+        { "term": "punishment by celestial mandate", "def": "Punishment justified as carrying out the will of heaven — the theocratic legitimation of penal power under the Xia and Shang." }
       ],
       "cards": [
         {
@@ -300,25 +102,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 494,
-      "text_sha": "deb6b89e4be539b4",
-      "pdf_page": 15
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD11/PD11_s016.webp",
+    "16": {
       "title": "The Shang dynasty and the old Five Punishments",
       "text": "16th to 11th century BC: theocracy prevails and punishment is by celestial mandate; divination and oracle bones; the CODE OF TANG and its revisions, and a criminal statute for officials. The penalties listed are brutal and specific. And the system that matters for everything after it — the OLD FIVE PUNISHMENTS: TATTOOING the face, CUTTING OFF THE NOSE, CUTTING OFF THE FOOT OR LIMB, EMASCULATION, and DEATH. Four of the five are MUTILATIONS, permanent and visible: the punishment is written on the body.",
       "terms": [
-        {
-          "term": "old Five Punishments",
-          "def": "Tattooing, cutting off the nose, cutting off the foot, emasculation, death. Four of the five are permanent mutilations — abolished as the main scale under the Han in 167 BC."
-        }
+        { "term": "old Five Punishments", "def": "Tattooing, cutting off the nose, cutting off the foot, emasculation, death. Four of the five are permanent mutilations — abolished as the main scale under the Han in 167 BC." }
       ],
       "cards": [
         {
@@ -329,18 +119,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 530,
-      "text_sha": "0b09b1fe0f2252e7",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD11/PD11_s017.webp",
+    "17": {
       "title": "Western Zhou: virtue enters the mandate",
       "text": "1045–771 BC. The SYSTEM OF ENFEOFFMENT. The formation of a PATRIARCHAL CLAN SYSTEM and a patriarchal legal system, with succession by THE FIRST-BORN SON OF THE LEGITIMATE WIFE. And the decisive move in legal thought: theocracy is REINTERPRETED by introducing VIRTUE — virtue is to be MATCHED WITH HEAVEN, and the maxim becomes 'ADVOCATE VIRTUE AND BE PRUDENT IN PUNISHMENT'. Heaven no longer simply backs whoever rules; the mandate now depends on the ruler's conduct, which makes it losable.",
       "terms": [],
@@ -360,29 +141,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 430,
-      "text_sha": "c6e0fac9d75058ad",
-      "pdf_page": 17
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "img": "img/PD11/PD11_s018.webp",
+    "18": {
       "title": "Rule of rites, and who it applies to",
       "text": "The RULE OF RITES — li. The Duke of Zhou formulated the RITES OF ZHOU and the Five Rites, on two basic principles: KINSHIP and RESPECT. He also made the NINE PUNISHMENTS, adding redemption, exile, whipping and caning, and the CODE OF LÜ. And then the sentence that defines the whole order: NOBLES ARE RESTRAINED BY RITUALS, THE MAJORITY OF COMMONERS ARE CONTROLLED BY PUNISHMENTS — rites do not descend to the commoner, punishments do not ascend to the great officer. In practice the courts distinguished 'civil' litigation (song, over property and goods) from criminal affairs (yu, offences and crimes), and used the technique of the FIVE LISTENINGS: observing the words, the face, the breath, the reaction and the eyes.",
       "terms": [
-        {
-          "term": "li (rites)",
-          "def": "The rites governing conduct, formulated in the Rites of Zhou on the principles of kinship and respect. They bind the nobles, where punishments bind the commoners."
-        },
-        {
-          "term": "Five Listenings",
-          "def": "The examination technique: observing the party's words, face, breath, reaction and eyes."
-        }
+        { "term": "li (rites)", "def": "The rites governing conduct, formulated in the Rites of Zhou on the principles of kinship and respect. They bind the nobles, where punishments bind the commoners." },
+        { "term": "Five Listenings", "def": "The examination technique: observing the party's words, face, breath, reaction and eyes." }
       ],
       "cards": [
         {
@@ -400,18 +166,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 706,
-      "text_sha": "25e9d1728b92ab4a",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD11/PD11_s019.webp",
+    "19": {
       "title": "Eastern Zhou: the rites break down and law is published",
       "text": "Spring and Autumn (771–475 BC) and Warring States (475–221 BC). Society changes and the RITES BREAK DOWN; the different schools of thought flourish — CONFUCIANISM, LEGALISM, Taoism, Mohism. And at the end of the Spring and Autumn period WRITTEN LAW IS ENACTED AND PUBLISHED, on bronze or bamboo slips: CASTING THE LAW ON A TRIPOD in the state of Zheng in 536 BC, the first time in history — AND IT WAS CONTROVERSIAL. That controversy is the point: publishing the law was opposed, because a law everyone can read is a law the nobility can no longer administer by discretion.",
       "terms": [],
@@ -424,25 +181,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 676,
-      "text_sha": "abf48495fe63ec4c",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD11/PD11_s020.webp",
+    "20": {
       "title": "Li Kui and the Classic of Law",
       "text": "The written-law movement of the Warring States: legal reforms in the vassal states and the enactment of statutory law. In the state of WEI the Legalist LI KUI (455–395 BC) compiled the CLASSIC OF LAW around 407 BC — the FIRST RELATIVELY SYSTEMATIC AND COMPLETE CODE of ancient China, and LOST IN HISTORY. Its six chapters: theft, treason, judiciary, arrest, miscellaneous, and GENERAL PRINCIPLES. His work then influenced the Legalist SHANG YANG (390–338 BC) and his reforms in the state of Qin.",
       "terms": [
-        {
-          "term": "Classic of Law",
-          "def": "Li Kui's code for the state of Wei, c. 407 BC — the first relatively systematic and complete code of ancient China, in six chapters including general principles. Lost; known through its influence."
-        }
+        { "term": "Classic of Law", "def": "Li Kui's code for the state of Wei, c. 407 BC — the first relatively systematic and complete code of ancient China, in six chapters including general principles. Lost; known through its influence." }
       ],
       "cards": [
         {
@@ -453,18 +198,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 752,
-      "text_sha": "dfcd1582898b9159",
-      "pdf_page": 20
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD11/PD11_s021.webp",
+    "21": {
       "title": "Shang Yang's reforms in Qin",
       "text": "FIRST REFORM, 356 BC: the QIN LAW, based on the Classic of Law. SECOND REFORM, 350 BC: PRIVATE OWNERSHIP OF LAND, and COUNTIES set up as the administrative unit in order to CENTRALIZE POWER. The result: the state of Qin rises to the top of the seven vassal powers. Land ownership and administrative geography reorganised together — and the state that does it wins.",
       "terms": [],
@@ -477,45 +213,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1131,
-      "text_sha": "3f103dbdfca18c8c",
-      "pdf_page": 21
+      "vision_used": false
     },
-    {
-      "n": 22,
-      "img": "img/PD11/PD11_s022.webp",
-      "title": "The Qin dynasty (221–206 BC)",
-      "text": "From 230 BC Ying Zheng conquered the six other vassal states and unified the country. In 221 BC the first EMPIRE in Chinese history is established and he claims the title of FIRST EMPEROR, holding supreme power. Qin is the first centralised autocratic dynasty of ancient China.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 544,
-      "text_sha": "b62d956d835c8745",
-      "pdf_page": 22
-    },
-    {
-      "n": 23,
-      "img": "img/PD11/PD11_s023.webp",
+    "22": { "title": "The Qin dynasty (221–206 BC)", "text": "From 230 BC Ying Zheng conquered the six other vassal states and unified the country. In 221 BC the first EMPIRE in Chinese history is established and he claims the title of FIRST EMPEROR, holding supreme power. Qin is the first centralised autocratic dynasty of ancient China.", "terms": [], "cards": [], "vision_used": false },
+    "23": {
       "title": "Law under the Qin: Legalism in power",
       "text": "LEGALISM prevails: enforce the rule of law — meaning the strong monarchic authority — emphasising PUNISHMENT and the importance of LAW OVER RITUALS, against the Confucian use of ritual to maintain hierarchy, patriarchal order and moral ethics. The forms of law: LÜ is the main one, formally enacted by the imperial court on a specialised matter; LING, imperial decrees; plus legal questions and answers, notices and more. JUDICIAL AND ADMINISTRATIVE POWERS ARE COMBINED. And the penalties are brutal and harsh, with JOINT LIABILITY — punishment extending to a person's household and neighbours.",
       "terms": [
-        {
-          "term": "lü and ling",
-          "def": "Lü — law formally enacted by the imperial court on a specialised matter, the main form. Ling — imperial decree or edict."
-        },
-        {
-          "term": "joint liability",
-          "def": "Punishment extended beyond the offender to his household or group. A Legalist instrument under the Qin, abolished under the Han."
-        }
+        { "term": "lü and ling", "def": "Lü — law formally enacted by the imperial court on a specialised matter, the main form. Ling — imperial decree or edict." },
+        { "term": "joint liability", "def": "Punishment extended beyond the offender to his household or group. A Legalist instrument under the Qin, abolished under the Han." }
       ],
       "cards": [
         {
@@ -533,25 +239,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 666,
-      "text_sha": "ca7da59d663bd2fa",
-      "pdf_page": 23
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "img": "img/PD11/PD11_s024.webp",
+    "24": {
       "title": "The Han dynasty and its reforms",
       "text": "206 BC–220 AD. Taoism plus Legalism: rule by inaction, VIRTUE FIRST AND PUNISHMENT AS A SUPPLEMENT. Then EXCLUSIVE RESPECT FOR CONFUCIANISM, proposed by DONG ZHONGSHU, as the guiding philosophy of rule — which strengthens and centralises power. The NINE CHAPTER LAW builds on the Classic of Law and the Qin Law: the six chapters plus three new ones on household, tax, marriage and corvée, and on defence, animal husbandry and postal service. And the legal reforms: ABOLITION OF BRUTAL CORPORAL PUNISHMENT IN 167 BC and of JOINT LIABILITY; and the adoption of principles — CONCEALING GUILT AMONG CLOSE RELATIVES, respect for the old and pity for the young, EXECUTION IN AUTUMN AND WINTER, and privileges of nobles.",
       "terms": [
-        {
-          "term": "concealing guilt among close relatives",
-          "def": "The Han principle that close relatives may — or must — conceal one another's guilt. Confucian family duty written into penal law."
-        }
+        { "term": "concealing guilt among close relatives", "def": "The Han principle that close relatives may — or must — conceal one another's guilt. Confucian family duty written into penal law." }
       ],
       "cards": [
         {
@@ -569,25 +263,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1093,
-      "text_sha": "063713ae71cae5ee",
-      "pdf_page": 24
+      "vision_used": false
     },
-    {
-      "n": 25,
-      "img": "img/PD11/PD11_s025.webp",
+    "25": {
       "title": "The Confucianisation of law begins",
       "text": "The process that runs through the next two thousand years, and it starts here in three steps. FIRST: where a matter concerns ethics and morality and the law is unclear or AGAINST ethics and morality, THE CONFUCIAN CLASSICS ARE REFERRED TO FOR ADJUDICATION — Dong Zhongshu's 'Adjudication upon the Spring and Autumn Annals' records 232 such cases. SECOND: Confucians begin to COMMENT ON AND INTERPRET the law to conform it to Confucian doctrine — because the CONTENT OF LAW SHOULD BE STABLE and not modified from time to time — and once officially approved by the emperor such commentary is LEGALLY VALID. THIRD: a practical discipline of JURISPRUDENCE emerges as a branch of Confucian classical scholarship, developing greatly under the Eastern Han. Note the mechanism: the law is not amended, it is INTERPRETED into a different shape — the same move the glossators made in Europe a millennium later.",
       "terms": [
-        {
-          "term": "Confucianisation of law",
-          "def": "The absorption of Confucian ethics into legal content and practice — by adjudicating from the classics where the law is unclear or contrary to morality, and by commentary that becomes legally valid on imperial approval."
-        }
+        { "term": "Confucianisation of law", "def": "The absorption of Confucian ethics into legal content and practice — by adjudicating from the classics where the law is unclear or contrary to morality, and by commentary that becomes legally valid on imperial approval." }
       ],
       "cards": [
         {
@@ -605,45 +287,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 735,
-      "text_sha": "ca809423f8284f1f",
-      "pdf_page": 25
+      "vision_used": false
     },
-    {
-      "n": 26,
-      "img": "img/PD11/PD11_s026.webp",
-      "title": "Division and reunification",
-      "text": "The Three Kingdoms 220–280 (Wei, Shu, Wu); Western and Eastern Jin 281–316; the northern states and southern dynasties 316–589.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 144,
-      "text_sha": "392a6581706e79c6",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PD11/PD11_s027.webp",
+    "26": { "title": "Division and reunification", "text": "The Three Kingdoms 220–280 (Wei, Shu, Wu); Western and Eastern Jin 281–316; the northern states and southern dynasties 316–589.", "terms": [], "cards": [], "vision_used": false },
+    "27": {
       "title": "Northern Qi and Sui: the code takes its classic shape",
       "text": "NORTHERN QI (550–577): the Code of Northern Qi of 564 — 12 CHAPTERS, 949 ARTICLES, rationalising the chapters' length and improving the structure, famous for being CLEAR AND CONCISE, and the PROTOTYPE for the codes of Sui and Tang. It establishes the TEN SERIOUS CRIMES, developed into the TEN EVIL CRIMES under the Sui. SUI (581–618): the Code of Sui, 581 and 583 — 12 chapters, 500 articles — establishing the NEW FIVE PUNISHMENTS, the EIGHT DELIBERATIONS, and the TEN EVIL CRIMES in four categories: endangering the regime, violating honoured elders and close relatives, violating superiors, and extreme inhuman behaviour.",
       "terms": [
-        {
-          "term": "Ten Evil Crimes",
-          "def": "The gravest offences, in four categories: endangering the regime, violating honoured elders and close relatives, violating superiors, and extreme inhuman behaviour. From the Ten Serious Crimes of Northern Qi (564), fixed in the Sui code."
-        },
-        {
-          "term": "Eight Deliberations",
-          "def": "Categories of person entitled to special consideration in sentencing — the privilege of status built into the code."
-        }
+        { "term": "Ten Evil Crimes", "def": "The gravest offences, in four categories: endangering the regime, violating honoured elders and close relatives, violating superiors, and extreme inhuman behaviour. From the Ten Serious Crimes of Northern Qi (564), fixed in the Sui code." },
+        { "term": "Eight Deliberations", "def": "Categories of person entitled to special consideration in sentencing — the privilege of status built into the code." }
       ],
       "cards": [
         {
@@ -661,25 +313,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1008,
-      "text_sha": "fac19c582061a744",
-      "pdf_page": 27
+      "vision_used": false
     },
-    {
-      "n": 28,
-      "img": "img/PD11/PD11_s028.webp",
+    "28": {
       "title": "The Tang Code",
       "text": "TANG (618–907), following the Sui and advocating benevolence and virtue, LENIENCY AND SIMPLICITY in punishment, and STABILITY AND UNIFORMITY in law. The TANG CODE is the Yonghui code of 651 PLUS THE OFFICIAL EXPLANATION of 653: 12 chapters, 30 volumes, 502 articles. It is THE EARLIEST AND MOST COMPLETE CODE SURVIVING in Chinese history; it represents the legislative achievement of all the previous dynasties and is the most mature form of the code since Qin and Han. It becomes the MODEL of legislation and codification for later dynasties, and influences JAPAN, KOREA AND VIETNAM. Administrative regulation is separate: the Six Canons of the Tang.",
       "terms": [
-        {
-          "term": "Tang Code",
-          "def": "The Yonghui code of 651 with its official explanation of 653 — 12 chapters, 502 articles. The earliest complete surviving Chinese code, the model for later dynasties and for Japan, Korea and Vietnam."
-        }
+        { "term": "Tang Code", "def": "The Yonghui code of 651 with its official explanation of 653 — 12 chapters, 502 articles. The earliest complete surviving Chinese code, the model for later dynasties and for Japan, Korea and Vietnam." }
       ],
       "cards": [
         {
@@ -690,18 +330,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 877,
-      "text_sha": "95612b88181a60f2",
-      "pdf_page": 28
+      "vision_used": false
     },
-    {
-      "n": 29,
-      "img": "img/PD11/PD11_s029.webp",
+    "29": {
       "title": "The structure of the Tang Code",
       "text": "Twelve chapters in 30 volumes, 502 articles, and the order is instructive. 1. GENERAL PROVISIONS (57 articles). 2. Guardship. 3. Duties of officials. 4. Household and marriage. 5. Stables. 6. Military and construction. 7. Treason and theft. 8. Fight and litigation. 9. Fraud and forgery. 10. Miscellaneous laws. 11. Arrest. 12. Adjudication. A general part first, then the substance, and procedure — arrest and adjudication — at the end: one book covering what Europe would later split into criminal, civil, administrative and procedural codes.",
       "terms": [],
@@ -714,25 +345,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 636,
-      "text_sha": "f98077e405b17f75",
-      "pdf_page": 29
+      "vision_used": false
     },
-    {
-      "n": 30,
-      "img": "img/PD11/PD11_s030.webp",
+    "30": {
       "title": "The New Five Punishments",
       "text": "The scale that replaces the old mutilations, and it is GRADED — five degrees within each kind. FLOGGING with a thorn: 10 to 50 strokes. CANING with a bamboo stick: 60 to 100. SERVITUDE: 1 to 3 years, in half-year steps. EXILE: 2000, 2500 or 3000 li — roughly 1000 to 1500 kilometres. DEATH: strangulation, or beheading. Compare with the old five: mutilation is gone, and in its place a ladder of measurable severity — a punishment can now be made to fit the offence by degree.",
       "terms": [
-        {
-          "term": "New Five Punishments",
-          "def": "Flogging (10–50), caning (60–100), servitude (1–3 years), exile (2000–3000 li) and death (strangulation or beheading) — a graded scale replacing the old mutilations."
-        }
+        { "term": "New Five Punishments", "def": "Flogging (10–50), caning (60–100), servitude (1–3 years), exile (2000–3000 li) and death (strangulation or beheading) — a graded scale replacing the old mutilations." }
       ],
       "cards": [
         {
@@ -750,41 +369,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 579,
-      "text_sha": "9e01ccd279216cf1",
-      "pdf_page": 30
+      "vision_used": true
     },
-    {
-      "n": 31,
-      "img": "img/PD11/PD11_s031.webp",
-      "title": "The Five Dynasties and the Song",
-      "text": "The maps: the Five Dynasties in 907, the Northern Song, and the Southern Song.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 542,
-      "text_sha": "f23ff70a1225c086",
-      "pdf_page": 31
-    },
-    {
-      "n": 32,
-      "img": "img/PD11/PD11_s032.webp",
+    "31": { "title": "The Five Dynasties and the Song", "text": "The maps: the Five Dynasties in 907, the Northern Song, and the Southern Song.", "terms": [], "cards": [], "vision_used": false },
+    "32": {
       "title": "The Song dynasty",
       "text": "960–1279. NEO-CONFUCIANISM advocates social order, law and pragmatism, to develop a commercial economy. The CODE OF SONG (963) is based on the Tang code with the same structure — 12 chapters, 502 articles — and is the FIRST ENGRAVED AND PRINTED CODE in history. The development that matters: PRECEDENTS, typical cases, are transformed into LI and compiled into the code under the Southern Song as a SUPPLEMENT to lü and edicts, with adjudication by li — a practice inherited by the Ming and Qing. Evidence and on-site investigation gain value, with progress in forensics: the 'Collected Cases of Injustice Rectified' of 1247, compiled by Song Ci (1186–1249) and annotated and amended down to the Qing. And the famous upright judge BAO (999–1062).",
       "terms": [
-        {
-          "term": "li (precedent)",
-          "def": "A typical case transformed into a rule and compiled into the code as a supplement to lü and edicts. Note it is a different word from li, the rites."
-        }
+        { "term": "li (precedent)", "def": "A typical case transformed into a rule and compiled into the code as a supplement to lü and edicts. Note it is a different word from li, the rites." }
       ],
       "cards": [
         {
@@ -802,18 +394,9 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 828,
-      "text_sha": "c6183e14134dea25",
-      "pdf_page": 32
+      "vision_used": false
     },
-    {
-      "n": 33,
-      "img": "img/PD11/PD11_s033.webp",
+    "33": {
       "title": "The Yuan dynasty",
       "text": "1271–1368, the first nationally unified dynasty established by a NOMAD people, the Mongols — an ethnic minority ruling China. It follows the codes made by the Han Chinese of the Tang and Song: the first written code of Yuan in 1291; the General Institutions of Great Yuan (1323) as the basic law, 20 chapters and 2,539 articles, revised in 1346 to over 2,900; and the Collected Statutes of Yuan (c. 1323), compiled by local government out of the laws and precedents of the previous fifty years. The lecture's criticism: POOR LEGISLATIVE TECHNIQUE — the content is extensive, encyclopedic, not standardized, with penalties unspecified in some cases. And the substantive point: the law MAINTAINS INEQUALITY BETWEEN ETHNIC GROUPS in status, conviction and sentencing, with privileges for monks, remnants of serfdom and ethnic traditions in punishment.",
       "terms": [],
@@ -826,18 +409,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 986,
-      "text_sha": "83f2b252d75dc67d",
-      "pdf_page": 33
+      "vision_used": false
     },
-    {
-      "n": 34,
-      "img": "img/PD11/PD11_s034.webp",
+    "34": {
       "title": "The Ming dynasty",
       "text": "1368–1644. The doctrine: PUNISHMENT ASSISTS INDOCTRINATION, and PUNISHMENT COMES FIRST, INDOCTRINATION AFTER — ruling the state with STRICT LAW AND HEAVY PUNISHMENT. Following Tang and Yuan legislation, the CODE OF GREAT MING is made in 1367 and revised in 1373 (12 chapters, 606 articles) and 1389 (460 articles), with 147 selected admonitions added in 1397. Precedents (li) are compiled and revised as additional notes to the text of the code. An INSPECTION SYSTEM is set up at central and local level to supervise administration and justice — and a PRIVILEGED SURVEILLANCE AND SECRET SERVICE ORGAN HEADED BY EUNUCHS. Heavier penalties for treason, strict prohibition of party affiliation and of contacts among ministers and local officials, and severe punishment for dereliction and corruption.",
       "terms": [],
@@ -850,18 +424,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1201,
-      "text_sha": "d0041f7912907f7e",
-      "pdf_page": 34
+      "vision_used": false
     },
-    {
-      "n": 35,
-      "img": "img/PD11/PD11_s035.webp",
+    "35": {
       "title": "The Qing dynasty",
       "text": "1644–1911, the last imperial dynasty, ruled by the MANCHUS. From the reign of Nurhaci the rule of law is valued; SINICIZATION in ruling and the influence of Confucianism put virtue and indoctrination first. The legal solution is a combination: MAINTAIN THE CUSTOMARY LAW OF THE MANCHUS AND FOLLOW THE ADVANCED LEGAL SYSTEM OF THE HAN CHINESE — the Ming code. The Code of Great Qing with annotations and precedents (1646): 459 articles and over 430 precedents; revised 1727 to 436 articles and 821 precedents; the Code of Great Qing of 1740 has 436 articles and 1,042 precedents — RISING TO 1,456 IN 1761 AND 1,892 IN 1870. Watch those numbers: the articles stay still and THE PRECEDENTS QUADRUPLE. In practice: bottom-up jurisdiction; a REVIEW SYSTEM according to the severity of the punishment; the growing power of LEGAL ADVISERS employed by local magistrates; a detestation of LITIGATION MASTERS; and mass literary inquisition.",
       "terms": [],
@@ -888,34 +453,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1064,
-      "text_sha": "f4328d0ed5cdaebb",
-      "pdf_page": 35
+      "vision_used": false
     },
-    {
-      "n": 36,
-      "img": "img/PD11/PD11_s036.webp",
-      "title": "So what is the image of the traditional Chinese legal system?",
-      "text": "The question before the two summarising slides — and the answer is meant to correct the first impression the lecture asked for at the start.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 62,
-      "text_sha": "00391e8995da8619",
-      "pdf_page": 36
-    },
-    {
-      "n": 37,
-      "img": "img/PD11/PD11_s037.webp",
+    "36": { "title": "So what is the image of the traditional Chinese legal system?", "text": "The question before the two summarising slides — and the answer is meant to correct the first impression the lecture asked for at the start.", "terms": [], "cards": [], "vision_used": false },
+    "37": {
       "title": "The traditional system: continuity and diversity",
       "text": "CONTINUITY AND INNOVATION: legislation and compilation are based on the laws of previous dynasties, with modifications in the light of reality and the needs of current rule — every code in this lecture builds on its predecessor. DIVERSE FORMS OF LAW: lü, imperial decrees, administrative statutes, li (precedents), LOCAL CUSTOMS, FAMILIAL RULES, and popular and religious beliefs. And the verdict: a STRUCTURED, COMPREHENSIVE, EVOLVING, MATURE legal system — not the static despotism of the European imagination.",
       "terms": [],
@@ -935,18 +476,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 419,
-      "text_sha": "25f887f8ed20fa64",
-      "pdf_page": 37
+      "vision_used": false
     },
-    {
-      "n": 38,
-      "img": "img/PD11/PD11_s038.webp",
+    "38": {
       "title": "Three key features",
       "text": "The answer to reproduce in an exam. ONE — CONFUCIANISATION OF LAW: rites, virtue and moral ethics are incorporated into legislation and practice, emphasising hierarchy based on SOCIAL STATUS, FAMILY AND PATRIARCHAL POWER. TWO — PENAL LAW AND PUNISHMENT AS A TOOL OF GOVERNANCE: the codes articulate detailed situations of violation with their corresponding punishments; there is NO DIVISION BETWEEN PENAL AND CIVIL CODES, and different sections of law are combined in one code. THREE — JUDICIAL POWER COMBINED WITH EXECUTIVE POWER: legal action and adjudication run through the hierarchical administrative system from local to central level, and THE MAGISTRATE IS THE JUDGE.",
       "terms": [],
@@ -966,66 +498,12 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 639,
-      "text_sha": "d73ecb3c3ff3f92a",
-      "pdf_page": 38
+      "vision_used": false
     },
-    {
-      "n": 39,
-      "img": "img/PD11/PD11_s039.webp",
-      "title": "A Qing trial",
-      "text": "A watercolour exported to the West in the 18th or 19th century, showing a trial under the Qing.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 330,
-      "text_sha": "59b5eb890ed4b4aa",
-      "pdf_page": 39
-    },
-    {
-      "n": 40,
-      "img": "img/PD11/PD11_s040.webp",
-      "title": "Appealing to a superior official",
-      "text": "A second export watercolour: people appealing before a superior official — the bottom-up jurisdiction in a picture.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 160,
-      "text_sha": "320de5018d730428",
-      "pdf_page": 40
-    },
-    {
-      "n": 41,
-      "img": "img/PD11/PD11_s041.webp",
-      "title": "An execution",
-      "text": "A third export watercolour, showing lingchi — death by slicing. Note what these pictures were FOR: painted for export, they supplied the West with the image of Chinese justice that the reform debate then argued against.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 153,
-      "text_sha": "4dbdc05baf82fc87",
-      "pdf_page": 41
-    },
-    {
-      "n": 42,
-      "img": "img/PD11/PD11_s042.webp",
+    "39": { "title": "A Qing trial", "text": "A watercolour exported to the West in the 18th or 19th century, showing a trial under the Qing.", "terms": [], "cards": [], "vision_used": false },
+    "40": { "title": "Appealing to a superior official", "text": "A second export watercolour: people appealing before a superior official — the bottom-up jurisdiction in a picture.", "terms": [], "cards": [], "vision_used": false },
+    "41": { "title": "An execution", "text": "A third export watercolour, showing lingchi — death by slicing. Note what these pictures were FOR: painted for export, they supplied the West with the image of Chinese justice that the reform debate then argued against.", "terms": [], "cards": [], "vision_used": false },
+    "42": {
       "title": "Late Qing: the encounter with the West",
       "text": "The encounter comes through trade, missionaries, translated works — the first English translation of the Qing Code, by Sir George Thomas Staunton, was published in LONDON IN 1810 — and newspapers. Then the defeats from the Opium War onwards bring the UNEQUAL TREATIES: ceded territory, compensation, and the LOSS OF JURISDICTION over foreigners, accompanied by Western criticism of Chinese law and justice. The response comes in stages: first movements to improve military force and develop industry; and then, after the defeat in the SINO-JAPANESE WAR of 1894–95, an appeal for RADICAL POLITICAL REFORM — the New Policy reform of 1901 and the legal reform of 1902–1911.",
       "terms": [],
@@ -1038,18 +516,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 718,
-      "text_sha": "d7a5a2893643a788",
-      "pdf_page": 42
+      "vision_used": true
     },
-    {
-      "n": 43,
-      "img": "img/PD11/PD11_s043.webp",
+    "43": {
       "title": "The legal reform of 1902–1911",
       "text": "Undertaken in PREPARATION FOR A CONSTITUTIONAL MONARCHY, on three principles that are worth reading carefully: MAINTAIN THE QING RULE; revise and reform the legal system WITHOUT ABANDONING ITS SUBSTANCE AND ESSENCE; and STRENGTHEN CONTROL OVER SOCIETY. The LAW REVISION COMMISSION (1904) revises the Qing code, TRANSLATES FOREIGN LAWS and drafts new criminal, civil and commercial laws WITH THE ASSISTANCE OF JAPANESE LEGAL EXPERTS. There are changes in the judicial system and the formation of modern legal professionals. And running through it all, the debate over CONFUCIAN RITUAL (li) AGAINST WESTERN LAW (fa) — the reform's own argument about how much of itself China was reforming away.",
       "terms": [],
@@ -1069,18 +538,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 631,
-      "text_sha": "016fecab85c9ee73",
-      "pdf_page": 43
+      "vision_used": false
     },
-    {
-      "n": 44,
-      "img": "img/PD11/PD11_s044.webp",
+    "44": {
       "title": "What the Law Revision Commission produced",
       "text": "TRANSLATION first: the penal codes of Germany, Russia, Japan, France, Britain and the US during 1904–05; by mid-1907, 26 pieces of law translated and 10 in progress; then commercial law and civil codes in 1907–09. Then the drafts: criminal and civil procedure law of Qing 1908; the draft criminal procedure law of 1910 BY OKADA ASATARO; the draft civil procedure of 1910 BY YOSHIMASA MATSUOKA; the Penal Code of Qing 1911, again by Okada; and the draft civil code of Qing 1911, again by Matsuoka. Note who drafted them — Japanese jurists. European law reached China through Japan, which had received it a generation earlier.",
       "terms": [],
@@ -1100,46 +560,9 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 581,
-      "text_sha": "9c97d62a7866c32c",
-      "pdf_page": 44
+      "vision_used": false
     },
-    {
-      "n": 45,
-      "img": "img/PD11/PD11_s045.webp",
-      "title": "Modernisation of legal costume and architecture",
-      "text": "The reform reached the robes and the buildings too — which is exactly the point the imperialism lecture made: what travels is law AS A CULTURAL PRACTICE, not only its rules.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 48,
-      "text_sha": "7bd5ed3836199a16",
-      "pdf_page": 45
-    },
-    {
-      "n": 46,
-      "img": "img/PD11/PD11_s046.webp",
-      "title": "Further reading",
-      "text": "On ancient Chinese law: Xu Xiaoqun, 'Five Punishments and Beyond', in Heaven Has Eyes (2020), pp. 7–39; Ch'ü T'ung-Tsu, Law and Society in Traditional China. On the late Qing reform: Xu Xiaoqun, 'The Best of the Chinese and of the Western', in the same volume, pp. 101–117; Li Chen, 'Traditionalising Chinese Law', in Chinese Legal Reform and the Global Legal Order (2017), pp. 181–210. The last two are reading-list items 9 and 10.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 882,
-      "text_sha": "8bb69764b350289b",
-      "pdf_page": 46
-    }
-  ]
+    "45": { "title": "Modernisation of legal costume and architecture", "text": "The reform reached the robes and the buildings too — which is exactly the point the imperialism lecture made: what travels is law AS A CULTURAL PRACTICE, not only its rules.", "terms": [], "cards": [], "vision_used": false },
+    "46": { "title": "Further reading", "text": "On ancient Chinese law: Xu Xiaoqun, 'Five Punishments and Beyond', in Heaven Has Eyes (2020), pp. 7–39; Ch'ü T'ung-Tsu, Law and Society in Traditional China. On the late Qing reform: Xu Xiaoqun, 'The Best of the Chinese and of the Western', in the same volume, pp. 101–117; Li Chen, 'Traditionalising Chinese Law', in Chinese Legal Reform and the Global Legal Order (2017), pp. 181–210. The last two are reading-list items 9 and 10.", "terms": [], "cards": [], "vision_used": false }
+  }
 }

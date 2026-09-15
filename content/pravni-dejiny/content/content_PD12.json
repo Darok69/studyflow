@@ -1,91 +1,16 @@
 {
   "lecture_id": "PD12",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 15",
   "title": "World War I and the Paris Peace Conference",
-  "source_file": "raw/PD12_pp-12-wwi-and-the-paris-peace-treaties-gassner.pdf",
-  "source_sha256": "66b5c81d32d138234d4972814ea98d76c5a8ddc4877df0afeff2cc367e73831c",
-  "source_pages": 44,
-  "slides_per_page": 1,
-  "slide_count": 44,
-  "updated_at": "2026-09-15T12:12:45+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD12/PD12_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 57,
-      "text_sha": "a006f7aeb119f75c",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD12/PD12_s002.webp",
-      "title": "Part 1: What the world looked like before 1914",
-      "text": "Miriam Gassner-Olechowski. The lecture is in two parts: how the war came, and what the peace made.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 156,
-      "text_sha": "cae5515b10fc41c3",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD12/PD12_s003.webp",
-      "title": "Europe before 1914",
-      "text": "The map of the continent as it stood before the war — three multi-ethnic empires still in place.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 27,
-      "text_sha": "93b418dda05ac046",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD12/PD12_s004.webp",
-      "title": "On the way to war (1): nationalism",
-      "text": "The first of three roads to 1914.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 68,
-      "text_sha": "ad3783a4c070760e",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PD12/PD12_s005.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Part 1: What the world looked like before 1914", "text": "Miriam Gassner-Olechowski. The lecture is in two parts: how the war came, and what the peace made.", "terms": [], "cards": [], "vision_used": false },
+    "3": { "title": "Europe before 1914", "text": "The map of the continent as it stood before the war — three multi-ethnic empires still in place.", "terms": [], "cards": [], "vision_used": false },
+    "4": { "title": "On the way to war (1): nationalism", "text": "The first of three roads to 1914.", "terms": [], "cards": [], "vision_used": false },
+    "5": {
       "title": "Nationalism and the making of nation states",
       "text": "The French Revolution and the spread of the idea of ONE NATION through the Napoleonic wars drive the growth of nationalism, and out of it come the 'nation states'. 1830: an independent GREEK state under a German prince, Otto of Bavaria, after the Greek war of independence against the Ottomans (1821–29), with Alexander Ypsilantis as the leading figure. 1861: the UNIFICATION OF ITALY, the Risorgimento, under Victor Emmanuel II. 1871: the GERMAN REICH, with Bismarck as chancellor and Wilhelm I as emperor. Behind the German case lies the question that had split 1848/49 — whether Austria was to be included: the GROSSDEUTSCHE against the KLEINDEUTSCHE solution. Austria, originally part of the German Confederation created at the Congress of Vienna in 1815 out of 39 states, felt increasingly threatened by Prussia; in 1866 war broke out and AUSTRIA LOST, withdrew from the Confederation, and Prussia led the North German Confederation that became the Reich.",
       "terms": [
-        {
-          "term": "großdeutsch / kleindeutsch",
-          "def": "The 1848/49 question of whether a German national state should include Austria (großdeutsch) or be built around Prussia without it (kleindeutsch). Decided by the war of 1866."
-        }
+        { "term": "großdeutsch / kleindeutsch", "def": "The 1848/49 question of whether a German national state should include Austria (großdeutsch) or be built around Prussia without it (kleindeutsch). Decided by the war of 1866." }
       ],
       "cards": [
         {
@@ -103,25 +28,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 1451,
-      "text_sha": "983e1fa7b85d6aa5",
-      "pdf_page": 5
+      "vision_used": true
     },
-    {
-      "n": 6,
-      "img": "img/PD12/PD12_s006.webp",
+    "6": {
       "title": "The same tendencies in Austria and the Balkans",
       "text": "In Austria the revolution of 1848 and the AUSGLEICH of 1867 reflect the same pressures: after the Compromise, Austria (CISLEITHANIA) and Hungary (TRANSLEITHANIA) are bound together MAINLY BY THE PERSON OF THE MONARCH — the DUALISTIC structure of the Habsburg Monarchy under Francis Joseph. The BALKAN WARS of 1912 and 1913 — Greece, Serbia, Montenegro and Bulgaria, later Romania, against the Ottoman Empire, which loses the bulk of its European territory — are driven by PAN-SLAVISM, with Serbia, sponsored by Russia, pushing for the union of the South Slavic peoples. And inside the Ottoman Empire PAN-TURKISM rises as a new political force claiming the supremacy of the Turkish element: Sultan Mehmet V against the YOUNG TURKS, some of whose leaders embraced an ethnonationalist 'Turkification' that led to the ARMENIAN GENOCIDE during the war.",
       "terms": [
-        {
-          "term": "Cisleithania / Transleithania",
-          "def": "The Austrian and Hungarian halves of the dual monarchy after the Ausgleich of 1867, bound together mainly by the person of the monarch."
-        }
+        { "term": "Cisleithania / Transleithania", "def": "The Austrian and Hungarian halves of the dual monarchy after the Ausgleich of 1867, bound together mainly by the person of the monarch." }
       ],
       "cards": [
         {
@@ -139,50 +52,11 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 956,
-      "text_sha": "1b3ec9aab4cf1f9c",
-      "pdf_page": 6
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PD12/PD12_s007.webp",
-      "title": "Three empires beginning to come apart",
-      "text": "The map of rising nationalism and the beginning disintegration of three multi-ethnic empires between 1850 and 1914 — Russian, Habsburg and Ottoman. The disintegration begins long before the war finishes it.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 203,
-      "text_sha": "1f3f861608f7f05e",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PD12/PD12_s008.webp",
-      "title": "On the way to war (2): conflicting interests and imperialism",
-      "text": "The second road.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 166,
-      "text_sha": "3eeb1268a25ed80f",
-      "pdf_page": 8
-    },
-    {
-      "n": 9,
-      "img": "img/PD12/PD12_s009.webp",
+    "7": { "title": "Three empires beginning to come apart", "text": "The map of rising nationalism and the beginning disintegration of three multi-ethnic empires between 1850 and 1914 — Russian, Habsburg and Ottoman. The disintegration begins long before the war finishes it.", "terms": [], "cards": [], "vision_used": false },
+    "8": { "title": "On the way to war (2): conflicting interests and imperialism", "text": "The second road.", "terms": [], "cards": [], "vision_used": false },
+    "9": {
       "title": "Rivalries in and outside Europe",
       "text": "COLONIALISM and the scramble for Africa produce British–French rivalry and the new colonial ambitions of Italy and Germany. The FRENCH–GERMAN conflict: the Franco-Prussian War of 1870–71 produced a unified Germany AND French resentment over the loss of ALSACE-LORRAINE, which created decades of tension feeding into 1914. And RUSSIA's increasing activity in the Balkans. The conclusion the slide draws: the long-standing EUROPEAN BALANCE OF POWER WAS ALREADY DISTURBED BY THE TURN OF THE CENTURY — the war does not break a stable order, it finishes off an unstable one.",
       "terms": [],
@@ -195,66 +69,12 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 568,
-      "text_sha": "558721c81408af42",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD12/PD12_s010.webp",
-      "title": "Map",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 69,
-      "text_sha": "ea9be3e6bbdbc810",
-      "pdf_page": 10
-    },
-    {
-      "n": 11,
-      "img": "img/PD12/PD12_s011.webp",
-      "title": "The Middle East in 1914",
-      "text": "The map that the Sykes–Picot Agreement and the peace treaties will redraw.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 90,
-      "text_sha": "2b8d40fcf66d400c",
-      "pdf_page": 11
-    },
-    {
-      "n": 12,
-      "img": "img/PD12/PD12_s012.webp",
-      "title": "On the way to war (3): the system of alliances",
-      "text": "The third road.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 130,
-      "text_sha": "34d676d38dae8e52",
-      "pdf_page": 12
-    },
-    {
-      "n": 13,
-      "img": "img/PD12/PD12_s013.webp",
+    "10": { "title": "Map", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "11": { "title": "The Middle East in 1914", "text": "The map that the Sykes–Picot Agreement and the peace treaties will redraw.", "terms": [], "cards": [], "vision_used": false },
+    "12": { "title": "On the way to war (3): the system of alliances", "text": "The third road.", "terms": [], "cards": [], "vision_used": false },
+    "13": {
       "title": "Entente against Central Powers",
       "text": "THE ENTENTE is built in three steps: the FRANCO-RUSSIAN ALLIANCE, a secret defensive treaty in force from 4 January 1894 — Russia had been left without a partner when the reinsurance treaty with Germany was not renewed and turned to the isolated French; the ENTENTE CORDIALE of 1904 between Paris and London; and the ANGLO-RUSSIAN CONVENTION of 1907, which completes the TRIPLE ENTENTE. Italy and the US join only DURING the war, as do Japan, Belgium, Romania and Brazil. THE CENTRAL POWERS have the AUSTRO-GERMAN ALLIANCE at their core. That Turkey would join was by no means clear: only when negotiations about Turkish NEUTRALITY failed over the Turkish counter-demands — abolition of the capitulations, and delivery of warships already paid for and ordered in Britain — did the Ottoman Empire enter on 24 October 1914, with Bulgaria.",
       "terms": [],
@@ -274,18 +94,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1653,
-      "text_sha": "792116baec367dba",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD12/PD12_s014.webp",
+    "14": {
       "title": "The Ottoman Empire under pressure from three sides",
       "text": "A case study of a multi-national empire squeezed simultaneously. INSIDE EUROPE: growing nationalism — pan-slavism in the Balkans, and Russia's ambitions there. OUTSIDE EUROPE: conflicting interests with the imperial powers Britain and France, and in the 20th century Italy. INSIDE THE EMPIRE: pan-turkism. Three pressures at once, and the same pattern applies to the Habsburg monarchy.",
       "terms": [],
@@ -298,18 +109,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 423,
-      "text_sha": "7b7dd0e2fbb25987",
-      "pdf_page": 14
+      "vision_used": true
     },
-    {
-      "n": 15,
-      "img": "img/PD12/PD12_s015.webp",
+    "15": {
       "title": "Sarajevo and the chain of declarations",
       "text": "The heir presumptive Archduke FRANZ FERDINAND and his wife Sophie are shot in SARAJEVO — the capital of the RECENTLY ANNEXED Bosnia and Herzegovina — by a Serbian nationalist on 28 JUNE 1914. Austria declares war on Serbia on 28 JULY. Russia mobilises in Serbia's defence; Austria's ally Germany declares war on Russia and then on France and Britain; and the Ottoman Empire joins the Central Powers in November 1914. Note the detail about Bosnia: the annexation of 1908 that the Congress of Berlin had made possible is the reason the assassination happened where it did.",
       "terms": [],
@@ -322,18 +124,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 594,
-      "text_sha": "5e338d88c4e18dc0",
-      "pdf_page": 15
+      "vision_used": true
     },
-    {
-      "n": 16,
-      "img": "img/PD12/PD12_s016.webp",
+    "16": {
       "title": "The cost",
       "text": "Over 9 MILLION SOLDIERS and around 17 MILLION PEOPLE in total, soldiers and civilians, died worldwide. Germany alone lost over two million soldiers, Russia around 1.8 million, Austria-Hungary nearly 1.5 million. Millions of civilians died of hunger, disease or other consequences of the war.",
       "terms": [],
@@ -346,41 +139,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 441,
-      "text_sha": "aa2ec0fec6227101",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD12/PD12_s017.webp",
-      "title": "Map",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 69,
-      "text_sha": "ea9be3e6bbdbc810",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PD12/PD12_s018.webp",
+    "17": { "title": "Map", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "18": {
       "title": "Austria during the war",
       "text": "The monarchy's SMOULDERING ETHNIC CONFLICTS ERUPT OPENLY during the war. Minister-President KARL COUNT VON STÜRGKH SUSPENDS SEVERAL FUNDAMENTAL RIGHTS and, resorting to EMERGENCY DECREES, rules in an almost dictatorial manner — and the lecture flags the instrument that matters later: the WAR ECONOMY ENABLING ACT of 1917, which WAS TO PLAY A DECISIVE ROLE IN 1933/1934. In 1916 Stürgkh is assassinated by the radical socialist Friedrich Adler; and on 21 November 1916 Francis Joseph dies after 68 years on the throne.",
       "terms": [
-        {
-          "term": "Kriegswirtschaftliches Ermächtigungsgesetz (1917)",
-          "def": "The Austrian war economy enabling act — the legal instrument used to govern by decree during the war, and reached for again in 1933/34 to govern without parliament."
-        }
+        { "term": "Kriegswirtschaftliches Ermächtigungsgesetz (1917)", "def": "The Austrian war economy enabling act — the legal instrument used to govern by decree during the war, and reached for again in 1933/34 to govern without parliament." }
       ],
       "cards": [
         {
@@ -391,25 +157,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 593,
-      "text_sha": "54f27bbfec1ccbf2",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD12/PD12_s019.webp",
+    "19": {
       "title": "The powers' competing interests in the Middle East",
       "text": "BRITAIN: secure and rapid access to India — Cyprus, Palestine, Egypt and control of the SUEZ CANAL; in favour of a stable independent Armenia beholden to neither Russia nor Turkey; careful, because of the millions of Muslims in its own empire, not to antagonise them, while acting in Palestine as 'protector' of the Jewish population; and a growing interest in Mesopotamia — PETROL. FRANCE: the Turkish riviera, Syria, Lebanon, Mesopotamia. RUSSIA: Constantinople and the Bosporus — the straits joining the Black Sea to the Sea of Marmara — and the Caucasus under its control, hence AGAINST an independent Armenia. ITALY: North Africa and Libya, the Dodecanese, Izmir. And the instrument: the SYKES–PICOT AGREEMENT, a SECRET treaty of 1916 between Britain and France, with the assent of Russia and Italy, defining their spheres in an eventual partition of the Ottoman Empire.",
       "terms": [
-        {
-          "term": "Sykes–Picot Agreement (1916)",
-          "def": "The secret Anglo-French treaty, with Russian and Italian assent, dividing the Ottoman Empire into spheres of influence — published by the Bolsheviks in November 1917."
-        }
+        { "term": "Sykes–Picot Agreement (1916)", "def": "The secret Anglo-French treaty, with Russian and Italian assent, dividing the Ottoman Empire into spheres of influence — published by the Bolsheviks in November 1917." }
       ],
       "cards": [
         {
@@ -427,18 +181,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1292,
-      "text_sha": "543ff123008b9bb8",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD12/PD12_s020.webp",
+    "20": {
       "title": "Russia 1917: the February Revolution",
       "text": "The Russian Revolution opens with the FEBRUARY REVOLUTION of 1917, in the midst of the war. Logistical problems cause shortages of bread and grain; the army is losing morale with large-scale mutiny looming. The extremely unpopular TSAR NICHOLAS II ABDICATES ON 15 MARCH 1917 — and the unrest does not subside. By March Russia has TWO RIVAL GOVERNMENTS: a Provisional Government holding state power in military and international affairs, and the network of SOVIETS holding domestic power. Civil war follows.",
       "terms": [],
@@ -451,41 +196,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 602,
-      "text_sha": "337677802ba6f032",
-      "pdf_page": 20
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD12/PD12_s021.webp",
-      "title": "The October Revolution",
-      "text": "A Bolshevik armed insurrection in Petrograd from 7 November (25 October old style) 1917 overthrows the Provisional Government. Lenin (1917–1924) creates a ONE-PARTY STATE under the Communist Party — Leninism.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 366,
-      "text_sha": "72aec380d107baf3",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PD12/PD12_s022.webp",
+    "21": { "title": "The October Revolution", "text": "A Bolshevik armed insurrection in Petrograd from 7 November (25 October old style) 1917 overthrows the Provisional Government. Lenin (1917–1924) creates a ONE-PARTY STATE under the Communist Party — Leninism.", "terms": [], "cards": [], "vision_used": true },
+    "22": {
       "title": "The road to Brest-Litovsk",
       "text": "The Bolsheviks needed time and every resource to stabilise their rule against the protests forming across the country, and they had promised even before February TO END THE WAR IMMEDIATELY. So they PUBLISHED THE FULL TEXT OF THE SYKES–PICOT AGREEMENT IN PRAVDA in November 1917 — abolishing secret diplomacy by exposing it. On 8 November 1917, the day after the coup, came the DECREE ON PEACE: abolishing secret diplomacy, proposing an immediate general peace WITHOUT ANNEXATIONS AND INDEMNITIES, and demanding that each nation be granted THE RIGHT TO SELF-DETERMINATION. On 28 November Lenin and Trotsky issued an official peace offer; the Central Powers consented; and on 15 December an armistice was concluded. By then Ukraine, the Finns and the Kazakhs had declared independence, and the Crimean People's Republic — the first secular Muslim state to declare sovereignty — had done the same.",
       "terms": [
-        {
-          "term": "Decree on Peace (8 November 1917)",
-          "def": "The Bolshevik proposal of an immediate general peace without annexations or indemnities, abolishing secret diplomacy and demanding self-determination for every nation."
-        }
+        { "term": "Decree on Peace (8 November 1917)", "def": "The Bolshevik proposal of an immediate general peace without annexations or indemnities, abolishing secret diplomacy and demanding self-determination for every nation." }
       ],
       "cards": [
         {
@@ -503,18 +221,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1323,
-      "text_sha": "6364393c94f51270",
-      "pdf_page": 22
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "img": "img/PD12/PD12_s023.webp",
+    "23": {
       "title": "The Treaty of Brest-Litovsk",
       "text": "Signed 3 MARCH 1918 between the Central Powers and Soviet Russia; Russia withdraws from the war. Russia loses control of UKRAINE — the birth of the Ukrainian People's Republic — POLAND, BELARUS, LITHUANIA, LATVIA, ESTONIA, and the Caucasian provinces of Kars and Batum, and confirms the independence of FINLAND. The treaty takes away territory holding A QUARTER OF THE POPULATION AND THE INDUSTRY of the former Russian Empire. Two further points the exam likes: it LOSES EFFECTIVENESS THE MOMENT THE CENTRAL POWERS ARE DEFEATED; and it HAD ALMOST NOTHING IN COMMON WITH THE PARIS PEACE TREATIES — a peace of annexation concluded by the same war that ended in a peace of self-determination.",
       "terms": [],
@@ -534,18 +243,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 676,
-      "text_sha": "9a425ce03b52606c",
-      "pdf_page": 23
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "img": "img/PD12/PD12_s024.webp",
+    "24": {
       "title": "Wilson's Fourteen Points",
       "text": "The United States joined the Entente on 6 APRIL 1917, its entry due in part to Germany's RESUMPTION OF SUBMARINE WARFARE against merchant ships trading with France and Britain. The FOURTEEN POINTS are a statement of principles for peace, set out in Wilson's speech to Congress on 8 JANUARY 1918 — and the lecture notes what it was answering: LENIN'S DECREE ON PEACE of November 1917. Free trade, OPEN AGREEMENTS, democracy and SELF-DETERMINATION. The two programmes are competing offers to the same audience.",
       "terms": [],
@@ -565,18 +265,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 698,
-      "text_sha": "0344f8c6413c94fc",
-      "pdf_page": 24
+      "vision_used": false
     },
-    {
-      "n": 25,
-      "img": "img/PD12/PD12_s025.webp",
+    "25": {
       "title": "Point 10 — and what it did not say",
       "text": "The tenth point: 'The people of Austria-Hungary, whose place among the nations we wish to see safeguarded and assured, should be accorded THE FREEST OPPORTUNITY TO AUTONOMOUS DEVELOPMENT.' Read it carefully, because it is a favourite exam point: AUTONOMOUS DEVELOPMENT — not independence, and not the dissolution of the monarchy. In January 1918 Wilson was still proposing autonomy WITHIN Austria-Hungary; the dismemberment came later.",
       "terms": [],
@@ -589,18 +280,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 327,
-      "text_sha": "9c07a72b40a576c4",
-      "pdf_page": 25
+      "vision_used": false
     },
-    {
-      "n": 26,
-      "img": "img/PD12/PD12_s026.webp",
+    "26": {
       "title": "Austria at the end: Charles I and the People's Manifesto",
       "text": "Francis Joseph is succeeded by CHARLES I (1916–1918). In 1917 the SIXTUS AFFAIR — the disclosure of secret negotiations that Charles conducted BEHIND THE BACK OF HIS ALLY the German Reich, primarily with France. At Brest-Litovsk in March 1918 Austria GAINED NO TERRITORY. And in response to the Fourteen Points, on 16 OCTOBER 1918 Charles issued a manifesto — the PEOPLE'S MANIFESTO — calling on all members of the Reichsrat to come together in national councils by ethnicity and to work towards transforming AUSTRIA (NOT HUNGARY) into a FEDERAL STATE. It FAILED TO PREVENT THE DISINTEGRATION of the monarchy. Note the two limits that doomed it: it came in October 1918, and it did not include Hungary.",
       "terms": [],
@@ -620,50 +302,11 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 788,
-      "text_sha": "47b38798312527fa",
-      "pdf_page": 26
+      "vision_used": false
     },
-    {
-      "n": 27,
-      "img": "img/PD12/PD12_s027.webp",
-      "title": "The dismembratio of the monarchy",
-      "text": "30 and 31 October 1918 — the successor states declaring themselves as the monarchy comes apart.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 131,
-      "text_sha": "9bad02d442ed64b5",
-      "pdf_page": 27
-    },
-    {
-      "n": 28,
-      "img": "img/PD12/PD12_s028.webp",
-      "title": "From monarchy to republic",
-      "text": "Charles I with Empress Zita and crown prince Otto at the Hungarian coronation of 1916, set against the Provisional National Assembly for German Austria.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 274,
-      "text_sha": "ae235411b18838d8",
-      "pdf_page": 28
-    },
-    {
-      "n": 29,
-      "img": "img/PD12/PD12_s029.webp",
+    "27": { "title": "The dismembratio of the monarchy", "text": "30 and 31 October 1918 — the successor states declaring themselves as the monarchy comes apart.", "terms": [], "cards": [], "vision_used": false },
+    "28": { "title": "From monarchy to republic", "text": "Charles I with Empress Zita and crown prince Otto at the Hungarian coronation of 1916, set against the Provisional National Assembly for German Austria.", "terms": [], "cards": [], "vision_used": true },
+    "29": {
       "title": "Formal discontinuity, material continuity",
       "text": "The phrase to remember for the whole transition of 1918: FORMAL DISCONTINUITY — MATERIAL CONTINUITY. The form of the state breaks completely: empire to republic, monarch deposed, a new constituent assembly. The material stays: the same officials, the same courts, the same ABGB, the same administrative machinery. A revolution in the form of the state need not be a revolution in its law.",
       "terms": [],
@@ -676,34 +319,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 152,
-      "text_sha": "74868d91d25fdaec",
-      "pdf_page": 29
+      "vision_used": false
     },
-    {
-      "n": 30,
-      "img": "img/PD12/PD12_s030.webp",
-      "title": "The monarchs go",
-      "text": "Charles I/IV, Emperor of Austria and King of Hungary, and William II, German Emperor and King of Prussia — both dethroned.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 366,
-      "text_sha": "66ca30a2ce22bfa0",
-      "pdf_page": 30
-    },
-    {
-      "n": 31,
-      "img": "img/PD12/PD12_s031.webp",
+    "30": { "title": "The monarchs go", "text": "Charles I/IV, Emperor of Austria and King of Hungary, and William II, German Emperor and King of Prussia — both dethroned.", "terms": [], "cards": [], "vision_used": true },
+    "31": {
       "title": "The Habsburg Law",
       "text": "§ 1(1): ALL SOVEREIGN RIGHTS AND OTHER PRIVILEGES of the House of Habsburg-Lorraine and of all its members are ABOLISHED IN AUSTRIA FOR ALL TIME. § 2: in the interests of the security of the Republic, the former bearer of the crown and the other members of the house shall be EXPELLED FROM THE COUNTRY — the latter UNLESS they expressly RENOUNCE their membership of the house and all claims to sovereignty derived from it and declare themselves loyal citizens of the Republic. § 5: the Republic of Austria IS THE OWNER of all movable and immovable imperial property in its territory and of all property bound to the former ruling house. Note the structure: abolition of rights, conditional expulsion with a way back through renunciation, and confiscation.",
       "terms": [],
@@ -716,34 +335,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 902,
-      "text_sha": "a2e5db915f7054c8",
-      "pdf_page": 31
+      "vision_used": false
     },
-    {
-      "n": 32,
-      "img": "img/PD12/PD12_s032.webp",
-      "title": "Part 2: The Paris Peace Order",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 29,
-      "text_sha": "55818fe692363966",
-      "pdf_page": 32
-    },
-    {
-      "n": 33,
-      "img": "img/PD12/PD12_s033.webp",
+    "32": { "title": "Part 2: The Paris Peace Order", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "33": {
       "title": "The five Paris peace treaties",
       "text": "One treaty per defeated power, and the exam expects the pairs. VERSAILLES — GERMANY, 28 June 1919. SAINT-GERMAIN-EN-LAYE — AUSTRIA, 10 September 1919. NEUILLY-SUR-SEINE — BULGARIA, 27 November 1919. TRIANON — HUNGARY, 4 June 1920. SÈVRES — TURKEY, 10 August 1920.",
       "terms": [],
@@ -756,29 +351,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 335,
-      "text_sha": "8abe973c2475ac96",
-      "pdf_page": 33
+      "vision_used": false
     },
-    {
-      "n": 34,
-      "img": "img/PD12/PD12_s034.webp",
+    "34": {
       "title": "What the Paris treaties introduced",
       "text": "The WAR GUILT CLAUSE — and the lecture puts it exactly right: INSTEAD OF MUTUAL OBLIVION. Earlier peace treaties had ended wars by agreeing to forget them; now war is treated as an ILLEGAL ACT OF AGGRESSION rather than simply a clash between rival interests, and someone is responsible. The German Kaiser is ARRAIGNED FOR OFFENCES. Then REPARATIONS, TERRITORIAL CESSIONS, SELF-DETERMINATION, and the PROSECUTION OF GERMAN WAR CRIMES in the LEIPZIG TRIALS. The shift from oblivion to guilt is the birth of the idea that a war can be unlawful and its makers answerable.",
       "terms": [
-        {
-          "term": "war guilt clause",
-          "def": "The provision fixing responsibility for the war, replacing the older practice of ending a war by mutual oblivion. It treats war as an illegal act of aggression rather than a clash of interests."
-        },
-        {
-          "term": "mutual oblivion",
-          "def": "The older treaty practice of ending a war by agreeing to forget it and its causes — abandoned in 1919."
-        }
+        { "term": "war guilt clause", "def": "The provision fixing responsibility for the war, replacing the older practice of ending a war by mutual oblivion. It treats war as an illegal act of aggression rather than a clash of interests." },
+        { "term": "mutual oblivion", "def": "The older treaty practice of ending a war by agreeing to forget it and its causes — abandoned in 1919." }
       ],
       "cards": [
         {
@@ -796,18 +376,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 473,
-      "text_sha": "9bc26e7bde9ea669",
-      "pdf_page": 34
+      "vision_used": false
     },
-    {
-      "n": 35,
-      "img": "img/PD12/PD12_s035.webp",
+    "35": {
       "title": "The League of Nations",
       "text": "Its COVENANT IS PART I OF ALL THE PARIS PEACE TREATIES — which means the losing states had to accept it as part of their peace. Main organs: ASSEMBLY, COUNCIL, SECRETARIAT — the model for the UN. Its innovations and ambitions: securing peace and solving international problems; DISARMAMENT and arms control; COLLECTIVE SECURITY; PROTECTION OF MINORITIES; peaceful settlement of international conflicts (Articles 8–17); PROHIBITION OF WAR (Article 15); promoting decolonisation and development; and HUMANE CONDITIONS OF LABOUR (Articles 22, 23, 25).",
       "terms": [],
@@ -827,66 +398,12 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 638,
-      "text_sha": "176bd6ab6487b4b6",
-      "pdf_page": 35
+      "vision_used": true
     },
-    {
-      "n": 36,
-      "img": "img/PD12/PD12_s036.webp",
-      "title": "The International Labour Organization",
-      "text": "Founded with the League, on the premise printed on the slide: 'WORLD PEACE CAN ONLY BE BUILT ON SOCIAL JUSTICE IN THE LONG TERM.' Labour conditions enter the peace settlement as a condition of peace itself.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 105,
-      "text_sha": "4f4166c6581fd53b",
-      "pdf_page": 36
-    },
-    {
-      "n": 37,
-      "img": "img/PD12/PD12_s037.webp",
-      "title": "The Big Four",
-      "text": "Lloyd George (UK), Orlando (Italy), Clemenceau (France) and Wilson (US) — who made the peace.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 219,
-      "text_sha": "4e28d21a42319807",
-      "pdf_page": 37
-    },
-    {
-      "n": 38,
-      "img": "img/PD12/PD12_s038.webp",
-      "title": "The Austrian delegation",
-      "text": "On its way to Saint-Germain under State Chancellor Karl Renner, with deputies, officials of the state office for foreign affairs including Franz Klein, experts such as Heinrich Lammasch, journalists and clerical staff.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 340,
-      "text_sha": "65e009017dc84197",
-      "pdf_page": 38
-    },
-    {
-      "n": 39,
-      "img": "img/PD12/PD12_s039.webp",
+    "36": { "title": "The International Labour Organization", "text": "Founded with the League, on the premise printed on the slide: 'WORLD PEACE CAN ONLY BE BUILT ON SOCIAL JUSTICE IN THE LONG TERM.' Labour conditions enter the peace settlement as a condition of peace itself.", "terms": [], "cards": [], "vision_used": false },
+    "37": { "title": "The Big Four", "text": "Lloyd George (UK), Orlando (Italy), Clemenceau (France) and Wilson (US) — who made the peace.", "terms": [], "cards": [], "vision_used": true },
+    "38": { "title": "The Austrian delegation", "text": "On its way to Saint-Germain under State Chancellor Karl Renner, with deputies, officials of the state office for foreign affairs including Franz Klein, experts such as Heinrich Lammasch, journalists and clerical staff.", "terms": [], "cards": [], "vision_used": true },
+    "39": {
       "title": "Saint-Germain signed",
       "text": "10 September 1919, signed by Chancellor KARL RENNER. Like Trianon with Hungary and Versailles with the Weimar Republic, it CONTAINED THE COVENANT OF THE LEAGUE OF NATIONS — and as a result WAS NOT RATIFIED BY THE UNITED STATES, which concluded a separate US–Austrian peace treaty in 1921. The Covenant that was meant to bind everyone kept out the power whose president had designed it.",
       "terms": [],
@@ -899,34 +416,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 348,
-      "text_sha": "ebffd490c2f8e66b",
-      "pdf_page": 39
+      "vision_used": true
     },
-    {
-      "n": 40,
-      "img": "img/PD12/PD12_s040.webp",
-      "title": "The structure of Saint-Germain",
-      "text": "381 articles with minutes and annexes, in fourteen parts: the Covenant of the League; Austria's frontiers; political provisions concerning Europe; Austria's extra-European interests; land, sea and air forces; prisoners of war and graves; penal provisions; reparations; financial provisions; economic provisions; aviation; ports, waterways and railways; labour; and miscellaneous provisions.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 489,
-      "text_sha": "294af11c699ab7d8",
-      "pdf_page": 40
-    },
-    {
-      "n": 41,
-      "img": "img/PD12/PD12_s041.webp",
+    "40": { "title": "The structure of Saint-Germain", "text": "381 articles with minutes and annexes, in fourteen parts: the Covenant of the League; Austria's frontiers; political provisions concerning Europe; Austria's extra-European interests; land, sea and air forces; prisoners of war and graves; penal provisions; reparations; financial provisions; economic provisions; aviation; ports, waterways and railways; labour; and miscellaneous provisions.", "terms": [], "cards": [], "vision_used": true },
+    "41": {
       "title": "What Saint-Germain did to Austria",
       "text": "The treaty DECLARES THE AUSTRO-HUNGARIAN EMPIRE DISSOLVED. Under ARTICLE 177 Austria, with the other Central Powers, ACCEPTS RESPONSIBILITY FOR STARTING THE WAR — and therefore has to pay reparations. It faces territorial losses of OVER 60 PER CENT of the pre-war Austrian Empire's territory: South Tyrol, today's Czechia, parts of today's Poland and Ukraine, Hungary and more — though it finally GAINED THE BURGENLAND in 1921. Strong restrictions on its military forces. And a PROHIBITION TO JOIN GERMANY.",
       "terms": [],
@@ -939,25 +432,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 572,
-      "text_sha": "0a73395d7b3135be",
-      "pdf_page": 41
+      "vision_used": true
     },
-    {
-      "n": 42,
-      "img": "img/PD12/PD12_s042.webp",
+    "42": {
       "title": "The Anschluss prohibition — Article 88",
       "text": "AUSTRIA'S INDEPENDENCE IS IRREVOCABLE, UNLESS THE COUNCIL OF THE LEAGUE OF NATIONS AGREES TO A CHANGE. Austria therefore undertakes to refrain, except with the Council's consent, from ANY ACTION WHICH MIGHT DIRECTLY OR INDIRECTLY, OR IN ANY WAY, ENDANGER ITS INDEPENDENCE — namely, until its admission to the League, by participating in the affairs of another power. Read the paradox: a state is placed under a legal duty NOT TO GIVE ITSELF AWAY, its independence made irrevocable BY SOMEONE ELSE. Self-determination for the successor nations; for German Austria, a prohibition on exercising it.",
       "terms": [
-        {
-          "term": "Anschlussverbot (Art. 88 St Germain)",
-          "def": "Austria's independence declared irrevocable except with the consent of the Council of the League, with a duty to refrain from anything endangering that independence."
-        }
+        { "term": "Anschlussverbot (Art. 88 St Germain)", "def": "Austria's independence declared irrevocable except with the consent of the Council of the League, with a duty to refrain from anything endangering that independence." }
       ],
       "cards": [
         {
@@ -975,46 +456,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 908,
-      "text_sha": "5675f0702d5003d0",
-      "pdf_page": 42
+      "vision_used": false
     },
-    {
-      "n": 43,
-      "img": "img/PD12/PD12_s043.webp",
-      "title": "Europe in 1914, and after",
-      "text": "The closing comparison of the map before the war with the map the treaties left.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 94,
-      "text_sha": "281a712a673f7160",
-      "pdf_page": 43
-    },
-    {
-      "n": 44,
-      "img": "img/PD12/PD12_s044.webp",
-      "title": "",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 82,
-      "text_sha": "e588127f0d0f65b4",
-      "pdf_page": 44
-    }
-  ]
+    "43": { "title": "Europe in 1914, and after", "text": "The closing comparison of the map before the war with the map the treaties left.", "terms": [], "cards": [], "vision_used": false },
+    "44": { "title": "", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }
