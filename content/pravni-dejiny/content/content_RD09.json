@@ -1,28 +1,12 @@
 {
   "lecture_id": "RD09",
-  "kind": "reading",
-  "course": "RD",
-  "course_title": "Required reading",
-  "course_number": "030362",
-  "unit": "Téma 14",
   "title": "Xu, Five Punishments and Beyond — vývoj trestních zákoníků v císařské Číně",
-  "source_file": "raw/RD09_9-xu-xiaoqun-five-punishments-a-penal-codes-in-imperial-chin.pdf",
-  "source_sha256": "9729048342f60d10e7d94a718b3085204eefbb5fa17aa4dea2f4e7b7366c249c",
-  "source_pages": 17,
-  "slides_per_page": 1,
-  "slide_count": 24,
-  "updated_at": "2026-09-15T13:07:00+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "text_sha": null,
+  "slides": {
+    "1": {
       "title": "Právo jako nástroj kosmické rovnováhy",
       "text": "Čínské právo a spravedlnost jsou STEJNĚ STARÉ JAKO ČÍNSKÉ DĚJINY. Jedním z rysů, které starověkou civilizaci vymezují, je VZNIK STÁTU (či vládce), a právo a spravedlnost patří k základním funkcím státu. Východisko: VLÁDNOUCÍ ELITY CHÁPALY PRÁVO JAKO NÁSTROJ K UDRŽENÍ ROVNOVÁHY MEZI DVĚMA PRVOTNÍMI SILAMI KOSMU — JIN (záporné, ženské, měsíc, vody) A JANG (kladné, mužské, slunce, hory) — KTERÁ SE V LIDSKÉ SPOLEČNOSTI PROJEVUJE JAKO STÁVAJÍCÍ POLITICKO-SPOLEČENSKO-MRAVNÍ ŘÁD. Čínské trestní zákoníky se objevily v předcísařské době jako prototypy a v císařské éře rostly do čím dál větší propracovanosti a úplnosti — jejich vývoj byl NEDÍLNOU SOUČÁSTÍ NEPŘETRŽITÉHO VÝVOJE ČÍNSKÉHO CÍSAŘSKÉHO SYSTÉMU, navzdory pravidelnému střídání dynastií.",
       "terms": [
-        {
-          "term": "jin a jang",
-          "def": "Dvě prvotní síly kosmu; jejich rovnováha se v lidské společnosti projevuje jako politicko-společensko-mravní řád, který má právo udržovat."
-        }
+        { "term": "jin a jang", "def": "Dvě prvotní síly kosmu; jejich rovnováha se v lidské společnosti projevuje jako politicko-společensko-mravní řád, který má právo udržovat." }
       ],
       "cards": [
         {
@@ -34,12 +18,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "text_sha": null,
+    "2": {
       "title": "Od nitra k říši: řetěz, na kterém stojí všechno",
       "text": "Vlivné konfuciánské vyznání z doby ČOU (11.–3. století př. n. l.): 'JEN KDYŽ JSOU MYSLI NAPRAVENY (ZHENGXIN), JSOU OSOBY KULTIVOVÁNY (XIUSHEN); JEN KDYŽ JSOU OSOBY KULTIVOVÁNY, JSOU RODINY SPRAVOVÁNY (QIJIA); JEN KDYŽ JSOU RODINY SPRAVOVÁNY, JE DOSAŽENO DOBRÉHO VLÁDNUTÍ (ZHIGUO); JEN KDYŽ JE DOSAŽENO DOBRÉHO VLÁDNUTÍ, JE MÍR VŠUDE POD NEBEM (PINGTIANXIA).' Ten řetěz JÁ → RODINA → VLÁDA → VŠE POD NEBEM spojuje mravní základy čínské společnosti, které mělo právo podpírat: její rodinný systém, společenskou strukturu, mravnost i vládu. Celý řád stál na představě INTERAKCE A HARMONIE MEZI NEBEM A LIDSKOU SPOLEČNOSTÍ, obojí podepřené rovnováhou jin a jang — historik BENJAMIN SCHWARTZ tomu říkal 'KORELATIVNÍ KOSMOLOGIE'.",
       "terms": [],
@@ -53,23 +34,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "Mandát Nebes a loďka na vodě",
       "text": "Dynastie Šang a Čou založili ŠANG TANG a KRÁL WU, každý po vzpouře proti sedícímu vládci. Aby vzpouru ospravedlnil, NÁROKOVAL SI KRÁL WU MANDÁT NEBES (TIANMING) a předchozího vládce odsoudil za to, že ZKLAMAL VŮLI NEBES A PŘÁNÍ LIDU, a tím mandát ztratil. Z raných představ vzešly dvě nejvlivnější: NEBE JE NEJVYŠŠÍ KOSMICKOU SILOU a VLÁDCE JE SYNEM NEBES (TIANZI); a PATRIARCHÁLNÍ RODINNÝ SYSTÉM, ustanovený Nebesy a držený rovnováhou jin a jang, je základem celého řádu. Obojí se pohodlně spojilo v osobě vládce JAKO SYNA NEBES A ZÁROVEŇ RODIČE LIDU. MENCIUS nejrázněji vyslovil, že úlohou vládce je NAPLŇOVAT VŮLI NEBES A PEČOVAT O LID JAKO RODIČ, s blahovolnou vládou. A XUN ZI k tomu přidal metaforu, která se stala klasikou: král státu Lu se ptal Konfucia, jaká nebezpečí mu hrozí, a ten odpověděl: 'VLÁDCE JE LOĎ A PROSTÝ LID JE VODA; VODA MŮŽE LOĎ NÉST A VODA MŮŽE LOĎ PŘEVRHNOUT.' Z toho vzešel trvalý pojem, že LID JE ZÁKLADEM STÁTU (MINBEN). A politický důsledek, který se opakoval dva tisíce let: PŘEDSTAVU, ŽE MANDÁT NEBES LZE ZTRATIT NEDODÁNÍM BLAHOVOLNÉ VLÁDY A PŘEDAT JINÉMU SYNU NEBES, OPAKOVANĚ A RUTINNĚ VZÝVALI ZAKLADATELÉ NOVÝCH DYNASTIÍ K OSPRAVEDLNĚNÍ SVRŽENÍ TĚCH PŘEDCHOZÍCH.",
       "terms": [
-        {
-          "term": "tianming",
-          "def": "Mandát Nebes: legitimita vládce, kterou lze ztratit nedodáním blahovolné vlády — a kterou proto nárokuje každý úspěšný vzbouřenec."
-        },
-        {
-          "term": "minben",
-          "def": "'Lid je základem státu' — z metafory o lodi a vodě, která loď nese i převrhne."
-        }
+        { "term": "tianming", "def": "Mandát Nebes: legitimita vládce, kterou lze ztratit nedodáním blahovolné vlády — a kterou proto nárokuje každý úspěšný vzbouřenec." },
+        { "term": "minben", "def": "'Lid je základem státu' — z metafory o lodi a vodě, která loď nese i převrhne." }
       ],
       "cards": [
         {
@@ -89,12 +61,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Věřilo se tomu, nebo to byla rétorika?",
       "text": "Xu klade přímo otázku, kterou je dobré umět zodpovědět: BYLA PŘEDSTAVA INTERAKCE NEBES A LIDÍ SKUTEČNOU VÍROU, NEBO JEN POLITICKOU RÉTORIKOU — úředníků, aby císaře nutili k blahovolnosti, a císaře, aby úředníky nutil ke správnému plnění povinností? ODPOVĚĎ: PRAVDĚPODOBNĚ OBOJÍ. Doklady: císař TAIZONG z dynastie Tang vydal nejméně šest amnestií, první k nástupu na trůn a všechny ostatní V ODPOVĚĎ NA PŘÍRODNÍ POHROMY (bouře a povodně, sucho, kobylky). Roku 737 hlásil soud císaři XUANZONGOVI, že v celé zemi bylo popraveno jen 58 hrdelních pachatelů A ŽE SI STRAKY POSTAVILY HNÍZDA NA STROMECH V SOUDNÍ ZAHRADĚ, kam dřív ptáci nechodili kvůli přílišné 'VRAŽEDNÉ ATMOSFÉŘE' (SHAQI) JIN — a císař nařídil hostinu a odměny. Úředník BAO ZHENG ze Songu při zimním hromobití, zatměních, kometách a zemětřeseních radil císaři snížit daně, naslouchat poctivým názorům a odměňovat ctnosti 'V ODPOVĚĎ NA VAROVÁNÍ Z NEBES'. A císař KANGXI roku 1697 k ohlášenému zatmění: 'ZATMĚNÍ SLUNCE LZE VYPOČÍTAT, ALE KRÁLOVÉ A CÍSAŘI BYLI VŽDY ZNEPOKOJENI A VARUJÍCE SE USILOVALI ZLEPŠIT LIDSKÉ ZÁLEŽITOSTI… MYSLÍM, ŽE TYTO UDÁLOSTI PLYNOU Z NADBYTKU JIN. JAK MŮŽE NĚKDO ŘÍCT, ŽE NEMAJÍ S LIDSKÝMI ZÁLEŽITOSTMI NIC SPOLEČNÉHO?' — A 'NADBYTKEM JIN' MYSLEL, ŽE BYLO POPRAVENO NEBO NESPRÁVNĚ POTRESTÁNO PŘÍLIŠ MNOHO LIDÍ. Roku 1675 proto při suchu nařídil přezkoumat všechny trestní případy a napravit nesprávná odsouzení. A protidoklad: WU NA v komentáři k modelovým případům naznačil, ŽE PODLE NĚJ SUCHA A BOUŘE S VÝKONEM SPRAVEDLNOSTI PŘÍMO NESOUVISEJÍ, a moudří úředníci řešili vraždy manipulací lidové víry v místní bohy země — což naznačuje, ŽE SAMI V TY BOHY NEVĚŘILI. Přesto sdíleli základní představu SPRAVEDLNOSTI JAKO SOULADU NEBESKÉHO ROZUMU, STÁTNÍHO PRÁVA A LIDSKÝCH VZTAHŮ A JAKO ROVNOVÁHY JIN A JANG.",
       "terms": [],
@@ -116,12 +85,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Konfucianismus a legismus: spor o lidskou přirozenost",
       "text": "Obě školy se shodly, že vládce a elity mají PEČOVAT (YANG) o prostý lid jako rodiče o děti — což zahrnuje ochranu, výživu, výchovu, kázeň i trest. LIŠILY SE V TOM, JAK. KONFUCIÁNI věřili, že LIDÉ SE RODÍ DOBŘÍ, i když 'nicotné osoby' bývají náchylné sejít z cesty; řád se proto má držet MRAVNÍMI SILAMI jako rituály a slušností, vštěpovanými výchovou. Konfucius: REGULOVAT LID PŘÍKAZY A TRESTY HO ODRADÍ OD ŠPATNÝCH ČINŮ, ALE NENAUČÍ HO, ČEHO SE MÁ STYDĚT; VÉST LID CTNOSTÍ A SLUŠNOSTÍ HO NAUČÍ NEDĚLAT, CO JE HANEBNÉ. HAN FEI, legista, sdílel s konfuciány představu hierarchického řádu posvěceného Nebesy — 'ministr slouží vládci, syn otci, manželka manželovi; jsou-li tyto tři věci v pořádku, je mír všude pod nebem'. ALE legisté věřili, že LIDSKÁ PŘIROZENOST JE VNITŘNĚ ŠPATNÁ, PROTOŽE LIDÉ MAJÍ TĚLESNÉ TOUHY, a zdůrazňovali ROLI PRÁVA A TRESTU. Jejich představa byla, že ODSTRAŠUJÍCÍ ÚČINEK BUDE TAKOVÝ, ŽE NAKONEC NEBUDE TŘEBA TRESTAT VŮBEC, protože všichni se naučí právo dodržovat, když viděli příklady trestu. Jinými slovy: LEGISTŮM ŠLO O KONEČNÝ VÝSLEDEK — ABY SE LIDÉ ŘÍDILI PRÁVEM, AŤ Z JAKÉKOLI POHNUTKY — CO BYLO PŘESNĚ V PROTIKLADU K TOMU, CO ZAJÍMALO KONFUCIA.",
       "terms": [],
@@ -135,12 +101,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Rozdělení rolí, které vydrželo dva tisíce let",
       "text": "Legismus přijal stát ČCHIN jako vodítko politiky, což mu pomohlo dobýt šest dalších států a založit dynastii ČCHIN (221–206 př. n. l.), PRVNÍ CÍSAŘSKÝ STÁT V ČÍNĚ. Byla ale krátkodechá, a HAN, který ji nahradil, se chtěl z rychlého pádu předchůdce poučit. První tři hanští císaři upřednostňovali TAOISMUS, ale čtvrtého, císaře WU, přesvědčil konfuciánský učenec DONG ZHONGSHU, aby přijal KONFUCIANISMUS JAKO OFICIÁLNÍ IDEOLOGII. Tím byla jednou provždy ustavena převaha konfucianismu v čínské tradici. ALE LEGISMUS NEBYL V ŽÁDNÉM PŘÍPADĚ OPUŠTĚN — a tohle je klíčová formulka: OD DYNASTIE HAN DÁL UŽÍVALA KAŽDÁ NÁSLEDUJÍCÍ DYNASTIE KONFUCIÁNSKOU IDEOLOGII PRO MRAVNÍ ZÁSADY A LEGISTICKÉ PRAKTIKY JAKO NÁSTROJE VLÁDNUTÍ, protože obojí bylo vládci nepostradatelné. DĚJINY JÜANU to říkají takto: 'KDOKOLI VLÁDNE VŠEMU POD NEBEM, I KDYBY TO BYLI MOUDŘÍ CÍSAŘI, NEMŮŽE DOSÁHNOUT DOBRÉHO VLÁDNUTÍ BEZ PRÁVA A TRESTU… DŘÍVĚJŠÍ VLÁDCI UČINILI PRÁVO A TREST NE PROTO, ABY ZALOŽILI AUTORITU, NÝBRŽ ABY POMOHLI DOBRÉMU VLÁDNUTÍ.' Zkrátka: KONFUCIANISMUS JAKO PŘEVLÁDAJÍCÍ IDEOLOGIE ŘÁD OSPRAVEDLŇOVAL, ZATÍMCO PRÁVO A TREST JAKO NÁSTROJE POUČENÉ LEGISMEM ŘÁD VYNUCOVALY.",
       "terms": [],
@@ -154,19 +117,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Fu Su: proč je rodina podstatou celé věci",
       "text": "Příběh, který Xu používá jako klíč. Roku 210 př. n. l. zemřel první císař dynastie Čchin na cestě. Vrchní eunuch ZHAO GAO zatajil jeho smrt a přemluvil rádce LI SIHO, aby trůn zdědil mladší syn HU HAI, kterého snáz ovládnou. Aby zamezili potížím, ZFALŠOVALI JMÉNEM MRTVÉHO CÍSAŘE ROZKAZ Hu Haiovu staršímu bratru FU SUOVI a generálu MENG TIANOVI, oběma u Velké zdi, ABY SPÁCHALI SEBEVRAŽDU. Meng byl podezíravý a naléhal, ať si vyžádají vysvětlení. FU SU ODPOVĚDĚL: 'ŽÁDÁ-LI OTEC SYNA, ABY ZEMŘEL, NENÍ TŘEBA ŽÁDAT O NIC DALŠÍHO.' A ZABIL SE. Tím se dostáváme k jádru: mravní důsledky patriarchální rodiny a její ideologie SYNOVSKÉ ÚCTY se dají shrnout takto. JEDNOTLIVEC JE BEZVÝZNAMNÝ, LEDAŽE JAKO ČLEN RODINY; je NE VÍC A NE MÍŇ NEŽ ČLÁNKEM V ŘETĚZU PATRIARCHÁLNÍ RODOVÉ LINIE spojujícím předky a potomky, a POKRAČOVÁNÍ RODOVÉ LINIE JE PRVOŘADOU MRAVNÍ POVINNOSTÍ MUŽE; ŽENY JSOU NEPOSTRADATELNÉ PRO REPRODUKCI LINIE, ALE PODŘÍZENÉ A PODDANÉ MUŽŮM, PRÁVĚ TAK JAKO JIN JANGU; a konečně JE NEZBYTNÉ, ABY DĚTI ZCELA POSLOUCHALY A CTILY RODIČE, PRARODIČE A OSTATNÍ STARŠÍ — JAK TO UDĚLAL FU SU. A ten most k politice: STÁT SE PROSTĚ CHÁPAL JAKO PATRIARCHÁLNÍ RODINA VE VELKÉM — vládce byl Synem Nebes a rodičem lidu zároveň.",
       "terms": [
-        {
-          "term": "synovská úcta (xiao)",
-          "def": "Naprostá poslušnost a úcta k rodičům a starším; protože je stát 'patriarchální rodinou ve velkém', je zároveň politickou ctností."
-        }
+        { "term": "synovská úcta (xiao)", "def": "Naprostá poslušnost a úcta k rodičům a starším; protože je stát 'patriarchální rodinou ve velkém', je zároveň politickou ctností." }
       ],
       "cards": [
         {
@@ -186,12 +143,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "Pět trestů a první psané zákony",
       "text": "'KNIHA JÜ: PRAVIDLA ŠUNOVA' v KLASIKU KNIH mlhavě zmiňuje 'PĚT TRESTŮ' a odkazuje na STĚTÍ A MRZAČENÍ. Zda se užívaly už za Šuna, se později přelo; pravděpodobněji se v nějaké podobě užívaly za Xia, a určitě za Šangů a Čouů, jak dokládají archeologické nálezy i písemné prameny. Za éry JAR A PODZIMŮ (770–476 př. n. l.), kdy se z dřívějších lén vyvinuly samostatné feudální státy, se začaly objevovat 'PSANÉ' ZÁKONY: několik států ZVEŘEJNILO SVÉ ZÁKLADNÍ TRESTNÍ ZÁKONÍKY VYRYTÉ NA BRONZOVÝCH ČI ŽELEZNÝCH KONSTRUKCÍCH. Dalekosáhlý vliv měly KNIHY ZÁKONŮ (FAJING) sestavené LI KUIEM ze státu Wei. Nedochovaly se, ale z citací plyne, že měly ŠEST KNIH: LOUPEŽ A KRÁDEŽ, VZPOURA, ZADRŽENÍ, DOPADENÍ, RŮZNÉ DELIKTY (hazard, podvod, úplatky, šplhání po hradbách, nedovolený sex) A OBECNÉ ZÁSADY — tyhle kategorie zůstaly ústřední pro trestní zákoníky celé císařské éry. A dvě zásady, které tu už byly: ZÁKONODÁRCI DOBY ČOU UŽ ODLIŠOVALI ÚMYSLNÉ OD NEÚMYSLNÝCH DELIKTŮ A RECIDIVISTY OD PRVOPACHATELŮ, přičemž druzí byli trestáni mírněji. Rané tresty zahrnovaly TREST SMRTI, TĚLESNÁ MRZAČENÍ, TETOVÁNÍ A ZOTROČENÍ; méně pravidelné byly VYHNANSTVÍ, BIČOVÁNÍ, VÝPRASK A POKUTY (kterými se dalo vykoupit mrzačení a tetování, byla-li vina méně průkazná).",
       "terms": [],
@@ -213,12 +167,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "Čchin: Shang Yang a rovnost, která se vymstila",
       "text": "Za úspěch státu Čchin mohl legistický přístup SHANG YANGA, který přišel ze sousedního Wei a stal se hlavním rádcem. Doporučil TVRDÉ ZÁKONY A PŘÍSNÉ TRESTY k dosažení cílů státu, radil ROVNÉ POUŽITÍ PRÁVA A TRESTU NA VŠECHNY ČLENY SPOLEČNOSTI a zavedl SYSTÉM KOLEKTIVNÍ ODPOVĚDNOSTI KAŽDÝCH DESETI RODIN V SOUSEDSTVÍ za zločiny, které se tam staly. Jeho trvání na rovnosti před zákonem vedlo k případu, kdy se KORUNNÍ PRINC dopustil deliktu a MÍSTO NĚJ BYLI POTRESTÁNI JEHO DVA UČITELÉ. Když princ nastoupil na trůn, chtěl se Shangovi pomstít a nařídil jeho zatčení pro pobuřování. Podle historika SIMY QIANA prchal Shang o život, zastavil se v hostinci pro jídlo a vodu — A MAJITEL, KTERÝ NEVĚDĚL, S KÝM MLUVÍ, ŘEKL, ŽE PODLE ZÁKONA VYDANÉHO PÁNEM SHANGEM BY BYL POTRESTÁN, KDYBY OBSLOUŽIL KOHOKOLI BEZ PRŮKAZU TOTOŽNOSTI. SHANG VZDYCHL NAD VLASTNÍM TVRDÝM ZÁKONEM. Nakonec byl donucen vzbouřit se doopravdy a byl ohavně popraven. Z čchinského práva zůstala trvalá novinka: TRESTNÍ PRÁCE, často ukládaná spolu s tetováním či mrzačením — muži nejčastěji na stavbách paláců, hrobek, hradeb, silnic a Velké zdi nebo při přepravě zboží či službě na hranicích, ženy jako otrokyně či služebné státu. Bambusové proužky vykopané roku 1975 v JUNMENGU obsahují zákony o zemědělství, daních, pracovních službách, měně a trzích, skladech, odměnách a jmenováních, a také VZORY PRÁVNÍCH DOKUMENTŮ A POSTUPY VYŠETŘOVÁNÍ, VÝSLECHU A SOUDU.",
       "terms": [],
@@ -240,12 +191,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "Han: reforma trestů, která mohla zabíjet víc",
       "text": "Brzy po založení Hanu vznikl ZÁKON O DEVÍTI KAPITOLÁCH — prvních šest podle starých Knih zákonů, tři nové podle čchinských vzorů. Han pak rostl formou článků přidávaných do zákoníku (LÜ), císařských ediktů (LING), úprav jednotlivostí (KE) a soudních precedentů či analogií (BI). U trestů platilo staré pětičlenné schéma AŽ DO ROKU 167 PŘ. N. L., kdy je císař WEN zreformoval: TETOVÁNÍ nahradil TRESTNOU PRACÍ, UŤATÝ NOS A LEVÝ PALEC U NOHY VÝPRASKEM, UŤATÝ PRAVÝ PALEC STĚTÍM. A tady je ta past, kterou je dobré znát: DUCHEM REFORMY BYLO ODSTRANIT MRZAČENÍ, ALE DVA VYSOCÍ ÚŘEDNÍCI TEHDY POZNAMENALI, ŽE ZMĚNA TRESTY JEN NA OKO ZMÍRNÍ A VE SKUTEČNOSTI ZVÝŠÍ POČET POPRAV. Roku 156 př. n. l. proto císař JING v reakci na zprávy, že mnozí ušetření trestu smrti PŘESTO ZEMŘELI NA VÝPRASK, snížil pět set ran na tři sta; o dvanáct let později tři sta na dvě stě a dvě stě na sto, a NÁSTROJE K VÝPRASKU SE STANDARDIZOVALY. Tyhle změny byly ZLOMOVÝM BODEM čínského pojetí trestu a nastartovaly odklon od tělesných mrzačení. Další změna: v Čchinu byla trestní práce DOŽIVOTNÍ, Han jí začal STANOVOVAT DOBU — nejtěžší byla stavební práce s oholenou hlavou a v řetězech (u žen mletí rýže) na pět let, nejlehčí obecná práce či stráž na hranici a u žen podřadná práce v paláci na rok. A KASTRACE: v raném hanském zákoníku nebyla, přidal ji císař Jing; postihla dvorního historika SIMU QIANA za obhajobu generála, který se bez zásob vzdal Xiongnuům. V pozdním Hanu byla kastrace znovu zrušena.",
       "terms": [],
@@ -275,12 +223,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "Doba rozdělení: proč právo dozrálo právě tehdy",
       "text": "Po konci Hanu roku 220 přišlo téměř ČTYŘI STOLETÍ POLITICKÉHO ROZDĚLENÍ — Tři království, Jin, šestnáct států na severu, čtyři krátké dynastie na jihu — až Sui roku 589 zemi znovu sjednotil. A Xu ukazuje, proč to bylo pro právo plodné: KAŽDÝ SOUPEŘÍCÍ STÁT ČI KRÁTKÁ DYNASTIE POKLÁDALA NOVÝ TRESTNÍ ZÁKONÍK ZA ZPŮSOB, JAK SYMBOLIZOVAT NOVOU A LEPŠÍ VLÁDU S MANDÁTEM NEBES. Výsledkem bylo, že čínské právo vstoupilo do FÁZE ZRÁNÍ. Zákoníky přitom vyjadřovaly VÍC NEŽ KDY DŘÍV konfuciánské starosti o patriarchální rodinu a absolutní moc císaře — a to navzdory (či právě kvůli) rostoucímu vlivu buddhismu a náboženského taoismu. Důvod je institucionální: ZÁKONODÁRCI V TĚCHTO STÁTECH, I V TĚCH ZALOŽENÝCH KOČOVNÍKY, BYLI KONFUCIÁNŠTÍ UČENCI, KTEŘÍ USNADŇOVALI SINIZACI KOČOVNÝCH NÁRODŮ. Nejdůležitější prací byl ZÁKONÍK WEI (220–265) s OSMNÁCTI KAPITOLAMI, který PŘESUNUL KAPITOLU O PRÁVNÍCH ZÁSADÁCH NA PRVNÍ MÍSTO — oproti hanskému Zákonu o devíti kapitolách, který zásady probíral v poslední. Zákoník JIN (266–316) měl DVACET KAPITOL A 1530 ČLÁNKŮ. K němu napsal soudní úředník ZHANG FEI PŘEDMLUVU, která vymezila pojmy: jak posoudit delikt jako úmyslný, neúmyslný či nedbalostní; co je podvod, napadení, nesynovský čin; jak rozlišit ZAHÁJENÍ ZLOČINU, SPIKNUTÍ K NĚMU A VEDENÍ SKUPINY PŘI JEHO SPÁCHÁNÍ; jak trestat pachatele více zločinů. To vytvořilo UŽITEČNÝ RÁMEC PRÁVNÍ TEORIE pro pozdější zákonodárce.",
       "terms": [],
@@ -302,23 +247,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "text_sha": null,
+    "12": {
       "title": "Osm úvah a deset ohavností",
       "text": "Dvě instituce, které od té doby patřily do každého velkého zákoníku. OSM ÚVAH (BAYI) vstoupilo poprvé do zákoníku WEI (220–265), ačkoli pojem je starší. Šlo o OSM KATEGORIÍ OSOB, U KTERÝCH SE PŘI ODSOUZENÍ MĚLA ZVAŽOVAT MÍRNOST: CÍSAŘOVI PŘÍBUZNÍ, CÍSAŘOVI PŘÁTELÉ, VYSOCE VÁŽENÍ LIDÉ, VYSOCE SCHOPNÍ LIDÉ, VYSOCE ZASLOUŽILÍ LIDÉ, VYSOCÍ ÚŘEDNÍCI, VYSOCE PILNÍ LIDÉ A CÍSAŘŠTÍ POTOMCI PŘEDCHOZÍCH DYNASTIÍ. Zvýhodňovalo to císařský rod a aristokracii, ale zároveň mírněji zacházelo s NADANÝMI, aby to sloužilo zájmu státu — přičemž jak se definovalo 'schopný', 'zasloužilý' a 'pilný', BYLO NA UVÁŽENÍ SOUDNÍCH ÚŘEDNÍKŮ. DESET OHAVNOSTÍ (SHI'E) se poprvé objevilo v zákoníku SEVERNÍHO QI: deset typů nejohavnějších zločinů, které si zasloužily nejpřísnější tresty a KTERÉ NEŠLO VYKOUPIT POKUTOU, ZMÍRNIT OSMI ÚVAHAMI ANI POKRÝT CÍSAŘSKOU AMNESTIÍ. Byly to: 1) POKUS O VZPOURU, 2) POKUS O POBUŘUJÍCÍ ČINY (ničení císařských chrámů, hrobek a paláce), 3) POKUS O ZRADU, 4) NESYNOVSKÉ ZLÉ ČINY (bití či vražda rodičů, prarodičů a dalších blízkých), 5) ZVRHLOST (vražda tří lidí z jedné rodiny, vražda rozčtvrcením, otrávením či černou magií), 6) TĚŽKÁ NEÚCTA (krádež či padělání císařských oděvů a předmětů, selhání ve službě císaři, urážka císaře), 7) NESYNOVSKÉ CHOVÁNÍ (žaloba či urážka rodičů, odnětí rodinného majetku, svatba v době smutku, nedodržení smutku, křivé ohlášení smrti rodičů), 8) NESVORNÉ CHOVÁNÍ (vražda či prodej starších příbuzných), 9) NESPRAVEDLIVÉ CHOVÁNÍ (zabití místních úředníků, učitelů či úředníků páté a vyšší hodnosti, nedodržení smutku za manžela), 10) INCEST. A výklad: DESET OHAVNOSTÍ BYLO ZŘEJMĚ NAVRŽENO PŘEDEVŠÍM K OCHRANĚ PATRIARCHÁLNÍ RODINY A POSTAVENÍ CÍSAŘE JAKO SYNA NEBES A RODIČE LIDU — a všimni si, že vzpoura proti císaři a bití rodičů stojí v jednom seznamu.",
       "terms": [
-        {
-          "term": "osm úvah (bayi)",
-          "def": "Osm kategorií osob, u nichž se zvažovala mírnost trestu — od císařových příbuzných a přátel po vysoce schopné a pilné lidi."
-        },
-        {
-          "term": "deset ohavností (shi'e)",
-          "def": "Deset nejtěžších zločinů, nevykupitelných pokutou, nezmírnitelných osmi úvahami ani amnestií — chrání císaře a patriarchální rodinu zároveň."
-        }
+        { "term": "osm úvah (bayi)", "def": "Osm kategorií osob, u nichž se zvažovala mírnost trestu — od císařových příbuzných a přátel po vysoce schopné a pilné lidi." },
+        { "term": "deset ohavností (shi'e)", "def": "Deset nejtěžších zločinů, nevykupitelných pokutou, nezmírnitelných osmi úvahami ani amnestií — chrání císaře a patriarchální rodinu zároveň." }
       ],
       "cards": [
         {
@@ -346,12 +282,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "text_sha": null,
+    "13": {
       "title": "Nových pět trestů a výkup úřadem",
       "text": "Během doby rozdělení se tresty proměnily OD STARÝCH PĚTI TRESTŮ TĚLESNÝCH MRZAČENÍ K NOVÝM PĚTI TRESTŮM: SMRT; VYHNANSTVÍ S VÝPRASKEM; TRESTNÍ PRÁCE S BIČOVÁNÍM ČI VÝPRASKEM; BIČOVÁNÍ; A VÝPRASK. Při polehčujících okolnostech se daly vykoupit POKUTOU — zákoník SEVERNÍHO ZHOU dokonce stanovil rodinám odsouzenců lhůty na obstarání peněz, OD PADESÁTI DNŮ U TRESTU SMRTI PO DESET DNŮ U VÝPRASKU, a 'VELMI CHUDÍ MOHOU POŽÁDAT O OSVOBOZENÍ OD PLATBY'. Zákoník SUI (589–617), z velké části podle Severního Qi, pak řád ZJEDNODUŠIL na DVANÁCT KNIH A PĚT SET ČLÁNKŮ, SNÍŽIL POČET DELIKTŮ TRESTANÝCH SMRTÍ, VYHNANSTVÍM A TRESTNÍ PRACÍ, a ZRUŠIL některé kruté tresty — ROZČTVRCENÍ, VYSTAVENÍ USEKNUTÉ HLAVY A ZOTROČENÍ RODINNÝCH PŘÍSLUŠNÍKŮ. Pět trestů dostalo přesnou podobu: SMRT (uškrcení nebo stětí); VYHNANSTVÍ (1000, 1500 nebo 2000 LI); TRESTNÍ PRÁCE (jeden až tři roky v pěti stupních); VÝPRASK (60 až 100 ran v pěti stupních), který nahradil bičování; a LEHKÝ VÝPRASK (10 až 50 ran v pěti stupních). A přišla novinka, která odhaluje celou povahu systému: VÝKUP TRESTU ÚŘADEM — úředníci sedmé a vyšší hodnosti odsouzení za delikt dostali SNÍŽENÍ O JEDEN STUPEŇ, páté a vyšší mohli odečíst DVA ROKY trestní práce, devátá až šestá JEDEN ROK. Xu z toho vyvozuje přímo: KONFUCIÁNSKÝ ŘÁD NESTÁL NA ZÁSADĚ ROVNOSTI, NÝBRŽ HIERARCHIE, A TRESTNÍ ZÁKONÍKY NA PŘEDSTAVĚ ROVNOSTI PŘED ZÁKONEM TAKÉ NE — LEGISTICKÝ PŘÍSTUP SHANG YANGA BYL ZTRACEN VE PROSPĚCH KONFUCIÁNSKÉHO POJETÍ HIERARCHIE. Hierarchie ale řezala i opačně: NA ÚŘEDNÍKY SE VZTAHOVALA VYŠŠÍ MĚŘÍTKA CHOVÁNÍ, protože některé články a zvláštní nařízení platily jen pro ně.",
       "terms": [],
@@ -373,12 +306,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "text_sha": null,
+    "14": {
       "title": "Tangský zákoník: vrchol a vzor",
       "text": "TANGSKÝ ZÁKONÍK S KOMENTÁŘI (TANGLÜ SHUYI) byl vydán roku 653 a je MEZNÍKEM ČÍNSKÝCH PRÁVNÍCH DĚJIN ze tří důvodů. ZA PRVÉ byl VYVRCHOLENÍM VŠEHO PŘEDCHOZÍHO ZÁKONODÁRSTVÍ od předcísařské doby, se zralostí a jasností pojmů, postavený na mravních a praktických úvahách více než tisíciletí. ZA DRUHÉ byl PRVNÍM ČÍNSKÝM TRESTNÍM ZÁKONÍKEM, KTERÝ SE DOCHOVAL CELÝ přes několik dynastií do moderní doby, a sloužil jako VZOR NÁSLEDUJÍCÍCH CÍSAŘSKÝCH ZÁKONÍKŮ. ZA TŘETÍ měl ŠIROKÝ VLIV NA PRÁVNÍ VÝVOJ V SOUSEDNÍCH ZEMÍCH — V JAPONSKU, KOREJI A VIETNAMU. Měl TŘICET KAPITOL A 502 ČLÁNKŮ a pokrýval dvanáct širokých okruhů: právní zásady (pět trestů, deset ohavností, osm úvah, výkup úřadem, dobrovolné přiznání, osvobození od trestů pro seniory, nezletilé a nemocné či postižené), císařská stráž a zákazy, správní předpisy, domácnost a manželství, veřejné stáje a sklady, nedovolené odvody, násilí a loupež, napadení a obvinění, podvod a padělání, různé články, zatčení a útěk, a rozsudek a vězení. Na naléhání císaře TAIZONGA se trest smrti pro bratry pachatele odsouzeného za zradu (kolektivní trest) změnil na VYHNANSTVÍ, což vedlo k širší revizi: TREST SMRTI U 92 DELIKTŮ PODLE ZÁKONÍKU SUI SE ZMĚNIL NA VYHNANSTVÍ A VYHNANSTVÍ U 71 DELIKTŮ NA TRESTNÍ PRÁCI.",
       "terms": [],
@@ -400,19 +330,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "text_sha": null,
+    "15": {
       "title": "Článek 48: čínský právní pluralismus",
       "text": "Tangský zákoník byl PRVNÍ, KTERÝ VÝSLOVNĚ ZAPSAL TO, ČEMU SE V ČÍNSKÝCH DĚJINÁCH ŘÍKÁ 'PRÁVNÍ PLURALISMUS'. ČLÁNEK 48: DOPUSTÍ-LI SE RŮZNÉ 'NECIVILIZOVANÉ NÁRODY' (HUAWAI REN, doslova lidé mimo čínskou civilizaci) DELIKTŮ UVNITŘ SVÝCH SKUPIN, POUŽIJÍ SE JEJICH OBYČEJOVÁ PRAVIDLA (SUFA); DOPUSTÍ-LI SE JICH MEZI SKUPINAMI, POUŽIJE SE PRÁVO DYNASTIE TANG (FALÜ). Komentář to upřesnil: 'necivilizované národy' jsou ty v necínských státech, které si zřídily vlastní vládce, každý s vlastními mravy, zvyky a zřízením; stalo-li se to uvnitř takového státu, řeší se to podle jeho zřízení a obyčejů — stalo-li se to MEZI DVĚMA NÁRODY, třeba KOGURJEM A PEKČE (dvěma korejskými státy, které tehdy spolu válčily), rozhoduje TANGSKÉ STÁTNÍ PRÁVO (GUOJIA FALÜ). Ten příklad je sám o sobě výmluvný: ODRÁŽÍ PŘEDSTAVU ČÍNSKÉHO SVRCHOVANÉHO POSTAVENÍ VŮČI KOREJSKÝM VLÁDCŮM. A příčina toho pluralismu je demografická: rozrůzněné obyvatelstvo pod tangským státem po staletích stěhování necínských národů do severní Číny a Číňanů na jih, a rostoucí počet cizinců pobývajících v Číně — TANGSKÝ STÁT PŘIZPŮSOBIL PRÁVO A SPRAVEDLNOST TÉ DEMOGRAFICKÉ SKUTEČNOSTI.",
       "terms": [
-        {
-          "term": "huawai ren",
-          "def": "'Lidé mimo čínskou civilizaci'. Podle čl. 48 tangského zákoníku se na jejich vnitroskupinové delikty užilo jejich obyčejové právo, na mezískupinové právo tangské."
-        }
+        { "term": "huawai ren", "def": "'Lidé mimo čínskou civilizaci'. Podle čl. 48 tangského zákoníku se na jejich vnitroskupinové delikty užilo jejich obyčejové právo, na mezískupinové právo tangské." }
       ],
       "cards": [
         {
@@ -424,12 +348,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "text_sha": null,
+    "16": {
       "title": "Song: zákoník, který se přestal používat",
       "text": "Songský zákoník vznikl do tří let od založení dynastie, obsahem podle tangského, ale s NOVÝM FORMÁTEM: struktura třiceti knih zůstala, ale k jednotlivým článkům se připojovaly KOMENTÁŘE (SHU), EDIKTY (GE), NAŘÍZENÍ (LING), ÚPRAVY (SHI) A POKYNY (CHI) k téže věci. A pak ten podstatný důsledek: SONG DÁL SESTAVOVAL PRÁVNÍ A SPRÁVNÍ POKYNY (CHI) A PRECEDENTY (LI) VZNIKAJÍCÍ V KAŽDODENNÍM VLÁDNUTÍ, TAKŽE ÚŘEDNÍCI ZAČALI ROZHODOVAT PODLE POKYNŮ A PRECEDENTŮ MÍSTO PODLE ZÁKONÍKU. Právo a trest v Songu navíc v několika ohledech USTOUPILY z dřívějšího trendu ke zmírňování: TETOVÁNÍ bylo obnoveno jako doplňkový trest (pro odsouzené k vyhnanství a trestní práci) a stejně tak ROZŘEZÁNÍ K SMRTI jako jedna z forem trestu smrti u těžkých zločinů. Za císaře SHENZONGA byl přijat ZÁKON O PŘÍSNÉM TRESTÁNÍ LOUPEŽE A VZPOURY (DAOZEI ZHONGFA): v kterékoli oblasti označené ústřední vládou za oblast s činnými lupiči a vzbouřenci se místo příslušných článků zákoníku užil TENTO ZVLÁŠTNÍ ZÁKON s přísnějšími tresty — odsouzenému k smrti se zabavil rodinný majetek na odměnu udavačům a jeho žena šla do vyhnanství na 1000 li. NAKONEC SE VELKÁ ČÁST ZEMĚ STALA OBLASTÍ, KDE PLATIL TEN ZVLÁŠTNÍ ZÁKON — což ukazuje na rozmach rolnických vzpour z bídy a zoufalství navzdory obecnému hospodářskému růstu, komercializaci a urbanizaci.",
       "terms": [],
@@ -451,19 +372,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "text_sha": null,
+    "17": {
       "title": "Jüan: etnická hierarchie a dva nezamýšlené odkazy",
       "text": "Mongolové vládli Číně JAKO DOBYTÉ ZEMI a neměli v úmyslu se s čínskou společností sžít. Proto na rozdíl od předchozích dynastií STÁLA JÜANSKÁ VLÁDA NA ETNICKÉ HIERARCHII MÍSTO NA SPOLEČENSKÉ: obyvatelstvo bylo rozděleno do čtyř řad — MONGOLOVÉ, SPOJENECKÉ KOČOVNÉ NÁRODY, SEVERNÍ ČÍŇANÉ, JIŽNÍ ČÍŇANÉ (dobytí poslední) — a ČÍŇANÉ BYLI ZA TÝŽ DELIKT TRESTÁNI PŘÍSNĚJI NEŽ MONGOLOVÉ. Jüanský zákoník z roku 1323 byl HYBRIDEM čínské tradice a mongolských praktik: dvacet knih a 2539 článků ve třech kategoriích — EDIKTY (ZHAOZHI), STATUTY (TIAOGE) A PRECEDENTY (DUANLI). Tresty byly poněkud LEHČÍ než dřív; trest smrti se vykonával STĚTÍM nebo u zrady ROZŘEZÁNÍM, a UŠKRCENÍ BYLO ZRUŠENO. Mingští učenci v Dějinách Jüanu poznamenali, že amnestie vydávaly všechny dynastie, ALE JEN V JÜANU BYLY AMNESTIE KVŮLI BUDDHISTICKÝM SVÁTKŮM (Mongolové přijali tibetský buddhismus). A dva nezamýšlené odkazy. PRVNÍ: roku 1315 Jüan obnovil ÚŘEDNICKÉ ZKOUŠKY a vydal zkrácené kurikulum podle ČTYŘ KNIH sestavených neokonfuciánem ZHU XIM — a to kurikulum se stalo jádrem zkoušek v Mingu i Qingu. DRUHÝ: roku 1314 bylo pět bratrů odsouzeno k smrti a císař RENZONG vzdychl: 'JE TO NEŠTĚSTÍ, ŽE SE TO STALO TÉHLE RODINĚ; VYBERTE JEDNOHO, KTERÝ BYL NEJMÉNĚ VINEN, POTRESTEJTE HO VÝPRASKEM A NECHTE HO ŽIVIT RODIČE, ABY RODINA NESKONČILA SVOU LINII.' Tím obnovil dávno ztracenou zásadu SEVERNÍHO WEI 'JEDEN JE UŠETŘEN SMRTI, ABY ŽIVIL RODIČE' (LIUCUN YANGQIN), která pak vstoupila do mingského a qingského zákoníku. A Xuův komentář: JE POUČNÉ, ŽE TU ZÁSADU NAVRHL NEJDŘÍV XIANBEJSKÝ A PAK JI OBNOVIL MONGOLSKÝ VLÁDCE — obojí NEČÍŇANÉ — než se ustavila v čínských zákonících.",
       "terms": [
-        {
-          "term": "liucun yangqin",
-          "def": "'Jeden je ušetřen smrti, aby živil rodiče' — zásada zachovávající rodovou linii; navržena Severním Wei, obnovena mongolským císařem Renzongem roku 1314."
-        }
+        { "term": "liucun yangqin", "def": "'Jeden je ušetřen smrti, aby živil rodiče' — zásada zachovávající rodovou linii; navržena Severním Wei, obnovena mongolským císařem Renzongem roku 1314." }
       ],
       "cards": [
         {
@@ -483,12 +398,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "text_sha": null,
+    "18": {
       "title": "Ming: sedm kategorií a vedlejší ustanovení",
       "text": "VELKÝ MINGSKÝ ZÁKONÍK vznikl roku 1374 a konečnou podobu dostal roku 1397 — předtím nechal ZHU YUANZHANG rok před vyhlášením císařem sepsat prozatímní zákoník s 285 články, opět jako symbol Mandátu Nebes nové dynastie. Byl z velké části podle tangského vzoru, ale s novinkami: TŘICET KNIH A 460 ČLÁNKŮ, uspořádaných do SEDMI KATEGORIÍ — ZÁSADY; ÚŘEDNICTVO; DOMÁCNOST (evidence obyvatel, pracovní služby, půda a dům, manželství, sklizeň a obilní daň, obchodní daň, peníze a dluhy, trh); RITUÁLY; VOJENSKÝ SYSTÉM (bezpečnost paláce, vojenská správa, přechody a přístaviště, stáje a pastva, předávání zpráv); TRESTY (loupež a krádež, vražda, napadení, urážky, soudní řízení, úplatky, podvod, nedovolený sex, různé delikty, dopadení uprchlíků, rozhodování); a VEŘEJNÉ PRÁCE (stavby a vodní díla). Mingský zákoník tak udělal DALŠÍ KROK V RACIONALIZACI A SYSTEMATIZACI právních kategorií. Roku 1500 byla sestavena VEDLEJŠÍ USTANOVENÍ K ROZHODOVÁNÍ (WENXING TIAOLI) — sbírka, která články zákoníku doplňovala nebo měnila a dávala vodítko pro okolnosti, které zákoník nevyjmenoval; vyšla nejdřív samostatně a později se ustanovení připojila k příslušným článkům. A ZASE TOTÉŽ: ÚŘEDNÍCI ROZHODOVALI SPÍŠ PODLE VEDLEJŠÍCH USTANOVENÍ NEŽ PODLE ČLÁNKŮ ZÁKONÍKU. K etnickým menšinám: zákoník říkal, že se právo užije JEDNOTNĚ i na necínské (huawai ren), ALE vedlejší ustanovení z roku 1436 pro domorodce v provincii GUIZHOU zmírňovalo tresty — trest smrti na doživotní trestní práci, vyhnanství či trestní práci s výpraskem na pouhou trestní práci, výprask na deset měsíců práce a lehký výprask na pět — ZŘEJMĚ PROTO, ŽE MENŠINY NEBYLY ASIMILOVÁNY DO ČÍNSKÉ KULTURY A NEZNALY ČÍNSKÉ PRÁVO.",
       "terms": [],
@@ -510,12 +422,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "text_sha": null,
+    "19": {
       "title": "Qing: vyvrcholení a mnohonárodní říše",
       "text": "Mandžuové na rozdíl od Mongolů ZAMÝŠLELI SE S ČÍNSKOU SPOLEČNOSTÍ A KULTUROU PLNĚ SŽÍT, aby mohli účinně vládnout — při zachování vlastní mandžuské identity praktikami jako NEUZAVÍRÁNÍ SŇATKŮ S CHAN-ČÍŇANY A ZÁKAZ SVAZOVÁNÍ NOHOU MANDŽUSKÝM ŽENÁM. Císař QIANLONG napsal roku 1740 předmluvu k zákoníku, kde odvodil počátky zákonodárství od mudrc-králů z Klasiku knih: 'MOJI CÍSAŘŠTÍ PŘEDKOVÉ OBDRŽELI JASNÝ MANDÁT NEBES, ABY UKLIDNILI A SPRAVOVALI VŠECHNY ZEMĚ, A VYDALI VELKÝ QINGSKÝ ZÁKONÍK A VEDLEJŠÍ USTANOVENÍ, ABY BLAHOVOLNOST, VZDĚLÁNÍ, SPRAVEDLNOST A NÁPRAVA BYLY NA SVÝCH NÁLEŽITÝCH MÍSTECH.' První verze podle mingského vzoru vznikla roku 1646, revize 1727, konečná podoba 1740: TŘICET KNIH, TÝCHŽ SEDM KATEGORIÍ, 436 ČLÁNKŮ (o 24 méně než Ming). Počet VEDLEJŠÍCH USTANOVENÍ ale stále rostl: DO ROKU 1727 NA 824, DO ROKU 1740 NA PŘES 1400 A DO ROKU 1870 NA 1892. Vedle zákoníku sestavil Trestní úřad SBÍRKY PŘÍPADŮ: nejvlivnější byl PŘEHLED TRESTNÍCH PŘÍPADŮ (XING'AN HUILAN) s přes 5600 případy z let 1736–1834 (plus přes 300 z let 1842–1885); dále SBÍRKA NAPRAVENÝCH PŘÍPADŮ s 379 případy, které císaři osobně přezkoumali; a SBÍRKA PŘÍPADŮ PŘITĚŽOVÁNÍ A ZMÍRŇOVÁNÍ PODLE ANALOGIE s 2992 případy z roku 1843. Ty sbírky SLOUŽILY JAKO PRÁVNÍ VÝKLADY A PRECEDENTY a při rozhodování se jich skutečně užívalo. K tomu přistupovala NAŘÍZENÍ VYDÁVANÁ PROVINČNÍMI ÚŘADY A SCHVÁLENÁ ÚSTŘEDNÍ VLÁDOU — výsledek vyjednávání mezi Trestním úřadem a císařem na jedné straně a provinčními guvernéry na druhé o tom, jak právo lépe použít na poměry, které zákoník nepokryl.",
       "terms": [],
@@ -537,19 +446,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "text_sha": null,
+    "20": {
       "title": "Qingský právní pluralismus mnohonárodní říše",
       "text": "Mandžuové Čínu DĚJINNĚ VÝZNAMNĚ PŘEPOJMENOVALI JAKO MNOHONÁRODNÍ ÚTVAR MÍSTO ČISTĚ ČÍNSKÉHO. Do svého území začlenili to, co předchozí dynastie pokládaly za pohraniční oblasti sporné s kočovníky — MANDŽUSKO, MONGOLSKO, SIN-ŤIANG A TIBET — plus ostrov TAJWAN, a tím vymezili, co se od té doby pokládá za Čínu v moderní době. Ke správě těch oblastí zřídili ÚŘAD PRO ZÁLEŽITOSTI ZÁVISLÝCH ÚZEMÍ (LIFAN YUAN) a praktikovali PRÁVNÍ PLURALISMUS: podle zákoníku se právo pořád užilo na necínské (huawai ren), ale ti spravovaní tímhle úřadem se řídili MONGOLSKÝMI STATUTY (MENGGU LI). Existovala i další lokalizovaná práva: v SIN-ŤIANGU se užívaly ČÍNSKO-MUSLIMSKÉ OBLASTNÍ STATUTY (HUIJIANG ZELI) i statuty samotného úřadu. TRESTNÍ PŘÍPADY MEZI MONGOLY, TIBEŤANY, UJGURY, KAZACHY A DALŠÍMI SE ROZHODOVALY PODLE JEJICH VLASTNÍCH DOMORODÝCH PRÁV A OBČANSKÉ SPORY PODLE MÍSTNÍCH OBYČEJŮ — mezi prameny patřilo i ISLÁMSKÉ PRÁVO a etnické tradice. Mandžuští vojáci, takzvaní PRAPORNÍCI, oddělení od čínských jednotek, podléhali ZVLÁŠTNÍMU TRESTNÍMU ZÁKONÍKU. A byly tu výjimky v podobě zvláštních vedlejších ustanovení pro pohraniční oblasti nebo pro metropolitní oblasti Pekingu a Šen-jangu — buď aby tresty byly PŘÍSNĚJŠÍ (v Pekingu a Šen-jangu), nebo aby řízení a tresty byly PRUŽNĚJŠÍ (v pohraničí). Rozdíl proti Mingu je v měřítku a v úhlu pohledu: QINGSKÁ POLITIKA SE PROVÁDĚLA V MNOHEM VĚTŠÍM MĚŘÍTKU A Z PERSPEKTIVY MNOHONÁRODNÍ ŘÍŠE.",
       "terms": [
-        {
-          "term": "Lifan yuan",
-          "def": "Qingský Úřad pro záležitosti závislých území, spravující Mongolsko, Sin-ťiang a Tibet podle vlastních statutů a domorodých práv."
-        }
+        { "term": "Lifan yuan", "def": "Qingský Úřad pro záležitosti závislých území, spravující Mongolsko, Sin-ťiang a Tibet podle vlastních statutů a domorodých práv." }
       ],
       "cards": [
         {
@@ -569,19 +472,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "text_sha": null,
+    "21": {
       "title": "Kruté a neobvyklé tresty",
       "text": "Od Sui po Qing, s výjimkou Jüanu, uváděly všechny zákoníky DVĚ ŘÁDNÉ FORMY TRESTU SMRTI: UŠKRCENÍ A STĚTÍ. Obojí končí smrtí, ale UŠKRCENÍ SE POKLÁDALO ZA LEHČÍ TREST, PROTOŽE NECHÁVALO TĚLO ODSOUZENÉHO CELÉ, kdežto stětí oddělilo hlavu — odtud jejich rozdílný symbolický dosah pro posmrtný život. Tatáž logika vysvětluje ZHANOBENÍ MRTVOLY (LUSHI) i ROZŘEZÁNÍ (LINGCHI). Většina poprav se pro NÁZORNÝ ÚČINEK NA VEŘEJNOST A ZAHANBUJÍCÍ ÚČINEK NA VINNÉHO konala veřejně, obvykle na trzích či křižovatkách hlavních ulic — a proto se nařízení, aby si někdo (císařský příbuzný či vysoký úředník) VZAL ŽIVOT DOMA, pokládalo za MILOSRDNOU PŘÍZEŇ. LINGCHI, na Západě 'smrt tisícem řezů', bylo ve skutečnosti ROZČTVRCENÍ TĚLA POTÉ, CO BYL ČLOVĚK USMRCEN TŘETÍM ŘEZEM. Xu cituje: 'PŘINEJMENŠÍM JAK SE PROVÁDĚLO V POZDNÍM QINGU, NEBYLO LINGCHI POMALOU SMRTÍ, ANI NENECHÁVALO OBĚŤ PRODLÉVAT NA PRAHU SMRTI, ANI NEZAHRNOVALO TISÍC ŘEZŮ. BYLA TO METODICKÁ A POMĚRNĚ RYCHLÁ TECHNIKA USMRCENÍ.' Vzniklo ve státě Liao a v Songu jako AD HOC VÝJIMEČNÝ trest, pak se formalizovalo, ale jeho legitimitu někteří úředníci cestou zpochybňovali. Qingský zákoník uváděl SEDMNÁCT deliktů trestaných lingchi.",
       "terms": [
-        {
-          "term": "lingchi",
-          "def": "Rozřezání: rozčtvrcení těla poté, co byl člověk usmrcen třetím řezem. Ne pomalá smrt tisícem řezů, jak se na Západě věří."
-        }
+        { "term": "lingchi", "def": "Rozřezání: rozčtvrcení těla poté, co byl člověk usmrcen třetím řezem. Ne pomalá smrt tisícem řezů, jak se na Západě věří." }
       ],
       "cards": [
         {
@@ -601,12 +498,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 22,
-      "text_sha": null,
+    "22": {
       "title": "Případ Zhanga (1788): spravedlnost jako rovnováha",
       "text": "Roku 1788 usekl nájemný rolník ZHANG v provincii Che-nan po hořkém sporu se sousedem TŘI SOUSEDOVY SYNY a čtvrtého těžce zraněného nechal za mrtvého. Guvernér ho odsoudil ke smrti lingchi a jeho ženu a dva malé syny k vyhnanství do pohraničí jako otroky. Při přezkumu ale císař QIANLONG mínil, že ZHANGOVI DVA SYNOVÉ MAJÍ BÝT VYKASTROVÁNI. Jeho úvaha: ZHANG ZABIL SOUSEDOVI TŘI SYNY A ČTVRTÝ, JEŠTĚ BOJUJÍCÍ O ŽIVOT, MŮŽE TAKÉ ZEMŘÍT; TAK OHAVNÉ ČINY PŘETNUTÍ NĚČÍ RODOVÉ LINIE NELZE PŘIMĚŘENĚ POTRESTAT, ANIŽ SE PŘETNE I RODOVÁ LINIE VRAHA. Nařídil, aby takový trest pro děti takových vrahů byl VEDLEJŠÍM USTANOVENÍM následovaným v podobných případech. Xu to vykládá takto: QIANLONGOVA ÚVAHA UKAZUJE SMYSL PRO SPRAVEDLNOST, KTERÝ SI CENIL RODOVÉ LINIE A STÁL NA PŘEDSTAVĚ, ŽE SE ZLOČINU ČELÍ PADNOUCÍM TRESTEM, ABY SE OBNOVILA ROVNOVÁHA JIN A JANG. ALE NEBYL TO NÁZOR VŠEOBECNÝ: kritika lingchi od některých úředníků zněla přesně tak, že STÁT BY NEMĚL TRESTAT PACHATELE TÍM, ŽE SPÁCHÁ TÝŽ ČIN — tedy že se stavěli proti 'OKU ZA OKO' a 'ZRCADLOVÝM TRESTŮM'.",
       "terms": [],
@@ -628,12 +522,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "text_sha": null,
+    "23": {
       "title": "Kolektivní trest, kang a tetování",
       "text": "Od předcísařského státu Čchin za Shang Yanga byl jedním z krutých trestů POPRAVIT DOSPĚLÉ MUŽSKÉ PŘÍBUZNÉ A ZOTROČIT DOSPĚLÉ ŽENSKÉ A NEZLETILÉ PŘÍBUZNÉ pachatele. Tenhle kolektivní trest stál na představě PRVOŘADÉ DŮLEŽITOSTI RODOVÉ LINIE A KOLEKTIVNÍ ODPOVĚDNOSTI ZA JEDNÁNÍ JEDNOTLIVCE. V raných dynastiích šlo o TŘI VĚTVE (a až pět, sedm, devět); jak se počítaly, se později přeli, ale obecně se soudilo, že 'tři větve' jsou příbuzní OTCE, MATKY A ŽENY pachatele. Kolektivní trest se v císařské éře objevoval JEN OBČAS, typicky když se císař cítil uražen spiknutím či svou paranoiou z něj, nebo úředníkem kritizujícím jeho politiku — MING BYL POSLEDNÍ DYNASTIÍ, KDE K TOMU DOŠLO. Až do Qingu ale trestání ohavných zločinů pořád zahrnovalo VYHNANSTVÍ RODINNÝCH PŘÍSLUŠNÍKŮ DO POHRANIČÍ JAKO STÁTNÍCH OTROKŮ. Dva doplňkové tresty: NOŠENÍ KANGU (dřevěné desky, do níž byl zamčen krk a ruce) NA VEŘEJNOSTI, u brány okresního úřadu, po určenou dobu; a TETOVÁNÍ ZNAKŮ 'VYHNANSTVÍ' NA TVÁŘ nebo 'LOUPEŽ' ČI 'KRÁDEŽ' NA PRAVÉ PŘEDLOKTÍ. Sloužily dvojímu: dávaly VÍC STUPŇŮ TRESTU, aby lépe padly na delikty za různých okolností, a byly formou VEŘEJNÉHO ZAHANBENÍ s názorným účinkem, který stát bral vážně. Jak vážně, ukazuje jedno ustanovení: PODLE QINGSKÉHO ZÁKONÍKU BYLO ODSTRANĚNÍ TETOVÁNÍ BÝVALÝM ODSOUZENCEM BEZ POVOLENÍ SAMOSTATNÝM DELIKTEM TRESTANÝM ŠEDESÁTI RANAMI A ZNOVUVYTETOVÁNÍM.",
       "terms": [],
@@ -655,12 +546,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "text_sha": null,
+    "24": {
       "title": "Tři body, které mají zůstat",
       "text": "Autorovo shrnutí, a je to nejlepší jediná odpověď na zkouškovou otázku o čínském trestním právu. ZA PRVÉ: představy MANDÁTU NEBES A INTERAKCE NEBES A LIDÍ utvářely pojetí politicko-společensko-mravního řádu tak, že STÁLO NA CÍSAŘSKÉM SYSTÉMU A PATRIARCHÁLNÍ RODINĚ — a spravedlnost měla TŘI FUNKCE: TRESTAT ODCHYLKY OD TOHO ŘÁDU, ŘÁDNĚ NAPLNIT NEBESKÝ ROZUM A UPRAVIT LIDSKÉ VZTAHY, A OBNOVIT ROVNOVÁHU JIN A JANG. ZA DRUHÉ: během dvou tisíciletí rostly čínské trestní zákoníky do čím dál větší propracovanosti a úplnosti; NEJPOZDĚJI OD TANGU V 7. STOLETÍ POKRÝVAL ZÁKONÍK VŠECHNY STRÁNKY ŘÁDU, VČETNĚ SPRÁVNÍCH, OBČANSKÝCH I TRESTNÍCH VĚCÍ. ZA TŘETÍ: řádné tresty se posunuly OD TĚLESNÝCH MRZAČENÍ K RACIONÁLNĚJŠÍM A HUMÁNNĚJŠÍM FORMÁM, i když některé kruté a neobvyklé tresty zůstaly a výprask jako tělesná bolest se u menších deliktů dál užíval. Tresty se daly vykoupit POKUTAMI u starých či postižených pachatelů nebo při amnestii. A jedna věta, kterou je snadné přehlédnout a která je právněhistoricky nejzajímavější: VĚZNĚNÍ SE JAKO TREST NECHÁPALO.",
       "terms": [],
@@ -682,8 +570,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

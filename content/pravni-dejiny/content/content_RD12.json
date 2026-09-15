@@ -1,21 +1,8 @@
 {
   "lecture_id": "RD12",
-  "kind": "reading",
-  "course": "RD",
-  "course_title": "Required reading",
-  "course_number": "030362",
-  "unit": "Téma 18–19",
   "title": "Stolleis, Evropská diktatura 20. století a právo",
-  "source_file": "raw/RD12_12-stolleis-european-twentieth-century-dictatorship-and-the-.pdf",
-  "source_sha256": "6492038a2e0de5a3564c3666b15be0b407577e3c97a4e67f620d0ccb93c359c8",
-  "source_pages": 23,
-  "slides_per_page": 1,
-  "slide_count": 23,
-  "updated_at": "2026-09-15T13:07:00+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "text_sha": null,
+  "slides": {
+    "1": {
       "title": "Kolik bylo loučení s 19. stoletím",
       "text": "Říkáme, že 19. století skončilo vypuknutím války v srpnu 1914 — a ten předěl měl skutečně světodějný význam. Ale Stolleis hned dodává: VE SKUTEČNOSTI BYLO LOUČENÍ S 19. STOLETÍM VÍCERO A KAŽDÉ MÁ JINÉ DATUM. Desetiletí před 1914 vytlačila zbytky aristokratického a církevního ancien régime POLITICKY A HOSPODÁŘSKY MNOHEM SILNĚJŠÍ MĚŠŤANSKÁ SPOLEČNOST — a ta se zase bála vzestupu 'ČTVRTÉHO STAVU'. PRŮMYSLOVÁ REVOLUCE, začatá už v 18. století, teď zcela ovládla politiku i společnost; v té souvislosti vyvstala SOCIÁLNÍ OTÁZKA a mezinárodní dělnické hnutí, vzniklo SOCIÁLNÍ POJIŠTĚNÍ a HOSPODÁŘSKÝ LIBERALISMUS USTOUPIL INTERVENČNÍMU STÁTU. Všude vznikaly strany a spolky, nastoupil vývoj k modernímu parlamentarismu — zkrátka ZAČAL 'VĚK MAS'. Atmosféra fin de siècle byla čím dál hektičtější; lesk a temnota 'velkoměsta' fascinovaly, ale zároveň vyvolávaly SENTIMENTÁLNÍ TOUHU UTÉCT Z MĚST K PROSTÉMU VENKOVSKÉMU ŽIVOTU, a vznikaly rozličné venkovské komuny, spasitelská hnutí a sekty HLEDAJÍCÍ 'SMYSL' A OSVOBOZENÍ OD TLAKŮ MODERNITY.",
       "terms": [],
@@ -29,12 +16,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "text_sha": null,
+    "2": {
       "title": "Strach po válce a proč liberalismus ztratil věrohodnost",
       "text": "Po zkušenosti sebezničující evropské války — nové techniky opotřebovávací války, MASOVÉ ZABÍJENÍ V ZÁKOPECH, NASAZENÍ BOJOVÉHO PLYNU, PONORKY — se 19. století zdálo ležet v troskách. VYROVNANÉ 'LAISSEZ-FAIRE, LAISSEZ-ALLER' UŽ NEPŘESVĚDČOVALO. LIBERALISMUS ZTRATIL VĚROHODNOST. Ohroženy byly i struktury, které umožňovaly kompromis mezi měšťanstvem a konstituční monarchií — dosavadní ústavní model, monarchie, parlamentarismus — a tradiční pojem státu oslabily revoluce let 1917–1919. A přesto: STARÉ NÁRODNÍ STÁTY MUSELY PO VÁLCE PŘEVZÍT KRIZOVÉ ŘÍZENÍ, A TO NA ZÁKLADĚ STARÝCH STRAN A STARÉHO PARLAMENTNÍHO A ÚSTAVNÍHO MODELU. Rozpad zdánlivě spořádaného světa vyvolal STRACH, a Stolleis ho rozepisuje po vrstvách: ARISTOKRACIE ztratila poslední výsady; MĚŠŤANSTVO se děsilo ztráty ústřední role a bálo se, že bolševismus vypukne jako v Rusku; NIŽŠÍ STŘEDNÍ VRSTVA se cítila vytlačena komunismem na jedné a velkým byznysem na druhé straně; tradiční hodnoty rodiny, domova a přírody se zdály ohroženy; a VOJÁCI VRACEJÍCÍ SE Z FRONTY BYLI VYKOŘENĚNI A TOUŽILI PO SPOLEČENSTVÍ, AUTORITĚ A VŮDCOVSTVÍ, KTERÉ NAŠLI BUĎ V PRAVICOVÝCH, NEBO V LEVICOVÝCH SKUPINÁCH. Po 'obyčejné' válce následovaly občanské války a vzpoury, zatímco Lenin hlásal blízkou světovou revoluci. A PAŘÍŽSKÉ SMLOUVY BYLY PRO NĚMECKO, RAKOUSKO A UHERSKO PONIŽUJÍCÍ: PŘIDĚLENÍM VINY OTRÁVILY POVÁLEČNOU ATMOSFÉRU. Itálie nedostala, co jí slíbila tajná londýnská smlouva z roku 1915 — a D'ANNUNZIOVA divadelní vláda ve FIUME a MUSSOLINIHO vzestup v MILÁNĚ přivedly na svět POLOSOCIALISTICKÝ, NACIONÁLNĚ-MILITARISTICKÝ, AUTORITÁŘSKÝ FAŠISMUS. Po POCHODU NA ŘÍM v říjnu 1922 — který o rok později inspiroval Hitlera a Ludendorffa v Mnichově — byl italský měšťanský stát s parlamentní demokracií a vládou práva zrušen.",
       "terms": [],
@@ -56,12 +40,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "Mapa antiliberálních hnutí",
       "text": "Po celé Evropě získávala politický význam ANTILIBERÁLNÍ A AUTORITÁŘSKÁ HNUTÍ. NĚKTERÁ VYRŮSTALA ZE STARÝCH KONZERVATIVNÍCH STRAN, které konstituční monarchie kritizovaly zprava; JINÁ VZEŠLA Z NOVÝCH SOCIÁLNĚ REVOLUČNÍCH HNUTÍ. Ve FRANCII 'ACTION FRANÇAISE' vedená politiky Pujem, Gressentem-Valoisem a Bucardem, ale i intelektuály jako CHARLES MAURRAS a LÉON DAUDET. Ve ŠPANĚLSKU vztyčil v letech 1923–1930 diktaturu MIGUEL PRIMO DE RIVERA a od roku 1933 vytvořil jeho syn JOSÉ ANTONIO 'FALANGE ESPAÑOLA', z níž po občanské válce vzešla vláda 'CAUDILLA' FRANCISKA FRANKA. V RAKOUSKU vznikly HEIMWEHREN, polovojenské skupiny usilující o KŘESŤANSKO-SOCIÁLNÍ STAVOVSKÝ STÁT, které stykem s Itálií přejaly fašistické rysy. A důkaz nakažlivosti: DOKONCE I V ANGLII, TRADIČNÍ ZEMI PARLAMENTNÍ DEMOKRACIE, založil roku 1932 SIR OSWALD MOSLEY 'BRITSKOU UNII FAŠISTŮ' — zůstala sice bezvýznamná, ale její existence ukázala, ŽE FAŠISTICKÉ MYŠLENÍ BYLO VYSOCE NAKAŽLIVÉ.",
       "terms": [],
@@ -75,12 +56,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Paralely pravicových a levicových diktatur",
       "text": "Po rozpadu Sovětského svazu a satelitů kolem let 1989–1990 se historický pohled vyjasnil: DNES SE OBECNĚ UZNÁVÁ, ŽE TEORIE TOTALITARISMU, VYVINUTÉ ZA STUDENÉ VÁLKY, NEBYLY VEDLE, KDYŽ UPOZORŇOVALY NA ZŘETELNÉ PARALELY MEZI PRAVICOVÝMI A LEVICOVÝMI DIKTATURAMI. Oba typy režimů měly zčásti SPOLEČNÉ IDEOVÉ PŮVODY I ANTIPATIE; spoléhaly na PODOBNÉ SYSTÉMY STÁTNÍ PROPAGANDY, ŠPIONŮ A TAJNÉ STÁTNÍ POLICIE; oba zřídily PRACOVNÍ A VYHLAZOVACÍ TÁBORY; a jsou doloženy rozmanité KONTAKTY A MLČENLIVÉ DOHODY mezi systémy. A nejvýmluvnější doklad: MNOHÉ ŽIVOTOPISY UKAZUJÍ, ŽE PŘECHOD OD LEVICOVÉHO K PRAVICOVÉMU AUTORITÁŘSKÉMU MYŠLENÍ BYL ČASTO MNOHEM SNAZŠÍ NEŽ PŘECHOD OD LIBERÁLNÍHO K ANTILIBERÁLNÍMU. Celkově: na jedné straně přineslo loučení s 19. stoletím KONEC KONSTITUČNÍCH MONARCHIÍ A PŘECHOD K ROVNOSTÁŘSKÝM PARLAMENTNÍM DEMOKRACIÍM; na druhé straně vytvořily průmyslová revoluce a sociální hnutí ZCELA NOVÉ PROBLÉMY A OBAVY, A TÍM I NOVÉ PODOBY ANTIDEMOKRATICKÉHO MYŠLENÍ. Ty ideologie živily touhy po 'VOLKSGEMEINSCHAFT', tradičních způsobech života, CHARIZMATICKÉM VŮDCOVSTVÍ, 'JEDNOTĚ' a boji proti mezinárodním rysům dělnického hnutí a finančního kapitálu — a poháněla je propaganda proti MENŠINÁM, KORUPCI, CIZÍ NADVLÁDĚ A 'ZRÁDCŮM' všeho druhu. TAKOVÝ POHLED NA SVĚT AUTOMATICKY ZNAMENAL BOJ PROTI UNIVERZÁLNÍM HODNOTÁM A ZÁVAZKŮM, PROTI SPOLEČNOSTI NÁRODŮ A PŘESTAVBĚ EVROPY PO ROCE 1918.",
       "terms": [],
@@ -102,19 +80,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Co pravicové režimy dělaly s právem",
       "text": "Jednotlivé pravicové režimy tvořily své právní řády podle svých ideologických přesvědčení. Aby přeorganizovaly práci podle 'OBECNÉHO DOBRA', OMEZOVALY ZPRAVIDLA SMLUVNÍ SVOBODU A SVOBODU SDRUŽOVÁNÍ VE PROSPĚCH VLASTNÍKŮ KAPITÁLU — a sahaly přitom po KORPORATIVNÍCH, KORPORATISTICKÝCH ČI SYNDIKALISTICKÝCH modelech. Zemědělské země měnily POZEMKOVÉ PRÁVO. RODINNÉ PRÁVO obvykle sledovalo ideál tradiční rodiny, POKUD HO NENAHRADILY RASISTICKÉ PŘEDSTAVY 'VÝBĚROVÉHO CHOVU'. Přímou kázeň nad lidmi vykonávaly nástroje POLICEJNÍHO A TRESTNÍHO PRÁVA, které se zostřovalo a doplňovalo o nové skutkové podstaty. A tady je ta obecná formulka, kterou je nejlepší si zapamatovat: TRESTÁNÍ 'ČINU', ÚZCE VYMEZENÉ VE STÁTĚ POD VLÁDOU PRÁVA, MĚLO TENDENCI USTOUPIT TRESTÁNÍ 'PACHATELE', BEZ OHLEDU NA ZÁKAZ RETROAKTIVITY (RÜCKWIRKUNGSVERBOT) A ZÁKAZ ANALOGIE (ANALOGIEVERBOT). A v mnoha případech režimy vytvořily TEMNÉ OBLASTI BEZPRÁVÍ vyznačené svévolným zatýkáním, mučením a popravami.",
       "terms": [
-        {
-          "term": "trestání pachatele místo činu",
-          "def": "Obecný rys pravicových režimů: úzce vymezený 'čin' ustupuje trestání 'pachatele', s prolomením zákazu retroaktivity a zákazu analogie."
-        }
+        { "term": "trestání pachatele místo činu", "def": "Obecný rys pravicových režimů: úzce vymezený 'čin' ustupuje trestání 'pachatele', s prolomením zákazu retroaktivity a zákazu analogie." }
       ],
       "cards": [
         {
@@ -134,12 +106,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Proč právě nacistické právo — a jediný závěr, který se z něj dá vyvodit",
       "text": "Volba nacistického Německa je dvojnásobně odůvodněná: SVĚTODĚJNÝM DOPADEM REŽIMU, který všechny ostatní fašistické systémy předčil rozsahem a ničivými následky — a tím, že PRÁVNÍ ŘÁD LET 1933–1945 JE PARADIGMATICKÝ. Rozborem toho dobře prozkoumaného řádu SE DÁ STUDOVAT, JAK REŽIMY FUNGUJÍ PŘI PŘECHODU OD DEMOKRATICKO-ÚSTAVNÍCH K AUTORITÁŘSKÝM A NAKONEC K TOTALITNÍM PODOBÁM — a zvlášť JAK SE LIBERÁLNÍ A DEMOKRATICKÉ ELITY SPRÁVY A SOUDNICTVÍ S NOVÝM REŽIMEM SROVNAJÍ. Stolleis přitom metodicky varuje před maximou 'HISTORIA DOCET', protože ZE SKUTKOVÝCH ZJIŠTĚNÍ NELZE VYVODIT NORMATIVNÍ DŮSLEDKY. A přesto jeden závěr z toho panoramatu vyvodit lze, a je to nejdůležitější věta celého článku: ANTIDEMOKRATICKÁ 'HNUTÍ' ČI VLÁDY, KTERÉ ÚTOČÍ NA UNIVERZALITU LIDSKÝCH A OBČANSKÝCH PRÁV, KTERÉ BRÁNÍ SVOBODNÉ KOMUNIKACI A NAHRAZUJÍ JI PROPAGANDOU, KTERÉ SE ZMOCŇUJÍ SOUDNICTVÍ A SNAŽÍ SE KRIMINALIZOVAT SVÉ POLITICKÉ ODPŮRCE, MUSEJÍ BÝT ROZPOZNÁNY A POLITICKY POTÍRÁNY CO NEJDŘÍV — ovšem za předpokladu, že pokládáme demokracii, lidská práva, občanská práva a vládu práva za hodné obrany.",
       "terms": [],
@@ -161,12 +130,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Tři významy 'nacistického práva'",
       "text": "O nacistickém právu se dá mluvit VE TŘECH SMYSLECH. ÚZCE vymezeno znamená VŠECHNY ZÁKONY IDEOLOGICKY UTVÁŘENÉ — rasové zákony, dědické právo k půdě, manželské právo, zbavení státního občanství. ŠÍŘE znamená VEŠKERÉ ZÁKONNÉ PRÁVO A JUDIKATURU NOVĚ VYTVOŘENOU MEZI LETY 1933 A 1945. A V NEJŠIRŠÍM SMYSLU CELÝ PRÁVNÍ ŘÁD, KTERÝ SE ZA NACISMU UŽÍVAL, PROVOZOVAL A VYUČOVAL (SDĚLOVAL). To rozlišení nebylo jen akademické: záleželo na něm u spojeneckých předpisů k 'OSVOBOZENÍ NĚMECKÉHO LIDU OD NACISMU A MILITARISMU', u denacifikace i u problému, že ZÁKONY A STÁTNÍ SMLOUVY ZŮSTALY V PLATNOSTI, NEŽ SE POPRVÉ SEŠEL BUNDESTAG (čl. 123 Základního zákona). Záleželo na něm i pro soudnictví — jednak kvůli trvající platnosti norem a právních vztahů z té doby, jednak kvůli soudním rozhodnutím, KTERÁ NEŠLO PROHLÁSIT ZA NEPLATNÁ A PRIORI. A odráží i KROKY POSTUPNÉHO ZKOUMÁNÍ NACISTICKÉ MINULOSTI: napřed se badatelé soustředili na bezpráví a utrpení a na normy odporující 'ZÁKLADNÍM ZÁSADÁM SPRAVEDLNOSTI'; pak se pole rozšířilo o zákonodárnou, správní a soudní praxi a o samotnou právní vědu nacismu — což bylo nutné, ABY SE POCHOPILA KOMUNIKAČNÍ SÍŤ VŠECH AKTÉRŮ SYSTÉMU.",
       "terms": [],
@@ -180,12 +146,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "Dvě období vyrovnávání a legenda o pozitivismu",
       "text": "PRVNÍ OBDOBÍ ovládly zážitkové zprávy, zděšení, bezradnost a přihlášení se k demokracii a přirozenému právu; otázky 'jak se to mohlo stát?', 'čí to byla vina?' a 'co dál?' se kladly MÉNĚ KVŮLI POKROKU POZNÁNÍ NEŽ JAKO SOUČÁST POLITICKÉHO PROGRAMU. Typická byla RENESANCE PŘIROZENÉHO PRÁVA a filosofie hodnot — a stejně jako po roce 1933 se GENERÁLNÍ KLAUZULE a vágní právní pojmy viděly jako MÍSTA, KUDY DO SYSTÉMU PRONIKAJÍ HODNOTY, teď ovšem hodnoty demokratické ústavy. Do tohoto období patří NORIMBERSKÉ PROCESY i tisíce německých řízení o nacistickém násilí; SKONČILO KOLEM ROKU 1952 — na Západě to zastavila studená válka a 'hospodářský zázrak', na Východě sebedefinice jako zásadně 'ANTIFAŠISTICKÉ'. Otevřené i skryté amnestie pro menší pachatele šly ruku v ruce s OBECNOU STRATEGIÍ OČIŠŤOVÁNÍ CELÉHO PERSONÁLU SOUDNICTVÍ A SPRÁVY; totéž platilo pro právní vědce, kteří své práce po roce 1933 buď zapírali, nebo bagatelizovali. A tady je ta legenda, kterou je třeba umět pojmenovat: PANOVALO OBECNÉ PŘESVĚDČENÍ, ŽE PRÁVNÍCI BYLI NAKONEC OBĚTÍ SYSTÉMU OPOVRHUJÍCÍHO PRÁVEM, A ŽE ZA JEJICH JEDNÁNÍ MŮŽE PRÁVNĚPOZITIVISTICKÝ PŘÍSTUP, KTERÝ SI OSVOJILI PŘI STUDIU — protože veřejné bezpráví skrze zákon prý bylo těžko představitelné. DRUHÉ OBDOBÍ zahájil ULMSKÝ PROCES S EINSATZKOMMANDEM a založení CENTRÁLY PRO VYŠETŘOVÁNÍ NACISTICKÝCH ZLOČINŮ V LUDWIGSBURGU ROKU 1958; roku 1960 byl v Izraeli souzen EICHMANN a v letech 1963–1965 se ve Frankfurtu konal OSVĚTIMSKÝ PROCES z podnětu generálního prokurátora FRITZE BAUERA.",
       "terms": [],
@@ -207,12 +170,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "Paradox: darebácký režim tvoří právo",
       "text": "Hitler NEMĚL K PRÁVU ÚCTU a o právnících nesmýšlel vysoko, zvlášť když měli námitky — ALE VIDĚL V NICH UŽITEČNÉ NÁSTROJE: už v raných letech užíval trestní řízení jako politickou zbraň, později mu právníci pomohli rozebrat výmarskou ústavu a formulovat zákonné projekty. V posledních letech o právnících často mluvil záporně, což se dochovalo v 'stolních rozhovorech' — a PO ROCE 1945 NA TA VYJÁDŘENÍ PRÁVNÍCI POUKAZOVALI, ABY PODEPŘELI MÝTUS, ŽE BYLI ZÁKONA DBALÝMI ODPŮRCI TYRANA A 'OBĚTMI'. Ten pohled je dnes opraven. A teď ten právní paradox. Hitler okamžitě využil moci nouzových dekretů ke ZRUŠENÍ ZÁKLADNÍCH PRÁV, která mu stála v cestě, a když krátce nato zbavil parlament moci, NEZŮSTAL ŽÁDNÝ DEMOKRATICKY KONTROLOVANÝ PROCES TVORBY PRÁVA. ALE FORMÁLNĚ VZATO SE PRÁVO DÁL TVOŘILO — A TO PRÁVO BYLO POUŽITELNÉ, AČKOLI JEHO ÚSTAVNÍ ZÁKLAD UŽ NEEXISTOVAL. Tvrdit, že všechny právní akty z let 1933–1945 byly neplatné, JDE JEN TEORETICKY; v praxi to udržet nelze, protože NESČETNÉ PRÁVNÍ AKTY ZŮSTALY V PLATNOSTI, zvlášť v občanském, hospodářském a správním právu, ale i v právu mezinárodním. MUSÍ SE PŘIJMOUT PARADOX, ŽE DAREBÁCKÝ REŽIM MŮŽE TVOŘIT PRÁVO, a případ od případu se zkoumat, které prvky nacistického práva byly právně platné a které je nutno pokládat za akty stojící a priori mimo právní řád, a tedy za neplatné od počátku. A mezi těmi dvěma krajnostmi leží DVĚ DALŠÍ KATEGORIE: PRÁVNĚ PLATNÉ, ALE MRAVNĚ POBUŘUJÍCÍ NORMY — a MRAVNĚ PŘÍPUSTNÉ, ALE PROTIPRÁVNÍ ČINY, JAKO OZBROJENÝ ODPOR PROTI REŽIMU.",
       "terms": [],
@@ -234,12 +194,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "Rozklad ústavního státu krok za krokem",
       "text": "Nouzovým dekretem podle ČL. 48 VÝMARSKÉ ÚSTAVY byla OKAMŽITĚ POZASTAVENA ZÁKLADNÍ PRÁVA (REICHSTAGSBRANDVERORDNUNG, 28. ÚNORA 1933). Následovala vlna protiprávních opatření: první TÁBORY k zadržení odpůrců, veřejnosti ospravedlňované klamným pojmem 'OCHRANNÁ VAZBA'; první násilí proti německým Židům; a pojem 'ŽIDOVSKÝ' dostal v právní oblasti otevřeně RASOVÝ význam. Politické strany byly zakázány a NSDAP získala hodnost univerzální státní strany. Parlamentní demokracie skončila ZMOCŇOVACÍM ZÁKONEM (24. BŘEZNA 1933), dvakrát obnoveným, až ho Hitler 30. LEDNA 1939 prodloužil dekretem NA NEURČITO. Nové vedení ovládlo byrokracii a vyčistilo ji od politických odpůrců a Židů; GLEICHSCHALTUNG ZEMÍ zničil federální uspořádání, takže REICHSRAT se stal zbytečným. Po smrti prezidenta HINDENBURGA roku 1934 byl zrušen i JEHO ÚŘAD. ZŮSTAL JEN 'VŮDCE' A POZDRAV 'HEIL HITLER!', jehož užívání se stalo povinným pro veškerý úřední i soukromý styk. ÚSTAVA V OBVYKLÉM SMYSLU UŽ NEEXISTOVALA; literatura se sice pokoušela poskládat jakousi ústavu z nejdůležitějších nacistických zákonů, ALE TEN NORMATIVNÍ RÁMEC NIKDY NEMĚL VÁZAT VÝKON STÁTNÍ MOCI PRÁVEM.",
       "terms": [],
@@ -253,19 +210,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "Dvojstát a jeho proměna ve stát SS",
       "text": "Nejistota o 'VŮDCOVĚ VŮLI', na kterou se opakovaně odvolávalo, vybavila stranický aparát ohromnou mocí, ALE PODRYLA PRÁVNÍ STRUKTURY STÁTU ZEVNITŘ. Vedle zákonů existovala 'OPATŘENÍ' A 'VŮDCOVY ROZKAZY', z nichž mnohé se už nezveřejňovaly. VEDLE SEBE EXISTOVALY DVA SVĚTY: ŘÁDNÉ POUŽÍVÁNÍ PRÁVA A OTEVŘENÝ TEROR (Ernst Fraenkel, DOPPELSTAAT). A tady je ta věta, na které záleží nejvíc: ZÓNY TOHO PRVNÍHO SE UDRŽOVALY V NEPOSLEDNÍ ŘADĚ PROTO, ABY UMLČELY SVĚDOMÍ BYROKRATŮ A SOUDCŮ, JEJICHŽ SOUČINNOST SE DÁL POKLÁDALA ZA NEPOSTRADATELNOU — ALE TY OBLASTI 'NORMALITY' BYLY PODRYTÉ TÍM, ŽE SE DALY KDYKOLI ZBOURAT ODKAZEM NA 'OBECNÉ DOBRO'. Dvojstát se postupně proměnil ve 'STÁT SS'. A Stolleisova pravděpodobná úvaha: PRO NEDOSTATEK PRAVIDELNOSTI BY SYSTÉM ZTRATIL SCHOPNOST SEBEORGANIZACE I BEZ VÁLKY, a dřív nebo později by se zhroutil. Po roce 1933 se rozložilo všechno, co se v právním systému od 19. století vybudovalo — zčásti zákony, zčásti politickým nátlakem. Odbory, profesní komory a spolky všeho druhu byly zrušeny nebo pohlceny; ODPOR DOKÁZALY NABÍDNOUT JEN CÍRKVE V 'KIRCHENKAMPFU', ale tím z velké části ztratily kontrolu nad svými sociálními institucemi. Už 11. BŘEZNA 1933 vzniklo GOEBBELSOVO MINISTERSTVO LIDOVÉ OSVĚTY A PROPAGANDY a TISK ZTRATIL NEZÁVISLOST BĚHEM ŠESTI MĚSÍCŮ. Výsledkem byl MILITARIZOVANÝ, AUTORITÁŘSKÝ UNITÁRNÍ STÁT, který se pokoušel smiřovat protichůdné zájmy hlásáním nové 'IDEOLOGIE' — A TU UČINIL ZÁVAZNOU PRO VÝKLAD VŠECH PRÁVNÍCH NOREM. Oficiálně správní soudnictví zůstalo a SOUDCI ZŮSTALI AŽ DO ROKU 1942 NEZÁVISLÍ, ale v praxi byly ty pilíře vlády práva postupně podrývány, až se staly bezvýznamnými.",
       "terms": [
-        {
-          "term": "dvojstát (Doppelstaat)",
-          "def": "Fraenkelův pojem: vedle sebe existuje řádné používání práva a otevřený teror. Zóny 'normality' se udržují proto, aby umlčely svědomí úředníků — a dají se kdykoli zbourat odkazem na 'obecné dobro'."
-        }
+        { "term": "dvojstát (Doppelstaat)", "def": "Fraenkelův pojem: vedle sebe existuje řádné používání práva a otevřený teror. Zóny 'normality' se udržují proto, aby umlčely svědomí úředníků — a dají se kdykoli zbourat odkazem na 'obecné dobro'." }
       ],
       "cards": [
         {
@@ -285,12 +236,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "text_sha": null,
+    "12": {
       "title": "Zbavování práv: a dělo se to v rámci práva",
       "text": "Odpůrci režimu ztratili státní občanství a začala diskriminace a pronásledování Židů a politických, náboženských a etnických menšin. Vše začalo řadou LSTIVÝCH A PERFIDNÍCH ZBAVENÍ PRÁV pod záminkou 'ARIZACÍ': konfiskace majetku a vyvlastnění, zabírání podniků, KRÁDEŽE UMĚNÍ, příkaz, aby všichni Židé užívali jména 'ISRAEL' A 'SARA', zavedení židovské hvězdy. Nové úrovně dosáhla ta opatření POGROMY, KTERÉ GOEBBELS ROZPOUTAL MEZI 9. A 11. LISTOPADEM 1938. Vyvrcholením bylo vraždění milionů ve vyhlazovacích táborech, rozšířené na všechny evropské Židy po zahájení dobyvačné války. A teď ta věta, kterou je nejdůležitější si zapamatovat: S VÝJIMKOU OHAVNÉ ZÁVĚREČNÉ FÁZE SE DISKRIMINACE A ZBAVOVÁNÍ PRÁV ŽIDŮ A DALŠÍCH DĚLO V RÁMCI PRÁVA — PŘÍSLUŠNÁ OPATŘENÍ SE ZVEŘEJŇOVALA A PRÁVNÍCI JE KOMENTOVALI. Jednotlivé pokusy to vysvětlit — antisemitismus, tradiční poddanský duch a vlivy různých 'milieu', závist a osobní obohacení, propaganda, rozpoutání vždy latentní agresivity vůči menšinám — osvětlují podle Stolleise JEN ČÁSTI PROBLÉMU. A pozoruhodné je, že k vysvětlení poslušnosti právníků historikové poukazovali JAK NA PRÁVNÍ POZITIVISMUS, TAK NA VÝRAZNÝ ANTIPOZITIVISMUS, KTERÝ REŽIM PĚSTOVAL VE SVÉM OPOVRŽENÍ PRÁVEM — tedy na dvě protichůdné věci naráz.",
       "terms": [],
@@ -304,12 +252,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "text_sha": null,
+    "13": {
       "title": "Soudci: proč legenda o pozitivismu neobstojí",
       "text": "Nacisté začali ve většině tradičních oborů BEZ KONCEPCÍ A BEZ ODBORNÍKŮ — jedinou výjimkou byla zemědělská politika se staršími modely korporativní struktury pod řízením státu, rychle uskutečněnými jako 'REICHSNÄHRSTAND' a doplněnými zákonodárstvím 'KRVE A PŮDY', které oživilo mnoho ARCHAICKÝCH PRÁVNÍCH POJMŮ. Prvořadou starostí bylo PŘEOBSADIT SPRÁVU A SOUDNICTVÍ; soudnictví bylo očištěno od ideových odpůrců a zbývající soudci se dostávali pod kontrolu ŠKOLICÍMI PROGRAMY, 'SPOLEČENSTVÍMI TÁBORY', INDOKTRINACÍ TISKEM A HLÁSÁNÍM ZÁSAD. HANS FRANK, Reichsjuristenführer, vyhlásil polooficiálně: 'ZÁKLADEM VÝKLADU VŠECH PRÁVNÍCH PRAMENŮ JE NÁRODNĚSOCIALISTICKÁ IDEOLOGIE, VYJÁDŘENÁ ZVLÁŠŤ V PROGRAMU STRANY A VE VÝROCÍCH NAŠEHO VŮDCE. SOUDCI NEMAJÍ PRÁVO PŘEZKOUMÁVAT ROZHODNUTÍ VŮDCE, KTERÁ MAJÍ FORMU ZÁKONŮ ČI PRÁVNÍCH NAŘÍZENÍ. SOUDCI JSOU VÁZÁNI I VŠEMI OSTATNÍMI ROZHODNUTÍMI VŮDCE, POKUD JE NEPOCHYBNÉ, ŽE MAJÍ TVOŘIT PRÁVO.' A Stolleisův klíčový argument: NA POČÁTKU I NA KONCI REŽIMU BYL IDEOLOGICKY MOTIVOVANÝ VÝKLAD STARÉHO PRÁVA MNOHEM JEDNODUŠŠÍ A ÚČINNĚJŠÍ NEŽ PŘIJÍMÁNÍ NOVÝCH ZÁKONŮ POMALÝM ZÁKONODÁRNÝM PROCESEM. Instrumentalizace právního řádu tedy probíhala DVOJÍ CESTOU: vedle vůdcových ediktů a překotného zákonodárství to bylo PŘEDEVŠÍM POLITIZOVANÉ SEŠIKOVÁNÍ SOUDNICTVÍ, které měnilo zavedené právo — a v mnoha odvětvích byla IDEOLOGICKÁ PŘEMALBA STARÉHO KORPUSU NOREM DŮLEŽITĚJŠÍ NEŽ ZÁKONODÁRSTVÍ. Proto platí jen zčásti, že soudci byli kvůli svému pozitivismu vydáni na milost nespoutaným zákonodárcům; jako souhrnný popis soudního rozhodování je ta teze, rozšířená v 50. letech, PROSTĚ ZAVÁDĚJÍCÍ. UŽ ZA VÝMARSKÉ REPUBLIKY SE MNOZÍ SOUDCI OBRACELI PROTI DEMOKRATICKY LEGITIMOVANÉMU ZÁKONODÁRCI — nedělalo jim tedy metodickou potíž překonat 'úzký normativismus', jak režim žádal, výkladem podle 'KONKRÉTNÍCH MYŠLENEK ŘÁDU A USPOŘÁDÁNÍ', 'VŮLE VŮDCE', 'POTŘEB VOLKSGEMEINSCHAFT', 'OBECNÉHO DOBRA', 'DOBRÉ VÍRY', 'PORUŠENÍ DOBRÝCH MRAVŮ' ČI 'ZDRAVÉHO CÍTĚNÍ LIDU'.",
       "terms": [],
@@ -339,12 +284,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "text_sha": null,
+    "14": {
       "title": "Správní právo: pět převrácení",
       "text": "Gleichschaltung zemí proměnil všechny složky správy v součásti říšské správy a zrušena byla i omezená autonomie obcí. ALE NEVEDLO TO K MONOLITICKÉMU UNITÁRNÍMU STÁTU: federální struktury nahradily NEPŘEDVÍDATELNÉ RIVALITY GAULEITERŮ A USTAVIČNÁ TŘENÍ MEZI STÁTEM A STRANOU. Obecné správní právo, utvářené vládou práva, bylo po roce 1933 podrýváno teorií i praxí — a Stolleis vyjmenovává PĚT PŘEVRÁCENÍ, která nacisté požadovali: 1) POZASTAVIT ROZLIŠOVÁNÍ MEZI ZÁKONEM, PRÁVNÍM NAŘÍZENÍM A JEDNOTLIVÝM AKTEM, které ústavní stát vyvinul; 2) OBRÁTIT FUNKCI NOREM Z MEZE SPRÁVNÍHO JEDNÁNÍ V JEHO CÍL; 3) NAHRADIT 'ZÁKONNOST' (GESETZMÄSSIGKEIT) IDEOLOGICKY URČENOU 'PRÁVNOSTÍ' (RECHTMÄSSIGKEIT); 4) VYTLAČIT PRÁVNÍ POSTAVENÍ ZALOŽENÉ NA PRÁVECH POSTAVENÍM ZALOŽENÝM NA POVINNOSTECH; a 5) NAHRADIT V BĚŽNÉM UŽÍVÁNÍ POJEM 'SPRÁVNÍ PRÁVO' POJMEM 'SPRÁVA', třeba v názvech univerzitních přednášek. K tomu nacisté úspěšně omezili soudní kontrolu široce vymezených 'MIMOPRÁVNÍCH SUVERÉNNÍCH AKTŮ', především VYNĚTÍM POLITICKÉ POLICIE Z DODRŽOVÁNÍ PRÁVNÍCH PŘEDPISŮ, a potlačovali soukromé právní pozice odkazem na 'VEŘEJNÉ NUTNOSTI' u staveb, zbrojení a válčení. SPRÁVNÍ SOUDNICTVÍ na jedné straně přežilo a zdálo se dokonce získat vliv, když vůdcovský edikt z 3. dubna 1941 zřídil ŘÍŠSKÝ SPRÁVNÍ SOUD — na druhé straně o tu instituci zápasily konzervativní a radikální síly a POSTUPNĚ UPADALA DO BEZVÝZNAMNOSTI. Počet žalob prudce klesl, PROTOŽE TVRDIT NACISTICKÉMU STÁTU, ŽE JEDNAL PROTIPRÁVNĚ, NEBYLO BEZ NEBEZPEČÍ.",
       "terms": [],
@@ -366,12 +308,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "text_sha": null,
+    "15": {
       "title": "Občanské právo: generální klauzule jako vrátka",
       "text": "Občanské právo si z velké části podrželo jádro norem, ALE ZAŽILO ZNAČNÝ POSUN TĚŽIŠTĚ, zvlášť změnami judikatury a nauky. A tady je ta ironie, kterou je dobré umět: JEŠTĚ KRÁTCE PŘED ROKEM 1933 PRÁVNÍCI PŘED GENERÁLNÍMI KLAUZULEMI BGB (§§ 138, 157, 162, 226, 242, 826) VAROVALI — TEĎ SE TYTÉŽ PARAGRAFY CHVÁLILY JAKO USTANOVENÍ, KTERÁ UMOŽŇUJÍ NACISTICKÉ IDEOLOGII VSTOUPIT DO OBČANSKÉHO PRÁVA. Odpovídalo to obecné strategii dát právu politickou orientaci ZESÍLENÍM JEHO ODSTRAŠUJÍCÍ FUNKCE PŘI SOUČASNÉM OSLABENÍ JEHO SCHOPNOSTI UDRŽOVAT ŘÁD. Hlásaný rozpad BGB do jednotlivých zákonů se ale nikdy neuskutečnil, stejně jako vytvoření 'VOLKSGESETZBUCHU', který měl BGB a rakouský ABGB přizpůsobit nacistické ideologii. Mimo jádro BGB se ale změnilo mnohé: zákonodárce zasáhl do MANŽELSKÉHO, RODINNÉHO A DĚDIČNĚ ZDRAVOTNÍHO PRÁVA a v úpravě osvojení, popírání otcovství, MANŽELSKÝCH PŮJČEK, výživného, NUCENÉ STERILIZACE a nového rozvodového práva SPLÝVALY DEMOGRAFICKÉ, EUGENICKÉ A RASISTICKÉ POHNUTKY. Výlučně antisemitský byl takzvaný ZÁKON NA OCHRANU KRVE Z 15. ZÁŘÍ 1935 — a právníci později často tvrdili, že celou tu škálu poblouzněných ustanovení vykládali 'S ÚMYSLEM JE ZMÍRNIT'.",
       "terms": [],
@@ -393,12 +332,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "text_sha": null,
+    "16": {
       "title": "Pracovní a sociální právo: cukr a bič",
       "text": "Vyčlenění pracovního práva z BGB vedlo k ÚPLNÉMU ZLOMU S TRADICÍ, protože se přejal FAŠISTICKO-KORPORATIVNÍ MODEL: ODBORY BYLY ROZBITY A TARIFNÍ AUTONOMIE ZRUŠENA. Vztah zaměstnavatele a zaměstnance zmutoval v ETIZOVANÉ SPOLEČENSTVÍ, které má prospívat lidu a státu při zachování hospodářského základu; NĚMECKÁ PRACOVNÍ FRONTA měla obě strany spojit, ALE V PRAXI SILNĚ ZVÝHODŇOVALA ZAMĚSTNAVATELE — zákazem stávek, kontrolou mezd a omezením svobodné volby pracoviště. Zároveň ovšem: NEZAMĚSTNANOST BYLA ODSTRANĚNA VEŘEJNÝMI STAVBAMI A ZBROJENÍM, propaganda postavila práci 'HLAVY A PĚSTI' (STIRN UND FAUST) naroveň, vznikl volnočasový program 'SÍLA SKRZE RADOST' (KRAFT DURCH FREUDE) a přijala se řada dalších opatření na uspokojení zaměstnanců. V SPOJENÍ S PŘÍSNOU KONTROLOU ZVLÁŠTNÍCH SOUDŮ A GESTAPA TO REŽIMU UMOŽNILO ZA VÁLKY VESMĚS ZABRÁNIT NEPOKOJŮM A SABOTÁŽÍM. Podobně v sociálním právu: ve veřejné péči byly církevní a nezávislé aktivity potlačeny a nahrazeny 'ZIMNÍ POMOCÍ NĚMECKÉHO LIDU'. Už roku 1935 Německá pracovní fronta kritizovala, že se prostředky vydávaly na 'BEZNADĚJNĚ NEMOCNÉ A NEPOCHYBNĚ MÉNĚCENNÉ OSOBY' v 'NADMĚRNĚ VELKÉ MÍŘE' — cílem nebylo jen podpořit eugeniku, ale POVZBUDIT ZABÍJENÍ 'NEUŽITEČNÝCH JEDLÍKŮ'. Režim se k systematickému zabíjení ('EUTANAZII') ODVÁŽIL AŽ PO VYPUKNUTÍ VÁLKY A MUSEL HO ZASTAVIT, KDYŽ SE PROTI NĚMU OZVALY CÍRKVE. V sociálním pojištění se počet pojišťoven snížil o víc než 2800 na něco přes 4800 roku 1939, dávky se zlepšily a okruh oprávněných rozšířil; ALE K ÚPLNÉMU OBRAZU PATŘÍ, že byla zničena samospráva pojišťoven ve prospěch vůdcovského principu, že ŽIDŮM A ODPŮRCŮM REŽIMU BYLY DÁVKY ZKRÁCENY NEBO ZCELA ZRUŠENY, že se dočasně zvýšené pojistné stalo trvalým, a že SE MAJETEK SOCIÁLNÍHO POJIŠTĚNÍ UŽIL K FINANCOVÁNÍ VÁLKY. Režimu šlo o to UDRŽET FUNGUJÍCÍ SYSTÉM, ABY HO VYUŽIL K VÁLEČNÝM CÍLŮM, vyhnul se podráždění širokých vrstev a zlepšením dávek STABILIZOVAL 'DOMÁCÍ FRONTU'.",
       "terms": [],
@@ -428,12 +364,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "text_sha": null,
+    "17": {
       "title": "Daňové právo jako ukázka celého mechanismu",
       "text": "Stolleisova nejelegantnější ukázka: NAPĚTÍ MEZI ZDÁNLIVĚ APOLITICKOU TECHNIČNOSTÍ NĚKTERÉHO ODVĚTVÍ A JEHO OVLÁDNUTÍM PŘEDŘAZENOU GENERÁLNÍ KLAUZULÍ. § 1 ZÁKONA O PŘIZPŮSOBENÍ DANÍ (STEUERANPASSUNGSGESETZ) Z 16. ŘÍJNA 1934 stanovil, že DAŇOVÉ PRÁVO SE MÁ VYKLÁDAT PODLE 'NÁRODNĚSOCIALISTICKÉ IDEOLOGIE' — a to ustanovení se brzy chápalo JAKO HLAVNÍ VÝKLADOVÁ ZÁSADA PRO VŠECHNA ODVĚTVÍ PRÁVA. Mělo to citelně záporný dopad na organizace, kterými nacisté opovrhovali — židovské spolky všeho druhu, nemocnice, domovy důchodců, církevní nadace, řády a jiné ideově zaměřené instituce — PROTOŽE VĚTŠINA Z NICH PŘIŠLA O NEZISKOVÝ STATUS. Zároveň se placení daní prohlašovalo za AKT VĚRNOSTI a daňový únik odsuzoval jako 'ZRADA NA VOLKSGEMEINSCHAFT'. A pointa: NAVZDORY LEGENDĚ O ČISTĚ TECHNICKÉM ZAMĚŘENÍ FINANČNÍHO SOUDNICTVÍ ZVÝHODŇOVALA JUDIKATURA ŘÍŠSKÉHO FINANČNÍHO DVORA REŽIM tím, že se významně podílela na zpřísňování zdanitelných skutečností a aktivně zhoršovala postavení — především — židovských spolků a církví.",
       "terms": [],
@@ -447,19 +380,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "text_sha": null,
+    "18": {
       "title": "Trestní právo: k čemu ho režim potřeboval",
       "text": "Nacisté hned od počátku chápali a využívali POLITICKOU FUNKCI TRESTNÍHO PRÁVA: ZASTRAŠIT POLITICKÉ ODPŮRCE, POTLAČIT MENŠINY, VYVOLAT STRACH — NE V POSLEDNÍ ŘADĚ MEZI VLASTNÍMI PŘÍVRŽENCI — A STMELIT VOLKSGEMEINSCHAFT KRIMINALIZACÍ NĚKOLIKA VYSTAVENÝCH OBĚTÍ, jako byli takzvaní 'LISTOPADOVÍ ZLOČINCI', komunisté a Židé. K tomu slibovali obnovit veřejný pořádek a podle bodu 18 programu NSDAP vést 'NELÍTOSTNÝ BOJ PROTI TĚM, KDO SVOU ČINNOSTÍ ŠKODÍ OBECNÉMU DOBRU'. Program reformy trestního práva roku 1933 NEEXISTOVAL, ale existoval ANTILIBERÁLNÍ, ANTIRACIONÁLNÍ A ANTIINDIVIDUALISTICKÝ TÓN, sdílený značnou částí odborné literatury. Z těch předpokladů vzešel systém trestní kontroly a potlačování, počínaje raziemi na základě NAŘÍZENÍ O POŽÁRU ŘÍŠSKÉHO SNĚMU Z 28. ÚNORA 1933. Stejně důležité jako zpřísňování bylo, že REŽIM ZRUŠIL ZÁKAZ RETROAKTIVITY A ZÁKAZ ANALOGIE a zavedl možnost založit trestní odpovědnost tam, kde bylo jasné, že obviněný spáchal zločin, ale nebylo jisté KTERÝ Z NĚKOLIKA (WAHLFESTSTELLUNG) — čímž se porušila zásada IN DUBIO PRO REO. TA OPATŘENÍ PODRYLA SAMO JÁDRO TRESTNÍ SPRAVEDLNOSTI POD VLÁDOU PRÁVA. Ještě důležitější bylo, že vedle zákonných změn vzniklo ZVLÁŠTNÍ PRÁVO POLICEJNÍCH A TAJNĚPOLICEJNÍCH OPERACÍ, TÉMĚŘ ZCELA ODPOUTANÉ OD ÚSTAVNÍCH PRAVIDEL, včetně zvláštních pravomocí strany a SS, které se užívaly hlavně na nově dobytých územích na východě. ŽIDÉ BYLI BRZY ZCELA VYLOUČENI ZE VŠECH ZBÝVAJÍCÍCH NOREM, které v řízení poskytovaly aspoň minimální ochranu.",
       "terms": [
-        {
-          "term": "Wahlfeststellung",
-          "def": "Založení trestní odpovědnosti tam, kde je jisté, že obviněný spáchal zločin, ale ne který z několika — v rozporu se zásadou in dubio pro reo."
-        }
+        { "term": "Wahlfeststellung", "def": "Založení trestní odpovědnosti tam, kde je jisté, že obviněný spáchal zločin, ale ne který z několika — v rozporu se zásadou in dubio pro reo." }
       ],
       "cards": [
         {
@@ -479,12 +406,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "text_sha": null,
+    "19": {
       "title": "Zvláštní soudy a vojenské soudnictví",
       "text": "UŽ ROKU 1933 byly v obvodu každého vrchního zemského soudu zřízeny ZVLÁŠTNÍ SOUDY s cílem trestat činy podle nařízení o požáru Říšského sněmu a podle ZÁKONA O ZÁKEŘNOSTI CO NEJRYCHLEJI A NEJPŘÍSNĚJI; jejich řízení bylo silně zkráceno a ODVOLÁNÍ NEEXISTOVALO. Za války se jejich pravomoci podstatně rozšířily a práva obžalovaných dál osekala — a zvláštní soudy se tak podle slov samotného režimu staly 'STANNÝMI SOUDY DOMÁCÍ FRONTY'. 'Podle veřejných nutností na začleněných východních územích' pak policejní stanné soudy, SOUDY SS A zcela bezprávní exekutivní akty NEBRALY NA ÚSTAVNÍ MĚŘÍTKA ŽÁDNÝ OHLED. VOJENSKÉ SOUDNICTVÍ šlo podobně: roku 1919 bylo kromě válečného stavu a lodí zrušeno, teď bylo okamžitě obnoveno. Nejprve byly tři instance s Říšským soudem na vrcholu; po roce 1934 přešla působnost na VOLKSGERICHTSHOF a o dva roky později na ŘÍŠSKÝ VÁLEČNÝ SOUD. Hmotným základem byl VOJENSKÝ TRESTNÍ ZÁKONÍK Z ROKU 1872, k němuž nacisté připojili válečné zvláštní trestní právo připravené roku 1938 a vyhlášené 1939, a 10. října 1940 celý zákoník revidovali. A výsledek: PO ROCE 1941 SE VOJENSKÉ SOUDNICTVÍ ZE ZVLÁŠTNÍ JURISDIKCE PŮVODNĚ ZŘÍZENÉ PODLE ÚSTAVNÍCH ZÁSAD PROMĚNILO V NÁSTROJ TEROR, KTERÝ ZABIL ASI 30 000 LIDÍ.",
       "terms": [],
@@ -506,12 +430,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "text_sha": null,
+    "20": {
       "title": "Bilance trestního práva",
       "text": "KARL PETERS to shrnul tak, že trestní právo a trestní praxe 'NEJENŽE VZTYČILY OCHRANNOU BARIÉRU KOLEM SYSTÉMU NÁSILÍ, ALE TAKÉ VYTVOŘILY… HROZNOU KRVAVOU LÁZEŇ DŮSLEDNÝM PROSAZOVÁNÍM RASOVÉ IDEOLOGIE A Z NÍ PLYNOUCÍHO VYHLAZOVÁNÍ ÚDAJNĚ MÉNĚCENNÝCH LIDÍ'. Nacismus sice UVEDL DO PRAXE NĚKOLIK BODŮ REFORMNÍ DISKUSE VÝMARSKÉ DOBY — ochranná opatření, DVOUKOLEJNOST PRÁVNÍCH NÁSLEDKŮ (ZWEISPURIGKEIT), rozlišení viny u vraždy a zabití a u více zúčastněných, a akcesorickou povahu pomoci k hlavnímu činu — ALE TY KROKY DALEKO PŘEVÁŽILO OPUŠTĚNÍ REFORMNÍ LINIE FRANZE VON LISZTA A ODSTRANĚNÍ PROCESNÍCH ZÁRUK VYVINUTÝCH OD OSVÍCENSTVÍ. Po roce 1933 ovládly praxi a literaturu: PORUŠENÍ POVINNOSTÍ K VOLKSGEMEINSCHAFT MÍSTO PORUŠENÍ PRÁV; TRESTÁNÍ PACHATELE MÍSTO ČINU; ROZVOLNĚNÍ SKUTKOVÝCH PODSTAT ZAVEDENÍM IDEOLOGICKÝCH POJMŮ; ROZŠÍŘENÍ TRESTNÍCH SAZEB; PŘEDNOST ODSTRAŠENÍ PŘED RESOCIALIZACÍ; POSÍLENÍ POSTAVENÍ ŽALOBCE A OMEZENÍ PRÁV OBHÁJCE; OMEZENÍ MOŽNOSTÍ ODVOLÁNÍ; ZAVEDENÍ ZVLÁŠTNÍCH SOUDŮ, PŘEDEVŠÍM VOLKSGERICHTSHOFU ZÁKONEM Z 24. DUBNA 1934; A FORMÁLNÍ ZRUŠENÍ ZÁSADY LEGALITY DEKRETEM Z 13. PROSINCE 1944.",
       "terms": [],
@@ -525,12 +446,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "text_sha": null,
+    "21": {
       "title": "Vědy s mezinárodním rozměrem a nemožnost nacistické právní filosofie",
       "text": "Odvětví s mezinárodním rozměrem — mezinárodní právo soukromé, srovnávací právo, sociologie práva, mezinárodní právo — byla rasismem režimu postižena zvlášť. Jejich představitelé mohli sice přijmout VÖLKISCH názory, ale NADNÁRODNÍ PROPOJENOST JEJICH OBORU ZNESNADŇOVALA TY MYŠLENKY UVÉST DO PRAXE. Nejvýznamnější srovnávací právník ERNST RABEL (1874–1955), který obor moderně založil, MUSEL DO EXILU. Internacionalisté nejprve pokračovali v předchozí linii (uvolnění Versailles, řád Společnosti národů), a PO ROCE 1938 se objevily nové přístupy, které chtěly vykládat mezinárodní právo VE SVĚTLE RASISMU REŽIMU a myslet mezinárodní řád v pojmech 'VELKÝCH ŘÍŠÍ' — nejvýznamnější byli CARL SCHMITT, Gustav Adolf Walz, Norbert Gürke, Reinhard Höhn a Werner Best, se silnou polemikou proti UNIVERZALISMU, LIBERALISMU A PACIFISMU v mezinárodním právu. A teď ta podstatná věta: NÁRODNÍ SOCIALISMUS NEMOHL MÍT VLASTNÍ PRÁVNÍ FILOSOFII. Nacistická 'ideologie' byla SMĚSÍ NELIDSKÝCH POSEDLOSTÍ A FANTAZIÍ O NÁSILÍ A NADŘAZENOSTI, SPLYNULÝCH SE SOCIÁLNÍM DARWINISMEM A DOBOVOU EUGENIKOU. Na filosofických fakultách vznikla směs fenomenologie, hodnotové nauky a především NOVOIDEALISMU stavějícího na Hegelovi (Julius Binder, KARL LARENZ, Ernst Rudolf Huber, Walter Schönfeld), ale i na Leibnizovi, Fichtem, Schellingovi, Nietzschem a dobovém existencialismu. K tomu 'KONKRÉTNÍ ŘÁDOVÉ A TVOŘIVÉ MYŠLENÍ' (KONKRETES ORDNUNGS- UND GESTALTUNGSDENKEN), přístupy 'VÖLKISCH PŘIROZENÉHO PRÁVA' a dokonce 'PRÁVNÍ NAUKA RASOVÝCH ZÁKONŮ'. Všem bylo společné DŮSLEDNĚ ZÁPORNÉ STANOVISKO K EMPIRISMU, RACIONALISMU, POZITIVISMU A VĚDECKÉ TEORII — proto zůstaly VÝJIMEČNOU EPIZODOU v dějinách filosofie. A přesto k režimu podstatně přispěly, PROTOŽE JEJICH RÉTORIKA POMÁHALA IDEALIZOVAT BRUTÁLNÍ SKUTEČNOST.",
       "terms": [],
@@ -552,12 +470,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 22,
-      "text_sha": null,
+    "22": {
       "title": "Římské právo a germanisté",
       "text": "Samostatné nacistické dějepisectví neexistovalo a NEMOHLA VZNIKNOUT ANI OPRAVDU NACISTICKÁ PRÁVNÍ HISTORIE. Většina významných ROMANISTŮ EMIGROVALA a římské právo bylo vážně ohroženo: BOD 19 PROGRAMU NSDAP zněl 'ŽÁDÁME, ABY BYLO ŘÍMSKÉ PRÁVO, KTERÉ SLOUŽÍ MATERIALISTICKÉMU SVĚTOVÉMU ŘÁDU, NAHRAZENO NĚMECKÝM OBECNÝM PRÁVEM'. Obor se proto přejmenoval na 'ANTICKÉ PRÁVNÍ DĚJINY', ale dál se potácel. Na svou obranu romanisté poukazovali na FAŠISTICKOU ITÁLII, KDE REŽIM ŘÍMSKOU TRADICI ZDŮRAZŇOVAL; dále argumentovali, že recepce římského práva se týkala spíš METOD NEŽ OBSAHU právního myšlení ('ZVĚDEČTĚNÍ'), a že je třeba ROZLIŠOVAT ROZKVĚT A ÚPADEK římského práva. GERMANISTÉ naopak cítili, že jsou na vzestupu — jejich pohled na historické právo utvářely od 19. století národní a germanofilské teze — a teď se klonili k idealistickým a nacionalistickým heslům propagandy a HLEDALI GERMÁNSKÉ 'KOŘENY' NĚMECKÉHO PRÁVA. ALE kromě občasné spolupráce s Himmlerovým 'AHNENERBE' a několika patolízalských rétorických příklonů K IDEOVÉMU JÁDRU REŽIMU NEDOŠLO K PŘEORIENTOVÁNÍ METODOLOGIE ANI OBSAHU OBORU.",
       "terms": [],
@@ -571,12 +486,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "text_sha": null,
+    "23": {
       "title": "Závěr: právo, které ztratilo i tu omezenou samostatnost",
       "text": "Právo jako souhrn norem, které ustavují stát a řídí veřejný život, JE NA POLITICE A HOSPODÁŘSTVÍ SAMOSTATNÉ JEN V OMEZENÉ A KOLÍSAVÉ MÍŘE — A PO ROCE 1933 I TU OMEZENOU SAMOSTATNOST DRAMATICKY ZTRATILO. Nacistický režim měl z historického hlediska VLASTNĚ DOST KRÁTKÝ ŽIVOT. Páchal jedno porušení práva za druhým, ALE Z TAKTICKÝCH DŮVODŮ ZDRÁHAVĚ RESPEKTOVAL CELKOVÝ NORMATIVNÍ RÁMEC — A TO PŘESNĚ TAK DLOUHO, DOKUD POKLÁDAL PODPORU SPRÁVY A ARMÁDY ZA NUTNOU. Kvůli nové úrovni agresivity (1938/9), rostoucí moci SS — která se začala stávat STÁTEM VE STÁTĚ — a vypuknutí války ztratilo konvenční právo SCHOPNOST SEBEPROSAZENÍ. NA VRCHOL POLITICKÉHO VEDENÍ SE DOSTALI JEN TI, KDO IGNOROVALI ZÁVAZNOST PRÁVA. A pravděpodobně by ten rozklad práva — který nakonec dospěl do stavu ÚPLNÉ 'ANOMIE' — vedl ke zhroucení režimu I BEZ VÁLKY. Zkušenosti s režimem hluboce utvářely ústavu, právní řád a celou společnost poválečného Německa — a ovšem i nového STÁTU IZRAEL. Soudní vyrovnání s nacistickou minulostí trvalo VÍC NEŽ ŠEST DESETILETÍ. A poslední věta: PO CELÉM SVĚTĚ SE ZLOČINY A PORUŠENÍ PRÁVA NACISTICKÝM REŽIMEM PAMATUJÍ JAKO VTĚLENÍ OHAVNOSTI — A REŽIM SE TÍM STAL I SROVNÁVACÍM VZTAŽNÝM BODEM, KTERÝ NÁM DÁVÁ MOŽNOST ODSUZOVAT NOVÉ DAREBÁCKÉ STÁTY A NOVÉ PODOBY GENOCIDY.",
       "terms": [],
@@ -598,8 +510,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

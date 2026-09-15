@@ -1,28 +1,12 @@
 {
   "lecture_id": "RD10",
-  "kind": "reading",
-  "course": "RD",
-  "course_title": "Required reading",
-  "course_number": "030362",
-  "unit": "Téma 14",
   "title": "Chen, Traditionalising Chinese Law — symbolické epistemické násilí v pozdním Qingu",
-  "source_file": "raw/RD10_10-chen-li-traditionalising-chinese-law.pdf",
-  "source_sha256": "f7968d04a7413e81e23d594d8d5a927a2683b4b6cbb0b4991248a087225558a3",
-  "source_pages": 30,
-  "slides_per_page": 1,
-  "slide_count": 18,
-  "updated_at": "2026-09-15T13:07:00+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "text_sha": null,
+  "slides": {
+    "1": {
       "title": "Otázka, kterou článek obrací",
       "text": "Po celé století podnikala Čína právní reformy, aby zavedla 'MODERNÍ' právní řád — a komentátoři i badatelé dodnes shledávají čínský systém jako postrádající prvky, které pokládají za nepostradatelné pro moderní právo. Neuspokojivý výsledek se obvykle připisuje NESOUMĚŘITELNOSTI MEZI ČÍNSKOU TRADICÍ A MODERNÍMI HODNOTAMI, jak je od 19. století představují průmyslové západní země. Pod tím leží ROZŠÍŘENÝ PŘEDPOKLAD, ŽE EXISTUJÍ PŘIROZENÉ HRANICE MEZI 'TRADIČNÍM' A 'MODERNÍM' PRÁVEM A MEZI ČÍNSKÝM A ZÁPADNÍM PRÁVEM. Chen otázku obrací: MÍSTO PTÁT SE, ZDA SE ČÍNĚ PODAŘILO PRÁVO ZMODERNIZOVAT, JE PLODNĚJŠÍ ZKOUMAT, JAK A PROČ BYL ČÍNSKÝ PRÁVNÍ ŘÁD VŮBEC OZNAČEN ZA TRADIČNÍ — a tedy údajně neslučitelný se západním a moderním právem. Pozdní qingská reforma let 1902–1911 je ideálním příkladem toho, JAK SE Z ČÍNSKÉHO PRÁVA STAL TRADIČNÍ, PODŘADNÝ 'DRUHÝ' JAK ZÁPADNÍHO, TAK MODERNÍHO PRÁVA. Tři otázky: 1) JAK BYLO ČÍNSKÉ PRÁVO ORIENTALIZOVÁNO ČI SEBE-ORIENTALIZOVÁNO a učiněno neslučitelným s moderním právem? 2) JAK ČÍŇANÉ VYJEDNÁVALI s euroamerickými pojmy tradice a modernity? 3) JAK REFORMNÍ PROJEKT TRADICIONALIZACI (CHUANTONG HUA) ČÍNSKÉHO PRÁVA ZPOCHYBŇOVAL, NEBO K NÍ PŘISPÍVAL?",
       "terms": [
-        {
-          "term": "tradicionalizace (chuantong hua)",
-          "def": "Proces, jímž bylo čínské právo označeno za 'tradiční', a tím za podřadný protiklad práva moderního a západního."
-        }
+        { "term": "tradicionalizace (chuantong hua)", "def": "Proces, jímž bylo čínské právo označeno za 'tradiční', a tím za podřadný protiklad práva moderního a západního." }
       ],
       "cards": [
         {
@@ -34,19 +18,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "text_sha": null,
+    "2": {
       "title": "Symbolické epistemické násilí",
       "text": "Chenův ústřední pojem, složený ze dvou zdrojů. 'EPISTEMICKÉ NÁSILÍ' je od GAYATRI SPIVAK; 'SYMBOLICKÉ NÁSILÍ' od PIERRA BOURDIEUA, který ho chápe jako 'NÁSILÍ VYKONÁVANÉ NA SPOLEČENSKÉM AKTÉROVI S JEHO VLASTNÍM SPOLUPŮSOBENÍM'. Spojením chce Chen zdůraznit DVĚ VĚCI NAJEDNOU: NORMATIVNÍ A EPISTEMICKÝ TLAK, KTERÝ PŘEVLÁDAJÍCÍ KULTURY A DISKURZY VYVÍJELY NA ČÍNSKOU PŘEDSTAVU PRÁVNÍ MODERNITY — a na druhé straně PŘÍSPĚVEK ČÍNSKÝCH AKTÉRŮ K 'VYTVÁŘENÍ ÚČINNOSTI' TĚCH DISKURZŮ. Jeho účelem je zčásti upozornit na to, že SE ČÍŇANÉ SAMI PODÍLELI NA TRADICIONALIZACI ČI ORIENTALIZACI ČÍNSKÉHO PRÁVA A KULTURY. A metodická poznámka, kterou Chen zdůrazňuje: SKUTEČNÉ ČI DOMNĚLÉ ROZDÍLY MEZI DVĚMA KULTURAMI, CIVILIZACEMI ČI PRÁVNÍMI ŘÁDY NEZNAMENAJÍ A NEMAJÍ ZNAMENAT NESOUMĚŘITELNOST ANI HIERARCHII MEZI NIMI — POKUD SE LIDÉ NEROZHODNOU TĚM ROZDÍLŮM PROPŮJČIT NORMATIVNÍ, IDEOLOGICKÝ VÝZNAM.",
       "terms": [
-        {
-          "term": "symbolické epistemické násilí",
-          "def": "Spojení Spivakové a Bourdieua: normativní tlak převládajících diskurzů plus spolupůsobení samotných podrobených při 'vytváření jejich účinnosti'."
-        }
+        { "term": "symbolické epistemické násilí", "def": "Spojení Spivakové a Bourdieua: normativní tlak převládajících diskurzů plus spolupůsobení samotných podrobených při 'vytváření jejich účinnosti'." }
       ],
       "cards": [
         {
@@ -66,12 +44,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "Čína jako zrcadlo evropského osvícenství",
       "text": "Reforma se nedá pochopit jen z touhy zrušit extrateritorialitu ani jen z kontextu opiových válek — patří do delšího času a do globálních dějin mezikulturních setkání, modernity, kolonialismu a orientalismu, které jí PŘEDCHÁZELY O DVĚ TŘI STALETÍ. Západní znalost Číny a čínského práva rostla od 16. do 19. století prací misionářů, diplomatů a raných sinologů — mimo jiné SIRA GEORGE THOMASE STAUNTONA, který roku 1810 vydal PRVNÍ ANGLICKÝ PŘEKLAD QINGSKÉHO ZÁKONÍKU (bez většiny vedlejších ustanovení). A ta znalost hrála důležitou roli JAK JAKO KLADNÁ INSPIRACE, TAK JAKO ZÁPORNÁ FÓLIE při utváření debat o modernitě na Západě: MONTESQUIEU, VOLTAIRE, BECCARIA I BENTHAM se všichni, ať výslovně či mlčky, zabývali 'ČÍNSKOU ŠIFROU' jako klíčovým referenčním bodem při rozvíjení teorií moderního právního a politického systému. Jejich vlivné spisy o vládě práva, racionální a humánní trestní justici či systematické kodifikaci podnítily od konce 18. století zájem o reformu — A SÁM DISKURZ PRÁVNÍ MODERNITY BYL BRZY NASAZEN JAKO HLAVNÍ VYPRÁVĚNÍ, KTERÉ POMÁHALO LEGITIMOVAT ZÁPADNÍ KOLONIÁLNÍ EXPANZI JAKO CIVILIZAČNÍ MISI NA VÝCHODĚ.",
       "terms": [],
@@ -85,12 +60,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Extrateritorialita nejdřív, ospravedlnění potom",
       "text": "Tohle je nejostřejší Chenova teze a stojí za to ji umět přesně. TOUHA EVROPSKÝCH ŘÍŠÍ PO EXTRATERITORIALITĚ NA VÝCHODĚ VEDLA KE GLOBÁLNÍMU DISKURZU O ČÍNĚ JAKO ORIENTÁLNÍM DESPOTISMU OVLÁDANÉM ZAOSTALOU TRADICÍ SVÉVOLNÝCH, IRACIONÁLNÍCH A BARBARSKÝCH ZÁKONŮ. Živila ho široce šířená senzační vyprávění o čínsko-západních právních sporech a nezapomenutelné obrazy skutečné či domnělé čínské soudní brutality 18. a 19. století. A pak to udělaly smlouvy: SÉRIE NEROVNOPRÁVNÝCH SMLUV PODEPSANÝCH PO PRVNÍ OPIOVÉ VÁLCE, KTERÉ MOCNOSTEM PŘIZNALY EXTRATERITORIÁLNÍ VÝSADY, TA DŘÍVĚJŠÍ ZÁPADNÍ ZOBRAZENÍ ČÍNSKÉHO PRÁVA JAKO NESOUMĚŘITELNÉHO S PRÁVEM 'CIVILIZOVANÝCH' NÁRODŮ POTVRDILA A KODIFIKOVALA. Do roku 1900 se euroamerický diskurz moderního práva a orientalistický diskurz o Číně slily do PŘEVLÁDAJÍCÍHO DISKURZU PRÁVNÍ MODERNITY v pozdní qingské Číně. A klíčová oprava tradičního výkladu: NA ROZDÍL OD PŘIJATÉHO NÁZORU V MODERNÍ HISTORIOGRAFII NEMĚL POŽADAVEK BRITÁNIE A OSTATNÍCH MOCNOSTÍ NA EXTRATERITORIALITU S ČÍNSKÝM PRÁVNÍM ŘÁDEM SAMOTNÝM PRAKTICKY NIC SPOLEČNÉHO; MOCNOSTI JI ALE OSPRAVEDLŇOVALY TÍM, ŽE ČÍNSKÉ PRÁVO LÍČILY JAKO NECIVILIZOVANÉ.",
       "terms": [],
@@ -104,12 +76,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Dva případy, které to spustily",
       "text": "Chen ukazuje proměnu čínského sebepojetí na dvou kauzách ze 70. let 19. století, jak je sledoval šanghajský list SHENBAO (1872–1949) a anglický NORTH CHINA HERALD. Roku 1873 byl herec YANG YUELOU v Šanghaji POD SOUDNÍM MUČENÍM odsouzen za únos dcery kantonského kompradora. V letech 1875–1876 byli YANG NAIWU a XIAO BAICAI ('Zelíčko') z Če-ťiangu rovněž donuceni přiznat se k cizoložství a vraždě jejího manžela; jejich trest smrti byl zvrácen poté, co zasáhla CÍSAŘOVNA VDOVA CIXI a nařídila přelíčení v Pekingu. A teď ta rétorika: North China Herald v Yangově případu viděl další 'DŮKAZ, ŽE ČÍŇANÉ — PŘINEJMENŠÍM MANDARÍNI — SOTVA ZASLUHUJÍ UZNÁNÍ ZA POLOCIVILIZOVANOST', a o půl roku později uzavřel: 'AŤ JSOU ZÁSLUHY PŘÍPADU JAKÉKOLI, SAMOTNÁ BRUTALITA ŘÍZENÍ STAČÍ K TOMU, ABY SE VYCHVALOVANÁ ČÍNSKÁ CIVILIZACE ODSUNULA DO KATEGORIE BARBARSTVÍ.' Jinými slovy: BEZ OHLEDU NA PRÁVNÍ ČI SKUTKOVÝ ZÁKLAD ŘÍZENÍ ČINIL ZPŮSOB, JÍMŽ ČÍNA SPRAVOVALA PRÁVO, ZE ZEMĚ BARBARSKOU ZEMI. Shenbao naopak celý systém neodmítal, ale cizí myšlenky si osvojoval k výzvě k reformě.",
       "terms": [],
@@ -123,12 +92,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Shenbao: reforma práva před technikou, a varovné Turecko",
       "text": "Redakční článek Shenbaa z počátku roku 1876 tvrdil, že do očí bijící pochybení soudců ukazuje, že vláda musí najít účinnější způsoby vymáhání platných zákonů a zlepšit postupy rozhodování, myslí-li vážně své poslání 'CHOVAT V ÚCTĚ LIDSKÉ ŽIVOTY' (AIXI MINMING). A přišel s pořadím, které stojí za zapamatování: SOUDNÍ REFORMA MÁ MÍT PŘEDNOST PŘED ZAVÁDĚNÍM ZÁPADNÍ VĚDY A TECHNIKY — s TURECKEM jako varovným příkladem. TURECKÝ DOVOZ NOVÉ EVROPSKÉ TECHNIKY A STROJŮ NEZABRÁNIL CIZÍ NADVLÁDĚ, PROTOŽE ZEMĚ LPĚLA NA 'ASIJSKÝCH ZVYCÍCH' (YAXIYA CHENGXI) A NEREFORMOVALA SVŮJ PRÁVNÍ ŘÁD. 'NIC NEBUDE PROSPÍVAT, POKUD LIDEM NEBUDE DÁNA ŘÁDNÁ PRÁVNÍ OCHRANA ČI VEDENÍ.' Na těch komentářích je ale vidět i druhá věc: NADHODNOCOVÁNÍ ZÁPADU. Táž redakce doporučovala převzít prvky evropské trestní justice, protože evropské soudní systémy prý 'NIKDY NEVEDOU K NESPRÁVNÝM ODSOUZENÍM ANI NENECHAJÍ VINNÉHO UNIKNOUT'. A přecenění západních advokátů vedlo Shenbao v letech 1873 a 1880 k tvrzení, že nedostatek podobných profesionálů je vážnou vadou čínského soudnictví: proti čínským PISÁLKŮM (SONGGUN), kárané za rozněcování malicherných sporů, padělání důkazů a spolčování s písaři, stáli západní advokáti chválení za odbornost, nestrannost a nebojácnou obhajobu. Advokáti prý pomohou odstranit soudní mučení k vynucení doznání a umožní soudcům rozhodovat 'VŽDY PŘÍSNĚ' podle práva a důkazů.",
       "terms": [],
@@ -150,12 +116,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Co se v cizím tisku nepsalo: britské právo v téže době",
       "text": "Chenova nejlepší ironie. CO SE V CIZÍM TISKU SOTVA ZMIŇOVALO A ČÍNŠTÍ KOMENTÁTOŘI NEVĚDĚLI: SVÉVOLNOST TRESTNÍ JUSTICE, BUJÍCÍ KŘIVÁ PŘÍSAHA POROTCŮ A NADMĚRNÁ VOLNOST SOUDCŮ VEDLY BRITSKÉ REFORMÁTORY V LETECH 1810–1830 K VOLÁNÍ PO KODIFIKACI. A následné zákonodárné debaty se často scvrkly na otázku, ZDA JSOU NAVRHOVANÉ REFORMY VHODNÉ PRO PRÁVNÍ A KULTURNÍ TRADICI A NÁRODNÍ POVAHU BRITŮ — tedy přesně týž argument, jaký později používali qingští 'konzervativci'. A vrchol ironie: NEDÁVNO PŘELOŽENÝ QINGSKÝ ZÁKONÍK CITOVALI ZASTÁNCI REFOREM JAKO ZDROJ INSPIRACE PRO ZLEPŠENÍ BRITSKÉHO PRÁVA A JEJICH ODPŮRCI JAKO ODSTRAŠUJÍCÍ PŘÍKLAD KODIFIKOVANÉHO SYSTÉMU, KTERÝ SE NEHODÍ PRO SVOBODNÝ A 'MODERNÍ' NÁROD, JAKÝM JE BRITÁNIE. Ačkoli pokusy kodifikovat či 'zmodernizovat' britský common law v dalších dvou staletích vesměs selhaly, POSTAVENÍ BRITÁNIE JAKO SVĚTOVÉ ŘÍŠE A JEJÍ PROSLULÉ KODIFIKACE PRO INDII A DALŠÍ KOLONIE vedly zakladatele moderního srovnávacího práva jako SIRA HENRYHO MAINEA A MAXE WEBERA k tomu, aby britský systém řadili do rodiny nejvyspělejšího moderního práva. Jinými slovy: STALETÁ BRITSKÁ PRÁVNÍ TRADICE VCELKU PŘEŽILA MODERNIZAČNÍ POPUD 19. STOLETÍ A VYŠLA Z NĚJ JAKO VZOROVÝ MODERNÍ PRÁVNÍ ŘÁD — což je v ostrém protikladu k osudu práva pozdní císařské Číny.",
       "terms": [],
@@ -177,23 +140,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "Strategie rozdvojení (bifurkace)",
       "text": "Číňané se ale převládajícímu diskurzu bránili — a hlavním nástrojem byla BIFURKACE, strategie rozdvojení. Odlišovali PRAKTICKÉ PŘEDNOSTI JEDNOTLIVÉ ZÁPADNÍ PRÁVNÍ INSTITUCE OD ÚDAJNÉ NADŘAZENOSTI ZÁPADNÍ TRADICE JAKO CELKU — a zároveň ODDĚLOVALI POLITOVÁNÍHODNOU STRÁNKU ČI PŘÍPAD ČÍNSKÉ SOUDNÍ PRAXE OD CELÉ ČÍNSKÉ TRADICE. Je to obdoba slavné dvojice PODSTATA (TI) A FUNKCE (YONG), kterou pozdně císařští intelektuálové užívali u západní vědy: DALO SE DOPORUČIT PŘEVZETÍ ZÁPADNÍ INSTITUCE (funkce) VE SLUŽBĚ ČÍNSKÝCH ÚČELŮ (podstata), ANIŽ SE PŘIJAL ORIENTALISTICKÝ DISKURZ NEBO PŘIZNALA KULTURNÍ ČI RASOVÁ PODŘADNOST. Další bifurkace: rozdíl mezi TEORIÍ A PRAXÍ západního či čínského práva, a rozdíl mezi ZÁPADNÍ METROPOLITNÍ VLÁDOU PRÁVA A SOUDNICTVÍM V ZÁPADNÍCH KOLONIÍCH ČI EXTRATERITORIÁLNÍCH SOUDECH. To jim dovolilo uznat přednosti západních teorií a zároveň ukázat na PROPAST MEZI TĚMI TEORIEMI A ZÁPADNÍ PRAXÍ. Praktický doklad z roku 1881: Shenbao připustilo, že zastoupení advokátem na Západě omezuje manipulaci zkorumpovanými písaři, ALE ZÁPADNÍ ADVOKÁTI SE NEŘÍDÍ VŽDY NESTRANNOSTÍ ČI VEŘEJNÝM ZÁJMEM — protože obě strany hájí své klienty, MŮŽE BÝT VÝSLEDEK SPORU ZCELA URČEN POMĚRNOU ZDATNOSTÍ ADVOKÁTŮ, a západní advokát tedy může zkreslit fakta a rozhodnout spor stejně jako zkorumpovaný čínský písař. A obrácená symetrie, kterou Chen zdůrazňuje: BRITŠTÍ A EVROPŠTÍ KOMENTÁTOŘI POUŽÍVALI PŘI HODNOCENÍ ČÍNSKÉHO PRÁVA NA POČÁTKU 19. STOLETÍ PODOBNÝ SOUBOR BIFURKAČNÍCH STRATEGIÍ. Qingští literáti se tedy od svých západních protějšků v tomhle nijak nelišili.",
       "terms": [
-        {
-          "term": "bifurkace",
-          "def": "Strategie rozdvojení: oddělit praktickou přednost jednotlivé cizí instituce od údajné nadřazenosti celé cizí tradice — a jednotlivé domácí selhání od celé domácí tradice."
-        },
-        {
-          "term": "ti a yong",
-          "def": "Podstata a funkce: převzít západní instituci jako funkci ve službě čínské podstatě, aniž se přizná kulturní podřadnost."
-        }
+        { "term": "bifurkace", "def": "Strategie rozdvojení: oddělit praktickou přednost jednotlivé cizí instituce od údajné nadřazenosti celé cizí tradice — a jednotlivé domácí selhání od celé domácí tradice." },
+        { "term": "ti a yong", "def": "Podstata a funkce: převzít západní instituci jako funkci ve službě čínské podstatě, aniž se přizná kulturní podřadnost." }
       ],
       "cards": [
         {
@@ -213,12 +167,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "Esencializace jako vedlejší účinek obrany",
       "text": "Při snaze skloubit přejímání cizích institucí s nárokem na čínskou rovnocennost ale komentátoři NAKONEC ESENCIALIZOVALI ČÍNSKOU I ZÁPADNÍ PRÁVNÍ KULTURU. Podle jednoho článku Shenbaa byly LI (rituální slušnost, mravní normy) A XING (právo, trest) DVOJICÍ PILÍŘŮ UNIVERZÁLNÍ CESTY VLÁDNUTÍ; Cesta chybí, 'JE-LI LI PŘÍLIŠ STRNULÉ A XING PŘÍLIŠ TVRDÉ'. Podle tehdejších norem museli úředníci klečet před trůnem a strany před soudcem — což ZVĚCNILO A ROZŠÍŘILO 'PROPAST MEZI NADŘÍZENÝM A PODŘÍZENÝM, TAKŽE BYLO OBTÍŽNÉ, ABY K SOBĚ CHOVALI NÁKLONNOST'. Nedostatek veřejné podpory vlády v nedávném čínsko-japonském sporu o Liuqiu prý dokládal, že stávající rituální a soudní praxe NEPĚSTUJE V LIDECH LOAJALITU A VLASTENECTVÍ — a to se pokládalo za hlavní rozdíl mezi soudobými Číňany a Zápaďany. Autoři tím DALI STARÉ ČÍNSKÉ DVOJICI LI A XING NOVÝ VÝZNAM A POLITICKOU SÍLU, poučenou mezinárodní mocenskou politikou a vyjádřenou ZÁPADNÍM JAZYKEM INDIVIDUALISMU, MODERNITY A NACIONALISMU. Tím NEUTRALIZOVALI ČÁST EUROCENTRICKÝCH PŘEDSUDKŮ a klasické čínské představy vládnutí přebalili jako univerzální hodnoty. ALE ZA CENU: JEJICH ARGUMENTY MĚLY ÚČINEK ZJEDNODUŠIT DLOUHÉ DĚJINY A MĚNÍCÍ SE SLOŽITOSTI ČÍNSKÉHO PRÁVA A KULTURY DO ESENCIALISTICKÝCH POJMŮ A KATEGORIÍ.",
       "terms": [],
@@ -232,12 +183,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "Jak se ze slibu stal smluvní závazek",
       "text": "Časová osa, kterou je dobré znát přesně. Britové a ostatní mocnosti neučinili POZÁPADNĚNÍ ČÍNSKÉHO PRÁVA PODMÍNKOU vzdání se extrateritoriality AŽ DO 60. LET 19. STOLETÍ. Když anglo-americké vlády trvaly na tom, že jejich občané mají mít stejné výsady jako Číňané cestovat, obchodovat a pobývat ve vnitrozemí, odpověděl KNÍŽE GONG koncem roku 1868, že cizinci ty výsady mohou mít, POKUD SE PODŘÍDÍ ČÍNSKÉMU PRÁVU JAKO ČÍNŠTÍ PODDANÍ. Americký vyslanec ROSS BROWNE trval na tom, že Čína musí nejprve zavést 'ZÁKONÍK ZALOŽENÝ NA ZÁSADÁCH SPRAVEDLNOSTI, UZNÁVANÝCH A PŘIJÍMANÝCH SPOLEČENSTVÍM ZÁPADNÍCH NÁRODŮ, KE KTERÉMU MŮŽE VLÁDA SPOJENÝCH STÁTŮ BEZPEČNĚ DÁT SVŮJ SOUHLAS'; britský vyslanec ALCOCK to zopakoval. V prosinci 1868 qingská vláda slíbila přijmout 'PSANÝ ZÁKONÍK OBCHODNÍHO PRÁVA A PEVNÁ PRAVIDLA ŘÍZENÍ A PRAXE'. A slova amerického vyslance byla úplně otevřená: bylo nutné 'VNUTIT JIM NAŠI CIVILIZACI… POSUNOUT JE K VYŠŠÍ CIVILIZACI'. A pak: PO PODPISU BOXERSKÉHO PROTOKOLU ROKU 1901 SE SLIB Z ROKU 1868 PROMĚNIL VE SMLUVNÍ ZÁVAZEK, formulovaný tak, že to budilo dojem, ŽE ČÍNA POZÁPADNĚNÍ SVÉHO PRÁVA DOBROVOLNĚ SAMA CHCE. ČLÁNEK XII čínsko-britské obchodní smlouvy z roku 1902: 'JELIKOŽ ČÍNA VYJÁDŘILA SILNÉ PŘÁNÍ REFORMOVAT SVŮJ SOUDNÍ ŘÁD A UVÉST HO V SOULAD SE ZÁPADNÍMI NÁRODY, VELKÁ BRITÁNIE SOUHLASÍ, ŽE TAKOVÉ REFORMĚ POSKYTNE VŠECHNU POMOC, A BUDE TAKÉ PŘIPRAVENA VZDÁT SE SVÝCH EXTRATERITORIÁLNÍCH PRÁV, AŽ BUDE SPOKOJENA, ŽE STAV ČÍNSKÝCH ZÁKONŮ, USPOŘÁDÁNÍ JEJICH SPRÁVY A DALŠÍ OHLEDY JI K TOMU OPRAVŇUJÍ.' Čti pozorně, kdo o tom rozhoduje: SAMY CIZÍ MOCNOSTI URČOVALY, ZDA A KDY SE EXTRATERITORIALITY VZDAJÍ — a navzdory obrovským změnám v dalších dvou desetiletích vyjadřovaly nespokojenost a VZDALY SE JÍ AŽ ROKU 1943, KDY TO VYNUTILA DRUHÁ SVĚTOVÁ VÁLKA.",
       "terms": [],
@@ -259,12 +207,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "Reforma 1902–1911: co se skutečně dělo",
       "text": "Po potlačení boxerského povstání a obsazení Pekingu osmi mocnostmi roku 1900 uprchl mandžuský dvůr do Si-anu a začátkem roku 1901 vydal edikt, jímž žádal vysoké úředníky o návrhy. Roku 1902 byly schváleny TŘI MEMORANDA podaná guvernéry ZHANG ZHIDONGEM a LIU KUNYIEM, volající po komplexních reformách. Navrhované změny v právu: OMEZIT SPORY A BYROKRACII, ZMÍRNIT TRESTY, POSTAVIT VĚZNICE, PŘEVÉST TĚLESNÉ TRESTY NA PENĚŽITÉ POKUTY A ODDĚLIT SPRÁVNÍ OD SOUDNÍCH POVINNOSTÍ. V následujícím desetiletí KOMISE PRO REVIZI ZÁKONŮ (zřízená 1904) a KOMISE PRO SESTAVENÍ ÚSTAVY zahájily řadu programů: vysílání studentů do zahraničí, zakládání právnických škol, nábor cizích a v cizině vyškolených čínských právníků a překlady cizích zákoníků. Do roku 1911 z toho vzešly NÁVRHY zákoníků občanského, trestního, procesních, státního občanství, tiskového a autorského. Jedna nenápadná, ale zásadní změna: STALETÁ PRAXE USPOŘÁDAT OBSAH DYNASTICKÝCH ZÁKONÍKŮ PODLE ŠESTI MINISTERSTEV BYLA NAHRAZENA ZÁPADNÍM ROZDĚLENÍM NA PRÁVO OBČANSKÉ, PROCESNÍ, TRESTNÍ, OBCHODNÍ, ÚSTAVNÍ. A Chen dodává, proč: západní komentátoři Stauntonova překladu kritizovali čínský řád za údajně IRACIONÁLNÍ STRUKTURU A NEDOSTATEK OBČANSKÉHO PRÁVA, PRÁVNÍHO VĚDOMÍ A INDIVIDUÁLNÍ SVOBODY — a REFORMÁTOŘI, ÚZKOSTLIVÍ SPLNIT CIZÍ OČEKÁVÁNÍ, ČASTO TY STEREOTYPNÍ CHARAKTERISTIKY UČINILI NESPORNÝMI A SEBENAPLŇUJÍCÍMI. Roku 1902 také reformátoři při první příležitosti ZRUŠILI TŘI NEJTĚŽŠÍ TRESTY — ROZŘEZÁNÍ (LINGCHI), VYSTAVENÍ HLAVY (XIAOSHOU) A ZHANOBENÍ MRTVOLY (LUSHI) — a také TETOVÁNÍ A ZÁSTUPNOU TRESTNÍ ODPOVĚDNOST (YUANZUO); SOUDNÍ MUČENÍ bylo zakázáno kromě hrdelních případů, kde vinu už prokázalo více svědků.",
       "terms": [],
@@ -286,12 +231,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "text_sha": null,
+    "12": {
       "title": "Shen Jiaben: umírněná cesta a argument suverenitou",
       "text": "Edikt z května 1902 jmenoval komisaři revize práva SHEN JIABENA (předního qingského právníka) a WU TINGFANGA (prvního Číňana vyškoleného jako barrister v Anglii) s pokynem 'STUDOVAT ZÁKONY VŠECH ZEMÍ' a vytvořit řád 'POUŽITELNÝ NA ČÍŇANY I CIZINCE'. Nový návrh trestního zákoníku z roku 1906 chtěl PŘEVÉST TĚLESNÉ TRESTY NA TREST SMRTI (jen uškrcením), VĚZENÍ, ZADRŽENÍ A POKUTY; SNÍŽIT POČET HRDELNÍCH USTANOVENÍ; ZRUŠIT ROZHODOVÁNÍ PODLE ANALOGIE (BIFU) tam, kde ustanovení chybí; a POSTAVIT NÁPRAVNÁ ZAŘÍZENÍ PRO MLADISTVÉ. Shen to zdůvodňoval CITACEMI Z ČÍNSKÉHO PRÁVA DŘÍVĚJŠÍCH DYNASTIÍ i ze současných západních systémů, čímž stávající zákony vykresloval jako odporující LEPŠÍ ČÍNSKÉ TRADICI I 'UNIVERZÁLNÍ' PRAXI MODERNÍHO SVĚTA. A jeho hlavní argument dvoru zněl suverenitou: 'NEZÁVISLÝ STÁT MÁ MÍT NA SVÉM ÚZEMÍ VÝLUČNOU JURISDIKCI (DULI FAQUAN). KROMĚ CIZÍCH PANOVNÍKŮ, DIPLOMATŮ A JISTÝCH VOJSK PODLÉHAJÍ PODLE MEZINÁRODNÍCH NOREM VŠICHNI CIZINCI PRÁVU ZEMĚ. KONZULÁRNÍ JURISDIKCE VŠAK BYLA V ČÍNĚ ZAVEDENA POD ZÁMINKOU, ŽE NÁŠ SOUDNÍ ŘÁD JE VADNÝ. BRITÁNIE TO ZAČALA A NÁSLEDOVALO NĚMECKO, ZATÍMCO JAPONSKO ZŘÍDILO SOUDY DOKONCE V RODNÉM KRAJI [QINGSKÝCH VLÁDCŮ V MANDŽUSKU]. NAŠE SVRCHOVANOST JE DEN ZA DNEM PODRÝVÁNA.' Vedle Shena stál JI TONGJUN, který podle všeho jako první doporučil zrušit kruté tělesné tresty, ale jehož ideálem bylo REVIDOVAT QINGSKÝ ŘÁD, ANIŽ SE OPUSTÍ JEHO PODSTATA — prosadil proto úpravu qingského zákoníku do PLATNÉHO TRESTNÍHO PRÁVA (XIANXING XINGLÜ). Shen i Ji se shodli, že PODSTATA ČÍNSKÉHO PRÁVA NENÍ NESOUMĚŘITELNÁ SE ZÁPADNÍM ČI MODERNÍM PRÁVEM A ŽE ČÍNSKÁ MODERNITA NEMŮŽE A NEMÁ VZNIKNOUT ÚPLNOU DEKONSTRUKCÍ ČI ZNIČENÍM ČÍNSKÉ PRÁVNÍ TRADICE.",
       "terms": [],
@@ -313,19 +255,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "text_sha": null,
+    "13": {
       "title": "Spor o nový trestní zákoník: rodinismus proti státismu",
       "text": "Návrh nového trestního zákoníku sestavil roku 1906–07 najatý japonský profesor trestního práva OKADA ASATARO podle JAPONSKÉHO TRESTNÍHO ZÁKONÍKU, který sám byl podle západních vzorů; pomáhali mu absolventi japonských právnických škol. Mezi lety 1908 a 1910 přišly asi DVĚ DESÍTKY MEMORAND: připomínkující sdíleli naléhavost reformy, ale mnozí měli za to, že NÁVRH ZAŠEL PŘÍLIŠ DALEKO V PŘEVZETÍ CIZÍHO ZÁKONÍKU BEZ OHLEDU NA HIERARCHICKÝ SPOLEČENSKÝ A POLITICKÝ ŘÁD (SANGANG WUCHANG) A MRAVNÍ NORMY (LIJIAO). Zvlášť tvrdé bylo memorandum MINISTERSTVA ŠKOLSTVÍ v čele se Zhang Zhidongem za to, že nový zákoník ODSTRAŇOVAL ROZDÍLNÉ PRÁVNÍ ZACHÁZENÍ S LIDMI PODLE SPOLEČENSKÉHO, RODINNÉHO A POHLAVNÍHO POSTAVENÍ. A ústřední formulace sporu pochází od YANG DUA, který studoval v Japonsku: DEBATA NENÍ JEN O ZÁKONÍKU, NÝBRŽ O TOM, ZDA MÁ ČÍNA NAHRADIT SVŮJ STARÝ 'RODINISMUS' (JIATING ZHUYI) 'STÁTISMEM' (GUOJIA ZHUYI), který převládá jinde. Podle něj plynula čínská slabost z toho, že její zákony a mravní normy JSOU ZAKOŘENĚNY V RODINISMU, KDE JSOU PRÁVA A POVINNOSTI KAŽDÉHO JEDNOTLIVCE SVÁZÁNY S RODINOU MÍSTO SE STÁTEM — kdežto jinde jsou zakořeněny ve státismu, kde se KAŽDÝ DOSPĚLÝ STÁVÁ OBČANEM ZEMĚ (GUOMIN) a jeho bohatství a schopnosti se převádějí v národní sílu. Chen dodává, že Yang nejspíš narazil na překlad MAINEOVA ANCIENT LAW (1861), který Liang Qichao ve stejné době výslovně citoval: Maine tvrdil, že Čína nikdy nepřekročila společnost založenou na STATUSU směrem ke společnosti založené na SMLOUVĚ, a že zatímco jiným společnostem právo pomáhalo vpřed, ČÍNSKÉ ZÁKONY TU ZEMI DRŽELY ZPÁTKY.",
       "terms": [
-        {
-          "term": "rodinismus × státismus",
-          "def": "Yang Duova formulace sporu: jsou práva a povinnosti jednotlivce svázány s RODINOU, nebo se STÁTEM, jehož je občanem (guomin)?"
-        }
+        { "term": "rodinismus × státismus", "def": "Yang Duova formulace sporu: jsou práva a povinnosti jednotlivce svázány s RODINOU, nebo se STÁTEM, jehož je občanem (guomin)?" }
       ],
       "cards": [
         {
@@ -345,12 +281,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "text_sha": null,
+    "14": {
       "title": "Lao Naixuan: 'konzervativec', který souhlasil s 97 procenty",
       "text": "LAO NAIXUAN, vůdčí kritický hlas, se přes celé století kritizuje jako iracionální konzervativec lpící na zaostalé tradici — a Chen ukazuje, že ta nálepka MÍJÍ SLOŽITOST ČÍNSKÉ ZKUŠENOSTI S MODERNITOU. Lao a jeho příznivci, kteří tvořili VÍC NEŽ POLOVINU ČLENŮ ŘÍŠSKÉ RADY, ve skutečnosti VĚTŠINU NOVÉHO ZÁKONÍKU ANI REFORMNÍ HNUTÍ SAMO NEODMÍTALI. Lao souhlasil, že reforma je nutná ke zrušení extrateritoriality; NEBYL PROTI ZRUŠENÍ BITÍ BAMBUSEM A SOUDNÍHO MUČENÍ ANI PROTI ZAVEDENÍ SOUDNÍ NEZÁVISLOSTI A VĚZEŇSKÉHO SYSTÉMU. Sporné bylo tvrzení Yang Dua, že Čína musí přijmout TÝŽ DRUH systému jako Japonsko a Západ. Laovy argumenty stojí za zapamatování, protože znějí velmi rozumně. ZA PRVÉ: po provedení těch reforem by Čína splnila podmínky smluv, POKUD BY REFORMOVANÝ ŘÁD BYL 'VCELKU SROVNATELNÝ' (DATI XIANGTONG) s řády extrateritoriálních mocností. ZA DRUHÉ, těm, kdo žádali, aby cizincům vyhovoval skoro každý článek: SAMY EXTRATERITORIÁLNÍ MOCNOSTI SE OD SEBE V RŮZNÝCH OHLEDECH LIŠÍ, takže je NEMOŽNÉ uspokojit všechny. ZA TŘETÍ: MEZI SMLUVNÍMI MOCNOSTMI NEMOHOU PŘÍSLUŠNÍCI JEDNÉ ZEMĚ ODEPŘÍT JURISDIKCI DRUHÉ JEN PROTO, ŽE SE JEJÍ PRÁVO LIŠÍ OD JEJICH. ZA ČTVRTÉ, z vlastní zkušenosti s cizími vládami: SAMA PRÁVNÍ REFORMA O ZRUŠENÍ EXTRATERITORIALITY NEROZHODNE. A Chen dodává: V TOM MĚL PRAVDU — extrateritorialita skončila až tři desetiletí po qingské reformě. Sám Lao si stěžoval, že ho tisk napadá jako veřejného nepřítele nového zákoníku, ačkoli PODPOROVAL PŘES 97 PROCENT ZE ČTYŘ SET ČLÁNKŮ a žádal jen obnovit či upravit pět šest článků a osm devět přidat.",
       "terms": [],
@@ -372,12 +305,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "text_sha": null,
+    "15": {
       "title": "Spor scvrknutý na dvě otázky",
       "text": "Lao ovšem SÁM TAKÉ ESENCIALIZOVAL. Místo aby nový zákoník napadal pro cizí kořeny, snažil se do něj VRÁTIT NĚKOLIK QINGSKÝCH USTANOVENÍ: o zločinech mezi příbuznými, o rozkopávání cizích hrobů, o CIZOLOŽSTVÍ NEPROVDANÝCH ŽEN (WU FU JIAN) a o PRÁVU KÁZNIT DĚTI A VNUKY. Ta ustanovení pokládal za základní pro společenský řád a mravní normy (LUNJI LIJIAO), a tedy nepostradatelná. Na rozdíl od Yang Dua nemyslel, že LZE PRÁVO A MRAVNOST ÚPLNĚ ODDĚLIT. Přijal Yangovo tvrzení, že Čína je založena na duchu rodinismu, ALE NEDOSTATEK NÁRODNÍHO VĚDOMÍ A VLASTENECTVÍ PŘIPISOVAL NE PRÁVU ČI RODINISMU, NÝBRŽ POLITICKÝM INSTITUCÍM 'DESPOTISMU' (ZHUANZHI ZHUYI). Stavěje Čínu jako zemědělskou společnost proti západním průmyslovým národům, uzavřel, že ZPŮSOB A PODMÍNKY ŽIVOTA NÁRODA URČUJÍ JEHO ZVYKY, MRAVNÍ NORMY A ZŘÍZENÍ, A TEPRVE POTOM JEHO PRÁVO (společnosti dělil na tři typy: zemědělské řízené rodinným právem, kočovné vojenským a průmyslové obchodním). Do konce prvního čtení se spor SCVRKL NA DVĚ OTÁZKY: 1) MÁ ZÁKONÍK TRESTAT CIZOLOŽSTVÍ NEPROVDANÝCH ŽEN? 2) MÁ TRESTAT ZRANĚNÍ DÍTĚTE ČI VNUKA PŘI JEHO KÁZNĚNÍ TAK, JAKO BY ŠLO O ZRANĚNÍ MEZI SOBĚ ROVNÝMI (ZISUN WEIFAN JIAOLING)? Shen Jiaben a jeho lidé tvrdili, že to NEJSOU PRÁVNÍ, NÝBRŽ MRAVNÍ otázky a patří k výchově; Lao a Chen Baochen je pokládali za klíčové pro veřejnou mravnost, a tedy hodné zásahu státu. Několik týdnů to rozněcovalo veřejnost v Tchien-ťinu, Šanghaji i Pekingu; noviny obvykle bičovaly Laovu 'frakci' jako reakční překážku pokroku, a napětí vystoupalo tak, že GAO LINGXIAO, Laův hlasitý příznivec, SI DOKONCE VYMĚNIL RÁNY se zastánci nového zákoníku před radou.",
       "terms": [],
@@ -399,12 +329,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "text_sha": null,
+    "16": {
       "title": "Ironie na konci: cizinci hájí čínskou tradici",
       "text": "Na sklonku qingské éry to byli PRÁVNÍCI ZE SMLUVNÍCH MOCNOSTÍ, kdo uznávali hodnotu umírající čínské právní tradice. Německý právník DR. HARALD GUTHERZ, přednášející na Německo-čínském institutu v Čching-tao, napsal roku 1910 slavnou kritiku nového trestního zákoníku, ve které varoval, ŽE BY ČÍŇANÉ NEMĚLI ZCELA OPUSTIT VLASTNÍ PRÁVNÍ ŘÁD VE PROSPĚCH CIZÍHO, PROTOŽE I EVROPŠTÍ PRÁVNÍCI OD STAUNTONOVA PŘEKLADU ROKU 1810 UZNÁVALI PŘEDNOSTI QINGSKÉHO ZÁKONÍKU. A CHARLES SUMNER LOBINGER, soudce amerického extrateritoriálního soudu v Šanghaji, roku 1908 čtenářům připomněl zapomenutou skutečnost, že Čína měla VYSOCE PROPRACOVANÝ PRÁVNÍ ŘÁD A ZDALEKA NEJSTARŠÍ NEPŘETRŽITĚ PLATNÝ ZÁKONÍK NA SVĚTĚ — s poznámkou, že KDYBY JUSTINIÁNŮV KODEX PLATIL OD SVÉHO VYHLÁŠENÍ V 6. STOLETÍ, BYL BY V POROVNÁNÍ S ČÍNSKÝM STÁLE JEŠTĚ VELMI MLADÝ.",
       "terms": [],
@@ -418,12 +345,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "text_sha": null,
+    "17": {
       "title": "Reformátoři, kteří si to rozmysleli",
       "text": "Nejsilnější doklad Chenovy teze. WANG RONGBAO, jeden z tvůrců a obhájců nového zákoníku, roku 1927 v podstatě přiznal chybu sedmnáct let starou. Uznal, že pozdně císařské čínské právo VYROSTLO ORGANICKY Z DLOUHÝCH DĚJIN A DO DOBY TANG V 7. STOLETÍ SE UŽ ROZVINULO V PROPRACOVANÝ ŘÁD SROVNATELNÝ SE ZÁPADNÍM. A důvod, proč ho tehdy tak horlivě podporoval, je velmi poučný: 'NOVÝ TRESTNÍ ZÁKONÍK PŘEVZAL SPOUSTU ZÁPADNÍCH PRÁVNÍCH MYŠLENEK, V OSTRÉM PROTIKLADU KE STARÉMU ČÍNSKÉMU PRÁVU. ČASTO JSEM TO POKLÁDAL ZA PROBLEMATICKÉ (CHANG YIWEI BIN), ALE NEMOHL JSEM S OSTATNÍMI NESOUHLASIT, I KDYBYCH BYL CHTĚL, PROTOŽE TO [PŘÁNÍ POZÁPADNIT ČÍNSKÉ PRÁVO] PLYNULO Z PŘEVLÁDAJÍCÍ NÁLADY (FENGHUI) TÉ DOBY A Z PŘÍKLADŮ ČETNÝCH CIZÍCH ZEMÍ.' Roku 1926 pak Wang zopakoval, co v roce 1910 říkal Lao: FA A LI JSOU DVĚ STRANY TÉŽE MINCE A JSOU 'VZÁJEMNĚ ZAMĚNITELNÉ' — a šel dokonce dál než Lao tvrzením, že VLÁDA PRÁVA JE V PODSTATĚ VLÁDOU LI a že v cizině vzdělaní Číňané trvali na jejich oddělení proto, že JEJICH ZNALOST BYLA POVRCHNÍ A NEROZUMĚLI PŮVODU PRÁVA. DONG KANG, další obhájce z roku 1910, si to rozmyslel také: tehdy tvrdil, že stávající řád nelze zachovat, má-li Čína 'pokročit a prospívat' a vyhnout se žalostnému osudu Turecka a Indie; o deset let později svůj dřívější odmítavý postoj PŘIČETL VLIVU ZÁPADNÍCH MYŠLENEK a uzavřel, že reforma nemůže probíhat opuštěním čínského LIJIAO, protože by to bylo jako 'USEKÁVAT NOHY, ABY PADLY DO BOT'.",
       "terms": [],
@@ -445,19 +369,16 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "text_sha": null,
+    "18": {
       "title": "Závěr: kostky vrženy",
-      "text": "A přesto — i v těch pozdějších sebereflexích Wang a Dong DÁL PROJEVOVALI ÚČINEK SYMBOLICKÉHO NÁSILÍ KULTURNÍHO IMPERIALISMU, protože dál užívali sebe-orientalizující jazyk, který ČÍNSKOU PRÁVNÍ TRADICI A SPOLEČENSKOU SKUTEČNOST REDUKOVAL POUZE NA LIJIAO, RODINU A SPOLEČENSKOU HIERARCHII. Jak poznamenal historik ARIF DIRLIK, tenhle esencialismus měl sice odrazit úplné pozápadnění, ale 'V SAMOTNÉM TOM PROCESU TAKÉ UPEVŇOVAL „ZÁPADNÍ“ IDEOLOGICKOU HEGEMONII TÍM, ŽE ZVNITŘŇOVAL DĚJINNÉ PŘEDPOKLADY ORIENTALISMU'. Ačkoli si to někteří reformátoři rozmysleli, KOSTKY UŽ BYLY VRŽENY: udělali z čínského práva ORIENTÁLNÍ PRÁVNÍ TRADICI PŘEDPOKLÁDANĚ PROTIKLADNOU MODERNÍMU PRÁVU. DO POČÁTKU 30. LET SI PRÁVNÍ ŘÁD, KTERÝ VLÁDL CÍSAŘSKÉ ČÍNĚ VÍC NEŽ TISÍC LET, SOTVA MOHL NÁROKOVAT NĚJAKOU LEGITIMNÍ ROLI V NYNÍ 'MODERNÍ' ZEMI. Naproti tomu ANGLO-AMERICKÁ PRÁVNÍ TRADICE, JEJÍŽ DĚJINY SE TÁHNOU PŘES MNOHO STALETÍ, SE STALA SOUČÁSTÍ UNIVERZÁLNÍHO MĚŘÍTKA VYMEZUJÍCÍHO MODERNÍ PRÁVO JEŠTĚ V 21. STOLETÍ. Závěrečné teze: dějiny čínských reforem SE NEDAJÍ ZREDUKOVAT NA ÚHLEDNÉ DVOJICE tradice a modernita, Čína a Západ, úspěch a neúspěch, konzervativní a pokrokový; 'KONZERVATIVCI' A 'REFORMÁTOŘI' MĚLI VÍC SPOLEČNÉHO, NEŽ SE UZNÁVALO, a OBĚ STRANY dělaly esencializující charakteristiky. A poslední věta, kterou je dobré umět: DĚJINY ČÍNSKÉ PRÁVNÍ MODERNITY JE TŘEBA CHÁPAT JAKO NEUSTÁLÝ ZÁPAS O ROVNOVÁHU MEZI ÚZKOSTÍ O KULTURNÍ IDENTITU A TOUHOU PO MEZINÁRODNÍM UZNÁNÍ OD PŘEVLÁDAJÍCÍCH MOCNOSTÍ — A DOKUD SE TA KŘEHKÁ ROVNOVÁHA NENAJDE, BUDE SE ČÍNSKÝ PRÁVNÍ ŘÁD JEVIT ČÍŇANŮM PŘÍLIŠ CIZÍ A CIZINCŮM PŘÍLIŠ ČÍNSKÝ.",
+      "text": "A přesto — i v těch pozdějších sebereflexích Wang a Dong DÁL PROJEVOVALI ÚČINEK SYMBOLICKÉHO NÁSILÍ KULTURNÍHO IMPERIALISMU, protože dál užívali sebe-orientalizující jazyk, který ČÍNSKOU PRÁVNÍ TRADICI A SPOLEČENSKOU SKUTEČNOST REDUKOVAL POUZE NA LIJIAO, RODINU A SPOLEČENSKOU HIERARCHII. Jak poznamenal historik ARIF DIRLIK, tenhle esencialismus měl sice odrazit úplné pozápadnění, ale 'V SAMOTNÉM TOM PROCESU TAKÉ UPEVŇOVAL \u201eZÁPADNÍ\u201c IDEOLOGICKOU HEGEMONII TÍM, ŽE ZVNITŘŇOVAL DĚJINNÉ PŘEDPOKLADY ORIENTALISMU'. Ačkoli si to někteří reformátoři rozmysleli, KOSTKY UŽ BYLY VRŽENY: udělali z čínského práva ORIENTÁLNÍ PRÁVNÍ TRADICI PŘEDPOKLÁDANĚ PROTIKLADNOU MODERNÍMU PRÁVU. DO POČÁTKU 30. LET SI PRÁVNÍ ŘÁD, KTERÝ VLÁDL CÍSAŘSKÉ ČÍNĚ VÍC NEŽ TISÍC LET, SOTVA MOHL NÁROKOVAT NĚJAKOU LEGITIMNÍ ROLI V NYNÍ 'MODERNÍ' ZEMI. Naproti tomu ANGLO-AMERICKÁ PRÁVNÍ TRADICE, JEJÍŽ DĚJINY SE TÁHNOU PŘES MNOHO STALETÍ, SE STALA SOUČÁSTÍ UNIVERZÁLNÍHO MĚŘÍTKA VYMEZUJÍCÍHO MODERNÍ PRÁVO JEŠTĚ V 21. STOLETÍ. Závěrečné teze: dějiny čínských reforem SE NEDAJÍ ZREDUKOVAT NA ÚHLEDNÉ DVOJICE tradice a modernita, Čína a Západ, úspěch a neúspěch, konzervativní a pokrokový; 'KONZERVATIVCI' A 'REFORMÁTOŘI' MĚLI VÍC SPOLEČNÉHO, NEŽ SE UZNÁVALO, a OBĚ STRANY dělaly esencializující charakteristiky. A poslední věta, kterou je dobré umět: DĚJINY ČÍNSKÉ PRÁVNÍ MODERNITY JE TŘEBA CHÁPAT JAKO NEUSTÁLÝ ZÁPAS O ROVNOVÁHU MEZI ÚZKOSTÍ O KULTURNÍ IDENTITU A TOUHOU PO MEZINÁRODNÍM UZNÁNÍ OD PŘEVLÁDAJÍCÍCH MOCNOSTÍ — A DOKUD SE TA KŘEHKÁ ROVNOVÁHA NENAJDE, BUDE SE ČÍNSKÝ PRÁVNÍ ŘÁD JEVIT ČÍŇANŮM PŘÍLIŠ CIZÍ A CIZINCŮM PŘÍLIŠ ČÍNSKÝ.",
       "terms": [],
       "cards": [
         {
           "q": "Jak Dirlik hodnotí esencialismus, kterým se Číňané bránili pozápadnění?",
-          "a": "Že měl sice odrazit úplné pozápadnění, ale 'V SAMOTNÉM TOM PROCESU TAKÉ UPEVŇOVAL „ZÁPADNÍ“ IDEOLOGICKOU HEGEMONII TÍM, ŽE ZVNITŘŇOVAL DĚJINNÉ PŘEDPOKLADY ORIENTALISMU'. Obrana převzala rámec, proti kterému se bránila.",
+          "a": "Že měl sice odrazit úplné pozápadnění, ale 'V SAMOTNÉM TOM PROCESU TAKÉ UPEVŇOVAL \u201eZÁPADNÍ\u201c IDEOLOGICKOU HEGEMONII TÍM, ŽE ZVNITŘŇOVAL DĚJINNÉ PŘEDPOKLADY ORIENTALISMU'. Obrana převzala rámec, proti kterému se bránila.",
           "difficulty": 3,
           "kind": "basic",
           "topic": "Chinese Legal History",
@@ -472,8 +393,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

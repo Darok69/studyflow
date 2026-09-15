@@ -1,28 +1,12 @@
 {
   "lecture_id": "RD08",
-  "kind": "reading",
-  "course": "RD",
-  "course_title": "Required reading",
-  "course_number": "030362",
-  "unit": "Téma 13",
   "title": "Guéraiche, Colonial Systems of Law (French Empire)",
-  "source_file": "raw/RD08_8-gueraiche-law-colonial-systems-of-french-empire.pdf",
-  "source_sha256": "82e73dfc440436afd1f30f11fed5b95e5b21150ea640d5c9ff51002dda96deb2",
-  "source_pages": 2,
-  "slides_per_page": 1,
-  "slide_count": 7,
-  "updated_at": "2026-09-15T13:07:00+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "text_sha": null,
+  "slides": {
+    "1": {
       "title": "Systéme de l'Exclusif a rozpor, který nese celý text",
       "text": "RAISON D'ÊTRE FRANCOUZSKÝCH KOLONIÍ BYLO PROSPÍVAT FRANCII. Královská nařízení 18. století vymezila SYSTÉME DE L'EXCLUSIF, podle kterého byla zámořská území POD MOCÍ METROPOLITNÍ FRANCIE a jakýkoli obchod mezi Francií a jejími koloniemi měl být KE PROSPĚCHU FRANCIE. Zásady revoluce 1789 a její odkaz šly proti těmto ustanovením ancien régime, zvlášť po upevnění republiky v 80. letech 19. století. TEORETICKY MĚLO FRANCOUZSKÉ PRÁVO PLATIT STEJNĚ NA VŠECH FRANCOUZSKÝCH ÚZEMÍCH, VČETNĚ TĚCH MIMO METROPOLI — V PRAXI TOMU TAK NEBYLO. A tady je věta, o kterou se opírá celý článek a kterou je nejlepší si zapamatovat doslova: REPUBLIKÁNSKÉ PRÁVO, HLUBOCE OVLIVNĚNÉ REVOLUCÍ, MĚLO BÝT PROSTŘEDKEM EMANCIPACE KOLONIZOVANÉHO OBYVATELSTVA, ALE NA MÍSTĚ SE PRÁVA UŽÍVALO I K JEJICH DONUCOVÁNÍ.",
       "terms": [
-        {
-          "term": "systéme de l'Exclusif",
-          "def": "Řád královských nařízení 18. století: zámořská území pod mocí metropole a veškerý obchod ku prospěchu Francie."
-        }
+        { "term": "systéme de l'Exclusif", "def": "Řád královských nařízení 18. století: zámořská území pod mocí metropole a veškerý obchod ku prospěchu Francie." }
       ],
       "cards": [
         {
@@ -34,12 +18,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "text_sha": null,
+    "2": {
       "title": "Slátanina práv a zákonů",
       "text": "V koloniích se udržovala KOMBINACE RŮZNÝCH PRÁVNÍCH ÚPRAV — FORMÁLNÍCH ZÁKONŮ, DEKRETŮ ODHLASOVANÝCH ČI VYDANÝCH V PAŘÍŽI, VÝKONNÝCH NAŘÍZENÍ A MÍSTNÍCH OBYČEJŮ — a to tak, aby sloužila zájmům kolonizátora. Po skutečném dobytí území MĚLO PRÁVO NAHRADIT MOC ZBRANÍ, ale téměř v každém případě PŘETRVALA RIVALITA MEZI ARMÁDOU A CIVILNÍ SPRÁVOU. Ukázkou je ALŽÍRSKO: vojáci, dobyvatelé z roku 1830, se zdráhali poslouchat civilní správu, jejíž moc potvrdil zákon až V PROSINCI 1896 a pak v prosinci 1900. V koloniích pod přímou francouzskou vládou, jako bylo Alžírsko, byl GENERÁLNÍ GUVERNÉR VŠEMOCNÝ. Kolonie se řídily jednak DEKRETY DVOU MINISTERSTEV v Paříži (ministerstva vnitra a koloniálního úřadu), jednak VÝKONNÝMI NAŘÍZENÍMI, která dělala ze zástupce francouzské vlády HLAVNÍ PRAMEN PRÁVA. Většina výkonné i soudní moci ležela u generálního guvernéra, zvlášť na územích vzdálenějších od Francie.",
       "terms": [],
@@ -61,19 +42,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "Protektoráty a zdání autonomie",
       "text": "Zatímco francouzská říše byla hlavně pod PŘÍMOU VLÁDOU, zřizovaly se i PROTEKTORÁTY. Aby se udrželo ZDÁNÍ AUTONOMIE, ponechali Francouzi domorodým panovníkům SYMBOLICKOU ZÁKONODÁRNOU MOC a nechali MÍSTNÍ PRÁVNÍ INSTITUCE NEDOTČENÉ. Po dobytí MAROKA ROKU 1911 byl například ponechán SULTÁN jako součást státního aparátu: PODEPISOVAL DAHIRY (DEKRETY) SEPSANÉ SVÝMI VEZÍRY — A SCHVÁLENÉ FRANCOUZSKOU SPRÁVOU. Ale prakticky vzato vládli zemi Francouzi prostřednictvím GENERÁLNÍHO REZIDENTA. Francouzi se navíc snažili NEZASAHOVAT DO OBČANSKÝCH VĚCÍ, DOKUD NEBYLA ZPOCHYBŇOVÁNA JEJICH AUTORITA, a byli obzvlášť opatrní, KDE ŠLO O NÁBOŽENSTVÍ. Soudy bývaly v pravomoci domorodých soudců, ale VŽDY POD KONTROLOU FRANCOUZSKÉ SPRÁVY. A jeden rys, který se vyplatí znát: PO CELÉ ŘÍŠI FRANCOUZI ZAPISOVALI TRADIČNÍ PRÁVO TAM, KDE PŘED JEJICH PŘÍCHODEM NEEXISTOVALO PSANÉ PRÁVO — tak u BERBERSKÉHO A KABYLSKÉHO obyvatelstva v Alžírsku a Maroku.",
       "terms": [
-        {
-          "term": "dahir",
-          "def": "Marocký dekret, který sultán podepisoval — sepsaný jeho vezíry a schválený francouzskou správou."
-        }
+        { "term": "dahir", "def": "Marocký dekret, který sultán podepisoval — sepsaný jeho vezíry a schválený francouzskou správou." }
       ],
       "cards": [
         {
@@ -93,19 +68,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Právo jako prostředek emancipace",
       "text": "Od revoluce 1789 se francouzské právo chápalo jako prostředek k dosažení republikánského IDEÁLU ROVNOSTI MEZI LIDMI, jak to říká ČL. VI DEKLARACE PRÁV ČLOVĚKA. Jenže KOLONIZACE UŽ SVOU POVAHOU ŠLA PROTI TÉ ZÁSADĚ. V mnoha koloniích stále existovalo OTROCTVÍ: po nezdařeném pokusu zrušit ho za první republiky v ÚNORU 1794 uspěl teprve abolicionista VICTOR SCHOELCHER (1804–1893), který ho ZAKÁZAL ROKU 1848. Zákon byl vyhlášen v celé říši, ale v koloniích jako KAMBODŽA se místní vládci zdráhali tak výnosné instituce vzdát. Francouzští úředníci formálně odsuzovali 'NELIDSKÉ' PRAKTIKY jako tělesné mrzačení či kanibalismus v Rovníkové Africe nebo trest smrti uškrcením v Indočíně. S pevně usazenou republikou na konci 19. století podporovali opravdoví demokraté POLITIKU ASIMILACE, založenou na zásadě, že FRANCOUZSKÉ PRÁVO MÁ PLATIT NA VŠECH FRANCOUZSKÝCH ÚZEMÍCH A ŽE VŠEM OBYVATELŮM ŘÍŠE MAJÍ BÝT PŘIZNÁNA TÁŽ PRÁVA JAKO KTERÉMUKOLI FRANCOUZSKÉMU OBČANU; ve stejném duchu sjednotila roku 1892 celní sazby. TENHLE SMĚR PŘEVLÁDAL OD 70. LET DO POLOVINY 90. LET.",
       "terms": [
-        {
-          "term": "asimilace",
-          "def": "Politika, podle níž má francouzské právo platit na všech územích říše a všem jejím obyvatelům mají příslušet táž práva jako francouzskému občanu. Převládala od 70. let do poloviny 90. let 19. století."
-        }
+        { "term": "asimilace", "def": "Politika, podle níž má francouzské právo platit na všech územích říše a všem jejím obyvatelům mají příslušet táž práva jako francouzskému občanu. Převládala od 70. let do poloviny 90. let 19. století." }
       ],
       "cards": [
         {
@@ -125,12 +94,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Obrat proti asimilaci a otázka občanství",
       "text": "PO ZŘÍZENÍ KOLONIÁLNÍHO ÚŘADU V BŘEZNU 1894 získali ODPŮRCI ASIMILACE PŮDU POD NOHAMA — POD ZÁMINKOU RESPEKTU K MÍSTNÍM TRADICÍM. Hlavní překážkou rovnosti pak zůstalo FRANCOUZSKÉ OBČANSTVÍ, které se lidem z kolonií UDĚLOVALO JEN ZŘÍDKA. A teď ten nejostřejší fakt článku: PŘESTOŽE ZA PRVNÍ SVĚTOVÉ VÁLKY BYLO MOBILIZOVÁNO TÉMĚŘ MILION KOLONIÁLNÍCH VOJÁKŮ, NESMĚLÉ PRÁVNÍ REFORMY PONECHALY ZÍSKÁNÍ PLNÉHO OBČANSTVÍ OBTÍŽNÉ. To živilo ROSTOUCÍ ROZHOŘČENÍ DOMORODÉ ELITY, VĚDOMÉ SI SVÉHO PODŘADNÉHO POSTAVENÍ. LIDOVÁ FRONTA LÉONA BLUMA (1872–1950), první socialistická vláda Francie (1936–1937), se soustředila na domácí otázky a reformám v koloniích věnovala málo energie — přesto prosadila ZÁKAZ NUCENÉ PRÁCE a zřízení KOLONIÁLNÍHO INSPEKTORA PRÁCE.",
       "terms": [],
@@ -144,12 +110,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Právo jako prostředek donucení: půda v Alžírsku",
       "text": "Protože myšlenka využívat kolonie ke prospěchu kolonizátora nikdy doopravdy nezmizela, uplatňovalo se 'omezení' francouzského práva na místě jen zřídka. Osadníci byli potřeba, ale Francouzi, historicky silně připoutaní k domovu, se do zámoří zřídka vydávali bez vyhlídky na výnosný zisk — a tak vznikly ZÁKONY, KTERÉ MĚLY RIZIKO OSADNÍKŮ MINIMALIZOVAT. Po 'PACIFIKACI' ALŽÍRSKA na konci 30. let 19. století dala správa každému osadníkovi DŮM NA POZEMKU, JEHOŽ TŘETINA UŽ BYLA OBDĚLANÁ — první podnět k rozvoji MITIDJI, nejúrodnější půdy kolem Alžíru. Aby se uspokojila rostoucí poptávka po půdě, BYLO MÍSTNÍ OBYVATELSTVO STLAČENO NA MENŠÍ A MÉNĚ VÝNOSNÉ POZEMKY rozdělené mezi kmeny. Po porážce od Pruska a ztrátě Alsaska a Lotrinska Frankfurtskou smlouvou v květnu 1871 přišel V ČERVNU 1871 ZÁKON, KTERÝ PŘIDĚLIL 100 000 HEKTARŮ V ALŽÍRSKU RODÁKŮM Z TĚCHTO PROVINCIÍ — půda byla ZKONFISKOVÁNA MOQRANIMU, náčelníkovi oblasti Medjana, který se roku 1871 vzbouřil za VELKÉ KABYLSKÉ VZPOURY. Politika konfiskací vyvrcholila V ČERVENCI 1873 ZÁKONEM, KTERÝ USNADNIL VYVLASTŇOVÁNÍ ALŽÍŘANŮ. V témže duchu byla po celé říši uložena NUCENÁ PRÁCE: teoreticky mohli být místní nuceni k veřejným povinnostem od PĚTI DNŮ V INDOČÍNĚ po DVA TÝDNY V ROVNÍKOVÉ AFRICE.",
       "terms": [],
@@ -171,12 +134,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Paradox na konci",
       "text": "Autorův závěr, a je to dobrá pointa k srovnání s britským případem. FRANCOUZSKÉ PRÁVO BYLO PROSTŘEDKEM, JAK KOLONIZACI OSPRAVEDLNIT: Francouzi měli stejně jako Američané 'CIVILIZOVAT' domorodé obyvatelstvo, ale ve skutečnosti své kolonie POUZE VYKOŘISŤOVALI. A přesto: PO NEZÁVISLOSTI VĚTŠINA KOLONIÍ Z FRANCOUZSKÉHO PRÁVA TĚŽILA, například PŘEVZETÍM FRANCOUZSKÉHO OBČANSKÉHO ZÁKONÍKU Z ROKU 1804. PARADOXNĚ BYL FRANCOUZSKÝ VLIV VÝRAZNĚJŠÍ PO NEZÁVISLOSTI. Srovnej s britským případem, kde Wenzlhuemer říká v podstatě totéž: v Indii zůstal Brity zavedený řád po roce 1947 prakticky nedotčen. Právní dědictví kolonialismu nekončí s kolonialismem — a v obou říších to platí bez ohledu na to, jak odlišné byly jejich metody.",
       "terms": [],
@@ -198,8 +158,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

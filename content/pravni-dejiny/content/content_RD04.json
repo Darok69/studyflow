@@ -1,21 +1,8 @@
 {
   "lecture_id": "RD04",
-  "kind": "reading",
-  "course": "RD",
-  "course_title": "Required reading",
-  "course_number": "030362",
-  "unit": "Téma 7",
   "title": "Duchhardt, From the Peace of Westphalia to the Congress of Vienna",
-  "source_file": "raw/RD04_4-duchhardt-from-the-peace-of-w-alia-to-the-congress-of-vien.pdf",
-  "source_sha256": "b51214b59944d5d28efb199c8d11686aa50c2ea5039112fa471a5ec8d23b69a3",
-  "source_pages": 21,
-  "slides_per_page": 1,
-  "slide_count": 29,
-  "updated_at": "2026-09-15T13:06:59+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "text_sha": null,
+  "slides": {
+    "1": {
       "title": "Jak se dají dějiny mezinárodního práva psát",
       "text": "Duchhardt otevírá metodou, a ta rozhoduje o zbytku. Dá se jít PODLE VELKÝCH AUTORŮ a jejich nauk chronologicky — jenže tak se přehlédnou 'menší' autoři a NEDOSTANE SE DOST VÁHY PROVÁZANOSTI TEORIE A PRAXE. Dá se jít PODLE ÚDAJNÝCH ZLOMŮ, tedy velkých mírových kongresů od Münsteru 1648 po Vídeň 1814–15 — jenže pak se nedostane na teorii. Wilhelm Grewe v EPOCHEN DER VÖLKERRECHTSGESCHICHTE vyšel OD STÁTŮ a probíral otázky, které je hnaly do sporu a vyžadovaly úpravu. Duchhardt volí totéž: TEMATICKY podle otázek ústředních pro vztahy mezi státy — podle něj je to metoda, která NEJLÍP SPOJUJE POLITIKU S TEORIÍ. Zapamatuj si ten důvod, protože vysvětluje, proč článek střídá vojenské dějiny s dogmatikou: mezinárodní právo tu nevzniká ve studovnách, ale z toho, co si státy udělaly a co pak musely nějak ospravedlnit.",
       "terms": [],
@@ -29,19 +16,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "text_sha": null,
+    "2": {
       "title": "Co Vestfálský mír opravdu udělal — a co ne",
       "text": "Nejdřív co NEDOKÁZAL: NEVYTVOŘIL EVROPSKÝ BEZPEČNOSTNÍ SYSTÉM, jak ho kdysi žádal RICHELIEU, ani neurovnal všechny tehdejší spory, a NEUKONČIL FRANCOUZSKO-ŠPANĚLSKOU VÁLKU (1635–59) — tu zavřel až PYRENEJSKÝ MÍR 1659. Co dokázal: PŘEVÁŽIL STŘEDOEVROPSKÝ SYSTÉM MOCI. Nikdy zvlášť pevnou Svatou říši římskou převedl do nového uspořádání, které dalo FRANCII A ŠVÉDSKU, dvěma GARANTŮM míru, značný vliv a v důležitých ohledech OŘEZALO POSTAVENÍ CÍSAŘE: VYHLÁŠENÍ VÁLKY A UZAVŘENÍ MÍRU napříště PODLÉHALO SOUHLASU ŘÍŠSKÉHO SNĚMU, a němečtí knížata dostali PRÁVO UZAVÍRAT SPOJENECTVÍ (IUS FOEDERIS) — výsadu, kterou si dlouho nárokovali a zčásti už fakticky užívali. A hodnocení: Vestfálský mír zůstal AŽ DO KONCE ANCIEN RÉGIME NEJDŮLEŽITĚJŠÍM PRÁVNÍM TEXTEM upravujícím vztahy mezi státy ve střední Evropě, nesporným referenčním bodem všech mírových smluv až do 90. let 18. století. Jestli z něj ale lze dělat počátek 'VESTFÁLSKÉHO SYSTÉMU', jak rádi dělají britští a američtí sociální vědci, ZŮSTÁVÁ OTEVŘENÉ — a historik podle Duchhardta jen stěží zadržuje výhrady.",
       "terms": [
-        {
-          "term": "ius foederis",
-          "def": "Právo uzavírat spojenectví, přiznané německým knížatům Vestfálským mírem — a hned vykládané některými právníky jako svrchovanost."
-        }
+        { "term": "ius foederis", "def": "Právo uzavírat spojenectví, přiznané německým knížatům Vestfálským mírem — a hned vykládané některými právníky jako svrchovanost." }
       ],
       "cards": [
         {
@@ -61,12 +42,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "Garanti míru jako první agresoři",
       "text": "Ironie, kterou stojí za to umět vyprávět: mír nezaručili ti, kdo ho garantovali — ROZBILI HO. ŠVÉDSKO drželo nafouklý vojenský aparát, na který doma nevybralo daně, a muselo si tedy PŘÍJEM OPATŘIT V CIZINĚ. FRANCIE za LUDVÍKA XIV. (1638–1715) prosazovala územní nároky a vedení Evropy. Proto se období po Vestfálském míru u Greweho jmenuje 'FRANCOUZSKÝ VĚK': francouzská vojenská agrese proti všem bezprostředním sousedům KROMĚ ANGLIE, KTEROU CHRÁNIL KANÁL; celoevropská síť diplomatických zastoupení; a propagandistický dvorský ceremoniál ve Versailles, který ostatní brzy napodobovali. Ale Versailles byl vzor A ZÁROVEŇ tmel odporu katolických i protestantských mocností dohromady. Nezabránilo to Ludvíkovi dosadit na konci VÁLKY O ŠPANĚLSKÉ DĚDICTVÍ (1701–14) Bourbony do habsburského Španělska. Švédsko se projevilo stejně: PRVNÍ SEVERNÍ VÁLKA (1655–60) a pak VELKÁ SEVERNÍ VÁLKA (1700–21), která zatáhla všechny státy u Baltu a skončila ÚPADKEM ŠVÉDSKA A VZESTUPEM RUSKA.",
       "terms": [],
@@ -80,19 +58,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Osmané, Karlovice a rovnováha moci",
       "text": "Tlak přicházel i zvenčí. Osmané poprvé ukázali sílu v 60. letech a zesílili ofenzivu v 80. letech, aby narazili na odpor — VÍDEŇ 1683. Zlomy: SVATÁ LIGA (1684) a KARLOVICKÝ MÍR (1699). Ty ukázaly Vysoké Portě, že EXPANZE VE STÍNU STŘEDOEVROPSKÝCH KONFLIKTŮ JE ČÍM DÁL TĚŽŠÍ a že se říši VYPLATÍ DRŽET PRAVIDEL, ze kterých se stávalo mezinárodní právo. Na západě zase ANGLO-NIZOZEMSKÉ VÁLKY 17. a 18. století o vládu nad mořem a výnosný námořní obchod. Mír přinesly až UTRECHT/RASTATT/BADEN (1713–14) a NYSTADT (1721). 20. léta se dají popsat jako PAX BRITANNICA — a poprvé se mocnosti pokusily konfliktům PŘEDCHÁZET, kongresy v CAMBRAI (1722) a SOISSONS (1728–29). A klíčová věta pro zkoušku: MYŠLENKA ROVNOVÁHY MOCI SE OD UTRECHTSKÉ SMLOUVY (1713) STALA TÉMĚŘ ZÁSADOU MEZINÁRODNÍHO PRÁVA.",
       "terms": [
-        {
-          "term": "rovnováha moci",
-          "def": "Od Utrechtu 1713 téměř zásada mezinárodního práva — a zároveň záminka: pod její hlavičkou proběhlo i první dělení Polska."
-        }
+        { "term": "rovnováha moci", "def": "Od Utrechtu 1713 téměř zásada mezinárodního práva — a zároveň záminka: pod její hlavičkou proběhlo i první dělení Polska." }
       ],
       "cards": [
         {
@@ -112,19 +84,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Války se stěhují ven z Evropy — a zpátky",
       "text": "Válka o rakouské dědictví po VYMŘENÍ MUŽSKÉ HABSBURSKÉ LINIE (1740) přinesla novinku: BOURBONSKO-BRITSKÉ SOUPEŘENÍ O ZÁMOŘSKÉ ZÁJMY vedlo POPRVÉ K TOMU, ŽE SE VELKÝ EVROPSKÝ KONFLIKT VEDL MIMO EVROPU. A nové se rychle stalo normou, v obou směrech: konflikty evropských mocností V EVROPĚ pravidelně dopadaly na území mimo ni a určovaly koloniální politiku; a naopak konflikty MIMO EVROPU pravidelně využívaly třetí mocnosti k prosazení zájmů v Evropě — ukázkový případ je AMERICKÁ VÁLKA ZA NEZÁVISLOST, kde oba bourbonské státy zasáhly přímo i nepřímo, ABY OSLABILY BRITÁNII V EVROPĚ. SEDMILETÁ VÁLKA (1756–63) pak utvářela rovnováhu až do revoluce: pevně usadila PRUSKO A RUSKO mezi velmoci, potvrdila BRITSKÉ PANSTVÍ NA MOŘI a stvrdila ÚPADEK FRANCIE, v němž někteří historici vidí PŮVOD FRANCOUZSKÉ REVOLUCE. Přinesla RENVERSEMENT DES ALLIANCES — odvěké nepřátelství Vídně a Versailles se stalo minulostí a rakousko-francouzské spojenectví přítomností.",
       "terms": [
-        {
-          "term": "renversement des alliances",
-          "def": "Převrácení spojenectví kolem sedmileté války: konec nepřátelství Vídně a Versailles, začátek rakousko-francouzského spojenectví."
-        }
+        { "term": "renversement des alliances", "def": "Převrácení spojenectví kolem sedmileté války: konec nepřátelství Vídně a Versailles, začátek rakousko-francouzského spojenectví." }
       ],
       "cards": [
         {
@@ -152,12 +118,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Kdo smí vést válku: ius ad bellum a svrchovanost",
       "text": "Rané mezinárodní právo se v době baroka a osvícenství — po 'španělských' představitelích druhé scholastiky a po HUGOVI GROTIOVI (1583–1645) — zabývalo hlavně IUS AD BELLUM a IUS IN BELLO. Druhé nabylo naléhavosti po TŘICETILETÉ VÁLCE. IUS AD BELLUM, tedy KTERÉ PRÁVNÍ ENTITY SMĚJÍ VÉST VÁLKU, se v debatách souběžných s nizozemskou válkou za nezávislost (1568–1648) OMEZILO NA DRŽITELE SVRCHOVANOSTI, jak ji razil JEAN BODIN (1529–96); nesvrchovaným vládcům a útvarům s omezenou svrchovaností se právo válčit UPŘELO. To změnilo postavení zemských stavů, třeba pomořanských, které se ještě účastnily jednání vedoucích k Vestfálskému míru — a stejně tak mnoha knížat a svobodných měst, která držela léna od císaře a NADÁLE SE NEPOKLÁDALA ZA SVRCHOVANÉ VLÁDCE. A pak přišel sám Vestfálský mír a jasné dělení ZNOVU ZAMOTAL: dal německým knížatům BÜNDNISRECHT, právo vést vlastní zahraniční věci, které někteří právníci OKAMŽITĚ VYLOŽILI JAKO SVRCHOVANOST.",
       "terms": [],
@@ -171,19 +134,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Kdo smí sedět u stolu: spor o ius legationis",
       "text": "Na otázku svrchovanosti knížat navazovala druhá: smějí PŘIJÍMAT A VYSÍLAT VYSLANCE (IUS LEGATIONIS)? Spor byl tak vyhrocený, že na KONGRESU V NIJMEGENU (1678–79) rozpoutal PRUDKOU PAMFLETOVOU VÁLKU. Výsledek: NĚMECKÁ KNÍŽATA BYLA NATRVALO VYLOUČENA Z ÚČASTI NA MNOHOSTRANNÝCH MÍROVÝCH KONGRESECH JAKO SAMOSTATNÉ STRANY. Totéž postihlo sdružení říšských krajů (REICHSKREISE) zakládaná od 50. let. A HANZA, která zastupovala mezinárodní síť obchodních měst a dlouho vystupovala jako 'PRÁVNICKÁ OSOBA' na mezinárodní scéně, byla — protože nebyla svrchovaným státem a částečně se rozpadala — VCELKU VYLOUČENA Z MEZISTÁTNÍCH VĚCÍ; což jí ovšem nebránilo, aby byla ještě hluboko v 18. století zahrnována do mezinárodních smluv. Členové říšského sněmu nakonec prošli, pokud PROKÁZALI, ŽE JSOU SAMOSTATNÉ POLITICKÉ ÚTVARY — což zpravidla dokládali TÍM, ŽE NOSILI KRÁLOVSKOU KORUNU NESPOJENOU S ŘÍŠÍ.",
       "terms": [
-        {
-          "term": "ius legationis",
-          "def": "Právo vysílat a přijímat vyslance. Spor o ně na kongresu v Nijmegenu skončil trvalým vyloučením německých knížat z mnohostranných mírových kongresů."
-        }
+        { "term": "ius legationis", "def": "Právo vysílat a přijímat vyslance. Spor o ně na kongresu v Nijmegenu skončil trvalým vyloučením německých knížat z mnohostranných mírových kongresů." }
       ],
       "cards": [
         {
@@ -203,19 +160,13 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "Obchodní společnosti jako zastřené státy",
       "text": "Jediná výjimka z mezistátní povahy mezinárodního práva po Vestfálském míru: SMLOUVY MEZI STÁTY A OBCHODNÍMI SPOLEČNOSTMI, které v některých částech světa požívaly JAKÉSI ZASTŘENÉ SVRCHOVANOSTI a kterým anglická koruna přiznala dokonce IUS BELLI AC PACIS a IUS LEGATIONIS. Šéfové některých faktorií proto vystupovali s nádherou, při které vypadali JEN O MÁLO MÉNĚ NEŽ PANOVNÍCI, které zastupovali. Podle GREWEHO bylo hlavní funkcí BRITSKÉ VÝCHODOINDICKÉ a NIZOZEMSKÝCH VÝCHODO- A ZÁPADOINDICKÝCH SPOLEČNOSTÍ ZABRÁNIT PŘENESENÍ EVROPSKÉHO POJMU STÁTU NA ÚZEMÍ MIMO EVROPU. Nebylo neobvyklé, že SPOLEČNOSTI SPOLU VÁLČILY, ANIŽ TO DOPADLO NA MÍR V EVROPĚ. Souvisí to s tím, že prostor za HERKULOVÝMI SLOUPY platil dlouho za oblast VLASTNÍCH ZÁKONŮ, za sféru 'ZA ČAROU', kam se přísné normy evropského mezinárodního práva nevztahovaly.",
       "terms": [
-        {
-          "term": "'za čarou' (beyond the line)",
-          "def": "Prostor za Herkulovými sloupy jako oblast vlastních zákonů, kam se přísné normy evropského mezinárodního práva nevztahovaly."
-        }
+        { "term": "'za čarou' (beyond the line)", "def": "Prostor za Herkulovými sloupy jako oblast vlastních zákonů, kam se přísné normy evropského mezinárodního práva nevztahovaly." }
       ],
       "cards": [
         {
@@ -235,19 +186,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "Iusta causa: kdy je válka spravedlivá",
       "text": "Druhá strana mince: KDY A ZA JAKÝCH OKOLNOSTÍ JE VÁLKA PODLE MEZINÁRODNÍHO PRÁVA LEGÁLNÍ. Měřítko dal GROTIUS, navazující na pozdní scholastiku. SPRAVEDLIVÉ důvody: OBRANA ÚZEMÍ, LIDÍ A VĚCÍ PROTI ÚTOČNÍKOVI; ZNOVUZÍSKÁNÍ ZABRANÉHO ÚZEMÍ, LIDÍ A VĚCÍ; a ODPLATA. NESPRAVEDLIVÉ: vojenská akce k ROZŠÍŘENÍ ÚZEMÍ, k POLITICKÉ NEZÁVISLOSTI, nebo k PANOVÁNÍ NAD DRUHÝMI. Grotiův výklad se v dobové politice výslovně neprojevil, ALE BRZY SE STAL MĚŘÍTKEM, PODLE KTERÉHO SE VÁLKY POSUZOVALY — a to se dá doložit z obou stran: rozhořčení nad válkami LUDVÍKA XIV. (DEVOLUČNÍ 1667–68, HOLANDSKÁ 1672–78) a FRIDRICHA VELIKÉHO (PRVNÍ SLEZSKÁ 1740–42), které sloužily pouhým územním ziskům, jde odvodit od Grotiova vlivu — stejně jako argumenty, kterými oba panovníci své jednání ODŮVODŇOVALI JAKO PRÁVNÍ (nástupnictví v Brabantsku, hohenzollernské nároky na slezská knížectví). To je ten správný test vlivu nauky: nutí i porušovatele mluvit jejím jazykem.",
       "terms": [
-        {
-          "term": "iusta causa",
-          "def": "Spravedlivý důvod války. U Grotia: obrana, znovuzískání zabraného a odplata — nikoli rozšíření území, nezávislost ani panství nad druhými."
-        }
+        { "term": "iusta causa", "def": "Spravedlivý důvod války. U Grotia: obrana, znovuzískání zabraného a odplata — nikoli rozšíření území, nezávislost ani panství nad druhými." }
       ],
       "cards": [
         {
@@ -267,12 +212,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "Preventivní válka a intervence",
       "text": "GROTIUS NEPŘIPOUŠTĚL PREVENTIVNÍ VÁLKU — a právě tu si v roce 1756 nárokoval FRIDRICH VELIKÝ, když napadl Sasko a rozpoutal sedmiletou válku. Tenhle typ války BYL Z DEFINICE KONSTRUKCE: umožňoval vládcům jít do války i tam, kde podle Grotia žádný spravedlivý důvod nebyl. A DO 20. STOLETÍ TO BYLA HOJNĚ UŽÍVANÁ VÝMLUVA K OSPRAVEDLNĚNÍ VOJENSKÉ AKCE. Preventivní válka byla druhem INTERVENCE, tedy zasahování jednoho státu do věcí druhého. Zatímco CHRISTIAN WOLFF (1679–1754) a EMER DE VATTEL (1714–67) pokládali NÁBOŽENSKÉ důvody intervence za nespravedlivé, VATTEL — přes všechnu úctu ke svobodě a právu na vlastní vládu — POKLÁDAL OSVOBOZENÍ OD DESPOTICKÉHO VLÁDCE ZA MOŽNÝ SPRAVEDLIVÝ DŮVOD INTERVENCE. Ten názor našel ohlas U REVOLUCIONÁŘŮ — a otázka intervence, teď už mezi velmocemi, zůstala na pořadu dne hluboko za francouzskou revoluci.",
       "terms": [],
@@ -294,12 +236,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "Vyhlášení války a pozdrav vlajkou",
       "text": "Francouzsko-španělská válka se roku 1635 vyhlašovala ještě TRADIČNĚ — heroldi četli vyhlášení při obřadech podél nepřátelské hranice. Napříště bylo běžnější vyhlásit válku PRÁVNÍM OZNÁMENÍM; zredukováno na SPRÁVNÍ AKT to zároveň znamenalo ODVOLÁNÍ DIPLOMATICKÝCH ZÁSTUPCŮ. Nebylo ovšem neznámé vést válku BEZ VYHLÁŠENÍ; v 18. století to čím dál víc mělo podobu REPRESÁLIÍ, po kterých vyhlášení přišlo mnohem později — a za jistých okolností platily REPRESÁLIE SAMY ZA VYHLÁŠENÍ VÁLKY. Rituál sice ustupoval, ale zůstával důležitý, když státy hledaly konfrontaci. Nejvýmluvnější případ: britské trvání na POZDRAVU VLAJKOU, kdy nebritské lodi musely na OCEANUS BRITANNICUS pozdravit britské. Odmítnutí nizozemského loďstva vedlo ke TŘEM VÁLKÁM — a ve vyhlášení války roku 1659 Britové uvedli ODMÍTNUTÍ POZDRAVU JAKO HLAVNÍ DŮVOD. Duchhardtova formulka: ČÍM JSOU V DIPLOMACII TITULY A POŘADÍ PŘEDNOSTI, TÍM JE NA MOŘI POZDRAV VLAJKOU.",
       "terms": [],
@@ -313,19 +252,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "text_sha": null,
+    "12": {
       "title": "Neutralita: od posuzování spravedlnosti k nestrannosti",
       "text": "Grotius se latinskému NEUTRALITAS vyhýbal (možná proto, že psal klasickou latinou, která ten výraz neznala) a mluvil o státech QUI IN BELLO MEDII SUNT. Jeho řešení ale plyne z nauky o spravedlivé válce: NECHAL NA KAŽDÉM 'NEUTRÁLNÍM' STÁTĚ, ABY SÁM POSOUDIL, zda je válka vedena ze spravedlivého důvodu. Kdo válčil z INIUSTA CAUSA, tomu se měla odepřít veškerá podpora; kdo z IUSTA CAUSA, tomu se mělo dát právo válčit bez překážek. U nejasných případů Grotius radil OMEZIT VLASTNÍ VYSTAVENÍ A RIZIKO a uzavřít dohody s každou z válčících stran. Téma nebylo nové — uvažoval o něm už MACHIAVELLI, kladně BODIN, a JOHANN WILHELM NEUMAYR VON RAMSSLA o něm napsal spis PĚT LET PŘED Grotiovým De jure belli ac pacis (1625). A teď ten zlom: PO VESTFÁLSKÉM MÍRU SE OTÁZKA SPRAVEDLNOSTI VÁLKY PRO NEUTRÁLNÍ STÁTY STALA NADBYTEČNOU a přestala se v jejich dohodách zmiňovat — NEUTRÁLNÍ STÁTY PŘESTALY ZAUJÍMAT STANOVISKO A JEDNALY S VÁLČÍCÍMI ROVNĚ A NESTRANNĚ. Uváží-li se, že poválečný řád určoval ZÁJEM STÁTŮ, a ne mravní a náboženské důvody, byl ten vývoj logický. Byl také PŘEDPOKLADEM institucionální neutrality a vzniku OZBROJENÉ NEUTRALITY — 1780 vznikl 'neutrální spolek k obraně práv neutrálních států ozbrojenou silou'.",
       "terms": [
-        {
-          "term": "ozbrojená neutralita",
-          "def": "Spolek neutrálních států hájících svá práva ozbrojenou silou — poprvé roku 1780."
-        }
+        { "term": "ozbrojená neutralita", "def": "Spolek neutrálních států hájících svá práva ozbrojenou silou — poprvé roku 1780." }
       ],
       "cards": [
         {
@@ -345,19 +278,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "text_sha": null,
+    "13": {
       "title": "Ius in bello: Grotius, který si odporuje",
       "text": "V předmluvě k De jure belli ac pacis Grotius líčí ÚPADEK VEDENÍ VÁLKY a otřesnou neúctu k mravům a zákonům za francouzských náboženských válek; píše o 'ZVRHLÉM VEDENÍ VÁLKY, ZA KTERÉ BY SE STYDĚLI I BARBAŘI'. Z toho plyne dvojí přístup: NAPŘED ODRADIT VLÁDCE OD VÁLKY, zvlášť z malicherného důvodu, a řešit spory JEDNÁNÍM, KOMPROMISEM, VÝROKEM TŘETÍHO, LOSEM, NEBO I SOUBOJEM MEZI VLÁDCI; a teprve když preventivní prostředky selžou, prosadit SDÍLENÉ CHÁPÁNÍ, ŽE PRO VÁLKU PLATÍ SOUBOR PRAVIDEL. Jejich cílem bylo ZMÍRNIT A ZLIDŠTIT VEDENÍ VÁLKY A OMEZIT JEJÍ ROZSAH V ČASE A PROSTORU. ALE — a tohle je ta past — VÝSLOVNĚ NEZARUČOVALY BEZPEČNOST CIVILISTŮ ANI VÝSLOVNĚ NEZAKAZOVALY NIČENÍ NEPŘÁTELSKÉHO MAJETKU A SVATYNÍ. Navíc: rozvržen na jedné jediné straně, ten systém si Grotius O NĚKOLIK STRAN DÁL SÁM ODVOLÁVÁ odkazem na platné zákony, křesťanskou lásku a povinnost válčících jednat s mírou. Dá se mu vyčítat NEDŮSLEDNOST, nebo se dá chválit, že se NEBÁL POJMENOVAT NAPĚTÍ MEZI IUS GENTIUM NATURALE A IUS GENTIUM VOLUNTARIUM.",
       "terms": [
-        {
-          "term": "ius gentium naturale × voluntarium",
-          "def": "Právo národů přirozené (co plyne z rozumu) proti právu národů dobrovolnému (co si státy ujednaly). Napětí mezi nimi je podle Duchhardta zdroj Grotiovy nedůslednosti."
-        }
+        { "term": "ius gentium naturale × voluntarium", "def": "Právo národů přirozené (co plyne z rozumu) proti právu národů dobrovolnému (co si státy ujednaly). Napětí mezi nimi je podle Duchhardta zdroj Grotiovy nedůslednosti." }
       ],
       "cards": [
         {
@@ -377,19 +304,13 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "text_sha": null,
+    "14": {
       "title": "Kam se po Grotiovi zákony války dostaly",
       "text": "Pogrotiovské myšlení se posunulo daleko. FRIDRICH VELIKÝ se později CHLUBIL, ŽE JEHO VÁLEK SI CIVILNÍ OBYVATELSTVO ANI NEVŠIMLO. To odráží nové typy války, třeba KABINETNÍ VÁLKU, jejímž cílem bylo spíš nepřítele PŘECHYTRAČIT NEŽ PORAZIT — což ovšem neznamenalo, že velké bitvy zmizely, jak ukázala sedmiletá válka. Pogrotiovská literatura se JEDNOHLASNĚ postavila PROTI ZABÍJENÍ VÁLEČNÝCH ZAJATCŮ, a teorie se rychle převedla do praxe: vznikly KARTELY pro výměnu zajatců, kde měla KAŽDÁ HODNOST DOHODNUTOU CENU a usilovalo se o co nejvyrovnanější výměnu. Naopak méně obvyklé bylo dlouhodobé věznění zajatců, zvlášť odborníků jako námořníků, KTERÉ NEPŘÍTEL SPÍŠ ZAČLENIL DO VLASTNÍCH ŘAD, než aby je nechal ležet ladem. A jedna věta k zapamatování: zákony války ODSOUDILY POUŽITÍ CHEMICKÝCH A TŘÍŠTIVÝCH ZBRANÍ DLOUHO PŘEDTÍM, NEŽ TO HAAGSKÉ ÚMLUVY (od roku 1899) PŘEVEDLY DO PRÁVA.",
       "terms": [
-        {
-          "term": "kabinetní válka",
-          "def": "Typ války, jejímž cílem bylo nepřítele spíš přechytračit než porazit — projev nového důrazu na ochranu civilistů."
-        }
+        { "term": "kabinetní válka", "def": "Typ války, jejímž cílem bylo nepřítele spíš přechytračit než porazit — projev nového důrazu na ochranu civilistů." }
       ],
       "cards": [
         {
@@ -409,12 +330,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "text_sha": null,
+    "15": {
       "title": "Kongres jako instituce: kdo směl přijít a jak se jednalo",
       "text": "Vestfálský mír upravil, KDO SMÍ NA MÍROVÝ KONGRES. Nebylo samozřejmé, že budou připuštěna říšská knížata, svobodná říšská města a říšští rytíři — a jejich připuštění udělalo z očekávání PRAVIDLO: KAŽDÝ POLITICKÝ ÚTVAR ZAPOJENÝ DO KONFLIKTU, velký či malý, protestantský či katolický, monarchie či republika, s velkým vojskem či malým, MĚL MÍT PRÁVO ZASTOUPIT SVÉ ZÁJMY. V Nijmegenu se to zase zrušilo; knížata se také neúčastnila menších kongresů (Breda 1667) ani tam, kde bylo dohodnuto předem (Utrecht 1713, Paříž 1763, Paříž 1783). Přesto Vestfálský mír ustavil mírové kongresy jako HLAVNÍ FÓRUM ŘEŠENÍ SPORŮ až do Vídně. Změnila se i FORMA JEDNÁNÍ. Za KARLA V. se panovníci ještě scházeli osobně; po roce 1648 UŽ NA KONGRESY NEJEZDILI — plenární zasedání vystřídaly SOUKROMÉ SCHŮZKY a ceremoniální nádheru PROFESIONÁLNÍ POLITIKA. Až Vídeňský kongres byl zase shromážděním císařů a králů. Vládce zastupovali ZPLNOMOCNĚNCI, zpravidla TŘI ZA KAŽDOU VELMOC, kteří přebírali tituly, ceremoniál a práva svého panovníka — což vedlo ke sporům o formu a jazyk pověřovacích listin, o tituly a POŘADÍ PŘEDNOSTI. Právě kvůli takovým věcem trvaly kongresy tak dlouho. A pozor na výklad: NEŠLO O PRÁZDNOU MARNIVOST, ale o SAMY ZÁKLADY MOCI A PRÁV STÁTU.",
       "terms": [],
@@ -444,12 +362,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "text_sha": null,
+    "16": {
       "title": "Proč po kongresech zůstávaly hory papíru",
       "text": "Zplnomocněnci SE NIKDY NESCHÁZELI V PLÉNU, ale prosazovali své zájmy na schůzkách MEZI ČTYŘMA, někdy víc očima. Klíčem k tomu byl PÍSEMNÝ ZÁZNAM VŠEHO, CO BYLO ŘEČENO — proto raně novověké mírové kongresy vyprodukovaly takové množství papíru. Systematicky zpracovat a vyložit ty spisy, jak to dělá projekt ACTA PACIS WESTPHALICAE (jedna z největších edic posledních padesáti let), zůstává podle Duchhardta VYNIKAJÍCÍM ÚKOLEM PRO HISTORIKY; jinak se historik musí spokojit s nahodilými sbírkami vydanými většinou soukromě krátce po události. Jednání se točilo kolem toho, co která strana s kým mluvila a na čem má písemné ujištění, a všechno se vyměňovalo. Snazší to bylo až na VÍDEŇSKÉM KONGRESU, kde vznikly SPECIALIZOVANÉ VÝBORY k jednotlivým tématům, do kterých chodili jen ti zplnomocněnci, kteří na dané téma prokázali zájem. Vyměňovaly se odpovědi, repliky a dupliky, a takzvaný PROTEST dokázal nárok či protinárok ZNEPLATNIT — praxe napodobující postup vyšších soudů dřívějších století.",
       "terms": [],
@@ -463,12 +378,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "text_sha": null,
+    "17": {
       "title": "Zprostředkovatel, který se vytratil",
       "text": "V Münsteru byli papežský nuncius FABIO CHIGI (1599–1667) a benátský diplomat ALVISE CONTARINI (1597–1651) ještě široce uznávanými zprostředkovateli, kteří NEJEN ROZNÁŠELI, ale i podstatně přispívali k jednání. Pak se právní postavení zprostředkovatele stalo předmětem intenzivního sporu během takzvané 'NIZOZEMSKÉ FÁZE' dějin mezinárodního práva (s výjimkou Karlovic byly všechny rozhodující smlouvy mezi 60. lety a válkou o španělské dědictví uzavřeny v nizozemských městech), což vedlo ke ZNAČNÉMU OŘEZÁNÍ JEHO PRAVOMOCI. Nedůvěru vyjadřovala i nauka: jen málokdo — vedle SAMUELA VON PUFENDORFA (1632–94) mladší Neumann, Meurer a Stephani — byl ochoten přiznat zprostředkovateli víc než roli NOTÁŘE A KURÝRA, tedy roli ROZHODCE. Důvody jsou dva a oba jsou o moci, ne o právu: VELMOCI BYLY PŘÍLIŠ HRDÉ, ABY SVŮJ OSUD SVĚŘILY 'MENŠÍ MOCNOSTI', a nový zprostředkovatel už neměl MRAVNÍ AUTORITU, jakou ke stolu kdysi přinášeli zástupci Svatého stolce. Důsledek: OD ZPROSTŘEDKOVATELŮ SE UPUSTILO. Už u války o španělské dědictví, a v 18. století se to stalo normou. Vzácnou výjimkou byla TĚŠÍNSKÁ SMLOUVA (1779), kde jako 'zprostředkovatelé' vystupovaly Francie a Rusko — každá spojenec jedné ze stran.",
       "terms": [],
@@ -490,19 +402,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "text_sha": null,
+    "18": {
       "title": "Jak vypadala mírová smlouva",
       "text": "Ideálně byla stavěná JAKO STŘEDOVĚKÁ LISTINA. INVOCATIO — vzývání nadpřirozené moci plus jména a tituly stran a jejich zplnomocněnců, přičemž ty strany ještě hluboko v 18. století vystupovaly JAKO PRÁVNICKÉ OSOBY, NIKOLI JAKO POLITICKÉ ÚTVARY. Pak jakási ARENGA — obrazně naříkající nad hrůzami války a prolitou křesťanskou krví, někdy metaforicky líčící, jak vládci SOUČASNĚ DOSPĚLI k rozhodnutí uzavřít mír (tak Utrecht mezi Anglií a Francií). Ustálené sousloví RESPUBLICA CHRISTIANA, užívané nad- i mezikonfesijně, bylo v desetiletích po Vestfálském míru postupně nahrazeno jinými obraty — a zajímavě ne tak obratem o rovnováze moci, jak zdůrazňovaly politické pamflety, ale o MÍRU A BEZPEČNOSTI V EVROPĚ, které mají být obnoveny. Pak následovaly PODMÍNKY MÍRU, po zkušenosti roku 1648 formulované co nejpřesněji, a po nich RATIFIKACE, SANKCE pro případ porušení, PODPISY, DATUM A MÍSTO. A zásadní posun oproti středověku a první polovině raného novověku, kdy platnost smluv byla omezena na život signatářů nebo na pevnou dobu (zpravidla pět, devět, dvanáct nebo sto let): SMLOUVY DRUHÉ POLOVINY RANÉHO NOVOVĚKU SE POKLÁDALY ZA NEKONEČNÉ — a neobsahovaly už ani údaje o odpovědnosti, ani o náhradách. Omezené zůstaly jen smlouvy s Osmanskou říší, které ale sloužily spíš KRÁTKODOBÉMU PŘÍMĚŘÍ než dlouhodobému míru.",
       "terms": [
-        {
-          "term": "respublica Christiana",
-          "def": "Ustálené označení křesťanského společenství ve smlouvách; po Vestfálském míru je postupně nahradily obraty o míru a bezpečnosti v Evropě."
-        }
+        { "term": "respublica Christiana", "def": "Ustálené označení křesťanského společenství ve smlouvách; po Vestfálském míru je postupně nahradily obraty o míru a bezpečnosti v Evropě." }
       ],
       "cards": [
         {
@@ -530,12 +436,9 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "text_sha": null,
+    "19": {
       "title": "Kdo mír zaručí, a co přijde po podpisu",
       "text": "POSKYTOVÁNÍ RUKOJMÍ se po Vestfálském míru — s výjimkou cášské smlouvy — OPUSTILO. Třetí státy občas nabízely záruky, ale nebylo to pravidlem: strany došly k přesvědčení, že MÍR ZARUČÍ JEJICH VLASTNÍ MOC NEBO MOC JEJICH SPOJENCŮ. Ve skutečnosti si o záruku silnějšího spojence říkala slabší strana jen při ZNAČNÉ NEROVNOVÁZE MOCI — tak po válce o španělské dědictví garanti podpořili Portugalsko při uzavírání míru s bourbonskými státy. Smlouvy mohly zřídit KOMISE, zpravidla ze zástupců dvou mocností (cášská smlouva francouzsko-britskou), k provedení toho, co bylo ujednáno (nové hranice), nebo k dojednání toho, co se na kongresu dojednat nedalo (kartel o výměně zajatců). Ještě v posledních desetiletích 17. století zněly hlasy, aby ROZHODCEM (či dokonce superrozhodcem) BYL PAPEŽ; ROZHODČÍ ŘÍZENÍ z mezistátních vztahů docela nezmizelo (Anglie se k němu v druhé polovině 17. století několikrát vrátila), ale HRÁLO MNOHEM MENŠÍ ROLI, NEŽ JAK TO LÍČIL POLITICKÝ TISK. Po ratifikaci se smlouvy musely FORMÁLNĚ A VEŘEJNĚ VYHLÁSIT, text se uložil u parlamentu k SCHVÁLENÍ nebo (Anglie, Španělsko, Portugalsko) předložil sněmovnám. A i když se to ve smlouvě nezmiňovalo vždy výslovně, po uzavření míru zpravidla NÁSLEDOVALO ODZBROJENÍ — v Anglii o to dbala nejen prázdná pokladna, ale i TLAK PARLAMENTU.",
       "terms": [],
@@ -557,19 +460,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "text_sha": null,
+    "20": {
       "title": "Osmanská říše: kde neplatila aequalitas",
       "text": "Vztahy mezi státy CHRISTIANITAS stály na zásadě AEQUALITAS a jejich existence se ani při sporech, třeba o ceremoniál, nezpochybňovala. U osmansko-evropských vztahů to bylo JINAK: ZÁSADA AEQUALITAS TU NEPLATILA a neexistovala ustanovení, která by umožnila jednat NA STEJNÉ ÚROVNI; byl tu prostě NÁROK OSMANSKÉ ŘÍŠE, ŽE JE NADŘAZENA SVÝM KŘESŤANSKÝM PARTNERŮM. Ten nárok se projevoval velmi konkrétně: NEOCHOTOU UZAVÍRAT TRVALÉ MÍROVÉ SMLOUVY A VYMEZOVAT SVÉ HRANICE. Obojí totiž předpokládá, že druhá strana je rovnocenný a trvalý soused. Teprve po KARLOVICKÉM MÍRU, který ukončil sérii zdrcujících porážek, se Porta v 'TULIPÁNOVÉM OBDOBÍ' přiblížila evropskému pojetí mezinárodního práva a otevřela se 'západním' vlivům.",
       "terms": [
-        {
-          "term": "aequalitas",
-          "def": "Rovnost států jako zásada vztahů uvnitř christianitas — v osmansko-evropských vztazích neplatila."
-        }
+        { "term": "aequalitas", "def": "Rovnost států jako zásada vztahů uvnitř christianitas — v osmansko-evropských vztazích neplatila." }
       ],
       "cards": [
         {
@@ -581,12 +478,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "text_sha": null,
+    "21": {
       "title": "Diplomat: hodnosti, dluhy a podezření ze špionáže",
       "text": "Běžné vztahy udržovali 'STÁLÍ' DIPLOMATÉ s POVĚŘOVACÍ LISTINOU, kteří sídlili u dvora a odtud podávali zprávy. Dvě komplikace. Za prvé, 'diplomat' zastřešoval celou škálu úředníků různých hodností. Za druhé, POJMY 'DIPLOMAT' A 'ŠPEH' SE ČASTO JEŠTĚ KRYLY, takže diplomaté vypadali spíš jako protivníci než jako zastánci míru. Většinou šlechtici, sloužili v cizině s vyhlídkou na SKVĚLOU KARIÉRU U VLASTNÍHO DVORA — proto měl málokdo zájem si pobyt prodlužovat. Mnozí posty v cizině přijímali CONTRE COEUR: PLAT NESTAČIL NA SPOLEČENSKÉ POVINNOSTI DOMA a diplomacie byla pro mnohé FINANČNÍ POHROMOU, která zatěžovala jejich soukromý majetek. Hierarchie: nahoře AMBASSADEUR, kterého mohla vyslat jen velmoc; střední a menší státy vysílaly ENVOYÉ nebo REZIDENTA, který už nemusel být šlechtic (v anglické službě byli šlechtici spíš výjimkou). Předpokládalo se, že si státy obsadí odpovídající posty na STEJNÉ ÚROVNI — francouzský velvyslanec ve Vídni měl mít tytéž pravomoci jako císařský ve Versailles. A tady je ta praktická znalost: VYSLAT NIŽŠÍHO DIPLOMATA (rezidenta místo envoyé) BYLO ZNAMENÍM, ŽE SE VZTAHY ZHORŠILY.",
       "terms": [],
@@ -608,12 +502,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 22,
-      "text_sha": null,
+    "22": {
       "title": "Diplomacie v praxi: ceremoniál, sítě a Bospor",
       "text": "Každý diplomat měl TÁŽ CEREMONIÁLNÍ PRÁVA JAKO PANOVNÍK, kterého zastupoval — což opakovaně vedlo ke konfliktům, jako v Londýně v 60. letech 17. století, kdy se španělský a francouzský velvyslanec pohádali o pořadí přednosti TAK, ŽE TO SKONČILO KRVEPROLITÍM. Nejlepší způsob, jak se sporu vyhnout, bylo VYHÝBAT SE SI — což zvlášť platilo na mírových kongresech, kde se diplomaté potkávali den co den a kde byly oficiální akce jako SUDY PRACHU. FRANCIE od Ludvíka XIV. vybudovala síť diplomatů větší než kterýkoli jiný stát a jako jedna z mála vysílala zástupce i k menším dvorům, které pokládala za politicky nebo strategicky důležité — politika, kterou si ostatní nemohli dovolit, zvlášť u mnoha německých dvorů. RUSKO mělo jiný problém: diplomatickou službu muselo TEPRVE VYBUDOVAT, a nezřídka k tomu sáhlo po talentu sousedů. VYSOKÁ PORTA naopak v téhle době PŘESTALA VYSÍLAT STÁLÉ DIPLOMATY DO EVROPY — a to mělo vážné důsledky pro cizí diplomaty na Bosporu: jejich už tak nejisté postavení se zhoršilo, dlouho zavedené normy se opouštěly a IMUNITA DIPLOMATA BYLA ZPOCHYBŇOVÁNA. WIQUEFORT mluvil dokonce o naprosté neúctě k mezinárodnímu právu v Osmanské říši.",
       "terms": [],
@@ -627,12 +518,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "text_sha": null,
+    "23": {
       "title": "Teritoriální vody: norma, kterou udělali diplomaté v míru",
       "text": "Duchhardtův nejlepší doklad, že se právo netvoří jen na mírových kongresech. Kam sahá svrchovanost pobřežního státu do přilehlých vod, se intenzivně probíralo od počátku 18. století. Námořní mocnosti si dřív opakovaně — a NEÚSPĚŠNĚ — nárokovaly celé oceány; na konci 80. let se ale dohodly, co jsou teritoriální vody. Ve hře byla zóna DVOU nebo TŘÍ MIL, názor CONRINGA a GRYPHIANDRA, že má rozhodnout MÍSTNÍ OBYČEJ, a nápad použít jako měřítko DOHLEDNOST nebo DOSTŘEL DĚLA. Nakonec vznikly dohody mezi Británií, Francií a Ruskem, které vymezily teritoriální vody PODLE DOSTŘELU DĚLA — a ty se brzy staly uznávaným mezinárodním právem; TŘÍMÍLOVÁ HRANICE přišla až v 19. století. Případ ukazuje, že diplomaté byli ÚČINNÍ I V MÍRU a prosadili otázky, které se za války prosadit nedaly. Nejpůsobivější doklad je JAYOVA SMLOUVA (1794), vyjednaná americkými a britskými diplomaty v Londýně, která urovnala několik klíčových sporů — mimo jiné určila ŘEKU SAINT CROIX jako hranici mezi americkými a britskými zájmy na severovýchodě Severní Ameriky.",
       "terms": [],
@@ -654,12 +542,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "text_sha": null,
+    "24": {
       "title": "Kde se psalo o mezinárodním právu — a proč právě tam",
       "text": "Odpověď je sociologická, ne náhodná. První kroky udělali praktici a učenci v NIZOZEMÍ: politický útvar, který byl znovu a znovu pustošen válkou a MUSEL SE PROSADIT NA MEZINÁRODNÍ SCÉNĚ. Stejně tak není náhoda, že právě tam začalo MOŘSKÉ PRÁVO — hlavní Grotiovy texty se točí kolem moře, stejně jako Bynkershoekovy, kterého zvlášť zajímalo PIRÁTSTVÍ. A Duchhardtova zobecňující věta: pro druhou polovinu raného novověku je asi příznačné, že se nauka mezinárodního práva rozvíjela V MENŠÍCH POLITICKÝCH ÚTVARECH — VE STÁTECH, JEJICHŽ PŘEŽITÍ ZÁVISELO NA PRÁVNÍM DETAILU, A NE NA VOJENSKÉ SÍLE. Odtud LEIDEN po generace vychovával přední učence. Německé univerzity se snažily držet krok: HALLE (Christian Wolff), KIEL (katedra mezinárodního práva krátce po založení univerzity 1665) a především GÖTTINGEN (Georg Friedrich von Martens, 1756–1821). Ve Švýcarsku přispěl JEAN-JACQUES BURLAMAQUI (1694–1748), ve Švédsku JOHANNES LOCCENIUS (1598–1677) o pirátství a v Dánsku MARTIN HÜBNER o ochraně neutrálních lodí za války.",
       "terms": [],
@@ -681,12 +566,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 25,
-      "text_sha": null,
+    "25": {
       "title": "Revoluce jako 'zvláštní přechodný stav'",
       "text": "Označit francouzskou revoluci a napoleonskou dobu za pouhou epizodu by bylo přehnané. Revolucionáři se snažili mezinárodní právo POSUNOUT, často s přímým odkazem na VATTELA, kterého velmi ctili. Prosazovali dlouho debatovanou myšlenku 'PŘIROZENÝCH HRANIC', která už v několika případech vstoupila do mezistátních dohod. A zajímali se o PRÁVO NA INTERVENCI — ÚDAJNĚ K ZAJIŠTĚNÍ SVOBODY A LIDSKÝCH PRÁV, VE SKUTEČNOSTI K ROZŠÍŘENÍ FRANCOUZSKÉ HEGEMONIE. Důsledek: VÁLKA NABYLA POVAHY KŘÍŽOVÉ VÝPRAVY a nepsaná pravidla 'řízeného' vedení války se stala minulostí. Francie navíc podryla zavedené pojetí neutrality tím, že koncem 90. let uzavřela řadu dohod o neutralitě, které VÝSLOVNĚ DOVOLOVALY JEJÍM VOJSKŮM PROCHÁZET NEUTRÁLNÍM ÚZEMÍM. Těch dvacet pět let od vypuknutí revoluce po Napoleonův pád se proto dá bez nadsázky nazvat 'ZVLÁŠTNÍM PŘECHODNÝM STAVEM', který charakterizují takové protiprávní činy jako POPRAVA VÉVODY D'ENGHIEN (1772–1804) za konzulátu a BOMBARDOVÁNÍ KODANĚ britským loďstvem roku 1807. Kurz pro budoucnost se nastavil až na Vídeňském kongresu.",
       "terms": [],
@@ -708,19 +590,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 26,
-      "text_sha": null,
+    "26": {
       "title": "Vídeň I: nations civilisées a otroctví",
       "text": "Nejdůležitější novinka: do mezinárodního práva vstoupil pojem NATIONS CIVILISÉES. Vznikl NEJPRVE V ODPORU PROTI OBCHODU S OTROKY a nahradil KŘESŤANSKÉ POJETÍ SPOLEČENSTVÍ jako 'sjednocujícího ducha mezinárodního práva'; mezistátní vztahy měl napříště řídit mnohem širší pojem SPOLEČENSTVÍ 'CIVILIZOVANÝCH NÁRODŮ' — což některé státy nesly těžko. Ta geneze je podstatná: pojem, který v 19. století posloužil k vyloučení mimoevropských států z mezinárodního práva (viz přednáška o imperialismu), se rodí z abolicionismu. Zákaz OBCHODU s otroky přitom SAMO OTROCTVÍ JEŠTĚ NEODSOUDIL, jen k tomu mířil; zrušení otroctví bylo velkou zkouškou pro koloniální mocnosti, zvlášť ŠPANĚLSKO A PORTUGALSKO. BRITÁNIE, kde se protiotrokářské hnutí zformovalo v 80. letech 18. století, ZAKÁZALA OBCHOD S OTROKY UŽ ROKU 1807 — a ukázalo se, že o mezinárodní právo se začaly zajímat SOUKROMÉ ORGANIZACE, které napříště působily i na politiku. Nauka odsouzení obchodu s otroky chválí jako jeden z hlavních výsledků Vídeňského kongresu: BYLO TO POPRVÉ, CO MEZINÁRODNÍ PRÁVO ZARUČILO LIDSKÁ PRÁVA. Zda to ale Británie prosazovala z humanitárních, nebo z hospodářských důvodů, ZŮSTÁVÁ NEZODPOVĚZENO.",
       "terms": [
-        {
-          "term": "nations civilisées",
-          "def": "Pojem, který na Vídeňském kongresu nahradil křesťanské společenství jako pojivo mezinárodního práva. Vznikl z odporu proti obchodu s otroky — a později posloužil k vylučování."
-        }
+        { "term": "nations civilisées", "def": "Pojem, který na Vídeňském kongresu nahradil křesťanské společenství jako pojivo mezinárodního práva. Vznikl z odporu proti obchodu s otroky — a později posloužil k vylučování." }
       ],
       "cards": [
         {
@@ -740,12 +616,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 27,
-      "text_sha": null,
+    "27": {
       "title": "Vídeň II: neutralita, konfese, hodnosti",
       "text": "Tři další novinky. NEUTRALITA dostala novou kvalitu: ŠVÝCARSKU, které se tak dlouho drželo stranou konfliktů, byl přiznán STATUS NEUTRÁLNÍHO STÁTU. Zůstalo dlouho jediné, ale posloužilo jako vzor (např. Vatikán). VÍDEŇSKÝ PROTOKOL Z 24. ČERVNA 1814, podepsaný krátce před kongresem, nařídil sjednocení Nizozemské republiky, Rakouského Nizozemí a lutyšského knížecího biskupství ve SPOJENÉ KRÁLOVSTVÍ NIZOZEMSKÉ a stanovil, že VŠECHNY VEŘEJNÉ ÚŘADY BUDOU OTEVŘENY VŠEM OBČANŮM BEZ OHLEDU NA NÁBOŽENSKÉ VYZNÁNÍ. V zásadě ústavní věc — ale s okamžitým dopadem na mezinárodní právo: ABY BYL STÁT NATION CIVILISÉE, MUSEL NAPŘÍŠTĚ BÝT, ASPOŇ TEORETICKY, KONFESIJNĚ NEUTRÁLNÍ. A třetí: PŘESTAVBA DIPLOMATICKÝCH HODNOSTÍ, trvalého zdroje sporů. Podklad dala revoluce — JSOU-LI NÁRODY ROVNÉ, MUSÍ BÝT ROVNÉ I DIPLOMATICKÉ HODNOSTI. Komise ustavená ve Vídni podala zprávu o tři roky později na kongresu v CÁCHÁCH (1818): pořadí přednosti, dřív ovlivněné mocí vysílajícího státu, se napříště určuje PODLE DATA PŘÍJEZDU A ABECEDY. Přednost přede všemi měl jen PAPEŽSKÝ NUNCIUS jako jakýsi doyen.",
       "terms": [],
@@ -775,19 +648,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 28,
-      "text_sha": null,
+    "28": {
       "title": "Evropský koncert",
       "text": "Zpočátku ho nesl ČTVEŘNÝ SPOLEK Rakouska, Británie, Pruska a Ruska, podepsaný v PAŘÍŽI 20. LISTOPADU 1815, a po kongresu v Cáchách se připojila i Francie. Poprvé se o něm mluvilo na kongresu v CHÂTILLONU (1814). Evropský koncert se měl SCHÁZET V PRAVIDELNÝCH INTERVALECH A ŘEŠIT MEZINÁRODNÍ SPORY JEDNÁNÍM MÍSTO SILOU — ale PRÁVO NA INTERVENCI SI PONECHAL. A na rozdíl od dřívějších století, kdy podobné pokusy o spolupráci vždycky vyšly naprázdno, PŘINESL OKAMŽITÉ VÝSLEDKY: na základě ZÁSADY LEGITIMITY ustavily kongresy v CÁCHÁCH (1818), LUBLANI (1821) a VERONĚ (1822) nový mezinárodní řád a DALY INTERVENCI ZDÁNÍ 'SPRAVEDLIVÉHO' OPATŘENÍ. Že to liberální právníci jako JOHANN CASPAR BLUNTSCHLI (1808–81) ostře kritizovali, je jiná věc. Pozdější generace to vidí dvojznačně: uznávají dopad kongresů na HUMANITÁRNÍ (zákaz obchodu s otroky) a HOSPODÁŘSKÉ otázky (svoboda pohybu, zvlášť na řekách), ale zpochybňují velmocenský NÁROK NA PRÁVO INTERVENCE — zvlášť když mířil PROTI LIBERÁLNÍM A DEMOKRATICKÝM OPOZIČNÍM HNUTÍM, která podrývala nějaký režim.",
       "terms": [
-        {
-          "term": "Evropský koncert",
-          "def": "Pravidelná setkání velmocí od roku 1815 k řešení sporů jednáním místo silou — s ponechaným právem na intervenci."
-        }
+        { "term": "Evropský koncert", "def": "Pravidelná setkání velmocí od roku 1815 k řešení sporů jednáním místo silou — s ponechaným právem na intervenci." }
       ],
       "cards": [
         {
@@ -799,12 +666,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 29,
-      "text_sha": null,
+    "29": {
       "title": "Závěr: od války k míru, od soupeření ke spolupráci",
       "text": "Shrnutí, které je zároveň nejlepší odpověď na zkouškovou otázku o celém období. Od 16. století vyžadovaly raně novověký stát a systém států SOUBOR PRAVIDEL PŘESAHUJÍCÍ 'STARÉ' NÁSTROJE mezistátních vztahů, jako bylo rozhodčí řízení. Navázáním na 'španělskou' druhou scholastiku vznikla — v čele s Grotiem, 'OTCEM MODERNÍHO MEZINÁRODNÍHO PRÁVA' — intenzivní debata o IUS AD BELLUM a IUS IN BELLO. Jednání o Vestfálském míru učinila naléhavou potřebu 'DĚLÁNÍ MÍRU' na jedné straně a formalit 'MÍROVÝCH SMLUV' na straně druhé. Evropská expanze a koloniální říše si vyžádaly další pravidla. A dvojí posun, který je jádrem věci: SEDMILETÁ VÁLKA — globální konflikt většiny velmocí — A ZKUŠENOST REVOLUCE PŘESUNULY TĚŽIŠTĚ MEZINÁRODNÍHO PRÁVA OD ZAUJETÍ VÁLKOU K ZAUJETÍ MÍREM (Kant vydal spis o věčném míru roku 1795) A OD ZÁJMU O SOUPEŘENÍ STÁTŮ K ZÁJMU O JEJICH SPOLUPRÁCI — přičemž rodina států brzy PŘEKROČILA ORBIS EUROPAEUS a zahrnula státy Severní i Jižní Ameriky. A od revoluce prosazovalo mezinárodní právo, tlačené SOUKROMÝMI ZÁJMOVÝMI SKUPINAMI, humanitární a sociálně-politické otázky, které by právníka 17. století zaujatého zákony války nezajímaly.",
       "terms": [],
@@ -826,8 +690,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

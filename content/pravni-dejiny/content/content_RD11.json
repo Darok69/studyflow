@@ -1,21 +1,8 @@
 {
   "lecture_id": "RD11",
-  "kind": "reading",
-  "course": "RD",
-  "course_title": "Required reading",
-  "course_number": "030362",
-  "unit": "Téma 15",
   "title": "Gassner, Od Brestu Litevského přes St. Germain do Sèvres",
-  "source_file": "raw/RD11_11-gassner-from-brest-litovsk-v-germain-to-sevres-jhl-01-202.pdf",
-  "source_sha256": "8218b83122d7e78b18cfe64620cfdd291663db30912d10e096e0e84c96ec75ee",
-  "source_pages": 15,
-  "slides_per_page": 1,
-  "slide_count": 19,
-  "updated_at": "2026-09-15T13:07:00+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "text_sha": null,
+  "slides": {
+    "1": {
       "title": "Co článek zkoumá a proč vynechává Versailles",
       "text": "Cíl: osvětlit VÝCHOZÍ SITUACI RUSKÉ, HABSBURSKÉ A OSMANSKÉ ŘÍŠE na konci první světové války a rozebrat vznik MÍROVÝCH SMLUV Z BRESTU LITEVSKÉHO, ZE ST. GERMAIN A ZE SÈVRES, porovnat jejich ustanovení a zasadit je do souvislostí. Německá říše a Versailleská smlouva jsou VĚDOMĚ VYNECHÁNY, protože už byly předmětem četných studií; autorka se soustředí na tři smlouvy, které všechny SEHRÁLY KLÍČOVOU ROLI V ÚPADKU MNOHONÁRODNÍCH ŘÍŠÍ. Rámující věta, kterou cituje od historika PATRICKA COHRSE: první světová válka byla V PODSTATĚ VÁLKOU MEZI ŘÍŠEMI A IMPERIÁLNÍMI STÁTY, DO KTERÉ BYLY NA OBOU STRANÁCH VTAŽENY MENŠÍ STÁTY A PODROBENÉ IMPERIÁLNÍ POPULACE.",
       "terms": [],
@@ -29,12 +16,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "text_sha": null,
+    "2": {
       "title": "Rusko: od Dekretu o míru k Brestu",
       "text": "Rusko ztratilo už roku 1915 důležitá západní území — KONGRESOVÉ POLSKO, KURSKO A LITVU — po VELKÉM ÚSTUPU následujícím po rakousko-německém průlomu u GORLIC A TARNOWA. Roku 1917 se po třech letech války bez úspěchů zhroutila podpora Mikuláše II. a ten byl ÚNOROVOU REVOLUCÍ donucen abdikovat. ŘÍJNOVÁ REVOLUCE (6.–8. listopadu, či 24.–26. října podle ruského kalendáře) přivedla k moci bolševiky. HOSPODÁŘSKY RUSKO UŽ NEEXISTOVALO a bolševici potřebovali čas a všechny zdroje ke stabilizaci vlastní vlády. 8. LISTOPADU, den po úspěšném převratu, vydala nová vláda 'DEKRET O MÍRU', kterým ZRUŠILA TAJNOU DIPLOMACII, NAVRHLA OKAMŽITÝ VŠEOBECNÝ MÍR BEZ ANEXÍ A KONTRIBUCÍ A ŽÁDALA, ABY KAŽDÉMU NÁRODU BYLO PŘIZNÁNO PRÁVO NA SEBEURČENÍ. 28. listopadu vydali Lenin a Trockij oficiální mírovou nabídku, Ústřední mocnosti souhlasily 29. listopadu. A teď to, co je pro habsburskou stranu podstatné: RUSKÝ MÍROVÝ NÁVRH STÁL NA NÁRODNÍM SEBEURČENÍ, A PŘEDSTAVOVAL TEDY RIZIKO PRO MNOHONÁRODNÍ HABSBURSKOU MONARCHII — jenže monarchie byla pod domácím tlakem, obyvatelstvo bylo z války unavené a sílící sociální demokraté otevřeně sympatizovali s Leninovým návrhem, což byl jeden z důvodů, proč ministr zahraničí HRABĚ CZERNIN na jednání okamžitě přistoupil. 15. PROSINCE 1917 bylo uzavřeno příměří; do té doby už UKRAJINA, FINOVÉ A KAZAŠI vyhlásili nezávislost a vznikla KRYMSKÁ LIDOVÁ REPUBLIKA, PRVNÍ SEKULÁRNÍ MUSLIMSKÝ STÁT, KTERÝ VYHLÁSIL SVRCHOVANOST. 22. prosince začala jednání v Brestu Litevském.",
       "terms": [],
@@ -56,19 +40,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "Rakousko-Uhersko: rozpad před příměřím",
       "text": "Rakousko-Uhersko utrpělo nejen hořké porážky, ale bylo i oslabeno NEVYŘEŠENÝMI NÁRODNOSTNÍMI KONFLIKTY. Koncem října 1918 byla armáda v tak zlém stavu, že velení muselo žádat příměří; monarchie ho podepsala 3. LISTOPADU 1918 VE VILLA GIUSTI U PADOVY. A tohle je klíčová chronologie: KDYŽ SE PŘÍMĚŘÍ UZAVÍRALO, MONARCHIE UŽ BYLA ROZPADLÁ. Inspirována Wilsonovými Čtrnácti body byla 28. ŘÍJNA 1918 vyhlášena ČESKOSLOVENSKÁ REPUBLIKA a následující den STÁT SLOVINCŮ, CHORVATŮ A SRBŮ; 31. ŘÍJNA vypovědělo UHERSKO REÁLNOU UNII, čímž se monarchie rozpadla. Německy mluvící členové říšské rady vytvořili 21. října PROZATÍMNÍ NÁRODNÍ SHROMÁŽDĚNÍ a rozhodli založit REPUBLIKU NĚMECKÉ RAKOUSKO, vyhlášenou 30. ŘÍJNA 1918. Jméno NĚMECKÉ RAKOUSKO (DEUTSCHÖSTERREICH) mělo jednak signalizovat jistý odstup od monarchie, jednak přihlášení k německému národu. A právní spor, který z toho plyne: v poválečném Rakousku převládal názor — sdílený i HANSEM KELSENEM v posudku z 29. listopadu 1918 — že NĚMECKÉ RAKOUSKO JE NOVĚ ZALOŽENÝ STÁT, A NELZE HO TEDY POKLÁDAT ZA PRÁVNÍHO NÁSTUPCE HABSBURSKÉ MONARCHIE. TAHLE 'TEZE DISKONTINUITY' SE SETKALA S PŘIJETÍM JEN VE VELKÉ BRITÁNII a ostatní spojenecké mocnosti ji odmítly — v čele s FRANCIÍ, která Rakousko spolu s Uherskem pokládala za JASNÉHO PRÁVNÍHO NÁSTUPCE monarchie.",
       "terms": [
-        {
-          "term": "teze diskontinuity",
-          "def": "Rakouský názor (i Kelsenův), že Německé Rakousko je nově založený stát, a není tedy právním nástupcem monarchie. Přijala ho jen Británie; Francie a ostatní ho odmítly."
-        }
+        { "term": "teze diskontinuity", "def": "Rakouský názor (i Kelsenův), že Německé Rakousko je nově založený stát, a není tedy právním nástupcem monarchie. Přijala ho jen Británie; Francie a ostatní ho odmítly." }
       ],
       "cards": [
         {
@@ -88,19 +66,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Osmanská říše a Moudroské příměří",
       "text": "Že Turecko vstoupí do války po boku Ústředních mocností, nebylo od počátku jasné: teprve když jednání o možné TURECKÉ NEUTRALITĚ ztroskotala na tureckých protipožadavcích — ZRUŠENÍ KAPITULACÍ a DODÁNÍ UŽ ZAPLACENÝCH VÁLEČNÝCH LODÍ OBJEDNANÝCH V BRITÁNII — vstoupila Osmanská říše 24. ŘÍJNA 1914 do války. (KAPITULACE byly zvláštní smlouvy mezi Osmanskou říší a většinou křesťanských států Evropy od raného novověku, které vytvořily SYSTÉM EXTERITORIÁLNÍCH VÝSAD ve prospěch mnoha evropských států.) Ve čtvrtém roce války Britové postoupili do velké části Mezopotámie a Palestiny a roku 1917 dobyli Bagdád a Jeruzalém; osmanská armáda se smrskla NA PĚTINU PŮVODNÍ SÍLY a 30. ŘÍJNA 1918 nezbylo než podepsat příměří V ZÁLIVU MOUDROS NA LEMNOSU. Mírová jednání probíhala BILATERÁLNĚ MEZI OSMANSKOU ŘÍŠÍ A VELKOU BRITÁNIÍ; ostatní spojenci u toho nebyli. Moudroským příměřím byla říše fakticky ZREDUKOVÁNA NA MALOU ASII, protože Hidžáz, Jemen, Sýrie a Mezopotámie — a také Tripolsko, Kyrenaika a Egypt, které už tehdy patřily k říši jen formálně — byly definitivně ztraceny. A ROZDÍL, KTERÝ ROZHODL O VŠEM DALŠÍM: NA ROZDÍL OD JEDNÁNÍ S RAKOUSKO-UHERSKEM SE V PŘÍPADĚ TURECKA NA WILSONOVY ČTRNÁCT BODŮ NEODKAZOVALO — SPOJENCI TEDY NEBYLI VÁZÁNI NIČÍM.",
       "terms": [
-        {
-          "term": "kapitulace",
-          "def": "Smlouvy mezi Osmanskou říší a evropskými státy od raného novověku, zakládající systém exteritoriálních výsad pro cizince v říši."
-        }
+        { "term": "kapitulace", "def": "Smlouvy mezi Osmanskou říší a evropskými státy od raného novověku, zakládající systém exteritoriálních výsad pro cizince v říši." }
       ],
       "cards": [
         {
@@ -120,12 +92,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Zájmy v Brestu a zájmy v Rakousku",
       "text": "Metodická výhrada, kterou autorka klade dopředu: SROVNÁNÍ VŠECH TŘÍ SMLUV A ZÁJMŮ ZA NIMI JDE UDĚLAT JEN VELMI OMEZENĚ, PROTOŽE BREST LITEVSKÝ VÍCEMÉNĚ DIKTOVALY ÚSTŘEDNÍ MOCNOSTI, KDEŽTO PAŘÍŽSKÉ SMLOUVY DIKTOVALI SPOJENCI. V BRESTU byl hlavní společný zájem Rakouska a Německa TRVALE ODTRHNOUT OD RUSKA KONGRESOVÉ POLSKO, KURSKO A LITVU; zpočátku se shodly, že NEBUDOU PODPOROVAT UKRAJINSKÉ SNAHY O NEZÁVISLOST, ale koncem prosince Czernin začal měnit názor. U RAKOUSKA V PAŘÍŽI byla otázka hlavně, NAKOLIK LZE PO RAKOUSKU ŽÁDAT REPARACE. Britové i Američané se jevili vstřícně a kromě reparací neměli žádné hospodářské zájmy. I FRANCOUZSKÝ ZÁJEM BYL VE SKUTEČNOSTI OMEZENÝ: Francie napřela všechnu energii k porážce německého úhlavního soupeře a o Rakousko měla zájem jen potud, POKUD TO SLOUŽILO K OSLABENÍ NĚMECKA. Projevilo se to zvlášť u touhy po připojení k Německu: 'ANSCHLUSS' NEBYL PRODUKTEM PRVNÍ SVĚTOVÉ VÁLKY, ale rozpadem monarchie získal novou naléhavost, zvlášť když se Německé Rakousko nepokládalo za HOSPODÁŘSKY ŽIVOTASCHOPNÉ. Ve smlouvě ze St. Germain Francie ZÁKAZ PŘIPOJENÍ PROSADILA — a v té souvislosti se muselo změnit i jméno státu z Německého Rakouska na Rakousko. Pro Francii byla důležitá PODPORA ČESKOSLOVENSKA, které jednak tvořilo dobrý NÁRAZNÍK PROTI BLÍŽÍCÍMU SE BOLŠEVISMU, jednak svými územními nároky OSLABOVALO NĚMECKO — proto Francie podporovala i všechny jeho územní požadavky vůči Rakousku. Z hlavních spojenců měla vlastní opravdový zájem na Rakousku JEN ITÁLIE, totiž územní nároky, které při absenci protichůdných zájmů ostatních úspěšně prosadila.",
       "terms": [],
@@ -147,19 +116,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Zájmy v Osmanské říši: proč to trvalo dva roky",
       "text": "Zatímco zájmy velmocí v Rakousku byly omezené, ZÁJMY V OSMANSKÉ ŘÍŠI BYLY PŘÍLIŠ ROZMANITÉ, NEŽ ABY SE DALY ZVLÁDNOUT — proto trvalo podepsání turecké smlouvy TÉMĚŘ DVA ROKY, zatímco s Ruskem i Rakouskem se to stihlo do pár měsíců od příměří. BRITÁNIE: měla na indickém subkontinentu koloniální říši zahrnující dnešní Indii, Pákistán i Bangladéš — a tedy NĚKOLIK MILIONŮ MUSLIMŮ, jejichž zájmy musela brát v úvahu; ve sporu mezi MEKKSKÝM ŠERIFEM a SULTÁNEM se 'indičtí muslimové' postavili za sultána, což Británii neusnadňovalo situaci, když sama uzavřela spojenectví s protiosmanským šerifem. Chtěla volný, bezpečný a trvalý přístup k Indii, k čemuž měla sloužit NEZÁVISLÁ ARMÉNIE jako nárazník proti Rusku. Od války si mocnosti čím dál víc uvědomovaly VÝZNAM ROPY, což Británii vedlo k požadavku VLÁDY NA EUFRATU A TIGRIDU a rozšíření vlivu v Bagdádu a Basře — souvislý pás území OD STŘEDOZEMNÍHO MOŘE K INDU měl být pod britskou kontrolou. Od otevření konzulátu v Palestině roku 1838 vystupovala Británie jako OCHRANNÁ MOC ŽIDŮ (A PROTESTANTŮ) ve Svaté zemi, jako protiváha Francie, která se tradičně viděla jako ochránkyně katolíků na Blízkém východě. Od nástupu LLOYDA GEORGE v prosinci 1916 se výlučná britská kontrola Palestiny stala jedním z hlavních cílů, protože Palestina měla poskytnout BEZPEČNÉ POZEMNÍ SPOJENÍ MEZI BRITSKÝM EGYPTEM A BUDOUCÍ BRITSKOU MEZOPOTÁMIÍ. K tomu bylo třeba nejprve ODSTRANIT SYKESOVU-PICOTOVU DOHODU a zastavit Francii v Palestině — k čemuž měli posloužit Židé žijící v Palestině a BALFOUROVA DEKLARACE. A nakonec osobní faktor: Lloyd George měl velké osobní sympatie k řeckému premiérovi VENIZELOSOVI, což se krylo s veřejným míněním — od ARMÉNSKÉ GENOCIDY se mezi britskou veřejností rozšířila krajně PROTITURECKÁ (a proarménská) NÁLADA.",
       "terms": [
-        {
-          "term": "Sykesova-Picotova dohoda",
-          "def": "Tajné vymezení koloniálních sfér vlivu Británie a Francie na Blízkém východě pro případ porážky Osmanské říše; později se připojily Rusko a Itálie."
-        }
+        { "term": "Sykesova-Picotova dohoda", "def": "Tajné vymezení koloniálních sfér vlivu Británie a Francie na Blízkém východě pro případ porážky Osmanské říše; později se připojily Rusko a Itálie." }
       ],
       "cards": [
         {
@@ -187,14 +150,11 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Brest Litevský: střet dvou světů",
-      "text": "Na rozdíl od ostatních smluv probíhala jednání o příměří i o míru NA TÉMŽE MÍSTĚ a plynule do sebe přecházela. Jak to výstižně popsal BORISLAV CHERNEV, od prosince 1917 do března 1918 se u stolu setkaly DVA NESMÍRNĚ ODLIŠNÉ SVĚTY: REVOLUČNÍ TAKTIKA POPRVÉ ZKŘÍŽILA MEČE S IMPERIÁLNÍ KABINETNÍ DIPLOMACIÍ. Na jedné straně zástupci evropské vysoké aristokracie, na druhé ruští revolucionáři, někteří prostí dělníci odměnění za boj v revoluci důležitými posty. A ovzduší bylo ZCELA JINÉ NEŽ MEZI VÍTĚZI A PORAŽENÝMI V PAŘÍŽI: ZVLÁŠŤ V PRVNÍM KOLE BYLO RUSKO FORMÁLNĚ POKLÁDÁNO ZA ROVNOCENNÉHO PARTNERA a pořádaly se společné večeře. Německý státní tajemník RICHARD VON KÜHLMANN o první z nich zapsal historku, která ten střet ilustruje: Rusové udělali mírovou delegátkou ženu přímo ze Sibiře, MADAME BIZENKO, která zastřelila u levice neoblíbeného generálního gubernátora a podle carské praxe nebyla popravena, nýbrž odsouzena na doživotí. 'TATO DÁMA, KTERÁ VYPADALA JAKO STARŠÍ HOSPODYNĚ, ZŘEJMĚ DOCELA BEZMYŠLENKOVITÁ FANATIČKA, PŘI VEČEŘI VYPRÁVĚLA PRINCI LEOPOLDU BAVORSKÉMU, JAK ATENTÁT PROVEDLA. UKAZOVALA, DRŽÍC V LEVÉ RUCE JÍDELNÍ LÍSTEK, JAK GUBERNÁTOROVI — „BYL TO ZLÝ ČLOVĚK“, DODALA VYSVĚTLUJÍCÍ — PODALA OBSÁHLÉ MEMORANDUM A ZÁROVEŇ HO STŘELILA DO BŘICHA REVOLVEREM DRŽENÝM V PRAVÉ. PRINC LEOPOLD S OBVYKLOU PŘÁTELSKOU ZDVOŘILOSTÍ NASLOUCHAL S NAPJATOU POZORNOSTÍ, JAKO BY HO ZPRÁVA TÉ VRAŽEDKYNĚ ZAJÍMALA CO NEJŽIVĚJI.'",
+      "text": "Na rozdíl od ostatních smluv probíhala jednání o příměří i o míru NA TÉMŽE MÍSTĚ a plynule do sebe přecházela. Jak to výstižně popsal BORISLAV CHERNEV, od prosince 1917 do března 1918 se u stolu setkaly DVA NESMÍRNĚ ODLIŠNÉ SVĚTY: REVOLUČNÍ TAKTIKA POPRVÉ ZKŘÍŽILA MEČE S IMPERIÁLNÍ KABINETNÍ DIPLOMACIÍ. Na jedné straně zástupci evropské vysoké aristokracie, na druhé ruští revolucionáři, někteří prostí dělníci odměnění za boj v revoluci důležitými posty. A ovzduší bylo ZCELA JINÉ NEŽ MEZI VÍTĚZI A PORAŽENÝMI V PAŘÍŽI: ZVLÁŠŤ V PRVNÍM KOLE BYLO RUSKO FORMÁLNĚ POKLÁDÁNO ZA ROVNOCENNÉHO PARTNERA a pořádaly se společné večeře. Německý státní tajemník RICHARD VON KÜHLMANN o první z nich zapsal historku, která ten střet ilustruje: Rusové udělali mírovou delegátkou ženu přímo ze Sibiře, MADAME BIZENKO, která zastřelila u levice neoblíbeného generálního gubernátora a podle carské praxe nebyla popravena, nýbrž odsouzena na doživotí. 'TATO DÁMA, KTERÁ VYPADALA JAKO STARŠÍ HOSPODYNĚ, ZŘEJMĚ DOCELA BEZMYŠLENKOVITÁ FANATIČKA, PŘI VEČEŘI VYPRÁVĚLA PRINCI LEOPOLDU BAVORSKÉMU, JAK ATENTÁT PROVEDLA. UKAZOVALA, DRŽÍC V LEVÉ RUCE JÍDELNÍ LÍSTEK, JAK GUBERNÁTOROVI — \u201eBYL TO ZLÝ ČLOVĚK\u201c, DODALA VYSVĚTLUJÍCÍ — PODALA OBSÁHLÉ MEMORANDUM A ZÁROVEŇ HO STŘELILA DO BŘICHA REVOLVEREM DRŽENÝM V PRAVÉ. PRINC LEOPOLD S OBVYKLOU PŘÁTELSKOU ZDVOŘILOSTÍ NASLOUCHAL S NAPJATOU POZORNOSTÍ, JAKO BY HO ZPRÁVA TÉ VRAŽEDKYNĚ ZAJÍMALA CO NEJŽIVĚJI.'",
       "terms": [],
       "cards": [
         {
@@ -206,19 +166,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "Brest: ukrajinská karta a 'ani válka, ani mír'",
       "text": "Ruská delegace vydala DEKLARACI ZÁSAD — mír bez anexí, právo na sebeurčení, žádné reparace — a protože Ústřední mocnosti neměly společný návrh, stala se ta deklarace základem prvního kola. 25. prosince vydaly mocnosti protinávrhy; Rakousko-Uhersko chtělo podepsat okamžitě a hrozilo SAMOSTATNÝM MÍREM, ale NĚMECKO TO NECHÁVALO LHOSTEJNÝM, protože Rakousko bylo na svém spojenci tak jako tak závislé. Druhé kolo poznamenala RUSKÁ SNAHA JEDNÁNÍ PROTAHOVAT V NADĚJI, ŽE SE MEZITÍM REVOLUCE ROZŠÍŘÍ DO ZÁPADNÍ EVROPY. Kromě obecného strachu z revoluce a vojenských úvah vedla Ústřední mocnosti — zvlášť Rakousko-Uhersko — OBAVA Z NEDOSTATKU DODÁVEK OBILÍ k podpisu SAMOSTATNÉ MÍROVÉ SMLOUVY S UKRAJINSKOU LIDOVOU REPUBLIKOU 9. ÚNORA 1918, kterou uznaly její svrchovanost. (Sovětské Rusko pokládalo Ukrajinskou lidovou republiku za 'buržoazní republiku' a 'výtvor Ústředních mocností' a poslalo tam vojsko — když se tedy delegace v Brestu sešly, MEZI UKRAJINOU A SOVĚTSKÝM RUSKEM UŽ VÁLKA PROBÍHALA.) Po uzavření míru s Ukrajinou Rusko jednání přerušilo: TROCKIJ pohrozil, že nařídí úplnou demobilizaci na všech frontách, ALE MÍR NEPODEPÍŠE — formule, která vešla ve známost jako 'ANI VÁLKA, ANI MÍR'. Německo proto pokládalo příměří za zaniklé a 17. února zahájilo operaci 'FAUSTSCHLAG'; ruské síly nekladly vážný odpor a mocnosti brzy získaly území v Estonsku, Lotyšsku, Bělorusku a na Ukrajině. 3. BŘEZNA 1918 RUSKO SMLOUVU PODEPSALO POD PROTESTEM — podle něj šlo o ANEXIONISTICKÝ A IMPERIALISTICKÝ MÍR, KTERÝ POD ZÁMINKOU OSVOBOZENÍ OKRAJOVÝCH OBLASTÍ RUSKA Z NICH DĚLAL NĚMECKÉ PROVINCIE A PODRÝVAL JEJICH PRÁVO NA SEBEURČENÍ.",
       "terms": [
-        {
-          "term": "'ani válka, ani mír'",
-          "def": "Trockého formule: demobilizovat na všech frontách, ale mír nepodepsat. Německo na ni odpovědělo obnovením války (operace Faustschlag)."
-        }
+        { "term": "'ani válka, ani mír'", "def": "Trockého formule: demobilizovat na všech frontách, ale mír nepodepsat. Německo na ni odpovědělo obnovením války (operace Faustschlag)." }
       ],
       "cards": [
         {
@@ -238,12 +192,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "Pařížská konference: kdo směl a kdo nesměl",
       "text": "PŘEDMÍROVÁ KONFERENCE byla zahájena 18. LEDNA 1919. Připuštěny byly všechny státy, které byly ve válce s Německou říší nebo s ní aspoň přerušily styky — OSMANSKÁ ŘÍŠE A RAKOUSKO-UHERSKO PŘIPUŠTĚNY NEBYLY. A k Rusku: SPOJENECKÉ A SDRUŽENÉ HLAVNÍ MOCNOSTI PŘEDSTÍRALY, ŽE NEEXISTUJE. Pro všechny věci týkající se bývalé monarchie a Osmanské říše byla zprvu příslušná NEJVYŠŠÍ RADA, známá jako 'RADA DESETI', složená z hlav vlád a ministrů zahraničí hlavních mocností. PRVNÍ POLOVINU ROKU 1919 OVLÁDALO SEPISOVÁNÍ SMLOUVY S NĚMECKEM; teprve potom se mocnosti začaly zabývat Rakouskem-Uherskem a Osmanskou říší.",
       "terms": [],
@@ -257,19 +208,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "Rakousko v Paříži a co si vyjednalo",
       "text": "Rakouská delegace vedená sociálnědemokratickým státním kancléřem KARLEM RENNEREM čekala pozvání na počátek roku 1919, ale byla povolána AŽ V KVĚTNU, když už se rýsoval závěr smlouvy s Německem. 12. května odjela sedmičlenná delegace do Paříže, kde byla ubytována v ODDĚLENÉ ČÁSTI, KTEROU SMĚLA OPOUŠTĚT JEN V DOPROVODU DŮSTOJNÍKA — na rozdíl od ruské delegace v Brestu se s ní zacházelo SPÍŠ JAKO S VĚZNI NEŽ S DIPLOMATICKÝMI ZÁSTUPCI. 2. června dostala první, ještě neúplný návrh (chyběla finanční, vojenská a reparační ustanovení a politická byla neúplná zvlášť ohledně Itálie) a čtrnáct dní na připomínky, které podala jako memoranda s protinávrhy; aby posílila vyjednávací pozici, ODSTOUPIL DOKONCE STÁTNÍ TAJEMNÍK ZAHRANIČÍ OTTO BAUER, který silně podporoval Anschluss. 6. srpna přišla podrobná odpověď spojenců, ze které bylo zřejmé, že se DÍLČÍ ZLEPŠENÍ PODAŘILA: Rakousko sice zůstalo odpovědné za válku (čl. 177), ale FINANČNÍ USTANOVENÍ UŽ BRALA V ÚVAHU ROZPAD MONARCHIE a od KONFISKACE MAJETKU německorakouských občanů na území monarchie se upustilo. U otázky státního občanství byl — na rozdíl od ostatních smluv — rozhodující ne obvyklý pobyt, nýbrž HEIMATRECHT, domovské právo (příslušnost osoby k určité obci, určená původem a děděná, zavedená v Rakousku 1849 a zrušená až 1939). Územně bylo Rakousko v podstatě zredukováno na území, ze kterého vzešlo ve středověku, a od srpna bylo jasné, že JIŽNÍ TYROLY PŘIPADNOU ITÁLII. Ale — a to je ta pointa — PŘEKVAPIVĚ ZÍSKALO RAKOUSKO NOVÉ ÚZEMÍ: v prvním návrhu nepředvídané NĚMECKY MLUVÍCÍ ZÁPADOUHERSKÉ ÚZEMÍ, DNEŠNÍ BURGENLAND. Dá se to vykládat jako štědrost spojenců, kteří doufali, že Rakousko pomůže potlačit komunismus v Uhrách. VÝSLEDEK: RAKOUSKO BYLO JEDINÝM PORAŽENÝM STÁTEM PRVNÍ SVĚTOVÉ VÁLKY, KTERÝ DOSÁHL ÚZEMNÍHO ZISKU. 10. ZÁŘÍ 1919 podepsal Renner smlouvu ze St. Germain-en-Laye.",
       "terms": [
-        {
-          "term": "Heimatrecht",
-          "def": "Domovské právo: příslušnost osoby k určité obci, určená původem a děděná, odlišná od skutečného bydliště. Ve St. Germain rozhodovala o občanství místo obvyklého pobytu."
-        }
+        { "term": "Heimatrecht", "def": "Domovské právo: příslušnost osoby k určité obci, určená původem a děděná, odlišná od skutečného bydliště. Ve St. Germain rozhodovala o občanství místo obvyklého pobytu." }
       ],
       "cards": [
         {
@@ -297,12 +242,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "Osmané v Paříži: sebejistá delegace a odklad",
       "text": "17. ČERVNA 1919, pár týdnů po obsazení SMYRNY řeckými vojsky, dorazila do Paříže čtyřčlenná osmanská delegace v čele se sultánovým švagrem a velkovezírem DAMADEM FERITEM PAŠOU a téhož dne směla předstoupit před 'Radu deseti'. Vystoupila SEBEJISTĚ: hlavní starostí bylo odvrátit 'ROZKOUSKOVÁNÍ' říše a ochotu vyjednávat projevila jen v otázce Egypta a Kypru. Argumentovala, že OSMANSKÁ ŘÍŠE BYLA PO STALETÍ ZÁRUKOU BEZPEČNOSTI A PROSPERITY NA EVROPSKÉM, AFRICKÉM I ASIJSKÉM KONTINENTU, a že hranice muslimské říše by měly odpovídat HRANICÍM Z ROKU 1878, přičemž oblast MOSULU a části íránského a ruského území se mají vrátit sultanátu. BRITÁNIE A FRANCIE BYLY TĚMI NEKOMPROMISNÍMI, TÉMĚŘ ARROGANTNÍMI POŽADAVKY OŠLEHNUTY. O pár dní později konference rozhodla JEDNÁNÍ ODLOŽIT, dokud se USA nerozhodnou, zda převezmou část Turecka jako mandátní území — a jednání tedy stála OD ČERVENCE DO LISTOPADU 1919. (Nedala se odložit jen thrácká otázka, nutná k vymezení hranic v jižním Bulharsku.) Ten odklad rozhodl o všem: MEZITÍM SE V TURECKU ZÁSADNĚ ZMĚNILA SITUACE.",
       "terms": [],
@@ -316,12 +258,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "text_sha": null,
+    "12": {
       "title": "Mustafa Kemal: druhá vláda vedle té jednající",
       "text": "V oblastech ohrožených převzetím Armény či Řeky, zvlášť v KILIKII, se zformovaly místní odbojové skupiny a v tom novém hnutí rychle vystoupal MUSTAFA KEMAL, pozdější Atatürk, známý už z úspěšné obrany GALLIPOLSKÉHO POLOOSTROVA roku 1915. Když byl v květnu 1919 poslán do Anatolie ODZBROJIT ZBÝVAJÍCÍ JEDNOTKY PODLE PŘÍMĚŘÍ, VZEPŘEL SE SULTÁNOVU ROZKAZU A ODEŠEL Z ARMÁDY — a s ním odešly i značné části vojáků v Anatolii. V létě 1919 se konal KONGRES V ERZURUMU, kde Kemal označil vládu v Istanbulu za 'RUKOJMÍ OKUPAČNÍCH MOCNOSTÍ'. Spojenci domácí dění v Turecku IGNOROVALI — včetně toho, že Kemal 23. DUBNA 1920 svolal v ANKAŘE NÁRODNÍ SHROMÁŽDĚNÍ, které ho učinilo předsedou, že PROHLÁSIL SULTANÁT ZA ZRUŠENÝ a jmenoval vládu stojící proti sultánovi i spojencům. Proto Gassner uzavírá: 10. SRPNA 1920 BYLA V JEDNÉ Z VÝSTAVNÍCH SÍNÍ PROSLULÉ PORCELÁNKY V SÈVRES PODEPSÁNA MÍROVÁ SMLOUVA SE SMLUVNÍ STRANOU, KTERÁ VE SKUTEČNOSTI UŽ NEEXISTOVALA. Historik PHILIP MARSHALL BROWN o ní napsal: 'SMLOUVA ZE SÈVRES BYLA KŘEHKÁ JAKO PORCELÁN TOHO JMÉNA, ACH BEZ JEHO PŮVABU.'",
       "terms": [],
@@ -343,19 +282,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "text_sha": null,
+    "13": {
       "title": "Londýn a San Remo: jak se rozdělil Blízký východ",
       "text": "Na LONDÝNSKÉ KONFERENCI (12. února – 10. dubna 1920) padl projekt neutralizovaného 'SVOBODNÉHO STÁTU ÚŽIN' po vzoru Gdaňsku; prosadila se mírnější varianta DEMILITARIZOVANÝCH ÚŽIN POD DOHLEDEM MEZINÁRODNÍ KOMISE. Francouzskému požadavku na finanční kontrolu Turecka se vyhovělo výměnou za britský návrh FORMÁLNÍHO VZDÁNÍ SE REPARAČNÍCH NÁROKŮ; zřídila se MEZISPOJENECKÁ FINANČNÍ KOMISE. Zprávy z Kilikie, kde kemalisté získávali území, urychlily rozhodnutí: 5. BŘEZNA 1920 SE SPOJENCI ROZHODLI OBSADIT KONSTANTINOPOL — město mělo být formálně prozatím ponecháno Turecku, ale mělo sloužit jako JAKÉSI 'RUKOJMÍ' ZA DOBRÉ CHOVÁNÍ: dojde-li znovu k povstáním či masakrům, mocnosti své rozhodnutí přehodnotí. U Smyrny se mocnosti od Řecka čím dál víc distancovaly, ale kemalistické zisky vyvolaly vážnou pochybnost, zda tvrdou smlouvu lze v Turecku vůbec prosadit: ZPRÁVA MARŠÁLA FOCHE ZA MEZISPOJENECKÉ VELENÍ UVEDLA, ŽE SMLOUVA NEBUDE VYMAHATELNÁ, POKUD SE DO POLE NEPOŠLE ASI 325 000 MUŽŮ — což nebyla Británie ani Francie ochotna udělat. Tady se Řecko znovu nabídlo jako 'ZACHRÁNCE' s tím, že turecké nacionalisty porazí případně samo, a v červnu 1920 bylo pověřeno obsadit VÝCHODNÍ THRÁKII; VENIZELOSOVA MEGALI IDEA se tak na okamžik zdála naplněnou. Turecko se mělo vzdát všech práv k LIBYI, TUNISKU, MAROKU A SÚDÁNU; EGYPT se měl stát britským protektorátem. V SÝRII se dohodlo, že FRANCIE DOSTANE MANDÁT PRO SÝRII A BRITÁNIE PRO PALESTINU A MEZOPOTÁMII, s víceméně sdílenou mosulskou ropou. A U KURDŮ SE PROJEVIL OBRAT: LLOYD GEORGE UŽ NEHÁJIL SAMOSTATNÝ KURDSKÝ STÁT. Na konferenci v SAN REMO (od 18. dubna 1920) pak Británie a Francie společně rozhodly VYTVOŘIT KURDSKOU AUTONOMNÍ OBLAST — KURDSKÝ SEN O VLASTNÍM STÁTĚ SE NEUSKUTEČNIL — a ARMÉNII TAKÉ ZKLAMALY, protože mladý arménský stát ponechaly víceméně sobě samému. V zákulisí byla mezi Francií a Británií BEZ ÚČASTI USA sjednána ROPNÁ DOHODA ZE SAN REMA: FRANCIE SE VZDÁ MOSULU, KTERÝ SE SPOLU S VILÁJETY BAGDÁD A BASRA PROZATÍMNĚ ZAČLENÍ DO BRITSKÉHO MANDÁTNÍHO ÚZEMÍ MEZOPOTÁMIE, a Francie se za to bude PODÍLET NA TĚŽBĚ MOSULSKÉ ROPY.",
       "terms": [
-        {
-          "term": "Megali Idea",
-          "def": "Řecký program územního rozšíření na úkor Osmanské říše, prosazovaný Venizelosem na pařížské konferenci."
-        }
+        { "term": "Megali Idea", "def": "Řecký program územního rozšíření na úkor Osmanské říše, prosazovaný Venizelosem na pařížské konferenci." }
       ],
       "cards": [
         {
@@ -391,12 +324,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "text_sha": null,
+    "14": {
       "title": "Brest Litevský jako text",
       "text": "Podepsán VÍCE NEŽ ROK PŘED PAŘÍŽSKÝMI SMLOUVAMI, v době, kdy válka ještě zuřila naplno. Signatáři: SOVĚTSKÉ RUSKO na jedné straně a NĚMECKÁ ŘÍŠE, RAKOUSKO-UHERSKO, BULHARSKO A OSMANSKÁ ŘÍŠE na druhé. Má JEN ČTRNÁCT ČLÁNKŮ, tedy je mnohem kratší než pařížské smlouvy, byť Rusko muselo s každou mocností podepsat DOPLŇKOVOU DOHODU asi o 35 článcích (obnovení diplomatických a konzulárních styků, obnovení politických smluv, obnovení soukromoprávních vztahů, náhrada civilních ztrát, výměna zajatců, péče o repatriované, amnestie). Rozdíl je vidět hned v prvním článku: BREST NEMÁ PREAMBULI a čl. 1 NEUTRÁLNĚ stanoví, že Německo, Rakousko-Uhersko, Bulharsko a Turecko na jedné straně a Rusko na druhé prohlašují, ŽE STAV VÁLKY MEZI NIMI SKONČIL a že se rozhodly žít napříště v míru — KDEŽTO PAŘÍŽSKÉ SMLOUVY UŽ V PRVNÍM ODSTAVCI PREAMBULE OBJASŇUJÍ, ŽE STAV VÁLKY VZEŠEL Z NEPŘÁTELSTVÍ ZAHÁJENÝCH PŘÍSLUŠNOU ÚSTŘEDNÍ MOCNOSTÍ. Brest NEOBSAHUJE ŽÁDNÁ USTANOVENÍ O VÁLEČNÝCH NÁHRADÁCH ANI REPARACÍCH — nejzajímavější jsou proto územní postupy. ČLÁNEK 3 odtrhl od ruské svrchovanosti POLSKO, LITVU, KURSKO A ČÁST LIVONSKA a přiznal jim OMEZENÉ PRÁVO NA SEBEURČENÍ POD DOHLEDEM RAKOUSKA-UHERSKA A NĚMECKA. Na Kavkaze se mělo vrátit území, které Rusko vzalo Osmanské říši v rusko-turecké válce 1877–78, totiž ARDAHAN, KARS A BATUMI; Rusko se zavázalo udělat vše pro vyklizení východní Anatolie (čl. 4). ČL. 5 nařizoval DEMOBILIZACI ruské armády a loďstva, ČL. 6 zavazoval Rusko UZAVŘÍT IHNED MÍR S UKRAJINSKOU LIDOVOU REPUBLIKOU a vyklidit Estonsko, Livonsko, Finsko a Alandy (Estonsko a Livonsko pak obsadily německé policejní jednotky a fakticky je podřídily německé správě). ČL. 7 prohlašoval PERSII A AFGHÁNISTÁN za svobodné a nezávislé země, ČL. 9 obsahoval VZÁJEMNÉ VZDÁNÍ SE NÁHRAD za válku. CELKEM SMLOUVA ODEBRALA ÚZEMÍ ZAHRNUJÍCÍ ČTVRTINU OBYVATELSTVA A PRŮMYSLU BÝVALÉ RUSKÉ ŘÍŠE.",
       "terms": [],
@@ -418,12 +348,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "text_sha": null,
+    "15": {
       "title": "Struktura pařížských smluv a kde se Sèvres liší",
       "text": "Všechny hlavní pařížské smlouvy sledují strukturu VERSAILLESKÉ SMLOUVY, která posloužila jako ŠABLONA. PRVNÍ ČÁST (čl. 1–26) je ve všech PAKT SPOLEČNOSTI NÁRODŮ, protože Wilson žádal, aby byl navázán na Versailles. DRUHOU ČÁST tvoří ustanovení o VYMEZENÍ NOVÝCH HRANIC (Sèvres i St. Germain zřizují HRANIČNÍ KOMISE). TŘETÍ ČÁST jsou POLITICKÉ KLAUZULE — Versailles, St. Germain a Trianon dělí ustanovení o Evropě a o mimoevropských zájmech (zvlášť koloniích), SÈVRES TO NEDĚLÍ. Několik rozdílů, které Sèvres odlišují nejvíc: USA V NÍ NEJSOU SMLUVNÍ STRANOU (nikdy nebyly s Osmanskou říší ve válce), takže se tam nemluví o 'spojeneckých a SDRUŽENÝCH' mocnostech jako jinde. A v preambuli: zatímco ostatní smlouvy mluví o PEVNÉM, SPRAVEDLIVÉM A TRVALÉM MÍRU, VE FRANCOUZSKÉ — TEDY ROZHODNÉ — VERZI SMLOUVY ZE SÈVRES SLOVO 'SPRAVEDLIVÝ' CHYBÍ. Samo slovo MÍROVÁ SMLOUVA se v původním znění Sèvres nezmiňuje. K jednotlivostem: podle ČL. 36 měla Konstantinopol zůstat Turecku 'až na další' a mohla tedy zůstat sídlem sultána a chalífátu; podle ČL. 37–61 byly ÚŽINY pod mezinárodní správou Komise úžin, vody neutralizovány a břehy demilitarizovány; u KURDISTÁNU (čl. 62–64) se autonomní oblast nerozhodla ve smlouvě samé, nýbrž se ponechala britsko-francouzsko-italské komisi; u SMYRNY se počítalo s prozatímním autonomním statutem, ačkoli Řecko mělo dostat rozsáhlá správní práva a smělo tam držet vojsko, přičemž město mělo formálně zůstat součástí Turecka.",
       "terms": [],
@@ -445,12 +372,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "text_sha": null,
+    "16": {
       "title": "Občanství a 'etnické rozpletení'",
       "text": "Články 123–131 Sèvres o občanství obyvatel bývalé Osmanské říše nemají ve Versailles ani ve St. Germain obdobu, PROTOŽE STOJÍ NA MIGRACI. Zatímco St. Germain stavěl na Heimatrechtu, zde měli všichni bývalí osmanští občané žijící v novém státě na území bývalé říše AUTOMATICKY ZÍSKAT OBČANSTVÍ TOHO NOVÉHO STÁTU. ČL. 125: každá osoba, JEJÍŽ RASA SE LIŠILA OD VĚTŠINY OBYVATELSTVA daného území, měla PRÁVO OPTOVAT pro občanství arménské, ázerbájdžánské, gruzínské, řecké, mezopotámské, syrské, bulharské, turecké či hidžázské — POKUD VĚTŠINA OBYVATELSTVA ZVOLENÉHO STÁTU PATŘILA K TÉŽE RASE jako optující. ČL. 126 pak byl zvlášť důležitý: KDO OPTOVAL, MUSEL DO DVANÁCTI MĚSÍCŮ PŘENÉST BYDLIŠTĚ DO STÁTU, PRO JEHOŽ OBČANSTVÍ SE ROZHODL — přičemž si směl ve státě, ze kterého fakticky musel emigrovat, ponechat nemovitosti. ČL. 129: ŽIDÉ ŽIJÍCÍ V HRANICÍCH PALESTINY SE MĚLI IPSO FACTO STÁT PALESTINSKÝMI OBČANY a byli tím z ostatních občanství vyloučeni. Gassner tu vidí zásadní věc: TA USTANOVENÍ SE SOUSTŘEDÍ NA 'ETNICKÉ ROZPLETENÍ' BÝVALÉHO OSMANSKÉHO OBYVATELSTVA, A DAJÍ SE PROTO POKLÁDAT ZA PRVNÍ PŘEDZVĚSTI VÝMĚNY OBYVATELSTVA, KTERÁ SE SKUTEČNĚ PROVEDLA PO LAUSANNSKÉ SMLOUVĚ ROKU 1923. A druhá předzvěst: ČL. 143 zavazoval Řecko a Turecko uzavřít zvláštní dohodu o VZÁJEMNÉM A DOBROVOLNÉM VYSTĚHOVÁNÍ tureckého a řeckého obyvatelstva.",
       "terms": [],
@@ -464,19 +388,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "text_sha": null,
+    "17": {
       "title": "Ochrana menšin a čl. 88 o nezávislosti Rakouska",
       "text": "U St. Germain upravovaly ČL. 36–62 hlavně hraniční otázky a vztahy se sousedy; u KLAGENFURTU se měl konat PLEBISCIT o tom, ke kterému státu území připadne — ZAJÍMAVÉ JE, ŽE SÈVRES NIC PODOBNÉHO NEPŘEDVÍDÁ. 'SRDCEM' politických ustanovení St. Germain byl ČLÁNEK 88 O 'NEZMĚNITELNÉ NEZÁVISLOSTI RAKOUSKA' — ANSCHLUSSVERBOT. (Čtvrtá část o Maroku, Egyptě, Siamu a Číně byla z Versailles jen opsaná a protože Rakousko nemělo kolonie, byla bezpředmětná.) OCHRANA MENŠIN je ve St. Germain včleněná do třetí části (čl. 62–82), kdežto v Sèvres tvoří samostatnou čtvrtou část (čl. 140–151) — VE VERSAILLES OBDOBNÁ ČÁST VŮBEC NENÍ. Obě vycházejí z menšinových ustanovení 'MALÉ VERSAILLESKÉ SMLOUVY' S POLSKEM z 28. června 1919, takže si většinou odpovídají; u Turecka mířila hlavně na ŘECKOU, ARMÉNSKOU A ŽIDOVSKOU menšinu. Ochrana menšin byla ve vztahu k bývalé Osmanské říši TROJDÍLNÁ: kromě ustanovení v Sèvres byla 10. srpna 1920 podepsána dvacetičlánková menšinová smlouva mezi hlavními mocnostmi a ŘECKEM (pro bývalé osmanské občany v částech přidělených Řecku) a odpovídající smlouva s ARMÉNIÍ. A zvlášť pozoruhodný je ČL. 144 SÈVRES: takzvané 'EMVAL-I-METROUKEH', domy či podniky osmanských státních příslušníků NETURECKÉ RASY, kteří byli NÁSILNĚ VYHNÁNI ZE SVÝCH DOMOVŮ NEBO JE OPUSTILI ZE STRACHU PŘED MASAKREM, MUSELY BÝT OBĚTEM TURECKÉ AGRESE BEZPLATNĚ VRÁCENY.",
       "terms": [
-        {
-          "term": "Emval-i-Metroukeh",
-          "def": "Domy a podniky osmanských občanů neturecké rasy, kteří byli vyhnáni nebo uprchli ze strachu před masakrem; čl. 144 Sèvres nařizoval jejich bezplatné vrácení."
-        }
+        { "term": "Emval-i-Metroukeh", "def": "Domy a podniky osmanských občanů neturecké rasy, kteří byli vyhnáni nebo uprchli ze strachu před masakrem; čl. 144 Sèvres nařizoval jejich bezplatné vrácení." }
       ],
       "cards": [
         {
@@ -504,12 +422,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "text_sha": null,
+    "18": {
       "title": "Vojenská ustanovení, hroby a válečná vina",
       "text": "VOJENSKÁ USTANOVENÍ Sèvres nařizovala demobilizaci osmanských sil, omezení vojenského aparátu a ABSOLUTNÍ ZÁKAZ LETECTVA (čl. 191). A čísla, která se srovnávají: POZEMNÍ SÍLY OMEZENY NA 50 000 MUŽŮ V SÈVRES, NA 100 000 VE VERSAILLES A NA NEJVÝŠ 30 000 VE ST. GERMAIN — vzhledem k územní velikosti těch tří zemí byla TURECKÁ OMEZENÍ NEJTVRDŠÍ. USTANOVENÍ O HROBECH se v Sèvres výrazně liší: ČL. 218 ukládal turecké vládě PŘEVÉST NA BRITSKOU, FRANCOUZSKOU A ITALSKOU VLÁDU PLNÁ A VÝLUČNÁ VLASTNICKÁ PRÁVA K PŮDĚ V HRANICÍCH TURECKA, KDE LEŽELY HROBY JEJICH PADLÝCH — ve skutečnosti to postihlo jen GALLIPOLSKÝ POLOOSTROV, kde zahynulo více než 40 000 spojeneckých vojáků, hlavně z Austrálie a Nového Zélandu. SEDMÁ ČÁST 'TRESTY' je věnována potrestání válečných zločinů a je téměř totožná s ostatními smlouvami — KROMĚ ČL. 230, KTERÝ SE TÝKAL GENOCIDY ARMÉNSKÉ MENŠINY. A novinka v dějinách mezinárodního práva: FORMULACE TAKZVANÝCH 'ČLÁNKŮ O VÁLEČNÉ VINĚ' (ST. GERMAIN ČL. 177, VERSAILLES ČL. 231, NEUILLY ČL. 121), které založily DALEKOSÁHLOU, DO TÉ DOBY BEZPRECEDENTNÍ ODPOVĚDNOST AGRESORA — daná země se v nich činila odpovědnou jako původce ztrát a škod utrpěných spojenci. Sèvres článek o válečné vině sice také obsahuje (čl. 231 odst. 1), ALE OSMANSKÉ ŘÍŠI SE PŘIZNALA JEN ZMENŠENÁ ODPOVĚDNOST, zvlášť proto, že jednala jako POUHÝ POMOCNÍK NĚMECKÉ ŘÍŠE. Reparační ustanovení mají v Sèvres jen nepřímý protějšek: ČL. 231 ODST. 2 SE FORMÁLNĚ VZDAL REPARAČNÍCH NÁROKŮ — což ovšem stojí v ostrém protikladu k čl. 235, který tureckou vládu zavazoval platit.",
       "terms": [],
@@ -539,12 +454,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "text_sha": null,
+    "19": {
       "title": "Závěr: co platí a co ne",
       "text": "Všechny tři smlouvy stojí VE STÍNU VERSAILLES, a přesto jsou podstatnými součástmi nového světového řádu. Všechny značí KONEC MNOHONÁRODNÍCH ŘÍŠÍ, JEJICHŽ POLITICKÝ VÝZNAM DALEKO ZAOSTÁVAL ZA JEJICH ÚZEMNÍM ROZSAHEM UŽ PŘED ROKEM 1914. A ta klíčová formulace: ROZPAD RUSKÉ, HABSBURSKÉ I OSMANSKÉ ŘÍŠE PROBĚHL UŽ PŘEDTÍM, NEŽ BYLY SMLOUVY VŮBEC PODEPSÁNY — JINAK ŘEČENO, ROZPAD VŠECH TŘÍ ŘÍŠÍ BYL PŘÍSLUŠNOU MÍROVOU SMLOUVOU JEN PRÁVNĚ ZPEČETĚN. A osud těch tří textů: ZE VŠECH TŘÍ VSTOUPILA V PLATNOST JEN SMLOUVA ZE ST. GERMAIN — A DODNES PLATÍ, ZČÁSTI V ÚSTAVNÍ ÚROVNI. BREST LITEVSKÝ ZRUŠILO NĚMECKÉ PŘÍMĚŘÍ V LISTOPADU 1918 a SÈVRES, KTERÁ NIKDY NEBYLA RATIFIKOVÁNA, BYLA NAKONEC NAHRAZENA LAUSANNSKOU SMLOUVOU ROKU 1923. Ze všech pěti hlavních pařížských smluv se SÈVRES LIŠÍ NEJVÍC: na první pohled nejsou její podmínky tak tvrdé jako ve Versailles, ale NA DRUHÝ POHLED JE JASNÉ, ŽE I TADY SPOJENCI MÍŘILI NA PORÁŽKU OSMANSKÉ ŘÍŠE — symbolem je OBSAZENÍ KONSTANTINOPOLE, KTEROU SPOJENCI NA ROZDÍL OD VÍDNĚ ČI BERLÍNA OBSADILI. A poslední věta: v poimperiálním Rakousku, Uhrách i Turecku vznikly ROZSÁHLÉ PARAMILITÁRNÍ SUBKULTURY utvářené postupnou traumatizující zkušeností VÁLKY, PORÁŽKY A ÚZEMNÍHO ROZPADU — a ačkoli se míra násilí v těch územích značně lišila, LOGIKA, KTERÁ ZA NÁSILNÝM JEDNÁNÍM STÁLA, NIKOLI.",
       "terms": [],
@@ -574,8 +486,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }
