@@ -522,6 +522,7 @@ export const de: Messages = {
   topicReadTitle: 'Das Lehrbuch bei diesem Thema öffnen',
   topicCards: 'Karten',
   topicCardsTitle: 'Die Karten des Themas zeigen',
+  reorderTitle: 'Zum Umsortieren ziehen (oder Pfeiltasten)',
   allTopics: 'Alle Themen',
   importExistsQ: (name: string, n: number) =>
     `Das Fach „${name}“ gibt es schon. Das Paket hat ${n} ${n === 1 ? 'Karte' : 'Karten'} — was soll passieren?`,

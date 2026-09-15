@@ -17,6 +17,7 @@ import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
 import { subjectColorIndex } from '../lib/theme'
+import { positionsFor } from '../lib/order'
 import { BREAK_NUDGE_MINUTES, DEFAULT_DAILY_MINUTES, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
 import { dayKey } from '../lib/date'
 
@@ -265,6 +266,19 @@ export async function addCards(subjectId: string, drafts: CardDraft[]): Promise<
   await db.cards.bulkAdd(cards)
   notifyDataChanged()
   return cards.length
+}
+
+/**
+ * Persist the home-screen order. Every subject in the list gets a position,
+ * so nothing is left half-placed after the first drag.
+ */
+export async function setSubjectOrder(ids: string[]): Promise<void> {
+  const positions = positionsFor(ids)
+  if (positions.size === 0) return
+  await db.transaction('rw', db.subjects, async () => {
+    for (const [id, order] of positions) await db.subjects.update(id, { order })
+  })
+  notifyDataChanged()
 }
 
 /** Update card content/placement; FSRS state is intentionally untouched. */

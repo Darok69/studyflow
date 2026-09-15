@@ -1072,10 +1072,12 @@ h3 {
 }
 
 /* ---------- Subject card actions + readiness ---------- */
+/* Bottom-right, not top-right: on touch the actions are always visible and up
+   there they sat on top of the countdown chip. */
 .subject-actions {
   position: absolute;
-  top: 12px;
-  right: 14px;
+  bottom: 12px;
+  right: 48px;
   display: none;
   gap: 6px;
 }
@@ -2674,4 +2676,41 @@ body {
   font-size: 13px;
   font-weight: 600;
   white-space: nowrap;
+}
+
+/* Arranging the decks by hand. */
+.subject-grip {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  background: var(--desk);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  border-radius: 8px;
+  cursor: grab;
+  /* The browser must not claim the gesture as a scroll, or a drag on a phone
+     moves the page instead of the card. */
+  touch-action: none;
+  font-size: 14px;
+  line-height: 1;
+  padding: 4px 8px;
+}
+
+.subject-grip:active {
+  cursor: grabbing;
+}
+
+.subject-card-dragging {
+  opacity: 0.55;
+  transform: scale(0.98);
+}
+
+/* While a card is in the air, nothing else reacts to the pointer — the hit
+   test has to find the card underneath, not a button on top of it. */
+.subject-list-dragging .subject-card * {
+  pointer-events: none;
+}
+
+.subject-list-dragging {
+  cursor: grabbing;
 }

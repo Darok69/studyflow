@@ -41,6 +41,7 @@ import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
 import { lectureForTopic, matchCourse, orderByCourse } from '../src/lib/materials'
 import { newCardsOnly, planFiling, questionKey } from '../src/import/mergeDeck'
+import { hasManualOrder, moveItem, orderedByHand, positionsFor } from '../src/lib/order'
 import {
   answerSimilarity,
   checkAnswer,
@@ -1487,6 +1488,43 @@ console.log('— blind maps: masks stay relative, one card per place —')
     'a multi-tag rule picks the right one of two same-named topics',
   )
   ok(planFiling([card('q', 'q', ['sources'])], both).size === 0, 'a multi-tag rule needs ALL its tags')
+}
+
+
+// ============================================================
+// Arranging the decks by hand
+// ============================================================
+{
+  console.log('— moveItem —')
+  const l = ['a', 'b', 'c', 'd']
+  ok(moveItem(l, 0, 2).join('') === 'bcad', `move forward (got ${moveItem(l, 0, 2).join('')})`)
+  ok(moveItem(l, 3, 0).join('') === 'dabc', `move to the front (got ${moveItem(l, 3, 0).join('')})`)
+  ok(moveItem(l, 1, 1) === l, 'moving nowhere returns the same list, untouched')
+  ok(moveItem(l, 0, 99).join('') === 'bcda', 'dropping past the end means last, not an error')
+  ok(moveItem(l, 9, 0).join('') === 'abcd', 'an index that is not there changes nothing')
+  ok(l.join('') === 'abcd', 'the original list is never mutated')
+
+  console.log('— orderedByHand —')
+  const subs = [
+    { id: 'x', order: 2, createdAt: '2026-01-01' },
+    { id: 'y', order: 0, createdAt: '2026-02-01' },
+    { id: 'new', createdAt: '2026-03-01' },
+    { id: 'older-new', createdAt: '2026-01-15' },
+    { id: 'z', order: 1, createdAt: '2026-04-01' },
+  ]
+  const got = orderedByHand(subs).map((s) => s.id)
+  ok(got.join(',') === 'y,z,x,older-new,new', `placed first in their order, then the rest by age (got ${got.join(',')})`)
+  ok(!hasManualOrder([{ id: 'a' }, { id: 'b' }]), 'nothing arranged yet = leave the order alone')
+  ok(hasManualOrder([{ id: 'a' }, { id: 'b', order: 0 }]), 'one placed card counts as arranged')
+  // order 0 is a real position, not "unset" — a card dragged to the front
+  // must not fall back to the bottom of the list.
+  ok(orderedByHand([{ id: 'a', createdAt: '2026-01-01' }, { id: 'b', order: 0 }])[0].id === 'b', 'position 0 is a position')
+
+  console.log('— positionsFor —')
+  const pos = positionsFor(['p', 'q', 'r'])
+  ok(pos.get('p') === 0 && pos.get('r') === 2, 'positions follow the list')
+  ok(pos.size === 3, 'every card gets one, so none is left half-placed')
+  ok(positionsFor([]).size === 0, 'nothing in, nothing to write')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

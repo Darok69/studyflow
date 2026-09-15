@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { Card, Review, Settings, Subject } from '../db/db'
-import { getCards, getReviews, getSettings, getSubjects } from '../db/repo'
+import { getCards, getReviews, getSettings, getSubjects, setSubjectOrder } from '../db/repo'
+import { hasManualOrder, moveItem, orderedByHand } from '../lib/order'
 import {
   buildSession,
   introducedTodayBySubject,
@@ -65,6 +66,13 @@ export function Home({
   // Zeigarnik: the thread left hanging when a session was cut short.
   const [note, setNote] = useState<DayNote | null>(null)
   const [fresh, setFresh] = useState<FreshStart>(null)
+  /**
+   * The order while a card is being dragged. Held apart from the stored order
+   * so the list can follow the finger before anything is written down.
+   */
+  const [dragOrder, setDragOrder] = useState<string[] | null>(null)
+  const [draggingId, setDraggingId] = useState<string | null>(null)
+  const dragOrderRef = useRef<string[] | null>(null)
 
   async function load() {
     const [s, c, r, st] = await Promise.all([getSubjects(), getCards(), getReviews(), getSettings()])
@@ -137,6 +145,74 @@ export function Home({
         return { subject, plan, readiness: subjectReadiness(own, subject.examDate, now, retention) }
       })
       .filter((x): x is { subject: Subject; plan: SubjectPlan; readiness: Readiness | null } => x !== null)
+
+  // Deadline order is what the queue needs; the shelf is the user's to arrange.
+  // Until someone drags a card, nothing changes and the nearest exam stays first.
+  const arranged = hasManualOrder(subjects)
+    ? orderedByHand(subjects)
+        .map((s) => plans.find((p) => p.subject.id === s.id))
+        .filter((p): p is (typeof plans)[number] => p !== undefined)
+    : plans
+  const shown = dragOrder
+    ? dragOrder
+        .map((id) => arranged.find((p) => p.subject.id === id))
+        .filter((p): p is (typeof plans)[number] => p !== undefined)
+    : arranged
+
+  function startDrag(e: React.PointerEvent<HTMLElement>, subject: Subject) {
+    // The handle keeps the pointer for the whole gesture, so leaving the button
+    // mid-drag does not silently drop it.
+    e.preventDefault()
+    e.stopPropagation()
+    try {
+      e.currentTarget.setPointerCapture(e.pointerId)
+    } catch {
+      // Some browsers refuse capture for a pointer they do not consider down.
+      // The drag still works through the list's own move handler.
+    }
+    const ids = shown.map((p) => p.subject.id)
+    dragOrderRef.current = ids
+    setDragOrder(ids)
+    setDraggingId(subject.id)
+  }
+
+  function onDragMove(e: React.PointerEvent<HTMLElement>) {
+    const ids = dragOrderRef.current
+    if (!draggingId || !ids) return
+    // Hit-test rather than measure: the cards are a wrapping grid, so "which
+    // card am I over" is the only question with a stable answer.
+    const under = document
+      .elementFromPoint(e.clientX, e.clientY)
+      ?.closest<HTMLElement>('[data-subject-id]')
+    const overId = under?.dataset.subjectId
+    if (!overId || overId === draggingId) return
+    const from = ids.indexOf(draggingId)
+    const to = ids.indexOf(overId)
+    if (from < 0 || to < 0) return
+    const next = moveItem(ids, from, to)
+    dragOrderRef.current = next
+    setDragOrder(next)
+  }
+
+  async function endDrag() {
+    const ids = dragOrderRef.current
+    setDraggingId(null)
+    if (ids) await setSubjectOrder(ids)
+    dragOrderRef.current = null
+    await load()
+    setDragOrder(null)
+  }
+
+  /** Same move from the keyboard — one step left or right. */
+  async function nudge(subject: Subject, delta: number) {
+    const ids = shown.map((p) => p.subject.id)
+    const from = ids.indexOf(subject.id)
+    if (from < 0) return
+    const to = Math.max(0, Math.min(ids.length - 1, from + delta))
+    if (to === from) return
+    await setSubjectOrder(moveItem(ids, from, to))
+    await load()
+  }
 
   return (
     <div className="page home-page">
@@ -253,14 +329,22 @@ export function Home({
           </div>
         </div>
       ) : (
-        <div className="subject-list">
-          {plans.map(({ subject, plan, readiness }) => (
+        <div
+          className={`subject-list${draggingId ? ' subject-list-dragging' : ''}`}
+          onPointerMove={onDragMove}
+          onPointerUp={() => void endDrag()}
+          onPointerCancel={() => void endDrag()}
+        >
+          {shown.map(({ subject, plan, readiness }) => (
             <SubjectCard
               key={subject.id}
               subject={subject}
               plan={plan}
               readiness={readiness}
               onEdit={setEditing}
+              onDragStart={shown.length > 1 ? startDrag : undefined}
+              onNudge={(s, d) => void nudge(s, d)}
+              dragging={draggingId === subject.id}
               // Tap the deck → the subject: today's batch, the textbook it was
               // made from, and the topics underneath. A semester is learned
               // lecture by lecture, so the way in has to show the lectures.

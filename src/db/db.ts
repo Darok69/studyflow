@@ -20,6 +20,11 @@ export interface Subject {
   kind?: SubjectKind // 'other' for subjects created before the field existed
   ects?: number | null // credits this course is worth (progress tracking)
   /**
+   * Where the deck sits on the home screen. Set by dragging; absent until the
+   * first time the decks are arranged, and then the order follows the exam.
+   */
+  order?: number | null
+  /**
    * Implementation intention (BRIEF §5.11): "V úterý v 19:00 u kuchyňského
    * stolu 25 minut práva." A concrete when/where/what beats good will, and it
    * is what the reminder says instead of a generic "time to study".

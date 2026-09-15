@@ -515,6 +515,7 @@ export const cs = {
   topicReadTitle: 'Otevřít učebnici u tohoto tématu',
   topicCards: 'Karty',
   topicCardsTitle: 'Ukázat kartičky tématu',
+  reorderTitle: 'Přetáhni pro změnu pořadí (nebo šipkami)',
   allTopics: 'Všechna témata',
   importExistsQ: (name: string, n: number) =>
     `Předmět „${name}“ už máš. Balíček má ${n} ${n === 1 ? 'kartu' : n >= 2 && n <= 4 ? 'karty' : 'karet'} — co s ním?`,

@@ -514,6 +514,7 @@ export const en: Messages = {
   topicReadTitle: 'Open the textbook at this topic',
   topicCards: 'Cards',
   topicCardsTitle: 'Show the cards of this topic',
+  reorderTitle: 'Drag to rearrange (or use the arrow keys)',
   allTopics: 'All topics',
   importExistsQ: (name: string, n: number) =>
     `You already have a subject called "${name}". This deck has ${n} ${n === 1 ? 'card' : 'cards'} — what should happen?`,

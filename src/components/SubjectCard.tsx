@@ -14,6 +14,14 @@ interface Props {
   onEdit: (subject: Subject) => void
   /** Tap anywhere on the card → start studying this subject right away. */
   onOpen: (subject: Subject) => void
+  /**
+   * Arranging the decks by hand. Dragging is confined to a handle so that a
+   * tap anywhere else still opens the deck — and the handle is a real button,
+   * so the same move works from the keyboard.
+   */
+  onDragStart?: (e: React.PointerEvent<HTMLElement>, subject: Subject) => void
+  onNudge?: (subject: Subject, delta: number) => void
+  dragging?: boolean
 }
 
 const BAND_COLOR: Record<ReturnType<typeof readinessBand>, string> = {
@@ -22,7 +30,16 @@ const BAND_COLOR: Record<ReturnType<typeof readinessBand>, string> = {
   fragile: palette.near,
 }
 
-export function SubjectCard({ subject, plan, readiness, onEdit, onOpen }: Props) {
+export function SubjectCard({
+  subject,
+  plan,
+  readiness,
+  onEdit,
+  onOpen,
+  onDragStart,
+  onNudge,
+  dragging = false,
+}: Props) {
   // Identity colour (left accent bar) is kept separate from the urgency colour
   // (countdown + progress) so the two signals never clash.
   const identity = subjectColor(subject.colorIndex ?? subjectColorIndex(subject.id))
@@ -32,7 +49,8 @@ export function SubjectCard({ subject, plan, readiness, onEdit, onOpen }: Props)
 
   return (
     <article
-      className="subject-card subject-card-clickable"
+      className={`subject-card subject-card-clickable${dragging ? ' subject-card-dragging' : ''}`}
+      data-subject-id={subject.id}
       style={{ borderLeftColor: identity }}
       role="button"
       tabIndex={0}
@@ -77,6 +95,31 @@ export function SubjectCard({ subject, plan, readiness, onEdit, onOpen }: Props)
             : t('doneForToday')}
         </span>
       </div>
+
+      {onDragStart && (
+        <button
+          className="subject-action subject-grip"
+          title={t('reorderTitle')}
+          aria-label={t('reorderTitle')}
+          onClick={(e) => e.stopPropagation()}
+          onPointerDown={(e) => onDragStart(e, subject)}
+          onKeyDown={(e) => {
+            if (!onNudge) return
+            const delta =
+              e.key === 'ArrowLeft' || e.key === 'ArrowUp'
+                ? -1
+                : e.key === 'ArrowRight' || e.key === 'ArrowDown'
+                  ? 1
+                  : 0
+            if (delta === 0) return
+            e.preventDefault()
+            e.stopPropagation()
+            onNudge(subject, delta)
+          }}
+        >
+          ⠿
+        </button>
+      )}
 
       <div className="subject-actions">
         <button
