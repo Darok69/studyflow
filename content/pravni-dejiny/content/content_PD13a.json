@@ -1,71 +1,17 @@
 {
   "lecture_id": "PD13a",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 16",
   "title": "The Austrian 1st Republic, Democracy and the B-VG I",
-  "source_file": "raw/PD13a_pp-13a-democracy-olechowski.pdf",
-  "source_sha256": "e58a8aba6362c6b827b929e1522e27f04d92f6cf69cae33e6e15b54292b9a5d8",
-  "source_pages": 15,
-  "slides_per_page": 2,
-  "slide_count": 30,
-  "updated_at": "2026-09-15T12:12:45+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD13a/PD13a_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 137,
-      "text_sha": "c408aabecbbef82b",
-      "pdf_page": 1,
-      "pdf_cell": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD13a/PD13a_s002.webp",
-      "title": "Europe from 1918 to 1945, part 2: Democracy",
-      "text": "Thomas Olechowski. The unit takes democracy apart as a legal form before turning to the Austrian constitution.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 129,
-      "text_sha": "d6781305dd0e5624",
-      "pdf_page": 1,
-      "pdf_cell": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD13a/PD13a_s003.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Europe from 1918 to 1945, part 2: Democracy", "text": "Thomas Olechowski. The unit takes democracy apart as a legal form before turning to the Austrian constitution.", "terms": [], "cards": [], "vision_used": false },
+    "3": {
       "title": "1918 — the victory of democracy?",
       "text": "Two maps, 1914 and 1921: green for constitutional monarchies, yellow for democratic republics, red for the Soviet Union. The question mark in the title is the lecture's own — the map of 1921 looks like a triumph, and the rest of the unit is about how quickly it was reversed.",
       "terms": [],
       "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 219,
-      "text_sha": "af5f57d0abc66c18",
-      "pdf_page": 2,
-      "pdf_cell": 1
+      "vision_used": true
     },
-    {
-      "n": 4,
-      "img": "img/PD13a/PD13a_s004.webp",
+    "4": {
       "title": "Aristotle again — and the sting",
       "text": "The six forms, repeated from topic 2 because everything here depends on it. Leadership of ONE: monarchía, degenerating into tyrannis. Leadership of THE BEST: aristokratía, degenerating into oligarchía. Leadership of THE CITIZENS: politeía — degenerating into DEMOKRATÍA. For Aristotle around 330 BC, democracy is the DEGENERATE form; the good form of rule by many is politeía.",
       "terms": [],
@@ -78,19 +24,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 290,
-      "text_sha": "8f8cb19283b47898",
-      "pdf_page": 2,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PD13a/PD13a_s005.webp",
+    "5": {
       "title": "Who was actually included",
       "text": "In the Greek polis political participation was reserved for A SMALL NUMBER OF MEN, who could easily gather in one place — the AGORA — and decide directly. SLAVES, FOREIGNERS (métoikoi) AND WOMEN were excluded. And the detail that makes the point concrete: ARISTOTLE HIMSELF LIVED IN ATHENS AND COUNTED AS A MÉTOIKOS THERE — the philosopher of the constitution had no vote in it. The early modern cities are similar: political power in the hands of a small minority, mainly MERCHANTS.",
       "terms": [],
@@ -103,26 +39,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 610,
-      "text_sha": "e85602f49bb6cc94",
-      "pdf_page": 3,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD13a/PD13a_s006.webp",
+    "6": {
       "title": "Rousseau and the free mandate",
       "text": "Rousseau developed the idea of POPULAR SOVEREIGNTY, and for him ONLY DIRECT DEMOCRACY was conceivable: 'the people of England regards itself as free, but it is grossly mistaken; it is free ONLY DURING THE ELECTION of members of parliament. As soon as they are elected, slavery overtakes it.' His criticism is directed AGAINST THE FREE MANDATE — and the lecture immediately shows the cost of the alternative: deputies with a BOUND mandate are ONLY MESSENGERS, and a DISCUSSION IN PARLIAMENT BECOMES POINTLESS. If the deputy must vote as instructed, there is nothing to debate.",
       "terms": [
-        {
-          "term": "free mandate",
-          "def": "The deputy is bound by no instruction from the voters. Its opposite, the bound mandate, ties him to their will — and makes parliamentary debate pointless, since nobody can be persuaded."
-        }
+        { "term": "free mandate", "def": "The deputy is bound by no instruction from the voters. Its opposite, the bound mandate, ties him to their will — and makes parliamentary debate pointless, since nobody can be persuaded." }
       ],
       "cards": [
         {
@@ -133,19 +56,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 582,
-      "text_sha": "b62dd439207cc2d6",
-      "pdf_page": 3,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD13a/PD13a_s007.webp",
+    "7": {
       "title": "Lenin makes the same argument",
       "text": "Lenin, 1918: 'DECIDING ONCE EVERY FEW YEARS WHICH MEMBER OF THE RULING CLASS SHOULD OPPRESS AND TRAMPLE ON THE PEOPLE IN PARLIAMENT — that is the true essence of bourgeois parliamentarianism.' The lecture's observation: LENIN'S ARGUMENT IS THE SAME AS ROUSSEAU'S. And the Russian council or SOVIET system is built on the BOUND MANDATE — a stronger link to the will of the voters, AND A LOSS OF SIGNIFICANCE FOR PARLIAMENT. The same critique, reached from opposite ends of the political spectrum, leads to the same institutional consequence.",
       "terms": [],
@@ -158,19 +71,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 508,
-      "text_sha": "1be1627a3a49784e",
-      "pdf_page": 4,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD13a/PD13a_s008.webp",
+    "8": {
       "title": "Why direct democracy stops working",
       "text": "The Roman answer, from the Institutes I.2.5: 'A SENATUSCONSULT is a command and ordinance of the senate, for when the ROMAN PEOPLE HAD BEEN SO INCREASED THAT IT WAS DIFFICULT TO ASSEMBLE IT TOGETHER for the purpose of enacting statutes, it seemed right that THE SENATE SHOULD BE CONSULTED INSTEAD OF THE PEOPLE.' Representation is presented not as a principle but as a practical necessity — the assembly on the Campus Martius simply became too large.",
       "terms": [],
@@ -183,19 +86,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 545,
-      "text_sha": "dca603cb8ca1f961",
-      "pdf_page": 4,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD13a/PD13a_s009.webp",
+    "9": {
       "title": "The Federalist Papers: democracy against republic",
       "text": "Hamilton, Madison and Jay explain and defend the new US constitution. Their distinction is the one to quote: 'IN A DEMOCRACY, THE PEOPLE MEET AND EXERCISE THE GOVERNMENT IN PERSON; IN A REPUBLIC, THEY ASSEMBLE AND ADMINISTER IT BY THEIR REPRESENTATIVES AND AGENTS. A DEMOCRACY, CONSEQUENTLY, WILL BE CONFINED TO A SMALL SPOT. A REPUBLIC MAY BE EXTENDED OVER A LARGE REGION.' For the Federalists 'democracy' means direct democracy, and 'republic' means what we now call representative democracy — so their preference for a republic is not a preference against popular rule but for a scalable form of it.",
       "terms": [],
@@ -208,19 +101,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 578,
-      "text_sha": "ca8b446714345225",
-      "pdf_page": 5,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD13a/PD13a_s010.webp",
+    "10": {
       "title": "Kelsen's defence of democracy",
       "text": "Kelsen's view of man follows the Indian formula 'TAT TVAM ASI' — 'that's you there' — from which follow ALTRUISM, PACIFISM and RELATIVISM. And the argument runs from the relativism: SINCE NOBODY CAN CLAIM TO KNOW BETTER THAN ANYONE ELSE, THE ONLY OPTION IS TO VOTE. The advantage of democracy is therefore not that it finds the truth but that THE BALANCE OF POWER CAN CHANGE AFTER EVERY ELECTION AND THE CHANGE BETWEEN GOVERNMENT AND OPPOSITION TAKES PLACE PEACEFULLY. And parliamentarism is 'nothing more and nothing less than the result of a society based on the DIVISION OF LABOUR': citizens have no time to deal with all the laws in detail — THEREFORE THE RIGHT TO VOTE MUST BE REPRESENTATIVE.",
       "terms": [],
@@ -240,36 +123,16 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 741,
-      "text_sha": "9afe550b10982196",
-      "pdf_page": 5,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD13a/PD13a_s011.webp",
+    "11": {
       "title": "Direct democracy today",
       "text": "The Landsgemeinde, the popular assembly of Appenzell-Innerrhoden, still meets. And important recent plebiscites: 1994, Austria's accession to the EU; 2005, ratification of the European Constitution — YES in Spain and Luxembourg, NO in France and the Netherlands; 2016, the UK vote to leave the EU.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 402,
-      "text_sha": "2753e3f645df7c94",
-      "pdf_page": 6,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD13a/PD13a_s012.webp",
+    "12": {
       "title": "Plebiscites in Nazi Germany",
       "text": "Three of them: withdrawal from the League of Nations (1933); Hitler assuming the functions of the Reich President (1934); and the Anschluss of Austria (1938). The lesson the lecture draws: GERMAN CONSTITUTIONAL HISTORY IN PARTICULAR SHOWS THAT THE REFERENDUM CAN EASILY BE ABUSED BY DICTATORS — and that is why the German Grundgesetz of 1949 provides VIRTUALLY NO OPPORTUNITIES FOR A PLEBISCITE. A constitutional design decision made directly out of historical experience.",
       "terms": [],
@@ -282,26 +145,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 449,
-      "text_sha": "56b645a4e242d4b7",
-      "pdf_page": 6,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD13a/PD13a_s013.webp",
+    "13": {
       "title": "Direct democracy in Austria: three instruments",
       "text": "PLEBISCITES (Volksabstimmung): OBLIGATORY if the constitution is to be amended IN ITS ENTIRETY — the only case being 1994, the EU; OPTIONAL if a third of the members of parliament so wish — the only case being 1978, the NO to nuclear power. CONSULTATIONS (Volksbefragung): NOT BINDING; the only case 2013, compulsory military service. POPULAR INITIATIVES (Volksbegehren): aiming to start a legislative procedure — VERY OFTEN, BUT WITH LITTLE EFFECT. Note how thin the record is: in a century, one obligatory and one optional plebiscite, and one consultation.",
       "terms": [
-        {
-          "term": "Volksabstimmung / Volksbefragung / Volksbegehren",
-          "def": "Plebiscite (binding vote), consultation (non-binding) and popular initiative (to start a legislative procedure) — the three Austrian instruments of direct democracy."
-        }
+        { "term": "Volksabstimmung / Volksbefragung / Volksbegehren", "def": "Plebiscite (binding vote), consultation (non-binding) and popular initiative (to start a legislative procedure) — the three Austrian instruments of direct democracy." }
       ],
       "cards": [
         {
@@ -312,36 +162,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 479,
-      "text_sha": "65b664c4b23d8777",
-      "pdf_page": 7,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD13a/PD13a_s014.webp",
-      "title": "Popular initiatives in Austria",
-      "text": "Over 100 of them, ranked by number of signatures — the instrument used most and achieving least.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 158,
-      "text_sha": "620572400eac36ed",
-      "pdf_page": 7,
-      "pdf_cell": 2
-    },
-    {
-      "n": 15,
-      "img": "img/PD13a/PD13a_s015.webp",
+    "14": { "title": "Popular initiatives in Austria", "text": "Over 100 of them, ranked by number of signatures — the instrument used most and achieving least.", "terms": [], "cards": [], "vision_used": false },
+    "15": {
       "title": "The typology of democracy",
       "text": "DIRECT democracy against INDIRECT (representative) democracy; and within the representative kind, PARLIAMENTARY democracy — Austria 1918–1929, the Federal Republic of Germany since 1949 — against PRESIDENTIAL democracy — the USA since 1788, most Latin American countries — with HYBRID FORMS between them: Germany 1919–1933, Austria 1929–1933 and since 1945, Italy since 1948, France since 1958. Austria therefore changed category in 1929 and has been hybrid ever since.",
       "terms": [],
@@ -354,19 +178,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 448,
-      "text_sha": "cf55d7901bc50be2",
-      "pdf_page": 8,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD13a/PD13a_s016.webp",
+    "16": {
       "title": "The three forms defined",
       "text": "PARLIAMENTARY democracy: PARLIAMENT IS THE ONLY DIRECTLY ELECTED BODY, and every other body derives its democratic legitimation FROM IT. PRESIDENTIAL democracy: parliament AND the president are BOTH elected by the people and have ALMOST EQUAL POWER. HYBRID forms: both elected, but the government still depends on parliament. The test is simple — count how many bodies the people elect directly, and ask whom the government answers to.",
       "terms": [],
@@ -379,43 +193,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 484,
-      "text_sha": "8eb2923861e7ee6d",
-      "pdf_page": 8,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD13a/PD13a_s017.webp",
-      "title": "The parliamentary chain",
-      "text": "The diagram: the PEOPLE elect PARLIAMENT, and parliament carries the GOVERNMENT. One arrow of legitimation, in one direction.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 141,
-      "text_sha": "5da0646c23ca1c73",
-      "pdf_page": 9,
-      "pdf_cell": 1
-    },
-    {
-      "n": 18,
-      "img": "img/PD13a/PD13a_s018.webp",
+    "17": { "title": "The parliamentary chain", "text": "The diagram: the PEOPLE elect PARLIAMENT, and parliament carries the GOVERNMENT. One arrow of legitimation, in one direction.", "terms": [], "cards": [], "vision_used": false },
+    "18": {
       "title": "How parliamentary government actually works",
       "text": "Three observations, each worth a mark. The political system is determined ONLY INDIRECTLY in the constitution, THROUGH THE RULES ON MINISTERIAL RESPONSIBILITY — no article says 'this is a parliamentary democracy'. Parliament can dismiss a minister by a VOTE OF NO CONFIDENCE, and — in contrast to MINISTERIAL IMPEACHMENT — NO VIOLATION OF THE LAW IS NECESSARY: losing confidence is enough. And in practice votes of no confidence are VERY RARE, because governments are formed with a stable majority — WHICH LINKS THE LEGISLATIVE AND EXECUTIVE BRANCHES THROUGH POLITICAL PARTIES.",
       "terms": [
-        {
-          "term": "vote of no confidence",
-          "def": "Parliament's dismissal of a minister without any need to show a violation of law — unlike ministerial impeachment, which requires one."
-        }
+        { "term": "vote of no confidence", "def": "Parliament's dismissal of a minister without any need to show a violation of law — unlike ministerial impeachment, which requires one." }
       ],
       "cards": [
         {
@@ -433,19 +218,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 566,
-      "text_sha": "55bfd82638a800c9",
-      "pdf_page": 9,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD13a/PD13a_s019.webp",
+    "19": {
       "title": "The Austrian case of 2019",
       "text": "The mechanism, seen working. 27 MAY 2019: a vote of no confidence against the Austrian federal government. 28 MAY: the Federal President dismisses the government. 29 SEPTEMBER: new elections to the National Council. Four months from a parliamentary vote to a new parliament — and the president acting as the executor of parliament's decision, not against it.",
       "terms": [],
@@ -458,19 +233,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 292,
-      "text_sha": "e09250ac4d1d5841",
-      "pdf_page": 10,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD13a/PD13a_s020.webp",
+    "20": {
       "title": "Where the separation of powers actually runs",
       "text": "The sharpest idea in the lecture. In a CONSTITUTIONAL MONARCHY the separation of powers runs GOVERNMENT AGAINST PARLIAMENT. In a DEMOCRACY it runs GOVERNMENT PLUS THE PARLIAMENTARY MAJORITY AGAINST THE PARLIAMENTARY OPPOSITION. Because parties link the executive to its majority, the real line is no longer between the branches but between the government camp and the opposition — which is why opposition rights and minority rights matter more in a democracy than the formal separation of powers does.",
       "terms": [],
@@ -483,19 +248,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 270,
-      "text_sha": "6fb3bd04529fb0af",
-      "pdf_page": 10,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD13a/PD13a_s021.webp",
+    "21": {
       "title": "Presidential democracy and divided government",
       "text": "In a presidential democracy the president CAN BELONG TO A DIFFERENT PARTY than the parliamentary majority. In the USA a law proposed by the president may be refused by Congress, or the president may block a decision of Congress — the slide's example is 2015–2017, a Democratic president against a Republican majority. And the comparison: SUCH A SCENARIO WOULD HARDLY BE CONCEIVABLE IN AUSTRIA, where the government exists only as long as the majority supports it.",
       "terms": [],
@@ -508,19 +263,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 551,
-      "text_sha": "9ca8e2ca57c1903a",
-      "pdf_page": 11,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 22,
-      "img": "img/PD13a/PD13a_s022.webp",
+    "22": {
       "title": "Hybrid forms: doubly dependent government",
       "text": "The president is ELECTED BY THE PEOPLE and APPOINTS the federal government — BUT MUST DISMISS IT in the event of a vote of no confidence. So the government is DOUBLY DEPENDENT: on the president who appoints it and on the parliament that can remove it. And Austrian political practice answers which dependence bites: PARLIAMENT IS MORE POWERFUL THAN THE PRESIDENT — shown especially in 2000, when the ÖVP–FPÖ government was appointed AGAINST THE DECLARED WILL of Federal President Klestil.",
       "terms": [],
@@ -533,26 +278,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 492,
-      "text_sha": "e8eb849606913acd",
-      "pdf_page": 11,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "img": "img/PD13a/PD13a_s023.webp",
+    "23": {
       "title": "Parliamentary monarchy — and church and state",
       "text": "In a parliamentary monarchy the king or queen is IRRESPONSIBLE for his or her actions, in contrast to a republican president; political power lies with parliament and the crown has MERE REPRESENTATIVE FUNCTIONS. And a comparison of church and state: the British monarch is ALSO HEAD OF THE CHURCH OF ENGLAND — a state church. FRANCE has LAICISM since 1905 — the church completely separated from the state and largely banned from public life. GERMANY AND AUSTRIA: separation NOT COMPLETE, the church fulfilling public tasks. Three different answers within one Europe.",
       "terms": [
-        {
-          "term": "laicism",
-          "def": "The French model since 1905: the church completely separated from the state and largely excluded from public life — as against the British state church and the Austrian/German partial separation."
-        }
+        { "term": "laicism", "def": "The French model since 1905: the church completely separated from the state and largely excluded from public life — as against the British state church and the Austrian/German partial separation." }
       ],
       "cards": [
         {
@@ -570,19 +302,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 600,
-      "text_sha": "57ba2ec2784edea0",
-      "pdf_page": 12,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "img": "img/PD13a/PD13a_s024.webp",
+    "24": {
       "title": "When women got the vote",
       "text": "FINLAND 1906. NORWAY, DENMARK, ICELAND 1913/15. AUSTRIA, CZECHOSLOVAKIA, GERMANY 1918/19. ENGLAND 1928. FRANCE 1944. SWITZERLAND 1971. Read the list against the reputation of each country: Austria enfranchised women a decade before England, France only after the occupation, and Switzerland — the home of the Landsgemeinde and the most direct democracy in Europe — LAST, in 1971.",
       "terms": [],
@@ -595,19 +317,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 244,
-      "text_sha": "ade0333c9896bc73",
-      "pdf_page": 12,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 25,
-      "img": "img/PD13a/PD13a_s025.webp",
+    "25": {
       "title": "Majority against proportional electoral systems",
       "text": "MAJORITY system: the country is divided into constituencies, each electing ONE member of parliament — the winner in each district takes the seat. PROPORTIONAL system: the members are elected IN PROPORTION to the votes cast. The consequence, which the next slides live off: a majority system tends to produce stable two-party government and throws away minority votes; a proportional one represents minorities and makes coalitions necessary.",
       "terms": [],
@@ -620,36 +332,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 302,
-      "text_sha": "caed1f827ca779b0",
-      "pdf_page": 13,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 26,
-      "img": "img/PD13a/PD13a_s026.webp",
-      "title": "Preferential votes",
-      "text": "Two Austrian cases where a candidate won a seat on preference votes against the party's ordering: Josef Cap for the SPÖ in the National Council in 1983, and Andreas Mölzer for the FPÖ in the European Parliament in 2004.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 286,
-      "text_sha": "aab06e7bc06f5458",
-      "pdf_page": 13,
-      "pdf_cell": 2
-    },
-    {
-      "n": 27,
-      "img": "img/PD13a/PD13a_s027.webp",
+    "26": { "title": "Preferential votes", "text": "Two Austrian cases where a candidate won a seat on preference votes against the party's ordering: Josef Cap for the SPÖ in the National Council in 1983, and Andreas Mölzer for the FPÖ in the European Parliament in 2004.", "terms": [], "cards": [], "vision_used": false },
+    "27": {
       "title": "The free mandate against the party line",
       "text": "The free mandate is not a theoretical nicety — it is what makes these possible. 1993: the Liberal Forum splits from the FPÖ. 2005: the BZÖ splits from the FPÖ. 2012: members of the SPÖ and BZÖ and independents form Team Stronach. 2015: several Team Stronach members switch to the ÖVP and FPÖ. 2019–2024: Philippa Strache sits as an independent member of the National Council. A deputy elected on a party list keeps the seat when the party is left — which is exactly what Rousseau objected to, seen from the inside.",
       "terms": [],
@@ -662,36 +348,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 449,
-      "text_sha": "20b5d734afab9ca9",
-      "pdf_page": 14,
-      "pdf_cell": 1
+      "vision_used": true
     },
-    {
-      "n": 28,
-      "img": "img/PD13a/PD13a_s028.webp",
-      "title": "The most misused of all political terms",
-      "text": "A scale from ISONOMY through DEMOCRACY to ELECTORAL AUTOCRACY — regimes that hold elections and call themselves democracies while lacking everything else the word implies.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 111,
-      "text_sha": "dd5f2a75fa36266d",
-      "pdf_page": 14,
-      "pdf_cell": 2
-    },
-    {
-      "n": 29,
-      "img": "img/PD13a/PD13a_s029.webp",
+    "28": { "title": "The most misused of all political terms", "text": "A scale from ISONOMY through DEMOCRACY to ELECTORAL AUTOCRACY — regimes that hold elections and call themselves democracies while lacking everything else the word implies.", "terms": [], "cards": [], "vision_used": false },
+    "29": {
       "title": "What democracy actually requires",
       "text": "The conclusion, and the likeliest essay question of the unit. NOT EVERYTHING THAT CALLS ITSELF DEMOCRACY DESERVES THAT NAME. The fundamental idea of democracy is TO SAFEGUARD FREEDOM, and it rests on THE EQUALITY OF ALL CITIZENS. And it must be COMPLEMENTED by: FUNDAMENTAL RIGHTS; the RULE OF LAW; and the SEPARATION OF POWERS, classical or otherwise — possibly also FEDERALISM and SUBSIDIARITY. Elections alone are not democracy; they are one component of it.",
       "terms": [],
@@ -704,32 +364,8 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 461,
-      "text_sha": "d4e997318f0a001d",
-      "pdf_page": 15,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 30,
-      "img": "img/PD13a/PD13a_s030.webp",
-      "title": "",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 2,
-      "text_sha": "e629fa6598d73276",
-      "pdf_page": 15,
-      "pdf_cell": 2
-    }
-  ]
+    "30": { "title": "", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }

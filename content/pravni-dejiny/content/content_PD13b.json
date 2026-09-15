@@ -1,71 +1,11 @@
 {
   "lecture_id": "PD13b",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 17",
   "title": "The Austrian 1st Republic, Democracy and the B-VG II",
-  "source_file": "raw/PD13b_pp-13b-the-first-republic-of-au-itutional-justice-olechowski.pdf",
-  "source_sha256": "6da42fe31fe2775dba05820c9b7789ff37241d2efeb46af1a4caf1d98085cb6f",
-  "source_pages": 13,
-  "slides_per_page": 2,
-  "slide_count": 26,
-  "updated_at": "2026-09-15T12:12:46+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD13b/PD13b_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 142,
-      "text_sha": "a31b10a0f67632f9",
-      "pdf_page": 1,
-      "pdf_cell": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD13b/PD13b_s002.webp",
-      "title": "Europe from 1918 to 1945, part 3: The First Republic and constitutional justice",
-      "text": "Thomas Olechowski.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 173,
-      "text_sha": "c784367901f60ea1",
-      "pdf_page": 1,
-      "pdf_cell": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD13b/PD13b_s003.webp",
-      "title": "Europe in 1920",
-      "text": "The map after the peace treaties.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 97,
-      "text_sha": "92389b94da3db375",
-      "pdf_page": 2,
-      "pdf_cell": 1
-    },
-    {
-      "n": 4,
-      "img": "img/PD13b/PD13b_s004.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Europe from 1918 to 1945, part 3: The First Republic and constitutional justice", "text": "Thomas Olechowski.", "terms": [], "cards": [], "vision_used": false },
+    "3": { "title": "Europe in 1920", "text": "The map after the peace treaties.", "terms": [], "cards": [], "vision_used": false },
+    "4": {
       "title": "The Provisional National Assembly",
       "text": "How the republic's first body was composed, and it is a striking answer: THE GERMAN-SPEAKING MEMBERS OF THE IMPERIAL COUNCIL AUTOMATICALLY BELONG TO IT. No election — the German-speaking deputies of the old monarchy's parliament simply constituted themselves as the assembly of the new state. Formal discontinuity, material continuity, in one institution.",
       "terms": [],
@@ -78,19 +18,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 300,
-      "text_sha": "606cb8c9ced92577",
-      "pdf_page": 2,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PD13b/PD13b_s005.webp",
+    "5": {
       "title": "The Constituent National Assembly",
       "text": "Elected in FEBRUARY 1919 BY ALL MEN AND WOMEN according to the PROPORTIONAL electoral system. The first genuinely democratic Austrian parliament — universal suffrage including women, and proportional representation from the start.",
       "terms": [],
@@ -103,19 +33,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 330,
-      "text_sha": "ae43d0f0cefa9dfa",
-      "pdf_page": 3,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD13b/PD13b_s006.webp",
+    "6": {
       "title": "How the B-VG was made",
       "text": "The sequence: the Constituent National Assembly in autumn 1919; the CONFERENCES OF THE LÄNDER in Salzburg and Linz in spring 1920; the GOVERNMENT'S CONSULTATIONS in summer 1920; consultation in the Assembly; and on 1 OCTOBER 1920 the Assembly passes the B-VG. The people around it: Karl Renner and Otto Bauer for the Social Democrats, Michael Mayr and Ignaz Seipel for the Christian Socials — and HANS KELSEN as the drafter. A constitution negotiated between two parties that would soon be shooting at each other, with a legal theorist holding the pen.",
       "terms": [],
@@ -128,26 +48,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 1315,
-      "text_sha": "3cf9077e689f525a",
-      "pdf_page": 3,
-      "pdf_cell": 2
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PD13b/PD13b_s007.webp",
+    "7": {
       "title": "What the B-VG of 1920 established",
       "text": "PARLIAMENTARY DEMOCRACY, with the main power in the NATIONAL COUNCIL. The FEDERAL COUNCIL left with only a SUSPENSIVE VETO. The FEDERAL PRESIDENT with mostly REPRESENTATIVE functions. WEAK FEDERALISM. The RULE OF LAW, with an ADMINISTRATIVE COURT and a CONSTITUTIONAL COURT. And the famous defect: NUMEROUS MATTERS, ESPECIALLY FUNDAMENTAL RIGHTS, ARE NOT INCLUDED — which is why it is called a CONSTITUTIONAL TORSO. Austria's fundamental rights stayed in the Basic Law of 1867, which is why they are still weaker than in a constitution written whole.",
       "terms": [
-        {
-          "term": "constitutional torso",
-          "def": "The B-VG of 1920 as an incomplete constitution: numerous matters, above all fundamental rights, were left out — they remained in the Staatsgrundgesetz of 1867."
-        }
+        { "term": "constitutional torso", "def": "The B-VG of 1920 as an incomplete constitution: numerous matters, above all fundamental rights, were left out — they remained in the Staatsgrundgesetz of 1867." }
       ],
       "cards": [
         {
@@ -165,36 +72,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 493,
-      "text_sha": "b8c54ea083cffcea",
-      "pdf_page": 4,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD13b/PD13b_s008.webp",
-      "title": "Constitutional developments 1920–1933 (1)",
-      "text": "The Federal Constitutional Law of 1920, the Geneva Protocols of 1922, and the constitutional amendment of 1925.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 219,
-      "text_sha": "a07cee989760ac93",
-      "pdf_page": 4,
-      "pdf_cell": 2
-    },
-    {
-      "n": 9,
-      "img": "img/PD13b/PD13b_s009.webp",
+    "8": { "title": "Constitutional developments 1920–1933 (1)", "text": "The Federal Constitutional Law of 1920, the Geneva Protocols of 1922, and the constitutional amendment of 1925.", "terms": [], "cards": [], "vision_used": false },
+    "9": {
       "title": "Violence between the wars",
       "text": "Two paramilitary formations facing each other: the HEIMWEHREN, the homeland defence groups on the right, and the REPUBLIKANISCHER SCHUTZBUND, the Republican Protection League on the left. A democracy in which the two large camps each maintain an armed force.",
       "terms": [],
@@ -207,36 +88,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 216,
-      "text_sha": "22a30c482308dc96",
-      "pdf_page": 5,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD13b/PD13b_s010.webp",
-      "title": "The Palace of Justice on fire",
-      "text": "15 July 1927 — the day the crisis of the First Republic became visible, and the reason the Palace of Justice appears in a legal history lecture.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 121,
-      "text_sha": "5613506f599e6fd6",
-      "pdf_page": 5,
-      "pdf_cell": 2
-    },
-    {
-      "n": 11,
-      "img": "img/PD13b/PD13b_s011.webp",
+    "10": { "title": "The Palace of Justice on fire", "text": "15 July 1927 — the day the crisis of the First Republic became visible, and the reason the Palace of Justice appears in a legal history lecture.", "terms": [], "cards": [], "vision_used": false },
+    "11": {
       "title": "Constitutional developments 1920–1933 (2)",
       "text": "The full list: the Federal Constitutional Law 1920; the GENEVA PROTOCOLS 1922; the constitutional amendment 1925; the FIRE IN THE PALACE OF JUSTICE 1927; the constitutional amendment 1929; the GERMAN-AUSTRIAN CUSTOMS UNION PLAN 1931; and the LAUSANNE PROTOCOL 1932. Note what the Geneva and Lausanne items are — international financial arrangements that bound Austria's hands, the customs union plan being the attempt to escape them that Article 88 of Saint-Germain made impossible.",
       "terms": [],
@@ -249,43 +104,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 369,
-      "text_sha": "ae2e1545a2d94747",
-      "pdf_page": 6,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD13b/PD13b_s012.webp",
-      "title": "Marbury v. Madison",
-      "text": "'Not all Supreme Court decisions are so significant that they warrant a comic.'",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 176,
-      "text_sha": "babfd1b09e032470",
-      "pdf_page": 6,
-      "pdf_cell": 2
-    },
-    {
-      "n": 13,
-      "img": "img/PD13b/PD13b_s013.webp",
+    "12": { "title": "Marbury v. Madison", "text": "'Not all Supreme Court decisions are so significant that they warrant a comic.'", "terms": [], "cards": [], "vision_used": false },
+    "13": {
       "title": "Marbury v. Madison (1803)",
       "text": "THE FACTS: shortly before leaving office in 1801 President John Adams appoints William Marbury a judge; the new Secretary of State John Marshall REFUSES TO DELIVER the already signed letter of appointment. Marbury sues in the Supreme Court, relying on the JUDICIARY ACT OF 1801 which gives the Court such jurisdiction — but THE CONSTITUTION DOES NOT PROVIDE FOR IT, so the statute contradicts the constitution. THE REASONING, which is the passage to know: the constitution is EITHER a superior, paramount law unchangeable by ordinary means, OR it is on a level with ordinary legislative acts and alterable whenever the legislature pleases. If the first, THEN A LEGISLATIVE ACT CONTRARY TO THE CONSTITUTION IS NOT LAW; if the second, then WRITTEN CONSTITUTIONS ARE ABSURD ATTEMPTS to limit a power in its own nature illimitable. Since those who framed written constitutions plainly meant them as fundamental and paramount law, an act of the legislature repugnant to the constitution IS VOID. Note the structure — a dilemma with only one tolerable branch.",
       "terms": [
-        {
-          "term": "Marbury v. Madison (1803)",
-          "def": "The US decision founding judicial review: a legislative act repugnant to the constitution is void, because a written constitution is either paramount law or an absurdity."
-        }
+        { "term": "Marbury v. Madison (1803)", "def": "The US decision founding judicial review: a legislative act repugnant to the constitution is void, because a written constitution is either paramount law or an absurdity." }
       ],
       "cards": [
         {
@@ -303,34 +129,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1370,
-      "text_sha": "fed1bdff85f6159c",
-      "pdf_page": 7,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD13b/PD13b_s014.webp",
+    "14": {
       "title": "The Vienna School of Legal Theory",
       "text": "In the final days of the monarchy a new school emerges in Vienna, quickly famous — not least through KELSEN'S CONTRIBUTION TO THE AUSTRIAN CONSTITUTION. TWO EQUALLY IMPORTANT CONCERNS: separating jurisprudence from POLITICS, and separating it from SOCIOLOGY — hence the PURE THEORY OF LAW. The law cannot be derived from JUSTICE, nor from ACTUAL POWER RELATIONS; there is no choice but to accept its validity as presupposed — the GRUNDNORM. And once the legal system is recognised as valid, THE LAW REGULATES ITS OWN CREATION: its content is the result of an act of will, its VALIDITY comes from the HIGHER-RANKING NORMS. Hence the hierarchical structure of the legal order, the STUFENBAU, worked out by ADOLF MERKL.",
       "terms": [
-        {
-          "term": "Pure Theory of Law",
-          "def": "Kelsen's programme of separating jurisprudence both from politics (justice) and from sociology (power relations)."
-        },
-        {
-          "term": "Grundnorm",
-          "def": "The presupposed basic norm. Since law can be derived neither from justice nor from actual power, its validity must simply be accepted at the top."
-        },
-        {
-          "term": "Stufenbau der Rechtsordnung",
-          "def": "The hierarchical structure of the legal order (Merkl): each norm draws its validity from the higher-ranking norm, while its content is an act of will."
-        }
+        { "term": "Pure Theory of Law", "def": "Kelsen's programme of separating jurisprudence both from politics (justice) and from sociology (power relations)." },
+        { "term": "Grundnorm", "def": "The presupposed basic norm. Since law can be derived neither from justice nor from actual power, its validity must simply be accepted at the top." },
+        { "term": "Stufenbau der Rechtsordnung", "def": "The hierarchical structure of the legal order (Merkl): each norm draws its validity from the higher-ranking norm, while its content is an act of will." }
       ],
       "cards": [
         {
@@ -348,19 +155,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 936,
-      "text_sha": "7f98f447823e1980",
-      "pdf_page": 7,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD13b/PD13b_s015.webp",
+    "15": {
       "title": "The hierarchy drawn",
       "text": "CONSTITUTION at the top; then STATUTES AND EMERGENCY DECREES; then ORDINANCES; and at the bottom COURT JUDGMENTS AND ADMINISTRATIVE DECISIONS. Every level is both application of the level above and creation of the level below — which is why an individual judgment belongs in the same picture as the constitution.",
       "terms": [],
@@ -373,36 +170,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 226,
-      "text_sha": "b937402363987dbf",
-      "pdf_page": 8,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD13b/PD13b_s016.webp",
-      "title": "Where the Constitutional Court came from",
-      "text": "Two older bodies — the IMPERIAL COURT and the IMPECHMENT COURT — merge in 1919 into the CONSTITUTIONAL COURT. The new institution is built on monarchical foundations.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 141,
-      "text_sha": "6096f59b1d7ec8a2",
-      "pdf_page": 8,
-      "pdf_cell": 2
-    },
-    {
-      "n": 17,
-      "img": "img/PD13b/PD13b_s017.webp",
+    "16": { "title": "Where the Constitutional Court came from", "text": "Two older bodies — the IMPERIAL COURT and the IMPECHMENT COURT — merge in 1919 into the CONSTITUTIONAL COURT. The new institution is built on monarchical foundations.", "terms": [], "cards": [], "vision_used": false },
+    "17": {
       "title": "Why Austria needed constitutional review",
       "text": "In 1920 Austria becomes a FEDERAL STATE — the Länder get their own parliaments and their own legislation — and that creates the problem. KELSEN's proposal: a court should review whether STATE laws are consistent with FEDERAL laws. STEPHAN FALSER's counter-proposal, which won: THE FEDERATION AND THE LÄNDER SHOULD BE ABLE TO AUDIT EACH OTHER. Hence the Federal Constitution Act of 1 October 1920: the Constitutional Court rules on the unconstitutionality of STATE laws at the request of THE FEDERAL GOVERNMENT, and on the unconstitutionality of FEDERAL laws at the request of A STATE GOVERNMENT. Constitutional review is born in Austria as a federal arbitration mechanism, not as a protection of rights.",
       "terms": [],
@@ -422,30 +193,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 644,
-      "text_sha": "aa5e96e9bed21770",
-      "pdf_page": 9,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "img": "img/PD13b/PD13b_s018.webp",
+    "18": {
       "title": "The American and the Austrian model",
       "text": "The comparison that gets asked. UNITED STATES: DECENTRALISATION — every court may do it; INCIDENTAL judicial review — the question arises inside a concrete case; ABSOLUTE NULLITY — the unconstitutional statute was never law; DECLARATORY character — the court only states what was already so. AUSTRIA: CENTRALISATION — one Constitutional Court alone; ABSTRACT judicial review — the statute is challenged as such; RELATIVE NULLITY; CONSTITUTIVE character — the court's ruling is what removes the statute. Four contrasts, and they follow from one another: if only one court may decide, it must be able to decide in the abstract, and its decision must MAKE the law void rather than merely find it so.",
       "terms": [
-        {
-          "term": "incidental vs abstract review",
-          "def": "Incidental: the constitutional question arises inside a concrete case (USA). Abstract: the statute is challenged as such, apart from any case (Austria)."
-        },
-        {
-          "term": "declaratory vs constitutive",
-          "def": "Declaratory: the court states that the statute never was law (USA, absolute nullity). Constitutive: the court's decision is what deprives it of validity (Austria, relative nullity)."
-        }
+        { "term": "incidental vs abstract review", "def": "Incidental: the constitutional question arises inside a concrete case (USA). Abstract: the statute is challenged as such, apart from any case (Austria)." },
+        { "term": "declaratory vs constitutive", "def": "Declaratory: the court states that the statute never was law (USA, absolute nullity). Constitutive: the court's decision is what deprives it of validity (Austria, relative nullity)." }
       ],
       "cards": [
         {
@@ -463,19 +218,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 346,
-      "text_sha": "9a931e8b3c9e9790",
-      "pdf_page": 9,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD13b/PD13b_s019.webp",
+    "19": {
       "title": "The ex officio addition",
       "text": "The same Article, with the clause that makes the system work in practice: the Court rules on state laws at the federal government's request and on federal laws at a state government's request — BUT IF SUCH A LAW IS TO FORM THE BASIS OF A RULING BY THE CONSTITUTIONAL COURT, EX OFFICIO. Without that clause the Court could only act when a government chose to complain; with it, the Court can reach a statute whenever one would decide a case before it.",
       "terms": [],
@@ -488,19 +233,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 937,
-      "text_sha": "f8a0828259b1643a",
-      "pdf_page": 10,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD13b/PD13b_s020.webp",
+    "20": {
       "title": "Reviewing a decision, and reaching the statute behind it",
       "text": "The mechanism in three levels: CONSTITUTION, STATUTE, ADMINISTRATIVE DECISION. If the Constitutional Court, reviewing a DECISION, has doubts about the constitutionality of the STATUTE it applies, IT FIRST REVIEWS THE STATUTE AND, IF NECESSARY, REPEALS IT; then it reviews the decision again and repeals it AS UNLAWFUL. Note the order and the ground: the decision falls not because it was unconstitutional but because, once the statute is gone, it is UNLAWFUL.",
       "terms": [],
@@ -513,36 +248,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 387,
-      "text_sha": "55ee656cfd3e53c9",
-      "pdf_page": 10,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD13b/PD13b_s021.webp",
-      "title": "How the Imperial Court was staffed",
-      "text": "The Emperor appointed the President and Vice-President; the House of Lords and the House of Deputies proposed the remaining members, whom the Emperor appointed on those proposals.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 522,
-      "text_sha": "ff7e90a00881187a",
-      "pdf_page": 11,
-      "pdf_cell": 1
-    },
-    {
-      "n": 22,
-      "img": "img/PD13b/PD13b_s022.webp",
+    "21": { "title": "How the Imperial Court was staffed", "text": "The Emperor appointed the President and Vice-President; the House of Lords and the House of Deputies proposed the remaining members, whom the Emperor appointed on those proposals.", "terms": [], "cards": [], "vision_used": false },
+    "22": {
       "title": "The Constitutional Court 1920–1929: elected by parliament",
       "text": "The NATIONAL COUNCIL elects the president, vice-president and half of the members and substitute members; the FEDERAL COUNCIL elects the other half. The court that reviews legislation is chosen by the legislature — which is what the 1929 amendment changes.",
       "terms": [],
@@ -555,19 +264,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 520,
-      "text_sha": "d438c2590cc7b25d",
-      "pdf_page": 11,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "img": "img/PD13b/PD13b_s023.webp",
+    "23": {
       "title": "The Constitutional Court since 1929: appointed by the President",
       "text": "The FEDERAL PRESIDENT appoints the president, vice-president and half of the other members and substitutes ON THE RECOMMENDATION OF THE FEDERAL GOVERNMENT; and the other half on the proposals of the National Council and the Federal Council. Appointment replaces election, and the government gains the decisive say.",
       "terms": [],
@@ -580,19 +279,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 1037,
-      "text_sha": "104e0af6b88e1a9c",
-      "pdf_page": 12,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "img": "img/PD13b/PD13b_s024.webp",
+    "24": {
       "title": "What happened to the Court and the School",
       "text": "The background of the 1929 amendment: the Constitutional Court had made JUDGEMENTS UNPOPULAR WITH THE BOURGEOIS PARTIES IN GOVERNMENT — above all it had approved an administrative practice allowing a person, in certain circumstances, TO REMARRY WHILE THE FIRST, SEPARATED SPOUSE WAS STILL ALIVE, since DIVORCE WAS NOT INTRODUCED UNTIL 1938. In the wake of the amendment, 12 OF THE 14 CONSTITUTIONAL JUDGES ARE DISMISSED, KELSEN AMONG THEM — and the newly composed Court CHANGES ITS STANCE on those dispensations. Kelsen leaves Austria in 1930 for Cologne, then Geneva in 1933 and the USA in 1940, teaching at Berkeley until 1952. The Vienna School disintegrates, is revived around 1960, and in 1971 the federal government founds the HANS KELSEN INSTITUTE. A constitutional court removed by constitutional amendment over a question of marriage law — and the new court promptly reversing the case law that caused it.",
       "terms": [],
@@ -612,19 +301,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1019,
-      "text_sha": "242355eb0410067e",
-      "pdf_page": 12,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 25,
-      "img": "img/PD13b/PD13b_s025.webp",
+    "25": {
       "title": "The courts under the authoritarian state",
       "text": "1934–1938: the Constitutional Court and the Administrative Court are MERGED into a single BUNDESGERICHTSHOF, with the administrative court in Vienna and its external senates. Abolishing constitutional review by fusing the court that exercises it into another — the tidiest way to end judicial control without saying so.",
       "terms": [],
@@ -637,32 +316,8 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 196,
-      "text_sha": "4142e23ead7dbeeb",
-      "pdf_page": 13,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 26,
-      "img": "img/PD13b/PD13b_s026.webp",
-      "title": "",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 2,
-      "text_sha": "3fdba35f04dc8c46",
-      "pdf_page": 13,
-      "pdf_cell": 2
-    }
-  ]
+    "26": { "title": "", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }
