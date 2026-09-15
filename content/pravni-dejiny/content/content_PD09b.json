@@ -1,59 +1,14 @@
 {
   "lecture_id": "PD09b",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 10",
   "title": "Constitutionalism & Norm Production II",
-  "source_file": "raw/PD09b_pp-092-constitutionalism-norm-production-staudigl-ciechowicz.pdf",
-  "source_sha256": "b8d8ab2e2ad80a59f899b842dedd32107870ae3f058c6a0259dda3fbe2c05bd3",
-  "source_pages": 20,
-  "slides_per_page": 1,
-  "slide_count": 20,
-  "updated_at": "2026-09-15T12:12:44+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD09b/PD09b_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 135,
-      "text_sha": "10f1cd9be61d01eb",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD09b/PD09b_s002.webp",
-      "title": "Norm production, part 2",
-      "text": "Kamila Staudigl-Ciechowicz. The third model of norm production, and then how all three spread across Europe and the world.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 164,
-      "text_sha": "9fe26847d2e95d63",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD09b/PD09b_s003.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Norm production, part 2", "text": "Kamila Staudigl-Ciechowicz. The third model of norm production, and then how all three spread across Europe and the world.", "terms": [], "cards": [], "vision_used": false },
+    "3": {
       "title": "The third model: law as an academic creation (Germany)",
       "text": "In the early 19th century German LEGAL SCHOLARS oppose codification, and the idea behind the opposition is this: law is rooted in the VOLKSGEIST, the spirit of the people, which EVOLVES THROUGHOUT HISTORY. The role of legal scholars is therefore to FIND the Volksgeist through HISTORICAL INQUIRY and then to SYSTEMATIZE the essence of the law so found. Legal scholars become the main actors in the creation of law. Set it against the other two models: in France and Austria the legislator makes law, in England the judge makes law, in Germany the PROFESSOR does.",
       "terms": [
-        {
-          "term": "Volksgeist",
-          "def": "The spirit of the people, in which law is rooted and which evolves through history. Finding it by historical inquiry is the task the Historical School gives to legal scholarship."
-        }
+        { "term": "Volksgeist", "def": "The spirit of the people, in which law is rooted and which evolves through history. Finding it by historical inquiry is the task the Historical School gives to legal scholarship." }
       ],
       "cards": [
         {
@@ -64,18 +19,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 470,
-      "text_sha": "ef8475451769f4a0",
-      "pdf_page": 3
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "img": "img/PD09b/PD09b_s004.webp",
+    "4": {
       "title": "Savigny's argument, in his own words",
       "text": "From On the Vocation of Our Age for Legislation and Jurisprudence, 1814. A more lively spirit has come into our science, which may in future raise it to a distinctive culture — but only VERY LITTLE of this learned culture has yet been completed, AND FOR THIS REASON I DENY OUR ABILITY TO PRODUCE A LAUDABLE LAW BOOK. He then challenges anyone who thinks the judgment exaggerated to show him, among the many systems of Roman-German law, ONE that is not merely useful for this or that purpose but EXCELLENT AS A BOOK — with an independent form of its own that brings the material to life. The argument is not that codification is wrong in principle; it is that GERMAN SCHOLARSHIP IS NOT YET GOOD ENOUGH to write one.",
       "terms": [],
@@ -88,25 +34,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 923,
-      "text_sha": "ac0aca6c930c30c8",
-      "pdf_page": 4
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PD09b/PD09b_s005.webp",
+    "5": {
       "title": "Savigny and the Thibaut controversy",
       "text": "The leading voice of the opposition is FRIEDRICH CARL VON SAVIGNY (1779–1861), in the controversy with ANTON FRIEDRICH JUSTUS THIBAUT in 1814, where his position is set out in 'Vom Beruf unserer Zeit für Gesetzgebung und Rechtswissenschaft'. His claim: legal scholarly work has to be FURTHER DEVELOPED in order to gain a profound basis for a codification. And the task of legal scholars is to ELABORATE THE PRINCIPLES of the historically developed law and TO SYSTEMATIZE THEM.",
       "terms": [
-        {
-          "term": "Savigny–Thibaut controversy (1814)",
-          "def": "Thibaut argued for a German civil code at once; Savigny answered that scholarship was not yet ready and must first elaborate and systematize the historically developed law."
-        }
+        { "term": "Savigny–Thibaut controversy (1814)", "def": "Thibaut argued for a German civil code at once; Savigny answered that scholarship was not yet ready and must first elaborate and systematize the historically developed law." }
       ],
       "cards": [
         {
@@ -117,29 +51,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 756,
-      "text_sha": "63f5b381b426ba8d",
-      "pdf_page": 5
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD09b/PD09b_s006.webp",
+    "6": {
       "title": "The method of the Historical School",
       "text": "Law is seen NOT as derived from reason and NOT from enactment, but as a PRODUCT OF HISTORICAL DEVELOPMENT — which rejects natural law and legislation in a single move. The present law is therefore known through HISTORICAL OBSERVATION, by a HISTORICAL-SYSTEMATIC method: text interpretation and inquiry into the historical development of particular legal figures, then systematization by elaborating LEADING PRINCIPLES and reconstructing THE INNER UNITY of the law. The goal is legal UNITY AND CERTAINTY — the same goal the codifiers had, pursued by the opposite means. And the school runs in TWO CURRENTS: ROMANISTS and GERMANISTS, depending on whether the historically developed law they study is Roman or Germanic.",
       "terms": [
-        {
-          "term": "historical-systematic method",
-          "def": "Interpreting texts and tracing the historical development of legal figures, then systematizing by leading principles and the inner unity of the law."
-        },
-        {
-          "term": "Romanists and Germanists",
-          "def": "The two currents of the Historical School, according to whether the historically developed law they take as the nation's own is Roman or Germanic."
-        }
+        { "term": "historical-systematic method", "def": "Interpreting texts and tracing the historical development of legal figures, then systematizing by leading principles and the inner unity of the law." },
+        { "term": "Romanists and Germanists", "def": "The two currents of the Historical School, according to whether the historically developed law they take as the nation's own is Roman or Germanic." }
       ],
       "cards": [
         {
@@ -164,34 +83,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 602,
-      "text_sha": "e66a5bedf655c761",
-      "pdf_page": 6
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD09b/PD09b_s007.webp",
-      "title": "How the three models spread",
-      "text": "The rest of the lecture follows each of the three models out of its country of origin.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 109,
-      "text_sha": "dc4b2cc3dddc6994",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PD09b/PD09b_s008.webp",
+    "7": { "title": "How the three models spread", "text": "The rest of the lecture follows each of the three models out of its country of origin.", "terms": [], "cards": [], "vision_used": false },
+    "8": {
       "title": "The ABGB as a model in Europe",
       "text": "DIRECT validity in LIECHTENSTEIN. As a MODEL it served in the Principality of Moldova (1817), SERBIA (1844) and MONTENEGRO (1888); in parts of Switzerland — the cantons of Aargau, Solothurn, Lucerne and Bern; in Transylvania; and in the parts of Poland, Czechoslovakia and Yugoslavia that had belonged to the Habsburg Empire until 1918. That last item matters for reading a map of interwar Europe: the ABGB outlived the state that made it, and went on applying in successor states.",
       "terms": [],
@@ -204,18 +99,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 426,
-      "text_sha": "1f3c853631225df0",
-      "pdf_page": 8
+      "vision_used": true
     },
-    {
-      "n": 9,
-      "img": "img/PD09b/PD09b_s009.webp",
+    "9": {
       "title": "The Code civil as a model in Europe",
       "text": "Two different routes, and the exam expects them apart. DIRECT VALIDITY gained IN THE COURSE OF THE NAPOLEONIC WARS: the left-Rhine territories in Germany, Luxembourg, Belgium, Piedmont-Sardinia, and the Swiss cantons of the Bernese Jura and Geneva. ADAPTED voluntarily afterwards: Piedmont-Sardinia (1837), the Netherlands (1838), Italy (1865), Portugal (1868), Spain (1889), the Confederation of the Rhine in Germany, and some Swiss cantons. Conquest first, imitation after — and the imitation outlasts the conquest.",
       "terms": [],
@@ -228,18 +114,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 503,
-      "text_sha": "bab25097d1200e1d",
-      "pdf_page": 9
+      "vision_used": true
     },
-    {
-      "n": 10,
-      "img": "img/PD09b/PD09b_s010.webp",
+    "10": {
       "title": "The Code civil in the world",
       "text": "Louisiana after the purchase by the US, 1825. Lower Canada — Quebec — 1866. The Latin American states after independence: Haiti 1825, Oaxaca 1827–29, Peru 1852, Chile 1855, Argentina 1871. And Japan drafts codes on the French model in the 1870s, WHICH NEVER COME INTO EFFECT. Two enclaves of civil law inside common-law federations, a continent of new states choosing a model, and one country that tried the French model and changed its mind — Japan ends up with a German one.",
       "terms": [],
@@ -252,18 +129,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 389,
-      "text_sha": "dd00c0865dcee0f4",
-      "pdf_page": 10
+      "vision_used": true
     },
-    {
-      "n": 11,
-      "img": "img/PD09b/PD09b_s011.webp",
+    "11": {
       "title": "The English model in the world",
       "text": "Judge-made law spreads with the BRITISH EMPIRE to the colonies: the USA, Australia, India, parts of Africa and parts of the Caribbean. Note the difference in mechanism from the continental codes — a code travels as a TEXT that can be copied by anyone, the common law travels as an INSTITUTION, with the courts that carry it.",
       "terms": [],
@@ -276,18 +144,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 269,
-      "text_sha": "93fe6edcc1e62809",
-      "pdf_page": 11
+      "vision_used": true
     },
-    {
-      "n": 12,
-      "img": "img/PD09b/PD09b_s012.webp",
+    "12": {
       "title": "The spread of the Historical School",
       "text": "ITALY: a strong reception of Savigny — 'Vocation' translated in 1847, the 'System' from 1841. FRANCE: reception around the journal 'Themis', the 'System' translated 1841–51, but 'Vocation' ONLY IN 2006. ENGLAND AND THE US: Savigny's works were widely read IN GERMAN; 'Vocation' was translated in 1831 — and note what for: AS MATERIAL AGAINST AN ANGLO-AMERICAN CODIFICATION — while only certain volumes of the 'System' were translated. The English translation of a German anti-codification pamphlet as ammunition in an English fight is the neatest illustration of how these models actually travelled.",
       "terms": [],
@@ -300,25 +159,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 516,
-      "text_sha": "f3758c217b939b93",
-      "pdf_page": 12
+      "vision_used": true
     },
-    {
-      "n": 13,
-      "img": "img/PD09b/PD09b_s013.webp",
+    "13": {
       "title": "The Historical School in Austria",
       "text": "Three steps. ZEILLER'S academic reform of 1810: the ABGB — 'Austrian private law' — is integrated into the university curriculum, so the code becomes the subject taught. THUN VON HOHENSTEIN'S reform of 1852/55: the BREAKTHROUGH of the Historical School in Austria, with a massive intensification of LEGAL HISTORY teaching and NATURAL LAW DOCTRINE PUSHED BACK. And the appointment of JOSEPH UNGER (1828–1913) as the representative of the school. Notice what the reform actually did: it changed what law students are taught, and the doctrine followed.",
       "terms": [
-        {
-          "term": "Thun-Hohenstein reform (1852/55)",
-          "def": "The university reform that brought the Historical School through in Austria: far more legal history taught, natural law doctrine pushed back."
-        }
+        { "term": "Thun-Hohenstein reform (1852/55)", "def": "The university reform that brought the Historical School through in Austria: far more legal history taught, natural law doctrine pushed back." }
       ],
       "cards": [
         {
@@ -329,18 +176,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 518,
-      "text_sha": "b752ccce1027ca6d",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD09b/PD09b_s014.webp",
+    "14": {
       "title": "The convergence around 1900",
       "text": "The two models converge: LEGAL PATTERNS DEVELOPED BY SCHOLARSHIP IN THE 19TH CENTURY BECOME CODIFIED. The GERMAN CIVIL CODE (BGB) of 1896, in force 1900, is based on the systematization of the Historical School and the Pandektenwissenschaft and follows the PANDECT STRUCTURE in five books — general provisions, obligations, property, family, succession. The SWISS CIVIL CODE (ZGB) of 1907, in force 1912, has four books after a short introduction — personal law, family, succession, property — with the Code of Obligations as a SEPARATE code, and it NO LONGER FOLLOWS THE IDEA OF COMPLETENESS. So Savigny wins the argument and then loses it: scholarship first, code afterwards — and the Swiss even drop the defining claim of a codification.",
       "terms": [],
@@ -367,25 +205,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 785,
-      "text_sha": "a49ae6fd4dbea322",
-      "pdf_page": 14
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD09b/PD09b_s015.webp",
+    "15": {
       "title": "Austria: the three partial amendments, 1914–16",
       "text": "An encompassing reform in a single act of lawmaking was NOT POSSIBLE, so the ABGB was modernised by THREE PARTIAL AMENDMENTS — the Teilnovellen — enacted BY IMPERIAL EMERGENCY DECREE. 1914: family, guardianship and inheritance law. 1915: boundary demarcation. 1916: property law and the law of obligations, in particular damages, warranty and limitation. The modernization ran under the influence of the German and Swiss codifications, adopting especially from the BGB and bringing the code up to the state of the art. Note the constitutional oddity: a civil code updated by emergency decree because parliament could not do it.",
       "terms": [
-        {
-          "term": "Teilnovellen (1914–16)",
-          "def": "The three partial amendments modernising the ABGB by imperial emergency decree: family/guardianship/inheritance 1914, boundary demarcation 1915, property and obligations 1916."
-        }
+        { "term": "Teilnovellen (1914–16)", "def": "The three partial amendments modernising the ABGB by imperial emergency decree: family/guardianship/inheritance 1914, boundary demarcation 1915, property and obligations 1916." }
       ],
       "cards": [
         {
@@ -396,18 +222,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 622,
-      "text_sha": "c66b42bbff628cc8",
-      "pdf_page": 15
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD09b/PD09b_s016.webp",
+    "16": {
       "title": "What the amendment did to § 914 ABGB",
       "text": "The single best illustration of the change. OLD § 914: the general rules stated in the first part (§ 6) for interpreting LAWS apply also to CONTRACTS — and § 6 says no other meaning may be given to a law than the one emerging from the peculiar meaning of the words in their context and from the clear intention of the legislature. NEW § 914: the interpretation of contracts should NOT be limited to the LITERAL MEANING of the expression, but should explore THE INTENTION OF THE PARTIES and understand the contract as it corresponds to THE PRACTICE OF BONA FIDES. Contracts stop being read like statutes: the will of the parties and good faith in commerce replace the words and the legislator's intention.",
       "terms": [],
@@ -427,78 +244,11 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 718,
-      "text_sha": "ff51eea6a27de082",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD09b/PD09b_s017.webp",
-      "title": "The same paragraphs in German",
-      "text": "§ 914 ABGB in the new and old versions, with § 6, in the original wording.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 737,
-      "text_sha": "69c330528a72ff51",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PD09b/PD09b_s018.webp",
-      "title": "Muddiest point",
-      "text": "The exercise closing the session: which topic was least clear — write it down and turn it into a question.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 211,
-      "text_sha": "952bc2c3479e7fb6",
-      "pdf_page": 18
-    },
-    {
-      "n": 19,
-      "img": "img/PD09b/PD09b_s019.webp",
-      "title": "Reading for topics 9–11",
-      "text": "Koch/Sunde (eds.), Comparing Legal Cultures, 2nd ed. 2020, pp. 23–40, 333–386, 471–510, 511–540; Olechowski, Introduction, par. 2220, 3304–3315, 4101–4117, 4201–4227, 4301–4312, 6301–6302.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 378,
-      "text_sha": "88f3932c77be6e71",
-      "pdf_page": 19
-    },
-    {
-      "n": 20,
-      "img": "img/PD09b/PD09b_s020.webp",
-      "title": "Thank you",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 10,
-      "text_sha": "3afdda2c098fc834",
-      "pdf_page": 20
-    }
-  ]
+    "17": { "title": "The same paragraphs in German", "text": "§ 914 ABGB in the new and old versions, with § 6, in the original wording.", "terms": [], "cards": [], "vision_used": false },
+    "18": { "title": "Muddiest point", "text": "The exercise closing the session: which topic was least clear — write it down and turn it into a question.", "terms": [], "cards": [], "vision_used": false },
+    "19": { "title": "Reading for topics 9–11", "text": "Koch/Sunde (eds.), Comparing Legal Cultures, 2nd ed. 2020, pp. 23–40, 333–386, 471–510, 511–540; Olechowski, Introduction, par. 2220, 3304–3315, 4101–4117, 4201–4227, 4301–4312, 6301–6302.", "terms": [], "cards": [], "vision_used": false },
+    "20": { "title": "Thank you", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }

@@ -1,68 +1,11 @@
 {
   "lecture_id": "PD09c",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 11/12",
   "title": "Constitutionalism & Norm Production III; Legal Education and Legal Professions",
-  "source_file": "raw/PD09c_pp-093-constitutionalism-norm-production-staudigl-ciechowicz.pdf",
-  "source_sha256": "a41acc2b0caa8c815ce94aca43d299208cbb253cf935aeb83e3e01f121f6e50e",
-  "source_pages": 22,
-  "slides_per_page": 1,
-  "slide_count": 22,
-  "updated_at": "2026-09-15T12:12:44+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD09c/PD09c_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 135,
-      "text_sha": "10f1cd9be61d01eb",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD09c/PD09c_s002.webp",
-      "title": "Constitutions, Fundamental Rights and the Rule of Law",
-      "text": "Kamila Staudigl-Ciechowicz, 12 November 2025 — the third part of the block on norm production, turning from who makes law to what binds the ruler.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 181,
-      "text_sha": "4028639ac097c23b",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD09c/PD09c_s003.webp",
-      "title": "Rationalism and natural law",
-      "text": "The ground already laid in topic 8: rationalism and the natural sciences from the late 17th century, law seen as a system derived from nature (mos geometricus), and the ambition of a complete representation of the applicable law in which the general takes precedence over the particular.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 353,
-      "text_sha": "8adec65205ed4f75",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD09c/PD09c_s004.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Constitutions, Fundamental Rights and the Rule of Law", "text": "Kamila Staudigl-Ciechowicz, 12 November 2025 — the third part of the block on norm production, turning from who makes law to what binds the ruler.", "terms": [], "cards": [], "vision_used": false },
+    "3": { "title": "Rationalism and natural law", "text": "The ground already laid in topic 8: rationalism and the natural sciences from the late 17th century, law seen as a system derived from nature (mos geometricus), and the ambition of a complete representation of the applicable law in which the general takes precedence over the particular.", "terms": [], "cards": [], "vision_used": true },
+    "4": {
       "title": "A new legitimation of power",
       "text": "With natural law thinking from the 17th century, LAW AND RULE ARE SEEN AS IN NEED OF LEGITIMIZATION — which is itself the novelty. And legitimacy is NO LONGER DERIVED FROM GOD but through REASON AND AGREEMENT, by the doctrine of the social contract: Hobbes, Locke, Rousseau. Once power must justify itself to those over whom it is exercised, a document stating the terms is only a matter of time.",
       "terms": [],
@@ -75,18 +18,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 377,
-      "text_sha": "057fbdce3a6fb083",
-      "pdf_page": 4
+      "vision_used": true
     },
-    {
-      "n": 5,
-      "img": "img/PD09c/PD09c_s005.webp",
+    "5": {
       "title": "The rise of the political",
       "text": "Enlightenment, Aufklärung, Lumière — all three words mean LIGHT or CLARITY. Tradition and religion are radically questioned and replaced by REASON; TOLERANCE, FREEDOM and EQUALITY become fundamental values; natural law is now also called RATIONAL law. And the decisive shift for a legal historian: THE FUTURE IS PRESENTED AS SOMETHING THAT CAN BE SHAPED BY PEOPLE, so SHAPING SOCIETY THROUGH LEGISLATION becomes an important task. Law stops being something found and becomes something made on purpose.",
       "terms": [],
@@ -99,34 +33,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 504,
-      "text_sha": "9b46ce3005938caf",
-      "pdf_page": 5
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD09c/PD09c_s006.webp",
-      "title": "Write – Pair – Share",
-      "text": "The question to the room: what IS a constitution?",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 114,
-      "text_sha": "223de07382ffc552",
-      "pdf_page": 6
-    },
-    {
-      "n": 7,
-      "img": "img/PD09c/PD09c_s007.webp",
+    "6": { "title": "Write – Pair – Share", "text": "The question to the room: what IS a constitution?", "terms": [], "cards": [], "vision_used": false },
+    "7": {
       "title": "What counts as a constitution — three answers",
       "text": "Article 16 of the Declaration of 1789 gives the maximal answer: ANY SOCIETY IN WHICH NO PROVISION IS MADE FOR GUARANTEEING RIGHTS OR FOR THE SEPARATION OF POWERS HAS NO CONSTITUTION. A document is not enough; without rights and separated powers there is simply no constitution at all. Against that, the GERMAN FEDERAL ACT of 8 June 1815, Art. 13: 'estates constitutions will occur in all German states' — a promise of constitutions of the OLD kind, by estates. And the FINAL ACT OF THE VIENNESE MINISTERIAL CONFERENCES of 15 May 1820, Art. 57, which says the quiet part aloud: since the German Confederation consists of SOVEREIGN PRINCES, the ENTIRE AUTHORITY OF THE STATE MUST REMAIN UNITED WITHIN THE HEAD OF STATE, and the sovereign can be required to let the assembly of estates participate ONLY IN THE EXERCISE OF CERTAIN RIGHTS. Three texts, three incompatible meanings of one word.",
       "terms": [],
@@ -146,18 +56,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 922,
-      "text_sha": "b5eba2917200911b",
-      "pdf_page": 7
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD09c/PD09c_s008.webp",
+    "8": {
       "title": "The age of modern constitutions",
       "text": "It starts with the AMERICAN and FRENCH revolutions, and it carries six features: based on enlightened NATURAL LAW thinking; PEOPLE'S SOVEREIGNTY; LIMITED GOVERNMENT; FUNDAMENTAL RIGHTS FOR ALL CITIZENS; SEPARATION OF POWERS; and the RULE OF LAW. That list is the standard against which every 19th-century constitution in this lecture is measured — and most of them fail part of it.",
       "terms": [],
@@ -170,18 +71,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 344,
-      "text_sha": "4f02510a40e95a90",
-      "pdf_page": 8
+      "vision_used": true
     },
-    {
-      "n": 9,
-      "img": "img/PD09c/PD09c_s009.webp",
+    "9": {
       "title": "Constitutionalism in the 19th century",
       "text": "The French Revolution has a strong influence across Europe, and the RISING BOURGEOISIE becomes the central player demanding a new political order. What constitutions then do: they PUT AN END TO ABSOLUTE MONARCHY and ENSURE THE PARTICIPATION OF THE BOURGEOISIE; THE MONARCH IS BOUND TO THE CONSTITUTION; and they take the form of WRITTEN and rather ENCOMPASSING documents. Note who is demanding and who is included — the bourgeoisie, not the population.",
       "terms": [],
@@ -194,29 +86,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 508,
-      "text_sha": "2613b99c360d6045",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD09c/PD09c_s010.webp",
+    "10": {
       "title": "Early against high constitutionalism",
       "text": "The comparison the exam wants, point by point. EARLY constitutionalism: the monarch often IMPOSES the constitution; fundamental rights are WEAK AND NOT JUSTICIABLE; the courts enjoy a certain autonomy but are ULTIMATELY CONTROLLED BY THE MONARCH; the legislature has one chamber for nobles and persons APPOINTED BY THE MONARCH and one representing the people; and the monarch has a RIGHT OF VETO. HIGH constitutionalism: the constitution is GIVEN BY A CONSTITUENT ASSEMBLY; fundamental rights are granted AND JUSTICIABLE; the courts are INDEPENDENT; the legislature often has one chamber representing THE REGIONS and one THE PEOPLE; the monarch has only a SUSPENSIVE veto; and there is the possibility of MINISTERIAL IMPEACHMENT. The three tests to remember: who gives it, are the rights enforceable, and is the monarch's veto absolute or suspensive.",
       "terms": [
-        {
-          "term": "early constitutionalism",
-          "def": "A constitution imposed by the monarch, with weak non-justiciable rights, courts ultimately under his control, a first chamber of nobles and appointees, and an absolute royal veto."
-        },
-        {
-          "term": "high constitutionalism",
-          "def": "A constitution given by a constituent assembly, with justiciable rights, independent courts, chambers representing regions and people, a merely suspensive royal veto and ministerial impeachment."
-        }
+        { "term": "early constitutionalism", "def": "A constitution imposed by the monarch, with weak non-justiciable rights, courts ultimately under his control, a first chamber of nobles and appointees, and an absolute royal veto." },
+        { "term": "high constitutionalism", "def": "A constitution given by a constituent assembly, with justiciable rights, independent courts, chambers representing regions and people, a merely suspensive royal veto and ministerial impeachment." }
       ],
       "cards": [
         {
@@ -234,34 +111,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 939,
-      "text_sha": "4130e5b30ce8f57a",
-      "pdf_page": 10
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD09c/PD09c_s011.webp",
-      "title": "Suffrage",
-      "text": "The question to the room: which restrictions on the right to vote do you know? Property, tax, sex, literacy, age, residence — 19th-century representation of 'the people' is representation of a fraction of it.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 88,
-      "text_sha": "b40617adf2fc88d1",
-      "pdf_page": 11
-    },
-    {
-      "n": 12,
-      "img": "img/PD09c/PD09c_s012.webp",
+    "11": { "title": "Suffrage", "text": "The question to the room: which restrictions on the right to vote do you know? Property, tax, sex, literacy, age, residence — 19th-century representation of 'the people' is representation of a fraction of it.", "terms": [], "cards": [], "vision_used": false },
+    "12": {
       "title": "Constitutionalism as a pan-European phenomenon, 1789–1849",
       "text": "The list, and what matters is the RHYTHM rather than every date. POLAND: 1791, Warsaw 1807, Congress Poland 1815 and 1830. FRANCE: 1791, 1793, 1795, 1799, 1814, 1830, 1848 — seven constitutions in sixty years. SPAIN: 1812, 1820/23, 1837, 1845. PORTUGAL: 1822, 1826, 1838. GERMANY: Nassau 1814, Bavaria and Baden 1818, Württemberg 1819, Hesse-Darmstadt 1820, Kurhessen and Saxony 1831, Hannover 1833, and St Paul's constitution for the Reich 1849. NORWAY 1814, NETHERLANDS 1815, BELGIUM 1831. A constitution in this period is not a settlement but a move in an ongoing fight.",
       "terms": [],
@@ -281,33 +134,15 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 559,
-      "text_sha": "1748506c84f5b08f",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD09c/PD09c_s013.webp",
+    "13": {
       "title": "Austria: constitutionalism arrives late",
       "text": "Six steps, and the exam asks for them by name and character. PILLERSDORF CONSTITUTION (1848): EARLY constitutionalist, creates a constitutional monarchy. KREMSIER DRAFT (1848/49): HIGH constitutionalist, sovereignty of the people — AND IT NEVER CAME INTO EFFECT. OCTROYED MARCH CONSTITUTION (1849): early constitutionalist again, introduces a central government — 'octroyed' meaning imposed from above. SYLVESTER PATENTS (1851): constitutionalism is ABANDONED — NEO-ABSOLUTISM. OCTOBER DIPLOMA (1860) and FEBRUARY PATENT (1861): representative bodies are re-established. DECEMBER CONSTITUTION (1867): consists of several basic laws, the STAATSGRUNDGESETZE. Austria's best constitution of the century is the one that never took effect.",
       "terms": [
-        {
-          "term": "Kremsier Draft (1848/49)",
-          "def": "Austria's high-constitutionalist draft resting on popular sovereignty — never came into effect."
-        },
-        {
-          "term": "Sylvester Patents (1851)",
-          "def": "The abandonment of constitutionalism in Austria and the beginning of neo-absolutism."
-        },
-        {
-          "term": "December Constitution (1867)",
-          "def": "Austria's constitution made of several Staatsgrundgesetze — basic laws — rather than one document."
-        }
+        { "term": "Kremsier Draft (1848/49)", "def": "Austria's high-constitutionalist draft resting on popular sovereignty — never came into effect." },
+        { "term": "Sylvester Patents (1851)", "def": "The abandonment of constitutionalism in Austria and the beginning of neo-absolutism." },
+        { "term": "December Constitution (1867)", "def": "Austria's constitution made of several Staatsgrundgesetze — basic laws — rather than one document." }
       ],
       "cards": [
         {
@@ -325,25 +160,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 746,
-      "text_sha": "6ce23894b3b7d3b8",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD09c/PD09c_s014.webp",
+    "14": {
       "title": "Austria: the rule of law",
       "text": "The development of the rule of law goes HAND IN HAND with constitutionalism, and it has three elements: the MONARCH BOUND to the constitution and the laws; INDEPENDENCE of the judiciary; and JUDICIAL CONTROL OF THE ADMINISTRATION, with the ADMINISTRATIVE COURT founded in 1876. Germany develops similarly — and the lecture's formulation is the one to keep: 'RECHTSSTAAT INSTEAD OF PEOPLE'S SOVEREIGNTY'. Where the French put the people in charge, the Germans and Austrians bound the state to its own law and left the question of who rules alone.",
       "terms": [
-        {
-          "term": "Rechtsstaat",
-          "def": "The state bound by its own law — monarch bound to the constitution, independent judiciary, judicial control of the administration. In Germany and Austria it stands INSTEAD OF popular sovereignty, not beside it."
-        }
+        { "term": "Rechtsstaat", "def": "The state bound by its own law — monarch bound to the constitution, independent judiciary, judicial control of the administration. In Germany and Austria it stands INSTEAD OF popular sovereignty, not beside it." }
       ],
       "cards": [
         {
@@ -361,25 +184,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 424,
-      "text_sha": "4b2dad2b19fb4615",
-      "pdf_page": 14
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD09c/PD09c_s015.webp",
+    "15": {
       "title": "Austria: fundamental rights and why they were weak",
       "text": "Fundamental rights are NOT included in all 19th-century constitutions, and where they are, their force differs: STATE OBJECTIVES in the constitutions of 1848; SUBJECTIVE AND ENFORCEABLE rights in the Kremsier draft of 1849; and subjective rights with WEAK ENFORCEABILITY in the Basic Law of 1867. And the decisive limitation: CONSTITUTIONAL REVIEW OF LAWS BY THE JUDICIARY WAS NOT POSSIBLE — courts could only check whether a law had been PROPERLY PROMULGATED. Protection of fundamental rights was available under the Basic Law of 1867 before the IMPERIAL COURT, but the decision LED TO NO CASSATION: it was merely DECLARATORY and the administrative bodies WERE NOT BOUND BY IT. A right you can litigate and still not enforce.",
       "terms": [
-        {
-          "term": "Imperial Court (Reichsgericht)",
-          "def": "The Austrian court that could hear fundamental-rights complaints under the Basic Law of 1867 — but its decisions were merely declaratory and did not bind the administration."
-        }
+        { "term": "Imperial Court (Reichsgericht)", "def": "The Austrian court that could hear fundamental-rights complaints under the Basic Law of 1867 — but its decisions were merely declaratory and did not bind the administration." }
       ],
       "cards": [
         {
@@ -397,18 +208,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 757,
-      "text_sha": "91c011e24c52471b",
-      "pdf_page": 15
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD09c/PD09c_s016.webp",
+    "16": {
       "title": "France: rights at the centre, and still not enforceable",
       "text": "With the Déclaration des droits de l'homme et du citoyen of 1789, fundamental rights become THE CENTRE of the political order. BUT: they are NOT ENFORCEABLE BY THE COURTS. The French understanding of fundamental rights is POLITICAL, and it ADDRESSES THE LEGISLATOR rather than arming the individual before a judge. And a telling detail: 'Rechtsstaat' or 'rule of law' are only TRANSLATED INTO FRENCH IN THE 20TH CENTURY. France gave Europe the declaration of rights and did not give itself a court to enforce them.",
       "terms": [],
@@ -421,25 +223,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 449,
-      "text_sha": "3d71566236bb3d37",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD09c/PD09c_s017.webp",
+    "17": {
       "title": "England: a different path",
       "text": "NO WRITTEN CONSTITUTION. The sources of constitutional law are ACTS OF PARLIAMENT, CASE LAW, and CONVENTIONS on how the constitutional bodies conduct themselves — the third being the part that is law in no ordinary sense and binding all the same. And the constitutional principles were developed OVER CENTURIES rather than enacted: CONSTITUTIONAL MONARCHY, PARLIAMENTARY SOVEREIGNTY and the RULE OF LAW.",
       "terms": [
-        {
-          "term": "constitutional conventions",
-          "def": "Settled understandings about how constitutional bodies behave. Alongside Acts of Parliament and case law, one of the three sources of English constitutional law — binding without being enforceable as law."
-        }
+        { "term": "constitutional conventions", "def": "Settled understandings about how constitutional bodies behave. Alongside Acts of Parliament and case law, one of the three sources of English constitutional law — binding without being enforceable as law." }
       ],
       "cards": [
         {
@@ -450,18 +240,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 373,
-      "text_sha": "1fc080fc9fbec2b8",
-      "pdf_page": 17
+      "vision_used": true
     },
-    {
-      "n": 18,
-      "img": "img/PD09c/PD09c_s018.webp",
+    "18": {
       "title": "England: the 17th-century steps",
       "text": "Power is concentrated in the monarch's hands under CHARLES I; religious rivalries after the Reformation sharpen the CONFRONTATION BETWEEN MONARCH AND PARLIAMENT; and the English civil war ends with the COMMONWEALTH OF ENGLAND (1648–1660) under Oliver Cromwell. The monarchy is RESTORED IN 1660 — HOWEVER WITH A STRONG PARLIAMENT. The English answer to absolutism was reached a century and a half before the continental one, and by fighting rather than by drafting.",
       "terms": [],
@@ -474,18 +255,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 520,
-      "text_sha": "7290de4b16795822",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD09c/PD09c_s019.webp",
+    "19": {
       "title": "The Bill of Rights (1689)",
       "text": "The basis of the modern English constitution, and its core is PARLIAMENTARY SOVEREIGNTY spelled out in three prohibitions: the King may not SUSPEND OR DISPENSE laws or their execution without Parliament; may not LEVY TAXES without Parliament; and may not KEEP AN ARMY IN TIMES OF PEACE without Parliament. Beside them: FREE ELECTION of members of Parliament; FREEDOM OF SPEECH AND DEBATES in Parliament; and the RIGHT TO PETITION without being persecuted. Note what these rights are — they protect Parliament and the subject's access to it, a century before rights are declared as belonging to man as such.",
       "terms": [],
@@ -505,18 +277,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 499,
-      "text_sha": "f95372b9e36f5306",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD09c/PD09c_s020.webp",
+    "20": {
       "title": "Comparative summary",
       "text": "Constitutions, WRITTEN OR UNWRITTEN, are created with the aim of LIMITING THE MONARCH'S POWER — against absolutism. The idea of fundamental rights CONSOLIDATES in the Enlightenment. And there are three models of enacting and ensuring them, which is the comparison to reproduce: rights with BINDING POWER, ENFORCEABLE — the high-constitutionalist ideal; rights with WEAK ENFORCEABILITY, where court decisions have only declaratory effect — Austria 1867; and rights as POLITICAL VALUES addressed to the legislator — France 1789. Same words in all three, three different things.",
       "terms": [],
@@ -536,46 +299,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 502,
-      "text_sha": "53af6bc62d97f628",
-      "pdf_page": 20
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD09c/PD09c_s021.webp",
-      "title": "Reading and outlook",
-      "text": "Olechowski, Introduction, par. 2220, 4101–4117, 4201–4227; Koch/Sunde (eds.), Comparing Legal Cultures, 2nd ed. 2020, pp. 23–40, 333–386, 471–510, 511–540. Next lecture: legal professions and legal methods — exam topic 12.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 450,
-      "text_sha": "6b6e24af2264c4a0",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PD09c/PD09c_s022.webp",
-      "title": "Thank you",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 10,
-      "text_sha": "3afdda2c098fc834",
-      "pdf_page": 22
-    }
-  ]
+    "21": { "title": "Reading and outlook", "text": "Olechowski, Introduction, par. 2220, 4101–4117, 4201–4227; Koch/Sunde (eds.), Comparing Legal Cultures, 2nd ed. 2020, pp. 23–40, 333–386, 471–510, 511–540. Next lecture: legal professions and legal methods — exam topic 12.", "terms": [], "cards": [], "vision_used": false },
+    "22": { "title": "Thank you", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }
