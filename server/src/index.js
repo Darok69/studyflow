@@ -24,7 +24,7 @@ import { findUserByEmail, getBackup, getPushSubs, getUsers, saveBackup, savePush
 import { extraMessage, publicKey, pushEnabled, sendPush, startPushCron } from './push.js'
 import { registerSourceRoutes } from './sources-routes.js'
 import { materialsAvailable, registerMaterialRoutes } from './materials-routes.js'
-import { podcastAvailable, podcastToken, registerPodcastRoutes } from './podcast-routes.js'
+import { podcastAvailable, podcastSeries, podcastToken, registerPodcastRoutes } from './podcast-routes.js'
 import { listSources, deleteSource } from './blobs.js'
 import { aiEnabled } from './ai.js'
 
@@ -282,10 +282,11 @@ app.get('/api/podcast', async (req, reply) => {
   if (!user) return
   if (!podcastAvailable()) return reply.code(404).send({ error: 'no podcast' })
   const token = podcastToken()
-  return {
-    quiz: `/podcast/${token}/quiz/feed.xml`,
-    narration: `/podcast/${token}/narration/feed.xml`,
-  }
+  // Kolik je pořadů, rozhoduje disk: každý předmět má svůj. Napevno zapsané
+  // `quiz` a `narration` by druhý předmět nikdy neukázaly.
+  return Object.fromEntries(
+    podcastSeries().map((series) => [series, `/podcast/${token}/${series}/feed.xml`]),
+  )
 })
 
 // ---- static PWA shell ----

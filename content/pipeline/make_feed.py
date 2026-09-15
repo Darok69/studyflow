@@ -37,20 +37,37 @@ AUDIO = ROOT / "out" / "audio"
 
 SERIES = {
     "quiz": {
-        "title": "IREWI — Questions",
-        "desc": ("Exam questions from the StEOP course Introduction to International Law "
-                 "(University of Vienna). Question, a pause to answer out loud, then the "
-                 "answer. Made for running and for the metro."),
+        "suffix": "Questions",
+        "desc": ("Exam questions from {course} (University of Vienna). Question, a pause "
+                 "to answer out loud, then the answer. Made for running and for the metro."),
         "colour": (106, 94, 232),
     },
     "narration": {
-        "title": "IREWI — Lectures",
-        "desc": ("The written explanation of every slide of the StEOP course Introduction "
-                 "to International Law (University of Vienna), read as one piece. "
-                 "Made for the car."),
+        "suffix": "Lectures",
+        "desc": ("The written explanation of every slide of {course} (University of "
+                 "Vienna), read as one piece. Made for the car."),
         "colour": (52, 52, 74),
     },
 }
+
+# Adresa feedu je zapsaná v odběru v podcastové aplikaci; přejmenovat řadu
+# znamená odběr tiše rozbít. Řady IREWI se proto jmenují pořád `quiz` a
+# `narration`, každý další předmět dostane vlastní řadu s prefixem.
+LEGACY_PACK = "irewi"
+
+
+def series_id(series: str) -> str:
+    return series if ROOT.name == LEGACY_PACK else f"{ROOT.name}-{series}"
+
+
+def show_name(cfg: dict, series: str) -> tuple[str, str]:
+    """Název a popis pořadu. Bere je z předmětu, ne z konstanty ve skriptu."""
+    podcast = cfg.get("podcast", {})
+    course = cfg["courses"][0]
+    short = podcast.get("short") or course.get("code") or ROOT.name.upper()
+    long = podcast.get("course") or course.get("title") or short
+    meta = SERIES[series]
+    return f"{short} — {meta['suffix']}", meta["desc"].format(course=long)
 
 AUTHOR = "StudyFlow"
 # Datum, od kterého se epizody číslují. Podcastová aplikace řadí podle data,
@@ -82,9 +99,13 @@ def cover(path: Path, title: str, subtitle: str, colour: tuple[int, int, int]) -
     img.save(path, "JPEG", quality=88)
 
 
-def feed_xml(series: str, manifest: dict, base: str, token: str) -> str:
-    meta = SERIES[series]
-    root = f"{base}/podcast/{token}/{series}"
+def feed_xml(series: str, cfg: dict, manifest: dict, base: str, token: str) -> str:
+    # GUID se NESMÍ měnit: podle něj pozná podcastová aplikace, že epizodu už
+    # má. Proto <předmět>-<řada>-<ID>, a ne id pořadu — to je u IREWI kvůli
+    # zpětné kompatibilitě holé „quiz" a GUIDy by se přepsaly.
+    title, desc = show_name(cfg, series)
+    sid = series_id(series)
+    root = f"{base}/podcast/{token}/{sid}"
     items = []
     for i, ep in enumerate(manifest["episodes"]):
         published = EPOCH + timedelta(days=i)
@@ -94,7 +115,7 @@ def feed_xml(series: str, manifest: dict, base: str, token: str) -> str:
       <description>{escape(ep['subtitle'])}</description>
       <itunes:summary>{escape(ep['subtitle'])}</itunes:summary>
       <enclosure url="{escape(url)}" length="{ep['bytes']}" type="audio/x-m4a"/>
-      <guid isPermaLink="false">irewi-{series}-{ep['lecture_id']}</guid>
+      <guid isPermaLink="false">{ROOT.name}-{series}-{ep['lecture_id']}</guid>
       <pubDate>{format_datetime(published)}</pubDate>
       <itunes:duration>{int(round(ep['seconds']))}</itunes:duration>
       <itunes:episode>{i + 1}</itunes:episode>
@@ -106,12 +127,12 @@ def feed_xml(series: str, manifest: dict, base: str, token: str) -> str:
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{escape(meta['title'])}</title>
+    <title>{escape(title)}</title>
     <link>{escape(base)}</link>
     <atom:link href="{escape(root)}/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <description>{escape(meta['desc'])}</description>
-    <itunes:summary>{escape(meta['desc'])}</itunes:summary>
+    <description>{escape(desc)}</description>
+    <itunes:summary>{escape(desc)}</itunes:summary>
     <itunes:author>{AUTHOR}</itunes:author>
     <itunes:owner><itunes:name>{AUTHOR}</itunes:name></itunes:owner>
     <itunes:image href="{escape(root)}/cover.jpg"/>
@@ -132,6 +153,7 @@ def main() -> int:
     ap.add_argument("--token", required=True)
     args = ap.parse_args()
 
+    cfg = json.loads((ROOT / "courses.json").read_text(encoding="utf-8"))
     made = 0
     for series, meta in SERIES.items():
         manifest_file = AUDIO / f"{series}.json"
@@ -140,13 +162,14 @@ def main() -> int:
             continue
         manifest = json.loads(manifest_file.read_text(encoding="utf-8"))
         out_dir = AUDIO / series
-        cover(out_dir / "cover.jpg", meta["title"].split("—")[-1].strip(),
+        title, _ = show_name(cfg, series)
+        cover(out_dir / "cover.jpg", title.split("—")[-1].strip(),
               f"{len(manifest['episodes'])} episodes", meta["colour"])
         (out_dir / "feed.xml").write_text(
-            feed_xml(series, manifest, args.base.rstrip("/"), args.token),
+            feed_xml(series, cfg, manifest, args.base.rstrip("/"), args.token),
             encoding="utf-8")
         total = sum(e["seconds"] for e in manifest["episodes"])
-        print(f"  {series}: {len(manifest['episodes'])} epizod, "
+        print(f"  {series_id(series)}: {len(manifest['episodes'])} epizod, "
               f"{total / 3600:.1f} h → {out_dir / 'feed.xml'}")
         made += 1
     if made:

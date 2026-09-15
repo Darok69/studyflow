@@ -1,7 +1,7 @@
 {
   "exam": {
     "name": "Modulprüfung European and Global Legal History (030362 VO + 030152 PUE)",
-    "date": "2027-02-28",
+    "date": "2027-03-03",
     "language": "en",
     "format": "Modulová zkouška k přednášce 030362. Zkouší se podle seznamu „What to read for the exam\" — 24 témat, ke každému přednáška a povinná četba. Otázky jsou pramenné: úryvek (smlouva, ústava, dobový text) a k němu několik otevřených podotázek — kdo, kdy, co z toho plyne a jak to souvisí s dalším vývojem. Viz „Second Exam.pdf\" ve cvičení (030152), kde jsou i odpovědi."
   },
@@ -15,139 +15,139 @@
       "lectures": [
         {
           "id": "PD01",
-          "unit": "Téma 1",
+          "unit": "Topic 1",
           "title": "Introduction: Methods, Sources, Aims of Legal History",
           "file": "PP01 Introduction (Olechowski).pdf"
         },
         {
           "id": "PD02",
-          "unit": "Téma 2",
+          "unit": "Topic 2",
           "title": "Ancient Legal Cultures; History of Islamic Law",
           "file": "PP02 Ancient Legal Culture  Islamic Law (Olechowski).pdf"
         },
         {
           "id": "PD03",
-          "unit": "Téma 3",
+          "unit": "Topic 3",
           "title": "Development of Law in the Middle Ages",
           "file": "PP 04 Middle Ages (Olechowski).pdf"
         },
         {
           "id": "PD04",
-          "unit": "Téma 4",
+          "unit": "Topic 4",
           "title": "The Ius Commune and the Early Modern Times",
           "file": "PP 04 Early Modern Times (Olechowski).pdf"
         },
         {
           "id": "PD05",
-          "unit": "Téma 5",
+          "unit": "Topic 5",
           "title": "Jewish Legal History",
           "file": "PP 05 The development of Jewish___ation of the Jews (Wendehorst).pdf"
         },
         {
           "id": "PD06",
-          "unit": "Téma 6",
+          "unit": "Topic 6",
           "title": "The Common Law",
           "file": "PP 06 The Development of the English Common Law (Foljanty).pdf"
         },
         {
           "id": "PD07",
-          "unit": "Téma 7",
+          "unit": "Topic 7",
           "title": "The Westphalian Order and Early Constitutionalism",
           "file": "PP 07 The Westphalian Order and___of the Modern State (Foljanty).pdf"
         },
         {
           "id": "PD08",
-          "unit": "Téma 8",
+          "unit": "Topic 8",
           "title": "Natural Law, Enlightenment and Revolutions",
           "file": "PP 08 Natural Law, Enlightment, Revolutions (Foljanty).pdf"
         },
         {
           "id": "PD09a",
-          "unit": "Téma 9",
+          "unit": "Topic 9",
           "title": "Constitutionalism & Norm Production I",
           "file": "PP 091 Constitutionalism  Norm Production (Staudigl-Ciechowicz).pdf"
         },
         {
           "id": "PD09b",
-          "unit": "Téma 10",
+          "unit": "Topic 10",
           "title": "Constitutionalism & Norm Production II",
           "file": "PP 092 Constitutionalism  Norm Production (Staudigl-Ciechowicz).pdf"
         },
         {
           "id": "PD09c",
-          "unit": "Téma 11/12",
+          "unit": "Topic 11/12",
           "title": "Constitutionalism & Norm Production III; Legal Education and Legal Professions",
           "file": "PP 093 Constitutionalism  Norm Production (Staudigl-Ciechowicz).pdf"
         },
         {
           "id": "PD10",
-          "unit": "Téma 13",
+          "unit": "Topic 13",
           "title": "Imperialism and Constitutionalism before 1914",
           "file": "PP 10 Imperialism (Foljanty).pdf"
         },
         {
           "id": "PD11",
-          "unit": "Téma 14",
+          "unit": "Topic 14",
           "title": "Chinese Legal History",
           "file": "PP 11 Chinese legal history (Li).pdf"
         },
         {
           "id": "PD12",
-          "unit": "Téma 15",
+          "unit": "Topic 15",
           "title": "World War I and the Paris Peace Conference",
           "file": "PP 12 WWI and the Paris Peace Treaties (Gassner).pdf"
         },
         {
           "id": "PD13a",
-          "unit": "Téma 16",
+          "unit": "Topic 16",
           "title": "The Austrian 1st Republic, Democracy and the B-VG I",
           "file": "PP 13a Democracy (Olechowski).pdf"
         },
         {
           "id": "PD13b",
-          "unit": "Téma 17",
+          "unit": "Topic 17",
           "title": "The Austrian 1st Republic, Democracy and the B-VG II",
           "file": "PP 13b The First Republic of Au___itutional Justice (Olechowski).pdf"
         },
         {
           "id": "PD14a",
-          "unit": "Téma 18",
+          "unit": "Topic 18",
           "title": "Dictatorships of the 20th Century I",
           "file": "PP 14a Dictatorships_I (Staudigl-Ciechowicz).pdf"
         },
         {
           "id": "PD14b",
-          "unit": "Téma 19",
+          "unit": "Topic 19",
           "title": "Dictatorships of the 20th Century II",
           "file": "PP 14b Dictatorships_II  (Staudigl-Ciechowicz).pdf"
         },
         {
           "id": "PD15",
-          "unit": "Téma 20",
+          "unit": "Topic 20",
           "title": "Europe during the Cold War (1945–1955)",
           "file": "PP 15 Europe during the Cold Wa___5-1955)  (Staudigl-Ciechowicz).pdf"
         },
         {
           "id": "PD16",
-          "unit": "Téma 21",
+          "unit": "Topic 21",
           "title": "Europe and the European Integration since 1955",
           "file": "PP 16 Europe since 1955 (Olechowski).pdf"
         },
         {
           "id": "PD17",
-          "unit": "Téma 22",
+          "unit": "Topic 22",
           "title": "Her Story",
           "file": "PP 17 Her Story.pdf"
         },
         {
           "id": "PD18a",
-          "unit": "Téma 23",
+          "unit": "Topic 23",
           "title": "Globalization of Law I",
           "file": "PP 18 a Glbbalisation (Foljanty).pdf"
         },
         {
           "id": "PD18b",
-          "unit": "Téma 24",
+          "unit": "Topic 24",
           "title": "Globalization of Law II",
           "file": "PP 18 b Globalisation (Foljanty).pdf"
         }
@@ -155,8 +155,12 @@
     }
   ],
   "gaps": [
-    "**Téma 12 (Legal Education and Legal Professions) nemá vlastní slidy** — v Moodle exportu k němu žádná prezentace není; podle seznamu četby ho pokrývá Olechowski par. 3316, 4306, 8305 a slidy PP 093. Vedeno u PD09c.",
+    "**Topic 12 / Téma 12 (Legal Education and Legal Professions) nemá vlastní slidy** — v Moodle exportu k němu žádná prezentace není; podle seznamu četby ho pokrývá Olechowski par. 3316, 4306, 8305 a slidy PP 093. Vedeno u PD09c.",
     "**Učebnice Olechowski, Introduction to Austrian and European Legal History (2. vyd. 2025)** je hlavní pramen skoro každého tématu a v podkladech NENÍ. Bez ní stojí výklad jen na slidech a na povinné četbě z „Reading list\".",
     "**Cvičení 030152 (PUE) se jako přednášky nezpracovává** — jeho slidy látku přednášky opakují. Zpracovaná je z něj „Questions and Sources\" (10 jednotek) a „Second Exam.pdf\" s odpověďmi: z nich se berou zkouškové otázky pro karty."
-  ]
+  ],
+  "podcast": {
+    "short": "Právní dějiny",
+    "course": "the course European and Global Legal History"
+  }
 }

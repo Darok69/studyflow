@@ -3,8 +3,12 @@
 // the sync snapshot — 55 MB of slide images would blow its 32 MB budget, and
 // the material is the same for every device anyway.
 //
-// Layout:  /data/materials/{index.json,<LECTURE>.json,img/<LECTURE>/<file>.webp}
-import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs'
+// Layout:  /data/materials/{index-<předmět>.json,<LECTURE>.json,img/<LECTURE>/<file>.webp}
+//
+// Předmětů je víc a každý nahrává svůj rejstřík zvlášť (`index-irewi.json`,
+// `index-pravni-dejiny.json`); server je slévá do jednoho seznamu kurzů. Jeden
+// společný `index.json` by znamenal, že druhý předmět přepíše první.
+import { createReadStream, existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { DATA_DIR } from './store.js'
 
@@ -23,15 +27,45 @@ function readJsonFile(file) {
   }
 }
 
+/** Rejstříky na disku: `index-<předmět>.json` plus starší jednotný `index.json`. */
+function indexFiles() {
+  if (!existsSync(MATERIALS_DIR)) return []
+  return readdirSync(MATERIALS_DIR)
+    .filter((f) => f === 'index.json' || /^index-[a-z0-9-]{1,40}\.json$/.test(f))
+    .sort()
+}
+
+/**
+ * Jeden rejstřík ze všech předmětů. Kurzy se spojí za sebe; kdyby se stejný kód
+ * kurzu objevil dvakrát (typicky starý `index.json` vedle nového
+ * `index-irewi.json`), platí ten, který se načte první.
+ */
+function mergedIndex() {
+  const courses = []
+  const seen = new Set()
+  let exam = null
+  for (const file of indexFiles()) {
+    const part = readJsonFile(join(MATERIALS_DIR, file))
+    if (!part || !Array.isArray(part.courses)) continue
+    exam ??= part.exam ?? null
+    for (const course of part.courses) {
+      if (!course?.code || seen.has(course.code)) continue
+      seen.add(course.code)
+      courses.push(course)
+    }
+  }
+  return courses.length ? { exam, courses } : null
+}
+
 export function materialsAvailable() {
-  return existsSync(join(MATERIALS_DIR, 'index.json'))
+  return mergedIndex() !== null
 }
 
 export function registerMaterialRoutes(app, { requireUser }) {
   app.get('/api/materials', async (req, reply) => {
     const user = requireUser(req, reply)
     if (!user) return
-    const index = readJsonFile(join(MATERIALS_DIR, 'index.json'))
+    const index = mergedIndex()
     if (!index) return reply.code(404).send({ error: 'no materials' })
     // The index is small and changes only on upload; a short cache keeps the
     // screen instant on back-navigation without hiding a fresh upload for long.

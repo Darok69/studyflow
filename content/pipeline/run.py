@@ -581,7 +581,8 @@ def main() -> int:
              "courses": []}
     for course in cfg["courses"]:
         entry = {"code": course["code"], "number": course["number"],
-                 "title": course["title"], "lectures": []}
+                 "title": course["title"], "subject": course.get("subject"),
+                 "lectures": []}
         for lec in course["lectures"]:
             d = load_json(DATA / f"{lec['id']}.json", None)
             if not d:

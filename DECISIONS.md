@@ -265,3 +265,64 @@ Konkrétní odchylky od briefu:
 
 Nové závislosti: `@anthropic-ai/sdk` (server — oficiální SDK, bez něj to nejde),
 `unpdf` (text po stranách + render stránek PDF do PNG).
+
+## 2026-09-15 — Předmět je rozcestník, ne jen fronta
+
+Fronta míchala všech dvanáct přednášek IREWI dohromady. To je správné pro
+opakování naučené látky, ale nepoužitelné, když se semestr probírá lekci po
+lekci: karta z Unit XII přijde dřív, než se člověk dostal k Unit II.
+
+**Rozhodnutí: klepnutí na předmět otevře předmět**, ne rovnou frontu — dnešní
+dávka, učebnice a témata s vlastními počty. Zamítnuto: nechat klik = učení
+a témata schovat pod malé tlačítko (struktura je to hlavní, co chybělo).
+
+**Předmět se ke své učebnici přiřazuje podle názvů témat**, ne přes nové pole
+na `Subject`. Karta nese `topic` = název přednášky, učebnice nese stejný název,
+takže `matchCourse` porovná průnik. Důvod je tvrdý: reimport balíčku znamená
+nová `id` karet a **ztrátu celé FSRS historie** — přiřazení nesmí vyžadovat
+nic, co už v datech není.
+
+**Pořadí témat bere z učebnice.** `id` karet jsou náhodná (`crypto.randomUUID`),
+takže pořadí, v jakém lezou z Dexie, neznamená nic. Abecedně je to pro semestr
+nesmysl. Pořadí přednášek v učebnici je jediné smysluplné, které je k dispozici;
+témata, která učebnice nezná, jdou na konec a drží si vzájemné pořadí.
+
+**Volba tématu míří dnešek, nezvětšuje ho.** `buildTopicSession` počítá dávku
+nad CELÝM předmětem a teprve pak z ní bere karty jednoho tématu. Kdyby se
+počítala nad tématem, vyšlo by 30/100 dávky a téma by se nedalo dodělat.
+Denní strop, zastavení nových karet den před zkouškou i „už dnes probrané"
+platí dál — test to hlídá porovnáním s `buildSession`, ne pevným číslem.
+
+Při tom se ukázalo, že **prokládání témat nikdy neběželo**: `Study.tsx` stavěl
+`SchedCard` bez pole `topic`, takže `interleaveByTopic` viděl jeden kbelík.
+
+## 2026-09-15 — Skripty společné, předmět je datový balík
+
+Pipeline byla přibitá na jeden předmět (`ROOT = pipeline/..`). Druhý předmět by
+znamenal kopii ~1200 řádků Pythonu a od té chvíle každou opravu dvakrát.
+
+**Rozhodnutí: `content/pipeline/` je společné, předmět je adresář s
+`courses.json`**, volí se přes `STUDYFLOW_PACK` (nastavuje `run.sh`).
+Zamítnuto: `--pack` do argparse každého skriptu (šest míst místo jednoho).
+
+Co z toho plyne dál:
+
+- **Rejstřík učebnice na serveru je `index-<předmět>.json`** a server je slévá
+  do jednoho seznamu kurzů. Jeden společný `index.json` by znamenal, že druhý
+  předmět přepíše první. Starší holý `index.json` se dál čte, aby už nahraná
+  data nepřestala fungovat.
+- **Řady podcastu mají prefix předmětu** (`pravni-dejiny-quiz`), **kromě
+  IREWI**. Adresa feedu je zapsaná v odběru v podcastové aplikaci a
+  přejmenování by ho tiše rozbilo. Ze stejného důvodu zůstal **GUID epizody
+  `<předmět>-<řada>-<ID>`** — první verze ho zkrátila na id pořadu a všech 23
+  epizod IREWI by se v aplikaci objevilo jako nové.
+- **Mezery v podkladech patří do `courses.json`.** Byly natvrdo v `run.py`,
+  takže by report o právních dějinách tvrdil mezery IREWI.
+- **`--only` přestal mazat zbytek REPORTu** — čísla netknutých přednášek se
+  doplní z `out/data`.
+- **Přednáška bez napsaného výkladu se do učebnice nedostane.** Jinak by
+  v seznamu byl řádek „0 stran · 0 karet", který otevře prázdnou stránku.
+
+**Témata právních dějin = 24 zkouškových témat**, ne názvy prezentací. Seznam
+„What to read for the exam" je to, podle čeho se zkouší, takže téma v appce je
+téma u zkoušky. Některá prezentace pokrývá dvě témata, k tématu 12 slidy nejsou.

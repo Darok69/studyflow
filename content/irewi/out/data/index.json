@@ -5,12 +5,13 @@
     "language": "en",
     "format": "60 min written, English. 30 min International Law + 30 min EU Law. Max 60 pts (30+30). Pass: 30 pts total AND min 15 pts in each half. Problem/case questions with open answers, not multiple choice."
   },
-  "updated_at": "2026-09-15T09:05:37+00:00",
+  "updated_at": "2026-09-15T09:11:20+00:00",
   "courses": [
     {
       "code": "IL",
       "number": "030477",
       "title": "Foundations of International Law",
+      "subject": "IREWI — mezinárodní právo",
       "lectures": [
         {
           "lecture_id": "IL01",
@@ -114,6 +115,7 @@
       "code": "EU",
       "number": "030337",
       "title": "Introduction to European Union Law",
+      "subject": "IREWI — unijní právo",
       "lectures": [
         {
           "lecture_id": "EU01",

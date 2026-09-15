@@ -6,7 +6,7 @@
 // porovnává v konstantním čase a je dost dlouhý na to, aby se nedal uhodnout.
 //
 // Rozložení: /data/podcast/{quiz,narration}/{feed.xml,cover.jpg,<ID>.m4a}
-import { createReadStream, existsSync, readFileSync, statSync, writeFileSync } from 'node:fs'
+import { createReadStream, existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
 import { randomBytes, timingSafeEqual } from 'node:crypto'
 import { join } from 'node:path'
 import { DATA_DIR } from './store.js'
@@ -16,7 +16,10 @@ const TOKEN_FILE = join(DATA_DIR, 'podcast-token.json')
 
 // Jména vyrábí pipeline, ne uživatel. Cokoli jiného se odmítne, než se to
 // dostane k souborovému systému.
-const SERIES_RE = /^(quiz|narration)$/
+// Řady IREWI se jmenují `quiz` a `narration` — ta jména jsou zapsaná v odběru
+// v podcastové aplikaci a nemění se. Každý další předmět má vlastní pořad
+// s prefixem podle balíku, např. `pravni-dejiny-quiz`.
+const SERIES_RE = /^(?:[a-z0-9]+(?:-[a-z0-9]+)*-)?(?:quiz|narration)$/
 const FILE_RE = /^(?:[A-Za-z0-9]{2,12}\.m4a|feed\.xml|cover\.jpg)$/
 
 const TYPES = { '.m4a': 'audio/x-m4a', '.xml': 'application/rss+xml', '.jpg': 'image/jpeg' }
@@ -44,9 +47,18 @@ export function podcastToken() {
   return cached
 }
 
+/** Pořady, které na disku opravdu jsou — podle feedu, ne podle seznamu ve zdrojáku. */
+export function podcastSeries() {
+  if (!existsSync(PODCAST_DIR)) return []
+  return readdirSync(PODCAST_DIR, { withFileTypes: true })
+    .filter((e) => e.isDirectory() && SERIES_RE.test(e.name))
+    .filter((e) => existsSync(join(PODCAST_DIR, e.name, 'feed.xml')))
+    .map((e) => e.name)
+    .sort()
+}
+
 export function podcastAvailable() {
-  return existsSync(join(PODCAST_DIR, 'quiz', 'feed.xml')) ||
-    existsSync(join(PODCAST_DIR, 'narration', 'feed.xml'))
+  return podcastSeries().length > 0
 }
 
 /** Porovnání odolné vůči měření času — token se jinak dá uhádnout po znacích. */

@@ -66,6 +66,11 @@ def main() -> int:
                 if s.get("note"):
                     slide["note"] = s["note"]
                 slides.append(slide)
+            # Přednáška, ke které ještě není napsaný výklad, do učebnice nepatří:
+            # v seznamu by byl řádek „0 stran · 0 karet", který otevře prázdnou
+            # stránku. Co chybí, hlídá REPORT, ne čtenář.
+            if not slides:
+                continue
             cards = sum(len(s.get("cards", [])) for s in slides)
             payload = {
                 "lecture_id": d["lecture_id"],

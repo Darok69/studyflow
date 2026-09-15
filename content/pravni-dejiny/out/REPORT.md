@@ -1,22 +1,22 @@
 # REPORT — podklady pro Modulprüfung European and Global Legal History (030362 VO + 030152 PUE)
 
-Běh: 2026-09-15T11:05:45+02:00
+Běh: 2026-09-15T11:15:05+02:00
 
 ## Zkouška
 - Modulprüfung European and Global Legal History (030362 VO + 030152 PUE)
-- Termín: 2027-02-28, jazyk: en
+- Termín: 2027-03-03, jazyk: en
 - Formát: Modulová zkouška k přednášce 030362. Zkouší se podle seznamu „What to read for the exam" — 24 témat, ke každému přednáška a povinná četba. Otázky jsou pramenné: úryvek (smlouva, ústava, dobový text) a k němu několik otevřených podotázek — kdo, kdy, co z toho plyne a jak to souvisí s dalším vývojem. Viz „Second Exam.pdf" ve cvičení (030152), kde jsou i odpovědi.
 
 ## Souhrn
 - Přednášek: 23 · slidů: 724 · obrázky celkem: 57.4 MB
 - Na vision vybráno: 283 slidů (39%)
-- Obsah hotový: 0 · čeká na dopsání: 724
+- Obsah hotový: 40 · čeká na dopsání: 684
 
 ## Po přednáškách
 
 | ID | slidů | vision | filler? | hotovo | zbývá |
 |---|---:|---:|---:|---:|---:|
-| PD01 | 40 | 19 | 0 | 0 | 40 |
+| PD01 | 40 | 19 | 0 | 40 | 0 |
 | PD02 | 36 | 9 | 0 | 0 | 36 |
 | PD03 | 38 | 10 | 0 | 0 | 38 |
 | PD04 | 16 | 3 | 0 | 0 | 16 |
@@ -55,6 +55,6 @@ Běh: 2026-09-15T11:05:45+02:00
 
 ## Mezery v podkladech
 
-- **Téma 12 (Legal Education and Legal Professions) nemá vlastní slidy** — v Moodle exportu k němu žádná prezentace není; podle seznamu četby ho pokrývá Olechowski par. 3316, 4306, 8305 a slidy PP 093. Vedeno u PD09c.
+- **Topic 12 / Téma 12 (Legal Education and Legal Professions) nemá vlastní slidy** — v Moodle exportu k němu žádná prezentace není; podle seznamu četby ho pokrývá Olechowski par. 3316, 4306, 8305 a slidy PP 093. Vedeno u PD09c.
 - **Učebnice Olechowski, Introduction to Austrian and European Legal History (2. vyd. 2025)** je hlavní pramen skoro každého tématu a v podkladech NENÍ. Bez ní stojí výklad jen na slidech a na povinné četbě z „Reading list".
 - **Cvičení 030152 (PUE) se jako přednášky nezpracovává** — jeho slidy látku přednášky opakují. Zpracovaná je z něj „Questions and Sources" (10 jednotek) a „Second Exam.pdf" s odpověďmi: z nich se berou zkouškové otázky pro karty.

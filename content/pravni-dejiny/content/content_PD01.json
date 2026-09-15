@@ -1,54 +1,16 @@
 {
   "lecture_id": "PD01",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 1",
   "title": "Introduction: Methods, Sources, Aims of Legal History",
-  "source_file": "raw/PD01_pp01-introduction-olechowski.pdf",
-  "source_sha256": "c6841706070e2caf81b80f86088c60f4ca3a1beba9c47a33c4487ef85a6059f8",
-  "source_pages": 20,
-  "slides_per_page": 2,
-  "slide_count": 40,
-  "updated_at": "2026-09-15T09:15:05+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD01/PD01_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 131,
-      "text_sha": "36a271d5edf2dde9",
-      "pdf_page": 1,
-      "pdf_cell": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD01/PD01_s002.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": {
       "title": "Who teaches the course",
       "text": "Six teachers share the lecture, and the division matters for the exam: the topic list tells you whose chapter you are in. Olechowski takes the introduction, antiquity, the Middle Ages, the ius commune, the Austrian First Republic and European integration; Foljanty the common law, the Westphalian order, natural law and revolutions, legal professions, imperialism and globalization; Staudigl-Ciechowicz constitutionalism and norm production, the dictatorships and the Cold War; Wendehorst Jewish legal history; Li Chinese legal history; Gassner the First World War and the peace treaties.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 240,
-      "text_sha": "2b57295d5bd440cc",
-      "pdf_page": 1,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "img": "img/PD01/PD01_s003.webp",
+    "3": {
       "title": "The schedule is the exam's table of contents",
       "text": "Twenty-four sessions, twenty-four exam topics, in this order: introduction and method; ancient legal cultures and Islamic law; the Middle Ages; the ius commune and early modern times; Jewish legal history; the common law; the Westphalian order and early constitutionalism; natural law, Enlightenment and revolutions; constitutionalism and norm production I–III; legal education and the legal professions; imperialism before 1914; Chinese legal history; the First World War and the Paris peace conference; the Austrian First Republic and the B-VG I–II; the dictatorships of the twentieth century I–II; Europe in the Cold War 1945–1955; European integration since 1955; Her Story; the globalization of law I–II. The same list, with the required reading against each item, is the handout 'What to read for the exam'.",
       "terms": [],
@@ -61,36 +23,10 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1771,
-      "text_sha": "256f9d561f34fb9f",
-      "pdf_page": 2,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "img": "img/PD01/PD01_s004.webp",
-      "title": "Where the material lives",
-      "text": "Moodle for the slides and the article PDFs, rechtsgeschichte.univie.ac.at for the department.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 173,
-      "text_sha": "653a242225310bc7",
-      "pdf_page": 2,
-      "pdf_cell": 2
-    },
-    {
-      "n": 5,
-      "img": "img/PD01/PD01_s005.webp",
+    "4": { "title": "Where the material lives", "text": "Moodle for the slides and the article PDFs, rechtsgeschichte.univie.ac.at for the department.", "terms": [], "cards": [], "vision_used": false },
+    "5": {
       "title": "The exam: format and terms",
       "text": "The lecture is a compulsory subject of the curriculum and is held in the winter semester only. The module examination is WRITTEN and lasts 120 minutes, with several terms a year — January 26, March 3, May 5, June 24 in the cycle shown on the slide. Registration periods are separate for each term and are easy to miss. The questions are of two kinds: questions testing knowledge and comprehension, and sources — an excerpt you are asked to place, explain and connect.",
       "terms": [],
@@ -103,36 +39,16 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 416,
-      "text_sha": "994c03139dd184ea",
-      "pdf_page": 3,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD01/PD01_s006.webp",
+    "6": {
       "title": "The practical exercises",
       "text": "The Praktische Übung is not required by the curriculum but is strongly recommended: it goes through source texts together and its short tests are written in the same way as the exam. That is where the 'Questions and Sources' handouts come from, and they are the closest thing to a list of what will actually be asked.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 424,
-      "text_sha": "ef9643bfecd7eba7",
-      "pdf_page": 3,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD01/PD01_s007.webp",
+    "7": {
       "title": "What will be tested",
       "text": "Three things, and the slides are only one of them: the content presented orally in the lecture (the slides support it, they do not replace it); the textbook Th. Olechowski, Introduction to Austrian and European Legal History, 2nd ed., Vienna 2025; and fourteen articles on special topics, available as PDFs on Moodle. The reading list ties each article to the topic it belongs to.",
       "terms": [],
@@ -145,43 +61,14 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 380,
-      "text_sha": "e174b2035309ebbd",
-      "pdf_page": 4,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD01/PD01_s008.webp",
-      "title": "Introduction",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 36,
-      "text_sha": "d412004c06db19d0",
-      "pdf_page": 4,
-      "pdf_cell": 2
-    },
-    {
-      "n": 9,
-      "img": "img/PD01/PD01_s009.webp",
+    "8": { "title": "Introduction", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "9": {
       "title": "Why legal history?",
       "text": "The honest opening question: is 'education as a value in itself' enough to justify making legal history compulsory in the first year? The slide sets up a second question to answer the first — to which family does legal history belong: to the history of medicine and physics, or to the history of philosophy and the arts? The point is that it belongs cleanly to neither. Legal history is written between a historical interest (what happened) and a legal interest (what the law was and what it did), and the whole method follows from that double position.",
       "terms": [
-        {
-          "term": "legal history between historical and legal interest",
-          "def": "The discipline's double position: it reconstructs the past like history, but its object is a normative order, so it must also ask what counted as valid law at the time. Neither purely a historical nor purely a doctrinal subject."
-        }
+        { "term": "legal history between historical and legal interest", "def": "The discipline's double position: it reconstructs the past like history, but its object is a normative order, so it must also ask what counted as valid law at the time. Neither purely a historical nor purely a doctrinal subject." }
       ],
       "cards": [
         {
@@ -199,47 +86,21 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 429,
-      "text_sha": "2b2fd98ce751681f",
-      "pdf_page": 5,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD01/PD01_s010.webp",
+    "10": {
       "title": "What is law? The question itself",
       "text": "People have dealt with law for millennia without ever agreeing on what law is in the first place. The slide is deliberately deflationary: the course does not open with a definition handed down as settled, but with the fact that the definition is contested — which is why the next slides give two rival answers before the lecturer gives his own.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 188,
-      "text_sha": "c3520fcae06b9af3",
-      "pdf_page": 5,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD01/PD01_s011.webp",
+    "11": {
       "title": "Natural law against legal positivism",
       "text": "The two classic answers, each named after a representative. Samuel Pufendorf (1632–1694) stands for NATURAL LAW, the law of reason: there is an idea of a legal and just order derived purely from reason, therefore unchangeable by humans and valid in the same way everywhere on earth. Hans Kelsen (1881–1973) stands for LEGAL POSITIVISM: law is made by humans alone, and for that very reason it can have 'any content whatsoever'. The consequence is the one that matters for the rest of the course — on the positivist view an unjust rule is still law, and the question of whether it is just is a separate question.",
       "terms": [
-        {
-          "term": "natural law (law of reason)",
-          "def": "The view that a just legal order can be derived from reason itself, is therefore not at the disposal of human legislators, and holds everywhere alike. Pufendorf is the representative here."
-        },
-        {
-          "term": "legal positivism",
-          "def": "The view that law is made by humans alone and can therefore have any content whatsoever; validity and justice are separate questions. Kelsen is the representative here."
-        }
+        { "term": "natural law (law of reason)", "def": "The view that a just legal order can be derived from reason itself, is therefore not at the disposal of human legislators, and holds everywhere alike. Pufendorf is the representative here." },
+        { "term": "legal positivism", "def": "The view that law is made by humans alone and can therefore have any content whatsoever; validity and justice are separate questions. Kelsen is the representative here." }
       ],
       "cards": [
         {
@@ -257,19 +118,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 478,
-      "text_sha": "38be973f1cf9ae2a",
-      "pdf_page": 6,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD01/PD01_s012.webp",
+    "12": {
       "title": "Four pictures, one problem",
       "text": "The slide sets four images beside one another: the Nazi Volksgerichtshof, the court for political trials; Eleanor Roosevelt with the Universal Declaration of Human Rights drafted under her leadership; the Crusades; and the Taliban in Afghanistan. They are not there to be ranked. They make the positivist point visible: each of these orders was, in its own time and place, generally effective and applied organized coercion, and each would have described itself as law. If law were defined by justice, most of what legal history studies would not be law at all — and the discipline could not do its work.",
       "terms": [],
@@ -282,19 +133,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 347,
-      "text_sha": "7347b4bb390ffb54",
-      "pdf_page": 6,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD01/PD01_s013.webp",
+    "13": {
       "title": "European legal culture",
       "text": "European legal culture is the product of thousands of years of development, and its peculiarities only become fully apparent when that development is examined and compared with other legal cultures. This is the justification for the word 'global' in the course title: the Jewish, Islamic and Chinese chapters are not decoration, they are the comparison that makes the European material legible as one possibility among several.",
       "terms": [],
@@ -307,19 +148,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 309,
-      "text_sha": "76813857ec5a47ff",
-      "pdf_page": 7,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD01/PD01_s014.webp",
+    "14": {
       "title": "The purpose of legal history: Mitteis and Ogris",
       "text": "Two quotations set the aims. Heinrich Mitteis (1889–1952): legal history 'introduces us to the modern law by allowing its complicated structure to emerge from its simplest basic elements; it exposes the driving forces that lead to the development of law as the life-conditioning order of every community.' Werner Ogris (1935–2015) adds the corrective: legal history 'must resolutely counter the delusion that the development of a legal order will always lead, almost automatically, to a higher degree of perfection. The opposite is the case: no era and no legal order is free of challenges and the risk of relapse.' Mitteis gives the constructive aim, Ogris the critical one — and the twentieth-century chapters of this course are Ogris's argument in detail.",
       "terms": [],
@@ -339,30 +170,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 666,
-      "text_sha": "19aa29f36334032f",
-      "pdf_page": 7,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD01/PD01_s015.webp",
+    "15": {
       "title": "The definition used in this course",
       "text": "The lecturer's own answer, and that of the Vienna School of Legal Theory: 'Law is a regulatory system which is created by humans for humans and is generally effective, and which may apply organized coercion.' Take the elements apart, because the exam does. Created by humans FOR humans — so it is positive law, and it regulates human conduct. GENERALLY EFFECTIVE — not obeyed in every case, but by and large in force; an order nobody follows any more has ceased to be law. MAY apply organized coercion — the coercion is organized (not private force) and it is a possibility, not a requirement in every norm.",
       "terms": [
-        {
-          "term": "law (definition used in this course)",
-          "def": "A regulatory system created by humans for humans, generally effective, which may apply organized coercion. The definition of the Vienna School of Legal Theory."
-        },
-        {
-          "term": "generally effective",
-          "def": "By and large in force in a community — not obeyed in every single case, but not a dead letter either. The criterion that distinguishes law in force from a rule that has lapsed."
-        }
+        { "term": "law (definition used in this course)", "def": "A regulatory system created by humans for humans, generally effective, which may apply organized coercion. The definition of the Vienna School of Legal Theory." },
+        { "term": "generally effective", "def": "By and large in force in a community — not obeyed in every single case, but not a dead letter either. The criterion that distinguishes law in force from a rule that has lapsed." }
       ],
       "cards": [
         {
@@ -380,26 +195,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 302,
-      "text_sha": "32d06cd71664d8da",
-      "pdf_page": 8,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD01/PD01_s016.webp",
+    "16": {
       "title": "What is the state?",
       "text": "The state of the modern age is a relatively centralised legal order with a relatively precisely defined personal scope (the state people) and spatial scope (the state territory). Both qualifications carry weight: 'relatively' centralised and 'relatively' precisely defined. States in older times have little in common with this modern concept — the slide sets the Austrian National Council against the Imperial Diet at Worms in 1495 to make the gap visible. Reading modern statehood back into the Middle Ages is the standard beginner's error in this subject.",
       "terms": [
-        {
-          "term": "state (modern concept)",
-          "def": "A relatively centralised legal order with a relatively precisely defined personal scope (state people) and spatial scope (state territory)."
-        }
+        { "term": "state (modern concept)", "def": "A relatively centralised legal order with a relatively precisely defined personal scope (state people) and spatial scope (state territory)." }
       ],
       "cards": [
         {
@@ -410,36 +212,16 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 530,
-      "text_sha": "790544d78fea9cd7",
-      "pdf_page": 8,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD01/PD01_s017.webp",
+    "17": {
       "title": "State law and international law (1)",
       "text": "The diagram places the international community above the individual states: international law governs the relations BETWEEN the legal orders, while each state law governs within its own scope. The two are drawn as different levels, not as competitors on the same plane.",
       "terms": [],
       "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 210,
-      "text_sha": "f40538bba945e103",
-      "pdf_page": 9,
-      "pdf_cell": 1
+      "vision_used": true
     },
-    {
-      "n": 18,
-      "img": "img/PD01/PD01_s018.webp",
+    "18": {
       "title": "State law and international law (2)",
       "text": "The same picture with two state legal orders side by side under one international law. The structural point: state law is hierarchical — it is imposed on its subjects from above — while international law between states is coordinative, resting on the agreement of the orders it binds. That contrast returns in every chapter on treaties, peace settlements and international organizations.",
       "terms": [],
@@ -452,53 +234,17 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 203,
-      "text_sha": "919c09621df5dd42",
-      "pdf_page": 9,
-      "pdf_cell": 2
+      "vision_used": true
     },
-    {
-      "n": 19,
-      "img": "img/PD01/PD01_s019.webp",
-      "title": "Europe",
-      "text": "A map opens the series on the words the course uses without defining them — Europe, emperor, Austria. Each turns out to have several meanings, and the exam likes exactly those words.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 85,
-      "text_sha": "9dbc3ecf8b9987b2",
-      "pdf_page": 10,
-      "pdf_cell": 1
-    },
-    {
-      "n": 20,
-      "img": "img/PD01/PD01_s020.webp",
+    "19": { "title": "Europe", "text": "A map opens the series on the words the course uses without defining them — Europe, emperor, Austria. Each turns out to have several meanings, and the exam likes exactly those words.", "terms": [], "cards": [], "vision_used": true },
+    "20": {
       "title": "Europe: membership before March 2022",
       "text": "The map shows membership status before March 2022 — that is, with Russia still a member of the Council of Europe. 'Europe' here is not a geographical fact but an institutional membership, and the boundary moves when the institutions move.",
       "terms": [],
       "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 114,
-      "text_sha": "0c1f596de7f477a2",
-      "pdf_page": 10,
-      "pdf_cell": 2
+      "vision_used": true
     },
-    {
-      "n": 21,
-      "img": "img/PD01/PD01_s021.webp",
+    "21": {
       "title": "Europe: membership since March 2022",
       "text": "The same map after March 2022, when Russia ceased to be a member of the Council of Europe following the invasion of Ukraine. Two slides, two maps, one lesson: what counts as 'Europe' is decided by institutions and can change within a month.",
       "terms": [],
@@ -511,60 +257,15 @@
           "priority": "extra"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 121,
-      "text_sha": "b082942132abbb17",
-      "pdf_page": 11,
-      "pdf_cell": 1
+      "vision_used": true
     },
-    {
-      "n": 22,
-      "img": "img/PD01/PD01_s022.webp",
-      "title": "Emperor: the Austrian imperial crown",
-      "text": "The Austrian imperial crown with orb and sceptre in the Vienna Imperial Treasury opens the second contested word: emperor.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 160,
-      "text_sha": "e562351e69b9169f",
-      "pdf_page": 11,
-      "pdf_cell": 2
-    },
-    {
-      "n": 23,
-      "img": "img/PD01/PD01_s023.webp",
-      "title": "The Roman Empire, divided 395",
-      "text": "The map of the division of 395 AD sets up the genealogy of the imperial title on the next slide.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 108,
-      "text_sha": "5fd6d2e73b1a403f",
-      "pdf_page": 12,
-      "pdf_cell": 1
-    },
-    {
-      "n": 24,
-      "img": "img/PD01/PD01_s024.webp",
+    "22": { "title": "Emperor: the Austrian imperial crown", "text": "The Austrian imperial crown with orb and sceptre in the Vienna Imperial Treasury opens the second contested word: emperor.", "terms": [], "cards": [], "vision_used": true },
+    "23": { "title": "The Roman Empire, divided 395", "text": "The map of the division of 395 AD sets up the genealogy of the imperial title on the next slide.", "terms": [], "cards": [], "vision_used": true },
+    "24": {
       "title": "The imperial title: the first branching",
       "text": "The line starts with the Roman Emperor of the first to fourth centuries AD. In 395 it divides: a Western Emperor, who lasts until 476, and an Eastern Emperor. From the East the Byzantine Emperor continues until 1453. In the West, after the gap, the title is revived — the Roman-German Emperor, dated 800/962 to 1806. The two dates are both real: 800 is Charlemagne's coronation, 962 that of Otto I, and which one you take as the beginning depends on whether you count the Frankish or the German line.",
       "terms": [
-        {
-          "term": "Roman-German Emperor",
-          "def": "The revived western imperial title, 800/962–1806 — from Charlemagne's or Otto I's coronation to the dissolution of the Holy Roman Empire."
-        }
+        { "term": "Roman-German Emperor", "def": "The revived western imperial title, 800/962–1806 — from Charlemagne's or Otto I's coronation to the dissolution of the Holy Roman Empire." }
       ],
       "cards": [
         {
@@ -582,43 +283,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 289,
-      "text_sha": "261df93ae4855e27",
-      "pdf_page": 12,
-      "pdf_cell": 2
+      "vision_used": true
     },
-    {
-      "n": 25,
-      "img": "img/PD01/PD01_s025.webp",
-      "title": "Europe around 1000",
-      "text": "The map of Europe around 1000 gives the setting for the eastern continuation of the imperial idea.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 97,
-      "text_sha": "f4adf519b786016a",
-      "pdf_page": 13,
-      "pdf_cell": 1
-    },
-    {
-      "n": 26,
-      "img": "img/PD01/PD01_s026.webp",
+    "25": { "title": "Europe around 1000", "text": "The map of Europe around 1000 gives the setting for the eastern continuation of the imperial idea.", "terms": [], "cards": [], "vision_used": true },
+    "26": {
       "title": "The imperial title: eastern claimants",
       "text": "The diagram grows two more branches. The Russian Emperor, 1478–1917: after Constantinople fell in 1453 the claim to the Byzantine succession moved to Moscow — the ruler took the title tsar, itself derived from Caesar, and Moscow was styled the THIRD ROME, after Rome and Constantinople. The Turkish Sultan, until 1922, is set on the same line because the Ottoman ruler held Constantinople and with it a claim of his own to the Roman succession.",
       "terms": [
-        {
-          "term": "Third Rome",
-          "def": "The claim that after Rome and Constantinople the imperial and Orthodox succession passed to Moscow. It underpins the Russian imperial title from 1478 and the word tsar (from Caesar)."
-        }
+        { "term": "Third Rome", "def": "The claim that after Rome and Constantinople the imperial and Orthodox succession passed to Moscow. It underpins the Russian imperial title from 1478 and the word tsar (from Caesar)." }
       ],
       "cards": [
         {
@@ -629,36 +301,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 363,
-      "text_sha": "fa89b7076dbe75d0",
-      "pdf_page": 13,
-      "pdf_cell": 2
+      "vision_used": true
     },
-    {
-      "n": 27,
-      "img": "img/PD01/PD01_s027.webp",
-      "title": "The coronation of Napoleon I (1804)",
-      "text": "Jacques-Louis David's Le Sacre de Napoléon (1806/07) marks the moment the imperial title is taken outside the old line altogether.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 178,
-      "text_sha": "1705b0489c6a30d6",
-      "pdf_page": 14,
-      "pdf_cell": 1
-    },
-    {
-      "n": 28,
-      "img": "img/PD01/PD01_s028.webp",
+    "27": { "title": "The coronation of Napoleon I (1804)", "text": "Jacques-Louis David's Le Sacre de Napoléon (1806/07) marks the moment the imperial title is taken outside the old line altogether.", "terms": [], "cards": [], "vision_used": true },
+    "28": {
       "title": "The imperial title: the modern branches",
       "text": "The final layer of the diagram. Emperor of the French, 1804–1815 and again 1852–1870; German Kaiser, 1871–1918; Emperor of Austria, 1804–1918 — that last one created in the same year as Napoleon's, and for the same reason: with a French emperor in the field, the Habsburg ruler needed a title of equal rank independent of the old Roman-German crown, which was dissolved two years later in 1806. Beside them the Russian Emperor to 1917 and the Turkish Sultan to 1922. Four of the five imperial titles end within five years of each other, in the First World War and its aftermath.",
       "terms": [],
@@ -678,19 +324,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 496,
-      "text_sha": "a0b9d75cd65f2472",
-      "pdf_page": 14,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 29,
-      "img": "img/PD01/PD01_s029.webp",
+    "29": {
       "title": "Non-European emperors",
       "text": "Two columns, and the distinction between them is the exam-relevant part. Held EQUAL to European emperors — that is, recognised in their own right: the Negus of Ethiopia (980 BC–1974 AD), the Tennō of Japan (660 BC to the present), the Huángdi of China (221 BC–1912 AD), the Shah-in-Shah of Persia (1501–1979), the Great Mogul of India (1526–1858). Created according to the EUROPEAN MODEL — that is, imperial titles minted by European powers: Emperor of Abyssinia (a title of the Italian king, 1936–1941), Emperor of Mexico (1864–67), Emperor of Brazil (1822–1889), Emperor of India (a title of the British king, 1876–1947).",
       "terms": [],
@@ -703,30 +339,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 607,
-      "text_sha": "dbe8db008dc3c4ad",
-      "pdf_page": 15,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 30,
-      "img": "img/PD01/PD01_s030.webp",
+    "30": {
       "title": "'Austria' has three meanings",
       "text": "The third contested word, and the one most likely to appear on the exam. First, the ORIGINAL TERRITORIAL meaning: the 'Land' Austria — margraviate, then duchy — divided along the river Enns into the parts above and below it. Second, the DYNASTIC meaning: the Casa de Austria, the House of Habsburg, where 'Austria' names a family, not a place. Third, the TRANSFERRED TERRITORIAL meaning: the Habsburg states as a whole, the 'Herrschaft zu Österreich', where the name of one land comes to stand for everything the dynasty rules.",
       "terms": [
-        {
-          "term": "Casa de Austria",
-          "def": "'Austria' in its dynastic sense: the House of Habsburg as a family, independent of any territory."
-        },
-        {
-          "term": "Herrschaft zu Österreich",
-          "def": "'Austria' in its transferred territorial sense: the whole complex of Habsburg lands, named after one of them."
-        }
+        { "term": "Casa de Austria", "def": "'Austria' in its dynastic sense: the House of Habsburg as a family, independent of any territory." },
+        { "term": "Herrschaft zu Österreich", "def": "'Austria' in its transferred territorial sense: the whole complex of Habsburg lands, named after one of them." }
       ],
       "cards": [
         {
@@ -737,26 +357,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 360,
-      "text_sha": "8bc0d053111d1889",
-      "pdf_page": 15,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 31,
-      "img": "img/PD01/PD01_s031.webp",
+    "31": {
       "title": "Personal union",
       "text": "A personal union means that one and the same person holds several crowns; it does NOT mean that the jointly controlled institutions lose their independence. Each land keeps its own legal order, its own estates and its own law — what they share is the ruler. Remembering this is what keeps the next slide from being read as the founding of a single Habsburg state in 1526.",
       "terms": [
-        {
-          "term": "personal union",
-          "def": "One person holds several crowns while each realm keeps its own institutions and legal order. Only the ruler is shared."
-        }
+        { "term": "personal union", "def": "One person holds several crowns while each realm keeps its own institutions and legal order. Only the ruler is shared." }
       ],
       "cards": [
         {
@@ -767,19 +374,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 189,
-      "text_sha": "f5c5ce0d60706ed5",
-      "pdf_page": 16,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 32,
-      "img": "img/PD01/PD01_s032.webp",
+    "32": {
       "title": "From personal union towards one state",
       "text": "1526/27: the Habsburgs acquire the Bohemian crown, the Crown of Saint Wenceslas, and the Hungarian crown, the Crown of Saint Stephen. For two centuries this remains a personal union. Only through the reforms of Maria Theresa and Joseph II, 1740–1790, do the Habsburg kingdoms and lands merge into one overall state. The two-hundred-year gap between acquiring the crowns and building a state out of them is the point of the slide.",
       "terms": [],
@@ -792,19 +389,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 367,
-      "text_sha": "de5f055fa47117c2",
-      "pdf_page": 16,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 33,
-      "img": "img/PD01/PD01_s033.webp",
+    "33": {
       "title": "1804, 1867, 1918",
       "text": "Three dates carry the constitutional history of the monarchy: 1804, the Austrian Empire is proclaimed; 1867, the Ausgleich turns it into the Austro-Hungarian Monarchy, two states under one ruler; 1918, the monarchy disintegrates.",
       "terms": [],
@@ -817,19 +404,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 201,
-      "text_sha": "762769c6f19ea792",
-      "pdf_page": 17,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 34,
-      "img": "img/PD01/PD01_s034.webp",
+    "34": {
       "title": "Austria after 1918",
       "text": "The name and the form change repeatedly. 1918: 'German Austria'; from 1919 simply 'Austria'. 1918–1933: a democratic republic, the First Republic. 1934–1938: an authoritarian state. 1938–1945: part of Nazi Germany, called the 'Ostmark' and later the 'Alpen- und Donaugaue' — the name Austria is removed altogether. Since 1945: the Republic of Austria, the Second Republic.",
       "terms": [],
@@ -842,53 +419,17 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 349,
-      "text_sha": "216abf1e14bb44c0",
-      "pdf_page": 17,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 35,
-      "img": "img/PD01/PD01_s035.webp",
+    "35": {
       "title": "Method: the historical questions",
       "text": "The method section opens with Édouard Manet's The Death of Maximilian (1868/69) — the execution of Emperor Maximilian of Mexico. The historian's questions come first: who, where, when, what, why.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 255,
-      "text_sha": "84aedc540c9aa56c",
-      "pdf_page": 18,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 36,
-      "img": "img/PD01/PD01_s036.webp",
-      "title": "The historical questions alone",
-      "text": "The same five questions without the picture: who, where, when, what, why.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 197,
-      "text_sha": "62fc22d7afa8b591",
-      "pdf_page": 18,
-      "pdf_cell": 2
-    },
-    {
-      "n": 37,
-      "img": "img/PD01/PD01_s037.webp",
+    "36": { "title": "The historical questions alone", "text": "The same five questions without the picture: who, where, when, what, why.", "terms": [], "cards": [], "vision_used": true },
+    "37": {
       "title": "Method: the legal question added",
       "text": "On top of the historical questions the legal historian asks one more: was the act lawful — an execution — or unlawful — a murder? The Manet picture is chosen precisely because the answer is not obvious: Maximilian was shot after a court-martial under a Mexican law of 1862, and whether that made it an execution or a killing depends on which legal order you take as authoritative.",
       "terms": [],
@@ -901,26 +442,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 338,
-      "text_sha": "3db561cb5e439bcb",
-      "pdf_page": 19,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 38,
-      "img": "img/PD01/PD01_s038.webp",
+    "38": {
       "title": "The judge and the legal historian",
       "text": "The central methodological slide, built as a three-point contrast. The JUDGE must (1) treat one concrete legal system as authoritative, (2) assume a fact as certain — the 'formal truth' — and (3) reach a decision, that is, pass judgement. The LEGAL HISTORIAN (1) must take into account the legal ideas of contemporaries rather than pick a system to apply, (2) does not have to assume any fact as completely certain, and (3) reaches conclusions that have no legal effect. All three differences point the same way: the judge is forced to decide and the historian is not, which is exactly what lets the historian leave a question open.",
       "terms": [
-        {
-          "term": "formal truth",
-          "def": "The fact a court must treat as established in order to decide, whether or not it corresponds to what happened. The legal historian is not bound to any such assumption."
-        }
+        { "term": "formal truth", "def": "The fact a court must treat as established in order to decide, whether or not it corresponds to what happened. The legal historian is not bound to any such assumption." }
       ],
       "cards": [
         {
@@ -938,26 +466,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 744,
-      "text_sha": "7467a7507cbdca82",
-      "pdf_page": 19,
-      "pdf_cell": 2
+      "vision_used": true
     },
-    {
-      "n": 39,
-      "img": "img/PD01/PD01_s039.webp",
+    "39": {
       "title": "Sources of legal cognition",
       "text": "How we find out about the law of the past — Rechtserkenntnisquellen, sources of legal cognition. WRITTEN sources: printed, for example the Reichsgesetzblatt für das Kaisertum Österreich; manuscripts, for example medieval law books; and the internet, for example the Austrian legal information system ris.bka.gv.at. OTHER sources: pictures, monuments, buildings, objects, coats of arms; and audiovisual media such as interviews. Keep this slide and the next apart — this one is about how we learn what the law was, the next about what produced the law in the first place.",
       "terms": [
-        {
-          "term": "source of legal cognition",
-          "def": "Anything from which we learn what the law of a period was — written (statute collections, manuscripts, databases) or other (images, buildings, objects, coats of arms, recordings). Not the same as a legal source."
-        }
+        { "term": "source of legal cognition", "def": "Anything from which we learn what the law of a period was — written (statute collections, manuscripts, databases) or other (images, buildings, objects, coats of arms, recordings). Not the same as a legal source." }
       ],
       "cards": [
         {
@@ -968,30 +483,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 402,
-      "text_sha": "7b4567874c5b65ef",
-      "pdf_page": 20,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 40,
-      "img": "img/PD01/PD01_s040.webp",
+    "40": {
       "title": "Legal sources",
       "text": "What produces law — Rechtsquellen, legal sources, four of them. STATUTORY LAW: acts of a legislator such as a parliament, claiming general validity. JUDICIAL LAW: judges do not merely decide the individual case but create precedents binding on other courts. JURISPRUDENTIAL LAW: the opinion of legal scholars is itself a source of law. CUSTOMARY LAW: custom carried by a legal conviction, opinio iuris. Which of the four dominates is one of the questions the whole course turns on — the common law chapter is about judicial law, the ius commune chapter about jurisprudential law.",
       "terms": [
-        {
-          "term": "opinio iuris",
-          "def": "The legal conviction that makes a practice into customary law: the practice is followed because it is held to be legally required, not merely out of habit."
-        },
-        {
-          "term": "jurisprudential law",
-          "def": "Law whose source is the opinion of legal scholars. Central to the ius commune, where the writings of the doctors carried authority of their own."
-        }
+        { "term": "opinio iuris", "def": "The legal conviction that makes a practice into customary law: the practice is followed because it is held to be legally required, not merely out of habit." },
+        { "term": "jurisprudential law", "def": "Law whose source is the opinion of legal scholars. Central to the ius commune, where the writings of the doctors carried authority of their own." }
       ],
       "cards": [
         {
@@ -1016,15 +515,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 433,
-      "text_sha": "190e2b1bb67b670a",
-      "pdf_page": 20,
-      "pdf_cell": 2
+      "vision_used": false
     }
-  ]
+  }
 }
