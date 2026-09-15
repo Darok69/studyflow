@@ -45,7 +45,8 @@ def main() -> int:
 
     for course in index["courses"]:
         entry = {"code": course["code"], "number": course["number"],
-                 "title": course["title"], "lectures": []}
+                 "title": course["title"], "subject": course.get("subject"),
+                 "lectures": []}
         for lec in course["lectures"]:
             d = json.loads((DATA / f"{lec['lecture_id']}.json").read_text("utf-8"))
             slides = []

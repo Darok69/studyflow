@@ -15,7 +15,7 @@ import { palette, subjectColor, subjectColorIndex, urgencyColor } from '../lib/t
 import { ProgressBar } from '../components/ProgressBar'
 import { SubjectEditor } from '../components/SubjectEditor'
 import { getMaterialIndex, SERVER_MODE, type MaterialIndex } from '../lib/api'
-import { lectureForTopic, matchCourse, orderByCourse, type CourseRef } from '../lib/materials'
+import { lectureForTopic, matchCourses, orderByCourse, type CourseRef } from '../lib/materials'
 import { t } from '../i18n'
 
 /**
@@ -129,16 +129,20 @@ export function Subject({
   const own = cards.filter((c) => c.subjectId === subject.id)
   const readiness = subjectReadiness(own, subject.examDate, now, settings?.targetRetention)
 
-  const course: CourseRef | null = matchCourse(
+  // A subject can be taught from several courses — a lecture and its practical
+  // exercise cover the same exam, so both belong in the same textbook.
+  const courses: CourseRef[] = matchCourses(
     index?.courses ?? [],
+    subject.name,
     own.map((c) => c.topic ?? ''),
   )
-  const plans: TopicPlan[] = orderByCourse(topicPlans(subject.id, schedCards, now), course)
+  const plans: TopicPlan[] = orderByCourse(topicPlans(subject.id, schedCards, now), courses)
 
   const identity = subjectColor(subject.colorIndex ?? subjectColorIndex(subject.id))
   const urgent = urgencyColor(urgency(stats.daysUntilExam))
   const todayCount = stats.dueToday + stats.newToday
-  const slides = course?.lectures.reduce((n, l) => n + l.slides, 0) ?? 0
+  const lectures = courses.reduce((n, c) => n + c.lectures.length, 0)
+  const slides = courses.reduce((n, c) => n + c.lectures.reduce((m, l) => m + l.slides, 0), 0)
 
   return (
     <div className="page subject-page">
@@ -188,15 +192,15 @@ export function Subject({
         </div>
       </header>
 
-      {course && (
-        <button className="textbook-row" onClick={() => onRead(null, course.code)}>
+      {courses.length > 0 && (
+        <button className="textbook-row" onClick={() => onRead(null, courses.map((c) => c.code).join(','))}>
           <span className="textbook-icon" aria-hidden="true">
             📖
           </span>
           <span className="textbook-main">
             <span className="textbook-title">{t('textbookTitle')}</span>
             <span className="muted">
-              {t('readerLectures', course.lectures.length)} · {t('readerSlideCount', slides)}
+              {t('readerLectures', lectures)} · {t('readerSlideCount', slides)}
             </span>
           </span>
         </button>
@@ -212,7 +216,7 @@ export function Subject({
         {plans.length === 0 && <p className="muted">{t('topicsEmpty')}</p>}
         <div className="topic-list">
           {plans.map((plan) => {
-            const lecture = lectureForTopic(course, plan.topic)
+            const lecture = lectureForTopic(courses, plan.topic)
             const today = plan.dueReviews + Math.min(plan.newRemaining, stats.newToday)
             const label = plan.topic || t('topicNone')
             return (
@@ -234,7 +238,7 @@ export function Subject({
                   {lecture && (
                     <button
                       className="topic-action"
-                      onClick={() => onRead(lecture.id, course?.code ?? null)}
+                      onClick={() => onRead(lecture.id, courses.map((c) => c.code).join(','))}
                       title={t('topicReadTitle')}
                     >
                       {t('topicRead')}

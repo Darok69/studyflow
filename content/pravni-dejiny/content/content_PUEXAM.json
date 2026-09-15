@@ -1,0 +1,173 @@
+{
+  "lecture_id": "PUEXAM",
+  "title": "A past module examination, with answers",
+  "slides": {
+    "1": {
+      "title": "Question 1 — source: Rousseau, Du contrat social (1762)",
+      "text": "The source: sovereignty, for the same reason that makes it inalienable, CANNOT BE REPRESENTED; it lies essentially in the general will, and will does not admit of representation. The deputies of the people are therefore not its representatives but merely its stewards, and can carry through no definitive acts. The people of England regards itself as free, but is grossly mistaken: it is free ONLY DURING THE ELECTION of members of parliament; as soon as they are elected, slavery overtakes it. The questions asked on it: which French jurist developed the concept of sovereignty 200 years before Rousseau; who, for Rousseau, always bore sovereignty; what the constitutional reality of his time was — what form of state predominated in Europe around 1762, and were there any democracies; why Rousseau calls the English a nation of slaves; and which element of modern democracy his critique targets. This is the SHAPE of every source question: a passage, then who/when, then the doctrine, then the constitutional reality, then the connection to today.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Which French jurist developed the concept of sovereignty 200 years before Rousseau, and where did he take it from?",
+          "a": "Jean Bodin, in the 16th century. He derived the concept from the Roman legal notion of imperium — princeps legibus solutus est — which limited the sovereignty of the princeps only by divine law and made the sovereign answerable for his acts to God alone. With that theory he supplied the theoretical ground for absolutism.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "The Westphalian Order and Early Constitutionalism",
+          "priority": "core"
+        },
+        {
+          "q": "What was the constitutional reality of Europe around 1762 — were there democracies?",
+          "a": "No. Absolutism predominated, and there was no democratic state in the modern sense of the word anywhere in Europe until the end of the 18th century. The first was created in 1787 with the US Constitution. The logical consequence of enlightened absolutism was constitutionalism.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Natural Law, Enlightenment and Revolutions",
+          "priority": "core"
+        },
+        {
+          "q": "Why does Rousseau call the English a nation of slaves, and which element of modern democracy is he attacking?",
+          "a": "Because the general will cannot be exercised by representatives: the English are free only during the election of members of parliament, and afterwards the deputies may override the will of the people. His target is the FREE MANDATE — which Austria also has — a principle surviving from an electoral system in which voters chose individual candidates rather than parties.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Natural Law, Enlightenment and Revolutions",
+          "priority": "core"
+        },
+        {
+          "q": "Was Rousseau, the father of popular sovereignty, in favour of democracy?",
+          "a": "He was sceptical of it and even rejected a parliamentary system of the British kind, because the common will cannot be exercised by representatives — which contradicts the idea of parliament as the representation of the people.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Natural Law, Enlightenment and Revolutions",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "2": {
+      "title": "Question 2 — the first written law and the Fertile Crescent",
+      "text": "Asked: where the first written law originated and why the region is called the Fertile Crescent; whether any documents such as treaties survive and whether one can be named; what about legal texts — a type of legal text now in the LOUVRE; and which principle, also a guiding principle of TWO WORLD RELIGIONS, is already mentioned in it. The model answer gives the Fertile Crescent as the countries nestling in a crescent around the Syrian desert (today's Egypt, Israel, Lebanon, Syria, Jordan, Iraq, parts of Turkey and Iran), made fertile by the Nile, the Euphrates and the Tigris, the cradle of the early advanced civilisations, with hieroglyphics and cuneiform before 3000 BC. For the surviving document it gives the STELE OF THE VULTURES — the earliest known war monument, Early Dynastic IIIb (2600–2350 BC), commissioned by Eannatum, ruler of Lagash, around 2460 BC, celebrating victory over Umma in a conflict over the farmland of Gu-Edin; after the battle the leader of Umma swore not to transgress into Lagash again on pain of divine punishment, which some read as A SORT OF PEACE TREATY. Fragments were found in southern Iraq in the late 19th century and are in the Louvre.",
+      "terms": [
+        { "term": "Stele of the Vultures", "def": "The earliest known war monument, Mesopotamia c. 2460 BC, commissioned by Eannatum of Lagash after his victory over Umma. The defeated oath not to transgress again is read by some as a sort of peace treaty. In the Louvre." }
+      ],
+      "cards": [
+        {
+          "q": "Name a surviving 'document' — arguably a treaty — from the earliest period of written law, and say what it records.",
+          "a": "The Stele of the Vultures, the earliest known war monument, Early Dynastic IIIb (2600–2350 BC), commissioned by Eannatum, ruler of Lagash, around 2460 BC. It records his victory over Umma in a conflict over the farmland of Gu-Edin, after which the leader of Umma swore not to transgress into Lagash again on pain of divine punishment — which some read as a sort of peace treaty. Fragments are in the Louvre.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Ancient Legal Cultures; History of Islamic Law",
+          "priority": "core"
+        },
+        {
+          "q": "Which legal text is in the Louvre, and which principle in it also guides two world religions?",
+          "a": "The Code of Hammurabi, a Babylonian text of 1755–1750 BC, the longest, best-organised and best-preserved legal text of the ancient Near East. The principle is talion — 'if a man put out the eye of another man, his eye shall be put out' — which is also a guiding principle of Judaism and Christianity. The stele was rediscovered in 1901 at Susa in present-day Iran, where it had been taken as plunder six hundred years after its creation.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Ancient Legal Cultures; History of Islamic Law",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "3": {
+      "title": "Question 3 — the Berlin Conference (1884–85)",
+      "text": "Asked: what the Berlin or Congo Conference was, its historical background and its LEGAL results, whether Austria took part and whether Austria had colonies — plus an extra question about another Berlin congress six years earlier and why it mattered for Austria. The background in the model answer: the European race for colonies made Germany launch expeditions of its own, which frightened British and French statesmen; the Belgian King Leopold II convinced France and Germany that common trade in Africa was in all their interests, and with British support and Portuguese initiative BISMARCK called representatives of 13 European nations and the United States to Berlin in 1884. Participants included Austria-Hungary. Congo was the ONLY African state at the conference. Of the fourteen countries represented, SEVEN came home without any formal possessions in Africa — Austria-Hungary, Russia, Denmark, the Netherlands, Sweden–Norway, the Ottoman Empire and the United States. The General Act of Berlin can be seen as the FORMALISATION OF THE SCRAMBLE FOR AFRICA.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What was the Berlin (Congo) Conference, who convened it, and who took part?",
+          "a": "A conference of 1884–85 called by Bismarck, on Portuguese initiative and with British support, after Leopold II persuaded France and Germany that common trade in Africa served them all. Representatives of 13 European nations and the United States attended; Congo was the only African state present. Austria-Hungary took part but came home — like Russia, Denmark, the Netherlands, Sweden–Norway, the Ottomans and the USA — without any formal possessions in Africa.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Imperialism and Constitutionalism before 1914",
+          "priority": "core"
+        },
+        {
+          "q": "Did Austria have colonies?",
+          "a": "No. Austria-Hungary attended the Berlin Conference but was among the seven of fourteen participating states that came away with no formal possessions in Africa.",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Imperialism and Constitutionalism before 1914",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "4": {
+      "title": "Question 3 continued — the legal results, and the Congress of 1878",
+      "text": "The LEGAL results of the Berlin Conference: rules on FREE TRADE and FREE NAVIGATION on the Congo and the Niger; a set of rules for the OCCUPATION of territory — above all the PRINCIPLE OF EFFECTIVE OCCUPATION, Article 35 of the Final Act, under which a power acquired rights over colonial land only if it actually possessed or effectively occupied it: treaties with local leaders, its flag flown, an administration with a police force to keep order, and economic use of the colony. That principle mattered both as the basis for acquiring territorial sovereignty in Africa and for DELIMITING the powers' possessions against each other, serving as a criterion in colonial boundary disputes. Its limit: the scope of the Berlin Act covered only lands FRONTING THE COAST, so European powers later claimed interior lands without meeting the requirement. And Article 6 bound the powers exercising sovereign rights to watch over the preservation of the 'first nations' and to care for their moral and material well-being — to bring them 'the blessing of civilization' — together with the suppression of the slave trade. The extra question: the CONGRESS OF BERLIN of 1878, after the Russo-Turkish war of 1877–78, which reorganised the Balkans to prevent Russian domination or a Greater Bulgaria. By the Treaty of Berlin Austria-Hungary received the right to OCCUPY Bosnia and Herzegovina with the Sandžak — and three decades later, in 1908, provoked the Bosnian Crisis by formally ANNEXING the occupied zone.",
+      "terms": [
+        { "term": "effective occupation (Art. 35, General Act of Berlin)", "def": "A power acquires rights over colonial land only by actually possessing or effectively occupying it — treaties with local leaders, its flag, an administration and a police force. Applied only to lands fronting the coast." }
+      ],
+      "cards": [
+        {
+          "q": "What were the legal results of the Berlin Conference?",
+          "a": "Rules on free trade and free navigation on the Congo and the Niger; rules for the occupation of territory, above all the principle of effective occupation (Art. 35); and the protection of the 'first nations' under Art. 6, with the powers bound to care for their moral and material well-being and to suppress the slave trade. The General Act is the formalisation of the Scramble for Africa.",
+          "difficulty": 2,
+          "kind": "norma",
+          "topic": "Imperialism and Constitutionalism before 1914",
+          "priority": "core"
+        },
+        {
+          "q": "What does 'effective occupation' require, and where did the principle fail to bite?",
+          "a": "That a power actually possess or effectively occupy the land: treaties with local leaders, its flag flown, an administration with a police force, and economic use. It served both to acquire territorial sovereignty and to settle boundary disputes between the powers. Its limit: the Berlin Act covered only lands fronting the coast, so the powers later claimed interior territories without meeting the requirement.",
+          "difficulty": 3,
+          "kind": "norma",
+          "topic": "Imperialism and Constitutionalism before 1914",
+          "priority": "core"
+        },
+        {
+          "q": "Which Berlin congress took place six years before the Congo Conference, and why did it matter for Austria?",
+          "a": "The Congress of Berlin, 13 June – 13 July 1878, after the Russo-Turkish war of 1877–78, called to reorganise the Balkans and prevent Russian domination or a Greater Bulgaria. By the Treaty of Berlin Austria-Hungary obtained the right to OCCUPY Bosnia and Herzegovina with the Sandžak — and in 1908 provoked the Bosnian Crisis by formally annexing that zone.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Imperialism and Constitutionalism before 1914",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "5": {
+      "title": "Questions 4 and 5 — communists after the war, and the Austrian constitution",
+      "text": "QUESTION 4 asked in which European countries apart from Russia the communists could seize power immediately after the First World War, and what about Austria. The answer: HUNGARY, March–August 1919, the 'Soviet republic' under Béla Kun; and BAVARIA, April–May 1919, the Münchner Räterepublik. Austria took a different road — AUSTROMARXISM as a 'third way': from 1904 a circle of Social Democratic intellectuals inspired by Marxist ideas, Otto Bauer, Karl Renner, Max Adler and Rudolf Hilferding, formed a theoretical current within the Social Democratic Workers' Party. QUESTION 5 asked for the Austrian constitutional development: the B-VG of 1920, amended in 1925 and 1929 — parliament loses power, the president gains it, and Austria has had a semi-presidential form ever since; the 1929 amendment was pushed by paramilitary groups, especially the Heimwehren, on the model of Mussolini's Italy. In March 1933 an incident in the National Council overthrew the parliamentary and democratic system in a coup d'état; Dollfuss then governed by EMERGENCY DECREES; the February uprising of 1934 led to civil war; and the MAY CONSTITUTION of 1934 broke with the B-VG, establishing the corporative state (Ständestaat) and a one-party system (Vaterländische Front) under the influence of the Catholic church. Its Article 1: a 'Christian, German federal state on a corporative basis', with GOD as the source of all law — set that against Article 1 of the B-VG. In July 1934 Dollfuss was shot by a group of Nazis; Schuschnigg's regime lasted until the Anschluss in 1938.",
+      "terms": [
+        { "term": "Austromarxism", "def": "A 'third way' current within the Austrian Social Democratic Workers' Party from 1904 — Otto Bauer, Karl Renner, Max Adler, Rudolf Hilferding — between reformism and Bolshevism." },
+        { "term": "May Constitution (1934)", "def": "The break with the B-VG: a corporative state (Ständestaat) and one-party system under the Vaterländische Front, its Article 1 declaring a 'Christian, German federal state on a corporative basis' with God as the source of all law." }
+      ],
+      "cards": [
+        {
+          "q": "Where outside Russia did communists seize power immediately after the First World War, and what happened in Austria?",
+          "a": "In Hungary (March–August 1919, the Soviet republic under Béla Kun) and in Bavaria (April–May 1919, the Münchner Räterepublik). Austria instead produced Austromarxism as a 'third way' — from 1904 a current of Social Democratic intellectuals (Otto Bauer, Karl Renner, Max Adler, Rudolf Hilferding) within the SDAP.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Dictatorships of the 20th Century I",
+          "priority": "core"
+        },
+        {
+          "q": "Give the Austrian constitutional development from 1920 to 1938.",
+          "a": "B-VG 1920, amended 1925 and 1929 — parliament loses power, the president gains it, giving the semi-presidential form Austria has had ever since; the 1929 amendment was pushed by the Heimwehren on Mussolini's model. March 1933: an incident in the National Council ends the parliamentary system in a coup d'état. Dollfuss governs by emergency decrees; the February uprising of 1934 brings civil war; the May Constitution of 1934 breaks with the B-VG and creates the corporative state and one-party system. Dollfuss is shot by Nazis in July 1934; Schuschnigg lasts until the Anschluss of 1938.",
+          "difficulty": 3,
+          "kind": "cisla",
+          "topic": "The Austrian 1st Republic, Democracy and the B-VG II",
+          "priority": "core"
+        },
+        {
+          "q": "What does Article 1 of the May Constitution of 1934 say, and how does it differ from Article 1 B-VG?",
+          "a": "It declares a 'Christian, German federal state on a corporative basis', with GOD as the source of all law. Article 1 B-VG makes Austria a democratic republic whose law emanates from the people — the source of law is moved from the people to God.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "topic": "The Austrian 1st Republic, Democracy and the B-VG II",
+          "priority": "core"
+        },
+        {
+          "q": "What did the 1929 amendment to the B-VG change, and who pushed for it?",
+          "a": "It shifted power from parliament to the president, giving Austria the semi-presidential form it has had ever since. It was pushed by the paramilitary groups, especially the Heimwehren, on the model of Mussolini's Italy.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "topic": "The Austrian 1st Republic, Democracy and the B-VG II",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    }
+  }
+}

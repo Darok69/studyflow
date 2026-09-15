@@ -1,0 +1,48 @@
+{
+  "lecture_id": "PUQ9",
+  "course": "PU",
+  "course_title": "Practical Exercise on European and Global Legal History",
+  "course_number": "030152",
+  "unit": "Otázky 9",
+  "title": "Questions and Sources, Unit IX",
+  "source_file": "raw/PUQ9_questions-and-sources-unit-9.pdf",
+  "source_sha256": "bbc6d512a332fe4bd4155380238b531e2e26d226dafbba91d52ee620b69f7e4a",
+  "source_pages": 2,
+  "slides_per_page": 1,
+  "slide_count": 2,
+  "updated_at": "2026-09-15T12:56:01+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/PUQ9/PUQ9_s001.webp",
+      "title": null,
+      "text": null,
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "pending",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 2587,
+      "text_sha": "0a53edfef9029d6a",
+      "pdf_page": 1
+    },
+    {
+      "n": 2,
+      "img": "img/PUQ9/PUQ9_s002.webp",
+      "title": null,
+      "text": null,
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "pending",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 2541,
+      "text_sha": "99c197dc42c73592",
+      "pdf_page": 2
+    }
+  ]
+}

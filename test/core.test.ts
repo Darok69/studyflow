@@ -39,7 +39,7 @@ import {
 import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/lib/sharelink'
 import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
-import { lectureForTopic, matchCourse, orderByCourse } from '../src/lib/materials'
+import { lectureForTopic, matchCourses, orderByCourse } from '../src/lib/materials'
 import { newCardsOnly, planFiling, questionKey } from '../src/import/mergeDeck'
 import { hasManualOrder, moveItem, orderedByHand, positionsFor } from '../src/lib/order'
 import {
@@ -1388,21 +1388,43 @@ console.log('— blind maps: masks stay relative, one card per place —')
       lectures: [{ id: 'EU01', unit: 'Lecture 1', title: 'Basics', slides: 2, cards: 1 }],
     },
   ]
-  ok(matchCourse(courses, ['Treaties', 'Custom'])?.code === 'IL', 'a deck finds its course by the topics it carries')
-  ok(matchCourse(courses, ['Basics'])?.code === 'EU', 'the other course is found the same way')
-  ok(matchCourse(courses, ['Something hand-made']) === null, 'a hand-made deck has no textbook and says so')
-  ok(matchCourse(courses, []) === null, 'no topics, no course')
+  ok(matchCourses(courses, 'Nothing', ['Treaties', 'Custom'])[0]?.code === 'IL', 'a deck finds its course by the topics it carries')
+  ok(matchCourses(courses, 'Nothing', ['Basics'])[0]?.code === 'EU', 'the other course is found the same way')
+  ok(matchCourses(courses, 'Nothing', ['Something hand-made']).length === 0, 'a hand-made deck has no textbook and says so')
+  ok(matchCourses(courses, '', []).length === 0, 'no name and no topics, no course')
+
+  // A subject taught from two courses — a lecture and its practical exercise —
+  // must find BOTH, and the stamped subject name beats topic overlap.
+  const stamped = [
+    { code: 'PD', title: 'Lecture', subject: 'Legal History', lectures: [{ id: 'PD01', unit: 'T1', title: 'Introduction', slides: 4, cards: 2 }] },
+    { code: 'PU', title: 'Exercise', subject: 'Legal History', lectures: [{ id: 'PU01', unit: 'C1', title: 'PUE Unit 1', slides: 3, cards: 1 }] },
+    { code: 'XX', title: 'Other', subject: 'Something else', lectures: [{ id: 'XX01', unit: 'U', title: 'Introduction', slides: 1, cards: 0 }] },
+  ]
+  const both = matchCourses(stamped, 'Legal History', ['Introduction'])
+  ok(both.length === 2, `a subject taught from two courses finds both (got ${both.length})`)
+  ok(both.map((c) => c.code).join() === 'PD,PU', 'and in the order the pipeline listed them')
+  ok(
+    matchCourses(stamped, 'legal history  ', []).length === 2,
+    'the name match ignores case and stray spaces, and needs no topics at all',
+  )
+  ok(
+    matchCourses(stamped, 'Unknown deck', ['Introduction']).map((c) => c.code).join() === 'PD',
+    'with no name match it falls back to topic overlap and takes the best one only',
+  )
 
   const unsorted = [{ topic: 'Custom' }, { topic: 'Mine' }, { topic: 'Treaties' }, { topic: 'Introduction' }]
-  const sorted = orderByCourse(unsorted, courses[0]).map((p) => p.topic)
+  const sorted = orderByCourse(unsorted, [courses[0]]).map((p) => p.topic)
   ok(
     sorted.join(' | ') === 'Introduction | Treaties | Custom | Mine',
     `topics follow the lectures, unknown ones go last (got ${sorted.join(' | ')})`,
   )
-  ok(orderByCourse(unsorted, null).map((p) => p.topic).join() === 'Custom,Mine,Treaties,Introduction', 'without a textbook the order is left alone')
-  ok(lectureForTopic(courses[0], 'Treaties')?.id === 'IL02', 'a topic points at the lecture that explains it')
-  ok(lectureForTopic(courses[0], 'Mine') === null, 'a topic the textbook does not know has no lecture')
-  ok(lectureForTopic(null, 'Treaties') === null, 'no course, no lecture')
+  // Two courses: the first one's lectures rank ahead of the second one's.
+  const twoCourse = orderByCourse([{ topic: 'Basics' }, { topic: 'Treaties' }], [courses[0], courses[1]]).map((p) => p.topic)
+  ok(twoCourse.join() === 'Treaties,Basics', `the first course's topics come first (got ${twoCourse.join()})`)
+  ok(orderByCourse(unsorted, []).map((p) => p.topic).join() === 'Custom,Mine,Treaties,Introduction', 'without a textbook the order is left alone')
+  ok(lectureForTopic(courses, 'Treaties')?.id === 'IL02', 'a topic points at the lecture that explains it')
+  ok(lectureForTopic(courses, 'Mine') === null, 'a topic the textbook does not know has no lecture')
+  ok(lectureForTopic([], 'Treaties') === null, 'no course, no lecture')
 }
 
 

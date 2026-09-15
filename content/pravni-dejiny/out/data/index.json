@@ -5,7 +5,7 @@
     "language": "en",
     "format": "Modulová zkouška k přednášce 030362. Zkouší se podle seznamu „What to read for the exam\" — 24 témat, ke každému přednáška a povinná četba. Otázky jsou pramenné: úryvek (smlouva, ústava, dobový text) a k němu několik otevřených podotázek — kdo, kdy, co z toho plyne a jak to souvisí s dalším vývojem. Viz „Second Exam.pdf\" ve cvičení (030152), kde jsou i odpovědi."
   },
-  "updated_at": "2026-09-15T12:12:48+00:00",
+  "updated_at": "2026-09-15T12:56:06+00:00",
   "organisers": [],
   "courses": [
     {
@@ -298,7 +298,7 @@
           "title": "Jewish Legal History",
           "slides": 67,
           "data": "data/PD05.json",
-          "done": 0
+          "done": 67
         },
         {
           "lecture_id": "PD06",
@@ -306,7 +306,7 @@
           "title": "The Common Law",
           "slides": 21,
           "data": "data/PD06.json",
-          "done": 0
+          "done": 21
         },
         {
           "lecture_id": "PD07",
@@ -314,7 +314,7 @@
           "title": "The Westphalian Order and Early Constitutionalism",
           "slides": 23,
           "data": "data/PD07.json",
-          "done": 0
+          "done": 23
         },
         {
           "lecture_id": "PD08",
@@ -322,7 +322,7 @@
           "title": "Natural Law, Enlightenment and Revolutions",
           "slides": 32,
           "data": "data/PD08.json",
-          "done": 0
+          "done": 32
         },
         {
           "lecture_id": "PD09a",
@@ -442,6 +442,199 @@
           "title": "Globalization of Law II",
           "slides": 15,
           "data": "data/PD18b.json",
+          "done": 0
+        }
+      ]
+    },
+    {
+      "code": "PU",
+      "number": "030152",
+      "title": "Practical Exercise on European and Global Legal History",
+      "subject": "European and Global Legal History",
+      "filing": [],
+      "lectures": [
+        {
+          "lecture_id": "PUINFO",
+          "unit": "Zkouška",
+          "title": "What to read for the exam: the 24 topics and their required reading",
+          "slides": 10,
+          "data": "data/PUINFO.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PUEXAM",
+          "unit": "Zkouška",
+          "title": "A past module examination, with answers",
+          "slides": 5,
+          "data": "data/PUEXAM.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU01",
+          "unit": "Cvičení 1",
+          "title": "PUE Unit 1: Introduction and Ancient Legal Cultures",
+          "slides": 43,
+          "data": "data/PU01.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PUQ12",
+          "unit": "Otázky 1/2",
+          "title": "Questions and Sources, Units I and II",
+          "slides": 2,
+          "data": "data/PUQ12.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU02",
+          "unit": "Cvičení 2",
+          "title": "PUE Unit 2: Jewish and Islamic Law, Corpus Iuris Civilis",
+          "slides": 37,
+          "data": "data/PU02.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU03",
+          "unit": "Cvičení 3",
+          "title": "PUE Unit 3: Ius Commune and Early Modern Times I",
+          "slides": 43,
+          "data": "data/PU03.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PUQ3",
+          "unit": "Otázky 3",
+          "title": "Questions and Sources, Unit III",
+          "slides": 3,
+          "data": "data/PUQ3.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU04",
+          "unit": "Cvičení 4",
+          "title": "PUE Unit 4: Ius Commune II, Common Law, Ius gentium I",
+          "slides": 43,
+          "data": "data/PU04.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PUQ4",
+          "unit": "Otázky 4",
+          "title": "Questions and Sources, Unit IV",
+          "slides": 4,
+          "data": "data/PUQ4.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU05",
+          "unit": "Cvičení 5",
+          "title": "PUE Unit 5: Ius gentium II, the Westphalian Order, Natural Law",
+          "slides": 28,
+          "data": "data/PU05.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PUQ5",
+          "unit": "Otázky 5",
+          "title": "Questions and Sources, Unit V",
+          "slides": 5,
+          "data": "data/PUQ5.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU06",
+          "unit": "Cvičení 6",
+          "title": "PUE Unit 6: Enlightenment, Revolutions, Constitutions, Norm Production",
+          "slides": 22,
+          "data": "data/PU06.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU08",
+          "unit": "Cvičení 8",
+          "title": "PUE Unit 8: Imperialism and International Law in the 20th Century",
+          "slides": 44,
+          "data": "data/PU08.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU08N1",
+          "unit": "Cvičení 8",
+          "title": "Norm production I (Foljanty)",
+          "slides": 28,
+          "data": "data/PU08N1.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU08N2",
+          "unit": "Cvičení 8",
+          "title": "Norm production II (Foljanty)",
+          "slides": 27,
+          "data": "data/PU08N2.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PUQ8",
+          "unit": "Otázky 8",
+          "title": "Questions and Sources, Unit VIII",
+          "slides": 2,
+          "data": "data/PUQ8.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU09",
+          "unit": "Cvičení 9",
+          "title": "PUE Unit 9: Europe from 1918, Decolonisation",
+          "slides": 42,
+          "data": "data/PU09.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU09IL",
+          "unit": "Cvičení 9",
+          "title": "International law in the 20th century (Vec)",
+          "slides": 32,
+          "data": "data/PU09IL.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU09IM",
+          "unit": "Cvičení 9",
+          "title": "Imperialism (Foljanty)",
+          "slides": 28,
+          "data": "data/PU09IM.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU09WW",
+          "unit": "Cvičení 9",
+          "title": "World War I and the Paris Peace Treaties (Gassner)",
+          "slides": 44,
+          "data": "data/PU09WW.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PUQ9",
+          "unit": "Otázky 9",
+          "title": "Questions and Sources, Unit IX",
+          "slides": 2,
+          "data": "data/PUQ9.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PU10",
+          "unit": "Cvičení 10",
+          "title": "PUE Unit 10: Europe from 1918 onwards, Decolonisation",
+          "slides": 31,
+          "data": "data/PU10.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "PUQ10",
+          "unit": "Otázky 10",
+          "title": "Questions and Sources, Unit X",
+          "slides": 4,
+          "data": "data/PUQ10.json",
           "done": 0
         }
       ]

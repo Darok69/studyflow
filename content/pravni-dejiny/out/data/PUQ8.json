@@ -1,0 +1,48 @@
+{
+  "lecture_id": "PUQ8",
+  "course": "PU",
+  "course_title": "Practical Exercise on European and Global Legal History",
+  "course_number": "030152",
+  "unit": "Otázky 8",
+  "title": "Questions and Sources, Unit VIII",
+  "source_file": "raw/PUQ8_questions-and-sources-unit-8.pdf",
+  "source_sha256": "0d0646ac013f487546d2fbf2f1add93b4fad623d943b50da402002b4f30dc490",
+  "source_pages": 2,
+  "slides_per_page": 1,
+  "slide_count": 2,
+  "updated_at": "2026-09-15T12:55:42+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/PUQ8/PUQ8_s001.webp",
+      "title": null,
+      "text": null,
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "pending",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 2078,
+      "text_sha": "e9cda27548f102d6",
+      "pdf_page": 1
+    },
+    {
+      "n": 2,
+      "img": "img/PUQ8/PUQ8_s002.webp",
+      "title": null,
+      "text": null,
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "pending",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 756,
+      "text_sha": "ecaf912eebc08da4",
+      "pdf_page": 2
+    }
+  ]
+}

@@ -1,75 +1,15 @@
 {
   "lecture_id": "PD05",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 5",
   "title": "Jewish Legal History",
-  "source_file": "raw/PD05_pp-05-the-development-of-jewish-ation-of-the-jews-wendehorst.pdf",
-  "source_sha256": "44b4b1268eda0aeba2f6164e49b542a80512a3d384f508bf17a83d857603a1f8",
-  "source_pages": 67,
-  "slides_per_page": 1,
-  "slide_count": 67,
-  "updated_at": "2026-09-15T12:12:43+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD05/PD05_s001.webp",
-      "title": "The development of Jewish law prior to the emancipation of the Jews",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 135,
-      "text_sha": "6583ac5359462959",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD05/PD05_s002.webp",
-      "title": "Programme",
-      "text": "The lecture (Stephan Wendehorst) runs through what Jewish law is, how it is approached, why the approach matters, on what research it rests, and then through selected examples — with the early modern period in the foreground.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 254,
-      "text_sha": "ad740e5e635e399c",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD05/PD05_s003.webp",
-      "title": "What the lecture is about",
-      "text": "Jewish law up to the emancipation of the Jews, with special weight on the early modern period, plus the basic information about Jewish law in general. Beyond that it introduces Jewish law as a METHODOLOGICAL tool — a case that makes you think again about legal history and about law as such.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 513,
-      "text_sha": "1f361a6cc63eb44f",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD05/PD05_s004.webp",
+  "slides": {
+    "1": { "title": "The development of Jewish law prior to the emancipation of the Jews", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Programme", "text": "The lecture (Stephan Wendehorst) runs through what Jewish law is, how it is approached, why the approach matters, on what research it rests, and then through selected examples — with the early modern period in the foreground.", "terms": [], "cards": [], "vision_used": false },
+    "3": { "title": "What the lecture is about", "text": "Jewish law up to the emancipation of the Jews, with special weight on the early modern period, plus the basic information about Jewish law in general. Beyond that it introduces Jewish law as a METHODOLOGICAL tool — a case that makes you think again about legal history and about law as such.", "terms": [], "cards": [], "vision_used": false },
+    "4": {
       "title": "How: law in action, not law in the books",
       "text": "The whole lecture is built on one methodological choice — LAW IN ACTION against LAW IN THE BOOKS — and it is examined. The law-in-action view asks three questions, each in a Jewish and a non-Jewish variant. JURISDICTION AND ADMINISTRATION: was Jewish law applied by Jewish courts and other Jewish fora, and was it applied by NON-Jewish courts? NORMATIVITY AND LEGISLATION: which norms are of Jewish origin and which of non-Jewish origin? JURISPRUDENCE: what did Jewish legal experts say, and what did non-Jewish legal experts say? Six boxes, and the interesting cells are the mixed ones.",
       "terms": [
-        {
-          "term": "law in action vs law in the books",
-          "def": "Asking what a legal order actually did — who judged, by which norms, on whose authority — rather than what its texts say it should do. The organising method of this lecture."
-        }
+        { "term": "law in action vs law in the books", "def": "Asking what a legal order actually did — who judged, by which norms, on whose authority — rather than what its texts say it should do. The organising method of this lecture." }
       ],
       "cards": [
         {
@@ -80,18 +20,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 394,
-      "text_sha": "06fc25fffeb7c36f",
-      "pdf_page": 4
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PD05/PD05_s005.webp",
+    "5": {
       "title": "Why this approach",
       "text": "Two payoffs. For the history of Jewish law: a sharper sense of its HISTORICITY and CONTINGENCY, attention to its 'secular' parts, and a view of the relationship between Jewish and non-Jewish law — which guards against an uncritical picture of Jewish legal autonomy and against a schematic separation of the two. For legal history in general: it puts two large questions on the table — the role of the STATE in law, and DUTIES against RIGHTS as the basic form of law.",
       "terms": [],
@@ -104,57 +35,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 544,
-      "text_sha": "09920adb6216da52",
-      "pdf_page": 5
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD05/PD05_s006.webp",
-      "title": "The research it rests on",
-      "text": "Projects of the Institute for Legal and Constitutional History (Team Wendehorst): the Jewish cases of the Imperial Aulic Council; a comparison of Jewish fora in the early modern period (Prague, Fulda, Würzburg, Mantova); the rabbinical court of Fulda between the wars; the Takkanot of Fulda, Moravia and Fürth; the Vienna constitution of 1923; and a critical edition of Dohm.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 797,
-      "text_sha": "2cd4da4c641ebbc6",
-      "pdf_page": 6
-    },
-    {
-      "n": 7,
-      "img": "img/PD05/PD05_s007.webp",
-      "title": "How the lecture proceeds",
-      "text": "Background on the Jews and their law, the modern Orthodox restatements, Jewish law in Israel, Jewish law as an academic field, then the conventional presentation of Jewish law, then law in action against law in the books, and finally selected issues of law, history and theory.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 481,
-      "text_sha": "df4710d606d8e779",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PD05/PD05_s008.webp",
+    "6": { "title": "The research it rests on", "text": "Projects of the Institute for Legal and Constitutional History (Team Wendehorst): the Jewish cases of the Imperial Aulic Council; a comparison of Jewish fora in the early modern period (Prague, Fulda, Würzburg, Mantova); the rabbinical court of Fulda between the wars; the Takkanot of Fulda, Moravia and Fürth; the Vienna constitution of 1923; and a critical edition of Dohm.", "terms": [], "cards": [], "vision_used": false },
+    "7": { "title": "How the lecture proceeds", "text": "Background on the Jews and their law, the modern Orthodox restatements, Jewish law in Israel, Jewish law as an academic field, then the conventional presentation of Jewish law, then law in action against law in the books, and finally selected issues of law, history and theory.", "terms": [], "cards": [], "vision_used": false },
+    "8": {
       "title": "Background: the Jews",
       "text": "Dates first, because they anchor everything else. The Jewish people is formed in the 6th century BCE. Jerusalem is destroyed by the Romans in 70 CE, and the DIASPORA follows. Before the Holocaust the population centres were Poland-Lithuania and the Ottoman Empire with their successor states; after it, the United States and Israel. The numbers: about 16.7 million before the Holocaust, an estimated 15.2 million in 2021 — still below the pre-war figure eighty years later. The internal divisions matter for the law, because each carries its own tradition: ASHKENAZI (German), SEPHARDI (Spanish), 'Ostjuden' (19th and 20th century immigrants from the successor states of the Polish-Lithuanian Commonwealth), and MIZRAHI (the Israeli term for Jews from Muslim countries). The State of Israel is established in 1948 as a Jewish state.",
       "terms": [
-        {
-          "term": "Ashkenazi / Sephardi",
-          "def": "The two great branches of Jewish tradition — German and Spanish in origin — each with its own legal custom. The Shulchan Aruch and its Ashkenazi gloss are exactly this division in one book."
-        }
+        { "term": "Ashkenazi / Sephardi", "def": "The two great branches of Jewish tradition — German and Spanish in origin — each with its own legal custom. The Shulchan Aruch and its Ashkenazi gloss are exactly this division in one book." }
       ],
       "cards": [
         {
@@ -179,18 +68,9 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 868,
-      "text_sha": "dca025ef2c284d18",
-      "pdf_page": 8
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD05/PD05_s009.webp",
+    "9": {
       "title": "The Jews and their law",
       "text": "The decisive sentence of the lecture: PRIOR to modernization and emancipation, BEING JEWISH MEANT LIVING ACCORDING TO JEWISH LAW. From modernity onwards other options appear — secular, religiously liberal, national — and being Jewish stops coinciding with observance of the law. And in some jurisdictions Jews continued to be bound by Jewish law, directly or indirectly, in FAMILY LAW and PERSONAL STATUS: Ottoman Turkey; the British Mandate for Palestine and then Israel; the German Empire until civil marriage was introduced in 1875; and Austria until the Anschluss of 1938, which is when civil marriage arrived there. Note that last one — in Austria the end of Jewish jurisdiction over marriage comes with the Nazi annexation, not with liberal reform.",
       "terms": [],
@@ -210,25 +90,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 851,
-      "text_sha": "fed91a0498609ee3",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD05/PD05_s010.webp",
+    "10": {
       "title": "Orthodox answers to modernity",
       "text": "Orthodoxy answers modernity by RESTATING Jewish law as the basis of being Jewish. Three landmarks: the Austrittsgemeinde, the secession of the Orthodox minority community from the liberal majority community in Germany, beginning in Frankfurt am Main under Samson Raphael Hirsch; Agudath Israel, the Union of Israel, founded at the Kattowitz Conference in 1912; and its first Knessio Gedaulo, the Great Assembly, in VIENNA in 1923 — 'the turning point of Vienna' — where Isaac Breuer presented a draft constitution for the Torah-true Jewish people.",
       "terms": [
-        {
-          "term": "Austrittsgemeinde",
-          "def": "The secession of an Orthodox minority congregation from the liberal majority community, beginning in Frankfurt under Samson Raphael Hirsch — an organisational answer to modernity."
-        }
+        { "term": "Austrittsgemeinde", "def": "The secession of an Orthodox minority congregation from the liberal majority community, beginning in Frankfurt under Samson Raphael Hirsch — an organisational answer to modernity." }
       ],
       "cards": [
         {
@@ -239,25 +107,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 676,
-      "text_sha": "03cf17c220ff3997",
-      "pdf_page": 10
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD05/PD05_s011.webp",
+    "11": {
       "title": "Breuer's draft constitution (1): a people whose sovereign is God",
       "text": "The source, Vienna 1923. The Jewish people is an immediate creation of God, so the Jewish nation stands ENTIRELY OUTSIDE the framework of the political nations and differs from them in nature. GOD IS THE SOVEREIGN of the Jewish people; God's Torah is its governing law and God's land its eternally promised land. Then the historical claim that follows from it: human power could shatter the state and take the land, because God allowed it — but human power could not destroy the people. Read it as a constitutional text and the structure is startling: a constitution whose sovereign is not the people and not a ruler.",
       "terms": [
-        {
-          "term": "Golus (Galut)",
-          "def": "The diaspora — in Breuer's text the condition the Jewish people is organised for, not an accident to be undone by political means."
-        }
+        { "term": "Golus (Galut)", "def": "The diaspora — in Breuer's text the condition the Jewish people is organised for, not an accident to be undone by political means." }
       ],
       "cards": [
         {
@@ -268,18 +124,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1471,
-      "text_sha": "f787a0c71b28841d",
-      "pdf_page": 11
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD05/PD05_s012.webp",
+    "12": {
       "title": "Breuer's draft constitution (2): a democratic body that is not sovereign",
       "text": "The institutions. The supremacy of the Torah is expressed in the RABBINICAL COUNCIL. The Knessio Gedaulo is constituted on democratic principles — general, equal, direct and secret elections — and represents the Torah-true Jewish people as a symbol of its unity. And then the sentence that makes the text worth reading in a law course: THE KNESSIO GEDAULO IS NOT SOVEREIGN, JUST AS THE JEWISH PEOPLE IS NOT SOVEREIGN. A democratically elected assembly which explicitly denies itself sovereignty; the document calls itself not bylaws of an association but the organizational vestment for God's people unified by the Torah.",
       "terms": [],
@@ -292,25 +139,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1426,
-      "text_sha": "1d11c91943ed61de",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD05/PD05_s013.webp",
+    "13": {
       "title": "Jewish law in the State of Israel: the Status Quo letter",
       "text": "Ben Gurion, for the Jewish Agency, writes to Agudath Israel on 19 June 1947. The letter is CUSTOMARY CONSTITUTIONAL LAW and highly controversial, and it guarantees minimum standards of Jewish law in the state to come: personal status of Jews according to Jewish law; autonomous Orthodox institutions, in particular in education; Jewish holidays as state holidays; and observance of the Jewish dietary laws in public institutions. A letter, not a statute — and it shapes Israeli constitutional practice to this day.",
       "terms": [
-        {
-          "term": "Status Quo letter (1947)",
-          "def": "Ben Gurion's letter to Agudath Israel guaranteeing minimum standards of Jewish law in the future state: personal status, Orthodox educational autonomy, Jewish holidays, dietary observance in public institutions. Customary constitutional law, not a statute."
-        }
+        { "term": "Status Quo letter (1947)", "def": "Ben Gurion's letter to Agudath Israel guaranteeing minimum standards of Jewish law in the future state: personal status, Orthodox educational autonomy, Jewish holidays, dietary observance in public institutions. Customary constitutional law, not a statute." }
       ],
       "cards": [
         {
@@ -321,29 +156,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 495,
-      "text_sha": "d05e24c909d95303",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD05/PD05_s014.webp",
+    "14": {
       "title": "Jewish law as an academic field",
       "text": "1918: the Mishpat Ivri Society is founded in MOSCOW. The idea of MISHPAT IVRI — 'Hebrew law' as a western-style body of laws, DISTINCT from halakha as religious Jewish law — arose in Russia and flourished in Mandatory Palestine and Israel as part of the Zionist movement. Hold that distinction: mishpat ivri is a modern, secularising reading of the same material. 1978: the Jewish Law Association is founded. Chairs of Jewish law are established in American and Israeli law schools, and a Jewish Law Moot Court is run jointly by the law faculties of Vienna, Tel Aviv, Vilnius, Brno, the Hebrew University and Cardozo.",
       "terms": [
-        {
-          "term": "mishpat ivri",
-          "def": "'Hebrew law' — the modern idea of Jewish law as a western-style body of law, distinct from halakha understood as religious law. Born in Russia (Mishpat Ivri Society, Moscow 1918), taken up by Zionism."
-        },
-        {
-          "term": "halakha",
-          "def": "Jewish law as religious law — the traditional understanding against which mishpat ivri sets itself."
-        }
+        { "term": "mishpat ivri", "def": "'Hebrew law' — the modern idea of Jewish law as a western-style body of law, distinct from halakha understood as religious law. Born in Russia (Mishpat Ivri Society, Moscow 1918), taken up by Zionism." },
+        { "term": "halakha", "def": "Jewish law as religious law — the traditional understanding against which mishpat ivri sets itself." }
       ],
       "cards": [
         {
@@ -354,69 +174,18 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 795,
-      "text_sha": "c8314bf3c519b680",
-      "pdf_page": 14
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD05/PD05_s015.webp",
-      "title": "Jewish law: what, how, why",
-      "text": "The middle part of the lecture: the conventional presentation of Jewish law, then how it is learned and made visible, then law in action against law in the books.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 234,
-      "text_sha": "7b2411831ec1a6a0",
-      "pdf_page": 15
-    },
-    {
-      "n": 16,
-      "img": "img/PD05/PD05_s016.webp",
-      "title": "The conventional presentation",
-      "text": "Four headings: the sources of Jewish law, its periodization, other ways of categorising it, and the Talmud with its divisions.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 225,
-      "text_sha": "e1298659e86dbf9e",
-      "pdf_page": 16
-    },
-    {
-      "n": 17,
-      "img": "img/PD05/PD05_s017.webp",
+    "15": { "title": "Jewish law: what, how, why", "text": "The middle part of the lecture: the conventional presentation of Jewish law, then how it is learned and made visible, then law in action against law in the books.", "terms": [], "cards": [], "vision_used": false },
+    "16": { "title": "The conventional presentation", "text": "Four headings: the sources of Jewish law, its periodization, other ways of categorising it, and the Talmud with its divisions.", "terms": [], "cards": [], "vision_used": false },
+    "17": {
       "title": "The sources of Jewish law",
       "text": "The list to know by heart. WRITTEN LAW: the Torah. ORAL LAW: the Talmud, made of Mishnah and Gemara. SUBSEQUENT CODIFICATIONS: Maimonides' Mishneh Torah; Joseph Karo's Shulchan Aruch, the 'Set Table'; and Moses Isserles' 'Tablecloth' — the Ashkenazi gloss laid over Karo's Sephardi table, which is why the image of a table and its cloth is not decoration but a statement about how two traditions were joined in one book. RABBINICAL DISCUSSION in commentaries, judgments and RESPONSA, the collections of questions and answers. TAKKANOT: Jewish administrative law. MINHAGIM: Jewish local customary law.",
       "terms": [
-        {
-          "term": "Shulchan Aruch",
-          "def": "Joseph Karo's codification, the 'Set Table' (16th c.), Sephardi in orientation; Moses Isserles added the 'Tablecloth' (Mappah), the Ashkenazi gloss, so that one book serves both traditions."
-        },
-        {
-          "term": "responsa",
-          "def": "Collections of questions put to rabbinical authorities and their answers — case law in the form of opinions, one of the living sources of Jewish law."
-        },
-        {
-          "term": "takkanot",
-          "def": "Jewish administrative law: enactments of a community or a Jewish estate, comparable to early modern police ordinances. Non-rabbinical in origin."
-        },
-        {
-          "term": "minhagim",
-          "def": "Jewish local customary law."
-        }
+        { "term": "Shulchan Aruch", "def": "Joseph Karo's codification, the 'Set Table' (16th c.), Sephardi in orientation; Moses Isserles added the 'Tablecloth' (Mappah), the Ashkenazi gloss, so that one book serves both traditions." },
+        { "term": "responsa", "def": "Collections of questions put to rabbinical authorities and their answers — case law in the form of opinions, one of the living sources of Jewish law." },
+        { "term": "takkanot", "def": "Jewish administrative law: enactments of a community or a Jewish estate, comparable to early modern police ordinances. Non-rabbinical in origin." },
+        { "term": "minhagim", "def": "Jewish local customary law." }
       ],
       "cards": [
         {
@@ -441,29 +210,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 466,
-      "text_sha": "559fd4082ee5aeff",
-      "pdf_page": 17
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "img": "img/PD05/PD05_s018.webp",
+    "18": {
       "title": "The periodization of Jewish law",
       "text": "Five periods, each named after who was doing the work. The HEBREW BIBLE — revealed law, Mount Sinai. THE SAGES, about 250 BCE to about 625 CE — the sages of the Mishnah, Tosefta and Talmud. THE GEONIM, 650–1038 — the Babylonian academies of Sura and Pumbedita. THE RISHONIM, 'the firsts', about 1038–1563 — the rabbis of the late medieval period, the period that ends with the Shulchan Aruch. THE ACHARONIM, 'the lasts', from about 1500 to the present. Note the shape: the names are relative, not chronological — you are in the age of 'the lasts' because the 'firsts' came first.",
       "terms": [
-        {
-          "term": "Geonim",
-          "def": "650–1038: the heads of the Babylonian academies of Sura and Pumbedita, the authorities of that period of Jewish law."
-        },
-        {
-          "term": "Rishonim / Acharonim",
-          "def": "'The firsts' (c. 1038–1563) and 'the lasts' (from c. 1500 to today) — the late medieval rabbis and their successors. The names are relative to each other, not to a calendar."
-        }
+        { "term": "Geonim", "def": "650–1038: the heads of the Babylonian academies of Sura and Pumbedita, the authorities of that period of Jewish law." },
+        { "term": "Rishonim / Acharonim", "def": "'The firsts' (c. 1038–1563) and 'the lasts' (from c. 1500 to today) — the late medieval rabbis and their successors. The names are relative to each other, not to a calendar." }
       ],
       "cards": [
         {
@@ -474,18 +228,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 460,
-      "text_sha": "ee0562a286a108a9",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD05/PD05_s019.webp",
+    "19": {
       "title": "Other ways of dividing it",
       "text": "Four cross-cutting distinctions, each useful for a different question: revealed and non-revealed law; written and oral law; laws concerning God and laws concerning human beings; religious law and civil law. The third is the one the introductory lecture already met as mitzvot bein adam lamakom and bein adam lehaveiro, and the fourth is the one that lets a Christian jurist treat part of Jewish law as ordinary private law.",
       "terms": [],
@@ -498,29 +243,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 237,
-      "text_sha": "632a61b1c53cb8d4",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD05/PD05_s020.webp",
+    "20": {
       "title": "The Talmud",
       "text": "After the Hebrew Bible the core text of Rabbinic Judaism and the primary source of halakha, holding the teachings and opinions of several thousand rabbis on every conceivable subject. TWO Talmuds: the Jerusalem Talmud (Talmud Yerushalmi), compiled in the 4th century in Galilee, and the more important BABYLONIAN Talmud (Talmud Bavli), compiled around 500. The standard print is the Vilna Shas of the late 19th century: 2,711 double-sided folios, with the Gemara and Mishnah in the CENTRE, Rashi's commentary on the INNER margin, the Tosafot on the OUTER margin, and further marginal notes from prominent sages. The page layout is itself an argument — the text and centuries of disagreement about it are printed to be read together.",
       "terms": [
-        {
-          "term": "Babylonian Talmud (Talmud Bavli)",
-          "def": "Compiled around 500, the more important of the two Talmuds; the Jerusalem Talmud was compiled in the 4th century in Galilee."
-        },
-        {
-          "term": "Vilna Shas",
-          "def": "The standard printed Talmud from the late 19th century, 2,711 double-sided folios: Gemara/Mishnah in the centre, Rashi inside, Tosafot outside."
-        }
+        { "term": "Babylonian Talmud (Talmud Bavli)", "def": "Compiled around 500, the more important of the two Talmuds; the Jerusalem Talmud was compiled in the 4th century in Galilee." },
+        { "term": "Vilna Shas", "def": "The standard printed Talmud from the late 19th century, 2,711 double-sided folios: Gemara/Mishnah in the centre, Rashi inside, Tosafot outside." }
       ],
       "cards": [
         {
@@ -538,18 +268,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 744,
-      "text_sha": "85715f044b55e045",
-      "pdf_page": 20
+      "vision_used": false
     },
-    {
-      "n": 21,
-      "img": "img/PD05/PD05_s021.webp",
+    "21": {
       "title": "The six orders of the Talmud",
       "text": "Six orders and 63 tractates. ZERAIM, Seeds. MOED, Times. NASHIM, Women. NEZIKIM, Damages. KODSHIM, Holiness. TAHAROT, Purity. Note what the ordering shows: agriculture, calendar, family, torts and property, sacred things and ritual purity stand in ONE system, with no line between what a modern lawyer would call legal and religious matter.",
       "terms": [],
@@ -569,41 +290,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 223,
-      "text_sha": "d3931753bb2fc6fc",
-      "pdf_page": 21
+      "vision_used": true
     },
-    {
-      "n": 22,
-      "img": "img/PD05/PD05_s022.webp",
-      "title": "A page of the Shulchan Aruch",
-      "text": "A page of the Yoreh Deah with printed glosses and handwritten annotations — the text, the gloss and the reader's own additions on one sheet.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 219,
-      "text_sha": "3ed6030c652f8514",
-      "pdf_page": 22
-    },
-    {
-      "n": 23,
-      "img": "img/PD05/PD05_s023.webp",
+    "22": { "title": "A page of the Shulchan Aruch", "text": "A page of the Yoreh Deah with printed glosses and handwritten annotations — the text, the gloss and the reader's own additions on one sheet.", "terms": [], "cards": [], "vision_used": true },
+    "23": {
       "title": "How Jewish law is learned and practised",
       "text": "The institutions and the style. Learning happens in YESHIVOT, the academies of Jewish law. The legal expert is the RABBI — and the lecture insists on the comparison: a rabbi is PRIMARILY A JUDGE, and therefore something different from a Catholic priest or a Protestant minister. The style of legal thought is DEBATE, with a common opinion and dissenting opinions preserved side by side. And two structural features close the slide: in the diaspora this is LAW WITHOUT A STATE, and it is a DUTIES-BASED rather than a rights-based law.",
       "terms": [
-        {
-          "term": "yeshiva",
-          "def": "An academy of Jewish law — the institution in which the law is taught and argued."
-        }
+        { "term": "yeshiva", "def": "An academy of Jewish law — the institution in which the law is taught and argued." }
       ],
       "cards": [
         {
@@ -621,66 +315,12 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 417,
-      "text_sha": "596728c3c47db45e",
-      "pdf_page": 23
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "img": "img/PD05/PD05_s024.webp",
-      "title": "Selected issues from the pre-emancipation period",
-      "text": "With the background in place, the rest of the lecture works through examples of jurisprudence, of jurisdiction and administration, and of normativity and legislation — each from both the Jewish and the non-Jewish side.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 411,
-      "text_sha": "3fdf9e0333936ef9",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PD05/PD05_s025.webp",
-      "title": "Jurisdiction and administration: the cast",
-      "text": "Four items: Cerf Beer, a lay leader of the Jewish community of Alsace, on jurisdiction and administration; Christian Wilhelm von Dohm, an authority of Roman-German law, on the same; Moses Mendelssohn's pocket edition of Jewish law FOR THE CHRISTIAN JUDGE; and the resulting typical constellation of a conflict of laws.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 443,
-      "text_sha": "2e2ef57f1f4486ea",
-      "pdf_page": 25
-    },
-    {
-      "n": 26,
-      "img": "img/PD05/PD05_s026.webp",
-      "title": "Cerf Beer",
-      "text": "Hertz von Medelsheim, known as Cerf Beer (c. 1726–1793), one of the lay leaders of the Jewish nation in Alsace. The memorandum on the Jews of Alsace is attributed to him.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 341,
-      "text_sha": "bdab20f0fef51dfc",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PD05/PD05_s027.webp",
+    "24": { "title": "Selected issues from the pre-emancipation period", "text": "With the background in place, the rest of the lecture works through examples of jurisprudence, of jurisdiction and administration, and of normativity and legislation — each from both the Jewish and the non-Jewish side.", "terms": [], "cards": [], "vision_used": false },
+    "25": { "title": "Jurisdiction and administration: the cast", "text": "Four items: Cerf Beer, a lay leader of the Jewish community of Alsace, on jurisdiction and administration; Christian Wilhelm von Dohm, an authority of Roman-German law, on the same; Moses Mendelssohn's pocket edition of Jewish law FOR THE CHRISTIAN JUDGE; and the resulting typical constellation of a conflict of laws.", "terms": [], "cards": [], "vision_used": false },
+    "26": { "title": "Cerf Beer", "text": "Hertz von Medelsheim, known as Cerf Beer (c. 1726–1793), one of the lay leaders of the Jewish nation in Alsace. The memorandum on the Jews of Alsace is attributed to him.", "terms": [], "cards": [], "vision_used": true },
+    "27": {
       "title": "Cerf Beer on the jurisdiction of the community leaders",
       "text": "The argument is made in the language of the absolutist state — GOOD ORDER AND UTILITY — not in the language of religious liberty. The community leaders chosen by the nation to govern it according to its laws need authority to keep within bounds those whose rebellious spirit transgresses them. The practical benefit offered to the state: the leaders, informed of complaints Christians have against Jews or of misconduct among Jews themselves, spare the plaintiffs the length and expense of legal proceedings that the offence would not warrant. And the evidence that it worked: the Intendant of Alsace authorised a community leader to impose fines in 1767, ordered imprisonment in support of fines imposed by Jewish leaders, and approved the nation's own regulation of 28 April 1777 on fines.",
       "terms": [],
@@ -693,25 +333,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1542,
-      "text_sha": "feab9f6ae9175927",
-      "pdf_page": 27
+      "vision_used": false
     },
-    {
-      "n": 28,
-      "img": "img/PD05/PD05_s028.webp",
+    "28": {
       "title": "Cerf Beer on the ban",
       "text": "For crimes that a light hand cannot restrain, the community leaders together with the rabbis resort to ANATHEMA or BANISHMENT — the ban. The memorandum stresses that it is used rarely and that the right was upheld for the Jews of Metz and renewed by a ruling of the Sovereign Council of Alsace on 2 December 1704 confirming the rabbis' power of excommunication. And it offers a compromise in advance: if His Majesty will not grant the power without appeal, then provisional release of the guilty should at least follow a hearing of the leaders and rabbis who condemned him. Note the safeguard built in — the ban requires two community leaders together with two rabbis, so that it never looks light-headed or self-interested.",
       "terms": [
-        {
-          "term": "the ban (herem)",
-          "def": "Excommunication or banishment pronounced by Jewish community leaders together with rabbis — the heaviest sanction of a legal order with no prison and no force of its own."
-        }
+        { "term": "the ban (herem)", "def": "Excommunication or banishment pronounced by Jewish community leaders together with rabbis — the heaviest sanction of a legal order with no prison and no force of its own." }
       ],
       "cards": [
         {
@@ -722,25 +350,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1459,
-      "text_sha": "dda3ebbc34dcc749",
-      "pdf_page": 28
+      "vision_used": false
     },
-    {
-      "n": 29,
-      "img": "img/PD05/PD05_s029.webp",
+    "29": {
       "title": "Dohm's ninth point (1781)",
       "text": "The central passage of the whole lecture. Dohm: the written laws of Moses that do not relate to Palestine and the former constitution of courts and divine service, AND the laws transmitted orally, are regarded by the Jews as God's eternally binding commandments, and this nation attributes legal validity also to explanations of those laws and to arguments of prominent authorities. Therefore — and here is the move — if one wants to grant them the complete enjoyment of the rights of humanity, IT IS NECESSARY TO ALLOW THEM TO LIVE BY THESE LAWS AND TO BE JUDGED ACCORDING TO THEM. His comparison: this separates them from other citizens no more than a town or community living under its own statutes. His evidence: the ancient Roman Empire and several more recent states show that granting Jews autonomy brings no bad consequences.",
       "terms": [
-        {
-          "term": "Dohm, On the Civil Improvement of the Jews (1781)",
-          "def": "The central text of the emancipation debate. Argues that granting Jews the rights of humanity REQUIRES letting them live by and be judged according to their own law — treated as a particular law like a town's statutes."
-        }
+        { "term": "Dohm, On the Civil Improvement of the Jews (1781)", "def": "The central text of the emancipation debate. Argues that granting Jews the rights of humanity REQUIRES letting them live by and be judged according to their own law — treated as a particular law like a town's statutes." }
       ],
       "cards": [
         {
@@ -758,18 +374,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1867,
-      "text_sha": "f5196e4e427f4222",
-      "pdf_page": 29
+      "vision_used": false
     },
-    {
-      "n": 30,
-      "img": "img/PD05/PD05_s030.webp",
+    "30": {
       "title": "Dohm on who should judge",
       "text": "It is NOT considered imperative that the jurisdiction be exercised by judges from the nation itself — though it would be far more convenient to the Jews if it were. And the practical reason is worth noticing: it would resolve a number of problems for CHRISTIAN judges, whose ignorance of Jewish jurisprudence — highly complex, demanding considerable Hebrew and rabbinical language skills — is likely to cause them trouble. His conclusion: leave civil litigation between Jews in the first instance to their own judges, while allowing Jews to bring an action before the ordinary Christian judge.",
       "terms": [],
@@ -782,18 +389,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 767,
-      "text_sha": "d1af0597e5b79622",
-      "pdf_page": 30
+      "vision_used": false
     },
-    {
-      "n": 31,
-      "img": "img/PD05/PD05_s031.webp",
+    "31": {
       "title": "Dohm on the law the Christian judge must apply",
       "text": "One sentence, and it is the hardest part of the argument: those judges AND the higher instances hearing an appeal against a Jewish judge's ruling MUST WITHOUT QUESTION DECIDE ACCORDING TO NONE OTHER THAN JEWISH LAWS. A Christian appellate court bound to apply Jewish law — which is precisely why Christian jurists needed Jewish law collected, translated and made usable, and why the next slides are about exactly those books.",
       "terms": [],
@@ -806,18 +404,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 295,
-      "text_sha": "8c3088831e0834e6",
-      "pdf_page": 31
+      "vision_used": false
     },
-    {
-      "n": 32,
-      "img": "img/PD05/PD05_s032.webp",
+    "32": {
       "title": "Mendelssohn's manual for the Christian judge",
       "text": "Moses Mendelssohn, Ritualgesetze der Juden, Berlin 1778: the ritual laws of the Jews concerning INHERITANCE, GUARDIANSHIP, WILLS AND MATRIMONIAL MATTERS, 'in so far as they concern mine and thine' — drawn up at the instance and under the supervision of R. Hirschel Levin, chief rabbi of Berlin. Note the selection: exactly those parts of Jewish law a Christian court would have to apply in a civil case, and no more. A pocket book of Jewish private law, written for the non-Jewish bench.",
       "terms": [],
@@ -830,57 +419,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 360,
-      "text_sha": "fc925c836907f920",
-      "pdf_page": 32
+      "vision_used": false
     },
-    {
-      "n": 33,
-      "img": "img/PD05/PD05_s033.webp",
-      "title": "A typical conflict of laws",
-      "text": "Jewish law and non-Jewish law in the diaspora form a textbook conflict-of-laws constellation. The question is asked from both sides: how did Jewish law deal with it, and how did non-Jewish law deal with it?",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 211,
-      "text_sha": "d1d8c8e574efd03f",
-      "pdf_page": 33
-    },
-    {
-      "n": 34,
-      "img": "img/PD05/PD05_s034.webp",
-      "title": "Jurisprudence: recognition in both directions",
-      "text": "The Jewish recognition of non-Jewish law runs under the maxim dina de-malkhuta dina. The non-Jewish recognition of Jewish law runs in two forms — as a personal particular law, and as a general divine law.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 167,
-      "text_sha": "ce6f9a479bfbaee0",
-      "pdf_page": 34
-    },
-    {
-      "n": 35,
-      "img": "img/PD05/PD05_s035.webp",
+    "33": { "title": "A typical conflict of laws", "text": "Jewish law and non-Jewish law in the diaspora form a textbook conflict-of-laws constellation. The question is asked from both sides: how did Jewish law deal with it, and how did non-Jewish law deal with it?", "terms": [], "cards": [], "vision_used": false },
+    "34": { "title": "Jurisprudence: recognition in both directions", "text": "The Jewish recognition of non-Jewish law runs under the maxim dina de-malkhuta dina. The non-Jewish recognition of Jewish law runs in two forms — as a personal particular law, and as a general divine law.", "terms": [], "cards": [], "vision_used": true },
+    "35": {
       "title": "Dina de-malkhuta dina",
       "text": "Aramaic: THE LAW OF THE GOVERNMENT IS LAW, or the law of the land is the law. It is the Jewish recognition of non-Jewish law as valid law IN PRINCIPLE, and in certain respects — TAXATION and COMMERCE are the examples given — as OVERRIDING Jewish law, subject to certain conditions. Without this maxim the diaspora would be a permanent conflict; with it, Jewish law itself supplies the rule that makes living under a foreign legal order lawful.",
       "terms": [
-        {
-          "term": "dina de-malkhuta dina",
-          "def": "'The law of the government is law' — the principle by which Jewish law recognises non-Jewish law as valid, and in matters such as taxation and commerce as overriding, subject to conditions."
-        }
+        { "term": "dina de-malkhuta dina", "def": "'The law of the government is law' — the principle by which Jewish law recognises non-Jewish law as valid, and in matters such as taxation and commerce as overriding, subject to conditions." }
       ],
       "cards": [
         {
@@ -898,41 +445,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 359,
-      "text_sha": "75f1b4d42f960411",
-      "pdf_page": 35
+      "vision_used": false
     },
-    {
-      "n": 36,
-      "img": "img/PD05/PD05_s036.webp",
-      "title": "Non-Jewish recognition: two forms",
-      "text": "Jewish law was recognised by the surrounding legal order in two quite different ways — as a personal particular law, and as a general divine law. Which one a jurist chose decided where Jewish law went in his system.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 146,
-      "text_sha": "e96f5f30f27b1270",
-      "pdf_page": 36
-    },
-    {
-      "n": 37,
-      "img": "img/PD05/PD05_s037.webp",
+    "36": { "title": "Non-Jewish recognition: two forms", "text": "Jewish law was recognised by the surrounding legal order in two quite different ways — as a personal particular law, and as a general divine law. Which one a jurist chose decided where Jewish law went in his system.", "terms": [], "cards": [], "vision_used": true },
+    "37": {
       "title": "The judge who does not know the law",
       "text": "Two maxims frame the problem: IURA NOVIT CURIA, the court knows the law, and DA MIHI FACTUM, DABO TIBI IUS, give me the facts and I will give you the law. Both assume the judge knows the applicable law — which in a mixed jurisdiction he does not. And the Ordinance of the Imperial Chamber Court of 1495 makes the difficulty official: the judges are commanded to rule according to the GENERAL LAWS OF THE EMPIRE, and also according to the proper ordinances, statutes and CUSTOMS of the principalities, lordships and courts brought before them. A court bound to apply particular laws it cannot be expected to know is the practical reason the collections of Jewish law were written.",
       "terms": [
-        {
-          "term": "iura novit curia",
-          "def": "'The court knows the law' — the maxim that becomes a problem in a mixed jurisdiction, where the applicable particular law may be one the judge has never read."
-        }
+        { "term": "iura novit curia", "def": "'The court knows the law' — the maxim that becomes a problem in a mixed jurisdiction, where the applicable particular law may be one the judge has never read." }
       ],
       "cards": [
         {
@@ -943,34 +463,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 787,
-      "text_sha": "7983343dc9ec5c2b",
-      "pdf_page": 37
+      "vision_used": false
     },
-    {
-      "n": 38,
-      "img": "img/PD05/PD05_s038.webp",
-      "title": "Jewish law as a personal particular law: the authors",
-      "text": "Four names: Johann Jodocus Beck, On the laws of the Jews (Nuremberg 1731); August Friedrich Schott, Entwurf einer juristischen Encyclopädie (1774); Daniel Nettelbladt (1772); and Christian Wilhelm Dohm (1781).",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 622,
-      "text_sha": "bbf0943fbdf11cea",
-      "pdf_page": 38
-    },
-    {
-      "n": 39,
-      "img": "img/PD05/PD05_s039.webp",
+    "38": { "title": "Jewish law as a personal particular law: the authors", "text": "Four names: Johann Jodocus Beck, On the laws of the Jews (Nuremberg 1731); August Friedrich Schott, Entwurf einer juristischen Encyclopädie (1774); Daniel Nettelbladt (1772); and Christian Wilhelm Dohm (1781).", "terms": [], "cards": [], "vision_used": false },
+    "39": {
       "title": "Beck's title as the key",
       "text": "The full title of Beck's treatise (Nuremberg 1731) is itself the argument: on the laws of the Jews, dealing with the laws they are subject to, their MARRIAGES, CONTRACTS, CREDITS, TESTAMENTS, SUCCESSIONS, CRIMES and their punishment, PRIVILEGES and legal benefits, DISABILITIES and burdens — in particular the coronation tax and the golden penny levy — and with the COURTS and their procedures; compiled from the divine and general imperial and other particular laws and customs, and supported throughout by precedents, rulings and legal opinions, for the use of judges and bailiffs. Read what that list is: an ordinary private-law and procedural treatise. Jewish law appears here as a body of positive law a working judge has to handle.",
       "terms": [],
@@ -983,25 +479,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 799,
-      "text_sha": "9182d011b64f1a27",
-      "pdf_page": 39
+      "vision_used": false
     },
-    {
-      "n": 40,
-      "img": "img/PD05/PD05_s040.webp",
+    "40": {
       "title": "Where Jewish law sits in the legal encyclopedias",
       "text": "In Schott, Pütter and Nettelbladt, Judenrecht is filed among the PARTICULAR LAWS OF SPECIFIC GROUPS AND PERSONS — in the company of military law, the private law of princes, the law of the aristocracy, city and citizens' laws, and village and peasants' law. That is the whole point: in the systematics of the Empire, Jewish law is one particular law among many, on the same shelf as the law of a guild or a village. Not an exception, not an alien body — a normal part of a legally plural order.",
       "terms": [
-        {
-          "term": "particular law (Partikularrecht)",
-          "def": "Law valid for a specific group or place rather than generally — military law, the law of the nobility, city law, village law, and in the same list Judenrecht."
-        }
+        { "term": "particular law (Partikularrecht)", "def": "Law valid for a specific group or place rather than generally — military law, the law of the nobility, city law, village law, and in the same list Judenrecht." }
       ],
       "cards": [
         {
@@ -1012,18 +496,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 575,
-      "text_sha": "bfe29c158c984433",
-      "pdf_page": 40
+      "vision_used": false
     },
-    {
-      "n": 41,
-      "img": "img/PD05/PD05_s041.webp",
+    "41": {
       "title": "Pütter: if not the state, then who legislates?",
       "text": "A real state may exist WITHOUT ITS OWN PRIVATE LAW — if for one part it gives free rein to the law of nature and for the other allows any subject, family or community the natural freedom to decide arising legal cases according to its circumstances. And from there, Pütter says, comes the primary cause of AUTONOMY and of CUSTOMARY LAWS. This is the sentence that makes Jewish law interesting for general legal history: a leading authority on imperial public law holds that the state need not be the source of private law at all.",
       "terms": [],
@@ -1036,34 +511,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 478,
-      "text_sha": "5a642c60e66d878f",
-      "pdf_page": 41
+      "vision_used": false
     },
-    {
-      "n": 42,
-      "img": "img/PD05/PD05_s042.webp",
-      "title": "The two authors of the divine-law reading",
-      "text": "Johann Stephan Pütter (1725–1807), professor at Göttingen and leading authority on imperial public law, author of a Neuer Versuch einer juristischen Enzyklopädie (1767); and Christian Friedrich Glück (1755–1831), professor at Erlangen, leading exponent of the usus modernus pandectarum and also a canon lawyer.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 827,
-      "text_sha": "a0973b2c87878ff4",
-      "pdf_page": 42
-    },
-    {
-      "n": 43,
-      "img": "img/PD05/PD05_s043.webp",
+    "42": { "title": "The two authors of the divine-law reading", "text": "Johann Stephan Pütter (1725–1807), professor at Göttingen and leading authority on imperial public law, author of a Neuer Versuch einer juristischen Enzyklopädie (1767); and Christian Friedrich Glück (1755–1831), professor at Erlangen, leading exponent of the usus modernus pandectarum and also a canon lawyer.", "terms": [], "cards": [], "vision_used": false },
+    "43": {
       "title": "Pütter: true and fictitious revealed law",
       "text": "Pütter divides revealed divine law in two. TRUE divine laws: those addressed to the Jewish people, and those addressed to humankind (leges divinae positivae universales). Laws founded on FICTITIOUS revelations: otherwise false or assumed divine revelations, which can nonetheless become sources of particular laws — and, he adds, an inventory of all laws would be INCOMPLETE WITHOUT THEM, so Talmudic and Koranic law merit a place, as do the old and new divine fictions of heathen origin. Note the double move: a theological judgment (some revelations are fictitious) that changes nothing about the legal classification (they are still sources of law that must be inventoried).",
       "terms": [],
@@ -1076,18 +527,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 551,
-      "text_sha": "6fad8a3775c6c04b",
-      "pdf_page": 43
+      "vision_used": false
     },
-    {
-      "n": 44,
-      "img": "img/PD05/PD05_s044.webp",
+    "44": {
       "title": "Glück: Jewish law as half of German ecclesiastical law",
       "text": "Glück goes further. The ecclesiastical law of the Jews in Germany constitutes the OTHER HALF of the ecclesiastical law of the Germans, and cannot be evaded by anyone who does not wish to be considered merely a SEMI CANONISTA — half a canon lawyer. A leading pandectist telling canon lawyers that without Jewish law their subject is only half learned.",
       "terms": [],
@@ -1100,18 +542,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 525,
-      "text_sha": "75d346bb57c12d4a",
-      "pdf_page": 44
+      "vision_used": false
     },
-    {
-      "n": 45,
-      "img": "img/PD05/PD05_s045.webp",
+    "45": {
       "title": "The Talmud: rejected in theology, valid in law",
       "text": "The sharpest contrast of the lecture, and an easy exam question. Christian THEOLOGY rejected the Talmud. From a LEGAL perspective the Talmud was a valid part of the law. The same text, condemned in one faculty and applied in another — which is what it looks like when a legal order is genuinely plural rather than merely tolerant.",
       "terms": [],
@@ -1124,82 +557,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 283,
-      "text_sha": "02c00f18a3051c7b",
-      "pdf_page": 45
+      "vision_used": false
     },
-    {
-      "n": 46,
-      "img": "img/PD05/PD05_s046.webp",
-      "title": "Dohm follows his teacher",
-      "text": "Dohm echoes Pütter on the validity of post-biblical Jewish law: the written laws of Moses and the laws transmitted orally are regarded by the Jews as God's eternally binding commandments, and the nation attributes legal validity also to explanations of those laws and to the arguments of prominent authorities.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 559,
-      "text_sha": "51723770038a9932",
-      "pdf_page": 46
-    },
-    {
-      "n": 47,
-      "img": "img/PD05/PD05_s047.webp",
-      "title": "Normativity and legislation",
-      "text": "Three examples follow: Monse's lecture on the laws of Moravia, the collections of Jewish law made by Christian legal experts, and the Takkanot.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 188,
-      "text_sha": "e49b9fde7aeb42be",
-      "pdf_page": 47
-    },
-    {
-      "n": 48,
-      "img": "img/PD05/PD05_s048.webp",
-      "title": "Monse's Guide (Olomouc 1783)",
-      "text": "Joseph Wratislaw von Monse, a guide to the lectures on the laws of the Margraviate of Moravia at the imperial royal lyceum in Olomouc, 1783 — on the history, the sources, the courts and the procedures of Moravia, in ten sections.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 365,
-      "text_sha": "f52ae7d83bc84a5f",
-      "pdf_page": 48
-    },
-    {
-      "n": 49,
-      "img": "img/PD05/PD05_s049.webp",
-      "title": "Monse's Guide: the plan",
-      "text": "Ten sections: the history of customs and courts in Moravia; the law books of the Margraviate; the different rights and laws in Moravia; the use of foreign laws; the ecclesiastical laws; and further sections.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 536,
-      "text_sha": "e9fd7ca301ba5eda",
-      "pdf_page": 49
-    },
-    {
-      "n": 50,
-      "img": "img/PD05/PD05_s050.webp",
+    "46": { "title": "Dohm follows his teacher", "text": "Dohm echoes Pütter on the validity of post-biblical Jewish law: the written laws of Moses and the laws transmitted orally are regarded by the Jews as God's eternally binding commandments, and the nation attributes legal validity also to explanations of those laws and to the arguments of prominent authorities.", "terms": [], "cards": [], "vision_used": false },
+    "47": { "title": "Normativity and legislation", "text": "Three examples follow: Monse's lecture on the laws of Moravia, the collections of Jewish law made by Christian legal experts, and the Takkanot.", "terms": [], "cards": [], "vision_used": true },
+    "48": { "title": "Monse's Guide (Olomouc 1783)", "text": "Joseph Wratislaw von Monse, a guide to the lectures on the laws of the Margraviate of Moravia at the imperial royal lyceum in Olomouc, 1783 — on the history, the sources, the courts and the procedures of Moravia, in ten sections.", "terms": [], "cards": [], "vision_used": true },
+    "49": { "title": "Monse's Guide: the plan", "text": "Ten sections: the history of customs and courts in Moravia; the law books of the Margraviate; the different rights and laws in Moravia; the use of foreign laws; the ecclesiastical laws; and further sections.", "terms": [], "cards": [], "vision_used": false },
+    "50": {
       "title": "Jewish law inside a Moravian syllabus",
       "text": "Section three of Monse's Guide lists the different rights and laws of Moravia: the old and new rules of court; ordinances on bankruptcy, taxation, bills of exchange, household servants and executions, and decrees on marriage and other civil matters; decrees in spiritual, religious, toleration and disciplinary matters; feudal laws and customs; the capital crimes procedure; the resolutions of the Diet; the military laws; and — as item VIII — the COURT AND POLICE ORDINANCE FOR THE JEWS. Jewish law is a numbered item in the ordinary syllabus of the law of a land, taught to future officials.",
       "terms": [],
@@ -1212,18 +576,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 675,
-      "text_sha": "4df47cc3f84093b0",
-      "pdf_page": 50
+      "vision_used": false
     },
-    {
-      "n": 51,
-      "img": "img/PD05/PD05_s051.webp",
+    "51": {
       "title": "Monse on the use of foreign laws",
       "text": "Section five is a catalogue of what a Moravian court might have to apply: foreign laws in general; Bohemian law in Moravia; ROMAN law, the Corpus Iuris Civilis; CANON law and the papal decretals in civil matters, the Corpus Iuris Canonici; the use of foreign laws before appeal was introduced under Ferdinand I; and — the last item — THE USE OF THE MOSAIC LAWS customary among the Moravian Jews, 'then their use and misuse by the Christians'. Roman law, canon law and Mosaic law listed together as the foreign laws in use.",
       "terms": [],
@@ -1236,66 +591,12 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 576,
-      "text_sha": "6e35628222b6df00",
-      "pdf_page": 51
+      "vision_used": false
     },
-    {
-      "n": 52,
-      "img": "img/PD05/PD05_s052.webp",
-      "title": "Christian collections of Jewish law",
-      "text": "Carl Ferdinand Hommel (1722–1781), professor at Leipzig and a penal-law reformer, editor of the Bibliotheca iuris Rabbinica (1762); and Christian Friedrich Glück (1755–1831).",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 493,
-      "text_sha": "04b62e9f67c43cd0",
-      "pdf_page": 52
-    },
-    {
-      "n": 53,
-      "img": "img/PD05/PD05_s053.webp",
-      "title": "Carl Ferdinand Hommel",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 73,
-      "text_sha": "f90611b70bfa524e",
-      "pdf_page": 53
-    },
-    {
-      "n": 54,
-      "img": "img/PD05/PD05_s054.webp",
-      "title": "Rabe's Mishnah",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 64,
-      "text_sha": "dba106b9efa5b951",
-      "pdf_page": 54
-    },
-    {
-      "n": 55,
-      "img": "img/PD05/PD05_s055.webp",
+    "52": { "title": "Christian collections of Jewish law", "text": "Carl Ferdinand Hommel (1722–1781), professor at Leipzig and a penal-law reformer, editor of the Bibliotheca iuris Rabbinica (1762); and Christian Friedrich Glück (1755–1831).", "terms": [], "cards": [], "vision_used": false },
+    "53": { "title": "Carl Ferdinand Hommel", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "54": { "title": "Rabe's Mishnah", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "55": {
       "title": "A Christian library of rabbinic law",
       "text": "Entries from Hommel's Bibliotheca iuris Rabbinica, in Latin, describing Jewish legal works for a Christian jurist: the Beth Joseph of Joseph Karo, in which all the laws, customs and judicial procedures in use among the Jews are contained — its author called the wonder of the age, head of the school at Safed in Galilee until his death in 1575; the Even Haezer of Eliezer son of Nathan, printed at Prague, in which various legal controversies are decided; a book of formularies; Maimonides' Mishneh Torah, whose author is 'the highest and immortal teacher of the Jews'; and the Shulchan Aruch with Isserles' Mappah. Note the tone — a Christian jurist writing about Jewish authorities with professional admiration.",
       "terms": [],
@@ -1308,18 +609,9 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 996,
-      "text_sha": "4d76573dde4c4a5a",
-      "pdf_page": 55
+      "vision_used": false
     },
-    {
-      "n": 56,
-      "img": "img/PD05/PD05_s056.webp",
+    "56": {
       "title": "Glück on the sources of Jewish ecclesiastical law",
       "text": "Glück's inventory of the sources of the ecclesiastical law of the Jews in Germany: Holy Scripture of the Old Testament; the writings of the rabbis; the Talmud; the sanctions of CIVIL AND CANON LAW concerning Jewish sacred matters; the general privilege granted to Prussian Jews on 17 April 1750, as a particular territorial law; and Mendelssohn's Ritualgesetze of 1778. Jewish and non-Jewish sources listed in one apparatus — which is exactly what a mixed jurisdiction looks like from the inside.",
       "terms": [],
@@ -1332,18 +624,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 837,
-      "text_sha": "6e080a4bbbfe3711",
-      "pdf_page": 56
+      "vision_used": false
     },
-    {
-      "n": 57,
-      "img": "img/PD05/PD05_s057.webp",
+    "57": {
       "title": "The Takkanot",
       "text": "NON-RABBINICAL Jewish law: the Takkanot are Jewish ADMINISTRATIVE law, comparable to the police ordinances of the early modern period, and specific to that period. The Institute's projects cover Alsace, Moravia, Fulda, Fürth, Würzburg and Piedmont. The word non-rabbinical is the point — this is law made by the community as a body, not derived by rabbinical interpretation.",
       "terms": [],
@@ -1356,18 +639,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 358,
-      "text_sha": "b19b78526a60604e",
-      "pdf_page": 57
+      "vision_used": false
     },
-    {
-      "n": 58,
-      "img": "img/PD05/PD05_s058.webp",
+    "58": {
       "title": "Why the comparison with police ordinances matters",
       "text": "Administrative law — the police ordinances — was the MAIN VEHICLE of state intervention, centralization and bureaucratization in the early modern period. So if Jewish communities were producing the same kind of law at the same time, the Jewish estate was going through the same process of bureaucratization as the states around it. That is the sense in which the lecture calls Jewish law a BAROMETER for developments in centralized, state-based legal systems.",
       "terms": [],
@@ -1380,73 +654,16 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 296,
-      "text_sha": "f677475ccfd2a9c2",
-      "pdf_page": 58
+      "vision_used": false
     },
-    {
-      "n": 59,
-      "img": "img/PD05/PD05_s059.webp",
-      "title": "The Shai Takkanot of the Jewish Estate of Moravia, 1650",
-      "text": "The 'Shai' (311) Takkanot of 1650 — the enactments of the Jewish estate of Moravia as a body.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 107,
-      "text_sha": "0529bc371c648e25",
-      "pdf_page": 59
-    },
-    {
-      "n": 60,
-      "img": "img/PD05/PD05_s060.webp",
-      "title": "The Takkanot of Fürth",
-      "text": "The community of Fürth as a res publica Iudaeorum — a Jewish commonwealth, described in the language of the political vocabulary of its time.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 124,
-      "text_sha": "e7c4d779a7cc2864",
-      "pdf_page": 60
-    },
-    {
-      "n": 61,
-      "img": "img/PD05/PD05_s061.webp",
-      "title": "The Takkanot of Fulda",
-      "text": "Selected passages from Paula Somogyi's edition of the minute book of the Jewish community of Fulda.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 187,
-      "text_sha": "bfb30d9fa0b6ab2e",
-      "pdf_page": 61
-    },
-    {
-      "n": 62,
-      "img": "img/PD05/PD05_s062.webp",
+    "59": { "title": "The Shai Takkanot of the Jewish Estate of Moravia, 1650", "text": "The 'Shai' (311) Takkanot of 1650 — the enactments of the Jewish estate of Moravia as a body.", "terms": [], "cards": [], "vision_used": false },
+    "60": { "title": "The Takkanot of Fürth", "text": "The community of Fürth as a res publica Iudaeorum — a Jewish commonwealth, described in the language of the political vocabulary of its time.", "terms": [], "cards": [], "vision_used": false },
+    "61": { "title": "The Takkanot of Fulda", "text": "Selected passages from Paula Somogyi's edition of the minute book of the Jewish community of Fulda.", "terms": [], "cards": [], "vision_used": false },
+    "62": {
       "title": "What Jewish law contributes to legal theory",
       "text": "The summary the lecture builds towards, and the most likely essay question. Jewish law is an example of a NON-STATE law; an example of a DUTY-BASED law; MORE THAN A RELIGIOUS law — its 'secular' parts are ordinary private law; a BAROMETER for developments in centralized, state-based legal systems; and, inside the Holy Roman Empire, a component of a MIXED JURISDICTION. Each of the five cuts against an assumption a modern lawyer brings to the subject.",
       "terms": [
-        {
-          "term": "mixed jurisdiction",
-          "def": "A legal order in which several bodies of law — here imperial, territorial, canon, Roman and Jewish — apply side by side and courts must choose between them."
-        }
+        { "term": "mixed jurisdiction", "def": "A legal order in which several bodies of law — here imperial, territorial, canon, Roman and Jewish — apply side by side and courts must choose between them." }
       ],
       "cards": [
         {
@@ -1457,25 +674,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 380,
-      "text_sha": "deadf763941a3974",
-      "pdf_page": 62
+      "vision_used": false
     },
-    {
-      "n": 63,
-      "img": "img/PD05/PD05_s063.webp",
+    "63": {
       "title": "Rights-based against duties-based law",
       "text": "Beck on the Jewish condition: nobody will doubt that the Jews live in a miserable condition, in particular since they have often been denied the OFFICIA HUMANITATIS — the duties of humankind. Read the phrase carefully, because it is the whole distinction in three words: what was denied is described as DUTIES owed, not rights held. In a duty-based order, to be excluded is to have others released from their obligations towards you.",
       "terms": [
-        {
-          "term": "officia humanitatis",
-          "def": "The duties of humankind. Beck describes the Jewish condition as one in which these were denied — exclusion expressed as the withholding of duties owed, not of rights held."
-        }
+        { "term": "officia humanitatis", "def": "The duties of humankind. Beck describes the Jewish condition as one in which these were denied — exclusion expressed as the withholding of duties owed, not of rights held." }
       ],
       "cards": [
         {
@@ -1486,34 +691,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 379,
-      "text_sha": "6e3567c74b2d0912",
-      "pdf_page": 63
+      "vision_used": false
     },
-    {
-      "n": 64,
-      "img": "img/PD05/PD05_s064.webp",
-      "title": "Want to learn more?",
-      "text": "The Jewish Law Moot Court (with Jewish law as the main legal source) and the Ius Commune Moot Court (with at least one party Jewish) run in 2026; contact David Fuchs at the Institute.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 323,
-      "text_sha": "1cd29198ed43e468",
-      "pdf_page": 64
-    },
-    {
-      "n": 65,
-      "img": "img/PD05/PD05_s065.webp",
+    "64": { "title": "Want to learn more?", "text": "The Jewish Law Moot Court (with Jewish law as the main legal source) and the Ius Commune Moot Court (with at least one party Jewish) run in 2026; contact David Fuchs at the Institute.", "terms": [], "cards": [], "vision_used": false },
+    "65": {
       "title": "What the moot courts are for",
       "text": "Both are concerned with LAW IN ACTION — the application of Roman law, canon law, Jewish law and the variety of particular laws of early modern Europe — rather than law in the books. Their ambition is to show a legal order characterised by LEGAL PLURALISM, or Jewish law operating under the conditions of the diaspora: in many respects the exact opposite of how the modern legal systems of continental Europe, with a written constitution and a civil code at their core, are supposed to work.",
       "terms": [],
@@ -1526,18 +707,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1114,
-      "text_sha": "2d2ff4d447fb6bc6",
-      "pdf_page": 65
+      "vision_used": false
     },
-    {
-      "n": 66,
-      "img": "img/PD05/PD05_s066.webp",
+    "66": {
       "title": "The Imperial Aulic Council's Jewish caseload",
       "text": "A number worth remembering because it makes the abstraction concrete: some 4 to 5 per cent of the Imperial Aulic Council's caseload related to Jews or to Jewish law. One of the two supreme courts of the Empire spent that share of its work on the law of a minority — which is what a mixed jurisdiction looks like in the docket.",
       "terms": [],
@@ -1550,30 +722,8 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 139,
-      "text_sha": "ba724032fb60eb9f",
-      "pdf_page": 66
+      "vision_used": false
     },
-    {
-      "n": 67,
-      "img": "img/PD05/PD05_s067.webp",
-      "title": "Where the moot courts are held",
-      "text": "Finals so far at the Constitutional Court in Vienna and the Regency Palace in Ensisheim, in 2024 at the historical town hall of the former imperial city of Mühlhausen; coaching weeks in Vienna, Strasbourg, Ensisheim and Fulda.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 320,
-      "text_sha": "8eabb2afc1300843",
-      "pdf_page": 67
-    }
-  ]
+    "67": { "title": "Where the moot courts are held", "text": "Finals so far at the Constitutional Court in Vienna and the Regency Palace in Ensisheim, in 2024 at the historical town hall of the former imperial city of Mühlhausen; coaching weeks in Vienna, Strasbourg, Ensisheim and Fulda.", "terms": [], "cards": [], "vision_used": false }
+  }
 }

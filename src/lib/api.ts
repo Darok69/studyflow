@@ -340,6 +340,8 @@ export interface MaterialIndex {
     code: string
     number: string
     title: string
+    /** Deck this course was made for — how a subject finds its textbook. */
+    subject?: string | null
     lectures: { id: string; unit: string; title: string; slides: number; cards: number }[]
   }[]
 }

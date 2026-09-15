@@ -1,91 +1,16 @@
 {
   "lecture_id": "PD08",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 8",
   "title": "Natural Law, Enlightenment and Revolutions",
-  "source_file": "raw/PD08_pp-08-natural-law-enlightment-revolutions-foljanty.pdf",
-  "source_sha256": "c22002870d8e2faa1fa03c7b35fdd4ea6eb8ec4cc6dfe8df4e42c185b43eb7cb",
-  "source_pages": 32,
-  "slides_per_page": 1,
-  "slide_count": 32,
-  "updated_at": "2026-09-15T12:12:43+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD08/PD08_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 135,
-      "text_sha": "10f1cd9be61d01eb",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD08/PD08_s002.webp",
-      "title": "Natural Law, Enlightenment, Revolutions",
-      "text": "Lena Foljanty, 30 October 2025.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 144,
-      "text_sha": "8713f37fb919cc8a",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD08/PD08_s003.webp",
-      "title": "Where we left off",
-      "text": "Religious conflict as the catalyst of the 16th and 17th centuries; the Peace of Westphalia weakening the Empire and strengthening princes and estates as a first step towards territorial sovereignty; sovereignty as the basis of absolutist rule; public law becoming a discipline from the 17th century; and the idea of a rational state leading to enlightened absolutism.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 667,
-      "text_sha": "045e156426fc3b5e",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PD08/PD08_s004.webp",
-      "title": "Outline",
-      "text": "The origins of natural law in antiquity and the Middle Ages; the Spanish scholastics of the 16th century; early modern natural law as something that supported, criticised, reformed AND revolutionized law and political theory; and the bridge to modern times — codifications and constitutions.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 465,
-      "text_sha": "9dc0a0b608150e81",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PD08/PD08_s005.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "Natural Law, Enlightenment, Revolutions", "text": "Lena Foljanty, 30 October 2025.", "terms": [], "cards": [], "vision_used": false },
+    "3": { "title": "Where we left off", "text": "Religious conflict as the catalyst of the 16th and 17th centuries; the Peace of Westphalia weakening the Empire and strengthening princes and estates as a first step towards territorial sovereignty; sovereignty as the basis of absolutist rule; public law becoming a discipline from the 17th century; and the idea of a rational state leading to enlightened absolutism.", "terms": [], "cards": [], "vision_used": false },
+    "4": { "title": "Outline", "text": "The origins of natural law in antiquity and the Middle Ages; the Spanish scholastics of the 16th century; early modern natural law as something that supported, criticised, reformed AND revolutionized law and political theory; and the bridge to modern times — codifications and constitutions.", "terms": [], "cards": [], "vision_used": false },
+    "5": {
       "title": "Aristotle: the natural and the conventional just",
       "text": "Aristotle's dikaion physikon, Nicomachean Ethics V, 4th century BC. The rules of justice based on CONVENTION and EXPEDIENCY are like standard measures: corn and wine measures are not equal everywhere, larger in wholesale and smaller in retail markets. Likewise rules of justice ordained not by nature but by man are not the same in all places, since forms of government are not the same — THOUGH IN ALL PLACES THERE IS ONLY ONE FORM OF GOVERNMENT THAT IS NATURAL, NAMELY THE BEST FORM. The measures analogy is the thing to remember: a measure is real and useful, and still local.",
       "terms": [
-        {
-          "term": "dikaion physikon",
-          "def": "Aristotle's 'natural just', as against the just ordained by convention — the distinction from which the whole tradition of natural law starts."
-        }
+        { "term": "dikaion physikon", "def": "Aristotle's 'natural just', as against the just ordained by convention — the distinction from which the whole tradition of natural law starts." }
       ],
       "cards": [
         {
@@ -96,18 +21,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 718,
-      "text_sha": "877aeb5eaf16d194",
-      "pdf_page": 5
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD08/PD08_s006.webp",
+    "6": {
       "title": "Aristotle on whether justice varies",
       "text": "Some think ALL rules of justice are merely conventional, because a law of nature is immutable and has the same validity everywhere — as FIRE BURNS BOTH HERE AND IN PERSIA — while rules of justice are seen to vary. Aristotle's answer: that they vary is not absolutely true, only with qualifications. Among the gods perhaps not at all; with us there is SOMETHING NATURAL AND SOMETHING QUITE CHANGEABLE, and yet one is natural and the other is not. The fire-in-Persia image is the classic statement of what a natural law would have to be like to count as one.",
       "terms": [],
@@ -120,18 +36,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 834,
-      "text_sha": "50f1642c2b003b0f",
-      "pdf_page": 6
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD08/PD08_s007.webp",
+    "7": {
       "title": "The five features of natural law (Cicero and the Stoics)",
       "text": "A list made to be reproduced. Natural law is (1) COMMON TO ALL HUMANS and not restricted to any particular place; (2) recognized by humans as being in accordance with RIGHT REASON and in need of NO INTERPRETATION; (3) IMPLANTED IN NATURE; (4) UNCHANGING through time and place; (5) FUNDAMENTAL, in the sense that it cannot be altered or dispensed from. Notice number two — no interpretation needed — because that is precisely what a legal order built on professional interpreters will find hard to swallow.",
       "terms": [],
@@ -144,25 +51,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 626,
-      "text_sha": "9aef5970a54e92db",
-      "pdf_page": 7
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD08/PD08_s008.webp",
+    "8": {
       "title": "The Roman foundation: ius gentium against ius naturale",
       "text": "Digest I.1.9. IUS GENTIUM, the law of nations, is what all human peoples observe — and it is NOT co-extensive with natural law, since natural law is common to ALL ANIMALS whereas ius gentium is common only to human beings. All peoples governed by laws and customs observe partly their own special law and partly a law common to all: the law each nation sets up for itself is special to that civitas and is called IUS CIVILE; the law that NATURAL REASON has established among all human beings is observed equally by all and is called ius gentium. Three tiers, and the test that separates them: animals, all humans, one city.",
       "terms": [
-        {
-          "term": "ius gentium",
-          "def": "The law all human peoples observe, established by natural reason — narrower than ius naturale, which the Digest says is common to all ANIMALS, and wider than ius civile, which is proper to one civitas."
-        }
+        { "term": "ius gentium", "def": "The law all human peoples observe, established by natural reason — narrower than ius naturale, which the Digest says is common to all ANIMALS, and wider than ius civile, which is proper to one civitas." }
       ],
       "cards": [
         {
@@ -173,18 +68,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1059,
-      "text_sha": "a26508c0f05460d0",
-      "pdf_page": 8
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD08/PD08_s009.webp",
+    "9": {
       "title": "Natural law as a conceptual history",
       "text": "The methodological warning of the unit: 'natural law' is a CONCEPTUAL phenomenon with a long history across several epochs, and it is always defined by what it is contrasted WITH. Greek: dikaion physikon against dikaion nomikon and politikon dikaion. Roman: ius naturale against ius gentium and ius civile. Medieval: lex naturalis against lex aeterna, lex humana and lex divina. Modern: natural law against POSITIVE law. The SEMANTICS of the concept change from antiquity through the Middle Ages and early modern times to the modern era — so the same words in two centuries are not the same claim.",
       "terms": [],
@@ -197,18 +83,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 672,
-      "text_sha": "0d5932b0a36c73f0",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD08/PD08_s010.webp",
+    "10": {
       "title": "How the knowledge came back: through the Islamic world",
       "text": "Ancient Greek knowledge reaches Europe VIA THE ISLAMIC GOLDEN AGE, 8th to 14th century, and the lecture makes the scale concrete: in the early Middle Ages the library of St Gallen held 426 books, the caliphate library in Cordoba around 100,000. The transfer runs from the School of Baghdad and Al-Andalus into 'Europe' by TRANSLATION INTO LATIN, and it shapes key thinkers such as Albertus Magnus and Thomas Aquinas. Its main representatives are Ibn Rushd (Averroes) and Ibn Sina (Avicenna), and also Moses ben Maimon (Maimonides). And the sting in the tail: RENAISSANCE THINKERS ERASED THE ARABIC TRACES, in the name of renewing classical Greek and Roman culture.",
       "terms": [],
@@ -228,18 +105,9 @@
           "priority": "extra"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 817,
-      "text_sha": "c427c263f46d61aa",
-      "pdf_page": 10
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD08/PD08_s011.webp",
+    "11": {
       "title": "Christian natural law is not one thing",
       "text": "AUGUSTINE (354–430) introduces natural law into Christian thinking. THOMAS AQUINAS draws on Aristotle in the 13th century. And there is OPPOSITION to Aquinas — Duns Scotus and William of Ockham. The conclusion the slide insists on: there is NO UNIFORM CHRISTIAN APPROACH to natural law, because the debates are both theological and POLITICAL. Do not answer an exam question as though medieval natural law spoke with one voice.",
       "terms": [],
@@ -252,25 +120,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 552,
-      "text_sha": "f3efb28504a0d09a",
-      "pdf_page": 11
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD08/PD08_s012.webp",
+    "12": {
       "title": "Aquinas: the eternal law",
       "text": "Summa Theologica II.I q.91. A law is nothing else but a DICTATE OF PRACTICAL REASON emanating from the ruler who governs a perfect community. Granted that the world is ruled by Divine Providence, the whole community of the universe is governed by Divine Reason — so the very Idea of the government of things in God the Ruler has THE NATURE OF A LAW. And since the Divine Reason's conception of things is not subject to time but is eternal, this kind of law must be called ETERNAL. Note the structure: God is put in the position of the legislator of a community, and the argument then runs on ordinary jurisprudential lines.",
       "terms": [
-        {
-          "term": "lex aeterna",
-          "def": "Aquinas' eternal law: the government of the universe by Divine Reason, which — being a dictate of practical reason from the ruler of a perfect community — has the nature of a law, and being timeless is eternal."
-        }
+        { "term": "lex aeterna", "def": "Aquinas' eternal law: the government of the universe by Divine Reason, which — being a dictate of practical reason from the ruler of a perfect community — has the nature of a law, and being timeless is eternal." }
       ],
       "cards": [
         {
@@ -281,25 +137,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 862,
-      "text_sha": "6ceb8f880592f087",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD08/PD08_s013.webp",
+    "13": {
       "title": "Aquinas: the natural law in us",
       "text": "The definition to know by heart. All things subject to Divine providence are ruled and measured by the eternal law, and therefore all things PARTAKE SOMEWHAT of it, in so far as from its being imprinted on them they derive their inclinations to their proper acts and ends. The rational creature has a share of the Eternal Reason whereby it has a natural inclination to its proper act and end — AND THIS PARTICIPATION OF THE ETERNAL LAW IN THE RATIONAL CREATURE IS CALLED THE NATURAL LAW. Natural law is not a separate code; it is the eternal law as it appears in a being that can reason.",
       "terms": [
-        {
-          "term": "lex naturalis (Aquinas)",
-          "def": "'The participation of the eternal law in the rational creature' — not a separate code but the eternal law as it appears in a being capable of reason."
-        }
+        { "term": "lex naturalis (Aquinas)", "def": "'The participation of the eternal law in the rational creature' — not a separate code but the eternal law as it appears in a being capable of reason." }
       ],
       "cards": [
         {
@@ -310,18 +154,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 828,
-      "text_sha": "1891c593e046c095",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD08/PD08_s014.webp",
+    "14": {
       "title": "Aquinas: why divine law is still needed",
       "text": "Besides natural and human law, a DIVINE law was necessary for directing human conduct — and the reason given is a matter of proportion. It is by law that man is directed how to perform his acts in view of his LAST END. If man were ordained to no end beyond what is PROPORTIONATE TO HIS NATURAL FACULTY, natural law and the human law derived from it would be direction enough. But man is ordained to an end of ETERNAL HAPPINESS, which is disproportionate to his natural faculty — and therefore he had to be directed to that end by a law given by God. The four-fold scheme is thus complete: eternal, natural, human, divine.",
       "terms": [],
@@ -341,34 +176,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1085,
-      "text_sha": "ea3d8f66f0fe259b",
-      "pdf_page": 14
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD08/PD08_s015.webp",
-      "title": "New challenges of the early modern period",
-      "text": "The early modern period confronts natural law with problems the older tradition never faced — and the next slides work through the biggest of them: the European expansion overseas.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 275,
-      "text_sha": "0f016bd91d04ffad",
-      "pdf_page": 15
-    },
-    {
-      "n": 16,
-      "img": "img/PD08/PD08_s016.webp",
+    "15": { "title": "New challenges of the early modern period", "text": "The early modern period confronts natural law with problems the older tradition never faced — and the next slides work through the biggest of them: the European expansion overseas.", "terms": [], "cards": [], "vision_used": true },
+    "16": {
       "title": "Law in the Spanish colonial empire",
       "text": "A specialized law for the colonies, made by the CROWN: royal decrees, and compilations made for Latin America. Indigenous customs are allowed to stand — PROVIDED they do not violate the Catholic religion or Castilian law, which is the whole shape of colonial legal pluralism in one clause. And natural law is RESERVED for fundamental questions and for THE LEGITIMIZATION OF COLONIALISM. Note what that means: the universal law is not the everyday law of the colonies, it is the law invoked when the enterprise itself has to be justified.",
       "terms": [],
@@ -381,25 +192,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 531,
-      "text_sha": "0f5d3edc301ca2cf",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD08/PD08_s017.webp",
+    "17": {
       "title": "The School of Salamanca",
       "text": "Spanish scholasticism, 16th to 18th century, on an intellectual ground of Renaissance, Humanism and Catholicism. The School of Salamanca works across theology, ethics, economy and jurisprudence, and its starting point is a diagnosis: the IUS COMMUNE IS INAPT to offer solutions for the new challenges. So natural law is understood as a UNIVERSAL LEGAL ORDER, and many treatises take up the new questions. FRANCISCO DE VITORIA is named the 'founding father' of international law — and note where international law is born: in the attempt to answer whether the conquest of America could be lawful.",
       "terms": [
-        {
-          "term": "School of Salamanca",
-          "def": "Spanish scholasticism of the 16th–18th centuries, which met the challenges of the conquest by treating natural law as a universal legal order where the ius commune had nothing to say. Vitoria is called the founding father of international law."
-        }
+        { "term": "School of Salamanca", "def": "Spanish scholasticism of the 16th–18th centuries, which met the challenges of the conquest by treating natural law as a universal legal order where the ius commune had nothing to say. Vitoria is called the founding father of international law." }
       ],
       "cards": [
         {
@@ -410,18 +209,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 600,
-      "text_sha": "49a1d9165ba4fdc0",
-      "pdf_page": 17
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "img": "img/PD08/PD08_s018.webp",
+    "18": {
       "title": "Vitoria: the right to travel and trade",
       "text": "Lectures on the newly discovered Indians, 1539. The Spaniards have the right to TRAVEL AND DWELL in those countries, so long as they do no harm to the barbarians, and cannot be prevented from doing so. The proof: the LAW OF NATIONS, which either is natural law or derives from it — 'what natural reason has established among all nations is called the law of nations' (Institutes I.2.1). And then the factual premises doing the real work: the barbarians have a SURPLUS of many things the Spaniards might exchange for what they lack, and many possessions they REGARD AS UNINHABITED, which are open to anyone who wishes to occupy them. Watch the move: a universal right of communication, plus a characterisation of the other side's property, and the conquest has a legal basis.",
       "terms": [],
@@ -441,18 +231,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 981,
-      "text_sha": "b730e883135b3184",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD08/PD08_s019.webp",
+    "19": {
       "title": "Vitoria: what if the natives gave no cause?",
       "text": "The harder passage. Suppose the native Indians neither gave cause for just war nor wished for Spanish rulers — must travel and trade then stop? First answer: no, there would be no obligation to stop trade, since the natives have a superfluity the Spaniards could acquire by barter, and many commodities they treat as ownerless or common to all who take them — as the Portuguese profitably do elsewhere. Third: now that there are already SO MANY NATIVE CONVERTS, it would be neither expedient nor lawful for the sovereign to wash his hands entirely of the administration of those lands. So even the concession that the war was unjust does not end the presence — the converts become the reason to stay.",
       "terms": [],
@@ -465,18 +246,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1010,
-      "text_sha": "6049e35125d32f25",
-      "pdf_page": 19
+      "vision_used": false
     },
-    {
-      "n": 20,
-      "img": "img/PD08/PD08_s020.webp",
+    "20": {
       "title": "Natural law moves north",
       "text": "Natural law spreads to the Spanish Netherlands in the 16th to 18th centuries, and the University of LEIDEN is founded in the Protestant United Provinces in 1575. In the 17th century DUTCH scholars lead in public and private international law: HUGO GROTIUS, Ulric Huber, and Paul and Johannes Voet. The subject changes hands — from Catholic Salamanca to Protestant Leiden — and that change is what makes the next slide possible.",
       "terms": [],
@@ -489,25 +261,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 526,
-      "text_sha": "260f9b5361e5894a",
-      "pdf_page": 20
+      "vision_used": true
     },
-    {
-      "n": 21,
-      "img": "img/PD08/PD08_s021.webp",
+    "21": {
       "title": "Grotius and the secularization of natural law",
       "text": "The most quoted sentence in the history of natural law. Grotius (1583–1645): what we have now said would have some place, THOUGH WE SHOULD GRANT — which cannot be granted without the highest sin — THAT THERE IS NO GOD, or that he has no care of human affairs. The clause condemns the supposition in the same breath as it makes it, and that is the point: natural law is being shown to stand on its own feet even without the premise it grew from. Hence the SECULARIZING tendency in natural law.",
       "terms": [
-        {
-          "term": "etiamsi daremus (Grotius)",
-          "def": "'Even if we should grant that there is no God' — Grotius' hypothesis, condemned in the same sentence, showing that natural law holds by its own reasoning. The classic marker of the secularization of natural law."
-        }
+        { "term": "etiamsi daremus (Grotius)", "def": "'Even if we should grant that there is no God' — Grotius' hypothesis, condemned in the same sentence, showing that natural law holds by its own reasoning. The classic marker of the secularization of natural law." }
       ],
       "cards": [
         {
@@ -518,25 +278,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 474,
-      "text_sha": "23a9b118602283da",
-      "pdf_page": 21
+      "vision_used": false
     },
-    {
-      "n": 22,
-      "img": "img/PD08/PD08_s022.webp",
+    "22": {
       "title": "Rationalism: law as a system",
       "text": "Rationalism and the natural sciences emerge from the late 17th century, and law is remade in their image. Law comes to be seen as a SYSTEM DERIVED FROM NATURE — the MOS GEOMETRICUS, the geometric manner. The ambition is a COMPLETE representation of the applicable law, so arranged that THE GENERAL TAKES PRECEDENCE OVER THE PARTICULAR. Read that last phrase against everything the course has shown so far — legal circles where the narrower beat the wider, particular laws everywhere — and you can see a codification coming.",
       "terms": [
-        {
-          "term": "mos geometricus",
-          "def": "The geometric manner: deriving law as a system from axioms and principles, on the model of mathematics. The method behind the drive to codification."
-        }
+        { "term": "mos geometricus", "def": "The geometric manner: deriving law as a system from axioms and principles, on the model of mathematics. The method behind the drive to codification." }
       ],
       "cards": [
         {
@@ -547,25 +295,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 340,
-      "text_sha": "ed1ce03b8b311ee2",
-      "pdf_page": 22
+      "vision_used": false
     },
-    {
-      "n": 23,
-      "img": "img/PD08/PD08_s023.webp",
+    "23": {
       "title": "Natural law as the law of reason",
       "text": "Pufendorf, Thomasius and Wolff work with the geometric method: finding PRINCIPLES and AXIOMS from which rules of law are derived, governed by the principle of NON-CONTRADICTION. The systematization of the 17th and 18th centuries is the PRECURSOR OF THE CODIFICATIONS. Martini's Naturrecht of 1797 states the claim at its boldest: the natural laws, LIKE MATHEMATICAL TRUTHS, have been derived by the rules of reason from principles that cannot be denied, and are therefore MATHEMATICALLY CERTAIN.",
       "terms": [
-        {
-          "term": "Vernunftrecht (law of reason)",
-          "def": "Natural law reworked by the rationalists — Pufendorf, Thomasius, Wolff — as a system derived from undeniable axioms. Its systematization leads directly to the codifications."
-        }
+        { "term": "Vernunftrecht (law of reason)", "def": "Natural law reworked by the rationalists — Pufendorf, Thomasius, Wolff — as a system derived from undeniable axioms. Its systematization leads directly to the codifications." }
       ],
       "cards": [
         {
@@ -583,25 +319,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 654,
-      "text_sha": "c99afa0fcfb3f362",
-      "pdf_page": 23
+      "vision_used": false
     },
-    {
-      "n": 24,
-      "img": "img/PD08/PD08_s024.webp",
+    "24": {
       "title": "Hobbes",
       "text": "Thomas Hobbes (1588–1679), writing in the political context of the ENGLISH CIVIL WAR between monarch and Parliament, 1642–1649 — and in De Cive and Leviathan he SUPPORTED THE MONARCH. Man's state of nature is a BELLUM OMNIUM CONTRA OMNES, a war of all against all; sovereignty is vested in the sovereign by a SOCIAL CONTRACT. With that, the contractual explanation of the state begins. Worth holding on to: the social contract enters European thought as an argument FOR absolute monarchy.",
       "terms": [
-        {
-          "term": "bellum omnium contra omnes",
-          "def": "Hobbes' war of all against all — the state of nature from which the social contract is the escape."
-        }
+        { "term": "bellum omnium contra omnes", "def": "Hobbes' war of all against all — the state of nature from which the social contract is the escape." }
       ],
       "cards": [
         {
@@ -612,18 +336,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 577,
-      "text_sha": "5982ee0efb85bc4d",
-      "pdf_page": 24
+      "vision_used": true
     },
-    {
-      "n": 25,
-      "img": "img/PD08/PD08_s025.webp",
+    "25": {
       "title": "Social contract theory",
       "text": "A way to EXPLAIN, LEGITIMIZE OR CRITICIZE constituted human societies and the state — all three, which is why the same device serves Hobbes and the revolutionaries. Important representatives: Locke, Rousseau, Kant. They differ in how they conceptualize the STATE OF NATURE and in the CONTENT AND EXTENT of the rights transferred to the sovereign. Reason and rationality are usually named as the motive for entering the contract — hence LAW OF REASON, Vernunftrecht.",
       "terms": [],
@@ -636,18 +351,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 654,
-      "text_sha": "1c9ae3491b36b60b",
-      "pdf_page": 25
+      "vision_used": false
     },
-    {
-      "n": 26,
-      "img": "img/PD08/PD08_s026.webp",
+    "26": {
       "title": "Source: Hobbes, Leviathan",
       "text": "Because the condition of man is a condition of war of every one against every one, in which every one is governed by his own reason, it follows that in such a condition EVERY MAN HAS A RIGHT TO EVERY THING, even to one another's body. And as long as this natural right of every man to every thing endures, THERE CAN BE NO SECURITY to any man, however strong or wise, of living out the time nature ordinarily allows. From the fundamental law of nature commanding men to endeavour peace is derived the second law: that a man be willing, WHEN OTHERS ARE SO TOO, so far as he thinks necessary for peace and his own defence, to LAY DOWN THIS RIGHT to all things, and be contented with so much liberty against other men as he would allow other men against himself. The paradox to hold: unlimited right produces total insecurity, so the way to safety is to give the right up.",
       "terms": [],
@@ -667,18 +373,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1104,
-      "text_sha": "dc5a51b19a3fa3c9",
-      "pdf_page": 26
+      "vision_used": false
     },
-    {
-      "n": 27,
-      "img": "img/PD08/PD08_s027.webp",
+    "27": {
       "title": "Source: Locke, Two Treatises of Government (1689)",
       "text": "To understand political power we must consider what state all men are naturally in: a state of PERFECT FREEDOM. The state of nature HAS A LAW OF NATURE TO GOVERN IT, which obliges everyone — and REASON, WHICH IS THAT LAW, teaches all mankind that, being all EQUAL AND INDEPENDENT, no one ought to harm another in his LIFE, HEALTH, LIBERTY OR POSSESSIONS. Locke grants that civil government is the proper remedy for the inconveniences of the state of nature — and then turns the argument on absolutism: ABSOLUTE MONARCHS ARE BUT MEN, and if government is the remedy for the evils that follow from men being judges in their own cases, one may ask what kind of government that is. The contrast with Hobbes is exact: for Hobbes the state of nature is war, for Locke it is freedom under a law of reason.",
       "terms": [],
@@ -698,18 +395,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1138,
-      "text_sha": "dc871fee77ed2b3e",
-      "pdf_page": 27
+      "vision_used": false
     },
-    {
-      "n": 28,
-      "img": "img/PD08/PD08_s028.webp",
+    "28": {
       "title": "Where it lands: the Declaration of 1789",
       "text": "Déclaration des droits de l'homme et du citoyen, 1789, Article 1: MEN ARE BORN AND REMAIN FREE AND EQUAL IN RIGHTS. Social distinctions may be based only on considerations of the COMMON GOOD. A century of argument about a law of reason arrives as an enacted first article — and note the second sentence, which does not abolish social distinction but subjects it to a justification.",
       "terms": [],
@@ -722,18 +410,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 407,
-      "text_sha": "59d766de58f7cdc3",
-      "pdf_page": 28
+      "vision_used": false
     },
-    {
-      "n": 29,
-      "img": "img/PD08/PD08_s029.webp",
+    "29": {
       "title": "Where it lands: § 16 ABGB",
       "text": "Allgemeines Bürgerliches Gesetzbuch, § 16: every man has INBORN RIGHTS, WHICH ARE ALREADY APPARENT FROM REASON, and is therefore to be considered A PERSON. Slavery or bondage, and the exercise of a power having reference to it, is NOT PERMITTED in these countries. Natural law written into a civil code: rights that reason alone makes evident, personhood as their consequence, and the prohibition of slavery as the first thing that follows.",
       "terms": [],
@@ -746,34 +425,16 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 496,
-      "text_sha": "fa326136e8141ec8",
-      "pdf_page": 29
+      "vision_used": false
     },
-    {
-      "n": 30,
-      "img": "img/PD08/PD08_s030.webp",
+    "30": {
       "title": "Summary: how the concept changed",
       "text": "Natural law was conceptualized differently over time. From antiquity to the Middle Ages: the translation of knowledge from the Islamic world, and the Christian natural law tradition. In early modern times, a NEW UNDERSTANDING OF NATURE has repercussions for natural law: the law of reason and Enlightenment thinking, and the social contract theories.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 569,
-      "text_sha": "993728ecee9c79d9",
-      "pdf_page": 30
+      "vision_used": false
     },
-    {
-      "n": 31,
-      "img": "img/PD08/PD08_s031.webp",
+    "31": {
       "title": "Summary: what natural law was FOR",
       "text": "The four uses, and this is the likeliest essay question of the unit. It offered a LEGAL LANGUAGE FOR UNIVERSAL CLAIMS in the course of the European expansion into non-European territories. It was a LEGITIMATION AND INSTRUMENT OF ABSOLUTISM. Through rationalistic methods it produced the SYSTEMATIZATION of law, leading to the CODIFICATIONS. And by the end of the early modern period it carried the CLAIM OF INDIVIDUAL RIGHTS, leading to the claim for CONSTITUTIONS. The same body of thought justified conquest, justified absolute rule, and then armed the revolutions against it.",
       "terms": [],
@@ -793,30 +454,8 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 686,
-      "text_sha": "1daaa33b63374b7f",
-      "pdf_page": 31
+      "vision_used": false
     },
-    {
-      "n": 32,
-      "img": "img/PD08/PD08_s032.webp",
-      "title": "Thank you",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 10,
-      "text_sha": "3afdda2c098fc834",
-      "pdf_page": 32
-    }
-  ]
+    "32": { "title": "Thank you", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }

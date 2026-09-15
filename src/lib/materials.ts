@@ -21,35 +21,52 @@ export interface LectureRef {
 export interface CourseRef {
   code: string
   title: string
+  /** Deck this course was made for. Set by the pipeline from courses.json. */
+  subject?: string | null
   lectures: LectureRef[]
 }
 
 /**
- * The course whose lecture titles best match this subject's topics.
- * Returns null when nothing overlaps — a hand-made deck has no textbook.
+ * Every course belonging to this subject.
+ *
+ * A subject can be taught from more than one course — a lecture and its
+ * practical exercise cover the same exam, and both belong in the same
+ * textbook. The pipeline therefore stamps each course with the deck it was
+ * made for, and that is the primary link.
+ *
+ * The fallback is the older one: a course whose LECTURE TITLES appear among
+ * the deck's card topics. It keeps working for material uploaded before the
+ * subject was stamped, and for hand-made decks.
  */
-export function matchCourse<T extends CourseRef>(courses: T[], topics: string[]): T | null {
+export function matchCourses<T extends CourseRef>(
+  courses: T[],
+  subjectName: string,
+  topics: string[],
+): T[] {
+  const name = subjectName.trim().toLowerCase()
+  const named = courses.filter((c) => (c.subject ?? '').trim().toLowerCase() === name && name !== '')
+  if (named.length > 0) return named
+
   const wanted = new Set(topics.filter(Boolean))
-  if (wanted.size === 0) return null
-  let best: T | null = null
-  let bestHits = 0
-  for (const course of courses) {
-    const hits = course.lectures.filter((l) => wanted.has(l.title)).length
-    if (hits > bestHits) {
-      best = course
-      bestHits = hits
-    }
-  }
-  return bestHits > 0 ? best : null
+  if (wanted.size === 0) return []
+  const scored = courses
+    .map((course) => ({ course, hits: course.lectures.filter((l) => wanted.has(l.title)).length }))
+    .filter((x) => x.hits > 0)
+    .sort((a, b) => b.hits - a.hits)
+  return scored.length > 0 ? [scored[0].course] : []
 }
 
 /**
  * Lecture that carries a topic's cards, matched by title.
  * Lets a topic row open the textbook exactly where the topic is explained.
  */
-export function lectureForTopic(course: CourseRef | null, topic: string): LectureRef | null {
-  if (!course || !topic) return null
-  return course.lectures.find((l) => l.title === topic) ?? null
+export function lectureForTopic(courses: CourseRef[], topic: string): LectureRef | null {
+  if (!topic) return null
+  for (const course of courses) {
+    const hit = course.lectures.find((l) => l.title === topic)
+    if (hit) return hit
+  }
+  return null
 }
 
 /**
@@ -62,13 +79,17 @@ export function lectureForTopic(course: CourseRef | null, topic: string): Lectur
  */
 export function orderByCourse<T extends { topic: string }>(
   plans: T[],
-  course: CourseRef | null,
+  courses: CourseRef[],
 ): T[] {
   const rank = new Map<string, number>()
-  course?.lectures.forEach((l, i) => {
-    // A title used by two lectures keeps the first one's place.
-    if (!rank.has(l.title)) rank.set(l.title, i)
-  })
+  let i = 0
+  for (const course of courses) {
+    for (const l of course.lectures) {
+      // A title used by two lectures keeps the first one's place.
+      if (!rank.has(l.title)) rank.set(l.title, i)
+      i++
+    }
+  }
   return [...plans].sort((a, b) => {
     const ra = rank.get(a.topic)
     const rb = rank.get(b.topic)

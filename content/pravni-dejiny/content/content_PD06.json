@@ -1,52 +1,10 @@
 {
   "lecture_id": "PD06",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 6",
   "title": "The Common Law",
-  "source_file": "raw/PD06_pp-06-the-development-of-the-english-common-law-foljanty.pdf",
-  "source_sha256": "ea524eb04579db832093e4b83d9f33b298699f590cf9521d15c161630353e6c4",
-  "source_pages": 21,
-  "slides_per_page": 1,
-  "slide_count": 21,
-  "updated_at": "2026-09-15T12:12:43+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD06/PD06_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 135,
-      "text_sha": "10f1cd9be61d01eb",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD06/PD06_s002.webp",
-      "title": "The Development of the English Common Law",
-      "text": "Lena Foljanty, 23 October 2025.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 158,
-      "text_sha": "88da3ad56ee1c75b",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD06/PD06_s003.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "The Development of the English Common Law", "text": "Lena Foljanty, 23 October 2025.", "terms": [], "cards": [], "vision_used": false },
+    "3": {
       "title": "Where this stands against the ius commune",
       "text": "The lecture opens by naming the contrast it is built on. On the continent: reception of Roman law, the ius commune as a general law created by LEARNED JURISTS, a mixture of domestic customary law, statutes and ius commune, and repeated attempts to bring those sources into a hierarchy. In England: the development of a common law with SOME SIMILARITIES but a VERY DIFFERENT OUTCOME. Keep the question open as you go through the slides — what exactly made the difference, given that England had Roman law available too?",
       "terms": [],
@@ -59,18 +17,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 440,
-      "text_sha": "20f3f10031c65ca5",
-      "pdf_page": 3
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "img": "img/PD06/PD06_s004.webp",
+    "4": {
       "title": "The Laws of Æthelberht (7th century)",
       "text": "The earliest written legal document so far known for England: legal provisions written in OLD ENGLISH — not Latin — setting compensation and punishment for personal injury, with the aim of REPLACING BLOOD FEUDS. Written laws in Old English then increase immensely until the 9th century. Two things to notice for later: the vernacular, and the fact that the earliest English law is about buying off vengeance.",
       "terms": [],
@@ -83,18 +32,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 341,
-      "text_sha": "aebc18ec79c1f834",
-      "pdf_page": 4
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PD06/PD06_s005.webp",
+    "5": {
       "title": "The Norman invasion, 1066",
       "text": "The Normans conquer England under William the Conqueror and establish a new kingdom: CENTRALIZED government, with most positions held by Normans. And the first act of continuity — a COMPILATION of the existing laws and customs. That combination, a foreign conquering dynasty that immediately writes down what was already there, is what the 17th century will later argue about.",
       "terms": [],
@@ -107,25 +47,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 412,
-      "text_sha": "4b1720b4cd907355",
-      "pdf_page": 5
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD06/PD06_s006.webp",
+    "6": {
       "title": "England did have Roman law",
       "text": "The point that kills the easy explanation. Reception of Roman law in England STARTS — with Vacarius, who had studied at Bologna and taught at Oxford in the 12th century. The Corpus Iuris Civilis becomes available in England in the 12th century, the study of Roman law expands from Oxford to other centres, and many Englishmen study on the continent. So England is not a place Roman law failed to reach. Whatever explains the different outcome, it is not ignorance of Roman law.",
       "terms": [
-        {
-          "term": "Vacarius",
-          "def": "Bologna-trained jurist who taught Roman law at Oxford in the 12th century — the beginning of the reception of Roman law in England."
-        }
+        { "term": "Vacarius", "def": "Bologna-trained jurist who taught Roman law at Oxford in the 12th century — the beginning of the reception of Roman law in England." }
       ],
       "cards": [
         {
@@ -136,18 +64,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 359,
-      "text_sha": "7b3562f248ff1819",
-      "pdf_page": 6
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD06/PD06_s007.webp",
+    "7": {
       "title": "Royal justice as an alternative, not a hierarchy",
       "text": "The web of royal justice grows steadily between the 11th and 13th centuries, driven by the centralized government of the crown and the idea that the crown is RESPONSIBLE FOR GRANTING PEACE — which in practice limits the power of the lords. It expands first where litigants are physically next to the court, then temporally, later geographically. And the decisive structural fact: royal justice did NOT stand in a hierarchical order above the ecclesiastical, local and feudal courts. It stood BESIDE them as an ALTERNATIVE, and every free man could choose to bring his case to it. Royal justice grew by being chosen, not by being imposed.",
       "terms": [],
@@ -167,29 +86,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 612,
-      "text_sha": "3866fe84f1e994b4",
-      "pdf_page": 7
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD06/PD06_s008.webp",
+    "8": {
       "title": "Writs and the birth of pleading",
       "text": "A WRIT is an order giving instructions how to remedy a situation, and its history is the history of the procedure. At FIRST it was simply issued as an order by royal justice, with no particular procedure attached. In the 12TH CENTURY writs began to allow the wrongdoer to CHOOSE — comply, or defend himself — and out of that choice the procedure of PLEADING arises. By the 13TH CENTURY pleading is a formalized exchange between the parties before the court, followed by a trial in which the parties had to prove the facts on which their claims rested. So the adversarial shape of English procedure grows out of a defendant being given the option to say no.",
       "terms": [
-        {
-          "term": "writ",
-          "def": "A royal order instructing how a situation is to be remedied — the formal instrument for opening litigation in the royal courts."
-        },
-        {
-          "term": "pleading",
-          "def": "The formalized exchange between the parties before the court, arising once writs let a defendant choose to defend rather than comply; followed by the trial of the facts."
-        }
+        { "term": "writ", "def": "A royal order instructing how a situation is to be remedied — the formal instrument for opening litigation in the royal courts." },
+        { "term": "pleading", "def": "The formalized exchange between the parties before the court, arising once writs let a defendant choose to defend rather than comply; followed by the trial of the facts." }
       ],
       "cards": [
         {
@@ -200,18 +104,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 630,
-      "text_sha": "190c7f81c983fcd0",
-      "pdf_page": 8
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD06/PD06_s009.webp",
+    "9": {
       "title": "The writ system consolidates",
       "text": "The writ is the FORMAL INSTRUMENT for opening litigation — and at first it depended on the KING'S WILLINGNESS TO INTERVENE, which is to say litigation began as a favour. Standardization runs through the 12th century: orientation on past cases and patterns, and publication of a LIST OF FIXED FORMULAS, so intervention becomes a ROUTINE. The result is the consolidation of royal justice, eventually offering remedies for almost all wrongs. Note the mechanism — a right exists in England if there is a writ for it, so the list of formulas is in effect the catalogue of rights.",
       "terms": [],
@@ -231,25 +126,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 441,
-      "text_sha": "dce53bbd70eaf945",
-      "pdf_page": 9
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD06/PD06_s010.webp",
+    "10": {
       "title": "Case law emerges",
       "text": "Writs contain rights, and those rights are CREATED THROUGH DECISIONS. From the 13th century there are reports of proceedings in the common law courts — the YEARBOOKS and the PLEA ROLLS — often written by STUDENTS OF LAW, documenting the pleadings and the decisions, and circulating as manuscripts that gave orientation for deciding similar cases. That is case law being born: not by a doctrine of precedent decreed from above, but by practitioners circulating reports of what the courts actually did.",
       "terms": [
-        {
-          "term": "Yearbooks and Plea Rolls",
-          "def": "Reports of proceedings in the English common law courts from the 13th century, often taken down by law students, circulating in manuscript and guiding the decision of similar cases."
-        }
+        { "term": "Yearbooks and Plea Rolls", "def": "Reports of proceedings in the English common law courts from the 13th century, often taken down by law students, circulating in manuscript and guiding the decision of similar cases." }
       ],
       "cards": [
         {
@@ -260,25 +143,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 389,
-      "text_sha": "dbd06bbcd1f180cd",
-      "pdf_page": 10
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "img": "img/PD06/PD06_s011.webp",
+    "11": {
       "title": "Equity beside the writs",
       "text": "An extraordinary remedy system grows up ALONGSIDE the strict writ system: the petitioner addresses the CHANCERY directly. It is at first a flexible system with fluid rules, in its early period often influenced by ROMAN AND CANON law, and later interacting with the common law. But from the 15TH CENTURY it takes on a STATIC character through repetition — patterns of permanent solutions, a list of equity remedies. Equity begins as the answer to the rigidity of the writ system and then hardens in the same way.",
       "terms": [
-        {
-          "term": "equity",
-          "def": "The extraordinary remedy system addressed to the Chancery beside the strict writ system — at first flexible and influenced by Roman and canon law, from the 15th century itself hardening into a list of remedies."
-        }
+        { "term": "equity", "def": "The extraordinary remedy system addressed to the Chancery beside the strict writ system — at first flexible and influenced by Roman and canon law, from the 15th century itself hardening into a list of remedies." }
       ],
       "cards": [
         {
@@ -296,18 +167,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 619,
-      "text_sha": "7412fd22d4d0cbc6",
-      "pdf_page": 11
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD06/PD06_s012.webp",
+    "12": {
       "title": "Why the common law detached from Roman law",
       "text": "Here is the answer to the opening question, and it is about APPOINTMENTS, not ideas. In the 12th and 13th centuries most judges were still trained at the universities or cathedral schools, which means in Roman and canon law. In the 14TH CENTURY the kings' appointment policy CHANGES, because the writ system demands good PRACTICAL knowledge — so judges are increasingly selected from the ADVOCATES WORKING AT THE KING'S COURT. Once the bench is recruited from practitioners rather than from graduates, the learned law loses its route into the judgments. The detachment from Roman law is a by-product of who gets the job.",
       "terms": [],
@@ -320,18 +182,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 387,
-      "text_sha": "c72c1668196c2f10",
-      "pdf_page": 12
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD06/PD06_s013.webp",
+    "13": {
       "title": "Royal legislation stayed small",
       "text": "Legislation is first issued by the kings; from the 13th and 14th centuries PARLIAMENT proposes responses to petitions, which becomes the basis for legislation. But the verdict is blunt: ALL IN ALL OF MINOR IMPORTANCE. Legislation often only repeated existing norms, and the number of statutes was relatively small compared with the other sources of law. The contrast with the continent, where the early modern era is full of reformations and ordinances, is exactly the point.",
       "terms": [],
@@ -344,33 +197,15 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 366,
-      "text_sha": "012c122054439221",
-      "pdf_page": 13
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "img": "img/PD06/PD06_s014.webp",
+    "14": {
       "title": "Multinormativity and legal pluralism",
       "text": "Two terms the lecture defines, and they are worth keeping apart. MULTINORMATIVITY: the overlap of different normativities in the regulation of ONE ISSUE. LEGAL PLURALISM: overlapping norms within a given TERRITORY that are equally perceived as BINDING. England shows both. Ecclesiastical and feudal courts sit beside royal justice; the crown intervenes by creating royal courts INTO an existing normative system; people could choose whether to go to an ecclesiastical, feudal or royal court — FORUM SHOPPING; and Roman law remained prevalent in the equity courts.",
       "terms": [
-        {
-          "term": "multinormativity",
-          "def": "The overlap of different normativities in the regulation of one and the same issue."
-        },
-        {
-          "term": "legal pluralism",
-          "def": "Overlapping norms within a given territory that are equally perceived as binding."
-        },
-        {
-          "term": "forum shopping",
-          "def": "The litigant's ability to choose which of several available courts — ecclesiastical, feudal or royal — will hear the case."
-        }
+        { "term": "multinormativity", "def": "The overlap of different normativities in the regulation of one and the same issue." },
+        { "term": "legal pluralism", "def": "Overlapping norms within a given territory that are equally perceived as binding." },
+        { "term": "forum shopping", "def": "The litigant's ability to choose which of several available courts — ecclesiastical, feudal or royal — will hear the case." }
       ],
       "cards": [
         {
@@ -388,18 +223,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 572,
-      "text_sha": "88eed210d1aadcf1",
-      "pdf_page": 14
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD06/PD06_s015.webp",
+    "15": {
       "title": "The common law under pressure",
       "text": "From the 14th century criticism grows: the BARONS and feudal lords oppose the continuous expansion of royal justice, and the EQUITY courts become increasingly influential. Then absolutism rises in the 16th and early 17th centuries and the conflict becomes constitutional: common law courts against the crown, culminating in JAMES I's declaration that whenever equity and common law conflict, EQUITY SHOULD PREVAIL. Equity, an extraordinary remedy addressed to the king's Chancellor, has become the crown's instrument against the ordinary courts.",
       "terms": [],
@@ -412,25 +238,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 467,
-      "text_sha": "7e45bcc33541dec4",
-      "pdf_page": 15
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD06/PD06_s016.webp",
+    "16": {
       "title": "The re-invention of the common law",
       "text": "In the 16th and 17th centuries the legal experts — Edward Coke (1552–1634) above all — set out to DETACH the common law from the crown, and they do it with three claims. First, the common law is NOT primarily created by royal intervention but GROUNDED IN CUSTOMS that PREDATED the Norman invasion. Second, it is the ONLY significant legal system that has ever existed in England, superior to all other jurisdictions. Third, it is not merely the law of the royal courts but BINDS THE MONARCH and LIMITS HIS POWER. Notice that all three are historical claims doing constitutional work.",
       "terms": [
-        {
-          "term": "Edward Coke",
-          "def": "1552–1634, the jurist of the re-invention of the common law: custom older than the Conquest, superior to every other jurisdiction, and binding on the monarch himself."
-        }
+        { "term": "Edward Coke", "def": "1552–1634, the jurist of the re-invention of the common law: custom older than the Conquest, superior to every other jurisdiction, and binding on the monarch himself." }
       ],
       "cards": [
         {
@@ -448,18 +262,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 573,
-      "text_sha": "fda903fbc487a197",
-      "pdf_page": 16
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "img": "img/PD06/PD06_s017.webp",
+    "17": {
       "title": "Re-writing history",
       "text": "The re-invention required the past to change shape, and the lecture lists how. The historiography of the Norman invasion changes: the Normans become RESPECTFUL TOWARDS PRE-EXISTING CUSTOMS rather than real conquerors. A narrative is created in which the kings did not actively intervene but PRESERVED old customs. The word 'common' is REDEFINED: common not because it was the KING'S law, but because it was rooted in CUSTOMS. And the whole is re-imagined as free from Roman and canon influence — which, as slide 6 and slide 11 showed, it was not.",
       "terms": [],
@@ -479,18 +284,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 498,
-      "text_sha": "d593e3181ec246af",
-      "pdf_page": 17
+      "vision_used": false
     },
-    {
-      "n": 18,
-      "img": "img/PD06/PD06_s018.webp",
+    "18": {
       "title": "The common law and constitutional history",
       "text": "The summary, and the likeliest essay question of this unit. In the MIDDLE AGES the common law emerges BECAUSE OF the power of the crown and further ENFORCES it, and it is criticised by barons and feudal lords as an offence against their power. In the AGE OF ABSOLUTISM it is detached from the crown and re-invented as a means to LIMIT the king's power by rooting it in tradition and custom, while EQUITY becomes the instrument through which the king seeks to secure power — challenged by the legal experts and judges claiming the supremacy of the common law. The same body of law, the same institutions, and the roles exactly reversed in three centuries.",
       "terms": [],
@@ -510,62 +306,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 573,
-      "text_sha": "3bdcd92cb0d8a1cf",
-      "pdf_page": 18
+      "vision_used": false
     },
-    {
-      "n": 19,
-      "img": "img/PD06/PD06_s019.webp",
-      "title": "Next unit",
-      "text": "The Westphalian order of international law and the emergence of the modern state (29 October 2025).",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 188,
-      "text_sha": "0b811cd2ee4156cd",
-      "pdf_page": 19
-    },
-    {
-      "n": 20,
-      "img": "img/PD06/PD06_s020.webp",
-      "title": "Reading",
-      "text": "Beside the textbook: Tamar Herzog, A Short History of European Law (2018), chapter 6, 'The Birth of an English Common Law' — the required reading for this topic.",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 213,
-      "text_sha": "ae201bd44442a347",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PD06/PD06_s021.webp",
-      "title": "Thank you",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 10,
-      "text_sha": "3afdda2c098fc834",
-      "pdf_page": 21
-    }
-  ]
+    "19": { "title": "Next unit", "text": "The Westphalian order of international law and the emergence of the modern state (29 October 2025).", "terms": [], "cards": [], "vision_used": false },
+    "20": { "title": "Reading", "text": "Beside the textbook: Tamar Herzog, A Short History of European Law (2018), chapter 6, 'The Birth of an English Common Law' — the required reading for this topic.", "terms": [], "cards": [], "vision_used": false },
+    "21": { "title": "Thank you", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
 }

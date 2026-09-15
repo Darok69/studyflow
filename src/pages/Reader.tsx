@@ -87,7 +87,10 @@ interface ReaderProps {
   onBack: () => void
   /** Open straight at one lecture (a topic row in the subject screen). */
   initialLectureId?: string | null
-  /** Show only this course — the textbook of the subject we came from. */
+  /**
+   * Show only these courses — the textbook of the subject we came from.
+   * Comma-separated, because a subject can be taught from more than one.
+   */
   courseCode?: string | null
 }
 
@@ -327,7 +330,10 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
       {error && !loading && <p className="muted">{error}</p>}
 
       {index?.courses
-        .filter((course) => !courseCode || course.code === courseCode)
+        .filter((course) => {
+          if (!courseCode) return true
+          return courseCode.split(',').includes(course.code)
+        })
         .map((course) => (
         <section key={course.code} className="reader-course">
           <h3>
