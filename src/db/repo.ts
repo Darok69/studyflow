@@ -12,6 +12,7 @@ import {
   type SubjectKind,
 } from './db'
 import type { CardDraft, ParsedDeck } from '../import/parseDeck'
+import { newCardsOnly } from '../import/mergeDeck'
 import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
@@ -74,6 +75,45 @@ export async function getReviews(): Promise<Review[]> {
 
 export async function getCardsBySubject(subjectId: string): Promise<Card[]> {
   return db.cards.where('subjectId').equals(subjectId).toArray()
+}
+
+/**
+ * Subjects whose name matches, ignoring case and surrounding spaces.
+ * Used by the import screen to offer adding to a deck that already exists
+ * instead of making a second one beside it.
+ */
+export async function findSubjectsByName(name: string): Promise<Subject[]> {
+  const wanted = name.trim().toLowerCase()
+  if (!wanted) return []
+  const all = await db.subjects.toArray()
+  return all.filter((s) => s.name.trim().toLowerCase() === wanted)
+}
+
+/**
+ * Add a re-imported deck's NEW cards to a subject that already exists.
+ * Cards already there keep their FSRS history untouched — that is the whole
+ * point, since material arrives topic by topic and gets imported again.
+ */
+export async function addNewCardsToSubject(
+  subjectId: string,
+  parsed: ParsedDeck,
+): Promise<{ subjectId: string; cardCount: number; duplicates: number }> {
+  const existing = await db.cards.where('subjectId').equals(subjectId).toArray()
+  const { fresh, duplicates } = newCardsOnly(
+    existing.map((c) => c.front),
+    parsed.cards,
+  )
+  const added = await addCards(subjectId, fresh)
+  // An exam date that moved is worth taking over; the rest of the subject
+  // (colour, limits, intention) belongs to the user, not to the file.
+  if (parsed.subject.examDate) {
+    const subject = await db.subjects.get(subjectId)
+    if (subject && subject.examDate !== parsed.subject.examDate) {
+      await db.subjects.update(subjectId, { examDate: parsed.subject.examDate })
+    }
+  }
+  notifyDataChanged()
+  return { subjectId, cardCount: added, duplicates }
 }
 
 /** Persist a parsed deck as a new subject + its cards (one transaction). */

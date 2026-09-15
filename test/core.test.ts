@@ -40,6 +40,7 @@ import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/li
 import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
 import { lectureForTopic, matchCourse, orderByCourse } from '../src/lib/materials'
+import { newCardsOnly, questionKey } from '../src/import/mergeDeck'
 import {
   answerSimilarity,
   checkAnswer,
@@ -1401,6 +1402,42 @@ console.log('— blind maps: masks stay relative, one card per place —')
   ok(lectureForTopic(courses[0], 'Treaties')?.id === 'IL02', 'a topic points at the lecture that explains it')
   ok(lectureForTopic(courses[0], 'Mine') === null, 'a topic the textbook does not know has no lecture')
   ok(lectureForTopic(null, 'Treaties') === null, 'no course, no lecture')
+}
+
+
+// ============================================================
+// Re-importing a deck that grew — must not duplicate or strand progress
+// ============================================================
+{
+  console.log('— newCardsOnly —')
+  const draft = (front: string, back = 'a') => ({ type: 'basic' as const, front, back, tags: [] })
+
+  const plan = newCardsOnly(
+    ['What is law?', 'Who was Irnerius?'],
+    [draft('What is law?'), draft('What is the Fertile Crescent?'), draft('Who was Irnerius?')],
+  )
+  ok(plan.fresh.length === 1, `only the genuinely new card is added (got ${plan.fresh.length})`)
+  ok(plan.fresh[0].front.startsWith('What is the Fertile'), 'and it is the right one')
+  ok(plan.duplicates === 2, `the rest are reported as already present (got ${plan.duplicates})`)
+
+  const messy = newCardsOnly(['  what IS   law? '], [draft('What is law?')])
+  ok(messy.fresh.length === 0, 'case and spacing do not make a card new')
+  ok(questionKey('  A  B ') === 'a b', 'the key normalises spacing and case')
+
+  const twice = newCardsOnly([], [draft('Same question'), draft('Same question', 'other answer')])
+  ok(twice.fresh.length === 1, 'a question repeated inside the imported file is added once')
+
+  // Identity is the QUESTION alone: correcting an answer must not create a
+  // second copy of the same question.
+  const fixed = newCardsOnly(['Why 1156?'], [draft('Why 1156?', 'corrected answer')])
+  ok(fixed.fresh.length === 0 && fixed.duplicates === 1, 'a corrected answer is not a new card')
+
+  const empty = newCardsOnly(['x'], [draft(''), draft('')])
+  ok(empty.fresh.length === 2, 'cards without a question are let through, not collapsed into one')
+
+  ok(newCardsOnly([], []).fresh.length === 0, 'nothing in, nothing out')
+  const allNew = newCardsOnly([], [draft('a'), draft('b')])
+  ok(allNew.fresh.length === 2 && allNew.duplicates === 0, 'an empty subject takes the whole deck')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

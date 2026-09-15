@@ -5,7 +5,7 @@
     "language": "en",
     "format": "Modulová zkouška k přednášce 030362. Zkouší se podle seznamu „What to read for the exam\" — 24 témat, ke každému přednáška a povinná četba. Otázky jsou pramenné: úryvek (smlouva, ústava, dobový text) a k němu několik otevřených podotázek — kdo, kdy, co z toho plyne a jak to souvisí s dalším vývojem. Viz „Second Exam.pdf\" ve cvičení (030152), kde jsou i odpovědi."
   },
-  "updated_at": "2026-09-15T09:15:05+00:00",
+  "updated_at": "2026-09-15T11:03:23+00:00",
   "courses": [
     {
       "code": "PD",
@@ -23,31 +23,31 @@
         },
         {
           "lecture_id": "PD02",
-          "unit": "Téma 2",
+          "unit": "Topic 2",
           "title": "Ancient Legal Cultures; History of Islamic Law",
           "slides": 36,
           "data": "data/PD02.json",
-          "done": 0
+          "done": 36
         },
         {
           "lecture_id": "PD03",
-          "unit": "Téma 3",
+          "unit": "Topic 3",
           "title": "Development of Law in the Middle Ages",
           "slides": 38,
           "data": "data/PD03.json",
-          "done": 0
+          "done": 38
         },
         {
           "lecture_id": "PD04",
-          "unit": "Téma 4",
+          "unit": "Topic 4",
           "title": "The Ius Commune and the Early Modern Times",
           "slides": 16,
           "data": "data/PD04.json",
-          "done": 0
+          "done": 16
         },
         {
           "lecture_id": "PD05",
-          "unit": "Téma 5",
+          "unit": "Topic 5",
           "title": "Jewish Legal History",
           "slides": 67,
           "data": "data/PD05.json",
@@ -55,7 +55,7 @@
         },
         {
           "lecture_id": "PD06",
-          "unit": "Téma 6",
+          "unit": "Topic 6",
           "title": "The Common Law",
           "slides": 21,
           "data": "data/PD06.json",
@@ -63,7 +63,7 @@
         },
         {
           "lecture_id": "PD07",
-          "unit": "Téma 7",
+          "unit": "Topic 7",
           "title": "The Westphalian Order and Early Constitutionalism",
           "slides": 23,
           "data": "data/PD07.json",
@@ -71,7 +71,7 @@
         },
         {
           "lecture_id": "PD08",
-          "unit": "Téma 8",
+          "unit": "Topic 8",
           "title": "Natural Law, Enlightenment and Revolutions",
           "slides": 32,
           "data": "data/PD08.json",
@@ -79,7 +79,7 @@
         },
         {
           "lecture_id": "PD09a",
-          "unit": "Téma 9",
+          "unit": "Topic 9",
           "title": "Constitutionalism & Norm Production I",
           "slides": 46,
           "data": "data/PD09a.json",
@@ -87,7 +87,7 @@
         },
         {
           "lecture_id": "PD09b",
-          "unit": "Téma 10",
+          "unit": "Topic 10",
           "title": "Constitutionalism & Norm Production II",
           "slides": 20,
           "data": "data/PD09b.json",
@@ -95,7 +95,7 @@
         },
         {
           "lecture_id": "PD09c",
-          "unit": "Téma 11/12",
+          "unit": "Topic 11/12",
           "title": "Constitutionalism & Norm Production III; Legal Education and Legal Professions",
           "slides": 22,
           "data": "data/PD09c.json",
@@ -103,7 +103,7 @@
         },
         {
           "lecture_id": "PD10",
-          "unit": "Téma 13",
+          "unit": "Topic 13",
           "title": "Imperialism and Constitutionalism before 1914",
           "slides": 28,
           "data": "data/PD10.json",
@@ -111,7 +111,7 @@
         },
         {
           "lecture_id": "PD11",
-          "unit": "Téma 14",
+          "unit": "Topic 14",
           "title": "Chinese Legal History",
           "slides": 46,
           "data": "data/PD11.json",
@@ -119,7 +119,7 @@
         },
         {
           "lecture_id": "PD12",
-          "unit": "Téma 15",
+          "unit": "Topic 15",
           "title": "World War I and the Paris Peace Conference",
           "slides": 44,
           "data": "data/PD12.json",
@@ -127,7 +127,7 @@
         },
         {
           "lecture_id": "PD13a",
-          "unit": "Téma 16",
+          "unit": "Topic 16",
           "title": "The Austrian 1st Republic, Democracy and the B-VG I",
           "slides": 30,
           "data": "data/PD13a.json",
@@ -135,7 +135,7 @@
         },
         {
           "lecture_id": "PD13b",
-          "unit": "Téma 17",
+          "unit": "Topic 17",
           "title": "The Austrian 1st Republic, Democracy and the B-VG II",
           "slides": 26,
           "data": "data/PD13b.json",
@@ -143,7 +143,7 @@
         },
         {
           "lecture_id": "PD14a",
-          "unit": "Téma 18",
+          "unit": "Topic 18",
           "title": "Dictatorships of the 20th Century I",
           "slides": 45,
           "data": "data/PD14a.json",
@@ -151,7 +151,7 @@
         },
         {
           "lecture_id": "PD14b",
-          "unit": "Téma 19",
+          "unit": "Topic 19",
           "title": "Dictatorships of the 20th Century II",
           "slides": 18,
           "data": "data/PD14b.json",
@@ -159,7 +159,7 @@
         },
         {
           "lecture_id": "PD15",
-          "unit": "Téma 20",
+          "unit": "Topic 20",
           "title": "Europe during the Cold War (1945–1955)",
           "slides": 27,
           "data": "data/PD15.json",
@@ -167,7 +167,7 @@
         },
         {
           "lecture_id": "PD16",
-          "unit": "Téma 21",
+          "unit": "Topic 21",
           "title": "Europe and the European Integration since 1955",
           "slides": 29,
           "data": "data/PD16.json",
@@ -175,7 +175,7 @@
         },
         {
           "lecture_id": "PD17",
-          "unit": "Téma 22",
+          "unit": "Topic 22",
           "title": "Her Story",
           "slides": 31,
           "data": "data/PD17.json",
@@ -183,7 +183,7 @@
         },
         {
           "lecture_id": "PD18a",
-          "unit": "Téma 23",
+          "unit": "Topic 23",
           "title": "Globalization of Law I",
           "slides": 24,
           "data": "data/PD18a.json",
@@ -191,7 +191,7 @@
         },
         {
           "lecture_id": "PD18b",
-          "unit": "Téma 24",
+          "unit": "Topic 24",
           "title": "Globalization of Law II",
           "slides": 15,
           "data": "data/PD18b.json",

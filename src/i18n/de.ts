@@ -523,4 +523,12 @@ export const de: Messages = {
   topicCards: 'Karten',
   topicCardsTitle: 'Die Karten des Themas zeigen',
   allTopics: 'Alle Themen',
+  importExistsQ: (name: string, n: number) =>
+    `Das Fach „${name}“ gibt es schon. Das Paket hat ${n} ${n === 1 ? 'Karte' : 'Karten'} — was soll passieren?`,
+  importMergeBtn: 'Nur die neuen Karten hinzufügen',
+  importNewBtn: 'Zweites Fach anlegen',
+  importMergeHint: 'Karten, die schon im Fach sind, werden weder überschrieben noch verdoppelt — sie werden an der Frage erkannt und behalten ihren Fortschritt.',
+  importMerged: (added: number, dup: number) =>
+    `${added} neue ${added === 1 ? 'Karte' : 'Karten'} hinzugefügt` +
+    (dup > 0 ? `; ${dup} ${dup === 1 ? 'war' : 'waren'} schon da und ${dup === 1 ? 'bleibt' : 'bleiben'} unverändert.` : '.'),
 }

@@ -516,6 +516,14 @@ export const cs = {
   topicCards: 'Karty',
   topicCardsTitle: 'Ukázat kartičky tématu',
   allTopics: 'Všechna témata',
+  importExistsQ: (name: string, n: number) =>
+    `Předmět „${name}“ už máš. Balíček má ${n} ${n === 1 ? 'kartu' : n >= 2 && n <= 4 ? 'karty' : 'karet'} — co s ním?`,
+  importMergeBtn: 'Přidat do něj jen nové karty',
+  importNewBtn: 'Založit další předmět',
+  importMergeHint: 'Karty, které už v předmětu jsou, se nepřepíšou ani nezdvojí — poznají se podle otázky a nechají si svůj postup.',
+  importMerged: (added: number, dup: number) =>
+    `Přidáno ${added} ${added === 1 ? 'nová karta' : added >= 2 && added <= 4 ? 'nové karty' : 'nových karet'}` +
+    (dup > 0 ? `, ${dup} už tam ${dup === 1 ? 'byla' : 'bylo'} a ${dup === 1 ? 'zůstala' : 'zůstalo'} beze změny.` : '.'),
 }
 
 /**

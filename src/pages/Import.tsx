@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import { parseDeck } from '../import/parseDeck'
 import { parsePlainDeck } from '../import/parsePlainText'
-import { importDeck } from '../db/repo'
+import { addNewCardsToSubject, findSubjectsByName, importDeck } from '../db/repo'
+import type { ParsedDeck } from '../import/parseDeck'
+import type { Subject } from '../db/db'
 import { aiPrompt, sampleDeckJson } from '../import/sampleDeck'
 import { t } from '../i18n'
 
@@ -19,6 +21,14 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
   const [errors, setErrors] = useState<string[]>([])
   const [busy, setBusy] = useState(false)
   const [copied, setCopied] = useState(false)
+  /**
+   * A deck whose name matches one already here. Study material arrives topic by
+   * topic, so the same deck comes back bigger — and importing it again as a new
+   * subject would duplicate the old cards and strand their FSRS history in the
+   * first copy. Rather than guess, ask.
+   */
+  const [existing, setExisting] = useState<{ subject: Subject; parsed: ParsedDeck } | null>(null)
+  const [merged, setMerged] = useState<{ added: number; duplicates: number } | null>(null)
 
   /**
    * JSON when the text is JSON, your own notes otherwise. Guessing beats making
@@ -34,6 +44,12 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
       const parsed = parseDeck(text)
       if (parsed.errors.length > 0) {
         setErrors(parsed.errors)
+        setBusy(false)
+        return
+      }
+      const same = await findSubjectsByName(parsed.subject.name)
+      if (same.length > 0) {
+        setExisting({ subject: same[0], parsed })
         setBusy(false)
         return
       }
@@ -55,6 +71,24 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
       errors: [],
     })
     setBusy(false)
+    onDone()
+  }
+
+  async function addToExisting() {
+    if (!existing) return
+    setBusy(true)
+    const result = await addNewCardsToSubject(existing.subject.id, existing.parsed)
+    setBusy(false)
+    setExisting(null)
+    setMerged({ added: result.cardCount, duplicates: result.duplicates })
+  }
+
+  async function importAsNew() {
+    if (!existing) return
+    setBusy(true)
+    await importDeck(existing.parsed)
+    setBusy(false)
+    setExisting(null)
     onDone()
   }
 
@@ -86,6 +120,35 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
+
+      {existing && (
+        <div className="guardrail import-choice" role="status">
+          <p>{t('importExistsQ', existing.subject.name, existing.parsed.cards.length)}</p>
+          <div className="button-row">
+            <button className="btn btn-primary" onClick={() => void addToExisting()} disabled={busy}>
+              {t('importMergeBtn')}
+            </button>
+            <button className="btn btn-ghost" onClick={() => void importAsNew()} disabled={busy}>
+              {t('importNewBtn')}
+            </button>
+            <button className="btn btn-ghost" onClick={() => setExisting(null)} disabled={busy}>
+              {t('cancel')}
+            </button>
+          </div>
+          <p className="muted">{t('importMergeHint')}</p>
+        </div>
+      )}
+
+      {merged && (
+        <div className="guardrail" role="status">
+          <p>{t('importMerged', merged.added, merged.duplicates)}</p>
+          <div className="button-row">
+            <button className="btn btn-primary" onClick={onDone}>
+              {t('backPlain')}
+            </button>
+          </div>
+        </div>
+      )}
 
       {errors.length > 0 && (
         <ul className="error-list">

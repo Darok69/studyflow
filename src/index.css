@@ -2588,3 +2588,19 @@ body {
     flex: 1;
   }
 }
+
+/* Import: the deck already exists — choose instead of guessing. */
+.import-choice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.import-choice p {
+  margin: 0;
+}
+
+.import-choice .button-row {
+  flex-wrap: wrap;
+}

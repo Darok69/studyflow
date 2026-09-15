@@ -515,4 +515,12 @@ export const en: Messages = {
   topicCards: 'Cards',
   topicCardsTitle: 'Show the cards of this topic',
   allTopics: 'All topics',
+  importExistsQ: (name: string, n: number) =>
+    `You already have a subject called "${name}". This deck has ${n} ${n === 1 ? 'card' : 'cards'} — what should happen?`,
+  importMergeBtn: 'Add only its new cards',
+  importNewBtn: 'Create a second subject',
+  importMergeHint: 'Cards already in the subject are neither overwritten nor duplicated — they are matched by their question and keep their progress.',
+  importMerged: (added: number, dup: number) =>
+    `Added ${added} new ${added === 1 ? 'card' : 'cards'}` +
+    (dup > 0 ? `; ${dup} ${dup === 1 ? 'was' : 'were'} already there and left untouched.` : '.'),
 }

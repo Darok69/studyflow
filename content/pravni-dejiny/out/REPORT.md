@@ -1,6 +1,6 @@
 # REPORT — podklady pro Modulprüfung European and Global Legal History (030362 VO + 030152 PUE)
 
-Běh: 2026-09-15T11:15:05+02:00
+Běh: 2026-09-15T13:03:23+02:00
 
 ## Zkouška
 - Modulprüfung European and Global Legal History (030362 VO + 030152 PUE)
@@ -10,16 +10,16 @@ Běh: 2026-09-15T11:15:05+02:00
 ## Souhrn
 - Přednášek: 23 · slidů: 724 · obrázky celkem: 57.4 MB
 - Na vision vybráno: 283 slidů (39%)
-- Obsah hotový: 40 · čeká na dopsání: 684
+- Obsah hotový: 130 · čeká na dopsání: 594
 
 ## Po přednáškách
 
 | ID | slidů | vision | filler? | hotovo | zbývá |
 |---|---:|---:|---:|---:|---:|
 | PD01 | 40 | 19 | 0 | 40 | 0 |
-| PD02 | 36 | 9 | 0 | 0 | 36 |
-| PD03 | 38 | 10 | 0 | 0 | 38 |
-| PD04 | 16 | 3 | 0 | 0 | 16 |
+| PD02 | 36 | 9 | 0 | 36 | 0 |
+| PD03 | 38 | 10 | 0 | 38 | 0 |
+| PD04 | 16 | 3 | 0 | 16 | 0 |
 | PD05 | 67 | 13 | 0 | 0 | 67 |
 | PD06 | 21 | 4 | 1 | 0 | 21 |
 | PD07 | 23 | 4 | 1 | 0 | 23 |
@@ -48,8 +48,11 @@ Běh: 2026-09-15T11:15:05+02:00
 
 - **PD01** je handout — 20 stránek PDF po 2 slidech, rozřezáno na 40 slidů.
 - **PD02** je handout — 18 stránek PDF po 2 slidech, rozřezáno na 36 slidů.
+- **PD02 s031** — Textová vrstva slidu má u letopočtů navíc vloženou jedničku („1570–1632 Muhammad“, „1750–1258 Abbasid“). Správně jsou 570–632 (Muhammad), 632–661 (Rášidún), 661–750 (Umajjovci), 750–1258 (Abbásovci v Bagdádu). Ověřit na obrázku slidu.
 - **PD03** je handout — 19 stránek PDF po 2 slidech, rozřezáno na 38 slidů.
 - **PD04** je handout — 8 stránek PDF po 2 slidech, rozřezáno na 16 slidů.
+- **PD04 s007** — Sloupce jsou ve slidu vedle sebe a v textové vrstvě se prolínají; pořadí „před / po recepci" je tady srovnané podle obsahu.
+- **PD04 s013** — Ve slidu jsou dva sloupce vedle sebe a textová vrstva je prolnula — vyšlo z ní „středověk: humanismus". Správně je středověk = mos italicus + scholastika, raný novověk = mos gallicus + humanismus. Ověřit na obrázku slidu.
 - **PD13a** je handout — 15 stránek PDF po 2 slidech, rozřezáno na 30 slidů.
 - **PD13b** je handout — 13 stránek PDF po 2 slidech, rozřezáno na 26 slidů.
 

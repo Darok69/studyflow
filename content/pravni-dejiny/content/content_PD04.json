@@ -1,54 +1,10 @@
 {
   "lecture_id": "PD04",
-  "course": "PD",
-  "course_title": "European and Global Legal History",
-  "course_number": "030362",
-  "unit": "Topic 4",
   "title": "The Ius Commune and the Early Modern Times",
-  "source_file": "raw/PD04_pp-04-early-modern-times-olechowski.pdf",
-  "source_sha256": "ab2b4fd21b3fcdc392806ff047a09d91331e92ad2e0f3ac34c16bc56e407537d",
-  "source_pages": 8,
-  "slides_per_page": 2,
-  "slide_count": 16,
-  "updated_at": "2026-09-15T11:03:17+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PD04/PD04_s001.webp",
-      "title": "Title slide",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 135,
-      "text_sha": "f451968731ae4399",
-      "pdf_page": 1,
-      "pdf_cell": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PD04/PD04_s002.webp",
-      "title": "The Early Modern Era",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 107,
-      "text_sha": "bb4861c13063216f",
-      "pdf_page": 1,
-      "pdf_cell": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PD04/PD04_s003.webp",
+  "slides": {
+    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "2": { "title": "The Early Modern Era", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "3": {
       "title": "Two contemporary voices on the reception",
       "text": "The lecture opens with two sources rather than a definition. Hermann Conring, 1643: since the 15th century doctors of Roman law have been consulted more frequently than before in council meetings and courts of law. And Bernhard Walther, 1552, stating the operative rule: if a custom of the land is doubtful and uncertain, judgment shall always follow the WRITTEN laws — meaning the laws taught at the university. Read together they show how the reception actually worked: not by an act of enactment, but through a rule about what to do when local custom is unclear. Doubt about custom is the doorway through which learned law enters.",
       "terms": [],
@@ -61,19 +17,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 457,
-      "text_sha": "d7ea77fc9e140cc2",
-      "pdf_page": 2,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "img": "img/PD04/PD04_s004.webp",
+    "4": {
       "title": "The phases of the reception",
       "text": "An EARLY phase: the ecclesiastical courts receive learned law as early as the late Middle Ages, the 13th to 15th centuries — unsurprisingly, since canon law already lived by Roman law subsidiarily. The PEAK comes with the secular courts at the beginning of the modern era, around 1500. The institutional trigger is the imperial reform of 1495 and the Imperial Chamber Court it created, staffed HALF with nobles and HALF with jurists. Put a court in place that is half learned lawyers, and learned law follows automatically.",
       "terms": [],
@@ -86,30 +32,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 373,
-      "text_sha": "8e85f9651c7c75ce",
-      "pdf_page": 2,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PD04/PD04_s005.webp",
+    "5": {
       "title": "Imperial Chamber Court and Imperial Aulic Council",
       "text": "Two supreme courts of the Empire, and the difference between them is INDEPENDENCE. The IMPERIAL CHAMBER COURT (Reichskammergericht) was composed of equal numbers of representatives of the emperor and of the Imperial Diet, which made it independent OF the emperor. Its seat was Speyer, and from 1693 to 1806 Wetzlar. The IMPERIAL AULIC COUNCIL (Reichshofrat) was an advisory body to the emperor that also performed judicial functions, and it therefore remained DEPENDENT on him; it sat at the imperial court — in Vienna from 1612 to 1740 and again 1745 to 1806. A litigant thus had a choice between a court the emperor did not control and one he did.",
       "terms": [
-        {
-          "term": "Imperial Chamber Court (Reichskammergericht)",
-          "def": "Supreme court of the Empire from 1495, half imperial and half Imperial Diet representatives — hence independent of the emperor. Seat Speyer, from 1693 Wetzlar."
-        },
-        {
-          "term": "Imperial Aulic Council (Reichshofrat)",
-          "def": "Advisory body to the emperor with judicial functions, remaining dependent on him. Seat at the imperial court, in Vienna 1612–1740 and 1745–1806."
-        }
+        { "term": "Imperial Chamber Court (Reichskammergericht)", "def": "Supreme court of the Empire from 1495, half imperial and half Imperial Diet representatives — hence independent of the emperor. Seat Speyer, from 1693 Wetzlar." },
+        { "term": "Imperial Aulic Council (Reichshofrat)", "def": "Advisory body to the emperor with judicial functions, remaining dependent on him. Seat at the imperial court, in Vienna 1612–1740 and 1745–1806." }
       ],
       "cards": [
         {
@@ -120,38 +50,19 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 484,
-      "text_sha": "b84200a2d4e056a5",
-      "pdf_page": 3,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "img": "img/PD04/PD04_s006.webp",
+    "6": {
       "title": "The Aulic Council's archive",
       "text": "The Reichskanzleitrakt of the Vienna Hofburg housed the Imperial Aulic Chancellery and the Aulic Council until 1806, and roughly 80,000 files of the Council fill three floors of the Austrian State Archives at Minoritenplatz. It is a reminder that the Empire's judicial business was real and voluminous, not ceremonial.",
       "terms": [],
       "cards": [],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 343,
-      "text_sha": "5812536943a1ad58",
-      "pdf_page": 3,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "img": "img/PD04/PD04_s007.webp",
+    "7": {
       "title": "What the reception changed in the courtroom",
       "text": "The most concrete slide of the lecture — court practice before and after, point by point. BEFORE: the judge must be EQUAL TO THE DEFENDANT, because this is a class society; the judge only PRESIDES and judgment is passed by the court community; proceedings are PUBLIC and ORAL, in GERMAN. AFTER: judges must have STUDIED at a university, and they always apply learned law where no conflicting local custom is proven; the judge both presides AND passes sentence; proceedings are SECRET and IN WRITING, in LATIN. Note the price: the reception brought professional judges and a rational system, and it took away publicity, orality and the vernacular. The allegory on the slide sets a praetor against a German count.",
+      "note": "Sloupce jsou ve slidu vedle sebe a v textové vrstvě se prolínají; pořadí „před / po recepci\" je tady srovnané podle obsahu.",
       "terms": [],
       "cards": [
         {
@@ -169,27 +80,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 738,
-      "text_sha": "ee594befaa3911d8",
-      "pdf_page": 4,
-      "pdf_cell": 1,
-      "note": "Sloupce jsou ve slidu vedle sebe a v textové vrstvě se prolínají; pořadí „před / po recepci\" je tady srovnané podle obsahu."
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "img": "img/PD04/PD04_s008.webp",
+    "8": {
       "title": "The Lothar legend debunked",
       "text": "The theoretical question: HOW did the reception come about? The old answer was the 'Lothar legend' — that Justinian's laws were reintroduced by order of Emperor Lothar. Hermann Conring demolished it in 1643: the widely held belief is 'not only uncertain, but also incorrect'. The importance of this is methodological. If Roman law had been enacted, its validity would rest on an act of a ruler. Since it was not, its validity has to be explained case by case, through practice and custom — which is exactly what Conring goes on to argue.",
       "terms": [
-        {
-          "term": "Lothar legend",
-          "def": "The belief that Roman law was reintroduced in the Empire by an enactment of Emperor Lothar. Refuted by Hermann Conring in 1643."
-        }
+        { "term": "Lothar legend", "def": "The belief that Roman law was reintroduced in the Empire by an enactment of Emperor Lothar. Refuted by Hermann Conring in 1643." }
       ],
       "cards": [
         {
@@ -200,26 +97,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 308,
-      "text_sha": "d2ff5aa645b1644b",
-      "pdf_page": 4,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "img": "img/PD04/PD04_s009.webp",
+    "9": {
       "title": "The ius commune",
       "text": "The reception is a PAN-EUROPEAN phenomenon, and what it produces is a pan-European law: the IUS COMMUNE (German: gemeines Recht — the lecture asks you not to translate it into English). Its formal position is subsidiary: it applies only where domestic law does not. Its actual position is another matter — it increasingly supplants domestic law, precisely through Walther's rule about doubtful custom. There was resistance, in Tyrol and Saxony among other places. And two regions never received it at all: ENGLAND and SCANDINAVIA. That exception is the whole reason the common law becomes a separate topic in this course.",
       "terms": [
-        {
-          "term": "ius commune",
-          "def": "The pan-European learned law formed by the reception of Roman and canon law (German: gemeines Recht). Formally subsidiary to domestic law, in practice increasingly displacing it."
-        }
+        { "term": "ius commune", "def": "The pan-European learned law formed by the reception of Roman and canon law (German: gemeines Recht). Formally subsidiary to domestic law, in practice increasingly displacing it." }
       ],
       "cards": [
         {
@@ -237,36 +121,10 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 532,
-      "text_sha": "8762b65a0d3a0663",
-      "pdf_page": 5,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "img": "img/PD04/PD04_s010.webp",
-      "title": "Where the ius commune applied",
-      "text": "The map of its territorial scope — and of the two blanks, England and Scandinavia.",
-      "terms": [],
-      "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 121,
-      "text_sha": "9d2d31e9e0f88c11",
-      "pdf_page": 5,
-      "pdf_cell": 2
-    },
-    {
-      "n": 11,
-      "img": "img/PD04/PD04_s011.webp",
+    "10": { "title": "Where the ius commune applied", "text": "The map of its territorial scope — and of the two blanks, England and Scandinavia.", "terms": [], "cards": [], "vision_used": true },
+    "11": {
       "title": "Law reforms (Reformationen)",
       "text": "The formula to remember: the ius commune was the CAUSE, the MEANS and the END of legislative activity in the early modern era — it provoked the reforms, supplied the concepts they were written with, and was the standard they aimed at. Municipal law reforms: Nuremberg 1479, Worms 1498, Ptuj 1513, Freiburg im Breisgau 1520. Land law reforms: Bavaria 1518, Württemberg 1555. Two Austrian cases go the other way: the Land Ordinance for Tyrol of 1526 ADHERES to domestic law, and the Austrian land law drafts of 1526–1654 never entered into force at all.",
       "terms": [],
@@ -286,30 +144,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 470,
-      "text_sha": "26a53256cb766d5a",
-      "pdf_page": 6,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "img": "img/PD04/PD04_s012.webp",
+    "12": {
       "title": "Policey ordinances and the Carolina",
       "text": "A false friend first: POLICEY is not 'policy' and not the police. Policey is the precursor of modern ADMINISTRATIVE law — epidemic control, building and fire regulations, begging, prostitution and so on; the slide's plague doctors with their beak masks, and Vienna's infection-control measures from 1541, are Policey in action. Policeyordnungen often carry private-law matters as well. And 1532 brings the CONSTITUTIO CRIMINALIS CAROLINA, the procedure for judging capital crimes: it unifies and modernises criminal procedure in the Empire — but, note, it too applies ONLY SUBSIDIARILY, behind land law.",
       "terms": [
-        {
-          "term": "Policey",
-          "def": "Not 'police' and not 'policy': the early modern precursor of administrative law — epidemic control, building and fire rules, begging, prostitution. Its ordinances often contain private law too."
-        },
-        {
-          "term": "Constitutio Criminalis Carolina (1532)",
-          "def": "Criminal procedure for capital crimes in the Empire; unifying and modernising, but applying only subsidiarily behind land law."
-        }
+        { "term": "Policey", "def": "Not 'police' and not 'policy': the early modern precursor of administrative law — epidemic control, building and fire rules, begging, prostitution. Its ordinances often contain private law too." },
+        { "term": "Constitutio Criminalis Carolina (1532)", "def": "Criminal procedure for capital crimes in the Empire; unifying and modernising, but applying only subsidiarily behind land law." }
       ],
       "cards": [
         {
@@ -327,34 +169,16 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 873,
-      "text_sha": "f330132ac2e57227",
-      "pdf_page": 6,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "img": "img/PD04/PD04_s013.webp",
+    "13": {
       "title": "Mos italicus against mos gallicus",
       "text": "The two ways of doing legal scholarship, and the exam likes the contrast. The MIDDLE AGES: the centre is northern Italy — the MOS ITALICUS. Its method is SCHOLASTICISM; the Corpus Iuris Civilis is treated as RATIO SCRIPTA, written reason; the gloss is binding; and differences from domestic law are treated as merely apparent, which produces the concordance literature reconciling the two. The EARLY MODERN ERA: the centre moves to France — the MOS GALLICUS. Its method is HUMANISM; the Corpus Iuris is seen as a HISTORICALLY DEVELOPED product, not timeless reason; scholars want direct access to classical Roman law, going behind the gloss; and domestic law appears as a misguided development. The shift is from a timeless authority to be harmonised into a historical text to be reconstructed.",
+      "note": "Ve slidu jsou dva sloupce vedle sebe a textová vrstva je prolnula — vyšlo z ní „středověk: humanismus\". Správně je středověk = mos italicus + scholastika, raný novověk = mos gallicus + humanismus. Ověřit na obrázku slidu.",
       "terms": [
-        {
-          "term": "mos italicus",
-          "def": "The Italian manner: scholastic treatment of the Corpus Iuris as ratio scripta, with the gloss binding and domestic law harmonised with it."
-        },
-        {
-          "term": "mos gallicus",
-          "def": "The French manner: humanist treatment of the Corpus Iuris as a historically developed text, seeking direct access to classical Roman law behind the gloss."
-        },
-        {
-          "term": "ratio scripta",
-          "def": "'Written reason' — the medieval view of the Corpus Iuris Civilis as authority valid by its rationality rather than by enactment."
-        }
+        { "term": "mos italicus", "def": "The Italian manner: scholastic treatment of the Corpus Iuris as ratio scripta, with the gloss binding and domestic law harmonised with it." },
+        { "term": "mos gallicus", "def": "The French manner: humanist treatment of the Corpus Iuris as a historically developed text, seeking direct access to classical Roman law behind the gloss." },
+        { "term": "ratio scripta", "def": "'Written reason' — the medieval view of the Corpus Iuris Civilis as authority valid by its rationality rather than by enactment." }
       ],
       "cards": [
         {
@@ -372,31 +196,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 628,
-      "text_sha": "0a0be3b624c4f993",
-      "pdf_page": 7,
-      "pdf_cell": 1,
-      "note": "Ve slidu jsou dva sloupce vedle sebe a textová vrstva je prolnula — vyšlo z ní „středověk: humanismus\". Správně je středověk = mos italicus + scholastika, raný novověk = mos gallicus + humanismus. Ověřit na obrázku slidu."
+      "vision_used": true
     },
-    {
-      "n": 14,
-      "img": "img/PD04/PD04_s014.webp",
+    "14": {
       "title": "Usus modernus pandectarum",
       "text": "Conring's debunking of the Lothar legend in 1643 has a constructive consequence. If domestic law was not displaced by a single act, then for EACH INDIVIDUAL RULE one must examine whether it has gained a foothold in customary law. At the universities this produces the USUS MODERNUS PANDECTARUM — embedding domestic law inside the established learned doctrine. In legal practice the result is a mixture of domestic law and ius commune, the IUS ROMANO-GERMANICUM. Neither pure Roman nor purely domestic: a working amalgam, and the state of European private law until the codifications.",
       "terms": [
-        {
-          "term": "usus modernus pandectarum",
-          "def": "The early modern university treatment embedding domestic law within the received learned doctrine, rule by rule, after the Lothar legend fell."
-        },
-        {
-          "term": "ius Romano-Germanicum",
-          "def": "The practical mixture of domestic law and ius commune — the law actually applied before the codifications."
-        }
+        { "term": "usus modernus pandectarum", "def": "The early modern university treatment embedding domestic law within the received learned doctrine, rule by rule, after the Lothar legend fell." },
+        { "term": "ius Romano-Germanicum", "def": "The practical mixture of domestic law and ius commune — the law actually applied before the codifications." }
       ],
       "cards": [
         {
@@ -407,19 +214,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 494,
-      "text_sha": "424fad2ae4056ac4",
-      "pdf_page": 7,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "img": "img/PD04/PD04_s015.webp",
+    "15": {
       "title": "The rise of the Habsburgs",
       "text": "The accumulation, by dates: 1282 the Duchy of Austria; 1477 Burgundy, including the Netherlands; 1504/16 Castile and Aragon — that is Spain with large parts of Italy and the overseas colonies; 1526 Hungary and Bohemia, meaning today's Hungary, Czech Republic, Slovakia, large parts of Croatia and Romania and parts of Poland, Serbia and Ukraine; 1580 Portugal with its overseas colonies. Almost none of it by conquest: this is inheritance and marriage, which is why the introductory lecture's point about personal union matters — these lands are acquired one crown at a time and keep their own law.",
       "terms": [],
@@ -439,32 +236,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 443,
-      "text_sha": "1a7147a0f144c0d5",
-      "pdf_page": 8,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "img": "img/PD04/PD04_s016.webp",
+    "16": {
       "title": "Reformation and Counter-Reformation",
       "text": "The confessional map of Europe: Catholic, Lutheran, Calvinist, Anglican, Orthodox, Muslim. It closes this topic and opens the next ones — the Westphalian order exists because that map could not be unified by force, and the Peace of Westphalia is the legal answer to it.",
       "terms": [],
       "cards": [],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 212,
-      "text_sha": "baa8e1e4c058586f",
-      "pdf_page": 8,
-      "pdf_cell": 2
+      "vision_used": true
     }
-  ]
+  }
 }
