@@ -255,6 +255,22 @@ class Doc(FPDF):
         self.cell(0, 6, f"{self.heading}  ·  {self.page_no()}", align="C")
         self.set_text_color(0)
 
+def plural(n: int, one: str, few: str, many: str) -> str:
+    """Česká trojice tvarů: 1 článek, 2 články, 5 článků."""
+    return f"{n} {one if n == 1 else few if 2 <= n <= 4 else many}"
+
+
+def where(doc, h) -> None:
+    """Jedna zmínka: kde padla a čeho se týká."""
+    doc.set_font("A", "B", 8.5)
+    doc.set_text_color(70)
+    doc.multi_cell(0, 4.2, f"{h['lecture']} · slide {h['n']} · {h['title']}",
+                   new_x="LMARGIN", new_y="NEXT")
+    doc.set_text_color(0)
+    doc.set_font("A", size=9.5)
+    doc.multi_cell(0, 4.8, h["sentence"], new_x="LMARGIN", new_y="NEXT")
+    doc.ln(1.4)
+
 
 def render(course_code: str, heading: str, subtitle: str, groups) -> Path:
     doc = Doc(heading)
@@ -273,7 +289,11 @@ def render(course_code: str, heading: str, subtitle: str, groups) -> Path:
     doc.cell(0, 6, "Obsah", new_x="LMARGIN", new_y="NEXT")
     doc.set_font("A", size=9)
     for i, (name, hits) in enumerate(groups, 1):
-        doc.cell(0, 4.6, f"{i}.  {name}  ({len(hits)}×)", new_x="LMARGIN", new_y="NEXT")
+        arts = len({a for h in hits for a in h["articles"]})
+        tail = (f"({plural(arts, 'článek', 'články', 'článků')} · "
+                f"{plural(len(hits), 'zmínka', 'zmínky', 'zmínek')})") if arts \
+            else f"({plural(len(hits), 'zmínka', 'zmínky', 'zmínek')})"
+        doc.cell(0, 4.6, f"{i}.  {name}  {tail}", new_x="LMARGIN", new_y="NEXT")
     doc.ln(4)
 
     for i, (name, hits) in enumerate(groups, 1):
@@ -281,22 +301,36 @@ def render(course_code: str, heading: str, subtitle: str, groups) -> Path:
             doc.add_page()
         doc.set_font("A", "B", 12)
         doc.multi_cell(0, 6, f"{i}.  {name}", new_x="LMARGIN", new_y="NEXT")
-        arts = sorted({a for h in hits for a in h["articles"]}, key=art_key)
-        if arts:
-            doc.set_font("A", size=8.5)
-            doc.set_text_color(110)
-            doc.multi_cell(0, 4.4, "Zmíněné články: " + ", ".join("Art. " + a for a in arts), new_x="LMARGIN", new_y="NEXT")
-            doc.set_text_color(0)
         doc.ln(1)
+
+        # Uvnitř smlouvy se řadí PODLE ČLÁNKU, ne podle přednášky: u otevřené
+        # zkoušky se hledá „který článek co řeší", takže článek musí být
+        # nadpisem a přednáška se slidem až údajem pod ním.
+        by_art: dict[str, list[dict]] = {}
+        loose: list[dict] = []
         for h in hits:
-            doc.set_font("A", "B", 8.5)
-            doc.set_text_color(70)
-            label = f"{h['lecture']} · slide {h['n']} · {h['title']}"
-            doc.multi_cell(0, 4.2, label, new_x="LMARGIN", new_y="NEXT")
+            if h["articles"]:
+                for a in h["articles"]:
+                    by_art.setdefault(a, []).append(h)
+            else:
+                loose.append(h)
+
+        for art in sorted(by_art, key=art_key):
+            if doc.get_y() > 252:
+                doc.add_page()
+            doc.set_font("A", "B", 10)
+            doc.multi_cell(0, 5, f"Art. {art}", new_x="LMARGIN", new_y="NEXT")
+            for h in by_art[art]:
+                where(doc, h)
+        if loose:
+            if doc.get_y() > 252:
+                doc.add_page()
+            doc.set_font("A", "B", 10)
+            doc.set_text_color(110)
+            doc.multi_cell(0, 5, "Bez určitého článku", new_x="LMARGIN", new_y="NEXT")
             doc.set_text_color(0)
-            doc.set_font("A", size=9.5)
-            doc.multi_cell(0, 4.8, h["sentence"], new_x="LMARGIN", new_y="NEXT")
-            doc.ln(1.4)
+            for h in loose:
+                where(doc, h)
         doc.ln(3)
 
     DEST.mkdir(parents=True, exist_ok=True)
@@ -309,13 +343,15 @@ def main() -> int:
     plan = [
         ("IL", "Mezinárodní právo — prameny a kde se objevily",
          "Právní nástroje zmíněné v přednáškách Foundations of International Law (IREWI, 030721), "
-         "s větou, ve které padly. Zkouška je otevřená a pramenná, takže se cení vědět, KTERÝ ČLÁNEK "
-         "KTERÉ SMLOUVY věc řeší. Citace jsou z podkladů kurzu, ne z úředního znění — před zkouškou "
-         "si zásadní články ověř v textu smlouvy."),
+         "řazené podle smlouvy a uvnitř ní podle ČLÁNKU: u každého článku je, na kterém slidu padl "
+         "a čeho se týkal. Zkouška je otevřená a pramenná, takže se cení vědět, KTERÝ ČLÁNEK KTERÉ "
+         "SMLOUVY věc řeší. Citace jsou z podkladů kurzu, ne z úředního znění — před zkouškou si "
+         "zásadní články ověř v textu smlouvy."),
         ("EU", "Unijní právo — prameny a kde se objevily",
-         "Právní nástroje zmíněné v přednáškách Introduction to EU Law (IREWI), s větou, ve které "
-         "padly. Pozor na dvojici TEU × TFEU: u otevřené otázky se pozná, kdo si je plete. Citace "
-         "jsou z podkladů kurzu, ne z úředního znění."),
+         "Právní nástroje zmíněné v přednáškách Introduction to EU Law (IREWI), řazené podle smlouvy "
+         "a uvnitř ní podle ČLÁNKU: u každého článku je, na kterém slidu padl a čeho se týkal. Pozor "
+         "na dvojici TEU × TFEU: u otevřené otázky se pozná, kdo si je plete. Citace jsou z podkladů "
+         "kurzu, ne z úředního znění."),
     ]
     for code, heading, subtitle in plan:
         groups = collect(code)
