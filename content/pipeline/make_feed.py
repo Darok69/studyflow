@@ -161,6 +161,18 @@ def main() -> int:
             print(f"  {series}: zatím není {manifest_file.name}, přeskakuji")
             continue
         manifest = json.loads(manifest_file.read_text(encoding="utf-8"))
+        # 🔴 Pojistka proti ztrátě odběru: zvukové soubory na disku jsou pravda.
+        # Když manifest zná míň epizod, než kolik jich leží v adresáři, je
+        # rozbitý (typicky po běhu s --only) a feed by z odběru umazal zbytek.
+        on_disk = {f.stem for f in (AUDIO / series).glob("*.m4a")}
+        listed = {e["lecture_id"] for e in manifest["episodes"]}
+        missing = sorted(on_disk - listed)
+        if missing:
+            print(f"  {series}: manifest zná {len(listed)} epizod, ale na disku "
+                  f"jich je {len(on_disk)} — chybí {', '.join(missing)}.", file=sys.stderr)
+            print(f"  Feed by je z odběru odstranil. Pusť "
+                  f"./run.sh <předmět> audio --series {series} (bez --only).", file=sys.stderr)
+            return 1
         out_dir = AUDIO / series
         title, _ = show_name(cfg, series)
         cover(out_dir / "cover.jpg", title.split("—")[-1].strip(),

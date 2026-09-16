@@ -44,7 +44,13 @@ MATERIALS = ROOT / "out" / "materials"
 OVERRIDES = ROOT / "audio" / "overrides"
 OUT = ROOT / "out" / "audio"
 
-DEFAULT_VOICE = "Daniel"
+# Hlas se NEVOLÍ podle nálady, ale podle JAZYKA TEXTU. Čeština přečtená
+# anglickým hlasem zní jako blábol — přesně to se stalo právním dějinám, které
+# celé čte britský „Daniel". Jazyk říká courses.json (pole `language` u předmětu
+# nebo u jednotlivého kurzu), ne parametr na příkazové řádce, aby se na to
+# nedalo zapomenout. --voice zůstává jako vědomé přebití.
+VOICES = {"en": "Ava", "cs": "Zuzana"}
+FALLBACK_VOICE = "Ava"
 DEFAULT_RATE = 165
 
 # Ticho na vzpomenutí. Kratší nestačí, delší svádí přetočit.
@@ -188,14 +194,18 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--series", choices=["quiz", "narration"], required=True)
     ap.add_argument("--only", help="jen tahle přednáška, např. IL02")
-    ap.add_argument("--voice", default=DEFAULT_VOICE)
+    ap.add_argument("--voice", help="přebije hlas daný jazykem předmětu")
     ap.add_argument("--rate", type=int, default=DEFAULT_RATE)
     ap.add_argument("--force", action="store_true", help="převést znovu i beze změny")
     ap.add_argument("--dry-run", action="store_true", help="jen text, žádný zvuk")
+    ap.add_argument("--manifest-only", action="store_true",
+                    help="nepřevádět nic, jen dopsat manifest podle hotových souborů")
     args = ap.parse_args()
 
     index = json.loads((MATERIALS / "index.json").read_text(encoding="utf-8"))
     order = [lec["id"] for course in index["courses"] for lec in course["lectures"]]
+    lang_of = {lec["id"]: course.get("language") or "en"
+               for course in index["courses"] for lec in course["lectures"]}
     if args.only:
         if args.only not in order:
             print(f"neznámá přednáška {args.only}; mám {', '.join(order)}", file=sys.stderr)
@@ -203,6 +213,7 @@ def main() -> int:
         order = [args.only]
 
     built: list[Episode] = []
+    voices: set[str] = set()
     total = 0.0
     for lecture_id in order:
         lec = json.loads((MATERIALS / f"{lecture_id}.json").read_text(encoding="utf-8"))
@@ -218,19 +229,39 @@ def main() -> int:
                 print(f"      vypnuté slidy: {', '.join(ep.skipped)}")
             built.append(ep)
             continue
-        render(ep, args.voice, args.rate, args.force)
+        voice = args.voice or VOICES.get(lang_of.get(lecture_id, ""), FALLBACK_VOICE)
+        voices.add(voice)
+        if args.manifest_only:
+            # Oprava manifestu po běhu s --only: zvuk na disku je hotový,
+            # jen o něm manifest neví. Nic se nepřevádí.
+            target = OUT / args.series / f"{ep.lecture_id}.m4a"
+            if not target.exists():
+                print(f"  {lecture_id}: zvuk zatím neexistuje, přeskakuji")
+                continue
+            ep.path = target
+            ep.seconds = duration(target)
+            total += ep.seconds
+            built.append(ep)
+            continue
+        render(ep, voice, args.rate, args.force)
         total += ep.seconds
         print(f"  {lecture_id}: {ep.parts} částí, {hms(ep.seconds)}, "
-              f"{ep.path.stat().st_size // 1024} kB")
+              f"{ep.path.stat().st_size // 1024} kB, hlas {voice}")
         built.append(ep)
 
     if not args.dry_run and built:
         manifest = OUT / f"{args.series}.json"
-        manifest.write_text(json.dumps({
-            "series": args.series,
-            "voice": args.voice,
-            "rate": args.rate,
-            "episodes": [{
+        # 🔴 Manifest se SLUČUJE, nikdy nepřepisuje. Při --only se převede jedna
+        # přednáška, ale manifest je vstupem pro feed — přepsat ho jedním
+        # záznamem znamená feed o jedné epizodě a v Apple Podcasts zmizí
+        # zbytek odběru. Přestavěné epizody přepíšou své starší záznamy,
+        # ostatní se zachovají v pořadí, které dává rejstřík.
+        keep: dict[str, dict] = {}
+        if manifest.exists():
+            old = json.loads(manifest.read_text(encoding="utf-8"))
+            keep = {e["lecture_id"]: e for e in old.get("episodes", [])}
+        for e in built:
+            keep[e.lecture_id] = {
                 "lecture_id": e.lecture_id,
                 "title": e.title,
                 "subtitle": e.subtitle,
@@ -238,9 +269,19 @@ def main() -> int:
                 "seconds": round(e.seconds, 1),
                 "bytes": e.path.stat().st_size,
                 "parts": e.parts,
-            } for e in built],
+            }
+        full_order = [lec["id"] for course in index["courses"] for lec in course["lectures"]]
+        episodes = [keep[i] for i in full_order if i in keep]
+        # Co v rejstříku není (přejmenovaná přednáška), ať se neztratí tiše.
+        episodes += [e for i, e in keep.items() if i not in set(full_order)]
+        manifest.write_text(json.dumps({
+            "series": args.series,
+            "voice": args.voice or ", ".join(sorted(voices)),
+            "rate": args.rate,
+            "episodes": episodes,
         }, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"\nhotovo: {len(built)} epizod, {hms(total)} celkem → {manifest}")
+        print(f"\nhotovo: {len(built)} epizod převedeno, "
+              f"{len(episodes)} v manifestu, {hms(total)} celkem → {manifest}")
     return 0
 
 

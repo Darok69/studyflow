@@ -668,7 +668,8 @@
           "file": "15_Kennedy, Three Globalizations of Law and Legal Thought-1.pdf"
         }
       ],
-      "kind": "reading"
+      "kind": "reading",
+      "language": "cs"
     }
   ],
   "gaps": [
@@ -679,5 +680,6 @@
   "podcast": {
     "short": "Právní dějiny",
     "course": "the course European and Global Legal History"
-  }
+  },
+  "language": "cs"
 }

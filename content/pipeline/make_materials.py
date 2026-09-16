@@ -189,6 +189,9 @@ def main() -> int:
         entry = {"code": course["code"], "number": course["number"],
                  "title": course["title"], "subject": course.get("subject"),
                  "kind": spec_course.get("kind", "lecture"),
+                 # Jazyk TEXTU, ne jazyk zkoušky: podle něj se vybírá hlas
+                 # podcastu. Kurz si ho může přebít, jinak platí předmětový.
+                 "language": spec_course.get("language") or spec.get("language") or "en",
                  "lectures": []}
         for lec in course["lectures"]:
             d = json.loads((DATA / f"{lec['lecture_id']}.json").read_text("utf-8"))
