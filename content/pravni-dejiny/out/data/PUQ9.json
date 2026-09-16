@@ -4,7 +4,7 @@
   "course_title": "Practical Exercise on European and Global Legal History",
   "course_number": "030152",
   "unit": "Otázky 9",
-  "title": "Otázky a prameny, cvičení IX — imperialismus, Haag, Versailles",
+  "title": "Questions and sources, exercise class IX — imperialism, The Hague, Versailles",
   "source_file": "raw/PUQ9_questions-and-sources-unit-9.pdf",
   "source_sha256": "bbc6d512a332fe4bd4155380238b531e2e26d226dafbba91d52ee620b69f7e4a",
   "source_pages": 2,
@@ -15,34 +15,34 @@
     {
       "n": 1,
       "img": "img/PUQ9/PUQ9_s001.webp",
-      "title": "„Evropské století“, kolonialismus a exteritorialita",
-      "text": "OSTERHAMMELOVA TEZE: 19. století je 'EVROPSKÝM STOLETÍM' proto, že Evropa v něm dosáhla ASYMETRICKÉHO NÁSKOKU — průmyslová revoluce, vojenská převaha (parník, telegraf, opakovací zbraně, chinin proti malárii), kapitál a nárok stanovovat měřítko civilizovanosti. Světový řád se poprvé stal skutečně JEDNÍM, a to podle evropských pravidel: mezinárodní právo bylo prohlášeno za 'PRÁVO CIVILIZOVANÝCH NÁRODŮ' a členství v něm se udělovalo, ne předpokládalo. DVĚ HLAVNÍ FORMY PANSTVÍ NAD NEEVROPSKÝMI ZEMĚMI: (1) KOLONIALISMUS — přímé nebo nepřímé ovládnutí území, kde koloniální mocnost drží SUVERENITU a území se stává součástí říše (kolonie, protektorát, dominion). Nositelem je vlastní správa a vojsko, právo se vnucuje nebo se místní právo podřizuje. (2) EXTERITORIALITA — panství BEZ ANEXE. Formálně nezávislý stát zůstane suverénem, ale cizinci jsou VYŇATI Z JEHO JURISDIKCE a podléhají vlastním KONZULÁRNÍM SOUDŮM; k tomu přistupují nucené celní sazby, doložky nejvyšších výhod a někdy i správa cel či pošt v cizích rukou. Tomu se říká KAPITULACE a týkalo se to OSMANSKÉ ŘÍŠE, ČÍNY (nerovné smlouvy od Nankingu 1842), JAPONSKA (od 1858), SIAMU, PERSIE, EGYPTA A MAROKA. ROZDÍL, KTERÝ JE TŘEBA UMĚT VYSLOVIT: kolonialismus odnímá suverenitu, exteritorialita ji formálně ponechává a VYDLABE JI ZEVNITŘ. A právě proto byla exteritorialita tak palčivá: pro dotčené státy znamenala trvalé ponížení a hlavní motiv k přijetí evropských kodexů — kdo chtěl kapitulace zrušit, musel dokázat 'civilizovanost' svého právního řádu. Japonsko toho dosáhlo roku 1899 po přijetí evropských kodexů, Turecko až Lausannskou smlouvou 1923, Čína teprve roku 1943.",
+      "title": "The 'European century', colonialism and extraterritoriality",
+      "text": "OSTERHAMMEL'S THESIS: the 19th century is the 'EUROPEAN CENTURY' because in it Europe achieved an ASYMMETRIC LEAD — the industrial revolution, military superiority (the steamship, the telegraph, repeating firearms, quinine against malaria), capital, and the claim to set the standard of civilization. For the first time the world order became genuinely ONE, and on European rules: international law was declared the 'LAW OF CIVILIZED NATIONS', and membership in it was granted, not presumed. TWO PRINCIPAL FORMS OF RULE OVER NON-EUROPEAN COUNTRIES: (1) COLONIALISM — direct or indirect control of a territory in which the colonial power holds SOVEREIGNTY and the territory becomes part of the empire (colony, protectorate, dominion). It is carried by its own administration and army; law is imposed or local law is subordinated. (2) EXTRATERRITORIALITY — rule WITHOUT ANNEXATION. A formally independent state remains sovereign, but foreigners are EXEMPT FROM ITS JURISDICTION and subject to their own CONSULAR COURTS; added to this are imposed tariffs, most-favoured-nation clauses and sometimes the administration of customs or posts in foreign hands. This is called the CAPITULATIONS, and it applied to the OTTOMAN EMPIRE, CHINA (the unequal treaties from Nanking 1842), JAPAN (from 1858), SIAM, PERSIA, EGYPT AND MOROCCO. THE DIFFERENCE ONE MUST BE ABLE TO STATE: colonialism takes sovereignty away; extraterritoriality formally leaves it in place and HOLLOWS IT OUT FROM WITHIN. And that is precisely why extraterritoriality was so galling: for the states concerned it meant a permanent humiliation and the chief motive for adopting European codes — whoever wanted the capitulations abolished had to prove the 'civilization' of his legal order. Japan achieved this in 1899 after adopting European codes, Turkey only by the Treaty of Lausanne in 1923, China not until 1943.",
       "terms": [
         {
-          "term": "kapitulace",
-          "def": "Smluvní výsady cizinců ve formálně nezávislém státě — vynětí z místní jurisdikce a konzulární soudy."
+          "term": "capitulations",
+          "def": "Treaty privileges of foreigners in a formally independent state — exemption from local jurisdiction and consular courts."
         }
       ],
       "cards": [
         {
-          "q": "Proč je 19. století „evropským stoletím“?",
-          "a": "Protože Evropa dosáhla ASYMETRICKÉHO NÁSKOKU — průmyslová revoluce, vojenská převaha (parník, telegraf, opakovací zbraně, chinin), kapitál a nárok stanovovat měřítko civilizovanosti. Světový řád se poprvé stal JEDNÍM, a to podle evropských pravidel: mezinárodní právo bylo prohlášeno za 'PRÁVO CIVILIZOVANÝCH NÁRODŮ' a členství se UDĚLOVALO, ne předpokládalo.",
+          "q": "Why is the 19th century the 'European century'?",
+          "a": "Because Europe achieved an ASYMMETRIC LEAD — the industrial revolution, military superiority (the steamship, the telegraph, repeating firearms, quinine), capital and the claim to set the standard of civilization. For the first time the world order became ONE, and on European rules: international law was declared the 'LAW OF CIVILIZED NATIONS' and membership was GRANTED, not presumed.",
           "difficulty": 2,
           "kind": "rozliseni",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Jaký je rozdíl mezi kolonialismem a exteritorialitou?",
-          "a": "KOLONIALISMUS ODNÍMÁ SUVERENITU — mocnost ji drží sama a území se stává součástí říše. EXTERITORIALITA ji formálně PONECHÁVÁ A VYDLABE ZEVNITŘ: cizinci jsou VYŇATI Z MÍSTNÍ JURISDIKCE a podléhají KONZULÁRNÍM SOUDŮM, k tomu nucené celní sazby a správa cel v cizích rukou. Říká se tomu KAPITULACE (Osmanská říše, Čína od Nankingu 1842, Japonsko od 1858, Siam, Persie, Egypt, Maroko).",
+          "q": "What is the difference between colonialism and extraterritoriality?",
+          "a": "COLONIALISM TAKES SOVEREIGNTY AWAY — the power holds it itself and the territory becomes part of the empire. EXTRATERRITORIALITY formally LEAVES IT IN PLACE AND HOLLOWS IT OUT FROM WITHIN: foreigners are EXEMPT FROM LOCAL JURISDICTION and subject to CONSULAR COURTS, with imposed tariffs and customs administration in foreign hands. This is called the CAPITULATIONS (the Ottoman Empire, China from Nanking 1842, Japan from 1858, Siam, Persia, Egypt, Morocco).",
           "difficulty": 3,
           "kind": "srovnani",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Kdy se jednotlivé státy zbavily kapitulací a co k tomu musely udělat?",
-          "a": "Musely DOKÁZAT 'CIVILIZOVANOST' SVÉHO PRÁVNÍHO ŘÁDU, tedy přijmout evropské kodexy — to byl hlavní motiv recepce mimo Evropu. JAPONSKO toho dosáhlo ROKU 1899, TURECKO až LAUSANNSKOU SMLOUVOU 1923, ČÍNA teprve ROKU 1943.",
+          "q": "When did the individual states rid themselves of the capitulations, and what did they have to do?",
+          "a": "They had to PROVE THE 'CIVILIZATION' OF THEIR LEGAL ORDER, that is, adopt European codes — the chief motive for reception outside Europe. JAPAN achieved this IN 1899, TURKEY only by the TREATY OF LAUSANNE IN 1923, CHINA not until 1943.",
           "difficulty": 3,
           "kind": "cisla",
           "topic": "Imperialism and Constitutionalism before 1914",
@@ -61,34 +61,34 @@
     {
       "n": 2,
       "img": "img/PUQ9/PUQ9_s002.webp",
-      "title": "Pramen: Berlínská konference (1884–1885)",
-      "text": "PRAMEN: 'Čl. 34. Každá mocnost, která napříště zabere kus země na pobřeží afrického kontinentu mimo své nynější državy, jakož i mocnost, která tam převezme protektorát, doprovodí příslušný akt OZNÁMENÍM adresovaným ostatním signatárním mocnostem tohoto Aktu, aby jim umožnila případně uplatnit vlastní nároky. Čl. 35. Signatární mocnosti uznávají povinnost zajistit v oblastech, které obsadily na pobřeží afrického kontinentu, ZŘÍZENÍ AUTORITY DOSTATEČNÉ K OCHRANĚ EXISTUJÍCÍCH PRÁV a případně svobody obchodu a průjezdu za dohodnutých podmínek.' HISTORICKÉ POZADÍ: prudké zrychlení dělení Afriky v 80. letech (SCRAMBLE FOR AFRICA), spory o povodí Konga a Nigeru, aktivita LEOPOLDA II. BELGICKÉHO a jeho Mezinárodní asociace, obavy z konfliktu mezi mocnostmi. Konferenci svolal BISMARCK do BERLÍNA (listopad 1884 – únor 1885); zúčastnilo se 14 států včetně USA a Osmanské říše — ALE ANI JEDEN AFRICKÝ ZÁSTUPCE, což je fakt, který v odpovědi nesmí chybět. VÝSLEDKY: (1) ZÁVĚREČNÝ AKT (Generální akt) z 26. února 1885; (2) svoboda obchodu v povodí KONGA a svoboda plavby po KONGU A NIGERU; (3) uznání KONŽSKÉHO SVOBODNÉHO STÁTU jako osobního vlastnictví Leopolda II.; (4) závazek potírat OTROKÁŘSTVÍ a podporovat 'mravní a hmotný blahobyt' domorodců; (5) a procedurální pravidla pro budoucí zábory. POZOR NA ROZŠÍŘENÝ OMYL: KONFERENCE AFRIKU MEZI MOCNOSTI NEROZDĚLILA — nekreslila hranice; stanovila PRAVIDLA HRY, podle kterých si ji mocnosti rozdělily během následujících dvaceti let. JAK SE ZÁBOR LEGITIMOVAL: (a) požadavkem NOTIFIKACE, tedy oznámení ostatním — všimni si, že se oznamuje EVROPANŮM, ne dotčenému obyvatelstvu, takže právo se tvoří mezi kolonizátory navzájem; (b) požadavkem EFEKTIVNÍ OKUPACE (čl. 35) — nestačí vztyčit vlajku, je třeba zřídit skutečnou autoritu; tím se odmítá starší titul pouhého objevení; (c) konstrukcí TERRA NULLIUS a popíráním, že africké politické útvary jsou státy ve smyslu mezinárodního práva; (d) SMLOUVAMI S NÁČELNÍKY, které se často podepisovaly bez porozumění jejich obsahu; (e) a CIVILIZAČNÍ MISÍ včetně boje proti otrokářství jako morálním zdůvodněním. Zdánlivě humanitární čl. 35 tedy ve skutečnosti UDĚLAL ZE SPRÁVNÍHO VÝKONU PODMÍNKU PRÁVNÍHO TITULU — a tím kolonizaci urychlil.",
+      "title": "Source: the Berlin Conference (1884–1885)",
+      "text": "THE SOURCE: 'Art. 34. Any power which henceforth takes possession of a tract of land on the coasts of the African continent outside of its present possessions, or which, being hitherto without such possessions, shall acquire them, as well as the power which assumes a protectorate there, shall accompany the respective act with a NOTIFICATION addressed to the other signatory powers of the present Act, in order to enable them, if need be, to make good any claims of their own. Art. 35. The signatory powers recognize the obligation to insure the ESTABLISHMENT OF AUTHORITY IN THE REGIONS OCCUPIED BY THEM ON THE COASTS OF THE AFRICAN CONTINENT SUFFICIENT TO PROTECT EXISTING RIGHTS and, as the case may be, freedom of trade and of transit under the conditions agreed upon.' THE HISTORICAL BACKGROUND: the sharp acceleration of the partition of Africa in the 1880s (the SCRAMBLE FOR AFRICA), disputes over the Congo and Niger basins, the activity of LEOPOLD II OF BELGIUM and his International Association, fears of conflict among the powers. The conference was convened by BISMARCK in BERLIN (November 1884 – February 1885); fourteen states took part, including the USA and the Ottoman Empire — BUT NOT A SINGLE AFRICAN REPRESENTATIVE, a fact that must not be missing from the answer. THE RESULTS: (1) the FINAL ACT (General Act) of 26 February 1885; (2) freedom of trade in the CONGO basin and freedom of navigation on the CONGO AND THE NIGER; (3) recognition of the CONGO FREE STATE as the personal property of Leopold II; (4) an undertaking to suppress SLAVERY and to promote the 'moral and material well-being' of the natives; (5) and procedural rules for future seizures. BEWARE OF A WIDESPREAD ERROR: THE CONFERENCE DID NOT PARTITION AFRICA AMONG THE POWERS — it drew no borders; it laid down THE RULES OF THE GAME by which the powers partitioned it over the following twenty years. HOW SEIZURE WAS LEGITIMATED: (a) by the requirement of NOTIFICATION to the others — note that the notification goes to EUROPEANS, not to the population concerned, so that the law is made among the colonizers themselves; (b) by the requirement of EFFECTIVE OCCUPATION (Art. 35) — it is not enough to raise a flag, a real authority must be established; this rejects the older title of mere discovery; (c) by the construction of TERRA NULLIUS and the denial that African polities are states in the sense of international law; (d) by TREATIES WITH CHIEFS, often signed without an understanding of their content; (e) and by the CIVILIZING MISSION, including the fight against slavery, as a moral justification. The apparently humanitarian Art. 35 thus in fact MADE ADMINISTRATIVE PERFORMANCE A CONDITION OF LEGAL TITLE — and thereby accelerated colonization.",
       "terms": [
         {
-          "term": "efektivní okupace",
-          "def": "Podmínka z čl. 35: zřízení skutečné autority, ne pouhé vztyčení vlajky; nahradila starší titul objevení."
+          "term": "effective occupation",
+          "def": "The condition in Art. 35: the establishment of real authority, not the mere raising of a flag; it replaced the older title of discovery."
         }
       ],
       "cards": [
         {
-          "q": "Kdo svolal Berlínskou konferenci, kdo se zúčastnil a co je na složení podstatné?",
-          "a": "Svolal ji BISMARCK do BERLÍNA (listopad 1884 – únor 1885); zúčastnilo se 14 států včetně USA a Osmanské říše — ALE ANI JEDEN AFRICKÝ ZÁSTUPCE. Pozadím byl SCRAMBLE FOR AFRICA, spory o povodí Konga a Nigeru a aktivita LEOPOLDA II. BELGICKÉHO.",
+          "q": "Who convened the Berlin Conference, who took part, and what is essential about the composition?",
+          "a": "It was convened by BISMARCK in BERLIN (November 1884 – February 1885); fourteen states took part, including the USA and the Ottoman Empire — BUT NOT A SINGLE AFRICAN REPRESENTATIVE. The background was the SCRAMBLE FOR AFRICA, disputes over the Congo and Niger basins and the activity of LEOPOLD II OF BELGIUM.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Jaké byly výsledky Berlínské konference a jaký omyl se o ní traduje?",
-          "a": "ZÁVĚREČNÝ AKT (26. 2. 1885); svoboda obchodu v povodí KONGA a plavby po Kongu a Nigeru; uznání KONŽSKÉHO SVOBODNÉHO STÁTU jako OSOBNÍHO VLASTNICTVÍ LEOPOLDA II.; závazek potírat otrokářství; procedurální pravidla pro zábory. OMYL: KONFERENCE AFRIKU NEROZDĚLILA a nekreslila hranice — stanovila PRAVIDLA HRY, podle kterých si ji mocnosti rozdělily v dalších dvaceti letech.",
+          "q": "What were the results of the Berlin Conference and what error is handed down about it?",
+          "a": "The FINAL ACT (26 February 1885); freedom of trade in the CONGO basin and navigation on the Congo and the Niger; recognition of the CONGO FREE STATE as the PERSONAL PROPERTY OF LEOPOLD II; an undertaking to suppress slavery; procedural rules for seizures. THE ERROR: THE CONFERENCE DID NOT PARTITION AFRICA and drew no borders — it laid down THE RULES OF THE GAME by which the powers partitioned it over the next twenty years.",
           "difficulty": 3,
           "kind": "pripad",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Jak se podle Berlínského aktu legitimoval zábor území?",
-          "a": "1) NOTIFIKACÍ ostatním mocnostem — oznamuje se EVROPANŮM, ne dotčenému obyvatelstvu, takže právo se tvoří mezi kolonizátory navzájem. 2) EFEKTIVNÍ OKUPACÍ (čl. 35) — nestačí vlajka, je třeba zřídit skutečnou autoritu; tím se odmítá starší titul objevení. 3) Konstrukcí TERRA NULLIUS. 4) SMLOUVAMI S NÁČELNÍKY. 5) CIVILIZAČNÍ MISÍ. Zdánlivě humanitární čl. 35 udělal ze SPRÁVNÍHO VÝKONU PODMÍNKU TITULU — a kolonizaci tím urychlil.",
+          "q": "How was the seizure of territory legitimated under the Berlin Act?",
+          "a": "1) By NOTIFICATION to the other powers — the notification goes to EUROPEANS, not to the population concerned, so the law is made among the colonizers themselves. 2) By EFFECTIVE OCCUPATION (Art. 35) — a flag is not enough, a real authority must be established; this rejects the older title of discovery. 3) By the construction of TERRA NULLIUS. 4) By TREATIES WITH CHIEFS. 5) By the CIVILIZING MISSION. The apparently humanitarian Art. 35 made ADMINISTRATIVE PERFORMANCE A CONDITION OF TITLE — and thereby accelerated colonization.",
           "difficulty": 3,
           "kind": "norma",
           "topic": "Imperialism and Constitutionalism before 1914",
@@ -107,26 +107,26 @@
     {
       "n": 3,
       "text_sha": null,
-      "title": "Expanze evropského práva od 15. do konce 19. století",
-      "text": "HLAVNÍ KROKY: (1) 15.–16. STOLETÍ, IBERSKÁ EXPANZE — Portugalsko a Španělsko, papežské buly a TORDESILLAS (1494); v Americe se zavádí kastilské právo a zřizují se zvláštní řády pro indiány (Leyes de Burgos 1512, Nové zákony 1542, později Recopilación de Leyes de Indias 1680); teologicko-právní spor o legitimitu (Vitoria, Las Casas, Sepúlveda). (2) 17.–18. STOLETÍ, OBCHODNÍ SPOLEČNOSTI — nizozemská VOC a britská East India Company dostávají svrchovaná oprávnění: smějí uzavírat smlouvy, vést války a soudit; právo se šíří jako PRÁVO PODNIKU, ne státu. Zároveň se v osadách severní Ameriky přenáší common law. (3) 18.–19. STOLETÍ, KOLONIÁLNÍ SPRÁVA — vzniká rozlišení PŘÍMÉ VLÁDY (francouzský model: asimilace, jednotné právo, občanství výjimečně) a NEPŘÍMÉ VLÁDY (britský model INDIRECT RULE: vláda skrze místní náčelníky a jejich obyčejové právo). Britové v Indii kodifikují hinduistické a muslimské osobní právo a zavádějí trestní zákoník (Indian Penal Code 1860, Macaulay). (4) 19. STOLETÍ, NUCENÉ OTEVŘENÍ A KAPITULACE — nerovné smlouvy s Čínou, Japonskem, Siamem, Persií; konzulární soudnictví; smíšené soudy v Egyptě (1876). (5) KONEC 19. STOLETÍ, VRCHOL ZÁBORŮ — Berlínská konference a rozdělení Afriky, protektoráty, mandátní předstupně. KOLIK Z TOHO BYLO VNUCENÍ A KOLIK SAMOSTATNÉ PŘEVZETÍ — na tuhle část otázky se často zapomíná: VNUCENÍ je zřejmé v koloniích, kde bylo právo zavedeno mocí. SAMOSTATNÉ PŘEVZETÍ ale existuje a je významné: JAPONSKO po roce 1868 (MEIDŽI) si samo vybralo vzory — nejdřív francouzské, pak německé — a napsalo ústavu (1889) i kodexy, aby se zbavilo kapitulací; OSMANSKÁ ŘÍŠE v období TANZIMATU (1839–1876) přejímá francouzské obchodní a trestní právo, ale v soukromém právu si kodifikuje VLASTNÍ hanafijské právo (MAJALLA 1869–76); SIAM, EGYPT, ČÍNA na sklonku dynastie Čching a Latinská Amerika po nezávislosti přejímají kodexy vlastním rozhodnutím. A mezi obojím leží ŠEDÁ ZÓNA: volba pod nátlakem okolností není totéž co svobodné rozhodnutí, ale není to ani prosté vnucení — je to to, co Kennedy nazývá VÝBĚREM, KTERÝM SE MÍSTNÍ ELITA ROZHODUJE, JAKÝM ZPŮSOBEM BUDE DOMINOVÁNA.",
+      "title": "The expansion of European law from the 15th to the end of the 19th century",
+      "text": "THE MAIN STEPS: (1) THE 15TH–16TH CENTURY, IBERIAN EXPANSION — Portugal and Spain, the papal bulls and TORDESILLAS (1494); in America Castilian law is introduced and special regimes are set up for the Indians (the Leyes de Burgos 1512, the New Laws 1542, later the Recopilación de Leyes de Indias 1680); the theological-legal dispute over legitimacy (Vitoria, Las Casas, Sepúlveda). (2) THE 17TH–18TH CENTURY, THE TRADING COMPANIES — the Dutch VOC and the British East India Company receive sovereign powers: they may conclude treaties, wage war and administer justice; law spreads as THE LAW OF A COMPANY, not of a state. At the same time the common law is transplanted to the settlements of North America. (3) THE 18TH–19TH CENTURY, COLONIAL ADMINISTRATION — the distinction arises between DIRECT RULE (the French model: assimilation, uniform law, citizenship only exceptionally) and INDIRECT RULE (the British model: government through local chiefs and their customary law). In India the British codify Hindu and Muslim personal law and introduce a criminal code (the Indian Penal Code 1860, Macaulay). (4) THE 19TH CENTURY, FORCED OPENING AND THE CAPITULATIONS — unequal treaties with China, Japan, Siam, Persia; consular jurisdiction; the mixed courts in Egypt (1876). (5) THE END OF THE 19TH CENTURY, THE HEIGHT OF SEIZURE — the Berlin Conference and the partition of Africa, protectorates, the precursors of the mandates. HOW MUCH OF THIS WAS IMPOSITION AND HOW MUCH INDEPENDENT ADOPTION — this part of the question is often forgotten: IMPOSITION is evident in the colonies, where law was introduced by force. INDEPENDENT ADOPTION, however, exists and matters: JAPAN after 1868 (MEIJI) chose its own models — first French, then German — and wrote a constitution (1889) and codes in order to be rid of the capitulations; the OTTOMAN EMPIRE in the TANZIMAT period (1839–1876) takes over French commercial and criminal law but in private law codifies ITS OWN Hanafi law (the MAJALLA 1869–76); SIAM, EGYPT, CHINA at the end of the Qing dynasty and Latin America after independence adopt codes by their own decision. And between the two lies a GREY ZONE: a choice made under the pressure of circumstances is not the same as a free decision, but neither is it plain imposition — it is what Kennedy calls THE CHOICE BY WHICH A LOCAL ELITE DECIDES IN WHAT MANNER IT WILL BE DOMINATED.",
       "terms": [
         {
           "term": "indirect rule",
-          "def": "Britský model vlády skrze místní náčelníky a jejich obyčejové právo; proti francouzské přímé vládě a asimilaci."
+          "def": "The British model of government through local chiefs and their customary law; against the French direct rule and assimilation."
         }
       ],
       "cards": [
         {
-          "q": "Načrtni hlavní kroky expanze evropského práva od 15. do 19. století.",
-          "a": "1) 15.–16. STOL. IBERSKÁ EXPANZE — Tordesillas 1494, kastilské právo v Americe, Leyes de Burgos 1512, spor o legitimitu (Vitoria, Las Casas). 2) 17.–18. STOL. OBCHODNÍ SPOLEČNOSTI — VOC a East India Company se svrchovanými oprávněními; právo jako PRÁVO PODNIKU. 3) 18.–19. STOL. KOLONIÁLNÍ SPRÁVA — přímá vláda (francouzská) × INDIRECT RULE (britská); Indian Penal Code 1860. 4) 19. STOL. NUCENÉ OTEVŘENÍ A KAPITULACE. 5) Konec století: BERLÍNSKÁ KONFERENCE a rozdělení Afriky.",
+          "q": "Sketch the main steps in the expansion of European law from the 15th to the 19th century.",
+          "a": "1) 15TH–16TH C. IBERIAN EXPANSION — Tordesillas 1494, Castilian law in America, the Leyes de Burgos 1512, the dispute over legitimacy (Vitoria, Las Casas). 2) 17TH–18TH C. THE TRADING COMPANIES — the VOC and the East India Company with sovereign powers; law as THE LAW OF A COMPANY. 3) 18TH–19TH C. COLONIAL ADMINISTRATION — direct rule (French) × INDIRECT RULE (British); the Indian Penal Code 1860. 4) 19TH C. FORCED OPENING AND THE CAPITULATIONS. 5) End of the century: the BERLIN CONFERENCE and the partition of Africa.",
           "difficulty": 3,
           "kind": "cisla",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Kde šlo o vnucení a kde o samostatné převzetí evropského práva?",
-          "a": "VNUCENÍ v koloniích. SAMOSTATNÉ PŘEVZETÍ: JAPONSKO po MEIDŽI (1868) si samo vybralo vzory a napsalo ústavu (1889) i kodexy, aby se zbavilo kapitulací; OSMANSKÁ ŘÍŠE v TANZIMATU přejímá francouzské obchodní a trestní právo, ale v soukromém kodifikuje VLASTNÍ hanafijské (MAJALLA 1869–76); Siam, Egypt, Latinská Amerika. Mezi obojím je ŠEDÁ ZÓNA — volba pod nátlakem okolností, tedy Kennedyho VÝBĚR, KTERÝM SE ELITA ROZHODUJE, JAK BUDE DOMINOVÁNA.",
+          "q": "Where was European law imposed and where independently adopted?",
+          "a": "IMPOSED in the colonies. INDEPENDENTLY ADOPTED: JAPAN after the MEIJI restoration (1868) chose its own models and wrote a constitution (1889) and codes in order to be rid of the capitulations; the OTTOMAN EMPIRE in the TANZIMAT takes over French commercial and criminal law but codifies ITS OWN Hanafi law in private law (the MAJALLA 1869–76); Siam, Egypt, Latin America. Between the two is a GREY ZONE — a choice under pressure, that is, Kennedy's CHOICE BY WHICH AN ELITE DECIDES HOW IT WILL BE DOMINATED.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Imperialism and Constitutionalism before 1914",
@@ -139,34 +139,34 @@
     {
       "n": 4,
       "text_sha": null,
-      "title": "Jak kolonialismus ovlivnil právo kolonizovaných zemí",
-      "text": "VZORCE VLIVU, KTERÉ SE DAJÍ ROZLIŠIT: (1) NAHRAZENÍ — evropské právo zcela vytlačí domácí; typické tam, kde bylo domorodé obyvatelstvo vyhubeno nebo vytlačeno osadníky (Severní Amerika, Austrálie). (2) DUALISMUS ČILI PRÁVNÍ PLURALISMUS — vedle evropského práva platí pro domorodé obyvatelstvo jeho vlastní 'obyčejové' či náboženské právo, zpravidla omezené na rodinné, dědické a pozemkové věci, a podřízené výhradě, že se nesmí příčit 'spravedlnosti a dobrým mravům' (repugnancy clause). To je nejběžnější vzorec a je v něm past: ZACHOVANÉ PRÁVO SE TÍM ZÁROVEŇ PROMĚNÍ — z pružné živé praxe se stane zapsaný, ustrnulý soubor pravidel aplikovaný cizími soudci; mluví se proto o 'VYNALEZENÉ TRADICI'. (3) KODIFIKACE DOMORODÉHO PRÁVA cizí rukou — anglo-hinduistické a anglo-muslimské právo v Indii, nizozemské zpracování ADATOVÉHO práva v Indonésii. (4) ZAVEDENÍ NOVÝCH INSTITUTŮ, které domácí řád neznal — zejména INDIVIDUÁLNÍ VLASTNICTVÍ PŮDY namísto kolektivní držby, obchodní společnosti, cenné papíry. (5) PŘESTAVBA SOUDNICTVÍ A PROCESU — hierarchie soudů, odvolání, psané řízení, advokacie. (6) TRESTNÍ PRÁVO JAKO NÁSTROJ SPRÁVY — nové skutkové podstaty (tuláctví, porušení pracovní smlouvy, daňové delikty) sloužící získávání pracovní síly. (7) ROZDĚLENÍ OBYVATELSTVA PODLE PRÁVNÍHO STATUSU — občané proti poddaným, v Africe francouzský INDIGÉNAT se zvláštním trestním režimem. VLIV PO NEZÁVISLOSTI: (a) VĚTŠINA NOVÝCH STÁTŮ SI KOLONIÁLNÍ PRÁVO PONECHALA, aspoň zpočátku — nebylo čím ho nahradit a soudci i úředníci byli školeni v něm; (b) hranice, správní členění i soudní soustava zůstaly; (c) v soukromém právu se dál drží dualismus, často zpevněný ústavním uznáním obyčejového a náboženského práva; (d) tam, kde se elity pustily do vlastní tvorby, sáhly zpravidla PO JINÉM EVROPSKÉM VZORU, ne mimo evropskou tradici; (e) a v hospodářské oblasti se od 60. let přidává druhá vlna vlivu skrze MEZINÁRODNÍ FINANČNÍ INSTITUCE A STRUKTURÁLNÍ PŘIZPŮSOBENÍ. Souhrnně: FORMÁLNÍ NEZÁVISLOST ZMĚNILA NOSITELE MOCI, NE PRÁVNÍ JAZYK.",
+      "title": "How colonialism affected the law of the colonized countries",
+      "text": "THE PATTERNS OF INFLUENCE THAT CAN BE DISTINGUISHED: (1) REPLACEMENT — European law displaces native law entirely; typical where the indigenous population was exterminated or pushed out by settlers (North America, Australia). (2) DUALISM, OR LEGAL PLURALISM — alongside European law, the indigenous population's own 'customary' or religious law applies, usually confined to family, succession and land matters, and subject to the reservation that it must not offend 'justice and good morals' (the repugnancy clause). This is the most common pattern, and there is a trap in it: THE LAW THUS PRESERVED IS AT THE SAME TIME TRANSFORMED — a flexible living practice becomes a written, frozen body of rules applied by foreign judges; hence the talk of an 'INVENTED TRADITION'. (3) THE CODIFICATION OF INDIGENOUS LAW BY FOREIGN HANDS — Anglo-Hindu and Anglo-Muhammadan law in India, the Dutch treatment of ADAT law in Indonesia. (4) THE INTRODUCTION OF NEW INSTITUTIONS unknown to the native order — above all INDIVIDUAL OWNERSHIP OF LAND instead of collective holding, companies, negotiable instruments. (5) THE RESTRUCTURING OF THE JUDICIARY AND PROCEDURE — a hierarchy of courts, appeal, written proceedings, an advocacy. (6) CRIMINAL LAW AS AN INSTRUMENT OF ADMINISTRATION — new offences (vagrancy, breach of a labour contract, tax offences) serving to obtain labour. (7) THE DIVISION OF THE POPULATION BY LEGAL STATUS — citizens against subjects, in Africa the French INDIGÉNAT with its special penal regime. THE INFLUENCE AFTER INDEPENDENCE: (a) MOST NEW STATES KEPT THE COLONIAL LAW, at least at first — there was nothing to replace it with and the judges and officials had been trained in it; (b) the borders, the administrative divisions and the court system remained; (c) in private law dualism persists, often reinforced by constitutional recognition of customary and religious law; (d) where elites did set about making their own law, they generally reached FOR ANOTHER EUROPEAN MODEL rather than outside the European tradition; (e) and in the economic sphere a second wave of influence is added from the 1960s through the INTERNATIONAL FINANCIAL INSTITUTIONS AND STRUCTURAL ADJUSTMENT. In sum: FORMAL INDEPENDENCE CHANGED THE BEARERS OF POWER, NOT THE LEGAL LANGUAGE.",
       "terms": [
         {
           "term": "repugnancy clause",
-          "def": "Výhrada, že domorodé právo platí, jen neodporuje-li „spravedlnosti a dobrým mravům“ podle kolonizátora."
+          "def": "The reservation that indigenous law applies only insofar as it does not offend 'justice and good morals' as the colonizer sees them."
         }
       ],
       "cards": [
         {
-          "q": "Jaké vzorce vlivu kolonialismu na právo lze rozlišit?",
-          "a": "1) NAHRAZENÍ (Severní Amerika, Austrálie). 2) DUALISMUS / PRÁVNÍ PLURALISMUS — domorodé právo zůstává pro rodinné a pozemkové věci s REPUGNANCY CLAUSE. 3) KODIFIKACE DOMORODÉHO PRÁVA cizí rukou (anglo-hinduistické právo, adat). 4) NOVÉ INSTITUTY, zejména INDIVIDUÁLNÍ VLASTNICTVÍ PŮDY. 5) PŘESTAVBA SOUDNICTVÍ. 6) TRESTNÍ PRÁVO JAKO NÁSTROJ SPRÁVY (tuláctví, porušení pracovní smlouvy). 7) ROZDĚLENÍ OBYVATELSTVA PODLE STATUSU (indigénat).",
+          "q": "Which patterns of colonial influence on law can be distinguished?",
+          "a": "1) REPLACEMENT (North America, Australia). 2) DUALISM / LEGAL PLURALISM — indigenous law remains for family and land matters, subject to the REPUGNANCY CLAUSE. 3) THE CODIFICATION OF INDIGENOUS LAW BY FOREIGN HANDS (Anglo-Hindu law, adat). 4) NEW INSTITUTIONS, above all INDIVIDUAL OWNERSHIP OF LAND. 5) THE RESTRUCTURING OF THE JUDICIARY. 6) CRIMINAL LAW AS AN INSTRUMENT OF ADMINISTRATION (vagrancy, breach of a labour contract). 7) THE DIVISION OF THE POPULATION BY STATUS (the indigénat).",
           "difficulty": 3,
           "kind": "znaky",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Jaká past se skrývá v zachování domorodého práva?",
-          "a": "Že ZACHOVANÉ PRÁVO SE TÍM ZÁROVEŇ PROMĚNÍ — z PRUŽNÉ ŽIVÉ PRAXE se stane ZAPSANÝ, USTRNULÝ SOUBOR PRAVIDEL aplikovaný cizími soudci. Mluví se proto o 'VYNALEZENÉ TRADICI'.",
+          "q": "What trap is hidden in the preservation of indigenous law?",
+          "a": "That THE LAW THUS PRESERVED IS AT THE SAME TIME TRANSFORMED — a FLEXIBLE LIVING PRACTICE becomes a WRITTEN, FROZEN BODY OF RULES applied by foreign judges. Hence the talk of an 'INVENTED TRADITION'.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Jak evropské právo působilo v bývalých koloniích po nezávislosti?",
-          "a": "VĚTŠINA STÁTŮ SI KOLONIÁLNÍ PRÁVO PONECHALA — nebylo čím ho nahradit a personál byl školen v něm; hranice, správa i soudní soustava zůstaly; v soukromém právu se drží dualismus; a kdo tvořil vlastní právo, sáhl zpravidla PO JINÉM EVROPSKÉM VZORU. Od 60. let přidávají druhou vlnu MEZINÁRODNÍ FINANČNÍ INSTITUCE a STRUKTURÁLNÍ PŘIZPŮSOBENÍ. Souhrnně: FORMÁLNÍ NEZÁVISLOST ZMĚNILA NOSITELE MOCI, NE PRÁVNÍ JAZYK.",
+          "q": "How did European law operate in the former colonies after independence?",
+          "a": "MOST STATES KEPT THE COLONIAL LAW — there was nothing to replace it with and the personnel had been trained in it; the borders, administration and court system remained; in private law dualism persists; and whoever made law of their own generally reached FOR ANOTHER EUROPEAN MODEL. From the 1960s the INTERNATIONAL FINANCIAL INSTITUTIONS and STRUCTURAL ADJUSTMENT add a second wave. In sum: FORMAL INDEPENDENCE CHANGED THE BEARERS OF POWER, NOT THE LEGAL LANGUAGE.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Imperialism and Constitutionalism before 1914",
@@ -179,29 +179,29 @@
     {
       "n": 5,
       "text_sha": null,
-      "title": "Protektorát",
-      "text": "PROTEKTORÁT je útvar, v němž SLABŠÍ CELEK ZŮSTÁVÁ FORMÁLNĚ ZACHOVÁN SE SVÝM VLÁDCEM, ALE PŘEDÁ SILNĚJŠÍMU STÁTU SVÉ ZAHRANIČNÍ VZTAHY A ZPRAVIDLA I OBRANU, často pak i klíčové části správy. Navenek tedy existuje domácí vládce, uvnitř rozhoduje rezident nebo generální rezident mocnosti. HISTORICKÝ KONTEXT VZNIKU: konec 19. století, kdy zábory zrychlují a mocnosti hledají LEVNĚJŠÍ A POLITICKY SNESITELNĚJŠÍ FORMU PANSTVÍ NEŽ ANEXI — protektorát nevyžaduje budovat úplnou správu, nedráždí tolik ostatní mocnosti, nezavazuje udělit obyvatelstvu status občanů a dá se před domácí veřejností prodat jako ochrana, ne dobytí. Berlínský akt (čl. 34) ho výslovně staví vedle záboru. PŘÍKLADY: TUNISKO (1881) a MAROKO (1912) pod Francií, EGYPT (1914) a řada afrických a asijských území pod Británií, německá 'ochranná území' (Schutzgebiete). PRÁVNÍ ZDŮVODNĚNÍ: opírá se o SMLOUVU O OCHRANĚ uzavřenou s domácím vládcem, tedy formálně o jeho SOUHLAS — což je konstrukce pohodlná i pochybná zároveň, protože smlouvy vznikaly pod hrozbou síly, často bez porozumění textu a s vládci, jejichž oprávnění zavázat celé společenství bylo sporné. Doplňkově se argumentovalo potřebou udržet pořádek, chránit vlastní příslušníky a plnit civilizační poslání. TROJÍ VZTAH, NA KTERÝ SE OTÁZKA PTÁ: (1) MOCNOST — DOMORODÉ OBYVATELSTVO: obyvatelé NEJSOU OBČANY mocnosti, nýbrž chráněnci či poddanými; nemají její politická práva a podléhají zvláštnímu režimu, přitom fakticky spravováni cizí mocí. (2) MOCNOST — DOMÁCÍ VLÁDCE: ten si ponechává titul a vnitřní legitimitu, čímž mocnosti slouží jako nástroj nepřímé vlády a nárazník odpovědnosti. (3) MOCNOST — OSTATNÍ EVROPSKÉ MOCNOSTI: tohle je klíč — protektorát je především SDĚLENÍM OSTATNÍM KOLONIZÁTORŮM, ŽE ÚZEMÍ JE ZABRÁNO; jeho hlavní právní účinek je vylučovací, tedy vůči konkurentům, a proto se notifikuje jim. TÍM SE UKAZUJE, ŽE MEZINÁRODNÍ PRÁVO TÉ DOBY UPRAVOVALO VZTAHY MEZI KOLONIZÁTORY, NE MEZI NIMI A KOLONIZOVANÝMI.",
+      "title": "The protectorate",
+      "text": "A PROTECTORATE is an arrangement in which THE WEAKER ENTITY IS FORMALLY PRESERVED WITH ITS OWN RULER BUT HANDS OVER TO THE STRONGER STATE ITS FOREIGN RELATIONS AND USUALLY ITS DEFENCE AS WELL, and often key parts of its administration too. Outwardly, then, there is a native ruler; inwardly the power's resident or resident-general decides. THE HISTORICAL CONTEXT OF ITS RISE: the end of the 19th century, when seizures accelerate and the powers look for a CHEAPER AND POLITICALLY MORE PALATABLE FORM OF RULE THAN ANNEXATION — a protectorate does not require building a complete administration, it irritates the other powers less, it does not oblige one to grant the population the status of citizens, and it can be sold to the domestic public as protection rather than conquest. The Berlin Act (Art. 34) expressly places it alongside seizure. EXAMPLES: TUNISIA (1881) and MOROCCO (1912) under France, EGYPT (1914) and a number of African and Asian territories under Britain, the German 'protected territories' (Schutzgebiete). THE LEGAL JUSTIFICATION: it rests on a TREATY OF PROTECTION concluded with the native ruler, that is, formally on his CONSENT — a construction at once convenient and dubious, because the treaties came about under the threat of force, often without an understanding of the text and with rulers whose authority to bind a whole community was questionable. Additionally it was argued from the need to maintain order, to protect one's own nationals and to fulfil a civilizing mission. THE THREEFOLD RELATION THE QUESTION ASKS ABOUT: (1) THE POWER AND THE INDIGENOUS POPULATION: the inhabitants ARE NOT CITIZENS of the power but protected persons or subjects; they have none of its political rights and are subject to a special regime, while being in fact administered by a foreign power. (2) THE POWER AND THE NATIVE RULER: he keeps his title and his internal legitimacy, thereby serving the power as an instrument of indirect rule and as a buffer of responsibility. (3) THE POWER AND THE OTHER EUROPEAN POWERS: this is the key — a protectorate is above all A COMMUNICATION TO THE OTHER COLONIZERS THAT THE TERRITORY IS TAKEN; its main legal effect is exclusionary, that is, directed at competitors, which is why it is notified to them. THIS SHOWS THAT THE INTERNATIONAL LAW OF THE TIME GOVERNED RELATIONS AMONG COLONIZERS, NOT BETWEEN THEM AND THE COLONIZED.",
       "terms": [],
       "cards": [
         {
-          "q": "Co je protektorát a proč mocnosti sahaly právě po něm?",
-          "a": "Útvar, kde SLABŠÍ CELEK ZŮSTÁVÁ FORMÁLNĚ ZACHOVÁN SE SVÝM VLÁDCEM, ALE PŘEDÁ SILNĚJŠÍMU ZAHRANIČNÍ VZTAHY A ZPRAVIDLA OBRANU. Byl to LEVNĚJŠÍ A POLITICKY SNESITELNĚJŠÍ ZPŮSOB PANSTVÍ NEŽ ANEXE — nevyžaduje budovat úplnou správu, nedráždí ostatní mocnosti, nezavazuje udělit obyvatelstvu občanství a dá se prodat jako ochrana, ne dobytí. Příklady: Tunisko 1881, Maroko 1912, Egypt 1914.",
+          "q": "What is a protectorate and why did the powers reach for it?",
+          "a": "An arrangement in which THE WEAKER ENTITY IS FORMALLY PRESERVED WITH ITS OWN RULER BUT HANDS OVER TO THE STRONGER ITS FOREIGN RELATIONS AND USUALLY ITS DEFENCE. It was a CHEAPER AND POLITICALLY MORE PALATABLE FORM OF RULE THAN ANNEXATION — no need to build a complete administration, less irritation to the other powers, no obligation to grant citizenship, and it could be sold as protection rather than conquest. Examples: Tunisia 1881, Morocco 1912, Egypt 1914.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Jak se protektorát právně zdůvodňoval a proč je to pochybné?",
-          "a": "SMLOUVOU O OCHRANĚ s domácím vládcem, tedy formálně jeho SOUHLASEM. Pochybné je to proto, že smlouvy vznikaly POD HROZBOU SÍLY, často BEZ POROZUMĚNÍ TEXTU a s vládci, jejichž OPRÁVNĚNÍ ZAVÁZAT CELÉ SPOLEČENSTVÍ BYLO SPORNÉ. Doplňkově se argumentovalo pořádkem, ochranou vlastních příslušníků a civilizačním posláním.",
+          "q": "How was a protectorate legally justified and why is that dubious?",
+          "a": "By a TREATY OF PROTECTION with the native ruler, that is, formally by his CONSENT. It is dubious because the treaties came about UNDER THE THREAT OF FORCE, often WITHOUT AN UNDERSTANDING OF THE TEXT and with rulers whose AUTHORITY TO BIND A WHOLE COMMUNITY WAS QUESTIONABLE. Additionally it was argued from order, the protection of one's own nationals and the civilizing mission.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Jaký je vztah mocnosti k obyvatelstvu, k domácímu vládci a k ostatním mocnostem?",
-          "a": "OBYVATELSTVO NENÍ OBČANY, nýbrž chráněnci bez politických práv. DOMÁCÍ VLÁDCE si ponechává titul a slouží jako nástroj nepřímé vlády a NÁRAZNÍK ODPOVĚDNOSTI. A KLÍČ: vůči OSTATNÍM MOCNOSTEM je protektorát především SDĚLENÍM, ŽE ÚZEMÍ JE ZABRÁNO — jeho hlavní účinek je VYLUČOVACÍ, proto se notifikuje jim. Ukazuje to, že mezinárodní právo té doby upravovalo VZTAHY MEZI KOLONIZÁTORY, ne mezi nimi a kolonizovanými.",
+          "q": "What is the power's relation to the population, to the native ruler and to the other powers?",
+          "a": "THE POPULATION ARE NOT CITIZENS but protected persons without political rights. THE NATIVE RULER keeps his title and serves as an instrument of indirect rule and a BUFFER OF RESPONSIBILITY. AND THE KEY: towards THE OTHER POWERS a protectorate is above all A COMMUNICATION THAT THE TERRITORY IS TAKEN — its main effect is EXCLUSIONARY, which is why it is notified to them. This shows that the international law of the time governed RELATIONS AMONG COLONIZERS, not between them and the colonized.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Imperialism and Constitutionalism before 1914",
@@ -214,38 +214,38 @@
     {
       "n": 6,
       "text_sha": null,
-      "title": "Pramen: Haagská úmluva II (1899) a haagské právo",
-      "text": "PRAMEN: 'KAPITOLA II. — O válečných zajatcích. Čl. 4 Váleční zajatci jsou v moci NEPŘÁTELSKÉ VLÁDY, nikoli jednotlivců či sborů, které je zajaly. Musí s nimi být zacházeno LIDSKY. Všechny jejich osobní věci, kromě zbraní, koní a vojenských listin, zůstávají jejich vlastnictvím.' (Úmluva o zákonech a obyčejích války pozemní, Haagská úmluva II, 29. července 1899.) CO BYLY HAAGSKÉ ÚMLUVY: výsledek DVOU MÍROVÝCH KONFERENCÍ V HAAGU — první svolal roku 1899 z podnětu RUSKÉHO CARA MIKULÁŠE II. (26 států), druhá se konala roku 1907 (44 států, tedy poprvé se silnou účastí mimoevropských a latinskoamerických zemí). Původní záměr byl OMEZIT ZBROJENÍ; ten neuspěl, zato se podařilo dvojí: (1) KODIFIKOVAT PRÁVO VÁLEČNÉ, tedy pravidla vedení boje — proto se dodnes říká 'HAAGSKÉ PRÁVO' na rozdíl od 'ŽENEVSKÉHO', které chrání osoby mimo boj; k úmluvě II je připojen ŘÁD VÁLKY POZEMNÍ (Haager Landkriegsordnung); (2) ROZVINOUT MÍROVÉ ŘEŠENÍ SPORŮ — úmluva o pokojném řešení sporů zřídila STÁLÝ ROZHODČÍ SOUD (1899), první stálou mezinárodní soudní instituci. DOPAD NA TEHDEJŠÍ MEZINÁRODNÍ PRÁVO: (a) poprvé se ve velkém KODIFIKUJE OBYČEJOVÉ MEZINÁRODNÍ PRÁVO mnohostrannou smlouvou; (b) prosazuje se myšlenka, že i VÁLKA JE PRÁVEM UPRAVENA — že existují prostředky, které jsou zakázány (zásada, že právo volby prostředků poškozování nepřítele NENÍ NEOMEZENÉ); (c) objevuje se MARTENSOVA DOLOŽKA, podle níž v případech neupravených úmluvou zůstávají obyvatelstvo a válčící pod ochranou ZÁSAD MEZINÁRODNÍHO PRÁVA plynoucích ze zvyklostí civilizovaných národů, ZÁKONŮ LIDSKOSTI A POŽADAVKŮ VEŘEJNÉHO SVĚDOMÍ — tedy otevřená klauzule, která přežila dodnes; (d) zakládá se INSTITUCIONÁLNÍ ROZMĚR mezinárodního práva, na který naváže Společnost národů; (e) a vzniká precedens MNOHOSTRANNÉ KONFERENCE jako způsobu tvorby práva. OMEZENÍ, KTERÁ JE TŘEBA ZMÍNIT: úmluvy obsahovaly DOLOŽKU VŠEOBECNÉ ÚČASTI (si omnes), podle níž zavazovaly jen tehdy, byly-li všechny válčící strany smluvními stranami — což jejich použití v první světové válce silně oslabilo; nezakazovaly válku jako takovou, jen upravovaly její vedení; a samotné vypuknutí a průběh první světové války ukázaly, jak snadno se pravidla obcházejí.",
+      "title": "Source: Hague Convention II (1899) and Hague law",
+      "text": "THE SOURCE: 'CHAPTER II. — On prisoners of war. Art. 4 Prisoners of war are in the power of the HOSTILE GOVERNMENT, but not in that of the individuals or corps who captured them. They must be HUMANELY TREATED. All their personal belongings, except arms, horses and military papers, remain their property.' (Convention with respect to the Laws and Customs of War on Land, Hague Convention II, 29 July 1899.) WHAT THE HAGUE CONVENTIONS WERE: the result of TWO PEACE CONFERENCES AT THE HAGUE — the first convened in 1899 at the initiative of the RUSSIAN TSAR NICHOLAS II (26 states), the second held in 1907 (44 states, that is, for the first time with strong participation of non-European and Latin American countries). The original aim was TO LIMIT ARMAMENTS; that failed, but two things succeeded: (1) TO CODIFY THE LAW OF WAR, that is, the rules on the conduct of hostilities — hence the phrase 'HAGUE LAW' to this day, as against 'GENEVA LAW', which protects persons outside combat; annexed to Convention II are the REGULATIONS ON LAND WARFARE (Haager Landkriegsordnung); (2) TO DEVELOP THE PEACEFUL SETTLEMENT OF DISPUTES — the convention on the pacific settlement of disputes established the PERMANENT COURT OF ARBITRATION (1899), the first permanent international judicial institution. THE IMPACT ON THE INTERNATIONAL LAW OF THE TIME: (a) for the first time CUSTOMARY INTERNATIONAL LAW IS CODIFIED ON A LARGE SCALE by a multilateral treaty; (b) the idea gains ground that EVEN WAR IS GOVERNED BY LAW — that certain means are prohibited (the principle that the right to choose means of injuring the enemy IS NOT UNLIMITED); (c) the MARTENS CLAUSE appears, under which in cases not covered by the convention the population and the belligerents remain under the protection of THE PRINCIPLES OF INTERNATIONAL LAW derived from the usages of civilized nations, THE LAWS OF HUMANITY AND THE DICTATES OF THE PUBLIC CONSCIENCE — an open clause that survives to this day; (d) an INSTITUTIONAL DIMENSION of international law is founded, which the League of Nations will build on; (e) and a precedent is set for the MULTILATERAL CONFERENCE as a method of making law. THE LIMITATIONS THAT MUST BE MENTIONED: the conventions contained the GENERAL PARTICIPATION CLAUSE (si omnes), under which they bound only if all the belligerents were parties — which greatly weakened their application in the First World War; they did not prohibit war as such, only regulated its conduct; and the outbreak and course of the First World War showed how easily the rules are circumvented.",
       "terms": [
         {
-          "term": "Martensova doložka",
-          "def": "V neupravených případech chrání osoby zásady plynoucí ze zvyklostí, zákonů lidskosti a požadavků veřejného svědomí."
+          "term": "Martens clause",
+          "def": "In cases not covered, persons remain protected by principles derived from usage, the laws of humanity and the dictates of the public conscience."
         },
         {
-          "term": "haagské × ženevské právo",
-          "def": "Haagské upravuje vedení boje, ženevské chrání osoby mimo boj."
+          "term": "Hague × Geneva law",
+          "def": "Hague law governs the conduct of hostilities; Geneva law protects persons outside combat."
         }
       ],
       "cards": [
         {
-          "q": "Co byly Haagské úmluvy a co se na konferencích podařilo?",
-          "a": "Výsledek DVOU MÍROVÝCH KONFERENCÍ V HAAGU — 1899 z podnětu RUSKÉHO CARA MIKULÁŠE II. (26 států) a 1907 (44 států). Původní záměr OMEZIT ZBROJENÍ neuspěl, ale podařilo se: 1) KODIFIKOVAT PRÁVO VÁLEČNÉ, tedy pravidla vedení boje ('HAAGSKÉ PRÁVO', s Řádem války pozemní); 2) zřídit STÁLÝ ROZHODČÍ SOUD (1899), první stálou mezinárodní soudní instituci.",
+          "q": "What were the Hague Conventions and what did the conferences achieve?",
+          "a": "The result of TWO PEACE CONFERENCES AT THE HAGUE — 1899 at the initiative of the RUSSIAN TSAR NICHOLAS II (26 states) and 1907 (44 states). The original aim of LIMITING ARMAMENTS failed, but they achieved: 1) THE CODIFICATION OF THE LAW OF WAR, that is, the rules on the conduct of hostilities ('HAGUE LAW', with the Regulations on Land Warfare); 2) the establishment of the PERMANENT COURT OF ARBITRATION (1899), the first permanent international judicial institution.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Jaký dopad měly Haagské úmluvy na mezinárodní právo?",
-          "a": "1) Poprvé se ve velkém KODIFIKUJE OBYČEJOVÉ PRÁVO mnohostrannou smlouvou. 2) Prosazuje se, že I VÁLKA JE PRÁVEM UPRAVENA — právo volby prostředků poškozování nepřítele NENÍ NEOMEZENÉ. 3) Vzniká MARTENSOVA DOLOŽKA (zákony lidskosti a požadavky veřejného svědomí). 4) Zakládá se INSTITUCIONÁLNÍ ROZMĚR, na který naváže Společnost národů. 5) Vzniká precedens MNOHOSTRANNÉ KONFERENCE jako způsobu tvorby práva.",
+          "q": "What impact did the Hague Conventions have on international law?",
+          "a": "1) For the first time CUSTOMARY LAW IS CODIFIED ON A LARGE SCALE by a multilateral treaty. 2) The idea gains ground that EVEN WAR IS GOVERNED BY LAW — the right to choose means of injuring the enemy IS NOT UNLIMITED. 3) The MARTENS CLAUSE arises (the laws of humanity and the dictates of the public conscience). 4) An INSTITUTIONAL DIMENSION is founded, which the League of Nations will build on. 5) A precedent is set for the MULTILATERAL CONFERENCE as a method of making law.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Imperialism and Constitutionalism before 1914",
           "priority": "core"
         },
         {
-          "q": "Jaká omezení Haagské úmluvy měly?",
-          "a": "DOLOŽKA VŠEOBECNÉ ÚČASTI (si omnes) — zavazovaly jen tehdy, byly-li VŠECHNY válčící strany smluvními stranami, což jejich použití v první světové válce silně oslabilo. NEZAKAZOVALY VÁLKU JAKO TAKOVOU, jen upravovaly její vedení. A průběh první světové války ukázal, jak snadno se pravidla obcházejí.",
+          "q": "What limitations did the Hague Conventions have?",
+          "a": "THE GENERAL PARTICIPATION CLAUSE (si omnes) — they bound only if ALL the belligerents were parties, which greatly weakened their application in the First World War. They DID NOT PROHIBIT WAR AS SUCH, only regulated its conduct. And the course of the First World War showed how easily the rules are circumvented.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Imperialism and Constitutionalism before 1914",
@@ -258,37 +258,37 @@
     {
       "n": 7,
       "text_sha": null,
-      "title": "Pramen: Versailleská smlouva a Pakt Společnosti národů",
-      "text": "PRAMEN: 'Čl. 8 (1) Členové Ligy uznávají, že zachování míru vyžaduje SNÍŽENÍ NÁRODNÍHO ZBROJENÍ NA NEJNIŽŠÍ MÍRU SLUČITELNOU S NÁRODNÍ BEZPEČNOSTÍ a vynucování mezinárodních závazků společnou akcí. (2) RADA, přihlížejíc k zeměpisné poloze a poměrům každého státu, vypracuje plány takového snížení k posouzení a rozhodnutí jednotlivým vládám. (3) Tyto plány se přezkoumají a zrevidují nejméně jednou za deset let.' (Versailleská smlouva, 28. června 1919 — text je částí I, tedy Paktem Společnosti národů.) KTEROU VÁLKU SMLOUVA UKONČILA: PRVNÍ SVĚTOVOU VÁLKU, a to ve vztahu k NĚMECKU. DVĚ DALŠÍ SMLOUVY SE SPOJENCI NĚMECKA: SAINT-GERMAINSKÁ (10. 9. 1919) s RAKOUSKEM a TRIANONSKÁ (4. 6. 1920) s MAĎARSKEM; k nim ještě NEUILLYSKÁ (27. 11. 1919) s BULHARSKEM a SÈVRESKÁ (10. 8. 1920) s OSMANSKOU ŘÍŠÍ, nahrazená LAUSANNSKOU (1923). SOUHRNNĚ SE JIM ŘÍKÁ PAŘÍŽSKÉ MÍROVÉ SMLOUVY (též versailleský systém). O JAKOU 'LIGU' JDE: SPOLEČNOST NÁRODŮ (League of Nations, Völkerbund), zřízená Paktem jako částí I každé z mírových smluv; sídlila v ŽENEVĚ. TRVALA formálně od 10. ledna 1920 do 18. dubna 1946, kdy se sama rozpustila; JEJÍ MÍSTO ZAUJALA ORGANIZACE SPOJENÝCH NÁRODŮ (Charta podepsána 26. června 1945, v platnost 24. října 1945). RADOU v odst. 2 se rozumí RADA SPOLEČNOSTI NÁRODŮ, orgán se stálými členy (velmoci) a nestálými — předchůdce Rady bezpečnosti; vedle ní stálo SHROMÁŽDĚNÍ a SEKRETARIÁT. ČTYŘI EVROPSKÉ STÁTY, KTERÉ VZNIKLY ČI ZÍSKALY NEZÁVISLOST V DŮSLEDKU PRVNÍ SVĚTOVÉ VÁLKY: ČESKOSLOVENSKO, POLSKO, FINSKO a JUGOSLÁVIE (Království Srbů, Chorvatů a Slovinců); dále lze uvést RAKOUSKO, MAĎARSKO, LITVU, LOTYŠSKO a ESTONSKO. CO BYLO NA VŠECH MÍROVÝCH SMLOUVÁCH NOVÉHO V OBLASTI MEZINÁRODNÍHO PRÁVA — a tohle je jádro otázky: (1) ZŘÍZENÍ STÁLÉ MEZINÁRODNÍ ORGANIZACE s vlastními orgány, tedy přechod od konferenční diplomacie k institucím; (2) POKUS OMEZIT PRÁVO NA VÁLKU (ius ad bellum) — Pakt zavedl povinnost předložit spor k rozhodčímu či soudnímu řízení nebo Radě a nezahájit válku dříve než tři měsíce po nálezu, plus SANKCE proti tomu, kdo to poruší; (3) ZÁSADA SEBEURČENÍ NÁRODŮ jako organizační princip nového uspořádání střední a východní Evropy; (4) MEZIVÁLEČNÉ REŽIMY OCHRANY MENŠIN, uložené novým a rozšířeným státům smlouvami a pod dohledem Společnosti národů — poprvé je s mezinárodní ochranou spojena skupina uvnitř státu; (5) MANDÁTNÍ SYSTÉM (čl. 22 Paktu) pro bývalá koloniální a osmanská území, který je svěřuje do správy mocností jako 'posvátné poslání civilizace' s povinností podávat zprávy — právně tedy poprvé kolonie NENÍ jen majetkem, nýbrž svěřenstvím; (6) zřízení STÁLÉHO DVORA MEZINÁRODNÍ SPRAVEDLNOSTI (1922) a MEZINÁRODNÍ ORGANIZACE PRÁCE; (7) a čl. 227 Versailleské smlouvy s obžalobou Viléma II. — první pokus o INDIVIDUÁLNÍ TRESTNÍ ODPOVĚDNOST hlavy státu, byť nerealizovaný, protože Nizozemsko císaře nevydalo.",
+      "title": "Source: the Treaty of Versailles and the Covenant of the League of Nations",
+      "text": "THE SOURCE: 'Art. 8 (1) The Members of the League recognize that the maintenance of peace requires the REDUCTION OF NATIONAL ARMAMENTS TO THE LOWEST POINT CONSISTENT WITH NATIONAL SAFETY and the enforcement by common action of international obligations. (2) THE COUNCIL, taking account of the geographical situation and circumstances of each State, shall formulate plans for such reduction for the consideration and action of the several Governments. (3) Such plans shall be subject to reconsideration and revision at least every ten years.' (The Treaty of Versailles, 28 June 1919 — the text is Part I, that is, the Covenant of the League of Nations.) WHICH WAR THE TREATY ENDED: THE FIRST WORLD WAR, in relation to GERMANY. TWO FURTHER TREATIES WITH GERMANY'S ALLIES: SAINT-GERMAIN (10 September 1919) with AUSTRIA and TRIANON (4 June 1920) with HUNGARY; to these belong NEUILLY (27 November 1919) with BULGARIA and SÈVRES (10 August 1920) with the OTTOMAN EMPIRE, replaced by LAUSANNE (1923). Together they are called the PARIS PEACE TREATIES (or the Versailles system). WHICH 'LEAGUE' IT IS: the LEAGUE OF NATIONS (Société des Nations, Völkerbund), established by the Covenant as Part I of each of the peace treaties; its seat was GENEVA. IT LASTED formally from 10 January 1920 to 18 April 1946, when it dissolved itself; ITS PLACE WAS TAKEN BY THE UNITED NATIONS (Charter signed 26 June 1945, in force 24 October 1945). The COUNCIL in paragraph 2 means the COUNCIL OF THE LEAGUE OF NATIONS, a body with permanent members (the great powers) and non-permanent ones — the precursor of the Security Council; alongside it stood the ASSEMBLY and the SECRETARIAT. FOUR EUROPEAN STATES THAT CAME INTO BEING OR GAINED INDEPENDENCE AS A RESULT OF THE FIRST WORLD WAR: CZECHOSLOVAKIA, POLAND, FINLAND and YUGOSLAVIA (the Kingdom of Serbs, Croats and Slovenes); one may also name AUSTRIA, HUNGARY, LITHUANIA, LATVIA and ESTONIA. WHAT WAS NEW IN INTERNATIONAL LAW IN ALL THE PEACE TREATIES — and this is the core of the question: (1) THE ESTABLISHMENT OF A PERMANENT INTERNATIONAL ORGANIZATION with its own organs, that is, the move from conference diplomacy to institutions; (2) AN ATTEMPT TO LIMIT THE RIGHT TO WAR (ius ad bellum) — the Covenant introduced a duty to submit a dispute to arbitration, judicial settlement or the Council and not to resort to war until three months after the award, plus SANCTIONS against whoever breaks this; (3) THE PRINCIPLE OF THE SELF-DETERMINATION OF PEOPLES as the organizing principle of the new order in central and eastern Europe; (4) THE INTERWAR REGIMES FOR THE PROTECTION OF MINORITIES, imposed on the new and enlarged states by treaty and supervised by the League — for the first time a group within a state is given international protection; (5) THE MANDATE SYSTEM (Art. 22 of the Covenant) for the former colonial and Ottoman territories, which entrusts them to the administration of the powers as a 'sacred trust of civilization' with a duty to report — legally, then, a colony is for the first time NOT merely property but a trust; (6) the establishment of the PERMANENT COURT OF INTERNATIONAL JUSTICE (1922) and of the INTERNATIONAL LABOUR ORGANIZATION; (7) and Art. 227 of the Treaty of Versailles with the arraignment of William II — the first attempt at INDIVIDUAL CRIMINAL RESPONSIBILITY of a head of state, unrealized because the Netherlands did not extradite the emperor.",
       "terms": [],
       "cards": [
         {
-          "q": "Jaké smlouvy tvoří pařížský mírový systém?",
-          "a": "VERSAILLESKÁ (28. 6. 1919) s Německem, SAINT-GERMAINSKÁ (10. 9. 1919) s RAKOUSKEM, TRIANONSKÁ (4. 6. 1920) s MAĎARSKEM, NEUILLYSKÁ (27. 11. 1919) s BULHARSKEM a SÈVRESKÁ (10. 8. 1920) s OSMANSKOU ŘÍŠÍ, nahrazená LAUSANNSKOU (1923). Souhrnně PAŘÍŽSKÉ MÍROVÉ SMLOUVY čili versailleský systém.",
+          "q": "Which treaties make up the Paris peace system?",
+          "a": "VERSAILLES (28 June 1919) with Germany, SAINT-GERMAIN (10 September 1919) with AUSTRIA, TRIANON (4 June 1920) with HUNGARY, NEUILLY (27 November 1919) with BULGARIA and SÈVRES (10 August 1920) with the OTTOMAN EMPIRE, replaced by LAUSANNE (1923). Together the PARIS PEACE TREATIES, or the Versailles system.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "World War I and the Paris Peace Conference",
           "priority": "core"
         },
         {
-          "q": "Co je „Liga“ z čl. 8, jak dlouho trvala a co ji nahradilo?",
-          "a": "SPOLEČNOST NÁRODŮ, zřízená Paktem jako částí I každé mírové smlouvy, se sídlem v ŽENEVĚ. Trvala od 10. ledna 1920 do 18. dubna 1946, kdy se sama rozpustila; nahradila ji ORGANIZACE SPOJENÝCH NÁRODŮ (Charta 26. 6. 1945, platnost 24. 10. 1945). 'Rada' je RADA SPOLEČNOSTI NÁRODŮ se stálými (velmoci) a nestálými členy — předchůdce Rady bezpečnosti; vedle ní SHROMÁŽDĚNÍ a SEKRETARIÁT.",
+          "q": "What is the 'League' of Art. 8, how long did it last and what replaced it?",
+          "a": "The LEAGUE OF NATIONS, established by the Covenant as Part I of each peace treaty, with its seat in GENEVA. It lasted from 10 January 1920 to 18 April 1946, when it dissolved itself; it was replaced by the UNITED NATIONS (Charter 26 June 1945, in force 24 October 1945). The 'Council' is the COUNCIL OF THE LEAGUE with permanent (the great powers) and non-permanent members — the precursor of the Security Council; alongside it the ASSEMBLY and the SECRETARIAT.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "World War I and the Paris Peace Conference",
           "priority": "core"
         },
         {
-          "q": "Co bylo na pařížských mírových smlouvách nového v mezinárodním právu?",
-          "a": "1) STÁLÁ MEZINÁRODNÍ ORGANIZACE s vlastními orgány — přechod od konferenční diplomacie k institucím. 2) POKUS OMEZIT PRÁVO NA VÁLKU (povinné předložení sporu, tříměsíční lhůta, sankce). 3) ZÁSADA SEBEURČENÍ NÁRODŮ. 4) REŽIMY OCHRANY MENŠIN pod dohledem Společnosti národů. 5) MANDÁTNÍ SYSTÉM (čl. 22) — kolonie poprvé není majetkem, nýbrž SVĚŘENSTVÍM. 6) STÁLÝ DVŮR MEZINÁRODNÍ SPRAVEDLNOSTI (1922) a ILO. 7) Čl. 227 s obžalobou Viléma II. — první pokus o INDIVIDUÁLNÍ TRESTNÍ ODPOVĚDNOST hlavy státu.",
+          "q": "What was new in international law in the Paris peace treaties?",
+          "a": "1) A PERMANENT INTERNATIONAL ORGANIZATION with its own organs — the move from conference diplomacy to institutions. 2) AN ATTEMPT TO LIMIT THE RIGHT TO WAR (compulsory submission of disputes, a three-month period, sanctions). 3) THE PRINCIPLE OF SELF-DETERMINATION. 4) REGIMES FOR THE PROTECTION OF MINORITIES supervised by the League. 5) THE MANDATE SYSTEM (Art. 22) — a colony is for the first time not property but a TRUST. 6) The PERMANENT COURT OF INTERNATIONAL JUSTICE (1922) and the ILO. 7) Art. 227 with the arraignment of William II — the first attempt at INDIVIDUAL CRIMINAL RESPONSIBILITY of a head of state.",
           "difficulty": 3,
           "kind": "znaky",
           "topic": "World War I and the Paris Peace Conference",
           "priority": "core"
         },
         {
-          "q": "Které evropské státy vznikly v důsledku první světové války?",
-          "a": "ČESKOSLOVENSKO, POLSKO, FINSKO a JUGOSLÁVIE (Království Srbů, Chorvatů a Slovinců); dále RAKOUSKO a MAĎARSKO jako nástupnické státy monarchie a pobaltské LITVA, LOTYŠSKO a ESTONSKO.",
+          "q": "Which European states came into being as a result of the First World War?",
+          "a": "CZECHOSLOVAKIA, POLAND, FINLAND and YUGOSLAVIA (the Kingdom of Serbs, Croats and Slovenes); further AUSTRIA and HUNGARY as successor states of the monarchy, and the Baltic states LITHUANIA, LATVIA and ESTONIA.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "World War I and the Paris Peace Conference",
