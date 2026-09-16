@@ -1,691 +1,291 @@
 {
   "lecture_id": "RD14",
-  "title": "Kimble/Röwekamp, Právní kultura v evropských dějinách 1860–1960",
+  "title": "Kimble/Röwekamp, Legal Culture in European History 1860–1960",
   "slides": {
     "1": {
-      "title": "Teze knihy: právo prosáklé mužským pohledem — a přesto nástroj žen",
-      "text": "Úvod Sary L. KIMBLE a Marion RÖWEKAMP ke sborníku NEW PERSPECTIVES ON EUROPEAN WOMEN'S LEGAL HISTORY. Výchozí teze zní slovy právní teoretičky CATHARINE MacKINNON, že SAMO PRÁVO JE PROSÁKLÉ MUŽSKOU PŘEDPOJATOSTÍ A UTVÁŘENÉ MUŽSKOU DOMINANCÍ — zákony DĚLALI MUŽI, VYKLÁDALI JE MUŽI A DONEDÁVNA JE VÝHRADNĚ MUŽI I VYKONÁVALI. Spolu s náboženstvím a dalšími patriarchálními silami tak právo posilovalo mocenské systémy v neprospěch žen. ALE — A NA TÉ DRUHÉ POLOVINĚ TEZE STOJÍ CELÁ KNIHA — ŽENY I MUŽI ZÁROVEŇ POUŽÍVALI PRÁVNÍ SYSTÉMY, PRÁVNÍ ZNALOSTI A POLITICKÉ STRUKTURY K VYSLOVENÍ ODPORU PROTI NEROVNOSTEM, KTERÉ PRÁVO VYTVOŘILO NEBO ZPEVNILO. Autoři tedy zkoumají, JAK PRÁVO SPOLUUTVÁŘÍ SOCIÁLNÍ KONSTRUKCI GENDERU. Kniha má TŘI ČÁSTI: I. gender a moc v RODINNÉM PRÁVU v století 1860–1960; II. VSTUP ŽEN DO PRÁVNICKÉ PROFESE ve srovnávací perspektivě; III. MEZINÁRODNÍ REFORMY dotýkající se právního postavení žen.",
+      "title": "The thesis: a law steeped in the male view — and yet a tool for women",
+      "text": "The introduction by Sara L. KIMBLE and Marion RÖWEKAMP to the volume NEW PERSPECTIVES ON EUROPEAN WOMEN'S LEGAL HISTORY. The opening thesis is, in the words of the legal theorist CATHARINE MacKINNON, that LAW ITSELF IS STEEPED IN MALE BIAS AND SHAPED BY MALE DOMINANCE — the laws were MADE BY MEN, INTERPRETED BY MEN AND UNTIL RECENTLY ENFORCED EXCLUSIVELY BY MEN. Together with religion and other patriarchal forces, law thus reinforced systems of power to the disadvantage of women. BUT — AND THE WHOLE BOOK RESTS ON THAT SECOND HALF OF THE THESIS — WOMEN AND MEN ALIKE USED LEGAL SYSTEMS, LEGAL KNOWLEDGE AND POLITICAL STRUCTURES TO VOICE RESISTANCE AGAINST THE INEQUALITIES LAW HAD CREATED OR ENTRENCHED. The authors therefore examine HOW LAW HELPS TO SHAPE THE SOCIAL CONSTRUCTION OF GENDER. The book has THREE PARTS: I. gender and power in FAMILY LAW in the century 1860–1960; II. THE ENTRY OF WOMEN INTO THE LEGAL PROFESSION in comparative perspective; III. INTERNATIONAL REFORMS bearing on the legal position of women.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jaká je dvojí teze úvodu Kimble a Röwekamp?",
-          "a": "1) Právo je PROSÁKLÉ MUŽSKOU PŘEDPOJATOSTÍ (MacKinnon) — zákony dělali, vykládali a vykonávali muži, a spolu s náboženstvím posilovaly patriarchální moc. 2) ZÁROVEŇ ale ženy PRÁVO SAMY POUŽÍVALY — právní znalosti a politické struktury jim sloužily k odporu proti nerovnostem, které právo vytvořilo.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jak je kniha rozdělena?",
-          "a": "Tři části: I. gender a moc v RODINNÉM PRÁVU 1860–1960; II. VSTUP ŽEN DO PRÁVNICKÉ PROFESE ve srovnávací perspektivě a jeho vztah k hnutí za práva žen; III. MEZINÁRODNÍ REFORMY iniciované v reakci na právní postavení žen nebo je ovlivňující.",
-          "difficulty": 1,
-          "kind": "schema",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What is the twofold thesis of Kimble and Röwekamp's introduction?", "a": "1) Law is STEEPED IN MALE BIAS (MacKinnon) — the laws were made, interpreted and enforced by men, and together with religion reinforced patriarchal power. 2) AT THE SAME TIME women USED THE LAW THEMSELVES — legal knowledge and political structures served them to resist the inequalities law had created.", "difficulty": 2, "kind": "basic", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "How is the book divided?", "a": "Three parts: I. gender and power in FAMILY LAW 1860–1960; II. THE ENTRY OF WOMEN INTO THE LEGAL PROFESSION in comparative perspective and its relation to the women's rights movement; III. INTERNATIONAL REFORMS prompted by or affecting the legal position of women.", "difficulty": 1, "kind": "schema", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "2": {
-      "title": "Paradox kodifikace: rovnost na papíře, podřízenost v zákoně",
-      "text": "Ústřední výzkumná otázka celé knihy: JAK EVROPANÉ ODPOVĚDĚLI NA NOVÁ OMEZENÍ PRÁV ŽEN, KTERÁ VZNIKLA KODIFIKACEMI KONCE 18. A POČÁTKU 19. STOLETÍ. A tady je ta pointa, kterou si musíš zapamatovat: NEROVNÉ PRÁVNÍ POSTAVENÍ ŽEN BYLO V RODINNÉM PRÁVU ZPEVNĚNO PRÁVĚ V OKAMŽIKU, KDY ZÁJMY STÁTU ZAČALY SOUPEŘIT SE ZÁJMY ZAVEDENÝCH NÁBOŽENSTVÍ. Sama rodina se stala POLITICKÝM MÍSTEM, jak se liberální práva spojila s MASKULINITOU způsobem, který ženám příležitosti dál zhoršil. Tři osvícenské kodifikace hlásaly rovnost pohlaví: KODEX MAXIMILIANEUS BAVARICUS Z ROKU 1756 říká, že 'lidé jsou přírodou rozděleni různě, především na mužské a ženské pohlaví… obecně nemá žádné pohlaví přednost před druhým'; PRUSKÉ ALLGEMEINES LANDRECHT Z ROKU 1794, že 'práva obou pohlaví jsou stejná, pokud zvláštní zákony nebo platná prohlášení vůle nestanoví výjimky'; a RAKOUSKÝ ABGB Z ROKU 1811 rovnost pohlaví VŮBEC NEZMIŇUJE, protože jeho autor FRANZ VON ZEILLER pokládal za samozřejmé, že muži a ženy jsou si v soukromém právu rovni. Ale ty přirozenoprávní deklarace rovnosti NEZVÍTĚZILY NAD ZVYKLOSTMI, kde ženy zůstaly podřízené mužům v rodině i ve společnosti.",
+      "title": "The paradox of codification: equality on paper, subordination in the statute",
+      "text": "The central research question of the whole book: HOW EUROPEANS RESPONDED TO THE NEW RESTRICTIONS ON WOMEN'S RIGHTS CREATED BY THE CODIFICATIONS OF THE LATE 18TH AND EARLY 19TH CENTURIES. And here is the point to memorise: THE UNEQUAL LEGAL POSITION OF WOMEN WAS ENTRENCHED IN FAMILY LAW PRECISELY AT THE MOMENT WHEN THE INTERESTS OF THE STATE BEGAN TO COMPETE WITH THOSE OF THE ESTABLISHED RELIGIONS. The family itself became A POLITICAL SITE, as liberal rights became linked to MASCULINITY in a way that worsened women's opportunities further. Three Enlightenment codifications proclaimed equality of the sexes: the CODEX MAXIMILIANEUS BAVARICUS OF 1756 says that 'human beings are divided by nature in various ways, above all into the male and the female sex… in general neither sex has precedence over the other'; the PRUSSIAN ALLGEMEINES LANDRECHT OF 1794, that 'the rights of both sexes are equal unless special laws or valid declarations of will provide exceptions'; and the AUSTRIAN ABGB OF 1811 does NOT MENTION equality of the sexes AT ALL, because its author FRANZ VON ZEILLER took it for granted that men and women are equal in private law. But those natural-law declarations of equality DID NOT PREVAIL OVER CUSTOM, where women remained subordinate to men in the family and in society.",
       "terms": [],
       "cards": [
-        {
-          "q": "V jakém okamžiku bylo podle Kimble a Röwekamp nerovné postavení žen v rodinném právu zpevněno?",
-          "a": "PRÁVĚ V OKAMŽIKU, KDY ZÁJMY STÁTU ZAČALY SOUPEŘIT SE ZÁJMY ZAVEDENÝCH NÁBOŽENSTVÍ — tedy při kodifikacích konce 18. a počátku 19. století. Rodina se stala politickým místem a liberální práva se spojila s maskulinitou způsobem, který ženám příležitosti dál zhoršil.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jak se ke rovnosti pohlaví stavěly tři osvícenské kodifikace?",
-          "a": "Codex Maximilianeus Bavaricus (1756): 'obecně nemá žádné pohlaví přednost před druhým'. Pruské ALR (1794): 'práva obou pohlaví jsou stejná, pokud zvláštní zákony nestanoví výjimky'. Rakouský ABGB (1811) rovnost NEZMIŇUJE VŮBEC — Franz von Zeiller ji pokládal za samozřejmou. Všechny tři deklarace ale NEZVÍTĚZILY NAD ZVYKLOSTMI.",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "At what moment, on Kimble and Röwekamp's account, was the unequal position of women in family law entrenched?", "a": "PRECISELY AT THE MOMENT WHEN THE INTERESTS OF THE STATE BEGAN TO COMPETE WITH THOSE OF THE ESTABLISHED RELIGIONS — that is, at the codifications of the late 18th and early 19th centuries. The family became a political site and liberal rights became linked to masculinity in a way that worsened women's opportunities further.", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "How did the three Enlightenment codifications treat equality of the sexes?", "a": "Codex Maximilianeus Bavaricus (1756): 'in general neither sex has precedence over the other'. The Prussian ALR (1794): 'the rights of both sexes are equal unless special laws provide exceptions'. The Austrian ABGB (1811) does NOT MENTION equality at all — Franz von Zeiller took it for granted. All three declarations, however, DID NOT PREVAIL OVER CUSTOM.", "difficulty": 3, "kind": "cisla", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "3": {
-      "title": "Pruské ALR 1794: pokrok, který se hned vzal zpět",
-      "text": "Z těch tří se PRUSKÉ ALR pokládá za POKROK pro právní postavení žen, protože UKONČILO DŘÍVĚJŠÍ GESCHLECHTSVORMUNDSCHAFT — POHLAVNÍ PORUČENSTVÍ (CURA SEXUS) MUŽŮ NAD ŽENAMI (§ 24, I 1). JENŽE poručenství (CURA MARITALIS) BYLO PRO VDANÉ ŽENY V NÁSLEDNĚ KODIFIKOVANÝCH NORMÁCH ZNOVU ZAVEDENO. Muži byli označeni za PRÁVNÍ HLAVY DOMÁCNOSTÍ (§ 184 II, 1) a kodex upravoval manželovu autoritu nad ženou do intimních podrobností: žena SPRAVOVALA DOMÁCNOST (§ 194, II, 1) a k práci mimo domov POTŘEBOVALA MANŽELOVO SVOLENÍ (§ 195 II, 1); oba manželé byli povinni 'KONAT MANŽELSKOU POVINNOST' (§ 178, II, 1) ZA ÚČELEM PLOZENÍ (§ 1, II, 1) — vymahatelnost té normy byla pochybná, ale mluví o společenském pohledu na reprodukční mandát manželství v patriarchální společnosti. Manžel získal KONTROLU NAD MAJETKEM VDANÉ ŽENY (§ 205, II, 1), ta si ale mohla manželskou smlouvou vyjednat VYHRAZENÝ MAJETEK (VORBEHALTSGUT, §§ 206–209 a 221–230, II, 1). Něco bylo naopak lepší než dřív: ROZVOD BYL ZA JISTÝCH OKOLNOSTÍ MOŽNÝ (§§ 668ff, II, 1), VČETNĚ ROZVODU VZÁJEMNOU DOHODOU (§ 716, II, 1), a poměrně liberální bylo i postavení NEPROVDANÉ MATKY A JEJÍCH DĚTÍ. A zásadní dovětek: NĚMECKÝ BGB Z ROKU 1900 PRUSKÉ ALR ZNOVU UTÁHL V NEPROSPĚCH ŽEN.",
+      "title": "The Prussian ALR 1794: progress immediately taken back",
+      "text": "Of the three, the PRUSSIAN ALR is regarded as PROGRESS for the legal position of women, because it ENDED THE EARLIER GESCHLECHTSVORMUNDSCHAFT — THE SEX GUARDIANSHIP (CURA SEXUS) OF MEN OVER WOMEN (§ 24, I 1). BUT the guardianship (CURA MARITALIS) WAS REINTRODUCED FOR MARRIED WOMEN IN SUBSEQUENTLY CODIFIED NORMS. Men were designated the LEGAL HEADS OF HOUSEHOLDS (§ 184 II, 1) and the code regulated the husband's authority over his wife down to intimate detail: the wife MANAGED THE HOUSEHOLD (§ 194, II, 1) and for work outside the home she NEEDED HER HUSBAND'S PERMISSION (§ 195 II, 1); both spouses were obliged to 'PERFORM THE MARITAL DUTY' (§ 178, II, 1) FOR THE PURPOSE OF PROCREATION (§ 1, II, 1) — the enforceability of that norm was doubtful, but it speaks to the social view of the reproductive mandate of marriage in a patriarchal society. The husband obtained CONTROL OVER THE MARRIED WOMAN'S PROPERTY (§ 205, II, 1), though she could secure by marriage contract a RESERVED ESTATE (VORBEHALTSGUT, §§ 206–209 and 221–230, II, 1). Some things were on the contrary better than before: DIVORCE WAS POSSIBLE IN CERTAIN CIRCUMSTANCES (§§ 668ff, II, 1), INCLUDING DIVORCE BY MUTUAL CONSENT (§ 716, II, 1), and the position of the UNMARRIED MOTHER AND HER CHILDREN was comparatively liberal. And an essential coda: THE GERMAN BGB OF 1900 TIGHTENED THE PRUSSIAN ALR AGAIN TO WOMEN'S DISADVANTAGE.",
       "terms": [
-        { "term": "Geschlechtsvormundschaft (cura sexus)", "def": "Pohlavní poručenství mužů nad ženami; pruské ALR ho zrušilo (§ 24, I 1)." },
-        { "term": "cura maritalis", "def": "Manželské poručenství nad vdanou ženou — do pruského práva se pozdějšími normami vrátilo." },
-        { "term": "Vorbehaltsgut", "def": "Vyhrazený majetek, který si vdaná žena mohla zajistit manželskou smlouvou." }
+        {"term": "Geschlechtsvormundschaft (cura sexus)", "def": "The sex guardianship of men over women; the Prussian ALR abolished it (§ 24, I 1)."},
+        {"term": "cura maritalis", "def": "Marital guardianship over a married woman — reintroduced into Prussian law by later norms."},
+        {"term": "Vorbehaltsgut", "def": "The reserved estate a married woman could secure for herself by marriage contract."}
       ],
       "cards": [
-        {
-          "q": "V čem bylo pruské ALR (1794) pokrokem a jak se ten pokrok vzal zpět?",
-          "a": "Ukončilo GESCHLECHTSVORMUNDSCHAFT — pohlavní poručenství (cura sexus) mužů nad ženami (§ 24, I 1). ALE poručenství CURA MARITALIS bylo pro VDANÉ ŽENY následně kodifikovanými normami ZNOVU ZAVEDENO, a německý BGB z roku 1900 pruské právo v neprospěch žen ještě UTÁHL.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jak pruské ALR upravovalo postavení vdané ženy v domácnosti?",
-          "a": "Muž byl PRÁVNÍ HLAVOU DOMÁCNOSTI (§ 184 II, 1), žena spravovala domácnost (§ 194) a k práci mimo domov POTŘEBOVALA JEHO SVOLENÍ (§ 195); oba byli povinni 'konat manželskou povinnost' (§ 178) za účelem PLOZENÍ (§ 1); manžel získal kontrolu nad jejím majetkem (§ 205), ona si ale smlouvou mohla vyhradit VORBEHALTSGUT (§§ 206–209, 221–230).",
-          "difficulty": 3,
-          "kind": "norma",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Co bylo v pruském ALR pro ženy naopak lepší než dřív?",
-          "a": "ROZVOD BYL ZA JISTÝCH OKOLNOSTÍ MOŽNÝ (§§ 668ff, II, 1), a to VČETNĚ ROZVODU VZÁJEMNOU DOHODOU (§ 716, II, 1). Poměrně liberální bylo i právní postavení NEPROVDANÉ MATKY A JEJÍCH DĚTÍ.",
-          "difficulty": 2,
-          "kind": "norma",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "In what was the Prussian ALR (1794) progress, and how was that progress taken back?", "a": "It ended the GESCHLECHTSVORMUNDSCHAFT — the sex guardianship (cura sexus) of men over women (§ 24, I 1). BUT the guardianship CURA MARITALIS was REINTRODUCED FOR MARRIED WOMEN by subsequently codified norms, and the German BGB of 1900 TIGHTENED Prussian law further to women's disadvantage.", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "How did the Prussian ALR regulate the position of a married woman in the household?", "a": "The husband was the LEGAL HEAD OF THE HOUSEHOLD (§ 184 II, 1), the wife managed the household (§ 194) and for work outside the home NEEDED HIS PERMISSION (§ 195); both were obliged to 'perform the marital duty' (§ 178) for PROCREATION (§ 1); the husband obtained control over her property (§ 205), though she could reserve a VORBEHALTSGUT by contract (§§ 206–209, 221–230).", "difficulty": 3, "kind": "norma", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What in the Prussian ALR was on the contrary better for women than before?", "a": "DIVORCE WAS POSSIBLE IN CERTAIN CIRCUMSTANCES (§§ 668ff, II, 1), including DIVORCE BY MUTUAL CONSENT (§ 716, II, 1). The legal position of the UNMARRIED MOTHER AND HER CHILDREN was also comparatively liberal.", "difficulty": 2, "kind": "norma", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "4": {
-      "title": "Francouzi si z Prusů vzali jen to horší",
-      "text": "Francouzští právníci byli pruským ALR ohromeni a použili ho jako vzor pro své kodexy — ALE NEPŘEVZALI PRÁVNÍ INSTITUTY, KTERÉ BYLY PRO ŽENY PŘÍZNIVÉ. Zároveň se obrátili zády k některým revolučním reformám týkajícím se dětí. BĚHEM REVOLUCE po ostrých legislativních debatách: ROKU 1791 BYLO ŽENÁM ZAKÁZÁNO UPLATŇOVAT NÁROKY NA URČENÍ OTCOVSTVÍ PROTI SVŮDCI; ROKU 1793 SMĚL OTEC UZNAT SVÉ NEMANŽELSKÉ DÍTĚ, ovšem ROKU 1794 s podmínkou, že to dítě NESMÍ NÁROKOVAT DĚDICTVÍ NA ÚKOR DĚTÍ 'LEGITIMNÍCH'. Revolucionáři také ROKU 1792 SEKULARIZOVALI MANŽELSTVÍ A LIBERALIZOVALI ROZVOD. Jeden z tvůrců Code civil, JEAN-JACQUES RÉGIS DE CAMBACÉRÈS, ho navrhl tak, aby odrážel přirozené právo a zakládal svobodu — V PRAXI ALE ZÁKONY PŘEDEPISOVALY IDEÁLY A ODRÁŽELY KULTURNÍ A SOCIÁLNÍ NORMY. Napoleon přirovnával ženy k majetku, dokonce k ovocným stromům, 'určeným k tomu, aby dělaly děti'.",
+      "title": "The French took from the Prussians only the worse part",
+      "text": "French jurists were impressed by the Prussian ALR and used it as a model for their codes — BUT THEY DID NOT TAKE OVER THE LEGAL INSTITUTIONS FAVOURABLE TO WOMEN. At the same time they turned their backs on some revolutionary reforms concerning children. DURING THE REVOLUTION, after sharp legislative debates: IN 1791 WOMEN WERE FORBIDDEN TO BRING PATERNITY CLAIMS AGAINST A SEDUCER; IN 1793 A FATHER WAS PERMITTED TO RECOGNISE HIS ILLEGITIMATE CHILD, but IN 1794 on condition that such a child MAY NOT CLAIM AN INHERITANCE AT THE EXPENSE OF 'LEGITIMATE' CHILDREN. The revolutionaries also SECULARISED MARRIAGE AND LIBERALISED DIVORCE IN 1792. One of the drafters of the Code civil, JEAN-JACQUES RÉGIS DE CAMBACÉRÈS, designed it to reflect natural law and to establish liberty — BUT IN PRACTICE THE LAWS PRESCRIBED IDEALS AND REFLECTED CULTURAL AND SOCIAL NORMS. Napoleon likened women to property, indeed to fruit trees, 'destined to make children'.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co si francouzští právníci z pruského ALR vzali a co ne?",
-          "a": "Byli jím OHROMENI a použili ho jako vzor — ALE NEPŘEVZALI PRÁVNÍ INSTITUTY PŘÍZNIVÉ PRO ŽENY. Zároveň se obrátili zády k revolučním reformám týkajícím se dětí.",
-          "difficulty": 2,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Co revoluce udělala s otcovstvím, nemanželskými dětmi a manželstvím?",
-          "a": "1791 ženám ZAKÁZALA ŽALOVAT SVŮDCE NA URČENÍ OTCOVSTVÍ; 1793 dovolila otci UZNAT nemanželské dítě; 1794 ale s podmínkou, že takové dítě NESMÍ NÁROKOVAT DĚDICTVÍ NA ÚKOR 'LEGITIMNÍCH' DĚTÍ; 1792 SEKULARIZOVALA MANŽELSTVÍ A LIBERALIZOVALA ROZVOD.",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What did French jurists take from the Prussian ALR and what did they not?", "a": "They were IMPRESSED by it and used it as a model — BUT THEY DID NOT TAKE OVER THE INSTITUTIONS FAVOURABLE TO WOMEN. At the same time they turned their backs on the revolutionary reforms concerning children.", "difficulty": 2, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What did the revolution do with paternity, illegitimate children and marriage?", "a": "1791 it FORBADE women to sue a seducer for paternity; 1793 it allowed a father to RECOGNISE an illegitimate child; 1794 on condition that such a child MAY NOT CLAIM AN INHERITANCE AT THE EXPENSE OF 'LEGITIMATE' CHILDREN; 1792 it SECULARISED MARRIAGE AND LIBERALISED DIVORCE.", "difficulty": 3, "kind": "cisla", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "5": {
-      "title": "Code civil 1804 a trestní zákoník 1810",
-      "text": "FRANCOUZSKÝ OBČANSKÝ ZÁKONÍK (1804) A TRESTNÍ ZÁKONÍK (1810) sjednotily KANONICKÉ, ŘÍMSKÉ A ZVYKOVÉ PRÁVO pod osvícenskými zásadami a Napoleonovými vlastními patriarchálními postoji. URSULA VOGEL k tomu má ostrý postřeh: tvůrci kodexu legitimizovali PODŘÍZENOST (INCAPACITÉ) MANŽELEK A POSÍLILI MUŽSKOU AUTORITU (PUISSANCE MARITALE) TÍM, ŽE POUŽILI MODERNÍ JAZYK, KTERÝ ZPŘIRODNIL KOMPLEMENTARITU POHLAVÍ A ZSENTIMENTALIZOVAL MANŽELSTVÍ TAK, ŽE INDIVIDUÁLNÍ MAJETKOVÁ PRÁVA A PRÁVNÍ ROVNOST VDANÝCH ŽEN MOHLA VYPADAT JAKO ZVLÁŠTNĚ NEPATŘIČNÁ. Manželská smlouva dostala 'SEKULÁRNÍ POSVÁTNOST', která ji zbavila jejích 'individualistických a voluntaristických prvků' a přitom posílila manželovu kontrolu nad osobou i majetkem ženy. V manželství dlužila žena manželovi 'POSLUŠNOST' a on byl pověřen její 'OCHRANOU' (ČL. 213). Trestní zákoník uložil ženám TVRDÉ SANKCE ZA CIZOLOŽSTVÍ včetně vězení a rozvodu, aby zajistil otcovství pro převod majetku v rodině. MANŽEL BYL NAOPAK OMLUVEN, POKUD ZAVRAŽDIL SVOU ŽENU A JEJÍHO MILENCE, PŘISTIHL-LI JE V MANŽELSKÉM DOMĚ (ČL. 324); jeho vlastní mimomanželské vztahy omezeny nebyly, ledaže by si milenku přivedl domů. Kodex zachoval z revoluce CIVILNÍ SŇATEK jako potvrzení státní autority — náboženské obřady napříště neplatily. A rozvod: ZNOVUZAVEDEN AŽ ROKU 1884, omezený na TŘI DŮVODY — ODSOUZENÍ MANŽELA ZA TRESTNÝ ČIN, TÝRÁNÍ A CIZOLOŽSTVÍ.",
-      "terms": [
-        { "term": "incapacité / puissance maritale", "def": "Podřízenost manželky a manželská moc — dvojice institutů, na kterých stojí postavení vdané ženy v Code civil." }
-      ],
+      "title": "The Code civil 1804 and the Penal Code 1810",
+      "text": "THE FRENCH CIVIL CODE (1804) AND PENAL CODE (1810) unified CANON, ROMAN AND CUSTOMARY LAW under Enlightenment principles and Napoleon's own patriarchal attitudes. URSULA VOGEL makes a sharp observation here: the drafters of the code legitimised THE INCAPACITY (INCAPACITÉ) OF WIVES AND STRENGTHENED MALE AUTHORITY (PUISSANCE MARITALE) BY USING A MODERN LANGUAGE THAT NATURALISED THE COMPLEMENTARITY OF THE SEXES AND SENTIMENTALISED MARRIAGE IN SUCH A WAY THAT INDIVIDUAL PROPERTY RIGHTS AND THE LEGAL EQUALITY OF MARRIED WOMEN COULD APPEAR PECULIARLY OUT OF PLACE. The marriage contract acquired a 'SECULAR SACREDNESS' which stripped it of its 'individualist and voluntarist elements' while strengthening the husband's control over his wife's person and property. In marriage the wife owed her husband 'OBEDIENCE' and he was charged with her 'PROTECTION' (ART. 213). The penal code imposed HARSH SANCTIONS ON WOMEN FOR ADULTERY, including imprisonment and divorce, so as to secure paternity for the transmission of property within the family. THE HUSBAND, BY CONTRAST, WAS EXCUSED IF HE MURDERED HIS WIFE AND HER LOVER WHEN HE CAUGHT THEM IN THE MARITAL HOME (ART. 324); his own extramarital relations were not restricted, unless he brought a mistress home. The code preserved from the revolution the CIVIL MARRIAGE as an affirmation of state authority — religious ceremonies were henceforth without legal effect. And divorce: REINTRODUCED ONLY IN 1884, limited to THREE GROUNDS — THE HUSBAND'S CONVICTION OF A CRIME, CRUELTY AND ADULTERY.",
+      "terms": [{"term": "incapacité / puissance maritale", "def": "The incapacity of the wife and marital power — the pair of institutions on which the position of the married woman in the Code civil rests."}],
       "cards": [
-        {
-          "q": "Jak podle Ursuly Vogel tvůrci Code civil legitimizovali podřízenost manželek?",
-          "a": "MODERNÍM JAZYKEM, KTERÝ ZPŘIRODNIL KOMPLEMENTARITU POHLAVÍ A ZSENTIMENTALIZOVAL MANŽELSTVÍ — a tím zařídil, že INCAPACITÉ a PUISSANCE MARITALE vypadaly přirozeně a individuální majetková práva a rovnost vdaných žen naopak jako NEPATŘIČNÉ. Manželská smlouva dostala 'sekulární posvátnost' a přišla o individualistické a voluntaristické prvky.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Co stanovil čl. 213 a čl. 324 francouzských kodexů?",
-          "a": "Čl. 213 Code civil: žena dluží manželovi 'POSLUŠNOST', on je pověřen její 'OCHRANOU'. Čl. 324 trestního zákoníku (1810): MANŽEL BYL OMLUVEN, ZAVRAŽDIL-LI ŽENU A JEJÍHO MILENCE, PŘISTIHL-LI JE V MANŽELSKÉM DOMĚ — jeho vlastní nevěra omezena nebyla, ledaže by si milenku přivedl domů.",
-          "difficulty": 3,
-          "kind": "norma",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Kdy byl ve Francii znovu zaveden rozvod a z jakých důvodů?",
-          "a": "ROKU 1884, omezený na TŘI DŮVODY: odsouzení manžela za trestný čin, TÝRÁNÍ a CIZOLOŽSTVÍ. (Revoluce ho liberalizovala roku 1792, Code civil ho pak odstranil; civilní sňatek si ale kodex z revoluce ponechal.)",
-          "difficulty": 2,
-          "kind": "cisla",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "How, on Ursula Vogel's account, did the drafters of the Code civil legitimise the subordination of wives?", "a": "BY A MODERN LANGUAGE THAT NATURALISED THE COMPLEMENTARITY OF THE SEXES AND SENTIMENTALISED MARRIAGE — thereby making INCAPACITÉ and PUISSANCE MARITALE look natural and individual property rights and the equality of married women look OUT OF PLACE. The marriage contract acquired a 'secular sacredness' and lost its individualist and voluntarist elements.", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What did art. 213 and art. 324 of the French codes provide?", "a": "Art. 213 of the Code civil: the wife owes her husband 'OBEDIENCE', he is charged with her 'PROTECTION'. Art. 324 of the Penal Code (1810): THE HUSBAND WAS EXCUSED IF HE MURDERED HIS WIFE AND HER LOVER WHEN HE CAUGHT THEM IN THE MARITAL HOME — his own infidelity was not restricted unless he brought a mistress home.", "difficulty": 3, "kind": "norma", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "When was divorce reintroduced in France and on what grounds?", "a": "IN 1884, limited to THREE GROUNDS: the husband's conviction of a crime, CRUELTY and ADULTERY. (The revolution had liberalised it in 1792, the Code civil then removed it; the code did, however, keep civil marriage from the revolution.)", "difficulty": 2, "kind": "cisla", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "6": {
-      "title": "Napoleonské šíření a Marianne Weber",
-      "text": "Napoleonskými válkami (1803–1815) se vliv francouzského kodexu rozšířil do ITÁLIE, NIZOZEMÍ, LUCEMBURSKA, BELGIE, ŠPANĚLSKA, PORTUGALSKA, RUMUNSKA, POLSKA, ČÁSTÍ NĚMECKA A ŘECKA, a dále do FRANCOUZSKÝCH KOLONIÍ, QUEBECU, LOUISIANY A VELKÉ ČÁSTI LATINSKÉ AMERIKY. Kritici kodex odsuzovali pro jeho nerovnosti — mezi nimi německá právní socioložka MARIANNE WEBER (1870–1954), podle které kodex 'UCHOVAL RYSY STŘEDOVĚKÉHO PATRIARCHÁTU V NEJDELŠÍ A NEJČISTŠÍ PODOBĚ'. (Užitečný detail z poznámek: ITALSKÝ KODEX SE OD FRANCOUZSKÉHO LIŠIL TÍM, ŽE NEUPRAVIL ROZVOD — bylo to rozhodnutí na ochranu vztahů státu s Vatikánem, KONKORDÁT, a odpor Vatikánu zdržel rozvodovou reformu AŽ DO ROKU 1970.)",
+      "title": "Napoleonic diffusion and Marianne Weber",
+      "text": "Through the Napoleonic wars (1803–1815) the influence of the French code spread to ITALY, THE NETHERLANDS, LUXEMBOURG, BELGIUM, SPAIN, PORTUGAL, ROMANIA, POLAND, PARTS OF GERMANY AND GREECE, and further to THE FRENCH COLONIES, QUEBEC, LOUISIANA AND MUCH OF LATIN AMERICA. Critics condemned the code for its inequalities — among them the German sociologist of law MARIANNE WEBER (1870–1954), for whom the code 'PRESERVED THE FEATURES OF MEDIEVAL PATRIARCHY IN THEIR LONGEST AND PUREST FORM'. (A useful detail from the notes: THE ITALIAN CODE DIFFERED FROM THE FRENCH IN NOT REGULATING DIVORCE — a decision protecting the state's relations with the Vatican, the CONCORDAT, and Vatican opposition delayed divorce reform UNTIL 1970.)",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak Marianne Weber hodnotila Code civil?",
-          "a": "Že 'UCHOVAL RYSY STŘEDOVĚKÉHO PATRIARCHÁTU V NEJDELŠÍ A NEJČISTŠÍ PODOBĚ'. Weber (1870–1954) byla německá právní socioložka a patřila k nejostřejším kritikům kodexu.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Proč italský občanský zákoník neupravil rozvod a jak dlouho to vydrželo?",
-          "a": "Na OCHRANU VZTAHŮ STÁTU S VATIKÁNEM (konkordát). Odpor Vatikánu zdržel rozvodovou reformu AŽ DO ROKU 1970.",
-          "difficulty": 2,
-          "kind": "cisla",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "How did Marianne Weber assess the Code civil?", "a": "That it 'PRESERVED THE FEATURES OF MEDIEVAL PATRIARCHY IN THEIR LONGEST AND PUREST FORM'. Weber (1870–1954) was a German sociologist of law and among the code's sharpest critics.", "difficulty": 2, "kind": "basic", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "Why did the Italian civil code not regulate divorce, and how long did that last?", "a": "To PROTECT THE STATE'S RELATIONS WITH THE VATICAN (the concordat). Vatican opposition delayed divorce reform UNTIL 1970.", "difficulty": 2, "kind": "cisla", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "7": {
-      "title": "Coverture: manželka bez právní existence",
-      "text": "V anglickém common law určoval mocenské vztahy v manželství systém COVERTURE. Právník WILLIAM BLACKSTONE to řekl slavně: 'SŇATKEM JSOU MUŽ A ŽENA V PRÁVU JEDNOU OSOBOU; TO JEST, SAMO BYTÍ ČI PRÁVNÍ EXISTENCE ŽENY JE PO DOBU MANŽELSTVÍ POZASTAVENA.' OD POČÁTKU 17. STOLETÍ byly vdané ženy v Anglii ZBAVENY PRÁVA UZAVÍRAT SMLOUVY, protože se mělo za to, že nemají oddělenou právní identitu ani právo vlastnit majetek — NA ROZDÍL OD ŽENY NEPROVDANÉ, 'FEME SOLE'. UTE GERHARD k tomu dodává argument, který se hodí u zkoušky: PRÁVNÍ POSTAVENÍ MANŽELEK NEJEN ODPOROVALO POSTAVENÍ NEPROVDANÝCH ŽEN, ALE BYLO KŘIKLAVÝM VZDOREM VŮČI RANÝM ÚSTAVNÍM INSTITUCÍM ANGLIE — JEJÍM PARLAMENTNÍM TRADICÍM, DĚLBĚ MOCI A ÚSTAVNÍ ZÁRUCE VLASTNICTVÍ — a s rostoucí industrializací a komercializací se dostávalo pod rostoucí tlak.",
+      "title": "Coverture: a wife with no legal existence",
+      "text": "In the English common law the power relations of marriage were determined by the system of COVERTURE. The jurist WILLIAM BLACKSTONE put it famously: 'BY MARRIAGE, THE HUSBAND AND WIFE ARE ONE PERSON IN LAW; THAT IS, THE VERY BEING OR LEGAL EXISTENCE OF THE WOMAN IS SUSPENDED DURING THE MARRIAGE.' FROM THE EARLY 17TH CENTURY married women in England were DEPRIVED OF THE RIGHT TO MAKE CONTRACTS, since they were held to have no separate legal identity and no right to own property — UNLIKE THE UNMARRIED WOMAN, THE 'FEME SOLE'. UTE GERHARD adds an argument useful in an exam: THE LEGAL POSITION OF WIVES NOT ONLY CONTRADICTED THAT OF UNMARRIED WOMEN BUT WAS A FLAGRANT DEFIANCE OF ENGLAND'S EARLY CONSTITUTIONAL INSTITUTIONS — ITS PARLIAMENTARY TRADITIONS, THE SEPARATION OF POWERS AND THE CONSTITUTIONAL GUARANTEE OF PROPERTY — and with growing industrialisation and commercialisation it came under increasing pressure.",
       "terms": [
-        { "term": "coverture", "def": "Anglický institut, ve kterém se právní existence ženy sňatkem pozastavuje a splývá s manželem." },
-        { "term": "feme sole", "def": "Neprovdaná žena — na rozdíl od manželky mohla vlastnit majetek a uzavírat smlouvy." }
+        {"term": "coverture", "def": "The English institution under which a woman's legal existence is suspended by marriage and merged with her husband's."},
+        {"term": "feme sole", "def": "An unmarried woman — unlike a wife she could own property and make contracts."}
       ],
       "cards": [
-        {
-          "q": "Cituj Blackstona ke coverture a řekni, co z toho plynulo.",
-          "a": "'Sňatkem jsou muž a žena v právu JEDNOU OSOBOU; to jest, samo bytí či právní existence ženy je po dobu manželství POZASTAVENA.' Od počátku 17. století byly vdané ženy v Anglii zbaveny PRÁVA UZAVÍRAT SMLOUVY i práva vlastnit majetek — na rozdíl od neprovdané 'FEME SOLE'.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jaký ústavní argument proti coverture formuluje Ute Gerhard?",
-          "a": "Že postavení manželek nejen ODPOROVALO POSTAVENÍ NEPROVDANÝCH ŽEN, ale bylo KŘIKLAVÝM VZDOREM VŮČI RANÝM ÚSTAVNÍM INSTITUCÍM ANGLIE — jejím PARLAMENTNÍM TRADICÍM, DĚLBĚ MOCI A ÚSTAVNÍ ZÁRUCE VLASTNICTVÍ — a s industrializací se dostávalo pod rostoucí tlak.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "Quote Blackstone on coverture and say what followed from it.", "a": "'By marriage, the husband and wife are ONE PERSON IN LAW; that is, the very being or legal existence of the woman is SUSPENDED during the marriage.' From the early 17th century married women in England were deprived of THE RIGHT TO MAKE CONTRACTS and of the right to own property — unlike the unmarried 'FEME SOLE'.", "difficulty": 2, "kind": "definice", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What constitutional argument against coverture does Ute Gerhard formulate?", "a": "That the position of wives not only CONTRADICTED THAT OF UNMARRIED WOMEN but was A FLAGRANT DEFIANCE OF ENGLAND'S EARLY CONSTITUTIONAL INSTITUTIONS — its PARLIAMENTARY TRADITIONS, the SEPARATION OF POWERS and the CONSTITUTIONAL GUARANTEE OF PROPERTY — and with industrialisation it came under increasing pressure.", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "8": {
-      "title": "Co přesně kritika napadala",
-      "text": "Kritika podřízeného místa žen v národních kodexech se soustředila na NEROVNOSTI V MANŽELSTVÍ, zvlášť na to, že ženám byla upřena KONTROLA NAD SEBOU SAMÝMI A NAD JEJICH DĚTMI, NAD JEJICH VYDĚLANÝM PŘÍJMEM A NAD ZDĚDĚNÝM MAJETKEM. Klíčové je, že PRÁVNÍ ROZLIŠENÍ MEZI VDANOU A NEPROVDANOU ŽENOU MĚLO ZÁSADNÍ NÁSLEDKY PRO POŽÍVÁNÍ JEJICH PRÁV — nerovnost tedy nešla po ose 'muž/žena', ale po ose 'ženatý stav'. Genderová paradigmata ovlivnila formalizaci rodinného práva tak, že jeho ustanovení byla na překážku tomu, aby byly ženy uznány za JEDNOTLIVCE A PRÁVNÍ OSOBY. Sborník tím ukazuje SPOLEČNÉ PRÁVNÍ POZADÍ EVROPSKÉHO HNUTÍ ZA PRÁVA ŽEN, i když přesné načasování výzev bylo v každém kontextu jiné.",
+      "title": "What exactly the criticism attacked",
+      "text": "Criticism of women's subordinate place in the national codes focused on THE INEQUALITIES OF MARRIAGE, especially on the denial to women of CONTROL OVER THEMSELVES AND THEIR CHILDREN, OVER THEIR EARNED INCOME AND OVER INHERITED PROPERTY. Crucially, THE LEGAL DISTINCTION BETWEEN THE MARRIED AND THE UNMARRIED WOMAN HAD FUNDAMENTAL CONSEQUENCES FOR THE ENJOYMENT OF THEIR RIGHTS — the inequality therefore ran not along the axis 'man/woman' but along the axis of MARITAL STATUS. Gender paradigms influenced the formalisation of family law in such a way that its provisions obstructed the recognition of women as INDIVIDUALS AND LEGAL PERSONS. The volume thereby shows THE COMMON LEGAL BACKGROUND OF THE EUROPEAN WOMEN'S RIGHTS MOVEMENT, even though the precise timing of the challenges differed in each context.",
       "terms": [],
       "cards": [
-        {
-          "q": "Na co se soustředila kritika postavení žen v evropských kodexech?",
-          "a": "Na NEROVNOSTI V MANŽELSTVÍ: upření kontroly NAD SEBOU SAMÝMI A NAD DĚTMI, NAD VYDĚLANÝM PŘÍJMEM a NAD ZDĚDĚNÝM MAJETKEM. Zásadní následky mělo PRÁVNÍ ROZLIŠENÍ MEZI VDANOU A NEPROVDANOU ŽENOU — nerovnost nešla jen po ose pohlaví, ale po ose manželského stavu.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What did the criticism of women's position in the European codes focus on?", "a": "On THE INEQUALITIES OF MARRIAGE: the denial of control OVER THEMSELVES AND THEIR CHILDREN, OVER EARNED INCOME and OVER INHERITED PROPERTY. Fundamental consequences followed from THE LEGAL DISTINCTION BETWEEN THE MARRIED AND THE UNMARRIED WOMAN — the inequality ran not merely along the axis of sex but along that of marital status.", "difficulty": 2, "kind": "znaky", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "9": {
-      "title": "První vlna protestů: od Gazette des Femmes po Chauvin",
-      "text": "Protesty proti podřízenosti vdaných žen podle Code civil začaly UŽ VE 30. LETECH 19. STOLETÍ, kdy GAZETTE DES FEMMES petiční cestou žádala krále a poslance o reformu čl. 213 s argumentem, že podle CHARTY Z ROKU 1830 jsou Francouzi a Francouzky 'ROVNI PŘED ZÁKONEM'. Kampaň proti podřízení žen vedly zastánkyně spojené se SAINT-SIMONISTY. V Itálii ANNA MARIA MOZZONI (1837–1920) kritizovala NOVÝ ITALSKÝ OBČANSKÝ ZÁKONÍK Z ROKU 1865 jako škodlivý právům žen; uznávala moc práva 'vložit osud rodin do rukou mužů' a zároveň jeho 'NEMOHOUCNOST' dát mužům schopnost rodinu vést. Volala také po konci státem regulované prostituce, PŘELOŽILA MILLOVU 'PODDANOST ŽEN' (1869) DO ITALŠTINY (1879) a založila mezitřídní sdružení za práva žen (1881). V Polsku vydala ELIZA ORZESZKOWA (1841–1910) román MARTA (1872) o mladé vdově, která se snaží přežít ve společnosti upírající ženám základní práva, a stala se pak vůdčí osobností hnutí; v další fázi vyzývala PAULINA KUCZALSKA-REINSCHMIT (1859–1921) rozdělené reformátory, aby udělali z reformy občanského zákoníku prioritu. ROKU 1878 rozšířili LÉON RICHER (1824–1911) a MARIA DERAISMES (1828–1894) kritiku právního útlaku žen na PRVNÍM MEZINÁRODNÍM KONGRESU O PRÁVECH ŽEN V PAŘÍŽI. Na konferenci ROKU 1889 belgická feministka MARIE POPELIN odsoudila Code civil, protože ženy 'ponižoval' a odsouval do sféry 'MIMO MYSLÍCÍ LIDSTVO'. A do roku 1896 už mohla francouzská feministka JEANNE CHAUVIN (1862–1926) trvat na tom, že PRÁVNÍ ZNALOST JE PRO ZMOCNĚNÍ ŽEN NEZBYTNÁ.",
+      "title": "The first wave of protest: from the Gazette des Femmes to Chauvin",
+      "text": "Protests against the subordination of married women under the Code civil began AS EARLY AS THE 1830s, when the GAZETTE DES FEMMES petitioned the king and the deputies for the reform of art. 213, arguing that under the CHARTER OF 1830 Frenchmen and Frenchwomen are 'EQUAL BEFORE THE LAW'. The campaign against the subjection of women was led by advocates connected with the SAINT-SIMONIANS. In Italy ANNA MARIA MOZZONI (1837–1920) criticised the NEW ITALIAN CIVIL CODE OF 1865 as harmful to women's rights; she recognised the power of law to 'place the fate of families in the hands of men' and at the same time its 'IMPOTENCE' to give men the capacity to lead a family. She also called for an end to state-regulated prostitution, TRANSLATED MILL'S 'THE SUBJECTION OF WOMEN' (1869) INTO ITALIAN (1879) and founded a cross-class association for women's rights (1881). In Poland ELIZA ORZESZKOWA (1841–1910) published the novel MARTA (1872) about a young widow trying to survive in a society that denies women basic rights, and then became a leading figure of the movement; in a later phase PAULINA KUCZALSKA-REINSCHMIT (1859–1921) urged divided reformers to make the reform of the civil code a priority. IN 1878 LÉON RICHER (1824–1911) and MARIA DERAISMES (1828–1894) broadened the critique of the legal oppression of women at the FIRST INTERNATIONAL CONGRESS ON WOMEN'S RIGHTS IN PARIS. At a conference IN 1889 the Belgian feminist MARIE POPELIN condemned the Code civil for 'degrading' women and consigning them to a sphere 'OUTSIDE THINKING HUMANITY'. And by 1896 the French feminist JEANNE CHAUVIN (1862–1926) could insist that LEGAL KNOWLEDGE IS INDISPENSABLE TO THE EMPOWERMENT OF WOMEN.",
       "terms": [],
       "cards": [
-        {
-          "q": "Čím argumentovala Gazette des Femmes ve 30. letech 19. století?",
-          "a": "Žádala krále a poslance o reformu ČL. 213 Code civil s tím, že podle CHARTY Z ROKU 1830 jsou francouzští muži a ženy 'ROVNI PŘED ZÁKONEM'. Je to nejranější doložený protest proti podřízenosti vdaných žen podle kodexu.",
-          "difficulty": 2,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Co dokázala Anna Maria Mozzoni?",
-          "a": "Kritizovala NOVÝ ITALSKÝ OBČANSKÝ ZÁKONÍK Z ROKU 1865, volala po konci STÁTEM REGULOVANÉ PROSTITUCE, PŘELOŽILA MILLOVU 'PODDANOST ŽEN' (1869) DO ITALŠTINY (1879) a roku 1881 založila MEZITŘÍDNÍ SDRUŽENÍ za práva žen.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jak zněla odsuzující formulace Marie Popelin z roku 1889?",
-          "a": "Že Code civil ženy 'PONIŽOVAL' a odsouval je do sféry 'MIMO MYSLÍCÍ LIDSTVO'. Popelin byla belgická feministka a sama právnička — o profesi se ucházela marně celý život.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What was the Gazette des Femmes' argument in the 1830s?", "a": "It petitioned the king and the deputies for the reform of ART. 213 of the Code civil on the ground that under the CHARTER OF 1830 French men and women are 'EQUAL BEFORE THE LAW'. It is the earliest documented protest against the subordination of married women under the code.", "difficulty": 2, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What did Anna Maria Mozzoni achieve?", "a": "She criticised the NEW ITALIAN CIVIL CODE OF 1865, called for an end to STATE-REGULATED PROSTITUTION, TRANSLATED MILL'S 'THE SUBJECTION OF WOMEN' (1869) INTO ITALIAN (1879) and in 1881 founded a CROSS-CLASS ASSOCIATION for women's rights.", "difficulty": 2, "kind": "basic", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "How did Marie Popelin's condemnation of 1889 run?", "a": "That the Code civil 'DEGRADED' women and consigned them to a sphere 'OUTSIDE THINKING HUMANITY'. Popelin was a Belgian feminist and herself a lawyer — she sought admission to the profession in vain all her life.", "difficulty": 2, "kind": "basic", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "10": {
-      "title": "1904: stoleté výročí a hořící kodex",
-      "text": "KE STOLETÉMU VÝROČÍ VYHLÁŠENÍ CODE CIVIL ROKU 1904 uspořádala koalice feministek — HUBERTINE AUCLERT (1848–1914), CAROLINE KAUFFMANN (1840–1926), ELISKA VINCENT (1841–1914) a JEANNE ODDO-DEFLOU (nar. 1856) — sérii rušivých protestů. POKUSILY SE SPÁLIT VÝTISK KODEXU NA PLACE VENDÔME V PAŘÍŽI a odsoudily jeho zacházení s vdanými ženami, které jsou v právech rovny 'NEZLETILÝM, TRESTANCŮM A BLÁZNŮM'. Kodex tak podle nich porušuje DEMOKRATICKÉ ZÁSADY, protože muže 'POVZBUZUJE' k tomu, aby ženy 'ničili, utlačovali, zmenšovali a vykořisťovali'. Oddo-Deflou pak svou kritiku přenesla k mezinárodnímu publiku v BELGII, odkud se ty myšlenky šířily dál.",
+      "title": "1904: the centenary and the burning code",
+      "text": "FOR THE CENTENARY OF THE PROMULGATION OF THE CODE CIVIL IN 1904 a coalition of feminists — HUBERTINE AUCLERT (1848–1914), CAROLINE KAUFFMANN (1840–1926), ELISKA VINCENT (1841–1914) and JEANNE ODDO-DEFLOU (b. 1856) — staged a series of disruptive protests. THEY ATTEMPTED TO BURN A COPY OF THE CODE ON THE PLACE VENDÔME IN PARIS and condemned its treatment of married women, who in rights are equal to 'MINORS, CONVICTS AND LUNATICS'. The code, they argued, therefore violates DEMOCRATIC PRINCIPLES, because it 'ENCOURAGES' men to 'destroy, oppress, diminish and exploit' women. Oddo-Deflou then carried her critique to an international audience in BELGIUM, from where those ideas spread further.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co se stalo na Place Vendôme roku 1904 a proč?",
-          "a": "Koalice feministek (Auclert, Kauffmann, Vincent, Oddo-Deflou) se KE STOLETÉMU VÝROČÍ CODE CIVIL pokusila SPÁLIT VÝTISK KODEXU. Argument: vdané ženy jsou v právech rovny 'NEZLETILÝM, TRESTANCŮM A BLÁZNŮM', a kodex tím porušuje demokratické zásady, protože muže 'povzbuzuje' ženy ničit, utlačovat a vykořisťovat.",
-          "difficulty": 2,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What happened on the Place Vendôme in 1904 and why?", "a": "A coalition of feminists (Auclert, Kauffmann, Vincent, Oddo-Deflou) attempted, FOR THE CENTENARY OF THE CODE CIVIL, TO BURN A COPY OF THE CODE. The argument: married women are in rights equal to 'MINORS, CONVICTS AND LUNATICS', and the code thereby violates democratic principles because it 'encourages' men to destroy, oppress and exploit women.", "difficulty": 2, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "11": {
-      "title": "Frauenlandsturm: nejvýznamnější reformní úsilí hnutí",
-      "text": "Německý boj žen proti občanskému zákoníku, takzvaný FRAUENLANDSTURM, se stal NEJVÝZNAMNĚJŠÍM REFORMNÍM ÚSILÍM CELÉHO HNUTÍ. Ženy napadly BGB řadou petic. BUND DEUTSCHER FRAUENVEREINE podal ROKU 1899 petici proti kodifikaci s argumentem: 'V JINÝCH PRÁVNÍCH OBLASTECH JSOU ŽENY ODPOVĚDNÝMI PRÁVNÍMI OSOBNOSTMI, JEN V PŘÍPADĚ MANŽELSTVÍ JSOU STÁLE POD PORUČENSTVÍM MUŽŮ.' A dál, v argumentaci, kterou stojí za to znát doslova: KDYŽ V EVROPĚ SKONČILO NEVOLNICTVÍ A FEUDALISMUS, JEDINOU PRÁVNÍ SITUACÍ, KTERÁ JEŠTĚ ZOTROČUJE LIDI, ZŮSTALA SMLOUVA MANŽELSKÁ — TA DÁVÁ MANŽELOVI V JEDNÉ OSOBĚ FUNKCI ZÁKONODÁRCE, SOUDCE I STRANY A ŽENĚ BERE PRÁVNÍ OSOBNOST. Chudé ženy v problémových či násilných manželstvích čelily akutnímu ohrožení. Podle německé feministky ALICE SALOMON (1872–1948) bylo pro dělnické ženy manželství tyranií: 'ŽIJE JAKO VĚZEŇKYNĚ NEBO JAKO STARÝ PES' a její jedinou nadějí je, 'ŽE NEDOSTANE BITÍ A ŽE JI MANŽEL NEPODVEDE'. Podobné protesty probíhaly v RAKOUSKU A ŠVÝCARSKU.",
-      "terms": [
-        { "term": "Frauenlandsturm", "def": "Německý boj žen proti občanskému zákoníku (BGB) — nejvýznamnější reformní úsilí ženského hnutí." }
-      ],
+      "title": "Frauenlandsturm: the movement's most significant reform effort",
+      "text": "The German women's struggle against the civil code, the so-called FRAUENLANDSTURM, became THE MOST SIGNIFICANT REFORM EFFORT OF THE WHOLE MOVEMENT. Women attacked the BGB with a series of petitions. The BUND DEUTSCHER FRAUENVEREINE submitted a petition against the codification IN 1899, arguing: 'IN OTHER AREAS OF LAW WOMEN ARE RESPONSIBLE LEGAL PERSONALITIES; ONLY IN THE CASE OF MARRIAGE ARE THEY STILL UNDER THE GUARDIANSHIP OF MEN.' And further, in an argument worth knowing verbatim: WHEN SERFDOM AND FEUDALISM ENDED IN EUROPE, THE ONLY LEGAL SITUATION STILL ENSLAVING HUMAN BEINGS WAS THE MARRIAGE CONTRACT — IT GIVES THE HUSBAND IN ONE PERSON THE FUNCTIONS OF LEGISLATOR, JUDGE AND PARTY AND TAKES THE WIFE'S LEGAL PERSONALITY AWAY. Poor women in troubled or violent marriages faced acute danger. According to the German feminist ALICE SALOMON (1872–1948), marriage was tyranny for working-class women: 'SHE LIVES LIKE A PRISONER OR LIKE AN OLD DOG', and her only hope is 'THAT SHE WILL NOT BE BEATEN AND THAT HER HUSBAND WILL NOT DECEIVE HER'. Similar protests took place in AUSTRIA AND SWITZERLAND.",
+      "terms": [{"term": "Frauenlandsturm", "def": "The German women's struggle against the civil code (BGB) — the most significant reform effort of the women's movement."}],
       "cards": [
-        {
-          "q": "Jak zněl klíčový argument petice Bund Deutscher Frauenvereine z roku 1899?",
-          "a": "Že když v Evropě skončilo NEVOLNICTVÍ A FEUDALISMUS, jedinou právní situací, KTERÁ JEŠTĚ ZOTROČUJE LIDI, ZŮSTALA SMLOUVA MANŽELSKÁ — ta dává manželovi V JEDNÉ OSOBĚ funkci ZÁKONODÁRCE, SOUDCE I STRANY a ženě bere právní osobnost. V jiných právních oblastech jsou přitom ženy odpovědnými právními osobnostmi.",
-          "difficulty": 3,
-          "kind": "norma",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Co je Frauenlandsturm?",
-          "a": "Německý boj žen proti občanskému zákoníku (BGB), vedený řadou petic — podle autorek NEJVÝZNAMNĚJŠÍ REFORMNÍ ÚSILÍ celého ženského hnutí. Podobné protesty probíhaly v Rakousku a Švýcarsku.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What was the key argument of the Bund Deutscher Frauenvereine's petition of 1899?", "a": "That when SERFDOM AND FEUDALISM ended in Europe, the only legal situation STILL ENSLAVING HUMAN BEINGS WAS THE MARRIAGE CONTRACT — it gives the husband IN ONE PERSON the functions of LEGISLATOR, JUDGE AND PARTY and takes away the wife's legal personality. In other areas of law women are responsible legal personalities.", "difficulty": 3, "kind": "norma", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What is the Frauenlandsturm?", "a": "The German women's struggle against the civil code (BGB), conducted through a series of petitions — on the authors' account THE MOST SIGNIFICANT REFORM EFFORT of the whole women's movement. Similar protests took place in Austria and Switzerland.", "difficulty": 2, "kind": "definice", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "12": {
-      "title": "Anglie: Caroline Norton a čtyři zákony",
-      "text": "CAROLINE NORTON (1808–1877) se bránila zneužívání ze strany svého manžela a prosadila parlamentní zákony ve prospěch žen: CUSTODY OF INFANTS ACT (1839), MATRIMONIAL CAUSES ACT (1857) a PRVNÍ MARRIED WOMEN'S PROPERTY ACT (1870). DRUHÝ MARRIED WOMEN'S PROPERTY ACT (1882) do značné míry ZRUŠIL PRÁVO, KTERÉ STAVĚLO MANŽELKY POD AUTORITU MANŽELŮ: vdané ženy už nemusely sňatkem vydat svůj osobní majetek a mohly ho VLASTNIT, KUPOVAT A ODDĚLIT — JEJICH PRÁVNÍ IDENTITA JAKO JEDNOTLIVCŮ BYLA OBNOVENA. ALE POZOR NA HRANICI TÉ REFORMY, právě na ní se ukazuje, jak daleko tehdy rovnost sahala: ZÁKON SE NEDOTKL OSOBNÍCH VZTAHŮ MANŽELŮ — žena byla stále 'vázána následovat manželovo bydliště doma i v cizině a žít s ním, pokud to vyžaduje', a OTCOVÉ DÁL POŽÍVALI PORUČNICKÝCH PRÁV KE SVÝM DĚTEM; při rozvodu soud svěřoval poručenství NEVINNÉ STRANĚ. Autorky z toho dělají obecný závěr: V TĚCHTO PŘÍKLADECH VIDÍME PRÁVNÍ AKTIVISMUS ŽEN JAKO KATALYZÁTOR EVENTUÁLNÍ REFORMY.",
+      "title": "England: Caroline Norton and four statutes",
+      "text": "CAROLINE NORTON (1808–1877) defended herself against her husband's abuse and secured parliamentary statutes in women's favour: the CUSTODY OF INFANTS ACT (1839), the MATRIMONIAL CAUSES ACT (1857) and the FIRST MARRIED WOMEN'S PROPERTY ACT (1870). THE SECOND MARRIED WOMEN'S PROPERTY ACT (1882) largely ABOLISHED THE LAW THAT PLACED WIVES UNDER THEIR HUSBANDS' AUTHORITY: married women no longer had to surrender their personal property on marriage and could OWN, BUY AND SEPARATE IT — THEIR LEGAL IDENTITY AS INDIVIDUALS WAS RESTORED. BUT NOTE THE LIMIT OF THAT REFORM, for it shows just how far equality reached at the time: THE ACT DID NOT TOUCH THE PERSONAL RELATIONS OF SPOUSES — a wife was still 'bound to follow her husband's domicile at home and abroad and to live with him if he so required', and FATHERS CONTINUED TO ENJOY GUARDIANSHIP RIGHTS OVER THEIR CHILDREN; on divorce the court awarded guardianship to THE INNOCENT PARTY. The authors draw a general conclusion: IN THESE EXAMPLES WE SEE WOMEN'S LEGAL ACTIVISM AS THE CATALYST OF EVENTUAL REFORM.",
       "terms": [],
       "cards": [
-        {
-          "q": "Které čtyři anglické zákony spojujeme s Caroline Norton a co udělal ten poslední?",
-          "a": "Custody of Infants Act (1839), Matrimonial Causes Act (1857), první Married Women's Property Act (1870) a DRUHÝ MARRIED WOMEN'S PROPERTY ACT (1882) — ten do značné míry ZRUŠIL PODŘÍZENOST MANŽELEK: ženy si ponechaly osobní majetek, mohly ho vlastnit, kupovat a oddělit, a JEJICH PRÁVNÍ IDENTITA BYLA OBNOVENA.",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Čeho se Married Women's Property Act z roku 1882 NEdotkl?",
-          "a": "OSOBNÍCH VZTAHŮ MANŽELŮ: žena byla stále vázána NÁSLEDOVAT MANŽELOVO BYDLIŠTĚ doma i v cizině a žít s ním, pokud to vyžadoval, a OTCOVÉ DÁL POŽÍVALI PORUČNICKÝCH PRÁV K DĚTEM (při rozvodu soud svěřoval poručenství nevinné straně).",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "Which four English statutes are associated with Caroline Norton, and what did the last one do?", "a": "The Custody of Infants Act (1839), the Matrimonial Causes Act (1857), the first Married Women's Property Act (1870) and the SECOND MARRIED WOMEN'S PROPERTY ACT (1882) — which largely ABOLISHED THE SUBORDINATION OF WIVES: women kept their personal property, could own, buy and separate it, and THEIR LEGAL IDENTITY WAS RESTORED.", "difficulty": 3, "kind": "cisla", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What did the Married Women's Property Act of 1882 NOT touch?", "a": "THE PERSONAL RELATIONS OF SPOUSES: a wife was still bound to FOLLOW HER HUSBAND'S DOMICILE at home and abroad and to live with him if he required it, and FATHERS CONTINUED TO ENJOY GUARDIANSHIP RIGHTS over the children (on divorce the court awarded guardianship to the innocent party).", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "13": {
-      "title": "Východní a jihovýchodní Evropa: zděděná cizí práva",
-      "text": "Dějiny reformy ve východní a jihovýchodní Evropě jsou složitější. Jak ŘECKO, POLSKO, ČESKOSLOVENSKO A MAĎARSKO vznikaly nebo se znovu objevovaly z omezení mnohonárodních říší, ZDĚDILY NOVÉ NÁRODNÍ STÁTY 'CIZÍ' PRÁVNÍ SYSTÉMY a musely se vypořádat s MNOHONÁRODNOSTNÍM, MNOHOKULTURNÍM A MNOHOJAZYČNÝM OBYVATELSTVEM, KTERÉ ŽILO V RŮZNÝCH PRÁVNÍCH TRADICÍCH. Zároveň probíhaly vnitřní boje, protože etnické menšiny hledaly ve státě zastoupení svých kolektivních a oddělených identit. A tady je ta myšlenka, kterou si u zkoušky můžeš vzít jako klíč k celé části I: VE SNAZE SLADIT RŮZNÉ MENŠINY SE ZÁKONODÁRCI PSAJÍCÍ NÁRODNÍ OBČANSKÉ ZÁKONÍKY POKOUŠELI VYJASNIT POJEM NÁRODA — A PROTO DO NICH VEPSALI SVÉ PŘEDSTAVY O NÁLEŽITÉM GENDEROVÉM ŘÁDU. V ŘECKU (Doxiadis, kap. 1) se zákonodárci snažili následovat zásady západoevropských kodexů, což vyvolalo debatu o povaze rodiny k újmě práv žen — národní kodifikace tam vedla K POKLESU ÚČASTI ŽEN V SOUDNÍCH ŘÍZENÍCH.",
+      "title": "Eastern and south-eastern Europe: inherited foreign laws",
+      "text": "The history of reform in eastern and south-eastern Europe is more complex. As GREECE, POLAND, CZECHOSLOVAKIA AND HUNGARY emerged or re-emerged from the constraints of multi-ethnic empires, THE NEW NATION STATES INHERITED 'FOREIGN' LEGAL SYSTEMS and had to cope with MULTI-ETHNIC, MULTICULTURAL AND MULTILINGUAL POPULATIONS LIVING UNDER DIFFERENT LEGAL TRADITIONS. At the same time internal struggles were under way, as ethnic minorities sought representation of their collective and separate identities within the state. And here is the idea you can take as the key to the whole of Part I: IN SEEKING TO RECONCILE THE VARIOUS MINORITIES, THE LEGISLATORS WRITING NATIONAL CIVIL CODES TRIED TO CLARIFY THE CONCEPT OF THE NATION — AND THEREFORE INSCRIBED INTO THEM THEIR NOTIONS OF THE PROPER GENDER ORDER. In GREECE (Doxiadis, ch. 1) legislators sought to follow the principles of the western European codes, which provoked a debate on the nature of the family to the detriment of women's rights — national codification there led to A DECLINE IN WOMEN'S PARTICIPATION IN COURT PROCEEDINGS.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč byly kodifikace ve východní Evropě pro ženy zvlášť složité?",
-          "a": "Nové státy ZDĚDILY 'CIZÍ' PRÁVNÍ SYSTÉMY a mnohonárodnostní obyvatelstvo žijící v různých právních tradicích. VE SNAZE TY MENŠINY SLADIT SE ZÁKONODÁRCI POKOUŠELI VYJASNIT POJEM NÁRODA — A TÍM DO KODEXŮ VEPSALI SVÉ PŘEDSTAVY O NÁLEŽITÉM GENDEROVÉM ŘÁDU.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Co národní kodifikace udělala v Řecku?",
-          "a": "Zákonodárci chtěli následovat západoevropské kodexy, což vyvolalo debatu o povaze rodiny K ÚJMĚ PRÁV ŽEN — a kodifikace vedla k POKLESU ÚČASTI ŽEN V SOUDNÍCH ŘÍZENÍCH.",
-          "difficulty": 2,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "Why were the codifications in eastern Europe particularly difficult for women?", "a": "The new states INHERITED 'FOREIGN' LEGAL SYSTEMS and multi-ethnic populations living under different legal traditions. IN SEEKING TO RECONCILE THOSE MINORITIES THE LEGISLATORS TRIED TO CLARIFY THE CONCEPT OF THE NATION — AND THEREBY INSCRIBED INTO THE CODES THEIR NOTIONS OF THE PROPER GENDER ORDER.", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What did national codification do in Greece?", "a": "Legislators wanted to follow the western European codes, which provoked a debate on the nature of the family TO THE DETRIMENT OF WOMEN'S RIGHTS — and the codification led to A DECLINE IN WOMEN'S PARTICIPATION IN COURT PROCEEDINGS.", "difficulty": 2, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "14": {
-      "title": "Španělsko: reforma proti vůli většiny — a její zvrat",
-      "text": "Ve Španělsku (Nielfa, kap. 2) zavedla revoluční vláda reformy práv žen PROTI VŮLI VĚTŠINY. Historicky si španělská společnost a právo udržovaly konzervativní genderové role, a to především vlivnou rolí KATOLICKÉ CÍRKVE. SE VZNIKEM DRUHÉ REPUBLIKY ROKU 1931 udělil parlament ženám VOLEBNÍ PRÁVO a s poměrně malým odporem přijal zákony zrovnoprávňující mocenské vztahy v rodinném právu. TY REFORMY SE ALE UKÁZALY JAKO NEPOPULÁRNÍ A PO FRANCOVĚ PUČI ROKU 1936 BYLY ZVRÁCENY. Rovná práva žen v rodinném právu Španělsko obnovilo AŽ POZDĚ VE 20. STOLETÍ, po obnoveném hnutí za práva žen. (Pro časovou osu: v republikánské zóně občanské války byla roku 1936 jmenována PRVNÍ SOUDKYNĚ.)",
+      "title": "Spain: reform against the will of the majority — and its reversal",
+      "text": "In Spain (Nielfa, ch. 2) a revolutionary government introduced reforms of women's rights AGAINST THE WILL OF THE MAJORITY. Historically Spanish society and law maintained conservative gender roles, above all through the influential role of the CATHOLIC CHURCH. WITH THE ESTABLISHMENT OF THE SECOND REPUBLIC IN 1931 parliament granted women THE VOTE and, with comparatively little opposition, passed laws equalising power relations in family law. THOSE REFORMS PROVED UNPOPULAR, HOWEVER, AND WERE REVERSED AFTER FRANCO'S COUP IN 1936. Spain restored equal rights for women in family law ONLY LATE IN THE 20TH CENTURY, after a renewed women's rights movement. (For the timeline: in the republican zone of the civil war THE FIRST WOMAN JUDGE was appointed in 1936.)",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak dopadly španělské reformy rodinného práva z roku 1931?",
-          "a": "Druhá republika udělila ženám VOLEBNÍ PRÁVO a s malým odporem zrovnoprávnila rodinné právo — ale reformy byly NEPOPULÁRNÍ a PO FRANCOVĚ PUČI ROKU 1936 ZVRÁCENY. Rovná práva Španělsko obnovilo až pozdě ve 20. století.",
-          "difficulty": 2,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What became of the Spanish family law reforms of 1931?", "a": "The Second Republic granted women THE VOTE and equalised family law with little opposition — but the reforms were UNPOPULAR and were REVERSED AFTER FRANCO'S COUP IN 1936. Spain restored equal rights only late in the 20th century.", "difficulty": 2, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "15": {
-      "title": "Československo: dvě kapitoly, jeden neúspěch",
-      "text": "Stát ČESKOSLOVENSKO, vzniklý ROKU 1918 z habsburské monarchie, byl kulturně, etnicky a jazykově rozdělený a ČELIL NĚKOLIKA RŮZNÝM PRÁVNÍM SYSTÉMŮM S ROZDÍLNÝMI DŮSLEDKY PRO ŽENY. MELISSA FEINBERG (kap. 3) rozebírá české reformní hnutí žen, JANA OSTERKAMP (kap. 4) zkoumá německou a slovenskou situaci z historické a právní perspektivy. Obě badatelky nacházejí SPOLEČNÉ JMENOVATELE NEÚSPĚCHU PRÁVNÍ REFORMY, ALE DOCHÁZEJÍ K ROZDÍLNÝM ZÁVĚRŮM — jejich kapitoly se přesto doplňují v nálezu, že NÁROKY ŽEN NA ZMĚNY RODINNÉHO PRÁVA NARÁŽELY NA TRVALÝ ODPOR NAVZDORY AKTIVNÍMU ZAPOJENÍ HNUTÍ ZA PRÁVA ŽEN DO PRÁVNÍCH OTÁZEK. A klíčové datum: ÚSTAVNÍ USTANOVENÍ O ROVNOSTI NEBYLA PROVEDENA AŽ DO ROKU 1949, KDY ČESKOSLOVENSKO POD KOMUNISTICKOU VLÁDOU PŘIJALO KOMPLEXNÍ REFORMU RODINNÉHO PRÁVA. To odráží širší evropský vzorec: ZÁSADNÍ ZMĚNY PRO ŽENY NEPŘICHÁZELY SOUČASNĚ S JINÝMI POKROKOVÝMI REFORMAMI. V Polsku například hnutí za práva žen ODMÍTALO UZNAT PLATNOST HETERONOMNÍCH PRÁVNÍCH KODEXŮ a mohlo se do právních bojů pustit až po dosažení jisté vnitřní soudržnosti. (Do téhle kapitoly patří i MILADA HORÁKOVÁ, členka Ženské národní rady, která navrhovala změny rodinného práva a pracovala pro reformy napříč politickými liniemi.)",
+      "title": "Czechoslovakia: two chapters, one failure",
+      "text": "The state of CZECHOSLOVAKIA, created IN 1918 out of the Habsburg monarchy, was culturally, ethnically and linguistically divided and FACED SEVERAL DIFFERENT LEGAL SYSTEMS WITH DIFFERENT CONSEQUENCES FOR WOMEN. MELISSA FEINBERG (ch. 3) analyses the Czech women's reform movement, JANA OSTERKAMP (ch. 4) examines the German and Slovak situation from a historical and legal perspective. Both scholars find COMMON DENOMINATORS OF THE FAILURE OF LEGAL REFORM BUT REACH DIFFERENT CONCLUSIONS — their chapters nevertheless complement each other in finding that WOMEN'S CLAIMS TO CHANGES IN FAMILY LAW MET WITH PERSISTENT RESISTANCE DESPITE THE ACTIVE ENGAGEMENT OF THE WOMEN'S RIGHTS MOVEMENT IN LEGAL QUESTIONS. And the key date: THE CONSTITUTIONAL PROVISIONS ON EQUALITY WERE NOT IMPLEMENTED UNTIL 1949, WHEN CZECHOSLOVAKIA UNDER COMMUNIST RULE ADOPTED A COMPREHENSIVE REFORM OF FAMILY LAW. This reflects a wider European pattern: FUNDAMENTAL CHANGES FOR WOMEN DID NOT ARRIVE TOGETHER WITH OTHER PROGRESSIVE REFORMS. In Poland, for instance, the women's rights movement REFUSED TO RECOGNISE THE VALIDITY OF HETERONOMOUS LEGAL CODES and could embark on legal battles only after achieving a degree of internal cohesion. (This chapter also covers MILADA HORÁKOVÁ, a member of the Women's National Council, who drafted changes to family law and worked for reforms across political lines.)",
       "terms": [],
       "cards": [
-        {
-          "q": "Kdy byla v Československu provedena ústavní rovnost v rodinném právu a co to ukazuje?",
-          "a": "AŽ ROKU 1949, POD KOMUNISTICKOU VLÁDOU, komplexní reformou rodinného práva — ačkoli ústavní ustanovení o rovnosti platila od roku 1918. Odráží to širší evropský vzorec: ZÁSADNÍ ZMĚNY PRO ŽENY NEPŘICHÁZELY SOUČASNĚ S JINÝMI POKROKOVÝMI REFORMAMI.",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Proč se polské hnutí za práva žen do právních bojů dlouho nepouštělo?",
-          "a": "Protože ODMÍTALO UZNAT PLATNOST HETERONOMNÍCH PRÁVNÍCH KODEXŮ — tedy práva vnuceného zvenčí — a mohlo se do bojů pustit až poté, co dosáhlo jisté vnitřní soudržnosti.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "When was constitutional equality implemented in Czechoslovak family law, and what does that show?", "a": "ONLY IN 1949, UNDER COMMUNIST RULE, by a comprehensive reform of family law — although the constitutional provisions on equality had applied since 1918. It reflects a wider European pattern: FUNDAMENTAL CHANGES FOR WOMEN DID NOT ARRIVE TOGETHER WITH OTHER PROGRESSIVE REFORMS.", "difficulty": 3, "kind": "cisla", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "Why did the Polish women's rights movement long refrain from legal battles?", "a": "Because it REFUSED TO RECOGNISE THE VALIDITY OF HETERONOMOUS LEGAL CODES — law imposed from outside — and could embark on those battles only after achieving a degree of internal cohesion.", "difficulty": 3, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "16": {
-      "title": "Komunismus: práva na papíře, mentality beze změny",
-      "text": "Společné rysy evropských právních dějin se ROZEŠLY S NÁSTUPEM KOMUNISTICKÉ VLÁDY. BOLŠEVICKÝ RODINNÝ ZÁKONÍK Z ROKU 1918 formálně UKONČIL PODŘÍZENOST ŽEN MUŽŮM V RODINĚ, LEGALIZOVAL ROZVOD a zavedl OCHRANU NEPROVDANÝCH MATEK, PLACENÉ PRÁCE ŽEN A JEJICH MAJETKU. Reformní potenciál byl zčásti podkopán za STALINOVA VEDENÍ (1924–1953), rovná práva žen ale byla provedena v zákonech dalších východoevropských zemí pod komunistickou vládou během druhé světové války a po ní. Kapitoly GORDANY STOJAKOVIĆ o Jugoslávii (kap. 7) a KRASSIMIRY DASKALOVÉ o Bulharsku (kap. 8) ukazují to podstatné: KOMUNISMUS VYTVOŘIL JISTÉ PŘÍLEŽITOSTI K POSTUPU PRÁV ŽEN, ZEJMÉNA SKRZE ZAMĚSTNÁNÍ — ALE GENDEROVÉ VZTAHY UVNITŘ RODINY SE TVÁŘÍ V TVÁŘ PŘETRVÁVAJÍCÍM MENTALITÁM A KULTUŘE ZMĚNILY JEN VELMI MÁLO.",
+      "title": "Communism: rights on paper, mentalities unchanged",
+      "text": "The common features of European legal history DIVERGED WITH THE ADVENT OF COMMUNIST RULE. THE BOLSHEVIK FAMILY CODE OF 1918 formally ENDED THE SUBORDINATION OF WOMEN TO MEN IN THE FAMILY, LEGALISED DIVORCE and introduced PROTECTION FOR UNMARRIED MOTHERS, FOR WOMEN'S PAID WORK AND FOR THEIR PROPERTY. Its reform potential was in part undermined under STALIN'S LEADERSHIP (1924–1953), but equal rights for women were implemented in the laws of other eastern European countries under communist rule during and after the Second World War. The chapters by GORDANA STOJAKOVIĆ on Yugoslavia (ch. 7) and KRASSIMIRA DASKALOVA on Bulgaria (ch. 8) show the essential point: COMMUNISM CREATED CERTAIN OPPORTUNITIES FOR ADVANCING WOMEN'S RIGHTS, PARTICULARLY THROUGH EMPLOYMENT — BUT GENDER RELATIONS WITHIN THE FAMILY CHANGED VERY LITTLE IN THE FACE OF PERSISTENT MENTALITIES AND CULTURE.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co zavedl bolševický rodinný zákoník z roku 1918?",
-          "a": "Formálně UKONČIL PODŘÍZENOST ŽEN MUŽŮM V RODINĚ, LEGALIZOVAL ROZVOD a zavedl ochranu NEPROVDANÝCH MATEK, PLACENÉ PRÁCE ŽEN A JEJICH MAJETKU. Jeho reformní potenciál byl zčásti podkopán za Stalinova vedení (1924–1953).",
-          "difficulty": 2,
-          "kind": "norma",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jaký je závěr o komunismu a právech žen (Jugoslávie, Bulharsko)?",
-          "a": "Komunismus vytvořil JISTÉ PŘÍLEŽITOSTI, zejména SKRZE ZAMĚSTNÁNÍ — ALE GENDEROVÉ VZTAHY UVNITŘ RODINY SE TVÁŘÍ V TVÁŘ PŘETRVÁVAJÍCÍM MENTALITÁM A KULTUŘE ZMĚNILY JEN VELMI MÁLO.",
-          "difficulty": 2,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What did the Bolshevik family code of 1918 introduce?", "a": "It formally ENDED THE SUBORDINATION OF WOMEN TO MEN IN THE FAMILY, LEGALISED DIVORCE and introduced protection for UNMARRIED MOTHERS, FOR WOMEN'S PAID WORK AND FOR THEIR PROPERTY. Its reform potential was in part undermined under Stalin's leadership (1924–1953).", "difficulty": 2, "kind": "norma", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What is the conclusion about communism and women's rights (Yugoslavia, Bulgaria)?", "a": "Communism created CERTAIN OPPORTUNITIES, particularly THROUGH EMPLOYMENT — BUT GENDER RELATIONS WITHIN THE FAMILY CHANGED VERY LITTLE IN THE FACE OF PERSISTENT MENTALITIES AND CULTURE.", "difficulty": 2, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "17": {
-      "title": "Skandinávie a dokončení reforem v 60. a 70. letech",
-      "text": "Ve skandinávských zemích platil ODLIŠNÝ VZOREC. DO KONCE 19. STOLETÍ dala první vlna právních reforem NEPROVDANÝM ŽENÁM PRÁVO NA VZDĚLÁNÍ A NA PRÁCI a vdané ženy získaly některá ekonomická práva. V DÁNSKU, FINSKU, NA ISLANDU, V NORSKU A ŠVÉDSKU proměnily reformy občanského práva a mezinárodního práva soukromého postavení žen v manželství OD KONCE 19. STOLETÍ DO 20. LET. Emancipaci v rodinném právu usnadnil dál SLÁBNOUCÍ VLIV NÁBOŽENSTVÍ A TRADIČNÍCH HODNOT. Výsledný ROVNOSTÁŘSKÝ NORDICKÝ MODEL MANŽELSTVÍ se stal ÚSPĚCHEM K NÁPODOBĚ pro ženské organizace v jiných zemích. AŽ V 60. A 70. LETECH 20. STOLETÍ dosáhly západoevropské země KOMPLEXNÍ REFORMY RODINNÉHO PRÁVA. Některé z těch reforem vyrostly z desítky let trvajícího úsilí, ve kterém se používaly strategické argumenty 'OBČANSKÉHO MATEŘSTVÍ' (CIVIC MATERNALISM) čili 'SOCIÁLNÍHO HOSPODAŘENÍ' (SOCIAL HOUSEKEEPING) — tedy ospravedlnění reformy tím, ŽE PROSPĚJE MATEŘSKÉ ROLI ŽEN A POSÍLÍ RODINU. Další reformy pak bylo třeba k otázkám STEJNÉ ODMĚNY ZA STEJNOU PRÁCI, DAŇOVÝCH ZÁKONŮ, ZÁKONODÁRSTVÍ O PROSTITUCI A DĚLBY PRÁCE V RODINĚ.",
-      "terms": [
-        { "term": "civic maternalism / social housekeeping", "def": "Strategická argumentace, že reforma prospěje mateřské roli žen a posílí rodinu — ne že je žena rovna muži." }
-      ],
+      "title": "Scandinavia and the completion of reform in the 1960s and 1970s",
+      "text": "In the Scandinavian countries A DIFFERENT PATTERN applied. BY THE END OF THE 19TH CENTURY a first wave of legal reform had given UNMARRIED WOMEN THE RIGHT TO EDUCATION AND TO WORK, and married women gained some economic rights. IN DENMARK, FINLAND, ICELAND, NORWAY AND SWEDEN reforms of civil law and of private international law transformed women's position in marriage FROM THE END OF THE 19TH CENTURY INTO THE 1920s. Emancipation in family law was further eased by THE WEAKENING INFLUENCE OF RELIGION AND TRADITIONAL VALUES. The resulting EGALITARIAN NORDIC MODEL OF MARRIAGE became A SUCCESS TO BE IMITATED for women's organisations in other countries. ONLY IN THE 1960s AND 1970s did the western European countries achieve COMPREHENSIVE REFORM OF FAMILY LAW. Some of those reforms grew out of decades of effort in which the strategic arguments of 'CIVIC MATERNALISM' or 'SOCIAL HOUSEKEEPING' were used — that is, justifying reform on the ground THAT IT WOULD BENEFIT WOMEN'S MATERNAL ROLE AND STRENGTHEN THE FAMILY. Further reforms were then needed on EQUAL PAY FOR EQUAL WORK, TAX LAW, LEGISLATION ON PROSTITUTION and THE DIVISION OF LABOUR IN THE FAMILY.",
+      "terms": [{"term": "civic maternalism / social housekeeping", "def": "The strategic argument that reform will benefit women's maternal role and strengthen the family — not that woman is equal to man."}],
       "cards": [
-        {
-          "q": "Co je 'civic maternalism' a proč se ho reformátorky držely?",
-          "a": "Strategický argument ('občanské mateřství' / 'sociální hospodaření'), že sociální a právní reforma PROSPĚJE MATEŘSKÉ ROLI ŽEN A POSÍLÍ RODINU. Nebyl to argument z rovnosti, ale z užitečnosti — a stál za velkou částí reforem, které se dokončily až v 60. a 70. letech.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Čím byl skandinávský vývoj odlišný?",
-          "a": "Už do konce 19. století dala první vlna reforem NEPROVDANÝM ŽENÁM právo na vzdělání a práci a vdaným některá ekonomická práva; od konce 19. století do 20. let proměnily reformy jejich postavení v manželství. Pomohl SLÁBNOUCÍ VLIV NÁBOŽENSTVÍ a vznikl ROVNOSTÁŘSKÝ NORDICKÝ MODEL MANŽELSTVÍ jako vzor k nápodobě.",
-          "difficulty": 2,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What is 'civic maternalism' and why did the reformers stick to it?", "a": "A strategic argument ('civic maternalism' / 'social housekeeping') that social and legal reform WILL BENEFIT WOMEN'S MATERNAL ROLE AND STRENGTHEN THE FAMILY. It was an argument not from equality but from usefulness — and it lay behind a large part of the reforms completed only in the 1960s and 1970s.", "difficulty": 3, "kind": "definice", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "How was the Scandinavian development different?", "a": "Already by the end of the 19th century a first wave of reform gave UNMARRIED WOMEN the right to education and work and married women some economic rights; from the end of the 19th century into the 1920s reforms transformed their position in marriage. The WEAKENING INFLUENCE OF RELIGION helped, and an EGALITARIAN NORDIC MODEL OF MARRIAGE arose as a model to imitate.", "difficulty": 2, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "18": {
-      "title": "Proč byl vstup do právnické profese mezníkem",
-      "text": "VE VŠECH EVROPSKÝCH ZEMÍCH BYL VSTUP ŽEN NA PRÁVNICKÉ FAKULTY A DO PROFESE ZLOMOVOU UDÁLOSTÍ, KTERÁ OSVĚTLILA GENDEROVOU KONSTRUKCI CELÉHO OBORU — a jejich úspěchy přispěly k rozbití vytrvalých kulturních tvrzení o méněcennosti ženského intelektu. Právnická profese má kořeny v osvícenství a IDEALIZOVALA RACIONALITU, OBJEKTIVITU A INTELEKTUÁLNÍ PŘÍSNOST, KTERÉ SE TRADIČNĚ SPOJOVALY S MASKULINITOU. V systémech civil law i common law přispívalo právnické vzdělání k tomu, že právníci fungovali jako SOUDRŽNÁ SOCIÁLNÍ SKUPINA — privilegiem, společným světonázorem a habitem. Požadavky právnického vzdělání tak pomáhaly vytvářet a udržovat VÝLUČNĚ MUŽSKOU ELITU v profesi i v soudnictví, což zpětně ovlivňovalo soudní systém, zákonodárství i akademické chápání práva. Účast žen v profesi TO PARADIGMA OHROŽOVALA A NAKONEC ZMĚNILA. Odpor měl dvě linie: ANTIFEMINISTICKÉ ARGUMENTY UPÍRAJÍCÍ ŽENÁM SCHOPNOST RACIONALITY A OBJEKTIVITY, a ODDĚLENĚ ARGUMENT, ŽE ŽENY PŘEDSTAVUJÍ KONKURENČNÍ EKONOMICKOU HROZBU UŽ TAK PŘEPLNĚNÉ PROFESI. Zastánci práv žen pravidelně namítali, že ŽÁDNÝ ZÁKONNÝ ANI PODZÁKONNÝ TEXT ŽENÁM VSTUP DO PROFESE NEUPÍRÁ, a tedy že jejich vyloučení stojí na PŘEDPOJATÉM VÝKLADU PŘEDPISŮ. Někteří reformátoři používali i RÉTORIKU MATEŘSTVÍ: potvrzovali odpovědnost žen za domov a zároveň argumentovali pro jejich rozšířenou roli ve veřejné sféře — morální čistota a pečovatelské schopnosti žen prý mohou VYČISTIT ZKORUMPOVANOU POLITIKU, POSÍLIT NÁROD A ZLEPŠIT SPRAVEDLNOST.",
+      "title": "Why entry into the legal profession was a turning point",
+      "text": "IN EVERY EUROPEAN COUNTRY THE ENTRY OF WOMEN INTO LAW FACULTIES AND INTO THE PROFESSION WAS A WATERSHED EVENT THAT ILLUMINATED THE GENDERED CONSTRUCTION OF THE WHOLE FIELD — and their successes contributed to demolishing persistent cultural claims about the inferiority of the female intellect. The legal profession has its roots in the Enlightenment and IDEALISED RATIONALITY, OBJECTIVITY AND INTELLECTUAL RIGOUR, WHICH WERE TRADITIONALLY ASSOCIATED WITH MASCULINITY. In civil law and common law systems alike, legal education contributed to lawyers functioning as A COHESIVE SOCIAL GROUP — through privilege, a shared worldview and habitus. The requirements of legal education thus helped to create and maintain AN EXCLUSIVELY MALE ELITE in the profession and on the bench, which in turn influenced the judicial system, legislation and the academic understanding of law. Women's participation in the profession THREATENED AND ULTIMATELY CHANGED THAT PARADIGM. The resistance ran along two lines: ANTI-FEMINIST ARGUMENTS DENYING WOMEN THE CAPACITY FOR RATIONALITY AND OBJECTIVITY, and SEPARATELY THE ARGUMENT THAT WOMEN REPRESENTED A COMPETITIVE ECONOMIC THREAT TO AN ALREADY OVERCROWDED PROFESSION. Advocates of women's rights regularly objected that NO STATUTE OR REGULATION DENIED WOMEN ENTRY TO THE PROFESSION, and hence that their exclusion rested on A BIASED INTERPRETATION OF THE RULES. Some reformers also used THE RHETORIC OF MATERNALISM: affirming women's responsibility for the home while arguing for their extended role in the public sphere — women's moral purity and caring capacities could, it was said, CLEANSE CORRUPT POLITICS, STRENGTHEN THE NATION AND IMPROVE JUSTICE.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč byla právnická profese pro ženy tak těžko prostupná?",
-          "a": "Protože IDEALIZOVALA RACIONALITU, OBJEKTIVITU A INTELEKTUÁLNÍ PŘÍSNOST, tradičně spojované s MASKULINITOU, a právnické vzdělání z právníků dělalo SOUDRŽNOU SOCIÁLNÍ SKUPINU s vlastním privilegiem a habitem — čímž se udržovala VÝLUČNĚ MUŽSKÁ ELITA ovlivňující soudy, zákonodárství i vědu o právu.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jaké dvě linie odporu čelily ženám a jak se proti nim argumentovalo?",
-          "a": "1) ANTIFEMINISTICKÝ argument, že ženy nejsou schopné racionality a objektivity. 2) ODDĚLENĚ ekonomický argument, že jsou KONKURENČNÍ HROZBOU už tak přeplněné profesi. Proti tomu se namítalo, že ŽÁDNÝ PŘEDPIS ŽENÁM VSTUP NEUPÍRÁ a vyloučení stojí na PŘEDPOJATÉM VÝKLADU — a používala se i rétorika mateřství.",
-          "difficulty": 3,
-          "kind": "znaky",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "Why was the legal profession so hard for women to penetrate?", "a": "Because it IDEALISED RATIONALITY, OBJECTIVITY AND INTELLECTUAL RIGOUR, traditionally associated with MASCULINITY, and legal education made lawyers A COHESIVE SOCIAL GROUP with its own privilege and habitus — thereby maintaining AN EXCLUSIVELY MALE ELITE that shaped the courts, legislation and legal scholarship alike.", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What two lines of resistance did women face, and how were they answered?", "a": "1) The ANTI-FEMINIST argument that women are incapable of rationality and objectivity. 2) SEPARATELY, the economic argument that they were A COMPETITIVE THREAT to an already overcrowded profession. Against this it was objected that NO RULE DENIED WOMEN ENTRY and that their exclusion rested on A BIASED INTERPRETATION — and the rhetoric of maternalism was used as well.", "difficulty": 3, "kind": "znaky", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "19": {
-      "title": "Laické advokátky: mezera, kterou pak zavřeli",
-      "text": "Badatelské úsilí najít průkopnice odhalilo NEDOCENĚNÝ VZOREC: ZAMĚSTNÁVÁNÍ ŽEN JAKO NEPROFESIONÁLNÍCH ČILI 'LAICKÝCH' ADVOKÁTEK. V polovině a druhé půli 19. století se ženy k právní praxi dostávaly různými cestami. Za mimořádných okolností pracovala od ROKU 1847 srbská vdova MARIJA MILUTINOVIĆ-PUNKTATORKA (1810–1875). V RUSKU laické advokátky praktikovaly, DOKUD ALEXANDR II. ROKU 1876 ŽENÁM NEZAKÁZAL PŮSOBIT JAKO SOUKROMÍ ZÁSTUPCI. VE FINSKU (Korpiola, kap. 12) pracovaly ženy jako laické advokátky v 80. A 90. LETECH 19. STOLETÍ. Podobně ve ŠVÉDSKU si ANNA PETTERSSON ROKU 1904 ZALOŽILA VLASTNÍ ADVOKÁTNÍ KANCELÁŘ, ačkoli neabsolvovala tradiční akademickou přípravu ani zkoušky. A pointa: TEN VÝJIMEČNÝ PŘÍSTUP TRVAL, DOKUD MEZERY V PRÁVU NEZAVŘELY BUĎ VLÁDY, NEBO KORPORATIVNÍ TLAK UVNITŘ PROFESE SAMÉ.",
+      "title": "Lay advocates: a gap that was later closed",
+      "text": "The scholarly effort to find pioneers has revealed AN UNDERAPPRECIATED PATTERN: THE EMPLOYMENT OF WOMEN AS NON-PROFESSIONAL OR 'LAY' ADVOCATES. In the middle and second half of the 19th century women reached legal practice by various routes. In exceptional circumstances the Serbian widow MARIJA MILUTINOVIĆ-PUNKTATORKA (1810–1875) worked from 1847. In RUSSIA lay women advocates practised UNTIL ALEXANDER II FORBADE WOMEN TO ACT AS PRIVATE REPRESENTATIVES IN 1876. IN FINLAND (Korpiola, ch. 12) women worked as lay advocates IN THE 1880s AND 1890s. Similarly in SWEDEN, ANNA PETTERSSON SET UP HER OWN LAW OFFICE IN 1904, although she had not completed the traditional academic training or examinations. And the point: THAT EXCEPTIONAL ACCESS LASTED UNTIL THE GAPS IN THE LAW WERE CLOSED EITHER BY GOVERNMENTS OR BY CORPORATE PRESSURE FROM WITHIN THE PROFESSION ITSELF.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co byly 'laické advokátky' a jak ta cesta skončila?",
-          "a": "Ženy zaměstnané v právní praxi jako NEPROFESIONÁLNÍ zástupkyně bez formální kvalifikace — Marija Milutinović-Punktatorka v Srbsku od 1847, laické advokátky v Rusku (do zákazu Alexandra II. roku 1876), ve Finsku v 80. a 90. letech, Anna Pettersson ve Švédsku od 1904. TA MEZERA SE ZAVŘELA, jakmile ji uzavřely VLÁDY NEBO KORPORATIVNÍ TLAK UVNITŘ PROFESE.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What were 'lay advocates' and how did that route end?", "a": "Women employed in legal practice as NON-PROFESSIONAL representatives without formal qualification — Marija Milutinović-Punktatorka in Serbia from 1847, lay advocates in Russia (until Alexander II's ban in 1876), in Finland in the 1880s and 1890s, Anna Pettersson in Sweden from 1904. THE GAP CLOSED as soon as GOVERNMENTS OR CORPORATE PRESSURE WITHIN THE PROFESSION closed it.", "difficulty": 3, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "20": {
-      "title": "Právní poradny: kde se z pomoci stala reforma",
-      "text": "Německá feministka LOUISE OTTO to roku 1890 shrnula hořce: 'ŽENY SE UČÍ SNÁŠET BŘEMENO ZÁKONA, ZÁKON NESTUDUJÍ.' Aby ženy poučili o jejich právech, zakládali mnozí altruističtí zastánci PRÁVNÍ PORADNY ČI OCHRANNÉ AGENTURY, které ženám pomáhaly uplatňovat právní nároky. A tady je ten mechanismus, který stojí za zapamatování: KAŽDODENNÍ PRAXE TĚCH AGENTUR ZOSTŘILA VĚDOMÍ FEMINISTEK O ROLI PRÁVA V ŽIVOTECH ŽEN — A ZÁROVEŇ FORMOVALA PRVNÍ PRÁVNIČKY, z nichž některé pracovaly se znevýhodněnými skupinami. V ESTONSKU pracovala VERA POSKA-GRÜNTHAL (1898–1986) v Bureau of Legal Advice, kde jejími klientkami byly ženy potřebující radu v rodinných sporech a při rozvodu; když si uvědomila, že BALTSKÝ OBČANSKÝ ZÁKONÍK Z ROKU 1864 JE ZASTARALÝ A ODPORUJE ÚSTAVĚ NOVÉ ESTONSKÉ REPUBLIKY, zapojila se do ženského hnutí a spolu s VILMOU ANDERSON A OLINDE ILUS navrhla reformu rodinného práva. V českých zemích navrhovala změny rodinného práva MILADA HORÁKOVÁ z Ženské národní rady a pracovala pro reformy napříč politickými liniemi. Podobně se právní znalost žen proplétala s bojem za práva zdola ve FRANCII, NĚMECKU A RUMUNSKU. Přes národní rozdíly spojovalo ty aktivistky SPOLEČNÉ ODHODLÁNÍ K SOCIÁLNÍ SPRAVEDLNOSTI V SÍTÍCH ŽENSKÉ SOLIDARITY.",
+      "title": "Legal aid bureaux: where help turned into reform",
+      "text": "The German feminist LOUISE OTTO summed it up bitterly in 1890: 'WOMEN LEARN TO BEAR THE BURDEN OF THE LAW; THEY DO NOT STUDY IT.' To instruct women about their rights, many altruistic advocates founded LEGAL AID BUREAUX OR PROTECTIVE AGENCIES that helped women assert legal claims. And here is the mechanism worth remembering: THE DAILY PRACTICE OF THOSE AGENCIES SHARPENED FEMINISTS' AWARENESS OF THE ROLE OF LAW IN WOMEN'S LIVES — AND AT THE SAME TIME FORMED THE FIRST WOMEN LAWYERS, some of whom worked with disadvantaged groups. In ESTONIA, VERA POSKA-GRÜNTHAL (1898–1986) worked at the Bureau of Legal Advice, where her clients were women needing advice in family disputes and divorce; realising that THE BALTIC CIVIL CODE OF 1864 WAS OBSOLETE AND CONTRARY TO THE CONSTITUTION OF THE NEW ESTONIAN REPUBLIC, she joined the women's movement and, together with VILMA ANDERSON AND OLINDE ILUS, drafted a reform of family law. In the Czech lands MILADA HORÁKOVÁ of the Women's National Council drafted changes to family law and worked for reforms across political lines. Similarly women's legal knowledge intertwined with grassroots rights struggles in FRANCE, GERMANY AND ROMANIA. Despite national differences, those activists were united by A SHARED COMMITMENT TO SOCIAL JUSTICE WITHIN NETWORKS OF FEMALE SOLIDARITY.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak právní poradny posunuly ženské hnutí?",
-          "a": "Jejich KAŽDODENNÍ PRAXE ZOSTŘILA VĚDOMÍ FEMINISTEK O ROLI PRÁVA V ŽIVOTECH ŽEN — a zároveň FORMOVALA PRVNÍ PRÁVNIČKY. Příklad: Vera Poska-Grünthal v estonském Bureau of Legal Advice zjistila, že BALTSKÝ OBČANSKÝ ZÁKONÍK (1864) ODPORUJE ÚSTAVĚ nové republiky, a s Vilmou Anderson a Olinde Ilus navrhla reformu rodinného práva.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jak Louise Otto roku 1890 shrnula postavení žen vůči právu?",
-          "a": "'ŽENY SE UČÍ SNÁŠET BŘEMENO ZÁKONA, ZÁKON NESTUDUJÍ.'",
-          "difficulty": 1,
-          "kind": "basic",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "How did legal aid bureaux advance the women's movement?", "a": "Their DAILY PRACTICE SHARPENED FEMINISTS' AWARENESS OF THE ROLE OF LAW IN WOMEN'S LIVES — and at the same time FORMED THE FIRST WOMEN LAWYERS. Example: Vera Poska-Grünthal at the Estonian Bureau of Legal Advice found that THE BALTIC CIVIL CODE (1864) WAS CONTRARY TO THE CONSTITUTION of the new republic, and with Vilma Anderson and Olinde Ilus drafted a reform of family law.", "difficulty": 3, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "How did Louise Otto sum up women's position towards the law in 1890?", "a": "'WOMEN LEARN TO BEAR THE BURDEN OF THE LAW; THEY DO NOT STUDY IT.'", "difficulty": 1, "kind": "basic", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "21": {
-      "title": "Studium práva a první právničky",
-      "text": "Vzestup feministického právního hnutí závisel také na VZDĚLÁVACÍCH A PROFESNÍCH REFORMÁCH. Rozšíření základního a středního vzdělání koncem 19. století výrazně zvedlo počet žen usilujících o univerzitní studium. Přijímání na právnické fakulty bylo POSTUPNÉ A KUSÉ: ženy mohly studovat práva vedle mužů VE FRANCII UŽ V 80. LETECH 19. STOLETÍ, ale v RUSKU JIM TO BYLO ZAKÁZÁNO AŽ DO ROKU 1916 A V MAĎARSKU AŽ DO DRUHÉ SVĚTOVÉ VÁLKY. A důležitý mechanismus: TO, ŽE VZDĚLÁVACÍ A PRACOVNÍ PŘÍLEŽITOSTI NEBYLY SLADĚNÉ, VEDLO K OSOBNÍM STRÁDÁNÍM A ZÁROVEŇ MOTIVOVALO PRÁVNIČKY K ADVOKACII UVNITŘ HNUTÍ ZA PRÁVA ŽEN. Švýcarka EMILIE KEMPIN-SPYRI (1853–1901) promovala na univerzitě v Curychu ROKU 1887 a pracovala nejprve v New Yorku, kde učila právo a s americkými kolegyněmi poskytovala právní služby chudým (1888–1891). Belgičanka MARIE POPELIN (1846–1913), absolventka Svobodné univerzity v Bruselu z roku 1888, neúspěšně bojovala za připuštění žen do profese a prožila život jako učitelka a politická aktivistka — REFORMY Z ROKU 1921, KTERÁ ŽENY DO BELGICKÉ ADVOKACIE PUSTILA, SE NEDOŽILA. Rumunka SARMISA BILCESCU (1867–1935) vystudovala práva v Paříži, vrátila se do Bukurešti a ROKU 1891 ZÍSKALA OPRÁVNĚNÍ OD ADVOKÁTNÍ KOMORY; přesto ELLA NEGRUZZI (1876–1949) narazila ROKU 1913 na odpor při snaze zapsat se v Rumunsku k advokátní zkoušce a dostala se tam AŽ ROKU 1920. V PRUSKU byl studentkám odepřen přístup KE ZKOUŠKÁM, což jim zavíralo právnické fakulty. VE VĚTŠINĚ ZEMÍ ALE VZOREC VYLOUČENÍ OMEZOVAL PŘÍSTUP K SAMOTNÉ PROFESI — TEDY KE KONCIPIENTSKÉ PRAXI A DO ADVOKÁTNÍCH KOMOR — SPÍŠ NEŽ K UNIVERZITNÍMU STUDIU.",
+      "title": "Studying law and the first women lawyers",
+      "text": "The rise of a feminist legal movement also depended on EDUCATIONAL AND PROFESSIONAL REFORMS. The expansion of primary and secondary education at the end of the 19th century markedly raised the number of women seeking university study. Admission to law faculties was GRADUAL AND PIECEMEAL: women could study law alongside men IN FRANCE AS EARLY AS THE 1880s, but in RUSSIA THEY WERE FORBIDDEN TO DO SO UNTIL 1916 AND IN HUNGARY UNTIL THE SECOND WORLD WAR. And an important mechanism: THE FACT THAT EDUCATIONAL AND EMPLOYMENT OPPORTUNITIES WERE NOT ALIGNED CAUSED PERSONAL HARDSHIP AND AT THE SAME TIME MOTIVATED WOMEN LAWYERS TO ADVOCACY WITHIN THE WOMEN'S RIGHTS MOVEMENT. The Swiss EMILIE KEMPIN-SPYRI (1853–1901) graduated from the University of Zurich IN 1887 and first worked in New York, where she taught law and, with American colleagues, provided legal services to the poor (1888–1891). The Belgian MARIE POPELIN (1846–1913), a 1888 graduate of the Free University of Brussels, fought unsuccessfully for the admission of women to the profession and lived her life as a teacher and political activist — SHE DID NOT LIVE TO SEE THE REFORM OF 1921 THAT ADMITTED WOMEN TO THE BELGIAN BAR. The Romanian SARMISA BILCESCU (1867–1935) studied law in Paris, returned to Bucharest and IN 1891 OBTAINED AUTHORISATION FROM THE BAR; even so ELLA NEGRUZZI (1876–1949) met resistance IN 1913 when seeking to register for the Romanian bar examination and was admitted ONLY IN 1920. In PRUSSIA women students were denied access TO THE EXAMINATIONS, which closed the law faculties to them. IN MOST COUNTRIES, HOWEVER, THE PATTERN OF EXCLUSION RESTRICTED ACCESS TO THE PROFESSION ITSELF — TO PUPILLAGE AND TO THE BAR ASSOCIATIONS — RATHER THAN TO UNIVERSITY STUDY.",
       "terms": [],
       "cards": [
-        {
-          "q": "Kde byl vzorec vyloučení žen z práva umístěn — u studia, nebo u profese?",
-          "a": "VE VĚTŠINĚ ZEMÍ U SAMOTNÉ PROFESE — u KONCIPIENTSKÉ PRAXE A ADVOKÁTNÍCH KOMOR — spíš než u univerzitního studia. (Pruskou výjimkou bylo odepření přístupu KE ZKOUŠKÁM, což fakulty ženám zavřelo.)",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Srovnej přístup žen ke studiu práva ve Francii, Rusku a Maďarsku.",
-          "a": "Ve FRANCII mohly ženy studovat práva vedle mužů UŽ V 80. LETECH 19. STOLETÍ; v RUSKU jim to bylo zakázáno AŽ DO ROKU 1916; v MAĎARSKU AŽ DO DRUHÉ SVĚTOVÉ VÁLKY.",
-          "difficulty": 2,
-          "kind": "srovnani",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Co dokládá případ Marie Popelin a Elly Negruzzi?",
-          "a": "Popelin (1846–1913) vystudovala v Bruselu roku 1888, za vstup žen do profese bojovala marně a REFORMY Z ROKU 1921 SE NEDOŽILA. Negruzzi narazila roku 1913 na odpor při zápisu k rumunské advokátní zkoušce a prošla AŽ ROKU 1920 — ačkoli Sarmisa Bilcescu tam oprávnění získala už roku 1891. Tedy: PRŮLOM JEDNÉ ŽENY NEZNAMENAL OTEVŘENÍ PROFESE.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "Where was the pattern of women's exclusion from law located — at study or at the profession?", "a": "IN MOST COUNTRIES AT THE PROFESSION ITSELF — at PUPILLAGE AND THE BAR ASSOCIATIONS — rather than at university study. (The Prussian exception was the denial of access TO THE EXAMINATIONS, which closed the faculties to women.)", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "Compare women's access to the study of law in France, Russia and Hungary.", "a": "In FRANCE women could study law alongside men AS EARLY AS THE 1880s; in RUSSIA it was forbidden UNTIL 1916; in HUNGARY UNTIL THE SECOND WORLD WAR.", "difficulty": 2, "kind": "srovnani", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What do the cases of Marie Popelin and Ella Negruzzi demonstrate?", "a": "Popelin (1846–1913) graduated in Brussels in 1888, fought in vain for women's entry to the profession and DID NOT LIVE TO SEE THE REFORM OF 1921. Negruzzi met resistance in 1913 when registering for the Romanian bar examination and was admitted ONLY IN 1920 — although Sarmisa Bilcescu had obtained authorisation there as early as 1891. In short: ONE WOMAN'S BREAKTHROUGH DID NOT MEAN THE PROFESSION WAS OPEN.", "difficulty": 3, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "22": {
-      "title": "Přijetí do advokacie: mapa letopočtů",
-      "text": "DRTIVÁ VĚTŠINA EVROPSKÝCH ZEMÍ PŘIPUSTILA ŽENY DO ADVOKACIE MEZI DVĚMA SVĚTOVÝMI VÁLKAMI: PORTUGALSKO (1918); SKOTSKO A WALES (1920); SEVERNÍ IRSKO (1921); BELGIE, ČESKOSLOVENSKO, ANGLIE A NĚMECKO (1922); POLSKO (1925); MAĎARSKO (1928); RAKOUSKO (1929). V DÁNSKU byly ženy přijaty do nižších stupňů právnických povolání už ROKU 1906, ale přístup ke všem pozicím dostaly AŽ ROKU 1919. VE ŠVÉDSKU směly OD ROKU 1918 praktikovat POUZE NEPROVDANÉ ŽENY. ITÁLIE byla jednou z prvních zemí, kde ženy o přístup bojovaly už v 80. letech 19. století, ale to právo si zajistily AŽ ROKU 1919. V MAĎARSKU bylo ženám studium práva zakázáno a pět nebo šest advokátek praktikujících po roce 1928 studovalo v zahraničí — A ROKU 1937 JE NOVÝ ZÁKON Z ADVOKACIE VÝSLOVNĚ VYLOUČIL. V BULHARSKU přišel přístup nejpozději: VERA ZLATAREVA (1905–1977) byla připuštěna jako první advokátka ROKU 1944.",
+      "title": "Admission to the bar: a map of dates",
+      "text": "THE OVERWHELMING MAJORITY OF EUROPEAN COUNTRIES ADMITTED WOMEN TO THE BAR BETWEEN THE TWO WORLD WARS: PORTUGAL (1918); SCOTLAND AND WALES (1920); NORTHERN IRELAND (1921); BELGIUM, CZECHOSLOVAKIA, ENGLAND AND GERMANY (1922); POLAND (1925); HUNGARY (1928); AUSTRIA (1929). In DENMARK women were admitted to the lower grades of the legal professions as early as 1906, but gained access to all positions ONLY IN 1919. In SWEDEN, FROM 1918 ONLY UNMARRIED WOMEN could practise. ITALY was one of the first countries where women fought for access, already in the 1880s, but they secured the right ONLY IN 1919. In HUNGARY women were forbidden to study law and the five or six women advocates practising after 1928 had studied abroad — AND IN 1937 A NEW STATUTE EXPRESSLY EXCLUDED THEM FROM THE BAR. In BULGARIA access came latest: VERA ZLATAREVA (1905–1977) was admitted as the first woman advocate IN 1944.",
       "terms": [],
       "cards": [
-        {
-          "q": "Kdy byly ženy připuštěny do advokacie ve střední Evropě?",
-          "a": "Drtivá většina zemí mezi válkami: Portugalsko 1918; Skotsko a Wales 1920; Severní Irsko 1921; BELGIE, ČESKOSLOVENSKO, ANGLIE A NĚMECKO 1922; Polsko 1925; Maďarsko 1928; Rakousko 1929.",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Které země se od toho vzorce odchýlily?",
-          "a": "DÁNSKO pustilo ženy do nižších stupňů už 1906, ke všem pozicím až 1919. ŠVÉDSKO od 1918 jen NEPROVDANÉ ŽENY. ITÁLIE, kde se bojovalo od 80. let 19. století, až 1919. MAĎARSKO ženy roku 1937 NOVÝM ZÁKONEM Z ADVOKACIE VÝSLOVNĚ VYLOUČILO. BULHARSKO až 1944 (Vera Zlatareva).",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "When were women admitted to the bar in central Europe?", "a": "The overwhelming majority of countries between the wars: Portugal 1918; Scotland and Wales 1920; Northern Ireland 1921; BELGIUM, CZECHOSLOVAKIA, ENGLAND AND GERMANY 1922; Poland 1925; Hungary 1928; Austria 1929.", "difficulty": 3, "kind": "cisla", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "Which countries departed from that pattern?", "a": "DENMARK admitted women to the lower grades as early as 1906, to all positions only 1919. SWEDEN from 1918 admitted ONLY UNMARRIED WOMEN. ITALY, where the fight began in the 1880s, only 1919. HUNGARY EXPRESSLY EXCLUDED women from the bar by a new statute in 1937. BULGARIA only 1944 (Vera Zlatareva).", "difficulty": 3, "kind": "cisla", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "23": {
-      "title": "Advokacie ≠ soudnictví: druhá, pomalejší časová řada",
-      "text": "Jednou z DŮLEŽITÝCH NESOUVISLOSTÍ v právních dějinách žen je to, že PŘIJETÍ DO ADVOKÁTNÍCH KOMOR SE NUTNĚ NEKRYLO S PŘIJETÍM DO SOUDNICTVÍ. V NORSKU byla první soudkyně na místní úrovni připuštěna v HAMMERFESTU ROKU 1913, ale širší přístup žen do soudnictví přišel AŽ ROKU 1921. RUSKO povolilo soudkyně PO REVOLUCI ROKU 1917. V IRSKU nastoupily ROKU 1920 ČTYŘI SOUDKYNĚ (magistrates). LITVA měla první soudkyni ROKU 1924, ŠVÉDSKO A NĚMECKO ROKU 1927. V POLSKU se první žena stala ROKU 1929 SOUDKYNÍ PRO MLÁDEŽ. VE 30. LETECH ohlásily první soudkyně FINSKO A ČESKOSLOVENSKO, DÁNSKO následovalo ROKU 1933, ve ŠPANĚLSKÉ republikánské zóně občanské války byla první soudkyně jmenována ROKU 1936. A pak ten kontrast, který si zapamatuj: NĚKTERÉ ZEMĚ, KTERÉ ŽENÁM DALY RANÝ A PRŮKOPNICKÝ PŘÍSTUP DO PROFESE, JIM PŘESTO ODEPÍRALY SOUDNICTVÍ AŽ DO KONCE DRUHÉ SVĚTOVÉ VÁLKY: ANGLIE 1945–1949, FRANCIE 1946, RAKOUSKO 1947. Další následovaly: NIZOZEMÍ (1947), BELGIE (1948), ŘECKO (1959), ITÁLIE (1963) a ŠVÝCARSKO A PORTUGALSKO AŽ 1974.",
+      "title": "The bar is not the bench: a second, slower timeline",
+      "text": "One of the IMPORTANT DISCONTINUITIES in women's legal history is that ADMISSION TO THE BAR ASSOCIATIONS DID NOT NECESSARILY COINCIDE WITH ADMISSION TO THE JUDICIARY. In NORWAY the first woman judge at local level was admitted at HAMMERFEST IN 1913, but broader access for women to the judiciary came ONLY IN 1921. RUSSIA permitted women judges AFTER THE REVOLUTION OF 1917. In IRELAND FOUR WOMEN MAGISTRATES took office IN 1920. LITHUANIA had its first woman judge IN 1924, SWEDEN AND GERMANY IN 1927. In POLAND the first woman became a JUVENILE COURT JUDGE IN 1929. IN THE 1930s FINLAND AND CZECHOSLOVAKIA announced their first women judges, DENMARK followed IN 1933, and in the SPANISH republican zone of the civil war the first woman judge was appointed IN 1936. And then the contrast to remember: SOME COUNTRIES THAT GAVE WOMEN EARLY AND PIONEERING ACCESS TO THE PROFESSION NEVERTHELESS DENIED THEM THE BENCH UNTIL THE END OF THE SECOND WORLD WAR: ENGLAND 1945–1949, FRANCE 1946, AUSTRIA 1947. Others followed: THE NETHERLANDS (1947), BELGIUM (1948), GREECE (1959), ITALY (1963) and SWITZERLAND AND PORTUGAL ONLY IN 1974.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč se nesmí zaměnit přijetí žen do advokacie a do soudnictví?",
-          "a": "Protože se NEKRYJE. Anglie pustila ženy do advokacie 1922, ale první soudkyně měla 1945–1949; Francie soudkyně 1946, Rakousko 1947 (advokacie 1929). Některé země s RANÝM přístupem do profese odepíraly soudnictví AŽ DO KONCE DRUHÉ SVĚTOVÉ VÁLKY.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Vyjmenuj hlavní letopočty prvních soudkyň.",
-          "a": "Norsko: místní úroveň Hammerfest 1913, širší přístup 1921. Rusko 1917 (po revoluci). Irsko 1920 (čtyři magistrates). Litva 1924. Švédsko a Německo 1927. Polsko 1929 (soudkyně pro mládež). Finsko a Československo ve 30. letech, Dánsko 1933, Španělsko 1936. Po válce: Nizozemí 1947, Belgie 1948, Řecko 1959, Itálie 1963, Švýcarsko a Portugalsko 1974.",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "Why must admission to the bar and to the bench not be confused?", "a": "Because they DO NOT COINCIDE. England admitted women to the bar in 1922 but had its first women judges in 1945–1949; France judges in 1946, Austria in 1947 (bar 1929). Some countries with EARLY access to the profession denied the bench UNTIL THE END OF THE SECOND WORLD WAR.", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "List the main dates of the first women judges.", "a": "Norway: local level, Hammerfest 1913, broader access 1921. Russia 1917 (after the revolution). Ireland 1920 (four magistrates). Lithuania 1924. Sweden and Germany 1927. Poland 1929 (juvenile court judge). Finland and Czechoslovakia in the 1930s, Denmark 1933, Spain 1936. After the war: the Netherlands 1947, Belgium 1948, Greece 1959, Italy 1963, Switzerland and Portugal 1974.", "difficulty": 3, "kind": "cisla", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "24": {
-      "title": "Proč na právničkách záleželo víc než na počtech",
-      "text": "Kapitoly o Polsku, Bulharsku, Francii, Španělsku, Německu, Belgii a Jugoslávii dokládají VÝZNAMNOU SOUVISLOST MEZI PROFESNÍ A POLITICKOU EMANCIPACÍ ŽEN. A tady je ten důvod, proč jde o víc než o statistiku: MÍT ŽENY UVNITŘ PRÁVNICKÝCH PROFESÍ BYL NOVÝ KROK V DĚJINÁCH PRÁV ŽEN, PROTOŽE JAKMILE SE ŽENY STALY PRÁVNÍMI EXPERTKAMI, MOHLY SYSTÉM NAPADAT ZEVNITŘ PROFESE — A TAKÉ TO DĚLALY. V některých státech dokonce zevnitř vládního systému. Studie ANNE LOGAN (kap. 11) o ženách ve vývoji KRIMINOLOGIE ukazuje, jak se rané zkušenosti žen v dobročinnosti a sociální práci rozšířily do advokacie v trestním právu v Anglii: feministky činné v reformě věznic volaly po právních změnách zlepšujících zacházení s vězni a JEJICH MEZINÁRODNÍ SÍŤOVÁNÍ A VÝZKUM PŘISPĚLY K VYTVOŘENÍ KRIMINOLOGIE A K TOMU, ŽE SE SAMY ZNOVUVYNALEZLY JAKO 'KRIMINOLOŽKY'.",
+      "title": "Why women lawyers mattered more than the numbers",
+      "text": "The chapters on Poland, Bulgaria, France, Spain, Germany, Belgium and Yugoslavia document A SIGNIFICANT CONNECTION BETWEEN THE PROFESSIONAL AND THE POLITICAL EMANCIPATION OF WOMEN. And here is why it is more than a statistic: HAVING WOMEN INSIDE THE LEGAL PROFESSIONS WAS A NEW STEP IN THE HISTORY OF WOMEN'S RIGHTS, BECAUSE ONCE WOMEN BECAME LEGAL EXPERTS THEY COULD CHALLENGE THE SYSTEM FROM WITHIN THE PROFESSION — AND THEY DID SO. In some states even from within the government system. ANNE LOGAN'S study (ch. 11) of women in the development of CRIMINOLOGY shows how women's early experience in charity and social work expanded into criminal law advocacy in England: feminists active in prison reform called for legal changes improving the treatment of prisoners, and THEIR INTERNATIONAL NETWORKING AND RESEARCH CONTRIBUTED TO THE CREATION OF CRIMINOLOGY AND TO THEIR OWN REINVENTION AS 'CRIMINOLOGISTS'.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč byl vstup žen do profese kvalitativně novým krokem?",
-          "a": "Protože JAKMILE SE ŽENY STALY PRÁVNÍMI EXPERTKAMI, MOHLY SYSTÉM NAPADAT ZEVNITŘ PROFESE — a v některých státech i zevnitř vládního systému. Do té doby mohly právo jen kritizovat zvnějšku.",
-          "difficulty": 2,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jak podle Anne Logan souvisí ženy s vznikem kriminologie?",
-          "a": "Rané zkušenosti žen v DOBROČINNOSTI A SOCIÁLNÍ PRÁCI se rozšířily do advokacie v trestním právu; feministky činné v REFORMĚ VĚZNIC volaly po lepším zacházení s vězni a jejich MEZINÁRODNÍ SÍŤOVÁNÍ A VÝZKUM PŘISPĚLY K VYTVOŘENÍ KRIMINOLOGIE — a k tomu, že se samy znovuvynalezly jako 'KRIMINOLOŽKY'.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "Why was women's entry into the profession a qualitatively new step?", "a": "Because ONCE WOMEN BECAME LEGAL EXPERTS THEY COULD CHALLENGE THE SYSTEM FROM WITHIN THE PROFESSION — and in some states from within the government system too. Until then they could only criticise the law from outside.", "difficulty": 2, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "How, on Anne Logan's account, are women connected with the birth of criminology?", "a": "Women's early experience in CHARITY AND SOCIAL WORK expanded into criminal law advocacy; feminists active in PRISON REFORM called for better treatment of prisoners, and THEIR INTERNATIONAL NETWORKING AND RESEARCH CONTRIBUTED TO THE CREATION OF CRIMINOLOGY — and to their own reinvention as 'CRIMINOLOGISTS'.", "difficulty": 3, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "25": {
-      "title": "FIFCJ 1928: první mezinárodní právnická sororita",
-      "text": "Mezi reformními společnostmi meziválečného období byla i PRVNÍ NADNÁRODNÍ ASOCIACE PRÁVNIČEK A SOUDKYŇ: MEZINÁRODNÍ FEDERACE ŽEN V PRÁVNICKÝCH A JURIDICKÝCH KARIÉRÁCH (FIFCJ). Chtěla vytvořit vazby 'PŘÁTELSTVÍ A SOLIDARITY', usnadnit ženám přístup ke 'všem juridickým kariérám', 'zlepšit profesní poměry žen', studovat zákony a 'ŠÍŘIT MYŠLENKU SVĚTOVÉHO MÍRU'. Vznikla ROKU 1928 spojenectvím právniček a soudkyň z ESTONSKA, NĚMECKA, FRANCIE, ŠPANĚLSKA, POLSKA A BRITÁNIE a zdá se, že šlo o PRVNÍ ŽIVOTASCHOPNOU A NEJVLIVNĚJŠÍ MEZINÁRODNÍ PRÁVNICKOU SOROTITU té doby (po krátce trvající americké 'Woman's International Bar Association' z roku 1888). Oficiálně byla FIFCJ neutrální a 'apolitická', ALE UŽ ROKU 1929 BYLA UZNÁNA ZA NEVLÁDNÍ ORGANIZACI S PRÁVEM OBRACET SE NA SPOLEČNOST NÁRODŮ. Konference se konaly v PAŘÍŽI (1929, 1930, 1937), NEAPOLI (1934) A VÍDNI (1936); DO ROKU 1936 členky tvrdily, že zastupují TŘICET SEDM ZEMÍ. Jako účastnice 'internacionalismu' používaly ženy z FIFCJ PRÁVNÍ PRECEDENTY, PRÁVNÍ ARGUMENTY A PRÁVNÍ SITUACI ŽEN V JINÝCH EVROPSKÝCH STÁTECH JAKO SROVNÁVACÍ OPORU pro argumenty ve prospěch reformy — a tím dělaly z ženských otázek věc mezinárodní důležitosti. Konec je temný: INFILTRACE FAŠISTICKÝCH ČLENEK, ZEJMÉNA Z ITÁLIE A NĚMECKA, SPOLU S AKTIVNÍ DISKRIMINACÍ ŽEN ROZBILA DO ROKU 1936 JAKÉKOLI ZDÁNÍ JEDNOTY — a důsledky pro právničky pod Německou říší či v okupovaných zemích byly ZNIČUJÍCÍ.",
-      "terms": [
-        { "term": "FIFCJ", "def": "Mezinárodní federace žen v právnických a juridických kariérách (1928) — první nadnárodní asociace právniček a soudkyň." }
-      ],
+      "title": "FIFCJ 1928: the first international legal sorority",
+      "text": "Among the reform societies of the interwar period was THE FIRST TRANSNATIONAL ASSOCIATION OF WOMEN LAWYERS AND JUDGES: THE INTERNATIONAL FEDERATION OF WOMEN IN LEGAL AND JURIDICAL CAREERS (FIFCJ). It sought to create bonds of 'FRIENDSHIP AND SOLIDARITY', to facilitate women's access to 'all juridical careers', to 'improve the professional conditions of women', to study the laws and to 'SPREAD THE IDEA OF WORLD PEACE'. It was founded IN 1928 by an alliance of women lawyers and judges from ESTONIA, GERMANY, FRANCE, SPAIN, POLAND AND BRITAIN and appears to have been THE FIRST VIABLE AND MOST INFLUENTIAL INTERNATIONAL LEGAL SORORITY of its day (after the short-lived American 'Woman's International Bar Association' of 1888). Officially the FIFCJ was neutral and 'apolitical', BUT AS EARLY AS 1929 IT WAS RECOGNISED AS A NON-GOVERNMENTAL ORGANISATION WITH THE RIGHT TO ADDRESS THE LEAGUE OF NATIONS. Conferences were held in PARIS (1929, 1930, 1937), NAPLES (1934) AND VIENNA (1936); BY 1936 members claimed to represent THIRTY-SEVEN COUNTRIES. As participants in 'internationalism', the FIFCJ women used LEGAL PRECEDENTS, LEGAL ARGUMENTS AND THE LEGAL SITUATION OF WOMEN IN OTHER EUROPEAN STATES AS COMPARATIVE SUPPORT for arguments in favour of reform — thereby making women's questions a matter of international importance. The end is dark: THE INFILTRATION OF FASCIST MEMBERS, PARTICULARLY FROM ITALY AND GERMANY, TOGETHER WITH ACTIVE DISCRIMINATION AGAINST WOMEN, SHATTERED ANY APPEARANCE OF UNITY BY 1936 — and the consequences for women lawyers under the German Reich or in the occupied countries were DEVASTATING.",
+      "terms": [{"term": "FIFCJ", "def": "The International Federation of Women in Legal and Juridical Careers (1928) — the first transnational association of women lawyers and judges."}],
       "cards": [
-        {
-          "q": "Co byla FIFCJ, kdy vznikla a jak skončila?",
-          "a": "PRVNÍ NADNÁRODNÍ ASOCIACE PRÁVNIČEK A SOUDKYŇ, založená ROKU 1928 ženami z Estonska, Německa, Francie, Španělska, Polska a Británie; roku 1929 uznána za NEVLÁDNÍ ORGANIZACI s právem obracet se na Společnost národů, do roku 1936 zastupovala údajně 37 zemí. INFILTRACE FAŠISTICKÝCH ČLENEK Z ITÁLIE A NĚMECKA rozbila do roku 1936 jakékoli zdání jednoty.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jakou metodu FIFCJ používala v argumentaci?",
-          "a": "SROVNÁVACÍ: používala PRÁVNÍ PRECEDENTY, PRÁVNÍ ARGUMENTY A PRÁVNÍ SITUACI ŽEN V JINÝCH EVROPSKÝCH STÁTECH jako oporu pro reformu doma — a tím dělala z ženských otázek věc MEZINÁRODNÍ DŮLEŽITOSTI.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What was the FIFCJ, when was it founded and how did it end?", "a": "THE FIRST TRANSNATIONAL ASSOCIATION OF WOMEN LAWYERS AND JUDGES, founded IN 1928 by women from Estonia, Germany, France, Spain, Poland and Britain; recognised in 1929 as a NON-GOVERNMENTAL ORGANISATION with the right to address the League of Nations, and by 1936 claiming to represent 37 countries. THE INFILTRATION OF FASCIST MEMBERS FROM ITALY AND GERMANY shattered any appearance of unity by 1936.", "difficulty": 3, "kind": "pripad", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What method of argument did the FIFCJ use?", "a": "A COMPARATIVE one: it used LEGAL PRECEDENTS, LEGAL ARGUMENTS AND THE LEGAL SITUATION OF WOMEN IN OTHER EUROPEAN STATES as support for reform at home — thereby making women's questions a matter of INTERNATIONAL IMPORTANCE.", "difficulty": 2, "kind": "basic", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "26": {
-      "title": "ICW a národní rady: infrastruktura reformy",
-      "text": "Právní reforma byla ZÁKLADNÍM KAMENEM programů organizací za práva žen doby BELLE ÉPOQUE. ROKU 1878 se na PRVNÍM MEZINÁRODNÍM KONGRESU O PRÁVECH ŽEN V PAŘÍŽI mluvilo o právním útlaku žen a argumentech pro reformu. MEZINÁRODNÍ RADA ŽEN (ICW, ZALOŽENÁ ROKU 1888 VE SPOJENÝCH STÁTECH) a její národní odbočky daly reformě postavení žen v právu přednost i s důsledky pro Evropu. ROKU 1900 v Paříži na DRUHÉM MEZINÁRODNÍM KONGRESU ŽENSKÝCH DĚL A INSTITUCÍ debatovaly právně vzdělané ženy — Belgičanka MARIE POPELIN, Francouzka JEANNE CHAUVIN a Němka ANITA AUGSPURG — o právních otázkách s vedením včetně předsedkyně ICW MAY WRIGHT SEWALL. ICW inspirovala vznik národních sdružení, která pak koordinovala své úsilí a vysílala delegátky na její mezinárodní schůze: německý BUND DEUTSCHER FRAUENVEREINE (BDF) vznikl ROKU 1894 právě jako odpověď na volání ICW; francouzská CONSEIL NATIONAL DES FEMMES FRANÇAISES (CNFF) ROKU 1901 pro právní a sociální otázky žen — ROVNOST MANŽELŮ V RODINNÉM PRÁVU, ROVNÉ PRACOVNÍ PŘÍLEŽITOSTI, STEJNOU ODMĚNU ZA STEJNOU PRÁCI, POLITICKÁ PRÁVA A SAMOSTATNÉ STÁTNÍ OBČANSTVÍ VDANÝCH ŽEN. DO ROKU 1903 se zformovalo DESET NÁRODNÍCH RAD. Podle výzkumu ANNE COVY (kap. 13) věnoval legislativní výbor portugalské CNMP, založené v Lisabonu ROKU 1914, TŘETINU SVÝCH SIL JURIDICKÝM OTÁZKÁM. ICW také obsazovala specializované výbory — do výboru pro právo jmenovala francouzskou advokátku MARII VÉRONE (1874–1938), která po první světové válce hájila práva žen U SPOLEČNOSTI NÁRODŮ.",
+      "title": "The ICW and the national councils: the infrastructure of reform",
+      "text": "Legal reform was a CORNERSTONE of the programmes of women's rights organisations in the BELLE ÉPOQUE. IN 1878 the FIRST INTERNATIONAL CONGRESS ON WOMEN'S RIGHTS IN PARIS discussed the legal oppression of women and the arguments for reform. THE INTERNATIONAL COUNCIL OF WOMEN (ICW, FOUNDED IN 1888 IN THE UNITED STATES) and its national branches gave priority to reforming women's position in law, with consequences for Europe too. IN 1900 in Paris, at the SECOND INTERNATIONAL CONGRESS OF WOMEN'S WORKS AND INSTITUTIONS, legally educated women — the Belgian MARIE POPELIN, the French JEANNE CHAUVIN and the German ANITA AUGSPURG — debated legal questions with the leadership, including the ICW president MAY WRIGHT SEWALL. The ICW inspired the creation of national associations which then coordinated their efforts and sent delegates to its international meetings: the German BUND DEUTSCHER FRAUENVEREINE (BDF) was founded IN 1894 precisely in response to the ICW's call; the French CONSEIL NATIONAL DES FEMMES FRANÇAISES (CNFF) IN 1901 for women's legal and social questions — THE EQUALITY OF SPOUSES IN FAMILY LAW, EQUAL EMPLOYMENT OPPORTUNITIES, EQUAL PAY FOR EQUAL WORK, POLITICAL RIGHTS AND AN INDEPENDENT NATIONALITY FOR MARRIED WOMEN. BY 1903 TEN NATIONAL COUNCILS had formed. According to ANNE COVY'S research (ch. 13), the legislative committee of the Portuguese CNMP, founded in Lisbon IN 1914, devoted A THIRD OF ITS EFFORTS to juridical questions. The ICW also staffed specialised committees — to its committee on law it appointed the French advocate MARIA VÉRONE (1874–1938), who after the First World War defended women's rights AT THE LEAGUE OF NATIONS.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak fungovala ICW jako infrastruktura reformy?",
-          "a": "Mezinárodní rada žen (ICW, 1888, USA) INSPIROVALA VZNIK NÁRODNÍCH SDRUŽENÍ, která pak koordinovala úsilí a vysílala delegátky na její schůze — německý BDF (1894), francouzská CNFF (1901), do roku 1903 deset národních rad. ICW zároveň obsazovala specializované výbory (do výboru pro právo advokátku Marii Vérone).",
-          "difficulty": 3,
-          "kind": "schema",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jaký program si vytkla francouzská CNFF (1901)?",
-          "a": "ROVNOST MANŽELŮ V RODINNÉM PRÁVU, ROVNÉ PRACOVNÍ PŘÍLEŽITOSTI, STEJNOU ODMĚNU ZA STEJNOU PRÁCI, POLITICKÁ PRÁVA PRO ŽENY a SAMOSTATNÉ STÁTNÍ OBČANSTVÍ VDANÝCH ŽEN.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "How did the ICW function as the infrastructure of reform?", "a": "The International Council of Women (ICW, 1888, USA) INSPIRED THE CREATION OF NATIONAL ASSOCIATIONS which then coordinated efforts and sent delegates to its meetings — the German BDF (1894), the French CNFF (1901), ten national councils by 1903. The ICW also staffed specialised committees (appointing the advocate Maria Vérone to its committee on law).", "difficulty": 3, "kind": "schema", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What programme did the French CNFF (1901) set itself?", "a": "THE EQUALITY OF SPOUSES IN FAMILY LAW, EQUAL EMPLOYMENT OPPORTUNITIES, EQUAL PAY FOR EQUAL WORK, POLITICAL RIGHTS FOR WOMEN and AN INDEPENDENT NATIONALITY FOR MARRIED WOMEN.", "difficulty": 2, "kind": "znaky", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "27": {
-      "title": "Občanství, státní příslušnost vdaných žen a Ženeva",
-      "text": "K nejdůležitějším nadnárodním právním otázkám patřily OBČANSTVÍ A PRÁVO VDANÝCH ŽEN NA VLASTNÍ STÁTNÍ PŘÍSLUŠNOST. REGINA WECKER (kap. 14) na dějinách švýcarského občanství ukazuje, jak GENDEROVÁNÍ OBČANSTVÍ udělalo hledání rovnosti mimořádně obtížným tam, kde proces komplikuje víc faktorů včetně OBECNÍ PŘÍSLUŠNOSTI A MÍSTNÍCH PRÁVNÍCH ZVYKLOSTÍ — a dodává, že globalizace hledání individuálních práv dál komplikuje, takže 'bitva o rovnost pokračuje'. CATHERINE JACQUES (kap. 15) dokumentuje NEROVNÝ BOJ feministických aktivistek, které — ačkoli zběhlé v právu a politice — se těžko prosazovaly v DIPLOMATICKÝCH KRUZÍCH ve věcech mezinárodního práva. Ty aktivistky daly za meziválečných let přednost REFORMĚ PRÁVA O STÁTNÍ PŘÍSLUŠNOSTI VDANÝCH ŽEN A RODINNÉHO PRÁVA, když usilovaly o přístup ke SPOLEČNOSTI NÁRODŮ. Jejich sdružení pokládala mezinárodní právo za 'NEUTRÁLNÍ VOZIDLO PRO ŘEŠENÍ NEJSLOŽITĚJŠÍCH SVĚTOVÝCH OTÁZEK' a chápala právo jako MORÁLNÍ A ROZUMOVOU SÍLU — což je OZVĚNA GROTIOVSKÉ TRADICE mezinárodního práva. Jako aktivistky v nevládních organizacích tak PRÁVNIČKY SEHRÁLY ROLI PŘI ZNOVUZRODU 'MEZINÁRODNÍ SPOLEČNOSTI'. SUSAN ZIMMERMANN (kap. 16) přidává další ústřední téma ženské nadnárodní angažovanosti v Ženevě: REGULACI PRÁCE, JAK JI OVLIVŇOVALA RASA A GENDER. Obě kapitoly podtrhují, že angažmá žen ve SPOLEČNOSTI NÁRODŮ A V MEZINÁRODNÍ ORGANIZACI PRÁCE (ILO) ukazuje jak jejich dovednost v právní argumentaci, tak jejich investici do těch organizací jako prostředku k zajištění práv žen.",
+      "title": "Citizenship, the nationality of married women, and Geneva",
+      "text": "Among the most important transnational legal questions were CITIZENSHIP AND THE RIGHT OF MARRIED WOMEN TO THEIR OWN NATIONALITY. REGINA WECKER (ch. 14) uses the history of Swiss citizenship to show how THE GENDERING OF CITIZENSHIP made the search for equality exceptionally difficult where the process is complicated by several further factors including MUNICIPAL BELONGING AND LOCAL LEGAL CUSTOMS — adding that globalisation further complicates the search for individual rights, so that 'the battle for equality continues'. CATHERINE JACQUES (ch. 15) documents the UNEQUAL STRUGGLE of feminist activists who, though versed in law and politics, found it hard to make headway in DIPLOMATIC CIRCLES on questions of international law. In the interwar years those activists gave priority to REFORM OF THE LAW ON THE NATIONALITY OF MARRIED WOMEN AND OF FAMILY LAW in seeking access to the LEAGUE OF NATIONS. Their associations regarded international law as a 'NEUTRAL VEHICLE FOR SOLVING THE WORLD'S MOST COMPLEX QUESTIONS' and understood law as A MORAL AND RATIONAL FORCE — WHICH IS AN ECHO OF THE GROTIAN TRADITION of international law. As activists in non-governmental organisations, WOMEN LAWYERS THUS PLAYED A PART IN THE REBIRTH OF 'INTERNATIONAL SOCIETY'. SUSAN ZIMMERMANN (ch. 16) adds a further central theme of women's transnational engagement in Geneva: THE REGULATION OF LABOUR AS INFLUENCED BY RACE AND GENDER. Both chapters underline that women's engagement in the LEAGUE OF NATIONS AND THE INTERNATIONAL LABOUR ORGANIZATION (ILO) demonstrates both their skill in legal argument and their investment in those organisations as a means of securing women's rights.",
       "terms": [],
       "cards": [
-        {
-          "q": "Které dvě otázky byly hlavními nadnárodními právními tématy meziválečného feminismu?",
-          "a": "OBČANSTVÍ a PRÁVO VDANÝCH ŽEN NA VLASTNÍ STÁTNÍ PŘÍSLUŠNOST, spolu s rodinným právem — aktivistky jim daly přednost, když usilovaly o přístup ke SPOLEČNOSTI NÁRODŮ. Susan Zimmermann k tomu přidává REGULACI PRÁCE ovlivněnou rasou a genderem v ILO.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jak ženská sdružení chápala mezinárodní právo a proč je to grotiovské?",
-          "a": "Jako 'NEUTRÁLNÍ VOZIDLO PRO ŘEŠENÍ NEJSLOŽITĚJŠÍCH SVĚTOVÝCH OTÁZEK' a jako MORÁLNÍ A ROZUMOVOU SÍLU — což je OZVĚNA GROTIOVSKÉ TRADICE. Jako aktivistky v nevládních organizacích tak právničky sehrály roli při ZNOVUZRODU 'MEZINÁRODNÍ SPOLEČNOSTI'.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "Which two questions were the main transnational legal themes of interwar feminism?", "a": "CITIZENSHIP and THE RIGHT OF MARRIED WOMEN TO THEIR OWN NATIONALITY, together with family law — the activists gave them priority in seeking access to the LEAGUE OF NATIONS. Susan Zimmermann adds THE REGULATION OF LABOUR as influenced by race and gender at the ILO.", "difficulty": 2, "kind": "znaky", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "How did women's associations understand international law, and why is that Grotian?", "a": "As a 'NEUTRAL VEHICLE FOR SOLVING THE WORLD'S MOST COMPLEX QUESTIONS' and as A MORAL AND RATIONAL FORCE — which is AN ECHO OF THE GROTIAN TRADITION. As activists in non-governmental organisations, women lawyers thus played a part in THE REBIRTH OF 'INTERNATIONAL SOCIETY'.", "difficulty": 3, "kind": "rozliseni", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     },
     "28": {
-      "title": "Závěr: srovnávání zákonů jako zbraň",
-      "text": "V boji za rovná práva prosazovaly vůdčí osobnosti evropského ženského hnutí — a zvlášť právničky s nimi spojené — PRÁVNÍ REFORMU JAKO ŘEŠENÍ NAPĚTÍ MEZI OMEZUJÍCÍMI SPOLEČENSKÝMI NORMAMI A TOUHOU ŽEN PO ROVNOSTI. A tohle je metodická pointa celé knihy, kterou stojí za to umět: UVNITŘ HNUTÍ ZA PRÁVA ŽEN TVOŘILO SROVNÁVÁNÍ ZÁKONŮ A PRÁVNÍCH SYSTÉMŮ ZÁSADNÍ ZNALOST, KTERÁ SE V NÁRODNÍCH KONTEXTECH POUŽÍVALA K TLAKU NA VLÁDY. Sdružení za práva žen byla zakotvena národně, ale mnohé aktivistky viděly své boje ZÁROVEŇ JAKO SOUČÁST VĚTŠÍHO EVROPSKÉHO — ne-li globálního — ZÁPASU O SVOBODU, ROVNOST A SOROTITU. Autorky uzavírají obratem k dnešku: otázky genderu v protínajících se sférách RODINNÉHO PRÁVA, PRACOVNÍHO PRÁVA, POLITICKÝCH PRÁV A OBČANSTVÍ dál rezonují v propojeném světě — a VE SVĚTLE SOUČASNÉHO PROJEKTU SPOLEČNÉHO EVROPSKÉHO OBČANSKÉHO ZÁKONÍKU DOUFAJÍ, ŽE SE EVROPŠTÍ ZÁKONODÁRCI POUČÍ Z MINULOSTI.",
+      "title": "Conclusion: comparing laws as a weapon",
+      "text": "In the struggle for equal rights the leading figures of the European women's movement — and especially the women lawyers associated with it — advanced LEGAL REFORM AS THE SOLUTION TO THE TENSION BETWEEN RESTRICTIVE SOCIAL NORMS AND WOMEN'S DESIRE FOR EQUALITY. And this is the methodological point of the whole book, worth having ready: WITHIN THE WOMEN'S RIGHTS MOVEMENT, THE COMPARISON OF LAWS AND LEGAL SYSTEMS CONSTITUTED AN ESSENTIAL BODY OF KNOWLEDGE USED IN NATIONAL CONTEXTS TO PRESSURE GOVERNMENTS. Women's rights associations were nationally rooted, but many activists saw their struggles AT THE SAME TIME AS PART OF A LARGER EUROPEAN — IF NOT GLOBAL — CONTEST FOR LIBERTY, EQUALITY AND SORORITY. The authors close by turning to the present: questions of gender in the intersecting spheres of FAMILY LAW, LABOUR LAW, POLITICAL RIGHTS AND CITIZENSHIP continue to resonate in an interconnected world — and IN THE LIGHT OF THE CURRENT PROJECT OF A COMMON EUROPEAN CIVIL CODE THEY HOPE THAT EUROPEAN LEGISLATORS WILL LEARN FROM THE PAST.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jakou roli hrálo srovnávání zákonů v hnutí za práva žen?",
-          "a": "Bylo to ZÁSADNÍ ZNALOST POUŽÍVANÁ V NÁRODNÍCH KONTEXTECH K TLAKU NA VLÁDY: sdružení byla zakotvena národně, ale aktivistky viděly své boje zároveň jako součást většího EVROPSKÉHO — ne-li globálního — zápasu o svobodu, rovnost a sororitu.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        },
-        {
-          "q": "Jakým praktickým apelem kniha končí?",
-          "a": "Ve světle SOUČASNÉHO PROJEKTU SPOLEČNÉHO EVROPSKÉHO OBČANSKÉHO ZÁKONÍKU autorky doufají, že se EVROPŠTÍ ZÁKONODÁRCI POUČÍ Z MINULOSTI — tedy že nezopakují to, co udělaly kodifikace 19. století.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "HERstory — the legal position of women through the centuries",
-          "priority": "core"
-        }
+        {"q": "What role did the comparison of laws play in the women's rights movement?", "a": "It was AN ESSENTIAL BODY OF KNOWLEDGE USED IN NATIONAL CONTEXTS TO PRESSURE GOVERNMENTS: the associations were nationally rooted, but the activists saw their struggles at the same time as part of a larger EUROPEAN — if not global — contest for liberty, equality and sorority.", "difficulty": 2, "kind": "basic", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"},
+        {"q": "What practical appeal does the book end with?", "a": "In the light of THE CURRENT PROJECT OF A COMMON EUROPEAN CIVIL CODE the authors hope that EUROPEAN LEGISLATORS WILL LEARN FROM THE PAST — that is, that they will not repeat what the 19th-century codifications did.", "difficulty": 2, "kind": "basic", "topic": "HERstory — the legal position of women through the centuries", "priority": "core"}
       ],
       "vision_used": false
     }
