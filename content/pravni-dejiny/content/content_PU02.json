@@ -1,16 +1,16 @@
 {
   "lecture_id": "PU02",
-  "title": "Cvičení 2: starověké kultury, židovské a islámské právo",
+  "title": "Exercise class 2: ancient cultures, Jewish and Islamic law",
   "free_sections": true,
   "slides": {
     "2": {
-      "title": "Římané, Řekové a to, co po každém zbylo",
-      "text": "Odpověď cvičení na otázku, zda Římané 'vynalezli' právo, zní NE — a hned dodává, kde je zásluha. Existovaly STAROVĚKÉ NEZÁPADNÍ PRÁVNÍ KULTURY dávno předtím. CO ŘÍMANÉ SKUTEČNĚ VYTVOŘILI, JE NORMATIVNÍ PRÁVNÍ SYSTÉM, ZEJMÉNA V OBLASTI OBČANSKÉHO PRÁVA, KTERÝ DODNES TVOŘÍ ZÁKLAD KONTINENTÁLNÍ EVROPSKÉ PRÁVNÍ KULTURY. ŘEKOVÉ TAK ROZVINUTÝ SYSTÉM JEŠTĚ NEMĚLI, a to v neposlední řadě PROTO, ŽE MĚLI MNOHO JEDNOTLIVÝCH MĚSTSKÝCH STÁTŮ — právo bylo roztříštěné a nemělo kde se sjednotit. A cvičení přidává postřeh, který stojí za zapamatování: PRO ŘEKY BYLO PRÁVO PŘEDEVŠÍM SOUČÁSTÍ RÉTORIKY, tedy uměním přesvědčit shromáždění či porotu, ne odbornou disciplínou o pojmech. JEJICH VLIV LEŽÍ HLAVNĚ V PRÁVNÍ FILOZOFII — u SOFISTŮ, PLATÓNA A ARISTOTELA.",
+      "title": "The Romans, the Greeks and what each left behind",
+      "text": "The exercise class's answer to the question whether the Romans 'invented' law is NO — and it adds at once where the merit lies. THERE WERE ANCIENT NON-WESTERN LEGAL CULTURES long before. WHAT THE ROMANS ACTUALLY CREATED IS A NORMATIVE LEGAL SYSTEM, ESPECIALLY IN THE FIELD OF CIVIL LAW, WHICH TO THIS DAY FORMS THE BASIS OF CONTINENTAL EUROPEAN LEGAL CULTURE. THE GREEKS DID NOT YET HAVE SO DEVELOPED A SYSTEM, not least BECAUSE THEY HAD MANY SEPARATE CITY STATES — the law was fragmented and had nowhere to unify. And the exercise adds an observation worth remembering: FOR THE GREEKS LAW WAS ABOVE ALL PART OF RHETORIC, the art of persuading an assembly or a jury, not a specialist discipline of concepts. THEIR INFLUENCE LIES MAINLY IN LEGAL PHILOSOPHY — in the SOPHISTS, PLATO and ARISTOTLE.",
       "terms": [],
       "cards": [
         {
-          "q": "Co Římané vytvořili a proč Řekové ne?",
-          "a": "Římané vytvořili NORMATIVNÍ PRÁVNÍ SYSTÉM, zejména v OBČANSKÉM PRÁVU, který dodnes tvoří základ kontinentální evropské právní kultury. Řekové tak rozvinutý systém neměli v neposlední řadě PROTO, ŽE MĚLI MNOHO JEDNOTLIVÝCH MĚSTSKÝCH STÁTŮ. A PRO ŘEKY BYLO PRÁVO PŘEDEVŠÍM SOUČÁSTÍ RÉTORIKY, ne odbornou disciplínou — jejich vliv leží v PRÁVNÍ FILOZOFII.",
+          "q": "What did the Romans create and why did the Greeks not?",
+          "a": "The Romans created a NORMATIVE LEGAL SYSTEM, especially in CIVIL LAW, which to this day forms the basis of continental European legal culture. The Greeks had no such developed system, not least BECAUSE THEY HAD MANY SEPARATE CITY STATES. And FOR THE GREEKS LAW WAS ABOVE ALL PART OF RHETORIC, not a specialist discipline — their influence lies in LEGAL PHILOSOPHY.",
           "difficulty": 2,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -20,23 +20,26 @@
       "vision_used": true
     },
     "3": {
-      "title": "Sofisté: člověk mírou všech věcí",
-      "text": "OD 5. STOLETÍ PŘ. N. L. SOFISTÉ ZPOCHYBNILI, ŽE PRÁVO JE DÁNO BOHY, A TEDY ZÁVAZNÉ PRO VŠECHNY ŽIVÉ BYTOSTI — a cvičení k tomu výslovně dodává, že jsou v tom PODOBNOSTI S OSVÍCENSTVÍM, tedy že jde o týž typ zpochybnění autority o dva tisíce let dřív. PROTAGORAS pochyboval o samé existenci bohů a pro něj se ČLOVĚK STAL 'MÍROU VŠECH VĚCÍ'. Z toho plyne otázka, která od té doby nezmizela: MUSÍ BÝT PRÁVO SPRAVEDLIVÉ, A ČÍ SPRAVEDLNOSTI MÁ ODPOVÍDAT — BOŽSKÉ, NEBO LIDSKÉ? Sofisté proto začali rozlišovat mezi PRÁVEM ZAZNAMENANÝM (později se mu bude říkat POZITIVNÍ) a PRÁVEM, KTERÉ PLATÍ OD PŘIROZENOSTI, NEZÁVISLE NA VEŠKERÉM POZITIVNÍM PRÁVU — tedy NOMOS PROTI PHYSIS. SÓKRATÉS, PO NĚM PLATÓN A ARISTOTELÉS se pak zabývali především ETIKOU jako protiváhou k tomuhle relativismu. CICERO to shrnul do věty, kterou stojí za to znát latinsky: 'LEX EST RATIO SUMMA INSITA IN NATURA' — zákon je nejvyšší rozum vložený do přírody. A DŮSLEDEK, KTERÝ Z TOHO CVIČENÍ VYVOZUJE, JE TVRDÝ: POZITIVNÍ ZÁKON, KTERÝ ODPORUJE PŘIROZENÉMU PRÁVU, JE NICOTNÝ A NEPLATNÝ — NEZAVAZUJE.",
+      "title": "The Sophists: man the measure of all things",
+      "text": "FROM THE 5TH CENTURY BC THE SOPHISTS QUESTIONED THAT LAW IS GIVEN BY THE GODS AND THEREFORE BINDING ON ALL LIVING BEINGS — and the exercise class expressly adds that there are PARALLELS WITH THE ENLIGHTENMENT, that is, that this is the same type of questioning of authority two thousand years earlier. PROTAGORAS doubted the very existence of the gods, and for him MAN BECAME 'THE MEASURE OF ALL THINGS'. From this follows a question that has never gone away: MUST LAW BE JUST, AND WHOSE JUSTICE MUST IT MATCH — DIVINE OR HUMAN? The Sophists therefore began to distinguish between RECORDED LAW (later to be called POSITIVE) and LAW THAT IS VALID BY NATURE, INDEPENDENTLY OF ALL POSITIVE LAW — that is, NOMOS AGAINST PHYSIS. SOCRATES, and after him PLATO and ARISTOTLE, then concerned themselves above all with ETHICS as a counterweight to this relativism. CICERO summed it up in a sentence worth knowing in Latin: 'LEX EST RATIO SUMMA INSITA IN NATURA' — law is the highest reason implanted in nature. AND THE CONSEQUENCE THE EXERCISE DRAWS FROM IT IS HARSH: A POSITIVE STATUTE THAT CONTRADICTS NATURAL LAW IS NULL AND VOID — IT DOES NOT BIND.",
       "terms": [
-        { "term": "lex est ratio summa insita in natura", "def": "Zákon je nejvyšší rozum vložený do přírody (Cicero) — základ argumentu, že odporující pozitivní zákon nezavazuje." }
+        {
+          "term": "lex est ratio summa insita in natura",
+          "def": "Law is the highest reason implanted in nature (Cicero) — the basis of the argument that a contradicting positive statute does not bind."
+        }
       ],
       "cards": [
         {
-          "q": "Co zpochybnili sofisté a k jakému rozlišení to vedlo?",
-          "a": "Od 5. století př. n. l. zpochybnili, ŽE PRÁVO JE DÁNO BOHY, a tedy závazné pro všechny (PODOBNOST S OSVÍCENSTVÍM). PROTAGORAS pochyboval o existenci bohů a ČLOVĚK SE MU STAL 'MÍROU VŠECH VĚCÍ'. Vedlo to k rozlišení PRÁVA ZAZNAMENANÉHO (později pozitivního) a PRÁVA PLATNÉHO OD PŘIROZENOSTI — NOMOS proti PHYSIS.",
+          "q": "What did the Sophists question, and what distinction did that lead to?",
+          "a": "From the 5th century BC they questioned THAT LAW IS GIVEN BY THE GODS and therefore binding on all (A PARALLEL WITH THE ENLIGHTENMENT). PROTAGORAS doubted the existence of the gods and for him MAN BECAME 'THE MEASURE OF ALL THINGS'. It led to the distinction between RECORDED LAW (later positive) and LAW VALID BY NATURE — NOMOS against PHYSIS.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Cituj Cicerona o zákoně a řekni, co z toho plyne.",
-          "a": "'LEX EST RATIO SUMMA INSITA IN NATURA' — zákon je NEJVYŠŠÍ ROZUM VLOŽENÝ DO PŘÍRODY. Plyne z toho, že POZITIVNÍ ZÁKON, KTERÝ ODPORUJE PŘIROZENÉMU PRÁVU, JE NICOTNÝ A NEPLATNÝ — NEZAVAZUJE.",
+          "q": "Quote Cicero on law and say what follows from it.",
+          "a": "'LEX EST RATIO SUMMA INSITA IN NATURA' — law is THE HIGHEST REASON IMPLANTED IN NATURE. It follows that A POSITIVE STATUTE CONTRADICTING NATURAL LAW IS NULL AND VOID — IT DOES NOT BIND.",
           "difficulty": 2,
           "kind": "norma",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -46,21 +49,21 @@
       "vision_used": true
     },
     "6": {
-      "title": "Od neolitu k prvnímu psanému právu",
-      "text": "Cvičení dává vývoj po stupních a je to hezká odpověď na otázku, PROČ právě tam. NEOLIT — VLASTNICTVÍ UŽ NAZNAČUJE PRÁVO: kde se hromadí majetek, musí se vymezit, komu patří. 6. TISÍCILETÍ PŘ. N. L. — přibývá všechno najednou: HIERARCHIZACE, STANDARDIZOVANÉ MÍRY, PRVNÍ OBCE, NÁSTROJE SPRÁVY, PRVNÍ DOKLADY MASAKRŮ A VÁLKY, JMENNÉ PEČETI, PŘEBYTEK A CENTRÁLNÍ PLÁNOVÁNÍ, SJEDNOCOVÁNÍ. 3. TISÍCILETÍ PŘ. N. L. — VYSPĚLÁ CIVILIZACE s PÍSMEM a KALENDÁŘEM na území dnešní Sýrie, Iráku a Íránu. MEZOPOTÁMIE konkrétně: MNOHO MĚSTSKÝCH STÁTŮ, PRVNÍ PSANÉ PRÁVO (o správě zboží a o smlouvách — rozvod, dědění, adopce, otroctví) a UDRŽOVANÉ VZTAHY S OSTATNÍMI MĚSTSKÝMI STÁTY. A právě z té poslední věty plyne to nejzajímavější: dochovaly se DVĚ SMLOUVY ZE 3. TISÍCILETÍ PŘ. N. L. — STÉLA SUPŮ a MÍROVÁ SMLOUVA MEZI EBLOU A ABARSALEM. Jsou to tedy NEJSTARŠÍ DOKLADY NĚČEHO, CO BY SE DALO NAZVAT MEZINÁRODNÍM PRÁVEM.",
+      "title": "From the Neolithic to the first written law",
+      "text": "The exercise class gives the development in stages, and it is a neat answer to the question WHY there of all places. THE NEOLITHIC — PROPERTY ALREADY IMPLIES LAW: where wealth accumulates, it must be settled to whom it belongs. THE 6TH MILLENNIUM BC — everything appears at once: HIERARCHIZATION, STANDARDIZED MEASURES, THE FIRST SETTLEMENTS, INSTRUMENTS OF ADMINISTRATION, THE FIRST EVIDENCE OF MASSACRES AND WAR, NAME SEALS, SURPLUS AND CENTRAL PLANNING, UNIFICATION. THE 3RD MILLENNIUM BC — an ADVANCED CIVILIZATION with WRITING and a CALENDAR in the territory of today's Syria, Iraq and Iran. MESOPOTAMIA specifically: MANY CITY STATES, THE FIRST WRITTEN LAW (on the administration of goods and on contracts — divorce, inheritance, adoption, slavery) and MAINTAINED RELATIONS WITH THE OTHER CITY STATES. And from that last point follows the most interesting thing: TWO TREATIES FROM THE 3RD MILLENNIUM BC have survived — the STELE OF THE VULTURES and the PEACE TREATY BETWEEN EBLA AND ABARSAL. They are therefore THE OLDEST EVIDENCE OF SOMETHING ONE MIGHT CALL INTERNATIONAL LAW.",
       "terms": [],
       "cards": [
         {
-          "q": "Co se objevuje v 6. tisíciletí př. n. l. a proč to souvisí s právem?",
-          "a": "HIERARCHIZACE, STANDARDIZOVANÉ MÍRY, PRVNÍ OBCE, NÁSTROJE SPRÁVY, PRVNÍ DOKLADY MASAKRŮ A VÁLKY, JMENNÉ PEČETI, PŘEBYTEK A CENTRÁLNÍ PLÁNOVÁNÍ, SJEDNOCOVÁNÍ. Už v NEOLITU přitom VLASTNICTVÍ NAZNAČUJE PRÁVO — kde se hromadí majetek, musí se vymezit, komu patří.",
+          "q": "What appears in the 6th millennium BC and why does it concern law?",
+          "a": "HIERARCHIZATION, STANDARDIZED MEASURES, THE FIRST SETTLEMENTS, INSTRUMENTS OF ADMINISTRATION, THE FIRST EVIDENCE OF MASSACRES AND WAR, NAME SEALS, SURPLUS AND CENTRAL PLANNING, UNIFICATION. Already in the NEOLITHIC, PROPERTY IMPLIES LAW — where wealth accumulates, it must be settled to whom it belongs.",
           "difficulty": 2,
           "kind": "znaky",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jaké dvě smlouvy ze 3. tisíciletí př. n. l. se dochovaly a proč na nich záleží?",
-          "a": "STÉLA SUPŮ a MÍROVÁ SMLOUVA MEZI EBLOU A ABARSALEM. Záleží na nich proto, že jsou to NEJSTARŠÍ DOKLADY NĚČEHO, CO BY SE DALO NAZVAT MEZINÁRODNÍM PRÁVEM — mezopotamské městské státy spolu udržovaly vztahy.",
+          "q": "Which two treaties from the 3rd millennium BC survive, and why do they matter?",
+          "a": "The STELE OF THE VULTURES and the PEACE TREATY BETWEEN EBLA AND ABARSAL. They matter because they are THE OLDEST EVIDENCE OF SOMETHING ONE MIGHT CALL INTERNATIONAL LAW — the Mesopotamian city states maintained relations with one another.",
           "difficulty": 3,
           "kind": "cisla",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -70,13 +73,13 @@
       "vision_used": true
     },
     "8": {
-      "title": "Stéla supů",
-      "text": "STÉLA SUPŮ je NEJSTARŠÍ ZNÁMÝ VÁLEČNÝ PAMÁTNÍK a pochází z RANÉ DYNASTICKÉ DOBY IIIb (2600–2350 př. n. l.) v Mezopotámii. Oslavuje VÍTĚZSTVÍ MĚSTSKÉHO STÁTU LAGAŠ NAD SOUSEDNÍ UMMOU. Zlomky byly nalezeny v jižním Iráku koncem 19. století a dnes jsou v LOUVRU. Z nápisů víme, že stélu nechal zhotovit EANNATUM, ENSI čili vládce Lagaše, kolem roku 2460 př. n. l.; popisuje na ní SPOR S UMMOU O GU-EDIN, pás zemědělské půdy ležící mezi oběma městskými státy. Spor končí bitvou, v níž Eannatum — označený za miláčka boha Ningirsua — nad Ummou zvítězí. A TEĎ TA PRÁVNĚ ZAJÍMAVÁ ČÁST: PO BITVĚ VŮDCE UMMY PŘÍSAHÁ, ŽE UŽ NIKDY NEPŘEKROČÍ ÚZEMÍ LAGAŠE, POD HROZBOU TRESTU. Máme tedy pohraniční spor, jeho vyřešení silou, a nakonec ZÁVAZEK STVRZENÝ PŘÍSAHOU A ZAJIŠTĚNÝ SANKCÍ — tedy všechny prvky mezistátní smlouvy, čtyři a půl tisíce let před Vestfálským mírem.",
+      "title": "The Stele of the Vultures",
+      "text": "THE STELE OF THE VULTURES is the OLDEST KNOWN WAR MONUMENT and comes from the EARLY DYNASTIC IIIb PERIOD (2600–2350 BC) in Mesopotamia. It celebrates the VICTORY OF THE CITY STATE OF LAGASH OVER NEIGHBOURING UMMA. The fragments were found in southern Iraq at the end of the 19th century and are today in the LOUVRE. From the inscriptions we know that the stele was commissioned by EANNATUM, the ENSI or ruler of Lagash, around 2460 BC; on it he describes the DISPUTE WITH UMMA OVER GU-EDIN, a strip of agricultural land lying between the two city states. The dispute ends in a battle in which Eannatum — described as the beloved of the god Ningirsu — defeats Umma. AND NOW THE LEGALLY INTERESTING PART: AFTER THE BATTLE THE LEADER OF UMMA SWEARS NEVER AGAIN TO CROSS THE TERRITORY OF LAGASH, ON PAIN OF PUNISHMENT. So we have a border dispute, its resolution by force, and finally AN OBLIGATION CONFIRMED BY OATH AND SECURED BY A SANCTION — that is, all the elements of an interstate treaty, four and a half thousand years before the Peace of Westphalia.",
       "terms": [],
       "cards": [
         {
-          "q": "Co je Stéla supů a proč je právně zajímavá?",
-          "a": "NEJSTARŠÍ ZNÁMÝ VÁLEČNÝ PAMÁTNÍK (raná dynastická doba IIIb, 2600–2350 př. n. l.), oslavující vítězství LAGAŠE NAD UMMOU; nechal ji zhotovit EANNATUM kolem 2460 př. n. l., dnes je v LOUVRU. Popisuje SPOR O GU-EDIN, pás zemědělské půdy mezi oběma státy — a po bitvě VŮDCE UMMY PŘÍSAHÁ, ŽE ÚZEMÍ LAGAŠE UŽ NEPŘEKROČÍ, POD HROZBOU TRESTU. Jsou tam tedy všechny prvky mezistátní smlouvy.",
+          "q": "What is the Stele of the Vultures and why is it legally interesting?",
+          "a": "The OLDEST KNOWN WAR MONUMENT (Early Dynastic IIIb, 2600–2350 BC), celebrating the victory of LAGASH OVER UMMA; commissioned by EANNATUM around 2460 BC, today in the LOUVRE. It describes the DISPUTE OVER GU-EDIN, a strip of agricultural land between the two states — and after the battle THE LEADER OF UMMA SWEARS NOT TO CROSS THE TERRITORY OF LAGASH AGAIN, ON PAIN OF PUNISHMENT. All the elements of an interstate treaty are there.",
           "difficulty": 3,
           "kind": "pripad",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -86,21 +89,21 @@
       "vision_used": true
     },
     "11": {
-      "title": "Egypt a Mezopotámie: souvislost proti střídání",
-      "text": "Cvičení staví obě říše proti sobě a ten kontrast je dobrá odpověď. EGYPT: SJEDNOCENÍ HORNÍHO A DOLNÍHO EGYPTA KRÁLEM MENIM (32. století př. n. l.); DLOUHÝ A SOUVISLÝ STÁTNÍ VÝVOJ se třemi obdobími rozkvětu (STARÁ, STŘEDNÍ A NOVÁ ŘÍŠE) proloženými přechodnými dobami; ROKU 343 PŘ. N. L. se stává součástí perské říše. EGYPTSKÉ PRÁVO je doloženo VELKÝM MNOŽSTVÍM ZÁVĚTÍ, SMLUV, ADOPCÍ A JINÝCH PRÁVNÍCH JEDNÁNÍ — dochovaných na PAPYRECH (vídeňské Papyrusmuseum má jednu z největších sbírek na světě). MEZOPOTÁMIE naproti tomu NEMÁ SOUVISLÝ VÝVOJ: říše se tvoří STŘÍDAVĚ NA SEVERU (ASÝRIE) A NA JIHU (BABYLONIE), a roku 539 PŘ. N. L. se celá oblast stává součástí perské říše. MEZOPOTAMSKÉ PRÁVO má NĚKOLIK PRÁVNÍCH ZÁPISŮ — NEJSTARŠÍ JE ZÁKONÍK UR-NAMMUŮV (23./21. století př. n. l.), NEJSLAVNĚJŠÍ CHAMMURAPIHO (18. století př. n. l.). A cvičení výslovně otvírá spor, který nemá jednoznačnou odpověď: PODSTATA TĚCH ZÁPISŮ JE DISKUTABILNÍ — je to ZÁKONNÉ PRÁVO, nebo ZÁZNAM PRÁVA OBYČEJOVÉHO? Tedy: stanovil panovník nové normy, nebo jen sepsal, co se beztak dodržovalo?",
+      "title": "Egypt and Mesopotamia: continuity against alternation",
+      "text": "The exercise class sets the two empires against each other, and the contrast makes a good answer. EGYPT: the UNIFICATION OF UPPER AND LOWER EGYPT BY KING MENES (32nd century BC); a LONG AND CONTINUOUS DEVELOPMENT OF THE STATE with three periods of flowering (the OLD, MIDDLE AND NEW KINGDOMS) interspersed with intermediate periods; IN 343 BC it becomes part of the Persian empire. EGYPTIAN LAW is attested by a GREAT NUMBER OF WILLS, CONTRACTS, ADOPTIONS AND OTHER LEGAL TRANSACTIONS — preserved on PAPYRI (the Vienna Papyrusmuseum has one of the largest collections in the world). MESOPOTAMIA, by contrast, HAS NO CONTINUOUS DEVELOPMENT: empires form ALTERNATELY IN THE NORTH (ASSYRIA) AND IN THE SOUTH (BABYLONIA), and in 539 BC the whole region becomes part of the Persian empire. MESOPOTAMIAN LAW has SEVERAL LEGAL RECORDS — THE OLDEST IS THE CODE OF UR-NAMMU (23rd/21st century BC), THE MOST FAMOUS THAT OF HAMMURABI (18th century BC). And the exercise expressly opens a dispute that has no clear answer: THE NATURE OF THOSE RECORDS IS DEBATABLE — is it STATUTORY LAW, or a RECORD OF CUSTOMARY LAW? That is: did the ruler lay down new norms, or merely write down what was being observed anyway?",
       "terms": [],
       "cards": [
         {
-          "q": "Srovnej státní vývoj Egypta a Mezopotámie.",
-          "a": "EGYPT: SJEDNOCENÍ HORNÍHO A DOLNÍHO EGYPTA KRÁLEM MENIM (32. stol. př. n. l.), DLOUHÝ A SOUVISLÝ VÝVOJ se Starou, Střední a Novou říší; roku 343 př. n. l. součástí perské říše. MEZOPOTÁMIE: NEMÁ SOUVISLÝ VÝVOJ — říše se tvoří STŘÍDAVĚ NA SEVERU (Asýrie) A NA JIHU (Babylonie); roku 539 př. n. l. součástí perské říše.",
+          "q": "Compare the development of the state in Egypt and Mesopotamia.",
+          "a": "EGYPT: the UNIFICATION OF UPPER AND LOWER EGYPT BY KING MENES (32nd c. BC), a LONG AND CONTINUOUS DEVELOPMENT with the Old, Middle and New Kingdoms; in 343 BC part of the Persian empire. MESOPOTAMIA: NO CONTINUOUS DEVELOPMENT — empires form ALTERNATELY IN THE NORTH (Assyria) AND THE SOUTH (Babylonia); in 539 BC part of the Persian empire.",
           "difficulty": 2,
           "kind": "srovnani",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jaký spor o podstatu mezopotamských zákoníků cvičení otvírá?",
-          "a": "Zda jde o ZÁKONNÉ PRÁVO, nebo o ZÁZNAM PRÁVA OBYČEJOVÉHO — tedy zda panovník stanovil nové normy, nebo jen sepsal, co se beztak dodržovalo. Odpověď není jednoznačná. (Nejstarší zápis je ZÁKONÍK UR-NAMMUŮV, nejslavnější CHAMMURAPIHO.)",
+          "q": "What dispute about the nature of the Mesopotamian codes does the exercise open?",
+          "a": "Whether it is STATUTORY LAW or a RECORD OF CUSTOMARY LAW — that is, whether the ruler laid down new norms or merely wrote down what was observed anyway. The answer is not clear. (The oldest record is the CODE OF UR-NAMMU, the most famous that of HAMMURABI.)",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -110,21 +113,21 @@
       "vision_used": true
     },
     "18": {
-      "title": "Proč je židovské právo „ovládáno lidmi“ — odpověď cvičení",
-      "text": "Cvičení dává na tuhle otázku čtyři body a všechny jsou SROVNÁVACÍ, tedy vymezené proti západnímu ideálu — a právě to z nich dělá dobrou odpověď. (1) NA ROZDÍL OD ZÁPADNÍHO IDEÁLU SMĚJÍ SOUDCI OD PRAVIDLA ODCHÝLIT. Kde je u nás odchylka od normy vadou, je tam součástí soudcovské role. (2) NEJSOU SOUDY EKVITY (equity courts) — protože není třeba druhé soustavy, která by tvrdost pravidla zmírňovala; tu funkci plní sám soudce uvnitř jedné soustavy. (3) NENÍ ODVOLACÍ SOUD. (4) NENÍ NAUKA O ZÁVAZNÉM PRECEDENTU. (5) A shrnutí, které si zapamatuj doslova: SOUDCE JE DUCHOVNÍM VŮDCEM A VZOREM, NE TECHNOKRATEM. Z těch bodů plyne i vysvětlení: kde právo nemá stát, který by ho vynucoval, drží ho pohromadě AUTORITA OSOBY, ne hierarchie institucí — a tomu odpovídá i to, že se nekontroluje odvoláním, nýbrž vážností učence. DOPLNĚK K DIASPOŘE: cvičení ji datuje OD BABYLONSKÉHO ZAJETÍ (kolem roku 600 př. n. l.) a jejím právním důsledkem je VZNIK PRÁVNÍHO SYSTÉMU (HALACHA) ODPOUTANÉHO OD KONKRÉTNÍHO ÚZEMÍ. PRAMENY: TÓRA (Starý zákon) a TALMUD — JERUZALÉMSKÝ kolem roku 400 n. l., BABYLONSKÝ kolem roku 600 n. l.; Talmud má dvě části, MIŠNU (psané shrnutí ústní Tóry) a GEMARU (komentář).",
+      "title": "Why Jewish law is 'governed by people' — the exercise's answer",
+      "text": "The exercise class gives four points in answer to this question, and all of them are COMPARATIVE, that is, defined against the Western ideal — which is precisely what makes them a good answer. (1) UNLIKE THE WESTERN IDEAL, JUDGES MAY DEPART FROM THE RULE. Where for us a departure from the norm is a defect, there it is part of the judicial role. (2) THERE ARE NO EQUITY COURTS — because there is no need for a second system to mitigate the harshness of the rule; that function is performed by the judge himself within a single system. (3) THERE IS NO APPELLATE COURT. (4) THERE IS NO DOCTRINE OF BINDING PRECEDENT. (5) And the summary, to be remembered verbatim: THE JUDGE IS A SPIRITUAL LEADER AND A MODEL, NOT A TECHNOCRAT. From those points the explanation also follows: where law has no state to enforce it, it is held together by the AUTHORITY OF THE PERSON, not by a hierarchy of institutions — and correspondingly it is not checked by appeal but by the standing of the scholar. A NOTE ON THE DIASPORA: the exercise dates it FROM THE BABYLONIAN CAPTIVITY (around 600 BC), and its legal consequence is THE EMERGENCE OF A LEGAL SYSTEM (HALAKHA) DETACHED FROM ANY PARTICULAR TERRITORY. THE SOURCES: the TORAH (the Old Testament) and the TALMUD — the JERUSALEM Talmud around AD 400, the BABYLONIAN around AD 600; the Talmud has two parts, the MISHNAH (the written summary of the oral Torah) and the GEMARA (the commentary).",
       "terms": [],
       "cards": [
         {
-          "q": "Jak cvičení odpovídá na otázku, proč je židovské právo „ovládáno lidmi, ne pravidly“?",
-          "a": "Čtyřmi srovnávacími body: 1) NA ROZDÍL OD ZÁPADNÍHO IDEÁLU SE SOUDCI SMĚJÍ OD PRAVIDLA ODCHÝLIT. 2) NEJSOU SOUDY EKVITY. 3) NENÍ ODVOLACÍ SOUD. 4) NENÍ NAUKA O ZÁVAZNÉM PRECEDENTU. A shrnutí: SOUDCE JE DUCHOVNÍM VŮDCEM A VZOREM, NE TECHNOKRATEM.",
+          "q": "How does the exercise answer the question why Jewish law is 'governed by people, not by rules'?",
+          "a": "By four comparative points: 1) UNLIKE THE WESTERN IDEAL, JUDGES MAY DEPART FROM THE RULE. 2) THERE ARE NO EQUITY COURTS. 3) THERE IS NO APPELLATE COURT. 4) THERE IS NO DOCTRINE OF BINDING PRECEDENT. And the summary: THE JUDGE IS A SPIRITUAL LEADER AND A MODEL, NOT A TECHNOCRAT.",
           "difficulty": 3,
           "kind": "srovnani",
           "topic": "Jewish Legal History",
           "priority": "core"
         },
         {
-          "q": "Odkdy se počítá diaspora a jaké má datování obou Talmudů?",
-          "a": "Od BABYLONSKÉHO ZAJETÍ, tedy kolem roku 600 př. n. l.; právním důsledkem je VZNIK HALACHY JAKO SYSTÉMU ODPOUTANÉHO OD ÚZEMÍ. JERUZALÉMSKÝ TALMUD kolem roku 400 n. l., BABYLONSKÝ kolem roku 600 n. l.; obojí má MIŠNU (psané shrnutí ústní Tóry) a GEMARU (komentář).",
+          "q": "From when is the diaspora counted, and how are the two Talmuds dated?",
+          "a": "From the BABYLONIAN CAPTIVITY, around 600 BC; its legal consequence is THE EMERGENCE OF HALAKHA AS A SYSTEM DETACHED FROM TERRITORY. The JERUSALEM TALMUD around AD 400, the BABYLONIAN around AD 600; both have the MISHNAH (the written summary of the oral Torah) and the GEMARA (the commentary).",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "Jewish Legal History",
@@ -134,31 +137,34 @@
       "vision_used": true
     },
     "21": {
-      "title": "Od Muhammada k sunnitům a šíitům",
-      "text": "MUHAMMAD (mezi lety 570 a 632 n. l.) založil islámské náboženství na ARABSKÉM POLOOSTROVĚ. Doba před ním se označuje jako DŽÁHILÍJA — 'doba nevědomosti', temný věk. PO MUHAMMADOVĚ SMRTI VYPUKL BOJ O NÁSTUPNICTVÍ a ROKU 656 DOŠLO K ROZKOLU: místodržitel SÝRIE založil UMAJJOVSKOU DYNASTII a CHALÍFOVÉ — tedy DUCHOVNÍ I SVĚTŠTÍ VŮDCI V JEDNÉ OSOBĚ — vládli z DAMAŠKU; z téhle větve je SUNNITSKÝ ISLÁM, dnes největší větev. GEOGRAFIE CHALIFÁTU: chalífové vládli z DAMAŠKU (do 749), pak z BAGDÁDU (do mongolského vpádu) a od 13. století do roku 1517 z KÁHIRY, nad říší sahající OD ŠPANĚLSKA PO STŘEDNÍ ASII. AL-ANDALUS je muslimy ovládaná část Pyrenejského poloostrova OD 8. STOLETÍ DO ROKU 1492 (rekonquista). ROKU 1517 DOBYLI EGYPT OSMANI a OSMANŠTÍ SULTÁNI SI NAPŘÍŠTĚ NÁROKOVALI TITUL CHALÍFY — AŽ DO ZRUŠENÍ SULTANÁTU ROKU 1922. ŠÍITÉ: při rozkolu v 7. století zůstala menší část věrná MUHAMMADOVU VNUKOVI a uctívá jeho i jeho potomky jako IMÁMY. Odtud šíité, například v ÍRÁNU, kde myšlenka NÁVRATU MAHDÍHO trvá dodnes — a cvičení k tomu přidává ústavní důsledek, který stojí za zapamatování: PODLE ÚSTAVY ÍRÁNSKÉ REPUBLIKY Z ROKU 1979 JE VLÁDA NEJVYŠŠÍCH PRÁVNÍKŮ POUZE ZÁSTUPNÁ, DOKUD SE MAHDÍ NEVRÁTÍ. Nejvyšší duchovní tedy nevládne vlastním právem, nýbrž za nepřítomného.",
+      "title": "From Muhammad to Sunnis and Shiites",
+      "text": "MUHAMMAD (between AD 570 and 632) founded the Islamic religion on the ARABIAN PENINSULA. The period before him is called the JAHILIYYA — the 'age of ignorance', the dark age. AFTER MUHAMMAD'S DEATH A STRUGGLE OVER THE SUCCESSION BROKE OUT and IN 656 THE SCHISM OCCURRED: the governor of SYRIA founded the UMAYYAD DYNASTY and the CALIPHS — that is, SPIRITUAL AND TEMPORAL LEADERS IN ONE PERSON — ruled from DAMASCUS; from this branch comes SUNNI ISLAM, today the largest branch. THE GEOGRAPHY OF THE CALIPHATE: the caliphs ruled from DAMASCUS (to 749), then from BAGHDAD (to the Mongol invasion) and from the 13th century until 1517 from CAIRO, over an empire reaching FROM SPAIN TO CENTRAL ASIA. AL-ANDALUS is the Muslim-ruled part of the Iberian peninsula FROM THE 8TH CENTURY UNTIL 1492 (the Reconquista). IN 1517 THE OTTOMANS CONQUERED EGYPT and THE OTTOMAN SULTANS THEREAFTER CLAIMED THE TITLE OF CALIPH — UNTIL THE ABOLITION OF THE SULTANATE IN 1922. THE SHIITES: at the schism in the 7th century a smaller part remained loyal to MUHAMMAD'S GRANDSON and venerates him and his descendants as IMAMS. Hence the Shiites, for example in IRAN, where the idea of the RETURN OF THE MAHDI persists to this day — and the exercise adds a constitutional consequence worth remembering: UNDER THE CONSTITUTION OF THE IRANIAN REPUBLIC OF 1979, THE RULE OF THE SUPREME JURISTS IS ONLY VICARIOUS UNTIL THE MAHDI RETURNS. The supreme cleric therefore does not rule in his own right but on behalf of the absent one.",
       "terms": [
-        { "term": "džáhilíja", "def": "„Doba nevědomosti“ — označení pro dobu na Arabském poloostrově před Muhammadem." }
+        {
+          "term": "jahiliyya",
+          "def": "The 'age of ignorance' — the name for the period on the Arabian peninsula before Muhammad."
+        }
       ],
       "cards": [
         {
-          "q": "Jak a kdy došlo k rozkolu mezi sunnity a šíity?",
-          "a": "Po Muhammadově smrti (632) vypukl BOJ O NÁSTUPNICTVÍ a ROKU 656 DOŠLO K ROZKOLU: místodržitel SÝRIE založil UMAJJOVSKOU DYNASTII a chalífové vládli z DAMAŠKU — odtud SUNNITSKÝ ISLÁM. Menší část zůstala věrná MUHAMMADOVU VNUKOVI a uctívá jeho potomky jako IMÁMY — odtud ŠÍITÉ.",
+          "q": "How and when did the schism between Sunnis and Shiites occur?",
+          "a": "After Muhammad's death (632) a STRUGGLE OVER THE SUCCESSION broke out and IN 656 THE SCHISM OCCURRED: the governor of SYRIA founded the UMAYYAD DYNASTY and the caliphs ruled from DAMASCUS — hence SUNNI ISLAM. A smaller part remained loyal to MUHAMMAD'S GRANDSON and venerates his descendants as IMAMS — hence the SHIITES.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Odkud vládli chalífové a kdy titul zanikl?",
-          "a": "Z DAMAŠKU (do 749), pak z BAGDÁDU (do mongolského vpádu) a od 13. století do roku 1517 z KÁHIRY, nad říší OD ŠPANĚLSKA PO STŘEDNÍ ASII. ROKU 1517 DOBYLI EGYPT OSMANI a osmanští sultáni si nárokovali titul chalífy AŽ DO ZRUŠENÍ SULTANÁTU ROKU 1922. AL-ANDALUS trval od 8. století DO ROKU 1492.",
+          "q": "From where did the caliphs rule and when did the title disappear?",
+          "a": "From DAMASCUS (to 749), then from BAGHDAD (to the Mongol invasion) and from the 13th century until 1517 from CAIRO, over an empire FROM SPAIN TO CENTRAL ASIA. IN 1517 THE OTTOMANS CONQUERED EGYPT and the Ottoman sultans claimed the title of caliph UNTIL THE ABOLITION OF THE SULTANATE IN 1922. AL-ANDALUS lasted from the 8th century UNTIL 1492.",
           "difficulty": 3,
           "kind": "cisla",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jaký ústavní důsledek má očekávání Mahdího v Íránu?",
-          "a": "PODLE ÚSTAVY ÍRÁNSKÉ REPUBLIKY Z ROKU 1979 JE VLÁDA NEJVYŠŠÍCH PRÁVNÍKŮ POUZE ZÁSTUPNÁ, DOKUD SE MAHDÍ NEVRÁTÍ — nejvyšší duchovní tedy nevládne vlastním právem, nýbrž ZA NEPŘÍTOMNÉHO.",
+          "q": "What constitutional consequence does the expectation of the Mahdi have in Iran?",
+          "a": "UNDER THE CONSTITUTION OF THE IRANIAN REPUBLIC OF 1979, THE RULE OF THE SUPREME JURISTS IS ONLY VICARIOUS UNTIL THE MAHDI RETURNS — the supreme cleric therefore does not rule in his own right but ON BEHALF OF THE ABSENT ONE.",
           "difficulty": 3,
           "kind": "norma",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -168,21 +174,21 @@
       "vision_used": true
     },
     "25": {
-      "title": "Šarí'a a fiqh: co dělí a co nedělí",
-      "text": "Cvičení k šarí'e přidává tři rozlišení, která jinde nejsou. (1) ŠARÍ'A JE OD ISLÁMU NEODDĚLITELNÁ; ústředním pramenem je KORÁN jako DOSLOVNÉ ZJEVENÍ BOŽÍ Prorokovi, dalšími SUNNA (doložená hadíthy), IDŽMÁ (konsensus učenců) a u šíitů NORMATIVNÍ PRAXE IMÁMŮ. (2) FIQH, tedy PRÁVNÍ VĚDA, SE PROSADIL JAKO SAMOSTATNÁ VĚDA VEDLE TEOLOGIE — a jeho úkol je přesně vymezen: ŠARÍ'A SE POKLÁDÁ NEJEN ZA PRÁVNÍ, ALE I ZA MRAVNÍ ŘÁD, A ÚKOLEM FIQHU JE ODLIŠIT PRÁVNÍ NORMY OD MRAVNÍCH. Není to tedy tak, že by se právo a mravnost nerozlišovaly vůbec — rozlišují se, ale AŽ PRÁCÍ PRÁVNÍKA, ne už v samotném prameni. (3) TAK JAKO HALACHA rozlišuje i šarí'a NORMY UPRAVUJÍCÍ SOUŽITÍ LIDÍ MEZI SEBOU a PRAVIDLA VZTAHU ČLOVĚKA K BOHU. Z toho plyne praktický důsledek: NEMUSLIMOVÉ, pokud žijí v zemích, kde šarí'a platí, MUSÍ DODRŽOVAT JEN TU PRVNÍ SKUPINU. NAPROTI TOMU DĚLENÍ PRÁVA NA SOUKROMÉ A VEŘEJNÉ ŠARÍ'A NEZNÁ — a to je přesně ten případ, kdy evropská kategorie na cizí řád nesedí. HODNOCENÍ JEDNÁNÍ má pět stupňů počínaje WÁDŽIB (povinné) a HALÁL (nezakázané, ale ani povinné).",
+      "title": "Sharia and fiqh: what is divided and what is not",
+      "text": "To sharia the exercise class adds three distinctions that are not found elsewhere. (1) SHARIA IS INSEPARABLE FROM ISLAM; the central source is the QUR'AN as the LITERAL REVELATION OF GOD to the Prophet, the further ones being the SUNNA (attested by hadith), IJMA (the consensus of the scholars) and, among the Shiites, the NORMATIVE PRACTICE OF THE IMAMS. (2) FIQH, that is, LEGAL SCIENCE, ESTABLISHED ITSELF AS AN INDEPENDENT SCIENCE ALONGSIDE THEOLOGY — and its task is precisely defined: SHARIA IS REGARDED NOT ONLY AS A LEGAL BUT ALSO AS A MORAL ORDER, AND IT IS THE TASK OF FIQH TO DISTINGUISH THE LEGAL NORMS FROM THE MORAL ONES. So it is not that law and morality are not distinguished at all — they are distinguished, but ONLY BY THE WORK OF THE JURIST, not already in the source itself. (3) LIKE HALAKHA, sharia too distinguishes NORMS GOVERNING THE COEXISTENCE OF PEOPLE WITH ONE ANOTHER from RULES GOVERNING MAN'S RELATION TO GOD. A practical consequence follows: NON-MUSLIMS living in countries where sharia applies MUST OBSERVE ONLY THE FIRST GROUP. BY CONTRAST, SHARIA DOES NOT KNOW THE DIVISION OF LAW INTO PRIVATE AND PUBLIC — and this is exactly the case where a European category does not fit a foreign order. THE EVALUATION OF CONDUCT has five degrees, beginning with WAJIB (obligatory) and HALAL (not forbidden, but not obligatory either).",
       "terms": [],
       "cards": [
         {
-          "q": "Jaký je úkol fiqhu vůči šarí'e?",
-          "a": "FIQH je PRÁVNÍ VĚDA, která se prosadila jako SAMOSTATNÁ VĚDA VEDLE TEOLOGIE. Protože se ŠARÍ'A POKLÁDÁ NEJEN ZA PRÁVNÍ, ALE I ZA MRAVNÍ ŘÁD, je ÚKOLEM FIQHU ODLIŠIT PRÁVNÍ NORMY OD MRAVNÍCH. Právo a mravnost se tedy rozlišují — ale AŽ PRACÍ PRÁVNÍKA, ne už v prameni.",
+          "q": "What is the task of fiqh in relation to sharia?",
+          "a": "FIQH is the LEGAL SCIENCE that established itself as an INDEPENDENT SCIENCE ALONGSIDE THEOLOGY. Because SHARIA IS REGARDED NOT ONLY AS A LEGAL BUT ALSO AS A MORAL ORDER, it is THE TASK OF FIQH TO DISTINGUISH THE LEGAL NORMS FROM THE MORAL ONES. Law and morality are therefore distinguished — but ONLY BY THE WORK OF THE JURIST, not already in the source.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Které dělení šarí'a zná a které naopak ne?",
-          "a": "ZNÁ dělení na NORMY UPRAVUJÍCÍ SOUŽITÍ LIDÍ MEZI SEBOU a PRAVIDLA VZTAHU ČLOVĚKA K BOHU — proto NEMUSLIMOVÉ žijící v zemi se šarí'ou musí dodržovat JEN TU PRVNÍ SKUPINU. NEZNÁ naopak dělení práva na SOUKROMÉ A VEŘEJNÉ — a to je přesně případ, kdy evropská kategorie na cizí řád nesedí.",
+          "q": "Which division does sharia know and which does it not?",
+          "a": "It KNOWS the division into NORMS GOVERNING THE COEXISTENCE OF PEOPLE and RULES GOVERNING MAN'S RELATION TO GOD — which is why NON-MUSLIMS living under sharia must observe ONLY THE FIRST GROUP. It DOES NOT KNOW the division of law into PRIVATE AND PUBLIC — exactly the case where a European category does not fit a foreign order.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -192,21 +198,21 @@
       "vision_used": true
     },
     "28": {
-      "title": "Čtyři sunnitské školy a jejich povaha",
-      "text": "Cvičení dává ke každé škole charakteristiku i to, kde dnes převládá — a to je přesně to, co udělá odpověď konkrétní. MUHAMMAD IBN IDRÍS AŠ-ŠÁFI'Í je zakladatelem ŠÁFI'OVSKÉ ŠKOLY, kterou cvičení popisuje jako STŘEDNÍ CESTU MEZI HANAFIJSKOU (velmi liberální, například v Bosně) A KONZERVATIVNÍ MÁLIKOVSKOU; převládá v MALAJSII, SOMÁLSKU a dalších. Vychází z tradice, ale ZDŮRAZŇUJE VÝZNAM KONSENSU PRÁVNÍKŮ. DALŠÍ: HANAFIJSKÁ (například Bosna); MÁLIKOVSKÁ, kde PŘEVAŽUJE TRADICE A ZVYKLOSTI (subsaharská Afrika); HANBALOVSKÁ, která bere KORÁN JAKO JEDINÝ PRAMEN PRÁVA (Saúdská Arábie). PRAMENY PODLE CVIČENÍ: KORÁN je svatá kniha islámu, PRVNÍ A ZÁKLADNÍ PRAMEN ustanovení šarí'y. SUNNA je NORMATIVNÍ PRAXE PROROKA; je rovněž BOŽSKÉHO PŮVODU, ale STOJÍ AŽ ZA KORÁNEM — a cvičení k tomu přidává jemné rozlišení, které stojí za zapamatování: SUNNA JE PRAVDIVÁ OBSAHEM, ALE NE ZNĚNÍM. Tedy: co Prorok učil, platí; jak přesně to řekl, se nedochovalo doslova. IDŽMÁ je konsensus učenců; u šíitů k tomu přistupuje NORMATIVNÍ PRAXE IMÁMŮ. A PRAVIDLO PŘEDNOSTI, které cvičení vyvozuje z aš-Šáfi'ího: VZNIKNE-LI ROZPOR MEZI DVĚMA SUNNAMI, POUŽIJE SE TA, KTERÁ JE BLÍŽ KORÁNU.",
+      "title": "The four Sunni schools and their character",
+      "text": "The exercise class gives for each school both its character and where it prevails today — and that is exactly what makes an answer concrete. MUHAMMAD IBN IDRIS AL-SHAFI'I is the founder of the SHAFI'I SCHOOL, which the exercise describes as the MIDDLE WAY BETWEEN THE HANAFI (very liberal, for example in Bosnia) AND THE CONSERVATIVE MALIKI; it prevails in MALAYSIA, SOMALIA and elsewhere. It proceeds from tradition but STRESSES THE IMPORTANCE OF THE CONSENSUS OF THE JURISTS. THE OTHERS: the HANAFI (Bosnia, for example); the MALIKI, where TRADITION AND CUSTOM PREDOMINATE (sub-Saharan Africa); the HANBALI, which takes the QUR'AN AS THE SOLE SOURCE OF LAW (Saudi Arabia). THE SOURCES ACCORDING TO THE EXERCISE: the QUR'AN is the holy book of Islam, the FIRST AND FUNDAMENTAL SOURCE of the provisions of sharia. The SUNNA is the NORMATIVE PRACTICE OF THE PROPHET; it too is of DIVINE ORIGIN, but it STANDS BEHIND THE QUR'AN — and the exercise adds a fine distinction worth remembering: THE SUNNA IS TRUE IN CONTENT BUT NOT IN WORDING. That is: what the Prophet taught holds; exactly how he said it has not been preserved verbatim. IJMA is the consensus of the scholars; among the Shiites the NORMATIVE PRACTICE OF THE IMAMS is added. And the RULE OF PRIORITY that the exercise draws from al-Shafi'i: IF A CONFLICT ARISES BETWEEN TWO SUNNAS, THE ONE CLOSER TO THE QUR'AN APPLIES.",
       "terms": [],
       "cards": [
         {
-          "q": "Charakterizuj čtyři sunnitské školy a řekni, kde převládají.",
-          "a": "ŠÁFI'OVSKÁ — STŘEDNÍ CESTA mezi hanafijskou a málikovskou, zdůrazňuje KONSENSUS PRÁVNÍKŮ (Malajsie, Somálsko). HANAFIJSKÁ — VELMI LIBERÁLNÍ (Bosna). MÁLIKOVSKÁ — KONZERVATIVNÍ, převažuje TRADICE A ZVYKLOSTI (subsaharská Afrika). HANBALOVSKÁ — KORÁN JAKO JEDINÝ PRAMEN (Saúdská Arábie).",
+          "q": "Characterize the four Sunni schools and say where they prevail.",
+          "a": "SHAFI'I — the MIDDLE WAY between Hanafi and Maliki, stressing the CONSENSUS OF THE JURISTS (Malaysia, Somalia). HANAFI — VERY LIBERAL (Bosnia). MALIKI — CONSERVATIVE, with TRADITION AND CUSTOM predominating (sub-Saharan Africa). HANBALI — the QUR'AN AS THE SOLE SOURCE (Saudi Arabia).",
           "difficulty": 3,
           "kind": "srovnani",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jaký je vztah Koránu a sunny a jaké pravidlo přednosti z toho plyne?",
-          "a": "KORÁN je PRVNÍ A ZÁKLADNÍ PRAMEN. SUNNA je rovněž BOŽSKÉHO PŮVODU, ale STOJÍ AŽ ZA KORÁNEM — a je PRAVDIVÁ OBSAHEM, ALE NE ZNĚNÍM (co Prorok učil, platí; jak přesně to řekl, se doslova nedochovalo). Pravidlo přednosti: VZNIKNE-LI ROZPOR MEZI DVĚMA SUNNAMI, POUŽIJE SE TA, KTERÁ JE BLÍŽ KORÁNU.",
+          "q": "What is the relation of the Qur'an and the Sunna, and what rule of priority follows?",
+          "a": "The QUR'AN is the FIRST AND FUNDAMENTAL SOURCE. The SUNNA is likewise of DIVINE ORIGIN but STANDS BEHIND THE QUR'AN — and it is TRUE IN CONTENT BUT NOT IN WORDING (what the Prophet taught holds; exactly how he said it was not preserved verbatim). The rule of priority: IF A CONFLICT ARISES BETWEEN TWO SUNNAS, THE ONE CLOSER TO THE QUR'AN APPLIES.",
           "difficulty": 3,
           "kind": "norma",
           "topic": "Ancient Legal Cultures; History of Islamic Law",

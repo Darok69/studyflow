@@ -4,7 +4,7 @@
   "course_title": "Practical Exercise on European and Global Legal History",
   "course_number": "030152",
   "unit": "Cvičení 1",
-  "title": "Cvičení 1: úvod, metoda exegeze, starověké právní kultury",
+  "title": "Exercise class 1: introduction, the method of exegesis, ancient legal cultures",
   "source_file": "raw/PU01_ppt.pdf",
   "source_sha256": "fdd70e97b5db8414cf1bf43bfc41006a97ac5f14b6b8829ea30b7d616e1a9170",
   "source_pages": 43,
@@ -95,42 +95,42 @@
     {
       "n": 6,
       "img": "img/PU01/PU01_s006.webp",
-      "title": "Co je právo — pět teoretických odpovědí",
-      "text": "Cvičení nedává jednu definici, nýbrž ukazuje PĚT ŠKOL A JEJICH MĚŘÍTKO. Lidé se právem zabývají po tisíciletí, aniž by se vůbec shodli, CO PRÁVO JE. (1) PRÁVO JAKO SOUBOR NOREM — HANS KELSEN A VÍDEŇSKÁ ŠKOLA PRÁVNÍ TEORIE: právní normy se srovnávají s jinými normami (mravními, náboženskými), aby se zjistilo, ČÍM SE OD NICH LIŠÍ; odpověď zní STÁTEM ORGANIZOVANÝM DONUCENÍM. (2) PRÁVO JAKO SKUTEČNÉ CHOVÁNÍ URČITÝCH SKUPIN LIDÍ — OLIVER WENDELL HOLMES a PRÁVNÍ REALISTÉ: 'PŘEDPOVĚDI TOHO, CO SOUDY VE SKUTEČNOSTI UDĚLAJÍ, JSOU TO, CO NAZÝVÁM PRÁVEM'; tomu se říká NORM SCEPTICISM, skepse k normě. (3) PRÁVO JAKO NUTNÝ VÝSLEDEK HISTORICKÉHO VÝVOJE, který probíhá podle jistých zákonitostí — HISTORICKÁ PRÁVNÍ ŠKOLA. (4) PRÁVO JAKO KULTURNÍ JEV, tedy výraz výrobních vztahů (MARXISTICKÉ TEORIE), politiky (POLICY SCIENCE) nebo ekonomie (LAW AND ECONOMICS). (5) PRÁVO JAKO NÁSTROJ SLOUŽÍCÍ URČITÉMU ÚČELU — SOCIOLOGICKÁ JURISPRUDENCE a JURISPRUDENCE ZÁJMŮ; MAX WEBER chápe právo jako 'VNITŘNÍ DUCHOVNÍ SÍLU PŮSOBÍCÍ UVNITŘ LIDÍ', která je vynucována VNĚJŠÍ MOCÍ, typicky státní autoritou, aby uspořádala soužití a řešila konflikty.",
+      "title": "What is law — five theoretical answers",
+      "text": "The exercise class gives not one definition but FIVE SCHOOLS AND THEIR CRITERION. People have been occupied with law for millennia without ever agreeing on WHAT LAW IS. (1) LAW AS A BODY OF NORMS — HANS KELSEN AND THE VIENNA SCHOOL OF LEGAL THEORY: legal norms are compared with other norms (moral, religious) in order to establish WHAT DISTINGUISHES THEM; the answer is STATE-ORGANIZED COERCION. (2) LAW AS THE ACTUAL BEHAVIOUR OF CERTAIN GROUPS OF PEOPLE — OLIVER WENDELL HOLMES and the LEGAL REALISTS: 'THE PROPHECIES OF WHAT THE COURTS WILL DO IN FACT ARE WHAT I MEAN BY THE LAW'; this is called NORM SCEPTICISM. (3) LAW AS THE NECESSARY RESULT OF A HISTORICAL DEVELOPMENT that proceeds according to certain regularities — the HISTORICAL SCHOOL OF LAW. (4) LAW AS A CULTURAL PHENOMENON, that is, an expression of the relations of production (MARXIST THEORIES), of politics (POLICY SCIENCE) or of economics (LAW AND ECONOMICS). (5) LAW AS AN INSTRUMENT SERVING A PARTICULAR PURPOSE — SOCIOLOGICAL JURISPRUDENCE and JURISPRUDENCE OF INTERESTS; MAX WEBER understands law as an 'INNER SPIRITUAL FORCE OPERATING WITHIN PEOPLE', enforced by an EXTERNAL POWER, typically state authority, in order to order coexistence and resolve conflicts.",
       "terms": [
         {
           "term": "norm scepticism",
-          "def": "Skepse k normě: právem je to, co soudy fakticky udělají, ne to, co říká text (Holmes, právní realisté)."
+          "def": "Scepticism about the norm: law is what the courts actually do, not what the text says (Holmes, the legal realists)."
         }
       ],
       "cards": [
         {
-          "q": "Jak právo vymezuje Kelsen a vídeňská škola?",
-          "a": "Jako SOUBOR NOREM, které se srovnávají s jinými normami (mravními, náboženskými), aby se zjistilo, ČÍM SE OD NICH LIŠÍ — a odpovědí je STÁTEM ORGANIZOVANÉ DONUCENÍ.",
+          "q": "How do Kelsen and the Vienna school define law?",
+          "a": "As a BODY OF NORMS compared with other norms (moral, religious) in order to establish WHAT DISTINGUISHES THEM — and the answer is STATE-ORGANIZED COERCION.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Co je právo podle Holmese a právních realistů?",
-          "a": "SKUTEČNÉ CHOVÁNÍ URČITÝCH SKUPIN LIDÍ: 'PŘEDPOVĚDI TOHO, CO SOUDY VE SKUTEČNOSTI UDĚLAJÍ, JSOU TO, CO NAZÝVÁM PRÁVEM.' Tomu se říká NORM SCEPTICISM — skepse k normě.",
+          "q": "What is law according to Holmes and the legal realists?",
+          "a": "THE ACTUAL BEHAVIOUR OF CERTAIN GROUPS OF PEOPLE: 'THE PROPHECIES OF WHAT THE COURTS WILL DO IN FACT ARE WHAT I MEAN BY THE LAW.' This is called NORM SCEPTICISM.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Vyjmenuj pět teoretických odpovědí na otázku, co je právo.",
-          "a": "1) SOUBOR NOREM odlišený státním donucením (KELSEN). 2) SKUTEČNÉ CHOVÁNÍ, tedy předpověď rozhodnutí soudů (HOLMES, realisté). 3) NUTNÝ VÝSLEDEK HISTORICKÉHO VÝVOJE (historická škola). 4) KULTURNÍ JEV — výraz výrobních vztahů (marxismus), politiky nebo ekonomie. 5) NÁSTROJ K ÚČELU (sociologická jurisprudence, jurisprudence zájmů, Weber).",
+          "q": "Name the five theoretical answers to the question what law is.",
+          "a": "1) A BODY OF NORMS distinguished by state coercion (KELSEN). 2) ACTUAL BEHAVIOUR, that is, the prediction of what courts will decide (HOLMES, the realists). 3) THE NECESSARY RESULT OF HISTORICAL DEVELOPMENT (the historical school). 4) A CULTURAL PHENOMENON — an expression of the relations of production (Marxism), of politics or of economics. 5) AN INSTRUMENT SERVING A PURPOSE (sociological jurisprudence, jurisprudence of interests, Weber).",
           "difficulty": 3,
           "kind": "schema",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Jak právo chápe Max Weber?",
-          "a": "Jako 'VNITŘNÍ DUCHOVNÍ SÍLU PŮSOBÍCÍ UVNITŘ LIDÍ', která je vynucována VNĚJŠÍ MOCÍ, typicky státní autoritou, aby USPOŘÁDALA SOUŽITÍ A ŘEŠILA KONFLIKTY.",
+          "q": "How does Max Weber understand law?",
+          "a": "As an 'INNER SPIRITUAL FORCE OPERATING WITHIN PEOPLE', enforced by an EXTERNAL POWER, typically state authority, in order to ORDER COEXISTENCE AND RESOLVE CONFLICTS.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -181,21 +181,21 @@
     {
       "n": 9,
       "img": "img/PU01/PU01_s009.webp",
-      "title": "Pufendorf proti Kelsenovi: přirozené právo a pozitivismus",
-      "text": "Cvičení staví ty dvě pozice přímo proti sobě, a tak je dobré si je pamatovat jako dvojici. SAMUEL PUFENDORF (1632–1694): myšlenka PRÁVNÍHO A SPRAVEDLIVÉHO ŘÁDU ODVOZENÉHO ČISTĚ Z ROZUMU — a protože je odvozen z rozumu, je LIDMI NEZMĚNITELNÝ a platí STEJNĚ A VŠUDE NA ZEMI. To je PŘIROZENÉ PRÁVO čili PRÁVO ROZUMU (LAW OF REASON), jehož linie se dá vysledovat až k ARISTOTELOVI. HANS KELSEN (1881–1973): PRÁVO DĚLAJÍ VÝHRADNĚ LIDÉ, a proto může mít 'JAKÝKOLI OBSAH VŮBEC' (any content whatsoever). To je PRÁVNÍ POZITIVISMUS, jehož linie se dá vysledovat až k PLATÓNOVI. TA VĚTA O 'JAKÉMKOLI OBSAHU' JE PŘESNĚ TO, CO DĚLÁ POZITIVISMUS SPORNÝM: znamená, že platnost normy nezávisí na jejím obsahu, tedy že i nespravedlivý zákon je právem — a právě tenhle spor ožil po roce 1945 nad nacistickými zákony. A protože se předmět a metoda regulace dají — zvlášť historicky — od sebe těžko odlišit (PRÁVO PROTI MRAVNOSTI, ZVYKŮM, NÁBOŽENSTVÍ, TECHNICKÝM NORMÁM), nabízí cvičení smířlivou definici THOMASE RAISERA: PRÁVO JE 'ZVLÁŠTNÍM PŘÍPADEM SOCIÁLNÍCH NOREM'.",
+      "title": "Pufendorf against Kelsen: natural law and positivism",
+      "text": "The exercise class sets these two positions directly against each other, so it is worth remembering them as a pair. SAMUEL PUFENDORF (1632–1694): the idea of a LEGAL AND JUST ORDER DERIVED PURELY FROM REASON — and because it is derived from reason, it is UNALTERABLE BY HUMAN BEINGS and applies EQUALLY AND EVERYWHERE ON EARTH. This is NATURAL LAW or the LAW OF REASON, whose line can be traced back to ARISTOTLE. HANS KELSEN (1881–1973): LAW IS MADE EXCLUSIVELY BY HUMAN BEINGS and can therefore have 'ANY CONTENT WHATSOEVER'. This is LEGAL POSITIVISM, whose line can be traced back to PLATO. THAT SENTENCE ABOUT 'ANY CONTENT' IS EXACTLY WHAT MAKES POSITIVISM CONTESTED: it means that the validity of a norm does not depend on its content, so that even an unjust statute is law — and precisely this dispute came alive again after 1945 over the Nazi statutes. And since the object and the method of regulation are hard to tell apart, especially historically (LAW AGAINST MORALITY, CUSTOM, RELIGION, TECHNICAL STANDARDS), the exercise offers THOMAS RAISER'S conciliatory definition: law is 'A SPECIAL CASE OF SOCIAL NORMS'.",
       "terms": [],
       "cards": [
         {
-          "q": "Postav proti sobě Pufendorfa a Kelsena.",
-          "a": "PUFENDORF (1632–1694): právní a spravedlivý řád ODVOZENÝ ČISTĚ Z ROZUMU, proto LIDMI NEZMĚNITELNÝ a platný STEJNĚ A VŠUDE — PŘIROZENÉ PRÁVO, linie k ARISTOTELOVI. KELSEN (1881–1973): PRÁVO DĚLAJÍ VÝHRADNĚ LIDÉ, a proto může mít 'JAKÝKOLI OBSAH VŮBEC' — PRÁVNÍ POZITIVISMUS, linie k PLATÓNOVI.",
+          "q": "Set Pufendorf and Kelsen against each other.",
+          "a": "PUFENDORF (1632–1694): a legal and just order DERIVED PURELY FROM REASON, therefore UNALTERABLE BY HUMAN BEINGS and valid EQUALLY AND EVERYWHERE — NATURAL LAW, the line running back to ARISTOTLE. KELSEN (1881–1973): LAW IS MADE EXCLUSIVELY BY HUMAN BEINGS and can therefore have 'ANY CONTENT WHATSOEVER' — LEGAL POSITIVISM, the line running back to PLATO.",
           "difficulty": 2,
           "kind": "srovnani",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Proč je Kelsenova věta o „jakémkoli obsahu“ sporná a jak právo definuje Raiser?",
-          "a": "Protože znamená, že PLATNOST NORMY NEZÁVISÍ NA JEJÍM OBSAHU, tedy že i NESPRAVEDLIVÝ ZÁKON JE PRÁVEM — spor ožil po roce 1945 nad nacistickými zákony. RAISER nabízí smířlivou definici: právo je 'ZVLÁŠTNÍM PŘÍPADEM SOCIÁLNÍCH NOREM'.",
+          "q": "Why is Kelsen's 'any content whatsoever' contested, and how does Raiser define law?",
+          "a": "Because it means that THE VALIDITY OF A NORM DOES NOT DEPEND ON ITS CONTENT, so that even an UNJUST STATUTE IS LAW — the dispute revived after 1945 over the Nazi statutes. RAISER offers a conciliatory definition: law is 'A SPECIAL CASE OF SOCIAL NORMS'.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -278,21 +278,21 @@
     {
       "n": 14,
       "img": "img/PU01/PU01_s014.webp",
-      "title": "Primární a sekundární prameny, sloužící a vlastní funkce",
-      "text": "Cvičení k pramenům přidává dvě rozlišení, která v seznamu druhů pramenů nejsou. PRVNÍ: PRIMÁRNÍ PRAMENY jsou původní texty nebo artefakty VYTVOŘENÉ V DOBĚ UDÁLOSTÍ ČI POMĚRŮ, které popisují; SEKUNDÁRNÍ PRAMENY je jakýkoli text či jiný zdroj informace o minulosti, který primárním pramenem není — třeba historické knihy. Právní historik pracuje s TEXTY (právní texty, středověké kroniky, listiny, soudní spisy, právnická literatura), ale někdy i s VĚCNÝMI ČI HMOTNÝMI PRAMENY (právní archeologie), OBRAZOVÝMI PRAMENY (právní ikonografie) a ÚSTNÍM PODÁNÍM. DRUHÉ ROZLIŠENÍ JE O ÚČELU CELÉHO OBORU a stojí za to ho umět: PRÁVNÍ DĚJINY MAJÍ SLOUŽÍCÍ FUNKCI VŮČI PLATNÉMU PRÁVU — pomáhají mu porozumět a vyložit ho. ALE MAJÍ I VLASTNÍ, SAMOSTATNÝ HISTORICKÝ PŘÍNOS: metoda míří k 'POROZUMĚNÍ A VYSVĚTLENÍ MINULÝCH SKUTEČNOSTÍ' (FRANZ WIEACKER). Právní dějiny tedy nejsou jen pomocnou vědou právníků.",
+      "title": "Primary and secondary sources, the serving and the own function",
+      "text": "To the sources the exercise class adds two distinctions that are not in the list of types of source. THE FIRST: PRIMARY SOURCES are original texts or artefacts CREATED AT THE TIME OF THE EVENTS OR CONDITIONS they describe; SECONDARY SOURCES are any text or other source of information about the past that is not a primary source — history books, for instance. The legal historian works with TEXTS (legal texts, medieval chronicles, charters, court files, juristic literature), but sometimes also with MATERIAL OR PHYSICAL SOURCES (legal archaeology), PICTORIAL SOURCES (legal iconography) and ORAL TRADITION. THE SECOND DISTINCTION CONCERNS THE PURPOSE OF THE WHOLE DISCIPLINE and is worth knowing: LEGAL HISTORY HAS A SERVING FUNCTION TOWARDS THE LAW IN FORCE — it helps to understand and interpret it. BUT IT ALSO HAS ITS OWN, INDEPENDENT HISTORICAL VALUE: the method aims at the 'UNDERSTANDING AND EXPLANATION OF PAST REALITIES' (FRANZ WIEACKER). Legal history is therefore not merely an auxiliary science for lawyers.",
       "terms": [],
       "cards": [
         {
-          "q": "Jaký je rozdíl mezi primárním a sekundárním pramenem?",
-          "a": "PRIMÁRNÍ je původní text či artefakt VYTVOŘENÝ V DOBĚ UDÁLOSTÍ, které popisuje. SEKUNDÁRNÍ je jakýkoli zdroj informace o minulosti, který primárním pramenem není — třeba historická kniha.",
+          "q": "What is the difference between a primary and a secondary source?",
+          "a": "A PRIMARY source is an original text or artefact CREATED AT THE TIME OF THE EVENTS it describes. A SECONDARY source is any source of information about the past that is not a primary source — a history book, for example.",
           "difficulty": 1,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Jakou dvojí funkci mají právní dějiny?",
-          "a": "SLOUŽÍCÍ FUNKCI VŮČI PLATNÉMU PRÁVU — pomáhají mu porozumět a vyložit ho. A VLASTNÍ, SAMOSTATNÝ HISTORICKÝ PŘÍNOS: metoda míří k 'POROZUMĚNÍ A VYSVĚTLENÍ MINULÝCH SKUTEČNOSTÍ' (FRANZ WIEACKER). Nejsou tedy jen pomocnou vědou právníků.",
+          "q": "What double function does legal history have?",
+          "a": "A SERVING FUNCTION TOWARDS THE LAW IN FORCE — helping to understand and interpret it. And ITS OWN, INDEPENDENT HISTORICAL VALUE: the method aims at the 'UNDERSTANDING AND EXPLANATION OF PAST REALITIES' (FRANZ WIEACKER). It is therefore not merely an auxiliary science for lawyers.",
           "difficulty": 2,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -327,21 +327,21 @@
     {
       "n": 16,
       "img": "img/PU01/PU01_s016.webp",
-      "title": "Globální právní dějiny: nadbytek i nedostatek pramenů zároveň",
-      "text": "Odpověď cvičení je ostřejší než obvyklý výčet potíží a stojí za doslovné zapamatování, protože je to paradox. NA ÚROVNI GLOBÁLNÍCH DĚJIN EXISTUJE SOUČASNĚ NADBYTEK I NEDOSTATEK PRAMENŮ: moderní byrokracie produkují obrovská množství dokumentů a digitální svět nás zasypává daty, z nichž velká část nikdy nebude použitelně uložena ani využita — a zároveň po velké části civilizací, kultur a politických forem nezůstalo skoro nic. DRUHÁ POTÍŽ: NĚKTERÉ PRAMENY ZVLÁDNOU JEN SPECIALISTÉ, takže kdo pracuje v měřítku globálních dějin, MUSÍ SE SILNĚ SPOLÉHAT NA KOLEGY. TŘETÍ, A NEJHLUBŠÍ: úvaha o právu jako zvláštním případu normativity je obzvlášť obtížná, ODEHRÁVÁ-LI SE V ÚPLNĚ JINÉM HISTORICKÉM KONTEXTU — protože každý právní útvar je ovlivněn NAŠIMI VLASTNÍMI PŘEDSUDKY, například o jeho vztahu k náboženství, rituálu, představení, společenské konvenci či mravnosti. A ZÁVĚR JE POCTIVĚ SKEPTICKÝ: ŘEŠENÍ SE HLEDAJÍ TĚŽKO. Jsou to potíže PŘEKLADU, a v tom nejsou nijak nové — historiky zaměstnávají už dlouho v podobě otázky, JAK SI OPATRNĚ PŘISVOJIT CIZOST PRAMENŮ, aniž bychom ji zrušili.",
+      "title": "Global legal history: a surplus and a shortage of sources at once",
+      "text": "The exercise class's answer is sharper than the usual list of difficulties and is worth remembering verbatim, because it is a paradox. AT THE LEVEL OF GLOBAL HISTORY THERE IS SIMULTANEOUSLY A SURPLUS AND A SHORTAGE OF SOURCES: modern bureaucracies produce enormous quantities of documents and the digital world buries us in data, much of which will never be usefully stored or exploited — and at the same time, of a large part of civilizations, cultures and political forms almost nothing has survived. THE SECOND DIFFICULTY: SOME SOURCES CAN BE HANDLED ONLY BY SPECIALISTS, so anyone working at the scale of global history MUST RELY HEAVILY ON COLLEAGUES. THE THIRD, AND DEEPEST: reflecting on law as a special case of normativity is particularly difficult WHEN IT TAKES PLACE IN AN ENTIRELY DIFFERENT HISTORICAL CONTEXT — because every legal formation is coloured by OUR OWN PRECONCEPTIONS, for instance about its relation to religion, ritual, performance, social convention or morality. AND THE CONCLUSION IS HONESTLY SCEPTICAL: SOLUTIONS ARE HARD TO FIND. These are difficulties of TRANSLATION, and in that they are nothing new — they have long occupied historians in the form of the question HOW TO APPROPRIATE THE STRANGENESS OF THE SOURCES CAREFULLY WITHOUT ABOLISHING IT.",
       "terms": [],
       "cards": [
         {
-          "q": "Jaký paradox platí o pramenech v globálních právních dějinách?",
-          "a": "SOUČASNĚ EXISTUJE NADBYTEK I NEDOSTATEK: moderní byrokracie a digitální svět produkují obrovská množství dat, z nichž se velká část nikdy použitelně neuloží — a zároveň po velké části civilizací, kultur a politických forem NEZŮSTALO SKORO NIC.",
+          "q": "What paradox holds for sources in global legal history?",
+          "a": "THERE IS SIMULTANEOUSLY A SURPLUS AND A SHORTAGE: modern bureaucracies and the digital world produce enormous quantities of data, much of which will never be usefully stored — and at the same time, of a large part of civilizations, cultures and political forms ALMOST NOTHING HAS SURVIVED.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Jaká je nejhlubší potíž globálních právních dějin a jaké je řešení?",
-          "a": "Že úvaha o právu v ÚPLNĚ JINÉM HISTORICKÉM KONTEXTU je ovlivněna NAŠIMI VLASTNÍMI PŘEDSUDKY — o vztahu práva k náboženství, rituálu, konvenci či mravnosti. Řešení se hledají TĚŽKO: jsou to potíže PŘEKLADU a otázka zní, JAK SI OPATRNĚ PŘISVOJIT CIZOST PRAMENŮ, aniž bychom ji zrušili.",
+          "q": "What is the deepest difficulty of global legal history, and what is the solution?",
+          "a": "That reflecting on law in an ENTIRELY DIFFERENT HISTORICAL CONTEXT is coloured by OUR OWN PRECONCEPTIONS — about law's relation to religion, ritual, convention or morality. Solutions are HARD TO FIND: these are difficulties of TRANSLATION, and the question is HOW TO APPROPRIATE THE STRANGENESS OF THE SOURCES CAREFULLY WITHOUT ABOLISHING IT.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -376,26 +376,26 @@
     {
       "n": 18,
       "img": "img/PU01/PU01_s018.webp",
-      "title": "Exegeze a její pětikrokové schéma",
-      "text": "TOHLE JE NEJPRAKTIČTĚJŠÍ VĚC Z CELÉHO CVIČENÍ, PROTOŽE JE TO PŘESNĚ POSTUP, KTERÝ ZKOUŠKA TESTUJE. EXEGEZE (z řeckého ἐξήγησις) je KRITICKÉ VYSVĚTLENÍ ČI VÝKLAD TEXTU a je hlavní metodou práce s psaným pramenem. PĚTIKROKOVÉ SCHÉMA: (1) PŘEČTI PRÁVNÍ PRAMEN POMALU A POZORNĚ; pak se pečlivě podívej, CO JE UVEDENO JAKO ZDROJ té pasáže a JAK ZNÍ JEJÍ NADPIS. (2) CO OBECNĚ VÍŠ O PRAMENI, ZE KTERÉHO ÚRYVEK POCHÁZÍ? (3) JAKÁ TÉMATA PASÁŽ OTVÍRÁ? Zkus vypíchnout KLÍČOVÁ SLOVA, abys určil, o čem pasáž je. (4) ZVÝRAZNI PRÁVNÍ POJMY, KTERÉ SE V PASÁŽI OBJEVUJÍ, A ZKUS JE VYSVĚTLIT. (5) TEPRVE TEĎ ROZEBER TY POJMY Z PRÁVNÍHO HLEDISKA A ZASAĎ JE DO HISTORICKÉHO KONTEXTU. VŠIMNI SI POŘADÍ: NEJDŘÍV IDENTIFIKACE PRAMENE, PAK OBSAH, PAK POJMY, A AŽ NAKONEC VÝKLAD. Nejčastější chyba u zkoušky je začít od pátého kroku — tedy povídat o kontextu, aniž bys řekl, co to vlastně za text je.",
+      "title": "Exegesis and its five-step scheme",
+      "text": "THIS IS THE MOST PRACTICAL THING IN THE WHOLE EXERCISE CLASS, BECAUSE IT IS EXACTLY THE PROCEDURE THE EXAM TESTS. EXEGESIS (from the Greek ἐξήγησις) is the CRITICAL EXPLANATION OR INTERPRETATION OF A TEXT and is the principal method of working with a written source. THE FIVE-STEP SCHEME: (1) READ THE LEGAL SOURCE SLOWLY AND CAREFULLY; then look closely at WHAT IS GIVEN AS THE SOURCE of the passage and HOW ITS HEADING READS. (2) WHAT DO YOU KNOW IN GENERAL ABOUT THE SOURCE THE EXTRACT COMES FROM? (3) WHAT TOPICS DOES THE PASSAGE OPEN UP? Try to pick out KEY WORDS in order to determine what the passage is about. (4) HIGHLIGHT THE LEGAL CONCEPTS THAT APPEAR IN THE PASSAGE AND TRY TO EXPLAIN THEM. (5) ONLY NOW ANALYSE THOSE CONCEPTS FROM A LEGAL POINT OF VIEW AND PLACE THEM IN THEIR HISTORICAL CONTEXT. NOTE THE ORDER: FIRST IDENTIFICATION OF THE SOURCE, THEN CONTENT, THEN CONCEPTS, AND ONLY AT THE END INTERPRETATION. The most common mistake in the exam is to start at step five — that is, to talk about context without saying what the text actually is.",
       "terms": [
         {
-          "term": "exegeze",
-          "def": "Kritické vysvětlení či výklad textu; hlavní metoda práce s psaným pramenem."
+          "term": "exegesis",
+          "def": "The critical explanation or interpretation of a text; the principal method of working with a written source."
         }
       ],
       "cards": [
         {
-          "q": "Co je exegeze a jak zní její pětikrokové schéma?",
-          "a": "KRITICKÉ VYSVĚTLENÍ ČI VÝKLAD TEXTU. 1) Přečíst pramen POMALU A POZORNĚ a podívat se, CO JE UVEDENO JAKO ZDROJ a JAK ZNÍ NADPIS. 2) CO OBECNĚ VÍM O PRAMENI, ze kterého úryvek pochází. 3) JAKÁ TÉMATA pasáž otvírá — vypíchnout KLÍČOVÁ SLOVA. 4) ZVÝRAZNIT PRÁVNÍ POJMY a vysvětlit je. 5) Teprve pak je ROZEBRAT PRÁVNĚ A ZASADIT DO HISTORICKÉHO KONTEXTU.",
+          "q": "What is exegesis and how does its five-step scheme run?",
+          "a": "The CRITICAL EXPLANATION OR INTERPRETATION OF A TEXT. 1) Read the source SLOWLY AND CAREFULLY and look at WHAT IS GIVEN AS THE SOURCE and HOW THE HEADING READS. 2) WHAT DO I KNOW IN GENERAL ABOUT THE SOURCE the extract comes from. 3) WHAT TOPICS the passage opens up — pick out KEY WORDS. 4) HIGHLIGHT THE LEGAL CONCEPTS and explain them. 5) Only then ANALYSE THEM LEGALLY AND PLACE THEM IN HISTORICAL CONTEXT.",
           "difficulty": 2,
           "kind": "schema",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Jaká je nejčastější chyba při exegezi u zkoušky?",
-          "a": "ZAČÍT OD PÁTÉHO KROKU — tedy povídat o kontextu, aniž bys řekl, CO TO VLASTNĚ ZA TEXT JE. Pořadí schématu je záměrné: nejdřív IDENTIFIKACE PRAMENE, pak OBSAH, pak POJMY, a až nakonec VÝKLAD.",
+          "q": "What is the most common mistake in exegesis in the exam?",
+          "a": "TO START AT STEP FIVE — that is, to talk about context without saying WHAT THE TEXT ACTUALLY IS. The order of the scheme is deliberate: first IDENTIFICATION OF THE SOURCE, then CONTENT, then CONCEPTS, and only at the end INTERPRETATION.",
           "difficulty": 2,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -414,21 +414,21 @@
     {
       "n": 19,
       "img": "img/PU01/PU01_s019.webp",
-      "title": "Prosopografie, praxeologie, etnografie",
-      "text": "Tři další metody, kterými si historik pomáhá a které cvičení jmenuje jako 'extra otázku'. PROSOPOGRAFIE je ZKOUMÁNÍ SPOLEČNÝCH ZNAKŮ SKUPINY LIDÍ, jejichž jednotlivé životopisy jsou z velké části nedohledatelné. Prakticky: nevím nic o jednotlivém soudci, ale vím, že soudci daného soudu pocházeli z určitých rodin, studovali v Bologni a byli v průměru čtyřicetiletí — a to už o právu leccos vypovídá. PRAXEOLOGIE si troufá z rozboru NEVĚDOMĚ VYKONÁVANÝCH JEDNÁNÍ (PRAKTIK) vyvodit závěry o SOCIOKULTURNÍ ČI POLITICKÉ STRUKTUŘE společnosti, ve které se odehrávají. Dá se chápat jako TEORIE LIDSKÉHO JEDNÁNÍ založená na představě, že lidé jednají ÚČELOVĚ, na rozdíl od jednání reflexního a jiného nezáměrného chování. Pro právní dějiny to znamená sledovat, CO SE U SOUDU DĚLALO, ne jen co se psalo. ETNOGRAFIE je odvětví antropologie a SYSTEMATICKÉ STUDIUM JEDNOTLIVÝCH KULTUR; zkoumá kulturní jevy Z HLEDISKA ZKOUMANÉHO SUBJEKTU, tedy zevnitř — což je přesně to, co globální právní dějiny potřebují, chtějí-li se vyhnout měření cizího řádu evropským metrem.",
+      "title": "Prosopography, praxeology, ethnography",
+      "text": "Three further methods the historian uses, which the exercise class names as an 'extra question'. PROSOPOGRAPHY is the STUDY OF THE COMMON CHARACTERISTICS OF A GROUP OF PEOPLE whose individual biographies are largely untraceable. In practice: I know nothing about the individual judge, but I know that the judges of a given court came from certain families, studied in Bologna and were on average forty years old — and that already says a good deal about the law. PRAXEOLOGY ventures, from the analysis of UNCONSCIOUSLY PERFORMED ACTIONS (PRACTICES), to draw conclusions about the SOCIO-CULTURAL OR POLITICAL STRUCTURE of the society in which they take place. It can be understood as a THEORY OF HUMAN ACTION based on the idea that people act PURPOSIVELY, as opposed to reflex action and other unintentional behaviour. For legal history this means observing WHAT WAS DONE IN COURT, not only what was written. ETHNOGRAPHY is a branch of anthropology and the SYSTEMATIC STUDY OF INDIVIDUAL CULTURES; it examines cultural phenomena FROM THE POINT OF VIEW OF THE SUBJECT STUDIED, that is, from within — which is exactly what global legal history needs if it is to avoid measuring a foreign order by a European yardstick.",
       "terms": [],
       "cards": [
         {
-          "q": "Co je prosopografie a k čemu je v právních dějinách?",
-          "a": "ZKOUMÁNÍ SPOLEČNÝCH ZNAKŮ SKUPINY LIDÍ, jejichž JEDNOTLIVÉ ŽIVOTOPISY JSOU NEDOHLEDATELNÉ. Prakticky: nevím nic o jednotlivém soudci, ale vím, odkud soudci pocházeli, kde studovali a kolik jim bylo — a to už o právu leccos vypovídá.",
+          "q": "What is prosopography and what is it good for in legal history?",
+          "a": "The STUDY OF THE COMMON CHARACTERISTICS OF A GROUP OF PEOPLE whose INDIVIDUAL BIOGRAPHIES ARE UNTRACEABLE. In practice: I know nothing about the individual judge, but I know where the judges came from, where they studied and how old they were — and that already says a good deal about the law.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Co je praxeologie a co je etnografie?",
-          "a": "PRAXEOLOGIE vyvozuje z rozboru NEVĚDOMĚ VYKONÁVANÝCH JEDNÁNÍ (PRAKTIK) závěry o SOCIOKULTURNÍ A POLITICKÉ STRUKTUŘE společnosti; je to teorie lidského jednání založená na tom, že lidé jednají ÚČELOVĚ. ETNOGRAFIE je odvětví antropologie, SYSTEMATICKÉ STUDIUM JEDNOTLIVÝCH KULTUR zkoumající jevy Z HLEDISKA ZKOUMANÉHO SUBJEKTU, tedy zevnitř.",
+          "q": "What is praxeology and what is ethnography?",
+          "a": "PRAXEOLOGY draws, from the analysis of UNCONSCIOUSLY PERFORMED ACTIONS (PRACTICES), conclusions about the SOCIO-CULTURAL AND POLITICAL STRUCTURE of a society; it is a theory of human action based on people acting PURPOSIVELY. ETHNOGRAPHY is a branch of anthropology, the SYSTEMATIC STUDY OF INDIVIDUAL CULTURES, examining phenomena FROM THE POINT OF VIEW OF THE SUBJECT STUDIED, that is, from within.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -463,21 +463,21 @@
     {
       "n": 21,
       "img": "img/PU01/PU01_s021.webp",
-      "title": "Klasická periodizace s konkrétními mezníky",
-      "text": "Cvičení uvádí periodizaci i s daty, a ta je dobré znát, protože se na ně dá zeptat přímo. PRAVĚK (asi 2,5 milionu let až 1200 př. n. l.) — doba lidského života PŘED PÍSEMNÝMI ZÁZNAMY o lidské činnosti; dělí se na dobu kamennou, bronzovou a železnou. STAROVĚK (8. století př. n. l., Homér, až 5. století n. l., konec západořímské říše) se dělí na tři části: ARCHAICKÉ OBDOBÍ (650–480 př. n. l.), v němž vzniká PÍSMO v úrodném půlměsíci (Egypt, babylonské říše, perská říše) a které končí ŘECKO-PERSKÝMI VÁLKAMI (479 př. n. l.); KLASICKÉ OBDOBÍ (vzestup Řecka a Říma, Alexandrovo dobytí perské říše, helenismus, punské války); a POZDNÍ OBDOBÍ až do konce západořímské říše (476). STŘEDOVĚK (5. století, konec západořímské říše, až 1500 — s mezníky 1453 PÁD KONSTANTINOPOLE, 1492 DOKONČENÍ REKONQUISTY A OBJEVENÍ AMERIKY). NOVOVĚK (od 1500 dodnes) se dělí na RANÝ NOVOVĚK (od konce středověku do 19. století) a MODERNÍ OBDOBÍ (od 19. století, s mezníky FRANCOUZSKÁ REVOLUCE 1789 a PRŮMYSLOVÁ REVOLUCE). A po světových válkách (1918/1945) se mluví o SOUDOBÝCH DĚJINÁCH (ZEITGESCHICHTE). Kritiku téhle periodizace najdeš v listu s otázkami; tady si zapamatuj hlavně ta data, protože zkoušející se ptá na mezníky.",
+      "title": "The classical periodization with concrete turning points",
+      "text": "The exercise class gives the periodization with dates, and it is worth knowing them, because they can be asked about directly. PREHISTORY (about 2.5 million years to 1200 BC) — the period of human life BEFORE WRITTEN RECORDS of human activity; it is divided into the Stone, Bronze and Iron Ages. ANTIQUITY (8th century BC, Homer, to the 5th century AD, the end of the Western Roman Empire) is divided into three parts: the ARCHAIC PERIOD (650–480 BC), in which WRITING arises in the Fertile Crescent (Egypt, the Babylonian empires, the Persian empire) and which ends with the GRAECO-PERSIAN WARS (479 BC); the CLASSICAL PERIOD (the rise of Greece and Rome, Alexander's conquest of the Persian empire, Hellenism, the Punic Wars); and the LATE PERIOD until the end of the Western Roman Empire (476). THE MIDDLE AGES (5th century, the end of the Western Roman Empire, to 1500 — with the landmarks 1453 THE FALL OF CONSTANTINOPLE, 1492 THE COMPLETION OF THE RECONQUISTA AND THE DISCOVERY OF AMERICA). THE MODERN PERIOD (from 1500 to the present) is divided into the EARLY MODERN PERIOD (from the end of the Middle Ages to the 19th century) and the MODERN AGE (from the 19th century, with the landmarks of the FRENCH REVOLUTION 1789 and the INDUSTRIAL REVOLUTION). And after the world wars (1918/1945) one speaks of CONTEMPORARY HISTORY (ZEITGESCHICHTE). The critique of this periodization is on the question sheet; here remember above all the dates, because the examiner asks about the turning points.",
       "terms": [],
       "cards": [
         {
-          "q": "Jak se dělí starověk a jakými daty je vymezen?",
-          "a": "Od 8. století př. n. l. (HOMÉR) do 5. století n. l. (konec západořímské říše). ARCHAICKÉ OBDOBÍ (650–480 př. n. l.) — vzniká PÍSMO v úrodném půlměsíci, končí ŘECKO-PERSKÝMI VÁLKAMI (479 př. n. l.). KLASICKÉ OBDOBÍ — vzestup Řecka a Říma, Alexandr, helenismus, punské války. POZDNÍ OBDOBÍ do roku 476.",
+          "q": "How is antiquity divided and by which dates is it delimited?",
+          "a": "From the 8th century BC (HOMER) to the 5th century AD (the end of the Western Roman Empire). The ARCHAIC PERIOD (650–480 BC) — WRITING arises in the Fertile Crescent, ending with the GRAECO-PERSIAN WARS (479 BC). The CLASSICAL PERIOD — the rise of Greece and Rome, Alexander, Hellenism, the Punic Wars. The LATE PERIOD to 476.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Jakými daty se vymezuje středověk a novověk?",
-          "a": "STŘEDOVĚK od 5. století (konec západořímské říše) do roku 1500 — s mezníky 1453 PÁD KONSTANTINOPOLE a 1492 REKONQUISTA A OBJEVENÍ AMERIKY. NOVOVĚK od 1500: RANÝ NOVOVĚK do 19. století, MODERNÍ OBDOBÍ od 19. století (FRANCOUZSKÁ REVOLUCE 1789, PRŮMYSLOVÁ REVOLUCE). Po světových válkách (1918/1945) SOUDOBÉ DĚJINY.",
+          "q": "By which dates are the Middle Ages and the modern period delimited?",
+          "a": "THE MIDDLE AGES from the 5th century (the end of the Western Roman Empire) to 1500 — with the landmarks 1453 THE FALL OF CONSTANTINOPLE and 1492 THE RECONQUISTA AND THE DISCOVERY OF AMERICA. THE MODERN PERIOD from 1500: the EARLY MODERN PERIOD to the 19th century, the MODERN AGE from the 19th century (the FRENCH REVOLUTION 1789, the INDUSTRIAL REVOLUTION). After the world wars (1918/1945), CONTEMPORARY HISTORY.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -608,21 +608,21 @@
     {
       "n": 29,
       "img": "img/PU01/PU01_s029.webp",
-      "title": "Rodokmen císařského titulu",
-      "text": "Cvičení ukazuje titul jako STROM, KTERÝ SE ZE ŘÍMA POSTUPNĚ VĚTVÍ — a právě to je odpověď na otázku, co znamená 'císař'. KOŘEN: ŘÍMSKÝ CÍSAŘ, 1.–4. století n. l. ROZDĚLENÍ 395: ZÁPADNÍ CÍSAŘ (do 476) a VÝCHODNÍ CÍSAŘ. Z východní větve pokračuje BYZANTSKÝ CÍSAŘ AŽ DO ROKU 1453. Ze západní, po přerušení, vzniká ŘÍMSKO-NĚMECKÝ CÍSAŘ 800/962–1806 — dvojí datum proto, že roku 800 byl korunován KAREL VELIKÝ a roku 962 OTA I., čímž se titul trvale spojil s východofranckou (německou) říší; končí roku 1806 rozpuštěním Svaté říše římské. DALŠÍ VĚTVE: RUSKÝ CÍSAŘ (CAR) 1478–1917, TURECKÝ SULTÁN do 1922, CÍSAŘ FRANCOUZŮ 1804–1815 a 1852–1870 (Napoleon I. a III.), CÍSAŘ RAKOUSKÝ 1804–1918 a NĚMECKÝ CÍSAŘ 1871–1918. NEEVROPŠTÍ CÍSAŘI se dělí na dvě skupiny, a to rozlišení je pointa: (a) POKLÁDANÍ ZA ROVNÉ EVROPSKÝM — NEGUS v Etiopii (980 př. n. l. – 1974), TENNÓ v Japonsku (660 př. n. l. dodnes), CHUANG-TI v Číně (221 př. n. l. – 1912), ŠÁHINŠÁH v Persii (1501–1979), VELKÝ MOGUL v Indii (1526–1858); (b) VYTVOŘENÍ PODLE EVROPSKÉHO VZORU — císař habešský (titul italského krále 1936–1941), císař mexický (1864–67), císař brazilský (1822–1889) a CÍSAŘ INDICKÝ jako titul britského krále 1876–1947. TEN DRUHÝ SEZNAM UKAZUJE, ŽE TITUL BYL VE 19. STOLETÍ NÁSTROJEM IMPERIÁLNÍ POLITIKY — Viktorie se stala císařovnou indickou, aby britská koruna měla nad indickými knížaty hodnost, kterou uznají.",
+      "title": "The family tree of the imperial title",
+      "text": "The exercise class shows the title as a TREE THAT BRANCHES OUT GRADUALLY FROM ROME — and that is precisely the answer to the question what 'emperor' means. THE ROOT: THE ROMAN EMPEROR, 1st–4th century AD. THE DIVISION OF 395: the WESTERN EMPEROR (to 476) and the EASTERN EMPEROR. From the eastern branch the BYZANTINE EMPEROR continues UNTIL 1453. From the western branch, after an interruption, arises the ROMAN-GERMAN EMPEROR 800/962–1806 — a double date because in 800 CHARLEMAGNE was crowned and in 962 OTTO I, whereby the title became permanently tied to the East Frankish (German) empire; it ends in 1806 with the dissolution of the Holy Roman Empire. FURTHER BRANCHES: the RUSSIAN EMPEROR (TSAR) 1478–1917, the TURKISH SULTAN to 1922, the EMPEROR OF THE FRENCH 1804–1815 and 1852–1870 (Napoleon I and III), the EMPEROR OF AUSTRIA 1804–1918 and the GERMAN EMPEROR 1871–1918. NON-EUROPEAN EMPERORS fall into two groups, and that distinction is the point: (a) THOSE REGARDED AS EQUAL TO THE EUROPEAN ONES — the NEGUS in Ethiopia (980 BC – 1974), the TENNŌ in Japan (660 BC to the present), the HUANGDI in China (221 BC – 1912), the SHAHANSHAH in Persia (1501–1979), the GREAT MOGUL in India (1526–1858); (b) THOSE CREATED ON THE EUROPEAN MODEL — the Emperor of Abyssinia (a title of the Italian king 1936–1941), the Emperor of Mexico (1864–67), the Emperor of Brazil (1822–1889) and the EMPEROR OF INDIA as a title of the British monarch 1876–1947. THAT SECOND LIST SHOWS THAT IN THE 19TH CENTURY THE TITLE WAS AN INSTRUMENT OF IMPERIAL POLITICS — Victoria became Empress of India so that the British crown would hold, over the Indian princes, a rank they would recognize.",
       "terms": [],
       "cards": [
         {
-          "q": "Načrtni rodokmen císařského titulu od Říma.",
-          "a": "ŘÍMSKÝ CÍSAŘ (1.–4. stol.) → ROZDĚLENÍ 395 na ZÁPADNÍHO (do 476) a VÝCHODNÍHO → z východu BYZANTSKÝ CÍSAŘ DO 1453, ze západu ŘÍMSKO-NĚMECKÝ CÍSAŘ 800/962–1806 (800 Karel Veliký, 962 Ota I., konec rozpuštěním říše). Další větve: RUSKÝ CAR 1478–1917, TURECKÝ SULTÁN do 1922, CÍSAŘ FRANCOUZŮ 1804–15 a 1852–70, CÍSAŘ RAKOUSKÝ 1804–1918, NĚMECKÝ CÍSAŘ 1871–1918.",
+          "q": "Sketch the family tree of the imperial title from Rome onwards.",
+          "a": "THE ROMAN EMPEROR (1st–4th c.) → THE DIVISION OF 395 into WESTERN (to 476) and EASTERN → from the east the BYZANTINE EMPEROR TO 1453, from the west the ROMAN-GERMAN EMPEROR 800/962–1806 (800 Charlemagne, 962 Otto I, ending with the dissolution of the empire). Further branches: the RUSSIAN TSAR 1478–1917, the TURKISH SULTAN to 1922, the EMPEROR OF THE FRENCH 1804–15 and 1852–70, the EMPEROR OF AUSTRIA 1804–1918, the GERMAN EMPEROR 1871–1918.",
           "difficulty": 3,
           "kind": "schema",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Jak se dělí neevropští císaři a co z toho plyne?",
-          "a": "1) POKLÁDANÍ ZA ROVNÉ EVROPSKÝM: NEGUS v Etiopii, TENNÓ v Japonsku (660 př. n. l. dodnes), CHUANG-TI v Číně (do 1912), ŠÁHINŠÁH v Persii (1501–1979), VELKÝ MOGUL v Indii (1526–1858). 2) VYTVOŘENÍ PODLE EVROPSKÉHO VZORU: císař mexický (1864–67), brazilský (1822–1889), habešský a CÍSAŘ INDICKÝ jako titul britského krále 1876–1947. Ten druhý seznam ukazuje, že titul byl NÁSTROJEM IMPERIÁLNÍ POLITIKY.",
+          "q": "How are non-European emperors divided, and what follows from that?",
+          "a": "1) THOSE REGARDED AS EQUAL TO THE EUROPEAN ONES: the NEGUS in Ethiopia, the TENNŌ in Japan (660 BC to the present), the HUANGDI in China (to 1912), the SHAHANSHAH in Persia (1501–1979), the GREAT MOGUL in India (1526–1858). 2) THOSE CREATED ON THE EUROPEAN MODEL: the Emperor of Mexico (1864–67), of Brazil (1822–1889), of Abyssinia, and the EMPEROR OF INDIA as a title of the British monarch 1876–1947. The second list shows that the title was an INSTRUMENT OF IMPERIAL POLITICS.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -689,34 +689,34 @@
     {
       "n": 33,
       "img": "img/PU01/PU01_s033.webp",
-      "title": "Rakousko: tři významy a cesta k jednomu státu",
-      "text": "TŘI VÝZNAMY, které cvičení výslovně odlišuje: (1) PŮVODNÍ, ÚZEMNÍ VÝZNAM — 'ZEMĚ' RAKOUSY, tedy marka a pak vévodství, dělené podél řeky ENŽE na Rakousy nad Enží a pod Enží; (2) DYNASTICKÝ VÝZNAM — 'CASA DE AUSTRIA', tedy rod HABSBURSKÝ, kde 'Rakousko' neznamená území, nýbrž rodinu; (3) PŘENESENÝ, ÚZEMNÍ VÝZNAM — HABSBURSKÉ STÁTY čili 'rakouské země', souhrnně 'HERRSCHAFT ZU ÖSTERREICH', tedy vše, čemu Habsburkové vládnou. CESTA K JEDNOMU STÁTU: 1526/27 ZÍSKÁNÍ KORUNY ČESKÉ (svatováclavské) a KORUNY UHERSKÉ (svatoštěpánské) — od té chvíle drží Habsburkové tři koruny, ale KAŽDOU ZVLÁŠŤ, a v každé zemi platí jiné právo. 1740–1790 REFORMAMI MARIE TEREZIE A JOSEFA II. SE HABSBURSKÁ KRÁLOVSTVÍ A ZEMĚ SLÉVAJÍ V JEDEN CELKOVÝ STÁT — to je právně nejdůležitější krok, protože teprve tehdy vzniká jednotná správa, soudnictví a zákonodárství. 1804 RAKOUSKÉ CÍSAŘSTVÍ (František II. přijímá titul císaře rakouského v reakci na Napoleona a dva roky nato Svatá říše zaniká). 1867 RAKOUSKO-UHERSKÁ MONARCHIE. 1918 ROZPAD MONARCHIE. Pak: 1918 'NĚMECKÉ RAKOUSKO', 1919 'RAKOUSKO'; 1918–1933 DEMOKRATICKÁ REPUBLIKA, tedy PRVNÍ REPUBLIKA; 1934–1938 AUTORITÁŘSKÝ STÁT; 1938–1945 SOUČÁST NACISTICKÉHO NĚMECKA ('OSTMARK', pak 'alpské a podunajské župy'); OD ROKU 1945 RAKOUSKÁ REPUBLIKA, tedy DRUHÁ REPUBLIKA.",
+      "title": "Austria: three meanings and the road to a single state",
+      "text": "THREE MEANINGS the exercise class expressly distinguishes: (1) THE ORIGINAL, TERRITORIAL MEANING — the 'LAND' of Austria, that is, the march and then the duchy, divided along the river ENNS into Austria above and Austria below the Enns; (2) THE DYNASTIC MEANING — the 'CASA DE AUSTRIA', that is, the HOUSE OF HABSBURG, where 'Austria' means not a territory but a family; (3) THE EXTENDED, TERRITORIAL MEANING — the HABSBURG STATES or 'Austrian lands', collectively the 'HERRSCHAFT ZU ÖSTERREICH', that is, everything the Habsburgs rule. THE ROAD TO A SINGLE STATE: 1526/27 THE ACQUISITION OF THE BOHEMIAN CROWN (the crown of St Wenceslas) and the HUNGARIAN CROWN (the crown of St Stephen) — from then on the Habsburgs hold three crowns, but EACH SEPARATELY, and in each land a different law applies. 1740–1790 THE REFORMS OF MARIA THERESA AND JOSEPH II MERGE THE HABSBURG KINGDOMS AND LANDS INTO A SINGLE OVERALL STATE — legally the most important step, because only then does a unified administration, judiciary and legislation come into being. 1804 THE AUSTRIAN EMPIRE (Francis II assumes the title Emperor of Austria in response to Napoleon, and two years later the Holy Roman Empire is dissolved). 1867 THE AUSTRO-HUNGARIAN MONARCHY. 1918 THE COLLAPSE OF THE MONARCHY. Then: 1918 'GERMAN-AUSTRIA', 1919 'AUSTRIA'; 1918–1933 a DEMOCRATIC REPUBLIC, the FIRST REPUBLIC; 1934–1938 the AUTHORITARIAN STATE; 1938–1945 PART OF NAZI GERMANY ('OSTMARK', then the 'Alpine and Danube Gaue'); FROM 1945 THE REPUBLIC OF AUSTRIA, the SECOND REPUBLIC.",
       "terms": [
         {
           "term": "Casa de Austria",
-          "def": "Dynastický význam „Rakouska“ — rod habsburský, ne území."
+          "def": "The dynastic meaning of 'Austria' — the House of Habsburg, not a territory."
         }
       ],
       "cards": [
         {
-          "q": "Jaké tři významy má „Rakousko“?",
-          "a": "1) PŮVODNÍ, ÚZEMNÍ — 'ZEMĚ' RAKOUSY (marka, pak vévodství), dělená podél ENŽE. 2) DYNASTICKÝ — 'CASA DE AUSTRIA', tedy ROD HABSBURSKÝ, ne území. 3) PŘENESENÝ, ÚZEMNÍ — HABSBURSKÉ STÁTY čili 'rakouské země', souhrnně 'HERRSCHAFT ZU ÖSTERREICH'.",
+          "q": "What three meanings does 'Austria' have?",
+          "a": "1) THE ORIGINAL, TERRITORIAL one — the 'LAND' of Austria (the march, then the duchy), divided along the ENNS. 2) THE DYNASTIC one — the 'CASA DE AUSTRIA', the HOUSE OF HABSBURG, not a territory. 3) THE EXTENDED, TERRITORIAL one — the HABSBURG STATES or 'Austrian lands', collectively the 'HERRSCHAFT ZU ÖSTERREICH'.",
           "difficulty": 2,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Kdy se z habsburských zemí stal jeden stát a proč je to právně zásadní?",
-          "a": "REFORMAMI MARIE TEREZIE A JOSEFA II. V LETECH 1740–1790 se království a země slévají v JEDEN CELKOVÝ STÁT. Právně je to zásadní proto, že TEPRVE TEHDY VZNIKÁ JEDNOTNÁ SPRÁVA, SOUDNICTVÍ A ZÁKONODÁRSTVÍ — do té doby držel panovník každou korunu zvlášť a v každé zemi platilo jiné právo (1526/27 získání koruny české a uherské).",
+          "q": "When did the Habsburg lands become a single state, and why does that matter legally?",
+          "a": "THROUGH THE REFORMS OF MARIA THERESA AND JOSEPH II IN 1740–1790 the kingdoms and lands merge into a SINGLE OVERALL STATE. It matters legally because ONLY THEN DOES A UNIFIED ADMINISTRATION, JUDICIARY AND LEGISLATION COME INTO BEING — until then the ruler held each crown separately and each land had its own law (1526/27 the acquisition of the Bohemian and Hungarian crowns).",
           "difficulty": 3,
           "kind": "cisla",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Jmenuj rakouské státní útvary od roku 1804 dodnes.",
-          "a": "1804 RAKOUSKÉ CÍSAŘSTVÍ; 1867 RAKOUSKO-UHERSKÁ MONARCHIE; 1918 ROZPAD a 'Německé Rakousko', 1919 'Rakousko'; 1918–1933 PRVNÍ REPUBLIKA; 1934–1938 AUTORITÁŘSKÝ STÁT; 1938–1945 SOUČÁST NACISTICKÉHO NĚMECKA ('Ostmark'); OD 1945 DRUHÁ REPUBLIKA.",
+          "q": "Name the Austrian state formations from 1804 to the present.",
+          "a": "1804 THE AUSTRIAN EMPIRE; 1867 THE AUSTRO-HUNGARIAN MONARCHY; 1918 THE COLLAPSE and 'German-Austria', 1919 'Austria'; 1918–1933 THE FIRST REPUBLIC; 1934–1938 THE AUTHORITARIAN STATE; 1938–1945 PART OF NAZI GERMANY ('Ostmark'); FROM 1945 THE SECOND REPUBLIC.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -831,13 +831,13 @@
     {
       "n": 40,
       "img": "img/PU01/PU01_s040.webp",
-      "title": "Hotová exegeze I: identifikace pramene (květnové zákony 1868)",
-      "text": "Cvičení předvádí celý postup na skutečném prameni, a proto se vyplatí projít ho krok za krokem jako vzor. PRAMEN: 'Čl. II. Odepře-li některý z duchovních správců povolaných podle předpisů všeobecného občanského zákoníku k ohláškám sňatku provedení ohlášek, anebo některý z duchovních správců povolaných k přijetí slavnostního prohlášení souhlasu, jehož o to snoubenci požádali, provedení ohlášek nebo přijetí slavnostního prohlášení souhlasu k sňatku Z DŮVODU PŘEKÁŽKY STÁTNÍM ZÁKONODÁRSTVÍM NEUZNANÉ, mohou snoubenci dát ohlášky svého sňatku provést SVĚTSKÝM ÚŘADEM a slavnostní prohlášení souhlasu učinit PŘED TÍMTO ÚŘADEM.' (Reichs-Gesetz-Blatt für das Kaiserthum Oesterreich 1868, č. 47.) KROK 1 — CO JE UVEDENO JAKO ZDROJ A JAK ZNÍ NADPIS: ZÁKON Z KVĚTNA 1868, publikovaný v ŘÍŠSKÉM ZÁKONÍKU PRO RAKOUSKÉ CÍSAŘSTVÍ. Už samo to dvojí zjištění (datum a sbírka) leccos vymezí: je to říšský, tedy celopředlitavský předpis, a je z doby krátce po prosincové ústavě. KROK 2 — CO O PRAMENI VÍM OBECNĚ: je to jeden z takzvaných KVĚTNOVÝCH ZÁKONŮ ROKU 1868, vydaných V NÁVAZNOSTI NA ZÁKLADNÍ ZÁKON O VŠEOBECNÝCH PRÁVECH STÁTNÍCH OBČANŮ Z ROKU 1867, aby se nově upravil VZTAH STÁTU A CÍRKVE. Fakticky KVĚTNOVÉ ZÁKONY PRODĚRAVĚLY KONKORDÁT Z ROKU 1855, který byl potom ROKU 1870 I FORMÁLNĚ ZRUŠEN (Rakousko ho vypovědělo poté, co první vatikánský koncil vyhlásil dogma o papežské neomylnosti). Zákon vrátil manželské právo pro katolíky do ABGB a přenesl soudnictví v manželských věcech katolíků na SVĚTSKÉ ÚŘADY, tedy soudy.",
+      "title": "A worked exegesis I: identifying the source (the May Laws of 1868)",
+      "text": "The exercise class performs the whole procedure on a real source, so it is worth going through it step by step as a model. THE SOURCE: 'Art. II. If one of the clergymen called upon under the provisions of the General Civil Code to publish the banns refuses to publish them, or if one of the clergymen called upon to receive the solemn declaration of consent, having been requested to do so by the betrothed, refuses to publish the banns or to receive the solemn declaration of consent to the marriage ON THE GROUND OF AN IMPEDIMENT NOT RECOGNIZED BY STATE LEGISLATION, the betrothed may have the banns of their marriage published by the SECULAR AUTHORITY and make the solemn declaration of consent BEFORE THAT AUTHORITY.' (Reichs-Gesetz-Blatt für das Kaiserthum Oesterreich 1868, no. 47.) STEP 1 — WHAT IS GIVEN AS THE SOURCE AND HOW THE HEADING READS: a STATUTE OF MAY 1868, published in the IMPERIAL LAW GAZETTE FOR THE AUSTRIAN EMPIRE. That double finding alone (the date and the collection) already delimits a great deal: it is an imperial, that is, an all-Cisleithanian enactment, and it dates from shortly after the December Constitution. STEP 2 — WHAT I KNOW ABOUT THE SOURCE IN GENERAL: it is one of the so-called MAY LAWS OF 1868, issued IN THE WAKE OF THE BASIC LAW ON THE GENERAL RIGHTS OF CITIZENS OF 1867, in order to regulate anew the RELATION OF STATE AND CHURCH. In practice THE MAY LAWS PUNCHED HOLES IN THE CONCORDAT OF 1855, which was then FORMALLY ABROGATED IN 1870 (Austria denounced it after the First Vatican Council proclaimed the dogma of papal infallibility). The statute returned marriage law for Catholics to the ABGB and transferred jurisdiction in Catholic matrimonial matters to the SECULAR AUTHORITIES, that is, the courts.",
       "terms": [],
       "cards": [
         {
-          "q": "Co jsou květnové zákony roku 1868 a co udělaly s konkordátem?",
-          "a": "Zákony vydané V NÁVAZNOSTI NA ZÁKLADNÍ ZÁKON O VŠEOBECNÝCH PRÁVECH STÁTNÍCH OBČANŮ Z ROKU 1867, aby nově upravily VZTAH STÁTU A CÍRKVE. Fakticky PRODĚRAVĚLY KONKORDÁT Z ROKU 1855, který byl ROKU 1870 I FORMÁLNĚ ZRUŠEN. Manželské právo pro katolíky vrátily do ABGB a soudnictví v manželských věcech přenesly na SVĚTSKÉ SOUDY.",
+          "q": "What are the May Laws of 1868 and what did they do to the Concordat?",
+          "a": "Statutes issued IN THE WAKE OF THE BASIC LAW ON THE GENERAL RIGHTS OF CITIZENS OF 1867 in order to regulate anew the RELATION OF STATE AND CHURCH. In practice they PUNCHED HOLES IN THE CONCORDAT OF 1855, which was FORMALLY ABROGATED IN 1870. They returned marriage law for Catholics to the ABGB and transferred jurisdiction in matrimonial matters to the SECULAR COURTS.",
           "difficulty": 3,
           "kind": "pripad",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -872,34 +872,34 @@
     {
       "n": 42,
       "img": "img/PU01/PU01_s042.webp",
-      "title": "Hotová exegeze II: téma, pojmy, výklad",
-      "text": "KROK 3 — JAKÁ TÉMATA PASÁŽ OTVÍRÁ A KLÍČOVÉ SLOVO: klíčovým slovem je 'RELATIVE NOTZIVILEHE', tedy CIVILNÍ SŇATEK Z NOUZE ČI V MIMOŘÁDNÝCH PŘÍPADECH. Znamená to, že za jistých podmínek — například nemají-li snoubenci totéž náboženské vyznání — zákon počítal s CIVILNÍM SŇATKEM uzavřeným před SVĚTSKÝM VEŘEJNÝM ÚŘADEM. BYL TO PRVNÍ KROK K CIVILNÍMU SŇATKU V RAKOUSKU. Slovo 'relativní' je tu podstatné: civilní sňatek NEBYL OBECNĚ MOŽNÝ, nýbrž jen jako NÁHRADNÍ ŘEŠENÍ pro případ, že duchovní odepře úkon z důvodu, který stát neuznává. KROK 4 — PRÁVNÍ POJMY: 'AUFGEBOT', tedy OHLÁŠKY — VEŘEJNÉ OHLÁŠENÍ ZAMÝŠLENÉHO SŇATKU, jehož účelem je UMOŽNIT KOMUKOLI VZNÉST PŘEKÁŽKU, a tím zabránit sňatkům neplatným. Dále 'slavnostní prohlášení souhlasu' (samotný akt uzavření manželství) a 'překážka státním zákonodárstvím neuznaná' (tedy církevní překážka, kterou stát nepovažuje za právně relevantní — typicky rozdílné vyznání). KROK 5 — PRÁVNÍ ROZBOR A HISTORICKÝ KONTEXT: manželské právo ABGB bylo FORMÁLNĚ STÁTNÍM PRÁVEM, ale OBSAHOVĚ STÁLO NA ZÁSADĚ KONFESIJNÍHO SŇATKU — ohlášky i sňatek se musely konat PŘED KNĚZEM, který ovšem JEDNAL JAKO STÁTNÍ ORGÁN. To je ta zvláštní konstrukce, kterou je třeba umět vyslovit: stát si podržel právo, ale výkon svěřil církvi. ZÁSADA KONFESIJNÍHO SŇATKU PLATILA V RAKOUSKU DÉLE NEŽ VE VĚTŠINĚ EVROPSKÝCH ZEMÍ, A TO AŽ DO ROKU 1938. TEPRVE ROKU 1939, PO PŘIPOJENÍ RAKOUSKA K NĚMECKU, ZDE BYL ZAVEDEN ZÁKON O MANŽELSTVÍ SE ZÁSADOU POVINNÉHO CIVILNÍHO SŇATKU. To je pointa, kterou si zapamatuj i pro její nepříjemnost: OBLIGATORNÍ CIVILNÍ SŇATEK PŘIŠEL DO RAKOUSKA S NACISTICKÝM ZÁBOREM, a přesto po roce 1945 zůstal.",
+      "title": "A worked exegesis II: topic, concepts, interpretation",
+      "text": "STEP 3 — WHAT TOPICS THE PASSAGE OPENS UP AND THE KEY WORD: the key word is 'RELATIVE NOTZIVILEHE', that is, the CIVIL MARRIAGE OF NECESSITY or in exceptional cases. It means that under certain conditions — for instance where the betrothed do not share the same religious denomination — the statute provided for a CIVIL MARRIAGE concluded before a SECULAR PUBLIC AUTHORITY. IT WAS THE FIRST STEP TOWARDS CIVIL MARRIAGE IN AUSTRIA. The word 'relative' matters here: civil marriage WAS NOT GENERALLY AVAILABLE, but only as a FALLBACK where the clergyman refused the act on a ground the state does not recognize. STEP 4 — THE LEGAL CONCEPTS: 'AUFGEBOT', the BANNS — the PUBLIC ANNOUNCEMENT OF AN INTENDED MARRIAGE, whose purpose is TO ALLOW ANYONE TO RAISE AN IMPEDIMENT and thereby prevent void marriages. Further, the 'solemn declaration of consent' (the act of concluding the marriage itself) and the 'impediment not recognized by state legislation' (a canonical impediment the state does not treat as legally relevant — typically difference of denomination). STEP 5 — LEGAL ANALYSIS AND HISTORICAL CONTEXT: the marriage law of the ABGB was FORMALLY STATE LAW, but IN SUBSTANCE IT RESTED ON THE PRINCIPLE OF DENOMINATIONAL MARRIAGE — both the banns and the marriage had to take place BEFORE A PRIEST, who was, however, ACTING AS AN ORGAN OF THE STATE. That is the peculiar construction one must be able to state: the state kept the law for itself but entrusted its execution to the church. THE PRINCIPLE OF DENOMINATIONAL MARRIAGE LASTED LONGER IN AUSTRIA THAN IN MOST EUROPEAN COUNTRIES, RIGHT UP TO 1938. ONLY IN 1939, AFTER THE ANNEXATION OF AUSTRIA TO GERMANY, WAS THE MARRIAGE ACT WITH THE PRINCIPLE OF COMPULSORY CIVIL MARRIAGE INTRODUCED HERE. That is the point to remember, uncomfortable as it is: COMPULSORY CIVIL MARRIAGE CAME TO AUSTRIA WITH THE NAZI ANNEXATION, and it nevertheless remained after 1945.",
       "terms": [
         {
           "term": "relative Notzivilehe",
-          "def": "Civilní sňatek z nouze — možný, jen když duchovní odepře úkon z důvodu, který stát neuznává."
+          "def": "Civil marriage of necessity — available only where a clergyman refuses the act on a ground the state does not recognize."
         }
       ],
       "cards": [
         {
-          "q": "Co je „relative Notzivilehe“ a proč je „relativní“?",
-          "a": "CIVILNÍ SŇATEK Z NOUZE: za jistých podmínek — například nemají-li snoubenci totéž vyznání — počítal zákon se sňatkem před SVĚTSKÝM ÚŘADEM. 'Relativní' je proto, že civilní sňatek NEBYL OBECNĚ MOŽNÝ, nýbrž jen jako NÁHRADNÍ ŘEŠENÍ, odepřel-li duchovní úkon z důvodu, který stát neuznává. Byl to PRVNÍ KROK K CIVILNÍMU SŇATKU V RAKOUSKU.",
+          "q": "What is 'relative Notzivilehe' and why is it 'relative'?",
+          "a": "The CIVIL MARRIAGE OF NECESSITY: under certain conditions — for instance where the betrothed are of different denominations — the statute provided for a marriage before a SECULAR AUTHORITY. It is 'relative' because civil marriage WAS NOT GENERALLY AVAILABLE but only a FALLBACK where the clergyman refused the act on a ground the state does not recognize. It was the FIRST STEP TOWARDS CIVIL MARRIAGE IN AUSTRIA.",
           "difficulty": 3,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Co jsou „Aufgebot“, tedy ohlášky, a k čemu slouží?",
-          "a": "VEŘEJNÉ OHLÁŠENÍ ZAMÝŠLENÉHO SŇATKU, jehož účelem je UMOŽNIT KOMUKOLI VZNÉST PŘEKÁŽKU, a tím ZABRÁNIT SŇATKŮM NEPLATNÝM.",
+          "q": "What is the 'Aufgebot', the banns, and what is its purpose?",
+          "a": "The PUBLIC ANNOUNCEMENT OF AN INTENDED MARRIAGE, whose purpose is TO ALLOW ANYONE TO RAISE AN IMPEDIMENT and thereby PREVENT VOID MARRIAGES.",
           "difficulty": 1,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Na jaké zásadě stálo manželské právo ABGB a jak dlouho to vydrželo?",
-          "a": "Bylo FORMÁLNĚ STÁTNÍM PRÁVEM, ale OBSAHOVĚ STÁLO NA ZÁSADĚ KONFESIJNÍHO SŇATKU — ohlášky i sňatek se konaly PŘED KNĚZEM, který ovšem JEDNAL JAKO STÁTNÍ ORGÁN. Zásada platila v Rakousku DÉLE NEŽ VE VĚTŠINĚ EVROPY, AŽ DO ROKU 1938; teprve ROKU 1939, PO PŘIPOJENÍ K NĚMECKU, byl zaveden zákon o manželství s POVINNÝM CIVILNÍM SŇATKEM — a ten po roce 1945 zůstal.",
+          "q": "On what principle did the marriage law of the ABGB rest, and how long did it last?",
+          "a": "It was FORMALLY STATE LAW but IN SUBSTANCE RESTED ON THE PRINCIPLE OF DENOMINATIONAL MARRIAGE — banns and marriage took place BEFORE A PRIEST, who was however ACTING AS AN ORGAN OF THE STATE. The principle lasted in Austria LONGER THAN IN MOST OF EUROPE, UP TO 1938; only in 1939, AFTER THE ANNEXATION TO GERMANY, was the Marriage Act with COMPULSORY CIVIL MARRIAGE introduced — and it remained after 1945.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
