@@ -2,14 +2,32 @@
   "lecture_id": "PD02",
   "title": "Ancient Legal Cultures; History of Islamic Law",
   "slides": {
-    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "2": { "title": "Ancient Legal Cultures & History of Islamic Law", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "1": {
+      "title": "Title slide",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "2": {
+      "title": "Ancient Legal Cultures & History of Islamic Law",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "3": {
       "title": "The Fertile Crescent",
       "text": "The Fertile Crescent is the band of countries nestling in a crescent shape around the Syrian desert — today's Egypt, Israel, Lebanon, Syria, Jordan, Iraq and parts of Turkey and Iran. What makes it fertile is the rivers: the Nile in Egypt, the Euphrates and the Tigris in Mesopotamia, the 'land between two rivers'. It is the cradle of the early advanced civilisations, and the reason it matters for legal history is writing: hieroglyphics in Egypt and cuneiform in Mesopotamia, both before 3000 BC. Law becomes visible to us only where it is written down, so the history of written law begins here.",
       "terms": [
-        { "term": "Fertile Crescent", "def": "The crescent of land around the Syrian desert — Egypt, Israel, Lebanon, Syria, Jordan, Iraq, parts of Turkey and Iran — made fertile by the Nile, Euphrates and Tigris. Cradle of the first advanced civilisations and of writing." },
-        { "term": "Mesopotamia", "def": "'The land between two rivers' — between the Euphrates and the Tigris, in today's Iraq." }
+        {
+          "term": "Fertile Crescent",
+          "def": "The crescent of land around the Syrian desert — Egypt, Israel, Lebanon, Syria, Jordan, Iraq, parts of Turkey and Iran — made fertile by the Nile, Euphrates and Tigris. Cradle of the first advanced civilisations and of writing."
+        },
+        {
+          "term": "Mesopotamia",
+          "def": "'The land between two rivers' — between the Euphrates and the Tigris, in today's Iraq."
+        }
       ],
       "cards": [
         {
@@ -63,9 +81,18 @@
       "title": "Mesopotamian law and the Code of Hammurabi",
       "text": "Several legal records survive. The oldest is the Code of Ur-Nammu (23rd/21st centuries BC); the most famous by far is the Code of Hammurabi, 18th century BC, whose stele stands in the Louvre. Its best-known provision is § 196: 'If a man put out the eye of another man, his eye shall be put out' — the talion principle, which reappears as a guiding principle in Judaism and Christianity. What these texts ARE is genuinely debatable, and the exam likes the debate: statutory law? records of customary law? were the rules actually in force at the time, or is this royal self-presentation? No answer is settled — say that the essence is disputed and name the possibilities.",
       "terms": [
-        { "term": "Code of Hammurabi", "def": "Babylonian legal text of the 18th century BC, the longest and best-preserved from the ancient Near East. The stele is in the Louvre; § 196 states the talion principle." },
-        { "term": "talion (ius talionis)", "def": "'An eye for an eye' — punishment mirroring the injury. Stated in the Code of Hammurabi and taken up in the Hebrew Bible, hence in two world religions." },
-        { "term": "Code of Ur-Nammu", "def": "The oldest surviving Mesopotamian legal record, 23rd/21st centuries BC — older than Hammurabi." }
+        {
+          "term": "Code of Hammurabi",
+          "def": "Babylonian legal text of the 18th century BC, the longest and best-preserved from the ancient Near East. The stele is in the Louvre; § 196 states the talion principle."
+        },
+        {
+          "term": "talion (ius talionis)",
+          "def": "'An eye for an eye' — punishment mirroring the injury. Stated in the Code of Hammurabi and taken up in the Hebrew Bible, hence in two world religions."
+        },
+        {
+          "term": "Code of Ur-Nammu",
+          "def": "The oldest surviving Mesopotamian legal record, 23rd/21st centuries BC — older than Hammurabi."
+        }
       ],
       "cards": [
         {
@@ -111,8 +138,14 @@
       "title": "Biblical law",
       "text": "The Hebrew Bible corresponds roughly to the Christians' Old Testament. Its Torah — 'the law', 10th/6th century BC — contains many legal provisions, and they fall into two classes that Jewish law keeps apart: precepts governing relations between people (mitzvot bein adam lehaveiro) and precepts governing the relationship between the individual and the Almighty (mitzvot bein adam lamakom). There are many parallels to other ancient laws and mutual influence is often probable — but not always; parallel content does not prove borrowing. Beside the written law stands an oral tradition, the 'oral Torah', gathered as the Mishnah, which is itself recorded in the Jerusalem Talmud (about 400 AD) and the Babylonian Talmud (about 500 AD). Jewish legal history has its own topic later in the course (Topic 5).",
       "terms": [
-        { "term": "Torah", "def": "'The law' — the legal core of the Hebrew Bible, 10th/6th century BC, containing precepts both between people and between the individual and God." },
-        { "term": "Mishnah", "def": "The written record of the 'oral Torah', later itself elaborated in the Jerusalem Talmud (c. 400 AD) and the Babylonian Talmud (c. 500 AD)." }
+        {
+          "term": "Torah",
+          "def": "'The law' — the legal core of the Hebrew Bible, 10th/6th century BC, containing precepts both between people and between the individual and God."
+        },
+        {
+          "term": "Mishnah",
+          "def": "The written record of the 'oral Torah', later itself elaborated in the Jerusalem Talmud (c. 400 AD) and the Babylonian Talmud (c. 500 AD)."
+        }
       ],
       "cards": [
         {
@@ -143,7 +176,10 @@
       "title": "Persians and Greeks",
       "text": "From the 6th century BC the Persians built the largest empire the world had yet seen — about 40 per cent of the world's population — conquering Mesopotamia in 539 BC and Egypt in 341 BC. Their attempts to conquer Greece failed in 490 and again in 479 BC. And Greece is the structural contrast: it was not a political entity at all but a multitude of city-states, the poleis — Athens, Sparta and many more. That fragmentation is exactly why there is no single 'Greek law'.",
       "terms": [
-        { "term": "polis", "def": "The Greek city-state. Greece was a multitude of them, each with its own law — which is why there is no single ancient Greek legal order." }
+        {
+          "term": "polis",
+          "def": "The Greek city-state. Greece was a multitude of them, each with its own law — which is why there is no single ancient Greek legal order."
+        }
       ],
       "cards": [
         {
@@ -160,7 +196,10 @@
       "title": "Aristotle's forms of government",
       "text": "A two-by-three table that has organised European constitutional thought ever since. The columns ask in whose interest rule is exercised: the common interest, or only the ruler's own. The rows ask how many rule. One person: monarchia in the common interest, tyrannis for himself. A few: aristokratia against oligarchia. Many: politeia against demokratia. Note the sting — for Aristotle demokratia is the DEGENERATE form of rule by many, the good form being politeia. The modern positive sense of 'democracy' is a later reversal, and the course returns to it when it reaches the Austrian constitution.",
       "terms": [
-        { "term": "politeia", "def": "In Aristotle's scheme the GOOD form of rule by many — in the common interest. Its degenerate counterpart is demokratia." }
+        {
+          "term": "politeia",
+          "def": "In Aristotle's scheme the GOOD form of rule by many — in the common interest. Its degenerate counterpart is demokratia."
+        }
       ],
       "cards": [
         {
@@ -221,7 +260,10 @@
       "title": "Alexander and Hellenism",
       "text": "Alexander of Macedonia conquers the Persian Empire; after his death it breaks into several kingdoms, of which the most important are the Ptolemaic Empire in Egypt and the Seleucid Empire in Syria. Hellenism is the fusion that follows: Greek and Persian culture merging with the culture of the Fertile Crescent. But — and this is the legal-historical point — no uniform legal order came out of it. Cultural fusion did not produce legal unification; that had to wait for Rome.",
       "terms": [
-        { "term": "Hellenism", "def": "The fusion of Greek and Persian culture with that of the Fertile Crescent after Alexander's conquests. Cultural, not legal: it produced no uniform legal order." }
+        {
+          "term": "Hellenism",
+          "def": "The fusion of Greek and Persian culture with that of the Fertile Crescent after Alexander's conquests. Cultural, not legal: it produced no uniform legal order."
+        }
       ],
       "cards": [
         {
@@ -234,12 +276,21 @@
       ],
       "vision_used": true
     },
-    "15": { "title": "The Mediterranean world in the 3rd century BC", "text": "The map shows the powers before Rome absorbs them: Rome with the League of Corinth, Carthage, Macedon, the Seleucid Empire, the Ptolemaic Empire, Armenia.", "terms": [], "cards": [], "vision_used": true },
+    "15": {
+      "title": "The Mediterranean world in the 3rd century BC",
+      "text": "The map shows the powers before Rome absorbs them: Rome with the League of Corinth, Carthage, Macedon, the Seleucid Empire, the Ptolemaic Empire, Armenia.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
     "16": {
       "title": "Why Roman law matters for European legal culture",
       "text": "Five steps, and they are the spine of the whole course. Roman law was the law of the entire Mediterranean world in antiquity. It was 'rediscovered' in the Middle Ages. It was 'received' in the modern age. It remained IN FORCE in Austria until 31 December 1811 — that is, until the ABGB entered into force on 1 January 1812. And Roman legal thought and Roman legal concepts continue to shape European legal culture to this day. Note the disclaimer: the CONTENT of Roman law is a separate subject; this lecture deals only with its effects on European legal culture.",
       "terms": [
-        { "term": "reception (of Roman law)", "def": "The taking-over of Roman law into the legal orders of the modern age, following its medieval 'rediscovery'. Treated in detail in the topic on the ius commune." }
+        {
+          "term": "reception (of Roman law)",
+          "def": "The taking-over of Roman law into the legal orders of the modern age, following its medieval 'rediscovery'. Treated in detail in the topic on the ius commune."
+        }
       ],
       "cards": [
         {
@@ -263,8 +314,14 @@
       "title": "The Roman Republic and the praetor",
       "text": "510 BC (the date is uncertain) is taken as the beginning of the Roman Republic. Political power lies with the Senate, and two consuls head the executive. In 367 BC the praetor is created to relieve the consuls: he heads the judiciary — and note who these men were, because the exam does: POLITICIANS, not jurists. In 27 BC Octavian, as Augustus, becomes the first imperator and turns the Republic into an empire while KEEPING the offices and structures of the Republic. He rejects the title of king and calls himself princeps senatus, the first of the senate — hence the name of the period, the principate, 27 BC to 284 AD. The office of praetor survives into the 6th century AD.",
       "terms": [
-        { "term": "praetor", "def": "Roman magistrate created in 367 BC to relieve the consuls; head of the judiciary. A politician, not a jurist — he relied on the responsa of jurists." },
-        { "term": "principate", "def": "27 BC–284 AD: rule by the emperor as princeps senatus, 'first of the senate', with the republican offices and structures formally retained." }
+        {
+          "term": "praetor",
+          "def": "Roman magistrate created in 367 BC to relieve the consuls; head of the judiciary. A politician, not a jurist — he relied on the responsa of jurists."
+        },
+        {
+          "term": "principate",
+          "def": "27 BC–284 AD: rule by the emperor as princeps senatus, 'first of the senate', with the republican offices and structures formally retained."
+        }
       ],
       "cards": [
         {
@@ -288,7 +345,10 @@
       "title": "The Roman jurists",
       "text": "The decisive structural fact about Roman law: it was primarily JURISPRUDENTIAL law — case law made by jurists, only supplemented at first by acts of legislation. The 'responsa jurists' gave expert opinions in civil proceedings, both to the parties (consilia) and to the praetor (responsa). The first jurists were priests; later they were other wealthy Romans who did not work for money but dealt with legal problems out of interest and inclination. The slide's aside is worth keeping: Cicero was a LAWYER, not a jurist — an advocate who argued cases, not one of the learned men whose opinions made law.",
       "terms": [
-        { "term": "responsa", "def": "Expert opinions given by Roman jurists to the praetor; opinions given to the parties were consilia. The mechanism by which jurists' learning became law." }
+        {
+          "term": "responsa",
+          "def": "Expert opinions given by Roman jurists to the praetor; opinions given to the parties were consilia. The mechanism by which jurists' learning became law."
+        }
       ],
       "cards": [
         {
@@ -312,7 +372,10 @@
       "title": "Classical Roman jurisprudence and the law of citation",
       "text": "The classical age of Roman jurisprudence is divided into the early classical age (1st century AD), the peak (2nd century) and the late classical age (3rd century). Law schools emerge — the Sabinians against the Proculians. And then the problem of abundance: there were too many jurists with too many conflicting opinions, so in 426 the emperor ordered that only the doctrines of SIX jurists were legally binding. That is the 'law of citation', and it is the moment authority is rationed by statute because jurisprudence had become unmanageable.",
       "terms": [
-        { "term": "law of citation (426)", "def": "Imperial order that only the doctrines of six named jurists were legally binding — a response to the unmanageable mass of conflicting juristic opinion." }
+        {
+          "term": "law of citation (426)",
+          "def": "Imperial order that only the doctrines of six named jurists were legally binding — a response to the unmanageable mass of conflicting juristic opinion."
+        }
       ],
       "cards": [
         {
@@ -336,7 +399,10 @@
       "title": "Roman statutory law",
       "text": "The Twelve Tables of 451 BC count as the beginning of Roman law. The principle that governs everything after them: legislative acts should only SUPPLEMENT jurisprudential law, not replace it. Examples: the Lex Aquilia (286 BC), the Lex Iulia (18 BC), and much later the Codex Theodosianus of 438 AD. The Twelve Tables are carved on the building of the German Federal Administrative Court in Leipzig as a counterpart to the Ten Commandments opposite — law from reason facing law from revelation.",
       "terms": [
-        { "term": "Twelve Tables", "def": "451 BC, taken as the beginning of Roman law. The first written statement of Roman statutory law." }
+        {
+          "term": "Twelve Tables",
+          "def": "451 BC, taken as the beginning of Roman law. The first written statement of Roman statutory law."
+        }
       ],
       "cards": [
         {
@@ -353,7 +419,10 @@
       "title": "From the principate to the dominate",
       "text": "The main weakness of the principate was that succession was never settled: inheritance, adoption, but mostly military strength decided who ruled. In the 3rd century the empire falls into deep crisis, resolved for a time by Diocletian (284–305 AD). His answer is collegial imperial government: two Augusti and two Caesars as their designated successors, with the empire divided into four tetrarchies for administrative purposes. In the long run one emperor emerges in the west and one in the east — while the IDEA of the unity of the empire is retained for a long time afterwards.",
       "terms": [
-        { "term": "tetrarchy", "def": "Diocletian's arrangement: two Augusti and two Caesars as successors, with the empire divided into four administrative parts — an answer to the unsolved problem of imperial succession." }
+        {
+          "term": "tetrarchy",
+          "def": "Diocletian's arrangement: two Augusti and two Caesars as successors, with the empire divided into four administrative parts — an answer to the unsolved problem of imperial succession."
+        }
       ],
       "cards": [
         {
@@ -366,7 +435,13 @@
       ],
       "vision_used": false
     },
-    "22": { "title": "The Roman Empire, divided 395", "text": "The division of 395 AD, which the introductory lecture used for the genealogy of the imperial title.", "terms": [], "cards": [], "vision_used": true },
+    "22": {
+      "title": "The Roman Empire, divided 395",
+      "text": "The division of 395 AD, which the introductory lecture used for the genealogy of the imperial title.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
     "23": {
       "title": "Christianity",
       "text": "Jesus Christ preaches in Palestine around 30 AD and is executed by the Roman occupation forces; his followers hold on to him. The orally transmitted teachings are written down from about 60 AD — the 'New Testament' supplements the 'Old Testament', the Jewish Bible, and it too contains many legal provisions, for instance the indivisibility of marriage. Christianity is originally rooted in Judaism and separates from it only gradually, especially after 70 AD. The Romans refuse it recognition and persecute Christians several times until 311/313 AD; in 380 Christianity becomes the STATE RELIGION of the Roman Empire. Two dates to keep apart: 311/313 is toleration, 380 is establishment.",
@@ -411,7 +486,13 @@
       ],
       "vision_used": true
     },
-    "25": { "title": "The Migration Period (4th–6th century)", "text": "The map of the peoples on the move: Saxons, Franks, Alemanni, Bavarians, Visigoths, and the Vandals and Ostrogoths — the last two later defeated by Justinian.", "terms": [], "cards": [], "vision_used": true },
+    "25": {
+      "title": "The Migration Period (4th–6th century)",
+      "text": "The map of the peoples on the move: Saxons, Franks, Alemanni, Bavarians, Visigoths, and the Vandals and Ostrogoths — the last two later defeated by Justinian.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
     "26": {
       "title": "Justinian I (527–565)",
       "text": "Emperor of the Eastern Roman — Byzantine — Empire, and a reformer on a large scale. He attempted to reconquer the Western Roman Empire, without lasting success. What did last is the compilation of classical Roman law in the Corpus Iuris Civilis, 529/534. Everything Europe later 'rediscovered' of Roman law, it rediscovered through this compilation.",
@@ -431,9 +512,18 @@
       "title": "The Corpus Iuris Civilis",
       "text": "Four parts, and the exam expects them by name and function. CODEX: the collection of imperial laws (constitutiones), first version 529, second 534. DIGEST (Pandects): a collection of the writings of the classical jurists — chiefly Ulpian, Paulus and Papinian — published in 533, and INTERPOLATED, that is shortened and 'modernised', which from today's perspective means falsified. INSTITUTIONES: an authorised textbook, also 533. NOVELLAE: later supplements, which survive largely only in Greek. Two things to hold: the Digest preserves classical jurisprudence but not unaltered, and the Novellae are already a Greek-language world — the Corpus stands on the hinge between Latin antiquity and Byzantium.",
       "terms": [
-        { "term": "Digest (Pandects)", "def": "The part of the Corpus Iuris Civilis collecting the writings of the classical jurists (Ulpian, Paulus, Papinian), published 533 — interpolated, i.e. shortened and modernised by the compilers." },
-        { "term": "interpolation", "def": "The compilers' alteration of classical juristic texts when assembling the Digest: shortening and 'modernising'. From today's standpoint, falsification of the sources." },
-        { "term": "Institutiones", "def": "The authorised textbook within the Corpus Iuris Civilis, published 533." }
+        {
+          "term": "Digest (Pandects)",
+          "def": "The part of the Corpus Iuris Civilis collecting the writings of the classical jurists (Ulpian, Paulus, Papinian), published 533 — interpolated, i.e. shortened and modernised by the compilers."
+        },
+        {
+          "term": "interpolation",
+          "def": "The compilers' alteration of classical juristic texts when assembling the Digest: shortening and 'modernising'. From today's standpoint, falsification of the sources."
+        },
+        {
+          "term": "Institutiones",
+          "def": "The authorised textbook within the Corpus Iuris Civilis, published 533."
+        }
       ],
       "cards": [
         {
@@ -487,8 +577,14 @@
       "title": "Muhammad and the rise of Islam",
       "text": "Mecca was already a cultural and economic centre in pre-Islamic times — the Jahiliya — where pagans, Jews and Christians met. Muhammad preaches monotheism and has to flee to Medina on 16 July 622: the Hijra, from which the Islamic calendar counts. By Muhammad's death in 632 AD (11 AH) most of Arabia is Muslim. Under the 'rightly guided caliphs' the Fertile Crescent, Persia and North Africa are subjugated, and expansion continues to Spain and India. Early Islamic law therefore emerges in a trading society that already knew several religious laws, and it spreads with astonishing speed over the whole area this lecture began with.",
       "terms": [
-        { "term": "Hijra", "def": "Muhammad's flight from Mecca to Medina on 16 July 622, the epoch of the Islamic calendar (AH = anno Hegirae)." },
-        { "term": "Jahiliya", "def": "The pre-Islamic period in Arabia. Mecca was already a cultural and economic centre where pagans, Jews and Christians met." }
+        {
+          "term": "Hijra",
+          "def": "Muhammad's flight from Mecca to Medina on 16 July 622, the epoch of the Islamic calendar (AH = anno Hegirae)."
+        },
+        {
+          "term": "Jahiliya",
+          "def": "The pre-Islamic period in Arabia. Mecca was already a cultural and economic centre where pagans, Jews and Christians met."
+        }
       ],
       "cards": [
         {
@@ -511,10 +607,16 @@
     "31": {
       "title": "Caliphs and imams: the Sunni–Shia split",
       "text": "The problem is the succession to the Prophet. The first four successors — caliphs — come from his family circle: the Rashidun, the 'rightly guided' caliphate, 632–661. After the assassination of the fourth caliph, ʿAli, Muhammad's son-in-law, the Muslims divide. The SUNNI line runs on through the Umayyad caliphate in Damascus (661–750), the Abbasid caliphate in Baghdad (750–1258), a powerless Abbasid caliphate in Cairo (1261–1517), and the Ottoman caliphate in Constantinople (1517–1924). The SHIA line counts imams from ʿAli as the first through to the twelfth, Muhammad al-Mahdi, 'the hidden imam': the Minor Occultation in 874 and the Major Occultation in 941, after which the imam is held to return only at the end of the world. So the split is about legitimate succession, and it produces two different structures of authority — a caliph who rules, and an imam who is awaited.",
-      "note": "Textová vrstva slidu má u letopočtů navíc vloženou jedničku („1570–1632 Muhammad“, „1750–1258 Abbasid“). Správně jsou 570–632 (Muhammad), 632–661 (Rášidún), 661–750 (Umajjovci), 750–1258 (Abbásovci v Bagdádu). Ověřit na obrázku slidu.",
+      "note": "The slide's text layer has an extra 1 inserted into the dates ('1570–1632 Muhammad', '1750–1258 Abbasid'). The correct dates are 570–632 (Muhammad), 632–661 (Rashidun), 661–750 (Umayyads), 750–1258 (Abbasids in Baghdad). To be checked against the slide image.",
       "terms": [
-        { "term": "Rashidun", "def": "The 'rightly guided' caliphate, 632–661: the first four successors of Muhammad, from his family circle." },
-        { "term": "Occultation", "def": "In Twelver Shia belief, the concealment of the twelfth imam, Muhammad al-Mahdi — Minor Occultation 874, Major Occultation 941. He is held to return only at the end of the world." }
+        {
+          "term": "Rashidun",
+          "def": "The 'rightly guided' caliphate, 632–661: the first four successors of Muhammad, from his family circle."
+        },
+        {
+          "term": "Occultation",
+          "def": "In Twelver Shia belief, the concealment of the twelfth imam, Muhammad al-Mahdi — Minor Occultation 874, Major Occultation 941. He is held to return only at the end of the world."
+        }
       ],
       "cards": [
         {
@@ -567,7 +669,10 @@
       "title": "The five qualifications of the sharia",
       "text": "Every act is placed in one of five classes: wājib, obligatory; mandūb (sunna), recommended; halal (mubāḥ), indifferent or permissible; makrūh, reprehensible; ḥarām, forbidden. Note the shape — it is a scale with a neutral middle, not a binary of permitted and forbidden, and the two middle classes (recommended, reprehensible) carry no coercion at all. That is the structural reason the sharia is a moral order as much as a legal one, and why fiqh has to sort the two.",
       "terms": [
-        { "term": "fiqh", "def": "Islamic jurisprudence — the scholarly work of deriving and distinguishing norms, including telling legal norms from moral ones." }
+        {
+          "term": "fiqh",
+          "def": "Islamic jurisprudence — the scholarly work of deriving and distinguishing norms, including telling legal norms from moral ones."
+        }
       ],
       "cards": [
         {
@@ -591,10 +696,22 @@
       "title": "Sources of the sharia",
       "text": "Three sources are common to all: the Qurʾan, God's literal revelation to Muhammad; the Hadīth, transmitted reports about the Sunnah, that is the traditions and practices of Muhammad; and Ijtihad, independent reasoning. Sunni Muslims add Ijmāʿ, the consensus of authoritative Muslims. Shia Muslims add the Hadīth of the imams. The hierarchy is what the exam's al-Shafiʿi source turns on: a tradition going back to the Prophet is authoritative and can be displaced only by another authoritative tradition from the Prophet; where two are equally reliable, the one more in keeping with the Qurʾan and the undisputed sunna prevails; traditions from other persons count for nothing against a tradition from the Prophet. Al-Shafiʿi, who set that out, gives his name to the Shafiʿi school.",
       "terms": [
-        { "term": "Qurʾan", "def": "God's literal revelation to Muhammad — the first source of the sharia." },
-        { "term": "Hadīth", "def": "Transmitted reports about the Sunnah, the traditions and practices of Muhammad." },
-        { "term": "Ijtihad", "def": "Independent reasoning as a source of the sharia — the faculty whose 'gates' close in the 12th century and reopen in the 19th/20th." },
-        { "term": "Ijmāʿ", "def": "Consensus among authoritative Muslims; a source recognised by Sunni Muslims." }
+        {
+          "term": "Qurʾan",
+          "def": "God's literal revelation to Muhammad — the first source of the sharia."
+        },
+        {
+          "term": "Hadīth",
+          "def": "Transmitted reports about the Sunnah, the traditions and practices of Muhammad."
+        },
+        {
+          "term": "Ijtihad",
+          "def": "Independent reasoning as a source of the sharia — the faculty whose 'gates' close in the 12th century and reopen in the 19th/20th."
+        },
+        {
+          "term": "Ijmāʿ",
+          "def": "Consensus among authoritative Muslims; a source recognised by Sunni Muslims."
+        }
       ],
       "cards": [
         {
@@ -625,7 +742,10 @@
       "title": "The schools of fiqh (madhāhib)",
       "text": "A map of where the schools of Islamic jurisprudence prevail. The four Sunni schools are the Hanafi, Maliki, Shafiʿi and Hanbali; the Shia have their own, chiefly the Jaʿfari. They differ not about the sources but about how far and by what means the sources may be reasoned from — which is exactly the question the next slide turns into a period division.",
       "terms": [
-        { "term": "madhhab (pl. madhāhib)", "def": "A school of Islamic jurisprudence. The four Sunni schools are Hanafi, Maliki, Shafiʿi and Hanbali." }
+        {
+          "term": "madhhab (pl. madhāhib)",
+          "def": "A school of Islamic jurisprudence. The four Sunni schools are Hanafi, Maliki, Shafiʿi and Hanbali."
+        }
       ],
       "cards": [
         {
@@ -642,7 +762,10 @@
       "title": "Peak and decline — the gates of Ijtihad",
       "text": "The closing arc. In the 12th century the 'gates of Ijtihad' are said to close: independent reasoning gives way to following established doctrine. In 1258 the Mongols take Baghdad and the caliphate there ends. In the 16th century Egypt and Mesopotamia become part of the Ottoman Empire. In the 19th century European influence grows sharply — the 'export of law' to the Levant. And in the 19th and 20th centuries the gates of Ijtihad are declared open again. The slide's portrait is Ibn Rushd, latinised Averroes (1126–98), the Spanish-Muslim philosopher famous for his work on Aristotle: a reminder that at its height this culture was the route by which Greek philosophy returned to Europe.",
       "terms": [
-        { "term": "gates of Ijtihad", "def": "The metaphor for whether independent legal reasoning is permitted. Said to close in the 12th century in favour of following established doctrine, and to open again in the 19th/20th century." }
+        {
+          "term": "gates of Ijtihad",
+          "def": "The metaphor for whether independent legal reasoning is permitted. Said to close in the 12th century in favour of following established doctrine, and to open again in the 19th/20th century."
+        }
       ],
       "cards": [
         {

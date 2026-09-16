@@ -1,21 +1,21 @@
 {
   "lecture_id": "PUQ12",
-  "title": "Otázky a prameny, cvičení I a II",
+  "title": "Questions and sources, exercise classes I and II",
   "free_sections": true,
   "slides": {
     "1": {
-      "title": "Co je právo?",
-      "text": "První otázka cvičení a zároveň ta, na které se dá nejsnáz uklouznout, protože se zdá triviální. ODPOVĚĎ NENÍ JEDNA DEFINICE, ALE UKÁZÁNÍ, ŽE KAŽDÁ DEFINICE NĚCO VYBERE A NĚCO ZAMLČÍ. Právo lze vymezit jako SOUBOR ZÁVAZNÝCH NOREM UPRAVUJÍCÍCH CHOVÁNÍ VE SPOLEČNOSTI, JEJICHŽ DODRŽOVÁNÍ JE VYNUTITELNÉ. Jenže každý prvek té věty je sporný: NORMATIVITA (právo říká, co MÁ být, ne co je), ZÁVAZNOST (proč zavazuje?), VYNUTITELNOST (kdo vynucuje, a co pak s právem mezinárodním, kde chybí ústřední donucovací moc?) a SPOLEČENSKÁ POVAHA (ubi societas, ibi ius — kde je společnost, tam je právo). V PRÁVNÍCH DĚJINÁCH JE TA OTÁZKA PRAKTICKÁ, NE FILOZOFICKÁ: PODLE TOHO, JAK ŠIROCE PRÁVO VYMEZÍŠ, URČÍŠ, CO VŠECHNO JE PŘEDMĚTEM ZKOUMÁNÍ. Úzká definice (právo = státní zákony) vylučuje zvykové právo, náboženské právo i právo kmenových společností, a tím z globálních právních dějin udělá dějiny evropského státu. Právě proto se v tomto předmětu pracuje s pojetím širokým.",
+      "title": "What is law?",
+      "text": "The first question of the exercise class, and also the one it is easiest to slip on, because it looks trivial. THE ANSWER IS NOT ONE DEFINITION BUT A DEMONSTRATION THAT EVERY DEFINITION SELECTS SOMETHING AND PASSES OVER SOMETHING ELSE. Law can be defined as a BODY OF BINDING NORMS GOVERNING CONDUCT IN SOCIETY, WHOSE OBSERVANCE IS ENFORCEABLE. But every element of that sentence is contestable: NORMATIVITY (law says what OUGHT to be, not what is), BINDINGNESS (why does it bind?), ENFORCEABILITY (who enforces it, and what then of international law, where a central coercive power is missing?) and its SOCIAL CHARACTER (ubi societas, ibi ius — where there is society, there is law). IN LEGAL HISTORY THE QUESTION IS PRACTICAL, NOT PHILOSOPHICAL: HOW BROADLY YOU DEFINE LAW DETERMINES WHAT COUNTS AS THE OBJECT OF STUDY. A narrow definition (law = the statutes of a state) excludes customary law, religious law and the law of tribal societies, and thereby turns global legal history into the history of the European state. That is precisely why this course works with a broad conception.",
       "terms": [
         {
           "term": "ubi societas, ibi ius",
-          "def": "Kde je společnost, tam je právo — každé lidské společenství si vytváří normy."
+          "def": "Where there is society, there is law — every human community creates norms for itself."
         }
       ],
       "cards": [
         {
-          "q": "Co je právo — a proč je ta otázka v globálních právních dějinách praktická?",
-          "a": "Soubor ZÁVAZNÝCH NOREM upravujících chování ve společnosti, jejichž dodržování je VYNUTITELNÉ — ale každý prvek je sporný (normativita, závaznost, vynutitelnost, společenská povaha). PRAKTICKÁ JE PROTO, ŽE ŠÍŘE DEFINICE URČUJE PŘEDMĚT ZKOUMÁNÍ: úzká definice (právo = státní zákony) vylučuje zvykové, náboženské i kmenové právo, a tím z globálních dějin udělá dějiny evropského státu.",
+          "q": "What is law — and why is the question practical in global legal history?",
+          "a": "A body of BINDING NORMS governing conduct in society whose observance is ENFORCEABLE — but every element is contestable (normativity, bindingness, enforceability, social character). IT IS PRACTICAL BECAUSE THE BREADTH OF THE DEFINITION DETERMINES THE OBJECT OF STUDY: a narrow definition (law = state statutes) excludes customary, religious and tribal law, and thereby turns global history into the history of the European state.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -25,21 +25,21 @@
       "vision_used": false
     },
     "2": {
-      "title": "Co jsou právní dějiny a tři důvody, proč jsou užitečné",
-      "text": "PRÁVNÍ DĚJINY ZKOUMAJÍ PRÁVO MINULOSTI: jak vznikalo, měnilo se a zanikalo, a v jakém vztahu bylo ke společnosti, která ho nesla. Stojí na pomezí dvou disciplín a to je jejich napětí — HISTORICKÝ ZÁJEM chce vědět, jak to bylo, PRÁVNICKÝ ZÁJEM chce vědět, co z toho plyne pro dnešek. TŘI DŮVODY, PROČ SE PRÁVNÍKOVI HODÍ (přesně tolik, kolik jich otázka chce): (1) POROZUMĚNÍ PLATNÉMU PRÁVU — dnešní instituty jsou historické produkty a bez jejich původu jsou nesrozumitelné (proč má vlastnictví takovou podobu, odkud je smluvní svoboda, proč se dělí soukromé a veřejné právo); (2) KRITICKÝ ODSTUP — co se zdá přirozené a nutné, se ukáže jako dobově podmíněné a tedy změnitelné, a to je nejsilnější lék proti tomu brát platné právo jako danost; (3) SROVNÁVACÍ SCHOPNOST — kdo zná víc právních řádů v čase, snáz chápe cizí právní řády v prostoru, což je v mezinárodní praxi přímo použitelné. K tomu se často přidává čtvrtý: právní dějiny UČÍ PRACOVAT S PRAMENEM, tedy dovednost, kterou zkouška testuje.",
+      "title": "What legal history is, and three reasons why it is useful",
+      "text": "LEGAL HISTORY STUDIES THE LAW OF THE PAST: how it arose, changed and disappeared, and in what relation it stood to the society that carried it. It stands on the border of two disciplines, and that is its tension — the HISTORICAL INTEREST wants to know how things were, the LEGAL INTEREST wants to know what follows from that for today. THREE REASONS WHY IT IS USEFUL TO A LAWYER (exactly as many as the question asks for): (1) UNDERSTANDING THE LAW IN FORCE — today's institutions are historical products and without their origins they are unintelligible (why ownership has the shape it has, where freedom of contract comes from, why private and public law are divided); (2) CRITICAL DISTANCE — what seems natural and necessary turns out to be conditioned by its time and therefore changeable, and that is the strongest remedy against taking the law in force as a given; (3) COMPARATIVE CAPACITY — whoever knows several legal orders in time more easily grasps foreign legal orders in space, which is directly usable in international practice. To these a fourth is often added: legal history TEACHES ONE TO WORK WITH A SOURCE, the very skill the exam tests.",
       "terms": [],
       "cards": [
         {
-          "q": "Co jsou právní dějiny a jaké napětí v nich je?",
-          "a": "Zkoumají PRÁVO MINULOSTI — jak vznikalo, měnilo se, zanikalo, a jaký mělo vztah ke společnosti. Napětí je mezi HISTORICKÝM ZÁJMEM (jak to bylo) a PRÁVNICKÝM ZÁJMEM (co z toho plyne pro dnešek).",
+          "q": "What is legal history and what tension is there in it?",
+          "a": "It studies THE LAW OF THE PAST — how it arose, changed and disappeared, and what relation it had to society. The tension is between the HISTORICAL INTEREST (how things were) and the LEGAL INTEREST (what follows from that for today).",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Uveď tři důvody, proč jsou právní dějiny pro právníka užitečné.",
-          "a": "1) POROZUMĚNÍ PLATNÉMU PRÁVU — dnešní instituty jsou historické produkty a bez původu jsou nesrozumitelné. 2) KRITICKÝ ODSTUP — co se zdá přirozené a nutné, se ukáže jako dobově podmíněné, a tedy změnitelné. 3) SROVNÁVACÍ SCHOPNOST — kdo zná víc řádů v čase, snáz chápe cizí řády v prostoru.",
+          "q": "Give three reasons why legal history is useful to a lawyer.",
+          "a": "1) UNDERSTANDING THE LAW IN FORCE — today's institutions are historical products and without their origins unintelligible. 2) CRITICAL DISTANCE — what seems natural and necessary turns out to be conditioned by its time, and therefore changeable. 3) COMPARATIVE CAPACITY — whoever knows several orders in time more easily grasps foreign orders in space.",
           "difficulty": 2,
           "kind": "znaky",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -49,21 +49,21 @@
       "vision_used": false
     },
     "3": {
-      "title": "Druhy historických pramenů — a příklad ke každému",
-      "text": "Otázka výslovně chce KE KAŽDÉMU DRUHU PŘÍKLAD, takže samotný výčet nestačí. (1) PÍSEMNÉ PRAMENY: normativní texty (Chammurapiho zákoník, Corpus iuris civilis, ABGB), listiny a smlouvy (Zlatá bula sicilská, Vestfálský mír), soudní spisy a protokoly, právnická literatura (glosy, komentáře), ale i nepřímé texty jako kroniky a dopisy. (2) VIZUÁLNÍ PRAMENY: vyobrazení soudu v Saském zrcadle, alegorie Spravedlnosti s váhami a mečem, rytiny poprav, portréty panovníků s říšskými klenoty. (3) ARTEFAKTY (hmotné prameny): pranýř, šibenice, soudní stolice, pečeti a pečetidla, mince s panovnickým titulem, měrné etalony na radničních zdech. (4) ORÁLNÍ TRADICE: vyprávěné zvykové právo nezapsaných společností, soudní formule předávané ústně, svědecké výpovědi zaznamenané až dodatečně. PODSTATNÉ ROZLIŠENÍ: prameny PRÁVNÍ (vznikly jako právo) a prameny O PRÁVU (vznikly k jinému účelu, ale o právu vypovídají) — kronika není právní pramen, ale o fungování práva řekne často víc než samotný zákoník.",
+      "title": "Kinds of historical source — with an example of each",
+      "text": "The question expressly asks for AN EXAMPLE OF EACH KIND, so the bare list is not enough. (1) WRITTEN SOURCES: normative texts (the Code of Hammurabi, the Corpus iuris civilis, the ABGB), charters and treaties (the Golden Bull of Sicily, the Peace of Westphalia), court files and records, juristic literature (glosses, commentaries), but also indirect texts such as chronicles and letters. (2) VISUAL SOURCES: the depiction of a court in the Sachsenspiegel, the allegory of Justice with scales and sword, engravings of executions, portraits of rulers with the imperial regalia. (3) ARTEFACTS (material sources): the pillory, the gallows, the judge's seat, seals and seal-matrices, coins bearing the ruler's title, standard measures on town hall walls. (4) ORAL TRADITION: the recited customary law of societies without writing, judicial formulae handed down orally, witness testimony recorded only later. THE ESSENTIAL DISTINCTION: sources that are LEGAL (created as law) and sources ABOUT LAW (created for another purpose but telling us about law) — a chronicle is not a legal source, but it often says more about how law worked than a code does.",
       "terms": [],
       "cards": [
         {
-          "q": "Jaké druhy historických pramenů právní dějiny používají? Ke každému příklad.",
-          "a": "PÍSEMNÉ (Chammurapiho zákoník, Corpus iuris civilis, mírové smlouvy, soudní spisy, glosy). VIZUÁLNÍ (vyobrazení soudu v Saském zrcadle, alegorie Spravedlnosti, rytiny poprav). ARTEFAKTY (pranýř, šibenice, pečeti, mince s titulem panovníka, měrné etalony). ORÁLNÍ TRADICE (vyprávěné zvykové právo, soudní formule, svědecké výpovědi).",
+          "q": "Which kinds of historical source does legal history use? An example of each.",
+          "a": "WRITTEN (the Code of Hammurabi, the Corpus iuris civilis, peace treaties, court files, glosses). VISUAL (the depiction of a court in the Sachsenspiegel, the allegory of Justice, engravings of executions). ARTEFACTS (the pillory, the gallows, seals, coins bearing the ruler's title, standard measures). ORAL TRADITION (recited customary law, judicial formulae, witness testimony).",
           "difficulty": 2,
           "kind": "znaky",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Jaký je rozdíl mezi pramenem právním a pramenem o právu?",
-          "a": "PRÁVNÍ PRAMEN vznikl jako právo (zákoník, smlouva, rozsudek). PRAMEN O PRÁVU vznikl k jinému účelu, ale o právu vypovídá (kronika, dopis, obraz) — a o skutečném FUNGOVÁNÍ práva často řekne víc než samotný zákoník.",
+          "q": "What is the difference between a legal source and a source about law?",
+          "a": "A LEGAL SOURCE was created as law (a code, a treaty, a judgment). A SOURCE ABOUT LAW was created for another purpose but tells us about law (a chronicle, a letter, a picture) — and about how law ACTUALLY WORKED it often says more than a code does.",
           "difficulty": 2,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -73,21 +73,21 @@
       "vision_used": false
     },
     "4": {
-      "title": "Čím ambice globálních právních dějin naráží na prameny",
-      "text": "Tohle je otázka, u které zkoušející chce VÝSLOVNĚ PŘÍKLADY PROBLÉMŮ A POKUD MOŽNO I ŘEŠENÍ. Čtyři překážky. (1) JAZYKOVÁ: globální právní dějiny by vyžadovaly čtení pramenů v arabštině, čínštině, sanskrtu, hebrejštině, latině a desítkách dalších jazyků — ŽÁDNÝ JEDNOTLIVEC TO NEZVLÁDNE, a práce s překlady znamená pracovat se sekundárním pramenem a s volbami překladatele. Řešení: MEZINÁRODNÍ SPOLUPRÁCE A KOLEKTIVNÍ PROJEKTY, kde každý přispěje svou jazykovou oblastí. (2) NEROVNOMĚRNÉ DOCHOVÁNÍ: evropské archivy jsou nesrovnatelně bohatší než prameny k předkoloniální Africe či Oceánii, což SVÁDÍ K ZÁVĚRU, ŽE TAM PRÁVO NEBYLO — přitom tam jen nebylo psané. Řešení: přibrat ORÁLNÍ TRADICI, ARCHEOLOGII A ANTROPOLOGII a číst koloniální prameny proti srsti. (3) POJMOVÁ: naše kategorie jsou evropské. Ptát se, zda měla Čína 'ústavní právo' nebo zda islámské právo zná 'soukromé právo', znamená MĚŘIT CIZÍ ŘÁD EVROPSKÝM METREM a nutně dojít k tomu, že mu něco 'chybí'. Řešení: FUNKCIONÁLNÍ SROVNÁNÍ — ne 'má tenhle řád instituci X?', ale 'jak tenhle řád řeší problém, který u nás řeší instituce X?'. (4) EUROCENTRISMUS PERIODIZACE: 'starověk – středověk – novověk' je evropský rozvrh, který jinde nedává smysl. Řešení: PRACOVAT S PERIODIZACEMI MÍSTNÍMI a evropskou používat vědomě jako jednu z mnoha.",
+      "title": "Where the ambition of global legal history runs up against the sources",
+      "text": "This is a question where the examiner wants EXPRESSLY EXAMPLES OF THE PROBLEMS AND, IF POSSIBLE, SOLUTIONS TOO. Four obstacles. (1) LINGUISTIC: global legal history would require reading sources in Arabic, Chinese, Sanskrit, Hebrew, Latin and dozens of other languages — NO INDIVIDUAL CAN MANAGE THAT, and working with translations means working with a secondary source and with the translator's choices. The solution: INTERNATIONAL COOPERATION AND COLLECTIVE PROJECTS, in which each contributes his own linguistic area. (2) UNEVEN SURVIVAL: European archives are incomparably richer than the sources for pre-colonial Africa or Oceania, which TEMPTS ONE TO CONCLUDE THAT THERE WAS NO LAW THERE — whereas it was merely not written. The solution: to draw in ORAL TRADITION, ARCHAEOLOGY AND ANTHROPOLOGY and to read colonial sources against the grain. (3) CONCEPTUAL: our categories are European. To ask whether China had 'constitutional law' or whether Islamic law knows 'private law' is to MEASURE A FOREIGN ORDER BY A EUROPEAN YARDSTICK and necessarily to conclude that something is 'missing' from it. The solution: FUNCTIONAL COMPARISON — not 'does this order have institution X?' but 'how does this order solve the problem that institution X solves for us?'. (4) THE EUROCENTRISM OF PERIODIZATION: 'antiquity – the Middle Ages – the modern period' is a European scheme that makes no sense elsewhere. The solution: TO WORK WITH LOCAL PERIODIZATIONS and to use the European one consciously as one among many.",
       "terms": [],
       "cards": [
         {
-          "q": "Jaké čtyři překážky stojí ambici globálních právních dějin a jaká jsou řešení?",
-          "a": "1) JAZYKOVÁ — nikdo neumí všechny jazyky pramenů; řešení MEZINÁRODNÍ SPOLUPRÁCE. 2) NEROVNOMĚRNÉ DOCHOVÁNÍ — chudší prameny svádějí k závěru, že tam právo nebylo; řešení ORÁLNÍ TRADICE, ARCHEOLOGIE, ANTROPOLOGIE. 3) POJMOVÁ — evropské kategorie měří cizí řád evropským metrem; řešení FUNKCIONÁLNÍ SROVNÁNÍ. 4) EUROCENTRISMUS PERIODIZACE; řešení místní periodizace.",
+          "q": "Which four obstacles stand in the way of global legal history, and what are the solutions?",
+          "a": "1) LINGUISTIC — nobody knows all the languages of the sources; the solution is INTERNATIONAL COOPERATION. 2) UNEVEN SURVIVAL — poorer sources tempt one to conclude there was no law there; the solution is ORAL TRADITION, ARCHAEOLOGY, ANTHROPOLOGY. 3) CONCEPTUAL — European categories measure a foreign order by a European yardstick; the solution is FUNCTIONAL COMPARISON. 4) THE EUROCENTRISM OF PERIODIZATION; the solution is local periodizations.",
           "difficulty": 3,
           "kind": "znaky",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Co je funkcionální srovnání a proč se v globálních právních dějinách používá?",
-          "a": "Neptá se 'MÁ TENHLE ŘÁD INSTITUCI X?', nýbrž 'JAK TENHLE ŘÁD ŘEŠÍ PROBLÉM, KTERÝ U NÁS ŘEŠÍ INSTITUCE X?'. Používá se proto, že evropské pojmy (ústavní právo, soukromé právo) jsou dobově a místně podmíněné a při přímém přiložení cizímu řádu nutně vyjde, že mu něco 'chybí'.",
+          "q": "What is functional comparison and why is it used in global legal history?",
+          "a": "It asks not 'DOES THIS ORDER HAVE INSTITUTION X?' but 'HOW DOES THIS ORDER SOLVE THE PROBLEM THAT INSTITUTION X SOLVES FOR US?'. It is used because European concepts (constitutional law, private law) are conditioned by time and place, and applied directly to a foreign order they necessarily make something appear to be 'missing'.",
           "difficulty": 3,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -97,26 +97,26 @@
       "vision_used": false
     },
     "5": {
-      "title": "Metoda: výklad psaného pramene",
-      "text": "Hlavní metodou právních dějin u psaného pramene je HISTORICKO-KRITICKÁ METODA, tedy VÝKLAD (INTERPRETACE) doplněný o KRITIKU PRAMENE. Kritika pramene má dva kroky: VNĚJŠÍ KRITIKA se ptá, ZDA JE PRAMEN PRAVÝ, kdo ho vytvořil, kdy, kde a v jaké podobě se dochoval (originál, opis, falzum — středověk je falz plný a nejsou vždy podvodem, často jen dodatečně sepisují to, co se pokládalo za dávno platné). VNITŘNÍ KRITIKA se ptá, CO PRAMEN ŘÍKÁ A PROČ TO ŘÍKÁ TAKHLE: jaký měl autor záměr, komu byl text určen, co zamlčuje. Pak teprve přijde vlastní VÝKLAD, který se dělá týmiž metodami, jaké zná právník z platného práva: JAZYKOVÝ (co slova znamenala TEHDY, ne dnes), SYSTEMATICKÝ (kde text stojí v celku řádu), HISTORICKÝ (co bylo záměrem) a TELEOLOGICKÝ (jaký účel měl text plnit). DALŠÍ METODY, KTERÉ SI OTÁZKA ŽÁDÁ NAVÍC: SROVNÁVACÍ METODA (týž problém v různých řádech), STATISTICKÁ A KVANTITATIVNÍ (kolik rozsudků, jaké tresty, jak často), PROSOPOGRAFIE (kolektivní biografie skupiny — kdo byli soudci, odkud, co studovali), ORÁLNÍ HISTORIE u nedávných dějin, ARCHEOLOGIE A IKONOGRAFIE u hmotných a obrazových pramenů.",
+      "title": "Method: the interpretation of a written source",
+      "text": "The principal method of legal history for a written source is the HISTORICAL-CRITICAL METHOD, that is, INTERPRETATION supplemented by SOURCE CRITICISM. Source criticism has two steps: EXTERNAL CRITICISM asks WHETHER THE SOURCE IS GENUINE, who produced it, when, where, and in what form it has survived (original, copy, forgery — the Middle Ages are full of forgeries, and they are not always frauds; often they merely record afterwards what was believed to have long been in force). INTERNAL CRITICISM asks WHAT THE SOURCE SAYS AND WHY IT SAYS IT THIS WAY: what the author's purpose was, for whom the text was intended, what it passes over in silence. Only then comes the INTERPRETATION proper, which is done by the same methods a lawyer knows from the law in force: LINGUISTIC (what the words meant THEN, not today), SYSTEMATIC (where the text stands within the order as a whole), HISTORICAL (what the intention was) and TELEOLOGICAL (what purpose the text was to serve). FURTHER METHODS THE QUESTION ASKS FOR IN ADDITION: the COMPARATIVE METHOD (the same problem in different orders), the STATISTICAL AND QUANTITATIVE (how many judgments, what punishments, how often), PROSOPOGRAPHY (the collective biography of a group — who the judges were, where they came from, what they studied), ORAL HISTORY for recent history, ARCHAEOLOGY AND ICONOGRAPHY for material and pictorial sources.",
       "terms": [
         {
-          "term": "vnější × vnitřní kritika pramene",
-          "def": "Vnější: je pramen pravý, kdo, kdy, kde. Vnitřní: co říká, proč to říká takhle, co zamlčuje."
+          "term": "external × internal source criticism",
+          "def": "External: is the source genuine, who, when, where. Internal: what it says, why it says it this way, what it passes over."
         }
       ],
       "cards": [
         {
-          "q": "Jakou metodou se pracuje s psaným pramenem a z čeho se skládá?",
-          "a": "HISTORICKO-KRITICKOU: nejdřív KRITIKA PRAMENE — VNĚJŠÍ (je pravý? kdo, kdy, kde, originál či falzum) a VNITŘNÍ (co říká, proč takhle, co zamlčuje) — a teprve pak VÝKLAD metodami, které právník zná: jazykový (co slova znamenala TEHDY), systematický, historický a teleologický.",
+          "q": "By what method does one work with a written source, and what does it consist of?",
+          "a": "THE HISTORICAL-CRITICAL: first SOURCE CRITICISM — EXTERNAL (is it genuine? who, when, where, original or forgery) and INTERNAL (what it says, why this way, what it passes over) — and only then INTERPRETATION by the methods a lawyer knows: linguistic (what the words meant THEN), systematic, historical and teleological.",
           "difficulty": 2,
           "kind": "schema",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Jaké další metody kromě výkladu pramene historikové práva používají?",
-          "a": "SROVNÁVACÍ (týž problém v různých řádech), STATISTICKÁ A KVANTITATIVNÍ (kolik rozsudků, jaké tresty), PROSOPOGRAFIE (kolektivní biografie skupiny — kdo byli soudci, odkud, co studovali), ORÁLNÍ HISTORIE u nedávných dějin, ARCHEOLOGIE A IKONOGRAFIE u hmotných a obrazových pramenů.",
+          "q": "Which further methods besides the interpretation of a source do legal historians use?",
+          "a": "The COMPARATIVE (the same problem in different orders), the STATISTICAL AND QUANTITATIVE (how many judgments, what punishments), PROSOPOGRAPHY (the collective biography of a group — who the judges were, where from, what they studied), ORAL HISTORY for recent history, ARCHAEOLOGY AND ICONOGRAPHY for material and pictorial sources.",
           "difficulty": 2,
           "kind": "znaky",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -126,21 +126,21 @@
       "vision_used": false
     },
     "6": {
-      "title": "Klasická periodizace a co je na ní problematické",
-      "text": "KLASICKÁ PERIODIZACE dělí dějiny na STAROVĚK, STŘEDOVĚK A NOVOVĚK, s obvyklými mezníky 476 (pád západořímské říše), 1492 (objevení Ameriky) nebo 1517 (reformace), případně 1789 (Francouzská revoluce) jako začátek moderny. Vznikla v RENESANCI A HUMANISMU, kde 'STŘEDNÍ VĚK' byl POHRDLIVÝM OZNAČENÍM pro dobu mezi antikou a jejím znovuzrozením — tedy pro cosi bezcenného uprostřed. A právě odtud plynou problémy. (1) JE HODNOTÍCÍ, NE POPISNÁ: už samo slovo 'středověk' obsahuje soud, že je to mezidobí. (2) JE EVROPOCENTRICKÁ: rok 476 neznamená nic pro Čínu, Indii ani islámský svět; přenesena na ně nedává smysl. (3) PŘEDSTÍRÁ OSTRÉ ZLOMY, kde byla plynulost — římské právo nezaniklo roku 476 a středověk nezačal ze dne na den. (4) SVÁDÍ K TELEOLOGII, tedy k dojmu, že dějiny někam mířily a vyvrcholily u nás. (5) V PRÁVNÍCH DĚJINÁCH NAVÍC NESEDÍ NA VLASTNÍ LÁTKU: pro právo jsou důležité jiné mezníky než pro politické dějiny — recepce římského práva od 12. století, kodifikace konce 18. a začátku 19. století, ústavní hnutí 19. století. Proto se právní dějiny často periodizují PODLE VLASTNÍCH ZLOMŮ, ne podle politických.",
+      "title": "The classical periodization and what is problematic about it",
+      "text": "THE CLASSICAL PERIODIZATION divides history into ANTIQUITY, THE MIDDLE AGES AND THE MODERN PERIOD, with the usual landmarks of 476 (the fall of the Western Roman Empire), 1492 (the discovery of America) or 1517 (the Reformation), and sometimes 1789 (the French Revolution) as the beginning of modernity. It arose in the RENAISSANCE AND HUMANISM, where the 'MIDDLE AGE' was a CONTEMPTUOUS NAME for the period between antiquity and its rebirth — that is, for something worthless in between. And precisely from that the problems follow. (1) IT IS EVALUATIVE, NOT DESCRIPTIVE: the very word 'Middle Ages' contains the judgment that it is an interval. (2) IT IS EUROCENTRIC: the year 476 means nothing for China, India or the Islamic world; transferred to them it makes no sense. (3) IT FEIGNS SHARP BREAKS where there was continuity — Roman law did not perish in 476 and the Middle Ages did not begin overnight. (4) IT TEMPTS ONE INTO TELEOLOGY, that is, the impression that history was heading somewhere and culminated with us. (5) AND IN LEGAL HISTORY IT DOES NOT FIT THE SUBJECT MATTER: for law the landmarks are different from those of political history — the reception of Roman law from the 12th century, the codifications of the late 18th and early 19th centuries, the constitutional movements of the 19th. That is why legal history is often periodized BY ITS OWN BREAKS, not by political ones.",
       "terms": [],
       "cards": [
         {
-          "q": "Odkud pochází klasická periodizace a co v jejím názvu prozrazuje hodnocení?",
-          "a": "Z RENESANCE A HUMANISMU, kde 'STŘEDNÍ VĚK' byl POHRDLIVÝM OZNAČENÍM pro dobu mezi antikou a jejím znovuzrozením — tedy pro bezcenné mezidobí. Už samo slovo obsahuje soud, není to popis.",
+          "q": "Where does the classical periodization come from and what in its name betrays a judgment?",
+          "a": "From the RENAISSANCE AND HUMANISM, where the 'MIDDLE AGE' was a CONTEMPTUOUS NAME for the period between antiquity and its rebirth — that is, for a worthless interval. The very word contains a judgment; it is not a description.",
           "difficulty": 2,
           "kind": "rozliseni",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Co je na klasické periodizaci problematické? Pět bodů.",
-          "a": "1) Je HODNOTÍCÍ, ne popisná. 2) Je EVROPOCENTRICKÁ — rok 476 neznamená nic pro Čínu, Indii ani islámský svět. 3) PŘEDSTÍRÁ OSTRÉ ZLOMY tam, kde byla plynulost. 4) SVÁDÍ K TELEOLOGII, že dějiny někam mířily a vyvrcholily u nás. 5) V PRÁVNÍCH DĚJINÁCH NESEDÍ NA LÁTKU — pro právo jsou mezníky jiné (recepce od 12. stol., kodifikace, ústavní hnutí).",
+          "q": "What is problematic about the classical periodization? Five points.",
+          "a": "1) It is EVALUATIVE, not descriptive. 2) It is EUROCENTRIC — the year 476 means nothing for China, India or the Islamic world. 3) It FEIGNS SHARP BREAKS where there was continuity. 4) It TEMPTS ONE INTO TELEOLOGY, as if history culminated with us. 5) IN LEGAL HISTORY IT DOES NOT FIT THE SUBJECT MATTER — for law the landmarks are different (the reception from the 12th c., the codifications, the constitutional movements).",
           "difficulty": 3,
           "kind": "znaky",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -150,26 +150,26 @@
       "vision_used": false
     },
     "7": {
-      "title": "„Rakousko“, „císař“ a třetí Řím",
-      "text": "Tři pojmy, na kterých zkoušející ukazuje, že SLOVA MAJÍ V ČASE RŮZNÝ OBSAH. 'RAKOUSKO' není jedna věc: nejdřív MARKA (Ostarrîchi, poprvé doloženo 996) na východním okraji říše, pak VÉVODSTVÍ (Privilegium minus 1156), pak SOUBOR ZEMÍ SPOJENÝCH OSOBOU PANOVNÍKA — a to je klíč, protože Habsburkové nevládli 'Rakousku' jako státu, nýbrž KAŽDÉ ZEMI ZVLÁŠŤ, z každé měli jiný titul a v každé platilo jiné právo. Teprve 1804 vzniká RAKOUSKÉ CÍSAŘSTVÍ jako jeden státní útvar, 1867 RAKOUSKO-UHERSKO, 1918 REPUBLIKA. 'CÍSAŘ' (imperator) nese nárok na UNIVERZÁLNÍ VLÁDU zděděný z Říma: středověký římský císař není 'král Německa', nýbrž SVĚTSKÁ HLAVA KŘESŤANSTVA vedle papeže jako hlavy duchovní; korunovace Karla Velikého roku 800 je TRANSLATIO IMPERII, přenesení říše. Titul tedy vypovídá o nároku, ne o rozsahu skutečné moci. A MOSKVA JAKO 'TŘETÍ ŘÍM': po pádu Konstantinopole roku 1453 (druhého Říma) si moskevská knížata nárokují dědictví pravoslavné říše — mnich Filofej píše, že 'dva Římy padly, třetí stojí a čtvrtého nebude'. Vasilij III. a pak Ivan IV. přijímají titul CAR (od 'caesar'). UKAZUJE TO, ŽE ŘÍMSKÝ NÁROK NEBYL JEDEN A ŽE O NĚJ SOUPEŘILO VÍC MOCENSKÝCH CENTER.",
+      "title": "'Austria', 'emperor' and the third Rome",
+      "text": "Three terms with which the examiner shows that WORDS HAVE DIFFERENT CONTENT AT DIFFERENT TIMES. 'AUSTRIA' is not one thing: first a MARCH (Ostarrîchi, first attested in 996) on the eastern edge of the empire, then a DUCHY (the Privilegium minus 1156), then a COLLECTION OF LANDS UNITED IN THE PERSON OF THE RULER — and that is the key, because the Habsburgs did not rule 'Austria' as a state but EACH LAND SEPARATELY, holding a different title in each and with a different law applying in each. Only in 1804 does the AUSTRIAN EMPIRE arise as a single state formation, in 1867 AUSTRIA-HUNGARY, in 1918 the REPUBLIC. 'EMPEROR' (imperator) carries a claim to UNIVERSAL RULE inherited from Rome: the medieval Roman emperor is not 'the king of Germany' but the TEMPORAL HEAD OF CHRISTENDOM beside the pope as its spiritual head; the coronation of Charlemagne in 800 is the TRANSLATIO IMPERII, the transfer of the empire. The title therefore tells us about a claim, not about the extent of actual power. AND MOSCOW AS THE 'THIRD ROME': after the fall of Constantinople in 1453 (the second Rome), the princes of Moscow claim the inheritance of the Orthodox empire — the monk Philotheus writes that 'two Romes have fallen, the third stands, and there will be no fourth'. Basil III and then Ivan IV assume the title TSAR (from 'caesar'). THIS SHOWS THAT THE ROMAN CLAIM WAS NOT ONE AND THAT SEVERAL CENTRES OF POWER COMPETED FOR IT.",
       "terms": [
         {
           "term": "translatio imperii",
-          "def": "Přenesení říše — myšlenka, že římské císařství nezaniklo, jen přešlo na nového nositele."
+          "def": "The transfer of the empire — the idea that the Roman empire did not perish but merely passed to a new bearer."
         }
       ],
       "cards": [
         {
-          "q": "Co všechno znamenalo „Rakousko“ a proč je to pro právní dějiny důležité?",
-          "a": "Nejdřív MARKA (Ostarrîchi, 996), pak VÉVODSTVÍ (Privilegium minus 1156), pak SOUBOR ZEMÍ SPOJENÝCH OSOBOU PANOVNÍKA — Habsburkové vládli KAŽDÉ ZEMI ZVLÁŠŤ, z každé měli jiný titul a v každé platilo JINÉ PRÁVO. Jeden státní útvar vzniká až 1804 (císařství), 1867 Rakousko-Uhersko, 1918 republika.",
+          "q": "What did 'Austria' mean and why does that matter for legal history?",
+          "a": "First a MARCH (Ostarrîchi, 996), then a DUCHY (the Privilegium minus 1156), then a COLLECTION OF LANDS UNITED IN THE PERSON OF THE RULER — the Habsburgs ruled EACH LAND SEPARATELY, with a different title in each and A DIFFERENT LAW in each. A single state formation arises only in 1804 (the empire), 1867 Austria-Hungary, 1918 the republic.",
           "difficulty": 3,
           "kind": "definice",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
           "priority": "core"
         },
         {
-          "q": "Co znamená titul „císař“ a proč je Moskva třetím Římem?",
-          "a": "CÍSAŘ (imperator) nese nárok na UNIVERZÁLNÍ VLÁDU zděděný z Říma — středověký římský císař je SVĚTSKÁ HLAVA KŘESŤANSTVA vedle papeže; korunovace Karla Velikého roku 800 je TRANSLATIO IMPERII. Po pádu Konstantinopole 1453 si moskevská knížata nárokují dědictví pravoslavné říše (Filofej: 'dva Římy padly, třetí stojí a čtvrtého nebude') a přijímají titul CAR. Ukazuje to, že o římský nárok SOUPEŘILO VÍC CENTER.",
+          "q": "What does the title 'emperor' mean and why is Moscow the third Rome?",
+          "a": "EMPEROR (imperator) carries a claim to UNIVERSAL RULE inherited from Rome — the medieval Roman emperor is the TEMPORAL HEAD OF CHRISTENDOM beside the pope; the coronation of Charlemagne in 800 is the TRANSLATIO IMPERII. After the fall of Constantinople in 1453 the princes of Moscow claim the inheritance of the Orthodox empire (Philotheus: 'two Romes have fallen, the third stands, and there will be no fourth') and assume the title TSAR. It shows that SEVERAL CENTRES COMPETED for the Roman claim.",
           "difficulty": 3,
           "kind": "pripad",
           "topic": "Introduction: Methods, Sources, Aims of Legal History",
@@ -179,21 +179,21 @@
       "vision_used": false
     },
     "8": {
-      "title": "„Vynalezli Římané právo?“ A co Řecko?",
-      "text": "Otázka je záměrně provokativní a SPRÁVNÁ ODPOVĚĎ JE 'NE, ALE…'. NE, protože právo je starší než Řím o dva tisíce let: CHAMMURAPIHO ZÁKONÍK je z 18. století př. n. l., sumerské zákoníky (Ur-Nammu) ještě starší, a právní normy má každá společnost. CO ŘÍMANÉ SKUTEČNĚ VYTVOŘILI, JE PRÁVNÍ VĚDA (IURISPRUDENTIA) — TEDY SAMOSTATNÝ STAV ODBORNÍKŮ, KTEŘÍ PRÁVO SYSTEMATICKY VYKLÁDAJÍ, TVOŘÍ POJMY A PÍŠOU O NĚM ODBORNOU LITERATURU. To je ten rozdíl: jinde byly normy, v Římě vznikla DISCIPLÍNA. K tomu přidali propracovanou dogmatiku soukromého práva (vlastnictví, závazky, dědění), rozlišení IUS CIVILE / IUS GENTIUM / IUS NATURALE, a nakonec KODIFIKACI — Corpus iuris civilis Justiniánův (529–534), skrze kterou celé dílo přežilo. A ŘECKO? Řekové PRÁVNÍ VĚDU NEVYTVOŘILI a jejich právo zůstalo roztříštěné po obcích. Zato tam mají kořeny: FILOZOFIE PRÁVA A SPRAVEDLNOSTI (Platón, Aristotelés a jeho rozlišení spravedlnosti DISTRIBUTIVNÍ a KOMUTATIVNÍ), MYŠLENKA PŘIROZENÉHO PRÁVA (sofisté, stoikové — přes ně přejde k Římanům a dál do celé evropské tradice), DEMOKRACIE A PSANÉ ZÁKONODÁRSTVÍ jako nástroj obce (Drakón, Solón) a ÚSTAVNÍ MYŠLENÍ, tedy rozbor forem vlády.",
+      "title": "'Did the Romans invent law?' And what about Greece?",
+      "text": "The question is deliberately provocative and THE CORRECT ANSWER IS 'NO, BUT…'. NO, because law is two thousand years older than Rome: the CODE OF HAMMURABI is from the 18th century BC, the Sumerian codes (Ur-Nammu) older still, and every society has legal norms. WHAT THE ROMANS ACTUALLY CREATED IS LEGAL SCHOLARSHIP (IURISPRUDENTIA) — THAT IS, AN INDEPENDENT BODY OF EXPERTS WHO EXPOUND LAW SYSTEMATICALLY, CREATE CONCEPTS AND WRITE SPECIALIST LITERATURE ABOUT IT. That is the difference: elsewhere there were norms, in Rome a DISCIPLINE arose. To this they added an elaborate doctrine of private law (ownership, obligations, succession), the distinction of IUS CIVILE / IUS GENTIUM / IUS NATURALE, and finally CODIFICATION — Justinian's Corpus iuris civilis (529–534), through which the whole work survived. AND GREECE? The Greeks DID NOT CREATE LEGAL SCHOLARSHIP and their law remained fragmented among the city states. But there other things have their roots: THE PHILOSOPHY OF LAW AND JUSTICE (Plato, Aristotle and his distinction of DISTRIBUTIVE and COMMUTATIVE justice), THE IDEA OF NATURAL LAW (the Sophists, the Stoics — through whom it passes to the Romans and on into the whole European tradition), DEMOCRACY AND WRITTEN LEGISLATION as an instrument of the city (Draco, Solon) and CONSTITUTIONAL THINKING, that is, the analysis of forms of government.",
       "terms": [],
       "cards": [
         {
-          "q": "Vynalezli Římané právo?",
-          "a": "NE — právo je starší (Chammurapi 18. stol. př. n. l., sumerské zákoníky ještě starší). CO SKUTEČNĚ VYTVOŘILI, JE PRÁVNÍ VĚDA (IURISPRUDENTIA): samostatný stav odborníků, kteří právo systematicky vykládají, tvoří pojmy a píší o něm literaturu. Jinde byly NORMY, v Římě vznikla DISCIPLÍNA. K tomu dogmatika soukromého práva, rozlišení ius civile / gentium / naturale a kodifikace (Corpus iuris civilis, 529–534).",
+          "q": "Did the Romans invent law?",
+          "a": "NO — law is older (Hammurabi 18th c. BC, the Sumerian codes older still). WHAT THEY ACTUALLY CREATED IS LEGAL SCHOLARSHIP (IURISPRUDENTIA): an independent body of experts who expound law systematically, create concepts and write literature about it. Elsewhere there were NORMS, in Rome a DISCIPLINE arose. To this, the doctrine of private law, the distinction ius civile / gentium / naturale and codification (the Corpus iuris civilis, 529–534).",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Co má kořeny v řeckém právním myšlení?",
-          "a": "FILOZOFIE PRÁVA A SPRAVEDLNOSTI (Platón, Aristotelés se spravedlností DISTRIBUTIVNÍ a KOMUTATIVNÍ), MYŠLENKA PŘIROZENÉHO PRÁVA (sofisté, stoikové — přes ně k Římanům a do celé evropské tradice), DEMOKRACIE A PSANÉ ZÁKONODÁRSTVÍ (Drakón, Solón) a ÚSTAVNÍ MYŠLENÍ. Právní vědu ale Řekové NEVYTVOŘILI a jejich právo zůstalo roztříštěné po obcích.",
+          "q": "What has its roots in Greek legal thinking?",
+          "a": "THE PHILOSOPHY OF LAW AND JUSTICE (Plato, Aristotle with DISTRIBUTIVE and COMMUTATIVE justice), THE IDEA OF NATURAL LAW (the Sophists, the Stoics — through them to the Romans and into the whole European tradition), DEMOCRACY AND WRITTEN LEGISLATION (Draco, Solon) and CONSTITUTIONAL THINKING. Legal scholarship, however, the Greeks DID NOT create, and their law remained fragmented among the city states.",
           "difficulty": 2,
           "kind": "znaky",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -203,34 +203,34 @@
       "vision_used": false
     },
     "9": {
-      "title": "Nezápadní právní kultury a proč Mezopotámie",
-      "text": "'NEZÁPADNÍ' PRÁVNÍ KULTURY, které předmět probírá: MEZOPOTÁMSKÁ (sumerská, babylonská, asyrská), EGYPTSKÁ, ŽIDOVSKÁ, ISLÁMSKÁ, ČÍNSKÁ, INDICKÁ (hinduistická), a dále právní kultury bez písma v Africe, Americe a Oceánii. Už samo označení 'nezápadní' je ovšem problematické, PROTOŽE VYMEZUJE CELÝ ZBYTEK SVĚTA NEGATIVNĚ VŮČI ZÁPADU — což je přesně ten eurocentrismus, kterému se má předmět vyhnout. PROČ BYLA MEZOPOTÁMIE TAK ÚRODNOU PŮDOU PRO VZNIK PRÁVNÍCH NOREM: (1) ZAVLAŽOVACÍ ZEMĚDĚLSTVÍ mezi Eufratem a Tigridem vyžadovalo KOORDINACI VELKÉHO POČTU LIDÍ na stavbě a údržbě kanálů a rozdělování vody — a tam, kde se musí koordinovat, musí být pravidla; (2) VYSOKÁ HUSTOTA OSÍDLENÍ A MĚSTA, tedy soužití lidí, kteří se navzájem neznají a nestačí jim příbuzenské normy; (3) DÁLKOVÝ OBCHOD, který potřebuje vymahatelné smlouvy, míry a váhy; (4) a hlavně VYNÁLEZ PÍSMA (klínové písmo, od konce 4. tisíciletí př. n. l.) — teprve psané slovo umožní normu uchovat, vyhlásit a dovolat se jí. ZÁKONY, KODEXY A PRAMENY, KTERÉ SE DAJÍ JMENOVAT: ZÁKONY UR-NAMMUOVY (kolem 2100 př. n. l., nejstarší dochovaný zákoník), ZÁKONY LIPIT-IŠTARA, ZÁKONY Z EŠNUNNY, CHAMMURAPIHO ZÁKONÍK (kolem 1750 př. n. l.), STŘEDOASYRSKÉ ZÁKONY, CHETITSKÉ ZÁKONY — plus desetitisíce hliněných tabulek se smlouvami, soudními protokoly a dopisy.",
+      "title": "Non-Western legal cultures, and why Mesopotamia",
+      "text": "THE 'NON-WESTERN' LEGAL CULTURES the course covers: the MESOPOTAMIAN (Sumerian, Babylonian, Assyrian), the EGYPTIAN, the JEWISH, the ISLAMIC, the CHINESE, the INDIAN (Hindu), and further the legal cultures without writing in Africa, the Americas and Oceania. The very label 'non-Western' is, however, problematic, BECAUSE IT DEFINES THE WHOLE REST OF THE WORLD NEGATIVELY IN RELATION TO THE WEST — which is exactly the Eurocentrism the course is meant to avoid. WHY MESOPOTAMIA WAS SUCH FERTILE GROUND FOR THE EMERGENCE OF LEGAL NORMS: (1) IRRIGATION AGRICULTURE between the Euphrates and the Tigris required THE COORDINATION OF LARGE NUMBERS OF PEOPLE in building and maintaining canals and distributing water — and where coordination is required, there must be rules; (2) A HIGH DENSITY OF SETTLEMENT AND CITIES, that is, the coexistence of people who do not know one another and for whom kinship norms do not suffice; (3) LONG-DISTANCE TRADE, which needs enforceable contracts, weights and measures; (4) and above all THE INVENTION OF WRITING (cuneiform, from the end of the 4th millennium BC) — only the written word makes it possible to preserve a norm, to promulgate it and to invoke it. THE LAWS, CODES AND SOURCES THAT CAN BE NAMED: the LAWS OF UR-NAMMU (around 2100 BC, the oldest surviving code), the LAWS OF LIPIT-ISHTAR, the LAWS OF ESHNUNNA, the CODE OF HAMMURABI (around 1750 BC), the MIDDLE ASSYRIAN LAWS, the HITTITE LAWS — plus tens of thousands of clay tablets with contracts, court records and letters.",
       "terms": [
         {
-          "term": "úrodný půlměsíc",
-          "def": "Pás úrodné země od Perského zálivu přes Mezopotámii a Levantu k Egyptu — kolébka zemědělství, měst a písma."
+          "term": "the Fertile Crescent",
+          "def": "The belt of fertile land from the Persian Gulf through Mesopotamia and the Levant to Egypt — the cradle of agriculture, cities and writing."
         }
       ],
       "cards": [
         {
-          "q": "Proč byla Mezopotámie tak úrodnou půdou pro vznik právních norem? Čtyři důvody.",
-          "a": "1) ZAVLAŽOVACÍ ZEMĚDĚLSTVÍ vyžadovalo KOORDINACI mnoha lidí na kanálech a rozdělování vody. 2) VYSOKÁ HUSTOTA OSÍDLENÍ A MĚSTA — soužití lidí, kteří se neznají, kde nestačí příbuzenské normy. 3) DÁLKOVÝ OBCHOD potřebující vymahatelné smlouvy, míry a váhy. 4) VYNÁLEZ PÍSMA (klínové, od konce 4. tisíciletí př. n. l.) — teprve psané slovo normu uchová, vyhlásí a umožní se jí dovolat.",
+          "q": "Why was Mesopotamia such fertile ground for the emergence of legal norms? Four reasons.",
+          "a": "1) IRRIGATION AGRICULTURE required THE COORDINATION of many people on canals and the distribution of water. 2) A HIGH DENSITY OF SETTLEMENT AND CITIES — the coexistence of people who do not know one another, where kinship norms do not suffice. 3) LONG-DISTANCE TRADE needing enforceable contracts, weights and measures. 4) THE INVENTION OF WRITING (cuneiform, from the end of the 4th millennium BC) — only the written word preserves a norm, promulgates it and allows it to be invoked.",
           "difficulty": 3,
           "kind": "znaky",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jmenuj mezopotamské zákoníky.",
-          "a": "ZÁKONY UR-NAMMUOVY (kolem 2100 př. n. l., NEJSTARŠÍ DOCHOVANÝ), ZÁKONY LIPIT-IŠTARA, ZÁKONY Z EŠNUNNY, CHAMMURAPIHO ZÁKONÍK (kolem 1750 př. n. l.), STŘEDOASYRSKÉ ZÁKONY a CHETITSKÉ ZÁKONY — k tomu desetitisíce hliněných tabulek se smlouvami a soudními protokoly.",
+          "q": "Name the Mesopotamian law codes.",
+          "a": "The LAWS OF UR-NAMMU (around 2100 BC, THE OLDEST SURVIVING), the LAWS OF LIPIT-ISHTAR, the LAWS OF ESHNUNNA, the CODE OF HAMMURABI (around 1750 BC), the MIDDLE ASSYRIAN LAWS and the HITTITE LAWS — plus tens of thousands of clay tablets with contracts and court records.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Proč je označení „nezápadní právní kultury“ problematické?",
-          "a": "Protože VYMEZUJE CELÝ ZBYTEK SVĚTA NEGATIVNĚ VŮČI ZÁPADU — dělá ze Západu měřítko a ze všeho ostatního odchylku. Je to přesně ten eurocentrismus, kterému se globální právní dějiny mají vyhnout.",
+          "q": "Why is the label 'non-Western legal cultures' problematic?",
+          "a": "Because it DEFINES THE WHOLE REST OF THE WORLD NEGATIVELY IN RELATION TO THE WEST — it makes the West the standard and everything else a deviation. It is exactly the Eurocentrism that global legal history is meant to avoid.",
           "difficulty": 2,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -240,26 +240,26 @@
       "vision_used": false
     },
     "10": {
-      "title": "Chammurapiho zákoník",
-      "text": "CHAMMURAPIHO ZÁKONÍK (kolem 1750 př. n. l.) je sbírka právních vět babylonského krále CHAMMURAPIHO, vytesaná KLÍNOVÝM PÍSMEM NA ČEDIČOVOU STÉLU vysokou přes dva metry; dnes je v LOUVRU, kam se dostala poté, co ji roku 1901 našli francouzští archeologové v SÚSÁCH — tedy ne v Babylonu, protože ji tam odvlekli Elamité jako válečnou kořist. Skládá se z PROLOGU, asi 282 PRÁVNÍCH VĚT A EPILOGU. V reliéfu nad textem předává bůh slunce a spravedlnosti ŠAMAŠ králi odznaky moci — LEGITIMACE JE TEDY BOŽSKÁ, ale text sám je světský. Právní věty mají KAZUISTICKOU PODOBU 'JESTLIŽE – POTOM' (šumma), neformulují obecné zásady, nýbrž řeší jednotlivé případy, a pokrývají trestní právo, rodinné a majetkové vztahy, ceny a mzdy, odpovědnost řemeslníků i lékařů. Nejznámější zásadou je TALION, 'oko za oko, zub za zub' — ALE POZOR, TALION PLATÍ JEN MEZI ROVNÝMI: trest závisí na STAVOVSKÉM POSTAVENÍ pachatele i oběti (awílum – svobodný, muškénum – závislý, wardum – otrok), takže za tutéž újmu způsobenou otroku se platí náhrada, ne odplata. A SPORNÁ OTÁZKA, KTEROU JE DOBRÉ ZNÁT: NENÍ JISTÉ, ZDA ŠLO O PLATNÝ ZÁKONÍK V DNEŠNÍM SMYSLU — v dochovaných soudních protokolech se na něj strany prakticky neodvolávají, takže může jít spíš o SBÍRKU VZOROVÝCH ROZHODNUTÍ, o KRÁLOVSKOU SEBEPREZENTACI jako spravedlivého vládce, nebo o obojí.",
+      "title": "The Code of Hammurabi",
+      "text": "THE CODE OF HAMMURABI (around 1750 BC) is a collection of legal propositions of the Babylonian king HAMMURABI, carved IN CUNEIFORM ON A BASALT STELE more than two metres high; it is today in the LOUVRE, where it came after French archaeologists found it in 1901 at SUSA — that is, not at Babylon, because the Elamites had carried it off as spoils of war. It consists of a PROLOGUE, some 282 LEGAL PROPOSITIONS AND AN EPILOGUE. In the relief above the text, SHAMASH, the god of the sun and of justice, hands the king the insignia of power — THE LEGITIMATION IS THEREFORE DIVINE, but the text itself is secular. The legal propositions have the CASUISTIC FORM 'IF — THEN' (šumma), do not formulate general principles but resolve individual cases, and cover criminal law, family and property relations, prices and wages, and the liability of craftsmen and physicians alike. The best-known principle is the TALION, 'an eye for an eye, a tooth for a tooth' — BUT NOTE, THE TALION APPLIES ONLY BETWEEN EQUALS: the punishment depends on the STATUS of the offender and of the victim (awīlum — a free man, muškēnum — a dependant, wardum — a slave), so that for the same injury done to a slave compensation is paid, not retaliation. AND A CONTESTED QUESTION WORTH KNOWING: IT IS NOT CERTAIN WHETHER IT WAS A CODE IN FORCE IN TODAY'S SENSE — in the surviving court records the parties practically never invoke it, so it may rather be a COLLECTION OF MODEL DECISIONS, a ROYAL SELF-PRESENTATION as a just ruler, or both.",
       "terms": [
         {
           "term": "talion",
-          "def": "Odplata stejným — „oko za oko“; v Chammurapiho zákoníku platí jen mezi osobami téhož stavu."
+          "def": "Retaliation in kind — 'an eye for an eye'; in the Code of Hammurabi it applies only between persons of the same status."
         }
       ],
       "cards": [
         {
-          "q": "Co je Chammurapiho zákoník a jak vypadá?",
-          "a": "Sbírka právních vět babylonského krále Chammurapiho (kolem 1750 př. n. l.), vytesaná KLÍNOVÝM PÍSMEM NA ČEDIČOVOU STÉLU; nalezena 1901 v SÚSÁCH (kam ji odvlekli Elamité), dnes v LOUVRU. PROLOG, asi 282 PRÁVNÍCH VĚT, EPILOG. V reliéfu předává bůh ŠAMAŠ králi odznaky moci — legitimace je BOŽSKÁ, text světský. Věty jsou KAZUISTICKÉ, 'jestliže – potom'.",
+          "q": "What is the Code of Hammurabi and what does it look like?",
+          "a": "A collection of legal propositions of the Babylonian king Hammurabi (around 1750 BC), carved IN CUNEIFORM ON A BASALT STELE; found in 1901 at SUSA (where the Elamites had carried it off), today in the LOUVRE. A PROLOGUE, some 282 LEGAL PROPOSITIONS, an EPILOGUE. In the relief the god SHAMASH hands the king the insignia of power — the legitimation is DIVINE, the text secular. The propositions are CASUISTIC, 'if — then'.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jak přesně funguje talion u Chammurapiho a co je na zákoníku sporné?",
-          "a": "TALION PLATÍ JEN MEZI ROVNÝMI — trest závisí na STAVOVSKÉM POSTAVENÍ (awílum svobodný, muškénum závislý, wardum otrok), takže za újmu způsobenou otroku se platí NÁHRADA, ne odplata. SPORNÉ JE, zda vůbec šlo o platný zákoník: v soudních protokolech se na něj strany prakticky neodvolávají, takže může jít o SBÍRKU VZOROVÝCH ROZHODNUTÍ nebo o KRÁLOVSKOU SEBEPREZENTACI spravedlivého vládce.",
+          "q": "How exactly does the talion work in Hammurabi and what is contested about the code?",
+          "a": "THE TALION APPLIES ONLY BETWEEN EQUALS — the punishment depends on STATUS (awīlum a free man, muškēnum a dependant, wardum a slave), so that for injury done to a slave COMPENSATION is paid, not retaliation. WHAT IS CONTESTED is whether it was a code in force at all: in the court records the parties practically never invoke it, so it may be a COLLECTION OF MODEL DECISIONS or a ROYAL SELF-PRESENTATION as a just ruler.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -269,13 +269,13 @@
       "vision_used": false
     },
     "11": {
-      "title": "Úrodný půlměsíc",
-      "text": "'ÚRODNÝ PŮLMĚSÍC' (FERTILE CRESCENT) je pojem, který roku 1916 zavedl americký orientalista JAMES HENRY BREASTED pro PÁS ÚRODNÉ ZEMĚ VE TVARU SRPU, který se táhne OD PERSKÉHO ZÁLIVU PROTI TOKU EUFRATU A TIGRIDU MEZOPOTÁMIÍ, dále na severozápad přes dnešní SÝRII, obloukem dolů LEVANTOU (Libanon, Izrael, Palestina, Jordánsko) A KONČÍ V EGYPTĚ U NILU; z jihu ho ohraničuje Arabská poušť, ze severu hory Anatolie a Íránu. PRO PRÁVNÍ DĚJINY JE DŮLEŽITÝ PROTO, ŽE JE TO OBLAST, KDE SE POPRVÉ SEŠLO VŠECHNO, CO PRÁVO POTŘEBUJE KE VZNIKU: neolitická revoluce a usedlé zemědělství, domestikace zvířat, první města, státní organizace, dálkový obchod a písmo. Odtud pocházejí nejstarší zákoníky, a zároveň tři monoteistická náboženství, jejichž právní řády předmět probírá.",
+      "title": "The Fertile Crescent",
+      "text": "The 'FERTILE CRESCENT' is a term introduced in 1916 by the American orientalist JAMES HENRY BREASTED for the BELT OF FERTILE LAND IN THE SHAPE OF A SICKLE which runs FROM THE PERSIAN GULF UP THE EUPHRATES AND THE TIGRIS THROUGH MESOPOTAMIA, then north-west across present-day SYRIA, curving down through the LEVANT (Lebanon, Israel, Palestine, Jordan) AND ENDING IN EGYPT AT THE NILE; it is bounded to the south by the Arabian desert and to the north by the mountains of Anatolia and Iran. IT MATTERS FOR LEGAL HISTORY BECAUSE IT IS THE REGION WHERE EVERYTHING LAW NEEDS IN ORDER TO ARISE CAME TOGETHER FOR THE FIRST TIME: the Neolithic revolution and settled agriculture, the domestication of animals, the first cities, state organization, long-distance trade and writing. From there come the oldest law codes, and at the same time the three monotheistic religions whose legal orders the course covers.",
       "terms": [],
       "cards": [
         {
-          "q": "Co je úrodný půlměsíc a proč na něm v právních dějinách záleží?",
-          "a": "Pás úrodné země ve tvaru srpu OD PERSKÉHO ZÁLIVU PROTI TOKU EUFRATU A TIGRIDU, přes Sýrii obloukem LEVANTOU do EGYPTA (pojem zavedl James Henry Breasted roku 1916). Záleží na něm proto, že tam se POPRVÉ SEŠLO VŠECHNO, CO PRÁVO POTŘEBUJE: usedlé zemědělství, první města, státní organizace, dálkový obchod a PÍSMO — a odtud pocházejí nejstarší zákoníky i tři monoteistická náboženství.",
+          "q": "What is the Fertile Crescent and why does it matter in legal history?",
+          "a": "A sickle-shaped belt of fertile land FROM THE PERSIAN GULF UP THE EUPHRATES AND THE TIGRIS, across Syria and curving through the LEVANT into EGYPT (the term introduced by James Henry Breasted in 1916). It matters because there EVERYTHING LAW NEEDS CAME TOGETHER FOR THE FIRST TIME: settled agriculture, the first cities, state organization, long-distance trade and WRITING — and from there come the oldest codes and the three monotheistic religions.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -285,30 +285,30 @@
       "vision_used": false
     },
     "12": {
-      "title": "Diaspora a prameny židovského práva",
-      "text": "'DIASPORA' je řecky ROZPTÝLENÍ a označuje život židovských obcí mimo zemi izraelskou — po zničení PRVNÍHO CHRÁMU (586 př. n. l., babylonské zajetí) a definitivně po zničení DRUHÉHO CHRÁMU ROKU 70 N. L. a porážce Bar Kochbova povstání (135). DŮSLEDKY PRO PRÁVO JSOU ZÁSADNÍ A JSOU PŘESNĚ TÍM, NA CO SE OTÁZKA PTÁ: (1) ZÁNIKEM CHRÁMU ZANIKL CELÝ OBĚTNÍ KULT A S NÍM KNĚŽSTVO — náboženství se přesunulo od chrámu k SYNAGOZE A K UČENÍ, a autoritou se místo kněze stal UČENEC (RABÍN). (2) ZÁNIKEM STÁTU ZANIKLA MOŽNOST PRÁVO STÁTNĚ VYNUCOVAT; židovské právo se stalo právem KOMUNITNÍM, jehož závaznost stojí na příslušnosti k obci a jehož nejtvrdší sankcí je VYLOUČENÍ (CHEREM). (3) ROZPTÝLENÍ znamenalo, že obce žily pod cizími panovníky a právními řády — vzniká zásada 'DINA DE-MALCHUTA DINA', PRÁVO KRÁLOVSTVÍ JE PRÁVO, tedy uznání světského práva země v jeho oboru. (4) A hlavně: PRÁVO SE STALO HLAVNÍM POJÍTKEM ROZPTÝLENÉHO NÁRODA — bez území a bez státu drželo identitu pohromadě právě dodržování přikázání. HLAVNÍM PSANÝM PRAMENEM je TÓRA, Pět knih Mojžíšových (Pentateuch), psaná Tóra. K ní patří TÓRA ÚSTNÍ, zapsaná nakonec do MIŠNY (kolem 200 n. l.) a s komentářem (GEMARA) tvořící TALMUD — babylonský (autoritativnější) a jeruzalémský. Dalšími prameny jsou MIDRAŠ (výklad Písma), RESPONSA (ŠE'ELOT U-TŠUVOT, odpovědi rabínů na dotazy obcí, tedy živá praxe), a pozdější KODIFIKACE: Maimonidova MIŠNE TÓRA (12. stol.) a Karův ŠULCHAN ARUCH (16. stol.).",
+      "title": "The diaspora and the sources of Jewish law",
+      "text": "'DIASPORA' is Greek for DISPERSION and denotes the life of Jewish communities outside the land of Israel — after the destruction of the FIRST TEMPLE (586 BC, the Babylonian captivity) and definitively after the destruction of the SECOND TEMPLE IN AD 70 and the defeat of the Bar Kokhba revolt (135). THE CONSEQUENCES FOR LAW ARE FUNDAMENTAL AND ARE EXACTLY WHAT THE QUESTION ASKS ABOUT: (1) WITH THE TEMPLE PERISHED THE WHOLE SACRIFICIAL CULT AND WITH IT THE PRIESTHOOD — religion shifted from the temple to the SYNAGOGUE AND TO LEARNING, and the authority became, instead of the priest, the SCHOLAR (the RABBI). (2) WITH THE STATE PERISHED THE POSSIBILITY OF ENFORCING LAW BY THE STATE; Jewish law became a COMMUNAL law, whose bindingness rests on membership of the community and whose harshest sanction is EXCLUSION (HEREM). (3) DISPERSION meant that the communities lived under foreign rulers and legal orders — hence the principle 'DINA DE-MALKHUTA DINA', THE LAW OF THE KINGDOM IS LAW, that is, the recognition of the secular law of the country within its own sphere. (4) And above all: LAW BECAME THE CHIEF BOND OF A DISPERSED PEOPLE — without territory and without a state, identity was held together precisely by the observance of the commandments. THE PRINCIPAL WRITTEN SOURCE is the TORAH, the Five Books of Moses (the Pentateuch), the written Torah. To it belongs the ORAL TORAH, finally written down in the MISHNAH (around AD 200) and, with its commentary (the GEMARA), forming the TALMUD — the Babylonian (the more authoritative) and the Jerusalem. Further sources are the MIDRASH (the exposition of Scripture), the RESPONSA (SHE'ELOT U-TESHUVOT, the rabbis' answers to communities' questions, that is, living practice), and the later CODIFICATIONS: Maimonides' MISHNEH TORAH (12th c.) and Caro's SHULCHAN ARUCH (16th c.).",
       "terms": [
         {
-          "term": "dina de-malchuta dina",
-          "def": "„Právo království je právo“ — uznání světského práva země v jeho oboru."
+          "term": "dina de-malkhuta dina",
+          "def": "'The law of the kingdom is law' — the recognition of the secular law of the country within its own sphere."
         },
         {
-          "term": "cherem",
-          "def": "Vyloučení z obce — nejtvrdší sankce práva bez státního donucení."
+          "term": "herem",
+          "def": "Exclusion from the community — the harshest sanction of a law without state coercion."
         }
       ],
       "cards": [
         {
-          "q": "Co znamená diaspora a jaké čtyři důsledky měla pro židovské právo?",
-          "a": "Řecky ROZPTÝLENÍ — život mimo zemi izraelskou po zničení prvního (586 př. n. l.) a druhého chrámu (70 n. l.). 1) ZÁNIK CHRÁMU = zánik obětního kultu a kněžstva, autoritou se stal UČENEC. 2) ZÁNIK STÁTU = právo nelze státně vynucovat, stává se KOMUNITNÍM s nejtvrdší sankcí CHEREM. 3) Život pod cizími panovníky = zásada DINA DE-MALCHUTA DINA. 4) PRÁVO SE STALO HLAVNÍM POJÍTKEM ROZPTÝLENÉHO NÁRODA.",
+          "q": "What does diaspora mean and what four consequences did it have for Jewish law?",
+          "a": "Greek for DISPERSION — life outside the land of Israel after the destruction of the first (586 BC) and second Temple (AD 70). 1) THE END OF THE TEMPLE = the end of the sacrificial cult and the priesthood, the authority became the SCHOLAR. 2) THE END OF THE STATE = law cannot be enforced by the state, it becomes COMMUNAL, with HEREM as its harshest sanction. 3) Life under foreign rulers = the principle DINA DE-MALKHUTA DINA. 4) LAW BECAME THE CHIEF BOND OF A DISPERSED PEOPLE.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Jewish Legal History",
           "priority": "core"
         },
         {
-          "q": "Jmenuj prameny židovského práva.",
-          "a": "TÓRA (Pět knih Mojžíšových) jako psaná Tóra; ÚSTNÍ TÓRA zapsaná do MIŠNY (kolem 200 n. l.), s komentářem GEMARA tvoří TALMUD (babylonský a jeruzalémský); MIDRAŠ (výklad Písma); RESPONSA (še'elot u-tšuvot — odpovědi rabínů na dotazy obcí); kodifikace MIŠNE TÓRA (Maimonides, 12. stol.) a ŠULCHAN ARUCH (Karo, 16. stol.).",
+          "q": "Name the sources of Jewish law.",
+          "a": "The TORAH (the Five Books of Moses) as the written Torah; the ORAL TORAH written down in the MISHNAH (around AD 200), which with the GEMARA forms the TALMUD (Babylonian and Jerusalem); the MIDRASH (the exposition of Scripture); the RESPONSA (she'elot u-teshuvot — the rabbis' answers to communities' questions); the codifications MISHNEH TORAH (Maimonides, 12th c.) and SHULCHAN ARUCH (Caro, 16th c.).",
           "difficulty": 2,
           "kind": "znaky",
           "topic": "Jewish Legal History",
@@ -318,34 +318,34 @@
       "vision_used": false
     },
     "13": {
-      "title": "„Židovské právo je ovládáno lidmi, ne pravidly“",
-      "text": "Tohle je otázka, která na zkoušce padla a odpovídá na ni přímo povinná četba (BEN-MENAHEM). Ta věta NENÍ KRITIKA, nýbrž POPIS ZPŮSOBU, JAKÝM SE V ŽIDOVSKÉM PRÁVU URČUJE, CO PLATÍ. Argumenty pro: (1) PRÁVO JE V PODSTATĚ VÝKLADEM zjeveného textu, a protože výklad je lidský úkon, rozhoduje AUTORITA VYKLADAČE, ne text sám. (2) TALMUD ZACHOVÁVÁ I MENŠINOVÉ NÁZORY, což znamená, že vedle 'platného' pravidla stojí zapsané i to, které neprošlo — právo se tedy nepředkládá jako uzavřený soubor pravidel, nýbrž jako POKRAČUJÍCÍ ROZPRAVA. (3) Slavný příklad je PEC ACHNAJOVA (Bava Mecia 59b), kde rabi Eliezer dokládá svůj názor zázraky a nakonec i HLASEM Z NEBE — a rabi Jehošua odpoví slovy 'LO BA-ŠAMAJIM HI', NENÍ V NEBI: Tóra byla dána lidem, a tak o jejím výkladu rozhoduje VĚTŠINA UČENCŮ, ne nebeský hlas. Vypráví se, že Bůh se tehdy usmál a řekl 'MÉ DĚTI MĚ PŘEMOHLY'. (4) Institut RESPONSÍ znamená, že právo se tvoří odpověďmi konkrétních autorit na konkrétní dotazy, tedy zdola a průběžně. (5) A zásada, že RABÍNSKÝ SOUD MŮŽE ZA JISTÝCH OKOLNOSTÍ I ODSUNOUT PŘIKÁZÁNÍ, je-li to k zachování řádu. PROTIARGUMENT, KTERÝ PATŘÍ DO ÚPLNÉ ODPOVĚDI: právě proto, že text je pokládán za zjevený a neměnný, je vázanost na něj mimořádně silná — vykladač nesmí tvořit libovolně a sám je podroben pravidlům výkladu. SPRÁVNÁ ODPOVĚĎ TEDY ZNÍ: ANO, POKUD TÍM MYSLÍME, ŽE O OBSAHU PRÁVA ROZHODUJE LIDSKÁ INTERPRETAČNÍ AUTORITA, NE AUTOMATICKÁ APLIKACE TEXTU.",
+      "title": "'Jewish law is governed by people, not by rules'",
+      "text": "This is a question that has come up in the exam, and the required reading (BEN-MENAHEM) answers it directly. The sentence IS NOT A CRITICISM but a DESCRIPTION OF THE WAY IN WHICH JEWISH LAW DETERMINES WHAT APPLIES. The arguments for it: (1) LAW IS ESSENTIALLY THE INTERPRETATION of a revealed text, and since interpretation is a human act, what decides is THE AUTHORITY OF THE INTERPRETER, not the text itself. (2) THE TALMUD PRESERVES MINORITY OPINIONS TOO, which means that beside the 'valid' rule the one that did not prevail is also recorded — law is therefore not presented as a closed body of rules but as a CONTINUING DISPUTATION. (3) The famous example is THE OVEN OF AKHNAI (Bava Metzia 59b), where Rabbi Eliezer supports his view by miracles and finally by a VOICE FROM HEAVEN — and Rabbi Joshua answers with the words 'LO BA-SHAMAYIM HI', IT IS NOT IN HEAVEN: the Torah was given to human beings, and so its interpretation is decided by THE MAJORITY OF THE SCHOLARS, not by a heavenly voice. It is told that God then smiled and said 'MY CHILDREN HAVE DEFEATED ME'. (4) The institution of the RESPONSA means that law is made by the answers of particular authorities to particular questions, that is, from below and continuously. (5) And the principle that A RABBINICAL COURT MAY IN CERTAIN CIRCUMSTANCES EVEN SET ASIDE A COMMANDMENT, if that is needed to preserve the order. THE COUNTER-ARGUMENT THAT BELONGS IN A COMPLETE ANSWER: precisely because the text is held to be revealed and unchangeable, the bond to it is extraordinarily strong — the interpreter may not create at will and is himself subject to the rules of interpretation. THE CORRECT ANSWER IS THEREFORE: YES, IF BY THAT WE MEAN THAT THE CONTENT OF THE LAW IS DECIDED BY HUMAN INTERPRETIVE AUTHORITY AND NOT BY THE AUTOMATIC APPLICATION OF A TEXT.",
       "terms": [
         {
-          "term": "lo ba-šamajim hi",
-          "def": "„Není v nebi“ — Tóra byla dána lidem, takže o jejím výkladu rozhoduje většina učenců, ne hlas z nebe."
+          "term": "lo ba-shamayim hi",
+          "def": "'It is not in heaven' — the Torah was given to human beings, so its interpretation is decided by the majority of the scholars, not by a voice from heaven."
         }
       ],
       "cards": [
         {
-          "q": "V jakém smyslu je židovské právo „ovládáno lidmi, ne pravidly“?",
-          "a": "V tom, že O OBSAHU PRÁVA ROZHODUJE LIDSKÁ INTERPRETAČNÍ AUTORITA, NE AUTOMATICKÁ APLIKACE TEXTU: právo je výkladem zjeveného textu, Talmud zachovává i MENŠINOVÉ NÁZORY (právo jako pokračující rozprava), responsa tvoří právo zdola, a podle PECE ACHNAJOVY rozhoduje VĚTŠINA UČENCŮ i proti hlasu z nebe.",
+          "q": "In what sense is Jewish law 'governed by people, not by rules'?",
+          "a": "In that THE CONTENT OF THE LAW IS DECIDED BY HUMAN INTERPRETIVE AUTHORITY AND NOT BY THE AUTOMATIC APPLICATION OF A TEXT: law is the interpretation of a revealed text, the Talmud preserves MINORITY OPINIONS too (law as a continuing disputation), the responsa make law from below, and according to THE OVEN OF AKHNAI the MAJORITY OF THE SCHOLARS decides even against a voice from heaven.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Jewish Legal History",
           "priority": "core"
         },
         {
-          "q": "Co je pec Achnajova a jak zní její pointa?",
-          "a": "Talmudský příběh (Bava Mecia 59b): rabi Eliezer dokládá svůj názor zázraky a nakonec HLASEM Z NEBE, ale rabi Jehošua odpoví 'LO BA-ŠAMAJIM HI' — NENÍ V NEBI. Tóra byla dána lidem, takže o výkladu rozhoduje VĚTŠINA UČENCŮ. Bůh se prý usmál a řekl 'MÉ DĚTI MĚ PŘEMOHLY'.",
+          "q": "What is the Oven of Akhnai and what is its point?",
+          "a": "A Talmudic story (Bava Metzia 59b): Rabbi Eliezer supports his view by miracles and finally by a VOICE FROM HEAVEN, but Rabbi Joshua answers 'LO BA-SHAMAYIM HI' — IT IS NOT IN HEAVEN. The Torah was given to human beings, so its interpretation is decided by THE MAJORITY OF THE SCHOLARS. God, it is said, smiled and said 'MY CHILDREN HAVE DEFEATED ME'.",
           "difficulty": 2,
           "kind": "pripad",
           "topic": "Jewish Legal History",
           "priority": "core"
         },
         {
-          "q": "Jaký protiargument patří do úplné odpovědi?",
-          "a": "Že právě proto, že je text pokládán za ZJEVENÝ A NEMĚNNÝ, je vázanost na něj MIMOŘÁDNĚ SILNÁ — vykladač nesmí tvořit libovolně a sám je podroben pravidlům výkladu. „Ovládáno lidmi“ tedy neznamená libovůli.",
+          "q": "What counter-argument belongs in a complete answer?",
+          "a": "That precisely because the text is held to be REVEALED AND UNCHANGEABLE, the bond to it is EXTRAORDINARILY STRONG — the interpreter may not create at will and is himself subject to the rules of interpretation. 'Governed by people' therefore does not mean arbitrariness.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Jewish Legal History",
@@ -355,30 +355,30 @@
       "vision_used": false
     },
     "14": {
-      "title": "Vznik raného islámského práva a jeho rysy",
-      "text": "KDY, KDE A JAK: Islámské právo vzniká na ARABSKÉM POLOOSTROVĚ v 7. STOLETÍ, počínaje MUHAMMADOVÝM PŮSOBENÍM V MEKCE (od 610) A ZEJMÉNA V MEDÍNĚ (po HIDŽŘE ROKU 622, od níž se počítá islámský letopočet). V Medíně Muhammad nebyl jen prorokem, ale i VŮDCEM OBCE A SOUDCEM, takže zjevení a právní rozhodování splývají. Po jeho smrti (632) se rozšiřuje s ARABSKÝMI VÝBOJI přes Sýrii, Irák, Persii, Egypt a severní Afriku až do Španělska, a přejímá přitom mnohé z PŘEDISLÁMSKÝCH ZVYKŮ A ZE SPRÁVNÍCH PRAKTIK DOBYTÝCH ÚZEMÍ (byzantských a sásánovských). RYSY RANÉHO ISLÁMSKÉHO PRÁVA: (1) NÁBOŽENSKÝ PŮVOD A NÁROK — právo je součástí zjevené vůle Boží, ne výtvorem zákonodárce, a proto je v zásadě NEMĚNITELNÉ LIDMI. (2) UČENECKÉ, NE STÁTNÍ — právo rozvíjejí ULEMÁ (učenci) ve školách, ne panovník; chalífa právo vykonává, ale netvoří. (3) KAZUISTICKÉ A DISKURZIVNÍ — vzniká řešením případů a zaznamenáváním neshod (ICHTILÁF), takže i tu platí rozprava víc než kodex. (4) NEODDĚLUJE PRÁVO OD NÁBOŽENSTVÍ ANI OD ETIKY — jedno jednání se hodnotí na pětistupňové škále od povinného po zakázané. (5) POSTUPNÁ SYSTEMATIZACE: v 8.–9. století vznikají PRÁVNÍ ŠKOLY (MADHÁHIB) a nauka o pramenech, kterou zakládá právě AŠ-ŠÁFI'Í.",
+      "title": "The rise of early Islamic law and its features",
+      "text": "WHEN, WHERE AND HOW: Islamic law arises on the ARABIAN PENINSULA in the 7TH CENTURY, beginning with MUHAMMAD'S ACTIVITY IN MECCA (from 610) AND ESPECIALLY IN MEDINA (after the HIJRA IN 622, from which the Islamic era is counted). In Medina Muhammad was not only a prophet but also the LEADER OF THE COMMUNITY AND ITS JUDGE, so that revelation and legal decision-making merge. After his death (632) it spreads with the ARAB CONQUESTS through Syria, Iraq, Persia, Egypt and North Africa as far as Spain, and in doing so takes over much from PRE-ISLAMIC CUSTOM AND FROM THE ADMINISTRATIVE PRACTICES OF THE CONQUERED TERRITORIES (Byzantine and Sasanian). THE FEATURES OF EARLY ISLAMIC LAW: (1) A RELIGIOUS ORIGIN AND CLAIM — law is part of the revealed will of God, not the creation of a legislator, and is therefore in principle UNALTERABLE BY HUMAN BEINGS. (2) SCHOLARLY, NOT STATE — law is developed by the ULEMA (the scholars) in the schools, not by the ruler; the caliph executes the law but does not make it. (3) CASUISTIC AND DISCURSIVE — it arises by resolving cases and recording disagreements (IKHTILAF), so that here too disputation counts for more than a code. (4) IT DOES NOT SEPARATE LAW FROM RELIGION OR FROM ETHICS — a single act is evaluated on a five-point scale from obligatory to forbidden. (5) GRADUAL SYSTEMATIZATION: in the 8th–9th centuries the LEGAL SCHOOLS (MADHAHIB) arise and the doctrine of the sources of law, founded precisely by AL-SHAFI'I.",
       "terms": [
         {
-          "term": "hidžra",
-          "def": "Muhammadův odchod z Mekky do Medíny roku 622; počátek islámského letopočtu."
+          "term": "hijra",
+          "def": "Muhammad's departure from Mecca to Medina in 622; the beginning of the Islamic era."
         },
         {
-          "term": "ichtiláf",
-          "def": "Neshoda mezi učenci — v islámském právu zaznamenávaná, ne odstraňovaná."
+          "term": "ikhtilaf",
+          "def": "Disagreement among the scholars — in Islamic law recorded, not eliminated."
         }
       ],
       "cards": [
         {
-          "q": "Kdy, kde a jak vzniklo islámské právo?",
-          "a": "Na ARABSKÉM POLOOSTROVĚ v 7. STOLETÍ: Muhammadovým působením v Mekce (od 610) a zejména v MEDÍNĚ po HIDŽŘE ROKU 622, kde byl zároveň prorokem, VŮDCEM OBCE A SOUDCEM. Po jeho smrti (632) se šíří s arabskými výboji a přejímá PŘEDISLÁMSKÉ ZVYKY A SPRÁVNÍ PRAKTIKY dobytých byzantských a sásánovských území.",
+          "q": "When, where and how did Islamic law arise?",
+          "a": "On the ARABIAN PENINSULA in the 7TH CENTURY: through Muhammad's activity in Mecca (from 610) and especially in MEDINA after the HIJRA IN 622, where he was at once prophet, LEADER OF THE COMMUNITY AND JUDGE. After his death (632) it spreads with the Arab conquests and takes over PRE-ISLAMIC CUSTOM AND THE ADMINISTRATIVE PRACTICES of the conquered Byzantine and Sasanian territories.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jaké jsou rysy raného islámského práva?",
-          "a": "1) NÁBOŽENSKÝ PŮVOD — právo je zjevená vůle Boží, lidmi v zásadě NEMĚNITELNÁ. 2) UČENECKÉ, NE STÁTNÍ — rozvíjejí ho ULEMÁ ve školách, chalífa právo vykonává, ale netvoří. 3) KAZUISTICKÉ A DISKURZIVNÍ, se zaznamenáváním neshod (ICHTILÁF). 4) NEODDĚLUJE PRÁVO OD NÁBOŽENSTVÍ ANI ETIKY. 5) POSTUPNÁ SYSTEMATIZACE v 8.–9. století: právní školy a nauka o pramenech.",
+          "q": "What are the features of early Islamic law?",
+          "a": "1) A RELIGIOUS ORIGIN — law is the revealed will of God, in principle UNALTERABLE by human beings. 2) SCHOLARLY, NOT STATE — developed by the ULEMA in the schools; the caliph executes but does not make law. 3) CASUISTIC AND DISCURSIVE, recording disagreements (IKHTILAF). 4) IT DOES NOT SEPARATE LAW FROM RELIGION OR ETHICS. 5) GRADUAL SYSTEMATIZATION in the 8th–9th centuries: the legal schools and the doctrine of the sources.",
           "difficulty": 3,
           "kind": "znaky",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -388,26 +388,26 @@
       "vision_used": false
     },
     "15": {
-      "title": "Pramen: aš-Šáfi'í, Risála — kdo byl a jaká škola",
-      "text": "PRAMEN: 'Každá tradice tradovaná spolehlivými osobami jako sahající k Prorokovi je autoritativní a lze ji odmítnout jen tehdy, odporuje-li jí jiná autoritativní tradice od Proroka… jsou-li obě stejně spolehlivé, zvolí se ta, která je více v souladu s Koránem a se zbývajícími nespornými částmi Prorokovy sunny; tradice od jiných osob nemají váhu tváří v tvář tradici od Proroka.' (Risála, 2. století hidžry / 8. století n. l., citováno podle J. Schachta, The Origins of Muhammadan Jurisprudence, 1950, s. 12.) KDO BYL: MUHAMMAD IBN IDRÍS AŠ-ŠÁFI'Í (767–820), právník činný v Iráku, Hidžázu a nakonec v Egyptě, pokládaný za ZAKLADATELE ISLÁMSKÉ PRÁVNÍ VĚDY (USÚL AL-FIQH), tedy nauky o pramenech práva; jeho spis RISÁLA je prvním systematickým výkladem toho, odkud se právo bere. ŠKOLA, KTERÁ SE K NĚMU HLÁSÍ, JE ŠÁFI'OVSKÁ (šáfi'itská). DALŠÍ SUNNITSKÉ ŠKOLY: HANAFIJSKÁ (Abú Hanífa, nejrozšířenější, právo Osmanské říše — a proto podklad MAJALLY), MÁLIKOVSKÁ (Málik ibn Anas, severní a západní Afrika), HANBALOVSKÁ (Ahmad ibn Hanbal, nejpřísnější, Arabský poloostrov). U ŠÍ'ITŮ je hlavní DŽA'FAROVSKÁ škola. Rozdíly mezi školami nejsou herezí: VŠECHNY JSOU UZNÁVÁNY ZA PLATNÉ, což je přesně ten rys ichtiláfu.",
+      "title": "Source: al-Shafi'i, the Risala — who he was and which school",
+      "text": "THE SOURCE: 'Every tradition transmitted by trustworthy persons as going back to the Prophet is authoritative and can be rejected only where another authoritative tradition from the Prophet contradicts it… where both are equally reliable, the one more in accordance with the Qur'an and with the remaining undisputed parts of the Prophet's sunna is to be chosen; traditions from other persons have no weight in the face of a tradition from the Prophet.' (the Risala, 2nd century of the hijra / 8th century AD, quoted from J. Schacht, The Origins of Muhammadan Jurisprudence, 1950, p. 12.) WHO HE WAS: MUHAMMAD IBN IDRIS AL-SHAFI'I (767–820), a jurist active in Iraq, the Hijaz and finally in Egypt, regarded as the FOUNDER OF ISLAMIC LEGAL SCIENCE (USUL AL-FIQH), that is, of the doctrine of the sources of law; his work the RISALA is the first systematic account of where law comes from. THE SCHOOL THAT LOOKS TO HIM IS THE SHAFI'I. THE OTHER SUNNI SCHOOLS: the HANAFI (Abu Hanifa, the most widespread, the law of the Ottoman Empire — and therefore the basis of the MAJALLA), the MALIKI (Malik ibn Anas, North and West Africa), the HANBALI (Ahmad ibn Hanbal, the strictest, the Arabian peninsula). Among the SHIITES the principal school is the JA'FARI. The differences between the schools are not heresy: ALL ARE RECOGNIZED AS VALID, which is precisely that feature of ikhtilaf.",
       "terms": [
         {
-          "term": "usúl al-fiqh",
-          "def": "Nauka o pramenech práva — kořeny právní vědy; jejím zakladatelem je aš-Šáfi'í."
+          "term": "usul al-fiqh",
+          "def": "The doctrine of the sources of law — the roots of legal science; its founder is al-Shafi'i."
         }
       ],
       "cards": [
         {
-          "q": "Kdo byl aš-Šáfi'í a čím je zásadní?",
-          "a": "MUHAMMAD IBN IDRÍS AŠ-ŠÁFI'Í (767–820), právník činný v Iráku, Hidžázu a Egyptě, pokládaný za ZAKLADATELE ISLÁMSKÉ PRÁVNÍ VĚDY (USÚL AL-FIQH) — nauky o pramenech práva. Jeho RISÁLA je prvním systematickým výkladem toho, odkud se právo bere. Hlásí se k němu ŠÁFI'OVSKÁ škola.",
+          "q": "Who was al-Shafi'i and why does he matter?",
+          "a": "MUHAMMAD IBN IDRIS AL-SHAFI'I (767–820), a jurist active in Iraq, the Hijaz and Egypt, regarded as the FOUNDER OF ISLAMIC LEGAL SCIENCE (USUL AL-FIQH) — the doctrine of the sources of law. His RISALA is the first systematic account of where law comes from. The SHAFI'I school looks to him.",
           "difficulty": 2,
           "kind": "basic",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jmenuj islámské právní školy.",
-          "a": "SUNNITSKÉ: HANAFIJSKÁ (Abú Hanífa, nejrozšířenější, právo Osmanské říše a podklad Majally), MÁLIKOVSKÁ (Málik ibn Anas, severní a západní Afrika), ŠÁFI'OVSKÁ (aš-Šáfi'í), HANBALOVSKÁ (Ahmad ibn Hanbal, nejpřísnější, Arabský poloostrov). U ŠÍ'ITŮ DŽA'FAROVSKÁ. Rozdíly NEJSOU HEREZÍ — všechny jsou uznávány za platné.",
+          "q": "Name the Islamic legal schools.",
+          "a": "SUNNI: the HANAFI (Abu Hanifa, the most widespread, the law of the Ottoman Empire and the basis of the Majalla), the MALIKI (Malik ibn Anas, North and West Africa), the SHAFI'I (al-Shafi'i), the HANBALI (Ahmad ibn Hanbal, the strictest, the Arabian peninsula). Among the SHIITES the JA'FARI. The differences ARE NOT HERESY — all are recognized as valid.",
           "difficulty": 2,
           "kind": "znaky",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -417,34 +417,34 @@
       "vision_used": false
     },
     "16": {
-      "title": "Pramen: Korán, sunna a hierarchie pramenů",
-      "text": "Druhá část otázky k Risále. KORÁN (QUR'ÁN) je pro muslimy DOSLOVNÉ, NESTVOŘENÉ BOŽÍ SLOVO zjevené Muhammadovi prostřednictvím archanděla Gabriela a shromážděné do závazné podoby za chalífy Uthmána; obsahuje 114 súr, ale PRÁVNÍCH VERŠŮ JE JEN NĚKOLIK SET, takže sám o sobě právní řád netvoří. SUNNA je 'ZVYKLOST' Proroka, tedy to, co Muhammad řekl, udělal nebo mlčky schválil; přenáší se v jednotlivých zprávách zvaných HADÍTHY, z nichž každý má TEXT (MATN) a ŘETĚZ TRADENTŮ (ISNÁD) — a právě spolehlivost isnádu rozhoduje, zda je hadíth přijatelný. DALŠÍ PRAMENY ŠARÍ'Y: IDŽMÁ (konsensus učenců obce) a QIJÁS (analogie); u některých škol dále IDŽTIHÁD (samostatné úsilí o nalezení řešení), ISTIHSÁN (upřednostnění spravedlivějšího řešení) a MASLAHA (obecné blaho). CO O JEJICH VZTAHU ŘÍKÁ AŠ-ŠÁFI'Í V CITOVANÉM ÚRYVKU: (1) tradice sahající k PROROKOVI je autoritativní a odmítnout ji lze jen jinou tradicí od Proroka; (2) při rovnocenné spolehlivosti se volí ta, která je VÍC V SOULADU S KORÁNEM A NESPORNOU SUNNOU — Korán tedy slouží jako měřítko; (3) tradice od JINÝCH OSOB než Proroka (tedy od druhů, následovníků, místních autorit) NEMAJÍ TVÁŘÍ V TVÁŘ PROROCKÉ TRADICI ŽÁDNOU VÁHU. Tím aš-Šáfi'í PODŘÍDIL MÍSTNÍ PRÁVNÍ ZVYKLOSTI JEDNOTNÉMU MĚŘÍTKU a to je jeho hlavní historický výkon.",
+      "title": "Source: the Qur'an, the sunna and the hierarchy of sources",
+      "text": "The second part of the question on the Risala. The QUR'AN is for Muslims the LITERAL, UNCREATED WORD OF GOD revealed to Muhammad through the archangel Gabriel and gathered into an authoritative form under the caliph Uthman; it contains 114 suras, but THERE ARE ONLY A FEW HUNDRED LEGAL VERSES, so that by itself it does not constitute a legal order. The SUNNA is the 'CUSTOM' of the Prophet, that is, what Muhammad said, did or tacitly approved; it is transmitted in individual reports called HADITH, each of which has a TEXT (MATN) and a CHAIN OF TRANSMITTERS (ISNAD) — and it is precisely the reliability of the isnad that decides whether a hadith is acceptable. THE FURTHER SOURCES OF SHARIA: IJMA (the consensus of the scholars of the community) and QIYAS (analogy); in some schools further IJTIHAD (independent effort to find a solution), ISTIHSAN (preference for the more equitable solution) and MASLAHA (the common good). WHAT AL-SHAFI'I SAYS ABOUT THEIR RELATION IN THE QUOTED EXTRACT: (1) a tradition going back to THE PROPHET is authoritative and can be rejected only by another tradition from the Prophet; (2) where reliability is equal, the one MORE IN ACCORDANCE WITH THE QUR'AN AND THE UNDISPUTED SUNNA is chosen — the Qur'an thus serves as the standard; (3) traditions from PERSONS OTHER than the Prophet (that is, from the Companions, the Successors, local authorities) HAVE NO WEIGHT IN THE FACE OF A PROPHETIC TRADITION. By this al-Shafi'i SUBORDINATED LOCAL LEGAL CUSTOM TO A SINGLE STANDARD, and that is his chief historical achievement.",
       "terms": [
         {
-          "term": "isnád / matn",
-          "def": "Řetěz tradentů hadíthu a jeho vlastní text; o přijatelnosti rozhoduje spolehlivost isnádu."
+          "term": "isnad / matn",
+          "def": "The chain of transmitters of a hadith and its actual text; acceptability is decided by the reliability of the isnad."
         }
       ],
       "cards": [
         {
-          "q": "Co je Korán a co sunna?",
-          "a": "KORÁN je DOSLOVNÉ, NESTVOŘENÉ BOŽÍ SLOVO zjevené Muhammadovi a shromážděné za chalífy Uthmána; 114 súr, ale PRÁVNÍCH VERŠŮ JEN NĚKOLIK SET, takže sám právní řád netvoří. SUNNA je ZVYKLOST PROROKA — co řekl, udělal nebo mlčky schválil; přenáší se v HADÍTHECH, z nichž každý má TEXT (MATN) a ŘETĚZ TRADENTŮ (ISNÁD).",
+          "q": "What is the Qur'an and what is the sunna?",
+          "a": "The QUR'AN is the LITERAL, UNCREATED WORD OF GOD revealed to Muhammad and gathered under the caliph Uthman; 114 suras, but ONLY A FEW HUNDRED LEGAL VERSES, so by itself it does not constitute a legal order. The SUNNA is the CUSTOM OF THE PROPHET — what he said, did or tacitly approved; it is transmitted in HADITH, each with a TEXT (MATN) and a CHAIN OF TRANSMITTERS (ISNAD).",
           "difficulty": 2,
           "kind": "definice",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Co aš-Šáfi'í říká o vztahu pramenů a jaký to mělo historický dopad?",
-          "a": "1) Tradice sahající k PROROKOVI je autoritativní a odmítnout ji lze jen jinou prorockou tradicí. 2) Při rovnocenné spolehlivosti vítězí ta VÍC V SOULADU S KORÁNEM a nespornou sunnou — Korán je měřítko. 3) Tradice od JINÝCH OSOB než Proroka nemají váhu. Tím PODŘÍDIL MÍSTNÍ PRÁVNÍ ZVYKLOSTI JEDNOTNÉMU MĚŘÍTKU.",
+          "q": "What does al-Shafi'i say about the relation of the sources and what was its historical effect?",
+          "a": "1) A tradition going back to THE PROPHET is authoritative and can be rejected only by another prophetic tradition. 2) Where reliability is equal, the one MORE IN ACCORDANCE WITH THE QUR'AN and the undisputed sunna prevails — the Qur'an is the standard. 3) Traditions from PERSONS OTHER than the Prophet have no weight. By this he SUBORDINATED LOCAL LEGAL CUSTOM TO A SINGLE STANDARD.",
           "difficulty": 3,
           "kind": "norma",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jaké jsou další prameny šarí'y kromě Koránu a sunny?",
-          "a": "IDŽMÁ (konsensus učenců obce) a QIJÁS (analogie); u některých škol dále IDŽTIHÁD (samostatné úsilí o nalezení řešení), ISTIHSÁN (upřednostnění spravedlivějšího řešení) a MASLAHA (obecné blaho).",
+          "q": "What are the further sources of sharia besides the Qur'an and the sunna?",
+          "a": "IJMA (the consensus of the scholars of the community) and QIYAS (analogy); in some schools further IJTIHAD (independent effort to find a solution), ISTIHSAN (preference for the more equitable solution) and MASLAHA (the common good).",
           "difficulty": 2,
           "kind": "znaky",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
@@ -454,34 +454,34 @@
       "vision_used": false
     },
     "17": {
-      "title": "Je šarí'a jen právní řád, nebo i mravní?",
-      "text": "Poslední podotázka k prameni a ta, která chce VLASTNÍ ODŮVODNĚNÝ NÁZOR. ODPOVĚĎ ZNÍ: OBOJÍ, A ROZLIŠENÍ MEZI PRÁVEM A MRAVNOSTÍ, KTERÉ POKLÁDÁME ZA SAMOZŘEJMÉ, JE TU NEPOUŽITELNÉ. Důvody: (1) ŠARÍ'A DOSLOVA ZNAMENÁ 'CESTA K NAPAJEDLU', tedy správnou cestu životem jako celkem, ne soubor vymahatelných norem. (2) UPRAVUJE STEJNĚ TAK OBŘADNÍ POVINNOSTI (IBÁDÁT — modlitba, půst, pouť, almužna) JAKO VZTAHY MEZI LIDMI (MU'ÁMALÁT — smlouvy, manželství, dědění, trestání), a obojí je součástí jednoho řádu. (3) Hodnocení jednání má PĚT STUPŇŮ, které ukazují, že škála je širší než 'dovoleno/zakázáno': POVINNÉ (WÁDŽIB / FARD), DOPORUČENÉ (MANDÚB), LHOSTEJNÉ (MUBÁH), ZAVRŽENÍHODNÉ (MAKRÚH) A ZAKÁZANÉ (HARÁM) — přičemž doporučené ani zavrženíhodné nejsou právně vynutitelné, a přesto patří do šarí'y. (4) Sankce není jen pozemská: konečné zúčtování je na ONOM SVĚTĚ, což je pro dodržování často silnější motiv než soud. PROTIARGUMENT PRO ÚPLNOST: část šarí'y je zcela právní v našem smyslu — má soud (QÁDÍ), řízení, důkazy a vymahatelné sankce (HUDÚD), a v praxi se právě tahle část oddělila a v moderních státech se kodifikovala. ROZDÍL, KTERÝ JE DOBRÉ UMĚT: ŠARÍ'A je ideální božský řád; FIQH je LIDSKÉ POROZUMĚNÍ tomu řádu, tedy právní věda — a to, co je omylné a mnohotvárné, je fiqh, ne šarí'a.",
+      "title": "Is sharia only a legal order, or a moral one as well?",
+      "text": "The last sub-question on the source, and the one that asks for AN ARGUED OPINION OF ONE'S OWN. THE ANSWER IS: BOTH, AND THE DISTINCTION BETWEEN LAW AND MORALITY THAT WE TAKE FOR GRANTED IS HERE UNUSABLE. The reasons: (1) SHARIA LITERALLY MEANS 'THE WAY TO THE WATERING PLACE', that is, the right way through life as a whole, not a body of enforceable norms. (2) IT GOVERNS RITUAL DUTIES (IBADAT — prayer, fasting, pilgrimage, alms) JUST AS MUCH AS RELATIONS BETWEEN PEOPLE (MU'AMALAT — contracts, marriage, succession, punishment), and both are part of one order. (3) The evaluation of conduct has FIVE DEGREES, which show that the scale is broader than 'permitted/forbidden': OBLIGATORY (WAJIB / FARD), RECOMMENDED (MANDUB), INDIFFERENT (MUBAH), REPREHENSIBLE (MAKRUH) AND FORBIDDEN (HARAM) — and neither the recommended nor the reprehensible is legally enforceable, and yet both belong to sharia. (4) The sanction is not merely earthly: the final reckoning is in the WORLD TO COME, which for observance is often a stronger motive than a court. THE COUNTER-ARGUMENT, FOR COMPLETENESS: part of sharia is wholly legal in our sense — it has a court (the QADI), procedure, evidence and enforceable sanctions (the HUDUD), and in practice it was precisely this part that separated off and was codified in the modern states. A DISTINCTION WORTH KNOWING: SHARIA is the ideal divine order; FIQH is the HUMAN UNDERSTANDING of that order, that is, legal science — and what is fallible and multiform is fiqh, not sharia.",
       "terms": [
         {
-          "term": "šarí'a × fiqh",
-          "def": "Šarí'a je ideální božský řád; fiqh je lidské porozumění tomu řádu, tedy právní věda — omylná a mnohotvárná."
+          "term": "sharia × fiqh",
+          "def": "Sharia is the ideal divine order; fiqh is the human understanding of that order, that is, legal science — fallible and multiform."
         }
       ],
       "cards": [
         {
-          "q": "Je šarí'a jen právní řád, nebo i mravní? Odůvodni.",
-          "a": "OBOJÍ — naše rozlišení práva a mravnosti je tu nepoužitelné. Šarí'a znamená 'CESTA K NAPAJEDLU', tedy správnou cestu životem; upravuje stejně tak OBŘADNÍ POVINNOSTI (ibádát) jako VZTAHY MEZI LIDMI (mu'ámalát); hodnotí jednání v PĚTI STUPNÍCH, z nichž doporučené a zavrženíhodné NEJSOU VYNUTITELNÉ; a konečná sankce je NA ONOM SVĚTĚ.",
+          "q": "Is sharia only a legal order or a moral one as well? Give reasons.",
+          "a": "BOTH — our distinction between law and morality is here unusable. Sharia means 'THE WAY TO THE WATERING PLACE', the right way through life; it governs RITUAL DUTIES (ibadat) just as much as RELATIONS BETWEEN PEOPLE (mu'amalat); it evaluates conduct in FIVE DEGREES, of which the recommended and the reprehensible are NOT ENFORCEABLE; and the final sanction is IN THE WORLD TO COME.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jakých pět stupňů hodnocení jednání zná šarí'a?",
-          "a": "POVINNÉ (wádžib / fard), DOPORUČENÉ (mandúb), LHOSTEJNÉ (mubáh), ZAVRŽENÍHODNÉ (makrúh) a ZAKÁZANÉ (harám). Doporučené ani zavrženíhodné nejsou právně vynutitelné, a přesto do šarí'y patří.",
+          "q": "Which five degrees of the evaluation of conduct does sharia know?",
+          "a": "OBLIGATORY (wajib / fard), RECOMMENDED (mandub), INDIFFERENT (mubah), REPREHENSIBLE (makruh) and FORBIDDEN (haram). Neither the recommended nor the reprehensible is legally enforceable, and yet both belong to sharia.",
           "difficulty": 2,
           "kind": "schema",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
           "priority": "core"
         },
         {
-          "q": "Jaký je rozdíl mezi šarí'ou a fiqhem?",
-          "a": "ŠARÍ'A je IDEÁLNÍ BOŽSKÝ ŘÁD. FIQH je LIDSKÉ POROZUMĚNÍ tomu řádu, tedy právní věda. To, co je OMYLNÉ A MNOHOTVÁRNÉ (a v čem se školy liší), je FIQH, ne šarí'a.",
+          "q": "What is the difference between sharia and fiqh?",
+          "a": "SHARIA is the IDEAL DIVINE ORDER. FIQH is the HUMAN UNDERSTANDING of that order, that is, legal science. What is FALLIBLE AND MULTIFORM (and on which the schools differ) is FIQH, not sharia.",
           "difficulty": 2,
           "kind": "rozliseni",
           "topic": "Ancient Legal Cultures; History of Islamic Law",
