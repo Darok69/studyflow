@@ -411,10 +411,32 @@
     {
       "n": 20,
       "img": "img/EU08/EU08_s020.webp",
-      "title": "The five workarounds, recapped",
-      "text": "",
+      "title": "The five workarounds in one list",
+      "text": "Everything since the start of this part condenses into one sentence and one list. The sentence: directives have NO HORIZONTAL DIRECT EFFECT, and there are NO EXCEPTIONS to that — but there are WORKAROUNDS, and in practice they leave very little of the rule's protective effect for the private defendant. The list, in the lecturer's own numbering: 1. INTERPRETING THE MEANING OF 'STATE' broadly, so that the defendant turns out to be an emanation of the state after all and the situation is vertical (Foster); 2. the duty of CONSISTENT INTERPRETATION of national law in the light of the directive — INDIRECT EFFECT (Von Colson, Marleasing), limited by contra legem and by legal certainty; 3. TRIANGULAR SITUATIONS and the INCIDENTAL EFFECT of directives, where the individual invokes the directive vertically against the state and a private third party bears the consequence (Delena Wells; the technical-standards line CIA Security, Unilever); 4. directives GIVING EXPRESSION TO A GENERAL PRINCIPLE of EU law, where the principle and not the directive does the work (Mangold, Kücükdeveci; and more recently Article 47 of the Charter in conjunction with a directive, KL C-715/20); 5. BENEFITS UNDER A REGULATION MADE CONDITIONAL on compliance with a directive (Viamex Agrar). In a problem question, work down that list in order: it is also roughly the order from the safest argument to the most adventurous one.",
       "terms": [],
-      "cards": [],
+      "cards": [
+        {
+          "q": "Name the five workarounds around the lack of horizontal direct effect of directives.",
+          "a": "1. A BROAD READING OF 'STATE' (emanation of the state → the case is vertical after all, Foster). 2. CONSISTENT INTERPRETATION / INDIRECT EFFECT (Von Colson, Marleasing). 3. TRIANGULAR SITUATIONS and INCIDENTAL EFFECT (Delena Wells; CIA Security, Unilever). 4. Directives EXPRESSING A GENERAL PRINCIPLE of EU law (Mangold, Kücükdeveci; Charter Art 47 in KL). 5. BENEFITS UNDER A REGULATION MADE CONDITIONAL on a directive (Viamex Agrar).",
+          "difficulty": 3,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Are there exceptions to the rule that directives have no horizontal direct effect?",
+          "a": "NO — there are no exceptions, only WORKAROUNDS. The rule is formally intact; the five workarounds simply reach the same practical result by other doctrines, which is exactly why the case law is criticised as leaving the rule in name only.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "In a problem question about a private defendant and an unimplemented directive, in what order should you work through the workarounds?",
+          "a": "In the numbered order — is the defendant really an EMANATION OF THE STATE; can national law be read CONSISTENTLY with the directive; is this a TRIANGULAR situation with only incidental effect on the private party; does the directive give expression to a GENERAL PRINCIPLE or a Charter right; is a REGULATION benefit conditional on the directive. That is roughly the order from the safest argument to the most adventurous.",
+          "difficulty": 3,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
       "vision_used": false,
       "status": "done",
       "needs_vision": false,

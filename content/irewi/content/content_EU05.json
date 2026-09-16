@@ -2,24 +2,96 @@
   "lecture_id": "EU05",
   "title": "Sources of EU Law and Hierarchy",
   "slides": {
-    "1": { "title": "Title slide", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "2": { "title": "Divider", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "3": { "title": "Divider", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "4": { "title": "Section: sources of EU law", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "5": { "title": "The outline", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "6": { "title": "Course map", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "7": { "title": "Primary and secondary — and more", "text": "The two familiar boxes, with the lecturer's teaser: there is more than primary and secondary law. What is missing is tertiary law and soft law, both of which come later in this lecture.", "terms": [], "cards": [], "vision_used": false },
-    "8": { "title": "Primary and secondary — repeated", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "9": { "title": "Course map", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "10": { "title": "What primary law consists of", "text": "Four components: the TEU and TFEU themselves; the protocols annexed to them, which have the same legal value; the Charter of Fundamental Rights; and the general principles of law.", "terms": [], "cards": [
-        { "q": "What belongs to EU primary law?", "a": "The TEU and TFEU, the protocols annexed to them (same legal value as the Treaties), the Charter of Fundamental Rights, and the general principles of EU law.", "difficulty": 1, "kind": "znaky", "priority": "core" }
-      ], "vision_used": false },
+    "1": {
+      "title": "Title slide",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "2": {
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "3": {
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "4": {
+      "title": "Section: sources of EU law",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "5": {
+      "title": "The outline",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "6": {
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "7": {
+      "title": "Primary and secondary — and more",
+      "text": "The two familiar boxes, with the lecturer's teaser: there is more than primary and secondary law. What is missing is tertiary law and soft law, both of which come later in this lecture.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "8": {
+      "title": "Primary and secondary — repeated",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "9": {
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "10": {
+      "title": "What primary law consists of",
+      "text": "Four components: the TEU and TFEU themselves; the protocols annexed to them, which have the same legal value; the Charter of Fundamental Rights; and the general principles of law.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What belongs to EU primary law?",
+          "a": "The TEU and TFEU, the protocols annexed to them (same legal value as the Treaties), the Charter of Fundamental Rights, and the general principles of EU law.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
     "11": {
       "title": "What is in the TEU and what is in the TFEU",
       "text": "A division worth knowing, because an exam question naming a topic expects the right Treaty. The TEU carries the constitutional frame: the objective of ever closer union, the Union's values, its tasks, the basic tasks of institutions and member states, fundamental rights, the institutions and their basic structure, the CFSP, the Union's legal personality, treaty amendment, accession and withdrawal, and the scope of application. The TFEU carries the machinery: the catalogue of competences and cross-cutting principles, the internal policies in detail — citizenship, internal market, competition, external trade — and the detailed rules on the institutions, including the legislative and court procedures.",
       "terms": [],
       "cards": [
-        { "q": "Which Treaty contains the catalogue of competences and which contains the values of the Union?", "a": "The catalogue of competences and the detailed policies are in the TFEU; the Union's values, objectives, basic institutional structure, accession and withdrawal are in the TEU.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+        {
+          "q": "Which Treaty contains the catalogue of competences and which contains the values of the Union?",
+          "a": "The catalogue of competences and the detailed policies are in the TFEU; the Union's values, objectives, basic institutional structure, accession and withdrawal are in the TEU.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
@@ -28,17 +100,35 @@
       "text": "Three routes under Article 48 TEU. The ORDINARY revision procedure (Art 48(1)-(5)) in two variants — with a Convention, or without one under Article 48(3) second subparagraph. The SIMPLIFIED procedures (Art 48(6) and (7)): revision of the internal policies in Part III TFEU, and the two general passerelle clauses. And separately, accession and withdrawal under Articles 49 and 50 TEU. The common feature of the ordinary route is that any change needs ratification by all member states.",
       "terms": [],
       "cards": [
-        { "q": "Name the routes for amending EU primary law.", "a": "The ordinary revision procedure under Art 48(1)-(5) TEU, with or without a Convention; the simplified procedures under Art 48(6) for Part III TFEU and Art 48(7) passerelles; plus accession and withdrawal under Arts 49 and 50 TEU.", "difficulty": 2, "kind": "znaky", "priority": "core" }
+        {
+          "q": "Name the routes for amending EU primary law.",
+          "a": "The ordinary revision procedure under Art 48(1)-(5) TEU, with or without a Convention; the simplified procedures under Art 48(6) for Part III TFEU and Art 48(7) passerelles; plus accession and withdrawal under Arts 49 and 50 TEU.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
       ],
       "vision_used": true
     },
-    "13": { "title": "Section: accession", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "13": {
+      "title": "Section: accession",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "14": {
       "title": "Article 49 TEU: who may join",
       "text": "Only a EUROPEAN state may accede — and the Treaties deliberately do not define where European states are located, which is why Morocco's 1987 application was rejected and why Turkey's candidacy is legally possible. Accession is only possible to the Union as a whole; there is no partial membership. Two sets of conditions: the applicant must respect and promote the values of Article 2 TEU, and must meet the Copenhagen criteria, to which Article 49(1) fourth subparagraph refers.",
       "terms": [],
       "cards": [
-        { "q": "What are the two conditions for accession under Article 49 TEU?", "a": "The applicant must be a European state that respects and promotes the values of Article 2 TEU, and it must meet the conditions of eligibility agreed by the European Council — the Copenhagen criteria. Accession is only to the Union as a whole.", "difficulty": 2, "kind": "znaky", "priority": "core" }
+        {
+          "q": "What are the two conditions for accession under Article 49 TEU?",
+          "a": "The applicant must be a European state that respects and promotes the values of Article 2 TEU, and it must meet the conditions of eligibility agreed by the European Council — the Copenhagen criteria. Accession is only to the Union as a whole.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
@@ -46,42 +136,82 @@
       "title": "The Copenhagen criteria",
       "text": "From the Council's Copenhagen conclusions of 22 June 1993. POLITICAL: stability of institutions guaranteeing democracy, the rule of law, human rights and respect for and protection of minorities. ECONOMIC: a functioning market economy able to cope with competitive pressure and market forces within the Union. ACQUIS: ability to take on the obligations of membership, including the aims of political, economic and monetary union. And ABSORPTION CAPACITY: the Union's own capacity to absorb new members while maintaining the momentum of integration — a criterion about the Union, not the candidate.",
       "terms": [
-        { "term": "Copenhagen criteria", "def": "Political, economic, acquis and absorption-capacity conditions for EU accession, agreed in June 1993." }
+        {
+          "term": "Copenhagen criteria",
+          "def": "Political, economic, acquis and absorption-capacity conditions for EU accession, agreed in June 1993."
+        }
       ],
       "cards": [
-        { "q": "Name the four Copenhagen criteria and say which one is not about the candidate.", "a": "Political (democracy, rule of law, human rights, minority protection), economic (functioning market economy able to withstand competitive pressure), acquis (capacity to take on membership obligations), and absorption capacity — the last concerns the Union's own ability to take in new members.", "difficulty": 2, "kind": "znaky", "priority": "core" }
+        {
+          "q": "Name the four Copenhagen criteria and say which one is not about the candidate.",
+          "a": "Political (democracy, rule of law, human rights, minority protection), economic (functioning market economy able to withstand competitive pressure), acquis (capacity to take on membership obligations), and absorption capacity — the last concerns the Union's own ability to take in new members.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
     "16": {
       "title": "Accession phase 1: becoming a candidate",
       "text": "The diagram: a third country submits an APPLICATION to the Council; the Council notifies the European Parliament and the national parliaments and consults the European Commission; the Parliament must give its CONSENT; and the Council decides. Only then is the state a candidate country.",
-      "terms": [], "cards": [], "vision_used": true
+      "terms": [],
+      "cards": [],
+      "vision_used": true
     },
-    "17": { "title": "Phase 1, completed", "text": "The same diagram with the applicant now labelled 'candidate country'.", "terms": [], "cards": [], "vision_used": false },
+    "17": {
+      "title": "Phase 1, completed",
+      "text": "The same diagram with the applicant now labelled 'candidate country'.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "18": {
       "title": "Accession phase 2: negotiations",
       "text": "The Commission proposes a negotiating framework; the Council adopts the negotiating mandate; and negotiations with the candidate proceed chapter by chapter through SCREENING of the acquis, divided into 35 chapters, with the Commission reporting back to the Council. The chapters are opened and closed individually, which is what allows a single member state to block progress.",
       "terms": [
-        { "term": "acquis screening", "def": "Chapter-by-chapter examination of the candidate's law against the 35 chapters of the EU acquis." }
+        {
+          "term": "acquis screening",
+          "def": "Chapter-by-chapter examination of the candidate's law against the 35 chapters of the EU acquis."
+        }
       ],
       "cards": [
-        { "q": "Into how many chapters is the acquis divided in accession negotiations, and why does that matter politically?", "a": "35 chapters, opened and closed one at a time. Because each step needs member state agreement, a single member state can block the process chapter by chapter.", "difficulty": 2, "kind": "definice", "priority": "core" }
+        {
+          "q": "Into how many chapters is the acquis divided in accession negotiations, and why does that matter politically?",
+          "a": "35 chapters, opened and closed one at a time. Because each step needs member state agreement, a single member state can block the process chapter by chapter.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
       ],
       "vision_used": true
     },
-    "19": { "title": "The accession process step by step", "text": "A reference to the Commission's own enlargement pages.", "terms": [], "cards": [], "vision_used": false },
+    "19": {
+      "title": "The accession process step by step",
+      "text": "A reference to the Commission's own enlargement pages.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "20": {
       "title": "Accession phase 3: the Accession Treaty",
       "text": "Article 49(2) TEU: an agreement between the member states and the applicant. It has two parts. The ACCESSION TREATY fixes accession at a specific date. The ACT OF ACCESSION contains the adaptations to primary and secondary Union law that accession requires — integrating the new member state into the Union, with safeguard clauses and transitional provisions — together with the conditions of admission.",
-      "terms": [], "cards": [], "vision_used": false
+      "terms": [],
+      "cards": [],
+      "vision_used": false
     },
     "21": {
       "title": "Accession phase 4: ratification",
       "text": "The treaty must be ratified by all existing member states and by the new one. And the small factual detail the lecturer likes to ask: the instruments of ratification are deposited with the GOVERNMENT OF THE ITALIAN REPUBLIC, under Article 54(1) TEU — because the founding Treaty of Rome was signed there.",
       "terms": [],
       "cards": [
-        { "q": "With whom are the instruments of ratification of EU treaties deposited?", "a": "With the Government of the Italian Republic (Art 54(1) TEU) — a legacy of the Treaty of Rome.", "difficulty": 1, "kind": "norma", "priority": "extra" }
+        {
+          "q": "With whom are the instruments of ratification of EU treaties deposited?",
+          "a": "With the Government of the Italian Republic (Art 54(1) TEU) — a legacy of the Treaty of Rome.",
+          "difficulty": 1,
+          "kind": "norma",
+          "priority": "extra"
+        }
       ],
       "vision_used": false
     },
@@ -89,10 +219,19 @@
       "title": "Withdrawal: Article 50 TEU",
       "text": "The slide shows the Brexit timeline from the Council's own site. The structure of Article 50: a member state may decide to withdraw in accordance with its own constitutional requirements; it notifies the European Council; the Union negotiates a withdrawal agreement, concluded by the Council by qualified majority with Parliament's consent; and the Treaties cease to apply from the date of entry into force of the agreement or, FAILING THAT, two years after notification unless the European Council unanimously agrees to extend. That automatic two-year cliff is the provision's most important feature — it puts the pressure of time on the withdrawing state.",
       "terms": [
-        { "term": "Art 50 TEU", "def": "The withdrawal clause: notification, negotiated withdrawal agreement, and automatic expiry of the Treaties two years after notification unless extended unanimously." }
+        {
+          "term": "Art 50 TEU",
+          "def": "The withdrawal clause: notification, negotiated withdrawal agreement, and automatic expiry of the Treaties two years after notification unless extended unanimously."
+        }
       ],
       "cards": [
-        { "q": "What happens under Article 50 TEU if no withdrawal agreement is concluded?", "a": "The Treaties cease to apply to the withdrawing state two years after its notification, unless the European Council, in agreement with that state, unanimously decides to extend the period.", "difficulty": 3, "kind": "norma", "priority": "core" }
+        {
+          "q": "What happens under Article 50 TEU if no withdrawal agreement is concluded?",
+          "a": "The Treaties cease to apply to the withdrawing state two years after its notification, unless the European Council, in agreement with that state, unanimously decides to extend the period.",
+          "difficulty": 3,
+          "kind": "norma",
+          "priority": "core"
+        }
       ],
       "vision_used": true
     },
@@ -101,24 +240,75 @@
       "text": "Where they come from: the TELOS of the Treaties — their purpose and system — and the common legal tradition of the member states, with the Court of Justice confirming and shaping them through case law. The question mark on the slide over 'confirmed by CJEU case law' points at the standing criticism: the Court both finds and makes these principles.",
       "terms": [],
       "cards": [
-        { "q": "From what two sources does the Court derive the general principles of EU law?", "a": "The telos and system of the Treaties, and the common legal traditions of the member states — with the Court's own case law confirming and developing them.", "difficulty": 2, "kind": "definice", "priority": "core" }
+        {
+          "q": "From what two sources does the Court derive the general principles of EU law?",
+          "a": "The telos and system of the Treaties, and the common legal traditions of the member states — with the Court's own case law confirming and developing them.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
       ],
       "vision_used": true
     },
-    "24": { "title": "Divider", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "25": { "title": "Primary and secondary — and more", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "26": { "title": "Primary and secondary — and more", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "27": { "title": "Course map", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "28": { "title": "Secondary law: the five acts of Article 288 TFEU", "text": "Regulation, directive, decision — binding. Recommendation, opinion — not binding. The next three slides give the definitions, which should be known verbatim.", "terms": [], "cards": [], "vision_used": false },
+    "24": {
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "25": {
+      "title": "Primary and secondary — and more",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "26": {
+      "title": "Primary and secondary — and more",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "27": {
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "28": {
+      "title": "Secondary law: the five acts of Article 288 TFEU",
+      "text": "Regulation, directive, decision — binding. Recommendation, opinion — not binding. The next three slides give the definitions, which should be known verbatim.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "29": {
       "title": "Regulations",
       "text": "Article 288(2) TFEU: a regulation shall have GENERAL APPLICATION, shall be BINDING IN ITS ENTIRETY and DIRECTLY APPLICABLE in all member states. Three properties, and all three matter. General application distinguishes it from a decision; binding in its entirety distinguishes it from a directive; direct applicability means it becomes law in the member states without — indeed generally forbidding — any national transposition.",
       "terms": [
-        { "term": "direct applicability", "def": "A regulation becomes part of national law automatically on entry into force, without and generally excluding national transposition." }
+        {
+          "term": "direct applicability",
+          "def": "A regulation becomes part of national law automatically on entry into force, without and generally excluding national transposition."
+        }
       ],
       "cards": [
-        { "q": "Give the definition of a regulation in the words of Article 288(2) TFEU.", "a": "A regulation has general application, is binding in its entirety, and is directly applicable in all member states.", "difficulty": 1, "kind": "norma", "priority": "core" },
-        { "q": "A member state re-enacts a regulation word for word in national law. Is that permissible?", "a": "As a rule no. A regulation is directly applicable; reproducing it nationally obscures its EU origin and endangers uniform application, and the Court has held such transposition impermissible.", "difficulty": 3, "kind": "pripad", "priority": "core" }
+        {
+          "q": "Give the definition of a regulation in the words of Article 288(2) TFEU.",
+          "a": "A regulation has general application, is binding in its entirety, and is directly applicable in all member states.",
+          "difficulty": 1,
+          "kind": "norma",
+          "priority": "core"
+        },
+        {
+          "q": "A member state re-enacts a regulation word for word in national law. Is that permissible?",
+          "a": "As a rule no. A regulation is directly applicable; reproducing it nationally obscures its EU origin and endangers uniform application, and the Court has held such transposition impermissible.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
@@ -126,10 +316,19 @@
       "title": "Directives",
       "text": "Article 288(3) TFEU: a directive shall be binding, AS TO THE RESULT TO BE ACHIEVED, upon each member state to which it is addressed, but shall leave to the national authorities the choice of FORM AND METHODS. Hence transposition into national law — and hence the whole problem of what happens when a member state fails to transpose in time, which is where direct effect, indirect effect and state liability come from.",
       "terms": [
-        { "term": "transposition", "def": "The national legislation by which a member state gives effect to a directive within the implementation deadline." }
+        {
+          "term": "transposition",
+          "def": "The national legislation by which a member state gives effect to a directive within the implementation deadline."
+        }
       ],
       "cards": [
-        { "q": "Give the definition of a directive under Article 288(3) TFEU and say what follows from it.", "a": "A directive is binding as to the result to be achieved upon each member state addressed, but leaves the choice of form and methods to national authorities. It therefore requires transposition — and failure to transpose generates the doctrines of direct effect, indirect effect and state liability.", "difficulty": 2, "kind": "norma", "priority": "core" }
+        {
+          "q": "Give the definition of a directive under Article 288(3) TFEU and say what follows from it.",
+          "a": "A directive is binding as to the result to be achieved upon each member state addressed, but leaves the choice of form and methods to national authorities. It therefore requires transposition — and failure to transpose generates the doctrines of direct effect, indirect effect and state liability.",
+          "difficulty": 2,
+          "kind": "norma",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
@@ -138,83 +337,365 @@
       "text": "Article 288(4) TFEU: a decision shall be binding in its entirety; a decision which specifies those to whom it is addressed shall be binding only on them. So a decision may be addressed — to a member state or a company, as in competition cases — or unaddressed, in which case it binds generally. It is the instrument for individual cases.",
       "terms": [],
       "cards": [
-        { "q": "How does a decision differ from a regulation?", "a": "Both are binding in their entirety, but a regulation has general application, while a decision that names its addressees binds only them. A decision is the instrument for individual cases.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
+        {
+          "q": "How does a decision differ from a regulation?",
+          "a": "Both are binding in their entirety, but a regulation has general application, while a decision that names its addressees binds only them. A decision is the instrument for individual cases.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
-    "32": { "title": "Course map", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "33": { "title": "Tertiary law", "text": "Two instruments below secondary law: delegated acts under Article 290 TFEU and implementing acts under Article 291 TFEU.", "terms": [], "cards": [], "vision_used": false },
+    "32": {
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "33": {
+      "title": "Tertiary law",
+      "text": "Two instruments below secondary law: delegated acts under Article 290 TFEU and implementing acts under Article 291 TFEU.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "34": {
       "title": "Delegated acts (Art 290 TFEU)",
       "text": "Non-legislative acts of general application adopted by the Commission to update or SUPPLEMENT non-essential parts of a legislative act, under the oversight of Parliament and Council. Three limits: they cannot change the ESSENTIAL elements of the legislative act; the legislative act must define the objectives, content, scope and duration of the delegation; and Parliament and Council may revoke the delegation or object to the delegated act. That last control is what distinguishes them from implementing acts.",
       "terms": [],
       "cards": [
-        { "q": "What are the three limits on delegated acts under Article 290 TFEU?", "a": "They may not alter the essential elements of the legislative act; the legislative act must define the objectives, content, scope and duration of the delegation; and Parliament and Council may revoke the delegation or object to the act.", "difficulty": 2, "kind": "znaky", "priority": "core" }
+        {
+          "q": "What are the three limits on delegated acts under Article 290 TFEU?",
+          "a": "They may not alter the essential elements of the legislative act; the legislative act must define the objectives, content, scope and duration of the delegation; and Parliament and Council may revoke the delegation or object to the act.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
-    "35": { "title": "Adoption of delegated acts", "text": "An infographic from the Council showing the objection and revocation stages.", "terms": [], "cards": [], "vision_used": false },
+    "35": {
+      "title": "Adoption of delegated acts",
+      "text": "An infographic from the Council showing the objection and revocation stages.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "36": {
       "title": "Implementing acts (Art 291 TFEU)",
       "text": "Start from the default: primary responsibility for implementing EU law lies with the MEMBER STATES. Only where UNIFORM conditions for implementation are needed — taxation, agriculture, the internal market, health and food safety — does the Commission, or exceptionally the Council under Articles 24 and 25 TEU, adopt an implementing act. The control here is not by Parliament and Council but by committees of member state representatives, which is why the process is called comitology.",
       "terms": [
-        { "term": "comitology", "def": "Control of the Commission's implementing acts by committees of member state representatives." }
+        {
+          "term": "comitology",
+          "def": "Control of the Commission's implementing acts by committees of member state representatives."
+        }
       ],
       "cards": [
-        { "q": "Who implements EU law as a rule, and when does the Commission adopt an implementing act instead?", "a": "The member states implement as a rule. The Commission adopts an implementing act only where uniform conditions for implementation are needed (Art 291 TFEU) — exceptionally the Council under Arts 24-25 TEU.", "difficulty": 2, "kind": "norma", "priority": "core" },
-        { "q": "What is the control mechanism for delegated acts, and what for implementing acts?", "a": "Delegated acts: Parliament and Council may object or revoke the delegation. Implementing acts: committees of member state representatives — comitology.", "difficulty": 3, "kind": "rozliseni", "priority": "core" }
+        {
+          "q": "Who implements EU law as a rule, and when does the Commission adopt an implementing act instead?",
+          "a": "The member states implement as a rule. The Commission adopts an implementing act only where uniform conditions for implementation are needed (Art 291 TFEU) — exceptionally the Council under Arts 24-25 TEU.",
+          "difficulty": 2,
+          "kind": "norma",
+          "priority": "core"
+        },
+        {
+          "q": "What is the control mechanism for delegated acts, and what for implementing acts?",
+          "a": "Delegated acts: Parliament and Council may object or revoke the delegation. Implementing acts: committees of member state representatives — comitology.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
-    "37": { "title": "Adoption of implementing acts", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "38": { "title": "Adoption, continued", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "39": { "title": "Adoption, continued", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "40": { "title": "Adoption in urgent cases", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "41": { "title": "Divider", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "42": { "title": "Course map", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "37": {
+      "title": "Comitology: how implementing acts are adopted",
+      "text": "COMITOLOGY is the procedure governing the adoption of a significant part of the implementing acts by the Commission, and it is the answer to the obvious objection to Article 291 TFEU: if implementation is in principle the member states' job, why should the Commission be allowed to do it alone? It is not. Draft implementing acts prepared by the Commission are AS A RULE submitted to a COMITOLOGY COMMITTEE, and those committees are made up of REPRESENTATIVES OF THE EU COUNTRIES — member states' experts, not Commission staff. The detail is in REGULATION 182/2011, which offers two procedures: the ADVISORY procedure and the EXAMINATION procedure. Which one applies is set by the BASIC ACT, but the regulation pushes the more sensitive fields — acts of general scope, the common agricultural and fisheries policies, environment, security, safety and health, the common commercial policy and taxation — into the examination procedure, and leaves the advisory procedure as the residual default. The practical point for the exam: the two procedures differ in the MAJORITY the committee votes by and, far more importantly, in WHETHER THE COMMISSION IS BOUND by what the committee says.",
+      "terms": [
+        {
+          "term": "comitology",
+          "def": "The procedure under Regulation 182/2011 by which committees of member state experts control the Commission's adoption of implementing acts under Article 291 TFEU."
+        },
+        {
+          "term": "comitology committee",
+          "def": "A committee made up of representatives of the EU countries (member states' experts) to which the Commission submits its draft implementing acts."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is comitology?",
+          "a": "The procedure governing the adoption of a significant part of the IMPLEMENTING ACTS by the Commission. Draft implementing acts are as a rule submitted to COMITOLOGY COMMITTEES made up of REPRESENTATIVES OF THE MEMBER STATES (national experts). The rules are in REGULATION 182/2011.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Who sits on a comitology committee?",
+          "a": "REPRESENTATIVES OF THE EU COUNTRIES — member states' experts. Not Commission staff and not MEPs: comitology is control of the Commission BY THE MEMBER STATES, which is exactly what distinguishes it from the Parliament-and-Council control over delegated acts.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Which two comitology procedures does Regulation 182/2011 provide, and what is the difference between them?",
+          "a": "The ADVISORY procedure (committee opinion by SIMPLE majority, NON-BINDING) and the EXAMINATION procedure (opinion by QUALIFIED majority, and it BINDS the Commission). Which applies is set by the basic act; the examination procedure is prescribed for the sensitive fields (acts of general scope, CAP and fisheries, environment, security, safety and health, common commercial policy, taxation), the advisory procedure is the residual default.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "38": {
+      "title": "Comitology 1: the advisory procedure",
+      "text": "In the ADVISORY procedure the committee delivers its opinion by SIMPLE MAJORITY, and that opinion is NON-BINDING. The Commission then decides ON ITS OWN whether to adopt the draft act: it must take the committee's opinion into account, but it may adopt the act REGARDLESS EVEN OF A NEGATIVE OPINION. If you are asked what the committee can actually do to stop the Commission here, the honest answer is nothing — the advisory procedure is a consultation duty, not a veto. That is why it is reserved for the less sensitive matters and why the examination procedure exists at all.",
+      "terms": [
+        {
+          "term": "advisory procedure",
+          "def": "Comitology procedure in which the committee's opinion is adopted by simple majority and does not bind the Commission, which may adopt the act even against a negative opinion."
+        }
+      ],
+      "cards": [
+        {
+          "q": "In the advisory procedure, by what majority does the committee vote and what is the effect of its opinion?",
+          "a": "By SIMPLE MAJORITY, and the opinion is NON-BINDING. The Commission decides on its own whether to adopt the draft, taking the opinion into account, and MAY ADOPT EVEN AGAINST A NEGATIVE OPINION.",
+          "difficulty": 1,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Can a committee block the Commission in the advisory procedure?",
+          "a": "NO. It is a consultation duty, not a veto — a negative opinion does not prevent adoption. That is precisely why the sensitive fields are put into the examination procedure instead.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "39": {
+      "title": "Comitology 2: the examination procedure and its four outcomes",
+      "text": "In the EXAMINATION procedure the committee must deliver an opinion by QUALIFIED MAJORITY, and here the vote has teeth. FOUR outcomes, and they are worth knowing as a list because a problem question will give you one of them. OPTION 1 — POSITIVE opinion: the Commission ADOPTS the act. OPTION 2 — NEGATIVE opinion: the Commission MAY NOT ADOPT the implementing act. OPTION 3 — NO OPINION delivered (the committee fails to reach a qualified majority either way): the Commission MAY ADOPT the draft anyway, WITH THE EXCEPTION of the cases specified in the comitology regulation. OPTION 4 — after a NEGATIVE vote the Commission is not simply finished: it has ONE MONTH to submit the draft measure to the APPEAL COMMITTEE (again member states' experts), OR TWO MONTHS to submit a new version to the SAME committee. Notice what the structure does: a negative qualified majority genuinely blocks the act, a failure to agree does not, and the appeal committee is the second bite at the cherry.",
+      "terms": [
+        {
+          "term": "examination procedure",
+          "def": "Comitology procedure in which the committee's opinion is taken by qualified majority and binds the Commission: a negative opinion prevents adoption."
+        },
+        {
+          "term": "appeal committee",
+          "def": "A further committee of member state representatives to which the Commission may submit a draft implementing act within one month of a negative opinion in the examination procedure."
+        }
+      ],
+      "cards": [
+        {
+          "q": "In the examination procedure, by what majority does the committee decide?",
+          "a": "By QUALIFIED MAJORITY — the same threshold as in the Council, which is what makes the vote meaningful compared with the simple majority of the advisory procedure.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "List the four outcomes of the examination procedure.",
+          "a": "1. POSITIVE opinion → the Commission ADOPTS the act. 2. NEGATIVE opinion → the Commission MAY NOT ADOPT it. 3. NO OPINION → the Commission MAY ADOPT the draft, except in the cases specified in the comitology regulation. 4. After a NEGATIVE vote → one month to go to the APPEAL COMMITTEE, or two months to put a NEW VERSION to the same committee.",
+          "difficulty": 3,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "The committee in an examination procedure fails to reach a qualified majority either way. May the Commission adopt the implementing act?",
+          "a": "YES as a rule — where NO OPINION is delivered the Commission MAY ADOPT the draft, with the exception of the cases specified in the comitology regulation. Silence is not a veto; only a negative qualified majority is.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        },
+        {
+          "q": "What are the Commission's options after a negative opinion in the examination procedure?",
+          "a": "Within ONE MONTH submit the draft measure to the APPEAL COMMITTEE, or within TWO MONTHS submit a NEW VERSION to the SAME committee. What it may not do is adopt the act as it stands.",
+          "difficulty": 3,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "40": {
+      "title": "Comitology: urgency",
+      "text": "There is an urgency track, and it INVERTS the order. STEP 1: the Commission ADOPTS the implementing act BEFORE consulting a committee, on duly justified IMPERATIVE GROUNDS OF URGENCY — but only IF THE BASIC ACT PROVIDES FOR IT. TIMELINE: such an act applies for a MAXIMUM OF SIX MONTHS unless the basic act says otherwise. STEP 2: the Commission has to consult the relevant committee WITHIN 14 DAYS of adoption. And the sting: where the EXAMINATION procedure applies and the committee then delivers a NEGATIVE opinion, the Commission is OBLIGED TO REPEAL THE ACT IMMEDIATELY. So urgency buys the Commission speed, not immunity — the committee's veto arrives late but it still arrives.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "How does the urgency procedure for implementing acts change the normal order?",
+          "a": "It inverts it: the Commission ADOPTS the act FIRST, before consulting any committee, on duly justified IMPERATIVE GROUNDS OF URGENCY — and only if the BASIC ACT provides for this. Consultation follows afterwards.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Two deadlines in the urgency procedure: how long does such an implementing act apply, and by when must the committee be consulted?",
+          "a": "The act applies for a MAXIMUM OF SIX MONTHS unless the basic act provides otherwise, and the Commission must consult the relevant committee WITHIN 14 DAYS of adoption.",
+          "difficulty": 3,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "An act adopted under urgency is consulted afterwards and the examination committee gives a NEGATIVE opinion. What must the Commission do?",
+          "a": "REPEAL THE ACT IMMEDIATELY. Urgency buys speed, not immunity — the committee's veto simply arrives after the act is already in force.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "41": {
+      "title": "Divider",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "42": {
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "43": {
       "title": "Soft law",
       "text": "Instruments the institutions use to pursue policy objectives which are not legally binding but have practical and indirect legal effects: they shape behaviour and influence how binding measures are applied, and they can have SELF-BINDING effects on the institution that issued them — a Commission that announces guidelines cannot simply ignore them without reasons. Examples: recommendations, opinions, green and white papers, action plans, communications, guidelines and notices.",
       "terms": [],
       "cards": [
-        { "q": "In what sense can EU soft law bind, despite not being binding?", "a": "Indirectly — it shapes behaviour and the application of binding rules — and through self-binding: an institution that publishes guidelines limits its own discretion and cannot depart from them arbitrarily.", "difficulty": 3, "kind": "rozliseni", "priority": "core" }
+        {
+          "q": "In what sense can EU soft law bind, despite not being binding?",
+          "a": "Indirectly — it shapes behaviour and the application of binding rules — and through self-binding: an institution that publishes guidelines limits its own discretion and cannot depart from them arbitrarily.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
-    "44": { "title": "Section: hierarchy of EU law", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "45": { "title": "The outline", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "46": { "title": "Course map", "text": "", "terms": [], "cards": [], "vision_used": false },
-    "47": { "title": "Two hierarchy questions", "text": "Hierarchy means two different things and the exam distinguishes them: the relationship WITHIN EU law, between its own sources; and the relationship BETWEEN EU law and member state law, which is the topic of primacy.", "terms": [], "cards": [], "vision_used": false },
+    "44": {
+      "title": "Section: hierarchy of EU law",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "45": {
+      "title": "The outline",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "46": {
+      "title": "Course map",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "47": {
+      "title": "Two hierarchy questions",
+      "text": "Hierarchy means two different things and the exam distinguishes them: the relationship WITHIN EU law, between its own sources; and the relationship BETWEEN EU law and member state law, which is the topic of primacy.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "48": {
       "title": "The hierarchy, drawn",
       "text": "From the top: primary law; then international agreements concluded by the Union; then secondary law; then tertiary law; and below all of it, member state law. The bracket on the side — 'integration proof core' of the member states, with a question mark — marks the contested claim of national constitutional courts that some core of national constitutional identity stands outside this order. Note the position of international agreements: below primary law, but above secondary law, which means an EU act can be annulled for conflicting with an agreement the Union concluded.",
       "terms": [
-        { "term": "integration-proof core", "def": "The claim of national constitutional courts that a core of constitutional identity is beyond the reach of EU law; contested by the CJEU." }
+        {
+          "term": "integration-proof core",
+          "def": "The claim of national constitutional courts that a core of constitutional identity is beyond the reach of EU law; contested by the CJEU."
+        }
       ],
       "cards": [
-        { "q": "Where do international agreements concluded by the Union sit in the hierarchy of EU law?", "a": "Below primary law but above secondary law — so a regulation or directive can be challenged for incompatibility with an agreement the Union has concluded.", "difficulty": 3, "kind": "schema", "priority": "core" }
+        {
+          "q": "Where do international agreements concluded by the Union sit in the hierarchy of EU law?",
+          "a": "Below primary law but above secondary law — so a regulation or directive can be challenged for incompatibility with an agreement the Union has concluded.",
+          "difficulty": 3,
+          "kind": "schema",
+          "priority": "core"
+        }
       ],
       "vision_used": true
     },
-    "49": { "title": "Conflicts within primary law", "text": "Within primary law there is no internal hierarchy, so the general rules apply: lex specialis and lex posterior — the same two maxims met in the international law half of the course.", "terms": [], "cards": [
-        { "q": "Two provisions of primary EU law conflict. How is the conflict resolved?", "a": "By the general rules, since primary law has no internal hierarchy: lex specialis derogat legi generali and lex posterior derogat legi priori.", "difficulty": 2, "kind": "pripad", "priority": "core" }
-      ], "vision_used": true },
-    "50": { "title": "Conflicts within secondary law", "text": "The same answer one level down: within secondary law, lex specialis and lex posterior decide. A directive does not outrank a regulation, nor the reverse — the form of the act says nothing about its rank.", "terms": [], "cards": [
-        { "q": "Does a regulation rank above a directive?", "a": "No. Both are secondary law of the same rank; conflicts between them are resolved by lex specialis and lex posterior, not by the type of instrument.", "difficulty": 2, "kind": "rozliseni", "priority": "core" }
-      ], "vision_used": true },
-    "51": { "title": "ANY member state law", "text": "The diagram emphasises the word ANY: every level of EU law stands above every level of member state law, including national constitutions. That is the claim primacy makes, and the next lecture is devoted to it.", "terms": [], "cards": [], "vision_used": true },
-    "52": { "title": "The hierarchy, complete", "text": "", "terms": [], "cards": [], "vision_used": false },
+    "49": {
+      "title": "Conflicts within primary law",
+      "text": "Within primary law there is no internal hierarchy, so the general rules apply: lex specialis and lex posterior — the same two maxims met in the international law half of the course.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Two provisions of primary EU law conflict. How is the conflict resolved?",
+          "a": "By the general rules, since primary law has no internal hierarchy: lex specialis derogat legi generali and lex posterior derogat legi priori.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "50": {
+      "title": "Conflicts within secondary law",
+      "text": "The same answer one level down: within secondary law, lex specialis and lex posterior decide. A directive does not outrank a regulation, nor the reverse — the form of the act says nothing about its rank.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Does a regulation rank above a directive?",
+          "a": "No. Both are secondary law of the same rank; conflicts between them are resolved by lex specialis and lex posterior, not by the type of instrument.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "51": {
+      "title": "ANY member state law",
+      "text": "The diagram emphasises the word ANY: every level of EU law stands above every level of member state law, including national constitutions. That is the claim primacy makes, and the next lecture is devoted to it.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+    "52": {
+      "title": "The hierarchy, complete",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
     "53": {
       "title": "Three limits in one picture",
       "text": "The closing slide sets three concepts beside each other, and they are the three ways an EU act can be attacked or resisted. COMPETENCE — did the Union have the power at all? PRIMACY, and its shadow ULTRA VIRES — does EU law prevail, and what if a national court says the Union acted beyond its powers? And the INTEGRATION-PROOF CORE — is there national constitutional ground EU law cannot reach? The first is settled law; the second and third are the live constitutional conflict between the Court of Justice and national constitutional courts.",
       "terms": [
-        { "term": "ultra vires review", "def": "A national constitutional court's claim to review whether an EU act exceeded the competences conferred." }
+        {
+          "term": "ultra vires review",
+          "def": "A national constitutional court's claim to review whether an EU act exceeded the competences conferred."
+        }
       ],
       "cards": [
-        { "q": "What are the three lines of attack against the application of an EU act in a member state?", "a": "Lack of competence (the Union never had the power); ultra vires review by a national constitutional court (the Union exceeded the powers conferred); and the claimed integration-proof core of national constitutional identity.", "difficulty": 3, "kind": "schema", "priority": "core" }
+        {
+          "q": "What are the three lines of attack against the application of an EU act in a member state?",
+          "a": "Lack of competence (the Union never had the power); ultra vires review by a national constitutional court (the Union exceeded the powers conferred); and the claimed integration-proof core of national constitutional identity.",
+          "difficulty": 3,
+          "kind": "schema",
+          "priority": "core"
+        }
       ],
       "vision_used": false
     },
-    "54": { "title": "Questions", "text": "", "terms": [], "cards": [], "vision_used": false }
+    "54": {
+      "title": "Questions",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    }
   }
 }

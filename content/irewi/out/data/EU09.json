@@ -188,11 +188,26 @@
     {
       "n": 10,
       "img": "img/EU09/EU09_s010.webp",
-      "title": "Appointment of judges, continued",
-      "text": "",
+      "title": "The Article 255 panel itself",
+      "text": "The photographs are the current members of the panel — the 'comité' — and the fact worth taking from the slide is its composition. Under ARTICLE 255(2) TFEU the panel comprises SEVEN PERSONS chosen from among FORMER MEMBERS of the Court of Justice and the General Court, MEMBERS OF NATIONAL SUPREME COURTS and LAWYERS OF RECOGNISED COMPETENCE, ONE of whom is PROPOSED BY THE EUROPEAN PARLIAMENT. The Council appoints them on the initiative of the President of the Court of Justice. The panel gives a non-binding opinion on a candidate's suitability, but in practice a negative opinion ends the candidacy, which is why a body invented only in Lisbon has quietly become the real filter on who sits in Luxembourg.",
       "terms": [],
-      "cards": [],
-      "vision_used": false,
+      "cards": [
+        {
+          "q": "How is the Article 255 TFEU panel composed?",
+          "a": "SEVEN persons, chosen from FORMER MEMBERS of the Court of Justice and the General Court, MEMBERS OF NATIONAL SUPREME COURTS and LAWYERS OF RECOGNISED COMPETENCE — ONE of them PROPOSED BY THE EUROPEAN PARLIAMENT. The Council appoints them on the initiative of the President of the Court of Justice.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Is the Article 255 panel's opinion binding on the member states?",
+          "a": "Formally NO — it is an opinion on the candidate's suitability, and the judges are still appointed by COMMON ACCORD of the governments. In practice a negative opinion ends the candidacy, so the panel has become the real filter on appointments.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
       "status": "done",
       "needs_vision": true,
       "vision_reason": "thin-text",
@@ -686,11 +701,26 @@
     {
       "n": 34,
       "img": "img/EU09/EU09_s034.webp",
-      "title": "The parties in this case",
-      "text": "",
+      "title": "Article 23 notification applied: Google v CNIL",
+      "text": "The same Registrar diagram, now filled in with the actual reference. The CONSEIL D'ÉTAT — the French national court — sends the questions to the Court, and from that moment everything runs through the REGISTRAR, who notifies, under ARTICLE 23 OF THE STATUTE, the parties to the main proceedings (here GOOGLE as claimant and the CNIL, the French data protection authority, as defendant), the MEMBER STATE whose court made the reference, the other member states, and the COMMISSION. Each of them then has TWO MONTHS to send written observations. The case is C-507/17, Google v CNIL — the right-to-be-forgotten reference about whether de-referencing must be worldwide. What the diagram is teaching is not the substance of that case but the shape of the procedure: a preliminary reference is NOT a private dispute that happens to reach Luxembourg. The national court is the only one who asks; the parties, every member state and the Commission are all merely invited to comment, and they comment to the COURT, not to each other.",
       "terms": [],
-      "cards": [],
-      "vision_used": false,
+      "cards": [
+        {
+          "q": "In Google v CNIL (C-507/17), who was notified of the reference under Article 23 of the Statute?",
+          "a": "The Registrar notified the PARTIES to the main proceedings (Google as claimant, the CNIL as defendant), the MEMBER STATE whose court referred (France, through the Conseil d'État) and the other member states, and the COMMISSION. Each then had TWO MONTHS to submit written observations.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "priority": "core"
+        },
+        {
+          "q": "Who actually puts the questions to the Court in a preliminary reference, and what is everyone else's role?",
+          "a": "Only the NATIONAL COURT asks. The parties, the member states and the Commission are merely NOTIFIED by the Registrar under Article 23 of the Statute and invited to submit observations TO THE COURT within two months — a preliminary reference is a dialogue between courts, not a private dispute that travelled to Luxembourg.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
       "status": "done",
       "needs_vision": true,
       "vision_reason": "diagram",

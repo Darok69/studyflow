@@ -75,15 +75,22 @@ def topic_map(courses: list[dict]) -> tuple[dict[int, str], list[dict]]:
     by_number: dict[int, str] = {}
     groups: list[dict] = []
     for course in courses:
-        if course.get("kind", "lecture") != "lecture":
+        # Řazení podle témat je PŘIHLÁŠENÍ, ne domněnka: skupiny zakládá jen
+        # kurz, který se VÝSLOVNĚ označí za přednášku. Předmět, který kinds
+        # nepoužívá, zůstane u členění po kurzech — a to je správně. IREWI má
+        # jednotky „Lecture 1"…„Lecture 10", což je pořadí hodiny, ne číslo
+        # zkouškového tématu; bez téhle podmínky by z nich vzniklo deset
+        # vymyšlených témat (a u kurzu bez názvů přednášek to rovnou spadlo).
+        if course.get("kind") != "lecture":
             continue
         scope = course.get("number") or course["code"]
         for lec in course["lectures"]:
             nums = unit_numbers(lec.get("unit", ""))
-            if not nums:
+            title = lec.get("title")
+            if not nums or not title:
                 continue
             key = f"{scope}-{nums[0]}"
-            groups.append({"key": key, "numbers": nums, "title": lec["title"]})
+            groups.append({"key": key, "numbers": nums, "title": title})
             for n in nums:
                 by_number[n] = key
     return by_number, groups
@@ -237,8 +244,13 @@ def main() -> int:
 
     (DEST / "index.json").write_text(json.dumps(out_index, ensure_ascii=False) + "\n", "utf-8")
     size = sum(p.stat().st_size for p in DEST.glob("*.json"))
+    # Počet témat je ve výpisu schválně: když se řazení podle témat rozbije,
+    # spadne na nulu a je to vidět hned, ne až v aplikaci. Nula je legitimní
+    # stav pro předmět, který kurzy na témata nedělí (IREWI).
+    filed = sum(1 for c in out_index["courses"] for l in c["lectures"] if l.get("topics"))
     print(f"{sum(len(c['lectures']) for c in out_index['courses'])} přednášek · "
           f"{total_slides} slidů · {total_cards} karet · {size // 1024} kB JSON")
+    print(f"{len(groups)} témat · zařazeno {filed} přednášek")
     return 0
 
 

@@ -747,11 +747,42 @@
     {
       "n": 37,
       "img": "img/EU05/EU05_s037.webp",
-      "title": "Adoption of implementing acts",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
+      "title": "Comitology: how implementing acts are adopted",
+      "text": "COMITOLOGY is the procedure governing the adoption of a significant part of the implementing acts by the Commission, and it is the answer to the obvious objection to Article 291 TFEU: if implementation is in principle the member states' job, why should the Commission be allowed to do it alone? It is not. Draft implementing acts prepared by the Commission are AS A RULE submitted to a COMITOLOGY COMMITTEE, and those committees are made up of REPRESENTATIVES OF THE EU COUNTRIES — member states' experts, not Commission staff. The detail is in REGULATION 182/2011, which offers two procedures: the ADVISORY procedure and the EXAMINATION procedure. Which one applies is set by the BASIC ACT, but the regulation pushes the more sensitive fields — acts of general scope, the common agricultural and fisheries policies, environment, security, safety and health, the common commercial policy and taxation — into the examination procedure, and leaves the advisory procedure as the residual default. The practical point for the exam: the two procedures differ in the MAJORITY the committee votes by and, far more importantly, in WHETHER THE COMMISSION IS BOUND by what the committee says.",
+      "terms": [
+        {
+          "term": "comitology",
+          "def": "The procedure under Regulation 182/2011 by which committees of member state experts control the Commission's adoption of implementing acts under Article 291 TFEU."
+        },
+        {
+          "term": "comitology committee",
+          "def": "A committee made up of representatives of the EU countries (member states' experts) to which the Commission submits its draft implementing acts."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is comitology?",
+          "a": "The procedure governing the adoption of a significant part of the IMPLEMENTING ACTS by the Commission. Draft implementing acts are as a rule submitted to COMITOLOGY COMMITTEES made up of REPRESENTATIVES OF THE MEMBER STATES (national experts). The rules are in REGULATION 182/2011.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Who sits on a comitology committee?",
+          "a": "REPRESENTATIVES OF THE EU COUNTRIES — member states' experts. Not Commission staff and not MEPs: comitology is control of the Commission BY THE MEMBER STATES, which is exactly what distinguishes it from the Parliament-and-Council control over delegated acts.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Which two comitology procedures does Regulation 182/2011 provide, and what is the difference between them?",
+          "a": "The ADVISORY procedure (committee opinion by SIMPLE majority, NON-BINDING) and the EXAMINATION procedure (opinion by QUALIFIED majority, and it BINDS the Commission). Which applies is set by the basic act; the examination procedure is prescribed for the sensitive fields (acts of general scope, CAP and fisheries, environment, security, safety and health, common commercial policy, taxation), the advisory procedure is the residual default.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
       "status": "done",
       "needs_vision": true,
       "vision_reason": "image-heavy",
@@ -763,11 +794,31 @@
     {
       "n": 38,
       "img": "img/EU05/EU05_s038.webp",
-      "title": "Adoption, continued",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
+      "title": "Comitology 1: the advisory procedure",
+      "text": "In the ADVISORY procedure the committee delivers its opinion by SIMPLE MAJORITY, and that opinion is NON-BINDING. The Commission then decides ON ITS OWN whether to adopt the draft act: it must take the committee's opinion into account, but it may adopt the act REGARDLESS EVEN OF A NEGATIVE OPINION. If you are asked what the committee can actually do to stop the Commission here, the honest answer is nothing — the advisory procedure is a consultation duty, not a veto. That is why it is reserved for the less sensitive matters and why the examination procedure exists at all.",
+      "terms": [
+        {
+          "term": "advisory procedure",
+          "def": "Comitology procedure in which the committee's opinion is adopted by simple majority and does not bind the Commission, which may adopt the act even against a negative opinion."
+        }
+      ],
+      "cards": [
+        {
+          "q": "In the advisory procedure, by what majority does the committee vote and what is the effect of its opinion?",
+          "a": "By SIMPLE MAJORITY, and the opinion is NON-BINDING. The Commission decides on its own whether to adopt the draft, taking the opinion into account, and MAY ADOPT EVEN AGAINST A NEGATIVE OPINION.",
+          "difficulty": 1,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Can a committee block the Commission in the advisory procedure?",
+          "a": "NO. It is a consultation duty, not a veto — a negative opinion does not prevent adoption. That is precisely why the sensitive fields are put into the examination procedure instead.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
       "status": "done",
       "needs_vision": true,
       "vision_reason": "image-heavy",
@@ -779,11 +830,49 @@
     {
       "n": 39,
       "img": "img/EU05/EU05_s039.webp",
-      "title": "Adoption, continued",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
+      "title": "Comitology 2: the examination procedure and its four outcomes",
+      "text": "In the EXAMINATION procedure the committee must deliver an opinion by QUALIFIED MAJORITY, and here the vote has teeth. FOUR outcomes, and they are worth knowing as a list because a problem question will give you one of them. OPTION 1 — POSITIVE opinion: the Commission ADOPTS the act. OPTION 2 — NEGATIVE opinion: the Commission MAY NOT ADOPT the implementing act. OPTION 3 — NO OPINION delivered (the committee fails to reach a qualified majority either way): the Commission MAY ADOPT the draft anyway, WITH THE EXCEPTION of the cases specified in the comitology regulation. OPTION 4 — after a NEGATIVE vote the Commission is not simply finished: it has ONE MONTH to submit the draft measure to the APPEAL COMMITTEE (again member states' experts), OR TWO MONTHS to submit a new version to the SAME committee. Notice what the structure does: a negative qualified majority genuinely blocks the act, a failure to agree does not, and the appeal committee is the second bite at the cherry.",
+      "terms": [
+        {
+          "term": "examination procedure",
+          "def": "Comitology procedure in which the committee's opinion is taken by qualified majority and binds the Commission: a negative opinion prevents adoption."
+        },
+        {
+          "term": "appeal committee",
+          "def": "A further committee of member state representatives to which the Commission may submit a draft implementing act within one month of a negative opinion in the examination procedure."
+        }
+      ],
+      "cards": [
+        {
+          "q": "In the examination procedure, by what majority does the committee decide?",
+          "a": "By QUALIFIED MAJORITY — the same threshold as in the Council, which is what makes the vote meaningful compared with the simple majority of the advisory procedure.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "List the four outcomes of the examination procedure.",
+          "a": "1. POSITIVE opinion → the Commission ADOPTS the act. 2. NEGATIVE opinion → the Commission MAY NOT ADOPT it. 3. NO OPINION → the Commission MAY ADOPT the draft, except in the cases specified in the comitology regulation. 4. After a NEGATIVE vote → one month to go to the APPEAL COMMITTEE, or two months to put a NEW VERSION to the same committee.",
+          "difficulty": 3,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "The committee in an examination procedure fails to reach a qualified majority either way. May the Commission adopt the implementing act?",
+          "a": "YES as a rule — where NO OPINION is delivered the Commission MAY ADOPT the draft, with the exception of the cases specified in the comitology regulation. Silence is not a veto; only a negative qualified majority is.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        },
+        {
+          "q": "What are the Commission's options after a negative opinion in the examination procedure?",
+          "a": "Within ONE MONTH submit the draft measure to the APPEAL COMMITTEE, or within TWO MONTHS submit a NEW VERSION to the SAME committee. What it may not do is adopt the act as it stands.",
+          "difficulty": 3,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
       "status": "done",
       "needs_vision": true,
       "vision_reason": "image-heavy",
@@ -795,11 +884,33 @@
     {
       "n": 40,
       "img": "img/EU05/EU05_s040.webp",
-      "title": "Adoption in urgent cases",
-      "text": "",
+      "title": "Comitology: urgency",
+      "text": "There is an urgency track, and it INVERTS the order. STEP 1: the Commission ADOPTS the implementing act BEFORE consulting a committee, on duly justified IMPERATIVE GROUNDS OF URGENCY — but only IF THE BASIC ACT PROVIDES FOR IT. TIMELINE: such an act applies for a MAXIMUM OF SIX MONTHS unless the basic act says otherwise. STEP 2: the Commission has to consult the relevant committee WITHIN 14 DAYS of adoption. And the sting: where the EXAMINATION procedure applies and the committee then delivers a NEGATIVE opinion, the Commission is OBLIGED TO REPEAL THE ACT IMMEDIATELY. So urgency buys the Commission speed, not immunity — the committee's veto arrives late but it still arrives.",
       "terms": [],
-      "cards": [],
-      "vision_used": false,
+      "cards": [
+        {
+          "q": "How does the urgency procedure for implementing acts change the normal order?",
+          "a": "It inverts it: the Commission ADOPTS the act FIRST, before consulting any committee, on duly justified IMPERATIVE GROUNDS OF URGENCY — and only if the BASIC ACT provides for this. Consultation follows afterwards.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Two deadlines in the urgency procedure: how long does such an implementing act apply, and by when must the committee be consulted?",
+          "a": "The act applies for a MAXIMUM OF SIX MONTHS unless the basic act provides otherwise, and the Commission must consult the relevant committee WITHIN 14 DAYS of adoption.",
+          "difficulty": 3,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "An act adopted under urgency is consulted afterwards and the examination committee gives a NEGATIVE opinion. What must the Commission do?",
+          "a": "REPEAL THE ACT IMMEDIATELY. Urgency buys speed, not immunity — the committee's veto simply arrives after the act is already in force.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
       "status": "done",
       "needs_vision": true,
       "vision_reason": "image-heavy",

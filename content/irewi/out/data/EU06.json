@@ -212,11 +212,42 @@
     {
       "n": 12,
       "img": "img/EU06/EU06_s012.webp",
-      "title": "The three concepts",
-      "text": "",
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
+      "title": "The three concepts and how they turn into each other",
+      "text": "A circle of three words, and it is the map of this whole lecture. PRIMACY → INTEGRATION-PROOF CORE (ULTRA VIRES) → COMPETENCE → and back to primacy. Read it as a chain of questions a national constitutional court asks. Primacy says EU law prevails over conflicting national law; the immediate objection is that no state accepts being overruled in ITS most fundamental commitments, so each keeps an INTEGRATION-PROOF CORE — a core of the constitution which integration may not touch (in Germany the eternity clause of Article 79(3) Basic Law, in the Treaties echoed by the national identity clause of Article 4(2) TEU). The moment you claim such a core you need a doctrine for what happens when the Union crosses it, and that is ULTRA VIRES: the Union acted beyond the powers conferred. But whether it acted beyond its powers is a question about COMPETENCE — who was allowed to do what, and by the principle of conferral the Union only has what the member states gave it. And the answer to that question is itself given by EU law, which brings you back to PRIMACY and to the question of WHO has the last word. The circle does not close by itself; it is the open constitutional question of the Union, and the Solange and ultra vires case law is what happens when courts try to close it.",
+      "terms": [
+        {
+          "term": "integration-proof core",
+          "def": "The core of a national constitution which is withdrawn from European integration and which, on the member state courts' view, EU law cannot override — in Germany anchored in the eternity clause, Art 79(3) Basic Law."
+        },
+        {
+          "term": "ultra vires",
+          "def": "Beyond the powers conferred: an EU act adopted outside the competences the member states transferred, which national constitutional courts claim the right to review."
+        }
+      ],
+      "cards": [
+        {
+          "q": "How do primacy, the integration-proof core and competence fit together?",
+          "a": "As a CIRCLE. PRIMACY says EU law prevails → the member states answer with an INTEGRATION-PROOF CORE that integration may not touch → crossing it is framed as ULTRA VIRES, acting beyond conferred powers → whether powers were exceeded is a question of COMPETENCE → and competence is determined by EU law, which returns you to primacy and to who has the LAST WORD. The circle is the open constitutional question of the Union.",
+          "difficulty": 3,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "What is an integration-proof core?",
+          "a": "The part of a national constitution withdrawn from European integration, which the member state's court holds EU law cannot override — in Germany the ETERNITY CLAUSE of Article 79(3) Basic Law; in the Treaties its counterpart is the NATIONAL IDENTITY clause of Article 4(2) TEU.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Why does the ultra vires question always turn into a competence question?",
+          "a": "Because ultra vires means acting BEYOND THE POWERS CONFERRED, and what was conferred is exactly what the competence rules answer — under the principle of CONFERRAL the Union has only the powers the member states gave it. A claim that an act is ultra vires is a claim that the competence was never there.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
       "status": "done",
       "needs_vision": true,
       "vision_reason": "thin-text",
@@ -521,11 +552,26 @@
     {
       "n": 27,
       "img": "img/EU06/EU06_s027.webp",
-      "title": "The three concepts and the hierarchy",
-      "text": "",
+      "title": "The pyramid with the contested apex",
+      "text": "The hierarchy of norms, drawn as a pyramid, with the three-concept circle beside it — and one addition that is the whole point of the slide. From the bottom: MEMBER STATE LAW, TERTIARY LAW, SECONDARY LAW, INTERNATIONAL AGREEMENTS, PRIMARY LAW. Above primary law the lecturer has drawn, circled in red and with a question mark, the INTEGRATION-PROOF CORE OF THE MEMBER STATE. The red circle is not decoration: from the point of view of the COURT OF JUSTICE that apex does not exist — EU law takes precedence over ANY national law including constitutional law (Internationale Handelsgesellschaft) — while from the point of view of the national CONSTITUTIONAL COURTS it is exactly what sits on top, because they accepted primacy only on the assumption that the Union stays within its powers and away from their constitutional identity. The question mark is the honest state of the law. Learn the pyramid as EU law sees it, and be able to say in one sentence why the member state courts would draw one more layer above it.",
       "terms": [],
-      "cards": [],
-      "vision_used": false,
+      "cards": [
+        {
+          "q": "Give the hierarchy of norms in EU law from the top down.",
+          "a": "PRIMARY LAW (Treaties, Charter, general principles) → INTERNATIONAL AGREEMENTS concluded by the Union → SECONDARY LAW (regulations, directives, decisions) → TERTIARY LAW (delegated and implementing acts) → MEMBER STATE LAW.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Why does the lecturer draw the member state's integration-proof core ABOVE primary law, circled in red with a question mark?",
+          "a": "Because the apex is CONTESTED. For the COURT OF JUSTICE it does not exist — EU law prevails over any national law including constitutional law (Internationale Handelsgesellschaft). For the national CONSTITUTIONAL COURTS it does, because they accepted primacy only conditionally: so long as the Union stays within its conferred powers and away from their constitutional identity. The question mark is the honest state of the law.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
       "status": "done",
       "needs_vision": true,
       "vision_reason": "diagram",
