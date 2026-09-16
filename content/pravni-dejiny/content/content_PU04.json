@@ -1,100 +1,9 @@
 {
   "lecture_id": "PU04",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Cvičení 4",
   "title": "Cvičení 4: ius commune, usus modernus, common law, ius gentium",
-  "source_file": "raw/PU04_ppt.pdf",
-  "source_sha256": "dba405ec171181f036485313cd6f9a12d213391d4fbd0cbddd2c3f34f5ea132f",
-  "source_pages": 43,
-  "slides_per_page": 1,
-  "slide_count": 43,
-  "updated_at": "2026-09-15T12:55:20+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PU04/PU04_s001.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 121,
-      "text_sha": "c29d2714e75737c7",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PU04/PU04_s002.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 81,
-      "text_sha": "eeb70989856343db",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PU04/PU04_s003.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 417,
-      "text_sha": "04a2bdc7a1452067",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PU04/PU04_s004.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 504,
-      "text_sha": "e6e5f42e07eefcc1",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PU04/PU04_s005.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 122,
-      "text_sha": "5735d593ee351e48",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PU04/PU04_s006.webp",
+  "free_sections": true,
+  "slides": {
+    "6": {
       "title": "Proč legenda vznikla: císař jako nástupce caesarů",
       "text": "Cvičení vysvětluje, Z ČEHO lotharská legenda vyrostla, a to je lepší odpověď než jen konstatovat, že byla nepravdivá. ŘÍMSKO-NĚMEČTÍ CÍSAŘI SE POKLÁDALI ZA NÁSTUPCE STAROVĚKÝCH ŘÍMSKÝCH CAESARŮ. Z toho plynulo, že SE CORPUS IURIS ČÍM DÁL VÍC POKLÁDAL ZA CÍSAŘSKÉ PRÁVO — Codex Iustinianus se dokonce až do 14. století ROZŠIŘOVAL O ZÁKONY ŘÍMSKO-NĚMECKÝCH CÍSAŘŮ, tedy zacházelo se s ním jako s otevřenou sbírkou vlastního panovníka. V téhle atmosféře vznikla POVĚST, ŽE CÍSAŘ LOTHAR III. ROKU 1137 CIC (ZNOVU) UVEDL V PLATNOST. NEPRAVDIVOST PROKÁZAL HERMANN CONRING (jeho De origine iuris Germanici vychází 1643, starší verze textu bývá datována 1632). A CVIČENÍ PŘIDÁVÁ ZÁVĚR, KTERÝ STOJÍ ZA ZAPAMATOVÁNÍ: CONRINGA LZE PRÁVĚ PRO TOHLE ODHALENÍ POKLÁDAT ZA PRŮKOPNÍKA USUS MODERNUS PANDECTARUM. Kdo totiž vyvrátí, že římské právo platí z císařova příkazu, otevře otázku, co tedy platí doopravdy — a odpověď usu moderna zní: to, co praxe skutečně užívá, včetně domácího obyčeje.",
       "terms": [],
@@ -116,41 +25,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 601,
-      "text_sha": "9f590a18917db9ae",
-      "pdf_page": 6
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PU04/PU04_s007.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 93,
-      "text_sha": "3fc8ab5a1dd64e12",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PU04/PU04_s008.webp",
+    "8": {
       "title": "Usus modernus jako emancipace domácího obyčeje",
       "text": "Cvičení definuje usus modernus jinak, než se obvykle uvádí, a ta definice je zajímavější: USUS MODERNUS PANDECTARUM JE VĚDECKÁ ŠKOLA 17. STOLETÍ, KTERÁ VÝZNAMNĚ PŘISPĚLA K EMANCIPACI DOMÁCÍHO OBYČEJOVÉHO PRÁVA. Jak? TÍM, ŽE SE DOMÁCÍ OBYČEJOVÉ PRÁVO ZAČALO STUDOVAT TÝMIŽ METODAMI, JAKÝMI SE PŘEDTÍM STUDOVALO IUS COMMUNE. Není to tedy jen 'praktické užívání pandekt' — je to POVÝŠENÍ DOMÁCÍHO PRÁVA NA PŘEDMĚT HODNÝ VĚDECKÉHO ZACHÁZENÍ. VÝSLEDKEM JE KŘÍŽENEC IUS COMMUNE A OBYČEJOVÉHO PRÁVA, který má v jednotlivých zemích vlastní jméno: IUS ROMANO-GERMANICUM v Německu, IUS ROMANO-HISPANICUM ve Španělsku. Metodicky se římské právo PŘIZPŮSOBOVALO HOSPODÁŘSKÝM A SOCIÁLNÍM POMĚRŮM RANÉHO NOVOVĚKU a MÍSTNÍ PRÁVNÍ INSTITUTY A OBYČEJE SE S NÍM SLUČOVALY.",
       "terms": [
-        {
-          "term": "ius Romano-Germanicum",
-          "def": "Kříženec ius commune a domácího obyčejového práva; ve Španělsku obdobně ius Romano-Hispanicum."
-        }
+        { "term": "ius Romano-Germanicum", "def": "Kříženec ius commune a domácího obyčejového práva; ve Španělsku obdobně ius Romano-Hispanicum." }
       ],
       "cards": [
         {
@@ -162,82 +43,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 615,
-      "text_sha": "5680160a88bff06d",
-      "pdf_page": 8
+      "vision_used": true
     },
-    {
-      "n": 9,
-      "img": "img/PU04/PU04_s009.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 301,
-      "text_sha": "d7f2d48f18d5d9e1",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PU04/PU04_s010.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 736,
-      "text_sha": "ca994bc905f42ddf",
-      "pdf_page": 10
-    },
-    {
-      "n": 11,
-      "img": "img/PU04/PU04_s011.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 629,
-      "text_sha": "81481449cb8762bf",
-      "pdf_page": 11
-    },
-    {
-      "n": 12,
-      "img": "img/PU04/PU04_s012.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 676,
-      "text_sha": "dce4e4efeddd4305",
-      "pdf_page": 12
-    },
-    {
-      "n": 13,
-      "img": "img/PU04/PU04_s013.webp",
+    "13": {
       "title": "Vztah humanismu a usu moderna a nizozemská škola",
       "text": "Cvičení opravuje zjednodušení, které se nabízí. METODICKY BYL USUS MODERNUS BLÍŽ MOS ITALICUS NEŽ PRÁVNÍMU HUMANISMU — protože stejně jako komentátoři bral text jako nástroj pro praxi, ne jako historický doklad. A HNED DODÁVÁ: NENÍ TO VŠAK ROZPOR, NÝBRŽ SPÍŠ VZÁJEMNÉ OPYLOVÁNÍ. Mnozí humanisté totiž psali i praktické traktáty, které se dají přiřadit k usu modernu; a v praktické literatuře se naopak zrcadlí poznatky humanistů, například otázka, JAKÉ MÍSTO MÁ URČITÁ PASÁŽ V CORPUS IURIS. NIZOZEMSKÁ ŠKOLA je dokladem toho, že šlo obojí spojit: byla ovlivněna MOS GALLICUS I USU MODERNEM, a HUGO GROTIUS SPOJIL NIZOZEMSKÁ IURA PARTICULARIA S IUS COMMUNE. Tomu se říká ŘÍMSKO-NIZOZEMSKÉ PRÁVO, rozšířilo se i do nizozemských kolonií a JE DODNES VÝZNAMNÉ V JIŽNÍ AFRICE — což je hezký doklad toho, jak dlouhý dosah taková školní syntéza může mít. VÝZNAM USU MODERNA cvičení shrnuje ve třech bodech: (1) byl PRO PRÁVNÍ PRAXI VYSOCE VÝZNAMNÝ AŽ DO VĚKU KODIFIKACÍ; (2) VYTVOŘIL METODICKÉ STANDARDY AŽ DO 19. STOLETÍ; (3) UPEVNIL PLATNOST ŘÍMSKÉHO PRÁVA A ZÁROVEŇ DAL DOMÁCÍMU PRÁVU VÁHU SPLYNUTÍM S NÍM — A TÍM PŘIPRAVIL CESTU K NÁRODNÍM PRÁVNÍM ŘÁDŮM.",
       "terms": [],
@@ -267,82 +75,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 646,
-      "text_sha": "e56f3d47617e4484",
-      "pdf_page": 13
+      "vision_used": true
     },
-    {
-      "n": 14,
-      "img": "img/PU04/PU04_s014.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 114,
-      "text_sha": "a9c0bb644f098131",
-      "pdf_page": 14
-    },
-    {
-      "n": 15,
-      "img": "img/PU04/PU04_s015.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 51,
-      "text_sha": "3843ebb477383a35",
-      "pdf_page": 15
-    },
-    {
-      "n": 16,
-      "img": "img/PU04/PU04_s016.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 405,
-      "text_sha": "8d30cf1e219beb19",
-      "pdf_page": 16
-    },
-    {
-      "n": 17,
-      "img": "img/PU04/PU04_s017.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 537,
-      "text_sha": "42584d6e4d335ee9",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PU04/PU04_s018.webp",
+    "18": {
       "title": "Recepce praxí: infiltrace římského práva",
       "text": "Cvičení dělí recepci na DVĚ CESTY — PRÁVNÍ VĚDU a PRÁVNÍ PRAXI — a u praxe používá výraz, který stojí za zapamatování. ROSTOUCÍ POČET UČENÝCH PRÁVNÍKŮ U SOUDŮ VEDL K POSTUPNÉ AKADEMIZACI PRÁVNÍ PRAXE A K 'INFILTRACI ŘÍMSKÉHO PRÁVA'. Nešlo tedy o rozhodnutí, nýbrž o PROSAKOVÁNÍ. PŘÍKLADEM JE ŘÍŠSKÝ KOMORNÍ SOUD — nejvyšší soud Svaté říše římské, založený ROKU 1495, kde POLOVINA ČLENŮ MĚLA BÝT DOKTORY ŘÍMSKÉHO PRÁVA, a V 16. STOLETÍ SE PRÁVNICKÉ VZDĚLÁNÍ STALO NUTNÝM PRO VŠECHNY ČLENY SOUDU. A jeho praxe: POUŽÍVAL ŘÍMSKÉ PRÁVO VŽDY, KDYŽ BYLO NEJASNÉ, KTERÁ IURA PARTICULARIA SE MAJÍ POUŽÍT NEBO CO VLASTNĚ STANOVÍ. Všimni si, že to není jen o mezerách: stačila NEJISTOTA O OBSAHU místního práva, a nastoupilo právo učené.",
       "terms": [],
@@ -364,121 +99,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 485,
-      "text_sha": "807e44662b3d77ee",
-      "pdf_page": 18
+      "vision_used": true
     },
-    {
-      "n": 19,
-      "img": "img/PU04/PU04_s019.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 10,
-      "text_sha": "e3ae9301a811fa6e",
-      "pdf_page": 19
-    },
-    {
-      "n": 20,
-      "img": "img/PU04/PU04_s020.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 178,
-      "text_sha": "a7a0f2afec4dec3d",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PU04/PU04_s021.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 109,
-      "text_sha": "658056de4ef79750",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PU04/PU04_s022.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 0,
-      "text_sha": "e3b0c44298fc1c14",
-      "pdf_page": 22
-    },
-    {
-      "n": 23,
-      "img": "img/PU04/PU04_s023.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1661,
-      "text_sha": "abe371b9fc169915",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PU04/PU04_s024.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 272,
-      "text_sha": "293c7d3fe7182bde",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PU04/PU04_s025.webp",
+    "25": {
       "title": "Středověk: feudalismus, vrchnostenství a lex familiae",
       "text": "Cvičení dává k otázce o cestě k státnímu zákonodárství výchozí stav, který je třeba popsat, aby měl další vývoj smysl. VE STŘEDOVĚKU SOTVA EXISTOVALY ZÁKONY V MODERNÍM SMYSLU; PŘEVLÁDALO OBYČEJOVÉ PRÁVO. Zákony vydával panovník JEN OBČAS A ZA SOUČINNOSTI STAVŮ, aby potlačil JEDNOTLIVÉ NEŠVARY — tedy ne aby uspořádal obor, nýbrž aby zahnal konkrétní problém. FEUDALISMUS OVLÁDAL CELÝ STŘEDOVĚK I RANÝ NOVOVĚK: LENNÍ PRÁVNÍ ŘÁD, ve kterém platí pravidla POZEMKOVÉHO PÁNA, tedy VRCHNOSTENSTVÍ (GRUNDHERRSCHAFT): SEDLÁCI BYLI NA VRCHNOSTI ZÁVISLÍ OSOBNĚ, MAJETKOVĚ I POLITICKY. Vrchnostenství vzniklo v raném středověku Z GERMÁNSKÝCH I ŘÍMSKÝCH PRÁVNÍCH KOŘENŮ. A na panstvích se vyvinul ZVLÁŠTNÍ PRÁVNÍ OKRUH, 'LEX FAMILIAE': VRCHNOST VYSTUPOVALA JAKO SOUDCE — tomu se říká PATRIMONIÁLNÍ SOUDNICTVÍ. Tohle je důležité pro pochopení celého dalšího vývoje: dokud soudí vrchnost a právo je obyčejové, NENÍ KDO BY ZÁKONY VYDÁVAL A NENÍ PRO KOHO.",
       "terms": [
-        {
-          "term": "lex familiae",
-          "def": "Zvláštní právní okruh panství, kde vrchnost vystupuje jako soudce (patrimoniální soudnictví)."
-        }
+        { "term": "lex familiae", "def": "Zvláštní právní okruh panství, kde vrchnost vystupuje jako soudce (patrimoniální soudnictví)." }
       ],
       "cards": [
         {
@@ -498,18 +125,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 723,
-      "text_sha": "b0a91ffe7422e5e6",
-      "pdf_page": 25
+      "vision_used": true
     },
-    {
-      "n": 26,
-      "img": "img/PU04/PU04_s026.webp",
+    "26": {
       "title": "Tři důvody, proč od 15. století přibylo zákonů",
       "text": "Cvičení dává tři důvody a všechny jsou konkrétní, takže se dají v odpovědi přímo použít. (1) PŘECHOD OD STŘEDOVĚKU K NOVOVĚKU PŘINESL MNOHO PROBLÉMŮ: hospodářské krize (NIZOZEMÍ a zejména ANGLIE jako nově vzestupující mocnosti), PÁD KONSTANTINOPOLE a s ním ÚPADEK STŘEDOMOŘSKÉHO PROSTORU (Benátky), OBJEVENÍ AMERIKY. Nové problémy potřebovaly nová pravidla, a obyčej je neuměl dodat dost rychle. (2) NÁBOŽENSKÉ VÁLKY OSLABILY CÍRKEV A SVĚTSKÁ MOC PŘEVZALA ÚKOLY, KTERÉ PŮVODNĚ PLNILA CÍRKEV — zejména SOCIÁLNÍ PÉČI. Kdo převezme úkol, musí ho i upravit. (3) CORPUS IURIS VEDL KE ZMĚNĚNÉMU POHLEDU NA POVINNOSTI KNÍŽAT A INSPIROVAL JE, ABY SE SAMI STALI ZÁKONODÁRCI — v CIC totiž viděli císaře, který zákony vydává, a chtěli být takoví též. A PRŮKOPNICKOU ROLI MĚLA MĚSTA: DÁVALA SI MĚSTSKÉ PRÁVNÍ REFORMACE, SILNĚ OVLIVNĚNÉ CIC. Města byla menší, hustší a měla naléhavější potřebu psaných pravidel než zemský celek.",
       "terms": [],
@@ -523,18 +141,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 769,
-      "text_sha": "e2ddbb0bcc545bdc",
-      "pdf_page": 26
+      "vision_used": true
     },
-    {
-      "n": 27,
-      "img": "img/PU04/PU04_s027.webp",
+    "27": {
       "title": "Stavovský dualismus a to, že zákony nebyly výlučné",
       "text": "Z FEUDALISMU VZEŠEL DUALISTICKÝ STAVOVSKÝ STÁT: STÁTNÍ MOC BYLA SDÍLENA DVĚMA TĚLESY — PANOVNÍKEM A SBOREM STAVŮ (stavovské shromáždění). To je uspořádání, ze kterého se pak vyvine jak absolutismus (panovník stavy odsune), tak konstitucionalismus (sbor se promění v parlament). VE SVATÉ ŘÍŠI ŘÍMSKÉ VZNIKLO JEN MÁLO ŘÍŠSKÝCH ZÁKONŮ, a to PRO SLOŽITOU POLITICKOU SITUACI — příkladem je CONSTITUTIO CRIMINALIS CAROLINA, trestní a trestněprocesní zákoník Karla V. z ROKU 1532. CODEX MAXIMILIANEUS BAVARICUS CIVILIS, vydaný ROKU 1756, se dá pokládat ZA POSLEDNÍ ZEMSKOU PRÁVNÍ REFORMACI A ZÁROVEŇ ZA PŘEDCHŮDCE PŘIROZENOPRÁVNÍCH KODIFIKACÍ — stojí tedy přesně na přelomu obou epoch. A UPOZORNĚNÍ, KTERÉ CVIČENÍ VÝSLOVNĚ ZDŮRAZŇUJE A KTERÉ SE SNADNO PŘEHLÉDNE: TYHLE ZÁKONY NEBYLY VÝLUČNÉ — UPRAVOVALY JEN JEDNOTLIVÉ PRÁVNÍ PROBLÉMY, ZATÍMCO OBYČEJOVÉ PRÁVO SE POUŽÍVALO DÁL. Právě VÝLUČNOST bude tou novinkou, kterou přinesou teprve kodifikace.",
       "terms": [],
@@ -556,50 +165,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 683,
-      "text_sha": "1846baa5efd77d45",
-      "pdf_page": 27
+      "vision_used": true
     },
-    {
-      "n": 28,
-      "img": "img/PU04/PU04_s028.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 0,
-      "text_sha": "e3b0c44298fc1c14",
-      "pdf_page": 28
-    },
-    {
-      "n": 29,
-      "img": "img/PU04/PU04_s029.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 511,
-      "text_sha": "fca85041949a74ef",
-      "pdf_page": 29
-    },
-    {
-      "n": 30,
-      "img": "img/PU04/PU04_s030.webp",
+    "30": {
       "title": "Veřejné a soukromé právo: dělení, které se dělením nestalo",
       "text": "K prameni z Institucí přidává cvičení rozbor, který jde proti tomu, jak větu obvykle čteme. ULPIÁNOVA FORMULE zní, že VEŘEJNÉ PRÁVO (IUS PUBLICUM) SE TÝKÁ 'ŘÍMSKÉHO STÁTU', SOUKROMÉ UŽITKU JEDNOTLIVCE. ALE: KATEGORICKÉ DĚLENÍ NA PRÁVO SOUKROMÉ A VEŘEJNÉ BYLO V TEORII I PRAXI NEZNÁMÉ. Byla to spíš popisná dvojice než systémová hranice; co v praxi rozhodovalo, bylo něco jiného: ZVLÁŠTNÍ PRAVIDLO MĚLO PŘEDNOST PŘED OBECNĚJŠÍM, a chybělo-li zvláštní pravidlo, sáhlo se k 'CÍSAŘSKÉMU' ČILI OBECNÉMU PRÁVU. VE STŘEDOVĚKU už existovalo rozlišení 'VEŘEJNÉ SFÉRY' upravené ius publicum a 'SOUKROMÉ SFÉRY' života, ALE HRANICE MEZI NIMI BYLY JEN ZNATELNÉ, ne ostré. A klíčová věta: DOKUD V RANÉM NOVOVĚKU NEZAČALY PROCESY BUDOVÁNÍ STÁTU, BYLY OBĚ SFÉRY NEDĚLITELNÉ. Teprve když se prosadila ÚZEMNÍ VLÁDA a právo územního pána začalo nahrazovat dosavadní řád, a teprve s ABSOLUTISMEM, kdy se panovník stal ZÁKONODÁRCEM A URČUJÍCÍ ÚSTŘEDNÍ POSTAVOU, dostalo dělení smysl. Mimochodem se přitom posunul i obsah: SAKRÁLNÍ PRÁVO, KDYSI SOUČÁST IUS PUBLICUM, SE STALO 'CÍRKEVNÍM PRÁVEM'.",
       "terms": [],
@@ -621,82 +189,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 550,
-      "text_sha": "3b9bbc94ec57fcdb",
-      "pdf_page": 30
+      "vision_used": true
     },
-    {
-      "n": 31,
-      "img": "img/PU04/PU04_s031.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1087,
-      "text_sha": "6068b8a5654c2d5f",
-      "pdf_page": 31
-    },
-    {
-      "n": 32,
-      "img": "img/PU04/PU04_s032.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 224,
-      "text_sha": "cc127311e5651f63",
-      "pdf_page": 32
-    },
-    {
-      "n": 33,
-      "img": "img/PU04/PU04_s033.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 552,
-      "text_sha": "d2d78b36794f4217",
-      "pdf_page": 33
-    },
-    {
-      "n": 34,
-      "img": "img/PU04/PU04_s034.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 438,
-      "text_sha": "c7e99dbbe973ed0b",
-      "pdf_page": 34
-    },
-    {
-      "n": 35,
-      "img": "img/PU04/PU04_s035.webp",
+    "35": {
       "title": "Ius gentium ve starověku: konkrétní obsah",
       "text": "Cvičení dává k ius gentium něco, co v definicích chybí — PŘÍKLADY. 'IUS GENTIUM' jako 'právo společné všem lidem' znamená VŠECHNY PRÁVNÍ ZÁSADY, KTERÉ PLATÍ NEJEN PRO JEDEN NÁROD, ALE PRO VŠECHNY NÁRODY, a cvičení jmenuje dvě: NEDOTKNUTELNOST VYSLANCE a SPOLEČNÉ UŽÍVÁNÍ MOŘSKÉHO POBŘEŽÍ. Všimni si, že obojí je ve své podstatě MEZINÁRODNÍ — a přece se to ve starověku neřadilo do zvláštního oboru. TY ZÁSADY SPOLEČNÉ VŠEM LIDEM SE VE STAROVĚKU ODVOZOVALY Z 'PŘÍRODY'. K tomu hrála klíčovou roli MYŠLENKA SPRAVEDLNOSTI: CICERO JAKO PRVNÍ ZMIŇUJE NAUKU O SPRAVEDLIVÉ VÁLCE (BELLUM IUSTUM) — a pro něj je spravedlivou válkou VÁLKA OBRANNÁ A VÁLKA K POMSTĚ ZA UTRPĚNOU KŘIVDU. Typické pro starověk je také ARISTOTELOVO MYŠLENÍ O MEZINÁRODNÍM PRÁVU, které je PROSTOUPENÉ PŘIROZENÝM PRÁVEM a bylo ZNOVUOBJEVENO V RANÉM NOVOVĚKU — právě přes pozdní scholastiku a školu ze Salamanky.",
       "terms": [],
@@ -718,34 +213,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 932,
-      "text_sha": "d7c4c0381bef5fa2",
-      "pdf_page": 35
+      "vision_used": true
     },
-    {
-      "n": 36,
-      "img": "img/PU04/PU04_s036.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 876,
-      "text_sha": "c292c0d8d3bf24d9",
-      "pdf_page": 36
-    },
-    {
-      "n": 37,
-      "img": "img/PU04/PU04_s037.webp",
+    "37": {
       "title": "Ius gentium ve středověku a přerod v ius inter gentes",
       "text": "STŘEDOVĚK OVLÁDALO KŘESŤANSKÉ PŘIROZENOPRÁVNÍ MYŠLENÍ — přirozené právo má BOŽSKOU SLOŽKU, Bůh je důvodem všeho. Na Západě byl ZNOVUOBJEVEN ARISTOTELÉS a typickým výrazem křesťanského přirozeného práva je dílo TOMÁŠE AKVINSKÉHO. IUS GENTIUM SE POSTUPNĚ POPISUJE JAKO PRÁVO POUŽÍVANÉ MEZI KŘESŤANSKÝMI VLÁDCI A SPOLEČENSTVÍMI — tedy vzniká ZÁPADNÍ SPOLEČENSTVÍ MEZINÁRODNÍHO PRÁVA, v jehož čele stojí ŘÍMSKO-NĚMECKÝ CÍSAŘ JAKO 'VLÁDCE SVĚTA' (tak to formuluje DANTE ALIGHIERI v DE MONARCHIA, 1310) A PAPEŽ JAKO NEJVYŠŠÍ VLÁDCE KŘESŤANSTVA. POZDNÍ STŘEDOVĚK: OD ZHRUBA ROKU 1400 SE ZAČÍNÁ ROZVÍJET EVROPSKÝ SYSTÉM STÁTŮ, FEUDÁLNÍ STRUKTURY USTUPUJÍ A SAMOSTATNÉ 'STÁTY' SPOLU ČÍM DÁL VÍC VSTUPUJÍ DO VZTAHŮ 'PODLE MEZINÁRODNÍHO PRÁVA'. Ius gentium se tak POSTUPNĚ MĚNÍ V PRÁVO MEZI NÁRODY — 'IUS INTER GENTES'. A cvičení přidává příčinu, na kterou se zapomíná: VÝZNAMNOU ZTRÁTU MOCI PAPEŽSTVÍ ZPŮSOBIL ZÁPADNÍ SCHIZMA (1378–1417); PO KOSTNICKÉM KONCILU ROKU 1417 UŽ PAPEŽOVÉ NIKDY NEDOSÁHLI TÉŽE MOCI JAKO VE STŘEDOVĚKU. Bez papeže jako vrcholu hierarchie zůstala jen vodorovná soustava rovných.",
       "terms": [],
@@ -767,18 +237,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 832,
-      "text_sha": "ab97dee4efd9fe7a",
-      "pdf_page": 37
+      "vision_used": true
     },
-    {
-      "n": 38,
-      "img": "img/PU04/PU04_s038.webp",
+    "38": {
       "title": "„Španělská éra“ 1500–1648",
       "text": "Cvičení pojmenovává celé období mezinárodního práva podle vedoucí mocnosti a dává mu rámec. ROKU 1453 KONČÍ BYZANTSKÁ ŘÍŠE; Z MOSKEVSKÉHO STÁTU VZNIKÁ RUSKÁ ŘÍŠE, která brzy získá VEDOUCÍ ROLI V PRAVOSLAVNÉM SVĚTĚ. Na území bývalé Byzance VYSTUPUJE OSMANSKÁ ŘÍŠE — VÍDEŇ BYLA DVAKRÁT NA NĚKOLIK MĚSÍCŮ OBLEHNUTA, ROKU 1529 A 1683. V 15. STOLETÍ ZAČÍNÁ KOLONIZAČNÍ ÉRA nesená ŠPANĚLSKEM A PORTUGALSKEM: ROKU 1492 OBJEVENÍ AMERIKY a TÝŽ ROK VYHNÁNÍ MUSLIMŮ Z EVROPY DOBYTÍM GRANADY, tedy KONEC REKONQUISTY. Španělská éra je ve střední Evropě poznamenána NÁBOŽENSKÝMI KONFLIKTY. TAHLE SOUVISLOST JE POINTA: TOTÉŽ OBDOBÍ, KTERÉ PŘINESLO ZÁMOŘSKOU EXPANZI, PŘINESLO I NÁBOŽENSKÉ VÁLKY V EVROPĚ — a mezinárodní právo se rodí z obojího najednou. Ze zámoří přicházejí otázky o titulech k cizí půdě a o postavení jiných národů (Vitoria, Salamanca), z Evropy otázka, jak spolu mají žít vládci různých vyznání. Obojí se protne roku 1648.",
       "terms": [],
@@ -800,94 +261,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 891,
-      "text_sha": "2f98faa7987beae2",
-      "pdf_page": 38
-    },
-    {
-      "n": 39,
-      "img": "img/PU04/PU04_s039.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1148,
-      "text_sha": "2781664bae37a77c",
-      "pdf_page": 39
-    },
-    {
-      "n": 40,
-      "img": "img/PU04/PU04_s040.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1101,
-      "text_sha": "451b1c35fbd388db",
-      "pdf_page": 40
-    },
-    {
-      "n": 41,
-      "img": "img/PU04/PU04_s041.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1258,
-      "text_sha": "0fd76de1f8636643",
-      "pdf_page": 41
-    },
-    {
-      "n": 42,
-      "img": "img/PU04/PU04_s042.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 913,
-      "text_sha": "3ae39456403af76e",
-      "pdf_page": 42
-    },
-    {
-      "n": 43,
-      "img": "img/PU04/PU04_s043.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 553,
-      "text_sha": "574bdb92ef34cdc2",
-      "pdf_page": 43
+      "vision_used": true
     }
-  ]
+  }
 }

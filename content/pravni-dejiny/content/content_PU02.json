@@ -1,36 +1,9 @@
 {
   "lecture_id": "PU02",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Cvičení 2",
   "title": "Cvičení 2: starověké kultury, židovské a islámské právo",
-  "source_file": "raw/PU02_ppt.pdf",
-  "source_sha256": "37f8958dc02474e5da81c65fc8e5ff4725ac0f6f5b1e3a42d9ed34bf671c4934",
-  "source_pages": 37,
-  "slides_per_page": 1,
-  "slide_count": 37,
-  "updated_at": "2026-09-15T12:55:09+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PU02/PU02_s001.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 228,
-      "text_sha": "bc0ae8412cc404fe",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PU02/PU02_s002.webp",
+  "free_sections": true,
+  "slides": {
+    "2": {
       "title": "Římané, Řekové a to, co po každém zbylo",
       "text": "Odpověď cvičení na otázku, zda Římané 'vynalezli' právo, zní NE — a hned dodává, kde je zásluha. Existovaly STAROVĚKÉ NEZÁPADNÍ PRÁVNÍ KULTURY dávno předtím. CO ŘÍMANÉ SKUTEČNĚ VYTVOŘILI, JE NORMATIVNÍ PRÁVNÍ SYSTÉM, ZEJMÉNA V OBLASTI OBČANSKÉHO PRÁVA, KTERÝ DODNES TVOŘÍ ZÁKLAD KONTINENTÁLNÍ EVROPSKÉ PRÁVNÍ KULTURY. ŘEKOVÉ TAK ROZVINUTÝ SYSTÉM JEŠTĚ NEMĚLI, a to v neposlední řadě PROTO, ŽE MĚLI MNOHO JEDNOTLIVÝCH MĚSTSKÝCH STÁTŮ — právo bylo roztříštěné a nemělo kde se sjednotit. A cvičení přidává postřeh, který stojí za zapamatování: PRO ŘEKY BYLO PRÁVO PŘEDEVŠÍM SOUČÁSTÍ RÉTORIKY, tedy uměním přesvědčit shromáždění či porotu, ne odbornou disciplínou o pojmech. JEJICH VLIV LEŽÍ HLAVNĚ V PRÁVNÍ FILOZOFII — u SOFISTŮ, PLATÓNA A ARISTOTELA.",
       "terms": [],
@@ -44,25 +17,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 630,
-      "text_sha": "efd08dd8dd2047da",
-      "pdf_page": 2
+      "vision_used": true
     },
-    {
-      "n": 3,
-      "img": "img/PU02/PU02_s003.webp",
+    "3": {
       "title": "Sofisté: člověk mírou všech věcí",
       "text": "OD 5. STOLETÍ PŘ. N. L. SOFISTÉ ZPOCHYBNILI, ŽE PRÁVO JE DÁNO BOHY, A TEDY ZÁVAZNÉ PRO VŠECHNY ŽIVÉ BYTOSTI — a cvičení k tomu výslovně dodává, že jsou v tom PODOBNOSTI S OSVÍCENSTVÍM, tedy že jde o týž typ zpochybnění autority o dva tisíce let dřív. PROTAGORAS pochyboval o samé existenci bohů a pro něj se ČLOVĚK STAL 'MÍROU VŠECH VĚCÍ'. Z toho plyne otázka, která od té doby nezmizela: MUSÍ BÝT PRÁVO SPRAVEDLIVÉ, A ČÍ SPRAVEDLNOSTI MÁ ODPOVÍDAT — BOŽSKÉ, NEBO LIDSKÉ? Sofisté proto začali rozlišovat mezi PRÁVEM ZAZNAMENANÝM (později se mu bude říkat POZITIVNÍ) a PRÁVEM, KTERÉ PLATÍ OD PŘIROZENOSTI, NEZÁVISLE NA VEŠKERÉM POZITIVNÍM PRÁVU — tedy NOMOS PROTI PHYSIS. SÓKRATÉS, PO NĚM PLATÓN A ARISTOTELÉS se pak zabývali především ETIKOU jako protiváhou k tomuhle relativismu. CICERO to shrnul do věty, kterou stojí za to znát latinsky: 'LEX EST RATIO SUMMA INSITA IN NATURA' — zákon je nejvyšší rozum vložený do přírody. A DŮSLEDEK, KTERÝ Z TOHO CVIČENÍ VYVOZUJE, JE TVRDÝ: POZITIVNÍ ZÁKON, KTERÝ ODPORUJE PŘIROZENÉMU PRÁVU, JE NICOTNÝ A NEPLATNÝ — NEZAVAZUJE.",
       "terms": [
-        {
-          "term": "lex est ratio summa insita in natura",
-          "def": "Zákon je nejvyšší rozum vložený do přírody (Cicero) — základ argumentu, že odporující pozitivní zákon nezavazuje."
-        }
+        { "term": "lex est ratio summa insita in natura", "def": "Zákon je nejvyšší rozum vložený do přírody (Cicero) — základ argumentu, že odporující pozitivní zákon nezavazuje." }
       ],
       "cards": [
         {
@@ -82,50 +43,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1082,
-      "text_sha": "3d392ba5ea117259",
-      "pdf_page": 3
+      "vision_used": true
     },
-    {
-      "n": 4,
-      "img": "img/PU02/PU02_s004.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 194,
-      "text_sha": "489caaf83f7632be",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PU02/PU02_s005.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 162,
-      "text_sha": "87fa82becf5b2c65",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PU02/PU02_s006.webp",
+    "6": {
       "title": "Od neolitu k prvnímu psanému právu",
       "text": "Cvičení dává vývoj po stupních a je to hezká odpověď na otázku, PROČ právě tam. NEOLIT — VLASTNICTVÍ UŽ NAZNAČUJE PRÁVO: kde se hromadí majetek, musí se vymezit, komu patří. 6. TISÍCILETÍ PŘ. N. L. — přibývá všechno najednou: HIERARCHIZACE, STANDARDIZOVANÉ MÍRY, PRVNÍ OBCE, NÁSTROJE SPRÁVY, PRVNÍ DOKLADY MASAKRŮ A VÁLKY, JMENNÉ PEČETI, PŘEBYTEK A CENTRÁLNÍ PLÁNOVÁNÍ, SJEDNOCOVÁNÍ. 3. TISÍCILETÍ PŘ. N. L. — VYSPĚLÁ CIVILIZACE s PÍSMEM a KALENDÁŘEM na území dnešní Sýrie, Iráku a Íránu. MEZOPOTÁMIE konkrétně: MNOHO MĚSTSKÝCH STÁTŮ, PRVNÍ PSANÉ PRÁVO (o správě zboží a o smlouvách — rozvod, dědění, adopce, otroctví) a UDRŽOVANÉ VZTAHY S OSTATNÍMI MĚSTSKÝMI STÁTY. A právě z té poslední věty plyne to nejzajímavější: dochovaly se DVĚ SMLOUVY ZE 3. TISÍCILETÍ PŘ. N. L. — STÉLA SUPŮ a MÍROVÁ SMLOUVA MEZI EBLOU A ABARSALEM. Jsou to tedy NEJSTARŠÍ DOKLADY NĚČEHO, CO BY SE DALO NAZVAT MEZINÁRODNÍM PRÁVEM.",
       "terms": [],
@@ -147,34 +67,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 551,
-      "text_sha": "46e84175f9e75357",
-      "pdf_page": 6
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PU02/PU02_s007.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 80,
-      "text_sha": "4b20d251bfff4358",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PU02/PU02_s008.webp",
+    "8": {
       "title": "Stéla supů",
       "text": "STÉLA SUPŮ je NEJSTARŠÍ ZNÁMÝ VÁLEČNÝ PAMÁTNÍK a pochází z RANÉ DYNASTICKÉ DOBY IIIb (2600–2350 př. n. l.) v Mezopotámii. Oslavuje VÍTĚZSTVÍ MĚSTSKÉHO STÁTU LAGAŠ NAD SOUSEDNÍ UMMOU. Zlomky byly nalezeny v jižním Iráku koncem 19. století a dnes jsou v LOUVRU. Z nápisů víme, že stélu nechal zhotovit EANNATUM, ENSI čili vládce Lagaše, kolem roku 2460 př. n. l.; popisuje na ní SPOR S UMMOU O GU-EDIN, pás zemědělské půdy ležící mezi oběma městskými státy. Spor končí bitvou, v níž Eannatum — označený za miláčka boha Ningirsua — nad Ummou zvítězí. A TEĎ TA PRÁVNĚ ZAJÍMAVÁ ČÁST: PO BITVĚ VŮDCE UMMY PŘÍSAHÁ, ŽE UŽ NIKDY NEPŘEKROČÍ ÚZEMÍ LAGAŠE, POD HROZBOU TRESTU. Máme tedy pohraniční spor, jeho vyřešení silou, a nakonec ZÁVAZEK STVRZENÝ PŘÍSAHOU A ZAJIŠTĚNÝ SANKCÍ — tedy všechny prvky mezistátní smlouvy, čtyři a půl tisíce let před Vestfálským mírem.",
       "terms": [],
@@ -188,50 +83,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 839,
-      "text_sha": "55aaf4178537eb86",
-      "pdf_page": 8
+      "vision_used": true
     },
-    {
-      "n": 9,
-      "img": "img/PU02/PU02_s009.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 797,
-      "text_sha": "ee72477ae79f0793",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PU02/PU02_s010.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 36,
-      "text_sha": "a910c1a052f7e8cb",
-      "pdf_page": 10
-    },
-    {
-      "n": 11,
-      "img": "img/PU02/PU02_s011.webp",
+    "11": {
       "title": "Egypt a Mezopotámie: souvislost proti střídání",
       "text": "Cvičení staví obě říše proti sobě a ten kontrast je dobrá odpověď. EGYPT: SJEDNOCENÍ HORNÍHO A DOLNÍHO EGYPTA KRÁLEM MENIM (32. století př. n. l.); DLOUHÝ A SOUVISLÝ STÁTNÍ VÝVOJ se třemi obdobími rozkvětu (STARÁ, STŘEDNÍ A NOVÁ ŘÍŠE) proloženými přechodnými dobami; ROKU 343 PŘ. N. L. se stává součástí perské říše. EGYPTSKÉ PRÁVO je doloženo VELKÝM MNOŽSTVÍM ZÁVĚTÍ, SMLUV, ADOPCÍ A JINÝCH PRÁVNÍCH JEDNÁNÍ — dochovaných na PAPYRECH (vídeňské Papyrusmuseum má jednu z největších sbírek na světě). MEZOPOTÁMIE naproti tomu NEMÁ SOUVISLÝ VÝVOJ: říše se tvoří STŘÍDAVĚ NA SEVERU (ASÝRIE) A NA JIHU (BABYLONIE), a roku 539 PŘ. N. L. se celá oblast stává součástí perské říše. MEZOPOTAMSKÉ PRÁVO má NĚKOLIK PRÁVNÍCH ZÁPISŮ — NEJSTARŠÍ JE ZÁKONÍK UR-NAMMUŮV (23./21. století př. n. l.), NEJSLAVNĚJŠÍ CHAMMURAPIHO (18. století př. n. l.). A cvičení výslovně otvírá spor, který nemá jednoznačnou odpověď: PODSTATA TĚCH ZÁPISŮ JE DISKUTABILNÍ — je to ZÁKONNÉ PRÁVO, nebo ZÁZNAM PRÁVA OBYČEJOVÉHO? Tedy: stanovil panovník nové normy, nebo jen sepsal, co se beztak dodržovalo?",
       "terms": [],
@@ -253,114 +107,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 562,
-      "text_sha": "643e1d659b2967cb",
-      "pdf_page": 11
+      "vision_used": true
     },
-    {
-      "n": 12,
-      "img": "img/PU02/PU02_s012.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 549,
-      "text_sha": "0f53d4e196d34aaa",
-      "pdf_page": 12
-    },
-    {
-      "n": 13,
-      "img": "img/PU02/PU02_s013.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 51,
-      "text_sha": "604ed5f47fb76e4a",
-      "pdf_page": 13
-    },
-    {
-      "n": 14,
-      "img": "img/PU02/PU02_s014.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 529,
-      "text_sha": "934867d107e16979",
-      "pdf_page": 14
-    },
-    {
-      "n": 15,
-      "img": "img/PU02/PU02_s015.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 204,
-      "text_sha": "52399c84a5a1648c",
-      "pdf_page": 15
-    },
-    {
-      "n": 16,
-      "img": "img/PU02/PU02_s016.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 614,
-      "text_sha": "7b64de5d95958561",
-      "pdf_page": 16
-    },
-    {
-      "n": 17,
-      "img": "img/PU02/PU02_s017.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 77,
-      "text_sha": "da1f258d2708373e",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PU02/PU02_s018.webp",
+    "18": {
       "title": "Proč je židovské právo „ovládáno lidmi“ — odpověď cvičení",
       "text": "Cvičení dává na tuhle otázku čtyři body a všechny jsou SROVNÁVACÍ, tedy vymezené proti západnímu ideálu — a právě to z nich dělá dobrou odpověď. (1) NA ROZDÍL OD ZÁPADNÍHO IDEÁLU SMĚJÍ SOUDCI OD PRAVIDLA ODCHÝLIT. Kde je u nás odchylka od normy vadou, je tam součástí soudcovské role. (2) NEJSOU SOUDY EKVITY (equity courts) — protože není třeba druhé soustavy, která by tvrdost pravidla zmírňovala; tu funkci plní sám soudce uvnitř jedné soustavy. (3) NENÍ ODVOLACÍ SOUD. (4) NENÍ NAUKA O ZÁVAZNÉM PRECEDENTU. (5) A shrnutí, které si zapamatuj doslova: SOUDCE JE DUCHOVNÍM VŮDCEM A VZOREM, NE TECHNOKRATEM. Z těch bodů plyne i vysvětlení: kde právo nemá stát, který by ho vynucoval, drží ho pohromadě AUTORITA OSOBY, ne hierarchie institucí — a tomu odpovídá i to, že se nekontroluje odvoláním, nýbrž vážností učence. DOPLNĚK K DIASPOŘE: cvičení ji datuje OD BABYLONSKÉHO ZAJETÍ (kolem roku 600 př. n. l.) a jejím právním důsledkem je VZNIK PRÁVNÍHO SYSTÉMU (HALACHA) ODPOUTANÉHO OD KONKRÉTNÍHO ÚZEMÍ. PRAMENY: TÓRA (Starý zákon) a TALMUD — JERUZALÉMSKÝ kolem roku 400 n. l., BABYLONSKÝ kolem roku 600 n. l.; Talmud má dvě části, MIŠNU (psané shrnutí ústní Tóry) a GEMARU (komentář).",
       "terms": [],
@@ -382,57 +131,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 313,
-      "text_sha": "dcc8ad431c956f79",
-      "pdf_page": 18
+      "vision_used": true
     },
-    {
-      "n": 19,
-      "img": "img/PU02/PU02_s019.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 136,
-      "text_sha": "d870695e7b4da282",
-      "pdf_page": 19
-    },
-    {
-      "n": 20,
-      "img": "img/PU02/PU02_s020.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 415,
-      "text_sha": "a4620a088abf30a3",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PU02/PU02_s021.webp",
+    "21": {
       "title": "Od Muhammada k sunnitům a šíitům",
       "text": "MUHAMMAD (mezi lety 570 a 632 n. l.) založil islámské náboženství na ARABSKÉM POLOOSTROVĚ. Doba před ním se označuje jako DŽÁHILÍJA — 'doba nevědomosti', temný věk. PO MUHAMMADOVĚ SMRTI VYPUKL BOJ O NÁSTUPNICTVÍ a ROKU 656 DOŠLO K ROZKOLU: místodržitel SÝRIE založil UMAJJOVSKOU DYNASTII a CHALÍFOVÉ — tedy DUCHOVNÍ I SVĚTŠTÍ VŮDCI V JEDNÉ OSOBĚ — vládli z DAMAŠKU; z téhle větve je SUNNITSKÝ ISLÁM, dnes největší větev. GEOGRAFIE CHALIFÁTU: chalífové vládli z DAMAŠKU (do 749), pak z BAGDÁDU (do mongolského vpádu) a od 13. století do roku 1517 z KÁHIRY, nad říší sahající OD ŠPANĚLSKA PO STŘEDNÍ ASII. AL-ANDALUS je muslimy ovládaná část Pyrenejského poloostrova OD 8. STOLETÍ DO ROKU 1492 (rekonquista). ROKU 1517 DOBYLI EGYPT OSMANI a OSMANŠTÍ SULTÁNI SI NAPŘÍŠTĚ NÁROKOVALI TITUL CHALÍFY — AŽ DO ZRUŠENÍ SULTANÁTU ROKU 1922. ŠÍITÉ: při rozkolu v 7. století zůstala menší část věrná MUHAMMADOVU VNUKOVI a uctívá jeho i jeho potomky jako IMÁMY. Odtud šíité, například v ÍRÁNU, kde myšlenka NÁVRATU MAHDÍHO trvá dodnes — a cvičení k tomu přidává ústavní důsledek, který stojí za zapamatování: PODLE ÚSTAVY ÍRÁNSKÉ REPUBLIKY Z ROKU 1979 JE VLÁDA NEJVYŠŠÍCH PRÁVNÍKŮ POUZE ZÁSTUPNÁ, DOKUD SE MAHDÍ NEVRÁTÍ. Nejvyšší duchovní tedy nevládne vlastním právem, nýbrž za nepřítomného.",
       "terms": [
-        {
-          "term": "džáhilíja",
-          "def": "„Doba nevědomosti“ — označení pro dobu na Arabském poloostrově před Muhammadem."
-        }
+        { "term": "džáhilíja", "def": "„Doba nevědomosti“ — označení pro dobu na Arabském poloostrově před Muhammadem." }
       ],
       "cards": [
         {
@@ -460,66 +165,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 452,
-      "text_sha": "37684857d27cf962",
-      "pdf_page": 21
+      "vision_used": true
     },
-    {
-      "n": 22,
-      "img": "img/PU02/PU02_s022.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 381,
-      "text_sha": "f59314a4b3f36145",
-      "pdf_page": 22
-    },
-    {
-      "n": 23,
-      "img": "img/PU02/PU02_s023.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 552,
-      "text_sha": "320bbe5b4662732c",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PU02/PU02_s024.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 256,
-      "text_sha": "2f21810da128a6cf",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PU02/PU02_s025.webp",
+    "25": {
       "title": "Šarí'a a fiqh: co dělí a co nedělí",
       "text": "Cvičení k šarí'e přidává tři rozlišení, která jinde nejsou. (1) ŠARÍ'A JE OD ISLÁMU NEODDĚLITELNÁ; ústředním pramenem je KORÁN jako DOSLOVNÉ ZJEVENÍ BOŽÍ Prorokovi, dalšími SUNNA (doložená hadíthy), IDŽMÁ (konsensus učenců) a u šíitů NORMATIVNÍ PRAXE IMÁMŮ. (2) FIQH, tedy PRÁVNÍ VĚDA, SE PROSADIL JAKO SAMOSTATNÁ VĚDA VEDLE TEOLOGIE — a jeho úkol je přesně vymezen: ŠARÍ'A SE POKLÁDÁ NEJEN ZA PRÁVNÍ, ALE I ZA MRAVNÍ ŘÁD, A ÚKOLEM FIQHU JE ODLIŠIT PRÁVNÍ NORMY OD MRAVNÍCH. Není to tedy tak, že by se právo a mravnost nerozlišovaly vůbec — rozlišují se, ale AŽ PRÁCÍ PRÁVNÍKA, ne už v samotném prameni. (3) TAK JAKO HALACHA rozlišuje i šarí'a NORMY UPRAVUJÍCÍ SOUŽITÍ LIDÍ MEZI SEBOU a PRAVIDLA VZTAHU ČLOVĚKA K BOHU. Z toho plyne praktický důsledek: NEMUSLIMOVÉ, pokud žijí v zemích, kde šarí'a platí, MUSÍ DODRŽOVAT JEN TU PRVNÍ SKUPINU. NAPROTI TOMU DĚLENÍ PRÁVA NA SOUKROMÉ A VEŘEJNÉ ŠARÍ'A NEZNÁ — a to je přesně ten případ, kdy evropská kategorie na cizí řád nesedí. HODNOCENÍ JEDNÁNÍ má pět stupňů počínaje WÁDŽIB (povinné) a HALÁL (nezakázané, ale ani povinné).",
       "terms": [],
@@ -541,50 +189,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 534,
-      "text_sha": "7669942b7ea97f9d",
-      "pdf_page": 25
+      "vision_used": true
     },
-    {
-      "n": 26,
-      "img": "img/PU02/PU02_s026.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 610,
-      "text_sha": "9c8ed2015e325129",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PU02/PU02_s027.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 412,
-      "text_sha": "54b406a05663b64d",
-      "pdf_page": 27
-    },
-    {
-      "n": 28,
-      "img": "img/PU02/PU02_s028.webp",
+    "28": {
       "title": "Čtyři sunnitské školy a jejich povaha",
       "text": "Cvičení dává ke každé škole charakteristiku i to, kde dnes převládá — a to je přesně to, co udělá odpověď konkrétní. MUHAMMAD IBN IDRÍS AŠ-ŠÁFI'Í je zakladatelem ŠÁFI'OVSKÉ ŠKOLY, kterou cvičení popisuje jako STŘEDNÍ CESTU MEZI HANAFIJSKOU (velmi liberální, například v Bosně) A KONZERVATIVNÍ MÁLIKOVSKOU; převládá v MALAJSII, SOMÁLSKU a dalších. Vychází z tradice, ale ZDŮRAZŇUJE VÝZNAM KONSENSU PRÁVNÍKŮ. DALŠÍ: HANAFIJSKÁ (například Bosna); MÁLIKOVSKÁ, kde PŘEVAŽUJE TRADICE A ZVYKLOSTI (subsaharská Afrika); HANBALOVSKÁ, která bere KORÁN JAKO JEDINÝ PRAMEN PRÁVA (Saúdská Arábie). PRAMENY PODLE CVIČENÍ: KORÁN je svatá kniha islámu, PRVNÍ A ZÁKLADNÍ PRAMEN ustanovení šarí'y. SUNNA je NORMATIVNÍ PRAXE PROROKA; je rovněž BOŽSKÉHO PŮVODU, ale STOJÍ AŽ ZA KORÁNEM — a cvičení k tomu přidává jemné rozlišení, které stojí za zapamatování: SUNNA JE PRAVDIVÁ OBSAHEM, ALE NE ZNĚNÍM. Tedy: co Prorok učil, platí; jak přesně to řekl, se nedochovalo doslova. IDŽMÁ je konsensus učenců; u šíitů k tomu přistupuje NORMATIVNÍ PRAXE IMÁMŮ. A PRAVIDLO PŘEDNOSTI, které cvičení vyvozuje z aš-Šáfi'ího: VZNIKNE-LI ROZPOR MEZI DVĚMA SUNNAMI, POUŽIJE SE TA, KTERÁ JE BLÍŽ KORÁNU.",
       "terms": [],
@@ -606,158 +213,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 497,
-      "text_sha": "c4c0e68d3faca913",
-      "pdf_page": 28
-    },
-    {
-      "n": 29,
-      "img": "img/PU02/PU02_s029.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 456,
-      "text_sha": "be2fb2124cbd1664",
-      "pdf_page": 29
-    },
-    {
-      "n": 30,
-      "img": "img/PU02/PU02_s030.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 26,
-      "text_sha": "d108912b1a358788",
-      "pdf_page": 30
-    },
-    {
-      "n": 31,
-      "img": "img/PU02/PU02_s031.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 811,
-      "text_sha": "8af9c80e2fabcbe0",
-      "pdf_page": 31
-    },
-    {
-      "n": 32,
-      "img": "img/PU02/PU02_s032.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 462,
-      "text_sha": "41ab5cfb9c8b313f",
-      "pdf_page": 32
-    },
-    {
-      "n": 33,
-      "img": "img/PU02/PU02_s033.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 325,
-      "text_sha": "05a7bae614cbb8a1",
-      "pdf_page": 33
-    },
-    {
-      "n": 34,
-      "img": "img/PU02/PU02_s034.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 585,
-      "text_sha": "80c2cfdbf12ac73f",
-      "pdf_page": 34
-    },
-    {
-      "n": 35,
-      "img": "img/PU02/PU02_s035.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 627,
-      "text_sha": "0510838b2ea2eb6e",
-      "pdf_page": 35
-    },
-    {
-      "n": 36,
-      "img": "img/PU02/PU02_s036.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 520,
-      "text_sha": "680137f459327c57",
-      "pdf_page": 36
-    },
-    {
-      "n": 37,
-      "img": "img/PU02/PU02_s037.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 707,
-      "text_sha": "95db83722d9dbc85",
-      "pdf_page": 37
+      "vision_used": true
     }
-  ]
+  }
 }

@@ -1,91 +1,13 @@
 {
   "lecture_id": "PU05",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Cvičení 5",
   "title": "Cvičení 5: ius gentium, suverenita, veřejné právo do 19. století",
-  "source_file": "raw/PU05_ppt.pdf",
-  "source_sha256": "46592466e9258724aa874ea97f9142e85186168043d09cadb725f768133f0438",
-  "source_pages": 28,
-  "slides_per_page": 1,
-  "slide_count": 28,
-  "updated_at": "2026-09-15T12:55:24+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PU05/PU05_s001.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 121,
-      "text_sha": "c29d2714e75737c7",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PU05/PU05_s002.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 552,
-      "text_sha": "d2d78b36794f4217",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PU05/PU05_s003.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 535,
-      "text_sha": "3cf0ac14a6b0847b",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PU05/PU05_s004.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1687,
-      "text_sha": "36118d8202f9e538",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PU05/PU05_s005.webp",
+  "free_sections": true,
+  "slides": {
+    "5": {
       "title": "Akvinského čtyři stupně zákona",
       "text": "Cvičení dává k středověkému přirozenému právu konkrétní strukturu, kterou je dobré umět vyjmenovat odshora dolů. TOMÁŠ AKVINSKÝ (1225–1274) staví HIERARCHII 'ZÁKONŮ' O ČTYŘECH STUPNÍCH. (1) LEX AETERNA, VĚČNÝ ZÁKON — nejvyšší; JE PRO ČLOVĚKA NEUCHOPITELNÝ, protože Bůh je 'NEZPŮSOBENÁ PŘÍČINA' všeho. Je to řád, podle kterého je svět zřízen. (2) LEX DIVINA, BOŽÍ ZÁKON — ten, který je vysloven v PÍSMU SVATÉM, tedy zjevený. (3) LEX NATURALIS, PŘIROZENÝ ZÁKON — ZÁKON, KTERÝ ČLOVĚK ROZLUŠTÍ ROZUMEM A KTERÝ SE ODVOZUJE Z LEX AETERNA. To je ta část věčného řádu, ke které se člověk může dobrat sám. (4) LEX HUMANA, LIDSKÝ ZÁKON — ten, který dělají lidé. HIERARCHIE JE ZÁROVEŇ ODŮVODNĚNÍM I OMEZENÍM: lidský zákon platí, protože se opírá o vyšší stupeň, a neplatí, odporuje-li mu. Myšlenka je v tom, že EXISTUJÍ ZÁKONY A ZÁSADY, KTERÉ VE SVĚTĚ JSOU PŘIROZENĚ, NE PROTO, ŽE BY JE VYTVOŘILI LIDÉ. Ve středověku tedy přirozené právo MÁ BOŽSKOU SLOŽKU — a právě tu později Grotius odstraní.",
       "terms": [
-        {
-          "term": "lex aeterna / divina / naturalis / humana",
-          "def": "Akvinského čtyři stupně: věčný zákon (nezachytitelný), zjevený, rozumem rozluštěný a lidský."
-        }
+        { "term": "lex aeterna / divina / naturalis / humana", "def": "Akvinského čtyři stupně: věčný zákon (nezachytitelný), zjevený, rozumem rozluštěný a lidský." }
       ],
       "cards": [
         {
@@ -97,18 +19,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1308,
-      "text_sha": "b2e09ab26a53e850",
-      "pdf_page": 5
+      "vision_used": true
     },
-    {
-      "n": 6,
-      "img": "img/PU05/PU05_s006.webp",
+    "6": {
       "title": "Kdo tvořil západní společenství mezinárodního práva",
       "text": "Cvičení odpovídá na otázku, MEZI KÝM vlastně ius gentium platilo, a ten seznam je překvapivější, než by se čekalo. ZÁPADNÍ SPOLEČENSTVÍ MEZINÁRODNÍHO PRÁVA tvořila VELKÁ KŘESŤANSKÁ KRÁLOVSTVÍ JAKO JEDNOTLIVÉ (SUVERÉNNÍ) STÁTY — FRANCIE, ANGLIE, IBERSKÁ KRÁLOVSTVÍ (Kastilie, Aragon a Portugalsko), POLSKO, DÁNSKO, SICÍLIE a samozřejmě ŘÍMSKO-NĚMECKÁ ŘÍŠE — A K TOMU ŘÁD NĚMECKÝCH RYTÍŘŮ A MALTÉZSKÝ ŘÁD. Tedy: DVA RYTÍŘSKÉ ŘÁDY STÁLY V TOMHLE SPOLEČENSTVÍ VEDLE KRÁLOVSTVÍ. To je dobrý doklad, že subjektivita se tehdy neodvozovala od území a obyvatelstva jako dnes, nýbrž od POSTAVENÍ V KŘESŤANSKÉM ŘÁDU — a proto může řád bez vlastní země být rovnocenným účastníkem. (Maltézský řád má ostatně dodnes zvláštní mezinárodněprávní postavení a udržuje diplomatické styky.)",
       "terms": [],
@@ -122,41 +35,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1161,
-      "text_sha": "d833aa3845df8d4b",
-      "pdf_page": 6
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PU05/PU05_s007.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1500,
-      "text_sha": "b439afc2f5f275fb",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PU05/PU05_s008.webp",
+    "8": {
       "title": "Španělská éra: jak se z ius gentium stala věda",
       "text": "BĚHEM ŠPANĚLSKÉ ÉRY (1500–1648) SE IUS GENTIUM A IUS NATURAE ZAČALY POMALU MĚNIT VE VĚDU A V SAMOSTATNÉ PRÁVNÍ DISCIPLÍNY. Cvičení k tomu jmenuje SLOŽKY, které to umožnily. (a) POZDNÍ ŠPANĚLSKÁ SCHOLASTIKA: FRANCISCO SUÁREZ (1548–1617) rozlišil DVĚ FORMY IUS GENTIUM — 'IUS GENTIUM INTER SE', tedy IUS INTER GENTES čili PRÁVO MEZI NÁRODY (vnější právo), a 'IUS GENTIUM INTRA SE', tedy PRÁVO VNITŘNÍ. Tím se poprvé odděluje to, co dnes nazýváme mezinárodním právem, od obecných zásad platných uvnitř států. (b) POLITICKÁ TEORIE, která se vydělila jako samostatná disciplína — základ k ní položil MACHIAVELLI. K tomu patří z předchozích oddílů BODINOVA NAUKA O SUVERENITĚ. RÁMEC ÉRY: v Říši AUGSBURSKÝ NÁBOŽENSKÝ MÍR (1555) se zásadou 'CUIUS REGIO, EIUS RELIGIO' — cvičení ho označuje za PRVNÍ KROK NA CESTĚ K EVROPSKÉMU SYSTÉMU SUVERÉNNÍCH STÁTŮ; pak TŘICETILETÁ VÁLKA a VESTFÁLSKÝ MÍR (1648), který ukončuje náboženské války v Říši. DŮSLEDKY VESTFÁLSKÉHO MÍRU: ŘÍŠE ZTRÁCÍ MOC, PROTOŽE VELKÁ KNÍŽECTVÍ ZÍSKÁVAJÍ VĚTŠÍ SUVERENITU, a FRANCIE PŘEKONÁVÁ ŠPANĚLSKOU PŘEVAHU V EVROPĚ — tím začíná FRANCOUZSKÁ ÉRA.",
       "terms": [
-        {
-          "term": "ius gentium inter se × intra se",
-          "def": "Suárezovo rozlišení: právo mezi národy (vnější) × právo vnitřní."
-        }
+        { "term": "ius gentium inter se × intra se", "def": "Suárezovo rozlišení: právo mezi národy (vnější) × právo vnitřní." }
       ],
       "cards": [
         {
@@ -176,41 +61,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1163,
-      "text_sha": "ad2f7631fca446e7",
-      "pdf_page": 8
+      "vision_used": true
     },
-    {
-      "n": 9,
-      "img": "img/PU05/PU05_s009.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 729,
-      "text_sha": "50757344f36b0f9d",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PU05/PU05_s010.webp",
+    "10": {
       "title": "Francouzská éra: od božího zákona k rozumu a domácí analogii",
       "text": "V 17. STOLETÍ SE IUS GENTIUM ZAČÍNÁ OZNAČOVAT JAKO 'LAW OF NATIONS' — ten výraz zavádí RICHARD ZOUCHE. Toto 'právo národů' je ovládáno MODERNÍM PŘIROZENOPRÁVNÍM MYŠLENÍM, KTERÉ ODHODILO SVÉ NÁBOŽENSKÉ VAZBY A PROMĚNILO SE V PRÁVO ROZUMU — hlavním jménem je SAMUEL PUFENDORF. POSUN UVNITŘ PŘIROZENÉHO PRÁVA, který stojí za zapamatování: STARŠÍ TEORIE ROZUMOVÉHO PRÁVA PŘEDPOKLÁDALY, ŽE PŘIROZENÉ PRÁVO JE STEJNĚ JAKO LIDSKÝ ROZUM NEMĚNNÉ, A MUSÍ TEDY ZŮSTAT TOTOŽNÉ BEZ OHLEDU NA ČAS A PROSTOR (absolutní právo rozumu). V 18. STOLETÍ SE ALE PROSAZUJE MYŠLENKA, ŽE PŘIROZENÉ PRÁVO MŮŽE NABÝVAT RŮZNÝCH PODOB PODLE ČASU A MÍSTA. V 18. STOLETÍ je ius gentium určeno SYNTÉZOU PŘIROZENÉHO PRÁVA A OSVÍCENSTVÍ, a THOMAS RUTHERFORD (1756) to shrnuje do věty, kterou je dobré znát: 'PRÁVO NÁRODŮ JE POUZE PŘIROZENÉ PRÁVO POUŽITÉ NA KOLEKTIVNÍ OSOBY OBČANSKÝCH SPOLEČNOSTÍ.' Z toho plyne 'DOMÁCÍ ANALOGIE' (DOMESTIC ANALOGY): PARALELA MEZI JEDNOTLIVCEM A JEDNOTLIVÝM STÁTEM. STEJNĚ JAKO MÁ JEDNOTLIVEC JISTÁ NEZADATELNÁ PRÁVA, DISPONUJE I STÁT 'ABSOLUTNÍMI PŘIROZENÝMI PRÁVY' PLYNOUCÍMI Z JEHO POVAHY — PRÁVEM NA EXISTENCI A SEBEZACHOVÁNÍ, PRÁVEM NA NEZÁVISLOST A SUVERENITU, PRÁVEM NA ROVNOST. A z ius gentium se nakonec stane INTERNATIONAL LAW, což je výraz vytvořený britským pozitivistou JEREMYM BENTHAMEM (1748–1832).",
       "terms": [
-        {
-          "term": "domácí analogie",
-          "def": "Stát má „absolutní přirozená práva“ obdobně jako jednotlivec — na existenci, nezávislost a rovnost."
-        }
+        { "term": "domácí analogie", "def": "Stát má „absolutní přirozená práva“ obdobně jako jednotlivec — na existenci, nezávislost a rovnost." }
       ],
       "cards": [
         {
@@ -238,18 +95,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1015,
-      "text_sha": "c172986ddbaa1614",
-      "pdf_page": 10
+      "vision_used": true
     },
-    {
-      "n": 11,
-      "img": "img/PU05/PU05_s011.webp",
+    "11": {
       "title": "Anglická éra 1815–1914",
       "text": "Cvičení dělí dějiny mezinárodního práva na ÉRY PODLE VEDOUCÍ MOCNOSTI — ŠPANĚLSKÁ (1500–1648), FRANCOUZSKÁ (1648–1815), ANGLICKÁ (1815–1914) — a to je užitečná kostra, protože zkoušející se ptá na období. ANGLICKÁ ÉRA ZAČÍNÁ VÍDEŇSKÝM KONGRESEM (1814/15), který MÍŘÍ K OBNOVĚ 'STARÉHO POŘÁDKU' PO PÁDU NAPOLEONA. Vzniká SOUSTAVA SPOJENECTVÍ NAPŘÍČ EVROPOU, KTERÁ MÁ ZAJISTIT, ABY BYLO JAKÉKOLI POVSTÁNÍ, ZVLÁŠTĚ LIBERÁLNÍCH HNUTÍ, OKAMŽITĚ POTLAČENO. 19. STOLETÍ je poznamenáno DVĚMA PROTISMĚRNÝMI POHYBY: VZNIKEM NÁRODNÍCH STÁTŮ A SNAHOU BÝVALÝCH KOLONIÍ V AMERICE O NEZÁVISLOST — s tím souvisí VZESTUP USA NA REGIONÁLNÍ MOCNOST (MONROEOVA DOKTRÍNA 1823) — a ZÁROVEŇ POKRAČUJÍCÍM IMPERIALISMEM, ZVLÁŠTĚ V AFRICE. Tedy: v Evropě a Americe se národy osvobozují, v Africe se podrobují. A JEDNO DATUM, KTERÉ SI ZAPAMATUJ, PROTOŽE UKAZUJE HRANICI 'CIVILIZOVANÝCH NÁRODŮ': ROKU 1856 SE OSMANSKÁ ŘÍŠE STÁVÁ PRVNÍM NEKŘESŤANSKÝM ČLENEM evropského společenství mezinárodního práva (Pařížskou smlouvou po krymské válce).",
       "terms": [],
@@ -271,25 +119,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1059,
-      "text_sha": "6f578ce2faf626de",
-      "pdf_page": 11
+      "vision_used": true
     },
-    {
-      "n": 12,
-      "img": "img/PU05/PU05_s012.webp",
+    "12": {
       "title": "Sijar: islámské mezinárodní právo",
       "text": "Cvičení připojuje k evropské řadě protějšek, na který se u globálních právních dějin ptá rádo. SIJAR je v islámském právu (FIQH) ODVĚTVÍ, KTERÉ UPRAVUJE PRÁVO VÁLEČNÉ A PRÁVO CIZINCŮ. Je to SAMOSTATNÉ ODVĚTVÍ ISLÁMSKÉ PRÁVNÍ VĚDY, odvozené z KORÁNU, SUNNY, IDŽMÁ a rovněž z PRÁVNÍCH USTANOVENÍ O DŽIHÁDU. Vymezuje se takto: SIJAR JE SOUHRN PRAVIDEL URČUJÍCÍCH POSTOJ ISLÁMSKÉHO STÁTU K NEMUSLIMŮM (DHIMMA). A cvičení ho hodnotí jako PŘEDCHŮDCE MEZINÁRODNĚPRÁVNÍCH ÚPRAV ZALOŽENÝ NA PRÁVNÍ PRAXI ISLÁMSKÉ EXPANZE. Srovnání, které z toho plyne, je zajímavé: EVROPSKÉ IUS GENTIUM VZNIKALO MEZI ROVNÝMI KŘESŤANSKÝMI VLÁDCI, SIJAR NAPROTI TOMU UPRAVUJE VZTAH JEDNOHO ŘÁDU K TĚM, KDO DO NĚJ NEPATŘÍ. Obojí je pokusem uspořádat vztahy přes hranici vlastního společenství — jen z opačné strany.",
       "terms": [
-        {
-          "term": "sijar",
-          "def": "Odvětví islámské právní vědy upravující právo válečné a právo cizinců — postoj islámského státu k nemuslimům."
-        }
+        { "term": "sijar", "def": "Odvětví islámské právní vědy upravující právo válečné a právo cizinců — postoj islámského státu k nemuslimům." }
       ],
       "cards": [
         {
@@ -309,66 +145,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 552,
-      "text_sha": "24c587abba773eb6",
-      "pdf_page": 12
+      "vision_used": true
     },
-    {
-      "n": 13,
-      "img": "img/PU05/PU05_s013.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 60,
-      "text_sha": "42e088bcd587e97e",
-      "pdf_page": 13
-    },
-    {
-      "n": 14,
-      "img": "img/PU05/PU05_s014.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 765,
-      "text_sha": "1be29a6772cb3948",
-      "pdf_page": 14
-    },
-    {
-      "n": 15,
-      "img": "img/PU05/PU05_s015.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 999,
-      "text_sha": "5f911b7895928a5a",
-      "pdf_page": 15
-    },
-    {
-      "n": 16,
-      "img": "img/PU05/PU05_s016.webp",
+    "16": {
       "title": "Proč se veřejné právo v 16. a 17. století proměnilo",
       "text": "Cvičení dává PŘÍČINY, a ty jsou u téhle otázky cennější než popis. DŮVODY ZMĚN: OD 14. STOLETÍ BUDOVÁNÍ STÁTU A CENTRALIZACE MOCI; OD 15. AŽ 17. STOLETÍ INOVACE — TECHNOLOGICKÉ, HOSPODÁŘSKÉ, VOJENSKÉ A FINANČNÍ — dále EVROPSKÁ EXPANZE (objevení Ameriky) a REFORMACE. K tomu přistupuje JEAN BODIN A JEHO NAUKA O SUVERENITĚ. A VÝSLEDEK: SE VZNIKEM 'STÁTŮ' A S DOGMATEM SUVERENITY SE IUS PUBLICUM MĚNÍ VE STÁTNÍ PRÁVO. ABSOLUTISMUS: PANOVNÍK JAKO JEDINÝ ZÁKONODÁRCE — 'L'ÉTAT, C'EST MOI'. A jedna rakouská poznámka, která se hodí: V ABSOLUTISTICKÉM RAKOUSKU 18. STOLETÍ SE ROZVÍJÍ SPRÁVNÍ PRÁVO JAKO SAMOSTATNÉ ODVĚTVÍ. Zároveň se vedle ústavního práva a ius publicum v užším smyslu prosazují v průběhu 17. STOLETÍ DVĚ DALŠÍ DISCIPLÍNY, KTERÉ SE DAJÍ K VEŘEJNÉMU PRÁVU V ŠIRŠÍM SMYSLU POČÍTAT: PŘIROZENÉ PRÁVO A (EVROPSKÉ) MEZINÁRODNÍ PRÁVO.",
       "terms": [],
@@ -390,34 +169,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1078,
-      "text_sha": "7d1727cb6c73dadb",
-      "pdf_page": 16
+      "vision_used": true
     },
-    {
-      "n": 17,
-      "img": "img/PU05/PU05_s017.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 344,
-      "text_sha": "9e49baa8d6880e36",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PU05/PU05_s018.webp",
+    "18": {
       "title": "Vestfálský mír: dvě smlouvy a jeden paradox",
       "text": "Cvičení dává k Vestfálskému míru přesnosti, na kterých se dá u zkoušky získat bod. JSOU TO DVĚ MÍROVÉ SMLOUVY podepsané roku 1648 ve dvou vestfálských městech: V OSNABRÜCKU MEZI ŘÍŠÍ A ŠVÉDSKEM a V MÜNSTERU MEZI ŘÍŠÍ A FRANCIÍ. (Důvod dvojího jednání byl praktický: protestantská a katolická strana spolu nechtěly zasednout u jednoho stolu.) A PARADOX, KTERÝ CVIČENÍ VÝSLOVNĚ UVÁDÍ: AČKOLI BYLA FRANCIE KATOLICKÁ, BOJOVALA NA STRANĚ PROTESTANTSKÉ UNIE — ZATÍMCO DOMA BYLI ZA LUDVÍKA XIV. PROTESTANTI NELÍTOSTNĚ PRONÁSLEDOVÁNI. Je to nejlepší doklad toho, že se náboženská válka vedla z důvodů mocenských, ne věroučných. POJEM SUVERENITY SE S VESTFÁLSKÝM MÍREM OBJEVUJE JAKO NÁSTROJ K ODVRÁCENÍ VŠECH VNĚJŠÍCH VLIVŮ — a to je přesná definice: suverenita tu neznamená ani tak moc dovnitř, jako ŠTÍT PROTI ZÁSAHU ZVENČÍ. DŮSLEDEK: ŘÍŠE ZTRÁCÍ MOC, PROTOŽE JI ZÍSKÁVAJÍ KNÍŽECTVÍ; a VESTFÁLSKÝM MÍREM KONČÍ NÁBOŽENSKÉ VÁLKY V ŘÍŠI A ZAČÍNÁ VZESTUP FRANCIE.",
       "terms": [],
@@ -447,34 +201,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1017,
-      "text_sha": "58b9323cf3db5cac",
-      "pdf_page": 18
+      "vision_used": true
     },
-    {
-      "n": 19,
-      "img": "img/PU05/PU05_s019.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1163,
-      "text_sha": "da8f12ff3d984199",
-      "pdf_page": 19
-    },
-    {
-      "n": 20,
-      "img": "img/PU05/PU05_s020.webp",
+    "20": {
       "title": "Absolutismus tam, kde uspěl, a tam, kde ne",
       "text": "Cvičení staví tři případy vedle sebe a ten kontrast je dobrá odpověď. DEFINICE: OD 17. STOLETÍ SE NĚKTERÝM PANOVNÍKŮM PODAŘILO ZCELA PŘEKONAT DUALISMUS PANOVNÍK–STAVY a učinit svou vládu 'ODPOUTANOU' (ABSOLUTUS) OD STAVOVSKÉHO SHROMÁŽDĚNÍ. ABSOLUTISTICKÝ KNÍŽE SE STÁVÁ JEDINÝM NOSITELEM SUVERENITY A SJEDNOCUJE VŠECHNY STÁTNÍ MOCI VE SVÉ OSOBĚ — je JEDINÝM ZÁKONODÁRCEM A NEJVYŠŠÍM SOUDCEM. PROTOTYPEM JE FRANCIE ZA LUDVÍKA XIV., 'KRÁLE SLUNCE' (1638–1715). V ANGLII POKUS O ABSOLUTISMUS SELHAL: BILL OF RIGHTS Z ROKU 1689 přiznal parlamentu dalekosáhlé výsady, mimo jiné PRÁVO PŘIJÍMAT ZÁKONY — vznikla KONSTITUČNÍ MONARCHIE. S tím těsně souvisí JOHN LOCKE (1632–1704), který UPRAVIL HOBBESOVU TEORII SPOLEČENSKÉ SMLOUVY: SUVERÉN JE USTANOVEN PRO DOBRO PODDANÝCH, A ZNEUŽIJE-LI SVOU MOC, MÁ LID PRÁVO NA ODPOR; k tomu myšlenka DĚLBY MOCI. V RAKOUSKU je MARIE TEREZIE (1717–1780) víceméně klasickou absolutistickou vládkyní a absolutismus je za ní na vrcholu — ALE CVIČENÍ PŘIDÁVÁ ODSTÍN: PRO SVOU HLUBOKOU ZBOŽNOST SE JEJÍ POJETÍ VLÁDY LIŠILO. Cítila se odpovědná POUZE BOHU, ale PRÁVĚ PROTO se viděla ZAVÁZÁNA PEČOVAT O OBECNÉ DOBRO SVÝCH PODDANÝCH. A DŮLEŽITÁ POZNÁMKA: SAMA SVATÁ ŘÍŠE ŘÍMSKÁ ABSOLUTISTICKY SPRAVOVÁNA NEBYLA — TAM ZŮSTAL DUALISMUS CÍSAŘ–STAVY.",
       "terms": [],
@@ -504,142 +233,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1352,
-      "text_sha": "eb85363b50b643f3",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PU05/PU05_s021.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1148,
-      "text_sha": "3091fec814ccc8ce",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PU05/PU05_s022.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 730,
-      "text_sha": "d87cb74d46fd0c41",
-      "pdf_page": 22
-    },
-    {
-      "n": 23,
-      "img": "img/PU05/PU05_s023.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 243,
-      "text_sha": "a3a871fd2350aa2e",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PU05/PU05_s024.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1201,
-      "text_sha": "dad498a4436289ad",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PU05/PU05_s025.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 624,
-      "text_sha": "54dc86aefd1d612e",
-      "pdf_page": 25
-    },
-    {
-      "n": 26,
-      "img": "img/PU05/PU05_s026.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1066,
-      "text_sha": "370131dd07c292ce",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PU05/PU05_s027.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 377,
-      "text_sha": "6412613dd334f6e4",
-      "pdf_page": 27
-    },
-    {
-      "n": 28,
-      "img": "img/PU05/PU05_s028.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 932,
-      "text_sha": "2ef51100c6e5564b",
-      "pdf_page": 28
+      "vision_used": true
     }
-  ]
+  }
 }

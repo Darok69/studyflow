@@ -519,13 +519,17 @@
           "id": "PU09IM",
           "unit": "Cvičení 9",
           "title": "Imperialism (Foljanty)",
-          "file": "Unit 9 Dec.15/ppt. Prof. foljanty (imperialism)"
+          "file": "Unit 9 Dec.15/ppt. Prof. foljanty (imperialism)",
+          "duplicate_of": "PD10",
+          "note": "Přednášející promítl na cvičení tytéž slidy jako na přednášce — obsah je v PD10, tady by byl podruhé."
         },
         {
           "id": "PU09WW",
           "unit": "Cvičení 9",
           "title": "World War I and the Paris Peace Treaties (Gassner)",
-          "file": "Unit 9 Dec.15/ppt. gassner (ww i and paris peace treaties)"
+          "file": "Unit 9 Dec.15/ppt. gassner (ww i and paris peace treaties)",
+          "duplicate_of": "PD12",
+          "note": "Přednášející promítl na cvičení tytéž slidy jako na přednášce — obsah je v PD12, tady by byl podruhé."
         },
         {
           "id": "PUQ9",

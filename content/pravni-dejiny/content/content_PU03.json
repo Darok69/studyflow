@@ -1,68 +1,9 @@
 {
   "lecture_id": "PU03",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Cvičení 3",
   "title": "Cvičení 3: Corpus iuris civilis a středověké právo",
-  "source_file": "raw/PU03_ppt.pdf",
-  "source_sha256": "92d5697a29d5f8e19e2ff44081485ecf6c9239574f810572f2761ce66b8cfc08",
-  "source_pages": 43,
-  "slides_per_page": 1,
-  "slide_count": 43,
-  "updated_at": "2026-09-15T12:55:14+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PU03/PU03_s001.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 121,
-      "text_sha": "c29d2714e75737c7",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PU03/PU03_s002.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 211,
-      "text_sha": "ebb4b1dd74e186fb",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PU03/PU03_s003.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 20,
-      "text_sha": "fc317134f84c27e5",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PU03/PU03_s004.webp",
+  "free_sections": true,
+  "slides": {
+    "4": {
       "title": "Rozsah Říma a proč z toho neplyne recepce",
       "text": "Římské právo je SPOLEČNÝM ZÁKLADEM KONTINENTÁLNÍCH EVROPSKÝCH PRÁVNÍCH KULTUR — cvičení to formuluje takto: JE TO TO, ODKUD BEREME 'STRUKTURU PRÁVA' A SVŮJ PŘÍSTUP KE VŠEM DRUHŮM PRÁVNÍCH PROBLÉMŮ. Kolem přelomu letopočtu sahala říše OD ŠPANĚLSKA NA ZÁPADĚ PO PALESTINU NA VÝCHODĚ a OD SEVERNÍ AFRIKY PO ANGLII (Hadriánův val); pokrývala i větší část dnešního Rakouska, kde DUNAJ TVOŘIL 'PŘIROZENOU HRANICI'. A TEĎ TA POINTA, KTERÁ JE ZÁROVEŇ CHYTÁKEM OTÁZKY: ÚZEMNÍ ROZSAH ŘÍŠE NEMĚL NA POZDĚJŠÍ PRÁVNÍ ŘÁDY VLIV — ROZHODLA RECEPCE. Důkazem je VELKÁ BRITÁNIE: ležela na území bývalé římské říše, a přesto tam platí COMMON LAW. Kde právo přišlo, nerozhodlo, kam kdysi sahaly legie, nýbrž KUDY PROŠLI ABSOLVENTI UNIVERZIT.",
       "terms": [],
@@ -76,41 +17,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 519,
-      "text_sha": "a3976ac19df6bf53",
-      "pdf_page": 4
+      "vision_used": true
     },
-    {
-      "n": 5,
-      "img": "img/PU03/PU03_s005.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 326,
-      "text_sha": "cb3003752e0e12d2",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PU03/PU03_s006.webp",
+    "6": {
       "title": "Advokát, právní vědec, consilium a responsum",
       "text": "Cvičení odlišuje dvě role, které se dnes slévají, a to rozlišení je odpovědí na otázku, zda byli římští právní vědci 'právníky'. ADVOKÁTI (například CICERO) TRÁVILI DEN U SOUDU — mluvili, přesvědčovali, zastupovali. PRÁVNÍ VĚDCI (IURISTÉ) PSALI PRÁVNÍ DOBROZDÁNÍ, a ta se dělí podle toho, kdo si je vyžádal: 'CONSILIA' vypracovaná NA ŽÁDOST STRANY a 'RESPONSA' vypracovaná NA ŽÁDOST PRAETORA. A dodatek, který ukazuje, jak se tím tvořilo právo: PRAETOŘI PRÁVO DÁL ROZVÍJELI PRÁVĚ NA ZÁKLADĚ TĚCH DOBROZDÁNÍ. DVĚ VELKÉ ŠKOLY: SABINIÁNI a PROKULIÁNI (1. století n. l.). NEJSTARŠÍ ŘÍMSKÉ PRÁVO, které cvičení jmenuje: ZÁKON DVANÁCTI DESEK (451 př. n. l.), LEX AQUILIA (o škodě) a LEX IULIA (18 př. n. l., manželské zákonodárství Augustovo).",
       "terms": [
-        {
-          "term": "consilium × responsum",
-          "def": "Dobrozdání vypracované na žádost strany × na žádost praetora."
-        }
+        { "term": "consilium × responsum", "def": "Dobrozdání vypracované na žádost strany × na žádost praetora." }
       ],
       "cards": [
         {
@@ -130,25 +43,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 418,
-      "text_sha": "9b2373a076b7a402",
-      "pdf_page": 6
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PU03/PU03_s007.webp",
+    "7": {
       "title": "Citační zákon 426 a jednota práva po rozdělení říše",
       "text": "ROKU 426 N. L. BYL PŘIJAT ZÁKON, PODLE KTERÉHO BYLY PRÁVNĚ ZÁVAZNÉ POUZE NAUKY ŠESTI PRÁVNÍKŮ — tomu se říká CITAČNÍ ZÁKON. Je to reakce na neúnosný stav: klasické literatury bylo tolik a byla tak rozporná, že soudce potřeboval pravidlo, čí názor platí. A TEĎ ODPOVĚĎ NA OTÁZKU O DOPADU ROZDĚLENÍ ŘÍŠE, KTERÁ JDE PROTI OČEKÁVÁNÍ: ROZDĚLENÍ ŘÍŠE JEDNOTU PRÁVA BÝVALÉ ŘÍŠE NENARUŠILO — citační zákon byl například VYDÁN OBĚMA CÍSAŘI. Zákonodárství tedy zůstalo společné, i když byla správa rozdělená. CO SE ROZEŠLO, BYLY OSUDY: ZÁPADOŘÍMSKÁ ŘÍŠE SE UTOPILA V BOUŘÍCH STĚHOVÁNÍ NÁRODŮ, zatímco VÝCHODOŘÍMSKÁ POKRAČOVALA TÉMĚŘ TISÍC LET A BYLA V PŘÍMÉ PRÁVNÍ TRADICI STARÉHO ŘÍMA. Proto tam vzniká i první velká sbírka: byzantský císař THEODOSIUS II. nechal roku 438 shromáždit VŠECHNY DOSUD PLATNÉ CÍSAŘSKÉ ZÁKONY — CODEX THEODOSIANUS.",
       "terms": [
-        {
-          "term": "citační zákon",
-          "def": "Zákon z roku 426, podle kterého byly právně závazné jen nauky šesti právníků."
-        }
+        { "term": "citační zákon", "def": "Zákon z roku 426, podle kterého byly právně závazné jen nauky šesti právníků." }
       ],
       "cards": [
         {
@@ -168,50 +69,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 561,
-      "text_sha": "5985d175a6cc6591",
-      "pdf_page": 7
+      "vision_used": true
     },
-    {
-      "n": 8,
-      "img": "img/PU03/PU03_s008.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 191,
-      "text_sha": "5e051db749059b17",
-      "pdf_page": 8
-    },
-    {
-      "n": 9,
-      "img": "img/PU03/PU03_s009.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 520,
-      "text_sha": "10b4593c2dfb7974",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PU03/PU03_s010.webp",
+    "10": {
       "title": "Proč vznikly Digesta a proč k nim bylo potřeba Instituce",
       "text": "Byzantský císař JUSTINIÁN I. (527–565) SE POKUSIL OBNOVIT ŘÍMSKOU ŘÍŠI, a jeho kodifikace je součástí toho programu. ROKU 529 vydal KODEX podobný Codexu Theodosianu. ZÁROVEŇ USTAVIL KOMISI, ABY SHROMÁŽDILA, ZPRACOVALA A VYDALA KLASICKÉ PRÁVNÍ SPISY — tak vznikla DIGESTA čili PANDEKTY: PADESÁT KNIH, tedy výňatky z původních textů pozdně klasických právníků UVEDENÉ DO SYSTEMATICKÉHO POŘÁDKU. A důležitá výhrada, kterou cvičení výslovně uvádí: TEXTY V DIGESTECH BYLY ZMĚNĚNY PODLE PRÁVNÍHO VĚDOMÍ TÉ DOBY, ABY SE 'ZMODERNIZOVALY'. Nejsou tedy věrným otiskem klasiky — a právě odhalování těch zásahů (interpolací) bude později prací humanistů. PROČ VZNIKLY INSTITUCE: protože DIGESTA NEVYSVĚTLOVALA DŮLEŽITÉ ZÁKLADNÍ POJMY a chyběly v nich ABSTRAKTNÍ VĚTY. Justinián proto zahájil projekt UČEBNICE, KTERÁ MĚLA POMOCI DIGESTŮM POROZUMĚT — INSTITUTIONES měly sloužit jako ÚVOD DO ŘÍMSKÉHO PRÁVA. A rozlišení, které stojí za zapamatování, protože jde proti očekávání: DIGESTA JSOU PRÁVNÍ KNIHOU S NEJVĚTŠÍM DOPADEM NA EVROPSKOU PRÁVNÍ KULTURU (skrze recepci) — ALE FRANCOUZSKÝ CODE CIVIL (1804) I RAKOUSKÝ ABGB (1811) SLEDUJÍ SYSTÉM INSTITUCÍ, NE DIGEST. Obsah tedy přišel z Digest, uspořádání z učebnice. NOVELLAE jsou zákony vydané PO ROCE 533 a k CIC PŘIPOJENÉ.",
       "terms": [],
@@ -233,66 +93,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 288,
-      "text_sha": "28e53f56d191a51a",
-      "pdf_page": 10
+      "vision_used": true
     },
-    {
-      "n": 11,
-      "img": "img/PU03/PU03_s011.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 0,
-      "text_sha": "e3b0c44298fc1c14",
-      "pdf_page": 11
-    },
-    {
-      "n": 12,
-      "img": "img/PU03/PU03_s012.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 199,
-      "text_sha": "833ed0108be4e19d",
-      "pdf_page": 12
-    },
-    {
-      "n": 13,
-      "img": "img/PU03/PU03_s013.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 122,
-      "text_sha": "ef8e5dddeaeb084c",
-      "pdf_page": 13
-    },
-    {
-      "n": 14,
-      "img": "img/PU03/PU03_s014.webp",
+    "14": {
       "title": "Graeca non leguntur: proč se to týká právě Novell",
       "text": "Cvičení dává na tuhle otázku jednoduché a přesné vysvětlení, které je dobré mít po ruce. NOVELLAE, TEDY ZÁKONY VYDANÉ PO ROCE 533 A PŘIPOJENÉ K CIC, BYLY PSÁNY ŘECKY — Justinián vládl v řecky mluvící říši a přestal používat latinu pro nové předpisy. JENŽE V DOBĚ RECEPCE VE STŘEDOVĚKU BYLA V AKADEMICKÉM PROSTŘEDÍ PŘEVLÁDAJÍCÍM JAZYKEM LATINA. DŮSLEDEK: ZÁKLADEM IUS COMMUNE SE STALY POUZE LATINSKÉ ČÁSTI CORPUS IURIS — a odtud ta zásada 'GRAECA NON LEGUNTUR'. Není to tedy jen kuriozita: ROZHODLO TO O TOM, KTERÁ ČÁST JUSTINIÁNOVA DÍLA SE V EVROPĚ STALA ŽIVÝM PRÁVEM A KTERÁ ZŮSTALA STRANOU.",
       "terms": [],
@@ -306,66 +109,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 291,
-      "text_sha": "7fd8d8358085a9e5",
-      "pdf_page": 14
+      "vision_used": true
     },
-    {
-      "n": 15,
-      "img": "img/PU03/PU03_s015.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 117,
-      "text_sha": "c96f4c53c868a876",
-      "pdf_page": 15
-    },
-    {
-      "n": 16,
-      "img": "img/PU03/PU03_s016.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 488,
-      "text_sha": "3656c9ef68847dfd",
-      "pdf_page": 16
-    },
-    {
-      "n": 17,
-      "img": "img/PU03/PU03_s017.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 221,
-      "text_sha": "e383055ffba602f4",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PU03/PU03_s018.webp",
+    "18": {
       "title": "Leges barbarorum jako smíšenina, ne germánské právo",
       "text": "Cvičení tu opravuje rozšířenou představu. KDYŽ SE GERMÁNŠTÍ KNÍŽATA POPRVÉ SETKALA S ŘÍMSKOU ŘÍŠÍ A JEJÍM PRÁVEM, BYLO KLASICKÉ ŘÍMSKÉ PRÁVO UŽ V ÚPADKU; od raného středověku se čím dál víc zjednodušovalo, což vedlo právní historiky 19. století k označení 'VULGÁRNÍ PRÁVO'. LEGES BARBARORUM jsou GERMÁNSKÉ ZÁKONY ZAZNAMENANÉ GERMÁNSKÝMI KRÁLI MEZI LETY 500 A 800. A TEĎ TA OPRAVA: NEBYLO TO ČISTĚ PŮVODNÍ GERMÁNSKÉ PRÁVO, NÝBRŽ PRODUKT SPLYNUTÍ GERMÁNSKÉ A STAROŘÍMSKÉ KULTURY POD VLIVEM KŘESŤANSTVÍ. Cvičení k tomu dává jeden konkrétní a velmi názorný doklad: ZÁKAZ ODKLÁDÁNÍ ČI ZABÍJENÍ NOVOROZENCŮ — to není germánský zvyk ani římská tradice, nýbrž křesťanský zásah. POSLEDNÍM ZE VŠECH leges barbarorum je LEX SAXONUM Z ROKU 802. A DOPAD PODLE OBLASTÍ: NA RAKOUSKO MĚLY MALÝ VLIV, protože tam právo germánských kmenů zůstalo obyčejovým; NAOPAK VELKÝ VLIV MĚLY VE ŠPANĚLSKU, ITÁLII A JIŽNÍ FRANCII.",
       "terms": [],
@@ -387,121 +133,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 819,
-      "text_sha": "9ecd51d07ba45774",
-      "pdf_page": 18
+      "vision_used": true
     },
-    {
-      "n": 19,
-      "img": "img/PU03/PU03_s019.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 0,
-      "text_sha": "e3b0c44298fc1c14",
-      "pdf_page": 19
-    },
-    {
-      "n": 20,
-      "img": "img/PU03/PU03_s020.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 0,
-      "text_sha": "e3b0c44298fc1c14",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PU03/PU03_s021.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 14,
-      "text_sha": "ab782e2c8d6a082b",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PU03/PU03_s022.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 159,
-      "text_sha": "8c2d2ce3f129a0d7",
-      "pdf_page": 22
-    },
-    {
-      "n": 23,
-      "img": "img/PU03/PU03_s023.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 238,
-      "text_sha": "07f57c9680fb2b12",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PU03/PU03_s024.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 406,
-      "text_sha": "1ec54903eb41a57b",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PU03/PU03_s025.webp",
+    "25": {
       "title": "Saské zrcadlo, dvoucísařský problém a poměr papeže s císařem",
       "text": "K Saskému zrcadlu cvičení přidává tři věci. (1) POVAHA: NEBYL TO ZÁKON, NÝBRŽ 'ZRCADLO' SASKÉHO OBYČEJOVÉHO PRÁVA — záznam obyčeje, ne skutečné zákony, a přesto NĚKTERÉ ČÁSTI PŮSOBILY JAKO SKUTEČNÉ ZÁKONY. Je to AUTENTICKÝ OBRAZ OBYČEJOVÉHO PRÁVA VE STŘEDOVĚKU. (2) AUTOR: EIKE VON REPGOW, KTERÝ PŮSOBIL NA DVOŘE BISKUPA A BYL VZDĚLÁN V KLÁŠTERNÍ ŠKOLE, NE NA UNIVERZITĚ — a to je detail, na kterém záleží, protože vysvětluje, proč jeho text není učeným římskoprávním dílem, nýbrž zápisem domácího práva. (3) DOPAD: VELKÝ, A TO NEJEN PRO SASKO, NÝBRŽ OD NIZOZEMÍ PO UKRAJINU; dochovaly se STOVKY RUKOPISŮ a text byl zčásti POUŽÍVÁN AŽ DO 20. STOLETÍ. DVOUCÍSAŘSKÝ PROBLÉM (Zweikaiserproblem) je spor o to, že SI TITUL ŘÍMSKÉHO CÍSAŘE NÁROKOVALY SOUČASNĚ DVĚ MOCI — byzantský císař na východě, který se pokládal za nepřerušené pokračování Říma, a římsko-německý císař na západě od korunovace Karla Velikého roku 800. Univerzální nárok ovšem ze své povahy snese jen jednoho nositele, a proto byl spor neřešitelný. POMĚR PAPEŽE A CÍSAŘE VE STŘEDOVĚKU: podle Saského zrcadla byli CÍSAŘ A PAPEŽ TÉHOŽ ŘÁDU, DUCHOVNÍ A SVĚTSKÁ SFÉRA SE NAKONEC ODDĚLILY — a cvičení k tomu připojuje srovnání, které je jádrem celé otázky: JE TO ZVLÁŠTNOST KATOLICKÉ CÍRKVE, V ISLÁMU TOMU TAK NENÍ, protože tam chalífa spojuje obojí v jedné osobě.",
       "terms": [
-        {
-          "term": "dvoucísařský problém",
-          "def": "Titul římského císaře si současně nárokovaly dvě moci — byzantská a římsko-německá; univerzální nárok ale snese jen jednoho."
-        }
+        { "term": "dvoucísařský problém", "def": "Titul římského císaře si současně nárokovaly dvě moci — byzantská a římsko-německá; univerzální nárok ale snese jen jednoho." }
       ],
       "cards": [
         {
@@ -529,82 +167,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 287,
-      "text_sha": "95e00afcb801f205",
-      "pdf_page": 25
+      "vision_used": true
     },
-    {
-      "n": 26,
-      "img": "img/PU03/PU03_s026.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 0,
-      "text_sha": "e3b0c44298fc1c14",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PU03/PU03_s027.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 690,
-      "text_sha": "8ad825070754e2d6",
-      "pdf_page": 27
-    },
-    {
-      "n": 28,
-      "img": "img/PU03/PU03_s028.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 0,
-      "text_sha": "e3b0c44298fc1c14",
-      "pdf_page": 28
-    },
-    {
-      "n": 29,
-      "img": "img/PU03/PU03_s029.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 151,
-      "text_sha": "e904e947a77f69f9",
-      "pdf_page": 29
-    },
-    {
-      "n": 30,
-      "img": "img/PU03/PU03_s030.webp",
+    "30": {
       "title": "Univerzity jako společenství a zakládání z politických důvodů",
       "text": "Cvičení dává k univerzitám dvě věci, které jinde nejsou. (1) CO UNIVERZITA PŮVODNĚ JE: rostoucí příliv studentů od 11. STOLETÍ vedl k zakládání 'SPOLEČENSTVÍ UČITELŮ A ŽÁKŮ' — 'UNIVERSITATES MAGISTRORUM ET SCHOLARIUM'. Slovo 'univerzita' tedy původně neznamená budovu ani obor, nýbrž KORPORACI, tedy právnickou osobu; a právě jako korporace si vymohla výsady, vlastní soudnictví nad svými členy a nezávislost. (2) DVĚ VLNY ZAKLÁDÁNÍ: nejdřív 11. STOLETÍ BOLOGNA a 13. STOLETÍ PAŘÍŽ (SORBONNA), které vznikly zdola, z přílivu studentů. Pak ZAKLÁDÁNÍ Z POLITICKÝCH DŮVODŮ, tedy panovnickým rozhodnutím: 1348 PRAHA, 1364 KRAKOV, 1365 VÍDEŇ. Ten rozdíl se u zkoušky hodí: STARÉ UNIVERZITY VZNIKLY SAMY, STŘEDOEVROPSKÉ BYLY ZALOŽENY JAKO NÁSTROJ ZEMSKÉ POLITIKY — panovník chtěl mít vlastní vzdělané úředníky a nemuset je posílat do Itálie.",
       "terms": [],
@@ -626,73 +191,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 454,
-      "text_sha": "be1b13a1edddedaf",
-      "pdf_page": 30
+      "vision_used": true
     },
-    {
-      "n": 31,
-      "img": "img/PU03/PU03_s031.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 0,
-      "text_sha": "e3b0c44298fc1c14",
-      "pdf_page": 31
-    },
-    {
-      "n": 32,
-      "img": "img/PU03/PU03_s032.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 248,
-      "text_sha": "f0ba7e81e30095cc",
-      "pdf_page": 32
-    },
-    {
-      "n": 33,
-      "img": "img/PU03/PU03_s033.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 584,
-      "text_sha": "84104bd17b9a3587",
-      "pdf_page": 33
-    },
-    {
-      "n": 34,
-      "img": "img/PU03/PU03_s034.webp",
+    "34": {
       "title": "Recepce jako akademizace praxe, ne převod textu",
       "text": "Cvičení dává definici, která je přesnější než obvyklá. 'RECEPCE' POPISUJE PŘENOS VÝSLEDKŮ LEGISTIKY Z UNIVERZIT DO PRÁVNÍ PRAXE. Je to CELOEVROPSKÝ PROCES, KTERÝ ZAČAL VE 13. STOLETÍ, přičemž spouštěčem bylo ZNOVUOBJEVENÍ RUKOPISU DIGEST — 'CODEX FLORENTINUS' — KOLEM ROKU 1155. Dal vzniknout celoevropskému právu, IUS COMMUNE. A TEĎ TA KLÍČOVÁ VĚTA: RECEPCE NEPROBĚHLA JAKO 'PŘÍMÝ PŘEVOD' ŘÍMSKÉHO PRÁVA, NÝBRŽ JAKO POSTUPNÁ AKADEMIZACE PRÁVNÍ PRAXE — absolventi právnických škol (Pavia, Bologna) byli čím dál častěji zaměstnáváni v SOUDNICTVÍ, SPRÁVĚ A POLITICE. Nikdo tedy nevydal dekret, že napříště platí římské právo; jen se postupně vyměnili lidé, kteří právo dělají. Tehdejší právní věda se skládala z KANONISTIKY A LEGISTIKY; OD 12./13. STOLETÍ slouží učení právníci i SEVERNĚ OD ALP jako SOUDCI, ADVOKÁTI NEBO PRÁVNÍ RÁDCOVÉ KNÍŽAT A MĚST. REGIONÁLNÍ ROZDÍLY: ve SVATÉ ŘÍŠI ŘÍMSKÉ byla recepce SILNÁ VE VĚDĚ, PRAXI I ZÁKONODÁRSTVÍ. V ANGLII BYLA SLABÁ, A CVIČENÍ DÁVÁ DŮVOD: SILNÁ VLÁDA SE SILNÝM KRÁLOVSKÝM SOUDNICTVÍM — SOUDY PŘEKLENULY REGIONÁLNÍ ROZDÍLY A VYVINULY PRO ANGLII SPOLEČNÉ PRÁVO. Tedy: Anglie měla vlastní řešení téhož problému dřív, než recepce dorazila. PRÁVNÍ KNIHA, NA KTERÉ JE SILNÁ RECEPCE VIDĚT, JE PODLE CVIČENÍ 'SIETE PARTIDAS' (13. století), která SLUČUJE OBYČEJOVÉ A ŘÍMSKÉ PRÁVO a vykládá obyčej ve světle římského práva — doklad silné recepce ve ŠPANĚLSKU.",
       "terms": [
-        {
-          "term": "Codex Florentinus",
-          "def": "Rukopis Digest znovuobjevený kolem roku 1155; spouštěč recepce."
-        }
+        { "term": "Codex Florentinus", "def": "Rukopis Digest znovuobjevený kolem roku 1155; spouštěč recepce." }
       ],
       "cards": [
         {
@@ -712,50 +217,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 593,
-      "text_sha": "81c177243ab6d26f",
-      "pdf_page": 34
+      "vision_used": true
     },
-    {
-      "n": 35,
-      "img": "img/PU03/PU03_s035.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 352,
-      "text_sha": "cb52b2b5547dcc97",
-      "pdf_page": 35
-    },
-    {
-      "n": 36,
-      "img": "img/PU03/PU03_s036.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 226,
-      "text_sha": "affe076eb3e1487b",
-      "pdf_page": 36
-    },
-    {
-      "n": 37,
-      "img": "img/PU03/PU03_s037.webp",
+    "37": {
       "title": "Glosátoři: scholastika bez kritiky pramene",
       "text": "Cvičení dává glosátorům jednu charakteristiku, která je zároveň kritikou, a je dobré ji znát doslova. GLOSÁTOŘI BYLI PRVNÍMI PRÁVNÍKY STŘEDOVĚKU a psali 'GLOSY', tedy VYSVĚTLIVKY, k Corpus iuris. METODA, KTEROU POUŽÍVALI, BYLA SCHOLASTICKÁ — A BEZ KRITIKY PRAMENE. VÝHRADNĚ SE SNAŽILI ODSTRANIT NESROVNALOSTI A ROZPORY. To znamená dvojí: brali text jako AUTORITU, KTERÁ NEMŮŽE BÝT VNITŘNĚ ROZPORNÁ, a tedy každý rozpor pokládali za ZDÁNLIVÝ, který je třeba výkladem odstranit — místo aby se ptali, zda text není poškozený, pozdější nebo vnitřně nesourodý. Právě tuhle slepou skvrnu jim pak vytknou humanisté. KOMENTÁTOŘI jsou NÁSLEDOVNÍCI GLOSÁTORŮ V POZDNÍM 13. STOLETÍ a píšou KOMENTÁŘE A KONSILIA, tedy dobrozdání. Rozdíl je tedy i v žánru: GLOSA JE POZNÁMKA K TEXTU, KONSILIUM JE STANOVISKO K PŘÍPADU.",
       "terms": [],
@@ -777,34 +241,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 462,
-      "text_sha": "7c8043a1816d67ba",
-      "pdf_page": 37
+      "vision_used": true
     },
-    {
-      "n": 38,
-      "img": "img/PU03/PU03_s038.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 81,
-      "text_sha": "eeb70989856343db",
-      "pdf_page": 38
-    },
-    {
-      "n": 39,
-      "img": "img/PU03/PU03_s039.webp",
+    "39": {
       "title": "Subsidiarita ius commune a důkazní břemeno",
       "text": "Cvičení tu formuluje pravidlo přesněji, než se obvykle uvádí, a ten rozdíl je právně zásadní. IUS COMMUNE je OBECNÉ PRÁVO, tedy UČENÁ PRÁVA — římské a kanonické; 'obecné' se tu říká v protikladu k 'ZVLÁŠTNÍMU', tedy k místním či domácím právům, IURA PARTICULARIA. Mělo UNIVERZÁLNÍ POVAHU, protože NEBYLO VÁZÁNO NA URČITÉ ÚZEMÍ ANI NA URČITOU SKUPINU LIDÍ. A TEĎ TO PRAVIDLO: IUS COMMUNE SE POUŽILO SUBSIDIÁRNĚ, TEDY TEHDY, KDYŽ NEBYLO MOŽNÉ PROKÁZAT EXISTENCI ODPORUJÍCÍHO MÍSTNÍHO OBYČEJE. Všimni si, že to není formulováno jako 'když místní právo mlčí', nýbrž jako DŮKAZNÍ BŘEMENO: ne že by místní právo neplatilo, ale MUSÍ SE PROKÁZAT — a kdo ho neprokáže, soudí se podle učeného práva. Právě tahle procesní podoba subsidiarity je důvod, proč se recepce prosadila v praxi: nemusela nic rušit, stačilo, že byla VÝCHOZÍM STAVEM.",
       "terms": [],
@@ -826,78 +265,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 417,
-      "text_sha": "04a2bdc7a1452067",
-      "pdf_page": 39
-    },
-    {
-      "n": 40,
-      "img": "img/PU03/PU03_s040.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 544,
-      "text_sha": "842ef3edabc28848",
-      "pdf_page": 40
-    },
-    {
-      "n": 41,
-      "img": "img/PU03/PU03_s041.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 513,
-      "text_sha": "f5572bb3333f62d2",
-      "pdf_page": 41
-    },
-    {
-      "n": 42,
-      "img": "img/PU03/PU03_s042.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 455,
-      "text_sha": "51745b08ba95d223",
-      "pdf_page": 42
-    },
-    {
-      "n": 43,
-      "img": "img/PU03/PU03_s043.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1581,
-      "text_sha": "a466403cb515ce69",
-      "pdf_page": 43
+      "vision_used": true
     }
-  ]
+  }
 }

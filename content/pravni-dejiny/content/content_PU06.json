@@ -1,100 +1,9 @@
 {
   "lecture_id": "PU06",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Cvičení 6",
   "title": "Cvičení 6: osvícenství, kolonizace, konstitucionalismus",
-  "source_file": "raw/PU06_ppt.pdf",
-  "source_sha256": "4cd5157f22846e4c3873e61cd11cfdeadc1e8d232dcdb53468b4894a25f9e1bd",
-  "source_pages": 22,
-  "slides_per_page": 1,
-  "slide_count": 22,
-  "updated_at": "2026-09-15T12:55:28+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PU06/PU06_s001.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 121,
-      "text_sha": "c29d2714e75737c7",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PU06/PU06_s002.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 2057,
-      "text_sha": "7f18f1b7476fc8c6",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PU06/PU06_s003.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1085,
-      "text_sha": "e0aa0b29593174f4",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PU06/PU06_s004.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 701,
-      "text_sha": "732add0f9a041bd5",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PU06/PU06_s005.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 714,
-      "text_sha": "3399e5a2d876818a",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PU06/PU06_s006.webp",
+  "free_sections": true,
+  "slides": {
+    "6": {
       "title": "Proč objevné plavby přinutily právníky k přirozenému právu",
       "text": "Cvičení dává k Vitoriovi kontext, který je sám o sobě odpovědí. OBJEVNÉ PLAVBY 15. A 16. STOLETÍ NASTOLILY PRÁVNÍ OTÁZKY, NA KTERÉ TRADIČNÍ PRÁVO NEMĚLO ŘEŠENÍ — komu patří nově nalezené země, jaké postavení mají jejich obyvatelé, smí se proti nim vést válka. Zároveň KATOLICKÁ CÍRKEV ZTRATILA V DŮSLEDKU REFORMACE AUTORITU, takže se musely najít NOVÉ PRAMENY PRÁVNÍHO POZNÁNÍ. A protože POZITIVNÍHO PRÁVA K IUS GENTIUM BYLO VELMI MÁLO, SAHALI PRÁVNÍCI ZNOVU A ZNOVU K PŘIROZENÉMU PRÁVU — odtud 'ŠPANĚLSKÁ POZDNÍ SCHOLASTIKA' a ŠKOLA ZE SALAMANKY. Tedy: přirozené právo se nevrátilo z filozofické záliby, nýbrž PROTOŽE NIC JINÉHO NEBYLO PO RUCE. FRANCISCO DE VITORIA (1483–1546) DO JISTÉ MÍRY PŘEKONAL STŘEDOVĚKÉ PRÁVNÍ MYŠLENÍ, které bylo zcela ovládáno křesťanským přirozeným právem; používá SCHOLASTICKOU METODU a vychází z ARISTOTELA, a jeho nauka STOJÍ PROTI TAKZVANÉ 'IDEOLOGII KONKVISTADORŮ'. A TEĎ TA NEPŘÍJEMNÁ POINTA, KTEROU CVIČENÍ NEZAMLČUJE: I ZASTÁNCI KONKVISTADORSKÉ IDEOLOGIE SE PŘI PODROBOVÁNÍ PŮVODNÍCH NÁRODŮ DOVOLÁVALI ARISTOTELA — totiž jeho teze, že EXISTUJÍ LIDÉ, KTEŘÍ JSOU OTROKY OD PŘIROZENOSTI A PROTI NIMŽ JE VÁLKA OD PŘIROZENOSTI OPRÁVNĚNÁ. Týž autor tedy posloužil oběma stranám sporu.",
       "terms": [],
@@ -116,34 +25,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1842,
-      "text_sha": "d37eb84cb0ab27ad",
-      "pdf_page": 6
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PU06/PU06_s007.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 436,
-      "text_sha": "f24d490428193c3e",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PU06/PU06_s008.webp",
+    "8": {
       "title": "Tři složky, z nichž vzniklo mezinárodní právo jako obor",
       "text": "Cvičení dává na otázku 'kdy a za jakých okolností se ius gentium stalo samostatným oborem' přehlednou trojici, a tu se vyplatí umět. HISTORICKÉ POZADÍ: ŠPANĚLSKÁ ÉRA (1500–1648), tedy REFORMACE, OBJEVENÍ AMERIKY, NÁBOŽENSKÉ VÁLKY V EVROPĚ a VESTFÁLSKÝ MÍR. TŘI POLITICKO-FILOZOFICKÉ SLOŽKY: (a) POZDNÍ ŠPANĚLSKÁ SCHOLASTIKA — FRANCISCO SUÁREZ (1548–1617) s rozlišením IUS GENTIUM INTER SE (vnější) a INTRA SE (vnitřní); (b) POLITICKÁ TEORIE — základ položil NICCOLÒ MACHIAVELLI (1469–1527) spisem IL PRINCIPE, podle kterého MUSÍ V KRAJNÍCH PŘÍPADECH ZÁJMY MOCI DOSTAT PŘEDNOST PŘED PRÁVEM A MRAVNOSTÍ, a JEAN BODIN (1530–1596) s MODERNÍM POJMEM SUVERENITY; (c) PRÁVNÍ VĚDA OVLIVNĚNÁ HUMANISMEM — pod jejím vlivem rozvinul GROTIUS nový pohled na ius gentium a přirozené právo. ZA 'OTCE MEZINÁRODNÍHO PRÁVA' SE ČASTO POKLÁDÁ PRÁVĚ GROTIUS, protože spojil všechny tři proudy: humanistickou metodu, sekularizované přirozené právo a soustavu suverénních států.",
       "terms": [],
@@ -165,50 +49,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1674,
-      "text_sha": "79c419697e653ea3",
-      "pdf_page": 8
+      "vision_used": true
     },
-    {
-      "n": 9,
-      "img": "img/PU06/PU06_s009.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 718,
-      "text_sha": "57df77f74f042257",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PU06/PU06_s010.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 390,
-      "text_sha": "294604c4e1f8c3ef",
-      "pdf_page": 10
-    },
-    {
-      "n": 11,
-      "img": "img/PU06/PU06_s011.webp",
+    "11": {
       "title": "Papežské buly, Tordesillas a okupace v ius gentium",
       "text": "Cvičení dává k právním titulům kolonizace přesná data a jedno pojmové posunutí, které je jádrem věci. ŠPANĚLSKÁ EXPANZE OD 16. STOLETÍ BYLA LEGITIMOVÁNA POSLÁNÍM ŠÍŘIT KŘESŤANSTVÍ. DAROVACÍ PAPEŽSKÉ BULY: dvě série, jimiž PAPEŽ MIKULÁŠ V. ROKU 1454 A PAPEŽ ALEXANDR VI. ROKU 1493 měli udělit katolickým panovníkům Portugalska a Španělska výsadní právo prozkoumávat nové země. SMLOUVA Z TORDESILLAS (1494) ROZDĚLILA NOVĚ OBJEVENÉ ZEMĚ MIMO EVROPU MEZI PORTUGALSKO A ŠPANĚLSKO (kastilskou korunu) PODÉL POLEDNÍKU 370 LEAGUÍ ZÁPADNĚ OD KAPVERDSKÝCH OSTROVŮ — dělicí čára ležela zhruba uprostřed mezi Kapverdami (už portugalskými) a ostrovy, které navštívil Kolumbus (nárokovanými pro Kastilii a León). K tomu SMLOUVA ZE ZARAGOZY (1529), která rozdělila i Tichomoří. DŮSLEDEK PRO PRÁVO: ŠPANĚLSKÁ EXPANZE VEDLA K ROZŠÍŘENÍ UČENÉHO PRÁVA (KANONICKÉHO A ŘÍMSKÉHO) DO AMERIK. A TEĎ TO POJMOVÉ POSUNUTÍ: V 16. STOLETÍ BYLA MYŠLENKA NABYTÍ DRŽBY OKUPACÍ PŘENESENA DO IUS GENTIUM (VITORIA, ALBERICO GENTILI), COŽ ZNAMENÁ, ŽE SE NABYTÍ NEOBSAZENÉ PŮDY LEGITIMUJE NA ZÁKLADĚ PŘIROZENÉHO PRÁVA. Okupace je původně institut římského SOUKROMÉHO práva o nabytí věci ničí — a právě jeho přenesení na celé země udělalo z kolonizace právní jednání.",
       "terms": [],
@@ -230,25 +73,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1221,
-      "text_sha": "90ab4f5cb045a2d3",
-      "pdf_page": 11
+      "vision_used": true
     },
-    {
-      "n": 12,
-      "img": "img/PU06/PU06_s012.webp",
+    "12": {
       "title": "Vattel: splynutí okupace se suverenitou a argument z užívání",
       "text": "EMER DE VATTEL (1714–1776) vydal roku 1758 hlavní dílo 'PRÁVO NÁRODŮ'. Cvičení jeho přínos ke kolonizaci popisuje přesně: SPLYNUTÍ MYŠLENKY OKUPACE S MODERNÍMI PŘEDSTAVAMI O SUVERENITĚ VEDLO K DOKTRÍNĚ 'TERRA NULLIUS'. Dokud byla okupace jen soukromoprávním institutem, nabývala se jí věc; teprve ve spojení se suverenitou se jí nabývá PANSTVÍ NAD ÚZEMÍM. VE SVÉM TRAKTÁTU SE VATTEL POKUSIL VYTVOŘIT PRÁVNÍ ZÁKLAD PRO ROZDĚLENÍ SVĚTA NA KOLONIE. Užitím POJMU NÁRODA SJEDNOTIL STÁTNÍ ZÁJEM (RAISON D'ÉTAT) SE ZÁJMY LIDU A POVÝŠIL SPRAVEDLNOST NA ŘÍDÍCÍ NORMU VZTAHŮ MEZI STÁTY. Jeho konkrétní nástroj má v němčině vlastní jméno: 'NUTZUNGS- UND KULTIVIERUNGSARGUMENT', tedy ARGUMENT Z UŽÍVÁNÍ A OBDĚLÁVÁNÍ — kdo půdu neobdělává, nemá k ní plný nárok. A připomeň si, jak daleko ten argument v jeho textu jde: národy, které úrodnou zemi neobdělávají, podle něj 'ZASLOUŽÍ SI BÝT VYHUBENY JAKO DIVÁ A ŠKODLIVÁ ZVÍŘATA'.",
       "terms": [
-        {
-          "term": "argument z užívání a obdělávání",
-          "def": "Kdo půdu neobdělává, nemá k ní plný nárok — Vattelův nástroj legitimace koloniálního záboru."
-        }
+        { "term": "argument z užívání a obdělávání", "def": "Kdo půdu neobdělává, nemá k ní plný nárok — Vattelův nástroj legitimace koloniálního záboru." }
       ],
       "cards": [
         {
@@ -268,50 +99,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1383,
-      "text_sha": "3f22c203711f9672",
-      "pdf_page": 12
+      "vision_used": true
     },
-    {
-      "n": 13,
-      "img": "img/PU06/PU06_s013.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 17,
-      "text_sha": "126db18a323c07b6",
-      "pdf_page": 13
-    },
-    {
-      "n": 14,
-      "img": "img/PU06/PU06_s014.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 239,
-      "text_sha": "a7a8fcade1c174ed",
-      "pdf_page": 14
-    },
-    {
-      "n": 15,
-      "img": "img/PU06/PU06_s015.webp",
+    "15": {
       "title": "Konstitucionalismus a to, koho vlastně zapojil",
       "text": "Cvičení dává k ústavnímu hnutí dvě věci, které stojí za zapamatování, protože obě jdou proti zjednodušení. (1) 'KONSTITUCIONALISMUS' JE CELOEVROPSKÝM JEVEM, KTERÝ V KONTINENTÁLNÍ EVROPĚ PROBÍHÁ OD ROKU 1789 — a cvičení ho označuje za LOGICKÉ POKRAČOVÁNÍ OSVÍCENSKÉHO ABSOLUTISMU, ne za jeho popření. Osvícenský panovník už vládl PRO poddané; ústava k tomu přidala, že mají vládnout i SKRZE ně. (2) ÚSTAVY UČINILY KONEC ABSOLUTNÍ MONARCHII TÍM, ŽE OMEZILY MOC PANOVNÍKA A ZAJISTILY ÚČAST BURŽOAZIE — A CVIČENÍ TO VÝSLOVNĚ ZDŮRAZŇUJE: NE DĚLNICKÉ TŘÍDY. To je klíč k pochopení 19. století: volební právo bylo majetkově vymezené a rozšíření na dělnictvo přijde až o generace později. STÁT NEMÁ JEN JEDNAT V ZÁJMU SVÝCH PODDANÝCH — PODDANÍ SAMI SE MAJÍ NA STÁTNÍCH ZÁLEŽITOSTECH PODÍLET. A ještě jedna souvislost: PROMĚNA ZE 'SPOLEČENSTVÍ PODDANÝCH' V 'LID STÁTU' SEHRÁLA VELKOU ROLI PŘI VZNIKU NACIONALISMU A NAOPAK NACIONALISMUS SE STAL HNACÍ SILOU KONSTITUCIONALISMU. VZESTUPUJÍCÍ BURŽOAZIE SE STÁVÁ ÚSTŘEDNÍM HRÁČEM, KTERÝ NOVÝ POLITICKÝ ŘÁD POŽADUJE.",
       "terms": [],
@@ -341,18 +131,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 743,
-      "text_sha": "6136e3e0810f2f06",
-      "pdf_page": 15
+      "vision_used": true
     },
-    {
-      "n": 16,
-      "img": "img/PU06/PU06_s016.webp",
+    "16": {
       "title": "Kant, Locke, Montesquieu: tři kameny konstitucionalismu",
       "text": "FILOZOFICKÉ POZADÍ je OSVÍCENSTVÍ a MODERNÍ PŘIROZENOPRÁVNÍ MYŠLENÍ, jehož klíčovým prvkem je ROZUM — odtud PŘIROZENÁ PRÁVA OSOBY a MYŠLENKA INDIVIDUÁLNÍ SVOBODY (Kant, Voltaire, Rousseau, Hume). IMMANUEL KANT (1724–1804) to formuluje větou, kterou je dobré znát: 'SVOBODA […] SMĚŘUJE K TOMU, ABY OBSTÁLA SE SVOBODOU VŠECH PODLE OBECNÉHO ZÁKONA; JE TO JEDINÉ PŮVODNÍ VROZENÉ PRÁVO NÁLEŽEJÍCÍ KAŽDÉMU ČLOVĚKU NA ZÁKLADĚ JEHO LIDSTVÍ.' Tomu se říká OBECNÝ ZÁKON SVOBODY. PŘEDCHŮDCEM OSVÍCENSTVÍ V KONTINENTÁLNÍ EVROPĚ JE JOHN LOCKE (1632–1704). S ním těsně souvisí OMEZENÍ MOCI PANOVNÍKA, KTERÉ MÁ PŮVOD V ANGLII 17. STOLETÍ — BILL OF RIGHTS (1689), jímž parlament získal PRÁVO PŘIJÍMAT ZÁKONY, a to je podle cvičení POČÁTEK KONSTITUCIONALISMU. LOCKE ZMĚNIL HOBBESOVU TEORII SPOLEČENSKÉ SMLOUVY: SUVERÉN JE USTANOVEN PRO DOBRO PODDANÉHO, a proto MÁ LID — POZOR, LID, NE JEDNOTLIVEC — PRÁVO NA ODPOR. Přišel také s MYŠLENKOU DĚLBY MOCI k zajištění svobody jednotlivce, přičemž chtěl oddělit MOC ZÁKONODÁRNOU OD VÝKONNÉ. MONTESQUIEU POZDĚJI ROZLIŠIL TŘI MOCI a přidal upřesnění, na které se často zapomíná: AČKOLI MUSELY BÝT ODDĚLENY, KAŽDÁ Z NICH MUSELA BÝT SCHOPNA NA OSTATNÍ NĚJAK PŮSOBIT, ABY SE ZABRÁNILO JEJICH ZNEUŽITÍ. A jeho práh: SOUSTŘEDÍ-LI SE BYŤ JEN DVĚ Z TĚCH MOCÍ V JEDNÉ RUCE, SVOBODA NEEXISTUJE.",
       "terms": [],
@@ -382,34 +163,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1474,
-      "text_sha": "b8dc638e2765c903",
-      "pdf_page": 16
+      "vision_used": true
     },
-    {
-      "n": 17,
-      "img": "img/PU06/PU06_s017.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 841,
-      "text_sha": "2d6ab3b5c300d529",
-      "pdf_page": 17
-    },
-    {
-      "n": 18,
-      "img": "img/PU06/PU06_s018.webp",
+    "18": {
       "title": "Deklarace 1789: obsah čl. 1 a 2 a její předchůdci",
       "text": "Cvičení cituje vedle čl. 16 i první dva články, a ty je dobré znát, protože z nich plyne celá stavba. ČL. 1: 'LIDÉ SE RODÍ A ZŮSTÁVAJÍ SVOBODNÍ A ROVNÍ V PRÁVECH. SPOLEČENSKÉ ROZDÍLY MOHOU BÝT ZALOŽENY POUZE NA ÚVAHÁCH OBECNÉHO DOBRA.' Všimni si, že rovnost není absolutní: rozdíly SMÍ existovat, ale JEN Z DŮVODU OBECNÉHO DOBRA, ne z narození. ČL. 2: 'CÍLEM KAŽDÉHO POLITICKÉHO SPOLČENÍ JE ZACHOVÁNÍ PŘIROZENÝCH A NEPROMLČITELNÝCH PRÁV ČLOVĚKA. TĚMI PRÁVY JSOU SVOBODA, VLASTNICTVÍ, BEZPEČNOST A ODPOR PROTI ÚTLAKU.' Čtveřice práv — a hned si všimni, že ODPOR PROTI ÚTLAKU JE MEZI NIMI, tedy že právo na odpor je zařazeno jako běžné přirozené právo, ne jako krajní výjimka. PŮVOD: DEKLARACE JE INSPIROVÁNA AMERICKOU DEKLARACÍ NEZÁVISLOSTI Z ROKU 1776 A DUCHEM OSVÍCENSTVÍ a je PRODUKTEM FRANCOUZSKÉ REVOLUCE 1789; jejím PŘEDCHŮDCEM je VIRGINIA BILL OF RIGHTS, tedy PRVNÍ 'KATALOG' ZÁKLADNÍCH PRÁV. Skládá se z PREAMBULE A 17 ČLÁNKŮ a vymezuje 'PŘIROZENÁ A NEDOTKNUTELNÁ' PRÁVA. Cvičení ji shrnuje jako ZAČÁTEK NOVÉ POLITICKÉ ÉRY.",
       "terms": [],
@@ -431,78 +187,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1552,
-      "text_sha": "552daefa59de1aa3",
-      "pdf_page": 18
-    },
-    {
-      "n": 19,
-      "img": "img/PU06/PU06_s019.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 488,
-      "text_sha": "fe356b0fec6d51e5",
-      "pdf_page": 19
-    },
-    {
-      "n": 20,
-      "img": "img/PU06/PU06_s020.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 617,
-      "text_sha": "cc08c512f2dddf41",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PU06/PU06_s021.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 630,
-      "text_sha": "084124ff68e2d6de",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PU06/PU06_s022.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 753,
-      "text_sha": "bf38bfe71ca38b66",
-      "pdf_page": 22
+      "vision_used": true
     }
-  ]
+  }
 }
