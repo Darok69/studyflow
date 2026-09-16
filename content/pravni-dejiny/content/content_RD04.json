@@ -3,692 +3,288 @@
   "title": "Duchhardt, From the Peace of Westphalia to the Congress of Vienna",
   "slides": {
     "1": {
-      "title": "Jak se dají dějiny mezinárodního práva psát",
-      "text": "Duchhardt otevírá metodou, a ta rozhoduje o zbytku. Dá se jít PODLE VELKÝCH AUTORŮ a jejich nauk chronologicky — jenže tak se přehlédnou 'menší' autoři a NEDOSTANE SE DOST VÁHY PROVÁZANOSTI TEORIE A PRAXE. Dá se jít PODLE ÚDAJNÝCH ZLOMŮ, tedy velkých mírových kongresů od Münsteru 1648 po Vídeň 1814–15 — jenže pak se nedostane na teorii. Wilhelm Grewe v EPOCHEN DER VÖLKERRECHTSGESCHICHTE vyšel OD STÁTŮ a probíral otázky, které je hnaly do sporu a vyžadovaly úpravu. Duchhardt volí totéž: TEMATICKY podle otázek ústředních pro vztahy mezi státy — podle něj je to metoda, která NEJLÍP SPOJUJE POLITIKU S TEORIÍ. Zapamatuj si ten důvod, protože vysvětluje, proč článek střídá vojenské dějiny s dogmatikou: mezinárodní právo tu nevzniká ve studovnách, ale z toho, co si státy udělaly a co pak musely nějak ospravedlnit.",
+      "title": "How the history of international law can be written",
+      "text": "Duchhardt opens with method, and it decides the rest. One can proceed BY THE GREAT AUTHORS and their doctrines chronologically — but then the 'lesser' authors are overlooked and NOT ENOUGH WEIGHT IS GIVEN TO THE INTERLOCKING OF THEORY AND PRACTICE. One can proceed BY THE SUPPOSED TURNING POINTS, that is the great peace congresses from Münster 1648 to Vienna 1814–15 — but then theory gets no hearing. Wilhelm Grewe in EPOCHEN DER VÖLKERRECHTSGESCHICHTE started FROM THE STATES and treated the questions that drove them into conflict and required regulation. Duchhardt chooses the same: THEMATICALLY, by the questions central to relations between states — in his view the method that BEST JOINS POLITICS WITH THEORY. Remember the reason, because it explains why the article alternates military history with doctrine: international law here does not arise in studies but out of what states did to one another and then had somehow to justify.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jaké tři způsoby psaní dějin mezinárodního práva Duchhardt zvažuje a který volí?",
-          "a": "Podle velkých autorů chronologicky (přehlédne menší a rozejde se s praxí); podle údajných zlomů, tedy mírových kongresů (nedostane se na teorii); a Greweho postup OD STÁTŮ a otázek, které je hnaly do sporu. Duchhardt volí ten třetí, tematický — podle něj nejlíp spojuje politiku s teorií.",
-          "difficulty": 2,
-          "kind": "rozliseni",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Which three ways of writing the history of international law does Duchhardt consider, and which does he choose?", "a": "By the great authors chronologically (it overlooks lesser ones and parts company with practice); by supposed turning points, that is peace congresses (theory gets no hearing); and Grewe's procedure FROM THE STATES and the questions that drove them into conflict. Duchhardt chooses the third, thematic one — in his view it best joins politics with theory.", "difficulty": 2, "kind": "rozliseni", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "2": {
-      "title": "Co Vestfálský mír opravdu udělal — a co ne",
-      "text": "Nejdřív co NEDOKÁZAL: NEVYTVOŘIL EVROPSKÝ BEZPEČNOSTNÍ SYSTÉM, jak ho kdysi žádal RICHELIEU, ani neurovnal všechny tehdejší spory, a NEUKONČIL FRANCOUZSKO-ŠPANĚLSKOU VÁLKU (1635–59) — tu zavřel až PYRENEJSKÝ MÍR 1659. Co dokázal: PŘEVÁŽIL STŘEDOEVROPSKÝ SYSTÉM MOCI. Nikdy zvlášť pevnou Svatou říši římskou převedl do nového uspořádání, které dalo FRANCII A ŠVÉDSKU, dvěma GARANTŮM míru, značný vliv a v důležitých ohledech OŘEZALO POSTAVENÍ CÍSAŘE: VYHLÁŠENÍ VÁLKY A UZAVŘENÍ MÍRU napříště PODLÉHALO SOUHLASU ŘÍŠSKÉHO SNĚMU, a němečtí knížata dostali PRÁVO UZAVÍRAT SPOJENECTVÍ (IUS FOEDERIS) — výsadu, kterou si dlouho nárokovali a zčásti už fakticky užívali. A hodnocení: Vestfálský mír zůstal AŽ DO KONCE ANCIEN RÉGIME NEJDŮLEŽITĚJŠÍM PRÁVNÍM TEXTEM upravujícím vztahy mezi státy ve střední Evropě, nesporným referenčním bodem všech mírových smluv až do 90. let 18. století. Jestli z něj ale lze dělat počátek 'VESTFÁLSKÉHO SYSTÉMU', jak rádi dělají britští a američtí sociální vědci, ZŮSTÁVÁ OTEVŘENÉ — a historik podle Duchhardta jen stěží zadržuje výhrady.",
-      "terms": [
-        { "term": "ius foederis", "def": "Právo uzavírat spojenectví, přiznané německým knížatům Vestfálským mírem — a hned vykládané některými právníky jako svrchovanost." }
-      ],
+      "title": "What the Peace of Westphalia really did — and what it did not",
+      "text": "First what it FAILED to do: IT DID NOT CREATE A EUROPEAN SECURITY SYSTEM as RICHELIEU had once demanded, nor did it settle all the disputes of the time, and IT DID NOT END THE FRANCO-SPANISH WAR (1635–59) — that was closed only by the PEACE OF THE PYRENEES IN 1659. What it did do: IT RECAST THE CENTRAL EUROPEAN SYSTEM OF POWER. It transferred the never particularly firm Holy Roman Empire into a new arrangement which gave FRANCE AND SWEDEN, the two GUARANTORS of the peace, considerable influence and in important respects TRIMMED THE EMPEROR'S POSITION: THE DECLARATION OF WAR AND THE CONCLUSION OF PEACE henceforth REQUIRED THE CONSENT OF THE IMPERIAL DIET, and the German princes received the RIGHT TO CONCLUDE ALLIANCES (IUS FOEDERIS) — a privilege they had long claimed and in part already exercised in fact. And the assessment: the Peace of Westphalia remained UNTIL THE END OF THE ANCIEN RÉGIME THE MOST IMPORTANT LEGAL TEXT governing relations between states in central Europe, the undisputed reference point of all peace treaties down to the 1790s. Whether it can be made the beginning of a 'WESTPHALIAN SYSTEM', as British and American social scientists like to do, REMAINS OPEN — and the historian, says Duchhardt, can hardly suppress his reservations.",
+      "terms": [{"term": "ius foederis", "def": "The right to conclude alliances, granted to the German princes by the Peace of Westphalia — and at once read by some jurists as sovereignty."}],
       "cards": [
-        {
-          "q": "Co Vestfálský mír změnil v postavení císaře a knížat?",
-          "a": "Vyhlášení války a uzavření míru napříště podléhalo SOUHLASU ŘÍŠSKÉHO SNĚMU, a němečtí knížata získali IUS FOEDERIS, právo uzavírat vlastní spojenectví. Francie a Švédsko jako garanti míru získaly značný vliv na říšské poměry.",
-          "difficulty": 2,
-          "kind": "norma",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Je Vestfálský mír počátkem 'vestfálského systému'?",
-          "a": "Duchhardt to nechává OTEVŘENÉ a hlásí se k výhradám: mír nevytvořil bezpečnostní systém, neurovnal tehdejší spory a ani neukončil francouzsko-španělskou válku (to až Pyrenejský mír 1659). Co je jisté: až do konce ancien régime byl nejdůležitějším právním textem pro vztahy mezi státy ve střední Evropě a referenčním bodem všech mírových smluv do 90. let 18. století.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "What did the Peace of Westphalia change in the position of the emperor and the princes?", "a": "The declaration of war and the conclusion of peace henceforth required THE CONSENT OF THE IMPERIAL DIET, and the German princes obtained the IUS FOEDERIS, the right to conclude their own alliances. France and Sweden as guarantors of the peace gained considerable influence over imperial affairs.", "difficulty": 2, "kind": "norma", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "Is the Peace of Westphalia the beginning of the 'Westphalian system'?", "a": "Duchhardt leaves it OPEN and states his reservations: the peace created no security system, settled none of the disputes of the day and did not even end the Franco-Spanish war (that came only with the Peace of the Pyrenees in 1659). What is certain: until the end of the ancien régime it was the most important legal text for relations between states in central Europe and the reference point of all peace treaties down to the 1790s.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "3": {
-      "title": "Garanti míru jako první agresoři",
-      "text": "Ironie, kterou stojí za to umět vyprávět: mír nezaručili ti, kdo ho garantovali — ROZBILI HO. ŠVÉDSKO drželo nafouklý vojenský aparát, na který doma nevybralo daně, a muselo si tedy PŘÍJEM OPATŘIT V CIZINĚ. FRANCIE za LUDVÍKA XIV. (1638–1715) prosazovala územní nároky a vedení Evropy. Proto se období po Vestfálském míru u Greweho jmenuje 'FRANCOUZSKÝ VĚK': francouzská vojenská agrese proti všem bezprostředním sousedům KROMĚ ANGLIE, KTEROU CHRÁNIL KANÁL; celoevropská síť diplomatických zastoupení; a propagandistický dvorský ceremoniál ve Versailles, který ostatní brzy napodobovali. Ale Versailles byl vzor A ZÁROVEŇ tmel odporu katolických i protestantských mocností dohromady. Nezabránilo to Ludvíkovi dosadit na konci VÁLKY O ŠPANĚLSKÉ DĚDICTVÍ (1701–14) Bourbony do habsburského Španělska. Švédsko se projevilo stejně: PRVNÍ SEVERNÍ VÁLKA (1655–60) a pak VELKÁ SEVERNÍ VÁLKA (1700–21), která zatáhla všechny státy u Baltu a skončila ÚPADKEM ŠVÉDSKA A VZESTUPEM RUSKA.",
+      "title": "The guarantors of the peace as the first aggressors",
+      "text": "An irony worth being able to tell: the peace was not secured by those who guaranteed it — THEY BROKE IT. SWEDEN maintained a bloated military apparatus for which it could not raise taxes at home, and therefore had to OBTAIN ITS INCOME ABROAD. FRANCE under LOUIS XIV (1638–1715) pressed territorial claims and the leadership of Europe. That is why the period after the Peace of Westphalia is called in Grewe the 'FRENCH AGE': French military aggression against every immediate neighbour EXCEPT ENGLAND, PROTECTED BY THE CHANNEL; a Europe-wide network of diplomatic representation; and the propagandistic court ceremonial at Versailles, which others soon imitated. But Versailles was a model AND AT THE SAME TIME the glue of resistance binding Catholic and Protestant powers together. It did not prevent Louis from installing the Bourbons in Habsburg Spain at the end of the WAR OF THE SPANISH SUCCESSION (1701–14). Sweden behaved in the same way: the FIRST NORTHERN WAR (1655–60) and then the GREAT NORTHERN WAR (1700–21), which drew in every state on the Baltic and ended with THE DECLINE OF SWEDEN AND THE RISE OF RUSSIA.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč Vestfálský mír nepřinesl mír — a kdo ho porušil?",
-          "a": "Jeho vlastní GARANTI. Švédsko drželo vojsko, na které si doma nevybralo daně, a muselo si příjem opatřit v cizině; Francie Ludvíka XIV. prosazovala územní nároky a vedení Evropy. Odtud Greweho název 'francouzský věk'. Velká severní válka (1700–21) pak skončila úpadkem Švédska a vzestupem Ruska.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Why did the Peace of Westphalia not bring peace — and who broke it?", "a": "Its own GUARANTORS. Sweden maintained an army for which it could not raise taxes at home and had to obtain its income abroad; the France of Louis XIV pressed territorial claims and the leadership of Europe. Hence Grewe's name, the 'French age'. The Great Northern War (1700–21) then ended with the decline of Sweden and the rise of Russia.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "4": {
-      "title": "Osmané, Karlovice a rovnováha moci",
-      "text": "Tlak přicházel i zvenčí. Osmané poprvé ukázali sílu v 60. letech a zesílili ofenzivu v 80. letech, aby narazili na odpor — VÍDEŇ 1683. Zlomy: SVATÁ LIGA (1684) a KARLOVICKÝ MÍR (1699). Ty ukázaly Vysoké Portě, že EXPANZE VE STÍNU STŘEDOEVROPSKÝCH KONFLIKTŮ JE ČÍM DÁL TĚŽŠÍ a že se říši VYPLATÍ DRŽET PRAVIDEL, ze kterých se stávalo mezinárodní právo. Na západě zase ANGLO-NIZOZEMSKÉ VÁLKY 17. a 18. století o vládu nad mořem a výnosný námořní obchod. Mír přinesly až UTRECHT/RASTATT/BADEN (1713–14) a NYSTADT (1721). 20. léta se dají popsat jako PAX BRITANNICA — a poprvé se mocnosti pokusily konfliktům PŘEDCHÁZET, kongresy v CAMBRAI (1722) a SOISSONS (1728–29). A klíčová věta pro zkoušku: MYŠLENKA ROVNOVÁHY MOCI SE OD UTRECHTSKÉ SMLOUVY (1713) STALA TÉMĚŘ ZÁSADOU MEZINÁRODNÍHO PRÁVA.",
-      "terms": [
-        { "term": "rovnováha moci", "def": "Od Utrechtu 1713 téměř zásada mezinárodního práva — a zároveň záminka: pod její hlavičkou proběhlo i první dělení Polska." }
-      ],
+      "title": "The Ottomans, Karlowitz and the balance of power",
+      "text": "Pressure came from outside as well. The Ottomans first showed their strength in the 1660s and intensified their offensive in the 1680s, only to meet resistance — VIENNA 1683. The turning points: the HOLY LEAGUE (1684) and the PEACE OF KARLOWITZ (1699). These showed the Sublime Porte that EXPANSION IN THE SHADOW OF CENTRAL EUROPEAN CONFLICTS WAS BECOMING EVER HARDER and that it was WORTH THE EMPIRE'S WHILE TO KEEP THE RULES that were becoming international law. In the west there were the ANGLO-DUTCH WARS of the 17th and 18th centuries over command of the sea and lucrative maritime trade. Peace came only with UTRECHT/RASTATT/BADEN (1713–14) and NYSTAD (1721). The 1720s can be described as a PAX BRITANNICA — and for the first time the powers attempted to PREVENT conflicts, at the congresses of CAMBRAI (1722) and SOISSONS (1728–29). And the key sentence for the exam: THE IDEA OF THE BALANCE OF POWER BECAME, FROM THE TREATY OF UTRECHT (1713) ONWARDS, ALMOST A PRINCIPLE OF INTERNATIONAL LAW.",
+      "terms": [{"term": "balance of power", "def": "From Utrecht 1713 almost a principle of international law — and at the same time a pretext: the first partition of Poland was carried out under its banner."}],
       "cards": [
-        {
-          "q": "Co znamenaly Svatá liga a Karlovický mír pro postavení Osmanské říše?",
-          "a": "Ukázaly Vysoké Portě, že expanze ve stínu středoevropských konfliktů je čím dál těžší a že se vyplatí držet pravidel, z nichž se stávalo mezinárodní právo. Teprve po Karlovicích — v 'tulipánovém období' — se Porta přiblížila evropskému pojetí mezinárodního práva.",
-          "difficulty": 2,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Odkdy je rovnováha moci téměř zásadou mezinárodního práva?",
-          "a": "Od Utrechtské smlouvy (1713). Mír Evropě přinesly až Utrecht/Rastatt/Baden (1713–14) a Nystadt (1721); 20. léta lze označit za pax britannica, kdy se mocnosti kongresy v Cambrai (1722) a Soissons (1728–29) poprvé pokusily konfliktům předcházet.",
-          "difficulty": 2,
-          "kind": "cisla",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "What did the Holy League and the Peace of Karlowitz mean for the position of the Ottoman Empire?", "a": "They showed the Sublime Porte that expansion in the shadow of central European conflicts was becoming ever harder and that it was worth keeping the rules that were becoming international law. Only after Karlowitz — in the 'Tulip Period' — did the Porte come closer to the European conception of international law.", "difficulty": 2, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "Since when has the balance of power been almost a principle of international law?", "a": "Since the Treaty of Utrecht (1713). Peace came to Europe only with Utrecht/Rastatt/Baden (1713–14) and Nystad (1721); the 1720s can be called a pax britannica, when the powers first attempted to prevent conflicts through the congresses of Cambrai (1722) and Soissons (1728–29).", "difficulty": 2, "kind": "cisla", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "5": {
-      "title": "Války se stěhují ven z Evropy — a zpátky",
-      "text": "Válka o rakouské dědictví po VYMŘENÍ MUŽSKÉ HABSBURSKÉ LINIE (1740) přinesla novinku: BOURBONSKO-BRITSKÉ SOUPEŘENÍ O ZÁMOŘSKÉ ZÁJMY vedlo POPRVÉ K TOMU, ŽE SE VELKÝ EVROPSKÝ KONFLIKT VEDL MIMO EVROPU. A nové se rychle stalo normou, v obou směrech: konflikty evropských mocností V EVROPĚ pravidelně dopadaly na území mimo ni a určovaly koloniální politiku; a naopak konflikty MIMO EVROPU pravidelně využívaly třetí mocnosti k prosazení zájmů v Evropě — ukázkový případ je AMERICKÁ VÁLKA ZA NEZÁVISLOST, kde oba bourbonské státy zasáhly přímo i nepřímo, ABY OSLABILY BRITÁNII V EVROPĚ. SEDMILETÁ VÁLKA (1756–63) pak utvářela rovnováhu až do revoluce: pevně usadila PRUSKO A RUSKO mezi velmoci, potvrdila BRITSKÉ PANSTVÍ NA MOŘI a stvrdila ÚPADEK FRANCIE, v němž někteří historici vidí PŮVOD FRANCOUZSKÉ REVOLUCE. Přinesla RENVERSEMENT DES ALLIANCES — odvěké nepřátelství Vídně a Versailles se stalo minulostí a rakousko-francouzské spojenectví přítomností.",
-      "terms": [
-        { "term": "renversement des alliances", "def": "Převrácení spojenectví kolem sedmileté války: konec nepřátelství Vídně a Versailles, začátek rakousko-francouzského spojenectví." }
-      ],
+      "title": "Wars move out of Europe — and back again",
+      "text": "The War of the Austrian Succession, after THE EXTINCTION OF THE MALE HABSBURG LINE (1740), brought something new: BOURBON-BRITISH RIVALRY OVER OVERSEAS INTERESTS led FOR THE FIRST TIME TO A GREAT EUROPEAN CONFLICT BEING FOUGHT OUTSIDE EUROPE. And the novelty quickly became the norm, in both directions: conflicts of the European powers IN EUROPE regularly had effects on territories beyond it and determined colonial policy; and conversely, conflicts OUTSIDE EUROPE were regularly used by third powers to advance interests in Europe — the textbook case being the AMERICAN WAR OF INDEPENDENCE, in which both Bourbon states intervened directly and indirectly IN ORDER TO WEAKEN BRITAIN IN EUROPE. The SEVEN YEARS' WAR (1756–63) then shaped the balance down to the revolution: it firmly established PRUSSIA AND RUSSIA among the great powers, confirmed BRITISH MASTERY OF THE SEA and sealed THE DECLINE OF FRANCE, in which some historians see THE ORIGIN OF THE FRENCH REVOLUTION. It brought the RENVERSEMENT DES ALLIANCES — the age-old enmity between Vienna and Versailles became the past and the Austro-French alliance the present.",
+      "terms": [{"term": "renversement des alliances", "def": "The reversal of alliances around the Seven Years' War: the end of the enmity between Vienna and Versailles, the beginning of the Austro-French alliance."}],
       "cards": [
-        {
-          "q": "Jak se od poloviny 18. století propojily konflikty v Evropě a mimo ni?",
-          "a": "Oboustranně. Evropské konflikty pravidelně dopadaly na zámořská území a určovaly koloniální politiku; a konflikty mimo Evropu třetí mocnosti využívaly k prosazení zájmů v Evropě — ukázkou je americká válka za nezávislost, do níž oba bourbonské státy zasáhly, aby oslabily Británii v Evropě. Poprvé se velký evropský konflikt vedl mimo Evropu kolem roku 1740.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co změnila sedmiletá válka a co je renversement des alliances?",
-          "a": "Usadila Prusko a Rusko mezi velmoci, potvrdila britské panství na moři a stvrdila úpadek Francie — v němž někteří vidí původ francouzské revoluce. Renversement des alliances je převrácení spojenectví: konec odvěkého nepřátelství Vídně a Versailles a vznik rakousko-francouzského spojenectví.",
-          "difficulty": 2,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co je na prvním dělení Polska (1772) z hlediska mezinárodního práva nejzajímavější?",
-          "a": "Že mocnosti, jinak rozdělené do různých spojenectví, dokázaly jednat SPOLEČNĚ — obvykle pod záminkou udržení rovnováhy moci — a každá si zajistila dlouhodobé zájmy. A že tento akt, později právní vědou tolik odsuzovaný, přijal dobový tisk jen s malou kritikou.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "How did conflicts inside and outside Europe become linked from the mid-18th century?", "a": "In both directions. European conflicts regularly affected overseas territories and determined colonial policy; and conflicts outside Europe were used by third powers to advance interests in Europe — the illustration being the American War of Independence, in which both Bourbon states intervened in order to weaken Britain in Europe. A great European conflict was first fought outside Europe around 1740.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What did the Seven Years' War change, and what is the renversement des alliances?", "a": "It established Prussia and Russia among the great powers, confirmed British mastery of the sea and sealed the decline of France — in which some see the origin of the French Revolution. The renversement des alliances is the reversal of alliances: the end of the age-old enmity between Vienna and Versailles and the birth of the Austro-French alliance.", "difficulty": 2, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What is most interesting about the first partition of Poland (1772) from the point of view of international law?", "a": "That the powers, otherwise divided into different alliances, were able to act TOGETHER — usually under the pretext of maintaining the balance of power — and that each secured its long-term interests. And that this act, so much condemned by later legal scholarship, was received by the press of the day with little criticism.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "6": {
-      "title": "Kdo smí vést válku: ius ad bellum a svrchovanost",
-      "text": "Rané mezinárodní právo se v době baroka a osvícenství — po 'španělských' představitelích druhé scholastiky a po HUGOVI GROTIOVI (1583–1645) — zabývalo hlavně IUS AD BELLUM a IUS IN BELLO. Druhé nabylo naléhavosti po TŘICETILETÉ VÁLCE. IUS AD BELLUM, tedy KTERÉ PRÁVNÍ ENTITY SMĚJÍ VÉST VÁLKU, se v debatách souběžných s nizozemskou válkou za nezávislost (1568–1648) OMEZILO NA DRŽITELE SVRCHOVANOSTI, jak ji razil JEAN BODIN (1529–96); nesvrchovaným vládcům a útvarům s omezenou svrchovaností se právo válčit UPŘELO. To změnilo postavení zemských stavů, třeba pomořanských, které se ještě účastnily jednání vedoucích k Vestfálskému míru — a stejně tak mnoha knížat a svobodných měst, která držela léna od císaře a NADÁLE SE NEPOKLÁDALA ZA SVRCHOVANÉ VLÁDCE. A pak přišel sám Vestfálský mír a jasné dělení ZNOVU ZAMOTAL: dal německým knížatům BÜNDNISRECHT, právo vést vlastní zahraniční věci, které někteří právníci OKAMŽITĚ VYLOŽILI JAKO SVRCHOVANOST.",
+      "title": "Who may wage war: ius ad bellum and sovereignty",
+      "text": "Early international law in the baroque and Enlightenment periods — after the 'Spanish' representatives of the Second Scholastic and after HUGO GROTIUS (1583–1645) — was chiefly concerned with IUS AD BELLUM and IUS IN BELLO. The latter gained urgency after the THIRTY YEARS' WAR. IUS AD BELLUM, that is WHICH LEGAL ENTITIES MAY WAGE WAR, was in the debates running parallel to the Dutch war of independence (1568–1648) NARROWED TO THE HOLDERS OF SOVEREIGNTY as coined by JEAN BODIN (1529–96); non-sovereign rulers and entities with limited sovereignty were DENIED the right to wage war. This changed the position of the territorial estates, the Pomeranian ones for instance, which still took part in the negotiations leading to the Peace of Westphalia — and likewise of the many princes and free cities which held fiefs from the emperor and DID NOT CONTINUE TO REGARD THEMSELVES AS SOVEREIGN RULERS. And then the Peace of Westphalia itself TANGLED the clear division AGAIN: it gave the German princes the BÜNDNISRECHT, the right to conduct their own foreign affairs, which some jurists IMMEDIATELY READ AS SOVEREIGNTY.",
       "terms": [],
       "cards": [
-        {
-          "q": "Kdo směl podle raně novověkého ius ad bellum vést válku, a čí postavení to změnilo?",
-          "a": "Jen DRŽITELÉ SVRCHOVANOSTI v Bodinově pojetí. Nesvrchovaným vládcům a útvarům s omezenou svrchovaností se právo válčit upřelo — dopadlo to na zemské stavy, které ještě jednaly o Vestfálském míru, a na knížata a svobodná města držící léna od císaře.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Who was allowed to wage war under early modern ius ad bellum, and whose position did that change?", "a": "Only the HOLDERS OF SOVEREIGNTY in Bodin's sense. Non-sovereign rulers and entities with limited sovereignty were denied the right to wage war — which affected the territorial estates still negotiating the Peace of Westphalia, and the princes and free cities holding fiefs from the emperor.", "difficulty": 3, "kind": "definice", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "7": {
-      "title": "Kdo smí sedět u stolu: spor o ius legationis",
-      "text": "Na otázku svrchovanosti knížat navazovala druhá: smějí PŘIJÍMAT A VYSÍLAT VYSLANCE (IUS LEGATIONIS)? Spor byl tak vyhrocený, že na KONGRESU V NIJMEGENU (1678–79) rozpoutal PRUDKOU PAMFLETOVOU VÁLKU. Výsledek: NĚMECKÁ KNÍŽATA BYLA NATRVALO VYLOUČENA Z ÚČASTI NA MNOHOSTRANNÝCH MÍROVÝCH KONGRESECH JAKO SAMOSTATNÉ STRANY. Totéž postihlo sdružení říšských krajů (REICHSKREISE) zakládaná od 50. let. A HANZA, která zastupovala mezinárodní síť obchodních měst a dlouho vystupovala jako 'PRÁVNICKÁ OSOBA' na mezinárodní scéně, byla — protože nebyla svrchovaným státem a částečně se rozpadala — VCELKU VYLOUČENA Z MEZISTÁTNÍCH VĚCÍ; což jí ovšem nebránilo, aby byla ještě hluboko v 18. století zahrnována do mezinárodních smluv. Členové říšského sněmu nakonec prošli, pokud PROKÁZALI, ŽE JSOU SAMOSTATNÉ POLITICKÉ ÚTVARY — což zpravidla dokládali TÍM, ŽE NOSILI KRÁLOVSKOU KORUNU NESPOJENOU S ŘÍŠÍ.",
-      "terms": [
-        { "term": "ius legationis", "def": "Právo vysílat a přijímat vyslance. Spor o ně na kongresu v Nijmegenu skončil trvalým vyloučením německých knížat z mnohostranných mírových kongresů." }
-      ],
+      "title": "Who may sit at the table: the quarrel over ius legationis",
+      "text": "A second question followed on the sovereignty of the princes: may they RECEIVE AND SEND ENVOYS (IUS LEGATIONIS)? The dispute was so heated that at the CONGRESS OF NIJMEGEN (1678–79) it unleashed a FIERCE PAMPHLET WAR. The outcome: THE GERMAN PRINCES WERE PERMANENTLY EXCLUDED FROM PARTICIPATION IN MULTILATERAL PEACE CONGRESSES AS PARTIES IN THEIR OWN RIGHT. The same befell the associations of imperial circles (REICHSKREISE) founded from the 1650s. And the HANSA, which represented an international network of trading cities and had long acted as a 'LEGAL PERSON' on the international stage, was — because it was not a sovereign state and was partly disintegrating — LARGELY EXCLUDED FROM INTERSTATE AFFAIRS; which did not prevent it from still being included in international treaties well into the 18th century. Members of the imperial diet did get through if they PROVED THAT THEY WERE INDEPENDENT POLITICAL ENTITIES — which they generally showed BY WEARING A ROYAL CROWN NOT CONNECTED WITH THE EMPIRE.",
+      "terms": [{"term": "ius legationis", "def": "The right to send and receive envoys. The quarrel over it at the Congress of Nijmegen ended with the permanent exclusion of the German princes from multilateral peace congresses."}],
       "cards": [
-        {
-          "q": "Jak dopadl spor o ius legationis německých knížat?",
-          "a": "Na kongresu v Nijmegenu (1678–79) vyvolal pamfletovou válku a skončil TRVALÝM VYLOUČENÍM knížat z účasti na mnohostranných mírových kongresech jako samostatných stran. Totéž postihlo říšské kraje. Členové říšského sněmu prošli, jen pokud prokázali samostatnost — zpravidla tím, že nosili královskou korunu nespojenou s říší.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Proč z mezistátních věcí vypadla Hanza?",
-          "a": "Protože nebyla svrchovaným státem a částečně se rozpadala — ačkoli dlouho vystupovala jako 'právnická osoba' mezinárodní scény. Přesto byla ještě hluboko v 18. století zahrnována do mezinárodních smluv.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "extra"
-        }
+        {"q": "How did the quarrel over the German princes' ius legationis end?", "a": "At the Congress of Nijmegen (1678–79) it provoked a pamphlet war and ended with the PERMANENT EXCLUSION of the princes from participation in multilateral peace congresses as parties in their own right. The same befell the imperial circles. Members of the imperial diet got through only if they proved their independence — generally by wearing a royal crown not connected with the empire.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "Why did the Hansa drop out of interstate affairs?", "a": "Because it was not a sovereign state and was partly disintegrating — although it had long acted as a 'legal person' on the international stage. Even so it was still included in international treaties well into the 18th century.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "8": {
-      "title": "Obchodní společnosti jako zastřené státy",
-      "text": "Jediná výjimka z mezistátní povahy mezinárodního práva po Vestfálském míru: SMLOUVY MEZI STÁTY A OBCHODNÍMI SPOLEČNOSTMI, které v některých částech světa požívaly JAKÉSI ZASTŘENÉ SVRCHOVANOSTI a kterým anglická koruna přiznala dokonce IUS BELLI AC PACIS a IUS LEGATIONIS. Šéfové některých faktorií proto vystupovali s nádherou, při které vypadali JEN O MÁLO MÉNĚ NEŽ PANOVNÍCI, které zastupovali. Podle GREWEHO bylo hlavní funkcí BRITSKÉ VÝCHODOINDICKÉ a NIZOZEMSKÝCH VÝCHODO- A ZÁPADOINDICKÝCH SPOLEČNOSTÍ ZABRÁNIT PŘENESENÍ EVROPSKÉHO POJMU STÁTU NA ÚZEMÍ MIMO EVROPU. Nebylo neobvyklé, že SPOLEČNOSTI SPOLU VÁLČILY, ANIŽ TO DOPADLO NA MÍR V EVROPĚ. Souvisí to s tím, že prostor za HERKULOVÝMI SLOUPY platil dlouho za oblast VLASTNÍCH ZÁKONŮ, za sféru 'ZA ČAROU', kam se přísné normy evropského mezinárodního práva nevztahovaly.",
-      "terms": [
-        { "term": "'za čarou' (beyond the line)", "def": "Prostor za Herkulovými sloupy jako oblast vlastních zákonů, kam se přísné normy evropského mezinárodního práva nevztahovaly." }
-      ],
+      "title": "Trading companies as veiled states",
+      "text": "The one exception to the interstate character of international law after the Peace of Westphalia: TREATIES BETWEEN STATES AND TRADING COMPANIES, which in some parts of the world enjoyed A KIND OF VEILED SOVEREIGNTY and to which the English crown even granted the IUS BELLI AC PACIS and the IUS LEGATIONIS. The heads of some factories accordingly appeared with a splendour that made them look LITTLE LESS THAN THE MONARCHS THEY REPRESENTED. According to GREWE, the main function of the BRITISH EAST INDIA and the DUTCH EAST AND WEST INDIA COMPANIES was TO PREVENT THE TRANSFER OF THE EUROPEAN CONCEPT OF THE STATE TO TERRITORIES OUTSIDE EUROPE. It was not unusual for COMPANIES TO WAGE WAR ON ONE ANOTHER WITHOUT THIS AFFECTING THE PEACE IN EUROPE. This is connected with the fact that the space beyond the PILLARS OF HERCULES long counted as a region OF ITS OWN LAWS, a sphere 'BEYOND THE LINE', to which the strict norms of European international law did not extend.",
+      "terms": [{"term": "'beyond the line'", "def": "The space beyond the Pillars of Hercules as a region of its own laws, to which the strict norms of European international law did not extend."}],
       "cards": [
-        {
-          "q": "Jaké postavení měly obchodní společnosti v mezinárodním právu po roce 1648?",
-          "a": "Byly jedinou výjimkou z jeho mezistátní povahy: v některých oblastech požívaly zastřené svrchovanosti a anglická koruna jim přiznala i IUS BELLI AC PACIS a IUS LEGATIONIS. Mohly spolu válčit, aniž to dopadlo na mír v Evropě. Podle Greweho měly hlavně BRÁNIT PŘENESENÍ EVROPSKÉHO POJMU STÁTU na území mimo Evropu.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co znamená 'za čarou' (beyond the line)?",
-          "a": "Že prostor za Herkulovými sloupy platil za oblast vlastních zákonů, na kterou se přísné normy evropského mezinárodního práva nevztahovaly — proto mohly zámořské konflikty probíhat mimo evropský mír.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "What position did the trading companies have in international law after 1648?", "a": "They were the one exception to its interstate character: in some regions they enjoyed a veiled sovereignty and the English crown granted them even the IUS BELLI AC PACIS and the IUS LEGATIONIS. They could wage war on one another without affecting the peace in Europe. According to Grewe their chief function was TO PREVENT THE TRANSFER OF THE EUROPEAN CONCEPT OF THE STATE to territories outside Europe.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What does 'beyond the line' mean?", "a": "That the space beyond the Pillars of Hercules counted as a region of its own laws, to which the strict norms of European international law did not extend — which is why overseas conflicts could run their course outside the European peace.", "difficulty": 2, "kind": "definice", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "9": {
-      "title": "Iusta causa: kdy je válka spravedlivá",
-      "text": "Druhá strana mince: KDY A ZA JAKÝCH OKOLNOSTÍ JE VÁLKA PODLE MEZINÁRODNÍHO PRÁVA LEGÁLNÍ. Měřítko dal GROTIUS, navazující na pozdní scholastiku. SPRAVEDLIVÉ důvody: OBRANA ÚZEMÍ, LIDÍ A VĚCÍ PROTI ÚTOČNÍKOVI; ZNOVUZÍSKÁNÍ ZABRANÉHO ÚZEMÍ, LIDÍ A VĚCÍ; a ODPLATA. NESPRAVEDLIVÉ: vojenská akce k ROZŠÍŘENÍ ÚZEMÍ, k POLITICKÉ NEZÁVISLOSTI, nebo k PANOVÁNÍ NAD DRUHÝMI. Grotiův výklad se v dobové politice výslovně neprojevil, ALE BRZY SE STAL MĚŘÍTKEM, PODLE KTERÉHO SE VÁLKY POSUZOVALY — a to se dá doložit z obou stran: rozhořčení nad válkami LUDVÍKA XIV. (DEVOLUČNÍ 1667–68, HOLANDSKÁ 1672–78) a FRIDRICHA VELIKÉHO (PRVNÍ SLEZSKÁ 1740–42), které sloužily pouhým územním ziskům, jde odvodit od Grotiova vlivu — stejně jako argumenty, kterými oba panovníci své jednání ODŮVODŇOVALI JAKO PRÁVNÍ (nástupnictví v Brabantsku, hohenzollernské nároky na slezská knížectví). To je ten správný test vlivu nauky: nutí i porušovatele mluvit jejím jazykem.",
-      "terms": [
-        { "term": "iusta causa", "def": "Spravedlivý důvod války. U Grotia: obrana, znovuzískání zabraného a odplata — nikoli rozšíření území, nezávislost ani panství nad druhými." }
-      ],
+      "title": "Iusta causa: when a war is just",
+      "text": "The other side of the coin: WHEN AND IN WHAT CIRCUMSTANCES IS WAR LEGAL UNDER INTERNATIONAL LAW. The measure was given by GROTIUS, building on the late scholastics. JUST causes: THE DEFENCE OF TERRITORY, PEOPLE AND PROPERTY AGAINST AN ATTACKER; THE RECOVERY OF SEIZED TERRITORY, PEOPLE AND PROPERTY; and RETRIBUTION. UNJUST: military action to EXTEND TERRITORY, to gain POLITICAL INDEPENDENCE, or to DOMINATE OTHERS. Grotius's doctrine found no explicit expression in the politics of the day, BUT IT SOON BECAME THE MEASURE BY WHICH WARS WERE JUDGED — and this can be shown from both sides: the indignation at the wars of LOUIS XIV (the WAR OF DEVOLUTION 1667–68, the DUTCH WAR 1672–78) and of FREDERICK THE GREAT (the FIRST SILESIAN WAR 1740–42), which served mere territorial gain, can be traced to Grotius's influence — as can the arguments by which both rulers JUSTIFIED THEIR CONDUCT AS LEGAL (the succession in Brabant, the Hohenzollern claims to the Silesian duchies). That is the proper test of a doctrine's influence: it forces even those who break it to speak its language.",
+      "terms": [{"term": "iusta causa", "def": "A just cause of war. In Grotius: defence, recovery of what was seized, and retribution — not the extension of territory, independence or dominion over others."}],
       "cards": [
-        {
-          "q": "Vyjmenuj Grotiovy spravedlivé a nespravedlivé důvody války.",
-          "a": "Spravedlivé: obrana území, lidí a věcí proti útočníkovi; znovuzískání zabraného území, lidí a věcí; a odplata. Nespravedlivé: vojenská akce k rozšíření území, k dosažení politické nezávislosti, nebo k panství nad druhými.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Jak se pozná, že Grotiova nauka o spravedlivé válce opravdu působila?",
-          "a": "Ze dvou stran. Rozhořčení nad válkami Ludvíka XIV. a Fridricha Velikého, které sloužily pouhým územním ziskům, jde odvodit od jeho vlivu — a stejně tak argumenty, jimiž oba panovníci své jednání ospravedlňovali jako právní (nástupnictví v Brabantsku, hohenzollernské nároky ve Slezsku). Nauka působí, když i porušovatel mluví jejím jazykem.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "List Grotius's just and unjust causes of war.", "a": "Just: the defence of territory, people and property against an attacker; the recovery of seized territory, people and property; and retribution. Unjust: military action to extend territory, to achieve political independence, or to dominate others.", "difficulty": 2, "kind": "znaky", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "How can one tell that Grotius's doctrine of just war really had effect?", "a": "From two sides. The indignation at the wars of Louis XIV and Frederick the Great, which served mere territorial gain, can be traced to his influence — and so can the arguments by which both rulers justified their conduct as legal (the succession in Brabant, the Hohenzollern claims in Silesia). A doctrine has effect when even the violator speaks its language.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "10": {
-      "title": "Preventivní válka a intervence",
-      "text": "GROTIUS NEPŘIPOUŠTĚL PREVENTIVNÍ VÁLKU — a právě tu si v roce 1756 nárokoval FRIDRICH VELIKÝ, když napadl Sasko a rozpoutal sedmiletou válku. Tenhle typ války BYL Z DEFINICE KONSTRUKCE: umožňoval vládcům jít do války i tam, kde podle Grotia žádný spravedlivý důvod nebyl. A DO 20. STOLETÍ TO BYLA HOJNĚ UŽÍVANÁ VÝMLUVA K OSPRAVEDLNĚNÍ VOJENSKÉ AKCE. Preventivní válka byla druhem INTERVENCE, tedy zasahování jednoho státu do věcí druhého. Zatímco CHRISTIAN WOLFF (1679–1754) a EMER DE VATTEL (1714–67) pokládali NÁBOŽENSKÉ důvody intervence za nespravedlivé, VATTEL — přes všechnu úctu ke svobodě a právu na vlastní vládu — POKLÁDAL OSVOBOZENÍ OD DESPOTICKÉHO VLÁDCE ZA MOŽNÝ SPRAVEDLIVÝ DŮVOD INTERVENCE. Ten názor našel ohlas U REVOLUCIONÁŘŮ — a otázka intervence, teď už mezi velmocemi, zůstala na pořadu dne hluboko za francouzskou revoluci.",
+      "title": "Preventive war and intervention",
+      "text": "GROTIUS DID NOT ALLOW PREVENTIVE WAR — and that is precisely what FREDERICK THE GREAT claimed in 1756 when he attacked Saxony and unleashed the Seven Years' War. This type of war WAS BY DEFINITION A CONSTRUCTION: it allowed rulers to go to war even where, on Grotius's terms, there was no just cause. AND INTO THE 20TH CENTURY IT WAS A MUCH-USED EXCUSE FOR JUSTIFYING MILITARY ACTION. Preventive war was a species of INTERVENTION, the interference of one state in the affairs of another. While CHRISTIAN WOLFF (1679–1754) and EMER DE VATTEL (1714–67) regarded RELIGIOUS grounds of intervention as unjust, VATTEL — for all his respect for liberty and the right to self-government — REGARDED LIBERATION FROM A DESPOTIC RULER AS A POSSIBLE JUST CAUSE OF INTERVENTION. That view found an echo AMONG THE REVOLUTIONARIES — and the question of intervention, now among the great powers, remained on the agenda well beyond the French Revolution.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak se preventivní válka vejde do nauky o spravedlivé válce?",
-          "a": "Nevejde — Grotius ji nepřipouštěl. Je to z definice konstrukce, která umožnila jít do války tam, kde spravedlivý důvod nebyl; nárokoval si ji Fridrich Veliký roku 1756 při útoku na Sasko a hojně se jí ospravedlňovaly vojenské akce až do 20. století.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co Vattel považoval za možný spravedlivý důvod intervence, a proč je to zajímavé?",
-          "a": "OSVOBOZENÍ OD DESPOTICKÉHO VLÁDCE — přes svou úctu ke svobodě a právu na vlastní vládu. Náboženské důvody odmítal stejně jako Wolff. Zajímavé je to proto, že ten názor našel ohlas u revolucionářů a udělal z intervence trvalé téma velmocenské politiky i po roce 1789.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "How does preventive war fit into the doctrine of just war?", "a": "It does not — Grotius did not allow it. It is by definition a construction that made it possible to go to war where there was no just cause; Frederick the Great claimed it in 1756 when attacking Saxony, and it was much used to justify military action into the 20th century.", "difficulty": 3, "kind": "rozliseni", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What did Vattel regard as a possible just cause of intervention, and why is that interesting?", "a": "LIBERATION FROM A DESPOTIC RULER — for all his respect for liberty and the right to self-government. Religious grounds he rejected, as did Wolff. It is interesting because the view found an echo among the revolutionaries and made intervention a permanent theme of great-power politics after 1789.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "11": {
-      "title": "Vyhlášení války a pozdrav vlajkou",
-      "text": "Francouzsko-španělská válka se roku 1635 vyhlašovala ještě TRADIČNĚ — heroldi četli vyhlášení při obřadech podél nepřátelské hranice. Napříště bylo běžnější vyhlásit válku PRÁVNÍM OZNÁMENÍM; zredukováno na SPRÁVNÍ AKT to zároveň znamenalo ODVOLÁNÍ DIPLOMATICKÝCH ZÁSTUPCŮ. Nebylo ovšem neznámé vést válku BEZ VYHLÁŠENÍ; v 18. století to čím dál víc mělo podobu REPRESÁLIÍ, po kterých vyhlášení přišlo mnohem později — a za jistých okolností platily REPRESÁLIE SAMY ZA VYHLÁŠENÍ VÁLKY. Rituál sice ustupoval, ale zůstával důležitý, když státy hledaly konfrontaci. Nejvýmluvnější případ: britské trvání na POZDRAVU VLAJKOU, kdy nebritské lodi musely na OCEANUS BRITANNICUS pozdravit britské. Odmítnutí nizozemského loďstva vedlo ke TŘEM VÁLKÁM — a ve vyhlášení války roku 1659 Britové uvedli ODMÍTNUTÍ POZDRAVU JAKO HLAVNÍ DŮVOD. Duchhardtova formulka: ČÍM JSOU V DIPLOMACII TITULY A POŘADÍ PŘEDNOSTI, TÍM JE NA MOŘI POZDRAV VLAJKOU.",
+      "title": "Declaring war and the salute to the flag",
+      "text": "The Franco-Spanish war was still declared in 1635 in the TRADITIONAL way — heralds reading out the declaration in ceremonies along the enemy border. Thereafter it became more usual to declare war by a LEGAL NOTIFICATION; reduced to an ADMINISTRATIVE ACT, this also meant the RECALL OF DIPLOMATIC REPRESENTATIVES. It was not unknown, however, to wage war WITHOUT A DECLARATION; in the 18th century this increasingly took the form of REPRISALS, after which a declaration came much later — and in certain circumstances REPRISALS THEMSELVES COUNTED AS A DECLARATION OF WAR. Ritual was receding, but it remained important where states sought confrontation. The most eloquent case: the British insistence on the SALUTE TO THE FLAG, by which non-British ships had to salute British ones on the OCEANUS BRITANNICUS. The Dutch fleet's refusal led to THREE WARS — and in the declaration of war of 1659 the British cited THE REFUSAL OF THE SALUTE AS THE PRINCIPAL GROUND. Duchhardt's formula: WHAT TITLES AND ORDER OF PRECEDENCE ARE IN DIPLOMACY, THE SALUTE TO THE FLAG IS AT SEA.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co je pozdrav vlajkou a proč patří do dějin mezinárodního práva?",
-          "a": "Britský nárok, aby nebritské lodi na 'oceanus britannicus' zdravily britské. Odmítnutí Nizozemců vedlo ke třem válkám a roku 1659 uvedli Britové odmítnutí pozdravu jako HLAVNÍ důvod vyhlášení války. Duchhardt: čím jsou v diplomacii tituly a pořadí přednosti, tím je na moři pozdrav vlajkou — ceremoniál je tu nárok na moc.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "What is the salute to the flag and why does it belong to the history of international law?", "a": "A British claim that non-British ships should salute British ones on the 'oceanus britannicus'. The Dutch refusal led to three wars, and in 1659 the British cited the refusal of the salute as the PRINCIPAL ground for declaring war. Duchhardt: what titles and precedence are in diplomacy, the salute to the flag is at sea — the ceremonial is a claim to power.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "12": {
-      "title": "Neutralita: od posuzování spravedlnosti k nestrannosti",
-      "text": "Grotius se latinskému NEUTRALITAS vyhýbal (možná proto, že psal klasickou latinou, která ten výraz neznala) a mluvil o státech QUI IN BELLO MEDII SUNT. Jeho řešení ale plyne z nauky o spravedlivé válce: NECHAL NA KAŽDÉM 'NEUTRÁLNÍM' STÁTĚ, ABY SÁM POSOUDIL, zda je válka vedena ze spravedlivého důvodu. Kdo válčil z INIUSTA CAUSA, tomu se měla odepřít veškerá podpora; kdo z IUSTA CAUSA, tomu se mělo dát právo válčit bez překážek. U nejasných případů Grotius radil OMEZIT VLASTNÍ VYSTAVENÍ A RIZIKO a uzavřít dohody s každou z válčících stran. Téma nebylo nové — uvažoval o něm už MACHIAVELLI, kladně BODIN, a JOHANN WILHELM NEUMAYR VON RAMSSLA o něm napsal spis PĚT LET PŘED Grotiovým De jure belli ac pacis (1625). A teď ten zlom: PO VESTFÁLSKÉM MÍRU SE OTÁZKA SPRAVEDLNOSTI VÁLKY PRO NEUTRÁLNÍ STÁTY STALA NADBYTEČNOU a přestala se v jejich dohodách zmiňovat — NEUTRÁLNÍ STÁTY PŘESTALY ZAUJÍMAT STANOVISKO A JEDNALY S VÁLČÍCÍMI ROVNĚ A NESTRANNĚ. Uváží-li se, že poválečný řád určoval ZÁJEM STÁTŮ, a ne mravní a náboženské důvody, byl ten vývoj logický. Byl také PŘEDPOKLADEM institucionální neutrality a vzniku OZBROJENÉ NEUTRALITY — 1780 vznikl 'neutrální spolek k obraně práv neutrálních států ozbrojenou silou'.",
-      "terms": [
-        { "term": "ozbrojená neutralita", "def": "Spolek neutrálních států hájících svá práva ozbrojenou silou — poprvé roku 1780." }
-      ],
+      "title": "Neutrality: from judging justice to impartiality",
+      "text": "Grotius avoided the Latin NEUTRALITAS (perhaps because he wrote classical Latin, which did not know the term) and spoke of states QUI IN BELLO MEDII SUNT. His solution nevertheless follows from the doctrine of just war: HE LEFT IT TO EACH 'NEUTRAL' STATE TO JUDGE FOR ITSELF whether a war was being waged from a just cause. To whoever fought from an INIUSTA CAUSA, all support was to be refused; to whoever fought from a IUSTA CAUSA, the right to wage war was to be granted unimpeded. In unclear cases Grotius advised LIMITING ONE'S OWN EXPOSURE AND RISK and concluding agreements with each of the belligerents. The theme was not new — MACHIAVELLI had already reflected on it, BODIN favourably, and JOHANN WILHELM NEUMAYR VON RAMSSLA wrote a treatise on it FIVE YEARS BEFORE Grotius's De jure belli ac pacis (1625). And now the turn: AFTER THE PEACE OF WESTPHALIA THE QUESTION OF THE JUSTICE OF A WAR BECAME SUPERFLUOUS FOR NEUTRAL STATES and ceased to be mentioned in their agreements — NEUTRAL STATES STOPPED TAKING A POSITION AND DEALT WITH THE BELLIGERENTS EQUALLY AND IMPARTIALLY. Considering that the post-war order was determined by THE INTEREST OF STATES and not by moral and religious grounds, the development was logical. It was also the PRECONDITION of institutional neutrality and of the rise of ARMED NEUTRALITY — in 1780 a 'neutral league for the defence of the rights of neutral states by armed force' came into being.",
+      "terms": [{"term": "armed neutrality", "def": "A league of neutral states defending their rights by armed force — first in 1780."}],
       "cards": [
-        {
-          "q": "Jak Grotius řešil neutralitu a co se s ní stalo po Vestfálském míru?",
-          "a": "Grotius nechal na každém neutrálním státě, aby SÁM POSOUDIL, zda je válka spravedlivá: kdo válčil z nespravedlivého důvodu, tomu se měla odepřít podpora. Po Vestfálském míru se ta otázka stala NADBYTEČNOU — neutrální státy přestaly zaujímat stanovisko a jednaly s oběma stranami rovně a nestranně. Logicky: řád teď určoval zájem států, ne mravní a náboženské důvody.",
-          "difficulty": 3,
-          "kind": "proces",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co umožnil přechod k nestranné neutralitě?",
-          "a": "Institucionální neutralitu a vznik OZBROJENÉ NEUTRALITY: roku 1780 se skupina států spojila v 'neutrální spolek k obraně práv neutrálních států ozbrojenou silou'. Dokud neutralita znamenala posuzovat spravedlnost války, nešlo z ní udělat trvalý status.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "How did Grotius resolve neutrality, and what became of it after the Peace of Westphalia?", "a": "Grotius left it to each neutral state to JUDGE FOR ITSELF whether a war was just: support was to be refused to whoever fought from an unjust cause. After the Peace of Westphalia that question became SUPERFLUOUS — neutral states stopped taking a position and dealt with both sides equally and impartially. Logically so: the order was now determined by the interest of states, not by moral and religious grounds.", "difficulty": 3, "kind": "proces", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What did the move to impartial neutrality make possible?", "a": "Institutional neutrality and the rise of ARMED NEUTRALITY: in 1780 a group of states joined in a 'neutral league for the defence of the rights of neutral states by armed force'. So long as neutrality meant judging the justice of a war, it could not be made a permanent status.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "13": {
-      "title": "Ius in bello: Grotius, který si odporuje",
-      "text": "V předmluvě k De jure belli ac pacis Grotius líčí ÚPADEK VEDENÍ VÁLKY a otřesnou neúctu k mravům a zákonům za francouzských náboženských válek; píše o 'ZVRHLÉM VEDENÍ VÁLKY, ZA KTERÉ BY SE STYDĚLI I BARBAŘI'. Z toho plyne dvojí přístup: NAPŘED ODRADIT VLÁDCE OD VÁLKY, zvlášť z malicherného důvodu, a řešit spory JEDNÁNÍM, KOMPROMISEM, VÝROKEM TŘETÍHO, LOSEM, NEBO I SOUBOJEM MEZI VLÁDCI; a teprve když preventivní prostředky selžou, prosadit SDÍLENÉ CHÁPÁNÍ, ŽE PRO VÁLKU PLATÍ SOUBOR PRAVIDEL. Jejich cílem bylo ZMÍRNIT A ZLIDŠTIT VEDENÍ VÁLKY A OMEZIT JEJÍ ROZSAH V ČASE A PROSTORU. ALE — a tohle je ta past — VÝSLOVNĚ NEZARUČOVALY BEZPEČNOST CIVILISTŮ ANI VÝSLOVNĚ NEZAKAZOVALY NIČENÍ NEPŘÁTELSKÉHO MAJETKU A SVATYNÍ. Navíc: rozvržen na jedné jediné straně, ten systém si Grotius O NĚKOLIK STRAN DÁL SÁM ODVOLÁVÁ odkazem na platné zákony, křesťanskou lásku a povinnost válčících jednat s mírou. Dá se mu vyčítat NEDŮSLEDNOST, nebo se dá chválit, že se NEBÁL POJMENOVAT NAPĚTÍ MEZI IUS GENTIUM NATURALE A IUS GENTIUM VOLUNTARIUM.",
-      "terms": [
-        { "term": "ius gentium naturale × voluntarium", "def": "Právo národů přirozené (co plyne z rozumu) proti právu národů dobrovolnému (co si státy ujednaly). Napětí mezi nimi je podle Duchhardta zdroj Grotiovy nedůslednosti." }
-      ],
+      "title": "Ius in bello: a Grotius who contradicts himself",
+      "text": "In the preface to De jure belli ac pacis Grotius depicts the DECAY OF THE CONDUCT OF WAR and the appalling disregard for morals and laws during the French wars of religion; he writes of a 'DEPRAVED CONDUCT OF WAR OF WHICH EVEN BARBARIANS WOULD BE ASHAMED'. From this follows a twofold approach: FIRST TO DETER RULERS FROM WAR, especially over a trivial cause, and to settle disputes BY NEGOTIATION, COMPROMISE, THE VERDICT OF A THIRD PARTY, BY LOT, OR EVEN BY A DUEL BETWEEN THE RULERS; and only when the preventive means fail, to establish a SHARED UNDERSTANDING THAT A SET OF RULES APPLIES TO WAR. Their aim was TO MITIGATE AND HUMANISE THE CONDUCT OF WAR AND TO LIMIT ITS EXTENT IN TIME AND SPACE. BUT — and this is the trap — THEY DID NOT EXPRESSLY GUARANTEE THE SAFETY OF CIVILIANS NOR EXPRESSLY PROHIBIT THE DESTRUCTION OF ENEMY PROPERTY AND SANCTUARIES. Moreover: set out on a single page, the system is RETRACTED BY GROTIUS HIMSELF A FEW PAGES LATER by reference to the laws in force, Christian charity and the duty of belligerents to act with moderation. One may charge him with INCONSISTENCY, or one may praise him for NOT SHRINKING FROM NAMING THE TENSION BETWEEN IUS GENTIUM NATURALE AND IUS GENTIUM VOLUNTARIUM.",
+      "terms": [{"term": "ius gentium naturale vs voluntarium", "def": "The natural law of nations (what follows from reason) against the voluntary law of nations (what states have agreed). The tension between them is, for Duchhardt, the source of Grotius's inconsistency."}],
       "cards": [
-        {
-          "q": "Co Grotiovo ius in bello nezaručovalo — a v čem si Grotius odporuje?",
-          "a": "Nezaručovalo VÝSLOVNĚ bezpečnost civilistů ani výslovně nezakazovalo ničení nepřátelského majetku a svatyní. A systém rozvržený na jediné straně si Grotius o pár stran dál sám odvolává odkazem na platné zákony, křesťanskou lásku a povinnost jednat s mírou — buď nedůslednost, nebo poctivé pojmenování napětí mezi ius gentium naturale a voluntarium.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Jaké alternativy k válce Grotius nabízel?",
-          "a": "Jednání, kompromis, výrok třetí strany, los — a dokonce souboj mezi dotyčnými vládci. Pravidla pro vedení války nastupují až tam, kde všechny preventivní prostředky selžou.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "extra"
-        }
+        {"q": "What did Grotius's ius in bello not guarantee — and where does Grotius contradict himself?", "a": "It did not EXPRESSLY guarantee the safety of civilians nor expressly prohibit the destruction of enemy property and sanctuaries. And the system set out on a single page is retracted by Grotius a few pages later by reference to the laws in force, Christian charity and the duty to act with moderation — either inconsistency or an honest naming of the tension between ius gentium naturale and voluntarium.", "difficulty": 3, "kind": "rozliseni", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What alternatives to war did Grotius offer?", "a": "Negotiation, compromise, the verdict of a third party, the lot — and even a duel between the rulers concerned. Rules for the conduct of war come in only where all the preventive means have failed.", "difficulty": 2, "kind": "znaky", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "14": {
-      "title": "Kam se po Grotiovi zákony války dostaly",
-      "text": "Pogrotiovské myšlení se posunulo daleko. FRIDRICH VELIKÝ se později CHLUBIL, ŽE JEHO VÁLEK SI CIVILNÍ OBYVATELSTVO ANI NEVŠIMLO. To odráží nové typy války, třeba KABINETNÍ VÁLKU, jejímž cílem bylo spíš nepřítele PŘECHYTRAČIT NEŽ PORAZIT — což ovšem neznamenalo, že velké bitvy zmizely, jak ukázala sedmiletá válka. Pogrotiovská literatura se JEDNOHLASNĚ postavila PROTI ZABÍJENÍ VÁLEČNÝCH ZAJATCŮ, a teorie se rychle převedla do praxe: vznikly KARTELY pro výměnu zajatců, kde měla KAŽDÁ HODNOST DOHODNUTOU CENU a usilovalo se o co nejvyrovnanější výměnu. Naopak méně obvyklé bylo dlouhodobé věznění zajatců, zvlášť odborníků jako námořníků, KTERÉ NEPŘÍTEL SPÍŠ ZAČLENIL DO VLASTNÍCH ŘAD, než aby je nechal ležet ladem. A jedna věta k zapamatování: zákony války ODSOUDILY POUŽITÍ CHEMICKÝCH A TŘÍŠTIVÝCH ZBRANÍ DLOUHO PŘEDTÍM, NEŽ TO HAAGSKÉ ÚMLUVY (od roku 1899) PŘEVEDLY DO PRÁVA.",
-      "terms": [
-        { "term": "kabinetní válka", "def": "Typ války, jejímž cílem bylo nepřítele spíš přechytračit než porazit — projev nového důrazu na ochranu civilistů." }
-      ],
+      "title": "Where the laws of war went after Grotius",
+      "text": "Post-Grotian thought moved a long way. FREDERICK THE GREAT later BOASTED THAT THE CIVILIAN POPULATION DID NOT EVEN NOTICE HIS WARS. This reflects new types of war, such as the CABINET WAR, whose aim was to OUTWIT rather than defeat the enemy — which did not mean that great battles disappeared, as the Seven Years' War showed. Post-Grotian literature stood UNANIMOUSLY AGAINST THE KILLING OF PRISONERS OF WAR, and the theory was quickly translated into practice: CARTELS for the exchange of prisoners came into being, in which EVERY RANK HAD AN AGREED PRICE and an exchange as balanced as possible was sought. The long-term imprisonment of captives was by contrast less usual, especially of specialists such as sailors, WHOM THE ENEMY WAS MORE LIKELY TO INCORPORATE INTO HIS OWN RANKS than to leave idle. And one sentence to remember: the laws of war CONDEMNED THE USE OF CHEMICAL AND FRAGMENTATION WEAPONS LONG BEFORE THE HAGUE CONVENTIONS (from 1899) TRANSLATED THIS INTO LAW.",
+      "terms": [{"term": "cabinet war", "def": "A type of war whose aim was to outwit rather than defeat the enemy — an expression of the new emphasis on protecting civilians."}],
       "cards": [
-        {
-          "q": "Jak se po Grotiovi řešili váleční zajatci?",
-          "a": "Literatura se jednohlasně postavila proti jejich zabíjení a praxe následovala: vznikly KARTELY pro výměnu, kde měla každá hodnost dohodnutou cenu a usilovalo se o vyrovnanou výměnu. Dlouhodobé věznění bylo méně obvyklé — odborníky, třeba námořníky, nepřítel spíš začlenil do vlastních řad.",
-          "difficulty": 2,
-          "kind": "proces",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "V čem zákony války předběhly Haagské úmluvy?",
-          "a": "Odsoudily použití chemických a tříštivých zbraní dlouho předtím, než to Haagské úmluvy (poprvé sjednávané roku 1899) převedly do práva.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "How were prisoners of war dealt with after Grotius?", "a": "The literature stood unanimously against killing them and practice followed: CARTELS of exchange came into being, in which every rank had an agreed price and a balanced exchange was sought. Long-term imprisonment was less usual — specialists such as sailors were more likely to be incorporated into the enemy's own ranks.", "difficulty": 2, "kind": "proces", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "In what did the laws of war anticipate the Hague Conventions?", "a": "They condemned the use of chemical and fragmentation weapons long before the Hague Conventions (first negotiated in 1899) translated this into law.", "difficulty": 2, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "15": {
-      "title": "Kongres jako instituce: kdo směl přijít a jak se jednalo",
-      "text": "Vestfálský mír upravil, KDO SMÍ NA MÍROVÝ KONGRES. Nebylo samozřejmé, že budou připuštěna říšská knížata, svobodná říšská města a říšští rytíři — a jejich připuštění udělalo z očekávání PRAVIDLO: KAŽDÝ POLITICKÝ ÚTVAR ZAPOJENÝ DO KONFLIKTU, velký či malý, protestantský či katolický, monarchie či republika, s velkým vojskem či malým, MĚL MÍT PRÁVO ZASTOUPIT SVÉ ZÁJMY. V Nijmegenu se to zase zrušilo; knížata se také neúčastnila menších kongresů (Breda 1667) ani tam, kde bylo dohodnuto předem (Utrecht 1713, Paříž 1763, Paříž 1783). Přesto Vestfálský mír ustavil mírové kongresy jako HLAVNÍ FÓRUM ŘEŠENÍ SPORŮ až do Vídně. Změnila se i FORMA JEDNÁNÍ. Za KARLA V. se panovníci ještě scházeli osobně; po roce 1648 UŽ NA KONGRESY NEJEZDILI — plenární zasedání vystřídaly SOUKROMÉ SCHŮZKY a ceremoniální nádheru PROFESIONÁLNÍ POLITIKA. Až Vídeňský kongres byl zase shromážděním císařů a králů. Vládce zastupovali ZPLNOMOCNĚNCI, zpravidla TŘI ZA KAŽDOU VELMOC, kteří přebírali tituly, ceremoniál a práva svého panovníka — což vedlo ke sporům o formu a jazyk pověřovacích listin, o tituly a POŘADÍ PŘEDNOSTI. Právě kvůli takovým věcem trvaly kongresy tak dlouho. A pozor na výklad: NEŠLO O PRÁZDNOU MARNIVOST, ale o SAMY ZÁKLADY MOCI A PRÁV STÁTU.",
+      "title": "The congress as an institution: who could come and how business was done",
+      "text": "The Peace of Westphalia settled WHO MAY COME TO A PEACE CONGRESS. It was not self-evident that the imperial princes, the free imperial cities and the imperial knights would be admitted — and their admission turned an expectation into a RULE: EVERY POLITICAL ENTITY INVOLVED IN THE CONFLICT, great or small, Protestant or Catholic, monarchy or republic, with a large army or a small one, WAS TO HAVE THE RIGHT TO REPRESENT ITS INTERESTS. At Nijmegen this was undone again; the princes also did not attend the smaller congresses (Breda 1667) or those where matters had been agreed in advance (Utrecht 1713, Paris 1763, Paris 1783). Even so the Peace of Westphalia established peace congresses as THE PRINCIPAL FORUM OF DISPUTE SETTLEMENT down to Vienna. THE FORM OF NEGOTIATION changed too. Under CHARLES V the monarchs still met in person; after 1648 THEY NO LONGER TRAVELLED TO CONGRESSES — plenary sessions gave way to PRIVATE MEETINGS and ceremonial splendour to PROFESSIONAL POLITICS. Only the Congress of Vienna was again an assembly of emperors and kings. Rulers were represented by PLENIPOTENTIARIES, generally THREE FOR EACH GREAT POWER, who assumed the titles, ceremonial and rights of their monarch — which led to disputes over the form and language of credentials, over titles and over the ORDER OF PRECEDENCE. It was precisely such things that made congresses last so long. And beware of the interpretation: THIS WAS NOT EMPTY VANITY but THE VERY FOUNDATIONS OF THE POWER AND RIGHTS OF A STATE.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jaké pravidlo o účasti na mírovém kongresu založil Vestfálský mír a jak dlouho drželo?",
-          "a": "Že KAŽDÝ politický útvar zapojený do konfliktu — velký i malý, protestantský i katolický, monarchie i republika — má právo zastoupit své zájmy. Drželo krátce: v Nijmegenu (1678–79) byla knížata zase vyloučena a neúčastnila se ani menších kongresů či těch, kde bylo dohodnuto předem.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Jak se po roce 1648 změnila forma jednání o míru?",
-          "a": "Panovníci přestali jezdit osobně (naposledy za Karla V.); zastupovali je ZPLNOMOCNĚNCI, zpravidla tři za velmoc, přebírající tituly a ceremoniál svého vládce. Plenární zasedání nahradily soukromé schůzky a ceremoniál profesionální politika. Až Vídeňský kongres byl zase shromážděním panovníků.",
-          "difficulty": 2,
-          "kind": "proces",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Proč spory o tituly a pořadí přednosti nejsou marnivost?",
-          "a": "Protože zplnomocněnec přebíral ceremoniální práva panovníka, kterého zastupoval — v sázce byly tedy SAMY ZÁKLADY MOCI A PRÁV STÁTU. Duchhardt to zdůrazňuje právě proto, že to vypadá jako malichernost, a přitom to natahovalo kongresy o roky.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "What rule about attendance at a peace congress did the Peace of Westphalia establish, and how long did it hold?", "a": "That EVERY political entity involved in the conflict — great and small, Protestant and Catholic, monarchy and republic — has the right to represent its interests. It held briefly: at Nijmegen (1678–79) the princes were excluded again, and they did not attend the smaller congresses or those settled in advance.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "How did the form of peace negotiations change after 1648?", "a": "The monarchs stopped coming in person (last under Charles V); they were represented by PLENIPOTENTIARIES, generally three per great power, assuming their ruler's titles and ceremonial. Plenary sessions gave way to private meetings and ceremonial to professional politics. Only the Congress of Vienna was again an assembly of monarchs.", "difficulty": 2, "kind": "proces", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "Why are the disputes over titles and precedence not vanity?", "a": "Because the plenipotentiary assumed the ceremonial rights of the monarch he represented — what was at stake was therefore THE VERY FOUNDATIONS OF THE POWER AND RIGHTS OF A STATE. Duchhardt stresses this precisely because it looks like a triviality, and yet it prolonged congresses by years.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "16": {
-      "title": "Proč po kongresech zůstávaly hory papíru",
-      "text": "Zplnomocněnci SE NIKDY NESCHÁZELI V PLÉNU, ale prosazovali své zájmy na schůzkách MEZI ČTYŘMA, někdy víc očima. Klíčem k tomu byl PÍSEMNÝ ZÁZNAM VŠEHO, CO BYLO ŘEČENO — proto raně novověké mírové kongresy vyprodukovaly takové množství papíru. Systematicky zpracovat a vyložit ty spisy, jak to dělá projekt ACTA PACIS WESTPHALICAE (jedna z největších edic posledních padesáti let), zůstává podle Duchhardta VYNIKAJÍCÍM ÚKOLEM PRO HISTORIKY; jinak se historik musí spokojit s nahodilými sbírkami vydanými většinou soukromě krátce po události. Jednání se točilo kolem toho, co která strana s kým mluvila a na čem má písemné ujištění, a všechno se vyměňovalo. Snazší to bylo až na VÍDEŇSKÉM KONGRESU, kde vznikly SPECIALIZOVANÉ VÝBORY k jednotlivým tématům, do kterých chodili jen ti zplnomocněnci, kteří na dané téma prokázali zájem. Vyměňovaly se odpovědi, repliky a dupliky, a takzvaný PROTEST dokázal nárok či protinárok ZNEPLATNIT — praxe napodobující postup vyšších soudů dřívějších století.",
+      "title": "Why congresses left mountains of paper behind",
+      "text": "The plenipotentiaries NEVER MET IN PLENARY SESSION but pressed their interests in meetings BETWEEN FOUR, sometimes more, eyes. The key to this was A WRITTEN RECORD OF EVERYTHING THAT WAS SAID — which is why the early modern peace congresses produced such quantities of paper. To work through and interpret those papers systematically, as the ACTA PACIS WESTPHALICAE project does (one of the greatest editions of the last fifty years), remains in Duchhardt's view AN OUTSTANDING TASK FOR HISTORIANS; otherwise the historian must make do with haphazard collections mostly published privately soon after the event. Negotiation turned on who had spoken to whom about what and on what one had a written assurance, and everything was exchanged. It became easier only at the CONGRESS OF VIENNA, where SPECIALISED COMMITTEES on individual subjects were formed, attended only by those plenipotentiaries who had shown an interest in the subject. Replies, rejoinders and surrejoinders were exchanged, and a so-called PROTEST could INVALIDATE a claim or counter-claim — a practice imitating the procedure of the higher courts of earlier centuries.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč mírové kongresy produkovaly tolik písemností a co změnila Vídeň?",
-          "a": "Protože se nejednalo v plénu, ale na schůzkách mezi čtyřma očima, a klíčem bylo PÍSEMNĚ ZAZNAMENAT VŠE, co padlo. Vídeňský kongres zavedl SPECIALIZOVANÉ VÝBORY k jednotlivým tématům, do nichž chodili jen zplnomocněnci s prokázaným zájmem — teprve to jednání zjednodušilo.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Why did peace congresses produce so much paper, and what did Vienna change?", "a": "Because business was not done in plenary session but in meetings between four eyes, and the key was A WRITTEN RECORD of everything said. The Congress of Vienna introduced SPECIALISED COMMITTEES on individual subjects, attended only by plenipotentiaries with a demonstrated interest — only that simplified the negotiations.", "difficulty": 2, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "17": {
-      "title": "Zprostředkovatel, který se vytratil",
-      "text": "V Münsteru byli papežský nuncius FABIO CHIGI (1599–1667) a benátský diplomat ALVISE CONTARINI (1597–1651) ještě široce uznávanými zprostředkovateli, kteří NEJEN ROZNÁŠELI, ale i podstatně přispívali k jednání. Pak se právní postavení zprostředkovatele stalo předmětem intenzivního sporu během takzvané 'NIZOZEMSKÉ FÁZE' dějin mezinárodního práva (s výjimkou Karlovic byly všechny rozhodující smlouvy mezi 60. lety a válkou o španělské dědictví uzavřeny v nizozemských městech), což vedlo ke ZNAČNÉMU OŘEZÁNÍ JEHO PRAVOMOCI. Nedůvěru vyjadřovala i nauka: jen málokdo — vedle SAMUELA VON PUFENDORFA (1632–94) mladší Neumann, Meurer a Stephani — byl ochoten přiznat zprostředkovateli víc než roli NOTÁŘE A KURÝRA, tedy roli ROZHODCE. Důvody jsou dva a oba jsou o moci, ne o právu: VELMOCI BYLY PŘÍLIŠ HRDÉ, ABY SVŮJ OSUD SVĚŘILY 'MENŠÍ MOCNOSTI', a nový zprostředkovatel už neměl MRAVNÍ AUTORITU, jakou ke stolu kdysi přinášeli zástupci Svatého stolce. Důsledek: OD ZPROSTŘEDKOVATELŮ SE UPUSTILO. Už u války o španělské dědictví, a v 18. století se to stalo normou. Vzácnou výjimkou byla TĚŠÍNSKÁ SMLOUVA (1779), kde jako 'zprostředkovatelé' vystupovaly Francie a Rusko — každá spojenec jedné ze stran.",
+      "title": "The mediator who faded away",
+      "text": "At Münster the papal nuncio FABIO CHIGI (1599–1667) and the Venetian diplomat ALVISE CONTARINI (1597–1651) were still widely recognised mediators who NOT ONLY CARRIED MESSAGES but contributed substantially to the negotiations. Thereafter the legal position of the mediator became the subject of intense dispute during the so-called 'DUTCH PHASE' of the history of international law (with the exception of Karlowitz, all the decisive treaties between the 1660s and the War of the Spanish Succession were concluded in Dutch towns), which led to A CONSIDERABLE TRIMMING OF HIS POWERS. The doctrine expressed the same distrust: hardly anyone — besides SAMUEL VON PUFENDORF (1632–94), the younger Neumann, Meurer and Stephani — was willing to grant the mediator more than the role of NOTARY AND COURIER, that is the role of ARBITER. The reasons are two and both are about power, not law: THE GREAT POWERS WERE TOO PROUD TO ENTRUST THEIR FATE TO A 'LESSER POWER', and the new mediator no longer had the MORAL AUTHORITY the representatives of the Holy See had once brought to the table. The consequence: MEDIATORS WERE ABANDONED. Already at the War of the Spanish Succession, and in the 18th century it became the norm. A rare exception was the TREATY OF TESCHEN (1779), where France and Russia appeared as 'mediators' — each the ally of one of the parties.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč z mírových jednání zmizel zprostředkovatel?",
-          "a": "Ze dvou důvodů, obou mocenských: velmoci byly příliš hrdé, než aby svůj osud svěřily 'menší mocnosti', a nový typ zprostředkovatele už neměl mravní autoritu, jakou míval zástupce Svatého stolce. Nauka mu odmítala přiznat víc než roli notáře a kurýra. Od války o španělské dědictví se upouštění stalo normou; výjimkou byla Těšínská smlouva 1779.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Platí, že po roce 1648 nahradila francouzština latinu v mírových smlouvách?",
-          "a": "Neplatí, aspoň ne bez výhrady. Od Nijmegenu (1678/79) přes Ryswick (1697) po Rastatt a Baden (1714) vznikaly mírové smlouvy znovu a znovu LATINSKY. Správné je jen tolik, že francouzština se po roce 1648 stala PŘEVLÁDAJÍCÍM jazykem mezistátní diplomacie.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Why did the mediator disappear from peace negotiations?", "a": "For two reasons, both of power: the great powers were too proud to entrust their fate to a 'lesser power', and the new kind of mediator no longer had the moral authority a representative of the Holy See once had. The doctrine refused him more than the role of notary and courier. From the War of the Spanish Succession onwards abandonment became the norm; the exception was the Treaty of Teschen in 1779.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "Is it true that after 1648 French replaced Latin in peace treaties?", "a": "It is not, at least not without qualification. From Nijmegen (1678/79) through Ryswick (1697) to Rastatt and Baden (1714) peace treaties were drawn up again and again IN LATIN. What is correct is only that French became after 1648 the PREDOMINANT language of interstate diplomacy.", "difficulty": 3, "kind": "rozliseni", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "18": {
-      "title": "Jak vypadala mírová smlouva",
-      "text": "Ideálně byla stavěná JAKO STŘEDOVĚKÁ LISTINA. INVOCATIO — vzývání nadpřirozené moci plus jména a tituly stran a jejich zplnomocněnců, přičemž ty strany ještě hluboko v 18. století vystupovaly JAKO PRÁVNICKÉ OSOBY, NIKOLI JAKO POLITICKÉ ÚTVARY. Pak jakási ARENGA — obrazně naříkající nad hrůzami války a prolitou křesťanskou krví, někdy metaforicky líčící, jak vládci SOUČASNĚ DOSPĚLI k rozhodnutí uzavřít mír (tak Utrecht mezi Anglií a Francií). Ustálené sousloví RESPUBLICA CHRISTIANA, užívané nad- i mezikonfesijně, bylo v desetiletích po Vestfálském míru postupně nahrazeno jinými obraty — a zajímavě ne tak obratem o rovnováze moci, jak zdůrazňovaly politické pamflety, ale o MÍRU A BEZPEČNOSTI V EVROPĚ, které mají být obnoveny. Pak následovaly PODMÍNKY MÍRU, po zkušenosti roku 1648 formulované co nejpřesněji, a po nich RATIFIKACE, SANKCE pro případ porušení, PODPISY, DATUM A MÍSTO. A zásadní posun oproti středověku a první polovině raného novověku, kdy platnost smluv byla omezena na život signatářů nebo na pevnou dobu (zpravidla pět, devět, dvanáct nebo sto let): SMLOUVY DRUHÉ POLOVINY RANÉHO NOVOVĚKU SE POKLÁDALY ZA NEKONEČNÉ — a neobsahovaly už ani údaje o odpovědnosti, ani o náhradách. Omezené zůstaly jen smlouvy s Osmanskou říší, které ale sloužily spíš KRÁTKODOBÉMU PŘÍMĚŘÍ než dlouhodobému míru.",
-      "terms": [
-        { "term": "respublica Christiana", "def": "Ustálené označení křesťanského společenství ve smlouvách; po Vestfálském míru je postupně nahradily obraty o míru a bezpečnosti v Evropě." }
-      ],
+      "title": "What a peace treaty looked like",
+      "text": "Ideally it was built LIKE A MEDIEVAL CHARTER. INVOCATIO — the invocation of a supernatural power plus the names and titles of the parties and their plenipotentiaries, the parties still appearing well into the 18th century AS LEGAL PERSONS, NOT AS POLITICAL ENTITIES. Then a kind of ARENGA — figuratively lamenting the horrors of war and the Christian blood spilt, sometimes describing metaphorically how the rulers had SIMULTANEOUSLY ARRIVED at the decision to make peace (thus Utrecht between England and France). The set phrase RESPUBLICA CHRISTIANA, used both supra- and inter-confessionally, was in the decades after the Peace of Westphalia gradually replaced by other formulas — and interestingly not by one about the balance of power, as the political pamphlets stressed, but about PEACE AND SECURITY IN EUROPE, which were to be restored. Then followed THE TERMS OF THE PEACE, formulated after the experience of 1648 as precisely as possible, and after them RATIFICATION, SANCTIONS in case of breach, SIGNATURES, DATE AND PLACE. And a fundamental shift from the Middle Ages and the first half of the early modern period, when the validity of treaties was limited to the lifetime of the signatories or to a fixed term (generally five, nine, twelve or a hundred years): THE TREATIES OF THE SECOND HALF OF THE EARLY MODERN PERIOD WERE REGARDED AS PERPETUAL — and no longer contained either provisions on liability or on compensation. Only treaties with the Ottoman Empire remained limited, and these served rather A SHORT-TERM TRUCE than a lasting peace.",
+      "terms": [{"term": "respublica Christiana", "def": "The set phrase for the Christian community in treaties; after the Peace of Westphalia it was gradually replaced by formulas about peace and security in Europe."}],
       "cards": [
-        {
-          "q": "Jak byla stavěná raně novověká mírová smlouva?",
-          "a": "Jako středověká listina: INVOCATIO (vzývání nadpřirozené moci, jména a tituly stran a zplnomocněnců), ARENGA (nářek nad hrůzami války a prolitou křesťanskou krví), pak podmínky míru — po roce 1648 co nejpřesněji formulované — a nakonec ratifikace, sankce pro porušení, podpisy, datum a místo.",
-          "difficulty": 2,
-          "kind": "schema",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Jak se změnila doba platnosti mírových smluv?",
-          "a": "Ve středověku a první polovině raného novověku platily jen po dobu života signatářů nebo pevnou dobu (pět, devět, dvanáct, sto let). V druhé polovině raného novověku se pokládaly za NEKONEČNÉ a neobsahovaly už údaje o odpovědnosti ani o náhradách. Omezené zůstaly jen smlouvy s Osmanskou říší — a ty sloužily spíš krátkodobému příměří.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co nahradilo ve smlouvách sousloví respublica Christiana, a co je na tom překvapivé?",
-          "a": "Obraty o MÍRU A BEZPEČNOSTI V EVROPĚ, které mají být obnoveny. Překvapivé je, že to NEBYLY obraty o rovnováze moci, ačkoli tu zdůrazňovaly politické pamflety — smluvní jazyk šel jinam než dobová publicistika.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "extra"
-        }
+        {"q": "How was an early modern peace treaty constructed?", "a": "Like a medieval charter: INVOCATIO (invocation of a supernatural power, names and titles of the parties and plenipotentiaries), ARENGA (lament over the horrors of war and the Christian blood spilt), then the terms of the peace — after 1648 formulated as precisely as possible — and finally ratification, sanctions for breach, signatures, date and place.", "difficulty": 2, "kind": "schema", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "How did the duration of peace treaties change?", "a": "In the Middle Ages and the first half of the early modern period they held only for the lifetime of the signatories or for a fixed term (five, nine, twelve, a hundred years). In the second half of the early modern period they were regarded as PERPETUAL and no longer contained provisions on liability or compensation. Only treaties with the Ottoman Empire remained limited — and those served rather as a short-term truce.", "difficulty": 3, "kind": "rozliseni", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What replaced the phrase respublica Christiana in treaties, and what is surprising about it?", "a": "Formulas about PEACE AND SECURITY IN EUROPE, which were to be restored. What is surprising is that these were NOT formulas about the balance of power, although the political pamphlets stressed it — the language of treaties went a different way from the journalism of the day.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "19": {
-      "title": "Kdo mír zaručí, a co přijde po podpisu",
-      "text": "POSKYTOVÁNÍ RUKOJMÍ se po Vestfálském míru — s výjimkou cášské smlouvy — OPUSTILO. Třetí státy občas nabízely záruky, ale nebylo to pravidlem: strany došly k přesvědčení, že MÍR ZARUČÍ JEJICH VLASTNÍ MOC NEBO MOC JEJICH SPOJENCŮ. Ve skutečnosti si o záruku silnějšího spojence říkala slabší strana jen při ZNAČNÉ NEROVNOVÁZE MOCI — tak po válce o španělské dědictví garanti podpořili Portugalsko při uzavírání míru s bourbonskými státy. Smlouvy mohly zřídit KOMISE, zpravidla ze zástupců dvou mocností (cášská smlouva francouzsko-britskou), k provedení toho, co bylo ujednáno (nové hranice), nebo k dojednání toho, co se na kongresu dojednat nedalo (kartel o výměně zajatců). Ještě v posledních desetiletích 17. století zněly hlasy, aby ROZHODCEM (či dokonce superrozhodcem) BYL PAPEŽ; ROZHODČÍ ŘÍZENÍ z mezistátních vztahů docela nezmizelo (Anglie se k němu v druhé polovině 17. století několikrát vrátila), ale HRÁLO MNOHEM MENŠÍ ROLI, NEŽ JAK TO LÍČIL POLITICKÝ TISK. Po ratifikaci se smlouvy musely FORMÁLNĚ A VEŘEJNĚ VYHLÁSIT, text se uložil u parlamentu k SCHVÁLENÍ nebo (Anglie, Španělsko, Portugalsko) předložil sněmovnám. A i když se to ve smlouvě nezmiňovalo vždy výslovně, po uzavření míru zpravidla NÁSLEDOVALO ODZBROJENÍ — v Anglii o to dbala nejen prázdná pokladna, ale i TLAK PARLAMENTU.",
+      "title": "Who guarantees the peace, and what comes after signature",
+      "text": "THE GIVING OF HOSTAGES was abandoned after the Peace of Westphalia, with the exception of the Treaty of Aachen. Third states occasionally offered guarantees, but this was not the rule: the parties came to be convinced that THE PEACE WOULD BE GUARANTEED BY THEIR OWN POWER OR THAT OF THEIR ALLIES. In practice the weaker party asked for the guarantee of a stronger ally only in cases of CONSIDERABLE IMBALANCE OF POWER — thus after the War of the Spanish Succession guarantors supported Portugal in concluding peace with the Bourbon states. Treaties could establish COMMISSIONS, generally of representatives of two powers (the Treaty of Aachen a Franco-British one), to implement what had been agreed (new borders) or to negotiate what could not be settled at the congress (a cartel for the exchange of prisoners). Into the last decades of the 17th century voices could still be heard that THE ARBITER (or even the super-arbiter) SHOULD BE THE POPE; ARBITRATION did not disappear entirely from interstate relations (England returned to it several times in the second half of the 17th century) but PLAYED A MUCH SMALLER ROLE THAN THE POLITICAL PRESS SUGGESTED. After ratification treaties had to be FORMALLY AND PUBLICLY PROCLAIMED, the text deposited with parliament for APPROVAL or (England, Spain, Portugal) laid before the chambers. And even when not always expressly mentioned in the treaty, the conclusion of peace was generally FOLLOWED BY DISARMAMENT — in England pressed not only by an empty treasury but by PARLIAMENTARY PRESSURE.",
       "terms": [],
       "cards": [
-        {
-          "q": "Čím se po Vestfálském míru zaručoval mír?",
-          "a": "Rukojmí se opustili (s výjimkou cášské smlouvy) a záruky třetích států nebyly pravidlem: strany došly k přesvědčení, že mír zaručí jejich VLASTNÍ MOC nebo moc jejich spojenců. O záruku silnějšího si říkala slabší strana jen při značné nerovnováze — tak po válce o španělské dědictví u Portugalska.",
-          "difficulty": 2,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co se dělo po podpisu mírové smlouvy?",
-          "a": "Ratifikace, formální a veřejné vyhlášení, uložení textu u parlamentu ke schválení nebo (Anglie, Španělsko, Portugalsko) předložení sněmovnám — a zpravidla ODZBROJENÍ, tedy snížení stavů a vojenského rozpočtu, i když to smlouva nemusela výslovně uvádět. V Anglii k němu tlačila prázdná pokladna i parlament.",
-          "difficulty": 2,
-          "kind": "proces",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "How was peace guaranteed after the Peace of Westphalia?", "a": "Hostages were abandoned (except in the Treaty of Aachen) and guarantees by third states were not the rule: the parties came to be convinced that peace would be guaranteed by THEIR OWN POWER or that of their allies. The weaker party asked for a stronger guarantor only in cases of considerable imbalance — as with Portugal after the War of the Spanish Succession.", "difficulty": 2, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What happened after a peace treaty was signed?", "a": "Ratification, formal and public proclamation, deposit of the text with parliament for approval or (England, Spain, Portugal) laying it before the chambers — and generally DISARMAMENT, that is a reduction of strength and of the military budget, even where the treaty did not say so expressly. In England both an empty treasury and parliament pressed for it.", "difficulty": 2, "kind": "proces", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "20": {
-      "title": "Osmanská říše: kde neplatila aequalitas",
-      "text": "Vztahy mezi státy CHRISTIANITAS stály na zásadě AEQUALITAS a jejich existence se ani při sporech, třeba o ceremoniál, nezpochybňovala. U osmansko-evropských vztahů to bylo JINAK: ZÁSADA AEQUALITAS TU NEPLATILA a neexistovala ustanovení, která by umožnila jednat NA STEJNÉ ÚROVNI; byl tu prostě NÁROK OSMANSKÉ ŘÍŠE, ŽE JE NADŘAZENA SVÝM KŘESŤANSKÝM PARTNERŮM. Ten nárok se projevoval velmi konkrétně: NEOCHOTOU UZAVÍRAT TRVALÉ MÍROVÉ SMLOUVY A VYMEZOVAT SVÉ HRANICE. Obojí totiž předpokládá, že druhá strana je rovnocenný a trvalý soused. Teprve po KARLOVICKÉM MÍRU, který ukončil sérii zdrcujících porážek, se Porta v 'TULIPÁNOVÉM OBDOBÍ' přiblížila evropskému pojetí mezinárodního práva a otevřela se 'západním' vlivům.",
-      "terms": [
-        { "term": "aequalitas", "def": "Rovnost států jako zásada vztahů uvnitř christianitas — v osmansko-evropských vztazích neplatila." }
-      ],
+      "title": "The Ottoman Empire: where aequalitas did not apply",
+      "text": "Relations between the states of CHRISTIANITAS rested on the principle of AEQUALITAS, and its existence was not questioned even in disputes, over ceremonial for instance. In Ottoman-European relations it was OTHERWISE: THE PRINCIPLE OF AEQUALITAS DID NOT APPLY and there were no provisions enabling dealings ON AN EQUAL FOOTING; there was simply THE OTTOMAN EMPIRE'S CLAIM TO BE SUPERIOR TO ITS CHRISTIAN PARTNERS. That claim showed itself very concretely: in an UNWILLINGNESS TO CONCLUDE PERMANENT PEACE TREATIES AND TO DELIMIT ITS BORDERS. Both presuppose that the other side is an equal and permanent neighbour. Only after the PEACE OF KARLOWITZ, which ended a series of crushing defeats, did the Porte in the 'TULIP PERIOD' come closer to the European conception of international law and open itself to 'Western' influences.",
+      "terms": [{"term": "aequalitas", "def": "The equality of states as the principle of relations within christianitas — it did not apply in Ottoman-European relations."}],
       "cards": [
-        {
-          "q": "Proč Osmanská říše dlouho neuzavírala trvalé mírové smlouvy a nevymezovala hranice?",
-          "a": "Protože obojí předpokládá rovnocenného a trvalého souseda, a Porta uplatňovala NÁROK NA NADŘAZENOST nad křesťanskými partnery — zásada aequalitas, platná uvnitř christianitas, tu neplatila. Změna přišla až po Karlovickém míru, v 'tulipánovém období'.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Why did the Ottoman Empire long refuse to conclude permanent peace treaties or delimit its borders?", "a": "Because both presuppose an equal and permanent neighbour, and the Porte asserted a CLAIM TO SUPERIORITY over its Christian partners — the principle of aequalitas, valid within christianitas, did not apply here. The change came only after the Peace of Karlowitz, in the 'Tulip Period'.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "21": {
-      "title": "Diplomat: hodnosti, dluhy a podezření ze špionáže",
-      "text": "Běžné vztahy udržovali 'STÁLÍ' DIPLOMATÉ s POVĚŘOVACÍ LISTINOU, kteří sídlili u dvora a odtud podávali zprávy. Dvě komplikace. Za prvé, 'diplomat' zastřešoval celou škálu úředníků různých hodností. Za druhé, POJMY 'DIPLOMAT' A 'ŠPEH' SE ČASTO JEŠTĚ KRYLY, takže diplomaté vypadali spíš jako protivníci než jako zastánci míru. Většinou šlechtici, sloužili v cizině s vyhlídkou na SKVĚLOU KARIÉRU U VLASTNÍHO DVORA — proto měl málokdo zájem si pobyt prodlužovat. Mnozí posty v cizině přijímali CONTRE COEUR: PLAT NESTAČIL NA SPOLEČENSKÉ POVINNOSTI DOMA a diplomacie byla pro mnohé FINANČNÍ POHROMOU, která zatěžovala jejich soukromý majetek. Hierarchie: nahoře AMBASSADEUR, kterého mohla vyslat jen velmoc; střední a menší státy vysílaly ENVOYÉ nebo REZIDENTA, který už nemusel být šlechtic (v anglické službě byli šlechtici spíš výjimkou). Předpokládalo se, že si státy obsadí odpovídající posty na STEJNÉ ÚROVNI — francouzský velvyslanec ve Vídni měl mít tytéž pravomoci jako císařský ve Versailles. A tady je ta praktická znalost: VYSLAT NIŽŠÍHO DIPLOMATA (rezidenta místo envoyé) BYLO ZNAMENÍM, ŽE SE VZTAHY ZHORŠILY.",
+      "title": "The diplomat: ranks, debts and the suspicion of espionage",
+      "text": "Ordinary relations were maintained by 'PERMANENT' DIPLOMATS with LETTERS OF CREDENCE, who resided at a court and reported from there. Two complications. First, 'diplomat' covered a whole range of officials of different ranks. Second, THE CONCEPTS 'DIPLOMAT' AND 'SPY' STILL OFTEN OVERLAPPED, so that diplomats looked more like opponents than advocates of peace. Mostly noblemen, they served abroad with the prospect of A BRILLIANT CAREER AT THEIR OWN COURT — which is why few had any interest in prolonging their stay. Many accepted posts abroad CONTRE COEUR: THE SALARY DID NOT COVER THEIR SOCIAL OBLIGATIONS AT HOME and diplomacy was for many A FINANCIAL DISASTER that burdened their private fortune. The hierarchy: at the top the AMBASSADEUR, whom only a great power could send; middling and lesser states sent an ENVOYÉ or a RESIDENT, who no longer had to be a nobleman (in English service noblemen were rather the exception). States were expected to fill corresponding posts AT THE SAME LEVEL — the French ambassador in Vienna was to have the same powers as the imperial one at Versailles. And here is the practical piece of knowledge: TO SEND A LOWER-RANKING DIPLOMAT (a resident instead of an envoyé) WAS A SIGN THAT RELATIONS HAD DETERIORATED.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jaká byla hierarchie diplomatů a co znamenalo vyslat nižší hodnost?",
-          "a": "Nahoře AMBASSADEUR, kterého mohla vyslat jen velmoc; střední a menší státy ENVOYÉ nebo REZIDENTA, který nemusel být šlechtic. Posty se obsazovaly vzájemně na stejné úrovni — a vyslat nižší hodnost, než odpovídalo, bylo ZNAMENÍM ZHORŠENÝCH VZTAHŮ.",
-          "difficulty": 2,
-          "kind": "schema",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Proč se šlechtici bránili diplomatické službě v cizině?",
-          "a": "Plat nestačil na společenské povinnosti doma, takže služba byla pro mnohé FINANČNÍ POHROMOU zatěžující soukromý majetek. K tomu se pojmy 'diplomat' a 'špeh' ještě často kryly, a kdo odjel, ztrácel pozici při kariéře u vlastního dvora.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "What was the hierarchy of diplomats, and what did sending a lower rank mean?", "a": "At the top the AMBASSADEUR, whom only a great power could send; middling and lesser states an ENVOYÉ or a RESIDENT, who need not be a nobleman. Posts were filled reciprocally at the same level — and to send a lower rank than was due was A SIGN OF DETERIORATED RELATIONS.", "difficulty": 2, "kind": "schema", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "Why did noblemen resist diplomatic service abroad?", "a": "The salary did not cover their social obligations at home, so the service was for many A FINANCIAL DISASTER burdening their private fortune. Add that the concepts 'diplomat' and 'spy' still often overlapped, and that whoever left lost ground in the career at his own court.", "difficulty": 2, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "22": {
-      "title": "Diplomacie v praxi: ceremoniál, sítě a Bospor",
-      "text": "Každý diplomat měl TÁŽ CEREMONIÁLNÍ PRÁVA JAKO PANOVNÍK, kterého zastupoval — což opakovaně vedlo ke konfliktům, jako v Londýně v 60. letech 17. století, kdy se španělský a francouzský velvyslanec pohádali o pořadí přednosti TAK, ŽE TO SKONČILO KRVEPROLITÍM. Nejlepší způsob, jak se sporu vyhnout, bylo VYHÝBAT SE SI — což zvlášť platilo na mírových kongresech, kde se diplomaté potkávali den co den a kde byly oficiální akce jako SUDY PRACHU. FRANCIE od Ludvíka XIV. vybudovala síť diplomatů větší než kterýkoli jiný stát a jako jedna z mála vysílala zástupce i k menším dvorům, které pokládala za politicky nebo strategicky důležité — politika, kterou si ostatní nemohli dovolit, zvlášť u mnoha německých dvorů. RUSKO mělo jiný problém: diplomatickou službu muselo TEPRVE VYBUDOVAT, a nezřídka k tomu sáhlo po talentu sousedů. VYSOKÁ PORTA naopak v téhle době PŘESTALA VYSÍLAT STÁLÉ DIPLOMATY DO EVROPY — a to mělo vážné důsledky pro cizí diplomaty na Bosporu: jejich už tak nejisté postavení se zhoršilo, dlouho zavedené normy se opouštěly a IMUNITA DIPLOMATA BYLA ZPOCHYBŇOVÁNA. WIQUEFORT mluvil dokonce o naprosté neúctě k mezinárodnímu právu v Osmanské říši.",
+      "title": "Diplomacy in practice: ceremonial, networks and the Bosphorus",
+      "text": "Every diplomat had THE SAME CEREMONIAL RIGHTS AS THE MONARCH he represented — which repeatedly led to conflict, as in London in the 1660s, when the Spanish and French ambassadors quarrelled over precedence SO VIOLENTLY THAT IT ENDED IN BLOODSHED. The best way to avoid such a dispute was TO AVOID ONE ANOTHER — which applied especially at peace congresses, where diplomats met day after day and where official occasions were LIKE POWDER KEGS. FRANCE from Louis XIV onwards built a network of diplomats larger than any other state's and was one of the few to send representatives even to smaller courts it regarded as politically or strategically important — a policy others could not afford, especially at the many German courts. RUSSIA had a different problem: it had YET TO BUILD a diplomatic service, and not infrequently drew on the talent of its neighbours. THE SUBLIME PORTE, by contrast, in this period STOPPED SENDING PERMANENT DIPLOMATS TO EUROPE — and this had serious consequences for foreign diplomats on the Bosphorus: their already precarious position worsened, long-established norms were abandoned and THE IMMUNITY OF THE DIPLOMAT WAS CALLED INTO QUESTION. WIQUEFORT spoke even of a complete disregard for international law in the Ottoman Empire.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč byla ceremoniální práva diplomatů zdrojem násilí?",
-          "a": "Protože každý diplomat měl TÁŽ ceremoniální práva jako panovník, kterého zastupoval, takže spor o přednost byl sporem dvou států. V Londýně v 60. letech 17. století skončila hádka španělského a francouzského velvyslance o pořadí přednosti KRVEPROLITÍM; nejlepší strategií bylo vyhýbat se si.",
-          "difficulty": 2,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Why were the ceremonial rights of diplomats a source of violence?", "a": "Because every diplomat had THE SAME ceremonial rights as the monarch he represented, so a dispute over precedence was a dispute between two states. In London in the 1660s a quarrel between the Spanish and French ambassadors over precedence ended in BLOODSHED; the best strategy was to avoid one another.", "difficulty": 2, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "23": {
-      "title": "Teritoriální vody: norma, kterou udělali diplomaté v míru",
-      "text": "Duchhardtův nejlepší doklad, že se právo netvoří jen na mírových kongresech. Kam sahá svrchovanost pobřežního státu do přilehlých vod, se intenzivně probíralo od počátku 18. století. Námořní mocnosti si dřív opakovaně — a NEÚSPĚŠNĚ — nárokovaly celé oceány; na konci 80. let se ale dohodly, co jsou teritoriální vody. Ve hře byla zóna DVOU nebo TŘÍ MIL, názor CONRINGA a GRYPHIANDRA, že má rozhodnout MÍSTNÍ OBYČEJ, a nápad použít jako měřítko DOHLEDNOST nebo DOSTŘEL DĚLA. Nakonec vznikly dohody mezi Británií, Francií a Ruskem, které vymezily teritoriální vody PODLE DOSTŘELU DĚLA — a ty se brzy staly uznávaným mezinárodním právem; TŘÍMÍLOVÁ HRANICE přišla až v 19. století. Případ ukazuje, že diplomaté byli ÚČINNÍ I V MÍRU a prosadili otázky, které se za války prosadit nedaly. Nejpůsobivější doklad je JAYOVA SMLOUVA (1794), vyjednaná americkými a britskými diplomaty v Londýně, která urovnala několik klíčových sporů — mimo jiné určila ŘEKU SAINT CROIX jako hranici mezi americkými a britskými zájmy na severovýchodě Severní Ameriky.",
+      "title": "Territorial waters: a norm made by diplomats in peacetime",
+      "text": "Duchhardt's best evidence that law is not made only at peace congresses. How far the sovereignty of a coastal state extends into the adjacent waters was intensely debated from the beginning of the 18th century. The maritime powers had earlier repeatedly — and UNSUCCESSFULLY — claimed whole oceans; at the end of the 1780s, however, they agreed on what territorial waters are. In play were a zone of TWO or THREE MILES, the view of CONRING and GRYPHIANDER that LOCAL CUSTOM should decide, and the idea of using VISIBILITY or THE RANGE OF A CANNON as the measure. In the end agreements between Britain, France and Russia delimited territorial waters BY THE RANGE OF A CANNON — and these soon became recognised international law; THE THREE-MILE LIMIT came only in the 19th century. The case shows that diplomats were EFFECTIVE IN PEACETIME TOO and carried through questions that could not be carried through in war. The most impressive evidence is the JAY TREATY (1794), negotiated by American and British diplomats in London, which settled several key disputes — among other things fixing the RIVER SAINT CROIX as the boundary between American and British interests in north-eastern North America.",
       "terms": [],
       "cards": [
-        {
-          "q": "Podle čeho byly na konci 18. století vymezeny teritoriální vody?",
-          "a": "Podle DOSTŘELU DĚLA — v dohodách Británie, Francie a Ruska, které se brzy staly uznávaným mezinárodním právem. Ve hře byly i zóna dvou či tří mil, rozhodnutí podle místního obyčeje (Conring, Gryphiander) a dohlednost. Třímílová hranice přišla až v 19. století.",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co dokazuje případ teritoriálních vod o tvorbě mezinárodního práva?",
-          "a": "Že ho netvoří jen mírové kongresy: diplomaté byli účinní I V MÍRU a prosadili otázky, na které za války nebylo pomyšlení. Nejpůsobivějším dokladem je Jayova smlouva (1794), vyjednaná v Londýně, která urovnala klíčové spory a určila řeku Saint Croix jako hranici na severovýchodě Severní Ameriky.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "By what measure were territorial waters delimited at the end of the 18th century?", "a": "By THE RANGE OF A CANNON — in agreements between Britain, France and Russia, which soon became recognised international law. Also in play were a zone of two or three miles, decision by local custom (Conring, Gryphiander) and visibility. The three-mile limit came only in the 19th century.", "difficulty": 3, "kind": "cisla", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What does the case of territorial waters prove about the making of international law?", "a": "That it is not made only by peace congresses: diplomats were effective IN PEACETIME TOO and carried through questions unthinkable in war. The most impressive evidence is the Jay Treaty (1794), negotiated in London, which settled key disputes and fixed the river Saint Croix as the boundary in north-eastern North America.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "24": {
-      "title": "Kde se psalo o mezinárodním právu — a proč právě tam",
-      "text": "Odpověď je sociologická, ne náhodná. První kroky udělali praktici a učenci v NIZOZEMÍ: politický útvar, který byl znovu a znovu pustošen válkou a MUSEL SE PROSADIT NA MEZINÁRODNÍ SCÉNĚ. Stejně tak není náhoda, že právě tam začalo MOŘSKÉ PRÁVO — hlavní Grotiovy texty se točí kolem moře, stejně jako Bynkershoekovy, kterého zvlášť zajímalo PIRÁTSTVÍ. A Duchhardtova zobecňující věta: pro druhou polovinu raného novověku je asi příznačné, že se nauka mezinárodního práva rozvíjela V MENŠÍCH POLITICKÝCH ÚTVARECH — VE STÁTECH, JEJICHŽ PŘEŽITÍ ZÁVISELO NA PRÁVNÍM DETAILU, A NE NA VOJENSKÉ SÍLE. Odtud LEIDEN po generace vychovával přední učence. Německé univerzity se snažily držet krok: HALLE (Christian Wolff), KIEL (katedra mezinárodního práva krátce po založení univerzity 1665) a především GÖTTINGEN (Georg Friedrich von Martens, 1756–1821). Ve Švýcarsku přispěl JEAN-JACQUES BURLAMAQUI (1694–1748), ve Švédsku JOHANNES LOCCENIUS (1598–1677) o pirátství a v Dánsku MARTIN HÜBNER o ochraně neutrálních lodí za války.",
+      "title": "Where international law was written about — and why precisely there",
+      "text": "The answer is sociological, not accidental. The first steps were taken by practitioners and scholars in THE NETHERLANDS: a political entity ravaged by war again and again which HAD TO ASSERT ITSELF ON THE INTERNATIONAL STAGE. Nor is it an accident that THE LAW OF THE SEA began there — Grotius's main texts revolve around the sea, as do those of Bynkershoek, who was particularly interested in PIRACY. And Duchhardt's generalising sentence: it is perhaps characteristic of the second half of the early modern period that the doctrine of international law developed IN SMALLER POLITICAL ENTITIES — IN STATES WHOSE SURVIVAL DEPENDED ON LEGAL DETAIL AND NOT ON MILITARY STRENGTH. Hence LEIDEN produced leading scholars for generations. The German universities tried to keep pace: HALLE (Christian Wolff), KIEL (a chair of international law shortly after the university's foundation in 1665) and above all GÖTTINGEN (Georg Friedrich von Martens, 1756–1821). In Switzerland JEAN-JACQUES BURLAMAQUI (1694–1748) contributed, in Sweden JOHANNES LOCCENIUS (1598–1677) on piracy, and in Denmark MARTIN HÜBNER on the protection of neutral shipping in war.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč se nauka mezinárodního práva rozvíjela právě v menších státech a v Nizozemí?",
-          "a": "Protože jejich PŘEŽITÍ ZÁVISELO NA PRÁVNÍM DETAILU, NE NA VOJENSKÉ SÍLE. Nizozemí bylo navíc znovu a znovu pustošeno válkou a muselo se prosazovat mezinárodně — proto tam začalo i mořské právo (Grotius, Bynkershoek o pirátství) a proto Leiden po generace produkoval přední učence.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Čím je významný Vattelův Le droit des gens (1758)?",
-          "a": "Byl to raně novověký bestseller a mezník: poprvé užil pojem 'SOCIÉTÉ DES NATIONS' místo výrazu s křesťanskými konotacemi, a stanovil premisu, že PODDANÍ JINÉ VÍRY NEPŘEDSTAVUJÍ HROZBU — ani pro mravy, ani pro stát.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Why did the doctrine of international law develop precisely in the smaller states and in the Netherlands?", "a": "Because their SURVIVAL DEPENDED ON LEGAL DETAIL, NOT ON MILITARY STRENGTH. The Netherlands was moreover ravaged by war again and again and had to assert itself internationally — which is why the law of the sea began there (Grotius, Bynkershoek on piracy) and why Leiden produced leading scholars for generations.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What is the significance of Vattel's Le droit des gens (1758)?", "a": "It was an early modern bestseller and a landmark: it first used the term 'SOCIÉTÉ DES NATIONS' instead of an expression with Christian connotations, and laid down the premise that SUBJECTS OF ANOTHER FAITH DO NOT CONSTITUTE A THREAT — neither to morals nor to the state.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "25": {
-      "title": "Revoluce jako 'zvláštní přechodný stav'",
-      "text": "Označit francouzskou revoluci a napoleonskou dobu za pouhou epizodu by bylo přehnané. Revolucionáři se snažili mezinárodní právo POSUNOUT, často s přímým odkazem na VATTELA, kterého velmi ctili. Prosazovali dlouho debatovanou myšlenku 'PŘIROZENÝCH HRANIC', která už v několika případech vstoupila do mezistátních dohod. A zajímali se o PRÁVO NA INTERVENCI — ÚDAJNĚ K ZAJIŠTĚNÍ SVOBODY A LIDSKÝCH PRÁV, VE SKUTEČNOSTI K ROZŠÍŘENÍ FRANCOUZSKÉ HEGEMONIE. Důsledek: VÁLKA NABYLA POVAHY KŘÍŽOVÉ VÝPRAVY a nepsaná pravidla 'řízeného' vedení války se stala minulostí. Francie navíc podryla zavedené pojetí neutrality tím, že koncem 90. let uzavřela řadu dohod o neutralitě, které VÝSLOVNĚ DOVOLOVALY JEJÍM VOJSKŮM PROCHÁZET NEUTRÁLNÍM ÚZEMÍM. Těch dvacet pět let od vypuknutí revoluce po Napoleonův pád se proto dá bez nadsázky nazvat 'ZVLÁŠTNÍM PŘECHODNÝM STAVEM', který charakterizují takové protiprávní činy jako POPRAVA VÉVODY D'ENGHIEN (1772–1804) za konzulátu a BOMBARDOVÁNÍ KODANĚ britským loďstvem roku 1807. Kurz pro budoucnost se nastavil až na Vídeňském kongresu.",
+      "title": "The revolution as a 'peculiar transitional state'",
+      "text": "To call the French Revolution and the Napoleonic era a mere episode would be an exaggeration. The revolutionaries sought to MOVE international law along, often with direct reference to VATTEL, whom they greatly revered. They pressed the long-debated idea of 'NATURAL FRONTIERS', which had already entered interstate agreements in several cases. And they took an interest in THE RIGHT OF INTERVENTION — OSTENSIBLY TO SECURE LIBERTY AND HUMAN RIGHTS, IN REALITY TO EXTEND FRENCH HEGEMONY. The consequence: WAR TOOK ON THE CHARACTER OF A CRUSADE and the unwritten rules of 'controlled' warfare became a thing of the past. France moreover undermined the established conception of neutrality by concluding, at the end of the 1790s, a series of neutrality agreements which EXPRESSLY ALLOWED ITS TROOPS TO PASS THROUGH NEUTRAL TERRITORY. Those twenty-five years from the outbreak of the revolution to Napoleon's fall can therefore without exaggeration be called a 'PECULIAR TRANSITIONAL STATE', characterised by such unlawful acts as THE EXECUTION OF THE DUC D'ENGHIEN (1772–1804) under the consulate and THE BOMBARDMENT OF COPENHAGEN by the British fleet in 1807. The course for the future was set only at the Congress of Vienna.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co udělala revoluce s mezinárodním právem?",
-          "a": "Posunula ho k horšímu i k jinému: prosazovala 'přirozené hranice' a PRÁVO NA INTERVENCI — údajně k zajištění svobody a lidských práv, ve skutečnosti k rozšíření francouzské hegemonie. Válka nabyla povahy KŘÍŽOVÉ VÝPRAVY a nepsaná pravidla řízeného vedení války skončila; Francie navíc uzavírala dohody o neutralitě, které výslovně dovolovaly jejím vojskům procházet neutrálním územím.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Proč Duchhardt mluví o 'zvláštním přechodném stavu'?",
-          "a": "O těch dvaceti pěti letech od vypuknutí revoluce po Napoleonův pád, které charakterizují protiprávní činy jako poprava vévody d'Enghien za konzulátu a bombardování Kodaně britským loďstvem roku 1807. Kurz pro budoucnost se nastavil až na Vídeňském kongresu.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "What did the revolution do to international law?", "a": "It moved it both for the worse and in a different direction: it pressed 'natural frontiers' and THE RIGHT OF INTERVENTION — ostensibly to secure liberty and human rights, in reality to extend French hegemony. War took on the character of a CRUSADE and the unwritten rules of controlled warfare ended; France moreover concluded neutrality agreements that expressly allowed its troops to pass through neutral territory.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "Why does Duchhardt speak of a 'peculiar transitional state'?", "a": "Of those twenty-five years from the outbreak of the revolution to Napoleon's fall, characterised by unlawful acts such as the execution of the duc d'Enghien under the consulate and the bombardment of Copenhagen by the British fleet in 1807. The course for the future was set only at the Congress of Vienna.", "difficulty": 3, "kind": "definice", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "26": {
-      "title": "Vídeň I: nations civilisées a otroctví",
-      "text": "Nejdůležitější novinka: do mezinárodního práva vstoupil pojem NATIONS CIVILISÉES. Vznikl NEJPRVE V ODPORU PROTI OBCHODU S OTROKY a nahradil KŘESŤANSKÉ POJETÍ SPOLEČENSTVÍ jako 'sjednocujícího ducha mezinárodního práva'; mezistátní vztahy měl napříště řídit mnohem širší pojem SPOLEČENSTVÍ 'CIVILIZOVANÝCH NÁRODŮ' — což některé státy nesly těžko. Ta geneze je podstatná: pojem, který v 19. století posloužil k vyloučení mimoevropských států z mezinárodního práva (viz přednáška o imperialismu), se rodí z abolicionismu. Zákaz OBCHODU s otroky přitom SAMO OTROCTVÍ JEŠTĚ NEODSOUDIL, jen k tomu mířil; zrušení otroctví bylo velkou zkouškou pro koloniální mocnosti, zvlášť ŠPANĚLSKO A PORTUGALSKO. BRITÁNIE, kde se protiotrokářské hnutí zformovalo v 80. letech 18. století, ZAKÁZALA OBCHOD S OTROKY UŽ ROKU 1807 — a ukázalo se, že o mezinárodní právo se začaly zajímat SOUKROMÉ ORGANIZACE, které napříště působily i na politiku. Nauka odsouzení obchodu s otroky chválí jako jeden z hlavních výsledků Vídeňského kongresu: BYLO TO POPRVÉ, CO MEZINÁRODNÍ PRÁVO ZARUČILO LIDSKÁ PRÁVA. Zda to ale Británie prosazovala z humanitárních, nebo z hospodářských důvodů, ZŮSTÁVÁ NEZODPOVĚZENO.",
-      "terms": [
-        { "term": "nations civilisées", "def": "Pojem, který na Vídeňském kongresu nahradil křesťanské společenství jako pojivo mezinárodního práva. Vznikl z odporu proti obchodu s otroky — a později posloužil k vylučování." }
-      ],
+      "title": "Vienna I: nations civilisées and slavery",
+      "text": "The most important novelty: the concept of NATIONS CIVILISÉES entered international law. It arose FIRST IN OPPOSITION TO THE SLAVE TRADE and replaced THE CHRISTIAN CONCEPTION OF COMMUNITY as the 'unifying spirit of international law'; interstate relations were henceforth to be governed by the much broader concept of a community of 'CIVILISED NATIONS' — which some states found hard to bear. That genesis matters: the concept which in the 19th century served to exclude non-European states from international law (see the lecture on imperialism) is born of abolitionism. The prohibition of the slave TRADE did not yet condemn SLAVERY ITSELF, only pointed towards it; the abolition of slavery was a great test for the colonial powers, especially SPAIN AND PORTUGAL. BRITAIN, where the anti-slavery movement took shape in the 1780s, HAD ALREADY PROHIBITED THE SLAVE TRADE IN 1807 — and it turned out that PRIVATE ORGANISATIONS had begun to take an interest in international law and henceforth influenced policy as well. Scholarship praises the condemnation of the slave trade as one of the chief results of the Congress of Vienna: IT WAS THE FIRST TIME INTERNATIONAL LAW GUARANTEED HUMAN RIGHTS. Whether Britain pressed for it on humanitarian or on economic grounds, however, REMAINS UNANSWERED.",
+      "terms": [{"term": "nations civilisées", "def": "The concept that at the Congress of Vienna replaced the Christian community as the binding agent of international law. It arose from opposition to the slave trade — and later served to exclude."}],
       "cards": [
-        {
-          "q": "Odkud se vzal pojem 'nations civilisées' a co nahradil?",
-          "a": "Vznikl z iniciativy proti OBCHODU S OTROKY a nahradil KŘESŤANSKÉ POJETÍ SPOLEČENSTVÍ jako sjednocujícího ducha mezinárodního práva. Mezistátní vztahy měl řídit širší pojem společenství 'civilizovaných národů' — ačkoli později posloužil hlavně k vylučování mimoevropských států.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Proč se odsouzení obchodu s otroky pokládá za hlavní výsledek Vídeňského kongresu — a co zůstává otevřené?",
-          "a": "Protože BYLO POPRVÉ, CO MEZINÁRODNÍ PRÁVO ZARUČILO LIDSKÁ PRÁVA. Otevřené zůstává, zda Británie — která obchod zakázala doma už 1807 — prosazovala mezinárodní dohodu z humanitárních, nebo z hospodářských důvodů. A samo OTROCTVÍ tím zakázáno ještě nebylo.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Where did the concept 'nations civilisées' come from and what did it replace?", "a": "It arose from the initiative against THE SLAVE TRADE and replaced THE CHRISTIAN CONCEPTION OF COMMUNITY as the unifying spirit of international law. Interstate relations were to be governed by the broader concept of a community of 'civilised nations' — although it later served chiefly to exclude non-European states.", "difficulty": 3, "kind": "definice", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "Why is the condemnation of the slave trade regarded as the chief result of the Congress of Vienna — and what remains open?", "a": "Because IT WAS THE FIRST TIME INTERNATIONAL LAW GUARANTEED HUMAN RIGHTS. What remains open is whether Britain — which had banned the trade at home in 1807 — pressed for an international agreement on humanitarian or on economic grounds. And SLAVERY itself was not thereby prohibited.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "27": {
-      "title": "Vídeň II: neutralita, konfese, hodnosti",
-      "text": "Tři další novinky. NEUTRALITA dostala novou kvalitu: ŠVÝCARSKU, které se tak dlouho drželo stranou konfliktů, byl přiznán STATUS NEUTRÁLNÍHO STÁTU. Zůstalo dlouho jediné, ale posloužilo jako vzor (např. Vatikán). VÍDEŇSKÝ PROTOKOL Z 24. ČERVNA 1814, podepsaný krátce před kongresem, nařídil sjednocení Nizozemské republiky, Rakouského Nizozemí a lutyšského knížecího biskupství ve SPOJENÉ KRÁLOVSTVÍ NIZOZEMSKÉ a stanovil, že VŠECHNY VEŘEJNÉ ÚŘADY BUDOU OTEVŘENY VŠEM OBČANŮM BEZ OHLEDU NA NÁBOŽENSKÉ VYZNÁNÍ. V zásadě ústavní věc — ale s okamžitým dopadem na mezinárodní právo: ABY BYL STÁT NATION CIVILISÉE, MUSEL NAPŘÍŠTĚ BÝT, ASPOŇ TEORETICKY, KONFESIJNĚ NEUTRÁLNÍ. A třetí: PŘESTAVBA DIPLOMATICKÝCH HODNOSTÍ, trvalého zdroje sporů. Podklad dala revoluce — JSOU-LI NÁRODY ROVNÉ, MUSÍ BÝT ROVNÉ I DIPLOMATICKÉ HODNOSTI. Komise ustavená ve Vídni podala zprávu o tři roky později na kongresu v CÁCHÁCH (1818): pořadí přednosti, dřív ovlivněné mocí vysílajícího státu, se napříště určuje PODLE DATA PŘÍJEZDU A ABECEDY. Přednost přede všemi měl jen PAPEŽSKÝ NUNCIUS jako jakýsi doyen.",
+      "title": "Vienna II: neutrality, confession, ranks",
+      "text": "Three further novelties. NEUTRALITY acquired a new quality: SWITZERLAND, which had kept out of conflicts for so long, was granted THE STATUS OF A NEUTRAL STATE. It long remained the only one, but served as a model (the Vatican, for instance). THE VIENNA PROTOCOL OF 24 JUNE 1814, signed shortly before the congress, ordered the union of the Dutch Republic, the Austrian Netherlands and the prince-bishopric of Liège into the UNITED KINGDOM OF THE NETHERLANDS and laid down that ALL PUBLIC OFFICES WOULD BE OPEN TO ALL CITIZENS REGARDLESS OF RELIGIOUS CONFESSION. In principle a constitutional matter — but with an immediate effect on international law: TO BE A NATION CIVILISÉE, A STATE HAD HENCEFORTH TO BE, AT LEAST IN THEORY, CONFESSIONALLY NEUTRAL. And third: THE RESTRUCTURING OF DIPLOMATIC RANKS, a perennial source of dispute. The groundwork was laid by the revolution — IF NATIONS ARE EQUAL, DIPLOMATIC RANKS MUST BE EQUAL TOO. A commission set up at Vienna reported three years later at the congress of AACHEN (1818): precedence, formerly influenced by the power of the sending state, was henceforth determined BY THE DATE OF ARRIVAL AND BY ALPHABETICAL ORDER. Precedence over all was retained only by THE PAPAL NUNCIO as a kind of doyen.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak se po Vídni určovalo pořadí přednosti diplomatů a proč?",
-          "a": "Podle DATA PŘÍJEZDU A ABECEDY — dřív ho ovlivňovala moc vysílajícího státu. Podklad dala revoluce: jsou-li národy rovné, musí být rovné i diplomatické hodnosti. Komise ustavená ve Vídni to dokončila na kongresu v Cáchách (1818); přednost přede všemi si podržel jen papežský nuncius jako doyen.",
-          "difficulty": 2,
-          "kind": "norma",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co spojuje Vídeňský protokol z 24. června 1814 s pojmem nation civilisée?",
-          "a": "Protokol při sjednocení Spojeného království nizozemského stanovil, že všechny veřejné úřady budou otevřeny všem občanům BEZ OHLEDU NA VYZNÁNÍ. V zásadě ústavní věc — ale s dopadem na mezinárodní právo: aby byl stát nation civilisée, musel napříště být aspoň teoreticky KONFESIJNĚ NEUTRÁLNÍ.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Který stát dostal ve Vídni status neutrality a co z toho vzešlo?",
-          "a": "ŠVÝCARSKO, které se tak dlouho drželo stranou konfliktů. Zůstalo dlouho jediným státem s tímto statusem, ale posloužilo jako vzor pro podobné útvary v budoucnu (např. Vatikán).",
-          "difficulty": 1,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "How was diplomatic precedence determined after Vienna, and why?", "a": "By THE DATE OF ARRIVAL AND ALPHABETICAL ORDER — formerly it was influenced by the power of the sending state. The groundwork was laid by the revolution: if nations are equal, diplomatic ranks must be equal too. The commission set up at Vienna completed it at the congress of Aachen (1818); precedence over all was retained only by the papal nuncio as doyen.", "difficulty": 2, "kind": "norma", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What connects the Vienna Protocol of 24 June 1814 with the concept of a nation civilisée?", "a": "In uniting the United Kingdom of the Netherlands the protocol laid down that all public offices would be open to all citizens REGARDLESS OF CONFESSION. In principle a constitutional matter — but with an effect on international law: to be a nation civilisée a state had henceforth to be at least in theory CONFESSIONALLY NEUTRAL.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "Which state received the status of neutrality at Vienna, and what came of it?", "a": "SWITZERLAND, which had kept out of conflicts for so long. It long remained the only state with that status, but served as a model for similar entities in the future (the Vatican, for instance).", "difficulty": 1, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "28": {
-      "title": "Evropský koncert",
-      "text": "Zpočátku ho nesl ČTVEŘNÝ SPOLEK Rakouska, Británie, Pruska a Ruska, podepsaný v PAŘÍŽI 20. LISTOPADU 1815, a po kongresu v Cáchách se připojila i Francie. Poprvé se o něm mluvilo na kongresu v CHÂTILLONU (1814). Evropský koncert se měl SCHÁZET V PRAVIDELNÝCH INTERVALECH A ŘEŠIT MEZINÁRODNÍ SPORY JEDNÁNÍM MÍSTO SILOU — ale PRÁVO NA INTERVENCI SI PONECHAL. A na rozdíl od dřívějších století, kdy podobné pokusy o spolupráci vždycky vyšly naprázdno, PŘINESL OKAMŽITÉ VÝSLEDKY: na základě ZÁSADY LEGITIMITY ustavily kongresy v CÁCHÁCH (1818), LUBLANI (1821) a VERONĚ (1822) nový mezinárodní řád a DALY INTERVENCI ZDÁNÍ 'SPRAVEDLIVÉHO' OPATŘENÍ. Že to liberální právníci jako JOHANN CASPAR BLUNTSCHLI (1808–81) ostře kritizovali, je jiná věc. Pozdější generace to vidí dvojznačně: uznávají dopad kongresů na HUMANITÁRNÍ (zákaz obchodu s otroky) a HOSPODÁŘSKÉ otázky (svoboda pohybu, zvlášť na řekách), ale zpochybňují velmocenský NÁROK NA PRÁVO INTERVENCE — zvlášť když mířil PROTI LIBERÁLNÍM A DEMOKRATICKÝM OPOZIČNÍM HNUTÍM, která podrývala nějaký režim.",
-      "terms": [
-        { "term": "Evropský koncert", "def": "Pravidelná setkání velmocí od roku 1815 k řešení sporů jednáním místo silou — s ponechaným právem na intervenci." }
-      ],
+      "title": "The Concert of Europe",
+      "text": "It was borne at first by the QUADRUPLE ALLIANCE of Austria, Britain, Prussia and Russia, signed in PARIS ON 20 NOVEMBER 1815, and after the congress of Aachen France joined too. It was first spoken of at the congress of CHÂTILLON (1814). The Concert of Europe was TO MEET AT REGULAR INTERVALS AND SETTLE INTERNATIONAL DISPUTES BY NEGOTIATION INSTEAD OF FORCE — but IT RETAINED THE RIGHT OF INTERVENTION. And unlike earlier centuries, when similar attempts at cooperation always came to nothing, IT PRODUCED IMMEDIATE RESULTS: on the basis of the PRINCIPLE OF LEGITIMACY the congresses of AACHEN (1818), LAIBACH (1821) and VERONA (1822) established a new international order and GAVE INTERVENTION THE APPEARANCE OF A 'JUST' MEASURE. That liberal jurists such as JOHANN CASPAR BLUNTSCHLI (1808–81) criticised this sharply is another matter. Later generations see it ambiguously: they acknowledge the effect of the congresses on HUMANITARIAN questions (the prohibition of the slave trade) and on ECONOMIC ones (freedom of movement, especially on rivers), but question the great powers' CLAIM TO A RIGHT OF INTERVENTION — especially where it was aimed AT LIBERAL AND DEMOCRATIC OPPOSITION MOVEMENTS that were undermining some regime.",
+      "terms": [{"term": "Concert of Europe", "def": "Regular meetings of the great powers from 1815 to settle disputes by negotiation instead of force — with the right of intervention retained."}],
       "cards": [
-        {
-          "q": "Co byl Evropský koncert a v čem je dvojznačný?",
-          "a": "Pravidelná setkání velmocí (Čtveřný spolek 1815, od Cách i Francie) k řešení sporů JEDNÁNÍM MÍSTO SILOU — a na rozdíl od dřívějších pokusů přinesl okamžité výsledky. Dvojznačný je proto, že si ponechal PRÁVO NA INTERVENCI: kongresy v Cáchách, Lublani a Veroně daly na základě zásady legitimity intervenci zdání 'spravedlivého' opatření, zvlášť proti liberálním a demokratickým hnutím.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "What was the Concert of Europe and in what way is it ambiguous?", "a": "Regular meetings of the great powers (the Quadruple Alliance 1815, France from Aachen) to settle disputes BY NEGOTIATION INSTEAD OF FORCE — and unlike earlier attempts it produced immediate results. It is ambiguous because it retained THE RIGHT OF INTERVENTION: the congresses of Aachen, Laibach and Verona gave intervention, on the principle of legitimacy, the appearance of a 'just' measure, especially against liberal and democratic movements.", "difficulty": 3, "kind": "pripad", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     },
     "29": {
-      "title": "Závěr: od války k míru, od soupeření ke spolupráci",
-      "text": "Shrnutí, které je zároveň nejlepší odpověď na zkouškovou otázku o celém období. Od 16. století vyžadovaly raně novověký stát a systém států SOUBOR PRAVIDEL PŘESAHUJÍCÍ 'STARÉ' NÁSTROJE mezistátních vztahů, jako bylo rozhodčí řízení. Navázáním na 'španělskou' druhou scholastiku vznikla — v čele s Grotiem, 'OTCEM MODERNÍHO MEZINÁRODNÍHO PRÁVA' — intenzivní debata o IUS AD BELLUM a IUS IN BELLO. Jednání o Vestfálském míru učinila naléhavou potřebu 'DĚLÁNÍ MÍRU' na jedné straně a formalit 'MÍROVÝCH SMLUV' na straně druhé. Evropská expanze a koloniální říše si vyžádaly další pravidla. A dvojí posun, který je jádrem věci: SEDMILETÁ VÁLKA — globální konflikt většiny velmocí — A ZKUŠENOST REVOLUCE PŘESUNULY TĚŽIŠTĚ MEZINÁRODNÍHO PRÁVA OD ZAUJETÍ VÁLKOU K ZAUJETÍ MÍREM (Kant vydal spis o věčném míru roku 1795) A OD ZÁJMU O SOUPEŘENÍ STÁTŮ K ZÁJMU O JEJICH SPOLUPRÁCI — přičemž rodina států brzy PŘEKROČILA ORBIS EUROPAEUS a zahrnula státy Severní i Jižní Ameriky. A od revoluce prosazovalo mezinárodní právo, tlačené SOUKROMÝMI ZÁJMOVÝMI SKUPINAMI, humanitární a sociálně-politické otázky, které by právníka 17. století zaujatého zákony války nezajímaly.",
+      "title": "Conclusion: from war to peace, from rivalry to cooperation",
+      "text": "A summary which is at the same time the best answer to an exam question on the whole period. From the 16th century the early modern state and system of states required A SET OF RULES GOING BEYOND THE 'OLD' INSTRUMENTS of interstate relations such as arbitration. Building on the 'Spanish' Second Scholastic, an intense debate on IUS AD BELLUM and IUS IN BELLO arose, headed by Grotius, the 'FATHER OF MODERN INTERNATIONAL LAW'. The negotiations of the Peace of Westphalia made urgent the need for 'PEACE-MAKING' on one side and for the formalities of 'PEACE TREATIES' on the other. European expansion and the colonial empires demanded further rules. And the twofold shift that is the heart of the matter: THE SEVEN YEARS' WAR — a global conflict of most of the great powers — AND THE EXPERIENCE OF THE REVOLUTION MOVED THE CENTRE OF GRAVITY OF INTERNATIONAL LAW FROM A PREOCCUPATION WITH WAR TO A PREOCCUPATION WITH PEACE (Kant published his essay on perpetual peace in 1795) AND FROM AN INTEREST IN THE RIVALRY OF STATES TO AN INTEREST IN THEIR COOPERATION — while the family of states soon CROSSED THE ORBIS EUROPAEUS to include the states of North and South America. And from the revolution onwards international law, pressed by PRIVATE INTEREST GROUPS, took up humanitarian and social-political questions which would not have interested a 17th-century jurist preoccupied with the laws of war.",
       "terms": [],
       "cards": [
-        {
-          "q": "Shrň dvojí posun mezinárodního práva ve zkoumaných 150 letech.",
-          "a": "Od ZAUJETÍ VÁLKOU K ZAUJETÍ MÍREM (Kant o věčném míru, 1795) a od zájmu o SOUPEŘENÍ STÁTŮ k zájmu o jejich SPOLUPRÁCI — přičemž rodina států překročila orbis europaeus a zahrnula Ameriku. Spouštěčem byly sedmiletá válka jako globální konflikt a zkušenost revoluce.",
-          "difficulty": 3,
-          "kind": "schema",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        },
-        {
-          "q": "Co do mezinárodního práva přinesly soukromé zájmové skupiny?",
-          "a": "Od francouzské revoluce prosazovaly HUMANITÁRNÍ A SOCIÁLNĚ-POLITICKÉ otázky, které by právníka 17. století zaujatého zákony války nezajímaly — protiotrokářské hnutí v Británii od 80. let 18. století je první případ, kdy soukromá organizace ovlivnila mezinárodní právo i politiku.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "The Westphalian Order and Early Constitutionalism",
-          "priority": "core"
-        }
+        {"q": "Sum up the twofold shift of international law over the 150 years examined.", "a": "From a PREOCCUPATION WITH WAR TO A PREOCCUPATION WITH PEACE (Kant on perpetual peace, 1795) and from an interest in the RIVALRY OF STATES to an interest in their COOPERATION — while the family of states crossed the orbis europaeus to include the Americas. The triggers were the Seven Years' War as a global conflict and the experience of the revolution.", "difficulty": 3, "kind": "schema", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"},
+        {"q": "What did private interest groups bring to international law?", "a": "From the French Revolution onwards they pressed HUMANITARIAN AND SOCIAL-POLITICAL questions which would not have interested a 17th-century jurist preoccupied with the laws of war — the anti-slavery movement in Britain from the 1780s is the first case of a private organisation influencing international law and politics alike.", "difficulty": 3, "kind": "basic", "topic": "The Westphalian Order and Early Constitutionalism", "priority": "core"}
       ],
       "vision_used": false
     }
