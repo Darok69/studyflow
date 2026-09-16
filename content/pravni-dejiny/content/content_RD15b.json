@@ -1,444 +1,184 @@
 {
   "lecture_id": "RD15",
-  "title": "Kennedy, Tři globalizace práva a právního myšlení 1850–2000",
+  "title": "Kennedy, Three Globalizations of Law and Legal Thought 1850–2000",
   "slides": {
     "21": {
-      "title": "Druhá globalizace: slovník sociálního",
-      "text": "Kennedy otevírá druhou část SLOVNÍKEM, který sám o sobě ukazuje, co se stalo: SPOLEČNOST, SOCIOLOGIE, SOCIÁLNÍ ANTROPOLOGIE, SOCIÁLNÍ VĚDA, SOCIÁLNÍ FUNKCE, SOCIÁLNÍ SPRAVEDLNOST, SOCIÁLNÍ REVOLUCE, SOCIALISMUS; NÁRODNÍ SOCIALISMUS, SOCIÁLNÍ DEMOKRACIE, SOCIÁLNÍ KATOLICISMUS, SOCIÁLNÍ KŘESŤANSTVÍ, SOCIÁLNÍ BLAHOBYT, SOCIÁLNÍ ÚČEL, SOCIÁLNÍ POTŘEBA, SOCIÁLNÍ OTÁZKA; SOCIÁLNÍ PROBLÉM, SOCIÁLNÍ POLITIKA, SOCIÁLNÍ PRÁVO, SOCIÁLNÍ PRÁVA, SOCIÁLNÍ ZÁKONODÁRSTVÍ, SOCIÁLNÍ POJIŠTĚNÍ, SOCIÁLNÍ PRÁCE. Druhá globalizace začala kolem ROKU 1900 a SVOU SÍLU VYČERPALA DO KONCE DRUHÉ SVĚTOVÉ VÁLKY, ale silně ovlivňovala myšlení o mezinárodních otázkách i o rozvojových strategiích Třetího světa AŽ DO 60. LET. TENTOKRÁT SE GLOBALIZOVALA KRITIKA PRVNÍ GLOBALIZACE A REKONSTRUKČNÍ PROJEKT. Kritika zněla, že evropský hlavní proud konce 19. století ZNEUŽÍVAL DEDUKCI V PRÁVNÍ METODĚ A BYL 'INDIVIDUALISTICKÝ' V PRÁVNÍ SUBSTANCI. Heslem druhé globalizace bylo 'SOCIÁLNÍ' — abstrakce, KTERÁ V TOMTO OBDOBÍ HRÁLA ZHRUBA TUTÉŽ ROLI, JAKOU HRÁLY PRÁVO, VŮLE A ZAVINĚNÍ V CLT. Prvními inovátory byli němečtí mluvčí — JHERING, GIERKE, EHRLICH — ale hlavními globalizátory byli FRANCOUZI: SALEILLES, GENY, DUGUIT, LAMBERT, JOSSERAND, GOUNOD a GURVITCH.",
+      "title": "The second globalization: the vocabulary of the social",
+      "text": "Kennedy opens the second part with a VOCABULARY that by itself shows what happened: SOCIETY, SOCIOLOGY, SOCIAL ANTHROPOLOGY, SOCIAL SCIENCE, SOCIAL FUNCTION, SOCIAL JUSTICE, SOCIAL REVOLUTION, SOCIALISM; NATIONAL SOCIALISM, SOCIAL DEMOCRACY, SOCIAL CATHOLICISM, SOCIAL CHRISTIANITY, SOCIAL WELFARE, SOCIAL PURPOSE, SOCIAL NEED, THE SOCIAL QUESTION; SOCIAL PROBLEM, SOCIAL POLICY, SOCIAL LAW, SOCIAL RIGHTS, SOCIAL LEGISLATION, SOCIAL INSURANCE, SOCIAL WORK. The second globalization began around 1900 and HAD EXHAUSTED ITS FORCE BY THE END OF THE SECOND WORLD WAR, but it strongly influenced thinking about international questions and about Third World development strategies AS LATE AS THE 1960s. THIS TIME WHAT WAS GLOBALIZED WAS A CRITIQUE OF THE FIRST GLOBALIZATION AND A PROJECT OF RECONSTRUCTION. The critique was that the European mainstream of the late 19th century had ABUSED DEDUCTION IN LEGAL METHOD AND WAS 'INDIVIDUALIST' IN LEGAL SUBSTANCE. The slogan of the second globalization was 'THE SOCIAL' — an abstraction WHICH IN THIS PERIOD PLAYED ROUGHLY THE ROLE PLAYED BY RIGHT, WILL AND FAULT IN CLT. The first innovators were German speakers — JHERING, GIERKE, EHRLICH — but the main globalizers were the FRENCH: SALEILLES, GENY, DUGUIT, LAMBERT, JOSSERAND, GOUNOD and GURVITCH.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co se globalizovalo ve druhé globalizaci a jak zněla kritika?",
-          "a": "KRITIKA PRVNÍ GLOBALIZACE A REKONSTRUKČNÍ PROJEKT. Kritika: evropský hlavní proud konce 19. století ZNEUŽÍVAL DEDUKCI v právní metodě a byl 'INDIVIDUALISTICKÝ' v právní substanci. Heslem bylo 'SOCIÁLNÍ' — abstrakce hrající tutéž roli, jakou hrály PRÁVO, VŮLE A ZAVINĚNÍ v CLT.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Kdo sociální vymyslel a kdo ho globalizoval?",
-          "a": "PRVNÍMI INOVÁTORY byli němečtí mluvčí — JHERING, GIERKE, EHRLICH. HLAVNÍMI GLOBALIZÁTORY byli FRANCOUZI: Saleilles, Geny, Duguit, Lambert, Josserand, Gounod a Gurvitch.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What was globalized in the second globalization, and how did the critique run?", "a": "A CRITIQUE OF THE FIRST GLOBALIZATION AND A PROJECT OF RECONSTRUCTION. The critique: the European mainstream of the late 19th century ABUSED DEDUCTION in legal method and was 'INDIVIDUALIST' in legal substance. The slogan was 'THE SOCIAL' — an abstraction playing the role that RIGHT, WILL AND FAULT played in CLT.", "difficulty": 2, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Who invented the social and who globalized it?", "a": "THE FIRST INNOVATORS were German speakers — JHERING, GIERKE, EHRLICH. THE MAIN GLOBALIZERS were the FRENCH: Saleilles, Geny, Duguit, Lambert, Josserand, Gounod and Gurvitch.", "difficulty": 2, "kind": "basic", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "22": {
-      "title": "Vzájemná závislost a záchrana liberalismu před ním samým",
-      "text": "S MARXISTY — druhou významnou školou raného 20. století kritickou vůči CLT — měli sociální lidé společné to, že VYKLÁDALI SKUTEČNÝ REŽIM TEORIE VŮLE JAKO EPIFENOMÉN VE VZTAHU K NĚJAKÉ 'ZÁKLADNĚ': u marxistů byla tou základnou KAPITALISTICKÁ EKONOMIKA, u sociálních 'SPOLEČNOST POJATÁ JAKO ORGANISMUS'. Obě skupiny míní, že teorie vůle v jistém smyslu 'VYHOVOVALA' socioekonomickým podmínkám první poloviny 19. století. ALE SOCIÁLNÍ LIDÉ BYLI PROTIMARXISTICKÍ PRÁVĚ TAK, JAKO BYLI PROTI LAISSEZ-FAIRE. JEJICH CÍLEM BYLO ZACHRÁNIT LIBERALISMUS PŘED NÍM SAMÝM. Jejich základní myšlenka: podmínky života konce 19. století představují SOCIÁLNÍ TRANSFORMACI, sestávající z URBANIZACE, INDUSTRIALIZACE, ORGANIZAČNÍ SPOLEČNOSTI A GLOBALIZACE TRHŮ — vše shrnuto do ideje 'VZÁJEMNÉ ZÁVISLOSTI'. PROTOŽE TEORIE VŮLE BYLA INDIVIDUALISTICKÁ, IGNOROVALA VZÁJEMNOU ZÁVISLOST A SCHVALOVALA KONKRÉTNÍ PRÁVNÍ PRAVIDLA, KTERÁ DOVOLOVALA MNOHO DRUHŮ ANTISOCIÁLNÍHO CHOVÁNÍ. Krize moderní továrny (průmyslové úrazy, pauperizace) a městského slumu a později krize finančních trhů a Velká deprese — to všechno plynulo Z NESCHOPNOSTI KOHERENTNĚ INDIVIDUALISTICKÉHO PRÁVA ODPOVĚDĚT NA KOHERENTNĚ SOCIÁLNÍ POTŘEBY MODERNÍCH PODMÍNEK VZÁJEMNÉ ZÁVISLOSTI. PO ROCE 1919 rozšířili tuhle analýzu NA PROBLÉM VÁLKY, chápaný jako produkt selhání mezinárodního řádu založeného na LOGICE SUVERENITY, VYSOCE ANALOGICKÝ PROBLÉMŮM TRHŮ ZALOŽENÝCH NA LOGICE VLASTNICTVÍ.",
-      "terms": [
-        { "term": "vzájemná závislost (interdependence)", "def": "Idea shrnující urbanizaci, industrializaci, organizační společnost a globalizaci trhů — to, co teorie vůle ignorovala." }
-      ],
+      "title": "Interdependence and saving liberalism from itself",
+      "text": "With the MARXISTS — the other significant school of the early 20th century critical of CLT — the social people had in common that they INTERPRETED THE ACTUAL REGIME OF THE WILL THEORY AS AN EPIPHENOMENON IN RELATION TO SOME 'BASE': for the Marxists that base was THE CAPITALIST ECONOMY, for the social people 'SOCIETY CONCEIVED AS AN ORGANISM'. Both groups hold that the will theory in some sense 'FITTED' the socio-economic conditions of the first half of the 19th century. BUT THE SOCIAL PEOPLE WERE ANTI-MARXIST JUST AS THEY WERE ANTI-LAISSEZ-FAIRE. THEIR AIM WAS TO SAVE LIBERALISM FROM ITSELF. Their basic idea: the conditions of life of the late 19th century constitute a SOCIAL TRANSFORMATION consisting of URBANISATION, INDUSTRIALISATION, ORGANISATIONAL SOCIETY AND THE GLOBALIZATION OF MARKETS — all summed up in the idea of 'INTERDEPENDENCE'. BECAUSE THE WILL THEORY WAS INDIVIDUALIST, IT IGNORED INTERDEPENDENCE AND ENDORSED PARTICULAR LEGAL RULES THAT PERMITTED MANY KINDS OF ANTI-SOCIAL BEHAVIOUR. The crisis of the modern factory (industrial accidents, pauperisation) and of the urban slum, and later the crisis of the financial markets and the Great Depression — all of it followed FROM THE INABILITY OF A COHERENTLY INDIVIDUALIST LAW TO RESPOND TO THE COHERENTLY SOCIAL NEEDS OF MODERN CONDITIONS OF INTERDEPENDENCE. AFTER 1919 they extended this analysis TO THE PROBLEM OF WAR, understood as the product of the failure of an international order founded on THE LOGIC OF SOVEREIGNTY, HIGHLY ANALOGOUS TO THE PROBLEMS OF MARKETS FOUNDED ON THE LOGIC OF PROPERTY.",
+      "terms": [{"term": "interdependence", "def": "The idea summing up urbanisation, industrialisation, organisational society and the globalization of markets — what the will theory ignored."}],
       "cards": [
-        {
-          "q": "Co měli sociální lidé společného s marxisty a v čem se lišili?",
-          "a": "Společné: vykládali režim teorie vůle jako EPIFENOMÉN vůči 'základně' — u marxistů kapitalistická ekonomika, u sociálních SPOLEČNOST POJATÁ JAKO ORGANISMUS. Lišili se zásadně: SOCIÁLNÍ BYLI PROTIMARXISTIČTÍ PRÁVĚ TAK, JAKO BYLI PROTI LAISSEZ-FAIRE. JEJICH CÍLEM BYLO ZACHRÁNIT LIBERALISMUS PŘED NÍM SAMÝM.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak sociální propojili průmyslové úrazy, slumy, Velkou depresi a válku?",
-          "a": "Všechno plynulo Z NESCHOPNOSTI KOHERENTNĚ INDIVIDUALISTICKÉHO PRÁVA ODPOVĚDĚT NA KOHERENTNĚ SOCIÁLNÍ POTŘEBY MODERNÍCH PODMÍNEK VZÁJEMNÉ ZÁVISLOSTI. PO ROCE 1919 rozšířili analýzu NA VÁLKU: produkt selhání mezinárodního řádu založeného na LOGICE SUVERENITY, ANALOGICKÝ problémům trhů založených na LOGICE VLASTNICTVÍ.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What did the social people share with the Marxists and where did they differ?", "a": "In common: they interpreted the regime of the will theory as an EPIPHENOMENON of a 'base' — for the Marxists the capitalist economy, for the social people SOCIETY CONCEIVED AS AN ORGANISM. They differed fundamentally: THE SOCIAL PEOPLE WERE ANTI-MARXIST JUST AS THEY WERE ANTI-LAISSEZ-FAIRE. THEIR AIM WAS TO SAVE LIBERALISM FROM ITSELF.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "How did the social people connect industrial accidents, slums, the Great Depression and war?", "a": "All of it followed FROM THE INABILITY OF A COHERENTLY INDIVIDUALIST LAW TO RESPOND TO THE COHERENTLY SOCIAL NEEDS OF MODERN CONDITIONS OF INTERDEPENDENCE. AFTER 1919 they extended the analysis TO WAR: the product of the failure of an international order founded on THE LOGIC OF SOVEREIGNTY, ANALOGOUS to the problems of markets founded on THE LOGIC OF PROPERTY.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "23": {
-      "title": "Is-to-ought a jeho legitimizační šíře",
-      "text": "Z TÉ ANALÝZY 'JE' ODVODILI 'MÁ BÝT' REFORMNÍHO PROGRAMU — a ten byl ohromujícím způsobem úspěšný: PRACOVNÍ ZÁKONODÁRSTVÍ, REGULACE MĚSTSKÝCH OBLASTÍ skrze nájemní, hygienické a územní režimy, REGULACE FINANČNÍCH TRHŮ a ROZVOJ NOVÝCH INSTITUCÍ MEZINÁRODNÍHO PRÁVA. A klíčový postřeh: TAH 'IS-TO-OUGHT' OSLOVIL VELMI ŠIROKÝ OKRUH LEGITIMIZAČNÍCH RÉTORIK. Ty procházely napříč celým levo-pravým spektrem a VYNECHÁVALY JEN MARXISTICKÝ KOLEKTIVISMUS NA JEDNOM KONCI A ČISTÝ MANCHESTERISMUS NA DRUHÉM. Sociální se tak mohl zakládat na SOCIALISTICKÉ ČI SOCIÁLNĚ DEMOKRATICKÉ ideologii (třeba durkheimovské), na SOCIÁLNÍM KŘESŤANSTVÍ protestantských sekt, na NOVOKANTOVSKÉM 'SITUAČNÍM PŘIROZENÉM PRÁVU', na COMTEOVSKÉM POZITIVISMU, na KATOLICKÉM PŘIROZENÉM PRÁVU, na BISMARCKOVSKÉM/DISRAELIOVSKÉM SOCIÁLNÍM KONZERVATISMU NEBO NA FAŠISTICKÉ IDEOLOGII. Jinými slovy SOCIÁLNÍ BYL, STEJNĚ JAKO CLT, ZPRVU VĚDOMÍM — byť vždy v konfliktním vztahu ke CLT, ne přímočaře hegemonickým, jak CLT bylo v krátkém období zhruba mezi 1850 a 1890 — uvnitř kterého bylo možné rozvíjet různé a protichůdné ideologické projekty. Ať to bylo cokoli, hesla zahrnovala ORGANICISMUS, ÚČEL, FUNKCI, REPRODUKCI, BLAHOBYT, INSTRUMENTALISMUS (PRÁVO JE PROSTŘEDEK K CÍLI) — A TEDY ANTIDEDUKCI, PROTOŽE PRÁVNÍ PRAVIDLO JE JEN PROSTŘEDKEM K DOSAŽENÍ SOCIÁLNÍCH ÚČELŮ.",
+      "title": "Is-to-ought and its legitimating breadth",
+      "text": "From that analysis of the 'is' they derived the 'ought' of a reform programme — and it was astonishingly successful: LABOUR LEGISLATION, THE REGULATION OF URBAN AREAS through tenancy, sanitary and zoning regimes, THE REGULATION OF FINANCIAL MARKETS and THE DEVELOPMENT OF NEW INSTITUTIONS OF INTERNATIONAL LAW. And the key observation: THE 'IS-TO-OUGHT' MOVE APPEALED TO A VERY WIDE RANGE OF LEGITIMATING RHETORICS. They ran across the whole left-right spectrum and LEFT OUT ONLY MARXIST COLLECTIVISM AT ONE END AND PURE MANCHESTERISM AT THE OTHER. The social could thus be founded on SOCIALIST OR SOCIAL DEMOCRATIC ideology (Durkheimian, say), on the SOCIAL CHRISTIANITY of the Protestant sects, on NEO-KANTIAN 'SITUATIONAL NATURAL LAW', on COMTEAN POSITIVISM, on CATHOLIC NATURAL LAW, on BISMARCKIAN/DISRAELIAN SOCIAL CONSERVATISM OR ON FASCIST IDEOLOGY. In other words THE SOCIAL WAS, LIKE CLT, AT FIRST A CONSCIOUSNESS — though always in a conflictual relation to CLT, not straightforwardly hegemonic as CLT had been in the brief period roughly between 1850 and 1890 — within which various and contradictory ideological projects could be developed. Whatever it was, the slogans included ORGANICISM, PURPOSE, FUNCTION, REPRODUCTION, WELFARE, INSTRUMENTALISM (LAW IS A MEANS TO AN END) — AND THEREFORE ANTI-DEDUCTION, BECAUSE A LEGAL RULE IS MERELY A MEANS OF ACHIEVING SOCIAL PURPOSES.",
       "terms": [],
       "cards": [
-        {
-          "q": "Na jakých ideologiích se mohl sociální zakládat a co vynechával?",
-          "a": "Na socialistické či sociálně demokratické (durkheimovské), sociálním křesťanství, NOVOKANTOVSKÉM 'SITUAČNÍM PŘIROZENÉM PRÁVU', comteovském pozitivismu, katolickém přirozeném právu, BISMARCKOVSKÉM/DISRAELIOVSKÉM SOCIÁLNÍM KONZERVATISMU nebo FAŠISTICKÉ IDEOLOGII. Vynechával JEN MARXISTICKÝ KOLEKTIVISMUS NA JEDNOM KONCI A ČISTÝ MANCHESTERISMUS NA DRUHÉM.",
-          "difficulty": 3,
-          "kind": "znaky",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jaká byla hesla sociálního a proč z nich plyne antidedukce?",
-          "a": "ORGANICISMUS, ÚČEL, FUNKCE, REPRODUKCE, BLAHOBYT, INSTRUMENTALISMUS (PRÁVO JE PROSTŘEDEK K CÍLI) — a tedy ANTIDEDUKCE, PROTOŽE PRÁVNÍ PRAVIDLO JE JEN PROSTŘEDKEM K DOSAŽENÍ SOCIÁLNÍCH ÚČELŮ, ne členem koherentního systému.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "On which ideologies could the social be founded, and what did it leave out?", "a": "On socialist or social democratic (Durkheimian), social Christianity, NEO-KANTIAN 'SITUATIONAL NATURAL LAW', Comtean positivism, Catholic natural law, BISMARCKIAN/DISRAELIAN SOCIAL CONSERVATISM or FASCIST IDEOLOGY. It left out ONLY MARXIST COLLECTIVISM AT ONE END AND PURE MANCHESTERISM AT THE OTHER.", "difficulty": 3, "kind": "znaky", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What were the slogans of the social, and why does anti-deduction follow from them?", "a": "ORGANICISM, PURPOSE, FUNCTION, REPRODUCTION, WELFARE, INSTRUMENTALISM (LAW IS A MEANS TO AN END) — and therefore ANTI-DEDUCTION, BECAUSE A LEGAL RULE IS MERELY A MEANS OF ACHIEVING SOCIAL PURPOSES, not a member of a coherent system.", "difficulty": 2, "kind": "znaky", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "24": {
-      "title": "Zneužití dedukce: co přesně se CLT vytýkalo",
-      "text": "Zásadní součástí sociální kritiky klasického právního myšlení bylo tvrzení, že CLT UDRŽOVALO ZDÁNÍ OBJEKTIVITY V PRÁVNÍM VÝKLADU JEN SKRZE ZNEUŽITÍ DEDUKCE. Podle sociálních lidí chápali lidé CLT sami sebe jako vykladače (soudce, správní úředníky, profesory práva) fungující podle SYSTÉMU INDUKCE A DEDUKCE PREMISOVANÉHO NA KOHERENCI, TEDY VNITŘNÍ LOGICKÉ BEZROZPORNOSTI SYSTÉMU UZÁKONĚNÝCH PRÁVNÍCH NOREM. TŘI MÓDY: (1) najít použitelné uzákoněné pravidlo; (2) VYVINOUT PRAVIDLO K VYPLNĚNÍ MEZERY ŘETĚZCEM DEDUKCÍ Z ABSTRAKTNĚJŠÍHO UZÁKONĚNÉHO PRAVIDLA ČI ZÁSADY; (3) METODA 'KONSTRUKCÍ' — URČIT, JAKÁ NEUZÁKONĚNÁ ZÁSADA MUSÍ BÝT SOUČÁSTÍ 'SYSTÉMU' VZHLEDEM K JEHO RŮZNÝM UZÁKONĚNÝM PRVKŮM, MÁME-LI HO POKLÁDAT ZA VNITŘNĚ KOHERENTNÍ, A PAK Z TÉ KONSTRUKCE ODVODIT PRAVIDLO VYPLŇUJÍCÍ MEZERU. A teď ta past: v sociální analýze SE VYKLADAČI UVNITŘ CLT VŽDY MUSELI CHÁPAT JAKO LOGICKY DONUCENÍ JEDNÍM Z TĚCH ZPŮSOBŮ, A NIKDY PROTO NEMOHLI LEGITIMNĚ VĚDOMĚ PRACOVAT NA PŘIZPŮSOBENÍ PRÁVA NOVÝM PODMÍNKÁM KONCE 19. STOLETÍ. Ty podmínky jim přitom jako vykladačům neustále předkládaly MEZERY. CO LIDÉ CLT MUSELI UDĚLAT, ABY ZŮSTALI VĚRNI SVÉ ROLI, JAK JI CHÁPALI, BYLO 'ZNEUŽÍT DEDUKCI': MUSELI DÁT ROZHODNUTÍM UČINĚNÝM Z JINÝCH DŮVODŮ VYPADAT JAKO VÝSLEDEK DEDUKTIVNÍ PRÁCE PREMISOVANÉ NA KOHERENCI SYSTÉMU.",
-      "terms": [
-        { "term": "zneužití dedukce", "def": "Dát rozhodnutím učiněným z jiných důvodů vypadat jako výsledek dedukce premisované na koherenci systému." }
-      ],
+      "title": "The abuse of deduction: what exactly was charged against CLT",
+      "text": "An essential part of the social critique of classical legal thought was the claim that CLT MAINTAINED AN APPEARANCE OF OBJECTIVITY IN LEGAL INTERPRETATION ONLY THROUGH AN ABUSE OF DEDUCTION. On the social people's account, the people of CLT understood themselves as interpreters (judges, administrative officials, professors of law) operating by A SYSTEM OF INDUCTION AND DEDUCTION PREMISED ON THE COHERENCE, THAT IS THE INTERNAL LOGICAL CONSISTENCY, OF THE SYSTEM OF ENACTED LEGAL NORMS. THREE MODES: (1) find an applicable enacted rule; (2) DEVELOP A GAP-FILLING RULE BY A CHAIN OF DEDUCTIONS FROM A MORE ABSTRACT ENACTED RULE OR PRINCIPLE; (3) THE METHOD OF 'CONSTRUCTIONS' — DETERMINE WHAT UNENACTED PRINCIPLE MUST BE PART OF THE 'SYSTEM' GIVEN ITS VARIOUS ENACTED ELEMENTS IF IT IS TO BE REGARDED AS INTERNALLY COHERENT, AND THEN DERIVE THE GAP-FILLING RULE FROM THAT CONSTRUCTION. And now the trap: on the social analysis, INTERPRETERS WITHIN CLT ALWAYS HAD TO UNDERSTAND THEMSELVES AS LOGICALLY COMPELLED IN ONE OF THOSE WAYS, AND COULD THEREFORE NEVER LEGITIMATELY AND CONSCIOUSLY WORK AT ADAPTING THE LAW TO THE NEW CONDITIONS OF THE LATE 19TH CENTURY. Those conditions meanwhile constantly presented them, as interpreters, with GAPS. WHAT THE PEOPLE OF CLT HAD TO DO IN ORDER TO REMAIN TRUE TO THEIR ROLE AS THEY UNDERSTOOD IT WAS TO 'ABUSE DEDUCTION': THEY HAD TO MAKE DECISIONS TAKEN FOR OTHER REASONS LOOK LIKE THE RESULT OF DEDUCTIVE WORK PREMISED ON THE COHERENCE OF THE SYSTEM.",
+      "terms": [{"term": "the abuse of deduction", "def": "Making decisions taken for other reasons look like the result of deduction premised on the coherence of the system."}],
       "cards": [
-        {
-          "q": "Jaké tři módy právního uvažování CLT sociální kritika popisuje?",
-          "a": "1) Najít POUŽITELNÉ UZÁKONĚNÉ PRAVIDLO. 2) VYVINOUT PRAVIDLO K VYPLNĚNÍ MEZERY ŘETĚZCEM DEDUKCÍ z abstraktnějšího pravidla či zásady. 3) METODA 'KONSTRUKCÍ' — určit, jaká NEUZÁKONĚNÁ ZÁSADA musí být součástí systému, má-li být vnitřně koherentní, a z ní odvodit pravidlo vyplňující mezeru.",
-          "difficulty": 3,
-          "kind": "schema",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Proč museli lidé CLT podle sociálních 'zneužívat dedukci'?",
-          "a": "Protože se museli chápat jako LOGICKY DONUCENÍ a nemohli legitimně vědomě přizpůsobovat právo novým podmínkám — a ty podmínky jim přitom neustále předkládaly MEZERY. Aby zůstali věrni své roli, MUSELI DÁT ROZHODNUTÍM UČINĚNÝM Z JINÝCH DŮVODŮ VYPADAT JAKO VÝSLEDEK DEDUKTIVNÍ PRÁCE.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What three modes of CLT legal reasoning does the social critique describe?", "a": "1) Find an APPLICABLE ENACTED RULE. 2) DEVELOP A GAP-FILLING RULE BY A CHAIN OF DEDUCTIONS from a more abstract rule or principle. 3) THE METHOD OF 'CONSTRUCTIONS' — determine what UNENACTED PRINCIPLE must be part of the system if it is to be internally coherent, and derive the gap-filling rule from it.", "difficulty": 3, "kind": "schema", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Why, on the social account, did the people of CLT have to 'abuse deduction'?", "a": "Because they had to understand themselves as LOGICALLY COMPELLED and could not legitimately and consciously adapt the law to new conditions — while those conditions constantly presented them with GAPS. To remain true to their role THEY HAD TO MAKE DECISIONS TAKEN FOR OTHER REASONS LOOK LIKE THE RESULT OF DEDUCTIVE WORK.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "25": {
-      "title": "Čtyři pozitivní návrhy sociálního",
-      "text": "Sociální nabídl vedle kritiky ČTYŘI POZITIVNÍ NÁVRHY: (1) PŘECHOD OD SOCIÁLNÍHO 'JE' K ADAPTIVNÍMU 'MÁ BÝT' PRO PRÁVO; (2) PŘECHOD OD DEDUKTIVNÍHO K INSTRUMENTÁLNÍMU PŘÍSTUPU K FORMULACI NOREM; (3) UZNÁNÍ, ŽE NEJEN ZÁKONODÁRCE, ALE I PRÁVNÍ VĚDCI, SOUDCI A SPRÁVNÍ ÚŘADY OTEVŘENĚ PŘIZNÁVAJÍ MEZERY VE FORMÁLNĚ PLATNÉM ŘÁDU; (4) UKOTVENÍ V NORMATIVNÍCH PRAKTIKÁCH — 'ŽIVÉM PRÁVU' — KTERÉ PRŮBĚŽNĚ ROZVÍJELY SKUPINY MEZI STÁTEM A JEDNOTLIVCEM. Kennedy upozorňuje, že antiformalisté existovali i mimo sociální: DEMOGUE, HECK, HOLMES, HOHFELD, LLEWELLYN. PLURALISMUS: skupiny — obchodní společenství, odbory — rozvíjejí nové normy podle 'sociálních potřeb'; ty jsou 'PLATNÝM' 'ŽIVÝM PRÁVEM', NE DEDUKCÍ Z INDIVIDUALISTICKÝCH POSTULÁTŮ, a mají být základem práva státního. Pluralistická pozice je tedy SLOŽITOU SMĚSÍ 'JE' A 'MÁ BÝT'. Mafiánský kodex OMERTA a kanonické právo jsou v ní stejně zajímavé jako jiný nestátní řád. V NORMATIVNÍ ROLI ale sociální zajímaly hlavně STŘEDOVĚKÉ KORPORACE, PRÁVO KUPCŮ, PRÁVO PRŮMYSLOVÉHO ZÁVODU A OBYČEJOVÉ MEZINÁRODNÍ PRÁVO — a Kennedyho hypotéza proč: PROTOŽE U KAŽDÉHO Z NICH ŠLO TVRDIT, ŽE NESTÁTNÍ PRÁVO JE 'SOCIÁLNĚJŠÍ' NEŽ PRÁVO STÁTNÍ.",
-      "terms": [
-        { "term": "živé právo (living law)", "def": "Normativní praktiky, které průběžně rozvíjejí skupiny mezi státem a jednotlivcem; podle pluralistů mají být základem práva státního." }
-      ],
+      "title": "Four positive proposals of the social",
+      "text": "Besides the critique, the social offered FOUR POSITIVE PROPOSALS: (1) THE MOVE FROM A SOCIAL 'IS' TO AN ADAPTIVE 'OUGHT' FOR LAW; (2) THE MOVE FROM A DEDUCTIVE TO AN INSTRUMENTAL APPROACH TO THE FORMULATION OF NORMS; (3) THE ACKNOWLEDGEMENT, NOT ONLY BY THE LEGISLATOR BUT BY LEGAL SCIENTISTS, JUDGES AND ADMINISTRATIVE AGENCIES, OF THE OPEN EXISTENCE OF GAPS IN THE FORMALLY VALID ORDER; (4) AN ANCHORING IN THE NORMATIVE PRACTICES — THE 'LIVING LAW' — CONTINUOUSLY DEVELOPED BY GROUPS BETWEEN THE STATE AND THE INDIVIDUAL. Kennedy notes that anti-formalists existed outside the social too: DEMOGUE, HECK, HOLMES, HOHFELD, LLEWELLYN. PLURALISM: groups — merchant communities, trade unions — develop new norms according to 'social needs'; these are 'VALID' 'LIVING LAW', NOT DEDUCTIONS FROM INDIVIDUALIST POSTULATES, and should be the basis of state law. The pluralist position is therefore A COMPLEX MIXTURE OF 'IS' AND 'OUGHT'. The Mafia code of OMERTA and canon law are as interesting within it as any other non-state order. IN THE NORMATIVE ROLE, however, the social people were chiefly interested in the MEDIEVAL CORPORATIONS, THE LAW MERCHANT, THE LAW OF THE INDUSTRIAL PLANT AND CUSTOMARY INTERNATIONAL LAW — and Kennedy's hypothesis as to why: BECAUSE IN EACH OF THEM IT COULD BE ARGUED THAT NON-STATE LAW IS 'MORE SOCIAL' THAN STATE LAW.",
+      "terms": [{"term": "living law", "def": "The normative practices continuously developed by groups between the state and the individual; on the pluralist view they should be the basis of state law."}],
       "cards": [
-        {
-          "q": "Jaké čtyři pozitivní návrhy nabídl sociální?",
-          "a": "1) Přechod od sociálního 'JE' k ADAPTIVNÍMU 'MÁ BÝT'. 2) Od DEDUKTIVNÍHO k INSTRUMENTÁLNÍMU přístupu k formulaci norem. 3) Uznání, že nejen zákonodárce, ale i vědci, SOUDCI A SPRÁVNÍ ÚŘADY otevřeně přiznávají MEZERY. 4) Ukotvení v 'ŽIVÉM PRÁVU' — normativních praktikách skupin mezi státem a jednotlivcem.",
-          "difficulty": 3,
-          "kind": "schema",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Proč sociální zajímaly hlavně středověké korporace, právo kupců a obyčejové mezinárodní právo?",
-          "a": "Kennedyho hypotéza: PROTOŽE U KAŽDÉHO Z NICH ŠLO TVRDIT, ŽE NESTÁTNÍ PRÁVO JE 'SOCIÁLNĚJŠÍ' NEŽ PRÁVO STÁTNÍ. Mafiánská omerta či kanonické právo jsou přitom teoreticky stejně zajímavé, jen se nehodily do normativní role.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What four positive proposals did the social offer?", "a": "1) From a social 'IS' to an ADAPTIVE 'OUGHT'. 2) From a DEDUCTIVE to an INSTRUMENTAL approach to the formulation of norms. 3) The acknowledgement, not only by the legislator but by scientists, JUDGES AND ADMINISTRATIVE AGENCIES, of the open existence of GAPS. 4) An anchoring in the 'LIVING LAW' — the normative practices of groups between the state and the individual.", "difficulty": 3, "kind": "schema", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Why were the social people chiefly interested in the medieval corporations, the law merchant and customary international law?", "a": "Kennedy's hypothesis: BECAUSE IN EACH OF THEM IT COULD BE ARGUED THAT NON-STATE LAW IS 'MORE SOCIAL' THAN STATE LAW. Mafia omertà or canon law are theoretically just as interesting, they simply did not fit the normative role.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "26": {
-      "title": "Institucionalismus a korporativismus",
-      "text": "Aby se nestátní řády pochopily, bylo třeba (a) identifikovat SOCIÁLNÍ PRAKTIKY odlišující nestátní právo od pouhých zvyků a mravů a (b) vysvětlit KOHERENCI nestátního práva. Pojem INSTITUCE řeší obojí: ORGANIZACE, SOUBOR ROLÍ, TRVALÁ V ČASE, ALE S MĚNÍCÍM SE PERSONÁLEM, V ZAKLÁDAJÍCÍM OKAMŽIKU ORIENTOVANÁ NA (MĚNITELNÉ) ÚČELY PŘESAHUJÍCÍ INDIVIDUÁLNÍ ZÁJMY NOSITELŮ ROLÍ. I čistě zisková korporace je institucí, protože má podnikatelský plán. A DŮSLEDEK, KTERÝ STOJÍ ZA ZAPAMATOVÁNÍ: STÁT SE V TOMHLE POHLEDU STÁVÁ JEDNOU INSTITUCÍ MEZI MNOHA. Normy čerpají racionální koherenci i 'platnost' z kombinace ODDANOSTI INSTITUCE ÚČELU A JEJÍ HISTORIE VÝVOJE; v modu 'má být' MAJÍ INSTITUCE NORMY ROZVÍJET TAK, ABY SVÉ ÚČELY PODPOROVALY, A STÁT MÁ TEN PROCES UZNÁVAT A USNADŇOVAT, NE IGNOROVAT ČI POTÍRAT. (Francouzští institucionalisté HAURIOU, RENARD, DELOS; italský SANTI ROMANO.) KORPORATIVISMUS jde o krok dál: PLURÁLNÍ INSTITUCE VŠECHNY PŘISPÍVAJÍ K SEBEZACHOVÁNÍ A EVOLUCI SPOLEČNOSTI JAKO CELKU A DOHROMADY JSOU LEPŠÍM 'REPREZENTANTEM' SPOLEČNOSTI NEŽ VOLEBNÍ PROCES ZALOŽENÝ NA HLASOVÁNÍ JEDNOTLIVCŮ. Zákonodárný proces z individuálního hlasování nebude racionálně dohlížet na samoregulaci institucí; lepší je DÁT INSTITUCÍM PŘÍMÝ PŘÍSTUP KE STÁTNÍ MOCI. A pozor na tuhle větu: FAŠISTICKÉ REŽIMY 30. LET PŘIJALY KORPORATIVISMUS SPOLU S PREZIDENCIALISMEM JAKO ALTERNATIVU K PARLAMENTNÍ DEMOKRACII A TAK DŮKLADNĚ HO ZDISKREDITOVALY, ŽE SE TĚŽKO PAMATUJE, ŽE V PODOBĚ PRŮMYSLOVÝCH RAD PRÁCE A MANAGEMENTU S MOCÍ VYDÁVAT ZÁVAZNÉ PŘEDPISY BYL ÚSTŘEDNÍM PRVKEM ROOSEVELTOVA PRVNÍHO NEW DEALU.",
-      "terms": [
-        { "term": "instituce", "def": "Organizace, soubor rolí, trvalá v čase s měnícím se personálem, orientovaná na účely přesahující individuální zájmy nositelů rolí." }
-      ],
+      "title": "Institutionalism and corporatism",
+      "text": "To understand non-state orders it was necessary (a) to identify the SOCIAL PRACTICES distinguishing non-state law from mere custom and mores and (b) to explain the COHERENCE of non-state law. The concept of the INSTITUTION solves both: AN ORGANISATION, A SET OF ROLES, ENDURING IN TIME BUT WITH CHANGING PERSONNEL, ORIENTED AT ITS FOUNDING MOMENT TOWARDS (ALTERABLE) PURPOSES TRANSCENDING THE INDIVIDUAL INTERESTS OF THE ROLE-HOLDERS. Even a purely profit-making corporation is an institution, because it has a business plan. AND THE CONSEQUENCE WORTH REMEMBERING: ON THIS VIEW THE STATE BECOMES ONE INSTITUTION AMONG MANY. Norms derive their rational coherence and their 'validity' from a combination of THE INSTITUTION'S COMMITMENT TO ITS PURPOSE AND ITS HISTORY OF DEVELOPMENT; in the 'ought' mode, INSTITUTIONS SHOULD DEVELOP NORMS SO AS TO FURTHER THEIR PURPOSES, AND THE STATE SHOULD RECOGNISE AND FACILITATE THAT PROCESS RATHER THAN IGNORE OR SUPPRESS IT. (The French institutionalists HAURIOU, RENARD, DELOS; the Italian SANTI ROMANO.) CORPORATISM goes a step further: THE PLURAL INSTITUTIONS ALL CONTRIBUTE TO THE SELF-MAINTENANCE AND EVOLUTION OF SOCIETY AS A WHOLE AND TOGETHER ARE A BETTER 'REPRESENTATIVE' OF SOCIETY THAN AN ELECTORAL PROCESS BASED ON THE VOTES OF INDIVIDUALS. A legislative process built on individual voting will not rationally supervise the self-regulation of institutions; it is better TO GIVE THE INSTITUTIONS DIRECT ACCESS TO STATE POWER. And note this sentence: THE FASCIST REGIMES OF THE 1930s ADOPTED CORPORATISM ALONG WITH PRESIDENTIALISM AS AN ALTERNATIVE TO PARLIAMENTARY DEMOCRACY AND DISCREDITED IT SO THOROUGHLY THAT IT IS HARD TO REMEMBER THAT, IN THE FORM OF INDUSTRIAL BOARDS OF LABOUR AND MANAGEMENT WITH POWER TO ISSUE BINDING REGULATIONS, IT WAS A CENTRAL ELEMENT OF ROOSEVELT'S FIRST NEW DEAL.",
+      "terms": [{"term": "institution", "def": "An organisation, a set of roles, enduring in time with changing personnel, oriented towards purposes transcending the individual interests of the role-holders."}],
       "cards": [
-        {
-          "q": "Jak sociální definoval 'instituci' a co z toho plyne pro stát?",
-          "a": "ORGANIZACE, SOUBOR ROLÍ, TRVALÁ V ČASE ALE S MĚNÍCÍM SE PERSONÁLEM, orientovaná na (měnitelné) ÚČELY PŘESAHUJÍCÍ INDIVIDUÁLNÍ ZÁJMY nositelů rolí. I zisková korporace je institucí, protože má podnikatelský plán. DŮSLEDEK: STÁT SE STÁVÁ JEDNOU INSTITUCÍ MEZI MNOHA.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Co tvrdí korporativismus a jak dopadl?",
-          "a": "Že PLURÁLNÍ INSTITUCE jsou dohromady LEPŠÍM 'REPREZENTANTEM' SPOLEČNOSTI NEŽ VOLEBNÍ PROCES založený na hlasování jednotlivců, a proto jim má být dán PŘÍMÝ PŘÍSTUP KE STÁTNÍ MOCI. FAŠISTICKÉ REŽIMY 30. LET ho přijaly jako alternativu k parlamentní demokracii a TAK DŮKLADNĚ HO ZDISKREDITOVALY, že se zapomíná, že jako PRŮMYSLOVÉ RADY byl ústředním prvkem ROOSEVELTOVA PRVNÍHO NEW DEALU.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How did the social define an 'institution', and what follows from it for the state?", "a": "AN ORGANISATION, A SET OF ROLES, ENDURING IN TIME BUT WITH CHANGING PERSONNEL, oriented towards (alterable) PURPOSES TRANSCENDING THE INDIVIDUAL INTERESTS of the role-holders. Even a profit-making corporation is an institution, because it has a business plan. THE CONSEQUENCE: THE STATE BECOMES ONE INSTITUTION AMONG MANY.", "difficulty": 3, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What does corporatism claim, and how did it end?", "a": "That THE PLURAL INSTITUTIONS TOGETHER ARE A BETTER 'REPRESENTATIVE' OF SOCIETY THAN AN ELECTORAL PROCESS based on individual votes, and should therefore be given DIRECT ACCESS TO STATE POWER. THE FASCIST REGIMES OF THE 1930s adopted it as an alternative to parliamentary democracy and DISCREDITED IT SO THOROUGHLY that it is forgotten that, as INDUSTRIAL BOARDS, it was central to ROOSEVELT'S FIRST NEW DEAL.", "difficulty": 3, "kind": "pripad", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "27": {
-      "title": "Skupiny mezi jednotlivcem a lidem: harmonická, ne konfliktní ideologie",
-      "text": "Sociální je transformací modelu CLT, ve kterém jednotlivci tvoří LID, s právy zajištěnými státem, který je suverénní v decentralizovaném sdružení s jinými suverénními státy. V sociálním je intenzivní zaměření nejen na pluralitu institucí pod a nad úrovní státu, ale i na SKUPINY MEZI ÚROVNÍ JEDNOTLIVCE A LIDU — nejdůležitější jsou SOCIÁLNÍ TŘÍDY (zvláště práce a kapitál) a NÁRODNOSTNÍ MENŠINY. A tady je kontrast, který je z celé kapitoly nejdůležitější: ZATÍMCO MARXISMUS BYL 'KONFLIKTNÍ IDEOLOGIÍ' PROROKUJÍCÍ VÍTĚZSTVÍ DĚLNICKÉ TŘÍDY VE SMRTELNÉM ZÁPASE S KAPITALISTICKOU, SOCIÁLNÍ BYL 'HARMONICKOU IDEOLOGIÍ' HLÁSAJÍCÍ FUNKCI PRO KAŽDÝ ORGANIZOVANÝ ZÁJEM A EXISTENCI 'VEŘEJNÉHO ZÁJMU' NA KOORDINACI JEJICH VZÁJEMNĚ ZÁVISLÝCH ČINNOSTÍ TAK, ABY SE MAXIMALIZOVAL SOCIÁLNÍ BLAHOBYT. Sociální lidé byli proti tendenci CLT POPŘÍT JURISTICKOU REALITU ČEHOKOLI JINÉHO NEŽ JEDNOTLIVCE NEBO STÁTU. V CLT byly plurality také, ale: (1) PLURALITA NOSITELŮ PRÁV; (2) PLURALITA VOLKSGEISTŮ, PLURALITA RODINNĚPRÁVNÍCH REŽIMŮ PODLE NÁRODNÍCH KULTUR, PLURALITA VEŘEJNOPRÁVNÍCH USPOŘÁDÁNÍ. TY PLURALITY BYLY ALE PERIFERNÍ VŮČI PRÁVNÍMU JÁDRU, KTERÝM BYLO SOUKROMÉ PRÁVO ZÁVAZKŮ, SE SMLUVNÍM PRÁVEM — PRÁVEM SVOBODNÉ VŮLE VYCHÁZEJÍCÍM Z VLASTNICKÝCH PRÁV — JAKO JÁDREM JÁDRA.",
+      "title": "Groups between the individual and the people: a harmonic, not a conflict ideology",
+      "text": "The social is a transformation of the CLT model in which individuals make up A PEOPLE, with rights secured by a state that is sovereign in a decentralised association with other sovereign states. In the social there is an intense focus not only on the plurality of institutions below and above the level of the state but also on GROUPS BETWEEN THE LEVEL OF THE INDIVIDUAL AND THAT OF THE PEOPLE — the most important being SOCIAL CLASSES (especially labour and capital) and NATIONAL MINORITIES. And here is the contrast that matters most in the whole chapter: WHEREAS MARXISM WAS A 'CONFLICT IDEOLOGY' PROPHESYING THE VICTORY OF THE WORKING CLASS IN A MORTAL STRUGGLE WITH THE CAPITALIST CLASS, THE SOCIAL WAS A 'HARMONIC IDEOLOGY' PROCLAIMING A FUNCTION FOR EVERY ORGANISED INTEREST AND THE EXISTENCE OF A 'PUBLIC INTEREST' IN COORDINATING THEIR INTERDEPENDENT ACTIVITIES SO AS TO MAXIMISE SOCIAL WELFARE. The social people were against CLT's tendency TO DENY THE JURISTIC REALITY OF ANYTHING OTHER THAN THE INDIVIDUAL OR THE STATE. There were pluralities in CLT too, but: (1) A PLURALITY OF RIGHT-HOLDERS; (2) A PLURALITY OF VOLKSGEISTER, A PLURALITY OF FAMILY LAW REGIMES ACCORDING TO NATIONAL CULTURES, A PLURALITY OF PUBLIC LAW ARRANGEMENTS. THOSE PLURALITIES WERE, HOWEVER, PERIPHERAL TO THE LEGAL CORE, WHICH WAS THE PRIVATE LAW OF OBLIGATIONS, WITH CONTRACT LAW — THE LAW OF FREE WILL PROCEEDING FROM PROPERTY RIGHTS — AS THE CORE OF THE CORE.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč byl sociální 'harmonickou', a ne 'konfliktní' ideologií?",
-          "a": "Protože na rozdíl od MARXISMU, který prorokoval VÍTĚZSTVÍ DĚLNICKÉ TŘÍDY VE SMRTELNÉM ZÁPASE, hlásal FUNKCI PRO KAŽDÝ ORGANIZOVANÝ ZÁJEM a existenci 'VEŘEJNÉHO ZÁJMU' NA KOORDINACI JEJICH VZÁJEMNĚ ZÁVISLÝCH ČINNOSTÍ tak, aby se maximalizoval sociální blahobyt.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Existovaly plurality i v CLT a jak se lišily od plurality sociálního?",
-          "a": "Ano: PLURALITA NOSITELŮ PRÁV, PLURALITA VOLKSGEISTŮ, RODINNĚPRÁVNÍCH REŽIMŮ a VEŘEJNOPRÁVNÍCH USPOŘÁDÁNÍ. ALE VŠECHNY BYLY PERIFERNÍ VŮČI PRÁVNÍMU JÁDRU, kterým bylo SOUKROMÉ PRÁVO ZÁVAZKŮ se SMLUVNÍM PRÁVEM jako jádrem jádra. Sociální naproti tomu cílí na SKUPINY MEZI JEDNOTLIVCEM A LIDEM — třídy a národnostní menšiny.",
-          "difficulty": 3,
-          "kind": "srovnani",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "Why was the social a 'harmonic' rather than a 'conflict' ideology?", "a": "Because unlike MARXISM, which prophesied THE VICTORY OF THE WORKING CLASS IN A MORTAL STRUGGLE, it proclaimed A FUNCTION FOR EVERY ORGANISED INTEREST and the existence of a 'PUBLIC INTEREST' IN COORDINATING THEIR INTERDEPENDENT ACTIVITIES so as to maximise social welfare.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Were there pluralities in CLT too, and how did they differ from the social's?", "a": "Yes: A PLURALITY OF RIGHT-HOLDERS, OF VOLKSGEISTER, OF FAMILY LAW REGIMES and OF PUBLIC LAW ARRANGEMENTS. BUT ALL OF THEM WERE PERIPHERAL TO THE LEGAL CORE, which was the private law of obligations with CONTRACT LAW as the core of the core. The social by contrast targets GROUPS BETWEEN THE INDIVIDUAL AND THE PEOPLE — classes and national minorities.", "difficulty": 3, "kind": "srovnani", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "28": {
-      "title": "Pracovní právo a průmyslový mír",
-      "text": "Konkrétní právní inovace sociálního v pracovním právu: SOCIÁLNÍ POJIŠTĚNÍ PROTI PRACOVNÍM ÚRAZŮM JAKO POVINNÁ SOUČÁST MZDOVÉ SMLOUVY, ODBOROVÁ ORGANIZACE JAKO NEDOBROVOLNÉ SDRUŽENÍ, POVINNÉ KOLEKTIVNÍ VYJEDNÁVÁNÍ — a to vše v kontextu VŠEPROSTUPUJÍCÍ REGULACE SHORA. Zdůvodnění: 'PRŮMYSLOVÁ VÁLKA' (STRIFE, TŘÍDNÍ VÁLKA) OHROŽUJE CELOU SPOLEČNOST KATASTROFICKÝMI VÝPADKY VÝROBY. VEŘEJNÝ ZÁJEM BYL V 'PRŮMYSLOVÉM MÍRU' A OSPRAVEDLŇOVAL ODHOZENÍ INDIVIDUALISTICKÝCH A FORMALISTICKÝCH POJMŮ — až tak daleko, že KOLEKTIVNĚ VYJEDNANÁ SMLOUVA ODBORŮ URČUJE PODMÍNKY ZAMĚSTNÁNÍ PRACOVNÍKA, KTERÝ NENÍ JEJICH ČLENEM. To je učebnicový příklad toho, jak sociální myšlení mění samu strukturu právního závazku: závazek už nevychází z vůle zavázaného.",
+      "title": "Labour law and industrial peace",
+      "text": "The concrete legal innovations of the social in labour law: SOCIAL INSURANCE AGAINST INDUSTRIAL ACCIDENTS AS A COMPULSORY PART OF THE WAGE CONTRACT, TRADE UNION ORGANISATION AS AN INVOLUNTARY ASSOCIATION, COMPULSORY COLLECTIVE BARGAINING — all in a context of PERVASIVE REGULATION FROM ABOVE. The justification: 'INDUSTRIAL WAR' (STRIFE, CLASS WAR) THREATENS THE WHOLE OF SOCIETY WITH CATASTROPHIC INTERRUPTIONS OF PRODUCTION. THE PUBLIC INTEREST LAY IN 'INDUSTRIAL PEACE' AND JUSTIFIED DISCARDING INDIVIDUALIST AND FORMALIST CONCEPTS — to the point where A COLLECTIVELY BARGAINED UNION CONTRACT DETERMINES THE TERMS OF EMPLOYMENT OF A WORKER WHO IS NOT A UNION MEMBER. That is a textbook example of how social thought changes the very structure of legal obligation: the obligation no longer proceeds from the will of the person bound.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jaké nové právní formy zavedlo sociální pracovní právo?",
-          "a": "SOCIÁLNÍ POJIŠTĚNÍ PROTI ÚRAZŮM JAKO POVINNOU SOUČÁST MZDOVÉ SMLOUVY, ODBOROVOU ORGANIZACI JAKO NEDOBROVOLNÉ SDRUŽENÍ, POVINNÉ KOLEKTIVNÍ VYJEDNÁVÁNÍ — vše v kontextu všeprostupující regulace shora.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak 'průmyslový mír' ospravedlnil odhození individualistických pojmů?",
-          "a": "'PRŮMYSLOVÁ VÁLKA' ohrožuje celou společnost KATASTROFICKÝMI VÝPADKY VÝROBY, takže veřejný zájem je v PRŮMYSLOVÉM MÍRU. Až tak, že KOLEKTIVNĚ VYJEDNANÁ SMLOUVA ODBORŮ URČUJE PODMÍNKY ZAMĚSTNÁNÍ PRACOVNÍKA, KTERÝ NENÍ JEJICH ČLENEM — závazek už nevychází z vůle zavázaného.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What new legal forms did social labour law introduce?", "a": "SOCIAL INSURANCE AGAINST ACCIDENTS AS A COMPULSORY PART OF THE WAGE CONTRACT, TRADE UNION ORGANISATION AS AN INVOLUNTARY ASSOCIATION, COMPULSORY COLLECTIVE BARGAINING — all within pervasive regulation from above.", "difficulty": 2, "kind": "znaky", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "How did 'industrial peace' justify discarding individualist concepts?", "a": "'INDUSTRIAL WAR' threatens the whole of society with CATASTROPHIC INTERRUPTIONS OF PRODUCTION, so the public interest lies in INDUSTRIAL PEACE. To the point where A COLLECTIVELY BARGAINED UNION CONTRACT DETERMINES THE TERMS OF EMPLOYMENT OF A NON-MEMBER — the obligation no longer proceeds from the will of the person bound.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "29": {
-      "title": "Sociální zákonodárství, expertiza a obrácení jádra a periferie",
-      "text": "Sociální zákonodárství znamenalo ROZŠÍŘENÍ REGULAČNÍCH FUNKCÍ STÁTU a VYKROJENÍ A PŘEDEFINOVÁNÍ JAKO VEŘEJNÉ PRÁVO ROZSÁHLÝCH OBLASTÍ, KTERÉ PŘEDTÍM BEZPEČNĚ SPADALY DO DOMÉNY PRÁVA, VŮLE A ZAVINĚNÍ. Sociální právo koordinovalo jednotlivé chtějící subjekty CLT ve veřejném zájmu skrze VEŘEJNÉ AGENTURY, které měly konkretizovat ABSTRAKTNÍ A VÁGNÍ ZÁKONNÁ PROHLÁŠENÍ — zákaz 'SMLUV OMEZUJÍCÍCH OBCHOD', 'NEKALÉ SOUTĚŽE', 'NEKALÝCH PRACOVNÍCH PRAKTIK', 'KLAMAVÝCH PRAKTIK'. Agentury měly přinášet EXPERTIZU — společenskou vědu i konkrétní pragmatickou znalost — a působily přes INSPEKTORÁTY aplikující NÍZKOÚROVŇOVÉ TRESTNÍ SANKCE NEBO PŘÍKAZY, v řízeních MNOHEM MÉNĚ FORMÁLNÍCH než ta emblematická pro CLT. Místo práva závazků jsou salientní obory SPRÁVNÍ PRÁVO (na všechno sociální zákonodárství), pak PRACOVNÍ PRÁVO, RODINNÉ PRÁVO A MEZINÁRODNÍ PRÁVO. A ten výsledek je třeba umět jednou větou: DO 30. LET SOCIÁLNÍ LIDÉ OTOČILI STRUKTURU CLT A PERIFERIE SE STALA JÁDREM. Po krátkém flirtu se soudcem (ve Francii i Německu na začátku 20. století) se hrdiny sociálního proudu stali ZÁKONODÁRCI, kteří psali množství zvláštních zákonů, spolu se SPRÁVNÍM ÚŘEDNÍKEM, který vydával a vymáhal podrobné předpisy. Literatura sociálního byla dílem nového plemene profesorů práva — NE MAGISTERIÁLNÍCH AUTORŮ KODEXŮ, ALE PRÁVNÍCH REFORMÁTORŮ: píší teorii, dělají studie, píší zákony a v doktrinální literatuře dohlížejí na provádění a případnou novelizaci ve světle zkušenosti.",
+      "title": "Social legislation, expertise and the inversion of core and periphery",
+      "text": "Social legislation meant AN EXPANSION OF THE REGULATORY FUNCTIONS OF THE STATE and THE CARVING OUT AND REDEFINITION AS PUBLIC LAW OF EXTENSIVE AREAS THAT HAD PREVIOUSLY FALLEN SAFELY WITHIN THE DOMAIN OF RIGHT, WILL AND FAULT. Social law coordinated the individual willing subjects of CLT in the public interest through PUBLIC AGENCIES charged with giving concrete content to ABSTRACT AND VAGUE STATUTORY DECLARATIONS — the prohibition of 'CONTRACTS IN RESTRAINT OF TRADE', of 'UNFAIR COMPETITION', of 'UNFAIR LABOUR PRACTICES', of 'DECEPTIVE PRACTICES'. The agencies were to bring EXPERTISE — social science and concrete pragmatic knowledge alike — and operated through INSPECTORATES applying LOW-LEVEL CRIMINAL SANCTIONS OR INJUNCTIONS, in procedures MUCH LESS FORMAL than those emblematic of CLT. In place of the law of obligations the salient fields are ADMINISTRATIVE LAW (for all social legislation), then LABOUR LAW, FAMILY LAW AND INTERNATIONAL LAW. And the result must be sayable in one sentence: BY THE 1930s THE SOCIAL PEOPLE HAD INVERTED THE STRUCTURE OF CLT AND THE PERIPHERY HAD BECOME THE CORE. After a brief flirtation with the judge (in France and Germany at the beginning of the 20th century), the heroes of the social current became THE LEGISLATOR, writing a multitude of special statutes, together with THE ADMINISTRATIVE OFFICIAL, who issued and enforced detailed regulations. The literature of the social was the work of a new breed of law professor — NOT THE MAGISTERIAL AUTHOR OF CODES BUT THE LAW REFORMER: he writes theory, conducts studies, drafts statutes and in the doctrinal literature supervises their implementation and eventual amendment in the light of experience.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak sociální změnil pořadí právních oborů?",
-          "a": "Místo práva závazků jsou salientní SPRÁVNÍ PRÁVO (na všechno sociální zákonodárství), pak PRACOVNÍ, RODINNÉ A MEZINÁRODNÍ PRÁVO. DO 30. LET SOCIÁLNÍ LIDÉ OTOČILI STRUKTURU CLT A PERIFERIE SE STALA JÁDREM.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Kdo byl hrdinou sociálního a čím se lišil profesor sociálního od profesora CLT?",
-          "a": "ZÁKONODÁRCE píšící množství zvláštních zákonů spolu se SPRÁVNÍM ÚŘEDNÍKEM vydávajícím a vymáhajícím podrobné předpisy (soudce byl jen krátkým flirtem). Profesor sociálního NEBYL MAGISTERIÁLNÍM AUTOREM KODEXU, NÝBRŽ PRÁVNÍM REFORMÁTOREM: píše teorii, dělá studie, píše zákony a dohlíží na jejich provádění.",
-          "difficulty": 3,
-          "kind": "srovnani",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How did the social change the order of the fields of law?", "a": "In place of the law of obligations the salient fields are ADMINISTRATIVE LAW (for all social legislation), then LABOUR, FAMILY AND INTERNATIONAL LAW. BY THE 1930s THE SOCIAL PEOPLE HAD INVERTED THE STRUCTURE OF CLT AND THE PERIPHERY HAD BECOME THE CORE.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Who was the hero of the social, and how did its professor differ from CLT's?", "a": "THE LEGISLATOR writing a multitude of special statutes, together with THE ADMINISTRATIVE OFFICIAL issuing and enforcing detailed regulations (the judge was only a brief flirtation). The professor of the social was NOT THE MAGISTERIAL AUTHOR OF A CODE BUT A LAW REFORMER: he writes theory, conducts studies, drafts statutes and supervises their implementation.", "difficulty": 3, "kind": "srovnani", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "30": {
-      "title": "Sociální byl sociálněvědní — a 'studie' jako nástroj",
-      "text": "Profesoři sociálního nebyli politicky zaškatulkováni a nebyli otevřeni obvinění, že odmítají vědeckou objektivitu, PROTOŽE SOCIÁLNÍ BYL SOCIÁLNĚVĚDNÍ. PRÁVNÍ VĚDA CLT BYLA VĚDOU PRÁVNÍCH KATEGORIÍ, VĚDOU TECHNIKY PRÁVA; SOCIÁLNÍ BYL SPOJEN SE SOCIOLOGIÍ, EKONOMIÍ A PSYCHOLOGIÍ. Klíčovým prvkem tahu is-to-ought byla 'STUDIE', počínaje průmyslovými úrazy na začátku století. Premisa studie stojí za zapamatování, protože vysvětluje celou politickou ekonomii reformy: EXISTUJE POLITICKY MOCNÉ, CENTRISTICKÉ PUBLIKUM STŘEDNÍ TŘÍDY, KTERÉ MÁ SKLON PŘEDPOKLÁDAT, ŽE VĚCI JDOU OBECNĚ DOBŘE; KDYŽ HO STUDIE UPOZORNÍ NA NEBEZPEČÍ PRO NĚJ SAMÉHO (NEHYGIENICKÉ ZPRACOVÁNÍ POTRAVIN) NEBO NA DOST DO OČÍ BIJÍCÍ ZNEUŽÍVÁNÍ JINÝCH (PODMÍNKY V DOLECH), PODPOŘÍ REGULAČNÍ REŽIM Z 'VEŘEJNÉHO ZÁJMU', NE ZE STRANICKÝCH POLITICKÝCH DŮVODŮ. Sociální věda té doby byla směsicí EVOLUCIONISMU, PRAGMATISMU V DEWEYOVSKÉ TRADICI A RŮZNÝCH FOREM POZITIVISMU (statistické empirické šetření). Když se sociální jurista postavil proti klasickému právnímu pozitivistovi jako formalistickému dinosaurovi, činil tak VE JMÉNU SVÉ DISCIPLÍNY, NE SUBJEKTIVISMU. A tohle je pointa, kterou si zapamatuj jako celou proměnu jedné věty: KOMBINACÍ PLURALISMU, INSTITUCIONALISMU A ODDANOSTI EMPIRICKÉMU ZKOUMÁNÍ PŘESTALA BÝT 'JINÝM' PRÁVA MORÁLKA, JAK TOMU BYLO V CLT, A STALA SE JÍM 'SPOLEČNOST'.",
+      "title": "The social was social-scientific — and the 'study' as an instrument",
+      "text": "The professors of the social were not politically pigeonholed and were not open to the charge of rejecting scientific objectivity, BECAUSE THE SOCIAL WAS SOCIAL-SCIENTIFIC. THE LEGAL SCIENCE OF CLT WAS A SCIENCE OF LEGAL CATEGORIES, A SCIENCE OF LEGAL TECHNIQUE; THE SOCIAL WAS ALLIED WITH SOCIOLOGY, ECONOMICS AND PSYCHOLOGY. A key element of the is-to-ought move was the 'STUDY', beginning with industrial accidents at the turn of the century. The premise of the study is worth remembering, because it explains the whole political economy of reform: THERE IS A POLITICALLY POWERFUL, CENTRIST MIDDLE-CLASS AUDIENCE INCLINED TO ASSUME THAT THINGS ARE GENERALLY GOING WELL; WHEN A STUDY ALERTS IT TO A DANGER TO ITSELF (UNSANITARY FOOD PROCESSING) OR TO A SUFFICIENTLY BLATANT ABUSE OF OTHERS (CONDITIONS IN THE MINES), IT WILL SUPPORT A REGULATORY REGIME IN THE 'PUBLIC INTEREST', NOT FOR PARTISAN POLITICAL REASONS. The social science of the time was a mixture of EVOLUTIONISM, PRAGMATISM IN THE DEWEYAN TRADITION AND VARIOUS FORMS OF POSITIVISM (statistical empirical investigation). When the social jurist stood up against the classical legal positivist as a formalist dinosaur, he did so IN THE NAME OF HIS DISCIPLINE, NOT OF SUBJECTIVISM. And here is the point to remember as a whole transformation in a single sentence: BY THE COMBINATION OF PLURALISM, INSTITUTIONALISM AND A COMMITMENT TO EMPIRICAL INQUIRY, THE 'OTHER' OF LAW CEASED TO BE MORALITY, AS IT HAD BEEN IN CLT, AND BECAME 'SOCIETY'.",
       "terms": [],
       "cards": [
-        {
-          "q": "Na jaké premise stála 'studie' jako nástroj sociální reformy?",
-          "a": "Že existuje POLITICKY MOCNÉ CENTRISTICKÉ PUBLIKUM STŘEDNÍ TŘÍDY, které předpokládá, že věci jdou dobře; upozorní-li ho studie na NEBEZPEČÍ PRO NĚJ SAMÉHO (nehygienické potraviny) nebo na DO OČÍ BIJÍCÍ ZNEUŽÍVÁNÍ JINÝCH (doly), PODPOŘÍ REGULAČNÍ REŽIM Z 'VEŘEJNÉHO ZÁJMU', NE ZE STRANICKÝCH DŮVODŮ.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Co bylo 'jiným' práva v CLT a co v sociálním?",
-          "a": "V CLT byla 'jiným' práva MORÁLKA. Kombinací PLURALISMU, INSTITUCIONALISMU A ODDANOSTI EMPIRICKÉMU ZKOUMÁNÍ se jím v sociálním stala 'SPOLEČNOST'. (Právní věda CLT byla vědou právních kategorií, vědou TECHNIKY práva; sociální byl spojen se SOCIOLOGIÍ, EKONOMIÍ A PSYCHOLOGIÍ.)",
-          "difficulty": 3,
-          "kind": "srovnani",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "On what premise did the 'study' rest as an instrument of social reform?", "a": "That there is A POLITICALLY POWERFUL CENTRIST MIDDLE-CLASS AUDIENCE that assumes things are going well; when a study alerts it to A DANGER TO ITSELF (unsanitary food) or to A BLATANT ABUSE OF OTHERS (the mines), IT WILL SUPPORT A REGULATORY REGIME IN THE 'PUBLIC INTEREST', NOT FOR PARTISAN REASONS.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What was the 'other' of law in CLT and what in the social?", "a": "In CLT the 'other' of law was MORALITY. By the combination of PLURALISM, INSTITUTIONALISM AND A COMMITMENT TO EMPIRICAL INQUIRY it became, in the social, 'SOCIETY'. (The legal science of CLT was a science of legal categories, of TECHNIQUE; the social was allied with SOCIOLOGY, ECONOMICS AND PSYCHOLOGY.)", "difficulty": 3, "kind": "srovnani", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "31": {
-      "title": "Přestavba celého juristického vesmíru",
-      "text": "Jedna juristická odpověď na sociální zákonodárství byla ASIMILOVAT HO DO KLASICKÉHO POZITIVISTICKÉHO MODELU PŘIDÁNÍM NOVÝCH PRÁVNÍCH TÉMAT BEZ ZMĚNY PREMIS ČI METOD DOKTRINÁLNÍ ANALÝZY. (V každé zemi se západním právním vzděláním probíhá část až velmi velká část výuky takhle: klasické obory koherentní klasicky, sociální obory koherentní sociálně.) Sociální juristé byli ambicióznější: REFORMA VYŽADUJE DŮKLADNOU PŘESTAVBU JURISTICKÉHO VESMÍRU. CIVILNÍ PROCES: adversární systém je zjevně špatně přizpůsoben modernímu vzájemně závislému systému — potřeba nových typů řízení mimo individualistický bitevní model. TRESTNÍ PRÁVO: INDIVIDUALIZOVAT TREST A UČINIT HO SOCIÁLNĚ ÚČINNÝM IDENTIFIKACÍ TYPŮ ZLOČINCŮ A SOCIÁLNÍCH PŘÍČIN ZLOČINU. I SMLUVNÍ PRÁVO, jádro jádra, potřebovalo revizi — PŘEDSMLUVNÍ POVINNOSTI, LIBERALIZACE OMLUV, FUNKČNÍ MÍSTO FORMALISTICKÉHO VÝKLADU FORMALIT. NOVÉ TYPY SOUDŮ: PRACOVNÍ, OBCHODNÍ, MLÁDEŽNICKÉ A RODINNÉ. Obchodní právo se mělo přizpůsobit novému stylu podnikání — TRANSAKCÍM MEZI VELMI VELKÝMI FIRMAMI NEBO MEZI VELKÝMI PODNIKY A JEDNOTLIVCI BEZ JAKÉKOLI VYJEDNÁVACÍ SÍLY. Korporátní právo se mělo přestavět na pojmu RADIKÁLNÍHO ODDĚLENÍ VLASTNICTVÍ A KONTROLY (BERLE A MEANS, 1932).",
+      "title": "Rebuilding the whole juristic universe",
+      "text": "One juristic response to social legislation was TO ASSIMILATE IT TO THE CLASSICAL POSITIVIST MODEL BY ADDING NEW LEGAL SUBJECTS WITHOUT CHANGING THE PREMISES OR METHODS OF DOCTRINAL ANALYSIS. (In every country with Western legal education, part and sometimes a very large part of teaching proceeds this way: the classical fields coherent classically, the social fields coherent socially.) The social jurists were more ambitious: REFORM REQUIRES A THOROUGH REBUILDING OF THE JURISTIC UNIVERSE. CIVIL PROCEDURE: the adversary system is obviously ill adapted to a modern interdependent system — new types of proceeding are needed outside the individualist battle model. CRIMINAL LAW: TO INDIVIDUALISE PUNISHMENT AND MAKE IT SOCIALLY EFFECTIVE BY IDENTIFYING TYPES OF CRIMINAL AND THE SOCIAL CAUSES OF CRIME. EVEN CONTRACT LAW, the core of the core, needed revision — PRE-CONTRACTUAL DUTIES, A LIBERALISATION OF EXCUSES, A FUNCTIONAL RATHER THAN FORMALIST INTERPRETATION OF FORMALITIES. NEW TYPES OF COURT: LABOUR, COMMERCIAL, JUVENILE AND FAMILY. Commercial law was to adapt to the new style of business — TRANSACTIONS BETWEEN VERY LARGE FIRMS OR BETWEEN LARGE ENTERPRISES AND INDIVIDUALS WITH NO BARGAINING POWER WHATEVER. Corporate law was to be rebuilt on the concept of the RADICAL SEPARATION OF OWNERSHIP AND CONTROL (BERLE AND MEANS, 1932).",
       "terms": [],
       "cards": [
-        {
-          "q": "Jaké dvě juristické odpovědi na sociální zákonodárství existovaly?",
-          "a": "1) ASIMILOVAT ho do klasického pozitivistického modelu PŘIDÁNÍM NOVÝCH TÉMAT BEZ ZMĚNY PREMIS — dodnes tak probíhá velká část výuky (klasické obory klasicky, sociální sociálně). 2) Ambicióznější sociální pozice: REFORMA VYŽADUJE DŮKLADNOU PŘESTAVBU CELÉHO JURISTICKÉHO VESMÍRU.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak sociální chtěl přestavět trestní právo, smluvní právo a korporátní právo?",
-          "a": "TRESTNÍ: individualizovat trest a učinit ho SOCIÁLNĚ ÚČINNÝM identifikací TYPŮ ZLOČINCŮ A SOCIÁLNÍCH PŘÍČIN ZLOČINU. SMLUVNÍ: předsmluvní povinnosti, LIBERALIZACE OMLUV, FUNKČNÍ místo formalistického výkladu formalit. KORPORÁTNÍ: přestavět na pojmu RADIKÁLNÍHO ODDĚLENÍ VLASTNICTVÍ A KONTROLY (Berle a Means, 1932).",
-          "difficulty": 3,
-          "kind": "znaky",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What two juristic responses to social legislation were there?", "a": "1) To ASSIMILATE it to the classical positivist model by ADDING NEW SUBJECTS WITHOUT CHANGING THE PREMISES — much teaching still proceeds this way (classical fields classically, social fields socially). 2) The more ambitious social position: REFORM REQUIRES A THOROUGH REBUILDING OF THE WHOLE JURISTIC UNIVERSE.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "How did the social want to rebuild criminal, contract and corporate law?", "a": "CRIMINAL: individualise punishment and make it SOCIALLY EFFECTIVE by identifying TYPES OF CRIMINAL AND THE SOCIAL CAUSES OF CRIME. CONTRACT: pre-contractual duties, A LIBERALISATION OF EXCUSES, FUNCTIONAL rather than formalist interpretation of formalities. CORPORATE: rebuild on the concept of the RADICAL SEPARATION OF OWNERSHIP AND CONTROL (Berle and Means, 1932).", "difficulty": 3, "kind": "znaky", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "32": {
-      "title": "Prameny práva, mezery a interdisciplinarita",
-      "text": "Antiformalistický pramen zdůrazňoval MEZERY, KONFLIKTY A NEJEDNOZNAČNOSTI v korpusu pozitivního práva a tím roli soudce BUĎ JAKO ZNEUŽÍVATELE DEDUKCE, NEBO JAKO RACIONÁLNÍHO ZÁKONODÁRCE. V USA byla STARE DECISIS ZDISKREDITOVÁNA JAKO ZNEUŽÍVÁNÍ DEDUKCE PAR EXCELLENCE. Civilistický spor o to, co je 'pramen práva', byl vyřešen VE PROSPĚCH LEGITIMITY JURISPRUDENCE, TEDY SOUDCOVSKÉHO PRÁVA. A navíc — což je krok, který teprve dává celé věci dosah: VŠICHNI VYKLADAČI PRÁVA, PROFESOŘI, SPRÁVNÍ ÚŘEDNÍCI I ADVOKÁTI PŘI PSANÍ SMLUV, PŘI VOLBĚ STRATEGIE SPORU I PŘI RADÁCH O ODPOVĚDNOSTI, SE PODÍLEJÍ NA TVORBĚ PRÁVA. Kennedy dodává praktické varování: SOCIÁLNÍ MOHL BÝT UDUŠEN SOUDCOVSKOU NEVRAŽIVOSTÍ — pracovní či rodinné soudy vyžadovaly soudce, kteří nenáviděli celou myšlenku nových juristických institucí. JEN KDYŽ SOUDCI, ÚŘEDNÍCI A ADVOKÁTI CHÁPOU NEJEN RATIO, ALE I TECHNIKU REFORMY, REFORMA FUNGUJE. Z toho plynul nový pohled na kurikulum: kdo učí nový kurz pracovního práva, má znát sociologii, ekonomii a psychologii; hodilo by se mít na fakultě pár 'KROTKÝCH' EKONOMŮ, SOCIOLOGŮ A PSYCHOLOGŮ. A Kennedyho charakteristika, na kterou stojí za to si vzpomenout: INTERDISCIPLINARITA PRO SOCIÁLNÍ ZNAMENALA PROFESORA PRÁVA JAKO GENERALISTU, JEHOŽ SCHOPNOSTI MU DOVOLÍ OSVOJIT SI VŠECHNY OSTATNÍ DISCIPLÍNY BEZ FORMÁLNÍHO ŠKOLENÍ.",
+      "title": "Sources of law, gaps and interdisciplinarity",
+      "text": "The anti-formalist strand stressed the GAPS, CONFLICTS AND AMBIGUITIES in the corpus of positive law and thereby the role of the judge EITHER AS AN ABUSER OF DEDUCTION OR AS A RATIONAL LEGISLATOR. In the USA, STARE DECISIS WAS DISCREDITED AS THE ABUSE OF DEDUCTION PAR EXCELLENCE. The civilian dispute over what is a 'source of law' was resolved IN FAVOUR OF THE LEGITIMACY OF JURISPRUDENCE, THAT IS OF JUDGE-MADE LAW. And further — the step that gives the whole thing its reach: ALL INTERPRETERS OF LAW, PROFESSORS, ADMINISTRATIVE OFFICIALS AND LAWYERS DRAFTING CONTRACTS, CHOOSING LITIGATION STRATEGY AND ADVISING ON LIABILITY, PARTICIPATE IN THE MAKING OF LAW. Kennedy adds a practical warning: THE SOCIAL COULD BE STRANGLED BY JUDICIAL HOSTILITY — labour or family courts required judges who detested the whole idea of the new juristic institutions. ONLY WHERE JUDGES, OFFICIALS AND LAWYERS UNDERSTAND NOT ONLY THE RATIO BUT ALSO THE TECHNIQUE OF REFORM DOES REFORM WORK. From this followed a new view of the curriculum: whoever teaches the new labour law course should know sociology, economics and psychology; it would be useful to have a few 'TAME' ECONOMISTS, SOCIOLOGISTS AND PSYCHOLOGISTS on the faculty. And Kennedy's characterisation, worth recalling: FOR THE SOCIAL, INTERDISCIPLINARITY MEANT THE LAW PROFESSOR AS A GENERALIST WHOSE ABILITIES ALLOW HIM TO MASTER ALL THE OTHER DISCIPLINES WITHOUT FORMAL TRAINING.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak sociální vyřešil otázku pramenů práva?",
-          "a": "Ve prospěch LEGITIMITY JURISPRUDENCE, tedy SOUDCOVSKÉHO PRÁVA — a šel dál: VŠICHNI VYKLADAČI PRÁVA (profesoři, správní úředníci, advokáti při psaní smluv, volbě strategie sporu i radách o odpovědnosti) SE PODÍLEJÍ NA TVORBĚ PRÁVA. V USA byla STARE DECISIS zdiskreditována jako ZNEUŽÍVÁNÍ DEDUKCE PAR EXCELLENCE.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Co znamenala interdisciplinarita pro sociální?",
-          "a": "PROFESORA PRÁVA JAKO GENERALISTU, JEHOŽ SCHOPNOSTI MU DOVOLÍ OSVOJIT SI VŠECHNY OSTATNÍ DISCIPLÍNY BEZ FORMÁLNÍHO ŠKOLENÍ. Praktický důvod: jen když soudci, úředníci a advokáti chápou nejen RATIO, ale i TECHNIKU reformy, reforma funguje.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How did the social resolve the question of the sources of law?", "a": "In favour of THE LEGITIMACY OF JURISPRUDENCE, that is of JUDGE-MADE LAW — and it went further: ALL INTERPRETERS OF LAW (professors, administrative officials, lawyers drafting contracts, choosing litigation strategy and advising on liability) PARTICIPATE IN THE MAKING OF LAW. In the USA STARE DECISIS was discredited as THE ABUSE OF DEDUCTION PAR EXCELLENCE.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What did interdisciplinarity mean for the social?", "a": "THE LAW PROFESSOR AS A GENERALIST WHOSE ABILITIES ALLOW HIM TO MASTER ALL THE OTHER DISCIPLINES WITHOUT FORMAL TRAINING. The practical reason: only where judges, officials and lawyers understand not merely the RATIO but the TECHNIQUE of reform does reform work.", "difficulty": 2, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "33": {
-      "title": "Sociální tvrdil, že o politiku nejde — a liberálové nevěřili",
-      "text": "Sociální juristé tvrdili, že POUHÁ ODDANOST SOCIÁLNÍ SPRAVEDLNOSTI V MODU IS-TO-OUGHT JE NEVYSTAVUJE NEBEZPEČÍ EROZE ROZDÍLU MEZI PRÁVEM A POLITIKOU. Obecně připouštěli VNITŘNÍ KOHERENCI INDIVIDUALISTICKÉHO DEDUKTIVNÍHO PRÁVA (zdůrazňovali MEZERY, ne neodstranitelné rozpory) a tvrdili TUTÉŽ KOHERENCI PRO SOCIÁLNÍ PRÁVO. TEN DRUHÝ NÁROK BYL SILNĚ ZPOCHYBŇOVÁN: LIBERÁLOVÉ UVÍZLÍ NA APARÁTU A ASPIRACÍCH CLT CHÁPALI SOCIÁLNÍ JAKO CHAOTICKÝ, BEZ JEDNOHO PROTIPRINCIPU, KTERÝ BY SE POSTAVIL PROTI PRÁVU A VŮLI; A ROZMANITOST POLITIK SOCIÁLNÍHO VIDĚLI JAKO PŘÍZNAK TRAGICKÉ POLITIZACE PRÁVA PO PŘEDČASNÉM ZŘEKNUTÍ SE PRÁVNÍ VĚDY VE PROSPĚCH VĚDY SOCIÁLNÍ, NE JAKO DŮKAZ NADPOLITICKÉ PRAVDY SOCIÁLNÍHO.",
+      "title": "The social claimed it was not about politics — and the liberals did not believe it",
+      "text": "The social jurists claimed that A MERE COMMITMENT TO SOCIAL JUSTICE IN THE IS-TO-OUGHT MODE DID NOT EXPOSE THEM TO THE DANGER OF ERODING THE DISTINCTION BETWEEN LAW AND POLITICS. They generally conceded the INTERNAL COHERENCE OF INDIVIDUALIST DEDUCTIVE LAW (stressing GAPS, not irremediable contradictions) and claimed THE SAME COHERENCE FOR SOCIAL LAW. THE SECOND CLAIM WAS STRONGLY CONTESTED: LIBERALS STUCK ON THE APPARATUS AND ASPIRATIONS OF CLT UNDERSTOOD THE SOCIAL AS CHAOTIC, WITHOUT A SINGLE COUNTER-PRINCIPLE TO SET AGAINST RIGHT AND WILL; AND THEY SAW THE VARIETY OF THE SOCIAL'S POLICIES AS A SYMPTOM OF THE TRAGIC POLITICISATION OF LAW FOLLOWING A PREMATURE ABANDONMENT OF LEGAL SCIENCE IN FAVOUR OF SOCIAL SCIENCE, NOT AS EVIDENCE OF THE SOCIAL'S SUPRA-POLITICAL TRUTH.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak sociální hájil rozdíl mezi právem a politikou a co mu liberálové vytýkali?",
-          "a": "Tvrdil, že oddanost sociální spravedlnosti v modu is-to-ought ten rozdíl neeroduje, a nárokoval si TUTÉŽ KOHERENCI pro sociální právo, jakou připouštěl u individualistického. Liberálové ale sociální chápali jako CHAOTICKÝ, BEZ JEDNOHO PROTIPRINCIPU — a jeho rozmanitost politik viděli jako PŘÍZNAK TRAGICKÉ POLITIZACE PRÁVA po předčasném zřeknutí se právní vědy.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How did the social defend the distinction between law and politics, and what did the liberals charge?", "a": "It claimed that a commitment to social justice in the is-to-ought mode does not erode that distinction, and claimed THE SAME COHERENCE for social law as it conceded to individualist law. The liberals, however, understood the social as CHAOTIC, WITHOUT A SINGLE COUNTER-PRINCIPLE — and saw the variety of its policies as A SYMPTOM OF THE TRAGIC POLITICISATION OF LAW after a premature abandonment of legal science.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "34": {
-      "title": "Jak se sociální šířil: staré kanály, nové obsahy",
-      "text": "Druhá globalizace sledovala kanály první. Studenti z celé Evropy jezdili studovat právo do FRANCIE A NĚMECKA; od poloviny 19. století do 30. let se studenti ze zbytku světa pod západním vlivem hrnuli do Evropy; z kolonií do svých 'metropolí' (Senegalci do Paříže, Indonésané do Amsterodamu). Měli-li volbu, jeli DO EVROPSKÉ METROPOLE S NEJVĚTŠÍ PRESTIŽÍ VE SVÉ ČÁSTI PERIFERIE — Latinoameričané do Paříže, obyvatelé USA do Německa. NEJPRVE NĚMECKO, POZDĚJI FRANCIE byly prameny sociálního, ale rozvíjel se souběžně na mnoha místech, A JEHO POLITICKÁ BARVA SE MÍSTO OD MÍSTA LIŠILA: V ITÁLII byl nejdřív UMÍRNĚNĚ LEVICOVÝ, PAK FAŠISTICKÝ. VE ŠPANĚLSKU (FRANCO), PORTUGALSKU (SALAZAR) A ŘECKU (METAXAS) BYL FAŠISTICKÝ; V NIZOZEMÍ A (FABIÁNSKÉ) BRITÁNII UMÍRNĚNĚ LEVICOVÝ. Američtí sociologičtí juristé — POUND, CARDOZO, BRANDEIS — vytvořili verzi nejdřív umírněně levicovou a pak umírněně pravicovou; čerpali z Francouzů a Němců, ale silně je ovlivnil HOLMES, KTERÝ PŘED GÉNYM ROZVINUL SVÉBYTNĚ AMERICKOU VARIANTU TEZE O 'ZNEUŽÍVÁNÍ DEDUKCE'.",
+      "title": "How the social spread: old channels, new contents",
+      "text": "The second globalization followed the channels of the first. Students from all over Europe went to study law in FRANCE AND GERMANY; from the mid-19th century to the 1930s students from the rest of the world under Western influence poured into Europe; from the colonies to their 'metropoles' (Senegalese to Paris, Indonesians to Amsterdam). Where they had a choice, they went TO THE EUROPEAN METROPOLE WITH THE GREATEST PRESTIGE IN THEIR PART OF THE PERIPHERY — Latin Americans to Paris, Americans to Germany. FIRST GERMANY, LATER FRANCE were the sources of the social, but it developed in parallel in many places, AND ITS POLITICAL COLOUR VARIED FROM PLACE TO PLACE: IN ITALY it was at first MODERATELY LEFT, THEN FASCIST. IN SPAIN (FRANCO), PORTUGAL (SALAZAR) AND GREECE (METAXAS) IT WAS FASCIST; IN THE NETHERLANDS AND (FABIAN) BRITAIN MODERATELY LEFT. The American sociological jurists — POUND, CARDOZO, BRANDEIS — produced a version first moderately left and then moderately right; they drew on the French and the Germans, but were strongly influenced by HOLMES, WHO DEVELOPED A DISTINCTIVELY AMERICAN VARIANT OF THE 'ABUSE OF DEDUCTION' THESIS BEFORE GENY.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jakou politickou barvu měl sociální v jednotlivých zemích?",
-          "a": "V ITÁLII nejdřív UMÍRNĚNĚ LEVICOVÝ, pak FAŠISTICKÝ. Ve ŠPANĚLSKU (Franco), PORTUGALSKU (Salazar) a ŘECKU (Metaxas) FAŠISTICKÝ. V NIZOZEMÍ a fabiánské BRITÁNII UMÍRNĚNĚ LEVICOVÝ. V USA (Pound, Cardozo, Brandeis) nejdřív umírněně levicový, pak umírněně pravicový.",
-          "difficulty": 3,
-          "kind": "srovnani",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jakou roli hrál v americké verzi sociálního Holmes?",
-          "a": "ROZVINUL PŘED GÉNYM SVÉBYTNĚ AMERICKOU VARIANTU TEZE O 'ZNEUŽÍVÁNÍ DEDUKCE' a silně ovlivnil Pounda, Cardoza a Brandeise, kteří jinak čerpali z Francouzů a Němců.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What political colour did the social have in individual countries?", "a": "In ITALY at first MODERATELY LEFT, then FASCIST. In SPAIN (Franco), PORTUGAL (Salazar) and GREECE (Metaxas) FASCIST. In the NETHERLANDS and Fabian BRITAIN MODERATELY LEFT. In the USA (Pound, Cardozo, Brandeis) first moderately left and then moderately right.", "difficulty": 3, "kind": "srovnani", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What role did Holmes play in the American version of the social?", "a": "HE DEVELOPED A DISTINCTIVELY AMERICAN VARIANT OF THE 'ABUSE OF DEDUCTION' THESIS BEFORE GENY and strongly influenced Pound, Cardozo and Brandeis, who otherwise drew on the French and the Germans.", "difficulty": 2, "kind": "basic", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "35": {
-      "title": "Nacionalismus ve třech módech",
-      "text": "Jak se sociální usadil na Západě, studenti z východní Evropy, Latinské Ameriky, jižní, východní a jihovýchodní Asie, arabského světa a Afriky si ho přivlastnili a odvezli domů. NACIONALISMUS BYL KLÍČOVOU DIMENZÍ ŠÍŘENÍ, ALE NEJMÉNĚ VE TŘECH MÓDECH, NE JAKO JEDNOTNÝ JEV. (1) NACIONALISMUS JAKO IREDENTISMUS A HNACÍ SÍLA ETNICKÉ ČISTOTY — ten pokrokoví evropští sociální lidé chápali spolu s třídním konfliktem za metlu, která může zničit evropskou civilizaci. Teoretici sociálního proto podnikli HLUBOKÉ PŘEHODNOCENÍ MEZINÁRODNÍHO PRÁVA VEŘEJNÉHO ve snaze nacionalismus obsáhnout a tvarovat jako ŽIVOTODÁRNOU I ŽIVOT NIČÍCÍ IRACIONÁLNÍ SÍLU. Výsledek: MANDÁTNÍ SYSTÉM, PŘESUN K INSTITUCÍM (SPOLEČNOST NÁRODŮ), BRICOLAGEOVSKÉ INSTITUCE JAKO SVOBODNÉ MĚSTO DANZIG, MEZIVÁLEČNÉ REŽIMY OCHRANY MENŠIN A SEBEUVĚDOMĚLÉ ODMÍTNUTÍ 'LOGIKY SUVERENITY'. Inspirovaly a byly inspirovány inovacemi v pracovním právu: 'PRŮMYSLOVÁ VÁLKA' OBSAŽENA ANALOGICKY 'SKUTEČNÉ' VÁLCE, VADY LOGIKY VLASTNICTVÍ PARALELNÍ VADÁM LOGIKY SUVERENITY. (2) Zároveň byl sociální KLÍČOVÝM HESLEM NACIONALISMU SAMOTNÉHO, v jeho fašistické i autoritářské pravicové podobě v mnoha částech světa, včetně nových států vykrojených z Osmanské a Rakousko-uherské říše a zemí jako ARGENTINA (PERÓN) A BRAZÍLIE (VARGAS). A z toho plyne fakt, který zní šokujícím způsobem, ale je přesně to, co Kennedy tvrdí: V MEZIVÁLEČNÉM OBDOBÍ POUŽÍVALI POKROKOVÍ ČI REVOLUČNÍ LEVICOVÍ REFORMÁTOŘI V ZEMÍCH JAKO KOLUMBIE A MEXIKO A JEJICH PRAVICOVÍ NEPŘÁTELÉ PRAKTICKY TOTOŽNOU SOCIÁLNÍ, KORPORATIVISTICKOU, ANTIKAPITALISTICKOU A ANTILIBERÁLNÍ RÉTORIKU. MEXICKÉ FEDERÁLNÍ PRACOVNÍ ZÁKONY 30. LET, SLAVNÝ ÚSPĚCH OBRODY MEXICKÉ LEVICE ZA CÁRDENASE, SE BLÍZCE PODOBALY MUSSOLINIHO CARTA DI LAVORO, NE-LI ŽE NA NĚM BYLY PŘÍMO MODELOVÁNY. (3) V KOLONIÍCH znamenal nacionalismus NÁRODNÍ NEZÁVISLOST a byl VOLÁNÍM LIDU JAKO CELKU DO ZBRANĚ PROTI KOLONIÁLNÍMU PÁNU. Koloniální mocnosti verbovaly domorodce do nižších pater správ; prvky předkoloniálních elit přežily a hledaly úspěch v novém řádu skrze evropské vzdělání. Někteří našli francouzské, britské, nizozemské a americké AKADEMICKÉ MENTORY-SPOJENCE, kteří jim pomohli PROMĚNIT POKROKOVOU METROPOLITNÍ SOCIÁLNÍ IDEOLOGII V ARGUMENT PRO VŠE OD 'DOMORODÉHO BLAHOBYTU' PO NÁRODNÍ NEZÁVISLOST (FURNIVALL, nizozemští sociologové adatového práva, LAMBERT, TUGWELL).",
+      "title": "Nationalism in three modes",
+      "text": "As the social settled in the West, students from eastern Europe, Latin America, southern, eastern and south-eastern Asia, the Arab world and Africa appropriated it and took it home. NATIONALISM WAS A KEY DIMENSION OF THE DIFFUSION, BUT IN AT LEAST THREE MODES, NOT AS A SINGLE PHENOMENON. (1) NATIONALISM AS IRREDENTISM AND A DRIVING FORCE OF ETHNIC PURITY — which the progressive European social people regarded, along with class conflict, as a scourge capable of destroying European civilisation. The theorists of the social therefore undertook A PROFOUND RETHINKING OF PUBLIC INTERNATIONAL LAW in an attempt to contain and shape nationalism as A LIFE-GIVING AND LIFE-DESTROYING IRRATIONAL FORCE. The result: THE MANDATE SYSTEM, THE SHIFT TO INSTITUTIONS (THE LEAGUE OF NATIONS), BRICOLAGE INSTITUTIONS SUCH AS THE FREE CITY OF DANZIG, THE INTERWAR MINORITY PROTECTION REGIMES AND A SELF-CONSCIOUS REJECTION OF THE 'LOGIC OF SOVEREIGNTY'. They inspired and were inspired by innovations in labour law: 'INDUSTRIAL WAR' CONTAINED BY ANALOGY WITH 'REAL' WAR, THE DEFECTS OF THE LOGIC OF PROPERTY PARALLELING THOSE OF THE LOGIC OF SOVEREIGNTY. (2) At the same time the social was A KEY SLOGAN OF NATIONALISM ITSELF, in its fascist and authoritarian right-wing forms in many parts of the world, including the new states carved out of the Ottoman and Austro-Hungarian empires and countries such as ARGENTINA (PERÓN) AND BRAZIL (VARGAS). And from this follows a fact that sounds shocking but is exactly what Kennedy claims: IN THE INTERWAR PERIOD, PROGRESSIVE OR REVOLUTIONARY LEFT-WING REFORMERS IN COUNTRIES SUCH AS COLOMBIA AND MEXICO AND THEIR RIGHT-WING ENEMIES USED VIRTUALLY IDENTICAL SOCIAL, CORPORATIST, ANTI-CAPITALIST AND ANTI-LIBERAL RHETORIC. THE MEXICAN FEDERAL LABOUR LAWS OF THE 1930s, THE CELEBRATED ACHIEVEMENT OF THE MEXICAN LEFT'S REVIVAL UNDER CÁRDENAS, CLOSELY RESEMBLED MUSSOLINI'S CARTA DI LAVORO, IF THEY WERE NOT DIRECTLY MODELLED ON IT. (3) IN THE COLONIES nationalism meant NATIONAL INDEPENDENCE and was A CALL TO ARMS OF THE PEOPLE AS A WHOLE AGAINST THE COLONIAL MASTER. The colonial powers recruited natives into the lower reaches of the administrations; elements of pre-colonial elites survived and sought success in the new order through European education. Some found French, British, Dutch and American ACADEMIC MENTOR-ALLIES who helped them TURN PROGRESSIVE METROPOLITAN SOCIAL IDEOLOGY INTO AN ARGUMENT FOR EVERYTHING FROM 'NATIVE WELFARE' TO NATIONAL INDEPENDENCE (FURNIVALL, the Dutch sociologists of adat law, LAMBERT, TUGWELL).",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak sociální teoretici přehodnotili mezinárodní právo kvůli nacionalismu a co z toho vzešlo?",
-          "a": "Chápali nacionalismus jako ŽIVOTODÁRNOU I ŽIVOT NIČÍCÍ IRACIONÁLNÍ SÍLU, kterou je třeba obsáhnout a tvarovat. Výsledek: MANDÁTNÍ SYSTÉM, přesun k institucím (SPOLEČNOST NÁRODŮ), bricolageové instituce jako SVOBODNÉ MĚSTO DANZIG, MEZIVÁLEČNÉ REŽIMY OCHRANY MENŠIN a SEBEUVĚDOMĚLÉ ODMÍTNUTÍ 'LOGIKY SUVERENITY'.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Co dokládá srovnání mexických pracovních zákonů 30. let s Carta di Lavoro?",
-          "a": "Že v meziválečném období používali POKROKOVÍ LEVICOVÍ REFORMÁTOŘI A JEJICH PRAVICOVÍ NEPŘÁTELÉ PRAKTICKY TOTOŽNOU SOCIÁLNÍ, KORPORATIVISTICKOU, ANTIKAPITALISTICKOU A ANTILIBERÁLNÍ RÉTORIKU. Mexické federální pracovní zákony, slavný úspěch levice za CÁRDENASE, se blízce podobaly MUSSOLINIHO CARTA DI LAVORO, ne-li že na ní byly přímo modelovány.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak sociální fungoval v koloniích?",
-          "a": "Nacionalismus tam znamenal NÁRODNÍ NEZÁVISLOST a volání lidu do zbraně proti koloniálnímu pánu. Domorodé elity vzdělané v Evropě našly AKADEMICKÉ MENTORY-SPOJENCE (Furnivall, nizozemští sociologové adatového práva, Lambert, Tugwell), kteří jim pomohli PROMĚNIT POKROKOVOU METROPOLITNÍ SOCIÁLNÍ IDEOLOGII V ARGUMENT PRO VŠE OD 'DOMORODÉHO BLAHOBYTU' PO NÁRODNÍ NEZÁVISLOST.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How did the social theorists rethink international law because of nationalism, and what came of it?", "a": "They understood nationalism as A LIFE-GIVING AND LIFE-DESTROYING IRRATIONAL FORCE to be contained and shaped. The result: THE MANDATE SYSTEM, the shift to institutions (THE LEAGUE OF NATIONS), bricolage institutions such as THE FREE CITY OF DANZIG, THE INTERWAR MINORITY PROTECTION REGIMES and A SELF-CONSCIOUS REJECTION OF THE 'LOGIC OF SOVEREIGNTY'.", "difficulty": 3, "kind": "pripad", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What does the comparison of the Mexican labour laws of the 1930s with the Carta di Lavoro demonstrate?", "a": "That in the interwar period PROGRESSIVE LEFT-WING REFORMERS AND THEIR RIGHT-WING ENEMIES USED VIRTUALLY IDENTICAL SOCIAL, CORPORATIST, ANTI-CAPITALIST AND ANTI-LIBERAL RHETORIC. The Mexican federal labour laws, the celebrated achievement of the left under CÁRDENAS, closely resembled MUSSOLINI'S CARTA DI LAVORO, if they were not directly modelled on it.", "difficulty": 3, "kind": "pripad", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "How did the social operate in the colonies?", "a": "Nationalism there meant NATIONAL INDEPENDENCE and a call to arms against the colonial master. Native elites educated in Europe found ACADEMIC MENTOR-ALLIES (Furnivall, the Dutch sociologists of adat law, Lambert, Tugwell) who helped them TURN PROGRESSIVE METROPOLITAN SOCIAL IDEOLOGY INTO AN ARGUMENT FOR EVERYTHING FROM 'NATIVE WELFARE' TO NATIONAL INDEPENDENCE.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "36": {
-      "title": "Každý národ objevil totéž — katalog národních přivlastnění",
-      "text": "Vzorec, který Shalakany ukázal na egyptském případu, se opakuje: PŘÍPAD ZA PŘÍPADEM NACHÁZELA DOVÁŽEJÍCÍ ELITA V NÁRODNÍ KULTUŘE NĚCO, CO DĚLALO SOCIÁLNÍ — NA ROZDÍL OD FORMALISTICKÉHO INDIVIDUALISMU PŘIPISOVANÉHO CLT — JEDINEČNĚ PŘÍHODNÝM PRÁVĚ PRO DOTYČNÝ NÁROD. KATOLICKÝ JIH EVROPY (Portugalsko, Španělsko, Itálie, Maďarsko): sociální je filozofií CÍRKVE vyslovenou v RERUM NOVARUM (1897) — 'o nových věcech', tedy industrializaci, urbanizaci, vzájemné závislosti; ve 30. letech Vatikán uzavřel neslavnou dohodu s fašismem, zvěčněnou v sociální rétorice QUADRAGESIMO ANNO. PROTESTANTSKÝ SEVER: Nizozemci vykládali sociální jako obzvlášť příhodný pro VZÁJEMNĚ ZÁVISLOU KULTURU HRÁZOVÉHO VYSOUŠENÍ PŮDY. RUSKO: slavná VESNICKÁ OBCE MIR. USA: ROSCOE POUND v pozoruhodném eseji v Harvard Law Review v LEDNU 1917 SLOŽIL NEDUHY MODERNÍ AMERICKÉ SPOLEČNOSTI KE DVEŘÍM 'ROMANIZACE' AMERICKÉHO PRÁVA ve druhé polovině 19. století; CLT představil jako 'CIZÍ' MÓD PRÁVNÍHO MYŠLENÍ, jehož formalistický individualismus vytěsnil 'ORGANICKÝ' COMMON-LAW MÓD ZALOŽENÝ NA POJMU 'VZTAHU' (muž a žena, pán a sluha, pronajímatel a nájemce) — znovuobjevení středověké common-law tradice mělo být základem pro uvedení amerického práva do souladu s podmínkami sociální vzájemné závislosti. CITACÍ NĚMECKÝCH A FRANCOUZSKÝCH CIVILISTICKÝCH PŮVODCŮ PROGRAMU BYLO PRAMÁLO. LATINSKÁ AMERIKA: pravicoví autoritáři se dovolávali HISPANIDAD, jejíž sociální podstata byla katolická, ale zároveň jedinečně americká. MEXIKO: pozemková reforma a systém EJIDO (státem regulované a dotované družstevní rolnické zemědělství) byl údajně návratem k PŘEDKOLUMBOVSKÝM MODŮM SOCIÁLNÍ ORGANIZACE. EGYPT: SANHÚRÍHO eklektický, sociálně orientovaný občanský zákoník, později přijatý či přizpůsobený v mnoha dalších arabských zemích, byl DOMORODÝ A VÝSOSTNĚ TRADIČNÍ A ZÁROVEŇ ULTRAMODERNÍ, PROTOŽE ISLÁMSKÉ PRÁVO BYLO A VŽDY BYLO SOCIÁLNÍ. AFRIKA: SENGHORŮV NÉGRITUDE, KENYATTOVA 'AFRICKÁ IDEA VLASTNICTVÍ', NYERERŮV AFRICKÝ SOCIALISMUS UJAMAA. ČÍNA: SUN JAT-SEN a poté ČANG KAJ-ŠEK rozvinuli nacionalistickou ideologii KUOMINTANGU, hlavního odpůrce čínského komunismu, jako složitou směs KONFUCIÁNSKÉHO 'SOCIÁLNÍHO' A LIBERÁLNÍCH PRVKŮ — PO DRUHÉ SVĚTOVÉ VÁLCE NAJAL ČANG ROSCOE POUNDA JAKO PRÁVNÍHO PORADCE při výstavbě právního režimu Čínské republiky na Tchaj-wanu. A sociální jako veřejnoprávní ideologie ZBAVENÉ MOCI PODSKUPINY v britské koloniální struktuře: QUEBEČANI v Kanadě, AFRIKÁNCI v Jižní Africe — civilistické soukromé právo si tam udrželo FORMALISMUS METROPOLE MENŠINY JAKO SYMBOL ODPORU vůči common law koloniální mocnosti. PALESTINA: juristé ovlivnění Savignym a Ehrlichem rozvinuli sekulární 'HEBREJSKÉ PRÁVO', které mělo být nejdřív individualistické a pak sociální, A PAK VYŠLO Z MÓDY PRÁVĚ V OKAMŽIKU, KDY STÁT IZRAEL ZAČAL ROZVÍJET VYSOCE SOCIÁLNÍ REŽIM VEŘEJNÉHO PRÁVA.",
+      "title": "Every nation discovered the same thing — a catalogue of national appropriations",
+      "text": "The pattern Shalakany demonstrated for the Egyptian case repeats itself: CASE AFTER CASE, THE IMPORTING ELITE FOUND IN THE NATIONAL CULTURE SOMETHING THAT MADE THE SOCIAL — AS AGAINST THE FORMALIST INDIVIDUALISM ATTRIBUTED TO CLT — UNIQUELY APPROPRIATE FOR THAT PARTICULAR NATION. THE CATHOLIC SOUTH OF EUROPE (Portugal, Spain, Italy, Hungary): the social is the philosophy of THE CHURCH as stated in RERUM NOVARUM (1897) — 'of new things', that is industrialisation, urbanisation, interdependence; in the 1930s the Vatican made its inglorious accommodation with fascism, immortalised in the social rhetoric of QUADRAGESIMO ANNO. THE PROTESTANT NORTH: the Dutch interpreted the social as particularly appropriate to THE INTERDEPENDENT CULTURE OF DYKE-BUILDING AND LAND RECLAMATION. RUSSIA: the celebrated VILLAGE COMMUNE, THE MIR. THE USA: ROSCOE POUND in a remarkable essay in the Harvard Law Review of JANUARY 1917 LAID THE ILLS OF MODERN AMERICAN SOCIETY AT THE DOOR OF THE 'ROMANISATION' OF AMERICAN LAW in the second half of the 19th century; he presented CLT as an 'ALIEN' mode of legal thought whose formalist individualism had displaced the 'ORGANIC' COMMON LAW MODE BASED ON THE CONCEPT OF 'RELATION' (husband and wife, master and servant, landlord and tenant) — the rediscovery of the medieval common law tradition was to be the basis for bringing American law into accord with the conditions of social interdependence. THERE WERE PRECIOUS FEW CITATIONS OF THE GERMAN AND FRENCH CIVILIAN ORIGINATORS OF THE PROGRAMME. LATIN AMERICA: right-wing authoritarians invoked HISPANIDAD, whose social essence was Catholic yet uniquely American. MEXICO: land reform and the EJIDO system (state-regulated and subsidised cooperative peasant agriculture) was said to be a return to PRE-COLUMBIAN MODES OF SOCIAL ORGANISATION. EGYPT: SANHURI'S eclectic, socially oriented civil code, later adopted or adapted in many other Arab countries, was INDIGENOUS AND EMINENTLY TRADITIONAL AND AT THE SAME TIME ULTRA-MODERN, BECAUSE ISLAMIC LAW WAS AND ALWAYS HAD BEEN SOCIAL. AFRICA: SENGHOR'S NÉGRITUDE, KENYATTA'S 'AFRICAN IDEA OF PROPERTY', NYERERE'S AFRICAN SOCIALISM UJAMAA. CHINA: SUN YAT-SEN and then CHIANG KAI-SHEK developed the nationalist ideology of the KUOMINTANG, the main opponent of Chinese communism, as a complex mixture of CONFUCIAN 'SOCIAL' AND LIBERAL ELEMENTS — AFTER THE SECOND WORLD WAR CHIANG HIRED ROSCOE POUND AS A LEGAL ADVISER in building the legal regime of the Republic of China on Taiwan. And the social as a public law ideology of DISEMPOWERED SUBGROUPS within the British colonial structure: the QUEBECOIS in Canada, the AFRIKANERS in South Africa — there the civilian private law retained THE FORMALISM OF THE MINORITY'S METROPOLE AS A SYMBOL OF RESISTANCE to the common law of the colonial power. PALESTINE: jurists influenced by Savigny and Ehrlich developed a secular 'HEBREW LAW' which was to be first individualist and then social, AND THEN WENT OUT OF FASHION AT PRECISELY THE MOMENT WHEN THE STATE OF ISRAEL BEGAN TO DEVELOP A HIGHLY SOCIAL PUBLIC LAW REGIME.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak Roscoe Pound roku 1917 přivlastnil sociální Americe?",
-          "a": "V eseji v Harvard Law Review složil neduhy moderní americké společnosti KE DVEŘÍM 'ROMANIZACE' AMERICKÉHO PRÁVA v druhé polovině 19. století: CLT představil jako 'CIZÍ' MÓD, jehož formalistický individualismus vytěsnil 'ORGANICKÝ' COMMON-LAW MÓD ZALOŽENÝ NA POJMU 'VZTAHU'. CITACÍ NĚMECKÝCH A FRANCOUZSKÝCH PŮVODCŮ PROGRAMU BYLO PRAMÁLO.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jmenuj aspoň pět národních přivlastnění sociálního.",
-          "a": "KATOLICKÝ JIH: filozofie církve v RERUM NOVARUM (1897). NIZOZEMÍ: kultura HRÁZOVÉHO VYSOUŠENÍ PŮDY. RUSKO: vesnická obec MIR. MEXIKO: systém EJIDO jako návrat k PŘEDKOLUMBOVSKÝM modům. EGYPT: Sanhúrího zákoník, protože ISLÁMSKÉ PRÁVO VŽDY BYLO SOCIÁLNÍ. AFRIKA: Senghorův NÉGRITUDE, Kenyattova 'africká idea vlastnictví', Nyererova UJAMAA. ČÍNA: konfuciánské 'sociální' v ideologii Kuomintangu.",
-          "difficulty": 3,
-          "kind": "mapa",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Proč si afrikánské a quebecké soukromé právo udrželo formalismus?",
-          "a": "Protože CIVILISTICKÉ SOUKROMÉ PRÁVO METROPOLE MENŠINY FUNGOVALO JAKO SYMBOL ODPORU vůči COMMON LAW KOLONIÁLNÍ MOCNOSTI. Sociální tam naopak sloužil jako veřejnoprávní ideologie zbavené moci podskupiny v britské koloniální struktuře.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How did Roscoe Pound appropriate the social for America in 1917?", "a": "In an essay in the Harvard Law Review he laid the ills of modern American society AT THE DOOR OF THE 'ROMANISATION' OF AMERICAN LAW in the second half of the 19th century: he presented CLT as an 'ALIEN' MODE whose formalist individualism had displaced the 'ORGANIC' COMMON LAW MODE BASED ON THE CONCEPT OF 'RELATION'. THERE WERE PRECIOUS FEW CITATIONS OF THE GERMAN AND FRENCH ORIGINATORS.", "difficulty": 3, "kind": "pripad", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Name at least five national appropriations of the social.", "a": "THE CATHOLIC SOUTH: the philosophy of the Church in RERUM NOVARUM (1897). THE NETHERLANDS: the culture of DYKE-BUILDING AND LAND RECLAMATION. RUSSIA: the village commune, the MIR. MEXICO: the EJIDO system as a return to PRE-COLUMBIAN modes. EGYPT: Sanhuri's code, because ISLAMIC LAW ALWAYS HAD BEEN SOCIAL. AFRICA: Senghor's NÉGRITUDE, Kenyatta's 'African idea of property', Nyerere's UJAMAA. CHINA: the Confucian 'social' in Kuomintang ideology.", "difficulty": 3, "kind": "mapa", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Why did Afrikaner and Quebecois private law retain its formalism?", "a": "Because THE CIVILIAN PRIVATE LAW OF THE MINORITY'S METROPOLE FUNCTIONED AS A SYMBOL OF RESISTANCE to THE COMMON LAW OF THE COLONIAL POWER. The social there served instead as the public law ideology of a disempowered subgroup within the British colonial structure.", "difficulty": 3, "kind": "pripad", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "37": {
-      "title": "Proč každý národ objevil totéž — hypotéza vynalezených společenství",
-      "text": "Savignyho formalistické odvození celého soukromého práva z práva a vůle ustoupilo Savignyho trvání na tom, že národní právní řády PŘEDSTAVUJÍ A MAJÍ PŘEDSTAVOVAT ZVLÁŠTNÍ NORMATIVNÍ ŘÁD DANÉHO LIDU. ALE ZŮSTÁVÁ OTÁZKA, PROČ V OKAMŽIKU OBJEVOVÁNÍ NÁRODNÍ ZVLÁŠTNOSTI KAŽDÝ NÁROD OBJEVIL TOTÉŽ. Kennedyho snadný, ale zprvu věrohodný výklad: SOCIÁLNÍ BYL NÁSTROJEM ELIT ČELÍCÍCH PRÁVĚ NEPŘÍTOMNOSTI SOCIÁLNÍHO — tedy elit pověřených správou území ROZERVANÝCH TŘÍDNÍM KONFLIKTEM nebo obsahujících DIVOCE HETEROGENNÍ KMENOVÉ, KULTURNÍ, RASOVÉ A NÁBOŽENSKÉ SKUPINY, nejprve sestavených jako kolonie podle zájmů říší a velmocí a pak při národní nezávislosti znovu rozparcelovaných podle zájmů velmocí a místních elit. IDEOLOGIE SOCIÁLNÍHO NEBYLA (možná) ODRAZEM NÁRODNÍ ZVLÁŠTNOSTI, NÝBRŽ NÁSTROJEM VE 'VYMÝŠLENÍ' DOSUD NEEXISTUJÍCÍCH NÁRODNÍCH SPOLEČENSTVÍ (HOBSBAWM, ANDERSON). Tuhle hypotézu podle Kennedyho podporuje příběh genderu v sociálním.",
+      "title": "Why every nation discovered the same thing — the invented-communities hypothesis",
+      "text": "Savigny's formalist derivation of the whole of private law from right and will gave way to Savigny's insistence that national legal orders REPRESENT AND OUGHT TO REPRESENT THE PARTICULAR NORMATIVE ORDER OF THE PEOPLE IN QUESTION. BUT THE QUESTION REMAINS WHY, AT THE MOMENT OF DISCOVERING NATIONAL PARTICULARITY, EVERY NATION DISCOVERED THE SAME THING. Kennedy's easy but initially plausible explanation: THE SOCIAL WAS AN INSTRUMENT OF ELITES FACING PRECISELY THE ABSENCE OF THE SOCIAL — elites charged with administering territories TORN BY CLASS CONFLICT or containing WILDLY HETEROGENEOUS TRIBAL, CULTURAL, RACIAL AND RELIGIOUS GROUPS, first assembled as colonies according to the interests of empires and great powers and then, at national independence, re-parcelled according to the interests of great powers and local elites. THE IDEOLOGY OF THE SOCIAL WAS (perhaps) NOT A REFLECTION OF NATIONAL PARTICULARITY BUT AN INSTRUMENT IN THE 'INVENTION' OF AS YET NON-EXISTENT NATIONAL COMMUNITIES (HOBSBAWM, ANDERSON). This hypothesis is, on Kennedy's view, supported by the story of gender in the social.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč podle Kennedyho každý národ 'objevil' v sociálním totéž?",
-          "a": "Protože SOCIÁLNÍ BYL NÁSTROJEM ELIT ČELÍCÍCH PRÁVĚ NEPŘÍTOMNOSTI SOCIÁLNÍHO — území rozervaných třídním konfliktem nebo divoce heterogenních kmenových, kulturních, rasových a náboženských skupin. IDEOLOGIE SOCIÁLNÍHO NEBYLA ODRAZEM NÁRODNÍ ZVLÁŠTNOSTI, NÝBRŽ NÁSTROJEM VE 'VYMÝŠLENÍ' DOSUD NEEXISTUJÍCÍCH NÁRODNÍCH SPOLEČENSTVÍ (Hobsbawm, Anderson).",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "Why, on Kennedy's account, did every nation 'discover' the same thing in the social?", "a": "Because THE SOCIAL WAS AN INSTRUMENT OF ELITES FACING PRECISELY THE ABSENCE OF THE SOCIAL — territories torn by class conflict or wildly heterogeneous in tribe, culture, race and religion. THE IDEOLOGY OF THE SOCIAL WAS NOT A REFLECTION OF NATIONAL PARTICULARITY BUT AN INSTRUMENT IN THE 'INVENTION' OF AS YET NON-EXISTENT NATIONAL COMMUNITIES (Hobsbawm, Anderson).", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "38": {
-      "title": "Sex a rodina: dramatická nejednoznačnost sociálního",
-      "text": "Myšlenka 'sociálního' byla při aplikaci na rodinné a sexuální vztahy DRAMATICKY NEJEDNOZNAČNÁ. Sociální požadoval, aby zaměstnavatelé jednali s dělníky a obchodníci se spotřebiteli podle SOCIÁLNÍ ETIKY, a rétorika byla SOLIDARITA A KOMUNITA. Konstrukce vztahů členů rodiny jako vnitřně ALTRUISTICKÝCH A OCHRANITELSKÝCH byla zjevným odkazem a oporou pro požadavky dělníků a spotřebitelů. V jistém smyslu šlo o to VRÁTIT ZPĚT ROZKLAD DOMÁCNOSTI Z 19. STOLETÍ A ZNOVU ULOŽIT KAPITALISTOVI POVINNOSTI PATRIARCHY, TENTOKRÁT SE STÁTNÍM VYMÁHÁNÍM SOLIDARITY MÍSTO TOLERANCE LIBOVŮLE. Nepřátelé sociálního neúnavně poukazovali, že je to 'REGRESE' ZE SMLOUVY KE STAVU a že je 'ponižující' zacházet s beneficienty, jako by jim jako členům římské či feudální domácnosti chyběla právní způsobilost. ZÁROVEŇ ALE SOCIÁLNÍ ZNAMENAL MODERNITU. Pokrokový sociální přístup k sexu a rodině v Severním Atlantiku byl výrazně SEKULÁRNÍ, ovlivněný PRVNÍ VLNOU ZÁPADNÍHO FEMINISMU, a sám ovlivnil nejsekulárnější a nejzápadnější segmenty elit periferie. Jeho program: ULEVIT MNOHA ZÁKAZŮM GENDEROVÉHO REŽIMU 19. STOLETÍ A ZÁROVEŇ ZVÝŠIT VTÍRAVÉ VYMÁHÁNÍ POVINNOSTÍ PATRIARCHY, KTERÉ CLT POKLÁDAL ZA POUZE MORÁLNÍ, NE PRÁVNÍ. Sociální ideologie zacházela s rodinou jako s INSTITUCÍ S FUNKCEMI A ÚČELY ZÁSADNÍMI PRO SOCIÁLNÍ CELEK — rodina nebyla věcí pouze soukromého zájmu ani oblastí karanténovanou jako morální místo právní.",
+      "title": "Sex and the family: the dramatic ambiguity of the social",
+      "text": "The idea of 'the social' was DRAMATICALLY AMBIGUOUS when applied to family and sexual relations. The social demanded that employers treat workers, and merchants treat consumers, according to A SOCIAL ETHIC, and the rhetoric was SOLIDARITY AND COMMUNITY. The construction of the relations of family members as inherently ALTRUISTIC AND PROTECTIVE was an obvious reference and support for the demands of workers and consumers. In one sense it was a matter of REVERSING THE 19TH-CENTURY DISSOLUTION OF THE HOUSEHOLD AND REIMPOSING ON THE CAPITALIST THE DUTIES OF THE PATRIARCH, THIS TIME WITH STATE ENFORCEMENT OF SOLIDARITY INSTEAD OF TOLERANCE OF DISCRETION. The enemies of the social tirelessly pointed out that this was a 'REGRESSION' FROM CONTRACT TO STATUS and that it was 'degrading' to treat beneficiaries as though, like members of a Roman or feudal household, they lacked legal capacity. AT THE SAME TIME, HOWEVER, THE SOCIAL MEANT MODERNITY. The progressive social approach to sex and the family in the North Atlantic was markedly SECULAR, influenced by THE FIRST WAVE OF WESTERN FEMINISM, and itself influenced the most secular and most Western segments of the peripheral elites. Its programme: TO RELAX MANY OF THE PROHIBITIONS OF THE 19TH-CENTURY GENDER REGIME AND AT THE SAME TIME TO INCREASE THE INTRUSIVE ENFORCEMENT OF THE DUTIES OF THE PATRIARCH THAT CLT HAD REGARDED AS MERELY MORAL, NOT LEGAL. Social ideology treated the family as AN INSTITUTION WITH FUNCTIONS AND PURPOSES ESSENTIAL TO THE SOCIAL WHOLE — the family was neither a matter of purely private concern nor an area quarantined as moral rather than legal.",
       "terms": [],
       "cards": [
-        {
-          "q": "V čem byl sociální při aplikaci na rodinu nejednoznačný?",
-          "a": "Na jedné straně chtěl VRÁTIT ZPĚT ROZKLAD DOMÁCNOSTI Z 19. STOLETÍ A ZNOVU ULOŽIT KAPITALISTOVI POVINNOSTI PATRIARCHY (se státním vymáháním solidarity místo tolerance libovůle) — nepřátelé to označovali za 'REGRESI ZE SMLOUVY KE STAVU'. Na druhé straně ZNAMENAL MODERNITU: byl sekulární, ovlivněný první vlnou feminismu.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jaký byl pokrokový sociální program pro rodinu, shrnutý jednou větou?",
-          "a": "ULEVIT MNOHA ZÁKAZŮM GENDEROVÉHO REŽIMU 19. STOLETÍ A ZÁROVEŇ ZVÝŠIT VTÍRAVÉ VYMÁHÁNÍ POVINNOSTÍ PATRIARCHY, KTERÉ CLT POKLÁDAL ZA POUZE MORÁLNÍ, NE PRÁVNÍ. Rodina se stala INSTITUCÍ s funkcemi zásadními pro sociální celek — ne věcí pouze soukromého zájmu.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "In what way was the social ambiguous when applied to the family?", "a": "On one side it wanted to REVERSE THE 19TH-CENTURY DISSOLUTION OF THE HOUSEHOLD AND REIMPOSE ON THE CAPITALIST THE DUTIES OF THE PATRIARCH (with state enforcement of solidarity instead of tolerance of discretion) — which its enemies called a 'REGRESSION FROM CONTRACT TO STATUS'. On the other side IT MEANT MODERNITY: it was secular and influenced by the first wave of feminism.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What was the progressive social programme for the family, in one sentence?", "a": "TO RELAX MANY OF THE PROHIBITIONS OF THE 19TH-CENTURY GENDER REGIME AND AT THE SAME TIME TO INCREASE THE INTRUSIVE ENFORCEMENT OF THE DUTIES OF THE PATRIARCH THAT CLT HAD REGARDED AS MERELY MORAL, NOT LEGAL. The family became AN INSTITUTION with functions essential to the social whole — not a matter of purely private concern.", "difficulty": 3, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     }
