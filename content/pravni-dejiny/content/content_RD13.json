@@ -1,558 +1,240 @@
 {
   "lecture_id": "RD13",
-  "title": "Kreß, Mezinárodní trestní právo (MPEPIL)",
+  "title": "Kreß, International Criminal Law (MPEPIL)",
   "slides": {
     "1": {
-      "title": "Čtyři významy jednoho pojmu",
-      "text": "Pojem 'MEZINÁRODNÍ TRESTNÍ PRÁVO' TRPÍ ZNAČNOU MNOHOZNAČNOSTÍ a Kreß rozlišuje ČTYŘI nejdůležitější významy. TŘEBA SI JE UMĚT ODLIŠIT, PROTOŽE CELÝ ČLÁNEK JE POSTAVENÝ NA TOM ROZLIŠENÍ. 1) PRÁVO UPRAVUJÍCÍ NORMATIVNÍ TRESTNÍ JURISDIKCI STÁTŮ — tedy vnitrostátní předpisy o (extra)teritoriálním dosahu trestního práva, plus meze, které tomu klade mezinárodní právo; skládá se tedy z NÁRODNÍCH I MEZINÁRODNÍCH PRAVIDEL. 2) PRÁVO MEZINÁRODNÍ SPOLUPRÁCE V TRESTNÍCH VĚCECH. 3) TRANSNACIONÁLNÍ TRESTNÍ PRÁVO — soubor smluv o zločinech přeshraniční povahy. 4) MEZINÁRODNÍ TRESTNÍ PRÁVO STRICTO SENSU (a nadnárodní trestní právo) — které zakládá INDIVIDUÁLNÍ TRESTNÍ ODPOVĚDNOST PŘÍMO PODLE MEZINÁRODNÍHO PRÁVA.",
+      "title": "Four senses of one term",
+      "text": "The term 'INTERNATIONAL CRIMINAL LAW' SUFFERS FROM CONSIDERABLE AMBIGUITY, and Kreß distinguishes FOUR principal senses. YOU MUST BE ABLE TO TELL THEM APART, BECAUSE THE WHOLE ARTICLE IS BUILT ON THE DISTINCTION. 1) THE LAW GOVERNING THE PRESCRIPTIVE CRIMINAL JURISDICTION OF STATES — that is, domestic rules on the (extra)territorial reach of criminal law, plus the limits international law places on it; it therefore consists of NATIONAL AND INTERNATIONAL RULES ALIKE. 2) THE LAW OF INTERNATIONAL COOPERATION IN CRIMINAL MATTERS. 3) TRANSNATIONAL CRIMINAL LAW — the body of treaties on crimes of a cross-border nature. 4) INTERNATIONAL CRIMINAL LAW STRICTO SENSU (and supranational criminal law) — which establishes INDIVIDUAL CRIMINAL RESPONSIBILITY DIRECTLY UNDER INTERNATIONAL LAW.",
       "terms": [],
       "cards": [
-        {
-          "q": "Vyjmenuj čtyři významy pojmu 'mezinárodní trestní právo'.",
-          "a": "1) Právo upravující NORMATIVNÍ TRESTNÍ JURISDIKCI STÁTŮ (národní předpisy o dosahu trestního práva plus meze mezinárodního práva). 2) Právo MEZINÁRODNÍ SPOLUPRÁCE v trestních věcech. 3) TRANSNACIONÁLNÍ trestní právo (smlouvy o přeshraničních zločinech). 4) Mezinárodní trestní právo STRICTO SENSU, které zakládá individuální trestní odpovědnost přímo podle mezinárodního práva.",
-          "difficulty": 2,
-          "kind": "schema",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Name the four senses of the term 'international criminal law'.", "a": "1) The law governing the PRESCRIPTIVE CRIMINAL JURISDICTION OF STATES (domestic rules on the reach of criminal law plus the limits of international law). 2) The law of INTERNATIONAL COOPERATION in criminal matters. 3) TRANSNATIONAL criminal law (treaties on cross-border crimes). 4) International criminal law STRICTO SENSU, which establishes individual criminal responsibility directly under international law.", "difficulty": 2, "kind": "schema", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "2": {
-      "title": "Zásady trestní jurisdikce a formy spolupráce",
-      "text": "Zásady prvního významu: TERITORIALITA, AKTIVNÍ A PASIVNÍ PERSONALITA, OCHRANNÁ ZÁSADA (možná včetně 'doktríny účinků'), ZÁSADA TRESTNÍ JURISDIKCE V ZASTOUPENÍ a UNIVERZÁLNÍ JURISDIKCE. A rozlišení, které se cení: ZATÍMCO ZÁSADU TERITORIALITY DODRŽUJÍ VŠECHNY STÁTY A JE MEZINÁRODNĚPRÁVNĚ NESPORNÁ, U OSTATNÍCH SE PRAXE LIŠÍ A JEJICH ZÁKONNOST JE VÍC ČI MÉNĚ SPORNÁ. Spolupráce v trestních věcech znamená ÚMYSLNÉ POSKYTNUTÍ PODPORY TRESTNÍMU ŘÍZENÍ V JINÉM FÓRU. Mezi státy se původně rozlišovalo trojí: VYDÁNÍ (extradice) osoby k stíhání či výkonu trestu; PRŮVOZ osoby přes třetí stát; a VZÁJEMNÁ POMOC zahrnující hlavně OPATŘOVÁNÍ DŮKAZŮ. Časem se oddělil PŘEDÁNÍ K VÝKONU TRESTU a novější přírůstky jsou PŘEDÁNÍ TRESTNÍHO ŘÍZENÍ a takzvaná 'PASIVNÍ SPOLUPRÁCE', kdy dožádaný stát povolí, aby procesní úkony provedl dožadující stát. NEJNOVĚJŠÍM VÝVOJEM JE SPOLUPRÁCE MEZI STÁTY A MEZINÁRODNÍMI TRESTNÍMI SOUDY — a ta se čím dál víc označuje za VERTIKÁLNÍ proti HORIZONTÁLNÍ spolupráci mezistátní.",
-      "terms": [
-        { "term": "vertikální × horizontální spolupráce", "def": "Vertikální je spolupráce mezi státem a mezinárodním trestním soudem; horizontální je mezistátní." }
-      ],
+      "title": "Principles of criminal jurisdiction and forms of cooperation",
+      "text": "The principles of the first sense: TERRITORIALITY, ACTIVE AND PASSIVE PERSONALITY, THE PROTECTIVE PRINCIPLE (possibly including the 'effects doctrine'), THE PRINCIPLE OF VICARIOUS CRIMINAL JURISDICTION and UNIVERSAL JURISDICTION. And a distinction worth having: WHILE THE PRINCIPLE OF TERRITORIALITY IS OBSERVED BY ALL STATES AND IS UNCONTESTED IN INTERNATIONAL LAW, PRACTICE VARIES ON THE OTHERS AND THEIR LEGALITY IS MORE OR LESS DISPUTED. Cooperation in criminal matters means THE DELIBERATE PROVISION OF SUPPORT TO CRIMINAL PROCEEDINGS IN ANOTHER FORUM. Between states three forms were originally distinguished: EXTRADITION of a person for prosecution or for the execution of a sentence; TRANSIT of a person through a third state; and MUTUAL ASSISTANCE, chiefly comprising THE OBTAINING OF EVIDENCE. In time the TRANSFER OF A PERSON FOR THE EXECUTION OF A SENTENCE became separate, and the more recent additions are the TRANSFER OF CRIMINAL PROCEEDINGS and so-called 'PASSIVE COOPERATION', in which the requested state permits the requesting state to carry out procedural acts. THE MOST RECENT DEVELOPMENT IS COOPERATION BETWEEN STATES AND INTERNATIONAL CRIMINAL COURTS — increasingly described as VERTICAL as against the HORIZONTAL cooperation between states.",
+      "terms": [{"term": "vertical vs horizontal cooperation", "def": "Vertical is cooperation between a state and an international criminal court; horizontal is between states."}],
       "cards": [
-        {
-          "q": "Vyjmenuj zásady trestní jurisdikce a řekni, která z nich je nesporná.",
-          "a": "Teritorialita, aktivní a pasivní personalita, ochranná zásada (možná včetně doktríny účinků), jurisdikce v zastoupení a univerzální jurisdikce. NESPORNÁ A VŠEOBECNĚ DODRŽOVANÁ JE JEN TERITORIALITA; u ostatních se praxe států liší a jejich mezinárodněprávní zákonnost je víc či méně sporná.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Co je vertikální spolupráce v trestních věcech?",
-          "a": "Spolupráce mezi státy a MEZINÁRODNÍMI TRESTNÍMI SOUDY — nejnovější vývoj v tomto právu, označovaný za vertikální proti HORIZONTÁLNÍ spolupráci mezistátní (vydání, průvoz, vzájemná pomoc, předání k výkonu trestu, předání řízení, 'pasivní spolupráce').",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Name the principles of criminal jurisdiction and say which is uncontested.", "a": "Territoriality, active and passive personality, the protective principle (possibly including the effects doctrine), vicarious jurisdiction and universal jurisdiction. ONLY TERRITORIALITY IS UNCONTESTED AND UNIVERSALLY OBSERVED; on the others state practice varies and their legality under international law is more or less disputed.", "difficulty": 2, "kind": "znaky", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "What is vertical cooperation in criminal matters?", "a": "Cooperation between states and INTERNATIONAL CRIMINAL COURTS — the most recent development in this law, described as vertical as against the HORIZONTAL cooperation between states (extradition, transit, mutual assistance, transfer for execution of sentence, transfer of proceedings, 'passive cooperation').", "difficulty": 2, "kind": "definice", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "3": {
-      "title": "Transnacionální trestní právo a aut dedere aut iudicare",
-      "text": "Klíčovými prvky smluv o zločinech přeshraniční povahy jsou POVINNOSTI SMLUVNÍCH STRAN KRIMINALIZOVAT ZAKÁZANÉ JEDNÁNÍ VE VNITROSTÁTNÍM PRÁVU A BUĎ VYŠETŘIT A STÍHAT, NEBO VYDAT PODEZŘELÉHO ZADRŽENÉHO NA SVÉM ÚZEMÍ (AUT DEDERE AUT IUDICARE). Dalšími typickými prvky je usnadnění vydávání tím, že se dotyčné trestné činy prohlásí za extradiční a VYLOUČÍ SE TRADIČNÍ VÝJIMKA POLITICKÉHO TRESTNÉHO ČINU. Smluvní závazky platí JEN INTER PARTES a nemohou zakládat tituly jurisdikce namířitelné proti třetím státům nad rámec obecného mezinárodního práva. Praxe začíná TŘEMI VELKÝMI ÚMLUVAMI MEZI LETY 1929 A 1937: PADĚLÁNÍ MĚNY, OBCHOD S OMAMNÝMI LÁTKAMI A TERORISMUS (ten zůstal jen návrhem). Postupně přibyly OTROCTVÍ, obchod s otroky, OBCHODOVÁNÍ S LIDMI, útoky na mezinárodně chráněné osoby, MUČENÍ, PRANÍ ŠPINAVÝCH PENĚZ, účast v ORGANIZOVANÉM ZLOČINU, KYBERNETICKÁ KRIMINALITA a KORUPCE.",
-      "terms": [
-        { "term": "aut dedere aut iudicare", "def": "Buď vydat, nebo stíhat — povinnost státu, na jehož území byl podezřelý zadržen." }
-      ],
+      "title": "Transnational criminal law and aut dedere aut iudicare",
+      "text": "The key elements of the treaties on crimes of a cross-border nature are THE OBLIGATIONS OF THE PARTIES TO CRIMINALISE THE PROHIBITED CONDUCT IN DOMESTIC LAW AND EITHER TO INVESTIGATE AND PROSECUTE OR TO EXTRADITE A SUSPECT APPREHENDED ON THEIR TERRITORY (AUT DEDERE AUT IUDICARE). Further typical elements are the facilitation of extradition by declaring the offences in question extraditable and EXCLUDING THE TRADITIONAL POLITICAL OFFENCE EXCEPTION. The treaty obligations apply ONLY INTER PARTES and cannot create jurisdictional titles opposable to third states beyond general international law. The practice begins with THREE MAJOR CONVENTIONS BETWEEN 1929 AND 1937: COUNTERFEITING OF CURRENCY, TRAFFIC IN NARCOTIC DRUGS AND TERRORISM (the last remaining a mere draft). Gradually SLAVERY, the slave trade, TRAFFICKING IN PERSONS, attacks on internationally protected persons, TORTURE, MONEY LAUNDERING, participation in ORGANISED CRIME, CYBERCRIME and CORRUPTION were added.",
+      "terms": [{"term": "aut dedere aut iudicare", "def": "Either extradite or prosecute — the obligation of the state on whose territory the suspect was apprehended."}],
       "cards": [
-        {
-          "q": "Co jsou klíčové prvky smluv o transnacionálních zločinech?",
-          "a": "Povinnost smluvních stran KRIMINALIZOVAT zakázané jednání ve vnitrostátním právu a AUT DEDERE AUT IUDICARE — buď vyšetřit a stíhat, nebo vydat podezřelého zadrženého na svém území. K tomu usnadnění vydávání prohlášením činů za extradiční a VYLOUČENÍM VÝJIMKY POLITICKÉHO TRESTNÉHO ČINU. Závazky platí jen INTER PARTES.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Které tři zločiny pokryly první úmluvy z let 1929–1937?",
-          "a": "Padělání měny, obchod s omamnými látkami a terorismus — přičemž úmluva o terorismu zůstala jen NÁVRHEM. Teprve později přibyly otroctví, obchodování s lidmi, mučení, praní špinavých peněz, organizovaný zločin, kyberkriminalita a korupce.",
-          "difficulty": 2,
-          "kind": "cisla",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What are the key elements of the treaties on transnational crimes?", "a": "The obligation of the parties to CRIMINALISE the prohibited conduct in domestic law and AUT DEDERE AUT IUDICARE — either to investigate and prosecute or to extradite a suspect apprehended on their territory. Plus the facilitation of extradition by declaring the offences extraditable and EXCLUDING THE POLITICAL OFFENCE EXCEPTION. The obligations apply only INTER PARTES.", "difficulty": 2, "kind": "znaky", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "Which three crimes were covered by the first conventions of 1929–1937?", "a": "Counterfeiting of currency, traffic in narcotic drugs and terrorism — the terrorism convention remaining a mere DRAFT. Only later were slavery, trafficking in persons, torture, money laundering, organised crime, cybercrime and corruption added.", "difficulty": 2, "kind": "cisla", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "4": {
-      "title": "Ochrana zájmů, nebo hodnot? Haagský model",
-      "text": "Kreßův pečlivý rozbor, který se vyplatí umět. Ačkoli mnohé smlouvy v preambulích mluví o 'ZLOČINECH MEZINÁRODNÍHO ZÁJMU', PŘI POZORNÉM ČTENÍ OPERATIVNÍCH USTANOVENÍ SE TEN JAZYK UKAZUJE JAKO VOLNÝ. U mnohostranných smluv AŽ DO ROKU 1970 ta ustanovení jasně dokládají POJETÍ VZÁJEMNÉ OCHRANY PARALELNÍCH STÁTNÍCH ZÁJMŮ, NIKOLI OCHRANU ZÁKLADNÍCH HODNOT MEZINÁRODNÍHO SPOLEČENSTVÍ — což je vidět na tom, že POVINNOST STÁTU ZADRŽENÍ STÍHAT ZÁVISELA NA PŘIJETÍ A ODMÍTNUTÍ ŽÁDOSTI O VYDÁNÍ od státu přímo spojeného se zločinem. Potíž dělá 'HAAGSKÝ MODEL' podle čl. 7 ÚMLUVY O POTLAČENÍ PROTIPRÁVNÍHO ZMOCNĚNÍ SE LETADEL (1970), kde povinnost stíhat UŽ NEZÁVISÍ NA PŘEDCHOZÍ ŽÁDOSTI O VYDÁNÍ A JEJÍM ODMÍTNUTÍ, NÝBRŽ PLATÍ VE VŠECH PŘÍPADECH NEVYDÁNÍ — a dalo by se tedy říct, že to znamená uznání SKUTEČNÉ HODNOTY MEZINÁRODNÍHO SPOLEČENSTVÍ. Podpůrně k tomu preambulová formule většiny protiteroristických úmluv od roku 1973, že 'VÝSKYT TAKOVÝCH ČINŮ JE VĚCÍ VÁŽNÉHO ZNEPOKOJENÍ MEZINÁRODNÍHO SPOLEČENSTVÍ JAKO CELKU'. ALE ANI JEDNO NENÍ ROZHODUJÍCÍ. SKUTEČNÝM TESTEM JE, ZDA STÁTY SOUHLASÍ S INTERNACIONALIZACÍ TRESTNÍ NORMY, A VYTVOŘÍ TÍM ZLOČIN PODLE MEZINÁRODNÍHO PRÁVA. Zatím se zdá, že S JEDINOU VÝJIMKOU ZÁVAŽNÝCH PORUŠENÍ ŽENEVSKÝCH ÚMLUV I–IV ten práh 'zločiny haagského modelu' NEPŘEKROČILY, a měly by se proto pro pojmovou jasnost označovat za TRANSNACIONÁLNÍ ZLOČINY.",
+      "title": "Protecting interests or values? The Hague model",
+      "text": "Kreß's careful analysis, worth having. Although many treaties speak in their preambles of 'CRIMES OF INTERNATIONAL CONCERN', A CLOSE READING OF THE OPERATIVE PROVISIONS SHOWS THAT LANGUAGE TO BE LOOSE. In multilateral treaties UP TO 1970 those provisions clearly evidence A CONCEPTION OF THE MUTUAL PROTECTION OF PARALLEL STATE INTERESTS, NOT THE PROTECTION OF FUNDAMENTAL VALUES OF THE INTERNATIONAL COMMUNITY — as can be seen from the fact that THE DUTY OF THE STATE OF APPREHENSION TO PROSECUTE DEPENDED ON THE RECEIPT AND REFUSAL OF AN EXTRADITION REQUEST from a state directly connected with the crime. A difficulty is posed by the 'HAGUE MODEL' of art. 7 of the CONVENTION FOR THE SUPPRESSION OF UNLAWFUL SEIZURE OF AIRCRAFT (1970), where the duty to prosecute NO LONGER DEPENDS ON A PRIOR EXTRADITION REQUEST AND ITS REFUSAL BUT APPLIES IN ALL CASES OF NON-EXTRADITION — and one might therefore say that this amounts to the recognition of a GENUINE VALUE OF THE INTERNATIONAL COMMUNITY. Supporting this is the preambular formula of most anti-terrorism conventions since 1973, that 'THE OCCURRENCE OF SUCH ACTS IS A MATTER OF GRAVE CONCERN TO THE INTERNATIONAL COMMUNITY AS A WHOLE'. BUT NEITHER IS DECISIVE. THE REAL TEST IS WHETHER STATES AGREE TO INTERNATIONALISE THE CRIMINAL NORM AND THEREBY CREATE A CRIME UNDER INTERNATIONAL LAW. So far it appears that, WITH THE SOLE EXCEPTION OF GRAVE BREACHES OF GENEVA CONVENTIONS I–IV, the 'Hague model crimes' have NOT CROSSED that threshold, and for conceptual clarity they should therefore be called TRANSNATIONAL CRIMES.",
       "terms": [],
       "cards": [
-        {
-          "q": "Chrání smlouvy o transnacionálních zločinech hodnoty mezinárodního společenství, nebo zájmy států?",
-          "a": "Do roku 1970 jasně ZÁJMY STÁTŮ — povinnost stíhat závisela na přijetí a odmítnutí žádosti o vydání od státu spojeného se zločinem. Haagský model (čl. 7 úmluvy o únosech letadel, 1970) tu podmínku odstranil, což by uznání společné hodnoty naznačovalo. SKUTEČNÝM TESTEM ALE JE, ZDA STÁTY SOUHLASÍ S INTERNACIONALIZACÍ NORMY — a ten práh 'haagské' zločiny (s výjimkou závažných porušení Ženevských úmluv) nepřekročily.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Do the treaties on transnational crimes protect the values of the international community or the interests of states?", "a": "Up to 1970 clearly THE INTERESTS OF STATES — the duty to prosecute depended on the receipt and refusal of an extradition request from a state connected with the crime. The Hague model (art. 7 of the 1970 hijacking convention) removed that condition, which would suggest recognition of a shared value. BUT THE REAL TEST IS WHETHER STATES AGREE TO INTERNATIONALISE THE NORM — and the 'Hague' crimes (except grave breaches of the Geneva Conventions) have not crossed that threshold.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "5": {
-      "title": "Pirátství: proč je 'klasický příklad' sporný",
-      "text": "V odděleném stanovisku k případu ZATYKAČ (DR KONGO v. BELGIE) označili soudci HIGGINS, KOOIJMANS A BUERGENTHAL pirátství za 'KLASICKÝ PŘÍKLAD' zločinu pokládaného 'ZA NEJOHAVNĚJŠÍ MEZINÁRODNÍM SPOLEČENSTVÍM'. A Kreß na to: TO TVRZENÍ VYVOLÁVÁ JISTÝ ÚDIV. Mělo by být samozřejmé, že PIRÁTSTVÍ, SVOU ZÁVAŽNOSTÍ SROVNATELNÉ S OBYČEJNOU LOUPEŽÍ, SE OHAVNOSTI GENOCIDY ČI ZLOČINŮ PROTI LIDSKOSTI ANI ZDALEKA NEBLÍŽÍ — a zůstává sporné, zda pirátství vůbec je zločinem podle mezinárodního práva. ZÁROVEŇ JE OBYČEJOVÝ TITUL UNIVERZÁLNÍ JURISDIKCE U PIRÁTSTVÍ NA ŠIRÉM MOŘI NEPOPIRATELNÝ — ale musí se vysvětlit ZVLÁŠTNÍMI ÚVAHAMI. To SUI GENERIS postavení se zřejmě opírá o KOMBINACI DVOU VĚCÍ: NEPŘÍTOMNOSTI ÚZEMNÍHO SUVERÉNA A TYPICKÉ OBTÍŽE ZALOŽIT NĚKTERÝ Z TRADIČNÍCH JINÝCH ZÁKLADŮ JURISDIKCE, zvlášť státní příslušnost údajného pachatele.",
+      "title": "Piracy: why the 'classic example' is questionable",
+      "text": "In their separate opinion in the ARREST WARRANT case (DR CONGO v BELGIUM) Judges HIGGINS, KOOIJMANS AND BUERGENTHAL described piracy as the 'CLASSIC EXAMPLE' of a crime regarded 'AS MOST HEINOUS BY THE INTERNATIONAL COMMUNITY'. Kreß's response: THAT STATEMENT CAUSES SOME ASTONISHMENT. It should be self-evident that PIRACY, COMPARABLE IN GRAVITY TO ORDINARY ROBBERY, COMES NOWHERE NEAR THE HEINOUSNESS OF GENOCIDE OR CRIMES AGAINST HUMANITY — and it remains disputed whether piracy is a crime under international law at all. AT THE SAME TIME THE CUSTOMARY TITLE OF UNIVERSAL JURISDICTION OVER PIRACY ON THE HIGH SEAS IS UNDENIABLE — but it must be explained by SPECIAL CONSIDERATIONS. That SUI GENERIS position evidently rests on A COMBINATION OF TWO THINGS: THE ABSENCE OF A TERRITORIAL SOVEREIGN AND THE TYPICAL DIFFICULTY OF ESTABLISHING ANY OTHER TRADITIONAL BASIS OF JURISDICTION, especially the nationality of the alleged offender.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč je univerzální jurisdikce u pirátství podle Kreße výjimkou, ne vzorem?",
-          "a": "Protože pirátství se svou ZÁVAŽNOSTÍ blíží obyčejné loupeži a ohavnosti genocidy se ani zdaleka nepřibližuje; sporné je i to, zda vůbec je zločinem podle mezinárodního práva. Nepopiratelný obyčejový titul univerzální jurisdikce se opírá o SUI GENERIS kombinaci: NEPŘÍTOMNOST ÚZEMNÍHO SUVERÉNA a typickou obtíž založit jiný titul jurisdikce.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Why is universal jurisdiction over piracy, on Kreß's view, an exception rather than a model?", "a": "Because piracy is comparable in GRAVITY to ordinary robbery and comes nowhere near the heinousness of genocide; it is even disputed whether it is a crime under international law at all. The undeniable customary title of universal jurisdiction rests on a SUI GENERIS combination: THE ABSENCE OF A TERRITORIAL SOVEREIGN and the typical difficulty of establishing another jurisdictional title.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "6": {
-      "title": "Mezinárodní trestní právo stricto sensu",
-      "text": "Zakládá INDIVIDUÁLNÍ TRESTNÍ ODPOVĚDNOST PŘÍMO PODLE MEZINÁRODNÍHO PRÁVA; chrání ZÁKLADNÍ HODNOTY MEZINÁRODNÍHO PRÁVNÍHO SPOLEČENSTVÍ JAKO CELKU a vyslovuje IUS PUNIENDI tohoto společenství. PŮVODNĚ BYL TOU ZÁKLADNÍ HODNOTOU MEZINÁRODNÍ MÍR A BEZPEČNOST; novějším vývojem nabyla na významu i OCHRANA MEZINÁRODNĚ UZNANÝCH LIDSKÝCH PRÁV — přičemž přesný rozsah té ochrany a vztah obou hodnot ZŮSTÁVÁ VYMEZIT JASNĚJI. Může být vyjádřeno ve smlouvách, aby odpovídalo zásadě zákonnosti v nejpřísnější podobě, ALE NAKONEC MUSÍ BÝT ZAKOTVENO V OBECNÉM MEZINÁRODNÍM PRÁVU, protože je nerozlučně spjato se základními hodnotami společenství. To nevylučuje pojmovou možnost 'ZLOČINŮ PODLE MEZINÁRODNÍHO SMLUVNÍHO PRÁVA': mezinárodní trestní právo stricto sensu se časem může stát TVRDÝM JÁDREM ŠIRŠÍHO NADNÁRODNÍHO TRESTNÍHO PRÁVA. NADNÁRODNÍ TRESTNÍ PRÁVO NEMUSÍ BÝT UNIVERZÁLNÍ — může vzniknout i tam, kde smluvní společenství států ČÁSTEČNĚ INTEGRUJE VÝKON SVÝCH NÁRODNÍCH TRESTNÍCH JURISDIKCÍ; nejpravděpodobnějším kandidátem je EVROPSKÁ UNIE, ALE ZATÍM NADNÁRODNÍ EVROPSKÉ TRESTNÍ PRÁVO NEEXISTUJE.",
-      "terms": [
-        { "term": "ius puniendi mezinárodního společenství", "def": "Trestající moc mezinárodního společenství jako celku, vyslovená mezinárodním trestním právem stricto sensu na ochranu jeho základních hodnot." }
-      ],
+      "title": "International criminal law stricto sensu",
+      "text": "It establishes INDIVIDUAL CRIMINAL RESPONSIBILITY DIRECTLY UNDER INTERNATIONAL LAW; it protects THE FUNDAMENTAL VALUES OF THE INTERNATIONAL LEGAL COMMUNITY AS A WHOLE and expresses the IUS PUNIENDI of that community. ORIGINALLY THAT FUNDAMENTAL VALUE WAS INTERNATIONAL PEACE AND SECURITY; through more recent developments THE PROTECTION OF INTERNATIONALLY RECOGNISED HUMAN RIGHTS has also gained importance — the precise scope of that protection and the relation of the two values REMAINING TO BE DEFINED MORE CLEARLY. It may be expressed in treaties so as to satisfy the principle of legality in its strictest form, BUT IT MUST ULTIMATELY BE ANCHORED IN GENERAL INTERNATIONAL LAW, because it is inseparably bound up with the fundamental values of the community. This does not exclude the conceptual possibility of 'CRIMES UNDER INTERNATIONAL TREATY LAW': international criminal law stricto sensu may in time become THE HARD CORE OF A BROADER SUPRANATIONAL CRIMINAL LAW. SUPRANATIONAL CRIMINAL LAW NEED NOT BE UNIVERSAL — it may also arise where a treaty community of states PARTIALLY INTEGRATES THE EXERCISE OF ITS NATIONAL CRIMINAL JURISDICTIONS; the most likely candidate is the EUROPEAN UNION, BUT AS YET NO SUPRANATIONAL EUROPEAN CRIMINAL LAW EXISTS.",
+      "terms": [{"term": "ius puniendi of the international community", "def": "The punitive power of the international community as a whole, expressed by international criminal law stricto sensu in protection of its fundamental values."}],
       "cards": [
-        {
-          "q": "Co je mezinárodní trestní právo stricto sensu a jaké hodnoty chrání?",
-          "a": "Zakládá INDIVIDUÁLNÍ TRESTNÍ ODPOVĚDNOST PŘÍMO PODLE MEZINÁRODNÍHO PRÁVA a vyslovuje IUS PUNIENDI mezinárodního společenství. Původně byl jeho hodnotou MEZINÁRODNÍ MÍR A BEZPEČNOST; novějším vývojem nabyla na významu i OCHRANA MEZINÁRODNĚ UZNANÝCH LIDSKÝCH PRÁV.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Co je nadnárodní trestní právo a existuje evropské?",
-          "a": "Nemusí být univerzální: může vzniknout tam, kde smluvní společenství států ČÁSTEČNĚ INTEGRUJE VÝKON SVÝCH NÁRODNÍCH TRESTNÍCH JURISDIKCÍ. Nejpravděpodobnějším kandidátem je Evropská unie — ALE NADNÁRODNÍ EVROPSKÉ TRESTNÍ PRÁVO ZATÍM NEEXISTUJE.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What is international criminal law stricto sensu and what values does it protect?", "a": "It establishes INDIVIDUAL CRIMINAL RESPONSIBILITY DIRECTLY UNDER INTERNATIONAL LAW and expresses the IUS PUNIENDI of the international community. Originally its value was INTERNATIONAL PEACE AND SECURITY; through more recent developments THE PROTECTION OF INTERNATIONALLY RECOGNISED HUMAN RIGHTS has also gained importance.", "difficulty": 2, "kind": "definice", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "What is supranational criminal law, and does a European one exist?", "a": "It need not be universal: it may arise where a treaty community of states PARTIALLY INTEGRATES THE EXERCISE OF ITS NATIONAL CRIMINAL JURISDICTIONS. The most likely candidate is the European Union — BUT AS YET NO SUPRANATIONAL EUROPEAN CRIMINAL LAW EXISTS.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "7": {
-      "title": "Spor o Tadić a Římský statut",
-      "text": "Mezinárodní trestní soudy občas UZNÁVAJÍ EXISTENCI ZLOČINŮ PODLE SMLUVNÍHO PRÁVA PŘÍLIŠ UKVAPENĚ — nejvýrazněji ICTY, který v rozhodnutí PROSECUTOR v TADIĆ míní, že individuální trestní odpovědnost za válečné zločiny lze odvodit z existující humanitární smlouvy, pokud ta smluvní norma váže obě strany konfliktu. Kreß to kritizuje: TO STANOVISKO PŘEHLÍŽÍ, ŽE PŘÍSLUŠNÉ SMLOUVY SAMY O SOBĚ NEZAKLÁDAJÍ INDIVIDUÁLNÍ TRESTNÍ ODPOVĚDNOST — nevytvářejí zločiny podle mezinárodního smluvního práva — a IGNORUJE JEDNOZNAČNÝ VZKAZ ZE ZPRÁVY GENERÁLNÍHO TAJEMNÍKA ke zřízení ICTY, že 'MEZINÁRODNÍ TRIBUNÁL MÁ POUŽÍVAT PRAVIDLA HUMANITÁRNÍHO PRÁVA, KTERÁ JSOU NADE VŠI POCHYBNOST SOUČÁSTÍ OBYČEJOVÉHO PRÁVA'. Podle ŘÍMSKÉHO STATUTU je situace jiná v důležitém ohledu: ČL. 6 AŽ 8 formuluje zločiny tak, že EXISTUJÍ PŘÍMO PODLE TÉ SMLOUVY. Přesto tvůrci sdíleli chápání, že MAJÍ JEN KODIFIKOVAT ČI NANEJVÝŠ KRYSTALIZOVAT MEZINÁRODNÍ TRESTNÍ PRÁVO STRICTO SENSU, tedy zločiny podle obecného mezinárodního práva, A NE VYTVÁŘET NOVÉ ZLOČINY SMLUVNÍ. Vyjadřuje to preambule mluvící o 'NEJZÁVAŽNĚJŠÍCH ZLOČINECH ZNEPOKOJUJÍCÍCH MEZINÁRODNÍ SPOLEČENSTVÍ JAKO CELEK' a ještě jasněji pasáž ZNAKŮ SKUTKOVÝCH PODSTAT ke zločinům proti lidskosti, podle které se čl. 7 musí VYKLÁDAT ÚZCE a vyžaduje jednání 'NEPŘÍPUSTNÉ PODLE OBECNĚ POUŽITELNÉHO MEZINÁRODNÍHO PRÁVA, JAK JE UZNÁVÁNO HLAVNÍMI PRÁVNÍMI SYSTÉMY SVĚTA'. A doznání: DRŽET SE OBYČEJOVÉHO PRÁVA SE UKÁZALO JAKO NÁROČNÉ, v neposlední řadě pro spor o to, JAK OBYČEJ ZJIŠŤOVAT a pro PRÁVNÍ NEJISTOTU JEHO PŘESNÉHO OBSAHU.",
+      "title": "The quarrel over Tadić and the Rome Statute",
+      "text": "International criminal courts sometimes RECOGNISE THE EXISTENCE OF CRIMES UNDER TREATY LAW TOO HASTILY — most notably the ICTY, which in PROSECUTOR v TADIĆ holds that individual criminal responsibility for war crimes can be derived from an existing humanitarian treaty provided the treaty norm binds both parties to the conflict. Kreß criticises this: THAT POSITION OVERLOOKS THE FACT THAT THE TREATIES IN QUESTION DO NOT THEMSELVES ESTABLISH INDIVIDUAL CRIMINAL RESPONSIBILITY — they do not create crimes under international treaty law — and IT IGNORES THE UNAMBIGUOUS MESSAGE OF THE SECRETARY-GENERAL'S REPORT on the establishment of the ICTY, that 'THE INTERNATIONAL TRIBUNAL SHOULD APPLY RULES OF INTERNATIONAL HUMANITARIAN LAW WHICH ARE BEYOND ANY DOUBT PART OF CUSTOMARY LAW'. Under the ROME STATUTE the situation differs in an important respect: ARTICLES 6 TO 8 formulate the crimes in such a way that THEY EXIST DIRECTLY UNDER THAT TREATY. Even so, the drafters shared the understanding that they were MERELY TO CODIFY OR AT MOST TO CRYSTALLISE INTERNATIONAL CRIMINAL LAW STRICTO SENSU, that is crimes under general international law, AND NOT TO CREATE NEW TREATY CRIMES. This is expressed by the preamble, which speaks of 'THE MOST SERIOUS CRIMES OF CONCERN TO THE INTERNATIONAL COMMUNITY AS A WHOLE', and still more clearly by the passage of the ELEMENTS OF CRIMES on crimes against humanity, under which art. 7 must be INTERPRETED STRICTLY and requires conduct 'IMPERMISSIBLE UNDER GENERALLY APPLICABLE INTERNATIONAL LAW, AS RECOGNIZED BY THE PRINCIPAL LEGAL SYSTEMS OF THE WORLD'. And an admission: ADHERING TO CUSTOMARY LAW PROVED DEMANDING, not least because of the dispute over HOW CUSTOM IS TO BE ASCERTAINED and because of THE LEGAL UNCERTAINTY OF ITS PRECISE CONTENT.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co Kreß vytýká rozhodnutí ICTY v případu Tadić?",
-          "a": "Že individuální trestní odpovědnost za válečné zločiny odvozuje z humanitárních smluv vázajících obě strany konfliktu — a tím PŘEHLÍŽÍ, ŽE TY SMLOUVY SAMY O SOBĚ INDIVIDUÁLNÍ TRESTNÍ ODPOVĚDNOST NEZAKLÁDAJÍ, a ignoruje pokyn generálního tajemníka, že tribunál má používat jen pravidla humanitárního práva, která jsou NADE VŠI POCHYBNOST SOUČÁSTÍ OBYČEJOVÉHO PRÁVA.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Vytvořil Římský statut nové zločiny, nebo jen kodifikoval?",
-          "a": "Formálně jeho čl. 6–8 formulují zločiny tak, že existují PŘÍMO PODLE TÉ SMLOUVY — ale tvůrci sdíleli chápání, že mají JEN KODIFIKOVAT ČI KRYSTALIZOVAT mezinárodní trestní právo stricto sensu, ne tvořit nové smluvní zločiny. Vyjadřuje to preambule i Znaky skutkových podstat, podle kterých se čl. 7 vykládá ÚZCE.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What does Kreß object to in the ICTY's Tadić decision?", "a": "That it derives individual criminal responsibility for war crimes from humanitarian treaties binding both parties to the conflict — thereby OVERLOOKING THAT THOSE TREATIES DO NOT THEMSELVES ESTABLISH INDIVIDUAL CRIMINAL RESPONSIBILITY, and ignoring the Secretary-General's instruction that the tribunal should apply only rules of humanitarian law BEYOND ANY DOUBT PART OF CUSTOMARY LAW.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "Did the Rome Statute create new crimes or merely codify?", "a": "Formally its arts. 6–8 formulate the crimes so that they exist DIRECTLY UNDER THAT TREATY — but the drafters shared the understanding that they were MERELY TO CODIFY OR CRYSTALLISE international criminal law stricto sensu, not to create new treaty crimes. The preamble expresses this, as do the Elements of Crimes, under which art. 7 is to be interpreted STRICTLY.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "8": {
-      "title": "Rysy stricto sensu: ius cogens a makrokriminalita",
-      "text": "Současné mezinárodní trestní právo stricto sensu zahrnuje GENOCIDU, ZLOČINY PROTI LIDSKOSTI, VÁLEČNÉ ZLOČINY SPÁCHANÉ V MEZINÁRODNÍCH I NEMEZINÁRODNÍCH OZBROJENÝCH KONFLIKTECH A AGRESI. Trestní odpovědnost mohou nést JEN LIDSKÉ BYTOSTI: NEEXISTUJE TRESTNÍ ODPOVĚDNOST PRÁVNICKÝCH OSOB A ZVLÁŠŤ NE TRESTNÍ ODPOVĚDNOST STÁTU. Mezinárodní trestní právo stricto sensu je IUS COGENS (nezrušitelné), PŘEBÍJÍ JAKÉKOLI ODPORUJÍCÍ NÁRODNÍ PRÁVO a stejně tak PŘEKONÁVÁ TRADIČNÍ STÁTNÍ PRÁVO NA IMUNITU RATIONE MATERIAE. A důvod, proč jsou všechny tři body prakticky zásadní: MEZINÁRODNÍ TRESTNÍ PRÁVO STRICTO SENSU SE V PODSTATĚ TÝKÁ MAKROKRIMINALITY ŘÍZENÉ ČI SPONZOROVANÉ STÁTNÍM VEDENÍM. Vynucovat se dá PŘÍMO mezinárodními jurisdikcemi, nebo NEPŘÍMO státy — a v druhém případě NÁRODNÍ SOUDNICTVÍ JEDNÁ JAKO SVĚŘENEC MEZINÁRODNÍHO IUS PUNIENDI. Jurisdikce mezinárodního soudu může být PRIMÁRNÍ NEBO KOMPLEMENTÁRNÍ vůči národním, ale PŘI KONFLIKTU MUSÍ KOMPETENZ-KOMPETENZ ZŮSTAT U MEZINÁRODNÍHO SOUDU.",
+      "title": "Features of the stricto sensu law: ius cogens and macrocriminality",
+      "text": "Contemporary international criminal law stricto sensu comprises GENOCIDE, CRIMES AGAINST HUMANITY, WAR CRIMES COMMITTED IN INTERNATIONAL AND NON-INTERNATIONAL ARMED CONFLICTS ALIKE, AND AGGRESSION. Criminal responsibility can be borne ONLY BY HUMAN BEINGS: THERE IS NO CRIMINAL RESPONSIBILITY OF LEGAL PERSONS AND IN PARTICULAR NO CRIMINAL RESPONSIBILITY OF THE STATE. International criminal law stricto sensu is IUS COGENS (non-derogable), it OVERRIDES ANY CONFLICTING NATIONAL LAW and likewise OVERCOMES THE TRADITIONAL STATE ENTITLEMENT TO IMMUNITY RATIONE MATERIAE. And the reason all three points are of fundamental practical importance: INTERNATIONAL CRIMINAL LAW STRICTO SENSU IS ESSENTIALLY CONCERNED WITH MACROCRIMINALITY DIRECTED OR SPONSORED BY A STATE LEADERSHIP. It may be enforced DIRECTLY by international jurisdictions or INDIRECTLY by states — and in the latter case THE NATIONAL JUDICIARY ACTS AS A TRUSTEE OF THE INTERNATIONAL IUS PUNIENDI. The jurisdiction of an international court may be PRIMARY OR COMPLEMENTARY to national ones, but IN CASE OF CONFLICT THE KOMPETENZ-KOMPETENZ MUST REMAIN WITH THE INTERNATIONAL COURT.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jaké tři vlastnosti má mezinárodní trestní právo stricto sensu a proč jsou prakticky zásadní?",
-          "a": "Je IUS COGENS (nezrušitelné), PŘEBÍJÍ odporující národní právo a PŘEKONÁVÁ imunitu ratione materiae. Prakticky zásadní jsou proto, že se toto právo v podstatě týká MAKROKRIMINALITY ŘÍZENÉ ČI SPONZOROVANÉ STÁTNÍM VEDENÍM — tedy přesně těch, kdo by se jinak zaštítili vlastním právem a imunitou.",
-          "difficulty": 3,
-          "kind": "znaky",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Kdo může nést odpovědnost podle mezinárodního trestního práva stricto sensu?",
-          "a": "JEN LIDSKÉ BYTOSTI. Podle současného mezinárodního práva NEEXISTUJE TRESTNÍ ODPOVĚDNOST PRÁVNICKÝCH OSOB a zvlášť ne TRESTNÍ ODPOVĚDNOST STÁTU.",
-          "difficulty": 2,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What three properties does international criminal law stricto sensu have, and why are they of fundamental practical importance?", "a": "It is IUS COGENS (non-derogable), it OVERRIDES conflicting national law and it OVERCOMES immunity ratione materiae. They are of fundamental practical importance because this law is essentially concerned with MACROCRIMINALITY DIRECTED OR SPONSORED BY A STATE LEADERSHIP — precisely those who would otherwise shelter behind their own law and immunity.", "difficulty": 3, "kind": "znaky", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "Who can bear responsibility under international criminal law stricto sensu?", "a": "ONLY HUMAN BEINGS. Under current international law there is NO CRIMINAL RESPONSIBILITY OF LEGAL PERSONS and in particular NO CRIMINAL RESPONSIBILITY OF THE STATE.", "difficulty": 2, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "9": {
-      "title": "Amnestie: od Vestfálského míru k Římskému statutu",
-      "text": "Zvláštní výzvou je NÁRODNÍ AMNESTIE. Od VESTFÁLSKÝCH MÍROVÝCH SMLUV Z ROKU 1648 se v Evropě rozvinula DŮSLEDNÁ PRAXE VKLÁDAT DO MÍROVÝCH SMLUV AMNESTII — a pro KANTA byla amnestie dokonce SOUČÁSTÍ SAMOTNÉ MYŠLENKY UZAVŘENÍ MÍRU. Na první pohled VERSAILLESKÁ SMLOUVA tu praxi opustila, ALE VE SVĚTLE VLNY MILOSTÍ PO PRVNÍ A — JAK SE ČASTO ZAPOMÍNÁ — I PO DRUHÉ SVĚTOVÉ VÁLCE by se dalo tvrdit, že MEZINÁRODNÍ TRESTNÍ PŘÍPADY, PŘES SVÉ ČASTO DŮRAZNÉ ZAHÁJENÍ, KONČÍVAJÍ JAKO NEPRAVÉ AMNESTIE. PREAMBULE ŘÍMSKÉHO STATUTU připomíná, 'ŽE JE POVINNOSTÍ KAŽDÉHO STÁTU VYKONÁVAT SVOU TRESTNÍ JURISDIKCI NAD TĚMI, KDO JSOU ODPOVĚDNÍ ZA MEZINÁRODNÍ ZLOČINY' — což je zjevně PŘEDEPISUJÍCÍ formulace odpovídající praxi OSN NEPŘIJÍMAT AMNESTIE u zločinů podle mezinárodního práva, a podporuje vznik OBYČEJOVÉ POVINNOSTI ÚZEMNÍHO STÁTU VYŠETŘIT NEBO STÍHAT. ALE při bližším pohledu na praxi států je situace MNOHEM ODSTÍNĚNĚJŠÍ a SÁM STATUT SOUDU VÝSLOVNĚ NEZAKAZUJE NÁRODNÍ AMNESTII PŘIJMOUT — jeho ustanovení naopak nechávají orgánům soudu prostor takové rozhodnutí respektovat. To samo o sobě moc nepomůže, PROTOŽE NÁRODNÍ ROZHODOVATELÉ POTŘEBUJÍ VĚDĚT, ZDA A ZA JAKÝCH PODMÍNEK SOUD AMNESTII NEBO ALTERNATIVNÍ SMÍŘENÍ, JAKO KOMISE PRAVDY ČI NETRESTNÍ SANKCE, PŘIJME — a naléhavým úkolem je proto vytvořit právní jistotu rozvinutím kritérií, což je při rozmanitosti okolností ÚKOL SKLIČUJÍCÍ.",
+      "title": "Amnesties: from the Peace of Westphalia to the Rome Statute",
+      "text": "A particular challenge is the NATIONAL AMNESTY. From the WESTPHALIAN PEACE TREATIES OF 1648 a CONSISTENT PRACTICE OF INSERTING AN AMNESTY INTO PEACE TREATIES developed in Europe — and for KANT amnesty was even PART OF THE VERY IDEA OF MAKING PEACE. At first sight the TREATY OF VERSAILLES abandoned that practice, BUT IN THE LIGHT OF THE WAVE OF PARDONS AFTER THE FIRST AND — AS IS OFTEN FORGOTTEN — AFTER THE SECOND WORLD WAR TOO, one might argue that INTERNATIONAL CRIMINAL CASES, DESPITE THEIR OFTEN EMPHATIC BEGINNINGS, TEND TO END AS DE FACTO AMNESTIES. THE PREAMBLE OF THE ROME STATUTE recalls 'THAT IT IS THE DUTY OF EVERY STATE TO EXERCISE ITS CRIMINAL JURISDICTION OVER THOSE RESPONSIBLE FOR INTERNATIONAL CRIMES' — an evidently PRESCRIPTIVE formulation matching UN practice NOT TO ACCEPT AMNESTIES for crimes under international law, and supporting the emergence of A CUSTOMARY DUTY OF THE TERRITORIAL STATE TO INVESTIGATE OR PROSECUTE. BUT on a closer look at state practice the situation is MUCH MORE NUANCED, and THE STATUTE ITSELF DOES NOT EXPRESSLY PROHIBIT THE ADOPTION OF A NATIONAL AMNESTY — on the contrary, its provisions leave the organs of the Court room to respect such a decision. That in itself does not help much, BECAUSE NATIONAL DECISION-MAKERS NEED TO KNOW WHETHER AND ON WHAT CONDITIONS THE COURT WILL ACCEPT AN AMNESTY OR AN ALTERNATIVE RECONCILIATION SUCH AS A TRUTH COMMISSION OR NON-CRIMINAL SANCTIONS — and the urgent task is therefore to create legal certainty by developing criteria, which, given the variety of circumstances, is A DAUNTING TASK.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak dlouhá je evropská praxe amnestií v mírových smlouvách a co s ní udělalo 20. století?",
-          "a": "Trvá od VESTFÁLSKÝCH SMLUV ROKU 1648 a pro Kanta byla amnestie součástí samotné myšlenky uzavření míru. Versailleská smlouva ji na první pohled opustila, ALE VE SVĚTLE VLNY MILOSTÍ PO OBOU SVĚTOVÝCH VÁLKÁCH se dá tvrdit, že mezinárodní trestní případy KONČÍVAJÍ JAKO NEPRAVÉ AMNESTIE.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Zakazuje Římský statut přijmout národní amnestii?",
-          "a": "VÝSLOVNĚ NE — jeho ustanovení naopak nechávají orgánům soudu prostor takové rozhodnutí respektovat, ačkoli preambule předepisuje povinnost každého státu vykonávat trestní jurisdikci nad odpovědnými. Naléhavým úkolem je proto vytvořit KRITÉRIA, aby národní rozhodovatelé věděli, kdy soud amnestii či komisi pravdy přijme.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "How long is the European practice of amnesties in peace treaties, and what did the 20th century do to it?", "a": "It runs from the WESTPHALIAN TREATIES OF 1648, and for Kant amnesty was part of the very idea of making peace. The Treaty of Versailles at first sight abandoned it, BUT IN THE LIGHT OF THE WAVE OF PARDONS AFTER BOTH WORLD WARS one may argue that international criminal cases TEND TO END AS DE FACTO AMNESTIES.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "Does the Rome Statute prohibit the adoption of a national amnesty?", "a": "NOT EXPRESSLY — on the contrary, its provisions leave the Court's organs room to respect such a decision, although the preamble prescribes the duty of every state to exercise criminal jurisdiction over those responsible. The urgent task is therefore to develop CRITERIA so that national decision-makers know when the Court will accept an amnesty or a truth commission.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "10": {
-      "title": "Filosofické námitky: Hegel, Kant, Rawls",
-      "text": "Tři linie kritiky. HEGELOVSKÁ perspektiva v podstatě popírá existenci mezinárodního práva veřejného a redukuje ho na VNĚJŠÍ STÁTNÍ PRÁVO (ÄUSSERES STAATSRECHT) — z ní je mezinárodní trestní právo zvláštní zjev, totiž TRESTNÍ PRÁVO V PŘIROZENÉM STAVU. Takové právo není nutně nelegitimní, ale nápadně se liší od trestního práva uvnitř státu; v té perspektivě se argumentuje (JAKOBS), že MEZINÁRODNÍ TRESTNÍ PRÁVO NEJDE O ZNOVUPOTVRZENÍ EXISTUJÍCÍHO PRÁVNÍHO ŘÁDU, NÝBRŽ O VYTVOŘENÍ NOVÉHO POMOCÍ DONUCOVACÍCH PROSTŘEDKŮ. Kreß to odmítá: PŘECEŇUJE TO EXISTUJÍCÍ ROZDÍLY VE VYNUCOVÁNÍ PRÁVA a přehlíží, že vznikající systém mezinárodní trestní spravedlnosti sám posiluje některé životní součásti mezinárodního řádu. KANTOVSKÁ linie vychází z 'K VĚČNÉMU MÍRU' (1795), kde Kant zpochybňuje moudrost podrobovat státy jakési SVĚTOVÉ VEŘEJNÉ DONUCOVACÍ MOCI. Mezinárodní trestní normy sice nezavazují státy jako takové, ALE PŘEDSTAVUJÍ HROZIVOU VÝZVU JEJICH SUVERENITĚ, PROTOŽE OSLOVUJÍ PODDANÉ STÁTŮ PŘÍMO A BEZ OHLEDU NA JEJICH NÁRODNÍ PRÁVO — systém tedy nutně obsahuje ZÁRODEČNÝ PRVEK SVĚTOVÉHO VEŘEJNÉHO ŘÁDU, KTERÝ KANT ODMÍTAL. Novější kantovské spisy legitimitu docela nepopírají a spor se vede o ROZSAH: ORTODOXNĚJŠÍ PŘÍSTUP (KÖHLER) ho omezuje na případy, kdy jednání POPÍRÁ SAMU EXISTENCI MEZINÁRODNÍ PRÁVNÍ OSOBY ČI SLOŽKY STÁTU S POTENCIÁLEM PRÁVNÍ OSOBNOSTI (třeba národní či etnické skupiny); NEJNOVĚJŠÍ POKUS (GIERHAKE) jde rozhodný krok dál a uznává, že se může vztahovat i na jednání, které POPÍRÁ SAMU MYŠLENKU LIDSKÝCH PRÁV JAKO PŘEDPOKLADU SVĚTOVÉHO MÍROVÉHO ŘÁDU. TŘETÍ NÁMITKA: mezinárodní trestní právo staví jednotlivce do KONFLIKTU POVINNOSTÍ — musí volit mezi SCYLLOU potrestání za odmítnutí rozkazu státu a CHARYBDOU trestní odpovědnosti podle mezinárodního práva za jeho vykonání. HOYER na základě RAWLSOVY TEORIE SPRAVEDLNOSTI tvrdil, že by se právo mělo z důvodu základní férovosti RATIONE PERSONAE OMEZIT NA VEDENÍ 'ZLOČINNÉHO STÁTU'. Kreß: takové kategorické vyloučení všech na nižších stupních JDE PŘÍLIŠ DALEKO — rozhodnout se musí podle okolností případu, a při skutečném konfliktu sahají nápravy od ZMÍRNĚNÍ TRESTU po UZNÁNÍ DŮVODU VYLUČUJÍCÍHO ODPOVĚDNOST. S JEDINOU VÝJIMKOU ZLOČINU AGRESE NENÍ EXISTUJÍCÍ PRÁVO PRÁVEM VEDOUCÍCH ČINITELŮ — novější praxe se ovšem zřetelně soustředí na ty, kdo nesou největší odpovědnost.",
+      "title": "Philosophical objections: Hegel, Kant, Rawls",
+      "text": "Three lines of criticism. THE HEGELIAN perspective essentially denies the existence of public international law and reduces it to EXTERNAL STATE LAW (ÄUSSERES STAATSRECHT) — from which international criminal law is a peculiar phenomenon, namely CRIMINAL LAW IN THE STATE OF NATURE. Such law is not necessarily illegitimate, but it differs strikingly from criminal law within a state; from that perspective it is argued (JAKOBS) that INTERNATIONAL CRIMINAL LAW IS NOT ABOUT REAFFIRMING AN EXISTING LEGAL ORDER BUT ABOUT CREATING A NEW ONE BY MEANS OF COERCION. Kreß rejects this: IT OVERSTATES THE EXISTING DIFFERENCES IN LAW ENFORCEMENT and overlooks the fact that the emerging system of international criminal justice itself strengthens certain vital components of the international order. THE KANTIAN line proceeds from 'TOWARDS PERPETUAL PEACE' (1795), where Kant questions the wisdom of subjecting states to a WORLD PUBLIC COERCIVE POWER. International criminal norms do not bind states as such, BUT THEY POSE A FORMIDABLE CHALLENGE TO THEIR SOVEREIGNTY, BECAUSE THEY ADDRESS THE SUBJECTS OF STATES DIRECTLY AND IRRESPECTIVE OF THEIR NATIONAL LAW — the system therefore necessarily contains AN EMBRYONIC ELEMENT OF THE WORLD PUBLIC ORDER KANT REJECTED. More recent Kantian writings do not deny legitimacy altogether and the dispute concerns the SCOPE: A MORE ORTHODOX APPROACH (KÖHLER) confines it to cases where the conduct DENIES THE VERY EXISTENCE OF AN INTERNATIONAL LEGAL PERSON OR OF A COMPONENT OF A STATE WITH THE POTENTIAL FOR LEGAL PERSONALITY (a national or ethnic group, say); THE MOST RECENT ATTEMPT (GIERHAKE) goes a decisive step further and accepts that it may extend to conduct which DENIES THE VERY IDEA OF HUMAN RIGHTS AS A PRECONDITION OF A WORLD ORDER OF PEACE. A THIRD OBJECTION: international criminal law places the individual in a CONFLICT OF DUTIES — he must choose between the SCYLLA of punishment for refusing a state order and the CHARYBDIS of criminal responsibility under international law for carrying it out. HOYER, on the basis of RAWLS'S THEORY OF JUSTICE, argued that for reasons of basic fairness the law should be CONFINED RATIONE PERSONAE TO THE LEADERSHIP OF A 'CRIMINAL STATE'. Kreß: such a categorical exclusion of everyone at lower levels GOES TOO FAR — the matter must be decided on the circumstances of the case, and in a genuine conflict the remedies range from MITIGATION OF SENTENCE to THE RECOGNITION OF A GROUND EXCLUDING RESPONSIBILITY. WITH THE SOLE EXCEPTION OF THE CRIME OF AGGRESSION, THE EXISTING LAW IS NOT A LAW OF LEADERS — though recent practice clearly concentrates on those bearing the greatest responsibility.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jaká je hegelovská námitka proti mezinárodnímu trestnímu právu a jak ji Kreß odmítá?",
-          "a": "Že jde o trestní právo V PŘIROZENÉM STAVU, které nepotvrzuje existující právní řád, nýbrž vytváří nový donucovacími prostředky (Jakobs). Kreß namítá, že to PŘECEŇUJE ROZDÍLY ve vynucování práva uvnitř a vně státu, a že vznikající systém mezinárodní trestní spravedlnosti sám posiluje životní součásti existujícího mezinárodního řádu.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "V čem je mezinárodní trestní právo problémem z kantovského hlediska?",
-          "a": "Kant v 'K věčnému míru' (1795) zpochybňoval moudrost podrobovat státy světové veřejné donucovací moci. Mezinárodní trestní normy sice státy nezavazují, ale OSLOVUJÍ JEJICH PODDANÉ PŘÍMO A BEZ OHLEDU NA NÁRODNÍ PRÁVO — a systém tedy nutně obsahuje ZÁRODEČNÝ PRVEK SVĚTOVÉHO VEŘEJNÉHO ŘÁDU, který Kant odmítal.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Co je námitka 'konfliktu povinností' a jak se řeší?",
-          "a": "Že jednotlivec musí volit mezi Scyllou potrestání za odmítnutí státního rozkazu a Charybdou mezinárodní trestní odpovědnosti za jeho vykonání. Hoyer chtěl právo z důvodu férovosti omezit na VEDENÍ 'zločinného státu'; Kreß to odmítá jako přehnané a řeší to podle okolností případu — od ZMÍRNĚNÍ TRESTU po UZNÁNÍ DŮVODU VYLUČUJÍCÍHO ODPOVĚDNOST. S výjimkou agrese není existující právo právem vedoucích činitelů.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What is the Hegelian objection to international criminal law, and how does Kreß reject it?", "a": "That it is criminal law IN THE STATE OF NATURE, which does not reaffirm an existing legal order but creates a new one by coercion (Jakobs). Kreß objects that this OVERSTATES THE DIFFERENCES in law enforcement inside and outside the state, and that the emerging system of international criminal justice itself strengthens vital components of the existing international order.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "In what way is international criminal law a problem from the Kantian standpoint?", "a": "Kant in 'Towards Perpetual Peace' (1795) questioned the wisdom of subjecting states to a world public coercive power. International criminal norms do not bind states, but they ADDRESS THEIR SUBJECTS DIRECTLY AND IRRESPECTIVE OF NATIONAL LAW — so the system necessarily contains AN EMBRYONIC ELEMENT OF THE WORLD PUBLIC ORDER Kant rejected.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "What is the 'conflict of duties' objection and how is it resolved?", "a": "That the individual must choose between the Scylla of punishment for refusing a state order and the Charybdis of international criminal responsibility for carrying it out. Hoyer would confine the law, for fairness, to the LEADERSHIP of a 'criminal state'; Kreß rejects that as excessive and resolves the matter on the circumstances of the case — from MITIGATION OF SENTENCE to THE RECOGNITION OF A GROUND EXCLUDING RESPONSIBILITY. With the exception of aggression, the existing law is not a law of leaders.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "11": {
-      "title": "Od Moyniera po Norimberk",
-      "text": "ROKU 1872 předložil dlouholetý předseda MEZINÁRODNÍHO VÝBORU ČERVENÉHO KŘÍŽE MOYNIER PRVNÍ NÁVRH NA ZŘÍZENÍ MEZINÁRODNÍHO TRESTNÍHO SOUDU, který měl soudit porušení Ženevské úmluvy z roku 1864. Ale ani ten návrh, ani SPOLEČNÁ DEKLARACE FRANCIE, BRITÁNIE A RUSKA Z 24. KVĚTNA 1915 po arménských masakrech, ani Versailleská smlouva k mezinárodní trestní jurisdikci nevedly — TAKŽE SE TĚŽKO DÁ TVRDIT, ŽE MEZINÁRODNÍ TRESTNÍ PRÁVO STRICTO SENSU V DOBĚ PRVNÍ SVĚTOVÉ VÁLKY EXISTOVALO. Živou debatou se stalo teprve MEZIVÁLEČNÉ OBDOBÍ (Společnost národů, Meziparlamentní unie, ILA, Association Internationale de Droit Pénal). PO DRUHÉ SVĚTOVÉ VÁLCE byly procesy s hlavními válečnými zločinci před NORIMBERSKÝM A TOKIJSKÝM tribunálem PRVNÍM PRECEDENTEM internacionalizovaného trestního řízení. Institucionálně je těžko líčit jako orgány mezinárodního společenství a první případ přímého vynucení; OBSAHOVĚ VŠAK ZNAMENALY PRŮLOM, PROTOŽE UZNALY EXISTENCI MEZINÁRODNÍHO TRESTNÍHO PRÁVA STRICTO SENSU. Hlavním motivem USA pro Norimberk bylo uznání, že VEDENÍ ÚTOČNÉ VÁLKY JE ZLOČINEM podle mezinárodního práva; pravomoc tribunálu kryla i válečné zločiny a zločiny proti lidskosti — U TĚCH ALE PLATILO ROZHODUJÍCÍ OMEZENÍ, ŽE MUSELA EXISTOVAT SOUVISLOST S ÚTOČNOU VÁLKOU ČI VÁLEČNÝM ZLOČINEM. MEZINÁRODNÍ TRESTNÍ PRÁVO PRVNÍ GENERACE BYLO TEDY NEROZLUČNĚ SPJATO S EXISTENCÍ VÁLKY — což odráželo, že v době Norimberku se mezinárodní právo soustředilo takřka výhradně na VZTAHY MEZI STÁTY.",
+      "title": "From Moynier to Nuremberg",
+      "text": "IN 1872 MOYNIER, the long-serving president of the INTERNATIONAL COMMITTEE OF THE RED CROSS, put forward THE FIRST PROPOSAL FOR AN INTERNATIONAL CRIMINAL COURT, to try violations of the Geneva Convention of 1864. But neither that proposal, nor the JOINT DECLARATION OF FRANCE, BRITAIN AND RUSSIA OF 24 MAY 1915 after the Armenian massacres, nor the Treaty of Versailles led to an international criminal jurisdiction — SO IT CAN HARDLY BE MAINTAINED THAT INTERNATIONAL CRIMINAL LAW STRICTO SENSU EXISTED AT THE TIME OF THE FIRST WORLD WAR. It became a live debate only in the INTERWAR PERIOD (the League of Nations, the Interparliamentary Union, the ILA, the Association Internationale de Droit Pénal). AFTER THE SECOND WORLD WAR the trials of the major war criminals before the NUREMBERG AND TOKYO tribunals were THE FIRST PRECEDENT of internationalised criminal proceedings. Institutionally they can hardly be portrayed as organs of the international community and as the first instance of direct enforcement; IN SUBSTANCE, HOWEVER, THEY MARKED A BREAKTHROUGH, BECAUSE THEY RECOGNISED THE EXISTENCE OF INTERNATIONAL CRIMINAL LAW STRICTO SENSU. The chief American motive for Nuremberg was the recognition that WAGING A WAR OF AGGRESSION IS A CRIME under international law; the tribunal's competence also covered war crimes and crimes against humanity — BUT FOR THE LATTER A DECISIVE LIMITATION APPLIED, THAT A CONNECTION WITH A WAR OF AGGRESSION OR A WAR CRIME HAD TO EXIST. FIRST-GENERATION INTERNATIONAL CRIMINAL LAW WAS THEREFORE INSEPARABLY TIED TO THE EXISTENCE OF WAR — reflecting the fact that at the time of Nuremberg international law focused almost exclusively on RELATIONS BETWEEN STATES.",
       "terms": [],
       "cards": [
-        {
-          "q": "Existovalo mezinárodní trestní právo stricto sensu v době první světové války?",
-          "a": "Těžko se to dá tvrdit: Moynierův návrh na mezinárodní trestní soud z roku 1872, společná deklarace Francie, Británie a Ruska z května 1915 po arménských masakrech ani Versailleská smlouva k žádné mezinárodní trestní jurisdikci nevedly. Živou debatou se to stalo teprve v MEZIVÁLEČNÉM OBDOBÍ.",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Čím byl Norimberk průlom a jaké mělo mezinárodní trestní právo první generace omezení?",
-          "a": "Institucionálně se tribunály těžko líčí jako orgány mezinárodního společenství, ale OBSAHOVĚ UZNALY EXISTENCI mezinárodního trestního práva stricto sensu. Omezení: u zločinů proti lidskosti MUSELA EXISTOVAT SOUVISLOST S ÚTOČNOU VÁLKOU ČI VÁLEČNÝM ZLOČINEM — právo první generace bylo NEROZLUČNĚ SPJATO S EXISTENCÍ VÁLKY.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Did international criminal law stricto sensu exist at the time of the First World War?", "a": "It can hardly be maintained: Moynier's 1872 proposal for an international criminal court, the joint declaration of France, Britain and Russia of May 1915 after the Armenian massacres, and the Treaty of Versailles all led to no international criminal jurisdiction. It became a live debate only in the INTERWAR PERIOD.", "difficulty": 3, "kind": "cisla", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "How was Nuremberg a breakthrough, and what limitation did first-generation international criminal law have?", "a": "Institutionally the tribunals can hardly be portrayed as organs of the international community, but IN SUBSTANCE THEY RECOGNISED THE EXISTENCE of international criminal law stricto sensu. The limitation: for crimes against humanity A CONNECTION WITH A WAR OF AGGRESSION OR A WAR CRIME HAD TO EXIST — the first-generation law was INSEPARABLY TIED TO THE EXISTENCE OF WAR.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "12": {
-      "title": "Dlouhá cesta systémem OSN",
-      "text": "11. PROSINCE 1946 potvrdilo Valné shromáždění OSN zásady mezinárodního práva uznané Norimberskou chartou a rozsudkem a dalo pokyn ke KODIFIKACI; téhož dne potvrdilo, že GENOCIDA, KTERÁ SE V NORIMBERKU NEPROJEDNÁVALA JAKO SAMOSTATNÝ ZLOČIN, je zločinem podle mezinárodního práva. Genocida byla vymezena ÚMLUVOU Z 9. PROSINCE 1948, ALE ZBYTEK KODIFIKACE SE VYDAL JINOU CESTOU: po prvních návrzích ILC se právní výbor VS v letech 1954 a znovu 1957 rozhodl ODLOŽIT VŠECHNU DALŠÍ PRÁCI, DOKUD SE NENAJDE SHODA NA AGRESI. ROKU 1978, čtyři roky poté, co 'AKT AGRESE' ve smyslu čl. 39 Charty dostal konsenzuální definici (rezoluce 3314 z roku 1974), doporučil výbor práci obnovit; o tři roky později tak VS učinilo a pověřilo ILC. Druhá fáze vedla k NÁVRHŮM KODEXU ZLOČINŮ PROTI MÍRU A BEZPEČNOSTI LIDSTVA (1991 a 1996) a k NÁVRHU STATUTU MEZINÁRODNÍHO TRESTNÍHO SOUDU (1994), který se stal základem jednání o ICC. A rozhodující hybnost dalo zřízení ICTY ROKU 1993 A ICTR ROKU 1994. Jejich zásadní význam nesnižuje, že oba zaostávají za ideálem stálého soudu a musely nést odsudek 'ZVLÁŠTNÍCH TRIBUNÁLŮ' zřízených — aspoň zčásti — EX POST FACTO Radou bezpečnosti, POLITICKÝM ORGÁNEM S VÝBĚROVÝM ČLENSTVÍM, a to jako jejího podřízeného orgánu. Věcná příslušnost obou zahrnuje genocidu, zločiny proti lidskosti a válečné zločiny — A ROZHODUJÍCÍ JE, ŽE OBA ODSTRANILY SPJATOST PRÁVA PRVNÍ GENERACE S MEZINÁRODNÍM OZBROJENÝM KONFLIKTEM: krystalizací válečných zločinů spáchaných v NEMEZINÁRODNÍCH konfliktech a ustavením zločinů proti lidskosti jako ZŘETELNĚ ODLIŠNÉ KATEGORIE, KTEROU LZE SPÁCHAT UVNITŘ I MIMO OZBROJENÝ KONFLIKT. ICTY a ICTR tak PROKLESTILY CESTU DRUHÉ GENERACI mezinárodního trestního práva, odrážející mezitímní vývoj lidských práv.",
+      "title": "The long road through the UN system",
+      "text": "ON 11 DECEMBER 1946 the UN General Assembly affirmed the principles of international law recognised by the Nuremberg Charter and Judgment and directed their CODIFICATION; on the same day it affirmed that GENOCIDE, WHICH HAD NOT BEEN TRIED AT NUREMBERG AS A SEPARATE CRIME, is a crime under international law. Genocide was defined by the CONVENTION OF 9 DECEMBER 1948, BUT THE REST OF THE CODIFICATION TOOK ANOTHER ROAD: after the ILC's first drafts, the GA's legal committee decided in 1954 and again in 1957 TO POSTPONE ALL FURTHER WORK UNTIL AGREEMENT WAS REACHED ON AGGRESSION. IN 1978, four years after the 'ACT OF AGGRESSION' within the meaning of art. 39 of the Charter received a consensus definition (resolution 3314 of 1974), the committee recommended resuming the work; three years later the GA did so and mandated the ILC. The second phase led to the DRAFT CODES OF CRIMES AGAINST THE PEACE AND SECURITY OF MANKIND (1991 and 1996) and to the DRAFT STATUTE FOR AN INTERNATIONAL CRIMINAL COURT (1994), which became the basis of the ICC negotiations. And decisive momentum was given by the establishment of the ICTY IN 1993 AND THE ICTR IN 1994. Their fundamental significance is not diminished by the fact that both fall short of the ideal of a permanent court and had to bear the reproach of being 'AD HOC TRIBUNALS' established — at least in part — EX POST FACTO by the Security Council, A POLITICAL ORGAN WITH SELECTIVE MEMBERSHIP, and as its subsidiary organ. The subject-matter jurisdiction of both covers genocide, crimes against humanity and war crimes — AND WHAT IS DECISIVE IS THAT BOTH REMOVED THE FIRST-GENERATION LAW'S TIE TO INTERNATIONAL ARMED CONFLICT: by crystallising war crimes committed in NON-INTERNATIONAL conflicts and by establishing crimes against humanity as A CLEARLY DISTINCT CATEGORY THAT CAN BE COMMITTED INSIDE OR OUTSIDE AN ARMED CONFLICT. The ICTY and ICTR thus CLEARED THE PATH FOR THE SECOND GENERATION of international criminal law, reflecting the intervening development of human rights.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč se kodifikace mezinárodního trestního práva v OSN na desetiletí zastavila?",
-          "a": "Protože právní výbor Valného shromáždění se v letech 1954 a znovu 1957 rozhodl ODLOŽIT VŠECHNU DALŠÍ PRÁCI, DOKUD SE NENAJDE SHODA NA AGRESI. Obnovit se doporučilo až roku 1978, čtyři roky po konsenzuální definici 'aktu agrese' (rezoluce 3314 z roku 1974).",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Čím ICTY a ICTR proklestily cestu druhé generaci mezinárodního trestního práva?",
-          "a": "ODSTRANILY SPJATOST S MEZINÁRODNÍM OZBROJENÝM KONFLIKTEM: krystalizovaly válečné zločiny spáchané v NEMEZINÁRODNÍCH konfliktech a ustavily zločiny proti lidskosti jako ZŘETELNĚ ODLIŠNOU KATEGORII, kterou lze spáchat uvnitř i mimo ozbrojený konflikt. Druhá generace tím odráží mezitímní vývoj lidských práv.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Why did the codification of international criminal law in the UN stall for decades?", "a": "Because the General Assembly's legal committee decided in 1954 and again in 1957 TO POSTPONE ALL FURTHER WORK UNTIL AGREEMENT WAS REACHED ON AGGRESSION. Resumption was recommended only in 1978, four years after the consensus definition of an 'act of aggression' (resolution 3314 of 1974).", "difficulty": 3, "kind": "cisla", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "How did the ICTY and ICTR clear the path for the second generation of international criminal law?", "a": "They REMOVED THE TIE TO INTERNATIONAL ARMED CONFLICT: they crystallised war crimes committed in NON-INTERNATIONAL conflicts and established crimes against humanity as A CLEARLY DISTINCT CATEGORY that can be committed inside or outside an armed conflict. The second generation thereby reflects the intervening development of human rights.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "13": {
-      "title": "ICC: první stálý mezinárodní trestní soud",
-      "text": "Po pěti kolech jednání v přípravném výboru přijala diplomatická konference v Římě 17. ČERVENCE 1998 velkou většinou STATUT; jeho vstupem v platnost 1. ČERVENCE 2002 vznikl PRVNÍ STÁLÝ MEZINÁRODNÍ TRESTNÍ SOUD V PRÁVNÍCH DĚJINÁCH. ICC je SAMOSTATNÁ MEZINÁRODNÍ PRÁVNÍ OSOBA v podobě nové mezinárodní soudní organizace. Věcná příslušnost odráží vývoj u ICTY a ICTR a zahrnuje GENOCIDU, ZLOČINY PROTI LIDSKOSTI A VÁLEČNÉ ZLOČINY; spadá pod ni i ZLOČIN AGRESE, ale VÝKON TÉ PŘÍSLUŠNOSTI BUDE MOŽNÝ, AŽ BUDE ZLOČIN DEFINOVÁN. Osobní příslušnost je zpravidla omezena na osoby, které jsou buď PŘÍSLUŠNÍKY SMLUVNÍHO STÁTU, NEBO JEJICHŽ ZLOČINY BYLY ÚDAJNĚ SPÁCHÁNY NA ÚZEMÍ SMLUVNÍHO STÁTU — ale MŮŽE SE PROMĚNIT VE SKUTEČNĚ UNIVERZÁLNÍ, POKUD RADA BEZPEČNOSTI POSTOUPÍ SOUDU SITUACI. Jurisdikce ICC je KOMPLEMENTÁRNÍ k národním: SOUD JEDNÁ, JEN KDYŽ ŽÁDNÝ STÁT NENÍ OCHOTEN ČI SCHOPEN VÉST OPRAVDOVÉ ŘÍZENÍ — a je-li opravdovost národního řízení sporná, ROZHODUJE S KONEČNOU PLATNOSTÍ ICC. K tomu přibyly vnitrostátní a smíšené soudy: VÁLEČNÁ KOMORA SOUDU BOSNY A HERCEGOVINY, ZVLÁŠTNÍ SOUD PRO SIERRU LEONE, ZVLÁŠTNÍ SENÁTY V DILI (VÝCHODNÍ TIMOR) a MIMOŘÁDNÉ SENÁTY V SOUDECH KAMBODŽE. Shoda, že pachatelé nemají zůstat nepotrestáni, se tedy podle citovaného stanoviska 'PROSAZUJE PRUŽNOU STRATEGIÍ, VE KTERÉ MAJÍ SVOU ROLI NOVĚ ZŘÍZENÉ MEZINÁRODNÍ TRIBUNÁLY, SMLUVNÍ ZÁVAZKY I NÁRODNÍ SOUDY'.",
-      "terms": [
-        { "term": "komplementarita", "def": "ICC jedná, jen když žádný stát není ochoten či schopen vést opravdové řízení; je-li opravdovost sporná, rozhoduje s konečnou platností soud." }
-      ],
+      "title": "The ICC: the first permanent international criminal court",
+      "text": "After five sessions of the preparatory committee, the diplomatic conference in Rome adopted the STATUTE on 17 JULY 1998 by a large majority; with its entry into force on 1 JULY 2002 THE FIRST PERMANENT INTERNATIONAL CRIMINAL COURT IN LEGAL HISTORY came into being. The ICC is AN INDEPENDENT INTERNATIONAL LEGAL PERSON in the form of a new international judicial organisation. Its subject-matter jurisdiction reflects the development at the ICTY and ICTR and covers GENOCIDE, CRIMES AGAINST HUMANITY AND WAR CRIMES; it also covers the CRIME OF AGGRESSION, but THE EXERCISE OF THAT JURISDICTION WILL BE POSSIBLE ONLY ONCE THE CRIME HAS BEEN DEFINED. Personal jurisdiction is as a rule limited to persons who are either NATIONALS OF A STATE PARTY OR WHOSE CRIMES WERE ALLEGEDLY COMMITTED ON THE TERRITORY OF A STATE PARTY — but IT MAY BECOME TRULY UNIVERSAL IF THE SECURITY COUNCIL REFERS A SITUATION TO THE COURT. The ICC's jurisdiction is COMPLEMENTARY to national ones: THE COURT ACTS ONLY WHERE NO STATE IS WILLING OR ABLE GENUINELY TO CONDUCT PROCEEDINGS — and where the genuineness of national proceedings is disputed, THE ICC DECIDES CONCLUSIVELY. To these have been added domestic and mixed courts: the WAR CRIMES CHAMBER OF THE COURT OF BOSNIA AND HERZEGOVINA, the SPECIAL COURT FOR SIERRA LEONE, the SPECIAL PANELS IN DILI (EAST TIMOR) and the EXTRAORDINARY CHAMBERS IN THE COURTS OF CAMBODIA. The consensus that perpetrators should not go unpunished is therefore, in the words of the opinion cited, 'BEING PURSUED THROUGH A FLEXIBLE STRATEGY IN WHICH THE NEWLY ESTABLISHED INTERNATIONAL TRIBUNALS, TREATY OBLIGATIONS AND NATIONAL COURTS ALL HAVE THEIR PART TO PLAY'.",
+      "terms": [{"term": "complementarity", "def": "The ICC acts only where no state is willing or able genuinely to conduct proceedings; where the genuineness is disputed, the Court decides conclusively."}],
       "cards": [
-        {
-          "q": "Jaká je věcná a osobní příslušnost ICC?",
-          "a": "Věcná: genocida, zločiny proti lidskosti, válečné zločiny — a zločin agrese, jehož výkon je ale možný až po jeho definici. Osobní: zpravidla osoby, které jsou PŘÍSLUŠNÍKY SMLUVNÍHO STÁTU nebo jejichž zločiny byly spáchány NA ÚZEMÍ SMLUVNÍHO STÁTU — může se ale stát UNIVERZÁLNÍ, postoupí-li Rada bezpečnosti soudu situaci.",
-          "difficulty": 2,
-          "kind": "schema",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Co znamená komplementarita jurisdikce ICC?",
-          "a": "Že ICC jedná, JEN KDYŽ ŽÁDNÝ STÁT NENÍ OCHOTEN ČI SCHOPEN VÉST OPRAVDOVÉ ŘÍZENÍ — a je-li opravdovost národního řízení sporná, rozhoduje s konečnou platností sám soud (Kompetenz-Kompetenz zůstává u mezinárodního soudu).",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What is the subject-matter and personal jurisdiction of the ICC?", "a": "Subject matter: genocide, crimes against humanity, war crimes — and the crime of aggression, whose exercise, however, is possible only after its definition. Personal: as a rule persons who are NATIONALS OF A STATE PARTY or whose crimes were committed ON THE TERRITORY OF A STATE PARTY — but it may become UNIVERSAL if the Security Council refers a situation to the Court.", "difficulty": 2, "kind": "schema", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "What does the complementarity of ICC jurisdiction mean?", "a": "That the ICC acts ONLY WHERE NO STATE IS WILLING OR ABLE GENUINELY TO CONDUCT PROCEEDINGS — and where the genuineness of national proceedings is disputed, the Court itself decides conclusively (the Kompetenz-Kompetenz remains with the international court).", "difficulty": 2, "kind": "definice", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "14": {
-      "title": "Velmoci mimo soud a napětí epochy",
-      "text": "Shoda, že pachatelé nemají zůstat nepotrestáni, NEZNAMENÁ SHODU NA PODOBĚ SYSTÉMU: ČÍNA, INDIE, RUSKO A USA zůstávají mimo ICC. Americká vláda by dala přednost soudu ZÁVISLÉMU NA POSTOUPENÍ RADOU BEZPEČNOSTI a zpochybňuje mezinárodní zákonnost jurisdikčního rámce. Za prezidentství G. W. Bushe usilovala o další oklestění jurisdikce, aby své vojáky účinně uchránila: tvrdě prosadila REZOLUCI RADY BEZPEČNOSTI 1422 (2002), právně sporný nástroj, který soudu ZAKÁZAL VYKONÁVAT JURISDIKCI NAD PŘÍSLUŠNÍKY NESMLUVNÍCH STÁTŮ JEDNAJÍCÍMI PODLE MANDÁTU RADY podle kap. VII. Rezoluce platila rok a PRO ROSTOUCÍ ODPOR BYLA PRODLOUŽENA JEN JEDNOU — načež USA přešly k budování SÍTĚ DVOUSTRANNÝCH DOHOD. Kreß to zasazuje do obecnějšího rámce: odpor Bushovy vlády ukazuje TRVALOU OBTÍŽ ICC USKUTEČNIT SVOU VIZI ÚPLNÉ ROVNOSTI PŘED ZÁKONEM, a ZÁSADNĚJI ODRÁŽÍ PŘÍZNAČNÝ RYS SOUČASNÉ EPOCHY MEZINÁRODNÍHO PRÁVA: NAPĚTÍ MEZI BEZPŘÍKLADNÝMI ASPIRACEMI MEZINÁRODNÍHO SPOLEČENSTVÍ A SILNÝM HEGEMONICKÝM POKUŠENÍM 'OSAMĚLÉ SUPERVELMOCI'. Nadějné je, že USA občas polevily: 31. BŘEZNA 2005 přijala Rada bezpečnosti REZOLUCI 1593, která postoupila soudu SITUACI V DÁRFÚRU — a USA místo veta ZVOLILY ZDRŽET SE HLASOVÁNÍ. Není to nadšené potvrzení univerzality a rovnosti, ale gesto, které práci soudu UMOŽNILO MÍSTO ABY JI BRÁNILO — a poprvé se ukázal POTENCIÁL KOMPLEMENTÁRNÍHO PŮSOBENÍ RADY BEZPEČNOSTI A ICC.",
+      "title": "The great powers outside the Court and the tension of the age",
+      "text": "The consensus that perpetrators should not go unpunished DOES NOT MEAN CONSENSUS ON THE SHAPE OF THE SYSTEM: CHINA, INDIA, RUSSIA AND THE USA remain outside the ICC. The American government would have preferred a court DEPENDENT ON REFERRAL BY THE SECURITY COUNCIL and questions the international legality of the jurisdictional framework. Under the presidency of G. W. Bush it sought to curtail the jurisdiction further in order to shield its soldiers effectively: it forced through SECURITY COUNCIL RESOLUTION 1422 (2002), a legally questionable instrument which FORBADE THE COURT TO EXERCISE JURISDICTION OVER NATIONALS OF NON-PARTY STATES ACTING UNDER A COUNCIL MANDATE under Chapter VII. The resolution was valid for a year and, OWING TO GROWING OPPOSITION, WAS RENEWED ONLY ONCE — whereupon the USA turned to building A NETWORK OF BILATERAL AGREEMENTS. Kreß sets this in a wider frame: the Bush administration's opposition shows THE ENDURING DIFFICULTY OF THE ICC IN REALISING ITS VISION OF COMPLETE EQUALITY BEFORE THE LAW, and MORE FUNDAMENTALLY REFLECTS A CHARACTERISTIC FEATURE OF THE PRESENT EPOCH OF INTERNATIONAL LAW: THE TENSION BETWEEN THE UNPRECEDENTED ASPIRATIONS OF THE INTERNATIONAL COMMUNITY AND THE STRONG HEGEMONIC TEMPTATION OF THE 'LONELY SUPERPOWER'. It is hopeful that the USA has occasionally relented: on 31 MARCH 2005 the Security Council adopted RESOLUTION 1593, referring the SITUATION IN DARFUR to the Court — and the USA, instead of vetoing, CHOSE TO ABSTAIN. It is not an enthusiastic affirmation of universality and equality, but a gesture that ENABLED RATHER THAN OBSTRUCTED THE COURT'S WORK — and for the first time THE POTENTIAL OF COMPLEMENTARY ACTION BY THE SECURITY COUNCIL AND THE ICC became visible.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co byla rezoluce RB 1422 (2002) a jak dopadla?",
-          "a": "Právně sporný nástroj, který USA tvrdě prosadily: ZAKÁZAL ICC vykonávat jurisdikci nad příslušníky NESMLUVNÍCH STÁTŮ jednajícími podle mandátu Rady bezpečnosti podle kap. VII. Platil rok a PRO ROSTOUCÍ ODPOR V RADĚ BYL PRODLOUŽEN JEN JEDNOU — USA pak přešly k budování sítě dvoustranných dohod.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Jaký rys současné epochy mezinárodního práva podle Kreße odráží odpor USA vůči ICC?",
-          "a": "NAPĚTÍ MEZI BEZPŘÍKLADNÝMI ASPIRACEMI MEZINÁRODNÍHO SPOLEČENSTVÍ A SILNÝM HEGEMONICKÝM POKUŠENÍM 'OSAMĚLÉ SUPERVELMOCI'. Nadějným protipohybem bylo, že USA u rezoluce 1593 (2005) o postoupení Dárfúru místo veta ZVOLILY ZDRŽET SE — a poprvé se ukázal potenciál komplementárního působení Rady bezpečnosti a soudu.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What was Security Council resolution 1422 (2002) and what became of it?", "a": "A legally questionable instrument forced through by the USA: it FORBADE the ICC to exercise jurisdiction over nationals of NON-PARTY STATES acting under a Security Council mandate under Chapter VII. It was valid for a year and, OWING TO GROWING OPPOSITION IN THE COUNCIL, WAS RENEWED ONLY ONCE — the USA then turned to building a network of bilateral agreements.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "What feature of the present epoch of international law does US opposition to the ICC reflect, on Kreß's account?", "a": "THE TENSION BETWEEN THE UNPRECEDENTED ASPIRATIONS OF THE INTERNATIONAL COMMUNITY AND THE STRONG HEGEMONIC TEMPTATION OF THE 'LONELY SUPERPOWER'. A hopeful counter-movement was that on resolution 1593 (2005) referring Darfur the USA CHOSE TO ABSTAIN rather than veto — and the potential of complementary action by the Council and the Court became visible for the first time.", "difficulty": 3, "kind": "basic", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "15": {
-      "title": "Zásada zákonnosti: od titulu jurisdikce k psanému právu",
-      "text": "Charty norimberského i tokijského tribunálu a statuty ICTY a ICTR odkazovaly na zločiny podle mezinárodního práva v podstatě JEN JAKO NA TITULY JURISDIKCE — k zjištění PLNÉ DEFINICE se soudci museli obrátit K OBYČEJOVÉMU PRÁVU. ŘÍMSKÝ STATUT SE OD TÉ PRAXE ODCHYLUJE a v čl. 6 až 8 genocidu, zločiny proti lidskosti a válečné zločiny DEFINUJE. Ten rozhodný krok k LEX SCRIPTA doplňuje ČL. 22, který vylučuje řízení o jiných zločinech než těch, které statut vyjmenovává a definuje — a BEZPŘÍKLADNÝ DŮRAZ NA ZÁSADU ZÁKONNOSTI ještě podtrhuje přijetí ZNAKŮ SKUTKOVÝCH PODSTAT, které 'MAJÍ SOUDU POMOCI PŘI VÝKLADU A POUŽITÍ ČLÁNKŮ 6, 7 A 8' (čl. 9 odst. 1).",
+      "title": "The principle of legality: from jurisdictional title to written law",
+      "text": "The charters of the Nuremberg and Tokyo tribunals and the statutes of the ICTY and ICTR referred to crimes under international law essentially ONLY AS TITLES OF JURISDICTION — to establish the FULL DEFINITION the judges had to turn TO CUSTOMARY LAW. THE ROME STATUTE DEPARTS FROM THAT PRACTICE and in arts. 6 to 8 DEFINES genocide, crimes against humanity and war crimes. That decisive step towards LEX SCRIPTA is complemented by ART. 22, which excludes proceedings for crimes other than those the Statute enumerates and defines — and THE UNPRECEDENTED EMPHASIS ON THE PRINCIPLE OF LEGALITY is underlined further by the adoption of the ELEMENTS OF CRIMES, which 'SHALL ASSIST THE COURT IN THE INTERPRETATION AND APPLICATION OF ARTICLES 6, 7 AND 8' (art. 9(1)).",
       "terms": [],
       "cards": [
-        {
-          "q": "V čem se Římský statut odchýlil od praxe předchozích tribunálů v zásadě zákonnosti?",
-          "a": "Dřívější charty a statuty odkazovaly na zločiny jen JAKO NA TITULY JURISDIKCE a plnou definici museli soudci hledat v OBYČEJOVÉM PRÁVU. Římský statut zločiny v čl. 6–8 DEFINUJE (lex scripta), čl. 22 vylučuje řízení o jiných zločinech, a přijetí ZNAKŮ SKUTKOVÝCH PODSTAT (čl. 9 odst. 1) ten bezpříkladný důraz na zákonnost podtrhuje.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "How did the Rome Statute depart from the practice of the earlier tribunals on the principle of legality?", "a": "The earlier charters and statutes referred to the crimes only AS TITLES OF JURISDICTION, and judges had to find the full definition in CUSTOMARY LAW. The Rome Statute DEFINES the crimes in arts. 6–8 (lex scripta), art. 22 excludes proceedings for other crimes, and the adoption of the ELEMENTS OF CRIMES (art. 9(1)) underlines that unprecedented emphasis on legality.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "16": {
-      "title": "Genocida a zločiny proti lidskosti",
-      "text": "Definice GENOCIDY v čl. 6 pochází z čl. 2 Úmluvy o genocidě. PODSTATA ZLOČINU LEŽÍ V ÚMYSLU ZNIČIT ZCELA NEBO ZČÁSTI NÁRODNÍ, ETNICKOU, RASOVOU ČI NÁBOŽENSKOU SKUPINU. A praktické upřesnění: ten úmysl PRAKTICKY VZATO ODKAZUJE NA KOLEKTIVNÍ GENOCIDNÍ KAMPAŇ, protože osamělý jednotlivec nebude, až na nejvýjimečnější okolnosti, s to POJMOUT REALISTICKÝ ÚMYSL PŘIVODIT SVÝM VLASTNÍM JEDNÁNÍM ASPOŇ ČÁSTEČNÉ ZNIČENÍ SKUPINY. ICTR a ICTY definici významně vyjasnily a MEZINÁRODNÍ SOUDNÍ DVŮR jejich judikaturu v podstatě potvrdil v rozsudku BOSNA A HERCEGOVINA v. SRBSKO A ČERNÁ HORA (2007) — ale důležité otázky o vymezení chráněných skupin, o pojmu 'ČÁSTI SKUPINY' a o 'ÚMYSLU ZNIČIT' ZŮSTÁVAJÍ PŘEDMĚTEM INTENZIVNÍHO SPORU. ČL. 7 je PRVNÍ KODIFIKACÍ ZLOČINŮ PROTI LIDSKOSTI. Dnes je ustáleným obyčejovým právem, že zločin proti lidskosti lze — stejně jako genocidu — spáchat UVNITŘ I MIMO OZBROJENÝ KONFLIKT. Jeho podstata spočívá v tom, že JEDNÁNÍ JEDNOTLIVÉHO PACHATELE (vražda, mučení, znásilnění a další) MUSÍ TVOŘIT SOUČÁST ROZSÁHLÉHO NEBO SYSTEMATICKÉHO ÚTOKU NAMÍŘENÉHO PROTI JAKÉMUKOLI CIVILNÍMU OBYVATELSTVU, A TO S VĚDOMÍM TOHO ÚTOKU. Hlavní výzvou je co nejjasněji vymezit ten KONTEXTOVÝ PRVEK, protože právě tím prahovým prvkem SE VYMEZUJE VĚCNÝ ROZSAH CELÉHO MEZINÁRODNÍHO TRESTNÍHO PRÁVA STRICTO SENSU. A Kreß tu schvaluje odchylku: ČL. 7 ODST. 2 SPRÁVNĚ ODMÍTÁ NOVĚJŠÍ, PŘÍLIŠ POKROKOVOU JUDIKATURU ICTY A TRVÁ NA POŽADAVKU STÁTNÍ ČI ORGANIZAČNÍ POLITIKY ZA TOU KOLEKTIVNÍ ČINNOSTÍ — ačkoli přesná definice 'politiky' a 'organizace' zbývá vyjasnit.",
+      "title": "Genocide and crimes against humanity",
+      "text": "The definition of GENOCIDE in art. 6 comes from art. 2 of the Genocide Convention. THE ESSENCE OF THE CRIME LIES IN THE INTENT TO DESTROY, IN WHOLE OR IN PART, A NATIONAL, ETHNICAL, RACIAL OR RELIGIOUS GROUP. And a practical refinement: that intent PRACTICALLY SPEAKING REFERS TO A COLLECTIVE GENOCIDAL CAMPAIGN, because a lone individual will not, save in the most exceptional circumstances, be able to FORM A REALISTIC INTENT TO BRING ABOUT AT LEAST THE PARTIAL DESTRUCTION OF A GROUP BY HIS OWN CONDUCT. The ICTR and ICTY significantly clarified the definition and the INTERNATIONAL COURT OF JUSTICE essentially confirmed their case law in its judgment in BOSNIA AND HERZEGOVINA v SERBIA AND MONTENEGRO (2007) — but important questions about the delimitation of the protected groups, about the notion of 'PART OF A GROUP' and about the 'INTENT TO DESTROY' REMAIN THE SUBJECT OF INTENSE DISPUTE. ART. 7 IS THE FIRST CODIFICATION OF CRIMES AGAINST HUMANITY. It is today settled customary law that a crime against humanity can — like genocide — be committed INSIDE OR OUTSIDE AN ARMED CONFLICT. Its essence lies in the requirement that THE CONDUCT OF THE INDIVIDUAL PERPETRATOR (murder, torture, rape and others) MUST FORM PART OF A WIDESPREAD OR SYSTEMATIC ATTACK DIRECTED AGAINST ANY CIVILIAN POPULATION, WITH KNOWLEDGE OF THAT ATTACK. The main challenge is to define that CONTEXTUAL ELEMENT as clearly as possible, because it is by that threshold element THAT THE SUBSTANTIVE SCOPE OF THE WHOLE OF INTERNATIONAL CRIMINAL LAW STRICTO SENSU IS DEFINED. And here Kreß approves a departure: ART. 7(2) RIGHTLY REJECTS THE MORE RECENT, OVER-PROGRESSIVE CASE LAW OF THE ICTY AND INSISTS ON THE REQUIREMENT OF A STATE OR ORGANISATIONAL POLICY BEHIND THE COLLECTIVE ACTIVITY — although the precise definition of 'policy' and 'organisation' remains to be clarified.",
       "terms": [],
       "cards": [
-        {
-          "q": "V čem spočívá podstata genocidy a proč odkazuje na kolektivní kampaň?",
-          "a": "V ÚMYSLU ZNIČIT ZCELA NEBO ZČÁSTI NÁRODNÍ, ETNICKOU, RASOVOU ČI NÁBOŽENSKOU SKUPINU. Prakticky ten úmysl odkazuje na KOLEKTIVNÍ GENOCIDNÍ KAMPAŇ, protože osamělý jednotlivec nebude — až na nejvýjimečnější okolnosti — s to pojmout realistický úmysl přivodit SVÝM VLASTNÍM JEDNÁNÍM aspoň částečné zničení skupiny.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "V čem spočívá podstata zločinu proti lidskosti a co je jeho nejspornější prvek?",
-          "a": "Jednání jednotlivého pachatele (vražda, mučení, znásilnění) MUSÍ TVOŘIT SOUČÁST ROZSÁHLÉHO NEBO SYSTEMATICKÉHO ÚTOKU PROTI CIVILNÍMU OBYVATELSTVU, A TO S VĚDOMÍM TOHO ÚTOKU. Nejspornější je ten KONTEXTOVÝ PRVEK, protože právě jím se vymezuje věcný rozsah celého mezinárodního trestního práva stricto sensu — a čl. 7 odst. 2 na rozdíl od novější judikatury ICTY trvá na POŽADAVKU STÁTNÍ ČI ORGANIZAČNÍ POLITIKY.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What is the essence of genocide and why does it refer to a collective campaign?", "a": "THE INTENT TO DESTROY, IN WHOLE OR IN PART, A NATIONAL, ETHNICAL, RACIAL OR RELIGIOUS GROUP. Practically, that intent refers to A COLLECTIVE GENOCIDAL CAMPAIGN, because a lone individual will not — save in the most exceptional circumstances — be able to form a realistic intent to bring about at least the partial destruction of a group BY HIS OWN CONDUCT.", "difficulty": 3, "kind": "definice", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "What is the essence of a crime against humanity and what is its most disputed element?", "a": "The conduct of the individual perpetrator (murder, torture, rape) MUST FORM PART OF A WIDESPREAD OR SYSTEMATIC ATTACK AGAINST A CIVILIAN POPULATION, WITH KNOWLEDGE OF THAT ATTACK. The most disputed is that CONTEXTUAL ELEMENT, because it defines the substantive scope of the whole of international criminal law stricto sensu — and art. 7(2), unlike the more recent ICTY case law, insists on the REQUIREMENT OF A STATE OR ORGANISATIONAL POLICY.", "difficulty": 3, "kind": "definice", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "17": {
-      "title": "Válečné zločiny: nejstarší, a přesto do roku 1945 sporné",
-      "text": "Válečné zločiny se často pokládají za NEJSTARŠÍ ZLOČINY podle mezinárodního práva; tradiční pojem je spjat s MEZISTÁTNÍ VÁLKOU a kořenem má tradiční válečné právo, které bylo ve druhé polovině 19. století předmětem postupné úpravy mezinárodními úmluvami, jež zase daly vzniknout rostoucímu obyčejovému právu. Původně 'válečný zločin' označoval PORUŠENÍ ZÁKONŮ A OBYČEJŮ VÁLKY, často s dodatkem, že musí být ZÁVAŽNÉ. PRAVOMOC VÁLČÍCÍ STRANY TRESTAT VÁLEČNÉ ZLOČINY OSOB Z DRUHÉ STRANY — buď přímým použitím válečného práva, nebo podle národního trestního práva — BYLA UZNÁNA DO ROKU 1907, kdy vznikla IV. HAAGSKÁ ÚMLUVA. ALE — a to je ta pointa — EXISTENCE VÁLEČNÝCH ZLOČINŮ PODLE MEZINÁRODNÍHO PRÁVA ZŮSTÁVALA SPORNÁ AŽ DO KONCE DRUHÉ SVĚTOVÉ VÁLKY. Dnes je obyčejové právo válečných zločinů v mezinárodních konfliktech dobře ustavené: vedle IV. Haagské úmluvy jsou hlavními vztažnými body ŽENEVSKÉ ÚMLUVY I–IV a DODATKOVÝ PROTOKOL I (1977). Ženevské úmluvy sledují tradici 'ŽENEVSKÉHO PRÁVA', tedy ochrany osob mimo boj; Dodatkový protokol I spojuje ženevské prvky s PRAVIDLY VEDENÍ BOJE, která tradičně patřila k oddělenému 'HAAGSKÉMU PRÁVU'. ČL. 8 ODST. 2 PÍSM. A) statutu přejímá ustanovení o ZÁVAŽNÝCH PORUŠENÍCH Ženevských úmluv, PÍSM. B) vymezuje válečné zločiny haagského původu — a protože Dodatkový protokol I není dosud všeobecně přijat, MNOHÉ FORMULACE V PÍSM. B) JSOU PŘEVZATY ZE IV. HAAGSKÉ ÚMLUVY Z ROKU 1907.",
-      "terms": [
-        { "term": "ženevské × haagské právo", "def": "Ženevské chrání osoby mimo boj; haagské upravuje vedení boje. Dodatkový protokol I (1977) obojí spojuje." }
-      ],
+      "title": "War crimes: the oldest, and yet disputed until 1945",
+      "text": "War crimes are often regarded as the OLDEST CRIMES under international law; the traditional notion is tied to INTERSTATE WAR and has its root in the traditional law of war, which in the second half of the 19th century became the subject of progressive regulation by international conventions, which in turn gave rise to a growing body of customary law. Originally 'war crime' denoted A VIOLATION OF THE LAWS AND CUSTOMS OF WAR, often with the addition that it must be SERIOUS. THE POWER OF A BELLIGERENT TO PUNISH WAR CRIMES OF PERSONS ON THE OTHER SIDE — either by direct application of the law of war or under national criminal law — WAS RECOGNISED BY 1907, when HAGUE CONVENTION IV came into being. BUT — and this is the point — THE EXISTENCE OF WAR CRIMES UNDER INTERNATIONAL LAW REMAINED DISPUTED UNTIL THE END OF THE SECOND WORLD WAR. Today the customary law of war crimes in international conflicts is well established: besides Hague Convention IV the main points of reference are GENEVA CONVENTIONS I–IV and ADDITIONAL PROTOCOL I (1977). The Geneva Conventions follow the tradition of 'GENEVA LAW', that is the protection of persons hors de combat; Additional Protocol I combines Geneva elements with RULES ON THE CONDUCT OF HOSTILITIES, which traditionally belonged to the separate 'HAGUE LAW'. ART. 8(2)(a) of the Statute takes over the provisions on GRAVE BREACHES of the Geneva Conventions, (b) defines war crimes of Hague origin — and because Additional Protocol I is not yet universally accepted, MANY FORMULATIONS IN (b) ARE TAKEN FROM HAGUE CONVENTION IV OF 1907.",
+      "terms": [{"term": "Geneva vs Hague law", "def": "Geneva law protects persons hors de combat; Hague law regulates the conduct of hostilities. Additional Protocol I (1977) combines the two."}],
       "cards": [
-        {
-          "q": "Jsou válečné zločiny nejstarší kategorií, a odkdy jsou nesporné?",
-          "a": "Často se za nejstarší pokládají a pravomoc válčící strany trestat zločiny druhé strany byla uznána do roku 1907 (IV. Haagská úmluva). ALE EXISTENCE VÁLEČNÝCH ZLOČINŮ PODLE MEZINÁRODNÍHO PRÁVA ZŮSTÁVALA SPORNÁ AŽ DO KONCE DRUHÉ SVĚTOVÉ VÁLKY.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Rozliš ženevské a haagské právo a řekni, jak se to promítá do čl. 8 Římského statutu.",
-          "a": "ŽENEVSKÉ PRÁVO chrání osoby MIMO BOJ; HAAGSKÉ upravuje VEDENÍ BOJE (Dodatkový protokol I z roku 1977 obojí spojuje). Čl. 8 odst. 2 písm. a) přejímá ZÁVAŽNÁ PORUŠENÍ Ženevských úmluv, písm. b) vymezuje zločiny HAAGSKÉHO původu — a protože Protokol I není všeobecně přijat, mnohé formulace písm. b) jsou převzaty ze IV. Haagské úmluvy z roku 1907.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Are war crimes the oldest category, and since when have they been uncontested?", "a": "They are often regarded as the oldest, and the power of a belligerent to punish the other side's crimes was recognised by 1907 (Hague Convention IV). BUT THE EXISTENCE OF WAR CRIMES UNDER INTERNATIONAL LAW REMAINED DISPUTED UNTIL THE END OF THE SECOND WORLD WAR.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "Distinguish Geneva and Hague law and say how this is reflected in art. 8 of the Rome Statute.", "a": "GENEVA LAW protects persons HORS DE COMBAT; HAGUE LAW regulates the CONDUCT OF HOSTILITIES (Additional Protocol I of 1977 combines the two). Art. 8(2)(a) takes over the GRAVE BREACHES of the Geneva Conventions, (b) defines crimes of HAGUE origin — and because Protocol I is not universally accepted, many formulations in (b) are taken from Hague Convention IV of 1907.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "18": {
-      "title": "Válečné zločiny v nemezinárodním konfliktu a Tadić",
-      "text": "Krystalizace válečných zločinů spáchaných v NEMEZINÁRODNÍM ozbrojeném konfliktu je jednou z nejdůležitějších stránek bouřlivého vývoje od 90. let. Problém: SPOLEČNÝ ČL. 3 ŽENEVSKÝCH ÚMLUV NEOBSAHUJE REŽIM ZÁVAŽNÝCH PORUŠENÍ podobný tomu pro mezinárodní konflikt, a totéž platí pro DODATKOVÝ PROTOKOL II (1977). Když se zřizovaly ICTY a ICTR, panovala tedy ZNAČNÁ POCHYBNOST, ZDA VÁLEČNÉ ZLOČINY V NEMEZINÁRODNÍCH KONFLIKTECH PODLE MEZINÁRODNÍHO PRÁVA VŮBEC EXISTUJÍ. To vysvětluje MEZNÍ VÝZNAM ROZHODNUTÍ TADIĆ Z 2. ŘÍJNA 1995, ve kterém byla existence obyčejových válečných zločinů v nemezinárodních konfliktech POTVRZENA spolu s DALEKOSÁHLÝM PŘIBLÍŽENÍM jejich úpravy k ustálenému právu konfliktů mezinárodních. Římský statut to v podstatě potvrzuje: ČL. 8 ODST. 2 PÍSM. C) A E) obsahují DVA SEZNAMY válečných zločinů v nemezinárodním konfliktu, přičemž ten druhý zasahuje i do oblasti VEDENÍ BOJE. (A všimni si napětí: v otázce pramene individuální odpovědnosti Kreß rozhodnutí Tadić kritizuje, zde ale uznává jeho mezní význam.)",
+      "title": "War crimes in non-international conflict and Tadić",
+      "text": "The crystallisation of war crimes committed in NON-INTERNATIONAL armed conflict is one of the most important aspects of the turbulent development since the 1990s. The problem: COMMON ARTICLE 3 OF THE GENEVA CONVENTIONS CONTAINS NO GRAVE BREACHES REGIME like the one for international conflict, and the same is true of ADDITIONAL PROTOCOL II (1977). When the ICTY and ICTR were established there was therefore CONSIDERABLE DOUBT WHETHER WAR CRIMES IN NON-INTERNATIONAL CONFLICTS EXISTED UNDER INTERNATIONAL LAW AT ALL. This explains the LANDMARK SIGNIFICANCE OF THE TADIĆ DECISION OF 2 OCTOBER 1995, in which the existence of customary war crimes in non-international conflicts was CONFIRMED together with a FAR-REACHING ASSIMILATION of their regulation to the settled law of international conflicts. The Rome Statute essentially confirms this: ART. 8(2)(c) AND (e) contain TWO LISTS of war crimes in non-international conflict, the second of which also reaches into the field of the CONDUCT OF HOSTILITIES. (And note the tension: on the source of individual responsibility Kreß criticises the Tadić decision, while here he acknowledges its landmark significance.)",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč bylo rozhodnutí Tadić z roku 1995 mezníkem u válečných zločinů?",
-          "a": "Protože společný čl. 3 Ženevských úmluv ani Dodatkový protokol II neobsahují režim závažných porušení, a existence válečných zločinů v NEMEZINÁRODNÍCH konfliktech byla proto sporná. Tadić jejich obyčejovou existenci POTVRDIL spolu s DALEKOSÁHLÝM PŘIBLÍŽENÍM k úpravě konfliktů mezinárodních — a Římský statut to v čl. 8 odst. 2 písm. c) a e) potvrdil dvěma seznamy.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Why was the Tadić decision of 1995 a landmark for war crimes?", "a": "Because neither common art. 3 of the Geneva Conventions nor Additional Protocol II contains a grave breaches regime, so the existence of war crimes in NON-INTERNATIONAL conflicts was disputed. Tadić CONFIRMED their customary existence together with a FAR-REACHING ASSIMILATION to the law of international conflicts — and the Rome Statute confirmed this in art. 8(2)(c) and (e) with two lists.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "19": {
-      "title": "Agrese: historická ironie",
-      "text": "Na rozdíl od statutů ICTY a ICTR obsahuje seznam Římského statutu ZLOČIN AGRESE — a statut v preambuli uznává, že MÍR A BEZPEČNOST VE SVĚTĚ JSOU NEJVYŠŠÍ KOLEKTIVNÍ HODNOTOU, KTEROU MÁ SOUD CHRÁNIT. Podporuje tím názor, že agrese JE zločinem podle mezinárodního práva, jak jednomyslně potvrdila BRITSKÁ SNĚMOVNA LORDŮ ROKU 2006 (R v JONES). PARADOXNĚ VŠAK PRO NEDOSTATEK DOHODNUTÉ DEFINICE NEMŮŽE SOUD SVOU JURISDIKCI NAD TÍMTO ZLOČINEM VYKONÁVAT. A Kreß to pojmenuje přesně: TA SOUDNÍ NEZPŮSOBILOST JE HISTORICKOU IRONIÍ VE SVĚTLE TOHO, ŽE NORIMBERSKÝ TRIBUNÁL NAZVAL VEDENÍ ÚTOČNÉ VÁLKY 'NEJVYŠŠÍM MEZINÁRODNÍM ZLOČINEM'. Tvůrci statutu si byli vědomi, že ta definiční mezera nechává jejich římskou práci nedokončenou, a statut proto VOLÁ PO SVÉM VLASTNÍM DOPLNĚNÍ tím, že svěřuje státům mandát zločin definovat. Tři nejdůležitější body jednání ZVLÁŠTNÍ PRACOVNÍ SKUPINY: formulace VÝLUČNĚ VŮDCOVSKÉ POVAHY zločinu; přesná definice STÁTNÍHO UŽITÍ OZBROJENÉ SÍLY jako nutného předpokladu individuální odpovědnosti; a PROCESNÍ ROLE, KTERÁ MÁ PŘIPADNOUT RADĚ BEZPEČNOSTI. Ta poslední je 'OTÁZKA OTÁZEK', PROTOŽE STAVÍ ZÁSADU ROVNOSTI PŘED ZÁKONEM PROTI MOCNÝM POLITICKÝM POŽADAVKŮM PĚTI STÁLÝCH ČLENŮ RADY.",
+      "title": "Aggression: a historical irony",
+      "text": "Unlike the statutes of the ICTY and ICTR, the Rome Statute's list includes the CRIME OF AGGRESSION — and the Statute acknowledges in its preamble that PEACE AND SECURITY IN THE WORLD ARE THE SUPREME COLLECTIVE VALUE THE COURT IS TO PROTECT. It thereby supports the view that aggression IS a crime under international law, as the BRITISH HOUSE OF LORDS unanimously confirmed IN 2006 (R v JONES). PARADOXICALLY, HOWEVER, FOR WANT OF AN AGREED DEFINITION THE COURT CANNOT EXERCISE ITS JURISDICTION OVER THAT CRIME. And Kreß names it precisely: THAT JUDICIAL INCAPACITY IS A HISTORICAL IRONY IN THE LIGHT OF THE FACT THAT THE NUREMBERG TRIBUNAL CALLED THE WAGING OF A WAR OF AGGRESSION 'THE SUPREME INTERNATIONAL CRIME'. The drafters were aware that this definitional gap left their Rome work unfinished, and the Statute therefore CALLS FOR ITS OWN COMPLETION by entrusting states with a mandate to define the crime. The three most important points in the negotiations of the SPECIAL WORKING GROUP: the formulation of the EXCLUSIVELY LEADERSHIP NATURE of the crime; the precise definition of THE STATE USE OF ARMED FORCE as a necessary precondition of individual responsibility; and THE PROCEDURAL ROLE TO BE GIVEN TO THE SECURITY COUNCIL. The last is 'THE QUESTION OF QUESTIONS', BECAUSE IT SETS THE PRINCIPLE OF EQUALITY BEFORE THE LAW AGAINST THE POWERFUL POLITICAL DEMANDS OF THE FIVE PERMANENT MEMBERS OF THE COUNCIL.",
       "terms": [],
       "cards": [
-        {
-          "q": "V čem je u zločinu agrese historická ironie?",
-          "a": "Že Římský statut ho sice zahrnuje a uznává mír a bezpečnost za nejvyšší chráněnou hodnotu — ale PRO NEDOSTATEK DOHODNUTÉ DEFINICE NAD NÍM SOUD NEMŮŽE VYKONÁVAT JURISDIKCI. A to přesto, že NORIMBERSKÝ TRIBUNÁL NAZVAL VEDENÍ ÚTOČNÉ VÁLKY 'NEJVYŠŠÍM MEZINÁRODNÍM ZLOČINEM'.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Které tři otázky musela vyřešit definice agrese a která je 'otázka otázek'?",
-          "a": "Formulace VÝLUČNĚ VŮDCOVSKÉ POVAHY zločinu; přesná definice STÁTNÍHO UŽITÍ OZBROJENÉ SÍLY jako předpokladu individuální odpovědnosti; a PROCESNÍ ROLE RADY BEZPEČNOSTI. Ta poslední je 'otázka otázek', protože STAVÍ ZÁSADU ROVNOSTI PŘED ZÁKONEM PROTI MOCNÝM POLITICKÝM POŽADAVKŮM PĚTI STÁLÝCH ČLENŮ.",
-          "difficulty": 3,
-          "kind": "znaky",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What is the historical irony about the crime of aggression?", "a": "That the Rome Statute includes it and recognises peace and security as the supreme protected value — but FOR WANT OF AN AGREED DEFINITION THE COURT CANNOT EXERCISE JURISDICTION OVER IT. And this although THE NUREMBERG TRIBUNAL CALLED THE WAGING OF A WAR OF AGGRESSION 'THE SUPREME INTERNATIONAL CRIME'.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "Which three questions had to be settled by the definition of aggression, and which is the 'question of questions'?", "a": "The formulation of the EXCLUSIVELY LEADERSHIP NATURE of the crime; the precise definition of THE STATE USE OF ARMED FORCE as a precondition of individual responsibility; and THE PROCEDURAL ROLE OF THE SECURITY COUNCIL. The last is the 'question of questions' because it SETS THE PRINCIPLE OF EQUALITY BEFORE THE LAW AGAINST THE POWERFUL POLITICAL DEMANDS OF THE FIVE PERMANENT MEMBERS.", "difficulty": 3, "kind": "znaky", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "20": {
-      "title": "Terorismus: třetí generace?",
-      "text": "Po 11. ZÁŘÍ 2001 vzplanula debata o transnacionálním terorismu a Římském statutu — A JE ZCELA JINÉHO ŘÁDU NEŽ DEBATA O AGRESI. Debata o agresi se týká DOKONČENÍ KODIFIKACE DRUHÉ GENERACE; debata o terorismu se ptá, ZDA MAJÍ BÝT JISTÉ NÁSILNÉ ČINY SPÁCHANÉ SOUKROMÝMI (ATERITORIÁLNÍMI) SUBJEKTY PŘES HRANICE KRIMINALIZOVÁNY PŘÍMO PODLE OBECNÉHO MEZINÁRODNÍHO PRÁVA — tedy zda se chystá TŘETÍ GENERAČNÍ KROK. Znamenalo by to, že se právo pohne do oblasti KONFLIKTŮ MEZI STÁTY A NIČIVÝMI SOUKROMÝMI ORGANIZACEMI: jeho ochranný záběr, dosud omezený na válku a vnitřní nepokoje, by se rozšířil na OCHRANU STÁTŮ A JEJICH OBYVATEL PŘED VNĚJŠÍMI HROZBAMI ROZMĚRU PODOBNÉHO CIZÍ AGRESI, ALE VYCHÁZEJÍCÍMI OD SOUKROMÝCH OSOB. Mnozí pokládají za samozřejmé, že jednání jako útoky z 11. září už pod věcnou příslušnost ICC spadá: americká strategie 'VÁLKY PROTI TERORU' je (znovu)pojímá jako VÁLEČNÉ ZLOČINY, zatímco převažující nauka má za to, že mohou dosahovat ZLOČINŮ PROTI LIDSKOSTI. Kreß varuje: proti sotva podloženému obiter dictum jednoho senátu ICTY je TĚŽKO PROKAZATELNÉ, ŽE SE OBYČEJOVÉ PRÁVO ZLOČINŮ PROTI LIDSKOSTI VYVINULO K TOMU BODU — a je VÁŽNĚ SPORNÉ, zda násilné transnacionální soukromé organizace NEOVLÁDAJÍCÍ STÁTNÍ ÚZEMÍ patří mezi subjekty, které statut uznává za možné původce politiky útoku proti civilnímu obyvatelstvu. Podpůrný doklad: PŘI ZŘIZOVÁNÍ ZVLÁŠTNÍHO TRIBUNÁLU PRO LIBANON BYL DALEKOSÁHLÝ NÁVRH GENERÁLNÍHO TAJEMNÍKA ZAHRNOUT ZLOČINY PROTI LIDSKOSTI DO JEHO PŘÍSLUŠNOSTI RADOU BEZPEČNOSTI ODMÍTNUT.",
+      "title": "Terrorism: a third generation?",
+      "text": "After 11 SEPTEMBER 2001 a debate flared up about transnational terrorism and the Rome Statute — AND IT IS OF AN ENTIRELY DIFFERENT ORDER FROM THE DEBATE ABOUT AGGRESSION. The debate on aggression concerns THE COMPLETION OF THE CODIFICATION OF THE SECOND GENERATION; the debate on terrorism asks WHETHER CERTAIN VIOLENT ACTS COMMITTED BY PRIVATE (ATERRITORIAL) ACTORS ACROSS BORDERS SHOULD BE CRIMINALISED DIRECTLY UNDER GENERAL INTERNATIONAL LAW — that is, whether A THIRD GENERATIONAL STEP is in prospect. It would mean the law moving into the field of CONFLICTS BETWEEN STATES AND DESTRUCTIVE PRIVATE ORGANISATIONS: its protective reach, so far confined to war and internal unrest, would extend to THE PROTECTION OF STATES AND THEIR POPULATIONS AGAINST EXTERNAL THREATS OF A MAGNITUDE COMPARABLE TO FOREIGN AGGRESSION BUT EMANATING FROM PRIVATE PERSONS. Many take it for granted that conduct such as the attacks of 11 September already falls within the ICC's subject-matter jurisdiction: the American strategy of the 'WAR ON TERROR' (re)conceives them as WAR CRIMES, while the prevailing doctrine holds that they may amount to CRIMES AGAINST HUMANITY. Kreß warns: against a thinly supported obiter dictum of one ICTY chamber it is HARD TO DEMONSTRATE THAT THE CUSTOMARY LAW OF CRIMES AGAINST HUMANITY HAS DEVELOPED TO THAT POINT — and it is SERIOUSLY DISPUTED whether violent transnational private organisations NOT CONTROLLING STATE TERRITORY belong among the entities the Statute recognises as possible authors of a policy of attack against a civilian population. Supporting evidence: WHEN THE SPECIAL TRIBUNAL FOR LEBANON WAS ESTABLISHED, THE SECRETARY-GENERAL'S FAR-REACHING PROPOSAL TO INCLUDE CRIMES AGAINST HUMANITY IN ITS JURISDICTION WAS REJECTED BY THE SECURITY COUNCIL.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč je debata o terorismu jiného řádu než debata o agresi?",
-          "a": "Agrese se týká DOKONČENÍ KODIFIKACE DRUHÉ GENERACE. Terorismus se ptá, zda mají být násilné činy SOUKROMÝCH (ATERITORIÁLNÍCH) SUBJEKTŮ přes hranice kriminalizovány přímo podle obecného mezinárodního práva — tedy zda se chystá TŘETÍ GENERAČNÍ KROK, který by ochranný záběr rozšířil z války a vnitřních nepokojů na vnější hrozby rozměru agrese vycházející od soukromých osob.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Spadají útoky jako z 11. září pod zločiny proti lidskosti?",
-          "a": "Kreß je skeptický: proti sotva podloženému obiter dictu senátu ICTY je TĚŽKO PROKAZATELNÉ, že se obyčejové právo k tomu bodu vyvinulo, a je VÁŽNĚ SPORNÉ, zda soukromé organizace NEOVLÁDAJÍCÍ STÁTNÍ ÚZEMÍ patří mezi možné původce 'politiky' útoku. Podpůrně: při zřizování Zvláštního tribunálu pro Libanon Rada bezpečnosti návrh zahrnout zločiny proti lidskosti ODMÍTLA.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Why is the debate on terrorism of a different order from the debate on aggression?", "a": "Aggression concerns THE COMPLETION OF THE SECOND-GENERATION CODIFICATION. Terrorism asks whether violent acts by PRIVATE (ATERRITORIAL) ACTORS across borders should be criminalised directly under general international law — that is, whether A THIRD GENERATIONAL STEP is in prospect, extending the protective reach from war and internal unrest to external threats of the magnitude of aggression emanating from private persons.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "Do attacks such as those of 11 September fall under crimes against humanity?", "a": "Kreß is sceptical: against a thinly supported obiter dictum of an ICTY chamber it is HARD TO DEMONSTRATE that customary law has developed to that point, and it is SERIOUSLY DISPUTED whether private organisations NOT CONTROLLING STATE TERRITORY can be authors of a 'policy' of attack. Supporting this: when the Special Tribunal for Lebanon was established, the Security Council REJECTED the proposal to include crimes against humanity.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "21": {
-      "title": "Obecná část: první v dějinách, a zatím surová",
-      "text": "Statuty ICTY a ICTR upravují obecné zásady jen ZÁKLADNĚ — eklektický seznam forem odpovědnosti plus ustanovení o rozkazu nadřízeného a o VELITELSKÉ ODPOVĚDNOSTI. ČÁST 3 ŘÍMSKÉHO STATUTU naproti tomu upravuje mnoho obecných zásad podrobně a JE PRVNÍM POKUSEM V DĚJINÁCH MEZINÁRODNÍHO TRESTNÍHO PRÁVA FORMULOVAT OBECNOU ČÁST HMOTNÉHO TRESTNÍHO PRÁVA. Ukazuje odhodlání tvůrců PŘEKROČIT PŘEDPOJATOST PRÁVNÍCH RODIN — v Římě se vědomě vyhýbali terminologii s příliš silnou konotací jedné rodiny. Přesto je analytické rozlišení 'HMOTNÝCH ZNAKŮ' (ACTUS REUS), 'DUŠEVNÍCH ZNAKŮ' (MENS REA) a 'DŮVODŮ VYLUČUJÍCÍCH ODPOVĚDNOST' (DEFENCES) DĚDICTVÍM HISTORICKÉ PŘEVAHY COMMON LAW. Nejdůležitějším rysem je ZVÝŠENÁ CITLIVOST PRO ZÁSADU VINY A POŽADAVEK SUBJEKTIVNÍHO PŘIČTENÍ — v judikatuře ICTY jsou naopak stopy silného DŮRAZU NA PREVENCI, a to nejen při ukládání trestu, ale UŽ PŘI FORMULACI PODMÍNEK ODPOVĚDNOSTI. Nejnápadnějším příkladem je společné stanovisko soudců McDONALDA A VOHRAHA ve věci ERDEMOVIĆ (1997), kde odmítli dostupnost obrany DONUCENÍM (DURESS) u válečného zločinu úmyslného zabití, s odkazem na potřebu podpořit účinnost humanitárního práva. A Římský statut dal za pravdu disentujícím: ČL. 33 ODST. 1 PÍSM. D) uvádí nutnost jako důvod vylučující odpovědnost A NEOBSAHUJE VÝJIMKU PRO ÚMYSLNÉ ZABITÍ A VRAŽDU. Statut dále omezeně uznává OMLUVITELNÝ PRÁVNÍ OMYL ZALOŽENÝ NA ROZKAZU NADŘÍZENÉHO a omyly, které POPÍRAJÍ DUŠEVNÍ ZNAK zločinu. To vše ukazuje, že TVŮRCI DALI PŘEDNOST ZÁSADĚ INDIVIDUÁLNÍ VINY TAM, KDE SE JEJÍ VÝSLEDEK JEVÍ V ROZPORU S PREVENCÍ. Zároveň mnohé složky vypadají JAKO SUROVÝ TRESTNĚPRÁVNÍ MATERIÁL — třeba ustanovení o nutnosti, které nerozlišuje OKOLNOST VYLUČUJÍCÍ PROTIPRÁVNOST A OMLUVU, či nerozlišené zacházení s několika formami velitelské odpovědnosti. Část 3 proto bude vyžadovat SOUDCOVSKÉ ZJEMNĚNÍ s důkladnými srovnávacími rozbory — a poskytuje 'NEJLEPŠÍ MOŽNOU POBÍDKU KOPAT DO HLOUBKY A ZFORMULOVAT \u201eGRAMATIKU\u201c MODERNÍHO MEZINÁRODNÍHO TRESTNÍHO PRÁVA'.",
+      "title": "The general part: the first in history, and still raw",
+      "text": "The statutes of the ICTY and ICTR regulate general principles only RUDIMENTARILY — an eclectic list of forms of responsibility plus provisions on superior orders and on COMMAND RESPONSIBILITY. PART 3 OF THE ROME STATUTE, by contrast, regulates many general principles in detail and IS THE FIRST ATTEMPT IN THE HISTORY OF INTERNATIONAL CRIMINAL LAW TO FORMULATE A GENERAL PART OF SUBSTANTIVE CRIMINAL LAW. It shows the drafters' determination TO TRANSCEND THE BIAS OF LEGAL FAMILIES — in Rome they deliberately avoided terminology with too strong a connotation of one family. Even so, the analytical distinction between 'MATERIAL ELEMENTS' (ACTUS REUS), 'MENTAL ELEMENTS' (MENS REA) and 'GROUNDS EXCLUDING RESPONSIBILITY' (DEFENCES) IS A LEGACY OF THE HISTORICAL PREDOMINANCE OF THE COMMON LAW. The most important feature is A HEIGHTENED SENSITIVITY TO THE PRINCIPLE OF GUILT AND THE REQUIREMENT OF SUBJECTIVE ATTRIBUTION — whereas in the ICTY's case law there are traces of a strong EMPHASIS ON PREVENTION, not only in sentencing but ALREADY IN FORMULATING THE CONDITIONS OF RESPONSIBILITY. The most striking example is the joint opinion of Judges McDONALD AND VOHRAH in ERDEMOVIĆ (1997), where they denied the availability of the defence of DURESS to a war crime of intentional killing, invoking the need to promote the effectiveness of humanitarian law. And the Rome Statute vindicated the dissenters: ART. 31(1)(d) lists necessity as a ground excluding responsibility AND CONTAINS NO EXCEPTION FOR INTENTIONAL KILLING AND MURDER. The Statute further recognises, within limits, EXCUSABLE MISTAKE OF LAW BASED ON A SUPERIOR ORDER and mistakes that NEGATE THE MENTAL ELEMENT of a crime. All this shows that THE DRAFTERS GAVE PRECEDENCE TO THE PRINCIPLE OF INDIVIDUAL GUILT WHERE ITS OUTCOME APPEARS TO CONFLICT WITH PREVENTION. At the same time many components look LIKE RAW CRIMINAL-LAW MATERIAL — the provision on necessity, for instance, which does not distinguish A JUSTIFICATION FROM AN EXCUSE, or the undifferentiated treatment of several forms of command responsibility. Part 3 will therefore require JUDICIAL REFINEMENT with thorough comparative analysis — and it offers 'THE BEST POSSIBLE INCENTIVE TO DIG DEEP AND TO FORMULATE THE „GRAMMAR“ OF MODERN INTERNATIONAL CRIMINAL LAW'.",
       "terms": [],
       "cards": [
-        {
-          "q": "Čím je Část 3 Římského statutu jedinečná a co z ní přesto zůstalo poplatné jedné právní rodině?",
-          "a": "Je PRVNÍM POKUSEM V DĚJINÁCH mezinárodního trestního práva formulovat OBECNOU ČÁST hmotného trestního práva, s vědomou snahou vyhnout se terminologii jedné právní rodiny. Přesto je rozlišení 'hmotných znaků' (actus reus), 'duševních znaků' (mens rea) a 'důvodů vylučujících odpovědnost' (defences) DĚDICTVÍM HISTORICKÉ PŘEVAHY COMMON LAW.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Jak Římský statut vyřešil spor o donucení (duress) z případu Erdemović?",
-          "a": "Ve prospěch DISENTUJÍCÍCH soudců: čl. 33 odst. 1 písm. d) uvádí nutnost jako důvod vylučující odpovědnost A NEOBSAHUJE VÝJIMKU PRO ÚMYSLNÉ ZABITÍ A VRAŽDU — zatímco soudci McDonald a Vohrah tu obranu odmítli s odkazem na potřebu prevence. Ukazuje to, že tvůrci dali PŘEDNOST ZÁSADĚ INDIVIDUÁLNÍ VINY PŘED PREVENCÍ.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "What makes Part 3 of the Rome Statute unique, and what in it nevertheless remains tied to one legal family?", "a": "It is THE FIRST ATTEMPT IN HISTORY to formulate a GENERAL PART of substantive international criminal law, with a deliberate effort to avoid the terminology of one legal family. Even so, the distinction between 'material elements' (actus reus), 'mental elements' (mens rea) and 'grounds excluding responsibility' (defences) IS A LEGACY OF THE HISTORICAL PREDOMINANCE OF THE COMMON LAW.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "How did the Rome Statute resolve the dispute over duress from the Erdemović case?", "a": "In favour of the DISSENTING judges: art. 31(1)(d) lists necessity as a ground excluding responsibility AND CONTAINS NO EXCEPTION FOR INTENTIONAL KILLING AND MURDER — whereas Judges McDonald and Vohrah had denied that defence by invoking the need for prevention. It shows that the drafters gave PRECEDENCE TO THE PRINCIPLE OF INDIVIDUAL GUILT OVER PREVENTION.", "difficulty": 3, "kind": "pripad", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "22": {
-      "title": "Řízení: žalobce jako hledač pravdy a role obětí",
-      "text": "Řízení před ICTY a ICTR jasně sledovala ADVERSÁRNÍ MODEL COMMON LAW (s jedinou výjimkou dokazování): za zjištění pravdy odpovídají hlavně 'obžaloba' a 'obhajoba', a i když míra soudcovského zásahu časem vzrostla, model se nezměnil. U ICC naopak mnohostranný proces vynutil ÚSTUPKY OD CELÉHO SPEKTRA PRÁVNÍCH RODIN a po víc než deseti letech vznikla procesní úprava s JEDINEČNÝMI KOMPROMISY a bezpříkladnou složitostí pramenů. Řízení probíhá v pořadí: PŘEDBĚŽNÁ ANALÝZA SITUACE, VYŠETŘOVÁNÍ, POTVRZOVACÍ SLYŠENÍ, HLAVNÍ LÍČENÍ a případně ODVOLÁNÍ A OBNOVA (v širokém pojetí ještě VÝKON). Nejvýznamnější odchylky: NA ROZDÍL OD STATUTŮ ICTY A ICTR UKLÁDÁ ŘÍMSKÝ STATUT ŽALOBCI VYŠETŘOVAT STEJNĚ OKOLNOSTI USVĚDČUJÍCÍ I VYVIŇUJÍCÍ — tvůrci mu tedy dali ROLI HLEDAČE PRAVDY PODOBNOU SPÍŠ ÚŘEDNÍKU SPRAVEDLNOSTI NEŽ STRANICKÉMU OBHÁJCI. Souhra žalobce a PŘÍPRAVNÉHO SENÁTU je SUI GENERIS: přípravní soudci mají kontrolní funkce, které je staví NĚKAM MEZI NĚMECKÉHO ERMITTLUNGSRICHTERA A FRANCOUZSKÉHO JUGE D'INSTRUCTION. Potvrzovací slyšení se u ICTY a ICTR konalo EX PARTE, zatímco u ICC PROBÍHÁ ZA PŘÍTOMNOSTI OBVINĚNÉHO A JEHO OBHÁJCE — a nekopíruje žádné národní řešení, nýbrž kombinuje prvky několika systémů. Otevřenou otázkou zůstává, zda SOUDCI MAJÍ POVINNOST ZJIŠŤOVAT PRAVDU PROPRIO MOTU — výslovně to zahrnuto není. A novum: KE ROLI OBĚTÍ JE JUDIKATURA DŘÍVĚJŠÍCH TRIBUNÁLŮ JEN MÁLO NÁPOMOCNÁ, protože statut pojímá RESTORATIVNÍ SPRAVEDLNOST NOVĚ — OBĚTI MAJÍ DALEKOSÁHLÉ PRÁVO ÚČASTNIT SE ŘÍZENÍ A PRÁVO NA NÁHRADU NA INDIVIDUÁLNÍM ČI KOLEKTIVNÍM ZÁKLADĚ.",
+      "title": "Procedure: the prosecutor as a seeker of truth, and the role of victims",
+      "text": "Proceedings before the ICTY and ICTR clearly followed the ADVERSARIAL MODEL OF THE COMMON LAW (with the single exception of evidence): responsibility for establishing the truth lies chiefly with 'the prosecution' and 'the defence', and although the degree of judicial intervention grew over time, the model did not change. At the ICC, by contrast, a multilateral process compelled CONCESSIONS FROM THE WHOLE SPECTRUM OF LEGAL FAMILIES, and after more than ten years a procedural regime emerged with UNIQUE COMPROMISES and an unprecedented complexity of sources. Proceedings run in the order: PRELIMINARY ANALYSIS OF A SITUATION, INVESTIGATION, CONFIRMATION HEARING, TRIAL and possibly APPEAL AND REVISION (in a broad conception also ENFORCEMENT). The most significant departures: UNLIKE THE STATUTES OF THE ICTY AND ICTR, THE ROME STATUTE REQUIRES THE PROSECUTOR TO INVESTIGATE INCRIMINATING AND EXONERATING CIRCUMSTANCES EQUALLY — the drafters thus gave him THE ROLE OF A SEEKER OF TRUTH MORE LIKE AN OFFICER OF JUSTICE THAN A PARTISAN ADVOCATE. The interplay of the prosecutor and the PRE-TRIAL CHAMBER is SUI GENERIS: the pre-trial judges have supervisory functions placing them SOMEWHERE BETWEEN A GERMAN ERMITTLUNGSRICHTER AND A FRENCH JUGE D'INSTRUCTION. The confirmation hearing at the ICTY and ICTR was held EX PARTE, whereas at the ICC IT TAKES PLACE IN THE PRESENCE OF THE ACCUSED AND HIS COUNSEL — and it copies no national solution but combines elements of several systems. It remains an open question whether THE JUDGES HAVE A DUTY TO ESTABLISH THE TRUTH PROPRIO MOTU — it is not expressly included. And a novelty: ON THE ROLE OF VICTIMS THE CASE LAW OF THE EARLIER TRIBUNALS IS OF LITTLE HELP, because the Statute conceives RESTORATIVE JUSTICE ANEW — VICTIMS HAVE A FAR-REACHING RIGHT TO PARTICIPATE IN THE PROCEEDINGS AND A RIGHT TO REPARATIONS ON AN INDIVIDUAL OR COLLECTIVE BASIS.",
       "terms": [],
       "cards": [
-        {
-          "q": "Čím se role žalobce u ICC liší od ICTY a ICTR?",
-          "a": "Římský statut mu ukládá VYŠETŘOVAT STEJNĚ OKOLNOSTI USVĚDČUJÍCÍ I VYVIŇUJÍCÍ — tvůrci mu tedy dali ROLI HLEDAČE PRAVDY PODOBNOU ÚŘEDNÍKU SPRAVEDLNOSTI, ne stranickému obhájci. U ICTY a ICTR platil adversární model common law, kde za zjištění pravdy odpovídají strany.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Jaké novum přináší Římský statut u obětí?",
-          "a": "Pojímá RESTORATIVNÍ SPRAVEDLNOST nově: oběti mají DALEKOSÁHLÉ PRÁVO ÚČASTNIT SE ŘÍZENÍ a PRÁVO NA NÁHRADU na individuálním či kolektivním základě. Judikatura dřívějších tribunálů je tu jen málo nápomocná.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "How does the prosecutor's role at the ICC differ from the ICTY and ICTR?", "a": "The Rome Statute requires him to INVESTIGATE INCRIMINATING AND EXONERATING CIRCUMSTANCES EQUALLY — the drafters thus gave him THE ROLE OF A SEEKER OF TRUTH LIKE AN OFFICER OF JUSTICE, not a partisan advocate. At the ICTY and ICTR the adversarial common law model applied, where the parties are responsible for establishing the truth.", "difficulty": 3, "kind": "rozliseni", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "What novelty does the Rome Statute bring for victims?", "a": "It conceives RESTORATIVE JUSTICE anew: victims have A FAR-REACHING RIGHT TO PARTICIPATE IN THE PROCEEDINGS and A RIGHT TO REPARATIONS on an individual or collective basis. The case law of the earlier tribunals is of little help here.", "difficulty": 2, "kind": "basic", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "23": {
-      "title": "Spolupráce: nejslabší článek",
-      "text": "Bez pohledu na 'VNĚJŠÍ ČÁST' řízení — právo spolupráce mezi soudem a státy — nelze pochopit, jak bude ICC fungovat. Ta pravidla upravují PŘEDÁVÁNÍ OSOB soudu, formy spolupráce při POSKYTOVÁNÍ DŮKAZŮ a v širším pojetí VÝKON TRESTŮ. A důvod, proč na tom tak záleží: JAKÝKOLI MEZINÁRODNÍ TRESTNÍ SOUD ZŮSTANE 'NAPROSTO BEZMOCNÝ' (CASSESE) BEZ SPOLUPRÁCE STÁTŮ A PŘI ABSENCI VLASTNÍHO DONUCOVACÍHO APARÁTU — a bývalý soudce ICTY označil nedostatek spolupráce států za 'NEJFRUSTRUJÍCÍ STRÁNKU' mezinárodní trestní spravedlnosti. ČÁST 9 statutu proto značně ZKRACUJE SEZNAM DŮVODŮ, pro které mohou státy žádosti odmítnout, nevylučuje vyšetřování na místě a svěřuje soudu, aby o povinnostech států ROZHODOVAL AUTORITATIVNĚ — čímž zůstává v logice VERTIKÁLNÍ spolupráce vytyčené případem BLAŠKIĆ. Zároveň ale režim spolupráce TRPÍ VÁŽNÝMI SLABINAMI, ZPŮSOBENÝMI SPÍŠ OBAVAMI STÁTŮ O SUVERENITU NEŽ ODHODLÁNÍM CHRÁNIT LIDSKÁ PRÁVA. U předávání podezřelých je hlavní mezerou ABSENCE JASNĚ VYSLOVENÉ PRAVOMOCI VYNUTIT PŘEDÁNÍ MEZINÁRODNÍMI OZBROJENÝMI SILAMI v rámci mírové operace. U ostatních forem SOUDU CHYBÍ PRAVOMOC ŽÁDAT STÁTY, ABY DONUTILY SVĚDKY PŘED NĚJ PŘEDSTOUPIT, a pravomoc vyšetřovat na místě je vymezena úzce. A konečně: SPLETITÝ KOMPROMIS O INFORMACÍCH TÝKAJÍCÍCH SE NÁRODNÍ BEZPEČNOSTI se sotva dá označit za poučený z případu Blaškić, kde se ukázalo, že PŘIPUSTIT JEDNOSTRANNÉ TVRZENÍ STÁTU O NÁRODNÍ BEZPEČNOSTI A ODMÍTNUTÍ VYDAT DOKUMENTY MŮŽE VÉST K OCHROMENÍ MEZINÁRODNÍHO TRESTNÍHO ŘÍZENÍ. Ustanovení o spolupráci proto podle Kreße možná budou prvním, co bude v novém procesním režimu NALÉHAVĚ POTŘEBOVAT ZMĚNU.",
+      "title": "Cooperation: the weakest link",
+      "text": "Without a view of the 'EXTERNAL PART' of the procedure — the law of cooperation between the Court and states — one cannot understand how the ICC will function. Those rules govern THE SURRENDER OF PERSONS to the Court, the forms of cooperation in PROVIDING EVIDENCE and, in a broader conception, THE ENFORCEMENT OF SENTENCES. And the reason this matters so much: ANY INTERNATIONAL CRIMINAL COURT WILL REMAIN 'UTTERLY POWERLESS' (CASSESE) WITHOUT THE COOPERATION OF STATES AND IN THE ABSENCE OF ITS OWN ENFORCEMENT APPARATUS — and a former ICTY judge called the lack of state cooperation 'THE MOST FRUSTRATING ASPECT' of international criminal justice. PART 9 of the Statute therefore substantially SHORTENS THE LIST OF GROUNDS on which states may refuse requests, does not exclude on-site investigations and entrusts the Court with deciding AUTHORITATIVELY on states' obligations — thereby remaining within the logic of VERTICAL cooperation set out in the BLAŠKIĆ case. At the same time, however, the cooperation regime SUFFERS FROM SERIOUS WEAKNESSES, CAUSED RATHER BY STATES' CONCERNS FOR SOVEREIGNTY THAN BY A DETERMINATION TO PROTECT HUMAN RIGHTS. For the surrender of suspects the main gap is THE ABSENCE OF AN EXPRESSLY STATED POWER TO ENFORCE SURRENDER BY INTERNATIONAL ARMED FORCES within a peace operation. For the other forms THE COURT LACKS THE POWER TO REQUIRE STATES TO COMPEL WITNESSES TO APPEAR BEFORE IT, and the power to investigate on site is narrowly defined. And finally: THE CONVOLUTED COMPROMISE ON INFORMATION RELATING TO NATIONAL SECURITY can hardly be called instructed by the Blaškić case, which showed that ALLOWING A STATE'S UNILATERAL ASSERTION OF NATIONAL SECURITY AND ITS REFUSAL TO PRODUCE DOCUMENTS CAN PARALYSE INTERNATIONAL CRIMINAL PROCEEDINGS. The cooperation provisions may therefore, on Kreß's view, be the first thing in the new procedural regime to NEED URGENT AMENDMENT.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč je spolupráce států nejslabším článkem mezinárodní trestní justice?",
-          "a": "Protože JAKÝKOLI MEZINÁRODNÍ TRESTNÍ SOUD ZŮSTANE 'NAPROSTO BEZMOCNÝ' (Cassese) BEZ SPOLUPRÁCE STÁTŮ A BEZ VLASTNÍHO DONUCOVACÍHO APARÁTU — bývalý soudce ICTY označil nedostatek spolupráce za 'nejfrustrujícnější stránku' této justice.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Jmenuj slabiny režimu spolupráce podle Římského statutu.",
-          "a": "Chybí jasně vyslovená pravomoc VYNUTIT PŘEDÁNÍ podezřelých mezinárodními ozbrojenými silami v rámci mírové operace; soud NEMŮŽE ŽÁDAT STÁTY, ABY DONUTILY SVĚDKY před ním předstoupit; vyšetřování na místě je vymezeno úzce; a spletitý kompromis o informacích týkajících se NÁRODNÍ BEZPEČNOSTI nepoučeně opakuje problém z případu Blaškić. Slabiny plynou spíš z OBAV O SUVERENITU než z ochrany lidských práv.",
-          "difficulty": 3,
-          "kind": "znaky",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Why is state cooperation the weakest link of international criminal justice?", "a": "Because ANY INTERNATIONAL CRIMINAL COURT WILL REMAIN 'UTTERLY POWERLESS' (Cassese) WITHOUT THE COOPERATION OF STATES AND WITHOUT ITS OWN ENFORCEMENT APPARATUS — a former ICTY judge called the lack of cooperation 'the most frustrating aspect' of this justice.", "difficulty": 2, "kind": "basic", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "Name the weaknesses of the cooperation regime under the Rome Statute.", "a": "There is no expressly stated power to ENFORCE THE SURRENDER of suspects by international armed forces in a peace operation; the Court CANNOT REQUIRE STATES TO COMPEL WITNESSES to appear before it; on-site investigation is narrowly defined; and the convoluted compromise on NATIONAL SECURITY information repeats, uninstructed, the problem from the Blaškić case. The weaknesses stem rather from CONCERNS FOR SOVEREIGNTY than from the protection of human rights.", "difficulty": 3, "kind": "znaky", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     },
     "24": {
-      "title": "Pohled dopředu",
-      "text": "Kreß uzavírá slavnou větou Norimberského tribunálu: 'ZLOČINY PROTI MEZINÁRODNÍMU PRÁVU PÁCHAJÍ LIDÉ, NE ABSTRAKTNÍ ENTITY, A JEN POTRESTÁNÍM JEDNOTLIVCŮ, KTEŘÍ TAKOVÉ ZLOČINY PÁCHAJÍ, LZE USTANOVENÍ MEZINÁRODNÍHO PRÁVA VYNUTIT.' ZA STUDENÉ VÁLKY ZŮSTALA TA VĚTA BEZ ODEZVY; VZPOMNĚLO SE NA NI TEPRVE V 90. LETECH a se vstupem Římského statutu v platnost roku 2002 se podle ní konečně dá DŮSLEDNĚ JEDNAT. ICC signalizuje, že POUŽITÍ MEZINÁRODNÍHO TRESTNÍHO PRÁVA STRICTO SENSU, BYŤ Z PRAKTICKÉ NUTNOSTI ZŮSTANE VÝBĚROVÉ, MŮŽE BÝT V BUDOUCNU MNOHEM MÉNĚ NAHODILÉ NEŽ V MINULOSTI. A poslední doporučení, které je v takovém textu překvapivé a proto zapamatovatelné: PO BOUŘLIVÉ RENESANCI A VÝVOJI V 90. LETECH NENÍ NALÉHAVĚ TŘEBA POSOUVAT HRANICE MEZINÁRODNÍHO TRESTNÍHO PRÁVA DÁL — MÍSTO TOHO JE TŘEBA UPEVNIT A POSÍLIT VELKÝ ÚSPĚCH, KTERÝM BYLO ZŘÍZENÍ ICC.",
+      "title": "Looking ahead",
+      "text": "Kreß closes with the famous sentence of the Nuremberg Tribunal: 'CRIMES AGAINST INTERNATIONAL LAW ARE COMMITTED BY MEN, NOT BY ABSTRACT ENTITIES, AND ONLY BY PUNISHING INDIVIDUALS WHO COMMIT SUCH CRIMES CAN THE PROVISIONS OF INTERNATIONAL LAW BE ENFORCED.' DURING THE COLD WAR THAT SENTENCE WENT UNANSWERED; IT WAS RECALLED ONLY IN THE 1990s, and with the entry into force of the Rome Statute in 2002 it can at last be ACTED UPON CONSISTENTLY. The ICC signals that THE APPLICATION OF INTERNATIONAL CRIMINAL LAW STRICTO SENSU, THOUGH OF PRACTICAL NECESSITY IT WILL REMAIN SELECTIVE, MAY IN FUTURE BE FAR LESS HAPHAZARD THAN IN THE PAST. And a final recommendation, surprising in such a text and therefore memorable: AFTER THE TURBULENT RENAISSANCE AND DEVELOPMENT OF THE 1990s THERE IS NO URGENT NEED TO PUSH THE BOUNDARIES OF INTERNATIONAL CRIMINAL LAW FURTHER — INSTEAD, THE GREAT ACHIEVEMENT OF ESTABLISHING THE ICC MUST BE CONSOLIDATED AND STRENGTHENED.",
       "terms": [],
       "cards": [
-        {
-          "q": "Cituj větu Norimberského tribunálu, na které Kreß staví závěr, a řekni, co se s ní dělo.",
-          "a": "'Zločiny proti mezinárodnímu právu páchají LIDÉ, NE ABSTRAKTNÍ ENTITY, a jen potrestáním jednotlivců, kteří takové zločiny páchají, lze ustanovení mezinárodního práva vynutit.' Za studené války zůstala bez odezvy; vzpomnělo se na ni až v 90. letech a důsledně se podle ní dá jednat od vstupu Římského statutu v platnost roku 2002.",
-          "difficulty": 2,
-          "kind": "norma",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        },
-        {
-          "q": "Co Kreß doporučuje jako další krok?",
-          "a": "Překvapivě NE další rozšiřování: po bouřlivé renesanci v 90. letech NENÍ NALÉHAVĚ TŘEBA POSOUVAT HRANICE MEZINÁRODNÍHO TRESTNÍHO PRÁVA DÁL — je třeba UPEVNIT A POSÍLIT velký úspěch, kterým bylo zřízení ICC.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Dictatorships of the 20th Century II",
-          "priority": "core"
-        }
+        {"q": "Quote the sentence of the Nuremberg Tribunal on which Kreß builds his conclusion, and say what became of it.", "a": "'Crimes against international law are committed by MEN, NOT BY ABSTRACT ENTITIES, and only by punishing individuals who commit such crimes can the provisions of international law be enforced.' During the Cold War it went unanswered; it was recalled only in the 1990s and can be acted upon consistently since the entry into force of the Rome Statute in 2002.", "difficulty": 2, "kind": "norma", "topic": "Dictatorships of the 20th Century II", "priority": "core"},
+        {"q": "What does Kreß recommend as the next step?", "a": "Surprisingly NOT further expansion: after the turbulent renaissance of the 1990s THERE IS NO URGENT NEED TO PUSH THE BOUNDARIES OF INTERNATIONAL CRIMINAL LAW FURTHER — the great achievement of establishing the ICC must be CONSOLIDATED AND STRENGTHENED.", "difficulty": 2, "kind": "basic", "topic": "Dictatorships of the 20th Century II", "priority": "core"}
       ],
       "vision_used": false
     }
