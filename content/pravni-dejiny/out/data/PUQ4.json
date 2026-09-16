@@ -4,7 +4,7 @@
   "course_title": "Practical Exercise on European and Global Legal History",
   "course_number": "030152",
   "unit": "Otázky 4",
-  "title": "Otázky a prameny, cvičení IV — recepce, common law, ius gentium",
+  "title": "Questions and sources, exercise class IV — reception, common law, ius gentium",
   "source_file": "raw/PUQ4_questions-and-sources-unit-4-ws-2025.pdf",
   "source_sha256": "d236c74c859ce0dd038afe2ce03ef569bc2eed53457d7b459cb87cfe1e8e6bce",
   "source_pages": 2,
@@ -15,26 +15,26 @@
     {
       "n": 1,
       "img": "img/PUQ4/PUQ4_s001.webp",
-      "title": "Jak probíhala recepce ius commune v raném novověku",
-      "text": "(Otázky 1 až 3 tohoto listu — lotharská legenda, usus modernus a poměr humanismu k němu — jsou totožné s otázkami 14 až 16 cvičení III a jsou vyloženy tam.) RECEPCE V RANÉM NOVOVĚKU není jednorázový akt, nýbrž PROCES O NĚKOLIKA VRSTVÁCH, a zkoušející chce vidět, že rozeznáš jeho nositele. (1) PŘES UNIVERZITY A ABSOLVENTY: od 15. století se šlechta i města začínají opírat o právníky s doktorátem; kdo umí jen ius commune, řeší jím i to, co jím řešeno být nemělo. (2) PŘES SOUDNÍ ORGANIZACI: nejsilnějším jednotlivým krokem je ŘÍŠSKÝ KOMORNÍ SOUD (1495) s pravidlem, že ius commune platí z úřední povinnosti, zatímco partikulární právo musí strana předložit a prokázat; to zvýhodnění se přeneslo i na soudy zemské. (3) PŘES AKTENVERSENDUNG: německá zvláštnost, kdy soud zaslal spisy PRÁVNICKÉ FAKULTĚ, aby rozhodla — tím se učené právo dostávalo přímo do rozsudků. (4) PŘES ZÁKONODÁRSTVÍ ÚZEMNÍCH PÁNŮ: zemská zřízení, policejní řády a trestní řády se psaly učeným jazykem; CONSTITUTIO CRIMINALIS CAROLINA (1532) je toho nejznámějším příkladem. (5) PŘES KANONICKÉ PRÁVO, které se recipovalo souběžně a vneslo do praxe procesní formy, manželské právo i zásadu dobré víry. HRANICE RECEPCE: nikdy nešlo o převzetí celku — v každé zemi platilo jen to, co praxe přijala (odtud desuetudo usu moderna), a ve Francii a Anglii zůstala recepce omezená z důvodů popsaných v cvičení III. VÝSLEDKEM JE 'GEMEINES RECHT', OBECNÉ PRÁVO, KTERÉ NENÍ ANI ČISTĚ ŘÍMSKÉ, ANI DOMÁCÍ, NÝBRŽ SMĚSÍ — a právě tahle směs je látkou, ze které pak kodifikace tesaly.",
+      "title": "How the reception of the ius commune proceeded in the early modern period",
+      "text": "(Questions 1 to 3 on this sheet — the Lotharian legend, the usus modernus and the relation of humanism to it — are identical with questions 14 to 16 of exercise class III and are explained there.) THE RECEPTION IN THE EARLY MODERN PERIOD is not a single act but a PROCESS IN SEVERAL LAYERS, and the examiner wants to see that you can identify its carriers. (1) THROUGH THE UNIVERSITIES AND THEIR GRADUATES: from the 15th century the nobility and the cities begin to rely on jurists with a doctorate; whoever knows only the ius commune will solve with it even what should not have been solved that way. (2) THROUGH THE JUDICIAL ORGANIZATION: the strongest single step is the IMPERIAL CHAMBER COURT (1495) with the rule that the ius commune applies ex officio, while particular law must be produced and proved by the party; that advantage carried over to the territorial courts as well. (3) THROUGH AKTENVERSENDUNG: a German peculiarity whereby a court sent the FILES TO A LAW FACULTY for decision — by which the learned law entered directly into the judgments. (4) THROUGH THE LEGISLATION OF THE TERRITORIAL LORDS: territorial ordinances, police ordinances and criminal ordinances were written in learned language; the CONSTITUTIO CRIMINALIS CAROLINA (1532) is the best-known example. (5) THROUGH CANON LAW, which was received alongside and brought into practice procedural forms, marriage law and the principle of good faith. THE LIMITS OF THE RECEPTION: it was never a taking over of the whole — in each country only what practice accepted applied (hence the desuetudo of the usus modernus), and in France and England the reception remained limited for the reasons described in exercise class III. THE RESULT IS 'GEMEINES RECHT', A COMMON LAW THAT IS NEITHER PURELY ROMAN NOR NATIVE BUT A MIXTURE — and it is precisely that mixture which is the material the codifications later carved from.",
       "terms": [
         {
           "term": "Aktenversendung",
-          "def": "Zaslání soudních spisů právnické fakultě, aby rozhodla — kanál, kterým se učené právo dostalo přímo do rozsudků."
+          "def": "Sending the court files to a law faculty for decision — the channel by which learned law entered directly into judgments."
         }
       ],
       "cards": [
         {
-          "q": "Jakými kanály probíhala recepce ius commune v raném novověku?",
-          "a": "1) UNIVERZITY A ABSOLVENTI ve službách šlechty a měst. 2) SOUDNÍ ORGANIZACE — říšský komorní soud (1495) s pravidlem, že ius commune platí z úřední povinnosti. 3) AKTENVERSENDUNG — zaslání spisů právnické fakultě k rozhodnutí. 4) ZÁKONODÁRSTVÍ ÚZEMNÍCH PÁNŮ psané učeným jazykem (Constitutio Criminalis Carolina 1532). 5) KANONICKÉ PRÁVO, recipované souběžně.",
+          "q": "Through which channels did the reception of the ius commune proceed in the early modern period?",
+          "a": "1) THE UNIVERSITIES AND THEIR GRADUATES in the service of nobility and cities. 2) THE JUDICIAL ORGANIZATION — the Imperial Chamber Court (1495) with the rule that the ius commune applies ex officio. 3) AKTENVERSENDUNG — sending the files to a law faculty for decision. 4) THE LEGISLATION OF THE TERRITORIAL LORDS written in learned language (the Constitutio Criminalis Carolina 1532). 5) CANON LAW, received alongside.",
           "difficulty": 3,
           "kind": "znaky",
           "topic": "The Ius Commune and the Early Modern Times",
           "priority": "core"
         },
         {
-          "q": "Co bylo výsledkem recepce?",
-          "a": "'GEMEINES RECHT', OBECNÉ PRÁVO, KTERÉ NENÍ ANI ČISTĚ ŘÍMSKÉ, ANI DOMÁCÍ, NÝBRŽ SMĚSÍ — v každé zemi platilo jen to, co praxe přijala (desuetudo). A právě tahle směs je látkou, ze které pak tesaly kodifikace.",
+          "q": "What was the result of the reception?",
+          "a": "'GEMEINES RECHT', A COMMON LAW THAT IS NEITHER PURELY ROMAN NOR NATIVE BUT A MIXTURE — in each country only what practice accepted applied (desuetudo). And it is precisely that mixture which the codifications later carved from.",
           "difficulty": 2,
           "kind": "basic",
           "topic": "The Ius Commune and the Early Modern Times",
@@ -54,26 +54,26 @@
     {
       "n": 2,
       "img": "img/PUQ4/PUQ4_s002.webp",
-      "title": "Normanský vpád a odpoutání Anglie od římského práva",
-      "text": "MĚL NORMANSKÝ VPÁD VLIV? ANO, A ZÁSADNÍ — ale ne ten, který by se čekal. Vilém Dobyvatel po roce 1066 ANGLOSASKÉ PRÁVO FORMÁLNĚ NEZRUŠIL; naopak sliboval zachovat 'zákony Eduarda Vyznavače'. Co udělal, bylo něco jiného a důležitějšího: (1) ZAVEDL DŮSLEDNÝ LENNÍ SYSTÉM, ve kterém je KRÁL VRCHNÍM VLASTNÍKEM VŠÍ PŮDY a všichni drží od něj — odtud pozdější anglické pozemkové právo s doktrínou ESTATES a TENURES, které nezná římské vlastnictví; (2) VYTVOŘIL SILNOU CENTRÁLNÍ SPRÁVU, jejímž dokladem je DOMESDAY BOOK (1086), soupis celé země; (3) položil základ KRÁLOVSKÝM SOUDŮM, které se od 12. století za JINDŘICHA II. rozvinou v soustavu s PUTUJÍCÍMI SOUDCI, SYSTÉMEM WRITŮ a POROTOU. PRÁVĚ TA ČASOVÁ SHODA JE ODPOVĚĎ NA DRUHOU ČÁST OTÁZKY: ve chvíli, kdy se na kontinentu objevuje znovunalezený Corpus iuris a začíná recepce, má Anglie UŽ VYBUDOVANÝ FUNGUJÍCÍ KRÁLOVSKÝ SOUDNÍ SYSTÉM S VLASTNÍM PRÁVEM A VLASTNÍM STAVEM PRÁVNÍKŮ. Odpoutání tedy není jednorázovým rozhodnutím, nýbrž důsledkem toho, že RECEPCE PŘIŠLA POZDĚ A NEMĚLA KUDY. Konkrétní mezníky: VACARIUS učí římské právo v Oxfordu kolem 1149, ale zůstane to akademické; roku 1234 se zakazuje výuka římského práva v Londýně; právníci se školí v INNS OF COURT, tedy v profesních kolejích u soudů, NE NA UNIVERZITÁCH; a ustálí se zásada, že common law je právem obecným pro celou zemi. Římské a kanonické právo v Anglii přesto zůstávají — v CÍRKEVNÍCH SOUDECH, v ADMIRALITNÍM PRÁVU a zčásti v EQUITY.",
+      "title": "The Norman Conquest and England's detachment from Roman law",
+      "text": "DID THE NORMAN CONQUEST HAVE AN INFLUENCE? YES, AND A FUNDAMENTAL ONE — but not the one that might be expected. After 1066 William the Conqueror DID NOT FORMALLY ABOLISH ANGLO-SAXON LAW; on the contrary, he promised to preserve the 'laws of Edward the Confessor'. What he did was something else and more important: (1) HE INTRODUCED A CONSISTENT FEUDAL SYSTEM in which THE KING IS THE ULTIMATE OWNER OF ALL LAND and everyone holds from him — hence the later English land law with its doctrine of ESTATES and TENURES, which knows no Roman ownership; (2) HE CREATED A STRONG CENTRAL ADMINISTRATION, attested by the DOMESDAY BOOK (1086), a survey of the whole country; (3) he laid the foundation of the ROYAL COURTS, which from the 12th century under HENRY II developed into a system with ITINERANT JUSTICES, a SYSTEM OF WRITS and the JURY. PRECISELY THAT COINCIDENCE IN TIME IS THE ANSWER TO THE SECOND PART OF THE QUESTION: at the moment when the rediscovered Corpus iuris appears on the continent and the reception begins, England ALREADY HAS A FUNCTIONING ROYAL COURT SYSTEM WITH ITS OWN LAW AND ITS OWN PROFESSION OF LAWYERS. The detachment is therefore not a single decision but a consequence of the fact that THE RECEPTION CAME TOO LATE AND HAD NO WAY IN. Concrete landmarks: VACARIUS teaches Roman law at Oxford around 1149, but it remains academic; in 1234 the teaching of Roman law in London is forbidden; lawyers are trained in the INNS OF COURT, professional colleges attached to the courts, NOT AT THE UNIVERSITIES; and the principle becomes settled that the common law is the law common to the whole country. Roman and canon law nevertheless remain in England — in the CHURCH COURTS, in ADMIRALTY LAW and in part in EQUITY.",
       "terms": [
         {
           "term": "Inns of Court",
-          "def": "Profesní koleje u soudů, kde se školili angličtí právníci — mimo univerzity, a proto mimo dosah ius commune."
+          "def": "Professional colleges attached to the courts where English lawyers were trained — outside the universities, and therefore beyond the reach of the ius commune."
         }
       ],
       "cards": [
         {
-          "q": "Jaký vliv měl normanský vpád na anglické právo?",
-          "a": "Anglosaské právo FORMÁLNĚ NEZRUŠIL, ale: 1) zavedl DŮSLEDNÝ LENNÍ SYSTÉM, kde je KRÁL VRCHNÍM VLASTNÍKEM VŠÍ PŮDY (odtud ESTATES a TENURES místo římského vlastnictví); 2) vytvořil SILNOU CENTRÁLNÍ SPRÁVU (Domesday Book 1086); 3) položil základ KRÁLOVSKÝM SOUDŮM, které se za Jindřicha II. rozvinuly v soustavu s PUTUJÍCÍMI SOUDCI, WRITY a POROTOU.",
+          "q": "What influence did the Norman Conquest have on English law?",
+          "a": "It DID NOT FORMALLY ABOLISH Anglo-Saxon law, but: 1) it introduced a CONSISTENT FEUDAL SYSTEM in which THE KING IS THE ULTIMATE OWNER OF ALL LAND (hence ESTATES and TENURES instead of Roman ownership); 2) it created a STRONG CENTRAL ADMINISTRATION (the Domesday Book 1086); 3) it laid the foundation of the ROYAL COURTS, which under Henry II developed into a system with ITINERANT JUSTICES, WRITS and the JURY.",
           "difficulty": 3,
           "kind": "pripad",
           "topic": "The Common Law",
           "priority": "core"
         },
         {
-          "q": "Kdy a jak se Anglie odpoutala od římského práva?",
-          "a": "Není to jednorázové rozhodnutí: ve chvíli, kdy na kontinentu začíná recepce, má Anglie UŽ VYBUDOVANÝ KRÁLOVSKÝ SOUDNÍ SYSTÉM S VLASTNÍM PRÁVEM A STAVEM PRÁVNÍKŮ — RECEPCE PŘIŠLA POZDĚ A NEMĚLA KUDY. Mezníky: Vacarius učí v Oxfordu kolem 1149 (zůstane akademické), 1234 zákaz výuky římského práva v Londýně, školení v INNS OF COURT místo na univerzitách. Římské a kanonické právo zůstává v CÍRKEVNÍCH SOUDECH, ADMIRALITNÍM PRÁVU a zčásti v EQUITY.",
+          "q": "When and how did England detach itself from Roman law?",
+          "a": "It is not a single decision: at the moment when the reception begins on the continent, England ALREADY HAS A ROYAL COURT SYSTEM WITH ITS OWN LAW AND PROFESSION — THE RECEPTION CAME TOO LATE AND HAD NO WAY IN. Landmarks: Vacarius teaches at Oxford around 1149 (it stays academic), 1234 the teaching of Roman law in London is forbidden, training in the INNS OF COURT instead of the universities. Roman and canon law remain in the CHURCH COURTS, ADMIRALTY LAW and in part in EQUITY.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "The Common Law",
@@ -93,21 +93,21 @@
     {
       "n": 3,
       "img": "img/PUQ4/PUQ4_s003.webp",
-      "title": "Common law v raném novověku a novověku",
-      "text": "Stručný přehled, který otázka žádá. (1) 15.–16. STOLETÍ — vedle common law dozrává EQUITY: kdo se cítil rigiditou writů poškozen, obracel se na krále a ten věc předával LORDU KANCLÉŘI; z toho vzniká COURT OF CHANCERY se soustavou vlastních institutů (TRUST, INJUNCTION, SPECIFIC PERFORMANCE) a zásad (maxims of equity). Napětí obou soustav vrcholí roku 1616, kdy JAKUB I. ROZHODNE, ŽE PŘI ROZPORU MÁ EQUITY PŘEDNOST. (2) 17. STOLETÍ — ÚSTAVNÍ ZÁPAS. EDWARD COKE staví common law proti královským nárokům ('artificial reason' práva, kterému rozumí jen právník, a ve věci Dr. Bonham dokonce naznačí přezkum zákona); následuje PETITION OF RIGHT (1628), občanská válka, HABEAS CORPUS ACT (1679), SLAVNÁ REVOLUCE a BILL OF RIGHTS (1689), jímž se prosadí PARLAMENTNÍ SUVERENITA. (3) 18. STOLETÍ — systematizace a vývoz: WILLIAM BLACKSTONE vydává COMMENTARIES ON THE LAWS OF ENGLAND (1765–1769), první ucelený výklad, který se stane učebnicí i v Americe; LORD MANSFIELD vtahuje do common law OBCHODNÍ ZVYKLOSTI (law merchant) a činí z něj právo způsobilé pro obchod; a s koloniemi se common law šíří do Severní Ameriky, Indie, Austrálie a Afriky. (4) 19. STOLETÍ — REFORMY: JUDICATURE ACTS (1873–1875) SPOJÍ SOUDY COMMON LAW A EQUITY do jedné soustavy, takže obojí napříště aplikuje týž soud; Benthamova kritika vede k rozsáhlému zákonodárství a ke konsolidačním zákonům; ustálí se STARE DECISIS v přísné podobě. STÁLOU OSOU CELÉHO VÝVOJE JE, ŽE PRÁVO SE TVOŘÍ ROZHODOVÁNÍM PŘÍPADŮ A STAVEM PRÁVNÍKŮ, NE PROFESOREM A KODEXEM.",
+      "title": "The common law in the early modern and modern periods",
+      "text": "The brief survey the question calls for. (1) 15TH–16TH CENTURY — alongside the common law, EQUITY matures: whoever felt injured by the rigidity of the writs turned to the king, who referred the matter to the LORD CHANCELLOR; out of this arises the COURT OF CHANCERY with its own institutions (the TRUST, the INJUNCTION, SPECIFIC PERFORMANCE) and principles (the maxims of equity). The tension between the two systems culminates in 1616, when JAMES I DECIDES THAT IN CASE OF CONFLICT EQUITY PREVAILS. (2) 17TH CENTURY — THE CONSTITUTIONAL STRUGGLE. EDWARD COKE sets the common law against royal claims (the 'artificial reason' of law, which only a lawyer understands, and in Dr Bonham's Case he even hints at review of a statute); there follow the PETITION OF RIGHT (1628), the civil war, the HABEAS CORPUS ACT (1679), the GLORIOUS REVOLUTION and the BILL OF RIGHTS (1689), through which PARLIAMENTARY SOVEREIGNTY prevails. (3) 18TH CENTURY — systematization and export: WILLIAM BLACKSTONE publishes the COMMENTARIES ON THE LAWS OF ENGLAND (1765–1769), the first coherent exposition, which becomes a textbook in America too; LORD MANSFIELD draws MERCANTILE CUSTOM (the law merchant) into the common law and makes it fit for commerce; and with the colonies the common law spreads to North America, India, Australia and Africa. (4) 19TH CENTURY — REFORMS: the JUDICATURE ACTS (1873–1875) MERGE THE COURTS OF COMMON LAW AND EQUITY into one system, so that henceforth the same court applies both; Bentham's critique leads to extensive legislation and to the consolidation acts; STARE DECISIS settles into its strict form. THE CONSTANT AXIS OF THE WHOLE DEVELOPMENT IS THAT LAW IS MADE BY DECIDING CASES AND BY A PROFESSION OF LAWYERS, NOT BY A PROFESSOR AND A CODE.",
       "terms": [],
       "cards": [
         {
-          "q": "Jak vznikla equity a jak se vyřešil její poměr ke common law?",
-          "a": "Kdo se cítil RIGIDITOU WRITŮ poškozen, obracel se na krále, který věc předával LORDU KANCLÉŘI — z toho vzniká COURT OF CHANCERY s vlastními instituty (TRUST, INJUNCTION, SPECIFIC PERFORMANCE). Napětí vyřešil ROKU 1616 JAKUB I. ROZHODNUTÍM, ŽE PŘI ROZPORU MÁ EQUITY PŘEDNOST; JUDICATURE ACTS (1873–1875) pak obě soustavy SPOJILY do jedné.",
+          "q": "How did equity arise and how was its relation to the common law settled?",
+          "a": "Whoever felt injured by THE RIGIDITY OF THE WRITS turned to the king, who referred the matter to the LORD CHANCELLOR — out of this arises the COURT OF CHANCERY with its own institutions (the TRUST, the INJUNCTION, SPECIFIC PERFORMANCE). The tension was settled IN 1616 BY JAMES I'S DECISION THAT IN CASE OF CONFLICT EQUITY PREVAILS; the JUDICATURE ACTS (1873–1875) then MERGED the two systems into one.",
           "difficulty": 3,
           "kind": "cisla",
           "topic": "The Common Law",
           "priority": "core"
         },
         {
-          "q": "Jmenuj hlavní mezníky common law v 17.–19. století.",
-          "a": "17. stol. ÚSTAVNÍ ZÁPAS: Coke staví common law proti králi, PETITION OF RIGHT (1628), HABEAS CORPUS ACT (1679), BILL OF RIGHTS (1689) a PARLAMENTNÍ SUVERENITA. 18. stol.: BLACKSTONEOVY COMMENTARIES (1765–1769), LORD MANSFIELD vtahuje OBCHODNÍ ZVYKLOSTI, šíření do kolonií. 19. stol.: JUDICATURE ACTS (1873–1875), Benthamova kritika a konsolidační zákonodárství, přísné STARE DECISIS.",
+          "q": "Name the main landmarks of the common law in the 17th–19th centuries.",
+          "a": "17th c. THE CONSTITUTIONAL STRUGGLE: Coke sets the common law against the king, the PETITION OF RIGHT (1628), the HABEAS CORPUS ACT (1679), the BILL OF RIGHTS (1689) and PARLIAMENTARY SOVEREIGNTY. 18th c.: BLACKSTONE'S COMMENTARIES (1765–1769), LORD MANSFIELD draws in MERCANTILE CUSTOM, the spread to the colonies. 19th c.: the JUDICATURE ACTS (1873–1875), Bentham's critique and consolidation legislation, strict STARE DECISIS.",
           "difficulty": 3,
           "kind": "cisla",
           "topic": "The Common Law",
@@ -127,26 +127,26 @@
     {
       "n": 4,
       "img": "img/PUQ4/PUQ4_s004.webp",
-      "title": "Pramen: Dobrý policejní řád würzburský (1745)",
-      "text": "PRAMEN (zkráceně): protože zavedení a zachovávání DOBRÉ POLICIE je v obci tak prospěšné, ba nezbytné, aby jak společné věci, tak zvláštní záležitosti každého občana dostaly pravidla ke spokojenosti všech a obecné blaho bylo trvale zajištěno, a rovněž vlastní blaho a obživa každého — nařizuje vrchnost, že napříště se budou zachovávat následující články, a nejvyšší rada bude ve všech věcech dobré policie 'předpisovat a zakazovat, rozhodovat, nařizovat, nalézat a vynášet rozsudky, nevyjímajíc žádnou'. Účelem je, aby obec byla dobře opatřena ve věcech ZDRAVÍ, nechyběla jí OBŽIVA A POHODLÍ ŽIVOTA, byly dobře obsazeny ŽIVNOSTI A ŘEMESLA, občan nebránil druhému v obstarání potravy, ale ani nehledal NADMĚRNÝ ZISK na svých spoluobčanech, ani je nešidil na VÁZE, MNOŽSTVÍ A MÍŘE ani ZFALŠOVÁNÍM ZBOŽÍ, nýbrž aby byla zajištěna SPRAVEDLIVÁ CENA A JISTOTA OBECNÉ DOBRÉ VÍRY. O JAKÝ DRUH PRÁVNÍHO TEXTU JDE: je to POLICEJNÍ ŘÁD (POLICEYORDNUNG), tedy typ vrchnostenského normativního aktu raného novověku. 'POLICIE' (POLICEY) TU NEZNAMENÁ POLICII V DNEŠNÍM SMYSLU, NÝBRŽ DOBRÝ ŘÁD OBCE A SPRÁVU OBECNÉHO BLAHA — sahá od hygieny a stavebnictví přes ceny, míry a váhy, cechy a žebrotu až po oděv a mravy. O ČEM TEXT JE: o tom, že vrchnost převzala odpovědnost za blahobyt poddaných a odvozuje z něj své právo přikazovat. KROKY K STÁTNÍMU ZÁKONODÁRSTVÍ JAKO HLAVNÍ FORMĚ TVORBY NOREM, které má pramen ilustrovat: (1) STŘEDOVĚK — právo se NENALÉZÁ ZÁKONODÁRCEM, NÝBRŽ SE POKLÁDÁ ZA DANÉ A STARÉ; panovník ho 'nachází' a zapisuje, nevytváří (dobré staré právo); prameny jsou obyčej, privilegium, nález soudu. (2) POZDNÍ STŘEDOVĚK — sepisování obyčejů a městské statuty, tedy psaná forma, ale stále s nárokem na potvrzení starého. (3) 15.–16. STOLETÍ — ZEMSKÉ MÍRY, ZEMSKÁ ZŘÍZENÍ A ŘÍŠSKÉ POLICEJNÍ ŘÁDY (Augsburg 1530, Frankfurt 1548, 1577): vrchnost začíná vydávat OBECNÉ NORMY DO BUDOUCNA, a to je zlom — právo je napříště TVOŘENO. (4) 17.–18. STOLETÍ — ABSOLUTISMUS A POLICEJNÍ STÁT: zákonodárství se stává běžným nástrojem vlády, jeho účelem je BLAHOBYT (Wohlfahrt) a nauka o něm vzniká jako POLICEYWISSENSCHAFT a KAMERALISTIKA. Würzburský řád patří přesně sem. (5) DRUHÁ POLOVINA 18. A ZAČÁTEK 19. STOLETÍ — VĚK KODIFIKACÍ: rozumové přirozené právo dá zákonodárci ambici uspořádat celý obor systematicky a jednotně (Codex Maximilianeus 1756, ALR 1794, Code civil 1804, ABGB 1811). ZÁKON SE TÍM STÁVÁ HLAVNÍM PRAMENEM PRÁVA A ZÁKONODÁRCE JEHO PÁNEM — cesta od 'nalézání' k 'tvoření' je dokončena.",
+      "title": "Source: the Würzburg Good Police Ordinance (1745)",
+      "text": "THE SOURCE (abridged): since the introduction and maintenance of GOOD POLICE is so beneficial, indeed indispensable, in a community, so that both common affairs and the particular concerns of every citizen should be given rules to everyone's satisfaction and the common good permanently secured, and likewise the welfare and subsistence of each — the authorities ordain that henceforth the following articles shall be observed, and the supreme council shall in all matters of good police 'prescribe and prohibit, decide, ordain, find and pronounce judgments, excepting none'. The purpose is that the community be well provided in matters of HEALTH, that it lack neither SUBSISTENCE NOR THE CONVENIENCES OF LIFE, that the TRADES AND CRAFTS be well filled, that no citizen hinder another in obtaining food, but neither seek EXCESSIVE PROFIT from his fellow citizens, nor cheat them in WEIGHT, QUANTITY AND MEASURE or by ADULTERATING GOODS, but that a FAIR PRICE AND THE SECURITY OF COMMON GOOD FAITH be assured. WHAT KIND OF LEGAL TEXT IS IT: it is a POLICE ORDINANCE (POLICEYORDNUNG), a type of seigneurial normative act of the early modern period. 'POLICE' (POLICEY) HERE DOES NOT MEAN THE POLICE IN TODAY'S SENSE BUT THE GOOD ORDER OF THE COMMUNITY AND THE ADMINISTRATION OF THE COMMON GOOD — it ranges from hygiene and building through prices, weights and measures, guilds and begging to dress and morals. WHAT THE TEXT IS ABOUT: that the ruler has assumed responsibility for the welfare of his subjects and derives from it his right to command. THE STEPS TOWARDS STATE LEGISLATION AS THE PRINCIPAL FORM OF NORM PRODUCTION, which the source is meant to illustrate: (1) THE MIDDLE AGES — law is NOT FOUND BY A LEGISLATOR BUT REGARDED AS GIVEN AND OLD; the ruler 'finds' and records it, he does not create it (the good old law); the sources are custom, privilege and judicial finding. (2) THE LATE MIDDLE AGES — the recording of customs and municipal statutes, that is, written form, but still with a claim to confirm the old. (3) THE 15TH–16TH CENTURY — TERRITORIAL PEACES, TERRITORIAL ORDINANCES AND IMPERIAL POLICE ORDINANCES (Augsburg 1530, Frankfurt 1548, 1577): the authorities begin to issue GENERAL NORMS FOR THE FUTURE, and that is the break — law is henceforth MADE. (4) THE 17TH–18TH CENTURY — ABSOLUTISM AND THE POLICE STATE: legislation becomes an ordinary instrument of government, its purpose is WELFARE (Wohlfahrt) and the doctrine about it arises as POLICEYWISSENSCHAFT and CAMERALISM. The Würzburg ordinance belongs exactly here. (5) THE SECOND HALF OF THE 18TH AND THE BEGINNING OF THE 19TH CENTURY — THE AGE OF CODIFICATIONS: rational natural law gives the legislator the ambition to order a whole field systematically and uniformly (the Codex Maximilianeus 1756, the ALR 1794, the Code civil 1804, the ABGB 1811). THE STATUTE THEREBY BECOMES THE PRINCIPAL SOURCE OF LAW AND THE LEGISLATOR ITS MASTER — the road from 'finding' to 'making' is complete.",
       "terms": [
         {
           "term": "Policey",
-          "def": "V raném novověku dobrý řád obce a správa obecného blaha — ne policie v dnešním smyslu."
+          "def": "In the early modern period, the good order of the community and the administration of the common good — not the police in today's sense."
         }
       ],
       "cards": [
         {
-          "q": "Co je policejní řád a co v raném novověku znamená „policie“?",
-          "a": "POLICEYORDNUNG je vrchnostenský normativní akt raného novověku. 'POLICEY' NEZNAMENÁ POLICII V DNEŠNÍM SMYSLU, nýbrž DOBRÝ ŘÁD OBCE A SPRÁVU OBECNÉHO BLAHA — sahá od hygieny a stavebnictví přes ceny, míry a váhy, cechy a žebrotu až po oděv a mravy.",
+          "q": "What is a police ordinance and what does 'police' mean in the early modern period?",
+          "a": "A POLICEYORDNUNG is a seigneurial normative act of the early modern period. 'POLICEY' DOES NOT MEAN THE POLICE IN TODAY'S SENSE but THE GOOD ORDER OF THE COMMUNITY AND THE ADMINISTRATION OF THE COMMON GOOD — ranging from hygiene and building through prices, weights and measures, guilds and begging to dress and morals.",
           "difficulty": 2,
           "kind": "definice",
           "topic": "The Ius Commune and the Early Modern Times",
           "priority": "core"
         },
         {
-          "q": "Načrtni cestu k státnímu zákonodárství od středověku po věk kodifikací.",
-          "a": "1) STŘEDOVĚK: právo se NENALÉZÁ ZÁKONODÁRCEM, pokládá se za DANÉ A STARÉ (dobré staré právo); prameny jsou obyčej, privilegium, nález soudu. 2) POZDNÍ STŘEDOVĚK: sepisování obyčejů a městské statuty. 3) 15.–16. STOL.: zemské míry, zemská zřízení a ŘÍŠSKÉ POLICEJNÍ ŘÁDY (Augsburg 1530, Frankfurt 1548, 1577) — vrchnost vydává OBECNÉ NORMY DO BUDOUCNA, právo je napříště TVOŘENO. 4) 17.–18. STOL.: ABSOLUTISMUS a POLICEJNÍ STÁT, účelem je BLAHOBYT, vzniká Policeywissenschaft. 5) VĚK KODIFIKACÍ (Codex Maximilianeus 1756, ALR 1794, Code civil 1804, ABGB 1811) — ZÁKON SE STÁVÁ HLAVNÍM PRAMENEM.",
+          "q": "Sketch the road to state legislation from the Middle Ages to the age of codifications.",
+          "a": "1) THE MIDDLE AGES: law is NOT FOUND BY A LEGISLATOR, it is regarded as GIVEN AND OLD (the good old law); the sources are custom, privilege, judicial finding. 2) THE LATE MIDDLE AGES: the recording of customs and municipal statutes. 3) THE 15TH–16TH C.: territorial peaces, territorial ordinances and IMPERIAL POLICE ORDINANCES (Augsburg 1530, Frankfurt 1548, 1577) — the authorities issue GENERAL NORMS FOR THE FUTURE, law is henceforth MADE. 4) THE 17TH–18TH C.: ABSOLUTISM and the POLICE STATE, the purpose is WELFARE, Policeywissenschaft arises. 5) THE AGE OF CODIFICATIONS (Codex Maximilianeus 1756, ALR 1794, Code civil 1804, ABGB 1811) — THE STATUTE BECOMES THE PRINCIPAL SOURCE.",
           "difficulty": 3,
           "kind": "schema",
           "topic": "The Ius Commune and the Early Modern Times",
@@ -166,29 +166,29 @@
     {
       "n": 5,
       "text_sha": null,
-      "title": "Co znamenala „ústava“ v raně novověkém veřejném právu",
-      "text": "TOHLE JE KLASICKÝ CHYTÁK NA PŘENÁŠENÍ DNEŠNÍHO POJMU DO MINULOSTI. V raném novověku měla 'CONSTITUTIO' dva významy, a ani jeden se nekryje s tím dnešním. (1) JEDNOTLIVÝ NORMATIVNÍ AKT PANOVNÍKA — tak jako v římském právu, kde constitutio je císařský předpis. V tomhle smyslu je ústavou i CONSTITUTIO CRIMINALIS CAROLINA (1532), tedy trestní řád, nebo CONSTITUTIO CRIMINALIS THERESIANA (1768). Slovo tu neznamená 'základní zákon', nýbrž prostě 'nařízení'. (2) CELKOVÉ USPOŘÁDÁNÍ ČI 'USTROJENÍ' POLITICKÉHO TĚLESA — jeho složení, řád, konstituce ve smyslu, v jakém mluvíme o tělesné konstituci. V tomhle druhém smyslu má ústavu každé společenství, aniž by ji kdokoli sepsal. PŘÍKLAD ZE SVATÉ ŘÍŠE, KTERÝ OTÁZKA ŽÁDÁ: říšská ústava (Reichsverfassung) nebyla jedním dokumentem, nýbrž SOUBOREM ZÁKLADNÍCH ZÁKONŮ A SMLUV — ZLATÁ BULA (1356) upravující volbu krále, AUGSBURSKÝ NÁBOŽENSKÝ MÍR (1555), VESTFÁLSKÝ MÍR (1648), který se stal součástí říšského práva, VOLEBNÍ KAPITULACE každého císaře a nesčetné obyčeje. Nikdo ji nevyhlásil a nikdo ji nemohl změnit jediným aktem. V ČEM SE VÝZNAM ZMĚNIL: moderní ústava, jak ji známe od AMERICKÉ (1787) A FRANCOUZSKÉ (1791) REVOLUCE, je (a) JEDINÝM PSANÝM DOKUMENTEM, (b) VYDANÝM USTAVUJÍCÍ MOCÍ LIDU (pouvoir constituant), (c) S VYŠŠÍ PRÁVNÍ SILOU než běžný zákon, (d) upravujícím DĚLBU MOCI a (e) obsahujícím ZÁRUKY PRÁV. Slavně to shrnuje ČL. 16 FRANCOUZSKÉ DEKLARACE (1789): 'Společnost, v níž není zajištěna záruka práv ani stanovena dělba moci, NEMÁ ÚSTAVU.' Ta věta dává starému, popisnému pojmu normativní obsah — a tím teprve vzniká ústava v našem smyslu.",
+      "title": "What 'constitution' meant in early modern public law",
+      "text": "THIS IS THE CLASSIC TRAP OF CARRYING TODAY'S CONCEPT BACK INTO THE PAST. In the early modern period 'CONSTITUTIO' had two meanings, and neither coincides with today's. (1) AN INDIVIDUAL NORMATIVE ACT OF THE RULER — as in Roman law, where a constitutio is an imperial enactment. In this sense the CONSTITUTIO CRIMINALIS CAROLINA (1532), a criminal ordinance, is a 'constitution', as is the CONSTITUTIO CRIMINALIS THERESIANA (1768). The word here does not mean 'basic law' but simply 'ordinance'. (2) THE OVERALL ARRANGEMENT OR 'CONSTITUTION' OF A BODY POLITIC — its composition and order, constitution in the sense in which we speak of a bodily constitution. In this second sense every community has a constitution without anyone having written it down. THE EXAMPLE FROM THE HOLY ROMAN EMPIRE THE QUESTION CALLS FOR: the imperial constitution (Reichsverfassung) was not one document but a BODY OF FUNDAMENTAL LAWS AND TREATIES — the GOLDEN BULL (1356) governing the election of the king, the PEACE OF AUGSBURG (1555), the PEACE OF WESTPHALIA (1648), which became part of imperial law, the ELECTORAL CAPITULATIONS of each emperor and countless customs. Nobody promulgated it and nobody could change it by a single act. HOW THE MEANING CHANGED: the modern constitution, as we have known it since the AMERICAN (1787) AND FRENCH (1791) REVOLUTIONS, is (a) A SINGLE WRITTEN DOCUMENT, (b) ISSUED BY THE CONSTITUENT POWER OF THE PEOPLE (pouvoir constituant), (c) OF HIGHER LEGAL FORCE than an ordinary statute, (d) governing THE SEPARATION OF POWERS and (e) containing GUARANTEES OF RIGHTS. This is famously summed up by ART. 16 OF THE FRENCH DECLARATION (1789): 'A society in which the guarantee of rights is not secured, nor the separation of powers determined, HAS NO CONSTITUTION.' That sentence gives the old, descriptive concept a normative content — and only then does a constitution in our sense come into being.",
       "terms": [],
       "cards": [
         {
-          "q": "Co znamenala „constitutio“ v raně novověkém veřejném právu?",
-          "a": "Dvojí, a ani jedno jako dnes: 1) JEDNOTLIVÝ NORMATIVNÍ AKT PANOVNÍKA, jako v římském právu — proto je 'ústavou' i CONSTITUTIO CRIMINALIS CAROLINA (1532), tedy trestní řád. 2) CELKOVÉ USPOŘÁDÁNÍ ČI 'USTROJENÍ' POLITICKÉHO TĚLESA — v tomhle smyslu má ústavu každé společenství, aniž by ji kdo sepsal.",
+          "q": "What did 'constitutio' mean in early modern public law?",
+          "a": "Two things, and neither as today: 1) AN INDIVIDUAL NORMATIVE ACT OF THE RULER, as in Roman law — which is why the CONSTITUTIO CRIMINALIS CAROLINA (1532), a criminal ordinance, is a 'constitution'. 2) THE OVERALL ARRANGEMENT OR 'CONSTITUTION' OF A BODY POLITIC — in this sense every community has a constitution without anyone having written it down.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "The Westphalian Order and Early Constitutionalism",
           "priority": "core"
         },
         {
-          "q": "Z čeho se skládala ústava Svaté říše římské?",
-          "a": "NE z jednoho dokumentu, nýbrž ze SOUBORU ZÁKLADNÍCH ZÁKONŮ A SMLUV: ZLATÁ BULA (1356) o volbě krále, AUGSBURSKÝ NÁBOŽENSKÝ MÍR (1555), VESTFÁLSKÝ MÍR (1648) jako součást říšského práva, VOLEBNÍ KAPITULACE každého císaře a nesčetné obyčeje. Nikdo ji nevyhlásil a nikdo ji nemohl změnit jediným aktem.",
+          "q": "What did the constitution of the Holy Roman Empire consist of?",
+          "a": "NOT one document but a BODY OF FUNDAMENTAL LAWS AND TREATIES: the GOLDEN BULL (1356) on the election of the king, the PEACE OF AUGSBURG (1555), the PEACE OF WESTPHALIA (1648) as part of imperial law, the ELECTORAL CAPITULATIONS of each emperor and countless customs. Nobody promulgated it and nobody could change it by a single act.",
           "difficulty": 3,
           "kind": "znaky",
           "topic": "The Westphalian Order and Early Constitutionalism",
           "priority": "core"
         },
         {
-          "q": "Čím se moderní ústava liší a jaká věta jí dala normativní obsah?",
-          "a": "Je 1) JEDINÝM PSANÝM DOKUMENTEM, 2) vydaným USTAVUJÍCÍ MOCÍ LIDU, 3) s VYŠŠÍ PRÁVNÍ SILOU než zákon, 4) upravujícím DĚLBU MOCI a 5) obsahujícím ZÁRUKY PRÁV. Obsah tomu dal ČL. 16 FRANCOUZSKÉ DEKLARACE (1789): 'Společnost, v níž není zajištěna záruka práv ani stanovena dělba moci, NEMÁ ÚSTAVU.'",
+          "q": "How does the modern constitution differ, and which sentence gave it normative content?",
+          "a": "It is 1) A SINGLE WRITTEN DOCUMENT, 2) issued by the CONSTITUENT POWER OF THE PEOPLE, 3) of HIGHER LEGAL FORCE than a statute, 4) governing THE SEPARATION OF POWERS and 5) containing GUARANTEES OF RIGHTS. The content was given by ART. 16 OF THE FRENCH DECLARATION (1789): 'A society in which the guarantee of rights is not secured, nor the separation of powers determined, HAS NO CONSTITUTION.'",
           "difficulty": 3,
           "kind": "norma",
           "topic": "The Westphalian Order and Early Constitutionalism",
@@ -201,21 +201,21 @@
     {
       "n": 6,
       "text_sha": null,
-      "title": "Pramen: Inst. I.I.4 — má mezinárodní právo římské základy?",
-      "text": "PRAMEN: 'Studium práva se dělí na dvě větve, právo veřejné a právo soukromé. První se týká blaha římského státu, druhé prospěchu jednotlivého občana. O soukromém právu pak lze říci, že je trojího původu, neboť se sbírá z předpisů přirozenosti, z předpisů práva národů nebo z předpisů občanského práva římského.' (Institutiones I.1.4.) OTÁZKA CHCE KRITICKÉ ČTENÍ, TEDY ODPOVĚĎ 'JEN S VÝHRADAMI'. DŮVODY PRO: (1) pojmy IUS GENTIUM, IUS NATURALE, SUVERENITA, SMLOUVA, ale i nauka o spravedlivé válce mají římské kořeny a novověcí autoři z nich čerpali; (2) IUS GENTIUM se v raném novověku stalo přímo označením pro právo mezi národy (droit des gens, law of nations, Völkerrecht); (3) římskoprávní argumentace posloužila Vitoriovi, Grotiovi i Vattelovi jako hotový jazyk. DŮVODY PROTI, A TY JSOU SILNĚJŠÍ: (1) TEXT SÁM ŘADÍ IUS GENTIUM DO PRÁVA SOUKROMÉHO — je to jeden ze tří pramenů soukromého práva, tedy právo upravující vztahy MEZI JEDNOTLIVCI, ne mezi státy; (2) římské IUS GENTIUM je právem použitelným na cizince a v obchodě s nimi, tedy spíš předchůdcem mezinárodního práva soukromého a obecné části soukromého práva než práva mezinárodního veřejného; (3) ŘÍM NEZNAL SOUSTAVU ROVNÝCH SUVERÉNNÍCH STÁTŮ, což je podmínka mezinárodního práva — znal sebe a barbary, případně klientské státy, a jeho poměr k nim nebyl poměrem rovných; (4) samotné dělení veřejné/soukromé se v textu vztahuje k ŘÍMSKÉMU STÁTU, ne k mezinárodnímu společenství. ZÁVĚR, KTERÝ OBSTOJÍ: ŘÍMSKÉ PRÁVO DODALO MEZINÁRODNÍMU PRÁVU SLOVNÍK A ARGUMENTAČNÍ TECHNIKU, NE ZÁKLAD — mezinárodní právo veřejné vzniká až se soustavou suverénních států v raném novověku a římské pojmy si k tomu teprve přisvojuje, často s posunutým významem.",
+      "title": "Source: Inst. I.1.4 — does international law have Roman foundations?",
+      "text": "THE SOURCE: 'The study of law is divided into two branches, public law and private law. The first concerns the welfare of the Roman state; the second the advantage of the individual citizen. Of private law it may be said that it is of threefold origin, being collected from the precepts of nature, from those of the law of nations, or from those of the civil law of Rome.' (Institutiones I.1.4.) THE QUESTION CALLS FOR A CRITICAL READING, THAT IS, AN ANSWER OF 'ONLY WITH RESERVATIONS'. THE REASONS FOR: (1) the concepts of IUS GENTIUM, IUS NATURALE, SOVEREIGNTY, TREATY, and also the doctrine of the just war, have Roman roots, and early modern authors drew on them; (2) in the early modern period IUS GENTIUM became the very name for the law between nations (droit des gens, law of nations, Völkerrecht); (3) Roman-law argumentation served Vitoria, Grotius and Vattel as a ready-made language. THE REASONS AGAINST, AND THEY ARE STRONGER: (1) THE TEXT ITSELF PLACES THE IUS GENTIUM WITHIN PRIVATE LAW — it is one of the three sources of private law, that is, the law governing relations BETWEEN INDIVIDUALS, not between states; (2) the Roman IUS GENTIUM is the law applicable to foreigners and in trade with them, and is therefore a precursor of private international law and of the general part of private law rather than of public international law; (3) ROME KNEW NO SYSTEM OF EQUAL SOVEREIGN STATES, which is the condition of international law — it knew itself and the barbarians, or client states, and its relation to them was not a relation of equals; (4) the very division into public and private relates in the text to THE ROMAN STATE, not to an international community. THE CONCLUSION THAT HOLDS: ROMAN LAW GAVE INTERNATIONAL LAW A VOCABULARY AND A TECHNIQUE OF ARGUMENT, NOT A FOUNDATION — public international law arises only with the system of sovereign states in the early modern period, and only then appropriates the Roman concepts, often with a shifted meaning.",
       "terms": [],
       "cards": [
         {
-          "q": "Můžeme podle Inst. I.1.4 mluvit o římskoprávních základech mezinárodního práva veřejného?",
-          "a": "JEN S VÝHRADAMI, a spíš NE. Text sám ŘADÍ IUS GENTIUM DO PRÁVA SOUKROMÉHO — je to jeden ze tří pramenů soukromého práva, tedy právo mezi JEDNOTLIVCI. Římské ius gentium je právem použitelným na cizince, tedy spíš předchůdcem mezinárodního práva SOUKROMÉHO. A ŘÍM NEZNAL SOUSTAVU ROVNÝCH SUVERÉNNÍCH STÁTŮ, což je podmínka mezinárodního práva.",
+          "q": "On the basis of Inst. I.1.4, can one speak of Roman-law foundations of public international law?",
+          "a": "ONLY WITH RESERVATIONS, and rather NOT. The text itself PLACES THE IUS GENTIUM WITHIN PRIVATE LAW — it is one of the three sources of private law, the law between INDIVIDUALS. The Roman ius gentium is the law applicable to foreigners, and therefore rather a precursor of PRIVATE international law. And ROME KNEW NO SYSTEM OF EQUAL SOVEREIGN STATES, which is the condition of international law.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "The Westphalian Order and Early Constitutionalism",
           "priority": "core"
         },
         {
-          "q": "Jaký závěr o vztahu římského a mezinárodního práva obstojí?",
-          "a": "Že ŘÍMSKÉ PRÁVO DODALO MEZINÁRODNÍMU PRÁVU SLOVNÍK A ARGUMENTAČNÍ TECHNIKU, NE ZÁKLAD. Mezinárodní právo veřejné vzniká až se soustavou SUVERÉNNÍCH STÁTŮ v raném novověku a římské pojmy si teprve přisvojuje, často s POSUNUTÝM VÝZNAMEM.",
+          "q": "Which conclusion about the relation of Roman and international law holds?",
+          "a": "That ROMAN LAW GAVE INTERNATIONAL LAW A VOCABULARY AND A TECHNIQUE OF ARGUMENT, NOT A FOUNDATION. Public international law arises only with the system of SOVEREIGN STATES in the early modern period and only then appropriates the Roman concepts, often with a SHIFTED MEANING.",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "The Westphalian Order and Early Constitutionalism",
@@ -228,34 +228,34 @@
     {
       "n": 7,
       "text_sha": null,
-      "title": "Pramen: Dig. I.1.9 — ius gentium a jeho proměny",
-      "text": "PRAMEN (Gaius v Digestech I.1.9): 'Všechny národy, které se řídí zákony a obyčeji, zachovávají zčásti své vlastní zvláštní právo a zčásti právo společné všem lidem. To právo, které si každý národ ustanovil sám pro sebe, je vlastní té které obci a nazývá se IUS CIVILE, právo občanské, jakožto právo vlastní dané občanské společnosti (civitas). Naproti tomu právo, které mezi všemi lidskými bytostmi ustavil PŘIROZENÝ ROZUM, je u všech zachováváno ve stejné míře a nazývá se IUS GENTIUM, jakožto právo, které zachovávají všechny národy.' SHRNUTÍ VÝZNAMU V ÚRYVKU: staví se tu proti sobě PRÁVO PARTIKULÁRNÍ (ius civile, platné v jedné obci, ustanovené jejím vlastním rozhodnutím) a PRÁVO UNIVERZÁLNÍ (ius gentium, platné u všech, protože je ustavil PŘIROZENÝ ROZUM, NATURALIS RATIO). Přirozené právo tu tedy NENÍ ODLIŠENO OD IUS GENTIUM — obojí splývá v tom, co rozum ukládá všem; teprve jinde (Ulpianus) se ius naturale vymezuje jako to, čemu příroda naučila všechny živočichy, a ius gentium jako to, co užívají lidské národy. CO ZNAMENALO IUS GENTIUM VE STAROVĚKU: prakticky šlo o ČÁST ŘÍMSKÉHO PRÁVA POUŽITELNOU I NA CIZINCE (peregriny), zbavenou formalismu ius civile — soubor institutů srozumitelných v obchodu s kýmkoli (koupě, nájem, půjčka, tradice). Není to právo mezi státy. JAK SE POJEM MĚNIL: (1) ve STŘEDOVĚKU splývá s přirozeným právem a s obecně uznávanými zásadami; (2) v 16. STOLETÍ ho ŠKOLA ZE SALAMANKY (VITORIA, SUÁREZ) použije na vztahy mezi POLITICKÝMI SPOLEČENSTVÍMI, včetně indiánských — Suárez rozliší IUS INTER GENTES, právo mezi národy; (3) GROTIUS (1625) z něj udělá základ práva vznikajícího ze SOUHLASU NÁRODŮ vedle práva přirozeného; (4) v 18. STOLETÍ je z něj DROIT DES GENS, LAW OF NATIONS, VÖLKERRECHT — právo suverénních států (Vattel 1758). KDY VZNIKL POJEM 'INTERNATIONAL LAW' A KDO HO POUŽIL PRVNÍ: ZAVEDL HO JEREMY BENTHAM ROKU 1780 VE SPISE 'AN INTRODUCTION TO THE PRINCIPLES OF MORALS AND LEGISLATION' (vydaném 1789) — a zavedl ho právě proto, že mu 'law of nations' připadalo zavádějící, protože to neznělo jako právo MEZI státy, nýbrž jako vnitřní právo národů.",
+      "title": "Source: Dig. I.1.9 — the ius gentium and its transformations",
+      "text": "THE SOURCE (Gaius in the Digest I.1.9): 'All peoples who are governed by laws and customs observe partly their own particular law and partly the law common to all mankind. That law which each people has established for itself is peculiar to that state and is called IUS CIVILE, the civil law, as being the law peculiar to that civil society (civitas). But the law which NATURAL REASON has established among all human beings is equally observed among all and is called IUS GENTIUM, as being the law which all peoples observe.' A SUMMARY OF THE MEANING IN THE EXTRACT: what is set against each other here is PARTICULAR LAW (ius civile, applying in one state, established by its own decision) and UNIVERSAL LAW (ius gentium, applying among all because it was established by NATURAL REASON, NATURALIS RATIO). Natural law is therefore NOT DISTINGUISHED HERE FROM THE IUS GENTIUM — the two merge in what reason imposes on all; only elsewhere (Ulpian) is the ius naturale defined as what nature has taught all animals and the ius gentium as what human peoples use. WHAT THE IUS GENTIUM MEANT IN ANTIQUITY: in practice it was THE PART OF ROMAN LAW APPLICABLE TO FOREIGNERS (peregrines) TOO, stripped of the formalism of the ius civile — a set of institutions intelligible in trade with anyone (sale, hire, loan, delivery). It is not a law between states. HOW THE CONCEPT CHANGED: (1) in the MIDDLE AGES it merges with natural law and with generally recognized principles; (2) in the 16TH CENTURY the SCHOOL OF SALAMANCA (VITORIA, SUÁREZ) applies it to relations between POLITICAL COMMUNITIES, including the Indian ones — Suárez distinguishes the IUS INTER GENTES, the law between nations; (3) GROTIUS (1625) makes of it the basis of a law arising from the CONSENT OF NATIONS alongside natural law; (4) in the 18TH CENTURY it becomes the DROIT DES GENS, LAW OF NATIONS, VÖLKERRECHT — the law of sovereign states (Vattel 1758). WHEN THE TERM 'INTERNATIONAL LAW' AROSE AND WHO FIRST USED IT: IT WAS INTRODUCED BY JEREMY BENTHAM IN 1780 IN 'AN INTRODUCTION TO THE PRINCIPLES OF MORALS AND LEGISLATION' (published 1789) — and he introduced it precisely because 'law of nations' seemed to him misleading, since it did not sound like a law BETWEEN states but like the internal law of nations.",
       "terms": [
         {
           "term": "naturalis ratio",
-          "def": "Přirozený rozum — u Gaia zdroj práva společného všem národům (ius gentium)."
+          "def": "Natural reason — in Gaius the source of the law common to all peoples (ius gentium)."
         }
       ],
       "cards": [
         {
-          "q": "Co staví Dig. I.1.9 proti sobě a jak je tam vztah přirozeného práva a ius gentium?",
-          "a": "PRÁVO PARTIKULÁRNÍ (IUS CIVILE, platné v jedné obci z jejího vlastního rozhodnutí) proti PRÁVU UNIVERZÁLNÍMU (IUS GENTIUM, platnému u všech, protože je ustavil PŘIROZENÝ ROZUM, naturalis ratio). Přirozené právo tu NENÍ OD IUS GENTIUM ODLIŠENO — splývají; teprve u Ulpiana se ius naturale vymezí jako to, čemu příroda naučila všechny živočichy.",
+          "q": "What does Dig. I.1.9 set against each other, and what is the relation of natural law and the ius gentium there?",
+          "a": "PARTICULAR LAW (IUS CIVILE, applying in one state by its own decision) against UNIVERSAL LAW (IUS GENTIUM, applying among all because established by NATURAL REASON, naturalis ratio). Natural law is NOT DISTINGUISHED HERE FROM THE IUS GENTIUM — they merge; only in Ulpian is the ius naturale defined as what nature has taught all animals.",
           "difficulty": 3,
           "kind": "norma",
           "topic": "The Westphalian Order and Early Constitutionalism",
           "priority": "core"
         },
         {
-          "q": "Co znamenalo ius gentium ve starověku a jak se pojem měnil?",
-          "a": "Ve starověku ČÁST ŘÍMSKÉHO PRÁVA POUŽITELNÁ I NA CIZINCE, zbavená formalismu ius civile — ne právo mezi státy. Pak: ve STŘEDOVĚKU splývá s přirozeným právem; v 16. STOL. ho ŠKOLA ZE SALAMANKY (Vitoria, Suárez) použije na vztahy mezi POLITICKÝMI SPOLEČENSTVÍMI (Suárez: IUS INTER GENTES); GROTIUS (1625) z něj dělá právo ze SOUHLASU NÁRODŮ; v 18. STOL. je z něj DROIT DES GENS / VÖLKERRECHT, právo suverénních států (Vattel 1758).",
+          "q": "What did the ius gentium mean in antiquity and how did the concept change?",
+          "a": "In antiquity THE PART OF ROMAN LAW APPLICABLE TO FOREIGNERS TOO, stripped of the formalism of the ius civile — not a law between states. Then: in the MIDDLE AGES it merges with natural law; in the 16TH C. the SCHOOL OF SALAMANCA (Vitoria, Suárez) applies it to relations between POLITICAL COMMUNITIES (Suárez: IUS INTER GENTES); GROTIUS (1625) makes of it a law from the CONSENT OF NATIONS; in the 18TH C. it becomes the DROIT DES GENS / VÖLKERRECHT, the law of sovereign states (Vattel 1758).",
           "difficulty": 3,
           "kind": "rozliseni",
           "topic": "The Westphalian Order and Early Constitutionalism",
           "priority": "core"
         },
         {
-          "q": "Kdo a kdy zavedl pojem „international law“ a proč?",
-          "a": "JEREMY BENTHAM ROKU 1780 ve spise 'An Introduction to the Principles of Morals and Legislation' (vydán 1789). Zavedl ho proto, že mu 'LAW OF NATIONS' připadalo ZAVÁDĚJÍCÍ — neznělo jako právo MEZI státy, nýbrž jako vnitřní právo národů.",
+          "q": "Who introduced the term 'international law', when and why?",
+          "a": "JEREMY BENTHAM IN 1780 in 'An Introduction to the Principles of Morals and Legislation' (published 1789). He introduced it because 'LAW OF NATIONS' seemed to him MISLEADING — it did not sound like a law BETWEEN states but like the internal law of nations.",
           "difficulty": 2,
           "kind": "cisla",
           "topic": "The Westphalian Order and Early Constitutionalism",
