@@ -256,9 +256,9 @@ class Doc(FPDF):
         self.cell(0, 6, f"{self.heading}  ·  {self.page_no()}", align="C")
         self.set_text_color(0)
 
-def plural(n: int, one: str, few: str, many: str) -> str:
-    """Česká trojice tvarů: 1 článek, 2 články, 5 článků."""
-    return f"{n} {one if n == 1 else few if 2 <= n <= 4 else many}"
+def plural(n: int, word: str) -> str:
+    """1 article / 2 articles — dokument je anglicky, ať ho lze vzít ke zkoušce."""
+    return f"{n} {word}{'' if n == 1 else 's'}"
 
 
 # Úřední znění článků (./run.sh <předmět> articles). Bez něj se PDF vysází
@@ -291,7 +291,9 @@ def official(instrument: str, citation: str) -> str | None:
                 if len(part) >= 120 or len(part) == len(text):
                     text = part
                 break
-    text = re.sub(r"^\(ex Article[^)]*\)\s*", "", text).strip()
+    # EUR-Lex vede článek historickou značkou „(ex Article 1 TEU)" a někdy
+    # ještě odkazem na poznámku pod čarou „(2)"; ani jedno není znění článku.
+    text = re.sub(r"^(?:\(ex Article[^)]*\)\s*)?(?:\(\d{1,2}\)\s*)?", "", text).strip()
     return text[:MAX_QUOTE].rstrip() + " […]" if len(text) > MAX_QUOTE else text
 
 
@@ -330,13 +332,12 @@ def render(course_code: str, heading: str, subtitle: str, groups) -> Path:
 
     # obsah
     doc.set_font("A", "B", 11)
-    doc.cell(0, 6, "Obsah", new_x="LMARGIN", new_y="NEXT")
+    doc.cell(0, 6, "Contents", new_x="LMARGIN", new_y="NEXT")
     doc.set_font("A", size=9)
     for i, (name, hits) in enumerate(groups, 1):
         arts = len({a for h in hits for a in h["articles"]})
-        tail = (f"({plural(arts, 'článek', 'články', 'článků')} · "
-                f"{plural(len(hits), 'zmínka', 'zmínky', 'zmínek')})") if arts \
-            else f"({plural(len(hits), 'zmínka', 'zmínky', 'zmínek')})"
+        tail = (f"({plural(arts, 'article')} · {plural(len(hits), 'mention')})" if arts
+                else f"({plural(len(hits), 'mention')})")
         doc.cell(0, 4.6, f"{i}.  {name}  {tail}", new_x="LMARGIN", new_y="NEXT")
     doc.ln(4)
 
@@ -345,11 +346,11 @@ def render(course_code: str, heading: str, subtitle: str, groups) -> Path:
             doc.add_page()
         doc.set_font("A", "B", 12)
         doc.multi_cell(0, 6, f"{i}.  {name}", new_x="LMARGIN", new_y="NEXT")
-        zdroj = (OFFICIAL.get(name) or {}).get("source")
-        if zdroj:
+        source = (OFFICIAL.get(name) or {}).get("source")
+        if source:
             doc.set_font("A", size=8)
             doc.set_text_color(120)
-            doc.multi_cell(0, 4, f"Znění článků: {zdroj}", new_x="LMARGIN", new_y="NEXT")
+            doc.multi_cell(0, 4, f"Article texts: {source}", new_x="LMARGIN", new_y="NEXT")
             doc.set_text_color(0)
         doc.ln(1)
 
@@ -372,23 +373,23 @@ def render(course_code: str, heading: str, subtitle: str, groups) -> Path:
                 doc.add_page()
             doc.set_font("A", "B", 10)
             doc.multi_cell(0, 5, f"Art. {art}", new_x="LMARGIN", new_y="NEXT")
-            znění = official(name, art)
-            if znění and znění in seen:
+            quote = official(name, art)
+            if quote and quote in seen:
                 doc.set_font("A", size=8.5)
                 doc.set_text_color(120)
-                doc.multi_cell(0, 4.2, f"(znění viz Art. {seen[znění]} výše)",
+                doc.multi_cell(0, 4.2, f"(text at Art. {seen[quote]} above)",
                                new_x="LMARGIN", new_y="NEXT")
                 doc.set_text_color(0)
                 doc.ln(0.8)
-                znění = None
-            elif znění:
-                seen[znění] = art
-            if znění:
+                quote = None
+            elif quote:
+                seen[quote] = art
+            if quote:
                 doc.set_font("A", size=8.8)
                 doc.set_text_color(35)
                 doc.set_left_margin(24)
                 doc.set_x(24)
-                doc.multi_cell(0, 4.3, znění, new_x="LMARGIN", new_y="NEXT")
+                doc.multi_cell(0, 4.3, quote, new_x="LMARGIN", new_y="NEXT")
                 doc.set_left_margin(18)
                 doc.set_x(18)
                 doc.set_text_color(0)
@@ -400,29 +401,31 @@ def render(course_code: str, heading: str, subtitle: str, groups) -> Path:
                 doc.add_page()
             doc.set_font("A", "B", 10)
             doc.set_text_color(110)
-            doc.multi_cell(0, 5, "Bez určitého článku", new_x="LMARGIN", new_y="NEXT")
+            doc.multi_cell(0, 5, "No specific article", new_x="LMARGIN", new_y="NEXT")
             doc.set_text_color(0)
             for h in loose:
                 where(doc, h)
         doc.ln(3)
 
     DEST.mkdir(parents=True, exist_ok=True)
-    path = DEST / f"{course_code}-prameny.pdf"
+    path = DEST / f"{course_code}-sources.pdf"
     doc.output(str(path))
     return path
 
 
 def main() -> int:
     plan = [
-        ("IL", "Mezinárodní právo — prameny a kde se objevily",
-         "Právní nástroje zmíněné v přednáškách Foundations of International Law (IREWI, 030721), "
-         "řazené podle smlouvy a uvnitř ní podle ČLÁNKU: nejdřív ÚŘEDNÍ ZNĚNÍ článku (zdroj je "
-         "u každé smlouvy uveden), pod ním pak každý slide, kde padl, a věta z kurzu. Zkouška je "
-         "otevřená a pramenná, takže se cení vědět, KTERÝ ČLÁNEK KTERÉ SMLOUVY věc řeší."),
-        ("EU", "Unijní právo — prameny a kde se objevily",
-         "Právní nástroje zmíněné v přednáškách Introduction to EU Law (IREWI), řazené podle smlouvy "
-         "a uvnitř ní podle ČLÁNKU: nejdřív ÚŘEDNÍ ZNĚNÍ z EUR-Lexu, pod ním každý slide, kde článek "
-         "padl, a věta z kurzu. Pozor na dvojici TEU × TFEU: u otevřené otázky se pozná, kdo si je plete."),
+        ("IL", "International Law — the instruments and where they came up",
+         "Legal instruments mentioned in the Foundations of International Law lectures (IREWI, "
+         "030721), arranged by instrument and, within it, BY ARTICLE: first the official text of "
+         "the article (the source is named under each instrument), then every slide where it came "
+         "up and the sentence from the course. The exam is open-book and source-based, so what "
+         "counts is knowing WHICH ARTICLE OF WHICH TREATY settles the point."),
+        ("EU", "EU Law — the instruments and where they came up",
+         "Legal instruments mentioned in the Introduction to EU Law lectures (IREWI), arranged by "
+         "instrument and, within it, BY ARTICLE: first the official text from EUR-Lex, then every "
+         "slide where the article came up and the sentence from the course. Mind the TEU × TFEU "
+         "pair: in an open question it shows at once who confuses them."),
     ]
     for code, heading, subtitle in plan:
         groups = collect(code)

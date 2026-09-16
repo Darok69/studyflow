@@ -10,7 +10,9 @@ u zkoušky nikdo nevybaví. Tenhle skript proto jednou stáhne oficiální texty
 (EUR-Lex, un.org, ICJ, ILC, ECHR, UNTS) a uloží je do prameny/articles.json,
 odkud si je make_sources.py bere při sazbě.
 
-Stažené soubory se kešují v out/prameny/cache, takže druhý běh nic netahá.
+Stažené soubory se kešují v out/prameny/cache, takže druhý běh nic netahá —
+a je to i pojistka: unfccc.int odpovídá jednou ze tří, takže bez keše by
+Pařížská dohoda z PDF občas vypadla.
 Zdroj je u každé smlouvy zapsaný v JSONu a vytiskne se do PDF — u zkoušky
 musí být poznat, odkud znění je.
 
@@ -43,38 +45,52 @@ EURLEX = "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:"
 SOURCES = [
     # (jméno skupiny, url, formát, popis zdroje, ořez těla)
     ("Treaty on European Union (TEU)", EURLEX + "12016M/TXT", "html",
-     "EUR-Lex, konsolidované znění (12016M/TXT)", ("TITLE I", "PROTOCOLS", 1)),
+     "EUR-Lex, consolidated version (12016M/TXT)", ("TITLE I", "PROTOCOLS", 1)),
     ("Treaty on the Functioning of the European Union (TFEU)", EURLEX + "12016E/TXT", "html",
-     "EUR-Lex, konsolidované znění (12016E/TXT)", ("PART ONE", "PROTOCOLS", 1)),
+     "EUR-Lex, consolidated version (12016E/TXT)", ("PART ONE", "PROTOCOLS", 1)),
     ("Charter of Fundamental Rights of the EU", EURLEX + "12016P/TXT", "html",
      "EUR-Lex (12016P/TXT)", None),
     ("Statute of the Court of Justice", EURLEX + "12016E/PRO/03", "html",
-     "EUR-Lex, Protokol č. 3 (12016E/PRO/03)", None),
+     "EUR-Lex, Protocol No 3 (12016E/PRO/03)", None),
     ("Charter of the United Nations", "https://www.un.org/en/about-us/un-charter/full-text", "html",
-     "un.org, plné znění Charty OSN", None),
+     "un.org, full text of the UN Charter", None),
     ("Statute of the International Court of Justice", "https://www.icj-cij.org/statute", "html",
-     "icj-cij.org, Statut MSD", None),
+     "icj-cij.org, Statute of the ICJ", None),
     ("Vienna Convention on the Law of Treaties (VCLT, 1969)",
      "https://legal.un.org/ilc/texts/instruments/english/conventions/1_1_1969.pdf", "pdf",
-     "legal.un.org (ILC), Vídeňská úmluva 1969", None),
+     "legal.un.org (ILC), Vienna Convention 1969", None),
     ("ILC Articles on State Responsibility (ARSIWA, 2001)",
      "https://legal.un.org/ilc/texts/instruments/english/draft_articles/9_6_2001.pdf", "pdf",
-     "legal.un.org (ILC), návrh článků 2001", None),
+     "legal.un.org (ILC), draft articles 2001", None),
     ("European Convention on Human Rights (ECHR)",
      "https://www.echr.coe.int/documents/d/echr/convention_ENG", "pdf",
-     "echr.coe.int, znění Úmluvy", None),
+     "echr.coe.int, text of the Convention", None),
     ("Rome Statute of the International Criminal Court",
      "https://treaties.un.org/doc/Treaties/1998/07/19980717%2006-33%20PM/"
      "volume-2187-I-38544-English.pdf", "pdf",
-     "treaties.un.org, UNTS sv. 2187", None),
+     "treaties.un.org, UNTS vol. 2187", None),
     ("Montevideo Convention on the Rights and Duties of States (1933)",
      "https://www.jus.uio.no/english/services/library/treaties/01/1-02/rights-duties-states.html",
-     "html", "jus.uio.no, znění Montevidejské úmluvy", None),
+     "html", "jus.uio.no, text of the Montevideo Convention", None),
+    ("Paris Agreement (2015)",
+     "https://unfccc.int/sites/default/files/resource/parisagreement_publication.pdf", "pdf",
+     "unfccc.int, Paris Agreement (official publication)", None),
+    ("Rules of Procedure of the Court",
+     "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32012Q0929%2801%29", "html",
+     "EUR-Lex, Rules of Procedure of the Court of Justice (32012Q0929(01))",
+     ("TITLE I", "@@none@@", 1)),
+    ("Treaty establishing the EEC (Rome, 1957)",
+     "https://www.ab.gov.tr/files/ardb/evt/1_avrupa_birligi/1_3_antlasmalar/"
+     "1_3_1_kurucu_antlasmalar/1957_treaty_establishing_eec.pdf", "pdf",
+     "Treaty of Rome 1957, original text (EUR-Lex refuses direct download; mirrored copy)", None),
 ]
 
 ART_HEAD = re.compile(r"^Articles?\s+(\d+)\s*[.:]?\s*$", re.I)   # ECHR sází „ARTICLE 6"
 # U textů z PDF stojí nadpis a název článku na jednom řádku („Article 86. General…").
 ART_INLINE = re.compile(r"^Article\s+(\d+)\s*[.．]\s", re.I)
+# Řádek z obsahu: název bez tečky a na konci číslo stránky. Jednací řád Soudního
+# dvora má obsah i uvnitř těla, takže by se jinak lepil do textu článků.
+TOC_LINE = re.compile(r"[A-Z][A-Za-z ,'()\-]{3,70} \d{1,3}")
 
 
 def download(url: str, kind: str) -> Path:
@@ -173,7 +189,8 @@ def articles(lines: list[str]) -> dict[str, str]:
             out.setdefault(cur, [])
             out[cur].append(line[m.end():])
             continue
-        if cur and not re.fullmatch(r"(TITLE|CHAPTER|SECTION|PART|ANNEX)\b.*", line):
+        if cur and not re.fullmatch(r"(TITLE|CHAPTER|SECTION|PART|ANNEX)\b.*", line) \
+                and not TOC_LINE.fullmatch(line):
             out[cur].append(line)
     return {k: clean(" ".join(v)) for k, v in out.items() if " ".join(v).strip()}
 
@@ -185,11 +202,32 @@ SPLITS = [(re.compile(rf"\b{a}\b"), b) for a, b in (
 )]
 
 
+TOC_HEAD = re.compile(r"^(?P<t>[^.]{5,80}?) \d{1,3}\s")
+
+
+def strip_toc(text: str) -> str:
+    """Odřízne obsah nalepený před text článku.
+
+    Jednací řád Soudního dvora má obsah i uvnitř těla, takže z článku vyjde
+    „Designation of the Judge-Rapporteur 11 Designation of the Judge-Rapporteur
+    1. As soon as…". Poznávací znamení je název zopakovaný za číslem stránky —
+    od druhého výskytu začíná skutečné znění.
+    """
+    m = TOC_HEAD.match(text)
+    if not m:
+        return text
+    title = m.group("t")
+    again = text.find(title, m.end())
+    if again < 0:
+        return text
+    return text[again + len(title):].strip(" .")
+
+
 def clean(text: str) -> str:
     for rx, repl in SPLITS:
         text = rx.sub(repl, text)
     text = re.sub(r"\s*\[\s*\d+\s*\]\s*", " ", text)   # čísla stránek z PDF
-    return re.sub(r"\s{2,}", " ", text).strip()
+    return strip_toc(re.sub(r"\s{2,}", " ", text).strip())
 
 
 def main() -> int:
