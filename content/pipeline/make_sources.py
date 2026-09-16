@@ -30,6 +30,7 @@ from fpdf import FPDF  # noqa: E402
 ROOT = pack_root()
 MATERIALS = ROOT / "out" / "materials"
 DEST = ROOT / "out" / "prameny"
+TEXTS = ROOT / "prameny" / "articles.json"
 FONT = "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
 
 # Nástroje se hledají podle JMÉNA, ne podle čísla článku: samotné „Article 38"
@@ -260,6 +261,49 @@ def plural(n: int, one: str, few: str, many: str) -> str:
     return f"{n} {one if n == 1 else few if 2 <= n <= 4 else many}"
 
 
+# Úřední znění článků (./run.sh <předmět> articles). Bez něj se PDF vysází
+# jen s odkazy, s ním i s tím, co článek říká.
+OFFICIAL: dict[str, dict] = json.loads(TEXTS.read_text(encoding="utf-8")) if TEXTS.exists() else {}
+
+PARA = re.compile(r"(?:(?<=\s)|^)(\d+)\.\s")
+MAX_QUOTE = 1500
+
+
+def official(instrument: str, citation: str) -> str | None:
+    """Znění citovaného článku; u „4(2)" jen ten odstavec, jde-li vydělit."""
+    entry = OFFICIAL.get(instrument)
+    if not entry:
+        return None
+    base = citation.split("(")[0]
+    text = entry["articles"].get(base)
+    if not text:
+        return None
+    nums = re.findall(r"\((\d+)\)", citation)
+    if nums:
+        marks = [(m.start(), m.group(1)) for m in PARA.finditer(text)]
+        for i, (pos, n) in enumerate(marks):
+            if n == nums[0]:
+                end = marks[i + 1][0] if i + 1 < len(marks) else len(text)
+                part = text[pos:end].strip()
+                # Vnořené seznamy (čl. 38 Statutu MSD) mají taky „1.", takže se
+                # vydělený odstavec někdy utne po návětí. Pod 120 znaků radši
+                # celý článek než torzo.
+                if len(part) >= 120 or len(part) == len(text):
+                    text = part
+                break
+    text = re.sub(r"^\(ex Article[^)]*\)\s*", "", text).strip()
+    return text[:MAX_QUOTE].rstrip() + " […]" if len(text) > MAX_QUOTE else text
+
+
+def has_official(instrument: str, citation: str) -> bool:
+    """Má se citace vůbec brát? Známe-li úřední znění a článek v něm není,
+    je to zmýlená — buď slide, nebo moje přiřazení — a citace se zahodí."""
+    entry = OFFICIAL.get(instrument)
+    if not entry:
+        return True
+    return citation.split("(")[0] in entry["articles"]
+
+
 def where(doc, h) -> None:
     """Jedna zmínka: kde padla a čeho se týká."""
     doc.set_font("A", "B", 8.5)
@@ -301,6 +345,12 @@ def render(course_code: str, heading: str, subtitle: str, groups) -> Path:
             doc.add_page()
         doc.set_font("A", "B", 12)
         doc.multi_cell(0, 6, f"{i}.  {name}", new_x="LMARGIN", new_y="NEXT")
+        zdroj = (OFFICIAL.get(name) or {}).get("source")
+        if zdroj:
+            doc.set_font("A", size=8)
+            doc.set_text_color(120)
+            doc.multi_cell(0, 4, f"Znění článků: {zdroj}", new_x="LMARGIN", new_y="NEXT")
+            doc.set_text_color(0)
         doc.ln(1)
 
         # Uvnitř smlouvy se řadí PODLE ČLÁNKU, ne podle přednášky: u otevřené
@@ -309,17 +359,40 @@ def render(course_code: str, heading: str, subtitle: str, groups) -> Path:
         by_art: dict[str, list[dict]] = {}
         loose: list[dict] = []
         for h in hits:
-            if h["articles"]:
-                for a in h["articles"]:
+            good = [a for a in h["articles"] if has_official(name, a)]
+            if good:
+                for a in good:
                     by_art.setdefault(a, []).append(h)
             else:
                 loose.append(h)
 
+        seen: dict[str, str] = {}
         for art in sorted(by_art, key=art_key):
             if doc.get_y() > 252:
                 doc.add_page()
             doc.set_font("A", "B", 10)
             doc.multi_cell(0, 5, f"Art. {art}", new_x="LMARGIN", new_y="NEXT")
+            znění = official(name, art)
+            if znění and znění in seen:
+                doc.set_font("A", size=8.5)
+                doc.set_text_color(120)
+                doc.multi_cell(0, 4.2, f"(znění viz Art. {seen[znění]} výše)",
+                               new_x="LMARGIN", new_y="NEXT")
+                doc.set_text_color(0)
+                doc.ln(0.8)
+                znění = None
+            elif znění:
+                seen[znění] = art
+            if znění:
+                doc.set_font("A", size=8.8)
+                doc.set_text_color(35)
+                doc.set_left_margin(24)
+                doc.set_x(24)
+                doc.multi_cell(0, 4.3, znění, new_x="LMARGIN", new_y="NEXT")
+                doc.set_left_margin(18)
+                doc.set_x(18)
+                doc.set_text_color(0)
+                doc.ln(1.2)
             for h in by_art[art]:
                 where(doc, h)
         if loose:
@@ -343,15 +416,13 @@ def main() -> int:
     plan = [
         ("IL", "Mezinárodní právo — prameny a kde se objevily",
          "Právní nástroje zmíněné v přednáškách Foundations of International Law (IREWI, 030721), "
-         "řazené podle smlouvy a uvnitř ní podle ČLÁNKU: u každého článku je, na kterém slidu padl "
-         "a čeho se týkal. Zkouška je otevřená a pramenná, takže se cení vědět, KTERÝ ČLÁNEK KTERÉ "
-         "SMLOUVY věc řeší. Citace jsou z podkladů kurzu, ne z úředního znění — před zkouškou si "
-         "zásadní články ověř v textu smlouvy."),
+         "řazené podle smlouvy a uvnitř ní podle ČLÁNKU: nejdřív ÚŘEDNÍ ZNĚNÍ článku (zdroj je "
+         "u každé smlouvy uveden), pod ním pak každý slide, kde padl, a věta z kurzu. Zkouška je "
+         "otevřená a pramenná, takže se cení vědět, KTERÝ ČLÁNEK KTERÉ SMLOUVY věc řeší."),
         ("EU", "Unijní právo — prameny a kde se objevily",
          "Právní nástroje zmíněné v přednáškách Introduction to EU Law (IREWI), řazené podle smlouvy "
-         "a uvnitř ní podle ČLÁNKU: u každého článku je, na kterém slidu padl a čeho se týkal. Pozor "
-         "na dvojici TEU × TFEU: u otevřené otázky se pozná, kdo si je plete. Citace jsou z podkladů "
-         "kurzu, ne z úředního znění."),
+         "a uvnitř ní podle ČLÁNKU: nejdřív ÚŘEDNÍ ZNĚNÍ z EUR-Lexu, pod ním každý slide, kde článek "
+         "padl, a věta z kurzu. Pozor na dvojici TEU × TFEU: u otevřené otázky se pozná, kdo si je plete."),
     ]
     for code, heading, subtitle in plan:
         groups = collect(code)

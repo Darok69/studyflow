@@ -9,6 +9,7 @@
 #   ./run.sh irewi deck             balíček karet pro Import
 #   ./run.sh irewi audio --series quiz
 #   ./run.sh irewi feed --base https://study.dmarka.eu --token <token>
+#   ./run.sh irewi articles         stáhne úřední znění článků smluv
 #   ./run.sh irewi sources          přehled pramenů práva do PDF
 #   ./run.sh irewi upload quiz      nahraje řadu podcastu na produkci
 #   ./run.sh irewi publish          nahraje učebnici na produkci
@@ -34,12 +35,13 @@ case "$1" in
   audio)     script=make_audio.py ;;
   feed)      script=make_feed.py ;;
   sources)   script=make_sources.py ;;
+  articles)  script=fetch_articles.py ;;
   upload)    script=upload_podcast.sh ;;
   publish)   script=publish_materials.sh ;;
   *)         script=run.py ;;          # ./run.sh irewi --only IL01
 esac
 case "$1" in
-  slides|merge|materials|deck|backup|audio|feed|sources|upload|publish) shift ;;
+  slides|merge|materials|deck|backup|audio|feed|sources|articles|upload|publish) shift ;;
 esac
 
 export STUDYFLOW_PACK="$pack"

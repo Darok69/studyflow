@@ -47,3 +47,4 @@ content/pipeline/__pycache__/
 
 # Dev server data (prod lives in a docker volume).
 data/
+content/*/out/
