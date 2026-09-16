@@ -1,533 +1,207 @@
 {
   "lecture_id": "RD15",
-  "title": "Kennedy, Tři globalizace práva a právního myšlení 1850–2000",
+  "title": "Kennedy, Three Globalizations of Law and Legal Thought 1850–2000",
   "slides": {
     "1": {
-      "title": "Co článek dělá a jaké má tři období",
-      "text": "DUNCAN KENNEDY, 'THREE GLOBALIZATIONS OF LAW AND LEGAL THOUGHT: 1850–2000'. Studium 'práva a rozvoje' začalo určitým postavením obou pojmů: ptalo se, JAK MŮŽE PRÁVNÍ REFORMA PŘISPĚT KE VZLETU K SOBĚSTAČNÉMU RŮSTU v postkoloniálním Třetím světě 60. let. TRUBEK A GALANTER ('Scholars in Self-Estrangement', 1974) ty pojmy přestavěli: problematizovali poměrně prostou instrumentální představu práva a POLITIZOVALI naše chápání rozvoje. Kennedyho tři globalizace odkazují na DVĚ PŘEKRÝVAJÍCÍ SE OBDOBÍ právní institucionální a pojmové změny na Západě: vzestup KLASICKÉHO PRÁVNÍHO MYŠLENÍ (CLT) MEZI LETY 1850 A 1914 a SOCIÁLNĚ ORIENTOVANÉHO PRÁVNÍHO MYŠLENÍ MEZI LETY 1900 A 1968 — a na proměnu charakteristických rysů obou období VE DVOU ODLIŠNÝCH PROCESECH ŠÍŘENÍ napříč světem kolonií a čerstvě nezávislých národních států. Kratší třetí část načrtává podobný vývoj PRO OBDOBÍ 1945–2000. A hned varování, které je pro metodu zásadní: RÁMEC A KONTEXT JSOU ZAVÁDĚJÍCÍ POJMY pro vztah právních a ekonomických činností, protože EKONOMICKOU ČINNOST NELZE CHÁPAT JAKO NĚCO AUTONOMNÍHO vůči souboru pasivních institucionálních a pojmových omezení. PRÁVNÍ INSTITUCE A IDEJE MAJÍ K EKONOMICKÉ ČINNOSTI VZTAH DYNAMICKÝ, DIALEKTICKÝ ČI KONSTITUTIVNÍ.",
+      "title": "What the article does and what its three periods are",
+      "text": "DUNCAN KENNEDY, 'THREE GLOBALIZATIONS OF LAW AND LEGAL THOUGHT: 1850–2000'. The study of 'law and development' began with a particular positioning of the two terms: it asked HOW LEGAL REFORM COULD CONTRIBUTE TO THE TAKE-OFF INTO SELF-SUSTAINING GROWTH in the post-colonial Third World of the 1960s. TRUBEK AND GALANTER ('Scholars in Self-Estrangement', 1974) reconstructed those terms: they problematised the rather simple instrumental conception of law and POLITICISED our understanding of development. Kennedy's three globalizations refer to TWO OVERLAPPING PERIODS of legal institutional and conceptual change in the West: the rise of CLASSICAL LEGAL THOUGHT (CLT) BETWEEN 1850 AND 1914 and of SOCIALLY ORIENTED LEGAL THOUGHT BETWEEN 1900 AND 1968 — and to the transformation of the characteristic features of both periods IN TWO DISTINCT PROCESSES OF DIFFUSION across the world of colonies and newly independent nation states. A shorter third part sketches a similar development FOR THE PERIOD 1945–2000. And at once a warning fundamental to the method: FRAME AND CONTEXT ARE MISLEADING TERMS for the relation of legal and economic activity, because ECONOMIC ACTIVITY CANNOT BE UNDERSTOOD AS SOMETHING AUTONOMOUS in relation to a set of passive institutional and conceptual constraints. LEGAL INSTITUTIONS AND IDEAS STAND IN A DYNAMIC, DIALECTICAL OR CONSTITUTIVE RELATION TO ECONOMIC ACTIVITY.",
       "terms": [],
       "cards": [
-        {
-          "q": "Které tři globalizace Kennedy rozlišuje a v jakých letech?",
-          "a": "1) KLASICKÉ PRÁVNÍ MYŠLENÍ (CLT) 1850–1914. 2) SOCIÁLNĚ ORIENTOVANÉ PRÁVNÍ MYŠLENÍ ('the social') 1900–1968. 3) POLICY ANALYSIS, NEOFORMALISMUS A SOUDNÍ ROZHODOVÁNÍ 1945–2000. První dvě jsou období změny na Západě PLUS jejich šíření do kolonií a nově nezávislých států.",
-          "difficulty": 2,
-          "kind": "schema",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Proč Kennedy odmítá mluvit o právu jako o 'rámci' nebo 'kontextu' ekonomiky?",
-          "a": "Protože EKONOMICKOU ČINNOST NELZE CHÁPAT JAKO NĚCO AUTONOMNÍHO vůči souboru pasivních institucionálních a pojmových omezení, jak ty pojmy naznačují. PRÁVNÍ INSTITUCE A IDEJE MAJÍ K EKONOMICKÉ ČINNOSTI VZTAH DYNAMICKÝ, DIALEKTICKÝ ČI KONSTITUTIVNÍ.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "Which three globalizations does Kennedy distinguish, and in which years?", "a": "1) CLASSICAL LEGAL THOUGHT (CLT) 1850–1914. 2) SOCIALLY ORIENTED LEGAL THOUGHT ('the social') 1900–1968. 3) POLICY ANALYSIS, NEOFORMALISM AND ADJUDICATION 1945–2000. The first two are periods of change in the West PLUS their diffusion into the colonies and newly independent states.", "difficulty": 2, "kind": "schema", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Why does Kennedy refuse to speak of law as the 'frame' or 'context' of the economy?", "a": "Because ECONOMIC ACTIVITY CANNOT BE UNDERSTOOD AS SOMETHING AUTONOMOUS in relation to a set of passive institutional and conceptual constraints, as those terms suggest. LEGAL INSTITUTIONS AND IDEAS STAND IN A DYNAMIC, DIALECTICAL OR CONSTITUTIVE RELATION TO ECONOMIC ACTIVITY.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "2": {
-      "title": "Kdo právo dělá: nejen tvůrci politik",
-      "text": "Měnící se 'rámec' byl také PLÁNEM, projektem těch, kdo měli přístup k zákonodárným, správním a soudním procesům v koloniích a státech — projektem ovlivňování hospodářské činnosti. OD POLOVINY 18. STOLETÍ (francouzští FYZIOKRATÉ) byl aspoň někdy jedním z předmětů zákonodárství, správy a rozhodování HOSPODÁŘSKÝ ROZVOJ, jak byl zrovna chápán. PRVNÍ GLOBALIZACI LZE VIDĚT JAKO VYVRCHOLENÍ LIBERÁLNÍHO ÚTOKU NA MERKANTILISTICKOU ČI 'RANĚ MODERNÍ' HOSPODÁŘSKOU A SOCIÁLNÍ POLITIKU, A DRUHOU JAKO POLITICKÝ PROGRAM PRVNÍ GENERACE KRITIKŮ PLODŮ LAISSEZ-FAIRE. Ale rámec není jen plánem 'tvůrců politik': na kapitalistickém Západě i na jeho periferii SILNÍ EKONOMIČTÍ AKTÉŘI TVORBU PRÁVA OVLIVŇUJÍ PRÁVĚ TAK, JAK JSOU JÍM OMEZOVÁNI. Přechod od merkantilismu k liberalismu byl stejně tak nebo víc jejich dílem než dílem státníků a myslitelů. A VZESTUP 'SOCIÁLNÍHO' BYL FUNKCÍ VZESTUPU POLITICKÝCH STRAN, KTERÉ AGREGOVALY ZÁJMY SLABÝCH EKONOMICKÝCH AKTÉRŮ, ZVLÁŠTĚ ZEMĚDĚLCŮ A DĚLNÍKŮ, V REAKCI NA VLIV KAPITÁLU. V zápasech o režim jsou ve hře institucionální a pojmové možnosti práva, repertoár možných politik i velké počty konkrétních pravidel; a aktéři s privilegovaným přístupem k právnímu aparátu — advokáti ekonomických aktérů, právníci v roli zákonodárců, soudci a akademici — mají PROFESNĚ LEGITIMIZOVANOU ROLI, která se souběžně a překryvně váže s rolí držitelů ekonomické moci.",
+      "title": "Who makes law: not only policy-makers",
+      "text": "The changing 'frame' was also A PLAN, a project of those with access to the legislative, administrative and judicial processes of colonies and states — a project of influencing economic activity. SINCE THE MID-18TH CENTURY (the French PHYSIOCRATS), at least sometimes one of the objects of legislation, administration and adjudication was ECONOMIC DEVELOPMENT as it was then understood. THE FIRST GLOBALIZATION CAN BE SEEN AS THE CULMINATION OF THE LIBERAL ATTACK ON MERCANTILIST OR 'EARLY MODERN' ECONOMIC AND SOCIAL POLICY, AND THE SECOND AS THE POLITICAL PROGRAMME OF THE FIRST GENERATION OF CRITICS OF THE FRUITS OF LAISSEZ-FAIRE. But the frame is not merely the plan of 'policy-makers': in the capitalist West and on its periphery alike, POWERFUL ECONOMIC ACTORS INFLUENCE THE MAKING OF LAW JUST AS THEY ARE CONSTRAINED BY IT. The transition from mercantilism to liberalism was as much or more their work as that of statesmen and thinkers. AND THE RISE OF 'THE SOCIAL' WAS A FUNCTION OF THE RISE OF POLITICAL PARTIES AGGREGATING THE INTERESTS OF WEAK ECONOMIC ACTORS, ESPECIALLY FARMERS AND WORKERS, IN REACTION TO THE INFLUENCE OF CAPITAL. In the struggles over regimes, what is at stake are the institutional and conceptual possibilities of law, the repertoire of possible policies and great numbers of concrete rules; and actors with privileged access to the legal apparatus — the advocates of economic actors, lawyers as legislators, judges and academics — have a PROFESSIONALLY LEGITIMATED ROLE that is bound up, in parallel and overlapping ways, with the role of the holders of economic power.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak Kennedy vymezuje první a druhou globalizaci z hlediska hospodářské politiky?",
-          "a": "PRVNÍ je VYVRCHOLENÍM LIBERÁLNÍHO ÚTOKU NA MERKANTILISTICKOU ('raně moderní') hospodářskou a sociální politiku. DRUHÁ je POLITICKÝM PROGRAMEM PRVNÍ GENERACE KRITIKŮ PLODŮ LAISSEZ-FAIRE.",
-          "difficulty": 2,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Čeho byl podle Kennedyho vzestup 'sociálního' funkcí?",
-          "a": "VZESTUPU POLITICKÝCH STRAN, KTERÉ AGREGOVALY ZÁJMY SLABÝCH EKONOMICKÝCH AKTÉRŮ — zvláště ZEMĚDĚLCŮ A DĚLNÍKŮ — V REAKCI NA VLIV KAPITÁLU. Není to tedy jen dílo myslitelů: silní ekonomičtí aktéři tvorbu práva ovlivňují stejně, jako jsou jím omezováni.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How does Kennedy define the first and second globalizations in terms of economic policy?", "a": "THE FIRST is THE CULMINATION OF THE LIBERAL ATTACK ON MERCANTILIST ('early modern') economic and social policy. THE SECOND is THE POLITICAL PROGRAMME OF THE FIRST GENERATION OF CRITICS OF THE FRUITS OF LAISSEZ-FAIRE.", "difficulty": 2, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What, on Kennedy's account, was the rise of 'the social' a function of?", "a": "OF THE RISE OF POLITICAL PARTIES AGGREGATING THE INTERESTS OF WEAK ECONOMIC ACTORS — especially FARMERS AND WORKERS — IN REACTION TO THE INFLUENCE OF CAPITAL. It is therefore not merely the work of thinkers: powerful economic actors influence the making of law just as they are constrained by it.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "3": {
-      "title": "Co se globalizovalo a čím — tři mechanismy",
-      "text": "MEZI LETY 1850 A 1914 se globalizovalo KLASICKÉ PRÁVNÍ MYŠLENÍ (CLT). NEMĚLO ŽÁDNOU PODSTATU, ale mezi jeho důležité rysy patřilo, že to byl ZPŮSOB MYŠLENÍ O PRÁVU JAKO O SYSTÉMU SFÉR AUTONOMIE PRO SOUKROMÉ A VEŘEJNÉ AKTÉRY, S HRANICEMI SFÉR VYMEZENÝMI PRÁVNÍM UVAŽOVÁNÍM CHÁPANÝM JAKO VĚDECKÁ PRAXE. MECHANISMY té globalizace: PŘÍMÉ ZÁPADNÍ VNUCENÍ v kolonizovaném světě, NUCENÉ 'OTEVŘENÍ' nezápadních režimů, které zůstaly nezávislé, a PRESTIŽ NĚMECKÉ PRÁVNÍ VĚDY ve světě evropských a západních národních států. MEZI LETY 1900 A 1968 se globalizovalo 'SOCIÁLNÍ' — opět způsob myšlení bez podstaty, ale s důležitým rysem: ZAUJETÍM PŘEMYŠLET PRÁVO JAKO ÚČELOVOU ČINNOST, JAKO REGULAČNÍ MECHANISMUS, KTERÝ MŮŽE A MÁ USNADŇOVAT VÝVOJ SOCIÁLNÍHO ŽIVOTA V SOULADU S ČÍM DÁL VĚTŠÍ VNÍMANOU SOCIÁLNÍ VZÁJEMNOU ZÁVISLOSTÍ NA KAŽDÉ ÚROVNI, OD RODINY PO SVĚT NÁRODŮ. Agenty šíření byla REFORMNÍ HNUTÍ VŠECH POLITICKÝCH BAREV na rozvinutém Západě, NACIONALISTICKÁ HNUTÍ na periferii a ELITY NOVĚ NEZÁVISLÝCH STÁTŮ po roce 1945. MEZI LETY 1945 A 2000 byl jeden trend myslet právní techniku po kritikách CLT i sociálního jako PRAGMATICKÉ POMĚŘOVÁNÍ KONFLIKTNÍCH ÚVAH při správě systému vytvořeného sociálními juristy; zároveň tu byl zdánlivě protichůdný trend vidět právo jako RUČITELE LIDSKÝCH A VLASTNICKÝCH PRÁV A MEZIVLÁDNÍHO ŘÁDU skrze postupné rozšiřování právního státu chápaného jako SOUDNÍ SUPREMACIE. Mechanismy: AMERICKÉ VÍTĚZSTVÍ VE 2. SVĚTOVÉ A STUDENÉ VÁLCE, 'OTEVŘENÍ' národních států novému právnímu vědomí skrze účast na světovém trhu za podmínek nadnárodních korporací a mezinárodních regulačních institucí, a PRESTIŽ AMERICKÉ KULTURY.",
+      "title": "What was globalized and by what — three mechanisms",
+      "text": "BETWEEN 1850 AND 1914 CLASSICAL LEGAL THOUGHT (CLT) was globalized. IT HAD NO ESSENCE, but among its important features was that it was A WAY OF THINKING ABOUT LAW AS A SYSTEM OF SPHERES OF AUTONOMY FOR PRIVATE AND PUBLIC ACTORS, THE BOUNDARIES OF THE SPHERES BEING DETERMINED BY LEGAL REASONING UNDERSTOOD AS A SCIENTIFIC PRACTICE. The mechanisms of that globalization: DIRECT WESTERN IMPOSITION in the colonised world, the FORCED 'OPENING' of non-Western regimes that remained independent, and THE PRESTIGE OF GERMAN LEGAL SCIENCE in the world of European and Western nation states. BETWEEN 1900 AND 1968 'THE SOCIAL' was globalized — again a mode of thought without an essence, but with an important feature: A PREOCCUPATION WITH THINKING OF LAW AS A PURPOSIVE ACTIVITY, AS A REGULATORY MECHANISM THAT CAN AND OUGHT TO FACILITATE THE EVOLUTION OF SOCIAL LIFE IN ACCORDANCE WITH AN EVER-INCREASING PERCEIVED SOCIAL INTERDEPENDENCE AT EVERY LEVEL, FROM THE FAMILY TO THE WORLD OF NATIONS. The agents of diffusion were REFORM MOVEMENTS OF EVERY POLITICAL STRIPE in the developed West, NATIONALIST MOVEMENTS on the periphery, and the ELITES OF THE NEWLY INDEPENDENT STATES after 1945. BETWEEN 1945 AND 2000 one tendency was to think legal technique, after the critiques of CLT and of the social alike, as THE PRAGMATIC BALANCING OF CONFLICTING CONSIDERATIONS in administering the system created by the social jurists; at the same time there was a seemingly contrary tendency to see law as THE GUARANTOR OF HUMAN AND PROPERTY RIGHTS AND OF THE INTERGOVERNMENTAL ORDER through the gradual extension of the rule of law understood as JUDICIAL SUPREMACY. The mechanisms: THE AMERICAN VICTORY IN THE SECOND WORLD WAR AND THE COLD WAR, the 'OPENING' of nation states to a new legal consciousness through participation in the world market on the terms of transnational corporations and international regulatory institutions, and THE PRESTIGE OF AMERICAN CULTURE.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co bylo v CLT tím 'způsobem myšlení', který se globalizoval?",
-          "a": "Myšlení o právu JAKO O SYSTÉMU SFÉR AUTONOMIE PRO SOUKROMÉ A VEŘEJNÉ AKTÉRY, S HRANICEMI TĚCH SFÉR VYMEZENÝMI PRÁVNÍM UVAŽOVÁNÍM CHÁPANÝM JAKO VĚDECKÁ PRAXE. Samo CLT přitom podle Kennedyho NEMĚLO ŽÁDNOU PODSTATU.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jmenuj mechanismy šíření u všech tří globalizací.",
-          "a": "PRVNÍ: přímé západní vnucení v koloniích, nucené 'OTEVŘENÍ' nezávislých nezápadních režimů, PRESTIŽ NĚMECKÉ PRÁVNÍ VĚDY. DRUHÁ: reformní hnutí všech politických barev na Západě, NACIONALISTICKÁ HNUTÍ na periferii, elity nově nezávislých států po roce 1945. TŘETÍ: americké vítězství ve 2. světové a studené válce, 'otevření' států skrze světový trh, PRESTIŽ AMERICKÉ KULTURY.",
-          "difficulty": 3,
-          "kind": "schema",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Co bylo hlavním zaujetím 'sociálního'?",
-          "a": "PŘEMÝŠLET PRÁVO JAKO ÚČELOVOU ČINNOST, JAKO REGULAČNÍ MECHANISMUS, KTERÝ MŮŽE A MÁ USNADŇOVAT VÝVOJ SOCIÁLNÍHO ŽIVOTA V SOULADU S ČÍM DÁL VĚTŠÍ VNÍMANOU SOCIÁLNÍ VZÁJEMNOU ZÁVISLOSTÍ NA KAŽDÉ ÚROVNI — OD RODINY PO SVĚT NÁRODŮ.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What was the 'way of thinking' in CLT that was globalized?", "a": "Thinking of law AS A SYSTEM OF SPHERES OF AUTONOMY FOR PRIVATE AND PUBLIC ACTORS, THE BOUNDARIES OF THOSE SPHERES BEING DETERMINED BY LEGAL REASONING UNDERSTOOD AS A SCIENTIFIC PRACTICE. CLT itself, on Kennedy's account, HAD NO ESSENCE.", "difficulty": 3, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Name the mechanisms of diffusion for all three globalizations.", "a": "FIRST: direct Western imposition in the colonies, the forced 'OPENING' of independent non-Western regimes, THE PRESTIGE OF GERMAN LEGAL SCIENCE. SECOND: reform movements of every political stripe in the West, NATIONALIST MOVEMENTS on the periphery, the elites of newly independent states after 1945. THIRD: the American victory in the Second World War and the Cold War, the 'opening' of states through the world market, THE PRESTIGE OF AMERICAN CULTURE.", "difficulty": 3, "kind": "schema", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What was the chief preoccupation of 'the social'?", "a": "TO THINK OF LAW AS A PURPOSIVE ACTIVITY, AS A REGULATORY MECHANISM THAT CAN AND OUGHT TO FACILITATE THE EVOLUTION OF SOCIAL LIFE IN ACCORDANCE WITH AN EVER-INCREASING PERCEIVED SOCIAL INTERDEPENDENCE AT EVERY LEVEL — FROM THE FAMILY TO THE WORLD OF NATIONS.", "difficulty": 2, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "4": {
-      "title": "Co se NEglobalizovalo — a proč je to důležité",
-      "text": "Ta 'věc', která se globalizovala, NEBYLA V ŽÁDNÉM Z TĚCH TŘÍ OBDOBÍ POHLEDEM NA PRÁVO NĚJAKÉ KONKRÉTNÍ POLITICKÉ IDEOLOGIE. KLASICKÉ PRÁVNÍ MYŠLENÍ BYLO LIBERÁLNÍ BUĎ KONZERVATIVNĚ, NEBO POKROKOVĚ, podle toho, jak vyvažovalo veřejné a soukromé na trhu a v domácnosti. SOCIÁLNÍ MOHL BÝT SOCIALISTICKÝ, SOCIÁLNĚ DEMOKRATICKÝ, KATOLICKY ČI SOCIÁLNĚ KŘESŤANSKÝ NEBO FAŠISTICKÝ — ALE NE KOMUNISTICKÝ ANI KLASICKY LIBERÁLNÍ. Moderní právní vědomí je SPOLEČNÝM VLASTNICTVÍM PRAVICOVÝCH I LEVICOVÝCH TEORETIKŮ PRÁV A PRAVICOVÝCH I LEVICOVÝCH ANALYTIKŮ POLITIK. Nebyla to ani filozofie práva v obvyklém smyslu: v každém období byl uvnitř toho způsobu myšlení pozitivismus i přirozené právo, různé teorie práv a časem i odrůdy pragmatismu, vše pohodlně pod jedním velkým stanem. A NEGLOBALIZOVAL SE ROZHODNĚ ANI ŽÁDNÝ KONKRÉTNÍ SOUBOR PRÁVNÍCH PRAVIDEL: KAŽDÝ MÓD POSKYTOVAL MATERIÁL, ZE KTERÉHO JURISTÉ A ZÁKONODÁRCI MOHLI VYRÁBĚT NEKONEČNOU ROZMANITOST KONKRÉTNÍCH POZITIVNÍCH ZÁKONŮ — a taky ji vyráběli, i když tvrdili, že pouze transplantují pravidla z jednoho prostředí do druhého.",
+      "title": "What was NOT globalized — and why that matters",
+      "text": "The 'thing' that was globalized WAS IN NONE OF THOSE THREE PERIODS THE VIEW OF LAW OF ANY PARTICULAR POLITICAL IDEOLOGY. CLASSICAL LEGAL THOUGHT WAS LIBERAL EITHER CONSERVATIVELY OR PROGRESSIVELY, depending on how it balanced the public and the private in the market and in the household. THE SOCIAL COULD BE SOCIALIST, SOCIAL DEMOCRATIC, CATHOLIC OR SOCIAL CHRISTIAN, OR FASCIST — BUT NOT COMMUNIST OR CLASSICALLY LIBERAL. Modern legal consciousness is THE COMMON PROPERTY OF RIGHT-WING AND LEFT-WING RIGHTS THEORISTS AND OF RIGHT-WING AND LEFT-WING POLICY ANALYSTS. Nor was it a philosophy of law in the usual sense: in each period, positivism and natural law, various theories of rights and in time varieties of pragmatism all sat comfortably under the same big tent within that mode of thought. AND WHAT WAS CERTAINLY NOT GLOBALIZED WAS ANY PARTICULAR BODY OF LEGAL RULES: EACH MODE PROVIDED THE MATERIAL FROM WHICH JURISTS AND LEGISLATORS COULD MANUFACTURE AN INFINITE VARIETY OF PARTICULAR POSITIVE LAWS — and manufacture it they did, even while claiming merely to transplant rules from one setting to another.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jaké politické ideologie se do CLT a do sociálního vešly?",
-          "a": "CLT bylo LIBERÁLNÍ buď KONZERVATIVNĚ, nebo POKROKOVĚ. SOCIÁLNÍ mohl být SOCIALISTICKÝ, SOCIÁLNĚ DEMOKRATICKÝ, KATOLICKY ČI SOCIÁLNĚ KŘESŤANSKÝ NEBO FAŠISTICKÝ — ALE NE KOMUNISTICKÝ ANI KLASICKY LIBERÁLNÍ. Moderní vědomí je společným vlastnictvím pravice i levice.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Globalizoval se nějaký konkrétní soubor právních pravidel?",
-          "a": "ROZHODNĚ NE. Každý mód poskytoval jen MATERIÁL, ze kterého juristé a zákonodárci vyráběli NEKONEČNOU ROZMANITOST KONKRÉTNÍCH POZITIVNÍCH ZÁKONŮ — a vyráběli ji i tehdy, když tvrdili, že pouze transplantují pravidla z jednoho prostředí do druhého.",
-          "difficulty": 2,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "Which political ideologies fitted inside CLT and inside the social?", "a": "CLT was LIBERAL either CONSERVATIVELY or PROGRESSIVELY. THE SOCIAL could be SOCIALIST, SOCIAL DEMOCRATIC, CATHOLIC OR SOCIAL CHRISTIAN, OR FASCIST — BUT NOT COMMUNIST OR CLASSICALLY LIBERAL. Modern consciousness is the common property of right and left alike.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Was any particular body of legal rules globalized?", "a": "CERTAINLY NOT. Each mode provided only THE MATERIAL from which jurists and legislators manufactured AN INFINITE VARIETY OF PARTICULAR POSITIVE LAWS — and they did so even when claiming merely to transplant rules from one setting to another.", "difficulty": 2, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "5": {
-      "title": "Langue a parole — klíč k celému článku",
-      "text": "Kennedy používá saussurovskou dvojici a bez ní se článek nedá číst. VĚDOMÍ, CHÁPANÉ JAKO SLOVNÍK POJMŮ A TYPICKÝCH ARGUMENTŮ, JE 'LANGUE' — JAZYK. KONKRÉTNÍ, POZITIVNĚ UZÁKONĚNÁ PRAVIDLA JEDNOTLIVÝCH ZEMÍ, DO KTERÝCH SE LANGUE GLOBALIZOVALA, JSOU 'PAROLE' — PROMLUVA. Stejně jako se konkrétní věta, třeba 'zavři dveře', pronáší v konkrétním jazyce, právní norma je závazná promluva v konkrétním právním diskursu. A stejně jako existuje NEKONEČNO gramaticky správných vět, které lze pronést anglicky, existuje NEKONEČNO regulačních zákonů, které lze formulovat v pojmovém slovníku sociálního a obhájit nekonečnou rozmanitostí konkrétních ospravedlňujících argumentů složených a přeskládaných z politických 'sound bitů' sociálního. Prvky módu myšlení vznikaly po kouscích v různých civilistických a common-law zemích a Kennedy rozlišuje DVA PROCESY: (1) vznik NADNÁRODNÍHO MÓDU MYŠLENÍ, jak juristé kombinují ideje různého původu a vytlačují předchozí nadnárodní mód; (2) GEOGRAFICKÉ ŠÍŘENÍ nadnárodního módu — buď přímým a úplným nahrazením staršího právního režimu novým, jako při koloniální expanzi, nebo 'RECEPCÍ' vznikajícího módu, který se kombinuje s 'domorodými' prvky a zbytkem předchozího módu v NOVOU NÁRODNÍ SYNTÉZU. Podle DIEGA LOPEZ MEDINY lze identifikovat MÍSTA 'PRODUKCE' nového nadnárodního módu proti místům, kde jde jen o recepci s minimálním dialektickým zpětným vlivem. V TOMTO SMYSLU BYLO NĚMECKÉ PRÁVNÍ MYŠLENÍ HEGEMONICKÉ MEZI LETY 1850 A 1900, FRANCOUZSKÉ MEZI ROKEM 1900 A 30. LÉTY A AMERICKÉ PO ROCE 1950.",
-      "terms": [
-        {
-          "term": "langue × parole",
-          "def": "Langue = slovník pojmů a typických argumentů (vědomí). Parole = konkrétní pozitivně uzákoněná pravidla jednotlivých zemí."
-        }
-      ],
+      "title": "Langue and parole — the key to the whole article",
+      "text": "Kennedy uses the Saussurean pair, and without it the article cannot be read. CONSCIOUSNESS, UNDERSTOOD AS A VOCABULARY OF CONCEPTS AND TYPICAL ARGUMENTS, IS THE 'LANGUE' — THE LANGUAGE. THE PARTICULAR, POSITIVELY ENACTED RULES OF INDIVIDUAL COUNTRIES INTO WHICH THE LANGUE WAS GLOBALIZED ARE THE 'PAROLE' — SPEECH. Just as a particular sentence, say 'shut the door', is uttered in a particular language, a legal norm is a binding utterance in a particular legal discourse. And just as there is AN INFINITY of grammatically correct sentences that can be uttered in English, there is AN INFINITY of regulatory statutes that can be formulated in the conceptual vocabulary of the social and defended by an infinite variety of particular justifying arguments composed and recomposed from the political sound bites of the social. The elements of a mode of thought arose piecemeal in various civilian and common law countries, and Kennedy distinguishes TWO PROCESSES: (1) the emergence of a TRANSNATIONAL MODE OF THOUGHT as jurists combine ideas of various origins and displace the preceding transnational mode; (2) the GEOGRAPHICAL DIFFUSION of the transnational mode — either by the direct and complete replacement of an older legal regime by the new one, as in colonial expansion, or by 'RECEPTION' of the emerging mode, which combines with 'indigenous' elements and the residue of the previous mode into A NEW NATIONAL SYNTHESIS. Following DIEGO LOPEZ MEDINA one can identify sites of 'PRODUCTION' of the new transnational mode as against sites where there is mere reception with minimal dialectical feedback. IN THIS SENSE GERMAN LEGAL THOUGHT WAS HEGEMONIC BETWEEN 1850 AND 1900, FRENCH BETWEEN 1900 AND THE 1930s, AND AMERICAN AFTER 1950.",
+      "terms": [{"term": "langue vs parole", "def": "Langue = the vocabulary of concepts and typical arguments (consciousness). Parole = the particular, positively enacted rules of individual countries."}],
       "cards": [
-        {
-          "q": "Co u Kennedyho znamená 'langue' a 'parole'?",
-          "a": "LANGUE = právní vědomí chápané jako SLOVNÍK POJMŮ A TYPICKÝCH ARGUMENTŮ. PAROLE = KONKRÉTNÍ, POZITIVNĚ UZÁKONĚNÁ PRAVIDLA jednotlivých zemí. Stejně jako existuje nekonečno gramaticky správných vět, existuje nekonečno zákonů formulovatelných ve slovníku sociálního — GLOBALIZUJE SE LANGUE, NE PAROLE.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Které právní myšlení bylo hegemonické v kterém období?",
-          "a": "NĚMECKÉ 1850–1900, FRANCOUZSKÉ 1900 až někdy do 30. let, AMERICKÉ po roce 1950. Rozlišuje se přitom místo PRODUKCE nového nadnárodního módu od místa pouhé RECEPCE s minimálním zpětným vlivem (Diego Lopez Medina).",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What do 'langue' and 'parole' mean in Kennedy?", "a": "LANGUE = legal consciousness understood as A VOCABULARY OF CONCEPTS AND TYPICAL ARGUMENTS. PAROLE = THE PARTICULAR, POSITIVELY ENACTED RULES of individual countries. Just as there is an infinity of grammatically correct sentences, there is an infinity of statutes formulable in the vocabulary of the social — WHAT IS GLOBALIZED IS THE LANGUE, NOT THE PAROLE.", "difficulty": 2, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Which legal thought was hegemonic in which period?", "a": "GERMAN 1850–1900, FRENCH from 1900 into the 1930s, AMERICAN after 1950. A distinction is drawn between the site of PRODUCTION of a new transnational mode and the site of mere RECEPTION with minimal feedback (Diego Lopez Medina).", "difficulty": 3, "kind": "cisla", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "6": {
-      "title": "Čtyři heterodoxní tvrzení o americkém právu",
-      "text": "Kennedyho vyprávění je vůči hlavnímu proudu amerických právních dějin ve čtyřech ohledech nesouhlasné. ZAPRVÉ líčí USA AŽ DO 30. LET JAKO KONTEXT PRÁVNÍ RECEPCE, TEDY JAKO SOUČÁST PERIFERIE ČI POLOPERIFERIE: právní vývoj byl silně určen tím, co se dělo v Německu a později ve Francii, a PŮVODNÍ AMERICKÁ SYNTÉZA NA TY ZEMĚ NEMĚLA ŽÁDNÝ VLIV. Tím napadá hlavní tradici, která proměny amerického právního myšlení vysvětluje vnitřním společenským a hospodářským vývojem. ZADRUHÉ zdůrazňuje, DO JAKÉ MÍRY VÝVOJ V RŮZNÝCH OBORECH PRÁVA ZA POSLEDNÍ STOLETÍ SLEDOVAL JEDINÝ VZOREC: dějiny jednotlivých oborů neustále připisují vnitřní dynamice změny, které probíhaly přesně obdobně v jiných oborech, a jsou proto nepřesvědčivé stejně jako národní dějiny, které nedbají nadnárodního pohybu právního myšlení. ZATŘETÍ se odchyluje od módy tím, že POKLÁDÁ PRÁVNÍ REALISMUS ZA KRITICKÉ ZNIČENÍ SOCIOLOGICKÉ JURISPRUDENCE (tedy 'sociálního'), NE ZA JEJÍ 'V PODSTATĚ' PRODLOUŽENÍ. ZAČTVRTÉ jsou v jeho podání povalečné vývoje charakterizovány STEJNĚ TAK NEOFORMALISTICKÝM PRÁVNÍM VĚDOMÍM WARRENOVA SOUDU A NEOLIBERÁLŮ JAKO VĚDOMÍM KONFLIKTNÍCH ÚVAH ŠKOLY LEGAL PROCESS — A OBOJÍ BYLO ODPOVĚDÍ NA ZÁNIK SOCIÁLNÍHO, NE CLT.",
+      "title": "Four heterodox claims about American law",
+      "text": "Kennedy's account dissents from the mainstream of American legal history in four respects. FIRST it portrays the USA UNTIL THE 1930s AS A CONTEXT OF LEGAL RECEPTION, that is AS PART OF THE PERIPHERY OR SEMI-PERIPHERY: legal development was strongly determined by what was happening in Germany and later in France, and THE ORIGINAL AMERICAN SYNTHESIS HAD NO INFLUENCE ON THOSE COUNTRIES. It thereby attacks the main tradition, which explains the transformations of American legal thought by internal social and economic development. SECOND it stresses HOW FAR DEVELOPMENTS IN DIFFERENT FIELDS OF LAW OVER THE LAST CENTURY HAVE FOLLOWED A SINGLE PATTERN: histories of individual fields constantly attribute to an internal dynamic changes that occurred in precisely parallel ways in other fields, and are therefore as unconvincing as national histories that disregard the transnational movement of legal thought. THIRD it departs from fashion by TREATING LEGAL REALISM AS THE CRITICAL DESTRUCTION OF SOCIOLOGICAL JURISPRUDENCE (that is, of 'the social'), NOT AS ITS 'ESSENTIAL' CONTINUATION. FOURTH, on his account the post-war developments are characterised AS MUCH BY THE NEOFORMALIST LEGAL CONSCIOUSNESS OF THE WARREN COURT AND OF THE NEOLIBERALS AS BY THE CONFLICTING-CONSIDERATIONS CONSCIOUSNESS OF THE LEGAL PROCESS SCHOOL — AND BOTH WERE RESPONSES TO THE DEMISE OF THE SOCIAL, NOT OF CLT.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč Kennedy řadí USA do 30. let na periferii?",
-          "a": "Protože jejich právní vývoj byl SILNĚ URČEN tím, co se dělo v NĚMECKU a později ve FRANCII, zatímco PŮVODNÍ AMERICKÁ SYNTÉZA NA TY ZEMĚ NEMĚLA ŽÁDNÝ VLIV. Napadá tím tradici, která proměny amerického práva vysvětluje vnitřním společenským a hospodářským vývojem.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak Kennedy hodnotí právní realismus a na co byly odpovědí povalečné směry?",
-          "a": "Právní realismus pokládá za KRITICKÉ ZNIČENÍ SOCIOLOGICKÉ JURISPRUDENCE (sociálního), NE za její prodloužení. A povalečné vývoje — neoformalismus Warrenova soudu i neoliberálů, i konfliktní úvahy školy Legal Process — BYLY ODPOVĚDÍ NA ZÁNIK SOCIÁLNÍHO, NE CLT.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "Why does Kennedy place the USA on the periphery until the 1930s?", "a": "Because its legal development was STRONGLY DETERMINED by what was happening in GERMANY and later in FRANCE, while THE ORIGINAL AMERICAN SYNTHESIS HAD NO INFLUENCE ON THOSE COUNTRIES. He thereby attacks the tradition that explains American legal change by internal social and economic development.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "How does Kennedy assess legal realism, and what were the post-war movements a response to?", "a": "He treats legal realism as THE CRITICAL DESTRUCTION OF SOCIOLOGICAL JURISPRUDENCE (the social), NOT as its continuation. And the post-war developments — the neoformalism of the Warren Court and of the neoliberals, and the conflicting considerations of the Legal Process school — WERE RESPONSES TO THE DEMISE OF THE SOCIAL, NOT OF CLT.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "7": {
-      "title": "CLT: tři rysy a teorie vůle",
-      "text": "PRVNÍ GLOBALIZACE proběhla ve druhé polovině 19. století a SKONČILA PRVNÍ SVĚTOVOU VÁLKOU. Podle svých sociálních kritiků i podle většiny dnešních historiků viděl hlavní proud konce 19. století právo jako 'SYSTÉM' se silnou vnitřní strukturální koherencí založenou na TŘECH RYSECH: (1) VYČERPÁVAJÍCÍM ROZPRACOVÁNÍ ROZLIŠENÍ MEZI SOUKROMÝM A VEŘEJNÝM PRÁVEM, (2) 'INDIVIDUALISMU' a (3) ODDANOSTI PRÁVNÍMU INTERPRETAČNÍMU FORMALISMU. Ty tři rysy se spojily v 'TEORII VŮLE'. TEORIE VŮLE ZNĚLA, ŽE SOUKROMOPRÁVNÍ PRAVIDLA 'POKROČILÝCH' ZÁPADNÍCH NÁRODNÍCH STÁTŮ SE DAJÍ DOBŘE CHÁPAT JAKO SOUBOR RACIONÁLNÍCH ODVOZENIN Z MYŠLENKY, ŽE VLÁDA MÁ CHRÁNIT PRÁVA PRÁVNÍCH OSOB, COŽ ZNAMENÁ POMÁHAT JIM USKUTEČŇOVAT JEJICH VŮLI, OMEZENOU JEN POTUD, POKUD JE TO NUTNÉ K TOMU, ABY TOTÉŽ MOHLI DRUZÍ. Byl to pokus určit pravidla plynoucí z konsensu ve prospěch cíle individuální seberealizace. NEBYLA TO POLITICKÁ ANI MORÁLNÍ FILOZOFIE ospravedlňující ten cíl; ani pozitivní historická či sociologická teorie o tom, jak se tím cílem stal. BYL TO SPECIFICKÝ, NA VŮLI ZALOŽENÝ A DEDUKTIVNÍ VÝKLAD VZÁJEMNÉHO VZTAHU DESÍTEK ČI STOVEK POMĚRNĚ KONKRÉTNÍCH NOREM existujících národních právních řádů a institucí, které je vytvářely a aplikovaly.",
-      "terms": [
-        {
-          "term": "teorie vůle",
-          "def": "Soukromoprávní pravidla jsou racionální odvozeniny z myšlenky, že vláda má chránit práva osob, tj. pomáhat jim uskutečňovat vůli, omezenou jen tak, aby totéž mohli druzí."
-        }
-      ],
+      "title": "CLT: three features and the will theory",
+      "text": "THE FIRST GLOBALIZATION took place in the second half of the 19th century and ENDED WITH THE FIRST WORLD WAR. On the account of its social critics and of most present-day historians alike, the mainstream of the late 19th century saw law as a 'SYSTEM' with a strong internal structural coherence resting on THREE FEATURES: (1) THE EXHAUSTIVE ELABORATION OF THE DISTINCTION BETWEEN PRIVATE AND PUBLIC LAW, (2) 'INDIVIDUALISM' and (3) A COMMITMENT TO LEGAL INTERPRETIVE FORMALISM. Those three features came together in the 'WILL THEORY'. THE WILL THEORY HELD THAT THE PRIVATE LAW RULES OF THE 'ADVANCED' WESTERN NATION STATES CAN BE WELL UNDERSTOOD AS A SET OF RATIONAL DERIVATIONS FROM THE IDEA THAT GOVERNMENT SHOULD PROTECT THE RIGHTS OF LEGAL PERSONS, THAT IS, HELP THEM TO REALISE THEIR WILLS, RESTRICTED ONLY IN SO FAR AS IS NECESSARY TO ALLOW OTHERS TO DO THE SAME. It was an attempt to identify the rules that follow from a consensus in favour of the goal of individual self-realisation. IT WAS NOT A POLITICAL OR MORAL PHILOSOPHY justifying that goal; nor a positive historical or sociological theory of how it became the goal. IT WAS A SPECIFIC, WILL-BASED AND DEDUCTIVE ACCOUNT OF THE INTERRELATION OF DOZENS OR HUNDREDS OF RELATIVELY CONCRETE NORMS of existing national legal orders and of the institutions that made and applied them.",
+      "terms": [{"term": "the will theory", "def": "Private law rules are rational derivations from the idea that government should protect the rights of persons, that is help them realise their wills, restricted only so far as to allow others to do the same."}],
       "cards": [
-        {
-          "q": "Na jakých třech rysech stojí koherence CLT?",
-          "a": "1) VYČERPÁVAJÍCÍ ROZPRACOVÁNÍ ROZLIŠENÍ SOUKROMÉHO A VEŘEJNÉHO PRÁVA. 2) 'INDIVIDUALISMUS'. 3) ODDANOST PRÁVNÍMU INTERPRETAČNÍMU FORMALISMU. Ty tři se spojují v TEORII VŮLE.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak zní teorie vůle a čím NENÍ?",
-          "a": "Soukromoprávní pravidla pokročilých států jsou SOUBOR RACIONÁLNÍCH ODVOZENIN Z MYŠLENKY, ŽE VLÁDA MÁ CHRÁNIT PRÁVA PRÁVNÍCH OSOB, tedy pomáhat jim USKUTEČŇOVAT VŮLI, omezenou jen potud, aby totéž mohli druzí. NENÍ to politická ani morální filozofie ospravedlňující ten cíl, ani historická či sociologická teorie o jeho vzniku — je to VÝKLAD VZÁJEMNÉHO VZTAHU KONKRÉTNÍCH NOREM.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "On which three features does the coherence of CLT rest?", "a": "1) THE EXHAUSTIVE ELABORATION OF THE DISTINCTION BETWEEN PRIVATE AND PUBLIC LAW. 2) 'INDIVIDUALISM'. 3) A COMMITMENT TO LEGAL INTERPRETIVE FORMALISM. The three come together in the WILL THEORY.", "difficulty": 2, "kind": "znaky", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "How does the will theory run, and what is it not?", "a": "The private law rules of advanced states are A SET OF RATIONAL DERIVATIONS FROM THE IDEA THAT GOVERNMENT SHOULD PROTECT THE RIGHTS OF LEGAL PERSONS, that is help them REALISE THEIR WILLS, restricted only so far as to allow others to do the same. It is NOT a political or moral philosophy justifying that goal, nor a historical or sociological theory of its emergence — it is AN ACCOUNT OF THE INTERRELATION OF CONCRETE NORMS.", "difficulty": 3, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "8": {
-      "title": "Německá historická škola, pandektisté a Savigny",
-      "text": "'Vně' či 'nad' právní teorií bylo pro oddanost individualismu víc odůvodnění, ale JEN TEORIE PŘIROZENÝCH PRÁV BYLA VYSOCE RELEVANTNÍ I 'UVNITŘ', tedy ve vývoji techniky právní analýzy založené na dedukci: teoretici přirozených práv rozpracovávali od 17. století teorii vůle jako soubor implikací ze svých normativních premis, A JEJICH KONKRÉTNÍ PRÁVNÍ TECHNIKA BYLA PŘÍMÝM PŘEDKEM PRÁVNÍHO FORMALISMU, NA KTERÝ SOCIÁLNÍ REFORMÁTOŘI ÚTOČILI V JEHO ZPOZITIVIZOVANÉ PODOBĚ. V 19. století vyvinula NĚMECKÁ HISTORICKÁ ŠKOLA POZITIVISTICKOU VERZI NORMATIVNÍHO FORMALISMU: národní systém práva fakticky odráží normativní řád podložní společnosti; ten řád je koherentní nebo ke koherenci směřuje na základě DUCHA A DĚJIN dotyčného lidu; a 'právní vědci' mohou a mají rozpracovávat pozitivní pravidla tvořící 'systém' na premise jeho VNITŘNÍ KOHERENCE. Němečtí PANDEKTISTÉ (např. WINDSCHEID) pracovali s analýzou základních pojmů německé obecnoprávní verze římského práva — PRÁVO, VŮLE, ZAVINĚNÍ, OSOBA — s cílem prokázat, že ten systém lze učinit VNITŘNĚ KOHERENTNÍM a přiblížit ho BEZMEZEROVITOSTI. MNOHO KONTINENTÁLNÍCH PRÁVNÍCH VĚDCŮ CHÁPALO NĚMECKÝ OBČANSKÝ ZÁKONÍK Z ROKU 1900 JAKO ZÁKONODÁRNÉ PŘIJETÍ TOHOTO SYSTÉMU.",
+      "title": "The German historical school, the pandectists and Savigny",
+      "text": "'Outside' or 'above' legal theory there were more justifications for the commitment to individualism, but ONLY NATURAL RIGHTS THEORY WAS HIGHLY RELEVANT 'INSIDE' AS WELL, that is in the development of a technique of legal analysis based on deduction: from the 17th century the natural rights theorists elaborated the will theory as a set of implications from their normative premises, AND THEIR PARTICULAR LEGAL TECHNIQUE WAS THE DIRECT ANCESTOR OF THE LEGAL FORMALISM THE SOCIAL REFORMERS ATTACKED IN ITS POSITIVISED FORM. In the 19th century the GERMAN HISTORICAL SCHOOL developed A POSITIVIST VERSION OF NORMATIVE FORMALISM: the national system of law in fact reflects the normative order of the underlying society; that order is coherent, or tends towards coherence, on the basis of the SPIRIT AND HISTORY of the people in question; and 'legal scientists' can and should elaborate the positive rules constituting the 'system' on the premise of its INTERNAL COHERENCE. The German PANDECTISTS (WINDSCHEID, for example) worked with the analysis of the fundamental concepts of the German common-law version of Roman law — RIGHT, WILL, FAULT, PERSON — with the aim of showing that the system could be made INTERNALLY COHERENT and brought closer to GAPLESSNESS. MANY CONTINENTAL LEGAL SCIENTISTS UNDERSTOOD THE GERMAN CIVIL CODE OF 1900 AS THE LEGISLATIVE ADOPTION OF THIS SYSTEM.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co dělala německá historická škola s formalismem?",
-          "a": "Vyvinula jeho POZITIVISTICKOU VERZI: národní systém práva fakticky odráží normativní řád společnosti; ten je koherentní na základě DUCHA A DĚJIN daného lidu; a 'právní vědci' mají pozitivní pravidla rozpracovávat na premise VNITŘNÍ KOHERENCE systému.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "S jakými základními pojmy pracovali pandektisté a jak to souvisí s BGB?",
-          "a": "S PRÁVEM, VŮLÍ, ZAVINĚNÍM A OSOBOU v německé obecnoprávní verzi římského práva; cílem bylo prokázat, že systém lze učinit VNITŘNĚ KOHERENTNÍM a přiblížit BEZMEZEROVITOSTI. Mnoho kontinentálních vědců chápalo NĚMECKÝ OBČANSKÝ ZÁKONÍK Z ROKU 1900 jako ZÁKONODÁRNÉ PŘIJETÍ TOHOTO SYSTÉMU.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What did the German historical school do with formalism?", "a": "It developed A POSITIVIST VERSION of it: the national system of law in fact reflects the normative order of society; that order is coherent on the basis of the SPIRIT AND HISTORY of the people concerned; and 'legal scientists' should elaborate the positive rules on the premise of the system's INTERNAL COHERENCE.", "difficulty": 3, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What fundamental concepts did the pandectists work with, and how does that relate to the BGB?", "a": "With RIGHT, WILL, FAULT AND PERSON in the German common-law version of Roman law; the aim was to show that the system could be made INTERNALLY COHERENT and brought closer to GAPLESSNESS. Many continental scientists understood THE GERMAN CIVIL CODE OF 1900 as THE LEGISLATIVE ADOPTION OF THAT SYSTEM.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "9": {
-      "title": "Savignyho paradox a hrdina první globalizace",
-      "text": "HRDINSKOU POSTAVOU PRVNÍ GLOBALIZACE BYL PROFESOR PRÁVA — autor kodexů a jejich zákonných úprav i učebnic — a velkým inspirujícím předchůdcem zakladatel historické školy FRIEDRICH CARL VON SAVIGNY (1779–1861). A tady je ten paradox, který je pravděpodobným zdrojem jeho zásadního významu: SAVIGNY V JEDINÉ MYŠLENCE PRÁVNÍ VĚDY JAKO ROZPRACOVÁNÍ 'SYSTÉMU' SPOJIL UNIVERZALIZUJÍCÍ PRÁVNĚ FORMALISTICKOU TEORII VŮLE S MYŠLENKOU, ŽE KONKRÉTNÍ REŽIMY STÁTNÍHO PRÁVA ODRÁŽEJÍ ROZMANITÉ PODLOŽNÍ MIMOPRÁVNÍ SPOLEČENSKÉ NORMATIVNÍ ŘÁDY. Jeho přístup ostře napadl představu, že všechny národní právní režimy jsou jen lepší či horší přiblížení nábožensky nebo rozumově založenému nadnárodnímu přirozenému právu. MIMO NĚMECKO BYLA HISTORICKÁ ŠKOLA MENŠINOVOU TENDENCÍ, ale totéž pojetí teorie vůle spojující individualismus s deduktivní formou postupně vytlačovalo starší způsoby chápání soukromého práva. AUSTIN byl následovníkem Němců a jeho LECTURES ON JURISPRUDENCE, napsané 1831–2, ale vydané až 1863, byly MANIFESTEM CLT PRO SVĚT COMMON LAW. Normativní čili 'vnější' síla pro tu teorii mohla přijít z UTILITARISMU, z lockovských, kantovských či francouzských revolučních PŘIROZENÝCH PRÁV, nebo z varianty EVOLUCIONISMU (pohyb pokrokových společností byl od smlouvy ke stavu; sociální darwinismus). Ale ať odvozen odkudkoli, NORMATIVNÍ INDIVIDUALISMUS BYL TĚSNĚ SPOJEN S LOGICKOU METODOU VE STAVBĚ NĚJAKÉ VERZE TEORIE VŮLE.",
+      "title": "Savigny's paradox and the hero of the first globalization",
+      "text": "THE HEROIC FIGURE OF THE FIRST GLOBALIZATION WAS THE PROFESSOR OF LAW — the author of codes, of their statutory amendments and of the textbooks — and the great inspiring predecessor was the founder of the historical school FRIEDRICH CARL VON SAVIGNY (1779–1861). And here is the paradox that is the likely source of his fundamental importance: IN THE SINGLE IDEA OF LEGAL SCIENCE AS THE ELABORATION OF A 'SYSTEM', SAVIGNY COMBINED THE UNIVERSALISING, LEGAL-FORMALIST WILL THEORY WITH THE IDEA THAT PARTICULAR REGIMES OF STATE LAW REFLECT DIVERSE UNDERLYING EXTRA-LEGAL SOCIAL NORMATIVE ORDERS. His approach sharply attacked the notion that all national legal regimes are merely better or worse approximations to a religiously or rationally founded transnational natural law. OUTSIDE GERMANY the historical school was a MINORITY TENDENCY, but the same conception of the will theory, joining individualism to deductive form, gradually displaced older ways of understanding private law. AUSTIN was a follower of the Germans, and his LECTURES ON JURISPRUDENCE, written in 1831–2 but published only in 1863, were THE MANIFESTO OF CLT FOR THE COMMON LAW WORLD. The normative or 'external' force for that theory might come from UTILITARIANISM, from Lockean, Kantian or French revolutionary NATURAL RIGHTS, or from a variety of EVOLUTIONISM (the movement of progressive societies was from contract to status; social Darwinism). But wherever it was derived from, NORMATIVE INDIVIDUALISM WAS TIGHTLY BOUND UP WITH THE LOGICAL METHOD IN CONSTRUCTING SOME VERSION OF THE WILL THEORY.",
       "terms": [],
       "cards": [
-        {
-          "q": "V čem spočívá Savignyho paradox?",
-          "a": "Že v JEDINÉ MYŠLENCE právní vědy jako rozpracování 'systému' SPOJIL UNIVERZALIZUJÍCÍ PRÁVNĚ FORMALISTICKOU TEORII VŮLE S MYŠLENKOU, ŽE KONKRÉTNÍ REŽIMY STÁTNÍHO PRÁVA ODRÁŽEJÍ ROZMANITÉ PODLOŽNÍ MIMOPRÁVNÍ NORMATIVNÍ ŘÁDY. To je pravděpodobný zdroj jeho zásadního významu.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Kdo byl hrdinskou postavou první globalizace a co byl manifest CLT pro common law?",
-          "a": "PROFESOR PRÁVA — autor kodexů, jejich zákonných úprav a učebnic. Manifestem CLT pro svět common law byly AUSTINOVY 'LECTURES ON JURISPRUDENCE', napsané 1831–2, ale vydané až 1863; Austin byl následovníkem Němců.",
-          "difficulty": 2,
-          "kind": "cisla",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What is Savigny's paradox?", "a": "That IN A SINGLE IDEA of legal science as the elaboration of a 'system' he COMBINED THE UNIVERSALISING, LEGAL-FORMALIST WILL THEORY WITH THE IDEA THAT PARTICULAR REGIMES OF STATE LAW REFLECT DIVERSE UNDERLYING EXTRA-LEGAL NORMATIVE ORDERS. That is the likely source of his fundamental importance.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Who was the heroic figure of the first globalization, and what was the manifesto of CLT for the common law?", "a": "THE PROFESSOR OF LAW — author of codes, of their statutory amendments and of the textbooks. The manifesto of CLT for the common law world was AUSTIN'S 'LECTURES ON JURISPRUDENCE', written in 1831–2 but published only in 1863; Austin was a follower of the Germans.", "difficulty": 2, "kind": "cisla", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "10": {
-      "title": "Proč se levice i pravice vešly do CLT",
-      "text": "Teorie vůle sloužila v právním diskursu více účelům: vedla vědeckou rekonceptualizaci, reorganizaci a reformu soukromoprávních pravidel v tom, co účastníci chápali jako APOLITICKÝ RACIONALIZAČNÍ PROJEKT. Ale POSKYTOVALA TAKÉ DISKURSIVNÍ RÁMEC PRO ROZHODNUTÍ STOVEK ČI TISÍCŮ PŘÍPADŮ napříč industrializujícím se Západem, VE KTERÝCH SE PRÁCE STŘETLA S KAPITÁLEM A MALÝ PODNIK S VELKÝM. A dodávala abstraktní, zastřešující ideologickou formulaci významu právního státu jako podstatné složky liberálního právního řádu. LEVICOVÉ I PRAVICOVÉ POLITICKÉ PROJEKTY MOHLY V KLASICKÉM PRÁVNÍM MYŠLENÍ V DOBĚ JEHO ROZKVĚTU KOEXISTOVAT, PROTOŽE 'TEORIE VŮLE' BYLA PŘES VŠECHNY SVÉ NÁROKY NA VĚDECKOST VYSOCE MANIPULOVATELNÁ, POKUD ŠLO O TO, CO PŘESNĚ SPADÁ DO KATEGORIÍ PRÁVA A VŮLE — nemluvě o nejednoznačnostech pojmu právní osobnosti v použití na soukromé korporace a odbory. CLT PEVNĚ VYLUČOVALO POUZE HIERARCHICKÝ ORGANICISMUS V MODU MONARCHISMU ČI NEOFEUDALISMU (DeMAISTRE) A LEVICOVÝ KOLEKTIVISMUS V MODU KOMUNISMU ČI UTOPICKÉHO SOCIALISMU (FOURIER). Menšinovým proudem v CLT, ale hlavním proudem laického levicového myšlení konce 19. a počátku 20. století, byly dvě myšlenky: ŽE PRÁVNÍ ŘÁD POSKYTUJE NEDOSTATEČNOU OCHRANU 'PRÁVŮM DĚLNÍKŮ' A ŽE SMLOUVY ZA KAPITALISMU NEPŘEDSTAVUJÍ 'SVOBODNOU VŮLI'. Přes všechno Marxovo hromování proti ní se populistická myšlenka, že problém je ve zkreslení pravidel proti masám a ve prospěch 'zájmů', nikdy nepustila a byla k dispozici feministkám a antikolonialistům před rokem 1914. ZATÍMCO POKROKOVÍ REFORMÁTOŘI V OBDOBÍ SOCIÁLNÍHO RÉTORIKU PRÁV OBECNĚ OPUSTILI, PO DRUHÉ SVĚTOVÉ VÁLCE JI OŽIVILI VE DVOU PODOBÁCH: OBČANSKÉHO LIBERTARIANISMU A IDEOLOGIE MEZINÁRODNÍCH LIDSKÝCH PRÁV.",
+      "title": "Why both left and right fitted inside CLT",
+      "text": "The will theory served several purposes in legal discourse: it guided the scientific reconceptualisation, reorganisation and reform of private law rules in what the participants understood as AN APOLITICAL RATIONALISING PROJECT. But IT ALSO PROVIDED THE DISCURSIVE FRAME FOR THE DECISION OF HUNDREDS OR THOUSANDS OF CASES across the industrialising West IN WHICH LABOUR CLASHED WITH CAPITAL AND SMALL BUSINESS WITH LARGE. And it supplied an abstract, overarching ideological formulation of the meaning of the rule of law as an essential component of a liberal legal order. LEFT-WING AND RIGHT-WING POLITICAL PROJECTS COULD COEXIST WITHIN CLASSICAL LEGAL THOUGHT IN ITS HEYDAY BECAUSE THE 'WILL THEORY' WAS, FOR ALL ITS CLAIMS TO SCIENTIFICITY, HIGHLY MANIPULABLE AS TO WHAT EXACTLY FALLS WITHIN THE CATEGORIES OF RIGHT AND WILL — not to mention the ambiguities of the concept of legal personality as applied to private corporations and trade unions. CLT FIRMLY EXCLUDED ONLY HIERARCHICAL ORGANICISM IN THE MODE OF MONARCHISM OR NEO-FEUDALISM (DeMAISTRE) AND LEFT COLLECTIVISM IN THE MODE OF COMMUNISM OR UTOPIAN SOCIALISM (FOURIER). A minority current within CLT, but the mainstream of lay left thinking in the late 19th and early 20th century, were two ideas: THAT THE LEGAL ORDER PROVIDES INADEQUATE PROTECTION FOR 'WORKERS' RIGHTS' AND THAT CONTRACTS UNDER CAPITALISM DO NOT REPRESENT 'FREE WILL'. For all Marx's thundering against it, the populist idea that the problem lies in the skewing of the rules against the masses and in favour of 'the interests' never let go and was available to feminists and anti-colonialists before 1914. WHILE PROGRESSIVE REFORMERS IN THE PERIOD OF THE SOCIAL GENERALLY ABANDONED THE RHETORIC OF RIGHTS, AFTER THE SECOND WORLD WAR THEY REVIVED IT IN TWO FORMS: CIVIL LIBERTARIANISM AND THE IDEOLOGY OF INTERNATIONAL HUMAN RIGHTS.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč mohly levicové i pravicové projekty koexistovat uvnitř CLT?",
-          "a": "Protože TEORIE VŮLE BYLA PŘES VŠECHNY NÁROKY NA VĚDECKOST VYSOCE MANIPULOVATELNÁ v tom, co přesně spadá do kategorií PRÁVA a VŮLE (a co je právní osobnost — korporace, odbory). CLT pevně vylučovalo jen HIERARCHICKÝ ORGANICISMUS (DeMaistre) a LEVICOVÝ KOLEKTIVISMUS (Fourier).",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Co se stalo s rétorikou práv mezi CLT a poválečným obdobím?",
-          "a": "Menšinovým proudem CLT byly myšlenky, že právní řád nedostatečně chrání 'práva dělníků' a že smlouvy za kapitalismu nejsou 'svobodnou vůlí'. POKROKOVÍ REFORMÁTOŘI RÉTORIKU PRÁV V OBDOBÍ SOCIÁLNÍHO OPUSTILI — a PO DRUHÉ SVĚTOVÉ VÁLCE JI OŽIVILI ve dvou podobách: OBČANSKÉHO LIBERTARIANISMU a IDEOLOGIE MEZINÁRODNÍCH LIDSKÝCH PRÁV.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak se CLT proměnilo během 20. století?",
-          "a": "Většina juristické elity, která ho vyvinula a šířila, byla KONZERVATIVNÍ, a hlavní ideje první globalizace se během 20. století proměnily Z 'VĚDOMÍ', uvnitř kterého bylo možné množství politických projektů, V 'IDEOLOGII' — klasický liberalismus a pak NEOLIBERALISMUS, jeden ze dvou ústředních politickoteoretických projektů moderní pravice (tím druhým je 'tradice').",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "Why could left-wing and right-wing projects coexist within CLT?", "a": "Because THE WILL THEORY WAS, FOR ALL ITS CLAIMS TO SCIENTIFICITY, HIGHLY MANIPULABLE as to what exactly falls within the categories of RIGHT and WILL (and what legal personality is — corporations, trade unions). CLT firmly excluded only HIERARCHICAL ORGANICISM (DeMaistre) and LEFT COLLECTIVISM (Fourier).", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What happened to the rhetoric of rights between CLT and the post-war period?", "a": "A minority current of CLT held that the legal order inadequately protects 'workers' rights' and that contracts under capitalism are not 'free will'. PROGRESSIVE REFORMERS ABANDONED THE RHETORIC OF RIGHTS IN THE PERIOD OF THE SOCIAL — and AFTER THE SECOND WORLD WAR REVIVED IT in two forms: CIVIL LIBERTARIANISM and THE IDEOLOGY OF INTERNATIONAL HUMAN RIGHTS.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "How did CLT change over the course of the 20th century?", "a": "Most of the juristic elite that developed and diffused it was CONSERVATIVE, and the main ideas of the first globalization changed during the 20th century FROM A 'CONSCIOUSNESS', within which a multitude of political projects was possible, INTO AN 'IDEOLOGY' — classical liberalism and then NEOLIBERALISM, one of the two central politico-theoretical projects of the modern right (the other being 'tradition').", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "11": {
-      "title": "Jak se CLT šířilo: vliv, imperialismus a nucené otevření",
-      "text": "Mechanismem první globalizace byla KOMBINACE VLIVU UVNITŘ SYSTÉMU AUTONOMNÍCH ZÁPADNÍCH NÁRODNÍCH STÁTŮ A IMPERIALISMU ŠIROCE POJATÉHO. NĚMECKÝ MODEL SE ROZŠÍŘIL NEJEN DO FRANCIE, ALE NAPŘÍČ EVROPOU (západní i východní), PŘES KANÁL A DO USA A LATINSKÉ AMERIKY. USA a britské kolonie, stejně jako sama Británie, PŘEVZALY NĚMECKOU PRÁVNÍ VĚDU A OBROVSKÉ POČTY ZÁKONŮ, ALE VZDOROVALY KODIFIKACI. Bývalé španělské kolonie byly víc ovlivněny Francií a KODIFIKOVALY. Angličané, Francouzi a Nizozemci a později Němci, Američané a Belgičané šířili své národní verze CLT PŘÍMO DO SVÝCH KOLONIÍ, s kodifikací i bez ní (Portugalci a Španělé totéž ve zbytcích svých upadajících říší). VELMOCI VYNUTILY 'OTEVŘENÍ' ZÁPADNÍMU PRÁVU JAKO POVINNÝ ASPEKT OTEVŘENÍ ZÁPADNÍMU OBCHODU NA STÁTECH, KTERÉ NEBYLY PŘÍMO KOLONIZOVÁNY — NA OSMANSKÉ ŘÍŠI, JAPONSKU, ČÍNĚ, THAJSKU, EGYPTĚ A ÍRÁNU. Ty někdy přijaly kodexy po evropském vzoru a někdy se podvolily zřízení ZVLÁŠTNÍCH SOUDŮ APLIKUJÍCÍCH EVROPSKÉ PRÁVO V TRANSAKCÍCH S EVROPANY. Subtilnější mód globalizace CLT byl implicitní v konečné univerzalizaci JEDINÉHO KLASICKÉHO SYSTÉMU MEZINÁRODNÍHO PRÁVA VEŘEJNÉHO, vymyšleného západními velmocemi a založeného na pojmových inovacích přirozenoprávních teoretiků 17. století: SUVERENITA JAKO ÚZEMNÍ (NE OSOBNÍ) MOC, ABSOLUTNÍ VE SVÉ SFÉŘE. V CLT byl model 'NÁRODNÍ STÁT A KOLONIE' univerzální až na anachronismy a HETEROGENNÍ SMĚSICE STRUKTUR VLÁDNUTÍ SVĚTA ROKU 1800 BYLA UŽ JEN VZPOMÍNKOU. A konečně vzniklo PRVNÍ GLOBÁLNÍ SOUSTAVA MEZINÁRODNÍHO HOSPODÁŘSKÉHO PRÁVA založená na VOLNÉM OBCHODU, ZLATÉM STANDARDU A MEZINÁRODNÍM PRÁVU SOUKROMÉM (často aplikovaném rozhodci): PENÍZE BYLY DEPOLITIZOVÁNY a vznikl mezinárodní kapitálový trh s doprovodnou DĚLOVOU DIPLOMACIÍ.",
+      "title": "How CLT spread: influence, imperialism and forced opening",
+      "text": "The mechanism of the first globalization was A COMBINATION OF INFLUENCE WITHIN THE SYSTEM OF AUTONOMOUS WESTERN NATION STATES AND IMPERIALISM BROADLY CONCEIVED. THE GERMAN MODEL SPREAD NOT ONLY TO FRANCE BUT ACROSS EUROPE (western and eastern), ACROSS THE CHANNEL AND TO THE USA AND LATIN AMERICA. The USA and the British colonies, like Britain itself, ADOPTED GERMAN LEGAL SCIENCE AND ENORMOUS NUMBERS OF STATUTES BUT RESISTED CODIFICATION. The former Spanish colonies were more influenced by France and DID CODIFY. The English, French and Dutch, and later the Germans, Americans and Belgians, spread their national versions of CLT DIRECTLY INTO THEIR COLONIES, with codification or without (the Portuguese and Spanish doing the same in the remnants of their declining empires). THE GREAT POWERS FORCED AN 'OPENING' TO WESTERN LAW AS A COMPULSORY ASPECT OF THE OPENING TO WESTERN TRADE ON STATES THAT WERE NOT DIRECTLY COLONISED — ON THE OTTOMAN EMPIRE, JAPAN, CHINA, THAILAND, EGYPT AND IRAN. These sometimes adopted codes on European models and sometimes submitted to the establishment of SPECIAL COURTS APPLYING EUROPEAN LAW IN TRANSACTIONS WITH EUROPEANS. A subtler mode of CLT's globalization was implicit in the eventual universalisation of A SINGLE CLASSICAL SYSTEM OF PUBLIC INTERNATIONAL LAW, devised by the Western powers and founded on the conceptual innovations of the 17th-century natural lawyers: SOVEREIGNTY AS TERRITORIAL (NOT PERSONAL) POWER, ABSOLUTE WITHIN ITS SPHERE. In CLT the model of 'NATION STATE AND COLONY' was universal but for anachronisms, and THE HETEROGENEOUS MIX OF STRUCTURES OF GOVERNANCE OF THE WORLD OF 1800 WAS NOW ONLY A MEMORY. And finally there arose THE FIRST GLOBAL SYSTEM OF INTERNATIONAL ECONOMIC LAW founded on FREE TRADE, THE GOLD STANDARD AND PRIVATE INTERNATIONAL LAW (often applied by arbitrators): MONEY WAS DEPOLITICISED and an international capital market arose with its accompanying GUNBOAT DIPLOMACY.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak přesně se CLT dostalo do zemí, které nebyly kolonizovány?",
-          "a": "VELMOCI VYNUTILY 'OTEVŘENÍ' ZÁPADNÍMU PRÁVU JAKO POVINNÝ ASPEKT OTEVŘENÍ ZÁPADNÍMU OBCHODU — na OSMANSKÉ ŘÍŠI, JAPONSKU, ČÍNĚ, THAJSKU, EGYPTĚ A ÍRÁNU. Ty buď přijaly kodexy po evropském vzoru, nebo se podvolily ZVLÁŠTNÍM SOUDŮM APLIKUJÍCÍM EVROPSKÉ PRÁVO v transakcích s Evropany.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak se lišil příjem CLT v anglosaském a v latinskoamerickém světě?",
-          "a": "USA, britské kolonie i Británie PŘEVZALY NĚMECKOU PRÁVNÍ VĚDU A OBROVSKÉ POČTY ZÁKONŮ, ALE VZDOROVALY KODIFIKACI. Bývalé španělské kolonie byly víc ovlivněny FRANCIÍ a KODIFIKOVALY.",
-          "difficulty": 2,
-          "kind": "srovnani",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Na čem stála první globální soustava mezinárodního hospodářského práva?",
-          "a": "Na VOLNÉM OBCHODU, ZLATÉM STANDARDU A MEZINÁRODNÍM PRÁVU SOUKROMÉM (často aplikovaném rozhodci). PENÍZE BYLY DEPOLITIZOVÁNY a vznikl mezinárodní kapitálový trh s doprovodnou DĚLOVOU DIPLOMACIÍ.",
-          "difficulty": 2,
-          "kind": "znaky",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How exactly did CLT reach countries that were not colonised?", "a": "THE GREAT POWERS FORCED AN 'OPENING' TO WESTERN LAW AS A COMPULSORY ASPECT OF THE OPENING TO WESTERN TRADE — on the OTTOMAN EMPIRE, JAPAN, CHINA, THAILAND, EGYPT AND IRAN. These either adopted codes on European models or submitted to SPECIAL COURTS APPLYING EUROPEAN LAW in transactions with Europeans.", "difficulty": 3, "kind": "pripad", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "How did the reception of CLT differ in the Anglo-Saxon and the Latin American worlds?", "a": "The USA, the British colonies and Britain ADOPTED GERMAN LEGAL SCIENCE AND ENORMOUS NUMBERS OF STATUTES BUT RESISTED CODIFICATION. The former Spanish colonies were more influenced by FRANCE and DID CODIFY.", "difficulty": 2, "kind": "srovnani", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What did the first global system of international economic law rest on?", "a": "On FREE TRADE, THE GOLD STANDARD AND PRIVATE INTERNATIONAL LAW (often applied by arbitrators). MONEY WAS DEPOLITICISED and an international capital market arose, with its accompanying GUNBOAT DIPLOMACY.", "difficulty": 2, "kind": "znaky", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "12": {
-      "title": "Proč to elity periferie přijaly — výběr, ne jen vnucení",
-      "text": "Při přímé kolonizaci nebyl zprvu žádný účinný odpor proti tomu, co si kolonizátor vybral vnutit. ALE V ZÁPADNÍ I VÝCHODNÍ EVROPĚ A V SEVERNÍ I JIŽNÍ AMERICE MUSELO CLT ELITY NEZÁVISLÝCH NÁRODNÍCH STÁTŮ TEPRVE ZÍSKAT. V osmanských zemích a napříč Asií šlo o 'OTEVŘENÍ', ne přímé dobytí, a existovaly tam VYSOCE ROZVINUTÉ PŘEDCHOZÍ MÓDY PRÁVNÍHO VĚDOMÍ (islámský, hinduistický, konfuciánský, šintoistický), které měly aspoň šanci vzdorovat nebo se proměnit v místní konkurenty. Příkladem je MAJALLA, OSMANSKÁ KODIFIKACE ISLÁMSKÉHO HANAFIJSKÉHO PRÁVA ZÁVAZKŮ Z LET 1869–76, vážný periferní pokus přizpůsobit evropskou právní formu kodifikace islámské substanci. NĚCO, CO SE ASPOŇ PODOBÁ 'VÝBĚRU', BYLO VEDLE 'VNUCENÍ' PRAVDĚPODOBNĚ FAKTOREM ÚSPĚCHU CLT — jinými slovy CLT mělo pro elity, které si ho zvolily, nejspíš JISTOU VNITŘNÍ PŘITAŽLIVOST. CLT totiž nahradilo starší západní nadnárodní mód, který tvrdil existenci UNIVERZÁLNÍHO PRÁVA ROZUMU (katolického nebo na přirozených právech založeného) A OSTRÉ PRÁVNÍ ROZLIŠENÍ MEZI CIVILIZOVANÝMI (účastníky ius gentium) A BARBARSKÝMI NÁRODY. CLT nabídlo právním elitám periferních, nově vzniklých států Evropy, Severní a Jižní Ameriky a Asie něco aspoň povrchně přitažlivějšího: MOHLY SE ZTOTOŽNIT SE SVÝMI 'LIDY' A OSTŘE SE DISOCIOVAT — byly-li anglické, ruské, argentinské, egyptské či japonské — OD NĚMCŮ A FRANCOUZŮ. Mohly nasadit evropskou historistickou právní teorii NA OBRANU PROTI EVROPSKÉ PRÁVNÍ HEGEMONII: jen latinskoameričtí juristé mohli 'vlastnit' latinskoamerické právo odrážející KREOLSKÉ VĚDOMÍ, japonské právo mělo odrážet 'DUCHA' japonského lidu.",
+      "title": "Why the peripheral elites accepted it — choice, not only imposition",
+      "text": "Under direct colonisation there was at first no effective resistance to whatever the coloniser chose to impose. BUT IN WESTERN AND EASTERN EUROPE AND IN NORTH AND SOUTH AMERICA, CLT HAD FIRST TO WIN OVER THE ELITES OF INDEPENDENT NATION STATES. In the Ottoman lands and across Asia it was a matter of 'OPENING', not direct conquest, and there existed HIGHLY DEVELOPED PRIOR MODES OF LEGAL CONSCIOUSNESS (Islamic, Hindu, Confucian, Shinto) which had at least a chance of resisting or of transforming themselves into local competitors. An example is the MAJALLA, THE OTTOMAN CODIFICATION OF ISLAMIC HANAFI LAW OF OBLIGATIONS OF 1869–76, a serious peripheral attempt to adapt the European legal form of codification to Islamic substance. SOMETHING AT LEAST RESEMBLING 'CHOICE' WAS PROBABLY, ALONGSIDE 'IMPOSITION', A FACTOR IN CLT'S SUCCESS — in other words CLT probably had A CERTAIN INTRINSIC APPEAL for the elites that chose it. For CLT displaced an older Western transnational mode which asserted the existence of A UNIVERSAL LAW OF REASON (Catholic or natural-rights based) AND A SHARP LEGAL DISTINCTION BETWEEN CIVILISED (participants in ius gentium) AND BARBAROUS NATIONS. CLT offered the legal elites of the peripheral, newly created states of Europe, North and South America and Asia something at least superficially more attractive: THEY COULD IDENTIFY WITH THEIR OWN 'PEOPLES' AND SHARPLY DISSOCIATE THEMSELVES — being English, Russian, Argentinian, Egyptian or Japanese — FROM THE GERMANS AND THE FRENCH. They could deploy European historicist legal theory IN DEFENCE AGAINST EUROPEAN LEGAL HEGEMONY: only Latin American jurists could 'own' a Latin American law reflecting a CREOLE CONSCIOUSNESS, and Japanese law was to reflect the 'SPIRIT' of the Japanese people.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co byla Majalla a co dokládá?",
-          "a": "OSMANSKÁ KODIFIKACE ISLÁMSKÉHO HANAFIJSKÉHO PRÁVA ZÁVAZKŮ Z LET 1869–76 — vážný periferní pokus PŘIZPŮSOBIT EVROPSKOU PRÁVNÍ FORMU KODIFIKACE ISLÁMSKÉ SUBSTANCI. Dokládá, že vedle 'vnucení' hrál roli i 'VÝBĚR': CLT mělo pro elity jistou vnitřní přitažlivost.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Co CLT nabídlo elitám periferie proti staršímu západnímu módu?",
-          "a": "Starší mód tvrdil UNIVERZÁLNÍ PRÁVO ROZUMU a OSTRÉ ROZLIŠENÍ MEZI CIVILIZOVANÝMI A BARBARSKÝMI NÁRODY. CLT jim dovolilo ZTOTOŽNIT SE SE SVÝMI 'LIDY' a ostře se DISOCIOVAT od Němců a Francouzů — a NASADIT EVROPSKOU HISTORISTICKOU TEORII NA OBRANU PROTI EVROPSKÉ PRÁVNÍ HEGEMONII (kreolské vědomí, 'duch' japonského lidu).",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What was the Majalla and what does it demonstrate?", "a": "THE OTTOMAN CODIFICATION OF ISLAMIC HANAFI LAW OF OBLIGATIONS OF 1869–76 — a serious peripheral attempt to ADAPT THE EUROPEAN LEGAL FORM OF CODIFICATION TO ISLAMIC SUBSTANCE. It demonstrates that alongside 'imposition' 'CHOICE' played a part: CLT had a certain intrinsic appeal for the elites.", "difficulty": 3, "kind": "pripad", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What did CLT offer peripheral elites in place of the older Western mode?", "a": "The older mode asserted A UNIVERSAL LAW OF REASON and A SHARP DISTINCTION BETWEEN CIVILISED AND BARBAROUS NATIONS. CLT allowed them to IDENTIFY WITH THEIR OWN 'PEOPLES' and sharply DISSOCIATE themselves from the Germans and the French — and TO DEPLOY EUROPEAN HISTORICIST THEORY IN DEFENCE AGAINST EUROPEAN LEGAL HEGEMONY (creole consciousness, the 'spirit' of the Japanese people).", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "13": {
-      "title": "Druhá strana rozporné struktury: ius gentium",
-      "text": "Na druhé straně té rozporné struktury CLT tvrdilo, že KAŽDÁ ZEMĚ SE ZÁPADNÍM PRÁVNÍM DĚDICTVÍM SDÍLÍ ŘÍMSKÉ DĚDICTVÍ SPOLU SE SAVIGNYHO NĚMCI — VČETNĚ NAPŘÍKLAD NOVĚ NEZÁVISLÝCH BULHARŮ (1878/1908) A BOLIVIJCŮ (1825) — A ŽE KAŽDÝ NÁROD ÚČASTNÍCÍ SE GLOBÁLNÍHO ŘÁDU OBCHODU A FINANCÍ SE ÚČASTNÍ IUS GENTIUM. Vedle partikularistické představy, že každý lid má vlastní jedinečný normativní řád, tak mohli juristé roztroušení po periferii nezávislých národů a modernizujících se říší potvrdit svou účast na rozvíjejících se vědách právního závazku a mezinárodního práva — založených na analytice vůle, práva a suverenity, která NEMĚLA ŽÁDNOU ZJEVNOU NÁRODNÍ ZVLÁŠTNOST. Mohli vyvíjet vlastní mírně upravené národní verze občanských a obchodních zákoníků obchodně, finančně a vojensky dominantních evropských mocností a tím USNADŇOVAT INTEGRACI DO SVĚTOVÉHO TRHU, ANIŽ BY SE VIDĚLI JAKO ZRÁDCI SVÝCH NÁRODNÍCH KONSTITUENCÍ. A mohli jako juristé pracovat pro zájmy svých národů uvnitř struktury mezinárodního práva NASAZENÍM NOREM SUVERÉNNÍ ROVNOSTI A AUTONOMIE PROTI VELMOCEM. Doma byl univerzální, nadnárodní prvek v CLT základem NÁROKU NA MOC JAKO ZPROSTŘEDKOVATELŮ ÚČASTI PERIFERIE V NORMATIVNÍM ŘÁDU I KULTUŘE METROPOLÍ.",
+      "title": "The other side of the contradictory structure: ius gentium",
+      "text": "On the other side of that contradictory structure, CLT asserted that EVERY COUNTRY WITH A WESTERN LEGAL HERITAGE SHARES THE ROMAN INHERITANCE ALONG WITH SAVIGNY'S GERMANS — INCLUDING, FOR INSTANCE, THE NEWLY INDEPENDENT BULGARIANS (1878/1908) AND BOLIVIANS (1825) — AND THAT EVERY NATION PARTICIPATING IN THE GLOBAL ORDER OF TRADE AND FINANCE PARTICIPATES IN THE IUS GENTIUM. Alongside the particularist notion that each people has its own unique normative order, jurists scattered across the periphery of independent nations and modernising empires could thus affirm their participation in the developing sciences of the law of obligations and of international law — founded on an analytics of will, right and sovereignty that HAD NO OBVIOUS NATIONAL PARTICULARITY. They could develop their own slightly modified national versions of the civil and commercial codes of the commercially, financially and militarily dominant European powers and thereby FACILITATE INTEGRATION INTO THE WORLD MARKET WITHOUT SEEING THEMSELVES AS TRAITORS TO THEIR NATIONAL CONSTITUENCIES. And they could work as jurists for their nations' interests within the structure of international law BY DEPLOYING THE NORMS OF SOVEREIGN EQUALITY AND AUTONOMY AGAINST THE GREAT POWERS. At home, the universal, transnational element in CLT was the basis of THEIR CLAIM TO POWER AS MEDIATORS OF THE PERIPHERY'S PARTICIPATION IN THE NORMATIVE ORDER AND THE CULTURE OF THE METROPOLES.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak CLT umožnilo juristům periferie být zároveň nacionalisty a modernizátory?",
-          "a": "Partikularisticky: každý lid má vlastní jedinečný normativní řád. A UNIVERZALISTICKY: každá země se západním dědictvím sdílí ŘÍMSKÉ DĚDICTVÍ a každý národ v globálním obchodu se účastní IUS GENTIUM. Mohli tak vyvíjet upravené verze evropských zákoníků, USNADŇOVAT INTEGRACI DO SVĚTOVÉHO TRHU A NEVIDĚT SE JAKO ZRÁDCI — a zároveň nasazovat normy SUVERÉNNÍ ROVNOSTI proti velmocem.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Co byl doma zdrojem moci juristů periferie?",
-          "a": "UNIVERZÁLNÍ, NADNÁRODNÍ PRVEK V CLT — byl základem jejich NÁROKU NA MOC JAKO ZPROSTŘEDKOVATELŮ ÚČASTI PERIFERIE V NORMATIVNÍM ŘÁDU I KULTUŘE METROPOLÍ.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How did CLT allow peripheral jurists to be nationalists and modernisers at once?", "a": "Particularistically: each people has its own unique normative order. And UNIVERSALISTICALLY: every country with a Western heritage shares the ROMAN INHERITANCE and every nation in global trade participates in the IUS GENTIUM. They could thus develop modified versions of the European codes, FACILITATE INTEGRATION INTO THE WORLD MARKET AND NOT SEE THEMSELVES AS TRAITORS — while deploying the norms of SOVEREIGN EQUALITY against the great powers.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What was the source of the peripheral jurists' power at home?", "a": "THE UNIVERSAL, TRANSNATIONAL ELEMENT IN CLT — it was the basis of THEIR CLAIM TO POWER AS MEDIATORS OF THE PERIPHERY'S PARTICIPATION IN THE NORMATIVE ORDER AND THE CULTURE OF THE METROPOLES.", "difficulty": 3, "kind": "basic", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "14": {
-      "title": "Tři rozlišení, která recepci usnadnila",
-      "text": "Kennedy jmenuje TŘI DALŠÍ STRUKTURNÍ RYSY CLT, které mohly usnadnit jeho přijetí nejdřív napříč Evropou a pak napříč neevropskou periferií: (1) ROZLIŠENÍ MEZI 'SUBJEKTY' VNITROSTÁTNÍHO A MEZINÁRODNÍHO PRÁVA; (2) ROZLIŠENÍ MEZI VEŘEJNÝM A SOUKROMÝM PRÁVEM; (3) ROZLIŠENÍ MEZI PRÁVEM TRHU A PRÁVEM DOMÁCNOSTI. K PRVNÍMU: subjekty vnitrostátního práva zahrnují 'osoby', ale SUBJEKTY MEZINÁRODNÍHO PRÁVA BYLI V CLT POUZE 'SUVERÉNI'. OBČANÉ JAKO OBČANÉ NEMĚLI PODLE MEZINÁRODNÍHO PRÁVA ŽÁDNÁ PRÁVA — a neměli-li žádná práva, PAK SUVERÉNI, A ZVLÁŠŤ MOCNÍ SUVERÉNI, NEMĚLI ŽÁDNÝ PRÁVNÍ ZÁKLAD ZASAHOVAT DO TOHO, JAK NEZÁVISLÉ STÁTY ZACHÁZEJÍ SE SVÝMI OBČANY. BYLA TO GLOBALIZACE PRÁVNÍHO VĚDOMÍ, JEHOŽ ZÁKLADNÍM STRUKTURNÍM RYSEM BYLO, ŽE JURISDIKCE NESMÍ BÝT GLOBÁLNÍ. Přijímající byly právní elity roztroušené po světě, těsně propojené s politickými a hospodářskými elitami svých zemí, byť ne všude s nimi totožné. PŘIJETÍ CLT DOVOLOVALO GESTO POZORUHODNÉHO KOSMOPOLITISMU BEZ JAKÉKOLI OBĚTI MÍSTNÍ AUTONOMIE. KE DRUHÉMU: v CLT všichni chápali — a juristé to často výslovně tvrdili — ŽE SOUKROMÉ PRÁVO JE JÁDREM PRÁVA. To odlišovalo nejen mezinárodní právo, ale i právo veřejné jako NIKOLI SOUČÁST JÁDRA. Veřejné právo (trestní, správní, ústavní) bylo MÉNĚ VĚDECKÉ A VÍC POLITICKÉ: trestní právo přímo odráželo normativní řád prostého lidu; správní právo bylo právem suveréna, jehož právní autonomie byla vlastně inherentně neomezená; ústavní právo tvořil lid či konstituující řády občanské společnosti jako koneční právní autoři. DŮSLEDEK, KTERÝ JE TŘEBA VIDĚT: VĚDA JURISTU NIJAK NEZAVAZOVALA V OTÁZCE MÍSTNÍ DIKTATURY ČI OLIGARCHICKÉ VLÁDY VELKÝCH POZEMKOVÝCH VLASTNÍKŮ. Zároveň bylo veřejné právo přese všechno pořád 'PRÁVEM', takže jurista mohl, chtěl-li riskovat, nasadit prestiž Práva ve prospěch jednoho nebo druhého výsledku V OKAMŽIKU PUČE — a rozhodně měl mít na starost psaní nové ústavy, když ji nový režim potřeboval.",
+      "title": "Three distinctions that eased the reception",
+      "text": "Kennedy names THREE FURTHER STRUCTURAL FEATURES OF CLT that may have eased its acceptance first across Europe and then across the non-European periphery: (1) THE DISTINCTION BETWEEN THE 'SUBJECTS' OF DOMESTIC AND OF INTERNATIONAL LAW; (2) THE DISTINCTION BETWEEN PUBLIC AND PRIVATE LAW; (3) THE DISTINCTION BETWEEN THE LAW OF THE MARKET AND THE LAW OF THE HOUSEHOLD. AS TO THE FIRST: the subjects of domestic law include 'persons', but THE SUBJECTS OF INTERNATIONAL LAW IN CLT WERE ONLY 'SOVEREIGNS'. CITIZENS AS CITIZENS HAD NO RIGHTS UNDER INTERNATIONAL LAW — and if they had no rights, THEN SOVEREIGNS, AND ESPECIALLY POWERFUL SOVEREIGNS, HAD NO LEGAL BASIS FOR INTERFERING IN HOW INDEPENDENT STATES TREAT THEIR OWN CITIZENS. IT WAS A GLOBALIZATION OF A LEGAL CONSCIOUSNESS WHOSE BASIC STRUCTURAL FEATURE WAS THAT JURISDICTION MUST NOT BE GLOBAL. The recipients were legal elites scattered around the world, closely linked to the political and economic elites of their countries though not everywhere identical with them. ADOPTING CLT PERMITTED A GESTURE OF REMARKABLE COSMOPOLITANISM WITHOUT ANY SACRIFICE OF LOCAL AUTONOMY. AS TO THE SECOND: in CLT everyone understood — and jurists often asserted expressly — THAT PRIVATE LAW IS THE CORE OF LAW. That set apart not only international law but public law as well as NOT PART OF THE CORE. Public law (criminal, administrative, constitutional) was LESS SCIENTIFIC AND MORE POLITICAL: criminal law directly reflected the normative order of the common people; administrative law was the law of the sovereign, whose legal autonomy was in effect inherently unlimited; constitutional law was made by the people or the constituting orders of civil society as ultimate legal authors. THE CONSEQUENCE TO SEE: SCIENCE COMMITTED THE JURIST TO NOTHING WHATEVER ON THE QUESTION OF LOCAL DICTATORSHIP OR OLIGARCHIC RULE BY GREAT LANDOWNERS. At the same time public law was still, for all that, 'LAW', so the jurist could, if he cared to take the risk, deploy the prestige of Law in favour of one outcome or the other AT THE MOMENT OF A COUP — and he was certainly to be in charge of writing the new constitution when a new regime needed one.",
       "terms": [],
       "cards": [
-        {
-          "q": "Kdo byl v CLT subjektem mezinárodního práva a jaký to mělo důsledek?",
-          "a": "POUZE SUVERÉNI. Občané jako občané neměli podle mezinárodního práva ŽÁDNÁ PRÁVA — a tedy SUVERÉNI NEMĚLI ŽÁDNÝ PRÁVNÍ ZÁKLAD ZASAHOVAT DO TOHO, JAK JINÉ STÁTY ZACHÁZEJÍ SE SVÝMI OBČANY. Bylo to vědomí, jehož základním rysem bylo, ŽE JURISDIKCE NESMÍ BÝT GLOBÁLNÍ — a přijetí CLT tak dovolovalo GESTO KOSMOPOLITISMU BEZ JAKÉKOLI OBĚTI MÍSTNÍ AUTONOMIE.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Proč bylo veřejné právo v CLT mimo jádro a co z toho plynulo politicky?",
-          "a": "Bylo MÉNĚ VĚDECKÉ A VÍC POLITICKÉ: trestní právo odráželo normativní řád prostého lidu, správní bylo právem suveréna s inherentně neomezenou autonomií, ústavní tvořil lid jako konečný autor. Důsledek: VĚDA JURISTU NIJAK NEZAVAZOVALA V OTÁZCE MÍSTNÍ DIKTATURY ČI OLIGARCHICKÉ VLÁDY VELKÝCH POZEMKOVÝCH VLASTNÍKŮ.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "Who was the subject of international law in CLT, and what followed from that?", "a": "ONLY SOVEREIGNS. Citizens as citizens had NO RIGHTS under international law — and hence SOVEREIGNS HAD NO LEGAL BASIS FOR INTERFERING IN HOW OTHER STATES TREAT THEIR CITIZENS. It was a consciousness whose basic feature was THAT JURISDICTION MUST NOT BE GLOBAL — and adopting CLT thus permitted A GESTURE OF COSMOPOLITANISM WITHOUT ANY SACRIFICE OF LOCAL AUTONOMY.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Why was public law outside the core of CLT, and what followed politically?", "a": "It was LESS SCIENTIFIC AND MORE POLITICAL: criminal law reflected the normative order of the common people, administrative law was the sovereign's law with inherently unlimited autonomy, constitutional law was made by the people as ultimate author. The consequence: SCIENCE COMMITTED THE JURIST TO NOTHING ON THE QUESTION OF LOCAL DICTATORSHIP OR OLIGARCHIC RULE BY GREAT LANDOWNERS.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "15": {
-      "title": "Patriarchát: teorie vůle končí u rodiny",
-      "text": "CLT řešilo otázku patriarchátu — tedy nejen 'genderu', ale celé 'domácnosti' — rozlišením UVNITŘ SOUKROMÉHO PRÁVA MEZI PRÁVEM ZÁVAZKŮ A PRÁVEM RODINNÝM. A tady je ta formulace, kterou je dobré umět doslova: PRVNÍ GLOBALIZACE GLOBALIZOVALA KOMPROMIS, VE KTERÉM TEORIE VŮLE KONČILA U RODINY. Byl velký rozdíl mezi liberalismem v ekonomice a liberalismem ve vztazích svůdců a panen, manželů a manželek, otců a zneužívaných či vzpurných dcer, manželů a milenek, bývalých manželů a manželek a jejich dětí, bohatých patriarchů a jejich proletářských chlapeckých milenců. Výchozím bodem byl 'RANĚ MODERNÍ' SYSTÉM RODINNÉHO PRÁVA, jak ho popsal například BLACKSTONE: PATRIARCHA BYL PRÁVNĚ POVINEN ŽIVIT ŽENU A NEZLETILÉ DĚTI, MĚL NÁROK NA JEJICH POSLUŠNOST, KTEROU MOHL VYNUTIT MÍRNÝM TĚLESNÝM TRESTEM, MĚL LIBOVOLNOU MOC nad mnoha stránkami jejich blaha a majetku A BYL CHRÁNĚN PROTI SEXUÁLNÍMU A HOSPODÁŘSKÉMU ZASAHOVÁNÍ TŘETÍCH OSOB. Byla to OMEZENÁ, POKŘESŤANŠTĚNÁ, DOHLÍŽENÁ FORMA PATRIARCHÁTU, NIC JAKO ŘÍMSKÁ PATRIA POTESTAS: otec byl chápán jako podléhající 'PŘIROZENÝM' povinnostem péče a ochrany, které šly daleko za to, co si dluží aktéři na trhu, a ty byly vůči němu u soudu VYMAHATELNÉ, ale AŽ NA KRAJNÍCH MEZÍCH POBOUŘENÍ. V širokém prostoru uvážení, který mu pozitivní právo dávalo, PŘEDSTAVOVALI JURISTÉ JEHO VYSOKÉ ALTRUISTICKÉ POVINNOSTI JAKO MORÁLNÍ ČI ETICKÉ, NIKOLI VLASTNĚ PRÁVNÍ — proto se popisovaly jako 'NEDOKONALÝ ZÁVAZEK' na rozdíl od závazků 'zdokonalených' přidáním státního vynucovacího mechanismu.",
-      "terms": [
-        {
-          "term": "nedokonalý závazek",
-          "def": "Vysoké altruistické povinnosti patriarchy představené jako morální, ne vlastně právní — na rozdíl od závazků 'zdokonalených' státním vynucením."
-        }
-      ],
+      "title": "Patriarchy: the will theory stops at the family",
+      "text": "CLT dealt with the question of patriarchy — not merely of 'gender' but of the whole 'household' — by a distinction WITHIN PRIVATE LAW BETWEEN THE LAW OF OBLIGATIONS AND FAMILY LAW. And here is the formulation worth having verbatim: THE FIRST GLOBALIZATION GLOBALIZED A COMPROMISE IN WHICH THE WILL THEORY STOPPED AT THE FAMILY. There was a great difference between liberalism in the economy and liberalism in the relations of seducers and maidens, husbands and wives, fathers and abused or rebellious daughters, husbands and mistresses, former husbands and wives and their children, rich patriarchs and their proletarian boy lovers. The starting point was the 'EARLY MODERN' SYSTEM OF FAMILY LAW as described for instance by BLACKSTONE: THE PATRIARCH WAS LEGALLY BOUND TO SUPPORT HIS WIFE AND MINOR CHILDREN, WAS ENTITLED TO THEIR OBEDIENCE, WHICH HE COULD ENFORCE BY MODERATE CORPORAL PUNISHMENT, HAD DISCRETIONARY POWER over many aspects of their welfare and property AND WAS PROTECTED AGAINST SEXUAL AND ECONOMIC INTERFERENCE BY THIRD PARTIES. It was A LIMITED, CHRISTIANISED, SUPERVISED FORM OF PATRIARCHY, NOTHING LIKE THE ROMAN PATRIA POTESTAS: the father was understood to be subject to 'NATURAL' duties of care and protection going far beyond what market actors owe one another, and those were ENFORCEABLE against him in court, but ONLY AT THE OUTER LIMITS OF OUTRAGE. Within the wide space of discretion positive law gave him, JURISTS PRESENTED HIS HIGH ALTRUISTIC DUTIES AS MORAL OR ETHICAL RATHER THAN PROPERLY LEGAL — hence they were described as an 'IMPERFECT OBLIGATION' as against obligations 'perfected' by the addition of a state enforcement mechanism.",
+      "terms": [{"term": "imperfect obligation", "def": "The patriarch's high altruistic duties presented as moral rather than properly legal — as against obligations 'perfected' by state enforcement."}],
       "cards": [
-        {
-          "q": "Jak CLT řešilo patriarchát?",
-          "a": "Rozlišením UVNITŘ SOUKROMÉHO PRÁVA mezi PRÁVEM ZÁVAZKŮ a PRÁVEM RODINNÝM: PRVNÍ GLOBALIZACE GLOBALIZOVALA KOMPROMIS, VE KTERÉM TEORIE VŮLE KONČILA U RODINY. Byl velký rozdíl mezi liberalismem v ekonomice a liberalismem ve vztazích uvnitř domácnosti.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Popiš raně moderní systém rodinného práva podle Blackstona a proč nešlo o patria potestas.",
-          "a": "Patriarcha byl POVINEN ŽIVIT ženu a nezletilé děti, MĚL NÁROK NA POSLUŠNOST vynutitelnou MÍRNÝM TĚLESNÝM TRESTEM, měl LIBOVOLNOU MOC nad mnoha stránkami jejich blaha a majetku a byl CHRÁNĚN PROTI ZASAHOVÁNÍ TŘETÍCH OSOB. Nešlo o patria potestas, protože to byla OMEZENÁ, POKŘESŤANŠTĚNÁ, DOHLÍŽENÁ forma: jeho 'přirozené' povinnosti péče byly u soudu VYMAHATELNÉ, ale AŽ NA KRAJNÍCH MEZÍCH POBOUŘENÍ.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How did CLT deal with patriarchy?", "a": "By a distinction WITHIN PRIVATE LAW between the LAW OF OBLIGATIONS and FAMILY LAW: THE FIRST GLOBALIZATION GLOBALIZED A COMPROMISE IN WHICH THE WILL THEORY STOPPED AT THE FAMILY. There was a great difference between liberalism in the economy and liberalism in the relations within the household.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Describe the early modern system of family law after Blackstone, and why it was not patria potestas.", "a": "The patriarch was BOUND TO SUPPORT wife and minor children, was ENTITLED TO OBEDIENCE enforceable by MODERATE CORPORAL PUNISHMENT, had DISCRETIONARY POWER over much of their welfare and property, and was PROTECTED AGAINST INTERFERENCE BY THIRD PARTIES. It was not patria potestas because it was A LIMITED, CHRISTIANISED, SUPERVISED form: his 'natural' duties of care were ENFORCEABLE in court, but ONLY AT THE OUTER LIMITS OF OUTRAGE.", "difficulty": 3, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "16": {
-      "title": "Rodinné právo kolem roku 1850 a formální rovnost bez zásahu",
-      "text": "Režimy Severního Atlantiku, když CLT kolem roku 1850 startovalo, zahrnovaly něco nebo všechno z tohoto: ROZVOD JEN PRO ZAVINĚNÍ NEBO VŮBEC, DĚDICKÁ PRAVIDLA NA OCHRANU LEGITIMNÍCH RODINNÝCH AKTIV, TRESTNÍ ZÁKAZ 'NEPŘIROZENÉ' A 'NEČESTNÉ' SEXUALITY VČETNĚ STEJNOPOHLAVNÍHO SEXU A ŽENSKÉHO CIZOLOŽSTVÍ (mužské cizoložství se obvykle trestalo, jen bylo-li spojeno se soužitím či konkubinátem), ZADUŠENÍ PRÁVNÍCH NÁROKŮ Z 'NEMRAVNÝCH' VZTAHŮ (zejména nároků milenek a nemanželských dětí) A SVĚŘENÍ DĚTÍ OTCI. CODE NAPOLÉON (1804) byl liberální v tom, že dovoloval ROZVOD VZÁJEMNÝM SOUHLASEM — TO USTANOVENÍ BYLO ZRUŠENO ROKU 1815 ZA RESTAURACE A OBNOVENO AŽ ROKU 1975. CHILSKÝ BELLŮV KODEX Z ROKU 1857 převzal mnoho z liberálního práva závazků francouzského kodexu, ale CELÉ PRÁVO MANŽELSTVÍ A ROZVODU ODEVZDAL KE SPRÁVĚ KATOLICKÉ CÍRKVI PODLE KANONICKÉHO PRÁVA. Kennedy dodává postřeh, který se u zkoušky dobře používá: ROKU 1850 VYPADALO RODINNÉ PRÁVO ZEMÍ SEVERNÍHO ATLANTIKU NA FORMÁLNÍ ÚROVNI JEŠTĚ DOCELA PODOBNĚ JAKO TEHDEJŠÍ REŽIMY MUSLIMSKÉHO, HINDUISTICKÉHO ČI KONFUCIÁNSKÉHO RODINNÉHO PRÁVA — a v některých případech, třeba u muslimského práva manželského, které uznávalo ODDĚLENÝ MAJETEK MANŽELKY a zacházelo s DOMÁCÍM NÁSILÍM a s MANŽELOVOU POVINNOSTÍ VYŽIVOVAT jako s plně justiciabilními, BYL ZÁPAD PĚKNĚ 'POZADU' ZA VÝCHODEM. Substance severoatlantického režimu se pak historicky vzato rychle měnila směrem k FORMÁLNÍ ROVNOSTI SE VZÁJEMNÝMI POVINNOSTMI. U rodinných vztahů šlo o formální rovnost uvnitř toho, co klasikové vymezili jako 'STATUS', NE SMLOUVU, takže poměry stran určovala 'VŮLE STÁTU', NE VŮLE STRAN. CLT TAK OSTŘE ODDĚLILO RODINNÉ PRÁVO OD PRÁVA ZÁVAZKŮ A POSTAVILO HO NA STRANU MRAVŮ A POLITIKY, NE VĚDY A VŮLE. A neméně, možná víc důležité: CLT SPOJILO POHYB K FORMÁLNÍ ROVNOSTI S MOCNOU DOKTRÍNOU PRÁVNÍHO NEZASAHOVÁNÍ DO RODINY, KTERÁ UDĚLALA MNOHO Z FORMÁLNĚ ROVNÝCH PRÁV MANŽELEK NEVYMAHATELNÝMI (domácí násilí, znásilnění v manželství). Nezasahování se odůvodňovalo tím, že 'SFÉRA' RODINY, ZALOŽENÁ NA ZÁSADĚ ROVNOSTÁŘSKÉHO ALTRUISMU, BY BYLA ZKAŽENA ČI ZNIČENA SOUDNÍM ZÁSAHEM, KTERÝ BY MUSEL POUŽÍT PRÁVNÍ NÁSTROJE TĚSNĚ SPJATÉ S KONFLIKTNÍM INDIVIDUALISTICKÝM ETOSEM TRŽNÍHO PRÁVA.",
+      "title": "Family law around 1850 and formal equality without intervention",
+      "text": "The North Atlantic regimes, when CLT started up around 1850, included some or all of the following: DIVORCE ONLY FOR FAULT OR NOT AT ALL, INHERITANCE RULES PROTECTING LEGITIMATE FAMILY ASSETS, THE CRIMINAL PROHIBITION OF 'UNNATURAL' AND 'DISHONOURABLE' SEXUALITY INCLUDING SAME-SEX SEX AND FEMALE ADULTERY (male adultery was usually punished only where linked with cohabitation or concubinage), THE SUPPRESSION OF LEGAL CLAIMS ARISING FROM 'IMMORAL' RELATIONS (especially the claims of mistresses and illegitimate children) AND THE AWARD OF CHILDREN TO THE FATHER. THE CODE NAPOLÉON (1804) was liberal in permitting DIVORCE BY MUTUAL CONSENT — THAT PROVISION WAS ABOLISHED IN 1815 UNDER THE RESTORATION AND RESTORED ONLY IN 1975. THE CHILEAN BELLO CODE OF 1857 took over much of the liberal law of obligations of the French code but HANDED THE WHOLE LAW OF MARRIAGE AND DIVORCE OVER TO THE CATHOLIC CHURCH TO ADMINISTER UNDER CANON LAW. Kennedy adds an observation that works well in an exam: IN 1850 THE FAMILY LAW OF THE NORTH ATLANTIC COUNTRIES STILL LOOKED, AT THE FORMAL LEVEL, RATHER LIKE THE MUSLIM, HINDU OR CONFUCIAN FAMILY LAW REGIMES OF THE TIME — and in some respects, such as Muslim marriage law, which recognised THE WIFE'S SEPARATE PROPERTY and treated DOMESTIC VIOLENCE and THE HUSBAND'S DUTY OF MAINTENANCE as fully justiciable, THE WEST WAS QUITE 'BEHIND' THE EAST. The substance of the North Atlantic regime then changed, historically speaking, rapidly towards FORMAL EQUALITY WITH RECIPROCAL DUTIES. In family relations this was formal equality within what the classics defined as 'STATUS', NOT CONTRACT, so that the terms of the parties' relation were determined by 'THE WILL OF THE STATE', NOT THE WILL OF THE PARTIES. CLT THUS SHARPLY SEPARATED FAMILY LAW FROM THE LAW OF OBLIGATIONS AND PLACED IT ON THE SIDE OF MORALS AND POLITICS, NOT SCIENCE AND WILL. And no less, perhaps more, importantly: CLT JOINED THE MOVE TOWARDS FORMAL EQUALITY WITH A POWERFUL DOCTRINE OF LEGAL NON-INTERVENTION IN THE FAMILY, WHICH MADE MUCH OF WIVES' FORMALLY EQUAL RIGHTS UNENFORCEABLE (domestic violence, marital rape). Non-intervention was justified on the ground that THE 'SPHERE' OF THE FAMILY, FOUNDED ON A PRINCIPLE OF EGALITARIAN ALTRUISM, WOULD BE CORRUPTED OR DESTROYED BY JUDICIAL INTERVENTION, WHICH WOULD HAVE TO USE LEGAL INSTRUMENTS CLOSELY BOUND UP WITH THE CONFLICTUAL INDIVIDUALIST ETHOS OF MARKET LAW.",
       "terms": [],
       "cards": [
-        {
-          "q": "Bylo severoatlantické rodinné právo roku 1850 liberálnější než muslimské?",
-          "a": "NA FORMÁLNÍ ÚROVNI VYPADALO JEŠTĚ DOCELA PODOBNĚ jako muslimské, hinduistické či konfuciánské. A v některých ohledech BYL ZÁPAD 'POZADU': muslimské právo manželské uznávalo ODDĚLENÝ MAJETEK MANŽELKY a zacházelo s DOMÁCÍM NÁSILÍM i s MANŽELOVOU VYŽIVOVACÍ POVINNOSTÍ jako s plně justiciabilními.",
-          "difficulty": 3,
-          "kind": "srovnani",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak CLT umístilo rodinné právo a čím doplnilo formální rovnost?",
-          "a": "OSTŘE HO ODDĚLILO OD PRÁVA ZÁVAZKŮ a postavilo NA STRANU MRAVŮ A POLITIKY, NE VĚDY A VŮLE — šlo o formální rovnost uvnitř 'STATUSU', ne smlouvy, takže poměry určovala 'VŮLE STÁTU'. A spojilo ji s MOCNOU DOKTRÍNOU PRÁVNÍHO NEZASAHOVÁNÍ DO RODINY, která udělala mnoho formálně rovných práv manželek NEVYMAHATELNÝMI.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Čím se nezasahování do rodiny odůvodňovalo?",
-          "a": "Že 'SFÉRA' RODINY, ZALOŽENÁ NA ZÁSADĚ ROVNOSTÁŘSKÉHO ALTRUISMU, BY BYLA ZKAŽENA ČI ZNIČENA SOUDNÍM ZÁSAHEM, protože ten by musel použít PRÁVNÍ NÁSTROJE TĚSNĚ SPJATÉ S KONFLIKTNÍM INDIVIDUALISTICKÝM ETOSEM TRŽNÍHO PRÁVA.",
-          "difficulty": 3,
-          "kind": "norma",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "Was North Atlantic family law in 1850 more liberal than Muslim law?", "a": "AT THE FORMAL LEVEL IT STILL LOOKED RATHER LIKE the Muslim, Hindu or Confucian regimes. And in some respects THE WEST WAS 'BEHIND': Muslim marriage law recognised THE WIFE'S SEPARATE PROPERTY and treated DOMESTIC VIOLENCE and THE HUSBAND'S DUTY OF MAINTENANCE as fully justiciable.", "difficulty": 3, "kind": "srovnani", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Where did CLT place family law, and what did it add to formal equality?", "a": "It SHARPLY SEPARATED it from the law of obligations and placed it ON THE SIDE OF MORALS AND POLITICS, NOT SCIENCE AND WILL — it was formal equality within 'STATUS', not contract, so the terms were set by 'the will of the state'. And it joined it with A POWERFUL DOCTRINE OF LEGAL NON-INTERVENTION IN THE FAMILY, which made much of wives' formally equal rights UNENFORCEABLE.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "How was non-intervention in the family justified?", "a": "That THE 'SPHERE' OF THE FAMILY, FOUNDED ON A PRINCIPLE OF EGALITARIAN ALTRUISM, WOULD BE CORRUPTED OR DESTROYED BY JUDICIAL INTERVENTION, because intervention would have to use LEGAL INSTRUMENTS CLOSELY BOUND UP WITH THE CONFLICTUAL INDIVIDUALIST ETHOS OF MARKET LAW.", "difficulty": 3, "kind": "norma", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "17": {
-      "title": "Kolonie: 'domorodé' rodinné právo se nechávalo být",
-      "text": "KOLONIÁLNÍ MOCNOSTI VŠUDE ODMÍTLY NAHRADIT 'DOMORODÉ' RODINNÉ PRÁVO SVÝMI VLASTNÍMI SYSTÉMY. I FRANCOUZI, proslulí 'přímou vládou' a 'asimilací', neudělali víc, než že v Maghrebu podpořili KODIFIKACI MUSLIMSKÉHO RODINNÉHO PRÁVA. BRITOVÉ udělali totéž v Indii, S ODDĚLENÝMI HINDUISTICKÝMI, MUSLIMSKÝMI A KŘESŤANSKÝMI PRAVIDLY. V NIZOZEMSKÉ INDII zachovali Nizozemci pro rodinu PRÁVO ADAT. Ale všude proces formalizace uvnitř koloniálního právního a politického systému zahrnoval NĚJAKOU ZÁMĚRNOU ZMĚNU (například u praktik jako upalování vdov v Indii) a spustil MNOHO NEPŘÍMÝCH, ZAMÝŠLENÝCH I NEZAMÝŠLENÝCH ZMĚN — ty mohly MOC HLAV DOMÁCNOSTÍ SPÍŠ POSÍLIT NEŽ OSLABIT tím, že snížily odpovědnost titulárních držitelů půdy vůči členům širší rodiny. Zdá se, že řešení bylo velmi mnoho, podél vysoce předvídatelného kontinua možností, a výsledek v mnoha zemích určovaly OSTRÉ KONFLIKTY MEZI KATOLICKOU CÍRKVÍ, SOCIÁLNĚ KONZERVATIVNÍMI PROTESTANTSKÝMI SEKTAMI ČI MUSLIMSKÝMI DUCHOVNÍMI NA JEDNÉ STRANĚ A 'MODERNIZUJÍCÍMI' SEKULÁRNÍMI SILAMI NA DRUHÉ. Ačkoli kontinuum řešení a argumenty sem a tam byly zřejmě všude stejné, ŘEŠENÍ PŘIJATÁ V SEVERNÍ AMERICE BYLA MNOHEM 'LIBERÁLNĚJŠÍ' NEŽ V JIŽNÍ AMERICE A V BÝVALÉ OSMANSKÉ ŘÍŠI; V EVROPĚ BYLO KOMPROMISŮ TOLIK, KOLIK BYLO ZEMÍ, a všude byly nestabilní, se změnou obecně v liberalizujícím směru přerušovanou obdobími reakce.",
+      "title": "The colonies: 'indigenous' family law was left alone",
+      "text": "THE COLONIAL POWERS EVERYWHERE REFUSED TO REPLACE 'INDIGENOUS' FAMILY LAW WITH THEIR OWN SYSTEMS. EVEN THE FRENCH, famous for 'direct rule' and 'assimilation', did no more than support THE CODIFICATION OF MUSLIM FAMILY LAW in the Maghreb. THE BRITISH did the same in India, WITH SEPARATE HINDU, MUSLIM AND CHRISTIAN RULES. In the DUTCH EAST INDIES the Dutch preserved ADAT LAW for the family. But everywhere the process of formalisation within the colonial legal and political system involved SOME DELIBERATE CHANGE (for example in practices such as widow-burning in India) and set off MANY INDIRECT CHANGES, INTENDED AND UNINTENDED — and these could STRENGTHEN RATHER THAN WEAKEN THE POWER OF HOUSEHOLD HEADS by reducing the accountability of titular landholders to members of the extended family. There appear to have been very many solutions, along a highly predictable continuum of possibilities, and the outcome in many countries was determined by SHARP CONFLICTS BETWEEN THE CATHOLIC CHURCH, SOCIALLY CONSERVATIVE PROTESTANT SECTS OR MUSLIM CLERICS ON ONE SIDE AND 'MODERNISING' SECULAR FORCES ON THE OTHER. Although the continuum of solutions and the arguments back and forth were apparently the same everywhere, THE SOLUTIONS ADOPTED IN NORTH AMERICA WERE MUCH MORE 'LIBERAL' THAN THOSE IN SOUTH AMERICA AND IN THE FORMER OTTOMAN EMPIRE; IN EUROPE THERE WERE AS MANY COMPROMISES AS THERE WERE COUNTRIES, and everywhere they were unstable, with change generally in a liberalising direction interrupted by periods of reaction.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak koloniální mocnosti nakládaly s 'domorodým' rodinným právem?",
-          "a": "VŠUDE ODMÍTLY NAHRADIT HO SVÝMI SYSTÉMY. Francouzi v Maghrebu jen podpořili KODIFIKACI MUSLIMSKÉHO rodinného práva, Britové v Indii totéž s ODDĚLENÝMI HINDUISTICKÝMI, MUSLIMSKÝMI A KŘESŤANSKÝMI pravidly, Nizozemci v Nizozemské Indii zachovali právo ADAT.",
-          "difficulty": 2,
-          "kind": "pripad",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Jaký nezamýšlený účinek mohla mít koloniální formalizace rodinného práva?",
-          "a": "Mohla MOC HLAV DOMÁCNOSTÍ SPÍŠ POSÍLIT NEŽ OSLABIT — tím, že SNÍŽILA ODPOVĚDNOST TITULÁRNÍCH DRŽITELŮ PŮDY VŮČI ČLENŮM ŠIRŠÍ RODINY.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "How did the colonial powers deal with 'indigenous' family law?", "a": "THEY EVERYWHERE REFUSED TO REPLACE IT with their own systems. The French in the Maghreb merely supported THE CODIFICATION OF MUSLIM family law, the British in India did the same with SEPARATE HINDU, MUSLIM AND CHRISTIAN rules, and the Dutch in the East Indies preserved ADAT law.", "difficulty": 2, "kind": "pripad", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "What unintended effect could the colonial formalisation of family law have?", "a": "It could STRENGTHEN RATHER THAN WEAKEN THE POWER OF HOUSEHOLD HEADS — by REDUCING THE ACCOUNTABILITY OF TITULAR LANDHOLDERS TO MEMBERS OF THE EXTENDED FAMILY.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "18": {
-      "title": "Savignyovský obchod: národní rodina za univerzální trh",
-      "text": "Kennedyho klíčová hypotéza o tom, proč to fungovalo. Rozlišení mezi TRŽNÍM A RODINNÝM PRÁVEM fungovalo v kontextu historismu stejně jako rozlišení vnitrostátní/mezinárodní a veřejné/soukromé. CLT SI NENÁROKOVALO OBSAHOVOU UNIVERZALITU — NAOPAK. POČÍNAJE SAVIGNYM NABÍDLO PERIFERNÍM ELITÁM KATEGORIZACI JEJICH RODINNÉHO PRÁVA JAKO LIDOVÉHO, POLITICKÉHO, NÁBOŽENSKÉHO, KULTURNÍHO A ZVLÁŠTNÍHO, A TEDY EMINENTNĚ NÁRODNÍHO. VÝMĚNOU ZA TO ONY PŘIJALY — OBVYKLE S DYCHTIVOSTÍ — ŽE PRÁVO TRHU BUDE, NE POZITIVNĚ A V KAŽDÉ PODROBNOSTI, ALE OBECNĚ A 'V PODSTATĚ', PRÁVEM NÁRODNÍHO 'SVOBODNÉHO' TRHU ZALOŽENÝM NA VLASTNICTVÍ A SMLOUVĚ, SPOJENÝM S OSTATNÍMI SVOBODNÝMI TRHY VOLNÝM OBCHODEM, ZLATÝM STANDARDEM A MEZINÁRODNÍM PRÁVEM SOUKROMÝM POJMOVĚ TOTOŽNÝM S VNITROSTÁTNÍM OBČANSKÝM PRÁVEM. V první polovině 19. století se ale nejdřív musela vyřešit jiná hraniční otázka, NEŽ MOHLO VĚDOMÍ PRVNÍ GLOBALIZACE ZTUHNOUT — a netýkala se pokrevní rodiny. U pokrevní rodiny bylo řešení, podle kterého plná liberalizace neplatí a každá země si může udělat vlastní kompromis mezi rovností a tradicí, STABILNÍM ZASTŘEŠUJÍCÍM KONTEXTEM PRO MÍSTNÍ BITVY. Těžší otázkou byl STATUS TOHO, CO 18. STOLETÍ CHÁPALO JAKO DOMÁCÍ PRÁCI: PRÁCE OTROKŮ, UČEDNÍKŮ, ZAVÁZANÝCH SLUŽEBNÍKŮ A ZÁVISLÝCH ZEMĚDĚLSKÝCH DĚLNÍKŮ.",
+      "title": "The Savignyan bargain: a national family for a universal market",
+      "text": "Kennedy's key hypothesis about why it worked. The distinction between MARKET AND FAMILY LAW functioned in the context of historicism just as the domestic/international and public/private distinctions did. CLT DID NOT CLAIM SUBSTANTIVE UNIVERSALITY — QUITE THE CONTRARY. BEGINNING WITH SAVIGNY IT OFFERED PERIPHERAL ELITES THE CATEGORISATION OF THEIR FAMILY LAW AS POPULAR, POLITICAL, RELIGIOUS, CULTURAL AND PARTICULAR, AND THEREFORE EMINENTLY NATIONAL. IN EXCHANGE THEY ACCEPTED — USUALLY EAGERLY — THAT THE LAW OF THE MARKET WOULD BE, NOT POSITIVELY AND IN EVERY DETAIL BUT GENERALLY AND 'IN ESSENCE', THE LAW OF A NATIONAL 'FREE' MARKET FOUNDED ON PROPERTY AND CONTRACT, LINKED TO THE OTHER FREE MARKETS BY FREE TRADE, THE GOLD STANDARD AND A PRIVATE INTERNATIONAL LAW CONCEPTUALLY IDENTICAL WITH DOMESTIC CIVIL LAW. In the first half of the 19th century, however, another boundary question had first to be settled BEFORE THE CONSCIOUSNESS OF THE FIRST GLOBALIZATION COULD SOLIDIFY — and it did not concern the blood family. For the blood family, the solution that full liberalisation does not apply and that each country may make its own compromise between equality and tradition was A STABLE OVERARCHING CONTEXT FOR LOCAL BATTLES. The harder question was THE STATUS OF WHAT THE 18TH CENTURY UNDERSTOOD AS DOMESTIC LABOUR: THE LABOUR OF SLAVES, APPRENTICES, INDENTURED SERVANTS AND DEPENDENT AGRICULTURAL WORKERS.",
       "terms": [],
       "cards": [
-        {
-          "q": "Popiš 'savignyovský obchod' mezi CLT a periferními elitami.",
-          "a": "CLT nabídlo elitám kategorizaci jejich RODINNÉHO PRÁVA jako LIDOVÉHO, POLITICKÉHO, NÁBOŽENSKÉHO, KULTURNÍHO A ZVLÁŠTNÍHO, TEDY EMINENTNĚ NÁRODNÍHO. VÝMĚNOU ZA TO ONY PŘIJALY, že PRÁVO TRHU bude obecně a 'v podstatě' PRÁVEM NÁRODNÍHO 'SVOBODNÉHO' TRHU založeným na VLASTNICTVÍ A SMLOUVĚ, spojeným s ostatními trhy VOLNÝM OBCHODEM, ZLATÝM STANDARDEM A MEZINÁRODNÍM PRÁVEM SOUKROMÝM.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "Describe the 'Savignyan bargain' between CLT and the peripheral elites.", "a": "CLT offered the elites the categorisation of their FAMILY LAW as POPULAR, POLITICAL, RELIGIOUS, CULTURAL AND PARTICULAR, THEREFORE EMINENTLY NATIONAL. IN EXCHANGE THEY ACCEPTED that THE LAW OF THE MARKET would generally and 'in essence' be THE LAW OF A NATIONAL 'FREE' MARKET founded on PROPERTY AND CONTRACT, linked to the other markets by FREE TRADE, THE GOLD STANDARD AND PRIVATE INTERNATIONAL LAW.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "19": {
-      "title": "Sebevlastnictví a konec domácnosti",
-      "text": "V Severním Atlantiku přišlo konečné řešení VZNIKEM TOVÁRNY, MALÉHO ZEMĚDĚLSKÉHO HOSPODÁŘSTVÍ A BURŽOAZNÍ (na rozdíl od aristokratické) INSTITUCE DOMÁCÍ SLUŽBY jako dominantních pracovních forem. VŠECHNY TY TŘÍDY PRÁCE BYLY V LIBERÁLNÍM REŽIMU CLT TEORIE VŮLE A SVOBODNÉ SMLOUVY ZAŘAZENY POD POJEM 'SEBEVLASTNICTVÍ' (SELF-OWNERSHIP), MÍSTO POD MODEL 18. STOLETÍ, KDE SLUŽEBNÍK JE ČÁSTÍ DOMÁCNOSTI. POVINNOSTI POSLUŠNOSTI BYLY ODSTRANĚNY SPOLU S PRÁVY NA VÝŽIVU; LIBOVOLNÁ AUTORITA ZAMĚSTNAVATELE NAHRADILA LIBOVOLNOU AUTORITU PATRIARCHY. MEZILEHLÉ FORMY POLOSVOBODNÉ PRÁCE — NEVOLNICTVÍ, UČŇOVSTVÍ, INDENTURA — ZMIZELY: Francouzskou revolucí a Napoleonovými výboji v západní Evropě, v okamžiku nezávislosti na Španělsku v Latinské Americe, po polovině století v Rusku. OTROCTVÍ V MNOHA ZEMÍCH AMERIK PŘES 19. STOLETÍ VZKVÉTALO A BYLO ZRUŠENO V USA AŽ ROKU 1863, V BRAZÍLII 1871 A NAKONEC NA KUBĚ 1886. V TOM OKAMŽIKU BYLO Z PRÁVNÍ DOMÁCNOSTI ZBYLO UŽ JEN RODINA.",
-      "terms": [
-        {
-          "term": "sebevlastnictví (self-ownership)",
-          "def": "Pojem, pod který CLT zařadilo všechny formy práce místo modelu služebníka jako části domácnosti — povinnosti poslušnosti zmizely spolu s právy na výživu."
-        }
-      ],
+      "title": "Self-ownership and the end of the household",
+      "text": "In the North Atlantic the final solution came WITH THE RISE OF THE FACTORY, THE SMALL FARM AND THE BOURGEOIS (as opposed to aristocratic) INSTITUTION OF DOMESTIC SERVICE as the dominant forms of labour. ALL THOSE CLASSES OF LABOUR WERE, IN THE LIBERAL REGIME OF CLT'S WILL THEORY AND FREE CONTRACT, BROUGHT UNDER THE CONCEPT OF 'SELF-OWNERSHIP' INSTEAD OF THE 18TH-CENTURY MODEL IN WHICH THE SERVANT IS PART OF THE HOUSEHOLD. THE DUTIES OF OBEDIENCE WERE REMOVED ALONG WITH THE RIGHTS TO MAINTENANCE; THE DISCRETIONARY AUTHORITY OF THE EMPLOYER REPLACED THE DISCRETIONARY AUTHORITY OF THE PATRIARCH. THE INTERMEDIATE FORMS OF SEMI-FREE LABOUR — SERFDOM, APPRENTICESHIP, INDENTURE — DISAPPEARED: through the French Revolution and Napoleon's conquests in western Europe, at the moment of independence from Spain in Latin America, after mid-century in Russia. SLAVERY FLOURISHED THROUGH THE 19TH CENTURY IN MANY COUNTRIES OF THE AMERICAS AND WAS ABOLISHED IN THE USA ONLY IN 1863, IN BRAZIL IN 1871 AND FINALLY IN CUBA IN 1886. AT THAT MOMENT ALL THAT REMAINED OF THE LEGAL HOUSEHOLD WAS THE FAMILY.",
+      "terms": [{"term": "self-ownership", "def": "The concept under which CLT brought all forms of labour, in place of the model of the servant as part of the household — duties of obedience disappeared along with rights to maintenance."}],
       "cards": [
-        {
-          "q": "Co udělalo CLT s pracovními formami a co se tím vyměnilo?",
-          "a": "Zařadilo je všechny pod pojem 'SEBEVLASTNICTVÍ' místo modelu 18. století, kde je služebník částí domácnosti. POVINNOSTI POSLUŠNOSTI BYLY ODSTRANĚNY SPOLU S PRÁVY NA VÝŽIVU a LIBOVOLNÁ AUTORITA ZAMĚSTNAVATELE NAHRADILA LIBOVOLNOU AUTORITU PATRIARCHY.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Kdy bylo zrušeno otroctví v Americe a co tím z domácnosti zbylo?",
-          "a": "V USA až ROKU 1863, V BRAZÍLII 1871 a nakonec NA KUBĚ 1886. Mezilehlé formy polosvobodné práce (nevolnictví, učňovství, indentura) zmizely dřív — revolucí a Napoleonem v západní Evropě, s nezávislostí v Latinské Americe, po polovině století v Rusku. V TOM OKAMŽIKU BYLA Z PRÁVNÍ DOMÁCNOSTI UŽ JEN RODINA.",
-          "difficulty": 2,
-          "kind": "cisla",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What did CLT do with the forms of labour, and what was exchanged thereby?", "a": "It brought them all under the concept of 'SELF-OWNERSHIP' in place of the 18th-century model of the servant as part of the household. THE DUTIES OF OBEDIENCE WERE REMOVED ALONG WITH THE RIGHTS TO MAINTENANCE, and THE DISCRETIONARY AUTHORITY OF THE EMPLOYER REPLACED THAT OF THE PATRIARCH.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "When was slavery abolished in the Americas, and what remained of the household?", "a": "In the USA only IN 1863, IN BRAZIL IN 1871 and finally IN CUBA IN 1886. The intermediate forms of semi-free labour (serfdom, apprenticeship, indenture) had disappeared earlier — through the Revolution and Napoleon in western Europe, with independence in Latin America, after mid-century in Russia. AT THAT MOMENT ALL THAT REMAINED OF THE LEGAL HOUSEHOLD WAS THE FAMILY.", "difficulty": 2, "kind": "cisla", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     },
     "20": {
-      "title": "Latifundia a minifundia: proč se CLT mohlo globalizovat",
-      "text": "Na světovém Jihu, tedy na kapitalistické periferii v širokém pojetí, NEVZNIKLO MALÉ ZEMĚDĚLSKÉ HOSPODÁŘSTVÍ TAK ÚSTŘEDNÍ PRO SEVEROATLANTICKOU REPUBLIKÁNSKOU IDEOLOGII. Evropské nemoci a vyvražďování odstranily většinu zbývajících lovců-sběračů a kočovných pastevců a slily kmenové společnosti a malé státy do kolonií; zároveň se předkapitalistické říše rozpadly v národní státy či kolonie. V TÉHLE STRUKTUŘE SE VELMI VELKÁ ČÁST SVĚTOVÉ POPULACE ZAČALA ORGANIZOVAT BUĎ V 'LATIFUNDIÍCH' — VELKÝCH STATCÍCH ČI PLANTÁŽÍCH, VLASTNĚNÝCH NEJPRVE PLANTÁŽNÍKY A POTOM NADNÁRODNÍMI FIRMAMI, OBDĚLÁVANÝCH NOMINÁLNĚ SVOBODNÝMI, ALE FAKTICKY ZÁVISLÝMI DĚLNÍKY — NEBO V 'MINIFUNDIÍCH', MALÝCH POLÍCH OBDĚLÁVANÝCH ROLNICKÝMI VESNIČANY V RŮZNÝCH FORMÁCH OBYČEJOVÉ ČI PODÍLNICKÉ DRŽBY. Oba typy produkovaly staré či nové tržní plodiny pro nový světový trh, drobní držitelé ale v nestabilní kombinaci se samozásobitelskými plodinami. Kontrast latifundia/minifundia platí pro Latinskou Ameriku, Afriku, Indii, východní Evropu, nástupnické státy Osmanské říše, Indonésii, Čínu i poválečný Jih USA. Začlenění těch pracovních forem do kategorií CLT — PRODEJ PRACOVNÍ SÍLY U ZEMĚDĚLSKÉHO DĚLNÍKA, SOUKROMÉ VLASTNICTVÍ PŮDY U ROLNÍKA — někdy znamenalo, že koloniální mocnosti a nezávislé státy periferie PROSTĚ RATIFIKOVALY, PŘIJETÍM FORMÁLNÍ, ABSTRAKTNÍ PŘEDSTAVY SVOBODNÉ VŮLE MÍSTO OBSAHOVĚJŠÍ, JAKÁKOLI SCHÉMATA HOSPODÁŘSKÉ A SOCIÁLNÍ HIERARCHIE, KTERÁ NA MÍSTĚ VZEŠLA ZE HRY NÁSILÍ A KULTURY. A někdy je PROMĚNILY, ve vlastním zájmu, ale bez přesného pochopení, co dělají, TÍM, ŽE PŘEDEXISTUJÍCÍ SOCIÁLNÍ USPOŘÁDÁNÍ VTLAČILY DO FORMY 'ZÁPADNÍ IDEJE VLASTNICTVÍ'. Během dlouhého přechodu byla k dispozici celá řada PRÁVNÍCH VÝKRUTŮ, takže něco jako nevolnictví se dalo udržet uvnitř liberálních forem a něco jako kapitalismus uvnitř forem feudálních. (Velkou výjimkou je BRITSKÁ INDIE, kde byla POZEMKOVÁ REFORMA od poloviny 19. století HLAVNÍ STRATEGIÍ KONTROLY a koloniální rekonstituce.) A TADY JE TA POINTA: ZDÁ SE VĚROHODNÉ, ŽE SE CLT MOHLO GLOBALIZOVAT PRÁVĚ PROTO, ŽE MĚLO TAK MÁLO CO ŘÍCT TAK ČI ONAK K PRÁVNÍMU ZACHÁZENÍ S PRÁVNĚ SVOBODNÝMI, ALE ZJEVNĚ PODŘÍZENÝMI ROLNÍKY A ZEMĚDĚLSKÝMI DĚLNÍKY JIHU.",
-      "terms": [
-        {
-          "term": "latifundia × minifundia",
-          "def": "Velké statky s nominálně svobodnými, fakticky závislými dělníky × malá pole rolnických vesničanů v obyčejové či podílnické držbě."
-        }
-      ],
+      "title": "Latifundia and minifundia: why CLT could be globalized",
+      "text": "In the global South, that is on the capitalist periphery broadly conceived, THE SMALL FARM SO CENTRAL TO NORTH ATLANTIC REPUBLICAN IDEOLOGY DID NOT EMERGE. European diseases and extermination removed most of the remaining hunter-gatherers and nomadic pastoralists and merged tribal societies and small states into colonies; at the same time the pre-capitalist empires broke up into nation states or colonies. WITHIN THAT STRUCTURE A VERY LARGE PART OF THE WORLD'S POPULATION CAME TO BE ORGANISED EITHER IN 'LATIFUNDIA' — GREAT ESTATES OR PLANTATIONS, OWNED FIRST BY PLANTERS AND THEN BY TRANSNATIONAL FIRMS, WORKED BY NOMINALLY FREE BUT IN FACT DEPENDENT LABOURERS — OR IN 'MINIFUNDIA', SMALL PLOTS WORKED BY PEASANT VILLAGERS UNDER VARIOUS FORMS OF CUSTOMARY OR SHARECROPPING TENURE. Both types produced old or new cash crops for the new world market, the smallholders in an unstable combination with subsistence crops. The latifundia/minifundia contrast holds for Latin America, Africa, India, eastern Europe, the successor states of the Ottoman Empire, Indonesia, China and the post-war American South alike. The incorporation of those labour forms into the categories of CLT — THE SALE OF LABOUR POWER for the agricultural worker, PRIVATE OWNERSHIP OF LAND for the peasant — sometimes meant that colonial powers and independent peripheral states SIMPLY RATIFIED, BY ADOPTING A FORMAL, ABSTRACT CONCEPTION OF FREE WILL RATHER THAN A MORE SUBSTANTIVE ONE, WHATEVER SCHEMES OF ECONOMIC AND SOCIAL HIERARCHY HAD EMERGED ON THE GROUND FROM THE PLAY OF VIOLENCE AND CULTURE. And sometimes they TRANSFORMED them, in their own interest but without a precise understanding of what they were doing, BY FORCING PRE-EXISTING SOCIAL ARRANGEMENTS INTO THE FORM OF 'THE WESTERN IDEA OF PROPERTY'. Throughout the long transition a whole range of LEGAL CONTORTIONS was available, so that something like serfdom could be maintained within liberal forms and something like capitalism within feudal ones. (The great exception is BRITISH INDIA, where LAND REFORM was from the mid-19th century A PRINCIPAL STRATEGY OF CONTROL and of colonial reconstitution.) AND HERE IS THE POINT: IT SEEMS PLAUSIBLE THAT CLT COULD BE GLOBALIZED PRECISELY BECAUSE IT HAD SO LITTLE TO SAY ONE WAY OR THE OTHER ABOUT THE LEGAL TREATMENT OF THE LEGALLY FREE BUT OBVIOUSLY SUBORDINATED PEASANTS AND AGRICULTURAL WORKERS OF THE SOUTH.",
+      "terms": [{"term": "latifundia vs minifundia", "def": "Great estates worked by nominally free but in fact dependent labourers vs small plots worked by peasant villagers under customary or sharecropping tenure."}],
       "cards": [
-        {
-          "q": "Co jsou latifundia a minifundia a kde ten kontrast platí?",
-          "a": "LATIFUNDIA = velké statky či plantáže vlastněné plantážníky a pak nadnárodními firmami, obdělávané NOMINÁLNĚ SVOBODNÝMI, ALE FAKTICKY ZÁVISLÝMI dělníky. MINIFUNDIA = malá pole rolnických vesničanů v obyčejové či PODÍLNICKÉ držbě. Platí pro Latinskou Ameriku, Afriku, Indii, východní Evropu, nástupnické státy Osmanské říše, Indonésii, Čínu i poválečný Jih USA.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        },
-        {
-          "q": "Proč se podle Kennedyho CLT vůbec mohlo globalizovat?",
-          "a": "PRÁVĚ PROTO, ŽE MĚLO TAK MÁLO CO ŘÍCT TAK ČI ONAK K PRÁVNÍMU ZACHÁZENÍ S PRÁVNĚ SVOBODNÝMI, ALE ZJEVNĚ PODŘÍZENÝMI ROLNÍKY A ZEMĚDĚLSKÝMI DĚLNÍKY JIHU. Přijetím FORMÁLNÍ, ABSTRAKTNÍ představy svobodné vůle jen RATIFIKOVALO hierarchie, které na místě vzešly ze hry násilí a kultury.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Globalisation of Law I",
-          "priority": "core"
-        }
+        {"q": "What are latifundia and minifundia, and where does that contrast hold?", "a": "LATIFUNDIA = great estates or plantations owned by planters and then by transnational firms, worked by NOMINALLY FREE BUT IN FACT DEPENDENT labourers. MINIFUNDIA = small plots worked by peasant villagers under customary or SHARECROPPING tenure. It holds for Latin America, Africa, India, eastern Europe, the Ottoman successor states, Indonesia, China and the post-war American South.", "difficulty": 2, "kind": "definice", "topic": "Globalisation of Law I", "priority": "core"},
+        {"q": "Why, on Kennedy's account, could CLT be globalized at all?", "a": "PRECISELY BECAUSE IT HAD SO LITTLE TO SAY ONE WAY OR THE OTHER ABOUT THE LEGAL TREATMENT OF THE LEGALLY FREE BUT OBVIOUSLY SUBORDINATED PEASANTS AND AGRICULTURAL WORKERS OF THE SOUTH. By adopting a FORMAL, ABSTRACT conception of free will it merely RATIFIED the hierarchies that had emerged on the ground from the play of violence and culture.", "difficulty": 3, "kind": "rozliseni", "topic": "Globalisation of Law I", "priority": "core"}
       ],
       "vision_used": false
     }
