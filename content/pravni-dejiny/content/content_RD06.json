@@ -1,372 +1,161 @@
 {
   "lecture_id": "RD06",
-  "title": "Sunde, Managing the Unmanageable — právní kultura jako analytický nástroj",
+  "title": "Sunde, Managing the Unmanageable — legal culture as an analytical tool",
   "slides": {
     "1": {
-      "title": "Proč se právní kultura stala tématem",
-      "text": "Vstupní teze knihy: ZMĚNY KOMUNIKAČNÍCH TECHNOLOGIÍ OBROVSKY ZVÝŠILY INTERAKCE PŘES ZEMĚPISNÉ VZDÁLENOSTI, a tím vznikly nové druhy společenských vztahů, které potřebují úpravu TRANSNACIONÁLNÍM PRÁVEM — právem platným PŘES hranice jurisdikce národního státu i UVNITŘ ní. PRÁVO UŽ TEDY NENÍ PŘEVÁŽNĚ NÁRODNÍ ZÁLEŽITOST, a bez porozumění různým právním kulturám bude vnímání současného právního řádu neúplné. Norsko to má vyčíslené: první drobný krok byl roku 1988, kdy se směrnice EHS o odpovědnosti za výrobek použila jako vzor norského zákona — tehdy pocházelo z pramenů mimo norskou jurisdikci ODHADEM MÉNĚ NEŽ 1 % PLATNÉHO NORSKÉHO PRÁVA. Roku 1994 vstoupila v účinnost DOHODA O EHP a učinila velké části práva EU součástí norského práva; roku 1999 se součástí stala i EVROPSKÁ ÚMLUVA O LIDSKÝCH PRÁVECH; a precedent Nejvyššího soudu z roku 2000 Norsko do transnacionálního řádu fakticky zařadil. Ukazatel je výmluvný: EVROPSKÝ SOUD PRO LIDSKÁ PRÁVA ROZHODL ROKU 1989 — V ROCE PÁDU BERLÍNSKÉ ZDI — 25 PŘÍPADŮ, ROKU 1999 UŽ 177, A ROKU 2009 DOSÁHL HISTORICKÉHO MAXIMA 1623 PŘÍPADŮ.",
+      "title": "Why legal culture became a subject",
+      "text": "The book's opening thesis: CHANGES IN COMMUNICATION TECHNOLOGY HAVE ENORMOUSLY INCREASED INTERACTION ACROSS GEOGRAPHICAL DISTANCES, and thereby created new kinds of social relations which need to be regulated by TRANSNATIONAL LAW — law valid ACROSS the boundaries of a nation state's jurisdiction and WITHIN it. LAW IS THEREFORE NO LONGER PREDOMINANTLY A NATIONAL AFFAIR, and without an understanding of different legal cultures our perception of the contemporary legal order will be incomplete. Norway has the figures for it: the first small step was in 1988, when the EEC directive on product liability was used as the model for a Norwegian statute — at that time AN ESTIMATED LESS THAN 1 PER CENT OF VALID NORWEGIAN LAW came from sources outside Norwegian jurisdiction. In 1994 the EEA AGREEMENT entered into force and made large parts of EU law part of Norwegian law; in 1999 the EUROPEAN CONVENTION ON HUMAN RIGHTS became part of it too; and a Supreme Court precedent of 2000 effectively placed Norway inside the transnational order. The indicator is eloquent: THE EUROPEAN COURT OF HUMAN RIGHTS DECIDED 25 CASES IN 1989 — THE YEAR THE BERLIN WALL FELL — 177 IN 1999, AND IN 2009 REACHED AN ALL-TIME HIGH OF 1,623 CASES.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč vznikla potřeba srovnávat právní kultury?",
-          "a": "Protože nové komunikační technologie zvýšily interakce přes vzdálenosti a vznikly vztahy vyžadující TRANSNACIONÁLNÍ PRÁVO — platné přes hranice jurisdikce i uvnitř ní. Právo tím přestalo být převážně národní záležitostí a bez porozumění právním kulturám je vnímání současného řádu neúplné.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak rychle Norsko vstoupilo do transnacionálního právního řádu?",
-          "a": "1988 první směrnice EHS jako vzor zákona, kdy z cizích pramenů pocházelo méně než 1 % platného práva; 1994 dohoda o EHP učinila velké části práva EU norským právem; 1999 totéž s EÚLP; a precedent Nejvyššího soudu z roku 2000 to dokonal. Doprovodné číslo: ESLP rozhodl 1989 dvacet pět případů, 1999 sto sedmdesát sedm a 2009 rekordních 1623.",
-          "difficulty": 3,
-          "kind": "cisla",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Why did the need to compare legal cultures arise?", "a": "Because new communication technologies increased interaction across distances and created relations requiring TRANSNATIONAL LAW — valid across the boundaries of jurisdiction and within them. Law thereby ceased to be predominantly a national affair, and without an understanding of legal cultures our perception of the present order is incomplete.", "difficulty": 2, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "How quickly did Norway enter the transnational legal order?", "a": "1988, the first EEC directive used as a model statute, when less than 1 per cent of valid law came from foreign sources; 1994, the EEA Agreement made large parts of EU law Norwegian law; 1999, the same with the ECHR; and a Supreme Court precedent of 2000 completed it. The accompanying figure: the ECtHR decided 25 cases in 1989, 177 in 1999 and a record 1,623 in 2009.", "difficulty": 3, "kind": "cisla", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "2": {
-      "title": "Mapa Bergenu: proč nechceme mapu 1:1",
-      "text": "Sundeho ústřední obraz, a stojí za to ho umět vyprávět. Na obálce knihy je mědiryt Bergenu od ALAINA MANESSONA MALLETA, vydaný v Paříži roku 1683 v pěti svazcích DESCRIPTION DE L'UNIVERS. Mallet byl inženýr, důstojník a KARTOGRAF; v Bergenu SÁM NIKDY NEBYL a spoléhal na velmi přesné popisy. Proto je hrad příliš malý proti Rosenkrantzově věži a kostel svaté Marie příliš velký proti oběma — ALE KDO TU MAPU STUDUJE, ZÍSKÁ NEJEN DOBROU PŘEDSTAVU O MĚSTĚ, NÝBRŽ SE PODLE NÍ DOKÁŽE DOSTAT Z JEDNÉ ČÁSTI DO DRUHÉ, ačkoli to není plán ulic. A právě o tohle jde u právní kultury: ZMAPOVAT JI A ORIENTOVAT SE V NÍ. Není mezí, kolik pečlivých studií lze udělat, než se mapa nakreslí — stejně jako není mezí, jak podrobně lze zkoumat prvky právní kultury. ALE PRÁVĚ TAK, JAKO JE MAPA 1:1 CESTOVATELI K NIČEMU, JE PŘEDSTAVENÍ PRÁVNÍ KULTURY, KTERÉ PEČLIVĚ ZKOUMÁ VŠECHNY ODSTÍNY KAŽDÉHO DETAILU, K NIČEMU STUDENTOVI ANI UŽIVATELI PRÁVA. Cílem není přesné zobrazení světa, ale NÁSTROJ POUŽITELNÝ PŘI ORIENTACI V NEZNÁMÉM TERÉNU — a náležitou míru podrobnosti diktuje ÚČEL.",
+      "title": "The map of Bergen: why we do not want a 1:1 map",
+      "text": "Sunde's central image, and it is worth being able to tell. On the cover of the book is a copperplate engraving of Bergen by ALAIN MANESSON MALLET, published in Paris in 1683 in the five volumes of the DESCRIPTION DE L'UNIVERS. Mallet was an engineer, an officer and a CARTOGRAPHER; HE HAD NEVER BEEN TO BERGEN HIMSELF and relied on very accurate descriptions. That is why the castle is too small in relation to the Rosenkrantz Tower and St Mary's church too large in relation to both — BUT ANYONE WHO STUDIES THAT MAP GAINS NOT ONLY A GOOD IMPRESSION OF THE CITY BUT CAN ALSO FIND HIS WAY FROM ONE PART OF IT TO ANOTHER, although it is not a street plan. And that is precisely the point about legal culture: TO MAP IT AND FIND ONE'S WAY IN IT. There is no limit to how many careful studies can be made before the map is drawn — just as there is no limit to how minutely the elements of a legal culture can be examined. BUT JUST AS A 1:1 MAP IS USELESS TO A TRAVELLER, SO A PRESENTATION OF A LEGAL CULTURE THAT CAREFULLY EXAMINES EVERY SHADE OF EVERY DETAIL IS USELESS TO A STUDENT OR A USER OF LAW. The aim is not an accurate representation of the world but A TOOL USABLE FOR ORIENTATION IN UNFAMILIAR TERRAIN — and the appropriate degree of detail is dictated by the PURPOSE.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co znamená Sundeho obraz mapy Bergenu pro studium právní kultury?",
-          "a": "Že cílem není přesné zobrazení světa, ale NÁSTROJ K ORIENTACI V NEZNÁMÉM TERÉNU, a míru podrobnosti diktuje ÚČEL. Mallet v Bergenu nikdy nebyl a jeho proporce nesedí, ale podle mapy se dá ve městě dojít z místa na místo. A naopak: mapa 1:1 je cestovateli k ničemu, stejně jako popis právní kultury zkoumající každý odstín každého detailu.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "What does Sunde's image of the map of Bergen mean for the study of legal culture?", "a": "That the aim is not an accurate representation of the world but A TOOL FOR ORIENTATION IN UNFAMILIAR TERRAIN, and that the degree of detail is dictated by the PURPOSE. Mallet had never been to Bergen and his proportions are wrong, yet one can walk from place to place by his map. And conversely: a 1:1 map is useless to a traveller, as is a description of a legal culture examining every shade of every detail.", "difficulty": 2, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "3": {
-      "title": "K čemu to má být dobré",
-      "text": "Účelem právní kultury jako analytického nástroje je UČINIT SROZUMITELNÝMI RŮZNÁ POJETÍ PRÁVA A TOHO, JAK PRÁVO VE SPOLEČNOSTI FUNGUJE, DO TÉ MÍRY, ABY NETVOŘILA PŘEKÁŽKU SPOLUPRÁCE. Platí to pro advokáta radícího klientovi, pro soudce rozhodujícího případ, pro poslance hlasujícího o zákoně, pro úředníka či politika v mezinárodním orgánu připravujícího nadnárodní legislativu i pro badatele chystajícího společný referenční rámec pro celý obor. ALE NEPRACUJÍ VE STEJNÉM ČASOVÉM RÁMCI ANI VE STEJNÉM MĚŘÍTKU NÁSLEDKŮ: od advokáta k badateli DRAMATICKY ROSTE ČAS NA ZKOUMÁNÍ PŘED JEDNÁNÍM — A STEJNĚ TAK ÚČINEK JEJICH PRÁVNÍCH AKTŮ. To je pěkné: kdo má nejmíň času, dělá nejmenší škodu. Sunde to srovnává s právní filosofií: PRÁVNÍ FILOSOFIE UŽ BYLA UVEDENA DO PRAXE JAKO PRÁVNÍ METODOLOGIE, protože každé použití práva nemůže spočívat na důkladném rozboru, nýbrž na PŘEPRACOVANÉ PODOBĚ V PODOBĚ METODY. Totéž se má stát s právní kulturou — CÍLEM JE DÁT ČTENÁŘI NÁSTROJE, JAK PRÁVNĚKULTURNÍ ZNALOST ZPROVOZNIT V KAŽDODENNÍM PROVOZU PRÁVA.",
+      "title": "What it is supposed to be good for",
+      "text": "The purpose of legal culture as an analytical tool is TO MAKE DIFFERENT CONCEPTIONS OF LAW AND OF HOW LAW OPERATES IN SOCIETY INTELLIGIBLE TO THE EXTENT THAT THEY DO NOT FORM AN OBSTACLE TO COOPERATION. This holds for the lawyer advising a client, the judge deciding a case, the member of parliament voting on a statute, the official or politician in an international body preparing supranational legislation, and the scholar drafting a common frame of reference for the whole field. BUT THEY DO NOT WORK IN THE SAME TIME FRAME OR ON THE SAME SCALE OF CONSEQUENCES: from the lawyer to the scholar THE TIME AVAILABLE FOR INVESTIGATION BEFORE ACTING INCREASES DRAMATICALLY — AND SO DOES THE EFFECT OF THEIR LEGAL ACTS. That is a neat point: whoever has the least time does the least damage. Sunde compares it with legal philosophy: LEGAL PHILOSOPHY HAS ALREADY BEEN PUT INTO PRACTICE AS LEGAL METHODOLOGY, because every application of law cannot rest on a thorough analysis but on a REWORKED FORM IN THE SHAPE OF A METHOD. The same is to happen with legal culture — THE AIM IS TO GIVE THE READER TOOLS FOR MAKING LEGAL-CULTURAL KNOWLEDGE OPERATIVE IN THE EVERYDAY WORKING OF LAW.",
       "terms": [],
       "cards": [
-        {
-          "q": "K čemu má právní kultura jako analytický nástroj sloužit?",
-          "a": "Učinit srozumitelnými různá pojetí práva a jeho fungování ve společnosti do té míry, aby NETVOŘILA PŘEKÁŽKU SPOLUPRÁCE — pro advokáta, soudce, poslance, úředníka mezinárodního orgánu i badatele. Přitom platí, že od advokáta k badateli roste čas na zkoumání před jednáním a zároveň účinek jejich právních aktů.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Jak Sunde srovnává právní kulturu s právní filosofií?",
-          "a": "Právní filosofie už byla uvedena do praxe jako PRÁVNÍ METODOLOGIE — protože každé použití práva nemůže spočívat na jejím důkladném rozboru, nýbrž na přepracované podobě. Totéž chce udělat s právní kulturou: dát nástroje, jak právněkulturní znalost ZPROVOZNIT v každodenním provozu práva.",
-          "difficulty": 3,
-          "kind": "srovnani",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "What is legal culture as an analytical tool supposed to achieve?", "a": "To make different conceptions of law and of its operation in society intelligible to the extent that they DO NOT FORM AN OBSTACLE TO COOPERATION — for the lawyer, the judge, the legislator, the official in an international body and the scholar. Note also that from the lawyer to the scholar the time for investigation before acting increases, and so does the effect of their legal acts.", "difficulty": 2, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "How does Sunde compare legal culture with legal philosophy?", "a": "Legal philosophy has already been put into practice as LEGAL METHODOLOGY — because every application of law cannot rest on a thorough analysis of it but on a reworked form. He wants to do the same with legal culture: to give tools for making legal-cultural knowledge OPERATIVE in the everyday working of law.", "difficulty": 3, "kind": "srovnani", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "4": {
-      "title": "Definice: co právní kultura je",
-      "text": "Důležité přiznání: PRÁVNÍ KULTURA JE NÁLEPKA, KTEROU DÁVÁME NA POZOROVÁNÍ, JEŽ DĚLÁME. V Norsku je třeba jen JEDNA SOUDNÍ HIERARCHIE s převážně obecnými soudy a soudci, kteří běžně rozhodují civilní, trestní, správní i ústavní věci; specializovaných soudů je málo. Rozhodnutí Nejvyššího soudu se pokládají za ZÁVAZNĚ PŮSOBÍCÍ, ale NEMAJÍ FORMÁLNÍ ZÁVAZNOST NAD RÁMEC PROJEDNÁVANÉ VĚCI, a rozhodnutí nižších soudů ani to ne. Zároveň NENÍ V NORSKU SKUTEČNÝ OBČANSKÝ ZÁKONÍK ani jiné kodexy, nýbrž JEDNOTLIVÉ ZÁKONY A SPOUSTA NAŘÍZENÍ, k tomu precedent a řada dalších pramenů jako PŘÍPRAVNÉ PRÁCE, OBYČEJ A HODNOTOVÉ ÚVAHY. A teď ta definice. Pozorování práva nazýváme právní kulturou proto, ŽE OVLIVŇUJÍ, JAK PRÁVO FUNGUJE, a protože je zpravidla řídí PŘEDSTAVY SDÍLENÉ A PROJEVOVANÉ JEDNÁNÍM BEZ VELKÝCH ÚVAH A ROZBORŮ. Tohle má právo společné s jazykem a vkusem. ALE NA ROZDÍL OD JAZYKA A VKUSU JE PRÁVO NÁSTROJEM VLÁDNUTÍ, což ho váže k MOCI. Vztah práva a moci je dvojaký: PRÁVO ČINÍ MOC ÚČINNĚJŠÍ, PROTOŽE UMOŽŇUJE VLÁDNOUT BEZ FYZICKÉ PŘÍTOMNOSTI, A ZÁROVEŇ MOC OMEZUJE, PROTOŽE MOC NEVYKONÁVANÁ PODLE PRÁVA SE JEVÍ JAKO NELEGITIMNÍ. Tak či onak směřuje vztah práva a moci PRÁVO K INSTITUCIONALIZACI, i ve společnosti bez státu. Odtud definice: PRÁVNÍ KULTURA JSOU PŘEDSTAVY O PRÁVU A OČEKÁVÁNÍ OD PRÁVA, ZPROVOZNĚNÉ INSTITUCIONÁLNÍMI (ČI JIM PODOBNÝMI) PRAKTIKAMI.",
-      "terms": [
-        { "term": "právní kultura", "def": "Představy o právu a očekávání od práva, zprovozněné institucionálními (či jim podobnými) praktikami." }
-      ],
+      "title": "The definition: what legal culture is",
+      "text": "An important admission: LEGAL CULTURE IS A LABEL WE PUT ON THE OBSERVATIONS WE MAKE. In Norway, for instance, there is only ONE COURT HIERARCHY with mostly general courts and judges who routinely decide civil, criminal, administrative and constitutional matters; specialised courts are few. Supreme Court decisions are regarded as BINDING IN EFFECT but HAVE NO FORMAL BINDING FORCE BEYOND THE CASE AT HAND, and decisions of lower courts not even that. At the same time THERE IS NO REAL CIVIL CODE IN NORWAY nor any other codes, but INDIVIDUAL STATUTES AND A GREAT MANY REGULATIONS, plus precedent and a range of further sources such as PREPARATORY WORKS, CUSTOM AND VALUE CONSIDERATIONS. And now the definition. We call observations of law legal culture BECAUSE THEY INFLUENCE HOW LAW OPERATES, and because they are as a rule governed by IDEAS SHARED AND EXPRESSED IN ACTION WITHOUT MUCH REFLECTION OR ANALYSIS. In this law resembles language and taste. BUT UNLIKE LANGUAGE AND TASTE, LAW IS AN INSTRUMENT OF GOVERNANCE, which ties it to POWER. The relation of law and power is twofold: LAW MAKES POWER MORE EFFECTIVE BECAUSE IT ALLOWS RULE WITHOUT PHYSICAL PRESENCE, AND AT THE SAME TIME LIMITS POWER, BECAUSE POWER NOT EXERCISED ACCORDING TO LAW APPEARS ILLEGITIMATE. Either way, the relation of law and power drives LAW TOWARDS INSTITUTIONALISATION, even in a society without a state. Hence the definition: LEGAL CULTURE IS IDEAS OF AND EXPECTATIONS TO LAW MADE OPERATIONAL BY INSTITUTIONAL (OR INSTITUTION-LIKE) PRACTICES.",
+      "terms": [{"term": "legal culture", "def": "Ideas of and expectations to law, made operational by institutional (or institution-like) practices."}],
       "cards": [
-        {
-          "q": "Jak Sunde definuje právní kulturu?",
-          "a": "Jako PŘEDSTAVY O PRÁVU A OČEKÁVÁNÍ OD PRÁVA, ZPROVOZNĚNÉ INSTITUCIONÁLNÍMI (ČI JIM PODOBNÝMI) PRAKTIKAMI. Je to nálepka na pozorování, která děláme — pojmenováváme jimi to, co ovlivňuje, jak právo funguje, a co řídí sdílené představy projevované jednáním bez velkých úvah.",
-          "difficulty": 2,
-          "kind": "definice",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Čím se právo liší od jazyka a vkusu jako kulturního produktu?",
-          "a": "Tím, že je NÁSTROJEM VLÁDNUTÍ, a je tedy vázáno k MOCI. Vztah je dvojaký: právo činí moc účinnější, protože umožňuje vládnout bez fyzické přítomnosti, a zároveň ji omezuje, protože moc nevykonávaná podle práva se jeví nelegitimní. Obojí žene právo k INSTITUCIONALIZACI, i ve společnosti bez státu.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "How does Sunde define legal culture?", "a": "As IDEAS OF AND EXPECTATIONS TO LAW, MADE OPERATIONAL BY INSTITUTIONAL (OR INSTITUTION-LIKE) PRACTICES. It is a label on the observations we make — naming what influences how law operates and what is governed by shared ideas expressed in action without much reflection.", "difficulty": 2, "kind": "definice", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "How does law differ from language and taste as a cultural product?", "a": "In being an INSTRUMENT OF GOVERNANCE, and therefore tied to POWER. The relation is twofold: law makes power more effective because it allows rule without physical presence, and at the same time limits it, because power not exercised according to law appears illegitimate. Both drive law towards INSTITUTIONALISATION, even in a stateless society.", "difficulty": 3, "kind": "rozliseni", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "5": {
-      "title": "Proč ne 'systém', 'tradice' ani 'rodina'",
-      "text": "Sunde probírá alternativní názvy a každý odmítá z konkrétního důvodu — tohle je typová zkoušková otázka. PRÁVNÍ SYSTÉM má konotaci VĚDOMÉHO KONSTRUKTU PRÁVA SKRZE INSTITUCE, a nesměruje tedy pozornost k roli SDÍLENÝCH A VÍCEMÉNĚ NEVĚDOMÝCH PŘEDSTAV; čistě institucionální přístup třeba nevysvětlí, PROČ V NORSKÝCH SOUDECH TÉMĚŘ NENÍ SPECIALIZACE. PRÁVNÍ TRADICE má opačnou vadu: TÁHNE POZORNOST K PŘEDSTAVÁM A NE KE SDÍLENÝM INSTITUCÍM — rozbor představ o právu plně nevysvětlí, proč se v norském právu pokládá za relevantní celá řada pramenů včetně přípravných prací a precedentu. Nejrelevantnější alternativou je PRÁVNÍ RODINA, oblíbený pojem srovnávacího práva bez konotací k představám ani k institucím. Ale PRÁVNÍ RODINA NAZNAČUJE HIERARCHII S PŮVODEM A ODNOŽEMI A NEODRÁŽÍ SLOŽITOU SKUTEČNOST VLIVŮ A DIALOGU. Ukázka je Norsko: dlouhá, ustálená a vysoce ceněná tradice ROZSÁHLÉHO ZÁKONODÁRSTVÍ v kontinentálním duchu jde ruku v ruce se stejně dlouhou a ceněnou tradicí ROZSÁHLÉHO UŽÍVÁNÍ PRECEDENTU v duchu anglickém. AŤ NORSKÉ PRÁVO ZAŘADÍTE DO KTERÉKOLI PRÁVNÍ RODINY, STANE SE ČERNOU OVCÍ — a protože je to víceméně rys mnoha malých jurisdikcí, nemá dát je všechny do jedné rodiny, do 'SIROTČINCE SROVNÁVACÍHO PRÁVA', žádný vyjasňující účinek.",
+      "title": "Why not 'system', 'tradition' or 'family'",
+      "text": "Sunde goes through the alternative names and rejects each for a specific reason — this is a typical exam question. LEGAL SYSTEM carries the connotation of A DELIBERATE CONSTRUCTION OF LAW THROUGH INSTITUTIONS, and therefore does not direct attention to the role of SHARED AND MORE OR LESS UNCONSCIOUS IDEAS; a purely institutional approach will not explain, for instance, WHY THERE IS ALMOST NO SPECIALISATION IN THE NORWEGIAN COURTS. LEGAL TRADITION has the opposite defect: IT PULLS ATTENTION TOWARDS IDEAS AND AWAY FROM SHARED INSTITUTIONS — an analysis of ideas about law will not fully explain why a whole range of sources including preparatory works and precedent is regarded as relevant in Norwegian law. The most relevant alternative is LEGAL FAMILY, a favourite concept of comparative law with connotations neither to ideas nor to institutions. But LEGAL FAMILY SUGGESTS A HIERARCHY WITH AN ORIGIN AND OFFSHOOTS AND DOES NOT REFLECT THE COMPLEX REALITY OF INFLUENCE AND DIALOGUE. Norway is the illustration: a long, settled and highly valued tradition of EXTENSIVE LEGISLATION in the continental spirit goes hand in hand with an equally long and valued tradition of THE EXTENSIVE USE OF PRECEDENT in the English spirit. WHICHEVER LEGAL FAMILY YOU PUT NORWEGIAN LAW IN, IT BECOMES THE BLACK SHEEP — and since this is more or less a feature of many small jurisdictions, putting them all into one family, into the 'ORPHANAGE OF COMPARATIVE LAW', has no clarifying effect at all.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč Sunde odmítá pojmy 'právní systém' a 'právní tradice'?",
-          "a": "Právní SYSTÉM má konotaci vědomého konstruktu práva skrze instituce, a nesměruje pozornost ke sdíleným, víceméně nevědomým představám — čistě institucionální pohled nevysvětlí, proč v norských soudech není specializace. Právní TRADICE má opačnou vadu: táhne pozornost k představám a ne ke sdíleným institucím, takže nevysvětlí, proč se za prameny práva pokládají i přípravné práce a precedent.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Proč nestačí ani pojem 'právní rodina'? Ukaž to na Norsku.",
-          "a": "Protože naznačuje HIERARCHII s původem a odnožemi a neodráží složitost vlivů a dialogu. Norsko má současně dlouhou tradici ROZSÁHLÉHO ZÁKONODÁRSTVÍ v kontinentálním duchu i ROZSÁHLÉHO UŽÍVÁNÍ PRECEDENTU v duchu anglickém — v kterékoli rodině je proto černou ovcí. A svést všechny takové malé jurisdikce do jedné rodiny, do 'sirotčince srovnávacího práva', nic nevyjasní.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Why does Sunde reject the terms 'legal system' and 'legal tradition'?", "a": "Legal SYSTEM connotes a deliberate construction of law through institutions and does not direct attention to shared, more or less unconscious ideas — a purely institutional view will not explain why there is no specialisation in the Norwegian courts. Legal TRADITION has the opposite defect: it pulls attention to ideas and away from shared institutions, so it will not explain why preparatory works and precedent count as sources of law.", "difficulty": 3, "kind": "rozliseni", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "Why is 'legal family' not enough either? Show it on Norway.", "a": "Because it suggests a HIERARCHY with an origin and offshoots and does not reflect the complexity of influence and dialogue. Norway has at once a long tradition of EXTENSIVE LEGISLATION in the continental spirit and of THE EXTENSIVE USE OF PRECEDENT in the English spirit — in any family it is therefore the black sheep. And herding all such small jurisdictions into one family, into the 'orphanage of comparative law', clarifies nothing.", "difficulty": 3, "kind": "pripad", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "6": {
-      "title": "Právní moře: tři vrstvy",
-      "text": "Model převzatý od KAARLA TUORIHO (Critical Legal Positivism), inspirovaného francouzskou ŠKOLOU ANNALES. Představ si právo jako MOŘE ROZDĚLENÉ DO TŘÍ ÚROVNÍ. NA HLADINĚ jsou SKUTEČNÉ, ČASOVĚ URČENÉ PRÁVNÍ AKTY — třeba konkrétní rozhodnutí Nejvyššího soudu. NA STŘEDNÍ ÚROVNI jsou TRVALEJŠÍ STRÁNKY PRÁVA — třeba představa, ŽE PRECEDENT JE PRAMENEM PRÁVA. NA DNĚ je POKLADNICE PRÁVA: ZÁKLADNÍ IDEJE, třeba ŽE VŮBEC EXISTUJÍ PRAMENY PRÁVA. Přirovnání k jazyku to udělá názorným: na hladině SLOVA, uprostřed GRAMATIKA, na dně TECHNOLOGIE JAZYKA (řeč, psaný dokument, digitální dokument). Slova přicházejí a odcházejí jako judikatura a ustanovení zákonů; JAK SKLOŇUJEME 'POČÍTAČ', SE MĚNÍ MNOHEM MÉNĚ ČASTO — stejně jako to, co se pokládá za pramen práva, je mnohem stálejší než obsah pramenů. A norská časová osa: PŘEDSTAVA PRAMENŮ PRÁVA VZNIKLA VE 13. STOLETÍ, PŘEDSTAVA CELÉ ŘADY PRAMENŮ V 18. STOLETÍ, A V 21. STOLETÍ JE PŘEDSTAVA PRAMENŮ PRÁVA ZPOCHYBŇOVÁNA.",
-      "terms": [
-        { "term": "právní moře", "def": "Tuoriho vrstevnatý model práva: na hladině konkrétní právní akty, uprostřed trvalejší představy (precedent je pramenem), na dně základní ideje (prameny práva vůbec existují)." }
-      ],
+      "title": "The sea of law: three layers",
+      "text": "A model taken from KAARLO TUORI (Critical Legal Positivism), inspired by the French ANNALES SCHOOL. Imagine law as a SEA DIVIDED INTO THREE LEVELS. ON THE SURFACE are ACTUAL, TIME-SPECIFIC LEGAL ACTS — a particular Supreme Court decision, say. AT THE MIDDLE LEVEL are the MORE ENDURING ASPECTS OF LAW — the idea, for instance, THAT PRECEDENT IS A SOURCE OF LAW. AT THE BOTTOM is the TREASURY OF LAW: FUNDAMENTAL IDEAS, such as THAT THERE ARE SOURCES OF LAW AT ALL. The analogy with language makes it vivid: on the surface WORDS, in the middle GRAMMAR, at the bottom THE TECHNOLOGY OF LANGUAGE (speech, the written document, the digital document). Words come and go like case law and statutory provisions; HOW WE INFLECT 'COMPUTER' CHANGES FAR LESS OFTEN — just as what counts as a source of law is far more stable than the content of the sources. And the Norwegian timeline: THE IDEA OF SOURCES OF LAW AROSE IN THE 13TH CENTURY, THE IDEA OF A WHOLE RANGE OF SOURCES IN THE 18TH, AND IN THE 21ST CENTURY THE IDEA OF SOURCES OF LAW IS BEING QUESTIONED.",
+      "terms": [{"term": "the sea of law", "def": "Tuori's layered model of law: on the surface concrete legal acts, in the middle more enduring ideas (precedent is a source), at the bottom fundamental ideas (that sources of law exist at all)."}],
       "cards": [
-        {
-          "q": "Popiš tři vrstvy 'právního moře' a jejich jazykovou obdobu.",
-          "a": "Na hladině konkrétní, časově určené právní akty (rozhodnutí soudu, ustanovení zákona) — v jazyce SLOVA. Uprostřed trvalejší představy, třeba že precedent je pramenem práva — v jazyce GRAMATIKA. Na dně základní ideje, třeba že prameny práva vůbec existují — v jazyce TECHNOLOGIE JAZYKA: řeč, písmo, digitální dokument.",
-          "difficulty": 2,
-          "kind": "schema",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Describe the three layers of the 'sea of law' and their linguistic analogue.", "a": "On the surface concrete, time-specific legal acts (a court decision, a statutory provision) — in language, WORDS. In the middle more enduring ideas, such as that precedent is a source of law — in language, GRAMMAR. At the bottom fundamental ideas, such as that sources of law exist at all — in language, THE TECHNOLOGY OF LANGUAGE: speech, writing, the digital document.", "difficulty": 2, "kind": "schema", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "7": {
-      "title": "Proč vrstvy řeší spor o to, zda je kultura statická",
-      "text": "Vrstevnatost není raketová věda, ale je nesmírně důležitá, PROTOŽE UMOŽŇUJE ZACHÁZET S PRÁVNĚKULTURNÍ ZMĚNOU. Kultura se intuitivně vnímá jako STATICKÁ — skála ční nad mořem změny. A tohle je zároveň pravda i nepravda: PRÁVNÍ KULTURA JE STATICKÁ VE STEJNÉ CHVÍLI, KDY JE DYNAMICKÁ. Norský jazyk i norské právo se mění neustále NA HLADINĚ, tedy na úrovni slov a právních pravidel; mnohem méně často na střední úrovni; a na dně sotva kdy. TO ZNAMENÁ, ŽE PRÁVNÍ KULTURA SE NEUSTÁLE MĚNÍ A ZÁROVEŇ ZMĚNU ZADRŽUJE — JEN NA RŮZNÝCH ÚROVNÍCH. A je toho víc: právní změna je OTÁZKOU SLOŽITÝCH INTERAKCÍ MEZI VRSTVAMI. Změny na hladině mění jen některé jevy; ale mnoho stálých a trvalých změn může nakonec změnit představy na střední úrovni, a ty zase ideje na dně. Pohyb může jít i opačně, SHORA DOLŮ i ZDOLA NAHORU — jenže ANI JEDEN SMĚR SE V ČISTÉ PODOBĚ V PRÁVNÍCH DĚJINÁCH TĚŽKO POZORUJE; jsou to SOUBĚŽNÉ POHYBY. Ukázka: nezdá se, že by představa psaného práva začala psaním čím dál většího počtu jednotlivých ustanovení, ani zavedením psaného kodexu, NÝBRŽ PŘEDSTAVOU PSANÉHO KODEXU A PSANÍM JEDNOTLIVÝCH USTANOVENÍ A ZÁKONŮ ZHRUBA VE STEJNÉ DOBĚ VE 12. STOLETÍ. Právněkulturní změna je tedy DIALEKTICKÝ POHYB MEZI VRSTVAMI. A co model NEPOKRÝVÁ: DŮLEŽITOU ROLI HISTORICKÝCH UDÁLOSTÍ A JEDNOTLIVÝCH AKTÉRŮ — německá zkušenost s nacistickým režimem nebo právní teoretik TORSTEIN ECKHOFF v Norsku.",
+      "title": "Why the layers settle the quarrel about whether culture is static",
+      "text": "Layering is not rocket science, but it is immensely important BECAUSE IT MAKES IT POSSIBLE TO HANDLE LEGAL-CULTURAL CHANGE. Culture is intuitively perceived as STATIC — a rock towering above the sea of change. And this is both true and untrue at once: LEGAL CULTURE IS STATIC AT THE VERY MOMENT AT WHICH IT IS DYNAMIC. Norwegian language and Norwegian law change constantly ON THE SURFACE, that is at the level of words and legal rules; far less often at the middle level; and at the bottom hardly ever. THIS MEANS THAT LEGAL CULTURE IS CONSTANTLY CHANGING AND AT THE SAME TIME RESTRAINING CHANGE — ONLY AT DIFFERENT LEVELS. And there is more: legal change is A MATTER OF COMPLEX INTERACTIONS BETWEEN THE LAYERS. Changes on the surface alter only some phenomena; but many constant and lasting changes can eventually alter the ideas at the middle level, and those in turn the ideas at the bottom. Movement can also go the other way, FROM THE TOP DOWN and FROM THE BOTTOM UP — but NEITHER DIRECTION IS EASY TO OBSERVE IN PURE FORM IN LEGAL HISTORY; they are SIMULTANEOUS MOVEMENTS. An illustration: the idea of written law does not appear to have begun either with the writing of ever more individual provisions or with the introduction of a written code, BUT WITH THE IDEA OF A WRITTEN CODE AND THE WRITING OF INDIVIDUAL PROVISIONS AND STATUTES AT ROUGHLY THE SAME TIME IN THE 12TH CENTURY. Legal-cultural change is therefore A DIALECTICAL MOVEMENT BETWEEN THE LAYERS. And what the model does NOT cover: THE IMPORTANT ROLE OF HISTORICAL EVENTS AND OF INDIVIDUAL ACTORS — the German experience of the Nazi regime, or the legal theorist TORSTEIN ECKHOFF in Norway.",
       "terms": [],
       "cards": [
-        {
-          "q": "Je právní kultura statická, nebo dynamická?",
-          "a": "Obojí zároveň, jen na různých úrovních: neustále se mění na HLADINĚ (slova, právní pravidla), mnohem méně často uprostřed a na DNĚ sotva kdy. Právní kultura se tedy neustále mění A ZÁROVEŇ ZMĚNU ZADRŽUJE.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Probíhá právní změna shora dolů, nebo zdola nahoru? Ukaž na psaném právu.",
-          "a": "Ani jeden směr se v čisté podobě v dějinách nepozoruje — jsou to SOUBĚŽNÉ, DIALEKTICKÉ pohyby mezi vrstvami. Představa psaného práva nezačala ani psaním jednotlivých ustanovení, ani zavedením kodexu, nýbrž PŘEDSTAVOU KODEXU A PSANÍM JEDNOTLIVÝCH USTANOVENÍ ZHRUBA SOUČASNĚ, ve 12. století.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Co model právního moře nezachycuje?",
-          "a": "Roli HISTORICKÝCH UDÁLOSTÍ A JEDNOTLIVÝCH AKTÉRŮ v právní kultuře a v její změně — příkladem je německá zkušenost s nacistickým režimem nebo právní teoretik Torstein Eckhoff v Norsku.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Is legal culture static or dynamic?", "a": "Both at once, only at different levels: it changes constantly ON THE SURFACE (words, legal rules), far less often in the middle, and at the BOTTOM hardly ever. Legal culture is therefore constantly changing AND AT THE SAME TIME RESTRAINING CHANGE.", "difficulty": 3, "kind": "rozliseni", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "Does legal change run from the top down or from the bottom up? Show it on written law.", "a": "Neither direction is observable in pure form in history — they are SIMULTANEOUS, DIALECTICAL movements between the layers. The idea of written law began neither with the writing of individual provisions nor with the introduction of a code, but with THE IDEA OF A CODE AND THE WRITING OF INDIVIDUAL PROVISIONS AT ROUGHLY THE SAME TIME, in the 12th century.", "difficulty": 3, "kind": "pripad", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "What does the model of the sea of law not capture?", "a": "The role of HISTORICAL EVENTS AND INDIVIDUAL ACTORS in legal culture and its change — the German experience of the Nazi regime, or the legal theorist Torstein Eckhoff in Norway.", "difficulty": 2, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "8": {
-      "title": "Právní kultura jako výsledek komunikace",
-      "text": "Krátce: PRÁVNÍ KULTURU VYTVÁŘÍ A UDRŽUJE KOMUNIKACE. Obraz: na Malletově mapě Bergenu je zobrazeno málo obyvatel. Město je na jedné straně tvořeno jednotlivými měšťany, na druhé je MNOHEM VÍC NEŽ JEJICH SOUČTEM — a ten přebytek vytváří VZÁJEMNÁ HRA MEZI NIMI. Totéž platí o právní kultuře: je tvořena jednotlivými jednáními a představami a zároveň je víc než jejich součtem. A tahle vzájemná hra vytváří SPOLEČENSTVÍ V PŘEDSTAVÁCH A JEDNÁNÍ. Jednotlivé odchylky a občas přímé rozpory zůstanou, ale SDÍLENÉHO PŘIBÝVÁ S MÍROU TÉ HRY. Odtud věta, kterou stojí za to podržet: PRÁVNÍ KULTURA NENÍ ÚTVAR, KTERÝ MAŽE ROZDÍLY, NÝBRŽ KTERÝ VYTVÁŘÍ SPOLEČENSTVÍ NAVZDORY ROZDÍLŮM — a její stejnorodost závisí na míře té hry a na tom, nakolik se jí daří společenství vytvořit.",
+      "title": "Legal culture as a product of communication",
+      "text": "Briefly: LEGAL CULTURE IS CREATED AND MAINTAINED BY COMMUNICATION. The image: Mallet's map of Bergen shows few inhabitants. The city is on the one hand made up of individual burghers, on the other it is MUCH MORE THAN THEIR SUM — and that surplus is created by THE INTERPLAY BETWEEN THEM. The same holds of legal culture: it is made up of individual acts and ideas and is at the same time more than their sum. And this interplay creates A COMMUNITY IN IDEAS AND ACTION. Individual deviations and occasionally direct contradictions remain, but WHAT IS SHARED GROWS WITH THE DEGREE OF THAT INTERPLAY. Hence a sentence worth holding on to: LEGAL CULTURE IS NOT AN ENTITY THAT ERASES DIFFERENCES BUT ONE THAT CREATES COMMUNITY DESPITE DIFFERENCES — and its homogeneity depends on the degree of that interplay and on how far it succeeds in creating community.",
       "terms": [],
       "cards": [
-        {
-          "q": "Co podle Sundeho vytváří právní kulturu a co z toho plyne pro rozdíly uvnitř ní?",
-          "a": "KOMUNIKACE, respektive vzájemná hra jednotlivých jednání a představ — právní kultura je víc než jejich součet. A klíčový důsledek: NENÍ TO ÚTVAR, KTERÝ MAŽE ROZDÍLY, NÝBRŽ KTERÝ VYTVÁŘÍ SPOLEČENSTVÍ NAVZDORY ROZDÍLŮM; její stejnorodost závisí na míře té hry.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "What creates legal culture according to Sunde, and what follows for differences within it?", "a": "COMMUNICATION, that is the interplay of individual acts and ideas — legal culture is more than their sum. And the key consequence: IT IS NOT AN ENTITY THAT ERASES DIFFERENCES BUT ONE THAT CREATES COMMUNITY DESPITE DIFFERENCES; its homogeneity depends on the degree of that interplay.", "difficulty": 3, "kind": "definice", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "9": {
-      "title": "Bergen 1683: konkurující si komunikace",
-      "text": "Vždy je tu KONKURUJÍCÍ KOMUNIKACE. V Bergenu roku 1683 žili měšťané z mnoha národů — Mallet psal: 'JEJICH OBYVATELÉ JSOU ČETNÍ A ROZLIČNÝCH NÁRODŮ.' Do poloviny 19. století se říkalo, že KDO CHTĚL V BERGENU OBCHODOVAT, MUSEL KROMĚ NORŠTINY OVLÁDAT ŠEST JAZYKŮ. Skotové, Angličané, Francouzi, Němci, Nizozemci, Dánové i Norové měli své jazyky, doma i ve svých komunitách. Dlouho byli nejmocnější NĚMCI, protože Bergen byl JEDNÍM ZE ČTYŘ KONTORŮ HANZY MIMO SVATOU ŘÍŠI ŘÍMSKOU. A s právem to bylo stejně: KAŽDÁ Z TĚCH SKUPIN ZČÁSTI UPLATŇOVALA VLASTNÍ OBCHODNÍ PRAVIDLA UVNITŘ SEBE, a každý ze skladů podél přístavu měl SOUSEDSKÝ SOUD, který uplatňoval vlastní normy — ale byl tu i MĚSTSKÝ SOUD pro věci mezi členy různých skupin. NĚMECKÝ KUPEC U HANZOVNÍHO KONTORU BYL TEDY SOUČÁSTÍ NĚMECKÉ I NORSKÉ PRÁVNÍ KULTURY ZÁROVEŇ. V 16. století byly komunikační struktury Kontoru nejrozsáhlejší a nejúčinnější, takže ho ovlivňovaly nejvíc; V 18. STOLETÍ TO BYLO OPAČNĚ A NĚMEČTÍ KUPCI BYLI POMALU PŘITAHOVÁNI K NORSKÉ PRÁVNÍ KULTUŘE. Tohle není jen historická situace: v dnešním Norsku mají SÁMOVÉ vlastní právní kulturu, protože mají vlastní komunikační struktury — a kvůli kočovnému způsobu života a dlouho neurčeným hranicím je ovlivňovaly i ŠVÉDSKÁ A RUSKÁ právní kultura. Zároveň s evropskou integrací přes Radu Evropy a EU vzrostla příslušnost k EVROPSKÉ PRÁVNÍ KULTUŘE u Norů i Sámů.",
+      "title": "Bergen 1683: competing communication",
+      "text": "There is always COMPETING COMMUNICATION. In Bergen in 1683 there lived burghers of many nations — Mallet wrote: 'ITS INHABITANTS ARE NUMEROUS AND OF DIVERS NATIONS.' Into the mid-19th century it was said that ANYONE WHO WANTED TO TRADE IN BERGEN HAD TO MASTER SIX LANGUAGES BESIDES NORWEGIAN. Scots, English, French, Germans, Dutch, Danes and Norwegians all had their own languages, at home and in their communities. For a long time the most powerful were the GERMANS, because Bergen was ONE OF THE FOUR HANSEATIC KONTORS OUTSIDE THE HOLY ROMAN EMPIRE. And with law it was the same: EACH OF THOSE GROUPS PARTLY APPLIED ITS OWN COMMERCIAL RULES AMONG ITSELF, and each of the warehouses along the harbour had a NEIGHBOURHOOD COURT applying its own norms — but there was also a TOWN COURT for matters between members of different groups. A GERMAN MERCHANT AT THE HANSEATIC KONTOR WAS THEREFORE PART OF GERMAN AND NORWEGIAN LEGAL CULTURE AT ONCE. In the 16th century the communication structures of the Kontor were the most extensive and effective, so they influenced him most; IN THE 18TH CENTURY IT WAS THE OTHER WAY ROUND AND THE GERMAN MERCHANTS WERE SLOWLY DRAWN TOWARDS NORWEGIAN LEGAL CULTURE. This is not merely a historical situation: in today's Norway the SÁMI have their own legal culture because they have their own communication structures — and because of their nomadic way of life and long-undetermined borders they were also influenced by SWEDISH AND RUSSIAN legal culture. At the same time, with European integration through the Council of Europe and the EU, belonging to a EUROPEAN LEGAL CULTURE has grown for Norwegians and Sámi alike.",
       "terms": [],
       "cards": [
-        {
-          "q": "Jak Bergen roku 1683 ukazuje soužití právních kultur?",
-          "a": "Každá národnostní skupina zčásti uplatňovala vlastní obchodní pravidla uvnitř sebe a každý sklad podél přístavu měl SOUSEDSKÝ SOUD; pro věci mezi skupinami byl MĚSTSKÝ SOUD. Německý kupec u hanzovního Kontoru byl tedy součástí německé i norské právní kultury zároveň — a podle toho, čí komunikační struktury byly zrovna účinnější, převažoval v 16. století vliv Kontoru a v 18. století norský.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "How does Bergen in 1683 illustrate the coexistence of legal cultures?", "a": "Each national group partly applied its own commercial rules among itself and each warehouse along the harbour had a NEIGHBOURHOOD COURT; for matters between groups there was a TOWN COURT. A German merchant at the Hanseatic Kontor was therefore part of German and Norwegian legal culture at once — and depending on whose communication structures were the more effective, the Kontor's influence prevailed in the 16th century and the Norwegian in the 18th.", "difficulty": 3, "kind": "pripad", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "10": {
-      "title": "Základní jednotka NENÍ národní právní kultura",
-      "text": "Z předchozího by se dalo vyvodit, že základní právněkulturní jednotkou je NÁRODNÍ právní kultura. NENÍ TOMU TAK — a Sunde to vyvrací zpětně: říct, že německý kupec v Bergenu se musel vztahovat k německé a norské právní kultuře, JE POHLED ZPĚTNÝ, protože ROKU 1683 ŽÁDNÁ JEDNOTNÁ NĚMECKÁ ANI NORSKÁ PRÁVNÍ KULTURA NEEXISTOVALA. Svatá říše římská byla rozdělena do VÍCE NEŽ 300 JURISDIKČNÍCH JEDNOTEK, zčásti s vlastními normami a soudními hierarchiemi, tedy zčásti s vlastními právními kulturami. Norsko mělo jednotné právo a soudní hierarchii od středověku, ale jejich jednotnost byla V 15. STOLETÍ TĚŽCE OSLABENA. SPRÁVNĚJŠÍ JE TEDY ŘÍCT, ŽE TEN KUPEC SE VZTAHOVAL K PRÁVNÍ KULTUŘE LÜBECKU A BERGENU. Teprve za víc než dvě staletí se národ rozvinul jako politická jednotka se silnými a účinnými komunikačními strukturami a stal se V EVROPĚ NAPROSTO PŘEVLÁDAJÍCÍ PRÁVNĚKULTURNÍ JEDNOTKOU. Přesto Sámové díky vlastním účinným strukturám jako právní kultura PŘEŽILI — a na evropské úrovni vznikly struktury tak účinné, že v nich někdo vidí OHROŽENÍ NÁRODNÍ PRÁVNÍ KULTURY.",
+      "title": "The basic unit is NOT the national legal culture",
+      "text": "From the foregoing one might infer that the basic legal-cultural unit is the NATIONAL legal culture. IT IS NOT — and Sunde refutes it retrospectively: to say that the German merchant in Bergen had to relate to German and Norwegian legal culture IS A BACKWARD-LOOKING VIEW, because IN 1683 NO UNIFIED GERMAN OR NORWEGIAN LEGAL CULTURE EXISTED. The Holy Roman Empire was divided into MORE THAN 300 JURISDICTIONAL UNITS, partly with their own norms and court hierarchies, and therefore partly with their own legal cultures. Norway had a unified law and court hierarchy from the Middle Ages, but their unity was SEVERELY WEAKENED IN THE 15TH CENTURY. IT IS THEREFORE MORE ACCURATE TO SAY THAT THE MERCHANT RELATED TO THE LEGAL CULTURE OF LÜBECK AND OF BERGEN. Only more than two centuries later did the nation develop as a political unit with strong and effective communication structures and become THE ABSOLUTELY DOMINANT LEGAL-CULTURAL UNIT IN EUROPE. Even so, the Sámi SURVIVED as a legal culture thanks to their own effective structures — and at the European level structures have arisen so effective that some see in them A THREAT TO NATIONAL LEGAL CULTURE.",
       "terms": [],
       "cards": [
-        {
-          "q": "Je národní právní kultura základní jednotkou? Doloží to Sunde příkladem?",
-          "a": "Není. Roku 1683 žádná jednotná německá ani norská právní kultura neexistovala: Svatá říše byla rozdělena do více než 300 jurisdikčních jednotek a norská jednotnost byla v 15. století těžce oslabena — správně by se mělo mluvit o právní kultuře LÜBECKU A BERGENU. Národ převládl jako právněkulturní jednotka teprve po dvou staletích budování účinných komunikačních struktur.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Is the national legal culture the basic unit? Does Sunde prove it by an example?", "a": "It is not. In 1683 no unified German or Norwegian legal culture existed: the Holy Roman Empire was divided into more than 300 jurisdictional units and Norwegian unity had been severely weakened in the 15th century — one should properly speak of the legal culture of LÜBECK AND OF BERGEN. The nation prevailed as a legal-cultural unit only after two centuries of building effective communication structures.", "difficulty": 3, "kind": "pripad", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "11": {
-      "title": "Dělení právní kultury: čtyři starší návrhy",
-      "text": "Potíž s pojmem právní kultura je, že se někdy užívá ZASTÍRAVĚ MÍSTO ODHALUJÍCÍM ZPŮSOBEM. Když se ptáme, proč jsou v Norsku po staletí důležitými prameny zákony i precedent, dá se to 'vysvětlit' tím, že je to právní kulturou. ALE TO JE JEN NÁLEPKA NA NEZNÁMÉ, KTERÁ SAMA NIC NEVYSVĚTLUJE. Pojmenovat jev právní kulturou je TEPRVE ZAČÁTEK, NE KONEC. Nutný další krok: ZEPTAT SE, JAKÉ STRUKTURNÍ PRVKY PRÁVNÍ KULTURY Z PRECEDENTU UDĚLALY DŮLEŽITÝ PRAMEN. Tradice dělení je dlouhá a rozmanitá. FRANZ WIEACKER, 'Foundations of European Legal Culture' (přednáška 1983, vydáno 1985), zkoumal 1) PERSONALISMUS, 2) LEGALISMUS, 3) INTELEKTUALISMUS. ZWEIGERT A KÖTZ (1984/1992) definovali 1) HISTORICKÉ POZADÍ, 2) ZPŮSOB MYŠLENÍ, 3) INSTITUCE, 4) PRAMENY PRÁVA, 5) IDEOLOGII — jako prvky utvářející STYL PRÁVNÍ RODINY (ne kultury). VAN HOECKE A WARRINGTON (1999) pracovali s 1) POJMEM PRÁVA, 2) PRAMENY, 3) PRÁVNÍ METODOU, 4) ARGUMENTACÍ, 5) LEGITIMACÍ, 6) IDEOLOGIÍ. A CEES VAN DAMM (2009) zkoumal 1) INDIVIDUALISMUS vs KOLEKTIVISMUS, 2) MASKULINITU vs FEMININITU, 3) VYHÝBÁNÍ SE NEJISTOTĚ, 4) MOCENSKÝ ODSTUP, 5) DLOUHODOBOU vs KRÁTKODOBOU ORIENTACI. A závěr, který je sám o sobě metodickým poučením: NENÍ SPRÁVNÉ A NESPRÁVNÉ DĚLENÍ, JEN OTÁZKA, CO SLOUŽÍ ÚČELU — Wieacker dělal právněhistorický průzkum, Zweigert a Kötz měli současný a praktičtější přístup, van Hoecke a Warrington badatelský, a van Damm mířil na rozdíly v evropském deliktním právu.",
+      "title": "Dividing legal culture: four earlier proposals",
+      "text": "The trouble with the concept of legal culture is that it is sometimes used in a CONCEALING rather than a REVEALING way. If we ask why statutes and precedent have both been important sources in Norway for centuries, it can be 'explained' by saying that this is its legal culture. BUT THAT IS MERELY A LABEL ON THE UNKNOWN, WHICH EXPLAINS NOTHING IN ITSELF. To name a phenomenon legal culture is ONLY THE BEGINNING, NOT THE END. The necessary next step: TO ASK WHICH STRUCTURAL ELEMENTS OF THE LEGAL CULTURE MADE PRECEDENT AN IMPORTANT SOURCE. The tradition of dividing it is long and varied. FRANZ WIEACKER, 'Foundations of European Legal Culture' (lecture 1983, published 1985), examined 1) PERSONALISM, 2) LEGALISM, 3) INTELLECTUALISM. ZWEIGERT AND KÖTZ (1984/1992) defined 1) HISTORICAL BACKGROUND, 2) MODE OF THOUGHT, 3) INSTITUTIONS, 4) SOURCES OF LAW, 5) IDEOLOGY — as the elements constituting the STYLE OF A LEGAL FAMILY (not a culture). VAN HOECKE AND WARRINGTON (1999) worked with 1) THE CONCEPT OF LAW, 2) SOURCES, 3) LEGAL METHOD, 4) ARGUMENTATION, 5) LEGITIMATION, 6) IDEOLOGY. And CEES VAN DAMM (2009) examined 1) INDIVIDUALISM vs COLLECTIVISM, 2) MASCULINITY vs FEMININITY, 3) UNCERTAINTY AVOIDANCE, 4) POWER DISTANCE, 5) LONG-TERM vs SHORT-TERM ORIENTATION. And the conclusion, which is itself a methodological lesson: THERE IS NO CORRECT AND INCORRECT DIVISION, ONLY THE QUESTION OF WHAT SERVES THE PURPOSE — Wieacker was making a legal-historical survey, Zweigert and Kötz had a contemporary and more practical approach, van Hoecke and Warrington a scholarly one, and van Damm was aiming at differences in European tort law.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč nestačí říct, že něco je 'dáno právní kulturou'?",
-          "a": "Protože to je JEN NÁLEPKA NA NEZNÁMÉ, která sama nic nevysvětluje — pojem se tak užívá zastíravě místo odhalujícím způsobem. Pojmenovat jev právní kulturou je teprve ZAČÁTEK; nutným dalším krokem je zeptat se, JAKÉ STRUKTURNÍ PRVKY ten jev způsobily.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Existuje správné dělení právní kultury na prvky?",
-          "a": "Ne — jen otázka, CO SLOUŽÍ ÚČELU. Wieacker (personalismus, legalismus, intelektualismus) dělal právněhistorický průzkum; Zweigert a Kötz (historické pozadí, způsob myšlení, instituce, prameny, ideologie) měli praktický přístup ke stylu právní RODINY; van Hoecke a Warrington badatelský; van Damm (individualismus vs kolektivismus atd.) mířil na evropské deliktní právo.",
-          "difficulty": 3,
-          "kind": "srovnani",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Why is it not enough to say that something is 'due to legal culture'?", "a": "Because that is MERELY A LABEL ON THE UNKNOWN which explains nothing in itself — the concept is then used in a concealing rather than a revealing way. To name a phenomenon legal culture is only the BEGINNING; the necessary next step is to ask WHICH STRUCTURAL ELEMENTS produced it.", "difficulty": 3, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "Is there a correct division of legal culture into elements?", "a": "No — only the question of WHAT SERVES THE PURPOSE. Wieacker (personalism, legalism, intellectualism) was making a legal-historical survey; Zweigert and Kötz (historical background, mode of thought, institutions, sources, ideology) had a practical approach to the style of a legal FAMILY; van Hoecke and Warrington a scholarly one; van Damm (individualism vs collectivism and so on) was aiming at European tort law.", "difficulty": 3, "kind": "srovnani", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "12": {
-      "title": "Sundeho model: dvě struktury, šest prvků",
-      "text": "TOHLE JE JÁDRO CELÉHO ČLÁNKU A NEJDŮLEŽITĚJŠÍ VĚC K ZAPAMATOVÁNÍ. Sunde dělí právní kulturu nejprve na STRUKTURU INSTITUCIONÁLNÍ A INTELEKTUÁLNÍ a pak na ŠEST STRUKTURNÍCH PRVKŮ: 1) ŘEŠENÍ KONFLIKTŮ, 2) PRODUKCE NOREM, 3) IDEA SPRAVEDLNOSTI, 4) PRÁVNÍ METODA, 5) PROFESIONALIZACE, 6) INTERNACIONALIZACE. Dohromady tvoří PRÁVNĚKULTURNÍ MODEL. První dva patří do struktury INSTITUCIONÁLNÍ, zbylé čtyři do INTELEKTUÁLNÍ. Sunde k tomu přiznává dvě věci: MODEL SI NEMŮŽE NÁROKOVAT UNIVERZÁLNÍ PLATNOST — a zároveň se OSVĚDČIL V PŘEKVAPIVĚ ROZDÍLNÝCH KONTEXTECH, v neposlední řadě proto, že je PRUŽNÝ CO DO DŮKLADNOSTI zkoumání. Podle tohoto modelu je postaven každý článek v knize: proto mají kapitoly o Anglii a Walesu, Skotsku, Rakousku, Estonsku, Finsku a Číně tytéž oddíly.",
-      "terms": [
-        { "term": "právněkulturní model", "def": "Dvě struktury — institucionální a intelektuální — a šest prvků: řešení konfliktů, produkce norem, idea spravedlnosti, právní metoda, profesionalizace, internacionalizace." }
-      ],
+      "title": "Sunde's model: two structures, six elements",
+      "text": "THIS IS THE CORE OF THE WHOLE ARTICLE AND THE MOST IMPORTANT THING TO REMEMBER. Sunde divides legal culture first into an INSTITUTIONAL and an INTELLECTUAL STRUCTURE and then into SIX STRUCTURAL ELEMENTS: 1) CONFLICT RESOLUTION, 2) NORM PRODUCTION, 3) THE IDEA OF JUSTICE, 4) LEGAL METHOD, 5) PROFESSIONALISATION, 6) INTERNATIONALISATION. Together they form the LEGAL-CULTURAL MODEL. The first two belong to the INSTITUTIONAL structure, the remaining four to the INTELLECTUAL one. Sunde admits two things about it: THE MODEL CANNOT CLAIM UNIVERSAL VALIDITY — and at the same time it has PROVED ITSELF IN SURPRISINGLY DIFFERENT CONTEXTS, not least because it is FLEXIBLE AS TO THE THOROUGHNESS of the investigation. Every article in the book is built on this model: that is why the chapters on England and Wales, Scotland, Austria, Estonia, Finland and China have the same sections.",
+      "terms": [{"term": "the legal-cultural model", "def": "Two structures — institutional and intellectual — and six elements: conflict resolution, norm production, the idea of justice, legal method, professionalisation, internationalisation."}],
       "cards": [
-        {
-          "q": "Vyjmenuj šest strukturních prvků Sundeho právněkulturního modelu a jejich rozdělení do dvou struktur.",
-          "a": "INSTITUCIONÁLNÍ struktura: 1) řešení konfliktů, 2) produkce norem. INTELEKTUÁLNÍ struktura: 3) idea spravedlnosti, 4) právní metoda, 5) profesionalizace, 6) internacionalizace.",
-          "difficulty": 2,
-          "kind": "schema",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Nárokuje si Sundeho model univerzální platnost?",
-          "a": "Nenárokuje — Sunde to výslovně přiznává. Zároveň tvrdí, že se osvědčil v překvapivě rozdílných kontextech, hlavně proto, že je PRUŽNÝ co do důkladnosti zkoumání.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Name the six structural elements of Sunde's legal-cultural model and their division into two structures.", "a": "INSTITUTIONAL structure: 1) conflict resolution, 2) norm production. INTELLECTUAL structure: 3) the idea of justice, 4) legal method, 5) professionalisation, 6) internationalisation.", "difficulty": 2, "kind": "schema", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "Does Sunde's model claim universal validity?", "a": "It does not — Sunde says so expressly. At the same time he claims it has proved itself in surprisingly different contexts, chiefly because it is FLEXIBLE as to the thoroughness of the investigation.", "difficulty": 2, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "13": {
-      "title": "Institucionální struktura: konflikty a normy",
-      "text": "Institucionální struktura jsou INSTITUCE, VE KTERÝCH SE PRÁVO UTVÁŘÍ RŮZNÝMI PRAKTIKAMI. Nejzákladnější jsou ty, které ŘEŠÍ KONFLIKTY — prostě proto, že ŘEŠENÍ KONFLIKTŮ JE NEJZÁKLADNĚJŠÍM POŽADAVKEM SPOLEČNOSTI VŮČI JEJÍMU PRÁVNÍMU ŘÁDU; právě jím může ve společnosti převládnout mír a bezpečí. PRODUKCE NOREM je činnost, která se od řešení konfliktů POSTUPNĚ ASPOŇ ZČÁSTI OSAMOSTATNILA. Ten vývoj je dobré umět v krocích: PŮVODNĚ SE PRÁVNÍ NORMY PRODUKOVALY ROZHODOVÁNÍM PŘÍPADŮ — pokaždé, když se vyřešil konflikt, vznikla norma. Postupem času se ty normy ZNOVU UŽÍVALY V PODOBNÝCH PŘÍPADECH a objevila se JUDIKATURA. Judikaturu ale mohl SYSTEMATIZOVAT A ROZVÍJET ZÁKONODÁRCE, který pak mohl ZAČÍT ZÁKONODÁRSTVÍ NEZÁVISLE NA SOUDNÍ PRAXI a tím vytvořit novou institucionalizovanou praxi uvnitř práva. POSLEDNÍM KROKEM JSOU KODIFIKACE. Tak se zákonodárství stalo převládající metodou produkce norem. ALE PRECEDENT NEBYL ZÁKONODÁRSTVÍM VE VŠECH PRÁVNÍCH KULTURÁCH PŘEKONÁN a ve většině hraje dál roli — A TA ROLE ROSTE V OBDOBÍ INTERNACIONALIZACE PRÁVA, HNANÉ VPŘED TRANSNACIONÁLNÍMI SOUDY A JEJICH JUDIKATUROU.",
+      "title": "The institutional structure: conflicts and norms",
+      "text": "The institutional structure consists of THE INSTITUTIONS IN WHICH LAW IS SHAPED BY VARIOUS PRACTICES. The most fundamental are those that RESOLVE CONFLICTS — simply because CONFLICT RESOLUTION IS THE MOST BASIC DEMAND A SOCIETY MAKES OF ITS LEGAL ORDER; it is by this that peace and security can prevail in a society. NORM PRODUCTION is an activity that has GRADUALLY, AT LEAST IN PART, BECOME INDEPENDENT of conflict resolution. That development is worth knowing in steps: ORIGINALLY LEGAL NORMS WERE PRODUCED BY DECIDING CASES — each time a conflict was resolved, a norm arose. In time those norms were REUSED IN SIMILAR CASES and CASE LAW appeared. Case law could then be SYSTEMATISED AND DEVELOPED BY A LEGISLATOR, who could go on to BEGIN LEGISLATING INDEPENDENTLY OF JUDICIAL PRACTICE and thereby create a new institutionalised practice within law. THE LAST STEP IS CODIFICATION. In this way legislation became the dominant method of norm production. BUT PRECEDENT HAS NOT BEEN SUPERSEDED BY LEGISLATION IN ALL LEGAL CULTURES and in most it still plays a role — AND THAT ROLE IS GROWING IN THE PERIOD OF THE INTERNATIONALISATION OF LAW, DRIVEN FORWARD BY TRANSNATIONAL COURTS AND THEIR CASE LAW.",
       "terms": [],
       "cards": [
-        {
-          "q": "Popiš vývoj produkce norem od rozhodování případů ke kodifikaci.",
-          "a": "Původně se normy produkovaly ROZHODOVÁNÍM PŘÍPADŮ — každé vyřešení konfliktu bylo normou. Ty se pak znovu užívaly v podobných případech a vznikla JUDIKATURA. Judikaturu mohl systematizovat ZÁKONODÁRCE, který začal legislativu nezávisle na soudní praxi. Posledním krokem jsou KODIFIKACE. Precedent ale nebyl všude překonán — a jeho role roste s internacionalizací hnanou transnacionálními soudy.",
-          "difficulty": 3,
-          "kind": "proces",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Proč je řešení konfliktů nejzákladnější institucí právní kultury?",
-          "a": "Protože ŘEŠENÍ KONFLIKTŮ JE NEJZÁKLADNĚJŠÍM POŽADAVKEM SPOLEČNOSTI VŮČI PRÁVNÍMU ŘÁDU — právě jím může ve společnosti převládnout mír a bezpečí. Produkce norem se od něj teprve postupně a jen zčásti osamostatnila.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Describe the development of norm production from deciding cases to codification.", "a": "Originally norms were produced by DECIDING CASES — every resolution of a conflict was a norm. These were then reused in similar cases and CASE LAW arose. Case law could be systematised by a LEGISLATOR, who then began legislating independently of judicial practice. The last step is CODIFICATION. Precedent, however, was not superseded everywhere — and its role grows with an internationalisation driven by transnational courts.", "difficulty": 3, "kind": "proces", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "Why is conflict resolution the most fundamental institution of a legal culture?", "a": "Because CONFLICT RESOLUTION IS THE MOST BASIC DEMAND A SOCIETY MAKES OF ITS LEGAL ORDER — it is by this that peace and security can prevail. Norm production became independent of it only gradually and only in part.", "difficulty": 2, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "14": {
-      "title": "Intelektuální struktura: spravedlnost, metoda, profese, internacionalizace",
-      "text": "Produkce a použití norem se neděje v intelektuálním vzduchoprázdnu. Nejzákladnější je IDEA SPRAVEDLNOSTI. Sunde to vyostřuje: KONFLIKTY VYŘEŠENÉ SVÉVOLNĚ, TŘEBA LOSEM, JSOU LEPŠÍ NEŽ KONFLIKTY NEVYŘEŠENÉ — proto se v zoufalých situacích losovalo. ALE ŘEŠENÍ, KTERÁ SE PROŽÍVAJÍ JAKO SPRAVEDLIVÁ, MAJÍ MNOHEM VYŠŠÍ MÍRU LEGITIMITY, a jsou proto přijímána častěji a šíře. Co se pokládá za spravedlivé, NENÍ STÁLÉ a liší se místo od místa, čas od času, A MŮŽE SE LIŠIT I MEZI PRÁVNÍMI OBORY — přesto vždy bude nějaká PŘEVLÁDAJÍCÍ idea spravedlnosti. PRÁVNÍ METODA je to, co ideu spravedlnosti ZPROVOZŇUJE: je to prostě ZPŮSOB, JÍMŽ SE IDEJE SPRAVEDLNOSTI PROMĚŇUJÍ Z HODNOT A RŮZNÝCH PRAMENŮ V PRÁVNÍ PRAVIDLA UŽITÁ K ROZHODNUTÍ KONKRÉTNÍHO SPORU. Jejím úkolem je také VYTVOŘIT DOST TĚSNÝ RÁMEC PRO JINAK NEJISTÝ POSTUP OD PRÁVNÍ SUROVINY K VYTŘÍBENÉMU PRAVIDLU, A UČINIT HO INTERSUBJEKTIVNÍM. PROFESIONALIZACE znamená dvojí: že ti, kdo právo spravují jménem společnosti, mu věnují ČÍM DÁL VÍC SVÉHO ČASU, a že existují ZVLÁŠTNÍ KRITÉRIA, KTERÁ MUSÍ SPLNIT, než jim je právo svěřeno. A všechny druhy profesionalizace mají TÝŽ ÚČINEK: DÁVAJÍ PRÁVNÍKŮM VNITŘNÍ POHLED NA PRÁVO — dobré právo je v očích profesionála čím dál víc otázkou VNITŘNÍ SOUVZTAŽNOSTI, zatímco pro neprofesionála zůstává otázkou SPRAVEDLNOSTI V JEDNOTLIVÉM PŘÍPADĚ. INTERNACIONALIZACE je tu vztažena na VŠECHNY DRUHY VLIVU PRÁVNÍHO MATERIÁLU VYROBENÉHO ZA HRANICEMI JURISDIKCE. Odůvodnění: mění-li se společnost, musí se měnit i právo; JEN VÝJIMEČNĚ SE DÁ PRÁVO MĚNIT NA ZÁKLADĚ POUHÉHO EXPERIMENTU, obvykle stojí reformy NA ZKUŠENOSTI — a hlavní prameny zkušenosti jsou DĚJINY A SROVNÁVACÍ PRÁVO. Rozsáhlé užívání srovnávacího práva při reformách dělá z práva SPOLEČENSKÉHO A KULTURNÍHO NOMÁDA.",
+      "title": "The intellectual structure: justice, method, profession, internationalisation",
+      "text": "The production and application of norms does not happen in an intellectual vacuum. The most fundamental element is the IDEA OF JUSTICE. Sunde sharpens it: CONFLICTS RESOLVED ARBITRARILY, BY LOT SAY, ARE BETTER THAN CONFLICTS LEFT UNRESOLVED — which is why lots were drawn in desperate situations. BUT SOLUTIONS EXPERIENCED AS JUST HAVE A FAR HIGHER DEGREE OF LEGITIMACY, and are therefore accepted more often and more widely. What counts as just IS NOT CONSTANT and differs from place to place, from time to time, AND MAY EVEN DIFFER BETWEEN BRANCHES OF LAW — yet there will always be some PREVAILING idea of justice. LEGAL METHOD is what MAKES THE IDEA OF JUSTICE OPERATIONAL: it is simply THE WAY IN WHICH IDEAS OF JUSTICE ARE TRANSFORMED FROM VALUES AND VARIOUS SOURCES INTO LEGAL RULES APPLIED TO DECIDE A PARTICULAR DISPUTE. Its further task is TO CREATE A FRAMEWORK TIGHT ENOUGH FOR AN OTHERWISE UNCERTAIN PASSAGE FROM LEGAL RAW MATERIAL TO A REFINED RULE, AND TO MAKE IT INTERSUBJECTIVE. PROFESSIONALISATION means two things: that those who administer law on society's behalf devote MORE AND MORE OF THEIR TIME to it, and that there are SPECIAL CRITERIA THEY MUST MEET before law is entrusted to them. And all kinds of professionalisation have THE SAME EFFECT: THEY GIVE LAWYERS AN INTERNAL VIEW OF LAW — good law becomes, in the professional's eyes, increasingly a matter of INTERNAL COHERENCE, while for the non-professional it remains a matter of JUSTICE IN THE PARTICULAR CASE. INTERNATIONALISATION here refers to ALL KINDS OF INFLUENCE OF LEGAL MATERIAL PRODUCED OUTSIDE THE JURISDICTION. The reasoning: if society changes, law must change too; ONLY EXCEPTIONALLY CAN LAW BE CHANGED ON THE BASIS OF MERE EXPERIMENT, and reforms usually rest ON EXPERIENCE — and the main sources of experience are HISTORY AND COMPARATIVE LAW. The extensive use of comparative law in reform makes law A SOCIAL AND CULTURAL NOMAD.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč nestačí konflikt vyřešit svévolně, když i los je lepší než nic?",
-          "a": "Protože řešení prožívaná jako SPRAVEDLIVÁ mají mnohem vyšší míru LEGITIMITY, a jsou proto přijímána častěji a šíře. Los byl prostředkem zoufalých situací. Co se pokládá za spravedlivé přitom není stálé — liší se místem, časem i právním oborem, ale vždy nějaká idea převládá.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Co je právní metoda a jaké má dva úkoly?",
-          "a": "Způsob, jímž se ideje spravedlnosti PROMĚŇUJÍ Z HODNOT A PRAMENŮ PRÁVA V PRAVIDLA užitá k rozhodnutí konkrétního sporu. Jejím druhým úkolem je vytvořit DOST TĚSNÝ RÁMEC pro jinak nejistý postup od právní suroviny k vytříbenému pravidlu a učinit ho INTERSUBJEKTIVNÍM.",
-          "difficulty": 3,
-          "kind": "definice",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Jaký účinek má profesionalizace na to, co se pokládá za dobré právo?",
-          "a": "Všechny druhy profesionalizace dávají právníkům VNITŘNÍ POHLED NA PRÁVO: dobré právo je pro profesionála čím dál víc otázkou VNITŘNÍ SOUVZTAŽNOSTI, zatímco pro neprofesionála zůstává otázkou SPRAVEDLNOSTI V JEDNOTLIVÉM PŘÍPADĚ.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Proč Sunde říká, že právo je 'společenský a kulturní nomád'?",
-          "a": "Protože mění-li se společnost, musí se měnit právo, a jen výjimečně se dá měnit pouhým experimentem — reformy stojí na ZKUŠENOSTI, jejímiž hlavními prameny jsou DĚJINY A SROVNÁVACÍ PRÁVO. Rozsáhlé užívání srovnávacího práva při reformách proto právo neustále stěhuje přes hranice.",
-          "difficulty": 3,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Why is it not enough to resolve a conflict arbitrarily, if even a lot is better than nothing?", "a": "Because solutions experienced as JUST have a far higher degree of LEGITIMACY, and are therefore accepted more often and more widely. The lot was a device of desperate situations. What counts as just is not constant — it differs by place, time and branch of law, but some idea always prevails.", "difficulty": 3, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "What is legal method and what are its two tasks?", "a": "The way in which ideas of justice are TRANSFORMED FROM VALUES AND SOURCES OF LAW INTO RULES applied to decide a particular dispute. Its second task is to create a FRAMEWORK TIGHT ENOUGH for the otherwise uncertain passage from legal raw material to a refined rule, and to make it INTERSUBJECTIVE.", "difficulty": 3, "kind": "definice", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "What effect does professionalisation have on what counts as good law?", "a": "All kinds of professionalisation give lawyers an INTERNAL VIEW OF LAW: good law becomes for the professional increasingly a matter of INTERNAL COHERENCE, while for the non-professional it remains a matter of JUSTICE IN THE PARTICULAR CASE.", "difficulty": 3, "kind": "rozliseni", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "Why does Sunde say that law is a 'social and cultural nomad'?", "a": "Because if society changes law must change, and it can only exceptionally be changed by mere experiment — reforms rest on EXPERIENCE, whose main sources are HISTORY AND COMPARATIVE LAW. The extensive use of comparative law in reform therefore keeps moving law across borders.", "difficulty": 3, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "15": {
-      "title": "Model v akci: proč je v Norsku precedent pramenem práva",
-      "text": "Ukázka, jak se modelem odpovídá na otázku, kterou by jinak šlo jen 'nálepkovat'. ŘEŠENÍ KONFLIKTŮ: v Norsku je JEDNA soudní hierarchie téměř bez specializovaných soudů na kterékoli úrovni — tedy téměř PYRAMIDA s Nejvyšším soudem na vrcholu, který může PŘEDÁVAT PRECEDENT VŠEM NIŽŠÍM SOUDŮM. PRODUKCE NOREM: Norsko je řízeno asi 700 ZÁKONY A 10 000 NAŘÍZENÍMI, ale ŽÁDNÝM KODEXEM; snahy o harmonizaci existují, ale BEZ SYSTÉMU PRÁVA, JAKÝ DÁVÁ KONTINENTÁLNÍ KODIFIKACE, POTŘEBUJE ZÁKONNÉ PRÁVO JINOU SJEDNOCUJÍCÍ SÍLU — a tu roli hraje Nejvyšší soud svým precedentem. IDEA SPRAVEDLNOSTI: to je možné proto, že jí není přísná předvídatelnost, nýbrž že SE PRÁVO MÁ PŘI POUŽITÍ PŘIZPŮSOBIT, ABY DALO V JEDNOTLIVÉM PŘÍPADĚ SLUŠNÝ VÝSLEDEK — a nástrojem, aby se ta praxe nestala svévolnou, je právě precedent Nejvyššího soudu, který přizpůsobování sjednocuje. PRÁVNÍ METODA proto NENÍ PŘÍSNĚ DEDUKTIVNÍ, nýbrž užívá ŘADU PRAMENŮ, aby bylo použití pružné, ale ne svévolné. PROFESIONALIZACE: k tomu se hodí, že LAICKÍ SOUDCI hrají dál významnou roli v trestních věcech (v civilních dnes mnohem menší) a že se norská právní věda NESNAŽILA VYTVOŘIT SYSTÉM PRÁVA, který by roli precedentu nahradil. INTERNACIONALIZACE, zvlášť lidskoprávní, byla ZČÁSTI HNANÁ SOUDY, s Nejvyšším soudem v čele sjednocování norem vyrobených uvnitř i vně norské jurisdikce.",
+      "title": "The model in action: why precedent is a source of law in Norway",
+      "text": "An illustration of how the model answers a question that could otherwise only be 'labelled'. CONFLICT RESOLUTION: Norway has ONE court hierarchy with almost no specialised courts at any level — that is, almost a PYRAMID with the Supreme Court at the apex, able to TRANSMIT PRECEDENT TO ALL THE LOWER COURTS. NORM PRODUCTION: Norway is governed by some 700 STATUTES AND 10,000 REGULATIONS but by NO CODE; efforts at harmonisation exist, but WITHOUT THE SYSTEM OF LAW THAT A CONTINENTAL CODIFICATION PROVIDES, STATUTORY LAW NEEDS ANOTHER UNIFYING FORCE — and that role is played by the Supreme Court through its precedent. THE IDEA OF JUSTICE: this is possible because justice is not strict predictability but the idea THAT LAW SHOULD BE ADAPTED IN APPLICATION SO AS TO GIVE A DECENT RESULT IN THE INDIVIDUAL CASE — and the instrument that keeps this practice from becoming arbitrary is precisely Supreme Court precedent, which unifies the adaptation. LEGAL METHOD is therefore NOT STRICTLY DEDUCTIVE but uses A RANGE OF SOURCES, so that application is flexible without being arbitrary. PROFESSIONALISATION: it helps that LAY JUDGES still play a significant role in criminal matters (much less in civil ones today) and that Norwegian legal scholarship HAS NOT SOUGHT TO CREATE A SYSTEM OF LAW that would replace the role of precedent. INTERNATIONALISATION, especially in human rights, has been PARTLY DRIVEN BY THE COURTS, with the Supreme Court leading the unification of norms produced inside and outside Norwegian jurisdiction.",
       "terms": [],
       "cards": [
-        {
-          "q": "Proč je v Norsku precedent pramenem práva? Odpověz přes model.",
-          "a": "Řešení konfliktů: jedna téměř pyramidální hierarchie bez specializace, takže Nejvyšší soud může předat precedent všem. Produkce norem: asi 700 zákonů a 10 000 nařízení, ale ŽÁDNÝ KODEX — zákonné právo potřebuje jinou sjednocující sílu. Idea spravedlnosti: ne přísná předvídatelnost, ale přizpůsobení práva pro slušný výsledek, které precedent sjednocuje. Metoda: ne deduktivní, nýbrž s řadou pramenů. Profesionalizace: laičtí soudci a právní věda bez ambice vytvořit systém. Internacionalizace: hnaná soudy.",
-          "difficulty": 3,
-          "kind": "pripad",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        }
+        {"q": "Why is precedent a source of law in Norway? Answer through the model.", "a": "Conflict resolution: one almost pyramidal hierarchy without specialisation, so the Supreme Court can transmit precedent to all. Norm production: some 700 statutes and 10,000 regulations but NO CODE — statutory law needs another unifying force. The idea of justice: not strict predictability but adaptation of law for a decent result, which precedent unifies. Method: not deductive but drawing on a range of sources. Professionalisation: lay judges, and a scholarship with no ambition to build a system. Internationalisation: driven by the courts.", "difficulty": 3, "kind": "pripad", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     },
     "16": {
-      "title": "Tři výhrady k modelu — a vnitřní versus vnější právní kultura",
-      "text": "Sunde uzavírá třemi upozorněními. ZA PRVÉ: NE VŠECHNY STRUKTURNÍ PRVKY JSOU PRO ODPOVĚĎ NA DANOU OTÁZKU RELEVANTNÍ. ZA DRUHÉ: MOHOU EXISTOVAT DALŠÍ PRVKY, KTERÉ VE ZJEDNODUŠENÉM MODELU NEJSOU — do institucionální struktury by šlo přidat PRÁVNÍ VZDĚLÁVÁNÍ (v Norsku rozhodně zahrnuje precedent) a do intelektuální PRÁVNÍ IDEOLOGII (v Norsku PRÁVNÍ REALISMUS, který přizpůsobování práva praxí povyšuje na ideál). ZA TŘETÍ, a to je ta nejdůležitější výhrada: MODEL SE TÝKÁ JEN VNITŘNÍ PRÁVNÍ KULTURY, TEDY TÉ, KTEROU SDÍLEJÍ LIDÉ PRACUJÍCÍ S PRÁVEM. VNĚJŠÍ PRÁVNÍ KULTURA, zahrnující VŠECHNY PODROBENÉ dané právní kultuře, JE MNOHEM ŠIRŠÍ A DO MODELU SE VLOŽIT NEDÁ — patří do ní faktory jako HOSPODÁŘSTVÍ A NÁBOŽENSTVÍ, které mohou být pro právní kulturu relevantní, ale NEJSOU SVOU POVAHOU PRÁVNÍ. Vztah obou je jako vztah mapy Bergenu na přední straně knihy a mapy Evropy na zadní: BERGEN JE V EVROPĚ JEN NEPATRNÝ BOD, STEJNĚ JAKO JE VNITŘNÍ PRÁVNÍ KULTURA JEN NEPATRNÝM BODEM V OBECNÉ KULTUŘE SPOLEČNOSTI. A přesto — JEDETE-LI DO BERGENU, POTŘEBUJETE MAPU BERGENU.",
-      "terms": [
-        { "term": "vnitřní × vnější právní kultura", "def": "Vnitřní sdílejí ti, kdo pracují s právem, a pokrývá ji model. Vnější zahrnuje všechny podrobené dané kultuře, je mnohem širší a patří do ní i hospodářství a náboženství — do modelu se nevejde." }
-      ],
+      "title": "Three caveats about the model — and internal versus external legal culture",
+      "text": "Sunde closes with three warnings. FIRST: NOT ALL STRUCTURAL ELEMENTS ARE RELEVANT TO ANSWERING A GIVEN QUESTION. SECOND: THERE MAY BE FURTHER ELEMENTS NOT PRESENT IN THE SIMPLIFIED MODEL — one could add LEGAL EDUCATION to the institutional structure (in Norway it certainly includes precedent) and LEGAL IDEOLOGY to the intellectual one (in Norway LEGAL REALISM, which elevates the adaptation of law by practice into an ideal). THIRD, and this is the most important caveat: THE MODEL CONCERNS ONLY THE INTERNAL LEGAL CULTURE, THAT IS, THE ONE SHARED BY PEOPLE WORKING WITH LAW. THE EXTERNAL LEGAL CULTURE, comprising ALL THOSE SUBJECT to a given legal culture, IS MUCH BROADER AND CANNOT BE FITTED INTO THE MODEL — it includes factors such as THE ECONOMY AND RELIGION, which may be relevant to legal culture but ARE NOT LEGAL IN NATURE. The relation of the two is like the relation of the map of Bergen on the front of the book to the map of Europe on the back: BERGEN IS BUT A TINY DOT IN EUROPE, JUST AS THE INTERNAL LEGAL CULTURE IS BUT A TINY DOT IN THE GENERAL CULTURE OF A SOCIETY. And yet — IF YOU ARE GOING TO BERGEN, YOU NEED A MAP OF BERGEN.",
+      "terms": [{"term": "internal vs external legal culture", "def": "The internal is shared by those working with law and is what the model covers. The external comprises all those subject to the culture, is much broader and includes the economy and religion — it does not fit into the model."}],
       "cards": [
-        {
-          "q": "Jaký je rozdíl mezi vnitřní a vnější právní kulturou?",
-          "a": "VNITŘNÍ je ta, kterou sdílejí lidé pracující s právem — jen tu model pokrývá. VNĚJŠÍ zahrnuje všechny podrobené dané právní kultuře, je mnohem širší a do modelu se vložit nedá; patří do ní faktory jako hospodářství a náboženství, které mohou být relevantní, ale nejsou svou povahou právní.",
-          "difficulty": 3,
-          "kind": "rozliseni",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "core"
-        },
-        {
-          "q": "Které prvky by šlo do modelu ještě přidat?",
-          "a": "Do institucionální struktury PRÁVNÍ VZDĚLÁVÁNÍ (v Norsku zahrnuje precedent) a do intelektuální PRÁVNÍ IDEOLOGII — v Norsku právní realismus, který z přizpůsobování práva praxí dělá ideál. Model je zjednodušení, ne uzavřený seznam.",
-          "difficulty": 2,
-          "kind": "basic",
-          "topic": "Constitutionalism & Norm Production I",
-          "priority": "extra"
-        }
+        {"q": "What is the difference between internal and external legal culture?", "a": "The INTERNAL is the one shared by people working with law — only that is covered by the model. The EXTERNAL comprises all those subject to the legal culture, is much broader and cannot be fitted into the model; it includes factors such as the economy and religion, which may be relevant but are not legal in nature.", "difficulty": 3, "kind": "rozliseni", "topic": "Constitutionalism & Norm Production I", "priority": "core"},
+        {"q": "Which elements could still be added to the model?", "a": "LEGAL EDUCATION to the institutional structure (in Norway it includes precedent) and LEGAL IDEOLOGY to the intellectual one — in Norway legal realism, which makes an ideal of adapting law through practice. The model is a simplification, not a closed list.", "difficulty": 2, "kind": "basic", "topic": "Constitutionalism & Norm Production I", "priority": "core"}
       ],
       "vision_used": false
     }
