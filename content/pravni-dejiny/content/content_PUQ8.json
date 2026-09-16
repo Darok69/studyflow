@@ -1,27 +1,13 @@
 {
   "lecture_id": "PUQ8",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Otázky 8",
   "title": "Otázky a prameny, cvičení VIII — tvorba norem, kodifikace, historická škola",
-  "source_file": "raw/PUQ8_questions-and-sources-unit-8.pdf",
-  "source_sha256": "0d0646ac013f487546d2fbf2f1add93b4fad623d943b50da402002b4f30dc490",
-  "source_pages": 2,
-  "slides_per_page": 1,
-  "slide_count": 6,
-  "updated_at": "2026-09-15T12:55:42+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PUQ8/PUQ8_s001.webp",
+  "free_sections": true,
+  "slides": {
+    "1": {
       "title": "Prameny tvorby norem a příklad ke každému",
       "text": "Otázka chce VÝČET S PŘÍKLADY, tedy ne jen jmenovat. (1) ZÁKON (zákonodárství) — obecná norma vydaná k tomu povolaným orgánem do budoucna; příklad ABGB (1811), Code civil (1804), BGB (1900). Uvnitř něj se rozlišují stupně: ÚSTAVA, ZÁKON, NAŘÍZENÍ. (2) OBYČEJ (zvykové právo) — dlouhodobá praxe (LONGA CONSUETUDO) spojená s přesvědčením o závaznosti (OPINIO IURIS); příklad francouzské COUTUMES, německé Weistümer, dodnes obchodní zvyklosti a v mezinárodním právu obyčej jako plnohodnotný pramen. (3) SOUDNÍ ROZHODOVÁNÍ (judikatura, precedens) — v common law PRAMEN PRÁVA v pravém smyslu se závazností podle STARE DECISIS (Donoghue v. Stevenson, Marbury v. Madison); na kontinentě formálně pramenem není, fakticky ale ano, zvlášť u nejvyšších a ústavních soudů. (4) PRÁVNÍ VĚDA (nauka) — v Římě RESPONSA právníků, ve středověku GLOSSA ORDINARIA ('co neuznává glosa, neuznává soud'), u pandektistů systematika, která se pak vtělila do BGB; dnes už pramenem není, ale vykládá a připravuje. (5) SMLOUVA — jako pramen objektivního práva zejména v mezinárodním právu (Vestfálský mír 1648, Versailleská smlouva 1919, Římské smlouvy 1957), ale i KOLEKTIVNÍ SMLOUVA v pracovním právu. (6) PRIVILEGIUM A JEDNOTLIVÝ AKT VRCHNOSTI — ve středověku a raném novověku běžný pramen (Privilegium minus 1156, Zlatá bula 1356). (7) NÁBOŽENSKÝ TEXT A JEHO VÝKLAD — Tóra a Talmud, Korán a sunna, kanonické právo. (8) PŘIROZENÉ PRÁVO — pramen svého druhu, který slouží jako měřítko a zdroj argumentů (čl. 16 Deklarace 1789, § 16 ABGB, dnes ius cogens a lidská práva). POINTA, KTEROU SI ODNES: KTERÝ PRAMEN JE HLAVNÍ, SE V DĚJINÁCH MĚNÍ — ve středověku obyčej a nález, v raném novověku učená nauka, od kodifikací zákon, a ve 20. století sílí soudní rozhodování; právě ten přesun je osou celého předmětu.",
       "terms": [
-        {
-          "term": "longa consuetudo + opinio iuris",
-          "def": "Dvě podmínky obyčeje: dlouhodobá praxe a přesvědčení o její závaznosti."
-        }
+        { "term": "longa consuetudo + opinio iuris", "def": "Dvě podmínky obyčeje: dlouhodobá praxe a přesvědčení o její závaznosti." }
       ],
       "cards": [
         {
@@ -41,18 +27,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 2078,
-      "text_sha": "e9cda27548f102d6",
-      "pdf_page": 1
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "img": "img/PUQ8/PUQ8_s002.webp",
+    "2": {
       "title": "První kodifikace soukromého práva a co bylo nové",
       "text": "HISTORICKÝ KONTEXT: druhá polovina 18. a začátek 19. století, tedy OSVÍCENSTVÍ, ROZUMOVÉ PŘIROZENÉ PRÁVO A OSVÍCENSKÝ ABSOLUTISMUS. Panovník chce JEDNOTNÝ, PŘEHLEDNÝ A ROZUMNÝ ŘÁD pro celé území — jednak proto, aby zvládl spravovat rozrůstající se stát, jednak proto, že věří, že rozum takový řád dokáže odvodit. REGIONY: střední a kontinentální Evropa — BAVORSKO (Codex Maximilianeus Bavaricus Civilis, 1756), PRUSKO (Allgemeines Landrecht, 1794), FRANCIE (Code civil, 1804), RAKOUSKO (ABGB, 1811). Anglie se kodifikaci vyhnula. CO BYLO ZÁSADNĚ NOVÉ PROTI DOSAVADNÍ ZÁKONODÁRNÉ TECHNICE — a tohle je jádro otázky: (1) ÚPLNOST — kodex chce upravit CELÝ OBOR, ne jednotlivé případy; nemá mít mezery. (2) VÝLUČNOST — DEROGUJE VŠECHNO DOSAVADNÍ PRÁVO v daném oboru, tedy i obyčej a ius commune; napříště platí jen kodex. (3) SYSTEMATIČNOST — látka je uspořádána podle logického plánu (instituční nebo pandektní systém), ne podle nahodilého pořadí případů. (4) ABSTRAKTNOST A OBECNOST — normy jsou psány jako obecná pravidla, ne kazuisticky 'jestliže — potom'. (5) JEDNOTNOST OSOBNÍ A ÚZEMNÍ — platí pro VŠECHNY OBYVATELE území bez ohledu na stav, čímž se boří stavovské a partikulární právo. (6) SROZUMITELNOST — má být čitelný i pro nevzdělaného, protože právo má být poznatelné (odtud ostatně i jazyk: ABGB je německy, ne latinsky). PROČ KODIFIKACE EVROPSKÉHO STYLU ZÍSKALY VE 19. A 20. STOLETÍ TAKOVÝ VLIV MIMO EVROPU: (a) KOLONIÁLNÍ VNUCENÍ v přímo ovládaných územích; (b) NUCENÉ 'OTEVŘENÍ' a snaha zbavit se KAPITULACÍ a konzulární jurisdikce — Japonsko, Osmanská říše, Egypt, Siam přijímaly evropské kodexy, aby dokázaly 'civilizovanost' a dosáhly zrušení výsad cizinců; (c) MODERNIZAČNÍ VOLBA místních elit, pro které byl kodex nástrojem sjednocení a budování státu (Turecko 1926 přebírá švýcarský ZGB); (d) PRESTIŽ A PRAKTIČNOST — hotový, vyzkoušený text se přejímá snáz než vlastní staletý vývoj; (e) POTŘEBA SVĚTOVÉHO TRHU, který vyžaduje srozumitelné smluvní a vlastnické právo.",
       "terms": [],
@@ -82,18 +59,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 756,
-      "text_sha": "ecaf912eebc08da4",
-      "pdf_page": 2
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "Pramen: § 16 ABGB — vrozená práva",
       "text": "PRAMEN: '§ 16: Každý člověk má vrozená práva, již rozumem poznatelná, a jest tudíž považovati jej za osobu. Otroctví nebo nevolnictví a výkon moci k tomu se vztahující se v těchto zemích nepřipouští.' EVROPSKÝ KONTEXT: je to text z roku 1811, tedy po Francouzské revoluci a v době napoleonských válek. Věta o vrozených právech poznatelných ROZUMEM je čistě přirozenoprávní a patří do téže rodiny jako americká Deklarace nezávislosti (1776) a francouzská Deklarace (1789). RAKOUSKÝ KONTEXT A VÝVOJ K ABGB: (1) MARIE TEREZIE zřizuje roku 1753 KOMPILAČNÍ KOMISI, jejímž plodem je CODEX THERESIANUS (1766) — příliš obsáhlý, kazuistický a stavovský, proto nepřijat. (2) JOSEF II. vydává roku 1786 JOSEFÍNSKÝ ZÁKONÍK, ale jen první díl (právo osob) — obsahuje mimo jiné odstranění stavovských rozdílů v soukromém právu a civilní manželství. (3) ZRUŠENÍ NEVOLNICTVÍ patentem roku 1781 je hmotným předpokladem § 16. (4) Práce pokračují za Leopolda II. a Františka II., komisi vede KARL ANTON VON MARTINI a po něm FRANZ VON ZEILLER, žák Kantův a vlastní tvůrce konečné podoby. (5) ZKUŠEBNÍ PROVOZ: Západohaličský zákoník (1797) se vyzkoušel v nově získaných územích a po úpravách se stal základem. (6) 1. ČERVNA 1811 je ABGB vyhlášen, s účinností od 1. ledna 1812, pro NĚMECKÉ DĚDIČNÉ ZEMĚ (tedy ne pro Uhry). NADĚJE, KTERÉ SE DO TÉ VĚTY VKLÁDALY: rovnost všech před soukromým právem bez ohledu na stav a vyznání; právní subjektivita každého člověka jako OSOBY, tedy zákaz zacházet s člověkem jako s věcí; definitivní konec osobní nesvobody; a představa, že právo lze odvodit z rozumu a učinit je univerzálním. POZADÍ: osvícenství, Kantova filozofie autonomie (Zeiller byl kantovec), zrušení nevolnictví a atmosféra po revoluci. OBAVY, KTERÉ TAKOVÁ VĚTA V POZITIVNÍM PRÁVU BUDILA, A U KOHO: (a) u ŠLECHTY a držitelů panství strach ze ztráty vrchnostenských práv a robotních povinností — a právem, protože § 16 sice zrušil nevolnictví, ale ROBOTA A PODDANSTVÍ ZŮSTALY AŽ DO ROKU 1848; (b) u PANOVNICKÉHO DVORA A POLICIE obava, že přirozenoprávní jazyk je JAZYKEM REVOLUCE a může posloužit k odvození politických práv proti státu — proto zůstává omezen na právo soukromé a nic neříká o vztahu občana k moci; (c) u CÍRKVE obava ze sekularizace a ztráty vlivu na manželské právo; (d) a obecně u konzervativců obava, že se právo odtrhne od historicky daných poměrů — což je přesně výtka, kterou o čtyřicet let později vysloví Thun.",
       "terms": [],
@@ -123,19 +91,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Zákonodárce proti soudům: od zákazu výkladu k § 7 ABGB",
       "text": "NAPĚTÍ: zákonodárce chce, aby se jeho vůle uplatnila přesně; soudce musí rozhodnout i tam, kde zákon mlčí nebo je nejasný — a tím právo dotváří. Osvícenský zákonodárce tomu nedůvěřoval, a to ze zkušenosti: francouzské PARLEMENTY byly předrevolučními soudními dvory, které si osobovaly právo registrovat (a tedy blokovat) královské akty a vykládat je po svém, takže soudce byl vnímán jako mocenský konkurent. NÁSTROJ, KTERÝM SE MOC SOUDŮ OMEZOVALA, JE ZÁKAZ VÝKLADU A POVINNOST DOTAZU: soudce nesměl zákon vykládat a v pochybnostech se musel OBRÁTIT NA ZÁKONODÁRCE, aby autenticky vyložil — francouzsky RÉFÉRÉ LÉGISLATIF (zavedený roku 1790), v Prusku obdobně u ALR s ustanovením zákonodárné komise. Předpokladem byla představa BEZMEZEROVITÉHO KODEXU a soudce jako 'ÚST ZÁKONA' (Montesquieu: la bouche de la loi). CO S TÍM UDĚLAL ABGB — a to je pointa otázky: OPUSTIL TO. § 6 ABGB VÝSLOVNĚ SOUDCI VÝKLAD UKLÁDÁ: zákonu se nesmí přikládat jiný smysl než ten, který plyne z vlastního významu slov v jejich souvislosti a z jasného úmyslu zákonodárce. A § 7 řeší mezery: nelze-li případ rozhodnout ani ze slov, ani z přirozeného smyslu zákona, PŘIHLÉDNE SE K PODOBNÝM PŘÍPADŮM (ANALOGIE ZÁKONA), pak k důvodům jiných příbuzných zákonů (ANALOGIE PRÁVA), a nakonec se rozhodne PODLE PŘIROZENÝCH ZÁSAD PRÁVNÍCH (natürliche Rechtsgrundsätze), s ohledem na pečlivě zjištěné okolnosti. TO JE POZORUHODNÉ PŘIZNÁNÍ: kodex sám počítá s tím, že MEZERY MÁ, a svěřuje soudci, aby je vyplnil — a to dokonce s odkazem na přirozené právo. ROZDÍL OD FRANCOUZSKÉ TRADICE: (1) Francie zavedla référé législatif a soudci zakázala tvořit obecná pravidla — ČL. 5 CODE CIVIL dodnes zakazuje rozhodovat formou obecného ustanovení (zákaz ARRÊTS DE RÈGLEMENT), takže rozsudek zavazuje jen ve své věci; (2) zároveň ale ČL. 4 CODE CIVIL trestá DENEGATIO IUSTITIAE — soudce, který odmítne rozhodnout pro mlčení, nejasnost či nedostatečnost zákona, se dopouští odepření spravedlnosti; kodex tedy soudce nutí rozhodnout, ale nepřizná mu, že tím tvoří právo. (3) Francouzské pojetí zůstává EXEGETICKÉ (ŠKOLA EXEGEZE 19. století: 'neznám občanské právo, učím Code Napoléon'), zatímco rakouské je od počátku otevřenější a doktrína i judikatura tam mají větší prostor. (4) Référé législatif se ve Francii ukázal jako neprovozuschopný a byl roku 1837 opuštěn — praxe si výklad vzala zpátky.",
       "terms": [
-        {
-          "term": "référé législatif",
-          "def": "Povinnost soudce obrátit se v pochybnostech na zákonodárce o autentický výklad; ve Francii 1790, opuštěn 1837."
-        }
+        { "term": "référé législatif", "def": "Povinnost soudce obrátit se v pochybnostech na zákonodárce o autentický výklad; ve Francii 1790, opuštěn 1837." }
       ],
       "cards": [
         {
@@ -163,19 +125,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Historická právní škola",
       "text": "VZNIK: Německo po roce 1814, v atmosféře protinapoleonského vzepětí a romantismu. Spouštěčem je SPOR O KODIFIKACI: A. F. J. THIBAUT vydá roku 1814 spis 'O nutnosti obecného občanského práva pro Německo' a žádá jednotný německý zákoník podle francouzského vzoru; FRIEDRICH CARL VON SAVIGNY odpoví ještě téhož roku spisem 'O POVOLÁNÍ NAŠÍ DOBY K ZÁKONODÁRSTVÍ A PRÁVNÍ VĚDĚ' a tvrdí, že DOBA K TOMU POVOLÁNA NENÍ. ARGUMENTY PROTI OSVÍCENSKÝM KODIFIKACÍM: (1) právo NELZE VYMYSLET Z ROZUMU jako matematiku — není to konstrukce, nýbrž ORGANICKÝ VÝRŮSTEK; (2) kodifikace ZMRAZÍ PRÁVO v jednom okamžiku a znemožní jeho další růst; (3) německá právní věda na to ještě NENÍ ZRALÁ, chybí jí historické poznání vlastního práva; (4) univerzalistický nárok rozumového přirozeného práva PŘEHLÍŽÍ ZVLÁŠTNOST NÁRODŮ; (5) a existující kodifikace jsou podle nich vědecky nedostatečné. NA ČEM PODLE NICH PRÁVO STOJÍ: NA 'DUCHU NÁRODA' (VOLKSGEIST). Právo vzniká stejně jako jazyk a mravy — TIŠE, POSTUPNĚ, Z VNITŘNÍ SÍLY NÁRODA, ne z libovůle zákonodárce; jeho pravou formou je OBYČEJ, a zákon je jen jeho zachycením. METODY: (1) HISTORICKÁ — studium pramenů v jejich vlastní době, filologická přesnost, edice textů (odtud obrovské kritické vydání pramenů); (2) SYSTEMATICKÁ — vypracování pojmů a jejich vnitřních souvislostí, tedy budování 'systému'; obojí spojuje Savignyho 'SYSTÉM DNEŠNÍHO ŘÍMSKÉHO PRÁVA' (1840–49). Škola se rozdělí na ROMANISTY (Savigny, Puchta, Windscheid — právo se hledá v recipovaném římském právu) a GERMANISTY (Eichhorn, Beseler, Gierke — hledají ho v germánských pramenech a vytýkají romanistům, že národním duchem nazývají právo cizí). HYBNOU SILOU VÝVOJE PRÁVA JE PODLE NICH PRÁVNÍ VĚDA A JEJÍ NOSITELÉ, TEDY UČENÝ STAV PRÁVNÍKŮ. To je paradox, který stojí za zapamatování: PRÁVO MÁ PRÝ VYRŮSTAT Z DUCHA NÁRODA, ALE MLUVČÍM TOHO DUCHA JE PROFESOR PRÁVA, NE LID. Z toho také plyne, že škola nakonec přece jen ke kodifikaci vede: pandektistika, kterou zplodila, dala BGB (1900) jeho pojmy i systém.",
       "terms": [
-        {
-          "term": "Volksgeist",
-          "def": "Duch národa — zdroj práva podle historické školy; právo vzniká jako jazyk a mravy, tiše a postupně."
-        }
+        { "term": "Volksgeist", "def": "Duch národa — zdroj práva podle historické školy; právo vzniká jako jazyk a mravy, tiše a postupně." }
       ],
       "cards": [
         {
@@ -203,12 +159,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Pramen: Thunova řeč z 11. května 1852",
       "text": "PRAMEN: 'Všeobecný občanský zákoník, právem nejslavnější právní kompendium novější doby, není, jako každé lidské dílo, prost vad. Vyrostl ze školy filozofické, tehdy téměř všeobecně panující, přes kterou však věda mezitím pokročila; ze školy, která NEPOKLÁDALA OBČANSKÉ PRÁVO ZA ŘÁD ZALOŽENÝ NA VYŠŠÍCH MRAVNÍCH ZÁKONECH A NA HISTORICKY DANÝCH SKUTEČNÝCH POMĚRECH, nýbrž za PRODUKT SPEKULACE LIDSKÉHO ROZUMU. Tento názor ODTRHL RAKOUSKOU JURISPRUDENCI OD JEJÍCH HISTORICKÝCH ZÁKLADŮ.' JAK A NA JAKÉM ZÁKLADĚ SE ABGB KRITIZUJE: ne pro jednotlivá ustanovení, nýbrž PRO JEHO FILOZOFICKÝ ZÁKLAD. Vytýká se mu, že vyrostl z ROZUMOVÉHO PŘIROZENÉHO PRÁVA, tedy ze 'spekulace lidského rozumu', a že proto postrádá dvojí ukotvení — v MRAVNÍM ŘÁDU (rozuměj křesťanském) a v HISTORICKY DANÝCH POMĚRECH. Kritika je tedy vedena z pozic HISTORICKÉ PRÁVNÍ ŠKOLY, a to v její konzervativní, katolicky zabarvené verzi. HISTORICKÝ KONTEXT: LEO THUN-HOHENSTEIN byl ministrem kultu a vyučování v letech 1849–1860, tedy v období NOVOABSOLUTISMU po porážce revoluce 1848 a po Silvestrovských patentech (1851), které zrušily ústavu i základní práva. Thun provedl zásadní REFORMU UNIVERZIT (svoboda vědy a výuky podle německého vzoru, habilitace, semináře) a zároveň PŘESTAVBU PRÁVNICKÉHO STUDIA: posílil historické obory — římské právo, německé a rakouské právní dějiny, kanonické právo — na úkor přirozeného práva, které z výuky prakticky zmizelo. Jeho řeč z roku 1852 je programovým odůvodněním právě téhle změny. PRÁVNÍ CHÁPÁNÍ AUTORA: právo NENÍ VÝTVOREM ROZUMU, nýbrž ŘÁDEM DANÝM ZVENČÍ — vyšším mravním zákonem (a tedy nakonec náboženstvím) a dějinami. Zákonodárce ho má nacházet a rozvíjet, ne konstruovat. Právní věda proto musí být HISTORICKÁ, ne spekulativní, a právník má být vzdělán v dějinách svého práva. IRONIE, KTEROU JE DOBRÉ ZMÍNIT: Thunova reforma studia byla nesporně modernizační a Rakousku přinesla vědeckou právní historii na evropské úrovni — ale její motiv byl restaurační, totiž odstranit z výuky přirozenoprávní jazyk, kterým se dalo argumentovat proti moci.",
       "terms": [],
@@ -238,8 +191,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

@@ -1,27 +1,13 @@
 {
   "lecture_id": "PUQ4",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Otázky 4",
   "title": "Otázky a prameny, cvičení IV — recepce, common law, ius gentium",
-  "source_file": "raw/PUQ4_questions-and-sources-unit-4-ws-2025.pdf",
-  "source_sha256": "d236c74c859ce0dd038afe2ce03ef569bc2eed53457d7b459cb87cfe1e8e6bce",
-  "source_pages": 2,
-  "slides_per_page": 2,
-  "slide_count": 7,
-  "updated_at": "2026-09-15T12:55:20+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PUQ4/PUQ4_s001.webp",
+  "free_sections": true,
+  "slides": {
+    "1": {
       "title": "Jak probíhala recepce ius commune v raném novověku",
       "text": "(Otázky 1 až 3 tohoto listu — lotharská legenda, usus modernus a poměr humanismu k němu — jsou totožné s otázkami 14 až 16 cvičení III a jsou vyloženy tam.) RECEPCE V RANÉM NOVOVĚKU není jednorázový akt, nýbrž PROCES O NĚKOLIKA VRSTVÁCH, a zkoušející chce vidět, že rozeznáš jeho nositele. (1) PŘES UNIVERZITY A ABSOLVENTY: od 15. století se šlechta i města začínají opírat o právníky s doktorátem; kdo umí jen ius commune, řeší jím i to, co jím řešeno být nemělo. (2) PŘES SOUDNÍ ORGANIZACI: nejsilnějším jednotlivým krokem je ŘÍŠSKÝ KOMORNÍ SOUD (1495) s pravidlem, že ius commune platí z úřední povinnosti, zatímco partikulární právo musí strana předložit a prokázat; to zvýhodnění se přeneslo i na soudy zemské. (3) PŘES AKTENVERSENDUNG: německá zvláštnost, kdy soud zaslal spisy PRÁVNICKÉ FAKULTĚ, aby rozhodla — tím se učené právo dostávalo přímo do rozsudků. (4) PŘES ZÁKONODÁRSTVÍ ÚZEMNÍCH PÁNŮ: zemská zřízení, policejní řády a trestní řády se psaly učeným jazykem; CONSTITUTIO CRIMINALIS CAROLINA (1532) je toho nejznámějším příkladem. (5) PŘES KANONICKÉ PRÁVO, které se recipovalo souběžně a vneslo do praxe procesní formy, manželské právo i zásadu dobré víry. HRANICE RECEPCE: nikdy nešlo o převzetí celku — v každé zemi platilo jen to, co praxe přijala (odtud desuetudo usu moderna), a ve Francii a Anglii zůstala recepce omezená z důvodů popsaných v cvičení III. VÝSLEDKEM JE 'GEMEINES RECHT', OBECNÉ PRÁVO, KTERÉ NENÍ ANI ČISTĚ ŘÍMSKÉ, ANI DOMÁCÍ, NÝBRŽ SMĚSÍ — a právě tahle směs je látkou, ze které pak kodifikace tesaly.",
       "terms": [
-        {
-          "term": "Aktenversendung",
-          "def": "Zaslání soudních spisů právnické fakultě, aby rozhodla — kanál, kterým se učené právo dostalo přímo do rozsudků."
-        }
+        { "term": "Aktenversendung", "def": "Zaslání soudních spisů právnické fakultě, aby rozhodla — kanál, kterým se učené právo dostalo přímo do rozsudků." }
       ],
       "cards": [
         {
@@ -41,26 +27,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 1368,
-      "text_sha": "3912c3d1d999a919",
-      "pdf_page": 1,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "img": "img/PUQ4/PUQ4_s002.webp",
+    "2": {
       "title": "Normanský vpád a odpoutání Anglie od římského práva",
       "text": "MĚL NORMANSKÝ VPÁD VLIV? ANO, A ZÁSADNÍ — ale ne ten, který by se čekal. Vilém Dobyvatel po roce 1066 ANGLOSASKÉ PRÁVO FORMÁLNĚ NEZRUŠIL; naopak sliboval zachovat 'zákony Eduarda Vyznavače'. Co udělal, bylo něco jiného a důležitějšího: (1) ZAVEDL DŮSLEDNÝ LENNÍ SYSTÉM, ve kterém je KRÁL VRCHNÍM VLASTNÍKEM VŠÍ PŮDY a všichni drží od něj — odtud pozdější anglické pozemkové právo s doktrínou ESTATES a TENURES, které nezná římské vlastnictví; (2) VYTVOŘIL SILNOU CENTRÁLNÍ SPRÁVU, jejímž dokladem je DOMESDAY BOOK (1086), soupis celé země; (3) položil základ KRÁLOVSKÝM SOUDŮM, které se od 12. století za JINDŘICHA II. rozvinou v soustavu s PUTUJÍCÍMI SOUDCI, SYSTÉMEM WRITŮ a POROTOU. PRÁVĚ TA ČASOVÁ SHODA JE ODPOVĚĎ NA DRUHOU ČÁST OTÁZKY: ve chvíli, kdy se na kontinentu objevuje znovunalezený Corpus iuris a začíná recepce, má Anglie UŽ VYBUDOVANÝ FUNGUJÍCÍ KRÁLOVSKÝ SOUDNÍ SYSTÉM S VLASTNÍM PRÁVEM A VLASTNÍM STAVEM PRÁVNÍKŮ. Odpoutání tedy není jednorázovým rozhodnutím, nýbrž důsledkem toho, že RECEPCE PŘIŠLA POZDĚ A NEMĚLA KUDY. Konkrétní mezníky: VACARIUS učí římské právo v Oxfordu kolem 1149, ale zůstane to akademické; roku 1234 se zakazuje výuka římského práva v Londýně; právníci se školí v INNS OF COURT, tedy v profesních kolejích u soudů, NE NA UNIVERZITÁCH; a ustálí se zásada, že common law je právem obecným pro celou zemi. Římské a kanonické právo v Anglii přesto zůstávají — v CÍRKEVNÍCH SOUDECH, v ADMIRALITNÍM PRÁVU a zčásti v EQUITY.",
       "terms": [
-        {
-          "term": "Inns of Court",
-          "def": "Profesní koleje u soudů, kde se školili angličtí právníci — mimo univerzity, a proto mimo dosah ius commune."
-        }
+        { "term": "Inns of Court", "def": "Profesní koleje u soudů, kde se školili angličtí právníci — mimo univerzity, a proto mimo dosah ius commune." }
       ],
       "cards": [
         {
@@ -80,19 +53,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1187,
-      "text_sha": "a613314fe552aa4d",
-      "pdf_page": 1,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "img": "img/PUQ4/PUQ4_s003.webp",
+    "3": {
       "title": "Common law v raném novověku a novověku",
       "text": "Stručný přehled, který otázka žádá. (1) 15.–16. STOLETÍ — vedle common law dozrává EQUITY: kdo se cítil rigiditou writů poškozen, obracel se na krále a ten věc předával LORDU KANCLÉŘI; z toho vzniká COURT OF CHANCERY se soustavou vlastních institutů (TRUST, INJUNCTION, SPECIFIC PERFORMANCE) a zásad (maxims of equity). Napětí obou soustav vrcholí roku 1616, kdy JAKUB I. ROZHODNE, ŽE PŘI ROZPORU MÁ EQUITY PŘEDNOST. (2) 17. STOLETÍ — ÚSTAVNÍ ZÁPAS. EDWARD COKE staví common law proti královským nárokům ('artificial reason' práva, kterému rozumí jen právník, a ve věci Dr. Bonham dokonce naznačí přezkum zákona); následuje PETITION OF RIGHT (1628), občanská válka, HABEAS CORPUS ACT (1679), SLAVNÁ REVOLUCE a BILL OF RIGHTS (1689), jímž se prosadí PARLAMENTNÍ SUVERENITA. (3) 18. STOLETÍ — systematizace a vývoz: WILLIAM BLACKSTONE vydává COMMENTARIES ON THE LAWS OF ENGLAND (1765–1769), první ucelený výklad, který se stane učebnicí i v Americe; LORD MANSFIELD vtahuje do common law OBCHODNÍ ZVYKLOSTI (law merchant) a činí z něj právo způsobilé pro obchod; a s koloniemi se common law šíří do Severní Ameriky, Indie, Austrálie a Afriky. (4) 19. STOLETÍ — REFORMY: JUDICATURE ACTS (1873–1875) SPOJÍ SOUDY COMMON LAW A EQUITY do jedné soustavy, takže obojí napříště aplikuje týž soud; Benthamova kritika vede k rozsáhlému zákonodárství a ke konsolidačním zákonům; ustálí se STARE DECISIS v přísné podobě. STÁLOU OSOU CELÉHO VÝVOJE JE, ŽE PRÁVO SE TVOŘÍ ROZHODOVÁNÍM PŘÍPADŮ A STAVEM PRÁVNÍKŮ, NE PROFESOREM A KODEXEM.",
       "terms": [],
@@ -114,26 +77,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1789,
-      "text_sha": "8b510830611f7194",
-      "pdf_page": 2,
-      "pdf_cell": 1
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "img": "img/PUQ4/PUQ4_s004.webp",
+    "4": {
       "title": "Pramen: Dobrý policejní řád würzburský (1745)",
       "text": "PRAMEN (zkráceně): protože zavedení a zachovávání DOBRÉ POLICIE je v obci tak prospěšné, ba nezbytné, aby jak společné věci, tak zvláštní záležitosti každého občana dostaly pravidla ke spokojenosti všech a obecné blaho bylo trvale zajištěno, a rovněž vlastní blaho a obživa každého — nařizuje vrchnost, že napříště se budou zachovávat následující články, a nejvyšší rada bude ve všech věcech dobré policie 'předpisovat a zakazovat, rozhodovat, nařizovat, nalézat a vynášet rozsudky, nevyjímajíc žádnou'. Účelem je, aby obec byla dobře opatřena ve věcech ZDRAVÍ, nechyběla jí OBŽIVA A POHODLÍ ŽIVOTA, byly dobře obsazeny ŽIVNOSTI A ŘEMESLA, občan nebránil druhému v obstarání potravy, ale ani nehledal NADMĚRNÝ ZISK na svých spoluobčanech, ani je nešidil na VÁZE, MNOŽSTVÍ A MÍŘE ani ZFALŠOVÁNÍM ZBOŽÍ, nýbrž aby byla zajištěna SPRAVEDLIVÁ CENA A JISTOTA OBECNÉ DOBRÉ VÍRY. O JAKÝ DRUH PRÁVNÍHO TEXTU JDE: je to POLICEJNÍ ŘÁD (POLICEYORDNUNG), tedy typ vrchnostenského normativního aktu raného novověku. 'POLICIE' (POLICEY) TU NEZNAMENÁ POLICII V DNEŠNÍM SMYSLU, NÝBRŽ DOBRÝ ŘÁD OBCE A SPRÁVU OBECNÉHO BLAHA — sahá od hygieny a stavebnictví přes ceny, míry a váhy, cechy a žebrotu až po oděv a mravy. O ČEM TEXT JE: o tom, že vrchnost převzala odpovědnost za blahobyt poddaných a odvozuje z něj své právo přikazovat. KROKY K STÁTNÍMU ZÁKONODÁRSTVÍ JAKO HLAVNÍ FORMĚ TVORBY NOREM, které má pramen ilustrovat: (1) STŘEDOVĚK — právo se NENALÉZÁ ZÁKONODÁRCEM, NÝBRŽ SE POKLÁDÁ ZA DANÉ A STARÉ; panovník ho 'nachází' a zapisuje, nevytváří (dobré staré právo); prameny jsou obyčej, privilegium, nález soudu. (2) POZDNÍ STŘEDOVĚK — sepisování obyčejů a městské statuty, tedy psaná forma, ale stále s nárokem na potvrzení starého. (3) 15.–16. STOLETÍ — ZEMSKÉ MÍRY, ZEMSKÁ ZŘÍZENÍ A ŘÍŠSKÉ POLICEJNÍ ŘÁDY (Augsburg 1530, Frankfurt 1548, 1577): vrchnost začíná vydávat OBECNÉ NORMY DO BUDOUCNA, a to je zlom — právo je napříště TVOŘENO. (4) 17.–18. STOLETÍ — ABSOLUTISMUS A POLICEJNÍ STÁT: zákonodárství se stává běžným nástrojem vlády, jeho účelem je BLAHOBYT (Wohlfahrt) a nauka o něm vzniká jako POLICEYWISSENSCHAFT a KAMERALISTIKA. Würzburský řád patří přesně sem. (5) DRUHÁ POLOVINA 18. A ZAČÁTEK 19. STOLETÍ — VĚK KODIFIKACÍ: rozumové přirozené právo dá zákonodárci ambici uspořádat celý obor systematicky a jednotně (Codex Maximilianeus 1756, ALR 1794, Code civil 1804, ABGB 1811). ZÁKON SE TÍM STÁVÁ HLAVNÍM PRAMENEM PRÁVA A ZÁKONODÁRCE JEHO PÁNEM — cesta od 'nalézání' k 'tvoření' je dokončena.",
       "terms": [
-        {
-          "term": "Policey",
-          "def": "V raném novověku dobrý řád obce a správa obecného blaha — ne policie v dnešním smyslu."
-        }
+        { "term": "Policey", "def": "V raném novověku dobrý řád obce a správa obecného blaha — ne policie v dnešním smyslu." }
       ],
       "cards": [
         {
@@ -153,19 +103,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1279,
-      "text_sha": "ca6bc08908a41059",
-      "pdf_page": 2,
-      "pdf_cell": 2
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Co znamenala „ústava“ v raně novověkém veřejném právu",
       "text": "TOHLE JE KLASICKÝ CHYTÁK NA PŘENÁŠENÍ DNEŠNÍHO POJMU DO MINULOSTI. V raném novověku měla 'CONSTITUTIO' dva významy, a ani jeden se nekryje s tím dnešním. (1) JEDNOTLIVÝ NORMATIVNÍ AKT PANOVNÍKA — tak jako v římském právu, kde constitutio je císařský předpis. V tomhle smyslu je ústavou i CONSTITUTIO CRIMINALIS CAROLINA (1532), tedy trestní řád, nebo CONSTITUTIO CRIMINALIS THERESIANA (1768). Slovo tu neznamená 'základní zákon', nýbrž prostě 'nařízení'. (2) CELKOVÉ USPOŘÁDÁNÍ ČI 'USTROJENÍ' POLITICKÉHO TĚLESA — jeho složení, řád, konstituce ve smyslu, v jakém mluvíme o tělesné konstituci. V tomhle druhém smyslu má ústavu každé společenství, aniž by ji kdokoli sepsal. PŘÍKLAD ZE SVATÉ ŘÍŠE, KTERÝ OTÁZKA ŽÁDÁ: říšská ústava (Reichsverfassung) nebyla jedním dokumentem, nýbrž SOUBOREM ZÁKLADNÍCH ZÁKONŮ A SMLUV — ZLATÁ BULA (1356) upravující volbu krále, AUGSBURSKÝ NÁBOŽENSKÝ MÍR (1555), VESTFÁLSKÝ MÍR (1648), který se stal součástí říšského práva, VOLEBNÍ KAPITULACE každého císaře a nesčetné obyčeje. Nikdo ji nevyhlásil a nikdo ji nemohl změnit jediným aktem. V ČEM SE VÝZNAM ZMĚNIL: moderní ústava, jak ji známe od AMERICKÉ (1787) A FRANCOUZSKÉ (1791) REVOLUCE, je (a) JEDINÝM PSANÝM DOKUMENTEM, (b) VYDANÝM USTAVUJÍCÍ MOCÍ LIDU (pouvoir constituant), (c) S VYŠŠÍ PRÁVNÍ SILOU než běžný zákon, (d) upravujícím DĚLBU MOCI a (e) obsahujícím ZÁRUKY PRÁV. Slavně to shrnuje ČL. 16 FRANCOUZSKÉ DEKLARACE (1789): 'Společnost, v níž není zajištěna záruka práv ani stanovena dělba moci, NEMÁ ÚSTAVU.' Ta věta dává starému, popisnému pojmu normativní obsah — a tím teprve vzniká ústava v našem smyslu.",
       "terms": [],
@@ -195,12 +135,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Pramen: Inst. I.I.4 — má mezinárodní právo římské základy?",
       "text": "PRAMEN: 'Studium práva se dělí na dvě větve, právo veřejné a právo soukromé. První se týká blaha římského státu, druhé prospěchu jednotlivého občana. O soukromém právu pak lze říci, že je trojího původu, neboť se sbírá z předpisů přirozenosti, z předpisů práva národů nebo z předpisů občanského práva římského.' (Institutiones I.1.4.) OTÁZKA CHCE KRITICKÉ ČTENÍ, TEDY ODPOVĚĎ 'JEN S VÝHRADAMI'. DŮVODY PRO: (1) pojmy IUS GENTIUM, IUS NATURALE, SUVERENITA, SMLOUVA, ale i nauka o spravedlivé válce mají římské kořeny a novověcí autoři z nich čerpali; (2) IUS GENTIUM se v raném novověku stalo přímo označením pro právo mezi národy (droit des gens, law of nations, Völkerrecht); (3) římskoprávní argumentace posloužila Vitoriovi, Grotiovi i Vattelovi jako hotový jazyk. DŮVODY PROTI, A TY JSOU SILNĚJŠÍ: (1) TEXT SÁM ŘADÍ IUS GENTIUM DO PRÁVA SOUKROMÉHO — je to jeden ze tří pramenů soukromého práva, tedy právo upravující vztahy MEZI JEDNOTLIVCI, ne mezi státy; (2) římské IUS GENTIUM je právem použitelným na cizince a v obchodě s nimi, tedy spíš předchůdcem mezinárodního práva soukromého a obecné části soukromého práva než práva mezinárodního veřejného; (3) ŘÍM NEZNAL SOUSTAVU ROVNÝCH SUVERÉNNÍCH STÁTŮ, což je podmínka mezinárodního práva — znal sebe a barbary, případně klientské státy, a jeho poměr k nim nebyl poměrem rovných; (4) samotné dělení veřejné/soukromé se v textu vztahuje k ŘÍMSKÉMU STÁTU, ne k mezinárodnímu společenství. ZÁVĚR, KTERÝ OBSTOJÍ: ŘÍMSKÉ PRÁVO DODALO MEZINÁRODNÍMU PRÁVU SLOVNÍK A ARGUMENTAČNÍ TECHNIKU, NE ZÁKLAD — mezinárodní právo veřejné vzniká až se soustavou suverénních států v raném novověku a římské pojmy si k tomu teprve přisvojuje, často s posunutým významem.",
       "terms": [],
@@ -222,19 +159,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Pramen: Dig. I.1.9 — ius gentium a jeho proměny",
       "text": "PRAMEN (Gaius v Digestech I.1.9): 'Všechny národy, které se řídí zákony a obyčeji, zachovávají zčásti své vlastní zvláštní právo a zčásti právo společné všem lidem. To právo, které si každý národ ustanovil sám pro sebe, je vlastní té které obci a nazývá se IUS CIVILE, právo občanské, jakožto právo vlastní dané občanské společnosti (civitas). Naproti tomu právo, které mezi všemi lidskými bytostmi ustavil PŘIROZENÝ ROZUM, je u všech zachováváno ve stejné míře a nazývá se IUS GENTIUM, jakožto právo, které zachovávají všechny národy.' SHRNUTÍ VÝZNAMU V ÚRYVKU: staví se tu proti sobě PRÁVO PARTIKULÁRNÍ (ius civile, platné v jedné obci, ustanovené jejím vlastním rozhodnutím) a PRÁVO UNIVERZÁLNÍ (ius gentium, platné u všech, protože je ustavil PŘIROZENÝ ROZUM, NATURALIS RATIO). Přirozené právo tu tedy NENÍ ODLIŠENO OD IUS GENTIUM — obojí splývá v tom, co rozum ukládá všem; teprve jinde (Ulpianus) se ius naturale vymezuje jako to, čemu příroda naučila všechny živočichy, a ius gentium jako to, co užívají lidské národy. CO ZNAMENALO IUS GENTIUM VE STAROVĚKU: prakticky šlo o ČÁST ŘÍMSKÉHO PRÁVA POUŽITELNOU I NA CIZINCE (peregriny), zbavenou formalismu ius civile — soubor institutů srozumitelných v obchodu s kýmkoli (koupě, nájem, půjčka, tradice). Není to právo mezi státy. JAK SE POJEM MĚNIL: (1) ve STŘEDOVĚKU splývá s přirozeným právem a s obecně uznávanými zásadami; (2) v 16. STOLETÍ ho ŠKOLA ZE SALAMANKY (VITORIA, SUÁREZ) použije na vztahy mezi POLITICKÝMI SPOLEČENSTVÍMI, včetně indiánských — Suárez rozliší IUS INTER GENTES, právo mezi národy; (3) GROTIUS (1625) z něj udělá základ práva vznikajícího ze SOUHLASU NÁRODŮ vedle práva přirozeného; (4) v 18. STOLETÍ je z něj DROIT DES GENS, LAW OF NATIONS, VÖLKERRECHT — právo suverénních států (Vattel 1758). KDY VZNIKL POJEM 'INTERNATIONAL LAW' A KDO HO POUŽIL PRVNÍ: ZAVEDL HO JEREMY BENTHAM ROKU 1780 VE SPISE 'AN INTRODUCTION TO THE PRINCIPLES OF MORALS AND LEGISLATION' (vydaném 1789) — a zavedl ho právě proto, že mu 'law of nations' připadalo zavádějící, protože to neznělo jako právo MEZI státy, nýbrž jako vnitřní právo národů.",
       "terms": [
-        {
-          "term": "naturalis ratio",
-          "def": "Přirozený rozum — u Gaia zdroj práva společného všem národům (ius gentium)."
-        }
+        { "term": "naturalis ratio", "def": "Přirozený rozum — u Gaia zdroj práva společného všem národům (ius gentium)." }
       ],
       "cards": [
         {
@@ -262,8 +193,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

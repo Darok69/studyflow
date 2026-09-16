@@ -1,27 +1,13 @@
 {
   "lecture_id": "PUQ9",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Otázky 9",
   "title": "Otázky a prameny, cvičení IX — imperialismus, Haag, Versailles",
-  "source_file": "raw/PUQ9_questions-and-sources-unit-9.pdf",
-  "source_sha256": "bbc6d512a332fe4bd4155380238b531e2e26d226dafbba91d52ee620b69f7e4a",
-  "source_pages": 2,
-  "slides_per_page": 1,
-  "slide_count": 7,
-  "updated_at": "2026-09-15T12:56:01+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PUQ9/PUQ9_s001.webp",
+  "free_sections": true,
+  "slides": {
+    "1": {
       "title": "„Evropské století“, kolonialismus a exteritorialita",
       "text": "OSTERHAMMELOVA TEZE: 19. století je 'EVROPSKÝM STOLETÍM' proto, že Evropa v něm dosáhla ASYMETRICKÉHO NÁSKOKU — průmyslová revoluce, vojenská převaha (parník, telegraf, opakovací zbraně, chinin proti malárii), kapitál a nárok stanovovat měřítko civilizovanosti. Světový řád se poprvé stal skutečně JEDNÍM, a to podle evropských pravidel: mezinárodní právo bylo prohlášeno za 'PRÁVO CIVILIZOVANÝCH NÁRODŮ' a členství v něm se udělovalo, ne předpokládalo. DVĚ HLAVNÍ FORMY PANSTVÍ NAD NEEVROPSKÝMI ZEMĚMI: (1) KOLONIALISMUS — přímé nebo nepřímé ovládnutí území, kde koloniální mocnost drží SUVERENITU a území se stává součástí říše (kolonie, protektorát, dominion). Nositelem je vlastní správa a vojsko, právo se vnucuje nebo se místní právo podřizuje. (2) EXTERITORIALITA — panství BEZ ANEXE. Formálně nezávislý stát zůstane suverénem, ale cizinci jsou VYŇATI Z JEHO JURISDIKCE a podléhají vlastním KONZULÁRNÍM SOUDŮM; k tomu přistupují nucené celní sazby, doložky nejvyšších výhod a někdy i správa cel či pošt v cizích rukou. Tomu se říká KAPITULACE a týkalo se to OSMANSKÉ ŘÍŠE, ČÍNY (nerovné smlouvy od Nankingu 1842), JAPONSKA (od 1858), SIAMU, PERSIE, EGYPTA A MAROKA. ROZDÍL, KTERÝ JE TŘEBA UMĚT VYSLOVIT: kolonialismus odnímá suverenitu, exteritorialita ji formálně ponechává a VYDLABE JI ZEVNITŘ. A právě proto byla exteritorialita tak palčivá: pro dotčené státy znamenala trvalé ponížení a hlavní motiv k přijetí evropských kodexů — kdo chtěl kapitulace zrušit, musel dokázat 'civilizovanost' svého právního řádu. Japonsko toho dosáhlo roku 1899 po přijetí evropských kodexů, Turecko až Lausannskou smlouvou 1923, Čína teprve roku 1943.",
       "terms": [
-        {
-          "term": "kapitulace",
-          "def": "Smluvní výsady cizinců ve formálně nezávislém státě — vynětí z místní jurisdikce a konzulární soudy."
-        }
+        { "term": "kapitulace", "def": "Smluvní výsady cizinců ve formálně nezávislém státě — vynětí z místní jurisdikce a konzulární soudy." }
       ],
       "cards": [
         {
@@ -49,25 +35,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 2587,
-      "text_sha": "0a53edfef9029d6a",
-      "pdf_page": 1
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "img": "img/PUQ9/PUQ9_s002.webp",
+    "2": {
       "title": "Pramen: Berlínská konference (1884–1885)",
       "text": "PRAMEN: 'Čl. 34. Každá mocnost, která napříště zabere kus země na pobřeží afrického kontinentu mimo své nynější državy, jakož i mocnost, která tam převezme protektorát, doprovodí příslušný akt OZNÁMENÍM adresovaným ostatním signatárním mocnostem tohoto Aktu, aby jim umožnila případně uplatnit vlastní nároky. Čl. 35. Signatární mocnosti uznávají povinnost zajistit v oblastech, které obsadily na pobřeží afrického kontinentu, ZŘÍZENÍ AUTORITY DOSTATEČNÉ K OCHRANĚ EXISTUJÍCÍCH PRÁV a případně svobody obchodu a průjezdu za dohodnutých podmínek.' HISTORICKÉ POZADÍ: prudké zrychlení dělení Afriky v 80. letech (SCRAMBLE FOR AFRICA), spory o povodí Konga a Nigeru, aktivita LEOPOLDA II. BELGICKÉHO a jeho Mezinárodní asociace, obavy z konfliktu mezi mocnostmi. Konferenci svolal BISMARCK do BERLÍNA (listopad 1884 – únor 1885); zúčastnilo se 14 států včetně USA a Osmanské říše — ALE ANI JEDEN AFRICKÝ ZÁSTUPCE, což je fakt, který v odpovědi nesmí chybět. VÝSLEDKY: (1) ZÁVĚREČNÝ AKT (Generální akt) z 26. února 1885; (2) svoboda obchodu v povodí KONGA a svoboda plavby po KONGU A NIGERU; (3) uznání KONŽSKÉHO SVOBODNÉHO STÁTU jako osobního vlastnictví Leopolda II.; (4) závazek potírat OTROKÁŘSTVÍ a podporovat 'mravní a hmotný blahobyt' domorodců; (5) a procedurální pravidla pro budoucí zábory. POZOR NA ROZŠÍŘENÝ OMYL: KONFERENCE AFRIKU MEZI MOCNOSTI NEROZDĚLILA — nekreslila hranice; stanovila PRAVIDLA HRY, podle kterých si ji mocnosti rozdělily během následujících dvaceti let. JAK SE ZÁBOR LEGITIMOVAL: (a) požadavkem NOTIFIKACE, tedy oznámení ostatním — všimni si, že se oznamuje EVROPANŮM, ne dotčenému obyvatelstvu, takže právo se tvoří mezi kolonizátory navzájem; (b) požadavkem EFEKTIVNÍ OKUPACE (čl. 35) — nestačí vztyčit vlajku, je třeba zřídit skutečnou autoritu; tím se odmítá starší titul pouhého objevení; (c) konstrukcí TERRA NULLIUS a popíráním, že africké politické útvary jsou státy ve smyslu mezinárodního práva; (d) SMLOUVAMI S NÁČELNÍKY, které se často podepisovaly bez porozumění jejich obsahu; (e) a CIVILIZAČNÍ MISÍ včetně boje proti otrokářství jako morálním zdůvodněním. Zdánlivě humanitární čl. 35 tedy ve skutečnosti UDĚLAL ZE SPRÁVNÍHO VÝKONU PODMÍNKU PRÁVNÍHO TITULU — a tím kolonizaci urychlil.",
       "terms": [
-        {
-          "term": "efektivní okupace",
-          "def": "Podmínka z čl. 35: zřízení skutečné autority, ne pouhé vztyčení vlajky; nahradila starší titul objevení."
-        }
+        { "term": "efektivní okupace", "def": "Podmínka z čl. 35: zřízení skutečné autority, ne pouhé vztyčení vlajky; nahradila starší titul objevení." }
       ],
       "cards": [
         {
@@ -95,25 +69,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 2541,
-      "text_sha": "99c197dc42c73592",
-      "pdf_page": 2
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "Expanze evropského práva od 15. do konce 19. století",
       "text": "HLAVNÍ KROKY: (1) 15.–16. STOLETÍ, IBERSKÁ EXPANZE — Portugalsko a Španělsko, papežské buly a TORDESILLAS (1494); v Americe se zavádí kastilské právo a zřizují se zvláštní řády pro indiány (Leyes de Burgos 1512, Nové zákony 1542, později Recopilación de Leyes de Indias 1680); teologicko-právní spor o legitimitu (Vitoria, Las Casas, Sepúlveda). (2) 17.–18. STOLETÍ, OBCHODNÍ SPOLEČNOSTI — nizozemská VOC a britská East India Company dostávají svrchovaná oprávnění: smějí uzavírat smlouvy, vést války a soudit; právo se šíří jako PRÁVO PODNIKU, ne státu. Zároveň se v osadách severní Ameriky přenáší common law. (3) 18.–19. STOLETÍ, KOLONIÁLNÍ SPRÁVA — vzniká rozlišení PŘÍMÉ VLÁDY (francouzský model: asimilace, jednotné právo, občanství výjimečně) a NEPŘÍMÉ VLÁDY (britský model INDIRECT RULE: vláda skrze místní náčelníky a jejich obyčejové právo). Britové v Indii kodifikují hinduistické a muslimské osobní právo a zavádějí trestní zákoník (Indian Penal Code 1860, Macaulay). (4) 19. STOLETÍ, NUCENÉ OTEVŘENÍ A KAPITULACE — nerovné smlouvy s Čínou, Japonskem, Siamem, Persií; konzulární soudnictví; smíšené soudy v Egyptě (1876). (5) KONEC 19. STOLETÍ, VRCHOL ZÁBORŮ — Berlínská konference a rozdělení Afriky, protektoráty, mandátní předstupně. KOLIK Z TOHO BYLO VNUCENÍ A KOLIK SAMOSTATNÉ PŘEVZETÍ — na tuhle část otázky se často zapomíná: VNUCENÍ je zřejmé v koloniích, kde bylo právo zavedeno mocí. SAMOSTATNÉ PŘEVZETÍ ale existuje a je významné: JAPONSKO po roce 1868 (MEIDŽI) si samo vybralo vzory — nejdřív francouzské, pak německé — a napsalo ústavu (1889) i kodexy, aby se zbavilo kapitulací; OSMANSKÁ ŘÍŠE v období TANZIMATU (1839–1876) přejímá francouzské obchodní a trestní právo, ale v soukromém právu si kodifikuje VLASTNÍ hanafijské právo (MAJALLA 1869–76); SIAM, EGYPT, ČÍNA na sklonku dynastie Čching a Latinská Amerika po nezávislosti přejímají kodexy vlastním rozhodnutím. A mezi obojím leží ŠEDÁ ZÓNA: volba pod nátlakem okolností není totéž co svobodné rozhodnutí, ale není to ani prosté vnucení — je to to, co Kennedy nazývá VÝBĚREM, KTERÝM SE MÍSTNÍ ELITA ROZHODUJE, JAKÝM ZPŮSOBEM BUDE DOMINOVÁNA.",
       "terms": [
-        {
-          "term": "indirect rule",
-          "def": "Britský model vlády skrze místní náčelníky a jejich obyčejové právo; proti francouzské přímé vládě a asimilaci."
-        }
+        { "term": "indirect rule", "def": "Britský model vlády skrze místní náčelníky a jejich obyčejové právo; proti francouzské přímé vládě a asimilaci." }
       ],
       "cards": [
         {
@@ -133,19 +95,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Jak kolonialismus ovlivnil právo kolonizovaných zemí",
       "text": "VZORCE VLIVU, KTERÉ SE DAJÍ ROZLIŠIT: (1) NAHRAZENÍ — evropské právo zcela vytlačí domácí; typické tam, kde bylo domorodé obyvatelstvo vyhubeno nebo vytlačeno osadníky (Severní Amerika, Austrálie). (2) DUALISMUS ČILI PRÁVNÍ PLURALISMUS — vedle evropského práva platí pro domorodé obyvatelstvo jeho vlastní 'obyčejové' či náboženské právo, zpravidla omezené na rodinné, dědické a pozemkové věci, a podřízené výhradě, že se nesmí příčit 'spravedlnosti a dobrým mravům' (repugnancy clause). To je nejběžnější vzorec a je v něm past: ZACHOVANÉ PRÁVO SE TÍM ZÁROVEŇ PROMĚNÍ — z pružné živé praxe se stane zapsaný, ustrnulý soubor pravidel aplikovaný cizími soudci; mluví se proto o 'VYNALEZENÉ TRADICI'. (3) KODIFIKACE DOMORODÉHO PRÁVA cizí rukou — anglo-hinduistické a anglo-muslimské právo v Indii, nizozemské zpracování ADATOVÉHO práva v Indonésii. (4) ZAVEDENÍ NOVÝCH INSTITUTŮ, které domácí řád neznal — zejména INDIVIDUÁLNÍ VLASTNICTVÍ PŮDY namísto kolektivní držby, obchodní společnosti, cenné papíry. (5) PŘESTAVBA SOUDNICTVÍ A PROCESU — hierarchie soudů, odvolání, psané řízení, advokacie. (6) TRESTNÍ PRÁVO JAKO NÁSTROJ SPRÁVY — nové skutkové podstaty (tuláctví, porušení pracovní smlouvy, daňové delikty) sloužící získávání pracovní síly. (7) ROZDĚLENÍ OBYVATELSTVA PODLE PRÁVNÍHO STATUSU — občané proti poddaným, v Africe francouzský INDIGÉNAT se zvláštním trestním režimem. VLIV PO NEZÁVISLOSTI: (a) VĚTŠINA NOVÝCH STÁTŮ SI KOLONIÁLNÍ PRÁVO PONECHALA, aspoň zpočátku — nebylo čím ho nahradit a soudci i úředníci byli školeni v něm; (b) hranice, správní členění i soudní soustava zůstaly; (c) v soukromém právu se dál drží dualismus, často zpevněný ústavním uznáním obyčejového a náboženského práva; (d) tam, kde se elity pustily do vlastní tvorby, sáhly zpravidla PO JINÉM EVROPSKÉM VZORU, ne mimo evropskou tradici; (e) a v hospodářské oblasti se od 60. let přidává druhá vlna vlivu skrze MEZINÁRODNÍ FINANČNÍ INSTITUCE A STRUKTURÁLNÍ PŘIZPŮSOBENÍ. Souhrnně: FORMÁLNÍ NEZÁVISLOST ZMĚNILA NOSITELE MOCI, NE PRÁVNÍ JAZYK.",
       "terms": [
-        {
-          "term": "repugnancy clause",
-          "def": "Výhrada, že domorodé právo platí, jen neodporuje-li „spravedlnosti a dobrým mravům“ podle kolonizátora."
-        }
+        { "term": "repugnancy clause", "def": "Výhrada, že domorodé právo platí, jen neodporuje-li „spravedlnosti a dobrým mravům“ podle kolonizátora." }
       ],
       "cards": [
         {
@@ -173,12 +129,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Protektorát",
       "text": "PROTEKTORÁT je útvar, v němž SLABŠÍ CELEK ZŮSTÁVÁ FORMÁLNĚ ZACHOVÁN SE SVÝM VLÁDCEM, ALE PŘEDÁ SILNĚJŠÍMU STÁTU SVÉ ZAHRANIČNÍ VZTAHY A ZPRAVIDLA I OBRANU, často pak i klíčové části správy. Navenek tedy existuje domácí vládce, uvnitř rozhoduje rezident nebo generální rezident mocnosti. HISTORICKÝ KONTEXT VZNIKU: konec 19. století, kdy zábory zrychlují a mocnosti hledají LEVNĚJŠÍ A POLITICKY SNESITELNĚJŠÍ FORMU PANSTVÍ NEŽ ANEXI — protektorát nevyžaduje budovat úplnou správu, nedráždí tolik ostatní mocnosti, nezavazuje udělit obyvatelstvu status občanů a dá se před domácí veřejností prodat jako ochrana, ne dobytí. Berlínský akt (čl. 34) ho výslovně staví vedle záboru. PŘÍKLADY: TUNISKO (1881) a MAROKO (1912) pod Francií, EGYPT (1914) a řada afrických a asijských území pod Británií, německá 'ochranná území' (Schutzgebiete). PRÁVNÍ ZDŮVODNĚNÍ: opírá se o SMLOUVU O OCHRANĚ uzavřenou s domácím vládcem, tedy formálně o jeho SOUHLAS — což je konstrukce pohodlná i pochybná zároveň, protože smlouvy vznikaly pod hrozbou síly, často bez porozumění textu a s vládci, jejichž oprávnění zavázat celé společenství bylo sporné. Doplňkově se argumentovalo potřebou udržet pořádek, chránit vlastní příslušníky a plnit civilizační poslání. TROJÍ VZTAH, NA KTERÝ SE OTÁZKA PTÁ: (1) MOCNOST — DOMORODÉ OBYVATELSTVO: obyvatelé NEJSOU OBČANY mocnosti, nýbrž chráněnci či poddanými; nemají její politická práva a podléhají zvláštnímu režimu, přitom fakticky spravováni cizí mocí. (2) MOCNOST — DOMÁCÍ VLÁDCE: ten si ponechává titul a vnitřní legitimitu, čímž mocnosti slouží jako nástroj nepřímé vlády a nárazník odpovědnosti. (3) MOCNOST — OSTATNÍ EVROPSKÉ MOCNOSTI: tohle je klíč — protektorát je především SDĚLENÍM OSTATNÍM KOLONIZÁTORŮM, ŽE ÚZEMÍ JE ZABRÁNO; jeho hlavní právní účinek je vylučovací, tedy vůči konkurentům, a proto se notifikuje jim. TÍM SE UKAZUJE, ŽE MEZINÁRODNÍ PRÁVO TÉ DOBY UPRAVOVALO VZTAHY MEZI KOLONIZÁTORY, NE MEZI NIMI A KOLONIZOVANÝMI.",
       "terms": [],
@@ -208,23 +161,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Pramen: Haagská úmluva II (1899) a haagské právo",
       "text": "PRAMEN: 'KAPITOLA II. — O válečných zajatcích. Čl. 4 Váleční zajatci jsou v moci NEPŘÁTELSKÉ VLÁDY, nikoli jednotlivců či sborů, které je zajaly. Musí s nimi být zacházeno LIDSKY. Všechny jejich osobní věci, kromě zbraní, koní a vojenských listin, zůstávají jejich vlastnictvím.' (Úmluva o zákonech a obyčejích války pozemní, Haagská úmluva II, 29. července 1899.) CO BYLY HAAGSKÉ ÚMLUVY: výsledek DVOU MÍROVÝCH KONFERENCÍ V HAAGU — první svolal roku 1899 z podnětu RUSKÉHO CARA MIKULÁŠE II. (26 států), druhá se konala roku 1907 (44 států, tedy poprvé se silnou účastí mimoevropských a latinskoamerických zemí). Původní záměr byl OMEZIT ZBROJENÍ; ten neuspěl, zato se podařilo dvojí: (1) KODIFIKOVAT PRÁVO VÁLEČNÉ, tedy pravidla vedení boje — proto se dodnes říká 'HAAGSKÉ PRÁVO' na rozdíl od 'ŽENEVSKÉHO', které chrání osoby mimo boj; k úmluvě II je připojen ŘÁD VÁLKY POZEMNÍ (Haager Landkriegsordnung); (2) ROZVINOUT MÍROVÉ ŘEŠENÍ SPORŮ — úmluva o pokojném řešení sporů zřídila STÁLÝ ROZHODČÍ SOUD (1899), první stálou mezinárodní soudní instituci. DOPAD NA TEHDEJŠÍ MEZINÁRODNÍ PRÁVO: (a) poprvé se ve velkém KODIFIKUJE OBYČEJOVÉ MEZINÁRODNÍ PRÁVO mnohostrannou smlouvou; (b) prosazuje se myšlenka, že i VÁLKA JE PRÁVEM UPRAVENA — že existují prostředky, které jsou zakázány (zásada, že právo volby prostředků poškozování nepřítele NENÍ NEOMEZENÉ); (c) objevuje se MARTENSOVA DOLOŽKA, podle níž v případech neupravených úmluvou zůstávají obyvatelstvo a válčící pod ochranou ZÁSAD MEZINÁRODNÍHO PRÁVA plynoucích ze zvyklostí civilizovaných národů, ZÁKONŮ LIDSKOSTI A POŽADAVKŮ VEŘEJNÉHO SVĚDOMÍ — tedy otevřená klauzule, která přežila dodnes; (d) zakládá se INSTITUCIONÁLNÍ ROZMĚR mezinárodního práva, na který naváže Společnost národů; (e) a vzniká precedens MNOHOSTRANNÉ KONFERENCE jako způsobu tvorby práva. OMEZENÍ, KTERÁ JE TŘEBA ZMÍNIT: úmluvy obsahovaly DOLOŽKU VŠEOBECNÉ ÚČASTI (si omnes), podle níž zavazovaly jen tehdy, byly-li všechny válčící strany smluvními stranami — což jejich použití v první světové válce silně oslabilo; nezakazovaly válku jako takovou, jen upravovaly její vedení; a samotné vypuknutí a průběh první světové války ukázaly, jak snadno se pravidla obcházejí.",
       "terms": [
-        {
-          "term": "Martensova doložka",
-          "def": "V neupravených případech chrání osoby zásady plynoucí ze zvyklostí, zákonů lidskosti a požadavků veřejného svědomí."
-        },
-        {
-          "term": "haagské × ženevské právo",
-          "def": "Haagské upravuje vedení boje, ženevské chrání osoby mimo boj."
-        }
+        { "term": "Martensova doložka", "def": "V neupravených případech chrání osoby zásady plynoucí ze zvyklostí, zákonů lidskosti a požadavků veřejného svědomí." },
+        { "term": "haagské × ženevské právo", "def": "Haagské upravuje vedení boje, ženevské chrání osoby mimo boj." }
       ],
       "cards": [
         {
@@ -252,12 +196,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Pramen: Versailleská smlouva a Pakt Společnosti národů",
       "text": "PRAMEN: 'Čl. 8 (1) Členové Ligy uznávají, že zachování míru vyžaduje SNÍŽENÍ NÁRODNÍHO ZBROJENÍ NA NEJNIŽŠÍ MÍRU SLUČITELNOU S NÁRODNÍ BEZPEČNOSTÍ a vynucování mezinárodních závazků společnou akcí. (2) RADA, přihlížejíc k zeměpisné poloze a poměrům každého státu, vypracuje plány takového snížení k posouzení a rozhodnutí jednotlivým vládám. (3) Tyto plány se přezkoumají a zrevidují nejméně jednou za deset let.' (Versailleská smlouva, 28. června 1919 — text je částí I, tedy Paktem Společnosti národů.) KTEROU VÁLKU SMLOUVA UKONČILA: PRVNÍ SVĚTOVOU VÁLKU, a to ve vztahu k NĚMECKU. DVĚ DALŠÍ SMLOUVY SE SPOJENCI NĚMECKA: SAINT-GERMAINSKÁ (10. 9. 1919) s RAKOUSKEM a TRIANONSKÁ (4. 6. 1920) s MAĎARSKEM; k nim ještě NEUILLYSKÁ (27. 11. 1919) s BULHARSKEM a SÈVRESKÁ (10. 8. 1920) s OSMANSKOU ŘÍŠÍ, nahrazená LAUSANNSKOU (1923). SOUHRNNĚ SE JIM ŘÍKÁ PAŘÍŽSKÉ MÍROVÉ SMLOUVY (též versailleský systém). O JAKOU 'LIGU' JDE: SPOLEČNOST NÁRODŮ (League of Nations, Völkerbund), zřízená Paktem jako částí I každé z mírových smluv; sídlila v ŽENEVĚ. TRVALA formálně od 10. ledna 1920 do 18. dubna 1946, kdy se sama rozpustila; JEJÍ MÍSTO ZAUJALA ORGANIZACE SPOJENÝCH NÁRODŮ (Charta podepsána 26. června 1945, v platnost 24. října 1945). RADOU v odst. 2 se rozumí RADA SPOLEČNOSTI NÁRODŮ, orgán se stálými členy (velmoci) a nestálými — předchůdce Rady bezpečnosti; vedle ní stálo SHROMÁŽDĚNÍ a SEKRETARIÁT. ČTYŘI EVROPSKÉ STÁTY, KTERÉ VZNIKLY ČI ZÍSKALY NEZÁVISLOST V DŮSLEDKU PRVNÍ SVĚTOVÉ VÁLKY: ČESKOSLOVENSKO, POLSKO, FINSKO a JUGOSLÁVIE (Království Srbů, Chorvatů a Slovinců); dále lze uvést RAKOUSKO, MAĎARSKO, LITVU, LOTYŠSKO a ESTONSKO. CO BYLO NA VŠECH MÍROVÝCH SMLOUVÁCH NOVÉHO V OBLASTI MEZINÁRODNÍHO PRÁVA — a tohle je jádro otázky: (1) ZŘÍZENÍ STÁLÉ MEZINÁRODNÍ ORGANIZACE s vlastními orgány, tedy přechod od konferenční diplomacie k institucím; (2) POKUS OMEZIT PRÁVO NA VÁLKU (ius ad bellum) — Pakt zavedl povinnost předložit spor k rozhodčímu či soudnímu řízení nebo Radě a nezahájit válku dříve než tři měsíce po nálezu, plus SANKCE proti tomu, kdo to poruší; (3) ZÁSADA SEBEURČENÍ NÁRODŮ jako organizační princip nového uspořádání střední a východní Evropy; (4) MEZIVÁLEČNÉ REŽIMY OCHRANY MENŠIN, uložené novým a rozšířeným státům smlouvami a pod dohledem Společnosti národů — poprvé je s mezinárodní ochranou spojena skupina uvnitř státu; (5) MANDÁTNÍ SYSTÉM (čl. 22 Paktu) pro bývalá koloniální a osmanská území, který je svěřuje do správy mocností jako 'posvátné poslání civilizace' s povinností podávat zprávy — právně tedy poprvé kolonie NENÍ jen majetkem, nýbrž svěřenstvím; (6) zřízení STÁLÉHO DVORA MEZINÁRODNÍ SPRAVEDLNOSTI (1922) a MEZINÁRODNÍ ORGANIZACE PRÁCE; (7) a čl. 227 Versailleské smlouvy s obžalobou Viléma II. — první pokus o INDIVIDUÁLNÍ TRESTNÍ ODPOVĚDNOST hlavy státu, byť nerealizovaný, protože Nizozemsko císaře nevydalo.",
       "terms": [],
@@ -295,8 +236,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

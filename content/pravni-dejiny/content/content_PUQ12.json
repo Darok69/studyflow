@@ -1,20 +1,9 @@
 {
   "lecture_id": "PUQ12",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Otázky 1/2",
   "title": "Otázky a prameny, cvičení I a II",
-  "source_file": "raw/PUQ12_questions-and-sources-unit-1-and-2.pdf",
-  "source_sha256": "58d6dad854b1a508e684bd1e9a3b6b9acd72044ebc20adb0b1609f5d74a3e5fe",
-  "source_pages": 2,
-  "slides_per_page": 1,
-  "slide_count": 17,
-  "updated_at": "2026-09-15T12:55:04+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PUQ12/PUQ12_s001.webp",
+  "free_sections": true,
+  "slides": {
+    "1": {
       "title": "Co je právo?",
       "text": "První otázka cvičení a zároveň ta, na které se dá nejsnáz uklouznout, protože se zdá triviální. ODPOVĚĎ NENÍ JEDNA DEFINICE, ALE UKÁZÁNÍ, ŽE KAŽDÁ DEFINICE NĚCO VYBERE A NĚCO ZAMLČÍ. Právo lze vymezit jako SOUBOR ZÁVAZNÝCH NOREM UPRAVUJÍCÍCH CHOVÁNÍ VE SPOLEČNOSTI, JEJICHŽ DODRŽOVÁNÍ JE VYNUTITELNÉ. Jenže každý prvek té věty je sporný: NORMATIVITA (právo říká, co MÁ být, ne co je), ZÁVAZNOST (proč zavazuje?), VYNUTITELNOST (kdo vynucuje, a co pak s právem mezinárodním, kde chybí ústřední donucovací moc?) a SPOLEČENSKÁ POVAHA (ubi societas, ibi ius — kde je společnost, tam je právo). V PRÁVNÍCH DĚJINÁCH JE TA OTÁZKA PRAKTICKÁ, NE FILOZOFICKÁ: PODLE TOHO, JAK ŠIROCE PRÁVO VYMEZÍŠ, URČÍŠ, CO VŠECHNO JE PŘEDMĚTEM ZKOUMÁNÍ. Úzká definice (právo = státní zákony) vylučuje zvykové právo, náboženské právo i právo kmenových společností, a tím z globálních právních dějin udělá dějiny evropského státu. Právě proto se v tomto předmětu pracuje s pojetím širokým.",
       "terms": [
@@ -33,18 +22,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1700,
-      "text_sha": "77b3d046afe1b4d5",
-      "pdf_page": 1
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "img": "img/PUQ12/PUQ12_s002.webp",
+    "2": {
       "title": "Co jsou právní dějiny a tři důvody, proč jsou užitečné",
       "text": "PRÁVNÍ DĚJINY ZKOUMAJÍ PRÁVO MINULOSTI: jak vznikalo, měnilo se a zanikalo, a v jakém vztahu bylo ke společnosti, která ho nesla. Stojí na pomezí dvou disciplín a to je jejich napětí — HISTORICKÝ ZÁJEM chce vědět, jak to bylo, PRÁVNICKÝ ZÁJEM chce vědět, co z toho plyne pro dnešek. TŘI DŮVODY, PROČ SE PRÁVNÍKOVI HODÍ (přesně tolik, kolik jich otázka chce): (1) POROZUMĚNÍ PLATNÉMU PRÁVU — dnešní instituty jsou historické produkty a bez jejich původu jsou nesrozumitelné (proč má vlastnictví takovou podobu, odkud je smluvní svoboda, proč se dělí soukromé a veřejné právo); (2) KRITICKÝ ODSTUP — co se zdá přirozené a nutné, se ukáže jako dobově podmíněné a tedy změnitelné, a to je nejsilnější lék proti tomu brát platné právo jako danost; (3) SROVNÁVACÍ SCHOPNOST — kdo zná víc právních řádů v čase, snáz chápe cizí právní řády v prostoru, což je v mezinárodní praxi přímo použitelné. K tomu se často přidává čtvrtý: právní dějiny UČÍ PRACOVAT S PRAMENEM, tedy dovednost, kterou zkouška testuje.",
       "terms": [],
@@ -66,18 +46,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1531,
-      "text_sha": "d7d645d941a8d50b",
-      "pdf_page": 2
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "text_sha": null,
+    "3": {
       "title": "Druhy historických pramenů — a příklad ke každému",
       "text": "Otázka výslovně chce KE KAŽDÉMU DRUHU PŘÍKLAD, takže samotný výčet nestačí. (1) PÍSEMNÉ PRAMENY: normativní texty (Chammurapiho zákoník, Corpus iuris civilis, ABGB), listiny a smlouvy (Zlatá bula sicilská, Vestfálský mír), soudní spisy a protokoly, právnická literatura (glosy, komentáře), ale i nepřímé texty jako kroniky a dopisy. (2) VIZUÁLNÍ PRAMENY: vyobrazení soudu v Saském zrcadle, alegorie Spravedlnosti s váhami a mečem, rytiny poprav, portréty panovníků s říšskými klenoty. (3) ARTEFAKTY (hmotné prameny): pranýř, šibenice, soudní stolice, pečeti a pečetidla, mince s panovnickým titulem, měrné etalony na radničních zdech. (4) ORÁLNÍ TRADICE: vyprávěné zvykové právo nezapsaných společností, soudní formule předávané ústně, svědecké výpovědi zaznamenané až dodatečně. PODSTATNÉ ROZLIŠENÍ: prameny PRÁVNÍ (vznikly jako právo) a prameny O PRÁVU (vznikly k jinému účelu, ale o právu vypovídají) — kronika není právní pramen, ale o fungování práva řekne často víc než samotný zákoník.",
       "terms": [],
@@ -99,12 +70,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "Čím ambice globálních právních dějin naráží na prameny",
       "text": "Tohle je otázka, u které zkoušející chce VÝSLOVNĚ PŘÍKLADY PROBLÉMŮ A POKUD MOŽNO I ŘEŠENÍ. Čtyři překážky. (1) JAZYKOVÁ: globální právní dějiny by vyžadovaly čtení pramenů v arabštině, čínštině, sanskrtu, hebrejštině, latině a desítkách dalších jazyků — ŽÁDNÝ JEDNOTLIVEC TO NEZVLÁDNE, a práce s překlady znamená pracovat se sekundárním pramenem a s volbami překladatele. Řešení: MEZINÁRODNÍ SPOLUPRÁCE A KOLEKTIVNÍ PROJEKTY, kde každý přispěje svou jazykovou oblastí. (2) NEROVNOMĚRNÉ DOCHOVÁNÍ: evropské archivy jsou nesrovnatelně bohatší než prameny k předkoloniální Africe či Oceánii, což SVÁDÍ K ZÁVĚRU, ŽE TAM PRÁVO NEBYLO — přitom tam jen nebylo psané. Řešení: přibrat ORÁLNÍ TRADICI, ARCHEOLOGII A ANTROPOLOGII a číst koloniální prameny proti srsti. (3) POJMOVÁ: naše kategorie jsou evropské. Ptát se, zda měla Čína 'ústavní právo' nebo zda islámské právo zná 'soukromé právo', znamená MĚŘIT CIZÍ ŘÁD EVROPSKÝM METREM a nutně dojít k tomu, že mu něco 'chybí'. Řešení: FUNKCIONÁLNÍ SROVNÁNÍ — ne 'má tenhle řád instituci X?', ale 'jak tenhle řád řeší problém, který u nás řeší instituce X?'. (4) EUROCENTRISMUS PERIODIZACE: 'starověk – středověk – novověk' je evropský rozvrh, který jinde nedává smysl. Řešení: PRACOVAT S PERIODIZACEMI MÍSTNÍMI a evropskou používat vědomě jako jednu z mnoha.",
       "terms": [],
@@ -126,12 +94,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Metoda: výklad psaného pramene",
       "text": "Hlavní metodou právních dějin u psaného pramene je HISTORICKO-KRITICKÁ METODA, tedy VÝKLAD (INTERPRETACE) doplněný o KRITIKU PRAMENE. Kritika pramene má dva kroky: VNĚJŠÍ KRITIKA se ptá, ZDA JE PRAMEN PRAVÝ, kdo ho vytvořil, kdy, kde a v jaké podobě se dochoval (originál, opis, falzum — středověk je falz plný a nejsou vždy podvodem, často jen dodatečně sepisují to, co se pokládalo za dávno platné). VNITŘNÍ KRITIKA se ptá, CO PRAMEN ŘÍKÁ A PROČ TO ŘÍKÁ TAKHLE: jaký měl autor záměr, komu byl text určen, co zamlčuje. Pak teprve přijde vlastní VÝKLAD, který se dělá týmiž metodami, jaké zná právník z platného práva: JAZYKOVÝ (co slova znamenala TEHDY, ne dnes), SYSTEMATICKÝ (kde text stojí v celku řádu), HISTORICKÝ (co bylo záměrem) a TELEOLOGICKÝ (jaký účel měl text plnit). DALŠÍ METODY, KTERÉ SI OTÁZKA ŽÁDÁ NAVÍC: SROVNÁVACÍ METODA (týž problém v různých řádech), STATISTICKÁ A KVANTITATIVNÍ (kolik rozsudků, jaké tresty, jak často), PROSOPOGRAFIE (kolektivní biografie skupiny — kdo byli soudci, odkud, co studovali), ORÁLNÍ HISTORIE u nedávných dějin, ARCHEOLOGIE A IKONOGRAFIE u hmotných a obrazových pramenů.",
       "terms": [
@@ -158,12 +123,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Klasická periodizace a co je na ní problematické",
       "text": "KLASICKÁ PERIODIZACE dělí dějiny na STAROVĚK, STŘEDOVĚK A NOVOVĚK, s obvyklými mezníky 476 (pád západořímské říše), 1492 (objevení Ameriky) nebo 1517 (reformace), případně 1789 (Francouzská revoluce) jako začátek moderny. Vznikla v RENESANCI A HUMANISMU, kde 'STŘEDNÍ VĚK' byl POHRDLIVÝM OZNAČENÍM pro dobu mezi antikou a jejím znovuzrozením — tedy pro cosi bezcenného uprostřed. A právě odtud plynou problémy. (1) JE HODNOTÍCÍ, NE POPISNÁ: už samo slovo 'středověk' obsahuje soud, že je to mezidobí. (2) JE EVROPOCENTRICKÁ: rok 476 neznamená nic pro Čínu, Indii ani islámský svět; přenesena na ně nedává smysl. (3) PŘEDSTÍRÁ OSTRÉ ZLOMY, kde byla plynulost — římské právo nezaniklo roku 476 a středověk nezačal ze dne na den. (4) SVÁDÍ K TELEOLOGII, tedy k dojmu, že dějiny někam mířily a vyvrcholily u nás. (5) V PRÁVNÍCH DĚJINÁCH NAVÍC NESEDÍ NA VLASTNÍ LÁTKU: pro právo jsou důležité jiné mezníky než pro politické dějiny — recepce římského práva od 12. století, kodifikace konce 18. a začátku 19. století, ústavní hnutí 19. století. Proto se právní dějiny často periodizují PODLE VLASTNÍCH ZLOMŮ, ne podle politických.",
       "terms": [],
@@ -185,12 +147,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "„Rakousko“, „císař“ a třetí Řím",
       "text": "Tři pojmy, na kterých zkoušející ukazuje, že SLOVA MAJÍ V ČASE RŮZNÝ OBSAH. 'RAKOUSKO' není jedna věc: nejdřív MARKA (Ostarrîchi, poprvé doloženo 996) na východním okraji říše, pak VÉVODSTVÍ (Privilegium minus 1156), pak SOUBOR ZEMÍ SPOJENÝCH OSOBOU PANOVNÍKA — a to je klíč, protože Habsburkové nevládli 'Rakousku' jako státu, nýbrž KAŽDÉ ZEMI ZVLÁŠŤ, z každé měli jiný titul a v každé platilo jiné právo. Teprve 1804 vzniká RAKOUSKÉ CÍSAŘSTVÍ jako jeden státní útvar, 1867 RAKOUSKO-UHERSKO, 1918 REPUBLIKA. 'CÍSAŘ' (imperator) nese nárok na UNIVERZÁLNÍ VLÁDU zděděný z Říma: středověký římský císař není 'král Německa', nýbrž SVĚTSKÁ HLAVA KŘESŤANSTVA vedle papeže jako hlavy duchovní; korunovace Karla Velikého roku 800 je TRANSLATIO IMPERII, přenesení říše. Titul tedy vypovídá o nároku, ne o rozsahu skutečné moci. A MOSKVA JAKO 'TŘETÍ ŘÍM': po pádu Konstantinopole roku 1453 (druhého Říma) si moskevská knížata nárokují dědictví pravoslavné říše — mnich Filofej píše, že 'dva Římy padly, třetí stojí a čtvrtého nebude'. Vasilij III. a pak Ivan IV. přijímají titul CAR (od 'caesar'). UKAZUJE TO, ŽE ŘÍMSKÝ NÁROK NEBYL JEDEN A ŽE O NĚJ SOUPEŘILO VÍC MOCENSKÝCH CENTER.",
       "terms": [
@@ -217,12 +176,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "„Vynalezli Římané právo?“ A co Řecko?",
       "text": "Otázka je záměrně provokativní a SPRÁVNÁ ODPOVĚĎ JE 'NE, ALE…'. NE, protože právo je starší než Řím o dva tisíce let: CHAMMURAPIHO ZÁKONÍK je z 18. století př. n. l., sumerské zákoníky (Ur-Nammu) ještě starší, a právní normy má každá společnost. CO ŘÍMANÉ SKUTEČNĚ VYTVOŘILI, JE PRÁVNÍ VĚDA (IURISPRUDENTIA) — TEDY SAMOSTATNÝ STAV ODBORNÍKŮ, KTEŘÍ PRÁVO SYSTEMATICKY VYKLÁDAJÍ, TVOŘÍ POJMY A PÍŠOU O NĚM ODBORNOU LITERATURU. To je ten rozdíl: jinde byly normy, v Římě vznikla DISCIPLÍNA. K tomu přidali propracovanou dogmatiku soukromého práva (vlastnictví, závazky, dědění), rozlišení IUS CIVILE / IUS GENTIUM / IUS NATURALE, a nakonec KODIFIKACI — Corpus iuris civilis Justiniánův (529–534), skrze kterou celé dílo přežilo. A ŘECKO? Řekové PRÁVNÍ VĚDU NEVYTVOŘILI a jejich právo zůstalo roztříštěné po obcích. Zato tam mají kořeny: FILOZOFIE PRÁVA A SPRAVEDLNOSTI (Platón, Aristotelés a jeho rozlišení spravedlnosti DISTRIBUTIVNÍ a KOMUTATIVNÍ), MYŠLENKA PŘIROZENÉHO PRÁVA (sofisté, stoikové — přes ně přejde k Římanům a dál do celé evropské tradice), DEMOKRACIE A PSANÉ ZÁKONODÁRSTVÍ jako nástroj obce (Drakón, Solón) a ÚSTAVNÍ MYŠLENÍ, tedy rozbor forem vlády.",
       "terms": [],
@@ -244,12 +200,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "Nezápadní právní kultury a proč Mezopotámie",
       "text": "'NEZÁPADNÍ' PRÁVNÍ KULTURY, které předmět probírá: MEZOPOTÁMSKÁ (sumerská, babylonská, asyrská), EGYPTSKÁ, ŽIDOVSKÁ, ISLÁMSKÁ, ČÍNSKÁ, INDICKÁ (hinduistická), a dále právní kultury bez písma v Africe, Americe a Oceánii. Už samo označení 'nezápadní' je ovšem problematické, PROTOŽE VYMEZUJE CELÝ ZBYTEK SVĚTA NEGATIVNĚ VŮČI ZÁPADU — což je přesně ten eurocentrismus, kterému se má předmět vyhnout. PROČ BYLA MEZOPOTÁMIE TAK ÚRODNOU PŮDOU PRO VZNIK PRÁVNÍCH NOREM: (1) ZAVLAŽOVACÍ ZEMĚDĚLSTVÍ mezi Eufratem a Tigridem vyžadovalo KOORDINACI VELKÉHO POČTU LIDÍ na stavbě a údržbě kanálů a rozdělování vody — a tam, kde se musí koordinovat, musí být pravidla; (2) VYSOKÁ HUSTOTA OSÍDLENÍ A MĚSTA, tedy soužití lidí, kteří se navzájem neznají a nestačí jim příbuzenské normy; (3) DÁLKOVÝ OBCHOD, který potřebuje vymahatelné smlouvy, míry a váhy; (4) a hlavně VYNÁLEZ PÍSMA (klínové písmo, od konce 4. tisíciletí př. n. l.) — teprve psané slovo umožní normu uchovat, vyhlásit a dovolat se jí. ZÁKONY, KODEXY A PRAMENY, KTERÉ SE DAJÍ JMENOVAT: ZÁKONY UR-NAMMUOVY (kolem 2100 př. n. l., nejstarší dochovaný zákoník), ZÁKONY LIPIT-IŠTARA, ZÁKONY Z EŠNUNNY, CHAMMURAPIHO ZÁKONÍK (kolem 1750 př. n. l.), STŘEDOASYRSKÉ ZÁKONY, CHETITSKÉ ZÁKONY — plus desetitisíce hliněných tabulek se smlouvami, soudními protokoly a dopisy.",
       "terms": [
@@ -284,12 +237,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "Chammurapiho zákoník",
       "text": "CHAMMURAPIHO ZÁKONÍK (kolem 1750 př. n. l.) je sbírka právních vět babylonského krále CHAMMURAPIHO, vytesaná KLÍNOVÝM PÍSMEM NA ČEDIČOVOU STÉLU vysokou přes dva metry; dnes je v LOUVRU, kam se dostala poté, co ji roku 1901 našli francouzští archeologové v SÚSÁCH — tedy ne v Babylonu, protože ji tam odvlekli Elamité jako válečnou kořist. Skládá se z PROLOGU, asi 282 PRÁVNÍCH VĚT A EPILOGU. V reliéfu nad textem předává bůh slunce a spravedlnosti ŠAMAŠ králi odznaky moci — LEGITIMACE JE TEDY BOŽSKÁ, ale text sám je světský. Právní věty mají KAZUISTICKOU PODOBU 'JESTLIŽE – POTOM' (šumma), neformulují obecné zásady, nýbrž řeší jednotlivé případy, a pokrývají trestní právo, rodinné a majetkové vztahy, ceny a mzdy, odpovědnost řemeslníků i lékařů. Nejznámější zásadou je TALION, 'oko za oko, zub za zub' — ALE POZOR, TALION PLATÍ JEN MEZI ROVNÝMI: trest závisí na STAVOVSKÉM POSTAVENÍ pachatele i oběti (awílum – svobodný, muškénum – závislý, wardum – otrok), takže za tutéž újmu způsobenou otroku se platí náhrada, ne odplata. A SPORNÁ OTÁZKA, KTEROU JE DOBRÉ ZNÁT: NENÍ JISTÉ, ZDA ŠLO O PLATNÝ ZÁKONÍK V DNEŠNÍM SMYSLU — v dochovaných soudních protokolech se na něj strany prakticky neodvolávají, takže může jít spíš o SBÍRKU VZOROVÝCH ROZHODNUTÍ, o KRÁLOVSKOU SEBEPREZENTACI jako spravedlivého vládce, nebo o obojí.",
       "terms": [
@@ -316,12 +266,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "Úrodný půlměsíc",
       "text": "'ÚRODNÝ PŮLMĚSÍC' (FERTILE CRESCENT) je pojem, který roku 1916 zavedl americký orientalista JAMES HENRY BREASTED pro PÁS ÚRODNÉ ZEMĚ VE TVARU SRPU, který se táhne OD PERSKÉHO ZÁLIVU PROTI TOKU EUFRATU A TIGRIDU MEZOPOTÁMIÍ, dále na severozápad přes dnešní SÝRII, obloukem dolů LEVANTOU (Libanon, Izrael, Palestina, Jordánsko) A KONČÍ V EGYPTĚ U NILU; z jihu ho ohraničuje Arabská poušť, ze severu hory Anatolie a Íránu. PRO PRÁVNÍ DĚJINY JE DŮLEŽITÝ PROTO, ŽE JE TO OBLAST, KDE SE POPRVÉ SEŠLO VŠECHNO, CO PRÁVO POTŘEBUJE KE VZNIKU: neolitická revoluce a usedlé zemědělství, domestikace zvířat, první města, státní organizace, dálkový obchod a písmo. Odtud pocházejí nejstarší zákoníky, a zároveň tři monoteistická náboženství, jejichž právní řády předmět probírá.",
       "terms": [],
@@ -335,12 +282,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "text_sha": null,
+    "12": {
       "title": "Diaspora a prameny židovského práva",
       "text": "'DIASPORA' je řecky ROZPTÝLENÍ a označuje život židovských obcí mimo zemi izraelskou — po zničení PRVNÍHO CHRÁMU (586 př. n. l., babylonské zajetí) a definitivně po zničení DRUHÉHO CHRÁMU ROKU 70 N. L. a porážce Bar Kochbova povstání (135). DŮSLEDKY PRO PRÁVO JSOU ZÁSADNÍ A JSOU PŘESNĚ TÍM, NA CO SE OTÁZKA PTÁ: (1) ZÁNIKEM CHRÁMU ZANIKL CELÝ OBĚTNÍ KULT A S NÍM KNĚŽSTVO — náboženství se přesunulo od chrámu k SYNAGOZE A K UČENÍ, a autoritou se místo kněze stal UČENEC (RABÍN). (2) ZÁNIKEM STÁTU ZANIKLA MOŽNOST PRÁVO STÁTNĚ VYNUCOVAT; židovské právo se stalo právem KOMUNITNÍM, jehož závaznost stojí na příslušnosti k obci a jehož nejtvrdší sankcí je VYLOUČENÍ (CHEREM). (3) ROZPTÝLENÍ znamenalo, že obce žily pod cizími panovníky a právními řády — vzniká zásada 'DINA DE-MALCHUTA DINA', PRÁVO KRÁLOVSTVÍ JE PRÁVO, tedy uznání světského práva země v jeho oboru. (4) A hlavně: PRÁVO SE STALO HLAVNÍM POJÍTKEM ROZPTÝLENÉHO NÁRODA — bez území a bez státu drželo identitu pohromadě právě dodržování přikázání. HLAVNÍM PSANÝM PRAMENEM je TÓRA, Pět knih Mojžíšových (Pentateuch), psaná Tóra. K ní patří TÓRA ÚSTNÍ, zapsaná nakonec do MIŠNY (kolem 200 n. l.) a s komentářem (GEMARA) tvořící TALMUD — babylonský (autoritativnější) a jeruzalémský. Dalšími prameny jsou MIDRAŠ (výklad Písma), RESPONSA (ŠE'ELOT U-TŠUVOT, odpovědi rabínů na dotazy obcí, tedy živá praxe), a pozdější KODIFIKACE: Maimonidova MIŠNE TÓRA (12. stol.) a Karův ŠULCHAN ARUCH (16. stol.).",
       "terms": [
@@ -371,12 +315,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "text_sha": null,
+    "13": {
       "title": "„Židovské právo je ovládáno lidmi, ne pravidly“",
       "text": "Tohle je otázka, která na zkoušce padla a odpovídá na ni přímo povinná četba (BEN-MENAHEM). Ta věta NENÍ KRITIKA, nýbrž POPIS ZPŮSOBU, JAKÝM SE V ŽIDOVSKÉM PRÁVU URČUJE, CO PLATÍ. Argumenty pro: (1) PRÁVO JE V PODSTATĚ VÝKLADEM zjeveného textu, a protože výklad je lidský úkon, rozhoduje AUTORITA VYKLADAČE, ne text sám. (2) TALMUD ZACHOVÁVÁ I MENŠINOVÉ NÁZORY, což znamená, že vedle 'platného' pravidla stojí zapsané i to, které neprošlo — právo se tedy nepředkládá jako uzavřený soubor pravidel, nýbrž jako POKRAČUJÍCÍ ROZPRAVA. (3) Slavný příklad je PEC ACHNAJOVA (Bava Mecia 59b), kde rabi Eliezer dokládá svůj názor zázraky a nakonec i HLASEM Z NEBE — a rabi Jehošua odpoví slovy 'LO BA-ŠAMAJIM HI', NENÍ V NEBI: Tóra byla dána lidem, a tak o jejím výkladu rozhoduje VĚTŠINA UČENCŮ, ne nebeský hlas. Vypráví se, že Bůh se tehdy usmál a řekl 'MÉ DĚTI MĚ PŘEMOHLY'. (4) Institut RESPONSÍ znamená, že právo se tvoří odpověďmi konkrétních autorit na konkrétní dotazy, tedy zdola a průběžně. (5) A zásada, že RABÍNSKÝ SOUD MŮŽE ZA JISTÝCH OKOLNOSTÍ I ODSUNOUT PŘIKÁZÁNÍ, je-li to k zachování řádu. PROTIARGUMENT, KTERÝ PATŘÍ DO ÚPLNÉ ODPOVĚDI: právě proto, že text je pokládán za zjevený a neměnný, je vázanost na něj mimořádně silná — vykladač nesmí tvořit libovolně a sám je podroben pravidlům výkladu. SPRÁVNÁ ODPOVĚĎ TEDY ZNÍ: ANO, POKUD TÍM MYSLÍME, ŽE O OBSAHU PRÁVA ROZHODUJE LIDSKÁ INTERPRETAČNÍ AUTORITA, NE AUTOMATICKÁ APLIKACE TEXTU.",
       "terms": [
@@ -411,12 +352,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "text_sha": null,
+    "14": {
       "title": "Vznik raného islámského práva a jeho rysy",
       "text": "KDY, KDE A JAK: Islámské právo vzniká na ARABSKÉM POLOOSTROVĚ v 7. STOLETÍ, počínaje MUHAMMADOVÝM PŮSOBENÍM V MEKCE (od 610) A ZEJMÉNA V MEDÍNĚ (po HIDŽŘE ROKU 622, od níž se počítá islámský letopočet). V Medíně Muhammad nebyl jen prorokem, ale i VŮDCEM OBCE A SOUDCEM, takže zjevení a právní rozhodování splývají. Po jeho smrti (632) se rozšiřuje s ARABSKÝMI VÝBOJI přes Sýrii, Irák, Persii, Egypt a severní Afriku až do Španělska, a přejímá přitom mnohé z PŘEDISLÁMSKÝCH ZVYKŮ A ZE SPRÁVNÍCH PRAKTIK DOBYTÝCH ÚZEMÍ (byzantských a sásánovských). RYSY RANÉHO ISLÁMSKÉHO PRÁVA: (1) NÁBOŽENSKÝ PŮVOD A NÁROK — právo je součástí zjevené vůle Boží, ne výtvorem zákonodárce, a proto je v zásadě NEMĚNITELNÉ LIDMI. (2) UČENECKÉ, NE STÁTNÍ — právo rozvíjejí ULEMÁ (učenci) ve školách, ne panovník; chalífa právo vykonává, ale netvoří. (3) KAZUISTICKÉ A DISKURZIVNÍ — vzniká řešením případů a zaznamenáváním neshod (ICHTILÁF), takže i tu platí rozprava víc než kodex. (4) NEODDĚLUJE PRÁVO OD NÁBOŽENSTVÍ ANI OD ETIKY — jedno jednání se hodnotí na pětistupňové škále od povinného po zakázané. (5) POSTUPNÁ SYSTEMATIZACE: v 8.–9. století vznikají PRÁVNÍ ŠKOLY (MADHÁHIB) a nauka o pramenech, kterou zakládá právě AŠ-ŠÁFI'Í.",
       "terms": [
@@ -447,12 +385,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "text_sha": null,
+    "15": {
       "title": "Pramen: aš-Šáfi'í, Risála — kdo byl a jaká škola",
       "text": "PRAMEN: 'Každá tradice tradovaná spolehlivými osobami jako sahající k Prorokovi je autoritativní a lze ji odmítnout jen tehdy, odporuje-li jí jiná autoritativní tradice od Proroka… jsou-li obě stejně spolehlivé, zvolí se ta, která je více v souladu s Koránem a se zbývajícími nespornými částmi Prorokovy sunny; tradice od jiných osob nemají váhu tváří v tvář tradici od Proroka.' (Risála, 2. století hidžry / 8. století n. l., citováno podle J. Schachta, The Origins of Muhammadan Jurisprudence, 1950, s. 12.) KDO BYL: MUHAMMAD IBN IDRÍS AŠ-ŠÁFI'Í (767–820), právník činný v Iráku, Hidžázu a nakonec v Egyptě, pokládaný za ZAKLADATELE ISLÁMSKÉ PRÁVNÍ VĚDY (USÚL AL-FIQH), tedy nauky o pramenech práva; jeho spis RISÁLA je prvním systematickým výkladem toho, odkud se právo bere. ŠKOLA, KTERÁ SE K NĚMU HLÁSÍ, JE ŠÁFI'OVSKÁ (šáfi'itská). DALŠÍ SUNNITSKÉ ŠKOLY: HANAFIJSKÁ (Abú Hanífa, nejrozšířenější, právo Osmanské říše — a proto podklad MAJALLY), MÁLIKOVSKÁ (Málik ibn Anas, severní a západní Afrika), HANBALOVSKÁ (Ahmad ibn Hanbal, nejpřísnější, Arabský poloostrov). U ŠÍ'ITŮ je hlavní DŽA'FAROVSKÁ škola. Rozdíly mezi školami nejsou herezí: VŠECHNY JSOU UZNÁVÁNY ZA PLATNÉ, což je přesně ten rys ichtiláfu.",
       "terms": [
@@ -479,12 +414,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "text_sha": null,
+    "16": {
       "title": "Pramen: Korán, sunna a hierarchie pramenů",
       "text": "Druhá část otázky k Risále. KORÁN (QUR'ÁN) je pro muslimy DOSLOVNÉ, NESTVOŘENÉ BOŽÍ SLOVO zjevené Muhammadovi prostřednictvím archanděla Gabriela a shromážděné do závazné podoby za chalífy Uthmána; obsahuje 114 súr, ale PRÁVNÍCH VERŠŮ JE JEN NĚKOLIK SET, takže sám o sobě právní řád netvoří. SUNNA je 'ZVYKLOST' Proroka, tedy to, co Muhammad řekl, udělal nebo mlčky schválil; přenáší se v jednotlivých zprávách zvaných HADÍTHY, z nichž každý má TEXT (MATN) a ŘETĚZ TRADENTŮ (ISNÁD) — a právě spolehlivost isnádu rozhoduje, zda je hadíth přijatelný. DALŠÍ PRAMENY ŠARÍ'Y: IDŽMÁ (konsensus učenců obce) a QIJÁS (analogie); u některých škol dále IDŽTIHÁD (samostatné úsilí o nalezení řešení), ISTIHSÁN (upřednostnění spravedlivějšího řešení) a MASLAHA (obecné blaho). CO O JEJICH VZTAHU ŘÍKÁ AŠ-ŠÁFI'Í V CITOVANÉM ÚRYVKU: (1) tradice sahající k PROROKOVI je autoritativní a odmítnout ji lze jen jinou tradicí od Proroka; (2) při rovnocenné spolehlivosti se volí ta, která je VÍC V SOULADU S KORÁNEM A NESPORNOU SUNNOU — Korán tedy slouží jako měřítko; (3) tradice od JINÝCH OSOB než Proroka (tedy od druhů, následovníků, místních autorit) NEMAJÍ TVÁŘÍ V TVÁŘ PROROCKÉ TRADICI ŽÁDNOU VÁHU. Tím aš-Šáfi'í PODŘÍDIL MÍSTNÍ PRÁVNÍ ZVYKLOSTI JEDNOTNÉMU MĚŘÍTKU a to je jeho hlavní historický výkon.",
       "terms": [
@@ -519,12 +451,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 17,
-      "text_sha": null,
+    "17": {
       "title": "Je šarí'a jen právní řád, nebo i mravní?",
       "text": "Poslední podotázka k prameni a ta, která chce VLASTNÍ ODŮVODNĚNÝ NÁZOR. ODPOVĚĎ ZNÍ: OBOJÍ, A ROZLIŠENÍ MEZI PRÁVEM A MRAVNOSTÍ, KTERÉ POKLÁDÁME ZA SAMOZŘEJMÉ, JE TU NEPOUŽITELNÉ. Důvody: (1) ŠARÍ'A DOSLOVA ZNAMENÁ 'CESTA K NAPAJEDLU', tedy správnou cestu životem jako celkem, ne soubor vymahatelných norem. (2) UPRAVUJE STEJNĚ TAK OBŘADNÍ POVINNOSTI (IBÁDÁT — modlitba, půst, pouť, almužna) JAKO VZTAHY MEZI LIDMI (MU'ÁMALÁT — smlouvy, manželství, dědění, trestání), a obojí je součástí jednoho řádu. (3) Hodnocení jednání má PĚT STUPŇŮ, které ukazují, že škála je širší než 'dovoleno/zakázáno': POVINNÉ (WÁDŽIB / FARD), DOPORUČENÉ (MANDÚB), LHOSTEJNÉ (MUBÁH), ZAVRŽENÍHODNÉ (MAKRÚH) A ZAKÁZANÉ (HARÁM) — přičemž doporučené ani zavrženíhodné nejsou právně vynutitelné, a přesto patří do šarí'y. (4) Sankce není jen pozemská: konečné zúčtování je na ONOM SVĚTĚ, což je pro dodržování často silnější motiv než soud. PROTIARGUMENT PRO ÚPLNOST: část šarí'y je zcela právní v našem smyslu — má soud (QÁDÍ), řízení, důkazy a vymahatelné sankce (HUDÚD), a v praxi se právě tahle část oddělila a v moderních státech se kodifikovala. ROZDÍL, KTERÝ JE DOBRÉ UMĚT: ŠARÍ'A je ideální božský řád; FIQH je LIDSKÉ POROZUMĚNÍ tomu řádu, tedy právní věda — a to, co je omylné a mnohotvárné, je fiqh, ne šarí'a.",
       "terms": [
@@ -559,8 +488,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

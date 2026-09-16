@@ -126,6 +126,9 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
     const items = courses.flatMap((course) =>
       course.lectures.map((lec) => ({ lec, kind: course.kind ?? 'lecture', course })),
     )
+    // Pořadí uvnitř tématu podle toho, jak se téma bere: nejdřív přednáška,
+    // pak povinná četba, nakonec cvičení s otázkami k procvičení.
+    const ORDER: Record<string, number> = { lecture: 0, reading: 1, exercise: 2 }
     const topics = index?.topics ?? []
     const filed = topics.length > 0 && items.some((it) => (it.lec.topics?.length ?? 0) > 0)
     if (!filed) {
@@ -147,6 +150,7 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
       title: topic.title,
       items: items
         .filter((it) => it.lec.topics?.includes(topic.key))
+        .sort((a, b) => (ORDER[a.kind] ?? 9) - (ORDER[b.kind] ?? 9))
         .map((it) => ({
           lec: it.lec,
           kind: it.kind,

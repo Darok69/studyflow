@@ -89,13 +89,39 @@ def topic_map(courses: list[dict]) -> tuple[dict[int, str], list[dict]]:
     return by_number, groups
 
 
-def topics_of(lec_meta: dict, unit: str, by_number: dict[int, str]) -> list[str]:
-    """Klíče skupin, do kterých položka patří. Ručně vypsaná čísla
-    v courses.json mají přednost před tím, co jde vyčíst z názvu jednotky."""
+def topics_of(
+    lec_meta: dict,
+    unit: str,
+    by_number: dict[int, str],
+    by_title: dict[str, str],
+    cards: list[dict],
+    kind: str = "lecture",
+) -> list[str]:
+    """Klíče skupin, do kterých položka patří.
+
+    Rozhodují KARTY, ne ruční seznam: každá karta nese téma, do kterého se
+    zařazuje při učení, a učebnice má ukazovat totéž. Ručně vypsaná čísla se
+    rozcházela s obsahem hned, jak se text dopsal — cvičení projde za hodinu
+    pět témat a dopředu se neví která.
+
+    Čísla z courses.json nebo z názvu jednotky slouží jen jako záloha pro
+    položky, které ještě žádné karty nemají.
+    """
+    keys: list[str] = []
+    for card in cards:
+        key = by_title.get((card.get("topic") or "").strip())
+        if key is not None and key not in keys:
+            keys.append(key)
+    # K tomu deklarovaný rozsah. Povinná četba ho nese v označení jednotky
+    # („Téma 9–11") podle seznamu ke zkoušce a pokrývá i témata, ke kterým
+    # zrovna nevyšla karta; cvičení ho nemá, protože jedna hodina projde
+    # několik témat a dopředu se neví která — tam rozhodnou jen karty.
     nums = lec_meta.get("topics")
     if nums is None:
-        nums = unit_numbers(unit)
-    keys: list[str] = []
+        # U cvičení se z jednotky číst NESMÍ: „Otázky 5" je pořadí hodiny, ne
+        # téma zkoušky. Přednáška a četba naopak číslují jednotky právě podle
+        # témat („Topic 7", „Téma 9–11").
+        nums = [] if kind == "exercise" else unit_numbers(unit)
     for n in nums:
         key = by_number.get(n)
         if key is not None and key not in keys:
@@ -103,10 +129,44 @@ def topics_of(lec_meta: dict, unit: str, by_number: dict[int, str]) -> list[str]
     return keys
 
 
+def title_map(courses: list[dict], groups: list[dict], data_dir) -> dict[str, str]:
+    """Název tématu → klíč skupiny.
+
+    Karty nenesou číslo, nýbrž název tématu — a ten se nemusí přesně krýt
+    s názvem přednášky (jednou „Her Story", jinde „HERstory — the legal
+    position of women through the centuries"). Proto se k názvu přednášky
+    přiberou i názvy, které používají JEJÍ VLASTNÍ karty: co si přednáška
+    říká sama sobě, tomu rozumí i ostatní kurzy.
+    """
+    out: dict[str, str] = {}
+    lecture_key = {}
+    for course in courses:
+        if course.get("kind", "lecture") != "lecture":
+            continue
+        for lec in course["lectures"]:
+            nums = unit_numbers(lec.get("unit", ""))
+            if nums:
+                lecture_key[lec["id"]] = f"{course.get('number') or course['code']}-{nums[0]}"
+    for group in groups:
+        out.setdefault(group["title"].strip(), group["key"])
+    for lec_id, key in lecture_key.items():
+        path = data_dir / f"{lec_id}.json"
+        if not path.exists():
+            continue
+        data = json.loads(path.read_text("utf-8"))
+        for slide in data.get("slides", []):
+            for card in slide.get("cards", []):
+                topic = (card.get("topic") or "").strip()
+                if topic:
+                    out.setdefault(topic, key)
+    return out
+
+
 def main() -> int:
     index = json.loads((DATA / "index.json").read_text("utf-8"))
     spec = json.loads((ROOT / "courses.json").read_text("utf-8"))
     by_number, groups = topic_map(spec["courses"])
+    by_title = title_map(spec["courses"], groups, DATA)
     meta = {
         l["id"]: l
         for c in spec["courses"]
@@ -165,7 +225,11 @@ def main() -> int:
             entry["lectures"].append({
                 "id": d["lecture_id"], "unit": d["unit"], "title": d["title"],
                 "slides": len(slides), "cards": cards,
-                "topics": topics_of(meta.get(d["lecture_id"], {}), d["unit"], by_number),
+                "topics": topics_of(
+                    meta.get(d["lecture_id"], {}), d["unit"], by_number, by_title,
+                    [c for s in slides for c in s.get("cards", [])],
+                    entry["kind"],
+                ),
             })
             total_slides += len(slides)
             total_cards += cards

@@ -1,20 +1,9 @@
 {
   "lecture_id": "PUQ3",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Otázky 3",
   "title": "Otázky a prameny, cvičení III — Corpus iuris civilis a středověké právo",
-  "source_file": "raw/PUQ3_questions-and-sources-unit-3-27-10-2025.pdf",
-  "source_sha256": "b01ee1fc00a8365ea695e346b1341bd9a438740df5bd137cc8c21b3ce978001e",
-  "source_pages": 3,
-  "slides_per_page": 1,
-  "slide_count": 16,
-  "updated_at": "2026-09-15T12:55:14+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PUQ3/PUQ3_s001.webp",
+  "free_sections": true,
+  "slides": {
+    "1": {
       "title": "Proč je římské právo tak důležité a kam až Řím sahal",
       "text": "PROČ JE PRO NÁS DŮLEŽITÉ: (1) Vytvořilo POJMOVÝ APARÁT, se kterým evropské právo pracuje dodnes — vlastnictví, držba, věcná břemena, smlouva, závazek, zastoupení, dědění, právní osoba. (2) Vytvořilo PRÁVNÍ VĚDU jako samostatnou disciplínu. (3) Skrze RECEPCI se od 12. století stalo SPOLEČNÝM PRÁVEM (IUS COMMUNE) kontinentální Evropy, tedy tmelem, který drží evropskou právní kulturu pohromadě navzdory politické roztříštěnosti. (4) Je PODKLADEM VELKÝCH KODIFIKACÍ — Code civil, ABGB i BGB z něj vycházejí, BGB dokonce v pandektním systému, který je přímo dílem německých romanistů. (5) A metodicky: dodnes se na něm učí PRÁVNICKÉ MYŠLENÍ, protože nabízí čisté případy bez politického náboje dneška. ÚZEMÍ NA VRCHOLU (za Traiana, kolem roku 117 n. l.): celé Středomoří jako VNITŘNÍ MOŘE (MARE NOSTRUM) — od Británie po severní Afriku, od Hispánie po Mezopotámii, s hranicemi na Rýnu, Dunaji a Eufratu. VLIV ÚZEMNÍ EXPANZE NA POZDĚJŠÍ PRÁVNÍ ŘÁDY JE PŘÍMÝ A JE TO POINTA OTÁZKY: tam, kde Řím dlouho vládl a zanechal romanizované obyvatelstvo (Itálie, jižní Francie, Hispánie), přežívalo VULGÁRNÍ ŘÍMSKÉ PRÁVO jako živá praxe a recepce tam později padla na připravenou půdu; naopak v Anglii, kam římská správa sahala jen do roku 410 a byla přerušena anglosaským osídlením, ta kontinuita chybí — a to je jeden z důvodů, proč se COMMON LAW vyvinulo jinak.",
       "terms": [],
@@ -36,25 +25,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 1405,
-      "text_sha": "f8977132a8f1f9b0",
-      "pdf_page": 1
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "img": "img/PUQ3/PUQ3_s002.webp",
+    "2": {
       "title": "Co dělali římští právní vědci a byli to právníci?",
       "text": "Otázka je opět chytákem: ODPOVĚĎ ZNÍ 'V PŘÍSNÉM SLOVA SMYSLU NE'. Klasičtí římští IURISPRUDENTES nebyli advokáti ani soudci a neživili se právem. Byli to PŘÍSLUŠNÍCI VYŠŠÍCH VRSTEV, kteří vykonávali čtyři činnosti: RESPONDERE (dávat odborná dobrozdání na dotazy stran i soudců), CAVERE (formulovat smlouvy a právní jednání tak, aby obstála), AGERE (radit, jakou žalobní formuli zvolit) a SCRIBERE (psát právnickou literaturu). Klíčové je, že šlo o ČINNOST ČESTNOU, NE PLACENOU, a že autorita jejich názoru stála na jejich vážnosti — dokud ji za principátu nezakotvil císař udělením IUS PUBLICE RESPONDENDI, tedy práva dávat dobrozdání s císařskou autoritou. ŠKOLY: v klasické době stály proti sobě SABINIÁNI (podle Massuria Sabina, navazující na Capitona) a PROKULIÁNI (podle Prokula, navazující na Labeona); rozdíly byly spíš doktrinální než metodické a za Hadriána spor vyhasl. Právní výuka pak přešla do PRÁVNICKÝCH ŠKOL, z nichž nejvýznamnější byly BERYT (Bejrút) A KONSTANTINOPOL, a právě jejich profesoři vypracovali v 6. století Justiniánovu kodifikaci. ROZDĚLENÍ ŘÍŠE (definitivně 395) MĚLO NA ZÁKONODÁRSTVÍ PŘÍMÝ DOPAD: konstituce vydaná jedním císařem platila v jeho části a v druhé jen po přijetí, což vedlo k rozcházení práva; snahou to sjednotit je CODEX THEODOSIANUS (438), přijatý v obou částech. Po zániku Západu (476) pokračuje živá právní tvorba už jen na VÝCHODĚ, a proto je Justiniánova kodifikace dílem východořímským.",
       "terms": [
-        {
-          "term": "ius publice respondendi",
-          "def": "Právo dávat dobrozdání s císařskou autoritou; jím se z vážnosti právníka stala formální závaznost."
-        }
+        { "term": "ius publice respondendi", "def": "Právo dávat dobrozdání s císařskou autoritou; jím se z vážnosti právníka stala formální závaznost." }
       ],
       "cards": [
         {
@@ -82,18 +59,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1986,
-      "text_sha": "146d77d1417e05b9",
-      "pdf_page": 2
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "img": "img/PUQ3/PUQ3_s003.webp",
+    "3": {
       "title": "Corpus iuris civilis",
       "text": "CORPUS IURIS CIVILIS je souhrnné označení pro KODIFIKAČNÍ DÍLO CÍSAŘE JUSTINIÁNA I. z let 528–534, které vzniklo pod vedením ministra TRIBONIÁNA. POZOR NA NÁZEV: sám Justinián ho tak nenazýval — OZNAČENÍ CORPUS IURIS CIVILIS ZAVEDL AŽ ROKU 1583 DIONYSIUS GOTHOFREDUS. ČTYŘI ČÁSTI: (1) CODEX (první vydání 529, druhé 534) — sbírka platných císařských konstitucí; (2) DIGESTA čili PANDEKTY (533) — výbor z klasické právnické literatury, padesát knih sestavených z asi dvou tisíc spisů, jádro celého díla; (3) INSTITUTIONES (533) — učebnice pro první rok studia, která měla zároveň sílu zákona; (4) NOVELLAE — konstituce vydané po roce 534, které už součástí oficiální kodifikace nejsou, ale připojují se k ní. Justinián zakázal dílo komentovat a nařídil, aby bylo užíváno jen ono. PROČ JE DŮLEŽITÝ PRO DNEŠNÍ EVROPSKOU PRÁVNÍ KULTURU: protože se v 11. století znovuobjevil v Itálii a stal se TEXTEM, NA KTERÉM SE ZROZENÍ PRÁVNÍ VĚDY V EVROPĚ ODEHRÁLO — glosátoři a komentátoři ho vykládali, univerzity ho učily, praxe ho recipovala, a tak se z východořímské sbírky stalo SPOLEČNÉ PRÁVO KONTINENTU. Bez něj by nebylo ius commune, a bez ius commune by neexistovala kontinentální právní rodina.",
       "terms": [],
@@ -115,18 +83,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 2566,
-      "text_sha": "e2e0dc02ba581c60",
-      "pdf_page": 3
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "text_sha": null,
+    "4": {
       "title": "„Graeca non leguntur“ — a byla to pravda?",
       "text": "'GRAECA NON LEGUNTUR' znamená 'ŘECKÉ SE NEČTE'. Je to zásada středověkých západních právníků, podle které se ŘECKÉ PASÁŽE V CORPUS IURIS CIVILIS PŘESKAKOVALY, protože jim glosátoři nerozuměli — na latinském Západě se řečtina prakticky neuměla. Praktický dopad: části Digest i řada Novell (které Justinián vydával většinou řecky) zůstaly na Západě NEVYUŽITÉ, a pracovalo se s latinským výborem Novell zvaným AUTHENTICUM. BYLO TO PRAVDA? JEN ČÁSTEČNĚ, a právě to zkoušející chce slyšet. Znalost řečtiny na Západě byla opravdu velmi slabá, takže jako popis běžné praxe věta sedí. ALE: (1) NA VÝCHODĚ se řecky četlo samozřejmě a byzantské právo v řečtině žilo dál; (2) i na Západě existovaly výjimky a od RENESANCE A HUMANISMU se řečtina stává součástí vzdělání, takže humanističtí právníci (mos gallicus) řecké pasáže naopak vyhledávali jako klíč k původnímu znění; (3) věta tedy popisuje OMEZENÍ URČITÉ DOBY A URČITÉ ŠKOLY, ne trvalý stav.",
       "terms": [],
@@ -148,23 +107,14 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "text_sha": null,
+    "5": {
       "title": "Zkoušková otázka: vývoj řeckého práva od roku 533 do 20. století",
       "text": "Otázka je v zadání výslovně označena jako ZKOUŠKOVÁ, takže si zaslouží celou časovou osu. (1) 533 — Justiniánova kodifikace platí i v řecky mluvící části říše, ale latinsky; hned vznikají ŘECKÉ PŘEKLADY A PARAFRÁZE (Theofilova parafráze Institucí). (2) 8.–9. STOLETÍ — ECLOGA (726, Lev III.), zkrácený a christianizovaný výtah; pak snaha o obnovu justiniánského práva. (3) KOLEM ROKU 888 — BASILIKA za Lva VI. Moudrého, šedesát knih, ŘECKÉ ZPRACOVÁNÍ CELÉHO CORPUS IURIS, které se stává základem byzantského práva na dalších pět set let. (4) 1345 — HEXABIBLOS KONSTANTINA HARMENOPULA, praktická příručka v šesti knihách, výtah z Basilik; ukáže se jako nejživotnější text celé řady. (5) 1453 — PÁD KONSTANTINOPOLE; pod osmanskou vládou si pravoslavné obyvatelstvo podrží vlastní právo v rámci systému MILLETŮ, církev spravuje rodinné a dědické věci a Hexabiblos zůstává v užívání. (6) 1821–1830 — ŘECKÁ REVOLUCE A NEZÁVISLOST. (7) 1835 — nový stát prohlásí za platné právo BYZANTSKÉ ZÁKONY, konkrétně HEXABIBLOS, a to 'DOKUD NEBUDE VYDÁN OBČANSKÝ ZÁKONÍK'. To provizorium vydrží víc než sto let a je to ta pointa, kterou si zapamatuj: JUSTINIÁNSKÉ PRÁVO ZPROSTŘEDKOVANÉ BYZANTSKÝMI SBÍRKAMI PLATILO V ŘECKU JAKO ŽIVÉ PRÁVO AŽ DO POLOVINY 20. STOLETÍ. (8) 1856 — přijetí římskoprávní nauky německých pandektistů do řecké praxe a vědy. (9) 1946 — teprve tehdy vstupuje v účinnost ŘECKÝ OBČANSKÝ ZÁKONÍK, silně ovlivněný německým BGB, a tím se nepřetržitá linie od Justiniána uzavírá.",
       "terms": [
-        {
-          "term": "Basilika",
-          "def": "Řecké zpracování celého Corpus iuris za Lva VI. (kolem 888), 60 knih; základ byzantského práva."
-        },
-        {
-          "term": "Hexabiblos",
-          "def": "Harmenopulova příručka z roku 1345; v Řecku platila jako právo až do roku 1946."
-        }
+        { "term": "Basilika", "def": "Řecké zpracování celého Corpus iuris za Lva VI. (kolem 888), 60 knih; základ byzantského práva." },
+        { "term": "Hexabiblos", "def": "Harmenopulova příručka z roku 1345; v Řecku platila jako právo až do roku 1946." }
       ],
       "cards": [
         {
@@ -184,19 +134,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Leges barbarorum a rozdělená Francie",
       "text": "LEGES BARBARORUM jsou ZÁKONÍKY GERMÁNSKÝCH KMENŮ sepsané po pádu západořímské říše latinsky, mezi 5. a 9. stoletím — LEX SALICA Franků (asi 507–511), LEX RIBUARIA, LEX BURGUNDIONUM, LEX VISIGOTHORUM, EDICTUS ROTHARI Langobardů (643), LEX BAIUVARIORUM, LEX ALAMANNORUM. Jsou to většinou KAZUISTICKÉ SOUPISY POKUT (WERGELD — výkupné za život odstupňované podle postavení zabitého) a vycházejí z osobního, ne územního pojetí práva: platí PODLE PŘÍSLUŠNOSTI KE KMENI, ne podle místa. OBLASTI S VELKÝM VLIVEM: říše franská a její nástupnické útvary, tedy dnešní FRANCIE, PORÝNÍ A JIŽNÍ NĚMECKO, dále LANGOBARDSKÁ ITÁLIE, VIZIGÓTSKÁ HISPÁNIE A JIŽNÍ GALIE, a přes lex Baiuvariorum i BAVORSKO A RAKOUSKÉ ZEMĚ. FRANCIE JE UČEBNICOVÝM PŘÍPADEM DĚLENÍ: JIH byl ROMANIZOVANÝ a udržel si vulgární římské právo — proto se mu říká PAYS DE DROIT ÉCRIT, země psaného práva; SEVER stál na franckém zvykovém právu, tedy COUTUMES, a nazývá se PAYS DE DROIT COUTUMIER, země obyčejového práva. Hranice vedla zhruba od ústí Charenty k Ženevskému jezeru. JAK DLOUHO TO DĚLENÍ TRVALO, JE PŘESNĚ TA OTÁZKA: od raného středověku AŽ DO CODE CIVIL ROKU 1804, který Francii poprvé sjednotil jediným občanským zákoníkem — tedy zhruba TISÍC LET. (Mezikrokem bylo nařízení z roku 1454, kterým Karel VII. přikázal obyčeje sepsat, čímž se z ústní tradice stalo psané právo a dělení se zpevnilo.)",
       "terms": [
-        {
-          "term": "pays de droit écrit × pays de droit coutumier",
-          "def": "Romanizovaný jih Francie s psaným (římským) právem × sever s obyčejovým právem; dělení trvalo do Code civil 1804."
-        }
+        { "term": "pays de droit écrit × pays de droit coutumier", "def": "Romanizovaný jih Francie s psaným (římským) právem × sever s obyčejovým právem; dělení trvalo do Code civil 1804." }
       ],
       "cards": [
         {
@@ -216,12 +160,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Pramen: Saské zrcadlo a nauka o dvou mečích",
       "text": "PRAMEN: 'Bůh zanechal na zemi dva meče k ochraně křesťanstva; duchovní meč náleží papeži a světský meč císaři.' (Sachsenspiegel, Landrecht I 1.) CO SE Z PRAMENE DÁ VYVODIT: je to NAUKA O DVOU MEČÍCH, tedy o dvojí moci v jednom křesťanském společenství — obě pocházejí od Boha, obě jsou legitimní ve svém oboru a ani jedna není odvozena z druhé. SASKÉ ZRCADLO (SACHSENSPIEGEL) sepsal kolem let 1220–1235 EIKE VON REPGOW, a je to NEJSTARŠÍ NĚMECKY PSANÁ PRÁVNÍ KNIHA; není to zákoník vydaný panovníkem, nýbrž SOUKROMÝ ZÁPIS PLATNÉHO ZVYKOVÉHO PRÁVA, který si ale získal obrovskou autoritu a šířil se po střední a východní Evropě, často v bohatě ilustrovaných rukopisech. Dělí se na LANDRECHT (zemské právo) a LEHNRECHT (lenní právo). CÍSAŘ, KTERÉHO SE TÝKÁ, je ŘÍMSKÝ CÍSAŘ SVATÉ ŘÍŠE, tedy nositel univerzálního světského nároku (v době vzniku Fridrich II.). SROVNÁNÍ S CHALÍFOU JE JÁDREM OTÁZKY: chalífa spojuje moc SVĚTSKOU I DUCHOVNÍ V JEDNÉ OSOBĚ jako nástupce Prorokův — v islámu tedy dvojí meč není, protože náboženské a politické vedení se nedělí. Císař naproti tomu drží jen MEČ SVĚTSKÝ a vedle něj stojí papež; celý spor o investituru a zápas mezi císařstvím a papežstvím je právě sporem o to, kdo z těch dvou má přednost. TENHLE ROZDÍL JE JEDNÍM Z KOŘENŮ ZÁPADNÍHO ODDĚLENÍ PRÁVA A NÁBOŽENSTVÍ A NAKONEC I SEKULARIZACE.",
       "terms": [],
@@ -243,19 +184,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "První univerzity a co se na nich učilo",
       "text": "PRVNÍ UNIVERZITY vznikají na přelomu 11. a 12. století: BOLOGNA (kolem 1088, tradičně nejstarší, a hned od počátku PRÁVNICKÁ), PAŘÍŽ (kolem 1150, těžištěm teologie), OXFORD (kolem 1167), CAMBRIDGE (1209), dále Padova, Salamanca, Neapol. VÍDEŇSKÁ UNIVERZITA BYLA ZALOŽENA ROKU 1365 RUDOLFEM IV. — je NEJSTARŠÍ UNIVERZITOU V NĚMECKY MLUVÍCÍM PROSTORU, která funguje nepřetržitě (Praha je starší, 1348, ale byla už tehdy v Čechách). Rudolfova zakládací listina ovšem NEZÍSKALA PAPEŽSKÉ POVOLENÍ PRO TEOLOGICKOU FAKULTU, ta přibyla až roku 1384 za Albrechta III. CO SE NA STŘEDOVĚKÝCH UNIVERZITÁCH UČILO ZA PRÁVA — a to je pointa otázky: JEN DVĚ, A ANI JEDNO Z NICH NEBYLO MÍSTNÍ. Byly to PRÁVO ŘÍMSKÉ (legum, podle Corpus iuris civilis) a PRÁVO KANONICKÉ (canonum, podle Gratianova Dekretu a papežských dekretálů). Kdo vystudoval obojí, byl DOCTOR IUTRIUSQUE IURIS, doktor obojího práva. MÍSTNÍ ZVYKOVÉ PRÁVO SE NA UNIVERZITÁCH NEUČILO VŮBEC — bylo partikulární, nepsané a nepokládalo se za vědecky uchopitelné. A právě z toho plyne recepce: absolventi přicházeli do praxe vybaveni římským a kanonickým právem a žádným jiným, takže jím řešili i případy, pro které původně určeno nebylo.",
       "terms": [
-        {
-          "term": "doctor iutriusque iuris",
-          "def": "Doktor obojího práva — římského i kanonického; jediné dvě právní disciplíny středověké univerzity."
-        }
+        { "term": "doctor iutriusque iuris", "def": "Doktor obojího práva — římského i kanonického; jediné dvě právní disciplíny středověké univerzity." }
       ],
       "cards": [
         {
@@ -275,19 +210,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "Recepce a její regionální rozdíly",
       "text": "RECEPCÍ se rozumí PŘEVZETÍ ŘÍMSKÉHO (A KANONICKÉHO) PRÁVA DO PRÁVNÍ PRAXE A VĚDY EVROPSKÝCH ZEMÍ, počínaje 12. stoletím a vrcholící v 15. a 16. století. Neprobíhá jedním aktem: rozlišuje se RECEPCE TEORETICKÁ (na univerzitách se učí CIC) a RECEPCE PRAKTICKÁ (soudy podle něj skutečně soudí), a dále recepce IN COMPLEXU (převzetí celku) proti přejímání jednotlivých institutů. Nese ji několik sil: vzdělaní právníci v panovnických a městských službách, kanonické právo církevních soudů, a myšlenka, že římská říše trvá dál, takže římské právo je právem císařovým. REGIONÁLNÍ ROZDÍLY JSOU ZÁSADNÍ A OTÁZKA SE NA NĚ PTÁ PŘÍMO: (1) NĚMECKÉ ZEMĚ — recepce nejsilnější a nejúplnější, vrcholí zřízením ŘÍŠSKÉHO KOMORNÍHO SOUDU roku 1495; (2) ITÁLIE A JIŽNÍ FRANCIE — recepce snadná, protože tam římská tradice nikdy zcela nevymizela; (3) SEVERNÍ FRANCIE — jen omezená, coutumes se sepsaly a udržely, římské právo tam působí jako RATIO SCRIPTA, psaný rozum, tedy podpůrně; (4) ANGLIE — RECEPCE V PODSTATĚ NEPROBĚHLA, protože common law bylo do té doby už vybudované, centralizované a mělo vlastní stav právníků školených mimo univerzity (Inns of Court); (5) SKANDINÁVIE A VÝCHODNÍ EVROPA — pozdní a spíš zprostředkovaná. PRÁVNÍ KNIHA, NA KTERÉ JE SILNÁ RECEPCE VIDĚT: CONSTITUTIO CRIMINALIS CAROLINA (1532), říšský trestní řád Karla V., prostoupený učenou právní naukou — a v soukromém právu pak zemská zřízení vycházející z ius commune.",
       "terms": [
-        {
-          "term": "ratio scripta",
-          "def": "„Psaný rozum“ — postavení římského práva tam, kde neplatilo přímo, ale používalo se podpůrně pro svou rozumovou přesvědčivost."
-        }
+        { "term": "ratio scripta", "def": "„Psaný rozum“ — postavení římského práva tam, kde neplatilo přímo, ale používalo se podpůrně pro svou rozumovou přesvědčivost." }
       ],
       "cards": [
         {
@@ -307,12 +236,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "Glosátoři a komentátoři",
       "text": "GLOSÁTOŘI působili v BOLOGNI OD KONCE 11. STOLETÍ; za zakladatele se pokládá IRNERIUS, k nejvýznamnějším patří ČTYŘI DOKTOŘI (Bulgarus, Martinus, Hugo, Jacobus) a nakonec ACCURSIUS, který kolem roku 1230 shrnul dosavadní práci do GLOSSY ORDINARIA — souborné glosy, jež se sama stala autoritou ('co neuznává glosa, neuznává soud'). METODA: pracovali PŘÍMO S TEXTEM CIC jako s autoritativním a v zásadě bezrozporným celkem. Techniky: GLOSA MEZIŘÁDKOVÁ (vysvětlení slova) a MARGINÁLNÍ (poznámka na okraji), DISTINCTIONES (rozlišení případů), SUMMAE (souhrny titulů), QUAESTIONES (sporné otázky) a BROCARDA (právní pravidla ve zkratce). CÍLEM bylo TEXT VYLOŽIT A ODSTRANIT ZDÁNLIVÉ ROZPORY, ne ho přizpůsobit praxi. KOMENTÁTOŘI (též POSTGLOSÁTOŘI či KONSILIÁTOŘI), 14.–15. století, hlavně BARTOLUS DE SAXOFERRATO a jeho žák BALDUS DE UBALDIS, pracují jinak — a v tom je odpověď na otázku, čím se liší: (1) NEVYCHÁZEJÍ UŽ JEN Z TEXTU, ALE Z PROBLÉMU, který přinese praxe; (2) používají SCHOLASTICKOU DIALEKTIKU, tedy rozbor pro a proti s vyvozením závěru; (3) PÍŠOU KONSILIA, tedy dobrozdání pro konkrétní spory, což je přímý vliv na praxi; (4) SPOJUJÍ ŘÍMSKÉ PRÁVO SE STATUTY MĚST, LENNÍM A OBCHODNÍM PRÁVEM, a vytvářejí tak právo skutečně použitelné; (5) ZAKLÁDAJÍ NAUKU O KOLIZI PRÁVNÍCH ŘÁDŮ (statutární teorie), z níž vyroste mezinárodní právo soukromé. Zkráceně: GLOSÁTOŘI TEXT VYSVĚTLUJÍ, KOMENTÁTOŘI HO POUŽÍVAJÍ.",
       "terms": [],
@@ -334,12 +260,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "Ius commune a ius particulare",
       "text": "IUS COMMUNE je SPOLEČNÉ PRÁVO — učené právo římské a kanonické, jak ho zpracovaly univerzity, platné napříč kontinentem jako obecný základ. IUS PARTICULARE (též IUS PROPRIUM) je PRÁVO ZVLÁŠTNÍ, tedy městské statuty, zemská zřízení, lenní právo, obyčeje, cechovní řády, královské zákony — právo konkrétního místa a konkrétní skupiny. VZTAH MEZI NIMI JE TO PODSTATNÉ A JE TŘEBA SI ZAPAMATOVAT, ŽE JE OPAČNÝ, NEŽ BY SE ČEKALO: ZVLÁŠTNÍ PRÁVO MÁ PŘEDNOST (statutum derogat iuri communi), a ius commune se použije SUBSIDIÁRNĚ, tedy tam, kde zvláštní právo mlčí, a dále jako VÝKLADOVÝ RÁMEC A ZÁSOBÁRNA POJMŮ. Právě proto mohlo být ius commune mimořádně vlivné, aniž by cokoli formálně rušilo: nekonkurovalo místnímu právu, nýbrž ho DOPLŇOVALO A ZÁROVEŇ MU DÁVALO JAZYK. Účinek byl ovšem dalekosáhlý — kdo vykládá partikulární normu pojmy ius commune, ten ji tím také přetváří.",
       "terms": [],
@@ -353,19 +276,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 12,
-      "text_sha": null,
+    "12": {
       "title": "Pramen: Řád říšského komorního soudu 1495",
       "text": "PRAMEN: '§3 Dále komorní soudce a přísedící složí přísahu před Naším královským či císařským Veličenstvem a přísahat budou při svatých: sloužit Našemu královskému či císařskému komornímu soudu svědomitě a pilně a soudit podle OBECNÝCH PRÁV ŘÍŠE, rovněž podle spravedlivých, počestných a přijatelných pravidel, statutů a obyčejů knížectví, panství a soudů, které jim musí být předloženy…' (Reichskammergerichtsordnung, 1495.) ŘÍŠSKÝ KOMORNÍ SOUD byl zřízen NA ŘÍŠSKÉM SNĚMU VE WORMSU ROKU 1495 spolu s VĚČNÝM ZEMSKÝM MÍREM (Ewiger Landfriede), který zakázal svépomoc a soukromé války — a soud byl tou náhradou: místo pěsti měl rozhodovat rozsudek. Sídlil ve Frankfurtu, pak ve Špýru a nakonec ve Wetzlaru. ČLENOVÉ: v čele KOMORNÍ SOUDCE (Kammerrichter), jmenovaný císařem a vždy z vysoké šlechty, a PŘÍSEDÍCÍ (Assessoren), navrhovaní stavy — a to je klíčové, POLOVINA MUSELA BÝT UČENÍ PRÁVNÍCI (doktoři práv) a druhá polovina rytířského stavu; postupně se požadavek vzdělání rozšířil na všechny. JAKÉ PRÁVO SE POUŽÍVALO: formulace 'obecná práva říše' znamená IUS COMMUNE, tedy římské a kanonické právo, zatímco 'pravidla, statuty a obyčeje knížectví a panství' jsou IUS PARTICULARE. Pořadí ve větě odpovídá procesnímu pravidlu: ZVLÁŠTNÍ PRÁVO SE POUŽIJE, JEN POKUD HO STRANA SOUDU PŘEDLOŽÍ A PROKÁŽE ('které jim musí být předloženy') — a nestane-li se to, soudí se podle ius commune. ROLE PRO RECEPCI JE PRÁVĚ V TOM: římské právo platilo z úřední povinnosti, místní se muselo dokazovat, takže se v praxi prosazovalo učené právo. Latinsky se to shrnuje jako FUNDATA INTENTIO — nárok opřený o ius commune je od počátku odůvodněný. OBTÍŽE SOUDU: chronický NEDOSTATEK PENĚZ (stavy neplatily), OBROVSKÉ PRŮTAHY (spisy se vlekly desítky let, některé nebyly rozhodnuty do zániku říše roku 1806), KONKURENCE ŘÍŠSKÉ DVORSKÉ RADY ve Vídni a PRIVILEGIA DE NON APPELLANDO, jimiž si mocná knížata vymohla, že se od jejich soudů k němu odvolat nelze.",
       "terms": [
-        {
-          "term": "privilegium de non appellando",
-          "def": "Výsada, podle níž se od soudů daného knížete nelze odvolat k říšskému komornímu soudu."
-        }
+        { "term": "privilegium de non appellando", "def": "Výsada, podle níž se od soudů daného knížete nelze odvolat k říšskému komornímu soudu." }
       ],
       "cards": [
         {
@@ -401,19 +318,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 13,
-      "text_sha": null,
+    "13": {
       "title": "Pramen: Zasiovy metodické zásady (1526)",
       "text": "PRAMEN (zkráceně): Zasius prohlašuje, že se bude držet VÝHRADNĚ TEXTU PRAMENŮ a skutečných důvodů plynoucích z práva či povahy věci; že se nenechá spoutat 'VÍŘEM MÍNĚNÍ', která nevedou k vědě; že sice uznává autoritu ACCURSIA, BARTOLA, BALDA A ANGELA se vší náležitou úctou, ALE NESTAVÍ JE NAD OSTATNÍ UČENCE a nenechá se jimi zatemnit předsudkem, 'PROTOŽE PRAVDA O TOM, CO JE PRÁVO, SE ČERPÁ JEN Z PRAMENŮ, NE Z AUTORITY DOKTORŮ'; a že opouští 'LES KONSILIÍ', protože ta byla většinou psána pro výhru a zisk, aby přesvědčila soudce, ne aby hájila pravý smysl pramenů. KDO A V JAKÉM KONTEXTU: ULRICH ZASIUS (1461–1535), profesor ve Freiburgu, spolu s ALCIATEM a BUDAEEM jeden ze TŘÍ ZAKLADATELŮ PRÁVNÍHO HUMANISMU. Píše roku 1526, tedy v době renesance, humanismu a reformace, kdy se heslem stává AD FONTES — zpět k pramenům. HLAVNÍ KRITIKA V ÚRYVKU je namířena proti METODĚ KOMENTÁTORŮ: proti hromadění a vážení MÍNĚNÍ AUTORIT místo čtení textu, proti tomu, že se scholastický aparát postavil mezi právníka a pramen, a proti KONSILIÍM jako literatuře psané na objednávku a pro výsledek, tedy zaujaté. CO ZASIUS NAVRHUJE: vrátit se K SAMOTNÉMU TEXTU PRAMENE a k ROZUMOVÉMU DŮVODU; autoritu měřit kvalitou argumentu, ne jménem; a číst římské právo HISTORICKY A FILOLOGICKY, v jeho vlastním jazyce a kontextu. Tenhle program se nazývá MOS GALLICUS (francouzský způsob), na rozdíl od MOS ITALICUS komentátorů.",
       "terms": [
-        {
-          "term": "mos gallicus × mos italicus",
-          "def": "Humanistický historicko-filologický přístup k pramenům × scholastická metoda komentátorů opřená o autority."
-        }
+        { "term": "mos gallicus × mos italicus", "def": "Humanistický historicko-filologický přístup k pramenům × scholastická metoda komentátorů opřená o autority." }
       ],
       "cards": [
         {
@@ -433,12 +344,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 14,
-      "text_sha": null,
+    "14": {
       "title": "Pramen: Conring a lotharská legenda (1632)",
       "text": "PRAMEN: '…pro toho, kdo skutečně nahlíží do starých listin, nestojí ten příběh o císaři Lotharovi jen na slabých nohou, nýbrž je zcela nepravdivý… Protože dodnes neexistuje žádný dekret ani jen o málo starší doklad, že by Lothar zavrhl dosud platné zákony a na jejich místo postavil pouze římské, je zcela zřejmé, jak nepodložené to obecně rozšířené tvrzení je.' (Hermann Conring, De origine iuris Germanici, 1632.) LOTHARSKÁ LEGENDA byla tvrzení, že CÍSAŘ LOTHAR III. ROKU 1135 ZVLÁŠTNÍM ZÁKONEM ZAVEDL V ŘÍŠI ŘÍMSKÉ PRÁVO A ZRUŠIL DOSAVADNÍ PRÁVO — tedy že recepce má formální, zákonný a datovatelný původ. BYLA PRAVDIVÁ? NE, JE TO VÝMYSL, a Conring to prokázal právě tím, že takový dekret ani žádný starší doklad neexistuje; je to jedna z prvních ukázek HISTORICKÉ KRITIKY PRAMENE použité v právní vědě. JAK OVLIVNILA ŠÍŘENÍ ŘÍMSKÉHO PRÁVA — a to je pointa otázky: legenda mu DODÁVALA FORMÁLNÍ LEGITIMITU. Kdo tvrdil, že římské právo platí z císařova příkazu, nemusel obhajovat, PROČ by mělo platit; stačilo se odvolat na zákon. Zároveň podpírala myšlenku TRANSLATIO IMPERII, tedy že říše je pokračováním římské, a proto je římské právo 'naše'. CONRINGOVA DEMONTÁŽ MĚLA DVOJÍ NÁSLEDEK: (1) vyvrátila formální titul, takže se platnost římského práva musela nadále odůvodňovat jinak — ZVYKEM, RECEPCÍ V PRAXI, nebo jeho ROZUMOVOU KVALITOU (ratio scripta); (2) otevřela cestu k ZÁJMU O VLASTNÍ GERMÁNSKÉ PRÁVNÍ DĚJINY, tedy k pozdější germanistice a k Savignyho historické škole.",
       "terms": [],
@@ -460,12 +368,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 15,
-      "text_sha": null,
+    "15": {
       "title": "Usus modernus pandectarum",
       "text": "USUS MODERNUS PANDECTARUM znamená doslova 'MODERNÍ UŽÍVÁNÍ PANDEKT' a označuje SMĚR NĚMECKÉ PRÁVNÍ VĚDY OD 17. DO KONCE 18. STOLETÍ, jehož otázka nezní 'co Digesta říkala', nýbrž 'CO Z DIGEST DNES SKUTEČNĚ PLATÍ A JAK SE TO POUŽIJE'. Název pochází z titulu díla SAMUELA STRYKA (1690); k dalším představitelům patří BENEDICT CARPZOV, HERMANN CONRING, GEORG ADAM STRUVE a JOHANN SCHILTER. RYSY: (1) PRAKTICKÉ ZAMĚŘENÍ — píše se pro soudy, ne pro katedru; (2) SPOJOVÁNÍ ŘÍMSKÉHO PRÁVA S DOMÁCÍM, tedy s partikulárními zřízeními, obyčeji a soudní praxí; (3) ZÁSADA, ŽE NEUŽÍVANÉ PŘESTÁVÁ PLATIT — části CIC, které praxe nepřijala, se pokládají za odpadlé (tzv. neužívání, desuetudo); (4) VELKÝ VÝZNAM SOUDNÍ PRAXE a sbírek rozhodnutí. DOPAD: (a) učinil z recipovaného římského práva SKUTEČNĚ PLATNÉ NĚMECKÉ PRÁVO, tedy dovršil praktickou recepci; (b) zároveň ho tím PROMÍSIL S DOMÁCÍMI PRVKY, takže vzniklo právo svébytné, ne kopie; (c) shromáždil obrovský materiál, na kterém pak stavěly KODIFIKACE (ALR, ABGB) i PANDEKTISTIKA 19. století; (d) a metodicky ukázal, že učený text a soudní praxe se nemusí vylučovat.",
       "terms": [],
@@ -487,12 +392,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 16,
-      "text_sha": null,
+    "16": {
       "title": "Humanismus a usus modernus vedle sebe",
       "text": "Poslední otázka chce OBĚ METODY, JEJICH VÝSLEDEK A JEJICH VZÁJEMNÝ VZTAH. PRÁVNÍ HUMANISMUS (MOS GALLICUS), 16. století, Francie — Alciatus, Budaeus, Zasius, Cujacius, Donellus, Hotman. METODA: HISTORICKO-FILOLOGICKÁ. Čte CIC jako HISTORICKÝ TEXT ŘÍMSKÉ DOBY, očišťuje ho od pozdějších vsuvek (interpolací), zajímá se o jazyk, o řecké pasáže, o to, co text znamenal TEHDY. Cílem je PRAVDA O ŘÍMSKÉM PRÁVU. VÝSLEDEK: vynikající textová kritika a vydání pramenů, vznik právních dějin jako vědy — ALE ZÁROVEŇ PARADOX, KTERÝ SI ZAPAMATUJ: TÍM, ŽE HUMANISTÉ UKÁZALI ŘÍMSKÉ PRÁVO JAKO PRODUKT URČITÉ DOBY, OSLABILI JEHO NÁROK NA NADČASOVOU PLATNOST — a připravili tak půdu pro přirozené právo i pro kodifikace. Praxi naopak dali málo; Hotman v Antitribonianu dokonce navrhl římské právo z Francie vyhnat. USUS MODERNUS, 17.–18. století, německé země. METODA: DOGMATICKO-PRAKTICKÁ. Čte CIC jako PLATNÉ PRÁVO, ptá se po použitelnosti, propojuje ho s domácím právem a soudní praxí. Cílem je ROZHODNUTÍ SPORU. VÝSLEDEK: dovršení praktické recepce a vznik svébytného německého obecného práva. VZTAH MEZI NIMI: (1) JSOU SOUČASNÉ A KONKURENČNÍ, ne po sobě jdoucí — humanismus vrcholí v 16. století hlavně ve Francii, usus modernus v 17.–18. hlavně v Německu, ale prolínají se; (2) DOPLŇUJÍ SE, protože usus modernus přejímá humanistickou textovou práci, když potřebuje zjistit, co text vlastně říká, a humanismus bez praktického směru by zůstal jen filologií; (3) STOJÍ PROTI SOBĚ V OTÁZCE, K ČEMU JE ŘÍMSKÉ PRÁVO — humanistovi je PŘEDMĚTEM POZNÁNÍ, praktikovi NÁSTROJEM; (4) a oba dohromady vedou k témuž: k ROZLOŽENÍ AUTORITY CIC jako posvátného textu, jednou jeho historizací, podruhé jeho výběrovým užíváním.",
       "terms": [],
@@ -522,8 +424,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }

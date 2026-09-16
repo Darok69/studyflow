@@ -38,7 +38,12 @@ def main(paths: list[str]) -> int:
         data = json.loads(target.read_text("utf-8"))
         if "title" in content:
             data["title"] = content["title"]
-        reading = data.get("kind") == "reading"
+        # Souhrn článku nemá stránky k napárování, takže si oddíly zakládá sám.
+        # Totéž potřebují listy s otázkami ke cvičení: dvě hutné stránky nesou
+        # patnáct otázek a cpát je do dvou oddílů by dalo nečitelnou učebnici
+        # i mizerné karty. Musí si o to ale ŘÍCT — u běžné prezentace zůstává
+        # neznámé číslo slidu chybou, protože je to skoro vždy překlep.
+        reading = data.get("kind") == "reading" or content.get("free_sections") is True
         by_n = {s["n"]: s for s in data["slides"]}
         written = skipped = 0
         for key, payload in content["slides"].items():

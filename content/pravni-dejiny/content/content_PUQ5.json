@@ -1,27 +1,13 @@
 {
   "lecture_id": "PUQ5",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Otázky 5",
   "title": "Otázky a prameny, cvičení V — přirozené právo, suverenita, konstitucionalismus",
-  "source_file": "raw/PUQ5_questions-and-sources-unit-5.pdf",
-  "source_sha256": "9c45c2a7adb5275e60834ee89b5fa46fe7e19d5128a306a14ed92ae43f44be4e",
-  "source_pages": 5,
-  "slides_per_page": 1,
-  "slide_count": 11,
-  "updated_at": "2026-09-15T12:55:25+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PUQ5/PUQ5_s001.webp",
+  "free_sections": true,
+  "slides": {
+    "1": {
       "title": "Počátky přirozenoprávního myšlení ve starověku",
       "text": "Doplňující otázka k Digestům I.1.9. KOŘENY: (1) ŘECKÁ TRAGÉDIE A FILOZOFIE — SOFOKLOVA ANTIGONA je nejstarší slavnou formulací: proti Kreontovu zákazu pohřbít bratra se Antigona dovolává 'NEPSANÝCH A NEOTŘESITELNÝCH ZÁKONŮ BOHŮ', které nejsou z dneška ani ze včerejška a nikdo neví, odkud se vzaly. Je to zárodek myšlenky, že nad pozitivním příkazem stojí vyšší norma. (2) SOFISTÉ postavili proti sobě PHYSIS (přirozenost) a NOMOS (ustanovení), a někteří z nich (Antifón, Kallikles) dovodili, že zákon je jen lidská dohoda, často proti přirozenosti — což je kritická, ne budovatelská verze. (3) ARISTOTELÉS rozlišil spravedlnost PŘIROZENOU (fysikon dikaion), která platí všude stejně, a ZÁKONNOU (nomikon), která je věcí ustanovení. (4) STOICISMUS je pro právní dějiny nejdůležitější: učí, že světem vládne ROZUM (LOGOS), že všichni lidé mají na něm podíl, a tedy že jsou si od přirozenosti ROVNI a tvoří jedno světoobčanství (KOSMOPOLIS). Odtud pochází univerzalismus, který v Evropě přežije všechno ostatní. (5) CICERO tu myšlenku přeloží do latiny a do právnického jazyka v pasáži, kterou je dobré znát: pravý zákon je SPRÁVNÝ ROZUM VE SHODĚ S PŘÍRODOU, platí u všech národů a ve všech dobách, nelze ho zrušit senátem ani lidem, a kdo ho neposlouchá, prchá sám před sebou. (6) ŘÍMŠTÍ PRÁVNÍCI pak přirozené právo vtahují do dogmatiky — u Ulpiana jako to, čemu příroda naučila všechny živočichy, u Gaia splývající s ius gentium. JAK SE TO LIŠÍ OD DNEŠNÍHO CHÁPÁNÍ PRÁVA NÁRODŮ: starověké přirozené právo je (a) MORÁLNĚ-KOSMICKÉ, ne mezistátní; (b) NEMÁ ADRESÁTEM STÁTY, nýbrž lidi; (c) NENÍ VYNUTITELNÉ ŽÁDNOU INSTITUCÍ; (d) a jeho obsah se zjišťuje ROZUMOVOU ÚVAHOU, ne dohodou. Dnešní mezinárodní právo je naproti tomu POZITIVNÍ, MEZISTÁTNÍ A ZALOŽENÉ NA SOUHLASU — a přirozenoprávní argument v něm zůstal jen v podobě ius cogens a lidských práv.",
       "terms": [
-        {
-          "term": "physis × nomos",
-          "def": "Přirozenost proti ustanovení — sofistické rozlišení, ze kterého vyrůstá napětí mezi přirozeným a pozitivním právem."
-        }
+        { "term": "physis × nomos", "def": "Přirozenost proti ustanovení — sofistické rozlišení, ze kterého vyrůstá napětí mezi přirozeným a pozitivním právem." }
       ],
       "cards": [
         {
@@ -41,18 +27,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 2071,
-      "text_sha": "3df5624de4f761f1",
-      "pdf_page": 1
+      "vision_used": false
     },
-    {
-      "n": 2,
-      "img": "img/PUQ5/PUQ5_s002.webp",
+    "2": {
       "title": "Proměna veřejného práva mezi lety 1648 a 19. stoletím",
       "text": "Otázka chce UDÁLOSTI, MYSLITELE A TEORIE, tedy tři osy najednou. VÝCHOZÍ STAV (1648): VESTFÁLSKÝM MÍREM se prosazuje SUVERENITA ÚZEMNÍCH PÁNŮ, zásada CUIUS REGIO, EIUS RELIGIO se změkčuje na náboženskou koexistenci, a mezinárodní řád se zakládá na ROVNOSTI SUVERÉNŮ bez nadřazené autority. Uvnitř států nastupuje ABSOLUTISMUS. UDÁLOSTI, KTERÉ VEDOU DÁL: ANGLICKÁ OBČANSKÁ VÁLKA A SLAVNÁ REVOLUCE (1688–89) s BILL OF RIGHTS; AMERICKÁ REVOLUCE (Deklarace nezávislosti 1776, Ústava 1787, Bill of Rights 1791); FRANCOUZSKÁ REVOLUCE (1789, Deklarace práv člověka a občana, ústavy 1791 a 1793); NAPOLEONSKÉ VÁLKY a s nimi vývoz revolučních institucí i Code civil; VÍDEŇSKÝ KONGRES (1814–15) a restaurace; a ROK 1848 jako vlna ústavních revolucí. MYSLITELÉ A JEJICH TEORIE: HOBBES (Leviathan 1651) — přirozený stav jako válka všech proti všem, SPOLEČENSKÁ SMLOUVA, kterou se moc neodvolatelně přenáší na suveréna; LOCKE (Two Treatises 1689) — přirozená práva na ŽIVOT, SVOBODU A VLASTNICTVÍ, vláda je SVĚŘENSTVÍM a při jeho porušení vzniká PRÁVO NA ODPOR; MONTESQUIEU (O duchu zákonů 1748) — DĚLBA MOCI a myšlenka, že moc má zastavovat moc; ROUSSEAU (Společenská smlouva 1762) — SUVERENITA LIDU a OBECNÁ VŮLE; PUFENDORF, THOMASIUS A WOLFF — rozumové přirozené právo, které dá zákonodárci ambici kodifikovat; BECCARIA (1764) — humanizace trestního práva; KANT — právní stát a autonomie; SIEYÈS — USTAVUJÍCÍ MOC (pouvoir constituant) a pojem národa. VÝSLEDNÁ PROMĚNA VE TŘECH BODECH: (1) OD PANOVNICKÉ SUVERENITY K SUVERENITĚ LIDU ČI NÁRODA; (2) OD PODDANÉHO K OBČANU S PRÁVY, tedy vznik katalogu základních práv; (3) OD NEOMEZENÉ MOCI K MOCI ROZDĚLENÉ A ÚSTAVOU VÁZANÉ. Tomu se souhrnně říká KONSTITUCIONALISMUS.",
       "terms": [],
@@ -74,25 +51,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1816,
-      "text_sha": "6941086a641b530d",
-      "pdf_page": 2
+      "vision_used": false
     },
-    {
-      "n": 3,
-      "img": "img/PUQ5/PUQ5_s003.webp",
+    "3": {
       "title": "Pramen: frontispis Hobbesova Leviathana (1651)",
       "text": "CO JE NA OBRAZE VIDĚT: nad krajinou s městem, poli a horami se tyčí OBROVSKÁ POSTAVA KORUNOVANÉHO PANOVNÍKA od pasu nahoru. Jeho TĚLO JE SLOŽENO ZE STOVEK MALÝCH LIDSKÝCH POSTAV, které jsou obráceny dovnitř, k hlavě — vidíme jim záda, ne tváře. V PRAVÉ RUCE DRŽÍ MEČ, v LEVÉ BISKUPSKOU BERLU. Pod obrazem je dvojice sloupců s emblémy: vlevo světské (pevnost, koruna, dělo, zbraně, bitva), vpravo církevní (kostel, mitra, blesky exkomunikace, rozlišení pojmů, koncil). Nahoře je citát z Knihy Jób: 'NON EST POTESTAS SUPER TERRAM QUAE COMPARETUR EI' — není na zemi moci, která by se mu vyrovnala. CO SE Z TOHO DOZVÍDÁME O POSTAVENÍ SUVERÉNA: (1) je JEDINÝ A NEDĚLITELNÝ; (2) JE DOSLOVA SLOŽEN Z PODDANÝCH — jeho moc je jejich mocí sloučenou dohromady, takže není nad nimi zvenčí, nýbrž JE JIMI; (3) drží MEČ I BERLU, tedy MOC SVĚTSKOU I DUCHOVNÍ V JEDNÉ RUCE, což je přímý útok na nauku o dvou mečích a na nárok církve; (4) stojí NAD MĚSTEM, které je pod ním pokojné a prázdné — pokoj je jeho dílem. O ÚKOLU STÁTU: zajistit MÍR A BEZPEČÍ, protože to je jediné, co lidé v přirozeném stavu nemají. JAK OBRAZ ILUSTRUJE TEORII: Hobbes učí, že v PŘIROZENÉM STAVU je BELLUM OMNIUM CONTRA OMNES, válka všech proti všem, a život je 'osamělý, ubohý, ošklivý, zvířecí a krátký'. Ze STRACHU ZE NÁSILNÉ SMRTI uzavřou lidé SPOLEČENSKOU SMLOUVU: ne se suverénem, nýbrž MEZI SEBOU NAVZÁJEM, a jí se vzdají práva na vše ve prospěch jednoho nositele. Proto je suverén na obraze SLOŽEN Z NICH — je to jejich AUTORIZOVANÁ OSOBA, ne cizí moc. A proto také NENÍ SMLUVNÍ STRANOU, nemůže smlouvu porušit a poddaní nemají právo na odpor, s jedinou výjimkou: ohrozí-li jejich holý život, pro jehož ochranu smlouva vznikla.",
       "terms": [
-        {
-          "term": "bellum omnium contra omnes",
-          "def": "Válka všech proti všem — Hobbesův přirozený stav, ze kterého se vychází společenskou smlouvou."
-        }
+        { "term": "bellum omnium contra omnes", "def": "Válka všech proti všem — Hobbesův přirozený stav, ze kterého se vychází společenskou smlouvou." }
       ],
       "cards": [
         {
@@ -112,25 +77,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 2058,
-      "text_sha": "ca03e8edf14561b0",
-      "pdf_page": 3
+      "vision_used": false
     },
-    {
-      "n": 4,
-      "img": "img/PUQ5/PUQ5_s004.webp",
+    "4": {
       "title": "Pramen: Vitoria, De Indiis (1538)",
       "text": "PRAMEN: 'Španělé smějí mezi barbary po právu obchodovat, pokud jejich vlasti nečiní škodu. Jinými slovy smějí dovážet zboží, které jim chybí, a vyvážet zlato, stříbro či jiné věci, kterých mají nadbytek; a jejich knížata nemohou svým poddaným bránit obchodovat se Španěly, ani knížata španělská nemohou zakázat obchod s barbary… PRÁVO NÁRODŮ (IUS GENTIUM) je zřejmě takové, že cestující smějí provozovat obchod, pokud nečiní škodu občanům… Jakékoli lidské ustanovení (LEX), které by takový obchod zakazovalo, by bylo bezpochyby nerozumné.' AUTOR A KONTEXT: FRANCISCO DE VITORIA (asi 1483–1546), dominikán a profesor v SALAMANCE, zakladatel ŠKOLY ZE SALAMANKY čili DRUHÉ SCHOLASTIKY. Přednáška De Indiis (1538/39) reaguje na DOBÝVÁNÍ AMERIKY a na spor, zda a čím je ospravedlnitelné. Myšlenkový proud: TOMISTICKÉ PŘIROZENÉ PRÁVO, tedy Akvinského nauka rozvinutá o nové zámořské otázky. PRÁVNÍ ARGUMENTACE V ÚRYVKU: Vitoria nejprve ODMÍTL tradiční tituly dobývání (papežské udělení, císařova univerzální moc, hřích a nevěrectví indiánů, jejich údajná nezpůsobilost) a uznal, že INDIÁNI JSOU PRAVÝMI VLASTNÍKY SVÝCH ZEMÍ A MAJÍ VLASTNÍ LEGITIMNÍ VLÁDU. Zároveň ale zformuloval TITULY LEGITIMNÍ, a ten první a nejdůležitější je PRÁVO NA SPOLEČENSTVÍ A OBCHOD (IUS COMMUNICATIONIS ET COMMERCII): lidé mají od přirozenosti právo cestovat, pobývat a obchodovat, pokud tím neškodí. A tady je ta past, kterou otázka sleduje: ODEPŘENÍ TOHOTO PRÁVA JE KŘIVDOU, A KŘIVDA OPRAVŇUJE K OBRANĚ, TEDY K VÁLCE — takže z ušlechtilé zásady se stává OSPRAVEDLNĚNÍ DOBYTÍ. VZTAH LEX A IUS GENTIUM: lidské ustanovení (lex) je PODŘÍZENO právu národů, které plyne z přirozeného rozumu; zákon odporující ius gentium je 'nerozumný', tedy neplatný. VLIV NA GROTIA A ROZDÍL: Grotius (De iure praedae, Mare liberum 1609, De iure belli ac pacis 1625) Vitoriovu argumentaci PŘEVZAL a použil ji ve prospěch NIZOZEMSKÉHO OBCHODU proti portugalskému monopolu — svoboda moří je táž myšlenka ius communicationis. LIŠÍ SE ALE TÍM, ŽE (1) Grotius přirozené právo SEKULARIZUJE (platilo by 'i kdyby Boha nebylo', etiamsi daremus non esse Deum), zatímco Vitoria zůstává teologem; (2) Grotius vedle přirozeného práva staví IUS VOLUNTARIUM, právo ze souhlasu států, a tím zakládá pozitivní mezinárodní právo; (3) Vitoria myslí v pojmech jediného lidského společenství (totus orbis), Grotius už v pojmech SOUSTAVY SUVERÉNNÍCH STÁTŮ.",
       "terms": [
-        {
-          "term": "ius communicationis",
-          "def": "Právo na společenství, cestování a obchod; u Vitorii legitimní titul, jehož odepření ospravedlňuje válku."
-        }
+        { "term": "ius communicationis", "def": "Právo na společenství, cestování a obchod; u Vitorii legitimní titul, jehož odepření ospravedlňuje válku." }
       ],
       "cards": [
         {
@@ -158,25 +111,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 2107,
-      "text_sha": "5da1c04dea32173a",
-      "pdf_page": 4
+      "vision_used": false
     },
-    {
-      "n": 5,
-      "img": "img/PUQ5/PUQ5_s005.webp",
+    "5": {
       "title": "Pramen: Vattel a právní tituly kolonizace",
       "text": "PRAMEN: 'Celá země je určena k tomu, aby živila své obyvatele: k tomu však nestačí, není-li obdělávána. Každý národ je tedy vázán přirozeným zákonem obdělávat zemi, která mu byla dána, a nemá právo se rozpínat ani žádat pomoc jiných, pokud mu země, kterou obývá, může poskytnout, co potřebuje. Ty národy, které jako staří Germáni a někteří dnešní Tataři obývají úrodné země, zanedbávají zemědělství a raději žijí z lupu, zanedbávají své povinnosti vůči sobě samým, dopouštějí se provinění vůči všem svým sousedům A ZASLOUŽÍ SI BÝT VYHUBENY JAKO DIVÁ A ŠKODLIVÁ ZVÍŘATA.' (Le droit des gens, 1758, II.VII.§97.) ROLE VATTELA V KOLONIZACI: EMER DE VATTEL (1714–1767), Švýcar ve službách saského kurfiřta, napsal nejvlivnější příručku mezinárodního práva 18. a 19. století — četla se na ministerstvech i u soudů, v USA přímo jako autorita. Jeho dvojí přínos ke kolonizaci: (1) ZEMĚDĚLSKÝ ARGUMENT, který vidíš v úryvku — POVINNOST OBDĚLÁVAT PŮDU dělá z neobdělané země zemi, na kterou nárok slábne, takže lovecko-sběračské a kočovné národy fakticky ztrácejí titul k území; (2) navazuje tím na LOCKŮV ARGUMENT PRÁCE (kdo smísí svou práci s půdou, nabývá jí) a na pojem TERRA NULLIUS, země ničí, kterou lze obsadit OKUPACÍ. PRÁVNÍ TITULY KOLONIZACE, KTERÉ OTÁZKA CHCE, tedy v přehledu: (a) PAPEŽSKÉ BULY a smlouva z TORDESILLAS (1494), dělící svět mezi Španělsko a Portugalsko; (b) OBJEVENÍ (discovery) a SYMBOLICKÉ ZABRÁNÍ; (c) OKUPACE TERRA NULLIUS, tvrdí-li se, že území nikomu nepatří nebo že jeho obyvatelé nemají uznatelnou vládu; (d) DOBYTÍ ve spravedlivé válce, k němuž se hodí Vitoriovy tituly; (e) SMLOUVY S DOMORODÝMI VLÁDCI, jejichž platnost bývá sporná (jazyk, donucení, rozdílné pojetí půdy); (f) CESE mezi koloniálními mocnostmi; (g) v 19. století PROTEKTORÁTY a ZÁVĚREČNÝ AKT BERLÍNSKÉ KONFERENCE (1885) s požadavkem EFEKTIVNÍ OKUPACE; (h) a CIVILIZAČNÍ MISE jako ideologické zdůvodnění, které se pak právně usadí v MANDÁTNÍM SYSTÉMU (čl. 22 Paktu Společnosti národů, 1919). K PRAMENI JE TŘEBA PŘIPOJIT KRITIKU: věta o vyhubení jako divá zvířata ukazuje, jak přirozenoprávní argumentace o povinnostech k sobě samému posloužila k vyloučení celých národů z ochrany práva.",
       "terms": [
-        {
-          "term": "terra nullius",
-          "def": "Země ničí — území pokládané za neobsazené či bez uznatelné vlády, a proto nabyvatelné okupací."
-        }
+        { "term": "terra nullius", "def": "Země ničí — území pokládané za neobsazené či bez uznatelné vlády, a proto nabyvatelné okupací." }
       ],
       "cards": [
         {
@@ -196,18 +137,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1906,
-      "text_sha": "873fc8d49c4d61dc",
-      "pdf_page": 5
+      "vision_used": false
     },
-    {
-      "n": 6,
-      "text_sha": null,
+    "6": {
       "title": "Pramen: čl. 16 Deklarace práv člověka a občana (1789)",
       "text": "PRAMEN: 'Společnost, v níž není zajištěna záruka práv ani stanovena dělba moci, nemá ústavu.' (Déclaration des droits de l'homme et du citoyen, čl. 16.) O DOKUMENTU OBECNĚ: přijalo ho ÚSTAVODÁRNÉ NÁRODNÍ SHROMÁŽDĚNÍ 26. SRPNA 1789, tedy několik týdnů po pádu Bastily, jako PREAMBULI K BUDOUCÍ ÚSTAVĚ (stala se jí v ústavě 1791). Má 17 článků a jeho povaha je dvojí: je to zároveň FILOZOFICKÉ VYHLÁŠENÍ PŘIROZENÝCH PRÁV ('lidé se rodí a zůstávají svobodní a rovní v právech', čl. 1) A PRÁVNÍ AKT. Práva jsou pojata jako PŘIROZENÁ, NEZADATELNÁ A POSVÁTNÁ — stát je nedává, jen uznává a chrání; a jejich mezí je jen stejná svoboda druhých (čl. 4). Vzorem byly americké deklarace (Virginia Bill of Rights 1776) a britská tradice; hlavním autorem návrhu byl LAFAYETTE ve spolupráci s JEFFERSONEM. Deklarace platí ve Francii dodnes jako součást ÚSTAVNÍHO BLOKU. KDE V ČL. 16 SLYŠÍME LOCKA A MONTESQUIEUA: LOCKE je v první polovině věty — v myšlence, že účelem vlády je ZAJIŠTĚNÍ PŘIROZENÝCH PRÁV (život, svoboda, vlastnictví), že moc je SVĚŘENSTVÍM pro tento účel a že vláda, která práva nechrání, ztrácí legitimitu. MONTESQUIEU je v druhé polovině — DĚLBA MOCI na zákonodárnou, výkonnou a soudní, protože 'aby nebylo možné moci zneužít, je třeba, aby MOC ZASTAVOVALA MOC' (O duchu zákonů, 1748). A ZÁSADNÍ JE SPOJENÍ OBOU: článek 16 nedělá z práv a dělby moci dvě přání, nýbrž DVĚ PODMÍNKY, BEZ NICHŽ ÚSTAVA VŮBEC NENÍ. Tím se z popisného pojmu ústavy (jakékoli uspořádání) stává pojem NORMATIVNÍ — ústavou se napříště nazve jen to uspořádání, které obojí splňuje.",
       "terms": [],
@@ -229,19 +161,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 7,
-      "text_sha": null,
+    "7": {
       "title": "Konstitucionalismus: myšlenky, počátky, šíření",
       "text": "FILOZOFICKÉ MYŠLENKY, KTERÉ HO PŘIPRAVILY: (1) ROZUMOVÉ PŘIROZENÉ PRÁVO — člověk má práva, která nejsou darem panovníka; (2) SPOLEČENSKÁ SMLOUVA jako zdroj legitimity moci (Hobbes, Locke, Rousseau); (3) DĚLBA MOCI (Locke, Montesquieu); (4) SUVERENITA LIDU A USTAVUJÍCÍ MOC (Rousseau, Sieyès); (5) MYŠLENKA PSANÉHO ZÁKLADNÍHO ZÁKONA jako vyšší normy, převzatá zčásti z anglických charters a z koloniálních zakládacích listin. KDE A KDY POPRVÉ: v moderní podobě v SEVERNÍ AMERICE — ústavy jednotlivých států od roku 1776, VIRGINIA BILL OF RIGHTS (1776), a FEDERÁLNÍ ÚSTAVA USA (1787, v účinnosti 1789) s BILL OF RIGHTS (1791). POLITICKÝ KONTEXT je klíčový: bylo třeba UPRAVIT VZTAH BÝVALÝCH KOLONIÍ PO ODTRŽENÍ OD KORUNY, tedy vybudovat stát na zelené louce, bez panovníka a bez historické ústavy — proto musel být řád SEPSÁN, a proto vzniká ústava jako JEDINÝ DOKUMENT VYDANÝ LIDEM. V Evropě následuje FRANCIE (1791) v kontextu revoluce. KROKY ŠÍŘENÍ PO EVROPĚ: (1) REVOLUČNÍ A NAPOLEONSKÉ OBDOBÍ 1791–1815 — ústavy vyvážené francouzskou expanzí, často krátkodeché; (2) 1812 ŠPANĚLSKÁ ÚSTAVA Z CÁDIZU, vzor pro jižní Evropu a Latinskou Ameriku; (3) PO VÍDEŇSKÉM KONGRESU vlna OKTROJOVANÝCH ústav, tedy udělených panovníkem shora — FRANCOUZSKÁ CHARTE (1814), jihoněmecké státy (Bavorsko a Bádensko 1818, Württembersko 1819), a s nimi vzniká typ MONARCHICKÉHO KONSTITUCIONALISMU, kde panovník zůstává zdrojem moci a ústava ji jen omezuje; (4) BELGICKÁ ÚSTAVA 1831 jako nejliberálnější vzor století; (5) REVOLUCE 1848 — vlna ústav napříč Evropou včetně Rakouska (Pillersdorfova) a frankfurtské Paulskirche; (6) DRUHÁ POLOVINA 19. STOLETÍ — ústavy se stabilizují (Rakousko 1867, Německé císařství 1871) a doplňují je soudní záruky; (7) PO ROCE 1918 — republikánské ústavy s ústavním soudnictvím (Rakousko 1920).",
       "terms": [
-        {
-          "term": "oktrojovaná ústava",
-          "def": "Ústava udělená panovníkem shora, ne přijatá ustavující mocí lidu."
-        }
+        { "term": "oktrojovaná ústava", "def": "Ústava udělená panovníkem shora, ne přijatá ustavující mocí lidu." }
       ],
       "cards": [
         {
@@ -261,19 +187,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 8,
-      "text_sha": null,
+    "8": {
       "title": "Pramen: Pillersdorfova ústava (25. 4. 1848)",
       "text": "PRAMEN: '§ 8 Osoba císařova je posvátná a nedotknutelná. Za výkon vládní moci není odpovědný; jeho pokyny však musí být spolupodepsány odpovědným ministrem, aby nabyly plné účinnosti. … § 45 Všechny zákony vyžadují souhlas obou komor a sankci císaře.' CO JE KONSTITUCIONALISMUS: politický a právní směr, podle kterého MÁ BÝT STÁTNÍ MOC OMEZENA A ROZDĚLENA ÚSTAVOU A ZÁKLADNÍ PRÁVA MAJÍ BÝT ZARUČENA — vláda podle práva, ne podle libovůle. POČÁTKY viz předchozí oddíl (Amerika 1776/1787, Francie 1789/1791). NEODPOVĚDNOST PANOVNÍKA A ODPOVĚDNOST MINISTRA: to je jádro věci a zdánlivě si to odporuje. Panovník je NEODPOVĚDNÝ, protože je 'posvátný a nedotknutelný' — nelze ho žalovat, sesadit ani trestně stíhat; to je dědictví monarchické legitimity. Aby přesto nebyla moc bez kontroly, zavádí se KONTRASIGNACE: panovníkův akt nabude účinnosti jen se spolupodpisem ministra, A TÍM ZA NĚJ ODPOVÍDÁ MINISTR. Dohromady to dává formuli 'KRÁL NEMŮŽE JEDNAT NESPRÁVNĚ' (the King can do no wrong) — protože každý jeho krok je krokem ministra, který za něj ručí a může být volán k odpovědnosti (ministerská žaloba, později i politická odpovědnost před sněmovnou). Panovník tedy vládne, ale nemůže vládnout SÁM. ROLE CÍSAŘE V ZÁKONODÁRSTVÍ podle § 45: zákon vyžaduje SOUHLAS OBOU KOMOR A SANKCI CÍSAŘE, takže císař má ABSOLUTNÍ VETO — bez něj zákon nevznikne. Je tedy plnohodnotnou složkou zákonodárné moci, ne jen vyhlašovatelem. HODNOCENÍ RAKOUSKÉHO VÝVOJE V EVROPSKÉM SROVNÁNÍ: Pillersdorfova ústava byla OKTROJOVÁNA (udělena shora, ne přijata ustavujícím shromážděním), byla POZDNÍ (Belgie měla ústavu už 1831) a byla KRÁTKODECHÁ — po dalších bouřích ji nahradila kroměřížská jednání, pak OKTROJOVANÁ BŘEZNOVÁ ÚSTAVA 1849 a nakonec SILVESTROVSKÉ PATENTY 1851, které konstitucionalismus na deset let zrušily (novoabsolutismus). Teprve ŘÍJNOVÝ DIPLOM (1860), ÚNOROVÁ ÚSTAVA (1861) a PROSINCOVÁ ÚSTAVA (1867) přinesly trvalý ústavní režim se základními právy a říšským soudem. RAKOUSKO TEDY PATŘÍ K OPOŽDĚNÉ, MONARCHICKY KONSTITUCIONÁLNÍ VĚTVI — s parlamentem, ale bez parlamentní vlády, protože ministři odpovídali císaři, ne sněmovně; a s dlouhým přerušením, jaké západní Evropa neznala.",
       "terms": [
-        {
-          "term": "kontrasignace",
-          "def": "Spolupodpis ministra, kterým akt panovníka nabývá účinnosti a za který ministr odpovídá."
-        }
+        { "term": "kontrasignace", "def": "Spolupodpis ministra, kterým akt panovníka nabývá účinnosti a za který ministr odpovídá." }
       ],
       "cards": [
         {
@@ -301,19 +221,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 9,
-      "text_sha": null,
+    "9": {
       "title": "Pramen: Rousseau a suverenita, kterou nelze zastupovat",
       "text": "PRAMEN: 'Suverenita nemůže být zastupována ze téhož důvodu, z jakého je nezcizitelná; spočívá podstatně v obecné vůli a vůle zastoupení nepřipouští: buď je táž, nebo jiná; nic mezi tím není. Poslanci lidu tedy nejsou a nemohou být jeho zástupci; jsou pouze jeho zmocněnci a nemohou učinit nic konečného. […] ANGLICKÝ LID SE POKLÁDÁ ZA SVOBODNÝ, ALE HRUBĚ SE MÝLÍ: JE SVOBODNÝ JEN PO DOBU VOLBY POSLANCŮ. JAKMILE JSOU ZVOLENI, PADÁ NA NĚJ OTROCTVÍ A NENÍ NIČÍM.' (Du contrat social, 1762.) FRANCOUZSKÝ PRÁVNÍK, KTERÝ POJEM SUVERENITY ROZVINUL O DVĚ STĚ LET DŘÍV, JE JEAN BODIN (1530–1596) ve spise LES SIX LIVRES DE LA RÉPUBLIQUE (1576), psaném v zážitku náboženských válek. Definoval suverenitu jako MOC NEJVYŠŠÍ, TRVALOU A ABSOLUTNÍ, jejímž hlavním znakem je PRÁVO DÁVAT ZÁKONY BEZ SOUHLASU JINÝCH; suverén je vázán jen zákonem Božím a přirozeným a základními zákony království. ŘÍMSKÉ PRÁVO JAKO ZÁKLAD TÉ NAUKY: ano, a to přímo — Bodin čerpá z pojmů, které římské právo dodalo o císařské moci, zejména z Ulpianova 'PRINCEPS LEGIBUS SOLUTUS EST' (vladař není vázán zákony) a z 'QUOD PRINCIPI PLACUIT, LEGIS HABET VIGOREM' (co se zalíbilo vladaři, má sílu zákona), a z konstrukce LEX REGIA, jíž měl lid přenést moc na císaře. Z těch stavebních kamenů se dá postavit jak absolutismus, tak — přes lex regia — myšlenka, že moc pochází původně od lidu. PODLE ROUSSEAUA JE NOSITELEM SUVERENITY VŽDY LID, a to nezcizitelně: nemůže ji přenést, jen ji vykonávat sám. ÚSTAVNÍ SKUTEČNOST JEHO DOBY: kolem roku 1762 převládá v Evropě ABSOLUTNÍ MONARCHIE, zpravidla v osvícenské podobě (Francie Ludvíka XV., Prusko Fridricha II., Rakousko Marie Terezie, Rusko Kateřiny II.). ANGLIE má KONSTITUČNÍ MONARCHII s parlamentní vládou po roce 1689, tedy výjimku. DEMOKRACIE V DNEŠNÍM SMYSLU V EVROPĚ NEEXISTOVALY — volební právo bylo úzce majetkově vymezené i v Anglii; nejblíž byly malé republiky se shromážděním občanů, zejména ŠVÝCARSKÉ KANTONY (Rousseau sám byl občanem Ženevy) a městské republiky jako Benátky, ovšem oligarchické. PROČ NAZÝVÁ ANGLIČANY OTROKY: protože kritizuje ZASTUPITELSKÝ PRINCIP JAKO TAKOVÝ — svoboda se podle něj nedá delegovat, a kdo si jednou za čas zvolí pána, není svobodný, nýbrž si pána vybírá. PRVKEM MODERNÍ DEMOKRACIE, NA KTERÝ MÍŘÍ, JE TEDY ZASTUPITELSKÁ DEMOKRACIE A VOLNÝ MANDÁT POSLANCE. Rousseau žádá PŘÍMOU demokracii nebo aspoň VÁZANÝ MANDÁT, kde je poslanec pouhým zmocněncem. A ironie dějin: revoluce se dovolávala Rousseaua, ale zavedla přesně to zastoupení, které odmítal, a ČL. 27 francouzské ústavy z roku 1791 výslovně zakotvil VOLNÝ MANDÁT.",
       "terms": [
-        {
-          "term": "princeps legibus solutus est",
-          "def": "Vladař není vázán zákony — římská formule, ze které Bodin staví absolutní suverenitu."
-        }
+        { "term": "princeps legibus solutus est", "def": "Vladař není vázán zákony — římská formule, ze které Bodin staví absolutní suverenitu." }
       ],
       "cards": [
         {
@@ -349,19 +263,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 10,
-      "text_sha": null,
+    "10": {
       "title": "Pramen: Marbury v. Madison — právní stát a soudní přezkum",
       "text": "PRAMEN I: 'Sama podstata občanské svobody jistě spočívá v právu každého jednotlivce dovolat se ochrany zákonů, kdykoli utrpí újmu. Jednou z prvních povinností vlády je takovou ochranu poskytnout. … Vláda Spojených států byla důrazně nazvána VLÁDOU ZÁKONŮ, A NE LIDÍ. Jistě přestane zasluhovat to vznešené označení, jestliže zákony neposkytnou nápravu pro porušení nabytého práva.' PRAMEN II: 'Ústava je buď vyšším, nadřazeným zákonem, neměnitelným obyčejnými prostředky, anebo stojí na úrovni obyčejných zákonodárných aktů a je jako jiné akty měnitelná, kdykoli se zákonodárci zlíbí. Je-li pravdivá první část alternativy, pak zákonodárný akt odporující Ústavě NENÍ ZÁKONEM; je-li pravdivá druhá, pak jsou psané ústavy nesmyslnými pokusy lidu omezit moc, která je svou povahou neomezitelná.' (U.S. Supreme Court, Marbury v. Madison, 24. února 1803.) CO JE PRÁVNÍ STÁT (RULE OF LAW): vláda VÁZANÁ PRÁVEM, ne libovůlí — moc se vykonává jen na základě a v mezích zákona, zákony jsou obecné, předem známé a stejné pro všechny (i pro vládu), a jejich porušení má SOUDNĚ VYMAHATELNOU NÁPRAVU. Německá varianta RECHTSSTAAT klade důraz na zákonnost správy a soudní ochranu, anglická RULE OF LAW (Dicey) na rovnost před obecnými soudy a na absenci zvláštního správního práva. CO PRAMEN II TVRDÍ O PSANÉ ÚSTAVĚ: staví ALTERNATIVU BEZ TŘETÍ MOŽNOSTI — buď je ústava NADŘAZENÝM PRÁVEM, a pak je zákon s ní neslučitelný NEPLATNÝ, anebo je obyčejným zákonem, a pak je psaná ústava nesmysl. Protože tvůrci psaných ústav je zjevně mínili jako právo základní a nejvyšší, plyne z toho, že ODPORUJÍCÍ ZÁKON JE NICOTNÝ. DŮSLEDKY: pro ZÁKONODÁRCE, že je ústavou vázán a nemůže ji měnit běžným zákonem; pro SOUDNICTVÍ, že musí v konkrétním sporu rozhodnout, které z obou pravidel použije — a tím vzniká SOUDNÍ PŘEZKUM ÚSTAVNOSTI (JUDICIAL REVIEW), aniž ho ústava výslovně zakotvuje. MOHL AMERICKÝ SOUD ROZHODNOUT O PLATNOSTI ZÁKONA? ANO, právě od Marbury v. Madison, a to ve formě DIFUZNÍHO (decentralizovaného) přezkumu: přezkoumat ústavnost může KTERÝKOLI SOUD v konkrétním sporu (INCIDENTER) a účinkem je NEPOUŽITÍ zákona v dané věci (INTER PARTES), ne jeho zrušení. PROČ TO BYLO MOŽNÉ TAK BRZY PRÁVĚ V USA: (1) ústava byla PSANÁ, přijatá LIDEM a označená za NEJVYŠŠÍ PRÁVO ZEMĚ (supremacy clause, čl. VI); (2) nebyl tu monarcha ani dogma o svrchovanosti parlamentu; (3) FEDERÁLNÍ USPOŘÁDÁNÍ vyžadovalo někoho, kdo rozsoudí kompetenční spory; (4) tradice common law, ve které soud běžně rozhoduje o platnosti norem nižší síly. A STAV V EVROPĚ V TÉ DOBĚ: soudní přezkum neexistoval. Panovala zásada SVRCHOVANOSTI ZÁKONA a nedůvěra k soudcům zděděná z revoluce (ve Francii dokonce zákaz soudcům vykládat zákon a institut référé législatif); rakouský ŘÍŠSKÝ SOUD (1867) mohl rozhodovat o porušení politických práv, ale ZÁKONY RUŠIT NESMĚL. TEPRVE RAKOUSKÁ ÚSTAVA Z ROKU 1920, na Kelsenův návrh, ZŘÍDILA ÚSTAVNÍ SOUD S PRAVOMOCÍ ZÁKON ZRUŠIT — model KONCENTROVANÝ, ABSTRAKTNÍ a s účinkem ERGA OMNES, tedy pravý opak amerického. To je rozdíl, který se u zkoušky ptá nejčastěji.",
       "terms": [
-        {
-          "term": "difuzní × koncentrovaný přezkum",
-          "def": "Americký: kterýkoli soud, incidenter, účinek inter partes. Rakouský (Kelsen 1920): jediný ústavní soud, abstraktně, účinek erga omnes."
-        }
+        { "term": "difuzní × koncentrovaný přezkum", "def": "Americký: kterýkoli soud, incidenter, účinek inter partes. Rakouský (Kelsen 1920): jediný ústavní soud, abstraktně, účinek erga omnes." }
       ],
       "cards": [
         {
@@ -397,12 +305,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     },
-    {
-      "n": 11,
-      "text_sha": null,
+    "11": {
       "title": "Vývoj základních práv v Rakousku a čím se liší",
       "text": "VÝVOJ: (1) PŘEDSTUPNĚ V OSVÍCENSKÉM ABSOLUTISMU — nejsou to práva, nýbrž ÚLEVY UDĚLENÉ SHORA: toleranční patent (1781), zrušení nevolnictví (1781), zrušení mučení (1776), ABGB (1811) s větou o vrozených právech poznatelných rozumem (§ 16), ale bez jakékoli záruky proti státu. (2) 1848 — první katalogy: Pillersdorfova ústava a zejména KROMĚŘÍŽSKÝ NÁVRH, který zůstal nepřijat, ale byl mimořádně moderní (vycházel z myšlenky, že veškerá moc pochází z lidu). (3) BŘEZNOVÁ ÚSTAVA 1849 s katalogem práv — vzápětí zrušena SILVESTROVSKÝMI PATENTY 1851, které základní práva výslovně odvolaly. (4) 1867 — ZÁKLADNÍ ZÁKON O VŠEOBECNÝCH PRÁVECH STÁTNÍCH OBČANŮ (Staatsgrundgesetz, 21. 12. 1867): rovnost před zákonem, osobní svoboda, nedotknutelnost obydlí a listovního tajemství, svoboda projevu a tisku, shromažďovací a spolčovací právo, svoboda vyznání, vědy a jejího učení, svobodná volba povolání, ochrana vlastnictví, rovnoprávnost národností a jazyků (čl. 19). K tomu ŘÍŠSKÝ SOUD, u kterého se lze domáhat ochrany politických práv. (5) Zákon o všeobecných právech přežil monarchii a PLATÍ V RAKOUSKU DODNES jako součást ústavního pořádku, doplněn EVROPSKOU ÚMLUVOU (1958, s ústavní silou od 1964). ČÍM SE RAKOUSKÝ VÝVOJ LIŠÍ OD AMERICKÉHO A FRANCOUZSKÉHO: (a) PŮVOD — v USA a Francii jsou práva vyhlášena REVOLUČNĚ A ZDOLA jako přirozená a předstátní; v Rakousku jsou UDĚLENA PANOVNÍKEM SHORA jako oktrojovaná, tedy to, co bylo dáno, může být i odňato (což se roku 1851 také stalo). (b) POVAHA — americká a francouzská práva jsou formulována jako NEZADATELNÁ PŘIROZENÁ PRÁVA ČLOVĚKA; rakouská jako PRÁVA STÁTNÍCH OBČANŮ, tedy práva z ruky státu, navíc s výhradou zákona. (c) ZÁRUKA — v USA vymahatelná soudem proti zákonodárci od roku 1803; ve Francii dlouho nevymahatelná (soudní přezkum až Ústavní rada 1958, plná ochrana práv až 1971); v Rakousku ŘÍŠSKÝ SOUD 1867 chránil práva proti SPRÁVĚ, ale ne proti zákonu — přezkum zákonů teprve od roku 1920. (d) ČASOVÉ ZPOŽDĚNÍ A PŘERUŠENÍ, jaké západní vývoj nezná.",
       "terms": [],
@@ -424,8 +329,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": false,
-      "status": "done"
+      "vision_used": false
     }
-  ]
+  }
 }
