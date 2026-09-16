@@ -409,115 +409,115 @@
       "lectures": [
         {
           "id": "PUINFO",
-          "unit": "Zkouška",
+          "unit": "Exam",
           "title": "What to read for the exam: the 24 topics and their required reading",
           "file": "General Information/What to read for the exam (Modulprüfung).pdf"
         },
         {
           "id": "PUEXAM",
-          "unit": "Zkouška",
+          "unit": "Exam",
           "title": "A past module examination, with answers",
           "file": "General Information/Second Exam.pdf"
         },
         {
           "id": "PU01",
-          "unit": "Cvičení 1",
+          "unit": "Exercise 1",
           "title": "PUE Unit 1: Introduction and Ancient Legal Cultures",
           "file": "Unit 1 October 13/ppt. unit 1_13_10_2025"
         },
         {
           "id": "PUQ12",
-          "unit": "Otázky 1/2",
+          "unit": "Questions 1/2",
           "title": "Questions and Sources, Units I and II",
           "file": "Unit 1 October 13/Questions and Sources Unit 1 and 2.pdf"
         },
         {
           "id": "PU02",
-          "unit": "Cvičení 2",
+          "unit": "Exercise 2",
           "title": "PUE Unit 2: Jewish and Islamic Law, Corpus Iuris Civilis",
           "file": "Unit 2 October 20/ppt. unit 2_20_10_2025"
         },
         {
           "id": "PU03",
-          "unit": "Cvičení 3",
+          "unit": "Exercise 3",
           "title": "PUE Unit 3: Ius Commune and Early Modern Times I",
           "file": "Unit 3 October 27/ppt. unit 3_27_10_2025_pdf"
         },
         {
           "id": "PUQ3",
-          "unit": "Otázky 3",
+          "unit": "Questions 3",
           "title": "Questions and Sources, Unit III",
           "file": "Unit 3 October 27/Questions and Sources Unit 3_27_10_2025.pdf"
         },
         {
           "id": "PU04",
-          "unit": "Cvičení 4",
+          "unit": "Exercise 4",
           "title": "PUE Unit 4: Ius Commune II, Common Law, Ius gentium I",
           "file": "Unit 4 November 3/ppt. unit 4_3_11_2025"
         },
         {
           "id": "PUQ4",
-          "unit": "Otázky 4",
+          "unit": "Questions 4",
           "title": "Questions and Sources, Unit IV",
           "file": "Unit 4 November 3/Questions and Sources Unit 4_WS 2025.pdf"
         },
         {
           "id": "PU05",
-          "unit": "Cvičení 5",
+          "unit": "Exercise 5",
           "title": "PUE Unit 5: Ius gentium II, the Westphalian Order, Natural Law",
           "file": "Unit 5 Nov.10/ppt. unit 5"
         },
         {
           "id": "PUQ5",
-          "unit": "Otázky 5",
+          "unit": "Questions 5",
           "title": "Questions and Sources, Unit V",
           "file": "Unit 5 Nov.10/Questions and Sources Unit 5.pdf"
         },
         {
           "id": "PU06",
-          "unit": "Cvičení 6",
+          "unit": "Exercise 6",
           "title": "PUE Unit 6: Enlightenment, Revolutions, Constitutions, Norm Production",
           "file": "Unit 6 Nov. 17/ppt. unit 6_11_17_2025"
         },
         {
           "id": "PU08",
-          "unit": "Cvičení 8",
+          "unit": "Exercise 8",
           "title": "PUE Unit 8: Imperialism and International Law in the 20th Century",
           "file": "Unit 8 Dec. 1/ppt. Unit 8 Dec., 1, 2025"
         },
         {
           "id": "PU08N1",
-          "unit": "Cvičení 8",
+          "unit": "Exercise 8",
           "title": "Norm production I (Foljanty)",
           "file": "Unit 8 Dec. 1/ppt. Prof. foljanty norm production 1"
         },
         {
           "id": "PU08N2",
-          "unit": "Cvičení 8",
+          "unit": "Exercise 8",
           "title": "Norm production II (Foljanty)",
           "file": "Unit 8 Dec. 1/ppt. Prof.foljanty norm production 2"
         },
         {
           "id": "PUQ8",
-          "unit": "Otázky 8",
+          "unit": "Questions 8",
           "title": "Questions and Sources, Unit VIII",
           "file": "Unit 8 Dec. 1/Questions and Sources Unit 8.pdf"
         },
         {
           "id": "PU09",
-          "unit": "Cvičení 9",
+          "unit": "Exercise 9",
           "title": "PUE Unit 9: Europe from 1918, Decolonisation",
           "file": "Unit 9 Dec.15/ppt. unit 9"
         },
         {
           "id": "PU09IL",
-          "unit": "Cvičení 9",
+          "unit": "Exercise 9",
           "title": "International law in the 20th century (Vec)",
           "file": "Unit 9 Dec.15/ppt. Int. law (vec)"
         },
         {
           "id": "PU09IM",
-          "unit": "Cvičení 9",
+          "unit": "Exercise 9",
           "title": "Imperialism (Foljanty)",
           "file": "Unit 9 Dec.15/ppt. Prof. foljanty (imperialism)",
           "duplicate_of": "PD10",
@@ -525,7 +525,7 @@
         },
         {
           "id": "PU09WW",
-          "unit": "Cvičení 9",
+          "unit": "Exercise 9",
           "title": "World War I and the Paris Peace Treaties (Gassner)",
           "file": "Unit 9 Dec.15/ppt. gassner (ww i and paris peace treaties)",
           "duplicate_of": "PD12",
@@ -533,19 +533,19 @@
         },
         {
           "id": "PUQ9",
-          "unit": "Otázky 9",
+          "unit": "Questions 9",
           "title": "Questions and Sources, Unit IX",
           "file": "Unit 9 Dec.15/Questions and Sources Unit 9.pdf"
         },
         {
           "id": "PU10",
-          "unit": "Cvičení 10",
+          "unit": "Exercise 10",
           "title": "PUE Unit 10: Europe from 1918 onwards, Decolonisation",
           "file": "Unit 10 Jan.12, 2026/ppt. unit 10; january 12, 2026"
         },
         {
           "id": "PUQ10",
-          "unit": "Otázky 10",
+          "unit": "Questions 10",
           "title": "Questions and Sources, Unit X",
           "file": "Unit 10 Jan.12, 2026/Questions and Sources Unit 10.pdf"
         }
@@ -561,98 +561,98 @@
       "lectures": [
         {
           "id": "RD01",
-          "unit": "Téma 2",
+          "unit": "Topic 2",
           "title": "Johansen/Weiss/Motzki, Islamic Law (Oxford Encyclopedia of Legal History)",
           "kind": "reading",
           "file": "1_Johansen-Islamic_Law_Oxford_I____Encyclopedia_of_Legal_History.pdf"
         },
         {
           "id": "RD02",
-          "unit": "Téma 5",
+          "unit": "Topic 5",
           "title": "Ben-Menahem, Jewish Law (Int. Encyclopedia of the Social & Behavioral Sciences)",
           "kind": "reading",
           "file": "2_Ben-Menahem_Jewish Law_Intern___cial  Behavioral Sciences_2001.pdf"
         },
         {
           "id": "RD03",
-          "unit": "Téma 6",
+          "unit": "Topic 6",
           "title": "Herzog, A Short History of European Law — the English common law",
           "kind": "reading",
           "file": "3_Tamar Herzog, A Short History___of an English Common Law, 2018.pdf"
         },
         {
           "id": "RD04",
-          "unit": "Téma 7",
+          "unit": "Topic 7",
           "title": "Duchhardt, From the Peace of Westphalia to the Congress of Vienna",
           "kind": "reading",
           "file": "4_Duchhardt From The Peace of W___alia To The Congress Of Vienna.pdf"
         },
         {
           "id": "RD05",
-          "unit": "Téma 8",
+          "unit": "Topic 8",
           "title": "Ibbetson, Natural Law in Early Modern Legal Thought",
           "kind": "reading",
           "file": "5_Ibbetson, Natural Law in Early Modern Legal Thought.pdf"
         },
         {
           "id": "RD06",
-          "unit": "Téma 9–11",
+          "unit": "Topic 9–11",
           "title": "Koch/Skodvin/Sunde, Comparing Legal Cultures — introduction",
           "kind": "reading",
           "file": "6_Koch_Skodvin_Sunde_Comaring_L____Inhaltsverzeichnis_Einleitung.pdf"
         },
         {
           "id": "RD07",
-          "unit": "Téma 13",
+          "unit": "Topic 13",
           "title": "Wenzlhuemer, Colonial Systems of Law (British Empire)",
           "kind": "reading",
           "file": "7_Wenzlhuemer_Law_Colonial_Systems_of_British_Empire.pdf"
         },
         {
           "id": "RD08",
-          "unit": "Téma 13",
+          "unit": "Topic 13",
           "title": "Guéraiche, Colonial Systems of Law (French Empire)",
           "kind": "reading",
           "file": "8_Gueraiche_Law_Colonial_Systems_of_French_Empire.pdf"
         },
         {
           "id": "RD09",
-          "unit": "Téma 14",
+          "unit": "Topic 14",
           "title": "Xu, Five Punishments and Penal Codes in Imperial China",
           "kind": "reading",
           "file": "9_Xu Xiaoqun Five Punishments a___ Penal Codes in Imperial China.pdf"
         },
         {
           "id": "RD10",
-          "unit": "Téma 14",
+          "unit": "Topic 14",
           "title": "Chen, Traditionalising Chinese Law",
           "kind": "reading",
           "file": "10_Chen_Li-traditionalising_chinese_law.pdf"
         },
         {
           "id": "RD11",
-          "unit": "Téma 15",
+          "unit": "Topic 15",
           "title": "Gassner, From Brest-Litovsk via St. Germain to Sèvres",
           "kind": "reading",
           "file": "11_Gassner From Brest-Litovsk v___ Germain to Sèvres JHL_01_2023.pdf"
         },
         {
           "id": "RD12",
-          "unit": "Téma 18–19",
+          "unit": "Topic 18–19",
           "title": "Stolleis, European Twentieth-Century Dictatorship and the Law",
           "kind": "reading",
           "file": "12_Stolleis, European Twentieth-Century Dictatorship and the Law.pdf"
         },
         {
           "id": "RD13",
-          "unit": "Téma 18–19",
+          "unit": "Topic 18–19",
           "title": "Kreß, International Criminal Law (MPEPIL)",
           "kind": "reading",
           "file": "13_Kreß, International Criminal Law (MPEIL).pdf"
         },
         {
           "id": "RD14",
-          "unit": "Téma 20–21",
+          "unit": "Topic 20–21",
           "title": "Kimble/Löwekamp, Legal Culture in European History 1860–1960s",
           "kind": "reading",
           "file": "14_Kimble, Löwekamp, Legal Cult___n European History, 1860–1960s.pdf",
@@ -662,14 +662,13 @@
         },
         {
           "id": "RD15",
-          "unit": "Téma 23–24",
+          "unit": "Topic 23–24",
           "title": "Kennedy, Three Globalizations of Law and Legal Thought 1850–2000",
           "kind": "reading",
           "file": "15_Kennedy, Three Globalizations of Law and Legal Thought-1.pdf"
         }
       ],
-      "kind": "reading",
-      "language": "cs"
+      "kind": "reading"
     }
   ],
   "gaps": [
@@ -681,5 +680,5 @@
     "short": "Právní dějiny",
     "course": "the course European and Global Legal History"
   },
-  "language": "cs"
+  "language": "en"
 }
