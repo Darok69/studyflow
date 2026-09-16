@@ -1,91 +1,13 @@
 {
   "lecture_id": "PU08N2",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Cvičení 8",
   "title": "Tvorba norem II: soudcovské právo, věda a šíření modelů",
-  "source_file": "raw/PU08N2_ppt-prof.pdf",
-  "source_sha256": "efd4f1898bca9351cc8946f1d42578b62ddd6603f7cc8c50e63a90b3f436e27e",
-  "source_pages": 27,
-  "slides_per_page": 1,
-  "slide_count": 27,
-  "updated_at": "2026-09-15T12:55:42+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PU08N2/PU08N2_s001.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 135,
-      "text_sha": "c31f97f5d218b6f6",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PU08N2/PU08N2_s002.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 142,
-      "text_sha": "775289458d460297",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PU08N2/PU08N2_s003.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 395,
-      "text_sha": "3559036d786032cb",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PU08N2/PU08N2_s004.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 570,
-      "text_sha": "d0cc8f0d2885d644",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PU08N2/PU08N2_s005.webp",
+  "free_sections": true,
+  "slides": {
+    "5": {
       "title": "Druhý model: soudcovské právo",
       "text": "COMMON LAW JE JUDIKATURNÍM PRÁVEM ROZVÍJENÝM SOUDY OD 11. STOLETÍ. Cvičení k tomu dává tři kroky a jeden závěr. (1) PUBLIKACE SOUDNÍCH ROZHODNUTÍ ZAČÍNÁ VE 14. STOLETÍ V 'ROČENKÁCH' (YEAR BOOKS) — bez publikace by nebyl precedens, protože soud nemůže následovat, co nezná. (2) STARE DECISIS: DŘÍVĚJŠÍ PŘÍPADY MAJÍ ZÁVAZNOU SÍLU. (3) POUŽITÍ SE DĚJE SKRZE 'DISTINGUISHING' (ODLIŠENÍ) A ANALOGII NA NOVÉ PŘÍPADY, a to je způsob tvorby norem. A ZÁVĚR, KTERÝ JE NA CELÉM MODELU TEN NEJDŮLEŽITĚJŠÍ: ROZHODNUTÍ PŘÍPADU A TVORBA NOVÉ NORMY SE ODEHRÁVAJÍ V JEDNOM A TÉMŽ OKAMŽIKU. To je přesný protiklad kontinentálního modelu, kde norma vzniká dřív a případ se pod ni podřazuje. V common law norma a případ vznikají spolu.",
       "terms": [
-        {
-          "term": "distinguishing",
-          "def": "Odlišení nynějšího případu od precedentu — vedle analogie hlavní technika, jíž se v common law tvoří normy."
-        }
+        { "term": "distinguishing", "def": "Odlišení nynějšího případu od precedentu — vedle analogie hlavní technika, jíž se v common law tvoří normy." }
       ],
       "cards": [
         {
@@ -97,34 +19,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 462,
-      "text_sha": "c2178b9d662e034d",
-      "pdf_page": 5
+      "vision_used": true
     },
-    {
-      "n": 6,
-      "img": "img/PU08N2/PU08N2_s006.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 820,
-      "text_sha": "7215a519846db3cf",
-      "pdf_page": 6
-    },
-    {
-      "n": 7,
-      "img": "img/PU08N2/PU08N2_s007.webp",
+    "7": {
       "title": "Bentham pro kodifikaci a common law proti",
       "text": "Cvičení staví proti sobě dva hlasy, a ten kontrast je krásný. BENTHAM PRO KODIFIKACI (General View of a Complete Code of Laws): 'ÚPLNÝ DIGEST: TO JE PRVNÍ PRAVIDLO. COKOLI NENÍ V KODEXU ZÁKONŮ, NEMÁ BÝT PRÁVEM. NIC SE NEMÁ ODKAZOVAT ANI NA OBYČEJ, ANI NA CIZÍ PRÁVO, ANI NA DOMNĚLÉ PŘIROZENÉ PRÁVO, ANI NA DOMNĚLÉ PRÁVO NÁRODŮ.' A jeho matematický obraz, který stojí za zapamatování: kdo přijme například římské právo, NEVÍ, CO DĚLÁ — je to POLE VĚČNÝCH SPORŮ, a znamená to UČINIT LIBOVOLNÝM VŠECHNO, CO Z NĚJ PŘEDSTÍRÁ PŘEVZÍT; 'SEČTEME-LI DVĚ VELIČINY, JEDNU KONEČNOU A DRUHOU NEKONEČNOU, JE MATEMATICKÝM AXIOMEM, ŽE SOUČET BUDE NEKONEČNÝ.' HLASY PROTI KODIFIKACI stojí na tom, že COMMON LAW JE KODIFIKACÍM NADŘAZENO: je to OBYČEJOVÉ PRÁVO UTVÁŘENÉ PO STALETÍ SOUDY, je KONKRÉTNÍ A PRUŽNÉ, ZAJIŠŤUJE ROZHODNUTÍ ŠITÁ NA MÍRU A TÍM SVOBODU, a je zaručeno SOUDCI, KTEŘÍ BYLI POKLÁDÁNI ZA NEJLEPŠÍ PRÁVNÍ ODBORNÍKY. K tomu přistupuje NEDŮVĚRA V PARLAMENT. Všimni si, že obě strany argumentují SVOBODOU: Bentham jí chce dosáhnout jistotou zákona, odpůrci pružností soudce.",
       "terms": [],
@@ -146,41 +43,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 373,
-      "text_sha": "c6fa865579cb76f4",
-      "pdf_page": 7
+      "vision_used": true
     },
-    {
-      "n": 8,
-      "img": "img/PU08N2/PU08N2_s008.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 608,
-      "text_sha": "578a84bb992215f5",
-      "pdf_page": 8
-    },
-    {
-      "n": 9,
-      "img": "img/PU08N2/PU08N2_s009.webp",
+    "9": {
       "title": "Anglické 19. století: konsolidační akty a zpřísněný precedens",
       "text": "V ZÁKONODÁRSTVÍ: POKUSY O KODIFIKACI SELHALY — u TRESTNÍHO PRÁVA roku 1833 a znovu v letech 1878–1880; pokus SEBRAT A REVIDOVAT ANGLICKÉ ZÁKONNÉ PRÁVO A VYTVOŘIT DIGEST JUDIKATURY selhal v letech 1866–1880. MÍSTO TOHO SE V 19. STOLETÍ PŘIJÍMAJÍ 'KONSOLIDAČNÍ AKTY': REPRODUKUJÍ ZÁKONNÉ NORMY A JUDIKATURU URČITÉHO PRÁVNÍHO OBORU, SCHVÁLENÉ PARLAMENTEM — a cvičení k tomu přidává důležitou poznámku, že TO ČASTO JDE RUKU V RUCE SE ZMĚNOU PRÁVA VÝBĚREM A NOVÝM VÝKLADEM. Konsolidace tedy není neutrální přepis. A jedna asymetrie, kterou je dobré vyslovit: KODIFIKACE SE PSALY PRO KOLONIE, POČÍNAJE INDIÍ ROKU 1860 — pro sebe Anglie kodifikaci nechtěla, pro ovládané ano. V JUDIKATUŘE SE NAOPAK VYVINULA PŘÍSNÁ METODA: (1) ZÁVAZNÁ SÍLA STARE DECISIS PLATÍ, I KDYŽ JE PRAVIDLO VYSLOVENO JEN V JEDINÉM ROZSUDKU, a to na základě RATIO DECIDENDI, tedy PRÁVNÍCH PRAVIDEL, NA KTERÝCH SOUD ROZHODNUTÍ STAVÍ; (2) VZNIKÁ NEJEN VERTIKÁLNÍ, ALE I HORIZONTÁLNÍ VÁZANOST — ODVOLACÍ SOUDY JSOU VÁZÁNY SVÝMI VLASTNÍMI DŘÍVĚJŠÍMI ROZSUDKY; (3) PRO ODCHÝLENÍ (OVERRULING) PLATÍ PŘÍSNÉ PODMÍNKY. Anglie tedy v témž století, kdy odmítla kodifikaci, SVÉ SOUDCOVSKÉ PRÁVO SAMA SVÁZALA.",
       "terms": [
-        {
-          "term": "ratio decidendi",
-          "def": "Právní pravidla, na kterých soud staví rozhodnutí — to, co je závazné, na rozdíl od obiter dicta."
-        }
+        { "term": "ratio decidendi", "def": "Právní pravidla, na kterých soud staví rozhodnutí — to, co je závazné, na rozdíl od obiter dicta." }
       ],
       "cards": [
         {
@@ -200,89 +69,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 466,
-      "text_sha": "26b75ee766193c3f",
-      "pdf_page": 9
+      "vision_used": true
     },
-    {
-      "n": 10,
-      "img": "img/PU08N2/PU08N2_s010.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 459,
-      "text_sha": "eb25d0963e83d26b",
-      "pdf_page": 10
-    },
-    {
-      "n": 11,
-      "img": "img/PU08N2/PU08N2_s011.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 911,
-      "text_sha": "ed7428fb57fbc6ef",
-      "pdf_page": 11
-    },
-    {
-      "n": 12,
-      "img": "img/PU08N2/PU08N2_s012.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 639,
-      "text_sha": "8128687fa03e541f",
-      "pdf_page": 12
-    },
-    {
-      "n": 13,
-      "img": "img/PU08N2/PU08N2_s013.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 591,
-      "text_sha": "bf579e937ebb3a51",
-      "pdf_page": 13
-    },
-    {
-      "n": 14,
-      "img": "img/PU08N2/PU08N2_s014.webp",
+    "14": {
       "title": "Pramen: Puchta o historicko-systematické metodě (1840)",
       "text": "PRAMEN: 'Abychom mohli sledovat rodokmen právních norem až k výšinám jejich zásad a stejně tak sestupovat od těch zásad až k nejzazším okrajům jejich významu, je POVINNOSTÍ VĚDY ROZPOZNAT PRÁVNÍ NORMY JAKO SYSTEMATICKY VZÁJEMNĚ PROPOJENÉ a odhalit, že jsou si navzájem podmínkou a původem. A právě v průběhu toho procesu SE TY PRÁVNÍ NORMY, KTERÉ JSOU SKRYTY V DUCHU NÁRODNÍHO PRÁVA A KTERÉ NELZE NALÉZT ANI V PŘESVĚDČENÍCH A JEDNÁNÍCH LIDU, ANI VE VYHLÁŠENÍCH ZÁKONODÁRCE, VYNÁŠEJÍ NA SVĚTLO a zviditelňují jako PRAVÝ PRODUKT VĚDECKÉ DEDUKCE. Tak se VĚDA PŘIPOJUJE K OSTATNÍM DVĚMA PILÍŘŮM PRÁVNÍCH PRAMENŮ JAKO TŘETÍ SPOLEČNÍK: PRÁVO VYTVOŘENÉ VĚDOU JE PRÁVEM VĚDY.' TOHLE JE NEJDŮLEŽITĚJŠÍ PRAMEN CELÉHO TŘETÍHO MODELU A STOJÍ ZA ROZBOR. Puchta tu otevřeně říká tři věci: (1) věda normy NEJEN POPISUJE, nýbrž JE VYNÁŠÍ NA SVĚTLO; (2) ty normy NEJSOU ANI V LIDU, ANI V ZÁKONĚ — tedy nejsou ani v tom, co škola nazývá Volksgeistem, ani v pozitivním právu; (3) a přesto jsou PRAVÉ, protože jsou PRODUKTEM VĚDECKÉ DEDUKCE. VĚDA SE TÍM STAVÍ VEDLE OBYČEJE A ZÁKONA JAKO TŘETÍ PRAMEN PRÁVA. Právě tomuhle se říká 'POJMOVÁ JURISPRUDENCE' (BEGRIFFSJURISPRUDENZ) — a je to zároveň nejsilnější i nejzranitelnější bod historické školy: PRÁVO MĚLO VYRŮSTAT Z DUCHA NÁRODA, ALE NAKONEC HO PRODUKUJE DEDUKCE PROFESORA.",
       "terms": [
-        {
-          "term": "pojmová jurisprudence",
-          "def": "Nauka, podle níž lze nové normy odvodit dedukcí ze systému pojmů; věda se tím staví vedle obyčeje a zákona jako třetí pramen."
-        }
+        { "term": "pojmová jurisprudence", "def": "Nauka, podle níž lze nové normy odvodit dedukcí ze systému pojmů; věda se tím staví vedle obyčeje a zákona jako třetí pramen." }
       ],
       "cards": [
         {
@@ -302,50 +95,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 1070,
-      "text_sha": "ee4344597fa62fd3",
-      "pdf_page": 14
+      "vision_used": true
     },
-    {
-      "n": 15,
-      "img": "img/PU08N2/PU08N2_s015.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 98,
-      "text_sha": "6ef591f73ba74733",
-      "pdf_page": 15
-    },
-    {
-      "n": 16,
-      "img": "img/PU08N2/PU08N2_s016.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 415,
-      "text_sha": "650df4e4fdedd520",
-      "pdf_page": 16
-    },
-    {
-      "n": 17,
-      "img": "img/PU08N2/PU08N2_s017.webp",
+    "17": {
       "title": "Kam doputoval ABGB a kam Code civil",
       "text": "Cvičení dává obě mapy vedle sebe, a je z nich hezky vidět rozdíl v dosahu. ABGB PLATIL PŘÍMO V LICHTENŠTEJNSKU a SLOUŽIL JAKO VZOR: KNÍŽECTVÍ MOLDAVSKÉMU (1817), SRBSKU (1844), ČERNÉ HOŘE (1888), ČÁSTEM ŠVÝCARSKA (kantony Aargau, Solothurn, Luzern a Bern), SEDMIHRADSKU a TĚM ČÁSTEM POLSKA, ČESKOSLOVENSKA A JUGOSLÁVIE, KTERÉ DO ROKU 1918 PATŘILY K HABSBURSKÉ ŘÍŠI. CODE CIVIL ZÍSKAL PŘÍMOU PLATNOST V PRŮBĚHU NAPOLEONSKÝCH VÁLEK v levobřežních porýnských územích Německa, LUCEMBURSKU, BELGII, PIEMONTU-SARDINII a švýcarských kantonech Bernský Jura a Ženeva. BYL PŘEVZAT v PIEMONTU-SARDINII (1837), NIZOZEMÍ (1838), ITÁLII (1865), PORTUGALSKU (1868) a ŠPANĚLSKU (1889), dále v Rýnském spolku a v některých švýcarských kantonech. A VE SVĚTĚ: LOUISIANA po koupi USA (1825), DOLNÍ KANADA čili QUEBEC (1866), LATINSKOAMERICKÉ STÁTY PO NEZÁVISLOSTI — HAITI 1825, OAXACA 1827–29, PERU 1852, CHILE 1855, ARGENTINA 1871 — a JAPONSKO, které v 70. letech vytvořilo návrhy podle francouzského vzoru, ALE TY NIKDY NEVSTOUPILY V PLATNOST. ANGLICKÝ MODEL SOUDCOVSKÉHO PRÁVA se šířil BRITSKÝM IMPERIEM: do USA, AUSTRÁLIE, INDIE, ČÁSTÍ AFRIKY A ČÁSTÍ KARIBIKU. SROVNÁNÍ, KTERÉ Z TOHO PLYNE: ABGB SE ŠÍŘIL PO STŘEDNÍ A JIHOVÝCHODNÍ EVROPĚ, CODE CIVIL PO CELÉM SVĚTĚ, A ANGLICKÝ MODEL PO ŘÍŠI — a každý z nich jinou cestou: rakouský prestiží a příbuzností, francouzský armádou a pak nápodobou, anglický správou kolonií.",
       "terms": [],
@@ -375,66 +127,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 492,
-      "text_sha": "90311fb94670bed2",
-      "pdf_page": 17
+      "vision_used": true
     },
-    {
-      "n": 18,
-      "img": "img/PU08N2/PU08N2_s018.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 378,
-      "text_sha": "c3c1ff22c126cac7",
-      "pdf_page": 18
-    },
-    {
-      "n": 19,
-      "img": "img/PU08N2/PU08N2_s019.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 258,
-      "text_sha": "fe8a4ac76e3395bf",
-      "pdf_page": 19
-    },
-    {
-      "n": 20,
-      "img": "img/PU08N2/PU08N2_s020.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 505,
-      "text_sha": "2648193152df755d",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PU08N2/PU08N2_s021.webp",
+    "21": {
       "title": "Historická škola v Rakousku",
       "text": "Cvičení dává tři konkrétní kroky, které se u rakouské otázky dají přímo použít. (1) ZEILLEROVA AKADEMICKÁ REFORMA 1810: VŠEOBECNÝ OBČANSKÝ ZÁKONÍK, TEDY 'RAKOUSKÉ SOUKROMÉ PRÁVO', SE ZAČLEŇUJE DO UNIVERZITNÍHO KURIKULA. Všimni si, jak zvláštní to je: zákoník se učí ještě dřív, než vstoupí v účinnost, a hlavně se tím poprvé stává PŘEDMĚTEM VÝUKY národní kodex, ne římské právo. (2) REFORMA THUNA-HOHENSTEINA 1852/55: PRŮLOM HISTORICKÉ ŠKOLY V RAKOUSKU, a to dvojím způsobem — MASIVNÍM ZESÍLENÍM VÝUKY PRÁVNÍCH DĚJIN a ZATLAČENÍM PŘIROZENOPRÁVNÍ NAUKY. (3) JMENOVÁNÍ JOSEPHA UNGERA (1828–1913) JAKO PŘEDSTAVITELE HISTORICKÉ ŠKOLY. Unger je pro Rakousko klíčová postava: přinesl německou pandektistickou systematiku do výkladu ABGB, čímž rakouské soukromé právo poprvé dostalo vědeckou dogmatiku. POINTA CELÉ TROJICE: HISTORICKÁ ŠKOLA SE DO RAKOUSKA NEDOSTALA KNIHAMI, NÝBRŽ REFORMOU STUDIJNÍHO PLÁNU — což je ostatně přesně to, co by o sobě sama tvrdit nechtěla.",
       "terms": [],
@@ -448,25 +143,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 507,
-      "text_sha": "a959e8daa8558dc3",
-      "pdf_page": 21
+      "vision_used": true
     },
-    {
-      "n": 22,
-      "img": "img/PU08N2/PU08N2_s022.webp",
+    "22": {
       "title": "Sbíhání modelů: BGB a švýcarský ZGB",
       "text": "VÝSLEDKEM 19. STOLETÍ JE SBÍHÁNÍ DVOU MODELŮ: PRÁVNÍ VZORCE VYVINUTÉ PRÁVNÍ VĚDOU SE NAKONEC KODIFIKUJÍ. Věda, která kodifikaci odmítala, jí tedy nakonec dodala látku. NĚMECKÝ OBČANSKÝ ZÁKONÍK (BGB) Z ROKU 1896 VSTUPUJE V ÚČINNOST ROKU 1900. Stojí NA SYSTEMATIZACI HISTORICKÉ ŠKOLY A PANDEKTNÍ VĚDY a sleduje takzvanou PANDEKTNÍ STRUKTURU O PĚTI KNIHÁCH: OBECNÁ ČÁST, PRÁVO ZÁVAZKOVÉ, PRÁVO VĚCNÉ, PRÁVO RODINNÉ, PRÁVO DĚDICKÉ. Tuhle pětici si zapamatuj v pořadí — je to poznávací znamení pandektního systému, a jeho novinkou je právě ta OBECNÁ ČÁST vytknutá před závorku. ŠVÝCARSKÝ OBČANSKÝ ZÁKONÍK (ZGB) Z ROKU 1907 VSTUPUJE V ÚČINNOST ROKU 1912. Je ROZDĚLEN DO ČTYŘ KNIH s krátkým úvodem: PRÁVO OSOB, PRÁVO RODINNÉ, PRÁVO DĚDICKÉ, PRÁVO VĚCNÉ, přičemž OBLIGAČNÍ ZÁKONÍK JE SAMOSTATNÝM KODEXEM. A NEJDŮLEŽITĚJŠÍ VĚTA O NĚM: UŽ NESLEDUJE MYŠLENKU ÚPLNOSTI. To je konec jednoho ze tří původních znaků kodifikace — švýcarský zákoník výslovně počítá s tím, že mezery má, a proto také soudci ukládá, aby v takovém případě rozhodl, jako by byl zákonodárcem.",
       "terms": [
-        {
-          "term": "pandektní struktura",
-          "def": "Pět knih BGB: obecná část, závazkové, věcné, rodinné a dědické právo; novinkou je obecná část vytknutá před závorku."
-        }
+        { "term": "pandektní struktura", "def": "Pět knih BGB: obecná část, závazkové, věcné, rodinné a dědické právo; novinkou je obecná část vytknutá před závorku." }
       ],
       "cards": [
         {
@@ -494,34 +177,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 774,
-      "text_sha": "ad999a394baf3cf6",
-      "pdf_page": 22
+      "vision_used": true
     },
-    {
-      "n": 23,
-      "img": "img/PU08N2/PU08N2_s023.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 611,
-      "text_sha": "6d61ceed2a6cfd44",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PU08N2/PU08N2_s024.webp",
+    "24": {
       "title": "Tři dílčí novely ABGB (1914–16)",
       "text": "Cvičení dává k rakouské reformě jak důvod, tak formu, a obojí je pěkné. PROBLÉM: ÚPLNÁ REFORMA JEDINÝM ZÁKONODÁRNÝM AKTEM NEBYLA MOŽNÁ — říšská rada byla od roku 1914 nefunkční. PROTO TŘI DÍLČÍ NOVELY VYDANÉ CESTOU CÍSAŘSKÉHO NOUZOVÉHO NAŘÍZENÍ: 1914 RODINNÉ, PORUČENSKÉ A DĚDICKÉ PRÁVO; 1915 VYMEZOVÁNÍ HRANIC; 1916 PRÁVO VĚCNÉ A ZÁVAZKOVÉ, zejména NÁHRADA ŠKODY, ZÁRUKA A PROMLČENÍ. (Stojí za zmínku, že se tím nejrozsáhlejší modernizace rakouského soukromého práva odehrála MIMO PARLAMENT, nouzovými nařízeními za války.) OBSAHOVĚ ŠLO O MODERNIZACI POD VLIVEM KODIFIKACÍ V NĚMECKU A ŠVÝCARSKU — ZEJMÉNA PŘEVZETÍ Z NĚMECKÉHO BGB a PŘIZPŮSOBENÍ STAVU POZNÁNÍ OBČANSKÉHO PRÁVA. NEJHEZČÍ PŘÍKLAD JE § 914 ABGB. STARÉ ZNĚNÍ: 'Obecná pravidla uvedená v první části (§ 6) o výkladu zákonů platí i pro smlouvy.' NOVÉ ZNĚNÍ: 'VÝKLAD SMLUV SE NEMÁ OMEZOVAT NA DOSLOVNÝ VÝZNAM VÝRAZU, NÝBRŽ MÁ ZKOUMAT ÚMYSL STRAN A ROZUMĚT SMLOUVĚ TAK, JAK ODPOVÍDÁ PRAXI DOBRÉ VÍRY.' Ta změna je malá slovy a velká významem: PŘEDTÍM SE SMLOUVA VYKLÁDALA JAKO ZÁKON, POTOM JAKO PROJEV VŮLE STRAN MĚŘENÝ DOBROU VÍROU. Je to přesně ten posun od formalismu k sociálnímu, o kterém mluví Kennedy.",
       "terms": [],
@@ -543,62 +201,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 707,
-      "text_sha": "e4871967abbb665d",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PU08N2/PU08N2_s025.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 726,
-      "text_sha": "516115882600c317",
-      "pdf_page": 25
-    },
-    {
-      "n": 26,
-      "img": "img/PU08N2/PU08N2_s026.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 694,
-      "text_sha": "f26b9e66bb010183",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PU08N2/PU08N2_s027.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 10,
-      "text_sha": "3afdda2c098fc834",
-      "pdf_page": 27
+      "vision_used": true
     }
-  ]
+  }
 }

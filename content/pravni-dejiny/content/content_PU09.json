@@ -1,52 +1,9 @@
 {
   "lecture_id": "PU09",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Cvičení 9",
   "title": "Cvičení 9: historická škola, jurisprudence účelu, imperialismus",
-  "source_file": "raw/PU09_ppt.pdf",
-  "source_sha256": "35a18ae525fcd28a55a9bb2d1c4f45cee9cf8a60f412ce20044b9ba550fb6d3e",
-  "source_pages": 42,
-  "slides_per_page": 1,
-  "slide_count": 42,
-  "updated_at": "2026-09-15T12:55:48+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PU09/PU09_s001.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 121,
-      "text_sha": "c29d2714e75737c7",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PU09/PU09_s002.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 393,
-      "text_sha": "c7f91650f7ccf5dc",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PU09/PU09_s003.webp",
+  "free_sections": true,
+  "slides": {
+    "3": {
       "title": "Proč historická škola vznikla: potřeba klidu po revolucích",
       "text": "Cvičení dává historické škole motiv, který se v učebnicích často vynechává, a je to nejlepší vysvětlení jejího úspěchu. PO 'ÉŘE REVOLUCÍ' (1776–1848/49) NÁSLEDOVALA VŠEOBECNÁ POTŘEBA STABILITY A KLIDU, kterou je vidět na hnutí HISTORISMU. A viník byl pojmenován: PŘIROZENOPRÁVNÍ NAUKA, TEDY POJETÍ PŘIROZENÉHO PRÁVA JAKO 'PRÁVA ROZUMU' SPOJENÉHO S OSVÍCENSTVÍM, BYLA OBVIŇOVÁNA Z REVOLUCÍ LET 1789, 1830 A 1848. Historická škola tedy není jen vědeckým programem — je to POLITICKÁ ODPOVĚĎ NA STRACH Z REVOLUCE. Kdo řekne, že právo POZVOLNA ROSTE z ducha národa, ten zároveň říká, že se NEMÁ DĚLAT NARÁZ A SHORA. ROKU 1814 VYDAL CARL FRIEDRICH VON SAVIGNY (1779–1861, Berlín) spis 'O POVOLÁNÍ NAŠÍ DOBY K ZÁKONODÁRSTVÍ A PRÁVNÍ VĚDĚ' a HISTORICKÁ PRÁVNÍ ŠKOLA SE ROZVINULA JAKO PŘÍKLAD TVORBY NOREM SKRZE PRÁVNÍ VĚDU — tedy jako třetí model. Je PROTIHNUTÍM ke kodifikačnímu hnutí i k právu rozumu a odvozuje právo z 'DUCHA NÁRODA' (VOLKSGEIST).",
       "terms": [],
@@ -60,18 +17,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1060,
-      "text_sha": "4ee03fde219faef8",
-      "pdf_page": 3
+      "vision_used": true
     },
-    {
-      "n": 4,
-      "img": "img/PU09/PU09_s004.webp",
+    "4": {
       "title": "Metoda a plody: jak vznikla „právnická osoba“",
       "text": "METODA: HISTORICKO-SYSTEMATICKÁ. Škola SE VRACELA K 'HISTORICKÝM PRAMENŮM', SNAŽILA SE IDENTIFIKOVAT JEDNOTLIVÉ PRÁVNÍ FIGURY A SLEDOVALA, JAK SE TY FIGURY VYVÍJELY V ČASE. CÍL: URČIT PRÁVNÍ ZÁSADY, VYTVOŘIT PRÁVNÍ POJMY A UVÉST JE DO JEDNOTNÉHO SYSTÉMU. A cvičení dává konkrétní plody, na kterých je vidět, že to nebyla jen teorie: VE DRUHÉ POLOVINĚ 19. STOLETÍ VZNIKLY POJMY JAKO 'PRÁVNICKÁ OSOBA' (JURISTISCHE PERSON) A 'ZPŮSOBILOST K PRÁVNÍM JEDNÁNÍM' (GESCHÄFTSFÄHIGKEIT). To jsou pojmy, které dnes pokládáme za samozřejmé a bez nichž se právník neobejde — a přitom jsou to výtvory jedné vědecké školy, staré sotva sto padesát let. DVA PROUDY UVNITŘ ŠKOLY: PANDEKTISTIKA a GERMANISTIKA.",
       "terms": [],
@@ -85,66 +33,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 898,
-      "text_sha": "de40a58163b71c08",
-      "pdf_page": 4
+      "vision_used": true
     },
-    {
-      "n": 5,
-      "img": "img/PU09/PU09_s005.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 915,
-      "text_sha": "932b2ff713014a47",
-      "pdf_page": 5
-    },
-    {
-      "n": 6,
-      "img": "img/PU09/PU09_s006.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 900,
-      "text_sha": "96f0e90a1158f55f",
-      "pdf_page": 6
-    },
-    {
-      "n": 7,
-      "img": "img/PU09/PU09_s007.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 142,
-      "text_sha": "4f6282a98c897a85",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PU09/PU09_s008.webp",
+    "8": {
       "title": "Begriffsjurisprudenz: kdo ten název vymyslel a jako nadávku",
       "text": "HISTORICKÁ PRÁVNÍ ŠKOLA (PANDEKTISTIKA) SE POSTUPNĚ PROMĚNILA V 'POJMOVOU JURISPRUDENCI' (BEGRIFFSJURISPRUDENZ). A tady je detail, který si zapamatuj, protože je to typická zkoušková otázka: TEN VÝRAZ VYTVOŘIL RUDOLF VON JHERING, A TO JAKO OZNAČENÍ TEORETICKÉHO PŘEHÁNĚNÍ PŘI VYTVÁŘENÍ POJMŮ, kterého se podle něj dopouštěla pandektistika v podobě, jak ji praktikovali GEORG FRIEDRICH PUCHTA (1798–1846) A BERNHARD WINDSCHEID. Není to tedy sebeoznačení školy, nýbrž KRITICKÁ NÁLEPKA OD ODPADLÍKA. PUCHTOVA KONSTRUKCE: pracoval se SCHELLINGOVOU 'DVOJITOU RACIONALITOU' — SNAŽIL SE NAJÍT POZITIVNÍ PRÁVO HISTORICKÝM ZKOUMÁNÍM (Schellingova pozitivní filozofie) A ZÁROVEŇ MU POROZUMĚT JAKO SYSTÉMU. Právě to spojení dvou cest — dějin a systému — dovoluje tvrdit, že se z pojmů dají dedukovat nové normy; a právě proti tomu se Jhering obrátí.",
       "terms": [],
@@ -158,18 +49,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1101,
-      "text_sha": "493cf3414552838a",
-      "pdf_page": 8
+      "vision_used": true
     },
-    {
-      "n": 9,
-      "img": "img/PU09/PU09_s009.webp",
+    "9": {
       "title": "BGB jako plod školy — i s vadou",
       "text": "'VÝSLEDKEM' HISTORICKÉ PRÁVNÍ ŠKOLY JE NĚMECKÁ OBČANSKOPRÁVNÍ KODIFIKACE (BGB), KTERÁ VSTOUPILA V ÚČINNOST 1. LEDNA 1900. Stojí NA SYSTEMATIZACI HISTORICKÉ ŠKOLY, tedy na pojmové jurisprudenci, a MÁ PANDEKTNÍ STRUKTURU. PRVNÍ NÁVRH VYPRACOVAL PRÁVNÍ VĚDEC OTTO FRIEDRICH VON GIERKE (proslulý německým spolkovým právem). A cvičení přidává výtku, která je u zkoušky dobrá, protože ukazuje cenu té metody: PRO SVOU VYSOKOU ABSTRAKCI A PROTO, ŽE JE PRODUKTEM AKADEMICKÉHO PROSTŘEDÍ, JE BGB PRO BĚŽNÉHO OBČANA VELMI TĚŽKO ČITELNÝ. Srovnej to s ABGB, který byl psán tak, aby mu rozuměl i nevzdělaný — jeden ze základních požadavků osvícenské kodifikace byla SROZUMITELNOST. Pandektní kodifikace ten požadavek OBĚTOVALA PŘESNOSTI A SYSTÉMU. To je konkrétní cena třetího modelu: PRÁVO VYTVÁŘENÉ VĚDOU JE PŘESNÉ, ALE PŘESTÁVÁ BÝT PŘÍSTUPNÉ TOMU, KOMU MÁ SLOUŽIT.",
       "terms": [],
@@ -183,25 +65,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 525,
-      "text_sha": "2dd874e911a5e888",
-      "pdf_page": 9
+      "vision_used": true
     },
-    {
-      "n": 10,
-      "img": "img/PU09/PU09_s010.webp",
+    "10": {
       "title": "Jheringův obrat: od kultu logiky k otázce „proč?“",
       "text": "UPROSTŘED 19. STOLETÍ SE RUDOLF VON JHERING ODVRACÍ OD PUCHTY A HISTORICKÉ ŠKOLY, KTERÉ OBVIŇUJE Z 'POJMOVÉ JURISPRUDENCE'. Jeho program cvičení shrnuje do tří odmítnutí a jedné otázky. ODMÍTÁ 'KULT LOGIKY'. ODMÍTÁ 'BLUD MATEMATIKY PRÁVA'. A TVRDÍ, ŽE PRÁVNÍ OTÁZKY SE MAJÍ ŘEŠIT JAKO OTÁZKY ÚČELNOSTI (ZWECKMÄSSIGKEITSFRAGEN). ODŮVODNĚNÍ JE ELEGANTNÍ: PROTOŽE PRÁVO MÁ PODLE JHERINGA FORMU PŘÍKAZU, MUSÍ VŽDY STÁT V CENTRU POZORNOSTI A VÝKLADU OTÁZKA 'PROČ?' — tedy OTÁZKA ÚČELU V PRÁVU. Kdo přikazuje, přikazuje k něčemu; a nezná-li vykladač ten účel, nemůže příkazu rozumět. JHERING SVOU 'JURISPRUDENCÍ ÚČELU' ZAHAJUJE MODERNÍ PRÁVNÍ VĚDU — cvičení to zdůrazňuje třemi vykřičníky, a stojí za to si to zapamatovat jako mezník: OD JHERINGA SE PRÁVO NEPTÁ JEN 'CO PLYNE Z POJMU', NÝBRŽ 'K ČEMU TO JE'. Ve druhé polovině 19. století se zároveň prosazuje PRÁVNÍ POZITIVISMUS.",
       "terms": [
-        {
-          "term": "jurisprudence účelu",
-          "def": "Jheringův program: právní otázky jsou otázkami účelnosti; protože právo má formu příkazu, musí se ptát „proč?“."
-        }
+        { "term": "jurisprudence účelu", "def": "Jheringův program: právní otázky jsou otázkami účelnosti; protože právo má formu příkazu, musí se ptát „proč?“." }
       ],
       "cards": [
         {
@@ -213,18 +83,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1259,
-      "text_sha": "a13450f8803dc15f",
-      "pdf_page": 10
+      "vision_used": true
     },
-    {
-      "n": 11,
-      "img": "img/PU09/PU09_s011.webp",
+    "11": {
       "title": "Co z jurisprudence účelu vyrostlo",
       "text": "Cvičení dává celý strom následovníků, a ten se u otázky po vývoji metody hodí. JURISPRUDENCE ÚČELU JE ZÁKLADEM PRO: (1) JURISPRUDENCI ZÁJMŮ (INTERESSENJURISPRUDENZ), kterou na počátku 20. století rozvinul PHILIPP HECK; (2) VŠECHNY DRUHY 'SOCIOLOGICKÉ JURISPRUDENCE'; (3) HNUTÍ VOLNÉHO PRÁVA (FREIRECHTSBEWEGUNG) — EUGEN EHRLICH, HERMANN KANTOROWICZ, ERNST FUCHS — jehož cílem je ZMENŠIT VÁZANOST SOUDCE ZÁKONEM VE PROSPĚCH SOUDCOVSKÉHO UVÁŽENÍ. A ZÁMOŘSKÁ VĚTEV: V USA SE 'HLEDÁNÍ ÚČELU V PRÁVU' NA POČÁTKU 20. STOLETÍ ZRCADLÍ V DÍLE ROSCOEA POUNDA A V JEHO VERZI 'SOCIOLOGICKÉ JURISPRUDENCE'. Tím se kruh uzavírá k tomu, co znáš z Kennedyho: právě tenhle proud je 'SOCIÁLNÍ' druhé globalizace. Jheringova otázka 'proč?' tedy nakonec vede od německé katedry k americkému reformnímu zákonodárství.",
       "terms": [],
@@ -238,34 +99,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 903,
-      "text_sha": "cea6b2476462e0ef",
-      "pdf_page": 11
+      "vision_used": true
     },
-    {
-      "n": 12,
-      "img": "img/PU09/PU09_s012.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1103,
-      "text_sha": "cb2e057b9e1ad770",
-      "pdf_page": 12
-    },
-    {
-      "n": 13,
-      "img": "img/PU09/PU09_s013.webp",
+    "13": {
       "title": "Pramen: čl. 1 švýcarského ZGB",
       "text": "PRAMEN: '1. Zákon se podle svého znění nebo výkladu použije na všechny právní otázky, pro které obsahuje ustanovení. 2. NENÍ-LI USTANOVENÍ, ROZHODNE SOUD PODLE OBYČEJOVÉHO PRÁVA, A NENÍ-LI OBYČEJOVÉHO PRÁVA, PODLE PRAVIDLA, KTERÉ BY STANOVIL JAKO ZÁKONODÁRCE. 3. Přitom se soud řídí ustálenou naukou a judikaturou.' Tenhle článek je nejslavnějším ustanovením celého srovnávacího soukromého práva a stojí za pečlivé čtení. TŘETÍ ODSTAVEC JE PŘITOM STEJNĚ DŮLEŽITÝ JAKO DRUHÝ: soudce sice smí rozhodnout 'jako zákonodárce', ale NE LIBOVOLNĚ — je vázán NAUKOU A JUDIKATUROU. Je to tedy svoboda uvnitř oboru, ne mimo něj. ŠVÝCARSKÝ ZGB, KTERÝ NAPSAL EUGEN HUBER, POCHÁZÍ Z ROKU 1907. STOJÍ V TRADICI HISTORICKÉ PRÁVNÍ ŠKOLY (jako BGB), ALE ROZVÍJÍ JI DÁL: UŽ NESLEDUJE MYŠLENKU ÚPLNOSTI. Tradiční historická škola totiž měla představu ÚPLNOSTI PRÁVNÍHO ŘÁDU, tedy že NEOBSAHUJE MEZERY — a ZGB tenhle předpoklad opouští. SOUDCE SE V ZGB STÁVÁ MOCNĚJŠÍM, přesně jak to ukazuje citované ustanovení. PO DLOUHOU DOBU BYL POKLÁDÁN ZA NEJPOKROKOVĚJŠÍ KODIFIKACI NA SVĚTĚ — A PO PRVNÍ SVĚTOVÉ VÁLCE HO PŘEVZALO TURECKO ZA KEMALA ATATÜRKA.",
       "terms": [],
@@ -287,18 +123,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 825,
-      "text_sha": "2aa44247f8605414",
-      "pdf_page": 13
+      "vision_used": true
     },
-    {
-      "n": 14,
-      "img": "img/PU09/PU09_s014.webp",
+    "14": {
       "title": "Eugen Ehrlich a živé právo z Bukoviny",
       "text": "EUGEN EHRLICH (1862–1922) je pro tenhle předmět mimořádně vděčná postava, protože jeho teorie vyrostla z konkrétního místa. KOLEM ROKU 1903 ZAČAL PRACOVAT NA POJETÍ PRÁVNÍHO ŘÁDU, KTERÉ BY VÍC BRALO V ÚVAHU PRÁVNÍ SKUTEČNOST. A cvičení říká přesně, co ho k tomu přimělo: JEHO POZOROVÁNÍ PRÁVNÍ SKUTEČNOSTI V BUKOVINĚ, KTERÁ BYLA ETNICKY VELMI ROZMANITÁ, HO PŘIMĚLA VĚNOVAT VÍC POZORNOSTI 'ŽIVÉMU PRÁVU'. Bukovina byla nejvýchodnějším korunním územím monarchie, kde vedle sebe žili Rusíni, Rumuni, Němci, Židé, Poláci a Arméni — a Ehrlich viděl, že to, čím se lidé opravdu řídí, se s rakouským zákoníkem nekryje. ZÁVĚR: protože podle jeho sociologických studií POZITIVNÍ PRÁVO NAKONEC NEMŮŽE VYTVOŘIT ÚPLNOU SPRAVEDLNOST, PŘESUNUL TĚŽIŠTĚ ÚVAHY K OSOBĚ SOUDCE, KTERÝ — POMĚRNĚ NEZÁVISLE NA ZÁKONĚ, PROTOŽE VÍC SOUDŮ MŮŽE V TÉŽE VĚCI DOJÍT K RŮZNÝM ROZHODNUTÍM — SPRAVEDLNOST NENALÉZÁ, NÝBRŽ JI SÁM TVOŘÍ. V TOMHLE OHLEDU JE EHRLICH ZAKLADATELEM TAKZVANÉHO HNUTÍ VOLNÉHO PRÁVA. Všimni si, jakou cestou se k tomu došlo: OD POZOROVÁNÍ MNOHONÁRODNOSTNÍ PROVINCIE K TVRZENÍ, ŽE SOUDCE PRÁVO TVOŘÍ.",
       "terms": [],
@@ -320,34 +147,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 871,
-      "text_sha": "a9439495fa4e2fe3",
-      "pdf_page": 14
+      "vision_used": true
     },
-    {
-      "n": 15,
-      "img": "img/PU09/PU09_s015.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 231,
-      "text_sha": "41372510888132fc",
-      "pdf_page": 15
-    },
-    {
-      "n": 16,
-      "img": "img/PU09/PU09_s016.webp",
+    "16": {
       "title": "Univerzalizace práva a tři druhy lidstva",
       "text": "Cvičení vysvětluje 'evropské století' přes právo a dává mu ostré vyústění. JE 'EVROPSKÝM STOLETÍM', PROTOŽE SE EVROPSKÉ PRÁVO, HODNOTY A IDEJE ŠÍŘÍ PO CELÉM SVĚTĚ — tomu se říká 'UNIVERZALIZACE' MEZINÁRODNÍHO PRÁVA V 19. STOLETÍ. A cvičení k tomu přidává souvislost, která je překvapivá a dobrá: NASTUPUJÍCÍ POZITIVISMUS UMOŽŇUJE PŘEKONAT VYLOUČENÍ NEKŘESŤANSKÝCH SUBJEKTŮ Z MEZINÁRODNÍHO PRÁVA. Dokud se totiž mezinárodní právo odvozovalo z křesťanského přirozeného práva, nekřesťan do něj patřit nemohl; jakmile stojí na SOUHLASU STÁTŮ, může souhlasit kdokoli. Pozitivismus tedy paradoxně otevřel dveře. JENŽE VÝSLEDEK JE DVOJAKÝ: ROVNOST JE VEDOUCÍ ZÁSADOU PRO VZTAHY MEZI EVROPSKÝMI MOCNOSTMI — ALE VE VZTAZÍCH MEZI EVROPSKÝMI A NEEVROPSKÝMI ZEMĚMI PLATÍ NEROVNOST. A ta nerovnost dostala i pojmovou podobu, kterou je třeba znát, protože je to jeden z nejtvrdších dokladů dobového myšlení: ROZLIŠOVALY SE TŘI DRUHY LIDSTVA — 'CIVILIZOVANÉ LIDSTVO', 'BARBARSKÉ LIDSTVO' (POLOCIVILIZOVANÉ) A 'DIVOŠSKÉ LIDSTVO'. Podle zařazení se odvíjelo, zda je dotyčný celek subjektem mezinárodního práva, zda s ním lze uzavírat rovné smlouvy, nebo zda jeho území lze pokládat za terra nullius.",
       "terms": [],
@@ -369,18 +171,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 660,
-      "text_sha": "829987b94686c214",
-      "pdf_page": 16
+      "vision_used": true
     },
-    {
-      "n": 17,
-      "img": "img/PU09/PU09_s017.webp",
+    "17": {
       "title": "Dva modely evropské expanze",
       "text": "Cvičení rozlišuje DVA 'MODELY' EVROPSKÉ EXPANZE POZDNÍHO 19. STOLETÍ, a to rozlišení je u otázky o kolonialismu velmi užitečné. (1) FRANCOUZSKÝ MODEL: EXPANZE FORMÁLNÍMI ARMÁDAMI, PO NICHŽ NÁSLEDUJÍ KOLONIÁLNÍ ÚŘEDNÍCI. Stát jde napřed, obchod za ním. (2) ANGLICKÝ A NĚMECKÝ MODEL: ZÍSKÁVÁNÍ PŮDY SOUKROMÝMI AGENTY POD OCHRANOU METROPOLITNÍHO STÁTU, KTERÁ SE TEPRVE POZDĚJI MĚNÍ VE FORMÁLNÍ KOLONIE. Tady jde napřed společnost či jednotlivec a stát dodatečně legalizuje, co se stalo. Rozdíl má velké právní důsledky: v prvním případě je titul od počátku veřejnoprávní, ve druhém se odvozuje ze SMLUV, KTERÉ UZAVŘELA SOUKROMÁ OSOBA S MÍSTNÍM VLÁDCEM — a právě proto je tolik koloniálních titulů založeno na smlouvách pochybné platnosti. A EXTERITORIALITA JAKO TŘETÍ FORMA: KONZULÁRNÍ JURISDIKCE A EXTERITORIALITA PRO EVROPSKÉ OBCHODNÍKY, A PRÁVO 'MATEŘSKÉ ZEMĚ' PRO OSADNÍKY. Právo tedy cestovalo s osobou, ne s územím — což je mimochodem návrat k témuž osobnímu pojetí práva, jaké mělo raně středověké germánské právo.",
       "terms": [],
@@ -402,34 +195,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 424,
-      "text_sha": "b48cf47735451f6a",
-      "pdf_page": 17
+      "vision_used": true
     },
-    {
-      "n": 18,
-      "img": "img/PU09/PU09_s018.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 928,
-      "text_sha": "d0db5ff8e4633734",
-      "pdf_page": 18
-    },
-    {
-      "n": 19,
-      "img": "img/PU09/PU09_s019.webp",
+    "19": {
       "title": "Berlínská konference: pozadí, účastníci a efektivní okupace",
       "text": "POZADÍ podle cvičení: EVROPSKÝ ZÁVOD O KOLONIE PŘIMĚL NĚMECKO ZAČÍT VYPRAVOVAT VLASTNÍ EXPEDICE, COŽ VYDĚSILO BRITSKÉ I FRANCOUZSKÉ STÁTNÍKY. BELGICKÝ KRÁL LEOPOLD II. V NADĚJI, ŽE SPOR RYCHLE UTIŠÍ, PŘESVĚDČIL FRANCII A NĚMECKO, ŽE SPOLEČNÝ OBCHOD V AFRICE JE V NEJLEPŠÍM ZÁJMU VŠECH TŘÍ ZEMÍ. OTTO VON BISMARCK PAK ROKU 1884 SVOLAL DO BERLÍNA ZÁSTUPCE TŘINÁCTI EVROPSKÝCH NÁRODŮ A SPOJENÝCH STÁTŮ, ABY VYPRACOVALI SPOLEČNOU POLITIKU PRO AFRICKÝ KONTINENT. ÚČASTNÍCI podle cvičení: VELKÁ BRITÁNIE, FRANCIE, ŠPANĚLSKO, NIZOZEMÍ, NĚMECKO, RAKOUSKO-UHERSKO, RUSKO, DÁNSKO, ŠVÉDSKO-NORSKO, OSMANSKÁ ŘÍŠE A SPOJENÉ STÁTY. (Slide uvádí, že jediným africkým účastníkem bylo Kongo — pozor na to: šlo o MEZINÁRODNÍ ASOCIACI KONGA, tedy soukromý podnik Leopolda II., ne o africký stát; africké politické celky zastoupeny nebyly. U zkoušky se drž toho, co uvádí přednášející, ale vědět o tom rozdílu se hodí.) VÝSLEDKY V OBLASTI MEZINÁRODNÍHO PRÁVA: ÚPRAVA VOLNÉHO OBCHODU A VOLNÉ PLAVBY PO KONGU A NIGERU a SOUBOR PRAVIDEL PRO OBSAZOVÁNÍ ÚZEMÍ, tedy 'ZÁSADA EFEKTIVNÍ OKUPACE'. ČL. 35 ZÁVĚREČNÉHO AKTU stanovil, že MOCNOST MŮŽE NABÝT PRÁVA KE KOLONIÁLNÍM ZEMÍM, JEN POKUD JE DRŽÍ NEBO MÁ EFEKTIVNÍ OKUPACI — což cvičení upřesňuje třemi znaky: MÁ-LI SMLOUVY S MÍSTNÍMI VŮDCI, VZTYČILA-LI TAM SVOU VLAJKU A ZŘÍDILA-LI SPRÁVU S POLICIÍ K UDRŽOVÁNÍ POŘÁDKU. Mocnost mohla kolonii také HOSPODÁŘSKY VYUŽÍVAT. A DRUHÁ, MÉNĚ ZNÁMÁ FUNKCE TÉ ZÁSADY: SLOUŽILA NEJEN K NABÝVÁNÍ ÚZEMNÍ SUVERENITY, ALE I K VYMEZOVÁNÍ HRANIC MEZI ZÁMOŘSKÝMI DRŽAVAMI JEDNOTLIVÝCH MOCNOSTÍ — efektivní okupace se v některých případech stala KRITÉRIEM PRO ŘEŠENÍ KOLONIÁLNÍCH HRANIČNÍCH SPORŮ.",
       "terms": [],
@@ -459,382 +227,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1207,
-      "text_sha": "1ca16c7c51225eeb",
-      "pdf_page": 19
-    },
-    {
-      "n": 20,
-      "img": "img/PU09/PU09_s020.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1527,
-      "text_sha": "89588b996a56cf07",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PU09/PU09_s021.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 580,
-      "text_sha": "0ff91b0bdc480280",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PU09/PU09_s022.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": true,
-      "text_chars": 0,
-      "text_sha": "e3b0c44298fc1c14",
-      "pdf_page": 22
-    },
-    {
-      "n": 23,
-      "img": "img/PU09/PU09_s023.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 81,
-      "text_sha": "659e5abf41451dce",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PU09/PU09_s024.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1479,
-      "text_sha": "7c5aeeef8b5d4a91",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PU09/PU09_s025.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 185,
-      "text_sha": "621cbf4f0bee2cc3",
-      "pdf_page": 25
-    },
-    {
-      "n": 26,
-      "img": "img/PU09/PU09_s026.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 876,
-      "text_sha": "5f6f642f1bd97fee",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PU09/PU09_s027.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 308,
-      "text_sha": "bbd6d48109d6393e",
-      "pdf_page": 27
-    },
-    {
-      "n": 28,
-      "img": "img/PU09/PU09_s028.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1152,
-      "text_sha": "7a0a729dcb240d48",
-      "pdf_page": 28
-    },
-    {
-      "n": 29,
-      "img": "img/PU09/PU09_s029.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1682,
-      "text_sha": "0937bc581948bd22",
-      "pdf_page": 29
-    },
-    {
-      "n": 30,
-      "img": "img/PU09/PU09_s030.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 302,
-      "text_sha": "5f899db3a0e549a9",
-      "pdf_page": 30
-    },
-    {
-      "n": 31,
-      "img": "img/PU09/PU09_s031.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1509,
-      "text_sha": "b0582c85d71b8dae",
-      "pdf_page": 31
-    },
-    {
-      "n": 32,
-      "img": "img/PU09/PU09_s032.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 327,
-      "text_sha": "16d8ee8848b7f65f",
-      "pdf_page": 32
-    },
-    {
-      "n": 33,
-      "img": "img/PU09/PU09_s033.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 577,
-      "text_sha": "8b00ff4d849bf588",
-      "pdf_page": 33
-    },
-    {
-      "n": 34,
-      "img": "img/PU09/PU09_s034.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 400,
-      "text_sha": "58531f59520b68a4",
-      "pdf_page": 34
-    },
-    {
-      "n": 35,
-      "img": "img/PU09/PU09_s035.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 845,
-      "text_sha": "99c0c13f56503b4b",
-      "pdf_page": 35
-    },
-    {
-      "n": 36,
-      "img": "img/PU09/PU09_s036.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 766,
-      "text_sha": "8b157ee8d25af919",
-      "pdf_page": 36
-    },
-    {
-      "n": 37,
-      "img": "img/PU09/PU09_s037.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 437,
-      "text_sha": "220637017e5f32ba",
-      "pdf_page": 37
-    },
-    {
-      "n": 38,
-      "img": "img/PU09/PU09_s038.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1020,
-      "text_sha": "e0df0a6e663b3e85",
-      "pdf_page": 38
-    },
-    {
-      "n": 39,
-      "img": "img/PU09/PU09_s039.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 943,
-      "text_sha": "53bf8fc711f5d022",
-      "pdf_page": 39
-    },
-    {
-      "n": 40,
-      "img": "img/PU09/PU09_s040.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 433,
-      "text_sha": "feb5e18a7e0c6e16",
-      "pdf_page": 40
-    },
-    {
-      "n": 41,
-      "img": "img/PU09/PU09_s041.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 447,
-      "text_sha": "3f7cf959c177d5f3",
-      "pdf_page": 41
-    },
-    {
-      "n": 42,
-      "img": "img/PU09/PU09_s042.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 269,
-      "text_sha": "e0bf98eababa2fdf",
-      "pdf_page": 42
+      "vision_used": true
     }
-  ]
+  }
 }

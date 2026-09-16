@@ -1,84 +1,9 @@
 {
   "lecture_id": "PU10",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Cvičení 10",
   "title": "Cvičení 10: Evropa 1918–1990",
-  "source_file": "raw/PU10_ppt.pdf",
-  "source_sha256": "e69441d660d6394b8e078b65ff44b8012fb32b92b37e16c71dff6d944ecc5dec",
-  "source_pages": 31,
-  "slides_per_page": 1,
-  "slide_count": 31,
-  "updated_at": "2026-09-15T12:56:06+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PU10/PU10_s001.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 25,
-      "text_sha": "339ba33e4e6eec67",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PU10/PU10_s002.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 843,
-      "text_sha": "4f10a444ae515614",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PU10/PU10_s003.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 766,
-      "text_sha": "8b157ee8d25af919",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PU10/PU10_s004.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 934,
-      "text_sha": "6df38a7289ae8685",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PU10/PU10_s005.webp",
+  "free_sections": true,
+  "slides": {
+    "5": {
       "title": "Marxovo schéma a proč má právo odumřít",
       "text": "Cvičení dává marxistickou konstrukci celou, a bez ní nelze rozumět tomu, proč sovětské právo vypadalo tak, jak vypadalo. MARX A ENGELS vydali roku 1848 KOMUNISTICKÝ MANIFEST, roku 1867 následoval KAPITÁL; MARX PŘITOM 'OBRACÍ HEGELA NARUBY'. SCHÉMA: DĚJINY OD VZNIKU SOUKROMÉHO VLASTNICTVÍ JSOU CHARAKTERIZOVÁNY TŘÍDNÍM BOJEM, kde MAJETNÉ TŘÍDY (BURŽOAZIE) VYKOŘISŤUJÍ TŘÍDY BEZ MAJETKU (PROLETARIÁT). Jak se bohatství soustřeďuje v rukou stále menšího počtu lidí, PROLETARIÁT ROSTE A JEDNOHO DNE UCHOPÍ MOC. Pak zřídí 'DIKTATURU PROLETARIÁTU', TEDY SOCIALISMUS. SOCIALISMUS JE VŠAK POUZE PŘECHODNÝM STUPNĚM; PO ZRUŠENÍ VEŠKERÉHO SOUKROMÉHO VLASTNICTVÍ VZNIKNE BEZTŘÍDNÍ SPOLEČNOST, TEDY KOMUNISMUS. A TEĎ TA ČÁST, KTERÁ JE PRO PRÁVNÍKA NEJDŮLEŽITĚJŠÍ A KTEROU SI ZAPAMATUJ DOSLOVA: PROTOŽE PRÁVO A STÁT NEJSOU NIČÍM JINÝM NEŽ NADSTAVBOU, KTERÁ ZASTUPUJE ZÁJMY BURŽOAZIE A SLOUŽÍ K POTLAČOVÁNÍ LIDU, MAJÍ 'ODUMŘÍT', JAKMILE BUDE TŘÍDNÍ BOJ PŘEKONÁN A VZNIKNE BEZTŘÍDNÍ SPOLEČNOST. Z toho plyne celý paradox sovětského práva: režim, jehož teorie hlásá zánik práva, musel padesát let právo tvořit.",
       "terms": [],
@@ -100,18 +25,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1486,
-      "text_sha": "da4eb733fca34e4c",
-      "pdf_page": 5
+      "vision_used": true
     },
-    {
-      "n": 6,
-      "img": "img/PU10/PU10_s006.webp",
+    "6": {
       "title": "Brest-Litevsk a sebeurčení včetně kolonií",
       "text": "SMLOUVA Z BRESTU LITEVSKÉHO (BŘEZEN 1918) znamenala KONEČNÝ ODCHOD RUSKA Z PRVNÍ SVĚTOVÉ VÁLKY. A cvičení k ní připojuje dva důsledky, které se v přehledech obvykle nespojují. (1) SOVĚTSKÉ RUSKO NAPŘÍŠTĚ PODPOROVALO PRÁVO VŠECH NÁRODŮ NA SEBEURČENÍ, A TO VČETNĚ KOLONIÍ. To je zásadní: Wilsonových čtrnáct bodů mluvilo o sebeurčení pro národy Evropy, ale bolševici ho vztáhli i na kolonie — a právě odtud plyne, proč se antikoloniální hnutí 20. století tak často obracela k Moskvě. (2) ZŘEKNUTÍ SE RUSKÝCH NÁROKŮ NA POLSKO, BĚLORUSKO, UKRAJINU, FINSKO, ESTONSKO, LOTYŠSKO A LITVU. A NAVÍC — a tenhle detail je pro globální právní dějiny cenný — ZŘEKNUTÍ SE RUSKÝCH EXTERITORIÁLNÍCH PRÁV A KONCESÍ V ČÍNĚ. Sovětské Rusko tedy jako první velmoc dobrovolně opustilo systém kapitulací. Cvičení připomíná i to, co se dělo souběžně: CAR A JEHO RODINA BYLI BOLŠEVIKY ZABITI a NÁSLEDOVALA OBČANSKÁ VÁLKA, KTERÁ TRVALA DO ROKU 1921. ROKU 1922 VZNIKL SSSR SLOUČENÍM SOVĚTSKÉHO RUSKA S UKRAJINOU, BĚLORUSKEM A ZAKAVKAZSKEM.",
       "terms": [],
@@ -125,34 +41,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 719,
-      "text_sha": "b3dda96c465d23b9",
-      "pdf_page": 6
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PU10/PU10_s007.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 647,
-      "text_sha": "88125db76b7ff393",
-      "pdf_page": 7
-    },
-    {
-      "n": 8,
-      "img": "img/PU10/PU10_s008.webp",
+    "8": {
       "title": "Spotřební statky a výrobní prostředky",
       "text": "Cvičení dává na otázku o vlastnictví v SSSR odpověď jedním rozlišením, a to je nejčistší formulace, jakou lze mít. VLASTNICKÝ REŽIM BYL CHARAKTERIZOVÁN SVÝM DĚLENÍM NA SPOTŘEBNÍ STATKY A VÝROBNÍ PROSTŘEDKY. SOUKROMÉ VLASTNICTVÍ EXISTOVALO — AŽ NA NĚKOLIK DROBNÝCH VÝJIMEK — POUZE U SPOTŘEBNÍCH STATKŮ. Není tedy pravda, že by soukromé vlastnictví neexistovalo; NEEXISTOVALO U VÝROBNÍCH PROSTŘEDKŮ. A PRAMEN JE UČEBNICOVÝM PŘÍKLADEM: PŮDA JE PRVOŘADÝM PŘÍKLADEM VÝROBNÍHO PROSTŘEDKU. Cvičení pak dodává, co to znamenalo v praxi: SEDLÁCI BYLI VYVLASTŇOVÁNI VE VELKÉM ROZSAHU, ČASTO NÁSILNÝMI PROSTŘEDKY. To rozlišení je zároveň klíčem k celé marxistické právní logice: kdo vlastní výrobní prostředek, může najímat cizí práci a přivlastňovat si nadhodnotu — a proto se zakazuje právě tohle vlastnictví, ne majetek jako takový.",
       "terms": [],
@@ -166,41 +57,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 433,
-      "text_sha": "feb5e18a7e0c6e16",
-      "pdf_page": 8
+      "vision_used": true
     },
-    {
-      "n": 9,
-      "img": "img/PU10/PU10_s009.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 447,
-      "text_sha": "3f7cf959c177d5f3",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PU10/PU10_s010.webp",
+    "10": {
       "title": "Austromarxismus",
       "text": "Cvičení připojuje rakouskou odnož, kterou je pro tenhle předmět dobré znát, protože jde o domácí příspěvek k světové debatě. OD ROKU 1904 UTVOŘIL OKRUH SOCIÁLNĚDEMOKRATICKÝCH INTELEKTUÁLŮ INSPIROVANÝCH MARXISMEM — OTTO BAUER, KARL RENNER, MAX ADLER A RUDOLF HILFERDING — TEORETICKÝ PROUD UVNITŘ SOCIÁLNĚ DEMOKRATICKÉ DĚLNICKÉ STRANY (SDAP), zvaný AUSTROMARXISMUS. Stojí za zmínku, kdo v tom seznamu je: KARL RENNER se stal prvním kancléřem republiky roku 1918 a pak prvním prezidentem druhé republiky roku 1945; OTTO BAUER byl ministrem zahraničí. Austromarxismus je tedy pozoruhodný tím, že to NEBYLA JEN AKADEMICKÁ ŠKOLA, NÝBRŽ MYŠLENÍ LIDÍ, KTEŘÍ POTOM SKUTEČNĚ VLÁDLI — a jeho charakteristickým rysem bylo hledání TŘETÍ CESTY mezi revolučním bolševismem a reformismem, zvlášť v otázce národnostní, kde Renner a Bauer navrhli PERSONÁLNÍ (nikoli územní) AUTONOMII národů — řešení, které se v mnohonárodnostní monarchii nabízelo a které se dodnes cituje v debatách o menšinových právech.",
       "terms": [
-        {
-          "term": "personální autonomie",
-          "def": "Rennerovo a Bauerovo řešení národnostní otázky: práva národa se vážou k osobě, ne k území."
-        }
+        { "term": "personální autonomie", "def": "Rennerovo a Bauerovo řešení národnostní otázky: práva národa se vážou k osobě, ne k území." }
       ],
       "cards": [
         {
@@ -212,50 +75,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 269,
-      "text_sha": "e0bf98eababa2fdf",
-      "pdf_page": 10
+      "vision_used": true
     },
-    {
-      "n": 11,
-      "img": "img/PU10/PU10_s011.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 422,
-      "text_sha": "37e01797c02177ec",
-      "pdf_page": 11
-    },
-    {
-      "n": 12,
-      "img": "img/PU10/PU10_s012.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 139,
-      "text_sha": "bf44ce7d8eb5ac70",
-      "pdf_page": 12
-    },
-    {
-      "n": 13,
-      "img": "img/PU10/PU10_s013.webp",
+    "13": {
       "title": "Habsburský zákon a císař, který neabdikoval",
       "text": "Cvičení dává k rakouské republice detail, který je právně velmi zajímavý a snadno se přehlédne. PO VYHLÁŠENÍ RAKOUSKÉ REPUBLIKY V LISTOPADU 1918 SE CÍSAŘ KAREL ZŘEKL 'SVÉHO PODÍLU NA STÁTNÍCH ZÁLEŽITOSTECH' — ALE TRŮNU SE NEZŘEKL. To není slovíčkaření: zřeknutí se výkonu moci není abdikace, takže z monarchistického hlediska zůstával císařem a jeho nárok trval. A že to nebyla teorie, ukazuje pokračování: KAREL SE ROKU 1921 POKUSIL ZÍSKAT ZPĚT UHERSKÝ TRŮN, a to dvakrát. PROTO SE ZDÁLO NUTNÝM PŘIJMOUT 'HABSBURSKÝ ZÁKON' (HABSBURGERGESETZ) NA OCHRANU MLADÉ REPUBLIKY — vyhostil členy rodu, zabavil jejich majetek a podmínil návrat výslovným zřeknutím se nároků a uznáním republiky. KAREL A JEHO RODINA ODEŠLI DO VYHNANSTVÍ, NEJPRVE DO ŠVÝCARSKA A POTOM NA MADEIRU, KDE ROKU 1922 ZEMŘEL. Je to hezký příklad toho, že se ústavní zlom neděje jediným aktem, nýbrž že si republika musí svou existenci zajistit i proti právnímu titulu, který formálně nezanikl.",
       "terms": [],
@@ -269,18 +91,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 443,
-      "text_sha": "9be7e84cbeaf7a71",
-      "pdf_page": 13
+      "vision_used": true
     },
-    {
-      "n": 14,
-      "img": "img/PU10/PU10_s014.webp",
+    "14": {
       "title": "Z čeho je B-VG složen",
       "text": "Cvičení rozebírá původ jednotlivých částí ústavy, a to je nejlepší odpověď na otázku, co je vlastně B-VG. VELKÉ ČÁSTI B-VG BYLY PŘEVZATY Z PROSINCOVÉ ÚSTAVY (1867) — tedy z monarchie; USTANOVENÍ TÝKAJÍCÍ SE REPUBLIKY BYLA ČASTO INSPIROVÁNA 'VÝMARSKOU ÚSTAVOU', tedy německou ústavou z roku 1919. A ZCELA NOVÁ BYLA USTANOVENÍ O ÚSTAVNÍM SOUDU (VfGH), KTERÁ FORMULOVAL PŘEVÁŽNĚ HANS KELSEN A KTERÁ VYTVÁŘEJÍ SOUSTAVU ÚSTAVNÍHO SOUDNICTVÍ — TEDY SOUDNÍ PŘEZKUM NOREM, ZÁKONŮ I NAŘÍZENÍ. Zapamatuj si tu trojici jako celek: STARÉ RAKOUSKÉ PRÁVO, NĚMECKÁ REPUBLIKÁNSKÁ INSPIRACE A JEDNA ZCELA NOVÁ VĚC, KTERÁ JE SVĚTOVÝM PRVENSTVÍM. Dvě územní drobnosti, které cvičení zdůrazňuje a na které se zkoušející rád ptá: BURGENLAND TEHDY JEŠTĚ NEBYL SOUČÁSTÍ RAKOUSKA a VÍDEŇ BYLA AŽ DO ROKU 1922 SOUČÁSTÍ DOLNÍCH RAKOUS. B-VG PROŠEL VÝZNAMNÝMI REVIZEMI ROKU 1925 (SPRÁVNÍ REFORMA).",
       "terms": [],
@@ -302,18 +115,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 979,
-      "text_sha": "1b826e0ef55335ec",
-      "pdf_page": 14
+      "vision_used": true
     },
-    {
-      "n": 15,
-      "img": "img/PU10/PU10_s015.webp",
+    "15": {
       "title": "Od Schattendorfu k požáru Justičního paláce",
       "text": "Cvičení dává řetěz událostí, které vedly k novele z roku 1929, a je dobré ho umět celý, protože ukazuje, jak z jednoho rozsudku vzejde ústavní změna. SCHATTENDORFSKÁ STŘELBA 1927: TŘI ČLENOVÉ NACIONALISTICKÉ POLOVOJENSKÉ ORGANIZACE ZABILI DVA ČLENY SOCIÁLNĚDEMOKRATICKÉHO REPUBLIKÁNSKÉHO SCHUTZBUNDU — a byli OSVOBOZENI. VZPOURA VYVOLANÁ TÍM OSVOBOZUJÍCÍM ROZSUDKEM vyvrcholila POŽÁREM VÍDEŇSKÉHO JUSTIČNÍHO PALÁCE, kdy POLICIE STŘÍLELA DO ROZHOŘČENÉHO DAVU: ZAHYNULO 89 DEMONSTRANTŮ A PĚT POLICISTŮ, VÍC NEŽ 600 DEMONSTRANTŮ A KOLEM 600 POLICISTŮ BYLO ZRANĚNO. DŮSLEDEK: STRACH Z PUČE 'HEIMWEHREN' NAKONEC VEDL K REVIZI ÚSTAVY ROKU 1929. Všimni si té kauzality — ústava se nezměnila proto, že by se změnily názory na dělbu moci, nýbrž PROTOŽE SE VLÁDA BÁLA PUČE A RADĚJI USTOUPILA. Pak přišla VELKÁ HOSPODÁŘSKÁ KRIZE 1929 a DEMOKRACIE SE DOSTÁVALA POD ČÍM DÁL VĚTŠÍ TLAK, až v letech 1934–1938 nastoupil AUSTROFAŠISTICKÝ REŽIM ('STÄNDESTAAT') ZA DOLLFUSSE A SCHUSCHNIGGA.",
       "terms": [],
@@ -327,34 +131,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 647,
-      "text_sha": "562beecf0eed28ad",
-      "pdf_page": 15
+      "vision_used": true
     },
-    {
-      "n": 16,
-      "img": "img/PU10/PU10_s016.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 65,
-      "text_sha": "2524ba95c1415872",
-      "pdf_page": 16
-    },
-    {
-      "n": 17,
-      "img": "img/PU10/PU10_s017.webp",
+    "17": {
       "title": "Autoritářský, nebo fašistický? Rakousko 1934–38",
       "text": "Cvičení tuhle otázku výslovně otvírá jako SPORNOU a odkazuje pro argumenty pro i proti na učebnici — což znamená, že u zkoušky se čeká, že OBĚ STRANY ZNÁŠ, ne že si vybereš. SLED UDÁLOSTÍ: V BŘEZNU 1933 PŘEVRÁTIL INCIDENT V NÁRODNÍ RADĚ PARLAMENTNÍ A DEMOKRATICKÝ SYSTÉM ZEMĚ — cvičení to označuje přímo za PUČ. (Šlo o to, že při sporném hlasování odstoupili postupně všichni tři předsedové sněmovny, a vláda to vyložila jako 'sebevyřazení parlamentu'.) DOLLFUSSOVA VLÁDA PAK VLÁDLA TAKZVANÝMI NOUZOVÝMI NAŘÍZENÍMI. ÚNOROVÉ POVSTÁNÍ 1934 VEDLO K OBČANSKÉ VÁLCE. KVĚTNOVÁ ÚSTAVA 1934 ZNAMENÁ ZLOM S B-VG: ZŘÍDILA TAKZVANÝ STAVOVSKÝ STÁT (STÄNDESTAAT) A VYTVOŘILA JEDNOTNOU STRANU. ARGUMENTY PRO OZNAČENÍ 'FAŠISTICKÝ': jednotná strana, polovojenské organizace, vůdcovský princip, zrušení parlamentu a svobodných voleb, potlačení sociální demokracie občanskou válkou. ARGUMENTY PROTI: režim stál na KATOLICKÉM STAVOVSKÉM UČENÍ (encyklika Quadragesimo anno), ne na rasismu; neměl totalitní nárok na celého člověka; a sám se proti nacismu vymezoval a byl jím nakonec smeten. Proto se dnes obvykle mluví o AUSTROFAŠISMU nebo o KLERIKÁLNĚ AUTORITÁŘSKÉM REŽIMU — tedy o něčem mezi.",
       "terms": [],
@@ -376,34 +155,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 914,
-      "text_sha": "325077884f8662fd",
-      "pdf_page": 17
+      "vision_used": true
     },
-    {
-      "n": 18,
-      "img": "img/PU10/PU10_s018.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 272,
-      "text_sha": "f0db79e1f9a431b2",
-      "pdf_page": 18
-    },
-    {
-      "n": 19,
-      "img": "img/PU10/PU10_s019.webp",
+    "19": {
       "title": "Hitlerovo uchopení moci „v souladu s právem“",
       "text": "Cvičení dává k Hitlerovi dvě tvrzení, která znějí nepohodlně, a proto se vyplatí umět je přesně. (1) UŽ BĚHEM SVÉHO VĚZNĚNÍ ROKU 1924 SE HITLER ROZHODL UCHOPIT MOC V NĚMECKU NE SILOU, NÝBRŽ DEMOKRATICKÝMI PROSTŘEDKY. Po nezdařeném mnichovském puči si tedy zvolil cestu voleb — což je pro právní dějiny podstatné, protože z toho plyne celá otázka o zneužitelnosti demokratických forem. ROKU 1932 ZÍSKALA NSDAP RELATIVNÍ VĚTŠINU V ŘÍŠSKÉM SNĚMU a ROKU 1933 BYL HITLER JMENOVÁN KANCLÉŘEM HINDENBURGEM; KROK ZA KROKEM PROMĚNIL VÝMARSKOU REPUBLIKU VE FAŠISTICKOU DIKTATURU ('TŘETÍ ŘÍŠE'), přičemž MUSSOLINIHO DIKTATURA V ITÁLII MU SLOUŽILA ZA VZOR. Po HINDENBURGOVĚ SMRTI ROKU 1934 PŘEVZAL JEHO ÚKOLY JAKO 'VŮDCE A ŘÍŠSKÝ KANCLÉŘ'. (2) A TEĎ TA VĚTA, KTEROU SI ZAPAMATUJ DOSLOVA, PROTOŽE JE TO PŘESNĚ TEN PRÁVNĚDĚJINNÝ PROBLÉM: HITLEROVO UCHOPENÍ MOCI BYLO V SOULADU S PRÁVEM A VÝMARSKÁ ÚSTAVA NEBYLA NIKDY FORMÁLNĚ ZRUŠENA. Diktatura tedy nepotřebovala ústavu odstranit — stačilo ji ponechat na papíře a vyprázdnit. To je nejsilnější argument proti čistě formálnímu pojetí legality a zároveň důvod, proč poválečné ústavy zavádějí materiální jádro, které měnit nelze.",
       "terms": [],
@@ -425,50 +179,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 761,
-      "text_sha": "f5a9473073e0d056",
-      "pdf_page": 19
+      "vision_used": true
     },
-    {
-      "n": 20,
-      "img": "img/PU10/PU10_s020.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 706,
-      "text_sha": "3ae8b878a1a5a7f2",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PU10/PU10_s021.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 258,
-      "text_sha": "725093ea3da18f98",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PU10/PU10_s022.webp",
+    "22": {
       "title": "Rasa jako „objektivní“ znak a proč rozhoduje vyznání prarodičů",
       "text": "Cvičení formuluje jádro norimberských zákonů přes pojem národa, a to je nejlepší vysvětlení, jaké lze mít. TAKZVANÉ 'NORIMBERSKÉ RASOVÉ ZÁKONY', PŘIJATÉ V NĚMECKÉM MĚSTĚ NORIMBERKU ROKU 1935, BYLY PŘÍZNAČNÉ PRO IDEOLOGII, PODLE KTERÉ SE LID STÁTU POKLÁDAL ZA 'PŘIROZENOU JEDNOTU' A PŘÍSLUŠNOST K TÉ SKUPINĚ SE URČOVALA 'OBJEKTIVNÍMI' ZNAKY — TEDY RASOU. A cvičení k tomu přidává rozlišení, které je zlaté: JE TO PROTIHNUTÍ K VOLUNTARISTICKÉMU POJETÍ NÁRODA, a právě v tom je ROZDÍL OD ANTISEMITISMU 19. STOLETÍ. Voluntaristické pojetí (Renanovo 'každodenní plebiscit') říká, že národ je věcí VŮLE A PŘIHLÁŠENÍ SE; rasové pojetí říká, že je věcí PŮVODU, na kterém nelze nic změnit. ZE ZÁKONA PLYNE: JEN KDO BYL 'NĚMECKÉ KRVE' (ÁRIJEC), BYL POKLÁDÁN ZA OBČANA NĚMECKÉ ŘÍŠE. A POINTA, KTERÁ TU IDEOLOGII USVĚDČUJE: ZDA BYL NĚKDO 'ÁRIJEC', 'ŽID' ČI 'MÍŠENEC', ZÁVISELO PŘEDEVŠÍM NA NÁBOŽENSKÉM VYZNÁNÍ PRARODIČŮ — TŘI AŽ ČTYŘI ŽIDOVŠTÍ PRARODIČE ZNAMENALI 'ŽIDA', BEZ OHLEDU NA TO, ČÍM BYL DOTYČNÝ SÁM. Tedy: zákon, který tvrdí, že rozhoduje krev, musí ji nakonec zjišťovat z matriky.",
       "terms": [],
@@ -490,158 +203,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 822,
-      "text_sha": "f7c1b51190eb3ebb",
-      "pdf_page": 22
-    },
-    {
-      "n": 23,
-      "img": "img/PU10/PU10_s023.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 2871,
-      "text_sha": "4a67d3faffd303ae",
-      "pdf_page": 23
-    },
-    {
-      "n": 24,
-      "img": "img/PU10/PU10_s024.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 3147,
-      "text_sha": "88bfbd0a0cdcfb66",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PU10/PU10_s025.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 362,
-      "text_sha": "8877659ec9330f77",
-      "pdf_page": 25
-    },
-    {
-      "n": 26,
-      "img": "img/PU10/PU10_s026.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1230,
-      "text_sha": "371cdcbeed9ff59c",
-      "pdf_page": 26
-    },
-    {
-      "n": 27,
-      "img": "img/PU10/PU10_s027.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 455,
-      "text_sha": "f8663f766ca686c5",
-      "pdf_page": 27
-    },
-    {
-      "n": 28,
-      "img": "img/PU10/PU10_s028.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1201,
-      "text_sha": "3b0ef13ec9ae346f",
-      "pdf_page": 28
-    },
-    {
-      "n": 29,
-      "img": "img/PU10/PU10_s029.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 1279,
-      "text_sha": "781c3c4e1df53403",
-      "pdf_page": 29
-    },
-    {
-      "n": 30,
-      "img": "img/PU10/PU10_s030.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 446,
-      "text_sha": "0feab37a64cace8d",
-      "pdf_page": 30
-    },
-    {
-      "n": 31,
-      "img": "img/PU10/PU10_s031.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 952,
-      "text_sha": "e79e7c7a7689c734",
-      "pdf_page": 31
+      "vision_used": true
     }
-  ]
+  }
 }

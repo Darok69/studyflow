@@ -1,84 +1,9 @@
 {
   "lecture_id": "PU09IL",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Cvičení 9",
   "title": "Mezinárodní právo ve 20. století (Vec): od Haagu k ICC",
-  "source_file": "raw/PU09IL_ppt-int.pdf",
-  "source_sha256": "9892e1ce37a39300d5229ce92491bfcf6764047abc31c0dc8c200ae920c8c80d",
-  "source_pages": 32,
-  "slides_per_page": 1,
-  "slide_count": 32,
-  "updated_at": "2026-09-15T12:55:51+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PU09IL/PU09IL_s001.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 119,
-      "text_sha": "7ac5bbe73967bf76",
-      "pdf_page": 1
-    },
-    {
-      "n": 2,
-      "img": "img/PU09IL/PU09IL_s002.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 184,
-      "text_sha": "ccadbaf053276df4",
-      "pdf_page": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PU09IL/PU09IL_s003.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 184,
-      "text_sha": "ccadbaf053276df4",
-      "pdf_page": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PU09IL/PU09IL_s004.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 512,
-      "text_sha": "66fd4952a1e47584",
-      "pdf_page": 4
-    },
-    {
-      "n": 5,
-      "img": "img/PU09IL/PU09IL_s005.webp",
+  "free_sections": true,
+  "slides": {
+    "5": {
       "title": "Fin de siècle: pět sil, ze kterých vyrostla válka",
       "text": "Vecova přednáška začíná pěticí, která popisuje svět kolem roku 1900 a zároveň vysvětluje, proč skončil válkou. (1) ŘÍŠE A STÁTY — vedle sebe stojí říše s koloniemi a národní státy, a mezinárodní právo musí zvládat obojí. (2) NACIONALISMUS. (3) MILITARISMUS. (4) MODERNÍ TECHNOLOGIE. (5) VEŘEJNÁ SFÉRA — tedy tisk a veřejné mínění, což je prvek, na který se zapomíná: poprvé je zahraniční politika vystavena tlaku čtenářů novin, a to ji dělá méně, ne více pružnou. VEDOUCÍ OTÁZKA CELÉ PŘEDNÁŠKY, kterou stojí za to znát, protože je to hotové zadání zkouškové otázky: JAK SE MEZINÁRODNÍ PRÁVO V DLOUHÉM 20. STOLETÍ PROMĚNILO A ROZŠÍŘILO SVÉ REGULAČNÍ IDEJE A AMBICE POD DOJMEM DEMOKRATIZACE, AUTORITÁŘSTVÍ, STUDENÉ VÁLKY, DEKOLONIZACE A GLOBALIZACE?",
       "terms": [],
@@ -92,34 +17,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 299,
-      "text_sha": "15ce195633a5087b",
-      "pdf_page": 5
+      "vision_used": true
     },
-    {
-      "n": 6,
-      "img": "img/PU09IL/PU09IL_s006.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 324,
-      "text_sha": "d6014adc77217e0f",
-      "pdf_page": 6
-    },
-    {
-      "n": 7,
-      "img": "img/PU09IL/PU09IL_s007.webp",
+    "7": {
       "title": "První světová válka jako první totální válka",
       "text": "PRVNÍ SVĚTOVÁ VÁLKA (1914–1918) je označena za PRVNÍ 'TOTÁLNÍ VÁLKU' a Vec k tomu připojuje MASOVÉ VRAŽDĚNÍ ARMÉNŮ. NOVÉ ZBRANĚ: KULOMET, PLAMENOMET, PONORKA, TANK, BOJOVÝ PLYN. Každá z nich představovala pro tehdejší válečné právo jiný problém — ponorka proto, že nemohla zachránit trosečníky, plyn proto, že byl haagskými úmluvami zakázán, tank proto, že pro něj neexistovala pravidla vůbec. DOŠLO K PORUŠENÍM MEZINÁRODNÍHO PRÁVA — a Vec dodává to, co je pro právní dějiny nejzajímavější: VZNIKL DISKURS O MEZINÁRODNÍM PRÁVU, TEDY OBVINĚNÍ A OSPRAVEDLNĚNÍ. Válka totiž nevedla k tomu, že by se právo přestalo brát vážně; naopak PRÁVĚ TEHDY SE Z MEZINÁRODNÍHO PRÁVA STAL JAZYK, VE KTERÉM SE VÁLČÍCÍ NAVZÁJEM OBVIŇOVALI A SAMI SEBE OSPRAVEDLŇOVALI. To je důkaz, že norma působí i tam, kde se porušuje.",
       "terms": [],
@@ -133,50 +33,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 516,
-      "text_sha": "fc6856fa7839f8bb",
-      "pdf_page": 7
+      "vision_used": true
     },
-    {
-      "n": 8,
-      "img": "img/PU09IL/PU09IL_s008.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 520,
-      "text_sha": "5586c3731dd7d8cc",
-      "pdf_page": 8
-    },
-    {
-      "n": 9,
-      "img": "img/PU09IL/PU09IL_s009.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 638,
-      "text_sha": "6ce857806c0f7c8d",
-      "pdf_page": 9
-    },
-    {
-      "n": 10,
-      "img": "img/PU09IL/PU09IL_s010.webp",
+    "10": {
       "title": "Doložka o vině a co nahradila",
       "text": "Tohle je nejcennější postřeh celé pasáže a je formulován jedním slovem v závorce. DOLOŽKA O VÁLEČNÉ VINĚ (WAR GUILT CLAUSE) NASTOUPILA 'NAMÍSTO VZÁJEMNÉHO ZAPOMENUTÍ' (MUTUAL OBLIVION). Připomeň si, že od Vestfálského míru bylo obvyklou součástí mírových smluv AMNESTIE A ZÁVAZEK NA MINULOST ZAPOMENOUT — a přesně tohle Versailles opustil. DŮSLEDEK JE POJMOVÝ: VÁLKA SE NAPŘÍŠTĚ CHÁPE JAKO PROTIPRÁVNÍ AKT AGRESE, NE PROSTĚ JAKO STŘET SOUPEŘÍCÍCH ZÁJMŮ. To je zásadní zlom v celém mezinárodním právu: dokud byla válka legitimním prostředkem politiky, neměla vina smysl; jakmile je protiprávní, musí být viník. Z toho plynou další prvky smlouvy: NĚMECKÝ CÍSAŘ BYL OBŽALOVÁN ZA PROVINĚNÍ, byly uloženy REPARACE a ÚZEMNÍ POSTUPY. A Vec dodává jednoslovnou poznámku o reakci: PROTEST.",
       "terms": [],
@@ -190,34 +49,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 673,
-      "text_sha": "fc49109229d726e8",
-      "pdf_page": 10
+      "vision_used": true
     },
-    {
-      "n": 11,
-      "img": "img/PU09IL/PU09IL_s011.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 619,
-      "text_sha": "7bd7adfaadc10adb",
-      "pdf_page": 11
-    },
-    {
-      "n": 12,
-      "img": "img/PU09IL/PU09IL_s012.webp",
+    "12": {
       "title": "Co Společnost národů opravdu vybudovala",
       "text": "Vedle Paktu samotného jmenuje Vec instituce a smlouvy, které se často opomíjejí, a je dobré je znát, protože ukazují, že meziválečné období nebylo jen selháním. STÁLÝ DVŮR MEZINÁRODNÍ SPRAVEDLNOSTI (HAAG, 1920) a MEZINÁRODNÍ ORGANIZACE PRÁCE (ILO). DEMILITARIZOVANÁ ZÓNA jako nástroj zajištění míru — a Vec zmiňuje i FRANCOUZSKOU OKUPACI PORÚŘÍ. DALŠÍ SMLOUVY A VÝVOJ: ÚMLUVA O LETECKÉ NAVIGACI (1919) — tedy zcela nový obor, protože letadlo právo dosud neznalo; BRIAND-KELLOGGŮV PAKT (1928), kterým se státy zřekly války jako nástroje národní politiky; SVĚTOVÁ HOSPODÁŘSKÁ KONFERENCE (1927); a DVĚ DALŠÍ ŽENEVSKÉ ÚMLUVY (1929), které upravily zacházení s válečnými zajatci a s raněnými. Hlavní orgány Společnosti — SHROMÁŽDĚNÍ, RADA, SEKRETARIÁT — se staly VZOREM PRO OSN, a to je nejlepší doklad toho, že se instituce osvědčila jako forma, i když selhala jako moc.",
       "terms": [],
@@ -231,34 +65,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 525,
-      "text_sha": "85c8adbfef73b1dd",
-      "pdf_page": 12
+      "vision_used": true
     },
-    {
-      "n": 13,
-      "img": "img/PU09IL/PU09IL_s013.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 190,
-      "text_sha": "e803ac26b63417f9",
-      "pdf_page": 13
-    },
-    {
-      "n": 14,
-      "img": "img/PU09IL/PU09IL_s014.webp",
+    "14": {
       "title": "Bezmocné právo: seznam, na kterém Společnost selhala",
       "text": "Vec pojmenovává selhání Společnosti národů výrazem, který si zapamatuj: 'BEZMOCNÉ PRÁVO' (POWERLESS LAW) — PROTI AGRESORŮM NEBYLA PŘIJATA ŽÁDNÁ ÚČINNÁ OPATŘENÍ. A dává seznam, který je dobré umět jako řetěz, protože každý článek povzbudil další. (1) JAPONSKO VPADLO DO MANDŽUSKA (1931). (2) ITÁLIE ANEKTOVALA ETIOPII (ABESÍNII) V LETECH 1935–36. (3) NĚMECKO OPUSTILO ODZBROJOVACÍ KONFERENCI I SPOLEČNOST NÁRODŮ (ŘÍJEN 1933). (4) POSLALO VOJSKO DO DEMILITARIZOVANÉHO PORÝNÍ (1936). (5) PŘIPOJENÍ RAKOUSKA (1938). (6) SUDETY (1938). (7) ZNIČENÍ ČESKOSLOVENSKA (1939). Všimni si té posloupnosti: každý krok byl větší než předchozí a každý prošel bez sankce. Právě to dělá ze seznamu argument — SPOLEČNOST NESELHALA JEDINÝM ROZHODNUTÍM, NÝBRŽ ŘADOU NEROZHODNUTÍ.",
       "terms": [],
@@ -272,50 +81,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 604,
-      "text_sha": "48640f6ac43b464f",
-      "pdf_page": 14
+      "vision_used": true
     },
-    {
-      "n": 15,
-      "img": "img/PU09IL/PU09IL_s015.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 603,
-      "text_sha": "01cd4d692a4333f9",
-      "pdf_page": 15
-    },
-    {
-      "n": 16,
-      "img": "img/PU09IL/PU09IL_s016.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 343,
-      "text_sha": "46649284957325ff",
-      "pdf_page": 16
-    },
-    {
-      "n": 17,
-      "img": "img/PU09IL/PU09IL_s017.webp",
+    "17": {
       "title": "Pět meziválečných teorií mezinárodního práva",
       "text": "Vec dělí meziválečnou teorii do PĚTI PROUDŮ, a ta pětice je vzácná, protože se obvykle uvádějí jen dva. (1) VÍDEŇSKÁ ŠKOLA — KELSEN, KUNZ, VERDROSS; ryzí nauka právní a monistické pojetí vztahu vnitrostátního a mezinárodního práva. (2) PŘIROZENOPRÁVNÍ PŘÍSTUPY. (3) POZITIVISTÉ. (4) SOVĚTSKÉ MEZINÁRODNÍ PRÁVO. (5) FAŠISTICKÉ MEZINÁRODNÍ PRÁVO. Ten poslední bod stojí za rozvedení, protože se v učebnicích málokdy objeví a přitom ukazuje, že i diktatura potřebuje právní teorii. RYSY FAŠISTICKÉHO MEZINÁRODNÍHO PRÁVA: (a) BOJ PROTI VERSAILLES, což byl v Německu KONSENSUS napříč politickým spektrem — nejen nacistický požadavek; (b) ZALOŽENÉ NA NACIONALISMU A RASISMU; (c) ANTIKOMUNISTICKÉ; (d) A NEJDŮLEŽITĚJŠÍ, PROTIZÁPADNÍ V PŘESNÉM PRÁVNÍM SMYSLU: ODMÍTÁ ROVNOU SUVERENITU STÁTŮ JAKO PRÁVNÍ ZÁKLAD. Tím se říká víc, než se zdá: kdo odmítne rovnost suverénů, odmítne samotnou stavbu moderního mezinárodního práva a nahradí ji hierarchií národů a velkoprostorů.",
       "terms": [],
@@ -337,34 +105,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 472,
-      "text_sha": "0f560385ff75d795",
-      "pdf_page": 17
+      "vision_used": true
     },
-    {
-      "n": 18,
-      "img": "img/PU09IL/PU09IL_s018.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 191,
-      "text_sha": "18fff208ab1e3c8b",
-      "pdf_page": 18
-    },
-    {
-      "n": 19,
-      "img": "img/PU09IL/PU09IL_s019.webp",
+    "19": {
       "title": "Pakt Hitler–Stalin (23. srpna 1939)",
       "text": "'MOLOTOV-RIBBENTROPŮV PAKT' — a Vec k němu přidává literární přirovnání, které si zapamatuješ snadno: BYL VZOREM PRO ORWELLŮV ROMÁN 1984. (Dvě totalitní mocnosti, které se přes noc z nepřátel stanou spojenci a naopak, aniž by to kdokoli směl připomínat.) OBSAH: VÝCHODOSTŘEDNÍ EVROPA BYLA ROZDĚLENA DO ZÁJMOVÝCH SFÉR — to bylo v tajném dodatkovém protokolu, jehož existenci SSSR popíral až do roku 1989. DŮSLEDKY: UMOŽNIL NĚMECKU NAPADENÍ POLSKA 1. ZÁŘÍ 1939; SSSR DOBYL VÝCHODNÍ ČÁST POLSKA A POBALTSKÉ STÁTY. A jedna ironie mezinárodního práva, kterou Vec nezapomene: SSSR BYL ROKU 1939 ZE SPOLEČNOSTI NÁRODŮ VYLOUČEN — ALE ZA ÚTOK NA FINSKO, ne za rozdělení Polska. Je to jediné vyloučení v dějinách Společnosti, a přišlo ve chvíli, kdy už organizace fakticky nefungovala.",
       "terms": [],
@@ -386,66 +129,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 644,
-      "text_sha": "02c8992093899db3",
-      "pdf_page": 19
+      "vision_used": true
     },
-    {
-      "n": 20,
-      "img": "img/PU09IL/PU09IL_s020.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 215,
-      "text_sha": "75310c1e64818e4b",
-      "pdf_page": 20
-    },
-    {
-      "n": 21,
-      "img": "img/PU09IL/PU09IL_s021.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 464,
-      "text_sha": "999c422b85095ea4",
-      "pdf_page": 21
-    },
-    {
-      "n": 22,
-      "img": "img/PU09IL/PU09IL_s022.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 420,
-      "text_sha": "1334080dc3c9c41d",
-      "pdf_page": 22
-    },
-    {
-      "n": 23,
-      "img": "img/PU09IL/PU09IL_s023.webp",
+    "23": {
       "title": "Norimberk a Tokio: tři obžalovací body",
       "text": "MEZINÁRODNÍ VOJENSKÝ TRIBUNÁL (IMT) BYL VYTVOŘEN SMLOUVOU ČTYŘ MOCNOSTÍ OKUPUJÍCÍCH NĚMECKO (Londýnská dohoda, 8. srpna 1945); obdobou pro Dálný východ je IMTFE V TOKIU. TŘI SKUPINY OBŽALOVACÍCH BODŮ, které je třeba umět v tomhle pořadí: (1) VÁLEČNÉ ZLOČINY, (2) ZLOČINY PROTI LIDSKOSTI, (3) ZLOČINY PROTI MÍRU. Poslední bod je ten nejspornější, protože právě u něj se namítalo, že trestá čin, který v době spáchání nebyl trestný. VÝZNAM: Vec cituje KLAUSE KRESSE, podle kterého jsou Norimberk a Tokio 'PRVNÍM PRECEDENTEM INTERNACIONALIZOVANÉHO TRESTNÍHO ŘÍZENÍ', a dodává, že UZNALY EXISTENCI MEZINÁRODNÍHO TRESTNÍHO PRÁVA. K tomu upozornění, které se hodí u otázky po legitimitě: OBA PROCESY POHÁNĚLY RŮZNÉ MOTIVY A RŮZNÉ PRÁVNÍ KULTURY — nešlo o jednotný projekt. A potvrzení: VALNÉ SHROMÁŽDĚNÍ OSN POTVRDILO NORIMBERSKÉ ZÁSADY ROKU 1946. VEDLE MEZINÁRODNÍCH TRIBUNÁLŮ SOUDILY I VNITROSTÁTNÍ SOUDY, a Vec jmenuje řadu, která je pro Rakousko obzvlášť relevantní: LIDOVÉ SOUDY (VOLKSGERICHTE) V RAKOUSKU, 'EICHMANN V JERUZALÉMĚ', OSVĚTIMSKÝ PROCES VE FRANKFURTU a PŘÍPAD MURER VE ŠTÝRSKÉM HRADCI.",
       "terms": [],
@@ -467,50 +153,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 490,
-      "text_sha": "7d45ced606870d13",
-      "pdf_page": 23
+      "vision_used": true
     },
-    {
-      "n": 24,
-      "img": "img/PU09IL/PU09IL_s024.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 526,
-      "text_sha": "9b30781ba5d20c22",
-      "pdf_page": 24
-    },
-    {
-      "n": 25,
-      "img": "img/PU09IL/PU09IL_s025.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 493,
-      "text_sha": "a936e5260722c4b8",
-      "pdf_page": 25
-    },
-    {
-      "n": 26,
-      "img": "img/PU09IL/PU09IL_s026.webp",
+    "26": {
       "title": "Studená válka a dekolonizace v mezinárodním právu",
       "text": "STUDENÁ VÁLKA je vymezena jako BIPOLÁRNÍ KONFRONTACE MEZI KAPITALISMEM A SOCIALISMEM S PROTIKLADNÝMI PŘEDSTAVAMI O MODERNITĚ, která UKONČILA POVÁLEČNÝ OPTIMISMUS. A Vec dává neobvyklé datování, které stojí za zmínku: ZAČÍNÁ UŽ V 90. LETECH 19. STOLETÍ a VRCHOLÍ MEZI LETY 1945 A 1989. Tedy: ne roku 1947, nýbrž jako dlouhý střet dvou univerzalistických projektů. USA A SSSR JSOU 'DVĚ MOCNÉ ŘÍŠE S MEZINÁRODNÍM POSLÁNÍM', a je to MEZINÁRODNÍ SYSTÉM, protože VŠECHNY VEDOUCÍ MOCNOSTI PODLE NĚJ SROVNÁVAJÍ SVOU ZAHRANIČNÍ POLITIKU. DEKOLONIZACE má tři důsledky: (1) PŘINESLA ZVĚTŠENÍ POČTU A ROZMANITOSTI SUVERÉNNÍCH STÁTŮ; (2) TY STÁTY ZVEDLY HLAS A ROZVÍJELY VLASTNÍ PRÁVNÍ A POLITICKÉ IDEJE A NÁROKY — nešlo tedy jen o početní změnu, nýbrž i obsahovou; (3) A DRUHÁ VLNA PŘIŠLA S ROZPADEM SOVĚTSKÉHO SVAZU NA KONCI STUDENÉ VÁLKY, KDY OPĚT VZNIKLY NOVÉ STÁTY. K tomu Vec jmenuje obory, ve kterých se v té době tvořily smlouvy a které dobře ukazují, jak se předmět mezinárodního práva rozšiřoval: DIPLOMATICKÉ STYKY (1961), JADERNÉ ZBRANĚ (1963, 1970 a další), ANTARKTIDA (1959) a KOSMICKÝ PROSTOR (1967).",
       "terms": [],
@@ -532,73 +177,13 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 635,
-      "text_sha": "a99b92b527340ff5",
-      "pdf_page": 26
+      "vision_used": true
     },
-    {
-      "n": 27,
-      "img": "img/PU09IL/PU09IL_s027.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 427,
-      "text_sha": "b3e59a25b7df1465",
-      "pdf_page": 27
-    },
-    {
-      "n": 28,
-      "img": "img/PU09IL/PU09IL_s028.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "thin-text",
-      "likely_filler": false,
-      "text_chars": 193,
-      "text_sha": "a8b46325c8ab2def",
-      "pdf_page": 28
-    },
-    {
-      "n": 29,
-      "img": "img/PU09IL/PU09IL_s029.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 430,
-      "text_sha": "a7b570adaf0665a5",
-      "pdf_page": 29
-    },
-    {
-      "n": 30,
-      "img": "img/PU09IL/PU09IL_s030.webp",
+    "30": {
       "title": "Mezinárodní trestní právo: desítky let bez pokroku",
       "text": "Vec shrnuje poválečný osud mezinárodního trestního práva třemi větami, které spolu souvisejí a které je dobré umět jako celek. (1) PO DESETILETÍ ŽÁDNÝ POKROK. (2) DŮVOD: LIDSKÁ PRÁVA BYLA BOJIŠTĚM MEZI POLITICKÝMI BLOKY — každá strana jimi měřila tu druhou, takže se nedalo dohodnout nic, co by mohlo dopadnout na ni samu. (3) ZLOM PŘINESLY AŽ AD HOC TRIBUNÁLY: ICTY ZŘÍZEN ROKU 1993, ZAHÁJIL ČINNOST 1994; ICTR ZŘÍZEN 1994, ZAHÁJIL ČINNOST 1997. A závěr, který navazuje přímo na Kresse z povinné četby: ICTY A ICTR PROKLESTILY CESTU DRUHÉ GENERACI MEZINÁRODNÍHO TRESTNÍHO PRÁVA. SPORY 21. STOLETÍ, které Vec jmenuje jako otevřené: 'HUMANITÁRNÍ INTERVENCE' A JEJÍ ZÁKONNOST a 'NOVÉ VÁLKY'; PŘÍLIŠ MNOHO PODSYSTÉMŮ, tedy otázka FRAGMENTACE MEZINÁRODNÍHO PRÁVA; TWAIL A FEMINISTICKÁ KRITIKA (TWAIL = Third World Approaches to International Law, tedy třetisvětové přístupy); a UNIVERZÁLNÍ JURISDIKCE.",
       "terms": [
-        {
-          "term": "TWAIL",
-          "def": "Third World Approaches to International Law — třetisvětové kritické přístupy k mezinárodnímu právu."
-        }
+        { "term": "TWAIL", "def": "Third World Approaches to International Law — třetisvětové kritické přístupy k mezinárodnímu právu." }
       ],
       "cards": [
         {
@@ -618,46 +203,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 469,
-      "text_sha": "2f005b5cd2182c94",
-      "pdf_page": 30
-    },
-    {
-      "n": 31,
-      "img": "img/PU09IL/PU09IL_s031.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "image-heavy",
-      "likely_filler": false,
-      "text_chars": 422,
-      "text_sha": "c7774b8f8167c395",
-      "pdf_page": 31
-    },
-    {
-      "n": 32,
-      "img": "img/PU09IL/PU09IL_s032.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 686,
-      "text_sha": "4c25ea5de6184d24",
-      "pdf_page": 32
+      "vision_used": true
     }
-  ]
+  }
 }

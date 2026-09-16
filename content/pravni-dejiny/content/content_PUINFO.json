@@ -1,20 +1,9 @@
 {
   "lecture_id": "PUINFO",
-  "course": "PU",
-  "course_title": "Practical Exercise on European and Global Legal History",
-  "course_number": "030152",
-  "unit": "Zkouška",
   "title": "Co číst ke zkoušce: 24 témat a jejich povinná četba",
-  "source_file": "raw/PUINFO_what-to-read-for-the-exam-modulprufung.pdf",
-  "source_sha256": "dd5b4120604d976ee53d9c11182e63fb9bab20c7d5ada225dd7ae0c2f252adad",
-  "source_pages": 4,
-  "slides_per_page": 3,
-  "slide_count": 10,
-  "updated_at": "2026-09-15T12:54:57+00:00",
-  "slides": [
-    {
-      "n": 1,
-      "img": "img/PUINFO/PUINFO_s001.webp",
+  "free_sections": true,
+  "slides": {
+    "1": {
       "title": "Jak je zkouška postavená",
       "text": "Tenhle dokument je oficiálním rozvrhem modulové zkoušky z EVROPSKÝCH A GLOBÁLNÍCH PRÁVNÍCH DĚJIN a vyplatí se ho znát, protože podle něj poznáš, co se po tobě chce. ZKOUŠKA MÁ DVACET ČTYŘI TÉMAT a ke KAŽDÉMU JE PŘIŘAZENA POVINNÁ ČETBA — buď odstavce z OLECHOWSKÉHO UČEBNICE 'INTRODUCTION TO AUSTRIAN AND EUROPEAN LEGAL HISTORY' (2. vydání, 2025), nebo samostatný odborný text, nebo obojí. Struktura seznamu prozrazuje dvě věci. ZAPRVÉ: TĚŽIŠTĚ JE V UČEBNICI, samostatné texty jsou přiřazeny jen k devíti tématům — takže kdo přečte jen články a učebnici vynechá, mine většinu látky. ZADRUHÉ: NĚKTERÁ TÉMATA SDÍLEJÍ TÝŽ TEXT, a to napovídá, že se zkouší ve dvojicích — témata 9 až 11 mají společně Sundeho Comparing Legal Cultures, témata 16 a 17 týž blok Olechowského, témata 18 a 19 Stolleise i Kresse, a témata 23 a 24 Kennedyho. Kdo se učí po dvojicích, učí se tak, jak je seznam postaven.",
       "terms": [],
@@ -36,53 +25,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 440,
-      "text_sha": "2dd9177c2aad6026",
-      "pdf_page": 1,
-      "pdf_cell": 1
+      "vision_used": true
     },
-    {
-      "n": 2,
-      "img": "img/PUINFO/PUINFO_s002.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 588,
-      "text_sha": "0c1d07fc5308e5bb",
-      "pdf_page": 1,
-      "pdf_cell": 2
-    },
-    {
-      "n": 3,
-      "img": "img/PUINFO/PUINFO_s003.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 462,
-      "text_sha": "1197ac3931496623",
-      "pdf_page": 1,
-      "pdf_cell": 3
-    },
-    {
-      "n": 4,
-      "img": "img/PUINFO/PUINFO_s004.webp",
+    "4": {
       "title": "Témata 1 až 8 a jejich četba",
       "text": "1. ÚVOD: METODY, PRAMENY, CÍLE PRÁVNÍCH DĚJIN — Olechowski, odst. 0001–0006. 2. STAROVĚKÉ PRÁVNÍ KULTURY; DĚJINY ISLÁMSKÉHO PRÁVA — JOHANSEN, WEISS, MOTZKI, heslo 'Islamic Law' v Oxford International Encyclopedia of Legal History (2009), plus Olechowski odst. 1001–1306, 2101–2102, 2301–2304. 3. VÝVOJ PRÁVA VE STŘEDOVĚKU — Olechowski, odst. 2103–2114, 2201–2219, 2221–2223, 2305–2314, 2316–2321. 4. IUS COMMUNE A RANÝ NOVOVĚK — Olechowski, odst. 2115–2119, 2225, 2322–2327. 5. ŽIDOVSKÉ PRÁVNÍ DĚJINY — BEN-MENAHEM, heslo 'Jewish Law' v International Encyclopedia of the Social & Behavioral Sciences (2001), plus odst. 1302, 2224, 2315, 2331. 6. COMMON LAW — HERZOG, A Short History of European Law (2018), kap. 6, plus odst. 2328–2330. 7. VESTFÁLSKÝ ŘÁD A RANÝ KONSTITUCIONALISMUS — DUCHHARDT, From the Peace of Westphalia to the Congress of Vienna, in: Fassbender, Peters (eds.), The Oxford Handbook of the History of International Law (2012), s. 628–653, plus odst. 3101–3108, 3201–3206, 3208–3209. 8. PŘIROZENÉ PRÁVO, OSVÍCENSTVÍ A REVOLUCE — IBBETSON, Natural Law in Early Modern Legal Thought, in: Pihlajamäki, Dubber, Godfrey (eds.), The Oxford Handbook of European Legal History (2018), s. 566–582, plus odst. 3109–3123, 3207, 3210–3211, 3301–3303.",
       "terms": [],
@@ -104,36 +49,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 539,
-      "text_sha": "80b66e3be2f328a4",
-      "pdf_page": 2,
-      "pdf_cell": 1
+      "vision_used": true
     },
-    {
-      "n": 5,
-      "img": "img/PUINFO/PUINFO_s005.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 774,
-      "text_sha": "cb5ce675ce67e67f",
-      "pdf_page": 2,
-      "pdf_cell": 2
-    },
-    {
-      "n": 6,
-      "img": "img/PUINFO/PUINFO_s006.webp",
+    "6": {
       "title": "Témata 9 až 15 a jejich četba",
       "text": "9., 10. A 11. KONSTITUCIONALISMUS A TVORBA NOREM I, II, III — společně: KOCH, SKODVIN, SUNDE (eds.), COMPARING LEGAL CULTURES, 2. vyd. 2017 — ÚVOD, KAPITOLA 10 (ANGLIE A WALES), KAPITOLA 13 (FRANCIE), KAPITOLA 14 (RAKOUSKO); k částem I–III Olechowski odst. 2220, 3304–3315, 4101–4117, 4201–4227, 4301–4312, 6301–6302. Všimni si, které tři země si příručka vybrala — jsou to přesně ty tři, na kterých Foljantyho cvičení ukazuje tři modely tvorby norem. 12. PRÁVNICKÉ VZDĚLÁNÍ A PRÁVNICKÉ PROFESE — Olechowski, odst. 3316, 4306, 8305. (Jen tři odstavce, tedy nejmenší téma celé zkoušky.) 13. IMPERIALISMUS A KONSTITUCIONALISMUS PŘED ROKEM 1914 — WENZLHUEMER, heslo 'Colonial Systems of Law (British Empire)', a GUÉRAICHE, heslo 'Colonial Systems of Law (French Empire)', obojí v Encyclopedia of Western Colonialism since 1450 (2007), s. 709–711 a 713–714, plus odst. 4118–4125. 14. ČÍNSKÉ PRÁVNÍ DĚJINY — XU, Heaven has Eyes: Law and Justice in Chinese History (2020), s. 7–39, a CHEN, Traditionalising Chinese Law, in: Zhao/Ng (eds.), Chinese Legal Reform and the Global Legal Order (2017), s. 181–210. 15. PRVNÍ SVĚTOVÁ VÁLKA A PAŘÍŽSKÁ MÍROVÁ KONFERENCE — GASSNER, From Brest-Litovsk via St. Germain to Sèvres, Journal on European History of Law 1/2023, s. 2–14, plus odst. 4126, 6101–6105.",
       "terms": [],
@@ -155,53 +73,9 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 376,
-      "text_sha": "37add3babcbfc4be",
-      "pdf_page": 2,
-      "pdf_cell": 3
+      "vision_used": true
     },
-    {
-      "n": 7,
-      "img": "img/PUINFO/PUINFO_s007.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 451,
-      "text_sha": "a2c229b0c28cfbeb",
-      "pdf_page": 3,
-      "pdf_cell": 1
-    },
-    {
-      "n": 8,
-      "img": "img/PUINFO/PUINFO_s008.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": false,
-      "vision_reason": null,
-      "likely_filler": false,
-      "text_chars": 723,
-      "text_sha": "6db57385e8edbf90",
-      "pdf_page": 3,
-      "pdf_cell": 2
-    },
-    {
-      "n": 9,
-      "img": "img/PUINFO/PUINFO_s009.webp",
+    "9": {
       "title": "Témata 16 až 24 a jejich četba",
       "text": "16. A 17. RAKOUSKÁ PRVNÍ REPUBLIKA, DEMOKRACIE A B-VG I A II — společně Olechowski, odst. 6106–6119, 6201–6226, 6303–6305, 8201–8203. 18. A 19. DIKTATURY 20. STOLETÍ I A II — společně STOLLEIS, European Twentieth-Century Dictatorship and the Law, in: Pihlajamäki, Dubber, Godfrey (eds.), The Oxford Handbook of European Legal History (2018), a KRESS, heslo 'International Criminal Law' v Max Planck Encyclopedia of Public International Law (2009), plus odst. 4313–4316, 5101–5301, 7101–7113, 7201–7219, 7301–7303. (Všimni si rozsahu odstavců: je to zdaleka největší blok učebnice v celé zkoušce.) 20. EVROPA ZA STUDENÉ VÁLKY (1945–1955) — Olechowski, odst. 8104, 8106–8115, 8204–8208. 21. EVROPA A EVROPSKÁ INTEGRACE OD ROKU 1955 — Olechowski, odst. 8116–8122, 8124–8147, 8209–8221. 22. HER STORY — Olechowski, odst. 3212, 4226, 6226. (Tři odstavce, tedy stejně malý rozsah jako u tématu 12 — a přitom je to samostatné zkouškové téma.) 23. A 24. GLOBALIZACE PRÁVA I A II — společně DUNCAN KENNEDY, Three Globalizations of Law and Legal Thought: 1850–2000, in: Trubek, Santos (eds.), The New Law and Economic Development (2006), s. 19–73, plus odst. 8101–8103, 8105, 8123, 8222–8224, 8301–8304.",
       "terms": [],
@@ -231,32 +105,7 @@
           "priority": "core"
         }
       ],
-      "vision_used": true,
-      "status": "done",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 474,
-      "text_sha": "8614f5e7bfa5fca1",
-      "pdf_page": 3,
-      "pdf_cell": 3
-    },
-    {
-      "n": 10,
-      "img": "img/PUINFO/PUINFO_s010.webp",
-      "title": null,
-      "text": null,
-      "terms": [],
-      "cards": [],
-      "vision_used": false,
-      "status": "pending",
-      "needs_vision": true,
-      "vision_reason": "diagram",
-      "likely_filler": false,
-      "text_chars": 421,
-      "text_sha": "7e1fac5cc202cdb6",
-      "pdf_page": 4,
-      "pdf_cell": 1
+      "vision_used": true
     }
-  ]
+  }
 }
