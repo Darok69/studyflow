@@ -20,7 +20,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from pack import pack_root  # noqa: E402
+from pack import pack_root, work_index  # noqa: E402
 
 ROOT = pack_root()
 DATA = ROOT / "out" / "data"
@@ -32,7 +32,7 @@ KNOWN_KINDS = {"basic", "cloze", "definice", "znaky", "schema", "pripad", "rozli
 
 
 def main() -> int:
-    index = json.loads((DATA / "index.json").read_text("utf-8"))
+    index = work_index(ROOT)
     exam_date = index["exam"]["date"]
     DEST.mkdir(parents=True, exist_ok=True)
     total = 0
