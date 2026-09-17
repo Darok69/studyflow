@@ -30,6 +30,7 @@ když sedí hash zdrojového PDF, a **hotový výklad se nikdy nepřepíše**.
 |---|---|---|
 | [`irewi/`](irewi/README.md) | StEOP Einführung in das internationale Recht, 5. 10. 2026 | hotovo — 758 slidů, 479 karet, podcast |
 | [`pravni-dejiny/`](pravni-dejiny/README.md) | Modulprüfung European and Global Legal History, březnový termín | 724 slidů vyrenderováno, výklad se píše (1 z 23 témat) |
+| [`fernerkundung/`](fernerkundung/README.md) | VO 290234 Bildverarbeitung und Fernerkundung, termín zatím neurčen | hotovo — 599 slidů, 349 karet |
 
 ## Co kde je
 
@@ -58,6 +59,15 @@ zvuk a odvozené balíčky jsou gitignorované — dají se kdykoli přegenerova
 3. Podle `out/work/<ID>.md` napsat `content/content_<ID>.json`, vložit
    `./run.sh <předmět> merge …`.
 4. `./run.sh <předmět> materials` + `deck`, pak `publish` a v appce Import.
+
+## Handout s linkami na poznámky
+
+Některé přednášky se vydávají jako handout: několik slidů na stránku a vedle
+nich linky na psaní. Rovnoměrná mřížka na takovou stránku nesedí — slidy mají
+vlastní rozteč a vedle nich je prázdný papír. Pro takový předmět se do
+`courses.json` u přednášky napíše `"cells": "frames"`; pipeline pak najde
+obdélník nakreslený kolem každého slidu a renderuje i čte přesně jeho.
+Nenajde-li žádný, spadne zpátky na mřížku podle `nup`.
 
 ## Vision
 

@@ -1,3 +1,35 @@
+## Handout se slidy v rámečcích: pipeline si najde rámeček, mřížku nepočítá
+
+**Zadání:** předmět Bildverarbeitung und Fernerkundung (VO 290234). Jeho slidy
+vycházejí jako handout — tři slidy na stránku A4 a vedle každého linky na
+poznámky.
+
+**Mřížka na takovou stránku nesedí, a to dvakrát.** Vodorovně: slide zabírá
+jen levých 48 % šířky, zbytek je prázdný papír na psaní. Na mobilu by tím
+slide vyšel na půl šířky obrazovky. Svisle: rozteč slidů je 244 pt, ale třetina
+A4 je 281 pt — rozdíl se přes stránku kumuluje, takže ořez „po třetinách"
+uřízne u jednoho slidu titulek a u druhého nechá pruh cizího slidu.
+
+**Ořez v podílech buňky to nespraví.** Zkusil jsem to: `crop` jako čtveřice
+podílů uvnitř buňky. Pro první slide na stránce vyšel rámeček na 0,30–0,96
+buňky, pro druhý na 0,17–0,83, pro třetí na 0,04–0,70. Jedna hodnota pro
+všechny tři neexistuje, protože chyba není v měřítku, ale v rozteči.
+
+**Rozhoduje nakreslený rámeček.** Handout kolem každého slidu kreslí obdélník
+a ten je jediné místo, kde slide opravdu začíná a končí. `frame_rects()` je
+najde mezi vektorovými kresbami stránky (šířka mezi 25 a 92 % stránky, výška
+aspoň 10 %, bez překryvů, seřazeno shora dolů) a vrátí je místo buněk mřížky.
+Zapíná se per přednáška přes `"cells": "frames"` v `courses.json`; když se
+nenajde nic, spadne to zpátky na mřížku podle `nup`. Alternativu „detekovat
+automaticky pro každý deck" jsem zamítl: irewi a pravni-dejiny jsou hotové a
+tichá změna geometrie by přečíslovala slidy a rozpojila hotový výklad.
+
+**Klíč cache musí být tolerantní k chybějícímu záznamu.** `cached.get("frames")`
+by u starších manifestů vrátilo `None`, to se nerovná `False`, a oba hotové
+předměty by se přerenderovaly celé. Proto `cached.get("frames", False)` —
+ověřeno tím, že irewi (23 přednášek) i pravni-dejiny (46) po změně hlásí
+„beze změny" a renderují 0 slidů.
+
 ## Cizí Claude umí vložit učebnici; cizí oči na tu Danielovu nevidí
 
 **Zadání:** „lidi co to budou používat taky mají Clauda, vymysli jak to

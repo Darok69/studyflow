@@ -127,7 +127,50 @@ def detect_grid(doc: pymupdf.Document) -> tuple[int, int]:
     return (2, 1) if landscape else (1, 2)
 
 
-def cell_rects(page: pymupdf.Page, cols: int, rows: int) -> list[pymupdf.Rect]:
+FRAME_PAD = 3          # bod okraje kolem nalezeného rámečku slidu
+FRAME_MIN_W = 0.25     # rámeček slidu je aspoň čtvrtina šířky stránky
+FRAME_MAX_W = 0.92     # a není to obdélník přes celou stránku (podklad)
+FRAME_MIN_H = 0.10
+
+
+def frame_rects(page: pymupdf.Page) -> list[pymupdf.Rect]:
+    """Rámečky slidů nakreslené na stránce handoutu, shora dolů.
+
+    Handout s linkami na poznámky tiskne kolem každého slidu obdélník. Rovnoměrná
+    mřížka na takovou stránku nesedí: slidy mají vlastní rozteč a vedle nich je
+    prázdný papír na psaní. Rámeček je jediné místo, kde slide opravdu začíná
+    a končí, takže se čte i renderuje přesně on. Prázdný seznam = nenašlo se,
+    volající spadne zpátky na mřížku.
+    """
+    r = page.rect
+    found: list[pymupdf.Rect] = []
+    for dr in page.get_drawings():
+        rc = dr["rect"]
+        if not (r.width * FRAME_MIN_W <= rc.width <= r.width * FRAME_MAX_W):
+            continue
+        if rc.height < r.height * FRAME_MIN_H:
+            continue
+        if any(abs(rc.x0 - g.x0) < 4 and abs(rc.y0 - g.y0) < 4
+               and abs(rc.x1 - g.x1) < 4 and abs(rc.y1 - g.y1) < 4 for g in found):
+            continue
+        found.append(rc)
+    found.sort(key=lambda rc: (round(rc.y0), rc.x0))
+    # rámečky se nesmí překrývat — vnořený obdélník uvnitř slidu není slide
+    out: list[pymupdf.Rect] = []
+    for rc in found:
+        if any(rc.intersects(g) for g in out):
+            continue
+        out.append(pymupdf.Rect(max(r.x0, rc.x0 - FRAME_PAD), max(r.y0, rc.y0 - FRAME_PAD),
+                                min(r.x1, rc.x1 + FRAME_PAD), min(r.y1, rc.y1 + FRAME_PAD)))
+    return out
+
+
+def cell_rects(page: pymupdf.Page, cols: int, rows: int,
+               frames: bool = False) -> list[pymupdf.Rect]:
+    if frames:
+        rects = frame_rects(page)
+        if rects:
+            return rects
     if cols == 1 and rows == 1:
         return [page.rect]
     r = page.rect
@@ -253,6 +296,7 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
     doc = pymupdf.open(src)
     cols, rows = lec["nup"] if lec.get("nup") else detect_grid(doc)
     per_page = cols * rows
+    frames = lec.get("cells") == "frames"
     # U některých PDF nesedí souřadnice textové vrstvy s tím, co se vykreslí.
     # Takový text nejde použít ani opravit — slidy se čtou výhradně z obrázků.
     broken = lec.get("text_layer") == "broken"
@@ -269,6 +313,7 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
         and cached.get("dpi") == dpi
         and cached.get("max_width") == MAX_WIDTH
         and cached.get("grid") == [cols, rows]
+        and cached.get("frames", False) == frames
         and data_path.exists()
     )
     if unchanged and cached.get("slides"):
@@ -290,8 +335,8 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
     # základ vektorových kreseb = medián přes buňky, šablona každého decku je jiná
     counts = []
     for i in range(doc.page_count):
-        for clip in cell_rects(doc[i], cols, rows):
-            counts.append(draw_count(doc[i], None if per_page == 1 else clip))
+        for clip in cell_rects(doc[i], cols, rows, frames):
+            counts.append(draw_count(doc[i], None if per_page == 1 and not frames else clip))
     counts.sort()
     baseline = counts[len(counts) // 2] if counts else 0
 
@@ -299,8 +344,8 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
     n = 0
     for i in range(doc.page_count):
         page = doc[i]
-        for cell, clip in enumerate(cell_rects(page, cols, rows)):
-            use_clip = None if per_page == 1 else clip
+        for cell, clip in enumerate(cell_rects(page, cols, rows, frames)):
+            use_clip = None if per_page == 1 and not frames else clip
             txt = cell_text(page, use_clip)
             im = None
             # U decku s rozbitou textovou vrstvou nejde prázdnou buňku poznat
@@ -386,7 +431,7 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
     doc.close()
 
     manifest[lid] = {"sha256": digest, "dpi": dpi, "max_width": MAX_WIDTH,
-                     "grid": [cols, rows], "slides": len(slides)}
+                     "grid": [cols, rows], "frames": frames, "slides": len(slides)}
     log(f"    {len(slides)} slidů · vision {stats['vision']} · filler? {stats['filler']}"
         + (f" · prázdných buněk {stats['blank']}" if stats["blank"] else "")
         + f" · hotové zachované {stats['kept']} · k dopsání {stats['new']}")
