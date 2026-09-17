@@ -45,8 +45,10 @@ content/*/out/studyflow/
 content/*/out/audio/
 content/pipeline/__pycache__/
 
-# Dev server data (prod lives in a docker volume).
-data/
+# Dev server data (prod lives in a docker volume). Lomítko na začátku je
+# nutné: bez něj pravidlo chytá i content/<předmět>/out/data/, které do
+# gitu naopak patří, a ta se pak musí přidávat přes `git add -f`.
+/data/
 
 # stažené úřední texty smluv – jen keš pro ./run.sh <předmět> articles
 content/*/out/prameny/cache/

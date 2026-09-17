@@ -1,0 +1,1082 @@
+{
+  "lecture_id": "FE01",
+  "course": "FE",
+  "course_title": "Bildverarbeitung und Fernerkundung",
+  "course_number": "290234",
+  "unit": "Einheit 1",
+  "title": "Geschichte und Physikalische Grundlagen",
+  "source_file": "raw/FE01_01-geschichte-und-physikalische-grundlagen.pdf",
+  "source_sha256": "bb1371239666bb8fa1396ee175d6c4189e375ae496aadbecb450a4ae54e56038",
+  "source_pages": 15,
+  "slides_per_page": 3,
+  "slide_count": 43,
+  "updated_at": "2026-09-17T17:15:36+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/FE01/FE01_s001.webp",
+      "title": "Titelfolie",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 130,
+      "text_sha": "69a7a8a1d2c38812",
+      "pdf_page": 1,
+      "pdf_cell": 1
+    },
+    {
+      "n": 2,
+      "img": "img/FE01/FE01_s002.webp",
+      "title": "1. Einheit: Grundlagen — Geschichte der Fernerkundung",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 138,
+      "text_sha": "976ccbc204c15b5f",
+      "pdf_page": 1,
+      "pdf_cell": 2
+    },
+    {
+      "n": 3,
+      "img": "img/FE01/FE01_s003.webp",
+      "title": "Meilensteine der Entwicklung",
+      "text": "Fünf Entwicklungen haben die Fernerkundung möglich gemacht: die Gesetze der Zentralperspektive (die Geometrie, mit der aus einem Bild Maße werden), die Erfindung der Photographie (das Speichern), das Aufkommen des Motorfluges (die Plattform), die Entwicklung der Computertechnik (die digitale Auswertung) und die Raumfahrt (die globale Abdeckung). Jeder Meilenstein löst eine andere Voraussetzung ein — das ist die Logik hinter der Liste.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche fünf Meilensteine nennt die Vorlesung für die Entwicklung der Fernerkundung?",
+          "a": "Gesetze der Zentralperspektive, Erfindung der Photographie, Aufkommen des Motorfluges, Entwicklung der Computertechnik, Raumfahrt.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 288,
+      "text_sha": "732d14ac9723c63e",
+      "pdf_page": 1,
+      "pdf_cell": 3
+    },
+    {
+      "n": 4,
+      "img": "img/FE01/FE01_s004.webp",
+      "title": "Felix Tournachon — Nadar (1858)",
+      "text": "Nadar macht 1858 aus einem Ballon über Paris die erste Luftaufnahme — der Beginn der bildhaften Fernerkundung. Die Reihenfolge der frühen Träger merkt man sich gut: Ballon (1858), Drachen (1889), Taube, Motorflugzeug (1903).",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 150,
+      "text_sha": "9140b005f41eb819",
+      "pdf_page": 2,
+      "pdf_cell": 1
+    },
+    {
+      "n": 5,
+      "img": "img/FE01/FE01_s005.webp",
+      "title": "James Wallace Black (1860)",
+      "text": "Black fotografiert 1860 Boston aus dem Ballon — die älteste erhaltene Luftaufnahme.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 145,
+      "text_sha": "50405886778ded57",
+      "pdf_page": 2,
+      "pdf_cell": 2
+    },
+    {
+      "n": 6,
+      "img": "img/FE01/FE01_s006.webp",
+      "title": "Artur Batut — Flugdrachen / Kite (1889)",
+      "text": "Batut hängt 1889 eine Kamera an einen Flugdrachen: der Träger wird billiger und unabhängig vom Ballon.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 158,
+      "text_sha": "60b774017f99bf35",
+      "pdf_page": 2,
+      "pdf_cell": 3
+    },
+    {
+      "n": 7,
+      "img": "img/FE01/FE01_s007.webp",
+      "title": "Aufnahmen mit Tauben",
+      "text": "Brieftauben mit Miniaturkameras — historisch die Kuriosität, sachlich der erste Versuch eines kleinen, beweglichen Trägers; funktional der Vorläufer der heutigen Drohne.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 138,
+      "text_sha": "b1f388ff1a3ad61a",
+      "pdf_page": 3,
+      "pdf_cell": 1
+    },
+    {
+      "n": 8,
+      "img": "img/FE01/FE01_s008.webp",
+      "title": "Gebrüder Wright — motorisierter Flug (1903)",
+      "text": "Mit dem Motorflug 1903 bekommt die Fernerkundung erstmals einen steuerbaren Träger: Flughöhe und Route werden planbar, und damit wird systematische Befliegung möglich.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 162,
+      "text_sha": "4728bc1b6adb9941",
+      "pdf_page": 3,
+      "pdf_cell": 2
+    },
+    {
+      "n": 9,
+      "img": "img/FE01/FE01_s009.webp",
+      "title": "Panoramaaufnahme von George R. Lawrence (1906)",
+      "text": "Lawrence fotografiert 1906 das zerstörte San Francisco nach dem Erdbeben von einer Drachenkette aus — das erste bekannte Beispiel für Fernerkundung in der Katastrophenerkundung.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 165,
+      "text_sha": "7e786420539728f5",
+      "pdf_page": 3,
+      "pdf_cell": 3
+    },
+    {
+      "n": 10,
+      "img": "img/FE01/FE01_s010.webp",
+      "title": "Militärische Aufklärung im 1. Weltkrieg",
+      "text": "Der Erste Weltkrieg macht aus der Luftbildaufnahme ein systematisches Verfahren: regelmäßige Befliegungen, Auswertung im Vergleich, standardisierte Kameras. Das Militär bleibt bis in den Kalten Krieg der Treiber der Technik.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 158,
+      "text_sha": "8fcd4ebeef1a5bde",
+      "pdf_page": 4,
+      "pdf_cell": 1
+    },
+    {
+      "n": 11,
+      "img": "img/FE01/FE01_s011.webp",
+      "title": "American Society for Photogrammetry and Remote Sensing (1934)",
+      "text": "1934 institutionalisiert sich das Fach in einer eigenen Fachgesellschaft — von ihr stammt auch die Definition der Fernerkundung auf Folie 19 der ersten Einheit.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 180,
+      "text_sha": "f5a58b55b62e763f",
+      "pdf_page": 4,
+      "pdf_cell": 2
+    },
+    {
+      "n": 12,
+      "img": "img/FE01/FE01_s012.webp",
+      "title": "Aufklärungsflüge im Kalten Krieg",
+      "text": "Hochfliegende Aufklärer (U-2 und Nachfolger) und die ersten Aufklärungssatelliten: der Kalte Krieg finanziert die Sprünge in Auflösung und Abdeckung, die später zivil nutzbar werden.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 151,
+      "text_sha": "53a0977aafe4d6a8",
+      "pdf_page": 4,
+      "pdf_cell": 3
+    },
+    {
+      "n": 13,
+      "img": "img/FE01/FE01_s013.webp",
+      "title": "Beginn der Erdbeobachtung mit Satelliten",
+      "text": "Sputnik 1 (UdSSR, 1957) und die Trägerrakete mit Explorer I (USA, 1958) markieren den Beginn der satellitengestützten Erdbeobachtung. Damit ist der letzte Meilenstein der Liste eingelöst: die Raumfahrt liefert die globale, wiederholte Abdeckung, die kein Flugzeug leisten kann.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 210,
+      "text_sha": "061e5c99410441cd",
+      "pdf_page": 5,
+      "pdf_cell": 1
+    },
+    {
+      "n": 14,
+      "img": "img/FE01/FE01_s014.webp",
+      "title": "Frühe Bergung von Photomaterial I",
+      "text": "Vor der digitalen Übertragung musste der belichtete Film physisch zurück zur Erde: die Satelliten der CORONA-Serie warfen Filmkapseln ab, die im Fallschirm hängend von Flugzeugen eingefangen wurden. Das erklärt, warum frühe Satellitenbilder selten und teuer waren.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 150,
+      "text_sha": "c70e81588a2ef6c4",
+      "pdf_page": 5,
+      "pdf_cell": 2
+    },
+    {
+      "n": 15,
+      "img": "img/FE01/FE01_s015.webp",
+      "title": "Frühe Bergung von Photomaterial II",
+      "text": "Fortsetzung: Bergung der Filmkapsel. Der Bruch zur heutigen Praxis liegt in der Signalübertragung — erst sie macht tägliche, kostenlose Daten möglich.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 150,
+      "text_sha": "436644765bee583c",
+      "pdf_page": 5,
+      "pdf_cell": 3
+    },
+    {
+      "n": 16,
+      "img": "img/FE01/FE01_s016.webp",
+      "title": "Geschichte — Bildbeispiel",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 115,
+      "text_sha": "7a857c5c7f9723a2",
+      "pdf_page": 6,
+      "pdf_cell": 1
+    },
+    {
+      "n": 17,
+      "img": "img/FE01/FE01_s017.webp",
+      "title": "Geschichte — Bildbeispiel",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 115,
+      "text_sha": "2ac29ea86d6cc314",
+      "pdf_page": 6,
+      "pdf_cell": 2
+    },
+    {
+      "n": 18,
+      "img": "img/FE01/FE01_s018.webp",
+      "title": "1. Einheit: Physikalische Grundlagen",
+      "text": "Inhalt des zweiten Teils: Elektromagnetisches Spektrum, Einfluss der Atmosphäre, Scattering, Verhalten an der Oberfläche.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 177,
+      "text_sha": "e42b95a24c20c73f",
+      "pdf_page": 6,
+      "pdf_cell": 3
+    },
+    {
+      "n": 19,
+      "img": "img/FE01/FE01_s019.webp",
+      "title": "Bestandteile eines Fernerkundungssystems",
+      "text": "Vier Bestandteile: die Strahlungsquelle, von der Energie ausgeht; das Objekt, welches „beleuchtet“ wird; der Sensor, der auf einem Träger bzw. einer Plattform angebracht ist; und der Strahlungsweg. Diese Aufzählung ist die Grundlage aller folgenden Unterscheidungen — wer die Quelle austauscht, kommt zum Unterschied aktiv/passiv; wer den Weg betrachtet, kommt zu Atmosphäre und Scattering; wer das Objekt betrachtet, kommt zu Reflexion, Absorption und Transmission.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Aus welchen vier Bestandteilen besteht ein Fernerkundungssystem?",
+          "a": "Strahlungsquelle, beleuchtetes Objekt, Sensor auf einem Träger/einer Plattform, und der Strahlungsweg.",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 307,
+      "text_sha": "2720bd54be1994cd",
+      "pdf_page": 7,
+      "pdf_cell": 1
+    },
+    {
+      "n": 20,
+      "img": "img/FE01/FE01_s020.webp",
+      "title": "Prozesskette eines Fernerkundungssystems",
+      "text": "Das Schema zeigt die Kette von unten nach oben und wieder nach unten: Die Erdoberfläche gibt Energie ab; Plattform und Instrumente nehmen sie über den Sensor auf; durch Signalübertragung gelangt das Signal zur Bodeneinheit mit Datenprozessierung; von dort entstehen Daten im Bildformat. Der Bruch zwischen Messung und Bild liegt also in der Bodeneinheit — dort wird aus gemessener Strahlung ein prozessiertes Produkt, und dort setzen später die Data Levels an.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie lautet die Prozesskette eines Fernerkundungssystems vom Boden bis zum Bild?",
+          "a": "Abgegebene Energie der Erdoberfläche → Sensor auf Plattform und Instrumente → Signalübertragung → Bodeneinheit mit Datenprozessierung → Daten im Bildformat.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 141,
+      "text_sha": "0bbdc49d2a52cc3f",
+      "pdf_page": 7,
+      "pdf_cell": 2
+    },
+    {
+      "n": 21,
+      "img": "img/FE01/FE01_s021.webp",
+      "title": "Prozesskette — Fortsetzung",
+      "text": "Zweite Darstellung derselben Kette, mit stärkerem Gewicht auf der Weiterverarbeitung und Nutzung der Daten.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 141,
+      "text_sha": "32ee2466e88a6e14",
+      "pdf_page": 7,
+      "pdf_cell": 3
+    },
+    {
+      "n": 22,
+      "img": "img/FE01/FE01_s022.webp",
+      "title": "Aktive und passive Systeme",
+      "text": "Geht man von der Strahlungsquelle aus, lassen sich zwei Systemtypen unterscheiden. Beim passiven System ist die Quelle der Energie die Sonneneinstrahlung — das System misst nur, was ohnehin da ist. Ein aktives System erzeugt eigene Strahlung und erfasst diese auch wieder selbst. Daraus folgt alles Weitere: passive Systeme brauchen Tageslicht und freie Sicht (also keine Wolken), aktive Systeme nicht. Radar und Laserscanner sind aktiv, Thermalscanner dagegen passiv — sie messen die vom Objekt selbst abgegebene Wärmestrahlung.",
+      "terms": [
+        {
+          "term": "Passives System",
+          "def": "Fernerkundungssystem, dessen Energiequelle die Sonneneinstrahlung (bzw. die vom Objekt selbst emittierte Strahlung) ist; es sendet nichts aus und ist auf Beleuchtung und freie Sicht angewiesen."
+        },
+        {
+          "term": "Aktives System",
+          "def": "Fernerkundungssystem, das eigene Strahlung erzeugt und die zurückkommende Strahlung selbst wieder erfasst (Radar, Laserscanner); unabhängig von Tageslicht."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Welche Eigenschaft trifft auf passive Systeme zu?",
+          "a": "Sie nehmen reflektierte Strahlung der Sonne auf (bzw. die vom Objekt emittierte Strahlung). Sie erzeugen keine eigene Strahlung, sind also weder beim Laserscanning im Einsatz noch wetterunabhängig.",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist der definierende Unterschied zwischen aktiven und passiven Systemen?",
+          "a": "Die Strahlungsquelle. Passiv: die Sonne (bzw. die Eigenstrahlung des Objekts). Aktiv: das System selbst erzeugt die Strahlung und empfängt sie wieder — daher unabhängig von Tageslicht und Bewölkung.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Ist ein Thermalscanner ein aktives System?",
+          "a": "Nein. Er misst die vom Objekt selbst abgegebene Wärmestrahlung und sendet nichts aus — also passiv. Aktiv sind Laserscanner und Radar.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 390,
+      "text_sha": "874af98132b67955",
+      "pdf_page": 8,
+      "pdf_cell": 1
+    },
+    {
+      "n": 23,
+      "img": "img/FE01/FE01_s023.webp",
+      "title": "Aktiv und passiv im Schema: Sender und Empfänger",
+      "text": "Die Skizze nach Albertz 2001 setzt S für Sender und E für Empfänger. Das passive System hat nur ein E — die Sonne übernimmt die Rolle des Senders. Das aktive System trägt S und E gemeinsam an Bord. Wer sich diese Skizze merkt, beantwortet jede Frage zu aktiv/passiv aus dem Bild heraus.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 324,
+      "text_sha": "a00defec6c1259a4",
+      "pdf_page": 8,
+      "pdf_cell": 2
+    },
+    {
+      "n": 24,
+      "img": "img/FE01/FE01_s024.webp",
+      "title": "Strahlungswege",
+      "text": "Das Medium für die Übertragung der Information in der Fernerkundung ist die elektromagnetische Strahlung: sie überträgt Information des Objekts zum Aufnahmegerät. Allgemein lassen sich fünf Strahlungswege unterscheiden. Die Abbildung nach Kraus 1988 nummeriert sie von 1 bis 5, benennt sie aber nicht einzeln: gezeichnet sind der Weg der Sonnenstrahlung hinunter zur Oberfläche, ein in der Atmosphäre gestreuter Weg, der das Aufnahmegerät erreicht, ohne die Oberfläche berührt zu haben, und mehrere Wege von der Oberfläche hinauf zum Sensor. Der prüfungsrelevante Punkt: nicht alles, was am Sensor ankommt, hat das Objekt gesehen — und genau dagegen richtet sich später die atmosphärische Korrektur.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Was ist in der Fernerkundung das Medium der Informationsübertragung, und wie viele Strahlungswege werden allgemein unterschieden?",
+          "a": "Die elektromagnetische Strahlung; allgemein werden fünf Strahlungswege unterschieden.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Warum ist es wichtig, dass einer der Strahlungswege den Sensor erreicht, ohne die Oberfläche berührt zu haben?",
+          "a": "Weil dieser Anteil Information trägt, die nicht vom Objekt stammt — er hellt das Bild auf und verfälscht die spektrale Signatur. Genau diesen Anteil entfernt die atmosphärische Korrektur.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 370,
+      "text_sha": "ef756cc9bc2bf5f5",
+      "pdf_page": 8,
+      "pdf_cell": 3
+    },
+    {
+      "n": 25,
+      "img": "img/FE01/FE01_s025.webp",
+      "title": "Parameter, die das Signal beeinflussen",
+      "text": "Zwei Gruppen von Einflussgrößen: die elektromagnetische Strahlung mit den Einflüssen der Atmosphäre und des Wetters auf dem Weg — und die Reflexion an der Oberfläche samt Wärme am Ziel. Die Gliederung entspricht genau dem Aufbau der restlichen Einheit.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 228,
+      "text_sha": "fc619de63c202bb7",
+      "pdf_page": 9,
+      "pdf_cell": 1
+    },
+    {
+      "n": 26,
+      "img": "img/FE01/FE01_s026.webp",
+      "title": "Elektromagnetische Strahlung",
+      "text": "Die elektromagnetische Strahlung ist eine Form der Energieausbreitung, die als Wellenstrahlung aufgefasst werden kann; sie wird in Lichtgeschwindigkeit c in Form von Wellen übertragen. Die beschreibende Größe ist die Wellenlänge — sie bestimmt, wie die Strahlung mit Atmosphäre und Oberfläche interagiert, und damit auch, welcher Sensortyp überhaupt in Frage kommt.",
+      "terms": [
+        {
+          "term": "Elektromagnetische Strahlung",
+          "def": "Form der Energieausbreitung, die als Wellenstrahlung aufgefasst werden kann und sich mit Lichtgeschwindigkeit ausbreitet; das Trägermedium der Information in der Fernerkundung."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist elektromagnetische Strahlung, und mit welcher Geschwindigkeit breitet sie sich aus?",
+          "a": "Eine Form der Energieausbreitung, die als Wellenstrahlung aufgefasst werden kann; sie wird mit Lichtgeschwindigkeit (c) in Form von Wellen übertragen.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 330,
+      "text_sha": "f5f4f3d535365ba5",
+      "pdf_page": 9,
+      "pdf_cell": 2
+    },
+    {
+      "n": 27,
+      "img": "img/FE01/FE01_s027.webp",
+      "title": "Das elektromagnetische Spektrum",
+      "text": "Die Übersicht nach Frank 2005 ordnet das Spektrum nach Wellenlänge und Frequenz: von der Höhenstrahlung und Gammastrahlung über harte, mittlere und weiche Röntgenstrahlung, Ultraviolettstrahlung, das sichtbare Licht, Infrarot- und Terahertzstrahlung, die Mikrowellen (Radar, MW-Hard, VHF/UHF, Kurzwelle, Langwelle) bis zu den niederfrequenten Wechselfeldern. Das für den Menschen sichtbare Spektrum ist nur ein schmaler Streifen von etwa 400 bis 700 nm — violett bei 400, rot bei 700 nm. Wichtig zum Merken: je kürzer die Wellenlänge, desto höher die Frequenz und die Energie.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "In welchem Wellenlängenbereich liegt das für das menschliche Auge sichtbare Licht?",
+          "a": "Bei etwa 0,4 bis 0,7 µm (400–700 nm): 0,4 µm violett/blau, 0,7 µm rot. Darunter liegt UV, darüber das Infrarot.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Wie hängen Wellenlänge, Frequenz und Energie im elektromagnetischen Spektrum zusammen?",
+          "a": "Gegenläufig zur Wellenlänge: je kürzer die Wellenlänge, desto höher die Frequenz und desto energiereicher die Strahlung (Gammastrahlung kurz und energiereich, Radiowellen lang und energiearm).",
+          "difficulty": 2,
+          "kind": "graf",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 145,
+      "text_sha": "da1196b6656f06ef",
+      "pdf_page": 9,
+      "pdf_cell": 3
+    },
+    {
+      "n": 28,
+      "img": "img/FE01/FE01_s028.webp",
+      "title": "Größenordnungen und Strahlungsquellen",
+      "text": "Die Umrechnungstabelle der Folie: 1 nm (Nanometer) = 0,000000001 m = 10^-9 m; 1 µm (Mikrometer) = 0,000001 m = 10^-6 m; 1 mm (Millimeter) = 0,001 m = 10^-3 m. Dazu zwei Sätze, die zusammen den ganzen Rest der Physik tragen: Hauptquelle der elektromagnetischen Strahlung ist die Sonne — und jeder Körper mit einer Temperatur über dem absoluten Nullpunkt (−273 °C bzw. 0 K) strahlt elektromagnetische Energie aus. Der zweite Satz erklärt, warum Thermalfernerkundung auch nachts funktioniert: die Erde selbst ist eine Strahlungsquelle.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche Körper strahlen elektromagnetische Energie aus?",
+          "a": "Jeder Körper mit einer Temperatur über dem absoluten Nullpunkt (−273 °C bzw. 0 K). Deshalb ist auch die Erde selbst eine Strahlungsquelle und Thermalaufnahmen funktionieren nachts.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Wie viel Meter ist 1 µm, wie viel 1 nm?",
+          "a": "1 µm = 0,000001 m = 10^-6 m; 1 nm = 0,000000001 m = 10^-9 m. (1 mm = 10^-3 m.)",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 490,
+      "text_sha": "6c4c919811c3cc6b",
+      "pdf_page": 10,
+      "pdf_cell": 1
+    },
+    {
+      "n": 29,
+      "img": "img/FE01/FE01_s029.webp",
+      "title": "Die drei Strahlungsgesetze",
+      "text": "Drei Gesetze beschreiben die Strahlung eines schwarzen Körpers. Das Planck'sche Strahlungsgesetz beschreibt die spektrale Verteilung der Strahlung eines schwarzen Körpers. Das Boltzmann-Gesetz sagt: je heißer ein Körper, desto mehr Energie wird ausgestrahlt. Wien's Verschiebungsgesetz beschreibt die Beziehung zwischen Wellenlänge und maximalem Emissionsvermögen: je heißer ein Körper, desto kürzer die Wellenlänge der maximalen Strahlung. Entscheidender Zusatz der Folie: Diese Gesetze gelten EXAKT nur für schwarze Körper. Reale Oberflächen weichen ab, weshalb man ihren Emissionsgrad kennen muss, um aus Thermaldaten Temperaturen zu rechnen.",
+      "terms": [
+        {
+          "term": "Planck'sches Strahlungsgesetz",
+          "def": "Beschreibt die spektrale Verteilung der Strahlung eines schwarzen Körpers."
+        },
+        {
+          "term": "Boltzmann-Gesetz",
+          "def": "Je heißer ein Körper, desto mehr Energie strahlt er ab."
+        },
+        {
+          "term": "Wien'sches Verschiebungsgesetz",
+          "def": "Beziehung zwischen Wellenlänge und maximalem Emissionsvermögen: je heißer ein Körper, desto kürzer die Wellenlänge seiner maximalen Strahlung."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Welche drei Strahlungsgesetze nennt die Vorlesung, und was sagt jedes?",
+          "a": "Planck: spektrale Verteilung der Strahlung eines schwarzen Körpers. Boltzmann: je heißer, desto mehr Energie insgesamt. Wien (Verschiebungsgesetz): je heißer, desto kürzer die Wellenlänge der maximalen Strahlung.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Für welche Körper gelten die drei Strahlungsgesetze exakt?",
+          "a": "Ausschließlich für schwarze Körper. Auf reale Oberflächen sind sie nur näherungsweise anwendbar.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 557,
+      "text_sha": "7b5392ce8baafe08",
+      "pdf_page": 10,
+      "pdf_cell": 2
+    },
+    {
+      "n": 30,
+      "img": "img/FE01/FE01_s030.webp",
+      "title": "Der schwarze Körper",
+      "text": "Ein schwarzer Körper (black body) ist eine idealisierte thermische Strahlungsquelle. Drei Aussagen fassen sein Verhalten zusammen: Ein Körper mit höherer Temperatur als der absolute Nullpunkt stößt Energie in ALLEN Wellenlängen aus. Ein wärmerer Körper gibt in allen Wellenlängen mehr Energie ab als ein kühlerer. Und: je höher die Temperatur, desto geringer die Wellenlänge, in der die maximale Energie abgegeben wird. Die zweite Aussage ist die Prüfungsfalle — die Kurven schwarzer Körper schneiden einander nicht, der heißere Körper liegt überall darüber.",
+      "terms": [
+        {
+          "term": "Schwarzer Körper (black body)",
+          "def": "Idealisierte thermische Strahlungsquelle, die in allen Wellenlängen strahlt; ihre Strahlung wird durch Planck, Boltzmann und Wien exakt beschrieben."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist ein schwarzer Körper, und wie verhalten sich die Strahlungskurven eines wärmeren und eines kühleren?",
+          "a": "Eine idealisierte thermische Strahlungsquelle, die in allen Wellenlängen strahlt. Der wärmere Körper gibt in ALLEN Wellenlängen mehr Energie ab als der kühlere, und sein Maximum liegt bei kürzerer Wellenlänge.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 510,
+      "text_sha": "845e441f63038131",
+      "pdf_page": 10,
+      "pdf_cell": 3
+    },
+    {
+      "n": 31,
+      "img": "img/FE01/FE01_s031.webp",
+      "title": "Strahlungshaushalt: Einflüsse der Atmosphäre",
+      "text": "Die Strahlung durchläuft die Atmosphäre, und diese nimmt Einfluss — abhängig von der Wellenlänge, der Strahlungsenergie, der Weglänge und den atmosphärischen Bedingungen. Drei Vorgänge treten auf: Absorption, Transmission und Streuung (Scattering). Wichtig ist die Rolle der Weglänge: schräg aufgenommene Bildränder haben einen längeren Atmosphärenweg als die Bildmitte, weshalb der atmosphärische Einfluss über ein Bild hinweg nicht konstant ist.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wovon hängt der Einfluss der Atmosphäre auf die Strahlung ab, und welche drei Vorgänge treten auf?",
+          "a": "Abhängig von Wellenlänge, Strahlungsenergie, Weglänge und atmosphärischen Bedingungen. Die Vorgänge sind Absorption, Transmission und Streuung (Scattering).",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 375,
+      "text_sha": "b96cbc2749a3e681",
+      "pdf_page": 11,
+      "pdf_cell": 1
+    },
+    {
+      "n": 32,
+      "img": "img/FE01/FE01_s032.webp",
+      "title": "Kurzwellige und langwellige Strahlung",
+      "text": "Zwei Strahlungsströme sind zu trennen. Die einfallende kurzwellige Strahlung (solare Strahlung) umfasst UV-Strahlung, sichtbares Licht und Strahlung im nahen Infrarot, hat ihre maximale Intensität bei 0,5 µm und interagiert mit der Atmosphäre. Die abgegebene langwellige Strahlung (terrestrische Strahlung) liegt vorwiegend im mittleren und fernen Infrarot mit maximaler Intensität bei 10 µm. Die beiden Maxima — 0,5 µm solar, 10 µm terrestrisch — sind Zahlen zum Merken: sie erklären, warum optische Sensoren die Sonne brauchen und Thermalsensoren nicht.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Bei welcher Wellenlänge liegt das Maximum der solaren und bei welcher das der terrestrischen Strahlung?",
+          "a": "Solare (kurzwellige) Strahlung: Maximum bei etwa 0,5 µm. Terrestrische (langwellige) Strahlung: Maximum bei etwa 10 µm.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Spektralbereiche gehören zur einfallenden kurzwelligen, welche zur abgegebenen langwelligen Strahlung?",
+          "a": "Kurzwellig (solar): UV, sichtbares Licht, nahes Infrarot. Langwellig (terrestrisch): vorwiegend mittleres und fernes Infrarot.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 475,
+      "text_sha": "d11692f964e22ba5",
+      "pdf_page": 11,
+      "pdf_cell": 2
+    },
+    {
+      "n": 33,
+      "img": "img/FE01/FE01_s033.webp",
+      "title": "Atmosphärisches Fenster",
+      "text": "Die Atmosphäre ist nur für einen Teil des Spektrums durchlässig — nur bestimmte Bereiche der Strahlung sind für die Fernerkundung nutzbar. Diese durchlässigen Bereiche heißen atmosphärische Fenster. Nutzbar sind unter anderem das sichtbare Licht (380 bis 720 nm) und Teile des Infrarotbereichs (abwechselnd zwischen 720 nm und 1 mm). Nicht nutzbar sind unter anderem die Infrarotbereiche von 2,5 bis 3,5 µm und von 5,0 bis 7,5 µm — dort absorbieren vor allem Wasserdampf und CO2. Die Konsequenz ist grundlegend: die Lage der Sensorkanäle ist nicht frei wählbar, sondern folgt den Fenstern.",
+      "terms": [
+        {
+          "term": "Atmosphärisches Fenster",
+          "def": "Wellenlängenbereich, in dem die Atmosphäre für Strahlung durchlässig ist und der daher für die Fernerkundung nutzbar ist; zwischen den Fenstern liegen Absorptionsbanden."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist ein atmosphärisches Fenster, und welche Folge hat es für den Sensorbau?",
+          "a": "Ein Wellenlängenbereich, in dem die Atmosphäre durchlässig ist. Nur dort kann gemessen werden — die Kanäle eines Sensors müssen deshalb in den Fenstern liegen und können nicht frei gewählt werden.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Bereiche nennt die Folie als nutzbar, welche als nicht nutzbar?",
+          "a": "Nutzbar u. a.: sichtbares Licht (380–720 nm) und Teile des Infrarot (abwechselnd zwischen 720 nm und 1 mm). Nicht nutzbar u. a.: Infrarot von 2,5–3,5 µm und von 5,0–7,5 µm.",
+          "difficulty": 3,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 470,
+      "text_sha": "3306602a0694950d",
+      "pdf_page": 11,
+      "pdf_cell": 3
+    },
+    {
+      "n": 34,
+      "img": "img/FE01/FE01_s034.webp",
+      "title": "Atmosphärisches Fenster im Diagramm",
+      "text": "Das Diagramm nach Albertz 1991 trägt die atmosphärische Durchlässigkeit von 0 bis 100 % über der Wellenlänge auf — von Röntgen und Ultraviolett über nahes, mittleres und fernes Infrarot bis zu Mikrowellen und Radiowellen. Man sieht: im UV und im kurzwelligen Bereich sperrt die Atmosphäre fast vollständig, im sichtbaren Licht öffnet sich ein breites Fenster, im Infrarot wechseln Fenster und Absorptionsbanden einander ab, und ab den Mikrowellen ist die Atmosphäre praktisch vollständig durchlässig. Unter der Kurve ist eingetragen, welche Verfahren wo arbeiten: photographische Aufnahme und Multispektral-Scanner im sichtbaren und nahen Infrarot, Thermal-Scanner im mittleren und fernen Infrarot, Radar-Verfahren im Mikrowellenbereich. Daraus folgt unmittelbar die Wetterunabhängigkeit des Radars.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "In welchem Bereich des Spektrums ist die Atmosphäre praktisch vollständig durchlässig, und welches Verfahren nutzt das?",
+          "a": "Im Mikrowellenbereich — dort arbeiten die Radar-Verfahren. Deshalb sind Radaraufnahmen unabhängig von Wolken und Tageslicht.",
+          "difficulty": 2,
+          "kind": "graf",
+          "priority": "core"
+        },
+        {
+          "q": "Ordnen Sie zu: photographische Aufnahme, Multispektral-Scanner, Thermal-Scanner, Radar — in welchem Spektralbereich arbeiten sie?",
+          "a": "Photographische Aufnahme und Multispektral-Scanner im sichtbaren Licht und nahen Infrarot, Thermal-Scanner im mittleren und fernen Infrarot, Radar im Mikrowellenbereich.",
+          "difficulty": 3,
+          "kind": "srovnani",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 142,
+      "text_sha": "4dd700198295fde8",
+      "pdf_page": 12,
+      "pdf_cell": 1
+    },
+    {
+      "n": 35,
+      "img": "img/FE01/FE01_s035.webp",
+      "title": "Streuung (Scattering): die drei Arten",
+      "text": "Drei Arten von Streuung, unterschieden nach dem Streukörper. Rayleigh-Scattering ist die Streuung an Luftmolekülen; sie bewirkt an einem klaren Tag, dass der Himmel blau aussieht, und erklärt auch das Abendrot. Mie-Scattering ist die Streuung an Rauch- und Staubpartikeln; Wolken und Dunst sehen weißlich aus, da die Streuung an großen Partikeln für alle Wellenlängen in etwa gleich ist. Nonselective Scattering ist die Streuung an Wassertropfen; sie bewirkt, dass abgebildete Objekte Farbe und Kontrast verlieren. Die Namen folgen also der Partikelgröße, nicht der Wellenlänge — das ist die nächste Folie.",
+      "terms": [
+        {
+          "term": "Rayleigh-Scattering",
+          "def": "Streuung an Luftmolekülen (Partikel kleiner als die Wellenlänge); wellenlängenabhängig, macht den Himmel blau und verursacht das Abendrot."
+        },
+        {
+          "term": "Mie-Scattering",
+          "def": "Streuung an Rauch- und Staubpartikeln, deren Größe etwa der Wellenlänge entspricht; lässt Wolken und Dunst weißlich erscheinen."
+        },
+        {
+          "term": "Nonselective Scattering",
+          "def": "Streuung an Partikeln (z. B. Wassertropfen), die bis zu zehnmal größer als die Wellenlänge sind; streut alle Wellenlängen gleich und lässt Objekte Farbe und Kontrast verlieren."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Welche drei Arten der Streuung gibt es, und woran streut jede?",
+          "a": "Rayleigh-Scattering an Luftmolekülen, Mie-Scattering an Rauch- und Staubpartikeln, Nonselective Scattering an Wassertropfen.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Warum ist der Himmel blau und das Abendrot rot?",
+          "a": "Durch Rayleigh-Scattering an Luftmolekülen: es ist stark wellenlängenabhängig und streut kurze (blaue) Wellenlängen am stärksten. Abends ist der Weg durch die Atmosphäre so lang, dass das Blau herausgestreut ist und Rot übrig bleibt.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Warum erscheinen Wolken und Dunst weißlich?",
+          "a": "Weil die Streuung an großen Partikeln (Mie, nonselective) für alle Wellenlängen etwa gleich stark ist — es wird keine Farbe bevorzugt, also bleibt Weiß.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 578,
+      "text_sha": "11d7514a4bb16e01",
+      "pdf_page": 12,
+      "pdf_cell": 2
+    },
+    {
+      "n": 36,
+      "img": "img/FE01/FE01_s036.webp",
+      "title": "Streuung nach Partikelgröße",
+      "text": "Die Einteilung geschieht nach dem Verhältnis von Partikelgröße zu Wellenlänge — das ist das eigentliche Kriterium. Rayleigh-Scattering: Partikelgröße kleiner als die Wellenlänge. Mie-Scattering: Partikelgröße etwa gleich groß wie die Wellenlänge. Nonselective Scattering: Partikelgröße bis zu zehnmal größer als die Wellenlänge — deshalb „nicht selektiv“, denn dann spielt die Wellenlänge keine Rolle mehr und alle werden gleich gestreut. Damit sind zwei typische Prüfungsaussagen erklärbar: Scattering ist je nach Intensität abhängig vom Verhältnis der einfallenden Wellenlänge zur Partikelgröße, und es kommt dabei zur Filterung bzw. Abschwächung der Strahlung. Falsch wären dagegen: Scattering garantiere eine Transmission zu 100 %, oder Scattering sei ein Interaktionsvorgang an der Erdoberfläche — es findet in der Atmosphäre statt.",
+      "terms": [
+        {
+          "term": "Scattering-Effekte",
+          "def": "Streuung der Strahlung in der Atmosphäre; Art und Stärke hängen vom Verhältnis der Partikelgröße zur Wellenlänge ab. Folge ist eine Filterung bzw. Abschwächung der Strahlung."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie sind Rayleigh-, Mie- und Nonselective Scattering über die Partikelgröße definiert?",
+          "a": "Rayleigh: Partikel kleiner als die Wellenlänge. Mie: Partikel etwa gleich groß wie die Wellenlänge. Nonselective: Partikel bis zu zehnmal größer als die Wellenlänge.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Aussagen treffen auf einen Scattering-Effekt zu?",
+          "a": "Er ist je nach Intensität abhängig vom Verhältnis der einfallenden Wellenlänge zur Partikelgröße, und es kommt zur Filterung bzw. Abschwächung der Strahlung. Nicht zutreffend: dass er 100 % Transmission garantiere oder ein Interaktionsvorgang an der Erdoberfläche sei — Streuung passiert in der Atmosphäre.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Warum heißt Nonselective Scattering „nicht selektiv“?",
+          "a": "Weil bei Partikeln, die viel größer als die Wellenlänge sind, alle Wellenlängen gleich stark gestreut werden — es wird keine Wellenlänge selektiv bevorzugt.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 319,
+      "text_sha": "f66eff677b3642b5",
+      "pdf_page": 12,
+      "pdf_cell": 3
+    },
+    {
+      "n": 37,
+      "img": "img/FE01/FE01_s037.webp",
+      "title": "Reflexion, Absorption, Transmission",
+      "text": "Drei Wege, die die Strahlung am Objekt nehmen kann. Reflexion: die Strahlung wird zurückgeworfen und umgeleitet. Absorption: die Oberfläche oder das Phänomen nimmt die Strahlung bzw. Energie auf. Transmission: die Strahlung geht durch das Ziel hindurch. Diese drei sind vollständig — was einfällt, muss sich auf sie aufteilen.",
+      "terms": [
+        {
+          "term": "Reflexion",
+          "def": "Die Strahlung wird an der Oberfläche zurückgeworfen und umgeleitet."
+        },
+        {
+          "term": "Absorption",
+          "def": "Die Oberfläche bzw. das Phänomen nimmt die Strahlung/Energie auf."
+        },
+        {
+          "term": "Transmission",
+          "def": "Die Strahlung geht durch das Ziel hindurch."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Welche drei Vorgänge kann die Strahlung am Objekt erfahren?",
+          "a": "Reflexion (zurückgeworfen), Absorption (aufgenommen), Transmission (hindurchgehend).",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 336,
+      "text_sha": "2673634577b7b9d0",
+      "pdf_page": 13,
+      "pdf_cell": 1
+    },
+    {
+      "n": 38,
+      "img": "img/FE01/FE01_s038.webp",
+      "title": "Die Strahlungsbilanz als Gleichung",
+      "text": "Die Folie schreibt die Bilanz als Gleichung: EI(λ) = ER(λ) + EA(λ) + ET(λ) — einfallende Strahlung = reflektierte Strahlung + absorbierte Strahlung + transmittierte Strahlung. Zwei Dinge sind daran wichtig. Erstens ist alles wellenlängenabhängig (λ steht überall), weshalb dasselbe Objekt in verschiedenen Kanälen ganz verschieden hell erscheint. Zweitens ist die Summe erhalten: steigt der reflektierte Anteil, muss ein anderer sinken. Genau darauf beruht jede Indexrechnung.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie lautet die Strahlungsbilanz am Objekt als Gleichung?",
+          "a": "EI(λ) = ER(λ) + EA(λ) + ET(λ): einfallende Strahlung = reflektierte + absorbierte + transmittierte Strahlung — und zwar für jede Wellenlänge einzeln.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 286,
+      "text_sha": "d7201ad420a4a5e8",
+      "pdf_page": 13,
+      "pdf_cell": 2
+    },
+    {
+      "n": 39,
+      "img": "img/FE01/FE01_s039.webp",
+      "title": "Reflexionsarten: spiegelnd und diffus",
+      "text": "Zwei Reflexionsarten. Bei der spiegelnden Reflexion ist der Einfallswinkel gleich dem Ausfallswinkel (oder nahezu gleich) — typisch für sehr glatte Oberflächen wie ruhiges Wasser. Bei der diffusen Reflexion wird annähernd oder gänzlich gleich in alle Richtungen reflektiert — typisch für raue Oberflächen. Die Prüfungsfrage zielt genau auf diese Trennung: diffuse Reflexion bedeutet eine Reflexion in sämtliche Richtungen; die Aussagen „tritt häufig an sehr glatten Oberflächen auf“ und „Einfallswinkel gleich Ausfallswinkel“ beschreiben dagegen die spiegelnde Reflexion. Praktische Folge: spiegelnde Oberflächen erscheinen je nach Blickwinkel entweder sehr dunkel (das Licht geht am Sensor vorbei) oder als greller Sunglint.",
+      "terms": [
+        {
+          "term": "Spiegelnde Reflexion",
+          "def": "Einfallswinkel = Ausfallswinkel (oder nahezu); tritt an sehr glatten Oberflächen auf."
+        },
+        {
+          "term": "Diffuse Reflexion",
+          "def": "Reflexion annähernd oder gänzlich gleich in alle Richtungen; tritt an rauen Oberflächen auf."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was bedeutet diffuse Reflexion?",
+          "a": "Eine Reflexion in sämtliche Richtungen — annähernd oder gänzlich gleich in alle Richtungen. Sie tritt an rauen Oberflächen auf, nicht an glatten.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Woran erkennt man spiegelnde Reflexion, und was folgt daraus fürs Bild?",
+          "a": "Einfallswinkel = Ausfallswinkel, typisch für sehr glatte Oberflächen. Im Bild erscheint eine solche Fläche entweder sehr dunkel (die Strahlung geht am Sensor vorbei) oder als greller Reflex, je nach Geometrie.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 341,
+      "text_sha": "4b717aa89a98565f",
+      "pdf_page": 13,
+      "pdf_cell": 3
+    },
+    {
+      "n": 40,
+      "img": "img/FE01/FE01_s040.webp",
+      "title": "Wovon die Interaktion abhängt",
+      "text": "Die Art der Interaktion hängt ab vom Wellenlängenbereich, von der Art der Oberfläche, vom Zustand der Oberfläche, von der Lage der Oberfläche und (in Klammern) vom Zeitpunkt der Aufnahme. „Art“ meint das Material, „Zustand“ etwa Feuchte oder Vitalität, „Lage“ die Neigung und Ausrichtung — deshalb erscheint derselbe Waldtyp an Nord- und Südhang verschieden hell. Der Zeitpunkt steht in Klammern, weil er über Sonnenstand und Phänologie indirekt wirkt.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wovon hängt die Art der Interaktion der Strahlung mit der Oberfläche ab?",
+          "a": "Vom Wellenlängenbereich, von Art, Zustand und Lage der Oberfläche sowie (indirekt) vom Zeitpunkt der Aufnahme.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 284,
+      "text_sha": "759be00d013c5585",
+      "pdf_page": 14,
+      "pdf_cell": 1
+    },
+    {
+      "n": 41,
+      "img": "img/FE01/FE01_s041.webp",
+      "title": "Ausblick: nächster Termin",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 97,
+      "text_sha": "86519c62f15c9d74",
+      "pdf_page": 14,
+      "pdf_cell": 2
+    },
+    {
+      "n": 42,
+      "img": "img/FE01/FE01_s042.webp",
+      "title": "Kontakt",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 100,
+      "text_sha": "b5f5a37674911c40",
+      "pdf_page": 14,
+      "pdf_cell": 3
+    },
+    {
+      "n": 43,
+      "img": "img/FE01/FE01_s043.webp",
+      "title": "Bildquellen",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 1360,
+      "text_sha": "785bfe829535d78a",
+      "pdf_page": 15,
+      "pdf_cell": 1
+    }
+  ]
+}

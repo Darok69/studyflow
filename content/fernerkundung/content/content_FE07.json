@@ -1,0 +1,508 @@
+{
+  "lecture_id": "FE07",
+  "title": "Klassifikationen",
+  "slides": {
+    "1": { "title": "Titelfolie", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "2": { "title": "7. Einheit: Zusammenfassung", "text": "Die Einheit beginnt mit einer Wiederholung der Grundlagen, bevor die Klassifikation behandelt wird.", "terms": [], "cards": [], "vision_used": true },
+    "3": {
+      "title": "Wiederholung: Was ist Fernerkundung?",
+      "text": "Fernerkundung heißt, Informationen über Objekte aus der Distanz zu erhalten. Die Photographie ist ein Teil der Fernerkundung und gilt zugleich als deren am weitesten verbreitete Form.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "4": { "title": "Wiederholung: Sensoren und Träger", "text": "Es gibt verschiedene Möglichkeiten der Datenerfassung, und je nach Anwendung werden unterschiedliche Sensoren verwendet. Getragen werden sie von Drohnen, Flugzeugen und Satelliten.", "terms": [], "cards": [], "vision_used": false },
+    "5": {
+      "title": "Drohnen und Satelliten im Vergleich",
+      "text": "Drohnen: hohe räumliche Auflösung (unter 1 m) und Flexibilität durch manuelle Steuerung und freie Wahl der Befliegung. Satelliten: großräumliche Abdeckung, kontinuierliche Beobachtungen, freier Datenzugang und historische Verfügbarkeit. Die Gegenüberstellung fasst den Zielkonflikt des ganzen Fachs: Detail und Flexibilität gegen Fläche und Kontinuität.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Stellen Sie Drohnen und Satelliten als Träger gegenüber.",
+          "a": "Drohnen: hohe räumliche Auflösung (unter 1 m), Flexibilität durch manuelle Steuerung und freie Wahl der Befliegung. Satelliten: großräumliche Abdeckung, kontinuierliche Beobachtung, freier Datenzugang, historische Verfügbarkeit.",
+          "difficulty": 2,
+          "kind": "srovnani",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "6": { "title": "Wiederholung: Wie Information aufgenommen wird", "text": "Elektromagnetische Strahlung wird von der Erde reflektiert und ausgestrahlt; Sensoren können diese Strahlung messen. Die Doppelformulierung ist wichtig: reflektiert (solar) und ausgestrahlt (terrestrisch) — das sind die beiden Quellen, aus denen alle Bilder stammen.", "terms": [], "cards": [], "vision_used": false },
+    "7": { "title": "Atmosphärische Durchlässigkeit und Spektralbereiche", "text": "Bei gegebener atmosphärischer Durchlässigkeit kann das elektromagnetische Spektrum in verschiedene Bereiche unterteilt werden — die Fenster bestimmen also die Einteilung.", "terms": [], "cards": [], "vision_used": true },
+    "8": {
+      "title": "Optisch, thermal, Mikrowellen",
+      "text": "Je nach atmosphärischer Durchlässigkeit teilt sich das nutzbare Spektrum in drei große Bereiche: optisch, thermal und Mikrowellen. Diese Dreiteilung ist die kompakteste Ordnung der ganzen Sensorik.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "In welche drei großen Bereiche teilt sich das für die Fernerkundung nutzbare Spektrum?",
+          "a": "Optisch, thermal und Mikrowellen.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "9": {
+      "title": "Welche Information die drei Bereiche liefern",
+      "text": "Optical, Thermal und Microwave liefern jeweils andere Information über dasselbe Gebiet: der optische Bereich zeigt die reflektierte Sonnenstrahlung und damit Farbe und Vitalität, der thermale die vom Objekt selbst abgegebene Wärme, der Mikrowellenbereich die Rückstreuung und damit Rauigkeit und Feuchte. Deshalb ist die multisensorale Fusion sinnvoll — die drei Bereiche widersprechen einander nicht, sie ergänzen sich.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true
+    },
+    "10": { "title": "7. Einheit: Klassifikationen", "text": "Inhalt: überwachte Klassifikation und unüberwachte Klassifikation.", "terms": [], "cards": [], "vision_used": true },
+    "11": {
+      "title": "Klassifikation — Definition",
+      "text": "Klassifikation ist die systematische Einteilung von Objekten oder Begriffen in Klassen, die durch gemeinsame Merkmale miteinander verbunden sind; die Objekte sollen von anderen Objekten eindeutig unterscheidbar sein. Angewandt an digitalen Bildern heißt das: Segmentierung und anschließende Zuordnung der Segmente zu Klassen.",
+      "terms": [
+        { "term": "Klassifikation", "def": "Systematische Einteilung von Objekten in Klassen, die durch gemeinsame Merkmale verbunden und von anderen eindeutig unterscheidbar sind; am digitalen Bild: Segmentierung und Zuordnung der Segmente zu Klassen." }
+      ],
+      "cards": [
+        {
+          "q": "Wie ist Klassifikation definiert, und wie läuft sie am digitalen Bild ab?",
+          "a": "Systematische Einteilung von Objekten in Klassen, die durch gemeinsame Merkmale verbunden und von anderen eindeutig unterscheidbar sind. Am Bild: Segmentierung, dann Zuordnung der Segmente zu Klassen.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "12": {
+      "title": "Ziel der Klassifikation",
+      "text": "Ziel ist die Zuordnung von Daten zu Klassen mit einheitlichen Eigenschaften, also das Zusammenfassen von Bildpunkten zu Klassen — wobei eine Klasse einen bestimmten Bereich im Merkmalsraum einnimmt. Zweitens soll ein thematischer Bezug hergestellt werden, indem Informationen bestimmter Objekte Klassen zugewiesen werden; eine Objektklasse besteht aus einzelnen Geoobjekten wie Waldtypen, Gesteinsarten oder Bebauung. Der Vergleich am Schluss ist erhellend: die menschliche Interpretation arbeitet mit der Wahrnehmung von Formen und Textur, die computergestützte mit Multispektralität und Grauwerten. Der Mensch sieht Gestalt, der Rechner sieht Zahlen — daher kommen beide zu anderen Fehlern.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Worin unterscheidet sich die menschliche von der computergestützten Bildinterpretation?",
+          "a": "Der Mensch nimmt Formen und Textur wahr; der Computer wertet Multispektralität und Grauwerte aus. Deshalb macht der Mensch andere Fehler als der Algorithmus — und deshalb ergänzen objektbasierte (Form) und pixelbasierte (Spektrum) Verfahren einander.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was nimmt eine Klasse im Merkmalsraum ein?",
+          "a": "Einen bestimmten Bereich. Klassifikation heißt deshalb, den Merkmalsraum in Bereiche zu unterteilen, die die Objektklassen trennen.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "13": {
+      "title": "Multispektrale Klassifikation",
+      "text": "Sie basiert auf der unterschiedlichen Reflexion in den einzelnen Spektralbereichen. Zur Wiederholung: Spektralbereiche sind die Kanäle bzw. Bänder, bei Sentinel-2 also Coastal, Vapor, Cirrus, Blue, Green, Red, Red Edge 1–3, NIR 1 und 2, SWIR 1 und 2. Die Klassifikationsverfahren identifizieren Punktcluster und kategorisieren sie.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "14": { "title": "Klassifikation — Schema", "text": "Schema nach Albertz 2007 zum Ablauf der multispektralen Klassifikation.", "terms": [], "cards": [], "vision_used": true },
+    "15": {
+      "title": "Der Merkmalsraum",
+      "text": "Ein multispektrales Bild mit n Kanälen kann in einen n-dimensionalen Merkmalsraum transformiert werden, in dem jeder Kanal durch eine der n Achsen repräsentiert wird. Jedes Pixel einer Geo-Objektklasse hat damit eine Lage innerhalb dieses n-dimensionalen Raums, und Objekte ähnlicher spektraler Reflexion werden dort durch Cluster repräsentiert. Das ist die zentrale Vorstellung der ganzen Einheit: ein Pixel ist ein Punkt in einem Raum, dessen Achsen die Kanäle sind.",
+      "terms": [
+        { "term": "Merkmalsraum", "def": "n-dimensionaler Raum, in dem jede Achse einem Spektralkanal entspricht; jedes Pixel ist ein Punkt darin, und Objekte ähnlicher spektraler Reflexion bilden Cluster." }
+      ],
+      "cards": [
+        {
+          "q": "Was ist der Merkmalsraum, und was sind darin Cluster?",
+          "a": "Ein n-dimensionaler Raum, in dem jede Achse einem der n Spektralkanäle entspricht; jedes Pixel ist ein Punkt darin. Objekte ähnlicher spektraler Reflexion — also Geo-Objektklassen — erscheinen dort als Cluster.",
+          "difficulty": 2,
+          "kind": "model",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "16": { "title": "Merkmalsraum — Darstellung", "text": "Darstellung des Merkmalsraums für zwei Kanäle mit erkennbaren Clustern.", "terms": [], "cards": [], "vision_used": true },
+    "17": { "title": "Merkmalsraum — Darstellung", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "18": {
+      "title": "Spektrale Signatur",
+      "text": "Vorgehensweise: Das MS-Bild wird hinsichtlich der Verteilung von Geo-Objektklassen untersucht, wobei jede Objektklasse eine typische spektrale Signatur im digitalen Bild besitzen sollte. Die Definition steht direkt auf der Folie: Spektrale Signatur = das Reflexions- bzw. Absorptionsverhalten von Objekten in Abhängigkeit der Wellenlänge. Die Algorithmen suchen nach Homogenitäten und der räumlichen Verteilung der Bildpunkte bzw. ihrer Cluster. Die spektrale Signatur ist also genau das, was in Einheit 2 als Reflexionskurve gezeichnet wurde — hier wird sie zum Erkennungsmerkmal.",
+      "terms": [
+        { "term": "Spektrale Signatur", "def": "Das Reflexions- bzw. Absorptionsverhalten eines Objekts in Abhängigkeit der Wellenlänge; das charakteristische Muster, an dem eine Objektklasse erkannt wird." }
+      ],
+      "cards": [
+        {
+          "q": "Was ist eine spektrale Signatur?",
+          "a": "Das Reflexions- bzw. Absorptionsverhalten von Objekten in Abhängigkeit der Wellenlänge — das charakteristische Muster, an dem eine Objektklasse im Bild erkennbar ist.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "19": {
+      "title": "Pixelbasierte und objektbasierte Verfahren",
+      "text": "Zwei Familien von Klassifikationsverfahren. Pixelbasierte Verfahren beruhen auf einer spektralen Analyse jedes einzelnen Pixels und gliedern sich weiter in überwacht und unüberwacht. Objektbasierte Verfahren integrieren Formen, Kanten und Nachbarschaften. Der Unterschied ist grundlegend: das pixelbasierte Verfahren kennt nur den Zahlenwert eines Pixels, das objektbasierte auch dessen Gestalt und Umgebung.",
+      "terms": [
+        { "term": "Pixelbasierte Verfahren", "def": "Klassifikationsverfahren, die auf der spektralen Analyse jedes einzelnen Pixels beruhen; unterteilt in überwacht und unüberwacht." },
+        { "term": "Objektbasierte Verfahren", "def": "Klassifikationsverfahren, die zusätzlich Formen, Kanten und Nachbarschaften integrieren." }
+      ],
+      "cards": [
+        {
+          "q": "Worin unterscheiden sich pixelbasierte und objektbasierte Verfahren?",
+          "a": "Pixelbasierte Verfahren beruhen auf der spektralen Analyse jedes einzelnen Pixels (überwacht oder unüberwacht). Objektbasierte Verfahren integrieren zusätzlich Formen, Kanten und Nachbarschaften.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "20": {
+      "title": "Segmentierung",
+      "text": "Segmentierungsverfahren erzeugen Regionen (Segmente), die einem gewissen Homogenitätsgrad unterliegen. Zwei Eigenschaften werden unterschieden: Eine vollständige Segmentierung liegt vor, wenn jedes Pixel in mindestens einem Segment liegt; eine überdeckungsfreie Segmentierung, wenn jedes Pixel genau einem Segment zugeordnet ist. Damit ist auch beantwortet, wann Pixel überhaupt zu einem Segment zusammengefasst werden können: sie müssen einer spektralen Ähnlichkeit unterliegen und benachbart sein. Dass sie dasselbe Geo-Objekt darstellen, ist das erhoffte Ergebnis, nicht die Bedingung.",
+      "terms": [
+        { "term": "Segmentierung", "def": "Erzeugung von Regionen (Segmenten), die einem gewissen Homogenitätsgrad unterliegen; vollständig, wenn jedes Pixel in mindestens einem Segment liegt, überdeckungsfrei, wenn in genau einem." }
+      ],
+      "cards": [
+        {
+          "q": "Unter welchen Umständen können einzelne Pixel segmentiert werden?",
+          "a": "Sie müssen benachbart sein und einer spektralen Ähnlichkeit unterliegen — Segmente sind Regionen mit einem gewissen Homogenitätsgrad. Dass sie dasselbe Geo-Objekt darstellen, ist das Ziel, nicht die Voraussetzung.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was bedeutet vollständige und was überdeckungsfreie Segmentierung?",
+          "a": "Vollständig: jedes Pixel liegt in mindestens einem Segment. Überdeckungsfrei: jedes Pixel ist genau einem Segment zugeordnet.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "21": {
+      "title": "Die Segmentierungsverfahren",
+      "text": "Für eine objektbasierte Bildanalyse ist die Segmentierung von großer Bedeutung für eine erfolgreiche Klassifikation. Die Verfahren: pixelorientiert, kantenorientiert, regionenorientiert, modellbasiert sowie form- und texturbasiert. Häufig werden einzelne Verfahren auch kombiniert.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche Segmentierungsverfahren nennt die Vorlesung?",
+          "a": "Pixelorientiert, kantenorientiert, regionenorientiert, modellbasiert sowie form- und texturbasiert — häufig auch in Kombination.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "22": {
+      "title": "Der Unterschied: woher die spektrale Signatur kommt",
+      "text": "Die entscheidende Unterscheidung der ganzen Einheit, formuliert über die Herkunft der Signatur. Bei der unüberwachten Klassifikation werden die spektralen Signaturen durch statistische Analyse der Daten definiert. Bei der überwachten Klassifikation werden sie interaktiv über Trainingsgebiete definiert. Alles Weitere folgt daraus: wer die Signatur vorgibt, klassifiziert überwacht; wer sie den Daten entnimmt, unüberwacht.",
+      "terms": [
+        { "term": "Unüberwachte Klassifikation", "def": "Die spektralen Signaturen werden durch statistische Analyse der Daten definiert; Cluster entstehen aufgrund statistischer Ähnlichkeit, in mehreren Iterationen." },
+        { "term": "Überwachte Klassifikation", "def": "Die spektralen Signaturen werden interaktiv über Trainingsgebiete definiert, die der Nutzer auswählt." }
+      ],
+      "cards": [
+        {
+          "q": "Was ist der grundlegende Unterschied zwischen überwachter und unüberwachter Klassifikation?",
+          "a": "Woher die spektralen Signaturen kommen: unüberwacht werden sie durch statistische Analyse der Daten definiert, überwacht interaktiv über vom Nutzer gewählte Trainingsgebiete.",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welcher Schritt ist für eine überwachte Klassifikation zwingend erforderlich?",
+          "a": "Die Auswahl von Trainingsgebieten durch den Nutzer. Kein Tiefpassfilter, keine Reduktion der Bildtiefe auf 1 Bit und keine rein statistische Clusterbildung ohne Vorwissen — letzteres wäre gerade die unüberwachte Klassifikation.",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "23": {
+      "title": "Unüberwachte Klassifikation — der Ablauf",
+      "text": "Cluster werden aufgrund der Ähnlichkeit erstellt. Der Ablauf in fünf Schritten: 1. Anzahl der Klassen bestimmen. 2. Anzahl der Iterationen festlegen. 3. Jedes Pixel wird seinem nächsten Cluster zugeordnet. 4. Klassifikation des Bildes. 5. Zuordnung zu thematischen Klassen. Achtung auf die Prüfungsfalle in Schritt 1: Die Anzahl der Klassen wird NICHT automatisch bestimmt — sie wird vom Nutzer vorgegeben. Automatisch ist nur, welche Pixel in welchen Cluster fallen.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Was kennzeichnet eine unüberwachte Klassifikation?",
+          "a": "Cluster werden aufgrund statistischer Ähnlichkeit erstellt, und es erfolgen mehrere Iterationen. NICHT zutreffend: dass die Anzahl der Klassen automatisch bestimmt würde (sie wird vorgegeben) oder dass zwingend vorher segmentiert werden müsste.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Nennen Sie die fünf Schritte der unüberwachten Klassifikation.",
+          "a": "1. Anzahl der Klassen bestimmen. 2. Anzahl der Iterationen festlegen. 3. Jedes Pixel seinem nächsten Cluster zuordnen. 4. Klassifikation des Bildes. 5. Zuordnung zu thematischen Klassen.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "24": {
+      "title": "ISODATA",
+      "text": "ISODATA steht für Iterative Self-Organizing Data Analysis Technique. Vier Schritte: 1. K Clusterzentren werden ermittelt, wobei k die Anzahl der Klassen ist. 2. Zuordnung von Stichproben. 3. Kleine Cluster verwerfen. 4. Neue Clusterzentren ermitteln. Die Schritte 2 bis 4 wiederholen sich — daher „iterative“ im Namen. Der dritte Schritt ist das Besondere: ISODATA darf Cluster verwerfen und damit die Klassenzahl im Lauf des Verfahrens anpassen.",
+      "terms": [
+        { "term": "ISODATA", "def": "Iterative Self-Organizing Data Analysis Technique: unüberwachtes Verfahren, das k Clusterzentren ermittelt, Stichproben zuordnet, kleine Cluster verwirft und neue Zentren berechnet — iterativ wiederholt." }
+      ],
+      "cards": [
+        {
+          "q": "Wofür steht ISODATA, und welche vier Schritte hat das Verfahren?",
+          "a": "Iterative Self-Organizing Data Analysis Technique. 1. k Clusterzentren ermitteln (k = Anzahl Klassen). 2. Stichproben zuordnen. 3. Kleine Cluster verwerfen. 4. Neue Clusterzentren ermitteln — und das iterativ wiederholen.",
+          "difficulty": 3,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "25": { "title": "Clustering — Schritt für Schritt (1)", "text": "Eine Bildfolge nach Bauer 2017 zeigt den Clustering-Vorgang: Ausgangspunktwolke im Merkmalsraum.", "terms": [], "cards": [], "vision_used": true },
+    "26": { "title": "Clustering — Schritt für Schritt (2)", "text": "Erste Clusterzentren werden gesetzt.", "terms": [], "cards": [], "vision_used": true },
+    "27": { "title": "Clustering — Schritt für Schritt (3)", "text": "Die Punkte werden dem jeweils nächsten Zentrum zugeordnet.", "terms": [], "cards": [], "vision_used": true },
+    "28": { "title": "Clustering — Schritt für Schritt (4)", "text": "Aus den zugeordneten Punkten werden neue Zentren berechnet.", "terms": [], "cards": [], "vision_used": true },
+    "29": { "title": "Clustering — Schritt für Schritt (5)", "text": "Erneute Zuordnung nach den verschobenen Zentren.", "terms": [], "cards": [], "vision_used": true },
+    "30": { "title": "Clustering — Schritt für Schritt (6)", "text": "Die Iteration wiederholt sich, bis sich die Zentren kaum noch bewegen.", "terms": [], "cards": [], "vision_used": true },
+    "31": { "title": "Clustering — Schritt für Schritt (7)", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "32": { "title": "Clustering — Ergebnis", "text": "Das Endergebnis: stabile Cluster, die noch keine thematische Bedeutung haben — die bekommen sie erst durch die manuelle Zuordnung.", "terms": [], "cards": [], "vision_used": true },
+    "33": { "title": "Unüberwachte Klassifikation in QGIS", "text": "Praktische Umsetzung mit der Orfeo-Toolbox in QGIS.", "terms": [], "cards": [], "vision_used": true },
+    "34": {
+      "title": "Von Clustern zu thematischen Klassen",
+      "text": "Nach der unüberwachten Klassifikation folgt die manuelle Zuordnung der abgeleiteten Klassen zu thematischen Geo-Objekten bzw. Klassen. Dabei treten zwei Fälle auf: Einzelne thematische Klassen können durch mehr als eine spektrale Signatur repräsentiert werden — dann müssen Klassen zusammengefasst werden. Und eine spektrale Signatur kann mehr als eine thematische Klasse repräsentieren — dann müssen Klassen getrennt werden. Beides zeigt die Grenze des Verfahrens: der Rechner findet Cluster, aber Bedeutung gibt ihnen der Mensch.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche zwei Probleme treten bei der Zuordnung unüberwachter Cluster zu thematischen Klassen auf?",
+          "a": "Eine thematische Klasse kann durch mehrere spektrale Signaturen repräsentiert sein (dann Klassen zusammenfassen), und eine spektrale Signatur kann mehrere thematische Klassen repräsentieren (dann Klassen trennen).",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "35": {
+      "title": "Überwachte Klassifikation — Trainingsgebiete",
+      "text": "Die Klassifikation erfolgt durch Festlegung von Trainingsgebieten, die repräsentativ für die Signaturkurven sein müssen: kleine Testflächen, die manuell gewählt werden. Vier Regeln für ihre Wahl: Randbereiche zwischen Objektklassen sind zu vermeiden. Mischpixel sind nicht repräsentativ für eine ganze Klasse. Heterogene Flächen sollten auf mehrere Objektklassen aufgeteilt werden, zum Beispiel Wasser. Und die Anzahl an Trainingsdaten soll n+1 betragen, zwischen 10 und 100. Die ersten beiden Regeln hängen zusammen: am Rand einer Klasse entstehen genau die Mischpixel, die die Signatur verfälschen.",
+      "terms": [
+        { "term": "Trainingsgebiet", "def": "Kleine, manuell gewählte Testfläche, die repräsentativ für die Signaturkurve einer Klasse ist; Grundlage der überwachten Klassifikation." }
+      ],
+      "cards": [
+        {
+          "q": "Welche Regeln gelten für die Wahl von Trainingsgebieten?",
+          "a": "Randbereiche zwischen Objektklassen vermeiden (dort entstehen Mischpixel), Mischpixel sind nicht repräsentativ, heterogene Flächen auf mehrere Objektklassen aufteilen (z. B. Wasser), Anzahl n+1, etwa zwischen 10 und 100.",
+          "difficulty": 3,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "36": { "title": "Werkzeuge der überwachten Klassifikation", "text": "Drei Darstellungen helfen, Trainingsgebiete zu prüfen: der Spectral Signature Plot, der Scatter Plot bzw. das Streudiagramm und die Signatureigenschaften mit Distanzmaßen.", "terms": [], "cards": [], "vision_used": true },
+    "37": { "title": "Spectral Signature Plot", "text": "Der spektrale Signatur-Plot zeigt die spektrale Signatur einzelner Testflächen; jede Testfläche wird dargestellt. Überlagern sich die Kurven zweier Klassen, sind sie spektral nicht trennbar — das sieht man hier, bevor man klassifiziert.", "terms": [], "cards": [], "vision_used": false },
+    "38": {
+      "title": "Scatter Plot (Streudiagramm)",
+      "text": "Der Scatter Plot stellt die Pixelwerte als Punktwolke dar; dafür werden zwei Bänder gewählt. Er ist die zweidimensionale Ansicht des Merkmalsraums und zeigt unmittelbar, ob sich die Cluster zweier Klassen überlappen.",
+      "terms": [
+        { "term": "Scatter Plot (Streudiagramm)", "def": "Darstellung der Pixelwerte als Punktwolke für zwei gewählte Bänder; zeigt die Lage und Überlappung der Cluster im Merkmalsraum." }
+      ],
+      "cards": [
+        {
+          "q": "Was zeigt ein Scatter Plot in der Klassifikation?",
+          "a": "Die Pixelwerte als Punktwolke für zwei gewählte Bänder — also den Merkmalsraum in zwei Dimensionen. Daran sieht man, ob sich die Cluster zweier Klassen überlappen.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "39": {
+      "title": "Spektrale Distanzmaße",
+      "text": "Sie dienen der Beschreibung der Ähnlichkeit oder Trennbarkeit von Kategorien. Drei werden genannt: die euklidische Distanz, die Jeffries-Matusita-Distanz und die Bray-Curtis-Similarity. Ihr Zweck ist es, vor der Klassifikation zu prüfen, ob zwei Klassen überhaupt unterscheidbar sind.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche drei spektralen Distanzmaße nennt die Vorlesung, und wozu dienen sie?",
+          "a": "Euklidische Distanz, Jeffries-Matusita-Distanz und Bray-Curtis-Similarity. Sie beschreiben die Ähnlichkeit bzw. Trennbarkeit von Kategorien — also ob zwei Klassen überhaupt unterscheidbar sind.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "40": {
+      "title": "Euklidische Distanz",
+      "text": "Die Distanz zwischen zwei Punkten im Merkmalsraum. Der Wert 0 bedeutet idente Signaturen, ein Wert größer 0 bedeutet, dass die Signaturen verschieden sind. Je größer, desto besser trennbar.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welchen Wertebereich hat die euklidische Distanz, und wie liest man sie?",
+          "a": "0 bedeutet idente Signaturen, alles über 0 bedeutet verschiedene Signaturen — je größer der Wert, desto besser sind die Klassen trennbar.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "41": {
+      "title": "Jeffries-Matusita-Distanz",
+      "text": "Die mittlere Differenz bzw. Distanz zwischen zwei Wahrscheinlichkeitsverteilungen. Nahe 0 heißt: die Signaturen sind ident. Nahe 2 heißt: die Signaturen sind unterschiedlich. Die Skala von 0 bis 2 ist ihr Kennzeichen und der häufigste Verwechslungspunkt mit der Bray-Curtis-Similarity, die von 0 bis 1 läuft.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welchen Wertebereich hat die Jeffries-Matusita-Distanz?",
+          "a": "Von 0 bis 2: nahe 0 sind die Signaturen ident, nahe 2 unterschiedlich. Sie misst die Distanz zwischen zwei Wahrscheinlichkeitsverteilungen.",
+          "difficulty": 3,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "42": {
+      "title": "Bray-Curtis-Similarity",
+      "text": "Sie basiert auf einer metrischen Funktion zur Beschreibung der Ähnlichkeiten von Clustern. Der Wert 0 bedeutet ähnliche Signaturen, 1 bedeutet unterschiedliche.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Ordnen Sie die drei Distanzmaße ihren Wertebereichen zu.",
+          "a": "Euklidische Distanz: 0 = ident, >0 = verschieden (nach oben offen). Jeffries-Matusita: 0 bis 2, nahe 0 ident, nahe 2 unterschiedlich. Bray-Curtis-Similarity: 0 = ähnlich, 1 = unterschiedlich.",
+          "difficulty": 3,
+          "kind": "srovnani",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "43": {
+      "title": "Die drei Klassifikationsverfahren",
+      "text": "Klassifikationsverfahren unterteilen den Merkmalsraum in einzelne Bereiche, die die Objektklassen trennen. Drei werden behandelt: die Minimum-Distance-Klassifikation, die Parallel-Epiped-Klassifikation und die Maximum-Likelihood-Klassifikation. Sie unterscheiden sich allein darin, welche Form die Bereiche im Merkmalsraum haben: Thiessen-Polygone, Quader oder Wahrscheinlichkeitsdichten.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche drei Klassifikationsverfahren behandelt die Vorlesung, und worin unterscheiden sie sich?",
+          "a": "Minimum Distance, Parallel Epiped und Maximum Likelihood. Sie unterscheiden sich in der Form, in die sie den Merkmalsraum aufteilen: Thiessen-Polygone, Quader (Boxen) bzw. Wahrscheinlichkeitsdichten.",
+          "difficulty": 2,
+          "kind": "srovnani",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "44": {
+      "title": "Minimum-Distance-Klassifikation",
+      "text": "Die Zuordnung erfolgt nach der Nähe der Mittelwerte. Der Ablauf: Berechnung der Clusterzentroide jedes einzelnen Spektralkanals, Aufteilung der Cluster in Thiessen-Polygone, Zuordnung der zu definierenden Pixel zum nächstgelegenen Zentroid. Damit ist auch die Prüfungsaussage belegt: Bei Minimum Distance erfolgt die Zuordnung von Pixeln zu Clusterzentroiden.",
+      "terms": [
+        { "term": "Minimum-Distance-Klassifikation", "def": "Zuordnung nach Nähe der Mittelwerte: Clusterzentroide werden berechnet, der Merkmalsraum in Thiessen-Polygone geteilt und jedes Pixel dem nächstgelegenen Zentroid zugeordnet. Entscheidungskriterium ist der euklidische Abstand." }
+      ],
+      "cards": [
+        {
+          "q": "Wie funktioniert die Minimum-Distance-Klassifikation?",
+          "a": "Zuordnung nach Nähe der Mittelwerte: für jeden Spektralkanal werden Clusterzentroide berechnet, der Merkmalsraum wird in Thiessen-Polygone geteilt, und jedes Pixel kommt zum nächstgelegenen Zentroid.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "45": {
+      "title": "Minimum Distance — Eigenschaften",
+      "text": "Entscheidungskriterium ist der euklidische Abstand. Der gesamte Merkmalsraum wird klassifiziert — es bleibt also kein Pixel unklassifiziert, und genau das ist der Unterschied zu den beiden anderen Verfahren. Der Preis dafür: Fehlklassifikationen können durch eine hohe Streuung innerhalb einer Klasse auftreten, weil das Verfahren nur Mittelwerte kennt und die Streuung ignoriert.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Bleiben bei der Minimum-Distance-Klassifikation Pixel unklassifiziert?",
+          "a": "Nein — der gesamte Merkmalsraum wird klassifiziert. Bei Parallel Epiped und Maximum Likelihood bleiben dagegen Pixel unklassifiziert. Die Aussage „bei allen drei Verfahren können Pixel unklassifiziert bleiben“ ist deshalb falsch.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist die Schwäche der Minimum-Distance-Klassifikation?",
+          "a": "Sie berücksichtigt nur die Mittelwerte, nicht die Streuung. Bei hoher Streuung innerhalb einer Klasse kommt es deshalb zu Fehlklassifikationen.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "46": {
+      "title": "Parallel-Epiped-Klassifikation",
+      "text": "Ein Zuordnungsverfahren mit sehr geringem Rechenaufwand. Für jeden Cluster wird ein Quader errechnet. Dabei kann es zur Überlappung zweier Rechtecke kommen, und Werte außerhalb der Boxen bleiben unklassifiziert. Das Verfahren ist das einfachste der drei — es prüft nur, ob ein Pixelwert in jedem Kanal zwischen zwei Schwellen liegt.",
+      "terms": [
+        { "term": "Parallel-Epiped-Klassifikation", "def": "Zuordnung über Quader (Boxen) im Merkmalsraum, einen je Cluster; sehr geringer Rechenaufwand. Boxen können überlappen, und Werte außerhalb der Boxen bleiben unklassifiziert." }
+      ],
+      "cards": [
+        {
+          "q": "Was passiert bei der Parallel-Epiped-Klassifikation mit Pixeln außerhalb der Boxen, und was bei Überlappungen?",
+          "a": "Werte außerhalb der Boxen bleiben unklassifiziert. Überlappungen zweier Boxen können auftreten und lassen sich nur durch eine Trennung der Boxen vermeiden.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "47": {
+      "title": "Parallel Epiped — Eigenschaften",
+      "text": "Entscheidungskriterium über die Zuweisung ist die Definition einer Box. Der Merkmalsraum wird nicht vollständig klassifiziert, und Überlappungsbereiche können durch Trennung von Boxen vermieden werden.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false
+    },
+    "48": {
+      "title": "Maximum-Likelihood-Klassifikation",
+      "text": "Ein Zuordnungsverfahren nach der Wahrscheinlichkeit der Zugehörigkeit. Die Annahme lautet: die Pixel um ein Zentrum sind normal verteilt; die Dichte um ein Zentrum wird bestimmt, ebenso die Streuung um ein Zentrum. Im Unterschied zu Minimum Distance berücksichtigt das Verfahren also nicht nur, wo der Mittelwert einer Klasse liegt, sondern auch, wie weit sie streut — deshalb kann eine breit streuende Klasse auch weiter entfernte Pixel für sich beanspruchen.",
+      "terms": [
+        { "term": "Maximum-Likelihood-Klassifikation", "def": "Zuordnung nach der Wahrscheinlichkeit der Klassenzugehörigkeit unter der Annahme normalverteilter Pixel um ein Zentrum; Entscheidungskriterium ist die Wahrscheinlichkeitsdichte. Standardmethode für multispektrale Daten." }
+      ],
+      "cards": [
+        {
+          "q": "Auf welcher Annahme beruht die Maximum-Likelihood-Klassifikation?",
+          "a": "Dass die Pixel um ein Zentrum normal verteilt sind. Bestimmt werden Dichte und Streuung um das Zentrum; zugeordnet wird nach der Wahrscheinlichkeit der Zugehörigkeit.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Warum ist Maximum Likelihood genauer als Minimum Distance?",
+          "a": "Weil es nicht nur den Mittelwert, sondern auch die Streuung einer Klasse berücksichtigt. Eine breit streuende Klasse darf deshalb auch entferntere Pixel beanspruchen, eine eng streuende nicht.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "49": {
+      "title": "Maximum Likelihood — Eigenschaften",
+      "text": "Entscheidungskriterium ist die Wahrscheinlichkeitsdichte; die Darstellung erfolgt über Linien gleicher Wahrscheinlichkeitsdichte. Das Verfahren liefert die beste Beschreibung einer Clusterform. Auch hier bleiben Pixel unklassifiziert. Es ist die Standardmethode zur Klassifikation multispektraler Daten.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche der drei Klassifikationsmethoden gilt als Standardmethode für multispektrale Daten, und warum?",
+          "a": "Maximum Likelihood — weil sie über die Wahrscheinlichkeitsdichte die Clusterform am besten beschreibt. Es bleiben allerdings auch dort Pixel unklassifiziert.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Aussagen zu den drei Klassifikationsverfahren treffen zu?",
+          "a": "Bei Minimum Distance erfolgt die Zuordnung von Pixeln zu Clusterzentroiden, und bei Parallel Epiped bleiben Pixel außerhalb der Boxen unklassifiziert. Falsch: dass Parallel Epiped die Wahrscheinlichkeit der Zugehörigkeit untersucht (das ist Maximum Likelihood) und dass bei allen drei Verfahren Pixel unklassifiziert bleiben (Minimum Distance klassifiziert den gesamten Merkmalsraum).",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "50": { "title": "Klassifikationsergebnis", "text": "Das fertige Klassifikationsergebnis als thematische Karte.", "terms": [], "cards": [], "vision_used": true },
+    "51": { "title": "Ausblick: Indizes und Case Study II", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "52": { "title": "Kontakt", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "53": { "title": "Bildquellen", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
+}
