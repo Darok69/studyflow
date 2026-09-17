@@ -1,0 +1,109 @@
+{
+  "exam": {
+    "name": "VO 290234 Bildverarbeitung und Fernerkundung (Universität Wien, Oliver Rehberger)",
+    "date": null,
+    "language": "de",
+    "format": "Digitální Moodle test, německy, na místě v GIS-Laboru (1. patro NIG). Podle slidů FE10 s045/s047: 15× single choice (právě 1 správná ze 3) po 1 bodu + 15× multiple choice (aspoň 1 správná ze 4, částečné body) po 2 bodech = 45 bodů. Notenschlüssel: <23 = 5, ≥23 = 4, ≥28,5 = 3, ≥34 = 2, ≥39,5 = 1 — prospěch od 23 bodů (51 %). Dvě třetiny bodů (30 ze 45) jsou v multiple choice, takže se u každé ze čtyř možností rozhoduje zvlášť pravda/nepravda. Čtyři termíny za rok (konec června, říjen, leden, březen). Moodle: „Für die Prüfung sind sämtliche Inhalte der Folien relevant“ — seznam Terminologie je doporučená, ne povinná příprava."
+  },
+  "updated_at": "2026-09-17T17:15:40+00:00",
+  "organisers": [],
+  "courses": [
+    {
+      "code": "FE",
+      "number": "290234",
+      "title": "Bildverarbeitung und Fernerkundung",
+      "subject": "Bildverarbeitung und Fernerkundung",
+      "filing": [],
+      "lectures": [
+        {
+          "lecture_id": "FE00",
+          "unit": "Einheit 0",
+          "title": "Allgemeines: Was ist Fernerkundung, Auflösungen, Pixel",
+          "slides": 43,
+          "data": "data/FE00.json",
+          "done": 43
+        },
+        {
+          "lecture_id": "FE01",
+          "unit": "Einheit 1",
+          "title": "Geschichte und Physikalische Grundlagen",
+          "slides": 43,
+          "data": "data/FE01.json",
+          "done": 43
+        },
+        {
+          "lecture_id": "FE02",
+          "unit": "Einheit 2",
+          "title": "Reflexionen und Sensoren",
+          "slides": 65,
+          "data": "data/FE02.json",
+          "done": 65
+        },
+        {
+          "lecture_id": "FE03",
+          "unit": "Einheit 3",
+          "title": "Satelliten",
+          "slides": 60,
+          "data": "data/FE03.json",
+          "done": 60
+        },
+        {
+          "lecture_id": "FE04",
+          "unit": "Einheit 4",
+          "title": "Bildverarbeitung I: Digitales Bild, Histogramm, Operatoren",
+          "slides": 67,
+          "data": "data/FE04.json",
+          "done": 67
+        },
+        {
+          "lecture_id": "FE05",
+          "unit": "Einheit 5",
+          "title": "Bildverarbeitung II: Filterung (Case Study I)",
+          "slides": 44,
+          "data": "data/FE05.json",
+          "done": 44
+        },
+        {
+          "lecture_id": "FE06",
+          "unit": "Einheit 6",
+          "title": "Transformationen: Korrektur, Geokodierung, PCA",
+          "slides": 64,
+          "data": "data/FE06.json",
+          "done": 64
+        },
+        {
+          "lecture_id": "FE07",
+          "unit": "Einheit 7",
+          "title": "Klassifikationen",
+          "slides": 53,
+          "data": "data/FE07.json",
+          "done": 53
+        },
+        {
+          "lecture_id": "FE08",
+          "unit": "Einheit 8",
+          "title": "Indizes und Accuracy Assessment (Case Study II)",
+          "slides": 45,
+          "data": "data/FE08.json",
+          "done": 45
+        },
+        {
+          "lecture_id": "FE09",
+          "unit": "Einheit 9",
+          "title": "Anwendungsbeispiele: Copernicus, CLMS, CORINE",
+          "slides": 62,
+          "data": "data/FE09.json",
+          "done": 62
+        },
+        {
+          "lecture_id": "FE10",
+          "unit": "Einheit 10",
+          "title": "Projektablauf: Datenbezug und Data Levels",
+          "slides": 53,
+          "data": "data/FE10.json",
+          "done": 53
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "lecture_id": "FE10",
+  "title": "Projektablauf: Datenbezug und Data Levels",
+  "slides": {
+    "1": { "title": "Titelfolie", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "2": { "title": "10. Einheit: Projektablauf", "text": "Inhalt: Ressourcen und Data Levels.", "terms": [], "cards": [], "vision_used": true },
+    "3": { "title": "Die drei Leitfragen zum Datenbezug", "text": "Wer bietet (Satelliten-)Daten an? Wie kann ich diese beziehen? In welche Softwareumgebungen können sie eingespielt werden? Diese drei Fragen gliedern die ganze Einheit.", "terms": [], "cards": [], "vision_used": false },
+    "4": {
+      "title": "Welche Daten benötige ich?",
+      "text": "Sechs Fragen stehen am Anfang jedes Projekts: Datentyp? Räumliche Auflösung? Untersuchungsgebiet? Kostenfrei? Zeitliche Auflösung? Mittel bzw. Ressourcen für die Bearbeitung? Die letzte Frage wird am häufigsten unterschätzt — hochauflösende Daten über ein großes Gebiet erzeugen Datenmengen, die Rechner und Zeitbudget sprengen.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche Fragen stehen am Anfang der Datenauswahl für ein Fernerkundungsprojekt?",
+          "a": "Datentyp, räumliche Auflösung, Untersuchungsgebiet, Kostenfreiheit, zeitliche Auflösung und die verfügbaren Mittel bzw. Ressourcen für die Bearbeitung.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "5": {
+      "title": "Die vier kostenlosen Quellen",
+      "text": "Vier Adressen für kostenlose Daten: browser.dataspace.copernicus.eu (Copernicus Dataspace Ecosystem), apps.sentinel-hub.com/eo-browser (EO-Browser), earthexplorer.usgs.gov (Earth Explorer) und wekeo.copernicus.eu (WEkEO). Merkregel: Copernicus und Sentinel-Hub für Sentinel-Daten, Earth Explorer für Landsat und Archiv, WEkEO für die verarbeiteten Copernicus-Dienste.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche vier kostenlosen Datenquellen nennt die Vorlesung?",
+          "a": "Copernicus Dataspace Ecosystem, Sentinel-Hub EO-Browser, Earth Explorer (USGS) und WEkEO.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "6": { "title": "Copernicus Dataspace Ecosystem", "text": "Von der Europäischen Raumfahrtagentur: alle Sentinel-Produkte, direkt visualisierbar.", "terms": [], "cards": [], "vision_used": false },
+    "7": {
+      "title": "Copernicus Dataspace Ecosystem — Funktionen",
+      "text": "Neu gestartet 2023. Es bietet den Datendownload sämtlicher Sentinel-Produkte und soll auf weitere Daten erweitert werden; dazu kommen direkte Visualisierung, Zeitreihen und Time-lapse-Videos. Es ist damit der Nachfolger des früheren Copernicus Open Access Hub.",
+      "terms": [
+        { "term": "Copernicus Dataspace Ecosystem", "def": "2023 gestartete Plattform der ESA für den Download sämtlicher Sentinel-Produkte, mit direkter Visualisierung, Zeitreihen und Time-lapse-Videos." }
+      ],
+      "cards": [
+        {
+          "q": "Was ist das Copernicus Dataspace Ecosystem, und seit wann gibt es es?",
+          "a": "Die 2023 gestartete Plattform der ESA für den Download sämtlicher Sentinel-Produkte, mit direkter Visualisierung, Zeitreihen und Time-lapse-Videos; soll auf weitere Daten erweitert werden.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "8": { "title": "Copernicus Dataspace — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "9": { "title": "Copernicus Dataspace — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "10": { "title": "Copernicus Dataspace — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "11": { "title": "Sentinel-Hub: Playground und EO-Browser", "text": "Ebenfalls von der Europäischen Raumfahrtagentur: alle Sentinel-Produkte, direkt visualisierbar.", "terms": [], "cards": [], "vision_used": false },
+    "12": { "title": "EO-Browser — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "13": { "title": "EO-Browser — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "14": { "title": "EO-Browser — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "15": { "title": "EO-Browser — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "16": { "title": "EO-Browser — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "17": {
+      "title": "Earth Explorer",
+      "text": "Betrieben von NASA und USGS. Er ist der durchgehend längste noch existierende Anbieter, hält Aufnahmen bis zu 40 Jahre alt bereit und bietet viele unterschiedliche Datentypen. Damit ist er die Adresse für historische Zeitreihen — die Landsat-Kontinuität seit 1972 liegt genau hier.",
+      "terms": [
+        { "term": "Earth Explorer", "def": "Datenportal von NASA/USGS; der durchgehend längste noch existierende Anbieter mit Aufnahmen bis zu 40 Jahre zurück und vielen Datentypen." }
+      ],
+      "cards": [
+        {
+          "q": "Was ist der Earth Explorer, und was ist sein Alleinstellungsmerkmal?",
+          "a": "Das Datenportal von NASA/USGS. Er ist der durchgehend längste noch existierende Anbieter mit Aufnahmen bis zu 40 Jahre zurück — die Adresse für historische Zeitreihen.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "18": { "title": "Earth Explorer — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "19": { "title": "Earth Explorer — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "20": { "title": "Earth Explorer — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "21": {
+      "title": "Wie eine Szenen-ID gelesen wird",
+      "text": "Am Beispiel LC08_L2SP_189027_20201121_20201210_02_T1 zerlegt die Folie die Kennung: LC08 steht für Landsat, Sensor und Satellitennummer; L2SP für das Processing Level; 189027 für die Referenz Path/Row; 20201121 für das Aufnahmedatum; 20201210 für das Bearbeitungsdatum; 02_T1 für Kollektionsnummer und Kategorie. Wer diesen Aufbau kennt, erkennt aus dem Dateinamen allein, welches Produkt vorliegt und wie weit es prozessiert ist.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Was steckt in einer Landsat-Szenen-ID wie LC08_L2SP_189027_20201121_20201210_02_T1?",
+          "a": "LC08 = Landsat/Sensor/Satellitennummer, L2SP = Processing Level, 189027 = Referenz Path/Row, 20201121 = Aufnahmedatum, 20201210 = Bearbeitungsdatum, 02_T1 = Kollektionsnummer und Kategorie.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "22": { "title": "Earth Explorer — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "23": {
+      "title": "WEkEO",
+      "text": "WEkEO bietet Copernicus-Produkte zu Atmosphäre, Klima, Land und Ozean — konkret die Dienste AMS, CDS, CLMS und CMEMS. Man kann dort visualisieren, herunterladen und prozessieren (Cloud scripting). Der Unterschied zu den anderen Portalen: hier liegen nicht Rohszenen, sondern die fertigen Dienste — und man kann in der Cloud rechnen, statt Terabytes herunterzuladen.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Was unterscheidet WEkEO von Copernicus Dataspace und Earth Explorer?",
+          "a": "WEkEO bietet die verarbeiteten Copernicus-Dienste zu Atmosphäre, Klima, Land und Ozean (AMS, CDS, CLMS, CMEMS) und erlaubt neben Visualisierung und Download auch das Prozessieren in der Cloud (Cloud scripting) — statt große Rohdatenmengen herunterzuladen.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "24": { "title": "WEkEO — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "25": { "title": "Weitere Quellen", "text": "NOAA, INPE Image Catalog (Brasilien), Maxar Open Data Program und der SRTM Tile Downloader für Höhenmodelle (DEM).", "terms": [], "cards": [], "vision_used": false },
+    "26": { "title": "Data Levels — Übersicht (ESA)", "text": "Die ESA-Darstellung der Verarbeitungsstufen von den Rohdaten bis zum fertigen Produkt.", "terms": [], "cards": [], "vision_used": true },
+    "27": {
+      "title": "Die Verarbeitungskette zum finalen Produkt",
+      "text": "Das Schema der ESA zeigt die Schritte in der Reihenfolge: Bänder-Dekomprimierung, radiometrische Korrekturen, geometrische Korrekturen, Resampling — und daraus das finale Produkt. Hier laufen alle Einheiten dieser Vorlesung zusammen: die radiometrischen Korrekturen aus Einheit 6, die geometrischen ebenso, und das Resampling als deren notwendige Folge.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche Schritte durchläuft ein Satellitenprodukt von den Rohdaten bis zum finalen Produkt?",
+          "a": "Bänder-Dekomprimierung, radiometrische Korrekturen, geometrische Korrekturen und Resampling — danach liegt das finale Produkt vor.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true
+    },
+    "28": {
+      "title": "Data Levels bei Sentinel-2",
+      "text": "Level 0: Raw Data, allerdings mit enthaltenen Metadaten. Level 1: ein dreistufiger Prozess — die Informationen der Bänder werden verarbeitet, radiometrische Korrekturen durchgeführt und geometrisch korrigiert. Level 2: enthält zusätzlich atmosphärische Korrekturen. Für die Praxis heißt das: Level 2 ist die Stufe, mit der man direkt arbeiten kann, weil dort die Atmosphäre schon herausgerechnet ist — Level 1 braucht diesen Schritt noch selbst.",
+      "terms": [
+        { "term": "Data Levels", "def": "Verarbeitungsstufen eines Satellitenprodukts: Level 0 Rohdaten (mit Metadaten), Level 1 radiometrisch und geometrisch korrigiert, Level 2 zusätzlich atmosphärisch korrigiert." }
+      ],
+      "cards": [
+        {
+          "q": "Was unterscheidet Level 0, Level 1 und Level 2 bei Sentinel-2?",
+          "a": "Level 0: Raw Data (Metadaten enthalten). Level 1: dreistufiger Prozess — Bandinformationen verarbeitet, radiometrisch und geometrisch korrigiert. Level 2: zusätzlich atmosphärisch korrigiert.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welches Data Level braucht man, wenn man keine eigene Atmosphärenkorrektur rechnen will?",
+          "a": "Level 2 — dort ist die atmosphärische Korrektur bereits enthalten. Level 1 ist nur radiometrisch und geometrisch korrigiert.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "29": {
+      "title": "Datentypen: GeoTIFF und ASCII",
+      "text": "Satellitendaten kommen als Bilddatei, typischerweise als GeoTIFF — eine Erweiterung der TIFF-Datei, in der die räumliche Information und die Grid-Information enthalten sind. Daneben steht ASCII: direkt lesbar, angehängt als Metadaten-Datei. Der Punkt ist wichtig: ein gewöhnliches TIFF weiß nicht, wo es liegt — erst die eingebettete Georeferenz macht daraus ein GeoTIFF.",
+      "terms": [
+        { "term": "GeoTIFF", "def": "Erweiterung der TIFF-Datei, die räumliche Information und Grid-Information enthält; dadurch ist das Bild selbst georeferenziert." }
+      ],
+      "cards": [
+        {
+          "q": "Was unterscheidet ein GeoTIFF von einem gewöhnlichen TIFF?",
+          "a": "Im GeoTIFF sind räumliche Information und Grid-Information enthalten — die Datei weiß also, wo auf der Erde sie liegt. Ein gewöhnliches TIFF ist nur ein Bild.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "30": { "title": "Datentypen — Beispiel", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "31": { "title": "Software für Fernerkundungsdaten", "text": "Solche Programme sollen Fernerkundungsdaten auslesen, ähneln einer Grafiksoftware und generieren geographische Informationen. Ausgelesen werden Bilddaten, Informationen zur Georeferenzierung und Metadaten.", "terms": [], "cards": [], "vision_used": false },
+    "32": { "title": "Die Softwarelandschaft", "text": "Eine lange Liste (aus Wikipedia): Geomatica (PCI Geomatics), SAGA GIS (Open Source), TNTmips, ERDAS IMAGINE, ENVI, Google Earth, GRASS GIS, OpenEV (Open Source), QGIS, Opticks (Open Source), Orfeo toolbox (Open Source), RemoteView, SOCET SET, IDRISI, eCognition, ArcGIS und SNAP.", "terms": [], "cards": [], "vision_used": false },
+    "33": { "title": "ArcGIS", "text": "Entwickelt von ESRI (Environmental Systems Research Institute), nicht für macOS. Ein Geoinformationssystem für sämtliche Fragestellungen — Kartographie, Geodatenbanken, Online-Verknüpfung — mit eigenen Image-Processing-Paketen. Kostenpflichtig.", "terms": [], "cards": [], "vision_used": false },
+    "34": { "title": "ArcGIS — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "35": { "title": "QGIS", "text": "Ein Open-Source-Produkt, bedienbar unter sämtlichen Betriebssystemen. Ein Geoinformationssystem zum Erstellen, Bearbeiten, Anzeigen und Analysieren räumlicher Information, erweiterbar um spezifische Tools — etwa die Orfeo-Toolbox für die unüberwachte Klassifikation.", "terms": [], "cards": [], "vision_used": false },
+    "36": { "title": "QGIS — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "37": {
+      "title": "SNAP",
+      "text": "Die graphische Umgebung für die Sentinel-Toolboxen, zur Verarbeitung und Analyse von Erdbeobachtungsdaten. Die Daten können direkt in der Anwendung bezogen werden, und SNAP ist kostenlos.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Was ist SNAP, und was kostet es?",
+          "a": "Die graphische Umgebung für die Sentinel-Toolboxen zur Verarbeitung und Analyse von Erdbeobachtungsdaten; Daten können direkt in der Anwendung bezogen werden. SNAP ist kostenlos.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "38": { "title": "SNAP — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "39": {
+      "title": "eCognition",
+      "text": "Die Anwendung zur objektbasierten Bildanalyse, in den Geowissenschaften verbreitet; Regelsätze für die Analyse werden dort erstellt. Kostenpflichtig. Es ist genau die Software, die zur OBIA aus Einheit 5 gehört — Segmentierung, dann Regelsatz.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wofür wird eCognition eingesetzt?",
+          "a": "Für die objektbasierte Bildanalyse (OBIA): man segmentiert und erstellt anschließend Regelsätze für die Analyse. In den Geowissenschaften verbreitet, kostenpflichtig.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "40": { "title": "eCognition — Oberfläche", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "41": {
+      "title": "ENVI",
+      "text": "Ursprünglich entwickelt zur Bearbeitung von hyperspektralen Daten, läuft auf allen gängigen Betriebssystemen. Es verarbeitet MS- und HS-Daten sowie thermische, LiDAR- und SAR-Daten und kann in ArcMap integriert werden. Kostenpflichtig.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wofür wurde ENVI ursprünglich entwickelt, und was verarbeitet es heute?",
+          "a": "Ursprünglich für hyperspektrale Daten. Heute verarbeitet es MS- und HS-Daten sowie thermische, LiDAR- und SAR-Daten und lässt sich in ArcMap integrieren. Kostenpflichtig.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "42": { "title": "ERDAS IMAGINE", "text": "Von Leica Geosystems entwickelt, nur für Windows und macOS. Anwendung zur Bearbeitung von Spektraldaten, LiDAR und Radar; auch die Bearbeitung von Vektordaten ist möglich. Kostenpflichtig.", "terms": [], "cards": [], "vision_used": false },
+    "43": { "title": "Der Semesterplan im Überblick", "text": "Die Termine des Semesters von Allgemeines (3. März) bis zur Prüfung (30. Juni), mit dem Tutorial zum Copernicus Dataspace Ecosystem am 23. Juni.", "terms": [], "cards": [], "vision_used": true },
+    "44": { "title": "Prüfungstermine des Semesters", "text": "Die vier Termine des Studienjahres 2024/25: 1. Termin 30.06.2025 (14–15 bzw. 15–16 Uhr), 2. Termin 06.10.2025 (16–17 bzw. 17–18 Uhr), 3. Termin 12.01.2026 (17–18 Uhr), 4. Termin 06.03.2026 (15–16 Uhr). Der Rhythmus — Semesterende, Oktober, Jänner, März — wiederholt sich jedes Jahr.", "terms": [], "cards": [], "vision_used": false },
+    "45": {
+      "title": "Prüfungsformat — die verbindliche Angabe",
+      "text": "Die digitale Prüfung (online) besteht aus zwei Teilen. Single-choice: genau eine Richtige aus drei Möglichkeiten. Multiple-choice: mindestens eine Richtige aus vier Möglichkeiten. Die Zusammensetzung: 15 Single-choice-Fragen zu je 1 Punkt und 15 Multiple-choice-Fragen zu je 2 Punkten, wobei Teilpunkte möglich sind. Zwei Dinge sind daraus für die Vorbereitung abzuleiten: Der Multiple-choice-Teil bringt zwei Drittel aller Punkte (30 von 45), und weil dort mindestens eine, aber oft mehrere Antworten richtig sind, muss man jede der vier Optionen einzeln prüfen — nicht die „beste“ suchen.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie ist die Prüfung genau zusammengesetzt?",
+          "a": "15 Single-choice-Fragen (genau 1 Richtige aus 3) zu je 1 Punkt und 15 Multiple-choice-Fragen (mindestens 1 Richtige aus 4) zu je 2 Punkten mit möglichen Teilpunkten — zusammen 45 Punkte.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Wie viele Punkte hängen am Multiple-choice-Teil, und was folgt daraus für die Vorbereitung?",
+          "a": "30 von 45 Punkten, also zwei Drittel. Da mindestens eine, oft aber mehrere der vier Optionen richtig sind, muss jede Option einzeln als wahr oder falsch geprüft werden — es geht nicht darum, die beste Antwort zu finden.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "46": { "title": "Prüfung — Ansicht in Moodle", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "47": {
+      "title": "Der Notenschlüssel",
+      "text": "45 Punkte können erreicht werden. Unter 23 Punkten ist die Note 5, ab 23 Punkten 4, ab 28,5 Punkten 3, ab 34 Punkten 2 und ab 39,5 Punkten 1. Die Hürde zum Bestehen liegt damit bei 23 von 45 Punkten, also gut der Hälfte. (Die frühere Folie in Einheit 0 formuliert die Grenzen mit „größer als“ statt „größer gleich“ — an der Grenze von genau 23 Punkten gilt die genauere Angabe dieser Folie.)",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie lautet der Notenschlüssel der Prüfung?",
+          "a": "Von 45 erreichbaren Punkten: unter 23 = 5, ab 23 = 4, ab 28,5 = 3, ab 34 = 2, ab 39,5 = 1. Bestanden ist also ab 23 Punkten, gut der Hälfte.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "48": {
+      "title": "Schritte zur Prüfung",
+      "text": "Vier organisatorische Schritte: Anmeldung in u:space, Freischaltung für den Moodle-Kurs, Anmeldung zu Gruppe 1 (14:00–14:45) oder Gruppe 2 (15:00–15:45) und zur jeweiligen Zeit im GIS-Labor erscheinen (1. Stock, NIG). Die Prüfung ist also digital, aber nicht von zu Hause aus: sie wird vor Ort im GIS-Labor geschrieben.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wo und wie wird die Prüfung geschrieben?",
+          "a": "Digital in Moodle, aber vor Ort im GIS-Labor (1. Stock, NIG) zur zugeteilten Gruppenzeit. Vorher nötig: Anmeldung in u:space, Freischaltung für den Moodle-Kurs und Anmeldung zu einer Gruppe.",
+          "difficulty": 1,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "49": { "title": "Schritte zur Prüfung — Screenshot", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "50": { "title": "LV-Evaluation", "text": "Die Online-Evaluation der Lehrveranstaltung: der Link kommt per E-Mail, der Aufwand beträgt etwa 5 bis 10 Minuten.", "terms": [], "cards": [], "vision_used": false },
+    "51": { "title": "Ausblick: Tutorial Copernicus Dataspace Ecosystem", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "52": { "title": "Kontakt", "text": "", "terms": [], "cards": [], "vision_used": true },
+    "53": { "title": "Bildquellen", "text": "", "terms": [], "cards": [], "vision_used": false }
+  }
+}

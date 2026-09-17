@@ -1,0 +1,1079 @@
+{
+  "lecture_id": "FE05",
+  "course": "FE",
+  "course_title": "Bildverarbeitung und Fernerkundung",
+  "course_number": "290234",
+  "unit": "Einheit 5",
+  "title": "Bildverarbeitung II: Filterung (Case Study I)",
+  "source_file": "raw/FE05_05-bildverarbeitung-ii-case-study-i.pdf",
+  "source_sha256": "f318237693b2fdf265cb0ae75da91e66b69879e5312cca97f6b52250cc1866ac",
+  "source_pages": 15,
+  "slides_per_page": 3,
+  "slide_count": 44,
+  "updated_at": "2026-09-17T17:15:38+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/FE05/FE05_s001.webp",
+      "title": "Titelfolie",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 131,
+      "text_sha": "3cf50d360b4ae2e4",
+      "pdf_page": 1,
+      "pdf_cell": 1
+    },
+    {
+      "n": 2,
+      "img": "img/FE05/FE05_s002.webp",
+      "title": "5. Einheit: Filterung",
+      "text": "Inhalt: morphologische Filter und Case Study I.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 109,
+      "text_sha": "34c5b5869c0570ef",
+      "pdf_page": 1,
+      "pdf_cell": 2
+    },
+    {
+      "n": 3,
+      "img": "img/FE05/FE05_s003.webp",
+      "title": "Das Bildverarbeitungssystem als Kette",
+      "text": "Das Schema ordnet die ganze Vorlesung: Input ist die Szene, danach folgen Vorverarbeitung, Segmentierung, Merkmalsextraktion, Klassifizierung und Visualisierung. Jede Einheit der Vorlesung besetzt eine Station dieser Kette — und die Reihenfolge ist zwingend: ohne Vorverarbeitung keine brauchbare Segmentierung, ohne Segmentierung keine objektbasierte Klassifikation.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie lautet die Kette eines Bildverarbeitungssystems von der Szene bis zum Ergebnis?",
+          "a": "Input Szene → Vorverarbeitung → Segmentierung → Merkmalsextraktion → Klassifizierung → Visualisierung.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 323,
+      "text_sha": "3d7a5a625af69381",
+      "pdf_page": 1,
+      "pdf_cell": 3
+    },
+    {
+      "n": 4,
+      "img": "img/FE05/FE05_s004.webp",
+      "title": "Case Study I: Fahrzeuge erkennen",
+      "text": "Die Fallstudie führt die ganze Einheit: Ziel ist es, Fahrzeuge zu erkennen. Voraussetzungen sind ein Ausgangsbild in geeigneter Auflösung und ein Pre-Processing; zusätzlich stellt sich die Frage, ob eine Fokus-Region subselektiert wird. Die Reihenfolge der folgenden Schritte ist der eigentliche Lernstoff: Auflösung prüfen, Pansharpening, Falschfarben, Differenzbild und Schwellenwert, morphologische Filter, Index.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 261,
+      "text_sha": "bc2cc19d54e2e967",
+      "pdf_page": 2,
+      "pdf_cell": 1
+    },
+    {
+      "n": 5,
+      "img": "img/FE05/FE05_s005.webp",
+      "title": "Ausgangsdaten: WorldView-2 RGB-Szene",
+      "text": "Die Ausgangsszene stammt von WorldView-2 mit 160 cm räumlicher und 4 Tagen zeitlicher Auflösung. Ein Fahrzeug ist etwa 4 × 2 m groß — es belegt also nur wenige Pixel. Genau daran entscheidet sich, ob die Aufgabe überhaupt lösbar ist.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 198,
+      "text_sha": "8fbc450936f8f936",
+      "pdf_page": 2,
+      "pdf_cell": 2
+    },
+    {
+      "n": 6,
+      "img": "img/FE05/FE05_s006.webp",
+      "title": "Untersuchungsgebiet",
+      "text": "Das gewählte Untersuchungsgebiet im Überblick.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 163,
+      "text_sha": "c70e48c360dccf48",
+      "pdf_page": 2,
+      "pdf_cell": 3
+    },
+    {
+      "n": 7,
+      "img": "img/FE05/FE05_s007.webp",
+      "title": "Die vier Wege zur Objekterkennung",
+      "text": "Vier Möglichkeiten zur Filterung bzw. Objekterkennung: objektbasierte Bildanalyse, vorlagenübereinstimmende Methoden (template matching-based), wissensbasierte Methoden und Machine-Learning-basierte Methoden. Diese Vierteilung ist Prüfungsstoff — jede der vier bekommt in den folgenden Folien ihre eigene Charakterisierung.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche vier Methodengruppen zur Objekterkennung unterscheidet die Vorlesung?",
+          "a": "Objektbasierte Bildanalyse (OBIA), vorlagenbasierte Methoden (template matching), wissensbasierte Methoden und Machine-Learning-basierte Methoden.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 322,
+      "text_sha": "72749f212d228ee5",
+      "pdf_page": 3,
+      "pdf_cell": 1
+    },
+    {
+      "n": 8,
+      "img": "img/FE05/FE05_s008.webp",
+      "title": "Objekterkennung — das Forschungsfeld",
+      "text": "Die Objekterkennung spielt eine wichtige Rolle für viele Anwendungen. Ziel ist festzustellen, ob festgelegte Objekte im Bild enthalten sind. Bemerkenswert ist die Einschränkung der Vorlesung: „Objekt“ meint hier nur vom Menschen Geschaffenes. Ein Wald oder ein See ist in diesem Sinn kein Objekt, sondern eine Klasse — das trennt Objekterkennung von Klassifikation.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Was gilt in dieser Vorlesung als „Objekt“ bei der Objekterkennung?",
+          "a": "Ausschließlich vom Menschen Geschaffenes. Ziel ist festzustellen, ob festgelegte Objekte im Bild enthalten sind — natürliche Flächen sind Gegenstand der Klassifikation, nicht der Objekterkennung.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 344,
+      "text_sha": "d122ba471879eff1",
+      "pdf_page": 3,
+      "pdf_cell": 2
+    },
+    {
+      "n": 9,
+      "img": "img/FE05/FE05_s009.webp",
+      "title": "Was die Erkennbarkeit beeinflusst",
+      "text": "Zwei Gruppen von Einflüssen: die Parameter des Aufnahmesystems und die Objekteigenschaften — Kontrast zur Umgebung, Beschaffenheit, Spektralverhalten. Dazu ein bemerkenswerter Zusatz: auch linienhafte Signaturen unterhalb der räumlichen Auflösung sind sichtbar. Eine Straßenmarkierung, die schmäler ist als ein Pixel, kann also trotzdem erkennbar bleiben, wenn ihr Kontrast hoch genug ist, um den Mischwert des Pixels sichtbar zu verschieben.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Können Objekte erkannt werden, die kleiner als die räumliche Auflösung sind?",
+          "a": "Linienhafte Signaturen ja — sie bleiben auch unterhalb der räumlichen Auflösung sichtbar, wenn ihr Kontrast zur Umgebung hoch genug ist, um den Mischwert des Pixels merklich zu verschieben.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 349,
+      "text_sha": "c5e7d2469e86a923",
+      "pdf_page": 3,
+      "pdf_cell": 3
+    },
+    {
+      "n": 10,
+      "img": "img/FE05/FE05_s010.webp",
+      "title": "Methodenübersicht der Objektdetektion (Cheng und Han 2016)",
+      "text": "Systematik der Detektionsmethoden aus der Übersichtsarbeit von Cheng und Han.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 161,
+      "text_sha": "73261d38687a4582",
+      "pdf_page": 4,
+      "pdf_cell": 1
+    },
+    {
+      "n": 11,
+      "img": "img/FE05/FE05_s011.webp",
+      "title": "Methodenübersicht — Fortsetzung",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 161,
+      "text_sha": "91835e526de3b97e",
+      "pdf_page": 4,
+      "pdf_cell": 2
+    },
+    {
+      "n": 12,
+      "img": "img/FE05/FE05_s012.webp",
+      "title": "OBIA — objektbasierte Bildanalyse",
+      "text": "OBIA (object-based image analysis) unterliegt immer einem zweistufigen Ansatz: erst Segmentierung, dann Klassifikation. Zur Klassifikation nutzt sie vier Informationsarten: spektrale Information, Form, Textur und Nachbarschaftsinformation. Darin liegt der ganze Unterschied zur pixelbasierten Klassifikation — die kennt nur die spektrale Information eines einzelnen Pixels, OBIA kennt zusätzlich die Gestalt und die Umgebung eines Segments.",
+      "terms": [
+        {
+          "term": "OBIA (objektbasierte Bildanalyse)",
+          "def": "Zweistufiger Ansatz aus Segmentierung und anschließender Klassifikation; nutzt zur Klassifikation spektrale Information, Form, Textur und Nachbarschaftsinformation."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Aus welchen zwei Stufen besteht OBIA, und welche vier Informationsarten nutzt sie?",
+          "a": "Erst Segmentierung, dann Klassifikation. Genutzt werden spektrale Information, Form, Textur und Nachbarschaftsinformation.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 362,
+      "text_sha": "b030b30f8e445c1f",
+      "pdf_page": 4,
+      "pdf_cell": 3
+    },
+    {
+      "n": 13,
+      "img": "img/FE05/FE05_s013.webp",
+      "title": "Decision Tree (Entscheidungsbaum)",
+      "text": "Der Entscheidungsbaum klassifiziert schrittweise: Schwellenwerte teilen eine bestehende Klasse, in der Regel in zwei neue Klassen, und das wiederholt sich. Sein Vorteil ist die bessere Möglichkeit, Expertenwissen zu integrieren — jede Verzweigung ist eine nachvollziehbare Regel, die man selbst formuliert. Das ist die Prüfungsantwort: Klassifikation durch einen Entscheidungsbaum erfolgt durch schrittweise Trennung von Klassen durch Schwellenwerte — nicht durch manuelle Zuweisung und nicht über Wahrscheinlichkeiten (das wäre Maximum Likelihood).",
+      "terms": [
+        {
+          "term": "Decision Tree (Entscheidungsbaum)",
+          "def": "Schrittweise Klassifikation, bei der Schwellenwerte eine bestehende Klasse jeweils (meist) in zwei Klassen teilen; erlaubt es, Expertenwissen als explizite Regeln einzubauen."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie wird eine Klassifikation durch einen Entscheidungsbaum vorgenommen?",
+          "a": "Durch schrittweise Trennung von Klassen mittels Schwellenwerten — jede Stufe teilt eine bestehende Klasse in (meist) zwei. Nicht durch manuelle Zuweisung und nicht über die Wahrscheinlichkeit einer Klassenzugehörigkeit.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist der Hauptvorteil eines Decision Tree?",
+          "a": "Die bessere Möglichkeit, Expertenwissen zu integrieren: jede Verzweigung ist eine explizit formulierte, nachvollziehbare Regel.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 311,
+      "text_sha": "f7a5ff70427e2b17",
+      "pdf_page": 5,
+      "pdf_cell": 1
+    },
+    {
+      "n": 14,
+      "img": "img/FE05/FE05_s014.webp",
+      "title": "Objektinformationen in OBIA",
+      "text": "Womit ein Segment beschrieben wird, in fünf Gruppen. Farbe und spektrale Information: Absolutwerte, statistische Zahlen, Ratios. Größe: Fläche, Kantenlänge, Länge-Breite-Verhältnis. Form: rechteckige Form, Asymmetrie. Textur: Glättung, Homogenität. Klassen-Hierarchie: Nachbarschaft zu bestimmten Klassen, Distanzmaße zwischen Klassen. Für die Fallstudie heißt das konkret: ein Fahrzeug erkennt man nicht an der Farbe, sondern am Länge-Breite-Verhältnis, an der rechteckigen Form und daran, dass es auf einer Straße liegt.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Mit welchen fünf Gruppen von Objektinformationen arbeitet OBIA?",
+          "a": "Farbe/spektrale Information (Absolutwerte, Statistik, Ratios), Größe (Fläche, Kantenlänge, Länge-Breite-Verhältnis), Form (Rechteckigkeit, Asymmetrie), Textur (Glättung, Homogenität) und Klassen-Hierarchie (Nachbarschaft zu Klassen, Distanzmaße).",
+          "difficulty": 3,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 420,
+      "text_sha": "c837a1388ee44ad5",
+      "pdf_page": 5,
+      "pdf_cell": 2
+    },
+    {
+      "n": 15,
+      "img": "img/FE05/FE05_s015.webp",
+      "title": "eCognition",
+      "text": "eCognition ist die Standardsoftware für OBIA: Klassifikation nach einer Segmentierung, wobei die Lösung durch flexible Kombination der Interpretationsstufen entsteht.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 255,
+      "text_sha": "6fd6fee1031b8701",
+      "pdf_page": 5,
+      "pdf_cell": 3
+    },
+    {
+      "n": 16,
+      "img": "img/FE05/FE05_s016.webp",
+      "title": "Vorlagenbasierte Methoden (template matching)",
+      "text": "Es gibt starre und abweichende (deformierbare) Ansätze; unterschieden werden sie durch das Ähnlichkeitsmaß. Die Vorlagen sollen feststellen, ob Teile des Bildes ihnen entsprechen. Als Ähnlichkeitsmaße werden die euklidische Distanz und die Standardabweichung genannt. Der Ansatz lautet also: Vorlagen sollen mit potentiellen Ergebnissen abgeglichen werden.",
+      "terms": [
+        {
+          "term": "Template matching (vorlagenbasierte Methode)",
+          "def": "Objekterkennung durch Abgleich einer Vorlage mit Bildausschnitten; die Übereinstimmung wird über ein Ähnlichkeitsmaß (euklidische Distanz, Standardabweichung) bewertet."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie funktioniert template matching, und welche Ähnlichkeitsmaße nennt die Vorlesung?",
+          "a": "Vorlagen werden mit Bildausschnitten abgeglichen, um festzustellen, ob Teile des Bildes ihnen entsprechen. Ähnlichkeitsmaße: euklidische Distanz und Standardabweichung. Es gibt starre und abweichende (deformierbare) Ansätze.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 380,
+      "text_sha": "2a6c0b4f04f86ed9",
+      "pdf_page": 6,
+      "pdf_cell": 1
+    },
+    {
+      "n": 17,
+      "img": "img/FE05/FE05_s017.webp",
+      "title": "Probleme des template matching",
+      "text": "Obwohl die Entwicklung ein großer Vorstoß war, hat der Ansatz viele Nachteile: es braucht akkurate Vorlagen, diese sind oft nicht verfügbar, und auch mit dem abweichenden (deformierbaren) Ansatz ist keine optimale Lösung möglich. Kurz: die Methode scheitert an der Variabilität der Wirklichkeit.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche Nachteile hat der vorlagenbasierte Ansatz?",
+          "a": "Er erfordert akkurate Vorlagen, die oft nicht verfügbar sind; und auch mit deformierbaren („abweichenden“) Vorlagen ist keine optimale Lösung möglich.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 377,
+      "text_sha": "f65bf3519c9d0e9b",
+      "pdf_page": 6,
+      "pdf_cell": 2
+    },
+    {
+      "n": 18,
+      "img": "img/FE05/FE05_s018.webp",
+      "title": "Template matching — Beispiel",
+      "text": "Beispieldarstellung nach Modegi 2008.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 168,
+      "text_sha": "dbd13302aa2e674f",
+      "pdf_page": 6,
+      "pdf_cell": 3
+    },
+    {
+      "n": 19,
+      "img": "img/FE05/FE05_s019.webp",
+      "title": "Der wissensbasierte Ansatz",
+      "text": "Ein sehr populärer Ansatz: die Fragestellung nach der Objektdetektion wird in einer Hypothese formuliert, und die Problemlösung erfolgt durch eingesetztes Wissen. Das Zitat der Folie bringt es auf den Punkt: „Das Wissen ist eine Abstraktion der Sicht auf die Welt und der Wahrnehmung von Objekten“ (Boussaid et al.: 472). Für die Prüfung ist genau diese Formulierung entscheidend: der wissensbasierte Ansatz formuliert eine Hypothese — die Analyse des Nachbarschaftsverhaltens zwischen Segmenten gehört zu OBIA, der Abgleich von Vorlagen zum template matching.",
+      "terms": [
+        {
+          "term": "Wissensbasierter Ansatz",
+          "def": "Objektdetektion, bei der die Fragestellung als Hypothese formuliert und durch eingesetztes Wissen gelöst wird; ein Top-Down-Prozess."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Welchen Lösungsansatz verfolgt ein wissensbasierter Ansatz der Objekterkennung?",
+          "a": "Die Fragestellung wird als Hypothese formuliert und durch eingesetztes Wissen gelöst. Das Nachbarschaftsverhalten zwischen Segmenten zu analysieren gehört zu OBIA, der Abgleich von Vorlagen zum template matching.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 399,
+      "text_sha": "68a8ba2bfb6f05b8",
+      "pdf_page": 7,
+      "pdf_cell": 1
+    },
+    {
+      "n": 20,
+      "img": "img/FE05/FE05_s020.webp",
+      "title": "Wie man mit „Wissen“ arbeitet",
+      "text": "Mit Wissen wird ein Konzept über Charakteristika und Verhalten erstellt: spezifische Parameter über die Geometrie, radiometrische Eigenschaften des Objekts und kontextuales Wissen. Der Zusatz der Folie ist prüfungsrelevant: Es ist ein Top-Down-Prozess — man geht von der Hypothese zum Bild, nicht vom Bild zur Hypothese.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Ist der wissensbasierte Ansatz ein Top-Down- oder ein Bottom-Up-Prozess, und welches Wissen fließt ein?",
+          "a": "Ein Top-Down-Prozess. Eingesetzt werden spezifische Parameter über die Geometrie, radiometrische Eigenschaften des Objekts und kontextuales Wissen.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 376,
+      "text_sha": "aa492c116bfe3e53",
+      "pdf_page": 7,
+      "pdf_cell": 2
+    },
+    {
+      "n": 21,
+      "img": "img/FE05/FE05_s021.webp",
+      "title": "Wissensbasierter Ansatz und OBIA — schwer zu trennen",
+      "text": "Die beiden Ansätze sind nur schwer zu trennen: das segmentierte Bild wird durch einen Regelsatz analysiert, und durch Regeln — also durch Wissen — werden Objekte voneinander getrennt. In der Praxis ist jede OBIA-Klassifikation mit selbst formulierten Regeln zugleich wissensbasiert.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 310,
+      "text_sha": "cb8eff21d7e14f17",
+      "pdf_page": 7,
+      "pdf_cell": 3
+    },
+    {
+      "n": 22,
+      "img": "img/FE05/FE05_s022.webp",
+      "title": "Wissen im Segmentierungsprozess",
+      "text": "Auch die Parameter zur Segmentierung basieren auf Wissen; neues Wissen kann sich während des Prozesses bilden, und die Parameter werden entsprechend abgestimmt. Der Prozess ist also iterativ, nicht linear.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 303,
+      "text_sha": "b2ce7512d360d3b7",
+      "pdf_page": 8,
+      "pdf_cell": 1
+    },
+    {
+      "n": 23,
+      "img": "img/FE05/FE05_s023.webp",
+      "title": "Machine-Learning-basierte Methoden",
+      "text": "Der neueste Ansatz zur Objektdetektion: aus dem Inputbild werden Merkmale extrahiert, danach kann die Klassifikation erfolgen. Optional kann eine Dimensionsreduzierung vorgenommen werden, unter Einsatz verschiedenster linearer und non-linearer Techniken. Die Dimensionsreduzierung ist genau das, was in Einheit 6 als PCA behandelt wird.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie läuft eine Machine-Learning-basierte Objektdetektion ab?",
+          "a": "Aus dem Inputbild werden Merkmale extrahiert, optional folgt eine Dimensionsreduzierung (lineare oder non-lineare Techniken), danach die Klassifikation.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 403,
+      "text_sha": "3702eebfcff5d250",
+      "pdf_page": 8,
+      "pdf_cell": 2
+    },
+    {
+      "n": 24,
+      "img": "img/FE05/FE05_s024.webp",
+      "title": "Falschfarbendarstellung der WorldView-2-Szene",
+      "text": "Dieselbe Szene als Falschfarbendarstellung, verbunden mit der Frage, ob hier ein wissensbasierter Ansatz greift. Eine Falsch-Farben-Darstellung entsteht, wenn Spektralkanäle auf andere Bildschirmfarben gelegt werden als die, denen sie physikalisch entsprechen — klassisch der NIR-Kanal auf Rot, Rot auf Grün und Grün auf Blau. Weil gesunde Vegetation im NIR stark reflektiert, leuchtet sie dadurch kräftig rot.",
+      "terms": [
+        {
+          "term": "Falsch-Farben Darstellung",
+          "def": "Darstellung, bei der Spektralkanäle auf andere Bildschirmfarben gelegt werden als die physikalisch entsprechenden — klassisch NIR auf Rot, Rot auf Grün, Grün auf Blau; gesunde Vegetation erscheint dadurch rot."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist eine Falsch-Farben-Darstellung, und welche Kanalbelegung ist die klassische?",
+          "a": "Spektralkanäle werden auf andere Bildschirmfarben gelegt als die physikalisch entsprechenden. Klassisch: NIR auf Rot, Rot auf Grün, Grün auf Blau.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Warum leuchtet Vegetation in der klassischen Falsch-Farben-Darstellung rot?",
+          "a": "Weil der NIR-Kanal auf Rot gelegt wird und gesunde Vegetation im NIR aufgrund ihrer Zellstruktur sehr stark reflektiert. Kräftiges Rot heißt also vitale Vegetation, mattes Rot geschädigte.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 184,
+      "text_sha": "b07da0fc29c752d3",
+      "pdf_page": 8,
+      "pdf_cell": 3
+    },
+    {
+      "n": 25,
+      "img": "img/FE05/FE05_s025.webp",
+      "title": "Falschfarben zur Hervorhebung von Objekten",
+      "text": "Die Falschfarbendarstellung legt den NIR-Kanal auf Rot; Vegetation leuchtet dadurch rot und hebt sich scharf von Asphalt und Fahrzeugen ab. Visualisierung ist hier kein Schmuck, sondern der erste Schritt der Objekttrennung — wer die Vegetation sicher ausschließen kann, muss sie in den folgenden Filterschritten nicht mehr behandeln.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 204,
+      "text_sha": "88f7396e8ee48113",
+      "pdf_page": 9,
+      "pdf_cell": 1
+    },
+    {
+      "n": 26,
+      "img": "img/FE05/FE05_s026.webp",
+      "title": "Pansharpening",
+      "text": "Pansharpening ist die Zusammenführung mehrerer Bänder bzw. Bilder unterschiedlicher Auflösung. Es ist eine radiometrische Transformation, für die es unterschiedliche Methoden gibt; bei jeder dieser Methoden wird die räumliche Auflösung unter Beibehaltung der Farbe verbessert. Im Beispiel: die optischen Bänder und das NIR liegen bei 160 cm, das panchromatische Band bei 40 cm — das Ergebnis ist ein Farbbild mit 40 cm. Der Trick dahinter ist das IHS-System: man tauscht die Intensity gegen den panchromatischen Kanal aus und behält Hue und Saturation.",
+      "terms": [
+        {
+          "term": "Pansharpening",
+          "def": "Radiometrische Transformation, die Bänder unterschiedlicher Auflösung zusammenführt: die räumliche Auflösung wird unter Beibehaltung der Farbe verbessert, indem die Farbkanäle mit dem feineren panchromatischen Kanal kombiniert werden."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist Pansharpening, und was bleibt dabei erhalten?",
+          "a": "Die Zusammenführung von Bändern unterschiedlicher Auflösung — eine radiometrische Transformation. Die räumliche Auflösung wird verbessert, die Farbe bleibt erhalten (im Beispiel 160 cm Farbkanäle + 40 cm panchromatisch).",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Voraussetzung muss ein Satellit erfüllen, damit Pansharpening möglich ist?",
+          "a": "Er muss einen panchromatischen Kanal mit höherer räumlicher Auflösung als die multispektralen Kanäle haben — etwa Landsat 7/8 (15 m Pan zu 30 m MS) oder WorldView-2 (40–46 cm Pan zu 160–180 cm MS).",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 436,
+      "text_sha": "dbcaa8c0a14f4d53",
+      "pdf_page": 9,
+      "pdf_cell": 2
+    },
+    {
+      "n": 27,
+      "img": "img/FE05/FE05_s027.webp",
+      "title": "Differenzbild und Schwellenwertverfahren",
+      "text": "Das Differenzbild ist eine einfache Möglichkeit zur Darstellung von Veränderungen. Die Objektextraktion erfolgt durch Filterung, konkret durch ein Schwellenwertverfahren, und das Ergebnis ist ein Binärbild. Das Histogramm liefert dafür die Grauwertverteilung — es zeigt, wo der Schwellenwert sinnvoll zu setzen ist. Hier laufen mehrere Fäden zusammen: Histogramm aus Einheit 4, Binärbild aus der Bildtiefe, und das Binärbild ist die Eingangsbedingung für die morphologischen Filter der nächsten Folien.",
+      "terms": [
+        {
+          "term": "Binärbild",
+          "def": "Bild mit nur zwei Werten (1 oder 0, Schwarz oder Weiß); entsteht typischerweise durch ein Schwellenwertverfahren und ist die Eingangsform für morphologische Filter."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie entsteht aus einem Differenzbild ein Binärbild, und wozu dient dabei das Histogramm?",
+          "a": "Durch ein Schwellenwertverfahren: alle Werte über dem Schwellenwert werden 1, alle darunter 0. Das Histogramm zeigt die Grauwertverteilung und damit, wo der Schwellenwert sinnvoll liegt.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 322,
+      "text_sha": "a74f871bd6e30113",
+      "pdf_page": 9,
+      "pdf_cell": 3
+    },
+    {
+      "n": 28,
+      "img": "img/FE05/FE05_s028.webp",
+      "title": "Kernel und Array",
+      "text": "Lokale Filter stehen immer in Bezug zu einem Kernel. Der Kernel (auch Maske) ist ein Array mit definierter Größe; ein Array ist eine Anordnung von Objekten bzw. Elementen. Kernel bestimmen den Zusammenhang zur Nachbarschaft — die Größe des Kernels legt also fest, wie weit ein Filter „schaut“.",
+      "terms": [
+        {
+          "term": "Kernel (Maske)",
+          "def": "Array mit definierter Größe, das den Zusammenhang eines Pixels zu seiner Nachbarschaft bestimmt; jeder lokale Filter arbeitet über einen Kernel."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist ein Kernel, und was legt seine Größe fest?",
+          "a": "Ein Array (eine Maske) mit definierter Größe, das den Zusammenhang zur Nachbarschaft bestimmt. Seine Größe legt fest, wie weit der Filter in die Umgebung greift — und muss deshalb zur Objektgröße passen.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 329,
+      "text_sha": "eae475d7cd29f477",
+      "pdf_page": 10,
+      "pdf_cell": 1
+    },
+    {
+      "n": 29,
+      "img": "img/FE05/FE05_s029.webp",
+      "title": "Kernel — Darstellung",
+      "text": "Darstellung typischer Kernelgrößen und -formen.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 144,
+      "text_sha": "6fa3328290087a9c",
+      "pdf_page": 10,
+      "pdf_cell": 2
+    },
+    {
+      "n": 30,
+      "img": "img/FE05/FE05_s030.webp",
+      "title": "Morphologische Filter — Eigenschaften",
+      "text": "Fünf Merkmale: Es sind Nachbarschaftsoperatoren. Die Anwendung erfolgt an Binärbildern. Zugrunde liegt ein Schwellwertprozess mit Zuweisung von 1 oder 0. Es sind non-lineare Filter. Sie dienen der Eliminierung von Rauschen im Bild und dem Hervorheben von Strukturen durch einen „Siebvorgang“. Der erste und der zweite Punkt sind die häufigste Prüfungsfrage: morphologische Filter werden an Binärbildern angewandt — nicht an RGB-Bildern und nicht an „Sekundärbildern“.",
+      "terms": [
+        {
+          "term": "Morphologische Filter",
+          "def": "Non-lineare Nachbarschaftsoperatoren, die an Binärbildern (Werte 1 oder 0) arbeiten; sie eliminieren Rauschen und heben Strukturen durch einen Siebvorgang hervor."
+        }
+      ],
+      "cards": [
+        {
+          "q": "An welchen Bildern werden morphologische Filter angewendet?",
+          "a": "An Binärbildern — Bildern mit nur zwei Werten (1 oder 0), die aus einem Schwellwertprozess stammen. Nicht an RGB-Bildern.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Sind morphologische Filter lineare oder non-lineare Operatoren, und wozu dienen sie?",
+          "a": "Non-lineare Nachbarschaftsoperatoren. Sie eliminieren Rauschen im Bild und heben Strukturen durch einen „Siebvorgang“ hervor.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 329,
+      "text_sha": "aa9b6c134994ef1a",
+      "pdf_page": 10,
+      "pdf_cell": 3
+    },
+    {
+      "n": 31,
+      "img": "img/FE05/FE05_s031.webp",
+      "title": "Morphologie und die fünf Standardoperatoren",
+      "text": "Morphologie meint hier die Form der gefilterten Objekte: die Geometrie wird durch den Kernel verändert. Die fünf Standardoperatoren sind Erosion, Dilation, Majority, Opening und Closing.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche fünf morphologischen Standardoperatoren nennt die Vorlesung?",
+          "a": "Erosion, Dilation, Majority, Opening und Closing.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 288,
+      "text_sha": "331560ff5eca7adb",
+      "pdf_page": 11,
+      "pdf_cell": 1
+    },
+    {
+      "n": 32,
+      "img": "img/FE05/FE05_s032.webp",
+      "title": "Die Standardoperatoren im Bildvergleich",
+      "text": "Die Reihe nach Szeliski 2011 zeigt dieselbe Figur — ein „j“ — als Input, nach Dilation, Erosion, Opening, Closing und Majority. Die Dilation macht die Form fetter, die Erosion dünner und lässt den kleinen Punkt des j ganz verschwinden. Opening entfernt den Punkt ebenfalls, lässt den Strich aber in ursprünglicher Dicke stehen. Closing schließt Lücken, Majority glättet die Ränder. Die drei Wirkungen, die die Folie nennt: Wachsen oder Schrumpfen, Entfernen kleinräumiger Strukturen, Glätten des Bildes.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche drei Wirkungen können morphologische Standardoperatoren haben?",
+          "a": "Wachsen oder Schrumpfen von Strukturen, Entfernen kleinräumiger Strukturen und Glätten des Bildes.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 332,
+      "text_sha": "84c03d819c7286ee",
+      "pdf_page": 11,
+      "pdf_cell": 2
+    },
+    {
+      "n": 33,
+      "img": "img/FE05/FE05_s033.webp",
+      "title": "Erosion, Dilation, Opening",
+      "text": "Erosion: Eliminierung von kleinen Strukturen, große Formen werden verkleinert. Dilation: Anwachsen jedes Pixels um die Form des Kernels. Opening: gleichzeitige Wiederherstellung verlorener Strukturen — gemeint ist, dass Opening zuerst erodiert und dann wieder dilatiert, sodass kleine Störungen verschwinden, die übrigen Formen aber ihre ursprüngliche Größe zurückbekommen. Merkhilfe: Erosion frisst von außen, Dilation legt an.",
+      "terms": [
+        {
+          "term": "Erosion",
+          "def": "Morphologischer Operator, der kleine Strukturen eliminiert und große Formen verkleinert."
+        },
+        {
+          "term": "Dilation",
+          "def": "Morphologischer Operator, bei dem jeder Pixel um die Form des Kernels anwächst."
+        },
+        {
+          "term": "Opening",
+          "def": "Erosion mit anschließender Dilation: kleine Störungen verschwinden, die verbleibenden Strukturen werden in ihrer ursprünglichen Größe wiederhergestellt."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was bewirken Erosion und Dilation?",
+          "a": "Erosion eliminiert kleine Strukturen und verkleinert große Formen. Dilation lässt jeden Pixel um die Form des Kernels anwachsen.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Warum entfernt Opening kleine Störungen, ohne die großen Formen zu schrumpfen?",
+          "a": "Weil es aus Erosion und anschließender Dilation besteht: die Erosion frisst das Kleine ganz weg, die Dilation gibt dem Verbliebenen seine ursprüngliche Größe zurück.",
+          "difficulty": 3,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 331,
+      "text_sha": "8e2c49c3bf9aa69d",
+      "pdf_page": 11,
+      "pdf_cell": 3
+    },
+    {
+      "n": 34,
+      "img": "img/FE05/FE05_s034.webp",
+      "title": "Closing und Majority",
+      "text": "Closing: Pixel werden zur Struktur hinzugefügt — es ist die umgekehrte Reihenfolge des Opening, nämlich Dilation mit anschließender Erosion, wodurch Löcher und Lücken geschlossen werden, ohne dass die Form insgesamt wächst. Majority: gleichzeitige Wiederherstellung verlorener Strukturen; jeder Pixel bekommt den Wert, den die Mehrheit seiner Nachbarschaft hat, was Ränder glättet und einzelne Ausreißer beseitigt.",
+      "terms": [
+        {
+          "term": "Closing",
+          "def": "Dilation mit anschließender Erosion: Löcher und Lücken in Strukturen werden geschlossen, ohne dass die Form insgesamt wächst."
+        },
+        {
+          "term": "Majority",
+          "def": "Morphologischer Operator, der jedem Pixel den Wert der Mehrheit seiner Nachbarschaft zuweist; glättet Ränder und beseitigt einzelne Ausreißer."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist der Unterschied zwischen Opening und Closing?",
+          "a": "Opening ist Erosion dann Dilation — es entfernt kleine Störungen außerhalb der Struktur. Closing ist Dilation dann Erosion — es fügt Pixel zur Struktur hinzu und schließt Löcher und Lücken innerhalb.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 239,
+      "text_sha": "8017df604b402f1e",
+      "pdf_page": 12,
+      "pdf_cell": 1
+    },
+    {
+      "n": 35,
+      "img": "img/FE05/FE05_s035.webp",
+      "title": "Morphologische Filter — Beispiel (Pfeiffer 2008)",
+      "text": "Anschauungsbeispiel der morphologischen Operatoren an einem Binärbild.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 149,
+      "text_sha": "b9b909e152531037",
+      "pdf_page": 12,
+      "pdf_cell": 2
+    },
+    {
+      "n": 36,
+      "img": "img/FE05/FE05_s036.webp",
+      "title": "Case Study: das gefilterte Bild",
+      "text": "Die Filterung dient dazu, die Form von Fahrzeugen hervorzuheben und Rauschen zu entfernen. Entscheidend ist der dritte Punkt: die Kernelgröße muss an die Pixelanzahl der Fahrzeuge angepasst werden. Ist der Kernel zu groß, verschwinden die Fahrzeuge mit dem Rauschen; ist er zu klein, bleibt das Rauschen stehen. Das ist die praktische Lehre der ganzen Fallstudie.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wonach richtet sich die Kernelgröße bei der Filterung zur Fahrzeugerkennung?",
+          "a": "Nach der Pixelanzahl, die ein Fahrzeug im Bild belegt. Ein zu großer Kernel löscht die Fahrzeuge mit dem Rauschen, ein zu kleiner lässt das Rauschen stehen.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 258,
+      "text_sha": "66bf2862ec2b8de3",
+      "pdf_page": 12,
+      "pdf_cell": 3
+    },
+    {
+      "n": 37,
+      "img": "img/FE05/FE05_s037.webp",
+      "title": "Was sind Indizes?",
+      "text": "Ein Index ist ein Verhältnis zwischen einzelnen Kanälen. Damit sollen die Spektraleigenschaften bestimmter Materialien hervorgehoben werden; es entsteht ein neues, eigenes Bild. Die Konstruktion beruht auf der Kombination von Reflexions- und Absorptionsmaxima bzw. -minima — man stellt also den Kanal, in dem das gesuchte Material besonders hell ist, dem gegenüber, in dem es besonders dunkel ist.",
+      "terms": [
+        {
+          "term": "Index",
+          "def": "Verhältnis zwischen einzelnen Kanälen, das die Spektraleigenschaften bestimmter Materialien hervorhebt; es entsteht ein neues Bild. Konstruiert aus der Kombination von Reflexions- und Absorptionsmaxima bzw. -minima."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist ein Index, und nach welchem Prinzip wird er gebaut?",
+          "a": "Ein Verhältnis zwischen einzelnen Kanälen, das ein neues Bild ergibt und die Spektraleigenschaften bestimmter Materialien hervorhebt. Gebaut wird er aus der Kombination von Reflexions- und Absorptionsmaxima bzw. -minima: der Kanal, in dem das Material hell ist, gegen den, in dem es dunkel ist.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 357,
+      "text_sha": "f4869aded299872c",
+      "pdf_page": 13,
+      "pdf_cell": 1
+    },
+    {
+      "n": 38,
+      "img": "img/FE05/FE05_s038.webp",
+      "title": "Case Study — Zwischenergebnis",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 117,
+      "text_sha": "26a85eca75524b76",
+      "pdf_page": 13,
+      "pdf_cell": 2
+    },
+    {
+      "n": 39,
+      "img": "img/FE05/FE05_s039.webp",
+      "title": "Indizes für urbane Flächen: BAI und REI",
+      "text": "Zwei Indizes für sehr hochauflösende Daten. BAI (Built-up Area Index) = (Blau − NIR) / (Blau + NIR). REI (Road Extraction Index) = ((NIR(2) − Blau) / (NIR(2) + Blau)) · NIR(2). Beide folgen demselben Bauplan wie der NDVI: eine normierte Differenz zweier Kanäle, deren Werte sich beim gesuchten Material besonders stark unterscheiden. Beim BAI steht Blau vorne, weil bebaute Flächen im Blau vergleichsweise hell und im NIR dunkel sind — genau umgekehrt zur Vegetation.",
+      "terms": [
+        {
+          "term": "BAI (Built-up Area Index)",
+          "def": "(Blau − NIR) / (Blau + NIR); hebt bebaute Flächen hervor, die im Blau relativ hell und im NIR dunkel sind."
+        },
+        {
+          "term": "REI (Road Extraction Index)",
+          "def": "((NIR(2) − Blau) / (NIR(2) + Blau)) · NIR(2); Index zur Extraktion von Straßen aus sehr hochauflösenden Daten."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie ist der BAI definiert, und warum hebt er bebaute Flächen hervor?",
+          "a": "BAI = (Blau − NIR) / (Blau + NIR). Bebaute Flächen sind im Blau relativ hell und im NIR dunkel, sodass die Differenz positiv wird — bei Vegetation ist es genau umgekehrt.",
+          "difficulty": 3,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Wie lautet die Formel des REI (Road Extraction Index)?",
+          "a": "REI = ((NIR(2) − Blau) / (NIR(2) + Blau)) · NIR(2) — eine normierte Differenz, zusätzlich mit dem NIR(2)-Kanal gewichtet.",
+          "difficulty": 3,
+          "kind": "schema",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 260,
+      "text_sha": "1c7c2727d4ea82f4",
+      "pdf_page": 13,
+      "pdf_cell": 3
+    },
+    {
+      "n": 40,
+      "img": "img/FE05/FE05_s040.webp",
+      "title": "REI — Ergebnisbild",
+      "text": "Das Ergebnis des Road Extraction Index: das Straßennetz tritt als zusammenhängendes helles Netz hervor.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 143,
+      "text_sha": "8fca00c198f18d89",
+      "pdf_page": 14,
+      "pdf_cell": 1
+    },
+    {
+      "n": 41,
+      "img": "img/FE05/FE05_s041.webp",
+      "title": "Zugeschnittenes Untersuchungsgebiet",
+      "text": "Das Endergebnis der Fallstudie im zugeschnittenen Untersuchungsgebiet.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 156,
+      "text_sha": "ca51cb1c1771aca5",
+      "pdf_page": 14,
+      "pdf_cell": 2
+    },
+    {
+      "n": 42,
+      "img": "img/FE05/FE05_s042.webp",
+      "title": "Ausblick: Bildverarbeitung III",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 148,
+      "text_sha": "e39f32db8894aaaf",
+      "pdf_page": 14,
+      "pdf_cell": 3
+    },
+    {
+      "n": 43,
+      "img": "img/FE05/FE05_s043.webp",
+      "title": "Kontakt",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 100,
+      "text_sha": "b5f5a37674911c40",
+      "pdf_page": 15,
+      "pdf_cell": 1
+    },
+    {
+      "n": 44,
+      "img": "img/FE05/FE05_s044.webp",
+      "title": "Quellen",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 1041,
+      "text_sha": "9b7b2d4ffb96074d",
+      "pdf_page": 15,
+      "pdf_cell": 2
+    }
+  ]
+}

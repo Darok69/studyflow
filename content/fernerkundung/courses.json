@@ -1,0 +1,141 @@
+{
+  "exam": {
+    "name": "VO 290234 Bildverarbeitung und Fernerkundung (Universität Wien, Oliver Rehberger)",
+    "date": "2026-12-14",
+    "language": "de",
+    "format": "Digitální Moodle test, německy, na místě v GIS-Laboru (1. patro NIG). Podle slidů FE10 s045/s047: 15× single choice (právě 1 správná ze 3) po 1 bodu + 15× multiple choice (aspoň 1 správná ze 4, částečné body) po 2 bodech = 45 bodů. Notenschlüssel: <23 = 5, ≥23 = 4, ≥28,5 = 3, ≥34 = 2, ≥39,5 = 1 — prospěch od 23 bodů (51 %). Dvě třetiny bodů (30 ze 45) jsou v multiple choice, takže se u každé ze čtyř možností rozhoduje zvlášť pravda/nepravda. Čtyři termíny za rok (konec června, říjen, leden, březen). Moodle: „Für die Prüfung sind sämtliche Inhalte der Folien relevant“ — seznam Terminologie je doporučená, ne povinná příprava."
+  },
+  "courses": [
+    {
+      "code": "FE",
+      "number": "290234",
+      "title": "Bildverarbeitung und Fernerkundung",
+      "subject": "Bildverarbeitung und Fernerkundung",
+      "root": "/Users/danielmarek/Library/Mobile Documents/com~apple~CloudDocs/Uni Wien/Geographie/4. Semester/Bildverarbeitung/SS2025-290234-1_20260917_1827/Folien",
+      "lectures": [
+        {
+          "id": "FE00",
+          "unit": "Einheit 0",
+          "title": "Allgemeines: Was ist Fernerkundung, Auflösungen, Pixel",
+          "file": "00_Allgemeines.pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames",
+          "note": "Slide 12 je screenshot Moodlu se zadáním zkoušky; slide 8 nese Notenschlüssel."
+        },
+        {
+          "id": "FE01",
+          "unit": "Einheit 1",
+          "title": "Geschichte und Physikalische Grundlagen",
+          "file": "01_Geschichte und Physikalische Grundlagen.pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        },
+        {
+          "id": "FE02",
+          "unit": "Einheit 2",
+          "title": "Reflexionen und Sensoren",
+          "file": "02_Reflexionen und Sensoren.pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        },
+        {
+          "id": "FE03",
+          "unit": "Einheit 3",
+          "title": "Satelliten",
+          "file": "03_Satelliten.pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        },
+        {
+          "id": "FE04",
+          "unit": "Einheit 4",
+          "title": "Bildverarbeitung I: Digitales Bild, Histogramm, Operatoren",
+          "file": "04_Bildverarbeitung I.pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        },
+        {
+          "id": "FE05",
+          "unit": "Einheit 5",
+          "title": "Bildverarbeitung II: Filterung (Case Study I)",
+          "file": "05_Bildverarbeitung II (Case Study I).pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        },
+        {
+          "id": "FE06",
+          "unit": "Einheit 6",
+          "title": "Transformationen: Korrektur, Geokodierung, PCA",
+          "file": "06_Transformationen.pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        },
+        {
+          "id": "FE07",
+          "unit": "Einheit 7",
+          "title": "Klassifikationen",
+          "file": "07_Klassifikationen.pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        },
+        {
+          "id": "FE08",
+          "unit": "Einheit 8",
+          "title": "Indizes und Accuracy Assessment (Case Study II)",
+          "file": "08_Indizes (Case Study II).pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        },
+        {
+          "id": "FE09",
+          "unit": "Einheit 9",
+          "title": "Anwendungsbeispiele: Copernicus, CLMS, CORINE",
+          "file": "09_Anwendungsbeispiele.pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        },
+        {
+          "id": "FE10",
+          "unit": "Einheit 10",
+          "title": "Projektablauf: Datenbezug und Data Levels",
+          "file": "10_Projektablauf.pdf",
+          "nup": [
+            1,
+            3
+          ],
+          "cells": "frames"
+        }
+      ]
+    }
+  ]
+}

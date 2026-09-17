@@ -1,0 +1,1032 @@
+{
+  "lecture_id": "FE00",
+  "course": "FE",
+  "course_title": "Bildverarbeitung und Fernerkundung",
+  "course_number": "290234",
+  "unit": "Einheit 0",
+  "title": "Allgemeines: Was ist Fernerkundung, Auflösungen, Pixel",
+  "source_file": "raw/FE00_00-allgemeines.pdf",
+  "source_sha256": "0cf98f4dbe3c44c973c02eaecbf80c9076c775e1fc77b55f37bd710568554e80",
+  "source_pages": 15,
+  "slides_per_page": 3,
+  "slide_count": 43,
+  "updated_at": "2026-09-17T17:15:36+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/FE00/FE00_s001.webp",
+      "title": "Titelfolie",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 145,
+      "text_sha": "1303359de2b1dbef",
+      "pdf_page": 1,
+      "pdf_cell": 1
+    },
+    {
+      "n": 2,
+      "img": "img/FE00/FE00_s002.webp",
+      "title": "Der Vortragende",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 627,
+      "text_sha": "77244071a570bd30",
+      "pdf_page": 1,
+      "pdf_cell": 2
+    },
+    {
+      "n": 3,
+      "img": "img/FE00/FE00_s003.webp",
+      "title": "Stellung der Vorlesung im Curriculum",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 170,
+      "text_sha": "4b3644312957b919",
+      "pdf_page": 1,
+      "pdf_cell": 3
+    },
+    {
+      "n": 4,
+      "img": "img/FE00/FE00_s004.webp",
+      "title": "Inhalte der Vorlesung I — Einführung und Physik",
+      "text": "Der erste Block der Vorlesung: Einführung (Geschichte der Fernerkundung, Träger und Systeme, Auflösungsvermögen) und Physikalische Grundlagen (elektromagnetisches Spektrum, Strahlungsverhalten). Diese Reihenfolge ist auch die Logik des Fachs: erst womit man aufnimmt, dann was man eigentlich misst.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 299,
+      "text_sha": "11934d5eaf3754e8",
+      "pdf_page": 2,
+      "pdf_cell": 1
+    },
+    {
+      "n": 5,
+      "img": "img/FE00/FE00_s005.webp",
+      "title": "Inhalte der Vorlesung II — Satelliten und Bildverarbeitung",
+      "text": "Zweiter Block: Satelliten und Sensoren (optische Systeme, Laserscanner, Radarsysteme, zivile und kommerzielle Missionen) und der Einstieg in die Bildverarbeitung (digitales Bild, Farbsysteme, Grauwertoperatoren).",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 327,
+      "text_sha": "2d90948ff0702764",
+      "pdf_page": 2,
+      "pdf_cell": 2
+    },
+    {
+      "n": 6,
+      "img": "img/FE00/FE00_s006.webp",
+      "title": "Inhalte der Vorlesung III — Filter, Klassifikation, Objekterkennung",
+      "text": "Dritter Block: morphologisches Filtern, Informationsextraktion, Bildfusion, Geokodieren, Transformationen — danach Klassifikationsmethoden und Indizes, zuletzt Objekterkennung und Detektionsmethoden.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 350,
+      "text_sha": "c3eceb272fc72105",
+      "pdf_page": 2,
+      "pdf_cell": 3
+    },
+    {
+      "n": 7,
+      "img": "img/FE00/FE00_s007.webp",
+      "title": "Termine der Einheiten",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 717,
+      "text_sha": "e3488bb99f3bde37",
+      "pdf_page": 3,
+      "pdf_cell": 1
+    },
+    {
+      "n": 8,
+      "img": "img/FE00/FE00_s008.webp",
+      "title": "Unterlagen und Prüfung — Format und Notenschlüssel",
+      "text": "Die Prüfung ist eine kombinierte Prüfung: der 1. Teil besteht aus Single-choice-Fragen (genau eine Antwort richtig), der 2. Teil aus Multiple-choice-Fragen (mehrere Antworten richtig, Teilpunkte möglich). Es gibt vier Termine pro Studienjahr (Ende Juni, Oktober, Dezember, März). Der Notenschlüssel lautet: über 23 Punkte = 4, über 28,5 = 3, über 34 = 2, über 39,5 = 1. Bei 45 erreichbaren Punkten heißt das: die Grenze zum Positiven liegt bei 24 Punkten, also rund 53 %. Diese Folie ist die einzige verbindliche Quelle zum Prüfungsformat — wer im Multiple-choice-Teil rät, verliert Teilpunkte, weil dort pro Frage 2 Punkte anteilig vergeben werden.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie ist die Prüfung zur VO Bildverarbeitung und Fernerkundung aufgebaut?",
+          "a": "Kombinierte Prüfung in zwei Teilen: 1. Teil Single-choice (genau eine richtige Antwort), 2. Teil Multiple-choice (mehrere richtige Antworten, Teilpunkte). Insgesamt 45 Punkte, vier Termine pro Jahr.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Ab wie vielen Punkten ist die Prüfung positiv, und wie lautet der ganze Notenschlüssel?",
+          "a": "Positiv ab über 23 Punkten (also ab 24 von 45, rund 53 %). Schlüssel: >23 = 4, >28,5 = 3, >34 = 2, >39,5 = 1.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 304,
+      "text_sha": "8024b53aebc3b9be",
+      "pdf_page": 3,
+      "pdf_cell": 2
+    },
+    {
+      "n": 9,
+      "img": "img/FE00/FE00_s009.webp",
+      "title": "Ziel der Lehrveranstaltung",
+      "text": "Nach der LV sollen Studierende den Workflow eines Fernerkundungsprojekts erläutern können, die wichtigen Inhalte zu Datenaufnahme und Datenaufbereitung nennen können, die Bedeutung der Fernerkundung in der Geoinformation verstehen und unterschiedliche Bildverarbeitungs- und Klassifikationsmethoden nennen und erklären können. Das letzte Lernziel erklärt, warum die Prüfung so stark auf Begriffsunterscheidungen zielt: nennen UND erklären.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 510,
+      "text_sha": "348a85ab1fdd09b8",
+      "pdf_page": 3,
+      "pdf_cell": 3
+    },
+    {
+      "n": 10,
+      "img": "img/FE00/FE00_s010.webp",
+      "title": "Literatur I",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": true,
+      "text_chars": 338,
+      "text_sha": "47e6119ab6f518de",
+      "pdf_page": 4,
+      "pdf_cell": 1
+    },
+    {
+      "n": 11,
+      "img": "img/FE00/FE00_s011.webp",
+      "title": "Literatur II",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": true,
+      "text_chars": 294,
+      "text_sha": "aecd675dd8ac1551",
+      "pdf_page": 4,
+      "pdf_cell": 2
+    },
+    {
+      "n": 12,
+      "img": "img/FE00/FE00_s012.webp",
+      "title": "Moodle-Kurs: was für die Prüfung gilt",
+      "text": "Screenshot des Moodle-Kurses. Wichtig ist der Text im Abschnitt Prüfungsvorbereitung: „Für die Prüfung sind sämtliche Inhalte der Folien relevant.“ Die Liste der Terminologie (key words) soll durch Eigenrecherche ausgearbeitet werden, ist aber ausdrücklich nicht verpflichtend, sondern „eine gute Vorbereitung für die Prüfung“. Es gibt außerdem Beispielfragen, deren Beantwortung nicht bewertet wird und keinen Einfluss auf die Note hat. Für die Vorbereitung heißt das: die Terminologielisten sind das Gerüst, geprüft werden aber alle Folieninhalte.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Was ist laut Moodle-Kurs prüfungsrelevant — nur die Terminologieliste oder mehr?",
+          "a": "Sämtliche Inhalte der Folien sind prüfungsrelevant. Die Terminologieliste ist eine empfohlene, ausdrücklich nicht verpflichtende Vorbereitung; die Beispielfragen werden nicht bewertet.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 103,
+      "text_sha": "ce01e43af0ec7b05",
+      "pdf_page": 4,
+      "pdf_cell": 3
+    },
+    {
+      "n": 13,
+      "img": "img/FE00/FE00_s013.webp",
+      "title": "Zwischentitel",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 43,
+      "text_sha": "4fefe97d2927fa28",
+      "pdf_page": 5,
+      "pdf_cell": 1
+    },
+    {
+      "n": 14,
+      "img": "img/FE00/FE00_s014.webp",
+      "title": "1. Einheit: Grundlagen — Einführung in die Fernerkundung",
+      "text": "Inhalt der Einheit: Fernerkundungssysteme, Auflösungsdimensionen, Anwendungen.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 165,
+      "text_sha": "3ecc683c00e06566",
+      "pdf_page": 5,
+      "pdf_cell": 2
+    },
+    {
+      "n": 15,
+      "img": "img/FE00/FE00_s015.webp",
+      "title": "Definition Bildverarbeitung nach Albertz",
+      "text": "Albertz (2007): „Unter Bildverarbeitung sind all jene Verfahren zu verstehen, die Störeinflüsse der Daten reduzieren und die Bilder so aufbereiten, dass anschließende Vorgänge leichter und zuverlässiger durchgeführt werden können.“ Der Akzent liegt hier auf dem Vorbereiten — Bildverarbeitung ist in dieser Lesart das, was vor der eigentlichen Auswertung passiert.",
+      "terms": [
+        {
+          "term": "Bildverarbeitung (Albertz 2007)",
+          "def": "Alle Verfahren, die Störeinflüsse der Daten reduzieren und die Bilder so aufbereiten, dass anschließende Vorgänge leichter und zuverlässiger durchgeführt werden können."
+        }
+      ],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 377,
+      "text_sha": "4707d0678bfc9b0d",
+      "pdf_page": 5,
+      "pdf_cell": 3
+    },
+    {
+      "n": 16,
+      "img": "img/FE00/FE00_s016.webp",
+      "title": "Definition Bildverarbeitung nach De Lange",
+      "text": "De Lange (2020): „Allgemein kann definiert werden, dass die Digitale Bildverarbeitung der Extraktion von Informationen aus digitalen Bilddaten dient.“ Anderer Akzent als bei Albertz: nicht Aufbereitung, sondern Informationsgewinn.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 296,
+      "text_sha": "0c1df3facd78f84d",
+      "pdf_page": 6,
+      "pdf_cell": 1
+    },
+    {
+      "n": 17,
+      "img": "img/FE00/FE00_s017.webp",
+      "title": "Bildverarbeitung — zusammenfassende Definition",
+      "text": "Die Zusammenfassung des Vortragenden vereint beide Stränge: Bildverarbeitung führt (mathematische) Operatoren an Bildern durch, um Informationen zu gewinnen, ein Bild hinsichtlich der Möglichkeit zur Datengewinnung zu optimieren, Störeinflüsse zu eliminieren oder ein Bild wiederherzustellen. Vier Zwecke also: gewinnen, optimieren, eliminieren, wiederherstellen — und das Werkzeug ist immer ein Operator, der auf Grauwerte angewandt wird.",
+      "terms": [
+        {
+          "term": "Bildverarbeitung (Zusammenfassung)",
+          "def": "Anwendung (mathematischer) Operatoren auf Bilder, um Informationen zu gewinnen, das Bild für die Datengewinnung zu optimieren, Störeinflüsse zu eliminieren oder ein Bild wiederherzustellen."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Welche vier Zwecke verfolgt die Bildverarbeitung laut der zusammenfassenden Definition der VO?",
+          "a": "Informationen gewinnen, das Bild hinsichtlich der Datengewinnung optimieren, Störeinflüsse eliminieren, ein Bild wiederherstellen — immer durch (mathematische) Operatoren am Bild.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 390,
+      "text_sha": "f967c2808f7fa15a",
+      "pdf_page": 6,
+      "pdf_cell": 2
+    },
+    {
+      "n": 18,
+      "img": "img/FE00/FE00_s018.webp",
+      "title": "Definition Fernerkundung nach ISPRS",
+      "text": "ISPRS (2015): „Remote sensing is the science and technology of capturing, processing and analysing imagery, in conjunction with other physical data of the Earth and the planets, from sensors in space, in the air and on the ground.“ Bemerkenswert: auch bodengestützte Sensoren zählen dazu, und die Definition schließt andere Planeten ein.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 374,
+      "text_sha": "7e821e0c010ac20a",
+      "pdf_page": 6,
+      "pdf_cell": 3
+    },
+    {
+      "n": 19,
+      "img": "img/FE00/FE00_s019.webp",
+      "title": "Definition Fernerkundung — der berührungslose Kern",
+      "text": "American Society of Photogrammetry (1983): „in the broadest sense, the measurement or acquisition of information of some property of an object or phenomenon, by a recording device that is not in physical or intimate contact with the object or phenomenon under study.“ Das ist die Definition, auf die es in der Prüfung ankommt: entscheidend ist der fehlende direkte Kontakt zwischen Instrument und Objekt — nicht die Flughöhe, nicht der Sensortyp und nicht, ob es ein Foto ist.",
+      "terms": [
+        {
+          "term": "Fernerkundung",
+          "def": "Messung oder Gewinnung von Information über eine Eigenschaft eines Objekts oder Phänomens durch ein aufzeichnendes Gerät, das nicht in physischem oder unmittelbarem Kontakt mit dem untersuchten Objekt steht."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie wird Fernerkundung im weitesten Sinn definiert — worauf kommt es an?",
+          "a": "Auf den fehlenden Kontakt: Messung bzw. Gewinnung von Information über eine Eigenschaft eines Objekts durch ein Aufzeichnungsgerät, das nicht in physischem oder unmittelbarem Kontakt mit dem Objekt steht (American Society of Photogrammetry 1983). Nicht die Flughöhe, nicht der Sensortyp und nicht die Bildart sind das Definitionsmerkmal.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Warum ist „die direkte Messung von Bodenproben“ keine Fernerkundung, eine bodengestützte Spektralmessung aus einem Meter Abstand aber schon?",
+          "a": "Weil das Kriterium der Kontakt ist, nicht die Entfernung. Die Bodenprobe wird berührt und im Labor gemessen; das Spektrometer misst berührungslos reflektierte Strahlung. Die ISPRS-Definition nennt Sensoren „in space, in the air and on the ground“ ausdrücklich gemeinsam.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 410,
+      "text_sha": "ae64b7c3c3d81259",
+      "pdf_page": 7,
+      "pdf_cell": 1
+    },
+    {
+      "n": 20,
+      "img": "img/FE00/FE00_s020.webp",
+      "title": "Wozu dient die Fernerkundung? Die fünf Aufgaben",
+      "text": "Fünf Aufgabenfelder: surveying (Erfassen), mapping (Kartieren), classification/inventorying (Klassifizieren und Inventarisieren), monitoring (Überwachen im Zeitverlauf) und forecasting (Vorhersagen). Der Merksatz der Folie fasst den Ablauf: Fernerkundung = Datenerfassung + Datenanalyse + Interpretation. Erfassung allein ist noch keine Fernerkundung im Sinn des Fachs.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Aus welchen drei Teilen besteht Fernerkundung laut der Merkformel der Vorlesung?",
+          "a": "Datenerfassung + Datenanalyse + Interpretation.",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Nennen Sie die fünf Aufgaben, denen die Fernerkundung dient.",
+          "a": "surveying, mapping, classification/inventorying, monitoring, forecasting.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 307,
+      "text_sha": "65bbdbecc6637f4b",
+      "pdf_page": 7,
+      "pdf_cell": 2
+    },
+    {
+      "n": 21,
+      "img": "img/FE00/FE00_s021.webp",
+      "title": "Fernerkundung als Teil unterschiedlicher Fachdisziplinen",
+      "text": "Die drei Bestandteile — Datenerfassung, Datenanalyse, Interpretation — liegen in unterschiedlichen Fachdisziplinen. Deshalb ist Fernerkundung kein geschlossenes Fach, sondern eine Schnittstelle zwischen Physik/Technik (Erfassung), Informatik/Statistik (Analyse) und der jeweiligen Anwendungsdisziplin (Interpretation).",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 279,
+      "text_sha": "a416518d777d2d55",
+      "pdf_page": 7,
+      "pdf_cell": 3
+    },
+    {
+      "n": 22,
+      "img": "img/FE00/FE00_s022.webp",
+      "title": "Anwendung: Landbedeckungsklassifikation",
+      "text": "Erstes Anwendungsbeispiel: aus einem Satellitenbild wird eine Karte der Landbedeckungsklassen. Das ist der Standardfall, der in Einheit 7 methodisch behandelt wird.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 157,
+      "text_sha": "8287febcd51abc78",
+      "pdf_page": 8,
+      "pdf_cell": 1
+    },
+    {
+      "n": 23,
+      "img": "img/FE00/FE00_s023.webp",
+      "title": "Anwendung: Messung von Konzentrationen",
+      "text": "Beispiel Tcarta Marine 2020: Konzentrationen (etwa Sedimente oder Chlorophyll im Wasser) werden flächendeckend gemessen — eine Größe, die man am Boden nur punktuell beproben könnte.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 176,
+      "text_sha": "ca7347fa25fbd854",
+      "pdf_page": 8,
+      "pdf_cell": 2
+    },
+    {
+      "n": 24,
+      "img": "img/FE00/FE00_s024.webp",
+      "title": "Anwendung: Wolkendetektion",
+      "text": "Beispiel Bai et al. 2016: Wolken werden im Bild automatisch erkannt. Das ist nicht nur Selbstzweck — Wolken und ihre Schatten müssen maskiert werden, bevor optische Bilder ausgewertet werden können.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 161,
+      "text_sha": "280425b095ee5484",
+      "pdf_page": 8,
+      "pdf_cell": 3
+    },
+    {
+      "n": 25,
+      "img": "img/FE00/FE00_s025.webp",
+      "title": "Anwendung: Veränderungserkennung (Change Detection)",
+      "text": "Zwei Copernicus-Produkte als Beispiel: Forest-Fraction der Landbedeckung und Produktivitätsveränderungen. Change Detection setzt multitemporale Aufnahmen voraus — also mehrere Aufnahmen desselben Gebietes zu verschiedenen Zeitpunkten — und hängt damit unmittelbar an der zeitlichen Auflösung.",
+      "terms": [
+        {
+          "term": "Change Detection (Veränderungserkennung)",
+          "def": "Auswertung multitemporaler Aufnahmen desselben Gebietes, um Veränderungen zwischen den Zeitpunkten zu erkennen."
+        }
+      ],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 268,
+      "text_sha": "ba13db817cba6828",
+      "pdf_page": 9,
+      "pdf_cell": 1
+    },
+    {
+      "n": 26,
+      "img": "img/FE00/FE00_s026.webp",
+      "title": "Anwendung: Tracking",
+      "text": "Verfolgen von Objekten oder Zuständen über die Zeit — die konsequente Fortsetzung der Change Detection, wenn nicht nur zwei Zeitpunkte, sondern eine Reihe vorliegt.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 166,
+      "text_sha": "a54f4be5e21da7f8",
+      "pdf_page": 9,
+      "pdf_cell": 2
+    },
+    {
+      "n": 27,
+      "img": "img/FE00/FE00_s027.webp",
+      "title": "Was macht ein Fernerkundungssystem? — der Weg zum Pixel",
+      "text": "Die Folie beschreibt die Kette in vier Schritten: Das System nimmt reflektierte Strahlung auf, speichert die aufgenommene Strahlung als Information in Zahlen ab, und jede aufgenommene Fläche findet sich als Information in einer Zelle im Raster wieder — also in einem Pixel. Hier liegt der Kern des Pixelbegriffs dieser Vorlesung: ein Pixel ist kein Punkt, sondern eine aufgenommene FLÄCHE, deren Strahlung zu einer Zahl zusammengefasst wird.",
+      "terms": [
+        {
+          "term": "Pixel",
+          "def": "Zelle im Raster eines digitalen Bildes; enthält als Zahl die Information über die Strahlung der zugehörigen aufgenommenen Fläche."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie entsteht aus reflektierter Strahlung ein Pixel?",
+          "a": "Das Fernerkundungssystem nimmt reflektierte Strahlung auf, speichert sie als Zahl ab, und jede aufgenommene Fläche wird zu einer Zelle im Raster — dem Pixel. Ein Pixel steht damit für eine Fläche am Boden, nicht für einen Punkt.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 363,
+      "text_sha": "e0ada5cf464a095f",
+      "pdf_page": 9,
+      "pdf_cell": 3
+    },
+    {
+      "n": 28,
+      "img": "img/FE00/FE00_s028.webp",
+      "title": "Aufnahmesysteme und Plattformen (Träger)",
+      "text": "Zwei Arten von Aufnahmesystemen: photographische Aufnahmesysteme und elektromagnetische Sensoren. Davon streng zu trennen sind die Plattformen bzw. Trägersysteme, auf denen ein Sensor sitzt: flugzeuggetragene Systeme (airborne), satellitengetragene Systeme (spaceborne), drohnengetragene Systeme und bodengestützte Systeme (in Klammern, weil sie am Rand des Fachs liegen). Die Abbildung nach Lillesand und Kiefer 2000 staffelt sie nach Höhe: Satellite data, High altitude data, Low altitude data, Ground observations. Prüfungsrelevant ist die Unterscheidung Sensor (misst) gegen Trägersystem (trägt).",
+      "terms": [
+        {
+          "term": "Trägersystem (Plattform)",
+          "def": "Das Fahrzeug, das den Sensor trägt: Satellit (spaceborne), Flugzeug (airborne), Drohne oder eine bodengestützte Montierung. Der Träger bestimmt Flughöhe, Abdeckung und Wiederholrate, nicht die Messung selbst."
+        },
+        {
+          "term": "Sensor",
+          "def": "Das aufzeichnende Gerät, das die Strahlung misst — entweder ein photographisches Aufnahmesystem oder ein elektromagnetischer Sensor."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Welche vier Plattformen (Trägersysteme) nennt die Vorlesung, und wie unterscheidet sich ein Träger von einem Sensor?",
+          "a": "Flugzeuggetragen (airborne), satellitengetragen (spaceborne), drohnengetragen und (bodengestützt). Der Träger transportiert nur; gemessen wird vom Sensor. Der Träger bestimmt Flughöhe, Abdeckung und Wiederholrate.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welche zwei Arten von Aufnahmesystemen unterscheidet die Folie?",
+          "a": "Photographische Aufnahmesysteme und elektromagnetische Sensoren.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 406,
+      "text_sha": "4d9a6f2027c5c342",
+      "pdf_page": 10,
+      "pdf_cell": 1
+    },
+    {
+      "n": 29,
+      "img": "img/FE00/FE00_s029.webp",
+      "title": "Hauptkomponenten eines Fernerkundungssystems",
+      "text": "Fünf Komponenten: Strahlungsquelle, Objekt, Sensor, aktive und passive Systeme sowie der Strahlungsweg. Die Reihenfolge ist zugleich der Weg der Strahlung: von der Quelle über die Atmosphäre zum Objekt, von dort zurück durch die Atmosphäre zum Sensor. Ob die Quelle die Sonne ist (passiv) oder das System selbst (aktiv), ist die wichtigste Fallunterscheidung des ganzen Fachs.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche Hauptkomponenten hat ein Fernerkundungssystem?",
+          "a": "Strahlungsquelle, Objekt, Sensor, die Unterscheidung aktiver und passiver Systeme sowie der Strahlungsweg (zweimal durch die Atmosphäre).",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 240,
+      "text_sha": "969d5d7bff0911a5",
+      "pdf_page": 10,
+      "pdf_cell": 2
+    },
+    {
+      "n": 30,
+      "img": "img/FE00/FE00_s030.webp",
+      "title": "Die vier Auflösungsvermögen",
+      "text": "Ein Sensor wird in vier Dimensionen beschrieben: zeitliche (temporal), räumliche (spatial), spektrale (spectral) und radiometrische (radiometric) Auflösung. Der Merksatz der Folie ist prüfungswichtig: Ein idealer Sensor existiert nicht — in mindestens einer der Auflösungscharakteristika gibt es immense Restriktionen. Wer hohe räumliche Auflösung will, zahlt mit Streifenbreite und Wiederholrate; wer viele Kanäle will, zahlt mit Pixelgröße. Vorsicht bei Multiple-choice: „radiotemporale Auflösung“ ist ein Phantasiebegriff.",
+      "terms": [
+        {
+          "term": "Auflösungseigenschaften (Auflösungsvermögen)",
+          "def": "Die vier Dimensionen, in denen ein Sensor beschrieben wird: zeitliche, räumliche, spektrale und radiometrische Auflösung."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Von welchen Auflösungsvermögen spricht man in der Fernerkundung?",
+          "a": "Von vier: zeitlicher (temporaler), räumlicher (spatialer), spektraler und radiometrischer Auflösung. Eine „radiotemporale Auflösung“ gibt es nicht.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Warum gibt es keinen idealen Sensor?",
+          "a": "Weil die vier Auflösungen gegeneinander stehen: in mindestens einer Charakteristik gibt es immer immense Restriktionen. Hohe räumliche Auflösung kostet Streifenbreite und Wiederholrate, viele Spektralkanäle kosten Pixelgröße.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 393,
+      "text_sha": "49d9ab7873ebf82e",
+      "pdf_page": 10,
+      "pdf_cell": 3
+    },
+    {
+      "n": 31,
+      "img": "img/FE00/FE00_s031.webp",
+      "title": "Zeitliche (temporale) Auflösung",
+      "text": "Die zeitliche Auflösung ist die Häufigkeit der Aufnahmezeitpunkte, also die Zeitdauer zwischen zwei Überflügen desselben Gebietes. Sie ist die Voraussetzung für multitemporale Aufnahmen und damit für Change Detection. Ein Satellit umkreist die Erde in einem Orbit; aus benachbarten Orbits können sich Aufnahmestreifen überlagern, und von dieser Überlappung hängt die zeitliche Auflösung stark ab. Deshalb ist die Wiederholrate am Äquator schlechter als in hohen Breiten, wo die Streifen enger beieinanderliegen.",
+      "terms": [
+        {
+          "term": "Zeitliche (temporale) Auflösung",
+          "def": "Häufigkeit der Aufnahmezeitpunkte bzw. Zeitdauer zwischen zwei Überflügen desselben Gebietes; Voraussetzung für multitemporale Auswertungen."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist die zeitliche Auflösung, und wovon hängt sie ab?",
+          "a": "Die Zeitdauer zwischen zwei Überflügen desselben Gebietes bzw. die Häufigkeit der Aufnahmezeitpunkte. Sie hängt stark von der Überlappung der Aufnahmestreifen benachbarter Orbits ab — je stärker sich die Streifen überlagern, desto häufiger wird ein Gebiet erfasst.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 530,
+      "text_sha": "5322c1811567a97d",
+      "pdf_page": 11,
+      "pdf_cell": 1
+    },
+    {
+      "n": 32,
+      "img": "img/FE00/FE00_s032.webp",
+      "title": "Räumliche (geometrische) Auflösung",
+      "text": "Die räumliche Auflösung ist die Größe eines Bildelementes, also die Fläche am Boden, die auf ein Pixel fällt. Je höher die Auflösung (je kleiner das Pixel), desto detaillierter die Auswertung; Photographien sind oft höher auflösend als Scannersysteme. Sie hängt von drei Dingen ab: der Ausdehnung der aufgenommenen Szene, der Flughöhe und dem Auflösungsvermögen des Sensors. Achtung auf die Sprachfalle: „hohe Auflösung“ bedeutet KLEINE Zahl in Metern.",
+      "terms": [
+        {
+          "term": "Räumliche (geometrische) Auflösung",
+          "def": "Größe eines Bildelementes (Pixel) am Boden. Abhängig von Ausdehnung der Szene, Flughöhe und Auflösungsvermögen des Sensors."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wovon hängt die räumliche Auflösung ab?",
+          "a": "Von der Ausdehnung der aufgenommenen Szene, der Flughöhe und dem Auflösungsvermögen des Sensors.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Ein Bild hat 40 cm, ein zweites 8 m räumliche Auflösung. Welches hat die höhere Auflösung?",
+          "a": "Das mit 40 cm. Hohe räumliche Auflösung heißt kleines Pixel, also kleine Meterzahl — die Zahl und die Auflösung laufen gegenläufig.",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 398,
+      "text_sha": "893202ca78a47051",
+      "pdf_page": 11,
+      "pdf_cell": 2
+    },
+    {
+      "n": 33,
+      "img": "img/FE00/FE00_s033.webp",
+      "title": "Räumliche Auflösung im Bildvergleich: 40 cm bis 8 m",
+      "text": "Dasselbe Stadtgebiet in vier Auflösungsstufen: 40 cm, 2 m, 4 m und 8 m. Bei 40 cm sind einzelne Gebäude und Fahrzeuge zu erkennen, bei 8 m zerfällt die Struktur in grobe Blöcke und einzelne Häuser verschwinden in Mischpixeln. Die Reihe zeigt anschaulich, warum die Fragestellung die Auflösung bestimmt: Gebäudeerkennung braucht Submeter, Landbedeckung auf Landesebene nicht.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 221,
+      "text_sha": "f1d6c8c8e7acb741",
+      "pdf_page": 11,
+      "pdf_cell": 3
+    },
+    {
+      "n": 34,
+      "img": "img/FE00/FE00_s034.webp",
+      "title": "Mischpixel",
+      "text": "Die Grafik der Universität Bonn zeigt den Vorgang: In der Realität liegen Haus und Garten nebeneinander in derselben Fläche. Beide haben eigene Reflexionseigenschaften. Fällt diese Fläche auf ein einziges Pixel, wird daraus EIN Wert — eine Mischung beider Signale. Das Pixel ist also weder Haus noch Garten. Genau darin liegt die Prüfungsfalle: ein Mischpixel enthält nicht mehrere Werte, sondern einen einzigen Wert für mehrere Objekte. Mischpixel treten überall dort auf, wo die Objekte kleiner sind als die Pixelgröße, und sind die Hauptfehlerquelle bei der Klassifikation grob aufgelöster Bilder.",
+      "terms": [
+        {
+          "term": "Mischpixel",
+          "def": "Pixel, dessen Fläche mehrere Objekte mit unterschiedlichen Reflexionseigenschaften abdeckt; es speichert EINEN gemischten Wert für mehrere Objekte."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was enthält ein Mischpixel?",
+          "a": "Einen Wert für mehrere Objekte. Es speichert nicht mehrere Werte — die Signale von Haus und Garten werden im Sensor zu einer einzigen Zahl vermischt.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Wann entstehen Mischpixel, und warum sind sie ein Problem?",
+          "a": "Wenn die abgebildeten Objekte kleiner sind als die Pixelfläche, also bei grober räumlicher Auflösung. Problem: der gemischte Wert gehört zu keiner Klasse richtig, was die Klassifikation verfälscht.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 152,
+      "text_sha": "897dd011cb28dee1",
+      "pdf_page": 12,
+      "pdf_cell": 1
+    },
+    {
+      "n": 35,
+      "img": "img/FE00/FE00_s035.webp",
+      "title": "Spektrale Auflösung: panchromatisch, multispektral, hyperspektral",
+      "text": "Die spektrale Auflösung ist die Anzahl und Breite der Spektralbereiche (Kanäle), die ein Sensor differenzieren kann. Die Vorlesung gibt drei Stufen mit festen Zahlen an: panchromatisch = 1 Kanal, multispektral (MS) = 3 bis 15 Kanäle, hyperspektral (HS) = über 100 Kanäle. Diese Zahlen sind genau so abzuprüfen — bei einer Frage nach der Kanalzahl für multispektral ist 8 richtig, 2 zu wenig und 90 keine der Stufen. Wichtig ist auch: Anzahl UND Breite zählen. Ein Sensor mit wenigen, aber sehr schmalen Bändern kann spektral feiner auflösen als einer mit vielen breiten.",
+      "terms": [
+        {
+          "term": "Spektrale Auflösung",
+          "def": "Anzahl und Breite der Spektralbereiche (Kanäle), die ein Sensor differenzieren kann."
+        },
+        {
+          "term": "Panchromatischer Kanal",
+          "def": "Ein einzelner, breiter Kanal über den gesamten sichtbaren Bereich; hohe räumliche, aber minimale spektrale Auflösung."
+        },
+        {
+          "term": "Multispektral (MS)",
+          "def": "Aufnahme mit 3 bis 15 unterscheidbaren Kanälen."
+        },
+        {
+          "term": "Hyperspektral (HS)",
+          "def": "Aufnahme mit über 100 unterscheidbaren Kanälen."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Ab welcher Kanalzahl spricht man von panchromatisch, multispektral und hyperspektral?",
+          "a": "Panchromatisch = 1 Kanal, multispektral = 3–15 Kanäle, hyperspektral = über 100 Kanäle.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Bei welcher Anzahl unterscheidbarer Kanäle spricht man von multispektralen Aufnahmen: 2, 8 oder 90?",
+          "a": "8. Multispektral heißt 3 bis 15 Kanäle; 2 liegt darunter, 90 liegt zwischen den Stufen und wäre erst ab über 100 hyperspektral.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Was genau beschreibt die spektrale Auflösung — nur die Anzahl der Kanäle?",
+          "a": "Nein: Anzahl UND Breite der Spektralbereiche, die ein Sensor differenzieren kann. Wenige schmale Bänder können spektral feiner auflösen als viele breite.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 336,
+      "text_sha": "0aebeefe71e41a7b",
+      "pdf_page": 12,
+      "pdf_cell": 2
+    },
+    {
+      "n": 36,
+      "img": "img/FE00/FE00_s036.webp",
+      "title": "Single band, multispektral und hyperspektral im Bild",
+      "text": "Die ESRI-Grafik stellt die drei Stufen nebeneinander: Single band als reines Graustufenbild, Multispectral als Farbkomposit weniger Kanäle, Hyperspectral als Würfel — Fläche in x und y, die vielen Spektralbänder in der Tiefe. Der Würfel ist das übliche Bild für hyperspektrale Daten: zu jedem Pixel gehört nicht ein Wert, sondern ein ganzes Spektrum.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Warum werden hyperspektrale Daten als Würfel dargestellt?",
+          "a": "Weil zu jedem Pixel nicht ein Wert gehört, sondern ein ganzes Spektrum: Fläche in x und y, die über 100 Spektralbänder in der Tiefe.",
+          "difficulty": 2,
+          "kind": "model",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 134,
+      "text_sha": "8cb4a1b048a0dbfc",
+      "pdf_page": 12,
+      "pdf_cell": 3
+    },
+    {
+      "n": 37,
+      "img": "img/FE00/FE00_s037.webp",
+      "title": "Radiometrische Auflösung und Bildtiefe",
+      "text": "Die radiometrische Auflösung ist die Differenzierungsmöglichkeit INNERHALB eines Spektralkanals — also wie fein die gemessene Strahlungsintensität abgestuft wird. Angegeben wird sie in Bit, und dieser Wert heißt Bildtiefe. Es gilt: Anzahl der Grauwerte = 2 hoch Bit. 8 Bit = 256 Grauwerte. Die Tabelle der Folie: 1 Bit = 2 Grauwerte (8 Farbmöglichkeiten in R, G, B), 2 Bit = 4 (64), 4 Bit = 16 (4096), 11 Bit = 2048 (8,59 Mrd.). Die Farbmöglichkeiten ergeben sich als Grauwerte hoch 3, weil drei Kanäle kombiniert werden. Nicht verwechseln: spektrale Auflösung = wie viele Kanäle, radiometrische Auflösung = wie fein innerhalb eines Kanals.",
+      "terms": [
+        {
+          "term": "Radiometrische Auflösung",
+          "def": "Differenzierungsmöglichkeit innerhalb eines Spektralkanals, angegeben in Bit; bestimmt, in wie viele Stufen die gemessene Intensität zerlegt wird."
+        },
+        {
+          "term": "Bildtiefe",
+          "def": "Die Bit-Angabe der radiometrischen Auflösung. Anzahl der Grauwerte = 2 hoch Bildtiefe; 8 Bit = 256 Grauwerte."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist die radiometrische Auflösung, und in welcher Einheit wird sie angegeben?",
+          "a": "Die Differenzierungsmöglichkeit innerhalb EINES Spektralkanals, angegeben in Bit (= Bildtiefe). Anzahl der Grauwerte = 2 hoch Bit.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Wie viele Grauwerte hat ein Bild mit 8 Bit, wie viele mit 11 Bit?",
+          "a": "8 Bit = 2^8 = 256 Grauwerte; 11 Bit = 2^11 = 2048 Grauwerte.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Spektrale oder radiometrische Auflösung — welche beschreibt was?",
+          "a": "Spektrale Auflösung: wie viele und wie breite Kanäle der Sensor unterscheidet. Radiometrische Auflösung: wie fein die Intensität innerhalb eines einzelnen Kanals abgestuft wird (Bildtiefe in Bit).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 508,
+      "text_sha": "b4512919b877f010",
+      "pdf_page": 13,
+      "pdf_cell": 1
+    },
+    {
+      "n": 38,
+      "img": "img/FE00/FE00_s038.webp",
+      "title": "Bildtiefe im Bildvergleich: 11 Bit, 4 Bit, 1 Bit",
+      "text": "Dasselbe Stadtbild mit 11 Bit, 4 Bit und 1 Bit. Bei 11 Bit sind feine Helligkeitsunterschiede sichtbar, bei 4 Bit wird das Bild fleckig, bei 1 Bit bleibt nur noch Schwarz und Weiß — ein Binärbild. Wichtig für später: das 1-Bit-Bild ist genau die Form, auf die morphologische Filter in Einheit 5 angewandt werden.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie sieht ein Bild mit 1 Bit Bildtiefe aus, und wo begegnet es in der Vorlesung wieder?",
+          "a": "Es hat nur zwei Grauwerte, also Schwarz und Weiß — ein Binärbild. Genau auf Binärbilder werden die morphologischen Filter angewandt.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 190,
+      "text_sha": "90e85bc74cf7d8f8",
+      "pdf_page": 13,
+      "pdf_cell": 2
+    },
+    {
+      "n": 39,
+      "img": "img/FE00/FE00_s039.webp",
+      "title": "Bildbeispiel: hochauflösendes Satellitenbild eines Stadtgebiets",
+      "text": "Ein optisches Satellitenbild einer dicht bebauten Stadt in natürlichen Farben, als Anschauung für die räumliche Auflösung kommerzieller Systeme.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 103,
+      "text_sha": "3652aeb9c0d02864",
+      "pdf_page": 13,
+      "pdf_cell": 3
+    },
+    {
+      "n": 40,
+      "img": "img/FE00/FE00_s040.webp",
+      "title": "Bildbeispiel",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 103,
+      "text_sha": "e7743772b8b90df6",
+      "pdf_page": 14,
+      "pdf_cell": 1
+    },
+    {
+      "n": 41,
+      "img": "img/FE00/FE00_s041.webp",
+      "title": "Bildbeispiel: WorldView-2, Tripolis",
+      "text": "Beispielaufnahme des kommerziellen Satelliten WorldView-2 von Tripolis — ein sehr hoch auflösendes multispektrales System.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 137,
+      "text_sha": "508255b549665ed0",
+      "pdf_page": 14,
+      "pdf_cell": 2
+    },
+    {
+      "n": 42,
+      "img": "img/FE00/FE00_s042.webp",
+      "title": "Bildbeispiel: TerraSAR-X Radaraufnahme (Assuan-Staudamm)",
+      "text": "Eine Radaraufnahme des Assuan-Staudamms im Staring-SpotLight-Modus von TerraSAR-X mit 1 m Auflösung. Das Bild sieht völlig anders aus als die optischen davor: Wasser ist tiefschwarz, weil es die Radarstrahlung vom Sensor wegspiegelt, während Bebauung durch Eckreflexionen sehr hell erscheint. Diese Bildlogik wird in Einheit 2 bei den Mikrowellensystemen erklärt.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 103,
+      "text_sha": "69ef174a586e4942",
+      "pdf_page": 14,
+      "pdf_cell": 3
+    },
+    {
+      "n": 43,
+      "img": "img/FE00/FE00_s043.webp",
+      "title": "Kontakt",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 100,
+      "text_sha": "b5f5a37674911c40",
+      "pdf_page": 15,
+      "pdf_cell": 1
+    }
+  ]
+}

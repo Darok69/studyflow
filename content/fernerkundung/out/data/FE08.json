@@ -1,0 +1,1037 @@
+{
+  "lecture_id": "FE08",
+  "course": "FE",
+  "course_title": "Bildverarbeitung und Fernerkundung",
+  "course_number": "290234",
+  "unit": "Einheit 8",
+  "title": "Indizes und Accuracy Assessment (Case Study II)",
+  "source_file": "raw/FE08_08-indizes-case-study-ii.pdf",
+  "source_sha256": "86957e7fb20cd06cf26860af7946ceb8403c05ba001f713a1e80f2301887905a",
+  "source_pages": 15,
+  "slides_per_page": 3,
+  "slide_count": 45,
+  "updated_at": "2026-09-17T17:15:39+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/FE08/FE08_s001.webp",
+      "title": "Titelfolie",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 131,
+      "text_sha": "3cf50d360b4ae2e4",
+      "pdf_page": 1,
+      "pdf_cell": 1
+    },
+    {
+      "n": 2,
+      "img": "img/FE08/FE08_s002.webp",
+      "title": "8. Einheit: Indizes",
+      "text": "Inhalt: Genauigkeitsabschätzung, Indizes, Case Study 2.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 117,
+      "text_sha": "0df4436c45280d53",
+      "pdf_page": 1,
+      "pdf_cell": 2
+    },
+    {
+      "n": 3,
+      "img": "img/FE08/FE08_s003.webp",
+      "title": "Klassifikationsergebnis",
+      "text": "Ausgangspunkt der Einheit ist das Klassifikationsergebnis aus Einheit 7.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 131,
+      "text_sha": "4285184d21a382dd",
+      "pdf_page": 1,
+      "pdf_cell": 3
+    },
+    {
+      "n": 4,
+      "img": "img/FE08/FE08_s004.webp",
+      "title": "Wiederholung: überwacht und unüberwacht",
+      "text": "Unüberwachte Klassifikation: spektrale Signaturen werden durch statistische Analyse definiert und in Klassen eingeteilt. Überwachte Klassifikation: spektrale Signaturen werden durch Trainingsgebiete definiert.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 343,
+      "text_sha": "037223190c6bebd8",
+      "pdf_page": 2,
+      "pdf_cell": 1
+    },
+    {
+      "n": 5,
+      "img": "img/FE08/FE08_s005.webp",
+      "title": "Welche Klassen sehen wir?",
+      "text": "Die Frage an das Klassifikationsergebnis: welche Klassen lassen sich erkennen?",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 161,
+      "text_sha": "3fc8a7cfeffd03d1",
+      "pdf_page": 2,
+      "pdf_cell": 2
+    },
+    {
+      "n": 6,
+      "img": "img/FE08/FE08_s006.webp",
+      "title": "Die erkannten Klassen",
+      "text": "Acht Klassen: Siedlung, Fließgewässer, stehende Gewässer, Wald, Grünland, Ackerland, Sommerfrucht, Winterfrucht. Bemerkenswert ist die Feingliederung am Ende — Sommer- und Winterfrucht sind spektral zu einem einzelnen Zeitpunkt kaum trennbar.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 276,
+      "text_sha": "153cf24db247f2d5",
+      "pdf_page": 2,
+      "pdf_cell": 3
+    },
+    {
+      "n": 7,
+      "img": "img/FE08/FE08_s007.webp",
+      "title": "Ackerklassen über die Zeit trennen",
+      "text": "Wie können unterschiedliche Ackerklassen klassifiziert werden? Über den Vergleich Frühling gegen Spätsommer, also über Change Detection: Winterfrucht steht im Frühling schon grün, Sommerfrucht zeigt dort noch offenen Boden. Der Hinweis „Boden → Grünland“ auf der Folie warnt vor der typischen Verwechslung. Die Lehre: was spektral in einem Bild nicht trennbar ist, wird oft zeitlich trennbar.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie lassen sich Sommer- und Winterfrucht unterscheiden, obwohl sie spektral ähnlich sind?",
+          "a": "Über die Zeit: ein Vergleich Frühling gegen Spätsommer (Change Detection). Im Frühling steht die Winterfrucht bereits grün, während bei der Sommerfrucht noch offener Boden zu sehen ist.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 268,
+      "text_sha": "699194baaab14d90",
+      "pdf_page": 3,
+      "pdf_cell": 1
+    },
+    {
+      "n": 8,
+      "img": "img/FE08/FE08_s008.webp",
+      "title": "Wie gut ist die Klassifikation?",
+      "text": "Die Leitfrage der Genauigkeitsabschätzung: Wie „gut“ ist die Klassifikation, und wie genau werden die Klassen abgegrenzt?",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 211,
+      "text_sha": "5eb51282ac5094ef",
+      "pdf_page": 3,
+      "pdf_cell": 2
+    },
+    {
+      "n": 9,
+      "img": "img/FE08/FE08_s009.webp",
+      "title": "Accuracy Assessment — das Prinzip",
+      "text": "Das Zitat der Folie setzt den Maßstab: „a classification is not complete until its accuracy is assessed“ (Lillesand und Kiefer 2000, 568). Die Genauigkeitsabschätzung vergleicht das Klassifikationsergebnis mit Referenzdaten. Entscheidend ist der Begriff Out-of-Sample Accuracy: verglichen wird mit Testdaten, die NICHT in die Klassifikation eingeflossen sind, und zwar mit einer bestimmten Anzahl je Klasse. Nur so entsteht eine Aussage über die Qualität der Klassifikation — würde man mit den Trainingsgebieten selbst prüfen, misst man nur, wie gut sich der Algorithmus an sie erinnert.",
+      "terms": [
+        {
+          "term": "Accuracy Assessment (Genauigkeitsabschätzung)",
+          "def": "Vergleich des Klassifikationsergebnisses mit Referenzdaten; als Out-of-Sample Accuracy mit Testdaten, die nicht in die Klassifikation eingeflossen sind."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist eine Out-of-Sample Accuracy, und warum ist sie nötig?",
+          "a": "Der Vergleich mit Testdaten, die nicht in die Klassifikation eingeflossen sind (eine bestimmte Anzahl je Klasse). Nur so entsteht eine echte Qualitätsaussage — mit den Trainingsgebieten selbst würde man nur messen, wie gut sich der Algorithmus an sie erinnert.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Wann ist eine Klassifikation laut Lillesand und Kiefer abgeschlossen?",
+          "a": "Erst wenn ihre Genauigkeit abgeschätzt wurde — „a classification is not complete until its accuracy is assessed“.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 534,
+      "text_sha": "2db5fb0b54270e47",
+      "pdf_page": 3,
+      "pdf_cell": 3
+    },
+    {
+      "n": 10,
+      "img": "img/FE08/FE08_s010.webp",
+      "title": "Klassifikationsergebnis und Referenzdaten nebeneinander",
+      "text": "Die beiden Karten im direkten Vergleich — links das Klassifikationsergebnis, rechts die Referenzdaten.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 190,
+      "text_sha": "8e89bdf9deaa6138",
+      "pdf_page": 4,
+      "pdf_cell": 1
+    },
+    {
+      "n": 11,
+      "img": "img/FE08/FE08_s011.webp",
+      "title": "Die Konfusionsmatrix",
+      "text": "Die Konfusionsmatrix stellt die Ergebnisse den Referenzdaten in einer Tabelle gegenüber und zeigt die klassifizierten Pixel in den jeweiligen tatsächlichen Klassen. Im Beispiel stehen die Zeilen für das Klassifikationsergebnis, die Spalten für die Testgebiete: Wald, Wiese, Boden, Siedlung, Wasser. Die Diagonale (54, 38, 42, 16, 19 = 169) sind die richtig klassifizierten Pixel; alles außerhalb der Diagonale ist ein Fehler. Zeilensummen: 62, 42, 51, 32, 22. Spaltensummen: 63, 43, 54, 27, 22. Grundgesamtheit 209. Die Prozentwerte rechts (87, 90, 82, 50, 86) sind die User's Accuracy, die unten (86, 88, 78, 59, 86) die Producer's Accuracy, unten rechts steht die Overall Accuracy von 81. Auffällig ist die Zeile Siedlung mit nur 50 % — 11 Siedlungspixel wurden als Boden klassifiziert, was spektral naheliegt.",
+      "terms": [
+        {
+          "term": "Konfusionsmatrix",
+          "def": "Tabelle, die das Klassifikationsergebnis (Zeilen) den Referenzdaten (Spalten) gegenüberstellt; auf der Diagonale stehen die richtig klassifizierten Pixel, außerhalb die Verwechslungen."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was ist eine Konfusionsmatrix, und was steht auf ihrer Diagonale?",
+          "a": "Eine Tabelle, die das Klassifikationsergebnis den Referenzdaten gegenüberstellt und zeigt, welche klassifizierten Pixel in welche tatsächliche Klasse fallen. Auf der Diagonale stehen die richtig klassifizierten Pixel, alles daneben sind Verwechslungen.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 909,
+      "text_sha": "f38c2833bb64ec81",
+      "pdf_page": 4,
+      "pdf_cell": 2
+    },
+    {
+      "n": 12,
+      "img": "img/FE08/FE08_s012.webp",
+      "title": "Overall, Producer's und User's Accuracy",
+      "text": "Drei Maße mit derselben Zähler-, aber verschiedener Nennergröße. Overall Accuracy: OA = Anzahl richtig klassifizierter Pixel / Gesamtpixel. Producer's Accuracy: die Anzahl der Pixel, die derjenigen Klasse zugeordnet werden, zu der sie laut Testgebiet gehören — PA = Anzahl richtig klassifizierter Pixel / Spaltensumme. User's Accuracy: sie gibt an, wie viele der klassifizierten Pixel tatsächlich der zugewiesenen Klasse angehören — UA = Anzahl richtig klassifizierter Pixel / Zeilensumme. Merkhilfe: Producer schaut auf die Spalte (was ist von der Wirklichkeit angekommen?), User auf die Zeile (was ist von meiner Klasse echt?).",
+      "terms": [
+        {
+          "term": "Overall Accuracy",
+          "def": "Anzahl richtig klassifizierter Pixel geteilt durch die Gesamtzahl der Pixel."
+        },
+        {
+          "term": "Producer's Accuracy",
+          "def": "Anzahl richtig klassifizierter Pixel geteilt durch die Spaltensumme: wie viele Pixel einer tatsächlichen Klasse auch als diese erkannt wurden."
+        },
+        {
+          "term": "User's Accuracy",
+          "def": "Anzahl richtig klassifizierter Pixel geteilt durch die Zeilensumme: wie viele der als Klasse X ausgewiesenen Pixel tatsächlich Klasse X sind."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie sind Overall, Producer's und User's Accuracy definiert?",
+          "a": "Overall Accuracy = richtig klassifizierte Pixel / Gesamtpixel. Producer's Accuracy = richtig klassifizierte Pixel / Spaltensumme. User's Accuracy = richtig klassifizierte Pixel / Zeilensumme.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Was sagt die User's Accuracy dem Nutzer einer Karte?",
+          "a": "Wie viele der als eine bestimmte Klasse ausgewiesenen Pixel tatsächlich zu dieser Klasse gehören — also wie verlässlich die Karte an einer Stelle ist, an der sie „Wald“ sagt. Berechnet über die Zeilensumme.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 594,
+      "text_sha": "9d133236d80456d4",
+      "pdf_page": 4,
+      "pdf_cell": 3
+    },
+    {
+      "n": 13,
+      "img": "img/FE08/FE08_s013.webp",
+      "title": "Overall Accuracy am Beispiel",
+      "text": "Summe der richtig klassifizierten Pixel = 54 + 38 + 42 + 16 + 19 = 169. Grundgesamtheit = 209. Overall Accuracy = 169 / 209 = 0,81.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Berechnen Sie die Overall Accuracy: 169 richtig klassifizierte Pixel bei einer Grundgesamtheit von 209.",
+          "a": "169 / 209 = 0,81, also 81 %.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 333,
+      "text_sha": "ac67b93774733850",
+      "pdf_page": 5,
+      "pdf_cell": 1
+    },
+    {
+      "n": 14,
+      "img": "img/FE08/FE08_s014.webp",
+      "title": "Producer's Accuracy am Beispiel",
+      "text": "Für die Klasse Wasser: Summe der richtig klassifizierten = 19, Spaltensumme = 22, Producer's Accuracy = 19 / 22 = 0,86.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie berechnet man die Producer's Accuracy am Beispiel Wasser (19 richtig, Spaltensumme 22)?",
+          "a": "19 / 22 = 0,86. Die Producer's Accuracy nutzt immer die SPALTENsumme, also die tatsächlich vorhandenen Pixel dieser Klasse.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 299,
+      "text_sha": "ca725a87488d4b20",
+      "pdf_page": 5,
+      "pdf_cell": 2
+    },
+    {
+      "n": 15,
+      "img": "img/FE08/FE08_s015.webp",
+      "title": "User's Accuracy am Beispiel",
+      "text": "Für die Klasse Wiese: Summe der richtig klassifizierten = 38, Zeilensumme = 42, User's Accuracy = 38 / 42 = 0,9.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie berechnet man die User's Accuracy am Beispiel Wiese (38 richtig, Zeilensumme 42)?",
+          "a": "38 / 42 = 0,90. Die User's Accuracy nutzt immer die ZEILENsumme, also alle Pixel, die als diese Klasse ausgewiesen wurden.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 288,
+      "text_sha": "160c13da9ba98834",
+      "pdf_page": 5,
+      "pdf_cell": 3
+    },
+    {
+      "n": 16,
+      "img": "img/FE08/FE08_s016.webp",
+      "title": "Kappa-Koeffizient — was er misst",
+      "text": "Der Kappa-Koeffizient ist ein Maß zur Ermittlung der Übereinstimmung zwischen klassifizierten Daten und Referenzdaten. Zwei Fehlertypen gehen ein: Errors of omission — die Zahl der fälschlicherweise einer Klasse NICHT zugeordneten Pixel; und Errors of commission — die Zahl der fälschlicherweise zu einer Klasse zugeschlagenen Pixel. Die Skala: k = 0 bedeutet keine Übereinstimmung zwischen Testgebiet und Klassifikation, k = 1 absolute Übereinstimmung.",
+      "terms": [
+        {
+          "term": "Kappa-Koeffizient",
+          "def": "Maß der Übereinstimmung zwischen klassifizierten Daten und Referenzdaten, bereinigt um die Zufallsübereinstimmung; 0 = keine Übereinstimmung, 1 = absolute Übereinstimmung."
+        },
+        {
+          "term": "Errors of omission",
+          "def": "Pixel, die einer Klasse fälschlicherweise NICHT zugeordnet wurden."
+        },
+        {
+          "term": "Errors of commission",
+          "def": "Pixel, die einer Klasse fälschlicherweise zugeschlagen wurden."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was sind Errors of omission und Errors of commission?",
+          "a": "Errors of omission: Pixel, die einer Klasse fälschlicherweise NICHT zugeordnet wurden. Errors of commission: Pixel, die einer Klasse fälschlicherweise zugeschlagen wurden.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welchen Wertebereich hat der Kappa-Koeffizient?",
+          "a": "Von 0 bis 1: k = 0 bedeutet keine Übereinstimmung zwischen Testgebiet und Klassifikation, k = 1 absolute Übereinstimmung.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 517,
+      "text_sha": "8e9cd8afdb1d9039",
+      "pdf_page": 6,
+      "pdf_cell": 1
+    },
+    {
+      "n": 17,
+      "img": "img/FE08/FE08_s017.webp",
+      "title": "Die Kappa-Formel",
+      "text": "Kappa = (Overall Accuracy − Zufallsübereinstimmung) / (1 − Zufallsübereinstimmung). Der Nenner normiert auf das, was über den Zufall hinaus überhaupt erreichbar war.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie lautet die Formel des Kappa-Koeffizienten?",
+          "a": "Kappa = (Overall Accuracy − Zufallsübereinstimmung) / (1 − Zufallsübereinstimmung).",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 235,
+      "text_sha": "8285848de49f97ca",
+      "pdf_page": 6,
+      "pdf_cell": 2
+    },
+    {
+      "n": 18,
+      "img": "img/FE08/FE08_s018.webp",
+      "title": "Kappa — die Ausgangswerte",
+      "text": "Ausgangspunkt der Rechnung: 169 richtig klassifizierte Pixel bei 209 Gesamtpixeln, also eine Overall Accuracy von 0,81.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 364,
+      "text_sha": "5aa2f06fe3c428f5",
+      "pdf_page": 6,
+      "pdf_cell": 3
+    },
+    {
+      "n": 19,
+      "img": "img/FE08/FE08_s019.webp",
+      "title": "Die Zufallsübereinstimmung berechnen",
+      "text": "Die Zufallsübereinstimmung ergibt sich als Summe der Produkte der Zeilen- und Spaltensummen, geteilt durch die Grundgesamtheit zum Quadrat. Im Beispiel: (62·63) + (42·43) + (51·54) + (32·27) + (22·22) = 9814. Geteilt durch 209² = 43681 ergibt das rund 0,23.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie berechnet man die Zufallsübereinstimmung für den Kappa-Koeffizienten?",
+          "a": "Als Summe der Produkte aus Zeilen- und Spaltensummen, geteilt durch die Grundgesamtheit zum Quadrat. Im Beispiel: (62·63)+(42·43)+(51·54)+(32·27)+(22·22) = 9814, geteilt durch 209² = 0,23.",
+          "difficulty": 3,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 420,
+      "text_sha": "9d41a44e3639cc48",
+      "pdf_page": 7,
+      "pdf_cell": 1
+    },
+    {
+      "n": 20,
+      "img": "img/FE08/FE08_s020.webp",
+      "title": "Kappa berechnet",
+      "text": "Kappa = (0,81 − 0,23) / (1 − 0,23) = 0,75, also 75 %. Die Folie sagt auch, was dieser Wert bedeutet: der Vergleich meiner Klassifikation mit einer zufälligen Klassifikation. Der Kappa-Wert liegt also stets unter der Overall Accuracy — weil ein Teil der Treffer auch durch bloßes Raten zustande gekommen wäre.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Berechnen Sie Kappa bei einer Overall Accuracy von 0,81 und einer Zufallsübereinstimmung von 0,23.",
+          "a": "(0,81 − 0,23) / (1 − 0,23) = 0,58 / 0,77 = 0,75, also 75 %.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Warum liegt der Kappa-Koeffizient unter der Overall Accuracy?",
+          "a": "Weil er die Zufallsübereinstimmung herausrechnet: er vergleicht die eigene Klassifikation mit einer zufälligen. Ein Teil der Treffer wäre auch durch bloßes Raten entstanden und zählt deshalb nicht.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 419,
+      "text_sha": "0b513a85f06ba855",
+      "pdf_page": 7,
+      "pdf_cell": 2
+    },
+    {
+      "n": 21,
+      "img": "img/FE08/FE08_s021.webp",
+      "title": "Beurteilungslevels für Kappa",
+      "text": "Die Skala nach Grouven et al. 2007: 0,00 sehr schwach; 0,00–0,20 schwach; 0,21–0,40 leicht; 0,41–0,60 mittelmäßig; 0,61–0,80 gut; 0,81–1,00 sehr gut. Der Beispielwert 0,75 fällt also in die Kategorie „gut“.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie werden Kappa-Werte beurteilt?",
+          "a": "0,00 sehr schwach; 0,00–0,20 schwach; 0,21–0,40 leicht; 0,41–0,60 mittelmäßig; 0,61–0,80 gut; 0,81–1,00 sehr gut (Grouven et al. 2007).",
+          "difficulty": 3,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "diagram",
+      "likely_filler": false,
+      "text_chars": 458,
+      "text_sha": "e7f3007654e0c143",
+      "pdf_page": 7,
+      "pdf_cell": 3
+    },
+    {
+      "n": 22,
+      "img": "img/FE08/FE08_s022.webp",
+      "title": "Case Study 2b: Indizes ermitteln",
+      "text": "Ziel der zweiten Fallstudie: Vegetations- und Wasseroberflächenanteile berechnen, und zwar mit NDVI und NDWI.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 222,
+      "text_sha": "82b73637d3af622d",
+      "pdf_page": 8,
+      "pdf_cell": 1
+    },
+    {
+      "n": 23,
+      "img": "img/FE08/FE08_s023.webp",
+      "title": "Untersuchungsgebiet",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 135,
+      "text_sha": "fb365a0744cc247c",
+      "pdf_page": 8,
+      "pdf_cell": 2
+    },
+    {
+      "n": 24,
+      "img": "img/FE08/FE08_s024.webp",
+      "title": "Indizes — Ausgangsbild",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 112,
+      "text_sha": "0967fd2d7a8114a6",
+      "pdf_page": 8,
+      "pdf_cell": 3
+    },
+    {
+      "n": 25,
+      "img": "img/FE08/FE08_s025.webp",
+      "title": "NDVI — Einstieg",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 162,
+      "text_sha": "540f999e33bfdb63",
+      "pdf_page": 9,
+      "pdf_cell": 1
+    },
+    {
+      "n": 26,
+      "img": "img/FE08/FE08_s026.webp",
+      "title": "Wiederholung: Was sind Indizes?",
+      "text": "Ein Index ist ein Verhältnis zwischen einzelnen Kanälen, mit dem die Spektraleigenschaften bestimmter Materialien hervorgehoben werden; es entsteht ein neues, eigenes Bild aus der Kombination von Reflexions- und Absorptionsmaxima bzw. -minima.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 357,
+      "text_sha": "7961a6544a7106d9",
+      "pdf_page": 9,
+      "pdf_cell": 2
+    },
+    {
+      "n": 27,
+      "img": "img/FE08/FE08_s027.webp",
+      "title": "Vegetationsindizes — das Prinzip",
+      "text": "Vegetationsindizes wollen eine Verstärkung der Reflexion durch die Vegetation erzielen und sollen grüne und gesunde Vegetation ermitteln. Diese hat deutliche Ausprägungen im sichtbaren Bereich und im NIR: Blau und Rot gering, Grün deutlich, NIR stark. Und ein diagnostischer Satz: Ein geringer Unterschied zwischen Rot und NIR schließt auf offenen Boden — denn nur bei Vegetation klafft zwischen diesen beiden Kanälen eine große Lücke.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Wie verhält sich grüne, gesunde Vegetation in Blau, Rot, Grün und NIR?",
+          "a": "Blau und Rot gering (Chlorophyllabsorption), Grün deutlich, NIR stark (Zellstruktur).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Worauf schließt ein geringer Unterschied zwischen Rot und NIR?",
+          "a": "Auf offenen Boden. Nur bei Vegetation klafft zwischen dem niedrigen Rot- und dem hohen NIR-Wert eine große Lücke — genau diese Lücke misst der NDVI.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 480,
+      "text_sha": "7366e5f2c170842a",
+      "pdf_page": 9,
+      "pdf_cell": 3
+    },
+    {
+      "n": 28,
+      "img": "img/FE08/FE08_s028.webp",
+      "title": "NDVI (Normalised Difference Vegetation Index)",
+      "text": "Die Formel: NDVI = (NIR − Rot) / (NIR + Rot). Die Begründung steht direkt darunter: wenig Reflexion gesunder Vegetation im roten Bereich, starke Reflexion gesunder Vegetation im NIR, und die Reflexion im NIR ist auf die Zellstruktur zurückzuführen. Die Prüfungsantwort lautet deshalb: der NDVI stellt die geringe Reflexion im roten Bereich der hohen Reflexion im NIR gegenüber. Falsch wären: eine Absorption des NIR durch gesunde Vegetation (sie reflektiert dort stark), die Subtraktion des grünen Bandes (es ist Rot) und der Faktor L (der gehört zum SAVI).",
+      "terms": [
+        {
+          "term": "NDVI",
+          "def": "Normalised Difference Vegetation Index: (NIR − Rot) / (NIR + Rot); stellt die geringe Rot-Reflexion der hohen NIR-Reflexion gesunder Vegetation gegenüber."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie lautet die NDVI-Formel?",
+          "a": "NDVI = (NIR − Rot) / (NIR + Rot).",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Der NDVI dient zur Erkennung von Vegetation — wie wird er angewandt?",
+          "a": "Die geringe Reflexion im roten Bereich wird der hohen Reflexion im NIR gegenübergestellt. Nicht die Absorption des NIR (gesunde Vegetation reflektiert dort stark), nicht die Subtraktion des grünen Bandes und nicht der Faktor L (der gehört zum SAVI).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 340,
+      "text_sha": "edd7161752ec291f",
+      "pdf_page": 10,
+      "pdf_cell": 1
+    },
+    {
+      "n": 29,
+      "img": "img/FE08/FE08_s029.webp",
+      "title": "NDVI — Ergebnisbild",
+      "text": "Der NDVI als eigenes Bild: je heller, desto höher der Wert und damit die Vegetationsdichte.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 162,
+      "text_sha": "9b80e75e73af6827",
+      "pdf_page": 10,
+      "pdf_cell": 2
+    },
+    {
+      "n": 30,
+      "img": "img/FE08/FE08_s030.webp",
+      "title": "NDVI-Werte lesen",
+      "text": "Die Interpretationsspanne der Folie: 0,1 bis 0,5 bedeutet karge, also wenig Vegetation; 0,6 bis 1,0 bedeutet dichte, gesunde Vegetation. Der NDVI kann rechnerisch von −1 bis +1 laufen; negative Werte treten typischerweise über Wasser auf, weil dort das NIR fast vollständig absorbiert wird.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "Welche NDVI-Werte stehen für karge und welche für dichte, gesunde Vegetation?",
+          "a": "0,1 bis 0,5 karge (wenig) Vegetation; 0,6 bis 1,0 dichte, gesunde Vegetation. Negative Werte treten über Wasser auf, das NIR fast vollständig absorbiert.",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 236,
+      "text_sha": "15419fdc54a69f8c",
+      "pdf_page": 10,
+      "pdf_cell": 3
+    },
+    {
+      "n": 31,
+      "img": "img/FE08/FE08_s031.webp",
+      "title": "NDVI — weiteres Beispiel",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 162,
+      "text_sha": "d171c99765d056c2",
+      "pdf_page": 11,
+      "pdf_cell": 1
+    },
+    {
+      "n": 32,
+      "img": "img/FE08/FE08_s032.webp",
+      "title": "SAVI (Soil-Adjusted Vegetation Index)",
+      "text": "Die Formel: SAVI = ((NIR − Rot) / (NIR + Rot + L)) · (1 + L). Es ist eine Erweiterung des NDVI, mit der der Einfluss durch die Bodenhelligkeit verringert wird. L liegt zwischen 0 und 1; oft wird ein mittlerer Wert angenommen. Das ist der Index für Gebiete mit lückiger Vegetation, wo der helle Boden zwischen den Pflanzen den NDVI verfälschen würde — genau dafür steht der Faktor L.",
+      "terms": [
+        {
+          "term": "SAVI (Soil-Adjusted Vegetation Index)",
+          "def": "Erweiterung des NDVI um den Bodenkorrekturfaktor L (zwischen 0 und 1): ((NIR − Rot) / (NIR + Rot + L)) · (1 + L); verringert den Einfluss der Bodenhelligkeit."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wozu dient der Faktor L im SAVI, und welchen Wertebereich hat er?",
+          "a": "Er verringert den Einfluss der Bodenhelligkeit — nötig bei lückiger Vegetation, wo heller Boden zwischen den Pflanzen den NDVI verfälscht. L liegt zwischen 0 und 1, oft wird ein mittlerer Wert angenommen.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 311,
+      "text_sha": "54f39cbcdf7c16ae",
+      "pdf_page": 11,
+      "pdf_cell": 2
+    },
+    {
+      "n": 33,
+      "img": "img/FE08/FE08_s033.webp",
+      "title": "SAVI — Ergebnisbild",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 153,
+      "text_sha": "29a1c0d92042c31e",
+      "pdf_page": 11,
+      "pdf_cell": 3
+    },
+    {
+      "n": 34,
+      "img": "img/FE08/FE08_s034.webp",
+      "title": "Varianten des SAVI",
+      "text": "Drei Weiterentwicklungen: OSAVI (optimierter bodenbereinigter Vegetationsindex), TSAVI (transformierter bodenbereinigter Vegetationsindex) und MSAVI (modifizierter bodenbereinigter Vegetationsindex).",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 469,
+      "text_sha": "ea0b2135d720f27e",
+      "pdf_page": 12,
+      "pdf_cell": 1
+    },
+    {
+      "n": 35,
+      "img": "img/FE08/FE08_s035.webp",
+      "title": "NDWI für Wasserflächen",
+      "text": "Die Formel dieser Variante: NDWI = (Red − NIR) / (Red + NIR). Begründung: Wasser absorbiert NIR, die Differenz hebt Wasserkörper hervor — aber es kommt oft zu einer Überschätzung im urbanen Raum, weil auch Asphalt und Dächer im NIR dunkel sind.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 296,
+      "text_sha": "0a3c4431218f3fc9",
+      "pdf_page": 12,
+      "pdf_cell": 2
+    },
+    {
+      "n": 36,
+      "img": "img/FE08/FE08_s036.webp",
+      "title": "NDWI nach McFeeters",
+      "text": "Die bekanntere Variante: NDWI McFeeters = (Grün − NIR) / (Grün + NIR). Auch hier gilt: Wasser absorbiert NIR, die Differenz hebt Wasserkörper hervor, und es kommt oft zu einer Überschätzung im urbanen Raum. Beide NDWI-Varianten folgen demselben Bauprinzip wie der NDVI — nur mit umgekehrter Rolle des NIR: was Vegetation hell macht, macht Wasser dunkel.",
+      "terms": [
+        {
+          "term": "NDWI",
+          "def": "Normalised Difference Water Index; in der Variante nach McFeeters (Grün − NIR) / (Grün + NIR), in der Variante der Vorlesung auch (Red − NIR) / (Red + NIR). Nutzt aus, dass Wasser NIR absorbiert; neigt zur Überschätzung im urbanen Raum."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie lautet der NDWI nach McFeeters, und worauf beruht er?",
+          "a": "NDWI = (Grün − NIR) / (Grün + NIR). Er beruht darauf, dass Wasser das NIR absorbiert — die Differenz hebt Wasserkörper hervor.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Schwäche hat der NDWI?",
+          "a": "Er überschätzt Wasserflächen im urbanen Raum, weil auch Asphalt, Dächer und Schatten im NIR dunkel sind und dadurch fälschlich als Wasser erscheinen.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "NDVI und NDWI nutzen beide den NIR-Kanal. Worin unterscheidet sich seine Rolle?",
+          "a": "Beim NDVI steht NIR im Zähler vorne, weil Vegetation dort stark reflektiert (hoher Wert = viel Vegetation). Beim NDWI wird NIR abgezogen, weil Wasser dort absorbiert (hoher Wert = Wasser). Derselbe Kanal, umgekehrte Rolle.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 304,
+      "text_sha": "c6429f6cc7a9585e",
+      "pdf_page": 12,
+      "pdf_cell": 3
+    },
+    {
+      "n": 37,
+      "img": "img/FE08/FE08_s037.webp",
+      "title": "NDWI — Ergebnisbild",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 164,
+      "text_sha": "b8e6af12da91c023",
+      "pdf_page": 13,
+      "pdf_cell": 1
+    },
+    {
+      "n": 38,
+      "img": "img/FE08/FE08_s038.webp",
+      "title": "Exkurs: Waldbranderkennung",
+      "text": "Für ein Damage Assessment werden bekannte Methoden kombiniert, in drei Schritten: 1. Visualisierung durch Bandkombinationen. 2. Klassifikation zur Maskenbildung. 3. Veränderungen der Vegetationsinformation. Die Fallstudie zeigt exemplarisch, dass reale Auswertungen nie ein einzelnes Verfahren nutzen, sondern eine Kette.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 355,
+      "text_sha": "b83e87dfb28a587c",
+      "pdf_page": 13,
+      "pdf_cell": 2
+    },
+    {
+      "n": 39,
+      "img": "img/FE08/FE08_s039.webp",
+      "title": "NBR (Normalized Burn Ratio)",
+      "text": "Die Formel: NBR = (NIR − SWIR) / (NIR + SWIR). Ein Index zur Erkennung von verbrannten Flächen: verbrannte Flächen haben eine hohe Reflexion im SWIR und eine niedrige im NIR — also genau das Gegenteil gesunder Vegetation. Der Aufbau ist wieder derselbe normierte Differenzenquotient, nur mit dem SWIR- statt dem Rot-Kanal.",
+      "terms": [
+        {
+          "term": "NBR (Normalized Burn Ratio)",
+          "def": "(NIR − SWIR) / (NIR + SWIR); erkennt verbrannte Flächen, die im SWIR hoch und im NIR niedrig reflektieren."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie lautet die NBR-Formel, und wie verhalten sich verbrannte Flächen spektral?",
+          "a": "NBR = (NIR − SWIR) / (NIR + SWIR). Verbrannte Flächen haben eine hohe Reflexion im SWIR und eine niedrige im NIR — umgekehrt zu gesunder Vegetation.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 296,
+      "text_sha": "833aa3dd433e3415",
+      "pdf_page": 13,
+      "pdf_cell": 3
+    },
+    {
+      "n": 40,
+      "img": "img/FE08/FE08_s040.webp",
+      "title": "NBR — Beispiel",
+      "text": "Beispielanwendung nach Anderson 2018: die Brandfläche tritt im NBR-Bild deutlich hervor.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 158,
+      "text_sha": "1e8b0fcfca146baa",
+      "pdf_page": 14,
+      "pdf_cell": 1
+    },
+    {
+      "n": 41,
+      "img": "img/FE08/FE08_s041.webp",
+      "title": "Weitere Brandindizes",
+      "text": "NBR2 (Normalized Burn Ratio 2), BAI (Burned Area Index) und NBRT (Normalized Burn Ratio Thermal).",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 262,
+      "text_sha": "5a1cf63d80b136af",
+      "pdf_page": 14,
+      "pdf_cell": 2
+    },
+    {
+      "n": 42,
+      "img": "img/FE08/FE08_s042.webp",
+      "title": "Indizes — Ergebnisbild",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 112,
+      "text_sha": "143d858250e56c77",
+      "pdf_page": 14,
+      "pdf_cell": 3
+    },
+    {
+      "n": 43,
+      "img": "img/FE08/FE08_s043.webp",
+      "title": "Ausblick: Projektablauf",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 102,
+      "text_sha": "d14bc27e9352de20",
+      "pdf_page": 15,
+      "pdf_cell": 1
+    },
+    {
+      "n": 44,
+      "img": "img/FE08/FE08_s044.webp",
+      "title": "Kontakt",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "thin-text",
+      "likely_filler": false,
+      "text_chars": 100,
+      "text_sha": "b5f5a37674911c40",
+      "pdf_page": 15,
+      "pdf_cell": 2
+    },
+    {
+      "n": 45,
+      "img": "img/FE08/FE08_s045.webp",
+      "title": "Bildquellen",
+      "text": "",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done",
+      "needs_vision": false,
+      "vision_reason": null,
+      "likely_filler": false,
+      "text_chars": 1933,
+      "text_sha": "e2dc33f8cbb2e5a2",
+      "pdf_page": 15,
+      "pdf_cell": 3
+    }
+  ]
+}
