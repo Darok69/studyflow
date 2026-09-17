@@ -47,3 +47,6 @@ content/pipeline/__pycache__/
 
 # Dev server data (prod lives in a docker volume).
 data/
+
+# stažené úřední texty smluv – jen keš pro ./run.sh <předmět> articles
+content/*/out/prameny/cache/

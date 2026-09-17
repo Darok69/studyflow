@@ -193,8 +193,14 @@ def main() -> int:
                  # podcastu. Kurz si ho může přebít, jinak platí předmětový.
                  "language": spec_course.get("language") or spec.get("language") or "en",
                  "lectures": []}
+        # Popisek jednotky („Topic 7", „Exercise 3") je věcí zadání, ne slidů:
+        # pracovní sklad si ho nese z doby, kdy se přednáška renderovala, takže
+        # po přejmenování v courses.json by v učebnici zůstal starý. Zadání má
+        # přednost, sklad je jen záloha.
+        spec_unit = {l["id"]: l.get("unit") for l in spec_course.get("lectures", [])}
         for lec in course["lectures"]:
             d = json.loads((DATA / f"{lec['lecture_id']}.json").read_text("utf-8"))
+            d["unit"] = spec_unit.get(d["lecture_id"]) or d["unit"]
             slides = []
             for s in d["slides"]:
                 has = (s.get("text") or "").strip() or s.get("terms") or s.get("cards")
