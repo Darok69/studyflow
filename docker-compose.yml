@@ -12,6 +12,17 @@ services:
       - studyflow-data:/data
     networks:
       - web
+    # LIMIT 2026-09-22: StudyFlow sdílí stroj s firemní platformou DMARKA
+    # (Caddy z toho stacku sem proxuje study.dmarka.eu). Bez limitu viděl
+    # kontejner celých 15 GB RAM hostitele — zacyklení nebo únik paměti by
+    # sebral paměť produkci firmy. Reálná spotřeba je ~97 MB, takže 512 MB je
+    # pohodlná rezerva. Na produkci už je limit nasazený přes `docker update`;
+    # tohle ho drží i po přestavění kontejneru.
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '1.0'
 
 volumes:
   studyflow-data:
