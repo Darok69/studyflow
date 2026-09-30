@@ -69,6 +69,27 @@ def main() -> int:
                         "tags": [d["lecture_id"], c.get("priority", "core")],
                         "sourceRef": {"page": slide["n"]},
                     })
+        # Zkouškové otázky: ručně psané karty mimo slidy (`<předmět>/exam/*.json`,
+        # `course` = kód kurzu). Jdou do téhož balíčku, aby se v appce sloučily
+        # s předmětem a řadily se pod svá témata.
+        exam = 0
+        for f in sorted((ROOT / "exam").glob("*.json")):
+            e = json.loads(f.read_text("utf-8"))
+            if e["course"] != code:
+                continue
+            for c in e["cards"]:
+                cards.append({
+                    "type": "basic",
+                    "kind": c.get("kind", "pripad") if c.get("kind", "pripad") in KNOWN_KINDS else "basic",
+                    "level": c.get("difficulty", 3),
+                    "topic": c["topic"],
+                    "front": c["q"],
+                    "back": c["a"],
+                    "tags": ["zkouska", "core"] + ([f"{c['points']}b"] if c.get("points") else []),
+                })
+                exam += 1
+        if exam:
+            print(f"  {code}: {exam} zkouškových otázek z exam/")
         if not cards:
             print(f"{code}: zatím žádné karty — přeskočeno")
             continue
