@@ -31,6 +31,77 @@ KNOWN_KINDS = {"basic", "cloze", "definice", "znaky", "schema", "pripad", "rozli
                "norma", "judikat", "proces", "mapa", "cisla", "srovnani", "model", "graf"}
 
 
+def exam_card(c: dict, topic: str, front: str, tag: str) -> dict:
+    kind = c.get("kind", "pripad")
+    return {
+        "type": "basic",
+        "kind": kind if kind in KNOWN_KINDS else "basic",
+        "level": c.get("difficulty", 3),
+        "topic": topic,
+        "front": front,
+        "back": c["a"],
+        "tags": ["zkouska", tag] + ([f"{c['points']}b"] if c.get("points") else []),
+    }
+
+
+def write_exam_deck(code: str, subject: str, exam_date: str) -> int:
+    """Zkouškové otázky jako SAMOSTATNÝ předmět, ne příměs do balíčku přednášek.
+
+    Na zkoušku se student soustředí zvlášť, takže otázky mají vlastní předmět
+    se třemi vrstvami témat:
+      1. skutečné zkoušky (`exam/papers/*.json`) — podotázky v pořadí papíru,
+         každá s vlastním štítkem „[termín · Q1(a)]" na začátku otázky,
+      2. modelové zkoušky (`exam/mocks/*.json`) — celé 30bodové papíry,
+      3. procvičování po oblastech (`exam/*.json`) — vše, co není v papíru.
+    Karta ze skutečné zkoušky se z procvičování vyjme, aby tam nebyla dvakrát.
+    """
+    base = ROOT / "exam"
+    area = {}
+    for f in sorted(base.glob("*.json")):
+        e = json.loads(f.read_text("utf-8"))
+        if e["course"] == code:
+            area[f.name] = e["cards"]
+    cards, used, fronts = [], set(), set()
+
+    def add(card: dict) -> None:
+        key = " ".join(card["front"].split()).lower()
+        if key in fronts:
+            raise SystemExit(f"{code}: zkouškový balíček má duplicitní otázku: {card['front'][:80]}")
+        fronts.add(key)
+        cards.append(card)
+
+    papers = [json.loads(f.read_text("utf-8")) for f in sorted((base / "papers").glob("*.json"))]
+    papers = sorted((p for p in papers if p["course"] == code), key=lambda p: p.get("order", 99))
+    for p in papers:
+        short = p.get("short") or p["title"].split("— ")[-1]
+        for s in p["subquestions"]:
+            if s["match"] == "exact":
+                fname, idx = s["card"].split("#")
+                c = area[fname][int(idx)]
+                used.add((fname, int(idx)))
+            else:
+                c = s["new_card"]
+            add(exam_card(c, p["title"], f"[{short} · {s['label']}] {c['q']}", "realna-zkouska"))
+    mocks = [json.loads(f.read_text("utf-8")) for f in sorted((base / "mocks").glob("*.json"))]
+    for m in (m for m in mocks if m["course"] == code):
+        for c in m["cards"]:
+            add(exam_card(c, m["title"], c["q"], "modelova-zkouska"))
+    for fname, cs in area.items():
+        for i, c in enumerate(cs):
+            if (fname, i) not in used:
+                add(exam_card(c, c["topic"], c["q"], "procviceni"))
+    if not cards:
+        return 0
+    deck = {"subject": subject, "examDate": exam_date, "cards": cards}
+    out = DEST / f"{ROOT.name}-{code.lower()}-zkouska.json"
+    out.write_text(json.dumps(deck, ensure_ascii=False, indent=1) + "\n", "utf-8")
+    n = lambda t: sum(1 for c in cards if t in c["tags"])
+    print(f"{code} zkouška: {len(cards)} karet ({n('realna-zkouska')} ze skutečných zkoušek "
+          f"v {len(papers)} papírech, {n('modelova-zkouska')} modelových, {n('procviceni')} "
+          f"procvičování) → {out.relative_to(ROOT)} · {out.stat().st_size // 1024} kB")
+    return len(cards)
+
+
 def main() -> int:
     index = work_index(ROOT)
     exam_date = index["exam"]["date"]
@@ -69,27 +140,6 @@ def main() -> int:
                         "tags": [d["lecture_id"], c.get("priority", "core")],
                         "sourceRef": {"page": slide["n"]},
                     })
-        # Zkouškové otázky: ručně psané karty mimo slidy (`<předmět>/exam/*.json`,
-        # `course` = kód kurzu). Jdou do téhož balíčku, aby se v appce sloučily
-        # s předmětem a řadily se pod svá témata.
-        exam = 0
-        for f in sorted((ROOT / "exam").glob("*.json")):
-            e = json.loads(f.read_text("utf-8"))
-            if e["course"] != code:
-                continue
-            for c in e["cards"]:
-                cards.append({
-                    "type": "basic",
-                    "kind": c.get("kind", "pripad") if c.get("kind", "pripad") in KNOWN_KINDS else "basic",
-                    "level": c.get("difficulty", 3),
-                    "topic": c["topic"],
-                    "front": c["q"],
-                    "back": c["a"],
-                    "tags": ["zkouska", "core"] + ([f"{c['points']}b"] if c.get("points") else []),
-                })
-                exam += 1
-        if exam:
-            print(f"  {code}: {exam} zkouškových otázek z exam/")
         if not cards:
             print(f"{code}: zatím žádné karty — přeskočeno")
             continue
@@ -112,6 +162,8 @@ def main() -> int:
               f"{'kurz' if len(group) == 1 else 'kurzy'}) → {out.relative_to(ROOT)} "
               f"· {out.stat().st_size // 1024} kB")
         total += len(cards)
+        if course.get("exam_subject"):
+            total += write_exam_deck(code, course["exam_subject"], exam_date)
     # Balíčky bez karet: jen roztřídí, co už uživatel má. Starší balíček bez
     # témat je jinak jedna nerozlišená hromada a nová obrazovka předmětu s ním
     # neumí nic udělat.

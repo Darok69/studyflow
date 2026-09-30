@@ -53,7 +53,7 @@ def work_index(root: Path) -> dict:
         sc = by_code.get(course["code"])
         if not sc:
             continue
-        for key in ("title", "subject", "kind", "filing"):
+        for key in ("title", "subject", "kind", "filing", "exam_subject"):
             if sc.get(key) is not None:
                 course[key] = sc[key]
         by_id = {l["id"]: l for l in sc.get("lectures", [])}
