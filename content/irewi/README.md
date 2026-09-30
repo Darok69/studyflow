@@ -21,9 +21,11 @@ odrážek; číslo u karty je 1 zapamatovat / 2 porozumět / 3 použít.
 Hotovo: 23 přednášek, 758 slidů, 479 karet (457 jádro), z toho 76 případových.
 Chybí jen Unit III a Unit IX mezinárodního práva — v Moodle exportu nejsou.
 
-**Zkouškové otázky** (`exam/*.json`, 2026-09-30): 431 ručně psaných otázek ve
+**Zkouškové otázky** (`exam/*.json`, 2026-09-30): 468 ručně psaných otázek ve
 stylu skutečných zkoušek (5/2025, 6/2025, 1/2026, 3/2026 + starší ze studocu)
-s modelovou odpovědí za plný počet bodů — IL 266, EU 165. Odpověď začíná
+s modelovou odpovědí za plný počet bodů — IL 281, EU 187. Každá karta prošla
+nezávislým ověřením a každá oprava druhým, skeptickým posouzením (122 karet
+opraveno); `*-doplneni.json` = 37 karet na mezery, které ověření našlo. Odpověď začíná
 `Short answer:`, u IL končí `Memorise:` (bez kodexu), u EU `Codex:` (články
 k nalistování + judikáty, které v kodexu nejsou). `make_deck` je přidá do
 balíčku svého kurzu (`course`) se štítky `zkouska` a `<body>b`.
