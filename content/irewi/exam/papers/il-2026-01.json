@@ -1,0 +1,80 @@
+{
+ "id": "il-2026-01",
+ "course": "IL",
+ "title": "Real exam — 29 January 2026",
+ "subquestions": [
+  {
+   "label": "Q1(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-treaties.json#5",
+   "note": "Same REMT facts, question and 2 points; il-ios-force.json#17 only covers the IDAO half, so it is not the faithful match."
+  },
+  {
+   "label": "Q1(b)",
+   "points": 4,
+   "match": "exact",
+   "card": "il-treaties.json#44",
+   "note": "Same REMT amendment facts (Aldoam/Daroto want a ban, Bertus disagrees), same wording and 4 points; covers Arts 39-41 and 30(4)."
+  },
+  {
+   "label": "Q1(c)",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "The Law of Treaties",
+    "kind": "norma",
+    "difficulty": 2,
+    "points": 2,
+    "q": "When may recourse be had to the travaux préparatoires to assist in interpreting a treaty? (2 points)",
+    "a": "Short answer: Travaux préparatoires are only a supplementary means of interpretation (Art 32 VCLT): they may always be used to confirm the meaning reached under the general rule of Art 31, but may determine the meaning only if the Art 31 interpretation leaves it ambiguous or obscure or leads to a manifestly absurd or unreasonable result.\n• Art 31 comes first: good faith, ordinary meaning of the terms, context, object and purpose, plus subsequent agreements, subsequent practice establishing the parties' agreement and relevant rules of international law. Art 32 supplementary means = the travaux (drafts, negotiating records, conference minutes) and the circumstances of the treaty's conclusion.\n• Confirm: always permissible, even when the text is clear (ICJ, Libya/Chad 1994).\n• Determine: only if the Art 31 result is (a) ambiguous or obscure or (b) manifestly absurd or unreasonable. A clear and reasonable text cannot be displaced by the drafting history.\n• River Oder (PCIJ 1929) excluded travaux against states that had not taken part in the negotiations; the ILC did not adopt this limit in the VCLT.\n• Arts 31–32 reflect customary law (ICJ, Pulau Ligitan/Sipadan 2002), so they also apply to states not party to the VCLT.\nMemorise: Art 31 first (good faith · ordinary meaning · context · object and purpose · subsequent agreement/practice) · Art 32 travaux + circumstances of conclusion = supplementary · confirm = always · determine = only if ambiguous/obscure or manifestly absurd/unreasonable · custom"
+   },
+   "note": "The only candidate (il-treaties.json#26) adds a second 'only when ambiguous?' question, so this new card asks exactly the paper's single question. Review fixes: Short answer cut to one sentence; Art 31(3)(b) restated correctly (subsequent practice establishing the parties' agreement, not just practice of all parties); River Oder corrected (it was not about later acceding states, and the ILC rejected that restriction, so it is not a VCLT rule); custom for Arts 31-32 backed by Pulau Ligitan 2002; length reduced to fit 2 points."
+  },
+  {
+   "label": "Q1(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-treaties.json#68",
+   "note": "Same Austrian accession to REMT under Art 50 B-VG for 2 points; the card's article references were checked against the RIS texts of Arts 49 and 50 B-VG."
+  },
+  {
+   "label": "Q2(a)",
+   "points": 5,
+   "match": "exact",
+   "card": "il-states.json#15",
+   "note": "The paper wrongly numbers this '3. a)'; it is Question 2(a), and the card has the identical wording and 5 points."
+  },
+  {
+   "label": "Q2(b)",
+   "points": 5,
+   "match": "exact",
+   "card": "il-states.json#16",
+   "note": "Same question (sources of law and principles of state succession in respect of treaties) and 5 points."
+  },
+  {
+   "label": "Q3(a)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-ios-force.json#18",
+   "note": "Same facts (the Secretary-General, a national of State A, is convicted of defamation in State A) and 3 points; only the incidental media-coverage detail is left out."
+  },
+  {
+   "label": "Q3(b)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-ios-force.json#20",
+   "note": "Same Chapter VII vote (10 in favour, 3 abstentions including one permanent member, 2 against) and 3 points; the answer distinguishes the variants for who cast the negative votes."
+  },
+  {
+   "label": "Q3(c)",
+   "points": 4,
+   "match": "exact",
+   "card": "il-ios-force.json#29",
+   "note": "This sub-question has no letter on the paper; the card has the same peacekeeping facts (B requests, SC unanimous, A claims ultra vires), same question and 4 points."
+  }
+ ],
+ "order": 2,
+ "short": "Jan 2026"
+}

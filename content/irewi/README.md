@@ -21,14 +21,20 @@ odrážek; číslo u karty je 1 zapamatovat / 2 porozumět / 3 použít.
 Hotovo: 23 přednášek, 758 slidů, 479 karet (457 jádro), z toho 76 případových.
 Chybí jen Unit III a Unit IX mezinárodního práva — v Moodle exportu nejsou.
 
-**Zkouškové otázky** (`exam/*.json`, 2026-09-30): 468 ručně psaných otázek ve
-stylu skutečných zkoušek (5/2025, 6/2025, 1/2026, 3/2026 + starší ze studocu)
-s modelovou odpovědí za plný počet bodů — IL 281, EU 187. Každá karta prošla
-nezávislým ověřením a každá oprava druhým, skeptickým posouzením (122 karet
-opraveno); `*-doplneni.json` = 37 karet na mezery, které ověření našlo. Odpověď začíná
-`Short answer:`, u IL končí `Memorise:` (bez kodexu), u EU `Codex:` (články
-k nalistování + judikáty, které v kodexu nejsou). `make_deck` je přidá do
-balíčku svého kurzu (`course`) se štítky `zkouska` a `<body>b`.
+**Zkouškové otázky** — samostatné předměty „IREWI — zkouška: mezinárodní
+právo" (336 karet) a „… unijní právo" (285), `courses.json` → `exam_subject`.
+Tři vrstvy témat:
+1. `exam/papers/*.json` — skutečné zkoušky po podotázkách v pořadí papíru
+   (IL: 5/2025, 6/2025, 1/2026, 3/2026 + 2/2024, 3/2024, 4/2024, 6/2024;
+   EU: sady A–E ze studocu), otázka začíná `[Jan 2026 · Q1(a)]`;
+   `exact` = odkaz na kartu z oblasti, `new` = věrná karta jen pro papír,
+2. `exam/mocks/*.json` — 4 + 4 modelové 30bodové zkoušky,
+3. `exam/*.json` — procvičování po oblastech (co není v papíru).
+Všechno prošlo nezávislým ověřením + skeptickým rozhodčím. Odpověď začíná
+`Short answer:`, u IL končí `Memorise:` (bez kodexu), u EU `Codex:`.
+Balíčky přednášek nesou `remove: [{tag: zkouska}]` (dřív se do nich otázky
+přimíchaly), zkouškové `updates` (přejmenování na `[termín · Qx]` se
+zachovanou historií).
 
 Podcast: obě řady namluvené (23 + 23 epizod, 3,2 h a 4,3 h).
 

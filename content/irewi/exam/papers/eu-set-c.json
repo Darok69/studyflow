@@ -1,0 +1,210 @@
+{
+ "id": "eu-set-c",
+ "course": "EU",
+ "title": "Past questions — set C (practice questions 1-9)",
+ "subquestions": [
+  {
+   "label": "Q1",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-institutions.json#0",
+   "note": "Same three-part question (name, founding, founding states) at 2 points; answer correct (Treaty of Paris 1951/52, the Six, expiry 2002)."
+  },
+  {
+   "label": "Q2",
+   "points": 3,
+   "match": "exact",
+   "card": "eu-institutions.json#5",
+   "note": "Same distinction Council of Europe / European Council / Council of the EU at 3 points; the card says 'bodies', which is more accurate because the Council of Europe is not an EU institution."
+  },
+  {
+   "label": "Q3",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "EU Institutions I — European Council and Commission",
+    "kind": "znaky",
+    "difficulty": 1,
+    "points": 2,
+    "q": "Name two tasks that the European Commission performs. (2 points)",
+    "a": "Short answer: For example (1) the right of legislative initiative and (2) the role of guardian of the Treaties, both laid down in Art 17 TEU.\n• Task 1, initiative: the Commission promotes the general interest of the Union and takes initiatives to that end (Art 17(1) TEU). Union legislative acts may be adopted only on a Commission proposal unless the Treaties provide otherwise (Art 17(2) TEU). The ordinary legislative procedure starts with its proposal (Art 294(2) TFEU), and the Council can amend a proposal only unanimously (Art 293(1) TFEU).\n• Task 2, guardian of the Treaties: it ensures the application of the Treaties and of measures adopted under them and oversees the application of Union law under the control of the CJEU (Art 17(1) TEU). Examples: infringement proceedings against Member States (Art 258, financial penalties under Art 260(2) TFEU), enforcement of the competition and state-aid rules (Arts 105, 108 TFEU), monitoring of national budgetary situations and government debt (Art 126(2) TFEU).\n• Other tasks that also earn the point: executing the budget and managing programmes (Art 17(1) TEU, Art 317 TFEU); coordinating, executive and management functions, including delegated and implementing acts (Arts 290, 291(2) TFEU); external representation of the Union except in the CFSP (Art 17(1) TEU); negotiating trade agreements (Arts 207(3), 218(3) TFEU).\nCodex: Art 17(1)–(2) TEU; Arts 105, 108, 126(2), 207(3), 218(3), 258, 260, 290, 291, 293, 294(2), 317 TFEU."
+   },
+   "note": "The closest card (eu-institutions#15) asks for four tasks for 4 points, so this card was written for the paper's two tasks at 2 points. Review: legally correct; only wording tightened (Art 293(1) 'amend', Art 17(1) 'coordinating, executive and management functions')."
+  },
+  {
+   "label": "Q4(a)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "EU Institutions II — Council, Parliament, other bodies",
+    "kind": "norma",
+    "difficulty": 1,
+    "points": 1,
+    "q": "According to which criteria are the judges and Advocates General of the Court of Justice (ECJ) selected? (1 point)",
+    "a": "Short answer: They are chosen from persons whose independence is beyond doubt and who possess the qualifications required for appointment to the highest judicial offices in their countries, or who are jurisconsults of recognised competence (Art 19(2) TEU, Art 253(1) TFEU).\n• Two criteria: (1) independence beyond doubt; (2) professional qualification, meaning eligibility for the highest judicial offices at home or recognised standing as a legal expert ('jurisconsult').\n• Appointment: by common accord of the governments of the Member States for six years, after consulting the panel under Art 255 TFEU on the candidate's suitability. Every three years there is a partial replacement, and reappointment is possible (Art 19(2) TEU, Art 253 TFEU).\n• Distinguish: unlike ECtHR judges, who are elected by the Parliamentary Assembly of the Council of Europe (Art 22 ECHR), they are not elected by any parliament; the European Parliament only proposes one of the seven panel members (Art 255(2) TFEU). For General Court judges, Art 254(2) TFEU requires the 'ability required for appointment to high judicial office'.\nCodex: Art 19(2) TEU; Arts 253, 254, 255 TFEU."
+   },
+   "note": "The existing card eu-institutions#30 combines this with the AG role and an Art 255 panel case for 3 points; the paper asks the criteria alone for 1 point. Review: question now says 'Court of Justice (ECJ)' as on the paper (the AG criteria concern the Court of Justice, not the whole CJEU institution); fixed the misleading 'not elected by the European Parliament (the ECtHR model)' – ECtHR judges are elected by the PACE (Art 22 ECHR), and the EP's only role is proposing one panel member."
+  },
+  {
+   "label": "Q4(b)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "EU Institutions II — Council, Parliament, other bodies",
+    "kind": "norma",
+    "difficulty": 1,
+    "points": 1,
+    "q": "What is the role of the Advocates General at the Court of Justice (ECJ)? (1 point)",
+    "a": "Short answer: The Advocates General assist the Court of Justice (Art 19(2) TEU). Acting with complete impartiality and independence, they deliver in open court reasoned submissions (Opinions) on cases that require their involvement (Art 252(2) TFEU).\n• The Opinion is delivered after the hearing, and its delivery closes the oral part of the procedure; the judges then deliberate without the AG. It proposes how the Court should decide. It is not binding but is often followed, and it is published.\n• The Court may decide without an Opinion where the case raises no new point of law (Art 20 Statute, last paragraph). The First Advocate General assigns each case to an AG.\n• Composition: 11 AGs at the Court of Justice (Art 252(1) TFEU provides for eight, but lets the Council, acting unanimously at the Court's request, increase the number; it has been 11 since 2015). The General Court has no permanent AGs; exceptionally one of its judges may act as AG (Art 49 Statute).\nCodex: Art 19(2) TEU; Art 252 TFEU; Protocol No 3 (Statute), Arts 20, 49."
+   },
+   "note": "eu-institutions#30 merges the AG role with two other parts (3 points); this card asks the role alone at the paper's 1 point and corrects the thin student answer 'assists the Court'. Review: question says 'Court of Justice (ECJ)' as on the paper; fixed the timing error – the Opinion is part of the oral procedure and its delivery closes it (Art 82 RoP), it is not 'after the oral part'; added the unanimity/Court-request condition of Art 252(1) and the First AG (lecture)."
+  },
+  {
+   "label": "Q5",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Competences and Legislating",
+    "kind": "definice",
+    "difficulty": 2,
+    "points": 3,
+    "q": "Explain the principle of subsidiarity. Where is it regulated? (3 points)",
+    "a": "Short answer: Subsidiarity (Art 5(3) TEU, specified in Protocol No 2) means that in areas outside its exclusive competence the Union may act only if and in so far as the objectives cannot be sufficiently achieved by the Member States, but can rather, by reason of the scale or effects of the action, be better achieved at Union level.\n• Function: it governs the EXERCISE, not the existence, of competences (Art 5(1) TEU); existence is governed by conferral (Art 5(2) TEU). It expresses the idea that decisions are taken as closely as possible to the citizen (Art 1(2) TEU).\n• Scope: only non-exclusive competences, above all shared competences (Art 4 TFEU), and also coordinating and supporting competences (Arts 5, 6 TFEU). There is no subsidiarity test in areas of exclusive competence (Art 3 TFEU, e.g. customs union, common commercial policy).\n• Two cumulative conditions: (1) negative test (necessity): the Member States cannot sufficiently achieve the objective, either at central or at regional and local level; (2) positive test (EU added value): the Union can achieve it better because of the scale or effects of the action.\n• Where regulated and how it is controlled: Art 5(3) TEU; Protocol No 2 on the application of the principles of subsidiarity and proportionality; Art 12(b) TEU. Every draft legislative act must be justified with regard to subsidiarity (Art 5 Protocol 2, Art 296(2) TFEU). National parliaments may send reasoned opinions within eight weeks (Art 6 Protocol 2). At one third of their votes (one quarter in the AFSJ) – the yellow card – the draft must be reviewed (Art 7(2)). At a simple majority under the OLP – the orange card – the draft is reviewed and, if the Commission maintains it, the Council (55% of its members) or the EP (majority of votes cast) can stop it (Art 7(3)). Afterwards, a Member State (also on behalf of its national parliament) or the Committee of the Regions (for acts on which it must be consulted) can bring an annulment action (Art 8 Protocol 2, Art 263 TFEU). The Court's review is limited (marginal): Germany v EP and Council (C-233/94, reasons on subsidiarity may be implicit), Alliance for Natural Health (C-154/04 and C-155/04).\n• Distinguish proportionality (Art 5(4) TEU): it applies to ALL Union action and concerns the content and form of the action (no more than necessary).\nCodex: Arts 1(2), 5(1)–(4), 12(b) TEU; Arts 3, 4, 5, 6, 263, 296 TFEU; Protocols No 1 and 2 · Germany v EP and Council (C-233/94), Alliance for Natural Health (C-154/04 and C-155/04)."
+   },
+   "note": "The closest card (eu-institutions#39) asks about subsidiarity AND proportionality together; the paper asks only subsidiarity and where it is regulated. Review: legally correct; made the orange-card mechanics precise (Commission maintains, 55% Council / majority of votes cast EP, Art 7(3)), added the AFSJ quarter threshold, the CoR consultation limit in Art 8 Protocol 2, Art 5 TFEU in scope, and what C-233/94 actually held."
+  },
+  {
+   "label": "Q6(a)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Workarounds, Enforcement and State Liability",
+    "kind": "rozliseni",
+    "difficulty": 2,
+    "points": 1,
+    "q": "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'With the state liability claim according to Francovich, one can assert breaches of EU law by EU institutions.' (1 point)",
+    "a": "Short answer: False. Francovich liability is the liability of a MEMBER STATE for breaches of EU law attributable to it. Damage caused by EU institutions is claimed against the Union under Art 340(2) TFEU.\n• Francovich (C-6/90 and C-9/90, 1991): state liability is inherent in the system of the Treaties and is further based on the duty of sincere cooperation (Art 5 EEC, today Art 4(3) TEU). It obliges the Member State to make good damage it causes to individuals by breaching EU law, whichever organ acted: the legislature (Brasserie du Pêcheur, C-46/93), the administration or a court of last instance (Köbler, C-224/01). The claim is brought before national courts under national procedural rules (equivalence and effectiveness).\n• Breaches by EU institutions or servants fall under the non-contractual liability of the Union (Art 340(2) TFEU): an action for damages before the General Court (Arts 268, 256(1) TFEU), time-barred after 5 years (Art 46 Statute). The conditions match Francovich/Brasserie: a rule intended to confer rights on individuals, a sufficiently serious breach and a direct causal link to the damage (Bergaderm, C-352/98 P).\nCodex: Art 4(3) TEU; Arts 256(1), 268, 340(2) TFEU; Art 46 Statute · Francovich (C-6/90 and C-9/90), Brasserie du Pêcheur (C-46/93), Köbler (C-224/01), Bergaderm (C-352/98 P)."
+   },
+   "note": "eu-remedies#21 pairs this statement with a separate Art 340(2) statement for 2 points; this card is the single 1-point statement as it appears on the paper. Review: fixed the basis of Francovich – 'inherent in the system of the Treaties', with Art 5 EEC (now Art 4(3) TEU) as an additional basis, not identical to it; added the administration as a third organ (lecture)."
+  },
+  {
+   "label": "Q6(b)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-institutions.json#69",
+   "note": "The same 1-point true/false statement on a Commission decision and national constitutional law; the answer (false, Costa/Internationale Handelsgesellschaft) is correct."
+  },
+  {
+   "label": "Q6(c)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Direct Effect of EU Law",
+    "kind": "rozliseni",
+    "difficulty": 2,
+    "points": 1,
+    "q": "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'Only a regulation can have direct effect.' (1 point)",
+    "a": "Short answer: False. Direct effect depends on the individual provision being clear, precise and unconditional, not on the type of act. Treaty articles, decisions, directives and Charter provisions can also have direct effect.\n• Test (Van Gend en Loos, 26/62): individuals can invoke before national courts a provision that is sufficiently clear and precise and unconditional, i.e. one that needs no further implementing measure involving discretion.\n• Other acts with direct effect: Treaty provisions (Van Gend en Loos; Reyners, 2/74, on Art 49 TFEU; even horizontally, e.g. Defrenne II, 43/75, on Art 157 TFEU); decisions, even those addressed to Member States (Grad, 9/70); directives that were not or not correctly transposed by the deadline, but only vertically against the state and never to impose obligations on individuals (Van Duyn, 41/74; Ratti, 148/78; no horizontal direct effect: Marshall, 152/84); Charter provisions (Egenberger, C-414/16; Bauer, C-569/16 and C-570/16, on Art 31(2) Charter).\n• Conversely, not every provision of a regulation has direct effect. A regulation is directly APPLICABLE (Art 288(2) TFEU), which is not the same thing.\nCodex: Art 288 TFEU · Van Gend en Loos (26/62), Reyners (2/74), Defrenne II (43/75), Grad (9/70), Van Duyn (41/74), Ratti (148/78), Marshall (152/84), Egenberger (C-414/16), Bauer (C-569/16 and C-570/16)."
+   },
+   "note": "eu-remedies#4 bundles this statement with two others for 3 points; this card is the paper's single 1-point statement and corrects the incomplete student answer. Review: added the implementation-failure condition for directives and 'never obligations on individuals' (the student wrongly said a directive can impose obligations on individuals); Bauer cited fully and added to the Codex line."
+  },
+  {
+   "label": "Q7",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Competences and Legislating",
+    "kind": "proces",
+    "difficulty": 1,
+    "points": 2,
+    "q": "How is a secondary legal act normally adopted? Where is the corresponding procedure regulated? (2 points)",
+    "a": "Short answer: Normally by the ordinary legislative procedure, in which the European Parliament and the Council jointly adopt the act on a proposal from the Commission. It is defined in Art 289(1) TFEU and regulated in detail in Art 294 TFEU.\n• The legal basis in the Treaties decides which procedure applies (conferral, Art 5(2) TEU). Since Lisbon most legal bases refer to the OLP, which is the standard procedure (Art 289(1) TFEU). Acts adopted by a legislative procedure are legislative acts (Art 289(3) TFEU).\n• Steps (Art 294 TFEU): Commission proposal (Art 17(2) TEU, Art 294(2)); first-reading position of the EP; the Council either approves it (act adopted) or adopts its own position, as a rule by QMV (Art 16(3) TEU). In second reading the EP can approve (or not act within three months), or reject or amend by a majority of its component members. If it amends, the Council holds its second reading. If they still disagree, a Conciliation Committee and a third reading follow (Art 294(8)(b)–(14)). The act is signed and published in the Official Journal (Art 297(1) TFEU).\n• Common mistake ('a troika of Commission, Council and EP'): the Commission is not a co-legislator. It proposes and mediates, while the EP and the Council decide. Exceptions to the normal route: special legislative procedures (Art 289(2) TFEU, e.g. the Council deciding unanimously after consulting the EP on tax harmonisation, Art 113 TFEU) and non-legislative delegated and implementing acts of the Commission (Arts 290, 291 TFEU).\nCodex: Arts 5(2), 16(3), 17(2) TEU; Arts 113, 289, 290, 291, 293, 294, 297 TFEU."
+   },
+   "note": "The only related card (eu-institutions#46) is a 6-point multi-part OLP question; the paper asks just 'how and where' for 2 points. Review: legally correct; replaced 'Correction of the student answer' with 'Common mistake' (no student answer appears on the card), made the second-reading and conciliation references precise (Art 294(7), (8)(b)–(14)) and added unanimity for Art 113."
+  },
+  {
+   "label": "Q8(a)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Annulment, Failure to Act and Fundamental Rights",
+    "kind": "judikat",
+    "difficulty": 1,
+    "points": 1,
+    "q": "Did the EEC Treaty (now the TFEU), in its original 1957 version, contain a written catalogue of fundamental and human rights? (1 point)",
+    "a": "Short answer: No. The original EEC Treaty was an economic-integration treaty and contained no catalogue of fundamental rights.\n• It contained only isolated guarantees: the prohibition of discrimination on grounds of nationality (Art 7 EEC, today Art 18 TFEU), equal pay for men and women (Art 119 EEC, today Art 157 TFEU) and the fundamental freedoms of the common market.\n• Consequence: the Court at first refused to review Community acts against national fundamental rights, treating them as a matter of Member State law (ECSC cases Stork, 1/58; Ruhrkohlen-Verkaufsgesellschaften, 36–38 and 40/59). Because Community law had direct effect and primacy, this left a gap in legal protection. The Court later closed it through general principles of law (Stauder, 1969).\nCodex: not in the codex (historical); today Art 6 TEU and the Charter · Stork (1/58), Ruhrkohlen-Verkaufsgesellschaften (36–38 and 40/59), Stauder (29/69)."
+   },
+   "note": "The whole Q8 is reproduced in eu-remedies#60 and eu-institutions#11 (4 points combined), but no card asks part (a) on its own for 1 point. Review: legally correct (article numbers and case numbers checked); added the lecture's point that the Court treated fundamental rights as a matter of Member State law."
+  },
+  {
+   "label": "Q8(b)",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Annulment, Failure to Act and Fundamental Rights",
+    "kind": "judikat",
+    "difficulty": 2,
+    "points": 2,
+    "q": "The original EEC Treaty contained no written catalogue of fundamental rights. On what basis did the Court of Justice nevertheless develop its case law on fundamental and human rights? Name a well-known judgment. (2 points)",
+    "a": "Short answer: The Court recognised fundamental rights as unwritten general principles of Community (now Union) law whose observance it ensures. It drew on the constitutional traditions common to the Member States and on international human-rights treaties, above all the ECHR. Well-known judgments: Stauder (29/69) and Internationale Handelsgesellschaft (11/70).\n• Basis: the Court's task is to ensure that 'the law is observed' (Art 164 EEC, today Art 19(1) TEU). 'The law' includes unwritten general principles, and fundamental rights form an integral part of them.\n• Sources of inspiration: the common constitutional traditions of the Member States (Internationale Handelsgesellschaft, 11/70) and international human-rights treaties on which the Member States have collaborated or of which they are signatories (Nold, 4/73), in particular the ECHR (Rutili, 36/75; Hauer, 44/79).\n• Leading judgments: Stauder (29/69, 1969) held that fundamental rights are 'enshrined in the general principles of Community law and protected by the Court'. Internationale Handelsgesellschaft (1970) held that the validity of Community acts is judged only by Community law, not by national constitutions, but that respect for fundamental rights is an integral part of the general principles the Court protects. Nold (4/73, 1974) added international treaties as a source.\n• Driver: pressure from national constitutional courts, which reserved the right to review Community acts against their own fundamental rights (Italian Frontini, 1973; BVerfG Solange I, 1974). Once the Court's protection was established, Solange II (1986) suspended that review. The approach was codified at Maastricht (Art F(2) TEU) and is today Art 6(3) TEU.\nCodex: Arts 6(3), 19(1) TEU · Stauder (29/69), Internationale Handelsgesellschaft (11/70), Nold (4/73), Rutili (36/75), Hauer (44/79); BVerfG Solange I/II."
+   },
+   "note": "Existing cards cover this only inside the combined 4-point Q8; this card isolates part (b) at the paper's 2 points and supplies the answer the student left blank. Review: legally correct; recast 'motive' as pressure (Solange I postdates Stauder and IHG), completed the IHG holding (fundamental rights as an integral part of general principles) and added the Maastricht codification."
+  },
+  {
+   "label": "Q8(c)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Annulment, Failure to Act and Fundamental Rights",
+    "kind": "norma",
+    "difficulty": 1,
+    "points": 1,
+    "q": "The original Treaties contained no catalogue of fundamental rights, and the Court of Justice protected them as general principles of law. How has the legal situation in this area changed due to the Treaty of Lisbon? (1 point)",
+    "a": "Short answer: Since the Treaty of Lisbon (in force 1 December 2009) the Charter of Fundamental Rights is legally binding and has 'the same legal value as the Treaties' (Art 6(1) TEU), i.e. it is primary law.\n• Precision: the Charter (proclaimed at Nice in 2000, adapted in 2007) is primary law but was not written into the text of the Treaties, as the failed Constitutional Treaty would have done; Art 6(1) TEU makes it binding by reference. It is interpreted with the Explanations (Art 6(1) subpara 3 TEU, Art 52(7) Charter) and does not extend Union competences (Art 6(1) subpara 2 TEU, Art 51(2) Charter). It binds the Member States only when they implement Union law (Art 51(1) Charter), read broadly as acting within the scope of EU law (Åkerberg Fransson, C-617/10).\n• In addition: the Union 'shall accede' to the ECHR (Art 6(2) TEU), which has not yet happened (the Court blocked it in Opinion 2/94 and, against the 2013 draft agreement, in Opinion 2/13). The unwritten general principles remain a parallel source (Art 6(3) TEU).\nCodex: Art 6(1)–(3) TEU; Arts 51, 52 Charter · Åkerberg Fransson (C-617/10), Opinions 2/94 and 2/13."
+   },
+   "note": "Part (c) exists only inside the combined Q8 cards; this is the paper's 1-point part on its own. Review: the student's answer ('the CFR was adopted into primary law') is correct in substance, so the 'correction' was overstated – recast as a precision (primary law, binding by reference, not incorporated as the Constitutional Treaty planned); added Opinion 2/94 (lecture: rejected twice) and Art 6(1) subpara 3 TEU."
+  },
+  {
+   "label": "Q9(a)",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Introduction and Basics",
+    "kind": "znaky",
+    "difficulty": 1,
+    "points": 2,
+    "q": "Name two so-called 'convergence criteria' that Member States must fulfil if they wish to participate in the third stage of Economic and Monetary Union (EMU). (2 points)",
+    "a": "Short answer: Any two of the four criteria of Art 140(1) TFEU and Protocol No 13: price stability, sound public finances, exchange-rate stability (ERM II) and convergence of long-term interest rates.\n• Price stability: inflation no more than 1.5 percentage points above that of, at most, the three best-performing Member States in price stability (Art 1 Protocol 13).\n• Sustainable public finances: no Council decision under Art 126(6) TFEU that an excessive deficit exists. The reference values are 3% of GDP for the deficit and 60% of GDP for public debt (Art 1 Protocol No 12; Art 2 Protocol 13).\n• Exchange rate: at least the last two years in the exchange-rate mechanism (ERM II) within the normal fluctuation margins, without severe tensions and without devaluing against the euro on its own initiative (Art 3 Protocol 13).\n• Long-term interest rates: no more than 2 percentage points above those of, at most, the three best-performing Member States in price stability (Art 4 Protocol 13).\n• In addition (legal convergence): national law, including the central-bank statutes, must be compatible with Arts 130 and 131 TFEU (central-bank independence). The Commission and the ECB report (Art 140(1)); the Council decides (Art 140(2)).\nCodex: Arts 126, 130, 131, 140 TFEU · Protocols No 12 and 13."
+   },
+   "note": "The closest card (eu-institutions#3) is a 4-point Valdaria application case; the paper simply asks for two criteria for 2 points. Review: legally correct (thresholds checked against Protocol No 13); wording aligned with the Protocol ('last two years', devaluation 'on its own initiative', Art 1 Protocol No 12)."
+  },
+  {
+   "label": "Q9(b)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Introduction and Basics",
+    "kind": "cisla",
+    "difficulty": 1,
+    "points": 1,
+    "q": "When was the euro introduced as the common currency? (1 point)",
+    "a": "Short answer: On 1 January 1999 as book (non-cash) money, at the start of the third stage of EMU; euro banknotes and coins followed on 1 January 2002.\n• 1 January 1999: the conversion rates of 11 Member States' currencies were irrevocably fixed, the euro became their currency and the ECB took over the single monetary policy (Greece joined in 2001).\n• 1 January 2002: cash changeover in 12 Member States; national notes and coins were withdrawn after a short dual-circulation period (by the end of February 2002).\n• Background: EMU was realised in three stages (1 July 1990, 1 January 1994, 1 January 1999); the Maastricht Treaty (signed 1992, in force 1993) supplied the legal basis for stages two and three. Today 21 Member States use the euro (the latest are Croatia in 2023 and Bulgaria in 2026). Denmark has an opt-out (Protocol No 16).\nCodex: Art 3(4) TEU; Arts 119, 127, 139, 140 TFEU; Protocol No 16 · the dates are not in the codex; memorise 1999 and 2002."
+   },
+   "note": "eu-institutions#4 pairs this with a euro-crisis question for 2 points; the paper asks only the date for 1 point. Review: fixed 'Maastricht laid down EMU in three stages (1990…)' – stage one began in July 1990, before Maastricht, which provided for stages two and three; the rates were fixed by the Council, not by the states themselves."
+  }
+ ],
+ "order": 3,
+ "short": "Set C"
+}

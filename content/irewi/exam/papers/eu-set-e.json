@@ -1,0 +1,256 @@
+{
+ "id": "eu-set-e",
+ "course": "EU",
+ "title": "Past questions — set E (practice exam 1-6)",
+ "subquestions": [
+  {
+   "label": "Q1",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-institutions.json#67",
+   "note": "Same two-part question (integration-proof core and Solange, which court), 2 points; the answer matches the EU06 lecture (BVerfG, Solange I/II, suspended rather than abandoned)."
+  },
+  {
+   "label": "Q2(a)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Competences and Legislating",
+    "kind": "znaky",
+    "difficulty": 1,
+    "points": 1,
+    "q": "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (a) Name one document that the European Commission issues specifically during the preparatory, strategic-planning phase of a legislative proposal. (1 point)",
+    "a": "Short answer: For example, the annual Commission Work Programme. Green Papers, White Papers and impact assessments also belong to this phase.\n• Rule: legislative acts may as a rule be adopted only on a Commission proposal (Art 17(2) TEU, Art 294(2) TFEU), and the Commission initiates the Union's annual and multiannual programming (Art 17(1) TEU). Before drafting a proposal it plans and consults.\n• Planning documents: the Commission Work Programme lists the initiatives planned for the coming year. A Green Paper opens a consultation on a policy area. A White Paper sets out concrete proposals for Union action. A call for evidence and an impact assessment (Better Regulation) prepare the individual proposal. Under Art 1 of Protocol No 1, the Commission sends its consultation documents (green and white papers, communications) and its annual legislative programme directly to national parliaments.\n• Correction of a common answer: 'the proposal' is wrong. The proposal is the RESULT of the preparatory phase, and submitting it opens the procedure itself (Art 294(2)).\nCodex: Art 17(1)–(2) TEU; Art 294(2) TFEU; Protocol No 1, Art 1 · not in the codex: Interinstitutional Agreement on Better Law-Making (2016)."
+   },
+   "note": "Only candidate eu-institutions.json#46 merges all six OLP sub-questions into one 6-point card; the student answer 'the proposal' is corrected. Review: Arts 17(1)-(2) TEU, 294(2) TFEU, Protocol No 1 Art 1 and the 2016 IIA on Better Law-Making verified; no change."
+  },
+  {
+   "label": "Q2(b)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Competences and Legislating",
+    "kind": "proces",
+    "difficulty": 2,
+    "points": 1,
+    "q": "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (b) What control mechanism is available to national parliaments during the legislative process if they believe that the objectives of a proposed regulation can be sufficiently achieved at Member State level (Art 5 TEU)? (1 point)",
+    "a": "Short answer: The subsidiarity early-warning mechanism of Protocol No 2 (Art 5(3) second subparagraph and Art 12(b) TEU). Within eight weeks of receiving the draft, any national parliament (or chamber) may send the Presidents of the EP, the Council and the Commission a reasoned opinion stating that the draft breaches subsidiarity (Art 6 Protocol No 2).\n• Rule: in areas outside its exclusive competence, the Union may act only if the objectives cannot be sufficiently achieved by the Member States and can be better achieved at Union level (Art 5(3) TEU). The parliaments' belief is therefore a subsidiarity objection.\n• Procedure (Art 7 Protocol No 2): each national parliament has two votes, one per chamber in a bicameral system. Yellow card: reasoned opinions representing at least one third of all votes (one quarter for drafts under Art 76 TFEU). The draft must then be reviewed, and the Commission may maintain, amend or withdraw it, giving reasons. Orange card (OLP only): a simple majority of the votes triggers a review. If the Commission maintains the proposal, the Council (55% of its members) or the EP (majority of votes cast) can stop it.\n• Afterwards: an action for annulment for breach of subsidiarity under Art 263 TFEU, brought by the Member State on behalf of its parliament or a chamber, or by the Committee of the Regions for acts on which it must be consulted (Art 8 Protocol No 2).\nCodex: Arts 5(3), 12(b) TEU; Art 263 TFEU; Protocol No 2, Arts 6–8; Protocol No 1, Art 4."
+   },
+   "note": "eu-institutions.json#46 merges this with five other sub-questions; a separate 1-point card on the Protocol No 2 early-warning mechanism is needed. Review: the eight-week reasoned opinion is now cited to Art 6 Protocol No 2 (not only Arts 5(3), 12(b) TEU), and the Committee of the Regions' standing under Art 8 Protocol No 2 was added; card thresholds (1/3, 1/4 for Art 76, simple majority, 55% / majority of votes cast) verified."
+  },
+  {
+   "label": "Q2(c)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Competences and Legislating",
+    "kind": "norma",
+    "difficulty": 1,
+    "points": 1,
+    "q": "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (c) Where is the ordinary legislative procedure regulated? (1 point)",
+    "a": "Short answer: In Art 294 TFEU (the individual steps), read with Art 289(1) TFEU (the definition).\n• Art 289(1) TFEU: the OLP consists in the joint adoption by the European Parliament and the Council of a regulation, directive or decision on a proposal from the Commission. Acts adopted this way are legislative acts (Art 289(3)). Arts 14(1) and 16(1) TEU give the EP and the Council the legislative function jointly.\n• Art 294 TFEU sets out the proposal, first reading, second reading, conciliation and third reading. Art 293 TFEU governs amendments to the Commission proposal, and Art 297(1) TFEU governs signature and publication.\n• Application: the OLP applies only where the legal basis provides for it (e.g. Art 114(1) TFEU: 'in accordance with the ordinary legislative procedure'). It is the rule, and special legislative procedures (Art 289(2)) are the exception.\nCodex: Arts 14(1), 16(1) TEU; Arts 289, 293, 294, 297(1) TFEU."
+   },
+   "note": "eu-institutions.json#46 merges this with the other OLP sub-questions; split into its own 1-point card (Arts 289(1), 294 TFEU). Review: Arts 14(1), 16(1) TEU, 289(1), (3), 293, 294, 297(1) and the Art 114(1) quotation verified; no change."
+  },
+  {
+   "label": "Q2(d)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Competences and Legislating",
+    "kind": "proces",
+    "difficulty": 2,
+    "points": 1,
+    "q": "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (d) Must a legal act always go through three readings before being adopted? (1 point)",
+    "a": "Short answer: No. The act is adopted at first reading if the Council approves the European Parliament's first-reading position (Art 294(4) TFEU). A third reading takes place only after a successful conciliation.\n• First reading (Art 294(3)–(4)): the EP adopts its position and sends it to the Council. If the Council approves it, the act is adopted in the wording of the EP position. The Council decides by qualified majority, but unanimously where the EP's amendments depart from the Commission proposal and the Commission has not accepted them (Art 293(1)–(2)). No time limit applies. Most files are concluded this way today, prepared in informal trilogues.\n• Second reading: the act is adopted if, within three months, the EP approves the Council's first-reading position or takes no decision (Art 294(7)(a)), or if the Council approves all of the EP's second-reading amendments (Art 294(8)(a)). The act fails if the EP rejects the Council position by a majority of its component members (Art 294(7)(b)).\n• Only if the Council does not approve all amendments do conciliation (Art 294(8)(b), (10)–(12)) and a third reading of the joint text (Art 294(13)) follow.\n• Precisely: at first reading the Council approves the EP's POSITION, which may amend the Commission proposal. It does not approve the proposal as such.\nCodex: Art 293(1)–(2), Art 294(3)–(13) TFEU."
+   },
+   "note": "eu-institutions.json#46 merges this with the other OLP sub-questions; a separate card sets out adoption at first, second or third reading. Review: the Council's first-reading vote was corrected; it is qualified majority only if the Commission accepts the EP's amendments, otherwise unanimity (Art 293(1)–(2) TFEU), and Art 293 was added to the Codex line."
+  },
+  {
+   "label": "Q2(e)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Competences and Legislating",
+    "kind": "proces",
+    "difficulty": 2,
+    "points": 1,
+    "q": "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (e) What happens if the Council, in the second reading, does not approve all amendments of the European Parliament? (1 point)",
+    "a": "Short answer: The act is not adopted at this stage. The President of the Council, in agreement with the President of the European Parliament, must convene the Conciliation Committee within six weeks (Art 294(8)(b) TFEU).\n• Second reading in the Council (Art 294(8)–(9)): within three months the Council votes on the EP's amendments by qualified majority, but unanimously on amendments on which the Commission has given a negative opinion. The act is adopted only if the Council approves ALL amendments (294(8)(a)).\n• Conciliation (Art 294(10)–(12)): equal numbers of Council members (or their representatives) and MEPs, with the Commission taking part to reconcile the positions. Within six weeks they must agree a joint text, by qualified majority of the Council side and a majority of the EP delegation. Otherwise the act is deemed not adopted.\n• Third reading (Art 294(13)): within six weeks, the EP (majority of votes cast) and the Council (qualified majority) must each approve the joint text. Otherwise the act fails. The three-month and six-week periods may be extended by one month and two weeks respectively (294(14)).\n• Correction of a common answer: the Council communicating its position to the EP (Art 294(5)) belongs to the first reading, not to this stage.\nCodex: Art 294(8)–(14) TFEU."
+   },
+   "note": "eu-institutions.json#46 merges this with the other OLP sub-questions; the new card also corrects the student answer, which described the first-reading step (Art 294(5)) instead of conciliation. Review: Art 294(8)–(14) TFEU verified (QMV / unanimity under 294(9), composition and majorities in the Conciliation Committee, six-week periods, extension); no change."
+  },
+  {
+   "label": "Q2(f)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Competences and Legislating",
+    "kind": "norma",
+    "difficulty": 1,
+    "points": 1,
+    "q": "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (f) When do legal acts adopted under the ordinary legislative procedure enter into force? (1 point)",
+    "a": "Short answer: On the date specified in the act itself or, if none is specified, on the twentieth day following its publication in the Official Journal (Art 297(1) third subparagraph TFEU).\n• Before that, acts adopted under the OLP are signed by the President of the European Parliament and the President of the Council (Art 297(1) first subparagraph). They must be published in the Official Journal of the EU, and publication is a precondition of entry into force.\n• Distinguish entry into force from application. A regulation may enter into force at once but apply only from a later date. A directive binds the Member States from entry into force, but it must be transposed by the deadline it sets (Art 288(3) TFEU), and only after that deadline can it have direct effect (Ratti, 148/78).\nCodex: Arts 288, 297(1) TFEU · Case: Ratti (148/78)."
+   },
+   "note": "eu-institutions.json#46 merges this with the other OLP sub-questions; the student left it unanswered, and the new card gives the Art 297(1) TFEU rule. Review: Art 297(1) first and third subparagraphs, Art 288(3) and Ratti verified; no change."
+  },
+  {
+   "label": "Q3 statement 1",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-institutions.json#21",
+   "note": "Same statement (the Commission's direct enforcement), 1 point; the card correctly says true only within explicit exceptions and rejects the student's complaint example."
+  },
+  {
+   "label": "Q3 statement 2",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "EU Institutions I — European Council and Commission",
+    "kind": "pripad",
+    "difficulty": 2,
+    "points": 1,
+    "q": "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'The permanent President of the Council has voting rights in the European Council.' (1 point)",
+    "a": "Short answer: False. The Council of the EU has no permanent President, and the (permanent) President of the European Council has no vote in the European Council.\n• The Council's configurations are chaired by the Member States in equal rotation for six months (Art 16(9) TEU, Art 236(b) TFEU; in practice in trios of three states over 18 months). Only the Foreign Affairs Council has a fixed chair, the High Representative (Art 18(3) TEU).\n• The permanent, full-time President is the President of the EUROPEAN COUNCIL. The President is elected by qualified majority for two and a half years, renewable once (Art 15(5) TEU), and may not hold a national office (Art 15(6)). The President is a member of the European Council (Art 15(2) TEU), but when it votes, the President and the Commission President do not take part in the vote (Art 235(1) second subparagraph TFEU).\nCodex: Arts 15(2), (5), (6), 16(9), 18(3) TEU; Arts 235(1), 236(b) TFEU."
+   },
+   "note": "Only candidate eu-institutions.json#14 bundles this statement with two others into a 3-point card; the new card isolates it. Review: Arts 15(2), (5), (6), 16(9), 18(3) TEU and 235(1), 236(b) TFEU verified; only the pronoun was made neutral."
+  },
+  {
+   "label": "Q3 statement 3",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "EU Institutions II — Council, Parliament, other bodies",
+    "kind": "pripad",
+    "difficulty": 2,
+    "points": 1,
+    "q": "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'The Court of Justice of the EU is supported by a number of agencies and offices (e.g. for aviation safety) that are assigned to it in varying degrees.' (1 point)",
+    "a": "Short answer: False. Agencies such as the European Union Aviation Safety Agency (EASA) are not part of the CJEU and are not assigned to it. The description fits the executive, above all the Commission, and the CJEU reviews the agencies' acts.\n• Structure: the CJEU consists of the Court of Justice, the General Court and specialised courts (Art 19(1) TEU). Specialised courts may be attached to the General Court (Art 257 TFEU), but none has existed since the Civil Service Tribunal was abolished in 2016. The Court of Justice is assisted by Advocates General (Art 19(2) TEU, Art 252 TFEU) and by its own Registrar (Art 253 TFEU).\n• Agencies are set up by secondary law (EASA by Regulation 2018/1139, seat in Cologne) as Union 'bodies, offices or agencies'. Their links to the COMMISSION vary: executive agencies are set up by the Commission and controlled by it, while decentralised agencies are largely independent.\n• The CJEU controls them: their acts intended to produce legal effects can be annulled (Art 263(1) and (5) TFEU) and can be the subject of preliminary references (Art 267(1)(b) TFEU).\nCodex: Art 19 TEU; Arts 252, 253, 257, 263(1), (5), 267(1)(b) TFEU."
+   },
+   "note": "Only candidate eu-institutions.json#29 combines this statement with a description of the CJEU's structure for 3 points; the new card isolates it. Review: the short answer now states the key point that the description fits the executive (above all the Commission), not the Court; Arts 19 TEU, 252, 253, 257, 263(1), (5), 267(1)(b) TFEU, EASA Reg 2018/1139 and the 2016 abolition of the Civil Service Tribunal verified."
+  },
+  {
+   "label": "Q3 statement 4",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "EU Institutions II — Council, Parliament, other bodies",
+    "kind": "pripad",
+    "difficulty": 2,
+    "points": 1,
+    "q": "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'In addition to its legislative function, the European Parliament also has an oversight role with regard to other Union institutions.' (1 point)",
+    "a": "Short answer: True. Besides legislating jointly with the Council, the European Parliament exercises 'functions of political control' (Art 14(1) TEU), above all over the Commission.\n• Over the Commission: the EP elects the Commission President and gives its consent to the college (Art 17(7) TEU). The Commission is responsible to the EP and must resign as a body if a motion of censure is carried by two thirds of the votes cast, representing a majority of MEPs (Art 17(8) TEU, Art 234 TFEU). Further tools are parliamentary questions (Art 230 TFEU), debate of the annual general report (Art 233 TFEU) and discharge of the budget (Art 319 TFEU).\n• Further instruments: committees of inquiry (Art 226 TFEU), petitions (Art 227) and election of the Ombudsman (Art 228). The European Council President reports to the EP after each meeting (Art 15(6)(d) TEU), the European Council and the Council are heard by it (Art 230 third paragraph TFEU), and the ECB presents its annual report to it (Art 284(3) TFEU).\n• Limit: there is no censure of the Council or the European Council, whose members are accountable nationally (Art 10(2) TEU).\nCodex: Arts 10(2), 14(1), 15(6), 17(7)–(8) TEU; Arts 226–228, 230, 233, 234, 284(3), 319 TFEU."
+   },
+   "note": "Only candidate eu-institutions.json#28 bundles this statement with two others into a 3-point card; the new card isolates it. Review: Arts 10(2), 14(1), 15(6)(d), 17(7)–(8) TEU and 226–228, 230, 233, 234, 284(3), 319 TFEU verified; no change."
+  },
+  {
+   "label": "Q4(a)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#83",
+   "note": "Same question (is profit intent needed for an 'undertaking'), 1 point; the answer (No, Höfner, MOTOE) is correct."
+  },
+  {
+   "label": "Q4(b)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#84",
+   "note": "Same question (one form of anti-competitive agreement), 1 point, using Art 101(1)(a)–(e) TFEU."
+  },
+  {
+   "label": "Q4(c)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#85",
+   "note": "Same facts and question (national court versus parallel Commission proceedings), 1 point; Art 16(1) Reg 1/2003 and Masterfoods are correct."
+  },
+  {
+   "label": "Q4(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#86",
+   "note": "Same question (two consequences of an infringement), 2 points: nullity under Art 101(2) and fines under Art 23 Reg 1/2003, plus damages."
+  },
+  {
+   "label": "Q5(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#91",
+   "note": "Same PCP facts and question, 2 points; the card correctly applies Art 114(5)–(6) to NEW rules and corrects the student's Art 114(4)/Art 36 answer."
+  },
+  {
+   "label": "Q5(b)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#38",
+   "note": "Same PCP facts with the Commission's infringement plan, 1 point; covers the Art 258 pre-litigation stage and the Art 114(9) shortcut."
+  },
+  {
+   "label": "Q5(c)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#39",
+   "note": "Same facts and question (does the Commission need a legal interest), 1 point; No, objective procedure (C-431/92)."
+  },
+  {
+   "label": "Q5(d)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#40",
+   "note": "Same facts and question (effect of the judgment), 1 point: declaratory under Art 260(1); the card corrects the student by saying the COURT, not the Commission, imposes penalties under 260(2)."
+  },
+  {
+   "label": "Q5(e)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#41",
+   "note": "Same facts and question (can the judgment be appealed), 1 point; No, because the Court of Justice decides at first and last instance."
+  },
+  {
+   "label": "Q6(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#72",
+   "note": "Same Iwanow facts and question, 2 points: Art 63(1) TFEU, addressed to the Member States; the card corrects the student's 'EU citizens only'."
+  },
+  {
+   "label": "Q6(b)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#73",
+   "note": "Same facts and question (are third-country nationals covered), 1 point; yes, because Art 63(1) covers third countries."
+  },
+  {
+   "label": "Q6(c)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#74",
+   "note": "Same facts and question (one protected real-estate activity), 1 point; buying property, per Annex I of Directive 88/361."
+  },
+  {
+   "label": "Q6(d)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#75",
+   "note": "Same facts and question (direct effect), 1 point; yes, Art 63(1) has direct effect also towards third countries (Sanz de Lera, A)."
+  },
+  {
+   "label": "Q6(e)",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#76",
+   "note": "Same facts and question (is the permit lawful), 2 points; the card reasons through the restriction, the Art 64(1) standstill and Art 65 justification, replacing the student's bare 'no'."
+  }
+ ],
+ "order": 5,
+ "short": "Set E"
+}

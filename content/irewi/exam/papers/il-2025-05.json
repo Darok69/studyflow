@@ -1,0 +1,58 @@
+{
+ "id": "il-2025-05",
+ "course": "IL",
+ "title": "Real exam — 2 May 2025",
+ "subquestions": [
+  {
+   "label": "Q1(a)",
+   "points": 5,
+   "match": "exact",
+   "card": "il-states.json#23",
+   "note": "Same Joelle facts and question at 5 points; the answer covers diplomatic protection and its prerequisites: wrongful act, nationality (Arts 4, 5, 7 DADP), local remedies and B's discretion."
+  },
+  {
+   "label": "Q1(b)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-states.json#24",
+   "note": "Same dual-nationality facts (uncle in A, 15 years' residence, family and work in B) at 3 points; the answer applies predominant nationality under Art 7 DADP (Mergé)."
+  },
+  {
+   "label": "Q1(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-states.json#25",
+   "note": "Same question at 2 points: no individual right to protection (Barcelona Traction), with Art 19 DADP soft law and domestic-law duties to consider the request."
+  },
+  {
+   "label": "Q2(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-states.json#40",
+   "note": "Word-for-word the paper's responsibility-versus-liability question at 2 points."
+  },
+  {
+   "label": "Q2(b)",
+   "points": 6,
+   "match": "exact",
+   "card": "il-states.json#41",
+   "note": "Word-for-word the paper's attribution question at 6 points; the answer covers Arts 4 to 11 ARSIWA with case law."
+  },
+  {
+   "label": "Q2(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-states.json#42",
+   "note": "Word-for-word the paper's question at 2 points: ARSIWA 2001, adopted by the ILC, noted in GA Res 56/83, customary status."
+  },
+  {
+   "label": "Q3",
+   "points": 10,
+   "match": "exact",
+   "card": "il-treaties.json#53",
+   "note": "Same State X environmental-treaty withdrawal task at 10 points; the answer grades the exit routes as easy, difficult or little chance under the VCLT."
+  }
+ ],
+ "order": 4,
+ "short": "May 2025"
+}

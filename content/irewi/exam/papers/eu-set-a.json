@@ -1,0 +1,132 @@
+{
+ "id": "eu-set-a",
+ "course": "EU",
+ "title": "Past questions — set A (Ned-Leaks, Wallonia)",
+ "subquestions": [
+  {
+   "label": "Case 1 Q1",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "EU Institutions I — European Council and Commission",
+    "kind": "pripad",
+    "difficulty": 2,
+    "points": 2,
+    "q": "In the wake of the 'Ned-Leaks' scandals it becomes known that the Netherlands is a tax haven and that its tax-avoidance schemes distort competition in the EU. Commission President Peter Niederknaaken was previously Minister of Finance of the Netherlands and is coming under fire because of the Ned-Leaks scandals. Does the European Parliament have the power to remove Commission President Niederknaaken? (2 points)",
+    "a": "Short answer: No. The European Parliament cannot remove the Commission President on his own; it can only bring down the whole Commission by a motion of censure (Art 17(8) TEU, Art 234 TFEU).\n• Rule: the Commission as a body is responsible to the Parliament (Art 17(8) TEU). A motion of censure may be voted on no earlier than three days after it is tabled, and only by open vote. It needs a two-thirds majority of the votes cast, representing a majority of the component Members (Art 234 TFEU; currently 361 of 720).\n• Consequence: if the motion is carried, the members of the Commission, including the President, must resign as a body, and the High Representative resigns from the duties he or she carries out in the Commission. They continue to deal with current business until they are replaced, and the new Commission serves only the rest of the term (Art 234(2) TFEU). There is no censure of the President or of a single Commissioner alone.\n• Application: the EP can reach Niederknaaken only by censuring the entire college. Otherwise it has only political control (Art 14(1) TEU): resolutions, questions (Art 230 TFEU) and a committee of inquiry (Art 226 TFEU). He may resign voluntarily (Art 246 TFEU). Compulsory retirement, for serious misconduct or for no longer fulfilling the conditions of office, is ordered by the Court of Justice only on application of the Council or the Commission, never the EP (Art 247 TFEU).\n• Conclusion: the EP has no power to remove Niederknaaken individually.\nCodex: Art 14(1), 17(7)–(8) TEU; Art 226, 230, 234, 246, 247 TFEU."
+   },
+   "note": "The only candidate (eu-institutions.json#19, 4 pts) adds vote-count and other-options sub-questions, so this is a faithful single-question card with the paper's Ned-Leaks facts. Review: added the conclusion line, Art 14(1) TEU political control, the remainder-of-term rule and the second Art 247 ground."
+  },
+  {
+   "label": "Case 1 Q2",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Sources of EU Law and Hierarchy",
+    "kind": "norma",
+    "difficulty": 2,
+    "points": 2,
+    "q": "In connection with the Ned-Leaks tax-avoidance scandals, an EU legal act is issued in the form of a regulation. Can it nevertheless be transposed into national law? (2 points)",
+    "a": "Short answer: No. A regulation is directly applicable in all Member States (Art 288(2) TFEU), so it needs no transposition and must not be transposed; only accompanying implementing measures are allowed.\n• Rule: a regulation has general application, is binding in its entirety and is directly applicable in all Member States (Art 288(2) TFEU). It becomes part of national law automatically once it is published in the Official Journal and enters into force (Art 297 TFEU). A directive, by contrast, must be transposed (Art 288(3) TFEU).\n• Ban on transposition: Member States may not adopt measures that conceal the Union nature of the rule, alter its content or delay its application. Such measures would endanger its simultaneous and uniform application and the Court's jurisdiction under Art 267 TFEU (Variola, 34/73; Commission v Italy, 39/72).\n• Limits: national implementing measures are allowed, and even required, where the regulation calls for them or leaves gaps, e.g. designating the competent authorities or laying down penalties (Art 291(1) TFEU, Art 4(3) TEU). Repeating some provisions is tolerated only to keep a complex national regime coherent and comprehensible (Commission v Italy, 272/83).\n• Conclusion: the regulation applies as it stands. Re-enacting it as a national statute would itself infringe EU law (Art 258 TFEU).\nCodex: Art 4(3) TEU; Art 258, 267, 288(2)–(3), 291(1), 297 TFEU · Variola (34/73), Commission v Italy (39/72), Commission v Italy (272/83)."
+   },
+   "note": "Existing cards ask the same question but with invented facts (eu-remedies.json#3 honey/Veridia, eu-institutions.json#55 Austria/date shift), so this is a faithful card with the paper's plain wording, adapted from #3. Review: legally correct; wording only."
+  },
+  {
+   "label": "Case 1 Q3",
+   "points": 3,
+   "match": "exact",
+   "card": "eu-institutions.json#58",
+   "note": "The question is word for word the same as the paper's, and the answer is correct (Art 290/291 TFEU, Reg 182/2011, C-88/14, Biocides)."
+  },
+  {
+   "label": "Case 1 Q4",
+   "points": 3,
+   "match": "exact",
+   "card": "eu-institutions.json#63",
+   "note": "The question is identical and the answer is correct (application primacy, IN.CO.GE.'90); it fixes the student's thin answer."
+  },
+  {
+   "label": "Case 1 Q5",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Primacy of EU Law",
+    "kind": "norma",
+    "difficulty": 2,
+    "points": 3,
+    "q": "How does the Court of Justice justify the primacy of EU law over national law? (3 points)",
+    "a": "Short answer: No Treaty article lays down primacy; the Court derives it from the nature of EU law as an autonomous legal order to which the Member States transferred sovereign rights, and from the need to apply that law uniformly and effectively (Costa v ENEL, 6/64).\n• Autonomous legal order: unlike ordinary international treaties, the Treaty created its own legal system. On entry into force it became an integral part of the Member States' legal systems, which their courts are bound to apply (Costa, building on the 'new legal order' of Van Gend en Loos, 26/62).\n• Transfer of sovereignty: the Member States created a Community of unlimited duration with its own institutions, personality and real powers. In doing so they limited their sovereign rights and created a body of law that binds their nationals and themselves. The argument is from consent.\n• Reciprocity and uniformity: a state cannot give precedence to a unilateral, later national measure over a legal order accepted on the basis of reciprocity. The executive force of EU law cannot vary from state to state without jeopardising the Treaty's objectives and causing discrimination prohibited by Art 18 TFEU.\n• Textual support: the duty of sincere cooperation (then Art 5 EEC, now Art 4(3) TEU; not Art 3(3) TEU, which lists the Union's objectives) and the direct applicability of regulations (Art 288(2) TFEU), which would be meaningless if later national law could override them. The Treaty's special derogation procedures would also lose their purpose.\n• Later case law: effectiveness requires every national court to set aside conflicting national law (Simmenthal, 106/77). Primacy also covers national constitutional law (Internationale Handelsgesellschaft, 11/70). The equality of the Member States before the Treaties (Art 4(2) TEU) is possible only if they cannot rely on national rules against EU law (RS, C-430/21). Declaration 17 merely recalls this case law.\nCodex: Art 4(2)–(3) TEU; Art 18, 288(2) TFEU; Declaration 17 · Costa v ENEL (6/64), Van Gend en Loos (26/62), Simmenthal (106/77), Internationale Handelsgesellschaft (11/70), RS (C-430/21)."
+   },
+   "note": "The only candidate (eu-institutions.json#62, 4 pts) embeds the question in the Costa v ENEL facts and asks how the conflict was decided, so this is the paper's abstract question, correcting the student's Art 3(3) error to Art 4(3) TEU. Review: Art 4(3) now tied to its Costa predecessor (Art 5 EEC) and the derogation-clause argument from Costa added; RS (C-430/21) equality rationale verified."
+  },
+  {
+   "label": "Case 1 Q6",
+   "points": 3,
+   "match": "exact",
+   "card": "eu-institutions.json#64",
+   "note": "The core question is identical; the added 'constitutional identity' prompt only spells out what a full answer covers (Art 4(2) TEU)."
+  },
+  {
+   "label": "Case 1 Q7",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Primacy of EU Law",
+    "kind": "definice",
+    "difficulty": 2,
+    "points": 2,
+    "q": "What is an ultra vires act? (2 points)",
+    "a": "Short answer: An ultra vires act is an act of a Union institution, body, office or agency adopted beyond the competences the Treaties confer on the Union or on that institution; under EU law only the Court of Justice of the European Union can declare it invalid, although some national constitutional courts claim a residual right to treat it as inapplicable.\n• Rule: under the principle of conferral the Union acts only within the competences conferred on it by the Member States (Art 5(1)–(2) TEU). Competences not conferred remain with the Member States (Art 4(1) TEU). Each institution acts only within the powers conferred on it (Art 13(2) TEU). An act beyond these limits lacks a legal basis.\n• EU perspective: such an act is unlawful but presumed valid until the CJEU annuls it for lack of competence (Art 263(2) TFEU), declares it invalid on a preliminary reference (Art 267 TFEU) or holds it inapplicable on a plea of illegality (Art 277 TFEU). National courts cannot declare EU acts invalid (Foto-Frost, 314/85).\n• National perspective: the German Federal Constitutional Court holds that an act outside the integration programme approved by the national parliament does not apply in Germany (Maastricht 1993, Lisbon 2009). Since Honeywell (2010) it applies this only after a preliminary reference and only where the excess is manifest and structurally significant. It first did so in PSPP (2020).\n• Distinguish: a Member State's breach of EU law is an infringement (Art 4(3) TEU, Art 258 TFEU), not an ultra vires act.\nCodex: Art 4(1), 5(1)–(2), 13(2) TEU; Art 263(2), 267, 277 TFEU · Foto-Frost (314/85); BVerfG Maastricht, Honeywell, PSPP (not in codex)."
+   },
+   "note": "The only candidate (eu-institutions.json#68, 4 pts) merges extra sub-questions on Honeywell and PSPP, so this is a faithful stand-alone definition card, correcting the student's claim that Member States can act ultra vires. Review: Art 277 TFEU corrected (plea of illegality makes the act inapplicable, it does not declare it invalid); excess of an institution's own powers (Art 13(2) TEU) added to the definition."
+  },
+  {
+   "label": "Case 1 Q8",
+   "points": 4,
+   "match": "exact",
+   "card": "eu-remedies.json#0",
+   "note": "It asks for the same main arguments of Van Gend en Loos; the card only restates the real case facts and the governments' objection, which is part of the Court's reasoning."
+  },
+  {
+   "label": "Case 1 Q9",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#1",
+   "note": "The question is the same; the added 'how does the Court justify and protect it' only spells out a full-mark answer, which also corrects the student's monopoly-of-initiative point."
+  },
+  {
+   "label": "Case 1 Q10",
+   "points": 3,
+   "match": "exact",
+   "card": "eu-remedies.json#2",
+   "note": "The question is the same; the added vertical/horizontal prompt is what a full answer must cover anyway (Ratti, Kolpinghuis)."
+  },
+  {
+   "label": "Case 2 Q1",
+   "points": 4,
+   "match": "exact",
+   "card": "eu-remedies.json#13",
+   "note": "The facts are the same (Walloon decree of 9 April 1992, Directive 91/689, deadline not expired), the association is named as in the real case, and the answer correctly relies on the Inter-Environnement Wallonie duty of abstention."
+  },
+  {
+   "label": "Case 2 Q2",
+   "points": 4,
+   "match": "exact",
+   "card": "eu-doplneni.json#0",
+   "note": "The question is the same; the added 'reasons and ways around it' covers the paper's point on emanations of the state and more."
+  },
+  {
+   "label": "Case 2 Q3",
+   "points": 3,
+   "match": "exact",
+   "card": "eu-doplneni.json#1",
+   "note": "The question is the same; the answer corrects the student's error: courts are never obliged to interpret contra legem."
+  }
+ ],
+ "order": 1,
+ "short": "Set A"
+}

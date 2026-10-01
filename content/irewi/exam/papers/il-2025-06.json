@@ -1,0 +1,93 @@
+{
+ "id": "il-2025-06",
+ "course": "IL",
+ "title": "Real exam — 27 June 2025",
+ "subquestions": [
+  {
+   "label": "Q1(a)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-sources.json#29",
+   "note": "This card has the full Monturia/Lirania facts, the same question on custom and whether Lirania can invoke it, and the same 3 points."
+  },
+  {
+   "label": "Q1(b)",
+   "points": 5,
+   "match": "exact",
+   "card": "il-sources.json#30",
+   "note": "This card has the same facts (silence, time bar, default interest) and the same question on general principles of law with three examples, worth 5 points."
+  },
+  {
+   "label": "Q1(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-sources.json#12",
+   "note": "This card is the paper's question on why international law has unwritten as well as written sources, word for word, at 2 points."
+  },
+  {
+   "label": "Q2(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#10",
+   "note": "This card has the same James/OSIRIS facts, including the headquarters-agreement immunity clause, the same question on whether he wins before the Vienna Labour Court, and 2 points."
+  },
+  {
+   "label": "Q2(b)",
+   "points": 1,
+   "match": "exact",
+   "card": "il-ios-force.json#11",
+   "note": "This card asks the same question about another way for James to seek redress against OSIRIS, with the facts restated, at 1 point."
+  },
+  {
+   "label": "Q2(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#12",
+   "note": "This card has the same drunken motorcycle accident with the Mercedes and the same question on whether James can claim immunity, at 2 points."
+  },
+  {
+   "label": "Q2(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#5",
+   "note": "This card asks the same IO vs international NGO question at 2 points; it only adds 'Give examples', which does not change the answer."
+  },
+  {
+   "label": "Q2(e)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-ios-force.json#39",
+   "note": "This card asks the same two-part question on withdrawal and expulsion at 3 points; it only adds 'Give examples'."
+  },
+  {
+   "label": "Q3(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-treaties.json#18",
+   "note": "This card has the same Art XI text and every signature and ratification date, and asks the same entry-into-force question for A, D and E at 2 points (answers 15.08.2015 / 23.09.2015 / 13.07.2016)."
+  },
+  {
+   "label": "Q3(b)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-treaties.json#19",
+   "note": "This card asks the same question on obligations binding before entry into force for A and B at 3 points, restating the dates it needs (Art 18 and Art 24(4) VCLT)."
+  },
+  {
+   "label": "Q3(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-treaties.json#20",
+   "note": "This card has the same Pacific archipelago rainforest facts and the same two questions (does the treaty apply, and how to get the opposite result) at 2 points; the answer rests on Art 29 VCLT."
+  },
+  {
+   "label": "Q3(d)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-treaties.json#21",
+   "note": "This card asks the same question on interpreting a treaty authentic in five languages at 3 points; the answer rests on Art 33 VCLT and LaGrand."
+  }
+ ],
+ "order": 3,
+ "short": "Jun 2025"
+}

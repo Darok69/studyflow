@@ -1,0 +1,101 @@
+{
+ "id": "il-2026-03",
+ "course": "IL",
+ "title": "Real exam — 26 March 2026",
+ "subquestions": [
+  {
+   "label": "Q1(a)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-treaties.json#1",
+   "note": "Same Xympora facts (listed in date order), same question and 3 points; the answer covers all five agreements correctly."
+  },
+  {
+   "label": "Q1(b)",
+   "points": 5,
+   "match": "exact",
+   "card": "il-treaties.json#51",
+   "note": "Same general termination question for 5 points with the relevant Xympora facts restated; the Arts 54–67 answer checks out and applies the rules to the facts."
+  },
+  {
+   "label": "Q1(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-treaties.json#52",
+   "note": "Same 2-point question on invalidity (Art 69) vs termination (Art 70) vs suspension (Art 72)."
+  },
+  {
+   "label": "Q2(a)",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Prohibition of the Use of Force and Non-Intervention",
+    "kind": "norma",
+    "difficulty": 2,
+    "points": 3,
+    "q": "Is the ban on the use of force binding under international law? Can a powerful State threaten a weaker State with the use of force? Provide reasons for your answer. (3 points)",
+    "a": "Short answer: Yes: the prohibition binds every State as treaty law (Art 2(4) UN Charter), as customary law and as ius cogens, and it covers the threat of force as well as its use, so a powerful State may not threaten a weaker one, because power confers no extra rights.\n• Treaty: under Art 2(4) UN Charter, all members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any State, or in any other manner inconsistent with the purposes of the UN. This binds all 193 members. 'Force' means armed force; economic pressure falls under non-intervention instead.\n• Custom and ius cogens: the prohibition also exists as customary law, independently of the Charter, so it binds non-members too (Nicaragua 1986, paras 188–190, opinio iuris shown by States' attitude to the Friendly Relations Declaration 1970). It is widely regarded as ius cogens (Nicaragua para 190, citing the ILC), at the very least in its core, the prohibition of aggression: no treaty may derogate from it (Art 53 VCLT), and a treaty procured by the threat or use of force is void (Art 52 VCLT).\n• Threat: a stated readiness to use force is a prohibited threat if the force threatened would itself be unlawful (Nuclear Weapons AO 1996, para 47), e.g. the ultimatum 'hand over the province or we invade'. Only a threat of lawful force is allowed: self-defence under Art 51 within necessity and proportionality, or force authorised by the Security Council under Chapter VII.\n• Power is irrelevant: all States are sovereign equals (Art 2(1)) and must settle disputes peacefully (Art 2(3)). The powerful State's threat is an internationally wrongful act engaging its responsibility; a treaty extracted by it is void (Art 52 VCLT), and territory gained by threat or force is not recognised (Friendly Relations Declaration 1970). The Security Council can treat it as a 'threat to the peace' (Art 39) and act under Chapter VII. A permanent member's veto (Art 27(3)) may block that in practice, but weak enforcement does not make the threat lawful.\nMemorise: binding = treaty (Art 2(4)) + custom (Nicaragua 188–190) + ius cogens (Nicaragua 190; Art 53 VCLT) · THREAT prohibited if the threatened force would be unlawful (Nuclear Weapons para 47) · treaty procured by force void (Art 52 VCLT) · sovereign equality Art 2(1) · peaceful settlement Art 2(3)"
+   },
+   "note": "The only candidate (il-ios-force#45) adds a 'Mike the pessimist' framing taken from an older studocu paper, so this card uses the March 2026 wording verbatim. Review fixes: Short answer cut to one sentence; Memorise no longer cites Art 52 VCLT as the ius cogens rule (Art 53 is; Art 52 = treaty procured by force void); the Definition of Aggression is no longer attributed to Nicaragua paras 188–190; ius cogens status narrowed to 'at least the prohibition of aggression'; Chapter VII-authorised force added as lawful threatened force; consequences for the powerful State (wrongful act, Art 52 voidness, non-recognition of territory taken by force) applied to the facts."
+  },
+  {
+   "label": "Q2(b)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#47",
+   "note": "Same wording and 2 points: Art 51 and Chapter VII as the only exceptions, plus consent and the contested justifications."
+  },
+  {
+   "label": "Q2(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#48",
+   "note": "Same statement to assess, same 2 points; answer: disagree, because of the armed-attack trigger, necessity/proportionality, IHL and the Security Council limit."
+  },
+  {
+   "label": "Q2(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#49",
+   "note": "Same statement on non-State actors, same 2 points; the answer distinguishes attribution/consent from the contested 'unable or unwilling' view."
+  },
+  {
+   "label": "Q2(e)",
+   "points": 1,
+   "match": "exact",
+   "card": "il-ios-force.json#51",
+   "note": "Same 1-point statement on General Assembly sanctions; answer: disagree, the Assembly only recommends and binding sanctions come from the Security Council (Art 41 + Art 25)."
+  },
+  {
+   "label": "Q3(a)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-ios-force.json#26",
+   "note": "Same cyberattack facts, same question on the investigative mechanism and its legal basis, 3 points."
+  },
+  {
+   "label": "Q3(b)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-ios-force.json#21",
+   "note": "Same second sanctions resolution and 11-1-3 vote (the 'no' is a permanent member's veto), same question and 3 points."
+  },
+  {
+   "label": "Q3(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#33",
+   "note": "Same General Assembly condemnation facts and the same 2-point question on the legal effect of an Assembly resolution."
+  },
+  {
+   "label": "Q3(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#19",
+   "note": "Same facts (a national of State X on the mechanism's staff is called to testify in X), same 2-point question; answer covers Section 18(a) functional immunity, archives (Section 4) and waiver (Section 20)."
+  }
+ ],
+ "order": 1,
+ "short": "Mar 2026"
+}

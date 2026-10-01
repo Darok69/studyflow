@@ -1,0 +1,89 @@
+{
+ "id": "il-2024-03",
+ "course": "IL",
+ "title": "Past exam — 7 March 2024",
+ "subquestions": [
+  {
+   "label": "Q1(a)",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "note": "il-states.json#15 is the Jan 2026 5-point 'explain the forms' question; this paper asks only to name the models with examples, for 3 points. Review: removed the claim that a change of 'territorial size' is no succession (contradicted cession as a form), added the Art 2(1)(b) VCST definition, the secession/separation distinction and the Baltic-states nuance for the USSR.",
+   "new_card": {
+    "topic": "States, Diplomatic Protection, Succession and Immunity",
+    "kind": "srovnani",
+    "difficulty": 2,
+    "points": 3,
+    "q": "Name the different models of state succession. Provide examples. (3 points)",
+    "a": "Short answer: The models are dismembratio (dissolution), secession/separation, merger (fusion) and incorporation (absorption), plus the transfer of part of a territory and newly independent states emerging from decolonisation.\n• Definition: succession is the replacement of one state by another in the responsibility for the international relations of a territory (Art 2(1)(b) VCST). A change of government, constitution or name (Burma → Myanmar) is no succession, because the state's identity continues.\n• Dismembratio/dissolution: the predecessor ceases to exist and two or more new states take its place. Examples: Austria-Hungary 1918, the SFRY 1991–92, Czechoslovakia on 1 Jan 1993 (Czech Republic and Slovakia).\n• Secession/separation: part of the territory becomes a new state and the predecessor continues with reduced territory. Examples: Eritrea from Ethiopia 1993, Montenegro from Serbia and Montenegro 2006, South Sudan from Sudan 2011. Secession usually means a break-away against the parent state's will, separation one by agreement. The USSR 1991 is treated this way: Russia continued its identity and UN seat, the other republics became new states (the Baltic states restored their pre-1940 statehood).\n• Merger/fusion: two or more states unite into a new state and all predecessors disappear. Examples: Tanganyika and Zanzibar → Tanzania 1964; North and South Yemen → Republic of Yemen 1990.\n• Incorporation/absorption: an existing state absorbs another; the absorbed state disappears, the absorbing state continues. Example: the GDR into the FRG on 3 Oct 1990. Only a lawful, voluntary incorporation counts: a forcible annexation is void and creates no succession (Art 6 VCST; Austria 1938, Kuwait 1990).\n• Further forms: transfer (cession) of part of a territory between two continuing states (Alaska 1867, Walvis Bay 1994, Hong Kong 1997); newly independent states from decolonisation (Ghana 1957, Algeria 1962).\nMemorise: predecessor gone → dismembratio (SFRY, CS), merger (Tanzania, Yemen), incorporation (GDR → FRG) · predecessor continues → secession/separation (South Sudan, Montenegro; USSR → Russia), cession (Alaska), decolonisation (Algeria) · change of government or name and forcible annexation ≠ succession (Art 6 VCST)."
+   }
+  },
+  {
+   "label": "Q1(b)",
+   "points": 5,
+   "match": "new",
+   "card": null,
+   "note": "il-states.json#16 (Jan 2026 wording) is close but asks only for treaty sources and principles; this paper asks for the consequences model by model and for the sources of succession rules generally, including the 1983 Convention. Review: question restored to the paper's wording (the added list of models gave away part of the answer); incorporation corrected (Germany 1990 followed moving treaty frontiers, not Art 31, consistent with il-states.json#17); Art 24 'or conduct' and the progressive-development status of Art 34 added.",
+   "new_card": {
+    "topic": "States, Diplomatic Protection, Succession and Immunity",
+    "kind": "norma",
+    "difficulty": 3,
+    "points": 5,
+    "q": "What are the consequences of the different models of state succession for succession in treaties? From which legal sources do the rules of state succession derive? (5 points)",
+    "a": "Short answer: The consequences depend on the model and the type of treaty (continuity after separation and dissolution, limited continuity after a merger, moving treaty frontiers after a transfer of territory and in practice after incorporation, clean slate for newly independent states, boundary and territorial treaties always pass); the rules derive from the 1978 and 1983 Vienna Conventions, customary law and the agreements and declarations of the states concerned.\n• Basic positions: automatic (universal) succession, clean slate (tabula rasa), pick and choose. In practice the model and the type of treaty decide.\n• Secession/separation: the predecessor keeps its treaties for its remaining territory (Art 35 VCST). The new state stays bound by the treaties in force for its territory (Art 34(1)), unless the states agree otherwise or applying the treaty would be incompatible with its object and purpose or radically change the conditions for its operation (Art 34(2)). Art 34 is partly progressive development; practice relies on declarations and notifications.\n• Dismembratio/dissolution: the same continuity rule applies to each successor (Art 34 applies 'whether or not the predecessor State continues to exist'), so dissolution is not a tabula rasa. The Czech Republic and Slovakia declared themselves bound by Czechoslovakia's treaties from 1 Jan 1993; the SFRY successors deposited notifications of succession.\n• Merger: each predecessor's treaties continue, but only for the territory for which they were in force, unless extended by notification (multilateral treaties) or by agreement (Art 31).\n• Incorporation: on paper Art 31; in practice moving treaty frontiers. Germany 1990: the FRG's treaties were extended to the former GDR, and the GDR's treaties were discussed with the partners, most of them lapsing (Unification Treaty Arts 11–12).\n• Transfer of part of a territory: moving treaty frontiers; the ceding state's treaties cease to apply there and the acquiring state's treaties apply (Art 15). Newly independent states: clean slate (Art 16), but they may join multilateral treaties by notification of succession (Art 17); bilateral treaties continue only by agreement or conduct (Art 24).\n• In every model: boundaries (Art 11) and territorial regimes such as transit or navigation rights (Art 12) pass, as customary law (Gabčíkovo-Nagymaros 1997); highly political treaties such as alliances do not.\n• Sources: the VCST 1978 on treaties (in force 1996, about two dozen parties, applies only to successions after its entry into force, Art 7); the Vienna Convention 1983 on State Property, Archives and Debts (not in force); customary international law, which governs most cases; devolution agreements and unilateral declarations (alone not binding on third states, Arts 8–9), notifications of succession and special agreements (SFRY Agreement on Succession Issues 2001); the Badinter Commission opinions (1991–93) as evidence of practice.\nMemorise: continuing state keeps its treaties (Art 35) · separation/dissolution = continuity (Art 34) · merger = each treaty for its old territory (Art 31) · cession and, in practice, incorporation = moving frontiers (Art 15; Germany 1990) · decolonisation = clean slate (Arts 16, 17, 24) · borders and territorial regimes always pass (Arts 11–12, Gabčíkovo), alliances never · sources: VCST 1978 + 1983 Convention (not in force) + custom + agreements and declarations (Arts 8–9)."
+   }
+  },
+  {
+   "label": "Q1(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-states.json#19",
+   "note": "Same question, same 2 points."
+  },
+  {
+   "label": "Q2(a)",
+   "points": 1,
+   "match": "exact",
+   "card": "il-treaties.json#31",
+   "note": "Paper's Lake Barbara facts and 1 point; the correct date is 12 Nov 2024 (the student's 22.11. is wrong)."
+  },
+  {
+   "label": "Q2(b)",
+   "points": 4,
+   "match": "new",
+   "card": null,
+   "note": "il-treaties.json#32 leaves out Alandia's protest and Chiemera's refusal (both matter under Art 20(2)) and adds a 'no reservation clause' fact the paper lacks, so this card uses the paper's full facts. Review: the short answer no longer makes admissibility (Art 19) depend on Art 20(2) acceptance; the two are kept apart.",
+   "new_card": {
+    "topic": "The Law of Treaties",
+    "kind": "pripad",
+    "difficulty": 3,
+    "points": 4,
+    "q": "Alandia, Bergamont and Chiemera border Lake Barbara. The lake is used mainly for tourism (swimming, water sports, recreational boating), also for economically relevant fishing, and scientists research its water and lakebed. On 24 May 2024 the three Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' at a special event. Under its final provisions it enters into force on the 20th day after ratification by two signatory States. Alandia transmits its instrument of ratification to the depositary, Bergamont, on 15 June 2024. Bergamont faces domestic political difficulties and formulates a reservation to appease the opposition: 'Bergamont is not bound by those parts of the treaty that concern research activities in and around Lake Barbara.' It submits the reservation upon ratification on 23 October 2024. Alandia submits a written protest against the reservation on 21 November 2024. Chiemera is no longer willing to ratify. Is the reservation made by Bergamont admissible? Examine the conditions! (4 points)",
+    "a": "Short answer: Yes, most probably: it is a genuine reservation, made in time and in writing, not excluded by the treaty and compatible with its object and purpose (Art 19 VCLT); Alandia's protest does not affect admissibility, only whether and how the reservation takes effect (Arts 20–21).\n• Reservation? Art 2(1)(d) VCLT: a unilateral statement, however named, made on ratification, by which a State purports to exclude the legal effect of certain provisions in their application to itself. Bergamont excludes the research provisions, so this is a reservation, not an interpretative declaration. The domestic political motive is irrelevant.\n• Time: reservations may be made on signature, ratification, acceptance, approval or accession (Art 19 chapeau). Bergamont made it on ratification, 23 October 2024, so it is in time.\n• Form: in writing and communicated to the contracting States and States entitled to become parties (Art 23(1)). As depositary, Bergamont must inform Alandia and Chiemera (Art 77(1)(e)).\n• Art 19(a)–(b): the facts mention no clause prohibiting reservations or allowing only specified ones, so there is no bar. Such a clause would make the reservation inadmissible.\n• Art 19(c) object and purpose: by its title and content the treaty governs tourism and economic uses such as fishing. Research is peripheral and the core stays intact, so the reservation is compatible. 'In and around' is broad, but the excluded subject is identifiable (ILC Guide to Practice 2011, 3.1.5.2 on vague reservations).\n• Acceptance: with only three riparian negotiating States, if applying the whole treaty between all parties was an essential condition of each State's consent, the reservation requires acceptance by all parties (Art 20(2)). Alandia's protest would then prevent it from taking effect, and Bergamont could become a party only by withdrawing it. Since research is peripheral, the general regime is more convincing (Art 20(4)–(5)): Alandia's simple objection leaves the treaty in force between Alandia and Bergamont without the research provisions (Art 21(3)).\n• Conclusion: admissible under Art 19; its effects depend on the other States' reactions (Arts 20–21).\nMemorise: reservation? (2(1)(d)) → time (19 chapeau) → writing + notification (23(1)) → clause? (19(a)(b)) → object and purpose (19(c)) → admissible ≠ effective · few parties: 20(2)? → effects 20(4)/21(3)."
+   }
+  },
+  {
+   "label": "Q2(c)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-treaties.json#33",
+   "note": "Same facts, question and 3 points; it only makes explicit that notification happened the same day and that the objection is a simple one."
+  },
+  {
+   "label": "Q2(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-treaties.json#34",
+   "note": "Same question and 2 points; correctly applies Arts 14, 18(a) and 7."
+  },
+  {
+   "label": "Q3",
+   "points": 10,
+   "match": "exact",
+   "card": "il-ios-force.json#30",
+   "note": "Ken vs Barbie reproduced verbatim at 10 points, and it corrects both students' errors."
+  }
+ ],
+ "order": 7,
+ "short": "Mar 2024"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "il-2024-06",
+ "course": "IL",
+ "title": "Past exam — 28 June 2024",
+ "subquestions": [
+  {
+   "label": "Q1(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-states.json#10",
+   "note": "Same Bellivonia facts and question (define state succession, 2 pts); the answer correctly gives the VCST/VCSSPAD definition and corrects the student's answer, which confused succession with continuity."
+  },
+  {
+   "label": "Q1(b)",
+   "points": 4,
+   "match": "exact",
+   "card": "il-states.json#11",
+   "note": "Faithful 4-pt card: Bellistan's view = continuity (rump state) plus secession of Livonia, Livonia's view = dismembratio, which covers both readings of the ambiguous question and fixes the student's wrong labels."
+  },
+  {
+   "label": "Q1(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-states.json#12",
+   "note": "Same question (two further criteria besides self-assessment, 2 pts); the answer lists territory, population, capital and institutions, agreement, and recognition or UN membership."
+  },
+  {
+   "label": "Q1(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-states.json#13",
+   "note": "Same dual-citizenship question (2 pts); the answer correctly applies Art 6 DADP (either state, or both jointly, against third states) and corrects the student's 'effective nationality' answer, which holds only between the two national states (Art 7)."
+  },
+  {
+   "label": "Q2(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#1",
+   "note": "Same facts and question (can only states found an IO, 2 pts); the answer says IOs can also be founders (EC in the WTO, EEC/EIB in the EBRD) but private associations cannot."
+  },
+  {
+   "label": "Q2(b)",
+   "points": 4,
+   "match": "exact",
+   "card": "il-ios-force.json#2",
+   "note": "Same Red Cross question (4 pts); the answer says the ICRC is a Swiss association with partial, treaty-derived personality, not an IO, and so only a limited model."
+  },
+  {
+   "label": "Q2(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#3",
+   "note": "Same property-from-confiscation question (2 pts); the answer says the protection is treaty-based (Art 105 Charter, 1946 Convention Sections 2-4, HQ agreement) and that premises are inviolable, not extraterritorial."
+  },
+  {
+   "label": "Q2(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#4",
+   "note": "Same staff-from-arrest question (2 pts); the answer distinguishes functional immunity (Section 18(a)) from the SG's/ASGs' diplomatic immunity (Section 19) and the experts' immunity from arrest (Section 22)."
+  },
+  {
+   "label": "Q3(a)",
+   "points": 8,
+   "match": "exact",
+   "card": "il-sources.json#43",
+   "note": "Card is labelled June 2024 and uses the same Rachastan/Antrania facts and question (8 pts); the answer covers good offices, inquiry, mediation, conciliation and UN organs, and correctly separates out binding arbitration, which the student had listed as a third-party option."
+  },
+  {
+   "label": "Q3(b)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-sources.json#44",
+   "note": "Same question (binding procedure and its requirement, 2 pts); the card calls the rejected third-state offer 'mediation', which does not change the answer: arbitration or the ICJ, only with Antrania's consent."
+  }
+ ],
+ "order": 5,
+ "short": "Jun 2024"
+}

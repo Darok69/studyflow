@@ -1,0 +1,75 @@
+{
+ "id": "il-2024-02",
+ "course": "IL",
+ "title": "Past exam — 1 February 2024",
+ "subquestions": [
+  {
+   "label": "Q1(a)",
+   "points": 4,
+   "match": "exact",
+   "card": "il-treaties.json#22"
+  },
+  {
+   "label": "Q1(b)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-treaties.json#23"
+  },
+  {
+   "label": "Q1(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-treaties.json#24"
+  },
+  {
+   "label": "Q1(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-treaties.json#25"
+  },
+  {
+   "label": "Q2(a)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-sources.json#25"
+  },
+  {
+   "label": "Q2(b)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-sources.json#26"
+  },
+  {
+   "label": "Q2(c)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-ios-force.json#27"
+  },
+  {
+   "label": "Q2(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#28"
+  },
+  {
+   "label": "Q3(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#63"
+  },
+  {
+   "label": "Q3(b)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-ios-force.json#64"
+  },
+  {
+   "label": "Q3(c)",
+   "points": 5,
+   "match": "exact",
+   "card": "il-ios-force.json#65"
+  }
+ ],
+ "order": 8,
+ "short": "Feb 2024"
+}

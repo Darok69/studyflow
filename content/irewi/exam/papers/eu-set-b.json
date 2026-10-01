@@ -1,0 +1,164 @@
+{
+ "id": "eu-set-b",
+ "course": "EU",
+ "title": "Past questions — set B (competition directive, Factortame, paid leave)",
+ "subquestions": [
+  {
+   "label": "Case 1 Q1",
+   "points": 3,
+   "match": "exact",
+   "card": "eu-institutions.json#42",
+   "note": "Same competition-authorities (ECN+) facts and legal-basis question; the card only adds 'and which procedure follows', which a full answer (Art 103 + 114, OLP) needs anyway."
+  },
+  {
+   "label": "Case 1 Q2",
+   "points": 5,
+   "match": "exact",
+   "card": "eu-institutions.json#45",
+   "note": "Same question word for word; 'including the majorities and time limits' only spells out what full marks require."
+  },
+  {
+   "label": "Case 1 Q3",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Competences and Legislating",
+    "kind": "znaky",
+    "difficulty": 2,
+    "points": 3,
+    "q": "What is enhanced cooperation? (3 points)",
+    "a": "Short answer: Enhanced cooperation (Art 20 TEU, Arts 326–334 TFEU) lets at least nine Member States, as a last resort, use the Union's institutions and Treaty legal bases in a non-exclusive area to adopt acts that bind only themselves.\n• Concept: differentiated integration inside the EU framework. Where the Union as a whole cannot agree (typically under unanimity), willing states go ahead with the EU institutions instead of concluding a treaty outside the Union (as Schengen originally was).\n• Conditions (Art 20(1)–(2) TEU, Arts 326–328 TFEU): only within the Union's non-exclusive competences; it must further the Union's objectives, protect its interests and reinforce integration; last resort – the Council establishes that the objectives cannot be attained within a reasonable period by the Union as a whole; at least nine participating Member States; it may not undermine the internal market or economic, social and territorial cohesion, nor constitute a barrier to or discrimination in trade or distort competition (Art 326); it respects the competences, rights and obligations of non-participants (Art 327); it is open to all Member States at any time (Art 328).\n• Procedure (Art 329 TFEU): request to the Commission specifying scope and objectives; the Commission may submit a proposal (or informs the states of its reasons for not doing so); authorisation by the whole Council, by qualified majority, on the Commission's proposal and after obtaining the consent of the EP. In the CFSP: request to the Council, opinions of the High Representative and the Commission, EP informed, Council decides unanimously (Art 329(2)).\n• Effects: all Council members may deliberate, but only participants vote (Art 20(3) TEU, Art 330 TFEU; QMV under Art 238(3)); among themselves they may switch from unanimity to QMV or from a special to the ordinary legislative procedure (Art 333, not for decisions with military or defence implications); the acts bind only participants and are not part of the acquis that candidate states must accept (Art 20(4) TEU); others may join later (Art 331); expenditure other than the institutions' administrative costs is borne by the participants (Art 332).\n• Examples: Rome III divorce law (Reg 1259/2010, the first use), unitary patent (Regs 1257/2012 and 1260/2012; the Council's authorising decision was upheld in Spain and Italy v Council, C-274/11 and C-295/11), property regimes of international couples (Regs 2016/1103 and 2016/1104), European Public Prosecutor's Office (Reg 2017/1939).\nCodex: Art 20 TEU; Arts 326–334, 238(3) TFEU · Spain and Italy v Council (C-274/11 and C-295/11) is not in the codex."
+   },
+   "note": "The only candidate (eu-institutions#49) is a digital-tax case with different facts and four sub-questions, so this is a plain faithful card. Review: the unitary-patent judgment upheld the Council's authorising decision (not the regulations); Art 332 and Art 327 wording made exact; Art 333 passerelle added."
+  },
+  {
+   "label": "Case 1 Q4",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Workarounds, Enforcement and State Liability",
+    "kind": "definice",
+    "difficulty": 2,
+    "points": 3,
+    "q": "What constitutes the principle of decentralised enforcement of EU law? (3 points)",
+    "a": "Short answer: As a rule EU law is applied and enforced not by the Union but by the Member States – by their authorities (Art 291(1) TFEU) and their courts (Art 19(1) second subpara TEU) – so the Union legislates and the Member States administer, while direct enforcement by EU bodies is the exception and needs an explicit legal basis.\n• Authorities (also called indirect enforcement): Member States adopt all measures of national law necessary to implement legally binding Union acts (Art 291(1) TFEU) and in principle decide themselves which national bodies do so. Under the duty of sincere cooperation they take all appropriate measures to fulfil their obligations (Art 4(3) TEU). The Commission (exceptionally the Council) gets implementing powers only where uniform conditions are needed (Art 291(2)). Structurally this is the opposite of a federal state with its own federal administration.\n• Courts: national courts are the ordinary courts of EU law. They apply directly effective EU law, give it primacy and set aside conflicting national rules (Van Gend en Loos, Costa v ENEL, Simmenthal). Member States must provide remedies sufficient to ensure effective legal protection (Art 19(1) second subpara TEU, Art 47 Charter). The CJEU is linked to them through the preliminary reference (Art 267 TFEU), which secures uniform interpretation, but the national court decides the case.\n• Procedure: where there are no EU procedural rules, national procedural law applies (procedural autonomy), limited by equivalence and effectiveness (Rewe, 33/76; Comet, 45/76).\n• Supervision: the Commission monitors the application of EU law (Art 17(1) TEU) and can bring infringement proceedings (Arts 258–260 TFEU). Individuals are protected by direct effect, consistent interpretation and state liability (Francovich).\nCodex: Arts 4(3), 17(1), 19(1) TEU; Arts 258–260, 267, 291 TFEU; Art 47 Charter · Van Gend en Loos (26/62), Costa v ENEL (6/64), Simmenthal (106/77), Rewe (33/76), Comet (45/76), Francovich (C-6/90 and C-9/90)."
+   },
+   "note": "eu-remedies#27 merges this question with Q5 and an extra statement, so this is a stand-alone card on decentralised enforcement. Review: short answer made one sentence; 'indirect enforcement' term and institutional autonomy added."
+  },
+  {
+   "label": "Case 1 Q5",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Workarounds, Enforcement and State Liability",
+    "kind": "znaky",
+    "difficulty": 2,
+    "points": 2,
+    "q": "Give examples of own (direct) enforcement of Union law. (2 points)",
+    "a": "Short answer: Direct (own) enforcement by the Union is the exception to decentralised enforcement and always rests on an explicit legal basis – the main examples are competition law and the Digital Markets Act, foreign trade law, Union funds and research funding under direct management, and the Union's own administration (staff, budget, internal organisation).\n• Competition: the Commission investigates infringements of Arts 101 and 102 TFEU, adopts prohibition decisions and fines undertakings (Art 105 TFEU; Reg 1/2003, Arts 7 and 23). It also runs merger control (Reg 139/2004) and adopts state aid decisions, including recovery orders (Art 108 TFEU). Under the DMA (Reg 2022/1925) it designates gatekeepers and enforces their obligations.\n• Foreign trade: after its own investigation the Commission imposes anti-dumping and countervailing duties by implementing regulation (common commercial policy, Art 207 TFEU; Regs 2016/1036 and 2016/1037); national customs then collect them.\n• Funds and research: grants awarded and managed directly by the Commission or its executive agencies (direct management, e.g. Horizon Europe), including recovery of sums unduly paid. Most structural funds, by contrast, are under shared management and run by national authorities.\n• Internal matters and agencies: EU staff (Art 336 TFEU) and implementation of the budget by the Commission (Art 317 TFEU). Some EU bodies also decide individual cases, e.g. EUIPO registers EU trade marks and the ECB supervises significant banks (SSM, Art 127(6) TFEU, Reg 1024/2013).\n• Common error: an exclusive competence (Art 3 TFEU) is not direct enforcement. Customs duties are levied by national customs authorities under the Union Customs Code. An exclusive competence decides who legislates, not who administers.\nCodex: Arts 3, 105, 108, 127(6), 207, 291(1), 317, 336 TFEU · Reg 1/2003, Reg 139/2004, the DMA (Reg 2022/1925) and the anti-dumping Reg 2016/1036 are secondary law and not in the codex."
+   },
+   "note": "No stand-alone card exists (eu-remedies#27 merges this with Q4). The card corrects the student answer, which treated exclusive competences such as the customs union as direct enforcement. Review: only funds under direct management count (structural funds are shared management); anti-dumping duties are imposed by the Commission but collected by national customs; Art 127(6) TFEU added for the SSM."
+  },
+  {
+   "label": "Case 1 Q6",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Workarounds, Enforcement and State Liability",
+    "kind": "norma",
+    "difficulty": 2,
+    "points": 3,
+    "q": "What is meant by the principle of procedural autonomy? (3 points)",
+    "a": "Short answer: Where there are no EU procedural rules, each Member State's legal system designates the competent courts and lays down the procedure for actions that protect rights derived from EU law, limited by the principles of equivalence and effectiveness (Rewe, 33/76; Comet, 45/76; Impact, C-268/06).\n• Context: enforcement of EU law is decentralised (Art 291(1) TFEU; Art 19(1) second subpara TEU). There are three layers: (1) EU procedural rules prevail where they exist (e.g. Arts 77 ff. GDPR, Antitrust Damages Directive 2014/104); (2) otherwise national procedure applies, so procedural autonomy is only the residual answer; (3) that national procedure is framed by equivalence and effectiveness.\n• Equivalence: the conditions for claims based on EU law may not be less favourable than those for similar domestic actions.\n• Effectiveness: they may not make the exercise of EU rights practically impossible or excessively difficult (Impact; Rewe still said 'impossible in practice'). Reasonable time limits are acceptable in the interest of legal certainty (Rewe, Comet).\n• Basis of the limits: sincere cooperation (Art 4(3) TEU) and effective judicial protection (Art 19(1) TEU, Art 47 Charter). Where national law lacks a remedy needed for effective protection, EU law itself requires it: interim relief (Factortame I, C-213/89), disapplication by any court (Simmenthal, 106/77), damages (Francovich).\n• Common error: procedural autonomy does not govern preliminary references. The right to refer (which national rules cannot take from a lower court, Rheinmühlen, 166/73) and the duty to refer (courts of last instance under Art 267(3); any court that considers an EU act invalid, Foto-Frost) follow from Art 267 TFEU itself, not from national procedure.\nCodex: Arts 4(3), 19(1) TEU; Arts 267, 291(1) TFEU; Art 47 Charter · Rewe (33/76), Comet (45/76), Impact (C-268/06), Factortame I (C-213/89), Simmenthal (106/77), Francovich (C-6/90 and C-9/90), Rheinmühlen (166/73), Foto-Frost (314/85)."
+   },
+   "note": "eu-remedies#24 adds a separate task (illustrate with a national time limit), so this card keeps the paper's plain question and adapts #24's answer. Review: Foto-Frost duty stated precisely (a court that considers an act invalid, not one that merely doubts); Rheinmühlen added."
+  },
+  {
+   "label": "Case 2 Q1",
+   "points": 3,
+   "match": "exact",
+   "card": "eu-remedies.json#25",
+   "note": "Same Irish Merchant Shipping Act 2020 facts, the same common-law bar on interim relief and the same question (Factortame I)."
+  },
+  {
+   "label": "Case 2 Q2",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Workarounds, Enforcement and State Liability",
+    "kind": "rozliseni",
+    "difficulty": 2,
+    "points": 2,
+    "q": "Can a claim for damages against Member States for breach of Union law be based on Article 340(2) TFEU? (2 points)",
+    "a": "Short answer: No – Art 340(2) TFEU governs only the non-contractual liability of the Union itself; a Member State's liability is an unwritten general principle of EU law (Francovich), enforced before the national courts.\n• Art 340(2) TFEU: the Union, in accordance with the general principles common to the laws of the Member States, makes good any damage caused by its institutions or its servants in the performance of their duties. The action for damages lies against the Union (Art 268 TFEU), at first instance before the General Court (Art 256(1)), within five years (Art 46 Statute). The EU Courts have no jurisdiction to award damages against a Member State.\n• State liability: a principle inherent in the system of the Treaties (Francovich, C-6/90 and C-9/90). It is based on the full effectiveness of EU law, the protection of individual rights and sincere cooperation (Art 4(3) TEU; today also Art 19(1) second subpara TEU). Nor is national law its basis: national law supplies only the procedure, so the claim is brought in the national courts, subject to equivalence and effectiveness.\n• Link: Art 340(2) serves only as inspiration. In Brasserie du Pêcheur/Factortame III (C-46/93 and C-48/93) the Court drew on the principle behind it and held that the conditions for state liability may not differ from those for Union liability in comparable circumstances: a sufficiently serious breach of a rule conferring rights, damage, and a direct causal link (aligned for the Union in Bergaderm, C-352/98 P).\nCodex: Arts 256(1), 268, 340(2) TFEU; Arts 4(3), 19(1) TEU; Art 46 Statute of the CJEU · Francovich (C-6/90 and C-9/90), Brasserie du Pêcheur/Factortame III (C-46/93 and C-48/93), Bergaderm (C-352/98 P)."
+   },
+   "note": "eu-remedies#21 merges this with a second true/false statement, so this is a stand-alone card on Art 340(2) TFEU. Review: added the lecture's mark-worthy point that national law is not the basis either, only the procedure."
+  },
+  {
+   "label": "Case 2 Q3",
+   "points": 4,
+   "match": "exact",
+   "card": "eu-remedies.json#20",
+   "note": "Same question on claiming damages from a Member State; 'legal basis, conditions, court' only spells out the full answer (Francovich/Brasserie)."
+  },
+  {
+   "label": "Case 2 Q4",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "EU Judicial Procedures",
+    "kind": "znaky",
+    "difficulty": 2,
+    "points": 3,
+    "q": "What are the consequences of a breach of the obligation to refer a question to the Court of Justice? (3 points)",
+    "a": "Short answer: A court of last instance that fails to refer in breach of Art 267(3) TFEU exposes its Member State to infringement proceedings (Art 258 TFEU) and state liability (Köbler); under Austrian law the failure violates the right to the lawful judge (Art 83(2) B-VG) and an arbitrary refusal can breach Art 6(1) ECHR, but the parties themselves cannot compel a reference.\n• The obligation: courts against whose decisions there is no judicial remedy under national law must refer questions of interpretation (Art 267(3)). The CILFIT exceptions apply: the question is irrelevant, already answered (acte éclairé), or the answer is obvious (acte clair). A court that does not refer must give reasons (Consorzio Italian Management, C-561/19). Every court must refer if it considers an EU act invalid (Foto-Frost, 314/85).\n• EU law, infringement: the state answers for all its organs, including its courts. The Commission can therefore bring Art 258 proceedings against the Member State (not against the court). This was done for the first time for a supreme court's failure to refer in Commission v France (C-416/17, 2018, Conseil d'État). It is not an 'action for failure to act': Art 265 concerns only EU institutions.\n• EU law, state liability: under Köbler (C-224/01) the injured party can claim damages if the infringement is manifest, and non-compliance with the duty to refer is expressly one of the factors. National law may not exclude liability for the interpretation of law or the assessment of facts, nor confine it to intentional fault or serious misconduct of the judge where that would exclude liability for a manifest infringement (Traghetti del Mediterraneo, C-173/03). The judgment itself stays final: the damages claim does not reopen it (Köbler; Kapferer, C-234/04).\n• Austrian law: parties have no subjective right to a referral (OGH 1 Ob 354/97h). But the CJEU is a 'lawful judge' under Art 83(2) B-VG, so an unjustified failure to refer violates that constitutional right (VfSlg 14.390/1995). Against decisions of administrative courts a complaint lies to the VfGH (Art 144 B-VG); against the OGH or VwGH there is no further remedy.\n• ECHR: an arbitrary or unreasoned refusal can breach Art 6(1) ECHR (Ullens de Schooten v Belgium, 2011; Dhahbi v Italy, 2014).\nCodex: Arts 258, 260, 265, 267 TFEU; Art 4(3) TEU; Art 47 Charter · CILFIT (283/81), Foto-Frost (314/85), Consorzio Italian Management (C-561/19), Commission v France (C-416/17), Köbler (C-224/01), Traghetti del Mediterraneo (C-173/03), Kapferer (C-234/04); not in the codex either: Arts 83(2), 144 B-VG; Art 6(1) ECHR (Ullens de Schooten, Dhahbi)."
+   },
+   "note": "eu-remedies#29 adds OGH facts and #23 is the Köbler case, so this is the paper's abstract question. The card corrects the student's 'failure to act' framing. Review: Traghetti stated precisely (no confining liability to intent or serious misconduct where that excludes liability for a manifest infringement); res judicata linked to Köbler."
+  },
+  {
+   "label": "Case 2 Q5",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Annulment, Failure to Act and Fundamental Rights",
+    "kind": "znaky",
+    "difficulty": 1,
+    "points": 2,
+    "q": "Which claimants are fully privileged in actions for annulment? (2 points)",
+    "a": "Short answer: The Member States, the European Parliament, the Council and the Commission (Art 263(2) TFEU).\n• Meaning: they may challenge any reviewable act on any of the four grounds without showing direct or individual concern or a particular interest. The four grounds are lack of competence, infringement of an essential procedural requirement, infringement of the Treaties or of any rule of law relating to their application, and misuse of powers. Only the two-month time limit applies (Art 263(6)).\n• Contrast, semi-privileged (Art 263(3)): the Court of Auditors, the ECB and the Committee of the Regions may sue only to protect their prerogatives.\n• Contrast, non-privileged (Art 263(4)): natural and legal persons; also regions, provinces and municipalities (they are not the 'Member State'); and EU bodies not listed, e.g. the EESC, the EIB and the European Council.\n• History: the EP was at first not privileged. It was allowed to sue to protect its prerogatives (Chernobyl, C-70/88, codified at Maastricht) and became fully privileged with the Treaty of Nice.\nCodex: Art 263(2), (3), (4), (6) TFEU · Chernobyl (C-70/88)."
+   },
+   "note": "eu-remedies#51 merges this question with Q6 (and adds semi-privileged claimants), so this is a stand-alone card on fully privileged claimants. Review: checked, no change needed."
+  },
+  {
+   "label": "Case 2 Q6",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Annulment, Failure to Act and Fundamental Rights",
+    "kind": "znaky",
+    "difficulty": 2,
+    "points": 3,
+    "q": "Under which conditions can non-privileged claimants file an action for annulment? (3 points)",
+    "a": "Short answer: Under Art 263(4) TFEU a natural or legal person may challenge (1) an act addressed to it, (2) an act of direct and individual concern to it, or (3) a regulatory act of direct concern to it that does not entail implementing measures, provided it sues within two months (Art 263(6)), against a reviewable act, with an interest in bringing proceedings.\n• General requirements: an act intended to produce binding legal effects (Art 263(1); IBM, 60/81), the two-month time limit, and a legal interest. The General Court decides at first instance (Art 256(1)).\n• (1) Addressee: e.g. an undertaking fined by a Commission competition decision. No further test applies.\n• (2) Direct concern: the act directly affects the applicant's legal situation and leaves no discretion to those who implement it, so implementation is purely automatic (Dreyfus, C-386/96 P). A merely potential effect is not enough, but a purely theoretical discretion does not exclude direct concern (Piraiki-Patraiki, 11/82). Individual concern (Plaumann, 25/62): the act affects the applicant by reason of attributes peculiar to it, or circumstances that set it apart from all others, distinguishing it individually just as an addressee. Being affected in fact, through an activity anyone may take up at any time, is not enough (Plaumann, an importer of clementines). Recognised cases: a closed class fixed when the act was adopted; participation in the procedure; specific rights (Codorniu, C-309/89: a trademark) or a substantial effect on market position (Cofaz, 169/84). The Court has refused to relax Plaumann (UPA, C-50/00 P).\n• (3) Regulatory act (added by Lisbon): an act of general application that is not a legislative act (Inuit, C-583/11 P) and entails no implementing measures for the applicant (Telefónica, C-274/12 P). Direct concern suffices; individual concern is not required (Microban, T-262/10). Legislative acts remain subject to the full Plaumann test.\nCodex: Arts 256(1), 263(1), (4), (6), 289(3) TFEU · IBM (60/81), Plaumann (25/62), Piraiki-Patraiki (11/82), Codorniu (C-309/89), Cofaz (169/84), Dreyfus (C-386/96 P), UPA (C-50/00 P), Inuit (C-583/11 P), Telefónica (C-274/12 P), Microban (T-262/10)."
+   },
+   "note": "No stand-alone card exists (eu-remedies#51 merges this with Q5). The card corrects the student claim that being affected de facto is enough. Review: the de facto point moved to individual concern with the Plaumann facts; Piraiki-Patraiki added for a purely theoretical discretion."
+  },
+  {
+   "label": "Case 4 Q1",
+   "points": 4,
+   "match": "exact",
+   "card": "eu-remedies.json#19",
+   "note": "Same facts: public-sector husband and private-sector husband, and the German exclusion of heirs' claims. Same question on relying on Art 31(2) Charter (Bauer and Willmeroth)."
+  }
+ ],
+ "order": 2,
+ "short": "Set B"
+}

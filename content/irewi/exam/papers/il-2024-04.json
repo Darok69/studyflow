@@ -1,0 +1,111 @@
+{
+ "id": "il-2024-04",
+ "course": "IL",
+ "title": "Past exam — 25 April 2024",
+ "subquestions": [
+  {
+   "label": "Q1(a)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-sources.json#14",
+   "note": "Same Selenur, Willunia and Cornistan facts, the same three-part question on opinio iuris and state practice, and the same 3 points."
+  },
+  {
+   "label": "Q1(b)",
+   "points": 4,
+   "match": "exact",
+   "card": "il-sources.json#15",
+   "note": "Selenur's persistent-objector argument with the same three sub-parts (what it achieves, requirements, can Selenur be one) and the same 4 points."
+  },
+  {
+   "label": "Q1(c)",
+   "points": 3,
+   "match": "exact",
+   "card": "il-sources.json#16",
+   "note": "Selenur's 'all states must participate' argument and the generality-of-practice question, with the same 3 points."
+  },
+  {
+   "label": "Q2(a)",
+   "points": 4,
+   "match": "exact",
+   "card": "il-treaties.json#10",
+   "note": "Same UNESCO Ancient Monuments Convention signed by the Foreign Minister in 2023 and the same 'further steps after signature' question at 4 points; only State A is renamed Antica."
+  },
+  {
+   "label": "Q2(b)",
+   "points": 1,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "The Law of Treaties",
+    "kind": "norma",
+    "difficulty": 1,
+    "points": 1,
+    "q": "(April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments', which obliges the contracting parties to give special protection to certain buildings: both their demolition and significant constructional changes are prohibited. After a change of government, the new head of government strongly disagrees with this policy, because the strict protection requirements would impede real estate projects in the city centre and hamper the expansion of the underground railway. In particular, he criticises that the Foreign Minister was not competent under international law to sign the Convention on behalf of the State. Who is authorised under international law to give the consent to be bound by a treaty? (1 point)",
+    "a": "Short answer: Whoever produces appropriate full powers or is treated as the State's representative by practice, and, without full powers, the Head of State, Head of Government and Foreign Minister by virtue of office, so State A's Foreign Minister was competent.\n• Art 7(1) VCLT: a person represents the State for expressing its consent to be bound if he produces appropriate full powers (a), or if practice or other circumstances show that the States intended to treat him as representative and dispense with full powers (b). Which organ acts is otherwise a matter for internal law.\n• Art 7(2)(a): Heads of State, Heads of Government and Ministers for Foreign Affairs represent the State for all acts relating to the conclusion of a treaty, without full powers (Cameroon v Nigeria 2002). Heads of diplomatic missions and delegates to conferences or IOs only adopt the text (Art 7(2)(b), (c)).\n• Application: the Foreign Minister acted ex officio, so the criticism fails. An unauthorised act would be without legal effect unless the State confirmed it afterwards (Art 8).\nMemorise: Art 7(1) full powers or practice · Art 7(2)(a) big three ex officio for all acts (Cameroon v Nigeria) · ambassadors and delegates only adopt the text · Art 8 later confirmation."
+   },
+   "note": "The only candidate (il-treaties.json#11) merges this with Q2(d) at 3 points, so this is a separate 1-point full-powers card with the paper's facts. Reviewed: facts restored closer to the paper (the new head of government disagrees with the policy), short answer made one sentence and now names Art 7(1)(b) practice, Art 7(1)(a)/(b) split cited, Cameroon v Nigeria added for 'all acts', answer tightened to 1-point length."
+  },
+  {
+   "label": "Q2(c)",
+   "points": 3,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "The Law of Treaties",
+    "kind": "norma",
+    "difficulty": 2,
+    "points": 3,
+    "q": "(April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments', which obliges the contracting parties to give special protection to certain buildings: both their demolition and significant constructional changes are prohibited. After a change of government, the new head of government finds that these rules would impede real estate projects and the expansion of the underground railway in the city centre. His objection that the Foreign Minister was not competent to sign has failed, but he is nevertheless determined to assert the invalidity of the treaty. Under which conditions can the validity of a treaty be challenged? (3 points)",
+    "a": "Short answer: Only on the exhaustive grounds of Arts 46–53 VCLT (Art 42(1)), relative or absolute, invoked through the procedure of Arts 65–67, and a new government's dislike of the treaty's content is not one of them.\n• Art 42(1): the validity of a treaty or of a State's consent may be impeached only through the application of the VCLT.\n• Relative grounds (defects of consent): only the affected State may invoke them, and it loses them by express agreement or acquiescence (Art 45).\n  – Art 46: manifest violation of an internal rule of fundamental importance on treaty-making competence.\n  – Art 47: disregard of a specific restriction on the representative's authority, notified to the other negotiating States in advance.\n  – Art 48: error on a fact or situation that formed an essential basis of consent (not if the State contributed to it or was on notice).\n  – Arts 49, 50: fraud by, or corruption of the representative by, another negotiating State.\n• Absolute grounds: the treaty is void, the right to invoke cannot be lost, and no separation of provisions is permitted (Art 44(5)).\n  – Art 51: coercion of the representative.\n  – Art 52: coercion of the State by the threat or use of force in violation of the Charter principles.\n  – Art 53: conflict with ius cogens at the time of conclusion (a later ius cogens norm makes the treaty void and terminates it, Art 64).\n• Procedure: a State cannot simply declare the treaty void; it must notify the other parties of its claim with reasons and, if they object, seek a peaceful settlement (Arts 65–67).\n• Application: no ground is present. The Foreign Minister acted ex officio (Art 7(2)(a)), nothing suggests a manifest breach of a fundamental competence rule, error, fraud, corruption or coercion, and protecting monuments does not conflict with ius cogens. A change of government does not change the State's obligations. State A may lawfully decline to ratify (ending its Art 18 duty) or, once bound, withdraw as the treaty allows (Arts 54, 56).\nMemorise: Art 42 exhaustive · relative 46–50 (competence, restriction, error, fraud, corruption): must be invoked, can be lost (Art 45) · absolute 51–53 (coercion of person, coercion of State, ius cogens): void, no separation (Art 44(5)) · Art 65 procedure · a change of government or policy is no ground."
+   },
+   "note": "The only candidate (il-treaties.json#46) drops the case facts and adds a different demand, so this card keeps the paper's context and applies the invalidity grounds to it. Reviewed: the question no longer claims the competence objection 'has been rejected' (the paper only says 'nevertheless'); corruption now 'by another negotiating State' (Art 50); absolute grounds now state that the right cannot be lost; the misleading 'invalidity is not automatic' replaced by the Art 65 notification and settlement procedure; the change-of-government point added to the application."
+  },
+  {
+   "label": "Q2(d)",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "The Law of Treaties",
+    "kind": "pripad",
+    "difficulty": 2,
+    "points": 2,
+    "q": "(April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments', which obliges the contracting parties to give special protection to certain buildings: both their demolition and significant constructional changes are prohibited. After a change of government, the new head of government strongly disagrees with this policy, because it would impede real estate projects and the expansion of the underground railway in the city centre. He remains unimpressed after a briefing by State A's International Law Office and declares that the treaty is void, since it violates domestic law. How will the International Law Office respond to this statement? (2 points)",
+    "a": "Short answer: The Office will reply that a conflict with domestic law neither makes a treaty void nor excuses its non-performance, and that the only exception, Art 46 VCLT (manifest violation of an internal rule of fundamental importance on competence to conclude treaties), is not met.\n• Art 27 VCLT: a party may not invoke its internal law as justification for failing to perform a treaty (likewise Art 3 ARSIWA). Validity can be impeached only on the VCLT's own grounds (Art 42(1)), and a clash with substantive domestic law, such as planning or building law, is not one of them.\n• Art 46, reserved in Art 27: internal law counts only if consent was expressed in violation of a rule on competence to conclude treaties, the rule is of fundamental importance and the violation is manifest, i.e. objectively evident to any State acting in good faith and according to normal practice (Art 46(2)); a limitation is not manifest unless at least properly publicised (Cameroon v Nigeria 2002). Here the objection concerns the treaty's content, not a competence rule, so Art 46 does not apply.\n• Consequence: the treaty is not void. Once bound, State A must perform in good faith (Art 26) and adapt its domestic law, or it commits an internationally wrongful act. While it has only signed, it can declare that it will not ratify, which ends its Art 18 duty.\nMemorise: Art 27 internal law is no excuse (Art 3 ARSIWA) · Art 42 exhaustive · Art 46 only for competence + fundamental + manifest (Cameroon v Nigeria) · Art 26 pacta sunt servanda · not yet ratified: declare non-ratification (Art 18)."
+   },
+   "note": "The only candidate (il-treaties.json#11) merges this with Q2(b) at 3 points, so this is a separate 2-point card on the domestic-law objection. Reviewed: corrected the reasoning that Art 46 fails because the Foreign Minister is competent ex officio (Art 46 presupposes an internationally competent representative, as in Cameroon v Nigeria); it fails because the objection concerns content, not a competence rule, and nothing is manifest. Added the Cameroon v Nigeria publicity test and the non-ratification route to the Memorise line; short answer made one sentence."
+  },
+  {
+   "label": "Q3(a)",
+   "points": 2,
+   "match": "new",
+   "card": null,
+   "new_card": {
+    "topic": "Prohibition of the Use of Force and Non-Intervention",
+    "kind": "pripad",
+    "difficulty": 2,
+    "points": 2,
+    "q": "(April 2024 exam) Friends Mike, Rachel and Harvey discuss current global events. They are concerned about the increasing outbreaks of violence and wonder how international law regulates the use of force between states. Mike is a pessimist and therefore believes that, since a ban on violence is not enshrined anywhere, the prohibition of the use of force is not binding under international law. And anyway, he argues, a state can simply threaten a weaker state with the use of force and thus enforce its will. Are Mike's statements correct, and why (not)? (2 points)",
+    "a": "Short answer: Mike is wrong on both counts, because the prohibition of the use of force is laid down in Art 2(4) UN Charter, also binds as customary law and ius cogens, and expressly covers the threat of force as well as its use.\n• Enshrined and binding: Art 2(4) obliges all members to refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any state, or in any other manner inconsistent with the purposes of the UN. It binds all 193 members and covers any armed force, not only war. It is also customary law, binding all states independently of the Charter (Nicaragua 1986, paras 188–190; Friendly Relations Declaration 1970), and it is widely regarded as ius cogens (Nicaragua para 190, citing the ILC).\n• Threat: Art 2(4) expressly prohibits the threat. A threat is unlawful whenever the force threatened would itself be unlawful (Nuclear Weapons AO 1996, para 47), e.g. an ultimatum 'give in or we invade'. Power confers no extra rights (sovereign equality, Art 2(1)), disputes must be settled peacefully (Art 2(3)), and a treaty extorted by threat is void (Art 52 VCLT). Force is lawful only in self-defence (Art 51) or under Chapter VII.\nMemorise: Art 2(4) = treaty + custom (Nicaragua 1986) + ius cogens · the THREAT is prohibited too (Nuclear Weapons para 47) · forced treaty void (Art 52 VCLT) · exceptions only Art 51 + Ch VII."
+   },
+   "note": "The candidate (il-ios-force.json#45) has the same facts but is worth 3 points and splits the question, so this is a 2-point card in the paper's own wording. Reviewed: wording now verbatim to the paper; fixed the non sequitur that presented Art 52 VCLT as proof of ius cogens status (ius cogens now rests on Nicaragua para 190 citing the ILC, and Art 52 is used for the point that a treaty extorted by threat is void); added that Art 2(4) covers any armed force, not just war; short answer made one sentence."
+  },
+  {
+   "label": "Q3(b)",
+   "points": 6,
+   "match": "exact",
+   "card": "il-ios-force.json#50",
+   "note": "Rachel's General Assembly and terrorists claims, with the same three-part question on the exceptions and the same 6 points."
+  },
+  {
+   "label": "Q3(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "il-ios-force.json#61",
+   "note": "Harvey against Rachel on interference and treaty breach, the same 'which rule, who is right' question at 2 points; the card correctly names non-intervention."
+  }
+ ],
+ "order": 6,
+ "short": "Apr 2024"
+}

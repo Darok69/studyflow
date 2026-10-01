@@ -1,0 +1,114 @@
+{
+ "id": "eu-set-d",
+ "course": "EU",
+ "title": "Past questions — set D (case exercises)",
+ "subquestions": [
+  {
+   "label": "Case 1(a)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#64",
+   "note": "Same Scottish minimum-price facts and question (which freedom, where regulated) at 1 point; the answer gives Arts 28/34/36 TFEU."
+  },
+  {
+   "label": "Case 1(b)",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#65",
+   "note": "Same facts and scope question at 2 points; the answer covers goods, cross-border trade, the state measure and the harmonisation check, and corrects the student's nationality-based reasoning."
+  },
+  {
+   "label": "Case 1(c)",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#66",
+   "note": "Same 'how could it infringe' question at 2 points; the answer gives the correct MEEQR analysis (Dassonville, Keck not satisfied in fact) instead of the student's Cassis mutual-recognition reasoning."
+  },
+  {
+   "label": "Case 1(d)",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#37",
+   "note": "Same appeal-court facts and both parts (assessment plus Commission action) at 2 points; it only adds the accurate excise-duty example (eu-institutions.json#70 merges this with an extra 2-point part, so it is not faithful)."
+  },
+  {
+   "label": "Case 2(a)",
+   "points": 3,
+   "match": "exact",
+   "card": "eu-remedies.json#68",
+   "note": "Same Coentrão facts and three-part question (freedom, clues in the facts, Treaty location) at 3 points; the answer gives Art 49 TFEU and separates it from Arts 45 and 56."
+  },
+  {
+   "label": "Case 2(b)",
+   "points": 4,
+   "match": "exact",
+   "card": "eu-remedies.json#69",
+   "note": "Same question on the examination structure at 4 points; the answer covers direct discrimination, Art 51, the Art 52 grounds only and Reyners, and corrects the student's Cassis/Keck confusion."
+  },
+  {
+   "label": "Case 2(c)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#70",
+   "note": "Same Bar Association facts and annulment question at 1 point; the answer correctly says Art 263 is inadmissible against a national act (the student answered on the substance)."
+  },
+  {
+   "label": "Case 3(a)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#33",
+   "note": "Same Maxitaxi bus-lane facts and question at 1 point; the answer is the preliminary reference under Art 267 TFEU (Eventech)."
+  },
+  {
+   "label": "Case 3(b)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#34",
+   "note": "Same question on the aim of the procedure at 1 point; the answer covers a binding interpretation of Art 107(1) and uniform application, with the CJEU not deciding the case."
+  },
+  {
+   "label": "Case 3(c)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#35",
+   "note": "Same question on whether a party can demand a reference, at 1 point; the answer is no party right, since Art 267(2) 'may' leaves it to the court (CILFIT)."
+  },
+  {
+   "label": "Case 3(d)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#36",
+   "note": "Same hailing-versus-pre-booking question at 1 point; the answer correctly treats it as hypothetical and not needed for the judgment (Foglia, Meilicke), which corrects the student's Art 56 answer."
+  },
+  {
+   "label": "Q6(a)",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#48",
+   "note": "Same Directive 2010/76 bank facts and question at 2 points; the answer covers Art 263(4), direct and individual concern (Plaumann), and the time limit counted from publication."
+  },
+  {
+   "label": "Q6(b)",
+   "points": 2,
+   "match": "exact",
+   "card": "eu-remedies.json#49",
+   "note": "Same question on consequences and binding effect at 2 points; the answer covers Art 264 voidness ex tunc and erga omnes plus Art 266, filling gaps in the student's answer."
+  },
+  {
+   "label": "Q6(c)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#42",
+   "note": "Same Italy non-transposition question on immediate penalties at 1 point; the answer is Art 260(3) for non-notification, including partial notification, which corrects the student's 'normally not'."
+  },
+  {
+   "label": "Q6(d)",
+   "points": 1,
+   "match": "exact",
+   "card": "eu-remedies.json#90",
+   "note": "Same 1-point euro-crisis measure question; the answer is the ESM and similar measures, and it corrects the student's Eurogroup answer (eu-institutions.json#4 merges it with a euro-introduction part at 2 points)."
+  }
+ ],
+ "order": 4,
+ "short": "Set D"
+}
