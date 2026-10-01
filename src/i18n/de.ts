@@ -580,6 +580,8 @@ export const de: Messages = {
   serverDeckFilingOnly: 'ordnet nur deine Karten nach ihren Schlagwörtern ein',
   serverDeckError: 'Das Paket konnte nicht vom Server geladen werden.',
   importFiled: (n: number) => `${n} deiner älteren Karten wurden Themen zugeordnet.`,
+  importUpdated: (n: number) => `${n} deiner Karten wurden aktualisiert (Frage oder Thema) — der Lernstand bleibt.`,
+  importRemoved: (n: number) => `${n} Karten, die das Paket woandershin verschoben hat, wurden aus diesem Fach entfernt.`,
   importMerged: (added: number, dup: number) =>
     `${added} neue ${added === 1 ? 'Karte' : 'Karten'} hinzugefügt` +
     (dup > 0 ? `; ${dup} ${dup === 1 ? 'war' : 'waren'} schon da und ${dup === 1 ? 'bleibt' : 'bleiben'} unverändert.` : '.'),

@@ -29,7 +29,13 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
    * first copy. Rather than guess, ask.
    */
   const [existing, setExisting] = useState<{ subject: Subject; parsed: ParsedDeck } | null>(null)
-  const [merged, setMerged] = useState<{ added: number; duplicates: number; filed: number } | null>(null)
+  const [merged, setMerged] = useState<{
+    added: number
+    duplicates: number
+    filed: number
+    updated: number
+    removed: number
+  } | null>(null)
   /**
    * Decks the server already holds. Material arrives topic by topic, and
    * hunting down a JSON file on disk to paste into a box is not a thing anyone
@@ -72,7 +78,13 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
       const same = await findSubjectsByName(parsed.subject.name)
       if (same.length > 0) {
         const r = await addNewCardsToSubject(same[0].id, parsed)
-        setMerged({ added: r.cardCount, duplicates: r.duplicates, filed: r.filed })
+        setMerged({
+          added: r.cardCount,
+          duplicates: r.duplicates,
+          filed: r.filed,
+          updated: r.updated,
+          removed: r.removed,
+        })
         return
       }
       await importDeck(parsed)
@@ -135,7 +147,13 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
     const result = await addNewCardsToSubject(existing.subject.id, existing.parsed)
     setBusy(false)
     setExisting(null)
-    setMerged({ added: result.cardCount, duplicates: result.duplicates, filed: result.filed })
+    setMerged({
+      added: result.cardCount,
+      duplicates: result.duplicates,
+      filed: result.filed,
+      updated: result.updated,
+      removed: result.removed,
+    })
   }
 
   async function importAsNew() {
@@ -226,6 +244,8 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
         <div className="guardrail" role="status">
           <p>{t('importMerged', merged.added, merged.duplicates)}</p>
           {merged.filed > 0 && <p>{t('importFiled', merged.filed)}</p>}
+          {merged.updated > 0 && <p>{t('importUpdated', merged.updated)}</p>}
+          {merged.removed > 0 && <p>{t('importRemoved', merged.removed)}</p>}
           <div className="button-row">
             <button className="btn btn-primary" onClick={onDone}>
               {t('backPlain')}

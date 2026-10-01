@@ -12,7 +12,7 @@ import {
   type SubjectKind,
 } from './db'
 import type { CardDraft, ParsedDeck } from '../import/parseDeck'
-import { newCardsOnly, planFiling } from '../import/mergeDeck'
+import { newCardsOnly, planFiling, planRemovals, planUpdates } from '../import/mergeDeck'
 import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
@@ -98,8 +98,32 @@ export async function findSubjectsByName(name: string): Promise<Subject[]> {
 export async function addNewCardsToSubject(
   subjectId: string,
   parsed: ParsedDeck,
-): Promise<{ subjectId: string; cardCount: number; duplicates: number; filed: number }> {
-  const existing = await db.cards.where('subjectId').equals(subjectId).toArray()
+): Promise<{
+  subjectId: string
+  cardCount: number
+  duplicates: number
+  filed: number
+  updated: number
+  removed: number
+}> {
+  let existing = await db.cards.where('subjectId').equals(subjectId).toArray()
+
+  // Corrections and removals the deck asks for come FIRST: a renamed question
+  // must move the card the user already has, not arrive next to it as new.
+  const updates = planUpdates(existing, parsed.updates ?? [])
+  const removals = planRemovals(existing, parsed.remove ?? [])
+  if (updates.size > 0 || removals.length > 0) {
+    await db.transaction('rw', db.cards, db.reviews, db.errorLog, async () => {
+      for (const [id, patch] of updates) await db.cards.update(id, patch)
+      for (const id of removals) {
+        await db.reviews.where('cardId').equals(id).delete()
+        await db.errorLog.where('cardId').equals(id).delete()
+        await db.cards.delete(id)
+      }
+    })
+    existing = await db.cards.where('subjectId').equals(subjectId).toArray()
+  }
+
   const { fresh, duplicates } = newCardsOnly(
     existing.map((c) => c.front),
     parsed.cards,
@@ -123,7 +147,14 @@ export async function addNewCardsToSubject(
     }
   }
   notifyDataChanged()
-  return { subjectId, cardCount: added, duplicates, filed: filing.size }
+  return {
+    subjectId,
+    cardCount: added,
+    duplicates,
+    filed: filing.size,
+    updated: updates.size,
+    removed: removals.length,
+  }
 }
 
 /** Persist a parsed deck as a new subject + its cards (one transaction). */

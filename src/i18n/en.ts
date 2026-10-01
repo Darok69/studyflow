@@ -570,6 +570,8 @@ export const en: Messages = {
   serverDeckFilingOnly: 'only files your cards by their tags',
   serverDeckError: 'The deck could not be loaded from the server.',
   importFiled: (n: number) => `${n} of your older cards were filed into topics.`,
+  importUpdated: (n: number) => `${n} of your cards were updated (question or topic) — their progress is kept.`,
+  importRemoved: (n: number) => `${n} cards the deck moved elsewhere were removed from this subject.`,
   importMerged: (added: number, dup: number) =>
     `Added ${added} new ${added === 1 ? 'card' : 'cards'}` +
     (dup > 0 ? `; ${dup} ${dup === 1 ? 'was' : 'were'} already there and left untouched.` : '.'),

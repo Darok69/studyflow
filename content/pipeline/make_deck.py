@@ -61,7 +61,7 @@ def write_exam_deck(code: str, subject: str, exam_date: str) -> int:
         e = json.loads(f.read_text("utf-8"))
         if e["course"] == code:
             area[f.name] = e["cards"]
-    cards, used, fronts = [], set(), set()
+    cards, used, fronts, updates = [], set(), set(), []
 
     def add(card: dict) -> None:
         key = " ".join(card["front"].split()).lower()
@@ -75,13 +75,19 @@ def write_exam_deck(code: str, subject: str, exam_date: str) -> int:
     for p in papers:
         short = p.get("short") or p["title"].split("— ")[-1]
         for s in p["subquestions"]:
+            front = None
             if s["match"] == "exact":
                 fname, idx = s["card"].split("#")
                 c = area[fname][int(idx)]
                 used.add((fname, int(idx)))
+                front = f"[{short} · {s['label']}] {c['q']}"
+                # Kdo si otázku už naimportoval pod oblastí, má ji dostat
+                # přejmenovanou a přeřazenou, ne podruhé (identita = otázka).
+                updates.append({"match": c["q"], "front": front, "topic": p["title"]})
             else:
                 c = s["new_card"]
-            add(exam_card(c, p["title"], f"[{short} · {s['label']}] {c['q']}", "realna-zkouska"))
+                front = f"[{short} · {s['label']}] {c['q']}"
+            add(exam_card(c, p["title"], front, "realna-zkouska"))
     mocks = [json.loads(f.read_text("utf-8")) for f in sorted((base / "mocks").glob("*.json"))]
     for m in (m for m in mocks if m["course"] == code):
         for c in m["cards"]:
@@ -93,6 +99,8 @@ def write_exam_deck(code: str, subject: str, exam_date: str) -> int:
     if not cards:
         return 0
     deck = {"subject": subject, "examDate": exam_date, "cards": cards}
+    if updates:
+        deck["updates"] = updates
     out = DEST / f"{ROOT.name}-{code.lower()}-zkouska.json"
     out.write_text(json.dumps(deck, ensure_ascii=False, indent=1) + "\n", "utf-8")
     n = lambda t: sum(1 for c in cards if t in c["tags"])
@@ -155,6 +163,10 @@ def main() -> int:
         filing = [r for c in group for r in c.get("filing", [])]
         if filing:
             deck["filing"] = filing
+        # Zkouškové otázky mají vlastní předmět; kdo je dřív dostal sem,
+        # tomu je reimport z předmětu přednášek odebere.
+        if course.get("exam_subject"):
+            deck["remove"] = [{"tag": "zkouska"}]
         out = DEST / f"{ROOT.name}-{code.lower()}.json"
         out.write_text(json.dumps(deck, ensure_ascii=False, indent=1) + "\n", "utf-8")
         core = sum(1 for c in cards if "core" in c["tags"])

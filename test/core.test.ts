@@ -40,7 +40,7 @@ import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/li
 import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
 import { lectureForTopic, matchCourses, orderByCourse } from '../src/lib/materials'
-import { newCardsOnly, planFiling, questionKey } from '../src/import/mergeDeck'
+import { newCardsOnly, planFiling, planRemovals, planUpdates, questionKey } from '../src/import/mergeDeck'
 import { hasManualOrder, moveItem, orderedByHand, positionsFor } from '../src/lib/order'
 import {
   answerSimilarity,
@@ -1489,6 +1489,45 @@ console.log('— blind maps: masks stay relative, one card per place —')
   ok(newCardsOnly([], []).fresh.length === 0, 'nothing in, nothing out')
   const allNew = newCardsOnly([], [draft('a'), draft('b')])
   ok(allNew.fresh.length === 2 && allNew.duplicates === 0, 'an empty subject takes the whole deck')
+
+  console.log('— planUpdates / planRemovals: balíček opraví a vezme zpět —')
+  {
+    const c = (id: string, front: string, tags: string[] = [], topic?: string) => ({ id, front, tags, topic })
+    const have = [
+      c('a', 'Q one (2 points)', ['zkouska'], 'Treaties'),
+      c('b', 'Q two', ['IL02'], 'Treaties'),
+      c('c', '[Jan 2026 · Q1(a)] Q three', ['zkouska'], 'Real exam'),
+    ]
+    const up = planUpdates(have, [
+      { match: '  q ONE (2 points) ', front: '[Jan 2026 · Q1(b)] Q one (2 points)', topic: 'Real exam' },
+      { match: 'Q two', topic: 'Treaties' },
+      { match: 'Not here', front: 'x' },
+      { match: 'Q two', front: '[Jan 2026 · Q1(a)] Q three' },
+    ])
+    ok(up.get('a')?.front === '[Jan 2026 · Q1(b)] Q one (2 points)', 'an old question is found and renamed')
+    ok(up.get('a')?.topic === 'Real exam', 'and re-filed in the same step')
+    ok(!up.has('b'), `a rename onto a question another card already asks is refused (got ${JSON.stringify(up.get('b'))})`)
+    ok(up.size === 1, `unchanged topics and unknown questions are not changes (got ${up.size})`)
+    ok(planUpdates(have, []).size === 0, 'no updates, no changes')
+
+    const gone = planRemovals(have, [{ tag: 'ZKOUSKA' }])
+    ok(gone.length === 2 && gone.includes('a') && gone.includes('c'), `removal takes exactly the tagged cards (got ${gone})`)
+    ok(planRemovals(have, []).length === 0, 'no rule removes nothing')
+    ok(planRemovals(have, [{ tag: '  ' }]).length === 0, 'a blank tag removes nothing')
+
+    const deck = parseDeck(
+      JSON.stringify({
+        subject: 'S',
+        cards: [{ front: 'f', back: 'b' }],
+        updates: [{ match: 'old', front: 'new' }, { match: '', topic: 'T' }, { match: 'x' }, 'junk'],
+        remove: [{ tag: 'zkouska' }, { tag: '' }, {}, 7],
+      }),
+    )
+    ok(deck.updates?.length === 1 && deck.updates[0].front === 'new', 'malformed updates are dropped')
+    ok(deck.remove?.length === 1 && deck.remove[0].tag === 'zkouska', 'malformed removal rules are dropped')
+    const plain = parseDeck(JSON.stringify({ subject: 'S', cards: [{ front: 'f', back: 'b' }] }))
+    ok(plain.updates?.length === 0 && plain.remove?.length === 0, 'a deck without them changes nothing')
+  }
 
   console.log('— planFiling: staré karty do témat —')
   const card = (id: string, front: string, tags: string[], topic?: string) => ({ id, front, tags, topic })

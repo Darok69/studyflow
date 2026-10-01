@@ -1,5 +1,5 @@
 import type { CardImage, CardType, Occlusion, SourceRef } from '../db/db'
-import type { FilingRule } from './mergeDeck'
+import type { CardUpdate, FilingRule, RemoveRule } from './mergeDeck'
 import { type CardKind, type CardLevel, isCardKind, isCardLevel } from '../db/cardKinds'
 import { t } from '../i18n'
 
@@ -35,6 +35,10 @@ export interface ParsedDeck {
   cards: CardDraft[]
   /** Rules for filing cards the subject ALREADY has (see mergeDeck.ts). */
   filing: FilingRule[]
+  /** Corrections to cards the subject already has, found by old question. */
+  updates?: CardUpdate[]
+  /** Cards the deck takes back out of the subject. */
+  remove?: RemoveRule[]
   errors: string[]
 }
 
@@ -88,6 +92,34 @@ function parseFiling(value: unknown): FilingRule[] {
       ...(tags && tags.length ? { tags } : {}),
       ...(match ? { match } : {}),
     })
+  }
+  return out
+}
+
+/** `updates`: [{match, front?, topic?}] — malformed entries are dropped. */
+function parseUpdates(value: unknown): CardUpdate[] {
+  if (!Array.isArray(value)) return []
+  const out: CardUpdate[] = []
+  for (const raw of value) {
+    if (!raw || typeof raw !== 'object') continue
+    const r = raw as Record<string, unknown>
+    const match = typeof r.match === 'string' ? r.match : ''
+    const front = typeof r.front === 'string' && r.front.trim() ? r.front : undefined
+    const topic = typeof r.topic === 'string' && r.topic.trim() ? r.topic.trim() : undefined
+    if (!match.trim() || (front === undefined && topic === undefined)) continue
+    out.push({ match, ...(front !== undefined ? { front } : {}), ...(topic !== undefined ? { topic } : {}) })
+  }
+  return out
+}
+
+/** `remove`: [{tag}] — only tag rules exist, anything else is ignored. */
+function parseRemove(value: unknown): RemoveRule[] {
+  if (!Array.isArray(value)) return []
+  const out: RemoveRule[] = []
+  for (const raw of value) {
+    if (!raw || typeof raw !== 'object') continue
+    const tag = (raw as Record<string, unknown>).tag
+    if (typeof tag === 'string' && tag.trim()) out.push({ tag: tag.trim() })
   }
   return out
 }
@@ -173,5 +205,12 @@ export function parseDeck(raw: string): ParsedDeck {
     errors.push(t('errNoUsableCards'))
   }
 
-  return { subject: { name, examDate, reminderTime }, cards, filing: parseFiling(obj.filing), errors }
+  return {
+    subject: { name, examDate, reminderTime },
+    cards,
+    filing: parseFiling(obj.filing),
+    updates: parseUpdates(obj.updates),
+    remove: parseRemove(obj.remove),
+    errors,
+  }
 }

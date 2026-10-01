@@ -102,3 +102,61 @@ export function newCardsOnly(existingFronts: Iterable<string>, drafts: CardDraft
   }
   return { fresh, duplicates }
 }
+
+/**
+ * A correction the deck makes to a card the subject ALREADY has, found by its
+ * old question. Identity is the question, so without this a renamed question
+ * would arrive as a second card and a re-filed one would never move. Only
+ * what the deck names changes; the FSRS history stays with the card.
+ */
+export interface CardUpdate {
+  match: string
+  front?: string
+  topic?: string
+}
+
+/** Cards the deck takes back out of the subject: those carrying this tag. */
+export interface RemoveRule {
+  tag: string
+}
+
+/**
+ * Which existing cards get which new front/topic. Skips a rename that would
+ * collide with another card already asking the new question, and returns
+ * only real changes.
+ */
+export function planUpdates(
+  cards: FilingTarget[],
+  updates: CardUpdate[],
+): Map<string, { front?: string; topic?: string }> {
+  const out = new Map<string, { front?: string; topic?: string }>()
+  if (updates.length === 0) return out
+  const byKey = new Map<string, FilingTarget>()
+  for (const card of cards) byKey.set(questionKey(card.front), card)
+  for (const u of updates) {
+    const card = byKey.get(questionKey(u.match))
+    if (!card) continue
+    const patch: { front?: string; topic?: string } = {}
+    if (u.front !== undefined && u.front.trim() && u.front !== card.front) {
+      const taken = byKey.get(questionKey(u.front))
+      if (!taken || taken.id === card.id) patch.front = u.front
+    }
+    if (u.topic !== undefined && u.topic.trim() && u.topic.trim() !== (card.topic ?? '').trim()) {
+      patch.topic = u.topic.trim()
+    }
+    if (patch.front !== undefined || patch.topic !== undefined) {
+      out.set(card.id, patch)
+      if (patch.front !== undefined) byKey.set(questionKey(patch.front), card)
+    }
+  }
+  return out
+}
+
+/** Ids of existing cards that a removal rule matches (tag, case-insensitive). */
+export function planRemovals(cards: FilingTarget[], rules: RemoveRule[]): string[] {
+  const wanted = new Set(rules.map((r) => r.tag.trim().toLowerCase()).filter(Boolean))
+  if (wanted.size === 0) return []
+  return cards
+    .filter((c) => (c.tags ?? []).some((t) => wanted.has(t.trim().toLowerCase())))
+    .map((c) => c.id)
+}
