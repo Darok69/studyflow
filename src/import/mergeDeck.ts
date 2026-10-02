@@ -112,8 +112,11 @@ export function newCardsOnly(existingFronts: Iterable<string>, drafts: CardDraft
 export interface CardUpdate {
   match: string
   front?: string
+  back?: string
   topic?: string
 }
+
+type CardPatch = { front?: string; back?: string; topic?: string }
 
 /** Cards the deck takes back out of the subject: those carrying this tag. */
 export interface RemoveRule {
@@ -126,17 +129,17 @@ export interface RemoveRule {
  * only real changes.
  */
 export function planUpdates(
-  cards: FilingTarget[],
+  cards: (FilingTarget & { back?: string })[],
   updates: CardUpdate[],
-): Map<string, { front?: string; topic?: string }> {
-  const out = new Map<string, { front?: string; topic?: string }>()
+): Map<string, CardPatch> {
+  const out = new Map<string, CardPatch>()
   if (updates.length === 0) return out
-  const byKey = new Map<string, FilingTarget>()
+  const byKey = new Map<string, FilingTarget & { back?: string }>()
   for (const card of cards) byKey.set(questionKey(card.front), card)
   for (const u of updates) {
     const card = byKey.get(questionKey(u.match))
     if (!card) continue
-    const patch: { front?: string; topic?: string } = {}
+    const patch: CardPatch = {}
     if (u.front !== undefined && u.front.trim() && u.front !== card.front) {
       const taken = byKey.get(questionKey(u.front))
       if (!taken || taken.id === card.id) patch.front = u.front
@@ -144,12 +147,26 @@ export function planUpdates(
     if (u.topic !== undefined && u.topic.trim() && u.topic.trim() !== (card.topic ?? '').trim()) {
       patch.topic = u.topic.trim()
     }
-    if (patch.front !== undefined || patch.topic !== undefined) {
+    if (u.back !== undefined && u.back.trim() && u.back !== card.back) patch.back = u.back
+    if (patch.front !== undefined || patch.back !== undefined || patch.topic !== undefined) {
       out.set(card.id, patch)
       if (patch.front !== undefined) byKey.set(questionKey(patch.front), card)
     }
   }
   return out
+}
+
+/**
+ * A deck that says `prune` is the whole truth about its subject: every card
+ * whose question the deck no longer asks is taken out. Meant for a subject
+ * that consists only of the deck's own cards (a slimmed-down exam deck), so
+ * the user is not left with the hundreds of cards the new deck dropped.
+ * Run it AFTER the updates, so renamed cards are recognised by their new question.
+ */
+export function planPrune(cards: FilingTarget[], deckFronts: string[]): string[] {
+  const keep = new Set(deckFronts.map(questionKey).filter(Boolean))
+  if (keep.size === 0) return []
+  return cards.filter((c) => !keep.has(questionKey(c.front))).map((c) => c.id)
 }
 
 /** Ids of existing cards that a removal rule matches (tag, case-insensitive). */

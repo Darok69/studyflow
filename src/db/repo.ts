@@ -12,7 +12,7 @@ import {
   type SubjectKind,
 } from './db'
 import type { CardDraft, ParsedDeck } from '../import/parseDeck'
-import { newCardsOnly, planFiling, planRemovals, planUpdates } from '../import/mergeDeck'
+import { newCardsOnly, planFiling, planPrune, planRemovals, planUpdates } from '../import/mergeDeck'
 import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
@@ -111,7 +111,15 @@ export async function addNewCardsToSubject(
   // Corrections and removals the deck asks for come FIRST: a renamed question
   // must move the card the user already has, not arrive next to it as new.
   const updates = planUpdates(existing, parsed.updates ?? [])
-  const removals = planRemovals(existing, parsed.remove ?? [])
+  // Prune is judged on the questions AFTER the updates, or a renamed card
+  // would be thrown out for no longer matching its old question.
+  const renamed = existing.map((c) => ({ ...c, front: updates.get(c.id)?.front ?? c.front }))
+  const removals = [
+    ...new Set([
+      ...planRemovals(existing, parsed.remove ?? []),
+      ...(parsed.prune ? planPrune(renamed, parsed.cards.map((d) => d.front)) : []),
+    ]),
+  ]
   if (updates.size > 0 || removals.length > 0) {
     await db.transaction('rw', db.cards, db.reviews, db.errorLog, async () => {
       for (const [id, patch] of updates) await db.cards.update(id, patch)

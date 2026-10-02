@@ -39,6 +39,8 @@ export interface ParsedDeck {
   updates?: CardUpdate[]
   /** Cards the deck takes back out of the subject. */
   remove?: RemoveRule[]
+  /** The deck is the whole subject: cards it no longer asks are removed. */
+  prune?: boolean
   errors: string[]
 }
 
@@ -96,7 +98,7 @@ function parseFiling(value: unknown): FilingRule[] {
   return out
 }
 
-/** `updates`: [{match, front?, topic?}] — malformed entries are dropped. */
+/** `updates`: [{match, front?, back?, topic?}] — malformed entries are dropped. */
 function parseUpdates(value: unknown): CardUpdate[] {
   if (!Array.isArray(value)) return []
   const out: CardUpdate[] = []
@@ -105,9 +107,15 @@ function parseUpdates(value: unknown): CardUpdate[] {
     const r = raw as Record<string, unknown>
     const match = typeof r.match === 'string' ? r.match : ''
     const front = typeof r.front === 'string' && r.front.trim() ? r.front : undefined
+    const back = typeof r.back === 'string' && r.back.trim() ? r.back : undefined
     const topic = typeof r.topic === 'string' && r.topic.trim() ? r.topic.trim() : undefined
-    if (!match.trim() || (front === undefined && topic === undefined)) continue
-    out.push({ match, ...(front !== undefined ? { front } : {}), ...(topic !== undefined ? { topic } : {}) })
+    if (!match.trim() || (front === undefined && back === undefined && topic === undefined)) continue
+    out.push({
+      match,
+      ...(front !== undefined ? { front } : {}),
+      ...(back !== undefined ? { back } : {}),
+      ...(topic !== undefined ? { topic } : {}),
+    })
   }
   return out
 }
@@ -211,6 +219,7 @@ export function parseDeck(raw: string): ParsedDeck {
     filing: parseFiling(obj.filing),
     updates: parseUpdates(obj.updates),
     remove: parseRemove(obj.remove),
+    prune: obj.prune === true,
     errors,
   }
 }

@@ -40,7 +40,7 @@ import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/li
 import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
 import { lectureForTopic, matchCourses, orderByCourse } from '../src/lib/materials'
-import { newCardsOnly, planFiling, planRemovals, planUpdates, questionKey } from '../src/import/mergeDeck'
+import { newCardsOnly, planFiling, planPrune, planRemovals, planUpdates, questionKey } from '../src/import/mergeDeck'
 import { hasManualOrder, moveItem, orderedByHand, positionsFor } from '../src/lib/order'
 import {
   answerSimilarity,
@@ -1514,6 +1514,29 @@ console.log('— blind maps: masks stay relative, one card per place —')
     ok(gone.length === 2 && gone.includes('a') && gone.includes('c'), `removal takes exactly the tagged cards (got ${gone})`)
     ok(planRemovals(have, []).length === 0, 'no rule removes nothing')
     ok(planRemovals(have, [{ tag: '  ' }]).length === 0, 'a blank tag removes nothing')
+
+    // A slimmed-down deck: answers are rewritten in place and dropped cards leave.
+    const long = [
+      { id: 'k', front: 'Kept question (2 points)', back: 'very long old answer', tags: ['zkouska'] },
+      { id: 'r', front: '[Jan 2026 · Q1(a)] Old wording', back: 'old', tags: ['zkouska'] },
+      { id: 'd', front: 'Dropped question', back: 'x', tags: ['zkouska'] },
+    ]
+    const slim = planUpdates(long, [
+      { match: 'Kept question (2 points)', back: 'short answer' },
+      { match: '[Jan 2026 · Q1(a)] Old wording', front: '[Jan 2026 · Q1(a)] New wording', back: 'short' },
+      { match: 'Dropped question', back: 'x' },
+    ])
+    ok(slim.get('k')?.back === 'short answer' && slim.get('k')?.front === undefined, 'an answer is rewritten without touching the question')
+    ok(slim.get('r')?.front === '[Jan 2026 · Q1(a)] New wording' && slim.get('r')?.back === 'short', 'question and answer change together')
+    ok(!slim.has('d'), 'an identical answer is not a change')
+    const after = long.map((c) => ({ ...c, front: slim.get(c.id)?.front ?? c.front }))
+    const pruned = planPrune(after, ['Kept question (2 points)', '[Jan 2026 · Q1(a)] New wording', 'Brand new'])
+    ok(pruned.length === 1 && pruned[0] === 'd', `prune removes only what the deck no longer asks (got ${pruned})`)
+    ok(planPrune(long, ['Kept question (2 points)', 'brand new']).includes('r'), 'judged on the old question the renamed card would be pruned — hence prune runs after updates')
+    ok(planPrune(long, []).length === 0, 'an empty deck never wipes the subject')
+    const pd = parseDeck(JSON.stringify({ subject: 'S', prune: true, cards: [{ front: 'f', back: 'b' }], updates: [{ match: 'm', back: 'new answer' }] }))
+    ok(pd.prune === true && pd.updates?.[0]?.back === 'new answer', 'prune and answer updates are parsed')
+    ok(parseDeck(JSON.stringify({ subject: 'S', prune: 'yes', cards: [{ front: 'f', back: 'b' }] })).prune === false, 'only a literal true prunes')
 
     const deck = parseDeck(
       JSON.stringify({
