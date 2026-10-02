@@ -21,8 +21,9 @@ odrážek; číslo u karty je 1 zapamatovat / 2 porozumět / 3 použít.
 Hotovo: 23 přednášek, 758 slidů, 479 karet (457 jádro), z toho 76 případových.
 Chybí jen Unit III a Unit IX mezinárodního práva — v Moodle exportu nejsou.
 
-**Kompaktní verze (2026-10-02, platná)**: `exam-kompakt/{il,eu}.json` — 99 + 101 karet
-(všechny podotázky skutečných zkoušek + 20 doplňků na kurz), odpověď v délce, jakou
+**Kompaktní verze (2026-10-02, platná)**: `exam-kompakt/{il,eu}.json` — 99 + 233 karet
+(všechny podotázky skutečných zkoušek + 20 doplňků na kurz; EU navíc otázky ke každé
+kapitole ve stylu „3.6 Questions" ze slidu přednášející a 6 celých case exercises), odpověď v délce, jakou
 člověk stihne napsat (≤ 25 slov × body + 15), první řádek závěr, pak „• pravidlo +
 přesný článek → fakta". Priorita 1/2/3 (P1 = musíš umět na 100 %, ~39 %), podle
 ní appka dávkuje nové karty. Když `exam-kompakt/` existuje, `make_deck` staví
