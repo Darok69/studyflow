@@ -44,6 +44,39 @@ def exam_card(c: dict, topic: str, front: str, tag: str) -> dict:
     }
 
 
+def write_compact_exam_deck(code: str, subject: str, exam_date: str, path: Path) -> int:
+    """Zeštíhlená verze zkouškového předmětu (`exam-kompakt/<kurz>.json`).
+
+    Na poslední dny před zkouškou: jen podotázky skutečných zkoušek a pár
+    doplňků, odpovědi v délce, jakou člověk stihne napsat (bod ≈ minuta),
+    a priorita 1–3, podle které appka dávkuje nové karty. Kdo má předmět už
+    naimportovaný, dostane přes `updates` u svých karet novou otázku,
+    odpověď, téma i prioritu (historie zůstává) a `prune` odebere karty,
+    které kompaktní verze vypustila.
+    """
+    data = json.loads(path.read_text("utf-8"))
+    cards, updates, fronts = [], [], set()
+    for c in data["cards"]:
+        key = " ".join(c["q"].split()).lower()
+        if key in fronts:
+            raise SystemExit(f"{code}: kompaktní balíček má duplicitní otázku: {c['q'][:80]}")
+        fronts.add(key)
+        card = exam_card(c, c["topic"], c["q"], c["layer"])
+        card["priority"] = c["priority"]
+        card["tags"].append(f"p{c['priority']}")
+        cards.append(card)
+        for old in c.get("old_fronts", []):
+            updates.append({"match": old, "front": c["q"], "back": c["a"], "topic": c["topic"],
+                            "priority": c["priority"]})
+    deck = {"subject": subject, "examDate": exam_date, "cards": cards, "updates": updates, "prune": True}
+    out = DEST / f"{ROOT.name}-{code.lower()}-zkouska.json"
+    out.write_text(json.dumps(deck, ensure_ascii=False, indent=1) + "\n", "utf-8")
+    by = {p: sum(1 for c in cards if c["priority"] == p) for p in (1, 2, 3)}
+    print(f"{code} zkouška KOMPAKT: {len(cards)} karet (priorita 1: {by[1]}, 2: {by[2]}, 3: {by[3]}) "
+          f"→ {out.relative_to(ROOT)} · {out.stat().st_size // 1024} kB")
+    return len(cards)
+
+
 def write_exam_deck(code: str, subject: str, exam_date: str) -> int:
     """Zkouškové otázky jako SAMOSTATNÝ předmět, ne příměs do balíčku přednášek.
 
@@ -56,6 +89,9 @@ def write_exam_deck(code: str, subject: str, exam_date: str) -> int:
     Karta ze skutečné zkoušky se z procvičování vyjme, aby tam nebyla dvakrát.
     """
     base = ROOT / "exam"
+    compact = ROOT / "exam-kompakt" / f"{code.lower()}.json"
+    if compact.exists():
+        return write_compact_exam_deck(code, subject, exam_date, compact)
     area = {}
     for f in sorted(base.glob("*.json")):
         e = json.loads(f.read_text("utf-8"))

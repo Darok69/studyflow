@@ -1,0 +1,1470 @@
+{
+ "course": "IL",
+ "cards": [
+  {
+   "id": "il-2026-03:Q1(a)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Mar 2026 · Q1(a)] 1956: Astamor and Balala conclude the Investigation Convention (lead in the Xympora groundwater). 1982: Astamor, Balala and Cumo establish the international organisation XRHO by the Xympora Health Charter. 1984: Cumo ratifies the Lead Crisis Understanding with the XRHO. 1995: the three States conclude the LeadFree Pact with the company HydroClean to build purification plants. 1996: the three States conclude the Debt Allocation Agreement allocating the project debts among themselves. To which of these agreements is the Vienna Convention on the Law of Treaties applicable, and why or why not? (3 points)",
+   "a": "VCLT applies only to the 1982 Charter and 1996 Agreement.\n• Treaty between States (Art 1), written, governed by IL (Art 2(1)(a)), concluded after entry into force for them (27.1.1980, Art 4).\n• 1956 Convention: pre-1980, no retroactivity (Art 4) → custom.\n• 1982 Charter: post-1980 IO constituent instrument → applies (Art 5).\n• 1984 Understanding: State–IO → outside VCLT (Art 1, 3); 1986 Convention not in force → custom.\n• 1995 Pact: company not IL subject → no treaty (Anglo-Iranian Oil 1952).\n• 1996 Agreement: inter-State, post-1980 → applies.",
+   "old_fronts": [
+    "[Mar 2026 · Q1(a)] In 1955 a sharp increase in lead levels was detected in the groundwater of the Xympora Peninsula. In 1956 the States Astamor and Balala concluded the 'Investigation Convention' to investigate and combat its cause. In 1982 Astamor, Balala and Cumo established the Xympora Regional Health Organisation (XRHO), an international organisation based in Balala, by the 'Xympora Health Charter'. In 1984 Cumo ratified an agreement with the XRHO, the 'Lead Crisis Understanding', to support Cumo in managing a local health crisis. In 1995 Astamor, Balala and Cumo concluded the 'LeadFree Pact' with the company HydroClean, commissioning it to build twenty purification plants. In 1996 the three States concluded the 'Debt Allocation Agreement', allocating among themselves the debts arising from the LeadFree project. To which of the agreements mentioned is the Vienna Convention on the Law of Treaties applicable, and why or why not? (3 points)",
+    "In 1955 a sharp increase in lead levels was detected in the groundwater of the Xympora Peninsula. In 1956 the States Astamor and Balala concluded the 'Investigation Convention' to investigate and combat its cause. In 1982 Astamor, Balala and Cumo established the Xympora Regional Health Organisation (XRHO), an international organisation based in Balala, by the 'Xympora Health Charter'. In 1984 Cumo ratified an agreement with the XRHO, the 'Lead Crisis Understanding', to support Cumo in managing a local health crisis. In 1995 Astamor, Balala and Cumo concluded the 'LeadFree Pact' with the company HydroClean, commissioning it to build twenty purification plants. In 1996 the three States concluded the 'Debt Allocation Agreement', allocating among themselves the debts arising from the LeadFree project. To which of the agreements mentioned is the Vienna Convention on the Law of Treaties applicable, and why or why not? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q1(b)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 5,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Mar 2026 · Q1(b)] Astamor and Balala concluded the 1956 Investigation Convention to investigate and combat the cause of rising lead levels in the Xympora groundwater. In 1994 researchers in Astamor developed a process that easily purifies groundwater of lead; in 1995 the States commissioned the company HydroClean to build twenty purification plants. Under what conditions does a State have the right to terminate a treaty? (5 points)",
+   "a": "A State may terminate under the treaty, by consent, by an implied right or on a recognised ground, following the procedure.\n• Termination clause (Art 54(a)); consent of all parties (Art 54(b); later treaty, Art 59).\n• No clause: only if intended or implied by the treaty's nature, 12 months' notice (Art 56).\n• Material breach by another party — repudiation or violation of an essential provision (Art 60); supervening impossibility — permanent loss of an indispensable object, not self-caused (Art 61).\n• Fundamental change: essential basis of consent, unforeseen, radically transforms remaining obligations; not boundaries (Art 62; Gabčíkovo 1997); new ius cogens (Art 64); desuetude.\n• Procedure: written notification, 3 months, dispute settlement (Art 65–67).\n• Xympora: pre-1980 treaty → custom (Art 4); breakthrough is no impossibility, hardly a radical change → needs clause, consent, implied right or desuetude.",
+   "old_fronts": [
+    "[Mar 2026 · Q1(b)] Astamor, Balala and Cumo are linked by several agreements concerning lead in the groundwater of the Xympora Peninsula, e.g. the 1956 Investigation Convention between Astamor and Balala to investigate and combat the cause of rising lead levels (in 1994 researchers in Astamor developed a process that easily purifies groundwater of lead; in 1995 the three States commissioned the company HydroClean to build twenty purification plants) and the 1996 Debt Allocation Agreement among all three. Under what conditions does a State have the right to terminate a treaty? (5 points)",
+    "Astamor, Balala and Cumo are linked by several agreements concerning lead in the groundwater of the Xympora Peninsula, e.g. the 1956 Investigation Convention between Astamor and Balala to investigate and combat the cause of rising lead levels (in 1994 researchers in Astamor developed a process that easily purifies groundwater of lead; in 1995 the three States commissioned the company HydroClean to build twenty purification plants) and the 1996 Debt Allocation Agreement among all three. Under what conditions does a State have the right to terminate a treaty? (5 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q1(c)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "srovnani",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Mar 2026 · Q1(c)] Astamor, Balala and Cumo consider ending or pausing some of their lead agreements. How do the invalidity, termination and suspension of a treaty differ in their effects? (2 points)",
+   "a": "Invalidity voids the treaty from the outset, termination ends it for the future, suspension only pauses it.\n• Invalidity (Art 69): no legal force (ex tunc); restore the prior position; good-faith acts before invocation stay lawful.\n• Termination (Art 70): no further performance (ex nunc); rights created before remain.\n• Suspension (Art 72): performance paused, relations continue; no acts obstructing resumption.",
+   "old_fronts": [
+    "[Mar 2026 · Q1(c)] Astamor, Balala and Cumo consider ending or pausing some of their agreements on lead in the Xympora groundwater. How do the invalidity, termination and suspension of a treaty differ in their effects? (2 points)",
+    "Astamor, Balala and Cumo consider ending or pausing some of their agreements on lead in the Xympora groundwater. How do the invalidity, termination and suspension of a treaty differ in their effects? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q2(a)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Mar 2026 · Q2(a)] Is the ban on the use of force binding under international law? Can a powerful State threaten a weaker State with the use of force? Provide reasons for your answer. (3 points)",
+   "a": "Yes, it binds all States; no — threats are equally prohibited, whatever a State's power.\n• Art 2(4) UN Charter prohibits the threat or use of force → binds all members.\n• Also custom (Nicaragua 1986, paras 188–190) → binds non-members; ius cogens (Art 53 VCLT); forced treaty void (Art 52 VCLT).\n• Threat unlawful if the threatened force would be unlawful (Nuclear Weapons AO 1996, para 47); only Art 51 or Chapter VII force may be threatened.\n• Power irrelevant: sovereign equality (Art 2(1)); SC may act (Art 39).",
+   "old_fronts": [
+    "[Mar 2026 · Q2(a)] Is the ban on the use of force binding under international law? Can a powerful State threaten a weaker State with the use of force? Provide reasons for your answer. (3 points)",
+    "Is the ban on the use of force binding under international law? Can a powerful State threaten a weaker State with the use of force? Provide reasons for your answer. (3 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q2(b)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Mar 2026 · Q2(b)] What are the exceptions to the general prohibition of the use of force? (2 points)",
+   "a": "Two exceptions: self-defence (Art 51) and Security Council measures under Chapter VII (Art 42).\n• Art 51: armed attack, necessity, proportionality, report, until the SC acts.\n• Art 39 determination → Art 42 or authorisation of 'all necessary means' (Res 678 (1990)).\n• Government's invitation: not 'against' the State → no true exception.\n• Contested: humanitarian intervention (Kosovo 1999), rescuing nationals, pre-emption; R2P no exception.",
+   "old_fronts": [
+    "[Mar 2026 · Q2(b)] What are the exceptions to the general prohibition of the use of force? (2 points)",
+    "What are the exceptions to the general prohibition of the use of force? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q2(c)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Mar 2026 · Q2(c)] Do you agree? Provide reasons. \"When a State defends itself against the use of force, it may use any defensive measures at its disposal.\" (2 points)",
+   "a": "No — self-defence is limited.\n• Only against an armed attack (Art 51; Nicaragua 1986, para 191).\n• Necessity and proportionality: only what repels the attack, no retaliation (Nicaragua para 176; Nuclear Weapons AO, para 41; Oil Platforms 2003).\n• IHL binds the defender too (distinction, prohibited weapons).\n• Report immediately to the SC; lasts only until the SC has taken necessary measures (Art 51).",
+   "old_fronts": [
+    "[Mar 2026 · Q2(c)] Do you agree with the following statement? Provide reasons. \"When a State defends itself against the use of force, it may use any defensive measures at its disposal.\" (2 points)",
+    "Do you agree with the following statement? Provide reasons. \"When a State defends itself against the use of force, it may use any defensive measures at its disposal.\" (2 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q2(d)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Mar 2026 · Q2(d)] Do you agree? Provide reasons. \"A State may defend itself against non-State actors, such as terrorists.\" (2 points)",
+   "a": "Partly — yes with attribution or consent, otherwise contested.\n• Art 51 does not name the attacker.\n• Armed bands 'sent by or on behalf of' a State = that State's attack (Nicaragua 1986, para 195); territorial consent also suffices.\n• Otherwise: Wall AO 2004, para 139 (State v State) versus SC Res 1368/1373 (2001), 'unable or unwilling' practice.\n• Always: armed-attack threshold, necessity, proportionality.",
+   "old_fronts": [
+    "[Mar 2026 · Q2(d)] Do you agree with the following statement? Provide reasons. \"A State may defend itself against non-State actors, such as terrorists.\" (2 points)",
+    "Do you agree with the following statement? Provide reasons. \"A State may defend itself against non-State actors, such as terrorists.\" (2 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q2(e)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 1,
+   "priority": 2,
+   "q": "[Mar 2026 · Q2(e)] Do you agree? Provide reasons. \"The United Nations General Assembly can impose non-military measures, such as economic sanctions.\" (1 point)",
+   "a": "No.\n• GA only recommends (Arts 10–14; Uniting for Peace, Res 377(V)) — e.g. South Africa boycott (Res 1761 (1962)) was voluntary.\n• Binding sanctions only by the SC: Art 41 with Art 25.",
+   "old_fronts": [
+    "[Mar 2026 · Q2(e)] Do you agree with the following statement? Provide reasons. \"The United Nations General Assembly can impose non-military measures, such as economic sanctions.\" (1 point)",
+    "Do you agree with the following statement? Provide reasons. \"The United Nations General Assembly can impose non-military measures, such as economic sanctions.\" (1 point)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q3(a)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Mar 2026 · Q3(a)] After cross-border cyberattacks on critical infrastructure in State Y, allegedly from State X, the Security Council adopts a Chapter VII resolution determining a threat to international peace and security and establishing an investigative mechanism to collect evidence of the cyber operations. The UN Charter does not explicitly mention investigative mechanisms. Can the Security Council lawfully establish such a mechanism? If so, on what legal basis? (3 points)",
+   "a": "Yes — under Chapter VII after an Art 39 determination.\n• Art 39: wide discretion; cyberattacks on critical infrastructure can be a threat to the peace.\n• Art 41: non-military measures, list non-exhaustive ('may include') → ICTY/ICTR upheld (Tadić 1995); collecting evidence is a lesser measure.\n• Art 29: subsidiary organs; Art 34: investigation of situations; practice: OPCW-UN JIM (2015), UNITAD (2017).\n• Implied powers (Reparation 1949; Certain Expenses 1962); primary responsibility (Art 24(1)).\n• Limits: purposes and principles (Art 24(2)); States must cooperate (Art 25).",
+   "old_fronts": [
+    "[Mar 2026 · Q3(a)] Following a series of cross-border cyberattacks against critical infrastructure in State Y, allegedly originating from State X, the Security Council adopts a resolution under Chapter VII determining that the cyberattacks constitute a threat to international peace and security. The resolution establishes an investigative mechanism to collect evidence of the cyber operations. The UN Charter does not explicitly mention the establishment of investigative mechanisms. Can the Security Council lawfully establish such a mechanism? If so, on what legal basis? (3 points)",
+    "Following a series of cross-border cyberattacks against critical infrastructure in State Y, allegedly originating from State X, the Security Council adopts a resolution under Chapter VII determining that the cyberattacks constitute a threat to international peace and security. The resolution establishes an investigative mechanism to collect evidence of the cyber operations. The UN Charter does not explicitly mention the establishment of investigative mechanisms. Can the Security Council lawfully establish such a mechanism? If so, on what legal basis? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q3(b)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Mar 2026 · Q3(b)] As the cyberattacks from State X on State Y continue, the Security Council votes on a second Chapter VII resolution imposing binding economic sanctions on X: 11 in favour, 1 against (a permanent member), 3 abstentions. Are UN member States obliged to implement these economic sanctions on State X? (3 points)",
+   "a": "No — the permanent member's 'no' is a veto, so no resolution was adopted.\n• Art 27(3): non-procedural → 9 affirmative votes including the concurring votes of the permanent members; 11 yes suffice, but one P5 'no' defeats it; abstentions are no veto (Namibia AO 1971); no duty to abstain under Chapter VII.\n• No decision → no obligation under Art 25.\n• GA cannot replace it — only recommends (Res 377(V)).\n• States may still adopt autonomous sanctions: retorsion, or countermeasures by an injured State (ARSIWA Arts 49–54).",
+   "old_fronts": [
+    "[Mar 2026 · Q3(b)] As cross-border cyberattacks allegedly launched from State X against critical infrastructure in State Y continue, the Security Council votes on a second resolution under Chapter VII imposing binding economic sanctions on State X. The vote is 11 in favour, 1 against (a permanent member) and 3 abstentions. Are UN member states obliged to implement these economic sanctions on State X? (3 points)",
+    "As cross-border cyberattacks allegedly launched from State X against critical infrastructure in State Y continue, the Security Council votes on a second resolution under Chapter VII imposing binding economic sanctions on State X. The vote is 11 in favour, 1 against (a permanent member) and 3 abstentions. Are UN member states obliged to implement these economic sanctions on State X? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q3(c)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Mar 2026 · Q3(c)] A Chapter VII resolution determined that cyberattacks on State Y's critical infrastructure, allegedly from State X, threaten the peace. A second draft imposing economic sanctions on X received 11 votes in favour, 1 against (a permanent member) and 3 abstentions. At the same time the General Assembly adopted a resolution condemning X's action and calling upon all States to refrain from supporting cyber operations. What is the legal effect of a UN General Assembly resolution? (2 points)",
+   "a": "Non-binding recommendation, but legally relevant.\n• GA only recommends (Arts 10–14 UN Charter); binding only internally (Art 17 budget, Arts 4–6 membership) → no duty for X, no substitute for the vetoed sanctions (Art 27(3)).\n• Good-faith consideration; may evidence opinio iuris/custom (Nuclear Weapons AO 1996; Nicaragua 1986).\n• Art 12(1) bars recommendations while the SC acts, but parallel practice accepted (Wall AO 2004).",
+   "old_fronts": [
+    "[Mar 2026 · Q3(c)] Following cross-border cyberattacks on critical infrastructure in State Y allegedly originating from State X, the UN Security Council, acting under Chapter VII, determines a threat to the peace and establishes an investigative mechanism. A second draft resolution imposing economic sanctions on State X receives 11 votes in favour, 1 against (a permanent member) and 3 abstentions. At the same time, the UN General Assembly adopts a resolution condemning State X's action and calling upon all States to refrain from supporting cyber operations. What is the legal effect of a UN General Assembly resolution? (2 points)",
+    "Following cross-border cyberattacks on critical infrastructure in State Y allegedly originating from State X, the UN Security Council, acting under Chapter VII, determines a threat to the peace and establishes an investigative mechanism. A second draft resolution imposing economic sanctions on State X receives 11 votes in favour, 1 against (a permanent member) and 3 abstentions. At the same time, the UN General Assembly adopts a resolution condemning State X's action and calling upon all States to refrain from supporting cyber operations. What is the legal effect of a UN General Assembly resolution? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2026-03:Q3(d)",
+   "topic": "Real exam — 26 March 2026",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Mar 2026 · Q3(d)] The Security Council established an investigative mechanism to collect evidence of cyberattacks allegedly from State X. A UN staff member working for the mechanism, a national of X, is summoned before a court in X to testify about confidential information obtained in the course of his duties under the mechanism. Does the staff member enjoy immunity? (2 points)",
+   "a": "Yes — functional immunity, also against his own State.\n• Immune from legal process for words spoken or written and acts in official capacity (Art 105(2) UN Charter; Section 18(a) 1946 Convention) → incl. compelled testimony.\n• Information gained for the mechanism (SC subsidiary organ, Art 29) = official; nationality irrelevant; UN documents inviolable (Section 4).\n• Waiver only by the Secretary-General (Section 20).",
+   "old_fronts": [
+    "[Mar 2026 · Q3(d)] The UN Security Council has established an investigative mechanism to collect evidence of cyberattacks allegedly originating from State X. A UN staff member working for the mechanism, a national of State X, is summoned before a domestic court in State X to testify about confidential information he obtained in the course of his duties under the mechanism. Does the staff member enjoy immunity? (2 points)",
+    "The UN Security Council has established an investigative mechanism to collect evidence of cyberattacks allegedly originating from State X. A UN staff member working for the mechanism, a national of State X, is summoned before a domestic court in State X to testify about confidential information he obtained in the course of his duties under the mechanism. Does the staff member enjoy immunity? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2026-01:Q1(a)",
+   "topic": "Real exam — 29 January 2026",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jan 2026 · Q1(a)] Aldoam, Bertus, Cilco and Daroto, together with the International Dairy Organization (IDAO), intend to conclude a treaty to reduce the environmental impact of rare earth mining (REMT). The President of Aldoam invites the Prime Ministers of Bertus and Daroto, the Environmental Minister of Cilco and the Secretary-General of the IDAO to an international conference to adopt the negotiated text and sign the treaty. Can these parties, represented by the invited officials, conclude such a treaty? (2 points)",
+   "a": "States yes; the IDAO doubtful (ultra vires).\n• Capacity: States (Art 6 VCLT); IO per its rules (Art 6 VCLT 1986) + speciality → dairy ≠ mining.\n• President, Prime Ministers: ex officio (Art 7(2)(a)).\n• Cilco's minister: adopts as delegate (Art 7(2)(c)); signs only with full powers (Art 7(1)) or confirmation (Art 8).\n• IDAO Secretary-General: full powers or circumstances (Art 7(3) VCLT 1986).",
+   "old_fronts": [
+    "[Jan 2026 · Q1(a)] The neighbouring States Aldoam, Bertus, Cilco and Daroto, together with the International Dairy Organization (IDAO), intend to conclude a treaty to reduce the environmental impact of rare earth mining — the Rare Earth Materials Treaty (REMT). The President of Aldoam, who leads the initiative, invites the Prime Ministers of Bertus and Daroto, the Environmental Minister of Cilco and the Secretary-General of the IDAO to an international conference to adopt the negotiated text and sign the treaty. Can these parties, represented by the invited officials, conclude such a treaty? (2 points)",
+    "The neighbouring States Aldoam, Bertus, Cilco and Daroto, together with the International Dairy Organization (IDAO), intend to conclude a treaty to reduce the environmental impact of rare earth mining — the Rare Earth Materials Treaty (REMT). The President of Aldoam, who leads the initiative, invites the Prime Ministers of Bertus and Daroto, the Environmental Minister of Cilco and the Secretary-General of the IDAO to an international conference to adopt the negotiated text and sign the treaty. Can these parties, represented by the invited officials, conclude such a treaty? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2026-01:Q1(b)",
+   "topic": "Real exam — 29 January 2026",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Jan 2026 · Q1(b)] Aldoam, Bertus, Cilco and Daroto are parties to the Rare Earth Materials Treaty (REMT), which aims to reduce the environmental impact of rare earth mining. Aldoam and Daroto want to amend REMT to ban rare earth mining outright; Bertus, whose economy relies heavily on mining, disagrees. Under what circumstances can a multilateral treaty be amended by some but not all parties, and what are the effects of such an amendment? (4 points)",
+   "a": "REMT's own clause first; otherwise an amendment binds only acceptors (Arts 39–40 VCLT), and an inter se modification is allowed only under Art 41.\n• Amendment: notified to all, all may take part (Art 40(2)) → binds only parties accepting it (Art 40(4)).\n• Art 41(1): (a) provided for by the treaty, or (b) not prohibited and (i) does not affect the others' rights or obligations and (ii) compatible with the object and purpose as a whole; notify the others (Art 41(2)).\n• Ban furthers REMT's aim → lawful unless it affects Bertus's rights.\n• Effects: Aldoam–Daroto new rules (Art 30(4)(a)); with Bertus, Cilco old REMT (Art 30(4)(b)); breach → responsibility (Art 30(5)).",
+   "old_fronts": [
+    "[Jan 2026 · Q1(b)] Aldoam, Bertus, Cilco and Daroto are parties to the Rare Earth Materials Treaty (REMT), which aims to reduce the environmental impact of rare earth mining. After a decade REMT has not proved as effective as hoped, so Aldoam and Daroto want to amend the treaty to ban rare earth mining outright. Bertus disagrees because its economy relies heavily on mining. Under what circumstances can a multilateral treaty be amended by some but not all parties, and what are the effects of such an amendment? (4 points)",
+    "Aldoam, Bertus, Cilco and Daroto are parties to the Rare Earth Materials Treaty (REMT), which aims to reduce the environmental impact of rare earth mining. After a decade REMT has not proved as effective as hoped, so Aldoam and Daroto want to amend the treaty to ban rare earth mining outright. Bertus disagrees because its economy relies heavily on mining. Under what circumstances can a multilateral treaty be amended by some but not all parties, and what are the effects of such an amendment? (4 points)"
+   ]
+  },
+  {
+   "id": "il-2026-01:Q1(c)",
+   "topic": "Real exam — 29 January 2026",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Jan 2026 · Q1(c)] When may recourse be had to the travaux préparatoires to assist in interpreting a treaty? (2 points)",
+   "a": "Only as a supplementary means (Art 32 VCLT): always to confirm the Art 31 meaning; to determine it only if that meaning is ambiguous/obscure or manifestly absurd/unreasonable.\n• Art 31 first: good faith, ordinary meaning, context, object and purpose, subsequent agreement/practice.\n• Art 32: travaux + circumstances of conclusion; may confirm even a clear text (Libya/Chad 1994).\n• Arts 31–32 = custom (Pulau Ligitan 2002).",
+   "old_fronts": [
+    "[Jan 2026 · Q1(c)] When may recourse be had to the travaux préparatoires to assist in interpreting a treaty? (2 points)",
+    "When may recourse be had to the travaux préparatoires to assist in interpreting a treaty? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2026-01:Q1(d)",
+   "topic": "Real exam — 29 January 2026",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "proces",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Jan 2026 · Q1(d)] Aldoam, Bertus, Cilco and Daroto are parties to the Rare Earth Materials Treaty (REMT) on the environmental impact of rare earth mining. Austria seeks to accede to REMT. What steps must the Austrian government take for the treaty to become law under Article 50 B-VG? (2 points)",
+   "a": "Nationalrat approval, accession by the Federal President, publication.\n• Government bill → Nationalrat approval (law-amending: Art 50(1) Z 1 B-VG).\n• Bundesrat: objection (Art 50(3) with Art 42); consent for Länder matters (Art 50(2) Z 2).\n• Optional Erfüllungsvorbehalt (Art 50(2) Z 4).\n• Federal President accedes (Art 65(1)) on Government proposal, countersigned (Art 67) → deposit.\n• Publication in BGBl III (Art 49(2)).",
+   "old_fronts": [
+    "[Jan 2026 · Q1(d)] Aldoam, Bertus, Cilco and Daroto are parties to the Rare Earth Materials Treaty (REMT), which aims to reduce the environmental impact of rare earth mining. Six years after Aldoam and Daroto's attempt to amend REMT, Austria seeks to accede to it. What steps must the Austrian government take for the treaty to become law under Article 50 B-VG? (2 points)",
+    "Aldoam, Bertus, Cilco and Daroto are parties to the Rare Earth Materials Treaty (REMT), which aims to reduce the environmental impact of rare earth mining. Six years after Aldoam and Daroto's attempt to amend REMT, Austria seeks to accede to it. What steps must the Austrian government take for the treaty to become law under Article 50 B-VG? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2026-01:Q2(a)",
+   "topic": "Real exam — 29 January 2026",
+   "layer": "realna-zkouska",
+   "points": 5,
+   "kind": "srovnani",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Jan 2026 · Q2(a)] Explain the different forms of state succession and give examples. (5 points)",
+   "a": "Forms differ by whether the predecessor survives and a new state emerges; a mere change of government is no succession.\n• Dismembratio (dissolution): predecessor disappears, several new states (Austria-Hungary 1918, SFRY 1991–92, Czechoslovakia 1993).\n• Secession (against the parent's will) / separation (by agreement): a part becomes a new state, predecessor continues (Bangladesh 1971, Eritrea 1993, South Sudan 2011; USSR 1991, Russia continuing).\n• Merger/fusion: states unite into a new one, all predecessors disappear (Tanzania 1964, Yemen 1990).\n• Incorporation (absorption): one state absorbs another and continues (GDR into FRG 1990); only lawful succession counts (Art 6 VCST) → forcible annexation ≠ succession (Austria 1938, Kuwait 1990, Crimea 2014).\n• Cession/transfer of territory between existing states (Alaska 1867, Hong Kong 1997) → moving treaty frontiers (Art 15 VCST).\n• Newly independent states from decolonisation (Art 2(1)(f) VCST; Algeria 1962).",
+   "old_fronts": [
+    "[Jan 2026 · Q2(a)] Explain the different forms of state succession and give examples. (5 points)",
+    "Explain the different forms of state succession and give examples. (5 points)"
+   ]
+  },
+  {
+   "id": "il-2026-01:Q2(b)",
+   "topic": "Real exam — 29 January 2026",
+   "layer": "realna-zkouska",
+   "points": 5,
+   "kind": "norma",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jan 2026 · Q2(b)] Name the sources of law applicable to state succession in respect of treaties and outline the different principles in that respect. (5 points)",
+   "a": "Sources: VCST 1978, custom and case-specific agreements/declarations; principles: moving frontiers, clean slate, continuity — territorial treaties always pass.\n• VCST 1978 (in force 1996, few parties, only later successions, Art 7) + custom (decisive) + devolution agreements (not binding on third states, Art 8) and unilateral declarations (Art 9).\n• Theories: universal succession, tabula rasa, pick and choose.\n• Moving treaty frontiers (Art 15): transferred territory leaves the predecessor's treaties, enters the acquirer's.\n• Clean slate for newly independent states (Art 16); multilateral treaties by notification of succession (Art 17), bilateral only by agreement (Art 24).\n• Continuity: uniting of states (Art 31), separation and dissolution (Art 34, unless agreed or incompatible); continuing state keeps its treaties (Art 35).\n• Always: boundaries and territorial regimes survive (Arts 11–12; Gabčíkovo-Nagymaros 1997); political treaties (alliances) lapse.",
+   "old_fronts": [
+    "[Jan 2026 · Q2(b)] Name the sources of law applicable to state succession in respect of treaties and outline the different principles in that respect. (5 points)",
+    "Name the sources of law applicable to state succession in respect of treaties and outline the different principles in that respect. (5 points)"
+   ]
+  },
+  {
+   "id": "il-2026-01:Q3(a)",
+   "topic": "Real exam — 29 January 2026",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jan 2026 · Q3(a)] After State A attacked State B, the UN Secretary-General, a citizen of A, publicly condemned the attack in his capacity as Secretary-General and accused A's President of serious violations of international law. The President sued him for defamation; a court of A convicted the Secretary-General, holding that as a citizen of A he is subject to national defamation laws. How would you assess the court decision under international law? (3 points)",
+   "a": "The conviction breaches international law: his official statements are immune, whatever his nationality.\n• Immunity for words spoken or written in official capacity (Art 105(2) UN Charter; Section 18(a) 1946 Convention) + diplomatic-envoy status (Section 19); independence (Art 100(2)).\n• Also against his own State (Mazilu AO 1989, Cumaraswamy AO 1999).\n• Condemning an attack = official function (Arts 98–99); his finding has greatest weight (Cumaraswamy); only the SC can waive (Section 20).\n• Court = organ of A (Art 4 ARSIWA) → wrongful act; annulment and reparation.",
+   "old_fronts": [
+    "[Jan 2026 · Q3(a)] Following a military attack by State A on State B, the UN Secretary-General, a citizen of State A, publicly condemns the attack in his capacity as Secretary-General and accuses the President of State A of serious violations of international law. The President brings defamation proceedings before a domestic court of State A, which convicts the Secretary-General, holding that as a citizen of State A he is subject to the national defamation laws. How would you assess the court decision under international law? (3 points)",
+    "Following a military attack by State A on State B, the UN Secretary-General, a citizen of State A, publicly condemns the attack in his capacity as Secretary-General and accuses the President of State A of serious violations of international law. The President brings defamation proceedings before a domestic court of State A, which convicts the Secretary-General, holding that as a citizen of State A he is subject to the national defamation laws. How would you assess the court decision under international law? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2026-01:Q3(b)",
+   "topic": "Real exam — 29 January 2026",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jan 2026 · Q3(b)] The Security Council determined that State A's attack on State B is a threat to international peace and security. A Chapter VII draft resolution providing for binding non-military measures receives ten votes in favour, three abstentions (one by a permanent member) and two negative votes. Was the resolution validly adopted? (3 points)",
+   "a": "It depends on who cast the two negative votes.\n• Art 27(3) UN Charter: non-procedural (Chapter VII) decisions need 9 affirmative votes incl. the concurring votes of the permanent members → 10 in favour suffices.\n• Permanent member's abstention ≠ veto (practice; Namibia AO 1971, para 22).\n• Both 'no' by non-permanent members → adopted, binding (Art 25); any permanent member's 'no' → veto, not adopted.\n• Obligatory abstention of a party only under Chapter VI and Art 52(3) → A may vote (and, if permanent, veto).",
+   "old_fronts": [
+    "[Jan 2026 · Q3(b)] The UN Security Council has determined that State A's attack on State B constitutes a threat to international peace and security. A draft resolution under Chapter VII provides for binding non-military measures. It receives ten votes in favour, three abstentions — one of which is cast by a permanent member — and two negative votes. Was the resolution validly adopted? (3 points)",
+    "The UN Security Council has determined that State A's attack on State B constitutes a threat to international peace and security. A draft resolution under Chapter VII provides for binding non-military measures. It receives ten votes in favour, three abstentions — one of which is cast by a permanent member — and two negative votes. Was the resolution validly adopted? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2026-01:Q3(c)",
+   "topic": "Real exam — 29 January 2026",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jan 2026 · Q3(c)] After State A attacked State B, B asks the Security Council to establish a peacekeeping operation to be deployed in the border region between the two states. The Council is about to establish it unanimously. A publicly argues that the operation would be illegal because the UN would act beyond its powers under the UN Charter. Do you agree with State A's legal view on peacekeeping operations? (4 points)",
+   "a": "No — peacekeeping is not in the Charter, but it is lawful as an implied power confirmed by practice.\n• Implied powers essential to UN duties (Reparation 1949); peacekeeping serves Art 1(1) → not ultra vires (Certain Expenses 1962).\n• Anchors: Council's primary responsibility (Art 24), subsidiary organs (Art 29), provisional measures (Art 40); a maiore ad minus from Chapter VII (\"Chapter VI½\").\n• Practice since UNTSO 1948, accepted by members (Art 31(3)(b) VCLT).\n• Unanimous incl. all P5 → validly adopted (Art 27(3)).\n• Principles: host-state consent, impartiality, force only in self-defence → B consents for its side; A's territory only with A's consent or under Chapter VII (Art 2(7) last clause; Art 25).",
+   "old_fronts": [
+    "[Jan 2026 · Q3(c)] After State A's attack, State B asks the Security Council to establish a peacekeeping operation to be deployed in the border region between the two countries. The Security Council is about to establish such a mission unanimously. State A publicly states that the operation would be illegal, arguing that the United Nations would act beyond the powers found in the UN Charter. Do you agree with State A's legal view on peacekeeping operations? (4 points)",
+    "After State A's attack, State B asks the Security Council to establish a peacekeeping operation to be deployed in the border region between the two countries. The Security Council is about to establish such a mission unanimously. State A publicly states that the operation would be illegal, arguing that the United Nations would act beyond the powers found in the UN Charter. Do you agree with State A's legal view on peacekeeping operations? (4 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q1(a)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jun 2025 · Q1(a)] Monturia and Lirania have disputed their land border for decades; both claim a small valley with valuable minerals. Since 2022 Lirania has mined there. Monturia initially protested, then took no further action. In 2025 Monturia sues Lirania before the ICJ (on the basis of a bilateral treaty of friendship), claiming the area has always been Monturian. Lirania replies that Monturia forfeited its right through its long silence and that under customary international law the area now belongs to Lirania. What is customary international law? Explain the conditions for its creation and examine whether Lirania can possibly invoke customary international law. (3 points)",
+   "a": "Custom = general practice accepted as law (Art 38(1)(b) ICJ Statute); Lirania cannot invoke it.\n• Two elements (ILC 2018 Concl. 2): state practice — widespread, representative, consistent (North Sea 1969), no fixed duration; opinio iuris — sense of legal obligation, not courtesy.\n• Acquisitive prescription needs long, peaceful, public possession acquiesced in → 3 years + Monturia's protest = no title; acts after the critical date don't count (Ligitan/Sipadan 2002).\n• Local custom needs acceptance by BOTH states (Right of Passage 1960) → protest excludes it.",
+   "old_fronts": [
+    "[Jun 2025 · Q1(a)] (June 2025 exam) The land border between the neighbouring states Monturia and Lirania in a sparsely populated area has been unclear for decades; both claim a small valley containing valuable minerals. In 2022 Lirania built a mining facility there and has exploited the raw materials ever since. Monturia initially protested but took no further action. In 2025 Monturia sues Lirania before the ICJ on the basis of a bilateral treaty of friendship, arguing that the area has always been Monturian. Lirania replies that Monturia forfeited its right through its long silence and that under customary international law the area now belongs to Lirania. What is customary international law? Explain the conditions for its creation and examine whether Lirania can possibly invoke customary international law. (3 points)",
+    "(June 2025 exam) The land border between the neighbouring states Monturia and Lirania in a sparsely populated area has been unclear for decades; both claim a small valley containing valuable minerals. In 2022 Lirania built a mining facility there and has exploited the raw materials ever since. Monturia initially protested but took no further action. In 2025 Monturia sues Lirania before the ICJ on the basis of a bilateral treaty of friendship, arguing that the area has always been Monturian. Lirania replies that Monturia forfeited its right through its long silence and that under customary international law the area now belongs to Lirania. What is customary international law? Explain the conditions for its creation and examine whether Lirania can possibly invoke customary international law. (3 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q1(b)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 5,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Jun 2025 · Q1(b)] Monturia and Lirania both claim a border valley with minerals. Lirania has mined it since 2022; Monturia initially protested, then took no further action, and sued before the ICJ in 2025. Lirania argues Monturia forfeited its right by long silence. Monturia demands compensation for the minerals extracted plus default interest; Lirania says the claims are time-barred and no treaty provides for interest. What is meant by \"general principles of law\" in international law? Give three examples and briefly explain whether they could play a role in the dispute. (5 points)",
+   "a": "General principles of law (Art 38(1)(c) ICJ Statute) are unwritten principles common to the main national legal systems or formed within international law that fill gaps; the three relevant ones favour Monturia.\n• Two categories: from national systems (transposable) and formed within IL; gap filling → no non liquet.\n• (1) Acquiescence/estoppel (good faith): silence = consent only where a reaction was called for (Temple 1962) → Monturia protested and sued within 3 years → no forfeiture.\n• (2) Extinctive prescription: no fixed time limit; only unreasonable delay prejudicing the respondent bars a claim (Nauru 1992) → not time-barred.\n• (3) Full reparation (Chorzów Factory 1928; Art 31 ARSIWA): if the valley is Monturian → compensation for the minerals (Art 36) plus interest (Art 38) → no treaty basis needed.\n• Other examples: res judicata, nemo iudex in causa sua.",
+   "old_fronts": [
+    "[Jun 2025 · Q1(b)] (June 2025 exam) The border between Monturia and Lirania has been unclear for decades, and both claim a small valley with valuable minerals. Lirania built a mining facility there in 2022 and has exploited the minerals ever since. Monturia initially protested but took no further action; in 2025 it sued Lirania before the ICJ on the basis of a bilateral treaty of friendship. Lirania argues that Monturia forfeited its right through its long silence. Monturia also demands compensation for the minerals extracted since 2022 plus default interest; Lirania counters that the claims are time-barred and that there is no obligation to pay interest because no treaty provides for it. What is meant by \"general principles of law\" in international law? Give three examples and briefly explain whether they could play a role in the dispute. (5 points)",
+    "(June 2025 exam) The border between Monturia and Lirania has been unclear for decades, and both claim a small valley with valuable minerals. Lirania built a mining facility there in 2022 and has exploited the minerals ever since. Monturia initially protested but took no further action; in 2025 it sued Lirania before the ICJ on the basis of a bilateral treaty of friendship. Lirania argues that Monturia forfeited its right through its long silence. Monturia also demands compensation for the minerals extracted since 2022 plus default interest; Lirania counters that the claims are time-barred and that there is no obligation to pay interest because no treaty provides for it. What is meant by \"general principles of law\" in international law? Give three examples and briefly explain whether they could play a role in the dispute. (5 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q1(c)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "definice",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Jun 2025 · Q1(c)] Why does international law not only have written legal sources such as treaties, but also unwritten sources? (2 points)",
+   "a": "Because there is no central legislator and treaties bind only their parties, unwritten sources supply general law and fill gaps.\n• No world legislator → law also arises from state conduct (custom).\n• Treaties bind only parties (Art 34 VCLT); custom binds all states, incl. new ones (except persistent objectors) — e.g. prohibition of force (Nicaragua 1986).\n• General principles fill gaps (no non liquet).",
+   "old_fronts": [
+    "[Jun 2025 · Q1(c)] (June 2025 exam) Why does international law not only have written legal sources such as treaties, but also unwritten sources? (2 points)",
+    "(June 2025 exam) Why does international law not only have written legal sources such as treaties, but also unwritten sources? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q2(a)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jun 2025 · Q2(a)] James has worked for 10 years as legal adviser of the international organization OSIRIS, seated in Vienna. When his contract is suddenly terminated, he contests it before the Vienna Labour Court. The headquarters agreement between Austria and OSIRIS provides: \"OSIRIS and its property shall enjoy immunity from every form of legal process.\" Will James be successful with his claim before the Austrian court? (2 points)",
+   "a": "No — the court must decline jurisdiction: OSIRIS enjoys immunity from every form of legal process.\n• HQ agreement = treaty binding Austria (pacta sunt servanda — custom, cf. Art 26 VCLT 1986).\n• IO immunity: functional rationale, absolute in practice (no imperii/gestionis distinction) → covers staff disputes unless OSIRIS waives.\n• Compatible with Art 6 ECHR given an alternative remedy (Waite and Kennedy 1999).",
+   "old_fronts": [
+    "[Jun 2025 · Q2(a)] James has worked for ten years as a legal adviser for the international organization OSIRIS, which is seated in Vienna. When his contract is suddenly terminated, he contests the termination before the Vienna Labour Court. The court finds the following provision in the headquarters agreement between Austria and OSIRIS: \"OSIRIS and its property shall enjoy immunity from every form of legal process.\" Will James be successful with his claim before the Austrian court? (2 points)",
+    "James has worked for ten years as a legal adviser for the international organization OSIRIS, which is seated in Vienna. When his contract is suddenly terminated, he contests the termination before the Vienna Labour Court. The court finds the following provision in the headquarters agreement between Austria and OSIRIS: \"OSIRIS and its property shall enjoy immunity from every form of legal process.\" Will James be successful with his claim before the Austrian court? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q2(b)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Jun 2025 · Q2(b)] James cannot sue OSIRIS (a Vienna-based international organization) over his dismissal in Austrian courts because of its immunity. Does he have an alternative option for seeking legal redress? (1 point)",
+   "a": "Yes — the organization's internal remedies.\n• Internal appeal, then an administrative tribunal (e.g. ILOAT if OSIRIS accepted it; UNDT/UNAT for UN staff) → binding on the IO (Effects of Awards AO 1954).",
+   "old_fronts": [
+    "[Jun 2025 · Q2(b)] James, a legal adviser dismissed by the Vienna-based international organization OSIRIS, cannot sue OSIRIS before the Austrian courts because of its immunity. Does he have an alternative option for seeking legal redress? (1 point)",
+    "James, a legal adviser dismissed by the Vienna-based international organization OSIRIS, cannot sue OSIRIS before the Austrian courts because of its immunity. Does he have an alternative option for seeking legal redress? (1 point)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q2(c)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jun 2025 · Q2(c)] After his dismissal by OSIRIS (an international organization seated in Vienna), James, completely distraught, gets very drunk and hits an expensive Mercedes with his motorcycle. The owner sues him for damages before an Austrian court. Can James argue that he cannot be sued in Austrian courts because he is an employee of an international organization? (2 points)",
+   "a": "No — IO staff enjoy only functional immunity for official acts; a drunken private ride is a private act.\n• Immune only for acts in official capacity (Section 18(a) 1946 Convention; HQ agreement); diplomatic immunity only for top officials (Section 19), not a legal adviser.\n• Accident unconnected with his functions → no immunity; OSIRIS's immunity irrelevant: James sued personally.\n• Austrian court has jurisdiction.",
+   "old_fronts": [
+    "[Jun 2025 · Q2(c)] James, a legal adviser of the Vienna-based international organization OSIRIS, is dismissed. Completely distraught, he gets very drunk and hits an expensive Mercedes with his motorcycle. The owner sues him for damages before an Austrian court. Can James argue that he cannot be sued in Austrian courts because he is an employee of an international organization? (2 points)",
+    "James, a legal adviser of the Vienna-based international organization OSIRIS, is dismissed. Completely distraught, he gets very drunk and hits an expensive Mercedes with his motorcycle. The owner sues him for damages before an Austrian court. Can James argue that he cannot be sued in Austrian courts because he is an employee of an international organization? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q2(d)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Jun 2025 · Q2(d)] What is the difference between international organizations and international non-governmental organizations (NGOs)? Give examples. (2 points)",
+   "a": "An IO is created by states by treaty and has international legal personality; an NGO is created by private persons under domestic law and has none.\n• IO: treaty governed by IL (ARIO Art 2(a)), state members, privileges and immunities — e.g. UN, WHO, IAEA.\n• NGO: private association under seat-state law, at most ECOSOC consultative status (Art 71 Charter) — e.g. Amnesty International, Greenpeace.",
+   "old_fronts": [
+    "[Jun 2025 · Q2(d)] What is the difference between international organizations and international non-governmental organizations (NGOs)? Give examples. (2 points)",
+    "What is the difference between international organizations and international non-governmental organizations (NGOs)? Give examples. (2 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q2(e)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Jun 2025 · Q2(e)] Is it possible for a member state to withdraw from an international organization? Under what circumstances can a member be expelled from an international organization? Give examples. (3 points)",
+   "a": "Withdrawal: yes — under a treaty clause and, on the prevailing view, even without one (sovereignty); expulsion only if the founding treaty provides for it.\n• Clause: Art 50 TEU (Brexit 2020).\n• No clause: UN Charter silent → Indonesia 1965 (returned 1966); cf. stricter Art 56 VCLT.\n• Expulsion for persistent/serious violations: UN Art 6 Charter (GA on SC recommendation, never used); CoE Statute Art 8 → Russia 2022.\n• EU: no expulsion, only suspension (Art 7 TEU); UN softer tools: suspension (Art 5), loss of vote (Art 19).",
+   "old_fronts": [
+    "[Jun 2025 · Q2(e)] Is it possible for a member state to withdraw from an international organization? Under what circumstances can a member be expelled from an international organization? Give examples. (3 points)",
+    "Is it possible for a member state to withdraw from an international organization? Under what circumstances can a member be expelled from an international organization? Give examples. (3 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q3(a)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "cisla",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jun 2025 · Q3(a)] States A–E negotiate a treaty against deforestation. Art XI: '1. The present Treaty shall be ratified. 2. The present Treaty shall enter into force six months after the deposit of three instruments of ratification. As regards any High Contracting Party ratifying subsequently, the Treaty shall come into force 30 days after the deposit of its instrument of ratification.' Text adopted 15.09.2014; A, B and E signed 03.10.2014, C and D 10.10.2014. Ratifications (each deposited the same day): B 31.10.2014, C 07.01.2015, A 15.02.2015, D 24.08.2015, E 13.06.2016. When did the treaty enter into force? When did it enter into force for A, D and E? (2 points)",
+   "a": "In force on 15.08.2015 (also for A); for D on 23.09.2015; for E on 13.07.2016.\n• Third deposit: A, 15.02.2015 (after B, C) → + 6 months = 15.08.2015 (Art XI(2); Art 24(1) VCLT).\n• Later ratifiers: own deposit + 30 days (Art XI(2) 2nd sentence, cf. Art 24(3) VCLT) → D 24.08.2015 → 23.09.2015; E 13.06.2016 → 13.07.2016.\n• Signatures irrelevant (ratification required).",
+   "old_fronts": [
+    "[Jun 2025 · Q3(a)] Five neighbouring States A–E negotiate a treaty against deforestation. Art XI reads: '1. The present Treaty shall be ratified. 2. The present Treaty shall enter into force six months after the deposit of three instruments of ratification. As regards any High Contracting Party ratifying subsequently, the Treaty shall come into force 30 days after the deposit of its instrument of ratification.' The text was adopted on 15.09.2014; A, B and E signed on 03.10.2014, C and D on 10.10.2014. Ratifications (each deposited the same day): B 31.10.2014, C 07.01.2015, A 15.02.2015, D 24.08.2015, E 13.06.2016. When did the treaty enter into force? When did it enter into force for A, D and E? (2 points)",
+    "Five neighbouring States A–E negotiate a treaty against deforestation. Art XI reads: '1. The present Treaty shall be ratified. 2. The present Treaty shall enter into force six months after the deposit of three instruments of ratification. As regards any High Contracting Party ratifying subsequently, the Treaty shall come into force 30 days after the deposit of its instrument of ratification.' The text was adopted on 15.09.2014; A, B and E signed on 03.10.2014, C and D on 10.10.2014. Ratifications (each deposited the same day): B 31.10.2014, C 07.01.2015, A 15.02.2015, D 24.08.2015, E 13.06.2016. When did the treaty enter into force? When did it enter into force for A, D and E? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q3(b)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jun 2025 · Q3(b)] A deforestation treaty requires ratification; its text was adopted on 15.09.2014. States A and B signed on 03.10.2014; B ratified on 31.10.2014 and A on 15.02.2015; the treaty entered into force on 15.08.2015. What obligations bind the contracting States before the treaty enters into force, and when do they take effect for A and B? (3 points)",
+   "a": "Before entry into force only Art 18 VCLT (not defeating object and purpose) and the final clauses (Art 24(4) VCLT) bind.\n• Art 24(4) VCLT: clauses on consent, entry into force, reservations, depositary apply from adoption → 15.09.2014.\n• Art 18(a) VCLT: signatory refrains from acts defeating object and purpose (abstention only) → A and B from signature, 03.10.2014.\n• Art 18(b) VCLT: same after ratification, pending entry into force not unduly delayed → B from 31.10.2014, A from 15.02.2015.\n• From 15.08.2015 the whole treaty binds (Art 26 VCLT).",
+   "old_fronts": [
+    "[Jun 2025 · Q3(b)] A deforestation treaty requires ratification; its text was adopted on 15.09.2014. States A and B signed on 03.10.2014; B ratified on 31.10.2014 and A on 15.02.2015; the treaty entered into force on 15.08.2015. What obligations are binding upon the contracting States before the treaty enters into force, and when do these obligations take effect for A and B? (3 points)",
+    "A deforestation treaty requires ratification; its text was adopted on 15.09.2014. States A and B signed on 03.10.2014; B ratified on 31.10.2014 and A on 15.02.2015; the treaty entered into force on 15.08.2015. What obligations are binding upon the contracting States before the treaty enters into force, and when do these obligations take effect for A and B? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q3(c)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Jun 2025 · Q3(c)] State A is party to a treaty against deforestation that has no provision on territorial application. A's territory includes a Pacific archipelago with rainforest and rare tree species, which A wants to fell. State E protests that the treaty forbids this. Is the treaty applicable to the archipelago? What could have been done to achieve the opposite result? (2 points)",
+   "a": "Yes — the treaty binds A for its entire territory, including the archipelago.\n• Art 29 VCLT: entire territory unless a different intention appears from the treaty or is otherwise established → none → felling breaches it.\n• Opposite result: clause excluding the archipelago or allowing territorial declarations (cf. Art 56 ECHR), or a territorial reservation on ratification, if permitted and accepted (Arts 19–21 VCLT).",
+   "old_fronts": [
+    "[Jun 2025 · Q3(c)] State A is party to a multilateral treaty against deforestation. Its territory includes a large archipelago in the Pacific Ocean covered by rainforest with rare tree species, which A now wants to fell. State E protests that the treaty forbids this. The treaty contains no provision on its territorial application. Is the treaty applicable to the archipelago? What could have been done to achieve the opposite result? (2 points)",
+    "State A is party to a multilateral treaty against deforestation. Its territory includes a large archipelago in the Pacific Ocean covered by rainforest with rare tree species, which A now wants to fell. State E protests that the treaty forbids this. The treaty contains no provision on its territorial application. Is the treaty applicable to the archipelago? What could have been done to achieve the opposite result? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2025-06:Q3(d)",
+   "topic": "Real exam — 27 June 2025",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Jun 2025 · Q3(d)] A treaty is authentic in the five official languages of its contracting parties. How are such multilingual treaties interpreted? (3 points)",
+   "a": "Art 33 VCLT: authentic texts equally authoritative, same meaning presumed, divergences reconciled.\n• Art 33(1) VCLT: equally authoritative, unless the treaty provides or the parties agree that one text prevails.\n• Art 33(2) VCLT: other language versions authentic only if the treaty provides or the parties agree.\n• Art 33(3) VCLT: terms presumed to have the same meaning in each authentic text.\n• Art 33(4) VCLT: difference not removed by Arts 31–32 → meaning best reconciling the texts, having regard to object and purpose (LaGrand 2001: provisional measures binding).",
+   "old_fronts": [
+    "[Jun 2025 · Q3(d)] A treaty is authentic in the five official languages of its contracting parties. How are such multilingual treaties interpreted? (3 points)",
+    "A treaty is authentic in the five official languages of its contracting parties. How are such multilingual treaties interpreted? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2025-05:Q1(a)",
+   "topic": "Real exam — 2 May 2025",
+   "layer": "realna-zkouska",
+   "points": 5,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[May 2025 · Q1(a)] Journalist Joelle, reporting for a TV station based in State B, was arrested at a climate protest in State A and detained for five days without access to her lawyer or family and unable to apply for release. Her camera, recorders and laptop were destroyed 'for security reasons'. Her compensation claims failed in A's courts. She is A's national by birth and became B's national by naturalisation 10 years ago; she expects 'support' from B. What does she mean by 'support'? Briefly explain its prerequisites. (5 points)",
+   "a": "She means diplomatic protection: B invoking A's responsibility for injury to its national, as B's own right, by peaceful means (Art 1 DADP; Mavrommatis 1924).\n• Wrongful act attributable to A: security authorities are organs (Art 4 ARSIWA) → arbitrary incommunicado detention (Art 9 ICCPR), press freedom (Art 19 ICCPR), destroyed property without compensation.\n• Nationality: naturalisation suffices (Art 4 DADP), continuous from injury to official presentation of the claim (Art 5 DADP) → met (10 years).\n• Claim against A, also her State of nationality: B's nationality must be predominant at both dates (Art 7 DADP).\n• Exhaustion of local remedies (Art 14 DADP; Interhandel 1959) → her suits in A failed; otherwise exception (Art 15 DADP, e.g. futility).\n• B's discretion to espouse the claim (Barcelona Traction 1970); aim: cessation and reparation (Arts 30–31 ARSIWA).",
+   "old_fronts": [
+    "[May 2025 · Q1(a)] Journalist Joelle, preparing a report for a TV station based in State B, was arrested during a climate protest in State A and detained for five days; she was not allowed to contact her lawyer or family and could not apply for release. On release she was told that her valuable equipment (camera, recording devices, laptop) had been destroyed 'for security reasons'. Her attempts to obtain compensation for the equipment and the arrest before the courts of State A failed. Joelle acquired A's citizenship by birth and became a citizen of State B by naturalisation 10 years ago; she expects support from her 'new' home State B. What does Joelle mean by 'support' from State B? Briefly explain the prerequisites for this kind of support. (5 points)",
+    "Journalist Joelle, preparing a report for a TV station based in State B, was arrested during a climate protest in State A and detained for five days; she was not allowed to contact her lawyer or family and could not apply for release. On release she was told that her valuable equipment (camera, recording devices, laptop) had been destroyed 'for security reasons'. Her attempts to obtain compensation for the equipment and the arrest before the courts of State A failed. Joelle acquired A's citizenship by birth and became a citizen of State B by naturalisation 10 years ago; she expects support from her 'new' home State B. What does Joelle mean by 'support' from State B? Briefly explain the prerequisites for this kind of support. (5 points)"
+   ]
+  },
+  {
+   "id": "il-2025-05:Q1(b)",
+   "topic": "Real exam — 2 May 2025",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[May 2025 · Q1(b)] Joelle was detained incommunicado for five days in State A. She is A's national by birth and B's national by naturalisation 10 years ago; she expects support from B. She has a distant uncle in A whom she visits now and then, but moved her work and permanent residence to B 15 years ago, where she lives with her husband and son. Does her dual citizenship present an obstacle? (3 points)",
+   "a": "No — B's nationality is predominant, so B may protect her even against A.\n• Traditional rule: no protection against another State of nationality (Art 4 Hague Convention 1930).\n• Modern rule: predominant nationality at injury and at official presentation of the claim (Art 7 DADP; Mergé 1955).\n• Factors: residence, family, work, centre of life → 15 years' residence, work, husband and son in B vs distant uncle in A → B predominant.\n• Variant: against a third State any State of nationality may protect (Art 6 DADP).",
+   "old_fronts": [
+    "[May 2025 · Q1(b)] Journalist Joelle, preparing a report for a TV station based in State B, was arrested during a climate protest in State A and detained for five days; she was not allowed to contact her lawyer or family and could not apply for release. On release she was told that her valuable equipment (camera, recording devices, laptop) had been destroyed 'for security reasons'. Her attempts to obtain compensation for the equipment and the arrest before the courts of State A failed. Joelle acquired A's citizenship by birth and became a citizen of State B by naturalisation 10 years ago; she expects support from her 'new' home State B. Does Joelle's dual citizenship present an obstacle? She explains that although she still has a distant uncle in State A whom she visits now and then, she moved her professional environment and permanent residence to State B about 15 years ago, where she now lives with her husband and son. (3 points)",
+    "Journalist Joelle, preparing a report for a TV station based in State B, was arrested during a climate protest in State A and detained for five days; she was not allowed to contact her lawyer or family and could not apply for release. On release she was told that her valuable equipment (camera, recording devices, laptop) had been destroyed 'for security reasons'. Her attempts to obtain compensation for the equipment and the arrest before the courts of State A failed. Joelle acquired A's citizenship by birth and became a citizen of State B by naturalisation 10 years ago; she expects support from her 'new' home State B. Does Joelle's dual citizenship present an obstacle? She explains that although she still has a distant uncle in State A whom she visits now and then, she moved her professional environment and permanent residence to State B about 15 years ago, where she now lives with her husband and son. (3 points)"
+   ]
+  },
+  {
+   "id": "il-2025-05:Q1(c)",
+   "topic": "Real exam — 2 May 2025",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[May 2025 · Q1(c)] Joelle, injured by State A, expects her State of naturalisation B to support her (take up her claim against A). Does Joelle have a right under international law to State B's support? (2 points)",
+   "a": "No — diplomatic protection is a discretionary right of the State, not of the individual.\n• Barcelona Traction 1970: B alone decides whether, how far and how long to protect; may waive or settle; compensation goes to B.\n• Art 19 DADP (soft, 'should'): due consideration, consider her views, transfer compensation.\n• Domestic law may add a right to consideration (Hess 1980; Abbasi 2002).",
+   "old_fronts": [
+    "[May 2025 · Q1(c)] Journalist Joelle, preparing a report for a TV station based in State B, was arrested during a climate protest in State A and detained for five days; she was not allowed to contact her lawyer or family and could not apply for release. On release she was told that her valuable equipment (camera, recording devices, laptop) had been destroyed 'for security reasons'. Her attempts to obtain compensation for the equipment and the arrest before the courts of State A failed. Joelle acquired A's citizenship by birth and became a citizen of State B by naturalisation 10 years ago; she expects support from her 'new' home State B. Does Joelle have a right under international law to State B's support? (2 points)",
+    "Journalist Joelle, preparing a report for a TV station based in State B, was arrested during a climate protest in State A and detained for five days; she was not allowed to contact her lawyer or family and could not apply for release. On release she was told that her valuable equipment (camera, recording devices, laptop) had been destroyed 'for security reasons'. Her attempts to obtain compensation for the equipment and the arrest before the courts of State A failed. Joelle acquired A's citizenship by birth and became a citizen of State B by naturalisation 10 years ago; she expects support from her 'new' home State B. Does Joelle have a right under international law to State B's support? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2025-05:Q2(a)",
+   "topic": "Real exam — 2 May 2025",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[May 2025 · Q2(a)] What is the difference between state responsibility and liability under international law? (2 points)",
+   "a": "Responsibility follows an internationally wrongful act; liability covers damage from lawful but hazardous activities, without breach.\n• Responsibility: attribution + breach (Art 2 ARSIWA) → cessation and full reparation (Arts 30–31 ARSIWA; Chorzów).\n• Liability: only under treaties, e.g. absolute liability for space objects (Art II Liability Convention 1972; Cosmos 954), nuclear conventions; compensation only.\n• Breach of due diligence/no-harm (Trail Smelter) = responsibility.",
+   "old_fronts": [
+    "[May 2025 · Q2(a)] What is the difference between state responsibility and liability under international law? (2 points)",
+    "What is the difference between state responsibility and liability under international law? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2025-05:Q2(b)",
+   "topic": "Real exam — 2 May 2025",
+   "layer": "realna-zkouska",
+   "points": 6,
+   "kind": "znaky",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[May 2025 · Q2(b)] What conduct is attributed to a state in the context of state responsibility? (6 points)",
+   "a": "Conduct of State organs and of the persons listed in Arts 4–11 ARSIWA; private conduct as such is not attributable (only the State's own lack of due diligence).\n• Art 4: organs of any branch, level or rank, incl. territorial units (LaGrand – Arizona) and de facto organs in complete dependence (Bosnian Genocide 2007).\n• Art 5: entities empowered by law to exercise governmental authority (e.g. private prisons), acting in that capacity; Art 6: organs placed at its disposal by another State.\n• Art 7: ultra vires acts in official capacity are still attributed (Caire 1929).\n• Art 8: private persons acting on the State's instructions or under its direction or effective control (Nicaragua 1986; Bosnian Genocide 2007, not Tadić's overall control).\n• Art 9: governmental authority exercised in the absence or default of the authorities (Yeager 1987); Art 10: successful insurrectional movement (new government or new State).\n• Art 11: conduct acknowledged and adopted as its own (Tehran Hostages 1980).",
+   "old_fronts": [
+    "[May 2025 · Q2(b)] What conduct is attributed to a state in the context of state responsibility? (6 points)",
+    "What conduct is attributed to a state in the context of state responsibility? (6 points)"
+   ]
+  },
+  {
+   "id": "il-2025-05:Q2(c)",
+   "topic": "Real exam — 2 May 2025",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 2,
+   "q": "[May 2025 · Q2(c)] Where is the regime of state responsibility under international law regulated? Which body adopted the text? (2 points)",
+   "a": "Customary law, codified in the Articles on Responsibility of States for Internationally Wrongful Acts (ARSIWA) 2001, adopted by the International Law Commission (ILC).\n• ILC: GA expert body for codification and progressive development (Art 13(1)(a) UN Charter).\n• GA took note (Res 56/83, 2001) → not a treaty, largely custom, applied by ICJ (Bosnian Genocide 2007).\n• Special regimes prevail (lex specialis, Art 55 ARSIWA).",
+   "old_fronts": [
+    "[May 2025 · Q2(c)] Where is the regime of state responsibility under international law regulated? Which body adopted the text? (2 points)",
+    "Where is the regime of state responsibility under international law regulated? Which body adopted the text? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2025-05:Q3",
+   "topic": "Real exam — 2 May 2025",
+   "layer": "realna-zkouska",
+   "points": 10,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[May 2025 · Q3] After a change of government, the new President of State X wants to withdraw from all bilateral and multilateral treaties protecting the environment, the climate and biodiversity, if possible in accordance with international law. Give 5 proposals her cabinet could submit, assess their prospects of success and distinguish which are relatively easy, which difficult and which have little chance of success. (10 points)",
+   "a": "Easy: the treaties' own withdrawal clauses; difficult: consent of all parties or Art 56 VCLT; little chance: material breach or fundamental change of circumstances.\n• 1 EASY — withdrawal under the treaty's clause (Art 54(a) VCLT): e.g. Paris Agreement Art 28 (notice any time after 3 years in force for X, effective 1 year after receipt; USA); bilateral treaties: termination with notice; instrument signed by Head of State/Government or Foreign Minister (Art 67(2) VCLT).\n• 2 DIFFICULT — termination by consent of all parties (Art 54(b) VCLT) or by a later treaty (Art 59 VCLT): bilateral negotiable, multilateral (~200 parties) practically hopeless.\n• 3 DIFFICULT — treaty without withdrawal clause (Art 56 VCLT): only if the parties intended it or the nature of the treaty implies it, 12 months' notice → doubtful for common-interest environmental treaties.\n• 4 LITTLE CHANCE — material breach by another party (Art 60 VCLT): essential provision violated by a specific party, multilateral only under Art 60(2); no pretext (Gabčíkovo-Nagymaros 1997).\n• 5 LITTLE CHANCE — fundamental change of circumstances (Art 62 VCLT): new policy or costs are no radical change of an essential basis (Fisheries Jurisdiction 1973; Gabčíkovo 1997); likewise impossibility (Art 61), desuetude (treaties are applied), invalidity (Arts 46–53, acquiescence Art 45) and re-accession with reservations (banned: Paris Art 27, UNFCCC Art 24, CBD Art 37 → Art 19(a) VCLT).\n• Limits: change of government is no excuse (Arts 26–27 VCLT); procedure Arts 65–67 VCLT; simply stopping performance = wrongful act → state responsibility; customary no-harm/EIA duties remain (Art 43 VCLT; Pulp Mills 2010).",
+   "old_fronts": [
+    "[May 2025 · Q3] Following a change of government in State X, the newly elected President announces her intention to withdraw from all bilateral and multilateral treaties aimed at protecting the environment, the climate and biodiversity. She instructs her cabinet members to submit proposals on how State X could achieve this, if possible in accordance with international law. Give 5 proposals that cabinet members well versed in international law could submit. Supplement them with an assessment of their prospects of success and distinguish which would be relatively easy to implement, which difficult, and which would have little chance of success. (10 points)",
+    "Following a change of government in State X, the newly elected President announces her intention to withdraw from all bilateral and multilateral treaties aimed at protecting the environment, the climate and biodiversity. She instructs her cabinet members to submit proposals on how State X could achieve this, if possible in accordance with international law. Give 5 proposals that cabinet members well versed in international law could submit. Supplement them with an assessment of their prospects of success and distinguish which would be relatively easy to implement, which difficult, and which would have little chance of success. (10 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q1(a)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "definice",
+   "difficulty": 1,
+   "priority": 1,
+   "q": "[Jun 2024 · Q1(a)] Bellivonia is being divided by agreement into Bellistan (over 80% of the territory) and Livonia. Bellistan claims to continue Bellivonia's legal identity under a new name as the 'rump state', with only Livonia a new state; Livonia says Bellivonia has ceased to exist and both are successor states. What does 'state succession' mean? (2 points)",
+   "a": "State succession = replacement of one state by another in the responsibility for the international relations of a territory (Art 2(1)(b) VCST 1978; Art 2(1)(a) VCSSPAD 1983).\n• Change of sovereignty, not of government or name → identity continues.\n• Question: which treaties, property, debts pass; only lawful successions (Art 6 VCST).\n• A continuing state (Bellistan's claim) is no successor → only Livonia.",
+   "old_fronts": [
+    "[Jun 2024 · Q1(a)] The multiethnic state of Bellivonia is to be divided into two parts, which all political forces agree on: the larger state Bellistan (more than 80% of Bellivonia's territory) and the smaller state Livonia. Bellistan's scholars claim that Bellistan continues the legal identity of Bellivonia under a new name as the 'rump state' and only Livonia is a new state; Livonia argues that Bellivonia has ceased to exist and both are successor states. What does 'state succession' mean? (2 points)",
+    "The multiethnic state of Bellivonia is to be divided into two parts, which all political forces agree on: the larger state Bellistan (more than 80% of Bellivonia's territory) and the smaller state Livonia. Bellistan's scholars claim that Bellistan continues the legal identity of Bellivonia under a new name as the 'rump state' and only Livonia is a new state; Livonia argues that Bellivonia has ceased to exist and both are successor states. What does 'state succession' mean? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q1(b)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Jun 2024 · Q1(b)] Bellivonia is divided by agreement into Bellistan (over 80% of the territory) and Livonia. Bellistan claims to be Bellivonia under a new name (rump state), with only Livonia new; Livonia says Bellivonia has ceased to exist and both are successor states. How is the division classified on Bellistan's view? What type of state succession does Livonia's view represent? Briefly justify. (4 points)",
+   "a": "Bellistan's view = continuity of Bellivonia (rump state) plus separation of Livonia; Livonia's view = dismembratio (dissolution) into two successor states.\n• Bellistan: predecessor survives with less territory; name change and territorial loss do not affect identity → only Livonia is new (Russia/USSR 1991, Sudan 2011).\n• Consequences: Bellistan keeps treaties (Art 35 VCST) and UN seat; Livonia succeeds (Art 34 VCST), applies to the UN; property and debts shared (Arts 17, 40 VCSSPAD).\n• Livonia: predecessor extinct, two equal new states (Czechoslovakia 1993; SFRY, Badinter Opinions 8, 10).\n• Consequences: both apply to the UN; treaties continue for each (Art 34 VCST); property, archives, debts divided equitably (Arts 18, 31, 41 VCSSPAD).",
+   "old_fronts": [
+    "[Jun 2024 · Q1(b)] The multiethnic state of Bellivonia is to be divided into two parts, which all political forces agree on: the larger state Bellistan (more than 80% of Bellivonia's territory) and the smaller state Livonia. Bellistan's scholars claim that Bellistan continues the legal identity of Bellivonia under a new name as the 'rump state' and only Livonia is a new state; Livonia argues that Bellivonia has ceased to exist and both are successor states. How should the division of Bellivonia be classified under international law if one follows Bellistan's view? What type of state succession does Livonia's view represent? Briefly justify. (4 points)",
+    "The multiethnic state of Bellivonia is to be divided into two parts, which all political forces agree on: the larger state Bellistan (more than 80% of Bellivonia's territory) and the smaller state Livonia. Bellistan's scholars claim that Bellistan continues the legal identity of Bellivonia under a new name as the 'rump state' and only Livonia is a new state; Livonia argues that Bellivonia has ceased to exist and both are successor states. How should the division of Bellivonia be classified under international law if one follows Bellistan's view? What type of state succession does Livonia's view represent? Briefly justify. (4 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q1(c)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "[Jun 2024 · Q1(c)] Bellivonia is divided into Bellistan (over 80% of the territory), which claims to continue Bellivonia as the rump state, and Livonia, which says both are successor states. Besides the self-assessment of the states concerned, which objective or subjective criteria are relevant for classifying a case of state succession? Name at least two. (2 points)",
+   "a": "Objective: share of territory and population, capital and central institutions; subjective: agreement between the states and recognition by third states/UN.\n• Bellistan holds >80% of territory → strong indicator of continuity (Russia kept ~3/4 of USSR).\n• Agreement (CIS 21 Dec 1991 backing Russia's UN seat); UN reaction (Russia accepted; FRY rejected, GA Res 47/1).\n• Livonia disagrees → third states/UN decide.",
+   "old_fronts": [
+    "[Jun 2024 · Q1(c)] The multiethnic state of Bellivonia is to be divided into two parts, which all political forces agree on: the larger state Bellistan (more than 80% of Bellivonia's territory) and the smaller state Livonia. Bellistan's scholars claim that Bellistan continues the legal identity of Bellivonia under a new name as the 'rump state' and only Livonia is a new state; Livonia argues that Bellivonia has ceased to exist and both are successor states. Besides the self-assessment of the states concerned, which objective or subjective criteria are relevant for classifying a case of state succession? Name at least two. (2 points)",
+    "The multiethnic state of Bellivonia is to be divided into two parts, which all political forces agree on: the larger state Bellistan (more than 80% of Bellivonia's territory) and the smaller state Livonia. Bellistan's scholars claim that Bellistan continues the legal identity of Bellivonia under a new name as the 'rump state' and only Livonia is a new state; Livonia argues that Bellivonia has ceased to exist and both are successor states. Besides the self-assessment of the states concerned, which objective or subjective criteria are relevant for classifying a case of state succession? Name at least two. (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q1(d)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Jun 2024 · Q1(d)] Bellivonia is divided into Bellistan and Livonia. Both agree that Bellivonia's citizens shall hold dual citizenship of both states. Which state may exercise diplomatic protection for such a dual national against a third country? (2 points)",
+   "a": "Each state of nationality, Bellistan or Livonia, alone or jointly (Art 6(1), (2) DADP).\n• Nationality acquired by state succession is valid (Art 4 DADP) → third state cannot object.\n• No effective-nationality test against third states.\n• Contrast: against the other national state only if its nationality is predominant at injury and at official presentation of the claim (Art 7 DADP).",
+   "old_fronts": [
+    "[Jun 2024 · Q1(d)] The multiethnic state of Bellivonia is to be divided into two parts, which all political forces agree on: the larger state Bellistan (more than 80% of Bellivonia's territory) and the smaller state Livonia. Bellistan's scholars claim that Bellistan continues the legal identity of Bellivonia under a new name as the 'rump state' and only Livonia is a new state; Livonia argues that Bellivonia has ceased to exist and both are successor states. Bellistan and Livonia agree that the citizens of Bellivonia shall have dual citizenship of both states. Which state may exercise diplomatic protection for such a dual national against a third country? (2 points)",
+    "The multiethnic state of Bellivonia is to be divided into two parts, which all political forces agree on: the larger state Bellistan (more than 80% of Bellivonia's territory) and the smaller state Livonia. Bellistan's scholars claim that Bellistan continues the legal identity of Bellivonia under a new name as the 'rump state' and only Livonia is a new state; Livonia argues that Bellivonia has ceased to exist and both are successor states. Bellistan and Livonia agree that the citizens of Bellivonia shall have dual citizenship of both states. Which state may exercise diplomatic protection for such a dual national against a third country? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q2(a)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "[Jun 2024 · Q2(a)] A, B and C, humanitarian associations from three different countries, discuss founding an international organization. A's Secretary General doubts this, since only states can found international organizations and A, B and C are associations. Can an international organization only be founded by states, or also by other legal entities? (2 points)",
+   "a": "Partly right: besides states, IOs can found IOs, but private associations like A, B and C cannot.\n• IO = established by treaty or other instrument governed by IL (Art 2(a) ARIO) → founders need treaty-making capacity: states, IOs.\n• EC founding WTO member 1995; EEC and EIB founded EBRD 1990.\n• Associations lack treaty capacity → private-law contract → international NGO, not IO.",
+   "old_fronts": [
+    "[Jun 2024 · Q2(a)] A, B and C are humanitarian organizations from three different countries. In light of current armed conflicts and increasing challenges, they aim to network, organise and legally protect themselves better, and discuss founding an international organization. The Secretary General of A has doubts, claiming that only states can found international organizations — A, B and C, however, are associations. Assess the doubts of A's Secretary General: can an international organization only be founded by states, or is it also possible for other legal entities to found one? (2 points)",
+    "A, B and C are humanitarian organizations from three different countries. In light of current armed conflicts and increasing challenges, they aim to network, organise and legally protect themselves better, and discuss founding an international organization. The Secretary General of A has doubts, claiming that only states can found international organizations — A, B and C, however, are associations. Assess the doubts of A's Secretary General: can an international organization only be founded by states, or is it also possible for other legal entities to found one? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q2(b)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Jun 2024 · Q2(b)] A, B and C, humanitarian associations, discuss founding an international organization. A's Secretary General says only states can found one. B's president disagrees, citing the Red Cross as a model. Is the 'Red Cross' an international organization? To what extent could it serve as a model for A, B and C? (4 points)",
+   "a": "No: the ICRC is a private association under Swiss law with partial (functional) international personality conferred by states → only a limited model.\n• Not an IO: association under Art 60 Swiss Civil Code, not founded by treaty, no state members (likewise Federation, national societies).\n• Partial personality: mandate in Geneva Conventions 1949/APs 1977 (POW visits, tracing, humanitarian initiative, common Art 3); HQ agreement with Switzerland 1993; GA observer 1990; ICTY Simić 1999.\n• Limit: non-state personality depends on conferral by states → cannot be self-created; ICRC rests on 150 years' practice.\n• Options: NGOs with ECOSOC consultative status (Art 71 UN Charter), host-state agreements, or states found a real IO by treaty.",
+   "old_fronts": [
+    "[Jun 2024 · Q2(b)] A, B and C are humanitarian organizations from three different countries, all of them associations. In light of current armed conflicts they want to network, organise and legally protect themselves better and discuss founding an international organization. The Secretary General of A doubts that this is possible, since only states can found international organizations. The president of B disagrees, citing the Red Cross as a similar organization to model their project after. Assess B's argument: is the \"Red Cross\" an international organization? To what extent could it serve as a model for the project of A, B and C? (4 points)",
+    "A, B and C are humanitarian organizations from three different countries, all of them associations. In light of current armed conflicts they want to network, organise and legally protect themselves better and discuss founding an international organization. The Secretary General of A doubts that this is possible, since only states can found international organizations. The president of B disagrees, citing the Red Cross as a similar organization to model their project after. Assess B's argument: is the \"Red Cross\" an international organization? To what extent could it serve as a model for the project of A, B and C? (4 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q2(c)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Jun 2024 · Q2(c)] A, B and C, humanitarian associations, discuss founding an international organization. C's chairwoman insists on IO status to better protect their aid goods from confiscation. To what extent is she correct that the property of international organizations is protected from confiscation? (2 points)",
+   "a": "Largely correct, but protection is treaty-based, not automatic, and binds only states party.\n• Property immune from legal process (Section 2) and from search, requisition, confiscation, expropriation (Section 3 1946 Convention; Art 105(1) UN Charter); premises inviolable; HQ agreements.\n• Limits: custom debated; inviolable ≠ extraterritorial.\n• A, B and C cannot create an IO → only agreements with states.",
+   "old_fronts": [
+    "[Jun 2024 · Q2(c)] A, B and C, humanitarian associations from three different countries, discuss founding an international organization. The chairwoman of C insists on achieving international organization status in order to ensure better protection of their aid goods from confiscation. To what extent is she correct in asserting that the property of international organizations is protected from confiscation? (2 points)",
+    "A, B and C, humanitarian associations from three different countries, discuss founding an international organization. The chairwoman of C insists on achieving international organization status in order to ensure better protection of their aid goods from confiscation. To what extent is she correct in asserting that the property of international organizations is protected from confiscation? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q2(d)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Jun 2024 · Q2(d)] A, B and C, humanitarian associations, discuss founding an international organization. C's chairwoman insists on IO status, among other things to protect their staff from arrest. To what extent is she correct that the staff of international organizations is better protected from arrest? (2 points)",
+   "a": "Only partly: ordinary officials have functional immunity for official acts, no general immunity from arrest.\n• Immune for words and acts in official capacity, even against own state (Art 105(2) UN Charter; Section 18(a) 1946 Convention).\n• Private acts → arrest possible; waiver by SG (Section 20).\n• Diplomatic immunity only for SG and ASGs (Section 19); experts on mission immune from arrest (Section 22(a)).",
+   "old_fronts": [
+    "[Jun 2024 · Q2(d)] A, B and C, humanitarian associations from three different countries, discuss founding an international organization. The chairwoman of C insists on achieving international organization status, among other things in order to protect their staff from arrest. To what extent is she correct in asserting that the staff of international organizations is better protected from arrest? (2 points)",
+    "A, B and C, humanitarian associations from three different countries, discuss founding an international organization. The chairwoman of C insists on achieving international organization status, among other things in order to protect their staff from arrest. To what extent is she correct in asserting that the staff of international organizations is better protected from arrest? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q3(a)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 8,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Jun 2024 · Q3(a)] Rachastan and Antrania have disputed the region of Bethania since independence 45 years ago; the colonial power assigned it to Antrania although over 90% of its inhabitants are ethnic Rachastanis. They have fought three wars, and after the assassination of an Antranian politician in Bethania a new war threatens. The St. Petersburg Federation, a third state, wants to help them reach a peaceful settlement. What options do third parties (non-disputing states) have to support the parties in reaching an agreement? Explain the procedures and the role of the third party in each. (8 points)",
+   "a": "Third parties can offer the non-binding diplomatic means of Art 33(1) UN Charter (good offices, inquiry, mediation, conciliation) with rising involvement, each only with the consent of both parties.\n• Framework: duty of peaceful settlement (Art 2(3) UN Charter); Art 33(1) = menu, free choice of means (consensualism); negotiation itself has no third party.\n• Good offices: no influence on content; third party provides venue, communication channels, logistics so the parties talk without losing face (Iran deal, Vienna 2015; UN SG) → St. Petersburg hosts talks.\n• Inquiry: commission (parity, agreed rules) establishes disputed facts in a non-binding report, no legal conclusions (Hague Conventions 1899/1907; Dogger Bank 1904) → clarify the assassination.\n• Mediation: third party actively proposes non-binding terms, may exert influence, offer incentives, work confidentially (Algeria, Iran–US 1980–81) → e.g. autonomy, minority guarantees or referendum for Bethania.\n• Conciliation: formalised inquiry + mediation; commission examines facts and law, hears the parties, proposes a non-binding compromise (Jan Mayen 1981; Timor-Leste/Australia 2016–18).\n• UN: SC may investigate (Art 34), recommend procedures or terms (Arts 36–37, Chapter VI); regional agencies (Art 52). Contrast: arbitration/ICJ bind, also only with consent.",
+   "old_fronts": [
+    "[Jun 2024 · Q3(a)] (June 2024 exam) The neighbouring states Rachastan and Antrania have been in conflict over the region of Bethania since their independence 45 years ago. Before independence their joint colonial power assigned Bethania to Antrania, although over 90 % of its inhabitants are ethnic Rachastanis. The states have already fought three wars over the region, and after the assassination of an Antranian politician in Bethania a new war threatens. The Foreign Minister of a third state, the St. Petersburg Federation, wants to help the parties reach a peaceful settlement. What options do third parties (non-disputing states) have to support the parties in reaching an agreement? Explain the different procedures and the role the third party plays in each. (8 points)",
+    "(June 2024 exam) The neighbouring states Rachastan and Antrania have been in conflict over the region of Bethania since their independence 45 years ago. Before independence their joint colonial power assigned Bethania to Antrania, although over 90 % of its inhabitants are ethnic Rachastanis. The states have already fought three wars over the region, and after the assassination of an Antranian politician in Bethania a new war threatens. The Foreign Minister of a third state, the St. Petersburg Federation, wants to help the parties reach a peaceful settlement. What options do third parties (non-disputing states) have to support the parties in reaching an agreement? Explain the different procedures and the role the third party plays in each. (8 points)"
+   ]
+  },
+  {
+   "id": "il-2024-06:Q3(b)",
+   "topic": "Past exam — 28 June 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Jun 2024 · Q3(b)] Rachastan and Antrania dispute the region of Bethania. Both reject a third state's offer of mediation. Rachastan wants the conflict resolved bindingly by an independent, impartial institution. Which procedures can Rachastan use, and what requirement must be met for them to take place? (2 points)",
+   "a": "Arbitration or ICJ, but only if Antrania also consents: no compulsory jurisdiction.\n• Binding decision under IL: arbitration (ad hoc or PCA) or ICJ (Art 59 ICJ Statute, Art 94(1) UN Charter).\n• Consent: compromis or compromissory clause (Art 36(1) ICJ Statute), optional clause declarations of both (Art 36(2)) or forum prorogatum.\n• Otherwise only SC/GA (Art 35 UN Charter) → recommendations.",
+   "old_fronts": [
+    "[Jun 2024 · Q3(b)] (June 2024 exam) Rachastan and Antrania are in a long-standing territorial dispute over the region of Bethania. Both reject a third state's offer of mediation. Rachastan is still interested in a peaceful solution and wants the conflict resolved bindingly by an independent, impartial institution. Which procedures can Rachastan use, and what requirement must be met for them to take place? (2 points)",
+    "(June 2024 exam) Rachastan and Antrania are in a long-standing territorial dispute over the region of Bethania. Both reject a third state's offer of mediation. Rachastan is still interested in a peaceful solution and wants the conflict resolved bindingly by an independent, impartial institution. Which procedures can Rachastan use, and what requirement must be met for them to take place? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q1(a)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "definice",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Apr 2024 · Q1(a)] (April 2024 exam) State Willunia has dissolved; its successor State Selenur announces that its courts will hear claims against foreign states even for acts performed in the exercise of sovereign authority. The President of Cornistan replies: \"Sovereign immunity is part of customary international law. It is based on a strong sense of legal obligation of the community of states.\" What does \"sense of legal obligation\" mean? How can a state express it? What is the second constitutive element of customary international law? (3 points)",
+   "a": "It means opinio iuris (practice accepted as law); the second element is general state practice.\n• Art 38(1)(b) ICJ Statute: custom = \"general practice accepted as law\"; both elements needed (ILC 2018 Concl. 2).\n• Opinio iuris = acting from a sense of legal obligation, not courtesy (North Sea 1969).\n• Expressed by (Concl. 10): public statements, diplomatic notes (like Cornistan's), legal opinions, court decisions, treaties, IO resolution votes; silence where reaction called for.\n• Practice (Concl. 6, 8): physical and verbal acts (legislation, court decisions); widespread, representative, consistent.",
+   "old_fronts": [
+    "[Apr 2024 · Q1(a)] (April 2024 exam) State Willunia has dissolved; the new small State Selenur is one of its successor states. Selenur announces that it does not accept sovereign immunity and that its courts will hear claims against foreign states even for acts performed in the exercise of sovereign authority. The President of neighbouring Cornistan replies: \"Sovereign immunity is part of customary international law. It is based on a strong sense of legal obligation of the community of states.\" What does \"sense of legal obligation\" mean? How can a state express it? What is the second constitutive element of customary international law? (3 points)",
+    "(April 2024 exam) State Willunia has dissolved; the new small State Selenur is one of its successor states. Selenur announces that it does not accept sovereign immunity and that its courts will hear claims against foreign states even for acts performed in the exercise of sovereign authority. The President of neighbouring Cornistan replies: \"Sovereign immunity is part of customary international law. It is based on a strong sense of legal obligation of the community of states.\" What does \"sense of legal obligation\" mean? How can a state express it? What is the second constitutive element of customary international law? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q1(b)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Apr 2024 · Q1(b)] (April 2024 exam) Selenur, a new state that emerged from the dissolution of Willunia, refuses to grant foreign states immunity for sovereign acts, arguing: \"Since the founding of our state our government has criticised sovereign immunity. Therefore Selenur is a persistent objector and not bound by it.\" What can a persistent objector achieve with its protest? What must a state do to be a persistent objector? Can Selenur be a persistent objector? (4 points)",
+   "a": "No — Selenur objects too late: immunity was settled custom before Selenur existed.\n• Effect: the rule binds all others, but is not opposable to the objector while it maintains its objection (ILC 2018 Concl. 15(1); Anglo-Norwegian Fisheries 1951).\n• Conditions (Concl. 15(1)–(2)): objection while the rule is forming, clearly expressed, made known to other states, maintained persistently; impossible against ius cogens (ILC 2022 Concl. 14(3)).\n• Application: immunity is long-established custom (Germany v Italy 2012); a new state is bound by custom in force at its birth; no Willunia objection to continue → at most a subsequent objector.\n• → Selenur is bound; denying immunity for acta iure imperii is an internationally wrongful act.",
+   "old_fronts": [
+    "[Apr 2024 · Q1(b)] (April 2024 exam) Selenur, a new state that emerged from the dissolution of Willunia, refuses to grant foreign states immunity for sovereign acts. It argues: \"Since the founding of our state our government has criticised sovereign immunity. Therefore Selenur is a persistent objector and not bound by it.\" What can a persistent objector achieve with its protest? What must a state do to be a persistent objector? Can Selenur be a persistent objector? (4 points)",
+    "(April 2024 exam) Selenur, a new state that emerged from the dissolution of Willunia, refuses to grant foreign states immunity for sovereign acts. It argues: \"Since the founding of our state our government has criticised sovereign immunity. Therefore Selenur is a persistent objector and not bound by it.\" What can a persistent objector achieve with its protest? What must a state do to be a persistent objector? Can Selenur be a persistent objector? (4 points)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q1(c)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Apr 2024 · Q1(c)] (April 2024 exam) Selenur argues: \"Sovereign immunity cannot be customary law, because not all states were actively involved in creating it. The consent of states is the pillar of the international legal order, so all states must participate in creating a rule of customary law.\" Do all states have to participate in creating a norm of customary international law? What else does the requirement of \"generality of practice\" mean? (3 points)",
+   "a": "No — practice must be general, not universal; non-participating states are bound unless they are persistent objectors.\n• Widespread and representative (regions, legal systems), including specially affected states (ILC 2018 Concl. 8(1); North Sea 1969: \"extensive and virtually uniform\").\n• Consistent: \"constant and uniform usage\" (Asylum 1950); deviations treated as breaches do not prevent the rule (Nicaragua 1986).\n• No minimum duration (Concl. 8(2)).\n• Consent is tacit: silence while the rule forms = acquiescence; new states are bound by existing custom → immunity binds Selenur.",
+   "old_fronts": [
+    "[Apr 2024 · Q1(c)] (April 2024 exam) The new State Selenur argues: \"Sovereign immunity cannot be customary law, because not all states were actively involved in creating it. The consent of states is the pillar of the international legal order, so all states must participate in creating a rule of customary law.\" Do all states have to participate in creating a norm of customary international law? What else does the requirement of \"generality of practice\" mean? (3 points)",
+    "(April 2024 exam) The new State Selenur argues: \"Sovereign immunity cannot be customary law, because not all states were actively involved in creating it. The consent of states is the pillar of the international legal order, so all states must participate in creating a rule of customary law.\" Do all states have to participate in creating a norm of customary international law? What else does the requirement of \"generality of practice\" mean? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q2(a)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "proces",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Apr 2024 · Q2(a)] (April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments' (subject to ratification), which prohibits demolition and significant constructional changes of protected buildings. What further steps, internationally and domestically, are required after the signature for the Convention to bind and be applied in State A? (4 points)",
+   "a": "Signature subject to ratification does not yet bind (Art 14 VCLT); these steps follow.\n• Domestic approval by parliament (Austria: Art 50(1) Z 1 B-VG).\n• Ratification = international consent (Arts 2(1)(b), 14 VCLT) by the Head of State, no full powers needed (Art 7(2)(a); Austria: Art 65(1) B-VG).\n• Deposit with the UNESCO Director-General → consent established (Art 16(b)).\n• Entry into force per treaty terms, for a later ratifier on its own date (Art 24(1), (3)) → bound (Art 26).\n• UN registration (Art 102 Charter, Art 80 VCLT; no validity condition); domestic publication, implementing laws if not self-executing (Art 50(2) Z 4 B-VG).\n• Meanwhile Art 18: no defeating object and purpose.",
+   "old_fronts": [
+    "[Apr 2024 · Q2(a)] In 2023 the Foreign Minister of State Antica signed the UNESCO 'Convention for the Protection of Ancient Monuments', which is subject to ratification and obliges parties to protect certain buildings against demolition and major alterations. What further steps are required, internationally and domestically, for the Convention to bind and be applied in Antica? (4 points)",
+    "In 2023 the Foreign Minister of State Antica signed the UNESCO 'Convention for the Protection of Ancient Monuments', which is subject to ratification and obliges parties to protect certain buildings against demolition and major alterations. What further steps are required, internationally and domestically, for the Convention to bind and be applied in Antica? (4 points)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q2(b)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 2,
+   "q": "[Apr 2024 · Q2(b)] (April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments'. After a change of government, the new head of government criticises that the Foreign Minister was not competent under international law to sign the Convention on behalf of the State. Who is authorised under international law to give the consent to be bound by a treaty? (1 point)",
+   "a": "Full-powers holders and, ex officio, Head of State, Head of Government, Foreign Minister → A's Foreign Minister was competent.\n• Art 7(1) VCLT: full powers (a) or practice (b).\n• Art 7(2)(a): big three need none (Cameroon v Nigeria 2002).",
+   "old_fronts": [
+    "[Apr 2024 · Q2(b)] (April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments', which obliges the contracting parties to give special protection to certain buildings: both their demolition and significant constructional changes are prohibited. After a change of government, the new head of government strongly disagrees with this policy, because the strict protection requirements would impede real estate projects in the city centre and hamper the expansion of the underground railway. In particular, he criticises that the Foreign Minister was not competent under international law to sign the Convention on behalf of the State. Who is authorised under international law to give the consent to be bound by a treaty? (1 point)",
+    "(April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments', which obliges the contracting parties to give special protection to certain buildings: both their demolition and significant constructional changes are prohibited. After a change of government, the new head of government strongly disagrees with this policy, because the strict protection requirements would impede real estate projects in the city centre and hamper the expansion of the underground railway. In particular, he criticises that the Foreign Minister was not competent under international law to sign the Convention on behalf of the State. Who is authorised under international law to give the consent to be bound by a treaty? (1 point)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q2(c)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Apr 2024 · Q2(c)] (April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments'. A new head of government finds that it would impede real estate projects and the underground railway. His objection that the Foreign Minister was not competent to sign has failed, but he is determined to assert the invalidity of the treaty. Under which conditions can the validity of a treaty be challenged? (3 points)",
+   "a": "Only on the exhaustive VCLT grounds (Art 42(1)); none applies, a policy change is no ground.\n• Relative (only the affected state; lost by acquiescence, Art 45): Art 46 manifest breach of fundamental competence rule, 47 notified restriction, 48 essential error, 49 fraud, 50 corruption.\n• Absolute (void, no separability, Art 44(5)): 51 coercion of representative, 52 coercion of state by force, 53 ius cogens.\n• Procedure: notify parties with reasons, peaceful settlement (Arts 65–67).\n• → A may only decline ratification (Art 18) or withdraw (Arts 54, 56).",
+   "old_fronts": [
+    "[Apr 2024 · Q2(c)] (April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments', which obliges the contracting parties to give special protection to certain buildings: both their demolition and significant constructional changes are prohibited. After a change of government, the new head of government finds that these rules would impede real estate projects and the expansion of the underground railway in the city centre. His objection that the Foreign Minister was not competent to sign has failed, but he is nevertheless determined to assert the invalidity of the treaty. Under which conditions can the validity of a treaty be challenged? (3 points)",
+    "(April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments', which obliges the contracting parties to give special protection to certain buildings: both their demolition and significant constructional changes are prohibited. After a change of government, the new head of government finds that these rules would impede real estate projects and the expansion of the underground railway in the city centre. His objection that the Foreign Minister was not competent to sign has failed, but he is nevertheless determined to assert the invalidity of the treaty. Under which conditions can the validity of a treaty be challenged? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q2(d)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Apr 2024 · Q2(d)] (April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments'. The new head of government, opposing it because of real estate and railway projects, declares that the treaty is void, since it violates domestic law. How will State A's International Law Office respond to this statement? (2 points)",
+   "a": "Not void: internal law is no excuse; Art 46 VCLT not met.\n• Art 27 VCLT: internal law cannot justify non-performance; validity only on VCLT grounds (Art 42(1)).\n• Art 46: only a manifest (Art 46(2)) violation of a fundamental internal rule on treaty-making competence → here content.\n• → perform in good faith (Art 26), adapt domestic law; if unratified, declare non-ratification (Art 18).",
+   "old_fronts": [
+    "[Apr 2024 · Q2(d)] (April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments', which obliges the contracting parties to give special protection to certain buildings: both their demolition and significant constructional changes are prohibited. After a change of government, the new head of government strongly disagrees with this policy, because it would impede real estate projects and the expansion of the underground railway in the city centre. He remains unimpressed after a briefing by State A's International Law Office and declares that the treaty is void, since it violates domestic law. How will the International Law Office respond to this statement? (2 points)",
+    "(April 2024 exam) In 2023 the Foreign Minister of State A signed the UNESCO 'Convention for the Protection of Ancient Monuments', which obliges the contracting parties to give special protection to certain buildings: both their demolition and significant constructional changes are prohibited. After a change of government, the new head of government strongly disagrees with this policy, because it would impede real estate projects and the expansion of the underground railway in the city centre. He remains unimpressed after a briefing by State A's International Law Office and declares that the treaty is void, since it violates domestic law. How will the International Law Office respond to this statement? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q3(a)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "[Apr 2024 · Q3(a)] (April 2024 exam) Mike believes that, since a ban on violence is not enshrined anywhere, the prohibition of the use of force is not binding under international law. And anyway, he argues, a state can simply threaten a weaker state with the use of force and thus enforce its will. Are Mike's statements correct, and why (not)? (2 points)",
+   "a": "No, both statements are wrong.\n• Art 2(4) UN Charter prohibits the threat or use of force; also custom and ius cogens (Nicaragua 1986, paras 188–190) → binds all states.\n• Threat unlawful whenever the threatened force would be (Nuclear Weapons AO 1996, para 47); treaty extorted by threat void (Art 52 VCLT).\n• Force only under Art 51 or Chapter VII.",
+   "old_fronts": [
+    "[Apr 2024 · Q3(a)] (April 2024 exam) Friends Mike, Rachel and Harvey discuss current global events. They are concerned about the increasing outbreaks of violence and wonder how international law regulates the use of force between states. Mike is a pessimist and therefore believes that, since a ban on violence is not enshrined anywhere, the prohibition of the use of force is not binding under international law. And anyway, he argues, a state can simply threaten a weaker state with the use of force and thus enforce its will. Are Mike's statements correct, and why (not)? (2 points)",
+    "(April 2024 exam) Friends Mike, Rachel and Harvey discuss current global events. They are concerned about the increasing outbreaks of violence and wonder how international law regulates the use of force between states. Mike is a pessimist and therefore believes that, since a ban on violence is not enshrined anywhere, the prohibition of the use of force is not binding under international law. And anyway, he argues, a state can simply threaten a weaker state with the use of force and thus enforce its will. Are Mike's statements correct, and why (not)? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q3(b)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 6,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Apr 2024 · Q3(b)] (April 2024 exam) Rachel says that despite the prohibition of the use of force, states may still use force if the UN General Assembly allows it, for example in self-defence. Furthermore, a state is allowed to defend itself against terrorists. What are the exceptions to the ban on the use of force? Explain them briefly. Is Rachel right that the General Assembly can authorise the use of force? Is it true that states may defend themselves against terrorists? (6 points)",
+   "a": "Exceptions: self-defence (Art 51) and SC authorisation (Chapter VII); the GA cannot authorise force; self-defence against terrorists only under strict, partly contested conditions.\n• Art 51: armed attack (occurring or imminent) of sufficient gravity (Nicaragua 1986, para 191), necessity, proportionality, report to SC, until SC acts; collective only at the victim's request.\n• Chapter VII: SC determines threat/breach of peace/aggression (Art 39), authorises \"all necessary means\" (Art 42; Res 678 (1990)).\n• Contested: humanitarian intervention (Kosovo 1999), rescue of nationals; government invitation: no force against the state.\n• GA: wrong — self-defence is an inherent right needing no permission; GA only recommends (Arts 10–14, 11(2); Certain Expenses 1962), even under Uniting for Peace (Res 377(V)).\n• Terrorists: lawful if the attack is attributable to a state (Nicaragua para 195) or with the territorial state's consent; against non-state actors as such contested: ICJ requires a state attack (Wall 2004, para 139), but Res 1368/1373 (2001) and \"unable or unwilling\" practice support it → Rachel partly right.",
+   "old_fronts": [
+    "[Apr 2024 · Q3(b)] Rachel says that although there is a prohibition of the use of force, states may still use force if the UN General Assembly allows it, for example in self-defence. Furthermore — and this is particularly important to her as an officer in the Austrian Armed Forces — a state is allowed to defend itself against terrorists. What are the exceptions to the ban on the use of force? Explain them briefly. Is Rachel right that the General Assembly can authorise the use of force? Is it true that states may defend themselves against terrorists? (6 points)",
+    "Rachel says that although there is a prohibition of the use of force, states may still use force if the UN General Assembly allows it, for example in self-defence. Furthermore — and this is particularly important to her as an officer in the Austrian Armed Forces — a state is allowed to defend itself against terrorists. What are the exceptions to the ban on the use of force? Explain them briefly. Is Rachel right that the General Assembly can authorise the use of force? Is it true that states may defend themselves against terrorists? (6 points)"
+   ]
+  },
+  {
+   "id": "il-2024-04:Q3(c)",
+   "topic": "Past exam — 25 April 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Apr 2024 · Q3(c)] (April 2024 exam) Harvey argues that any interference in the internal affairs of a state is forbidden, even below the intensity of war. Rachel counters that states cannot choose whether to keep treaties, so in the event of a treaty breach external intervention is permissible. Which rule of international law are Harvey and Rachel arguing about? Which of them has characterised it correctly, and why? (2 points)",
+   "a": "Non-intervention (custom; Friendly Relations Declaration 1970) — neither is fully right.\n• Nicaragua 1986, para 205: prohibited = coercion in matters a state decides freely (domaine réservé); Art 2(7) Charter binds only the UN.\n• Harvey too broad: protests, criticism, ending aid are lawful.\n• Rachel wrong: breach allows only countermeasures (Arts 49–54 ARSIWA; no force, Art 50(1)(a)) or suspension/termination (Art 60 VCLT).",
+   "old_fronts": [
+    "[Apr 2024 · Q3(c)] Harvey, strictly against any form of violence even if it does not reach the intensity of war, argues that any interference in the internal affairs of a state is forbidden. Rachel counters that it is not up to states to decide whether they adhere to international treaties, and that in the event of a breach of treaty external intervention is indeed permissible. Which rule of international law are Harvey and Rachel arguing about? Which of them has characterised it correctly, and why? (2 points)",
+    "Harvey, strictly against any form of violence even if it does not reach the intensity of war, argues that any interference in the internal affairs of a state is forbidden. Rachel counters that it is not up to states to decide whether they adhere to international treaties, and that in the event of a breach of treaty external intervention is indeed permissible. Which rule of international law are Harvey and Rachel arguing about? Which of them has characterised it correctly, and why? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-03:Q1(a)",
+   "topic": "Past exam — 7 March 2024",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "srovnani",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "[Mar 2024 · Q1(a)] Name the different models of state succession. Provide examples. (3 points)",
+   "a": "Four models — dissolution, secession/separation, merger, incorporation — plus cession and decolonisation.\n• Succession = one state replaces another in responsibility for a territory's international relations (Art 2(1)(b) VCST).\n• Dissolution (dismembratio): predecessor disappears, e.g. SFRY 1991–92, Czechoslovakia 1993.\n• Secession/separation: predecessor continues, e.g. Montenegro 2006, South Sudan 2011, USSR 1991 (Russia continues).\n• Merger: new state replaces all, e.g. Tanzania 1964, Yemen 1990.\n• Incorporation: absorption, e.g. GDR into FRG 1990; forcible annexation ≠ succession (Art 6 VCST).\n• Cession: Alaska 1867, Hong Kong 1997; decolonisation: Algeria 1962.",
+   "old_fronts": [
+    "[Mar 2024 · Q1(a)] Name the different models of state succession. Provide examples. (3 points)",
+    "Name the different models of state succession. Provide examples. (3 points)"
+   ]
+  },
+  {
+   "id": "il-2024-03:Q1(b)",
+   "topic": "Past exam — 7 March 2024",
+   "layer": "realna-zkouska",
+   "points": 5,
+   "kind": "norma",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Mar 2024 · Q1(b)] What are the consequences of the different models of state succession for succession in treaties? From which legal sources do the rules of state succession derive? (5 points)",
+   "a": "Consequences depend on model and treaty type; sources: 1978 and 1983 Vienna Conventions, custom, agreements.\n• Theories: automatic succession, clean slate (tabula rasa), pick and choose.\n• Separation: predecessor keeps its treaties (Art 35 VCST); each successor, also after dissolution, stays bound by treaties in force for its territory unless agreed otherwise or incompatible (Art 34) → Czech Republic, Slovakia 1993.\n• Merger: treaties continue only for their old territory (Art 31); incorporation in practice = moving frontiers (Germany 1990).\n• Cession: moving treaty frontiers (Art 15); newly independent states: clean slate (Art 16), may join multilateral treaties by notification (Art 17).\n• Always pass: boundaries, territorial regimes (Arts 11–12; Gabčíkovo-Nagymaros 1997); alliances never.\n• Sources: VCST 1978 (in force 1996, not retroactive, Art 7); 1983 Convention on property, archives, debts (not in force); custom (decisive); devolution agreements, declarations.",
+   "old_fronts": [
+    "[Mar 2024 · Q1(b)] What are the consequences of the different models of state succession for succession in treaties? From which legal sources do the rules of state succession derive? (5 points)",
+    "What are the consequences of the different models of state succession for succession in treaties? From which legal sources do the rules of state succession derive? (5 points)"
+   ]
+  },
+  {
+   "id": "il-2024-03:Q1(c)",
+   "topic": "Past exam — 7 March 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Mar 2024 · Q1(c)] Is there succession with regard to state property (assets) and to state responsibility? (2 points)",
+   "a": "Yes for property, archives and debts; responsibility traditionally no, today by agreement.\n• Property passes without compensation (Art 11 Vienna Convention 1983, not in force; custom): immovables where they lie, territory-linked movables follow, rest equitably (Arts 17–18); debts equitably (Arts 40–41).\n• Responsibility stays with the wrongdoer (exception Art 10(2) ARSIWA: insurgents founding a state); by special agreement Slovakia succeeded (Gabčíkovo-Nagymaros 1997).",
+   "old_fronts": [
+    "[Mar 2024 · Q1(c)] Is there succession with regard to state property (assets) and to state responsibility? (2 points)",
+    "Is there succession with regard to state property (assets) and to state responsibility? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-03:Q2(a)",
+   "topic": "Past exam — 7 March 2024",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "cisla",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Mar 2024 · Q2(a)] Alandia, Bergamont and Chiemera sign a treaty on Lake Barbara on 24 May 2024; it enters into force on the 20th day after ratification by two signatory States. Alandia deposits its ratification with the depositary Bergamont on 15 June 2024. Bergamont ratifies on 23 October 2024 with a reservation excluding the research provisions. Alandia protests in writing against the reservation on 21 November 2024; Chiemera no longer wants to ratify. Has the treaty entered into force? If yes, when? (1 point)",
+   "a": "Yes — on 12 November 2024.\n• Art 24(1) VCLT: 20th day after the 2nd ratification (Bergamont, 23 Oct 2024) → 12 Nov 2024.\n• Chiemera not needed; Alandia's simple objection does not prevent entry into force (Art 20(4)(b)).",
+   "old_fronts": [
+    "[Mar 2024 · Q2(a)] Alandia, Bergamont and Chiemera border Lake Barbara, used mainly for tourism and fishing and also of interest to scientists. On 24 May 2024 their Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' at a special event; it enters into force on the 20th day after ratification by two signatory States. Alandia deposits its instrument of ratification with the depositary Bergamont on 15 June 2024. Bergamont ratifies on 23 October 2024 with a reservation excluding the research provisions. Alandia submits a written protest against the reservation on 21 November 2024; Chiemera no longer wants to ratify. Has the treaty entered into force? If yes, when? (1 point)",
+    "Alandia, Bergamont and Chiemera border Lake Barbara, used mainly for tourism and fishing and also of interest to scientists. On 24 May 2024 their Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' at a special event; it enters into force on the 20th day after ratification by two signatory States. Alandia deposits its instrument of ratification with the depositary Bergamont on 15 June 2024. Bergamont ratifies on 23 October 2024 with a reservation excluding the research provisions. Alandia submits a written protest against the reservation on 21 November 2024; Chiemera no longer wants to ratify. Has the treaty entered into force? If yes, when? (1 point)"
+   ]
+  },
+  {
+   "id": "il-2024-03:Q2(b)",
+   "topic": "Past exam — 7 March 2024",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Mar 2024 · Q2(b)] Alandia, Bergamont and Chiemera border Lake Barbara (tourism, fishing, scientific research). Their Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' (in force after two ratifications). Alandia ratifies on 15 June 2024. Upon ratification on 23 October 2024, Bergamont, the depositary, declares: 'Bergamont is not bound by those parts of the treaty that concern research activities in and around Lake Barbara.' Alandia protests in writing on 21 November 2024. Is Bergamont's reservation admissible? Examine the conditions! (4 points)",
+   "a": "Yes — a genuine reservation, timely, written, not prohibited and compatible with object and purpose (Art 19 VCLT).\n• Reservation: unilateral statement on ratification excluding the legal effect of certain provisions (Art 2(1)(d)) → research provisions.\n• Time: on signature, ratification or accession (Art 19 chapeau) → in time.\n• Form: in writing, communicated to contracting States and States entitled to become parties (Art 23(1)).\n• No clause prohibiting reservations (Art 19(a)–(b)); object and purpose (Art 19(c)): treaty covers tourism and economic uses, research peripheral → compatible.\n• Alandia's protest concerns only effect, not admissibility (Arts 20–21); only if integrity among the three was essential would Art 20(2) require acceptance by all.",
+   "old_fronts": [
+    "[Mar 2024 · Q2(b)] Alandia, Bergamont and Chiemera border Lake Barbara. The lake is used mainly for tourism (swimming, water sports, recreational boating), also for economically relevant fishing, and scientists research its water and lakebed. On 24 May 2024 the three Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' at a special event. Under its final provisions it enters into force on the 20th day after ratification by two signatory States. Alandia transmits its instrument of ratification to the depositary, Bergamont, on 15 June 2024. Bergamont faces domestic political difficulties and formulates a reservation to appease the opposition: 'Bergamont is not bound by those parts of the treaty that concern research activities in and around Lake Barbara.' It submits the reservation upon ratification on 23 October 2024. Alandia submits a written protest against the reservation on 21 November 2024. Chiemera is no longer willing to ratify. Is the reservation made by Bergamont admissible? Examine the conditions! (4 points)",
+    "Alandia, Bergamont and Chiemera border Lake Barbara. The lake is used mainly for tourism (swimming, water sports, recreational boating), also for economically relevant fishing, and scientists research its water and lakebed. On 24 May 2024 the three Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' at a special event. Under its final provisions it enters into force on the 20th day after ratification by two signatory States. Alandia transmits its instrument of ratification to the depositary, Bergamont, on 15 June 2024. Bergamont faces domestic political difficulties and formulates a reservation to appease the opposition: 'Bergamont is not bound by those parts of the treaty that concern research activities in and around Lake Barbara.' It submits the reservation upon ratification on 23 October 2024. Alandia submits a written protest against the reservation on 21 November 2024. Chiemera is no longer willing to ratify. Is the reservation made by Bergamont admissible? Examine the conditions! (4 points)"
+   ]
+  },
+  {
+   "id": "il-2024-03:Q2(c)",
+   "topic": "Past exam — 7 March 2024",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Mar 2024 · Q2(c)] Under the Lake Barbara treaty (in force on the 20th day after two ratifications), Bergamont, the depositary, ratifies on 23 October 2024 with a reservation excluding the research provisions and notifies it the same day. Alandia, which ratified on 15 June 2024, submits a written protest against the reservation on 21 November 2024, saying nothing about the treaty's entry into force between itself and Bergamont. Is Alandia's protest timely? Why (not)? What is its legal effect? (3 points)",
+   "a": "Yes, timely; as a simple objection it keeps the treaty in force between Alandia and Bergamont minus research provisions.\n• Written, communicated objection (Art 23(1) VCLT).\n• Deadline: 12 months after notification or own consent, whichever later (Art 20(5)) → until 23 Oct 2025 → timely.\n• Effect: no bar to entry into force unless definitely intended (Art 20(4)(b)); reserved provisions do not apply between them to the extent of the reservation (Art 21(3)).\n• Qualified objection → no treaty relations with Bergamont; if Art 20(2) applied → reservation blocked.",
+   "old_fronts": [
+    "[Mar 2024 · Q2(c)] Alandia, Bergamont and Chiemera border Lake Barbara, used mainly for tourism and fishing and also of interest to scientists. On 24 May 2024 their Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' at a special event; it enters into force on the 20th day after ratification by two signatory States. Bergamont (the depositary) ratifies on 23 October 2024 with a reservation excluding the treaty's research provisions and notifies it the same day. Alandia, which ratified on 15 June 2024, submits a written protest against the reservation on 21 November 2024, without saying anything about the treaty's entry into force between itself and Bergamont. Is Alandia's protest timely? Why (not)? What is its legal effect? (3 points)",
+    "Alandia, Bergamont and Chiemera border Lake Barbara, used mainly for tourism and fishing and also of interest to scientists. On 24 May 2024 their Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' at a special event; it enters into force on the 20th day after ratification by two signatory States. Bergamont (the depositary) ratifies on 23 October 2024 with a reservation excluding the treaty's research provisions and notifies it the same day. Alandia, which ratified on 15 June 2024, submits a written protest against the reservation on 21 November 2024, without saying anything about the treaty's entry into force between itself and Bergamont. Is Alandia's protest timely? Why (not)? What is its legal effect? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2024-03:Q2(d)",
+   "topic": "Past exam — 7 March 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Mar 2024 · Q2(d)] Alandia, Bergamont and Chiemera signed the Lake Barbara treaty through their Ministers of Tourism at a joint ceremony; it requires ratification and has entered into force between Alandia and Bergamont. After Bergamont's reservation, Chiemera is no longer willing to ratify. Is Chiemera bound by the treaty? What obligations might it nonetheless have regarding the treaty, and how could it free itself from them? (2 points)",
+   "a": "No — only a signatory; Art 18(a) applies.\n• Signature subject to ratification ≠ consent (Art 14(1)(a) VCLT) → no party (Arts 2(1)(g), 34).\n• Art 18(a): no acts defeating object and purpose (e.g. polluting the lake).\n• Release: notifying the depositary it will not ratify.\n• Tourism minister (not Art 7(2)(a)): full powers (Art 7(1)(a)) or practice (Art 7(1)(b)), else no effect (Art 8).",
+   "old_fronts": [
+    "[Mar 2024 · Q2(d)] Alandia, Bergamont and Chiemera border Lake Barbara, used mainly for tourism and fishing and also of interest to scientists. On 24 May 2024 their Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' at a special event; it enters into force on the 20th day after ratification by two signatory States. Chiemera signed through its Minister of Tourism but, after Bergamont's reservation, is no longer willing to ratify; the treaty has entered into force between Alandia and Bergamont. Is Chiemera bound by the treaty? What obligations might it nonetheless have regarding the treaty, and how could it free itself from them? (2 points)",
+    "Alandia, Bergamont and Chiemera border Lake Barbara, used mainly for tourism and fishing and also of interest to scientists. On 24 May 2024 their Ministers of Tourism sign the 'Treaty on the Use of Lake Barbara for Tourism and Other Economic Purposes' at a special event; it enters into force on the 20th day after ratification by two signatory States. Chiemera signed through its Minister of Tourism but, after Bergamont's reservation, is no longer willing to ratify; the treaty has entered into force between Alandia and Bergamont. Is Chiemera bound by the treaty? What obligations might it nonetheless have regarding the treaty, and how could it free itself from them? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-03:Q3",
+   "topic": "Past exam — 7 March 2024",
+   "layer": "realna-zkouska",
+   "points": 10,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Mar 2024 · Q3] Ken and Barbie are debating United Nations peacekeeping operations. Ken claims that such operations are established by the General Assembly in accordance with the UN Charter and serve strictly military purposes. Barbie disagrees: in her view peacekeeping operations may be used only in inter-state conflicts, since otherwise they would be incompatible with the UN Charter. Explain the concept of peacekeeping operations, especially their legal basis and scope of functions, and address the arguments of Ken and Barbie. (10 points)",
+   "a": "Both are wrong: peacekeeping operations are created mainly by the Security Council on implied powers, are multidimensional and are often deployed in internal conflicts.\n• Concept: UN military, police and civilian personnel ('blue helmets') contributed voluntarily by members to help create and keep conditions for lasting peace; neither Chapter VI nor Art 42 → 'Chapter VI½'.\n• Legal basis: no express Charter provision; implied powers serving Art 1(1) (Certain Expenses 1962) → costs are expenses of the Organization (Art 17(2)); plus Arts 24, 29, 40, a maiore ad minus from Chapter VII, and accepted practice.\n• Principles: consent of the host state and parties, impartiality, force only in self-defence and defence of the mandate; subsidiary organ under SC authority, directed by the Secretary-General.\n• Functions: classical – monitoring ceasefires and buffer zones (UNFICYP, UNDOF); multidimensional since 1989 – disarmament, police, elections, human rights, transitional administration (UNTAC, UNMIK); robust Chapter VII mandates to protect civilians (MONUSCO Intervention Brigade, Res 2098 (2013)).\n• Ken wrong: the SC establishes virtually all operations (primary responsibility, Art 24); the GA only exceptionally and consent-based – UNEF I 1956 under Uniting for Peace, since Art 11(2) 'action' means enforcement only (Certain Expenses); 'in accordance with the Charter' only via implied powers; not strictly military – police and civilian components, and even classical missions monitored rather than fought.\n• Barbie wrong: ONUC (Congo 1960), MONUSCO and UNMISS operate in internal conflicts. Compatible with the Charter: host consent → no intervention; internal conflicts may threaten international peace (Art 39; Tadić 1995); Art 2(7) does not bar Chapter VII measures.",
+   "old_fronts": [
+    "[Mar 2024 · Q3] Ken and Barbie are debating United Nations peacekeeping operations. Ken claims that such operations are established by the General Assembly in accordance with the UN Charter and serve strictly military purposes. Barbie disagrees: in her view peacekeeping operations may be used only in inter-state conflicts, since otherwise they would be incompatible with the UN Charter. Explain the concept of peacekeeping operations, especially their legal basis and scope of functions, and address the arguments of Ken and Barbie. (10 points)",
+    "Ken and Barbie are debating United Nations peacekeeping operations. Ken claims that such operations are established by the General Assembly in accordance with the UN Charter and serve strictly military purposes. Barbie disagrees: in her view peacekeeping operations may be used only in inter-state conflicts, since otherwise they would be incompatible with the UN Charter. Explain the concept of peacekeeping operations, especially their legal basis and scope of functions, and address the arguments of Ken and Barbie. (10 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q1(a)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "cisla",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Feb 2024 · Q1(a)] States A, B, C and D adopt a treaty on artificial intelligence, open to accession. Art XV: it enters into force on the first day of the month following deposit of the fourth instrument of ratification; for each State acceding thereafter, on the first day of the month following the fifteenth day after deposit of its instrument of accession. All four sign on 2 February 2024. B ratifies on 10 February, C on 20 March and D on 15 April 2024; A declares it will not ratify. Non-signatories E and F deposit their instruments on 10 June (E) and 12 September 2024 (F). When does the treaty enter into force for each State? Distinguish objective and subjective entry into force. (4 points)",
+   "a": "Objectively on 1 July 2024, also for B, C, D and E; for F on 1 October 2024; for A never.\n• Objective = the treaty as such enters into force, as it provides (Art 24(1) VCLT); subjective = for each State (Art 24(3)).\n• Only B, C, D ratified; E's accession (10 June) is the 4th instrument – same effect as ratification (Arts 2(1)(b), 15), good-faith reading (Art 31), else never in force without A → 1 July 2024 for B–E.\n• F: 12 Sept + 15 days = 27 Sept → 1 October 2024 (Art XV; Art 24(3)).\n• A: signatory only, never a party; its Art 18(a) duty ended with its declaration.",
+   "old_fronts": [
+    "[Feb 2024 · Q1(a)] States A, B, C and D adopt a treaty on artificial intelligence which is open to accession. Art XV: it enters into force on the first day of the month following the date of deposit of the fourth instrument of ratification; for each State acceding thereafter, on the first day of the month that follows the fifteenth day after the deposit of its instrument of accession. All four sign on 2 February 2024. B deposits its instrument of ratification on 10 February, C on 20 March and D on 15 April 2024. After a change of government, A declares that it will not ratify. States E and F, which did not sign, deposit their instruments on 10 June 2024 (E) and 12 September 2024 (F). When does the treaty enter into force for each State? Distinguish objective and subjective entry into force. (4 points)",
+    "States A, B, C and D adopt a treaty on artificial intelligence which is open to accession. Art XV: it enters into force on the first day of the month following the date of deposit of the fourth instrument of ratification; for each State acceding thereafter, on the first day of the month that follows the fifteenth day after the deposit of its instrument of accession. All four sign on 2 February 2024. B deposits its instrument of ratification on 10 February, C on 20 March and D on 15 April 2024. After a change of government, A declares that it will not ratify. States E and F, which did not sign, deposit their instruments on 10 June 2024 (E) and 12 September 2024 (F). When does the treaty enter into force for each State? Distinguish objective and subjective entry into force. (4 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q1(b)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Feb 2024 · Q1(b)] State A signed a treaty on artificial intelligence on 2 February 2024; the treaty requires ratification. After a change of government, A's new digitalization minister calls the treaty a restriction of free competition, and A declares to the other States that it will not ratify. The treaty enters into force among the other States on 1 July 2024. Is State A bound by the treaty? (2 points)",
+   "a": "No — A never consented to be bound; its Art 18 duty has ended.\n• Ratification required → signature ≠ consent, no duty to ratify (Art 14(1)(a) VCLT).\n• Art 18(a): no acts defeating object and purpose until it makes clear it will not ratify → done by A's declaration.\n• Non-party: res inter alios acta (Art 34); only custom binds A (Art 38).",
+   "old_fronts": [
+    "[Feb 2024 · Q1(b)] State A signed a treaty on artificial intelligence on 2 February 2024; the treaty requires ratification. After a change of government in February 2024, A's new digitalization minister calls the treaty a restriction of free competition, and A declares to the other States that it will not ratify. The treaty enters into force among the other States on 1 July 2024. Is State A bound by the treaty? (2 points)",
+    "State A signed a treaty on artificial intelligence on 2 February 2024; the treaty requires ratification. After a change of government in February 2024, A's new digitalization minister calls the treaty a restriction of free competition, and A declares to the other States that it will not ratify. The treaty enters into force among the other States on 1 July 2024. Is State A bound by the treaty? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q1(c)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Feb 2024 · Q1(c)] The contracting States of a treaty on artificial intelligence disagree on the interpretation of its provisions on prohibited uses of AI. What are the methods of treaty interpretation in international law? (2 points)",
+   "a": "Art 31 VCLT: one general rule — textual, systematic, teleological; Art 32: historical, supplementary.\n• Good faith throughout (Art 31(1)).\n• Textual: ordinary meaning (Art 31(1)); special meaning if intended (Art 31(4)).\n• Systematic: context = preamble, annexes, related agreements (Art 31(2)); subsequent agreements, practice, relevant IL rules (Art 31(3)).\n• Teleological: object and purpose (Art 31(1)), effet utile.\n• Historical: travaux préparatoires (Art 32).",
+   "old_fronts": [
+    "[Feb 2024 · Q1(c)] The contracting States of a treaty on artificial intelligence disagree on the interpretation of its provisions on prohibited uses of AI. What are the methods of treaty interpretation in international law? (2 points)",
+    "The contracting States of a treaty on artificial intelligence disagree on the interpretation of its provisions on prohibited uses of AI. What are the methods of treaty interpretation in international law? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q1(d)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Feb 2024 · Q1(d)] In a dispute over the interpretation of the AI treaty, State C relies on the negotiation protocols. States E and F object because they acceded later and did not take part in the negotiations. Which method of interpretation does C refer to, when would it be relevant, and what are the underlying problems? (2 points)",
+   "a": "Historical interpretation: travaux préparatoires, supplementary means (Art 32 VCLT).\n• Only to confirm the Art 31 result, or determine meaning if ambiguous/obscure (Art 32(a)) or manifestly absurd/unreasonable (Art 32(b)).\n• Problems: incomplete, often unpublished, show delegations' positions, not agreement.\n• E, F took no part, relied on the text → River Oder (PCIJ 1929) refused travaux against such States; published travaux usable today, less weight.",
+   "old_fronts": [
+    "[Feb 2024 · Q1(d)] In a dispute over the interpretation of a treaty on artificial intelligence, State C relies on the negotiation protocols. States E and F object because they acceded later and did not take part in the negotiations. Which method of interpretation does C refer to, under what circumstances would it be relevant, and what are the underlying problems? (2 points)",
+    "In a dispute over the interpretation of a treaty on artificial intelligence, State C relies on the negotiation protocols. States E and F object because they acceded later and did not take part in the negotiations. Which method of interpretation does C refer to, under what circumstances would it be relevant, and what are the underlying problems? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q2(a)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "[Feb 2024 · Q2(a)] Stardust, a company based in State Y, operates thousands of small satellites in Earth orbit providing cheap internet access (1,000 launched in 2021, 1,500 in 2022). State X, wishing to protect its population from foreign propaganda, sends a protest note demanding that Y prohibit Stardust's activities, because the satellites over its territory violate X's territorial sovereignty. Y replies that customary international law has recognised since 1957 that Earth orbit is not part of the territory of the state below. How do you assess Y's view? (3 points)",
+   "a": "Y is right: orbit is outer space, not state territory — free by custom since Sputnik.\n• Territory ends with airspace (Art 1 Chicago Convention 1944); orbits lie above (~100 km, no treaty boundary).\n• Rapid custom: Sputnik 1957 overflights unprotested → opinio iuris by acquiescence (ILC Concl. 10(3)); short duration suffices (North Sea 1969).\n• Confirmed: GA Res 1721 (XVI), 1962 (XVIII); OST 1967 Arts I (free use), II (no national appropriation).\n• Custom binds X outside the OST; protesting only now → no persistent objector → claim fails.",
+   "old_fronts": [
+    "[Feb 2024 · Q2(a)] (February 2024 exam) The company Stardust, based in State Y, operates thousands of small satellites in Earth orbit providing cheap internet access (1,000 satellites launched in 2021, a further 1,500 in 2022). State X wants to protect its population from foreign propaganda and sends a protest note demanding that Y prohibit Stardust's activities, because the satellites over its territory violate X's territorial sovereignty. Y replies that it has been recognised under customary international law since 1957 that Earth orbit is not part of the territory of the state below. How do you assess Y's view? (3 points)",
+    "(February 2024 exam) The company Stardust, based in State Y, operates thousands of small satellites in Earth orbit providing cheap internet access (1,000 satellites launched in 2021, a further 1,500 in 2022). State X wants to protect its population from foreign propaganda and sends a protest note demanding that Y prohibit Stardust's activities, because the satellites over its territory violate X's territorial sovereignty. Y replies that it has been recognised under customary international law since 1957 that Earth orbit is not part of the territory of the state below. How do you assess Y's view? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q2(b)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "[Feb 2024 · Q2(b)] Stardust, a company based in State Y, sells low-cost internet access via thousands of its own satellites in Earth orbit. State X does not want the service to be available over its territory. How can it be permitted under customary international law that outer space is utilised by private individuals for commercial purposes? (2 points)",
+   "a": "Customary free use includes private commercial use, under state supervision.\n• Lotus: no prohibition presumed; free use (Art I OST) not limited to states, bars only appropriation (Art II OST).\n• Commercial satellites long unprotested → acquiescence.\n• Private activities need authorisation, continuing supervision; state responsible (GA Res 1962 (XVIII) para 5; Art VI OST) → Y supervises Stardust; launching state liable (Art VII OST).",
+   "old_fronts": [
+    "[Feb 2024 · Q2(b)] (February 2024 exam) Stardust, a company based in State Y, offers low-cost internet access through thousands of small satellites in Earth orbit (about 1,000 launched in 2021 and a further 1,500 in 2022); customers buy receivers for about 500 euros. State X does not want the service to be available over its territory. How can it be permitted under customary international law that outer space is utilised by private individuals for commercial purposes? (2 points)",
+    "(February 2024 exam) Stardust, a company based in State Y, offers low-cost internet access through thousands of small satellites in Earth orbit (about 1,000 launched in 2021 and a further 1,500 in 2022); customers buy receivers for about 500 euros. State X does not want the service to be available over its territory. How can it be permitted under customary international law that outer space is utilised by private individuals for commercial purposes? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q2(c)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Feb 2024 · Q2(c)] After State Y rejects X's protest note against the satellite internet of Stardust, a company based in Y (X wants to shield its population from foreign propaganda), X asks the UN Security Council for a decision banning Stardust's activities because of grossly negligent pollution of outer space by its numerous satellites. Is the Security Council competent to ban the company's activities, or can its decisions only be directed against states? (3 points)",
+   "a": "In principle yes — via obligations on states, but only after an Art 39 determination, doubtful here.\n• Primary responsibility (Art 24(1)); Chapter VI only recommends; binding measures need a threat to the peace (Art 39) — wide discretion (Ebola, Res 2177 (2014)), but debris/propaganda hardly qualifies.\n• Decisions bind members (Art 25) but may target private actors: targeted sanctions (Art 41; 1267 regime) → states must stop Stardust.\n• Limits: purposes and principles (Art 24(2)), due process (Kadi 2008), veto (Art 27(3)) if Y is P5.",
+   "old_fronts": [
+    "[Feb 2024 · Q2(c)] Stardust, a company based in State Y, produces small satellites giving its customers low-cost internet access; about 1,000 satellites were put into orbit in 2021 and a further 1,500 in 2022. State X does not want the service to be available over its territory, as it wants to protect its population from foreign propaganda. After State Y rejects its protest note, State X turns to the UN Security Council and applies for a decision banning Stardust's activities because of grossly negligent pollution of outer space by the numerous satellites. Discuss whether the Security Council is competent to make such a decision and ban the company's activities, or whether Security Council decisions can only be directed against states. (3 points)",
+    "Stardust, a company based in State Y, produces small satellites giving its customers low-cost internet access; about 1,000 satellites were put into orbit in 2021 and a further 1,500 in 2022. State X does not want the service to be available over its territory, as it wants to protect its population from foreign propaganda. After State Y rejects its protest note, State X turns to the UN Security Council and applies for a decision banning Stardust's activities because of grossly negligent pollution of outer space by the numerous satellites. Discuss whether the Security Council is competent to make such a decision and ban the company's activities, or whether Security Council decisions can only be directed against states. (3 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q2(d)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Feb 2024 · Q2(d)] State X asks the UN Security Council to ban the activities of Stardust, a satellite-internet company based in State Y, for grossly negligent pollution of outer space. Could it play a role in the Council's decision-making whether State Y and State X themselves are represented on the Council? (2 points)",
+   "a": "Yes — veto, duty to abstain, participation rights.\n• Substantive decisions: 9 votes incl. concurring P5 (Art 27(3)) → permanent member Y could veto a Chapter VII ban; abstention ≠ veto (Namibia AO 1971).\n• Chapter VI/Art 52(3): parties X, Y must abstain (Art 27(3)); not under Chapter VII.\n• Not on SC: participate without vote — specially affected (Art 31), dispute party (Art 32).",
+   "old_fronts": [
+    "[Feb 2024 · Q2(d)] State X applies to the UN Security Council for a decision banning the activities of Stardust, a satellite-internet company based in State Y, because of grossly negligent pollution of outer space by its numerous satellites. Could it play a role in the decision-making of the Security Council whether State Y and State X themselves are represented? (2 points)",
+    "State X applies to the UN Security Council for a decision banning the activities of Stardust, a satellite-internet company based in State Y, because of grossly negligent pollution of outer space by its numerous satellites. Could it play a role in the decision-making of the Security Council whether State Y and State X themselves are represented? (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q3(a)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Feb 2024 · Q3(a)] After independence, the president of the State of Cumri says Cumri will comply with its international human rights obligations but sees no need to become a party to the 1966 ICCPR, because the Universal Declaration of Human Rights (UDHR) is binding on Cumri anyway. Assess the accuracy of the president's statement under international law. (2 points)",
+   "a": "Partly: UDHR not binding as such, but many rights bind Cumri as custom.\n• GA Res 217 A (III) 1948 = recommendation (Arts 10–14 Charter).\n• Custom (torture, slavery, racial discrimination; partly ius cogens) binds a new state from birth; arguably authoritative interpretation of Arts 55(c), 56 Charter.\n• Not all rights custom; ICCPR adds precise duties + HRC monitoring (Art 40, Optional Protocol).",
+   "old_fronts": [
+    "[Feb 2024 · Q3(a)] Following its independence, the new president of the State of Cumri declares at a press conference that Cumri will comply with its international human rights obligations. A journalist asks why Cumri then does not wish to become a party to the 1966 International Covenant on Civil and Political Rights (ICCPR). The president explains that there is no need, because the Universal Declaration of Human Rights (UDHR) is binding on Cumri anyway. Assess the accuracy of the president's statement under international law. (2 points)",
+    "Following its independence, the new president of the State of Cumri declares at a press conference that Cumri will comply with its international human rights obligations. A journalist asks why Cumri then does not wish to become a party to the 1966 International Covenant on Civil and Political Rights (ICCPR). The president explains that there is no need, because the Universal Declaration of Human Rights (UDHR) is binding on Cumri anyway. Assess the accuracy of the president's statement under international law. (2 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q3(b)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "[Feb 2024 · Q3(b)] The president of Cumri adds that even if Cumri were a party to the ICCPR, it would only be obliged to refrain from interfering with individual rights, with no requirement to take positive action to protect human rights. What are states' obligations under international human rights law with regard to individual human rights? (3 points)",
+   "a": "The president is wrong: human rights oblige states to respect, protect and fulfil.\n• Respect: negative duty — state organs must not interfere (no torture, arbitrary arrest, censorship).\n• Protect: positive duty against private interference — prevent, investigate, punish, redress (due diligence), e.g. police protecting demonstrators.\n• Fulfil: create legal, institutional and material conditions — courts, legal aid, elections, humane prisons.\n• Basis: Art 2(1) ICCPR \"respect and ensure\" within territory and jurisdiction; Art 2(2) legislative/other measures; Art 2(3) effective remedy (HRC General Comment 31); Art 2(1) ICESCR progressive realisation.",
+   "old_fronts": [
+    "[Feb 2024 · Q3(b)] The president of Cumri adds that even if Cumri were a party to the ICCPR, it would only be obliged to refrain from interfering with individual rights; there is, he says, no requirement for states to take positive action to protect human rights and fundamental freedoms. What are states' obligations under international human rights law with regard to individual human rights? (3 points)",
+    "The president of Cumri adds that even if Cumri were a party to the ICCPR, it would only be obliged to refrain from interfering with individual rights; there is, he says, no requirement for states to take positive action to protect human rights and fundamental freedoms. What are states' obligations under international human rights law with regard to individual human rights? (3 points)"
+   ]
+  },
+  {
+   "id": "il-2024-02:Q3(c)",
+   "topic": "Past exam — 1 February 2024",
+   "layer": "realna-zkouska",
+   "points": 5,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Feb 2024 · Q3(c)] The president of Cumri finally declares that Cumri could always and at any time restrict any individual human right in a given case. May a state restrict human rights? Under what conditions? (5 points)",
+   "a": "Yes, most rights may be restricted, but only under strict conditions, and some are absolute → \"always, any right\" is wrong.\n• Absolute: torture and ill-treatment (Art 7 ICCPR, Art 3 ECHR), slavery (Art 8(1)–(2) ICCPR), apartheid — never restricted.\n• Limitation of qualified rights (e.g. Arts 12(3), 18(3), 19(3), 21, 22(2) ICCPR): (1) provided by law — accessible, precise; (2) legitimate aim — national security, public order, health, morals, rights of others; (3) necessary and proportionate — suitable, least restrictive, fair balance; plus non-discrimination, essence preserved.\n• Derogation (Art 4 ICCPR, Art 15 ECHR): public emergency threatening the life of the nation, officially proclaimed; only as strictly required, consistent with other IL duties, non-discriminatory; notified via UN Secretary-General (Art 4(3)).\n• Non-derogable (Art 4(2)): Arts 6, 7, 8(1)–(2), 11, 15, 16, 18.\n• Each restriction reviewable (HRC, regional courts).",
+   "old_fronts": [
+    "[Feb 2024 · Q3(c)] The president of Cumri finally declares that Cumri could always and at any time restrict any individual human right in a given case. May a state restrict human rights? Under what conditions? (5 points)",
+    "The president of Cumri finally declares that Cumri could always and at any time restrict any individual human right in a given case. May a state restrict human rights? Under what conditions? (5 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#48",
+   "topic": "International Responsibility I — State Responsibility",
+   "layer": "procviceni",
+   "points": 5,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Name and explain the circumstances precluding wrongfulness under the ILC Articles on State Responsibility. Which limits apply to all of them? (5 points)",
+   "a": "Six circumstances (Arts 20–25 ARSIWA), common limits Arts 26–27.\n• Consent (Art 20): valid, before or during the act, within its limits.\n• Lawful self-defence (Art 21; Art 51 UN Charter); countermeasures (Art 22; Arts 49–54): non-forcible, against a prior wrong, to induce compliance.\n• Force majeure (Art 23): irresistible force or unforeseen event → performance materially impossible; not if self-caused or risk assumed.\n• Distress (Art 24): only reasonable way to save own life or lives in one's care; not if self-caused or creating comparable or greater peril.\n• Necessity (Art 25): only way to safeguard an essential interest against grave and imminent peril, not seriously impairing others' essential interests; not if the obligation excludes it or self-contributed (Gabčíkovo 1997).\n• Limits: never against ius cogens (Art 26); obligation revives once circumstance ceases, compensation for material loss (Art 27).",
+   "old_fronts": [
+    "Name and explain the circumstances precluding wrongfulness under the ILC Articles on State Responsibility. Which limits apply to all of them? (5 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#51",
+   "topic": "International Responsibility I — State Responsibility",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "State R unlawfully seizes a merchant ship flying the flag of State S and still holds it after three months; the cargo is damaged, the owner loses a lucrative follow-up contract, and R's minister publicly insults S. What can S claim from R? (4 points)",
+   "a": "S can claim cessation, non-repetition and full reparation.\n• Cessation of the continuing act → release the ship; assurances and guarantees of non-repetition if circumstances require (Art 30 ARSIWA).\n• Full reparation wiping out all consequences (Art 31; Chorzów Factory 1928), forms in fixed order (Art 34): restitution (Art 35) → return ship and cargo unless materially impossible or disproportionate.\n• Compensation (Art 36): damaged cargo (damnum emergens), lost contract (lucrum cessans, if established) plus interest (Art 38).\n• Satisfaction (Art 37): for the insult → acknowledgment, regret, formal apology; not disproportionate or humiliating.\n• As flag state S claims for ship, cargo and crew as a unit (M/V Saiga No. 2, ITLOS 1999).",
+   "old_fronts": [
+    "State R unlawfully seizes a merchant ship flying the flag of State S and still holds it after three months; the cargo is damaged, the owner loses a lucrative follow-up contract, and R's minister publicly insults S. What can S claim from R? (4 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#54",
+   "topic": "International Responsibility I — State Responsibility",
+   "layer": "procviceni",
+   "points": 5,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "State X expropriates without compensation all assets of nationals of State Y. Y responds by (1) freezing the assets of X's state-owned trading company in Y, (2) suspending a bilateral trade treaty with X, (3) expelling X's ambassador, (4) searching X's embassy and seizing its archives, (5) threatening a naval blockade of X's ports, and (6) suspending fair-trial guarantees for X's nationals in Y. Which measures are lawful? (5 points)",
+   "a": "(1), (2) possible countermeasures, (3) lawful retorsion; (4)–(6) prohibited.\n• Countermeasures (Arts 22, 49–54 ARSIWA): prior wrongful act of X (uncompensated expropriation → yes); only against X, not third states, to induce compliance, temporary and reversible (Art 49); call to comply, notification, offer to negotiate (Art 52(1)); proportionate (Art 51; Gabčíkovo 1997).\n• (1) Freezing the company's assets and (2) suspending the trade treaty → lawful if these conditions are met (treaty also Art 60 VCLT if X materially breached it).\n• (3) Expelling the ambassador → retorsion: unfriendly but lawful (persona non grata, Art 9 VCDR).\n• (4) Embassy search, archives → diplomatic inviolability (Art 50(2)(b) ARSIWA; Arts 22, 24 VCDR) → prohibited.\n• (5) Blockade threat → threat of force (Art 50(1)(a); Art 2(4) UN Charter); (6) fair trial → fundamental human rights (Art 50(1)(b)) → both prohibited.",
+   "old_fronts": [
+    "State X expropriates without compensation all assets of nationals of State Y. Y responds by (1) freezing the assets of X's state-owned trading company in Y, (2) suspending a bilateral trade treaty with X, (3) expelling X's ambassador, (4) searching X's embassy and seizing its archives, (5) threatening a naval blockade of X's ports, and (6) suspending fair-trial guarantees for X's nationals in Y. Which measures are lawful? (5 points)"
+   ]
+  },
+  {
+   "id": "il-ios-force.json#69",
+   "topic": "Self-determination and Human Rights",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "definice",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Explain the right of peoples to self-determination: its legal sources, its holder, the difference between internal and external self-determination, and its legal quality (erga omnes, ius cogens). (4 points)",
+   "a": "Collective right of peoples freely to determine their political status and development; erga omnes, widely seen as ius cogens.\n• Sources: Arts 1(2), 55 UN Charter; common Art 1 ICCPR/ICESCR; GA Res 1514 (1960), Friendly Relations Declaration 1970; custom (Chagos AO 2019).\n• Holder: a people → objective features (ethnicity, language, culture, history) + subjective will, or territorial unit (colonial population, uti possidetis).\n• Internal: free choice of political, economic, social, cultural system within the existing state.\n• External: independence, free association or integration (Res 1541) → colonial, occupied or alien-dominated peoples; remedial secession only argued.\n• Quality: erga omnes (East Timor 1995; Wall 2004; Chagos 2019); ius cogens (ILC Draft Conclusions 2022).",
+   "old_fronts": [
+    "Explain the right of peoples to self-determination: its legal sources, its holder, the difference between internal and external self-determination, and its legal quality (erga omnes, ius cogens). (4 points)"
+   ]
+  },
+  {
+   "id": "il-ios-force.json#6",
+   "topic": "International Organizations I",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "judikat",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "In 1948 the UN mediator Count Folke Bernadotte was murdered in Jerusalem. The UN Charter contains no provision allowing the UN to bring international claims. What did the ICJ hold in the Reparation for Injuries advisory opinion (1949), and why is it fundamental for the law of international organizations? Could the UN claim even against a state that was not a UN member at the time? (4 points)",
+   "a": "The UN has international legal personality and may claim for injury to itself and to its agent, even against non-member Israel.\n• Personality inferred from the functions and rights the Charter gives the UN (organs, tasks, treaty-making, privileges); subject of IL, not a state.\n• Implied powers: powers conferred by necessary implication as essential to performing its duties → claims for own damage and functional protection of its agent (coordinate with national state, no double recovery).\n• Objective personality: 50 states, the vast majority of the community, created it → valid also against non-members.\n• Significance: basis of implied powers and functional IO personality (Effects of Awards 1954, Certain Expenses 1962).",
+   "old_fronts": [
+    "In 1948 the UN mediator Count Folke Bernadotte was murdered in Jerusalem. The UN Charter contains no provision allowing the UN to bring international claims. Explain what the ICJ held in the Reparation for Injuries advisory opinion (1949) and why the opinion is fundamental for the law of international organizations. Could the UN bring a claim even against a state that was not a UN member at the time? (4 points)"
+   ]
+  },
+  {
+   "id": "il-ios-force.json#16",
+   "topic": "International Organizations I",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Which types of organs do international organizations typically have? Name the forms of decision-making used in international organizations and the exceptions to the principle \"one state, one vote\", with an example of each. (3 points)",
+   "a": "Plenary organ, council and secretariat (often also parliamentary, expert, judicial bodies); unanimity, majority or consensus; departures: veto and weighted voting.\n• Organs: plenary (UN General Assembly), council of limited membership (Security Council), secretariat (Secretary-General); parliaments (European Parliament), experts (ILC), courts (ICJ).\n• Decision-making: unanimity (EU CFSP); simple majority (GA, Art 18(3) UN Charter); two-thirds for important questions (Art 18(2)); consensus without vote (OSCE, WTO).\n• Departures: P5 veto (Art 27(3) UN Charter); weighting by capital (IMF, World Bank) or population (EU Council QMV, Art 16(4) TEU).",
+   "old_fronts": [
+    "Which types of organs do international organizations typically have? Name the forms of decision-making used in international organizations and the exceptions to the principle \"one state, one vote\", with an example of each. (3 points)"
+   ]
+  },
+  {
+   "id": "il-ios-force.json#44",
+   "topic": "International Organizations II — the UN, and exam cases",
+   "layer": "procviceni",
+   "points": 2,
+   "kind": "definice",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "What are the UN specialized agencies? Give three examples with their fields of activity, and explain which UN organ coordinates them and how they differ from \"related organizations\". (2 points)",
+   "a": "Autonomous IOs with their own treaty, members and organs, linked to the UN by relationship agreements (Arts 57, 63 UN Charter); ECOSOC coordinates.\n• Examples: ILO (labour), WHO (health), UNESCO (education, science, culture).\n• ECOSOC concludes the agreements, GA approves (Art 63(1)); coordination by consultation and recommendations (Art 63(2)).\n• Related organizations (IAEA, WTO, OPCW): other arrangements, not specialized agencies.",
+   "old_fronts": [
+    "What are the UN specialized agencies? Give three examples with their fields of activity, and explain which UN organ coordinates them and how they differ from \"related organizations\". (2 points)"
+   ]
+  },
+  {
+   "id": "il-treaties.json#43",
+   "topic": "The Law of Treaties",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "States Pora and Quin conclude a canal treaty. It grants all merchant ships of State Rin free passage and obliges State Sella, an upstream neighbour, to keep the water level constant. Rin's ships use the canal; Sella never reacts. Later Pora and Quin wish to abolish Rin's right of passage. What is the legal position of Rin and Sella? (3 points)",
+   "a": "Rin has the right; Sella is not bound; Rin's right is revocable unless intended to be irrevocable.\n• Pacta tertiis: no rights or obligations for third states without consent (Art 34 VCLT).\n• Rights (Art 36(1)): parties' intent + assent, presumed unless contrary indicated → Rin's use confirms it.\n• Obligations (Art 35): parties' intent + express written acceptance → Sella's silence insufficient.\n• Revocation (Art 37(2)): impossible if intended not revocable without Rin's consent; otherwise Pora and Quin may abolish it.",
+   "old_fronts": [
+    "States Pora and Quin conclude a canal treaty. It grants all merchant ships of State Rin free passage and obliges State Sella, an upstream neighbour, to keep the water level constant. Rin's ships use the canal; Sella never reacts. Later Pora and Quin wish to abolish Rin's right of passage. What is the legal position of Rin and Sella? (3 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#58",
+   "topic": "International Responsibility II — Organizations, Individuals, Liability",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "Soldiers of State N (not a party to the Rome Statute), on the orders of N's President, kill hundreds of civilians on the territory of State P (a party) during an armed conflict. (a) Can the ICC exercise jurisdiction? (b) Does the President's official position protect him before the ICC? (c) N opens an investigation designed to shield the President. Does this bar the ICC? (4 points)",
+   "a": "(a) Yes, (b) no, (c) no.\n• Crimes: war crimes (Art 8 Rome Statute), possibly crimes against humanity (Art 7); the President is liable for ordering (Art 25(3)(b)).\n• (a) Committed on the territory of party P → jurisdiction (Art 12(2)(a)); N's non-party status irrelevant; trigger: state referral, Prosecutor proprio motu or SC (Art 13).\n• (b) Official capacity irrelevant, immunities do not bar the Court (Art 27; Al-Bashir 2019); duty of states to arrest a non-party head disputed (Art 98).\n• (c) Complementarity: admissible if the state is unwilling or unable genuinely to prosecute (Art 17(1)(a)); proceedings to shield the person = unwillingness (Art 17(2)(a)).",
+   "old_fronts": [
+    "Soldiers of State N (not a party to the Rome Statute), acting on the orders of N's President, kill hundreds of civilians on the territory of State P (a party) during an armed conflict. (a) Can the International Criminal Court exercise jurisdiction? (b) Does the President's official position protect him before the ICC? (c) N opens an investigation designed to shield the President. Does this bar the ICC? (4 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#60",
+   "topic": "International Responsibility II — Organizations, Individuals, Liability",
+   "layer": "procviceni",
+   "points": 2,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Do you agree with the following statement? 'A soldier who follows orders cannot be punished, and his commander is liable only if he personally ordered the crimes.' Give reasons. (2 points)",
+   "a": "No — superior orders are generally no defence; commanders are also liable for omissions.\n• Superior orders (Nuremberg Principle IV; Art 33 Rome Statute): excuse only if legal duty to obey, unaware of unlawfulness and not manifestly unlawful; genocide/CAH orders always manifestly unlawful.\n• Command responsibility (Art 28): effective control, knew or should have known, failed to prevent, repress or report (Yamashita); civilian superiors too.",
+   "old_fronts": [
+    "Do you agree with the following statement? 'A soldier who follows orders cannot be punished, and his commander is liable only if he personally ordered the crimes.' Give reasons. (2 points)"
+   ]
+  },
+  {
+   "id": "il-sources.json#6",
+   "topic": "The International Legal Order: Introduction",
+   "layer": "procviceni",
+   "points": 5,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "Name and briefly explain the sources of international law listed in Article 38(1) of the ICJ Statute. Which sources are not listed there, and what is the status of judicial decisions and teachings? (5 points)",
+   "a": "Art 38(1) ICJ Statute: (a)–(c) are the formal sources, (d) only subsidiary means; binding IO decisions and unilateral acts are sources not listed.\n• (a) Treaties: express consent → bind only the parties (Art 34 VCLT).\n• (b) Custom: general state practice + opinio iuris → binds all states except persistent objectors.\n• (c) General principles of law recognised by civilized nations (good faith, estoppel, res judicata) → fill gaps, no non liquet.\n• (d) Judicial decisions and teachings of the most highly qualified publicists = subsidiary means, subject to Art 59 (binding only between the parties, no stare decisis) → do not create law.\n• Not listed: SC Chapter VII resolutions (Art 25 UN Charter), unilateral acts (Nuclear Tests 1974); soft law (UDHR, GA resolutions) is no source.\n• No hierarchy among the sources; only ius cogens ranks higher.",
+   "old_fronts": [
+    "Name and briefly explain the sources of international law listed in Article 38(1) of the ICJ Statute. Which sources are not listed there, and what is the status of judicial decisions and teachings? (5 points)"
+   ]
+  },
+  {
+   "id": "il-sources.json#7",
+   "topic": "The International Legal Order: Introduction",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "rozliseni",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "Do you agree with the following statement? Give reasons. \"Because treaties are listed first in Article 38(1) of the ICJ Statute, a treaty always prevails over a conflicting rule of customary international law.\" (3 points)",
+   "a": "No — treaties and custom are of equal rank; Art 38(1) is a list, not a hierarchy.\n• Conflicts are resolved by lex specialis (the more specific rule prevails) and lex posterior (the later rule prevails, cf. Art 30(3) VCLT); later custom can modify a treaty.\n• → A treaty prevails only where it is the special or the later rule.\n• Only real hierarchy: ius cogens voids conflicting treaties (Arts 53, 64 VCLT); Art 103 UN Charter gives Charter obligations priority over other treaties.",
+   "old_fronts": [
+    "Do you agree with the following statement? Give reasons. \"Because treaties are listed first in Article 38(1) of the ICJ Statute, a treaty always prevails over a conflicting rule of customary international law.\" (3 points)"
+   ]
+  },
+  {
+   "id": "il-sources.json#10",
+   "topic": "The International Legal Order: Introduction",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Distinguish obligations erga omnes from ius cogens. State Tarsia commits genocide against a minority on its own territory. May State Uldonia, none of whose nationals are affected, invoke Tarsia's international responsibility? (3 points)",
+   "a": "Yes — the genocide prohibition is ius cogens and erga omnes → any state may invoke it.\n• Ius cogens = rank: non-derogable, conflicting treaty void (Art 53 VCLT).\n• Erga omnes = owed to the whole international community → every state has a legal interest (Barcelona Traction 1970); all ius cogens is erga omnes, not vice versa.\n• Uldonia, not injured (Art 42 ARSIWA), invokes Art 48(1)(b) ARSIWA → cessation, non-repetition, reparation for victims (Art 48(2)); if a party, ICJ under Art IX Genocide Convention (The Gambia v Myanmar).",
+   "old_fronts": [
+    "Distinguish obligations erga omnes from ius cogens. State Tarsia commits genocide against a minority on its own territory. May State Uldonia, none of whose nationals are affected, invoke Tarsia's international responsibility? (3 points)"
+   ]
+  },
+  {
+   "id": "il-sources.json#38",
+   "topic": "General Principles of Law, Unilateral Acts and Subsidiary Means",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "judikat",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "State Lumeria conducted atmospheric nuclear tests. After worldwide protests, its President declares at a televised press conference, and its Foreign Minister repeats before the UN General Assembly, that \"Lumeria will conduct no further atmospheric tests\". A year later a new government announces new tests, arguing that press statements are political and non-binding because no treaty was concluded. Is Lumeria bound? Explain the concept and the conditions of binding unilateral declarations. (4 points)",
+   "a": "Yes — a public, clear declaration by a competent organ intending to be bound binds through good faith, no treaty needed (Nuclear Tests 1974).\n• Unilateral act: source outside Art 38 ICJ Statute; no quid pro quo or acceptance, form irrelevant.\n• Conditions (ILC Guiding Principles 2006): competent organ: head of state/government, foreign minister (GP 4; Eastern Greenland 1933); public; clear and specific terms, interpreted restrictively (GP 7); intention to be bound; not contrary to ius cogens (GP 8).\n• Application: President and Foreign Minister, repeated, specific, after protests → intention to be bound.\n• New government irrelevant (continuity); no arbitrary revocation (GP 10) → new tests unlawful.\n• Contrast: Burkina Faso/Mali 1986 (no intent).",
+   "old_fronts": [
+    "State Lumeria has conducted atmospheric nuclear tests in the Pacific. After worldwide protests, Lumeria's President declares at a televised press conference, and its Foreign Minister repeats before the UN General Assembly, that \"Lumeria will conduct no further atmospheric tests\". A year later a new government announces new tests, arguing that press statements are political and non-binding because no treaty was concluded. Is Lumeria bound? Explain the concept and the conditions of binding unilateral declarations. (4 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#0",
+   "topic": "States, Diplomatic Protection, Succession and Immunity",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Name and explain the criteria of statehood under international law. Which criterion is disputed, and what happens to an existing state that loses its effective government? (4 points)",
+   "a": "Statehood: permanent population, defined territory, effective and independent government (Art 1 Montevideo Convention 1933); capacity for relations is disputed; an existing state survives loss of government.\n• Population: stable, linked by nationality; no minimum size (Nauru).\n• Territory: stable core suffices; border disputes no obstacle (North Sea Continental Shelf 1969).\n• Government: effective control + independence, formal (Austro-German Customs Union, PCIJ 1931) and actual (no puppet: Manchukuo 1932).\n• Capacity for relations (Art 1(d)): disputed → consequence of independence, not a separate criterion.\n• Loss of government: strict test for new, lenient for existing states → presumption of continuity (Somalia after 1991).\n• Created in breach of ius cogens → no state (Southern Rhodesia, TRNC).",
+   "old_fronts": [
+    "Name and explain the criteria of statehood under international law. Which criterion is disputed, and what happens to an existing state that loses its effective government? (4 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#2",
+   "topic": "States, Diplomatic Protection, Succession and Immunity",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Do you agree with the following statement? 'An entity becomes a state only when it has been recognised by other states.' Give reasons. (3 points)",
+   "a": "No — under the prevailing declaratory theory statehood follows from the factual criteria (population, territory, effective government); recognition only confirms it.\n• Declaratory: Art 3 Montevideo Convention (political existence independent of recognition); Badinter Commission Opinion No 1 (1991): statehood is a question of fact.\n• Constitutive theory (recognition creates the state) rejected: relativity, no central organ, unrecognised entities are still bound and protected (prohibition of force).\n• Recognition still matters: evidence in doubtful cases (Kosovo), diplomatic relations and treaties, effects before domestic courts.",
+   "old_fronts": [
+    "Do you agree with the following statement? 'An entity becomes a state only when it has been recognised by other states.' Give reasons. (3 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#8",
+   "topic": "States, Diplomatic Protection, Succession and Immunity",
+   "layer": "procviceni",
+   "points": 5,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "Ms K, a national of State A working in State B, uses her laptop in B to hack the power grid of State C, causing a blackout there, steals credit-card data of nationals of State D and prints counterfeit banknotes of State E. She then travels to State F, which has no link to the facts. Which states may exercise criminal jurisdiction, and on what basis? May C send police officers to F to arrest her there? (5 points)",
+   "a": "A, B, C, D and E each have a sufficient link to prescribe and adjudicate; F has none (no universal crime); C may not arrest K in F without F's consent → extradition request.\n• B: territoriality – acts committed there.\n• C: objective territoriality/effects – blackout there (Lotus 1927) + protective principle (critical infrastructure).\n• A: active personality – K is its national; D: passive personality – victims are its nationals.\n• E: protective principle – counterfeiting of its currency threatens vital interests.\n• F: universality only for piracy, genocide, crimes against humanity, war crimes, torture → not here; at most vicarious jurisdiction or a treaty duty (Art 9 1929 Counterfeiting Convention).\n• Enforcement jurisdiction strictly territorial (Lotus 1927) → arrest by C's police in F violates F's sovereignty (Eichmann 1960) → C must request extradition.",
+   "old_fronts": [
+    "Ms K, a national of State A working in State B, uses her laptop in State B to hack the power grid of State C, causing a blackout there, steals the credit-card data of nationals of State D and prints counterfeit banknotes of State E. She then travels to State F, which has no link to the facts. Which states may exercise criminal jurisdiction, and on what basis? May State C send police officers to State F to arrest her there? (5 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#31",
+   "topic": "States, Diplomatic Protection, Succession and Immunity",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "What is the legal basis of state immunity? Explain the difference between absolute and restrictive immunity and how acta iure imperii are distinguished from acta iure gestionis. (4 points)",
+   "a": "Immunity rests on sovereign equality (par in parem non habet imperium); absolute immunity covered all acts, restrictive immunity only acta iure imperii, distinguished primarily by nature.\n• Basis: Art 2(1) UN Charter; custom (Jurisdictional Immunities, ICJ 2012); ECSI 1972; UNCSI 2004 (not in force, reflects custom).\n• Absolute: a foreign state can never be sued domestically; restrictive: acta iure gestionis not immune (Dralle, OGH 1950).\n• Nature: could a private person do it? Sale, lease, loan = gestionis; legislation, police, military, expropriation = imperii; purpose only secondarily (Art 2(2) UNCSI; Empire of Iran, BVerfG 1963).\n• Exceptions (UNCSI): commercial transactions (Art 10), employment (Art 11), torts in the forum (Art 12); consent (Arts 7–8).",
+   "old_fronts": [
+    "What is the legal basis of state immunity? Explain the difference between absolute and restrictive immunity and how acta iure imperii are distinguished from acta iure gestionis. (4 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#32",
+   "topic": "States, Diplomatic Protection, Succession and Immunity",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "The embassy of State F in Vienna orders a heating system from the Austrian company Wärme GmbH and does not pay. Wärme sues F before the Austrian courts, wins, and seeks enforcement against (1) the embassy's bank account used for salaries and rent, (2) a building owned by F in Vienna rented out as offices to private companies, (3) reserves of F's central bank deposited in Austria. Assess immunity from jurisdiction and from enforcement. (4 points)",
+   "a": "No immunity from jurisdiction (commercial act); enforcement only against the commercially rented building.\n• Jurisdiction: restrictive immunity, nature of the act decides → contract for work = actum iure gestionis (Empire of Iran, BVerfG 1963; Art 10 UNCSI).\n• Enforcement separate: purpose of the asset when execution begins → sovereign-purpose property immune without consent (Philippine Embassy, BVerfG 1977; Art 19 UNCSI).\n• (1) Embassy account serves the mission → immune, even if mixed (Art 21(1)(a) UNCSI; Art 25 VCDR).\n• (2) Building rented out commercially → non-governmental purpose → seizable (Art 19(c) UNCSI).\n• (3) Central bank reserves → immune (Art 21(1)(c) UNCSI).\n• Waiver of jurisdiction ≠ waiver of enforcement (Art 20 UNCSI).",
+   "old_fronts": [
+    "The embassy of State F in Vienna orders a new heating system from the Austrian company Wärme GmbH and does not pay. Wärme sues State F before the Austrian courts, wins, and then seeks to enforce the judgment against (1) the embassy's bank account used for salaries and rent, (2) a building owned by F in Vienna rented out as offices to private companies, and (3) reserves of F's central bank deposited in Austria. Assess immunity from jurisdiction and from enforcement. (4 points)"
+   ]
+  },
+  {
+   "id": "il-states.json#43",
+   "topic": "International Responsibility I — State Responsibility",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Do you agree with the following statement? 'A state is responsible under international law only if it acted with fault and caused material damage.' Give reasons. (3 points)",
+   "a": "No — every internationally wrongful act entails responsibility (Art 1 ARSIWA): conduct attributable to the state that breaches an international obligation (Art 2); fault and damage are not general elements.\n• Fault: objective responsibility; required only where the primary rule says so (knowledge/due diligence – Corfu Channel 1949; genocidal intent).\n• Damage: the breach itself is the legal injury (Rainbow Warrior 1990); damage matters only for reparation (Art 31(2)) and the injured state (Art 42).\n• Wrongfulness is excluded only by circumstances under Arts 20–25 ARSIWA.",
+   "old_fronts": [
+    "Do you agree with the following statement? 'A state is responsible under international law only if it acted with fault and caused material damage.' Give reasons. (3 points)"
+   ]
+  }
+ ]
+}

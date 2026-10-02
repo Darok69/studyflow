@@ -1,0 +1,1500 @@
+{
+ "course": "EU",
+ "cards": [
+  {
+   "id": "eu-set-a:Case 1 Q1",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set A · Case 1 Q1] Ned-Leaks scandals: the Netherlands turns out to be a tax haven whose schemes distort competition in the EU. Commission President Peter Niederknaaken, formerly Dutch Minister of Finance, comes under fire. Does the European Parliament have the power to remove Commission President Niederknaaken? (2 points)",
+   "a": "No — the EP can only censure the whole Commission, not the President alone.\n• Art 17(8) TEU: Commission responsible to the EP as a body; censure carried → all members incl. President resign.\n• Art 234 TFEU: two-thirds of votes cast, representing a majority of component Members.\n• Individual compulsory retirement: only the CJEU, on Council or Commission application (Art 247 TFEU).",
+   "old_fronts": [
+    "[Set A · Case 1 Q1] In the wake of the 'Ned-Leaks' scandals it becomes known that the Netherlands is a tax haven and that its tax-avoidance schemes distort competition in the EU. Commission President Peter Niederknaaken was previously Minister of Finance of the Netherlands and is coming under fire because of the Ned-Leaks scandals. Does the European Parliament have the power to remove Commission President Niederknaaken? (2 points)",
+    "In the wake of the 'Ned-Leaks' scandals it becomes known that the Netherlands is a tax haven and that its tax-avoidance schemes distort competition in the EU. Commission President Peter Niederknaaken was previously Minister of Finance of the Netherlands and is coming under fire because of the Ned-Leaks scandals. Does the European Parliament have the power to remove Commission President Niederknaaken? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 1 Q2",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set A · Case 1 Q2] In connection with the Ned-Leaks scandals, an EU legal act is issued in the form of a regulation. Can it nevertheless be transposed into national law? (2 points)",
+   "a": "No — a regulation needs no transposition and must not be transposed.\n• Art 288(2) TFEU: general application, binding in its entirety, directly applicable in all Member States (unlike directives, Art 288(3)).\n• Re-enacting it nationally would conceal its EU nature and endanger uniform application → infringement (Variola 34/73).\n• Allowed: implementing measures it requires (authorities, penalties; Art 291(1) TFEU).",
+   "old_fronts": [
+    "[Set A · Case 1 Q2] In connection with the Ned-Leaks tax-avoidance scandals, an EU legal act is issued in the form of a regulation. Can it nevertheless be transposed into national law? (2 points)",
+    "In connection with the Ned-Leaks tax-avoidance scandals, an EU legal act is issued in the form of a regulation. Can it nevertheless be transposed into national law? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 1 Q3",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "srovnani",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set A · Case 1 Q3] What is the difference between delegated acts and implementing acts? (3 points)",
+   "a": "Delegated acts supplement/amend legislation (EP/Council control); implementing acts ensure uniform implementation (Member State control).\n• Art 290(1) TFEU: a legislative act delegates to the Commission non-legislative acts of general application supplementing/amending non-essential elements; objectives, content, scope, duration explicitly defined.\n• Art 290(2): EP or Council may revoke or object.\n• Art 291(1)–(2) TFEU: Member States implement; where uniform conditions are needed, the binding act confers powers on the Commission (exceptionally Council).\n• Art 291(3): control by Member States (comitology, Reg 182/2011).\n• 290 adds/changes norms; 291 specifies without amending (C-88/14).",
+   "old_fronts": [
+    "[Set A · Case 1 Q3] What is the difference between delegated acts and implementing acts? (3 points)",
+    "What is the difference between delegated acts and implementing acts? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 1 Q4",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "norma",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Set A · Case 1 Q4] Why and to what extent is the primacy of EU law a conflict-resolution rule? (3 points)",
+   "a": "Primacy decides which conflicting norm applies in the case — primacy of application, not validity.\n• Why: EU and national law are autonomous, interlocking orders; uniform, effective application requires EU law to prevail (Costa v ENEL 6/64).\n• Effect: national court disapplies the conflicting rule (Simmenthal 106/77); it is not void and still applies outside EU law (IN.CO.GE.'90 C-10/97).\n• Extent: only a genuine conflict (conform interpretation first) with a directly effective EU rule (Popławski II C-573/17).\n• State must still amend its law (Commission v France 167/73).",
+   "old_fronts": [
+    "[Set A · Case 1 Q4] Why and to what extent is the primacy of EU law a conflict-resolution rule? (3 points)",
+    "Why and to what extent is the primacy of EU law a conflict-resolution rule? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 1 Q5",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set A · Case 1 Q5] How does the Court of Justice justify the primacy of EU law over national law? (3 points)",
+   "a": "No Treaty article (only Declaration 17): CJEU derives primacy from the nature of EU law (Costa v ENEL 6/64).\n• Own legal order: the Treaty became an integral part of national legal systems, binding their courts (Costa; Van Gend en Loos 26/62).\n• Transfer of sovereignty: states permanently limited sovereign rights → no later unilateral national measure prevails.\n• Uniformity: EU law's effect cannot vary between states without jeopardising Treaty aims (Art 4(3) TEU; Art 18 TFEU).\n• Art 288(2) TFEU: regulations' direct applicability would otherwise be meaningless.",
+   "old_fronts": [
+    "[Set A · Case 1 Q5] How does the Court of Justice justify the primacy of EU law over national law? (3 points)",
+    "How does the Court of Justice justify the primacy of EU law over national law? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 1 Q6",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set A · Case 1 Q6] Does EU law enjoy primacy over national constitutional law according to the Court of Justice? Discuss, with reference to case law, and explain how the Treaties take account of national constitutional identity. (3 points)",
+   "a": "Yes — for the CJEU EU law prevails even over national constitutions.\n• Internationale Handelsgesellschaft (11/70): EU acts cannot be measured against national constitutional rights; rights protected as general principles of EU law.\n• Melloni (C-399/11): no higher national constitutional standard where EU law is exhaustive (Art 53 Charter).\n• Art 4(2) TEU: Union respects national identity in fundamental constitutional structures → justification ground (Sayn-Wittgenstein C-208/09), not a licence to disapply EU law (RS C-430/21).\n• Contra: national constitutional courts claim rights/identity/ultra vires review (BVerfG Solange, Lisbon, PSPP).",
+   "old_fronts": [
+    "[Set A · Case 1 Q6] Does EU law enjoy primacy over national constitutional law according to the Court of Justice? Discuss, with reference to case law, and explain how the Treaties take account of national constitutional identity. (3 points)",
+    "Does EU law enjoy primacy over national constitutional law according to the Court of Justice? Discuss, with reference to case law, and explain how the Treaties take account of national constitutional identity. (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 1 Q7",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "definice",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set A · Case 1 Q7] What is an ultra vires act? (2 points)",
+   "a": "Act of a Union institution beyond the competences conferred by the Treaties.\n• Conferral: Art 5(1)–(2) TEU; non-conferred competences stay with Member States (Art 4(1) TEU); institutions act within their powers (Art 13(2) TEU).\n• EU view: only the CJEU declares it invalid (Arts 263(2), 267 TFEU; Foto-Frost 314/85).\n• National view: BVerfG review if manifest and structurally significant (Honeywell 2010, PSPP 2020).",
+   "old_fronts": [
+    "[Set A · Case 1 Q7] What is an ultra vires act? (2 points)",
+    "What is an ultra vires act? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 1 Q8",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "judikat",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set A · Case 1 Q8] Van Gend en Loos (1963): the Netherlands raised the customs duty on a chemical imported from Germany from 3% to 8%, contrary to the standstill clause in Art 12 EEC (now Art 30 TFEU). The Dutch and Belgian governments argued that only the Commission or another Member State could enforce the Treaty, through infringement proceedings. What were the Court's main arguments for direct effect, and why did it reject the governments' objection? (4 points)",
+   "a": "Treaty's spirit, scheme and wording create a new legal order including individuals; infringement proceedings don't exclude individual enforcement.\n• Spirit: common market concerns individuals; preamble refers to 'peoples', citizens participate via EP/ECOSOC → more than mutual state obligations.\n• Scheme: preliminary reference (now Art 267 TFEU) presupposes nationals invoking EU law before national courts.\n• New legal order: states limited sovereign rights; rights also arise from clearly defined obligations on states.\n• Wording: Art 12 EEC was clear, unconditional and negative, needing no implementing measure → directly effective.\n• Objection: Arts 169/170 EEC (now 258/259 TFEU) not exclusive; vigilance of individuals adds effective supervision → Van Gend could rely on Art 12.",
+   "old_fronts": [
+    "[Set A · Case 1 Q8] In Van Gend en Loos (1963), the Dutch transport company Van Gend en Loos was charged an increased customs duty (from 3% to 8%) on urea-formaldehyde imported from Germany, contrary to the standstill clause in Article 12 EEC (today Article 30 TFEU). The Dutch and Belgian governments argued that only the Commission or another Member State could enforce the Treaty, through the infringement procedure. What were the Court's main arguments for direct effect, and why did it reject the governments' objection? (4 points)",
+    "In Van Gend en Loos (1963), the Dutch transport company Van Gend en Loos was charged an increased customs duty (from 3% to 8%) on urea-formaldehyde imported from Germany, contrary to the standstill clause in Article 12 EEC (today Article 30 TFEU). The Dutch and Belgian governments argued that only the Commission or another Member State could enforce the Treaty, through the infringement procedure. What were the Court's main arguments for direct effect, and why did it reject the governments' objection? (4 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 1 Q9",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "definice",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set A · Case 1 Q9] What is meant by the \"autonomy\" of Union law, and how does the Court of Justice justify and protect it? (2 points)",
+   "a": "EU law is an independent legal order, separate from international and national law; the CJEU alone decides its meaning.\n• Justified: 'new legal order' (Van Gend en Loos 26/62), 'own legal system' (Costa v ENEL 6/64) → not measured against national law.\n• Protected: CJEU interpretive monopoly (Art 19(1) TEU, Art 267 TFEU); exclusive EU dispute settlement (Art 344 TFEU; Achmea C-284/16, Opinion 2/13).",
+   "old_fronts": [
+    "[Set A · Case 1 Q9] What is meant by the \"autonomy\" of Union law, and how does the Court of Justice justify and protect it? (2 points)",
+    "What is meant by the \"autonomy\" of Union law, and how does the Court of Justice justify and protect it? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 1 Q10",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set A · Case 1 Q10] What are the conditions for direct effect of Union law? Do they depend on the kind of legal act and on the relationship in which the provision is invoked (vertical/horizontal)? (3 points)",
+   "a": "Clear, precise, unconditional; yes — invocability depends on act and relationship.\n• Van Gend en Loos (26/62): sufficiently clear and precise, unconditional (no discretionary implementing measure needed) → confers rights.\n• Act (Art 288 TFEU): Treaty articles, regulations (288(2)), decisions (288(4); Grad 9/70) yes; directives (288(3)) only after the deadline if not/wrongly transposed (Ratti 148/78).\n• Vertical: against the state.\n• Horizontal: Treaty articles binding private parties (Defrenne II, Art 157 TFEU) and regulations; never directives (Marshall I 152/84, Faccini Dori C-91/92); no inverse vertical effect (Kolpinghuis 80/86).",
+   "old_fronts": [
+    "[Set A · Case 1 Q10] What are the conditions for direct effect of Union law? Do they depend on the kind of legal act and on the relationship in which the provision is invoked (vertical/horizontal)? (3 points)",
+    "What are the conditions for direct effect of Union law? Do they depend on the kind of legal act and on the relationship in which the provision is invoked (vertical/horizontal)? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 2 Q1",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Set A · Case 2 Q1] A Belgian environmental association asks the Belgian Conseil d'État to annul a Walloon decree of 9 April 1992 on hazardous waste, arguing that it conflicts with Directive 91/689. Belgium adopted the decree after the directive, but before its transposition period expired. The decree exempts certain waste operations from the permit requirement the directive imposes. Can the association rely on EU law? (4 points)",
+   "a": "Yes — not on the directive's direct effect, but on the duty not to seriously compromise its result before the deadline (Inter-Environnement Wallonie, C-129/96).\n• No direct effect: vertical direct effect requires an expired transposition deadline (Ratti) → directive not invocable as such.\n• Art 4(3) TEU + Art 288(3) TFEU: before the deadline Member States need not comply, but must not adopt provisions liable seriously to compromise the result prescribed (IEW).\n• Test: does it present itself as definitive transposition; concrete effects; duration.\n• Application: a definitive decree exempting operations from permits can seriously compromise the result → for the Conseil d'État to assess; if so, it annuls; may refer (Art 267 TFEU).",
+   "old_fronts": [
+    "[Set A · Case 2 Q1] Inter-Environnement, a Belgian non-profit environmental association, asks the Belgian Conseil d'État to annul a decree of the Walloon Regional Government of 9 April 1992 on toxic and hazardous waste. It argues that the decree conflicts with Directive 91/689 on hazardous waste. Belgium issued the decree after the directive was adopted, but before its transposition period expired. The decree exempts certain waste operations from the permit requirement that the directive would impose. Can the association rely on EU law? (4 points)",
+    "Inter-Environnement, a Belgian non-profit environmental association, asks the Belgian Conseil d'État to annul a decree of the Walloon Regional Government of 9 April 1992 on toxic and hazardous waste. It argues that the decree conflicts with Directive 91/689 on hazardous waste. Belgium issued the decree after the directive was adopted, but before its transposition period expired. The decree exempts certain waste operations from the permit requirement that the directive would impose. Can the association rely on EU law? (4 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 2 Q2",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set A · Case 2 Q2] Can directives have direct effect between private parties (horizontal direct effect)? Give the reasons for the Court of Justice's position and explain the ways around it. (4 points)",
+   "a": "No — a directive cannot of itself impose obligations on an individual (Marshall I; Faccini Dori); direct effect is only vertical, against the state (Ratti).\n• Reasons: binding only on \"each Member State to which it is addressed\" (Art 288(3) TFEU); estoppel hits the defaulting state, not a private party; otherwise no difference from regulations (Art 288(2) TFEU); legal certainty.\n• Workaround 1 — broad notion of the state: state as employer (Marshall I), emanations of the state (Foster).\n• Workaround 2 — consistent interpretation (Von Colson; Marleasing), never contra legem.\n• Workaround 3 — directive expressing a general principle/Charter right (Mangold; Kücükdeveci); incidental effect (CIA Security; Unilever).\n• Last resort: state liability (Francovich).",
+   "old_fronts": [
+    "[Set A · Case 2 Q2] Can directives have direct effect between private parties (horizontal direct effect)? Give the reasons for the Court of Justice's position and explain the ways around it. (4 points)",
+    "Can directives have direct effect between private parties (horizontal direct effect)? Give the reasons for the Court of Justice's position and explain the ways around it. (4 points)"
+   ]
+  },
+  {
+   "id": "eu-set-a:Case 2 Q3",
+   "topic": "Past questions — set A (Ned-Leaks, Wallonia)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "definice",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set A · Case 2 Q3] What is meant by the \"indirect effect\" of directives? Explain its legal basis, its scope and its limits. (3 points)",
+   "a": "The duty of national courts and authorities to interpret national law as far as possible in conformity with a directive (Von Colson; Marleasing).\n• Basis: Art 288(3) TFEU + Art 4(3) TEU bind all state authorities, including courts (Von Colson, 14/83).\n• Scope: all national law, earlier or later (Marleasing), also between private parties; all recognised methods (Pfeiffer); from the transposition deadline; provision need not be directly effective.\n• Limits: never contra legem (Adeneler); legal certainty → cannot create or aggravate criminal liability (Kolpinghuis).\n• Otherwise → state liability (Francovich).",
+   "old_fronts": [
+    "[Set A · Case 2 Q3] What is meant by the \"indirect effect\" of directives? Explain its legal basis, its scope and its limits. (3 points)",
+    "What is meant by the \"indirect effect\" of directives? Explain its legal basis, its scope and its limits. (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 1 Q1",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Set B · Case 1 Q1] The Union legislator wants to adopt a directive harmonising the framework under which national competition authorities enforce Union and national competition law (independence, resources, powers), while ensuring the proper functioning of the internal market and of the European Competition Network. What is the proper legal basis for this directive, and which procedure follows from it? (3 points)",
+   "a": "Art 103 + Art 114 TFEU (like ECN+ Directive 2019/1) → ordinary legislative procedure (Art 294 TFEU).\n• Competence: exclusive (Art 3(1)(b) TFEU), but catalogue ≠ legal basis.\n• Art 103(1) TFEU: Council, on Commission proposal after consulting the EP, gives effect to Arts 101–102 → alone: mere consultation.\n• Art 114(1) TFEU: approximation for the internal market (authorities' independence, resources, powers) → OLP.\n• Choice by aim and content (Titanium dioxide, C-300/89); two inseparable aims → dual basis if procedures compatible: Council QMV under both → OLP absorbs consultation.",
+   "old_fronts": [
+    "[Set B · Case 1 Q1] The Union legislator wants to adopt a directive harmonising the framework under which national competition authorities enforce Union and national competition law – guarantees on their independence, resources and powers – while ensuring the proper functioning of the internal market and of the European Competition Network. What is the proper legal basis for this directive, and which procedure follows from it? (3 points)",
+    "The Union legislator wants to adopt a directive harmonising the framework under which national competition authorities enforce Union and national competition law – guarantees on their independence, resources and powers – while ensuring the proper functioning of the internal market and of the European Competition Network. What is the proper legal basis for this directive, and which procedure follows from it? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 1 Q2",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 5,
+   "kind": "proces",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set B · Case 1 Q2] Explain the individual steps of the ordinary legislative procedure, including the majorities and time limits. (5 points)",
+   "a": "Arts 289(1), 294 TFEU: proposal → 1st, 2nd reading → conciliation → 3rd reading; EP and Council co-decide.\n• Proposal: Commission (Art 294(2)); Council amends only unanimously (Art 293(1)).\n• 1st reading, no time limit: EP position (simple majority); Council approves (QMV) → adopted, otherwise own position (Art 294(3)–(6)).\n• 2nd reading, EP within 3 months: approves/silent → adopted; rejects or amends by majority of component members (Art 294(7)). Council within 3 months approves all amendments (QMV; unanimity on amendments Commission rejects) → adopted (Art 294(8)–(9)).\n• Otherwise Conciliation Committee within 6 weeks (Council + equal number of MEPs): joint text within 6 weeks (Council QMV, EP-delegation majority), else fails (Art 294(10)–(12)).\n• 3rd reading within 6 weeks: EP (majority of votes cast) and Council (QMV), else fails (Art 294(13)); extensions +1 month/+2 weeks (Art 294(14)); OJ (Art 297(1)).",
+   "old_fronts": [
+    "[Set B · Case 1 Q2] Explain the individual steps of the ordinary legislative procedure, including the majorities and time limits. (5 points)",
+    "Explain the individual steps of the ordinary legislative procedure, including the majorities and time limits. (5 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 1 Q3",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set B · Case 1 Q3] What is enhanced cooperation? (3 points)",
+   "a": "At least nine Member States may, as a last resort, use EU institutions to adopt acts binding only themselves (Art 20 TEU; Arts 326–334 TFEU).\n• Conditions: non-exclusive competences (Art 20(1) TEU); last resort, nine states (Art 20(2) TEU); internal market, cohesion intact (Art 326 TFEU); non-participants respected, open to all (Arts 327–328 TFEU).\n• Authorisation: Council (QMV), Commission proposal, EP consent (Art 329(1) TFEU).\n• Effects: only participants vote (Art 20(3) TEU, Art 330 TFEU); acts bind only them (Art 20(4) TEU).\n• Examples: Rome III, unitary patent, EPPO.",
+   "old_fronts": [
+    "[Set B · Case 1 Q3] What is enhanced cooperation? (3 points)",
+    "What is enhanced cooperation? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 1 Q4",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "definice",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set B · Case 1 Q4] What constitutes the principle of decentralised enforcement of EU law? (3 points)",
+   "a": "As a rule Member States, not the Union, implement and enforce EU law; direct EU enforcement is the exception (explicit legal basis).\n• Authorities: adopt measures implementing binding Union acts (Art 291(1) TFEU; Art 4(3) TEU); EU implementing powers only for uniform conditions (Art 291(2)).\n• Courts: ordinary EU-law courts → direct effect, primacy (Van Gend, Costa, Simmenthal); effective remedies (Art 19(1) subpara 2 TEU, Art 47 Charter); Art 267 TFEU references.\n• National procedure within equivalence and effectiveness (Rewe; Comet).\n• Commission supervises (Art 17(1) TEU; Arts 258–260 TFEU).",
+   "old_fronts": [
+    "[Set B · Case 1 Q4] What constitutes the principle of decentralised enforcement of EU law? (3 points)",
+    "What constitutes the principle of decentralised enforcement of EU law? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 1 Q5",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set B · Case 1 Q5] Give examples of own (direct) enforcement of Union law. (2 points)",
+   "a": "Competition, trade, directly managed funds, EU administration — exceptions, each with explicit legal basis.\n• Competition: Commission decisions/fines under Arts 101–102 (Art 105 TFEU, Reg 1/2003), mergers, state aid (Art 108(2) TFEU), DMA.\n• Trade: Commission anti-dumping/countervailing duties (Art 207 TFEU).\n• Funds/research under direct management; EU staff and budget (Arts 336, 317 TFEU).\n• Not customs: exclusive (Art 3 TFEU), but collected nationally.",
+   "old_fronts": [
+    "[Set B · Case 1 Q5] Give examples of own (direct) enforcement of Union law. (2 points)",
+    "Give examples of own (direct) enforcement of Union law. (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 1 Q6",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set B · Case 1 Q6] What is meant by the principle of procedural autonomy? (3 points)",
+   "a": "Absent EU procedural rules, each Member State designates the courts and procedure for EU-law claims, limited by equivalence and effectiveness (Rewe; Comet).\n• Equivalence: no less favourable than similar domestic claims.\n• Effectiveness: exercise of EU rights not practically impossible or excessively difficult (Impact); reasonable time limits are fine (Rewe).\n• Basis: Arts 4(3), 19(1) subpara 2 TEU, Art 47 Charter → EU law may itself demand a remedy: interim relief (Factortame I), damages (Francovich).\n• EU procedural rules prevail where they exist; references follow Art 267 TFEU itself.",
+   "old_fronts": [
+    "[Set B · Case 1 Q6] What is meant by the principle of procedural autonomy? (3 points)",
+    "What is meant by the principle of procedural autonomy? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 2 Q1",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Set B · Case 2 Q1] The Irish Merchant Shipping Act 2020 introduced nationality and residence requirements for registering fishing vessels as Irish; Spanish-owned fishing companies were then barred from Irish waters. They sought judicial review of the Act's compatibility with the EU Treaties (freedom of establishment) and interim relief suspending the Act until final judgment. Under Irish common law, courts cannot suspend Acts of Parliament by way of interim relief. Can the fishers rely on EU law to obtain interim relief? (3 points)",
+   "a": "Yes — a national court must set aside a national rule that is the sole obstacle to interim relief in a case governed by EU law (Factortame I, C-213/89).\n• Primacy: every court disapplies national rules impairing full effectiveness of EU law (Simmenthal; Art 4(3) TEU).\n• Effective judicial protection (Art 19(1) subpara 2 TEU, Art 47 Charter) → interim relief must protect the claimed Art 49 TFEU right.\n• Application: Irish court disapplies common-law bar, applies ordinary interim-relief conditions; may refer (Art 267 TFEU).\n• Later: damages (Factortame III).",
+   "old_fronts": [
+    "[Set B · Case 2 Q1] The Irish Merchant Shipping Act 2020 introduced new nationality and residence requirements for registering fishing vessels as Irish. Spanish-owned fishing companies were then barred from fishing in Irish waters. They sought judicial review of the Act's compatibility with the EU Treaties (freedom of establishment) and asked for interim relief suspending the Act until final judgment. Under Irish common law, courts cannot suspend Acts of Parliament by way of interim relief. Can the fishers rely on EU law to obtain interim relief? (3 points)",
+    "The Irish Merchant Shipping Act 2020 introduced new nationality and residence requirements for registering fishing vessels as Irish. Spanish-owned fishing companies were then barred from fishing in Irish waters. They sought judicial review of the Act's compatibility with the EU Treaties (freedom of establishment) and asked for interim relief suspending the Act until final judgment. Under Irish common law, courts cannot suspend Acts of Parliament by way of interim relief. Can the fishers rely on EU law to obtain interim relief? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 2 Q2",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set B · Case 2 Q2] Can a claim for damages against Member States for breach of Union law be based on Article 340(2) TFEU? (2 points)",
+   "a": "No — Art 340(2) TFEU covers only the Union's own non-contractual liability.\n• Art 340(2) TFEU: the Union makes good damage caused by its institutions or servants → action against the Union before the EU Courts (Art 268 TFEU).\n• Member State liability is an unwritten general principle (Francovich; Art 4(3) TEU) → national courts; Art 340(2) only inspired its conditions (Brasserie du Pêcheur).",
+   "old_fronts": [
+    "[Set B · Case 2 Q2] Can a claim for damages against Member States for breach of Union law be based on Article 340(2) TFEU? (2 points)",
+    "Can a claim for damages against Member States for breach of Union law be based on Article 340(2) TFEU? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 2 Q3",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set B · Case 2 Q3] Can an individual claim damages from a Member State for a breach of EU law? On what legal basis, under which conditions, and before which court? (4 points)",
+   "a": "Yes — state liability (Francovich), claimed before the national courts if the Brasserie du Pêcheur/Factortame III conditions are met.\n• Basis: unwritten general principle inherent in the Treaties — effectiveness of EU law, protection of individual rights (Francovich); Art 4(3) TEU, Art 19(1) subpara 2 TEU; not Art 340(2) TFEU (Union only).\n• Conditions: (1) the Member State breaches a rule intended to confer rights on individuals; (2) the breach is sufficiently serious = manifest and grave disregard of discretion (non-transposition per se, Dillenkofer); (3) damage and a direct causal link.\n• Any state organ counts: legislature, administration, last-instance court (Köbler).\n• Court: national courts under national procedure, subject to equivalence and effectiveness.",
+   "old_fronts": [
+    "[Set B · Case 2 Q3] Can an individual claim damages from a Member State for a breach of EU law? On what legal basis, under which conditions, and before which court? (4 points)",
+    "Can an individual claim damages from a Member State for a breach of EU law? On what legal basis, under which conditions, and before which court? (4 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 2 Q4",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set B · Case 2 Q4] What are the consequences of a breach of the obligation to refer a question to the Court of Justice? (3 points)",
+   "a": "The Member State breaches EU law → infringement proceedings and state liability; in Austria also a breach of the lawful-judge right.\n• Duty: last-instance courts must refer (Art 267(3) TFEU) unless CILFIT applies (irrelevant, acte éclairé, acte clair).\n• Commission may bring Art 258 TFEU proceedings against the Member State (Commission v France, C-416/17).\n• State liability for a manifest breach by a last-instance court (Köbler); judgment stays final.\n• No individual right to a reference, but in Austria the CJEU is a lawful judge → Art 83(2) B-VG violated.",
+   "old_fronts": [
+    "[Set B · Case 2 Q4] What are the consequences of a breach of the obligation to refer a question to the Court of Justice? (3 points)",
+    "What are the consequences of a breach of the obligation to refer a question to the Court of Justice? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 2 Q5",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "znaky",
+   "difficulty": 1,
+   "priority": 1,
+   "q": "[Set B · Case 2 Q5] Which claimants are fully privileged in actions for annulment? (2 points)",
+   "a": "The Member States, the European Parliament, the Council and the Commission (Art 263(2) TFEU).\n• No need to show direct or individual concern → any reviewable act, any of the four grounds, within two months (Art 263(6) TFEU).\n• Contrast: Court of Auditors, ECB, Committee of the Regions only to protect their prerogatives (Art 263(3)); natural and legal persons under Art 263(4).",
+   "old_fronts": [
+    "[Set B · Case 2 Q5] Which claimants are fully privileged in actions for annulment? (2 points)",
+    "Which claimants are fully privileged in actions for annulment? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 2 Q6",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set B · Case 2 Q6] Under which conditions can non-privileged claimants file an action for annulment? (3 points)",
+   "a": "Natural or legal persons may challenge (Art 263(4) TFEU) an act addressed to them, an act of direct and individual concern, or a regulatory act of direct concern without implementing measures — within two months (Art 263(6)).\n• Direct concern: the act directly affects their legal situation, no discretion left to implementers.\n• Individual concern (Plaumann): peculiar attributes or circumstances distinguish them from all others like an addressee, e.g. closed class, specific right (Codorniu).\n• Regulatory act = non-legislative act of general application (Inuit) → individual concern not needed.",
+   "old_fronts": [
+    "[Set B · Case 2 Q6] Under which conditions can non-privileged claimants file an action for annulment? (3 points)",
+    "Under which conditions can non-privileged claimants file an action for annulment? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-b:Case 4 Q1",
+   "topic": "Past questions — set B (competition directive, Factortame, paid leave)",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Set B · Case 4 Q1] A and B claim an allowance in lieu of the paid annual leave their deceased husbands had not taken. A's husband worked for a municipality, B's for a private company. German law excluded such claims by spouses, because the leave entitlement lapsed on the worker's death. Article 7 of the Working Time Directive 2003/88 guarantees at least four weeks' paid annual leave. Can both A and B rely on Article 31(2) of the Charter of Fundamental Rights? (4 points)",
+   "a": "Yes, both — Art 31(2) Charter is mandatory and unconditional and binds public and private employers alike (Bauer and Willmeroth, C-569/16 and C-570/16).\n• Charter = primary law (Art 6(1) TEU) and applies because Germany implements Art 7 Directive 2003/88 (Art 51(1) Charter; Åkerberg Fransson); the allowance does not lapse on death but passes to the heirs.\n• First try consistent interpretation of German law; only if contra legem → disapplication.\n• A (municipality = state): Art 7 Directive has vertical direct effect, plus Art 31(2) Charter → national rule disapplied.\n• B (private employer): directives have no horizontal direct effect (Faccini Dori), but Art 31(2) Charter does → national rule disapplied, B succeeds.",
+   "old_fronts": [
+    "[Set B · Case 4 Q1] A and B applied for an allowance in lieu of the paid annual leave their husbands had not taken before they died. A's husband worked in the public sector, for a municipality. B's husband worked for a private company. German legislation excluded such claims by spouses of deceased workers, because the leave entitlement lapsed on the worker's death. Article 7 of the Working Time Directive 2003/88 guarantees at least four weeks' paid annual leave. Can both A and B rely on Article 31(2) of the Charter of Fundamental Rights? (4 points)",
+    "A and B applied for an allowance in lieu of the paid annual leave their husbands had not taken before they died. A's husband worked in the public sector, for a municipality. B's husband worked for a private company. German legislation excluded such claims by spouses of deceased workers, because the leave entitlement lapsed on the worker's death. Article 7 of the Working Time Directive 2003/88 guarantees at least four weeks' paid annual leave. Can both A and B rely on Article 31(2) of the Charter of Fundamental Rights? (4 points)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q1",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "cisla",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "[Set C · Q1] What does the abbreviation ECSC stand for? When was it founded, and which states were its founding members? (2 points)",
+   "a": "European Coal and Steel Community — Treaty of Paris, signed 18 April 1951, in force 23 July 1952.\n• Founders (the Six): Belgium, France, (West) Germany, Italy, Luxembourg, Netherlands.\n• Origin: Schuman Declaration, 9 May 1950 — coal and steel under a supranational High Authority → war between France and Germany impossible; treaty expired 23 July 2002.",
+   "old_fronts": [
+    "[Set C · Q1] What does the abbreviation ECSC stand for? When was it founded, and which states were its founding members? (2 points)",
+    "What does the abbreviation ECSC stand for? When was it founded, and which states were its founding members? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q2",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "rozliseni",
+   "difficulty": 1,
+   "priority": 1,
+   "q": "[Set C · Q2] Briefly distinguish between the following bodies: the Council of Europe, the European Council, and the Council of the European Union. (3 points)",
+   "a": "Only the European Council and the Council are EU institutions (Art 13(1) TEU); the Council of Europe is a separate international organisation.\n• Council of Europe: 1949, Strasbourg, 46 states, outside the EU → ECHR and ECtHR.\n• European Council (Art 15(1)–(2) TEU): heads of state or government, its President, Commission President → political impetus and priorities; no legislative functions.\n• Council (Art 16 TEU): one minister per Member State (Art 16(2)) → legislative and budgetary functions jointly with the EP (Art 16(1)); QMV as a rule (Art 16(3)).",
+   "old_fronts": [
+    "[Set C · Q2] Briefly distinguish between the following bodies: the Council of Europe, the European Council, and the Council of the European Union. (3 points)",
+    "Briefly distinguish between the following bodies: the Council of Europe, the European Council, and the Council of the European Union. (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q3",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "znaky",
+   "difficulty": 1,
+   "priority": 1,
+   "q": "[Set C · Q3] Name two tasks that the European Commission performs. (2 points)",
+   "a": "E.g. legislative initiative and guardian of the Treaties (Art 17 TEU).\n• Initiative: legislative acts only on a Commission proposal unless Treaties provide otherwise (Art 17(2) TEU; Art 294(2) TFEU).\n• Guardian: ensures application of EU law (Art 17(1) TEU) → infringement proceedings (Art 258 TFEU).\n• Also accepted: executing the budget (Art 317 TFEU), monitoring national budgets (Art 126(2) TFEU).",
+   "old_fronts": [
+    "[Set C · Q3] Name two tasks that the European Commission performs. (2 points)",
+    "Name two tasks that the European Commission performs. (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q4(a)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "[Set C · Q4(a)] According to which criteria are the judges and Advocates General of the Court of Justice (ECJ) selected? (1 point)",
+   "a": "Independence beyond doubt and qualifications for the highest judicial offices at home, or recognised competence as jurisconsults (Art 19(2) TEU, Art 253(1) TFEU).\n• Appointed by common accord of governments for six years, after consulting the Art 255 TFEU panel.",
+   "old_fronts": [
+    "[Set C · Q4(a)] According to which criteria are the judges and Advocates General of the Court of Justice (ECJ) selected? (1 point)",
+    "According to which criteria are the judges and Advocates General of the Court of Justice (ECJ) selected? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q4(b)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "[Set C · Q4(b)] What is the role of the Advocates General at the Court of Justice (ECJ)? (1 point)",
+   "a": "They assist the Court by delivering impartial, independent Opinions proposing a solution.\n• Art 19(2) TEU: the Court is assisted by Advocates General.\n• Art 252(2) TFEU: reasoned submissions in open court on cases requiring their involvement → not binding.",
+   "old_fronts": [
+    "[Set C · Q4(b)] What is the role of the Advocates General at the Court of Justice (ECJ)? (1 point)",
+    "What is the role of the Advocates General at the Court of Justice (ECJ)? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q5",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "definice",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set C · Q5] Explain the principle of subsidiarity. Where is it regulated? (3 points)",
+   "a": "Outside exclusive competence the EU acts only if Member States cannot sufficiently achieve the objective and the EU can do better.\n• Regulated in Art 5(3) TEU and Protocol No 2; only non-exclusive competences (not Art 3 TFEU).\n• Two cumulative tests: (1) Member States insufficient, centrally, regionally or locally; (2) better at Union level due to scale or effects.\n• Governs exercise, not existence, of competences (Art 5(1) TEU).\n• National parliaments' reasoned opinions, yellow/orange card (Arts 6–7 Protocol 2); annulment action (Art 8 Protocol 2, Art 263 TFEU).",
+   "old_fronts": [
+    "[Set C · Q5] Explain the principle of subsidiarity. Where is it regulated? (3 points)",
+    "Explain the principle of subsidiarity. Where is it regulated? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q6(a)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set C · Q6(a)] Comment on the following statement and indicate whether it is true or false. Justify your answer: 'With the state liability claim according to Francovich, one can assert breaches of EU law by EU institutions.' (1 point)",
+   "a": "False — Francovich concerns the liability of a MEMBER STATE for its breaches of EU law.\n• Francovich (C-6/90): claim against the state before national courts.\n• EU institutions → Union's non-contractual liability, Art 340(2) TFEU (General Court).",
+   "old_fronts": [
+    "[Set C · Q6(a)] Comment on the following statement and indicate whether it is true or false. Justify your answer: 'With the state liability claim according to Francovich, one can assert breaches of EU law by EU institutions.' (1 point)",
+    "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'With the state liability claim according to Francovich, one can assert breaches of EU law by EU institutions.' (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q6(b)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set C · Q6(b)] Comment on the following statement and indicate whether it is true or false: 'A decision of the European Commission does not have primacy over national constitutional law.' (1 point)",
+   "a": "False — for the CJEU all EU law, including a Commission decision, prevails over all national law, including constitutions.\n• Decision = binding EU law (Art 288(4) TFEU).\n• Costa v ENEL (6/64); Internationale Handelsgesellschaft (11/70); Declaration 17.",
+   "old_fronts": [
+    "[Set C · Q6(b)] Comment on the following statement and indicate whether it is true or false: 'A decision of the European Commission does not have primacy over national constitutional law.' (1 point)",
+    "Comment on the following statement and indicate whether it is true or false: 'A decision of the European Commission does not have primacy over national constitutional law.' (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q6(c)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set C · Q6(c)] Comment on the following statement and indicate whether it is true or false. Justify your answer: 'Only a regulation can have direct effect.' (1 point)",
+   "a": "False — direct effect depends on the provision being clear, precise and unconditional (Van Gend en Loos), not the act type.\n• Treaty articles, decisions (Grad), unimplemented directives only vertically (Van Duyn, Marshall).\n• Regulations: directly applicable (Art 288(2) TFEU).",
+   "old_fronts": [
+    "[Set C · Q6(c)] Comment on the following statement and indicate whether it is true or false. Justify your answer: 'Only a regulation can have direct effect.' (1 point)",
+    "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'Only a regulation can have direct effect.' (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q7",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "proces",
+   "difficulty": 1,
+   "priority": 1,
+   "q": "[Set C · Q7] How is a secondary legal act normally adopted? Where is the corresponding procedure regulated? (2 points)",
+   "a": "Normally by the ordinary legislative procedure: EP and Council jointly adopt on a Commission proposal.\n• Art 289(1) TFEU (definition), Art 294 TFEU (procedure).\n• Commission proposal (Art 294(2)) → EP first reading → Council position by QMV (Art 16(3) TEU) → second reading → conciliation, third reading (Art 294(8)(b)–(14)).\n• Commission is not a co-legislator; exception: special legislative procedure (Art 289(2) TFEU).",
+   "old_fronts": [
+    "[Set C · Q7] How is a secondary legal act normally adopted? Where is the corresponding procedure regulated? (2 points)",
+    "How is a secondary legal act normally adopted? Where is the corresponding procedure regulated? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q8(a)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "judikat",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "[Set C · Q8(a)] Did the EEC Treaty (now the TFEU), in its original 1957 version, contain a written catalogue of fundamental and human rights? (1 point)",
+   "a": "No — an economic-integration treaty without a fundamental-rights catalogue.\n• Only isolated guarantees: nationality non-discrimination (Art 7 EEC, now 18 TFEU), equal pay (Art 119 EEC, now 157 TFEU), market freedoms.\n• Court later filled the gap (Stauder 1969).",
+   "old_fronts": [
+    "[Set C · Q8(a)] Did the EEC Treaty (now the TFEU), in its original 1957 version, contain a written catalogue of fundamental and human rights? (1 point)",
+    "Did the EEC Treaty (now the TFEU), in its original 1957 version, contain a written catalogue of fundamental and human rights? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q8(b)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "judikat",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set C · Q8(b)] The original EEC Treaty contained no written catalogue of fundamental rights. On what basis did the Court of Justice nevertheless develop its case law on fundamental and human rights? Name a well-known judgment. (2 points)",
+   "a": "As unwritten general principles of Community law, which the Court protects — Stauder (29/69), Internationale Handelsgesellschaft (11/70).\n• Court ensures that 'the law is observed' (Art 164 EEC, now Art 19(1) TEU) → includes general principles.\n• Sources: common constitutional traditions (Internationale Handelsgesellschaft), international human-rights treaties (Nold, 4/73), above all the ECHR (Rutili, 36/75).\n• Today codified in Art 6(3) TEU.",
+   "old_fronts": [
+    "[Set C · Q8(b)] The original EEC Treaty contained no written catalogue of fundamental rights. On what basis did the Court of Justice nevertheless develop its case law on fundamental and human rights? Name a well-known judgment. (2 points)",
+    "The original EEC Treaty contained no written catalogue of fundamental rights. On what basis did the Court of Justice nevertheless develop its case law on fundamental and human rights? Name a well-known judgment. (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q8(c)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 1,
+   "q": "[Set C · Q8(c)] The original Treaties contained no catalogue of fundamental rights, and the Court of Justice protected them as general principles of law. How has the legal situation in this area changed due to the Treaty of Lisbon? (1 point)",
+   "a": "The Charter of Fundamental Rights became binding with the same legal value as the Treaties → primary law (Art 6(1) TEU).\n• EU shall accede to the ECHR (Art 6(2) TEU, not yet); general principles remain (Art 6(3) TEU).",
+   "old_fronts": [
+    "[Set C · Q8(c)] The original Treaties contained no catalogue of fundamental rights, and the Court of Justice protected them as general principles of law. How has the legal situation in this area changed due to the Treaty of Lisbon? (1 point)",
+    "The original Treaties contained no catalogue of fundamental rights, and the Court of Justice protected them as general principles of law. How has the legal situation in this area changed due to the Treaty of Lisbon? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q9(a)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "znaky",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "[Set C · Q9(a)] Name two so-called 'convergence criteria' that Member States must fulfil if they wish to participate in the third stage of Economic and Monetary Union (EMU). (2 points)",
+   "a": "Any two of the four criteria (Art 140(1) TFEU, Protocol No 13):\n• Price stability: inflation max 1.5 points above the three best Member States.\n• Public finances: no excessive deficit under Art 126(6) TFEU (3% / 60% GDP).\n• Exchange rate: two years in ERM II within normal margins, no devaluation.\n• Long-term interest rates: max 2 points above the three best.",
+   "old_fronts": [
+    "[Set C · Q9(a)] Name two so-called 'convergence criteria' that Member States must fulfil if they wish to participate in the third stage of Economic and Monetary Union (EMU). (2 points)",
+    "Name two so-called 'convergence criteria' that Member States must fulfil if they wish to participate in the third stage of Economic and Monetary Union (EMU). (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-c:Q9(b)",
+   "topic": "Past questions — set C (practice questions 1-9)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "cisla",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "[Set C · Q9(b)] When was the euro introduced as the common currency? (1 point)",
+   "a": "1 January 1999 as book money (third stage of EMU); notes and coins on 1 January 2002 (12 MS).\n• 1999: 11 MS irrevocably fixed conversion rates; ECB took over monetary policy.\n• Art 3(4) TEU, Art 119(2) TFEU.",
+   "old_fronts": [
+    "[Set C · Q9(b)] When was the euro introduced as the common currency? (1 point)",
+    "When was the euro introduced as the common currency? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 1(a)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 1,
+   "q": "[Set D · Case 1(a)] Scotland's Alcohol (Minimum Pricing) Act sets a minimum retail price per unit of alcohol for all alcoholic drinks sold in Scotland. In a 2015 preliminary ruling the CJEU held that such rules could restrict the internal market and that the national court must determine whether less restrictive measures could protect human health just as effectively. (a) Which fundamental freedom is affected, and where is it regulated? (1 point)",
+   "a": "The free movement of goods — Art 28 and Art 34 TFEU (Scotch Whisky Association, C-333/14).\n• Art 34 TFEU: prohibits quantitative restrictions on imports and all measures having equivalent effect → minimum price.\n• Justification: Art 36 TFEU (health).",
+   "old_fronts": [
+    "[Set D · Case 1(a)] The Alcohol (Minimum Pricing) (Scotland) Act introduced a minimum retail price per unit of alcohol for all alcoholic drinks sold in Scotland. In a 2015 preliminary ruling the CJEU held that such rules could restrict the internal market, and that the national court must determine whether other, less restrictive measures could protect human health and life just as effectively while restricting trade within the Union less. (a) Which fundamental freedom is affected, and where is it regulated? (1 point)",
+    "The Alcohol (Minimum Pricing) (Scotland) Act introduced a minimum retail price per unit of alcohol for all alcoholic drinks sold in Scotland. In a 2015 preliminary ruling the CJEU held that such rules could restrict the internal market, and that the national court must determine whether other, less restrictive measures could protect human health and life just as effectively while restricting trade within the Union less. (a) Which fundamental freedom is affected, and where is it regulated? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 1(b)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set D · Case 1(b)] A Scottish Act sets a minimum retail price per unit of alcohol for all alcoholic drinks sold in Scotland; in 2015 the CJEU held such rules could restrict the internal market. (b) Under what conditions does the scope of this fundamental freedom apply? Does it apply here? (2 points)",
+   "a": "Yes, all conditions are met.\n• Goods: tradeable products of monetary value (Commission v Italy 7/68), incl. third-country goods in free circulation (Art 28(2) TFEU) → alcohol.\n• Cross-border: intra-EU trade at least potentially affected → imported drinks.\n• Personal: any nationality; binds all state organs → Scottish Parliament (UK then a MS).\n• No exhaustive harmonisation of retail prices → Art 34 TFEU applies.",
+   "old_fronts": [
+    "[Set D · Case 1(b)] The Alcohol (Minimum Pricing) (Scotland) Act introduced a minimum retail price per unit of alcohol for all alcoholic drinks sold in Scotland. In a 2015 preliminary ruling the CJEU held that such rules could restrict the internal market, and that the national court must determine whether other, less restrictive measures could protect human health and life just as effectively while restricting trade within the Union less. (b) Under what conditions does the scope of this fundamental freedom apply? Does it apply here? (2 points)",
+    "The Alcohol (Minimum Pricing) (Scotland) Act introduced a minimum retail price per unit of alcohol for all alcoholic drinks sold in Scotland. In a 2015 preliminary ruling the CJEU held that such rules could restrict the internal market, and that the national court must determine whether other, less restrictive measures could protect human health and life just as effectively while restricting trade within the Union less. (b) Under what conditions does the scope of this fundamental freedom apply? Does it apply here? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 1(c)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Set D · Case 1(c)] A Scottish Act sets a minimum retail price per unit of alcohol for all alcoholic drinks sold in Scotland; in 2015 the CJEU held such rules could restrict the internal market. (c) Assuming the scope applies, how could the measure infringe this fundamental freedom? Justify your answer on the facts. (2 points)",
+   "a": "As a measure having equivalent effect to a quantitative restriction (Art 34 TFEU).\n• Dassonville (8/74): any rule capable of hindering intra-EU trade, directly or indirectly, actually or potentially.\n• Keck (C-267/91): selling arrangement (how goods are sold) escapes only if it applies to all traders and affects imports equally in law and fact → cheaper imports lose their price advantage → unequal in fact.",
+   "old_fronts": [
+    "[Set D · Case 1(c)] The Alcohol (Minimum Pricing) (Scotland) Act introduced a minimum retail price per unit of alcohol for all alcoholic drinks sold in Scotland. In a 2015 preliminary ruling the CJEU held that such rules could restrict the internal market, and that the national court must determine whether other, less restrictive measures could protect human health and life just as effectively while restricting trade within the Union less. (c) Assuming the scope applies, how could the measure infringe this fundamental freedom? Justify your answer on the facts. (2 points)",
+    "The Alcohol (Minimum Pricing) (Scotland) Act introduced a minimum retail price per unit of alcohol for all alcoholic drinks sold in Scotland. In a 2015 preliminary ruling the CJEU held that such rules could restrict the internal market, and that the national court must determine whether other, less restrictive measures could protect human health and life just as effectively while restricting trade within the Union less. (c) Assuming the scope applies, how could the measure infringe this fundamental freedom? Justify your answer on the facts. (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 1(d)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Set D · Case 1(d)] In 2015 the CJEU ruled (preliminary reference) that a Scottish minimum alcohol price restricts free movement of goods; the national court must check whether less restrictive measures (e.g. higher excise duties) protect health equally well. The first-instance court finds they exist and disapplies the law. On appeal, the higher court holds it is not bound by the CJEU's judgment and applies the law without further reflection. What do you say? What can the Commission do? (2 points)",
+   "a": "The higher court breaches EU law.\n• Art 267 TFEU ruling binds every court in the same case, incl. appeal → may refer again, never ignore it.\n• Primacy (Costa 6/64, Simmenthal 106/77), Art 4(3) TEU → disapply the law if less restrictive means exist.\n• Commission: Art 258 TFEU against the MS (court acts attributable, Commission v Italy C-129/00); non-compliance → Art 260(2) penalty.",
+   "old_fronts": [
+    "[Set D · Case 1(d)] In 2015 the CJEU ruled in a preliminary reference that a Scottish minimum price per unit of alcohol restricts the free movement of goods, and that the national court must determine whether less restrictive measures, such as higher excise duties, could protect health equally well. The first-instance court finds that less restrictive means exist and does not apply the minimum-price law. On appeal, the higher court holds that it is not bound by the CJEU's judgment, overturns the first-instance judgment and applies the minimum-price law without further reflection. What do you say about this? What can the European Commission do if it learns of the situation? (2 points)",
+    "In 2015 the CJEU ruled in a preliminary reference that a Scottish minimum price per unit of alcohol restricts the free movement of goods, and that the national court must determine whether less restrictive measures, such as higher excise duties, could protect health equally well. The first-instance court finds that less restrictive means exist and does not apply the minimum-price law. On appeal, the higher court holds that it is not bound by the CJEU's judgment, overturns the first-instance judgment and applies the minimum-price law without further reflection. What do you say about this? What can the European Commission do if it learns of the situation? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 2(a)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set D · Case 2(a)] Luís Coentrão, a Portuguese lawyer, wants to emigrate with his family from Lisbon to Austria and open a law firm in Graz. Only Austrian citizens may run a law firm in Austria. Luís believes this violates Union law. (a) Which fundamental freedom could be affected? What indications are there in the facts? Where is this freedom regulated in the Treaties? (3 points)",
+   "a": "Freedom of establishment — Art 49 TFEU (Arts 49–55 TFEU).\n• Emigrates with family → permanent, stable integration in another MS's economy (Gebhard C-55/94).\n• Opens his own law firm → self-employed, not a worker (no subordination, Lawrie-Blum 66/85; Art 45 TFEU out).\n• Indefinite, not temporary → not services (Arts 56–57 TFEU, residual, Art 57(1)).\n• Portuguese national (Union citizen), Lisbon → Graz → cross-border (Art 49(1)).\n• Art 49(2): self-employment under the conditions the host state sets for its own nationals.",
+   "old_fronts": [
+    "[Set D · Case 2(a)] Luís Coentrão, a Portuguese lawyer, wants to emigrate with his family from Lisbon to Austria and open a law firm in Graz. His research shows that only Austrian citizens may run a law firm in Austria. Luís is outraged and believes this violates Union law. (a) Which fundamental freedom could be affected? What indications are there in the facts? Where is this freedom regulated in the Treaties? (3 points)",
+    "Luís Coentrão, a Portuguese lawyer, wants to emigrate with his family from Lisbon to Austria and open a law firm in Graz. His research shows that only Austrian citizens may run a law firm in Austria. Luís is outraged and believes this violates Union law. (a) Which fundamental freedom could be affected? What indications are there in the facts? Where is this freedom regulated in the Treaties? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 2(b)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Set D · Case 2(b)] Luís Coentrão, a Portuguese lawyer, wants to emigrate with his family from Lisbon to Austria and open a law firm in Graz. Only Austrian citizens may run a law firm in Austria. Luís believes this violates Union law. (b) Is this freedom actually infringed? Argue using the examination structure. (4 points)",
+   "a": "Yes — the nationality requirement infringes Art 49 TFEU.\n• Scope: Art 49 applies (Union citizen, self-employed, permanent, cross-border); Directive 98/5 even lets EU lawyers practise under their home title.\n• Exception Art 51(1) TFEU: lawyers do not exercise official authority (Reyners 2/74) → not excluded.\n• Restriction: nationality condition = direct discrimination, contrary to national treatment (Art 49(2)); concerns access → no Keck.\n• Justification: direct discrimination only on Art 52(1) grounds (public policy, security, health) → none; client protection is unwritten (Gebhard) → unavailable.\n• Proportionality: anyway not necessary — checking qualifications is milder.\n• Result: infringement; Art 49 directly effective (Reyners) → national rule disapplied (primacy).",
+   "old_fronts": [
+    "[Set D · Case 2(b)] Luís Coentrão, a Portuguese lawyer, wants to emigrate with his family from Lisbon to Austria and open a law firm in Graz. His research shows that only Austrian citizens may run a law firm in Austria. Luís is outraged and believes this violates Union law. (b) Is this freedom actually infringed? Argue using the examination structure. (4 points)",
+    "Luís Coentrão, a Portuguese lawyer, wants to emigrate with his family from Lisbon to Austria and open a law firm in Graz. His research shows that only Austrian citizens may run a law firm in Austria. Luís is outraged and believes this violates Union law. (b) Is this freedom actually infringed? Argue using the examination structure. (4 points)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 2(c)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set D · Case 2(c)] Luís, a Portuguese lawyer, wants to open a law firm in Graz. The Austrian Bar Association says he must first work in Austria for three years or pass an aptitude test, and rejects his application for immediate registration. Luís wants to bring an action for annulment before the General Court. What does he need to consider? (1 point)",
+   "a": "Inadmissible — the Bar Association's refusal is a national act.\n• Art 263(1), (4) TFEU: only EU acts (institutions, bodies, offices, agencies) can be annulled.\n• Challenge it in Austrian courts; they may (last instance: must) refer (Art 267 TFEU).",
+   "old_fronts": [
+    "[Set D · Case 2(c)] Luís Coentrão, a Portuguese lawyer, wants to emigrate with his family from Lisbon to Austria and open a law firm in Graz. His research shows that only Austrian citizens may run a law firm in Austria. Luís is outraged and believes this violates Union law. (c) The Austrian Bar Association tells Luís that he can in principle open a law firm, but that before he is registered he must either work in Austria for three years or pass an aptitude test. His application for immediate registration is rejected. Luís now wants to bring an action for annulment before the General Court. What does he need to consider? (1 point)",
+    "Luís Coentrão, a Portuguese lawyer, wants to emigrate with his family from Lisbon to Austria and open a law firm in Graz. His research shows that only Austrian citizens may run a law firm in Austria. Luís is outraged and believes this violates Union law. (c) The Austrian Bar Association tells Luís that he can in principle open a law firm, but that before he is registered he must either work in Austria for three years or pass an aptitude test. His application for immediate registration is rejected. Luís now wants to bring an action for annulment before the General Court. What does he need to consider? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 3(a)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "proces",
+   "difficulty": 1,
+   "priority": 1,
+   "q": "[Set D · Case 3(a)] A London borough fined Maxitaxi, a minicab operator, because its driver used a bus lane; only black cabs may use bus lanes, although both carry paying passengers. Maxitaxi argues the rule is unlawful state aid for black cabs. The first-instance court is unsure how to interpret EU state aid law. (a) Which procedure before the Court of Justice could help here, and where is it regulated? (1 point)",
+   "a": "The preliminary reference procedure — Art 267 TFEU (also Art 19(3)(b) TEU).\n• Any national court may refer questions on the interpretation of EU law (here Art 107(1) TFEU) if needed for its judgment (Art 267(2)); Eventech (C-518/13).",
+   "old_fronts": [
+    "[Set D · Case 3(a)] In May 2015 a London borough fined Maxitaxi, a company operating a fleet of radio-dispatch taxis (\"minicabs\"), because one of its drivers used a bus lane in the city centre. In London both London Taxis (\"black cabs\") and minicabs carry paying passengers, but the boroughs allow only black cabs to use bus lanes. Maxitaxi argues that the bus-lane rule is unlawful state aid in favour of black cabs. The first-instance court hearing the case is unsure how to interpret certain provisions of EU state aid law. (a) Which procedure before the Court of Justice could help here, and where is it regulated? (1 point)",
+    "In May 2015 a London borough fined Maxitaxi, a company operating a fleet of radio-dispatch taxis (\"minicabs\"), because one of its drivers used a bus lane in the city centre. In London both London Taxis (\"black cabs\") and minicabs carry paying passengers, but the boroughs allow only black cabs to use bus lanes. Maxitaxi argues that the bus-lane rule is unlawful state aid in favour of black cabs. The first-instance court hearing the case is unsure how to interpret certain provisions of EU state aid law. (a) Which procedure before the Court of Justice could help here, and where is it regulated? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 3(b)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "proces",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set D · Case 3(b)] A London borough fined Maxitaxi, a minicab operator, because its driver used a bus lane reserved for black cabs. Maxitaxi argues the rule is unlawful state aid for black cabs. The first-instance court is unsure how to interpret EU state aid law. (b) What would be the aim of a preliminary reference in this case? (1 point)",
+   "a": "Binding interpretation of Art 107(1) TFEU; the national court itself applies it to the bus-lane rule.\n• Criteria: state resources, selective advantage, distortion of competition, effect on trade.\n• Uniform interpretation of EU law; binds the referring court, erga omnes.",
+   "old_fronts": [
+    "[Set D · Case 3(b)] In May 2015 a London borough fined Maxitaxi, a company operating a fleet of radio-dispatch taxis (\"minicabs\"), because one of its drivers used a bus lane in the city centre. In London both London Taxis (\"black cabs\") and minicabs carry paying passengers, but the boroughs allow only black cabs to use bus lanes. Maxitaxi argues that the bus-lane rule is unlawful state aid in favour of black cabs. The first-instance court hearing the case is unsure how to interpret certain provisions of EU state aid law. (b) What would be the aim of such a procedure in this case? (1 point)",
+    "In May 2015 a London borough fined Maxitaxi, a company operating a fleet of radio-dispatch taxis (\"minicabs\"), because one of its drivers used a bus lane in the city centre. In London both London Taxis (\"black cabs\") and minicabs carry paying passengers, but the boroughs allow only black cabs to use bus lanes. Maxitaxi argues that the bus-lane rule is unlawful state aid in favour of black cabs. The first-instance court hearing the case is unsure how to interpret certain provisions of EU state aid law. (b) What would be the aim of such a procedure in this case? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 3(c)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set D · Case 3(c)] A London borough fined Maxitaxi, a minicab company, because its driver used a bus lane reserved for black cabs. Maxitaxi argues the rule is unlawful state aid for black cabs. The first-instance court is unsure how to interpret EU state aid law. (c) Does Maxitaxi have the right to demand that the national court start a preliminary reference procedure? (1 point)",
+   "a": "No — parties have no right to a reference; only the court decides.\n• Art 267(2) TFEU: the court \"may\" refer; parties can only suggest questions.\n• Duty to refer only for last-instance courts (Art 267(3)) → not this one.",
+   "old_fronts": [
+    "[Set D · Case 3(c)] In May 2015 a London borough fined Maxitaxi, a company operating a fleet of radio-dispatch taxis (\"minicabs\"), because one of its drivers used a bus lane in the city centre. In London both London Taxis (\"black cabs\") and minicabs carry paying passengers, but the boroughs allow only black cabs to use bus lanes. Maxitaxi argues that the bus-lane rule is unlawful state aid in favour of black cabs. The first-instance court hearing the case is unsure how to interpret certain provisions of EU state aid law. (c) Does Maxitaxi have the right to demand that the national court start such a procedure? (1 point)",
+    "In May 2015 a London borough fined Maxitaxi, a company operating a fleet of radio-dispatch taxis (\"minicabs\"), because one of its drivers used a bus lane in the city centre. In London both London Taxis (\"black cabs\") and minicabs carry paying passengers, but the boroughs allow only black cabs to use bus lanes. Maxitaxi argues that the bus-lane rule is unlawful state aid in favour of black cabs. The first-instance court hearing the case is unsure how to interpret certain provisions of EU state aid law. (c) Does Maxitaxi have the right to demand that the national court start such a procedure? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Case 3(d)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Set D · Case 3(d)] A London borough fined Maxitaxi, a minicab company, because its driver used a bus lane reserved for black cabs. Maxitaxi argues the rule is unlawful state aid for black cabs. The first-instance court is unsure how to interpret EU state aid law. (d) The court also finds it interesting to know whether it is compatible with EU law that black cabs may be hailed in the street while minicabs must be pre-booked. How would the Court of Justice deal with such a question in this context? (1 point)",
+   "a": "It would not answer it: hypothetical, not needed for the bus-lane fine → inadmissible.\n• Art 267(2) TFEU: only questions necessary to give judgment (Foglia v Novello).\n• Art 267(1): CJEU interprets only EU law, never rules on national law.",
+   "old_fronts": [
+    "[Set D · Case 3(d)] In May 2015 a London borough fined Maxitaxi, a company operating a fleet of radio-dispatch taxis (\"minicabs\"), because one of its drivers used a bus lane in the city centre. In London both London Taxis (\"black cabs\") and minicabs carry paying passengers, but the boroughs allow only black cabs to use bus lanes. Maxitaxi argues that the bus-lane rule is unlawful state aid in favour of black cabs. The first-instance court hearing the case is unsure how to interpret certain provisions of EU state aid law. (d) The national court also finds it interesting to know whether it is compatible with EU law that black cabs may be hailed in the street while minicabs must be pre-booked. How would the Court of Justice deal with such a question in this context? (1 point)",
+    "In May 2015 a London borough fined Maxitaxi, a company operating a fleet of radio-dispatch taxis (\"minicabs\"), because one of its drivers used a bus lane in the city centre. In London both London Taxis (\"black cabs\") and minicabs carry paying passengers, but the boroughs allow only black cabs to use bus lanes. Maxitaxi argues that the bus-lane rule is unlawful state aid in favour of black cabs. The first-instance court hearing the case is unsure how to interpret certain provisions of EU state aid law. (d) The national court also finds it interesting to know whether it is compatible with EU law that black cabs may be hailed in the street while minicabs must be pre-booked. How would the Court of Justice deal with such a question in this context? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Q6(a)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Set D · Q6(a)] Directive 2010/76/EU, adopted by the European Parliament and the Council under the ordinary legislative procedure, requires banks to follow sound remuneration policies. One day after its publication in the Official Journal, an Austrian bank learns of it and considers it incompatible with EU primary law. (a) How, and under what conditions, could the bank challenge this act within the EU system of legal protection? (2 points)",
+   "a": "Annulment action before the General Court (Arts 263, 256(1) TFEU), but no standing.\n• Legislative act (Art 263(1)), not a regulatory act (Inuit); bank non-privileged, not addressee (Art 288(3)) → direct AND individual concern (Art 263(4)).\n• No direct concern (transposition needed); no individual concern — open class of banks (Plaumann).\n• Two months from publication (Art 263(6)).\n• Realistic: national court → Art 267.",
+   "old_fronts": [
+    "[Set D · Q6(a)] As part of the EU's response to the financial crisis, Directive 2010/76/EU was adopted by the European Parliament and the Council under the ordinary legislative procedure. It requires banks and investment firms to follow sound remuneration policies and so to eliminate excessive pay incentives. One day after its publication in the Official Journal, an Austrian bank learns of the directive and considers it incompatible with EU primary law. (a) How, and under what conditions, could the bank challenge this act within the EU system of legal protection? (2 points)",
+    "As part of the EU's response to the financial crisis, Directive 2010/76/EU was adopted by the European Parliament and the Council under the ordinary legislative procedure. It requires banks and investment firms to follow sound remuneration policies and so to eliminate excessive pay incentives. One day after its publication in the Official Journal, an Austrian bank learns of the directive and considers it incompatible with EU primary law. (a) How, and under what conditions, could the bank challenge this act within the EU system of legal protection? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Q6(b)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set D · Q6(b)] Directive 2010/76/EU on bank remuneration was adopted by the European Parliament and the Council under the ordinary legislative procedure. An Austrian bank challenges it. (b) Assume the action is admissible and well founded. What are the consequences of a successful action, and what binding effect does the judgment have? (2 points)",
+   "a": "The General Court declares the directive (or severable provisions) void (Art 264(1) TFEU), ex tunc and erga omnes.\n• From the start, for everyone → no transposition duty; transposing laws lose their EU basis.\n• Art 264(2): Court may maintain certain effects as definitive.\n• Art 266(1): EP and Council must comply (operative part + grounds), e.g. new act.\n• Damages: Arts 268, 340(2).",
+   "old_fronts": [
+    "[Set D · Q6(b)] As part of the EU's response to the financial crisis, Directive 2010/76/EU was adopted by the European Parliament and the Council under the ordinary legislative procedure. It requires banks and investment firms to follow sound remuneration policies and so to eliminate excessive pay incentives. One day after its publication in the Official Journal, an Austrian bank learns of the directive and considers it incompatible with EU primary law. (b) Assume the bank's action is admissible and well founded. What are the consequences of a successful action, and what binding effect does the judgment have? (2 points)",
+    "As part of the EU's response to the financial crisis, Directive 2010/76/EU was adopted by the European Parliament and the Council under the ordinary legislative procedure. It requires banks and investment firms to follow sound remuneration policies and so to eliminate excessive pay incentives. One day after its publication in the Official Journal, an Austrian bank learns of the directive and considers it incompatible with EU primary law. (b) Assume the bank's action is admissible and well founded. What are the consequences of a successful action, and what binding effect does the judgment have? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Q6(c)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Set D · Q6(c)] Directive 2010/76/EU on bank remuneration was adopted by the European Parliament and the Council under the ordinary legislative procedure. After the transposition deadline Italy has still not fully implemented it, and the Commission brings an action before the Court of Justice. Can financial penalties be imposed immediately in these proceedings? (1 point)",
+   "a": "Yes, if Italy failed to notify full transposition measures for this legislative directive (Art 260(3) TFEU).\n• Lump sum/penalty already in the Art 258 judgment, capped at Commission's amount.\n• Notified but incorrect → declaratory only; penalties via Art 260(2).",
+   "old_fronts": [
+    "[Set D · Q6(c)] Directive 2010/76/EU on the remuneration policies of banks was adopted by the European Parliament and the Council under the ordinary legislative procedure. After the transposition deadline, Italy has still not fully implemented it, and the Commission brings an action before the Court of Justice. Can financial penalties be imposed immediately in these proceedings? (1 point)",
+    "Directive 2010/76/EU on the remuneration policies of banks was adopted by the European Parliament and the Council under the ordinary legislative procedure. After the transposition deadline, Italy has still not fully implemented it, and the Commission brings an action before the Court of Justice. Can financial penalties be imposed immediately in these proceedings? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-d:Q6(d)",
+   "topic": "Past questions — set D (case exercises)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "znaky",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "[Set D · Q6(d)] The euro crisis was tackled, among other things, through stricter financial market regulation, e.g. Directive 2010/76/EU. Name one other measure or instrument created to tackle the euro crisis. (1 point)",
+   "a": "The European Stability Mechanism (ESM, 2012), confirmed by Art 136(3) TFEU, upheld in Pringle.\n• Alternatives: EFSF/EFSM, six-pack/two-pack, Fiscal Compact, Banking Union (SSM/SRM), ECB's OMT (Gauweiler).\n• Not the Eurogroup — it pre-dates the crisis (Protocol No 14).",
+   "old_fronts": [
+    "[Set D · Q6(d)] The euro crisis was tackled, among other things, through stricter financial market regulation, e.g. Directive 2010/76/EU as a substantive measure. Name one other measure or instrument created to tackle the euro crisis. (1 point)",
+    "The euro crisis was tackled, among other things, through stricter financial market regulation, e.g. Directive 2010/76/EU as a substantive measure. Name one other measure or instrument created to tackle the euro crisis. (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q1",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "judikat",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set E · Q1] To what extent is the theory of the 'integration-proof core' of national constitutions connected with the so-called Solange case law? Which court delivered the Solange decisions? (2 points)",
+   "a": "German Federal Constitutional Court (BVerfG); Solange founded the integration-proof core.\n• Core = what EU law cannot override (Art 79(3) Basic Law; cf. Art 4(2) TEU).\n• Solange I (1974): as long as no equivalent rights protection → BVerfG reviews EU law.\n• Solange II (1986): as long as CJEU protection substantially similar → review suspended, not abandoned.\n• CJEU rejects it (Internationale Handelsgesellschaft).",
+   "old_fronts": [
+    "[Set E · Q1] To what extent is the theory of the 'integration-proof core' of national constitutions connected with the so-called Solange case law? Which court delivered the Solange decisions? (2 points)",
+    "To what extent is the theory of the 'integration-proof core' of national constitutions connected with the so-called Solange case law? Which court delivered the Solange decisions? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q2(a)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "znaky",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "[Set E · Q2(a)] The ordinary legislative procedure involves the joint adoption of an act by the Council and the European Parliament on a Commission proposal. (a) Name one document that the Commission issues specifically during the preparatory, strategic-planning phase of a legislative proposal. (1 point)",
+   "a": "E.g. the annual Commission Work Programme (also Green/White Papers, impact assessments).\n• Commission initiates annual and multiannual programming (Art 17(1) TEU); proposes legislation (Art 17(2)).\n• Not \"the proposal\": it is the result of this phase (Art 294(2) TFEU).",
+   "old_fronts": [
+    "[Set E · Q2(a)] The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (a) Name one document that the European Commission issues specifically during the preparatory, strategic-planning phase of a legislative proposal. (1 point)",
+    "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (a) Name one document that the European Commission issues specifically during the preparatory, strategic-planning phase of a legislative proposal. (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q2(b)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "proces",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set E · Q2(b)] The ordinary legislative procedure involves the joint adoption of an act by the Council and the European Parliament on a Commission proposal. (b) What control mechanism is available to national parliaments during the legislative process if they believe that the objectives of a proposed regulation can be sufficiently achieved at Member State level (Art 5 TEU)? (1 point)",
+   "a": "Subsidiarity early warning: reasoned opinion within eight weeks (Art 6 Protocol No 2; Arts 5(3), 12(b) TEU).\n• ⅓ of votes → yellow card, review (Art 7(2)); OLP majority → orange card, EP or Council may stop it (Art 7(3)).",
+   "old_fronts": [
+    "[Set E · Q2(b)] The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (b) What control mechanism is available to national parliaments during the legislative process if they believe that the objectives of a proposed regulation can be sufficiently achieved at Member State level (Art 5 TEU)? (1 point)",
+    "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (b) What control mechanism is available to national parliaments during the legislative process if they believe that the objectives of a proposed regulation can be sufficiently achieved at Member State level (Art 5 TEU)? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q2(c)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 2,
+   "q": "[Set E · Q2(c)] The ordinary legislative procedure involves the joint adoption of an act by the Council and the European Parliament on a Commission proposal. (c) Where is the ordinary legislative procedure regulated? (1 point)",
+   "a": "Art 294 TFEU (the steps), with Art 289(1) TFEU (the definition).\n• Art 289(1): joint adoption by EP and Council on a Commission proposal → legislative act (Art 289(3)).\n• Art 294: proposal, first and second reading, conciliation, third reading.",
+   "old_fronts": [
+    "[Set E · Q2(c)] The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (c) Where is the ordinary legislative procedure regulated? (1 point)",
+    "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (c) Where is the ordinary legislative procedure regulated? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q2(d)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "proces",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set E · Q2(d)] Ordinary legislative procedure: joint adoption of a legal act by the Council and the European Parliament on a Commission proposal. (d) Must a legal act always go through three readings before being adopted? (1 point)",
+   "a": "No — it can be adopted at first reading.\n• Art 294(4) TFEU: Council approves the EP's first-reading position → adopted.\n• Second reading: Art 294(7)(a) or (8)(a) → adopted.\n• Third reading (Art 294(13)) only after successful conciliation.",
+   "old_fronts": [
+    "[Set E · Q2(d)] The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (d) Must a legal act always go through three readings before being adopted? (1 point)",
+    "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (d) Must a legal act always go through three readings before being adopted? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q2(e)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "proces",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set E · Q2(e)] Ordinary legislative procedure: joint adoption of a legal act by the Council and the European Parliament on a Commission proposal. (e) What happens if the Council, in the second reading, does not approve all amendments of the European Parliament? (1 point)",
+   "a": "Not adopted — Conciliation Committee is convened.\n• Art 294(8)(b) TFEU: Council President, with EP President, convenes it within six weeks.\n• Art 294(10)–(12): joint text within six weeks, else fails.\n• Art 294(13): third reading, EP and Council approve.",
+   "old_fronts": [
+    "[Set E · Q2(e)] The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (e) What happens if the Council, in the second reading, does not approve all amendments of the European Parliament? (1 point)",
+    "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (e) What happens if the Council, in the second reading, does not approve all amendments of the European Parliament? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q2(f)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 2,
+   "q": "[Set E · Q2(f)] Ordinary legislative procedure: joint adoption of a legal act by the Council and the European Parliament on a Commission proposal. (f) When do legal acts adopted under the ordinary legislative procedure enter into force? (1 point)",
+   "a": "On the date specified in the act, otherwise on the 20th day after publication.\n• Art 297(1) third subpara TFEU: publication in the Official Journal is required.\n• Art 297(1) first subpara: signed by the EP and Council Presidents.",
+   "old_fronts": [
+    "[Set E · Q2(f)] The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (f) When do legal acts adopted under the ordinary legislative procedure enter into force? (1 point)",
+    "The ordinary legislative procedure involves the joint adoption of a legal act by the Council and the European Parliament based on a proposal from the European Commission. (f) When do legal acts adopted under the ordinary legislative procedure enter into force? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q3 statement 1",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "[Set E · Q3 statement 1] True or false? Justify: 'The Commission can, contrary to the principle that enforcement of Union law is the responsibility of the Member States, directly enforce Union law itself.' (1 point)",
+   "a": "True — normally Member States enforce (Art 291(1) TFEU), but the Commission enforces directly where Union law provides.\n• Competition law: Art 105 TFEU, Reg 1/2003 (fines).\n• State aid (Art 108(2) TFEU), anti-dumping, Union funds (Art 317 TFEU).",
+   "old_fronts": [
+    "[Set E · Q3 statement 1] Comment on the following statement and indicate whether it is true or false. Justify your answer: 'The Commission can, contrary to the principle that enforcement of Union law is the responsibility of the Member States, directly enforce Union law itself.' (1 point)",
+    "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'The Commission can, contrary to the principle that enforcement of Union law is the responsibility of the Member States, directly enforce Union law itself.' (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q3 statement 2",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set E · Q3 statement 2] True or false? Justify: 'The permanent President of the Council has voting rights in the European Council.' (1 point)",
+   "a": "False — the Council has no permanent President.\n• Council presidency rotates every six months (Art 16(9) TEU, Art 236(b) TFEU).\n• The permanent European Council President (Art 15(5) TEU) does not vote there (Art 235(1) second subpara TFEU).",
+   "old_fronts": [
+    "[Set E · Q3 statement 2] Comment on the following statement and indicate whether it is true or false. Justify your answer: 'The permanent President of the Council has voting rights in the European Council.' (1 point)",
+    "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'The permanent President of the Council has voting rights in the European Council.' (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q3 statement 3",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "[Set E · Q3 statement 3] True or false? Justify: 'The Court of Justice of the EU is supported by a number of agencies and offices (e.g. for aviation safety) that are assigned to it in varying degrees.' (1 point)",
+   "a": "False — agencies like EASA are linked in varying degrees to the Commission, not the CJEU.\n• CJEU = Court of Justice, General Court, specialised courts (Art 19(1) TEU, Art 257 TFEU).\n• CJEU reviews their acts (Art 263(1) TFEU).",
+   "old_fronts": [
+    "[Set E · Q3 statement 3] Comment on the following statement and indicate whether it is true or false. Justify your answer: 'The Court of Justice of the EU is supported by a number of agencies and offices (e.g. for aviation safety) that are assigned to it in varying degrees.' (1 point)",
+    "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'The Court of Justice of the EU is supported by a number of agencies and offices (e.g. for aviation safety) that are assigned to it in varying degrees.' (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q3 statement 4",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "[Set E · Q3 statement 4] True or false? Justify: 'In addition to its legislative function, the European Parliament also has an oversight role with regard to other Union institutions.' (1 point)",
+   "a": "True — the EP also exercises political control (Art 14(1) TEU).\n• Commission responsible to the EP; censure → resigns as a body (Art 17(8) TEU, Art 234 TFEU).\n• Questions (Art 230 TFEU), inquiry committees (Art 226 TFEU).",
+   "old_fronts": [
+    "[Set E · Q3 statement 4] Comment on the following statement and indicate whether it is true or false. Justify your answer: 'In addition to its legislative function, the European Parliament also has an oversight role with regard to other Union institutions.' (1 point)",
+    "Comment on the following statement and indicate whether it is true or false. Justify your answer: 'In addition to its legislative function, the European Parliament also has an oversight role with regard to other Union institutions.' (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q4(a)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "definice",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set E · Q4(a)] EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (a) Is an intention to make a profit required for an entity to be an \"undertaking\" under competition law? (1 point)",
+   "a": "No — any entity engaged in an economic activity, regardless of legal status, financing or profit aim (Arts 101–102 TFEU).\n• Höfner and Elser (C-41/90); MOTOE (C-49/07, non-profit association).\n• Excluded: public powers (Eurocontrol), solidarity-based social security (Poucet and Pistre).",
+   "old_fronts": [
+    "[Set E · Q4(a)] EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (a) Is an intention to make a profit required for an entity to be an \"undertaking\" under competition law? (1 point)",
+    "EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (a) Is an intention to make a profit required for an entity to be an \"undertaking\" under competition law? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q4(b)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "znaky",
+   "difficulty": 1,
+   "priority": 2,
+   "q": "[Set E · Q4(b)] EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (b) Name one example of a form of anti-competitive agreement under cartel law. (1 point)",
+   "a": "E.g. a horizontal agreement between competitors fixing selling prices (Art 101(1)(a) TFEU).\n• Others: limiting production (b), sharing markets (c), discrimination (d), tying (e), vertical resale price maintenance.\n• Prohibited if it restricts competition and may affect inter-state trade.",
+   "old_fronts": [
+    "[Set E · Q4(b)] EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (b) Name one example of a form of anti-competitive agreement under cartel law. (1 point)",
+    "EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (b) Name one example of a form of anti-competitive agreement under cartel law. (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q4(c)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "proces",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "[Set E · Q4(c)] EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (c) A national court is dealing with a cartel case, and shortly afterwards the European Commission opens proceedings on the same infringement. What must the court consider to avoid conflicting decisions? (1 point)",
+   "a": "It must avoid a decision conflicting with the one the Commission contemplates (Art 16(1) Reg 1/2003).\n• → may stay proceedings until the Commission decides (Masterfoods, C-344/98).\n• May ask Commission's opinion (Art 15(1)) or refer (Art 267 TFEU).",
+   "old_fronts": [
+    "[Set E · Q4(c)] EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (c) A national court is dealing with a cartel case, and shortly afterwards the European Commission opens proceedings on the same infringement. What must the court consider to avoid conflicting decisions? (1 point)",
+    "EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (c) A national court is dealing with a cartel case, and shortly afterwards the European Commission opens proceedings on the same infringement. What must the court consider to avoid conflicting decisions? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q4(d)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set E · Q4(d)] EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (d) Name two legal consequences of an established infringement of the cartel prohibition. (2 points)",
+   "a": "Nullity of the agreement and fines (also: damages).\n• Art 101(2) TFEU: prohibited agreements are automatically void; if severable, only those clauses (Société Technique Minière).\n• Art 23(2)(a) Reg 1/2003: Commission fines up to 10% of total turnover in the preceding business year.\n• Also: cease-and-desist order (Art 7), periodic penalty payments (Art 24 Reg 1/2003), damages (Courage v Crehan).",
+   "old_fronts": [
+    "[Set E · Q4(d)] EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (d) Name two legal consequences of an established infringement of the cartel prohibition. (2 points)",
+    "EU competition rules aim to ensure that undertakings compete in the internal market on the basis of performance. (d) Name two legal consequences of an established infringement of the cartel prohibition. (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q5(a)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "norma",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Set E · Q5(a)] A directive adopted under Article 114 TFEU harmonises national rules on dangerous substances, including a maximum concentration for the chemical \"PCP\". Years later a Spanish study concludes that the permitted concentration may be too high. Spain wants to raise its level of protection and introduce NEW rules that depart from the harmonised EU standard. Under which conditions is this permitted? (2 points)",
+   "a": "Only under Art 114(5) TFEU, with Commission approval (Art 114(6)).\n• New scientific evidence (the study) on environment or working environment — not public health.\n• Problem specific to Spain, arising after the directive.\n• Notify the Commission → approval within 6 months if no arbitrary discrimination, disguised restriction or internal-market obstacle; silence = approval.\n• Art 114(4) (Art 36 grounds): only maintaining existing rules.",
+   "old_fronts": [
+    "[Set E · Q5(a)] A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances and mixtures, including a maximum concentration for the chemical \"PCP\". Years later a study published in Spain concludes that the permitted concentration may be set too high. Spain wants to raise its level of protection and introduce new rules that depart from the harmonised EU standard. Under which conditions is this permitted? (2 points)",
+    "A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances and mixtures, including a maximum concentration for the chemical \"PCP\". Years later a study published in Spain concludes that the permitted concentration may be set too high. Spain wants to raise its level of protection and introduce new rules that depart from the harmonised EU standard. Under which conditions is this permitted? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q5(b)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "proces",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "[Set E · Q5(b)] A directive under Article 114 TFEU harmonises rules on dangerous substances, including a maximum concentration for the chemical \"PCP\". After a Spanish study finds it may be too high, Spain adopts new, stricter national rules. The Commission considers this \"solo action\" unjustified and wants to bring infringement proceedings. (b) Does the Commission have to follow a pre-litigation procedure? (1 point)",
+   "a": "No — under Art 114(9) TFEU it may go directly to the Court.\n• Spain improperly uses the Art 114 powers → derogation from Arts 258–259.\n• Otherwise Art 258: formal notice → reasoned opinion → Court.",
+   "old_fronts": [
+    "[Set E · Q5(b)] A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances, including a maximum concentration for the chemical \"PCP\". Years later a Spanish study concludes that the permitted concentration may be too high, and Spain adopts new, stricter national rules. The Commission examines this national \"solo action\", considers it unjustified and wants to bring infringement proceedings. (b) Does the Commission have to follow a pre-litigation procedure? (1 point)",
+    "A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances, including a maximum concentration for the chemical \"PCP\". Years later a Spanish study concludes that the permitted concentration may be too high, and Spain adopts new, stricter national rules. The Commission examines this national \"solo action\", considers it unjustified and wants to bring infringement proceedings. (b) Does the Commission have to follow a pre-litigation procedure? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q5(c)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set E · Q5(c)] A directive under Article 114 TFEU harmonises rules on dangerous substances, including a maximum concentration for the chemical \"PCP\". After a Spanish study finds it may be too high, Spain adopts new, stricter national rules. The Commission considers this \"solo action\" unjustified and wants to bring infringement proceedings. (c) Does the Commission have to prove its own legal interest in the case? (1 point)",
+   "a": "No.\n• Art 17(1) TEU: guardian of the Treaties, acting in the general interest → no own interest needed (Commission v Germany, C-431/92).\n• Art 258 TFEU: it need only prove the Member State's failure.",
+   "old_fronts": [
+    "[Set E · Q5(c)] A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances, including a maximum concentration for the chemical \"PCP\". Years later a Spanish study concludes that the permitted concentration may be too high, and Spain adopts new, stricter national rules. The Commission examines this national \"solo action\", considers it unjustified and wants to bring infringement proceedings. (c) Does the Commission have to prove its own legal interest in the case? (1 point)",
+    "A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances, including a maximum concentration for the chemical \"PCP\". Years later a Spanish study concludes that the permitted concentration may be too high, and Spain adopts new, stricter national rules. The Commission examines this national \"solo action\", considers it unjustified and wants to bring infringement proceedings. (c) Does the Commission have to prove its own legal interest in the case? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q5(d)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set E · Q5(d)] A directive under Article 114 TFEU harmonises rules on dangerous substances, including a maximum concentration for the chemical \"PCP\". After a Spanish study finds it may be too high, Spain adopts new, stricter national rules. The Commission considers this \"solo action\" unjustified and wants to bring infringement proceedings. (d) What legal effect does a judgment establishing an infringement have? (1 point)",
+   "a": "Declaratory only: it establishes the failure; Spain must comply (Art 260(1) TFEU).\n• The Court cannot annul the Spanish rules; national authorities must disapply them.\n• Non-compliance → Art 260(2): the Court (not the Commission) may impose lump sum/penalty.",
+   "old_fronts": [
+    "[Set E · Q5(d)] A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances, including a maximum concentration for the chemical \"PCP\". Years later a Spanish study concludes that the permitted concentration may be too high, and Spain adopts new, stricter national rules. The Commission examines this national \"solo action\", considers it unjustified and wants to bring infringement proceedings. (d) What legal effect does a judgment establishing an infringement have? (1 point)",
+    "A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances, including a maximum concentration for the chemical \"PCP\". Years later a Spanish study concludes that the permitted concentration may be too high, and Spain adopts new, stricter national rules. The Commission examines this national \"solo action\", considers it unjustified and wants to bring infringement proceedings. (d) What legal effect does a judgment establishing an infringement have? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q5(e)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 2,
+   "q": "[Set E · Q5(e)] A directive under Article 114 TFEU harmonises rules on dangerous substances, including a maximum concentration for the chemical \"PCP\". After a Spanish study finds it may be too high, Spain adopts new, stricter national rules. The Commission considers this \"solo action\" unjustified and wants to bring infringement proceedings. (e) Is an appeal against the Court's judgment possible? (1 point)",
+   "a": "No — the Court of Justice is first and last instance for infringement actions.\n• Art 256(1) TFEU: no General Court jurisdiction for Art 258 actions → judgment final.\n• Appeal only against General Court decisions (Art 256(1) subpara 2).",
+   "old_fronts": [
+    "[Set E · Q5(e)] A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances, including a maximum concentration for the chemical \"PCP\". Years later a Spanish study concludes that the permitted concentration may be too high, and Spain adopts new, stricter national rules. The Commission examines this national \"solo action\", considers it unjustified and wants to bring infringement proceedings. (e) Is an appeal against the Court's judgment possible? (1 point)",
+    "A directive adopted under Article 114 TFEU harmonises national rules on the marketing and use of certain dangerous substances, including a maximum concentration for the chemical \"PCP\". Years later a Spanish study concludes that the permitted concentration may be too high, and Spain adopts new, stricter national rules. The Commission examines this national \"solo action\", considers it unjustified and wants to bring infringement proceedings. (e) Is an appeal against the Court's judgment possible? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q6(a)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "[Set E · Q6(a)] Dr Iwanow, a Russian citizen, wants to live and work in Vienna. Viewing a flat there, he learns that, as a third-country national, he needs a permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (a) Which fundamental freedom could be affected in this case, and where is it regulated? Who is the addressee of this provision? (2 points)",
+   "a": "Free movement of capital, Art 63(1) TFEU; addressed to the Member States (incl. Länder and municipalities).\n• Buying real estate as a non-resident = capital movement (Directive 88/361 Annex I; Konle, C-302/97).\n• Addressee here: Austria, incl. the City/Land of Vienna, which made the law.\n• Protects everyone, incl. third-country nationals — Arts 45, 49, 56 would protect only Union citizens.",
+   "old_fronts": [
+    "[Set E · Q6(a)] Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (a) Which fundamental freedom could be affected in this case, and where is it regulated? Who is the addressee of this provision? (2 points)",
+    "Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (a) Which fundamental freedom could be affected in this case, and where is it regulated? Who is the addressee of this provision? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q6(b)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 2,
+   "q": "[Set E · Q6(b)] Dr Iwanow, a Russian citizen, wants to live and work in Vienna. Viewing a flat there, he learns that, as a third-country national, he needs a permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (b) Are third-country nationals in principle within the personal scope of this freedom? (1 point)",
+   "a": "Yes.\n• Art 63(1) TFEU prohibits restrictions on capital movements \"between Member States and between Member States and third countries\" → protection attaches to the transaction, not nationality.\n• Limits only via Arts 64–66 TFEU.",
+   "old_fronts": [
+    "[Set E · Q6(b)] Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (b) Are third-country nationals in principle within the personal scope of this freedom? (1 point)",
+    "Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (b) Are third-country nationals in principle within the personal scope of this freedom? (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q6(c)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 1,
+   "priority": 3,
+   "q": "[Set E · Q6(c)] Dr Iwanow, a Russian citizen, wants to live and work in Vienna. Viewing a flat there, he learns that, as a third-country national, he needs a permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (c) Name one activity related to real estate that falls within the scope of this freedom. (1 point)",
+   "a": "Buying a flat, house or land in a Member State (\"investment in real estate\").\n• Art 63(1) TFEU + Directive 88/361 Annex I, heading II (Konle).\n• Or: \"direct investment – including in real estate\" (Art 64(1) TFEU).",
+   "old_fronts": [
+    "[Set E · Q6(c)] Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (c) Name one activity related to real estate that falls within the scope of this freedom. (1 point)",
+    "Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (c) Name one activity related to real estate that falls within the scope of this freedom. (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q6(d)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 1,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "[Set E · Q6(d)] Dr Iwanow, a Russian citizen, wants to live and work in Vienna. Viewing a flat there, he learns that, as a third-country national, he needs a permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (d) Can one in principle rely directly on this fundamental freedom to derive rights? Justify your answer. (1 point)",
+   "a": "Yes — Art 63(1) TFEU has direct effect.\n• Clear, precise, unconditional prohibition, needing no implementing measures (Van Gend en Loos).\n• Applies also to third countries; Arts 64–65 do not make it conditional (Sanz de Lera, C-163/94; A, C-101/05).",
+   "old_fronts": [
+    "[Set E · Q6(d)] Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (d) Can one in principle rely directly on this fundamental freedom to derive rights? Justify your answer. (1 point)",
+    "Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (d) Can one in principle rely directly on this fundamental freedom to derive rights? Justify your answer. (1 point)"
+   ]
+  },
+  {
+   "id": "eu-set-e:Q6(e)",
+   "topic": "Past questions — set E (practice exam 1-6)",
+   "layer": "realna-zkouska",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 1,
+   "q": "[Set E · Q6(e)] Dr Iwanow, a Russian citizen, wants to live and work in Vienna. Viewing a flat there, he learns that, as a third-country national, he needs a permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (e) Is the permit requirement under Austrian law permissible in this specific case? Give reasons. (2 points)",
+   "a": "Probably yes — it restricts Art 63(1) TFEU, but the Art 64(1) standstill can cover it.\n• Permit only for foreigners → restriction (Konle, C-302/97).\n• Art 64(1): third-country restrictions on \"direct investment – including in real estate\" existing on 31 Dec 1993 may stay (also Austria: Holböck) → if Vienna's rule existed then.\n• Otherwise: Art 65(1)(b) or overriding reason, proportionate (Art 65(3)).",
+   "old_fronts": [
+    "[Set E · Q6(e)] Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (e) Is the permit requirement under Austrian law permissible in this specific case? Give reasons. (2 points)",
+    "Dr Iwanow, a Russian citizen, travels from Moscow to Vienna on business, falls in love with the city and wants to live and work there. While viewing a flat in Vienna's 8th district, his estate agent tells him that, as a third-country national, he needs an official permit from the municipal authority under § 4 of the regional law on the acquisition of real estate by foreigners. (e) Is the permit requirement under Austrian law permissible in this specific case? Give reasons. (2 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#44",
+   "topic": "EU Judicial Procedures",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "proces",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "In 2022 the Court of Justice found that State Tarsis had infringed EU waste law by operating illegal landfills. Three years later the landfills are still in operation. What can the Commission do, which sanctions are possible, and how are they set? (3 points)",
+   "a": "The Commission can bring Tarsis back before the Court under Art 260(2) TFEU and ask for financial sanctions.\n• Art 260(1) TFEU: duty to comply with the 2022 judgment → landfills still running = non-compliance.\n• Art 260(2): only a letter of formal notice (chance to submit observations), no reasoned opinion; Commission proposes the amount, Court not bound (unlike Art 260(3)).\n• Sanctions: lump sum (past non-compliance) and/or periodic penalty payment (until compliance), both together possible (Commission v France, C-304/02).\n• Criteria: seriousness, duration, deterrence, ability to pay.",
+   "old_fronts": [
+    "In 2022 the Court of Justice found that State Tarsis had infringed EU waste law by operating illegal landfills. Three years later the landfills are still in operation. What can the Commission do, which sanctions are possible, and how are they set? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#45",
+   "topic": "EU Judicial Procedures",
+   "layer": "procviceni",
+   "points": 2,
+   "kind": "proces",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Austria considers Germany's new motorway toll discriminatory, because German car owners are fully compensated through a lower vehicle tax. The Commission refuses to act. Can Austria itself take Germany to the Court of Justice, and what procedure must it follow? (2 points)",
+   "a": "Yes — inter-state infringement action, Art 259(1) TFEU (Austria v Germany, C-591/17).\n• Art 259(2): first bring the matter before the Commission.\n• Art 259(3): Commission hears both states, orally and in writing, then gives a reasoned opinion.\n• Art 259(4): no opinion within three months does not bar the action, nor does a negative one → Court of Justice, declaratory judgment (Art 260(1)).",
+   "old_fronts": [
+    "Austria considers that Germany's new motorway toll discriminates against drivers from other Member States, because German car owners are in effect fully compensated through a reduction in vehicle tax. The Commission refuses to act. Can Austria itself take Germany to the Court of Justice, and what procedure must it follow? (2 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#54",
+   "topic": "Annulment, Failure to Act and Fundamental Rights",
+   "layer": "procviceni",
+   "points": 2,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Which of the following can be challenged under Article 263 TFEU? (a) A Commission letter informing a company that a formal competition investigation against it has been opened. (b) A Commission decision fining a cartel. (c) A Council \"resolution\" (not an Art 288 act) fixing the Member States' negotiating position for an international transport agreement and intended to bind them. (d) A Commission recommendation. (2 points)",
+   "a": "(b) and (c) can be challenged; (a) and (d) cannot.\n• Test: act intended to produce binding legal effects, whatever its form (ERTA, 22/70; IBM, 60/81); Art 263(1) TFEU excludes recommendations/opinions.\n• (a) preparatory, not final → no (IBM).\n• (b) binding decision (Art 288(4) TFEU) → yes.\n• (c) intended to bind → yes (ERTA).\n• (d) not binding (Art 288(5)) → no.",
+   "old_fronts": [
+    "Which of the following can be challenged under Article 263 TFEU? (a) A Commission letter informing a company that it has opened a formal competition investigation against it. (b) A Commission decision fining a cartel. (c) A Council \"resolution\", not one of the acts listed in Art 288, setting the Member States' negotiating position for an international transport agreement and intended to bind them. (d) A Commission recommendation. (2 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#56",
+   "topic": "Annulment, Failure to Act and Fundamental Rights",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "In January Tecno complained to the Commission that a dominant competitor abuses its position (Art 102 TFEU). In June it sends a formal letter calling on the Commission to decide on the complaint. By the end of August there is still no reply. (a) Which action is available, until when, and before which court? (b) What if the Commission had rejected the complaint by letter in July? (c) What can the Court order? (3 points)",
+   "a": "(a) Failure to act, Art 265 TFEU, General Court (Art 256(1)); (b) annulment, Art 263(4); (c) declaration only.\n• Art 265(2): June letter = call to act → Commission had two months (ended August) → sue within two further months: same day in October (+10 days distance).\n• Art 265(3): complainant entitled to a decision (Art 7 Reg 773/2004) → standing.\n• (b) Rejection = definition of position → Art 265 inadmissible; Tecno (addressee) challenges it under Art 263(4).\n• (c) Commission must then decide (Art 266), content not dictated.",
+   "old_fronts": [
+    "In January, Tecno, a software company, lodged a complaint with the Commission that a dominant competitor is abusing its position (Article 102 TFEU). Nothing happened. In June Tecno sends a formal letter calling on the Commission to decide on its complaint. By the end of August the Commission has still not replied. (a) Which action is available, until when, and before which court? (b) What if the Commission had replied in July with a letter rejecting the complaint? (c) What can the Court order? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#61",
+   "topic": "Annulment, Failure to Act and Fundamental Rights",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "The Swedish tax authority imposes tax surcharges (administrative penalties) on Mr Hans for false VAT and income-tax returns. He is later prosecuted for tax fraud on the same facts and invokes ne bis in idem (Art 50 Charter). Sweden argues the Charter does not apply, because the national laws were not adopted to transpose EU law. (a) Does the Charter apply? (b) What follows for the national court? (3 points)",
+   "a": "(a) Yes, for VAT — the penalties implement Union law (Åkerberg Fransson, C-617/10); (b) the court must apply Art 50 Charter, disapplying conflicting national law.\n• Art 51(1) Charter: \"implementing Union law\" = acting within the scope of EU law.\n• VAT penalties serve the VAT Directive and Art 325 TFEU → within scope, whatever the transposing intent.\n• Income tax: outside EU law → only national rights/ECHR.\n• Art 50 applies only if the surcharge is criminal (Engel criteria); duplication justifiable under Art 52(1) (Menci, C-524/15).",
+   "old_fronts": [
+    "The Swedish tax authority orders Mr Hans, a fisherman, to pay tax surcharges (administrative penalties) for false VAT and income-tax returns. He is later prosecuted for tax fraud on the same facts, and he invokes the prohibition of double jeopardy (ne bis in idem) in Article 50 of the Charter. Sweden argues that the Charter does not apply, because the penalties rest on national laws that were not adopted to transpose EU law. (a) Does the Charter apply? (b) What follows for the national court? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#77",
+   "topic": "Internal Market and Competition Basics",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "judikat",
+   "difficulty": 2,
+   "priority": 1,
+   "q": "German law requires fruit liqueurs to contain at least 25% alcohol, so the French \"Cassis de Dijon\" (15–20%), lawfully produced and marketed in France, cannot be sold in Germany. Germany argues the rule applies equally to domestic and imported liqueurs and protects consumers and health. Assess this under the free movement of goods and explain the principle of mutual recognition. (3 points)",
+   "a": "The rule is a measure having equivalent effect (Art 34 TFEU) that cannot be justified.\n• Dassonville (8/74): any rule capable of hindering intra-EU trade, directly or indirectly, actually or potentially = MEQR, even if indistinctly applicable.\n• Cassis de Dijon (120/78), rule of reason: obstacles accepted only if necessary for mandatory requirements (consumer protection, public health, fair trading) and proportionate.\n• Application: health fails; labelling suffices → disproportionate.\n• Mutual recognition: goods lawfully produced and marketed in one Member State may in principle be sold in all others.",
+   "old_fronts": [
+    "German law requires fruit liqueurs to contain at least 25% alcohol. The French liqueur \"Cassis de Dijon\", lawfully produced and marketed in France with 15–20% alcohol, therefore cannot be sold in Germany. Germany argues that the rule applies equally to domestic and imported liqueurs and protects consumers and health. Assess this under the free movement of goods, and explain the principle of mutual recognition. (3 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#80",
+   "topic": "Internal Market and Competition Basics",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "Deborah, a British national (the UK was then a Member State), wants to do her paid preparatory service as a trainee teacher at a German state school. She is refused, because German law reserves trainee civil-servant status to Germans. Germany invokes the \"public service\" exception in Article 45(4) TFEU. (a) Is Deborah a \"worker\"? (b) Does Article 45(4) apply? (3 points)",
+   "a": "(a) Yes; (b) No — trainee teaching is not a public-service post, so the refusal breaches Art 45(2) TFEU (Lawrie-Blum, 66/85).\n• Worker (autonomous EU concept): services for and under the direction of another, for remuneration (Lawrie-Blum); genuine and effective, not marginal (Levin, 53/81) → paid traineeship qualifies.\n• Art 45(4) TFEU: construed narrowly and functionally, only posts involving public powers and safeguarding general state interests (Commission v Belgium, 149/79); civil-servant status irrelevant → teachers not covered.\n• Result: direct nationality discrimination, Art 45(2) TFEU; no Art 45(3) justification.",
+   "old_fronts": [
+    "Deborah, a British national (the UK was then a Member State), wants to complete her paid preparatory service as a trainee teacher at a German state secondary school. She is refused admission because German law reserves the status of trainee civil servant to German nationals. Germany argues that teachers are in the \"public service\" under Article 45(4) TFEU. (a) Is Deborah a \"worker\"? (b) Does Article 45(4) apply? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#81",
+   "topic": "Internal Market and Competition Basics",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "Distinguish the freedom to provide services from the freedom of establishment and from the free movement of workers, and apply it to: (a) a German lawyer who, from his Stuttgart office, regularly travels to Milan to represent clients but has no office there; (b) the same lawyer opening a permanent office in Milan; (c) an Austrian travelling to Italy for medical treatment. (3 points)",
+   "a": "(a) Services (Arts 56–57 TFEU); (b) establishment (Art 49 TFEU); (c) passive freedom to receive services (Art 56 TFEU).\n• Workers, Art 45: employed, under subordination. Establishment, Art 49: self-employed, stable and continuous activity from a fixed base. Services, Art 57: self-employed, temporary, for remuneration; residual (Art 57(1)).\n• (a) temporary (duration, regularity, periodicity, continuity), no fixed base in Milan → services; some infrastructure allowed (Gebhard, C-55/94).\n• (b) permanent office → establishment (Gebhard).\n• (c) recipients are protected too (Luisi and Carbone, 286/82 and 26/83).",
+   "old_fronts": [
+    "Distinguish the freedom to provide services from the freedom of establishment and from the free movement of workers. Apply the distinction to: (a) a German lawyer who, working from his Stuttgart office, regularly travels to Milan to represent clients but has no office there; (b) the same lawyer opening a permanent office in Milan; (c) an Austrian who travels to Italy to receive medical treatment. (3 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#87",
+   "topic": "Internal Market and Competition Basics",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "rozliseni",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Two car manufacturers agree to develop EV battery technology jointly and share the patents. A third company, with 70% of the EU market for charging software, refuses to license its interface to competitors and grants loyalty rebates. Explain Article 101(3) and Article 102 TFEU and apply them in outline. (3 points)",
+   "a": "The R&D agreement may be exempt under Art 101(3) TFEU; the 70% firm presumably abuses dominance (Art 102 TFEU, no exemption).\n• Art 101(3): four conditions: progress, fair share to consumers, only indispensable restrictions, no elimination of competition; legal exception (Art 1(2) Reg 1/2003), burden on the firms (Art 2).\n• Art 102: dominance = independence from competitors and customers (United Brands, 27/76); >50% → presumed (AKZO, C-62/86); dominance itself lawful.\n• Abuse affecting inter-state trade: refusal to license, exceptionally (Microsoft, T-201/04); loyalty rebates (Hoffmann-La Roche, 85/76; Intel, C-413/14 P).",
+   "old_fronts": [
+    "Two car manufacturers agree to develop an electric-vehicle battery technology jointly and to share the patents. A third company, which holds 70% of the EU market for charging software, refuses to license its interface to competitors and grants loyalty rebates. Explain Article 101(3) TFEU and Article 102 TFEU and apply them in outline. (3 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#82",
+   "topic": "Internal Market and Competition Basics",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "Rudy, a French student in his fourth year at a Belgian university, supported himself during the first three years. He then applies for the Belgian \"minimex\" (minimum subsistence allowance), which Belgian students in his situation receive. Belgium refuses because he is neither Belgian nor a worker. Can Rudy rely on EU primary law? (3 points)",
+   "a": "Yes — as a lawfully resident Union citizen he can rely on Art 18 with Arts 20–21 TFEU; the refusal is nationality discrimination (Grzelczyk, C-184/99).\n• Art 20(1): Union citizenship = fundamental status of Member State nationals; Art 21(1): right to reside, subject to secondary-law limits.\n• Art 18: lawful residence brings him within the Treaties' scope (Martínez Sala, C-85/96).\n• Directive 2004/38: Art 7(1)(c) resources, sickness insurance; Art 24(2) exceptions (first three months, study aid) not applicable; no automatic loss of residence for claiming assistance (Art 14(3)).",
+   "old_fronts": [
+    "Rudy, a French student in his fourth year at a Belgian university, supported himself during the first three years. He then applies for the Belgian \"minimex\" (minimum subsistence allowance), which Belgian students in the same situation receive. Belgium refuses because he is neither a Belgian national nor a worker. Can Rudy rely on EU primary law? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-institutions.json#24",
+   "topic": "EU Institutions II — Council, Parliament, other bodies",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "The Council votes on three Commission proposals under the ordinary legislative procedure (27 Member States). Was each adopted? (a) 16 Member States representing 63% of the EU population vote in favour, the other 11 against. (b) 14 Member States representing 72% of the population vote in favour. (c) 24 Member States representing 53% of the population vote in favour; the three most populous states (about 47%) vote against. (3 points)",
+   "a": "(a) Not adopted, (b) not adopted, (c) adopted.\n• OLP → QMV (Art 16(3) TEU); on a Commission proposal Art 16(4) TEU: at least 55% of members, at least 15, representing at least 65% of the population.\n• (a) 16 states met, but 63% < 65% → not adopted.\n• (b) 72% met, but 14 < 15 states → not adopted.\n• (c) 53% < 65%, but a blocking minority needs at least four members (Art 16(4) subpara 2); only three oppose → QMV deemed attained → adopted.",
+   "old_fronts": [
+    "The Council votes on three Commission proposals under the ordinary legislative procedure (27 Member States). Was each proposal adopted? (a) 16 Member States representing 63% of the EU population vote in favour, the other 11 against. (b) 14 Member States representing 72% of the population vote in favour. (c) 24 Member States representing 53% of the population vote in favour; the three most populous states, representing about 47%, vote against. (3 points)"
+   ]
+  },
+  {
+   "id": "eu-institutions.json#18",
+   "topic": "EU Institutions I — European Council and Commission",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "After the European elections, the alliance 'Alpha' becomes the largest group in the European Parliament; its lead candidate (Spitzenkandidat) is Mr Berger. The European Council, by qualified majority, instead proposes Ms Lind, who was not a lead candidate. (a) Is this lawful? (b) Describe the further steps until the Commission takes office. (c) What happens if the Parliament rejects Ms Lind? (4 points)",
+   "a": "(a) Lawful — the European Council must only 'take into account' the elections; Spitzenkandidat = political practice, not law.\n• Art 17(7) subpara 1 TEU: QMV proposal, no duty to nominate a lead candidate.\n• (b) EP elects her by a majority of its component members (subpara 1).\n• Council, by common accord with her, adopts the list of Commissioners from Member States' suggestions (subpara 2); European Council appoints High Representative by QMV with her agreement (Art 18(1)).\n• EP hearings → EP vote of consent on the college → European Council appoints by QMV (subpara 3).\n• (c) New candidate by QMV within one month, same procedure (subpara 1) → EP veto only.",
+   "old_fronts": [
+    "After the European elections, the party alliance 'Alpha' becomes the largest group in the European Parliament; its lead candidate (Spitzenkandidat) is Mr Berger. The European Council, by qualified majority, instead proposes Ms Lind, who did not run as a lead candidate. (a) Is this lawful? (b) Describe the further steps until the Commission takes office. (c) What happens if the Parliament rejects Ms Lind? (4 points)"
+   ]
+  },
+  {
+   "id": "eu-institutions.json#26",
+   "topic": "EU Institutions II — Council, Parliament, other bodies",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "After a census Germany's population has grown. Germany demands 110 seats in the European Parliament, Malta insists on keeping its 6 seats, and the European Council decides by qualified majority to enlarge the Parliament to 760 members. Assess the legality. What does 'degressive proportionality' mean? (3 points)",
+   "a": "Unlawful (except Malta's 6 seats) — Art 14(2) TEU.\n• Subpara 1: max 750 MEPs plus the President; per state min 6, max 96 → 110 for Germany and 760 in total excluded; Malta's 6 = lawful minimum.\n• Degressive proportionality: larger states get more seats, but each of their MEPs represents more citizens.\n• Subpara 2: composition fixed by the European Council unanimously, on the EP's initiative and with its consent → QMV insufficient.\n• Higher caps only by Treaty amendment (Art 48 TEU).",
+   "old_fronts": [
+    "After a census Germany's population has grown. The German government demands 110 seats in the European Parliament, Malta insists on keeping its 6 seats, and the European Council decides by qualified majority to enlarge the Parliament to 760 members. Assess the legality. What does 'degressive proportionality' mean? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-institutions.json#1",
+   "topic": "Introduction and Basics",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "srovnani",
+   "difficulty": 2,
+   "priority": 3,
+   "q": "Assign each innovation to the correct treaty and give the year it entered into force: (1) Union citizenship, Economic and Monetary Union and the 'three pillars'; (2) incorporation of the Schengen acquis and the sanction procedure for breaches of the Union's values; (3) institutional reform preparing the 2004 enlargement and the preventive 'clear risk' mechanism; (4) a legally binding Charter of Fundamental Rights, legal personality of the Union and a withdrawal clause. (4 points)",
+   "a": "(1) Maastricht 1993, (2) Amsterdam 1999, (3) Nice 2003, (4) Lisbon 2009.\n• (1) Treaty of Maastricht (TEU), signed 1992, in force 1 Nov 1993: EU on three pillars (EC, CFSP, JHA), Union citizenship, EMU.\n• (2) Treaty of Amsterdam, signed 1997, in force 1 May 1999: Schengen integrated into EU law, sanction procedure (today Art 7(2)–(3) TEU).\n• (3) Treaty of Nice, signed 2001, in force 1 Feb 2003: votes reweighted and Commission size reformed for enlargement, preventive mechanism (today Art 7(1) TEU).\n• (4) Treaty of Lisbon, signed 2007, in force 1 Dec 2009: Charter binding (Art 6(1) TEU), legal personality (Art 47 TEU), withdrawal (Art 50 TEU), pillars abolished (Art 1(3) TEU).",
+   "old_fronts": [
+    "Assign each of the following innovations to the correct treaty and give the year it entered into force: (1) Union citizenship, Economic and Monetary Union and the 'three pillars'; (2) incorporation of the Schengen acquis and the sanction procedure for breaches of the Union's values; (3) institutional reform preparing the 2004 enlargement and the preventive 'clear risk' mechanism; (4) a legally binding Charter of Fundamental Rights, legal personality of the Union and a withdrawal clause. (4 points)"
+   ]
+  },
+  {
+   "id": "eu-institutions.json#9",
+   "topic": "Introduction and Basics",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "norma",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "Explain the principle of sincere cooperation (loyalty). Where is it laid down, what obligations does it contain, and give three examples of how the Court of Justice has used it. (3 points)",
+   "a": "Laid down in Art 4(3) TEU; it binds the Union and the Member States.\n• Subpara 1: mutual assistance in full mutual respect.\n• Subpara 2 (positive): any appropriate measure to fulfil obligations from the Treaties and EU acts.\n• Subpara 3 (negative): facilitate the Union's tasks, refrain from measures jeopardising its objectives.\n• Case law: consistent interpretation (von Colson 14/83); effective, proportionate, dissuasive sanctions (Greek Maize 68/88); no measures seriously compromising a directive's result before its deadline (Inter-Environnement Wallonie C-129/96); state liability (Francovich C-6/90).",
+   "old_fronts": [
+    "Explain the principle of sincere cooperation (loyalty). Where is it laid down, what obligations does it contain, and give three examples of how the Court of Justice has used it. (3 points)"
+   ]
+  },
+  {
+   "id": "eu-institutions.json#36",
+   "topic": "Competences and Legislating",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "znaky",
+   "difficulty": 2,
+   "priority": 2,
+   "q": "Name the categories of Union competences, their legal consequences and give two examples of each. Why can an act never be based on Art 3 TFEU itself? (4 points)",
+   "a": "Five categories (Art 2–6 TFEU); Art 3 only classifies — legal basis is the policy chapter, e.g. Art 103 for competition, not Art 3(1)(b) (Art 2(6)).\n• Exclusive (Art 2(1), 3): only the Union legislates; Member States only if empowered or to implement Union acts → customs union, commercial policy.\n• Shared (Art 2(2), 4): Member States act where the Union has not (pre-emption) → internal market, environment.\n• Coordination (Art 2(3), 5): Member States coordinate economic/employment policies within Union arrangements → guidelines (Art 121, 148).\n• CFSP (Art 2(4) TFEU; Art 24 TEU): mostly unanimity, no legislative acts → sanctions, CSDP missions.\n• Supporting (Art 2(5), 6): no supersession, no harmonisation → health, culture.",
+   "old_fronts": [
+    "Name the categories of Union competences, their legal consequences and give two examples of each. Why can an act never be based on Art 3 TFEU itself? (4 points)"
+   ]
+  },
+  {
+   "id": "eu-institutions.json#54",
+   "topic": "Sources of EU Law and Hierarchy",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 1,
+   "priority": 2,
+   "q": "Which Art 288 TFEU instrument should the Union use, and why, to (a) lay down identical roaming-charge rules applying immediately to all operators in all Member States, (b) oblige Member States to guarantee minimum paid annual leave while leaving them the choice of how to implement it, (c) fine a specific company for a cartel, (d) encourage Member States to raise vaccination rates without any obligation? (3 points)",
+   "a": "(a) Regulation, (b) directive, (c) decision, (d) recommendation.\n• (a) Art 288(2) TFEU: general application, binding in its entirety, directly applicable → uniform rules without transposition.\n• (b) Art 288(3): binding as to the result, choice of form and methods left to national authorities → transposition by a deadline.\n• (c) Art 288(4): binding in its entirety; with addressees, binding only on them → individual case (Commission cartel fine under Reg 1/2003).\n• (d) Art 288(5): recommendations have no binding force → soft law (Art 292 TFEU).",
+   "old_fronts": [
+    "Which legal instrument of Art 288 TFEU should be used, and why, if the Union wants (a) to lay down identical roaming-charge rules applying immediately to all operators in all Member States, (b) to oblige Member States to guarantee a minimum paid annual leave while leaving them the choice of how to implement it, (c) to fine a specific company for a cartel, (d) to encourage Member States to raise vaccination rates without any obligation? (3 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#12",
+   "topic": "Direct Effect of EU Law",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "An equal-treatment directive prohibits compulsory retirement of women earlier than men. The deadline has expired; State Tarvia has not transposed it. Three women are forced to retire at 60, men at 65. Their employers: (a) Tarvian Railways plc, wholly state-owned, running the rail network under a statutory monopoly; (b) Guarantee Fund Ltd, privately owned, entrusted by statute with compensating victims of uninsured drivers and entitled to collect compulsory levies from motor insurers; (c) a private supermarket chain. Against which employers can they rely on the directive? (4 points)",
+   "a": "Against (a) and (b) as emanations of the state; not against (c).\n• Clear, precise, unconditional prohibition, deadline expired → vertical direct effect, also against the state as employer (Marshall I 152/84).\n• Emanation: body under state authority or control, OR entrusted with a public-interest task with special powers — not cumulative (Foster C-188/89; Farrell C-413/15).\n• (a) State-owned, public service under statutory monopoly → emanation.\n• (b) Private, but statutory public-interest task + special powers (compulsory levies) → emanation (Farrell).\n• (c) Horizontal → no direct effect of directives (Art 288(3) TFEU; Faccini Dori C-91/92); only consistent interpretation, arguably Arts 21, 23 Charter (Egenberger), Francovich claim against Tarvia.",
+   "old_fronts": [
+    "An equal-treatment directive prohibits compulsory retirement of women at an earlier age than men. Its deadline has expired, and State Tarvia has not transposed it. Three women are forced to retire at 60, while their male colleagues retire at 65. They work for: (a) Tarvian Railways plc, wholly owned by the state, which runs the national rail network under a statutory monopoly; (b) Guarantee Fund Ltd, a privately owned company with no state shareholding, which is entrusted by statute with compensating victims of uninsured drivers and may collect compulsory levies from all motor insurers; (c) a private supermarket chain. Against which employers can they rely on the directive? (4 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#31",
+   "topic": "EU Judicial Procedures",
+   "layer": "procviceni",
+   "points": 4,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 2,
+   "q": "The Austrian Verwaltungsgerichtshof (VwGH), whose decisions cannot be appealed, must interpret a term in the VAT Directive. Must it refer if (a) the CJEU has already answered an identical question in a German case; (b) there is no CJEU case law and the VwGH finds the answer \"obvious\", but a Dutch supreme court has interpreted the term differently; (c) the question is irrelevant to the outcome; (d) the question concerns the validity of the directive, which the VwGH considers invalid? (4 points)",
+   "a": "(a) No, (b) yes, (c) no, (d) yes.\n• Art 267(3) TFEU: a last-instance court must refer questions necessary for its decision unless a CILFIT (283/81) exception applies.\n• (a) Acte éclairé — materially identical question already decided (Da Costa 28-30/62) → no duty (may still refer).\n• (b) Acte clair only if the answer is equally obvious to other Member States' courts and the CJEU; a plausible divergent reading by another supreme court excludes that → must refer (Consorzio Italian Management C-561/19).\n• (c) Irrelevant → no duty (only questions necessary for judgment, Art 267(2)).\n• (d) National courts cannot invalidate EU acts → must refer; CILFIT exceptions do not apply (Foto-Frost 314/85).",
+   "old_fronts": [
+    "The Austrian Verwaltungsgerichtshof (VwGH), whose decisions cannot be appealed, must interpret a term in the VAT Directive. Must it refer in each of the following variants? (a) The CJEU has already answered an identical question in a case from Germany. (b) There is no CJEU case law and the VwGH thinks the answer is \"obvious\", but a Dutch supreme court has interpreted the term differently. (c) The question is irrelevant to the outcome of the case. (d) The question concerns the validity of the directive, which the VwGH considers invalid. (4 points)"
+   ]
+  },
+  {
+   "id": "eu-remedies.json#32",
+   "topic": "EU Judicial Procedures",
+   "layer": "procviceni",
+   "points": 3,
+   "kind": "pripad",
+   "difficulty": 3,
+   "priority": 3,
+   "q": "An importer asks a German first-instance fiscal court to suspend a customs-duty demand based on a Commission regulation that the importer considers invalid for breach of proportionality. The court shares these doubts. (a) May the court declare the regulation invalid and annul the demand? (b) May it at least suspend enforcement until a ruling is given? (3 points)",
+   "a": "(a) No — only the CJEU can declare an EU act invalid; (b) yes, under strict EU-law conditions.\n• (a) Art 267(1)(b) TFEU: the CJEU rules on validity; national courts at any instance may reject, but not uphold, a plea of invalidity → must refer (Foto-Frost 314/85).\n• (b) Suspension allowed if: serious doubts on validity and the court refers (unless already pending); urgency — serious, irreparable damage; due account of the Union's interest; respect for EU court rulings on the act (Zuckerfabrik C-143/88 and C-92/89; Atlanta C-465/93).",
+   "old_fronts": [
+    "An importer asks a German first-instance fiscal court to suspend a customs-duty demand issued on the basis of a Commission regulation that the importer considers invalid for breach of proportionality. The court shares the importer's doubts. (a) May the court declare the regulation invalid and annul the demand? (b) May it at least suspend enforcement until a ruling is given? (3 points)"
+   ]
+  }
+ ]
+}
