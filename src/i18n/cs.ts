@@ -575,6 +575,7 @@ export const cs = {
   serverDeckFilingOnly: 'jen roztřídí tvoje karty podle štítků',
   serverDeckError: 'Balíček se nepodařilo načíst ze serveru.',
   importFiled: (n: number) => `Do témat se roztřídilo ${n} tvých starších karet.`,
+  priorityMust: '★ Musíš umět na 100 %',
   importUpdated: (n: number) => `Upravilo se ${n} tvých karet (otázka, odpověď nebo téma) — postup v učení zůstal.`,
   importRemoved: (n: number) => `Z předmětu se odebralo ${n} karet, které nová verze balíčku už nemá.`,
   importMerged: (added: number, dup: number) =>

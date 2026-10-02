@@ -570,6 +570,7 @@ export const en: Messages = {
   serverDeckFilingOnly: 'only files your cards by their tags',
   serverDeckError: 'The deck could not be loaded from the server.',
   importFiled: (n: number) => `${n} of your older cards were filed into topics.`,
+  priorityMust: '★ Must know 100 %',
   importUpdated: (n: number) => `${n} of your cards were updated (question, answer or topic) — their progress is kept.`,
   importRemoved: (n: number) => `${n} cards the new version of the deck no longer has were removed from this subject.`,
   importMerged: (added: number, dup: number) =>

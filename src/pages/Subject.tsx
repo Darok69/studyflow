@@ -119,6 +119,7 @@ export function Subject({
     suspended: c.suspended,
     draft: c.draft,
     buriedUntil: c.buriedUntil,
+    priority: c.priority,
   }))
   const introduced = introducedTodayBySubject(reviews, cards, now)
   const stats = subjectStats(

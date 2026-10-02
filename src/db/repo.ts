@@ -45,6 +45,7 @@ function cardFromDraft(draft: CardDraft, subjectId: string): Omit<Card, keyof Fs
     // what it teaches, at recall level.
     kind: draft.kind ?? draft.type,
     level: draft.level ?? 1,
+    priority: draft.priority,
     topic: draft.topic,
     front: draft.front,
     back: draft.back,

@@ -175,6 +175,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
           suspended: c.suspended,
           draft: c.draft,
           buriedUntil: c.buriedUntil,
+          priority: c.priority,
         }))
         order = subject
           ? buildTopicSession(
@@ -203,6 +204,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
             suspended: c.suspended,
             draft: c.draft,
             buriedUntil: c.buriedUntil,
+            priority: c.priority,
           }))
         const session = buildSession(
           subjects

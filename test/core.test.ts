@@ -41,6 +41,7 @@ import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
 import { lectureForTopic, matchCourses, orderByCourse } from '../src/lib/materials'
 import { newCardsOnly, planFiling, planPrune, planRemovals, planUpdates, questionKey } from '../src/import/mergeDeck'
+import { byPriority } from '../src/scheduler/scheduler'
 import { hasManualOrder, moveItem, orderedByHand, positionsFor } from '../src/lib/order'
 import {
   answerSimilarity,
@@ -1534,6 +1535,11 @@ console.log('— blind maps: masks stay relative, one card per place —')
     ok(pruned.length === 1 && pruned[0] === 'd', `prune removes only what the deck no longer asks (got ${pruned})`)
     ok(planPrune(long, ['Kept question (2 points)', 'brand new']).includes('r'), 'judged on the old question the renamed card would be pruned — hence prune runs after updates')
     ok(planPrune(long, []).length === 0, 'an empty deck never wipes the subject')
+    const pr = planUpdates([{ id: 'p', front: 'Q', tags: [], priority: 3 }], [{ match: 'Q', priority: 1 }])
+    ok(pr.get('p')?.priority === 1, 'an update can raise a card to must-know')
+    const withPrio = parseDeck(JSON.stringify({ subject: 'S', cards: [{ front: 'a', back: 'b', priority: 1 }, { front: 'c', back: 'd', priority: 7 }] }))
+    ok(withPrio.cards[0].priority === 1 && withPrio.cards[1].priority === undefined, 'priority 1–3 is read, anything else ignored')
+
     const pd = parseDeck(JSON.stringify({ subject: 'S', prune: true, cards: [{ front: 'f', back: 'b' }], updates: [{ match: 'm', back: 'new answer' }] }))
     ok(pd.prune === true && pd.updates?.[0]?.back === 'new answer', 'prune and answer updates are parsed')
     ok(parseDeck(JSON.stringify({ subject: 'S', prune: 'yes', cards: [{ front: 'f', back: 'b' }] })).prune === false, 'only a literal true prunes')
@@ -1550,6 +1556,24 @@ console.log('— blind maps: masks stay relative, one card per place —')
     ok(deck.remove?.length === 1 && deck.remove[0].tag === 'zkouska', 'malformed removal rules are dropped')
     const plain = parseDeck(JSON.stringify({ subject: 'S', cards: [{ front: 'f', back: 'b' }] }))
     ok(plain.updates?.length === 0 && plain.remove?.length === 0, 'a deck without them changes nothing')
+  }
+
+  console.log('— byPriority: nejdřív to, co musíš umět —')
+  {
+    const sc = (id: string, priority?: 1 | 2 | 3) => ({ id, subjectId: 's', state: 'new' as const, due: '2026-10-02T00:00:00Z', priority })
+    const order = byPriority([sc('a', 3), sc('b'), sc('c', 1), sc('d', 2), sc('e', 1)]).map((c) => c.id)
+    ok(order.join('') === 'cebda', `priority 1 first, then 2 (and unmarked), then 3, stable inside (got ${order.join('')})`)
+    ok(byPriority([sc('x'), sc('y'), sc('z')]).map((c) => c.id).join('') === 'xyz', 'a subject without priorities keeps its order')
+    const plan = buildSession(
+      [{ id: 's', examDate: '2026-10-04' }],
+      [sc('r1', 3), sc('r2', 3), sc('m1', 1), sc('i1', 2), sc('m2', 1)],
+      new Date('2026-10-02T08:00:00Z'),
+      { newCardCap: 2 },
+    )
+    ok(
+      plan.order.length === 2 && plan.order.includes('m1') && plan.order.includes('m2'),
+      `with room for two new cards the session takes the two must-knows (got ${plan.order})`,
+    )
   }
 
   console.log('— planFiling: staré karty do témat —')

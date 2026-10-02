@@ -21,6 +21,8 @@ export interface SchedCard {
   /** Failed quality control — waits for a human, never for the queue. */
   draft?: boolean
   buriedUntil?: string | null // YYYY-MM-DD
+  /** 1 must know 100 %, 2 important, 3 the rest — new cards come in this order. */
+  priority?: 1 | 2 | 3
 }
 
 /**
@@ -138,6 +140,19 @@ function wantedNewToday(
 }
 
 /**
+ * New cards in the order they should be learnt: the essential ones first, so a
+ * short runway before the exam is spent on what must be known for certain and
+ * the rest follows as time allows. Stable — cards without a priority (and of
+ * equal priority) keep their order; a card without one counts as 2.
+ */
+export function byPriority(cards: SchedCard[]): SchedCard[] {
+  return cards
+    .map((c, i) => ({ c, i }))
+    .sort((a, b) => (a.c.priority ?? 2) - (b.c.priority ?? 2) || a.i - b.i)
+    .map((x) => x.c)
+}
+
+/**
  * Spread cards so the same topic does not run back to back (BRIEF §5.3).
  * Round-robin over topic buckets, relative order preserved inside each bucket:
  * blocked practice feels easier and teaches less, interleaved practice feels
@@ -241,7 +256,7 @@ export function buildSession(
     const list = (bySubject.get(s.id) ?? []).filter((c) => !c.suspended && !c.draft)
     const active = list.filter((c) => isSchedulable(c, now))
     const due = active.filter((c) => isDueReview(c, now)).sort(byDueAsc)
-    const news = active.filter((c) => c.state === 'new')
+    const news = byPriority(active.filter((c) => c.state === 'new'))
     const dExam = daysUntil(s.examDate, now)
     const alreadyToday = introduced.get(s.id) ?? 0
     const wanted = wantedNewToday(s, news.length, alreadyToday, dExam)
@@ -416,7 +431,7 @@ export function buildTopicSession(
 
   const mine = active.filter((c) => topicKey(c) === topic)
   const due = mine.filter((c) => isDueReview(c, now)).sort(byDueAsc)
-  const news = mine.filter((c) => c.state === 'new')
+  const news = byPriority(mine.filter((c) => c.state === 'new'))
   const take = Math.max(0, Math.min(quota, news.length, capRemaining))
 
   const order = [...due.map((c) => c.id), ...news.slice(0, take).map((c) => c.id)]

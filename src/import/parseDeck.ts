@@ -10,6 +10,7 @@ export interface CardDraft {
   type: CardType // how it renders
   kind?: CardKind // what it teaches (definice, proces, případ…)
   level?: CardLevel // 1 recall, 2 understanding, 3 application
+  priority?: 1 | 2 | 3 // 1 must know 100 %, 2 important, 3 the rest
   topic?: string // heading from the approved outline
   front: string
   back: string
@@ -109,12 +110,14 @@ function parseUpdates(value: unknown): CardUpdate[] {
     const front = typeof r.front === 'string' && r.front.trim() ? r.front : undefined
     const back = typeof r.back === 'string' && r.back.trim() ? r.back : undefined
     const topic = typeof r.topic === 'string' && r.topic.trim() ? r.topic.trim() : undefined
-    if (!match.trim() || (front === undefined && back === undefined && topic === undefined)) continue
+    const priority = r.priority === 1 || r.priority === 2 || r.priority === 3 ? r.priority : undefined
+    if (!match.trim() || (front === undefined && back === undefined && topic === undefined && priority === undefined)) continue
     out.push({
       match,
       ...(front !== undefined ? { front } : {}),
       ...(back !== undefined ? { back } : {}),
       ...(topic !== undefined ? { topic } : {}),
+      ...(priority !== undefined ? { priority } : {}),
     })
   }
   return out
@@ -178,6 +181,7 @@ export function parseDeck(raw: string): ParsedDeck {
     // without them still imports, it just teaches at recall level.
     const kind: CardKind = isCardKind(c.kind) ? c.kind : type
     const level: CardLevel = isCardLevel(c.level) ? c.level : 1
+    const priority = c.priority === 1 || c.priority === 2 || c.priority === 3 ? c.priority : undefined
     const topic = typeof c.topic === 'string' && c.topic.trim() ? c.topic.trim() : undefined
     // Generated cards carry where they came from and whether they passed the
     // quality check; hand-written decks simply have none of this.
@@ -197,7 +201,7 @@ export function parseDeck(raw: string): ParsedDeck {
         return
       }
       const { front, back, raw } = makeCloze(text)
-      cards.push({ type, kind, level, topic, front, back, raw, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
+      cards.push({ type, kind, level, ...(priority ? { priority } : {}), topic, front, back, raw, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
     } else {
       const front = typeof c.front === 'string' ? c.front.trim() : ''
       const back = typeof c.back === 'string' ? c.back.trim() : ''
@@ -205,7 +209,7 @@ export function parseDeck(raw: string): ParsedDeck {
         errors.push(t('errBasicCardNeedsBoth', n))
         return
       }
-      cards.push({ type, kind, level, topic, front, back, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
+      cards.push({ type, kind, level, ...(priority ? { priority } : {}), topic, front, back, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
     }
   })
 

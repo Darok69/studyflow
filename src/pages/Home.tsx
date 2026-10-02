@@ -105,6 +105,7 @@ export function Home({
     suspended: c.suspended,
     draft: c.draft,
     buriedUntil: c.buriedUntil,
+    priority: c.priority,
   }))
   const session = buildSession(
     subjects.map((s) => ({ id: s.id, examDate: s.examDate, dailyNewLimit: s.dailyNewLimit })),

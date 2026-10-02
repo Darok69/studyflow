@@ -1,3 +1,4 @@
+import { t } from '../i18n'
 import type { CSSProperties } from 'react'
 import type { Card } from '../db/db'
 import { SvgView } from './SvgView'
@@ -42,6 +43,7 @@ export function CardFace({
         card.image && <img className="card-image" src={card.image} alt="" loading="lazy" />
       )}
 
+      {card.priority === 1 && <div className="card-priority">{t('priorityMust')}</div>}
       <div className="card-front">{card.front}</div>
 
       {revealed && (
