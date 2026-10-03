@@ -65,7 +65,9 @@ def write_compact_exam_deck(code: str, subject: str, exam_date: str, path: Path)
         card["priority"] = c["priority"]
         card["tags"].append(f"p{c['priority']}")
         cards.append(card)
-        for old in c.get("old_fronts", []):
+        # Staré znění otázek přejmenuje; shoda se SOUČASNOU otázkou propíše
+        # opravenou odpověď i do karty, kterou už má uživatel naimportovanou.
+        for old in [*c.get("old_fronts", []), c["q"]]:
             updates.append({"match": old, "front": c["q"], "back": c["a"], "topic": c["topic"],
                             "priority": c["priority"]})
     deck = {"subject": subject, "examDate": exam_date, "cards": cards, "updates": updates, "prune": True}
