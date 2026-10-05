@@ -89,7 +89,7 @@ export function Home({
     if (loading) return
     const today = new Date()
     if (freshStartSeen(today)) return
-    setFresh(freshStart(today, subjects.map((s) => s.examDate)))
+    setFresh(freshStart(today, subjects.filter((s) => !s.archived).map((s) => s.examDate)))
   }, [loading, subjects])
 
   if (loading) {
@@ -97,6 +97,9 @@ export function Home({
   }
 
   const now = new Date()
+  // Hotové předměty se do dneška nepočítají — ani do plánu, ani do odznaku.
+  const active = subjects.filter((s) => !s.archived)
+  const archived = subjects.filter((s) => s.archived)
   const schedCards: SchedCard[] = cards.map((c) => ({
     id: c.id,
     subjectId: c.subjectId,
@@ -108,7 +111,7 @@ export function Home({
     priority: c.priority,
   }))
   const session = buildSession(
-    subjects.map((s) => ({ id: s.id, examDate: s.examDate, dailyNewLimit: s.dailyNewLimit })),
+    active.map((s) => ({ id: s.id, examDate: s.examDate, dailyNewLimit: s.dailyNewLimit })),
     schedCards,
     now,
     {
@@ -143,8 +146,8 @@ export function Home({
 
   // Deadline order is what the queue needs; the shelf is the user's to arrange.
   // Until someone drags a card, nothing changes and the nearest exam stays first.
-  const arranged = hasManualOrder(subjects)
-    ? orderedByHand(subjects)
+  const arranged = hasManualOrder(active)
+    ? orderedByHand(active)
         .map((s) => plans.find((p) => p.subject.id === s.id))
         .filter((p): p is (typeof plans)[number] => p !== undefined)
     : plans
@@ -342,6 +345,28 @@ export function Home({
             {t('newDeckBtn')}
           </button>
         </div>
+      )}
+
+      {archived.length > 0 && (
+        <details className="archived-shelf">
+          <summary>{t('archivedHeading', archived.length)}</summary>
+          <p className="muted archived-hint">{t('archivedHint')}</p>
+          <ul className="archived-list">
+            {archived.map((s) => (
+              <li key={s.id} className="archived-row">
+                <button className="archived-open" onClick={() => onOpenSubject(s.id)}>
+                  <span className="archived-name">{s.name}</span>
+                  <span className="muted">
+                    {t('cardsCount', cards.filter((c) => c.subjectId === s.id).length)}
+                  </span>
+                </button>
+                <button className="btn btn-ghost btn-small" onClick={() => setEditing(s)}>
+                  {t('edit')}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </details>
       )}
 
       {creating && (

@@ -30,6 +30,12 @@ export interface Subject {
    * is what the reminder says instead of a generic "time to study".
    */
   intention?: string
+  /**
+   * Odložený do „Hotové": zkouška je za mnou, ale předmět ani jeho historii
+   * nechci mazat (třeba nevím, jak to dopadlo). Nepočítá se do dnešního plánu,
+   * do odznaku ani do připomínky; na úvodní obrazovce leží sbalený dole.
+   */
+  archived?: boolean
 }
 
 /**

@@ -6,6 +6,7 @@ import {
   type MaterialIndex,
   type MaterialLecture,
 } from '../lib/api'
+import { FloatingBack } from '../components/FloatingBack'
 import { t } from '../i18n'
 
 /**
@@ -279,28 +280,29 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
     })
   }
 
+  function leaveLecture() {
+    slideRefs.current.clear()
+    // Opened straight at a lecture → the way back is where we came from.
+    if (initialLectureId && openId === initialLectureId) {
+      onBack()
+      return
+    }
+    setOpenId(null)
+    setLecture(null)
+    window.scrollTo(0, 0)
+  }
+
   // ---- one lecture ----
   if (openId && lecture) {
     const resumeAt = positions[lecture.lecture_id]
     return (
       <div className="page reader">
         <div className="page-nav">
-          <button
-            className="btn btn-ghost btn-small"
-            onClick={() => {
-              slideRefs.current.clear()
-              // Opened straight at a lecture → the way back is where we came from.
-              if (initialLectureId && openId === initialLectureId) {
-                onBack()
-                return
-              }
-              setOpenId(null)
-              setLecture(null)
-            }}
-          >
+          <button className="btn btn-ghost btn-small" onClick={leaveLecture}>
             {t('back')}
           </button>
         </div>
+        <FloatingBack onBack={leaveLecture} />
 
         <header className="reader-head">
           <span className="reader-eyebrow">
@@ -392,6 +394,7 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
           {t('back')}
         </button>
       </div>
+      <FloatingBack onBack={onBack} />
       <h2 className="page-title">{t('readerTitle')}</h2>
       <p className="muted">{t('readerLead')}</p>
 

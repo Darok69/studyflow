@@ -99,6 +99,10 @@ export const cs = {
   readinessPercent: (p: number) => `připravenost ${p} %`,
   subjectTodayCounts: (due: number, fresh: number) => `${due} k opakování · ${fresh} nových`,
   doneForToday: 'pro dnešek hotovo',
+  archiveBtn: 'Do Hotové',
+  unarchiveBtn: 'Vrátit mezi aktivní',
+  archivedHeading: (n: number) => `Hotové (${n})`,
+  archivedHint: 'Nepočítají se do plánu ani připomínek. Karty i historie zůstávají.',
   cramBtn: 'Procvičit',
   subjectOpenTitle: 'Klepnutím otevřeš předmět — učebnici a témata',
 

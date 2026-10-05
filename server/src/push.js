@@ -25,6 +25,10 @@ export function dueTodayCount(backupData, now = new Date()) {
   try {
     const parsed = typeof backupData === 'string' ? JSON.parse(backupData) : backupData
     const cards = Array.isArray(parsed?.cards) ? parsed.cards : []
+    // Předměty odložené do „Hotové" se do připomínky nepočítají.
+    const archived = new Set(
+      (Array.isArray(parsed?.subjects) ? parsed.subjects : []).filter((s) => s?.archived).map((s) => s.id),
+    )
     const end = new Date(now)
     end.setHours(23, 59, 59, 999)
     const todayKey = now.toISOString().slice(0, 10)
@@ -32,6 +36,7 @@ export function dueTodayCount(backupData, now = new Date()) {
       (c) =>
         c &&
         c.state !== 'new' &&
+        !archived.has(c.subjectId) &&
         !c.suspended &&
         !(c.buriedUntil && c.buriedUntil >= todayKey) &&
         new Date(c.due).getTime() <= end.getTime(),
@@ -52,7 +57,7 @@ export function pickIntention(backupData, now = new Date()) {
   try {
     const parsed = typeof backupData === 'string' ? JSON.parse(backupData) : backupData
     const subjects = Array.isArray(parsed?.subjects) ? parsed.subjects : []
-    const withIntention = subjects.filter((s) => typeof s?.intention === 'string' && s.intention.trim())
+    const withIntention = subjects.filter((s) => !s?.archived && typeof s?.intention === 'string' && s.intention.trim())
     if (withIntention.length === 0) return null
 
     const upcoming = withIntention

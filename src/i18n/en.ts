@@ -95,6 +95,10 @@ export const en: Messages = {
   readinessPercent: (p: number) => `readiness ${p} %`,
   subjectTodayCounts: (due: number, fresh: number) => `${due} to review · ${fresh} new`,
   doneForToday: 'done for today',
+  archiveBtn: 'Move to Done',
+  unarchiveBtn: 'Back to active',
+  archivedHeading: (n: number) => `Done (${n})`,
+  archivedHint: 'Left out of the plan and reminders. Cards and history stay.',
   cramBtn: 'Practise',
   subjectOpenTitle: 'Tap to open the subject — its textbook and topics',
 

@@ -74,6 +74,13 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose, onCram }: 
     onClose()
   }
 
+  /** Hotové: pryč z plánu, ale nic se nemaže — vrátit jde jedním klepnutím. */
+  async function handleArchive() {
+    await updateSubject(subject.id, { archived: !subject.archived })
+    onSaved()
+    onClose()
+  }
+
   async function handleExport() {
     const json = await exportSubjectJson(subject.id)
     if (json) download(`studyflow-${slug(subject.name)}.json`, json)
@@ -161,6 +168,9 @@ export function SubjectEditor({ subject, onSaved, onDeleted, onClose, onCram }: 
         <div className="button-row modal-actions">
           <button className="btn btn-ghost btn-danger" onClick={handleDelete}>
             {t('delete')}
+          </button>
+          <button className="btn btn-ghost" onClick={() => void handleArchive()}>
+            {subject.archived ? t('unarchiveBtn') : t('archiveBtn')}
           </button>
           {onCram && (
             <button

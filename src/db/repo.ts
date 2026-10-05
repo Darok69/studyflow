@@ -434,6 +434,7 @@ export async function updateSubject(
       | 'kind'
       | 'ects'
       | 'intention'
+      | 'archived'
     >
   >,
 ): Promise<void> {

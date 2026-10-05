@@ -96,6 +96,10 @@ export const de: Messages = {
   readinessPercent: (p: number) => `Bereitschaft ${p} %`,
   subjectTodayCounts: (due: number, fresh: number) => `${due} zu wiederholen · ${fresh} neue`,
   doneForToday: 'für heute geschafft',
+  archiveBtn: 'Zu Erledigt',
+  unarchiveBtn: 'Wieder aktiv',
+  archivedHeading: (n: number) => `Erledigt (${n})`,
+  archivedHint: 'Zählen nicht zum Plan und zu Erinnerungen. Karten und Verlauf bleiben.',
   cramBtn: 'Üben',
   subjectOpenTitle: 'Antippen, um das Fach zu öffnen — Lehrbuch und Themen',
 

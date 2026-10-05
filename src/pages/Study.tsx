@@ -208,7 +208,8 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
           }))
         const session = buildSession(
           subjects
-            .filter((s) => !target || s.id === target)
+            // „Učit se vše" bere jen aktivní předměty; hotový jde otevřít zvlášť.
+            .filter((s) => (target ? s.id === target : !s.archived))
             .map((s) => ({ id: s.id, examDate: s.examDate, dailyNewLimit: s.dailyNewLimit })),
           schedCards,
           new Date(),
