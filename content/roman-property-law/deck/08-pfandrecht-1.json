@@ -1,0 +1,496 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "24.11. Pfandrecht I — Funktion, Arten, Sicherungsmittel",
+   "readyBy": "2026-11-24",
+   "front": "Welches Problem löst das Pfandrecht (Beispiel Labrax/Philto)?",
+   "back": "Labrax leiht Philto 100 ohne Sicherheit; Philto wird insolvent, die Gläubiger teilen das Vermögen nach Quoten → Labrax erhält nur 30.\n• Mit einem Pfand (zB Stück aus Philtos Kunstsammlung) hätte er das Pfand nach Fälligkeit (nach Erlangung per dinglicher Klage) versteigern und sich daraus befriedigen können — auch im Konkurs: Absonderung des Pfandes von der Masse.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Funktion, Arten, Sicherungsmittel",
+   "readyBy": "2026-11-24",
+   "front": "Was gewährt das Pfandrecht dem Gläubiger — worin liegt sein Vorteil?",
+   "back": "Ein Recht an fremder Sache: Zahlt der Schuldner bei Fälligkeit nicht, darf der Gläubiger das Pfand verwerten (meist öffentliche Versteigerung) und sich aus dem Erlös befriedigen.\n• Vorteil v.a. im Konkurs: Statt bloßer Quote Absonderung des Pfandes und volle Befriedigung, soweit der Erlös reicht.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Funktion, Arten, Sicherungsmittel",
+   "readyBy": "2026-11-24",
+   "front": "Welche Arten von Pfandrechten gibt es nach Entstehung und nach Besitz?",
+   "back": "Nach Entstehung: vertragliches, richterliches, gesetzliches Pfandrecht.\nNach Besitz: Besitzpfand (Faustpfand — Sache wird dem Gläubiger übergeben) vs besitzloses Pfand (Hypothek/lien — Verpfänder behält die Sache).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Funktion, Arten, Sicherungsmittel",
+   "readyBy": "2026-11-24",
+   "front": "Besitzpfand vs besitzloses Pfand — Vor- und Nachteile?",
+   "back": "Besitzpfand: zusätzliche Sicherheit (Sache ist bei Fälligkeit schon beim Gläubiger) und Publizität der Verfügung.\nBesitzloses Pfand: Der Verpfänder kann die Sache weiter nutzen und damit das Kapital zur Rückzahlung erwirtschaften.\n• Der Besitzpfandgläubiger hat NATÜRLICHEN Besitz (für den Verpfänder, der Eigenbesitzer bleibt), aber Interdiktenschutz.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "24.11. Pfandrecht I — Funktion, Arten, Sicherungsmittel",
+   "readyBy": "2026-11-24",
+   "front": "Welche anderen Sicherungsmittel kennt das römische Recht (FIDEIUSSIO, FIDUCIA CUM CREDITORE)?",
+   "back": "FIDEIUSSIO (Bürgschaft): Der Bürge verspricht, die Schuld zu zahlen → nur obligatorischer Anspruch gegen ihn (kein dingliches Recht), er haftet mit seinem ganzen Vermögen; der Gläubiger wählt, wen er belangt.\nFIDUCIA CUM CREDITORE (Sicherungsübereignung, altrömisch): Eigentum an einer Sache des Schuldners geht auf den Gläubiger über; zahlt der Schuldner, muss er zurückübertragen — ACTIO FIDUCIAE DIRECTA (Schuldner) / CONTRARIA (Gläubiger).\n• FIDUCIA = Treuhand: Der Fiduziar kann nach außen mehr, als er nach innen darf.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "24.11. Pfandrecht I — Funktion, Arten, Sicherungsmittel",
+   "readyBy": "2026-11-24",
+   "front": "Pfand des Schuldners vs Drittpfand vs Bürgschaft — was erweitert die Haftungsmasse?",
+   "back": "Pfand des Schuldners: keine Erweiterung der Haftungsmasse, aber Vorrecht an der Pfandsache.\nDrittpfand: Die Sache eines Dritten haftet zusätzlich zum Schuldnervermögen — der Dritte haftet nur mit dieser Sache.\nBürgschaft: Das ganze Vermögen des Bürgen haftet zusätzlich.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Welche drei Bedeutungen hat das Wort PIGNUS?",
+   "back": "1. Die Pfandsache selbst.\n2. Das dingliche Pfandrecht des Gläubigers an der Sache.\n3. Den Realvertrag zwischen Verpfänder und Pfandgläubiger (Pfandvertrag).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Pfandrecht (dinglich) vs Pfandvertrag — wie entsteht was?",
+   "back": "Pfandrecht: durch Pfandabrede (CONVENTIO PIGNORIS) — Übergabe nicht nötig.\nPfandvertrag: Realvertrag, entsteht erst mit Übergabe der Pfandsache (bei besitzlosem Pfand also erst, wenn der Gläubiger Besitz erlangt, zB per VINDICATIO PIGNORIS).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Welche drei Voraussetzungen hat das Pfandrecht als dingliches Recht?",
+   "back": "a. Eine zu sichernde Geldforderung (Akzessorietät — ohne gültige Forderung kein Pfandrecht).\nb. Eigentum (bonitarisches genügt) oder Verfügungsbefugnis des Verpfänders (NEMO PLUS IURIS …).\nc. CONVENTIO PIGNORIS — Einigung, dass die Sache die Forderung sichert (sachenrechtliche Verfügung; bestimmt, welche Sachen welche Schulden sichern).\n• Klausurformel: Verfügungsmacht des Verpfänders + Pfandabrede + zu sichernde Forderung.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Was bedeutet „Akzessorietät“ des Pfandrechts?",
+   "back": "Entstehung und Fortbestand des Pfandrechts hängen von der gesicherten Forderung ab: ohne Forderung kein Pfandrecht; erlischt sie, erlischt das Pfand.\n• Schuldner und Verpfänder können verschiedene Personen sein (Drittpfand).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Muss der Verpfänder Eigentümer sein? Was gilt, wenn er es später wird?",
+   "back": "Er braucht Eigentum (bonitarisches genügt) oder Verfügungsbefugnis — sonst kein gültiges Pfandrecht (NEMO PLUS IURIS …).\n• Erwirbt er später Eigentum (zB durch Erbschaft), wird die Stellung des Gläubigers geheilt (Konvaleszenz) → ACTIO PIGNERATICIA (IN REM) UTILIS.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Welche dingliche Klage hat der Pfandgläubiger — gegen wen, mit welchem Ergebnis?",
+   "back": "ACTIO PIGNERATICIA IN REM = VINDICATIO PIGNORIS (Quellen auch: ACTIO SERVIANA, QUASI SERVIANA, HYPOTHECARIA).\n• Spätestens ab Fälligkeit und Nichtzahlung gegen jeden Besitzer — auch den Verpfänder; ebenso bei Verlust des Besitzpfandes.\n• Verurteilung wie bei der REI VINDICATIO zu Geld (wenn nicht restituiert): Schuldner nur bis zur Schuldhöhe; andere Besitzer zum vollen Wert — der Gläubiger behält die Schuld und gibt den Überschuss (SUPERFLUUM) dem Verpfänder.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Wie wehrt sich der Besitzpfandgläubiger gegen die REI VINDICATIO des Verpfänders? Was ist das INTERDICTUM SALVIANUM?",
+   "back": "EXCEPTIO PIGNERATICIA.\nINTERDICTUM SALVIANUM: Hat ein Pächter die eingebrachten beweglichen Sachen (INVECTA ILLATA) ausdrücklich dem Verpächter verpfändet, erlangt dieser damit erstmals den Besitz daran.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Was kann der Verpfänder aus dem Pfandvertrag verlangen (ACTIO PIGNERATICIA IN PERSONAM DIRECTA)?",
+   "back": "Rückgabe der Pfandsache, sobald eine Voraussetzung des Pfandrechts wegfällt (Schuld getilgt — Akzessorietät; Verzicht des Gläubigers, zB durch Erlaubnis zur Veräußerung).\n• Nach Verwertung den Mehrerlös (SUPERFLUUM, HYPEROCHA).\n• Nach Erlöschen der Schuld sogar Rückgabe einer fremden Sache, die er ohne Zustimmung des Eigentümers verpfändet hat (Ulpian D 13.7.9.4, Case 161a).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Was kann der Pfandgläubiger aus dem Pfandvertrag verlangen (ACTIO PIGNERATICIA IN PERSONAM CONTRARIA)?",
+   "back": "Ersatz von Schäden, die ihm die Pfandsache verursacht hat, und von Aufwendungen auf sie.\n• Bsp Lucius/Omphale: Kranke Kuh verpfändet, Omphales Kalb steckt sich an und stirbt → Ersatz für Kalb und Tierarzt.\n• Auch wenn der Verpfänder eine Sache übergab, ohne ein Pfandrecht zu verschaffen (fremde Sache): Anspruch auf Bestellung eines gültigen Pfandrechts (Ulpian D 13.7.9 pr, Case 161a).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "24.11. Pfandrecht I — Pfandrecht als dingliches Recht und Pfandvertrag",
+   "readyBy": "2026-11-24",
+   "front": "Warum entsteht oft ein SUPERFLUUM?",
+   "back": "Weil der Gläubiger meist eine Sicherheit verlangt, deren Wert die Schuld deutlich übersteigt (Schutz gegen Preisverfall) → der Erlös übersteigt oft die Forderung; der Rest gebührt dem Verpfänder (bzw nachrangigen Gläubigern).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Was gilt, wenn der Verpfänder die Pfandsache MIT Zustimmung des Gläubigers veräußert?",
+   "back": "a. Zustimmung ohne Vorbehalt = Verzicht auf das Pfandrecht → es erlischt mit der Veräußerung; der Käufer erwirbt lastenfreies Eigentum (Marcianus D 20.6.8.14, 8.15).\nb. Zustimmung unter Vorbehalt des Pfandrechts → der Käufer erwirbt mit dem Pfandrecht belastetes Eigentum (NEMO PLUS IURIS …).\n• Die gesicherte Forderung bleibt in beiden Fällen bestehen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Was gilt, wenn der Verpfänder die Pfandsache OHNE Zustimmung des Gläubigers veräußert?",
+   "back": "Grundsätzlich unzulässig; Folgen strittig:\na. Bewegliche Sache, wissentlich: Der Verpfänder ist FUR (Paulus (Iulianus) D 47.2.67 pr, Case 164) → haftet dem Gläubiger; der Käufer erwirbt wohl kein Eigentum, nur Besitz (Verpfänder bleibt Eigentümer).\nb. Kein FURTUM (gutgläubiger Verpfänder oder Grundstück): Der Käufer erwirbt wohl Eigentum, belastet mit dem Pfandrecht.\n• In beiden Fällen bleibt das Pfandrecht bestehen → VINDICATIO PIGNORIS gegen jeden Besitzer. Es endet erst mit Untergang der Sache (auch durch SPECIFICATIO).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Wie wird ein Pfand verwertet? Was sind PACTUM DE VENDENDO und LEX COMMISSORIA?",
+   "back": "Bei Nichtzahlung verkauft der Gläubiger die Sache (meist öffentliche Versteigerung) und befriedigt sich aus dem Erlös; das Pfandrecht ermächtigt ihn, das Eigentum des Verpfänders zu übertragen (Ulpian D 13.7.4, Case 169). Reicht der Erlös nicht, bleibt die Restforderung.\n• Spätklassisch: stillschweigendes Verkaufsrecht (PACTUM DE VENDENDO/DISTRAHENDO).\n• LEX COMMISSORIA (Verfallsklausel: Gläubiger wird bei Nichtzahlung Eigentümer) kam außer Gebrauch, weil sie den Gläubiger ungerechtfertigt bereichert; Konstantin verbot sie 320 n. Chr. (vgl § 1371 ABGB, § 1229 BGB, Art 894 ZGB).\n• Androhung (DENUNTIATIO) nötig — nachklassisch dreimal.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Was gilt nach der Pfandverwertung für die übrigen Pfandrechte und die Abrechnung?",
+   "back": "• Alle Pfandrechte an der Sache erlöschen; nachrangige Gläubiger verlangen ihren Anteil am SUPERFLUUM mit einer ACTIO UTILIS.\n• Bei mehreren Pfandsachen wählt der Gläubiger, welche er verkauft (Modestin D 20.5.8).\n• Abrechnung: Verpfänder → ACTIO PIGNERATICIA IN PERSONAM DIRECTA (Mehrerlös); Gläubiger → ACTIO PIGNERATICIA IN PERSONAM CONTRARIA (Aufwendungen, Schäden).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Paulus D 13.7.41 (Case 161), 1. Fall: T verpfändet unbefugt eine fremde Sache an C und erwirbt später selbst das Eigentum daran. Rechtslage?",
+   "back": "Konvaleszenz: T's Eigentumserwerb heilt C's Pfandrecht rückwirkend → C hat ein dingliches Recht, durchsetzbar mit der ACTIO PIGNERATICIA (IN REM) UTILIS.\n• Die direkte Klage passt nicht, weil ihre Formel Eigentum des Verpfänders im Zeitpunkt der Verpfändung verlangt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Kontroverse Paulus D 13.7.41 (Case 161, 2. Fall) vs Modestinus D 20.1.22 (Case 160): Titius verpfändet unbefugt eine Sache des E an seinen Gläubiger C, stirbt, und E wird sein Erbe. Konvalesziert das Pfandrecht?",
+   "back": "Paulus: Nein — E hat nie ein Pfandrecht bestellen wollen; nicht hinnehmbar, dass sein Eigentum bloß wegen der Erbfolge belastet wird (Privatautonomie des Eigentümers).\nModestinus: Ja — Heilung, C hat die ACTIO PIGNERATICIA (IN REM) UTILIS (Schutzbedürfnis des Gläubigers; E erbt Vermögen und tritt in die Schuld samt Pflicht zur Pfandbestellung ein).\n• Unterschied zu Fall 1: Dort erwirbt der Verpfänder selbst das Eigentum; hier tritt der Eigentümer in die Position des Verpfänders ein.\n• Steht auch in den Prüfungsunterlagen als wichtige Kontroverse.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Aus welchen Gründen erlischt das Pfandrecht vor der Verwertung?",
+   "back": "1. Erlöschen der Forderung (Zahlung, Erlass, Aufrechnung) — Akzessorietät.\n2. Verzicht des Gläubigers (auch durch vorbehaltlose Erlaubnis zur Veräußerung).\n3. Gläubiger wird Eigentümer der Pfandsache (CONFUSIO — kein Pfand an eigener Sache).\n4. Untergang der Sache — Zerstörung oder (unumkehrbare) SPECIFICATIO.\n• Nicht durch USUCAPIO eines Dritten (Papinian D 41.3.44.5: NON MUTAT USUCAPIO SUPERVENIENS … QUO MINUS PIGNORIS PERSECUTIO SALVA SIT).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Was bedeutet INDIVISA EST PIGNORIS CAUSA?",
+   "back": "Grundsatz der ungeteilten Pfandhaftung: Sind mehrere Sachen verpfändet, haftet jede für die ganze Forderung, solange auch nur ein Teil der Schuld besteht (Papinian D 21.2.65; Ulpian D 20.1.19, Case 166).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Marcianus D 20.6.8.14 (Case 162): Der Pfandgläubiger erlaubt den Verkauf um 10; der Verpfänder verkauft um 5. Hat der Gläubiger auf das Pfand verzichtet?",
+   "back": "Nein — der Verpfänder hat die Abrede (Mindestpreis) verletzt → kein Verzicht; der Gläubiger kann gegen den Käufer die VINDICATIO PIGNORIS erheben.\n• Verkauft er um mehr als 10, ist die Erlaubnis ein Verzicht → der Käufer erwirbt lastenfreies Eigentum.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Paulus D 20.1.29.2 (Case 170): A verpfändet sein Haus an B und C; es brennt ab. Lucius Titius kauft das Grundstück, ohne vom Pfand zu wissen, und baut ein neues Haus. Rechtslage?",
+   "back": "• Haus und Grund sind eine Einheit (SUPERFICIES SOLO CEDIT) — man kann nur beides verpfänden. Nach dem Brand besteht das Pfand am Grundstück fort (Wertminderung, kein Untergang).\n• Das neue Haus fällt wieder in die Pfandsache → B und C können Haus samt Grund mit der VINDICATIO PIGNORIS von Lucius Titius verlangen.\n• Lucius Titius (gutgläubiger Bauender): EXCEPTIO DOLI → Zurückbehaltung bis zum Ersatz seiner Baukosten, soweit sie den Wert tatsächlich erhöht haben.\n• Musterexegese im Lehrbuch (Kap. XV.E).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "24.11. Pfandrecht I — Veräußerung, Verwertung, Pfand an fremder Sache, Erlöschen",
+   "readyBy": "2026-11-24",
+   "front": "Paulus (Cassius) D 13.7.18.3 (Case 170a): D verpfändet seinen Wald an E; aus dem Holz wird ein Schiff gebaut. Hat E ein Pfandrecht am Schiff?",
+   "back": "Nein (Cassius): Holz bzw Wald und Schiff sind physisch verschieden (ALIUD) — Schiffbau als SPECIFICATIO (NOVA SPECIES); mit dem Untergang des Pfandobjekts erlischt das Pfandrecht.\n• Auslegung der Pfandabrede entscheidend: Hätte man den Wald „und alles, was daraus gemacht wird oder wächst“ verpfändet, erfasste das Pfand das Schiff — außer ein Dritter verarbeitet und erwirbt originär.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "24.11. Pfandrecht I — Übungsfälle aus dem Lehrbuch (Ex 53–56)",
+   "readyBy": "2026-11-24",
+   "front": "[Lehrbuch Ex 53a] Victor übergibt Iris am 1.3. einen Silbertisch als Pfand für eine Schuld des Rufus. Am 1.9. erfährt Iris, dass der Tisch Laura gehört, die nichts weiß. Rechtslage — kann Iris gegen Victor vorgehen?",
+   "back": "• Drittpfand: Verpfänder Victor ≠ Schuldner Rufus. Victor ist weder Eigentümer noch verfügungsbefugt → kein gültiges Pfandrecht (NEMO PLUS IURIS …). Iris hat nur natürlichen Besitz.\n• Der Realvertrag (Pfandvertrag) ist mit der Übergabe aber zustande gekommen → Iris kann mit der ACTIO PIGNERATICIA IN PERSONAM CONTRARIA von Victor die Verschaffung eines gültigen Pfandrechts verlangen (Ulpian D 13.7.9 pr) — wirtschaftlich nur so viel wert wie Victors Vermögen.\n• Laura bleibt Eigentümerin → REI VINDICATIO gegen Iris.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "24.11. Pfandrecht I — Übungsfälle aus dem Lehrbuch (Ex 53–56)",
+   "readyBy": "2026-11-24",
+   "front": "[Lehrbuch Ex 53b] Victor hat Iris Lauras Silbertisch als Pfand für Rufus' Schuld übergeben. Was gilt, wenn Iris' Forderung schon am 1.7. erlischt?",
+   "back": "• Mit der Forderung entfällt jede Pfandgrundlage (Akzessorietät) — auch der Anspruch auf Pfandbestellung.\n• Victor kann den Tisch mit der ACTIO PIGNERATICIA IN PERSONAM DIRECTA zurückverlangen, obwohl er ihm nicht gehört (Ulpian D 13.7.9.4).\n• (Nicht mit der REI VINDICATIO — er ist nicht Eigentümer; Laura kann vindizieren.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "24.11. Pfandrecht I — Übungsfälle aus dem Lehrbuch (Ex 53–56)",
+   "readyBy": "2026-11-24",
+   "front": "[Lehrbuch Ex 54] Aurelia bestellt ihrer Gläubigerin Daphne ein besitzloses Pfand an einem Wagen (Schuld 1.700), den sie für ihren hält; er gehört ihrem Bruder Carus. Carus stirbt, Aurelia ist Alleinerbin. (a) Kann Daphne den Wagen herausverlangen? (b) Was, wenn stattdessen Aurelia stirbt und Carus sie beerbt?",
+   "back": "(a) Ja — Konvaleszenz: Die Verpfänderin wird selbst Eigentümerin (wie Paulus D 13.7.41, 1. Fall) → Daphne hat ein Pfandrecht und die ACTIO PIGNERATICIA (IN REM) UTILIS; Verwertung, SUPERFLUUM an Aurelia.\n(b) Strittig: Paulus (D 13.7.41, 2. Fall) — keine Konvaleszenz, Carus wollte nie verpfänden; Modestinus (D 20.1.22) — Heilung, weil der Eigentümer in die Position der Verpfänderin (und in ihre Schuld) eintritt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "24.11. Pfandrecht I — Übungsfälle aus dem Lehrbuch (Ex 53–56)",
+   "readyBy": "2026-11-24",
+   "front": "[Lehrbuch Ex 55] Flora bestellt Gripus ein besitzloses Pfand an ihrer Kuh und verkauft und übergibt die Kuh dann an Hermes, ohne Gripus zu informieren. (a) Rechtslage? (b) Unterschied, wenn Gripus dem Verkauf zustimmt?",
+   "back": "(a) Veräußerung einer beweglichen Pfandsache wissentlich ohne Zustimmung → Flora ist FUR (D 47.2.67 pr): ACTIO FURTI des Gripus. Hermes erwirbt wohl kein Eigentum, nur Besitz; Ersitzung scheitert an der Furtivität. Gripus' Pfandrecht besteht fort → VINDICATIO PIGNORIS gegen Hermes.\n(b) Vorbehaltlose Zustimmung = Verzicht → Hermes erwirbt lastenfreies Eigentum, die Forderung bleibt. Zustimmung unter Vorbehalt des Pfandes → Hermes erwirbt belastetes Eigentum.",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "24.11. Pfandrecht I — Übungsfälle aus dem Lehrbuch (Ex 53–56)",
+   "readyBy": "2026-11-24",
+   "front": "[Lehrbuch Ex 56] Niobe leiht Brontes 1.000 für ein Jahr; Brontes verpfändet und übergibt sein Ochsengespann (Castor und Pollux, je 600). (a) Kurz vor Fälligkeit gibt Niobe die Ochsen zurück, damit Brontes sie an Ago um 1.400 verkauft; er verspielt den Erlös. (b) Brontes zahlt 700 zurück und verlangt einen Ochsen heraus. (c) Beide Ochsen sterben bei Niobe eines natürlichen Todes.",
+   "back": "(a) Rückgabe zum vorbehaltlosen Verkauf = Verzicht → Ago erwirbt lastenfreies Eigentum; Niobe bleibt nur die ungesicherte Forderung über 1.000.\n(b) Nein — INDIVISA EST PIGNORIS CAUSA: Beide Ochsen haften, bis die ganze Schuld (Rest 300) getilgt ist; Niobe muss keinen herausgeben (Kulanz möglich).\n(c) Mit dem Untergang der Pfandsachen erlischt das Pfandrecht; die Forderung bleibt. Niobe haftet nicht (kein Verschulden).",
+   "tags": [
+    "roman-property-law",
+    "einheit-6",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  }
+ ]
+}

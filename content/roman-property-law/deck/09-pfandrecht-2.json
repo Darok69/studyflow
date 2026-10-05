@@ -1,0 +1,382 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Generalpfand, Sachgesamtheiten, stillschweigende Pfandrechte",
+   "readyBy": "2026-12-01",
+   "front": "Was ist ein Generalpfand (blanket lien) — welche Sachen sind ausgenommen?",
+   "back": "Besitzloses Pfandrecht am ganzen gegenwärtigen oder künftigen Vermögen des Verpfänders (durch allgemein formulierte CONVENTIO PIGNORIS).\n• Ausgenommen sind Sachen, die üblicherweise nicht einzeln verpfändet werden: Hausrat und persönliche Habe, Kleidung, Sklaven mit besonderer persönlicher Funktion oder emotionaler Bindung (Ulpian D 20.1.6; Paulus D 20.1.7, Case 159a).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Generalpfand, Sachgesamtheiten, stillschweigende Pfandrechte",
+   "readyBy": "2026-12-01",
+   "front": "Scaevola D 20.1.34.2 (Case 159b): C verpfändet D sein gesamtes gegenwärtiges und künftiges Vermögen und erhält dann von E ein Gelddarlehen. Fallen die Münzen unter das Generalpfand?",
+   "back": "Scaevola: Ja — mit dem Eigentumserwerb an den Darlehensmünzen gehören sie rechtlich und wirtschaftlich zu C's Vermögen.\n• Gegenargument: Der Darlehensbetrag muss zurückgezahlt werden, wirtschaftlich gehört er zum Vermögen des Gläubigers (altrömisch AES ALIENUM — „fremdes Geld“).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Generalpfand, Sachgesamtheiten, stillschweigende Pfandrechte",
+   "readyBy": "2026-12-01",
+   "front": "Scaevola D 20.1.34 pr (Case 159b): A verpfändet seinen Laden (TABERNA) an B; Waren kommen und gehen, werden verarbeitet; A stirbt. Woran hat B ein Pfandrecht?",
+   "back": "An allen Waren, die beim Tod des A im Laden waren.\n• TABERNA = Sachgesamtheit (UNIVERSITAS RERUM) mit wechselndem Bestand: Pfandrecht an jeder Ware, sobald A sie erworben hat und sie in den Laden kommt — auch nach Verarbeitung, solange sie im Laden bleibt.\n• Verlässt Ware den Laden, erlischt das Pfand: Scaevola unterstellt B Zustimmung zur Veräußerung (Verzicht) — gewöhnlicher Geschäftsbetrieb.\n• Nur Sachen, an denen A vor seinem Tod Eigentum erwarb.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Generalpfand, Sachgesamtheiten, stillschweigende Pfandrechte",
+   "readyBy": "2026-12-01",
+   "front": "Was ist ein PIGNUS TACITUM — ist es IUS COGENS?",
+   "back": "Pfandrecht ohne ausdrückliche Abrede, das bestimmten Verträgen stillschweigend innewohnt (D 20.2) — wohl weil solche Klauseln so üblich waren.\n• Kein IUS COGENS, sondern IUS DISPOSITIVUM: Die Parteien konnten es ausschließen oder auf einen Teil der Schuld beschränken (D 20.2.5.1).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Generalpfand, Sachgesamtheiten, stillschweigende Pfandrechte",
+   "readyBy": "2026-12-01",
+   "front": "Wohnungsmiete: Woran hat der Vermieter ein stillschweigendes Pfandrecht, was sichert es, welche Befugnisse hat er?",
+   "back": "• An den vom Mieter eingebrachten beweglichen Sachen (INVECTA ILLATA: Möbel, Sklaven …), die dauernd dort bleiben sollen (Pomponius D 20.2.7.1); ebenso bei Speicher, Gasthaus, Bauplatz (D 20.2.3).\n• Sichert alle Forderungen aus dem Vertrag: Miete und Schadenersatz für schuldhafte Beschädigung (D 20.2.2).\n• Voraussetzungen: (zumindest bonitarisches) Eigentum des Mieters + Forderung.\n• Eigenmächtiges Pfändungsrecht (PERCLUSIO) ohne Klage.\n• Mieter: INTERDICTUM DE MIGRANDO zur Herausgabe beim Auszug (fremde Sachen gepfändet oder Pfandrecht erloschen; D 43.32.1 pr).\n• Modern: § 1101 ABGB, §§ 559, 561 BGB.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Generalpfand, Sachgesamtheiten, stillschweigende Pfandrechte",
+   "readyBy": "2026-12-01",
+   "front": "Pacht landwirtschaftlicher Grundstücke: Woran hat der Verpächter ein stillschweigendes Pfandrecht — wann entsteht es?",
+   "back": "• An den Früchten — aber erst, wenn der Pächter sie durch PERCEPTIO zu Eigentum erwirbt; vorher gehören sie dem Verpächter selbst (kein Pfand an eigener Sache, D 50.17.45 pr).\n• Kein eigenmächtiges Pfändungsrecht: VINDICATIO PIGNORIS.\n• Die eingebrachten Sachen des Pächters sind NICHT stillschweigend verpfändet — nur bei ausdrücklicher Verpfändung; dann INTERDICTUM SALVIANUM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Generalpfand, Sachgesamtheiten, stillschweigende Pfandrechte",
+   "readyBy": "2026-12-01",
+   "front": "Was sind „gesetzliche“ Pfandrechte — Beispiele?",
+   "back": "Pfandrechte unmittelbar aus Gesetz/Recht:\n• SC unter Marc Aurel: Wer ein Darlehen zur Renovierung eines Gebäudes gibt, erhält ein Pfandrecht daran (Papinian D 20.2.1).\n• Fiskalforderungen; Mündel am Vermögen des Vormunds (Konstantin 314 n. Chr.); Ehefrau zur Sicherung der Rückgabe der DOS (Justinian 530 n. Chr.) — als Generalpfandrechte am ganzen Vermögen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Warum lässt das römische Recht (ab der Hochklassik) mehrfache Verpfändung zu (Beispiel Nike/Europa/Pluto)?",
+   "back": "Damit der Wert einer Sache als Sicherheit voll ausgeschöpft werden kann: Nikes Silberteller (1.000) sichert Europa nur 500; ohne Nachverpfändung bliebe die Hälfte ungenutzt.\n• Vorstufe: bedingte Pfandrechte — das zweite entsteht erst, wenn das erste erlischt; verwertet der erste Gläubiger, fällt die Bedingung aus.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Was bedeutet PRIOR TEMPORE, POTIOR IURE — Beispiel Nike/Europa/Pluto?",
+   "back": "Der Rang richtet sich nach der zeitlichen Reihenfolge der Entstehung: Das ältere Pfandrecht wird zuerst und voll befriedigt („first come, first served“).\n• Erlös 1.000: Europa 500, Pluto 400, SUPERFLUUM 100 an Nike.\n• Erlös 800: Europa 500, Pluto nur 300.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Africanus (Iulianus) D 20.4.9 pr, 9.1 (Case 177): A mietet ab 1.7. ein Bad von B und verpfändet und übergibt ihm dafür den Sklaven Eros; vor dem 1.7. verpfändet er Eros an C für ein Darlehen. Wessen Pfandrecht ist älter?",
+   "back": "Das des Vermieters B — maßgeblich ist der frühere Vertragsschluss, aus dem die gesicherte Forderung stammt, nicht der spätere Mietbeginn.\n• D 20.4.9.1: Ein früher bestelltes Pfand für eine bedingte Forderung geht einem späteren für eine unbedingte vor (fällt die Bedingung aus, erlischt es — Akzessorietät; nicht bei Potestativbedingung).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Gaius D 20.4.11.2 (Case 178): Pächter P hat dem Verpächter V die Früchte und eingebrachten Sachen verpfändet; vorher verpfändet er eine Sache an K und bringt sie erst danach aufs Gut. Wer hat Vorrang?",
+   "back": "K — V's Pfandrecht an dieser Sache entsteht erst mit dem Einbringen aufs Gut, also nach K's.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Mit welchen Einreden setzen Pfandgläubiger ihren Rang prozessual durch?",
+   "back": "• Nachrangiger klagt (VINDICATIO PIGNORIS) gegen vorrangigen Besitzer → EXCEPTIO REI SIBI ANTE PIGNERATAE (D 20.4.12 pr).\n• Gleichzeitig entstandene Pfandrechte: der Besitzende ist stärker (MELIOR EST CAUSA POSSIDENTIS, D 20.1.10) → EXCEPTIO REI SIBI QUOQUE PIGNERATAE.\n• Vorrangiger Nichtbesitzer klagt gegen nachrangigen Besitzer → dieser: EXCEPTIO REI SIBI QUOQUE PIGNERATAE; jener: REPLICATIO REI SIBI ANTE PIGNERATAE → der Vorrangige siegt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Wer bestimmt den Verkaufszeitpunkt — was ist das IUS OFFERENDI AC SUCCEDENDI?",
+   "back": "Der erstrangige Gläubiger erlangt den Besitz und bestimmt, wann verkauft wird.\n• Nachrangige Gläubiger haben das IUS OFFERENDI AC SUCCEDENDI: Sie können den vorrangigen Gläubiger befriedigen und rücken in seinen Rang ein — Anspruch auf den Erlös in Höhe des Gezahlten zusätzlich zur eigenen Forderung.\n• Bsp: Pluto zahlt Europa 500 → er hat Rang 1 für 500 + Rang 2 für 400 und wählt den günstigsten Verkaufszeitpunkt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Tryphoninus D 20.4.20 (Case 172): T hat ein Pfand für ein Darlehen; S leiht danach 50 und erhält ein Pfand an der HYPEROCHA; dann leiht T weitere 40. Wem gebührt der Überschuss über T's erste Forderung?",
+   "back": "S (für seine 50) — nach dem Prioritätsprinzip: T's zweite Forderung entstand nach S's Pfandrecht und ist jüngster Rang.\n• HYPEROCHA = was nach Tilgung der ERSTEN Schuld an T übrig bleibt (bei S's Abrede gab es das zweite Darlehen noch nicht).\n• S könnte T die erste Schuld anbieten und in den ersten Rang einrücken.\n• Der Schuldner muss über bestehende Pfandrechte informieren; arglistiges Verschweigen = CRIMEN STELLIONATUS.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Welche Ausnahmen vom Prioritätsprinzip gibt es?",
+   "back": "a. Gesetzliche Vorrechte: Pfand des Mündels an mit seinem Geld gekauften Sachen des Vormunds, Pfand der Ehefrau für die DOS, Fiskalpfandrechte.\nb. Pfandrecht für ein Darlehen zur Erhaltung oder Verbesserung der Pfandsache — geht älteren vor, weil es den Wert erhöht (Ulpian D 20.4.5, Case 182).\nc. Umschuldung: Neuer Gläubiger tritt vereinbarungsgemäß in den Rang des alten (D 20.4.12.8, 12.9) — schadet Nachrangigen nicht, nur die Person wechselt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Beispiel 39: Brutus hat ein Pfand am Schiff der Agatha (Wert 500) für 800. Lysippe leiht 400 für die Reparatur; das Schiff ist danach 1.000 wert. Rang?",
+   "back": "Lysippes Pfandrecht am reparierten Schiff geht dem älteren des Brutus vor — ihr Darlehen hat den Wert der Pfandsache erhöht (Ausnahme vom Prioritätsprinzip, Ulpian D 20.4.5).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "[MP Juni 2023 · Exegese (24 P.)] Ulpian D 20.4.5 (lib. 3 disputationum): „Interdum posterior potior est priori, ut puta si in rem istam conservandam impensum est quod sequens credidit: veluti si navis fuit obligata et ad armandam eam vel reficiendam ego credidero.“ Erkläre die Stelle.",
+   "back": "Kernaussage: Ausnahme vom Prioritätsprinzip — manchmal geht der spätere Pfandgläubiger dem früheren vor, wenn sein Darlehen zur Erhaltung der Pfandsache verwendet wurde (Beispiel: verpfändetes Schiff, Kredit zur Ausrüstung oder Reparatur).\n• Grundsatz: PRIOR TEMPORE, POTIOR IURE — Rang nach Entstehung.\n• Begründung: Das spätere Darlehen erhält bzw erhöht den Wert der Pfandsache; davon profitiert auch der ältere Gläubiger → der Kreditgeber soll vorrangig am Mehrwert teilhaben (Lehrbuch XII.L.4.b; Beispiel 39).\n• Kontext: mehrfache Verpfändung (seit Hochklassik), EXCEPTIO/REPLICATIO REI SIBI ANTE PIGNERATAE, IUS OFFERENDI; weitere Ausnahmen (gesetzliche Vorrechte, Umschuldung); SC Marc Aurel zum Renovierungsdarlehen (Pfandrecht am Gebäude).\n• Aufbau der Exegese: Sachverhalt, Rechtsfrage, Entscheidung, Begründung, Einordnung (Lehrbuch XV).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1",
+    "pruefung-2023-06",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Übungsfälle aus dem Lehrbuch (Ex 57–62, Exercise 3)",
+   "readyBy": "2026-12-01",
+   "front": "[Lehrbuch Ex 57] Ago mietet von Bellona eine Wohnung; wegen Mietrückstands pfändet Bellona zwei Betten in der Wohnung. Ago zahlt die Miete, demoliert aber aus Wut die Wohnung (Schaden 200). Kann Ago die Betten zurückverlangen?",
+   "back": "Nein, noch nicht.\n• Bellona hat ein stillschweigendes Pfandrecht an den eingebrachten Sachen (INVECTA ILLATA) und durfte eigenmächtig pfänden.\n• Das Pfand sichert ALLE Forderungen aus dem Mietvertrag — auch den Schadenersatz von 200 für schuldhafte Beschädigung.\n• Erst nach Zahlung der 200 erlischt das Pfandrecht; dann INTERDICTUM DE MIGRANDO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Übungsfälle aus dem Lehrbuch (Ex 57–62, Exercise 3)",
+   "readyBy": "2026-12-01",
+   "front": "[Lehrbuch Ex 58] Nike verpfändet ihrem Darlehensgeber Orion ihre gepachtete Töpferwerkstatt (samt in die Wand eingebautem Brennofen, beides gehört Pius). Bei Fälligkeit sind dort drei Töpferscheiben Nikes, Ton, Rohware und gebrannte Gefäße — fünf Amphoren davon an Quinta verkauft, aber nicht geliefert — sowie drei Blumentöpfe des Rhianos zur Reparatur. Woran hat Orion ein Pfandrecht?",
+   "back": "• Werkstatt und Brennofen (fest eingebaut — Teil des Gebäudes, SUPERFICIES SOLO CEDIT): kein Pfand — Eigentum des Pius, Nike nicht verfügungsbefugt.\n• Die Werkstatt als TABERNA/Sachgesamtheit (Scaevola D 20.1.34 pr): Pfand an allem, was Nike gehört und sich darin befindet — Töpferscheiben, Ton, Rohware, gebrannte Gefäße.\n• Auch an den an Quinta verkauften Amphoren: ohne Übergabe noch Nikes Eigentum.\n• Nicht an Rhianos' Blumentöpfen (fremdes Eigentum).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Übungsfälle aus dem Lehrbuch (Ex 57–62, Exercise 3)",
+   "readyBy": "2026-12-01",
+   "front": "[Lehrbuch Ex 59] Ismene verpfändet „ihren Wald“ an Ramses (100.000), später an Juno (20.000). Ramses lässt den Wald um 110.000 versteigern. Verteilung? Variante: Ismene fällt die Bäume und baut ein Schiff — Pfandrecht am Schiff?",
+   "back": "Verteilung nach PRIOR TEMPORE, POTIOR IURE: Ramses 100.000, Juno 10.000 (Restforderung 10.000 ungesichert), kein SUPERFLUUM für Ismene. Juno verlangt ihren Anteil mit der ACTIO UTILIS.\nVariante: Nein — Paulus (Cassius) D 13.7.18.3: Das Schiff ist ein ALIUD (SPECIFICATIO), das Pfand am „Wald“ erlischt mit dessen Untergang; anders nur, wenn ausdrücklich auch das daraus Hergestellte verpfändet war.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Übungsfälle aus dem Lehrbuch (Ex 57–62, Exercise 3)",
+   "readyBy": "2026-12-01",
+   "front": "[Lehrbuch Ex 60] Cato bestellt Daphne für ein Darlehen ein besitzloses Pfand an seiner Sklavin Pomona; später verpfändet und übergibt er Pomona an Eros für eine Kaufpreisforderung. Cato zahlt nicht. Kann Daphne Pomona herausverlangen? Was kann Eros tun?",
+   "back": "• Daphne hat den älteren Rang → VINDICATIO PIGNORIS gegen Eros; Eros: EXCEPTIO REI SIBI QUOQUE PIGNERATAE; Daphne: REPLICATIO REI SIBI ANTE PIGNERATAE → Daphne siegt.\n• Eros: IUS OFFERENDI AC SUCCEDENDI — er zahlt Daphnes Forderung und rückt in ihren ersten Rang ein; dann bestimmt er selbst über die Verwertung.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Übungsfälle aus dem Lehrbuch (Ex 57–62, Exercise 3)",
+   "readyBy": "2026-12-01",
+   "front": "[Lehrbuch Ex 61] Gaia leiht sich von Hermes und Japyx je 1.000 und verpfändet beiden gleichzeitig ein Grundstück; Hermes nimmt es in Besitz. Bei Fälligkeit will Japyx sofort verkaufen, Hermes warten. (a) Kann Japyx von Hermes den Besitz verlangen? (b) Was kann Japyx tun?",
+   "back": "(a) Nein — gleichzeitig entstandene Pfandrechte: MELIOR EST CAUSA POSSIDENTIS; Hermes wehrt die VINDICATIO PIGNORIS mit der EXCEPTIO REI SIBI QUOQUE PIGNERATAE ab.\n(b) Japyx kann Hermes' Forderung befriedigen (IUS OFFERENDI AC SUCCEDENDI) und so dessen Position übernehmen, dann selbst verwerten.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Übungsfälle aus dem Lehrbuch (Ex 57–62, Exercise 3)",
+   "readyBy": "2026-12-01",
+   "front": "[Lehrbuch Ex 62] Julius verpfändet sein Haus am 1.3. an Kassandra (500), am 1.5. an Leo (200, Schiffsreise), am 1.8. an Melitta, die ihm 400 für eine Generalsanierung des Hauses leiht. Erlös nach Verwertung 1.000 — Verteilung?",
+   "back": "Melitta 400 (Vorrang trotz jüngster Entstehung: Darlehen zur Erhaltung/Verbesserung der Pfandsache, Ulpian D 20.4.5), dann Kassandra 500, dann Leo 100 (Rest von 200 ungesichert).\n• Ohne die Ausnahme: Kassandra 500, Leo 200, Melitta 300.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Übungsfälle aus dem Lehrbuch (Ex 57–62, Exercise 3)",
+   "readyBy": "2026-12-01",
+   "front": "[Lehrbuch Exercise 3, Kap. XIII] Niobe leiht am 1.1. von Thoas 100 (besitzloses Pfand an ihrem Silberteller) und am 1.5. von Crassus 200, dem sie den Teller als Pfand übergibt. Sie gerät mit den Raten in Rückstand; Thoas will verwerten. Was kann Thoas tun, wie steht Crassus?",
+   "back": "• Thoas' Pfandrecht: Forderung (100) + Niobes Eigentum + CONVENTIO PIGNORIS (Übergabe unnötig) → gültig, Rang 1.\n• Crassus: gültiges Besitzpfand, Rang 2 (PRIOR TEMPORE, POTIOR IURE).\n• Thoas: VINDICATIO PIGNORIS gegen Crassus; dessen EXCEPTIO REI SIBI QUOQUE PIGNERATAE überwindet er mit der REPLICATIO REI SIBI ANTE PIGNERATAE.\n• Crassus kann Thoas auszahlen (IUS OFFERENDI AC SUCCEDENDI) oder erhält bei Verwertung den Überschuss nach Thoas (ACTIO UTILIS).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  }
+ ]
+}

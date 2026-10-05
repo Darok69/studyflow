@@ -18,10 +18,24 @@ Každý soubor v `deck/` je samostatně importovatelný (stejný `subject`), tak
 dávky jdou do appky postupně — import do existujícího předmětu přidá jen nové
 otázky (identita karty = otázka).
 
-| soubor | jednotka | `readyBy` |
-|---|---|---|
-| `deck/01-besitz-1.json` | Besitz I | 2026-10-13 |
-| `deck/faelle/2026-10-13-einheit-1.json` | fallblatt k 1. jednotce | 2026-10-13 |
+| soubor | jednotka | `readyBy` | karet |
+|---|---|---|---|
+| `deck/01-besitz-1.json` | Besitz I (kap. I, II.A–D, III + Ex 1–16) | 2026-10-13 | 118 |
+| `deck/faelle/2026-10-13-einheit-1.json` | Fallblatt Dr. Binder k 1. jednotce | 2026-10-13 | 10 |
+| `deck/02-besitz-2.json` | Besitz II (II.E–F, IV.A–C) | 2026-10-20 | 38 |
+| `deck/03-besitz-3.json` | Besitz III (IV.D–E + Ex 17–22) | 2026-10-27 | 15 |
+| `deck/04-eigentumserwerb-1.json` | Eigentumserwerb I (V, VI, VII + Ex 23–28) | 2026-10-27 | 57 |
+| `deck/05-eigentumserwerb-2.json` | Eigentumserwerb II (VIII + Ex 29–34, MP 6/2023 Fall 2) | 2026-11-03 | 54 |
+| `deck/06-klausur-1-faelle.json` | zkouškové případy z učebnice (XIV) k 1. Klausur | 2026-11-10 | 10 |
+| `deck/07-eigentumserwerb-3-eigentumsschutz.json` | Eigentumserwerb III / Eigentumsschutz (IX, X, XI + Ex 35–52) | 2026-11-17 | 107 |
+| `deck/08-pfandrecht-1.json` | Pfandrecht I (XII.A–H + Ex 53–56) | 2026-11-24 | 32 |
+| `deck/09-pfandrecht-2.json` | Pfandrecht II (XII.J–L + Ex 57–62, MP 6/2023 exegeze D 20.4.5) | 2026-12-01 | 24 |
+| `deck/10-klausur-2-faelle.json` | zkouškové případy z učebnice (XIV) k 2. Klausur | 2026-12-15 | 16 |
+| `deck/11-gemischte-faelle.json` | metoda řešení případů, exegeze, přehled kontroverzí | 2027-01-12 | 16 |
+
+Rozdělení látky do jednotek je odhad podle sylabu (Fallblatt 1. jednotky pokrývá
+celou kap. III, proto Besitz I = kap. I–III). Učebnice str. 160–161 (X.E–F,
+pasivní legitimace) nejsou vyfocené.
 
 Fallblatty dalších jednotek patří do `deck/faelle/<datum>-einheit-<n>.json`
 (štítky `fall` + `einheit-<n>`, priorita 1, `readyBy` = datum jednotky).

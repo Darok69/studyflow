@@ -1,0 +1,576 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Welche zwei Qualifikationen stärken die Rechtsstellung des Besitzers?",
+   "back": "1. IUSTA POSSESSIO (fehlerfreier Besitz) → Besitzschutz durch Interdikte (POSSESSIO AD INTERDICTA).\n2. POSSESSIO EX IUSTA CAUSA (Zivilbesitz, POSSESSIO CIVILIS) → Besitz aufgrund eines gültigen Titels.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Was ist IUSTA POSSESSIO?",
+   "back": "Besitz, der dem Gegner gegenüber weder gewaltsam (NEC VI), noch heimlich (NEC CLAM), noch bittweise (NEC PRECARIO) erlangt wurde.\n• Voraussetzung für den Interdiktenschutz → auch POSSESSIO AD INTERDICTA genannt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Was sind Besitzinterdikte und welchen Zweck haben sie?",
+   "back": "Anordnungen des PRAETOR im Einzelfall, die Besitzentziehung oder unbefugte Eingriffe verhindern sollen.\n• Ziel: drohende oder offene Konflikte im Besitzstreit nicht eskalieren lassen.\n• Nur vorläufig — das dingliche Recht wird erst mit der petitorischen Klage (ACTIO IN REM) durchgesetzt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Was ist die EXCEPTIO VITIOSAE POSSESSIONIS?",
+   "back": "Der Teil der Interdiktsformel, der dem INIUSTUS POSSESSOR den Schutz versagt — wer vom Gegner VI, CLAM oder PRECARIO besitzt, wird gegen ihn nicht geschützt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Inwiefern ist der Besitzschutz relativ (ALTER AB ALTERO)?",
+   "back": "IUSTA/INIUSTA POSSESSIO wird nie objektiv festgestellt, sondern nur im Verhältnis zum Gegner, der die Sache ebenfalls beansprucht.\n• Bsp: Der Dieb ist gegenüber jedem außer dem Bestohlenen IUSTUS POSSESSOR — wird ihm die Sache geraubt, ist er gegen den Räuber geschützt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Prohibitorische vs restitutorische Interdikte — Unterschied?",
+   "back": "Prohibitorisch: verbieten Gewalt gegen den IUSTUS POSSESSOR — „VIM FIERI VETO“ (ich verbiete Gewaltanwendung).\nRestitutorisch: befehlen dem Gegner die Rückgabe — „RESTITUAS“ (du sollst zurückgeben).\n• Bei beiden greift die EXCEPTIO VITIOSAE POSSESSIONIS: Niemand kann Rückgabe einer Sache verlangen, die er selbst dem jetzigen Besitzer VI, CLAM oder PRECARIO abgenommen hat.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Darf man sich gegen einen INIUSTUS POSSESSOR mit Gewalt wehren?",
+   "back": "Ja — wer seinem Gegner die Sache VI, CLAM oder PRECARIO abgenommen hat, ist gegen ihn nicht geschützt und muss die gewaltsame Rücknahme dulden: VIM VI REPELLERE LICET.\n• Auch der IUSTUS POSSESSOR darf unter Umständen Gewalt gegen den Angreifer anwenden.\n• Seltener Fall erlaubter Selbsthilfe im römischen Recht.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Beispiele 6/7 (Leo und Thisbe): Leo droht Thisbe, sie von ihrem Hof zu vertreiben, und tut es dann. Interdiktenlage?",
+   "back": "Vor der Vertreibung: Thisbe besitzt NEC VI NEC CLAM NEC PRECARIO → IUSTA POSSESSIO gegenüber Leo; ein Interdikt verbietet ihm jede Gewalt (VIM FIERI VETO).\nNach der Vertreibung: Leo besitzt gegenüber Thisbe VI → fehlerhaft; das Gewaltverbot schützt ihn nicht, selbst wenn Thisbe den Hof mit Gewalt zurückholt (VIM VI REPELLERE LICET).",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Beispiel 1 (Clara/Vase bei Leander): Kann Clara ihre gestohlene Vase per Interdikt von Leander zurückholen? Was, wenn sie sie Leander gewaltsam wegnimmt?",
+   "back": "Nein — Leanders Besitz ist ihr gegenüber fehlerfrei (er hat die Vase nicht von ihr VI/CLAM/PRECARIO).\n• Nimmt sie sie gewaltsam, besitzt sie gegenüber Leander VI → Leander erhält ein Interdikt gegen sie (obwohl sie Eigentümerin ist).\n• Ein Interdikt hätte sie nur gegen den Dieb Hector (er besaß ihr gegenüber CLAM). Ihr Weg gegen Leander: ACTIO IN REM (REI VINDICATIO).",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Welche natürlichen Besitzer (Detentoren) genießen ausnahmsweise Interdiktenschutz?",
+   "back": "Erbpächter (Emphyteuta), Prekaristen, Pfandgläubiger und Sequester.\n• Sie können ihren Besitz verteidigen bzw verlorenen zurückerlangen.\n• SEQUESTER = Verwahrer einer streitigen Sache, der sie nach dem Urteil dem Sieger herausgibt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Was ist Zivilbesitz (POSSESSIO EX IUSTA CAUSA, POSSESSIO CIVILIS)?",
+   "back": "Besitz aufgrund eines gültigen Titels (IUSTA CAUSA) — jedes Geschäft, das auf Eigentumsübertragung zielt, zB Kauf, Schenkung, Darlehen, Bestellung einer Mitgift (DOS).",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Welchen zweifachen Vorteil bringt der Zivilbesitz?",
+   "back": "a. Bei Erwerb vom Berechtigten aufgrund IUSTA CAUSA TRADITIONIS erwirbt der Besitzer zugleich Eigentum.\nb. Bei Erwerb vom Nichtberechtigten aufgrund IUSTA CAUSA USUCAPIONIS kann er unter Umständen durch Ersitzung Eigentum erwerben.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "20.10. Besitz II — IUSTA POSSESSIO, Interdikte, Zivilbesitz",
+   "readyBy": "2026-10-20",
+   "front": "Beispiel 1: Wer von Hector (Dieb), Ago (Antiquar) und Leander (Kunsthändler) hat Zivilbesitz an Claras Vase, und wird Leander Eigentümer?",
+   "back": "Leander hat Zivilbesitz (Kauf = IUSTA CAUSA TRADITIONIS), ebenso Ago, sofern er nicht Hehler war; Hector nie (kein Titel).\n• Leander wird nicht Eigentümer: Ago war weder Eigentümer noch verfügungsbefugt.\n• Ersitzen kann er auch nicht: gestohlene Sachen (RES FURTIVAE) sind nicht ersitzbar.\n• Variante: Verkauft und übergibt Clara selbst, wird Leander Eigentümer.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "Was ist FURTUM?",
+   "back": "Wer eine fremde bewegliche Sache in Bereicherungsabsicht an sich nimmt, begeht FURTUM.\n• Weiter als der moderne Diebstahl: umfasst zB auch Unterschlagung (Beispiel 8: Verwahrer Diogenes verkauft Iris' Vase) und Fundunterschlagung (Beispiel 9: Agatha behält Carfinias Armreif).",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "Welche Rolle spielt DOLUS beim FURTUM?",
+   "back": "DOLUS (MALUS) = Bereicherungsabsicht beim wissentlichen Ansichnehmen fremden Eigentums; notwendiges Merkmal — ohne ihn kein Diebstahl.\n• Der Dieb handelt „dolos“.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "Begeht ein Verwahrer schon FURTUM, wenn er beschließt, die verwahrte Sache zu behalten?",
+   "back": "Nein — der bloße Wille genügt nicht, auch wenn die Sache schon in seiner Obhut ist. FURTUM erst, wenn sich der Wille in einem äußeren Akt zeigt, zB wenn er die Sache in Bereicherungsabsicht versteckt (Paulus (Sabinus, Cassius) D 41.2.3.18, Case 16).\n• Der Diebstahlswille entspricht dem ANIMUS REM SIBI HABENDI; mit dem Akt des Nehmens sind ANIMUS und CORPUS erfüllt → der Dieb wird Besitzer.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "Welche Stellung hat der Dieb hinsichtlich seines Besitzes?",
+   "back": "Er wird Besitzer (ANIMUS + CORPUS), sein Besitz ist aber unrechtmäßig (keine IUSTA CAUSA) und gegenüber dem Bestohlenen fehlerhaft (CLAM).\n• Eigentum erwirbt er nie.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "Ist FURTUM an Grundstücken möglich? Wie schützt das Recht vor gewaltsamer Aneignung von Land?",
+   "back": "Nein — FURTUM nur an beweglichen Sachen.\n• Ähnliche Folgen: Die LEGES IULIAE ET PLAUTIAE verbieten die Ersitzung gewaltsam angeeigneter Grundstücke, wie die LEX ATINIA die Ersitzung gestohlener Mobilien.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "Welche zwei Klagen hat der Bestohlene gegen den Dieb?",
+   "back": "1. ACTIO FURTI — Strafklage: Buße an das Opfer, bei FURTUM MANIFESTUM (handhafter Diebstahl) das Vierfache, bei FURTUM NEC MANIFESTUM das Doppelte des Werts.\n2. CONDICTIO FURTIVA — sachverfolgende (reipersekutorische) Klage auf die Sache oder ihren Wert.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "Gegen wen richtet sich die CONDICTIO FURTIVA — und setzt sie voraus, dass die Sache noch existiert?",
+   "back": "Nur gegen den Dieb selbst (keine ACTIO IN REM) — nicht gegen unbeteiligte Dritte, die die Sache besitzen.\n• Sie greift auch, wenn der Dieb nicht mehr besitzt oder die Sache untergegangen ist.\n• Ausnahme unter den Bereicherungskondiktionen: Der Bestohlene hat dem Dieb nichts willentlich zugewendet.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "CONDICTIO FURTIVA vs REI VINDICATIO beim Diebstahl — Vor- und Nachteile?",
+   "back": "REI VINDICATIO: gegen jeden Besitzer der gestohlenen Sache, aber nur solange die Sache existiert.\nCONDICTIO FURTIVA: nur gegen den Dieb, aber auch ohne Besitz und nach Untergang der Sache.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "Welche Klagen kann der Bestohlene kumulieren?",
+   "back": "Straf- und sachverfolgende Klagen sind kumulierbar → ACTIO FURTI + CONDICTIO FURTIVA.\n• CONDICTIO FURTIVA und REI VINDICATIO sind beide reipersekutorisch → nicht kumulierbar; der Eigentümer muss wählen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "20.10. Besitz II — Exkurs FURTUM",
+   "readyBy": "2026-10-20",
+   "front": "Wer außer dem Eigentümer ist bei FURTUM klagebefugt?",
+   "back": "• Der Pfandgläubiger, dem das Pfand gestohlen wurde: ACTIO FURTI (beschränktes dingliches Recht + wirtschaftliches Interesse; vgl Paulus (Cassius) D 41.3.4.21, Case 74).\n• Detentoren, die vertraglich für Diebstahl haften (zB der Walker für die Wäsche): ACTIO FURTI, wenn sie zahlungsfähig sind.\n• Die CONDICTIO FURTIVA bleibt beim Eigentümer; er muss sie nach Schadenersatz an den Inhaber abtreten.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Was verlangt die Erhaltung des Besitzes; wann endet er?",
+   "back": "Wie der Erwerb: ANIMUS und CORPUS. Besitz endet, wenn der Besitzer den Besitzwillen aufgibt oder jede tatsächliche Herrschaft verliert.\n• Die Juristen sind bei der Erhaltung weniger streng als beim Erwerb.\n• Beim SERVUS FUGITIVUS und bei Grundstücken kann Besitz für begrenzte Zeit auch nach völligem Verlust des CORPUS SOLO ANIMO behalten werden.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Wie kann Besitz enden — freiwillig und unfreiwillig?",
+   "back": "Freiwillig: durch Übergabe an einen anderen (TRADITIO) oder einseitige Aufgabe.\nUnfreiwillig: durch Verlust jeder Herrschaft — oder beim Besitz SOLO ANIMO, wenn die Herrschaft nach einer gewissen Zeit nicht wiederhergestellt wird.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Verliert, wer bei Seenot Ware über Bord wirft, auch das Eigentum?",
+   "back": "Nein — er verliert den Besitz, nicht das Eigentum; wer Besitz aufgibt, will nicht notwendig das Eigentum aufgeben.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Bleibt Eigentümer, wer den Besitz unfreiwillig verliert? Was gilt für den Finder?",
+   "back": "Meist ja: Gestohlene Mobilien und gewaltsam angeeignete Grundstücke sind nicht ersitzbar — auch nicht für spätere gutgläubige Erwerber (wieder möglich nach REVERSIO AD DOMINUM).\n• Wer eine offensichtlich verlorene Sache findet und behalten will, ist FUR.\n• Ein bloßer Besitzer könnte nur durch irreversible Verarbeitung (SPECIFICATIO) Eigentum erwerben.\n• Erlangt ein wildes Tier seine natürliche Freiheit, gehen Besitz UND Eigentum verloren.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Nach welchen Kriterien wird die Erhaltung des Besitzes bei beweglichen vs unbeweglichen Sachen beurteilt?",
+   "back": "Bewegliche Sachen: Besitz nur, solange CUSTODIA (Gewahrsam/Kontrolle) besteht — Ausnahme SERVUS FUGITIVUS.\nUnbewegliche Sachen: in zwei Fällen auch SOLO ANIMO:\n  aa. ohne Detentoren/Besitzdiener (zB Abwesenheit)\n  bb. wenn der Besitzer einen Detentor/Besitzdiener eingesetzt hat.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Welche Grundtendenz verfolgt das römische Recht bei der Besitzerhaltung?",
+   "back": "Bestehende Besitzlagen sollen erhalten und vorschnelle Änderungen verhindert werden — Besitzänderung nur, wenn sie wahrscheinlich dauerhaft ist.\n• a. TRADITIO ist ein Rechtsgeschäft (Erwerber ohne Geschäftsfähigkeit).\n• b. Bei drohendem unfreiwilligem Verlust wird Besitz so lange wie möglich aufrechterhalten (Grundstück: solange fremde Herrschaft vorübergehend erscheint, Iavolenus D 41.2.22, Case 55).\n• Grund: stabiles System, weil Besitzwechsel zu Eigentumswechsel führen kann.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Ein Geisteskranker soll eine Sache erwerben und kann daher keinen Besitz erwerben. Verliert der Übergebende trotz Übergabe seinen Besitz?",
+   "back": "Strittig.\n• Ulpian D 41.2.34 pr (Case 44) u.a.: Nein — der Übergebende will den Besitz nur unter der Bedingung aufgeben, dass der Partner ihn erwirbt; da diese fehlt, bleibt er Besitzer (TRADITIO als Rechtsgeschäft).\n• Celsus D 41.2.18.1 (Case 43): Der Übergebende gibt den Besitz jedenfalls auf; erwirbt der Empfänger nicht, ist die Sache besitzlos.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Können PUPILLI und FURIOSI ihren Besitz durch bloßen Willen (ANIMO) aufgeben?",
+   "back": "Nach herrschender Ansicht nicht aus eigener Macht — ihre innere Überzeugung ist zu ihrem Schutz unbeachtlich.\n• Aufgabe nur mit AUCTORITAS TUTORIS bzw CURATORIS.\n• Wo die Erhaltung CORPUS verlangt, endet ihr Besitz mit dessen Verlust wie bei jedem anderen.\n• Vgl Ulpian D 41.2.29 (Case 41), Marcianus D 41.1.11 (Case 42), Proculus D 41.2.27 (Case 49).",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Was ist CUSTODIA im Sinne der Besitzerhaltung beweglicher Sachen?",
+   "back": "Tatsächliche Herrschaft (CORPUS) bei Mobilien: Sie besteht, wenn man jederzeit Hand an die Sache legen oder sie in seine unmittelbare Einflusssphäre bringen kann.\n• Besitz an Mobilien bleibt, solange sie in der Einflusssphäre des Besitzers sind.\n• Im Schuldrecht bedeutet CUSTODIA etwas anderes (Haftung des Inhabers bei Verlust, v.a. Diebstahl).",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Paulus D 41.2.3.13 (Case 46): Verliert man den Besitz an einer bloß verlegten Sache?",
+   "back": "Nein — verlegte Sachen bleiben in der Einflusssphäre des Besitzers, auch wenn er sie vorübergehend nicht findet; CUSTODIA und Besitz bleiben.\n• Anders: Wer eine Sache außerhalb seiner Einflusssphäre verliert und nicht weiß, wo sie ist, verliert den Besitz (Pomponius D 41.2.25 pr, Case 45).",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Ulpianus D 41.2.13 pr (Case 47): Steine gehen auf dem Tiber bei einem Schiffbruch verloren und werden später vom Flussgrund geborgen. Besitz und Eigentum?",
+   "back": "Der Besitz ist verloren (Herrschaft verloren), das Eigentum nicht.\n• Der Text grenzt ausdrücklich vom SERVUS FUGITIVUS ab, an dem der Besitz bleibt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Papinianus D 41.2.44 pr (Case 47a): A vergräbt vor einer Reise Geld und weiß nach der Rückkehr nicht mehr, wo. Hat er noch Besitz?",
+   "back": "Ja — solange niemand eingreift, behält A die Herrschaft; seine Vergesslichkeit schadet dem Besitz nicht, selbst wenn er auf fremdem Grund vergraben hat.\n• ANIMUS POSSIDENDI hat er ohnehin; fraglich ist nur die Kontrolle.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Wer besitzt einen SERVUS FUGITIVUS (entlaufenen Sklaven) — und warum?",
+   "back": "Der Herr behält den Besitz SOLO ANIMO (und ersitzt weiter), obwohl er die Herrschaft verloren hat — solange kein Dritter den Sklaven in Besitz nimmt (Paulus D 41.2.1.14).\n• Das CUSTODIA-Kriterium gilt für Sklaven nicht: Strenge Verwahrung würde ihre Arbeitskraft beeinträchtigen, und wertvolle Sklaven sollen sich nicht durch Klugheit der Herrschaft entziehen können.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Wer besitzt die Sachen, die ein SERVUS FUGITIVUS mitgenommen hat, und die er auf der Flucht „erwirbt“?",
+   "back": "Mitgenommene Sachen: der Herr — der Sklave bleibt sein Besitzdiener.\nAuf der Flucht erworbene Sachen: ebenfalls der Herr erwirbt durch ihn Besitz.\n• Problem ANIMUS: kein IUSSUM möglich, ein PECULIUM endet mit der Flucht (Paulus D 15.1.48 pr) → Lösung wohl durch Fiktion, als hätte er im Rahmen eines gültigen PECULIUM gehandelt.\n• Zweck: Schutz des Herrn, der durch die Geschäfte des Flüchtigen einen Ausgleich für verlorene Mittel erhält.",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "20.10. Besitz II — Besitzerhaltung und -verlust: Grundsätze, bewegliche Sachen, SERVUS FUGITIVUS",
+   "readyBy": "2026-10-20",
+   "front": "Wann verliert der Herr den Besitz am SERVUS FUGITIVUS? Kann der neue Inhaber durch ihn erwerben?",
+   "back": "Wenn ein Dritter den Sklaven ergreift.\n• Gutgläubiger Dritter (hält den Sklaven für derelinquiert): Der Sklave kann ab da für ihn Besitz erwerben.\n• Bösgläubiger Dritter: Er kann durch den Sklaven keinen Besitz erwerben (Paulus D 41.2.1.6, Case 28).",
+   "tags": [
+    "roman-property-law",
+    "einheit-2",
+    "p2"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,832 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO: Funktionen und Formmangel",
+   "readyBy": "2026-11-03",
+   "front": "Welche drei Formen (Funktionen) der USUCAPIO unterscheidet das Lehrbuch?",
+   "back": "1. Ersitzung bei Formmangel: RES MANCIPI ohne MANCIPATIO/IN IURE CESSIO erworben → zunächst nur bonitarisches Eigentum.\n2. Ersitzung bei Rechtsmangel in der Person des Veräußerers: derivativer Erwerb scheitert → der gutgläubige rechtmäßige Besitzer wird nach Fristablauf Eigentümer (verhindert dauernde Trennung von Besitz und Eigentum; währenddessen nur Ersitzungsbesitzer, kein bonitarischer Eigentümer).\n3. USUCAPIO PRO HEREDE: Ersitzung (von Teilen) eines ruhenden Nachlasses ohne SUI HEREDES — offenkundige Besitzergreifung + ein Jahr ungestörter Besitz.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO: Funktionen und Formmangel",
+   "readyBy": "2026-11-03",
+   "front": "Was ist die USUCAPIO PRO HEREDE und warum gab es sie?",
+   "back": "Ersitzung von Nachlassgegenständen, solange kein Hauserbe (SUI HEREDES) vorhanden ist bzw der Erbe nicht angetreten hat: offenkundige Besitzergreifung + ein Jahr ungestörter Besitz.\n• Grund: altrömischer Totenkult — der Erbe sollte rasch antreten (und die Totenriten besorgen).\n• Ein SC unter Hadrian erlaubt dem Erben, ihre Wirkung rückgängig zu machen (Gai Inst 2.57).\n• Ein Detentor kann nicht PRO HEREDE ersitzen (NEMO SIBI IPSE CAUSAM POSSESSIONIS MUTARE POTEST).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO: Funktionen und Formmangel",
+   "readyBy": "2026-11-03",
+   "front": "In welchen zwei typischen Fällen führt ein Formmangel zur Ersitzung (VIII.B)?",
+   "back": "1. OCCUPATIO einer herrenlosen RES MANCIPI: zunächst bonitarisches Eigentum, nach 1 Jahr (Mobilien) bzw 2 Jahren (Grundstücke) ziviles.\n2. Erwerb einer RES MANCIPI durch bloße TRADITIO vom Eigentümer/Verfügungsbefugten ex iusta causa: zunächst bonitarisches, später ziviles Eigentum.\n• Während der Frist behält der Veräußerer nur ein NUDUM IUS QUIRITIUM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO: Funktionen und Formmangel",
+   "readyBy": "2026-11-03",
+   "front": "Wer eine RES MANCIPI vom NICHTberechtigten durch TRADITIO erwirbt — ist er bonitarischer Eigentümer?",
+   "back": "Nein — nur Ersitzungsbesitzer (wenn die Voraussetzungen von VIII.C vorliegen).\n• Bonitarisches Eigentum setzt Erwerb vom Verfügungsbefugten voraus; dann ist bloß die Form mangelhaft.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO: Funktionen und Formmangel",
+   "readyBy": "2026-11-03",
+   "front": "Bonitarische Eigentümer sind Ersitzungsbesitzer. Warum ist nicht jeder Ersitzungsbesitzer bonitarischer Eigentümer?",
+   "back": "Bonitarisches Eigentum gibt es nur beim bloßen Formmangel (Erwerb vom Berechtigten): Der Erwerber hat in der Sache das stärkste Recht, inhaltlich wie ein ziviler Eigentümer (ACTIO PUBLICIANA statt REI VINDICATIO).\n• Beim Rechtsmangel in der Person des Veräußerers (Nichtberechtigter, Geschäftsunfähiger) wiegen die Interessen des wahren Eigentümers schwerer → der Erwerber ist bis zum Fristablauf nur Ersitzungsbesitzer.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO: Funktionen und Formmangel",
+   "readyBy": "2026-11-03",
+   "front": "Was ist das NUDUM IUS QUIRITIUM?",
+   "back": "Das „nackte“ zivile Eigentum, das dem Veräußerer einer bloß tradierten RES MANCIPI während der Ersitzungsfrist bleibt — eine bloße Formalität.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Welche drei Fallgruppen des Rechtsmangels in der Person des Veräußerers gibt es?",
+   "back": "a. Veräußerer ohne Eigentum/Verfügungsbefugnis → nur Besitz (NEMO PLUS IURIS …).\nb. Erwerb von PUPILLUS, FURIOSUS oder PRODIGUS ohne Zustimmung von TUTOR/CURATOR → sie sind Eigentümer, aber nicht verfügungsfähig; kein gültiges Verpflichtungsgeschäft → keine IUSTA CAUSA TRADITIONIS.\nc. Voll Geschäftsfähiger, aber keine gültige Causa (zB Dissens) → teils genügt ein Putativtitel.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Kauft ein PUPILLUS ohne Tutor etwas — hat er eine IUSTA CAUSA für den Eigentumserwerb?",
+   "back": "Ja — der ihm Rechte verschaffende Teil ist gültig (NEGOTIUM CLAUDICANS); der Kaufvertrag ist für seinen Eigentumserwerb eine gültige Causa (vgl Marcianus D 41.1.11, Case 42).\n• Umgekehrt (Pupill veräußert) fehlt die Causa.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Welche fünf Voraussetzungen hat die USUCAPIO bei Rechtsmangel?",
+   "back": "1. RES HABILIS — ersitzungsfähige Sache\n2. TITULUS (IUSTA CAUSA)\n3. BONA FIDES — guter Glaube\n4. POSSESSIO — (fehlerfreier, ununterbrochener) Besitz\n5. TEMPUS — 1 Jahr Mobilien, 2 Jahre Grundstücke",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Welche Sachen sind nicht ersitzbar (keine RES HABILIS)?",
+   "back": "• RES EXTRA COMMERCIUM: RES PUBLICAE (zB Marktplatz), RES DIVINI IURIS (zB Tempel).\n• RES FURTIVAE — gestohlene Sachen (LEX ATINIA), für den Dieb und alle späteren Erwerber, gut- oder bösgläubig (Pomponius D 41.3.24 pr, Case 81).\n• Gewaltsam erlangte Sachen inkl Grundstücke (LEGES IULIAE ET PLAUTIAE, 1. Jh. v. Chr.).\n• Nach REVERSIO IN POTESTATEM ist die gestohlene Sache wieder ersitzbar.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Was ist die IUSTA CAUSA USUCAPIONIS, welche Funktion hat sie?",
+   "back": "Der Besitz des Ersitzenden muss auf einem Titel beruhen, der ihm beim Erwerb vom Berechtigten Eigentum verschafft hätte — entspricht der IUSTA CAUSA TRADITIONIS.\n• Funktion: Nur wer gute Gründe hatte, an seinen Eigentumserwerb zu glauben, verdient die Ersitzung; der Titel ist das äußere Zeichen dafür.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "In welchen zwei Fallgruppen verzichten die römischen Juristen weitgehend auf einen IUSTUS TITULUS?",
+   "back": "1. Erwerb von PUPILLUS/FURIOSUS/PRODIGUS: Es genügt der gute Glaube, mit einem voll Geschäftsfähigen zu kontrahieren — obwohl streng keine gültige Causa besteht.\n2. Dissens zwischen zwei Geschäftsfähigen: Nach manchen Juristen genügt ein Putativtitel, gerechtfertigt durch die BONA FIDES.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Was ist ein Putativtitel — wie stehen die römischen Juristen dazu?",
+   "back": "Ein nur vermeintlicher Erwerbsgrund: Der Erwerber glaubt gutgläubig an eine gültige Causa, die es nicht gibt.\nMeinungen:\n1. Strikt abgelehnt — gültige IUSTA CAUSA nötig (Ulpian D 41.3.27, Case 91).\n2. Beim Kauf abgelehnt, sonst zugelassen — Causa aus dem gescheiterten Geschäft (zB PRO DOTE) oder eigener Titel PRO SUO.\n3. Sogar beim gescheiterten Kauf zugelassen, wenn der Irrtum entschuldbar ist (TOLERABILIS/PROBABILIS ERROR, zB durch Sklaven oder Verwalter getäuscht; Neratius D 41.10.5.1, Africanus D 41.4.11).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Warum sind die römischen Juristen beim Putativtitel zurückhaltend?",
+   "back": "Verzichtbar ist nur die GÜLTIGKEIT der Causa, nicht ihr Vorhandensein: Es braucht verlässliche äußere Anzeichen einer Causa-Vereinbarung.\n• Ersitzung soll nur, wer gute Gründe hatte zu glauben, mit dem Empfang Eigentum zu erwerben — sonst gingen die Interessen des Eigentümers zu leicht verloren.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Was ist der Inhalt der BONA FIDES des Ersitzenden?",
+   "back": "Irrtum über Tatsachen beim Erwerb: Der Erwerber glaubt, Eigentum zu erwerben.\n• Gutgläubig ist, wer\n  – von einem Geschäftsfähigen erwirbt, ohne zu wissen, dass dieser nicht Eigentümer/verfügungsbefugt ist (Modestin D 50.16.109, Case 80);\n  – von PUPILLUS/FURIOSUS/PRODIGUS erwirbt, ohne die fehlende Geschäftsfähigkeit zu kennen;\n  – vom Nichtberechtigten ohne gültigen Titel erwirbt, beide Mängel nicht kennend (Putativtitel).\n• Rechtsirrtum schließt BONA FIDES aus.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 3,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Sprachhinweis: BONA FIDES, BONA FIDE, BONAE FIDEI POSSESSOR — wie verwendet man das richtig?",
+   "back": "Wer BONA FIDES (Nominativ: guten Glauben) hat, ist BONA FIDE (Ablativ der Eigenschaft); wer im guten Glauben Besitz erwirbt, wird BONAE FIDEI (Genitiv) POSSESSOR.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Wann muss BONA FIDES vorliegen? Was bedeutet MALA FIDES SUPERVENIENS NON NOCET?",
+   "back": "Nur im Zeitpunkt des Erwerbs.\n• Späterer böser Glaube schadet der Ersitzung nicht.\n• Kein Raum für BONA FIDES bei Ersitzung wegen bloßen Formmangels; bis Hadrian auch nicht bei der USUCAPIO PRO HEREDE.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Kontroverse: Erwirbt ein Ersitzungsbesitzer, der nachträglich bösgläubig wird, weiter die Früchte?",
+   "back": "Pomponius und Paulus: Nein — MALA FIDES SUPERVENIENS hindert die Ersitzung der Muttersache nicht, wohl aber den Fruchterwerb (Paulus (Pomponius) D 41.1.48.1, Case 103).\nJulian: Ja — die Wirkungen des anfänglichen guten Glaubens erstrecken sich auf Ersitzung UND Fruchterwerb, bis der Eigentümer klagt (Iulianus D 22.1.25.2, Case 102).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Ist bösgläubig, wer an Eigentum, Verfügungsbefugnis oder Geschäftsfähigkeit des Veräußerers bloß zweifelt?",
+   "back": "Nein — MALA FIDES ist nur konkretes Wissen um den Mangel; bloße Zweifel gelten noch als BONA FIDES.\n• Keine Pflicht, Umstände weiter zu erforschen (anders modernes Recht: Irrtum darf nicht auf Fahrlässigkeit beruhen).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Paulus D 22.6.9.4 (Case 83): A (Eigentümer) verkauft und übergibt an B; B glaubt irrig, von einem Nichtberechtigten zu erwerben. Wird B Eigentümer?",
+   "back": "Ja — alle Voraussetzungen des derivativen Erwerbs liegen vor; B's irrige Annahme ist bedeutungslos.\n• Für die Ersitzung wäre B MALA FIDE — darauf kommt es aber nicht an.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Paulus D 41.4.2.15 (Case 86): Kauf von einem Unmündigen ohne Tutor. C hält D irrig für mündig; E weiß, dass F unmündig ist, glaubt aber, Unmündige dürften ohne Tutor verfügen. Wer kann ersitzen?",
+   "back": "Nur C — er irrt über eine Tatsache (Alter) → BONA FIDES.\n• E irrt über das Recht → Rechtsirrtum begründet keinen guten Glauben → keine Ersitzung.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Pomponius D 41.3.32.1 (Case 84): H kauft vom Nichtberechtigten G einen Sklaven und hält Sklaven (irrig) für unersitzbar. Kann H ersitzen?",
+   "back": "Nein — wer die Ersitzbarkeit der Sache kategorisch ablehnt, hat keine BONA FIDES; sein Irrtum ist ein Rechtsirrtum und verdient keinen Schutz.\n• (H hält G wohl für den Eigentümer, irrt also auch über dessen fehlende Befugnis.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Welche Anforderungen stellt die USUCAPIO an den Besitz (POSSESSIO)?",
+   "back": "• Beginn mit Besitzerwerb; dann müssen alle anderen Voraussetzungen vorliegen.\n• Fehlerfrei erlangt: nicht VI, CLAM, PRECARIO (IUSTA POSSESSIO) — Paulus D 41.2.5: Wer die gekaufte, noch nicht übergebene Sache eigenmächtig an sich nimmt, kann nicht ersitzen.\n• Ununterbrochen während der ganzen Frist; mittelbarer Besitz durch Detentor oder Besitzdiener genügt.\n• Besitzverlust beendet die Ersitzung; bei Wiedererlangung beginnt sie neu — nur wenn er dann BONA FIDE ist.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Was kann ein Ersitzungsbesitzer tun, der während der Frist den Besitz verliert?",
+   "back": "Mit der ACTIO PUBLICIANA den Besitz zurückverlangen; daneben Besitzinterdikte, soweit anwendbar.\n• Die Frist beginnt nach Wiedererlangung neu (guter Glaube im Zeitpunkt der Wiedererlangung nötig).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "Wie lang ist die Ersitzungsfrist (TEMPUS) — und zählt die Besitzzeit des Vormanns?",
+   "back": "1 Jahr bei beweglichen Sachen, 2 Jahre bei Grundstücken; Beginn mit Besitzerwerb, Neubeginn nach Besitzverlust.\n• Erwerb unter Lebenden: Die Zeit des Vormanns zählt NICHT; erst nachklassische Kaiserreskripte erlauben ACCESSIO TEMPORIS.\n• Erben setzen die vom Erblasser begonnene Ersitzung fort (SUCCESSIO IN POSSESSIONEM) — guter Glaube des Erben nicht erforderlich.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO bei Rechtsmangel: Fallgruppen und Voraussetzungen",
+   "readyBy": "2026-11-03",
+   "front": "SUCCESSIO IN POSSESSIONEM vs ACCESSIO TEMPORIS — Unterschied?",
+   "back": "SUCCESSIO IN POSSESSIONEM: Der Erbe setzt die Ersitzung des Erblassers fort und vollendet sie; seine eigene BONA FIDES ist nicht nötig (klassisch).\nACCESSIO TEMPORIS: Anrechnung der Besitzzeit des Rechtsvorgängers beim Erwerb unter Lebenden — erst durch nachklassische Kaiserreskripte; klassisch beginnt der Erwerber neu.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — LEX ATINIA und REVERSIO IN POTESTATEM",
+   "readyBy": "2026-11-03",
+   "front": "Was bestimmt die LEX ATINIA?",
+   "back": "Gestohlene Sachen (RES FURTIVAE) können nicht ersessen werden, bis sie in die POTESTAS ihres Eigentümers zurückgekehrt sind.\n• Gilt für den Dieb und alle späteren Erwerber, auch gutgläubige.\n• Nicht für Grundstücke (kein FURTUM möglich); dafür LEGES IULIAE ET PLAUTIAE.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — LEX ATINIA und REVERSIO IN POTESTATEM",
+   "readyBy": "2026-11-03",
+   "front": "Was ist die REVERSIO IN POTESTATEM — wann liegt sie vor?",
+   "back": "Rückkehr der gestohlenen Sache in die Gewalt des Eigentümers → der Makel der Furtivität entfällt, die Sache wird wieder ersitzbar.\n• Grundsätzlich erst, wenn der Eigentümer wieder IUSTA POSSESSIO hat: unmittelbarer Gewahrsam + Wissen, dass es seine Sache ist.\n• Nicht genügend: Rückkehr nur an seinen Verwalter (Neratius D 41.3.41, Case 73) oder an den Detentor, dem gestohlen wurde (Paulus D 41.3.4.6, Case 72).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — LEX ATINIA und REVERSIO IN POTESTATEM",
+   "readyBy": "2026-11-03",
+   "front": "Warum ist die REVERSIO IN POTESTATEM so streng ausgestaltet?",
+   "back": "Zum Schutz des Eigentümers: Es wäre unerträglich, wenn der Bestohlene sein Eigentum auch noch durch Ersitzung eines gutgläubigen Dritten verlöre.\n• Ist die Sache aber einmal zu ihm zurückgekehrt, ist sein Interesse befriedigt; gerät sie später ohne Diebstahl an einen gutgläubigen Erwerber ex iusta causa, kann dieser ersitzen (REI VINDICATIO bis Fristablauf möglich).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — LEX ATINIA und REVERSIO IN POTESTATEM",
+   "readyBy": "2026-11-03",
+   "front": "Welche Prozesskonstellation steht hinter den Fällen zur REVERSIO IN POTESTATEM?",
+   "back": "A findet seine verlorene Sache bei B und verlangt sie zurück; B beruft sich auf vollendete Ersitzung.\n• A muss beweisen, dass die Sache gestohlen (RES FURTIVA) und daher unersitzbar ist.\n• B kann dennoch ersessen haben, wenn vor seinem Erwerb eine REVERSIO an A stattfand.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — LEX ATINIA und REVERSIO IN POTESTATEM",
+   "readyBy": "2026-11-03",
+   "front": "Paulus (Cassius) D 41.3.4.21 (Case 74): A verpfändet und übergibt eine Sache an B und stiehlt sie ihm dann zurück. Ist die Sache ersitzbar?",
+   "back": "Ja (Paulus/Cassius): A haftet B als FUR (er nahm das Pfand ohne B's Erlaubnis), aber die Sache ist damit in die POTESTAS des Eigentümers zurückgekehrt → wieder ersitzbar.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — LEX ATINIA und REVERSIO IN POTESTATEM",
+   "readyBy": "2026-11-03",
+   "front": "Labeo (Paulus) D 41.3.49 (Case 75): Der Verpfänder A stiehlt die verpfändete Sache dem Pfandgläubiger B; später kommt sie zu B zurück. Wann wird sie ersitzbar?",
+   "back": "Erst mit der Rückkehr zum Pfandgläubiger B — Gegenlösung zu D 41.3.4.21.\n• Wiegt das dingliche Recht des Pfandgläubigers schwerer als das belastete Eigentum des Verpfänders, muss der Diebstahl durch den Eigentümer selbst die Ersitzung ausschließen, bis die Sache zum Pfandgläubiger zurückkehrt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — LEX ATINIA und REVERSIO IN POTESTATEM",
+   "readyBy": "2026-11-03",
+   "front": "Paulus D 41.3.4.13, 14 (Case 79): Wann verliert eine gestohlene Sache außer durch Rückkehr ihre Furtivität?",
+   "back": "• Wenn der Eigentümer mit der REI VINDICATIO statt der Sache ihren Geldwert erhält.\n• Wenn sie vom Inhaber mit Zustimmung des Eigentümers an einen anderen übertragen wird — dann kann dieser ersitzen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — LEX ATINIA und REVERSIO IN POTESTATEM",
+   "readyBy": "2026-11-03",
+   "front": "Kann man eine gefundene Sache ersitzen?",
+   "back": "Wer eine offensichtlich verlorene Sache findet und behält, begeht FURTUM → RES FURTIVA, nicht ersitzbar; außerdem fehlt dem Finder Titel und guter Glaube.\n• Ersitzbar nur, wenn sie wirklich herrenlos (derelinquiert) war — dann aber Erwerb durch OCCUPATIO (bei RES MANCIPI: erst bonitarisch).\n• (Revision VIII Frage 8; Antwort aus IV.A und VIII abgeleitet.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Welche Funktion hat die römische USUCAPIO — welche modernen Institute dienen demselben Zweck?",
+   "back": "Schutz des Vertrauens in den redlichen Verkehr auf Kosten bestehender Eigentumsrechte: Nach vollendeter Ersitzung erwirbt der Ersitzende originär, der frühere Eigentümer verliert sein Recht.\n• Modern: Ersitzung und v.a. der gutgläubige Erwerb (Gutglaubenserwerb) — sofortiger Eigentumserwerb vom Nichtberechtigten ohne Frist.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Welche Voraussetzungen hat der gutgläubige Erwerb im modernen Recht (Lehrbuch VIII.E.1)?",
+   "back": "1. Bewegliche Sachen (Liegenschaften in Österreich nur über Grundbuch, § 1500 ABGB, oder Ersitzung).\n2. Guter Glaube: Überzeugung, vom Berechtigten zu erwerben; Unkenntnis nicht fahrlässig (zT nur grobe Fahrlässigkeit schädlich, § 932 Abs 2 BGB; zT genügt Glaube an die Verfügungsbefugnis, § 368 Abs 1 S 2 ABGB).\n3. Fehlerfreier Besitz (NEC VI NEC CLAM NEC PRECARIO) und meist gültiger Titel.\n4. Teils Entgeltlichkeit (§ 367 ABGB).\n5. Bedeutung im Handelsverkehr; Erwerb vom Vertrauensmann des Eigentümers.\n• Gegengewicht: öffentliche Register (Schiffe, Autos) schließen gutgläubigen Erwerb aus (Art 1156 Codice civile).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "§ 367 ABGB: In welchen drei Fällen erwirbt der redliche Besitzer einer beweglichen Sache Eigentum vom Nichtberechtigten?",
+   "back": "Bei entgeltlichem Erwerb\n1. in einer öffentlichen Versteigerung,\n2. von einem Unternehmer im gewöhnlichen Betrieb seines Unternehmens,\n3. von jemandem, dem der vorige Eigentümer die Sache anvertraut hatte.\n• Voraussetzung: rechtmäßiger (Titel) und redlicher Besitz. Ersatzansprüche gegen den Vertrauensmann bleiben. Abs 2: Rechte Dritter erlöschen, außer der Erwerber war ihnen gegenüber unredlich.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Wann ist der Besitzer nach § 368 ABGB redlich?",
+   "back": "Wenn er weder weiß noch vermuten muss, dass die Sache nicht dem Veräußerer gehört; beim Erwerb vom Unternehmer im gewöhnlichen Geschäftsbetrieb genügt der gute Glaube an die Verfügungsbefugnis.\n• Abs 2: Hätte er aus Natur der Sache, auffällig niedrigem Preis, bekannten Eigenschaften des Vormanns, dessen Unternehmen oder sonstigen Umständen Verdacht schöpfen müssen, muss er die Sache herausgeben.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Römische USUCAPIO vs gutgläubiger Erwerb nach § 367 ABGB — Vergleich?",
+   "back": "Gemeinsam: guter Glaube, fehlerfreier Besitz, Titel (IUSTA CAUSA).\nUnterschiede:\n• USUCAPIO braucht Frist (1/2 Jahre), § 367 erwirbt sofort.\n• Römisch genügt Tatsachenirrtum ohne Nachforschungspflicht; ABGB verlangt, dass man auch nichts vermuten musste.\n• § 367 nur bei Entgeltlichkeit und in drei Fallgruppen (Versteigerung, Unternehmer, Vertrauensmann).\n• Gestohlene Sachen: römisch nie ersitzbar (LEX ATINIA); nach § 367 Fälle 1 und 2 auch gestohlene Sachen erwerbbar.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Ist nach österreichischem Recht gutgläubiger Erwerb gestohlener Sachen möglich?",
+   "back": "Ja — in den ersten beiden Fällen des § 367 ABGB (öffentliche Versteigerung, Unternehmer im gewöhnlichen Geschäftsbetrieb).\n• Nicht im 3. Fall (Vertrauensmann), weil dort die Sache anvertraut, nicht abhandengekommen sein muss.\n• Gestohlene Sachen sind in Österreich auch nicht von der Ersitzung ausgeschlossen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Wie nehmen BGB, ZGB und Code civil den Gedanken der LEX ATINIA auf?",
+   "back": "BGB § 935 Abs 1: kein gutgläubiger Erwerb gestohlener, verlorener oder sonst abhanden gekommener Sachen — Ausnahme Abs 2: Geld, Inhaberpapiere, öffentliche Versteigerung.\nZGB Art 934: Rückforderung abhanden gekommener Sachen 5 Jahre lang; bei Kauf auf Versteigerung, Markt oder vom Händler nur gegen Erstattung des Preises.\nCode civil Art 2276: „En fait de meubles, la possession vaut titre“ — aber Rückforderung verlorener/gestohlener Sachen 3 Jahre lang; Art 2277: bei Kauf auf Messe, Markt, Versteigerung oder vom Händler nur gegen Preiserstattung.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Warum erlaubt modernes Recht teilweise den Erwerb gestohlener Sachen durch Gutgläubige?",
+   "back": "Wegen der Bedürfnisse des Handelsverkehrs: schlanke Formen, rasche Abwicklung, kein Nachforschen nach Lieferketten, kein Eviktionsrisiko, kein Schwebezustand wie bei der Ersitzung.\n• Daher Privilegien für Märkte, Messen, Händler, öffentliche Versteigerungen, Geld und Inhaberpapiere.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Warum privilegieren manche Rechtsordnungen den entgeltlichen gutgläubigen Erwerb?",
+   "back": "Weil der Gutgläubige, der etwas geschenkt bekommt, weniger schutzwürdig ist als der Eigentümer (A schenkt B eine Sache des C).\n• § 367 ABGB und das anglo-amerikanische Recht (BONA FIDE PURCHASER FOR VALUE) verlangen Entgelt; BGB, ZGB, Code civil und Codice civile nicht.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Gutgläubiger Erwerb nach § 932 BGB und Art 714 Abs 2 / 933 ZGB — Kernaussage?",
+   "back": "§ 932 BGB: Bei Veräußerung nach § 929 wird der Erwerber auch dann Eigentümer, wenn die Sache dem Veräußerer nicht gehört — außer er ist bösgläubig (kennt es oder kennt es grob fahrlässig nicht).\nArt 714 Abs 2 ZGB: Wer gutgläubig eine bewegliche Sache zu Eigentum übertragen erhält, wird Eigentümer, sobald er nach den Besitzregeln geschützt ist; Art 933: auch wenn sie dem Veräußerer bloß anvertraut war.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 3,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Was bestimmt Art 1153 Codice civile zum gutgläubigen Erwerb?",
+   "back": "Wer bewegliche Sachen vom Nichteigentümer erwirbt, wird mit dem Besitz Eigentümer, wenn er bei der Übergabe gutgläubig ist und ein zur Eigentumsübertragung geeigneter Titel besteht; lastenfreier Erwerb, soweit Rechte Dritter nicht aus dem Titel hervorgehen. Gilt auch für Nießbrauch und Pfand.\n• Art 1156: nicht für Sachgesamtheiten und registrierte Mobilien.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — USUCAPIO und gutgläubiger Erwerb im modernen Recht",
+   "readyBy": "2026-11-03",
+   "front": "Eigentliche (kurze) vs uneigentliche (lange) Ersitzung im ABGB?",
+   "back": "Kurz (§ 1466 ABGB): bewegliche Sachen nach 3 Jahren qualifiziertem Besitz — rechtmäßig (Titel), redlich, echt (fehlerfrei).\nLang: auch ohne gültigen Titel, bei redlichem und echtem Besitz nach 30 Jahren; Redlichkeit während der ganzen Zeit; auch für Liegenschaften.\n• Ersitzung von Liegenschaften durchbricht den Eintragungsgrundsatz (§ 4 GBG).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — Übungsfälle aus dem Lehrbuch (Ex 29–34)",
+   "readyBy": "2026-11-03",
+   "front": "[Lehrbuch Ex 29] Kassandra schenkt Cleo ihr Pferd. Zwei Tage später stiehlt Xerxes es Cleo und verkauft und übergibt es an die gutgläubige Thisbe. Kann Cleo das Pferd von Thisbe zurückbekommen?",
+   "back": "Ja — mit der REI VINDICATIO, solange das Pferd existiert.\n• Cleo ist Eigentümerin geworden: Schenkung = IUSTA CAUSA, Übergabe vom Eigentümer. (Pferd = RES MANCIPI: ohne MANCIPATIO wäre sie bonitarische Eigentümerin → ACTIO PUBLICIANA.)\n• Xerxes konnte kein Eigentum übertragen (NEMO PLUS IURIS …); Thisbe kann trotz guten Glaubens und Kaufs nicht ersitzen — RES FURTIVA (LEX ATINIA).\n• Gegen Xerxes zusätzlich ACTIO FURTI + CONDICTIO FURTIVA (Condictio nicht kumulierbar mit der Vindikation).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — Übungsfälle aus dem Lehrbuch (Ex 29–34)",
+   "readyBy": "2026-11-03",
+   "front": "[Lehrbuch Ex 30] Helena verkauft ein Pferd, das ihr Kassandra zur Verwahrung gegeben hatte und das sie gutgläubig für ihr eigenes hält, an Leo, Sklave des Japyx mit PECULIUM. Leo nutzt es drei Monate im Peculium und übergibt es dann Japyx. Nach weiteren zehn Monaten verlangt Kassandra es von Japyx zurück. Darf Japyx es behalten?",
+   "back": "Ja — Japyx hat es nach 13 Monaten ersessen (Mobilien: 1 Jahr).\n• Kein derivativer Erwerb: Helena war weder Eigentümerin noch verfügungsbefugt.\n• RES HABILIS: nicht gestohlen — Helena verkaufte gutgläubig, ohne Bereicherungsabsicht → kein FURTUM.\n• TITULUS: Kauf. BONA FIDES: Japyx/Leo hielten Helena für die Eigentümerin (Tatsachenirrtum).\n• POSSESSIO: Japyx erwarb Besitz schon mit der Übergabe an Leo (PECULIUM, ANIMO SERVORUM); die Weitergabe an Japyx unterbricht nichts → ununterbrochen 13 Monate.\n• (Pferd = RES MANCIPI; bei Rechtsmangel ist das ohne Bedeutung — die Ersitzung verschafft ziviles Eigentum.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — Übungsfälle aus dem Lehrbuch (Ex 29–34)",
+   "readyBy": "2026-11-03",
+   "front": "[Lehrbuch Ex 31] Ago besetzt ein Grundstück in den Albanerbergen, das er für herrenlos hält; es gehört Bellona, die sich seit zwei Jahren nicht darum kümmert. Am 1.1. verkauft Ago es an Cara; erst am 15.7. übernimmt Caras Sklave Dexter das Grundstück von Ago und bebaut es. Im Frühjahr des übernächsten Jahres verlangt Bellona es heraus. Ist Cara Eigentümerin?",
+   "back": "Nein, noch nicht.\n• Bellonas Desinteresse ist keine Dereliktion; sie bleibt (solo animo) Eigentümerin → Ago erwarb weder durch OCCUPATIO noch konnte er Eigentum übertragen (NEMO PLUS IURIS …).\n• Ersitzung durch Cara: RES HABILIS (Grundstück, kein FURTUM möglich; nicht gewaltsam angeeignet), Titel Kauf, BONA FIDES (keine Kenntnis), Besitz erst ab 15.7. (Übernahme durch Dexter — ANIMO NOSTRO CORPORE ALIENO; der Kauf am 1.1. verschaffte keinen Besitz).\n• TEMPUS: Grundstücke 2 Jahre ab 15.7. → im Frühjahr des übernächsten Jahres noch nicht abgelaufen → Bellona kann vindizieren (gerichtliche Geltendmachung).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — Übungsfälle aus dem Lehrbuch (Ex 29–34)",
+   "readyBy": "2026-11-03",
+   "front": "[Lehrbuch Ex 32a] Flora kauft vom geisteskranken Eigentümer Eros einen Papagei und erhält ihn. Nach einem Jahr gerät der Papagei in den Besitz des Gripus. Was kann Flora gegen Gripus unternehmen — und spielt es eine Rolle, ob sie Eros für geistig gesund hielt?",
+   "back": "Kein derivativer Erwerb: Der FURIOSUS kann nicht verfügen, der Kauf ist keine gültige Causa.\n• Hielt Flora Eros für gesund (Tatsachenirrtum): BONA FIDES; beim Erwerb von FURIOSI genügt der gute Glaube statt eines gültigen Titels; RES HABILIS (weder gestohlen noch RES DIVINI IURIS/PUBLICA); 1 Jahr ununterbrochener Besitz → Flora wurde durch USUCAPIO Eigentümerin → REI VINDICATIO gegen Gripus.\n• Kannte sie die Geisteskrankheit: MALA FIDES → keine Ersitzung, Eros bleibt Eigentümer; Flora hat auch keine ACTIO PUBLICIANA (sie ist keine Ersitzungsbesitzerin), allenfalls Besitzinterdikte, wenn Gripus ihr gegenüber fehlerhaft besitzt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — Übungsfälle aus dem Lehrbuch (Ex 29–34)",
+   "readyBy": "2026-11-03",
+   "front": "[Lehrbuch Ex 32b] Flora kauft vom geisteskranken Eros einen Papagei; sie kennt die Geisteskrankheit, glaubt aber, FURIOSI könnten Geschäfte zu ihrem Vorteil schließen. Kann sie ersitzen?",
+   "back": "Nein — das ist ein Rechtsirrtum; Rechtsirrtum begründet keine BONA FIDES (vgl Paulus D 41.4.2.15, Case 86).\n• Außerdem sind FURIOSI überhaupt handlungsunfähig (nicht wie PUPILLI beschränkt).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — Übungsfälle aus dem Lehrbuch (Ex 29–34)",
+   "readyBy": "2026-11-03",
+   "front": "[Lehrbuch Ex 33] Melitta leiht sich von Irene eine handgefertigte Goldkette und verkauft und übergibt sie, von Gläubigern bedrängt, an Pius. Pius hält Melitta bei der Übergabe für die Eigentümerin; drei Tage später erfährt er die Wahrheit. Nach drei Jahren entdeckt Irene die Kette bei Pius. Wem gehört sie?",
+   "back": "Irene — Pius konnte nicht ersitzen, weil die Kette eine RES FURTIVA ist.\n• Melitta beging FURTUM (Unterschlagung: Verkauf einer anvertrauten Sache in Bereicherungsabsicht, vgl Beispiel 8) → LEX ATINIA.\n• Sein späterer böser Glaube schadete nicht (MALA FIDES SUPERVENIENS NON NOCET), Titel und Zeit lägen vor — es scheitert allein an der RES HABILIS.\n• Irene: REI VINDICATIO gegen Pius.\n• Modern (§ 367 Abs 1 Fall 3 ABGB) hätte Pius als redlicher entgeltlicher Erwerber vom Vertrauensmann sofort Eigentum erworben.\n• (Das Buch nennt den Verleiher einmal irrtümlich Orion.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "03.11. Eigentumserwerb II — Übungsfälle aus dem Lehrbuch (Ex 29–34)",
+   "readyBy": "2026-11-03",
+   "front": "[Lehrbuch Ex 34] Nike kauft vom 12-jährigen Ramses (Vater tot, sieht älter aus; Nike hält ihn für 15) zum Marktpreis eine Mineraliensammlung und schenkt sie Leander, der vom Erwerb von Ramses nichts weiß. Nach 14 Monaten verlangt Ramses' Tutor, der nicht zugestimmt hatte, die Sammlung heraus. Wem gehört sie?",
+   "back": "Entscheidend ist Leanders eigene Ersitzung — Nikes Besitzzeit zählt nicht.\n• Kein derivativer Erwerb: PUPILLUS ohne AUCTORITAS TUTORIS kann nicht verfügen (NEGOTIUM CLAUDICANS → keine gültige Causa); Nike wird nicht Eigentümerin, kann also auch Leander kein Eigentum verschaffen.\n• Nike war aber gutgläubige Ersitzungsbesitzerin: Tatsachenirrtum über das Alter (Paulus D 41.4.2.15); kein FURTUM → RES HABILIS.\n• Leander: Titel Schenkung, BONA FIDES → er beginnt eine EIGENE Ersitzung; unter Lebenden keine Anrechnung der Vorbesitzzeit (ACCESSIO TEMPORIS erst nachklassisch).\n• Die 14 Monate laufen ab Nikes Kauf: Besitzt Leander die Sammlung schon ≥ 1 Jahr (Schenkung binnen 2 Monaten nach dem Kauf), ist er Eigentümer; sonst gehört sie noch Ramses (REI VINDICATIO durch den Tutor).\n• Gegen Ramses hätte Nike wegen des gezahlten Preises allenfalls einen Bereicherungsanspruch (vgl D 26.8.5 pr).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — Prüfungsfall MP Juni 2023",
+   "readyBy": "2026-11-03",
+   "front": "[MP Juni 2023 · Fall 2 (16 P.)] Helena kauft am Markt vom elfjährigen Gaius eine Silberbrosche; sie bemerkt, dass er viel jünger aussieht als die anderen Händler, fragt aber nicht nach. Geld und Ware werden sofort getauscht. Acht Monate später stirbt Helena; ihre Nichte Julia, die Gaius' Familie kennt und sein Alter weiß, erbt alles samt Brosche. Nach weiteren fünf Monaten verlangt Gaius' Tutor die Brosche zurück. Rechtslage?",
+   "back": "Julia ist durch USUCAPIO Eigentümerin geworden — der Tutor dringt nicht durch (wenn man Helenas BONA FIDES bejaht).\n• Kein derivativer Erwerb: Gaius ist PUPILLUS (7–14), verfügt ohne AUCTORITAS TUTORIS → nur NEGOTIUM CLAUDICANS, keine IUSTA CAUSA TRADITIONIS.\n• Ersitzung: RES HABILIS (Brosche nicht gestohlen; RES NEC MANCIPI); Titel: beim Erwerb von PUPILLI genügt guter Glaube an die Geschäftsfähigkeit.\n• BONA FIDES Helenas (nur im Erwerbszeitpunkt nötig): Sie hatte allenfalls Zweifel, aber keine konkrete Kenntnis; bloße Zweifel schaden nicht, keine Nachforschungspflicht → gutgläubig (Gegenargument: offensichtliches Kindesalter; modern wäre das fahrlässig).\n• Tempus 1 Jahr: 8 Monate Helena + 5 Monate Julia = 13 Monate. Julia setzt als Erbin die Ersitzung fort (SUCCESSIO IN POSSESSIONEM); ihr eigenes Wissen (MALA FIDES) schadet nicht.\n• Ergebnis: keine REI VINDICATIO des Gaius mehr.\n• (Quelle: studocu-Prüfung; Lösung nach Lehrbuch VIII.C.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1",
+    "fall",
+    "pruefung-2023-06"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 2,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "In welchen zwei Formen werden schriftliche Prüfungen im römischen Recht gestellt?",
+   "back": "1. Fall lösen (vgl Kap. XIV).\n2. Exegese schreiben — eine römische Quelle (meist Juristenentscheidung) erklären und begründen.\n• Lehrbuch-Hinweis (FÜM 1 Wien, ältere Angabe): Exegese meist 28 Punkte.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Woraus besteht ein Fall — wie geht man bei der Lösung vor (Kap. XIII.C)?",
+   "back": "Sachverhalt + Rechtsfrage.\n1. Frage genau lesen — sie bestimmt alles Weitere (zB nur Besitz, nicht Eigentum).\n2. Einschlägige Rechtsregel finden und ihre Elemente nennen.\n3. Elemente auf den konkreten Fall beziehen.\n4. Subsumtion: Liegen die Voraussetzungen vor? Unproblematisches kurz, Problematisches ausführlich.\n5. Ergebnis = Antwort auf die Frage.\n• Chronologisch vorgehen; bei „Rechtslage“ alle Positionen (Besitz, Eigentum, beschränkte dingliche Rechte) aller Beteiligten.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Welche Frage-Typen sind im Sachenrecht typisch (Lehrbuch XIII.C.2)?",
+   "back": "• Erwerb/Verlust des Besitzes; Besitz im Lauf einer Ereigniskette\n• Erwerb/Verlust des Eigentums; Eigentumswechsel im Verlauf\n• Stellung des Eigentümers gegenüber Besitzer oder Inhaber eines beschränkten dinglichen Rechts\n• Bestehen/Nichtbestehen eines Pfandrechts",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Prüfungsschemata: Voraussetzungen von Besitz, TRADITIO, USUCAPIO (vom Nichtberechtigten), Pfandrecht?",
+   "back": "• Besitz: CORPUS + ANIMUS POSSIDENDI.\n• TRADITIO: Verfügungsmacht (Eigentum/Ermächtigung) + Besitzübertragung + IUSTA CAUSA.\n• USUCAPIO: RES HABILIS + BONA FIDES + CAUSA + POSSESSIO + TEMPUS.\n• Pfandrecht: Verfügungsmacht des Verpfänders + Pfandabrede + zu sichernde Forderung.\n• Klausurtipps: Vor der Ersitzung immer zuerst den derivativen Erwerb prüfen; kurz sagen, ob RES MANCIPI; im Zweifel ist die Sache nicht gestohlen.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Wie formuliert man eine Falllösung richtig (XIII.D)?",
+   "back": "In ganzen, klaren Sätzen jeden Schritt so darstellen, dass Prüfer die Argumentation nachvollziehen — das bloße Ergebnis genügt nicht (könnte geraten sein).\n• Regel → Anwendung auf den Fall → Begründung mit Sachverhaltszitat (arg: „…“) → Ergebnis.\n• Nicht Musterlösungen auswendig lernen, sondern die Struktur.\n• Scheitert ein Erwerb an einer Voraussetzung: kurz alle Voraussetzungen ansprechen, dann begründen, woran es scheitert.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Beispiel 40 (Agatha findet auf dem Forum eine Goldmünze der Bellona und steckt sie ein: „Heute ist mein Glückstag“): Erwirbt Agatha Besitz?",
+   "back": "Ja — unmittelbarer Eigenbesitz.\n1. Besitz = CORPUS + ANIMUS.\n2. CORPUS: Sie steckt die Münze ein → unmittelbare physische Herrschaft.\n3. ANIMUS: arg „Heute ist mein Glückstag“ — sie will die Münze für sich behalten.\n4. Ergebnis: Besitzerwerb (nach der Frage nur Besitz, nicht Eigentum prüfen).",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p2",
+    "fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Was ist eine Exegese und wozu dient sie?",
+   "back": "Auslegung und Erklärung eines Textes — im römischen Recht meist eines Digestenfragments (Digestenexegese).\n• Ziel: einen Rechtstext interpretieren und eine vorgegebene Entscheidung erklären und begründen; dabei Kenntnisse des römischen Rechts anwenden.\n• Unterschied zur Falllösung: Dort findet man selbst die Lösung, hier erklärt man eine schon gegebene Entscheidung.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Wie ist eine Exegese aufgebaut (XV.C)?",
+   "back": "1. Sachverhalt (was ist passiert, Varianten?)\n2. Rechtsfrage (ausdrücklich oder aus der Entscheidung erschlossen)\n3. Entscheidung des Juristen (ggf mehrere Meinungen)\n4. Interpretation — der wichtigste Teil.\n• 1–3 knapp; unausgesprochene Prämissen erschließen (zB: Geht es um Ersitzung, ist der derivative Erwerb wohl gescheitert).\n• Wissenschaftlich zusätzlich: Text, Übersetzung, INSCRIPTIO, Palingenesie, Textkritik.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Was gehört in die Interpretation einer Exegese (XV.D)?",
+   "back": "• Welches Rechtsinstitut, welche Begriffe?\n• Wer will was von wem (Anspruch)? Grundlage (dingliches Recht, Vertrag, Delikt)?\n• Rechtsbehelf (ACTIO, INTERDICTUM), Aktiv-/Passivlegitimation\n• Einreden, Repliken\n• Parallelfälle, Kontroversen\n• Dogmatische Einordnung und Interessenabwägung\n• Haltung: wie ein Lehrer, der einem Laien die Entscheidung plausibel macht — ausführlich, aber ohne Abschweifen.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Was verrät die INSCRIPTIO „D 20.1.29.2 Paulus libro quinto responsorum“?",
+   "back": "Fundstelle: Digesten Buch 20, Titel 1, Fragment 29, Paragraph 2; Herkunft: 5. Buch der Responsen (Gutachtensammlung) des spätklassischen Juristen Paulus.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Musterexegese D 20.1.29.2 (Case 170): Welche Interpretationspunkte führt das Lehrbuch an?",
+   "back": "1. Rechtsnatur des Pfandrechts (beschränktes dingliches Recht, ACTIO PIGNERATICIA IN REM).\n2. Entstehung (Eigentum des Verpfänders, Forderung — Akzessorietät, CONVENTIO PIGNORIS).\n3. Auslegung der Abrede: „Haus“ = Haus samt Grund (SUPERFICIES SOLO CEDIT).\n4. Kein Untergang durch Brand — Pfand am Grund besteht fort.\n5. Veräußerung ohne Zustimmung des Gläubigers — Pfand bleibt (Meinungsstreit zum Erwerb des Käufers).\n6. VINDICATIO PIGNORIS gegen den besitzenden Käufer.\n7. EXCEPTIO DOLI des gutgläubigen Bauenden bis Ersatz der Wertsteigerung (Rechenbeispiel: Grund 100.000, Baukosten 800.000, Wert 600.000 → 500.000).\n8. MALAE FIDEI POSSESSOR: wohl nur IUS TOLLENDI (D 6.1.37).\n9. Interessenabwägung: Gläubiger wird durch den Ersatz nicht schlechter gestellt, als wenn nicht verkauft worden wäre.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "12.01. Gemischte Fälle — Falllösung und Exegese (Methode)",
+   "readyBy": "2027-01-12",
+   "front": "Musterexegese D 20.1.29.2: Wie viel kann der gutgläubige Bauende verlangen, wenn der Grund 100.000 wert war, der Bau 800.000 kostete und der Wert jetzt 600.000 beträgt?",
+   "back": "500.000 — Ersatz nur, soweit die Sache wertvoller geworden ist (QUATENUS PRETIOSIOR RES FACTA EST), nicht die vollen Baukosten.\n• Durchsetzung: EXCEPTIO DOLI / Zurückbehaltung gegen die ACTIO PIGNERATICIA IN REM.\n• Africanus D 39.2.44.1 versagt die Retention und verweist auf vertragliche Ansprüche gegen den Verkäufer (Insolvenzrisiko beim Käufer).",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Kontroversen im Überblick",
+   "readyBy": "2027-01-12",
+   "front": "Kontroversen beim Besitzerwerb: Versiegeln des Weinfasses und verwundetes Wild — wer vertritt was?",
+   "back": "Weinfass (D 18.6.1.2): Trebatius — Besitz erworben; Labeo, Ulpian — nicht (nur Schutz gegen Vertauschen). (Holzbalken markieren, D 18.6.15(14).1: Besitz ja.)\nWild (D 41.1.5.1): Trebatius — Besitz ab fangbarer Verwundung, solange verfolgt; Gaius — erst mit dem Fang.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1",
+    "kontroverse"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Kontroversen im Überblick",
+   "readyBy": "2027-01-12",
+   "front": "Kontroversen beim Eigentumserwerb durch TRADITIO und Ersitzung: Dissens über die Causa; Fruchterwerb bei nachträglicher Bösgläubigkeit — wer vertritt was?",
+   "back": "Schenkung/Darlehen-Dissens: Julian (D 41.1.36) — Eigentum geht über; Ulpian (D 12.1.18 pr) — keine IUSTA CAUSA, erst Vermischung macht D originär zum Eigentümer, Rückforderung scheitert an EXCEPTIO DOLI.\nNachträgliche MALA FIDES: Pomponius, Paulus — Ersitzung weiter, Fruchterwerb nicht mehr; Julian — beides weiter bis zur Klage des Eigentümers.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1",
+    "kontroverse"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Kontroversen im Überblick",
+   "readyBy": "2027-01-12",
+   "front": "Kontroversen bei den natürlichen Erwerbsarten: Schatzfund, Verschweißen gleicher Metallstücke, SPECIFICATIO, TABULA PICTA — wer vertritt was?",
+   "back": "Schatz: Sabinianer — RES NULLIUS, OCCUPATIO (herrschend); Prokulianer — Grundeigentümer erwirbt bei Kenntnis schon durch Besitzwillen; Brutus/Manilius — Bestandteil des Grundstücks; Hadrian — halb Finder, halb Grundeigentümer.\nVerschweißte Metallstücke (D 41.1.27.2): Cassius — größeres/wertvolleres Stück bzw Miteigentum oder Verbindender; Proculus, Pegasus — jeder behält seinen Teil.\nSPECIFICATIO: Sabinianer — Stoffeigentümer; Prokulianer — Verarbeiter; MEDIA SENTENTIA — umkehrbar/unumkehrbar.\nTABULA PICTA: zur Zeit des Gaius herrschend — Maler; Gaius, Paulus — Tafeleigentümer.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1",
+    "kontroverse"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "12.01. Gemischte Fälle — Kontroversen im Überblick",
+   "readyBy": "2027-01-12",
+   "front": "Kontroversen bei Eigentumsschutz und Pfandrecht: Doppelverkauf durch Nichtberechtigte; Untergang nach LITIS CONTESTATIO; Pfand an fremder Sache bei Erbfolge — wer vertritt was?",
+   "back": "Doppelverkauf (ACTIO PUBLICIANA): Neratius (D 19.1.31.2) — wem zuerst übergeben wurde (auch bei zwei Nichtberechtigten); Julian, Ulpian (D 6.2.9.4) — bei verschiedenen Nichtberechtigten, wer besitzt.\nUntergang nach LC: Prokulianer — Haftung auch für CASUS (RESTITUERE); Sabinianer/Paulus — nur bei DOLUS/CULPA.\nPassivlegitimation (D 6.1.9): Pegasus — Interdiktenbesitz; Ulpian — FACULTAS RESTITUENDI.\nPfand an fremder Sache, Eigentümer beerbt Verpfänder: Paulus (D 13.7.41) — keine Heilung; Modestinus (D 20.1.22) — Heilung.\nImmobiliarbesetzung: Labeo — sofortiger Besitzverlust; herrschend (Ulpian) — erst wenn Vertreibung scheitert.",
+   "tags": [
+    "roman-property-law",
+    "gemischte-faelle",
+    "p1",
+    "kontroverse"
+   ]
+  }
+ ]
+}

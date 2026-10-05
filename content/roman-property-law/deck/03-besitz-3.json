@@ -1,0 +1,243 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Besitz III — Besitzerhaltung an Grundstücken",
+   "readyBy": "2026-10-27",
+   "front": "Seit wann wird Besitz an Grundstücken SOLO ANIMO anerkannt — und wie lange hält er?",
+   "back": "Zunächst nur bei saisonal genutztem Land (Sommer-/Winterweiden, SALTUS); schon zu Beginn der Klassik erkennt Proculus SOLO-ANIMO-Besitz für alle Grundstücke an.\n• Nicht unbegrenzt, sondern nur im Hinblick auf die Wiederherstellung des CORPUS; verloren wohl, wenn der Besitzer (bzw seine Leute) nicht wie geplant zurückkehrt.\n• Vgl Ulpian D 41.2.3.11 (Case 48), D 43.16.1.25 (Case 50); Papinian D 41.2.46 (Case 51).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Besitz III — Besitzerhaltung an Grundstücken",
+   "readyBy": "2026-10-27",
+   "front": "A besetzt B's Grundstück ohne Erlaubnis mit Besitzwillen. Erwirbt A sofort Besitz?",
+   "back": "Nein. Entscheidend ist, ob B die Herrschaft zurückgewinnt — dann gab es keinen Besitzwechsel, B war durchgehend Besitzer.\n• A erwirbt Besitz erst, wenn B keinen Versuch unternimmt, die Herrschaft zurückzugewinnen, oder wenn der Versuch scheitert.\n• Besitzänderung nur, wenn wahrscheinlich dauerhaft.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Besitz III — Besitzerhaltung an Grundstücken",
+   "readyBy": "2026-10-27",
+   "front": "Jemand findet bei der Heimkehr sein Haus besetzt und kann den Eindringling nicht mit Gewalt vertreiben. Welche Rechtsbehelfe hat er?",
+   "back": "Besitzrechtliche: INTERDICTUM UTI POSSIDETIS, INTERDICTUM UNDE VI.\nPetitorische: ACTIO PUBLICIANA, REI VINDICATIO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Besitz III — Besitzerhaltung an Grundstücken",
+   "readyBy": "2026-10-27",
+   "front": "Ulpianus (Labeo) D 41.2.6.1 (Case 52): B geht auf den Markt, ohne jemanden zum Schutz seines Guts zurückzulassen; A besetzt es. Verliert B den Besitz?",
+   "back": "Herrschende Lehre (Ulpian): B verliert den Besitz erst, wenn er A nach seiner Rückkehr nicht vertreiben kann.\n• Labeo: A wird mit dem Eindringen Besitzer, B verliert sofort — diese Ansicht setzte sich nicht durch.\n• Solange niemand eindringt, behält B trotz vorübergehender Abwesenheit CORPUS.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 3,
+   "topic": "27.10. Besitz III — Besitzerhaltung an Grundstücken",
+   "readyBy": "2026-10-27",
+   "front": "Was sagt Celsus D 41.2.18.4 (Case 54) zur Besetzung eines Grundstücks durch eine bewaffnete Schar?",
+   "back": "Die Schar erwirbt sofort Besitz — aber nur an dem Teil, den sie tatsächlich beherrscht, nicht am ganzen Grundstück.\n• Ähnlich wie Labeos (nicht durchgesetzte) Ansicht.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Besitz III — Besitzerhaltung an Grundstücken",
+   "readyBy": "2026-10-27",
+   "front": "Pomponius D 41.2.25.2 (Case 53): Der Besitzer ist länger abwesend; ein Eindringling besetzt das Gut. Wann erwirbt der Eindringling Besitz?",
+   "back": "Erst wenn der Besitzer B keinen Versuch unternimmt, die Herrschaft zurückzugewinnen, oder dieser scheitert.\n• Bei längerer Abwesenheit hat B Besitz SOLO ANIMO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Besitz III — Besitzerhaltung an Grundstücken",
+   "readyBy": "2026-10-27",
+   "front": "Was gilt, wenn Detentoren oder Besitzdiener eines Grundstücks sterben oder das Grundstück verlassen?",
+   "back": "Der Besitzer behält den Besitz SOLO ANIMO — wohl nur so lange, bis er davon erfährt und Maßnahmen zur Wiederherstellung des CORPUS ergreifen kann.\n• Paulus D 41.2.3.8 (Case 65); Proculus D 4.3.31 (Case 66); Pomponius D 41.2.25.1 (Case 61).\n• Julian (Africanus D 41.2.40.1): Der Verpächter verliert den Besitz, wenn der Pächter freiwillig wegzieht.\n• Der Erbe des Pächters übt die Herrschaft weiter für den Besitzer aus (Labeo/Iavolenus D 19.2.60.1, Case 60).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Besitz III — Besitzerhaltung an Grundstücken",
+   "readyBy": "2026-10-27",
+   "front": "Beeinträchtigt es den Besitz, wenn der Detentor geisteskrank wird oder durch einen Unterpächter besitzt?",
+   "back": "Nein — der Status des Besitzers bleibt unberührt (Pomponius D 41.2.25.1, Case 61).\n• Kette von Detentoren: Der Unterpächter hält für den Unterverpächter, dieser als Pächter für den Verpächter; ein weiteres Glied schadet nicht (Paulus D 41.2.30.6, Case 62).\n• Bildet ein Detentor bloß innerlich ANIMUS REM SIBI HABENDI, ändert das nichts.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Besitz III — Besitzerhaltung an Grundstücken",
+   "readyBy": "2026-10-27",
+   "front": "Was passiert mit dem Besitz, wenn Detentoren oder Besitzdiener gewaltsam vom Grundstück vertrieben werden?",
+   "back": "Der Besitz geht SOFORT verloren — wohl weil dies eine drastische, radikale Unterbrechung der bestehenden Lage ist (Papinian D 41.2.44.2, Case 51).\n• Der Eindringling erwirbt Besitz.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Besitz III — Übungsfälle aus dem Lehrbuch (Ex 17–22)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 17] Agathon gibt Bellona eine Perlenkette zur Verwahrung. Als er sie Wochen später beleidigt, wirft sie die Kette in einen tiefen See und sagt ihm, sie sei gestohlen worden. Besitzlage?",
+   "back": "1. Verwahrung: Bellona ist Detentorin (ANIMUS REM ALTERI HABENDI); Agathon mittelbarer Eigenbesitzer.\n2. Wurf in den See: Die Kette verlässt jede Einflusssphäre; die Herrschaft (CUSTODIA) ist unwiederbringlich verloren → Agathons Besitz und Bellonas Detention enden (vgl Ulpian D 41.2.13 pr: Steine im Tiber).\n• Bellona erwirbt keinen Besitz (sie will die Kette nicht für sich).\n• Agathon bleibt Eigentümer.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Besitz III — Übungsfälle aus dem Lehrbuch (Ex 17–22)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 18] Leos Schafe weiden auf seiner Weide; ein Hammel springt über den Zaun und verirrt sich im angrenzenden Wald der Marcia. Marcia findet ihn, erkennt ihn als Leos und beschließt, ihn zu behalten. Wer besitzt Schafe und Hammel?",
+   "back": "Schafe auf der Weide: Leo (Herrschaft im Sinn jederzeitiger Zugriffsmöglichkeit, vgl Beispiel 3).\nHammel: Leo verliert den Besitz, als das Tier sich außerhalb seiner Einflusssphäre verirrt (keine CUSTODIA mehr; vgl Pomponius D 41.2.25 pr). Marcia erwirbt originären Besitz, als sie ihn an sich nimmt — sie begeht FURTUM (wissentlich, Bereicherungsabsicht).\n• Leo bleibt Eigentümer (Haustier, keine RES NULLIUS).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Besitz III — Übungsfälle aus dem Lehrbuch (Ex 17–22)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 19] Carus verbringt mit seinem ganzen Haushalt den Sommer auf dem Land. Daphne bricht in sein leeres Haus in Rom ein und wohnt dort. Als Carus zufällig nach einigen Wochen zurückkommt, bemerkt er es, schreitet aber nicht ein. Was geschieht mit seinem Besitz?",
+   "back": "Während der Abwesenheit behält Carus Besitz SOLO ANIMO; das Eindringen allein verschafft Daphne noch keinen Besitz.\n• Als Carus die Besetzung bemerkt und keinen Versuch unternimmt, die Herrschaft zurückzugewinnen, verliert er den Besitz und Daphne erwirbt ihn (Pomponius D 41.2.25.2; Ulpian D 41.2.6.1).\n• Carus bleiben Interdikte (UNDE VI, UTI POSSIDETIS) und petitorische Klagen; Daphne besitzt ihm gegenüber fehlerhaft.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Besitz III — Übungsfälle aus dem Lehrbuch (Ex 17–22)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 20] Nike (Rom) besitzt ein Mietshaus in Neapel, das ihr Sklave Orion verwaltet. Eine Pest tötet Orion; die Mieter Pius, Diana und Ismene fliehen. Erst drei Monate später erfährt Nike davon und schickt ihren Sklaven Solon als Nachfolger. Hatte Nike durchgehend Besitz?",
+   "back": "Ja — sterben oder verlassen Besitzdiener und Detentoren das Grundstück, behält der Besitzer den Besitz SOLO ANIMO (Paulus D 41.2.3.8, Case 65).\n• Das gilt wohl so lange, bis er davon erfährt und Maßnahmen ergreifen kann; Nike handelt sofort nach Kenntnis (Solon) → durchgehender Besitz.\n• Keine gewaltsame Vertreibung (die würde den Besitz sofort beenden).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Besitz III — Übungsfälle aus dem Lehrbuch (Ex 17–22)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 21] Helena verpachtet ihr Gut an Felix. Nach einem Jahr verpachtet Felix es ohne ihr Wissen an Kreon weiter und überlässt es ihm. Kurz darauf wird Kreon von germanischen Invasoren vertrieben. Was geschieht mit Helenas Besitz?",
+   "back": "1. Pacht: Felix ist Detentor; Helena mittelbare Eigenbesitzerin.\n2. Unterpacht: Kette von Detentoren (Kreon für Felix, Felix für Helena) — schadet ihrem Besitz nicht, auch ohne ihr Wissen (Pomponius D 41.2.25.1; Paulus D 41.2.30.6).\n3. Gewaltsame Vertreibung Kreons: Helenas Besitz geht sofort verloren (Papinian D 41.2.44.2, Case 51); die Invasoren erwerben Besitz.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Besitz III — Übungsfälle aus dem Lehrbuch (Ex 17–22)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 22] Eros schreibt Flora, er schenke ihr ein Rassepferd. Flora schickt ihren Sklaven Gripus, der das Pferd von Eros erhält, aber nicht zurückkehrt, sondern in die Berge flieht. Eine Woche später fallen er und das Pferd Räubern in die Hände. Wer besitzt Gripus und das Pferd?",
+   "back": "1. Brief/Annahme allein: kein Besitzübergang.\n2. Übergabe an Gripus: Flora erwirbt Besitz am Pferd ANIMO NOSTRO CORPORE ALIENO (IUSSUM); dass Gripus es für sich will, ist irrelevant.\n3. Flucht: Gripus wird SERVUS FUGITIVUS — Flora behält Besitz an ihm SOLO ANIMO und, da er ihr Besitzdiener bleibt, auch am mitgenommenen Pferd.\n4. Räuber: Sie ergreifen Gripus und das Pferd → Flora verliert den Besitz an beiden; die Räuber erwerben originär (bösgläubig — sie können durch Gripus nichts erwerben).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  }
+ ]
+}

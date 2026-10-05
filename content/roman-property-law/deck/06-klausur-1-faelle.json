@@ -1,0 +1,176 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exercise 1, Kap. XIII] Helen leiht Drusus ihr Pferd für einen Tag; Drusus stellt es in seinen Stall, wo Lunius es nachts stiehlt. Am nächsten Tag verkauft Lunius es an Klio; eine Woche später holt Klios Sklave es auf ihren Befehl. Wer besitzt das Pferd in den einzelnen Stadien?",
+   "back": "1. Helen: Eigenbesitzerin (ANIMUS + CORPUS).\n2. Leihe: Drusus wird Detentor (unmittelbarer natürlicher Besitz, ANIMUS REM ALTERI HABENDI); Helen behält mittelbaren Eigenbesitz.\n3. Diebstahl: Lunius erwirbt originären Besitz (FURTUM), Helen und Drusus verlieren ihre Positionen.\n4. Verkauf an Klio: ändert am Besitz nichts (Kauf ≠ Besitz).\n5. Abholung: Klio erwirbt Besitz ANIMO NOSTRO CORPORE ALIENO (IUSSUM an den Sklaven) — derivativ von Lunius.\n• Methode: chronologisch, Elemente nennen, subsumieren.",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exam Case 3] Cato erbt von seiner Tante ein Landhaus und verkauft im Januar Nike ein Bett aus Thujaholz und einen Silbertisch. Nike lässt beides von ihrem Sklaven Ganymed (PECULIUM, Möbelgeschäft) abholen und ins Lager bringen. Im März des Folgejahres verlangt Agamemnon den Silbertisch zurück, den er der Tante zur Verwahrung gegeben hatte. Wem gehören (a) das Bett, (b) der Tisch?",
+   "back": "(a) Bett: Nike — Cato war als Erbe Eigentümer; Kauf = IUSTA CAUSA; Besitzübergang an Nike durch Ganymed (IUSSUM bzw PECULIUM, ANIMO NOSTRO CORPORE ALIENO); RES NEC MANCIPI → ziviles Eigentum.\n(b) Tisch: Kein derivativer Erwerb — die Tante war nur Verwahrerin, Cato als Erbe tritt nur in ihre Position ein (NEMO PLUS IURIS …). Aber USUCAPIO durch Nike: RES HABILIS (Cato verkaufte gutgläubig, kein FURTUM), Titel Kauf, BONA FIDES, Besitz seit Januar, Mobilie 1 Jahr → im März des Folgejahres (ca 14 Monate) vollendet → Nike ist Eigentümerin; Agamemnon kann nicht mehr vindizieren.",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exam Case 7] Ago gibt Brontes einen Sack eigenes Saatgut zur Verwahrung. Später bittet Brontes in Agos Wohnung, das Saatgut verwenden zu dürfen, und verspricht, nach der Ernte einen Sack gleicher Qualität zurückzugeben; Ago stimmt zu. Besitz und Eigentum im Verlauf?",
+   "back": "1. Verwahrung: Brontes Detentor (natürlicher Besitz), Ago mittelbarer Eigenbesitzer und Eigentümer.\n2. Vereinbarung = Darlehen (MUTUUM) über das Saatgut: TRADITIO BREVI MANU — Ago gibt seinen Besitzwillen auf, Brontes hält künftig im eigenen Namen; CORPUS hat er schon (Gaius D 41.1.9.5). Die Abrede muss nicht in Gegenwart der Sache erfolgen.\n3. Eigentum: Ago Eigentümer + Besitzübertragung + IUSTA CAUSA (Darlehen) → Brontes wird Eigentümer; Ago hat nur einen Rückgabeanspruch auf Gleichartiges.",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exam Case 9] Der 12-jährige Secundus verkauft und übergibt Piso ohne AUCTORITAS TUTORIS seinen Goldring zu einem fairen, sofort bezahlten Preis; Piso hält ihn für 15. Nach 14 Monaten verlangt der Tutor den Ring zurück. Muss Piso ihn herausgeben? Variante: Secundus ist 15, Piso erst 13 — wird Piso Eigentümer?",
+   "back": "Grundfall: Nein. Derivativ scheitert der Erwerb (PUPILLUS kann ohne Tutor nicht verfügen). Aber USUCAPIO: RES HABILIS; beim Erwerb von PUPILLI genügt der gute Glaube statt gültigen Titels; BONA FIDES durch Tatsachenirrtum über das Alter (Paulus D 41.4.2.15); 14 Monate > 1 Jahr → Piso ist Eigentümer.\nVariante: Ja, derivativ — Secundus ist mündig; der unmündige Piso kann ohne Tutor Geschäfte schließen, die ihm nur Rechte verschaffen (der Kauf ist für seinen Erwerb gültige Causa, NEGOTIUM CLAUDICANS); Besitz erwirbt ein PUPILLUS mit genügender Reife (INTELLECTUS) selbst (Paulus D 41.2.1.3).",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exam Case 11] Ago beauftragt Bellona, sein Pferd gegen die Kuh des Carus zu tauschen, und übergibt ihr das Pferd. Am nächsten Tag trifft Bellona Carus auf seiner Weide; Carus willigt ein und übergibt ihr die Kuh. Für das Pferd vereinbaren Carus und Bellona, dass Bellona es vier Wochen von Carus mietet. Besitz und Eigentum am Pferd?",
+   "back": "Besitz: Ago besitzt; mit der Übergabe an Bellona wird sie seine Detentorin (mittelbarer Besitz Agos). Durch die Mietabrede hält Bellona das Pferd künftig für Carus → CONSTITUTUM POSSESSORIUM: Carus erwirbt mittelbaren Besitz, Bellona ist nun seine Detentorin, Ago verliert den Besitz (seine ermächtigte Detentorin hat übertragen).\nEigentum: Bellona ist zur Verfügung ermächtigt; Tausch = auf Eigentumsübertragung gerichtete Causa; Besitzübertragung durch Traditionssurrogat. Pferd = RES MANCIPI → ohne MANCIPATIO wird Carus nur bonitarischer Eigentümer (ziviles Eigentum nach 1 Jahr); Ago behält das NUDUM IUS QUIRITIUM.",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exam Case 12] Victor verkauft Anfang des Jahres eine Statue der Euridike an den gutgläubigen Gaius; am nächsten Tag holt Gaius' Sklave Stilo sie ab. Gaius gibt sie Tiziana zur Verwahrung. Mitte des Jahres stirbt Gaius; Erbe ist Maevius, der die Statue nach einem Jahr von Tiziana holt. Kurz darauf verlangt Euridike sie zurück. Muss Maevius herausgeben?",
+   "back": "Nein (wenn die Statue nicht gestohlen ist).\n• Kein derivativer Erwerb (Victor nicht berechtigt).\n• USUCAPIO: RES HABILIS — im Zweifel ist von Nicht-Furtivität auszugehen (Lehrbuch-Hinweis); Titel Kauf; BONA FIDES des Gaius bei Erwerb; Besitz durch den Sklaven (IUSSUM), dann mittelbar über die Detentorin Tiziana — genügt; Maevius setzt als Erbe fort (SUCCESSIO IN POSSESSIONEM, eigener guter Glaube unnötig); 1 Jahr seit Erwerb abgelaufen → Maevius Eigentümer.\n• Wusste Victor, dass die Statue fremd ist, und verkaufte er in Bereicherungsabsicht, wäre sie RES FURTIVA → keine Ersitzung, REI VINDICATIO der Euridike.",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exam Case 14] Ramses kauft am 1.6. bei Iokaste zehn Balken um 500; man vereinbart, am 15.6. auf ihrem Lagerplatz gemeinsam zehn Balken auszuwählen, die Ramses dann mitnimmt. Am 7.6. fährt Ramses zufällig vorbei, betritt den Lagerplatz, wählt zehn Balken und nimmt sie mit. Rechtslage?",
+   "back": "• Kaufvertrag (1.6.) begründet nur Ansprüche; Eigentum geht erst durch TRADITIO über.\n• 7.6.: keine Übergabe — Iokaste wirkt nicht mit, eine Auswahl/Übergabe war erst für den 15.6. vereinbart → Ramses erwirbt einseitig (originär) Besitz, aber kein Eigentum.\n• NEMO SIBI IPSE CAUSAM POSSESSIONIS MUTARE POTEST: eigenmächtige Besitznahme → kein Zivilbesitz; nach Paulus D 41.2.5 kann der Käufer, der die gekaufte, nicht übergebene Sache ohne Zustimmung des Verkäufers an sich nimmt, nicht ersitzen.\n• Iokaste bleibt Eigentümerin (REI VINDICATIO); Ramses besitzt ihr gegenüber fehlerhaft (CLAM) → kein Interdiktenschutz gegen sie. Ramses hat seinerseits nur den vertraglichen Lieferanspruch.",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exam Case 15] Irene verkauft Brontes den Hengst Spartacus und die Stute Junia; Übergabe nach zwei Wochen. Brontes nimmt dann Spartacus und die Junia sehr ähnliche Stute Hera mit. Lucius hatte Spartacus schon Monate zuvor von Irene gekauft und bezahlt, aber nie erhalten. Rechtslage bezüglich (a) Spartacus, (b) Hera, (c) Junia?",
+   "back": "(a) Spartacus: Doppelverkauf — Eigentum erwirbt, wem zuerst übergeben wird: Brontes (TRADITIO vom Eigentümer, Kauf). Pferd = RES MANCIPI → Brontes bonitarischer Eigentümer (Irene NUDUM IUS QUIRITIUM). Lucius hat nur vertragliche Ansprüche gegen Irene.\n(b) Hera: keine Causa (verkauft war Junia) → kein Eigentumserwerb; Brontes nur Besitzer, Irene Eigentümerin → REI VINDICATIO.\n(c) Junia: weiter Eigentum und Besitz Irenes; Brontes hat den Lieferanspruch aus dem Kauf.",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exam Case 16] Daphne erbt von Onkel Felix u.a. ein Grundstück mit Haus, das in Wahrheit Leo gehört. Am 1.5. verkauft und übergibt sie es an Irene. Im Juli zieht Irene samt Dienern in ihre Sommerresidenz. Anfang August bricht Nachbar Ares ein und zieht ein; zwei Monate später kehrt Irene zurück und vertreibt ihn mit kräftigen Freunden. Am 1.6. des übernächsten Jahres verlangt Leo sein Eigentum. Rechtslage am (a) 2.5., (b) 15.8., (c) 1.6. des übernächsten Jahres?",
+   "back": "(a) 2.5.: Leo Eigentümer; Irene Besitzerin und gutgläubige Ersitzungsbesitzerin (Titel Kauf, RES HABILIS — Grundstücke können nicht gestohlen werden); Daphne konnte als Erbin kein Eigentum verschaffen (NEMO PLUS IURIS …).\n(b) 15.8.: Irene behält Besitz SOLO ANIMO; Ares erwirbt keinen Besitz, solange Irene nicht untätig bleibt oder scheitert (Pomponius D 41.2.25.2; Ulpian D 41.2.6.1). Ersitzung läuft weiter.\n(c) Irene gewinnt die Herrschaft zurück → kein Besitzwechsel, ununterbrochener Besitz (Gewalt gegen den fehlerhaft besitzenden Ares ist erlaubt — VIM VI REPELLERE LICET). Vom 1.5. bis 1.6. des übernächsten Jahres > 2 Jahre → Irene ist durch USUCAPIO Eigentümerin; Leos Vindikation scheitert.",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "10.11. 1. Klausur — Prüfungsfälle aus dem Lehrbuch (Besitz, Eigentumserwerb)",
+   "readyBy": "2026-11-10",
+   "front": "[Lehrbuch Exam Case 22] In Brontes' Haus verkauft Ago ihm sein Pferd Pegasus (vor einer Woche gemeinsam auf Agos Gut besichtigt) um 100.000; zugleich vereinbaren sie, dass Ago das Pferd noch ein Jahr gegen 20.000 Miete behält. Besitz und Eigentum am Pferd?",
+   "back": "• Besitz: CONSTITUTUM POSSESSORIUM — Brontes bildet Besitzwillen, Ago hält das Pferd künftig als Mieter für ihn → Brontes mittelbarer Eigenbesitzer, Ago Detentor. Die Besichtigung vor einer Woche allein verschaffte nichts.\n• Eigentum: Ago Eigentümer + Kauf (IUSTA CAUSA) + Besitzübertragung durch Traditionssurrogat → Eigentumsübergang. Pferd = RES MANCIPI → nur bonitarisches Eigentum (ACTIO PUBLICIANA); ziviles nach einem Jahr Besitz — mittelbarer Besitz durch Ago genügt für die Ersitzung.",
+   "tags": [
+    "roman-property-law",
+    "klausur-1",
+    "p1",
+    "fall",
+    "pruefungsfall-lehrbuch"
+   ]
+  }
+ ]
+}

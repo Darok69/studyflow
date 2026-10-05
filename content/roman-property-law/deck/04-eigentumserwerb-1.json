@@ -1,0 +1,873 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Was ist Eigentum (DOMINIUM, PROPRIETAS)?",
+   "back": "Das dingliche Recht, das dem Eigentümer (DOMINUS) die ausschließliche Herrschaft über eine Sache gibt.\n• Quellen sagen auch SUUM EST („es ist seins“).\n• § 354 ABGB (auch fürs römische Recht brauchbar): Befugnis, mit der Substanz und den Nutzungen einer Sache nach Willkür zu schalten und jeden anderen davon auszuschließen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Eigentum und Besitz: Wie verhalten sie sich zueinander?",
+   "back": "Besitz = gewollte tatsächliche Herrschaft (Tatsache); Eigentum = Recht, die Sache für sich zu haben.\n• Der Besitzwille ist im Kern der Wille, wie ein Eigentümer zu besitzen — der Besitzer WILL die Sache haben, der Eigentümer DARF sie haben.\n• Ulpian D 41.2.12.1: NIHIL COMMUNE HABET PROPRIETAS CUM POSSESSIONE — begrifflich getrennt, praktisch aber eng verbunden (Besitz als Grundlage von TRADITIO, OCCUPATIO, USUCAPIO).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Interdikte vs REI VINDICATIO — was leistet welcher Rechtsbehelf für den Eigentümer?",
+   "back": "Interdikte schützen den IUSTUS POSSESSOR vorläufig gegen Störung und Entziehung — auch den Eigentümer, wenn er als IUSTUS POSSESSOR betroffen ist.\nREI VINDICATIO: Klage des Eigentümers gegen jeden, der die Sache besitzt; klärt endgültig, wem die Sache zusteht.\n• Vgl § 366 1. Satz ABGB.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Eigentum vs beschränkte dingliche Rechte (IURA IN RE ALIENA) — Unterschied und Beispiele?",
+   "back": "Eigentum = umfassendstes dingliches Recht (Vollrecht): Substanz und Nutzungen sind dem Eigentümer zugewiesen.\nBeschränkte dingliche Rechte gewähren nur begrenzte Nutzung einer fremden Sache:\n• SERVITUS: Eigentümer muss etwas dulden oder unterlassen (zB ACTUS = Viehtrieb; AQUAE DUCTUS = Wasserleitung — aber kein Bebauen, Ernten, Verkaufen).\n• PIGNUS: Gläubiger darf fremde Sache zur Befriedigung veräußern.\n• SUPERFICIARIUS: darf auf fremdem Grund bauen und das Gebäude ausschließlich nutzen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Welche Befugnisse hat der Eigentümer?",
+   "back": "1. Gebrauch und Ausschluss anderer (oder Gestattung des Gebrauchs).\n2. Alle Früchte (FRUCTUS NATURALES und CIVILES).\n3. Einwirkung auf die Substanz: verändern, verarbeiten, zerstören.\n4. Bestellung beschränkter dinglicher Rechte (Pfand, Servitut).\n5. Veräußerung (Übertragung des Eigentums).\n6. Ermächtigung eines anderen zur Verfügung.\n7. Dereliktion (Aufgabe des Eigentums ohne Übertragung).\n8. Freilassung eines Sklaven (MANUMISSIO).\n• Durchsetzung mit ACTIONES IN REM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Was sind Früchte? FRUCTUS NATURALES vs FRUCTUS CIVILES?",
+   "back": "Früchte = periodische Erträge, die eine Sache bei bestimmungsgemäßer Verwendung liefert; sie gehören primär dem Eigentümer.\n• FRUCTUS NATURALES: auf natürlichem Weg gewonnen (Obst, Gemüse).\n• FRUCTUS CIVILES: aus Rechtsgeschäften (zB Mietzins).\n• Bsp Lysippe: Äpfel und Kirschen ihres Gartens bzw Pachtzins.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Was bedeuten Verfügungsmacht und Verfügungsermächtigung (Bsp Aulus/Balbus)?",
+   "back": "Der Eigentümer kann sein Eigentum übertragen (nach der Übertragung hat er kein Recht mehr) und einen anderen ermächtigen, darüber zu verfügen.\n• So kann ein Nichteigentümer wirksam über fremdes Eigentum verfügen: Aulus muss in den Krieg und ermächtigt seinen Bruder Balbus, die Äpfel zu verkaufen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Was ist Dereliktion; was wird aus der Sache?",
+   "back": "Der Eigentümer gibt aus eigenem Antrieb den Besitz auf, mit dem erkennbaren Willen, das Eigentum aufzugeben → RES DERELICTA (herrenlos, durch OCCUPATIO erwerbbar).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Was ist IUS COGENS — welche Schranken des Eigentums kennt das römische Recht?",
+   "back": "Zwingendes Recht, das durch Privatvereinbarung nicht abbedungen werden kann; der Eigentümer übt seine Rechte nur in dessen Grenzen aus.\n• Beispiele: Verbot der Schenkung unter Ehegatten; Bauvorschriften (Augustus: keine Gebäude über 70 Fuß ≈ 21 m); Pflicht, das Haus nicht verfallen zu lassen (CAUTIO DAMNI INFECTI); „Legalservituten“ zugunsten der Nachbarn.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Was ist die CAUTIO DAMNI INFECTI?",
+   "back": "Sicherheitsleistung für drohenden Schaden: Droht ein vernachlässigtes Haus einzustürzen und Nachbargebäude zu beschädigen, können die Nachbarn den Eigentümer zwingen, für den bevorstehenden Schaden Sicherheit zu leisten.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Welche zwei Formen des Miteigentums kennt das römische Recht?",
+   "back": "1. CONSORTIUM ERCTO NON CITO — Erbengemeinschaft des alten Zivilrechts (in der Klassik außer Gebrauch).\n2. CONDOMINIUM (COMMUNIO PRO INDIVISO) — Miteigentum nach Quoten im klassischen Recht.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Was sind die Besonderheiten des CONSORTIUM ERCTO NON CITO (Gai Inst 3.154a–b)?",
+   "back": "• Nach dem Tod des PATER FAMILIAS werden die SUI HEREDES gewaltfrei und treten gemeinsam in seine dinglichen Rechte ein; „ERCTO NON CITO“ = DOMINIO NON DIVISO (ungeteiltes Eigentum).\n• Keiner hat einen bestimmten Anteil; Vertrauensverhältnis.\n• Jeder einzelne kann einen gemeinsamen Sklaven wirksam freilassen und eine gemeinsame Sache durch MANCIPATIO für alle wirksam veräußern.\n• Auflösung mit ACTIO FAMILIAE ERCISCUNDAE → jeder Alleineigentümer seines Teils.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Was kennzeichnet das CONDOMINIUM; worüber kann der einzelne Miteigentümer verfügen?",
+   "back": "• Jeder hat eine Quote (zB ein Achtel) am Eigentumsrecht, die Sache selbst ist nicht aufgeteilt.\n• Über seinen Anteil verfügt jeder frei; über die ganze Sache nur alle gemeinsam.\n• Verfügt einer ohne die anderen über das Ganze → wirksam nur für seinen Anteil.\n• Begründbar zB durch Vertrag (SOCIETAS).\n• Teilung: ACTIO COMMUNI DIVIDUNDO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Wie wird ein Sklave freigelassen, der A und B im CONDOMINIUM gehört (Bsp Leo/Irene/Pamphilus)?",
+   "back": "Nur gemeinsam — oder einer erwirbt zuvor den Anteil des anderen.\n• Mancipiert Leo den Pamphilus an Crassus, erwirbt Crassus nur Leos Hälfte; freilassen kann Crassus ihn nur mit Irenes Zustimmung oder nach Kauf ihrer Hälfte.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Eigentum: Begriff, Befugnisse, Schranken, Miteigentum",
+   "readyBy": "2026-10-27",
+   "front": "Wie teilt der Richter bei der ACTIO COMMUNI DIVIDUNDO?",
+   "back": "Teilbare Sachen (zB Geld): Realteilung nach Quoten.\nSonst: Zuweisung an einen Miteigentümer gegen Ausgleichszahlung an die anderen, oder Versteigerung und Verteilung des Erlöses.\n• Bsp Fundus Sulficianus: Babrios braucht für ein Amphitheater die Zustimmung von Agatha und Cato; sonst Teilungsklage oder Kauf der Anteile.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "Welche Arten des Eigentumserwerbs gibt es — derivativ vs originär?",
+   "back": "Drei Kategorien: durch Übertragung (MANCIPATIO, IN IURE CESSIO, TRADITIO), durch Ersitzung (USUCAPIO), durch „natürliche“ Erwerbsarten.\n• Derivativ = vom Recht des Vormanns abgeleitet (Übertragung).\n• Originär = ohne Mitwirkung eines Vormanns (Ersitzung, natürliche Erwerbsarten).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "Was bedeutet NEMO PLUS IURIS TRANSFERRE POTEST QUAM IPSE HABET?",
+   "back": "Niemand kann mehr Rechte übertragen, als er selbst hat (Ulpian D 41.1.20 pr, Case 67).\n• Folge des derivativen Erwerbs: Der Umfang des Erwerberrechts bestimmt sich nach dem des Vormanns.\n• Weniger übertragen geht: Solon mancipiert sein Gut an Victor und behält sich das Wohnrecht (HABITATIO) vor.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "Beispiel 21: Leo schenkt seine Sklavin Pomona, an der Verres einen USUFRUCTUS hat, durch MANCIPATIO an Ajax. Rechtslage?",
+   "back": "Ajax wird Eigentümer, aber belastet mit dem USUFRUCTUS des Verres — Leo konnte nicht mehr Rechte übertragen, als er hatte (NEMO PLUS IURIS …).\n• Verres kann seinen Nießbrauch gegen Ajax geltend machen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "Was ist USUCAPIO; welche Rolle spielt sie und hat der frühere Eigentümer einen Ausgleichsanspruch?",
+   "back": "Eigentumserwerb durch qualifizierten Besitz während einer gesetzlichen Frist (vgl adverse possession).\n• Wichtig, wo der derivative Erwerb scheitert (Veräußerer ohne Eigentum/Verfügungsbefugnis, fehlende Causa) → Ersitzung als ORIGINÄRER Erwerb.\n• Nach Fristablauf gehört die Sache dem Ersitzenden; der frühere Eigentümer verliert sein Recht OHNE Ausgleichsanspruch.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "Welche „natürlichen“ Erwerbsarten gibt es (Gaius: NATURALIS RATIO)?",
+   "back": "1. OCCUPATIO (Aneignung herrenloser Sachen)\n2. Fruchterwerb\n3. ACCESSIO (Verbindung)\n4. CONFUSIO, COMMIXTIO (Vermengung, Vermischung)\n5. SPECIFICATIO (Verarbeitung)",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "Wem gehören Früchte nach der Trennung (Überblick)?",
+   "back": "Grundsätzlich dem Eigentümer der Muttersache (vorher sind sie unselbständiger Teil).\nAusnahmen:\na. BONAE FIDEI POSSESSOR — mit der SEPARATIO\nb. Erbpächter (Emphyteuta) — mit der SEPARATIO\nc. Pächter (COLONUS, CONDUCTOR) — erst mit der PERCEPTIO (Ansichnahme)\nd. Fruchtnießer (Usufructuar) — erst mit der PERCEPTIO\n• Bis zur Perzeption gehören die Früchte zunächst dem Eigentümer der Muttersache.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "ACCESSIO, CONFUSIO/COMMIXTIO, SPECIFICATIO — Überblick über die Rechtsfolgen?",
+   "back": "ACCESSIO: untrennbare Verbindung → der Eigentümer der Hauptsache erwirbt originär die Nebensache; der frühere Eigentümer hat einen Ausgleichsanspruch (Bsp 23: an den Wagen geschweißtes Blech gehört Charinus).\nCONFUSIO/COMMIXTIO: gleichartige Stoffe ununterscheidbar vermengt → Eigentumslage bleibt, jeder vindiziert seinen Teil (VINDICATIO PRO PARTE; Bsp 24: 2 t Gripus, 4 t Stichus).\nSPECIFICATIO: neue Sache (NOVA SPECIES) aus fremdem Stoff → Schulenstreit, MEDIA SENTENTIA (Bsp 25: Wein aus Simons Trauben gehört Peitho).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "SPECIFICATIO: Sabinianer vs Prokulianer — und was ist die MEDIA SENTENTIA?",
+   "back": "Sabinianer: Die neue Sache gehört dem Stoffeigentümer.\nProkulianer: Sie gehört dem Verarbeiter.\nMEDIA SENTENTIA (Kompromiss): Ist die Verarbeitung umkehrbar → Stoffeigentümer; nicht umkehrbar → Verarbeiter, der den früheren Stoffeigentümer entschädigen muss.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — MANCIPATIO und IN IURE CESSIO",
+   "readyBy": "2026-10-27",
+   "front": "IUS CIVILE vs IUS HONORARIUM — was ist was?",
+   "back": "IUS CIVILE: älteres Recht (MOS MAIORUM, LEGES, Plebiszite, INTERPRETATIO).\nIUS HONORARIUM: vom Prätor geschaffen, um das starr gewordene IUS CIVILE an neue Entwicklungen anzupassen (zB Formfreiheit).\n• Bsp: Bonitarisches Eigentum (prätorisch) entspricht inhaltlich dem zivilen, wird aber mit der ACTIO PUBLICIANA statt der REI VINDICATIO geltend gemacht.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — MANCIPATIO und IN IURE CESSIO",
+   "readyBy": "2026-10-27",
+   "front": "Wie läuft eine MANCIPATIO ab?",
+   "back": "Hochformalisiert, mit acht Personen: Veräußerer, Erwerber, Waagehalter (LIBRIPENS) und fünf Zeugen.\n• Der Erwerber ergreift die RES MANCIPI (oder ein Symbol), spricht die Formel und schlägt mit einer Münze an die Waage; der Veräußerer schweigt.\n• Formel beim Sklavenkauf: HUNC EGO HOMINEM EX IURE QUIRITIUM MEUM ESSE AIO ISQUE MIHI EMPTUS ESTO HOC AERE AENEAQUE LIBRA.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — MANCIPATIO und IN IURE CESSIO",
+   "readyBy": "2026-10-27",
+   "front": "Was sind RES MANCIPI, was RES NEC MANCIPI?",
+   "back": "RES MANCIPI: italische Grundstücke samt Gebäuden, bestimmte Prädialservituten, Sklaven, bestimmte Zug- und Lasttiere (Rinder, Pferde, Esel, Maulesel, Maultiere) — die wichtigsten Produktionsmittel der frühen Agrargesellschaft.\n• Provinzialgrundstücke (PRAEDIA STIPENDIARIA/TRIBUTARIA) sind keine RES MANCIPI (Gai Inst 2.14a).\nRES NEC MANCIPI: alle anderen Sachen.\n• Klausurtipp: Bei jedem Erwerb kurz sagen, ob RES MANCIPI oder nicht.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — MANCIPATIO und IN IURE CESSIO",
+   "readyBy": "2026-10-27",
+   "front": "Ist die MANCIPATIO abstrakt oder kausal, derivativ oder originär? Was sind ihre Voraussetzungen?",
+   "back": "Abstrakt und derivativ.\n• Voraussetzungen: ziviles Eigentum des Veräußerers an der RES MANCIPI + korrekter Formalakt.\n• Keine IUSTA CAUSA nötig — der Erwerber wird auch ohne gültigen Kaufvertrag ziviler Eigentümer; der Veräußerer kann mit einer CONDICTIO zurückfordern.\n• Derivativ: kein Erwerb vom Nichtberechtigten (NEMO PLUS IURIS …).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — MANCIPATIO und IN IURE CESSIO",
+   "readyBy": "2026-10-27",
+   "front": "Setzt die MANCIPATIO eine körperliche Übergabe voraus?",
+   "back": "Nein — die gültige MANCIPATIO überträgt das Eigentum an der RES MANCIPI ohne physische Übergabe; ein Gut in Norditalien kann in Rom mancipiert werden.\n• Wie der Besitz übergeht, ist gesondert zu prüfen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — MANCIPATIO und IN IURE CESSIO",
+   "readyBy": "2026-10-27",
+   "front": "Was ist eine CONDICTIO?",
+   "back": "Klage auf Rückgängigmachung nicht (mehr) gerechtfertigter Vermögensverschiebungen (ungerechtfertigte Bereicherung) — zB nach einer MANCIPATIO ohne gültigen Kaufvertrag.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — MANCIPATIO und IN IURE CESSIO",
+   "readyBy": "2026-10-27",
+   "front": "Wie läuft eine IN IURE CESSIO ab und wofür kann sie verwendet werden?",
+   "back": "Nachgebildet dem altrömischen Eigentumsprozess: Beide Parteien erscheinen vor dem Prätor; der Erwerber behauptet, die Sache sei sein, der Veräußerer schweigt; der Prätor spricht sie dem Erwerber zu (ADDICTIO).\n• Abstrakt, derivativ, formgebunden.\n• Überträgt ziviles Eigentum an RES MANCIPI — anders als die MANCIPATIO auch an RES NEC MANCIPI.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Welche drei Voraussetzungen hat der Eigentumserwerb durch TRADITIO?",
+   "back": "1. Eigentum oder Verfügungsbefugnis des Veräußerers (NEMO PLUS IURIS …).\n2. Besitzübertragung auf den Erwerber — physische Übergabe oder TRADITIO BREVI MANU bzw CONSTITUTUM POSSESSORIUM.\n3. Gültiger Erwerbsgrund: IUSTA CAUSA (= TITULUS).\n• Formfrei, auch Nichtbürgern offen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Was ist IUSTA CAUSA TRADITIONIS? Nenne die wichtigsten.",
+   "back": "Ein vom Recht anerkannter Erwerbsgrund, also ein Geschäft, das auf dauernde Eigentumsübertragung zielt (Rechtsgrund der Übertragung).\n• Wichtigste: Kauf, Darlehen (MUTUUM), Schenkung, Mitgift (DOS).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Warum ist die TRADITIO eine kausale Übertragung — im Gegensatz zu MANCIPATIO und IN IURE CESSIO?",
+   "back": "Die Übergabe (MODUS) bewirkt Eigentumsübergang nur, wenn sie durch einen gültigen Rechtsgrund (TITULUS, CAUSA) gerechtfertigt ist.\n• MANCIPATIO und IN IURE CESSIO sind abstrakt (keine Causa nötig).\n• Alle drei sind derivativ.\n• Österreich: § 380 ABGB — ohne Titel und rechtliche Erwerbungsart kein Eigentum.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Was erwirbt, wer eine RES MANCIPI bloß durch TRADITIO (vom Berechtigten, ex iusta causa) erhält?",
+   "back": "Kein ziviles (quiritisches) Eigentum — das erst nach Ablauf der Ersitzungsfrist.\n• Der Prätor schützt ihn aber: Er ist nicht nur Ersitzungsbesitzer, sondern bonitarischer Eigentümer (Eigentümer nach prätorischem Recht).\n• Durchsetzung gegen jedermann mit der ACTIO PUBLICIANA (Gegenstück zur REI VINDICATIO).\n• Ziviles Eigentum durch TRADITIO nur bei RES NEC MANCIPI.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Quiritisches (ziviles) vs bonitarisches Eigentum — Unterschied und Rechtsbehelfe?",
+   "back": "Quiritisch: Eigentum nach IUS CIVILE (DOMINIUM EX IURE QUIRITIUM), erworben zB durch MANCIPATIO/IN IURE CESSIO (bzw TRADITIO bei RES NEC MANCIPI) → REI VINDICATIO.\nBonitarisch: Eigentum nach prätorischem Recht, wenn eine RES MANCIPI vom Berechtigten nur tradiert wurde → ACTIO PUBLICIANA; wird nach Ablauf der Ersitzungsfrist zu quiritischem.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Iavolenus D 39.5.25 (Case 68): E übergibt T eine Sache, die T in E's Namen dem Titius schenken soll; T schenkt sie im eigenen Namen. Erwirbt Titius Eigentum?",
+   "back": "Nein — T ist weder Eigentümer noch ermächtigt, im eigenen Namen zu schenken (nur in E's Namen bzw als Bote).\n• Besitzübergang (physische Übergabe) und Causa (Schenkung zwischen T und Titius) liegen vor — es fehlt die Verfügungsbefugnis.\n• E bleibt Eigentümer; gegen seine REI VINDICATIO hat Titius aber die EXCEPTIO DOLI (BENIGNIUS EST — E's Schenkungswille wurde verwirklicht; VENIRE CONTRA FACTUM PROPRIUM).\n• T haftet E wegen Überschreitung (FURTUM) → die Sache wird RES FURTIVA, auch Titius kann nicht ersitzen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Was bedeutet VENIRE CONTRA FACTUM PROPRIUM?",
+   "back": "Handeln im Widerspruch zum eigenen früheren Verhalten: Wer überraschend seine Meinung ändert und so das durch sein Verhalten geschaffene Vertrauen bricht.\n• Bsp D 39.5.25: E kann die geschenkte Sache nicht von Titius zurückfordern (EXCEPTIO DOLI).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Iulianus D 41.1.36 (Case 70), 1. Fall: A übereignet B ein Grundstück, weil er meint, es aufgrund eines Testaments zu schulden; B nimmt es an, weil er glaubt, A schulde es aufgrund einer Stipulation. Eigentumsübergang?",
+   "back": "Ja (Julian): Es genügt die Einigung, dass zur Erfüllung einer Verbindlichkeit übertragen wird, auch wenn über die genaue Causa Dissens besteht.\n• Unproblematisch, wenn eine der beiden Verbindlichkeiten besteht.\n• Besteht keine: Manche Romanisten sehen im gemeinsamen Erfüllungszweck selbst eine Causa — CAUSA SOLVENDI (trägt die Übertragung auch ohne gültige Verbindlichkeit).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Was ist die CAUSA SOLVENDI?",
+   "back": "Der gemeinsame Zweck der Parteien, eine Verbindlichkeit zu erfüllen, als Rechtsgrund der TRADITIO — nach manchen ausreichend auch dann, wenn die zu erfüllende Verbindlichkeit gar nicht bestand (Deutung von Julian D 41.1.36).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Iulianus D 41.1.36 (Case 70), 2. Fall: C gibt D Geld als Schenkung, D nimmt es als Darlehen (MUTUUM). Erwirbt D Eigentum?",
+   "back": "Julian: Ja — mit der Übergabe erwirbt D DERIVATIV Eigentum (nicht erst durch Vermischung).\n• Streng fehlt die IUSTA CAUSA: weder Schenkung noch Darlehen vereinbart (Dissens); CAUSA SOLVENDI scheidet aus.\n• Julian sieht aber Einigkeit über das Wesentliche: Schenkung und Darlehen übertragen beide Eigentum ohne Gegenleistung (Unterschied nur: dauernd vs vorübergehend) → gemeinsamer Nenner = IUSTA CAUSA (Analogie). Er gibt das Causa-Erfordernis nicht auf.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Ulpianus D 12.1.18 pr (Case 71): C gibt D Geld als Schenkung, D nimmt es als Darlehen. Lösung Ulpians — und Unterschied zu Julian?",
+   "back": "Ulpian (strenger, ca zwei Generationen nach Julian): Kein Konsens, keine IUSTA CAUSA TRADITIONIS → D erwirbt NICHT derivativ.\n• C bleibt Eigentümer, bis D die Münzen verbraucht (v.a. mit eigenem Geld ununterscheidbar vermischt) → dann erwirbt D ORIGINÄR.\n• Vorher REI VINDICATIO, danach CONDICTIO möglich — aber D wehrt beides mit der EXCEPTIO DOLI ab, weil C ihm ja schenken wollte.\n• Julian (D 41.1.36): D erwirbt sofort derivativ durch TRADITIO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Kontroverse Julian vs Ulpian beim Dissens über die Causa (Schenkung/Darlehen) — wie hängt sie mit dem modernen Recht zusammen?",
+   "back": "Julians Satz, es genüge die Einigung über den Eigentumsübergang, ist die Grundlage der Abstraktionstheorie des BGB (§ 929: Einigung + Übergabe, keine Causa).\n• Julian selbst verzichtet aber wohl nicht auf die Causa, verlangt nur keinen Konsens über die Causa mehr.\n• Ulpian hält am strengen Causa-Konsens fest (vgl kausales System wie ABGB).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Modelle der Eigentumsübertragung im modernen Recht",
+   "readyBy": "2026-10-27",
+   "front": "Welche drei Modelle der Übertragung von Fahrniseigentum kennen moderne Kodifikationen?",
+   "back": "1. Konsensprinzip (bloße Einigung) — Frankreich (Code civil), Italien.\n2. Abstrakte Übertragung — Deutschland (§ 929 BGB).\n3. Kausale Übertragung (TITULUS + MODUS) — Österreich (ABGB), Schweiz (ZGB), Niederlande (BW).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Modelle der Eigentumsübertragung im modernen Recht",
+   "readyBy": "2026-10-27",
+   "front": "Was sagt Institutionen 2.1.40 über die TRADITIO — und was machte die Naturrechtslehre daraus?",
+   "back": "Nach Naturrecht erwerben wir Sachen auch durch TRADITIO; nichts entspricht der natürlichen Billigkeit so sehr, wie den Willen des Eigentümers, seine Sache einem anderen zu übertragen, anzuerkennen → körperliche Sachen jeder Art können tradiert werden (Unterschied RES MANCIPI/NEC MANCIPI aufgegeben).\n• Frühe Neuzeit: Der Wille des Eigentümers (VOLUNTAS DOMINI REM SUAM TRANSFERENDI) genüge → Hugo Grotius: nach IUS CIVILE TRADITIO nötig, nach Naturrecht genügt der Wille.\n• Justinian kennt MANCIPATIO, IN IURE CESSIO und bonitarisches Eigentum nicht mehr.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Modelle der Eigentumsübertragung im modernen Recht",
+   "readyBy": "2026-10-27",
+   "front": "Wann geht nach französischem Recht (Konsensprinzip) das Eigentum über?",
+   "back": "Sobald eine gültige Verpflichtung zur Übertragung entsteht, zB ein gültiger Kauf über eine bestimmte Sache — „Obligationen übertragen Eigentum“ (Art 711, 938, 1196, 1583 Code civil).\n• Gattungskauf: erst mit Konkretisierung; Eigentumsübergang läuft parallel zum Gefahrübergang (vgl PERICULUM EST EMPTORIS).\n• Die Übergabe bleibt wichtig für gutgläubigen Erwerb: Bei Doppelverkauf beweglicher Sachen erwirbt, wem zuerst übergeben wurde, wenn er gutgläubig besitzt (Art 1198 CC).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Modelle der Eigentumsübertragung im modernen Recht",
+   "readyBy": "2026-10-27",
+   "front": "Was bedeuten Trennungs- und Abstraktionsprinzip im BGB; was verlangt § 929 BGB?",
+   "back": "Trennungsprinzip: Verpflichtung und dingliche Verfügung sind streng getrennt.\nAbstraktionsprinzip: Die Wirksamkeit der Verfügung ist von der Gültigkeit des Grundgeschäfts (Causa) unabhängig.\n§ 929 S 1 BGB: Eigentümer (oder Verfügungsbefugter) übergibt + beide sind sich über den Eigentumsübergang einig (dingliche Einigung); keine Einigung über die Causa nötig.\n• Ist der Vertrag nichtig oder wird er angefochten, bleibt das Eigentum beim Erwerber; nur Bereicherungsansprüche.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Modelle der Eigentumsübertragung im modernen Recht",
+   "readyBy": "2026-10-27",
+   "front": "Was verlangt das ABGB für den Erwerb von Fahrniseigentum (kausale Übertragung)?",
+   "back": "TITULUS (gültiger Titel) + MODUS (Übergabe) — § 425 ABGB: Der bloße Titel gibt noch kein Eigentum.\n• Übergabe körperlich (§ 426), durch Erklärung — CONSTITUTUM POSSESSORIUM, BREVI MANU, Besitzanweisung (§ 428) — oder durch Zeichen (§ 427, zB bei Ware in Transport/Lagerung).\n• Liegenschaften: Eintragung ins Grundbuch (Intabulation) — konstitutiv (§ 431 ABGB).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 3,
+   "topic": "27.10. Eigentumserwerb I — Modelle der Eigentumsübertragung im modernen Recht",
+   "readyBy": "2026-10-27",
+   "front": "Welche moderne Übertragungsform zeigt eine ähnliche Formstrenge wie MANCIPATIO und IN IURE CESSIO?",
+   "back": "Die Übertragung von Liegenschaften durch Eintragung ins Grundbuch (Intabulation, § 431 ABGB) — ein konstitutiver Formalakt ersetzt die körperliche Übergabe.\n• (Lehrbuch-Revision Frage 16; Antwort aus dem Kapitel abgeleitet.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — Modelle der Eigentumsübertragung im modernen Recht",
+   "readyBy": "2026-10-27",
+   "front": "Doppelverkauf einer beweglichen Sache: Wer wird Eigentümer nach römischem Recht, ABGB, BGB und Code civil?",
+   "back": "Römisches Recht und ABGB: wem zuerst übergeben wird (TRADITIO bzw MODUS) — der Kauf allein überträgt nichts.\nBGB: an wen übereignet wurde (Einigung + Übergabe).\nCode civil: Grundsätzlich mit Vertragsschluss; bei Doppelverkauf erwirbt, wem zuerst übergeben wurde, wenn er gutgläubig besitzt (Art 1198 CC).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Modelle der Eigentumsübertragung im modernen Recht",
+   "readyBy": "2026-10-27",
+   "front": "In welchen Fällen geht nach römischem Recht Eigentum ohne körperliche Übergabe über?",
+   "back": "• MANCIPATIO und IN IURE CESSIO (Formalakte ohne physische Übergabe).\n• TRADITIO durch Traditionssurrogate: TRADITIO BREVI MANU, CONSTITUTUM POSSESSORIUM.\n• (Besitzerwerb OCULIS ET AFFECTU, Schlüsselübergabe — CORPUS ohne Ergreifen.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Modelle der Eigentumsübertragung im modernen Recht",
+   "readyBy": "2026-10-27",
+   "front": "Geht nach römischem Recht Eigentum ohne gültige Causa über?",
+   "back": "Bei MANCIPATIO und IN IURE CESSIO ja (abstrakt; Rückabwicklung per CONDICTIO).\n• Bei der TRADITIO grundsätzlich nein — Julian lockert das aber: Er verlangt keinen Konsens über die genaue Causa (D 41.1.36; ggf CAUSA SOLVENDI).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Übungsfälle aus dem Lehrbuch (Ex 23–28)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 23] Ramses verkauft am 1.1. seine Vase an Juno. Zwei Wochen später schickt Juno ihren Sklaven Solon, die Vase zu holen; auf dem Heimweg stiehlt sie Tiro. Wem gehört die Vase? Welche Klagen gegen Tiro, wer ist klagebefugt?",
+   "back": "• 1.1.: Nur Kaufvertrag — Eigentum bleibt bei Ramses.\n• Übergabe an Solon: TRADITIO (Ramses Eigentümer, Kauf = IUSTA CAUSA, Besitzerwerb ANIMO NOSTRO CORPORE ALIENO über das IUSSUM) → Juno wird Eigentümerin (Vase = RES NEC MANCIPI → ziviles Eigentum).\n• Diebstahl: Tiro erwirbt nur Besitz, kein Eigentum; Juno bleibt Eigentümerin.\n• Juno gegen Tiro: ACTIO FURTI (Strafklage) + CONDICTIO FURTIVA (kumulierbar); alternativ zur Condictio REI VINDICATIO (nicht kumulierbar).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Übungsfälle aus dem Lehrbuch (Ex 23–28)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 24] Ufens behauptet, Secundus schulde ihm aus Kauf einen Ochsen; Secundus mancipiert ihm einen Ochsen. Der Kaufvertrag war von Anfang an nichtig. Wird Ufens Eigentümer? Kann Secundus zurückfordern? Variante: bloße TRADITIO?",
+   "back": "MANCIPATIO: Ufens wird Eigentümer — sie ist abstrakt, die nichtige Causa schadet nicht (Ochse = RES MANCIPI). Secundus kann nicht vindizieren, nur mit der CONDICTIO (Bereicherung) Rückübertragung verlangen.\nVariante TRADITIO: kausal → ohne gültige Causa kein Eigentumsübergang; Secundus bleibt Eigentümer und hat die REI VINDICATIO. (Selbst bei gültiger Causa hätte die TRADITIO einer RES MANCIPI nur bonitarisches Eigentum verschafft.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Übungsfälle aus dem Lehrbuch (Ex 23–28)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 25] Ago kauft bei der Bildhauerin Bellona eine Diana-Statue. Bei der Abholung gibt ihm Bellona versehentlich eine Penthesilea-Statue; beide merken es nicht. (a) Eigentum an Diana? (b) an Penthesilea? (c) nach Code civil? (d) nach § 929 BGB?",
+   "back": "(a) Römisch: Nein — Diana wurde nicht übergeben (Kauf allein überträgt nichts).\n(b) Römisch: Nein — Ago erwirbt Besitz an der Penthesilea, aber es fehlt eine Causa (verkauft war Diana) → keine Übereignung (ebenso nach ABGB).\n(c) Code civil: Ago wurde Eigentümer der Diana schon mit dem Kaufvertrag (Konsensprinzip); an Penthesilea nicht.\n(d) BGB: Eigentum an der Penthesilea, wenn man die dingliche Einigung über die übergebene Statue bejaht (abstrakt, Causa egal); an Diana nicht.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Übungsfälle aus dem Lehrbuch (Ex 23–28)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 26] Onkel Felix gibt seiner Nichte Europa einen versiegelten Beutel Goldmünzen; auf ihre Frage, ob sie zurückzahlen solle: „Darüber reden wir übermorgen.“ Felix stirbt; Erbe ist Gripus. Kann Gripus das Geld vindizieren? Was, wenn Europa es schon ausgegeben hat?",
+   "back": "Die Causa ist offen (Schenkung oder Darlehen?) → Kontroverse.\n• Nach Julian (D 41.1.36): Einigkeit über das Wesentliche (Übertragung ohne Gegenleistung) genügt → Europa wurde mit der Übergabe Eigentümerin → keine REI VINDICATIO.\n• Nach Ulpian (D 12.1.18 pr): keine IUSTA CAUSA → Eigentum bleibt beim Erblasser bzw Erben → REI VINDICATIO des Gripus, solange die Münzen unterscheidbar (versiegelter Beutel!) vorhanden sind.\n• Ausgegeben/vermischt: Europa erwirbt originär Eigentum → keine Vindikation, allenfalls CONDICTIO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Übungsfälle aus dem Lehrbuch (Ex 23–28)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 27] Merops erbt von Omphale einen Hof und verkauft und mancipiert eine Kuh und einen Stier an Nastes. Die Kuh hatte Pomona der Omphale für eine Reise anvertraut; der Stier gehörte Omphale und ihrem Nachbarn Lucius gemeinsam. Eigentum des Nastes?",
+   "back": "Kuh: Nein — Omphale war nur Verwahrerin; der Erbe Merops tritt in ihre Position ein, hat also kein Eigentum und keine Verfügungsbefugnis → NEMO PLUS IURIS …; auch die (abstrakte) MANCIPATIO ist derivativ. Pomona bleibt Eigentümerin (Ersitzung durch Nastes kommt in Betracht — Kap. VIII).\nStier: CONDOMINIUM — Merops konnte nur über Omphales Anteil verfügen → Nastes wird Miteigentümer zur Hälfte neben Lucius.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Übungsfälle aus dem Lehrbuch (Ex 23–28)",
+   "readyBy": "2026-10-27",
+   "front": "[Lehrbuch Ex 28] Cassandra verkauft am 1.1. eine Vase um 1.000 an Leo; Leo soll in einer Woche zahlen und abholen. Inzwischen verkauft und übergibt Cassandra die Vase um 1.500 an Xerxes. Wem gehört die Vase — (a) römisch, (b) ABGB, (c) Code civil?",
+   "back": "(a) Römisches Recht: Xerxes — Kauf + Übergabe (TRADITIO ex iusta causa vom Eigentümer); Leos Kauf verschaffte nichts. Leo hat nur vertragliche Ansprüche gegen Cassandra.\n(b) ABGB: ebenso Xerxes (TITULUS + MODUS; erst die Übergabe überträgt).\n(c) Code civil: Leo wurde mit Vertragsschluss Eigentümer; bei Doppelverkauf beweglicher Sachen erwirbt aber, wem zuerst übergeben wurde, wenn er gutgläubig besitzt (Art 1198 CC) → Xerxes, sofern gutgläubig.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  }
+ ]
+}

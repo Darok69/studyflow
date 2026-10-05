@@ -1,0 +1,1649 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — OCCUPATIO und Schatzfund",
+   "readyBy": "2026-11-17",
+   "front": "Was ist OCCUPATIO — welche Sachen können so erworben werden?",
+   "back": "Wer eine niemandem gehörende Sache (RES NULLIUS) in Besitz nimmt, wird Eigentümer — originärer Erwerb.\n• Ursprünglich herrenlose Sachen (wilde Tiere; Perlen und Edelsteine vom Meeresgrund), derelinquierte Sachen (RES DERELICTAE), Schatzfunde.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — OCCUPATIO und Schatzfund",
+   "readyBy": "2026-11-17",
+   "front": "Was verlangt die OCCUPATIO wilder Tiere — und wann gehen Besitz und Eigentum wieder verloren?",
+   "back": "Offenen und sicheren Besitz — jedenfalls bei unmittelbarer physischer Gewalt über das Tier (vgl Gaius D 41.1.5.1; Proculus D 41.1.55).\n• Erlangt das Tier seine natürliche Freiheit wieder, verliert der Fänger Besitz UND Eigentum (Gaius D 41.1.3.2, D 41.1.5 pr).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — OCCUPATIO und Schatzfund",
+   "readyBy": "2026-11-17",
+   "front": "Welche Rolle spielt die CONSUETUDO REVERTENDI bei gezähmten wilden Tieren?",
+   "back": "Von Natur wilde, aber gezähmte Tiere gehören dem Eigentümer, solange sie zahm sind und gewohnheitsmäßig zurückkehren (CONSUETUDO REVERTENDI) — so übt er Herrschaft aus. Verlieren sie die Gewohnheit, sind sie wieder wild und herrenlos (Florentinus D 41.1.4; Paulus D 41.2.3.15, 16).\n• Ausschwärmende Bienen sind wild (jeder kann sie fangen, Gaius D 41.1.5.2); die einzelne heimkehrende Biene oder Taube gehört dem Eigentümer.\n• Bei Haustieren spielt sie keine Rolle: entlaufene Haustiere sind nicht herrenlos.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — OCCUPATIO und Schatzfund",
+   "readyBy": "2026-11-17",
+   "front": "Paulus D 41.2.3.14 (Case 95): Wem gehören Wild im Gehege, Fische im Becken — und Wild in einem eingezäunten Wald bzw Fische in einem Fischteich?",
+   "back": "Wild im Gehege und Fische im Becken: Besitz und Eigentum dessen, der sie gefangen hat und gefangen hält.\n• Wild im eingezäunten Wald bzw Fische im Teich: Der Besitz von Wald/Teich verschafft keinen Besitz an den Tieren — sie sind in natürlicher Freiheit; wegen der Größe des Lebensraums hat der Eigentümer keine Kontrolle (→ herrenlos).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — OCCUPATIO und Schatzfund",
+   "readyBy": "2026-11-17",
+   "front": "Wann ist eine Sache derelinquiert? Verliert der Eigentümer beim Seewurf das Eigentum?",
+   "back": "Dereliktion = Aufgabe des Besitzes mit dem Willen, auch das Eigentum aufzugeben → RES DERELICTA, die jeder okkupieren kann (§ 386 S 1 ABGB).\n• Seewurf: zunächst nur Besitzverlust; Eigentumsverlust erst, wenn der Eigentümer die Ware als aufgegeben betrachtet (Iavolenus D 41.1.58, Case 97). Im Zweifel keine Dereliktion (§ 386 S 2 ABGB).\n• Unabhängig vom Willen geht Eigentum verloren, wenn die Sache so weit menschlichem Zugriff entzogen ist, dass es einer Zerstörung gleichkommt.\n• Klassisch: OCCUPATIO einer derelinquierten RES MANCIPI verschafft nur bonitarisches Eigentum, nach Ersitzung ziviles.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — OCCUPATIO und Schatzfund",
+   "readyBy": "2026-11-17",
+   "front": "Kann man durch Fund Eigentum erwerben?",
+   "back": "Verlorene (nicht derelinquierte) Sachen können nicht okkupiert werden; wer sie findet, muss sie öffentlich bekanntmachen, um dem Verdacht des FURTUM zu entgehen (Ulpian D 47.2.43.8, Case 98).\n• Der bloße Fund ermöglicht auch keine Ersitzung (keine IUSTA CAUSA, meist auch keine BONA FIDES).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — OCCUPATIO und Schatzfund",
+   "readyBy": "2026-11-17",
+   "front": "Was ist ein Schatz (THESAURUS) — wem gehört er nach den verschiedenen Meinungen?",
+   "back": "Wertvolle Sache, so lange verborgen, dass ihr Eigentümer nicht mehr feststellbar ist (Paulus D 41.1.31.1, Case 99).\n• Herrschend (Sabinianer, spätklassisch): RES NULLIUS → Erwerb durch OCCUPATIO (Besitzergreifung).\n• Prokulianer (Neratius, Proculus): Erfährt der Grundeigentümer vom Schatz, genügt sein Besitzwille — er beherrscht als Besitzer auch den Schatz; kein Ergreifungsakt nötig.\n• Ältere Ansicht (Brutus, Manilius): Der Schatz ist Bestandteil (ACCESSIO) des Grundstücks → gehört dem Grundeigentümer, kein Raum für OCCUPATIO (Paulus D 41.2.3.3, Case 100).\n• Hadrian: halb dem Finder, halb dem Grundeigentümer (ähnlich § 399 ABGB).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — Fruchterwerb",
+   "readyBy": "2026-11-17",
+   "front": "Was sind Früchte (FRUCTUS) — ist das Kind einer Sklavin eine Frucht?",
+   "back": "Wiederkehrende Erträge, die aus einer Sache ohne Minderung oder Zerstörung ihrer Substanz gewonnen werden.\n• FRUCTUS NATURALES (Milch, Wolle, Eier) und FRUCTUS CIVILES (zB Pachtzins).\n• PARTUS ANCILLAE (Kind einer Sklavin) ist keine Frucht, das Junge eines Tieres schon.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — Fruchterwerb",
+   "readyBy": "2026-11-17",
+   "front": "Wann stellt sich die Frage nach dem Eigentum an Früchten — wem gehören sie grundsätzlich?",
+   "back": "Erst nach der Trennung (SEPARATIO); vorher sind sie unselbständiger Teil der Muttersache und teilen deren Schicksal.\n• Grundsatz: Der Eigentümer der Muttersache erwirbt die Früchte mit der Trennung.\n• Klausurtipp: Trauben/Äpfel = Früchte; beim Wachsen Teil der Muttersache, mit Trennung selbständige Sache.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — Fruchterwerb",
+   "readyBy": "2026-11-17",
+   "front": "Wie erwirbt der BONAE FIDEI POSSESSOR Früchte — und warum?",
+   "back": "Mit der SEPARATIO (zB sobald die Äpfel vom Baum fallen) — originärer Erwerb.\n• BONAE FIDEI POSSESSOR = wer irrig, aber gutgläubig glaubt, Eigentümer der Muttersache zu sein.\n• Grund: Belohnung seines guten Glaubens und seiner Investitionen.\n• Ist die Muttersache verpfändet, erwirbt er die Früchte lastenfrei.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — Fruchterwerb",
+   "readyBy": "2026-11-17",
+   "front": "Paulus D 41.3.4.19 (Case 104): B stiehlt A's Schafe und schert sie. Variante: B verkauft sie an den gutgläubigen C, der sie schert. Wem gehört die Wolle?",
+   "back": "Dieb B: kein Eigentum an der Wolle (kein BONAE FIDEI POSSESSOR) und keine Ersitzung — die mit Diebstahlsvorsatz geschorene Wolle ist RES FURTIVA, außerdem fehlen Titel und guter Glaube. Auch ein Käufer der Wolle von B kann weder derivativ noch durch Ersitzung erwerben.\n• C (gutgläubiger Käufer der Schafe): BONAE FIDEI POSSESSOR → erwirbt die Wolle mit der Schur (SEPARATIO); auf Ersitzung kommt es nicht an.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — Fruchterwerb",
+   "readyBy": "2026-11-17",
+   "front": "Wie erwerben Emphyteuta, Fruchtnießer (USUFRUCTUARIUS) und Pächter (COLONUS, CONDUCTOR) die Früchte?",
+   "back": "Emphyteuta (Erbpächter, vererbliches dingliches Nutzungsrecht an Grundstücken): mit der SEPARATIO — wegen der Ähnlichkeit der Emphyteuse mit dem Eigentum.\nUSUFRUCTUARIUS (persönliche, unvererbliche Dienstbarkeit): erst mit der PERCEPTIO (Aufsammeln, Pflücken); dazwischen gehören die Früchte dem Eigentümer.\nPächter: ebenfalls erst mit der PERCEPTIO; sein Erwerb gilt als DERIVATIV (spätklassisch: Übereignung vom Verpächter). Ist die Muttersache verpfändet, erstreckt sich das Pfand auf seine Früchte.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — Fruchterwerb",
+   "readyBy": "2026-11-17",
+   "front": "Früchte fallen vor der PERCEPTIO in die Hände eines Dritten. Was können Fruchtnießer bzw Pächter tun?",
+   "back": "Nur der Eigentümer der Muttersache kann sie herausverlangen (REI VINDICATIO, ggf CONDICTIO FURTIVA).\n• Fruchtnießer: VINDICATIO USUSFRUCTUS gegen den Eigentümer, damit dieser die Früchte für ihn zurückholt.\n• Pächter: nur vertraglicher Anspruch gegen den Verpächter — ACTIO CONDUCTI.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — Fruchterwerb",
+   "readyBy": "2026-11-17",
+   "front": "Beispiel 26: Pächter Aeneas erntet Weizen und bringt ihn in seine Scheune; nachts mäht Catullus die Gerste, nimmt den Weizen mit und lagert beides. Wer kann was zurückfordern?",
+   "back": "Weizen: gehört Aeneas (PERCEPTIO) → REI VINDICATIO oder CONDICTIO FURTIVA gegen Catullus.\nGerste: nach dem Schnitt Eigentum des Grundeigentümers Beatus → nur Beatus klagt (CONDICTIO FURTIVA gegen den Dieb, REI VINDICATIO gegen jeden Besitzer); Aeneas kann ihn mit der ACTIO CONDUCTI dazu zwingen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Was besagt ACCESSIO CEDIT PRINCIPALI — woher stammt die Regel?",
+   "back": "Der Zuwachs folgt (rechtlich) der Hauptsache: Bei fester Verbindung bestimmt das Schicksal der Hauptsache (RES PRINCIPALIS) das des Ganzen; der Eigentümer der Hauptsache erwirbt den Zuwachs und muss den früheren Eigentümer entschädigen.\n• Historisch abgeleitet aus SUPERFICIES SOLO CEDIT.\n• Die Eigentümer können anderes vereinbaren (zB Miteigentum).\n• Für das Sachenrecht gleichgültig, ob gut- oder bösgläubig verbunden wurde.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Wann ist eine Verbindung untrennbar — Folgen einer bloß lösbaren Verbindung?",
+   "back": "Untrennbar: Trennung würde erheblichen Schaden oder unverhältnismäßigen Aufwand verursachen; Durchdringung der Elemente (Schweißen ja, Löten nein — das Lot trennt die Metallteile; ein Baum, der Nährstoffe aus dem Boden zieht).\n• Zweck: Erhaltung des wirtschaftlichen Werts.\nLösbare Verbindung: keine sachenrechtliche Wirkung; Trennung per ACTIO AD EXHIBENDUM, danach REI VINDICATIO jedes Eigentümers.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Wie unterscheiden die Römer Hauptsache und Zuwachs?",
+   "back": "Nach der Struktur des Eigentumsprozesses: Hauptsache ist, was selbständig vor Gericht gebracht und vindiziert werden kann (Schrift auf Pergament ist nicht vindizierbar, Paulus D 6.1.23.3, Case 112) — und nach der Verkehrsauffassung (man vindiziert „eine Statue mit Arm“, nicht „einen Arm mit Statue“).\n• Der Wert entscheidet NICHT (mit teurem Purpur gefärbte Wolle gehört dem Wolleigentümer); auch die Arbeit nicht.\n• Ausnahme nach einer Meinung: TABULA PICTA.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Welche Rechtsbehelfe hat, wer sein Eigentum durch ACCESSIO verliert?",
+   "back": "• Besitzt der Eigentümer des Ganzen: ACTIO IN FACTUM (bei gutgläubigem Erwerber) bzw CONDICTIO FURTIVA (wer vorsätzlich mit Diebstahlsabsicht verbindet, begeht FURTUM; alternativ auch ACTIO IN FACTUM).\n• Besitzt der frühere Eigentümer des Zuwachses das Ganze: gegen die REI VINDICATIO EXCEPTIO DOLI → Zurückbehaltung bis zur Entschädigung.\n• Hat er selbst verbunden, kann er ggf auch den Wert seiner Arbeit verlangen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Was ist eine ACTIO IN FACTUM?",
+   "back": "Eine vom Prätor gewährte Klage, wenn er Rechtsschutzbedürfnis sieht, aber keine institutionalisierte Klage zur Verfügung steht; die Formel beginnt mit der Schilderung des konkreten Sachverhalts (FACTUM).\n• Sammelbegriff ohne bestimmten Inhalt (Ersatz, Durchsetzung von Abreden …).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Gaius D 41.1.9.1 (Case 110): A schreibt auf B's Papier/Pergament (auch in Goldschrift). Wem gehört das Ergebnis?",
+   "back": "B — das Papier ist die Hauptsache, die Schrift bloßer Zuwachs („beschriebenes Papier“).\n• Es geht nur um Tinte, Gold, Papier — nicht um die geistige Leistung.\n• Klagt B auf Herausgabe gegen den besitzenden A, kann A mit der EXCEPTIO DOLI das Papier zurückbehalten, bis er für seinen Beitrag entschädigt ist.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Gaius Inst 2.78 (Case 111): C malt auf D's Holztafel (TABULA PICTA). Wem gehört das Bild?",
+   "back": "Zur Zeit des Gaius herrschende Meinung (Hochklassik): dem Maler — Ausnahme, die künstlerische Leistung geht vor.\n• Der frühere Tafeleigentümer kann die REI VINDICATIO des Malers mit der EXCEPTIO DOLI abwehren (bis zur Entschädigung für die Tafel); er selbst hat eine ACTIO UTILIS, gegen die der Maler seine Kosten per EXCEPTIO DOLI geltend machen kann.\n• Gaius selbst: wie Schrift auf Papier → Tafeleigentümer; spätklassisch allgemein so (Paulus D 6.1.23.3).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Paulus D 6.1.23.5 (Case 113): Ein Metallarm des F wird an die Statue des E (a) gelötet, (b) geschweißt. Rechtsfolgen?",
+   "back": "(a) Löten (ADPLUMBATIO): lösbar → ACTIO AD EXHIBENDUM, dann REI VINDICATIO jedes Eigentümers.\n(b) Schweißen (FERRUMINATIO): untrennbar → E erwirbt den Arm (ACCESSIO CEDIT PRINCIPALI); F hat die ACTIO IN FACTUM.\n• Bricht der geschweißte Arm später ab, bleibt er E's Eigentum — F's Recht ist endgültig untergegangen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Pomponius (Cassius, Proculus, Pegasus) D 41.1.27.2 (Case 114): Zwei gleichartige Metallstücke verschiedener Eigentümer werden zusammengeschweißt. Wem gehört das Ganze?",
+   "back": "Kontrovers.\n• Cassius: dem, der das größere/wertvollere Stück beitrug; sind beide gleich: Miteigentum der Beitragenden oder Eigentum dessen, in dessen Namen verbunden wurde (vgl SPECIFICATIO).\n• Proculus und Pegasus: Jeder behält Eigentum an seinem Teil (vgl CONFUSIO).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Was bedeutet SUPERFICIES SOLO CEDIT; was gilt bei IMPLANTATIO, SATIO, ALLUVIO?",
+   "back": "Was mit dem Boden untrennbar verbunden ist, folgt dessen rechtlichem Schicksal — der Boden ist immer Hauptsache.\n• IMPLANTATIO: Pflanze des D in C's Boden gehört C, sobald sie Wurzeln geschlagen hat (Gaius D 41.1.7.13).\n• SATIO: A's Saat gehört B, sobald sie auf B's Boden gesät ist.\n• ALLUVIO/AVULSIO: Anschwemmungen gehören dem Grundeigentümer, sobald sie sich fest mit dem Boden verbunden haben.\n• Bei SATIO und IMPLANTATIO endgültig: Auch geerntetes Korn bzw ausgegrabener Baum bleiben beim Grundeigentümer.\n• Entschädigung: ACTIO IN FACTUM, CONDICTIO FURTIVA oder EXCEPTIO DOLI.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "AEDIFICATIO: Warum ist der Hausbau eine Ausnahme unter den Accessionsfällen?",
+   "back": "Er verbindet lösbare und untrennbare Verbindung:\n• Gebäude mit festem Fundament gehört dem Grundeigentümer (Gebäude + Boden = eine Einheit, nur gemeinsam vindizierbar).\n• Innerhalb dieser Einheit ist das Haus eine lösbare Verbindung von Baumaterialien — aber KEINE ACTIO AD EXHIBENDUM auf Trennung.\n• Fremdes Baumaterial: Eigentum geht nicht unter, ruht aber (DOMINIUM DORMIENS) und lebt beim Einsturz/Abriss wieder auf (Gaius D 41.1.7.10; Iulianus D 6.1.59).\n• Statt zu warten: ACTIO IN FACTUM, CONDICTIO FURTIVA oder EXCEPTIO DOLI → nach Entschädigung erlischt das ruhende Eigentum.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Gehört ein bewegliches Bauwerk auf fremdem Grund dem Grundeigentümer (Scaevola D 41.1.60, Case 106)?",
+   "back": "Nein — Titius bleibt Eigentümer eines beweglichen Speichers, den er auf dem Feld des Seius errichtet hat.\n• Modern: Superädifikat (§ 435 ABGB; vgl § 95 Abs 1 BGB) — Bauten, die nicht dauernd bleiben sollen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Wer wissentlich mit eigenem Material auf fremdem Grund baut — welche Rechte hat er?",
+   "back": "Keinen Ersatzanspruch (nicht schutzwürdig); nur das IUS TOLLENDI: Er darf (Teile des) Gebäude(s) entfernen, soweit es dem Grundeigentümer nicht schadet (Ulpian D 6.1.37, Case 129).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Celsus D 6.1.38 (Case 107): F erwirbt gutgläubig ein Grundstück vom Nichtberechtigten, besät und bebaut es; der Eigentümer E vindiziert. Wie wird F entschädigt?",
+   "back": "1. Grundsätzlich muss E die Aufwendungen ersetzen — höchstens bis zur Wertsteigerung, wenn diese geringer ist.\n2. Ist E arm: IUS TOLLENDI des F (Abbruch und Mitnahme des Materials); E kann das abwenden, indem er zahlt, was F durch den Abbruch gewänne. Keine Schikane: NEQUE MALITIIS INDULGENDUM EST (kein Abkratzen von Putz/Malereien bloß zur Zerstörung).\n3. Will E das Grundstück bald verkaufen und zahlt nicht: F darf es behalten und zahlt den Schätzwert abzüglich dessen, was er bei Überlassung des Gebäudes erhalten hätte.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die ACTIO DE TIGNO IUNCTO — und welche Wirkung hat sie aufs Eigentum am Material?",
+   "back": "Wer auf EIGENEM Grund mit FREMDEM Material baut, muss dem Materialeigentümer das Doppelte des Werts zahlen (Gaius D 41.1.7.10, Case 108) — nur für diese Konstellation, nicht für Bauen mit eigenem Material auf fremdem Grund.\n• Strittig: Reine Strafklage → das DUPLUM ist Buße, das (ruhende) Eigentum bleibt und kann nach Abriss geltend gemacht werden. (Auch) reipersekutorisch → das DUPLUM wird gegen das Material gezahlt, das Eigentum geht auf den Bauherrn über.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — CONFUSIO, COMMIXTIO, Geldvermengung",
+   "readyBy": "2026-11-17",
+   "front": "Welche Rechtsfolgen hat das Vermischen/Vermengen gleichartiger Sachen verschiedener Eigentümer (ohne Einverständnis)?",
+   "back": "Keine Änderung der Eigentumsrechte: Jeder kann sofort mit der VINDICATIO PRO PARTE den seinem Beitrag (Menge bzw Wert) entsprechenden Teil verlangen (Pomponius in Ulpian D 6.1.3.2, D 6.1.5.1).\n• Keine ACTIO AD EXHIBENDUM nötig; keine Ersatzansprüche nötig.\n• Gold mit Kupfer legiert: nach Wert — der Goldeigentümer erhält mehr Legierung.\n• Praktische Lösung, die die Identität der einzelnen Körner ignoriert.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — CONFUSIO, COMMIXTIO, Geldvermengung",
+   "readyBy": "2026-11-17",
+   "front": "Vermischung mit gegenseitigem Einverständnis — was gilt?",
+   "back": "Das Gemisch steht im Miteigentum (COMMUNIO) aller Beitragenden (Gaius D 41.1.7.8; Pomponius in Ulpian D 6.1.5 pr).\n• Auflösung mit der ACTIO COMMUNI DIVIDUNDO (Abrechnung, Teilung, Zuweisung); danach REI VINDICATIO für den zugewiesenen Teil.\n• Unterschied zur unbewussten Vermischung: dort VINDICATIO PRO PARTE.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — CONFUSIO, COMMIXTIO, Geldvermengung",
+   "readyBy": "2026-11-17",
+   "front": "Was gilt, wenn A fremdes Geld des B ununterscheidbar mit eigenem vermengt?",
+   "back": "A wird ORIGINÄR Alleineigentümer des ganzen Geldes (Iavolenus (Cassius) D 46.3.78, Case 119) — gleich ob gut- oder bösgläubig, selbst ein Dieb.\n• Octavenus (Paulus D 6.1.6): VINDICATIO PRO PARTE denkbar, solange alle Münzen noch bei A sind; sie scheitert, sobald welche weggegeben sind.\n• B: Ersatz — bei gutgläubigem A Bereicherungsklage (zB CONDICTIO INDEBITI), beim Dieb CONDICTIO FURTIVA.\n• Grund: flexibles Kassenmanagement des Handels; Münzen schwer verfolgbar.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — CONFUSIO, COMMIXTIO, Geldvermengung",
+   "readyBy": "2026-11-17",
+   "front": "Auf welche zwei Arten erwirbt man originär Eigentum an fremdem Geld (NUMMOS CONSUMERE)?",
+   "back": "1. Ununterscheidbare Vermengung mit eigenem Geld.\n2. Gutgläubiges Ausgeben fremden Geldes — der Eigentümer kann gegen den Empfänger nicht vindizieren.\n• Beides heißt NUMMOS CONSUMERE (Münzen „verbrauchen“).\n• Vgl § 371 ABGB.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — SPECIFICATIO",
+   "readyBy": "2026-11-17",
+   "front": "SPECIFICATIO vs bloße Bearbeitung vs ACCESSIO — Abgrenzung mit Beispielen?",
+   "back": "SPECIFICATIO: schöpferische Umgestaltung einer fremden Sache in eine Sache anderer Art (anderes Aussehen, anderer Name) — Marcus macht Kleider aus Titus' Wolle.\nBearbeitung: keine wesentliche Veränderung → keine sachenrechtliche Folge — Seius reinigt Titus' Wolle.\nACCESSIO: Rufus färbt Titus' Wolle mit eigenem Purpur.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — SPECIFICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Sabinianer vs Prokulianer bei der SPECIFICATIO — Begründung?",
+   "back": "Sabinianer: Identität durch den Stoff (MATERIA MANENS) — ohne Stoff keine Sache (QUIA SINE MATERIA NULLA SPECIES EFFICI POSSIT) → Produkt gehört dem Stoffeigentümer.\nProkulianer: Identität durch die Form — die alte Sache geht unter, die neue ist zunächst RES NULLIUS (QUIA QUOD FACTUM EST, ANTEA NULLIUS FUERAT) → der Verarbeiter erwirbt durch OCCUPATIO.\n• Quelle: Gaius D 41.1.7.7 (Case 120).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — SPECIFICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Was besagt die MEDIA SENTENTIA zur SPECIFICATIO — Details?",
+   "back": "Umkehrbar → sabinianisch: Produkt gehört dem Stoffeigentümer (abstraktes Kriterium: theoretische Rückführbarkeit genügt; Beispiel Metall).\nUnumkehrbar → prokulianisch: Der Verarbeiter (oder wer in seinem Namen verarbeiten lässt, ALIENO NOMINE) erwirbt originär; alte Rechte erlöschen.\n• Nur ohne Einverständnis der Beteiligten: Beim Werkvertrag (LOCATIO CONDUCTIO OPERIS) bleibt das Eigentum beim Besteller, der den Stoff liefert.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — SPECIFICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Gaius D 41.1.7.7 (Case 120): Welche Beispiele nennt Gaius — wie sind sie nach der MEDIA SENTENTIA zu lösen?",
+   "back": "• Gefäß aus fremdem Gold/Kupfer/Silber → umkehrbar (einschmelzbar) → Stoffeigentümer.\n• Schiff, Schrank, Stuhl aus fremden Brettern; Kleider aus fremder Wolle; Met aus fremdem Honig und Wein; Salbe aus fremden Heilmitteln; Öl aus fremden Oliven; Wein aus fremden Trauben → unumkehrbar → Verarbeiter.\n• Dreschen fremden Getreides → Körner gehören dem Eigentümer der Ähren: keine neue Sache, nur Freilegen des Vorhandenen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — SPECIFICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Welche Rechtsbehelfe hat, wer durch SPECIFICATIO (oder ACCESSIO) sein Eigentum verliert — gut- vs bösgläubiger Erwerber?",
+   "back": "Gutgläubiger Verarbeiter: ACTIO IN FACTUM auf Ersatz.\nBösgläubiger: CONDICTIO FURTIVA.\n• Besitzt der frühere Stoffeigentümer das Produkt: EXCEPTIO DOLI gegen die REI VINDICATIO des Verarbeiters, bis ihm der Stoffwert bezahlt ist.\n• Bei umkehrbarer Verarbeitung erwirbt der Verarbeiter nichts, kann aber die Wertsteigerung durch seine Arbeit verlangen (ACTIO IN FACTUM oder EXCEPTIO DOLI).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumserwerb III — Übungsfälle aus dem Lehrbuch (Ex 35–42)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 35] Bellona hat von Ago Garten und Wirtschaftsgebäude gepachtet. Carus sammelt das Fallobst unter den Bäumen, pflückt einen ganzen Apfelbaum leer und stiehlt eine Kiste Birnen, die Bellona gepflückt und im Keller gelagert hat. Wem gehören Fallobst, gepflückte Äpfel und Birnen? Welche Klagen hat Bellona?",
+   "back": "Fallobst und von Carus gepflückte Äpfel: Eigentum des Verpächters Ago — die Pächterin erwirbt erst mit der PERCEPTIO; mit der Trennung fallen die Früchte an den Eigentümer der Muttersache.\nBirnen: Eigentum Bellonas (sie hat sie gepflückt = PERCEPTIO).\n• Bellona: wegen der Birnen REI VINDICATIO oder CONDICTIO FURTIVA + ACTIO FURTI gegen Carus.\n• Wegen Fallobst und Äpfeln kann nur Ago vindizieren bzw kondizieren; Bellona kann ihn mit der ACTIO CONDUCTI dazu anhalten (vgl Beispiel 26).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumserwerb III — Übungsfälle aus dem Lehrbuch (Ex 35–42)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 36] Kassandra befiehlt ihrem Sklaven Leo, im Wald der Nachbarin Hasen zu fangen. Leo fängt zwei, legt sie in einen Korb; auf Kassandras weitläufigem Gelände lässt er den Korb fallen — ein Hase verschwindet im Gebüsch, der andere bleibt im Korb und wird Kassandra gebracht. Besitz und Eigentum an den Hasen?",
+   "back": "• Wilde Hasen sind RES NULLIUS; dass sie im Wald der Nachbarin leben, macht sie nicht zu deren Eigentum (Paulus D 41.2.3.14).\n• Mit dem Fang durch Leo (IUSSUM) erwirbt Kassandra Besitz und Eigentum (OCCUPATIO, ANIMO NOSTRO CORPORE ALIENO) — im Korb besteht offene, sichere Herrschaft.\n• Hase 1: Mit der Flucht ins Gebüsch erlangt er die natürliche Freiheit zurück → Kassandra verliert Besitz und Eigentum; auf ihrem weitläufigen Gelände hat sie keine Kontrolle (vgl eingezäunter Wald).\n• Hase 2: bleibt in Kassandras Besitz und Eigentum.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumserwerb III — Übungsfälle aus dem Lehrbuch (Ex 35–42)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 37] Merops findet in einem geerbten Haus Holzbretter, aus denen er einen Schrank baut, und eine Bronzestatue des Mars, die er von einem Goldschmied einschmelzen und zu einer Iustitia-Statue verarbeiten lässt. Bretter und Statue waren dem Onkel nur zur Verwahrung gegeben. Eigentum an Schrank und Statue?",
+   "back": "Schrank: unumkehrbare SPECIFICATIO (Gaius D 41.1.7.7: Schrank aus fremden Brettern) → Merops erwirbt originär; der Bretter-Eigentümer hat (Merops gutgläubig) die ACTIO IN FACTUM.\nIustitia-Statue: Metall ist umkehrbar (einschmelzbar) → bleibt Eigentum des Eigentümers der Mars-Statue → REI VINDICATIO; Merops (in dessen Namen gearbeitet wurde) kann die Wertsteigerung per EXCEPTIO DOLI geltend machen.\n• Merops erbt keine fremden Sachen: Der Onkel war nur Verwahrer.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumserwerb III — Übungsfälle aus dem Lehrbuch (Ex 35–42)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 38] Faustilla schweißt an ihre Tischplatte vier Beine, eines davon gehört Cleo, und schraubt Leisten der Iris an. Welche Klagen haben Cleo und Iris gegen die besitzende Faustilla? Was, wenn Faustilla wusste, dass sie fremdes Material verwendet? Was, wenn sie geisteskrank ist?",
+   "back": "Cleo (Bein geschweißt = untrennbar): Faustilla erwirbt das Bein (ACCESSIO CEDIT PRINCIPALI, Tischplatte = Hauptsache) → Cleo: ACTIO IN FACTUM auf Ersatz.\nIris (Leisten angeschraubt = lösbar): bleibt Eigentümerin → ACTIO AD EXHIBENDUM, dann REI VINDICATIO.\n• Wusste Faustilla es (Diebstahlsabsicht): Eigentumserwerb trotzdem (gut-/bösgläubig egal), aber FURTUM → Cleo: CONDICTIO FURTIVA (oder ACTIO IN FACTUM), dazu ACTIO FURTI; Iris: wie oben + ACTIO FURTI.\n• Geisteskrank: kein DOLUS möglich (deliktsunfähig) → kein FURTUM; sachenrechtlich bleibt es bei der Accessio → ACTIO IN FACTUM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumserwerb III — Übungsfälle aus dem Lehrbuch (Ex 35–42)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 39] Maler Menander malt auf eine Holztafel, die ihm Florentinus geschenkt hat (Florentinus kaufte sie vor über einem Jahr gutgläubig von Brutus, der sie Eros gestohlen hatte), das Bild der Kaiserin und drapiert es in eigenes Tuch (Wert 50), das er mit Purpur der Xanthippe (Wert 20.000) färbt. Wem gehören (a) das Purpurtuch, (b) die bemalte Tafel?",
+   "back": "(a) Tuch: Menander — gefärbte Wolle/Tuch gehört dem Tucheigentümer; der Wert des Purpurs entscheidet nicht. Xanthippe: ACTIO IN FACTUM (bei Vorsatz CONDICTIO FURTIVA).\n(b) Tafel: Eros blieb Eigentümer — gestohlen (RES FURTIVA), daher keine Ersitzung durch Florentinus trotz guten Glaubens und über einem Jahr; Florentinus konnte nichts übertragen.\n• TABULA PICTA: nach der zur Zeit des Gaius herrschenden Meinung gehört das Bild dem Maler Menander (Eros: ACTIO UTILIS bzw EXCEPTIO DOLI auf Ersatz der Tafel); nach Gaius und der spätklassischen Lehre (Paulus D 6.1.23.3) dem Tafeleigentümer Eros (Menander: EXCEPTIO DOLI für seine Kosten).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumserwerb III — Übungsfälle aus dem Lehrbuch (Ex 35–42)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 40] Nike baut auf eigenem Grund und verwendet versehentlich zwei Balken ihres Nachbarn Orion. Orion baut mit eigenem Material auf Grund des Pius einen Stall mit Fundament und eine Hundehütte. (a) Rechte Orions wegen der Balken? (b) Wem gehören Stall und Hundehütte? (c) Was kann Pius gegen Orion tun, was Orion entgegenhalten?",
+   "back": "(a) Orions Eigentum an den Balken ruht (DOMINIUM DORMIENS), keine Trennungsklage. Er kann den Abbruch abwarten oder sofort klagen: ACTIO DE TIGNO IUNCTO (Bau auf eigenem Grund mit fremdem Material → doppelter Wert) bzw Ersatz per ACTIO IN FACTUM.\n(b) Stall (festes Fundament) → Pius (SUPERFICIES SOLO CEDIT). Hundehütte (beweglich) → bleibt Orion (vgl Scaevola D 41.1.60).\n(c) Pius: REI VINDICATIO auf das Grundstück samt Stall. Orion: War er gutgläubig, EXCEPTIO DOLI auf Ersatz der Aufwendungen bis zur Wertsteigerung bzw IUS TOLLENDI (Celsus D 6.1.38); baute er wissentlich auf fremdem Grund, nur IUS TOLLENDI (Ulpian D 6.1.37).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumserwerb III — Übungsfälle aus dem Lehrbuch (Ex 35–42)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 41] Weinhändlerin Daphne mischt Rotwein gleicher Qualität aus zwei Fässern. Am nächsten Tag erfährt sie, dass ihr Verwalter den Wein des einen Fasses an Eros verkauft und übergeben hatte. Wem gehört der Mischwein? FURTUM? Rechtsbehelfe und Ersatz für Eros?",
+   "back": "• CONFUSIO ohne Einverständnis: Eigentum bleibt unberührt — Eros ist Eigentümer des seinem Fass entsprechenden Anteils, Daphne des Rests.\n• Kein FURTUM: Daphne wusste nichts, keine Bereicherungsabsicht (DOLUS fehlt).\n• Eros: VINDICATIO PRO PARTE (keine ACTIO AD EXHIBENDUM nötig).\n• Ersatz: nicht nötig — die VINDICATIO PRO PARTE wahrt seine Interessen (bei gleicher Qualität nach Menge).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumserwerb III — Übungsfälle aus dem Lehrbuch (Ex 35–42)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 42] Ismene gibt Quartus vor einer Reise Silberteller, Wein, Honig und Haselnüsse zur Verwahrung; Quartus hält sie irrig für ein Geschenk. Er lässt den Teller zur Vase umarbeiten, macht aus Wein und Honig Met und knackt die Nüsse. Was kann Ismene verlangen? Unterschied, wenn er die Nüsse gemahlen hat?",
+   "back": "• Kein derivativer Erwerb: keine gemeinsame Causa (Verwahrung vs Schenkung) → Ismene bleibt zunächst Eigentümerin.\n• Vase: Metall umkehrbar → Ismene bleibt Eigentümerin → REI VINDICATIO; Quartus: EXCEPTIO DOLI für seine Wertsteigerung.\n• Met: unumkehrbar (Gaius D 41.1.7.7) → Quartus erwirbt originär; gutgläubig → Ismene: ACTIO IN FACTUM auf Ersatz.\n• Geknackte Nüsse: wie Dreschen — nur Freilegen, keine neue Sache → Ismene bleibt Eigentümerin der Kerne (REI VINDICATIO).\n• Gemahlen: wohl unumkehrbare Verarbeitung zu etwas Neuem → Quartus Eigentümer, Ismene ACTIO IN FACTUM (Lösung aus der MEDIA SENTENTIA abgeleitet).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Formularprozess (IN IURE / APUD IUDICEM)",
+   "readyBy": "2026-11-17",
+   "front": "Aktivlegitimation und Passivlegitimation bei der ACTIO IN REM — wer ist Kläger, wer Beklagter?",
+   "back": "Kläger: wer ein dingliches Recht behauptet (capacity to sue).\nBeklagter: wer die streitige Sache BESITZT und das Recht des Klägers bestreitet (capacity to be sued).\n• Bsp (Ex 27 im Text): Agatha klagt gegen Cara, die das Schaf nicht besitzt (es ist bei Bolos) → Klage scheitert.\n• Relative Ansprüche → ACTIONES IN PERSONAM (Schuldrecht).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Formularprozess (IN IURE / APUD IUDICEM)",
+   "readyBy": "2026-11-17",
+   "front": "In welche zwei Abschnitte gliedert sich der römische Formularprozess — warum?",
+   "back": "1. Verfahren IN IURE vor dem PRAETOR.\n2. Verfahren APUD IUDICEM vor dem IUDEX.\n• Zweck: Entlastung des Prätors in einer wachsenden Gesellschaft bei gleichzeitigem Einfluss auf Auslegung und Fortbildung des Zivilrechts.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Formularprozess (IN IURE / APUD IUDICEM)",
+   "readyBy": "2026-11-17",
+   "front": "Wer ist der PRAETOR, was ist sein Edikt? PRAETOR URBANUS vs PEREGRINUS?",
+   "back": "Für die Rechtsprechung in Rom zuständiger Magistrat, auf ein Jahr gewählt; gewährt ACTIONES und EXCEPTIONES.\n• Edikt zu Amtsbeginn: Rechtsschutzversprechen + Formelkatalog aller Klagen und Einreden.\n• Seit 242 v. Chr. zwei Prätoren: URBANUS (Streit unter Bürgern, IUS CIVILE), PEREGRINUS (mit/zwischen Fremden, IUS GENTIUM).\n• Unter Hadrian endgültige Fassung des Edikts (um 130 n. Chr.).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Formularprozess (IN IURE / APUD IUDICEM)",
+   "readyBy": "2026-11-17",
+   "front": "Welche drei Möglichkeiten hat der Prätor im Verfahren IN IURE?",
+   "back": "1. Das Edikt enthält eine passende ACTIO → er gewährt sie (Formel bestimmt das Verfahren).\n2. Keine passende ACTIO, aber berechtigtes Begehren → ACTIO IN FACTUM oder ACTIO UTILIS (oft nach dem Muster, EXEMPLUM, einer Ediktsklage — Analogie).\n3. Unzulässiges Begehren → Verweigerung (DENEGATIO ACTIONIS).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Formularprozess (IN IURE / APUD IUDICEM)",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die LITIS CONTESTATIO?",
+   "back": "Abschluss des Verfahrens IN IURE: Der Prätor bestellt den IUDEX und erteilt die Prozessformel (ACTIO + allfällige EXCEPTIONES) als Programm des weiteren Verfahrens.\n• Wohl „Bezeugung des Streits“ (schriftliche Zeugenurkunde über das Prozessprogramm).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Formularprozess (IN IURE / APUD IUDICEM)",
+   "readyBy": "2026-11-17",
+   "front": "Wozu dient eine EXCEPTIO, und wer trägt die Beweislast für INTENTIO und EXCEPTIO?",
+   "back": "Einrede des Beklagten, wenn die ACTIO nach ihrem Wortlaut zum Erfolg führen würde, Gründe außerhalb ihrer aber für den Beklagten sprechen (zB EXCEPTIO DOLI in D 39.5.25).\n• Steht in der Formel unmittelbar nach der INTENTIO; formuliert negative Anspruchsvoraussetzungen.\n• Beweislast: INTENTIO → Kläger; EXCEPTIO → Beklagter.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Formularprozess (IN IURE / APUD IUDICEM)",
+   "readyBy": "2026-11-17",
+   "front": "Warum ist die Prozessformel ein „hypothetisches Urteil“ — was macht der IUDEX?",
+   "back": "Der Prätor gewährt ACTIO/EXCEPTIO nur auf Grund der Behauptungen, ohne sie zu prüfen: „Wenn sich erweist, dass … , verurteile; wenn nicht, sprich frei.“\n• Der IUDEX ist ein Privatmann (kein Beamter), stellt fest, welche Behauptungen wahr sind, und entscheidet nach der Formel — vergleichbar einem Geschworenen; Rechtsfragen löst er nicht.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Mit welchen drei Klagen wird Eigentum geschützt?",
+   "back": "1. REI VINDICATIO — ziviler Eigentümer, der den Besitz verloren hat, gegen den Besitzer.\n2. ACTIO PUBLICIANA — derselbe Zweck für den Ersitzungsbesitzer (und bonitarischen Eigentümer).\n3. ACTIO NEGATORIA — gegen sonstige Beeinträchtigungen durch Dritte.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Wie lautet die Formel der REI VINDICATIO, und wie heißen ihre Teile?",
+   "back": "(1) INTENTIO: SI PARET REM, QUA DE AGITUR, EX IURE QUIRITIUM AULI AGERII ESSE — wenn sich erweist, dass die Sache dem Kläger nach quiritischem Recht gehört,\n(2) CLAUSULA ARBITRARIA: NEQUE EA RES RESTITUETUR — und sie nicht zurückgegeben wird,\n(3) CONDEMNATIO: QUANTI EA RES ERIT, TANTAM PECUNIAM IUDEX NUMERIUM NEGIDIUM AULO AGERIO CONDEMNATO, SI NON PARET ABSOLVITO.\n• AULUS AGERIUS / NUMERIUS NEGIDIUS = Platzhalternamen für Kläger/Beklagten.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Wer kann die REI VINDICATIO erheben? Kann es der bonitarische Eigentümer (Bsp Alcesimus)?",
+   "back": "Nur wer quiritisches Eigentum (DOMINIUM EX IURE QUIRITIUM) behauptet — so die INTENTIO.\n• Alcesimus kauft einen Sklaven, bloß tradiert; zwei Monate später gestohlen → keine REI VINDICATIO: Während der Ersitzungszeit ist er nur bonitarischer Eigentümer. Er hat die ACTIO PUBLICIANA.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die PROBATIO DIABOLICA?",
+   "back": "Der „teuflische Beweis“ des zivilen Eigentums: Der Kläger muss beweisen, dass er vom zivilen Eigentümer erwarb, dieser wieder von einem zivilen Eigentümer usw — bis zu einem originären Erwerb (zB USUCAPIO).\n• Praktisch gemildert, weil der IUDEX an keine Beweisregeln gebunden war; die ACTIO PUBLICIANA vermeidet ihn.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Wozu verurteilt der IUDEX bei der REI VINDICATIO — was bewirkt die CLAUSULA ARBITRARIA?",
+   "back": "Immer zu Geld (OMNIS CONDEMNATIO PECUNIARIA EST) — zum Schätzwert im Urteilszeitpunkt (QUANTI EA RES ERIT); nie zur Herausgabe.\n• CLAUSULA ARBITRARIA: Verurteilt wird nur, wer nicht zurückgibt → nach Beweis des Eigentums Restitutionsbefehl (IUSSUM DE RESTITUENDO); Rückgabe samt Früchten verhindert die Verurteilung.\n• Verweigert der Beklagte böswillig die Rückgabe, schätzt der Kläger den Wert unter Eid (IUSIURANDUM IN LITEM).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die EXCEPTIO DOLI — PRAETERITI (SPECIALIS) vs PRAESENTIS (GENERALIS)?",
+   "back": "Formel: SI IN EA RE NIHIL DOLO MALO AULI AGERII FACTUM SIT NEQUE FIAT — wenn der Kläger nicht arglistig gehandelt hat und handelt.\n• DOLI PRAETERITI (SPECIALIS): Arglist in der Vergangenheit, zB Recht arglistig erworben.\n• DOLI PRAESENTIS (GENERALIS): die Klageerhebung selbst ist arglistig.\n• Bsp Tullius/Cato: Tullius erschleicht wissentlich die MANCIPATIO des falschen Guts und vindiziert → DOLI PRAETERITI; erkennt er den Irrtum erst später und klagt trotzdem → DOLI PRAESENTIS.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Wen schützt die EXCEPTIO REI VENDITAE ET TRADITAE?",
+   "back": "Den bonitarischen Eigentümer, dem der zivile Eigentümer eine RES MANCIPI verkauft und (nur) übergeben hat: Vindiziert der quiritische Eigentümer gegen ihn, wehrt er mit EXCEPTIO REI VENDITAE ET TRADITAE (oder EXCEPTIO DOLI) ab.\n• (Die Lehrbuchseiten 160–161 zu diesem Punkt fehlen in den Fotos; Inhalt aus S. 171.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Muss der Beklagte der REI VINDICATIO besitzen? Wer sind FICTI POSSESSORES?",
+   "back": "Ja, verurteilt werden kann nur der Besitzer.\n• Ausnahme: Wer sich arglistig auf den Prozess einlässt, ohne zu besitzen (QUI LITI SE OBTULIT, Paulus D 6.1.7 — zB um den wahren Besitzer zu decken), oder nach der LITIS CONTESTATIO arglistig den Besitz aufgibt → PRO POSSESSIONE DOLUS EST.\n• Sie werden als fingierte Besitzer (FICTI POSSESSORES) verurteilt.\n• Fiktion = bewusste Annahme nicht vorhandener Tatsachen, um eine Rechtsfolge auszulösen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Ulpianus (Pegasus) D 6.1.9 (Case 121): Welche Besitzer können mit der REI VINDICATIO beklagt werden?",
+   "back": "Pegasus (frühklassisch): nur wer Interdiktenbesitz hat (Eigenbesitzer und interdiktengeschützte natürliche Besitzer).\nUlpian (spätklassisch): maßgeblich ist die FACULTAS RESTITUENDI → auch natürliche Besitzer ohne Interdiktenschutz, sofern sie die Sache zurückgeben können.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Was bedeutet das Prinzip des RESTITUERE — welche Früchte erhält der siegreiche Vindikant?",
+   "back": "Der Kläger ist so zu stellen, als wäre ihm die Sache bei der LITIS CONTESTATIO zurückgegeben worden.\n• Daher alle Nutzungen zwischen LITIS CONTESTATIO und Urteil: FRUCTUS PERCEPTI (gezogene) und FRUCTUS PERCIPIENDI/NEGLECTI (die hätten gezogen werden können; Paulus D 6.1.33).\n• Gilt unabhängig vom guten Glauben.\n• Bsp: Peitho erwirtschaftet 100, Seneca hätte 150 erwirtschaftet → Seneca erhält das Gut + 150.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Was gilt für Früchte, die der Beklagte VOR der LITIS CONTESTATIO gezogen hat?",
+   "back": "Hier zählt der gute Glaube: Der BONAE FIDEI POSSESSOR erwirbt sie mit der SEPARATIO (zu nachträglicher Bösgläubigkeit: Julian vs Pomponius/Paulus).\n• Der MALAE FIDEI POSSESSOR begeht mit der Ansichnahme FURTUM → Wertersatz (CONDICTIO FURTIVA) + Buße (ACTIO FURTI); vorhandene Früchte wohl auch per REI VINDICATIO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Die streitige Sache geht zwischen LITIS CONTESTATIO und Urteil unter. Haftet der Beklagte? (Haftungsmodelle)",
+   "back": "Gründe: DOLUS (vorsätzlich), CULPA (Fahrlässigkeit), CASUS (Zufall).\n• Grundsatz: Ohne Besitz keine Verurteilung — außer bei DOLUS (Besitzfiktion; Paulus D 6.1.27.1).\n• Prokulianer (RESTITUERE, Formelwortlaut NEQUE EA RES RESTITUETUR): Haftung immer, auch für CASUS — bei Rückgabe zur LC wäre die Sache nicht untergegangen.\n• Sabinianer: Haftung bei jedem Verschulden (DOLUS oder CULPA; Ulpian D 6.1.15.3) — wie im Deliktsrecht (LEX AQUILIA).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Paulus D 6.1.16.1 (Case 126): B schickt das vindizierte Schiff nach der LITIS CONTESTATIO zu günstiger Jahreszeit auf See; es sinkt. Haftet B?",
+   "back": "Nein — keine Fahrlässigkeit, wenn er in der Schifffahrtssaison fährt; Paulus haftet nur für CULPA (und DOLUS, ARGUMENTUM A MINORE AD MAIUS).\n• Haftung aber, wenn er das Schiff „weniger geeigneten Personen“ anvertraut: CULPA IN ELIGENDO.\n• Im Hafen zu lassen hilft nicht: Der Besitzer muss die Sache nicht ungenutzt lassen und haftet ja auch für FRUCTUS PERCIPIENDI.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Welche Ansprüche hat der BONAE FIDEI POSSESSOR gegen den vindizierenden Eigentümer wegen seiner Aufwendungen?",
+   "back": "Ersatz der wertsteigernden Aufwendungen (IMPENSAE), durchgesetzt durch Zurückbehaltung (RETENTIO) bis zur vollen Zahlung.\n• Prozessual: EXCEPTIO DOLI (PRAESENTIS) gegen die REI VINDICATIO — solange der Eigentümer nicht zahlt, ist seine Klage arglistig.\n• Vgl § 471 Abs 1 ABGB (Zurückbehaltungsrecht).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Ulpianus (Iulianus) D 6.1.37 (Case 129): Ein gutgläubiger Grundstücksbesitzer erfährt, dass das Grundstück einem Dritten gehört, und baut erst danach ein Haus. Rechte gegen den vindizierenden Eigentümer?",
+   "back": "Keine EXCEPTIO DOLI auf Ersatz — er war bei Baubeginn nicht mehr gutgläubig.\n• Ihm bleibt nur das IUS TOLLENDI (Wegnahmerecht) am errichteten Haus.\n• Vgl Celsus D 6.1.38 (Case 107) zum gutgläubigen Bauenden.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Wie lautet die INTENTIO der ACTIO PUBLICIANA — auf welcher Fiktion beruht sie?",
+   "back": "SI QUEM HOMINEM AULUS AGERIUS EMIT ET IS EI TRADITUS EST, ANNO POSSEDISSET, TUM SI EUM HOMINEM … EIUS EX IURE QUIRITIUM ESSE OPORTERET — wenn der gekaufte und übergebene Sklave, hätte der Käufer ihn ein Jahr besessen, sein quiritisches Eigentum wäre …\n• Fiktion des Ablaufs der Ersitzungsfrist (1 Jahr Mobilien, 2 Jahre Grundstücke).\n• CLAUSULA ARBITRARIA und CONDEMNATIO wie bei der REI VINDICATIO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Wer kann die ACTIO PUBLICIANA erheben — und was muss er beweisen?",
+   "back": "1. Ersitzungsbesitzer bei Rechtsmangel (Erwerb vom Nichtberechtigten, vom beschränkt Geschäftsfähigen, auf Putativtitel).\n2. Bonitarische Eigentümer (RES MANCIPI vom zivilen Eigentümer bloß tradiert).\n3. Zivile Eigentümer, die derivativ erworben haben — Vorteil: keine PROBATIO DIABOLICA.\n• Beweis: TRADITIO aufgrund gültigen Titels; es fehlt nur die Besitzzeit.\n• Passivlegitimation/Restitution wie bei der REI VINDICATIO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die EXCEPTIO IUSTI DOMINII?",
+   "back": "Einrede des quiritischen Eigentümers gegen die ACTIO PUBLICIANA: SI EA RES NUMERII NEGIDII NON SIT — wenn die Sache nicht dem Beklagten gehört.\n• Beweist er sein Eigentum, scheitert die Klage → der Ersitzungsbesitzer (Erwerb vom Nichteigentümer) ist schwächer als der gegenwärtige Eigentümer.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Was ist eine REPLICATIO? Wann hilft die REPLICATIO REI VENDITAE ET TRADITAE?",
+   "back": "REPLICATIO = Gegeneinrede des Klägers gegen eine EXCEPTIO.\n• Klagt der bonitarische Eigentümer mit der ACTIO PUBLICIANA gegen seinen Vormann (noch quiritischer Eigentümer) und erhebt dieser die EXCEPTIO IUSTI DOMINII, erhält der Kläger die REPLICATIO REI VENDITAE ET TRADITAE: AUT SI NUMERIUS NEGIDIUS FUNDUM … AULO AGERIO VENDIDIT ET TRADIDIT.\n• Anderer Erwerbsgrund als Kauf → REPLICATIO DOLI.\n• Folge: Der Veräußerer behält nur ein NUDUM IUS QUIRITIUM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Bonitarischer vs quiritischer Eigentümer im Prozess — wie setzt sich der bonitarische Eigentümer durch (Klage und Abwehr)?",
+   "back": "Als Kläger: ACTIO PUBLICIANA; gegen die EXCEPTIO IUSTI DOMINII des Veräußerers → REPLICATIO REI VENDITAE ET TRADITAE (bzw REPLICATIO DOLI).\nAls Beklagter: gegen die REI VINDICATIO des quiritischen Eigentümers → EXCEPTIO REI VENDITAE ET TRADITAE oder EXCEPTIO DOLI.\n• Ergebnis: Der bonitarische Eigentümer ist stärker; dem Veräußerer bleibt das NUDUM IUS QUIRITIUM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Was bedeutet Konvaleszenz — Pomponius (Iulianus) D 21.3.2 (Case 130)?",
+   "back": "Rückwirkende Heilung eines Rechtsmangels.\n• T kauft von Titius ein Grundstück des S und erhält es; S stirbt, Titius beerbt ihn → T wird durch Konvaleszenz bonitarischer Eigentümer (wie bei Erwerb vom Eigentümer).\n• Titius hat nur noch das NUDUM IUS QUIRITIUM; verkauft und übergibt er das wiedererlangte Grundstück an Maevius, kann er diesem kein bonitarisches Eigentum verschaffen (NEMO PLUS IURIS …) → T's ACTIO PUBLICIANA gegen M hat Erfolg.\n• Vgl Ulpian D 44.4.4.32 (Case 131).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Neratius D 19.1.31.2 (Case 133) vs Ulpianus (Iulianus) D 6.2.9.4 (Case 132): Ein Nichtberechtigter verkauft dieselbe Sache nacheinander an A und B — wer hat die ACTIO PUBLICIANA? Und bei zwei verschiedenen Nichtberechtigten?",
+   "back": "Derselbe Nichtberechtigte: Neratius — wem zuerst übergeben wurde (Parallele zum Doppelverkauf durch den Eigentümer und zur Konvaleszenz; Analogie).\nZwei verschiedene Nichtberechtigte: Neratius — ebenfalls wem zuerst übergeben wurde. Julian und Ulpian (Case 132) — wer BESITZT, gleich ob zuerst oder später übergeben wurde.\n• Klassische Kontroverse (auch in den Prüfungs-Unterlagen).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Wozu dient die ACTIO NEGATORIA — was sind Immissionen?",
+   "back": "Klage des Eigentümers, wenn ein Dritter eine Servitut oder ein anderes dingliches Recht an seiner Sache behauptet: Feststellung, dass das Recht nicht besteht, und Wiederherstellung des früheren Zustands.\n• Auch gegen Immissionen = dauernde störende Einwirkungen vom Nachbargrundstück (Käsereigeruch, Rauch/Dampf, Steinsplitter; Ulpian D 8.5.8.5, Case 134).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Was verhindert das INTERDICTUM QUOD VI AUT CLAM?",
+   "back": "Nachteilige Veränderungen am Grundstück, die ein Dritter gewaltsam (VI — weit verstanden: gegen ein Verbot, Ulpian (Q. Mucius) D 43.24.1.5) oder heimlich (CLAM) vornimmt, zB Müll abladen, Brunnen vergiften.\n• Erstes Mittel, wenn der Störer KEIN Recht zur Einwirkung behauptet (sonst ACTIO NEGATORIA).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Übungsfälle aus dem Lehrbuch (Ex 43–48)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 43] Bellona verkauft und übergibt Ago ein Grundstück des Carus; Ago ist gutgläubig und baut darauf um 10.000 ein Haus. 15 Monate nach Besitzerwerb vindiziert Carus und weigert sich, für das Haus zu zahlen, weil er nur einen Gemüsegarten wollte. Ansprüche?",
+   "back": "• Ago ist nicht Eigentümer: kein derivativer Erwerb; Ersitzung (Grundstück 2 Jahre) nach 15 Monaten nicht vollendet → Carus' REI VINDICATIO ist begründet.\n• Ago (gutgläubig beim Bau): EXCEPTIO DOLI → Zurückbehaltung bis Ersatz der Aufwendungen, höchstens der Wertsteigerung (Celsus D 6.1.38).\n• Will/kann Carus nicht zahlen: IUS TOLLENDI Agos (Abbruch, Mitnahme des Materials); Carus kann durch Zahlung des Abbruchwerts abwenden; keine Schikane.\n• Verlöre Ago den Besitz, hätte er als Ersitzungsbesitzer die ACTIO PUBLICIANA — gegen Carus aber erfolglos (EXCEPTIO IUSTI DOMINII).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Übungsfälle aus dem Lehrbuch (Ex 43–48)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 44a/b] Leo will gegen Melitta seine Vase vindizieren. (a) Was, wenn Melitta die LITIS CONTESTATIO verweigert? (b) Nach der LITIS CONTESTATIO, vor Urteil, zerstört ein Erdrutsch Melittas Haus samt Vase — Folgen für Eigentum und Prozess?",
+   "back": "(a) Lehrbuchseiten 160–161 (Passivlegitimation) fehlen in den Fotos. Nach studocu-Notizen dienen ACTIO AD EXHIBENDUM (bzw bei Grundstücken INTERDICTUM QUEM FUNDUM) der Vorbereitung der Vindikation — Ergebnis daher unsicher, im Buch nachlesen.\n(b) Mit dem Untergang erlischt das Eigentum an der Vase. Zufall (CASUS) nach der LITIS CONTESTATIO: Sabinianer — Melitta besitzt nicht mehr und trifft kein Verschulden → Freispruch; Prokulianer (RESTITUERE) — Haftung auch für Zufall → Verurteilung zum Wert.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Übungsfälle aus dem Lehrbuch (Ex 43–48)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 44c] Melitta zerstört Leos Vase absichtlich VOR der LITIS CONTESTATIO, weil sie mit seiner REI VINDICATIO rechnet. Was gilt?",
+   "back": "• REI VINDICATIO scheitert mangels Besitz und Sache; die Besitzfiktion (PRO POSSESSIONE DOLUS EST) greift bei arglistiger Prozesseinlassung oder Besitzaufgabe NACH der LITIS CONTESTATIO.\n• Leo hat einen Schadenersatzanspruch aus der LEX AQUILIA (schuldhafte Zerstörung vor der LC).\n• (Die ACTIO AD EXHIBENDUM erfasst auch, wer arglistig zu besitzen aufgehört hat — QUI DOLO DESIIT POSSIDERE.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Übungsfälle aus dem Lehrbuch (Ex 43–48)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 45] Gripus verkauft und übergibt unbefugt ein nicht gestohlenes Pferd an die gutgläubige Flora. Zwei Tage später stiehlt Helena es und verkauft es an Isauricus. Kann Flora gegen Isauricus klagen? Was, wenn Isauricus der wahre (quiritische) Eigentümer ist?",
+   "back": "• Flora ist Ersitzungsbesitzerin (RES HABILIS, Titel Kauf, BONA FIDES, Besitz); Frist (1 Jahr) nicht abgelaufen; durch den Diebstahl verliert sie den Besitz.\n• Gegen Isauricus: ACTIO PUBLICIANA — sie wäre bei einjährigem Besitz Eigentümerin; Isauricus hat kein besseres Recht (vom Dieb erworben, RES FURTIVA) → Erfolg.\n• Ist Isauricus quiritischer Eigentümer: EXCEPTIO IUSTI DOMINII → Floras Klage scheitert (sie erwarb nicht von ihm). Isauricus muss die Einrede aber selbst erheben und beweisen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Übungsfälle aus dem Lehrbuch (Ex 43–48)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 46] Japyx verkauft und übergibt seinen Lieblingssklaven Stichus an Cassandra. Eine Woche später flieht Stichus zu Japyx zurück und bittet, bleiben zu dürfen; Japyx weigert sich, ihn herauszugeben. Besitz und Eigentum? Welche Klage hat Cassandra?",
+   "back": "• Sklave = RES MANCIPI, nur tradiert → Cassandra wird bonitarische Eigentümerin (und Besitzerin); Japyx behält nur NUDUM IUS QUIRITIUM.\n• Flucht: SERVUS FUGITIVUS — Cassandra behält den Besitz SOLO ANIMO, bis ein Dritter ihn in Besitz nimmt; mit Japyx' Weigerung/Übernahme erwirbt Japyx Besitz, Cassandra verliert ihn (Ersitzung unterbrochen).\n• Cassandra: ACTIO PUBLICIANA gegen Japyx; gegen dessen EXCEPTIO IUSTI DOMINII die REPLICATIO REI VENDITAE ET TRADITAE → sie obsiegt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Übungsfälle aus dem Lehrbuch (Ex 43–48)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 47] Nike verkauft und übergibt Orion ein Grundstück ihres Onkels Pius. Ein Jahr später stirbt Pius, Nike beerbt ihn. Orion reist nach Griechenland und bittet Nike, das Grundstück zu betreuen; Nike verkauft es im eigenen Namen an die gutgläubige Quinta. Drei Monate später bewirtschaftet Quinta es. Eigentum im Verlauf? Welche Klage hat Orion gegen Quinta?",
+   "back": "• Zunächst: Pius Eigentümer; Orion nur Ersitzungsbesitzer (Erwerb vom Nichtberechtigten; Grundstück: 2 Jahre).\n• Tod des Pius, Nike Erbin: Konvaleszenz → Orion wird bonitarischer Eigentümer; Nike hat nur das NUDUM IUS QUIRITIUM (Pomponius (Iulianus) D 21.3.2, Case 130).\n• Nike als Betreuerin = Orions Detentorin; ihr Verkauf an Quinta kann dieser kein bonitarisches Eigentum verschaffen (NEMO PLUS IURIS …); Quinta erhält nur Besitz.\n• Orion: ACTIO PUBLICIANA gegen Quinta — wie im Case 130 erfolgreich.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Übungsfälle aus dem Lehrbuch (Ex 43–48)",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 48] Tiro kauft von Verres den Arzt-Sklaven Stichus (verdient 5.000/Monat). Zwei Monate nach der Übergabe erfährt Tiro, dass Verres nicht Eigentümer war. Vier Monate später klagt die Eigentümerin Claudia. Stichus arbeitet zunächst weiter; einen Monat nach der LITIS CONTESTATIO verbietet Tiro ihm die Arbeit; drei Monate später endet der Prozess. Wozu wird der IUDEX Tiro verurteilen?",
+   "back": "• Claudia ist Eigentümerin (Verres Nichtberechtigter; 6 Monate < 1 Jahr → keine Ersitzung).\n• CLAUSULA ARBITRARIA: zuerst Rückgabebefehl — Stichus samt Nutzungen; sonst CONDEMNATIO auf QUANTI EA RES ERIT.\n• Nutzungen seit LC (RESTITUERE): 1 Monat gezogen (5.000, FRUCTUS PERCEPTI) + 3 Monate nicht gezogen (15.000, FRUCTUS PERCIPIENDI) = 20.000 zusätzlich zum Wert des Sklaven.\n• Vor der LC: Monate 1–2 gutgläubig → Tiro erwirbt die Erträge. Monate 3–6 nach Kenntnis: nach Pomponius/Paulus kein Fruchterwerb mehr (Herausgabe, ggf CONDICTIO FURTIVA/ACTIO FURTI); nach Julian bis zur Klage weiter Erwerb.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Was sind Servituten (Dienstbarkeiten)?",
+   "back": "Beschränkte dingliche Rechte an fremder Sache, die den Eigentümer verpflichten, dem Berechtigten die Ausübung eines Rechts zu gestatten oder die Ausübung eines eigenen Rechts zu unterlassen (§ 482 ABGB).\n• Einteilung: Grunddienstbarkeiten (Prädialservituten: ländliche und städtische) und persönliche Dienstbarkeiten.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Was bedeutet SERVITUS IN FACIENDO CONSISTERE NEQUIT — welche Ausnahme gibt es?",
+   "back": "Eine Servitut kann keine Pflicht zum Handeln begründen — nur zum Dulden oder Unterlassen.\n• Ausnahme: SERVITUS ONERIS FERENDI — der Eigentümer des dienenden Gebäudes muss es im Erhaltungszustand wie bei der Bestellung halten (Ulpian D 8.5.6.2, Case 142).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "NULLI RES SUA SERVIT — was folgt daraus?",
+   "back": "Niemand hat eine Servitut an der eigenen Sache (Paulus D 8.2.26).\n• Erwirbt der Berechtigte das Eigentum an der belasteten Sache, erlischt die Servitut (CONFUSIO — Vereinigung von Berechtigtem und Verpflichtetem; nicht zu verwechseln mit der Vermengung).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Was ist eine Grunddienstbarkeit (Prädialservitut) — wer ist berechtigt?",
+   "back": "Recht des jeweiligen Eigentümers eines Grundstücks an einem anderen Grundstück, das die Nutzung des eigenen ermöglicht oder erleichtert; an das Grundstück gebunden, nur mit ihm übertragbar (heute: easement).\n• PRAEDIUM DOMINANS (herrschendes), PRAEDIUM SERVIENS (dienendes Grundstück).\n• Bsp Gallicus/Lysippe: Wegerecht geht beim Verkauf des Feldes an Niketas mit über; Käufer von Lysippes Gut erwirbt es belastet.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Nenne die ländlichen Prädialservituten (SERVITUTES PRAEDIORUM RUSTICORUM).",
+   "back": "• Wegerechte: ITER (gehen, reiten), ACTUS (Vieh treiben), VIA (fahren)\n• Wasserrechte: AQUAE DUCTUS (Wasserleitung über fremdes Land), AQUAE HAUSTUS (Wasserschöpfen)\n• Weiderecht: IUS PASCENDI",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Nenne die städtischen Prädialservituten (SERVITUTES PRAEDIORUM URBANORUM).",
+   "back": "• Bauservituten: IUS ALTIUS NON TOLLENDI (nicht höher bauen), IUS LUMINIS (Licht/Aussicht)\n• Stützrechte: IUS TIGNI IMMITTENDI (Balken einlassen), IUS ONERIS FERENDI (Gebäude auf das Nachbargebäude stützen)\n• Ableitungsrechte: IUS STILLICIDII (Traufe), IUS FLUMINIS (Regenwasser ableiten), IUS CLOACAE (Abwasser)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Welche Rolle spielen VICINITAS und UTILITAS bei Prädialservituten?",
+   "back": "VICINITAS: dienendes und herrschendes Grundstück sollen benachbart sein (Ulpian D 8.3.5.1, Case 143).\nUTILITAS: Die Servitut muss dem herrschenden Grundstück nützen und besteht nur, soweit das tatsächlich der Fall ist.\n• Paulus D 8.1.8 pr (Case 145): Ein Recht, auf dem Nachbargut spazieren zu gehen oder zu speisen, ist keine Servitut — es dient nur persönlichem Vergnügen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Wie ist eine Servitut auszuüben (SERVITUS CIVILITER EXERCENDA EST)?",
+   "back": "Schonend — mit möglichst geringer Beeinträchtigung des dienenden Grundstücks; und nur im ursprünglichen Umfang (keine einseitige Erweiterung).\n• Bsp: Wer 20 Schafe tränken darf, darf nicht 40 tränken (Ulpian D 43.20.1.18, Case 140); gegen die zusätzlichen kann der Eigentümer den Weg sperren oder die ACTIO NEGATORIA erheben.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Was sind persönliche Dienstbarkeiten — wie definiert Paulus den USUSFRUCTUS?",
+   "back": "Dingliche Rechte einer bestimmten Person, die mit ihrem Tod erlöschen.\n• Paulus D 7.1.1: USUSFRUCTUS EST IUS ALIENIS REBUS UTENDI FRUENDI SALVA RERUM SUBSTANTIA — Recht, fremde Sachen unter Erhaltung ihrer Substanz zu gebrauchen und Früchte zu ziehen (vgl § 509 ABGB).\n• Umfasst USUS und FRUCTUS, auch FRUCTUS CIVILES (Miete/Pacht).\n• Bsp Hera: darf das Haus bewohnen oder vermieten, aber nicht zur Pension umbauen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Gehört das Kind einer Sklavin im Nießbrauch dem Fruchtnießer? Und das Junge eines Tieres?",
+   "back": "PARTUS ANCILLAE ist keine Frucht → gehört dem Eigentümer der Sklavin (Ulpian (Brutus) D 7.1.68 pr, Case 149).\n• Tierjunge sind Früchte → gehören dem Fruchtnießer des Muttertiers (D 7.1.68.1).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Nießbrauch an einer Herde (UNIVERSITAS RERUM) — was heißt „Erhaltung der Substanz“?",
+   "back": "Der Fruchtnießer muss den Bestand erhalten: verendete oder geschlachtete Tiere durch Jungtiere ersetzen (Ulpian D 7.1.68.2; Pomponius D 7.1.69).\n• UNIVERSITAS RERUM = körperlich selbständige Sachen, zusammengefasst zu einer Gesamtheit, die als Ganzes verkauft, verpfändet, eingeklagt werden kann; sie besteht fort, auch wenn einzelne Tiere sterben oder geboren werden.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die CAUTIO USUFRUCTUARIA?",
+   "back": "Förmliches Versprechen des Fruchtnießers zu Beginn, die Sache nach dem Ermessen eines redlichen Mannes (BONI VIRI ARBITRATU) zu nutzen — Ausgleich für die eingeschränkten Rechte des Eigentümers.\n• Nießbrauch entstand meist durch Vermächtnis (zB Versorgung der Witwe ohne Erbeinsetzung).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Nießbrauch vs Leihe, Miete, Pacht — Unterschied?",
+   "back": "USUSFRUCTUS ist ein dingliches Recht (ACTIO IN REM).\nLeihe (unentgeltlicher Gebrauch), Miete (entgeltlicher Gebrauch), Pacht (entgeltlicher Gebrauch + Fruchtziehung) sind Verträge — nur ACTIONES IN PERSONAM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Welche weiteren persönlichen Dienstbarkeiten gibt es?",
+   "back": "• USUS: nur Gebrauch, keine Früchte (Tendenz, Früchte für den Eigenbedarf zuzulassen: D 7.8.12.1; Hadrian bei Pomponius D 7.8.22 pr).\n• HABITATIO (Wohnrecht).\n• OPERAE SERVORUM / OPERAE ANIMALIUM (Dienste von Sklaven bzw Tieren).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Wie wird der Servitutsberechtigte geschützt? Was ist die ACTIO CONFESSORIA?",
+   "back": "1. Er ist nicht Eigenbesitzer, wird aber vom Prätor durch eigene, den Besitzinterdikten nachgebildete Interdikte geschützt (zB INTERDICTUM UTI POSSIDETIS UTILE für den Fruchtnießer eines Grundstücks).\n2. Dingliche Klage: VINDICATIO SERVITUTIS = ACTIO CONFESSORIA — Feststellung des Bestehens der Servitut + Herstellung des rechtmäßigen Zustands.\n• Gegenstück zur ACTIO NEGATORIA (Feststellung des Nichtbestehens).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die USUCAPIO LIBERTATIS?",
+   "back": "Ersitzung der Freiheit von einer Servitut durch den Eigentümer, wenn der Berechtigte sie eine bestimmte Zeit nicht ausübt (NON USUS) — weder selbst noch durch andere: 1 Jahr bei Mobilien, 2 Jahre bei Grundstücken.\n• Bei Gebäudeservituten muss der Eigentümer zusätzlich einen offen servitutswidrigen Zustand herstellen (zB höher bauen trotz SERVITUS ALTIUS NON TOLLENDI; Gaius D 8.2.6, Case 147).\n• Nicht verwechseln mit Ersitzung einer Servitut (die LEX SCRIBONIA verbietet die Ersitzung von Prädialservituten).\n• Heute § 1488 ABGB (3 Jahre).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Warum ist der Begriff „Legalservitut“ irreführend? Beispiel?",
+   "back": "Inhaltlich wie Servituten (Beschränkung des Eigentums zugunsten der Nachbarn), formal aber nicht durch Vereinbarung, sondern unmittelbar durch Gesetz begründet.\n• Bsp: Recht, jeden zweiten Tag das über den Zaun gefallene Obst aufzusammeln — INTERDICTUM DE GLANDE LEGENDA (Zwölftafelgesetz).\n• Modern: Notweg (NotwegeG 1896).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die EMPHYTEUSIS (Erbpacht) — wie wird der Emphyteuta geschützt?",
+   "back": "Veräußerliches und vererbliches dingliches Recht, ein Grundstück gegen jährlichen Zins zu nutzen; Stellung ähnlich einem Eigentümer (Unterschied: Zinspflicht).\n• Ursprünglich an öffentlichem Land (AGER VECTIGALIS; Klage ACTIO VECTIGALIS).\n• Schutz: Interdikte; dingliche Klage REI VINDICATIO UTILIS.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die SUPERFICIES (Baurecht) — wie wird der Superficiar geschützt?",
+   "back": "Veräußerliches und vererbliches Recht, gegen Zins auf fremdem Grund zu bauen.\n• Schutz: INTERDICTUM DE SUPERFICIEBUS; teils dingliche ACTIO IN FACTUM (ACTIO DE SUPERFICIE).\n• Modern: BaurechtsG 1912.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 49] Brontes hat Klio das Recht eingeräumt, ihr Gebäude auf seines zu stützen (SERVITUS ONERIS FERENDI). Welche Pflichten hat Brontes? Was ändert sich, wenn Klio Brontes' Grundstück kauft?",
+   "back": "• Ausnahme vom Grundsatz SERVITUS IN FACIENDO CONSISTERE NEQUIT: Brontes muss sein Gebäude im Zustand bei Bestellung erhalten, sodass Klios Bau ohne Schaden bestehen kann (Ulpian D 8.5.6.2).\n• Kauft Klio das dienende Grundstück, erlischt die Servitut: NULLI RES SUA SERVIT (CONFUSIO).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 50] Das Gut des Carus ist mit einem SERVITUS ACTUS zugunsten der Nachbarin Daphne belastet. Ihr Erbe Eros treibt das Vieh nicht mehr den Weg entlang, sondern abkürzend durch Carus' Blumengarten. Kann Carus klagen?",
+   "back": "Ja.\n• Die Prädialservitut ist an das Grundstück gebunden und geht auf Eros als neuen Eigentümer über.\n• Sie ist aber schonend (CIVILITER) und nur im bisherigen Umfang auszuüben; einseitige Erweiterung ist unzulässig.\n• Gegen die Nutzung des Blumengartens: ACTIO NEGATORIA (und Selbsthilfe durch Absperren, vgl Ex 34 im Text).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 51] Flora hat einen Nießbrauch an Gripus' Obstgarten. (a) Wem gehören die Früchte? (b) Darf Flora den Garten gewinnbringender in ein Karottenfeld umwandeln?",
+   "back": "(a) Mit der Trennung zunächst dem Eigentümer Gripus; Flora erwirbt sie erst mit der PERCEPTIO (Aufsammeln, Pflücken). Fallen sie vorher Dritten in die Hände, kann nur Gripus vindizieren; Flora hat die VINDICATIO USUSFRUCTUS gegen ihn.\n(b) Nein — der USUSFRUCTUS gilt SALVA RERUM SUBSTANTIA; sie darf nur die wiederkehrenden Erträge ziehen, nicht die Substanz verändern (vgl Hera: Haus nicht zur Pension umbauen).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — Dienstbarkeiten (SERVITUTES), Emphyteuse, Superficies",
+   "readyBy": "2026-11-17",
+   "front": "[Lehrbuch Ex 52] Japyx hat einen Nießbrauch an einem Wald. (a) Darf er Bäume fällen, wie viele? (b) 14 Monate lang kann der todkranke Japyx sein Recht nicht ausüben; seine Erbin Kassandra übt den Nießbrauch weiter aus. Ist die Dienstbarkeit erloschen?",
+   "back": "(a) Nur soweit es wiederkehrender Ertrag ist, ohne die Substanz des Waldes zu mindern (kein Kahlschlag) — Erhaltung der Substanz.\n(b) Durch bloßes Nichtausüben nicht: USUCAPIO LIBERTATIS bei Grundstücken erst nach 2 Jahren NON USUS (14 Monate genügen nicht).\n• Aber: Persönliche Dienstbarkeiten erlöschen mit dem Tod des Berechtigten → Kassandra erbt keinen Nießbrauch; ihre Ausübung ist rechtlos.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  }
+ ]
+}
