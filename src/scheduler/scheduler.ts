@@ -23,6 +23,11 @@ export interface SchedCard {
   buriedUntil?: string | null // YYYY-MM-DD
   /** 1 must know 100 %, 2 important, 3 the rest — new cards come in this order. */
   priority?: 1 | 2 | 3
+  /**
+   * The class this card belongs to (YYYY-MM-DD). New cards come earliest
+   * deadline first and are paced so each class's batch is learnt before it.
+   */
+  readyBy?: string
 }
 
 /**
@@ -43,6 +48,8 @@ export interface SubjectPlan {
   dueReviews: number
   newRemaining: number
   newQuota: number // new cards actually scheduled today (after any cap)
+  /** The next class with cards to learn for it, and how far along they are. */
+  nextClass?: { date: string; learned: number; total: number } | null
 }
 
 export interface SessionPlan {
@@ -130,13 +137,50 @@ export function newCardQuota(newRemaining: number, daysUntilExam: number | null)
  */
 function wantedNewToday(
   subject: SchedSubject,
-  newRemaining: number,
+  news: SchedCard[],
   alreadyToday: number,
   daysUntilExam: number | null,
+  now: Date,
 ): number {
-  return subject.dailyNewLimit != null
-    ? Math.max(0, Math.floor(subject.dailyNewLimit))
-    : newCardQuota(newRemaining + alreadyToday, daysUntilExam)
+  if (subject.dailyNewLimit != null) return Math.max(0, Math.floor(subject.dailyNewLimit))
+  return Math.max(
+    newCardQuota(news.length + alreadyToday, daysUntilExam),
+    classPace(news, alreadyToday, now),
+  )
+}
+
+/**
+ * New cards a day so that every upcoming class is prepared in time: for each
+ * class date, everything due by then spread over the days left before it. The
+ * tightest class decides. Cards of a class that is already over keep their
+ * place at the front of the queue but no longer force the pace — the exam
+ * pace picks them up.
+ */
+export function classPace(news: SchedCard[], alreadyToday: number, now: Date): number {
+  const today = dayKey(now)
+  const dates = [...new Set(news.map((c) => c.readyBy).filter((d): d is string => !!d && d >= today))].sort()
+  let pace = 0
+  for (const date of dates) {
+    const needed = news.filter((c) => c.readyBy && c.readyBy >= today && c.readyBy <= date).length
+    const days = daysUntil(date, now) ?? 0
+    // Learnt by the class means learnt the evening before; on the day itself
+    // there is just the morning left.
+    pace = Math.max(pace, Math.ceil((needed + alreadyToday) / Math.max(1, days)))
+  }
+  return pace
+}
+
+/** The next class that still has cards to it — for "ready for Tuesday?". */
+export function nextClass(
+  list: SchedCard[],
+  now: Date,
+): { date: string; learned: number; total: number } | null {
+  const today = dayKey(now)
+  const upcoming = list.filter((c) => c.readyBy && c.readyBy >= today)
+  if (upcoming.length === 0) return null
+  const date = upcoming.map((c) => c.readyBy as string).sort()[0]
+  const mine = upcoming.filter((c) => c.readyBy === date)
+  return { date, learned: mine.filter((c) => c.state !== 'new').length, total: mine.length }
 }
 
 /**
@@ -148,7 +192,13 @@ function wantedNewToday(
 export function byPriority(cards: SchedCard[]): SchedCard[] {
   return cards
     .map((c, i) => ({ c, i }))
-    .sort((a, b) => (a.c.priority ?? 2) - (b.c.priority ?? 2) || a.i - b.i)
+    .sort(
+      (a, b) =>
+        // The nearest class first; cards that belong to no class come after.
+        (a.c.readyBy ?? '9999').localeCompare(b.c.readyBy ?? '9999') ||
+        (a.c.priority ?? 2) - (b.c.priority ?? 2) ||
+        a.i - b.i,
+    )
     .map((x) => x.c)
 }
 
@@ -259,7 +309,7 @@ export function buildSession(
     const news = byPriority(active.filter((c) => c.state === 'new'))
     const dExam = daysUntil(s.examDate, now)
     const alreadyToday = introduced.get(s.id) ?? 0
-    const wanted = wantedNewToday(s, news.length, alreadyToday, dExam)
+    const wanted = wantedNewToday(s, news, alreadyToday, dExam, now)
     // The day before the exam: reviews only.
     const quota = isExamImminent(dExam)
       ? 0
@@ -281,6 +331,7 @@ export function buildSession(
       dueReviews: due.length,
       newRemaining: news.length,
       newQuota: quota,
+      nextClass: nextClass(list, now),
     })
     if (lane.length) lanes.push(lane)
   }
@@ -327,7 +378,7 @@ export function subjectStats(
   const active = list.filter((c) => isSchedulable(c, now))
   const news = active.filter((c) => c.state === 'new')
   const dExam = daysUntil(subject.examDate, now)
-  const wanted = wantedNewToday(subject, news.length, introducedToday, dExam)
+  const wanted = wantedNewToday(subject, news, introducedToday, dExam, now)
   return {
     total: list.length,
     studied: list.filter((c) => c.state !== 'new').length,
@@ -426,7 +477,7 @@ export function buildTopicSession(
       ? Math.max(0, Math.floor(opts.newCardCap) - introducedTotal)
       : Infinity
 
-  const wanted = wantedNewToday(subject, active.filter((c) => c.state === 'new').length, alreadyToday, dExam)
+  const wanted = wantedNewToday(subject, active.filter((c) => c.state === 'new'), alreadyToday, dExam, now)
   const quota = isExamImminent(dExam) ? 0 : Math.max(0, wanted - alreadyToday)
 
   const mine = active.filter((c) => topicKey(c) === topic)

@@ -41,7 +41,7 @@ import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
 import { lectureForTopic, matchCourses, orderByCourse } from '../src/lib/materials'
 import { newCardsOnly, planFiling, planPrune, planRemovals, planUpdates, questionKey } from '../src/import/mergeDeck'
-import { byPriority } from '../src/scheduler/scheduler'
+import { byPriority, classPace, nextClass } from '../src/scheduler/scheduler'
 import { hasManualOrder, moveItem, orderedByHand, positionsFor } from '../src/lib/order'
 import {
   answerSimilarity,
@@ -1753,6 +1753,48 @@ console.log('— blind maps: masks stay relative, one card per place —')
   )
   ok('pack' in empty && empty.pack.lectures.ab12cdL1.slides.length === 1, 'prázdný oddíl se vynechá')
   ok('pack' in empty && empty.pack.warnings.some((w) => w.startsWith('empty-slide')), 'a řekne se to')
+}
+
+
+console.log('— readyBy: připraven na každou hodinu —')
+{
+  const now = new Date('2026-10-05T08:00:00')
+  const rc = (id: string, readyBy?: string, priority?: 1 | 2 | 3, state = 'new') => ({
+    id,
+    subjectId: 's',
+    state: state as 'new',
+    due: '2026-10-05T00:00:00Z',
+    readyBy,
+    priority,
+  })
+  const order = byPriority([rc('later', '2026-10-20', 1), rc('free', undefined, 1), rc('soon', '2026-10-13', 3)])
+  ok(order.map((c) => c.id).join(',') === 'soon,later,free', `the nearest class goes first, whatever the priority (got ${order.map((c) => c.id)})`)
+
+  // 16 cards for 13.10. (8 days away) + 7 for 20.10. → 2 a day keeps Tuesday safe.
+  const news = [
+    ...Array.from({ length: 16 }, (_, i) => rc(`a${i}`, '2026-10-13')),
+    ...Array.from({ length: 7 }, (_, i) => rc(`b${i}`, '2026-10-20')),
+  ]
+  ok(classPace(news, 0, now) === 2, `16 cards over 8 days = 2 a day (got ${classPace(news, 0, now)})`)
+  // Second class tighter: 30 for 20.10. → (16+30)/15 = 4 per day beats 2.
+  const tight = [...news.slice(0, 16), ...Array.from({ length: 30 }, (_, i) => rc(`c${i}`, '2026-10-20'))]
+  ok(classPace(tight, 0, now) === 4, `the tightest class sets the pace (got ${classPace(tight, 0, now)})`)
+  ok(classPace([rc('x', '2026-10-05')], 0, now) === 1, 'class today: whatever is left comes now')
+  ok(classPace([rc('old', '2026-09-29')], 0, now) === 0, 'a class that is over no longer forces the pace')
+
+  // Far exam alone would trickle 1 a day; the class pulls it up.
+  const plan = buildSession([{ id: 's', examDate: '2027-01-19' }], news, now)
+  ok(plan.newCards === 2, `buildSession paces by the class, not the far exam (got ${plan.newCards})`)
+  ok(plan.order.every((id) => id.startsWith('a')), 'and today it takes the cards for Tuesday')
+
+  const nc = nextClass([rc('d1', '2026-10-13', 2, 'review'), rc('d2', '2026-10-13'), rc('e', '2026-10-20')], now)
+  ok(nc?.date === '2026-10-13' && nc.learned === 1 && nc.total === 2, `next class: 1 of 2 learnt (got ${JSON.stringify(nc)})`)
+  ok(nextClass([rc('z')], now) === null, 'a deck without classes shows none')
+
+  const deck = parseDeck(
+    JSON.stringify({ subject: 'S', cards: [{ front: 'f', back: 'b', readyBy: '2026-10-13' }, { front: 'g', back: 'b', readyBy: '13.10.' }] }),
+  )
+  ok(deck.cards[0].readyBy === '2026-10-13' && deck.cards[1].readyBy === undefined, 'parseDeck keeps an ISO readyBy and drops a malformed one')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

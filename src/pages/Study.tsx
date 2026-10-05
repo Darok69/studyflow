@@ -176,6 +176,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
           draft: c.draft,
           buriedUntil: c.buriedUntil,
           priority: c.priority,
+    readyBy: c.readyBy,
         }))
         order = subject
           ? buildTopicSession(
@@ -205,6 +206,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
             draft: c.draft,
             buriedUntil: c.buriedUntil,
             priority: c.priority,
+    readyBy: c.readyBy,
           }))
         const session = buildSession(
           subjects

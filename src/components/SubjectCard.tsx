@@ -1,6 +1,6 @@
 import type { Subject } from '../db/db'
 import type { SubjectPlan } from '../scheduler/scheduler'
-import { countdownLabel, formatExamDate, urgency } from '../lib/date'
+import { countdownLabel, formatExamDate, parseExamDate, urgency } from '../lib/date'
 import { readinessBand, type Readiness } from '../lib/readiness'
 import { subjectColor, subjectColorIndex, urgencyColor, palette } from '../lib/theme'
 import { ProgressBar } from './ProgressBar'
@@ -96,6 +96,16 @@ export function SubjectCard({
         </span>
       </div>
 
+      {plan.nextClass && (
+        <div
+          className={`next-class${plan.nextClass.learned >= plan.nextClass.total ? ' next-class-ready' : ''}`}
+        >
+          {plan.nextClass.learned >= plan.nextClass.total
+            ? t('nextClassReady', classDay(plan.nextClass.date))
+            : t('nextClassLine', classDay(plan.nextClass.date), plan.nextClass.learned, plan.nextClass.total)}
+        </div>
+      )}
+
       {onDragStart && (
         <button
           className="subject-action subject-grip"
@@ -134,4 +144,13 @@ export function SubjectCard({
       </div>
     </article>
   )
+}
+
+/** „úterý 13. 10." — the class is a weekday, not a date in a calendar. */
+function classDay(date: string): string {
+  return parseExamDate(date).toLocaleDateString(t('locale'), {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'numeric',
+  })
 }

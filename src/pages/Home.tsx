@@ -109,6 +109,7 @@ export function Home({
     draft: c.draft,
     buriedUntil: c.buriedUntil,
     priority: c.priority,
+    readyBy: c.readyBy,
   }))
   const session = buildSession(
     active.map((s) => ({ id: s.id, examDate: s.examDate, dailyNewLimit: s.dailyNewLimit })),

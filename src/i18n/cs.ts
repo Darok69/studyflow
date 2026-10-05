@@ -103,6 +103,8 @@ export const cs = {
   unarchiveBtn: 'Vrátit mezi aktivní',
   archivedHeading: (n: number) => `Hotové (${n})`,
   archivedHint: 'Nepočítají se do plánu ani připomínek. Karty i historie zůstávají.',
+  nextClassLine: (day: string, learned: number, total: number) => `Na hodinu ${day}: naučeno ${learned} z ${total}`,
+  nextClassReady: (day: string) => `Na hodinu ${day} připraven ✓`,
   cramBtn: 'Procvičit',
   subjectOpenTitle: 'Klepnutím otevřeš předmět — učebnici a témata',
 

@@ -100,6 +100,8 @@ export const de: Messages = {
   unarchiveBtn: 'Wieder aktiv',
   archivedHeading: (n: number) => `Erledigt (${n})`,
   archivedHint: 'Zählen nicht zum Plan und zu Erinnerungen. Karten und Verlauf bleiben.',
+  nextClassLine: (day: string, learned: number, total: number) => `Für die Einheit am ${day}: ${learned} von ${total} gelernt`,
+  nextClassReady: (day: string) => `Bereit für die Einheit am ${day} ✓`,
   cramBtn: 'Üben',
   subjectOpenTitle: 'Antippen, um das Fach zu öffnen — Lehrbuch und Themen',
 

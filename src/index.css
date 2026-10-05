@@ -2982,3 +2982,14 @@ body {
   white-space: nowrap;
   max-width: 100%;
 }
+
+/* ---------- Příští hodina (readyBy) ---------- */
+.next-class {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--mid);
+}
+
+.next-class-ready {
+  color: var(--far);
+}

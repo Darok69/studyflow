@@ -83,6 +83,8 @@ export interface Card {
   level?: CardLevel // 1 recall, 2 understanding, 3 application
   /** How essential: 1 = must know 100 %, 2 = important, 3 = the rest. New cards are introduced in this order. */
   priority?: 1 | 2 | 3
+  /** Date of the class this card prepares for (YYYY-MM-DD) — paces new cards. */
+  readyBy?: string
   topic?: string // heading from the approved outline — interleaving + filters
   front: string
   back: string

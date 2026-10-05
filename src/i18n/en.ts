@@ -99,6 +99,8 @@ export const en: Messages = {
   unarchiveBtn: 'Back to active',
   archivedHeading: (n: number) => `Done (${n})`,
   archivedHint: 'Left out of the plan and reminders. Cards and history stay.',
+  nextClassLine: (day: string, learned: number, total: number) => `For class on ${day}: ${learned} of ${total} learnt`,
+  nextClassReady: (day: string) => `Ready for class on ${day} ✓`,
   cramBtn: 'Practise',
   subjectOpenTitle: 'Tap to open the subject — its textbook and topics',
 

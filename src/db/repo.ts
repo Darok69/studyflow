@@ -46,6 +46,7 @@ function cardFromDraft(draft: CardDraft, subjectId: string): Omit<Card, keyof Fs
     kind: draft.kind ?? draft.type,
     level: draft.level ?? 1,
     priority: draft.priority,
+    readyBy: draft.readyBy,
     topic: draft.topic,
     front: draft.front,
     back: draft.back,

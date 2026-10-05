@@ -11,6 +11,7 @@ export interface CardDraft {
   kind?: CardKind // what it teaches (definice, proces, případ…)
   level?: CardLevel // 1 recall, 2 understanding, 3 application
   priority?: 1 | 2 | 3 // 1 must know 100 %, 2 important, 3 the rest
+  readyBy?: string // YYYY-MM-DD — the class this card prepares for
   topic?: string // heading from the approved outline
   front: string
   back: string
@@ -99,6 +100,11 @@ function parseFiling(value: unknown): FilingRule[] {
   return out
 }
 
+/** A calendar day as written in a deck: YYYY-MM-DD. */
+function isDayKey(value: unknown): value is string {
+  return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value)
+}
+
 /** `updates`: [{match, front?, back?, topic?}] — malformed entries are dropped. */
 function parseUpdates(value: unknown): CardUpdate[] {
   if (!Array.isArray(value)) return []
@@ -111,9 +117,15 @@ function parseUpdates(value: unknown): CardUpdate[] {
     const back = typeof r.back === 'string' && r.back.trim() ? r.back : undefined
     const topic = typeof r.topic === 'string' && r.topic.trim() ? r.topic.trim() : undefined
     const priority = r.priority === 1 || r.priority === 2 || r.priority === 3 ? r.priority : undefined
-    if (!match.trim() || (front === undefined && back === undefined && topic === undefined && priority === undefined)) continue
+    const readyBy = isDayKey(r.readyBy) ? r.readyBy : undefined
+    if (
+      !match.trim() ||
+      (front === undefined && back === undefined && topic === undefined && priority === undefined && readyBy === undefined)
+    )
+      continue
     out.push({
       match,
+      ...(readyBy !== undefined ? { readyBy } : {}),
       ...(front !== undefined ? { front } : {}),
       ...(back !== undefined ? { back } : {}),
       ...(topic !== undefined ? { topic } : {}),
@@ -182,6 +194,7 @@ export function parseDeck(raw: string): ParsedDeck {
     const kind: CardKind = isCardKind(c.kind) ? c.kind : type
     const level: CardLevel = isCardLevel(c.level) ? c.level : 1
     const priority = c.priority === 1 || c.priority === 2 || c.priority === 3 ? c.priority : undefined
+    const readyBy = isDayKey(c.readyBy) ? c.readyBy : undefined
     const topic = typeof c.topic === 'string' && c.topic.trim() ? c.topic.trim() : undefined
     // Generated cards carry where they came from and whether they passed the
     // quality check; hand-written decks simply have none of this.
@@ -201,7 +214,7 @@ export function parseDeck(raw: string): ParsedDeck {
         return
       }
       const { front, back, raw } = makeCloze(text)
-      cards.push({ type, kind, level, ...(priority ? { priority } : {}), topic, front, back, raw, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
+      cards.push({ type, kind, level, ...(priority ? { priority } : {}), ...(readyBy ? { readyBy } : {}), topic, front, back, raw, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
     } else {
       const front = typeof c.front === 'string' ? c.front.trim() : ''
       const back = typeof c.back === 'string' ? c.back.trim() : ''
@@ -209,7 +222,7 @@ export function parseDeck(raw: string): ParsedDeck {
         errors.push(t('errBasicCardNeedsBoth', n))
         return
       }
-      cards.push({ type, kind, level, ...(priority ? { priority } : {}), topic, front, back, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
+      cards.push({ type, kind, level, ...(priority ? { priority } : {}), ...(readyBy ? { readyBy } : {}), topic, front, back, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
     }
   })
 
