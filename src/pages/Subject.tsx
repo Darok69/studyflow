@@ -17,6 +17,7 @@ import { SubjectEditor } from '../components/SubjectEditor'
 import { SubjectPace } from '../components/SubjectPace'
 import { getMaterialIndex, SERVER_MODE, type MaterialIndex } from '../lib/api'
 import { lectureForTopic, matchCourses, orderByCourse, type CourseRef } from '../lib/materials'
+import { sortTopicsByClass } from '../lib/order'
 import { t } from '../i18n'
 
 /**
@@ -139,7 +140,12 @@ export function Subject({
     subject.name,
     own.map((c) => c.topic ?? ''),
   )
-  const plans: TopicPlan[] = orderByCourse(topicPlans(subject.id, schedCards, now), courses)
+  // Textbook order first; a deck made for a course schedule then goes by the
+  // date of each class, and inside one class as the deck lists the topics.
+  const plans: TopicPlan[] = sortTopicsByClass(
+    orderByCourse(topicPlans(subject.id, schedCards, now), courses),
+    subject.topicOrder,
+  )
 
   const identity = subjectColor(subject.colorIndex ?? subjectColorIndex(subject.id))
   const urgent = urgencyColor(urgency(stats.daysUntilExam))

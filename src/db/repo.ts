@@ -17,7 +17,7 @@ import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
 import { subjectColorIndex } from '../lib/theme'
-import { positionsFor } from '../lib/order'
+import { deckTopicOrder, mergeTopicOrder, positionsFor } from '../lib/order'
 import { BREAK_NUDGE_MINUTES, DEFAULT_DAILY_MINUTES, DEFAULT_DAILY_NEW_CAP } from '../lib/wellbeing'
 import { dayKey } from '../lib/date'
 
@@ -150,11 +150,20 @@ export async function addNewCardsToSubject(
   }
   // An exam date that moved is worth taking over; the rest of the subject
   // (colour, limits, intention) belongs to the user, not to the file.
-  if (parsed.subject.examDate) {
-    const subject = await db.subjects.get(subjectId)
-    if (subject && subject.examDate !== parsed.subject.examDate) {
-      await db.subjects.update(subjectId, { examDate: parsed.subject.examDate })
+  const subject = await db.subjects.get(subjectId)
+  if (subject) {
+    const patch: Partial<Subject> = {}
+    if (parsed.subject.examDate && subject.examDate !== parsed.subject.examDate) {
+      patch.examDate = parsed.subject.examDate
     }
+    // The deck's order of topics — also when nothing new arrived, so importing
+    // the same deck again is how an older subject learns it.
+    const deckOrder = deckTopicOrder(parsed.cards)
+    if (deckOrder.length > 0) {
+      const topicOrder = mergeTopicOrder(subject.topicOrder, deckOrder)
+      if (JSON.stringify(topicOrder) !== JSON.stringify(subject.topicOrder)) patch.topicOrder = topicOrder
+    }
+    if (Object.keys(patch).length > 0) await db.subjects.update(subjectId, patch)
   }
   notifyDataChanged()
   return {
@@ -179,6 +188,7 @@ export async function importDeck(parsed: ParsedDeck): Promise<{ subjectId: strin
     reminderTime: parsed.subject.reminderTime,
     createdAt: now.toISOString(),
     colorIndex: subjectColorIndex(subjectId),
+    ...(deckTopicOrder(parsed.cards).length > 0 ? { topicOrder: deckTopicOrder(parsed.cards) } : {}),
   }
 
   const cards: Card[] = parsed.cards.map((d) => ({

@@ -56,3 +56,50 @@ export function hasManualOrder(subjects: Orderable[]): boolean {
 export function positionsFor(ids: string[]): Map<string, number> {
   return new Map(ids.map((id, i) => [id, i]))
 }
+
+/**
+ * Topics in the order a deck lists them — first appearance of each. Cards are
+ * stored under random ids, so this is the only place the author's order of
+ * topics survives, and it is kept on the subject.
+ */
+export function deckTopicOrder(cards: { topic?: string }[]): string[] {
+  const out: string[] = []
+  const seen = new Set<string>()
+  for (const c of cards) {
+    const topic = c.topic?.trim()
+    if (!topic || seen.has(topic)) continue
+    seen.add(topic)
+    out.push(topic)
+  }
+  return out
+}
+
+/**
+ * A re-import brings the deck's order; topics the deck no longer lists (cards
+ * written by hand, an older batch) keep their place after it.
+ */
+export function mergeTopicOrder(prev: string[] | undefined, deck: string[]): string[] {
+  const inDeck = new Set(deck)
+  return [...deck, ...(prev ?? []).filter((t) => !inDeck.has(t))]
+}
+
+/**
+ * Topics by the date of their class, then in the deck's order. Topics with no
+ * class come after the dated ones; anything the order does not know keeps the
+ * position it came in, so a subject without classes looks as it always did.
+ */
+export function sortTopicsByClass<T extends { topic: string; readyBy?: string }>(
+  plans: T[],
+  topicOrder: string[] | undefined,
+): T[] {
+  const rank = new Map((topicOrder ?? []).map((t, i) => [t, i]))
+  return plans
+    .map((p, i) => ({ p, i }))
+    .sort(
+      (a, b) =>
+        (a.p.readyBy ?? '9999').localeCompare(b.p.readyBy ?? '9999') ||
+        (rank.get(a.p.topic) ?? Infinity) - (rank.get(b.p.topic) ?? Infinity) ||
+        a.i - b.i,
+    )
+    .map((x) => x.p)
+}

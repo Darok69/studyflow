@@ -416,6 +416,8 @@ export interface TopicPlan {
   studied: number // cards no longer in the "new" state
   dueReviews: number
   newRemaining: number
+  /** The earliest class any card of the topic prepares for. */
+  readyBy?: string
 }
 
 /**
@@ -439,6 +441,7 @@ export function topicPlans(
       byTopic.set(key, plan)
     }
     plan.total++
+    if (c.readyBy && (!plan.readyBy || c.readyBy < plan.readyBy)) plan.readyBy = c.readyBy
     if (c.state !== 'new') plan.studied++
     // Buried cards still belong to the topic, they just sit out today.
     if (!isSchedulable(c, now)) continue

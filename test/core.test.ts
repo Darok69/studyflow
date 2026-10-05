@@ -42,7 +42,7 @@ import { encouragement } from '../src/lib/encouragement'
 import { lectureForTopic, matchCourses, orderByCourse } from '../src/lib/materials'
 import { newCardsOnly, planFiling, planPrune, planRemovals, planUpdates, questionKey } from '../src/import/mergeDeck'
 import { byPriority, classPace, nextClass } from '../src/scheduler/scheduler'
-import { hasManualOrder, moveItem, orderedByHand, positionsFor } from '../src/lib/order'
+import { deckTopicOrder, hasManualOrder, mergeTopicOrder, moveItem, orderedByHand, positionsFor, sortTopicsByClass } from '../src/lib/order'
 import {
   answerSimilarity,
   checkAnswer,
@@ -1796,6 +1796,41 @@ console.log('— readyBy: připraven na každou hodinu —')
     JSON.stringify({ subject: 'S', cards: [{ front: 'f', back: 'b', readyBy: '2026-10-13' }, { front: 'g', back: 'b', readyBy: '13.10.' }] }),
   )
   ok(deck.cards[0].readyBy === '2026-10-13' && deck.cards[1].readyBy === undefined, 'parseDeck keeps an ISO readyBy and drops a malformed one')
+}
+
+
+console.log('— témata podle data hodiny —')
+{
+  const tc = (id: string, topic: string, readyBy?: string) => ({ id, subjectId: 's', topic, state: 'new' as const, due: '2026-10-05T00:00:00Z', readyBy })
+  // Stored under random ids: the deck's order is gone from the cards themselves.
+  const cards = [
+    tc('1', '01.12. Pfandrecht II', '2026-12-01'),
+    tc('2', '13.10. Besitz I — Begriff', '2026-10-13'),
+    tc('3', 'Ohne Datum'),
+    tc('4', '20.10. Besitz II', '2026-10-20'),
+    tc('5', '13.10. Besitz I — Einführung', '2026-10-13'),
+    tc('6', '13.10. Besitz I — Fallblatt', '2026-10-13'),
+  ]
+  const order = deckTopicOrder([
+    { topic: '13.10. Besitz I — Einführung' },
+    { topic: '13.10. Besitz I — Begriff' },
+    { topic: '13.10. Besitz I — Einführung' },
+    { topic: '13.10. Besitz I — Fallblatt' },
+    { topic: '20.10. Besitz II' },
+    { topic: '01.12. Pfandrecht II' },
+  ])
+  ok(order.length === 5 && order[0].endsWith('Einführung'), 'deckTopicOrder = first appearance')
+  const sorted = sortTopicsByClass(topicPlans('s', cards), order).map((p) => p.topic)
+  ok(
+    sorted.join('|') ===
+      '13.10. Besitz I — Einführung|13.10. Besitz I — Begriff|13.10. Besitz I — Fallblatt|20.10. Besitz II|01.12. Pfandrecht II|Ohne Datum',
+    `by class date (not by the "01.12." text), inside a class as the deck lists them, undated last (got ${sorted.join(' | ')})`,
+  )
+  const noOrder = sortTopicsByClass(topicPlans('s', cards), undefined).map((p) => p.topic)
+  ok(noOrder[3] === '20.10. Besitz II' && noOrder[5] === 'Ohne Datum', 'without a stored order the dates still hold')
+  const plain = [{ topic: 'b' }, { topic: 'a' }]
+  ok(sortTopicsByClass(plain, undefined).map((p) => p.topic).join('') === 'ba', 'a subject without classes keeps its order')
+  ok(mergeTopicOrder(['x', 'b'], ['a', 'b']).join('') === 'abx', 'a re-import puts the deck order first and keeps the rest after')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

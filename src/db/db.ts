@@ -36,6 +36,8 @@ export interface Subject {
    * do odznaku ani do připomínky; na úvodní obrazovce leží sbalený dole.
    */
   archived?: boolean
+  /** Topics in the order the imported deck lists them (see deckTopicOrder). */
+  topicOrder?: string[]
 }
 
 /**
