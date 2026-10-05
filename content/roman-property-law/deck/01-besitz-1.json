@@ -1,0 +1,1802 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Womit befasst sich das römische Sachenrecht?",
+   "back": "Mit der Zuordnung von Rechtsobjekten (Sachen, RES) zu Rechtssubjekten — also mit dinglichen Rechten.\n• Sachen sind Gegenstand von Rechtsgeschäften; das Rechtssubjekt kann sie nutzen und über sie verfügen.\n• Vgl § 285 ABGB: Sache ist „alles, was von der Person unterschieden ist und zum Gebrauch der Menschen dient“.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Was ist ein Rechtssubjekt (legal subject)? Was bedeutet Rechtsfähigkeit (legal personality)?",
+   "back": "Rechtssubjekt = wer Träger von Rechten und Pflichten sein kann (Person im Rechtssinn).\n• Rechtsfähigkeit (legal personality) = Fähigkeit, Rechte und Pflichten zu haben.\n• Bei Freigeborenen beginnt sie mit der Geburt (lebend und von menschlicher Gestalt).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Wovon hing die Rechtsstellung einer Person in Rom ab (anders als heute)?",
+   "back": "Von einem Zusammenspiel mehrerer Faktoren — heute sind alle Menschen gleich rechtsfähig (§ 16 ABGB, § 1 BGB, Art 11 ZGB).\n• Freiheit (STATUS LIBERTATIS)\n• Bürgerrecht (STATUS CIVITATIS)\n• Stellung in der Familie (STATUS FAMILIAE)\n• Geschlecht",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "STATUS LIBERTATIS: Wie unterscheidet das römische Recht Freie und Sklaven?",
+   "back": "HOMINES LIBERI (Freie) vs SERVI (Sklaven); Freie sind INGENUI (freigeboren) oder LIBERTI (Freigelassene).\n• Sklaven sind nicht rechtsfähig und gelten als Sachen — man kann sie verkaufen oder verpfänden.\n• Sie können aber unter Umständen für ihren DOMINUS Rechte erwerben oder Pflichten begründen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Was besagt der Grundsatz NASCITURUS PRO IAM NATO HABETUR …?",
+   "back": "Das Ungeborene gilt als schon geboren, soweit es um seinen Vorteil geht (… QUOTIENS DE COMMODIS EIUS AGITUR).\n• An sich ist der NASCITURUS nicht rechtsfähig.\n• Folge: Ein nach dem Tod des Vaters geborenes Kind kann erben.\n• Quelle: Paulus D 1.5.7; vgl § 22 ABGB.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "STATUS FAMILIAE: Wer steht in der PATRIA POTESTAS des PATER FAMILIAS?",
+   "back": "Die Hauskinder (FILII/FILIAE FAMILIAS): alle ehelichen Kinder, die ehelichen Nachkommen der noch gewaltunterworfenen Söhne und die Adoptivkinder; bei der MANUS-Ehe auch die Ehefrau (UXOR IN MANU).\n• Auch erwachsene Kinder bleiben in der Gewalt, außer durch Emanzipation oder Übertritt in eine andere Familie (zB Heirat).\n• Seit der Kaiserzeit ist die MANUS-freie Ehe die Regel.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Sind Gewaltunterworfene (Hauskinder, UXOR IN MANU) unfrei? Können sie Vermögen haben?",
+   "back": "Sie sind frei (haben STATUS LIBERTATIS), können aber kein eigenes Vermögen haben.\n• Solange sie in der PATRIA POTESTAS stehen, sind sie vermögensunfähig.\n• Sie können aber Besitz, Eigentum und andere Positionen FÜR ihren PATER FAMILIAS erwerben.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "STATUS CIVITATIS: Welche Rechte waren römischen Bürgern vorbehalten?",
+   "back": "Neben politischen Rechten zB das zivile (quiritische) Eigentum — DOMINIUM EX IURE QUIRITIUM — und bestimmte Geschäfte wie die MANCIPATIO.\n• Nichtrömern konnte das COMMERCIUM verliehen werden → Gleichstellung im Rechtsverkehr.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Kennt das römische Recht juristische Personen? Nenne Beispiele.",
+   "back": "Ja — bestimmte Personengruppen und Vermögensmassen gelten als selbständige Rechtsträger.\n• UNIVERSITATES (Körperschaften), COLLEGIA, SODALITATES (Vereine); RES PUBLICA, MUNICIPIA, COLONIAE; Berufs- und Kultvereine, Begräbnisvereine, PIAE CAUSAE, SOCIETATES PUBLICANORUM.\n• Sie können Rechte (zB Eigentum) haben und durch Vertreter Geschäfte schließen; Rechte und Pflichten treffen nicht die Mitglieder.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Was sagt Ulpian D 3.4.7.1 über Körperschaften?",
+   "back": "Was der Körperschaft geschuldet wird, wird nicht den einzelnen Mitgliedern geschuldet — und was sie schuldet, schulden nicht die Mitglieder.\n• SI QUID UNIVERSITATI DEBETUR, SINGULIS NON DEBENTUR: NEC QUOD DEBET UNIVERSITAS DEBENT SINGULI.\n• Die Körperschaft besteht unabhängig von ihren Mitgliedern.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Rechtsfähigkeit vs Handlungsfähigkeit (legal capacity) — worin liegt der Unterschied?",
+   "back": "Rechtsfähigkeit = Rechte und Pflichten haben können (ab Geburt); Handlungsfähigkeit = durch eigenes Handeln Rechte erwerben und sich verpflichten können.\n• Handlungsfähigkeit setzt Reife nach Alter und Geisteszustand voraus.\n• Beispiel Agerius: Waise ab Geburt Rechtssubjekt und Erbe, aber das Erbe verwaltet ein TUTOR.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "In welche zwei Teile gliedert sich die Handlungsfähigkeit (legal capacity)?",
+   "back": "1. Geschäftsfähigkeit (capacity to act): durch Rechtsgeschäfte, v.a. Verträge, Rechte erwerben und Pflichten eingehen.\n2. Deliktsfähigkeit (criminal capacity): für rechtswidriges Handeln verantwortlich sein und auf Schadenersatz haften.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Welche Altersstufen sind im römischen Recht für die Handlungsfähigkeit maßgeblich?",
+   "back": "• INFANTES (nachklassisch bis 7 Jahre): handlungsunfähig.\n• IMPUBERES INFANTIA MAIORES / PUPILLI (Knaben 7–14, Mädchen 7–12): beschränkt geschäftsfähig — nur rein vorteilhafte Geschäfte; für Verpflichtung/Verfügung AUCTORITAS TUTORIS nötig.\n• PUBERTAS (Mädchen mit Ende des 12., Knaben mit Ende des 14. Lebensjahres): voll geschäftsfähig.\n• MINORES (unter 25): Schutz durch die LEX (P)LAETORIA.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Was kann ein PUPILLUS ohne Zustimmung seines Tutors tun?",
+   "back": "Nur Geschäfte, die ihm ausschließlich Vorteile bringen (zB Annahme einer Schenkung, Erlass einer Schuld).\n• Um sich zu verpflichten oder Rechte (zB Eigentum) zu übertragen, braucht er die AUCTORITAS TUTORIS.\n• I 1.21 pr: Er kann seine Lage ohne Tutor verbessern, nicht verschlechtern.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Was ist ein NEGOTIUM CLAUDICANS?",
+   "back": "Ein „hinkendes Geschäft“: Ein PUPILLUS schließt ohne AUCTORITAS TUTORIS einen zweiseitig verpflichtenden Vertrag.\n• Gültig ist nur der Teil, der dem Pupillen Rechte verschafft; seine eigenen Pflichten werden nicht verbindlich.\n• Ulpian D 19.1.13.29: Wer vom Pupillen ohne Tutor kauft, ist ihm verpflichtet, der Pupill ihm aber nicht.\n• Heute: Das Geschäft ist bis zur Genehmigung des Vertreters schwebend (§ 151 ABGB, § 108 BGB, Art 19 ZGB).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Bis wann war der Pupill nach Ulpian D 19.1.13.29 gegenüber dem Käufer haftbar, wenn der Tutor nicht zustimmt?",
+   "back": "Vertraglich gar nicht — der Vertrag bindet nur den Käufer.\n• Nach einem Reskript des Antoninus Pius kann der Pupill aber aus ungerechtfertigter Bereicherung belangt werden (D 26.8.5 pr).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Schulenstreit: Wann wurde ein Knabe mündig (PUBERTAS)?",
+   "back": "Sabinianer: individuell — mit der Anlegung der TOGA VIRILIS.\nProkulianer: allgemeine Altersgrenze von 14 Jahren.\n• Spätestens unter Justinian setzte sich die prokulianische Ansicht durch.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Wie schützt das römische Recht MINORES (unter 25)?",
+   "back": "Durch die LEX (P)LAETORIA (um 200 v. Chr.): Die bewusste Ausnutzung der Unerfahrenheit eines Minderjährigen ist strafbar.\n• Der Prätor gewährt eine EXCEPTIO LEGIS LAETORIAE oder RESTITUTIO IN INTEGRUM — auch bei bloß objektiv nachteiligen Geschäften.\n• Zusätzlich kann ein CURATOR MINORIS beraten; erst Ende der diokletianischen Zeit wird seine Zustimmung Wirksamkeitsvoraussetzung.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Welche Beschränkungen trafen Frauen; was ist die TUTELA MULIERIS?",
+   "back": "Frauen waren von öffentlichen Ämtern und Hausgewalt ausgeschlossen; auch eine gewaltfreie Frau (SUI IURIS) brauchte nach der PUBERTAS einen TUTOR MULIERIS.\n• Formalgeschäfte (zB MANCIPATIO) und Verpflichtungen nur mit seiner Zustimmung.\n• In der Hochklassik nur noch Formalität (Gai Inst 1.190: Tutor kann vom Prätor zur Zustimmung gezwungen werden).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Wie werden FURIOSI und PRODIGI im römischen Recht behandelt?",
+   "back": "FURIOSUS (Geisteskranker): handlungs- und deliktsunfähig; für ihn wird ein CURATOR FURIOSI bestellt.\nPRODIGUS (Verschwender, der den Unterhalt der Familie gefährdet): kann vom Prätor entmündigt werden (INTERDICTIO); handelt dann nur bei reinem Vorteil selbst, sonst durch einen Kurator.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Welche zwei Merkmale kennzeichnen dingliche Rechte (rights in rem)?",
+   "back": "1. Sie beziehen sich auf eine bestimmte Sache und berechtigen zu ihrem Zugriff und Gebrauch in bestimmter Weise.\n2. Sie sind absolut — von allen Mitgliedern der Rechtsgemeinschaft zu respektieren.\n• Ausdruck in Rom: ACTIONES IN REM (gegen jedermann durchsetzbar).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Absolute vs relative Rechte — wie werden sie in Rom durchgesetzt?",
+   "back": "Absolute (dingliche) Rechte wirken gegen jedermann → ACTIO IN REM.\nRelative Rechte (zB Lieferanspruch des Käufers) bestehen nur zwischen Gläubiger und Schuldner → ACTIO IN PERSONAM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Beispiel 1 (Clara, Vase): Clara gibt die Vase dem Bankier Midas zur Verwahrung; Dieb Hector stiehlt sie und verkauft/übergibt sie an Ago, dieser an Leander. Clara entdeckt sie bei Leander. Was kann sie tun?",
+   "back": "Clara kann gegen Leander eine ACTIO IN REM erheben (REI VINDICATIO), weil sie ein dingliches Recht an der Vase hat.\n• Dingliche Rechte sind gegen jeden Besitzer durchsetzbar.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Warum kennt das römische Recht nur Sachenrechte an körperlichen Sachen (RES CORPORALES)?",
+   "back": "Weil Herrschaft über ein Objekt für die Römer nur bei berührbaren Sachen denkbar ist — QUI TANGI POSSUNT.\n• Beispiele: Grundstück, Tisch, Ring, in Rom auch ein Sklave.\n• Rechte sind unkörperlich → grundsätzlich kein Sachenrecht an einem Recht (Ausnahme: PIGNUS NOMINIS).\n• Das ABGB fasst den Sachbegriff weiter (§ 285; § 292 „in die Sinne fallend“).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Welche dinglichen Rechte kennt das römische Recht und mit welcher ACTIO IN REM werden sie geschützt?",
+   "back": "• Eigentum (DOMINIUM, PROPRIETAS) → REI VINDICATIO\n• Dienstbarkeiten (SERVITUTES) → VINDICATIO SERVITUTIS\n• Pfandrecht (PIGNUS) → VINDICATIO PIGNORIS (= ACTIO PIGNERATICIA IN REM)\n• Erbpacht (EMPHYTEUSIS) → REI VINDICATIO UTILIS\n• Baurecht (SUPERFICIES) → ACTIO DE SUPERFICIE",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Was bedeutet „numerus clausus der Sachenrechte“?",
+   "back": "Die Zahl der dinglichen Rechte ist begrenzt: Durch private Rechtsgeschäfte können keine neuen Typen geschaffen werden.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Beispiel Laura (Weingarten): Welche Befugnisse hat sie als Eigentümerin, als Fruchtnießerin, als Pfandgläubigerin?",
+   "back": "Eigentümerin: bebauen und verkaufen.\nUSUSFRUCTUS: nur bebauen (Früchte), nicht verkaufen.\nPIGNUS: nicht bebauen, aber unter Umständen verkaufen.\n• Der Umfang der Sachherrschaft hängt vom Typ des Rechts ab.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Einführung: Rechtssubjekte, Sachen, dingliche Rechte",
+   "readyBy": "2026-10-13",
+   "front": "Was sind EMPHYTEUSIS und SUPERFICIES?",
+   "back": "EMPHYTEUSIS = Erbpacht: Recht, fremden Boden auf eigene Rechnung zu bebauen, vererblich.\nSUPERFICIES = Baurecht: Recht, auf fremdem Boden ein Gebäude zu errichten und zu halten, vererblich.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Was ist Besitz (POSSESSIO)?",
+   "back": "Tatsächliche Herrschaft über eine Sache, verbunden mit dem Willen, sie zu beherrschen.\n• Besitz ist eine Tatsache, kein Recht: Er sagt nur, wer die Sache tatsächlich in seiner Gewalt hat.\n• Elemente: ANIMUS + CORPUS.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Besitz vs Eigentum — worin liegt der Unterschied?",
+   "back": "Der Besitzer HAT die Sache in seiner Gewalt (Tatsache); der Eigentümer DARF sie haben (Recht).\n• Aus dem Besitz folgt nicht, dass jemand ein Recht an der Sache hat.\n• Beispiel 1: Der Dieb Hector erwirbt Besitz, aber kein Eigentum; ebenso Leander.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Welche drei Merkmale sind für dingliche Rechte typisch (Kap. II.A)?",
+   "back": "a. Sie gewähren — beschränkten oder unbeschränkten — Genuss einer Sache.\nb. Sie sind absolut, wirken gegen jedermann.\nc. Sie sind durch ACTIONES IN REM durchsetzbar.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Wie schützt das römische Recht den Besitz — und warum nur vorläufig?",
+   "back": "Durch Interdikte des Prätors (Besitzschutz), sofern bestimmte Voraussetzungen vorliegen.\n• Nur vorläufig, weil damit nicht entschieden ist, wer ein Recht an der Sache hat; das klärt erst die petitorische Klage (ACTIO IN REM).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Welche rechtliche Bedeutung hat der Besitz (II.B)?",
+   "back": "1. Im Streit ist der Besitzer in der stärkeren Position: Er muss die Sache erst herausgeben, wenn der Kläger sein Recht bewiesen hat.\n2. Besitz ist oft Grundlage für den Erwerb eines dinglichen Rechts:\n  a. TRADITIO vom Berechtigten aufgrund gültigen Geschäfts → Eigentum\n  b. OCCUPATIO einer herrenlosen Sache → Eigentum\n  c. Erwerb vom Nichtberechtigten → Eigentum durch qualifizierten Besitz über eine Frist (USUCAPIO)",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Was bedeuten ANIMUS und CORPUS als Elemente des Besitzes?",
+   "back": "ANIMUS = Besitzwille (ANIMUS POSSIDENDI), gekennzeichnet durch den Willen, die Sache für sich zu haben (ANIMUS REM SIBI HABENDI).\nCORPUS = Herrschaft (Kontrolle) über die Sache.\n• Wer beides hinsichtlich einer körperlichen Sache erfüllt, besitzt sie.\n• Quellen sprechen nicht von CORPUS allein, sondern von CORPORE POSSIDERE.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Erfordert CORPUS physischen Kontakt mit der Sache?",
+   "back": "Nein — es genügt, dass die Sache in der Einflusssphäre der Person liegt, sodass sie ihre Herrschaft realistisch und ungehindert konkretisieren kann.\n• Beispiel 3: Bauer Rusticus besitzt seine Kleider (unmittelbare Gewalt) und das Vieh auf seiner Weide (jederzeit erreichbar).\n• Paulus D 41.2.1.21 (Case 4): nicht CORPORE ET TACTU nötig, OCULIS ET AFFECTU genügt.\n• Deshalb wird CORPUS oft als räumliche Nähe beschrieben.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Sprachhinweis: Wie verwendet man ANIMUS und CORPUS grammatikalisch richtig?",
+   "back": "Besitz wird ANIMO ET CORPORE (Ablativ) erworben/behalten — oder: „durch ANIMUS und CORPUS“.\n• Latein immer mit korrekter Endung verwenden.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Was ist Eigenbesitz (proprietary possession) und was ANIMUS REM SIBI HABENDI?",
+   "back": "Eigenbesitz = Besitz mit dem Willen, die Sache für sich selbst zu haben.\n• ANIMUS REM SIBI HABENDI = Wille, im eigenen Namen zu besitzen.\n• Wenn Quellen von POSSESSIO sprechen, meinen sie meist diesen Eigenbesitz.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Muss der Besitzer die Herrschaft selbst ausüben?",
+   "back": "Nein — er kann Besitz auch durch die Herrschaft eines anderen begründen und behalten (mittelbarer Besitz).\n• Der andere hält die Sache für den Besitzer, will sie aber nicht im eigenen Namen besitzen.\n• Beispiel 4: Rusticus verpachtet sein Feld an Lea → Rusticus hat ANIMUS und CORPUS durch Lea → Eigenbesitz.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Was bedeutet NATURALIS POSSESSIO (natürlicher Besitz)?",
+   "back": "Kein Eigenbesitz, sondern das Innehaben einer Sache FÜR einen anderen.\n• Trotz des Wortes POSSESSIO also keine possessio im technischen Sinn.\n• Inhaber kann ein Freier oder ein Sklave sein; Quellen sagen auch TENERE, HABERE.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Wer ist Detentor? Welche typischen Detentoren gibt es?",
+   "back": "Ein Inhaber, der SUI IURIS ist (weder Sklave noch in Haus- oder Ehegewalt des Besitzers) und die Sache mit ANIMUS REM ALTERI HABENDI für einen anderen hält → natürlicher Besitz (Detention).\n• Typisch: Mieter, Pächter, Entlehner, Verwahrer, Prekarist.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Was bedeutet ANIMUS REM ALTERI HABENDI?",
+   "back": "Der Wille, eine Sache für einen anderen innezuhaben — kennzeichnet den Detentor (natürlichen Besitzer).\n• Gegenbegriff: ANIMUS REM SIBI HABENDI (Eigenbesitzwille).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Wie stehen Gewaltunterworfene (ALIENI IURIS) als Inhaber da — Detentoren?",
+   "back": "Nein — sie sind keine Detentoren, sondern Besitzdiener (possessor's agents), der „verlängerte Arm“ ihres DOMINUS.\n• Bedient sich der Gewalthaber dieses Arms, hat er UNMITTELBAREN Besitz.\n• Beispiel 5: Sklave Achilles treibt Rusticus' Schafe zum Markt → Rusticus ist unmittelbarer Eigenbesitzer.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Unmittelbarer vs mittelbarer Besitz — wann liegt welcher vor?",
+   "back": "Unmittelbar: Der Besitzer übt die Herrschaft selbst oder durch einen Gewaltunterworfenen (Besitzdiener) aus.\nMittelbar: Herrschaft durch einen Detentor (SUI IURIS) → der Besitzer hat mittelbaren Eigenbesitz, der Detentor unmittelbaren natürlichen Besitz.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Beispiel 1: Clara gibt die Vase dem Midas zur Verwahrung; Hector stiehlt sie. Besitzlage?",
+   "back": "Nach der Übergabe: Midas hat unmittelbaren natürlichen Besitz (Detention) für Clara; Clara ist mittelbare Eigenbesitzerin (ANIMUS REM SIBI HABENDI, CORPUS durch Midas).\n• Durch den Diebstahl enden Claras POSSESSIO und Midas' Detention.\n• Hector wird POSSESSOR: Herrschaft + Wille, im eigenen Namen zu besitzen (mit Bereicherungsabsicht).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Was verlangt CORPUS beim Besitzerwerb?",
+   "back": "Tatsächliche Herrschaft: entweder unmittelbare Gewalt über die Sache oder eine sehr starke, an Sicherheit grenzende Möglichkeit, physischen Kontakt herzustellen.\n• CORPUS kann ohne Berührung bestehen, wird aber nie zu einem bloß symbolischen Erfordernis.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Warum stellen die Juristen an den Besitzerwerb strengere Anforderungen als an die Besitzerhaltung?",
+   "back": "Weil der Besitzerwerb die bestehenden (Eigentums-)Verhältnisse ändern kann; zur Konfliktvermeidung braucht es klare, vorhersehbare und für alle erkennbare Regeln.\n• Einmal begründeter Besitz kann ohne ständigen, offenkundigen Nachweis von ANIMUS und CORPUS behalten werden — teils sogar SOLO ANIMO.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Kann im römischen Recht Besitz durch Symbole oder Urkunden übertragen werden?",
+   "back": "Nein. Die Römer verlangen immer reale tatsächliche Herrschaft.\n• Weder TRADITIO PER CARTAM (Urkunde) noch TRADITIO FICTA (fiktive Übergabe) noch Symbole genügen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Sind TRADITIO BREVI MANU und CONSTITUTUM POSSESSORIUM echte Ausnahmen vom Erfordernis des CORPUS?",
+   "back": "Nein. Sie heißen — etwas ungenau — Erwerb SOLO ANIMO, weil der Konsens (ANIMUS) im Vordergrund steht; CORPUS ist aber stets vorhanden.\n• Beim Erwerb ist CORPUS immer entscheidend.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Wer kann Besitz im eigenen Namen erwerben? Welche Rolle spielt die Handlungsfähigkeit?",
+   "back": "Nur wer einen rechtlich relevanten Besitzwillen bilden kann, also handlungsfähig ist.\n• PUPILLI und FURIOSI sind weitgehend ausgeschlossen; ein reifer PUPILLUS kann ausnahmsweise selbst ANIMUS POSSIDENDI bilden.\n• Das Problem stellt sich nur bei Gewaltfreien (SUI IURIS); wer in fremder POTESTAS steht, kann gar nicht im eigenen Namen besitzen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Paulus (Ofilius, Nerva) D 41.2.1.3 (Case 22): Kann ein PUPILLUS ohne Tutor Besitz erwerben?",
+   "back": "Grundsätzlich nein — FURIOSI und PUPILLI fehlt ohne Tutor der rechtlich relevante Besitzwille.\n• Ofilius und Nerva filius: Ja, ohne AUCTORITAS, weil Besitz eine reine Tatsachenfrage ist.\n• Paulus: Dem ist zu folgen, wenn der Pupill schon eine gewisse geistige Reife (INTELLECTUS) hat.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Originärer vs derivativer Besitzerwerb — Unterschied und Beispiele?",
+   "back": "Originär: allein durch eigenes Handeln, ohne Mitwirkung des Vorbesitzers — zB OCCUPATIO einer RES NULLIUS, aber auch der Dieb.\nDerivativ: unter Mitwirkung des Vorbesitzers, der die Herrschaft überträgt — TRADITIO.\n• Der Erwerber tritt beim derivativen Erwerb in die Position des Vorbesitzers ein.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Welche Art Besitz erwirbt ein Dieb — und erwirbt er Eigentum?",
+   "back": "Er erwirbt originären Besitz (durch eigenes Handeln, ohne Mitwirkung des Vorbesitzers) — aber nie Eigentum.\n• Sein Besitz ist nicht auf eine IUSTA CAUSA gestützt und gegenüber dem Bestohlenen fehlerhaft.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Was ist eine RES NULLIUS, was bewirkt die OCCUPATIO?",
+   "back": "RES NULLIUS = Sache, die in niemandes Besitz und Eigentum steht.\n• Durch OCCUPATIO (Ergreifen) erwirbt man Besitz und Eigentum — originär.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Wie wird ANIMUS POSSIDENDI geäußert?",
+   "back": "Ausdrücklich (zB der Käufer erklärt, jetzt Besitz nehmen zu wollen) oder — meist — schlüssig durch Verhalten, das auf Begründung oder Ausübung der Herrschaft zielt.\n• Jäger (OCCUPATIO) und Dieb (FURTUM) sprechen nicht, ihr zielgerichtetes Handeln zeigt aber klar den Besitzwillen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Vertrag vs Verfügung (contract vs conveyance) — Unterschied?",
+   "back": "Vertrag: begründet die Verpflichtung zur Übertragung; gibt dem Gläubiger einen Anspruch gegen den Schuldner auf DARE, FACERE, PRAESTARE. Er ist die Einigung über den Grund (causa) einer Verfügung.\nVerfügung (Übertragung des Rechts selbst, transfer of title): Rechtsakt, der Umfang oder Zuordnung eines Rechts ändert — meist durch Übergabe des Besitzes (TRADITIO).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Wann ist die EMPTIO VENDITIO geschlossen — und erwirbt der Käufer dadurch Besitz oder Eigentum?",
+   "back": "Sobald Einigung über Ware und Preis besteht (Konsensualvertrag; keine Urkunde, kein Austausch nötig).\n• Der Käufer erwirbt dadurch weder Besitz noch Eigentum; der Kauf begründet nur Pflichten (Übergabe bzw Zahlung).\n• Erst die Erfüllung durch TRADITIO (Verfügung) überträgt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Ist der Kaufwille schon ANIMUS POSSIDENDI?",
+   "back": "Nein. Der Wille, Vertragspartei zu sein (zu kaufen), und der Wille, durch Verfügung Besitz zu erwerben, sind streng zu trennen — nur Letzterer ist ANIMUS POSSIDENDI.\n• Beispiel 10: Leo kauft am 1.3. einen Wagen, Melitta liefert am 15.3. → Vertrag am 1.3., Besitzübergang erst am 15.3.\n• Sinn: Der Käufer kann die Übergabe zB aus Lagergründen später wünschen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Was ist für eine TRADITIO auf Seiten der Parteien erforderlich?",
+   "back": "Eine Einigung, dass die Übergabe den Besitz übertragen soll; beim Erwerber äußert sie sich im ANIMUS POSSIDENDI.\n• Bei der Verfügung durch TRADITIO ist der Besitzerwerb Teil der Übertragung.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Ulpianus (Trebatius, Labeo) D 18.6.1.2 (Case 11): Der Käufer versiegelt im Keller des Verkäufers ein bestimmtes Weinfass. Erwirbt er Besitz am Wein?",
+   "back": "Streitig — nach herrschender (späterer) Ansicht nein.\n• Trebatius (spätrepublikanisch): ja — das Versiegeln zeigt klar ANIMUS POSSIDENDI.\n• Labeo (frühklassisch) und Ulpian (spätklassisch): nein — das Siegel soll nur ein späteres Vertauschen verhindern, zeigt keinen gegenwärtigen Besitzwillen.\n• CORPUS ist unproblematisch (Käufer ist beim Fass, berührt es).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Wie erklärt das Lehrbuch die unterschiedliche Bewertung des Versiegelns bei Trebatius bzw Labeo/Ulpian (D 18.6.1.2)?",
+   "back": "Nicht als bewusste Kasuistik, sondern aus dem Kontext: Zur Zeit des Trebatius war Versiegeln wohl Handelsbrauch, um Besitzwillen auszudrücken; später verstand man es als bloße Auswahl der Ware.\n• Da Besitzübergang (bei IUSTA CAUSA und Verfügungsbefugnis) auch Eigentum überträgt, wollte Labeo das Eigentum vielleicht noch nicht übergehen lassen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Paulus (Alfenus) D 18.6.15(14).1 (Case 7): Der Käufer markiert im Lager des Verkäufers Holzbalken. Besitzerwerb?",
+   "back": "Ja — Alfenus und Paulus: Der Käufer erwirbt Besitz an den markierten Balken.\n• Das Markieren gilt als klarer Ausdruck des ANIMUS POSSIDENDI — wohl einheitlicher Brauch der Holzhändler; allgemein anerkannt.\n• Gegensatz zum Versiegeln des Weinfasses (D 18.6.1.2), das nach Labeo/Ulpian nicht genügt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Was ist IUS CONTROVERSUM, und wann spricht man von einer echten Kontroverse?",
+   "back": "Gegensätzliche Juristenmeinungen sind gleichermaßen Teil des römischen Rechts (IUS CONTROVERSUM).\n• Echte Kontroverse nur bei gegensätzlichen Ansichten zum selben Fall/Falltyp — nicht, wenn sich die Lösungen aus unterschiedlichen Sachverhalten erklären oder ein späterer Jurist veraltete Meinungen kritisiert.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Von welchen Faktoren hängt nach dem Lehrbuch das Maß an CORPUS beim Besitzerwerb ab?",
+   "back": "1. Derivativ vs originär: derivativer Erwerb verlangt weniger Herrschaft (Eintritt in gefestigte Position).\n2. Unbeweglich vs beweglich: Grundstücke können nicht verschwinden → leichter zu beherrschen.\n3. Äußere Gestalt: kleine, handliche Sachen sind leichter beherrschbar als große, unzugängliche Warenlager.\n4. Soziales Umfeld: hohes Störungsrisiko durch Dritte → offenkundiger Herrschaftsakt (Ergreifen) nötig; ruhiges Umfeld → realistische Zugriffsmöglichkeit genügt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Was sind unbewegliche Sachen? Ist eine schwere, sperrige Sache unbeweglich?",
+   "back": "Unbeweglich: Grundstücke und alles fest mit ihnen Verbundene (Gebäude mit festem Fundament, verwurzelte Pflanzen).\n• Alles andere ist beweglich — auch wenn es schwer und sperrig ist.\n• An unbeweglichen Sachen ist kein FURTUM möglich.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Welche Rolle spielt das soziale Umfeld beim Besitzerwerb?",
+   "back": "Bei hohem Risiko einer Störung durch Dritte (zB belebter Markt) verlangen die Juristen eher einen offenkundigen Herrschaftsakt, etwa das Ergreifen mit der Hand.\n• In geordnetem, konfliktarmem Umfeld kann CORPUS schon mit der realistischen Zugriffsmöglichkeit vorliegen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Paulus D 41.2.3.1 (Case 1): Wie erwirbt man Besitz an einem Grundstück?",
+   "back": "Man muss es nicht ganz umschreiten; es genügt, es mit Erwerbswillen zu betreten.\n• Grundsätzlich ist das Betreten erforderlich.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Celsus D 41.2.18.2 (2. Satz) (Case 2): Der Verkäufer zeigt dem Käufer das Grundstück von dessen eigenem Turm aus. Besitzerwerb?",
+   "back": "Ja — der Käufer erwirbt Besitz, wenn der Verkäufer mit Übertragungswillen das Grundstück vom Turm auf dem Nachbargut des Käufers zeigt.\n• Grenzfall: Entscheidend ist, dass der Käufer das Nachbargrundstück schon besitzt und seine Einflusssphäre auf das zu erwerbende Grundstück erstrecken kann.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Celsus D 41.2.18.2 (1. Satz) (Case 2): B soll die gekaufte Ware vereinbarungsgemäß in A's Haus stellen; niemand ist dort. Besitzerwerb?",
+   "back": "Ja — mit der Ablieferung im Haus hat A CORPUS; sein ANIMUS ergibt sich aus der Vereinbarung.\n• Kein Fall OCULIS ET AFFECTU: A will erst bei Ankunft im Haus besitzen, und die Vereinbarung erfolgte nicht in Gegenwart der Ware.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Iavolenus D 46.3.79 (Case 3): C soll D Geld/Waren leisten; auf D's Anordnung legt C sie vor D hin. Erwirbt D Besitz, obwohl er sie nicht berührt?",
+   "back": "Ja — sobald C auf D's Weisung die Sache vor ihm hinlegt, kommt sie unter D's Herrschaft und in seinen Besitz.\n• CORPUS = Möglichkeit, physische Kontrolle zu übernehmen; kein Ergreifen nötig.\n• Römer: QUODAMMODO MANU LONGA TRADITA („gleichsam mit langer Hand übergeben“).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Was bedeutet „LONGA MANU TRADITIO“ — ist sie ein fest umrissenes Rechtsinstitut?",
+   "back": "Die Römer erklären mit QUODAMMODO MANU LONGA TRADITA alle Fälle, in denen Besitz ohne physischen Ergreifungsakt des Empfängers übergeht (CORPUS = Zugriffsmöglichkeit).\n• Wegen der Unterschiede der Fälle ist sie kein klar definiertes Rechtsinstitut.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Was bedeutet Besitzerwerb OCULIS ET AFFECTU (Paulus D 41.2.1.21, Case 4)?",
+   "back": "Einigen sich Käufer und Verkäufer in Gegenwart der Ware über den sofortigen Besitzübergang, erwirbt der Käufer ohne weiteren Akt Besitz.\n• Physische Kontrolle (CORPORE ET TACTU) entbehrlich: Es genügt, dass die Sache in sein Blickfeld und seine Herrschaftssphäre gelangt ist.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Welche vier Fälle des Besitzerwerbs OCULIS ET AFFECTU nennt Paulus D 41.2.1.21 (Case 4)?",
+   "back": "1. In Gegenwart der Ware vereinbaren Käufer und Verkäufer Lieferung an den PROCURATOR des Käufers.\n2. Schuldner und Gläubiger vereinbaren in Gegenwart der geschuldeten Münzen, dass der Schuldner sie einem Dritten zahlt.\n3. Bei einer außerordentlich schweren Sache einigen sich Käufer und Verkäufer in ihrer Gegenwart über den Besitzübergang.\n4. Der Verkäufer übergibt dem Weinkäufer die Schlüssel zum Keller, in dem der Wein lagert.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Paulus D 41.2.1.21, 2. Fall: Schuldner und Gläubiger vereinbaren in Gegenwart der Münzen, dass der Schuldner sie einem Dritten übergibt. Rechtsfolgen?",
+   "back": "Durch die Vereinbarung in Gegenwart des Geldes erwirbt der Gläubiger Besitz an den Münzen, der Schuldner ist befreit.\n• Liefert der Schuldner das Geld später dem Dritten, hält er es im Namen des Gläubigers (als dessen Inhaber).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Paulus D 41.2.1.21, 1. Fall (Lieferung an den PROCURATOR): Muss der Procurator bei der Vereinbarung anwesend sein?",
+   "back": "Nein — bei konsequenter Deutung als Erwerb OCULIS ET AFFECTU erwirbt der Käufer schon mit der Vereinbarung in Gegenwart der Ware; der Procurator soll die Ware erst später holen und muss nicht dabei sein.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Schlüsselübergabe beim Weinkeller (Paulus D 41.2.1.21, 4. Fall): Unter welcher Voraussetzung passt sie zum Erwerb OCULIS ET AFFECTU?",
+   "back": "Nur wenn man sich vorstellt, dass die Schlüssel beim Weinkeller (in Gegenwart der Ware) übergeben werden.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Papinianus D 18.1.74 (Case 5): Wann erwirbt der Käufer von Waren in einem Lagerhaus Besitz?",
+   "back": "Sobald ihm die Schlüssel übergeben werden — vorausgesetzt, die Übergabe findet beim Lagerhaus statt.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Gaius D 41.1.9.6 (Case 6): Besitz (und Eigentum) an Lagerware durch Schlüsselübergabe — welche zwei Deutungen sind möglich?",
+   "back": "1. Der Text setzt stillschweigend Übergabe in der Nähe der Ware voraus → wie Papinian D 18.1.74.\n2. Die Schlüssel selbst verschaffen genügend CORPUS, gleich wo übergeben — wenn das Lager sicher verschlossen ist und die Schlüssel der einzige Zugang (außer Gewalt) sind.\n• Gaius sagt nicht ausdrücklich, dass die Übergabe beim Lager stattfinden muss.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Gaius (Trebatius) D 41.1.5.1 (Case 8): Ein Jäger hat ein wildes Tier so verwundet, dass es gefangen werden kann. Ist er Besitzer (und Eigentümer)?",
+   "back": "Kontrovers — Gaius (herrschend): nein, erst wenn er es wirklich fängt.\n• Trebatius: ja, sobald es fangbar verwundet ist und solange er es verfolgt.\n• Gaius: QUIA MULTA ACCIDERE POSSUNT, UT EAM NON CAPIAMUS — vieles kann den Fang noch verhindern.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Proculus D 41.1.55 (Case 9): Ein Wildschwein ist in der Falle des Jägers gefangen; ein Dritter lässt es frei. Hat der Jäger Besitz (und Eigentum) erworben?",
+   "back": "Proculus gibt kein festes Kriterium — nur: SI IN MEAM POTESTATEM PERVENIT, MEUS FACTUS SIT (erst mit Gelangen in meine Gewalt).\n• 1. Gewährt die Falle dauerhafte Kontrolle? Kann sich das Tier nach längerem Kampf befreien → kein CORPUS.\n• 2. Störungsrisiko durch Dritte: größer auf öffentlichem oder fremdem Grund gegen den Willen des Eigentümers; geringer mit dessen Zustimmung oder auf eigenem Grund.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Warum vertreten die Jagdfälle (D 41.1.5.1, D 41.1.55) eher strenge Anforderungen an CORPUS?",
+   "back": "Weil es um originären Besitzerwerb geht: Die Besitzposition muss neu geschaffen werden, daher strengere Anforderungen als beim derivativen Erwerb.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Was ist TRADITIO BREVI MANU?",
+   "back": "Erwerb des Besitzes durch den Detentor kraft Vereinbarung mit dem Besitzer: Der Besitzer gibt seinen ANIMUS REM SIBI HABENDI auf, der Detentor hält die Sache mit dessen Erlaubnis künftig im eigenen Namen.\n• CORPUS hat der Erwerber schon als bisheriger Detentor.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Gaius D 41.1.9.5 (Case 12): B ist Entlehner/Mieter/Verwahrer einer Sache des A; dann kaufen sie. Muss B die Sache zurückgeben, damit A sie ihm übergeben kann?",
+   "back": "Nein — es genügt die Einigung, dass die Sache beim Käufer B bleibt (TRADITIO BREVI MANU).\n• Da der Verkauf die Causa ist und A offenbar Eigentümer, erwirbt B Besitz UND Eigentum.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Was ist ein CONSTITUTUM POSSESSORIUM?",
+   "back": "Besitzerwerb durch Vereinbarung: Jemand bildet ANIMUS REM SIBI HABENDI für eine Sache, die er nicht besitzt, und vereinbart, dass der Besitzer (oder Detentor) sie künftig in seinem Namen hält.\n• Der Erwerber hat die Sache nicht in der Hand und erwirbt nur mittelbaren Besitz.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "TRADITIO BREVI MANU vs CONSTITUTUM POSSESSORIUM — Unterschied?",
+   "back": "BREVI MANU: Der bisherige Detentor wird Besitzer (Sache ist schon bei ihm).\nCONSTITUTUM POSSESSORIUM: Der bisherige Besitzer wird Detentor des Erwerbers (Sache bleibt bei ihm; Erwerber erhält mittelbaren Besitz).\n• Beide beruhen auf Konsens; ohne äußerlich erkennbares Geben und Nehmen („Traditionssurrogate“).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Ulpianus D 6.1.77 (Case 20): Eine Frau schreibt einem Mann (nicht ihrem Ehemann), sie schenke ihm ein Grundstück, wolle es aber künftig als seine Mieterin halten. Wie erwirbt er Besitz — (1) wenn er nicht auf dem Grundstück ist, (2) wenn er dort ist?",
+   "back": "(1) Durch CONSTITUTUM POSSESSORIUM: Die Schenkung zeigt seinen Erwerbswillen; im Mietvertrag erklärt sie, das Grundstück in seinem Namen zu halten → mittelbarer Besitz.\n(2) Ist er schon auf dem Grundstück, hat er durch seine Anwesenheit unmittelbaren Besitz; Mietvertrag und ihre Detentorenrolle sind für den Besitzerwerb irrelevant.\n• „Nicht ihr Ehemann“: Schenkungen zwischen Ehegatten sind nichtig.\n• Seine Annahme wird im Text nicht erwähnt — wohl vorher vereinbart.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Iavolenus D 41.2.21.3 (Case 19): A erbittet von B ein PRECARIUM (glaubt B ist Eigentümer); später erfährt A, dass die Sache C gehört, und mietet sie von C. Besitzlage?",
+   "back": "Zunächst ist A Detentor für B. Durch die LOCATIO CONDUCTIO wird A Detentor des C: C äußert seinen Besitzwillen, A erkennt ihn an → C erwirbt Besitz durch A, der für ihn CORPUS ausübt.\n• Stimmt B zu → derivativer Erwerb des C; handelt A ohne B → originärer Erwerb des C.\n• Alternativ: A erwirbt zuerst selbst Besitz und überträgt ihn per CONSTITUTUM POSSESSORIUM an C.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Was ist ein PRECARIUM?",
+   "back": "Unentgeltliche, jederzeit widerrufliche Überlassung einer Sache auf Bitten (Bittleihe).\n• Für die Römer ein tatsächliches Verhältnis, kein Vertrag (anders als die Leihe, aus der beide Seiten ACTIONES IN PERSONAM haben).\n• Der Prekarist ist Detentor.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Was bedeutet NEMO SIBI IPSE CAUSAM POSSESSIONIS MUTARE POTEST?",
+   "back": "Niemand kann den Rechtsgrund seines Besitzes eigenmächtig ändern.\n• Wer sich selbst zum Besitzer erklärt, hat keine IUSTA CAUSA POSSESSIONIS → keine Vorteile des Zivilbesitzes (zB keine Ersitzung).\n• Gilt für den FUR und für den Detentor, der eigenmächtig im eigenen Namen besitzen will.\n• Ausnahmen: OCCUPATIO herrenloser Sachen, USUCAPIO PRO HEREDE. Vgl § 319 ABGB.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Verstoßen TRADITIO BREVI MANU und CONSTITUTUM POSSESSORIUM gegen NEMO SIBI IPSE CAUSAM POSSESSIONIS MUTARE POTEST?",
+   "back": "Nein — sie beruhen auf der Einigung BEIDER Parteien, nicht auf eigenmächtiger Änderung.\n• Mögliche Ratio der Regel: Die Rechtfertigung des Besitzerwerbs zeigte sich in der TRADITIO; fehlt ein offenkundiger Akt, besteht Verdacht auf unrechtmäßigen Besitz.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Warum heißen TRADITIO BREVI MANU und CONSTITUTUM POSSESSORIUM „Traditionssurrogate“?",
+   "back": "Weil sie keine TRADITIO im Sinn eines physischen Übergabeakts sind, aber Besitz übertragen — ohne für Außenstehende erkennbares Geben und Nehmen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Können Gewaltunterworfene (ALIENI IURIS) Besitz erwerben?",
+   "back": "Nicht im eigenen Namen (vermögensunfähig), wohl aber im Namen ihres DOMINUS.\n• ALIENI IURIS: FILII/FILIAE FAMILIAS, UXORES IN MANU (väterliche Gewalt), SERVI/SERVAE (Gewalt des Eigentümers).\n• Paulus: Besitz wird ANIMO NOSTRO, CORPORE ALIENO erworben.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Was bedeutet ANIMO NOSTRO, CORPORE ALIENO?",
+   "back": "Erwerb durch Gewaltunterworfene: Der DOMINUS hat den ANIMUS, das CORPUS stellt die gewaltunterworfene Person her (er selbst handelt nicht physisch).\n• Paulus D 41.2.3.12 (Case 24).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Woraus besteht das CORPUS des DOMINUS beim Erwerb durch Gewaltunterworfene?",
+   "back": "1. Aus dem Gewaltverhältnis (POTESTAS), das die Gewaltunterworfenen zu seinem „verlängerten Arm“ macht.\n2. Aus der tatsächlichen Herrschaft der gewaltunterworfenen Person über die Sache.\n• Für Erwerb durch einen Sklaven muss der DOMINUS den Sklaven selbst besitzen (Ausnahme: Fruchtnießer, Gai Inst 2.94).\n• Hauskinder werden nicht besessen; Grundlage ist die PATRIA POTESTAS.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Auf welche zwei Arten kann der DOMINUS seinen ANIMUS beim Erwerb durch Gewaltunterworfene äußern?",
+   "back": "a. IUSSUM: Anordnung eines bestimmten einzelnen Geschäfts.\nb. PECULIUM: Generelle Ermächtigung, im Rahmen des Sonderguts Besitz zu erwerben — der Besitzwille wird allgemein-abstrakt geäußert.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Was ist ein PECULIUM und welche Bedeutung hat es für den Besitzerwerb?",
+   "back": "Vermögen, das der DOMINUS einem Gewaltunterworfenen zur selbständigen Verwaltung überlässt (organisatorisch: Filiale).\n• Alles, was der Peculiumsinhaber in seinen Geschäften erwirbt, erwirbt er für den DOMINUS.\n• Die Ermächtigung gilt für ALLE Geschäfte des Inhabers, nicht nur branchentypische.\n• Der ANIMUS wird für jedes Geschäft vom Inhaber konkretisiert → Erwerb ANIMO SERVORUM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Was gilt, wenn ein Gewaltunterworfener ohne IUSSUM und ohne PECULIUM eine Sache annimmt?",
+   "back": "Dann erwirbt der DOMINUS keinen Besitz — nur mit IUSSUM oder PECULIUM.\n• Genehmigt der DOMINUS nachträglich (RATIHABITIO), wird das so behandelt, als hätte er vorher ein IUSSUM erteilt (vgl Ulpian D 46.3.12.4: RATI ENIM HABITIO MANDATO COMPARATUR).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Kommt es beim Erwerb durch einen Gewaltunterworfenen auf dessen eigenen Willen an?",
+   "back": "Nein — er muss nur CORPUS herstellen; ob er ANIMUS REM ALTERI HABENDI hat, ist irrelevant. Er erwirbt sogar dann für den DOMINUS, wenn er selbst besitzen will.\n• Verlangt wird nur INTELLECTUS POSSIDENDI → auch unmündige Gewaltunterworfene mit genügender Einsicht können erwerben.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Papinianus D 41.2.48 (Case 21): A schenkt B brieflich ein Gut samt den dort lebenden Sklaven; ein Sklave kommt zu B, B schickt ihn zurück. Wann erwirbt B Besitz?",
+   "back": "Brief und Annahme allein ändern den Besitz nicht.\n• Am Sklaven, der zu ihm kommt: CORPORE ET ANIMO.\n• Schickt B ihn mit dem IUSSUM zurück, Gut und Sklaven zu übernehmen, erwirbt B daran Besitz ANIMO NOSTRO CORPORE ALIENO (sobald der Sklave dort die Herrschaft übernimmt).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Paulus (Sabinus, Cassius, Iulianus) D 41.2.1.5 (Case 25): Muss der DOMINUS von den einzelnen Geschäften im Rahmen des PECULIUM wissen?",
+   "back": "Nein — wegen der generellen Ermächtigung erwirbt er Besitz auch ohne Kenntnis.\n• Sogar Personen, die das Peculium nicht selbst gewährt haben (und es mangels Handlungsfähigkeit nicht widerrufen könnten), erwerben so: der INFANS (Vater gewährte es vor seinem Tod), der FURIOSUS (gewährte es bei klarem Verstand), der HERES (erbt einen Sklaven mit Peculium).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Können Gewaltfreie (SUI IURIS) im vorklassischen und klassischen Recht Besitz für einen anderen erwerben?",
+   "back": "Grundsätzlich nein (Gai Inst 2.95, Paul Sent 5.2.2) — keine direkte Stellvertretung beim Besitzerwerb.\n• Beispiel 11: Secunda kauft für Primus von Tertius → Secunda wird Besitzerin und überträgt dann in einem eigenen Akt an Primus (heute: indirekte Stellvertretung).\n• Übertragen konnte man Besitz hingegen immer durch einen ermächtigten Gewaltfreien.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Direkte vs indirekte Stellvertretung beim Besitzerwerb — Unterschied?",
+   "back": "Direkt: Das Geschäft des Vertreters wirkt unmittelbar für den Vertretenen; der Besitz geht direkt vom Veräußerer auf ihn über.\nIndirekt: Zwei Geschäfte — der Vertreter erwirbt selbst Besitz und überträgt ihn dann an den Vertretenen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Welche Gewaltfreien können ausnahmsweise als direkte Stellvertreter Besitz erwerben?",
+   "back": "a. CURATOR — für den Geisteskranken/Verschwender in seiner Obhut\nb. TUTOR — für sein Mündel\nc. PROCURATOR (Verwalter) — für seinen Herrn\n• Grund beim PROCURATOR: Abhängigkeit vom DOMINUS (oft dessen Freigelassener) → Erwerb wie durch einen Sklaven.\n• Justinian (6. Jh.) eröffnet direkte Stellvertretung beim Besitzerwerb allgemein.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Ulpianus D 41.1.20.2 (Case 36): Titius und Ego kaufen gemeinsam; nur Titius ist bei der Übergabe und nimmt auch für Ego entgegen. Wer erwirbt Besitz?",
+   "back": "Beide erwerben mit der Übergabe an Titius gleichzeitig Besitz.\n• Titius handelt für Ego „gleichsam als PROCURATOR“ (TITIO ET QUASI MEO PROCURATORI TRADITA; Ulpian vorsichtig: PUTO) — Analogie.\n• Die Begründung QUIA PLACET PER LIBERAM PERSONAM … ist wohl ein justinianischer Einschub.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Was ist eine Analogie (am Beispiel von D 41.1.20.2)?",
+   "back": "Lösung eines Rechtsproblems, das nicht genau die Merkmale eines anerkannten Falls aufweist, aber als ähnlich gilt — hier: Titius wird wie ein PROCURATOR behandelt, obwohl er keiner ist.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Wie unterscheidet sich der Besitzerwerb durch Dritte im klassischen Recht (bis Anfang 3. Jh.) vom justinianischen Recht (Anfang 6. Jh.)?",
+   "back": "Klassisch: Gewaltfreie können grundsätzlich nicht direkt für andere erwerben (nur indirekt; Ausnahmen Tutor, Curator, Procurator); Erwerb durch Gewaltunterworfene mit IUSSUM/PECULIUM.\nJustinian: Direkte Stellvertretung beim Besitzerwerb auch durch freie Personen möglich (QUA PLACET PER LIBERAM PERSONAM).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 1a] Ago probiert am 1.1. auf Bellonas Gestüt den Hengst Pegasus aus. Am 3.1. kauft er ihn auf dem Markt um 6.000 und zahlt 1.000 an. Am 9.1. übergibt Bellona Pegasus; den Rest zahlt Ago am 15.1. Wann erwirbt Ago Besitz?",
+   "back": "Am 9.1. mit der Übergabe (TRADITIO) — derivativer Besitzerwerb.\n• 1.1. Probefahrt: kein ANIMUS POSSIDENDI (nur Prüfung), kein Besitzerwerb.\n• 3.1. Kaufvertrag (Einigung über Ware und Preis) + Anzahlung: begründet nur Pflichten; Kaufwille ≠ Besitzwille; kein CORPUS.\n• Die Kaufpreiszahlung am 15.1. ist für den Besitz bedeutungslos.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 1b] Ago kauft am 3.1. Bellonas Hengst Pegasus. Als er ihn am 9.1. abholen will, ist Pegasus verschwunden: Hermes hat ihn in der Nacht zuvor gestohlen und versteckt ihn in seinem Stall. Besitzlage?",
+   "back": "Ago erwirbt nie Besitz; Bellona verliert ihn durch den Diebstahl; Hermes hat originären Besitz.\n• Der Kauf verschafft Ago keinen Besitz, eine Übergabe fand nicht statt.\n• Hermes begeht FURTUM und erwirbt durch eigenes Handeln (ANIMUS REM SIBI HABENDI + CORPUS) Besitz, aber kein Eigentum.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 2] Brontes und seine Nachbarin Clara besichtigen Brontes' Wiese. Am nächsten Tag einigen sie sich auf dem Balkon von Claras Villa, die an die Wiese grenzt und von der man die Wiese gut sieht, auf 17.000; Brontes erklärt, er überlasse ihr jetzt den Besitz, Clara ist einverstanden. Erst nach einer Woche betritt Clara die Wiese. Wann und wie erwirbt Clara Besitz?",
+   "back": "Im Moment der Einigung auf dem Balkon — ohne Betreten.\n• Grundsätzlich muss man ein Grundstück betreten (Paulus D 41.2.3.1, Case 1).\n• Celsus D 41.2.18.2 (Case 2, Turm): Zeigt der Verkäufer mit Übertragungswillen das Grundstück vom Nachbargut des Käufers aus, erwirbt dieser Besitz — weil er seine Einflusssphäre vom schon besessenen Nachbargrundstück darauf erstrecken kann.\n• Besichtigung am Vortag: weder ANIMUS noch CORPUS. Das spätere Betreten ist irrelevant.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 3] Der Hobbyjäger Dexter gräbt an einer abgelegenen Stelle im großen Wald des Eros eine tiefe Grube, um Wild zu fangen. Ein Hirsch stürzt hinein, bricht sich das Genick und stirbt. Argumente für und gegen Dexters Besitzerwerb?",
+   "back": "Kein eindeutiges Ergebnis — es kommt auf CORPUS an (ANIMUS ist durch die Fangabsicht gegeben).\n• Dafür: Der tote Hirsch kann sich nicht mehr befreien → dauerhafte Kontrolle durch die Grube (Proculus D 41.1.55, Case 9); die Stelle ist abgelegen (geringes Störungsrisiko).\n• Dagegen: Fremder Grund (eine Zustimmung des Eros wird nicht erwähnt) → erhöhtes Risiko des Eingriffs Dritter; Dexter ist nicht anwesend und hat das Tier nicht ergriffen; beim originären Erwerb sind die Anforderungen streng (Gaius D 41.1.5.1, Case 8: erst mit tatsächlichem Fang).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 4a] Die Händlerin Cassandra legt Felix am Zahltag das Geld vor ihm hin; Felix nimmt es nicht auf, gibt ihr eine Quittung und bittet sie, das Geld dem Reeder Merops zu bringen, dem er Geld schuldet. Unterwegs rauben Räuber das Geld. Wer besitzt das Geld im Laufe der Ereignisse?",
+   "back": "1. Felix erwirbt Besitz, sobald Cassandra das Geld vor ihm hinlegt — ohne es zu berühren (Iavolenus D 46.3.79, Case 3: QUODAMMODO MANU LONGA TRADITA).\n2. Mit dem Auftrag, es zu Merops zu bringen, wird Cassandra Felix' Detentorin (ANIMUS REM ALTERI HABENDI); Felix hat mittelbaren Eigenbesitz (vgl Paulus D 41.2.1.21, Fall 2: Schuldner hält die Münzen danach im Namen des Gläubigers).\n3. Die Räuber erwerben durch FURTUM originären Besitz; Felix verliert ihn.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 4b] Variante: Cassandra soll Felix' Geld dem Reeder Merops bringen, findet Merops schlafend auf der Veranda und legt Geld und eine Notiz neben ihn auf den Tisch. Bevor er aufwacht, stehlen Unbekannte das Geld. Wer hatte Besitz?",
+   "back": "Merops erwirbt keinen Besitz: Er schläft, weiß nichts vom Geld → kein ANIMUS (das Geld ist auch nicht in seiner bewussten Herrschaft).\n• Ob Felix (über Cassandra) Besitzer bleibt, ist strittig: Nach einer Ansicht gibt der Übertragende den Besitz nur unter der Bedingung auf, dass der Empfänger ihn erwirbt (Ulpian D 41.2.34 pr, Case 44) → Felix bleibt Besitzer; nach anderer Ansicht gibt er ihn jedenfalls auf → das Geld ist besitzlos (Celsus D 41.2.18.1, Case 43).\n• Die Diebe erwerben originären Besitz.\n• (Das Buch schreibt in b „When Felix wakes up“ — gemeint ist offenbar Merops.)",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p3",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 5] Gripus kauft von Helena 50 Maß Olivenöl, versiegelt in ihrem Keller in ihrer Gegenwart und mit ihrer Zustimmung fünf Amphoren zu je zehn Maß und erklärt: „Dieses Öl gehört jetzt mir; ich schicke bald jemanden, um es zu holen.“ Nachts zerbrechen die Amphoren bei einem Erdbeben. Hat Gripus Besitz an Amphoren und Öl erworben?",
+   "back": "Ja, mit seiner Erklärung — der Besitz endet aber, als Amphoren und Öl beim Erdbeben zugrunde gehen.\n• CORPUS: anwesend, berührt die Amphoren; Einigung über den sofortigen Übergang in Gegenwart der Ware (OCULIS ET AFFECTU, Paulus D 41.2.1.21).\n• ANIMUS: Versiegeln allein genügt nach Labeo/Ulpian (D 18.6.1.2) nicht — hier aber ausdrückliche Erklärung.\n• Dass er die Ware erst später holen lässt, schadet nicht: Helena hält sie dann für ihn.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 9] Agatha hat bei Brontes ein Reitpferd gekauft und befiehlt ihrem Sklaven Carus, es zu holen. Carus holt es und führt es in Agathas Stall; am nächsten Tag reitet Agatha es zum ersten Mal. Wann erwirbt Agatha Besitz?",
+   "back": "Sobald Carus das Pferd bei Brontes übernimmt — ANIMO NOSTRO, CORPORE ALIENO.\n• Agathas ANIMUS liegt im IUSSUM (Befehl zu diesem Geschäft); CORPUS stellt ihr Sklave her, ihr „verlängerter Arm“.\n• Weder das Einstellen in den Stall noch der erste Ritt sind entscheidend.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 10] Carus schickt seinen Sklaven Leandros, Verwalter seines Theaters in Pompeji, mit einem Brief zu Berenike nach Rom: Er schenke ihr Leandros und das Theater. Berenike gibt Leandros Anweisungen und schickt ihn zurück, um das Theater künftig für sie zu führen; zwei Tage später sagt Leandros den Theatersklaven, er leite es nun für Berenike. Wann erwirbt Berenike Besitz an (a) Leandros, (b) dem Theater, (c) den übrigen Sklaven?",
+   "back": "Wie Papinian D 41.2.48 (Case 21): Brief und Annahme allein ändern den Besitz nicht.\n(a) Leandros: als er bei ihr ist und sie ihn mit Anweisungen übernimmt — CORPORE ET ANIMO.\n(b) Theater und (c) übrige Sklaven: als Leandros zwei Tage später in Pompeji ankommt und die Herrschaft für sie übernimmt — ANIMO NOSTRO CORPORE ALIENO (ihr IUSSUM = ANIMUS, Leandros stellt CORPUS her).\n• Voraussetzung: Sie besitzt Leandros selbst.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 12] Getreidegroßhändler Leo lässt seine Filiale in Neapel von seiner Sklavin Melitta mit PECULIUM führen. Am 1.4. kauft Melitta eine Tonne Getreide, das Xerxes erst per Schiff erwartet. Drei Tage später kauft sie mit Peculiumsgeld beim Schneider Helena eine Tunika für sich. Wer besitzt Getreide und Tunika?",
+   "back": "Getreide: niemand aus Leos Haus — es ist nur gekauft, noch nicht geliefert (Kauf ≠ Besitz); Besitzer bleibt bis zur Lieferung der Verkäufer.\nTunika: Leo — mit der Übergabe an Melitta.\n• Das PECULIUM ermächtigt allgemein zum Erwerb für den DOMINUS, für ALLE Geschäfte des Inhabers, nicht nur branchentypische.\n• Melittas Wille, die Tunika für sich zu haben, ist irrelevant; Leo muss vom Kauf nichts wissen (Paulus D 41.2.1.5).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 15a] Japyx bittet Cassandra, für ihn auf einer Versteigerung in Capri die Villa des Argos zu kaufen. Cassandra ersteigert sie und besichtigt sie eine Woche später persönlich. Kurz darauf bittet sie Japyx, die Villa über den Sommer mieten zu dürfen; Japyx stimmt zu. Im Herbst besucht Japyx die Villa erstmals mit seinen Sklaven. Wer besitzt die Villa, und wie?",
+   "back": "1. Zuschlag (Kauf): kein Besitz.\n2. Besichtigung: Cassandra erwirbt Besitz im EIGENEN Namen durch Betreten (Paulus D 41.2.3.1) — als Gewaltfreie kann sie im klassischen Recht nicht direkt für Japyx erwerben; sie ist weder Tutor, Curator noch Procurator (indirekte Stellvertretung).\n3. Miete: Cassandra erkennt Japyx als Besitzer an und hält die Villa künftig für ihn → Japyx erwirbt mittelbaren Besitz, Cassandra wird Detentorin (CONSTITUTUM POSSESSORIUM; vgl Case 19).\n4. Herbst: Japyx übt mit seinen Sklaven selbst unmittelbare Herrschaft aus.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 15b] Japyx lässt Cassandra die Villa des Argos für sich ersteigern; Cassandra besichtigt sie. Macht es sachenrechtlich einen Unterschied, ob Cassandra die Villa danach von Japyx mietet?",
+   "back": "Ja. Mit der Miete erwirbt Japyx sofort mittelbaren Besitz (Cassandra hält für ihn — CONSTITUTUM POSSESSORIUM).\n• Ohne Miete bleibt Cassandra Besitzerin, bis sie Japyx den Besitz überträgt — praktisch erst, wenn Japyx im Herbst die Villa mit ihrem Einverständnis übernimmt.\n• Grund: keine direkte Stellvertretung durch Gewaltfreie beim Besitzerwerb.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Übungsfälle aus dem Lehrbuch (Ex 1–16)",
+   "readyBy": "2026-10-13",
+   "front": "[Lehrbuch Ex 16] Hermes und Diana, die gemeinsam einen Kunsthandel führen, kaufen von Apollodor eine Statue des Phidias. Apollodor soll sie vor der Übergabe reinigen. Zwei Wochen später holt Hermes sie mit einem seiner Sklaven ab. Besitzlage?",
+   "back": "• Bis zur Abholung: Apollodor bleibt Besitzer — der Kauf und die Reinigungsabrede übertragen keinen Besitz (keine Einigung über sofortigen Übergang).\n• Bei der Abholung: Hermes erwirbt Besitz (für ihn handelt auch sein Sklave als Besitzdiener).\n• Diana: Nimmt Hermes die Statue auch für sie entgegen, erwirbt sie gleichzeitig Besitz an ihrem Anteil — Hermes handelt „gleichsam als PROCURATOR“ (Ulpian D 41.1.20.2, Case 36; Analogie).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  }
+ ]
+}

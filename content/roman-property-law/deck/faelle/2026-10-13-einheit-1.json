@@ -1,0 +1,186 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 1] Carus kauft von Daphne 500 Maßeinheiten Rotwein. In Daphnes Keller versiegelt er — in ihrer Anwesenheit und mit ihrer Zustimmung — fünf Fässer zu je 100 Maßeinheiten und erklärt: „Dieser Wein gehört jetzt mir.“ Erwirbt Carus Besitz?",
+   "back": "Ja — Carus erwirbt Besitz an den fünf Fässern (Wein) mit seiner Erklärung, derivativ durch TRADITIO.\n• Der Kauf (EMPTIO VENDITIO) allein verschafft keinen Besitz; Kaufwille ≠ ANIMUS POSSIDENDI.\n• CORPUS unproblematisch: Carus ist im Keller bei den Fässern und berührt sie.\n• ANIMUS: Das bloße Versiegeln genügt nach Labeo/Ulpian nicht (D 18.6.1.2, Case 11 — nur Schutz gegen Vertauschen; anders Trebatius). Hier äußert Carus den Besitzwillen aber AUSDRÜCKLICH („gehört jetzt mir“) — ANIMUS kann ausdrücklich erklärt werden.\n• Daphne stimmt in Gegenwart der Ware zu → Einigung über sofortigen Besitzübergang → Erwerb OCULIS ET AFFECTU (Paulus D 41.2.1.21, Case 4).\n• Ist Daphne Eigentümerin, erwirbt Carus mit dem Kauf als IUSTA CAUSA auch Eigentum (Wein = RES NEC MANCIPI).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 2] Helene lässt sich beim Kunsthändler Stilo Silberstatuen zeigen, entschließt sich zum Kauf einer Statue und erklärt, sie sofort mitnehmen zu wollen; Stilo stimmt zu. Kurz darauf bittet sie Stilo, die Statue für sie aufzubewahren, bis sie wiederkommt; drei Tage später holt sie sie ab. Wann erwirbt Helene Besitz?",
+   "back": "Sofort mit der Einigung in Gegenwart der Statue — OCULIS ET AFFECTU, nicht erst bei der Abholung.\n• Kauf allein = kein Besitz. Ihre Erklärung, die Statue sofort mitzunehmen, ist ausdrücklicher ANIMUS POSSIDENDI; Stilos Zustimmung = Einigung über den sofortigen Besitzübergang in Gegenwart der Sache (Paulus D 41.2.1.21, Case 4). Kein Ergreifen nötig (nicht CORPORE ET TACTU).\n• Durch die Bitte um Aufbewahrung wird Stilo ihr Detentor (Verwahrer, ANIMUS REM ALTERI HABENDI): unmittelbarer natürlicher Besitz; Helene hat mittelbaren Eigenbesitz.\n• (Hätte sie noch keinen Besitz gehabt, hätte die Verwahrungsabrede als CONSTITUTUM POSSESSORIUM gewirkt.)\n• Abholung nach drei Tagen: Helene wird unmittelbare Besitzerin, die Detention endet; am Besitzer ändert sich nichts.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 3a] Quartus hat von Ismene Waren gekauft, die neben anderen Sachen in einem großen Magazin lagern. Vor dem Magazin übergibt Ismene ihm die Schlüssel und geht. Am nächsten Tag holt Quartus die Waren. Hat Quartus Besitz erworben? Wann?",
+   "back": "Ja — schon mit der Schlüsselübergabe vor dem Magazin, nicht erst beim Abholen.\n• Papinian D 18.1.74 (Case 5): Wer in einem Lager gelagerte Waren kauft, erwirbt Besitz mit der Übergabe der Schlüssel, sofern sie beim Lager erfolgt.\n• Vgl Paulus D 41.2.1.21 (Case 4, Fall 4: Kellerschlüssel) — Erwerb OCULIS ET AFFECTU; der Schlüssel verschafft die Zugriffsmöglichkeit (CORPUS).\n• ANIMUS: Annahme der Schlüssel im Rahmen des Kaufs.\n• Problem: Die Waren liegen neben anderen in einem großen Lager — große, unzugängliche Warenbestände erschweren CORPUS; entscheidend ist, dass der Schlüssel Zugang verschafft.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 3b] Variante: Ismene übergibt Quartus vor dem Magazin die Schlüssel zu den gekauften Waren; am nächsten Tag stellt Quartus fest, dass die Schlüssel nicht sperren. Hat Quartus Besitz erworben?",
+   "back": "Nein — die Schlüssel verschaffen keinen Zugang, also keine Herrschaft (kein CORPUS).\n• Der Schlüssel begründet CORPUS nur als Mittel des Zugangs (Gaius D 41.1.9.6, Case 6: wenn das Lager verschlossen ist und die Schlüssel der einzige Zugang sind; Papinian D 18.1.74).\n• Besitz durch Symbole gibt es nicht (keine TRADITIO FICTA).\n• Ismene bleibt Besitzerin.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 4] Ramses gestattet Juno, sein Pferd für zwei Tage auszuleihen. Nachts stiehlt Tiro das Pferd bei Juno, bringt es auf den Markt, verkauft und übergibt es an Vibia. Wie sind die Besitzverhältnisse im Laufe des Falls?",
+   "back": "1. Anfangs: Ramses ist (unmittelbarer) Eigenbesitzer.\n2. Leihe: Juno wird Detentor (ANIMUS REM ALTERI HABENDI) → unmittelbarer natürlicher Besitz; Ramses behält mittelbaren Eigenbesitz durch Juno.\n3. Diebstahl: Tiro begeht FURTUM und erwirbt ORIGINÄREN Besitz (ANIMUS REM SIBI HABENDI + CORPUS durch eigenes Handeln). Ramses' Besitz und Junos Detention enden (vgl Beispiel 1: Hector).\n4. Verkauf und Übergabe: Vibia erwirbt DERIVATIVEN Besitz (TRADITIO); ihr Besitz beruht auf einer IUSTA CAUSA (Kauf) → Zivilbesitz.\n• Eigentum bleibt bei Ramses: Tiro konnte keines übertragen; Ersitzung durch Vibia ist ausgeschlossen (RES FURTIVA). Ramses: REI VINDICATIO gegen Vibia; gegen Tiro ACTIO FURTI + CONDICTIO FURTIVA.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 5a] Felix ersucht seinen erwachsenen Haussohn Gripus, auf dem Sklavenmarkt einen Flötenspieler zu kaufen. Gripus wählt einen Flötisten und zusätzlich einen Harfenisten; Händler Hermes verkauft und übergibt beide an Gripus. Gripus bringt sie dem Vater, der höchst zufrieden ist. Wer hat in den einzelnen Stadien Besitz?",
+   "back": "Gripus ist ALIENI IURIS → er kann nicht im eigenen Namen besitzen, aber für Felix erwerben (ANIMO NOSTRO, CORPORE ALIENO).\n• Flötist: Felix' ANIMUS liegt im IUSSUM für dieses Geschäft → Felix erwirbt Besitz schon mit der Übergabe von Hermes an Gripus.\n• Harfenist: kein IUSSUM (und kein PECULIUM) → mit der Übergabe erwirbt Felix noch nicht. Seine Zufriedenheit ist eine RATIHABITIO → so zu behandeln, als hätte er vorher ein IUSSUM erteilt (Ulpian D 46.3.12.4). Spätestens als Gripus ihm den Sklaven bringt, hat Felix ohnehin ANIMUS und CORPUS.\n• Gripus' eigener Wille ist irrelevant; nötig ist nur sein INTELLECTUS POSSIDENDI (bei einem Erwachsenen gegeben).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 5b] Felix' Haussohn Gripus kauft auf Felix' Bitte einen Flötisten und eigenmächtig zusätzlich einen Harfenisten; Hermes übergibt beide. Welcher Unterschied ergibt sich, wenn Gripus ein PECULIUM hat?",
+   "back": "Felix erwirbt Besitz an BEIDEN Sklaven schon mit der Übergabe an Gripus — eine RATIHABITIO ist nicht nötig.\n• Durch das PECULIUM äußert der DOMINUS seinen Besitzwillen allgemein-abstrakt; alles, was der Inhaber erwirbt, erwirbt er für ihn.\n• Die Ermächtigung erfasst alle Geschäfte des Peculiumsinhabers, nicht nur branchentypische; Gripus konkretisiert den ANIMUS (ANIMO SERVORUM).\n• Felix muss vom Erwerb nicht einmal wissen (Paulus D 41.2.1.5, Case 25).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 5c] Gripus kauft auf Bitte seines Vaters Felix einen Flötisten und eigenmächtig einen Harfenisten; Hermes übergibt beide an Gripus, Gripus bringt sie dem Vater. Wie ist die Besitzlage, wenn Gripus emanzipiert (gewaltfrei, SUI IURIS) ist?",
+   "back": "Gripus selbst erwirbt Besitz an beiden Sklaven (im eigenen Namen); Felix erwirbt erst, als Gripus sie ihm übergibt (derivativ, TRADITIO).\n• Im vorklassischen und klassischen Recht können Gewaltfreie keinen Besitz direkt für andere erwerben (Gai Inst 2.95; Paul Sent 5.2.2) → nur indirekte Stellvertretung (vgl Beispiel 11, Primus/Secunda).\n• Gripus ist weder TUTOR, CURATOR noch PROCURATOR → keine Ausnahme.\n• Erst unter Justinian wäre direkte Stellvertretung möglich.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 6] Daphne überlässt ihrem Neffen Eros auf dessen Bitte ihren Wagen zum Gebrauch. Zu seinem Geburtstag erklärt sie: „Ich schenke dir den Wagen, du kannst ihn behalten.“ Eros ist einverstanden. Wie sind die Besitzpositionen im Verlauf?",
+   "back": "1. Gebrauchsüberlassung (Leihe bzw PRECARIUM): Eros wird Detentor (ANIMUS REM ALTERI HABENDI) → unmittelbarer natürlicher Besitz; Daphne behält mittelbaren Eigenbesitz.\n2. Schenkung: TRADITIO BREVI MANU — Daphne gibt ihren ANIMUS REM SIBI HABENDI auf, Eros hält den Wagen mit ihrer Zustimmung künftig im eigenen Namen; CORPUS hat er schon (vgl Gaius D 41.1.9.5, Case 12).\n• Eros wird Eigenbesitzer; ist Daphne Eigentümerin, wird er mit der Schenkung als IUSTA CAUSA auch Eigentümer.\n• Kein Verstoß gegen NEMO SIBI IPSE CAUSAM POSSESSIONIS MUTARE POTEST, weil beide Parteien einig sind.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Fallblatt Einheit 1 (Dr. Binder)",
+   "readyBy": "2026-10-13",
+   "front": "[Fallblatt 13.10. · Fall 7] Nike verkauft und tradiert einen Zugochsen an Orion. Orion gibt ihn seinem Sklaven Ramses, der im Nachbardorf ein Gehöft des Orion bewirtschaftet. Später überzeugt Pius den Orion, dass der Ochse ihm gehöre; Orion bittet Pius, ihm den Ochsen für die Ernte mietweise zu überlassen, Pius ist einverstanden. Wer besitzt in den einzelnen Stadien?",
+   "back": "1. TRADITIO von Nike: Orion erwirbt derivativ Besitz.\n2. Übergabe an den Sklaven Ramses: Ramses ist Besitzdiener (ALIENI IURIS), kein Detentor → Orion behält UNMITTELBAREN Besitz durch seinen „verlängerten Arm“.\n3. Miete von Pius: Orion erkennt den Besitzwillen des Pius an und hält den Ochsen künftig für ihn → Orion wird Detentor (Mieter, natürlicher Besitz; das CORPUS übt weiter sein Sklave aus), Pius erwirbt MITTELBAREN Eigenbesitz.\n• Wie Iavolenus D 41.2.21.3 (Case 19); der Vorgang lässt sich als CONSTITUTUM POSSESSORIUM deuten.\n• Kein Verstoß gegen NEMO SIBI IPSE …, weil beide einig sind. Ob Pius wirklich Eigentümer ist, ist für den Besitz unerheblich.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "fall",
+    "einheit-1",
+    "fallblatt"
+   ]
+  }
+ ]
+}
