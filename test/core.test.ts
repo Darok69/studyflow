@@ -1770,21 +1770,22 @@ console.log('— readyBy: připraven na každou hodinu —')
   const order = byPriority([rc('later', '2026-10-20', 1), rc('free', undefined, 1), rc('soon', '2026-10-13', 3)])
   ok(order.map((c) => c.id).join(',') === 'soon,later,free', `the nearest class goes first, whatever the priority (got ${order.map((c) => c.id)})`)
 
-  // 16 cards for 13.10. (8 days away) + 7 for 20.10. → 2 a day keeps Tuesday safe.
+  // 16 cards for 13.10. (8 days away, ready by Sunday = 7 days) + 7 for 20.10. → 3 a day.
   const news = [
     ...Array.from({ length: 16 }, (_, i) => rc(`a${i}`, '2026-10-13')),
     ...Array.from({ length: 7 }, (_, i) => rc(`b${i}`, '2026-10-20')),
   ]
-  ok(classPace(news, 0, now) === 2, `16 cards over 8 days = 2 a day (got ${classPace(news, 0, now)})`)
-  // Second class tighter: 30 for 20.10. → (16+30)/15 = 4 per day beats 2.
+  ok(classPace(news, 0, now) === 3, `16 cards over 7 days = 3 a day (got ${classPace(news, 0, now)})`)
+  // Second class tighter: 30 for 20.10. → (16+30)/14 = 4 per day beats 3.
   const tight = [...news.slice(0, 16), ...Array.from({ length: 30 }, (_, i) => rc(`c${i}`, '2026-10-20'))]
   ok(classPace(tight, 0, now) === 4, `the tightest class sets the pace (got ${classPace(tight, 0, now)})`)
   ok(classPace([rc('x', '2026-10-05')], 0, now) === 1, 'class today: whatever is left comes now')
+  ok(classPace([rc('y1', '2026-10-06'), rc('y2', '2026-10-06')], 0, now) === 2, 'class tomorrow: all of it today')
   ok(classPace([rc('old', '2026-09-29')], 0, now) === 0, 'a class that is over no longer forces the pace')
 
   // Far exam alone would trickle 1 a day; the class pulls it up.
   const plan = buildSession([{ id: 's', examDate: '2027-01-19' }], news, now)
-  ok(plan.newCards === 2, `buildSession paces by the class, not the far exam (got ${plan.newCards})`)
+  ok(plan.newCards === 3, `buildSession paces by the class, not the far exam (got ${plan.newCards})`)
   ok(plan.order.every((id) => id.startsWith('a')), 'and today it takes the cards for Tuesday')
 
   const nc = nextClass([rc('d1', '2026-10-13', 2, 'review'), rc('d2', '2026-10-13'), rc('e', '2026-10-20')], now)

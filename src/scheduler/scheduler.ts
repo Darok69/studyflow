@@ -150,8 +150,9 @@ function wantedNewToday(
 }
 
 /**
- * New cards a day so that every upcoming class is prepared in time: for each
- * class date, everything due by then spread over the days left before it. The
+ * New cards a day so that every upcoming class is prepared a day early: for
+ * each class date, everything due by then spread over the days left until the
+ * day before it. The
  * tightest class decides. Cards of a class that is already over keep their
  * place at the front of the queue but no longer force the pace — the exam
  * pace picks them up.
@@ -162,9 +163,10 @@ export function classPace(news: SchedCard[], alreadyToday: number, now: Date): n
   let pace = 0
   for (const date of dates) {
     const needed = news.filter((c) => c.readyBy && c.readyBy >= today && c.readyBy <= date).length
-    const days = daysUntil(date, now) ?? 0
-    // Learnt by the class means learnt the evening before; on the day itself
-    // there is just the morning left.
+    // Ready a day early: the last new card for a class comes two days before
+    // it, so the day before is left for going over it. Class tomorrow or
+    // today → whatever is left comes now.
+    const days = (daysUntil(date, now) ?? 0) - 1
     pace = Math.max(pace, Math.ceil((needed + alreadyToday) / Math.max(1, days)))
   }
   return pace
