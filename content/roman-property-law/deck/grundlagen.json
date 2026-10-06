@@ -1,0 +1,422 @@
+{
+ "subject": "Roman Law of Property — Römisches Sachenrecht",
+ "examDate": null,
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Kann ein Dieb dem gutgläubigen Käufer Eigentum an der gestohlenen Sache verschaffen?",
+   "back": "Nein — NEMO PLUS IURIS TRANSFERRE POTEST QUAM IPSE HABET: Der Dieb hat nur Besitz, kein Eigentum, und kann daher keines übertragen.\n• Der Käufer erwirbt durch die Übergabe (TRADITIO) nur derivativ Besitz; weil er aufgrund eines Kaufs (IUSTA CAUSA) besitzt, hat er Zivilbesitz.\n• Auch die Ersitzung (USUCAPIO) scheitert: Die Sache ist RES FURTIVA — nach der LEX ATINIA auch für gutgläubige spätere Erwerber nicht ersitzbar.\n• Der Bestohlene bleibt Eigentümer und kann mit der REI VINDICATIO gegen jeden Besitzer vorgehen (Beispiel 1: Clara gegen Leander).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Was ist eine RES FURTIVA und welche Folge hat sie für die USUCAPIO?",
+   "back": "Eine gestohlene bewegliche Sache — sie kann nicht ersessen werden (LEX ATINIA).\n• FURTUM = Ansichnehmen einer fremden beweglichen Sache in Bereicherungsabsicht; umfasst auch Unterschlagung (Verwahrer verkauft die anvertraute Sache) und das Behalten einer offensichtlich verlorenen Sache.\n• Das Ersitzungsverbot trifft den Dieb UND alle späteren Erwerber, gleich ob gut- oder bösgläubig — der Makel haftet an der Sache.\n• Er entfällt erst, wenn die Sache in die Gewalt des Eigentümers zurückkehrt (REVERSIO IN POTESTATEM).\n• Grundstücke können nicht gestohlen werden; für gewaltsam angeeignete Grundstücke gilt ein ähnliches Verbot (LEGES IULIAE ET PLAUTIAE).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Welche Klagen hat der Bestohlene — gegen den Dieb und gegen einen Dritten, der die Sache besitzt?",
+   "back": "Gegen den Dieb: ACTIO FURTI (Strafklage auf Buße) + CONDICTIO FURTIVA (auf die Sache oder ihren Wert) — kumulierbar.\n• Gegen jeden Besitzer, auch den gutgläubigen Dritterwerber: REI VINDICATIO (ACTIO IN REM) — aber nur, solange die Sache existiert.\n• Die CONDICTIO FURTIVA geht nur gegen den Dieb selbst (keine ACTIO IN REM), greift aber auch, wenn er die Sache nicht mehr hat oder sie untergegangen ist.\n• CONDICTIO FURTIVA und REI VINDICATIO verfolgen beide die Sache → nicht kumulierbar; der Eigentümer muss wählen.\n• Besitzinterdikte nur gegen den, der ihm gegenüber fehlerhaft besitzt (der Dieb: CLAM) — nicht gegen den Dritterwerber (Beispiel 1: Leander).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Wann überträgt die Besitzübergabe (TRADITIO) zugleich das Eigentum — Kurzüberblick für die Besitzfälle?",
+   "back": "Wenn der Veräußerer Eigentümer (oder verfügungsbefugt) ist und ein gültiger Erwerbsgrund (IUSTA CAUSA) vorliegt — zB Kauf, Schenkung, Darlehen, Mitgift (DOS).\n• TRADITIO = Besitzübertragung, auch durch TRADITIO BREVI MANU oder CONSTITUTUM POSSESSORIUM.\n• Der Kauf allein überträgt weder Besitz noch Eigentum.\n• RES NEC MANCIPI (zB Wein, Vase, Wagen): Der Erwerber wird ziviler Eigentümer.\n• RES MANCIPI (italische Grundstücke, Sklaven, Rinder, Pferde, Esel, Maultiere): durch bloße TRADITIO nur bonitarisches Eigentum; ziviles erst durch MANCIPATIO/IN IURE CESSIO oder nach Ablauf der Ersitzungsfrist.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Sind Schenkungen zwischen Ehegatten im römischen Recht gültig?",
+   "back": "Nein — seit alters verbietet das römische Recht Schenkungen zwischen Ehegatten; sie sind unwirksam.\n• Deshalb betont Ulpian D 6.1.77 (Case 20) ausdrücklich, dass der Beschenkte NICHT der Ehemann der Schenkerin ist.\n• Beispiel 18: Aulus kann seiner Frau Aurelia zu Lebzeiten seinen Garten nicht unentgeltlich übertragen.\n• Das Verbot ist IUS COGENS — durch Vereinbarung nicht abdingbar.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Begriff, Bedeutung und Arten des Besitzes",
+   "readyBy": "2026-10-13",
+   "front": "Was ist eine LOCATIO CONDUCTIO — und welche Besitzstellung hat der Mieter oder Pächter?",
+   "back": "LOCATIO CONDUCTIO = Miet- bzw Pachtvertrag (lease agreement): entgeltliche Überlassung einer Sache zum Gebrauch, bei der Pacht auch zur Fruchtziehung.\n• Mieter und Pächter (CONDUCTOR, COLONUS) sind Detentoren: Sie halten die Sache mit ANIMUS REM ALTERI HABENDI für den Vermieter, der mittelbarer Eigenbesitzer bleibt (Beispiel 4: Rusticus verpachtet sein Feld an Lea).\n• Unterpacht → Kette von Detentoren; sie schadet dem Besitz des Verpächters nicht.\n• Nur vertragliche Ansprüche (ACTIONES IN PERSONAM), kein dingliches Recht — zB ACTIO CONDUCTI des Pächters gegen den Verpächter.\n• Werkvertrag (LOCATIO CONDUCTIO OPERIS): Der Besteller liefert den Stoff und bleibt Eigentümer des Werks.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "13.10. Besitz I — Besitzerwerb: Grundsätze, ANIMUS, CORPUS",
+   "readyBy": "2026-10-13",
+   "front": "Ist die Besitzübertragung (TRADITIO) ein Rechtsgeschäft — verliert der Übergebende den Besitz, wenn der Empfänger keinen Besitz erwirbt?",
+   "back": "Strittig.\n• Ulpian D 41.2.34 pr (Case 44) u.a.: Nein — die TRADITIO ist ein Rechtsgeschäft; der Übergebende will den Besitz nur unter der Bedingung aufgeben, dass der Partner ihn erwirbt. Erwirbt dieser nicht (zB mangels Handlungsfähigkeit), bleibt der Übergebende Besitzer.\n• Celsus D 41.2.18.1 (Case 43): Der Übergebende gibt den Besitz jedenfalls auf; erwirbt der Empfänger nicht, ist die Sache besitzlos.\n• Hintergrund: Das Recht will bestehende Besitzlagen möglichst erhalten (vgl Ex 4b: Merops schläft und erwirbt keinen Besitz).",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p2",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "13.10. Besitz I — Erwerb SOLO ANIMO; Erwerb durch Gewaltunterworfene und Vertreter",
+   "readyBy": "2026-10-13",
+   "front": "Was ist eine RATIHABITIO — wie wirkt sie beim Besitzerwerb durch Gewaltunterworfene?",
+   "back": "Die nachträgliche Genehmigung durch den DOMINUS — sie wird so behandelt, als hätte er vorher ein IUSSUM erteilt.\n• RATI ENIM HABITIO MANDATO COMPARATUR — die nachträgliche Genehmigung steht einer Ermächtigung gleich (Ulpian D 46.3.12.4).\n• Bedeutung: Ohne IUSSUM und ohne PECULIUM erwirbt der DOMINUS durch den Gewaltunterworfenen keinen Besitz; die RATIHABITIO holt den fehlenden ANIMUS nach.\n• Mit PECULIUM ist sie unnötig — dort besteht schon eine generelle Ermächtigung.",
+   "tags": [
+    "roman-property-law",
+    "einheit-1",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Was ist ein Darlehen (MUTUUM) — und wie unterscheidet es sich von der Schenkung (DONATIO)?",
+   "back": "MUTUUM = Verbrauchsdarlehen (loan for consumption): Der Geber überträgt dem Empfänger Eigentum, meist an Geld; der Empfänger ist verpflichtet, die Summe künftig zurückzuzahlen.\n• Gemeinsam mit der Schenkung: Eigentumsübertragung ohne Gegenleistung. Unterschied: Schenkung = dauerhaft, Darlehen = nur vorübergehend.\n• Beide sind IUSTA CAUSA TRADITIONIS (neben Kauf und Mitgift).\n• Beide kommen erst mit der Übergabe zwischen einverstandenen Parteien zustande — keine vorausgehende Vereinbarung nötig.\n• Dissens Schenkung/Darlehen → Kontroverse Julian D 41.1.36 vs Ulpian D 12.1.18 pr.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Wie erwirbt der Empfänger fremdes Geld ORIGINÄR — und warum ist das bei einer gescheiterten TRADITIO wichtig?",
+   "back": "Indem er die Münzen „verbraucht“ (NUMMOS CONSUMERE): v.a. durch ununterscheidbare Vermischung mit eigenem Geld oder durch gutgläubiges Ausgeben.\n• Bis dahin bleibt der Geber Eigentümer → REI VINDICATIO, solange die Münzen unterscheidbar vorhanden sind.\n• Danach scheidet die Vindikation aus; dem Geber bleibt nur die CONDICTIO (ungerechtfertigte Bereicherung mangels Causa).\n• Anwendung: Ulpian D 12.1.18 pr (Case 71) — mangels IUSTA CAUSA kein derivativer Erwerb; erst das Verbrauchen macht D originär zum Eigentümer.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "27.10. Eigentumserwerb I — TRADITIO",
+   "readyBy": "2026-10-27",
+   "front": "Was ist die EXCEPTIO DOLI (Einrede der Arglist) — wie kann sie eine REI VINDICATIO des Eigentümers abwehren?",
+   "back": "Eine Einrede (EXCEPTIO) des Beklagten: Der Kläger ist zwar formal berechtigt (zB noch Eigentümer), seine Klage wäre aber arglistig — dann wird sie abgewiesen.\n• Typischer Fall: VENIRE CONTRA FACTUM PROPRIUM — der Eigentümer verlangt zurück, was er selbst schenken wollte.\n• Iavolenus D 39.5.25 (Case 68): E bleibt Eigentümer, aber Titius darf das Geschenk mit der EXCEPTIO DOLI behalten (BENIGNIUS EST).\n• Ulpian D 12.1.18 pr (Case 71): C wollte schenken → seine REI VINDICATIO bzw CONDICTIO scheitert an der EXCEPTIO DOLI.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "Was ist ein USUSFRUCTUS (Nießbrauch) — und bleibt er bestehen, wenn der Eigentümer die Sache veräußert?",
+   "back": "Ein dingliches Recht, eine fremde Sache zu gebrauchen und ihre Früchte zu ziehen, ohne ihre Substanz zu verändern: USUSFRUCTUS EST IUS ALIENIS REBUS UTENDI FRUENDI SALVA RERUM SUBSTANTIA (Paulus D 7.1.1).\n• Persönliche Dienstbarkeit — an die Person gebunden, erlischt mit ihrem Tod.\n• Der Fruchtnießer darf nutzen, aber nicht verkaufen (Beispiel 2: Laura).\n• Veräußerung: Der Erwerber wird Eigentümer, aber belastet mit dem Nießbrauch — NEMO PLUS IURIS … (Beispiel 21: Leo mancipiert die Sklavin Pomona an Ajax, Verres behält den USUSFRUCTUS).\n• Meist durch Vermächtnis begründet (Versorgung zB der Ehefrau, ohne sie zur Erbin zu machen).",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 2,
+   "topic": "27.10. Eigentumserwerb I — Überblick über die Erwerbsarten",
+   "readyBy": "2026-10-27",
+   "front": "Welche Rechtsstellung erwirbt der Erbe (HERES) an den Sachen des Erblassers — kann er mehr Rechte haben als dieser?",
+   "back": "Nein — der Erbe tritt in die Rechtsstellung des Erblassers ein: Er erhält dessen Rechte so, wie sie waren, und übernimmt auch dessen Schulden.\n• Hatte der Erblasser eine Sache nur in Verwahrung (oder geliehen, gemietet), erbt der Erbe kein Eigentum und kann auch keines übertragen (NEMO PLUS IURIS …).\n• Gehörte dem Erblasser nur ein Miteigentumsanteil, geht nur dieser Anteil über.\n• Eine vom Erblasser begonnene Ersitzung setzt der Erbe fort (SUCCESSIO IN POSSESSIONEM) — sein eigener guter Glaube ist nicht nötig.",
+   "tags": [
+    "roman-property-law",
+    "einheit-3",
+    "p2",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Eigentumserwerb II — LEX ATINIA und REVERSIO IN POTESTATEM",
+   "readyBy": "2026-11-03",
+   "front": "Kann der Eigentümer an seiner eigenen Sache FURTUM begehen — zB der Verpfänder gegenüber dem Pfandgläubiger?",
+   "back": "Ja — wer seine dem Pfandgläubiger übergebene Sache ohne dessen Erlaubnis wegnimmt, haftet ihm als FUR (Paulus (Cassius) D 41.3.4.21, Case 74).\n• Hintergrund Pfand (PIGNUS): Der Verpfänder übergibt seine Sache dem Gläubiger als Sicherheit für eine Forderung; der Pfandgläubiger hat ein beschränktes dingliches Recht und interdiktengeschützten (natürlichen) Besitz.\n• Ebenso ist FUR, wer als Verpfänder eine bewegliche Pfandsache wissentlich ohne Zustimmung des Gläubigers veräußert (Paulus (Iulianus) D 47.2.67 pr).\n• Ob die Sache dadurch RES FURTIVA bleibt oder schon mit der Rückkehr zum Eigentümer ersitzbar wird, ist strittig (Case 74 vs Labeo D 41.3.49, Case 75).",
+   "tags": [
+    "roman-property-law",
+    "einheit-4",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — Formularprozess (IN IURE / APUD IUDICEM)",
+   "readyBy": "2026-11-17",
+   "front": "Was ist eine ACTIO UTILIS — und wie verhält sie sich zur ACTIO IN FACTUM?",
+   "back": "Eine vom Prätor in Analogie gewährte Klage: Er nimmt eine Ediktsklage zum Muster (EXEMPLUM) und erstreckt sie auf einen Fall, den sie nach ihrem Wortlaut nicht erfasst.\n• Wie die ACTIO IN FACTUM eine Klage für ein berechtigtes Begehren ohne passende Ediktsklage; die Formel der ACTIO IN FACTUM beginnt mit der Schilderung des konkreten Sachverhalts.\n• Beispiele: Klage des Tafeleigentümers gegen den Maler (TABULA PICTA, Gaius Inst 2.78); REI VINDICATIO UTILIS des Emphyteuta; ACTIO PIGNERATICIA (IN REM) UTILIS bei Konvaleszenz des Pfandrechts; ACTIO UTILIS nachrangiger Pfandgläubiger auf ihren Anteil am SUPERFLUUM.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Was ist die ACTIO AD EXHIBENDUM — wozu dient sie?",
+   "back": "Eine Klage, die die Vorlage (EXHIBITIO) bzw Trennung einer Sache erzwingt und so die REI VINDICATIO vorbereitet.\n• Bei lösbarer Verbindung (zB angelöteter Arm — ADPLUMBATIO; angeschraubte Teile) erreicht man mit ihr die Trennung; danach vindiziert jeder Eigentümer seine Sache.\n• Nicht nötig bei Vermischung (sofort VINDICATIO PRO PARTE); nicht zulässig beim Hausbau (keine Trennung der Baumaterialien).\n• Ihre Formel erfasst auch, wer arglistig zu besitzen aufgehört hat (QUI DOLO DESIIT POSSIDERE).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "Was bedeuten FERRUMINATIO und ADPLUMBATIO — welche Folge hat jede für das Eigentum?",
+   "back": "FERRUMINATIO = Verschweißen: untrennbare Verbindung → der Eigentümer der Hauptsache erwirbt den angeschweißten Teil (ACCESSIO CEDIT PRINCIPALI); der frühere Eigentümer hat die ACTIO IN FACTUM auf Ersatz.\nADPLUMBATIO = Verlöten: lösbare Verbindung (das Lot trennt die Metallteile) → keine Eigentumsänderung; ACTIO AD EXHIBENDUM, dann REI VINDICATIO.\n• Paulus D 6.1.23.5 (Case 113): Metallarm des F an der Statue des E.\n• Bricht der angeschweißte Teil später ab, bleibt er Eigentum des Hauptsacheeigentümers — das frühere Recht ist endgültig untergegangen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "17.11. Eigentumserwerb III — ACCESSIO",
+   "readyBy": "2026-11-17",
+   "front": "TABULA PICTA: Warum behandelt die hochklassische Meinung das Bemalen einer fremden Holztafel anders als das Beschreiben fremden Papiers?",
+   "back": "Weil die künstlerische Leistung des Malers vorgehen soll — das Bild gehört nach der zur Zeit des Gaius herrschenden Meinung ausnahmsweise dem Maler.\n• Regel sonst: Hauptsache ist, was selbständig vindiziert werden kann → Schrift auf fremdem Papier/Pergament gehört dem Papiereigentümer (Gaius D 41.1.9.1).\n• Ausgleich: Der frühere Tafeleigentümer hat eine ACTIO UTILIS; der Maler macht seine Kosten per EXCEPTIO DOLI geltend.\n• Gaius selbst lehnt die Ausnahme ab; spätklassisch gilt einheitlich: Das Bild gehört dem Tafeleigentümer (Paulus D 6.1.23.3).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Was bedeutet FACULTAS RESTITUENDI — wer kann danach mit der REI VINDICATIO beklagt werden?",
+   "back": "Die tatsächliche Möglichkeit, die streitige Sache dem Kläger zurückzugeben.\n• Ulpian (spätklassisch, D 6.1.9): Beklagt werden kann jeder, der die Sache zurückgeben kann — auch natürliche Besitzer ohne Interdiktenschutz.\n• Pegasus (frühklassisch): nur wer Interdiktenbesitz hat — Eigenbesitzer und interdiktengeschützte natürliche Besitzer (zB Pfandgläubiger, Prekarist).\n• Ohne Besitz keine Verurteilung — außer bei FICTI POSSESSORES (PRO POSSESSIONE DOLUS EST).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Was bedeutet CULPA IN ELIGENDO?",
+   "back": "Verschulden bei der Auswahl von Gehilfen: Wer eine Sache weniger geeigneten Personen anvertraut, handelt fahrlässig und haftet für ihren Untergang.\n• Paulus D 6.1.16.1 (Case 126): Der Beklagte, der das vindizierte Schiff nach der LITIS CONTESTATIO in der Schifffahrtssaison auf See schickt, haftet für den Untergang nicht — wohl aber, wenn er es „weniger geeigneten Personen“ anvertraut.\n• Hintergrund: Nach sabinianischer Ansicht haftet der Beklagte nach der LITIS CONTESTATIO für DOLUS und CULPA.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Was ist ein ARGUMENTUM A MINORE AD MAIUS?",
+   "back": "Ein Schluss vom Kleineren auf das Größere: Wenn schon die geringere Voraussetzung die Rechtsfolge auslöst, dann erst recht die stärkere.\n• Beispiel: Haftet der Beklagte der REI VINDICATIO schon für Fahrlässigkeit (CULPA), dann erst recht für Vorsatz (DOLUS) (Lehrbuch zu Paulus D 6.1.16.1, Case 126).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 2,
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "readyBy": "2026-11-17",
+   "front": "Welche Rolle spielt die LEX AQUILIA beim Schutz des Eigentums?",
+   "back": "Sie ist die Grundlage des römischen Schadenersatzrechts bei rechtswidriger und schuldhafter Zerstörung (oder Beschädigung) fremder Sachen.\n• Zerstört der Beklagte die streitige Sache schon VOR der LITIS CONTESTATIO schuldhaft, scheitert die REI VINDICATIO (weder Besitz noch Sache) — der Eigentümer kann aber aus der LEX AQUILIA Ersatz verlangen.\n• Die sabinianische Haftung nach der LITIS CONTESTATIO für DOLUS und CULPA entspricht dem Deliktsrecht der LEX AQUILIA.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "17.11. Eigentumsschutz — ACTIO PUBLICIANA, Einreden, ACTIO NEGATORIA",
+   "readyBy": "2026-11-17",
+   "front": "Was bedeutet Konvaleszenz — wann wird der Erwerb vom Nichtberechtigten nachträglich geheilt?",
+   "back": "Konvaleszenz = rückwirkende Heilung eines Rechtsmangels: Erwirbt der nichtberechtigte Veräußerer nachträglich das Eigentum (zB durch Erbschaft), steht der Erwerber so, als hätte er vom Eigentümer erworben.\n• Pomponius (Iulianus) D 21.3.2 (Case 130): T kauft von Titius ein Grundstück des S; Titius beerbt S → T wird bonitarischer Eigentümer, Titius behält nur das NUDUM IUS QUIRITIUM.\n• Veräußert Titius das Grundstück danach noch einmal, kann er dem Zweiten nichts mehr verschaffen (NEMO PLUS IURIS …) → T siegt mit der ACTIO PUBLICIANA.\n• Dieselbe Idee beim Pfandrecht an fremder Sache: Wird der Verpfänder später Eigentümer, konvalesziert das Pfandrecht (ACTIO PIGNERATICIA (IN REM) UTILIS).",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Generalpfand, Sachgesamtheiten, stillschweigende Pfandrechte",
+   "readyBy": "2026-12-01",
+   "front": "Was ist eine Sachgesamtheit (UNIVERSITAS RERUM) — und wie wirkt ein Pfandrecht an ihr (zB an einer TABERNA)?",
+   "back": "Physisch selbständige Sachen, die eine wirtschaftliche Einheit bilden und sachenrechtlich als eine Sache behandelt werden (zB Laden/TABERNA, Herde) — als Ganzes verkäuflich, verpfändbar, einklagbar.\n• Pfand am wechselnden Bestand: Jede Ware wird Pfand, sobald der Verpfänder Eigentum an ihr erwirbt und sie in den Laden kommt — auch nach Verarbeitung, solange sie dort bleibt.\n• Verlässt sie den Laden, erlischt das Pfand an ihr (dem Gläubiger wird Zustimmung zur Veräußerung = Verzicht unterstellt).\n• Erfasst sind nur Sachen, die dem Verpfänder gehören (Scaevola D 20.1.34 pr, Case 159b).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Was ist eine Potestativbedingung — und welchen Rang hat ein Pfandrecht, das eine bedingte Forderung sichert?",
+   "back": "Potestativbedingung = eine Bedingung, deren Erfüllung im Belieben des Schuldners steht.\n• Africanus D 20.4.9.1 (Case 177): Ein früher bestelltes Pfand für eine bedingte Forderung geht einem späteren für eine unbedingte vor — außer bei einer Potestativbedingung.\n• Fällt die Bedingung aus, erlischt das Pfandrecht (Akzessorietät).\n• Davon zu unterscheiden: das bedingte Pfandrecht als Vorstufe der Nachverpfändung — der zweite Gläubiger erhält das Pfand unter der Bedingung, dass das erste erlischt; verwertet der erste, entsteht es nie.",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p1",
+    "grundlagen-fall"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "01.12. Pfandrecht II — Mehrfache Verpfändung und Rang",
+   "readyBy": "2026-12-01",
+   "front": "Was ist das CRIMEN STELLIONATUS im Pfandrecht?",
+   "back": "Die Strafbarkeit des Schuldners, der dem Pfandgläubiger bestehende Pfandrechte an der Pfandsache arglistig verschweigt.\n• Die Pflicht, über andere Pfandrechte zu informieren, ist eine Nebenpflicht aus dem Pfandvertrag.\n• Relevant bei mehrfacher Verpfändung, zB wenn der Überschuss (HYPEROCHA = SUPERFLUUM) an einen zweiten Gläubiger verpfändet wird (Tryphoninus D 20.4.20, Case 172).",
+   "tags": [
+    "roman-property-law",
+    "einheit-7",
+    "p2",
+    "grundlagen-fall"
+   ]
+  }
+ ]
+}

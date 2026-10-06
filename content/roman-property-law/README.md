@@ -43,3 +43,23 @@ Fallblatty dalších jednotek patří do `deck/faelle/<datum>-einheit-<n>.json`
 Pole karet: `priority` 1 = umět na 100 % (typická zkoušková látka), 2 = důležité,
 3 = detail; `topic` = „DD.MM. Jednotka — podtéma“; `readyBy` = datum hodiny,
 na které se látka probírá (plánovač podle něj dávkuje nové karty).
+
+## Pořadí učení — nejdřív znalosti, pak případy
+
+Daniel (2026-10-06): „dávkuj nejdřív věci na pochopení a až potom cases — cases
+nechápu, dokud mi tam nedáš znalosti, které k nim potřebuji“.
+
+- Balíček se skládá skriptem `uv run content/roman-property-law/build.py` (ne ručně).
+  Každá karta dostane `learnOrder`: uvnitř jedné hodiny (`readyBy`) jdou nejdřív
+  znalosti v pořadí učebnice, pak prameny (`judikat`, Digest „Case N“), nakonec
+  případy (`pripad`: Beispiele, Ex, Fallblatt, Prüfungsfälle). Balíček nese `updates`
+  s learnOrder ke každé otázce, takže se pořadí přenastaví i u už importovaných karet.
+- `deck/grundlagen.json` — 26 karet s pojmy, které případy předpokládají, ale
+  balíček je dřív nevysvětloval (nebo až o několik hodin později), např. RES FURTIVA,
+  NEMO PLUS IURIS, IUSTA CAUSA u TRADITIO, ACTIO AD EXHIBENDUM, FACULTAS RESTITUENDI.
+  `readyBy` = nejdřívější případ, který pojem potřebuje.
+- Učebnice NEOBSAHUJE znalost k: C117/Ex 44a (INTERDICTUM QUEM FUNDUM, str. 160–161
+  chybí), C50/C45/C90 (obsah UNDE VI a UTI POSSIDETIS jen jmenován), C57 (STIPULATIO),
+  C86 (směna jako IUSTA CAUSA). Doplnit, až budou podklady.
+- Nový Fallblatt nebo nová jednotka: přidat soubor, pustit `build.py`, nahrát
+  `out/studyflow/roman-property-law.json` jako `/data/materials/deck-roman-property-law.json`.
