@@ -1,0 +1,3061 @@
+{
+ "subject": "Deutsch auf Muttersprachniveau",
+ "examDate": "2027-01-31",
+ "cards": [
+  {
+   "type": "basic",
+   "front": "Jak určím koncovku přídavného jména? (3 otázky)",
+   "back": "Rod + pád + CO STOJÍ PŘED adjektivem — teprve z toho plyne koncovka.\n• 1. Rod a číslo podstatného jména (der Tisch, die Lampe, das Bett, Plural).\n• 2. Pád: předložka nebo sloveso (in + Wo? = Dativ, für = Akkusativ, wegen = Genitiv, časový údaj bez předložky = Akkusativ).\n• 3. Co stojí před: der/dieser/jeder → SLABÉ · ein/kein/mein → SMÍŠENÉ · nic, číslovka, viele/einige → SILNÉ.\n• Tvoje chyba „in kleine Wohnung“ = chybí krok 1 i 2: die Wohnung, in + Wo? → in einer kleinen Wohnung.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Princip „signál pádu stojí jen jednou“ — co znamená?",
+   "back": "Rod a pád musí být vidět PRÁVĚ JEDNOU: buď na členu, nebo na adjektivu.\n• Člen signál nese (der, dem, des, die…) → adjektivum má jen „slabé“ -e/-en: der neue Tisch, dem neuen Tisch.\n• Člen signál nemá (ein, kein, mein bez koncovky) → signál přebírá adjektivum: ein neuer Tisch, ein neues Bett.\n• Člen chybí úplně → adjektivum nese signál samo: neuer Tisch, frisches Brot, mit großer Freude.\n• Proto „Letzte Wochenende“ je špatně: das Wochenende bez členu → signál -es musí na adjektivum → letztes Wochenende.",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Tři typy skloňování adjektiv — kdy který?",
+   "back": "SLABÉ po členu se signálem, SMÍŠENÉ po ein-slovech, SILNÉ bez členu.\n• Slabé: der/die/das, dieser, jeder, jener, welcher, alle, derselbe, (die) beiden → der alte Mann, alle neuen Kurse.\n• Smíšené: ein, kein, mein, dein, sein, ihr, unser, euer, Ihr → ein alter Mann, meine alten Freunde.\n• Silné: bez členu, po číslovkách (zwei, drei), po viele, einige, mehrere, wenige, ein paar → alter Wein, zwei alte Freunde.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Slabé skloňování (po der/dieser/jeder): kde -e a kde -en?",
+   "back": "Jen 5 míst má -e, všude jinde -en.\n• -e: Nominativ singulár všech rodů (der neue, die neue, das neue) + Akkusativ f a n (die neue, das neue).\n• -en: Akkusativ m (den neuen), celý Dativ, celý Genitiv, celý Plurál (die neuen, den neuen, der neuen).\n• Pomůcka: „pět -e = nominativ + co vypadá jako nominativ“.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Smíšené skloňování (po ein/kein/mein): čím se liší od slabého?",
+   "back": "Jen tam, kde ein-slovo NEMÁ koncovku, přebírá adjektivum signál: -er (m) a -es (n).\n• Nom m: ein neuer Kollege · Nom/Akk n: ein neues Zimmer, mein neues Handy.\n• Nom/Akk f: eine neue Wohnung (jako slabé).\n• Všechno ostatní -en: einen neuen, einem neuen, einer neuen, eines neuen, meine neuen (Plural).\n• Plurál existuje jen u kein/mein/dein…: keine guten Nachrichten, meine alten Freunde.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Silné skloňování (bez členu): jaké koncovky má adjektivum?",
+   "back": "Adjektivum má koncovku členu der/die/das — s jedinou výjimkou v genitivu m/n (-en).\n• Nom: guter Wein · gute Milch · gutes Brot · gute Freunde.\n• Akk: guten Wein · gute Milch · gutes Brot · gute Freunde.\n• Dat: gutem Wein · guter Milch · gutem Brot · guten Freunden.\n• Gen: guten Weins (!) · guter Milch · guten Brots (!) · guter Freunde.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Dativ: jaké koncovky má adjektivum ve všech třech typech?",
+   "back": "Po JAKÉMKOLI členu v dativu vždy -en; bez členu -em / -er / -em / -en.\n• dem neuen Professor · einem neuen Professor · mit neuem Elan (m).\n• der neuen Bibliothek · einer neuen Bibliothek · mit großer Freude (f).\n• dem alten Haus · einem alten Haus · bei schönem Wetter (n).\n• den kleinen Kindern · meinen besten Freunden · mit großen Fenstern (Pl; podstatné jméno + -n!).",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Genitiv: koncovky adjektiv a typické předložky",
+   "back": "Po členu vždy -en; bez členu m/n -en (podstatné jméno má -s), f a Pl -er.\n• des neuen Direktors · eines guten Freundes · meiner besten Freundin · der kleinen Kinder.\n• bez členu: trotz starken Regens, wegen schlechten Wetters, trotz großer Müdigkeit, eine Initiative junger Leute.\n• Předložky: wegen, trotz, während, statt, innerhalb, außerhalb, anstatt.\n• Ve spisovném psaní je po nich Genitiv (wegen des schlechten Wetters), i když v hovorové rakouské řeči slyšíš Dativ.",
+   "kind": "schema",
+   "level": 2,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Plurál: kdy -e a kdy -en?",
+   "back": "Plurál s členem/ein-slovem/alle → -en; bez členu (nebo po číslovce/viele) → -e (Nom/Akk), -en (Dat), -er (Gen).\n• die neuen Kurse, meine neuen Schuhe, keine guten Nachrichten, alle neuen Vokabeln.\n• neue Schuhe, zwei große Zimmer, viele junge Leute, einige gute Ideen.\n• Dativ všude -en: mit den kleinen Kindern, mit großen Fenstern, in vielen großen Städten.\n• Genitiv bez členu: vieler junger Menschen, junger Leute.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Past: viele/einige/mehrere/wenige vs. alle/beide — jaké skloňování následuje?",
+   "back": "viele, einige, mehrere, wenige, ein paar se chovají jako ADJEKTIVA → za nimi SILNÉ; alle a (die) beiden jako ČLEN → za nimi SLABÉ.\n• viele schöne Parks · einige gute Ideen · mehrere kleine Fehler · wenige freie Wohnungen · ein paar neue Freunde.\n• alle neuen Vokabeln · alle guten Plätze · aller schriftlichen Prüfungen · meine beiden älteren Brüder.\n• Dativ zní stejně: mit vielen neuen / mit allen neuen / mit beiden neuen.\n• Kolísá (Duden uznává obojí, proto to v drilu není): manche, solche, folgende, sämtliche + plurál → manche alte/alten Freunde, solche schöne/schönen Tage, folgende neue/neuen Regeln.",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Past: adjektivum po číslovce (zwei, drei…)",
+   "back": "Číslovka nemá koncovku, takže nenese signál → adjektivum je SILNÉ.\n• Die Wohnung hat zwei große Zimmer. · Ich habe drei neue Bücher bestellt.\n• Dativ: mit zwei netten Mitbewohnerinnen, nach drei langen Jahren.\n• S členem před číslovkou zase slabé: die zwei neuen Kollegen.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Zpodstatnělá adjektiva (der Studierende, ein Bekannter) — jak se skloňují?",
+   "back": "Píšou se VELKÝM písmenem, ale skloňují se jako ADJEKTIVUM — podle toho, co stojí před nimi.\n• der Studierende · ein Studierender · eine Studierende · die Studierenden · viele Studierende · alle Studierenden.\n• mit einem Studierenden (m) / mit einer Studierenden (f) · die Arbeiten der Studierenden.\n• Stejně: der/ein Bekannte(r), Angestellte(r), Verwandte(r), Erwachsene(r), Deutsche(r), Kranke(r), Vorsitzende(r).\n• Bez členu: Mein Bruder ist Angestellter. Der Eintritt kostet für Erwachsene zehn Euro.",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Řadové číslovky (der erste, zum vierzigsten Geburtstag) — jak se skloňují?",
+   "back": "Řadová číslovka JE adjektivum: tvoří se -t- (do 19) / -st- (od 20) a dostává normální koncovku.\n• erst-, zweit-, dritt-, viert- … neunzehnt-; zwanzigst-, dreißigst-, vierzigst-, hundertst-.\n• Ich bin im dritten Semester. · Die Prüfung ist am zweiten Dezember. · zum ersten Mal.\n• Heute ist mein dreißigster Geburtstag. · Wir haben ihren vierzigsten Geburtstag gefeiert.\n• Tvoje chyba „hatte Vierzigste Geburtstag Feier“ → hatte ihre vierzigste Geburtstagsfeier (člen, malé v, složenina dohromady).",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Časové údaje bez předložky (letztes Wochenende, jeden Sommer) — jaký pád?",
+   "back": "Časový údaj bez předložky („kdy? jak dlouho?“) je AKKUSATIV.\n• m: letzten Monat, jeden Sommer, nächsten Freitag, den ganzen Tag.\n• f: letzte Woche, die ganze Nacht, nächste Woche.\n• n: letztes Wochenende, jedes Jahr, nächstes Semester, dieses Jahr.\n• Tvoje chyby: „Letzte Wochenende“ → Letztes Wochenende; „jedes Sommer“ → jeden Sommer (der Sommer).",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Dvě adjektiva za sebou — jaké koncovky?",
+   "back": "Obě adjektiva dostanou STEJNOU koncovku (paralelně).\n• ein kleines italienisches Restaurant · bei einer großen deutschen Firma · ein altes tschechisches Kochbuch.\n• Výjimka bez členu v Dativu m/n: mit frischem grünem Salat (doporučené) i mit frischem grünen Salat (přípustné) — proto v drilu dvě adjektiva jen se členem.\n• Čárka jen u rovnocenných adjektiv (ein großes, helles Zimmer = groß UND hell); u druhu/národnosti čárka ne (kleines italienisches Restaurant).",
+   "kind": "schema",
+   "level": 2,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Adjektiva se změnou kmene: dunkel, teuer, hoch, sauer",
+   "back": "Při koncovce vypadne -e- (dunkel, teuer, sauer) a hoch ztrácí -c-.\n• dunkel → eine dunkle Jacke, im dunklen Zimmer.\n• teuer → eine teure Stadt, in einem teuren Viertel.\n• sauer → saure Äpfel · hoch → ein hohes Gebäude, ein hoher Baum.",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Adjektiva od měst (Wiener, Prager) — jak se skloňují?",
+   "back": "Nijak: -er od názvu města je NESKLONNÉ a píše se VELKÝM písmenem.\n• in einem Wiener Kaffeehaus · durch die Prager Altstadt · am Wiener Hauptbahnhof · ein Wiener Schnitzel.\n• Člen se ale skloňuje normálně (einem, die, am).",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Přivlastňovací euer a unser — past v koncovce",
+   "back": "euer s koncovkou BĚŽNĚ ztrácí -e- (eure), unser ho běžně drží (unsere).\n• euer Zimmer, ale: eure Wohnung, eurem Bruder, eure neuen Freunde.\n• unser Haus, unsere alte Waschmaschine, unserem Lehrer.\n• Duden připouští i euere/euern a unsre/unsern — jsou ale vzácné až knižní; v psaní používej eure a unsere.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Oslovení a závěr dopisu — koncovky",
+   "back": "Oslovení bez členu = silné skloňování (Nominativ), závěr = silný Dativ plurálu.\n• Sehr geehrter Herr Huber · Sehr geehrte Frau Novak · Sehr geehrte Damen und Herren.\n• Lieber Opa · Liebe Oma · Liebes Team.\n• Mit freundlichen Grüßen.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Po im/am/zum/beim/vom: jaká koncovka adjektiva?",
+   "back": "Stažený tvar obsahuje dem (Dativ m/n) → adjektivum slabé -en.\n• im kleinen Innenhof · im dunklen Zimmer · am Wiener Hauptbahnhof · zum ersten Mal · im vierten Stock.\n• Wohin? s Akkusativem: ins (= in das) → ins neue Kino; ale die Bibliothek je f → in die Bibliothek (ne „ins Bibliothek“), der Innenhof m → in den Innenhof.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wie heißt {{der neue}} Kollege aus Graz? (der, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wo ist {{die nächste}} U-Bahn-Station? (der, nächst-)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mir gefällt {{das kleine}} Café neben der Uni. (der, klein)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wann beginnen {{die neuen}} Kurse? (der, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Heute ist {{der letzte}} Tag vor den Ferien. (der, letzt-)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wie teuer ist {{die große}} Wohnung im dritten Stock? (der, groß)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Gehört dir {{das rote}} Fahrrad vor dem Haus? (der, rot)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wo sind {{die alten}} Fotos von Oma? (der, alt)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist {{ein guter}} Freund aus Brünn. (ein, gut)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine Schwester ist {{eine gute}} Ärztin. (ein, gut)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist {{ein schönes}} Zimmer. (ein, schön)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist {{kein großer}} Unterschied. (kein, groß)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Leider ist {{mein neues}} Handy schon kaputt. (mein, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wo sind {{meine neuen}} Schuhe? (mein, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das sind {{keine guten}} Nachrichten. (kein, gut)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ist das {{dein neuer}} Mitbewohner? (dein, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ist das {{dein neues}} Fahrrad? (dein, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist {{unser kleines}} Geheimnis. (unser, klein)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist {{guter}} Wein. (gut, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Im Kühlschrank ist {{kaltes}} Wasser. (kalt, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ist das {{frische}} Milch? (frisch, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "In der Küche steht {{frischer}} Kaffee. (frisch, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Im Hof spielen {{kleine}} Kinder. (klein, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Gute}} Freunde sind wichtig. (gut, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{den letzten}} Bus verpasst. (der, letzt-)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Kennst du {{die neue}} Mitbewohnerin? (der, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich nehme {{das kleine}} Zimmer. (der, klein)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Hast du {{die neuen}} Bücher schon zurückgegeben? (der, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Kannst du mir {{den großen}} Topf geben? (der, groß)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich mag {{die österreichische}} Küche. (der, österreichisch)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Hast du {{das neue}} Handy von Lukas gesehen? (der, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich kaufe {{diesen blauen}} Pullover. (dieser, blau)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er liest {{jedes neue}} Buch von ihr. (jeder, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich suche {{einen neuen}} Job. (ein, neu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich suche {{eine kleine}} Wohnung in Ottakring. (ein, klein)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben {{ein schönes}} Geschenk für Oma gekauft. (ein, schön)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich brauche {{einen guten}} Rat. (ein, gut)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lese gerade {{einen spannenden}} Roman. (ein, spannend)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben {{einen tollen}} Ausflug nach Krems gemacht. (ein, toll)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Kennst du {{ein gutes}} Restaurant in der Nähe? (ein, gut)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe für die Party {{einen großen}} Kuchen gebacken. (ein, groß)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er hat {{keinen eigenen}} Schreibtisch. (kein, eigen)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sie hat {{keine eigene}} Wohnung. (kein, eigen)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{kein frisches}} Brot mehr. (kein, frisch)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Hast du {{meinen schwarzen}} Regenschirm gesehen? (mein, schwarz)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich vermisse {{meinen kleinen}} Bruder. (mein, klein)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sie hat {{ihren alten}} Computer verkauft. (ihr, alt)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Am Sonntag besuche ich {{meine alten}} Freunde in Brünn. (mein, alt)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben {{unsere alte}} Waschmaschine verkauft. (unser, alt — běžný tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Herzlichen Dank für {{Ihr großes}} Verständnis und Ihre Geduld. (Ihr, groß)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich trinke morgens nur {{schwarzen}} Tee. (schwarz, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Es gibt hier {{guten}} Kaffee. (gut, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{großen}} Hunger. (groß, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich kaufe immer {{frische}} Milch. (frisch, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir brauchen {{frisches}} Brot. (frisch, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{neue}} Schuhe gekauft. (neu, bez členu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe mit {{dem neuen}} Professor gesprochen. (der, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lerne in {{der neuen}} Bibliothek. (der, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir treffen uns vor {{dem alten}} Rathaus. (der, alt)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sie spielt mit {{den kleinen}} Kindern. (der, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Paket liegt auf {{dem kleinen}} Tisch im Flur. (der, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich bin mit {{dem letzten}} Zug nach Hause gefahren. (der, letzt-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich sitze gern in {{der hintersten}} Reihe. (der, hinterst-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "In {{dieser kleinen}} Stadt kennt jeder jeden. (dieser, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe in {{diesem kleinen}} Geschäft eine Jacke gekauft. (dieser, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Nach {{jedem langen}} Arbeitstag gehe ich spazieren. (jeder, lang)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich bin bei {{jeder wichtigen}} Besprechung dabei. (jeder, wichtig)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne bei {{einem guten}} Freund. (ein, gut)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne in {{einer kleinen}} Wohnung. (ein, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich arbeite in {{einem kleinen}} Büro. (ein, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben in {{einem billigen}} Hotel übernachtet. (ein, billig)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne in {{einem alten}} Haus im 16. Bezirk. (ein, alt)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich warte seit {{einer halben}} Stunde auf dich. (ein, halb)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sie war mit {{keinem einzigen}} Vorschlag einverstanden. (kein, einzig)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er fährt mit {{seinem neuen}} Fahrrad zur Uni. (sein, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe mit {{meinem kleinen}} Bruder ins Kino. (mein, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gratuliere dir zu {{deinem neuen}} Job. (dein, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sie wohnt mit {{ihrem neuen}} Freund in Graz. (ihr, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{meiner besten}} Freundin ein Buch geschenkt. (mein, best-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er hilft {{seiner alten}} Nachbarin beim Einkaufen. (sein, alt)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich telefoniere jeden Abend mit {{meiner jüngeren}} Schwester. (mein, jünger)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe mit {{Ihrer netten}} Kollegin gesprochen. (Ihr, nett)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre mit {{meinen besten}} Freunden nach Prag. (mein, best-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich schreibe {{meinen alten}} Schulfreundinnen oft. (mein, alt)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich backe nur mit {{braunem}} Zucker. (braun, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er spricht mit {{starkem}} Akzent. (stark, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Bei {{starkem}} Regen fahre ich nicht mit dem Rad. (stark, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mit {{großer}} Freude habe ich Ihre Einladung angenommen. (groß, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sie spricht mit {{lauter}} Stimme. (laut, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Bei {{schönem}} Wetter fahren wir an die Donau. (schön, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich esse gern Nudeln mit {{frischem}} Gemüse. (frisch, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er hat mit {{großem}} Erfolg studiert. (groß, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist ein Zimmer mit {{eigenem}} Bad. (eigen, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich hätte gern ein Zimmer mit {{großen}} Fenstern. (groß, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich koche nur mit {{frischen}} Zutaten. (frisch, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Wohnung ist voll von {{alten}} Möbeln. (alt, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre meistens mit {{öffentlichen}} Verkehrsmitteln. (öffentlich, bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe in {{die neue}} Bibliothek. (der, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Kinder laufen in {{den großen}} Innenhof. (der, groß)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir sitzen gern im {{kleinen}} Innenhof. (klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich stelle die Vase auf {{den kleinen}} Tisch. (der, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lege das Buch auf {{den großen}} Schreibtisch. (der, groß)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Buch liegt auf {{dem großen}} Schreibtisch. (der, groß)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir ziehen in {{eine größere}} Wohnung. (ein, größer)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir gehen heute in {{ein kleines}} Restaurant. (ein, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Im {{dunklen}} Zimmer konnte ich nichts sehen. (dunkel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wien ist {{eine teure}} Stadt. (ein, teuer)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir wohnen in {{einem teuren}} Viertel. (ein, teuer)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Miete für {{diese teure}} Wohnung ist zu hoch. (dieser, teuer)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich trage heute {{eine dunkle}} Jacke. (ein, dunkel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist {{ein hohes}} Gebäude. (ein, hoch)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Vor dem Haus steht {{ein hoher}} Baum. (ein, hoch)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich mag keine {{sauren}} Äpfel. (sauer)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wo ist {{eure neue}} Wohnung? (euer, neu — běžný tvar)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Letztes}} Wochenende war ich in Brünn. (letzt-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir fahren {{jeden}} Sommer nach Kroatien. (jeder)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war {{letzte}} Woche krank. (letzt-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich ziehe {{nächsten}} Monat um. (nächst-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre {{jedes}} Jahr zu Weihnachten nach Hause. (jeder)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{den ganzen}} Tag gelernt. (der, ganz)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben {{die ganze}} Nacht geredet. (der, ganz)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben {{das ganze}} Wochenende gelernt. (der, ganz)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich schreibe {{nächstes}} Semester meine Masterarbeit. (nächst-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war {{letzten}} Freitag im Kino. (letzt-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe {{jeden}} Morgen joggen. (jeder)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir sehen uns {{diesen}} Samstag. (dieser)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir waren {{eine ganze}} Woche in Italien. (ein, ganz)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war {{vorletztes}} Jahr in Berlin. (vorletzt-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sehr {{geehrte}} Frau Novak, (geehrt)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sehr {{geehrter}} Herr Huber, (geehrt)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Lieber}} Opa, danke für das Paket! (lieb)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mit {{freundlichen}} Grüßen (freundlich)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Wohnung hat {{zwei große}} Zimmer. (zwei, groß)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{drei neue}} Bücher bestellt. (drei, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben {{zwei kleine}} Kinder. (zwei, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne mit {{zwei netten}} Mitbewohnerinnen zusammen. (zwei, nett)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Nach {{drei langen}} Jahren habe ich meinen Abschluss gemacht. (drei, lang)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wie findest du {{die zwei neuen}} Kollegen? (der, zwei, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "In Wien gibt es {{viele schöne}} Parks. (viele, schön)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{viele interessante}} Leute kennengelernt. (viele, interessant)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "In {{vielen großen}} Städten ist die Miete hoch. (viele, groß)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{einige gute}} Ideen. (einige, gut)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Nach {{einigen langen}} Gesprächen haben wir uns geeinigt. (einige, lang)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{mehrere kleine}} Fehler gefunden. (mehrere, klein)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Es gibt nur {{wenige freie}} Wohnungen. (wenige, frei)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe in Wien {{ein paar neue}} Freunde gefunden. (ein paar, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Es gibt {{keine freien}} Plätze mehr. (kein, frei)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{alle neuen}} Vokabeln gelernt. (alle, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Leider waren {{alle guten}} Plätze schon besetzt. (alle, gut)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe mit {{allen neuen}} Kolleginnen gesprochen. (alle, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine {{beiden älteren}} Brüder wohnen in Prag. (beide, älter)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war mit {{beiden neuen}} Kolleginnen beim Mittagessen. (beide, neu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben ihren {{vierzigsten}} Geburtstag gefeiert. (vierzig-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine Tante hat zu ihrem {{fünfzigsten}} Geburtstag alle eingeladen. (fünfzig-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Morgen feiert er seinen {{zwanzigsten}} Geburtstag. (zwanzig-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Heute ist mein {{dreißigster}} Geburtstag. (dreißig-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich bin im {{dritten}} Semester. (dritt-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Prüfung ist am {{zweiten}} Dezember. (zweit-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war zum {{ersten}} Mal in Salzburg. (erst-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir wohnen im {{vierten}} Stock. (viert-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist schon {{der dritte}} Versuch. (der, dritt-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{eine zweite}} Chance bekommen. (ein, zweit-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mozart wurde im {{achtzehnten}} Jahrhundert geboren. (achtzehnt-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist das Büro {{des neuen}} Direktors. (der, neu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Fenster {{der alten}} Wohnung waren undicht. (der, alt)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wegen {{des schlechten}} Wetters bleiben wir zu Hause. (der, schlecht; Genitiv)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Am Ende {{des ersten}} Semesters gibt es Prüfungen. (der, erst-)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Während {{des ganzen}} Semesters habe ich in der Bibliothek gelernt. (der, ganz; Genitiv)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Wohnung liegt in der Nähe {{des großen}} Parks. (der, groß)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Eltern {{der kleinen}} Kinder warten vor der Schule. (der, klein)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Preise {{der neuen}} Wohnungen sind hoch. (der, neu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Geschichte {{dieses alten}} Hauses ist spannend. (dieser, alt)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Lage {{dieser neuen}} Wohnung ist perfekt. (dieser, neu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist das Auto {{eines guten}} Freundes. (ein, gut)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Miete {{eines kleinen}} Zimmers in Wien ist hoch. (ein, klein)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist der Sitz {{einer großen}} Firma. (ein, groß)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Statt {{eines neuen}} Autos hat er sich ein Fahrrad gekauft. (ein, neu; Genitiv)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wegen {{eines kleinen}} Fehlers wurde mein Antrag abgelehnt. (ein, klein; Genitiv)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Innerhalb {{eines einzigen}} Tages war alles erledigt. (ein, einzig; Genitiv)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war auf der Hochzeit {{meiner besten}} Freundin. (mein, best-)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist das Haus {{meines verstorbenen}} Großvaters. (mein, verstorben)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich kenne die Kinder {{meiner alten}} Freunde. (mein, alt)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Trotz {{starken}} Regens sind wir spazieren gegangen. (stark; Genitiv, bez členu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wegen {{schlechten}} Wetters wurde der Ausflug abgesagt. (schlecht; Genitiv, bez členu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wegen {{dichten}} Nebels hatte der Flug Verspätung. (dicht; Genitiv, bez členu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Trotz {{großer}} Müdigkeit habe ich weitergelernt. (groß; Genitiv, bez členu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist eine Initiative {{junger}} Leute aus Wien. (jung; Genitiv, bez členu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist die Meinung {{vieler junger}} Menschen. (viele, jung)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Ergebnisse {{aller schriftlichen}} Prüfungen kommen im März. (alle, schriftlich)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Der Studierende}} muss das Formular selbst ausfüllen. (der, Studierend-, m. Sg.)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ein {{Studierender}} hat mir sein Skript geliehen. (Studierend-)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Im Hörsaal saßen {{viele Studierende}}. (viele, Studierend-)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe mit {{einem Studierenden}} aus Linz gesprochen. (ein, Studierend-, m.)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Bibliothek ist für {{alle Studierenden}} geöffnet. (alle, Studierend-)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Professor hat die Arbeiten {{der Studierenden}} korrigiert. (der, Studierend-, Plural)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mein Bruder ist {{Angestellter}} bei einer Bank. (Angestellt-, bez členu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Eine {{Angestellte}} der Bank hat mir geholfen. (Angestellt-)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Gestern habe ich {{einen Bekannten}} aus Prag getroffen. (ein, Bekannt-, m.)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sie ist {{eine gute Bekannte}} von mir. (ein, gut, Bekannt-)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben {{viele Bekannte}} in Brünn. (viele, Bekannt-)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich schicke {{meinen Verwandten}} in Tschechien jedes Jahr Karten. (mein, Verwandt-, Plural)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Eintritt kostet für {{Erwachsene}} zehn Euro. (Erwachsen-, Plural, bez členu)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Arzt hat {{dem Kranken}} ein Medikament gegeben. (der, Krank-, m.)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Büro {{des Vorsitzenden}} ist im ersten Stock. (der, Vorsitzend-, m.)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir waren in {{einem kleinen italienischen}} Restaurant. (ein, klein, italienisch)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sie arbeitet bei {{einer großen deutschen}} Firma. (ein, groß, deutsch)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben {{einen neuen tschechischen}} Kollegen. (ein, neu, tschechisch)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wie heißt {{der neue französische}} Austauschstudent? (der, neu, französisch)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist {{ein bekanntes österreichisches}} Unternehmen. (ein, bekannt, österreichisch)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{ein altes tschechisches}} Kochbuch von meiner Oma. (ein, alt, tschechisch)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben uns {{eine neue elektrische}} Zahnbürste gekauft. (ein, neu, elektrisch)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist das Ergebnis {{einer langen wissenschaftlichen}} Arbeit. (ein, lang, wissenschaftlich)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich sitze gern in {{einem Wiener}} Kaffeehaus. (ein, Wien → Adjektiv)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir sind durch {{die Prager}} Altstadt gelaufen. (der, Prag → Adjektiv)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er arbeitet am {{Wiener}} Hauptbahnhof. (Wien → Adjektiv)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "2 · Adjektivdeklination",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m2"
+   ]
+  }
+ ]
+}

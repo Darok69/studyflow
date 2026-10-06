@@ -1,7 +1,7 @@
 {
   "exam": {
     "name": "Deutsch auf Muttersprachniveau",
-    "date": null,
+    "date": "2027-01-31",
     "language": "de",
     "format": "Daniel (2026-10-06): chce němčinu na úrovni rodilého mluvčího; učil se poslechem, gramatika slabá. 1. krok = rozřazovací test A2–C2 + ukázka psaní.",
     "mc_format": {
@@ -10,7 +10,7 @@
       "note": "Rozřazovací test: bez stopek, všechny otázky. Odpovídej podle toho, co víš — ne podle toho, co zní dobře. Když nevíš, nech otázku prázdnou: tipování zkreslí odhad."
     }
   },
-  "updated_at": "2026-10-06T17:09:23+00:00",
+  "updated_at": "2026-10-06T21:50:02+00:00",
   "organisers": [],
   "courses": [
     {
@@ -26,6 +26,62 @@
           "title": "Einstufungstest",
           "slides": 0,
           "data": "data/DE00.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "DEG0",
+          "unit": "Grammatik",
+          "title": "Deine Fehler — Analyse der Schreibprobe",
+          "slides": 0,
+          "data": "data/DEG0.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "DEG1",
+          "unit": "Grammatik",
+          "title": "Genus und Artikel — Übersicht",
+          "slides": 0,
+          "data": "data/DEG1.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "DEG2",
+          "unit": "Grammatik",
+          "title": "Adjektivdeklination — Übersicht",
+          "slides": 0,
+          "data": "data/DEG2.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "DEG3",
+          "unit": "Grammatik",
+          "title": "Präpositionen und Kasus — Übersicht",
+          "slides": 0,
+          "data": "data/DEG3.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "DEG4",
+          "unit": "Grammatik",
+          "title": "Wortstellung — Übersicht",
+          "slides": 0,
+          "data": "data/DEG4.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "DEG5",
+          "unit": "Grammatik",
+          "title": "Konjunktiv II, Pronomen, Verben mit Präposition — Übersicht",
+          "slides": 0,
+          "data": "data/DEG5.json",
+          "done": 0
+        },
+        {
+          "lecture_id": "DEG6",
+          "unit": "Grammatik",
+          "title": "Rechtschreibung — Übersicht",
+          "slides": 0,
+          "data": "data/DEG6.json",
           "done": 0
         }
       ]

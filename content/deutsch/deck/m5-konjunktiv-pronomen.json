@@ -1,0 +1,2840 @@
+{
+  "subject": "Deutsch auf Muttersprachniveau",
+  "examDate": "2027-01-31",
+  "cards": [
+    {
+      "type": "basic",
+      "front": "Jak číst nápovědu v drilu tohoto modulu?",
+      "back": "V závorce je základní tvar (infinitiv, zájmeno v 1. pádě, podstatné jméno v 1. pádě) nebo pokyn.\n• „Hilfsverb“ = doplň hätte/wäre (popř. haben/sein) — kterou z nich, poznáš z příčestí ve větě.\n• „Konj. II Verg.“ = minulý kondicionál (hätte/wäre + příčestí).\n• U vztažných vět piš zájmena řady der/die/das (ne welcher).\n• U sloves s předložkou: (der Bus) = napiš předložku + člen ve správném pádě → „auf den“.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jak se tvoří Konjunktiv II minulý (Konjunktiv II der Vergangenheit)?",
+      "back": "hätte / wäre (Konj. II) + příčestí minulé (Partizip II) na konci.\n• Wenn ich es gewusst hätte, hätte ich dich angerufen.\n• Wenn du früher gekommen wärst, hättest du ihn getroffen.\n• Česky: „kdybych byl věděl, byl bych ti zavolal“.\n• Žádné „würde“ — würde + infinitiv je jen pro přítomnost.",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kdy „hätte“ a kdy „wäre“?",
+      "back": "Přesně jako v Perfektu: kde je „hat“, je „hätte“; kde je „ist“, je „wäre“.\n• Ich habe gelernt → ich hätte gelernt.\n• Ich bin gefahren → ich wäre gefahren.\n• wäre: pohyb/změna stavu (fahren, gehen, kommen, fliegen, umziehen, aufstehen, einschlafen, sterben, passieren) + sein, bleiben, werden.\n• Ich wäre gern länger geblieben. / Es wäre schön gewesen.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Tvary hätte a wäre ve všech osobách?",
+      "back": "hätte: ich hätte, du hättest, er/sie/es hätte, wir hätten, ihr hättet, sie/Sie hätten.\n• wäre: ich wäre, du wär(e)st, er/sie/es wäre, wir wären, ihr wär(e)t, sie/Sie wären.\n• Přehláska je povinná: hatte (minulý čas) ≠ hätte (kondicionál), war ≠ wäre.\n• 1. a 3. osoba jednotného čísla jsou stejné: ich hätte / er hätte.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Rozdíl: „Wenn ich Zeit hätte…“ vs. „Wenn ich Zeit gehabt hätte…“?",
+      "back": "Přítomný = nereálné TEĎ; minulý = nereálné TEHDY (už se to nedá změnit).\n• Wenn ich Zeit hätte, würde ich mitkommen. (teď nemám čas)\n• Wenn ich Zeit gehabt hätte, wäre ich mitgekommen. (tehdy jsem neměl)\n• Smíšeně: Wenn ich das Angebot angenommen hätte, wäre ich jetzt in Berlin.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Oprav: „Wenn ich es früher wusste, würde ich dich anrufen.“",
+      "back": "Wenn ich es früher gewusst hätte, hätte ich dich angerufen.\n• Indikativ (wusste) říká, že jsem to věděl — opak toho, co chceš říct.\n• „würde anrufen“ je přítomnost/budoucnost, ne minulost.\n• V obou částech souvětí: hätte/wäre + příčestí.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jak se tvoří Konjunktiv II minulý s modálním slovesem?",
+      "back": "hätte + infinitiv plnovýznamového slovesa + infinitiv modálního slovesa (ne příčestí!).\n• Ich hätte früher anfangen sollen. (měl jsem začít dřív)\n• Du hättest mir das sagen können.\n• Wir hätten den Zug nehmen müssen.\n• ✗ Ich hätte früher anfangen gesollt.\n• Ve vedlejší větě je slovosled zvláštní (…, wenn ich hätte kommen können) — v psaní se mu vyhni.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "K čemu se Konjunktiv II minulý používá kromě podmínky?",
+      "back": "Pro všechno, co se NESTALO.\n• Výčitka: Du hättest mir das sagen sollen.\n• Lítost/přání: Hätte ich doch nur auf dich gehört! / Wenn ich doch mehr gelernt hätte!\n• Těsně ne: Fast wäre ich gestürzt. / Beinahe hätte ich den Zug verpasst.\n• Bez té okolnosti: Ohne deine Hilfe hätte ich es nicht geschafft.\n• Zdvořile o minulosti: Ich hätte noch eine Frage gehabt.",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jak vypadá podmínková věta bez „wenn“?",
+      "back": "Sloveso jde na 1. místo (jako otázka), druhá věta často s „dann/so“.\n• Hätte ich das gewusst, wäre ich zu Hause geblieben.\n• Wäre der Zug pünktlich gewesen, hätten wir den Anschluss erreicht.\n• Význam stejný jako Wenn ich das gewusst hätte, …",
+      "kind": "schema",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jak se tvoří Konjunktiv II minulý v pasivu a po „als ob“?",
+      "back": "Pasiv: příčestí + worden + wäre.\n• Wenn das Formular rechtzeitig abgeschickt worden wäre, …\n• als ob + sloveso na konci: Er tut so, als ob er nichts gehört hätte.\n• als + sloveso hned za als: Er tut so, als hätte er nichts gehört.",
+      "kind": "schema",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jaká jsou zvratná zájmena v akuzativu a dativu?",
+      "back": "Liší se jen ich a du: mich/mir, dich/dir; jinak stejné.\n• ich: mich / mir\n• du: dich / dir\n• er, sie, es: sich / sich\n• wir: uns / uns\n• ihr: euch / euch\n• sie, Sie: sich / sich",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Oprav: „Wir haben sich das Spiel angeschaut.“",
+      "back": "Wir haben uns das Spiel angeschaut.\n• „sich“ je JEN pro 3. osobu (er, sie, es, sie) a vykání (Sie).\n• wir → uns, ihr → euch, ich → mich/mir, du → dich/dir.\n• Česká „se/si“ je pro všechny osoby — němčina ne.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kdy je zvratné zájmeno v dativu (mir, dir) místo akuzativu (mich, dich)?",
+      "back": "Když je ve větě JEŠTĚ JINÝ předmět v akuzativu — pak zvratné jde do dativu.\n• Ich wasche mich. ↔ Ich wasche mir die Hände.\n• Ich ziehe mich an. ↔ Ich ziehe mir die Jacke an.\n• Ich schaue mich im Spiegel an. ↔ Ich schaue mir den Film an.\n• Vždy s dativem (+ věc v Akk): sich etwas anschauen, vorstellen, merken, kaufen, leisten, überlegen, wünschen, Sorgen machen, Zeit nehmen.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Co znamená zvratné zájmeno v množném čísle u „sich treffen, sich kennen“?",
+      "back": "Často „navzájem“ (reciproční).\n• Wir haben uns gestern getroffen. (potkali jsme se)\n• Meine Eltern haben sich in Prag kennengelernt.\n• Wir haben uns lange nicht gesehen.\n• Formálněji: einander (Sie helfen einander).",
+      "kind": "znaky",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Tvary vztažného zájmena der/die/das?",
+      "back": "Skoro jako určitý člen — liší se jen v dativu plurálu a v genitivu.\n• Nom.: der, die, das; Pl. die\n• Akk.: den, die, das; Pl. die\n• Dat.: dem, der, dem; Pl. DENEN\n• Gen.: DESSEN, DEREN, DESSEN; Pl. DEREN",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jak určit správný tvar vztažného zájmena?",
+      "back": "Rod a číslo podle slova, ke kterému se vztahuje; PÁD podle role ve vedlejší větě.\n• Der Professor, den ich getroffen habe (treffen + Akk).\n• Die Studentin, der ich geholfen habe (helfen + Dat).\n• Die Leute, denen ich vertraue (vertrauen + Dat, Pl.).\n• Postup: 1) rod antecedentu, 2) sloveso/předložka ve vedlejší větě → pád.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kde stojí předložka u vztažného zájmena? (oprav „mit welchen“)",
+      "back": "Předložka jde PŘED vztažné zájmeno, na začátek vedlejší věty; pád určuje předložka.\n• Das ist der Kollege, mit dem ich das Referat geschrieben habe.\n• Das Thema, über das ich schreibe…\n• Die Freunde, mit denen ich gereist bin…\n• „welcher“ jako vztažné zájmeno existuje, ale je knižní a nemotorné — piš der/die/das. „mit welchen“ je navíc správný tvar jen v plurálu (v jednotném čísle mit welchem / mit welcher).",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jak se používá dessen a deren?",
+      "back": "Přivlastňovací vztažné zájmeno („jehož, jejíž, jejichž“); po něm podstatné jméno BEZ členu.\n• der Student, dessen Laptop kaputt ist\n• die Nachbarin, deren Hund bellt\n• die Kinder, deren Eltern arbeiten (Pl. = deren)\n• dessen = mask./neutr. antecedent, deren = fem. nebo plurál — podle VLASTNÍKA, ne podle věci.",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kdy se jako vztažné zájmeno používá „was“?",
+      "back": "Po alles, nichts, etwas, vieles, das, po zpodstatnělém superlativu a když se vztahuje k celé větě.\n• Alles, was du sagst, stimmt.\n• Das ist das Beste, was mir passieren konnte.\n• Er hat bestanden, was mich sehr freut.\n• S předložkou → wo(r)- + předložka: etwas, worüber ich nachdenke.",
+      "kind": "znaky",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Vztažná věta — slovosled a interpunkce?",
+      "back": "Je to vedlejší věta: sloveso na KONEC, z obou stran čárka.\n• Die Wohnung, in der ich wohne, hat große Fenster.\n• Místo „in der“ lze u místa říct „wo“: die Stadt, wo ich wohne (hovorovější).",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kdy se používají složeniny da- a wo- (darauf, worauf)?",
+      "back": "Jen u VĚCÍ a dějů; u osob předložka + zájmeno.\n• Worauf wartest du? – Auf den Bus. / Ich warte darauf.\n• Auf wen wartest du? – Auf meine Freundin. / Ich warte auf sie.\n• Před samohláskou se vkládá -r-: darauf, daran, darüber, worauf, woran, worüber (ale: damit, dafür, wofür, womit).",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "K čemu slouží „darauf, daran…“ před vedlejší větou?",
+      "back": "Odkazují dopředu na obsah vedlejší věty nebo infinitivu se zu.\n• Ich freue mich darauf, dich zu sehen.\n• Ich warte darauf, dass du dich meldest.\n• Ich habe nicht daran gedacht, die Miete zu überweisen.\n• Předložka zůstává ta, kterou sloveso vyžaduje (sich freuen AUF → darauf).",
+      "kind": "znaky",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "sich freuen auf vs. sich freuen über?",
+      "back": "auf + Akk = těšit se na něco, co PŘIJDE; über + Akk = mít radost z něčeho, co UŽ JE/BYLO.\n• Ich freue mich auf die Ferien. (budou)\n• Ich freue mich über dein Geschenk. (už ho mám)\n• sich freuen für jemanden = mít radost kvůli někomu (Ich freue mich für dich).",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Slovesa s předložkou + AKUZATIV (nejdůležitější)?",
+      "back": "auf, über, an, für, um + Akk:\n• warten auf, sich freuen auf/über, sich vorbereiten auf, sich verlassen auf, sich konzentrieren auf, achten auf, antworten auf, Lust haben auf, stolz sein auf\n• sich ärgern über, sich beschweren über, sich informieren über, sprechen über\n• denken an, sich erinnern an, sich gewöhnen an, glauben an\n• sich interessieren für, sich entscheiden für, sich bedanken für, sich entschuldigen für\n• bitten um, sich kümmern um, sich bewerben um • sich verlieben in",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Slovesa s předložkou + DATIV (nejdůležitější)?",
+      "back": "an, von, vor, nach, mit, zu, bei + Dat:\n• teilnehmen an, zweifeln an\n• abhängen von, träumen von, sich verabschieden von, sich trennen von\n• Angst haben vor, warnen vor\n• fragen nach, suchen nach, sich erkundigen nach\n• sich beschäftigen mit, aufhören mit, telefonieren mit, sich streiten mit, zufrieden sein mit\n• einladen zu (hovorově a v Rakousku i auf + Akk: auf eine Party), gratulieren zu • sich bewerben bei, sich bedanken bei, sich beschweren bei",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Rozhoduje u sloves s předložkou „Wo? / Wohin?“?",
+      "back": "NE. Pád určuje sloveso — učí se jako slovíčko celé: denken an + Akk.\n• Ich denke an dich. (Akk, i když se nikam nejde)\n• Ich nehme an dem Kurs teil. (Dat)\n• Ich warte auf den Bus. (Akk)\n• Učit se vždy trojici: sloveso + předložka + pád.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "sich bewerben — s jakými předložkami?",
+      "back": "um + Akk = o co (místo), bei + Dat = u koho (firma).\n• Ich bewerbe mich bei einer Firma in Wien um eine Stelle als Werkstudent.\n• Běžně se říká i „für eine Stelle“ — „um“ je nejspisovnější.\n• Podobně: sich beschweren bei (u koho) über (na co), sich bedanken bei (komu) für (za co).",
+      "kind": "znaky",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jak se ptát a odkazovat u sloves s předložkou?",
+      "back": "Věc → wo(r)- / da(r)-; osoba → předložka + wen/wem / zájmeno.\n• Woran denkst du? – Daran.  /  An wen denkst du? – An ihn.\n• Wofür interessierst du dich? – Dafür.\n• Womit fährst du? – Damit.  /  Mit wem sprichst du? – Mit ihr.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Stažené tvary předložky se členem — pravidlo?",
+      "back": "an dem → am, in dem → im, von dem → vom, zu dem → zum, zu der → zur, bei dem → beim; an das → ans, in das → ins.\n• Ich nehme am Kurs teil. / Das hängt vom Wetter ab.\n• Nestažený tvar jen při důrazu nebo když následuje vztažná věta (an dem Kurs, den …).\n• Ve vztažné větě se NIKDY nestahuje: das Seminar, an dem ich teilnehme.",
+      "kind": "znaky",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Shoda podmětu a slovesa: haben a sein?",
+      "back": "Sloveso se řídí PODMĚTEM, i když stojí za slovesem.\n• haben: ich habe, du hast, er hat, wir haben, ihr habt, sie haben\n• sein: ich bin, du bist, er ist, wir sind, ihr seid, sie sind\n• Tvoje chyba „ich … hat“: po inverzi hledej podmět ZA slovesem → Gestern habe ich…, ale Gestern hat mein Chef…",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jaké číslo má sloveso u „Das sind…“, „Es sind…“, „Mein Bruder und ich…“?",
+      "back": "Řídí se skutečným podmětem.\n• Das sind meine Kollegen. (podmět = Kollegen → plurál)\n• Es sind viele Leute da. (es je jen výplň)\n• Mein Bruder und ich haben… (= wir)\n• Jeder von uns hat… / Die Polizei ist… (jednotné číslo)",
+      "kind": "znaky",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich mehr gelernt {{hätte}}, hätte ich die Prüfung bestanden. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn wir früher losgefahren {{wären}}, hätten wir den Zug erwischt. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich mehr Zeit gehabt {{hätte}}, hätte ich dich besucht. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn es nicht geregnet {{hätte}}, wären wir wandern gegangen. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich in Brünn geblieben {{wäre}}, hätte ich nie so gut Deutsch gelernt. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich nicht krank gewesen {{wäre}}, wäre ich zur Party gekommen. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich nicht eingeschlafen {{wäre}}, hätte ich das Ende des Films gesehen. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn mir das passiert {{wäre}}, hätte ich mich sofort beschwert. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn sie gestern {{mitgekommen wäre}}, hätte sie ihn kennengelernt. (mitkommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn mein Bruder nicht {{geholfen hätte}}, hätten wir den Umzug nie geschafft. (helfen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn wir den Mietvertrag genauer {{gelesen hätten}}, hätten wir das bemerkt. (lesen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn meine Eltern nicht nach Wien {{gezogen wären}}, wäre ich in Brünn aufgewachsen. (ziehen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich das Seminar nicht {{besucht hätte}}, hätte ich das Thema nicht verstanden. (besuchen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn das Wetter besser {{gewesen wäre}}, wären wir länger geblieben. (sein)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn du mir das früher {{gesagt hättest}}, hätte ich dir geholfen. (sagen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich die Wohnung {{genommen hätte}}, hätte ich jetzt einen Balkon. (nehmen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn der Zug nicht so spät {{angekommen wäre}}, hätte ich den Anschluss erreicht. (ankommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich früher {{aufgestanden wäre}}, hätte ich den Bus nicht verpasst. (aufstehen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn wir uns nicht {{verlaufen hätten}}, wären wir pünktlich gewesen. (sich verlaufen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn du mich gefragt hättest, {{hätte ich}} dir geholfen. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn der Bus pünktlich gekommen wäre, {{wäre ich}} nicht zu spät gekommen. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich den Wecker gehört hätte, {{hätte ich}} den Bus nicht verpasst. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich gewusst hätte, dass du krank bist, {{wäre ich}} zu dir gekommen. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich Zeit gehabt hätte, {{wäre ich}} mitgekommen. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn du angerufen hättest, {{hätten wir}} auf dich gewartet. (wir, Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn es nicht so kalt gewesen wäre, {{wären wir}} zu Fuß gegangen. (wir, Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich {{hätte}} dich angerufen, aber mein Akku war leer. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich {{wäre}} gern mitgekommen, aber ich musste arbeiten. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Es {{wäre}} besser gewesen, früher loszufahren. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich jetzt mehr Geld {{hätte}}, würde ich mir ein neues Fahrrad kaufen. (haben – Gegenwart)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich damals mehr Geld {{gehabt hätte}}, hätte ich das Auto gekauft. (haben – Vergangenheit)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich jetzt in Prag {{wäre}}, würde ich ins Theater gehen. (sein – Gegenwart)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich letztes Jahr in Prag {{gewesen wäre}}, hätte ich dich besucht. (sein – Vergangenheit)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich das Angebot angenommen hätte, {{wäre ich}} jetzt in Berlin. (ich, sein – jetzt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Fast {{wäre ich}} gestern mit dem Fahrrad gestürzt. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Beinahe {{hätte ich}} meinen Pass zu Hause liegen lassen. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ohne deine Hilfe {{hätte ich}} die Prüfung nicht bestanden. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "An deiner Stelle {{hätte ich}} sofort den Vermieter angerufen. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Hätte ich}} doch nur auf dich gehört! (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich doch nur mehr {{gelernt hätte}}! (lernen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Hätte ich}} das gewusst, wäre ich zu Hause geblieben. (ich, Hilfsverb)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Wäre der Zug}} pünktlich gewesen, hätten wir den Anschluss erreicht. (der Zug, Hilfsverb)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er tut so, als ob er nichts {{gehört hätte}}. (hören – Konj. II Verg.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er sah mich an, als {{hätte er}} mich noch nie gesehen. (er, Hilfsverb – Konj. II)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn das Formular rechtzeitig {{abgeschickt worden wäre}}, hätten wir keine Probleme. (abschicken – Passiv, Konj. II Verg.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich hätte früher {{anfangen sollen}}. (sollen, anfangen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Du {{hättest}} mir das sagen sollen. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir hätten den früheren Zug {{nehmen sollen}}. (sollen, nehmen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er hätte die Prüfung leicht {{bestehen können}}. (können, bestehen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das {{hätte}} ich dir auch sagen können. (Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Eigentlich hätte ich gestern {{arbeiten müssen}}, aber ich war krank. (müssen, arbeiten)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir haben {{uns}} das Spiel angeschaut. (wir)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir haben {{uns}} gestern im Park getroffen. (wir)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir haben {{uns}} lange nicht gesehen. (wir)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir können {{uns}} diese Wohnung nicht leisten. (wir)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir haben {{uns}} beim Vermieter über den Lärm beschwert. (wir)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe {{mich}} sehr beeilt. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich wasche {{mir}} die Hände. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich ziehe {{mir}} eine warme Jacke an. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich ziehe {{mich}} schnell um. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich schaue {{mir}} morgen die Wohnung an. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich kann {{mir}} seinen Namen nicht merken. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe {{mir}} ein neues Fahrrad gekauft. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich mache {{mir}} Sorgen um meine Oma. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich nehme {{mir}} heute Zeit für dich. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe {{mir}} beim Fußball den Fuß gebrochen. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich muss {{mir}} das noch überlegen. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich kümmere {{mich}} um die Katze meiner Nachbarin. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich freue {{mich}} auf das Wochenende. (ich)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Kannst du {{dir}} das vorstellen? (du)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hast du {{dich}} schon für den Kurs angemeldet? (du)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Interessierst du {{dich}} für Kunst? (du)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hast du {{dir}} die Hände gewaschen? (du)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Du solltest {{dir}} die Haare schneiden lassen. (du)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er hat {{sich}} bei der Arbeit erkältet. (er)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Meine Eltern haben {{sich}} in Prag kennengelernt. (meine Eltern)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das Kind kann {{sich}} schon allein anziehen. (das Kind)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Setzen Sie {{sich}} bitte! (Sie)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ihr müsst {{euch}} beeilen, der Zug fährt gleich ab. (ihr)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Habt ihr {{euch}} im Urlaub gut erholt? (ihr)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich {{habe}} heute leider keine Zeit. (haben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Gestern {{habe}} ich meinen Professor in der U-Bahn getroffen. (haben – Perfekt-Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Am Montag {{hat}} mich mein Chef angerufen. (haben – Perfekt-Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Was {{hast}} du am Wochenende gemacht? (haben – Perfekt-Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Seit drei Jahren {{wohne}} ich in Wien. (wohnen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Mein Bruder und ich {{haben}} zusammen gekocht. (haben – Perfekt-Hilfsverb)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Meine Mitbewohnerin und ich {{teilen}} uns ein Bad. (teilen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das {{sind}} meine neuen Kollegen. (sein)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Es {{sind}} heute viele Leute in der Bibliothek. (sein)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Jeder von uns {{hat}} eine eigene Meinung. (haben)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Polizei {{ist}} sofort gekommen. (sein – Perfekt-Hilfsverb)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Mein Vermieter {{weiß}} noch nichts davon. (wissen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Meine Eltern {{wissen}} das schon. (wissen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Leute im Zug {{waren}} sehr freundlich. (sein – Prät.)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das ist der Kollege, mit {{dem}} ich das Referat geschrieben habe. (der Kollege; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Der Professor, {{den}} ich gestern getroffen habe, ist sehr nett. (der Professor; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Leute, {{die}} neben mir wohnen, sind sehr laut. (die Leute; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das Buch, {{das}} ich in der Bibliothek ausgeliehen habe, ist sehr gut. (das Buch; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Studentin, {{der}} ich meine Notizen geliehen habe, hat sie verloren. (die Studentin; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Der Mann, {{dem}} ich den Weg gezeigt habe, war ein Tourist. (der Mann; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Leute, {{denen}} ich wirklich vertraue, kann ich an einer Hand abzählen. (die Leute; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Freunde, mit {{denen}} ich im Sommer gereist bin, kommen aus Graz. (die Freunde; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Der Kurs, für {{den}} ich mich angemeldet habe, beginnt im März. (der Kurs; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Prüfung, auf {{die}} ich mich vorbereite, ist am Freitag. (die Prüfung; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das ist der Bus, auf {{den}} ich jeden Morgen warte. (der Bus; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das ist die Freundin, von {{der}} ich dir erzählt habe. (die Freundin; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Professorin, bei {{der}} ich die Prüfung geschrieben habe, ist sehr streng. (die Professorin; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das Seminar, an {{dem}} ich teilnehme, ist sehr interessant. (das Seminar; Relativpron. der/die/das)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Der Student, {{dessen}} Laptop kaputt ist, schreibt mit der Hand. (der Student)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Nachbarin, {{deren}} Hund immer bellt, wohnt im dritten Stock. (die Nachbarin)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Kinder, {{deren}} Eltern arbeiten, bleiben am Nachmittag in der Schule. (die Kinder)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Der Vermieter, {{dessen}} Telefonnummer ich nicht habe, antwortet nicht auf E-Mails. (der Vermieter)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Wohnung, {{in der}} ich wohne, hat große Fenster. (in + Relativpron. der/die/das, die Wohnung)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Stadt, {{aus der}} ich komme, liegt in Mähren. (aus + Relativpron. der/die/das, die Stadt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das ist das Thema, {{über das}} ich meine Seminararbeit schreibe. (über + Relativpron. der/die/das, das Thema)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das ist die Kollegin, {{mit der}} ich jeden Tag zur Arbeit fahre. (mit + Relativpron. der/die/das, die Kollegin)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das Café, {{in dem}} wir uns kennengelernt haben, gibt es nicht mehr. (in + Relativpron. der/die/das, das Café)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Kollegen, {{von denen}} ich viel gelernt habe, gehen bald in Pension. (von + Relativpron. der/die/das, die Kollegen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Firma, {{bei der}} ich mich beworben habe, hat sich noch nicht gemeldet. (bei + Relativpron. der/die/das, die Firma)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Alles, {{was}} du sagst, stimmt. (alles)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das ist das Beste, {{was}} mir passieren konnte. (das Beste)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Es gibt nichts, {{was}} ich lieber mache. (nichts)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er hat die Prüfung bestanden, {{was}} mich sehr freut. (celá předchozí věta)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das ist etwas, {{worüber}} ich lange nachgedacht habe. (über, etwas)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Worauf}} wartest du? (auf, věc)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Auf wen}} wartest du? (auf, osoba)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Woran}} denkst du gerade? (an, věc)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{An wen}} denkst du? (an, osoba)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Wofür}} interessierst du dich? (für, věc)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Worüber}} habt ihr im Seminar gesprochen? (über, věc)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Womit}} fährst du zur Uni? (mit, věc)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hast du an die Tickets gedacht? – Ja, ich habe {{daran}} gedacht. (an, die Tickets)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hast du schon mit dem Vermieter gesprochen? – Ja, ich habe gestern {{mit ihm}} gesprochen. (mit, der Vermieter)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hängt das vom Wetter ab? – Ja, das hängt {{davon}} ab. (von, das Wetter)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Bist du mit dem Ergebnis zufrieden? – Ja, ich bin {{damit}} sehr zufrieden. (mit, das Ergebnis)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich freue mich {{darauf}}, dich wiederzusehen. (auf)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe nicht {{daran}} gedacht, die Miete zu überweisen. (an)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich warte {{darauf}}, dass du dich meldest. (auf)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe immer {{davon}} geträumt, in Wien zu studieren. (von)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich warte {{auf den}} Bus. (der Bus)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich freue mich {{auf}} die Ferien. (budoucnost)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe mich sehr {{über}} dein Geschenk gefreut. (už jsem ho dostal)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich freue mich schon {{auf den}} Urlaub in Kroatien. (der Urlaub, budoucnost)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich freue mich {{über die}} gute Note. (die Note, už ji mám)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich warte schon seit einer Stunde {{auf meine}} Freundin. (meine Freundin)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich denke oft {{an meine}} Familie in Tschechien. (meine Familie)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich denke oft {{an dich}}. (du)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich interessiere mich {{für die}} Geschichte Wiens. (die Geschichte)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Im Sommer nehme ich {{an einem}} Sprachkurs teil. (ein Sprachkurs)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe {{an der}} Exkursion nach Krems teilgenommen. (die Exkursion)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe meinen Professor {{um eine}} Verlängerung gebeten. (eine Verlängerung)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Darf ich Sie {{um einen}} Gefallen bitten? (ein Gefallen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bewerbe mich {{bei einer}} Firma in Wien. (eine Firma)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Das hängt {{von der}} Note ab. (die Note)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ob wir fahren, hängt {{von meinen}} Eltern ab. (meine Eltern)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich erinnere mich gut {{an den}} ersten Tag in Wien. (der erste Tag)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe mich schnell {{an die}} Kälte gewöhnt. (die Kälte)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich kann mich nicht {{an den}} neuen Stundenplan gewöhnen. (der neue Stundenplan)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich kümmere mich {{um die}} Blumen meiner Nachbarin. (die Blumen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich ärgere mich {{über den}} Lärm im Hof. (der Lärm)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir haben uns beim Vermieter {{über die}} Heizung beschwert. (die Heizung)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Kann ich mich {{auf dich}} verlassen? (du)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bereite mich {{auf die}} Prüfung vor. (die Prüfung)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich kann mich nicht {{auf den}} Text konzentrieren. (der Text)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Meine kleine Schwester hat Angst {{vor dem}} Zahnarzt. (der Zahnarzt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich träume {{von einer}} eigenen Wohnung. (eine eigene Wohnung)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe mich {{von meinen}} Kollegen verabschiedet. (meine Kollegen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er hat mich {{nach dem}} Weg zum Bahnhof gefragt. (der Weg)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich sehne mich {{nach meiner}} Familie in Tschechien. (meine Familie)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe mich {{nach den}} Öffnungszeiten erkundigt. (die Öffnungszeiten)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich beschäftige mich gerade {{mit der}} Geschichte Mährens. (die Geschichte)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wann hörst du endlich {{mit dem}} Rauchen auf? (das Rauchen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich telefoniere jeden Sonntag {{mit meiner}} Mutter. (meine Mutter)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe mich {{mit meinem}} Mitbewohner gestritten. (mein Mitbewohner)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Bist du {{mit deiner}} neuen Wohnung zufrieden? (deine neue Wohnung)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Darf ich dich {{zu meiner}} Geburtstagsfeier einladen? (zu, meine Geburtstagsfeier)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich gratuliere dir {{zu deinem}} Erfolg. (dein Erfolg)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe {{auf deine}} Nachricht noch nicht geantwortet. (deine Nachricht)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich achte sehr {{auf meine}} Gesundheit. (meine Gesundheit)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich glaube fest {{an deinen}} Erfolg. (dein Erfolg)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er hat sich {{in meine}} Schwester verliebt. (meine Schwester)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe mich {{für den}} Master in Geographie entschieden. (der Master)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bedanke mich {{für die}} schnelle Antwort. (die schnelle Antwort)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich entschuldige mich {{für die}} Verspätung. (die Verspätung)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich informiere mich {{über die}} Studiengebühren. (die Studiengebühren)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hast du Lust {{auf einen}} Kaffee? (ein Kaffee)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bin stolz {{auf meinen}} Bruder. (mein Bruder)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "5 · Konjunktiv II, Pronomen, Verben mit Präposition",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m5"
+      ]
+    }
+  ]
+}

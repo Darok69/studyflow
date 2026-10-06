@@ -1192,12 +1192,26 @@ h3 {
 
 .answer-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
+/* Na telefonu: „Vím / Tuším / Nevím" nahoře, pole přes celou šířku, tlačítka pod ním.
+   Bez zalamování se pole mezi tlačítky slisovalo na pár pixelů. */
+.answer-row .confidence-row {
+  flex: 1 1 100%;
+}
+
 .answer-input {
-  flex: 1;
+  flex: 1 1 220px;
+  min-width: 0;
+  min-height: 48px;
   font-size: 16px;
+}
+
+.answer-row > .btn {
+  flex: 1 1 auto;
+  min-height: 48px;
 }
 
 .verdict {

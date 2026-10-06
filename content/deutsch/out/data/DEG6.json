@@ -1,0 +1,67 @@
+{
+  "lecture_id": "DEG6",
+  "kind": "reading",
+  "course": "DE",
+  "course_title": "Deutsch auf Muttersprachniveau",
+  "course_number": "DE",
+  "unit": "Grammatik",
+  "title": "Rechtschreibung — Übersicht",
+  "source_file": null,
+  "source_sha256": null,
+  "source_pages": 0,
+  "slides_per_page": 1,
+  "slide_count": 5,
+  "updated_at": "2026-10-06T21:50:02+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "text_sha": null,
+      "title": "Velké a malé písmeno",
+      "text": "Velké písmeno mají **jen podstatná jména** a slova použitá jako podstatná jména (+ začátek věty, vlastní jména, zdvořilé Sie). Test: dá se před slovo dát člen?\n\n| Malé | Velké |\n|---|---|\n| lernen | das Lernen, beim Lernen |\n| neu | etwas Neues |\n| besonders | nichts Besonderes |\n| gut | alles Gute |\n| am besten | im Allgemeinen |\n| leid (es tut mir leid) | Bescheid, Angst |\n| schuld (du bist schuld) | im Voraus, als Erstes |\n\n### Tvoje chyby\n\n„Heute“, „Mehr“, „Anrufen“, „Rekonstruiert“ uprostřed věty → **heute, mehr, anrufen, renoviert**.\n",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 2,
+      "text_sha": null,
+      "title": "Časové údaje",
+      "text": "| Malé (příslovce) | Velké (podstatné jméno) |\n|---|---|\n| heute, gestern | heute Abend, gestern Nachmittag |\n| morgen (= zítra) | der Morgen (= ráno), jeden Morgen |\n| abends, morgens | am Abend, am Morgen |\n| montags, sonntags | am Montag, am Montagabend |\n",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 3,
+      "text_sha": null,
+      "title": "Zdvořilost, jazyky, města",
+      "text": "### Zdvořilé oslovení\n\n| Vykání (velké) | Ona/oni (malé) |\n|---|---|\n| Haben Sie Zeit? | Ich rufe sie an. |\n| Ich danke Ihnen. | Ich schicke ihnen Fotos. |\n| Ihre Telefonnummer, Ihr Verständnis | ihre Eltern |\n\n### Jazyk × přídavné jméno × město\n\n| Typ | Příklad |\n|---|---|\n| jazyk po předložce | auf Deutsch, auf Tschechisch |\n| přídavné jméno | die deutsche Grammatik, die tschechische Küche |\n| město na -er | das Wiener Schnitzel, die Prager Altstadt |\n",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 4,
+      "text_sha": null,
+      "title": "Složeniny se píšou dohromady",
+      "text": "Dva pojmy spojené v jeden = **jedno slovo**; rod podle poslední části. Mezera uvnitř nikdy.\n\n| Spojovací prvek | Příklady |\n|---|---|\n| -s- | Geburtstagsfeier, Arbeitsplatz, Wohnungssuche, Lebensmittel |\n| -n- / -en- | Familienangelegenheit, Wochenende |\n| -er- / -es- | Kinderzimmer, Tageszeitung |\n| nic (-e odpadne) | Mietvertrag, Sprachkurs |\n\nPo **-ung, -heit, -keit, -schaft, -tät, -ion** vždy -s-: Wohnungsschlüssel, Gesundheitszustand, Universitätsbibliothek.\n\nRakousko se u pár slov liší (Zugsverspätung, Schweinsbraten, Adventkalender) — obojí spisovné, v drilu se netestuje.\n\nTvoje chyby: „Geburtstag Feier“ → **Geburtstagsfeier**, „wegen Familien Gründen“ → složenina by byla **Familiengründen**, přirozeně ale **aus familiären Gründen**.\n",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 5,
+      "text_sha": null,
+      "title": "Záměny",
+      "text": "| Dvojice | Význam | Příklad |\n|---|---|---|\n| zurzeit | momentálně | Das Gebäude wird zurzeit renoviert. |\n| zur Zeit + Gen | v době | zur Zeit der Monarchie |\n| dass | že (spojka) | Ich hoffe, dass … |\n| das | který / to / člen | Das Zimmer, das ich … |\n| seit | od (časově) | seit drei Jahren |\n| seid | ihr seid | Wo seid ihr? |\n| wieder | znovu | Wiederholung, Auf Wiedersehen |\n| wider | proti | widersprechen, Widerstand |\n\nTest **das/dass**: dá se nahradit „dieses/welches“? → das. Jinak dass.\n\nTvoje chyba: „der Zeit“ → **zurzeit** nebo **derzeit** (rakousky běžné) — vždy jedním slovem.\n",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    }
+  ]
+}

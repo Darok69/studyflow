@@ -1,0 +1,591 @@
+{
+ "subject": "Deutsch auf Muttersprachniveau",
+ "examDate": "2027-01-31",
+ "cards": [
+  {
+   "type": "basic",
+   "front": "Proč je „Grüß Gott Herr Professor,“ na začátku e-mailu profesorovi špatně?",
+   "back": "„Grüß Gott“ je ÚSTNÍ pozdrav (Rakousko, Bavorsko) — v psaném formálním e-mailu působí hovorově.\n• formálně: „Sehr geehrter Herr Professor Müller,“ (ženě: „Sehr geehrte Frau Professorin Müller,“)\n• o stupeň méně formálně, když se znáte: „Lieber Herr Professor Müller,“\n• za oslovením ČÁRKA a další řádek začíná MALÝM písmenem: „…, ich würde Sie gerne …“\n• i u ústního pozdravu patří před oslovení čárka: „Grüß Gott, Herr Professor!“\n• závěr: „Mit freundlichen Grüßen“ + jméno (u studentů i matrikulační číslo)",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „ich würde gerne bitten um eine Verlängerung“ špatně?",
+   "back": "Porušená větná závorka (Satzklammer) a chybí, KOHO prosíš.\n• konjugované sloveso (würde) na 2. místě, infinitiv (bitten) až na KONEC věty — vše ostatní mezi ně\n• jemanden um etwas bitten: prosím VÁS (Sie) O něco (um + Akk.)\n• správně: „ich würde Sie gerne um eine Verlängerung der Abgabefrist bitten.“\n• „Verlängerung der Abgabe“ = prodloužení odevzdání; prodlužuje se LHŮTA → die Abgabefrist",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „wegen Familien Gründen“ špatně?",
+   "back": "Dvě chyby: rozdělená složenina a pád po „wegen“.\n• dvě podstatná jména za sebou = složenina a píše se DOHROMADY (ne „Familien Gründen“) — přirozeně se tu ale řekne přídavným jménem: familiär\n• „wegen“ chce v psaní Genitiv: wegen familiärer Gründe\n• nejpřirozeněji: „aus familiären Gründen“ (aus + Dativ, adjektivum bez členu → -en)\n• stejně: Geburtstag + Feier → Geburtstagsfeier, MMA + Veranstaltung → MMA-Veranstaltung (se zkratkou spojovník)",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „für Erledigung“, „in kleine Wohnung“ a „Ihre Verständnis“ špatně?",
+   "back": "Člen nesmí chybět a musí mít správný rod — čeština členy nemá, proto je vynecháváš.\n• počitatelné podstatné jméno v jednotném čísle potřebuje člen: für DIE Fertigstellung, in EINER kleinen Wohnung\n• rod se učí se slovem: DAS Verständnis → Ihr Verständnis (ne „Ihre“), DAS Gebäude → dieses Gebäude, DIE Bibliothek → in die Bibliothek, DER Innenhof → auf den Innenhof\n• „Erledigung“ se hodí k úkolům a vyřizování (Erledigung der Post); u seminárky je přirozenější „Fertigstellung“",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „Letzte Wochenende“ a „jedes Sommer“ špatně?",
+   "back": "Špatný rod → špatná koncovka v časovém údaji (Akkusativ bez předložky).\n• DAS Wochenende → letztes Wochenende\n• DER Sommer → jeden Sommer\n• pravidlo: časový údaj bez předložky = 4. pád: jeden Tag, jedes Jahr, jede Woche, letzten Montag",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „Meine Tante hatte Vierzigste Geburtstag Feier“ špatně?",
+   "back": "Chybí člen, chybí koncovka, velké písmeno u přídavného jména a rozdělená složenina.\n• správně: „Meine Tante hat ihren vierzigsten Geburtstag gefeiert.“\n• nebo: „Wir waren auf der Geburtstagsfeier meiner Tante.“\n• řadová číslovka před podstatným jménem = přídavné jméno → malé písmeno a koncovka (ihren vierzigsten)\n• VELKÉ jen jako podstatné jméno: „Sie hat ihren Vierzigsten gefeiert.“ (= čtyřicátiny)",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „wir haben sich … angeschaut“ špatně?",
+   "back": "Zvratné zájmeno se v němčině mění podle osoby — české „se/si“ je jedno pro všechny.\n• ich → mich/mir · du → dich/dir · er/sie/es → sich · wir → uns · ihr → euch · sie/Sie → sich\n• správně: „wir haben uns die MMA-Veranstaltung angeschaut“\n• „sich“ jen ve 3. osobě (a u vykání Sie)",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „Da viele Studierenden … arbeiten müssen und sie würden es nicht schaffen.“ špatně?",
+   "back": "Tři chyby: koncovka po „viele“, vedlejší věta bez hlavní, a slovo „noch dabei“.\n• po „viele“ silná koncovka: viele Studierende (ale: DIE Studierenden)\n• „Da …“ je vedlejší věta (sloveso na konci) — musí k ní patřit hlavní věta; „und“ ji nenahradí\n• hlavní věta po vedlejší začíná SLOVESEM: „Da viele Studierende nebenbei arbeiten müssen, würden sie sich Studiengebühren nicht leisten können.“\n• „nebenbei arbeiten“ = pracovat při studiu; „Stunden“ (hodiny) ≠ Studenten/Studierende",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „mit welchen ich … geschrieben hat“ špatně?",
+   "back": "Vztažné zájmeno, čárka a shoda podmětu se slovesem.\n• vztažné zájmeno = der/die/das, skloňuje se: der Kollege → mit DEM (Dativ, maskulinum)\n• „welch-“ je knižní a navíc tu byl špatný tvar (welchen místo welchem)\n• před vztažnou větou VŽDY čárka: „Das ist mein Kollege, mit dem …“\n• ich → habe (ne „hat“): „…, mit dem ich letzte Woche ein Referat geschrieben habe.“\n• das Referat — s jedním f (ne „Refferat“)",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „Wenn ich es früher wusste, würde ich dich anrufen.“ špatně?",
+   "back": "Mluvíš o MINULOSTI, která se nestala → Konjunktiv II minulý v OBOU větách.\n• tvar: hätte/wäre + Partizip II\n• správně: „Wenn ich es früher gewusst hätte, hätte ich dich angerufen.“\n• „Wenn ich es wüsste, würde ich dich anrufen.“ = přítomnost (kdybych to teď věděl)\n• „anrufen“ je sloveso → malé písmeno",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „der Zeit wird Rekonstruiert“ špatně?",
+   "back": "Tři chyby: „der Zeit“ se píše jedním slovem, slovesa se píšou malým a „rekonstruieren“ je falešný přítel.\n• nejspíš jsi myslel rakouské „derzeit“ (= momentálně) — to je SPRÁVNĚ, jen jedním slovem; spisovně všude i „zurzeit“; „zur Zeit“ zvlášť jen ve spojení „zur Zeit Maria Theresias“ (v době)\n• Partizip II je sloveso → malé písmeno: renoviert\n• česká „rekonstrukce“ domu = renovieren / sanieren; „rekonstruieren“ = postavit znovu podle originálu / zrekonstruovat událost\n• správně: „Dieses Gebäude wurde im Jahr 1890 gebaut und wird derzeit (zurzeit) renoviert.“",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Velká písmena: proč je „Heute“, „Mehr“, „Großen“, „Anrufen“ špatně?",
+   "back": "Velké písmeno mají jen podstatná jména (i zpodstatnělá), začátek věty a vykání Sie/Ihr.\n• příslovce, přídavná jména, slovesa uprostřed věty → malé: heute, mehr, großen, anrufen\n• zpodstatnělé → velké: das Studieren, fürs Studieren, beim Kochen, ihr Vierzigster\n• „DIese“ → Dieses: velké jen PRVNÍ písmeno",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Sehr geehrter}} Herr Professor, (formální oslovení v e-mailu – sehr geehrt-)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sehr geehrter Herr Professor, {{ich}} würde Sie gerne um eine Verlängerung der Abgabefrist bitten. (ich – po oslovení s čárkou)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sehr geehrter Herr Professor, ich würde {{Sie}} gerne um eine Verlängerung der Abgabefrist bitten. (zájmeno – KOHO prosím? vykání)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich würde Sie gerne um eine Verlängerung der {{Abgabefrist}} bitten. (složenina: Abgabe + Frist)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Leider hatte ich nicht genug Zeit für {{die}} Fertigstellung der Seminararbeit. (určitý člen – die Fertigstellung)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Danke für {{Ihr}} Verständnis. (Ihr-, das Verständnis)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Letztes}} Wochenende war ich in Tschechien, in Slavkov. (letzt-, das Wochenende – bez předložky)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir waren auf der {{Geburtstagsfeier}} meiner Tante. (složenina: Geburtstag + Feier)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben viel Alkohol getrunken und wir haben {{uns}} die MMA-Veranstaltung Oktagon angeschaut. (zvratné zájmeno – wir)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "In Österreich sollen Studierende kein Geld fürs {{Studieren}} zahlen. (studieren – jako podstatné jméno)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Da viele Studierende {{nebenbei}} arbeiten müssen, würden sie sich Studiengebühren nicht leisten können. (neben + bei – při studiu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne in einer kleinen Wohnung mit Aussicht {{auf den}} Innenhof. (auf, der Innenhof)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist mein Kollege, mit dem ich letzte Woche ein {{Referat}} geschrieben habe. (pravopis – referát)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist mein Kollege, mit dem ich letzte Woche ein Referat geschrieben {{habe}}. (haben – ich)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wenn ich {{heute mehr}} Zeit hätte, würde ich in die Bibliothek gehen. (heute, mehr – velké, nebo malé?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wenn ich heute mehr Zeit hätte, würde ich {{in die}} Bibliothek gehen. (in, die Bibliothek – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Dieses}} Gebäude wurde im Jahr 1890 gebaut. (dies-, das Gebäude)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Dieses Gebäude wurde im Jahr 1890 gebaut und wird {{zurzeit}} renoviert. (zur + Zeit = momentálně – jedno slovo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Dieses Gebäude wurde im Jahr 1890 gebaut und wird zurzeit {{renoviert}}. (renovieren – Partizip II)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Als ich klein war, fuhr ich {{jeden}} Sommer zur Oma. (jed-, der Sommer – bez předložky)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "…, weil ich aus {{familiären}} Gründen nach Tschechien reisen musste. (familiär – aus + Dat. Pl., bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "…, weil ich wegen {{familiärer}} Gründe nach Tschechien reisen musste. (familiär – wegen + Gen. Pl., bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine Tante hat {{ihren vierzigsten}} Geburtstag gefeiert. (ihr-, vierzigst-, der Geburtstag)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben uns die {{MMA-Veranstaltung}} Oktagon angeschaut. (složenina: MMA + Veranstaltung)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "In Österreich sollen {{Studierende}} kein Geld fürs Studieren zahlen. (studieren → zpodstatnělé příčestí, Pl., bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Da viele {{Studierende}} nebenbei arbeiten müssen, würden sie sich Studiengebühren nicht leisten können. (der/die Studierende – Pl. po „viele“)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Da viele Studierende nebenbei arbeiten müssen, {{würden sie}} sich Studiengebühren nicht leisten können. (sie, würden – hlavní věta po vedlejší)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne {{in einer kleinen}} Wohnung. (in, eine kleine Wohnung – Wo?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne in einer kleinen Wohnung mit {{großen Fenstern}}. (groß, die Fenster – Pl., bez členu)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist mein Kollege, {{mit dem}} ich letzte Woche ein Referat geschrieben habe. (mit + vztažné zájmeno der/die/das – der Kollege)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wenn ich es früher {{gewusst hätte}}, hätte ich dich angerufen. (wissen – Konjunktiv II minulý)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wenn ich es früher gewusst hätte, {{hätte ich}} dich angerufen. (haben, ich – Konjunktiv II minulý)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wenn ich es früher gewusst hätte, hätte ich dich {{angerufen}}. (anrufen – Partizip II)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "0 · Deine Fehler aus der Schreibprobe",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m0"
+   ]
+  }
+ ]
+}

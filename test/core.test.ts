@@ -60,6 +60,7 @@ import {
   answerSimilarity,
   checkAnswer,
   checkQuantityAnswer,
+  checkStrictAnswer,
   normalizeAnswer,
   parseQuantities,
   typedAnswerTarget,
@@ -2051,6 +2052,18 @@ console.log('— rozřazovací test: úroveň bez mezer —')
   ok(estimateLevel(rows) === 'B1', 'a strong C1 above a failed B2 does not count — level B1')
   ok(estimateLevel(levelBreakdown(qs, ans([false, true, true, true, true, true, true]))) === null, 'below the lowest tested level → null')
   ok(levelBreakdown([{ ...qs[0], level: undefined }], ans([true])).length === 0, 'a bank without levels has no breakdown')
+}
+
+
+console.log('— přísná kontrola (němčina: koncovka JE látka) —')
+{
+  ok(checkAnswer('einer kleine', 'einer kleinen').verdict === 'correct', 'the forgiving check would pass a wrong ending (why strict exists)')
+  ok(checkStrictAnswer('einer kleine', 'einer kleinen').verdict === 'close', 'strict: a missing ending is NOT correct')
+  ok(checkStrictAnswer('einer kleinen', 'einer kleinen').verdict === 'correct', 'strict: exact answer is correct')
+  ok(checkStrictAnswer('  einer   kleinen. ', 'einer kleinen').verdict === 'correct', 'strict: spaces and final punctuation are forgiven')
+  ok(checkStrictAnswer('Heute', 'heute').verdict !== 'correct', 'strict: capital letter counts (Rechtschreibung)')
+  ok(checkStrictAnswer('fur', 'für').verdict !== 'correct', 'strict: umlaut counts')
+  ok(checkStrictAnswer('die', 'das').verdict !== 'correct', 'strict: wrong article is wrong')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

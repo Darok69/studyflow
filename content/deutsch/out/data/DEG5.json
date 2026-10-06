@@ -1,0 +1,87 @@
+{
+  "lecture_id": "DEG5",
+  "kind": "reading",
+  "course": "DE",
+  "course_title": "Deutsch auf Muttersprachniveau",
+  "course_number": "DE",
+  "unit": "Grammatik",
+  "title": "Konjunktiv II, Pronomen, Verben mit Präposition — Übersicht",
+  "source_file": null,
+  "source_sha256": null,
+  "source_pages": 0,
+  "slides_per_page": 1,
+  "slide_count": 7,
+  "updated_at": "2026-10-06T21:50:02+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "text_sha": null,
+      "title": "Konjunktiv II minulý: hätte / wäre + příčestí",
+      "text": "Konjunktiv II minulý vyjadřuje, co se **nestalo** (nesplněná podmínka, lítost, výčitka). Tvoří se **hätte/wäre + Partizip II** — v obou částech souvětí.\n\n*Wenn ich es früher gewusst hätte, hätte ich dich angerufen.*\n\n### Tvary\n\n| Osoba | haben | sein |\n|---|---|---|\n| ich | hätte | wäre |\n| du | hättest | wär(e)st |\n| er/sie/es | hätte | wäre |\n| wir | hätten | wären |\n| ihr | hättet | wär(e)t |\n| sie/Sie | hätten | wären |\n\n### hätte nebo wäre?\n\nStejně jako v Perfektu: *hat gelernt → hätte gelernt*, *ist gefahren → wäre gefahren*.\n\n| wäre | hätte |\n|---|---|\n| pohyb: fahren, gehen, kommen, fliegen | většina sloves: lernen, machen, sagen |\n| změna stavu: aufstehen, einschlafen, sterben | zvratná: sich beeilen, sich verlaufen |\n| sein, bleiben, werden, passieren | haben, wissen |\n\n### Přítomný vs. minulý\n\n| | Přítomný (teď) | Minulý (tehdy) |\n|---|---|---|\n| haben | Wenn ich Zeit hätte, … | Wenn ich Zeit gehabt hätte, … |\n| sein | Wenn ich in Prag wäre, … | Wenn ich in Prag gewesen wäre, … |\n| jiné sloveso | …, würde ich kommen. | …, wäre ich gekommen. |\n| modální | Ich sollte anfangen. | Ich hätte anfangen sollen. |",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 2,
+      "text_sha": null,
+      "title": "Použití a zvláštní případy",
+      "text": "| Použití | Příklad |\n|---|---|\n| nesplněná podmínka | Wenn du mich gefragt hättest, hätte ich dir geholfen. |\n| bez wenn (sloveso první) | Hätte ich das gewusst, wäre ich zu Hause geblieben. |\n| výčitka (modální) | Du hättest mir das sagen sollen. |\n| lítost / přání | Hätte ich doch nur auf dich gehört! |\n| těsně ne | Fast wäre ich gestürzt. |\n| bez okolnosti | Ohne deine Hilfe hätte ich es nicht geschafft. |\n| als ob | Er tut so, als ob er nichts gehört hätte. |\n| pasiv | …, wenn es abgeschickt worden wäre. |\n\nOprava tvé věty: ~~Wenn ich es früher wusste, würde ich dich anrufen.~~ → *Wenn ich es früher gewusst hätte, hätte ich dich angerufen.*",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 3,
+      "text_sha": null,
+      "title": "Zvratná zájmena",
+      "text": "| Osoba | Akuzativ | Dativ | Příklad |\n|---|---|---|---|\n| ich | mich | mir | Ich wasche mich. / Ich wasche mir die Hände. |\n| du | dich | dir | Kannst du dir das vorstellen? |\n| er/sie/es | sich | sich | Er hat sich erkältet. |\n| wir | uns | uns | Wir haben uns das Spiel angeschaut. |\n| ihr | euch | euch | Habt ihr euch erholt? |\n| sie/Sie | sich | sich | Setzen Sie sich! |\n\n**sich** je jen pro 3. osobu a vykání — ~~wir haben sich~~ → *wir haben uns*.\n\n### Akuzativ nebo dativ?\n\n| Bez dalšího předmětu → Akk | S předmětem v Akk → Dat |\n|---|---|\n| Ich ziehe mich an. | Ich ziehe mir die Jacke an. |\n| Ich schaue mich im Spiegel an. | Ich schaue mir den Film an. |\n| Ich wasche mich. | Ich wasche mir die Haare. |\n\nVždy s dativem: *sich etwas anschauen, vorstellen, merken, kaufen, leisten, überlegen, Sorgen machen, Zeit nehmen.*",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 4,
+      "text_sha": null,
+      "title": "Vztažná zájmena",
+      "text": "Rod a číslo podle slova, ke kterému se vztahuje; **pád podle role ve vedlejší větě**. Sloveso na konec, čárky z obou stran.\n\n| Pád | Mask. | Fem. | Neutr. | Plurál |\n|---|---|---|---|---|\n| Nom. | der | die | das | die |\n| Akk. | den | die | das | die |\n| Dat. | dem | der | dem | **denen** |\n| Gen. | **dessen** | **deren** | **dessen** | **deren** |\n\n### S předložkou — předložka jde dopředu\n\n| Antecedent | Vazba | Vztažná věta |\n|---|---|---|\n| der Kollege | mit + Dat | …, mit dem ich arbeite |\n| die Wohnung | in + Dat | …, in der ich wohne |\n| das Thema | über + Akk | …, über das ich schreibe |\n| die Freunde | mit + Dat | …, mit denen ich gereist bin |\n| der Kurs | für + Akk | …, für den ich mich angemeldet habe |\n\n~~mit welchen~~ → *mit dem / mit denen*. Ve vztažné větě se předložka se členem nestahuje (*das Seminar, an dem…*).\n\n### was a wo(r)-\n\n| Po čem | Zájmeno | Příklad |\n|---|---|---|\n| alles, nichts, etwas, das | was | Alles, was du sagst, stimmt. |\n| superlativ | was | das Beste, was mir passieren konnte |\n| celá věta | was | Er hat bestanden, was mich freut. |\n| etwas + předložka | wo(r)- | etwas, worüber ich nachdenke |",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 5,
+      "text_sha": null,
+      "title": "wo-/da- složeniny",
+      "text": "| Předložka | Otázka (věc) | Odkaz (věc) | Osoba |\n|---|---|---|---|\n| auf | worauf | darauf | auf wen / auf ihn |\n| an | woran | daran | an wen / an sie |\n| über | worüber | darüber | über wen / über ihn |\n| für | wofür | dafür | für wen / für dich |\n| mit | womit | damit | mit wem / mit ihm |\n| von | wovon | davon | von wem / von ihr |\n\nPřed samohláskou se vkládá **-r-** (darauf, woran). Odkaz dopředu na vedlejší větu: *Ich freue mich darauf, dich zu sehen. / Ich warte darauf, dass du dich meldest.*",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 6,
+      "text_sha": null,
+      "title": "Slovesa s předložkou a pádem",
+      "text": "Pád neurčuje Wo?/Wohin?, ale **sloveso** — uč se trojici sloveso + předložka + pád.\n\n### + akuzativ\n\n| Sloveso | Předložka | Příklad |\n|---|---|---|\n| warten | auf | Ich warte auf den Bus. |\n| sich freuen (přijde) | auf | Ich freue mich auf die Ferien. |\n| sich freuen (už je) | über | Ich freue mich über das Geschenk. |\n| sich vorbereiten | auf | Ich bereite mich auf die Prüfung vor. |\n| sich verlassen | auf | Kann ich mich auf dich verlassen? |\n| antworten | auf | Ich antworte auf deine Nachricht. |\n| denken | an | Ich denke an meine Familie. |\n| sich erinnern | an | Ich erinnere mich an den ersten Tag. |\n| sich gewöhnen | an | Ich gewöhne mich an die Kälte. |\n| sich ärgern | über | Ich ärgere mich über den Lärm. |\n| sich beschweren | über | …über die Heizung (bei + Dat: u koho) |\n| sich interessieren | für | Ich interessiere mich für Geschichte. |\n| sich entscheiden | für | …für den Master |\n| sich bedanken / entschuldigen | für | …für die Antwort / die Verspätung |\n| bitten | um | Ich bitte Sie um eine Verlängerung. |\n| sich kümmern | um | …um die Katze |\n| sich bewerben | um | …um eine Stelle (bei + Dat: u firmy) |\n| sich verlieben | in | …in meine Schwester |\n\n### + dativ\n\n| Sloveso | Předložka | Příklad |\n|---|---|---|\n| teilnehmen | an | Ich nehme an einem Kurs teil. |\n| abhängen | von | Das hängt von der Note ab. |\n| träumen | von | …von einer eigenen Wohnung |\n| sich verabschieden | von | …von meinen Kollegen |\n| Angst haben | vor | …vor dem Zahnarzt |\n| fragen | nach | …nach dem Weg |\n| sich erkundigen | nach | …nach den Öffnungszeiten |\n| sich beschäftigen | mit | …mit der Geschichte |\n| aufhören | mit | …mit dem Rauchen |\n| telefonieren | mit | …mit meiner Mutter |\n| einladen | zu (rak. i auf + Akk) | …zu meiner Feier |\n| gratulieren | zu | …zu deinem Erfolg |",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 7,
+      "text_sha": null,
+      "title": "Shoda podmětu a slovesa",
+      "text": "Sloveso se řídí **podmětem**, i když podmět stojí až za slovesem (inverze).\n\n| Osoba | haben | sein |\n|---|---|---|\n| ich | habe | bin |\n| du | hast | bist |\n| er/sie/es | hat | ist |\n| wir | haben | sind |\n| ihr | habt | seid |\n| sie/Sie | haben | sind |\n\n### Pasti\n\n| Věta | Proč |\n|---|---|\n| Gestern **habe** ich… / Gestern **hat** mein Chef… | podmět je za slovesem |\n| Das **sind** meine Kollegen. | podmět = Kollegen |\n| Es **sind** viele Leute da. | es je jen výplň |\n| Mein Bruder und ich **haben**… | = wir |\n| Jeder von uns **hat**… | jeder = jednotné číslo |",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    }
+  ]
+}

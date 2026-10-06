@@ -1,0 +1,67 @@
+{
+  "lecture_id": "DEG4",
+  "kind": "reading",
+  "course": "DE",
+  "course_title": "Deutsch auf Muttersprachniveau",
+  "course_number": "DE",
+  "unit": "Grammatik",
+  "title": "Wortstellung — Übersicht",
+  "source_file": null,
+  "source_sha256": null,
+  "source_pages": 0,
+  "slides_per_page": 1,
+  "slide_count": 5,
+  "updated_at": "2026-10-06T21:50:02+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "text_sha": null,
+      "title": "Pozice ve větě: pole a rámec",
+      "text": "Německá věta má pevnou kostru. Určité sloveso tvoří **levou závorku**, zbytek slovesa **pravou závorku**; mezi nimi je **střední pole** (předměty, příslovce). Před levou závorkou je **předpolí** — přesně JEDEN větný člen.\n\n### Hlavní věta (V2)\n\n| Předpolí | Sloveso | Střední pole | Konec |\n|---|---|---|---|\n| Ich | gehe | heute ins Kino. | |\n| Heute | gehe | ich ins Kino. | |\n| Ich | würde | Sie gerne um eine Verlängerung | bitten. |\n| Gestern | habe | ich lange | gearbeitet. |\n| Ich | rufe | dich morgen | an. |\n| Den Schlüssel | habe | ich beim Hausmeister | abgegeben. |\n\n### Otázky a rozkaz\n\n| Typ | Pozice 1 | Pozice 2 | … | Konec |\n|---|---|---|---|---|\n| W-otázka | Wann | fängt | der Kurs | an? |\n| Ano/ne | Kommst | du | heute | mit? |\n| Rozkaz | Ruf | mich | morgen | an! |\n\n### Vedlejší věta (sloveso na konec)\n\n| Spojka | Podmět | Střední pole | Slovesa |\n|---|---|---|---|\n| weil | ich | krank | bin. |\n| dass | er | schon | gekommen ist. |\n| weil | ich | nach Tschechien | reisen musste. |\n| ob | ich | die Arbeit später | abgeben darf. |\n\nPravidlo pro konec vedlejší věty: plnovýznamové sloveso → pomocné/modální; **určitý tvar úplně poslední**.",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 2,
+      "text_sha": null,
+      "title": "Spojky a slovosled",
+      "text": "Rozhoduje, CO spojku následuje. Tři skupiny — tři slovosledy.\n\n| Typ | Slova | Co následuje | Příklad |\n|---|---|---|---|\n| Pozice 0 | und, aber, oder, denn, sondern | podmět + sloveso | …, denn ich habe Fieber. |\n| Příslovce (inverze) | deshalb, deswegen, darum, trotzdem, dann, danach, außerdem, sonst, also | sloveso + podmět | …, deshalb bleibe ich zu Hause. |\n| Podřadicí spojka | weil, dass, obwohl, wenn, als, ob, da, damit, nachdem, bevor, bis, sobald, seitdem, während, falls | podmět … sloveso na konci | …, weil ich Fieber habe. |\n\n### Podřadicí spojky — význam\n\n| Spojka | Význam | Příklad |\n|---|---|---|\n| weil / da | protože | Da ich kein Auto habe, fahre ich mit der U-Bahn. |\n| dass | že | Ich weiß, dass du recht hast. |\n| obwohl | ačkoli | Ich gehe spazieren, obwohl es regnet. |\n| wenn | když, jestli | Wenn ich Zeit habe, rufe ich dich an. |\n| als | když (jednou v minulosti) | Als ich nach Wien kam, sprach ich kaum Deutsch. |\n| ob | zda | Ich weiß nicht, ob sie zu Hause ist. |\n| damit | aby | …, damit ich in Wien studieren kann. |\n| nachdem | poté co | Nachdem ich gegessen hatte, ging ich in die Bibliothek. |\n| bevor / bis / sobald | než / dokud ne / jakmile | Sobald ich ankomme, schreibe ich dir. |\n\n### Souvětí začínající vedlejší větou\n\nCelá vedlejší věta = předpolí → hlavní věta začíná **slovesem**:\n\n| Vedlejší věta | Sloveso | Podmět | Zbytek |\n|---|---|---|---|\n| Wenn ich Zeit habe, | komme | ich | vorbei. |\n| Weil es regnet, | bleiben | wir | zu Hause. |\n| Obwohl ich müde bin, | gehe | ich | ins Fitnessstudio. |",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 3,
+      "text_sha": null,
+      "title": "Více sloves, infinitiv se zu",
+      "text": "### Slovesný komplex v hlavní a vedlejší větě\n\n| Konstrukce | Hlavní věta | Vedlejší věta |\n|---|---|---|\n| modální | Ich muss arbeiten. | …, weil ich arbeiten muss. |\n| Perfekt | Er ist gekommen. | …, dass er gekommen ist. |\n| Prät. modálu | Ich musste reisen. | …, weil ich reisen musste. |\n| Futur | Er wird anrufen. | …, dass er anrufen wird. |\n| odlučitelné | Der Zug fährt ab. | …, wann der Zug abfährt. |\n| pasiv + modál | Es muss unterschrieben werden. | …, dass es unterschrieben werden muss. |\n\nPerfekt modálního slovesa ve vedlejší větě (tzv. Doppelinfinitiv) má zvláštní slovosled — v psaní ho obejdi Präteritem: …, weil ich arbeiten **musste**.\n\n### Infinitiv se zu\n\n| Typ | Příklad |\n|---|---|\n| po slovesu/výrazu | Ich habe vergessen, dich anzurufen. |\n| um … zu (účel) | Ich lerne, um die Prüfung zu bestehen. |\n| ohne … zu | Er ist gegangen, ohne sich zu verabschieden. |\n| odlučitelné | an**zu**rufen, ein**zu**kaufen, mit**zu**kommen |",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 4,
+      "text_sha": null,
+      "title": "Pozice nicht a pořadí ve středním poli",
+      "text": "### nicht při záporu celé věty\n\n| Pravidlo | Příklad |\n|---|---|\n| na konec věty | Ich verstehe die Frage nicht. |\n| před 2. část slovesa | Ich habe das Buch nicht gelesen. |\n| před předponu | Ich rufe dich morgen nicht an. |\n| před přísudkové jméno | Die Wohnung ist nicht teuer. |\n| před směr | Ich fahre nicht nach Hause. |\n| před předložkový předmět | Ich interessiere mich nicht für Fußball. |\n| za zájmena | Er hat mir nicht geantwortet. |\n\n*nicht* přímo před jiným členem = částečný zápor (*Ich fahre nicht heute, sondern morgen.*). Podstatné jméno s neurčitým členem nebo bez členu se neguje **kein**: *Ich habe keine Zeit.*\n\n### Pořadí předmětů\n\n| Situace | Pořadí | Příklad |\n|---|---|---|\n| 2 zájmena | Akk před Dat | Ich gebe es ihm. |\n| zájmeno + jméno | zájmeno první | Ich gebe ihm das Buch. / Ich gebe es meinem Bruder. |\n| 2 podstatná jména | Dat před Akk | Ich gebe meinem Bruder das Buch. |\n\n### TeKaMoLo (tendence, ne zákon)\n\n| Te | Ka | Mo | Lo |\n|---|---|---|---|\n| kdy | proč | jak | kde/kam |\n| morgen | wegen der Prüfung | mit dem Zug | nach Salzburg |",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    },
+    {
+      "n": 5,
+      "text_sha": null,
+      "title": "Typické chyby z tvého psaní",
+      "text": "| Chybně | Správně |\n|---|---|\n| Ich würde gerne bitten um eine Verlängerung. | Ich würde Sie gerne um eine Verlängerung bitten. |\n| Heute ich habe keine Zeit. | Heute habe ich keine Zeit. |\n| …, weil ich muss arbeiten. | …, weil ich arbeiten muss. |\n| …, dass ich habe das gelesen. | …, dass ich das gelesen habe. |\n| Wenn ich Zeit habe, ich komme. | Wenn ich Zeit habe, komme ich. |\n| …, deshalb ich bleibe zu Hause. | …, deshalb bleibe ich zu Hause. |\n| …, denn ich krank bin. | …, denn ich bin krank. |\n| Ich gebe meinem Bruder es. | Ich gebe es meinem Bruder. |\n\nKontrola před odesláním textu: najdi každé *weil/dass/ob/wenn/obwohl* → je sloveso na konci? Najdi každé *würde/möchte/kann/habe* → je infinitiv/příčestí na konci?",
+      "terms": [],
+      "cards": [],
+      "vision_used": false,
+      "status": "done"
+    }
+  ]
+}

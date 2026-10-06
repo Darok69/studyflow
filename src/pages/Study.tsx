@@ -18,7 +18,7 @@ import {
   type SchedCard,
 } from '../scheduler/scheduler'
 import { previewIntervals, retrievabilityAt, type FsrsFields } from '../scheduler/fsrs'
-import { checkAnswer, checkQuantityAnswer, typedAnswerTarget, type AnswerCheck } from '../lib/answer'
+import { checkAnswer, checkQuantityAnswer, checkStrictAnswer, typedAnswerTarget, type AnswerCheck } from '../lib/answer'
 import { answerSteps, isStepped, preRevealedSteps } from '../lib/steps'
 import { isLeech, isOverdoing } from '../lib/wellbeing'
 import { clearDayNote, writeDayNote } from '../lib/dayNote'
@@ -261,8 +261,11 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
     onDone()
   }
 
+  // A strict card (tag `streng`, grammar drills) is always answered in writing:
+  // recognising the ending is not the skill, producing it is.
+  const strict = card?.tags.includes('streng') ?? false
   const typedTarget =
-    settings?.typedAnswers && card && !cram ? typedAnswerTarget(card) : null
+    (settings?.typedAnswers || strict) && card && !cram ? typedAnswerTarget(card) : null
 
   // Level 3 is application: producing something of your own beats recognising
   // the answer, so the reveal waits for a few words (or three seconds).
@@ -401,7 +404,7 @@ export function Study({ onDone, mode = { kind: 'today' } }: { onDone: () => void
   function handleCheckAnswer() {
     if (!typedTarget || !card) return
     // A `cisla` card asks for an order of magnitude, not for the exact digits.
-    const check = card.kind === 'cisla' ? checkQuantityAnswer : checkAnswer
+    const check = strict ? checkStrictAnswer : card.kind === 'cisla' ? checkQuantityAnswer : checkAnswer
     setAnswerCheck(check(answerText, typedTarget))
     reveal()
   }

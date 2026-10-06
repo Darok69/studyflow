@@ -1,0 +1,2879 @@
+{
+ "subject": "Deutsch auf Muttersprachniveau",
+ "examDate": "2027-01-31",
+ "cards": [
+  {
+   "type": "basic",
+   "front": "Které předložky stojí VŽDY se 3. pádem (Dativ)?",
+   "back": "aus, bei, mit, nach, seit, von, zu, gegenüber (+ ab)\n• pomůcka: „aus–bei–mit–nach–seit–von–zu“ (rytmicky jako básnička)\n• ŽÁDNÝ pohyb na tom nic nemění: „Ich gehe zu meiner Oma“ = pohyb, a přesto Dativ\n• aus der Slowakei · bei meiner Tante · mit dem Zug · nach der Vorlesung · seit einem Jahr · von meinen Eltern · zum Arzt · gegenüber dem Bahnhof",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Které předložky stojí VŽDY se 4. pádem (Akkusativ)?",
+   "back": "durch, für, gegen, ohne, um, bis, entlang (když stojí ZA podstatným jménem)\n• pomůcka: „DOGFU“ = durch, ohne, gegen, für, um\n• v Akkusativu se mění jen maskulinum: der → den, ein → einen (für den Kurs, durch einen langen Tunnel)\n• feminina, neutra a plurál vypadají jako 1. pád: für die Prüfung, für das Seminar, für meine Eltern",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Které předložky stojí s 2. pádem (Genitiv) a co platí pro psaní?",
+   "back": "während, wegen, trotz, (an)statt, innerhalb, außerhalb (+ aufgrund, anhand, mithilfe, oberhalb, unterhalb)\n• psaná norma = Genitiv: wegen des Regens, während des Semesters, trotz des Schnees\n• hovorově (v Rakousku a jižním Německu velmi běžně) se říká „wegen dem Regen“ — v seminárce a v e-mailu profesorovi VŽDY Genitiv\n• maskulinum/neutrum má v Genitivu i -s/-es na podstatném jménu: des Semesters, des Streiks\n• když Genitiv není vidět (plurál bez členu a bez adjektiva), nastupuje Dativ, u innerhalb typicky s „von“: innerhalb von zwei Wochen, trotz Beweisen; u „wegen Bauarbeiten“ pád poznat není — to je v pořádku",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "„wegen dem Regen“ nebo „wegen des Regens“?",
+   "back": "V psaní „wegen des Regens“ (Genitiv); „wegen dem Regen“ je hovorové.\n• stejně: trotz des Regens, während des Semesters, statt des Busses\n• feminina to neprozradí: wegen der Renovierung = Genitiv i Dativ zní stejně\n• test: maskulinum/neutrum → musí tam být „des … -s“",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Co jsou Wechselpräpositionen a jak se rozhoduje pád?",
+   "back": "an, auf, hinter, in, neben, über, unter, vor, zwischen — buď 3., nebo 4. pád.\n• Wo? (kde – místo, stav) → Dativ: Das Buch liegt auf dem Tisch.\n• Wohin? (kam – pohyb K cíli, změna místa) → Akkusativ: Ich lege das Buch auf den Tisch.\n• jiné předložky to NEDĚLAJÍ: zu/nach/aus jsou vždy Dativ i při pohybu",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "„Ich laufe im Park“ vs. „Ich laufe in den Park“ — jaký je rozdíl?",
+   "back": "Rozhoduje, jestli se mění MÍSTO, ne jestli se něco hýbe.\n• im Park laufen = běhám v parku (pohyb uvnitř místa) → Wo? → Dativ\n• in den Park laufen = běžím do parku (dostanu se jinam) → Wohin? → Akkusativ\n• stejně: Ich schwimme im See × Ich springe in den See",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Dvojice sloves stellen/stehen, legen/liegen, setzen/sitzen, hängen — co s jakým pádem?",
+   "back": "Děj (někam něco dávám) = Wohin? + Akkusativ; stav (někde to je) = Wo? + Dativ.\n• stellen → stehen: Ich stelle die Flasche in den Kühlschrank. → Die Flasche steht im Kühlschrank.\n• legen → liegen: Ich lege das Handy auf den Tisch. → Das Handy liegt auf dem Tisch.\n• (sich) setzen → sitzen: Ich setze mich neben dich. → Ich sitze neben dir.\n• hängen (děj) → hängen (stav): Ich hänge das Bild an die Wand. → Das Bild hängt an der Wand.\n• slovesa děje jsou pravidelná (stellte, gestellt), slovesa stavu nepravidelná (stand, lag, saß)",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jak se časuje „hängen“ jako děj a jako stav?",
+   "back": "Děj (pověsit): hängen – hängte – gehängt · stav (viset): hängen – hing – gehangen.\n• Ich habe das Bild an die Wand gehängt. (pověsil jsem)\n• Das Bild hing an der Wand. (viselo)\n• pozor: Perfekt stavu („hat/ist gehangen“) se mezi Rakouskem a Německem liší — v drilu ho nezkoušíme",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Česká pomůcka pro Wo?/Wohin? — funguje to?",
+   "back": "Ano, čeština to dělá taky: na stole (6. pád) × na stůl (4. pád).\n• na/v + 6. pád (kde) ≈ Dativ: na stole = auf dem Tisch, v knihovně = in der Bibliothek\n• na + 4. pád / do + 2. pád (kam) ≈ Akkusativ: na stůl = auf den Tisch, do knihovny = in die Bibliothek\n• past: české „k“ a „od“ — zum Arzt / vom Arzt jsou Dativ i při pohybu",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Které stažené tvary (předložka + člen) používáš v psaném textu?",
+   "back": "Bezpečně: am, im, beim, vom, zum, zur, ans, ins, aufs.\n• am = an dem · im = in dem · beim = bei dem · vom = von dem · zum = zu dem · zur = zu der · ans = an das · ins = in das · aufs = auf das\n• spíš neformální: fürs, durchs, ums, übers\n• hovorové: hinterm, unterm, vorm, überm (ve formálním psaní ne; výjimka ustálené „unterm Strich“) · aufm jen mluvené\n• NEstahuje se, když na členu leží důraz nebo za ním následuje vztažná věta: in dem Haus, in dem ich wohne",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Kdy MUSÍ být stažený tvar?",
+   "back": "V ustálených spojeních — nestažený tvar by zněl špatně.\n• časové údaje: am Montag, am Abend, im Sommer, im Oktober, am 15. Mai\n• zpodstatnělý infinitiv: beim Kochen, zum Lernen, ins Schwimmen kommen\n• fráze: zum Glück, zum Beispiel, im Allgemeinen, am besten, zum Arzt gehen, ins Kino gehen\n• názvy míst: am Stephansplatz, im dritten Bezirk",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jakou předložku má den, část dne, měsíc, roční období a hodina?",
+   "back": "an + den/část dne/datum · in + měsíc/roční období/rok · um + přesný čas.\n• am Montag, am Wochenende, am Abend, am 15. Mai\n• im Oktober, im Sommer, im Jahr 1365 — ale v noci = in der Nacht (nebo nachts)\n• ráno: am Morgen (rakousky spisovně i „in der Früh“ — obojí správně)\n• um 8 Uhr (přesně) · gegen 8 Uhr (kolem) · bis 18 Uhr (do) · ab 9 Uhr (od)\n• česká past: v pondělí ≠ „in Montag“, v 8 hodin ≠ „in 8 Uhr“",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "seit / vor / in — jak se liší v časových údajích?",
+   "back": "seit = od (a trvá dodnes) · vor = před (minulost) · in = za (budoucnost) — všechny s Dativem.\n• Ich wohne seit einem Jahr in Wien. (PŘÍTOMNÝ čas — pořád tu bydlím; ne „habe gewohnt“)\n• Ich war vor einer Woche in Prag.\n• Die Prüfung ist in zwei Wochen.\n• Dativ plurálu: seit drei Monaten, vor zwei Jahren (-n!)",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "„letzte Woche“, „jeden Tag“ — proč tu není předložka a jaký je to pád?",
+   "back": "Časový údaj bez předložky je ve 4. pádě (Akkusativ).\n• der Tag → jeden Tag, letzten Montag, nächsten Dienstag, den ganzen Tag\n• das Jahr → jedes Jahr, letztes Wochenende, nächstes Jahr\n• die Woche → jede Woche, letzte Woche, nächste Woche\n• tvoje chyby: „Letzte Wochenende“ → letztes Wochenende (das!), „jedes Sommer“ → jeden Sommer (der!)",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jak se v němčině uvádí rok?",
+   "back": "Buď holé číslo, nebo „im Jahr …“ — nikdy „in 2003“.\n• Das Gebäude wurde 1890 gebaut. / … im Jahr 1890 gebaut.\n• „in 2003“ je anglicismus (in 2003) — v psaném textu chyba",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "nach Hause, zu Hause, von zu Hause — kdy co?",
+   "back": "Wohin? → nach Hause · Wo? → zu Hause · Woher? → von zu Hause.\n• Ich gehe jetzt nach Hause. (domů)\n• Ich bin zu Hause. (doma) — psaní „zuhause“ je taky přípustné, „das Zuhause“ = domov (podst. jméno)\n• Ich komme von zu Hause. (z domova)\n• NIKDY „zu Hause gehen“ ani „nach Hause sein“",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Země: kdy „nach“ a kdy „in“?",
+   "back": "Země bez členu → nach (kam) / in (kde). Země se členem → in + člen.\n• nach Tschechien, nach Österreich, nach Italien · in Tschechien, in Österreich\n• se členem: die Schweiz, die Slowakei, die Türkei, die USA (Pl.), die Niederlande (Pl.), der Iran\n• Wohin? in die Schweiz, in die Slowakei, in die USA · Wo? in der Schweiz, in der Slowakei, in den USA\n• Woher? aus Tschechien, aus der Schweiz\n• města stejně jako země bez členu: nach Wien, nach Brünn, in Wien",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Kam / kde / odkud: k osobě, do města, do budovy?",
+   "back": "Wohin? zu (osoba, instituce) · nach (město, země bez členu) · in (budova, prostor).\n• Wo? bei (osoba) · in (město, budova) · an (u, na okraji: am Bahnhof, an der Uni)\n• Woher? von (osoba, instituce) · aus (město, země, budova)\n• zum Arzt → beim Arzt → vom Arzt\n• nach Prag → in Prag → aus Prag\n• in die Bibliothek → in der Bibliothek → aus der Bibliothek",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Česká interference: jak se řekne „na …“ (místo)?",
+   "back": "České „na“ ≠ automaticky „auf“.\n• na nádraží = am Bahnhof · na univerzitě = an der Uni (rakousky hovorově i „auf der Uni“)\n• na hodině = im Unterricht · na schůzce = in einer Besprechung\n• na Slovensku = in der Slowakei · na kole = mit dem Rad\n• na fotce = auf dem Foto · na ulici = auf der Straße · na poště = auf der Post / bei der Post\n• na dovolené = im Urlaub (rakousky „auf Urlaub“ — v drilu nezkoušíme)",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Česká interference: slovesa s „na“ — jakou mají předložku v němčině?",
+   "back": "Předložka i pád patří ke slovesu — uč se je jako celek.\n• čekat na = warten auf + Akk. (auf den Bus)\n• myslet na = denken an + Akk. (an meine Familie)\n• těšit se na = sich freuen auf + Akk. (auf die Ferien) × mít radost z = sich freuen über + Akk.\n• dávat pozor na = aufpassen auf + Akk.\n• ptát se na = fragen nach + Dat. · záležet na = abhängen von + Dat.\n• zapomenout na = vergessen + Akk. (BEZ předložky!) — rakousky spisovně i „auf etwas vergessen“, v textu pro Německo bez předložky",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Česká interference: „v“ v časových údajích",
+   "back": "České „v“ se překládá podle toho, co následuje.\n• v pondělí = am Montag · v pátek večer = am Freitagabend\n• v 8 hodin = um 8 Uhr · v létě = im Sommer · v říjnu = im Oktober\n• v roce 2020 = 2020 / im Jahr 2020 · v noci = in der Nacht / nachts\n• za týden = in einer Woche · před týdnem = vor einer Woche",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Člen a přídavné jméno po předložce se 3. pádem — jaké koncovky?",
+   "back": "Dativ: dem / der / dem / den (+ -n); adjektivum po členu VŽDY -en.\n• mit dem neuen Laptop · in der kleinen Wohnung · in einem kleinen Dorf · mit großen Fenstern\n• člen se NEVYNECHÁVÁ: ne „in kleine Wohnung“, ale „in einer kleinen Wohnung“\n• Dativ plurálu: podstatné jméno dostane -n (mit den Kindern, mit großen Fenstern), kromě plurálu na -s (mit den Autos)",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "„entlang“ — jaký pád?",
+   "back": "Za podstatným jménem → Akkusativ; před ním → Genitiv.\n• Wir gehen den Donaukanal entlang. (Akk.)\n• Entlang des Donaukanals stehen Bäume. (Gen.)\n• i „an + Dat. … entlang“: am Donaukanal entlang\n• regionálně (Rakousko, Švýcarsko) i Dativ („dem Fluss entlang“) — v drilu jen Akk. s nápovědou",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "„bis“ — se členem, nebo bez?",
+   "back": "Samotné „bis“ stojí bez členu; se členem → „bis zu“ + Dativ.\n• bis Montag, bis 18 Uhr, bis Wien\n• bis zum Bahnhof, bis zur Endstation, bis zum Ende\n• i „bis an/in/auf“ + Akk.: bis an die Grenze, bis in die Nacht, bis auf den letzten Platz",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "„gegenüber“ — kde stojí a jaký má pád?",
+   "back": "Vždy Dativ; u podstatného jména před i za, u zájmena ZA.\n• gegenüber dem Bahnhof / dem Bahnhof gegenüber\n• mir gegenüber (u zájmena obvykle ZA; „gegenüber mir“ je méně obvyklé)\n• „gegenüber vom Bahnhof“ je hovorové; „gegenüber des Bahnhofs“ je chyba",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "„ankommen“ — Wo?, nebo Wohin?",
+   "back": "ankommen = Wo? → Dativ (příjezd je výsledek, místo už je dané).\n• Der Zug kommt am Hauptbahnhof an.\n• Wir kommen um 18 Uhr in Wien an. (ne „nach Wien an“)",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Kommst du {{mit mir}} ins Kino? (mit, ich)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{von dir}} geträumt. (von, du)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Am Wochenende übernachte ich {{bei ihm}}. (bei, er)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre {{mit dem}} Zug nach Brünn. (mit, der Zug)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre {{mit der}} U-Bahn zur Uni. (mit, die U-Bahn)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich nehme das Handy {{aus der}} Tasche. (aus, die Tasche)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er trinkt das Wasser direkt {{aus der}} Flasche. (aus, die Flasche)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er hat die Post {{aus dem}} Briefkasten genommen. (aus, der Briefkasten)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich komme gerade {{aus dem}} Fitnessstudio. (aus, das Fitnessstudio)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine Mitbewohnerin kommt {{aus der}} Slowakei. (aus, die Slowakei)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir gehen {{nach der}} Vorlesung in die Mensa. (nach, die Vorlesung)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich rufe dich {{nach dem}} Abendessen an. (nach, das Abendessen)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich hole das Paket {{von der}} Post ab. (von, die Post)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Apotheke ist gleich gegenüber {{dem}} Bahnhof. (der Bahnhof – jen člen, bez „von“)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir wohnen gegenüber {{einer}} Schule. (eine Schule)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne {{bei meiner}} Tante in Floridsdorf. (bei, meine Tante)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich arbeite {{bei einer}} Firma in Simmering. (bei, eine Firma)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{mit meinem}} Betreuer über die Seminararbeit gesprochen. (mit, mein Betreuer)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Sie ist {{mit ihrem}} Freund nach Graz gefahren. (mit, ihr Freund)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{von meiner}} Schwester ein Paket bekommen. (von, meine Schwester)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe heute {{zu meiner}} Oma. (zu, meine Oma)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Morgen muss ich {{zu einem}} Vorstellungsgespräch. (zu, ein Vorstellungsgespräch)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe am Samstag {{zu einer}} Geburtstagsfeier. (zu, eine Geburtstagsfeier)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich spiele {{seit meiner}} Kindheit Fußball. (seit, meine Kindheit)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe das {{für dich}} gekocht. (für, du)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre nicht {{ohne dich}}. (ohne, du)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Alle sind {{gegen ihn}}. (gegen, er)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir gehen {{durch den}} Park. (durch, der Park)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich bin {{durch die}} Prüfung gefallen. (durch, die Prüfung)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir sind {{durch die}} ganze Stadt gelaufen. (durch, die ganze Stadt)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Geschenk ist {{für meinen}} Vater. (für, mein Vater)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich brauche ein Zimmer {{für einen}} Monat. (für, ein Monat)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Vielen Dank {{für die}} schnelle Antwort. (für, die schnelle Antwort)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich interessiere mich {{für den}} Kurs. (für, der Kurs)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe nichts {{gegen deinen}} Vorschlag. (gegen, dein Vorschlag)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir spielen am Samstag {{gegen eine}} Mannschaft aus Linz. (gegen, eine Mannschaft)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe nie {{ohne meinen}} Schirm aus dem Haus. (ohne, mein Schirm)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er ist {{ohne seine}} Freundin gekommen. (ohne, seine Freundin)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Bus fährt {{um die}} Ecke. (um, die Ecke)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich bewerbe mich {{um eine}} Stelle als Tutor. (um, eine Stelle)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich komme {{gegen}} 8 Uhr. (kolem 8 hodin – předložka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe {{in die}} Bibliothek. (in, die Bibliothek – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lerne {{in der}} Bibliothek. (in, die Bibliothek – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Buch liegt {{auf dem}} Tisch. (auf, der Tisch – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lege das Buch {{auf den}} Tisch. (auf, der Tisch – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich stelle die Milch {{in den}} Kühlschrank. (in, der Kühlschrank – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Milch steht {{im}} Kühlschrank. (in, der Kühlschrank – Wo? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich hänge das Poster {{an die}} Wand. (an, die Wand – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Poster hängt {{an der}} Wand. (an, die Wand – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich hänge die Jacke {{in den}} Schrank. (in, der Schrank – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Jacke hängt {{im}} Schrank. (in, der Schrank – Wo? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich stecke das Handy {{in die}} Tasche. (in, die Tasche – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe {{in den}} Supermarkt. (in, der Supermarkt – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich kaufe {{im}} Supermarkt ein. (in, der Supermarkt – Wo? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Auto steht {{in der}} Garage. (in, die Garage – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich setze mich {{auf den}} Boden. (auf, der Boden – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Kinder sitzen {{auf dem}} Boden. (auf, der Boden – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich schreibe meinen Namen {{an die}} Tafel. (an, die Tafel – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Aufgabe steht schon {{an der}} Tafel. (an, die Tafel – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Katze schläft {{unter dem}} Bett. (unter, das Bett – Wo?, bez stažení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Katze kriecht {{unter das}} Bett. (unter, das Bett – Wohin?, bez stažení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Leg den Schlüssel {{unter die}} Fußmatte. (unter, die Fußmatte – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Schlüssel liegt {{unter der}} Fußmatte. (unter, die Fußmatte – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich setze mich {{neben meine}} Freundin. (neben, meine Freundin – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich sitze {{neben meiner}} Freundin. (neben, meine Freundin – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er hat das Glas {{neben den}} Laptop gestellt. (neben, der Laptop – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Glas steht {{neben dem}} Laptop. (neben, der Laptop – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Fahrrad steht {{vor dem}} Haus. (vor, das Haus – Wo?, bez stažení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Stell das Fahrrad bitte {{vor die}} Tür. (vor, die Tür – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir treffen uns {{vor der}} Mensa. (vor, die Mensa – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Garten liegt {{hinter dem}} Haus. (hinter, das Haus – Wo?, bez stažení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Ball ist {{hinter den}} Zaun gefallen. (hinter, der Zaun – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich stelle mich {{hinter die}} Frau mit dem Kinderwagen. (hinter, die Frau – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Lampe hängt {{über dem}} Esstisch. (über, der Esstisch – Wo?, bez stažení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich hänge die Lampe {{über den}} Esstisch. (über, der Esstisch – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir gehen {{über die}} Brücke. (über, die Brücke – přes ni, Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir wohnen {{über einem}} Café. (über, ein Café – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir fahren am Wochenende {{an den}} Neusiedler See. (an, der Neusiedler See – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir waren im Sommer {{am}} Neusiedler See. (an, der Neusiedler See – Wo? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich {{lege}} das Handy auf den Tisch. (legen/liegen – Präsens)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Handy {{liegt}} auf dem Tisch. (legen/liegen – Präsens)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir {{sitzen}} auf dem Balkon. (setzen/sitzen – Präsens)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er {{setzt}} sich auf die Bank. (setzen/sitzen – Präsens)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe heute Abend {{ins}} Kino. (in, das Kino – Wohin? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war gestern {{im}} Kino. (in, das Kino – Wo? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe {{ins}} Bett. (in, das Bett – Wohin? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir fahren {{ans}} Meer. (an, das Meer – Wohin? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir waren zwei Wochen {{am}} Meer. (an, das Meer – Wo? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich muss {{zum}} Arzt. (zu, der Arzt → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war gestern {{beim}} Arzt. (bei, der Arzt → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich komme gerade {{vom}} Arzt. (von, der Arzt → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre jeden Tag {{zur}} Uni. (zu, die Uni → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe {{zur}} Post. (zu, die Post → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wie komme ich {{zum}} Westbahnhof? (zu, der Westbahnhof → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mein Zimmer hat ein Fenster {{zum}} Innenhof. (zu, der Innenhof → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe {{zum}} Mittagessen in die Mensa. (zu, das Mittagessen → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Bring die Unterlagen bitte {{zur}} Sprechstunde mit. (zu, die Sprechstunde → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe den Zug {{zum}} Glück noch erwischt. (zu, das Glück → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich höre {{beim}} Kochen immer Podcasts. (bei, das Kochen → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er hat mir {{beim}} Umzug geholfen. (bei, der Umzug → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe Geld {{vom}} Konto abgehoben. (von, das Konto → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir treffen uns {{am}} Stephansplatz. (an, der Stephansplatz – Wo? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne {{im}} dritten Bezirk. (in, der dritte Bezirk – Wo? → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{am}} Montag eine Prüfung. (an, der Montag → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Was machst du {{am}} Wochenende? (an, das Wochenende → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lerne meistens {{am}} Abend. (an, der Abend → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{am}} 15. Mai Geburtstag. (an + datum → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich mache {{im}} Sommer ein Praktikum. (in, der Sommer → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Semester beginnt {{im}} Oktober. (in, der Oktober → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Universität Wien wurde {{im}} Jahr 1365 gegründet. (in, das Jahr → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich kann {{in der}} Nacht nicht schlafen. (in, die Nacht)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Vorlesung beginnt {{um}} 8 Uhr. (v 8 hodin – přesný čas)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich arbeite heute {{bis}} 18 Uhr. (do 18 hodin)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Prüfung ist {{in}} zwei Wochen. (za dva týdny – od teď)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne {{seit einem}} Jahr in Wien. (seit, ein Jahr)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war {{vor einer}} Woche in Prag. (vor, eine Woche)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich warte {{seit einer}} halben Stunde auf dich. (seit, eine halbe Stunde)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe {{jeden}} Tag laufen. (jed-, der Tag – bez předložky)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir fahren {{jedes}} Jahr nach Kroatien. (jed-, das Jahr – bez předložky)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{jede}} Woche einen Deutschkurs. (jed-, die Woche – bez předložky)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich hatte {{letzte}} Woche zwei Prüfungen. (letzt-, die Woche – bez předložky)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe jetzt {{nach}} Hause. (Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich bin heute den ganzen Tag {{zu}} Hause. (Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre am Freitag {{nach}} Tschechien. (Tschechien – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Am Wochenende fahre ich {{nach}} Brünn zu meinen Eltern. (Brünn – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine Freundin fährt {{in die}} Schweiz. (die Schweiz – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe zwei Jahre {{in der}} Schweiz gearbeitet. (die Schweiz – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mein Professor kommt {{aus der}} Schweiz. (die Schweiz – Woher?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir fahren im Sommer {{in die}} Slowakei. (die Slowakei – Wohin?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mein Kollege macht Urlaub {{in der}} Türkei. (die Türkei – Wo?)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich warte schon zehn Minuten {{auf die}} Straßenbahn. (auf, die Straßenbahn – čekat na)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich denke oft {{an meine}} Familie. (an, meine Familie – myslet na)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich freue mich {{auf die}} Ferien. (auf, die Ferien – těšit se na)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Pass {{auf die}} Stufe auf! (auf, die Stufe – dávat pozor na)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich frage {{nach dem}} Weg. (nach, der Weg – ptát se na)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das hängt {{vom}} Wetter ab. (von, das Wetter – záležet na, → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe Angst {{vor der}} Prüfung. (vor, die Prüfung)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich nehme {{an einer}} Exkursion teil. (an, eine Exkursion)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben uns {{am}} Bahnhof getroffen. (an, der Bahnhof – na nádraží, → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich studiere {{an der}} Universität Wien. (an, die Universität – na univerzitě)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war heute nicht {{im}} Unterricht. (in, der Unterricht – na hodině, → stažený tvar)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er ist gerade {{in einer}} Besprechung. (in, eine Besprechung – na schůzce)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre {{mit dem}} Rad zur Arbeit. (mit, das Rad – na kole)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wer ist das {{auf dem}} Foto? (auf, das Foto – na fotce)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Kinder spielen {{auf der}} Straße. (auf, die Straße – na ulici)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich bin gerade {{auf dem}} Weg zur Arbeit. (auf, der Weg)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist ein Geschenk {{von meinen}} Eltern. (von, meine Eltern)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir gehen {{mit den}} Kindern in den Park. (mit, die Kinder)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir lernen {{mit unseren}} Kommilitonen für die Prüfung. (mit, unsere Kommilitonen – Pl.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre jetzt {{mit einem neuen}} Fahrrad zur Uni. (mit, ein neues Fahrrad)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich kenne sie {{seit dem ersten}} Semester. (seit, das erste Semester)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre {{bis zur}} Endstation. (bis zu, die Endstation → stažený tvar)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich spare {{für einen neuen}} Laptop. (für, ein neuer Laptop)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Weg führt {{durch einen langen}} Tunnel. (durch, ein langer Tunnel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir sitzen alle {{um einen großen}} Tisch. (um, ein großer Tisch)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir gehen {{den}} Donaukanal entlang. (der Donaukanal – „entlang“ za podstatným jménem = Akk.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Bitte schalten Sie {{während der}} Prüfung das Handy aus. (während, die Prüfung – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich arbeite {{während des}} Semesters zwanzig Stunden pro Woche. (während, das Semester – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre {{während der}} Ferien nach Hause. (während, die Ferien – Gen. Pl.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Zug hatte {{wegen des}} Schnees Verspätung. (wegen, der Schnee – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Vorlesung fällt {{wegen eines}} Streiks aus. (wegen, ein Streik – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich konnte {{wegen einer}} Erkältung nicht zur Prüfung kommen. (wegen, eine Erkältung – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Bibliothek ist {{wegen der}} Renovierung geschlossen. (wegen, die Renovierung – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir sind {{trotz des}} Regens spazieren gegangen. (trotz, der Regen – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er ist {{trotz seiner}} Erkältung zur Arbeit gegangen. (trotz, seine Erkältung – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich nehme {{statt des}} Busses die U-Bahn. (statt, der Bus – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Arbeit muss {{innerhalb einer}} Woche abgegeben werden. (innerhalb, eine Woche – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Rauchen ist {{innerhalb des}} Gebäudes verboten. (innerhalb, das Gebäude – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir wohnen {{außerhalb der}} Stadt. (außerhalb, die Stadt – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne {{außerhalb des}} Gürtels. (außerhalb, der Gürtel – Gen.)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich laufe jeden Morgen {{im}} Augarten. (in, der Augarten – Wo? běhám v něm, → stažený tvar)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich laufe schnell {{in den}} Augarten. (in, der Augarten – Wohin? běžím do něj)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir fahren {{in die}} Berge. (in, die Berge – Wohin?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir wandern {{in den}} Bergen. (in, die Berge – Wo?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Apotheke liegt {{zwischen der}} Bank und dem Supermarkt. (zwischen, die Bank – Wo?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich stelle den Stuhl {{zwischen das}} Sofa und den Tisch. (zwischen, das Sofa – Wohin?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich setze mich {{in die}} erste Reihe. (in, die erste Reihe – Wohin?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich sitze immer {{in der ersten}} Reihe. (in, die erste Reihe – Wo?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich ziehe nächsten Monat {{in eine größere}} Wohnung. (in, eine größere Wohnung – Wohin?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine Schwester wohnt {{in einem kleinen}} Dorf bei Olmütz. (in, ein kleines Dorf – Wo?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Gestern {{lag}} mein Schlüssel noch auf dem Tisch. (legen/liegen – Präteritum)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe die Vase auf das Regal {{gestellt}}. (stellen/stehen – Partizip II)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe das Bild an die Wand {{gehängt}}. (hängen = pověsit – Partizip II)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lerne seit {{drei Monaten}} Spanisch. (drei Monate)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich bin vor {{zwei Jahren}} nach Wien gezogen. (zwei Jahre)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{letzten}} Montag mit dem Kurs angefangen. (letzt-, der Montag – bez předložky)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war {{letztes}} Wochenende bei meinen Eltern. (letzt-, das Wochenende – bez předložky)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich schließe {{nächstes}} Jahr meinen Bachelor ab. (nächst-, das Jahr – bez předložky)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir sehen uns {{nächsten}} Dienstag. (nächst-, der Dienstag – bez předložky)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe gestern {{den ganzen}} Abend am Referat gearbeitet. (der ganze Abend – bez předložky)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich komme gerade {{von zu}} Hause. (Woher? – z domova)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fliege nächste Woche {{in die}} USA. (die USA – Wohin?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er hat ein Jahr {{in den}} USA studiert. (die USA, Pl. – Wo?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir ziehen {{in die}} Niederlande. (die Niederlande, Pl. – Wohin?)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der Zug kommt um 18 Uhr {{am}} Hauptbahnhof an. (an, der Hauptbahnhof – ankommen = Wo? → stažený tvar)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "3 · Präpositionen und Kasus",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m3"
+   ]
+  }
+ ]
+}

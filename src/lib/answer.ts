@@ -49,6 +49,26 @@ export function answerSimilarity(a: string, b: string): number {
 const CORRECT_THRESHOLD = 0.92
 const CLOSE_THRESHOLD = 0.7
 
+/**
+ * Přísná kontrola pro gramatické karty (štítek `streng`): koncovka, člen, velké
+ * písmeno a přehláska JSOU ta látka. „einer kleine" proti „einer kleinen" by
+ * benevolentní kontrola (92 % podobnosti) uznala — tady je to chyba.
+ * Ignoruje jen okrajové mezery, vícenásobné mezery a koncovou interpunkci.
+ */
+export function checkStrictAnswer(input: string, expected: string): AnswerCheck {
+  const clean = (s: string) =>
+    s
+      .replace(/\s+/g, ' ')
+      .trim()
+      .replace(/[.!?;:,]+$/, '')
+  const a = clean(input)
+  const b = clean(expected)
+  if (a === b) return { verdict: 'correct', similarity: 1 }
+  // Similarity only colours the hint; the verdict is never more than "close".
+  const similarity = answerSimilarity(a, b)
+  return { verdict: similarity >= CLOSE_THRESHOLD ? 'close' : 'wrong', similarity }
+}
+
 export function checkAnswer(input: string, expected: string): AnswerCheck {
   const similarity = answerSimilarity(input, expected)
   const verdict: AnswerVerdict =

@@ -1,0 +1,2333 @@
+{
+  "subject": "Deutsch auf Muttersprachniveau",
+  "examDate": "2027-01-31",
+  "cards": [
+    {
+      "type": "basic",
+      "front": "Jak číst nápovědu v závorce v drilu Wortstellung?",
+      "back": "Do mezery napiš slova z nápovědy ve správném tvaru A ve správném pořadí.\n• Slova v závorce jsou v základním tvaru a v náhodném pořadí (oddělená čárkou nebo ·).\n• Bez údaje o čase = přítomný čas (Präsens).\n• Perf. / Prät. / Plusqu. / Futur / Konj. II / Passiv = požadovaný tvar.\n• „Hilfsverb“ = pomocné sloveso (haben/sein/werden) — vyber správné sám.\n• „zu-Inf.“ = infinitiv s zu (anzurufen, zu helfen).",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kde stojí určité sloveso v německé oznamovací větě?",
+      "back": "Na DRUHÉM místě (V2) — vždy, ať je na prvním místě cokoli.\n• 1. místo = jeden větný člen (podmět, příslovce, předmět, celá vedlejší věta).\n• Ich gehe heute ins Kino. / Heute gehe ich ins Kino. / Ins Kino gehe ich heute.\n• Nikdy dva členy před slovesem: ✗ Heute ich gehe ins Kino.",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Co je inverze (Inversion) a kdy nastává?",
+      "back": "Podmět jde ZA sloveso, když na 1. místě stojí něco jiného než podmět.\n• Heute gehe ich… / Leider habe ich… / Im Sommer fährt meine Familie…\n• Platí i pro předmět na 1. místě: Den Schlüssel habe ich verloren.\n• Sloveso zůstává na 2. místě, podmět se posune až za něj.\n• Tvoje chyba: „Heute ich habe…“ — po příslovci vždy „Heute habe ich…“.",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Co se stane s hlavní větou, když souvětí ZAČÍNÁ vedlejší větou?",
+      "back": "Celá vedlejší věta je 1. místo → hlavní věta začíná SLOVESEM.\n• Wenn ich Zeit habe, komme ich vorbei.\n• Weil es regnet, bleiben wir zu Hause.\n• Vzorec: [vedlejší věta …, sloveso] , [sloveso] [podmět] …\n• ✗ Wenn ich Zeit habe, ich komme vorbei.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Co je větný rámec (Satzklammer)?",
+      "back": "Sloveso se rozdělí: určitý tvar na 2. místě, zbytek (infinitiv, příčestí, předpona) ÚPLNĚ NA KONEC.\n• Modální: Ich kann heute nicht kommen.\n• Perfekt: Ich habe gestern lange gearbeitet.\n• Futur / würde: Ich werde / würde dir helfen.\n• Odlučitelné: Ich rufe dich morgen an.\n• Pasiv: Das Haus wird renoviert.\n• Všechno ostatní (předměty, příslovce, předložkové vazby) je UVNITŘ rámce.",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Proč je chybně „Ich würde gerne bitten um eine Verlängerung“?",
+      "back": "Infinitiv patří na KONEC rámce, předložková vazba dovnitř.\n• Správně: Ich würde Sie gerne um eine Verlängerung bitten.\n• Stejně: Ich möchte mich für die Verspätung entschuldigen. (ne: …entschuldigen für die Verspätung)\n• Za infinitiv smí jen vedlejší věta nebo srovnání s als/wie — ne předmět ani předložková vazba.\n• Tohle je TVOJE nejčastější chyba ze slovosledu: v hlavě si nejdřív postav rámec würde … bitten.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Co smí stát ZA pravou částí rámce (Nachfeld / Ausklammerung)?",
+      "back": "Jen málo věcí — v psaní drž všechno uvnitř rámce.\n• Vedlejší věta: Ich habe vergessen, dass heute Feiertag ist.\n• Infinitiv se zu: Ich habe versucht, dich anzurufen.\n• Srovnání: Er hat mehr gearbeitet als ich.\n• NE: předmět, příslovce, předložková vazba (✗ Ich habe gewartet auf dich).",
+      "kind": "znaky",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kam patří sloveso ve vedlejší větě?",
+      "back": "Určité sloveso jde ÚPLNĚ NA KONEC vedlejší věty.\n• Spojky: weil, dass, obwohl, wenn, als, ob, da, damit, nachdem, bevor, bis, sobald, seit(dem), während, falls, sodass + tázací slova (wann, wo, warum, wie…) a vztažná zájmena.\n• Ich bleibe zu Hause, weil ich krank bin.\n• Ich weiß nicht, ob die Bibliothek heute offen ist.\n• Podmět stojí hned za spojkou, sloveso na konci, vše ostatní mezi nimi.",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "V jakém pořadí jdou slovesa na konci vedlejší věty?",
+      "back": "Zleva: plnovýznamové sloveso (infinitiv/příčestí) → pomocné/modální; URČITÝ tvar úplně POSLEDNÍ.\n• …, weil ich arbeiten muss.\n• …, dass er gekommen ist.\n• …, weil ich nach Tschechien reisen musste.\n• …, dass er mich anrufen wird.\n• Pasiv + modální: …, dass das Formular unterschrieben werden muss.\n• Pozor: Perfekt modálního slovesa ve vedlejší větě (Doppelinfinitiv) je zvláštní případ — v psaní ho obejdi Präteritem: …, weil ich arbeiten musste.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Co se stane s odlučitelným slovesem ve vedlejší větě?",
+      "back": "Předpona se NEODDĚLUJE — sloveso stojí na konci v celku.\n• Hlavní věta: Der Zug fährt um acht ab.\n• Vedlejší věta: Ich weiß nicht, wann der Zug abfährt.\n• S modálním: …, dass ich dich anrufen soll.\n• Perfekt: …, ob er schon angekommen ist.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kde stojí infinitiv se zu a jak se tvoří u odlučitelných sloves?",
+      "back": "Infinitiv se zu jde na KONEC své části věty; u odlučitelných se zu vkládá dovnitř.\n• Ich habe vergessen, dich anzurufen.\n• Es ist schwer, in Wien eine Wohnung zu finden.\n• um … zu (účel): Ich lerne, um die Prüfung zu bestehen.\n• ohne … zu: Er ist gegangen, ohne sich zu verabschieden.\n• Odlučitelná: an|zu|rufen, ein|zu|kaufen, mit|zu|kommen.",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jaký slovosled má nepřímá otázka?",
+      "back": "Je to vedlejší věta → sloveso na KONEC.\n• Wann fährt der Zug? → Weißt du, wann der Zug fährt?\n• Ist sie zu Hause? → Ich weiß nicht, ob sie zu Hause ist.\n• Otázka ano/ne se v nepřímé řeči uvádí spojkou ob.\n• Typické v e-mailu: Könnten Sie mir sagen, bis wann ich die Unterlagen einreichen muss?",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Které spojky stojí na „pozici 0“ a nemění slovosled?",
+      "back": "und, aber, oder, denn, sondern (pomůcka ADUSO).\n• Nepočítají se jako 1. místo → po nich normální slovosled podmět + sloveso.\n• Ich bin krank, denn ich habe Fieber.\n• Ich wollte kommen, aber ich hatte keine Zeit.\n• Ich fahre nicht mit dem Auto, sondern ich nehme den Zug.",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Rozdíl mezi „weil“ a „denn“?",
+      "back": "Stejný význam (protože), jiný slovosled.\n• weil = vedlejší věta → sloveso na konec: …, weil ich Fieber habe.\n• denn = pozice 0 → normální slovosled: …, denn ich habe Fieber.\n• denn nemůže stát na začátku souvětí; weil ano: Weil ich Fieber habe, bleibe ich zu Hause.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Která spojovací příslovce způsobují inverzi?",
+      "back": "deshalb, deswegen, darum, daher, trotzdem, dennoch, dann, danach, außerdem, sonst, also, stattdessen, zuerst…\n• Jsou to větné členy na 1. místě → sloveso hned za nimi, podmět až potom.\n• Es regnet, deshalb bleibe ich zu Hause.\n• Ich bin müde, trotzdem lerne ich weiter.\n• Wir müssen uns beeilen, sonst verpassen wir den Zug.\n• ✗ …, deshalb ich bleibe zu Hause.",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Tři typy spojování vět — jak se pozná, kde je sloveso?",
+      "back": "Podle toho, co spojku následuje.\n• Pozice 0 (und, aber, oder, denn, sondern): podmět + sloveso.\n• Příslovce (deshalb, trotzdem, dann, außerdem…): sloveso + podmět.\n• Podřadicí spojka (weil, dass, obwohl, wenn…): podmět … sloveso na konci.\n• Test: …, denn ich bin krank / …, deshalb bin ich krank… / …, weil ich krank bin.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kam patří „nicht“, když neguje celou větu?",
+      "back": "Co nejvíc ke konci — ale PŘED druhou částí slovesa a před těsně vázanými doplněními.\n• Na konec: Ich verstehe die Frage nicht.\n• Před příčestí/infinitiv/předponu: Ich habe das Buch nicht gelesen. / Ich rufe dich nicht an.\n• Před přísudkové jméno: Die Wohnung ist nicht teuer.\n• Před směrové doplnění: Ich fahre nicht nach Hause.\n• Před předložkový předmět: Ich interessiere mich nicht für Fußball.\n• Za zájmenné předměty: Er hat mir nicht geantwortet.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Co znamená „nicht“ přímo před určitým členem věty?",
+      "back": "Částečný (kontrastní) zápor — neguje jen ten člen, obvykle s pokračováním „sondern“.\n• Ich fahre nicht heute, sondern morgen.\n• Nicht ich habe das gesagt, sondern er.\n• Bez „sondern“ to zní nedokončeně → pro běžný zápor celé věty použij pravidlo „nicht ke konci“.",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kdy „kein“ a kdy „nicht“?",
+      "back": "kein = zápor podstatného jména s neurčitým členem nebo bez členu; jinak nicht.\n• Ich habe ein Auto → Ich habe kein Auto.\n• Ich habe Zeit → Ich habe keine Zeit.\n• Ich habe das Auto → Ich habe das Auto nicht.\n• ✗ Ich habe nicht Zeit.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Co je TeKaMoLo?",
+      "back": "Obvyklé pořadí příslovečných určení ve středním poli: TEmporal – KAusal – MOdal – LOkal.\n• kdy – proč – jak – kde/kam.\n• Ich fahre morgen wegen der Prüfung mit dem Zug nach Salzburg.\n• Je to tendence, ne zákon: pořadí se mění podle důrazu. Pevné je jen to, že směrové doplnění (nach Salzburg) jde až na konec.\n• Proto ho v drilu netestujeme — piš podle něj, když nevíš.",
+      "kind": "schema",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "V jakém pořadí jdou předměty, když je jeden zájmeno a druhý podstatné jméno?",
+      "back": "Zájmeno jde PŘED podstatné jméno (bez ohledu na pád).\n• Ich gebe ihm das Buch. (Dat-zájmeno + Akk-jméno)\n• Ich gebe es meinem Bruder. (Akk-zájmeno + Dat-jméno)\n• ✗ Ich gebe meinem Bruder es.",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "V jakém pořadí jdou dvě zájmena (Akk a Dat)?",
+      "back": "Akuzativ PŘED dativem: es ihm, ihn mir, sie dir.\n• Ich gebe es ihm. (ne: ihm es)\n• Ich zeige ihn dir später.\n• Ich schicke sie Ihnen per Post.\n• Pozor — u dvou podstatných jmen je to naopak: Dativ před akuzativem (Ich gebe meinem Bruder das Buch).",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jaký slovosled mají otázky a rozkazovací způsob?",
+      "back": "Otázka s tázacím slovem = V2; otázka ano/ne a imperativ = sloveso na 1. místě (V1).\n• Wann fängt der Kurs an?\n• Kommst du heute Abend mit?\n• Ruf mich bitte morgen an!\n• Rámec platí i tady: Hast du schon gegessen?",
+      "kind": "schema",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Kde stojí sloveso ve vedlejší větě s pasivem?",
+      "back": "Na konci: příčestí → werden/worden → určitý tvar.\n• Präsens: …, weil die Bibliothek renoviert wird.\n• Präteritum: …, wann das Gebäude gebaut wurde.\n• Perfekt: …, dass das Seminar abgesagt worden ist.\n• S modálním: …, dass das Formular unterschrieben werden muss.",
+      "kind": "schema",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jaký tvar má souvětí s nachdem?",
+      "back": "nachdem = vedlejší věta (sloveso na konec) + předčasnost: časy se posouvají o stupeň.\n• Nachdem ich gegessen hatte, ging ich in die Bibliothek. (Plusqu. + Prät.)\n• Nachdem ich gegessen habe, gehe ich in die Bibliothek. (Perf. + Präs.)\n• Hlavní věta po vedlejší začíná slovesem (ging ich / gehe ich).",
+      "kind": "znaky",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "basic",
+      "front": "Jak opravit: „…, dass ich habe das Buch gelesen“ a „…, weil ich muss arbeiten“?",
+      "back": "Ve vedlejší větě NIKDY sloveso uprostřed — všechna slovesa na konec, určitý tvar poslední.\n• …, dass ich das Buch gelesen habe.\n• …, weil ich arbeiten muss.\n• Kontrolní otázka: stojí za spojkou weil/dass/ob… sloveso před koncem věty? Pak je to chyba.",
+      "kind": "rozliseni",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Heute {{gehe ich}} nicht in die Vorlesung. (ich, gehen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Morgen {{fahre ich}} zu meinen Eltern nach Brünn. (ich, fahren)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Am Wochenende {{besuchen wir}} das Kunsthistorische Museum. (wir, besuchen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Leider {{habe ich}} heute keine Zeit. (ich, haben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich muss bis Freitag eine Seminararbeit abgeben. Deshalb {{habe ich}} keine Zeit. (ich, haben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Zurzeit {{wohne ich}} in einer WG im 9. Bezirk. (ich, wohnen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Nach der Vorlesung {{trinken wir}} meistens einen Kaffee. (wir, trinken)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Um acht Uhr {{beginnt das Seminar}}. (das Seminar, beginnen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Diese Woche {{schreibe ich}} zwei Prüfungen. (ich, schreiben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "In der Bibliothek {{ist es}} um diese Zeit ruhig. (es, sein)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Jeden Sommer {{fährt meine Familie}} an den Gardasee. (meine Familie, fahren)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Im Sommer {{arbeitet mein Bruder}} in einem Hotel in Salzburg. (mein Bruder, arbeiten)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wahrscheinlich {{regnet es}} morgen. (es, regnen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Natürlich {{helfe ich}} dir beim Umzug. (ich, helfen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Vielleicht {{kommt sie}} später noch vorbei. (sie, kommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Mit dem Zug {{dauert die Fahrt}} nach Prag etwa vier Stunden. (die Fahrt, dauern)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Letzte Woche {{war ich}} krank. (ich, sein – Prät.)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Gestern {{habe ich}} bis Mitternacht gelernt. (ich, haben – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Meinen Laptop {{habe ich}} in der Bibliothek liegen lassen. (ich, haben – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Den Schlüssel {{habe ich}} beim Hausmeister abgegeben. (ich, haben – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Prüfung {{hat er}} leider nicht bestanden. (er, haben – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Im Oktober {{werde ich}} nach Prag umziehen. (ich, werden)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wann {{fängt der Kurs}} an? (der Kurs, anfangen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Warum {{hast du}} mich nicht angerufen? (du, haben – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wo {{kann man}} hier gut frühstücken? (man, können)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Kommst du}} heute Abend mit? (du, mitkommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "{{Hast du}} schon gegessen? (du, haben – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich würde Sie gerne um eine Verlängerung {{bitten}}. (bitten)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich möchte Sie {{um einen Termin bitten}}. (bitten · um einen Termin)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich möchte mich {{für die Verspätung entschuldigen}}. (entschuldigen · für die Verspätung)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich würde gerne {{an der Exkursion teilnehmen}}. (teilnehmen · an der Exkursion)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich möchte {{ein Zimmer reservieren}}. (reservieren · ein Zimmer)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich kann heute leider {{nicht kommen}}. (kommen · nicht)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Kannst du mir {{das Buch zurückgeben}}? (zurückgeben · das Buch)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe gestern {{meine Eltern angerufen}}. (anrufen – Perfekt · meine Eltern)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hast du schon {{die Miete überwiesen}}? (überweisen – Perfekt · die Miete)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir haben gestern {{die neue Wohnung besichtigt}}. (besichtigen – Perfekt · die neue Wohnung)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe die Hausarbeit gestern {{abgegeben}}. (abgeben – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Der Zug ist pünktlich in Wien {{angekommen}}. (ankommen – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich {{rufe dich morgen an}}. (anrufen · dich · morgen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Der Kurs {{fängt um neun Uhr an}}. (anfangen · um neun Uhr)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir {{kaufen am Samstag ein}}. (einkaufen · am Samstag)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Morgen {{stehe ich um sechs auf}}. (ich, aufstehen · um sechs)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe vergessen, {{dich anzurufen}}. (anrufen, dich – zu-Inf.)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Es ist nicht leicht, in Wien {{eine Wohnung zu finden}}. (finden · eine Wohnung – zu-Inf.)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich lerne jeden Tag, um die Prüfung {{zu bestehen}}. (bestehen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er ist gegangen, ohne sich {{zu verabschieden}}. (sich verabschieden)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe heute keine Lust {{einzukaufen}}. (einkaufen – zu-Inf.)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hast du Zeit, mir beim Umzug {{zu helfen}}? (helfen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bleibe zu Hause, weil ich krank {{bin}}. (sein)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich weiß, dass du recht {{hast}}. (haben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich gehe spazieren, obwohl es {{regnet}}. (regnen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich Zeit {{habe}}, rufe ich dich an. (haben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich weiß nicht, ob die Bibliothek heute offen {{ist}}. (sein)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Kannst du mir sagen, wann der nächste Zug nach Brünn {{fährt}}? (fahren)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Da ich kein Auto {{habe}}, fahre ich mit der U-Bahn. (haben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich glaube, dass der Professor heute nicht {{kommt}}. (kommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich frage mich, warum er mir nicht {{antwortet}}. (antworten)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Sag mir bitte Bescheid, wenn du {{fertig bist}}. (sein · fertig)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Seitdem ich in Wien {{wohne}}, fahre ich nur noch mit dem Rad. (wohnen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Sobald ich die Noten {{bekomme}}, schreibe ich dir. (bekommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Während ich {{koche}}, hört mein Mitbewohner Musik. (kochen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Als ich nach Wien {{kam}}, sprach ich kaum Deutsch. (kommen – Prät.)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich weiß nicht, wann der Zug {{abfährt}}. (abfahren)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ruf mich an, wenn du in Wien {{ankommst}}. (ankommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich hoffe, dass du morgen {{mitkommst}}. (mitkommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er sagt, dass er am Montag {{zurückkommt}}. (zurückkommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Weißt du, wann das Seminar {{anfängt}}? (anfangen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Warte bitte hier, bis ich {{zurückkomme}}. (zurückkommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich weiß nicht, {{was ich machen soll}}. (ich, sollen, machen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Kannst du mir sagen, {{wo die Mensa ist}}? (die Mensa, sein)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Weißt du, {{wie spät es ist}}? (es, sein, wie spät)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich frage mich, {{ob er zu Hause ist}}. (er, sein, zu Hause)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich kann heute nicht kommen, weil ich {{arbeiten muss}}. (müssen, arbeiten)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich glaube, dass er schon {{gekommen ist}}. (kommen – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich konnte nicht zur Prüfung kommen, weil ich nach Tschechien {{reisen musste}}. (müssen, reisen – Prät.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich weiß nicht, ob ich morgen {{kommen kann}}. (können, kommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er hat mir gesagt, dass er die Prüfung {{bestanden hat}}. (bestehen – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bin müde, weil ich gestern lange {{gearbeitet habe}}. (arbeiten – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Weißt du, ob sie schon nach Hause {{gegangen ist}}? (gehen – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe gehört, dass ihr {{umgezogen seid}}. (umziehen – Perfekt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bin froh, dass du mir {{geholfen hast}}. (helfen – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich frage mich, ob er meine Nachricht {{bekommen hat}}. (bekommen – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Obwohl ich früh {{aufgestanden bin}}, habe ich den Bus verpasst. (aufstehen – Perfekt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bin nicht sicher, ob ich das richtig {{verstanden habe}}. (verstehen – Perfekt)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich weiß nicht, ob er sich schon {{angemeldet hat}}. (anmelden – Perfekt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich weiß nicht, ob ich das {{machen darf}}. (dürfen, machen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Sie sagt, dass sie heute länger {{bleiben möchte}}. (möchten, bleiben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich weiß, dass ich mich {{beeilen muss}}. (müssen, sich beeilen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich glaube, dass wir uns {{beeilen sollten}}. (sollen – Konj. II, sich beeilen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bin sicher, dass es morgen {{regnen wird}}. (werden, regnen – Futur)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er sagt, dass er mich morgen {{anrufen wird}}. (werden, anrufen – Futur)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe gefragt, ob ich die Arbeit später {{abgeben darf}}. (dürfen – Präs., abgeben)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er hat mir erzählt, dass er in Wien {{studieren will}}. (wollen – Präs., studieren)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn du {{mitkommen willst}}, musst du dich beeilen. (wollen, mitkommen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich spare Geld, damit ich im Sommer nach Kroatien {{fahren kann}}. (können, fahren)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich lerne Deutsch, damit ich an der Uni Wien {{studieren kann}}. (können, studieren)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Bevor ich {{schlafen gehe}}, lese ich noch ein bisschen. (gehen, schlafen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe gerade kein Fahrrad, weil ich es {{reparieren lasse}}. (lassen, reparieren)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Nachdem ich {{gegessen hatte}}, ging ich in die Bibliothek. (essen – Plusqu.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Nachdem wir die Wohnung {{besichtigt hatten}}, unterschrieben wir den Mietvertrag. (besichtigen – Plusqu.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich schreibe Ihnen, weil ich die Frist leider nicht {{einhalten kann}}. (können, einhalten)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich hoffe, dass Sie mir {{helfen können}}. (können, helfen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich würde gerne wissen, ob Sie mir die Frist {{verlängern könnten}}. (können – Konj. II, verlängern)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich würde mich freuen, wenn Sie mir bald {{antworten könnten}}. (können – Konj. II, antworten)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Könnten Sie mir bitte mitteilen, bis wann ich die Unterlagen {{einreichen muss}}? (müssen, einreichen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Es wäre schön, wenn wir uns bald {{sehen würden}}. (werden – Konj. II, sehen)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Bibliothek ist geschlossen, weil sie {{renoviert wird}}. (renovieren – Passiv Präs.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich weiß nicht, wann das Gebäude {{gebaut wurde}}. (bauen – Passiv Prät.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe gehört, dass das Seminar {{abgesagt worden ist}}. (absagen – Passiv Perfekt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich glaube, dass das Formular {{unterschrieben werden muss}}. (müssen, werden, unterschreiben – Passiv)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er sagt, dass die Wohnung bis März {{renoviert werden soll}}. (sollen, werden, renovieren – Passiv)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn ich Zeit habe, {{komme ich}} am Abend vorbei. (ich, vorbeikommen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Weil es regnet, {{bleiben wir}} zu Hause. (wir, bleiben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Obwohl ich müde bin, {{gehe ich}} heute noch ins Fitnessstudio. (ich, gehen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Sobald ich in Wien ankomme, {{schreibe ich}} dir. (ich, schreiben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wenn du willst, {{können wir}} morgen zusammen lernen. (wir, können)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ob ich komme, {{weiß ich}} noch nicht. (ich, wissen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Als ich klein war, {{wohnte meine Familie}} in Olomouc. (meine Familie, wohnen – Prät.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Weil ich arbeiten musste, {{konnte ich}} nicht kommen. (ich, können – Prät.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Nachdem ich die Prüfung bestanden hatte, {{fuhr ich}} nach Hause. (ich, fahren – Prät.)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Da der Zug Verspätung hatte, {{bin ich}} zu spät gekommen. (ich, Hilfsverb – Perfekt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Dass du so schnell eine Wohnung gefunden hast, {{wundert mich}}. (mich, wundern)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bin krank, denn {{ich habe}} Fieber. (ich, haben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich komme heute nicht, denn {{ich muss}} arbeiten. (ich, müssen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich wollte kommen, aber {{ich hatte}} keine Zeit. (ich, haben – Prät.)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir können ins Kino gehen, oder {{wir bleiben}} einfach zu Hause. (wir, bleiben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich fahre nicht mit dem Auto, sondern {{ich nehme}} den Zug. (ich, nehmen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe gekocht, und {{mein Mitbewohner hat}} abgewaschen. (mein Mitbewohner, haben – Perfekt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Es regnet, deshalb {{bleibe ich}} zu Hause. (ich, bleiben)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich bin müde, trotzdem {{lerne ich}} weiter. (ich, lernen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Zuerst gehe ich einkaufen, dann {{koche ich}}. (ich, kochen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Wohnung ist hell, außerdem {{ist sie}} günstig. (sie, sein)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Wir müssen uns beeilen, sonst {{verpassen wir}} den Zug. (wir, verpassen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe die Prüfung nicht bestanden, deswegen {{muss ich}} sie wiederholen. (ich, müssen)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Der Vortrag war langweilig, trotzdem {{bin ich}} bis zum Ende geblieben. (ich, Hilfsverb – Perfekt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich hatte kein Geld mehr, also {{habe ich}} meine Eltern angerufen. (ich, haben – Perfekt)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe heute {{keine}} Zeit. (Verneinung)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe das Buch {{nicht gelesen}}. (lesen – Perfekt · nicht)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich verstehe {{die Frage nicht}}. (nicht · die Frage)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich fahre am Wochenende {{nicht nach Hause}}. (nicht · nach Hause)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Wohnung ist {{nicht teuer}}. (nicht · teuer)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich rufe dich morgen {{nicht an}}. (nicht · an)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Er hat {{mir nicht}} geantwortet. (nicht, mir – zápor celé věty)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Kannst du mir das Buch leihen? – Ja, ich gebe {{es dir}} morgen. (dir, es)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Weiß er das schon? – Ja, ich habe {{es ihm}} gestern gesagt. (ihm, es)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hast du den neuen Laptop? – Ja, ich zeige {{ihn dir}} später. (dir, ihn)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Die Unterlagen? Ich schicke {{sie Ihnen}} heute per Post. (Ihnen, sie)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Kannst du {{es mir}} noch einmal erklären? (mir, es)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich habe {{es meiner Mutter}} schon erzählt. (meiner Mutter, es)",
+      "kind": "cloze",
+      "level": 2,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich gebe {{ihm das Buch}}. (das Buch, ihm)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Kannst du {{mir den Schlüssel}} geben? (den Schlüssel, mir)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 1,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Ich erkläre {{dir die Aufgabe}} morgen. (die Aufgabe, dir)",
+      "kind": "cloze",
+      "level": 1,
+      "priority": 2,
+      "topic": "4 · Wortstellung",
+      "tags": [
+        "deutsch",
+        "streng",
+        "m4"
+      ]
+    }
+  ]
+}

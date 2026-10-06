@@ -1,0 +1,1254 @@
+{
+ "subject": "Deutsch auf Muttersprachniveau",
+ "examDate": "2027-01-31",
+ "cards": [
+  {
+   "type": "basic",
+   "front": "Co se v němčině píše VELKÝM písmenem?",
+   "back": "Podstatná jména a všechno, co se jako podstatné jméno použije — nic jiného (kromě začátku věty, vlastních jmen a zdvořilého Sie).\n• Slovesa, přídavná jména, příslovce, zájmena = malé: heute, mehr, anrufen, renoviert.\n• Tvoje chyby: „Heute“, „Mehr“, „Anrufen“, „Rekonstruiert“ uprostřed věty → heute, mehr, anrufen, renoviert.\n• Test: dá se před slovo dát člen (der/die/das) a dává to smysl? Ne → malé.",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Zpodstatnělé sloveso (das Lernen, beim Lesen) — jak ho poznám?",
+   "back": "Sloveso se stává podstatným jménem, když před ním stojí člen nebo předložka se členem → VELKÉ.\n• das Lernen, das Rauchen, beim Lesen, zum Kochen, vom Schreiben, Viel Spaß beim Lernen!\n• Bez členu jako sloveso malé: Ich muss lernen. Ich werde dich anrufen.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Zpodstatnělé přídavné jméno (etwas Neues, alles Gute)",
+   "back": "Po etwas, nichts, viel, wenig, alles a po členu se adjektivum píše VELKÝM a skloňuje se.\n• etwas Neues, nichts Besonderes, viel Interessantes, etwas Warmes, alles Gute.\n• das Gleiche, als Erstes, im Allgemeinen, im Voraus.\n• Pozor — malé zůstává: am besten (nejlépe), die beiden, alle beide.\n• Obojí přípustné (proto se netestuje): der, die, das andere/Andere, das meiste/Meiste, die vielen/Vielen.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Časové údaje: heute/abends malé vs. am Abend/heute Abend velké",
+   "back": "Příslovce času = MALÉ; podstatné jméno (i po heute/gestern/morgen) = VELKÉ.\n• malé: heute, gestern, morgen (zítra), abends, morgens, montags, sonntags.\n• velké: am Abend, der Morgen (ráno), jeden Morgen, heute Abend, gestern Nachmittag, am Montag, am Montagabend.\n• morgen = zítra (malé) × der Morgen = ráno (velké).",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Zdvořilé Sie, Ihnen, Ihr — kdy velké?",
+   "back": "Zdvořilé oslovení (vykání) VŽDY velké, ve všech tvarech; sie/ihnen/ihr = ona/oni malé.\n• Haben Sie Zeit? Ich danke Ihnen. Vielen Dank für Ihr Verständnis. Ihre Telefonnummer.\n• Meine Eltern? Ich rufe sie an und schicke ihnen Fotos.\n• Tvoje chyba „Ihre Verständnis“: velké I bylo správně, chybný byl rod — das Verständnis → Ihr Verständnis.",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jazyk a národnost: auf Deutsch × deutsche Grammatik × Wiener",
+   "back": "Název jazyka po předložce = podstatné jméno (VELKÉ); přídavné jméno = MALÉ; adjektivum od města na -er = VELKÉ a nesklonné.\n• auf Deutsch, auf Tschechisch.\n• die deutsche Grammatik, die tschechische Küche, die österreichische Regierung, ein deutscher Pass.\n• Wiener Schnitzel, die Prager Altstadt.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Pevná spojení: leid, Bescheid, Angst, schuld",
+   "back": "Podle toho, zda slovo ještě funguje jako podstatné jméno.\n• malé: Es tut mir leid. Du bist nicht schuld. am besten.\n• velké: Ich gebe dir Bescheid. Ich habe Angst. Vielen Dank im Voraus. zum ersten Mal.",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Složeniny (Komposita) se píšou DOHROMADY",
+   "back": "Dvě podstatná jména spojená v jeden pojem = JEDNO slovo; rod a člen určuje POSLEDNÍ část.\n• Geburtstag + Feier → die Geburtstagsfeier · Familie + Angelegenheit → die Familienangelegenheit.\n• Wohnung + Schlüssel → der Wohnungsschlüssel · Universität + Bibliothek → die Universitätsbibliothek.\n• Tvoje chyby: „Geburtstag Feier“, „Familien Gründen“ — v němčině mezera uvnitř pojmu NIKDY.",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Spojovací prvky ve složeninách (-s-, -n-, -e-, -er-, nic)",
+   "back": "Po -ung, -heit, -keit, -schaft, -tät, -ion vždy -s-; jinak se musíš naučit slovo.\n• -s-: Geburtstagsfeier, Arbeitsplatz, Wohnungssuche, Universitätsbibliothek, Gesundheitszustand, Lebensmittel, Lieblingsessen, Prüfungstermin.\n• -n-/-en-: Familienangelegenheit, Wochenende, Straßenbahnhaltestelle · -er-: Kinderzimmer · -es-: Tageszeitung.\n• nic / -e odpadne: Hausaufgabe, Mietvertrag (Miete), Sprachkurs (Sprache).\n• Studium → Studien-: Studiengebühren.",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Rakouské vs. německé spojovací -s- (proč se v drilu netestuje)",
+   "back": "U několika slov se Rakousko a Německo liší — obojí je spisovné ve své zemi.\n• AT Zugsverspätung × DE Zugverspätung · AT Schweinsbraten × DE Schweinebraten · AT Adventkalender × DE Adventskalender.\n• AT Aufnahmsprüfung × DE Aufnahmeprüfung · Schadenersatz / Schadensersatz.\n• Ve Vídni piš rakouskou variantu; u zkoušky ti nikdo nevezme ani jednu.",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "zurzeit × zur Zeit",
+   "back": "zurzeit (jedno slovo) = momentálně, teď; zur Zeit + Genitiv = v době (něčeho).\n• Das Gebäude wird zurzeit renoviert. Ich bin zurzeit sehr beschäftigt.\n• Zur Zeit der Monarchie lebten viele Tschechen in Wien.\n• Tvoje chyba „der Zeit“ = rozdělené derzeit; správně zurzeit nebo derzeit (v Rakousku běžné) — obojí JEDNÍM slovem.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "dass × das",
+   "back": "dass = spojka „že“ (uvozuje vedlejší větu, sloveso na konec); das = člen, ukazovací nebo vztažné zájmeno.\n• Test: dá se nahradit dieses/welches? → das. Nedá → dass.\n• Ich hoffe, dass die Prüfung leicht ist.\n• Das Zimmer, das (= welches) ich gemietet habe, ist hell.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "seit × seid",
+   "back": "seit = od (časově, s Dativem); seid = tvar slovesa sein pro ihr.\n• Ich wohne seit drei Jahren in Wien. Seit wann lernst du Deutsch?\n• Wo seid ihr? Ihr seid immer willkommen.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "wieder × wider",
+   "back": "wieder = znovu, zpátky; wider = proti.\n• wieder: wiederkommen, die Wiederholung, Auf Wiedersehen.\n• wider: widersprechen, der Widerstand, widerlegen.\n• Test: dá se přeložit „proti“? → wider. Jinak wieder.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Dohromady psaná příslovce a zájmena (irgend-, -mal)",
+   "back": "irgend- se píše dohromady; -mal podle toho, zda je Mal podstatné jméno.\n• irgendwann, irgendetwas, irgendwo, irgendjemand, irgendwas (hovorově).\n• Jediná výjimka: irgend so ein / irgend so etwas (zvlášť).\n• manchmal, einmal × zum ersten Mal, das letzte Mal (Mal jako podstatné jméno = velké a zvlášť).",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe {{heute}} in die Bibliothek. (dnes)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich brauche {{mehr}} Zeit für die Seminararbeit. (víc)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich werde dich morgen {{anrufen}}. (zavolat)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Haus wurde letztes Jahr {{renoviert}}. (renovovat)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir sehen uns {{morgen}}. (zítra)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war {{gestern}} beim Arzt. (včera)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lerne meistens {{abends}}. (večer — pravidelně, 1 slovo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Bibliothek ist {{sonntags}} geschlossen. (v neděli — pravidelně, 1 slovo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich arbeite {{montags}} bis 18 Uhr. (v pondělí — pravidelně, 1 slovo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir treffen uns heute {{Abend}}. (večer)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Gestern {{Nachmittag}} war ich im Prater. (odpoledne)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir treffen uns am {{Montagabend}}. (pondělí večer — 1 slovo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe jeden {{Morgen}} joggen. (ráno)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Am {{Abend}} lese ich gern. (večer)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Frau Novak, haben {{Sie}} morgen Zeit? (vy — zdvořile)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich danke {{Ihnen}} für die schnelle Antwort. (vám — zdvořile)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Könnten Sie mir {{Ihre}} Telefonnummer schicken? (vaše — zdvořile)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine Eltern? Ich rufe {{sie}} jeden Sonntag an. (je — rodiče)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe meinen Eltern geschrieben und {{ihnen}} Fotos geschickt. (jim — rodičům)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine Tante hat ihre {{Geburtstagsfeier}} in Brünn gemacht. (Geburtstag + Feier)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich kann leider nicht kommen, ich habe eine {{Familienangelegenheit}}. (Familie + Angelegenheit)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die {{Wohnungssuche}} in Wien ist schwierig. (Wohnung + Suche)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe meinen {{Wohnungsschlüssel}} verloren. (Wohnung + Schlüssel)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe den {{Mietvertrag}} unterschrieben. (Miete + Vertrag)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mein {{Arbeitsplatz}} ist im dritten Bezirk. (Arbeit + Platz)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das {{Wochenende}} war zu kurz. (Woche + Ende)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lerne in der {{Universitätsbibliothek}}. (Universität + Bibliothek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich besuche einen {{Sprachkurs}}. (Sprache + Kurs)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Viel Spaß beim {{Lernen}}! (učení)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das {{Rauchen}} ist hier verboten. (kouření)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich brauche eine Pause vom {{Schreiben}}. (psaní)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Zum {{Kochen}} habe ich keine Zeit. (vaření)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{etwas Neues}} gelernt. (něco nového)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Am Wochenende habe ich {{nichts Besonderes}} gemacht. (nic zvláštního)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich möchte {{etwas Warmes}} trinken. (něco teplého)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "In Wien gibt es viel {{Interessantes}}. (zajímavého)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Alles {{Gute}} zum Geburtstag! (dobré)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich nehme das {{Gleiche}}. (totéž)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Als {{Erstes}} muss ich mich anmelden. (jako první)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Im {{Allgemeinen}} bin ich zufrieden. (obecně)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich schreibe die Arbeit auf {{Deutsch}}. (německy — v jakém jazyce)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lese das Buch auf {{Tschechisch}}. (česky — v jakém jazyce)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die {{deutsche}} Grammatik ist schwer. (německý)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er hat einen {{deutschen}} Pass. (německý)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich mag die {{tschechische}} Küche. (český)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die {{österreichische}} Regierung hat das Gesetz beschlossen. (rakouský)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben ein {{Wiener}} Schnitzel gegessen. (vídeňský)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Es tut mir {{leid}}. (líto)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gebe dir morgen {{Bescheid}}. (dám vědět)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{Angst}} vor der Prüfung. (strach)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Du bist nicht {{schuld}}. (vinen — „schuld sein“)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Vielen Dank im {{Voraus}}! (předem)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lerne am {{besten}} in der Bibliothek. (nejlépe)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich war zum ersten {{Mal}} in Salzburg. (poprvé — zum ersten …)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir fahren {{manchmal}} nach Brünn. (občas — manch + mal)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre mit öffentlichen {{Verkehrsmitteln}}. (Verkehr + Mittel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Morgen habe ich ein {{Bewerbungsgespräch}}. (Bewerbung + Gespräch)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die {{Studiengebühren}} sind gestiegen. (Studium + Gebühren)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das {{Kinderzimmer}} ist sehr klein. (Kind + Zimmer)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich kaufe {{Lebensmittel}} im Supermarkt. (Leben + Mittel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lese jeden Tag die {{Tageszeitung}}. (Tag + Zeitung)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die {{Bushaltestelle}} ist direkt vor dem Haus. (Bus + Haltestelle)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mein {{Lieblingsessen}} ist Svíčková. (Liebling + Essen)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Der {{Gesundheitszustand}} meiner Oma ist gut. (Gesundheit + Zustand)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wann ist der {{Prüfungstermin}}? (Prüfung + Termin)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Gebäude wird {{zurzeit}} renoviert. (momentálně — zu + Zeit)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich bin {{zurzeit}} sehr beschäftigt. (v současnosti — zu + Zeit)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Viele Tschechen lebten {{zur Zeit}} der Monarchie in Wien. (v době — zu + die Zeit)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich hoffe, {{dass}} die Prüfung leicht ist. (že)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Es ist wichtig, {{dass}} du pünktlich bist. (že)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Zimmer, {{das}} ich gemietet habe, ist hell. (které — vztažné zájmeno, 3 písmena)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne {{seit}} drei Jahren in Wien. (od — časově)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Seit}} wann lernst du Deutsch? (od — časově)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wo {{seid}} ihr gerade? (sein, ihr)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich komme morgen {{wieder}}. (znovu, zpátky)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die {{Wiederholung}} vor der Prüfung ist wichtig. (opakování)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Auf {{Wiedersehen}}! (shledanou)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das {{widerspricht}} den Regeln. (odporovat — 3. os. sg.)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Er hat keinen {{Widerstand}} geleistet. (odpor)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 1,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich möchte {{irgendwann}} in Japan leben. (někdy v budoucnu — irgend + wann)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{irgendetwas}} vergessen. (něco — irgend + etwas)",
+   "kind": "cloze",
+   "level": 3,
+   "priority": 2,
+   "topic": "6 · Groß- und Kleinschreibung, Komposita",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m6"
+   ]
+  }
+ ]
+}

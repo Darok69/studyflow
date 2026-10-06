@@ -1,0 +1,5349 @@
+{
+ "subject": "Deutsch auf Muttersprachniveau",
+ "examDate": "2027-01-31",
+ "cards": [
+  {
+   "type": "basic",
+   "front": "Proč se rod v němčině nedá „uslyšet“ ani odvodit z češtiny — a jak se ho učit?",
+   "back": "Rod je vlastnost slova, ne věci: učí se VŽDY jako celek člen + slovo + plurál.\n• Čeština nepomůže: das Mädchen (dívka), der Sommer (léto), die Wohnung (byt), das Seminar (seminář).\n• Poslechem se rod ztrácí: v řeči splývá „die/der“, „den/dem“, „ein/einen“ — proto chyby typu „ins Bibliothek“.\n• Asi u poloviny slov rod prozradí přípona (die -ung, das -chen, der -ling…) — ta pravidla se vyplatí znát nazpaměť.\n• Zbytek: drilovat s členem, nikdy samotné slovo („Gebäude“ ✗ → „das Gebäude“ ✓).",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Které přípony znamenají SPOLEHLIVĚ ženský rod (die) — bez výjimky?",
+   "back": "-ung, -heit, -keit, -schaft → vždy die.\n• die Wohnung, die Prüfung, die Erledigung, die Verlängerung\n• die Freiheit, die Gesundheit · die Möglichkeit, die Schwierigkeit\n• die Freundschaft, die Wissenschaft, die Mannschaft\n• Pozor: der Sprung, der Schwung — tam „-ung“ není přípona, ale kořen slova (springen, schwingen).",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Přípony -ion, -tät, -ik, -ur, -enz, -anz — jaký rod a jaké jsou výjimky?",
+   "back": "Skoro vždy die.\n• -ion: die Information, die Diskussion (výjimky: der Spion, das Stadion — tam nejde o příponu)\n• -tät: die Universität, die Qualität (bez výjimek)\n• -ik: die Musik, die Politik, die Technik (výjimky: der Atlantik, der Pazifik, das Mosaik)\n• -ur: die Kultur, die Natur, die Reparatur (výjimky: das Abitur, das Futur)\n• -enz/-anz: die Konferenz, die Distanz, die Toleranz",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Přípony -ei a -ie — jaký rod a které výjimky se objevují v běžné řeči?",
+   "back": "-ei a -ie → die (přízvučné i nepřízvučné: die Familie, die Linie).\n• die Bäckerei, die Polizei, die Partei, die Türkei\n• die Philosophie, die Energie, die Theorie, die Familie\n• Výjimky: das Ei, der Papagei, der Brei · das Knie, das Genie.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Podstatná jména na -e: jaká je tendence a které výjimky musíš znát?",
+   "back": "Asi 90 % slov na -e je die (die Woche, die Straße, die Sprache).\n• Mužské osoby a zvířata (n-deklinace) jsou der: der Junge, der Kollege, der Löwe — a několik abstrakt: der Name, der Gedanke, der Glaube.\n• der Käse — výjimka, kterou Čech splete (chuť říct „die Käse“).\n• Neutra: das Auge, das Ende, das Interesse.\n• Ge- … -e je das: das Gebäude, das Gebirge, das Gemüse.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Přípona -in: kdy je die a které časté výjimky na -in nejsou ženské?",
+   "back": "Přechýlené ženy na -in → die: die Studentin, die Ärztin, die Freundin, die Kollegin.\n• Plurál zdvojuje n: die Studentinnen.\n• Kde -in není přípona ženy, rod je jiný: der Termin, das Benzin, der Delfin, das Magazin.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Které přípony dávají VŽDY střední rod (das)?",
+   "back": "-chen a -lein (zdrobněliny) → vždy das, i u osob.\n• das Mädchen, das Häuschen, das Märchen, das Kätzchen\n• das Fräulein, das Büchlein\n• Zdrobnění mění rod: der Hund → das Hündchen, die Katze → das Kätzchen.\n• Rakousko: zdrobněliny na -erl jsou také das: das Sackerl, das Kipferl.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Přípony -ment, -um, -ma: jaký rod a jaké výjimky?",
+   "back": "Převážně das (latinská a řecká přejatá slova).\n• -ment: das Dokument, das Argument, das Instrument (pozor: der Moment = okamžik)\n• -um: das Zentrum, das Museum, das Studium, das Datum (výjimka: der Konsum)\n• -ma: das Thema, das Klima, das Drama (výjimky: die Firma, die Oma, die Mama)\n• Plurál často -en: die Zentren, die Museen, die Studien, die Themen.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Slova s předponou Ge- (často s -e na konci): jaký rod a hlavní výjimky?",
+   "back": "Většinou das: das Gebäude, das Gebirge, das Gemüse, das Gespräch, das Gesicht, das Getränk, das Gepäck, das Gesetz.\n• Výjimky der: der Gedanke, der Geschmack, der Gewinn, der Gesang.\n• Výjimky die: die Geschichte, die Gefahr, die Geduld, die Gemeinde.\n• Tvoje chyba: „Diese Gebäude wurde…“ → das Gebäude, tedy „Dieses Gebäude wurde…“.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jaký rod mají zpodstatnělá slovesa (das Lesen) — a jak se poznají?",
+   "back": "Infinitiv užitý jako podstatné jméno je VŽDY das a píše se velkým písmenem.\n• das Lesen, das Essen, das Leben, das Rauchen, das Treffen\n• beim Lernen, zum Schwimmen, das Autofahren\n• Pozor na -en, které infinitiv není: der Garten, der Boden, der Magen (tam to pravidlo neplatí).",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Přípona -nis: das, nebo die?",
+   "back": "Asi 70 % je das, ale několik častých slov je die — ty se musí znát.\n• das Ergebnis, das Erlebnis, das Verständnis, das Ereignis, das Zeugnis, das Gedächtnis\n• die Erlaubnis, die Kenntnis, die Erkenntnis, die Ersparnis (AT i das Ersparnis), die Finsternis, die Wildnis\n• Plurál zdvojuje s: die Ergebnisse, die Kenntnisse.\n• Tvoje chyba: „Ihre Verständnis“ → das Verständnis → „Ihr Verständnis“.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Přípona -tum: jaký rod a které dvě výjimky?",
+   "back": "-tum je das: das Eigentum, das Christentum, das Wachstum, das Altertum.\n• Výjimky der: der Reichtum, der Irrtum.\n• Plurál -tümer: die Irrtümer, die Reichtümer.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Které přípony dávají mužský rod (der)?",
+   "back": "-ling, -ismus, -ist → vždy der.\n• der Frühling, der Lehrling, der Schmetterling, der Liebling\n• der Tourismus, der Kapitalismus\n• der Polizist, der Journalist, der Tourist",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Přípony -or, -ig, -ich, -ant, -ent — jaký rod a jaké výjimky?",
+   "back": "Převážně der.\n• -or: der Motor, der Autor, der Professor (výjimka: das Labor)\n• -ig: der Honig, der König, der Essig, der Käfig\n• -ich: der Teppich, der Kranich\n• -ant/-ent (osoby): der Praktikant, der Student, der Patient, der Präsident\n• Výjimky: das Restaurant, das Talent, das Prozent, das Patent (nejsou to osoby).",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Které VÝZNAMOVÉ skupiny jsou mužského rodu?",
+   "back": "Dny, měsíce, roční období a části dne → der.\n• der Montag, der Mittwoch, der Mai, der Dezember\n• der Sommer, der Winter, der Frühling, der Herbst\n• der Morgen, der Vormittag, der Abend\n• Výjimky: die Nacht, das Frühjahr, das Wochenende (složenina: das Ende!)",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Světové strany, počasí, alkohol, auta — jaký rod?",
+   "back": "Převážně der.\n• Světové strany a větry: der Norden, der Süden, der Wind, der Föhn\n• Srážky a mlha: der Regen, der Schnee, der Nebel (ale das Gewitter — Ge-)\n• Alkohol: der Wein, der Schnaps, der Wodka, der Sekt — výjimka das Bier\n• Značky aut: der BMW, der Škoda, der Audi (zastupují „der Wagen“)",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Podstatná jména tvořená z kmene slovesa bez přípony (gehen → Gang): jaký rod?",
+   "back": "Většinou der.\n• der Gang, der Lauf, der Schlaf, der Besuch, der Anfang, der Verkauf, der Sprung\n• Výjimky: das Verbot, die Wahl, die Hilfe (-e).\n• Je to tendence, ne zákon — u nejistých slov se ověřuj.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Koncovky -er a -el: prozradí rod?",
+   "back": "Ne spolehlivě — tady se rod MUSÍ učit u každého slova.\n• -er osoby a nástroje jsou der: der Lehrer, der Computer, der Fehler.\n• Ale: das Fenster, das Zimmer, das Wasser, das Messer, das Theater, das Wetter · die Mutter, die Butter, die Nummer.\n• -el: der Löffel, der Schlüssel, der Apfel · ale die Gabel, die Insel, die Kartoffel, die Regel · das Kapitel, das Hotel.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jaký rod má SLOŽENINA (das Haus + die Tür)?",
+   "back": "Rod i plurál složeniny určuje VŽDY POSLEDNÍ slovo.\n• das Haus + die Tür = die Haustür\n• die Woche + das Ende = das Wochenende\n• die Geburt + der Tag = der Geburtstag · der Geburtstag + die Feier = die Geburtstagsfeier\n• innen + der Hof = der Innenhof · die Stadt + die Bibliothek = die Stadtbibliothek\n• Plurál také podle posledního slova: die Innenhöfe, die Haustüren.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jak se složenina píše — a proč „Geburtstag Feier“ je chyba?",
+   "back": "Složenina se v němčině píše DOHROMADY jako jedno slovo, s velkým písmenem jen na začátku.\n• die Geburtstagsfeier (ne „Geburtstag Feier“), die Familiengründe (ne „Familien Gründe“)\n• Často se vkládá spojovací -s- nebo -n-: Geburtstag+s+feier, Universität+s+gebäude, Familie+n+feier.\n• Spojka se nedá odvodit pravidlem — učí se se složeninou (der Arbeitstag, ale der Schultag).\n• Rozepsání do dvou slov je v psaní typická chyba lidí, co se učili poslechem.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Které osoby mají „nelogický“ střední rod?",
+   "back": "Gramatický rod přebíjí přirozený: rozhoduje přípona, ne pohlaví.\n• das Mädchen (-chen), das Fräulein (-lein) → zájmeno se v textu často drží rodu: „Das Mädchen … es“\n• das Kind, das Baby, das Mitglied, das Genie\n• die Person, die Wache — ženský rod i pro muže.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Která běžná slova mají v češtině jiný rod a Čecha proto zmýlí?",
+   "back": "Typické pasti (česky v závorce):\n• das Seminar (seminář), das Referat (referát), das Problem (problém), das System (systém)\n• die Wohnung (byt), die Zeit (čas), die Welt (svět), die Sprache (jazyk)\n• der Sommer (léto), der Winter (zima), der Weg (cesta), der Fehler (chyba)\n• das Wochenende (víkend), das Jahr (rok), das Gebäude (budova), das Buch (kniha)\n• die Butter (máslo), die Milch (mléko), der Käse (sýr — rod stejný jako v češtině, ale -e svádí k die)",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Slova, která jsou v češtině pomnožná (jen plurál), ale v němčině ne — jaký mají rod?",
+   "back": "Němčina je má v jednotném čísle, rod se musí učit.\n• der Geburtstag (narozeniny), die Tür (dveře), die Hose (kalhoty)\n• das Kleid (šaty), die Zeitung (noviny), die Uhr (hodiny/hodinky), das Geld (peníze)\n• Tvoje chyba „hatte Geburtstag“ bez členu → „Meine Tante hatte ihren vierzigsten Geburtstag.“",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč v němčině NESMÍ chybět člen — a co to znamená pro „in kleine Wohnung“?",
+   "back": "Čeština členy nemá, a proto je Čech vynechává. V němčině musí počitatelné podstatné jméno v jednotném čísle mít VŽDY určovací slovo.\n• Určovací slovo = člen (der/ein) nebo jeho náhrada (dieser, jeder, kein, mein, welcher…).\n• „in kleine Wohnung“ ✗ → „in einer kleinen Wohnung“ ✓ (Wo? → dativ)\n• „für Erledigung“ ✗ → „für die Erledigung“ ✓\n• Člen nese pád a rod — bez něj se pak pletou i koncovky přídavných jmen.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Kdy člen SPRÁVNĚ chybí u povolání, národnosti a role?",
+   "back": "Po sein, werden a als se u povolání, národnosti, náboženství a funkce člen NEPÍŠE.\n• Er ist Student. · Sie wird Ärztin. · Ich arbeite als Kellner. · Er ist Tscheche.\n• S přídavným jménem se ale člen vrací: Er ist ein guter Student.\n• Česky stejně tak — tady je rizikem naopak člen přidat („Er ist ein Student“ zní jako zdůraznění).",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Kdy člen správně chybí u látek a abstrakt?",
+   "back": "Neurčité množství nepočitatelné látky nebo abstraktum obecně → bez členu.\n• Ich trinke Kaffee. · Wir brauchen Milch. · Ich habe Zeit / Hunger / Angst.\n• Konkrétní, známá porce → určitý člen: Der Kaffee ist kalt. Die Milch steht im Kühlschrank.\n• Ustálené vazby: Ich habe Lust, Ich habe Glück, Geduld haben.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Kdy člen chybí v plurálu a u zeměpisných jmen?",
+   "back": "Neurčitý člen nemá plurál: ein Apfel → Äpfel (Ich kaufe Äpfel.)\n• Města a většina zemí jsou bez členu: in Wien, nach Tschechien, aus Österreich.\n• Země S ČLENEM: die Schweiz, die Slowakei, die Türkei, die Ukraine, die Niederlande (Pl.), die USA (Pl.)\n  → in der Schweiz, in die Slowakei, aus den USA.\n• S přívlastkem člen přibude i u měst: das schöne Wien, im alten Prag.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Která ustálená spojení jsou bez členu — a která naopak člen MAJÍ?",
+   "back": "Bez členu: zu Hause, nach Hause, zu Fuß, Ende Mai, Anfang Juni, Mitte Oktober.\n• S členem (Čech ho vynechá): mit dem Bus / mit der U-Bahn / mit dem Zug — „mit Bus“ ✗\n• im Sommer, am Montag, im Mai, am Wochenende — časové předložky se stahují se členem.\n• in der Früh (AT) / am Morgen.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jak zní určitý člen ve čtyřech pádech?",
+   "back": "Nom der/die/das/die · Akk den/die/das/die · Dat dem/der/dem/den · Gen des/der/des/der.\n• Mění se hlavně mužský rod (der → den → dem → des).\n• Ženský rod: die, die, der, der.\n• Plurál: die, die, den (+ -n na podst. jménu: den Kindern), der.\n• Gen. m./n. přidává -s/-es: des Gebäudes, des Hofes.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jak se skloňuje neurčitý člen ein a záporný kein?",
+   "back": "ein: Nom ein/eine/ein · Akk einen/eine/ein · Dat einem/einer/einem · Gen eines/einer/eines.\n• Nom m. a Nom/Akk n. NEMAJÍ koncovku: ein Mann, ein Gebäude.\n• kein se skloňuje stejně + má plurál: keine (Nom/Akk), keinen (Dat), keiner (Gen).\n• kein = „ne + ein“: Ich habe keine Zeit (ne „nicht eine Zeit“).",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Která slova se skloňují jako ein (ein-Wörter)?",
+   "back": "kein + přivlastňovací zájmena: mein, dein, sein, ihr, unser, euer, Ihr.\n• Stejné koncovky jako ein: mein Freund, meinen Freund, meinem Freund.\n• euer ztrácí e: eure Wohnung, euren Hof.\n• ihr = její / jejich, Ihr (velké I) = Váš (vykání): Vielen Dank für Ihr Verständnis.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Která slova se skloňují jako der (der-Wörter)?",
+   "back": "dieser, jeder, welcher, jener, mancher, solcher — mají koncovky určitého členu.\n• der → dieser, den → diesen, dem → diesem, des → dieses\n• die → diese, das → dieses (!)\n• Tvoje chyba: „Diese Gebäude wurde…“ → das Gebäude → „Dieses Gebäude“.\n• jeder je jen v jednotném čísle (jeder Tag, jede Woche, jedes Jahr).",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Proč je „jedes Sommer“ chyba? (časový údaj bez předložky)",
+   "back": "Časový údaj BEZ předložky stojí v AKUZATIVU.\n• jeden Sommer, jeden Tag, letzten Montag, nächsten Monat (m. → -en)\n• jede Woche, nächste Woche (f.) · jedes Jahr, dieses Wochenende (n.)\n• den ganzen Tag, die ganze Nacht.\n• Proto „jeden Sommer“: der Sommer je mužský a v akuzativu → jeden.",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Kdy se předložka stahuje se členem (ins, im, am, zum, zur, beim, vom)?",
+   "back": "Stažení je NORMA, pokud člen nemá zvláštní důraz.\n• in + das = ins (Wohin?: ins Kino) · in + dem = im (Wo?: im Hof) · an + dem = am · zu + dem = zum · zu + der = zur · bei + dem = beim · von + dem = vom\n• Ženský rod se nestahuje s in: „in die Bibliothek“ — „ins Bibliothek“ ✗ (ins = jen das).\n• Mužský rod také ne: „in den Innenhof“ — „ins Innenhof“ ✗.\n• Nestahuje se, když následuje vedlejší věta, která slovo upřesňuje: in dem Haus, in dem ich wohne.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jaký rod má zkratka a zkrácené slovo (die Uni, die U-Bahn, das Kfz)?",
+   "back": "Rod podle plného (posledního) slova.\n• die Uni (die Universität), die Mensa, die U-Bahn (die Bahn)\n• das Kfz (das Kraftfahrzeug), die EU (die Union), der ORF (der Rundfunk)\n• das Auto (das Automobil), das Foto (die Fotografie → ale das Foto!) — výjimky existují.",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Slova se dvěma rody a různým významem — proč je v drilu nenajdeš?",
+   "back": "U nich není „správný“ člen bez kontextu, proto je dril nezkouší.\n• der See (jezero) × die See (moře)\n• der Leiter (vedoucí) × die Leiter (žebřík)\n• das Steuer (volant) × die Steuer (daň)\n• der Moment (okamžik) × das Moment (činitel) · das Band (páska) × der Band (svazek)\n• der Teil / das Teil (díl) — kolísá.",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Kde se rod liší mezi Rakouskem a Německem — a jak se k tomu stavět?",
+   "back": "Obojí je spisovné; v drilu se tato slova NEzkoušejí.\n• AT das E-Mail × DE die E-Mail · AT das Cola × DE die Cola\n• AT der Paprika × DE die Paprika · AT das Keks × DE der Keks\n• AT der Polster × DE das Polster · AT das Service × DE der Service (obsluha, servis)\n• Ve Vídni piš rakouskou variantu, v Německu tu německou — obě jsou správně.",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Prozradí plurál rod podstatného jména?",
+   "back": "Ne — v plurálu je člen VŽDY die, pro všechny rody.\n• der Hof → die Höfe, die Wohnung → die Wohnungen, das Gebäude → die Gebäude\n• Proto „die Gebäude“ v plurálu neříká nic o tom, že v singuláru je das.\n• Učit se oboje: das Gebäude, die Gebäude.",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "basic",
+   "front": "Jak se v tomto modulu dril rodu vyplňuje?",
+   "back": "Do mezery napiš URČITÝ člen v 1. pádě jednotného čísla: der, die, nebo das (malými písmeny).\n• Plurál a český překlad v závorce jsou nápověda k významu, ne k rodu.\n• Kontrola je přísná: „Das“ místo „das“ neprojde.\n• U vět „v kontextu“ píšeš člen v pádě, který věta vyžaduje (den, dem, einer…).",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Zeit (Pl. die Zeiten · čas)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Jahr (Pl. die Jahre · rok)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Tag (Pl. die Tage · den)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Mensch (Pl. die Menschen · člověk)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Leben (život)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Welt (Pl. die Welten · svět)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Land (Pl. die Länder · země, venkov)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Stadt (Pl. die Städte · město)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Haus (Pl. die Häuser · dům)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Arbeit (Pl. die Arbeiten · práce)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Geld (peníze)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Woche (Pl. die Wochen · týden)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Monat (Pl. die Monate · měsíc)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Problem (Pl. die Probleme · problém)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Antwort (Pl. die Antworten · odpověď)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Beispiel (Pl. die Beispiele · příklad)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Weg (Pl. die Wege · cesta)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Wort (slovo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Sprache (Pl. die Sprachen · jazyk)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Buch (Pl. die Bücher · kniha)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Studium (Pl. die Studien · studium)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Seminar (Pl. die Seminare · seminář)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Referat (Pl. die Referate · referát)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Prüfung (Pl. die Prüfungen · zkouška)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Semester (Pl. die Semester · semestr)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Fach (Pl. die Fächer · obor, předmět)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Ergebnis (Pl. die Ergebnisse · výsledek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Bibliothek (Pl. die Bibliotheken · knihovna)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Gebäude (Pl. die Gebäude · budova)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Wohnung (Pl. die Wohnungen · byt)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Zimmer (Pl. die Zimmer · pokoj)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Fenster (Pl. die Fenster · okno)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Tür (Pl. die Türen · dveře)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Hof (Pl. die Höfe · dvůr)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Innenhof (Pl. die Innenhöfe · vnitřní dvůr)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Wochenende (Pl. die Wochenenden · víkend)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Sommer (Pl. die Sommer · léto)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Winter (Pl. die Winter · zima (roční období))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Frühling (jaro)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Herbst (podzim)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Geburtstag (Pl. die Geburtstage · narozeniny)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Feier (Pl. die Feiern · oslava)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Geburtstagsfeier (Pl. die Geburtstagsfeiern · oslava narozenin)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Verständnis (porozumění, pochopení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Erledigung (Pl. die Erledigungen · vyřízení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Verlängerung (Pl. die Verlängerungen · prodloužení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Vormittag (Pl. die Vormittage · dopoledne)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Mittag (Pl. die Mittage · poledne)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Nachmittag (Pl. die Nachmittage · odpoledne)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Abend (Pl. die Abende · večer)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Nacht (Pl. die Nächte · noc)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Essen (Pl. die Essen · jídlo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Frühstück (Pl. die Frühstücke · snídaně)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Mittagessen (Pl. die Mittagessen · oběd)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Abendessen (Pl. die Abendessen · večeře)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Kaffee (Pl. die Kaffees · káva)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Wasser (voda)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Bier (Pl. die Biere · pivo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Wein (Pl. die Weine · víno)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Milch (mléko)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Brot (Pl. die Brote · chléb)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Butter (máslo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Käse (Pl. die Käse · sýr)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Gemüse (zelenina)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Apfel (Pl. die Äpfel · jablko)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Kartoffel (Pl. die Kartoffeln · brambora)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Ei (Pl. die Eier · vejce)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Zucker (cukr)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Salz (sůl)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Geschäft (Pl. die Geschäfte · obchod)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Rechnung (Pl. die Rechnungen · účet (k zaplacení))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Preis (Pl. die Preise · cena)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Straßenbahn (Pl. die Straßenbahnen · tramvaj)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} U-Bahn (Pl. die U-Bahnen · metro)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Bahnhof (Pl. die Bahnhöfe · nádraží)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Fahrschein (Pl. die Fahrscheine · jízdenka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Urlaub (Pl. die Urlaube · dovolená)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Platz (Pl. die Plätze · náměstí, místo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Kirche (Pl. die Kirchen · kostel)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Fluss (Pl. die Flüsse · řeka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Berg (Pl. die Berge · hora)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Wetter (počasí)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Regen (déšť)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Schnee (sníh)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Sonne (Pl. die Sonnen · slunce)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Luft (vzduch)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Telefon (Pl. die Telefone · telefon)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Handy (Pl. die Handys · mobil)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Internet (internet)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Nachricht (Pl. die Nachrichten · zpráva)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Brief (Pl. die Briefe · dopis)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Zeitung (Pl. die Zeitungen · noviny)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Bild (Pl. die Bilder · obraz, obrázek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Foto (Pl. die Fotos · fotka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Lied (Pl. die Lieder · píseň)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Spiel (Pl. die Spiele · hra)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Krankenhaus (Pl. die Krankenhäuser · nemocnice)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Gesundheit (zdraví)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Kopf (Pl. die Köpfe · hlava)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Fuß (Pl. die Füße · chodidlo, noha)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Bein (Pl. die Beine · noha)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Auge (Pl. die Augen · oko)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Körper (Pl. die Körper · tělo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Firma (Pl. die Firmen · firma)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Job (Pl. die Jobs · práce, brigáda)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Kollege (Pl. die Kollegen · kolega)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Büro (Pl. die Büros · kancelář)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Termin (Pl. die Termine · termín, schůzka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Besprechung (Pl. die Besprechungen · porada)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Vertrag (Pl. die Verträge · smlouva)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Lohn (Pl. die Löhne · mzda)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Miete (Pl. die Mieten · nájem)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Küche (Pl. die Küchen · kuchyně)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Bad (Pl. die Bäder · koupelna)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Toilette (Pl. die Toiletten · záchod)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Bett (Pl. die Betten · postel)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Stuhl (Pl. die Stühle · židle)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Schrank (Pl. die Schränke · skříň)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Sofa (Pl. die Sofas · pohovka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Kühlschrank (Pl. die Kühlschränke · lednice)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Schlüssel (Pl. die Schlüssel · klíč)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Treppe (Pl. die Treppen · schodiště, schody)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Stockwerk (Pl. die Stockwerke · patro)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Aufzug (Pl. die Aufzüge · výtah)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Garten (Pl. die Gärten · zahrada)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Wand (Pl. die Wände · stěna)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Boden (Pl. die Böden · podlaha, půda)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Dach (Pl. die Dächer · střecha)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Heizung (Pl. die Heizungen · topení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Müll (odpadky)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Nummer (Pl. die Nummern · číslo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Zahl (Pl. die Zahlen · číslo (počet))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Name (Pl. die Namen · jméno)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Alter (věk)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Geschichte (Pl. die Geschichten · příběh; dějiny)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Wirtschaft (hospodářství)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Gesetz (Pl. die Gesetze · zákon)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Wahl (Pl. die Wahlen · volba, volby)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Krieg (Pl. die Kriege · válka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Umwelt (životní prostředí)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Forschung (Pl. die Forschungen · výzkum)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} System (Pl. die Systeme · systém)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Idee (Pl. die Ideen · nápad, myšlenka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Gedanke (Pl. die Gedanken · myšlenka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Meinung (Pl. die Meinungen · názor)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Grund (Pl. die Gründe · důvod)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Ziel (Pl. die Ziele · cíl)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Entscheidung (Pl. die Entscheidungen · rozhodnutí)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Erfahrung (Pl. die Erfahrungen · zkušenost)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Gefühl (Pl. die Gefühle · pocit)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Angst (Pl. die Ängste · strach)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Liebe (láska)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Glück (štěstí)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Spaß (Pl. die Späße · zábava, legrace)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Erfolg (Pl. die Erfolge · úspěch)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Fehler (Pl. die Fehler · chyba)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Hilfe (Pl. die Hilfen · pomoc)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Ruhe (klid)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Anfang (Pl. die Anfänge · začátek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Ende (Pl. die Enden · konec)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Seite (Pl. die Seiten · strana)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Art (Pl. die Arten · druh, způsob)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Zeugnis (Pl. die Zeugnisse · vysvědčení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Matura (maturita)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Seminararbeit (Pl. die Seminararbeiten · seminární práce)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Abgabe (Pl. die Abgaben · odevzdání)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Frist (Pl. die Fristen · lhůta)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Anmeldung (Pl. die Anmeldungen · přihláška, registrace)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Hörsaal (Pl. die Hörsäle · posluchárna)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Ausweis (Pl. die Ausweise · průkaz)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Lehrveranstaltung (Pl. die Lehrveranstaltungen · kurz, výuka (předmět))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Übung (Pl. die Übungen · cvičení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Skriptum (Pl. die Skripten · skripta)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Artikel (Pl. die Artikel · článek; člen)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Quelle (Pl. die Quellen · zdroj, pramen)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Zitat (Pl. die Zitate · citát, citace)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Kapitel (Pl. die Kapitel · kapitola)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Aufgabe (Pl. die Aufgaben · úkol)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Lösung (Pl. die Lösungen · řešení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Unterricht (výuka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Abschluss (Pl. die Abschlüsse · ukončení studia)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Praktikum (Pl. die Praktika · stáž, praxe)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Bewerbung (Pl. die Bewerbungen · žádost o místo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Lebenslauf (Pl. die Lebensläufe · životopis)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Formular (Pl. die Formulare · formulář)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Amt (Pl. die Ämter · úřad)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Behörde (Pl. die Behörden · úřad)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Konto (Pl. die Konten · účet (v bance))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Versicherung (Pl. die Versicherungen · pojištění, pojišťovna)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Paket (Pl. die Pakete · balík)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Ticket (Pl. die Tickets · lístek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Ausland (cizina, zahraničí)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Heimat (domov, vlast)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Dorf (Pl. die Dörfer · vesnice)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Bezirk (Pl. die Bezirke · obvod, okres)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Gegend (Pl. die Gegenden · okolí, kraj)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Brücke (Pl. die Brücken · most)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Markt (Pl. die Märkte · trh)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Laden (Pl. die Läden · obchod)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Restaurant (Pl. die Restaurants · restaurace)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Lokal (Pl. die Lokale · hospoda, podnik)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Café (Pl. die Cafés · kavárna)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Speisekarte (Pl. die Speisekarten · jídelní lístek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Glas (Pl. die Gläser · sklenice)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Tasse (Pl. die Tassen · hrnek, šálek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Teller (Pl. die Teller · talíř)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Messer (Pl. die Messer · nůž)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Gabel (Pl. die Gabeln · vidlička)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Löffel (Pl. die Löffel · lžíce)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Kleidung (oblečení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Hemd (Pl. die Hemden · košile)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Hose (Pl. die Hosen · kalhoty)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Rock (Pl. die Röcke · sukně)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Kleid (Pl. die Kleider · šaty)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Schuh (Pl. die Schuhe · bota)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Mantel (Pl. die Mäntel · kabát)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Rucksack (Pl. die Rucksäcke · batoh)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Uhr (Pl. die Uhren · hodiny, hodinky)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Regenschirm (Pl. die Regenschirme · deštník)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Geschenk (Pl. die Geschenke · dárek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Party (Pl. die Partys · večírek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Fest (Pl. die Feste · slavnost)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Mädchen (Pl. die Mädchen · dívka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Person (Pl. die Personen · osoba)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Mitglied (Pl. die Mitglieder · člen (spolku))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Vogel (Pl. die Vögel · pták)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Pferd (Pl. die Pferde · kůň)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Baum (Pl. die Bäume · strom)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Wald (Pl. die Wälder · les)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Insel (Pl. die Inseln · ostrov)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Strand (Pl. die Strände · pláž)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Ufer (Pl. die Ufer · břeh)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Himmel (Pl. die Himmel · nebe, obloha)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Stern (Pl. die Sterne · hvězda)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Feuer (Pl. die Feuer · oheň)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Gewicht (Pl. die Gewichte · váha, hmotnost)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Menge (Pl. die Mengen · množství)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Stück (Pl. die Stücke · kus)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Rest (Pl. die Reste · zbytek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Beziehung (Pl. die Beziehungen · vztah)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Entwicklung (Pl. die Entwicklungen · vývoj)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Bericht (Pl. die Berichte · zpráva, hlášení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Bedeutung (Pl. die Bedeutungen · význam)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Satz (Pl. die Sätze · věta)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Regel (Pl. die Regeln · pravidlo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Ausnahme (Pl. die Ausnahmen · výjimka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Unterschied (Pl. die Unterschiede · rozdíl)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Wunsch (Pl. die Wünsche · přání)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Vorschlag (Pl. die Vorschläge · návrh)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Zukunft (budoucnost)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Jahrhundert (Pl. die Jahrhunderte · století)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Augenblick (Pl. die Augenblicke · okamžik)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Beruf (Pl. die Berufe · povolání)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Stelle (Pl. die Stellen · místo (pracovní))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Ausbildung (Pl. die Ausbildungen · vzdělání, výcvik)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Renovierung (Pl. die Renovierungen · renovace)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Baustelle (Pl. die Baustellen · staveniště)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Lärm (hluk)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Hausverwaltung (Pl. die Hausverwaltungen · správa domu)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Stiegenhaus (Pl. die Stiegenhäuser · schodiště (AT))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Gang (Pl. die Gänge · chodba)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Semmel (Pl. die Semmeln · houska)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Jause (Pl. die Jausen · svačina)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Topfen (tvaroh)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Schlagobers (šlehačka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Sackerl (Pl. die Sackerl · sáček, taška (AT))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Kipferl (Pl. die Kipferl · rohlík (AT))",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Schnaps (Pl. die Schnäpse · pálenka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Wodka (Pl. die Wodkas · vodka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Kuchen (Pl. die Kuchen · koláč, buchta)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Torte (Pl. die Torten · dort)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Saft (Pl. die Säfte · džus, šťáva)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Reis (rýže)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Wurst (Pl. die Würste · uzenina, klobása)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Schnitzel (Pl. die Schnitzel · řízek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Knödel (Pl. die Knödel · knedlík)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Zwiebel (Pl. die Zwiebeln · cibule)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Senf (hořčice)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Öl (Pl. die Öle · olej)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Montag (Pl. die Montage · pondělí)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Mittwoch (Pl. die Mittwoche · středa)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Sonntag (Pl. die Sonntage · neděle)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Frühjahr (Pl. die Frühjahre · jaro)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Norden (sever)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Freiheit (Pl. die Freiheiten · svoboda)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Freundschaft (Pl. die Freundschaften · přátelství)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Mannschaft (Pl. die Mannschaften · tým, mužstvo)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Qualität (Pl. die Qualitäten · kvalita)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Konferenz (Pl. die Konferenzen · konference)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Bäckerei (Pl. die Bäckereien · pekárna)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Häuschen (Pl. die Häuschen · domek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Märchen (Pl. die Märchen · pohádka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Dokument (Pl. die Dokumente · dokument)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Argument (Pl. die Argumente · argument)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Instrument (Pl. die Instrumente · nástroj)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Datum (Pl. die Daten · datum)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Gebirge (Pl. die Gebirge · pohoří)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Gespräch (Pl. die Gespräche · rozhovor)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Gesicht (Pl. die Gesichter · obličej)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Getränk (Pl. die Getränke · nápoj)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Gepäck (zavazadla)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Erlebnis (Pl. die Erlebnisse · zážitek)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Ereignis (Pl. die Ereignisse · událost)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Lesen (čtení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Treffen (Pl. die Treffen · setkání, schůzka)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Eigentum (vlastnictví)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Schmetterling (Pl. die Schmetterlinge · motýl)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Honig (med)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Labor (laboratoř)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Talent (Pl. die Talente · talent)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Prozent (Pl. die Prozente · procento)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Genie (Pl. die Genies · génius)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Knie (Pl. die Knie · koleno)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Interesse (Pl. die Interessen · zájem)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Löwe (Pl. die Löwen · lev)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Erlaubnis (Pl. die Erlaubnisse · povolení)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Kenntnis (Pl. die Kenntnisse · znalost)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Reichtum (Pl. die Reichtümer · bohatství)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Irrtum (Pl. die Irrtümer · omyl)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Geschmack (chuť, vkus)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Gefahr (Pl. die Gefahren · nebezpečí)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{die}} Geduld (trpělivost)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{der}} Gewinn (Pl. die Gewinne · zisk, výhra)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Benzin (benzín)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{das}} Hotel (Pl. die Hotels · hotel)",
+   "kind": "cloze",
+   "level": 1,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{das}} Referat gestern Abend fertig geschrieben. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Kannst du mir bitte {{den}} Schlüssel geben? (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe morgen {{einen}} Termin beim Zahnarzt. (unbestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir suchen {{eine}} Wohnung im 7. Bezirk. (unbestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Zimmer hat {{ein}} großes Fenster zum Hof. (unbestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ohne {{einen}} Fahrschein darfst du nicht mit der U-Bahn fahren. (unbestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Seit {{einem}} Jahr wohne ich in Wien. (unbestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich gehe heute in {{die}} Bibliothek. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Nach der Vorlesung lerne ich noch zwei Stunden in {{der}} Bibliothek. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Kinder spielen {{im}} Innenhof. (in + Artikel, zusammengezogen)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben die Fahrräder in {{den}} Innenhof gestellt. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Heute Abend gehen wir {{ins}} Kino. (in + Artikel, zusammengezogen)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Gebäude steht direkt neben {{dem}} Bahnhof. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich wohne in {{einer}} kleinen Wohnung im 15. Bezirk. (unbestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich hätte gern ein Zimmer mit {{einem}} großen Fenster. (unbestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich brauche noch eine Woche für {{die}} Erledigung der Formalitäten. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich lege das Buch auf {{den}} Tisch. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Buch liegt auf {{dem}} Tisch. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich hänge das Bild an {{die}} Wand. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir treffen uns vor {{dem}} Hauptgebäude der Universität. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich warte seit zwanzig Minuten auf {{den}} Bus. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich fahre jeden Tag mit {{der}} U-Bahn zur Uni. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Vielen Dank für {{Ihr}} Verständnis. (Ihr-, formell)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Dieses}} Gebäude wurde 1890 gebaut. (dies-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Jeden}} Sommer fahren wir zu meinen Großeltern nach Brünn. (jed-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Jedes}} Wochenende fahre ich nach Hause. (jed-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich trinke {{jeden}} Morgen einen Kaffee. (jed-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe leider {{keine}} Zeit, ich muss für die Prüfung lernen. (kein-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe noch {{kein}} Ergebnis bekommen. (kein-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{keinen}} Platz mehr in der Lehrveranstaltung bekommen. (kein-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich helfe {{meiner}} Schwester beim Umzug. (mein-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich rufe heute Abend {{meinen}} Vater an. (mein-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Ich habe {{meinem}} Bruder ein Buch geschenkt. (mein-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Hast du {{deinen}} Studierendenausweis dabei? (dein-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wir haben {{unsere}} Wohnung selbst renoviert. (unser-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Welches}} Fach studierst du? (welch-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "In {{welchem}} Stock wohnst du? (welch-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Diesen}} Film habe ich schon dreimal gesehen. (dies-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Mit {{diesem}} Ergebnis bin ich sehr zufrieden. (dies-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "{{Unser}} Innenhof wird gerade renoviert. (unser-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Meine Tante hat am Samstag {{ihren}} vierzigsten Geburtstag gefeiert. (ihr-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Wegen {{des}} Regens ist die Feier im Innenhof ausgefallen. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Während {{des}} Semesters arbeite ich zehn Stunden pro Woche. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das ist das Büro {{meines}} Professors. (mein-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Die Öffnungszeiten {{der}} Bibliothek stehen auf der Website. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 1,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Trotz {{des}} schlechten Wetters sind wir in den Prater gegangen. (bestimmter Artikel)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  },
+  {
+   "type": "cloze",
+   "text": "Das Fenster {{meines}} Zimmers geht auf den Hof. (mein-)",
+   "kind": "cloze",
+   "level": 2,
+   "priority": 2,
+   "topic": "1 · Genus und Artikel",
+   "tags": [
+    "deutsch",
+    "streng",
+    "m1"
+   ]
+  }
+ ]
+}
