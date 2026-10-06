@@ -569,6 +569,7 @@ export const de: Messages = {
   mcLevelBelow: (l: string) => `Noch unter ${l}`,
   mcLevelHint: 'Das Niveau zählt ohne Lücken: mindestens 70 % darauf und auf allen niedrigeren Stufen. Ein starkes C1 über einem schwachen B2 ist eher Raten nach Gehör als sichere Grammatik.',
   mcAreasTitle: 'Bereiche in diesem Test (schwächste zuerst)',
+  mcPlacementTitle: 'Einstufungstest',
   mcTitle: 'Probeklausur',
   mcRowSub: (n: number) => `${n} Fragen im Prüfungsstil · mit Zeitlimit und Teilpunkten`,
   mcBankSize: (n: number) => `${n} Fragen im Pool`,

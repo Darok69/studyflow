@@ -559,6 +559,7 @@ export const en: Messages = {
   mcLevelBelow: (l: string) => `Not yet at ${l}`,
   mcLevelHint: 'The level counts without gaps: at least 70 % on it and on every lower level. A strong C1 over a weak B2 is ear-based guessing rather than secure grammar.',
   mcAreasTitle: 'Areas in this test (weakest first)',
+  mcPlacementTitle: 'Placement test',
   mcTitle: 'Mock exam',
   mcRowSub: (n: number) => `${n} exam-style questions · timed, partial credit`,
   mcBankSize: (n: number) => `${n} questions in the bank`,

@@ -1,0 +1,2229 @@
+{
+ "lecture_id": "DE00",
+ "questions": [
+  {
+   "id": "DE00-001",
+   "level": "A2",
+   "topic": "Genus und Artikel",
+   "type": "single",
+   "q": "Kannst du mir bitte ___ Messer geben? Ich muss das Brot schneiden.",
+   "options": [
+    {
+     "t": "das",
+     "correct": true
+    },
+    {
+     "t": "den",
+     "correct": false
+    },
+    {
+     "t": "dem",
+     "correct": false
+    },
+    {
+     "t": "der",
+     "correct": false
+    }
+   ],
+   "explain": "das Messer je neutrum; v akuzativu zůstává „das“ (ein Messer / das Messer). Rod se u podstatných jmen musí učit s členem — podle češtiny ani podle sluchu se odhadnout nedá.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-002",
+   "level": "A2",
+   "topic": "Genus und Artikel",
+   "type": "single",
+   "q": "___ Mädchen dort drüben ist meine Schwester.",
+   "options": [
+    {
+     "t": "Die",
+     "correct": false
+    },
+    {
+     "t": "Der",
+     "correct": false
+    },
+    {
+     "t": "Den",
+     "correct": false
+    },
+    {
+     "t": "Das",
+     "correct": true
+    }
+   ],
+   "explain": "Všechna podstatná jména na -chen a -lein jsou neutra (das Mädchen, das Fräulein) bez ohledu na přirozený rod.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-003",
+   "level": "A2",
+   "topic": "Kasus",
+   "type": "single",
+   "q": "Ich helfe ___ Vater im Garten.",
+   "options": [
+    {
+     "t": "mein",
+     "correct": false
+    },
+    {
+     "t": "meiner",
+     "correct": false
+    },
+    {
+     "t": "meinem",
+     "correct": true
+    },
+    {
+     "t": "meinen",
+     "correct": false
+    }
+   ],
+   "explain": "helfen se váže s dativem (jemandem helfen) → der Vater v dativu = meinem Vater.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-004",
+   "level": "A2",
+   "topic": "Kasus",
+   "type": "single",
+   "q": "Ich besuche morgen ___ Großvater.",
+   "options": [
+    {
+     "t": "meiner",
+     "correct": false
+    },
+    {
+     "t": "meinen",
+     "correct": true
+    },
+    {
+     "t": "meinem",
+     "correct": false
+    },
+    {
+     "t": "mein",
+     "correct": false
+    }
+   ],
+   "explain": "besuchen se váže s akuzativem (jemanden besuchen) → mužský rod v akuzativu = meinen.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-005",
+   "level": "A2",
+   "topic": "Präpositionen",
+   "type": "single",
+   "q": "Ich fahre jeden Tag ___ Bus zur Uni.",
+   "options": [
+    {
+     "t": "mit dem",
+     "correct": true
+    },
+    {
+     "t": "mit den",
+     "correct": false
+    },
+    {
+     "t": "mit der",
+     "correct": false
+    },
+    {
+     "t": "mit das",
+     "correct": false
+    }
+   ],
+   "explain": "mit vždy s dativem; der Bus → dem Bus. „mit den Bus“ je typická chyba (akuzativ po mit).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-006",
+   "level": "A2",
+   "topic": "Präpositionen",
+   "type": "single",
+   "q": "Ich habe die Milch in ___ Kühlschrank gestellt.",
+   "options": [
+    {
+     "t": "dem",
+     "correct": false
+    },
+    {
+     "t": "der",
+     "correct": false
+    },
+    {
+     "t": "das",
+     "correct": false
+    },
+    {
+     "t": "den",
+     "correct": true
+    }
+   ],
+   "explain": "Předložky se dvěma pády (in, an, auf…): kam? (pohyb, stellen/legen/setzen) → akuzativ; kde? (stehen/liegen) → dativ. Tady „kam“ → in den Kühlschrank.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-007",
+   "level": "A2",
+   "topic": "Adjektivdeklination",
+   "type": "single",
+   "q": "Das ist ein sehr ___ Buch.",
+   "options": [
+    {
+     "t": "interessanter",
+     "correct": false
+    },
+    {
+     "t": "interessanten",
+     "correct": false
+    },
+    {
+     "t": "interessantes",
+     "correct": true
+    },
+    {
+     "t": "interessante",
+     "correct": false
+    }
+   ],
+   "explain": "Po neurčitém členu „ein“ (bez koncovky) nese rod přídavné jméno: neutrum nominativ → -es.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-008",
+   "level": "A2",
+   "topic": "Verbstellung",
+   "type": "single",
+   "q": "Heute Abend ___ ins Kino.",
+   "options": [
+    {
+     "t": "ich gehen",
+     "correct": false
+    },
+    {
+     "t": "gehe ich",
+     "correct": true
+    },
+    {
+     "t": "ich gehe",
+     "correct": false
+    },
+    {
+     "t": "gehen ich",
+     "correct": false
+    }
+   ],
+   "explain": "Ve větě oznamovací stojí sloveso vždy na 2. místě. Když je na 1. místě „Heute Abend“, podmět jde až za sloveso (inverze).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-009",
+   "level": "A2",
+   "topic": "Verbstellung",
+   "type": "single",
+   "q": "Ich komme nicht mit, weil ___. (geschriebene Standardsprache)",
+   "options": [
+    {
+     "t": "ich keine Zeit habe",
+     "correct": true
+    },
+    {
+     "t": "ich habe keine Zeit",
+     "correct": false
+    },
+    {
+     "t": "habe ich keine Zeit",
+     "correct": false
+    },
+    {
+     "t": "keine Zeit ich habe",
+     "correct": false
+    }
+   ],
+   "explain": "weil, dass, ob, obwohl, wenn… uvozují vedlejší větu → určité sloveso jde na KONEC. „weil ich hab keine Zeit“ se slyší v mluvené řeči, ve spisovném psaném jazyce je to chyba.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-010",
+   "level": "A2",
+   "topic": "Perfekt und Präteritum",
+   "type": "single",
+   "q": "Gestern ___ ich nach Salzburg gefahren.",
+   "options": [
+    {
+     "t": "habe",
+     "correct": false
+    },
+    {
+     "t": "hatte",
+     "correct": false
+    },
+    {
+     "t": "ist",
+     "correct": false
+    },
+    {
+     "t": "bin",
+     "correct": true
+    }
+   ],
+   "explain": "Slovesa pohybu z místa na místo (fahren, gehen, fliegen) bez předmětu tvoří perfektum se „sein“.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-011",
+   "level": "A2",
+   "topic": "Perfekt und Präteritum",
+   "type": "single",
+   "q": "Was ___ passiert? Du siehst so blass aus.",
+   "options": [
+    {
+     "t": "hast",
+     "correct": false
+    },
+    {
+     "t": "bist",
+     "correct": false
+    },
+    {
+     "t": "ist",
+     "correct": true
+    },
+    {
+     "t": "hat",
+     "correct": false
+    }
+   ],
+   "explain": "passieren (stát se) tvoří perfektum se „sein“ – stejně jako geschehen, werden, bleiben, sein.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-012",
+   "level": "A2",
+   "topic": "Modalverben und Infinitiv",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Ich muss morgen früh aufstehen.",
+     "correct": true
+    },
+    {
+     "t": "Ich muss morgen früh aufzustehen.",
+     "correct": false
+    },
+    {
+     "t": "Er kann sehr gut Deutsch sprechen.",
+     "correct": true
+    },
+    {
+     "t": "Wir wollen heute ins Kino zu gehen.",
+     "correct": false
+    },
+    {
+     "t": "Du darfst hier nicht rauchen.",
+     "correct": true
+    }
+   ],
+   "explain": "Po způsobových slovesech (müssen, können, wollen, dürfen, sollen, mögen) stojí holý infinitiv BEZ „zu“ na konci věty.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-013",
+   "level": "B1",
+   "topic": "Genus und Artikel",
+   "type": "multi",
+   "q": "Bei welchen Wörtern ist der Artikel richtig?",
+   "options": [
+    {
+     "t": "der Käse",
+     "correct": true
+    },
+    {
+     "t": "das Problem",
+     "correct": true
+    },
+    {
+     "t": "der Ergebnis",
+     "correct": false
+    },
+    {
+     "t": "die Datum",
+     "correct": false
+    },
+    {
+     "t": "der Erfolg",
+     "correct": true
+    }
+   ],
+   "explain": "das Ergebnis (přípona -nis je většinou neutrum), das Datum (latinská -um = neutrum), das Problem (i když česky „ten problém“). der Käse, der Erfolg.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-014",
+   "level": "B1",
+   "topic": "Kasus",
+   "type": "single",
+   "q": "Ich habe ___ gestern angerufen.",
+   "options": [
+    {
+     "t": "dir",
+     "correct": false
+    },
+    {
+     "t": "du",
+     "correct": false
+    },
+    {
+     "t": "deiner",
+     "correct": false
+    },
+    {
+     "t": "dich",
+     "correct": true
+    }
+   ],
+   "explain": "anrufen = jemanden anrufen (akuzativ). Česky „zavolat někomu“ (dativ) → typická chyba z češtiny. „jemandem anrufen“ je jen švýcarská varianta; v Rakousku i Německu platí akuzativ.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-015",
+   "level": "B1",
+   "topic": "Präpositionen",
+   "type": "single",
+   "q": "Ich warte schon seit ___ auf dich.",
+   "options": [
+    {
+     "t": "einer Stunden",
+     "correct": false
+    },
+    {
+     "t": "ein Stunde",
+     "correct": false
+    },
+    {
+     "t": "einer Stunde",
+     "correct": true
+    },
+    {
+     "t": "eine Stunde",
+     "correct": false
+    }
+   ],
+   "explain": "seit vždy s dativem: die Stunde → seit einer Stunde.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-016",
+   "level": "B1",
+   "topic": "Adjektivdeklination",
+   "type": "single",
+   "q": "Mit ___ Freunden fahre ich nächste Woche nach Graz.",
+   "options": [
+    {
+     "t": "meinem alten",
+     "correct": false
+    },
+    {
+     "t": "meinen alten",
+     "correct": true
+    },
+    {
+     "t": "meine alten",
+     "correct": false
+    },
+    {
+     "t": "meinen alte",
+     "correct": false
+    }
+   ],
+   "explain": "Dativ plurálu: člen/přivlastňovací zájmeno -en, přídavné jméno -en, podstatné jméno -n (meinen alten Freunden).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-017",
+   "level": "B1",
+   "topic": "Adjektivdeklination",
+   "type": "single",
+   "q": "Wir haben in einem ___ Restaurant gegessen.",
+   "options": [
+    {
+     "t": "kleinen",
+     "correct": true
+    },
+    {
+     "t": "kleinem",
+     "correct": false
+    },
+    {
+     "t": "kleines",
+     "correct": false
+    },
+    {
+     "t": "kleine",
+     "correct": false
+    }
+   ],
+   "explain": "Když člen už nese znak pádu (einem = dativ), přídavné jméno má jen -en. Koncovka -em jen tam, kde žádný člen není (mit kleinem Budget).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-018",
+   "level": "B1",
+   "topic": "Verbstellung",
+   "type": "single",
+   "q": "Ich weiß nicht, ob er heute ___.",
+   "options": [
+    {
+     "t": "kann kommen",
+     "correct": false
+    },
+    {
+     "t": "kommt kann",
+     "correct": false
+    },
+    {
+     "t": "können kommt",
+     "correct": false
+    },
+    {
+     "t": "kommen kann",
+     "correct": true
+    }
+   ],
+   "explain": "Ve vedlejší větě jde určité sloveso (kann) úplně na konec, za infinitiv: …, ob er kommen kann.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-019",
+   "level": "B1",
+   "topic": "Verbstellung",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Obwohl es regnet, gehen wir spazieren.",
+     "correct": true
+    },
+    {
+     "t": "Obwohl es regnet, wir gehen spazieren.",
+     "correct": false
+    },
+    {
+     "t": "Ich glaube, dass er hat recht.",
+     "correct": false
+    },
+    {
+     "t": "Wenn du Zeit hast, ruf mich an!",
+     "correct": true
+    },
+    {
+     "t": "Gestern ich habe meine Oma besucht.",
+     "correct": false
+    }
+   ],
+   "explain": "Když věta začíná vedlejší větou nebo příslovcem, zabírá to 1. místo → hned následuje sloveso (…, gehen wir). Po „dass“ jde sloveso na konec (dass er recht hat).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-020",
+   "level": "B1",
+   "topic": "Perfekt und Präteritum",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Ich bin gestern meiner Lehrerin begegnet.",
+     "correct": true
+    },
+    {
+     "t": "Wir haben um 7 Uhr aufgewacht.",
+     "correct": false
+    },
+    {
+     "t": "Der Film hat um 8 Uhr angefangen.",
+     "correct": true
+    },
+    {
+     "t": "Was ist dir passiert?",
+     "correct": true
+    },
+    {
+     "t": "Er hat nach Linz umgezogen.",
+     "correct": false
+    }
+   ],
+   "explain": "sein: změna stavu nebo místa a begegnen, passieren (ist begegnet, ist aufgewacht, ist umgezogen = přestěhoval se). haben: anfangen, beginnen (hat angefangen).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-021",
+   "level": "B1",
+   "topic": "Modalverben und Infinitiv",
+   "type": "single",
+   "q": "Ich habe keine Lust, heute ___.",
+   "options": [
+    {
+     "t": "einkaufen zu gehen",
+     "correct": true
+    },
+    {
+     "t": "einkaufen gehen",
+     "correct": false
+    },
+    {
+     "t": "zu einkaufen gehen",
+     "correct": false
+    },
+    {
+     "t": "einkaufen gehen zu",
+     "correct": false
+    }
+   ],
+   "explain": "Po „Lust haben“, „Zeit haben“, „vergessen“, „versuchen“ apod. následuje infinitiv se „zu“; „zu“ stojí před POSLEDNÍM slovesem.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-022",
+   "level": "B1",
+   "topic": "Verben mit Präpositionen und Reflexivität",
+   "type": "single",
+   "q": "Er interessiert sich sehr ___ Geschichte.",
+   "options": [
+    {
+     "t": "an",
+     "correct": false
+    },
+    {
+     "t": "über",
+     "correct": false
+    },
+    {
+     "t": "auf",
+     "correct": false
+    },
+    {
+     "t": "für",
+     "correct": true
+    }
+   ],
+   "explain": "sich interessieren FÜR + akuzativ. (Pozor: „Interesse AN“ a „interessiert sein AN“ – předložku určuje konkrétní slovo.)",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-023",
+   "level": "B1",
+   "topic": "Verben mit Präpositionen und Reflexivität",
+   "type": "single",
+   "q": "Ich kann ___ seinen Namen nicht erinnern.",
+   "options": [
+    {
+     "t": "mich auf",
+     "correct": false
+    },
+    {
+     "t": "mir",
+     "correct": false
+    },
+    {
+     "t": "mich an",
+     "correct": true
+    },
+    {
+     "t": "mir an",
+     "correct": false
+    }
+   ],
+   "explain": "sich (Akk.) erinnern AN + akuzativ: Ich erinnere mich an ihn. Zvratné zájmeno je v akuzativu (mich, ne mir).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-024",
+   "level": "B1",
+   "topic": "Konjunktiv II",
+   "type": "single",
+   "q": "Wenn ich mehr Zeit ___, würde ich öfter Sport machen.",
+   "options": [
+    {
+     "t": "würde",
+     "correct": false
+    },
+    {
+     "t": "hätte",
+     "correct": true
+    },
+    {
+     "t": "habe",
+     "correct": false
+    },
+    {
+     "t": "hatte",
+     "correct": false
+    }
+   ],
+   "explain": "Neskutečná podmínka v přítomnosti: Konjunktiv II – u haben/sein a modálních sloves jednoslovně (hätte, wäre, könnte), u ostatních würde + infinitiv.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-025",
+   "level": "B1",
+   "topic": "Konjunktiv II",
+   "type": "single",
+   "q": "An deiner Stelle ___ ich zum Arzt gehen.",
+   "options": [
+    {
+     "t": "würde",
+     "correct": true
+    },
+    {
+     "t": "werde",
+     "correct": false
+    },
+    {
+     "t": "wurde",
+     "correct": false
+    },
+    {
+     "t": "wäre",
+     "correct": false
+    }
+   ],
+   "explain": "Rada/hypotéza („na tvém místě“) → Konjunktiv II: würde + infinitiv. werde = budoucí čas, wurde = minulý čas od werden.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-026",
+   "level": "B1",
+   "topic": "Passiv",
+   "type": "single",
+   "q": "Unser Haus ___ im Jahr 1900 gebaut worden.",
+   "options": [
+    {
+     "t": "hat",
+     "correct": false
+    },
+    {
+     "t": "wurde",
+     "correct": false
+    },
+    {
+     "t": "wird",
+     "correct": false
+    },
+    {
+     "t": "ist",
+     "correct": true
+    }
+   ],
+   "explain": "Perfektum trpného rodu: sein + příčestí + „worden“ (ist gebaut worden). Trpný rod nikdy nemá „haben“.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-027",
+   "level": "B1",
+   "topic": "Relativsätze und Pronomen",
+   "type": "single",
+   "q": "Das ist der Mann, ___ ich gestern geholfen habe.",
+   "options": [
+    {
+     "t": "der",
+     "correct": false
+    },
+    {
+     "t": "dessen",
+     "correct": false
+    },
+    {
+     "t": "dem",
+     "correct": true
+    },
+    {
+     "t": "den",
+     "correct": false
+    }
+   ],
+   "explain": "Pád vztažného zájmena určuje sloveso ve VEDLEJŠÍ větě: helfen + dativ → dem.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-028",
+   "level": "B1",
+   "topic": "Konnektoren",
+   "type": "single",
+   "q": "___ ich gestern nach Hause kam, war niemand da.",
+   "options": [
+    {
+     "t": "Ob",
+     "correct": false
+    },
+    {
+     "t": "Als",
+     "correct": true
+    },
+    {
+     "t": "Wenn",
+     "correct": false
+    },
+    {
+     "t": "Wann",
+     "correct": false
+    }
+   ],
+   "explain": "als = jednorázová událost v minulosti; wenn = opakovaně (jedes Mal, wenn) nebo přítomnost/budoucnost; wann = jen otázka „kdy?“.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-029",
+   "level": "B2",
+   "topic": "Genus und Artikel",
+   "type": "single",
+   "q": "Im nächsten Semester belege ich ___ Seminar über Stadtgeografie.",
+   "options": [
+    {
+     "t": "ein",
+     "correct": true
+    },
+    {
+     "t": "einen",
+     "correct": false
+    },
+    {
+     "t": "eine",
+     "correct": false
+    },
+    {
+     "t": "einem",
+     "correct": false
+    }
+   ],
+   "explain": "das Seminar, das Semester, das Studium, das Referat – neutra (česky seminář/semestr jsou mužského rodu → typická chyba). Akuzativ neutra = ein.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-030",
+   "level": "B2",
+   "topic": "Kasus",
+   "type": "single",
+   "q": "Darf ich ___ etwas fragen? (geschriebene Standardsprache)",
+   "options": [
+    {
+     "t": "Ihnen",
+     "correct": false
+    },
+    {
+     "t": "Ihr",
+     "correct": false
+    },
+    {
+     "t": "Ihrer",
+     "correct": false
+    },
+    {
+     "t": "Sie",
+     "correct": true
+    }
+   ],
+   "explain": "fragen má DVA akuzativy: jemanden etwas fragen → Darf ich Sie etwas fragen? „Darf ich Ihnen etwas fragen“ uslyšíš v Rakousku a jižním Německu často, ale je to regionální hovorová vazba, ne spisovná norma (dativ je u „sagen“: Darf ich Ihnen etwas sagen?).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-031",
+   "level": "B2",
+   "topic": "Präpositionen",
+   "type": "single",
+   "q": "___ des schlechten Wetters fand das Konzert im Freien statt.",
+   "options": [
+    {
+     "t": "Trotzdem",
+     "correct": false
+    },
+    {
+     "t": "Dennoch",
+     "correct": false
+    },
+    {
+     "t": "Trotz",
+     "correct": true
+    },
+    {
+     "t": "Obwohl",
+     "correct": false
+    }
+   ],
+   "explain": "Před podstatným jménem v genitivu jen PŘEDLOŽKA trotz. obwohl je spojka (+ vedlejší věta), trotzdem/dennoch jsou příslovce (+ sloveso hned za nimi).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-032",
+   "level": "B2",
+   "topic": "Adjektivdeklination",
+   "type": "single",
+   "q": "Bei ___ Wetter bleiben wir lieber drinnen.",
+   "options": [
+    {
+     "t": "schlechter",
+     "correct": false
+    },
+    {
+     "t": "schlechtem",
+     "correct": true
+    },
+    {
+     "t": "schlechten",
+     "correct": false
+    },
+    {
+     "t": "schlechtes",
+     "correct": false
+    }
+   ],
+   "explain": "Bez členu nese pádovou koncovku přídavné jméno samo („silné skloňování“): dativ neutra -em (bei schlechtem Wetter).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-033",
+   "level": "B2",
+   "topic": "Verbstellung",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Es regnete stark, trotzdem gingen wir spazieren.",
+     "correct": true
+    },
+    {
+     "t": "Es regnete stark, deshalb wir sind zu Hause geblieben.",
+     "correct": false
+    },
+    {
+     "t": "Kannst du es mir morgen zurückgeben?",
+     "correct": true
+    },
+    {
+     "t": "Ich habe vergessen, dass ich sollte ihn anrufen.",
+     "correct": false
+    },
+    {
+     "t": "Sobald ich fertig bin, rufe ich dich an.",
+     "correct": true
+    }
+   ],
+   "explain": "trotzdem/deshalb/dann jsou příslovce na 1. místě → sloveso hned za nimi (deshalb sind wir…). Dvě zájmena: akuzativ před dativem (es mir). Po „dass“ sloveso na konec.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-034",
+   "level": "B2",
+   "topic": "Perfekt und Präteritum",
+   "type": "single",
+   "q": "Gestern ___ er den ganzen Tag im Bett, weil er krank war.",
+   "options": [
+    {
+     "t": "legte",
+     "correct": false
+    },
+    {
+     "t": "liegte",
+     "correct": false
+    },
+    {
+     "t": "lagte",
+     "correct": false
+    },
+    {
+     "t": "lag",
+     "correct": true
+    }
+   ],
+   "explain": "liegen (ležet) je silné: liegen – lag – gelegen. legen (položit něco) je slabé a potřebuje předmět: Er legte das Buch auf den Tisch.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-035",
+   "level": "B2",
+   "topic": "Modalverben und Infinitiv",
+   "type": "single",
+   "q": "Wir haben das leider vorher nicht ___.",
+   "options": [
+    {
+     "t": "gewusst können",
+     "correct": false
+    },
+    {
+     "t": "zu wissen gekonnt",
+     "correct": false
+    },
+    {
+     "t": "wissen können",
+     "correct": true
+    },
+    {
+     "t": "wissen gekonnt",
+     "correct": false
+    }
+   ],
+   "explain": "Modální sloveso + infinitiv v perfektu: místo příčestí stojí infinitiv modálního slovesa („Ersatzinfinitiv“): haben … wissen können / kommen müssen.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-036",
+   "level": "B2",
+   "topic": "Verben mit Präpositionen und Reflexivität",
+   "type": "single",
+   "q": "Es kommt ___ an, wie viel Zeit wir haben.",
+   "options": [
+    {
+     "t": "davon",
+     "correct": false
+    },
+    {
+     "t": "darauf",
+     "correct": true
+    },
+    {
+     "t": "daran",
+     "correct": false
+    },
+    {
+     "t": "dafür",
+     "correct": false
+    }
+   ],
+   "explain": "es kommt auf etwas an = záleží na něčem (pozor: „abhängen VON“ – Es hängt davon ab). Zájmenné příslovce da(r)+předložka odkazuje na vedlejší větu.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-037",
+   "level": "B2",
+   "topic": "Konjunktiv II",
+   "type": "single",
+   "q": "Wenn du mich angerufen ___, wäre ich gekommen.",
+   "options": [
+    {
+     "t": "hättest",
+     "correct": true
+    },
+    {
+     "t": "hast",
+     "correct": false
+    },
+    {
+     "t": "würdest",
+     "correct": false
+    },
+    {
+     "t": "wärst",
+     "correct": false
+    }
+   ],
+   "explain": "Neskutečná podmínka v minulosti: hätte/wäre + příčestí minulé. anrufen má perfektum s haben → hättest angerufen.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-038",
+   "level": "B2",
+   "topic": "Konjunktiv II",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Ich wünschte, ich hätte mehr Zeit.",
+     "correct": true
+    },
+    {
+     "t": "Wenn ich du wäre, ich würde das nicht machen.",
+     "correct": false
+    },
+    {
+     "t": "Er tut so, als ob er nichts wüsste.",
+     "correct": true
+    },
+    {
+     "t": "Ich hätte gestern gerne gekommen.",
+     "correct": false
+    },
+    {
+     "t": "Wenn ich Zeit hatte, würde ich kommen.",
+     "correct": false
+    }
+   ],
+   "explain": "Po vedlejší větě s wenn jde sloveso hlavní věty na 1. místo (…, würde ich). V minulosti zůstává pomocné sloveso z perfekta: kommen → wäre gekommen. V podmínce Konjunktiv II (hätte), ne préteritum (hatte).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-039",
+   "level": "B2",
+   "topic": "Passiv",
+   "type": "single",
+   "q": "Die Tür ___ schon seit einer Stunde geöffnet, als wir ankamen.",
+   "options": [
+    {
+     "t": "hatte",
+     "correct": false
+    },
+    {
+     "t": "wird",
+     "correct": false
+    },
+    {
+     "t": "war",
+     "correct": true
+    },
+    {
+     "t": "wurde",
+     "correct": false
+    }
+   ],
+   "explain": "Stavový pasiv (sein + příčestí) = výsledný stav, může trvat („seit einer Stunde“). Dějový pasiv (werden + příčestí) = samotný děj otevírání.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-040",
+   "level": "B2",
+   "topic": "Passiv",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Das Problem muss sofort gelöst werden.",
+     "correct": true
+    },
+    {
+     "t": "Das Problem muss sofort gelöst worden.",
+     "correct": false
+    },
+    {
+     "t": "Mir wurde gesagt, dass der Kurs ausfällt.",
+     "correct": true
+    },
+    {
+     "t": "Ich wurde gesagt, dass der Kurs ausfällt.",
+     "correct": false
+    },
+    {
+     "t": "Der Brief ist gestern abgeschickt geworden.",
+     "correct": false
+    }
+   ],
+   "explain": "Modál + pasiv: příčestí + „werden“. Perfektum pasivu má „worden“ (ne geworden). Dativ v činné větě zůstává v pasivu dativem: Man sagte MIR → Mir wurde gesagt.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-041",
+   "level": "B2",
+   "topic": "Relativsätze und Pronomen",
+   "type": "single",
+   "q": "Der Kollege, ___ Auto gestohlen wurde, kommt heute mit dem Bus.",
+   "options": [
+    {
+     "t": "dessen",
+     "correct": true
+    },
+    {
+     "t": "deren",
+     "correct": false
+    },
+    {
+     "t": "der",
+     "correct": false
+    },
+    {
+     "t": "den",
+     "correct": false
+    }
+   ],
+   "explain": "Vztažné „jehož/jejíž“ = genitiv: dessen (vztaženo k der/das), deren (k die a plurálu). Rod se řídí podstatným jménem PŘED čárkou (der Kollege → dessen).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-042",
+   "level": "B2",
+   "topic": "Relativsätze und Pronomen",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Die Leute, mit denen ich arbeite, sind sehr nett.",
+     "correct": true
+    },
+    {
+     "t": "Die Leute, mit deren ich arbeite, sind sehr nett.",
+     "correct": false
+    },
+    {
+     "t": "Die Stadt, in der ich wohne, ist schön.",
+     "correct": true
+    },
+    {
+     "t": "Das ist die Frau, deren Sohn mit mir studiert.",
+     "correct": true
+    },
+    {
+     "t": "Das ist der Mann, den ich gestern geholfen habe.",
+     "correct": false
+    }
+   ],
+   "explain": "Dativ plurálu vztažného zájmena = denen (mit denen); deren je genitiv (jejichž). helfen + dativ → dem.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-043",
+   "level": "B2",
+   "topic": "Konnektoren",
+   "type": "single",
+   "q": "Er hat nicht nur das Studium abgeschlossen, ___ auch eine Firma gegründet.",
+   "options": [
+    {
+     "t": "sowie",
+     "correct": false
+    },
+    {
+     "t": "und",
+     "correct": false
+    },
+    {
+     "t": "sondern",
+     "correct": true
+    },
+    {
+     "t": "oder",
+     "correct": false
+    }
+   ],
+   "explain": "„nicht nur …, sondern auch“ je pevná dvojice (= nejen…, ale i). Česká „ale“ svádí k „aber auch“ — to se občas vyskytuje, ale normou je sondern. „sondern“ stojí vždy po záporu (nicht …, sondern …).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-044",
+   "level": "B2",
+   "topic": "Konnektoren",
+   "type": "single",
+   "q": "Je mehr ich übe, ___ besser spreche ich.",
+   "options": [
+    {
+     "t": "so",
+     "correct": false
+    },
+    {
+     "t": "desto",
+     "correct": true
+    },
+    {
+     "t": "als",
+     "correct": false
+    },
+    {
+     "t": "wie",
+     "correct": false
+    }
+   ],
+   "explain": "„je + 2. stupeň …, desto/umso + 2. stupeň“: v první části sloveso na konci, ve druhé za desto + přídavným jménem hned sloveso.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-045",
+   "level": "B2",
+   "topic": "Nominalstil und n-Deklination",
+   "type": "single",
+   "q": "Ich habe gestern mit ___ gesprochen.",
+   "options": [
+    {
+     "t": "einem Studenten",
+     "correct": true
+    },
+    {
+     "t": "einem Student",
+     "correct": false
+    },
+    {
+     "t": "einen Studenten",
+     "correct": false
+    },
+    {
+     "t": "einer Student",
+     "correct": false
+    }
+   ],
+   "explain": "n-deklinace: slabá maskulina (der Student, Kollege, Mensch, Präsident, Kunde, Nachbar…) mají ve všech pádech kromě nominativu -(e)n: mit dem Studenten.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-046",
+   "level": "B2",
+   "topic": "Wortschatz und Idiomatik",
+   "type": "single",
+   "q": "Wir müssen bis Freitag eine Entscheidung ___.",
+   "options": [
+    {
+     "t": "machen",
+     "correct": false
+    },
+    {
+     "t": "nehmen",
+     "correct": false
+    },
+    {
+     "t": "geben",
+     "correct": false
+    },
+    {
+     "t": "treffen",
+     "correct": true
+    }
+   ],
+   "explain": "Kolokace: eine Entscheidung treffen (formálně i fällen). „eine Entscheidung machen“ je anglicismus (to make a decision).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-047",
+   "level": "C1",
+   "topic": "Genus und Artikel",
+   "type": "single",
+   "q": "Er nahm die Kritik mit ___ Demut an.",
+   "options": [
+    {
+     "t": "großen",
+     "correct": false
+    },
+    {
+     "t": "großes",
+     "correct": false
+    },
+    {
+     "t": "großer",
+     "correct": true
+    },
+    {
+     "t": "großem",
+     "correct": false
+    }
+   ],
+   "explain": "Složeniny určuje poslední část (der Mut), ALE výjimky jsou ženského rodu: die Demut, Anmut, Wehmut, Schwermut, Großmut. Dativ fem. bez členu → großer.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-048",
+   "level": "C1",
+   "topic": "Kasus",
+   "type": "single",
+   "q": "Die Angeklagte wurde ___ beschuldigt.",
+   "options": [
+    {
+     "t": "vom Diebstahl",
+     "correct": false
+    },
+    {
+     "t": "des Diebstahls",
+     "correct": true
+    },
+    {
+     "t": "den Diebstahl",
+     "correct": false
+    },
+    {
+     "t": "dem Diebstahl",
+     "correct": false
+    }
+   ],
+   "explain": "jemanden einer Sache beschuldigen/anklagen/verdächtigen – věc stojí v GENITIVU (des Diebstahls). Podobně: sich einer Sache bewusst sein, einer Sache bedürfen.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-049",
+   "level": "C1",
+   "topic": "Präpositionen",
+   "type": "single",
+   "q": "Dem Bericht ___ ist die Zahl der Studierenden gestiegen.",
+   "options": [
+    {
+     "t": "zufolge",
+     "correct": true
+    },
+    {
+     "t": "laut",
+     "correct": false
+    },
+    {
+     "t": "infolge",
+     "correct": false
+    },
+    {
+     "t": "trotz",
+     "correct": false
+    }
+   ],
+   "explain": "zufolge stojí ZA podstatným jménem v dativu (dem Bericht zufolge). laut stojí před jménem (laut dem Bericht), infolge = následkem (+ Gen., před jménem).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-050",
+   "level": "C1",
+   "topic": "Adjektivdeklination",
+   "type": "single",
+   "q": "Trotz ___ Regens fand das Spiel statt.",
+   "options": [
+    {
+     "t": "starkes",
+     "correct": false
+    },
+    {
+     "t": "starker",
+     "correct": false
+    },
+    {
+     "t": "starkem",
+     "correct": false
+    },
+    {
+     "t": "starken",
+     "correct": true
+    }
+   ],
+   "explain": "Genitiv mask./neutra bez členu: podstatné jméno má -(e)s, přídavné jméno proto jen -en (trotz starken Regens, wegen schlechten Wetters).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-051",
+   "level": "C1",
+   "topic": "Verbstellung",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Hätte ich das gewusst, wäre ich gekommen.",
+     "correct": true
+    },
+    {
+     "t": "Um pünktlich zu sein, ich habe ein Taxi genommen.",
+     "correct": false
+    },
+    {
+     "t": "Sobald die Ergebnisse vorliegen, werden wir Sie informieren.",
+     "correct": true
+    },
+    {
+     "t": "Ich bin sicher, dass du das schaffen wirst.",
+     "correct": true
+    },
+    {
+     "t": "Nachdem er gegessen hatte, er ging schlafen.",
+     "correct": false
+    }
+   ],
+   "explain": "Infinitivní konstrukce (um … zu) i vedlejší věta zabírají celé 1. místo → hned následuje určité sloveso (…, habe ich ein Taxi genommen). Podmínka bez wenn: sloveso na 1. místě (Hätte ich…).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-052",
+   "level": "C1",
+   "topic": "Perfekt und Präteritum",
+   "type": "single",
+   "q": "Sie ___ ihm ihre Hilfe an.",
+   "options": [
+    {
+     "t": "botete",
+     "correct": false
+    },
+    {
+     "t": "bot",
+     "correct": true
+    },
+    {
+     "t": "bat",
+     "correct": false
+    },
+    {
+     "t": "bietete",
+     "correct": false
+    }
+   ],
+   "explain": "anbieten – bot an – angeboten (nabídnout). bitten – bat – gebeten = prosit. Zaměnit bot/bat mění význam.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-053",
+   "level": "C1",
+   "topic": "Modalverben und Infinitiv",
+   "type": "single",
+   "q": "Welcher Satz bedeutet: ‚Man sagt, dass er sehr reich ist.‘?",
+   "options": [
+    {
+     "t": "Er soll sehr reich sein.",
+     "correct": true
+    },
+    {
+     "t": "Er muss sehr reich sein.",
+     "correct": false
+    },
+    {
+     "t": "Er will sehr reich sein.",
+     "correct": false
+    },
+    {
+     "t": "Er dürfte sehr reich sein.",
+     "correct": false
+    }
+   ],
+   "explain": "Subjektivní význam modálů: sollen = prý (podle druhých), wollen = tvrdí to sám o sobě, müssen = mluvčí to vyvozuje (určitě), dürfte = pravděpodobně.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-054",
+   "level": "C1",
+   "topic": "Verben mit Präpositionen und Reflexivität",
+   "type": "single",
+   "q": "Das Problem besteht ___, dass niemand Verantwortung übernimmt.",
+   "options": [
+    {
+     "t": "daraus",
+     "correct": false
+    },
+    {
+     "t": "darauf",
+     "correct": false
+    },
+    {
+     "t": "davon",
+     "correct": false
+    },
+    {
+     "t": "darin",
+     "correct": true
+    }
+   ],
+   "explain": "bestehen IN (Dat.) = spočívat v; bestehen AUS = skládat se z; bestehen AUF = trvat na.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-055",
+   "level": "C1",
+   "topic": "Konjunktiv II",
+   "type": "single",
+   "q": "Du ___ mir das früher sagen sollen!",
+   "options": [
+    {
+     "t": "wärst",
+     "correct": false
+    },
+    {
+     "t": "solltest",
+     "correct": false
+    },
+    {
+     "t": "hättest",
+     "correct": true
+    },
+    {
+     "t": "würdest",
+     "correct": false
+    }
+   ],
+   "explain": "Výčitka v minulosti: hätte + infinitiv + infinitiv modálu (hättest sagen sollen = měl jsi mi to říct).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-056",
+   "level": "C1",
+   "topic": "Passiv",
+   "type": "single",
+   "q": "Der Antrag hätte schon letzte Woche ___ müssen.",
+   "options": [
+    {
+     "t": "bearbeitet geworden",
+     "correct": false
+    },
+    {
+     "t": "bearbeitet werden",
+     "correct": true
+    },
+    {
+     "t": "bearbeitet worden",
+     "correct": false
+    },
+    {
+     "t": "bearbeiten werden",
+     "correct": false
+    }
+   ],
+   "explain": "Pasiv s modálem v minulosti: hätte + příčestí + werden + infinitiv modálu (hätte bearbeitet werden müssen).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-057",
+   "level": "C1",
+   "topic": "Relativsätze und Pronomen",
+   "type": "single",
+   "q": "Das ist die Kollegin, ohne ___ Hilfe ich das Projekt nie geschafft hätte.",
+   "options": [
+    {
+     "t": "deren",
+     "correct": true
+    },
+    {
+     "t": "dessen",
+     "correct": false
+    },
+    {
+     "t": "derer",
+     "correct": false
+    },
+    {
+     "t": "der",
+     "correct": false
+    }
+   ],
+   "explain": "„bez jejíž pomoci“ → genitiv vztažného zájmena k ženskému rodu = deren. derer se užívá jen jako ukazovací zájmeno před vztažnou větou (derer, die…).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-058",
+   "level": "C1",
+   "topic": "Relativsätze und Pronomen",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Wer mir hilft, dem helfe ich auch.",
+     "correct": true
+    },
+    {
+     "t": "Wem das nicht gefällt, der kann gehen.",
+     "correct": true
+    },
+    {
+     "t": "Wer das nicht gefällt, der kann gehen.",
+     "correct": false
+    },
+    {
+     "t": "Die Studierenden, derer Arbeiten noch fehlen, werden benachrichtigt.",
+     "correct": false
+    },
+    {
+     "t": "Wir gedachten derer, die im Krieg gestorben sind.",
+     "correct": true
+    }
+   ],
+   "explain": "wer/wem/wen se řídí slovesem v SVÉ větě (gefallen + Dat. → wem), korelát (der/dem/den) slovesem hlavní věty. Přivlastňovací vztažné = deren; derer jen před vztažnou větou (gedenken + Gen.).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-059",
+   "level": "C1",
+   "topic": "Konnektoren",
+   "type": "single",
+   "q": "Sie hat das Stipendium bekommen, ___ ihre Noten nicht die besten waren.",
+   "options": [
+    {
+     "t": "dennoch",
+     "correct": false
+    },
+    {
+     "t": "ungeachtet",
+     "correct": false
+    },
+    {
+     "t": "obgleich",
+     "correct": true
+    },
+    {
+     "t": "trotz",
+     "correct": false
+    }
+   ],
+   "explain": "Za čárkou následuje vedlejší věta se slovesem na konci → potřeba SPOJKA: obgleich (= obwohl). trotz/ungeachtet jsou předložky, dennoch je příslovce (sloveso hned za ním).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-060",
+   "level": "C1",
+   "topic": "Konnektoren",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Man kann Energie sparen, indem man nachts die Heizung herunterdreht.",
+     "correct": true
+    },
+    {
+     "t": "Man kann Energie sparen, dadurch man nachts die Heizung herunterdreht.",
+     "correct": false
+    },
+    {
+     "t": "Er hat weder angerufen noch geschrieben.",
+     "correct": true
+    },
+    {
+     "t": "Er hat entweder angerufen noch geschrieben.",
+     "correct": false
+    },
+    {
+     "t": "Seitdem ich in Wien wohne, fahre ich mehr Rad.",
+     "correct": true
+    }
+   ],
+   "explain": "Způsob = indem (nebo „dadurch, dass“ – samotné „dadurch“ není spojka). Dvojice se nemíchají: weder … noch, entweder … oder.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-061",
+   "level": "C1",
+   "topic": "Konjunktiv I und indirekte Rede",
+   "type": "single",
+   "q": "Setze den Konjunktiv I ein: Die Ministerin betonte, sie ___ von dem Vorfall nichts gewusst.",
+   "options": [
+    {
+     "t": "habe",
+     "correct": true
+    },
+    {
+     "t": "hätte",
+     "correct": false
+    },
+    {
+     "t": "hat",
+     "correct": false
+    },
+    {
+     "t": "sei",
+     "correct": false
+    }
+   ],
+   "explain": "Nepřímá řeč (formální text): Konjunktiv I. Minulost = habe/sei + příčestí; wissen tvoří perfektum s haben → sie habe … gewusst.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-062",
+   "level": "C1",
+   "topic": "Konjunktiv I und indirekte Rede",
+   "type": "single",
+   "q": "Indirekte Rede in einem formellen Text (Konjunktiv I, falls nötig Ersatzform): Die Studierenden erklärten, sie ___ keine Zeit.",
+   "options": [
+    {
+     "t": "haben",
+     "correct": false
+    },
+    {
+     "t": "habe",
+     "correct": false
+    },
+    {
+     "t": "hatten",
+     "correct": false
+    },
+    {
+     "t": "hätten",
+     "correct": true
+    }
+   ],
+   "explain": "Konjunktiv I „sie haben“ zní stejně jako indikativ → v nepřímé řeči se nahradí Konjunktivem II (hätten). habe je jednotné číslo.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-063",
+   "level": "C1",
+   "topic": "Konjunktiv I und indirekte Rede",
+   "type": "multi",
+   "q": "Welche Sätze sind als indirekte Rede (Konjunktiv I) formal korrekt?",
+   "options": [
+    {
+     "t": "Sie sagte, sie sei gestern in Graz gewesen.",
+     "correct": true
+    },
+    {
+     "t": "Sie sagte, sie habe gestern in Graz gewesen.",
+     "correct": false
+    },
+    {
+     "t": "Er behauptet, er wisse von nichts.",
+     "correct": true
+    },
+    {
+     "t": "Er fragte, wann der Zug ankomme.",
+     "correct": true
+    },
+    {
+     "t": "Er sagte, er seie krank.",
+     "correct": false
+    }
+   ],
+   "explain": "Konjunktiv I: kmen + -e (er komme, wisse, habe); sein je nepravidelné: ich/er sei (NE „seie“). V minulosti zůstává pomocné sloveso perfekta (gewesen → sei).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-064",
+   "level": "C1",
+   "topic": "Nominalstil und n-Deklination",
+   "type": "single",
+   "q": "Ich danke Ihnen von ganzem ___.",
+   "options": [
+    {
+     "t": "Herzes",
+     "correct": false
+    },
+    {
+     "t": "Herzen",
+     "correct": true
+    },
+    {
+     "t": "Herz",
+     "correct": false
+    },
+    {
+     "t": "Herzens",
+     "correct": false
+    }
+   ],
+   "explain": "das Herz se skloňuje zvláštně: des Herzens, dem Herzen, das Herz (Akk.). Ustálené: von ganzem Herzen.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-065",
+   "level": "C1",
+   "topic": "Nominalstil und n-Deklination",
+   "type": "single",
+   "q": "„Der Bericht, der gestern veröffentlicht wurde, …“ → „Der ___ Bericht …“",
+   "options": [
+    {
+     "t": "gestern veröffentlichte",
+     "correct": true
+    },
+    {
+     "t": "gestern veröffentlichende",
+     "correct": false
+    },
+    {
+     "t": "gestern veröffentlichten",
+     "correct": false
+    },
+    {
+     "t": "gestern veröffentlicht",
+     "correct": false
+    }
+   ],
+   "explain": "Pasivní vztažnou větu nahrazuje příčestí II jako přívlastek (veröffentlicht → veröffentlichte); příčestí I (-end) má činný význam. Nominativ s „der“ → -e.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-066",
+   "level": "C1",
+   "topic": "Wortschatz und Idiomatik",
+   "type": "single",
+   "q": "Bitte ___ Sie Rücksicht auf die anderen Gäste.",
+   "options": [
+    {
+     "t": "geben",
+     "correct": false
+    },
+    {
+     "t": "machen",
+     "correct": false
+    },
+    {
+     "t": "halten",
+     "correct": false
+    },
+    {
+     "t": "nehmen",
+     "correct": true
+    }
+   ],
+   "explain": "Kolokace: Rücksicht nehmen auf + Akk. (brát ohled na).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-067",
+   "level": "C2",
+   "topic": "Adjektivdeklination",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Ich wünsche dir alles Gute zum Geburtstag.",
+     "correct": true
+    },
+    {
+     "t": "Er hat uns nichts Neuen erzählt.",
+     "correct": false
+    },
+    {
+     "t": "Die Meinung des Abgeordneten wurde zitiert.",
+     "correct": true
+    },
+    {
+     "t": "Sie ist mit einem Deutscher verheiratet.",
+     "correct": false
+    },
+    {
+     "t": "Sie träumt von etwas Großem.",
+     "correct": true
+    }
+   ],
+   "explain": "Po etwas/nichts/viel se zpodstatnělé přídavné jméno skloňuje silně (nichts Neues, von etwas Großem); po alles slabě (alles Gute). Zpodstatnělá přídavná jména se skloňují jako přídavná: einem Deutschen, des Abgeordneten.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-068",
+   "level": "C2",
+   "topic": "Verben mit Präpositionen und Reflexivität",
+   "type": "single",
+   "q": "Der Autor bedient sich ___.",
+   "options": [
+    {
+     "t": "an einer bildhaften Sprache",
+     "correct": false
+    },
+    {
+     "t": "einer bildhaften Sprache",
+     "correct": true
+    },
+    {
+     "t": "eine bildhafte Sprache",
+     "correct": false
+    },
+    {
+     "t": "mit einer bildhaften Sprache",
+     "correct": false
+    }
+   ],
+   "explain": "sich einer Sache bedienen = použít něco; věc v GENITIVU, bez předložky. Podobně sich einer Sache annehmen, sich einer Sache rühmen.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-069",
+   "level": "C2",
+   "topic": "Konjunktiv II",
+   "type": "single",
+   "q": "Das Problem ___ längst gelöst werden können, wenn man rechtzeitig gehandelt hätte.",
+   "options": [
+    {
+     "t": "hätte",
+     "correct": true
+    },
+    {
+     "t": "wäre",
+     "correct": false
+    },
+    {
+     "t": "hat",
+     "correct": false
+    },
+    {
+     "t": "habe",
+     "correct": false
+    }
+   ],
+   "explain": "Neskutečnost v minulosti s modálním slovesem: hätte + (pasivní) infinitiv + infinitiv modálu. Modální slovesa tvoří perfektum vždy s haben.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-070",
+   "level": "C2",
+   "topic": "Passiv",
+   "type": "single",
+   "q": "Die noch ___ Probleme werden morgen besprochen.",
+   "options": [
+    {
+     "t": "zu lösende",
+     "correct": false
+    },
+    {
+     "t": "lösenden",
+     "correct": false
+    },
+    {
+     "t": "zu gelösten",
+     "correct": false
+    },
+    {
+     "t": "zu lösenden",
+     "correct": true
+    }
+   ],
+   "explain": "Gerundivum zu + příčestí I = co je třeba udělat (die zu lösenden Probleme = problémy, které je třeba vyřešit). Po „die“ v plurálu koncovka -en.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-071",
+   "level": "C2",
+   "topic": "Konnektoren",
+   "type": "single",
+   "q": "Er ist ein ausgezeichneter Forscher, ___ er als Lehrer eher mittelmäßig ist.",
+   "options": [
+    {
+     "t": "dagegen",
+     "correct": false
+    },
+    {
+     "t": "demgegenüber",
+     "correct": false
+    },
+    {
+     "t": "wohingegen",
+     "correct": true
+    },
+    {
+     "t": "hingegen",
+     "correct": false
+    }
+   ],
+   "explain": "Sloveso na konci → je potřeba podřadící spojka: wohingegen (= zatímco). hingegen/dagegen/demgegenüber jsou příslovce a stojí v hlavní větě (…; als Lehrer ist er hingegen…).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-072",
+   "level": "C2",
+   "topic": "Konjunktiv I und indirekte Rede",
+   "type": "single",
+   "q": "Formal korrekt (Konjunktiv I): Der Arzt sagte zu mir: ‚Bleiben Sie im Bett!‘ → Der Arzt sagte, ich ___ im Bett bleiben.",
+   "options": [
+    {
+     "t": "sölle",
+     "correct": false
+    },
+    {
+     "t": "solle",
+     "correct": true
+    },
+    {
+     "t": "soll",
+     "correct": false
+    },
+    {
+     "t": "sollt",
+     "correct": false
+    }
+   ],
+   "explain": "Rozkaz v nepřímé řeči: sollen v Konjunktivu I (ich/er solle); zdvořilá žádost: möge. Indikativ „soll“ není nepřímá řeč ve formálním stylu.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-073",
+   "level": "C2",
+   "topic": "Konjunktiv I und indirekte Rede",
+   "type": "multi",
+   "q": "Direkte Rede: ‚Wir haben das Problem schon gelöst und werden morgen berichten.‘ Welche Wiedergaben sind formal korrekt?",
+   "options": [
+    {
+     "t": "Sie sagten, sie hätten das Problem schon gelöst und würden morgen berichten.",
+     "correct": true
+    },
+    {
+     "t": "Sie sagten, sie haben das Problem schon gelöst und werden morgen berichten.",
+     "correct": false
+    },
+    {
+     "t": "Sie sagten, sie hätten das Problem schon gelöst und werden morgen berichten.",
+     "correct": false
+    },
+    {
+     "t": "Sie sagten, dass sie das Problem schon gelöst hätten und morgen berichten würden.",
+     "correct": true
+    },
+    {
+     "t": "Sie sagten, sie hätten das Problem schon gelöst gehabt.",
+     "correct": false
+    }
+   ],
+   "explain": "3. os. pl. Konjunktivu I (haben, werden) = indikativ → u OBOU sloves náhradní Konjunktiv II (hätten, würden). Čas se nemění: Perfekt zůstává Perfekt (ne „gelöst gehabt“).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-074",
+   "level": "C2",
+   "topic": "Nominalstil und n-Deklination",
+   "type": "single",
+   "q": "Er konnte sich des ___ nicht erwehren, dass etwas nicht stimmte.",
+   "options": [
+    {
+     "t": "Gedanken",
+     "correct": false
+    },
+    {
+     "t": "Gedanke",
+     "correct": false
+    },
+    {
+     "t": "Gedankes",
+     "correct": false
+    },
+    {
+     "t": "Gedankens",
+     "correct": true
+    }
+   ],
+   "explain": "Smíšené skloňování: der Gedanke – des Gedankens – dem/den Gedanken (stejně der Name, der Glaube, der Wille, der Friede; das Herz – des Herzens). Jako n-deklinace má -n, v genitivu ale navíc -s. Vazba „sich einer Sache erwehren“ (ubránit se něčemu) žádá genitiv.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-075",
+   "level": "C2",
+   "topic": "Nominalstil und n-Deklination",
+   "type": "multi",
+   "q": "Welche Sätze sind in der geschriebenen Standardsprache korrekt?",
+   "options": [
+    {
+     "t": "Die seit Jahren steigenden Mieten belasten viele Familien.",
+     "correct": true
+    },
+    {
+     "t": "Die seit Jahren gestiegenden Mieten belasten viele Familien.",
+     "correct": false
+    },
+    {
+     "t": "Der vom Senat beschlossene Plan tritt im Mai in Kraft.",
+     "correct": true
+    },
+    {
+     "t": "Die zu erwartende Kosten sind hoch.",
+     "correct": false
+    },
+    {
+     "t": "Das von allen Beteiligten zu unterzeichnende Protokoll liegt vor.",
+     "correct": true
+    }
+   ],
+   "explain": "Příčestí I = infinitiv + d (steigend), příčestí II = gestiegen – nikdy smíchaně. Rozvitý přívlastek se skloňuje jako přídavné jméno: die zu erwartenden Kosten (plurál po die → -en).",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-076",
+   "level": "C2",
+   "topic": "Nominalstil und n-Deklination",
+   "type": "single",
+   "q": "Welche Nominalisierung von „wenn man die Regeln nicht beachtet“ ist korrekt?",
+   "options": [
+    {
+     "t": "bei Nichtbeachten den Regeln",
+     "correct": false
+    },
+    {
+     "t": "bei Nichtbeachtung der Regeln",
+     "correct": true
+    },
+    {
+     "t": "bei Nichtbeachtung den Regeln",
+     "correct": false
+    },
+    {
+     "t": "bei Nichtbeachtung an den Regeln",
+     "correct": false
+    }
+   ],
+   "explain": "Při nominalizaci se předmět slovesa stává GENITIVNÍM přívlastkem (die Regeln beachten → die Beachtung der Regeln); wenn → bei.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-077",
+   "level": "C2",
+   "topic": "Wortschatz und Idiomatik",
+   "type": "single",
+   "q": "Die neue Regelung ___ nächste Woche in Kraft.",
+   "options": [
+    {
+     "t": "tritt",
+     "correct": true
+    },
+    {
+     "t": "kommt",
+     "correct": false
+    },
+    {
+     "t": "geht",
+     "correct": false
+    },
+    {
+     "t": "setzt",
+     "correct": false
+    }
+   ],
+   "explain": "Funktionsverbgefüge: in Kraft treten (vstoupit v platnost); etwas in Kraft setzen (uvést v platnost) je přechodné a potřebuje předmět.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-078",
+   "level": "C2",
+   "topic": "Wortschatz und Idiomatik",
+   "type": "single",
+   "q": "Der Vorschlag ___ bei den Kollegen auf breite Zustimmung.",
+   "options": [
+    {
+     "t": "fand",
+     "correct": false
+    },
+    {
+     "t": "kam",
+     "correct": false
+    },
+    {
+     "t": "fiel",
+     "correct": false
+    },
+    {
+     "t": "stieß",
+     "correct": true
+    }
+   ],
+   "explain": "auf Zustimmung/Ablehnung/Widerstand stoßen; ALE Zustimmung finden bez předložky („fand breite Zustimmung“). Míchání obou vazeb je chyba.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-079",
+   "level": "C2",
+   "topic": "Wortschatz und Idiomatik",
+   "type": "single",
+   "q": "Er hat mir endlich reinen Wein ___.",
+   "options": [
+    {
+     "t": "eingegossen",
+     "correct": false
+    },
+    {
+     "t": "serviert",
+     "correct": false
+    },
+    {
+     "t": "eingeschenkt",
+     "correct": true
+    },
+    {
+     "t": "gegeben",
+     "correct": false
+    }
+   ],
+   "explain": "Idiom: jemandem reinen Wein einschenken = říct někomu nepříjemnou pravdu na rovinu. Idiomy mají pevné sloveso.",
+   "source": "placement"
+  },
+  {
+   "id": "DE00-080",
+   "level": "C2",
+   "topic": "Wortschatz und Idiomatik",
+   "type": "multi",
+   "q": "Welche Sätze sind idiomatisch und korrekt?",
+   "options": [
+    {
+     "t": "Er hat großen Wert auf Pünktlichkeit gelegt.",
+     "correct": true
+    },
+    {
+     "t": "Im Sommer habe ich eine Brigade in einem Hotel gemacht.",
+     "correct": false
+    },
+    {
+     "t": "Sie hat die Stadt auf der Mappe gesucht.",
+     "correct": false
+    },
+    {
+     "t": "Wir sollten das Angebot in Anspruch nehmen.",
+     "correct": true
+    },
+    {
+     "t": "Das ergibt keinen Sinn.",
+     "correct": true
+    }
+   ],
+   "explain": "Falešní přátelé: die Brigade = vojenská nebo pracovní jednotka (i kuchyňská brigáda); česká „brigáda“ = Ferialjob (AT) / Ferienjob. die Mappe = desky/složka (mapa = die Landkarte, der Stadtplan). Kolokace: Wert legen auf, in Anspruch nehmen; „Das ergibt keinen Sinn.“",
+   "source": "placement"
+  }
+ ]
+}

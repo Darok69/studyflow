@@ -385,7 +385,7 @@ export interface ServerTest {
   id: string
   subject: string
   questions: number
-  format: { minutes?: number; questions?: number; note?: string } | null
+  format: { minutes?: number; questions?: number; note?: string; timed?: boolean; placement?: boolean } | null
 }
 
 /** Mock-exam question banks the server holds (descriptions only). */

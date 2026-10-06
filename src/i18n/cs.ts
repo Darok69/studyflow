@@ -564,6 +564,7 @@ export const cs = {
   mcLevelBelow: (l: string) => `Zatím pod úrovní ${l}`,
   mcLevelHint: 'Úroveň se počítá bez mezer: musíš mít aspoň 70 % na ní i na všech nižších. Silný výsledek na C1 při slabém B2 je spíš odhad podle sluchu než jistá gramatika.',
   mcAreasTitle: 'Oblasti v tomto testu (nejslabší nahoře)',
+  mcPlacementTitle: 'Rozřazovací test',
   mcTitle: 'Zkušební test',
   mcRowSub: (n: number) => `${n} ${(n === 1 ? 'otázka' : n >= 2 && n <= 4 ? 'otázky' : 'otázek')} ve stylu zkoušky · na čas, s částečnými body`,
   mcBankSize: (n: number) => `${n} ${(n === 1 ? 'otázka' : n >= 2 && n <= 4 ? 'otázky' : 'otázek')} v bance`,

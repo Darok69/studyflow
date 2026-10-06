@@ -219,7 +219,7 @@ export function Test({ subjectId, subjectName, bankId, onBack }: Props) {
             {t('back')}
           </button>
         </div>
-        <h2 className="page-title">{t('mcTitle')}</h2>
+        <h2 className="page-title">{bank.format?.placement ? t('mcPlacementTitle') : t('mcTitle')}</h2>
         <p className="muted">
           {subjectName} · {t('mcBankSize', bank.questions.length)}
         </p>

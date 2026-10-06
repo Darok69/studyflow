@@ -251,7 +251,7 @@ export function Subject({
             📝
           </span>
           <span className="textbook-main">
-            <span className="textbook-title">{t('mcTitle')}</span>
+            <span className="textbook-title">{test.format?.placement ? t('mcPlacementTitle') : t('mcTitle')}</span>
             <span className="muted">{t('mcRowSub', test.questions)}</span>
           </span>
         </button>

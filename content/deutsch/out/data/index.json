@@ -1,0 +1,34 @@
+{
+  "exam": {
+    "name": "Deutsch auf Muttersprachniveau",
+    "date": null,
+    "language": "de",
+    "format": "Daniel (2026-10-06): chce němčinu na úrovni rodilého mluvčího; učil se poslechem, gramatika slabá. 1. krok = rozřazovací test A2–C2 + ukázka psaní.",
+    "mc_format": {
+      "timed": false,
+      "placement": true,
+      "note": "Rozřazovací test: bez stopek, všechny otázky. Odpovídej podle toho, co víš — ne podle toho, co zní dobře. Když nevíš, nech otázku prázdnou: tipování zkreslí odhad."
+    }
+  },
+  "updated_at": "2026-10-06T17:09:23+00:00",
+  "organisers": [],
+  "courses": [
+    {
+      "code": "DE",
+      "number": "DE",
+      "title": "Deutsch auf Muttersprachniveau",
+      "subject": "Deutsch auf Muttersprachniveau",
+      "filing": [],
+      "lectures": [
+        {
+          "lecture_id": "DE00",
+          "unit": "Einstufung",
+          "title": "Einstufungstest",
+          "slides": 0,
+          "data": "data/DE00.json",
+          "done": 0
+        }
+      ]
+    }
+  ]
+}

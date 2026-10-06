@@ -79,7 +79,9 @@ def main() -> int:
             if q.get("id") in ids:
                 errors.append(f"{where}: duplicitní id")
             ids.add(q.get("id"))
-            questions.append({**q, "topic": topic, "lecture": lid})
+            # Otázka smí nést vlastní téma (rozřazovací test: gramatická oblast);
+            # jinak téma = název přednášky, aby test šel filtrovat jako karty.
+            questions.append({**q, "topic": q.get("topic") or topic, "lecture": lid})
             per[lid] = per.get(lid, 0) + 1
     if errors:
         print("\n".join(f"! {e}" for e in errors))
