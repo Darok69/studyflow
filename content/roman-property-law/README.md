@@ -35,7 +35,8 @@ otázky (identita karty = otázka).
 
 Rozdělení látky do jednotek je odhad podle sylabu (Fallblatt 1. jednotky pokrývá
 celou kap. III, proto Besitz I = kap. I–III). Učebnice str. 160–161 (X.E–F,
-pasivní legitimace) nejsou vyfocené.
+pasivní legitimace) Daniel dofotil 2026-10-06 (IMG_7134) — karty se štítkem
+`lehrbuch-s160-161` v souboru 07.
 
 Fallblatty dalších jednotek patří do `deck/faelle/<datum>-einheit-<n>.json`
 (štítky `fall` + `einheit-<n>`, priorita 1, `readyBy` = datum jednotky).
@@ -58,8 +59,7 @@ nechápu, dokud mi tam nedáš znalosti, které k nim potřebuji“.
   balíček je dřív nevysvětloval (nebo až o několik hodin později), např. RES FURTIVA,
   NEMO PLUS IURIS, IUSTA CAUSA u TRADITIO, ACTIO AD EXHIBENDUM, FACULTAS RESTITUENDI.
   `readyBy` = nejdřívější případ, který pojem potřebuje.
-- Učebnice NEOBSAHUJE znalost k: C117/Ex 44a (INTERDICTUM QUEM FUNDUM, str. 160–161
-  chybí), C50/C45/C90 (obsah UNDE VI a UTI POSSIDETIS jen jmenován), C57 (STIPULATIO),
+- Učebnice NEOBSAHUJE znalost k: C50/C45/C90 (obsah UNDE VI a UTI POSSIDETIS jen jmenován), C57 (STIPULATIO),
   C86 (směna jako IUSTA CAUSA). Doplnit, až budou podklady.
 - Nový Fallblatt nebo nová jednotka: přidat soubor, pustit `build.py`, nahrát
   `out/studyflow/roman-property-law.json` jako `/data/materials/deck-roman-property-law.json`.

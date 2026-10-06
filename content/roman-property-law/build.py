@@ -54,7 +54,9 @@ def main() -> None:
         c["learnOrder"] = STAGE.get(c.get("kind"), 1) * 100_000 + i
 
     deck = {**meta, "cards": cards,
-            "updates": [{"match": c["front"], "learnOrder": c["learnOrder"]} for c in cards]}
+            # Odpověď jde v updates taky: opravená odpověď se tak propíše i do karty,
+            # kterou už má uživatel naimportovanou (identita karty = otázka).
+            "updates": [{"match": c["front"], "back": c["back"], "learnOrder": c["learnOrder"]} for c in cards]}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(deck, ensure_ascii=False, indent=1) + "\n", "utf-8")
     by = {s: sum(1 for c in cards if STAGE.get(c.get("kind"), 1) == s) for s in (1, 2, 3)}

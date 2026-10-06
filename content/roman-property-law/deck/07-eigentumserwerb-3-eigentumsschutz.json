@@ -911,7 +911,7 @@
    "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
    "readyBy": "2026-11-17",
    "front": "Wen schützt die EXCEPTIO REI VENDITAE ET TRADITAE?",
-   "back": "Den bonitarischen Eigentümer, dem der zivile Eigentümer eine RES MANCIPI verkauft und (nur) übergeben hat: Vindiziert der quiritische Eigentümer gegen ihn, wehrt er mit EXCEPTIO REI VENDITAE ET TRADITAE (oder EXCEPTIO DOLI) ab.\n• (Die Lehrbuchseiten 160–161 zu diesem Punkt fehlen in den Fotos; Inhalt aus S. 171.)",
+   "back": "Den bonitarischen Eigentümer, dem der zivile Eigentümer eine RES MANCIPI verkauft und (nur) übergeben hat: Vindiziert der Verkäufer — der bis zum Ende der Ersitzungszeit quiritischer Eigentümer bleibt — gegen ihn, wehrt er die REI VINDICATIO mit der EXCEPTIO REI VENDITAE ET TRADITAE ab.\n• Nur bei Erwerb durch KAUF; bei anderer IUSTA CAUSA TRADITIONIS → EXCEPTIO DOLI. (Lehrbuch S. 160)",
    "tags": [
     "roman-property-law",
     "einheit-5",
@@ -931,6 +931,182 @@
     "roman-property-law",
     "einheit-5",
     "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 3,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Wie lautet die Formel der EXCEPTIO REI VENDITAE ET TRADITAE?",
+   "back": "SI NON AULUS AGERIUS FUNDUM, QUO DE AGITUR, NUMERIO NEGIDIO VENDIDIT ET TRADIDIT — „wenn nicht der Kläger das strittige Grundstück dem Beklagten verkauft und übergeben hat“.\n• Die Einrede greift also nur, wenn der Kläger selbst verkauft UND übergeben hat. (Lehrbuch S. 160)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p3",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "EXCEPTIO REI VENDITAE ET TRADITAE oder EXCEPTIO DOLI — wann wehrt sich der bonitarische Eigentümer mit welcher Einrede?",
+   "back": "EXCEPTIO REI VENDITAE ET TRADITAE nur, wenn sein Erwerb auf einem KAUF (EMPTIO VENDITIO) beruht — so steht es in der Formel.\n• Beruht der Erwerb auf einer anderen IUSTA CAUSA TRADITIONIS (zB Schenkung, Mitgift), passt die Formel nicht → er erhebt die EXCEPTIO DOLI. (Lehrbuch S. 160)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Gegen wen richtet sich die REI VINDICATIO? Was bedeutet UBI REM MEAM INVENIO, IBI VINDICO?",
+   "back": "Gegen den BESITZER: Die REI VINDICATIO ist die Klage des (quiritischen) Eigentümers, der nicht besitzt, gegen den besitzenden Nichteigentümer — gegen jeden, der besitzt.\n• Merksatz: UBI REM MEAM INVENIO, IBI VINDICO — wo ich meine Sache finde, dort vindiziere ich.\n• Voraussetzung: Die Sache existiert noch. (Lehrbuch S. 160)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Wann ist das Eigentum verloren, sodass keine REI VINDICATIO mehr möglich ist?",
+   "back": "• Wenn die Sache untergegangen (zerstört) ist.\n• Wenn ein anderer als der Kläger ORIGINÄR Eigentum an ihr erworben hat. (Lehrbuch S. 160)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p2",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Mit welchen Interdikten klärt man vor einer REI VINDICATIO, wer besitzt — und wem helfen sie?",
+   "back": "Die Vorfrage, wer IUSTA POSSESSIO hat, klären:\n• INTERDICTUM UTI POSSIDETIS (Grundstücke) → gewinnt, wer ZULETZT fehlerfrei (IUSTA POSSESSIO) besessen hat.\n• INTERDICTUM UTRUBI (bewegliche Sachen) → gewinnt, wer im LETZTEN JAHR die LÄNGSTE Zeit fehlerfrei besessen hat. (Lehrbuch S. 160)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Besitzinterdikte (UTI POSSIDETIS, UTRUBI) oder ACTIONES IN REM — was klären sie jeweils?",
+   "back": "Interdikte sind rein POSSESSORISCH: Sie klären nur, wer IM VERHÄLTNIS zum anderen IUSTA POSSESSIO hat.\n• Dingliche RECHTE (Eigentum, beschränkte dingliche Rechte) klären die ACTIONES IN REM (petitorisch).\n• Heute ebenso: Besitzstörungsklage § 339 ABGB iVm §§ 454 ff ZPO (possessorisch) vs REI VINDICATIO § 366 ABGB, ACTIO PUBLICIANA § 372 ABGB (petitorisch). (Lehrbuch S. 161 + Fn 9)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Warum ist im Prozess IN REM die Rolle des Beklagten günstiger?",
+   "back": "Weil die BEWEISLAST beim Kläger liegt: Er muss sein Eigentum beweisen.\n• Deshalb lohnt es sich, zuerst mit einem Besitzinterdikt den Besitz zu erlangen — dann muss der Gegner klagen. (Lehrbuch S. 161, Ex 31)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Kann der Besitzer gezwungen werden, sich auf eine REI VINDICATIO einzulassen (LITIS CONTESTATIO)?",
+   "back": "Nein. ACTIONES IN REM begründen KEINE Einlassungspflicht: Der Beklagte kann nicht gezwungen werden, an der LITIS CONTESTATIO mitzuwirken und Prozesspartei zu werden.\n• Druck erzeugen erst ACTIO AD EXHIBENDUM (bewegliche Sachen) bzw INTERDICTUM QUEM FUNDUM (Grundstücke). (Lehrbuch S. 161)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "proces",
+   "level": 2,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Wie bereitet die ACTIO AD EXHIBENDUM die REI VINDICATIO vor, wenn der Besitzer sich nicht einlassen will?",
+   "back": "Der Kläger verlangt, dass der Beklagte die Sache IN IURE vorlegt (exhibiert).\n→ Legt er sie NICHT vor: Verurteilung zu einer Geldbuße in Höhe des Sachwerts.\n→ Legt er sie vor, verweigert aber die Einlassung auf die REI VINDICATIO: Der Prätor erlaubt dem Kläger, die Sache wegzunehmen. (Lehrbuch S. 161)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Ist die ACTIO AD EXHIBENDUM eine ACTIO IN REM?",
+   "back": "Nein — eine ACTIO IN PERSONAM, die eine EINLASSUNGSPFLICHT begründet.\n• Dadurch unterstützt und ergänzt sie die REI VINDICATIO (die selbst keine Einlassungspflicht kennt). (Lehrbuch S. 161)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — REI VINDICATIO",
+   "front": "Was ist das INTERDICTUM QUEM FUNDUM?",
+   "back": "Das Gegenstück zur ACTIO AD EXHIBENDUM bei GRUNDSTÜCKEN: Es setzt den Besitzer eines Grundstücks unter Druck, sich auf die REI VINDICATIO des Klägers einzulassen.\n• Bewegliche Sache → ACTIO AD EXHIBENDUM; Grundstück → INTERDICTUM QUEM FUNDUM. (Lehrbuch S. 161)",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161"
    ]
   },
   {
@@ -1198,7 +1374,7 @@
    "topic": "17.11. Eigentumsschutz — Übungsfälle aus dem Lehrbuch (Ex 43–48)",
    "readyBy": "2026-11-17",
    "front": "[Lehrbuch Ex 44a/b] Leo will gegen Melitta seine Vase vindizieren. (a) Was, wenn Melitta die LITIS CONTESTATIO verweigert? (b) Nach der LITIS CONTESTATIO, vor Urteil, zerstört ein Erdrutsch Melittas Haus samt Vase — Folgen für Eigentum und Prozess?",
-   "back": "(a) Lehrbuchseiten 160–161 (Passivlegitimation) fehlen in den Fotos. Nach studocu-Notizen dienen ACTIO AD EXHIBENDUM (bzw bei Grundstücken INTERDICTUM QUEM FUNDUM) der Vorbereitung der Vindikation — Ergebnis daher unsicher, im Buch nachlesen.\n(b) Mit dem Untergang erlischt das Eigentum an der Vase. Zufall (CASUS) nach der LITIS CONTESTATIO: Sabinianer — Melitta besitzt nicht mehr und trifft kein Verschulden → Freispruch; Prokulianer (RESTITUERE) — Haftung auch für Zufall → Verurteilung zum Wert.",
+   "back": "(a) Leo kann Melitta NICHT zwingen, sich auf die REI VINDICATIO einzulassen (ACTIONES IN REM kennen keine Einlassungspflicht). Er erhebt die ACTIO AD EXHIBENDUM (Vase = bewegliche Sache; bei Grundstücken INTERDICTUM QUEM FUNDUM): Legt Melitta die Vase IN IURE nicht vor → Verurteilung zum Sachwert; legt sie vor, verweigert aber die Einlassung → der Prätor erlaubt Leo, die Vase wegzunehmen. (Lehrbuch S. 161)\n(b) Mit dem Untergang erlischt das Eigentum an der Vase. Zufall (CASUS) nach der LITIS CONTESTATIO: Sabinianer — Melitta besitzt nicht mehr und trifft kein Verschulden → Freispruch; Prokulianer (RESTITUERE) — Haftung auch für Zufall → Verurteilung zum Wert.",
    "tags": [
     "roman-property-law",
     "einheit-5",
@@ -1641,6 +1817,24 @@
     "roman-property-law",
     "einheit-5",
     "p2",
+    "fall",
+    "lehrbuch-ex"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "readyBy": "2026-11-17",
+   "topic": "17.11. Eigentumsschutz — Übungsfälle aus dem Lehrbuch (Ex 43–48)",
+   "front": "[Lehrbuch Ex 31, S. 161] Thetis und Querelus streiten seit Langem um das Eigentum an einer wertvollen Halskette, die Thetis besitzt. Nachts nimmt Querelus sie heimlich weg. Wer kann gegen wen eine REI VINDICATIO erheben — und was sollte Thetis tun?",
+   "back": "Aktivlegitimiert sind BEIDE, denn beide behaupten quiritisches Eigentum. Passivlegitimiert ist Querelus: Er hat die Kette und will sie besitzen — er ist Besitzer.\n• Gegenüber Thetis besitzt er aber CLAM (heimlich weggenommen) → fehlerhafter Besitz.\n• Da im Prozess IN REM der Kläger die Beweislast trägt, ist die Beklagtenrolle günstiger → Thetis sollte zuerst mit dem INTERDICTUM UTRUBI den Besitz zurückholen; dann müsste Querelus klagen und sein Eigentum beweisen.",
+   "tags": [
+    "roman-property-law",
+    "einheit-5",
+    "p1",
+    "lehrbuch-s160-161",
     "fall",
     "lehrbuch-ex"
    ]
