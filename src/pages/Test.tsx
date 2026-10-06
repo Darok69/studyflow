@@ -4,6 +4,9 @@ import { getTestRuns, saveTestRun } from '../db/repo'
 import { getServerTest } from '../lib/api'
 import {
   cleanBank,
+  estimateLevel,
+  levelBreakdown,
+  topicsInSitting,
   isFullyRight,
   mulberry32,
   optionOrder,
@@ -81,6 +84,9 @@ export function Test({ subjectId, subjectName, bankId, onBack }: Props) {
         const clean = cleanBank(raw)
         if (!clean) setError(true)
         setBank(clean)
+        // Rozřazovací test: všechny otázky a bez stopek — měří se úroveň, ne rychlost.
+        if (clean?.format?.timed === false) setTimed(false)
+        if (clean?.format?.placement) setCount(9999)
         setRuns(r)
       })
       .catch(() => alive && setError(true))
@@ -399,6 +405,9 @@ export function Test({ subjectId, subjectName, bankId, onBack }: Props) {
   // ---------- done ----------
   const answers = result ?? []
   const s = summarize(answers)
+  const levels = levelBreakdown(sitting.questions, answers)
+  const estimate = levels.length > 0 ? estimateLevel(levels) : null
+  const areas = topicsInSitting(sitting.questions, answers)
   const rows = sitting.questions
     .map((q, i) => ({ q, i, a: answers[i] }))
     .filter((r) => !onlyMistakes || (r.a && !isFullyRight(r.q, r.a.selected)))
@@ -422,6 +431,37 @@ export function Test({ subjectId, subjectName, bankId, onBack }: Props) {
           </button>
         </div>
       </section>
+
+      {levels.length > 0 && (
+        <section className="panel-section mc-levels">
+          <h3 className="section-title">{t('mcLevelTitle')}</h3>
+          <p className="mc-level-est">{estimate ? t('mcLevelEst', estimate) : t('mcLevelBelow', levels[0].level)}</p>
+          <ul className="mc-history-list">
+            {levels.map((l) => (
+              <li key={l.level}>
+                <span>{l.level}</span>
+                <span className="muted">{t('mcQuestionsN', l.answered)}</span>
+                <strong className={l.percent >= 70 ? 'mc-pass' : 'mc-fail'}>{l.percent} %</strong>
+              </li>
+            ))}
+          </ul>
+          <p className="muted mc-hint">{t('mcLevelHint')}</p>
+        </section>
+      )}
+
+      {areas.length > 0 && (
+        <section className="panel-section mc-levels">
+          <h3 className="section-title">{t('mcAreasTitle')}</h3>
+          <ul className="mc-history-list">
+            {areas.map((a) => (
+              <li key={a.topic}>
+                <span>{a.topic}</span>
+                <strong className={a.percent >= 70 ? 'mc-pass' : 'mc-fail'}>{a.percent} %</strong>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {rows.map(({ q, i, a }) => {
         const mine = new Set(a?.selected ?? [])

@@ -6,6 +6,8 @@ import { parseDeck, makeCloze, hasCloze } from '../src/import/parseDeck'
 import { parseRichText } from '../src/lib/richText'
 import {
   cleanBank,
+  estimateLevel,
+  levelBreakdown,
   mulberry32,
   pickQuestions,
   questionHistory,
@@ -2027,6 +2029,28 @@ console.log('— pořadí učení: nejdřív znalosti, pak případy —')
   ok(parsed.updates?.[0].learnOrder === 7, 'an update may set only the learning order of a card the user already has')
   const patch = planUpdates([{ id: 'c1', front: 'f', tags: [], learnOrder: 5 }], parsed.updates ?? [])
   ok(patch.get('c1')?.learnOrder === 7, 'the update patches the existing card, FSRS history untouched')
+}
+
+
+console.log('— rozřazovací test: úroveň bez mezer —')
+{
+  const q = (id: string, level: string): McQuestion => ({
+    id,
+    type: 'single',
+    q: id,
+    level,
+    options: [
+      { t: 'a', correct: true },
+      { t: 'b', correct: false },
+    ],
+  })
+  const qs = [q('1', 'A2'), q('2', 'A2'), q('3', 'B1'), q('4', 'B1'), q('5', 'B2'), q('6', 'B2'), q('7', 'C1')]
+  const ans = (right: boolean[]) => right.map((r, i) => ({ qid: qs[i].id, selected: [r ? 0 : 1], points: r ? 1 : 0, max: 1 }))
+  const rows = levelBreakdown(qs, ans([true, true, true, true, false, true, true]))
+  ok(rows.map((r) => `${r.level}:${r.percent}`).join(' ') === 'A2:100 B1:100 B2:50 C1:100', `per level, lowest first (got ${rows.map((r) => `${r.level}:${r.percent}`)})`)
+  ok(estimateLevel(rows) === 'B1', 'a strong C1 above a failed B2 does not count — level B1')
+  ok(estimateLevel(levelBreakdown(qs, ans([false, true, true, true, true, true, true]))) === null, 'below the lowest tested level → null')
+  ok(levelBreakdown([{ ...qs[0], level: undefined }], ans([true])).length === 0, 'a bank without levels has no breakdown')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

@@ -3270,3 +3270,13 @@ button.mc-option {
 .reader-table tbody tr:nth-child(even) {
   background: color-mix(in srgb, var(--ink) 4%, transparent);
 }
+
+.mc-levels {
+  margin-bottom: 16px;
+}
+
+.mc-level-est {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}

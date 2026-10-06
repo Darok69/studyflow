@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import { parseDeck } from '../import/parseDeck'
 import { parsePlainDeck } from '../import/parsePlainText'
-import { addNewCardsToSubject, findSubjectsByName, importDeck } from '../db/repo'
+import { addNewCardsToSubject, createSubject, findSubjectsByName, importDeck } from '../db/repo'
 import type { ParsedDeck } from '../import/parseDeck'
 import type { Subject } from '../db/db'
 import { aiPrompt, sampleDeckJson } from '../import/sampleDeck'
-import { getServerDeck, getServerDecks, SERVER_MODE, type ServerDeck } from '../lib/api'
+import { getServerDeck, getServerDecks, getServerTests, SERVER_MODE, type ServerDeck, type ServerTest } from '../lib/api'
 import { t } from '../i18n'
 
 interface Props {
@@ -15,9 +15,11 @@ interface Props {
   initialText?: string
   /** True when the pre-fill came from a shared link — shows a friendly banner. */
   shared?: boolean
+  /** Open a server test (placement test etc.) — its subject is created if missing. */
+  onOpenTest?: (subjectId: string, bankId: string, subjectName: string) => void
 }
 
-export function Import({ onDone, onCancel, initialText, shared = false }: Props) {
+export function Import({ onDone, onCancel, initialText, shared = false, onOpenTest }: Props) {
   const [text, setText] = useState(initialText ?? '')
   const [errors, setErrors] = useState<string[]>([])
   const [busy, setBusy] = useState(false)
@@ -43,6 +45,34 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
    */
   const [serverDecks, setServerDecks] = useState<ServerDeck[]>([])
   const [loadingDeck, setLoadingDeck] = useState<string | null>(null)
+  /**
+   * Tests the server holds. A placement test comes BEFORE any cards (it decides
+   * what the cards will be), so it must be reachable without a deck: opening it
+   * creates the subject when there is none yet.
+   */
+  const [serverTests, setServerTests] = useState<ServerTest[]>([])
+
+  useEffect(() => {
+    if (!SERVER_MODE || !onOpenTest) return
+    let alive = true
+    getServerTests()
+      .then((r) => {
+        if (alive) setServerTests(r.tests)
+      })
+      .catch(() => {
+        /* no tests is a normal state */
+      })
+    return () => {
+      alive = false
+    }
+  }, [onOpenTest])
+
+  async function openTest(test: ServerTest) {
+    if (!onOpenTest) return
+    const found = await findSubjectsByName(test.subject)
+    const subject = found[0] ?? (await createSubject({ name: test.subject }))
+    onOpenTest(subject.id, test.id, subject.name)
+  }
 
   useEffect(() => {
     if (!SERVER_MODE) return
@@ -184,6 +214,24 @@ export function Import({ onDone, onCancel, initialText, shared = false }: Props)
           <p className="muted">{t('pasteHint')}</p>
           <p className="muted plain-hint">{t('plainHint')}</p>
         </>
+      )}
+
+      {serverTests.length > 0 && (
+        <section className="server-decks">
+          <h3>{t('serverTestsTitle')}</h3>
+          <p className="muted">{t('serverTestsHint')}</p>
+          <div className="server-deck-list">
+            {serverTests.map((test) => (
+              <button key={test.id} className="server-deck" onClick={() => void openTest(test)}>
+                <span className="server-deck-main">
+                  <span className="server-deck-name">{test.subject}</span>
+                  <span className="muted">{t('mcBankSize', test.questions)}</span>
+                </span>
+                <span className="server-deck-go">{t('serverTestOpen')}</span>
+              </button>
+            ))}
+          </div>
+        </section>
       )}
 
       {serverDecks.length > 0 && (

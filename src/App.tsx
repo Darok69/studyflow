@@ -176,6 +176,13 @@ function App() {
               setSharedDeck(null)
               goHome()
             }}
+            onOpenTest={(subjectId, bankId, subjectName) => {
+              setSharedDeck(null)
+              setOpenSubjectId(subjectId)
+              setTestAt({ bankId, subjectName })
+              setReturnView('subject')
+              setView('test')
+            }}
             onCancel={() => {
               setSharedDeck(null)
               goHome()

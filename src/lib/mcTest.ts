@@ -24,6 +24,8 @@ export interface McQuestion {
   explain?: string
   /** Lecture title — the same string the deck uses as the card topic. */
   topic?: string
+  /** CEFR level of a placement question (A1–C2). */
+  level?: string
   lecture?: string
   slide?: number
   source?: string
@@ -34,7 +36,7 @@ export interface McBank {
   subject: string
   examDate?: string | null
   /** What the real sitting looks like, as far as it is known. */
-  format?: { minutes?: number; questions?: number; note?: string }
+  format?: { minutes?: number; questions?: number; note?: string; timed?: boolean; placement?: boolean }
   questions: McQuestion[]
 }
 
@@ -218,4 +220,53 @@ export function cleanBank(raw: unknown): McBank | null {
     return q.type === 'single' ? right === 1 : right >= 1
   })
   return { id: String(b.id ?? ''), subject: b.subject, examDate: b.examDate ?? null, format: b.format, questions }
+}
+
+export const CEFR = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const
+
+/** Share of points per CEFR level in one sitting, lowest level first. */
+export function levelBreakdown(
+  questions: McQuestion[],
+  answers: McAnswer[],
+): { level: string; percent: number; answered: number }[] {
+  const acc = new Map<string, { p: number; m: number; n: number }>()
+  questions.forEach((q, i) => {
+    const a = answers[i]
+    if (!q.level || !a) return
+    const row = acc.get(q.level) ?? { p: 0, m: 0, n: 0 }
+    row.p += a.points
+    row.m += a.max
+    row.n += 1
+    acc.set(q.level, row)
+  })
+  return CEFR.filter((l) => acc.has(l)).map((level) => {
+    const r = acc.get(level)!
+    return { level, percent: r.m > 0 ? Math.round((r.p / r.m) * 100) : 0, answered: r.n }
+  })
+}
+
+/**
+ * Estimated level: the highest level reached WITHOUT a gap — every level up to
+ * it scored at least `pass` %. A strong C1 score over a failed B2 does not count:
+ * that is guessing, or ear-learnt phrases, not command of the grammar. Returns
+ * null when not even the lowest tested level is reached.
+ */
+export function estimateLevel(rows: { level: string; percent: number }[], pass = 70): string | null {
+  let reached: string | null = null
+  for (const r of rows) {
+    if (r.percent < pass) break
+    reached = r.level
+  }
+  return reached
+}
+
+/** Points lost per topic in ONE sitting, worst first. */
+export function topicsInSitting(
+  questions: McQuestion[],
+  answers: McAnswer[],
+): { topic: string; percent: number; answered: number }[] {
+  return weakTopicsInRuns(
+    [{ answers }],
+    new Map(questions.map((q) => [q.id, q.topic ?? ''])),
+  ).filter((t) => t.topic)
 }
