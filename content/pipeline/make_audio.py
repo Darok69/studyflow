@@ -240,6 +240,12 @@ def main() -> int:
                     help="nepřevádět nic, jen dopsat manifest podle hotových souborů")
     args = ap.parse_args()
 
+    # Předmět smí podcast vypnout (courses.json: podcast.enabled = false) — např.
+    # cvičení, kde se látka slyší naživo. Týdenní dávka ho pak sama přeskočí.
+    podcast_cfg = json.loads((ROOT / "courses.json").read_text(encoding="utf-8")).get("podcast", {})
+    if podcast_cfg.get("enabled") is False:
+        print(f"{ROOT.name}: podcast je vypnutý ({podcast_cfg.get('note', 'courses.json')}) — nic nedělám")
+        return 0
     index = json.loads((MATERIALS / "index.json").read_text(encoding="utf-8"))
     order = [lec["id"] for course in index["courses"] for lec in course["lectures"]]
     lang_of = {lec["id"]: course.get("language") or "en"

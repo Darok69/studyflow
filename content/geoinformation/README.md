@@ -30,6 +30,12 @@ Daniel (2026-10-06): „dávkuj rozumně, ale hlavní termín je test“. Proto:
 | EH7 | 17. 11. | Open Source Data, Semesterarbeit, AGOL | Teil VI–VII |
 | EH8 | 24. 11. | Visualisierung: Symbole, Layout, Kartenelemente | Teil V |
 
+## Podcast
+
+**Vypnutý** (`podcast.enabled: false`). Daniel 2026-10-06: chodí na cvičení, látku slyší tam.
+`./run.sh geoinformation audio` proto nic neudělá. První dávka (geoinformation-quiz/-narration)
+na serveru zůstala.
+
 ## Zdroje
 
 - `EH<n>_gruppe1.pdf` — prezentace, přibývají po týdnech (lekce `EH0n`).
