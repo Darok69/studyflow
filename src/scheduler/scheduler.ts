@@ -28,6 +28,8 @@ export interface SchedCard {
    * deadline first and are paced so each class's batch is learnt before it.
    */
   readyBy?: string
+  /** Learning order inside one class (smaller first): concepts before cases. */
+  learnOrder?: number
 }
 
 /**
@@ -198,6 +200,9 @@ export function byPriority(cards: SchedCard[]): SchedCard[] {
       (a, b) =>
         // The nearest class first; cards that belong to no class come after.
         (a.c.readyBy ?? '9999').localeCompare(b.c.readyBy ?? '9999') ||
+        // Inside one class the deck's learning order: the knowledge a case
+        // needs comes before the case. Cards without one keep the old rule.
+        (a.c.learnOrder ?? Infinity) - (b.c.learnOrder ?? Infinity) ||
         (a.c.priority ?? 2) - (b.c.priority ?? 2) ||
         a.i - b.i,
     )
@@ -320,9 +325,13 @@ export function buildSession(
 
     // Within a subject: clear the backlog (due reviews) first, then new cards —
     // and inside each of those, mix the topics up.
+    // A deck that states a learning order (concepts → sources → cases) is not
+    // shuffled across topics: the case would land before the concept it needs.
+    const todayNew = news.slice(0, quota)
+    const ordered = todayNew.some((c) => c.learnOrder !== undefined)
     const lane = [
       ...interleaveByTopic(due).map((c) => c.id),
-      ...interleaveByTopic(news.slice(0, quota)).map((c) => c.id),
+      ...(ordered ? todayNew : interleaveByTopic(todayNew)).map((c) => c.id),
     ]
 
     perSubject.push({

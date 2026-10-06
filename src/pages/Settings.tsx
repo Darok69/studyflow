@@ -14,6 +14,7 @@ import {
 } from '../lib/api'
 import { pushSync, syncMeta } from '../lib/sync'
 import { disableReminder, enableReminder, pushSupported, reminderPrefs } from '../lib/push'
+import { clearAppNotifications } from '../lib/badge'
 import { AdminUsers } from '../components/AdminUsers'
 import { ClaudeLink } from '../components/ClaudeLink'
 import { currentLang, setLang, t, type Lang, type MsgKey } from '../i18n'
@@ -150,6 +151,8 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
     }
   }
 
+  const [badgeCleared, setBadgeCleared] = useState(false)
+
   async function update(patch: Partial<Omit<AppSettings, 'id'>>) {
     if (!s) return
     const next = { ...s, ...patch }
@@ -249,6 +252,27 @@ export function Settings({ onBack, onReset, account, onLoggedOut }: Props) {
               {reminderError && <p className="form-error">{reminderError}</p>}
             </>
           )}
+
+          <ToggleRow
+            name={t('badgeName')}
+            desc={t('badgeDesc')}
+            checked={s.appBadge}
+            onChange={(v) => {
+              void update({ appBadge: v })
+              if (!v) void clearAppNotifications()
+            }}
+          />
+          <div className="cap-row">
+            <button
+              className="btn btn-ghost btn-small"
+              onClick={() => {
+                void clearAppNotifications().then(() => setBadgeCleared(true))
+              }}
+            >
+              {t('badgeClearBtn')}
+            </button>
+            {badgeCleared && <span className="muted">{t('badgeCleared')}</span>}
+          </div>
 
           {!pushSupported() && (
             <section className="setting-row">

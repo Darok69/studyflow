@@ -12,6 +12,7 @@ export interface CardDraft {
   level?: CardLevel // 1 recall, 2 understanding, 3 application
   priority?: 1 | 2 | 3 // 1 must know 100 %, 2 important, 3 the rest
   readyBy?: string // YYYY-MM-DD — the class this card prepares for
+  learnOrder?: number // learning order inside one class (concepts before cases)
   topic?: string // heading from the approved outline
   front: string
   back: string
@@ -118,13 +119,20 @@ function parseUpdates(value: unknown): CardUpdate[] {
     const topic = typeof r.topic === 'string' && r.topic.trim() ? r.topic.trim() : undefined
     const priority = r.priority === 1 || r.priority === 2 || r.priority === 3 ? r.priority : undefined
     const readyBy = isDayKey(r.readyBy) ? r.readyBy : undefined
+    const learnOrder = isOrder(r.learnOrder) ? r.learnOrder : undefined
     if (
       !match.trim() ||
-      (front === undefined && back === undefined && topic === undefined && priority === undefined && readyBy === undefined)
+      (front === undefined &&
+        back === undefined &&
+        topic === undefined &&
+        priority === undefined &&
+        readyBy === undefined &&
+        learnOrder === undefined)
     )
       continue
     out.push({
       match,
+      ...(learnOrder !== undefined ? { learnOrder } : {}),
       ...(readyBy !== undefined ? { readyBy } : {}),
       ...(front !== undefined ? { front } : {}),
       ...(back !== undefined ? { back } : {}),
@@ -149,6 +157,11 @@ function parseRemove(value: unknown): RemoveRule[] {
 
 function emptySubject(): ParsedDeck['subject'] {
   return { name: '', examDate: null, reminderTime: null }
+}
+
+/** Pořadí učení: konečné nezáporné číslo. */
+function isOrder(v: unknown): v is number {
+  return typeof v === 'number' && Number.isFinite(v) && v >= 0
 }
 
 /**
@@ -232,6 +245,7 @@ export function parseDeck(raw: string): ParsedDeck {
     const level: CardLevel = isCardLevel(c.level) ? c.level : 1
     const priority = c.priority === 1 || c.priority === 2 || c.priority === 3 ? c.priority : undefined
     const readyBy = isDayKey(c.readyBy) ? c.readyBy : undefined
+    const learnOrder = isOrder(c.learnOrder) ? c.learnOrder : undefined
     const topic = typeof c.topic === 'string' && c.topic.trim() ? c.topic.trim() : undefined
     // Generated cards carry where they came from and whether they passed the
     // quality check; hand-written decks simply have none of this.
@@ -253,7 +267,7 @@ export function parseDeck(raw: string): ParsedDeck {
         return
       }
       const { front, back, raw } = makeCloze(text)
-      cards.push({ type, kind, level, ...(priority ? { priority } : {}), ...(readyBy ? { readyBy } : {}), topic, front, back, raw, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
+      cards.push({ type, kind, level, ...(priority ? { priority } : {}), ...(readyBy ? { readyBy } : {}), ...(learnOrder !== undefined ? { learnOrder } : {}), topic, front, back, raw, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
     } else {
       const front = typeof c.front === 'string' ? c.front.trim() : ''
       const back = typeof c.back === 'string' ? c.back.trim() : ''
@@ -261,7 +275,7 @@ export function parseDeck(raw: string): ParsedDeck {
         errors.push(t('errBasicCardNeedsBoth', n))
         return
       }
-      cards.push({ type, kind, level, ...(priority ? { priority } : {}), ...(readyBy ? { readyBy } : {}), ...(occlusion ? { occlusion } : {}), topic, front, back, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
+      cards.push({ type, kind, level, ...(priority ? { priority } : {}), ...(readyBy ? { readyBy } : {}), ...(learnOrder !== undefined ? { learnOrder } : {}), ...(occlusion ? { occlusion } : {}), topic, front, back, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
     }
   })
 

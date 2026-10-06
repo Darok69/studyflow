@@ -110,6 +110,7 @@ export function Home({
     buriedUntil: c.buriedUntil,
     priority: c.priority,
     readyBy: c.readyBy,
+    learnOrder: c.learnOrder,
   }))
   const session = buildSession(
     active.map((s) => ({ id: s.id, examDate: s.examDate, dailyNewLimit: s.dailyNewLimit })),
@@ -121,8 +122,9 @@ export function Home({
     },
   )
 
-  // "Widget": the installed-app icon shows how many cards wait today.
-  updateAppBadge(session.total)
+  // "Widget": the installed-app icon shows how many cards wait today —
+  // unless the user switched the number off (Settings → Číslo na ikoně).
+  updateAppBadge(settings?.appBadge === false ? 0 : session.total)
 
   const load_ = assessLoad(session.total)
   const ts = reviews.map((r) => r.ts)

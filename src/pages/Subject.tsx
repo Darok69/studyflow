@@ -142,6 +142,7 @@ export function Subject({
     buriedUntil: c.buriedUntil,
     priority: c.priority,
     readyBy: c.readyBy,
+    learnOrder: c.learnOrder,
   }))
   const introduced = introducedTodayBySubject(reviews, cards, now)
   const stats = subjectStats(

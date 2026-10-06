@@ -48,6 +48,7 @@ function cardFromDraft(draft: CardDraft, subjectId: string): Omit<Card, keyof Fs
     level: draft.level ?? 1,
     priority: draft.priority,
     readyBy: draft.readyBy,
+    learnOrder: draft.learnOrder,
     topic: draft.topic,
     front: draft.front,
     back: draft.back,
@@ -588,6 +589,7 @@ export const DEFAULT_SETTINGS: Settings = {
   cardSans: false,
   askConfidence: true,
   dailyMinutes: DEFAULT_DAILY_MINUTES,
+  appBadge: true,
 }
 
 export async function getSettings(): Promise<Settings> {

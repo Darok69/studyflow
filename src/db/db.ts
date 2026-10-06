@@ -88,6 +88,12 @@ export interface Card {
   priority?: 1 | 2 | 3
   /** Date of the class this card prepares for (YYYY-MM-DD) — paces new cards. */
   readyBy?: string
+  /**
+   * Pořadí učení uvnitř téže hodiny (menší dřív). Balíček jím říká „nejdřív
+   * pojmy, pak prameny, pak případy“ — bez něj by nové karty téže hodiny šly
+   * v náhodném pořadí (id karet jsou UUID).
+   */
+  learnOrder?: number
   topic?: string // heading from the approved outline — interleaving + filters
   front: string
   back: string
@@ -201,6 +207,7 @@ export interface Settings {
   cardSans: boolean // sans-serif card face instead of serif
   askConfidence: boolean // the "vím / tuším / nevím" step before the reveal
   dailyMinutes: number // time that genuinely exists for studying on a normal day
+  appBadge: boolean // number of today's cards on the installed app's icon
 }
 
 // Typed Dexie instance. We avoid the `class extends Dexie` pattern because, with

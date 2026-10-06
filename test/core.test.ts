@@ -1979,5 +1979,55 @@ console.log('— slepé obrázky v balíčku —')
   ok(parsed.cards[2].occlusion === undefined, 'asked mask invalid → no occlusion (never ask about a missing spot)')
 }
 
+
+console.log('— pořadí učení: nejdřív znalosti, pak případy —')
+{
+  const sc = (id: string, o: { lo?: number; p?: 1 | 2 | 3; r?: string; topic?: string } = {}) => ({
+    id,
+    subjectId: 's',
+    state: 'new' as const,
+    due: '2026-10-02T00:00:00Z',
+    priority: o.p,
+    readyBy: o.r,
+    learnOrder: o.lo,
+    topic: o.topic,
+  })
+  // Fall s prioritou 1 dřív NEPŘEDBĚHNE pojem s prioritou 2 téže hodiny.
+  const order = byPriority([
+    sc('fall', { lo: 300001, p: 1, r: '2026-10-13' }),
+    sc('pojem', { lo: 100002, p: 2, r: '2026-10-13' }),
+    sc('pramen', { lo: 200001, p: 1, r: '2026-10-13' }),
+    sc('zaklad', { lo: 100001, p: 1, r: '2026-10-13' }),
+    sc('dalsi-hodina', { lo: 100000, p: 1, r: '2026-10-20' }),
+  ]).map((c) => c.id)
+  ok(
+    order.join(',') === 'zaklad,pojem,pramen,fall,dalsi-hodina',
+    `inside a class: concepts → sources → cases, the class date still first (got ${order.join(',')})`,
+  )
+  const plan = buildSession(
+    [{ id: 's', examDate: '2026-12-15', dailyNewLimit: 3 }],
+    [
+      sc('f1', { lo: 300001, p: 1, r: '2026-10-13', topic: 'Fallblatt' }),
+      sc('k1', { lo: 100001, p: 1, r: '2026-10-13', topic: 'Besitz' }),
+      sc('k2', { lo: 100002, p: 1, r: '2026-10-13', topic: 'Besitzerwerb' }),
+      sc('k3', { lo: 100003, p: 1, r: '2026-10-13', topic: 'Besitz' }),
+    ],
+    new Date('2026-10-06T08:00:00Z'),
+    { newCardCap: 3 },
+  )
+  ok(plan.order.join(',') === 'k1,k2,k3', `an ordered deck is not interleaved across topics, the case waits (got ${plan.order})`)
+  const parsed = parseDeck(
+    JSON.stringify({
+      subject: 'S',
+      cards: [{ front: 'f', back: 'b', learnOrder: 5 }, { front: 'g', back: 'b', learnOrder: -1 }],
+      updates: [{ match: 'f', learnOrder: 7 }],
+    }),
+  )
+  ok(parsed.cards[0].learnOrder === 5 && parsed.cards[1].learnOrder === undefined, 'learnOrder imports; a negative one is dropped')
+  ok(parsed.updates?.[0].learnOrder === 7, 'an update may set only the learning order of a card the user already has')
+  const patch = planUpdates([{ id: 'c1', front: 'f', tags: [], learnOrder: 5 }], parsed.updates ?? [])
+  ok(patch.get('c1')?.learnOrder === 7, 'the update patches the existing card, FSRS history untouched')
+}
+
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)
 if (fail > 0) process.exit(1)

@@ -116,9 +116,17 @@ export interface CardUpdate {
   topic?: string
   priority?: 1 | 2 | 3
   readyBy?: string
+  learnOrder?: number
 }
 
-type CardPatch = { front?: string; back?: string; topic?: string; priority?: 1 | 2 | 3; readyBy?: string }
+type CardPatch = {
+  front?: string
+  back?: string
+  topic?: string
+  priority?: 1 | 2 | 3
+  readyBy?: string
+  learnOrder?: number
+}
 
 /** Cards the deck takes back out of the subject: those carrying this tag. */
 export interface RemoveRule {
@@ -131,12 +139,12 @@ export interface RemoveRule {
  * only real changes.
  */
 export function planUpdates(
-  cards: (FilingTarget & { back?: string; priority?: 1 | 2 | 3; readyBy?: string })[],
+  cards: (FilingTarget & { back?: string; priority?: 1 | 2 | 3; readyBy?: string; learnOrder?: number })[],
   updates: CardUpdate[],
 ): Map<string, CardPatch> {
   const out = new Map<string, CardPatch>()
   if (updates.length === 0) return out
-  const byKey = new Map<string, FilingTarget & { back?: string; priority?: 1 | 2 | 3; readyBy?: string }>()
+  const byKey = new Map<string, FilingTarget & { back?: string; priority?: 1 | 2 | 3; readyBy?: string; learnOrder?: number }>()
   for (const card of cards) byKey.set(questionKey(card.front), card)
   for (const u of updates) {
     const card = byKey.get(questionKey(u.match))
@@ -152,6 +160,7 @@ export function planUpdates(
     if (u.back !== undefined && u.back.trim() && u.back !== card.back) patch.back = u.back
     if (u.priority !== undefined && u.priority !== card.priority) patch.priority = u.priority
     if (u.readyBy !== undefined && u.readyBy !== card.readyBy) patch.readyBy = u.readyBy
+    if (u.learnOrder !== undefined && u.learnOrder !== card.learnOrder) patch.learnOrder = u.learnOrder
     if (Object.keys(patch).length > 0) {
       out.set(card.id, patch)
       if (patch.front !== undefined) byKey.set(questionKey(patch.front), card)

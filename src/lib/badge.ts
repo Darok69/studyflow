@@ -11,3 +11,19 @@ export function updateAppBadge(count: number): void {
     void nav.clearAppBadge?.().catch(() => {})
   }
 }
+
+/**
+ * Vynuluje číslo na ikoně i oznámení, která v systému po appce zůstala.
+ * Číslo se jinak samo přepočítá při dalším otevření úvodní obrazovky — pokud
+ * je odznak zapnutý (Settings.appBadge).
+ */
+export async function clearAppNotifications(): Promise<void> {
+  updateAppBadge(0)
+  try {
+    const reg = await navigator.serviceWorker?.getRegistration()
+    const shown = (await reg?.getNotifications()) ?? []
+    for (const n of shown) n.close()
+  } catch {
+    /* bez service workeru nejsou ani oznámení */
+  }
+}

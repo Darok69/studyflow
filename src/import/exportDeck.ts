@@ -20,6 +20,8 @@ export function deckToJson(
     if (c.kind && c.kind !== c.type) base.kind = c.kind
     if (c.level && c.level !== 1) base.level = c.level
     if (c.priority) base.priority = c.priority
+    if (c.readyBy) base.readyBy = c.readyBy
+    if (c.learnOrder !== undefined) base.learnOrder = c.learnOrder
     if (c.topic) base.topic = c.topic
     if (c.sourceRef) base.sourceRef = c.sourceRef
     if (c.draft) {
