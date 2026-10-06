@@ -1,0 +1,72 @@
+{
+  "language": "de",
+  "exam": {
+    "name": "MEGIDA — Einführung in die Geoinformation (Universität Wien; Schwab, Rauscha)",
+    "date": "2026-12-01",
+    "language": "de",
+    "format": "Prüfung 1 Di 1. 12. 2026 (Prüfung 2 Di 15. 12. 2026), 70 Minuten, praktisches Beispiel v ArcGIS Pro. Známka: 40 % zkouška, 40 % Semesterarbeit (Programmabgabe sobota 16. 1. 2027), 20 % Mitarbeit (Mitarbeitskontrollen + Hausübungen) a docházka. Notenschlüssel: <51 % = 5, <63 % = 4, <75 % = 3, <87 % = 2, jinak 1 (EH1 s14)."
+  },
+  "podcast": {
+    "short": "Geoinformation",
+    "course": "Einführung in die Geoinformation (MEGIDA)"
+  },
+  "courses": [
+    {
+      "code": "EG",
+      "number": "MEGIDA",
+      "title": "Einführung in die Geoinformation",
+      "subject": "Einführung in die Geoinformation",
+      "root": "/Users/danielmarek/Library/Mobile Documents/com~apple~CloudDocs/Uni Wien/Geographie/4. Semester/Einführung in die Geoinformation",
+      "language": "de",
+      "lectures": [
+        {
+          "id": "EH01",
+          "unit": "Einheit 1 · 6. 10.",
+          "title": "Organisatorisches, Koordinatensysteme, Geodatabase",
+          "file": "EH1_gruppe1.pdf",
+          "readyBy": "2026-10-20",
+          "note": "Semesterplan na s5–s9: EH2 13.10 Georeferenzieren (Raster, Transformation), EH3 20.10 Georeferenzieren (Arten, Bild zu Bild, Passpunkte), EH4 27.10 Digitalisieren (Objektschlüssel, Domains, Symbolisierung), EH5 3.11 Linien (Digitalisieren, Fehler bereinigen, Snapping), EH6 10.11 Flächen und Topologie, EH7 17.11 Open Source Data (Semesterarbeit, AGOL), EH8 24.11 Visualisierung (mehrschichtige Symbolisierung, Layout, Kartenelemente); Prüfung 1 1.12, Prüfung 2 15.12, Programmabgabe 16.1.2027."
+        }
+      ]
+    },
+    {
+      "code": "SK",
+      "number": "MEGIDA",
+      "title": "Skript ArcGIS Pro",
+      "subject": "Einführung in die Geoinformation",
+      "root": "/Users/danielmarek/Library/Mobile Documents/com~apple~CloudDocs/Uni Wien/Geographie/4. Semester/Einführung in die Geoinformation",
+      "language": "de",
+      "lectures": [
+        {
+          "id": "SK01",
+          "unit": "Skript Teil I–II · zu EH4",
+          "title": "Projekt und Datenstruktur: Geodatabase, Subtypes, Domains",
+          "file": "Skript.pdf",
+          "pages": [
+            7,
+            29
+          ],
+          "readyBy": "2026-10-27"
+        },
+        {
+          "id": "SK02",
+          "unit": "Skript Kap. 9–10 · zu EH2–3",
+          "title": "Raumbezug in Österreich: Bezugssystem, Projektion, Transformation",
+          "file": "Skript.pdf",
+          "pages": [
+            30,
+            35
+          ],
+          "readyBy": "2026-10-20"
+        },
+        {
+          "id": "UB01",
+          "unit": "Übersicht",
+          "title": "Übersichtstabellen",
+          "kind": "summary",
+          "note": "Souhrnné tabulky napříč jednotkami — rozšiřovat s každou dávkou."
+        }
+      ]
+    }
+  ]
+}
