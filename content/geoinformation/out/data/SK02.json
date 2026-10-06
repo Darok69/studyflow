@@ -3,14 +3,14 @@
   "course": "SK",
   "course_title": "Skript ArcGIS Pro",
   "course_number": "MEGIDA",
-  "unit": "Skript Kap. 9–10 · zu EH2",
+  "unit": "Skript Kap. 9–10 · zu EH2–3",
   "title": "Raumbezug in Österreich: Bezugssystem, Projektion, Transformation",
   "source_file": "raw/SK02_skript.pdf",
   "source_sha256": "9f874b4b620f309870055e06e605bf66dba0f986614f2a25c81447d73df3f98a",
   "source_pages": 6,
   "slides_per_page": 1,
   "slide_count": 6,
-  "updated_at": "2026-10-06T09:37:18+00:00",
+  "updated_at": "2026-10-06T10:14:18+00:00",
   "slides": [
     {
       "n": 1,

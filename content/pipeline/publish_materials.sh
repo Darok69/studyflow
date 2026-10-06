@@ -17,6 +17,20 @@ ROOT="$(cd "$(dirname "$0")/../$PACK" && pwd)"
 [ -f "$ROOT/out/materials/index.json" ] || {
   echo "chybí out/materials — pusť nejdřív ./run.sh $PACK materials" >&2; exit 1; }
 
+# Lekce všech předmětů leží na serveru v JEDNÉ složce (/data/materials/<ID>.json),
+# takže stejné ID ve dvou předmětech by jeden přepsalo druhým (stalo se:
+# UB01 v system-erde i geoinformation). Kolize se hlídá před nahráním.
+for f in "$ROOT"/out/materials/*.json; do
+  id=$(basename "$f")
+  case "$id" in index.json) continue ;; esac
+  for other in "$ROOT"/../*/out/materials/"$id"; do
+    [ -e "$other" ] || continue
+    [ "$(cd "$(dirname "$other")/../.." && pwd)" = "$ROOT" ] && continue
+    echo "lekce ${id%.json} je i v předmětu $(basename "$(cd "$(dirname "$other")/../.." && pwd)") — přejmenuj ID" >&2
+    exit 1
+  done
+done
+
 STAGE=$(mktemp -d)
 trap 'rm -rf "$STAGE"' EXIT
 mkdir -p "$STAGE/materials"

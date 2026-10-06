@@ -1,6 +1,6 @@
 # REPORT — podklady pro MEGIDA — Einführung in die Geoinformation (Universität Wien; Schwab, Rauscha)
 
-Běh: 2026-10-06T11:37:18+02:00
+Běh: 2026-10-06T12:14:18+02:00
 
 ## Zkouška
 - MEGIDA — Einführung in die Geoinformation (Universität Wien; Schwab, Rauscha)
@@ -19,7 +19,7 @@ Běh: 2026-10-06T11:37:18+02:00
 | EH01 | 39 | 39 | 3 | 39 | 0 |
 | SK01 | 23 | 10 | 0 | 23 | 0 |
 | SK02 | 6 | 1 | 0 | 6 | 0 |
-| UB01 | 4 | 0 | 0 | 4 | 0 |
+| GIUB | 4 | 0 | 0 | 4 | 0 |
 
 ## Kontrola obrázků vs. JSON
 
