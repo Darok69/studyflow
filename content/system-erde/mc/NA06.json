@@ -1,0 +1,147 @@
+{"lecture_id": "NA06", "questions": [
+  {"id": "NA06-001", "type": "single", "q": "Wann entstand das Sonnensystem laut Nasdala-Handout?",
+   "options": [
+     {"t": "Vor ca. 13,8 Mrd. Jahren", "correct": false},
+     {"t": "Vor ca. 4,65 Mrd. Jahren", "correct": true},
+     {"t": "Vor ca. 4,4 Mrd. Jahren", "correct": false},
+     {"t": "Vor ca. 3,8 Mrd. Jahren", "correct": false}
+   ],
+   "explain": "Entstehung aus einer runden, langsam rotierenden Gas- und Staubwolke vor ca. 4,65 Mrd. Jahren. 4,4 Mrd. = älteste Erdminerale, 3,8 Mrd. = erste Lebenshinweise (Isotope).", "slide": 2, "source": "altfrage"},
+  {"id": "NA06-002", "type": "multi", "q": "Welche Aussagen zum Unterschied zwischen terrestrischen und jovianischen Planeten treffen zu?",
+   "options": [
+     {"t": "Terrestrische Planeten entstanden durch Kollision und Akkretion von Planetesimalen.", "correct": true},
+     {"t": "Jovianische Planeten entstanden durch Akkretion von Gasen.", "correct": true},
+     {"t": "Jovianische Planeten haben viele Monde und Ringsysteme.", "correct": true},
+     {"t": "Terrestrische Planeten bestehen zu ca. 70 % aus H und 30 % aus He.", "correct": false},
+     {"t": "Jovianische Planeten sind relativ klein und haben feste Oberflächen.", "correct": false}
+   ],
+   "explain": "70 % H / 30 % He gilt für die jovianischen Gasplaneten; terrestrische sind relativ klein, aus Gestein (Oxide von Al, Ca, Si, Mg, Fe) mit fester Oberfläche.", "slide": 2, "source": "altfrage"},
+  {"id": "NA06-003", "type": "multi", "q": "Welche Aussagen zum Aufbau der jovianischen Planeten treffen zu?",
+   "options": [
+     {"t": "Die Atmosphäre besteht aus H2, He und CH4.", "correct": true},
+     {"t": "Bei Jupiter und Saturn folgt weiter innen metallischer Wasserstoff.", "correct": true},
+     {"t": "Sie haben einen kleinen festen Kern aus Eisen, Silikaten und Eis.", "correct": true},
+     {"t": "Ihre Ringsysteme liegen außerhalb der Roche-Grenze, wo die Gezeitenkräfte schwach sind.", "correct": false},
+     {"t": "Schwere Elemente machen etwa 30 % ihrer Masse aus.", "correct": false}
+   ],
+   "explain": "Ringe = Partikel auf Keplerbahnen in der Äquatorebene INNERHALB der Roche-Grenze (starke Gezeitenkräfte). Zusammensetzung: 70 % H, 30 % He, <1 % schwere Elemente.", "slide": 2, "source": "slide"},
+  {"id": "NA06-004", "type": "single", "q": "Wie wird Pluto im Handout charakterisiert?",
+   "options": [
+     {"t": "Als fünfter jovianischer Gasplanet", "correct": false},
+     {"t": "Als „kosmischer Schneeball“ aus Methan, Wasser und Gesteinsmaterial", "correct": true},
+     {"t": "Als größter Asteroid des Asteroidengürtels", "correct": false},
+     {"t": "Als terrestrischer Planet mit flüssigem Kern", "correct": false}
+   ],
+   "explain": "Pluto ist KEIN äußerer Planet im Sinne der jovianischen Planeten, sondern ein „kosmischer Schneeball“. Größter Asteroid ist Ceres.", "slide": 2, "source": "slide"},
+  {"id": "NA06-005", "type": "single", "q": "In welchem Größenverhältnis steht bei einem Kometen der Durchmesser des Kerns zur Länge des Gasschweifs?",
+   "options": [
+     {"t": "Ca. 1 : 10", "correct": false},
+     {"t": "Ca. 1 : 1000", "correct": false},
+     {"t": "Ca. 1 : Millionen", "correct": true},
+     {"t": "Ca. 1 : Milliarden", "correct": false}
+   ],
+   "explain": "Kern meist 1–10 km, Schweif ca. 10^7 km → Verhältnis ca. 1 : 10^6 bis 1 : 10^7.", "slide": 3, "source": "altfrage"},
+  {"id": "NA06-006", "type": "multi", "q": "Welche Aussagen zum Kometenschweif treffen zu?",
+   "options": [
+     {"t": "Der Gasschweif ist der helle Teil des Schweifs.", "correct": true},
+     {"t": "Der Gasschweif entsteht durch Ladungsaustausch von Sonnenwind und Koma; die Lorentz-Kraft beschleunigt ihn von der Sonne weg.", "correct": true},
+     {"t": "Der Staubschweif wird durch Strahlungsdruck beschleunigt und ist durch geringere Beschleunigung gebogen.", "correct": true},
+     {"t": "Der Schweif ist ca. 10^4 km lang und auch fern der Sonne vorhanden.", "correct": false},
+     {"t": "Der Staubschweif ist der helle, gerade Teil des Schweifs.", "correct": false}
+   ],
+   "explain": "Schweif ca. 10^7 km, nur in Sonnennähe. Staubschweif = diffuser, gebogener Teil.", "slide": 3, "source": "slide"},
+  {"id": "NA06-007", "type": "single", "q": "Was versteht man unter einem „Chondrit“?",
+   "options": [
+     {"t": "Einen Kleinplaneten im Asteroidengürtel", "correct": false},
+     {"t": "Einen undifferenzierten Steinmeteoriten", "correct": true},
+     {"t": "Einen Eisenmeteoriten", "correct": false},
+     {"t": "Einen noch im Weltall befindlichen Körper (Meteorid)", "correct": false}
+   ],
+   "explain": "Chondrite = undifferenzierte Meteorite (Klassifikation I) und Steinmeteorite (Klassifikation II), benannt nach Chondren (Silikatkügelchen).", "slide": 3, "source": "altfrage"},
+  {"id": "NA06-008", "type": "multi", "q": "Welche Aussagen zu Asteroiden treffen laut Handout zu?",
+   "options": [
+     {"t": "Asteroiden heißen auch Planetoiden oder Kleinplaneten.", "correct": true},
+     {"t": "Sie kommen am häufigsten zwischen Mars- und Jupiterbahn vor.", "correct": true},
+     {"t": "Der größte ist Ceres mit D = ca. 1000 km.", "correct": true},
+     {"t": "Vesta ist mit D = 523 km größer als Pallas.", "correct": false},
+     {"t": "Das Hauptinteresse gilt heute den Erdbahnkreuzern als potenzieller Gefahr.", "correct": true}
+   ],
+   "explain": "Pallas D = 523 km, Vesta D = 500 km – Pallas ist also größer.", "slide": 3, "source": "slide"},
+  {"id": "NA06-009", "type": "multi", "q": "Welche Aussagen zu Meteoriten treffen zu?",
+   "options": [
+     {"t": "Ein Meteorit hat nach Durchquerung der Atmosphäre die Erdoberfläche erreicht.", "correct": true},
+     {"t": "Ein Meteorid ist der ursprüngliche, noch im Weltall befindliche Körper.", "correct": true},
+     {"t": "Steinmeteorite umfassen Chondrite und Achondrite.", "correct": true},
+     {"t": "Stein-Eisen-Meteorite sind eine Übergangsform.", "correct": true},
+     {"t": "Chondren sind kleine Eisenkügelchen.", "correct": false}
+   ],
+   "explain": "Chondren = Silikatkügelchen; nach ihrem Vorhandensein heißen die Steinmeteorite Chondrite bzw. Achondrite.", "slide": 3, "source": "slide"},
+  {"id": "NA06-010", "type": "multi", "q": "Welche Aussagen zur Entstehung des Erdmondes treffen zu?",
+   "options": [
+     {"t": "Vor ca. 4,5 Mrd. Jahren schlug ein Körper von der Größe des heutigen Mars auf der Erde auf.", "correct": true},
+     {"t": "Der Mond akkretierte aus ausgeschleudertem Schutt von Erde und Impaktor.", "correct": true},
+     {"t": "Durch den Impakt wurde die Erdachse um ca. 23° gekippt und die Rotation beschleunigt.", "correct": true},
+     {"t": "Die Impakt-Hypothese wurde durch U-Pb-Datierung bestätigt (Mondalter 4,47 Ga).", "correct": true},
+     {"t": "Der Mond wurde als fertiger Körper vom Gravitationsfeld der Erde eingefangen.", "correct": false}
+   ],
+   "explain": "Laut Handout: Impakt-Hypothese – Mond aus dem Schutt akkretiert; keine Einfanghypothese.", "slide": 4, "source": "altfrage"},
+  {"id": "NA06-011", "type": "single", "q": "Welche Schale der Erde ist flüssig und in welcher Tiefe liegt sie laut Handout?",
+   "options": [
+     {"t": "Der innere Kern, 5150–6370 km", "correct": false},
+     {"t": "Der äußere Kern, 2900–5150 km", "correct": true},
+     {"t": "Der untere Mantel, 660–2900 km", "correct": false},
+     {"t": "Die Übergangszone, 420–660 km", "correct": false}
+   ],
+   "explain": "Nur der äußere Kern ist flüssig; der innere Kern ist fest, der Mantel i. W. fest, plastisch.", "slide": 4, "source": "slide"},
+  {"id": "NA06-012", "type": "multi", "q": "Welche Tiefenangaben zum Schalenbau der Erde stimmen mit dem Handout überein?",
+   "options": [
+     {"t": "Erdkruste 0–40 km", "correct": true},
+     {"t": "Oberer Erdmantel 40–660 km", "correct": true},
+     {"t": "Unterer Erdmantel 660–2900 km", "correct": true},
+     {"t": "Innerer Kern 2900–5150 km", "correct": false},
+     {"t": "Übergangszone ca. 420–660 km", "correct": true}
+   ],
+   "explain": "2900–5150 km ist der äußere (flüssige) Kern; der innere Kern reicht von 5150–6370 km.", "slide": 4, "source": "slide"},
+  {"id": "NA06-013", "type": "single", "q": "Welche Planeten sind laut Handout durch eine (aktive) Tektonik infolge Konvektion im Mantel charakterisiert?",
+   "options": [
+     {"t": "Erde und Mars", "correct": false},
+     {"t": "Erde, Jupiter und Saturn", "correct": false},
+     {"t": "Venus und Erde", "correct": true},
+     {"t": "Merkur, Venus, Erde und Mars", "correct": false}
+   ],
+   "explain": "Erde: Plattentektonik durch Mantelkonvektion; Venus: intensive Schuppentektonik durch noch stärkere Konvektion. Marskonvektion ist nahezu erloschen, Merkur ist unklar.", "slide": 4, "source": "altfrage"},
+  {"id": "NA06-014", "type": "single", "q": "Wie alt sind die ältesten bekannten mineralischen Relikte terrestrischer Entstehung?",
+   "options": [
+     {"t": "Ca. 3,8 Mrd. Jahre", "correct": false},
+     {"t": "Ca. 4,4 Mrd. Jahre", "correct": true},
+     {"t": "Ca. 6 Mrd. Jahre", "correct": false},
+     {"t": "Ca. 13,8 Mrd. Jahre", "correct": false}
+   ],
+   "explain": "Älteste Minerale der Erde: bis 4,4 Mrd. Jahre alte Zirkone (ZrSiO4) aus dem Metakonglomerat W74, Jack Hills, Westaustralien.", "slide": 5, "source": "altfrage"},
+  {"id": "NA06-015", "type": "single", "q": "Ordnen Sie Venus, Erde und Erdmond nach dem Alter der ältesten heute an der Oberfläche existierenden Gesteine bzw. Minerale (alt → jung).",
+   "options": [
+     {"t": "Erde – Venus – Mond", "correct": false},
+     {"t": "Mond – Erde – Venus", "correct": true},
+     {"t": "Venus – Mond – Erde", "correct": false},
+     {"t": "Mond – Venus – Erde", "correct": false}
+   ],
+   "explain": "Mond: älteste Gesteine 4470 Ma; Erde: älteste Minerale 4400 Ma; Venus: älteste Oberflächengesteine ca. 500 Ma (Schuppentektonik).", "slide": 5, "source": "altfrage"},
+  {"id": "NA06-016", "type": "multi", "q": "Welche Datierungen der Zeittafel zur Entwicklung der Erde treffen zu?",
+   "options": [
+     {"t": "4560 Ma: Entstehung der Erde durch Akkretion", "correct": true},
+     {"t": "4510 Ma: Entstehung des Erdmondes durch Impakt", "correct": true},
+     {"t": "Ca. 4400 Ma: Kern-Mantel-Differentiation abgeschlossen", "correct": true},
+     {"t": "4000–3200 Ma: Entstehung der basaltischen Gesteine der Mond-Maria", "correct": true},
+     {"t": "Ca. 4000 Ma: jüngster Vulkanismus am Olympus Mons", "correct": false}
+   ],
+   "explain": "Ca. 4000 Ma entstanden die Erdozeane (und Wasser auf dem Mars); die jüngsten magmatischen Gesteine des Mars (Olympus Mons) sind 200–100 Ma alt.", "slide": 5, "source": "slide"},
+  {"id": "NA06-017", "type": "multi", "q": "Welche Aussagen zu frühem Leben und zum Mars treffen laut Zeittafel zu?",
+   "options": [
+     {"t": "Erste Hinweise auf Leben durch Isotope: ca. 3800 Ma", "correct": true},
+     {"t": "Erste Hinweise auf Leben durch Fossilien: ca. 3500 Ma", "correct": true},
+     {"t": "Ca. 3500 Ma endete ungefähr das Vorkommen größerer Wassermengen auf dem Mars.", "correct": true},
+     {"t": "Die Kraterlandschaften des Mars entstanden um 500 Ma.", "correct": false},
+     {"t": "Fossile Lebensspuren sind älter als die Isotopenhinweise.", "correct": false}
+   ],
+   "explain": "Mars-Kraterlandschaften: 3900 Ma (jüngerer Meteoritenschauer). Isotopenbelege (3800 Ma) sind älter als Fossilbelege (3500 Ma).", "slide": 5, "source": "slide"}
+]}

@@ -1,0 +1,714 @@
+{
+  "lecture_id": "NA04",
+  "course": "SE",
+  "course_title": "System Erde",
+  "course_number": "280001",
+  "unit": "Handout Nasdala",
+  "title": "Metamorphite",
+  "source_file": "raw/NA04_handout-metamorphite.pdf",
+  "source_sha256": "6bd25d10849c5d4c42a71fbe022c11066bb32560da06b46b14543150fd52dae5",
+  "source_pages": 4,
+  "slides_per_page": 1,
+  "slide_count": 4,
+  "updated_at": "2026-10-06T07:44:42+00:00",
+  "slides": [
+    {
+      "n": 1,
+      "img": "img/NA04/NA04_s001.webp",
+      "title": "Titelblatt: Metamorphe Gesteine und Minerale",
+      "text": "Titelblatt des Handouts von Prof. Lutz Nasdala zum Themenkomplex 6 „Metamorphe Gesteine und Minerale“; empfohlen wird Kapitel 6 aus Press/Siever „Allgemeine Geologie“ (Grotzinger et al., 5. Aufl. 2008), besonders die Kapitelzusammenfassung.",
+      "terms": [],
+      "cards": [],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 606,
+      "text_sha": "c02c3a9097969a72",
+      "pdf_page": 1
+    },
+    {
+      "n": 2,
+      "img": "img/NA04/NA04_s002.webp",
+      "title": "Allgemeine Termini und Metasomatose (Skarn)",
+      "text": "Metamorphose (genauer Gesteinsmetamorphose) ist die Umwandlung der mineralogischen Zusammensetzung eines Gesteins durch geänderte Temperatur- und/oder Druckbedingungen; aus dem Ausgangsgestein (Protolith) entsteht ein metamorphes Gestein (Metamorphit). Entscheidend: Die Mineralumbildung erfolgt im FESTEN Zustand. Die Diagenese ist die Vorstufe der Metamorphose (Grenze unscharf): Verfestigung von Lockersedimenten unter niedrigen Drücken und Temperaturen durch Kompaktion (Zusammendrücken, Wasser entweicht) und Zementation (erste Mineralneubildungen in Poren). Die niedrigstgradige Metamorphose im Grenzbereich zur Diagenese heißt Anchimetamorphose, die höchstgradige mit teilweiser oder vollständiger Aufschmelzung Anatexis. Die veralteten Intensitätsbegriffe Katazone (hoch; ≈ Granulit-/Eklogitfazies), Mesozone (mittel; ≈ Blau-/Grünschieferfazies) und Epizone (gering; ≈ Prehnit-Pumpellyit-/Zeolith-Fazies) werden benutzt, wenn keine genaue Fazieszuordnung möglich ist. Metasomatose = Metamorphose mit chemischer Änderung (Stoffzufuhr und/oder Stoffabfuhr). Skarne (Begriff aus dem alt-schwedischen Bergbau, amer. auch „tactite“) sind Ca-reiche Metasomatite, die an der Kontaktzone (meist granitischer) Intrusionen mit Ca-Karbonaten (Calcit, Dolomit) entstehen: Fluida aus der Intrusion bringen Si, Al, auch Fe, zersetzen die Karbonate, und es bilden sich Ca-Silikat-reiche Paragenesen. Beispiel: Wollastonit nach 3 CaCO3 + 3 SiO2 → Ca3Si3O9 + 3 CO2.",
+      "terms": [
+        {
+          "term": "Metamorphose (Gesteinsmetamorphose)",
+          "def": "Umwandlung der mineralogischen Zusammensetzung eines Gesteins durch geänderte Temperatur- und/oder Druckbedingungen; Mineralumbildung im festen Zustand."
+        },
+        {
+          "term": "Protolith",
+          "def": "Ausgangsgestein, aus dem durch Metamorphose ein metamorphes Gestein entsteht."
+        },
+        {
+          "term": "Metamorphit",
+          "def": "Metamorphes Gestein, das durch Metamorphose aus einem Protolith entstanden ist."
+        },
+        {
+          "term": "Diagenese",
+          "def": "Vorstufe der Metamorphose (Grenze unscharf); Verfestigung von Lockersedimenten und Gesteinsveränderung unter niedrigen Drücken und Temperaturen."
+        },
+        {
+          "term": "Kompaktion",
+          "def": "Teilprozess der Diagenese: Zusammendrücken, Wasser entweicht."
+        },
+        {
+          "term": "Zementation",
+          "def": "Teilprozess der Diagenese: erste Mineralneubildungen in Poren."
+        },
+        {
+          "term": "Anchimetamorphose",
+          "def": "Niedrigstgradige Metamorphose; Grenzbereich Diagenese–Metamorphose."
+        },
+        {
+          "term": "Anatexis",
+          "def": "Höchstgradige Metamorphose unter teilweiser oder sogar vollständiger Aufschmelzung."
+        },
+        {
+          "term": "Katazone / Mesozone / Epizone",
+          "def": "Veraltete Begriffe für hohe / mittlere / geringe Metamorphoseintensität (≈ Granulit-/Eklogitfazies / Blau- und Grünschieferfazies / Prehnit-Pumpellyit- bzw. Zeolith-Fazies)."
+        },
+        {
+          "term": "Metasomatose",
+          "def": "Metamorphose mit chemischer Änderung, d. h. Stoffzufuhr oder Stoffabfuhr oder (zumeist) beides."
+        },
+        {
+          "term": "Skarn",
+          "def": "Begriff aus dem alt-schwedischen Bergbau; Ca-reiche Metasomatite (amer. auch „tactite“), entstanden durch Überprägung karbonatischer Gesteine mit mineralstoffbeladenen Fluida aus silikatischen Schmelzen."
+        },
+        {
+          "term": "Wollastonit",
+          "def": "Ca-Silikat Ca3Si3O9; entsteht durch metasomatische Überprägung von Calcit unter SiO2-Zufuhr."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Was versteht man unter Metamorphose (Gesteinsmetamorphose)?",
+          "a": "Umwandlung der mineralogischen Zusammensetzung eines Gesteins durch geänderte Temperatur- und/oder Druckbedingungen. Aus dem Ausgangsgestein (Protolith) entsteht ein metamorphes Gestein (Metamorphit).",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "In welchem Zustand erfolgt die Mineralumbildung bei der Metamorphose?",
+          "a": "Im festen Zustand (keine Schmelze nötig).",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Wie heißt das Ausgangsgestein einer Metamorphose und wie das Produkt?",
+          "a": "Ausgangsgestein = Protolith (auch Edukt); Produkt = metamorphes Gestein (Metamorphit).",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was bezeichnet „Diagenese“?",
+          "a": "Die Vorstufe der Metamorphose (Grenze unscharf): Verfestigung von Lockersedimenten und Gesteinsveränderung unter niedrigen Drücken und Temperaturen.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Welche zwei Teilprozesse gehören zur Diagenese?",
+          "a": "Kompaktion – Zusammendrücken, Wasser entweicht\nZementation – erste Mineralneubildungen in Poren",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Was passiert bei der Kompaktion (Diagenese)?",
+          "a": "Das Sediment wird zusammengedrückt, Wasser entweicht.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was passiert bei der Zementation (Diagenese)?",
+          "a": "Erste Mineralneubildungen in den Poren.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Wie unterscheiden sich Diagenese und Metamorphose?",
+          "a": "Diagenese = Verfestigung von Lockersedimenten bei niedrigen p und T (Vorstufe); Metamorphose = Mineralumwandlung durch geänderte p-T-Bedingungen im festen Zustand. Die Grenze ist unscharf (Übergang = Anchimetamorphose).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist Anchimetamorphose?",
+          "a": "Die niedrigstgradige Metamorphose – der Grenzbereich zwischen Diagenese und Metamorphose.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist Anatexis?",
+          "a": "Die höchstgradige Metamorphose unter teilweiser oder sogar vollständiger Aufschmelzung.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Anchimetamorphose oder Anatexis: Welcher Begriff steht für den niedrigsten, welcher für den höchsten Metamorphosegrad?",
+          "a": "Anchimetamorphose = niedrigstgradig (Grenze zur Diagenese); Anatexis = höchstgradig (teilweise/vollständige Aufschmelzung).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Ordne Diagenese, Anchimetamorphose, Metamorphose und Anatexis nach zunehmender Intensität.",
+          "a": "Diagenese → Anchimetamorphose → Metamorphose → Anatexis",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Welcher Fazies entspricht ungefähr die Katazone?",
+          "a": "Granulitfazies / Eklogitfazies (hohe Metamorphoseintensität).",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welcher Fazies entspricht ungefähr die Mesozone?",
+          "a": "Blau- und Grünschieferfazies (mittlere Metamorphoseintensität).",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welcher Fazies entspricht ungefähr die Epizone?",
+          "a": "Prehnit-Pumpellyit- / Zeolith-Fazies (geringe Metamorphoseintensität).",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Ordne Epizone, Katazone und Mesozone nach zunehmender Metamorphoseintensität.",
+          "a": "Epizone (gering) → Mesozone (mittel) → Katazone (hoch)",
+          "difficulty": 1,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Wann werden die Begriffe Kata-, Meso- und Epizone heute noch verwendet?",
+          "a": "Als veraltete, aber gebräuchliche Begriffe für die Metamorphoseintensität – vor allem, wenn eine genaue Fazieszuordnung nicht möglich ist.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist Metasomatose?",
+          "a": "Metamorphose mit chemischer Änderung: Stoffzufuhr oder Stoffabfuhr oder (zumeist) beides.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist ein Skarn?",
+          "a": "Ein Ca-reicher Metasomatit, entstanden durch Überprägung karbonatischer Gesteine mit mineralstoffbeladenen Fluida, die aus silikatischen Schmelzen stammen.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Woher stammt der Begriff „Skarn“ und welches Synonym gibt es in der amerikanischen Literatur?",
+          "a": "Aus dem alt-schwedischen Bergbau; amerikanisch auch „tactite“.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Wo bilden sich Skarne?",
+          "a": "In der Kontaktzone von (zumeist granitischen) Intrusionen mit Ca-Karbonaten (Calcit, Dolomit).",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Wie läuft die Bildung eines Skarns ab?",
+          "a": "Fluida aus der (granitischen) Intrusion transportieren Si, Al, auch Fe → Fluida dringen in das Karbonatgestein ein → Ca-Karbonate werden zersetzt → Metasomatose → Bildung von Skarnen (Ca-Silikat-reiche Paragenesen)",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Elemente transportieren die Fluida aus der Intrusion bei der Skarnbildung?",
+          "a": "Si, Al, auch Fe (u. a.).",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Mineralparagenesen kennzeichnen Skarne?",
+          "a": "Ca-Silikat-reiche Paragenesen.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Ergänze die Reaktion der Wollastonitbildung: 3 CaCO3 + 3 SiO2 → … + …",
+          "a": "3 CaCO3 + 3 SiO2 → Ca3Si3O9 (Wollastonit) + 3 CO2",
+          "difficulty": 2,
+          "kind": "cloze",
+          "priority": "core"
+        },
+        {
+          "q": "Aus welchem Mineral und unter Zufuhr welcher Komponente entsteht Wollastonit?",
+          "a": "Aus Calcit (CaCO3) durch metasomatische Überprägung unter SiO2-Zufuhr; dabei wird CO2 frei.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Ist die Skarnbildung eine isochemische Metamorphose?",
+          "a": "Nein – sie ist Metasomatose (Stoffzufuhr von Si, Al, Fe aus Fluida; Abfuhr von CO2), also mit wesentlicher chemischer Änderung.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 1968,
+      "text_sha": "595f43a801441e67",
+      "pdf_page": 2
+    },
+    {
+      "n": 3,
+      "img": "img/NA04/NA04_s003.webp",
+      "title": "Metamorphosearten I–IV",
+      "text": "Metamorphosearten werden vierfach klassifiziert. I – nach Ort und p-T-Bedingungen (oft mit Abweichung vom „normalen“ p-T-Verhältnis): (a) Kontaktmetamorphose durch Aufheizung des umgebenden Gesteins („Kontakthof“) durch heißes Magma, Umwandlung v. a. durch Temperaturerhöhung; (b) Regionalmetamorphose durch Senkung großer Volumina der Erdkruste, Umwandlung durch Druck und Temperatur, Besonderheit: Ultrahochdruck-Metamorphose; (c) druckbetonte Metamorphose (HP-LT) durch Absenkung relativ kalten ozeanischen Krustenmaterials bei Subduktion – niedrige T, hohe p; (d) weitere: Schock- und Dislokationsmetamorphose. II – nach chemischer Änderung: isochemische Metamorphose (ohne wesentliche Änderung) vs. Metasomatose (wesentliche Änderung). III – nach Metamorphosepfad: prograd (Erhöhung von p und T) vs. retrograd = Diaphtorese (Erniedrigung von p und T). IV – nach Intensität: Fazies. Merke: Aus einem Edukt entstehen bei unterschiedlichen p-T-Bedingungen unterschiedliche Metamorphite, und bei gleichen p-T-Bedingungen aus unterschiedlichen Edukten ebenfalls unterschiedliche – daher lassen sich Edukt und Metamorphosegrad rekonstruieren. Fazies = Einteilung metamorpher Gesteine nach den Mineralen, die sich bei bestimmten p-T-Bedingungen bilden können (1921, Pentti Eskola); diese Minerale heißen Indexminerale oder Faziesanzeiger.",
+      "terms": [
+        {
+          "term": "Kontaktmetamorphose",
+          "def": "Metamorphose infolge Aufheizung von umgebendem Gestein („Kontakthof“) durch heißes Magma; Umwandlungen vor allem durch Temperaturerhöhung."
+        },
+        {
+          "term": "Kontakthof",
+          "def": "Das durch heißes Magma aufgeheizte, kontaktmetamorph umgewandelte Umgebungsgestein."
+        },
+        {
+          "term": "Regionalmetamorphose",
+          "def": "Metamorphose infolge Senkung großer Volumina der Erdkruste; Umwandlungen durch Druck und Temperatur; Besonderheit: Ultrahochdruck-Metamorphose."
+        },
+        {
+          "term": "Druckbetonte Metamorphose (HP-LT-Metamorphose)",
+          "def": "Metamorphose infolge Absenkung relativ kalten ozeanischen Krustenmaterials bei Subduktion; Umwandlung bei vergleichsweise niedrigen Temperaturen und hohen Drücken."
+        },
+        {
+          "term": "Schock- / Dislokationsmetamorphose",
+          "def": "Weitere Metamorphosearten der Klassifikation nach Ort und p-T-Bedingungen."
+        },
+        {
+          "term": "Isochemische Metamorphose",
+          "def": "Metamorphose ohne wesentliche Veränderung der chemischen Zusammensetzung des Gesteins."
+        },
+        {
+          "term": "Prograde Metamorphose",
+          "def": "Mineralumwandlungen bei Erhöhung von Druck und Temperatur."
+        },
+        {
+          "term": "Retrograde Metamorphose (Diaphtorese)",
+          "def": "Mineralumwandlungen bei Erniedrigung von Druck und Temperatur."
+        },
+        {
+          "term": "Edukt",
+          "def": "Ausgangsmaterial eines metamorphen Gesteins (vgl. Protolith)."
+        },
+        {
+          "term": "Fazies",
+          "def": "Einteilung metamorpher Gesteine nach den Mineralen, die sich bei bestimmten P-T-Bedingungen bilden können (1921 von Pentti Eskola)."
+        },
+        {
+          "term": "Indexminerale (Faziesanzeiger)",
+          "def": "Minerale, die sich bei bestimmten P-T-Bedingungen bilden und so die Fazies anzeigen."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Nach welchen vier Kriterien werden Metamorphosearten klassifiziert?",
+          "a": "I nach Ort und p-T-Bedingungen\nII nach chemischer Änderung\nIII nach Metamorphosepfad\nIV nach Intensität (Fazies)",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist Kontaktmetamorphose?",
+          "a": "Metamorphose infolge Aufheizung des umgebenden Gesteins („Kontakthof“) durch heißes Magma; Umwandlungen vor allem durch Temperaturerhöhung.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Welcher Faktor dominiert bei der Kontaktmetamorphose?",
+          "a": "Die Temperaturerhöhung (Aufheizung durch Magma) – nicht der Druck.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist ein Kontakthof?",
+          "a": "Das durch heißes Magma aufgeheizte und dadurch kontaktmetamorph veränderte Umgebungsgestein.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist Regionalmetamorphose?",
+          "a": "Metamorphose infolge Senkung großer Volumina der Erdkruste; Umwandlungen durch Druck UND Temperatur.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Besonderheit wird im Handout der Regionalmetamorphose zugeordnet?",
+          "a": "Die Ultrahochdruck-Metamorphose.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist druckbetonte Metamorphose (HP-LT-Metamorphose)?",
+          "a": "Metamorphose infolge Absenkung relativ kalten ozeanischen Krustenmaterials bei Subduktion; Umwandlung bei vergleichsweise niedrigen Temperaturen und hohen Drücken.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Wofür steht „HP-LT“ bei der druckbetonten Metamorphose und warum ist T niedrig?",
+          "a": "High Pressure – Low Temperature; T bleibt niedrig, weil relativ kaltes ozeanisches Krustenmaterial bei der Subduktion rasch abgesenkt wird.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Welche „weiteren“ Metamorphosearten nennt die Klassifikation nach Ort und p-T-Bedingungen (d)?",
+          "a": "Schock-Metamorphose\nDislokations-Metamorphose",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Vergleiche Kontakt-, Regional- und druckbetonte Metamorphose hinsichtlich Ursache und p-T-Bedingungen.",
+          "a": "Kontakt: Aufheizung durch Magma → v. a. Temperatur.\nRegional: Senkung großer Krustenvolumina → Druck und Temperatur.\nDruckbetont (HP-LT): Subduktion kalter ozeanischer Kruste → hoher Druck, niedrige Temperatur.",
+          "difficulty": 2,
+          "kind": "srovnani",
+          "priority": "core"
+        },
+        {
+          "q": "Bei welchen Metamorphosearten weicht das p-T-Verhältnis typischerweise stark vom „normalen“ geothermischen Gradienten ab?",
+          "a": "Kontaktmetamorphose (hohe T bei geringer Tiefe), druckbetonte Metamorphose bei Subduktion ozeanischer Kruste (hoher p, niedrige T) und Schockmetamorphose bei Impakten. Prograd/retrograd sind dagegen Pfade, keine Ortstypen.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist isochemische Metamorphose?",
+          "a": "Metamorphose ohne wesentliche Veränderung der chemischen Zusammensetzung des Gesteins.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Welcher Begriff bezeichnet den Gegensatz zur isochemischen Metamorphose?",
+          "a": "Metasomatose (wesentliche Veränderung der chemischen Zusammensetzung).",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist prograde Metamorphose?",
+          "a": "Mineralumwandlungen bei Erhöhung von Druck und Temperatur.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist retrograde Metamorphose und wie heißt sie noch?",
+          "a": "Mineralumwandlungen bei Erniedrigung von Druck und Temperatur; auch Diaphtorese genannt.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was bedeutet „Diaphtorese“?",
+          "a": "Retrograde Metamorphose – Mineralumwandlungen bei sinkendem Druck und sinkender Temperatur.",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Prograd vs. retrograd: Auf welches Klassifikationskriterium beziehen sich diese Begriffe?",
+          "a": "Auf den Metamorphosepfad (Klassifikation III): prograd = steigende p/T, retrograd = sinkende p/T.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was entsteht, wenn ein Edukt (oder Edukte gleicher Zusammensetzung) unterschiedlichen P-T-Bedingungen ausgesetzt wird?",
+          "a": "Unterschiedliche metamorphe Gesteine.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Was entsteht bei gleichen P-T-Bedingungen aus unterschiedlichen Edukten?",
+          "a": "Unterschiedliche metamorphe Gesteine.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Was lässt sich aus der Art eines vorliegenden metamorphen Gesteins rekonstruieren?",
+          "a": "Das Eduktmaterial und der Metamorphosegrad.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist eine (metamorphe) Fazies?",
+          "a": "Einteilung metamorpher Gesteine nach den Mineralen, die sich bei bestimmten P-T-Bedingungen bilden können.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Wer führte das Fazieskonzept ein und wann?",
+          "a": "Pentti Eskola, 1921.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Wie heißen die Minerale, die eine metamorphe Fazies anzeigen?",
+          "a": "Indexminerale oder Faziesanzeiger.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Nach welchem Kriterium klassifiziert der Faziesbegriff Metamorphosearten?",
+          "a": "Nach der Intensität (Klassifikation IV), anhand der bei bestimmten P-T-Bedingungen gebildeten Indexminerale.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 1885,
+      "text_sha": "91558094d56907fe",
+      "pdf_page": 3
+    },
+    {
+      "n": 4,
+      "img": "img/NA04/NA04_s004.webp",
+      "title": "Metamorphe Gesteine: Nomenklatur und Gefüge",
+      "text": "Merke: Mit zunehmendem Metamorphosegrad nehmen die durchschnittliche Kristallgröße und der Abstand der Schieferungsflächen zu. Benennung: (I) nach dem Edukt mit vorangestelltem „Meta“ (Metagabbro, Metabasalt), (II) nach dem Mineralbestand (Amphibolit, Serpentinit, Marmor), (III) nach dem Gefüge – wichtige Gefügeänderungen sind Schieferung (Foliation), Rekristallisation/Einregelung und Verfaltung. Gefügebegriffe: Schiefer = engständiges (<1 cm), lagiges Parallelgefüge (engl. schist mittel- bis grobkörnig, slate feinkörnig); Phyllit = sehr feinkörnig, englagig, seidig glänzende Spaltflächen; Fels = massig ohne bevorzugte Ausrichtung; Gneis = mittel- bis grobkörnig, weitständiges Parallelgefüge, feldspatreich; Mylonit = feinkörnig, schiefrig, in Scherzonen entstanden; Migmatit = Fließgefüge durch partielle Aufschmelzung (Anatexis), daher Übergang zu Magmatiten. Fotos: verfaltete Gneislagen am Bryggen (Bergen, Norwegen) und gebänderte Eisenquarzite (BIF = banded iron formation) aus den Jack Hills, Westaustralien. Ergänzung (Lehrbuch): Typische Reihe zunehmender Regionalmetamorphose eines Tonsteins: Tonschiefer (slate) → Phyllit → Glimmerschiefer (schist) → Gneis → Migmatit.",
+      "terms": [
+        {
+          "term": "Schieferung (Foliation)",
+          "def": "Lagiges Parallelgefüge in metamorphen Gesteinen; wichtige Gefügeänderung."
+        },
+        {
+          "term": "Schiefer",
+          "def": "Metamorphit mit engständigem (<1 cm), lagigem Parallelgefüge (Schieferung); engl. schist = mittel- bis grobkörnig, slate = feinkörnig."
+        },
+        {
+          "term": "Phyllit",
+          "def": "Sehr feinkörniger Metamorphit mit englagigem Parallelgefüge und seidig glänzenden Spaltflächen."
+        },
+        {
+          "term": "Fels",
+          "def": "Massiger Metamorphit ohne bevorzugte Ausrichtung der Mineralkörner."
+        },
+        {
+          "term": "Gneis",
+          "def": "Mittel- bis grobkörniger Metamorphit mit weitständigem Parallelgefüge, feldspatreich."
+        },
+        {
+          "term": "Mylonit",
+          "def": "Feinkörniger Metamorphit mit schiefriger Textur, in einer Scherzone entstanden."
+        },
+        {
+          "term": "Migmatit",
+          "def": "Gestein mit Fließgefüge infolge partieller Aufschmelzung (Anatexis); Übergang zu Magmatiten."
+        },
+        {
+          "term": "BIF (banded iron formation)",
+          "def": "Gebänderte Eisenquarzite (Foto: Jack Hills, Westaustralien)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Wie ändern sich Kristallgröße und Abstand der Schieferungsflächen mit zunehmendem Metamorphosegrad?",
+          "a": "Beide nehmen zu: größere durchschnittliche Kristallgröße, größerer Abstand der Schieferungsflächen.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Nach welchen drei Prinzipien werden metamorphe Gesteine benannt?",
+          "a": "I nach dem Edukt mit „Meta“ (Metagabbro, Metabasalt)\nII nach dem Mineralbestand (Amphibolit, Serpentinit, Marmor)\nIII nach dem Gefüge (Schiefer, Gneis, …)",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Wie wird ein Metamorphit nach Nomenklatur I benannt? Beispiele?",
+          "a": "Nach dem Edukt mit vorangestelltem „Meta“, z. B. Metagabbro, Metabasalt.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Nach welchem Prinzip sind Amphibolit, Serpentinit und Marmor benannt?",
+          "a": "Nach dem Mineralbestand (Nomenklatur II).",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Ist Marmor ein Mineral?",
+          "a": "Nein – Marmor ist ein metamorphes Gestein (Metamorphit), benannt nach seinem Mineralbestand.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welche wichtigen Gefügeänderungen treten bei der Metamorphose auf?",
+          "a": "Schieferung (Foliation)\nRekristallisation / Einregelung\nVerfaltung",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist ein Schiefer (im metamorphen Sinn)?",
+          "a": "Ein Metamorphit mit engständigem (<1 cm), lagigem Parallelgefüge (Schieferung).",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Welchen Abstand haben die Schieferungsflächen bei einem Schiefer?",
+          "a": "Engständig: unter 1 cm.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Was unterscheidet engl. „schist“ und „slate“?",
+          "a": "schist = mittel- bis grobkörniger Schiefer; slate = feinkörniger Schiefer.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist ein Phyllit?",
+          "a": "Ein sehr feinkörniger Metamorphit mit englagigem Parallelgefüge und seidig glänzenden Spaltflächen.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist ein Fels (metamorphes Gefüge)?",
+          "a": "Ein massiger Metamorphit ohne bevorzugte Ausrichtung der Mineralkörner.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist ein Gneis?",
+          "a": "Ein mittel- bis grobkörniger Metamorphit mit weitständigem Parallelgefüge, feldspatreich.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist ein Mylonit?",
+          "a": "Ein feinkörniger Metamorphit mit schiefriger Textur, entstanden in einer Scherzone.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Was ist ein Migmatit?",
+          "a": "Ein Gestein mit Fließgefüge infolge partieller Aufschmelzung (Anatexis) – daher Übergang zu den Magmatiten.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Wie unterscheiden sich Schiefer und Gneis?",
+          "a": "Schiefer: engständiges (<1 cm) lagiges Parallelgefüge. Gneis: mittel- bis grobkörnig, weitständiges Parallelgefüge, feldspatreich.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Wie unterscheiden sich Phyllit und Mylonit, obwohl beide feinkörnig sind?",
+          "a": "Phyllit: sehr feinkörnig, englagig, seidig glänzende Spaltflächen. Mylonit: feinkörnig, schiefrige Textur, entstanden in einer Scherzone.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welcher Metamorphit hat KEINE bevorzugte Ausrichtung der Mineralkörner?",
+          "a": "Der Fels (massiges Gefüge).",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Welches metamorphe Gestein bildet den Übergang zu den Magmatiten und warum?",
+          "a": "Der Migmatit – sein Fließgefüge entsteht durch partielle Aufschmelzung (Anatexis).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Ordne Phyllit, Gneis und Migmatit nach zunehmendem Metamorphosegrad.",
+          "a": "Phyllit (sehr feinkörnig) → Gneis (mittel- bis grobkörnig, weitständig) → Migmatit (partielle Aufschmelzung)",
+          "difficulty": 3,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Wofür steht BIF und was ist das?",
+          "a": "Banded iron formation – gebänderte Eisenquarzite (Foto aus den Jack Hills, Westaustralien).",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Welche Gefügebeispiele zeigen die Fotos im Nomenklatur-Handout?",
+          "a": "Verfaltete Gneislagen am Bryggen in Bergen (Norwegen) und gebänderte Eisenquarzite (BIF) aus den Jack Hills (Westaustralien).",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": true,
+      "status": "done",
+      "needs_vision": true,
+      "vision_reason": "image-heavy",
+      "likely_filler": false,
+      "text_chars": 1380,
+      "text_sha": "ab7a11fb06b52976",
+      "pdf_page": 4
+    }
+  ]
+}

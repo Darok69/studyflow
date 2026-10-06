@@ -1,0 +1,114 @@
+{"lecture_id": "NA04", "questions": [
+  {"id": "NA04-001", "type": "single", "q": "Was bezeichnet „Diagenese“?",
+   "options": [
+     {"t": "Niedrigstgradige Metamorphose im Grenzbereich zur Diagenese", "correct": false},
+     {"t": "Verfestigung von Lockersedimenten unter niedrigen Drücken und Temperaturen; Vorstufe der Metamorphose", "correct": true},
+     {"t": "Höchstgradige Metamorphose unter teilweiser Aufschmelzung", "correct": false},
+     {"t": "Metamorphose mit Stoffzufuhr und Stoffabfuhr", "correct": false}
+   ],
+   "explain": "Diagenese = Vorstufe der Metamorphose (Grenze unscharf) mit Kompaktion und Zementation. Die erste Option beschreibt die Anchimetamorphose, die dritte die Anatexis, die vierte die Metasomatose.", "slide": 2, "source": "altfrage"},
+  {"id": "NA04-002", "type": "multi", "q": "Welche Aussagen zu den allgemeinen Termini der Metamorphose treffen zu?",
+   "options": [
+     {"t": "Bei der Metamorphose erfolgt die Mineralumbildung im festen Zustand.", "correct": true},
+     {"t": "Das Ausgangsgestein einer Metamorphose heißt Protolith.", "correct": true},
+     {"t": "Zementation bedeutet Zusammendrücken des Sediments, wobei Wasser entweicht.", "correct": false},
+     {"t": "Anatexis ist die höchstgradige Metamorphose mit teilweiser oder vollständiger Aufschmelzung.", "correct": true},
+     {"t": "Anchimetamorphose bezeichnet die Metamorphose mit chemischer Änderung.", "correct": false}
+   ],
+   "explain": "Zusammendrücken mit Wasseraustritt ist Kompaktion; Zementation = erste Mineralneubildungen in Poren. Anchimetamorphose = niedrigstgradige Metamorphose; Metamorphose mit chemischer Änderung = Metasomatose.", "slide": 2, "source": "slide"},
+  {"id": "NA04-003", "type": "multi", "q": "Welche Aussagen zu Skarnen treffen zu?",
+   "options": [
+     {"t": "Skarne sind Ca-reiche Metasomatite.", "correct": true},
+     {"t": "Sie entstehen an der Kontaktzone (meist granitischer) Intrusionen mit Ca-Karbonaten wie Calcit und Dolomit.", "correct": true},
+     {"t": "Bei ihrer Bildung bleibt die chemische Zusammensetzung des Gesteins unverändert (isochemisch).", "correct": false},
+     {"t": "Fluida aus der Intrusion bringen u. a. Si, Al und Fe heran, die Ca-Karbonate werden zersetzt.", "correct": true},
+     {"t": "Der Begriff stammt aus dem alt-schwedischen Bergbau.", "correct": true},
+     {"t": "Skarne sind Ca-arme Paragenesen, die aus Quarzsandsteinen entstehen.", "correct": false}
+   ],
+   "explain": "Skarnbildung ist Metasomatose (Stoffzufuhr/-abfuhr), also nicht isochemisch; es entstehen Ca-Silikat-reiche Paragenesen aus Karbonatgesteinen.", "slide": 2, "source": "altfrage"},
+  {"id": "NA04-004", "type": "single", "q": "Welcher Fazies entspricht die (veraltete) Mesozone ungefähr?",
+   "options": [
+     {"t": "Granulit- / Eklogitfazies", "correct": false},
+     {"t": "Blau- und Grünschieferfazies", "correct": true},
+     {"t": "Prehnit-Pumpellyit- / Zeolith-Fazies", "correct": false},
+     {"t": "Anatexis", "correct": false}
+   ],
+   "explain": "Katazone ≈ Granulit-/Eklogitfazies (hoch), Mesozone ≈ Blau-/Grünschieferfazies (mittel), Epizone ≈ Prehnit-Pumpellyit-/Zeolith-Fazies (gering).", "slide": 2, "source": "slide"},
+  {"id": "NA04-005", "type": "multi", "q": "Bei welchen Metamorphosearten weicht das Verhältnis von Druck und Temperatur typischerweise vom „normalen“ p-T-Verhältnis ab?",
+   "options": [
+     {"t": "Prograde Metamorphose", "correct": false},
+     {"t": "Kontaktmetamorphose", "correct": true},
+     {"t": "Metamorphose bei Subduktion ozeanischer Kruste (druckbetont, HP-LT)", "correct": true},
+     {"t": "Metamorphose bei Impaktereignissen (Schockmetamorphose)", "correct": true},
+     {"t": "Regionalmetamorphose", "correct": false}
+   ],
+   "explain": "Kontaktmetamorphose: v. a. Temperaturerhöhung; HP-LT: hoher Druck bei niedriger T; Schockmetamorphose bei Impakten. Regionalmetamorphose wirkt über Druck UND Temperatur; „prograd“ ist ein Pfad, keine Ortsklasse.", "slide": 3, "source": "altfrage"},
+  {"id": "NA04-006", "type": "single", "q": "Welcher Begriff bezeichnet den Gegensatz zu einer isochemischen Metamorphose?",
+   "options": [
+     {"t": "Kontaktmetamorphose", "correct": false},
+     {"t": "Prograde Metamorphose", "correct": false},
+     {"t": "Diaphtorese", "correct": false},
+     {"t": "Metasomatose", "correct": true}
+   ],
+   "explain": "Klassifikation nach chemischer Änderung: isochemisch (ohne wesentliche Änderung) vs. Metasomatose (wesentliche Änderung). Diaphtorese = retrograde Metamorphose.", "slide": 3, "source": "altfrage"},
+  {"id": "NA04-007", "type": "single", "q": "Was kennzeichnet die Kontaktmetamorphose?",
+   "options": [
+     {"t": "Umwandlung vor allem durch Temperaturerhöhung infolge Aufheizung des Umgebungsgesteins durch heißes Magma", "correct": true},
+     {"t": "Umwandlung bei hohem Druck und vergleichsweise niedriger Temperatur infolge Subduktion", "correct": false},
+     {"t": "Umwandlung durch Druck und Temperatur infolge Senkung großer Krustenvolumina", "correct": false},
+     {"t": "Umwandlung unter vollständiger Aufschmelzung des Gesteins", "correct": false}
+   ],
+   "explain": "Kontaktmetamorphose = Aufheizung des „Kontakthofs“ durch Magma, v. a. Temperatur. Die anderen Optionen beschreiben druckbetonte (HP-LT), Regionalmetamorphose und Anatexis.", "slide": 3, "source": "altfrage"},
+  {"id": "NA04-008", "type": "multi", "q": "Welche Aussagen zur Klassifikation der Metamorphosearten treffen zu?",
+   "options": [
+     {"t": "Retrograde Metamorphose wird auch Diaphtorese genannt.", "correct": true},
+     {"t": "Prograde Metamorphose bezeichnet Mineralumwandlungen bei Erniedrigung von Druck und Temperatur.", "correct": false},
+     {"t": "Die Ultrahochdruck-Metamorphose wird als Besonderheit der Regionalmetamorphose genannt.", "correct": true},
+     {"t": "Die druckbetonte Metamorphose entsteht durch Absenkung relativ kalten ozeanischen Krustenmaterials.", "correct": true},
+     {"t": "Schock- und Dislokationsmetamorphose gehören zur Klassifikation nach Metamorphosepfad.", "correct": false}
+   ],
+   "explain": "Prograd = Erhöhung von p und T. Schock- und Dislokationsmetamorphose stehen unter Klassifikation I (Ort und p-T-Bedingungen), nicht unter dem Metamorphosepfad (III).", "slide": 3, "source": "slide"},
+  {"id": "NA04-009", "type": "multi", "q": "Welche Aussagen zum Fazieskonzept treffen zu?",
+   "options": [
+     {"t": "Fazies teilt metamorphe Gesteine nach den Mineralen ein, die sich bei bestimmten P-T-Bedingungen bilden können.", "correct": true},
+     {"t": "Das Konzept wurde 1921 von Pentti Eskola eingeführt.", "correct": true},
+     {"t": "Die anzeigenden Minerale heißen Indexminerale oder Faziesanzeiger.", "correct": true},
+     {"t": "Aus einem Edukt entsteht unabhängig von den P-T-Bedingungen immer dasselbe metamorphe Gestein.", "correct": false},
+     {"t": "Bei gleichen P-T-Bedingungen entstehen aus unterschiedlichen Edukten unterschiedliche Metamorphite.", "correct": true}
+   ],
+   "explain": "Merke: Aus einem Edukt entstehen bei unterschiedlichen P-T-Bedingungen unterschiedliche Metamorphite – daher lassen sich Edukt und Metamorphosegrad rekonstruieren.", "slide": 3, "source": "slide"},
+  {"id": "NA04-010", "type": "multi", "q": "Welche Definitionen metamorpher Gefügebegriffe treffen zu?",
+   "options": [
+     {"t": "Schiefer: engständiges (<1 cm), lagiges Parallelgefüge", "correct": true},
+     {"t": "Gneis: sehr feinkörnig mit seidig glänzenden Spaltflächen", "correct": false},
+     {"t": "Phyllit: sehr feinkörnig, englagiges Parallelgefüge, seidig glänzende Spaltflächen", "correct": true},
+     {"t": "Fels: massig, ohne bevorzugte Ausrichtung der Mineralkörner", "correct": true},
+     {"t": "Gneis: mittel- bis grobkörnig, weitständiges Parallelgefüge, feldspatreich", "correct": true}
+   ],
+   "explain": "Seidig glänzende Spaltflächen kennzeichnen den Phyllit, nicht den Gneis. Gneis ist mittel- bis grobkörnig, weitständig und feldspatreich.", "slide": 4, "source": "slide"},
+  {"id": "NA04-011", "type": "single", "q": "Nach welchem Prinzip sind Amphibolit, Serpentinit und Marmor benannt?",
+   "options": [
+     {"t": "Nach dem Edukt mit vorangestelltem „Meta“", "correct": false},
+     {"t": "Nach dem Mineralbestand", "correct": true},
+     {"t": "Nach dem Gefüge", "correct": false},
+     {"t": "Nach der Fazies", "correct": false}
+   ],
+   "explain": "Nomenklatur II = Mineralbestand (Amphibolit, Serpentinit, Marmor). Marmor ist also ein Gestein, kein Mineral. „Meta“-Namen (Metagabbro) = Nomenklatur I, Gefügenamen (Gneis, Schiefer) = Nomenklatur III.", "slide": 4, "source": "slide"},
+  {"id": "NA04-012", "type": "single", "q": "Wie ändert sich das Gefüge metamorpher Gesteine mit zunehmendem Metamorphosegrad?",
+   "options": [
+     {"t": "Kristallgröße und Abstand der Schieferungsflächen nehmen ab.", "correct": false},
+     {"t": "Kristallgröße nimmt zu, Abstand der Schieferungsflächen nimmt ab.", "correct": false},
+     {"t": "Kristallgröße und Abstand der Schieferungsflächen nehmen zu.", "correct": true},
+     {"t": "Beide bleiben gleich; nur der Mineralbestand ändert sich.", "correct": false}
+   ],
+   "explain": "Merke: Mit zunehmendem Metamorphosegrad nehmen die durchschnittliche Kristallgröße UND der Abstand der Schieferungsflächen zu.", "slide": 4, "source": "slide"},
+  {"id": "NA04-013", "type": "multi", "q": "Welche Aussagen zu Mylonit und Migmatit treffen zu?",
+   "options": [
+     {"t": "Mylonit ist feinkörnig mit schiefriger Textur und entsteht in Scherzonen.", "correct": true},
+     {"t": "Migmatit zeigt ein Fließgefüge infolge partieller Aufschmelzung (Anatexis).", "correct": true},
+     {"t": "Migmatit bildet den Übergang zu den Magmatiten.", "correct": true},
+     {"t": "Mylonit entsteht durch partielle Aufschmelzung in der Katazone.", "correct": false},
+     {"t": "Migmatit ist ein massiger Metamorphit ohne bevorzugte Ausrichtung der Körner.", "correct": false}
+   ],
+   "explain": "Mylonit = Scherzone; Migmatit = partielle Aufschmelzung → Übergang zu Magmatiten. „Massig ohne Ausrichtung“ beschreibt den Fels.", "slide": 4, "source": "slide"}
+]}

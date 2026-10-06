@@ -1,0 +1,69 @@
+{
+  "exam": {
+    "name": "280001-1 VO STEOP: System Erde (Universität Wien; Grasemann, Le Heron, Nasdala)",
+    "date": "2026-12-18",
+    "language": "de",
+    "format": "Modulprüfung schriftlich, 18. 12. 2026 15:15–16:45 (weitere Termine 5. 2. a 19. 2. 2027). Podle starých zkoušek 2017–2022 (studocu) multiple choice německy, často víc správných odpovědí. Tip ze studocu: u Nasdaly teploty a velikosti zrn, u Grasemanna obecné věci + výšky/velikosti. Učebnice Grotzinger/Jordan, Allgemeine Geologie (Springer)."
+  },
+  "courses": [
+    {
+      "code": "SE",
+      "number": "280001",
+      "title": "System Erde",
+      "subject": "System Erde",
+      "root": "/Users/danielmarek/Library/Mobile Documents/com~apple~CloudDocs/Uni Wien/Geographie/4. Semester/System Erde",
+      "lectures": [
+        {
+          "id": "SE01",
+          "unit": "Kapitel 1",
+          "title": "System Erde – Grundlagen",
+          "file": "Allgemeines/Kapitel 1 System Erde.pdf"
+        },
+        {
+          "id": "NA01",
+          "unit": "Handout Nasdala",
+          "title": "Minerale und Kristalle",
+          "file": "Handoutmaterial zum Vorlesungsteil Prof. Nasdala/Handout Minerale und Kristalle.pdf"
+        },
+        {
+          "id": "NA02",
+          "unit": "Handout Nasdala",
+          "title": "Magmatite",
+          "file": "Handoutmaterial zum Vorlesungsteil Prof. Nasdala/Handout Magmatite.pdf"
+        },
+        {
+          "id": "NA03",
+          "unit": "Handout Nasdala",
+          "title": "Vulkane und Vulkanismus",
+          "file": "Handoutmaterial zum Vorlesungsteil Prof. Nasdala/Handout Vulkane und Vulkanismus.pdf"
+        },
+        {
+          "id": "NA04",
+          "unit": "Handout Nasdala",
+          "title": "Metamorphite",
+          "file": "Handoutmaterial zum Vorlesungsteil Prof. Nasdala/Handout Metamorphite.pdf"
+        },
+        {
+          "id": "NA05",
+          "unit": "Handout Nasdala",
+          "title": "Rohstoffe",
+          "file": "Handoutmaterial zum Vorlesungsteil Prof. Nasdala/Handout Rohstoffe.pdf"
+        },
+        {
+          "id": "NA06",
+          "unit": "Handout Nasdala",
+          "title": "Sonnensystem und Planeten",
+          "file": "Handoutmaterial zum Vorlesungsteil Prof. Nasdala/Handout Sonnensystem und Planeten.pdf"
+        },
+        {
+          "id": "UB01",
+          "unit": "Übersicht",
+          "title": "Übersichtstabellen",
+          "kind": "summary",
+          "note": "Souhrnné tabulky napříč přednáškami (teploty, velikosti zrn, tvrdosti, čísla). Žádné PDF — obsah vzniká jen z content_UB01.json."
+        }
+      ]
+    }
+  ],
+  "language": "de"
+}

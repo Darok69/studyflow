@@ -1,0 +1,133 @@
+{"lecture_id": "NA05", "questions": [
+  {"id": "NA05-001", "type": "multi", "q": "Welche Aussagen zu Rohstoff-Grundbegriffen treffen zu?",
+   "options": [
+     {"t": "Eine Lagerstätte ist eine Rohstoffkonzentration, deren Abbau ökonomisch lohnenswert ist.", "correct": true},
+     {"t": "Ein Mineralvorkommen ist eine Konzentration, deren Abbau (derzeit) ökonomisch nicht lohnenswert ist.", "correct": true},
+     {"t": "Wasser zählt ausdrücklich zu den Bodenschätzen.", "correct": false},
+     {"t": "Sekundäre Rohstoffe werden durch Wiederverwendung gewonnen.", "correct": true},
+     {"t": "Primäre Rohstoffe sind bereits chemisch aufbereitete Ressourcen.", "correct": false}
+   ],
+   "explain": "Bodenschätze = Industrierohstoffe aus anorganischen und fossilen Ressourcen, Ausnahme: Wasser. Primäre Rohstoffe haben außer dem Herauslösen aus der Quelle noch keine Bearbeitung erfahren.", "slide": 2, "source": "slide"},
+  {"id": "NA05-002", "type": "single", "q": "Als welcher Rohstoff wird Pyrit im Handout eingeordnet?",
+   "options": [
+     {"t": "Als Eisenerz", "correct": false},
+     {"t": "Als Schwefelrohstoff", "correct": true},
+     {"t": "Als Energierohstoff", "correct": false},
+     {"t": "Als Eigenschaftsrohstoff (Industriemineral)", "correct": false}
+   ],
+   "explain": "Pyrit = Schwefelrohstoff (Elementrohstoff) – ausdrücklich KEIN Eisenerz.", "slide": 2, "source": "slide"},
+  {"id": "NA05-003", "type": "multi", "q": "Welche der folgenden Rohstoffe zählt das Handout zu den Energierohstoffen?",
+   "options": [
+     {"t": "Uran", "correct": true},
+     {"t": "Kohle", "correct": true},
+     {"t": "Diamant", "correct": false},
+     {"t": "Erdöl und Erdgas", "correct": true},
+     {"t": "Gips", "correct": false},
+     {"t": "Golderze", "correct": false}
+   ],
+   "explain": "Energierohstoffe: Kohle, Erdöl, Erdgas, Uran. Diamant und Gips sind Eigenschaftsrohstoffe, Golderze Elementrohstoffe.", "slide": 2, "source": "slide"},
+  {"id": "NA05-004", "type": "multi", "q": "Welche Aussagen zu den Seltenerdelementen (REE) treffen zu?",
+   "options": [
+     {"t": "Zu ihnen gehören Sc, Y, La und die Lanthanoide (Ce…Lu).", "correct": true},
+     {"t": "Actinium gehört als Element der 3. Gruppe ebenfalls dazu.", "correct": false},
+     {"t": "Ce ist halb so häufig wie Cl und 5× häufiger als Pb.", "correct": true},
+     {"t": "Bis auf Pm sind alle REE häufiger als I und Ag.", "correct": true},
+     {"t": "Leichte Ceriterden werden v. a. aus Gadolinit und Xenotim gewonnen.", "correct": false}
+   ],
+   "explain": "3. Gruppe des PSE außer Ac. Ceriterden: Monazit, Bastnäsit; Yttererden: Gadolinit, Xenotim.", "slide": 3, "source": "slide"},
+  {"id": "NA05-005", "type": "single", "q": "Welches der folgenden ist KEIN Kriterium für Seltenmetalle?",
+   "options": [
+     {"t": "Hoher Preis", "correct": false},
+     {"t": "Konzentration der Reserven auf 1–2 Länder", "correct": false},
+     {"t": "Zugehörigkeit zur 3. Gruppe des Periodensystems", "correct": true},
+     {"t": "Reserveknappheit", "correct": false}
+   ],
+   "explain": "Seltenmetalle sind nicht identisch mit REE; Kriterien: hoher Preis, hoher Preisanstieg, Reserveknappheit, Reservenkonzentration auf 1–2 Länder.", "slide": 3, "source": "slide"},
+  {"id": "NA05-006", "type": "single", "q": "Aus welchen Mineralen werden die leichten Ceriterden gewonnen?",
+   "options": [
+     {"t": "Monazit und Bastnäsit", "correct": true},
+     {"t": "Gadolinit und Xenotim", "correct": false},
+     {"t": "Columbit und Tantalit", "correct": false},
+     {"t": "Chromit und Ilmenit", "correct": false}
+   ],
+   "explain": "Ceriterden (leicht): Monazit REE[PO4], Bastnäsit REE[CO3F]. Gadolinit/Xenotim = schwere Yttererden; Columbit-Tantalit = Coltan (Nb-Ta).", "slide": 3, "source": "slide"},
+  {"id": "NA05-007", "type": "multi", "q": "Welche Aussagen zu Industriemineralen und synthetischen Granaten treffen zu?",
+   "options": [
+     {"t": "Industrieminerale werden ohne Phasen- oder chemische Umwandlung direkt eingesetzt.", "correct": true},
+     {"t": "Industrieminerale müssen immer natürlich entstanden sein.", "correct": false},
+     {"t": "YAG ist ein Yttrium-Aluminium-Granat ohne natürliches Analogon.", "correct": true},
+     {"t": "Synthetische Granate werden für Festkörperlaser und optische Filter verwendet.", "correct": true},
+     {"t": "Coltan ist das wichtigste Nb-Ta-Erz und besteht aus Columbit-Tantalit.", "correct": true}
+   ],
+   "explain": "Industrieminerale können natürlich oder synthetisch hergestellt sein (z. B. Diamant als Abrasivum, synthetische Granate).", "slide": 3, "source": "slide"},
+  {"id": "NA05-008", "type": "multi", "q": "Welche Probleme bei/durch Rohstoffgewinnung nennt das Handout?",
+   "options": [
+     {"t": "Großräumiger Abbau schädigt Ökosysteme und verlangt kostenintensive Rekultivierung.", "correct": true},
+     {"t": "Fossile Energiegewinnung erhöht CO2- und S-Emissionen; Problem Wirkungsgrad.", "correct": true},
+     {"t": "Kernenergie verursacht das Problem der Langzeit-Immobilisation radioaktiver Abfälle.", "correct": true},
+     {"t": "Der Energiebedarf sinkt vor allem in Entwicklungsländern.", "correct": false},
+     {"t": "Langfristige Klimaänderungen sind leicht steuerbar.", "correct": false}
+   ],
+   "explain": "Der Energiebedarf STEIGT v. a. in Entwicklungsländern; Klimaänderungen sind nur schwer steuerbar (Polkappen, Meeresspiegel, Artensterben).", "slide": 4, "source": "slide"},
+  {"id": "NA05-009", "type": "single", "q": "In welchem Temperaturbereich erfolgt die Mineralabscheidung pneumatolytischer Lagerstätten?",
+   "options": [
+     {"t": "Bis max. 374 °C", "correct": false},
+     {"t": "Um 550–374 °C", "correct": true},
+     {"t": "Um 1200–1000 °C", "correct": false},
+     {"t": "Um 374–100 °C", "correct": false}
+   ],
+   "explain": "Pneumatolytisch: überkritische Fluida, Abscheidung um 550–374 °C; hydrothermal: flüssige Lösungen bis max. 374 °C.", "slide": 5, "source": "slide"},
+  {"id": "NA05-010", "type": "single", "q": "Welche Aussage zu hydrothermalen Lösungen ist richtig?",
+   "options": [
+     {"t": "Überkritische, gasförmige Fluida über 550 °C", "correct": false},
+     {"t": "Mineralstoffbeladene wässrige Lösungen, flüssig, bis max. 374 °C", "correct": true},
+     {"t": "Sulfidreiche Teilschmelzen", "correct": false},
+     {"t": "Restschmelzen der Spätkristallisation (Pegmatite)", "correct": false}
+   ],
+   "explain": "Hydrothermen = mineralstoffbeladene wässrige, flüssige Lösungen bis max. 374 °C. Sulfidreiche Teilschmelzen → Liquidationsdifferentiate; Spätkristallisation → Pegmatite.", "slide": 5, "source": "slide"},
+  {"id": "NA05-011", "type": "multi", "q": "Welche Zuordnungen von Erzmineral und Lagerstättentyp treffen laut Handout zu?",
+   "options": [
+     {"t": "Chromit – Kristallisationsdifferentiat", "correct": true},
+     {"t": "Pentlandit (Ni) – Liquidationsdifferentiat", "correct": true},
+     {"t": "Kassiterit (Sn) – pneumatolytische Bildung", "correct": true},
+     {"t": "Apatit – Lagerstätte der Hauptkristallisation", "correct": true},
+     {"t": "Chalkopyrit – Kristallisationsdifferentiat durch Absaigern", "correct": false},
+     {"t": "Scheelit – Lagerstätte der Hauptkristallisation", "correct": false}
+   ],
+   "explain": "Chalkopyrit (Cu) gehört zu den Liquidationsdifferentiaten (sulfidreiche Teilschmelzen); Scheelit (W) ist pneumatolytisch.", "slide": 5, "source": "slide"},
+  {"id": "NA05-012", "type": "multi", "q": "Welche Aussagen zu Pegmatiten als Lagerstätten treffen zu?",
+   "options": [
+     {"t": "Pegmatite sind Lagerstätten der Spätkristallisation.", "correct": true},
+     {"t": "Sie liefern Erze von REE, Nb, Ta, Th, Li, Be.", "correct": true},
+     {"t": "Beryll, Topas, Turmaline und Spodumen (Kunzit) sind typische Edelsteinminerale aus Pegmatiten.", "correct": true},
+     {"t": "Pegmatite entstehen durch Absaigern früh ausgeschiedener Kristalle.", "correct": false},
+     {"t": "Pegmatite sind postmagmatisch-hydrothermale Bildungen unter 374 °C.", "correct": false}
+   ],
+   "explain": "Pegmatite = Spätkristallisation (liquidmagmatisch). Absaigern früher Kristalle = Kristallisationsdifferentiate; hydrothermal ≠ Pegmatit.", "slide": 5, "source": "slide"},
+  {"id": "NA05-013", "type": "multi", "q": "Welche Aussagen zu metamorphen Lagerstätten treffen zu?",
+   "options": [
+     {"t": "Metamorphogen = Minerale, die durch Metamorphose angereichert wurden.", "correct": true},
+     {"t": "Skarnlagerstätten (W, Mo) sind ein Beispiel für metamorphogene Lagerstätten.", "correct": true},
+     {"t": "Metamorphisiert = metamorphe Überprägung bereits vorhandener Mineralanreicherungen.", "correct": true},
+     {"t": "Graphit gilt als metamorphisierter Kaustobiolith.", "correct": true},
+     {"t": "Eisenquarzite (BIF) sind ein Beispiel für Biolithe.", "correct": false}
+   ],
+   "explain": "BIF (Eisenquarzite) = metamorphisierte Lagerstätte. Biolithe sind sedimentär (Metallsulfide durch Bakterien, z. B. Kupferschiefer).", "slide": 6, "source": "slide"},
+  {"id": "NA05-014", "type": "single", "q": "Was sind Seifen im Sinne der Lagerstättenkunde?",
+   "options": [
+     {"t": "Sekundäre sedimentäre Mineralanreicherungen", "correct": true},
+     {"t": "Am ursprünglichen Ort zurückbleibender unverwitterter Rest", "correct": false},
+     {"t": "Durch Bakterien gebildete Metallsulfide", "correct": false},
+     {"t": "Ausfällungen von Salzmineralen", "correct": false}
+   ],
+   "explain": "Seifen = sekundäre sedimentäre Mineralanreicherungen (z. B. fluviatile Edelsteinseifen, Pailin/Kambodscha). Option 2 = Restit, 3 = Biolithe, 4 = Evaporite.", "slide": 6, "source": "slide"},
+  {"id": "NA05-015", "type": "multi", "q": "Welche Zuordnungen zu sedimentären Lagerstätten treffen laut Handout zu?",
+   "options": [
+     {"t": "Terrestrisch-limnische Sedimente – Buntmetalle, Ag, U", "correct": true},
+     {"t": "Marine Sedimente – Limonit/Hämatit, Fe-Chlorite", "correct": true},
+     {"t": "Evaporite – Salzminerale", "correct": true},
+     {"t": "Kupferschiefer – Evaporit", "correct": false},
+     {"t": "Klastika – Material aus der chemischen Fällung in Meeresbecken", "correct": false}
+   ],
+   "explain": "Kupferschiefer ist ein Biolith (Metallsulfide durch Bakterien). Klastika stammen aus der mechanischen Zerstörung anderer Gesteine (klasto = gebrochen).", "slide": 6, "source": "slide"}
+]}
