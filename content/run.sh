@@ -7,6 +7,8 @@
 #   ./run.sh irewi merge content/content_IL01.json
 #   ./run.sh irewi materials        balíček pro obrazovku Učebnice
 #   ./run.sh irewi deck             balíček karet pro Import
+#   ./run.sh system-erde tests      banka otázek pro zkušební test
+#   ./run.sh system-erde blind      slepé obrázky z diagramů (blind.json)
 #   ./run.sh irewi audio --series quiz
 #   ./run.sh irewi feed --base https://study.dmarka.eu --token <token>
 #   ./run.sh irewi articles         stáhne úřední znění článků smluv
@@ -31,6 +33,8 @@ case "$1" in
   merge)     script=merge_content.py ;;
   materials) script=make_materials.py ;;
   deck)      script=make_deck.py ;;
+  tests)     script=make_tests.py ;;
+  blind)     script=make_blind.py ;;
   backup)    script=make_backup.py ;;
   audio)     script=make_audio.py ;;
   feed)      script=make_feed.py ;;
@@ -41,7 +45,7 @@ case "$1" in
   *)         script=run.py ;;          # ./run.sh irewi --only IL01
 esac
 case "$1" in
-  slides|merge|materials|deck|backup|audio|feed|sources|articles|upload|publish) shift ;;
+  slides|merge|materials|deck|tests|blind|backup|audio|feed|sources|articles|upload|publish) shift ;;
 esac
 
 export STUDYFLOW_PACK="$pack"

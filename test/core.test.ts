@@ -3,6 +3,17 @@
 // scheduler/FSRS/parsing core, the Sprint 2 identity + wellbeing + stats, and
 // the Sprint 3 Anki-parity / customisation / learning extras.
 import { parseDeck, makeCloze, hasCloze } from '../src/import/parseDeck'
+import { parseRichText } from '../src/lib/richText'
+import {
+  cleanBank,
+  mulberry32,
+  pickQuestions,
+  questionHistory,
+  scoreQuestion,
+  summarize,
+  weakTopicsInRuns,
+  type McQuestion,
+} from '../src/lib/mcTest'
 import { deckToJson } from '../src/import/exportDeck'
 import { backupToJson, parseBackup } from '../src/import/backup'
 import {
@@ -1831,6 +1842,141 @@ console.log('— témata podle data hodiny —')
   const plain = [{ topic: 'b' }, { topic: 'a' }]
   ok(sortTopicsByClass(plain, undefined).map((p) => p.topic).join('') === 'ba', 'a subject without classes keeps its order')
   ok(mergeTopicOrder(['x', 'b'], ['a', 'b']).join('') === 'abx', 'a re-import puts the deck order first and keeps the rest after')
+}
+
+
+console.log('— zkušební test —')
+{
+  const single: McQuestion = {
+    id: 's1',
+    type: 'single',
+    q: 'Was ist ein Sill?',
+    options: [
+      { t: 'Lagergang', correct: true },
+      { t: 'Gang', correct: false },
+      { t: 'Schlot', correct: false },
+    ],
+  }
+  const multi: McQuestion = {
+    id: 'm1',
+    type: 'multi',
+    q: 'Welche sind Minerale?',
+    options: [
+      { t: 'Quarz', correct: true },
+      { t: 'Korund', correct: true },
+      { t: 'Marmor', correct: false },
+      { t: 'Granit', correct: false },
+    ],
+  }
+  ok(scoreQuestion(single, [0]) === 1, 'single: right answer = 1 point')
+  ok(scoreQuestion(single, [1]) === 0, 'single: wrong answer = 0')
+  ok(scoreQuestion(single, [0, 1]) === 0, 'single: two ticks never score')
+  ok(scoreQuestion(multi, [0, 1]) === 2, 'multi: all right ones = 2 points')
+  ok(scoreQuestion(multi, [0]) === 1, 'multi: half of the right ones = half the points')
+  ok(scoreQuestion(multi, [0, 2]) === 0, 'multi: a wrong tick cancels a right one')
+  ok(scoreQuestion(multi, [0, 1, 2, 3]) === 0, 'multi: ticking everything earns nothing')
+  ok(scoreQuestion(multi, [2, 3]) === 0, 'multi: never below zero')
+  ok(scoreQuestion(multi, []) === 0, 'multi: no answer = 0')
+
+  const bank: McQuestion[] = Array.from({ length: 10 }, (_, i) => ({
+    ...single,
+    id: `q${i}`,
+    topic: i < 5 ? 'Magmatite' : 'Vulkane',
+  }))
+  const runs = [
+    {
+      answers: [
+        { qid: 'q0', selected: [1], points: 0, max: 1 },
+        { qid: 'q1', selected: [0], points: 1, max: 1 },
+        { qid: 'q6', selected: [1], points: 0, max: 1 },
+      ],
+    },
+    // A later attempt fixes q6: it is no longer a "wrong" one.
+    { answers: [{ qid: 'q6', selected: [0], points: 1, max: 1 }] },
+  ]
+  const history = questionHistory(runs)
+  ok(history.get('q6')?.lastRight === true && history.get('q6')?.seen === 2, 'history: the latest attempt counts')
+  const picked = pickQuestions(bank, 3, history, mulberry32(7))
+  ok(picked.length === 3 && picked.some((q) => q.id === 'q0'), 'pick: last-wrong question always makes it in')
+  ok(!picked.some((q) => q.id === 'q1' || q.id === 'q6'), 'pick: unseen beat already-right ones')
+  const vulk = pickQuestions(bank, 20, history, mulberry32(7), new Set(['Vulkane']))
+  ok(vulk.length === 5 && vulk.every((q) => q.topic === 'Vulkane'), 'pick: topic filter, never more than the pool')
+  const again = pickQuestions(bank, 3, history, mulberry32(7)).map((q) => q.id).join()
+  ok(again === picked.map((q) => q.id).join(), 'pick: same seed = same sitting')
+
+  const sum = summarize([
+    { qid: 'a', selected: [], points: 2, max: 2 },
+    { qid: 'b', selected: [], points: 1, max: 2 },
+    { qid: 'c', selected: [], points: 0, max: 1 },
+  ])
+  ok(sum.points === 3 && sum.max === 5 && sum.percent === 60, 'summary: points and percent')
+  ok(sum.right === 1 && sum.partial === 1 && sum.wrong === 1, 'summary: right / partial / wrong')
+  const weak = weakTopicsInRuns(runs, new Map(bank.map((q) => [q.id, q.topic ?? ''])))
+  ok(weak.length === 2 && weak.every((w) => w.percent === 50), 'weak topics: points lost per topic (1 of 2 each)')
+  ok(weak.every((w) => w.answered >= 2), 'weak topics need at least two answers')
+
+  const clean = cleanBank({
+    subject: 'System Erde',
+    questions: [
+      single,
+      multi,
+      { ...single, id: 'bad1', options: [{ t: 'a', correct: true }, { t: 'b', correct: true }] },
+      { ...multi, id: 'bad2', options: multi.options.map((o) => ({ ...o, correct: false })) },
+      { ...single, id: 'bad3', type: 'essay' },
+    ],
+  })
+  ok(clean?.questions.length === 2, 'cleanBank drops questions that cannot be scored')
+  ok(cleanBank({ questions: [] }) === null, 'cleanBank needs a subject')
+}
+
+
+console.log('— přehledové tabulky v učebnici —')
+{
+  const plain = parseRichText('Magma ist geschmolzenes Gestein.\nLava tritt aus.')
+  ok(plain.length === 1 && plain[0].kind === 'p', 'text without a table stays one paragraph (as before)')
+  const blocks = parseRichText(
+    'Einleitung.\n\n### Korngrößen\n| Klasse | mm |\n|---|---|\n| Sand | 0,063–2 |\n| Kies | 2–63 | extra |\n| Ton |\nDanach Text.',
+  )
+  ok(blocks.map((b) => b.kind).join(',') === 'p,h,table,p', `paragraph, heading, table, paragraph (got ${blocks.map((b) => b.kind).join(',')})`)
+  const table = blocks[2]
+  ok(table.kind === 'table' && table.head.join('/') === 'Klasse/mm', 'table header')
+  ok(table.kind === 'table' && table.rows.length === 3, 'table rows end at the first non-table line')
+  ok(table.kind === 'table' && table.rows[1].length === 2 && table.rows[2][1] === '', 'rows are padded / cut to the header width')
+  const stray = parseRichText('| nur ein Strich\nkein Lineal')
+  ok(stray.length === 1 && stray[0].kind === 'p', 'a "|" without the rule under it is just text')
+}
+
+
+console.log('— slepé obrázky v balíčku —')
+{
+  const img = 'data:image/jpeg;base64,AAAA'
+  const deck = JSON.stringify({
+    subject: 'System Erde',
+    cards: [
+      {
+        front: 'Schalenbau der Erde — was ist markiert? [1/2]',
+        back: 'Erdkern',
+        kind: 'mapa',
+        image: img,
+        occlusion: {
+          mode: 'hide-all-guess-one',
+          masks: [
+            { id: 'a', x: 0.1, y: 0.2, w: 0.3, h: 0.1, label: 'Erdkern' },
+            { id: 'b', x: 0.5, y: 0.5, w: 0.2, h: 0.1, label: 'Mantel' },
+            { id: 'bad', x: 0.9, y: 0.5, w: 0.3, h: 0.1, label: 'mimo obrázek' },
+          ],
+        },
+      },
+      { front: 'bez obrázku', back: 'x', occlusion: { masks: [{ id: 'a', x: 0, y: 0, w: 0.5, h: 0.5, label: 'x' }] } },
+      { front: 'cílová maska mimo', back: 'x', image: img, occlusion: { masks: [{ id: 'a', x: 0.8, y: 0, w: 0.5, h: 0.5, label: 'x' }] } },
+    ],
+  })
+  const parsed = parseDeck(deck)
+  const occ = parsed.cards[0].occlusion
+  ok(occ?.masks.length === 2 && occ.masks[0].label === 'Erdkern', 'occlusion imports; a mask outside the picture is dropped')
+  ok(occ?.mode === 'hide-all-guess-one' && occ.imageKey === 'card.image', 'mode kept, picture = card.image')
+  ok(parsed.cards[1].occlusion === undefined, 'no picture → no occlusion')
+  ok(parsed.cards[2].occlusion === undefined, 'asked mask invalid → no occlusion (never ask about a missing spot)')
 }
 
 console.log(`\nRESULT: ${pass} passed, ${fail} failed`)

@@ -2993,3 +2993,280 @@ body {
 .next-class-ready {
   color: var(--far);
 }
+
+/* ---- Zkušební test (Test.tsx) ---- */
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.mc-page {
+  max-width: 760px;
+}
+
+.mc-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.mc-note,
+.mc-hint {
+  font-size: 13px;
+  margin: 0;
+}
+
+.mc-toggle {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-height: 44px;
+}
+
+.mc-bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  background: #16151c;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+.mc-clock {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.mc-clock-low {
+  color: var(--near);
+}
+
+.mc-question {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  margin-bottom: 14px;
+}
+
+.mc-kind {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.mc-q {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.mc-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mc-option {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+button.mc-option {
+  cursor: pointer;
+}
+
+.mc-option-on {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+}
+
+.mc-mark {
+  flex: none;
+  width: 1.2em;
+  text-align: center;
+}
+
+.mc-letter {
+  flex: none;
+  color: var(--muted);
+}
+
+.mc-nav {
+  justify-content: space-between;
+}
+
+.mc-map {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 18px 0 8px;
+}
+
+.mc-dot {
+  min-width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.mc-dot-done {
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
+  color: var(--ink);
+}
+
+.mc-dot-at {
+  border-color: var(--accent);
+  outline: 2px solid var(--accent);
+}
+
+.mc-score {
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.mc-percent {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.mc-pass {
+  color: var(--far);
+}
+
+.mc-fail {
+  color: var(--near);
+}
+
+.mc-review-ok {
+  border-left: 4px solid var(--far);
+}
+
+.mc-review-bad {
+  border-left: 4px solid var(--near);
+}
+
+.mc-r-hit {
+  border-color: var(--far);
+  background: color-mix(in srgb, var(--far) 14%, transparent);
+}
+
+.mc-r-missed {
+  border-color: var(--far);
+  border-style: dashed;
+}
+
+.mc-r-wrong {
+  border-color: var(--near);
+  background: color-mix(in srgb, var(--near) 14%, transparent);
+}
+
+.mc-you {
+  margin-left: auto;
+  flex: none;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.mc-explain {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.mc-history-list {
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.mc-history-list li {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+}
+
+/* ---- Přehledové tabulky ve čtečce (lib/richText.ts) ---- */
+.reader-subhead {
+  margin: 6px 0 0;
+  font-size: 15px;
+  font-weight: 650;
+}
+
+/* Široká tabulka se posouvá SAMA, stránka do strany neujede. */
+.reader-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.reader-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.reader-table th,
+.reader-table td {
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+}
+
+.reader-table thead th {
+  position: sticky;
+  top: 0;
+  background: color-mix(in srgb, var(--accent) 14%, var(--panel));
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+/* Buňka se nesmí slisovat na pár písmen na řádek — radši ať se tabulka posune. */
+.reader-table tbody th {
+  font-weight: 600;
+  min-width: 7.5em;
+}
+
+.reader-table td {
+  min-width: 8em;
+}
+
+.reader-table tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--ink) 4%, transparent);
+}

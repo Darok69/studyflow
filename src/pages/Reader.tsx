@@ -8,6 +8,7 @@ import {
 } from '../lib/api'
 import { FloatingBack } from '../components/FloatingBack'
 import { t } from '../i18n'
+import { parseRichText } from '../lib/richText'
 
 /**
  * The study materials read as a textbook: the slide on top, the explanation
@@ -340,7 +341,7 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
               </figure>
             )}
             {slide.title && <h3 className="reader-slide-title">{slide.title}</h3>}
-            {slide.text && <p className="reader-text">{slide.text}</p>}
+            {slide.text && <RichText text={slide.text} />}
             {slide.note && <p className="reader-note">{slide.note}</p>}
             {slide.terms && slide.terms.length > 0 && (
               <details className="reader-terms">
@@ -428,5 +429,60 @@ export function Reader({ onBack, initialLectureId = null, courseCode = null }: R
         </section>
       ))}
     </div>
+  )
+}
+
+/** Výklad slidu: odstavce, mezititulky a přehledové tabulky (lib/richText.ts). */
+function RichText({ text }: { text: string }) {
+  const blocks = parseRichText(text)
+  return (
+    <>
+      {blocks.map((b, i) => {
+        if (b.kind === 'h') {
+          return (
+            <h4 key={i} className="reader-subhead">
+              {b.text}
+            </h4>
+          )
+        }
+        if (b.kind === 'table') {
+          return (
+            <div key={i} className="reader-table-wrap">
+              <table className="reader-table">
+                <thead>
+                  <tr>
+                    {b.head.map((c, j) => (
+                      <th key={j} scope="col">
+                        {c}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {b.rows.map((row, r) => (
+                    <tr key={r}>
+                      {row.map((c, j) =>
+                        j === 0 ? (
+                          <th key={j} scope="row">
+                            {c}
+                          </th>
+                        ) : (
+                          <td key={j}>{c}</td>
+                        ),
+                      )}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )
+        }
+        return (
+          <p key={i} className="reader-text">
+            {b.text}
+          </p>
+        )
+      })}
+    </>
   )
 }

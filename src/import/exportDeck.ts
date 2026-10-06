@@ -30,6 +30,7 @@ export function deckToJson(
     if (c.svg) base.svg = c.svg
     if (c.image) base.image = c.image
     if (c.imageBack) base.imageBack = c.imageBack
+    if (c.occlusion) base.occlusion = c.occlusion
     return base
   })
 

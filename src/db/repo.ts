@@ -10,6 +10,7 @@ import {
   type SourceMeta,
   type Subject,
   type SubjectKind,
+  type TestRun,
 } from './db'
 import type { CardDraft, ParsedDeck } from '../import/parseDeck'
 import { newCardsOnly, planFiling, planPrune, planRemovals, planUpdates } from '../import/mergeDeck'
@@ -465,11 +466,12 @@ export async function exportSubjectJson(subjectId: string): Promise<string | nul
 
 /** Export the whole app (all tables, FSRS state included) as one JSON file. */
 export async function exportBackupJson(): Promise<string> {
-  const [subjects, cards, reviews, errors, settings] = await Promise.all([
+  const [subjects, cards, reviews, errors, testRuns, settings] = await Promise.all([
     db.subjects.toArray(),
     db.cards.toArray(),
     db.reviews.toArray(),
     db.errorLog.toArray(),
+    db.testRuns.toArray(),
     db.settings.get(SETTINGS_ID),
   ])
   return backupToJson({
@@ -478,25 +480,22 @@ export async function exportBackupJson(): Promise<string> {
     cards,
     reviews,
     errorLog: errors,
+    testRuns,
     settings: settings ?? null,
   })
 }
 
 /** Replace ALL local data with a parsed backup (one transaction). */
 export async function restoreBackup(backup: Backup): Promise<void> {
-  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.settings, db.errorLog, async () => {
-    await Promise.all([
-      db.subjects.clear(),
-      db.cards.clear(),
-      db.reviews.clear(),
-      db.settings.clear(),
-      db.errorLog.clear(),
-    ])
+  const tables = [db.subjects, db.cards, db.reviews, db.settings, db.errorLog, db.testRuns]
+  await db.transaction('rw', tables, async () => {
+    await Promise.all(tables.map((table) => table.clear()))
     if (backup.subjects.length) await db.subjects.bulkAdd(backup.subjects)
     if (backup.cards.length) await db.cards.bulkAdd(backup.cards)
     if (backup.reviews.length) await db.reviews.bulkAdd(backup.reviews)
     // Backups written before the error log existed simply have none.
     if (backup.errorLog?.length) await db.errorLog.bulkAdd(backup.errorLog)
+    if (backup.testRuns?.length) await db.testRuns.bulkAdd(backup.testRuns)
     if (backup.settings) await db.settings.put({ ...backup.settings, id: SETTINGS_ID })
   })
 }
@@ -548,9 +547,11 @@ export async function deleteSourceMeta(id: string): Promise<void> {
 
 /** Delete a subject and all of its cards + reviews. */
 export async function deleteSubject(subjectId: string): Promise<void> {
-  await db.transaction('rw', db.subjects, db.cards, db.reviews, db.sources, db.errorLog, async () => {
+  const tables = [db.subjects, db.cards, db.reviews, db.sources, db.errorLog, db.testRuns]
+  await db.transaction('rw', tables, async () => {
     const cardIds = await db.cards.where('subjectId').equals(subjectId).primaryKeys()
     await db.errorLog.where('subjectId').equals(subjectId).delete()
+    await db.testRuns.where('subjectId').equals(subjectId).delete()
     await db.reviews.where('cardId').anyOf(cardIds as string[]).delete()
     await db.cards.where('subjectId').equals(subjectId).delete()
     await db.sources.where('subjectId').equals(subjectId).delete()
@@ -600,4 +601,19 @@ export async function saveSettings(patch: Partial<Omit<Settings, 'id'>>): Promis
   await db.settings.put(next)
   notifyDataChanged()
   return next
+}
+
+// ---- Mock exam ----
+
+/** Finished sittings of one subject, oldest first. */
+export async function getTestRuns(subjectId: string): Promise<TestRun[]> {
+  const runs = await db.testRuns.where('subjectId').equals(subjectId).toArray()
+  return runs.sort((a, b) => a.ts.localeCompare(b.ts))
+}
+
+export async function saveTestRun(run: Omit<TestRun, 'id'>): Promise<TestRun> {
+  const row: TestRun = { ...run, id: uuid() }
+  await db.testRuns.add(row)
+  notifyDataChanged()
+  return row
 }

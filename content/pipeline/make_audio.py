@@ -1,6 +1,7 @@
 #!/usr/bin/env -S uv run --quiet --script
 # /// script
 # requires-python = ">=3.11"
+# dependencies = ["edge-tts>=7"]
 # ///
 """Z podkladů udělá poslouchatelné epizody.
 
@@ -15,8 +16,12 @@ co je vidět („left column", „the photograph beside the text"). Takové vět
 jsou v overrides/<ID>.json přepsané do mluvené podoby nebo vypnuté; co v
 overrides není, jde do zvuku tak, jak je.
 
-Zvuk dělá systémové `say` (žádný klíč, nic neodchází z notebooku) a rovnou
-do AAC — ffmpeg není potřeba.
+Zvuk dělá buď systémové `say` (žádný klíč, nic neodchází z notebooku), nebo
+neurální hlas Microsoftu přes edge-tts (zdarma, bez klíče, ale TEXT odchází
+na jejich server — jsou to jen studijní podklady). Hlas se pozná podle jména:
+co končí na „Neural", jde přes edge-tts (tts_edge.py), zbytek přes `say`.
+Daniel 2026-10-06: „podcast musí být s tím nejlepším hlasem, jinak se to
+strašně špatně poslouchá" — macOS hlasy se pro němčinu nepoužívají.
 
 Použití:
     ./make_audio.py --series quiz               # celá kvízová řada
@@ -37,7 +42,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pack import pack_root  # noqa: E402
 
-from speech import for_speech, pause  # noqa: E402
+from speech import for_speech, pause, tables_for_speech  # noqa: E402
 
 ROOT = pack_root()
 MATERIALS = ROOT / "out" / "materials"
@@ -49,7 +54,7 @@ OUT = ROOT / "out" / "audio"
 # celé čte britský „Daniel". Jazyk říká courses.json (pole `language` u předmětu
 # nebo u jednotlivého kurzu), ne parametr na příkazové řádce, aby se na to
 # nedalo zapomenout. --voice zůstává jako vědomé přebití.
-VOICES = {"en": "Ava", "cs": "Zuzana"}
+VOICES = {"en": "Ava", "cs": "Zuzana", "de": "de-DE-SeraphinaMultilingualNeural"}
 FALLBACK_VOICE = "Ava"
 DEFAULT_RATE = 165
 
@@ -72,6 +77,36 @@ class Episode:
     skipped: list[str] = field(default_factory=list)
 
 
+# Spojovací věty epizod v jazyce předmětu. Angličtina je beze změny proti
+# dřívějšku — jiný text by znamenal přegenerovat všechny hotové epizody.
+PHRASES = {
+    "en": {
+        "quiz_intro": "{course}. {unit}: {title}. Questions only. After each question there is a pause. "
+                      "Say the answer out loud before you hear it.",
+        "question": "Question {n}.",
+        "quiz_outro": "That was {n} questions from {unit}.",
+        "quiz_title": "{unit} — {title} (questions)",
+        "quiz_sub": "{n} questions with pauses to answer out loud.",
+        "outro": "End of {unit}.",
+        "narr_sub": "The written explanation of {n} slides, read as one piece.",
+    },
+    "de": {
+        "quiz_intro": "{course}. {title}. Nur Fragen. Nach jeder Frage kommt eine Pause. "
+                      "Sag die Antwort laut, bevor du sie hörst.",
+        "question": "Frage {n}.",
+        "quiz_outro": "Das waren {n} Fragen zu {title}.",
+        "quiz_title": "{title} (Fragen)",
+        "quiz_sub": "{n} Fragen mit Pausen zum lauten Antworten.",
+        "outro": "Ende: {title}.",
+        "narr_sub": "Die Erklärung zu {n} Folien, am Stück gelesen.",
+    },
+}
+
+
+def phrase(lang: str, key: str, **kw) -> str:
+    return PHRASES.get(lang, PHRASES["en"])[key].format(**kw)
+
+
 def load_overrides(lecture_id: str) -> dict:
     """Ruční opravy pro poslech. Chybějící soubor je v pořádku — většina
     přednášek žádnou nepotřebuje."""
@@ -89,14 +124,11 @@ def slide_text(slide: dict, ov: dict) -> str | None:
     return (slide.get("text") or "").strip() or None
 
 
-def build_quiz(lec: dict, ov: dict) -> Episode:
+def build_quiz(lec: dict, ov: dict, lang: str = "en") -> Episode:
     chunks: list[str] = []
-    intro = ov.get("quiz_intro") or (
-        f"{lec['course_title']}. {lec['unit']}: {lec['title']}. "
-        f"Questions only. After each question there is a pause. "
-        f"Say the answer out loud before you hear it."
-    )
-    chunks.append(for_speech(intro))
+    kw = {"course": lec["course_title"], "unit": lec["unit"], "title": lec["title"]}
+    intro = ov.get("quiz_intro") or phrase(lang, "quiz_intro", **kw)
+    chunks.append(for_speech(intro, lang))
     n = 0
     for slide in lec["slides"]:
         for card in slide.get("cards") or []:
@@ -105,26 +137,28 @@ def build_quiz(lec: dict, ov: dict) -> Episode:
                 continue  # vypnutá otázka (mluvila o obrázku a nedá se přepsat)
             n += 1
             chunks.append(
-                f"Question {n}. {for_speech(q)} "
-                f"{pause(ANSWER_PAUSE_MS)} {for_speech(card['a'])} {pause(BETWEEN_CARDS_MS)}"
+                f"{phrase(lang, 'question', n=n)} {for_speech(q, lang)} "
+                f"{pause(ANSWER_PAUSE_MS)} {for_speech(card['a'], lang)} {pause(BETWEEN_CARDS_MS)}"
             )
-    chunks.append(for_speech(f"That was {n} questions from {lec['unit']}."))
+    chunks.append(for_speech(phrase(lang, "quiz_outro", n=n, **kw), lang))
     return Episode(
         lecture_id=lec["lecture_id"],
         series="quiz",
-        title=f"{lec['unit']} — {lec['title']} (questions)",
-        subtitle=f"{n} questions with pauses to answer out loud.",
+        title=phrase(lang, "quiz_title", **kw),
+        subtitle=phrase(lang, "quiz_sub", n=n),
         script="\n\n".join(chunks),
         parts=n,
     )
 
 
-def build_narration(lec: dict, ov: dict) -> Episode:
+def build_narration(lec: dict, ov: dict, lang: str = "en") -> Episode:
     chunks: list[str] = []
+    kw = {"course": lec["course_title"], "unit": lec["unit"], "title": lec["title"]}
     intro = ov.get("intro") or (
-        f"{lec['course_title']}. {lec['unit']}: {lec['title']}."
+        f"{lec['course_title']}. {lec['title']}." if lang == "de"
+        else f"{lec['course_title']}. {lec['unit']}: {lec['title']}."
     )
-    chunks.append(for_speech(intro))
+    chunks.append(for_speech(intro, lang))
     n = 0
     skipped: list[str] = []
     for slide in lec["slides"]:
@@ -134,14 +168,14 @@ def build_narration(lec: dict, ov: dict) -> Episode:
                 skipped.append(str(slide["n"]))
             continue
         n += 1
-        chunks.append(f"{for_speech(text)} {pause(BETWEEN_SLIDES_MS)}")
-    outro = ov.get("outro") or f"End of {lec['unit']}."
-    chunks.append(for_speech(outro))
+        chunks.append(f"{for_speech(tables_for_speech(text, lang), lang)} {pause(BETWEEN_SLIDES_MS)}")
+    outro = ov.get("outro") or phrase(lang, "outro", **kw)
+    chunks.append(for_speech(outro, lang))
     return Episode(
         lecture_id=lec["lecture_id"],
         series="narration",
-        title=f"{lec['unit']} — {lec['title']}",
-        subtitle=f"The written explanation of {n} slides, read as one piece.",
+        title=lec["title"] if lang == "de" else f"{lec['unit']} — {lec['title']}",
+        subtitle=phrase(lang, "narr_sub", n=n),
         script="\n\n".join(chunks),
         parts=n,
         skipped=skipped,
@@ -169,11 +203,15 @@ def render(ep: Episode, voice: str, rate: int, force: bool) -> None:
             return
 
     script_file.write_text(ep.script, encoding="utf-8")
-    subprocess.run(
-        ["say", "-v", voice, "-r", str(rate), "-f", str(script_file),
-         "-o", str(target), "--data-format=aac"],
-        check=True,
-    )
+    if voice.endswith("Neural"):
+        from tts_edge import render_edge
+        render_edge(ep.script, voice, target)
+    else:
+        subprocess.run(
+            ["say", "-v", voice, "-r", str(rate), "-f", str(script_file),
+             "-o", str(target), "--data-format=aac"],
+            check=True,
+        )
     stamp_file.write_text(stamp, encoding="utf-8")
     ep.path = target
     ep.seconds = duration(target)
@@ -218,7 +256,8 @@ def main() -> int:
     for lecture_id in order:
         lec = json.loads((MATERIALS / f"{lecture_id}.json").read_text(encoding="utf-8"))
         ov = load_overrides(lecture_id)
-        ep = build_quiz(lec, ov) if args.series == "quiz" else build_narration(lec, ov)
+        lang = lang_of.get(lecture_id, "en")
+        ep = build_quiz(lec, ov, lang) if args.series == "quiz" else build_narration(lec, ov, lang)
         if ep.parts == 0:
             print(f"  {lecture_id}: nic k namluvení, přeskakuji")
             continue

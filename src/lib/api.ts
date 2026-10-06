@@ -381,6 +381,22 @@ export function getServerDeck(id: string): Promise<unknown> {
   return api(`/api/materials/deck/${encodeURIComponent(id)}`)
 }
 
+export interface ServerTest {
+  id: string
+  subject: string
+  questions: number
+  format: { minutes?: number; questions?: number; note?: string } | null
+}
+
+/** Mock-exam question banks the server holds (descriptions only). */
+export function getServerTests(): Promise<{ tests: ServerTest[] }> {
+  return api('/api/materials/tests')
+}
+
+export function getServerTest(id: string): Promise<unknown> {
+  return api(`/api/materials/test/${encodeURIComponent(id)}`)
+}
+
 export function getMaterialIndex(): Promise<MaterialIndex> {
   return api('/api/materials')
 }

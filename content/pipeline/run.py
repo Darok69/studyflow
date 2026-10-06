@@ -268,6 +268,10 @@ GENERATED_FIELDS = ("title", "text", "terms", "cards", "vision_used", "status", 
 def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
             write_work: bool = True) -> dict:
     lid = lec["id"]
+    # Souhrn napříč přednáškami (přehledové tabulky) nemá zdrojové PDF —
+    # vzniká celý z obsahového souboru, merge si oddíly založí sám.
+    if lec.get("kind") == "summary":
+        return process_summary(lec, course)
     src = Path(course["root"]) / lec["file"]
     raw_name = f"{lid}_{slugify(Path(lec['file']).stem)}.pdf"
     raw_path = RAW / raw_name
@@ -436,6 +440,35 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
         + (f" · prázdných buněk {stats['blank']}" if stats["blank"] else "")
         + f" · hotové zachované {stats['kept']} · k dopsání {stats['new']}")
     return {"lecture_id": lid, "pages": len(slides), **stats}
+
+
+def process_summary(lec: dict, course: dict) -> dict:
+    """Souhrn bez zdroje: zachová hotové oddíly, jinak jen kostra pro merge."""
+    lid = lec["id"]
+    data_path = DATA / f"{lid}.json"
+    prev = load_json(data_path, {})
+    kept = prev.get("slides", []) if prev.get("kind") == "reading" else []
+    out = {
+        "lecture_id": lid,
+        "kind": "reading",
+        "course": course["code"],
+        "course_title": course["title"],
+        "course_number": course["number"],
+        "unit": lec.get("unit", ""),
+        "title": prev.get("title") or lec.get("title") or lid,
+        "source_file": None,
+        "source_sha256": None,
+        "source_pages": 0,
+        "slides_per_page": 1,
+        "slide_count": len(kept),
+        "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "slides": kept,
+    }
+    DATA.mkdir(parents=True, exist_ok=True)
+    write_json(data_path, out)
+    log(f"  ~ {lid}: souhrn bez zdroje · hotových oddílů {len(kept)}")
+    return {"lecture_id": lid, "pages": len(kept), "vision": 0, "filler": 0,
+            "kept": len(kept), "new": 0}
 
 
 def process_reading(lec: dict, course: dict, src: Path, raw_name: str,

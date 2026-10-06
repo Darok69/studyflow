@@ -1,4 +1,5 @@
 import Dexie, { type Table } from 'dexie'
+import type { McAnswer } from '../lib/mcTest'
 import { subjectColorIndex } from '../lib/theme'
 import { type CardKind, type CardLevel, isCardKind } from './cardKinds'
 
@@ -147,6 +148,16 @@ export interface ErrorEntry {
   note?: string // the user's own "why did I get this wrong?"
 }
 
+/** One finished mock-exam sitting (see lib/mcTest.ts). */
+export interface TestRun {
+  id: string
+  subjectId: string
+  bankId: string
+  ts: string // ISO, when it was handed in
+  durationMs: number
+  answers: McAnswer[]
+}
+
 export type SourceKind = 'pdf' | 'image' | 'text' | 'audio' | 'url'
 
 export type SourceStatus =
@@ -202,6 +213,7 @@ export const db = new Dexie('studyflow') as Dexie & {
   settings: Table<Settings, string>
   sources: Table<SourceMeta, string>
   errorLog: Table<ErrorEntry, string>
+  testRuns: Table<TestRun, string>
 }
 
 db.version(1).stores({
@@ -253,4 +265,9 @@ db.version(3)
 // Reviews gain optional fields only, so no backfill is needed.
 db.version(4).stores({
   errorLog: 'id, cardId, subjectId, ts, kind',
+})
+
+// v5: mock-exam sittings. A new table only — nothing to backfill.
+db.version(5).stores({
+  testRuns: 'id, subjectId, ts',
 })

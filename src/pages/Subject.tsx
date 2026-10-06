@@ -15,7 +15,7 @@ import { palette, subjectColor, subjectColorIndex, urgencyColor } from '../lib/t
 import { ProgressBar } from '../components/ProgressBar'
 import { SubjectEditor } from '../components/SubjectEditor'
 import { SubjectPace } from '../components/SubjectPace'
-import { getMaterialIndex, SERVER_MODE, type MaterialIndex } from '../lib/api'
+import { getMaterialIndex, getServerTests, SERVER_MODE, type MaterialIndex, type ServerTest } from '../lib/api'
 import { lectureForTopic, matchCourses, orderByCourse, type CourseRef } from '../lib/materials'
 import { sortTopicsByClass } from '../lib/order'
 import { t } from '../i18n'
@@ -43,6 +43,8 @@ interface Props {
   /** Open the textbook — at one lecture, or at the course's list when null. */
   onRead: (lectureId: string | null, courseCode: string | null) => void
   onBrowse: (topic: string | null) => void
+  /** Open the mock exam built for this subject. */
+  onTest: (bankId: string, subjectName: string) => void
 }
 
 const BAND_COLOR: Record<ReturnType<typeof readinessBand>, string> = {
@@ -61,12 +63,14 @@ export function Subject({
   onCramTopic,
   onRead,
   onBrowse,
+  onTest,
 }: Props) {
   const [subject, setSubject] = useState<SubjectRow | null>(null)
   const [cards, setCards] = useState<Card[]>([])
   const [reviews, setReviews] = useState<Review[]>([])
   const [settings, setSettings] = useState<Settings | null>(null)
   const [index, setIndex] = useState<MaterialIndex | null>(null)
+  const [tests, setTests] = useState<ServerTest[]>([])
   const [loading, setLoading] = useState(true)
   const [editing, setEditing] = useState(false)
 
@@ -101,6 +105,22 @@ export function Subject({
       })
       .catch(() => {
         /* no textbook is a normal state — the topics below still work */
+      })
+    return () => {
+      alive = false
+    }
+  }, [hasMaterials])
+
+  // Mock-exam banks travel with the textbook; a subject finds its own by name.
+  useEffect(() => {
+    if (!SERVER_MODE || !hasMaterials) return
+    let alive = true
+    getServerTests()
+      .then((data) => {
+        if (alive) setTests(data.tests)
+      })
+      .catch(() => {
+        /* no mock exam is a normal state */
       })
     return () => {
       alive = false
@@ -147,6 +167,7 @@ export function Subject({
     subject.topicOrder,
   )
 
+  const test = tests.find((x) => x.subject.trim().toLowerCase() === subject.name.trim().toLowerCase())
   const identity = subjectColor(subject.colorIndex ?? subjectColorIndex(subject.id))
   const urgent = urgencyColor(urgency(stats.daysUntilExam))
   const todayCount = stats.dueToday + stats.newToday
@@ -219,6 +240,18 @@ export function Subject({
             <span className="muted">
               {t('readerLectures', lectures)} · {t('readerSlideCount', slides)}
             </span>
+          </span>
+        </button>
+      )}
+
+      {test && (
+        <button className="textbook-row" onClick={() => onTest(test.id, subject.name)}>
+          <span className="textbook-icon" aria-hidden="true">
+            📝
+          </span>
+          <span className="textbook-main">
+            <span className="textbook-title">{t('mcTitle')}</span>
+            <span className="muted">{t('mcRowSub', test.questions)}</span>
           </span>
         </button>
       )}

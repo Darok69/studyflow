@@ -30,10 +30,16 @@ for f in "$ROOT"/out/studyflow/*.json; do
   cp "$f" "$STAGE/materials/deck-$name.json"
 done
 
+# Banky otázek ke zkušebnímu testu.
+for f in "$ROOT"/out/tests/*.json; do
+  [ -e "$f" ] || continue
+  cp "$f" "$STAGE/materials/mc-$(basename "$f")"
+done
+
 # Obrázky jen k přednáškám, které v učebnici opravdu jsou.
 for f in "$ROOT"/out/materials/*.json; do
   id=$(basename "$f" .json)
-  case "$id" in index-*|deck-*) continue ;; esac
+  case "$id" in index-*|deck-*|mc-*) continue ;; esac
   [ -d "$ROOT/out/img/$id" ] && cp -R "$ROOT/out/img/$id" "$STAGE/materials/img/$id" 2>/dev/null || {
     mkdir -p "$STAGE/materials/img"; [ -d "$ROOT/out/img/$id" ] && cp -R "$ROOT/out/img/$id" "$STAGE/materials/img/$id"; }
 done

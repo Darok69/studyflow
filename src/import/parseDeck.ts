@@ -151,6 +151,43 @@ function emptySubject(): ParsedDeck['subject'] {
   return { name: '', examDate: null, reminderTime: null }
 }
 
+/**
+ * Image occlusion carried in a deck file. Coordinates are relative (0–1); a
+ * mask that does not fit the picture or has no usable size is dropped, and an
+ * occlusion without the asked mask (the first one) is no occlusion at all.
+ */
+export function parseOcclusion(raw: unknown): Occlusion | undefined {
+  const o = raw as Partial<Occlusion> | null | undefined
+  if (!o || typeof o !== 'object' || !Array.isArray(o.masks)) return undefined
+  const in01 = (v: unknown) => typeof v === 'number' && Number.isFinite(v) && v >= 0 && v <= 1
+  const masks = o.masks
+    .filter(
+      (m) =>
+        m &&
+        typeof m.id === 'string' &&
+        in01(m.x) &&
+        in01(m.y) &&
+        in01(m.w) &&
+        in01(m.h) &&
+        m.w > 0 &&
+        m.h > 0 &&
+        m.x + m.w <= 1.0001 &&
+        m.y + m.h <= 1.0001,
+    )
+    .map((m) => ({
+      id: m.id,
+      shape: 'rect' as const,
+      x: m.x,
+      y: m.y,
+      w: m.w,
+      h: m.h,
+      label: typeof m.label === 'string' ? m.label : '',
+    }))
+  if (masks.length === 0 || masks[0].id !== o.masks[0]?.id || !masks[0].label.trim()) return undefined
+  const mode = o.mode === 'hide-all-guess-one' ? 'hide-all-guess-one' : 'hide-one-guess-one'
+  return { imageKey: 'card.image', mode, masks }
+}
+
 /** Parse a JSON deck string into a ParsedDeck. Never throws; errors are collected. */
 export function parseDeck(raw: string): ParsedDeck {
   let data: unknown
@@ -206,6 +243,8 @@ export function parseDeck(raw: string): ParsedDeck {
     const sourceId = typeof c.sourceId === 'string' ? c.sourceId : undefined
     const draft = c.draft === true ? true : undefined
     const draftReason = draft && typeof c.draftReason === 'string' ? c.draftReason : undefined
+    // A blind diagram only makes sense with its picture.
+    const occlusion = image ? parseOcclusion(c.occlusion) : undefined
 
     if (type === 'cloze') {
       const text = typeof c.text === 'string' ? c.text : typeof c.front === 'string' ? c.front : ''
@@ -222,7 +261,7 @@ export function parseDeck(raw: string): ParsedDeck {
         errors.push(t('errBasicCardNeedsBoth', n))
         return
       }
-      cards.push({ type, kind, level, ...(priority ? { priority } : {}), ...(readyBy ? { readyBy } : {}), topic, front, back, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
+      cards.push({ type, kind, level, ...(priority ? { priority } : {}), ...(readyBy ? { readyBy } : {}), ...(occlusion ? { occlusion } : {}), topic, front, back, tags, svg, image, imageBack, sourceId, sourceRef, draft, draftReason })
     }
   })
 

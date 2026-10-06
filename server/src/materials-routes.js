@@ -27,7 +27,9 @@ const LECTURE_RE = /^[A-Za-z0-9]{2,24}$/
 // Balíčky karet vedle učebnice: deck-<id>.json. Bez nich by se karty musely
 // hledat jako soubor na disku a ručně vkládat do okna Import.
 const DECK_RE = /^[a-z0-9][a-z0-9-]{0,40}$/
-const IMAGE_RE = /^[A-Za-z0-9]{2,24}_s\d{3}\.webp$/
+// _sNNN = render slidu; _b<hash> = výřez diagramu pro slepý obrázek (make_blind.py),
+// jméno podle obsahu, takže „immutable" cache níž platí i pro něj.
+const IMAGE_RE = /^[A-Za-z0-9]{2,24}_(s\d{3}|b[0-9a-f]{10})\.webp$/
 const INDEX_RE = /^index-[a-z0-9-]{1,41}\.json$/
 
 function readJsonFile(file) {
@@ -120,6 +122,27 @@ function decksIn(dir, own) {
   return out
 }
 
+/**
+ * Banky otázek ke zkušebnímu testu: mc-<id>.json. Seznam nese jen popis,
+ * otázky se stahují až při spuštění testu.
+ */
+function testList(user) {
+  const out = []
+  const ids = new Set()
+  for (const dir of readableDirs(user)) {
+    if (!existsSync(dir)) continue
+    for (const file of readdirSync(dir).sort()) {
+      const m = /^mc-([a-z0-9][a-z0-9-]{0,40})\.json$/.exec(file)
+      if (!m || ids.has(m[1])) continue
+      const bank = readJsonFile(join(dir, file))
+      if (!bank || typeof bank.subject !== 'string' || !Array.isArray(bank.questions)) continue
+      ids.add(m[1])
+      out.push({ id: m[1], subject: bank.subject, questions: bank.questions.length, format: bank.format ?? null })
+    }
+  }
+  return out
+}
+
 function deckList(user) {
   const out = []
   const ids = new Set()
@@ -177,6 +200,25 @@ export function registerMaterialRoutes(app, { requireUser }) {
     if (!deck) return reply.code(404).send({ error: 'unknown deck' })
     reply.header('cache-control', 'private, max-age=60')
     return deck
+  })
+
+  app.get('/api/materials/tests', async (req, reply) => {
+    const user = requireUser(req, reply)
+    if (!user) return
+    reply.header('cache-control', 'private, max-age=60')
+    return { tests: testList(user) }
+  })
+
+  app.get('/api/materials/test/:id', async (req, reply) => {
+    const user = requireUser(req, reply)
+    if (!user) return
+    const { id } = req.params
+    if (!DECK_RE.test(id)) return reply.code(400).send({ error: 'bad id' })
+    const found = resolveMaterial(user, `mc-${id}.json`)
+    const bank = found ? readJsonFile(found.path) : null
+    if (!bank) return reply.code(404).send({ error: 'unknown test' })
+    reply.header('cache-control', 'private, max-age=60')
+    return { ...bank, id }
   })
 
   app.get('/api/materials/lecture/:id', async (req, reply) => {

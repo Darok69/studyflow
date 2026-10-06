@@ -10,6 +10,7 @@ const Settings = lazy(() => import('./pages/Settings').then((m) => ({ default: m
 const Browser = lazy(() => import('./pages/Browser').then((m) => ({ default: m.Browser })))
 const Sources = lazy(() => import('./pages/Sources').then((m) => ({ default: m.Sources })))
 const Reader = lazy(() => import('./pages/Reader').then((m) => ({ default: m.Reader })))
+const TestPage = lazy(() => import('./pages/Test').then((m) => ({ default: m.Test })))
 const SubjectPage = lazy(() => import('./pages/Subject').then((m) => ({ default: m.Subject })))
 import { decodeDeckPayload, payloadFromHash } from './lib/sharelink'
 import { AUTH_EXPIRED_EVENT, getMe, SERVER_MODE, type Account } from './lib/api'
@@ -22,6 +23,7 @@ type View =
   | 'import'
   | 'sources'
   | 'reader'
+  | 'test'
   | 'study'
   | 'browser'
   | 'stats'
@@ -45,6 +47,7 @@ function App() {
     lectureId: null,
     course: null,
   })
+  const [testAt, setTestAt] = useState<{ bankId: string; subjectName: string } | null>(null)
   const [browserTopic, setBrowserTopic] = useState<string | null>(null)
   // Which deck the card browser opens on. Separate from freshDeckId, which
   // means "just created — open the new-card editor straight away".
@@ -205,6 +208,11 @@ function App() {
               setReturnView('subject')
               setView('reader')
             }}
+            onTest={(bankId, subjectName) => {
+              setTestAt({ bankId, subjectName })
+              setReturnView('subject')
+              setView('test')
+            }}
             onBrowse={(topic) => {
               setFreshDeckId(null)
               setBrowserSubjectId(openSubjectId)
@@ -220,6 +228,14 @@ function App() {
             onBack={goBack}
             initialLectureId={readerAt.lectureId}
             courseCode={readerAt.course}
+          />
+        )}
+        {view === 'test' && testAt && openSubjectId && (
+          <TestPage
+            subjectId={openSubjectId}
+            subjectName={testAt.subjectName}
+            bankId={testAt.bankId}
+            onBack={goBack}
           />
         )}
         {view === 'study' && <Study onDone={goBack} mode={studyMode} />}

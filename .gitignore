@@ -43,6 +43,13 @@ content/*/out/work/
 content/*/out/studyflow/
 # 49 MB namluvených epizod — vyrábí je make_audio.py z podkladů, do gitu nepatří.
 content/*/out/audio/
+# Slepé obrázky (base64 JPEG v kartách) a banka testu — odvozené z blind.json
+# a mc/*.json, kdykoli se dají přegenerovat.
+content/*/out/blind/
+content/*/out/tests/
+# Namluvené úseky edge-tts (tts_edge.py) — keš, aby oprava jedné karty
+# nenamlouvala znovu celou epizodu.
+content/.tts-cache/
 content/pipeline/__pycache__/
 
 # Dev server data (prod lives in a docker volume). Lomítko na začátku je

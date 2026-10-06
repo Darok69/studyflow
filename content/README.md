@@ -14,6 +14,8 @@ s `courses.json`; všechno ostatní si pipeline dogeneruje.
 ./run.sh irewi merge irewi/content/content_IL01.json
 ./run.sh irewi materials          # balíček pro obrazovku Učebnice
 ./run.sh irewi deck               # balíček karet pro obrazovku Import
+./run.sh system-erde tests        # banka otázek pro zkušební test (mc/*.json)
+./run.sh system-erde blind        # slepé obrázky z diagramů (blind.json)
 ./run.sh irewi audio --series quiz
 ./run.sh irewi feed --token <token>
 ./run.sh irewi publish            # učebnice na produkci
@@ -30,6 +32,7 @@ když sedí hash zdrojového PDF, a **hotový výklad se nikdy nepřepíše**.
 |---|---|---|
 | [`irewi/`](irewi/README.md) | StEOP Einführung in das internationale Recht, 5. 10. 2026 | hotovo — 758 slidů, 479 karet, podcast |
 | [`pravni-dejiny/`](pravni-dejiny/README.md) | Modulprüfung European and Global Legal History, březnový termín | 724 slidů vyrenderováno, výklad se píše (1 z 23 témat) |
+| [`system-erde/`](system-erde/README.md) | STEOP System Erde, 18. 12. 2026 | běží — přibývá po týdnech; karty, tabulky, slepé obrázky, test, podcast |
 | [`fernerkundung/`](fernerkundung/README.md) | VO 290234 Bildverarbeitung und Fernerkundung, termín zatím neurčen | hotovo — 599 slidů, 349 karet |
 
 ## Co kde je

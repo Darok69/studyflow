@@ -34,6 +34,52 @@ ABBREV = [
     (r"§\s*", "section "),
 ]
 
+# Němčina (System Erde): zkratky, jednotky a znaky, které neurální hlas přečte
+# špatně nebo vůbec. Pořadí je důležité — „z. B." dřív než samostatné „B.".
+ABBREV_DE = [
+    (r"\bz\.\s?B\.", "zum Beispiel"),
+    (r"\bd\.\s?h\.", "das heißt"),
+    (r"\bu\.\s?a\.", "unter anderem"),
+    (r"\bbzw\.", "beziehungsweise"),
+    (r"\bca\.", "circa"),
+    (r"\bvgl\.", "vergleiche"),
+    (r"\bevtl\.", "eventuell"),
+    (r"\binsb\.", "insbesondere"),
+    (r"\bMio\.", "Millionen"),
+    (r"\bMrd\.", "Milliarden"),
+    (r"\bGa\b", "Milliarden Jahre"),
+    (r"\bMa\b", "Millionen Jahre"),
+    (r"\bJh\.", "Jahrhundert"),
+    (r"\bAufl\.", "Auflage"),
+    (r"(?<=\d)\s?°C", " Grad Celsius"),
+    (r"(?<=\d)\s?km²", " Quadratkilometer"),
+    (r"(?<=\d)\s?g/cm³", " Gramm pro Kubikzentimeter"),
+    (r"(?<=\d)\s?km/h", " Kilometer pro Stunde"),
+    (r"(?<=\d)\s?Vol\.?-?%", " Volumenprozent"),
+    (r"(?<=\d)\s?%", " Prozent"),
+    (r"(?<=\d)\s?–\s?(?=\d)", " bis "),
+    (r"(?<=\d)\s?-\s?(?=\d)", " bis "),
+    (r"\s?→\s?", ", daraus folgt: "),
+    (r"\s?≈\s?", " ungefähr "),
+    (r"\s?<\s?(?=\d)", " weniger als "),
+    (r"\s?>\s?(?=\d)", " mehr als "),
+    (r"\s?≤\s?", " höchstens "),
+    (r"\s?≥\s?", " mindestens "),
+]
+
+# Häufige Formeln als Wort — „S i O 2" versteht beim Zuhören niemand.
+FORMULAS_DE = [
+    (r"\bSiO2\b", "Siliziumdioxid"),
+    (r"\bCO2\b", "C O 2"),
+    (r"\bH2O\b", "Wasser"),
+    (r"\bCaCO3\b", "Calciumcarbonat"),
+    (r"\bO2\b", "Sauerstoff"),
+]
+
+# Tiefgestellte/hochgestellte Ziffern (SiO₂, km³) liest die Synthese sonst
+# gar nicht oder als Sonderzeichen.
+_SUBSUP = str.maketrans("₀₁₂₃₄₅₆₇₈₉⁰¹²³⁴⁵⁶⁷⁸⁹", "01234567890123456789")
+
 # Číslovaná ustanovení: 13(1)(a) se nahlas říká „13, paragraph 1, subparagraph a".
 _PROVISION = re.compile(r"(\d+)\((\d+)\)(?:\(([a-z])\))?")
 _LETTER_ONLY = re.compile(r"(?<=\bparagraph )\(([a-z])\)")
@@ -56,12 +102,50 @@ def _provisions(text: str) -> str:
     return re.sub(r"\b([Pp]aragraph|[Ss]ubparagraph)\s*\(([a-z])\)", r"\1 \2", text)
 
 
-def for_speech(text: str) -> str:
+def tables_for_speech(text: str, lang: str = "en") -> str:
+    """Markdown tabulku a mezititulky převede na věty.
+
+    Řádek tabulky se čte jako „první buňka: záhlaví hodnota, záhlaví hodnota" —
+    svislítka a čáry pod záhlavím by syntéza četla jako znaky."""
+    out, head = [], None
+    for line in text.split("\n"):
+        stripped = line.strip()
+        if stripped.startswith("###"):
+            out.append(stripped.lstrip("#").strip() + ".")
+            head = None
+            continue
+        if not stripped.startswith("|"):
+            head = None
+            out.append(line)
+            continue
+        cells = [c.strip() for c in stripped.strip("|").split("|")]
+        if all(re.fullmatch(r":?-{2,}:?", c) for c in cells if c):
+            continue
+        if head is None:
+            head = cells
+            continue
+        first, rest = cells[0], cells[1:]
+        parts = [f"{h} {v}" if h else v for h, v in zip(head[1:], rest) if v]
+        out.append(f"{first}: {', '.join(parts)}." if parts else f"{first}.")
+    return "\n".join(out)
+
+
+def for_speech(text: str, lang: str = "en") -> str:
     """Jedna věta textu připravená k předání syntéze."""
     out = strip_commands(text)
-    for pattern, replacement in ABBREV:
-        out = re.sub(pattern, replacement, out)
-    out = _provisions(out)
+    if lang == "de":
+        out = out.translate(_SUBSUP)
+        for pattern, replacement in FORMULAS_DE + ABBREV_DE:
+            out = re.sub(pattern, replacement, out)
+        out = re.sub(r"\((\w+-)\)(\w)", r"\1\2", out)  # „(Gesteins-)Bruchstücke"
+        out = re.sub(r"\(([^()]{1,120})\)", r", \1,", out)
+        out = re.sub(r"„([^“”\"]{1,200})[“”\"]", r"\1", out)  # německé uvozovky
+        out = out.replace("„", "").replace("‚", "")
+        out = re.sub(r"\s=\s", ": ", out)
+    else:
+        for pattern, replacement in ABBREV:
+            out = re.sub(pattern, replacement, out)
+        out = _provisions(out)
     # Uvozovky: nejdřív zahodit celé PÁRY, teprve pak zbylý ’ jako apostrof.
     # Opačné pořadí nechá za slovem viset apostrof („subsidiary means'").
     out = re.sub(r"[‘']([^‘’']{1,80})[’']", r"\1", out)
@@ -74,6 +158,9 @@ def for_speech(text: str) -> str:
     # Náhrada pomlčky čárkou umí vyrobit „slovo , slovo" a dvojitou čárku.
     out = re.sub(r"\s+([,.;:!?])", r"\1", out)
     out = re.sub(r",\s*,", ",", out)
+    # Rozbalená závorka na konci věty nechá „slovo,?" a na začátku „, slovo".
+    out = re.sub(r",\s*([.;:!?])", r"\1", out)
+    out = re.sub(r"^[\s,;:]+", "", out)
     return out.strip()
 
 

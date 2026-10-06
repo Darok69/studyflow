@@ -186,6 +186,11 @@ def main() -> int:
                         "tags": [d["lecture_id"], c.get("priority", "core")],
                         "sourceRef": {"page": slide["n"]},
                     })
+        # Slepé obrázky (make_blind.py) k přednáškám téhož předmětu.
+        blind_path = ROOT / "out" / "blind" / "cards.json"
+        if blind_path.exists():
+            ids = {lec["lecture_id"] for lec in lectures}
+            cards += [c for c in json.loads(blind_path.read_text("utf-8")) if c["tags"][0] in ids]
         if not cards:
             print(f"{code}: zatím žádné karty — přeskočeno")
             continue
