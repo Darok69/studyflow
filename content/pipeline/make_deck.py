@@ -194,14 +194,23 @@ def main() -> int:
                         # ke kterému má být naučená) — appka podle něj řadí nové
                         # karty a drží tempo; termín zkoušky zůstává cílem.
                         # Jen jádro — organizační a doplňkové karty jdou tempem ke zkoušce.
-                        **({"readyBy": lec["readyBy"]}
-                           if lec.get("readyBy") and c.get("priority", "core") == "core" else {}),
+                        # Karta smí mít vlastní readyBy (vzorová exegeze k pozdější hodině).
+                        **({"readyBy": c.get("readyBy") or lec["readyBy"]}
+                           if (c.get("readyBy") or lec.get("readyBy")) and c.get("priority", "core") == "core" else {}),
                     })
         # Slepé obrázky (make_blind.py) k přednáškám téhož předmětu.
         blind_path = ROOT / "out" / "blind" / "cards.json"
         if blind_path.exists():
             ids = {lec["lecture_id"] for lec in lectures}
             cards += [c for c in json.loads(blind_path.read_text("utf-8")) if c["tags"][0] in ids]
+        # Pořadí učení (opt-in v courses.json: "learnOrder": true): znalosti před
+        # prameny (judikat) a případy (pripad) — Daniel 2026-10-06: „cases nechápu,
+        # dokud nemám znalosti, které k nim potřebuji". Uspořádaný balíček appka
+        # neprokládá po tématech, proto to není výchozí stav.
+        if index.get("learnOrder") or json.loads((ROOT / "courses.json").read_text("utf-8")).get("learnOrder"):
+            stage = {"judikat": 2, "pripad": 3}
+            for i, c in enumerate(cards):
+                c["learnOrder"] = stage.get(c["kind"], 1) * 100_000 + i
         if not cards:
             print(f"{code}: zatím žádné karty — přeskočeno")
             continue

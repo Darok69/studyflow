@@ -1,0 +1,77 @@
+{
+  "language": "en",
+  "exam": {
+    "name": "030116-1 PKU Exegesis of Justinian's Digest (Uni Wien; Dr. Kyriaco Nikias)",
+    "date": "2027-01-13",
+    "language": "en",
+    "format": "Dvě písemná hodnocení — Assessment I st 4. 11. 2026, Assessment II st 13. 1. 2027; v obou se píše EXEGEZE zadaného úryvku Digest ve formátu FÜM 1. Známka = průměr obou, aktivní účast zlepšuje. Výuka anglicky, středy 9–10, HS U14 Juridicum. Doktrína podle Benke/Meissel, Roman Law of Property a Roman Law of Obligations."
+  },
+  "podcast": {
+    "short": "Exegesis",
+    "course": "Exegesis of Justinian's Digest",
+    "enabled": false,
+    "note": "Daniel chodí na PKU (docházka); podcast zatím nedělán — nabídnout."
+  },
+  "courses": [
+    {
+      "code": "EX",
+      "number": "030116",
+      "title": "Exegesis of Justinian's Digest",
+      "subject": "Exegesis of Justinian's Digest",
+      "language": "en",
+      "root": "/Users/danielmarek/Library/Mobile Documents/com~apple~CloudDocs/Uni Wien/IREWI/3. Semester/Exegesis of Justinian's Digest/WS2026-030116-1_2026106_1257",
+      "lectures": [
+        {
+          "id": "EXBO",
+          "unit": "07.10. Introduction",
+          "title": "Sources of Roman law and the Digest (Borkowski)",
+          "file": "2_1. Introduction Sources and Method/1_Borkowski - reading for first class/Borkowski extract.pdf"
+        },
+        {
+          "id": "EXG1",
+          "unit": "07.10. Introduction",
+          "title": "Basics of Roman law I (Gamauf)",
+          "file": "2_1. Introduction Sources and Method/2_Gamauf, Basics des römischen Rechts, 1.pdf",
+          "kind": "reading"
+        },
+        {
+          "id": "EXG2",
+          "unit": "07.10. Introduction",
+          "title": "Basics of Roman law II (Gamauf)",
+          "file": "2_1. Introduction Sources and Method/3_Gamauf, Basics des römischen Rechts, 2.pdf",
+          "kind": "reading"
+        },
+        {
+          "id": "EXG3",
+          "unit": "07.10. Introduction",
+          "title": "Basics of Roman law III (Gamauf)",
+          "file": "2_1. Introduction Sources and Method/4_Gamauf, Basics des römischen Rechts, 3.pdf",
+          "kind": "reading"
+        },
+        {
+          "id": "EXME",
+          "unit": "Method",
+          "title": "How to write an exegesis",
+          "kind": "summary",
+          "readyBy": "2026-10-14",
+          "note": "Struktura exegeze, bodování, checklist + 3 vzorové exegeze (D 41.2.13 pr possession → 14.10, D 12.1.18 pr traditio → 21.10, Gai. 2.78 accessio → 28.10). Zdroj metody: EXEGESIS.pdf a studocu poznámky (jen vodítko), doktrína z Benke/Meissel."
+        }
+      ]
+    }
+  ],
+  "schedule": {
+    "2026-10-07": "Introduction: Sources and Method",
+    "2026-10-14": "Property; possession",
+    "2026-10-21": "Property; acquisition through traditio",
+    "2026-10-28": "Property; acquisition through accessio",
+    "2026-11-04": "Assessment I",
+    "2026-11-11": "Assessment I Feedback",
+    "2026-11-18": "Obligations; real contracts",
+    "2026-11-25": "Obligations; sale, partial impossibility",
+    "2026-12-02": "Obligations; sale, warranty",
+    "2026-12-09": "Obligations; mandatum",
+    "2026-12-16": "Obligations; Lex Aquilia / surety",
+    "2027-01-13": "Assessment II"
+  },
+  "learnOrder": true
+}

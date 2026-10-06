@@ -1,0 +1,1103 @@
+{
+  "lecture_id": "EXME",
+  "title": "How to write an exegesis",
+  "free_sections": true,
+  "slides": {
+    "1": {
+      "title": "Course and assessment",
+      "text": "Course 030116-1 PKU Exegesis of Justinian's Digest (2026W), Bachelor International Legal Studies. Teacher: Univ.-Ass. (Post-Doc) Dr. Kyriaco Nikias, Institut für Römisches Recht und Antike Rechtsgeschichte. Wednesdays 9–10 am, Hörsaal U14 Juridicum. Taught in English. The programme says changes may be made.\n\n### Programme\n\n| Date | Topic |\n|---|---|\n| 07.10.2026 | Introduction: Sources and Method |\n| 14.10.2026 | Property; possession |\n| 21.10.2026 | Property; acquisition through traditio |\n| 28.10.2026 | Property; acquisition through accessio |\n| 04.11.2026 | ASSESSMENT I |\n| 11.11.2026 | Assessment I Feedback |\n| 18.11.2026 | Obligations; real contracts |\n| 25.11.2026 | Obligations; sale, partial impossibility |\n| 02.12.2026 | Obligations; sale, warranty |\n| 09.12.2026 | Obligations; mandatum |\n| 16.12.2026 | Obligations; Lex Aquilia / surety |\n| 13.01.2027 | ASSESSMENT II |\n\n### Aim of the course\nTo learn the technique of exegesis: writing a structured and sustained commentary on a selected extract from the Digest of Justinian, i.e. interpreting and deconstructing the literary devices and doctrinal techniques used in legal argumentation. The course prepares for the FÜM 1.\n\n### Assessment (official programme)\nTwo written assessments. Each is an exegesis of a given Digest excerpt, in the same format as in the FÜM 1. The doctrinal content follows the core courses in the Roman law of property and obligations. The final grade is the AVERAGE of the two assessments; active participation INCREASES the final grade; regular attendance is expected. How long an assessment lasts is not stated in the programme.\n\n### Reading list (official programme)\nBenke/Meissel, Roman Law of Property (Manz 2019, trans. Grasl) and Roman Law of Obligations (Manz 2021). Recommended, in German only: Halbwachs (ed.), Gesammelte Prüfungsfälle und Exegesen Römisches Recht (2018). Recommended translation of the Digest: Alan Watson, The Digest of Justinian (4 vols, 2009, University of Pennsylvania Press). Page references in this lesson are to the transcript of Benke/Meissel, Roman Law of Property, 2nd ed. 2024 (trans. Draschan-Mitwalsky); the programme lists the 2019 edition, so page numbers may differ slightly.\n\n### What is expected (Benke/Meissel ch. XV, pp. 259–263)\nIn the FÜM 1 (180 minutes, three modules) the Roman-law part takes 120 minutes and is worth 120 points; the exegesis is usually worth 28 points (p. 259). An exam exegesis has three aims: INTERPRETING a legal text, EXPLAINING AND GIVING REASONS for a decision that is already given, and APPLYING AND DEMONSTRATING your knowledge of Roman law (p. 260). The key difference from solving a case: in a case you reach a solution yourself; in an exegesis you explain the Roman jurist's decision that is already in the text (p. 262). Student notes say the same thing: you do NOT need to solve the problem yourself. Write as a teacher or legal adviser who makes the decision understandable and plausible to a LAY PERSON within the Roman legal system, going into the central problems at some length but without digressing (p. 263). The scholarly side of exegesis (comment on the author and the genre of the work from the INSCRIPTIO, the original palingenetic context, textual criticism of interpolations) stays in the background in an exam (pp. 259–260).",
+      "terms": [
+        {
+          "term": "Exegesis",
+          "def": "Interpretation and explanation of a text; in Roman law usually of a decision by a classical jurist from the Digest ('digest exegesis'), Benke/Meissel p. 260."
+        },
+        {
+          "term": "FÜM 1",
+          "def": "The written multidisciplinary module exam at the University of Vienna; its Roman-law part has 120 minutes and 120 points, and the exegesis is usually worth 28 points (p. 259)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "When are Assessment I and Assessment II in the Digest exegesis course (030116, 2026W)?",
+          "a": "Assessment I: Wednesday 4 November 2026; Assessment II: Wednesday 13 January 2027.\n• 11 November 2026 = Assessment I Feedback\n• Both are written exegeses of a given Digest excerpt",
+          "difficulty": 1,
+          "kind": "cisla",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "How is the final grade in the Digest exegesis course calculated?",
+          "a": "As the AVERAGE of the two written assessments.\n• Active participation increases the final grade\n• Regular attendance is expected",
+          "difficulty": 1,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What format do the two assessments in the Digest exegesis course have?",
+          "a": "Each is a written exegesis of a given Digest excerpt, in the same format as in the FÜM 1.\n• Doctrine follows the core courses in Roman property and obligations (Benke/Meissel)",
+          "difficulty": 1,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Which textbooks set the doctrinal standard for the exegesis course?",
+          "a": "Benke/Meissel, Roman Law of Property (Manz 2019) and Roman Law of Obligations (Manz 2021), trans. Grasl.\n• Recommended (German only): Halbwachs (ed.), Gesammelte Prüfungsfälle und Exegesen Römisches Recht (2018)\n• Recommended Digest translation: Watson, The Digest of Justinian (4 vols, 2009)",
+          "difficulty": 1,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "How much time and how many points does the Roman-law part of the FÜM 1 have, and how much is the exegesis worth?",
+          "a": "120 minutes and 120 points; the exegesis is usually worth 28 points.\n• The whole FÜM 1 lasts 180 minutes and covers three modules (Benke/Meissel p. 259)",
+          "difficulty": 1,
+          "kind": "cisla",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What are the three aims of an exam exegesis according to Benke/Meissel?",
+          "a": "To interpret a legal text, to explain and give reasons for a decision that is already given, and to apply and demonstrate your knowledge of Roman law.\n• It trains the jurist's logical, analytical and linguistic skills (p. 260)",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What is the difference between solving a case and writing an exegesis?",
+          "a": "In a case you reach the solution yourself; in an exegesis you explain the decision a Roman jurist has already given in the text.\n• So you do not solve the problem anew; you classify the decision dogmatically and show the values behind it (p. 262)",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Whose point of view should you take when writing an exegesis?",
+          "a": "A teacher or legal adviser who makes the jurist's decision understandable and plausible to a lay person within the Roman legal system.\n• Go into the central problems at some length, but do not digress (p. 263)",
+          "difficulty": 2,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Which parts of a scholarly exegesis are NOT expected in an exam exegesis?",
+          "a": "Detailed comment on the INSCRIPTIO (the author's biography, the genre of the work), the palingenetic context and textual criticism (interpolations).\n• They belong to seminar or term papers (pp. 259–260)",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "2": {
+      "title": "The structure of an exegesis",
+      "text": "Benke/Meissel (pp. 260–263) divide an exegesis into four steps: 1. facts of the case, 2. legal question, 3. the jurist's decision, 4. interpretation. The interpretation is a list of questions: which institution, which claim, which legal basis, which remedy and which defences, are there similar cases or controversies, and how can the decision be explained dogmatically, including the interests of the parties. The class (student notes from 2025 and EXEGESIS.pdf) uses the same content but in three parts: BASIC PART, INTERPRETATIVE PART and DOGMATIC EXPLANATION. Keep the first three items as brief and concise as possible; they prepare the ground for the interpretation, which is the most important part (p. 262).\n\n### The structure\n\n| Part | Item | What goes there | Typical mistake |\n|---|---|---|---|\n| BASIC | 1. Facts of the case | What happened, who did what to whom. Use A, B, C. Write in plain words that a non-law student would understand. Give the basic case and each variant SEPARATELY. If the jurist leaves facts out, work out the facts he takes for granted from his decision (pp. 261–262). | Writing in legal terms or putting legal conclusions into the facts; mixing the variant into the basic case; copying the text out. |\n| BASIC | 2. Legal question(s) | The legal problem the jurist had to resolve, either stated in the text or implicit in the decision (p. 261). One question for the basic case and one for each variant. The question must fit the facts, and the decision must answer it. | A question the decision does not answer; forgetting the variant; asking a procedural question when the text is about substantive law. |\n| BASIC | 3. Decision / opinion(s) | The JURIST's answer, not yours (p. 261). First find who is writing (the author from the INSCRIPTIO), then who is cited, and whether the cited jurist gives an OPINION or only the facts. List ALL opinions, any controversy, and the variant separately. | Giving the cited jurist's view as the author's; leaving out one opinion; adding your own solution. |\n| INTERPRETATIVE | 4. Legal institution(s) | Place the text in the doctrinal system of Roman law. Name the DOMINANT institution precisely (for example 'acquisition of ownership through TRADITIO', not just 'property law') and define it in 1–2 sentences, without details. Explain the legal terms the text uses (p. 263). | Treating every institution as equally important; writing a long treatise here instead of in the dogmatic part. |\n| INTERPRETATIVE | 5. Claims + legal basis (substantive law) | Who wants what from whom (p. 263)? Think like opposing parties: A v B AND B v A, plus any third party. The claim is WHAT a party wants to achieve in substance; the legal basis is WHY (the argument that supports it). A claim may be implicit. | Giving only one side; confusing the claim (what) with the remedy (ACTIO); a legal basis that only repeats the claim. |\n| INTERPRETATIVE | 6. Remedies + exceptions/defences (procedural law) | The procedural means for the substantive aim: ACTIO or INTERDICTUM, who sues whom; the defendant's EXCEPTIONES and the plaintiff's REPLICATIONES (p. 263). If the text names a remedy, discuss that one; if not, give the remedies and exceptions of the institutions involved. | A list of actions without saying who sues whom; forgetting the defence named in the text; long digressions on extra remedies (student notes 2025: one sentence at most). |\n| DOGMATIC | 7. Similar cases | First look in the text itself (for example the runaway slave in D 41.2.13 pr), then use cases from the textbook. Say briefly what the case decides and how it is similar or different. | Only naming a case without saying how it relates to yours. |\n| DOGMATIC | 8. Controversies | Do the jurists in the text disagree with each other or with other jurists (schools, prevailing opinion)? If they do not, say so. | Seeing a controversy where a jurist is only cited for the facts. |\n| DOGMATIC | 9. Dogmatic explanation | Start with the big picture (the basic principle of the institution) and work down to the specific problem of the text. Then explain each jurist's reasoning and the interests or values behind the decision (p. 263). According to the student notes this part brings the most points. | Solving the case anew; staying general and never reaching the specific problem; digressing. |\n\n### Rough points (caution: these come only from student notes)\n\n| Source | BASIC | INTERPRETATIVE | DOGMATIC |\n|---|---|---|---|\n| EXEGESIS.pdf (student notes) | approx. 6 | approx. 8–10 | approx. 10–15 |\n| Student notes 2025 (class of 19.03.2025) | 6–8 (facts 2, legal question 2, decision 2–4) | 18–20 in total, of which institution 2 and the doctrinal explanation 10–12 | (counted inside the interpretative part) |\n\nThe official figure is only this: in the FÜM 1 the exegesis is usually worth 28 points (Benke/Meissel p. 259). The course programme gives no scoring scheme. Both sets of notes agree that the dogmatic explanation carries the most weight and that the basic part should be short.\n\n### Practical tips from the notes\n• Decision: (1) find the authors, (2) group the opinions and attribute them, (3) go through the text in order.\n• Claims: you can write 'what? why? → what? why?' (claim by claim) or 'what? what? → why? why?'.\n• Benke/Meissel advise you to sketch a brief outline of your points before writing (p. 265 fn 12).",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What are the four steps of an exegesis according to Benke/Meissel?",
+          "a": "1. facts of the case → 2. legal question → 3. the jurist's decision → 4. interpretation.\n• Keep steps 1–3 brief and concise; they prepare the ground for the interpretation, the most important part (p. 262)",
+          "difficulty": 1,
+          "kind": "proces",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What are the three parts of an exegesis as taught in class, and which items does each contain?",
+          "a": "BASIC PART: facts, legal question(s), decision/opinion(s).\n• INTERPRETATIVE PART: legal institution(s), claims + legal basis, remedies + exceptions/defences\n• DOGMATIC EXPLANATION: similar cases, controversies, dogmatic explanation (general → specific)",
+          "difficulty": 1,
+          "kind": "schema",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "In what order do the nine items of an exegesis come?",
+          "a": "Facts → legal question(s) → decision/opinion(s) → legal institution(s) → claims + legal basis → remedies + exceptions → similar cases → controversies → dogmatic explanation.",
+          "difficulty": 1,
+          "kind": "proces",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "How should you write the facts of the case in an exegesis?",
+          "a": "In plain words that a non-law student would understand: who did what, using A, B, C.\n• Give the basic case and each variant separately\n• No legal terms or legal conclusions\n• Work out facts the jurist takes for granted from his decision (pp. 261–262)",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What is the legal question of an exegesis, and what must it fit?",
+          "a": "The legal problem the jurist had to resolve, either stated in the text or implicit in the decision (p. 261).\n• It must fit the facts, and the decision must answer it\n• Write a separate question for each variant",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "How do you find out who is the author of a Digest text and who is only cited?",
+          "a": "The author is the jurist in the INSCRIPTIO (for example 'ULPIAN, Edict, book 72'); jurists named inside the text are cited.\n• Check whether the cited jurist gives an opinion or only raises the question or supplies the facts (Pomponius in D 41.2.13 pr gives no opinion)",
+          "difficulty": 2,
+          "kind": "proces",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Whose decision do you present in the 'decision' part of an exegesis?",
+          "a": "The Roman jurist's, not your own (p. 261).\n• Give all the opinions in the text, including differing ones, and the variant separately",
+          "difficulty": 1,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What goes into the 'legal institution(s)' item of an exegesis?",
+          "a": "The dominant institution, named precisely and defined in 1–2 sentences, which places the text in the doctrinal system.\n• For example 'acquisition of ownership through TRADITIO', not just 'property law'\n• No details here; they belong in the dogmatic explanation\n• According to the 2025 student notes, worth about 2 points",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What is the difference between a claim and a remedy in an exegesis?",
+          "a": "The CLAIM is what a party wants to achieve in substance (substantive law); the REMEDY is the procedural means to achieve it (ACTIO, INTERDICTUM, defended by EXCEPTIO).\n• Example: A wants the stones back (claim) → REI VINDICATIO (remedy)",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What is the difference between a claim and its legal basis?",
+          "a": "The claim is WHAT a party wants from whom; the legal basis is WHY (the argument and rule that support it).\n• Example: B wants to keep the money (claim), because A intended a gift (basis)",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Why do you have to state claims in both directions (A v B and B v A)?",
+          "a": "Because the exegesis looks at the conflict from both sides: even the party who only defends himself has an aim and an argument.\n• Add third parties if there are any (for example a thief)",
+          "difficulty": 2,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Which remedies do you discuss if the text names one, and which if it names none?",
+          "a": "If the text names a remedy, discuss that one; if it does not, give the remedies (and, where possible, the exceptions) of the institutions involved.\n• Always say who sues whom\n• Mention extra remedies in one sentence at most (student notes 2025)",
+          "difficulty": 2,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Which questions does Benke/Meissel's interpretation checklist ask about remedies?",
+          "a": "By which remedy (ACTIO, INTERDICTUM) can the claim be enforced? Who can sue (claimant) and who can be sued (defendant)? Does the defendant have defences (EXCEPTIONES)? Are there counter-pleas (REPLICATIONES)? (p. 263)",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Where do you look for similar cases in an exegesis?",
+          "a": "First in the text itself (for example the runaway slave in D 41.2.13 pr), then in the textbook cases.\n• Say briefly what the case decides and how it is similar or different",
+          "difficulty": 2,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What do you write under 'controversies' if the jurists in the text do not disagree?",
+          "a": "Say that there is no controversy in the text, and why (for example, the cited jurist only raises the question).\n• Do not invent one",
+          "difficulty": 2,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "How do you build the dogmatic explanation of an exegesis?",
+          "a": "From general to specific: basic principle of the institution → the specific problem of the text → each jurist's reasoning → the interests and values behind the decision.\n• Similar cases and controversies are discussed here (pp. 262–263)",
+          "difficulty": 2,
+          "kind": "proces",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What are the three functions of dogmatics that Benke/Meissel name (after Mayer-Maly)?",
+          "a": "Checking whether decisions fit accepted legal principles; discovering overarching legal principles; placing the decision within the legal principles of the legal system (p. 262 fn 6).",
+          "difficulty": 3,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "extra"
+        },
+        {
+          "q": "Roughly how many points does each part of an exegesis bring, according to student notes?",
+          "a": "EXEGESIS.pdf: basic approx. 6, interpretative approx. 8–10, dogmatic approx. 10–15.\n• Notes from 2025: basic 6–8 (facts 2, legal question 2, decision 2–4); interpretative 18–20 including institution 2 and doctrinal explanation 10–12\n• Official figure only: the exegesis is usually worth 28 points in the FÜM 1",
+          "difficulty": 1,
+          "kind": "cisla",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Which part of an exegesis brings the most points, and which should be kept short?",
+          "a": "The dogmatic explanation brings the most points; the basic part (facts, legal question, decision) should be brief and concise.",
+          "difficulty": 1,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What are typical mistakes in the basic part of an exegesis?",
+          "a": "Legal terms in the facts; mixing the variant into the basic case; a legal question the decision does not answer; giving the cited jurist's view as the author's; adding your own solution.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What are typical mistakes in the interpretative and dogmatic parts of an exegesis?",
+          "a": "Not naming the dominant institution precisely; claims from one side only; confusing claim and remedy; remedies without 'who sues whom'; solving the case anew; staying general and never reaching the specific problem; digressing.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "3": {
+      "title": "Checklist before handing in",
+      "text": "Go through this list before you hand in.\n\n| Check | Question to ask yourself |\n|---|---|\n| Facts | Plain words, A/B/C, basic case and variant separate, nothing invented, no legal conclusions? |\n| Legal question | One for the basic case and one for each variant; does the decision answer it? |\n| Author | Who writes (INSCRIPTIO)? Who is cited, and for an opinion or only for the facts? |\n| Opinions | All opinions listed and attributed correctly, the author's own view marked? |\n| Institution | Dominant institution named precisely and defined in 1–2 sentences? |\n| Claims | Both directions (A v B, B v A, third parties), each with WHAT and WHY? |\n| Remedies | Every remedy in the text covered, each with who sues whom, and the EXCEPTIO where relevant? |\n| Similar cases | From the text first, then from the textbook, each with the similarity or difference? |\n| Controversies | Named, or 'none in the text' stated explicitly? |\n| Dogmatic | General principle → specific problem → the jurist's reasoning → the interests of the parties? |\n| Language | Latin terms with correct endings ('acquired ANIMO and CORPORE', p. 14)? No new solution of your own? |",
+      "terms": [],
+      "cards": [
+        {
+          "q": "What should you check in the basic part before handing in an exegesis?",
+          "a": "Facts in plain words, with the variant separate; a legal question for each variant that the decision answers; author and cited jurists identified; all opinions attributed correctly.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What should you check in the interpretative and dogmatic parts before handing in an exegesis?",
+          "a": "Dominant institution named and defined; claims in both directions with WHAT and WHY; each remedy with who sues whom and its EXCEPTIO; similar cases from the text first; controversies named or explicitly denied; dogmatic explanation from general to specific, with the interests of the parties.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Exegesis method",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "4": {
+      "title": "How to cite the Digest",
+      "text": "The Digest of Justinian (AD 533) has 50 BOOKS (Watson's translation covers D.1–15 in vol. 1, D.16–29 in vol. 2, D.30–40 in vol. 3 and D.41–50 in vol. 4). Each book is divided into TITLES on one subject (for example D 41.2 'Acquisition and loss of possession'). Each title consists of numbered FRAGMENTS, which are excerpts from the works of individual jurists. Longer fragments are divided into numbered PARAGRAPHS; the first, unnumbered paragraph is the PRINCIPIUM, abbreviated 'pr'.\n\n### Reading a citation\n\n| Citation | Book | Title | Fragment | Paragraph |\n|---|---|---|---|---|\n| D 41.2.13 pr | 41 | 2 | 13 | principium (the opening, unnumbered part) |\n| D 12.1.18 pr | 12 | 1 | 18 | principium |\n| D 20.1.29.2 | 20 | 1 | 29 | 2 |\n\nCourse and student notes write 'D. 41.2.13 pr'; Benke/Meissel write the jurist first and add the case number in their book: 'Ulpianus D 41.2.13 pr (Case 47)'.\n\n### INSCRIPTIO\nEvery fragment begins with a heading, the INSCRIPTIO, which names the JURIST, his WORK and the BOOK of that work from which the compilers took the excerpt. Example from Benke/Meissel (p. 264 fn 8): 'D 20.1.29.2 PAULUS LIBRO QUINTO RESPONSORUM' means book 20, title 1, fragment 29, paragraph 2 of the Digest, taken from the fifth book of the RESPONSA of Paulus. Watson translates the INSCRIPTIO, for example 'ULPIAN, Edict, book 72' (Ulpian's commentary on the edict, book 72) or 'ULPIAN, Disputations, book 7'. The jurist in the INSCRIPTIO is the AUTHOR of the fragment; any other jurist named in the text is cited by him.\n\n### Texts outside the Digest\nGaius' Institutes are not part of the Digest. They are cited by book and section: 'Gai. 2.78' (Benke/Meissel: 'Gai Inst 2.78') = book 2, section 78. Some of Gaius' texts also appear in the Digest (for example Gaius D 41.1.9.1–2 from his 'Common Matters or Golden Things', book 2).\n\n### Where to find the text\nEnglish: Watson (the recommended translation). Latin: student notes recommend searching for 'grenoble roman law', a website with the Latin Digest (student tip, not part of the programme). For a scholarly exegesis Benke/Meissel suggest this outline: text (with the edition used), translation, INSCRIPTIO, interpretation (p. 261 fn 3). This is not needed in the exam.",
+      "terms": [
+        {
+          "term": "PRINCIPIUM (pr)",
+          "def": "The first, unnumbered paragraph of a Digest fragment."
+        },
+        {
+          "term": "INSCRIPTIO",
+          "def": "Heading of a Digest fragment naming the jurist, his work and the book of that work."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What does each part of the citation D 41.2.13 pr mean?",
+          "a": "Digest, book 41, title 2, fragment 13, principium.\n• pr = PRINCIPIUM, the opening, unnumbered paragraph of the fragment",
+          "difficulty": 1,
+          "kind": "schema",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What is the 'principium' (pr) in a Digest citation?",
+          "a": "The first, unnumbered paragraph of a fragment; the numbered paragraphs (.1, .2 …) follow it.\n• D 41.2.13 pr = the beginning of fragment 13; D 41.2.13.1 = its first numbered paragraph",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Into which units is the Digest divided?",
+          "a": "Books → titles → fragments → paragraphs (the first one is the principium).\n• 50 books; a title deals with one subject; a fragment is an excerpt from one jurist's work",
+          "difficulty": 1,
+          "kind": "schema",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What is the INSCRIPTIO of a Digest fragment?",
+          "a": "The heading of the fragment: the jurist, his work and the book of that work from which the compilers took it.\n• Example: 'ULPIAN, Edict, book 72'; 'PAULUS LIBRO QUINTO RESPONSORUM' = the fifth book of Paulus' RESPONSA",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "Who is the author of a Digest fragment, and how do you tell him apart from the jurists he cites?",
+          "a": "The author is the jurist named in the INSCRIPTIO; every other jurist named in the text is cited by him.\n• D 41.2.13 pr: author Ulpian, cited Pomponius",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "What does the citation D 20.1.29.2 mean?",
+          "a": "Digest, book 20, title 1, fragment 29, paragraph 2 (Paulus, RESPONSA book 5; the model exegesis in Benke/Meissel, Case 170).",
+          "difficulty": 1,
+          "kind": "schema",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "How is a passage from Gaius' Institutes cited, for example Gai. 2.78?",
+          "a": "By book and section: Gai. 2.78 (Gai Inst 2.78) = Institutes, book 2, section 78.\n• Gaius' Institutes are not part of the Digest",
+          "difficulty": 1,
+          "kind": "basic",
+          "topic": "Exegesis method",
+          "priority": "core"
+        },
+        {
+          "q": "How many books does the Digest have, and which Watson volume contains books 41–50?",
+          "a": "50 books; Watson vol. 4 contains D.41–50.\n• Vol. 1 D.1–15, vol. 2 D.16–29, vol. 3 D.30–40",
+          "difficulty": 1,
+          "kind": "cisla",
+          "topic": "Exegesis method",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "5": {
+      "title": "Model exegesis 1: D 41.2.13 pr (stones sunk in the Tiber)",
+      "text": "Lesson of 14 October 2026 (Property; possession). Benke/Meissel Case 47 (p. 58).\n\n### Text (Watson, vol. 4, D 41.2.13 pr, pp. 21–22)\nULPIAN, Edict, book 72: Pomponius discusses the question whether, when stones had been sunk in the Tiber in a shipwreck and some time later salvaged, the ownership of them remained intact throughout the time that they were submerged. My view is that I remain owner of them but I do not possess them; the case is not like that of a runaway slave; for the slave is held to be still possessed simply so that he shall not, by his own act, deprive his master of possession; the stones are a different matter.\n\n### BASIC PART\n1. Facts: A's stones were being carried on the river Tiber. The ship sank and the stones lay on the river bed. Some time later they were brought up again. The text does not say who brought them up; the class (student notes 2025) assumes it was another person, B, who wants to keep them.\n2. Legal question: Did A remain OWNER of the stones while they were under water? Did he keep POSSESSION of them? (If B salvaged them: can B keep them?)\n3. Decision: The author is ULPIAN (INSCRIPTIO: Edict, book 72). He cites POMPONIUS only as the one who discussed the question; Pomponius' own answer is not reported, so there is only one opinion. Ulpian: A REMAINS OWNER but DOES NOT POSSESS the stones. He distinguishes the runaway slave: a slave is treated as still possessed so that he cannot, by his own act, deprive his master of possession; the stones are a different matter.\n\n### INTERPRETATIVE PART\n4. Legal institutions: POSSESSIO = factual control over a thing (CORPUS) together with the intention to have it for oneself (ANIMUS POSSIDENDI, ANIMUS REM SIBI HABENDI) (pp. 12–14). DOMINIUM / PROPRIETAS = the property right that gives the owner exclusive control over a thing (p. 68). The dominant topic is the LOSS OF POSSESSION of movables while ownership continues.\n5. Claims: A v B: A wants the stones back as their owner. Legal basis: he never lost ownership; he lost only the factual control (CORPUS), and he never abandoned the stones with the intention of giving up ownership (no DERELICTIO). B v A: B wants to keep the stones as their owner. Legal basis: the stones were ownerless (RES NULLIUS / RES DERELICTA), so he acquired them by OCCUPATIO.\n6. Remedies: A v B: REI VINDICATIO, the owner's action against a possessor who is not the owner; it only works as long as the object exists (pp. 69, 156, 160). B does not need to sue; he simply keeps the stones. Student notes add (one sentence at most) that B, as possessor, could defend his possession with a possessory interdict: for movables the INTERDICTUM UTRUBI (p. 160). This requires IUSTA POSSESSIO, i.e. possession gained NEC VI, NEC CLAM, NEC PRECARIO in relation to A (p. 17), and it gives only a temporary ruling; ownership is decided by the REI VINDICATIO. Caution: the student notes also name an EXCEPTIO IUSTI DOMINII here, but the textbook places that defence against the ACTIO PUBLICIANA (p. 170), not in this case. If B knowingly keeps property that belongs to someone else in order to enrich himself, that is FURTUM (p. 21; a finder must announce the find publicly, p. 127), which gives A the ACTIO FURTI and the CONDICTIO FURTIVA (p. 22).\n\n### DOGMATIC EXPLANATION\n7. Similar cases: In the text itself: the RUNAWAY SLAVE (SERVUS FUGITIVUS). His master keeps possession SOLO ANIMO, as long as no third party takes the slave, so that a valuable slave cannot end his master's possession by his own act (pp. 59–60, citing D 41.2.13 pr). From the textbook: things that are only MISLAID within one's own sphere stay possessed (Paulus D 41.2.3.13, Case 46); things lost outside one's sphere, where one does not know where to look, are no longer possessed (Pomponius D 41.2.25 pr, Case 45); money buried for safekeeping and forgotten stays possessed while nobody interferes (Papinianus D 41.2.44 pr, Case 47a); goods thrown overboard in a storm are no longer possessed but still owned (pp. 55, 126; Iavolenus D 41.1.58, Case 97; Gaius D 41.1.9.8: whoever takes them for gain commits theft).\n8. Controversies: None in the text. Pomponius is cited only for the question.\n9. Dogmatic explanation: Start from the difference between possession (a fact) and ownership (a right) (pp. 12, 68). The text just before ours, Ulpian D 41.2.12.1, says: 'Ownership has nothing in common with possession.' Possession needs CORPUS and ANIMUS to be acquired and to be kept. It ends when the possessor gives up his intention or loses all factual control (p. 55). A movable stays possessed only while it is in its possessor's CUSTODIA, meaning he can lay hands on it at any time or bring it within his reach (pp. 57–58). Stones at the bottom of the Tiber are outside A's reach, so possession is lost. The slave is an exception because possession of slaves does not depend on CUSTODIA: it is kept SOLO ANIMO (pp. 57–59). Ownership, by contrast, is not ended by losing possession. Losing possession unintentionally usually leaves the owner still the owner (p. 55). Ownership ends, for example, by DERELICTIO (giving up possession with the clear intention of giving up ownership, pp. 70–71) or when the thing is so far beyond human reach that this is like its destruction (p. 126, Proculus D 41.1.55). Neither applies here: the stones could be and were recovered, and A did not want to give them up. So the stones never became RES NULLIUS, nobody could acquire them by OCCUPATIO, and A can vindicate them. The interest protected is the owner's: an accident should cost him his factual control, not his right.",
+      "terms": [
+        {
+          "term": "CUSTODIA (possession)",
+          "def": "Control over a movable such that one can lay hands on it at any time or bring it within one's reach; possession of movables lasts only while it exists (pp. 57–58)."
+        },
+        {
+          "term": "SOLO ANIMO",
+          "def": "Keeping possession by intention alone, without factual control; recognised for a runaway slave and, for a time, for land (p. 55)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is POSSESSIO in Roman law?",
+          "a": "Factual control over a thing (CORPUS) combined with the intention to control it (ANIMUS).\n• Possession is a FACT, not a right: it says who actually controls the thing (Benke/Meissel p. 12)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "What do ANIMUS and CORPUS mean as elements of possession?",
+          "a": "ANIMUS = the intention to possess (ANIMUS POSSIDENDI), i.e. to have the thing for oneself (ANIMUS REM SIBI HABENDI); CORPUS = control over the thing.\n• CORPUS can also mean the thing is within one's sphere of influence (p. 14)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "What is ownership (DOMINIUM, PROPRIETAS) in Roman law?",
+          "a": "The property right that gives a person, the owner (DOMINUS), exclusive control over a thing (Benke/Meissel p. 68).",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "How do possession and ownership differ?",
+          "a": "Possession is a FACT (the possessor has the thing and wants it for himself); ownership is a RIGHT (the owner is entitled to have it).\n• Possession is protected temporarily by interdicts; ownership by the REI VINDICATIO\n• Ulpian D 41.2.12.1: 'Ownership has nothing in common with possession'",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "When does possession end?",
+          "a": "When the possessor gives up his intention to possess or loses all factual control over the thing (Benke/Meissel p. 55).\n• Voluntarily: handing it over (TRADITIO) or abandoning it\n• Involuntarily: losing all control",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "How long is possession of a movable kept?",
+          "a": "As long as it is in the possessor's CUSTODIA: he can lay hands on it at any time or bring it within his reach (pp. 57–58).\n• Mislaid at home: still possessed (Case 46); lost outside one's sphere: possession lost (Case 45)",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "What is special about the possession of a runaway slave (SERVUS FUGITIVUS)?",
+          "a": "His master keeps possession SOLO ANIMO, without factual control, as long as no third party takes the slave.\n• Reason: a valuable slave should not be able to end his master's possession by his own act; possession of slaves does not depend on CUSTODIA (pp. 57–59)",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "Does an owner who loses possession unintentionally also lose ownership?",
+          "a": "Usually not: he stays owner (p. 55).\n• Ownership is lost e.g. by DERELICTIO or when the thing is so far beyond human reach that this amounts to destruction (p. 126)",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "What is DERELICTIO?",
+          "a": "The owner gives up possession of his own accord with the clear intention of giving up ownership; the thing becomes RES DERELICTA, which anyone can occupy (pp. 70–71, 126).\n• In case of doubt, dereliction is not assumed",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "What is OCCUPATIO, and which things can be acquired by it?",
+          "a": "Taking possession of an ownerless thing (RES NULLIUS), which makes the taker owner; it is an ORIGINAL mode of acquisition.\n• Wild animals, RES DERELICTAE, treasure (p. 126)\n• Lost things that were not abandoned cannot be occupied (p. 127)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "Do goods thrown overboard in a storm remain their owner's property?",
+          "a": "Yes: only possession is lost, not ownership, because they were not thrown away with the intention of giving them up.\n• Whoever finds and keeps them for gain commits theft (Gaius D 41.1.9.8; Iavolenus D 41.1.58, Case 97; Benke/Meissel pp. 55, 126)",
+          "difficulty": 2,
+          "kind": "basic",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "What is the REI VINDICATIO?",
+          "a": "The civil-law owner's action against the possessor who is not the owner, to get the thing back ('UBI REM MEAM INVENIO, IBI VINDICO').\n• It can be brought against any possessor, but only as long as the thing exists (pp. 22, 156, 160)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "What is IUSTA POSSESSIO, and what does it give the possessor?",
+          "a": "Possession gained neither by force, nor secretly, nor as a revocable grant (NEC VI, NEC CLAM, NEC PRECARIO) in relation to the opponent.\n• It entitles the possessor to possessory interdicts, which give only temporary protection (p. 17)",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "Which possessory interdicts decide who possesses a movable thing and who possesses land?",
+          "a": "INTERDICTUM UTRUBI for movables (it protects whoever had IUSTA POSSESSIO for the longer time in the last year); INTERDICTUM UTI POSSIDETIS for land (it protects the last IUSTUS POSSESSOR) (p. 160).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "What does Ulpian say in D 41.2.12.1 about ownership and possession?",
+          "a": "'Ownership has nothing in common with possession': someone who brings a vindicatio for land is not refused the interdict UTI POSSIDETIS, because claiming ownership does not mean giving up possession.",
+          "difficulty": 2,
+          "kind": "judikat",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — What are the facts of the case?",
+          "a": "A's stones sank in the Tiber in a shipwreck and were brought up some time later.\n• The text does not say by whom; the class assumes a third person B who wants to keep them",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — What is the legal question?",
+          "a": "Did A remain owner of the stones while they lay under water, and did he keep possession of them?\n• (If B salvaged them: can B keep them?)",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — Who is the author, who is cited, and is there more than one opinion?",
+          "a": "Author: Ulpian (Edict, book 72). Cited: Pomponius, only as the jurist who discussed the question.\n• Only one opinion, Ulpian's; Pomponius' answer is not reported",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — What does Ulpian decide?",
+          "a": "A REMAINS OWNER of the stones but DOES NOT POSSESS them.\n• The runaway slave is different: he is treated as still possessed so that he cannot end his master's possession by his own act",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — Which legal institutions are involved?",
+          "a": "POSSESSIO (CORPUS + ANIMUS) and DOMINIUM (exclusive right over a thing); the specific topic is the loss of possession of movables while ownership continues.",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — What are the claims and their legal basis?",
+          "a": "A v B: return of the stones as owner, because he lost only CORPUS and did not abandon them (no DERELICTIO).\n• B v A: to keep them as owner, because they were ownerless (RES NULLIUS) and he acquired them by OCCUPATIO",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — Which remedies and defences are relevant?",
+          "a": "A v B: REI VINDICATIO (owner v possessor who is not the owner).\n• B, as possessor, can defend his possession by possessory interdict (UTRUBI for movables), which needs IUSTA POSSESSIO in relation to A and decides possession only temporarily\n• If B keeps the stones knowingly for gain: FURTUM, which gives A the ACTIO FURTI and the CONDICTIO FURTIVA",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — Which similar case is in the text itself, and how does it differ?",
+          "a": "The runaway slave (SERVUS FUGITIVUS): his master keeps possession SOLO ANIMO, so that the slave cannot end it by his own act.\n• Stones have no will of their own and are kept only through CUSTODIA, so possession of them is lost",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — Which textbook cases on keeping or losing possession of movables can you compare?",
+          "a": "Paulus D 41.2.3.13 (Case 46): mislaid within one's sphere, still possessed.\n• Pomponius D 41.2.25 pr (Case 45): lost outside one's sphere, possession lost\n• Papinianus D 41.2.44 pr (Case 47a): buried money forgotten, still possessed\n• Jettisoned goods (Case 97): possession lost, ownership kept",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — Is there a controversy?",
+          "a": "No. Pomponius is cited only for the question; only Ulpian's view is given.",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        },
+        {
+          "q": "D 41.2.13 pr — How do you explain Ulpian's decision dogmatically?",
+          "a": "Possession (a fact) needs CORPUS + ANIMUS; for movables CORPUS = CUSTODIA. Sunk stones are out of reach, so possession is lost.\n• Ownership (a right) is not ended by losing possession unintentionally; it would end only by DERELICTIO or by something like destruction. Neither applies: the stones were recoverable and A did not want to give them up\n• So the stones never became RES NULLIUS, nobody could occupy them, and A can vindicate them",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Possession — D 41.2.13 pr",
+          "priority": "core",
+          "readyBy": "2026-10-14"
+        }
+      ],
+      "vision_used": false
+    },
+    "6": {
+      "title": "Model exegesis 2: D 12.1.18 pr (gift received as a loan)",
+      "text": "Lesson of 21 October 2026 (Property; acquisition through TRADITIO). Benke/Meissel Case 71 (pp. 88–89).\n\n### Text (Watson's translation of D 12.1.18 pr)\nULPIAN, Disputations, book 7: If I give you money as a gift but you receive it as a loan for consumption, Julian writes that there is no gift. But it is a loan for consumption? In my view, it is not. Furthermore, the property in the coins does not pass to the recipient, albeit his belief at the time of the receipt was the contrary. If he uses up the money, the condictio lies against him, but he will be able to meet it with the defense of fraud on the ground that it was in accordance with the will of the giver that the coins were used.\n\n(Note on the source: the course scan of Watson vol. 1 lacks the page with D 12.1.13–19; the PDF repeats p. 359 in place of p. 360. The text above is taken from EXEGESIS.pdf and the 2025 student notes, which both give it word for word in Watson's wording.)\n\n### BASIC PART\n1. Facts: A hands money to B. A means it as a GIFT; B takes it believing it is a LOAN FOR CONSUMPTION, which he will have to repay. Variant: B uses up the money.\n2. Legal question: Is the transfer a gift or a loan, given that the parties do not agree? Does B become owner of the coins, i.e. is there a valid IUSTA CAUSA TRADITIONIS? Variant: once B has used up the money, can A demand it back?\n3. Decision: The author is ULPIAN (Disputations, book 7). He cites JULIAN, who says there is NO GIFT. Ulpian agrees and adds that it is NOT A LOAN either. OWNERSHIP of the coins DOES NOT PASS, even though B believed it did. Variant: if B uses up the money, A has the CONDICTIO, but B can defeat it with the EXCEPTIO DOLI, because using the coins was what the giver wanted. The text does not say what Julian thought about the loan. The student notes disagree here: one set reads Julian as treating it as a loan, the other leaves it open. Julian's own position appears in D 41.1.36 (see below).\n\n### INTERPRETATIVE PART\n4. Legal institutions: The dominant institution is the acquisition of ownership through TRADITIO and, specifically, its requirement of a IUSTA CAUSA. TRADITIO = an informal, CAUSAL transfer of ownership with three requirements: (1) ownership or authority of disposal, (2) transfer of possession, (3) IUSTA CAUSA (pp. 84–85). The possible causae here are DONATIO (gift: a permanent transfer without anything in return) and MUTUUM (loan for consumption: the borrower becomes owner and returns the same kind and amount, D 12.1.2). In Roman law both come into being when the thing is delivered between parties who agree (pp. 86–88).\n5. Claims: A v B: return of the money (or its value). Legal basis: TRADITIO failed for lack of a IUSTA CAUSA, so A is still owner, or, once the coins are used up, B has been enriched without a valid cause. B v A: to keep the money without repaying it. Legal basis: A himself wanted B to have it as a gift. Demanding it back contradicts A's own earlier conduct (VENIRE CONTRA FACTUM PROPRIUM, p. 86).\n6. Remedies: Named in the text: the CONDICTIO, A v B, an action for unjust enrichment (p. 83), once B has used the money; against it, B has the EXCEPTIO DOLI (defence of fraud, p. 159). In addition, according to Benke/Meissel: as long as B has not used the coins, A is still owner and could bring a REI VINDICATIO (p. 89).\n\n### DOGMATIC EXPLANATION\n7. Similar cases: JULIAN D 41.1.36 (Case 70): the same facts (money given as a gift, received as a loan). Julian holds that the disagreement about the grounds is no barrier to ownership passing. Same fragment: land delivered by A, who thinks he owes it under a will, and received by B, who thinks it is due under a stipulation; the delivery is effective. IAVOLENUS D 39.5.25 (Case 68): T gives E's thing to Titius as a gift in his own name instead of E's. Titius does not become owner, but he can resist E's REI VINDICATIO with an EXCEPTIO DOLI because E wanted Titius to have the thing anyway (pp. 85–86).\n8. Controversies: Julian and Ulpian agree that there is no gift. They disagree on whether OWNERSHIP passes. Julian (D 41.1.36) says yes: the parties agree on the key point, a transfer without anything in return, and this common ground counts as a IUSTA CAUSA. Ulpian, writing about two generations later at the end of the classical period, takes a much stricter view: there is no agreement on either gift or loan, so there is no IUSTA CAUSA and B does not acquire ownership derivatively (p. 88).\n9. Dogmatic explanation: Unlike MANCIPATIO and IN IURE CESSIO, which are abstract, TRADITIO is CAUSAL: the transfer itself (MODUS) moves ownership only if a valid underlying ground (TITULUS, CAUSA) supports it (pp. 83–85). The most important IUSTAE CAUSAE TRADITIONIS are sale, loan for consumption, gift and dowry (p. 85). One student note speaks of 'five' causae; the textbook names these four as the most important. In our case requirements (1) and (2) are met, so the only problem is (3): the parties disagree about the causa. For Ulpian, without agreement there is no IUSTA CAUSA, so ownership stays with A. A MUTUUM cannot arise either, because a loan for consumption requires that 'what is mine becomes yours' (D 12.1.2.2). What happens next: when B uses up the coins, mixing them indistinguishably with his own or spending them in good faith (NUMMOS CONSUMERE), he acquires ORIGINAL ownership (pp. 89, 142). A's ownership is then gone (p. 160), so instead of the REI VINDICATIO A has the CONDICTIO for unjust enrichment. That claim, however, contradicts A's own wish to give, so the EXCEPTIO DOLI defeats it. In practice B keeps the money, the same result as Julian's, but by a different dogmatic route that keeps the IUSTA CAUSA requirement strict. (The textbook sets this out step by step; the comparison of the two results is our own summary.) Modern law: Julian's idea that agreement on the transfer of ownership is enough is the basis of the abstract system of the German BGB (§ 929); Austrian law (§ 380 ABGB) follows the causal system of TITULUS and MODUS (pp. 85, 88).",
+      "terms": [
+        {
+          "term": "IUSTA CAUSA TRADITIONIS",
+          "def": "A valid legal ground (TITULUS) justifying the transfer of ownership by TRADITIO, e.g. sale, loan for consumption, gift, dowry (p. 85)."
+        },
+        {
+          "term": "NUMMOS CONSUMERE",
+          "def": "Using up another person's coins by mixing them indistinguishably with one's own or spending them in good faith; it gives original ownership (p. 142)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is TRADITIO?",
+          "a": "An informal transfer of ownership by handing over possession on the basis of a valid legal ground; it is CAUSAL.\n• For civil-law ownership it is suitable only for RES NEC MANCIPI (Benke/Meissel pp. 84–85)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "What are the three requirements for acquiring ownership by TRADITIO?",
+          "a": "1. Ownership or authority of disposal of the transferor (NEMO PLUS IURIS TRANSFERRE POTEST QUAM IPSE HABET)\n2. Transfer of possession\n3. IUSTA CAUSA (TITULUS), a valid legal ground (pp. 84–85)",
+          "difficulty": 1,
+          "kind": "znaky",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "What is a IUSTA CAUSA TRADITIONIS, and which are the most important ones?",
+          "a": "A valid ground recognised by law that justifies the transfer of ownership (= TITULUS).\n• Most important: sale, loan for consumption (MUTUUM), gift (DONATIO), dowry (p. 85)\n• (One student note speaks of five causae; the textbook names these four as the most important)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "How does TRADITIO differ from MANCIPATIO and IN IURE CESSIO?",
+          "a": "TRADITIO is informal and CAUSAL (it needs a IUSTA CAUSA); MANCIPATIO and IN IURE CESSIO are formal and ABSTRACT (ownership passes even without a valid causa; the transferor then has a CONDICTIO) (pp. 83–85).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "What do TITULUS and MODUS mean in the transfer of ownership?",
+          "a": "TITULUS (CAUSA) = the underlying legal ground (e.g. sale, gift); MODUS = the act of transfer (e.g. TRADITIO).\n• In a causal system ownership passes only if both are present (§ 380 ABGB; p. 85)",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "What is MUTUUM (loan for consumption)?",
+          "a": "A loan of things dealt in by weight, number or measure (e.g. money): the borrower becomes OWNER and must return the same kind and amount, not the same things.\n• 'Mutuum' comes from 'meum' and 'tuum': what is mine becomes yours; if it does not become yours, the obligation does not arise (Paul D 12.1.2 pr–2)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "How do DONATIO and MUTUUM differ, and what do they have in common?",
+          "a": "Both transfer ownership without anything in return at the time of delivery; DONATIO is PERMANENT, while under MUTUUM the recipient must pay back the same amount later.\n• Both come into being upon delivery between consenting parties (pp. 86–88)",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "What is a CONDICTIO?",
+          "a": "A claim to reverse a shift of assets that is not, or no longer, justified (unjust enrichment), e.g. after a transfer without a valid causa (pp. 22, 83).",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "What is the EXCEPTIO DOLI?",
+          "a": "The defendant's defence that the plaintiff has acted or is acting with fraudulent intent: 'SI IN EA RE NIHIL DOLO MALO AULI AGERII FACTUM SIT NEQUE FIAT'.\n• EXCEPTIO DOLI PRAETERITI (SPECIALIS): fraud in the past\n• EXCEPTIO DOLI PRAESENTIS (GENERALIS): bringing the claim is itself a breach of faith (p. 159)",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "What does VENIRE CONTRA FACTUM PROPRIUM mean?",
+          "a": "Acting against one's own earlier conduct: someone unexpectedly changes his mind and so breaks the trust his own conduct created; Roman law counters it with the EXCEPTIO DOLI (pp. 86, 89).",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "How can someone acquire ownership of another person's coins without any transfer?",
+          "a": "ORIGINALLY, by using them up (NUMMOS CONSUMERE): mixing them indistinguishably with his own money, or spending them in good faith.\n• The former owner then has no REI VINDICATIO, only a claim such as the CONDICTIO (pp. 89, 142)",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "What does Julian hold in D 41.1.36 about disagreement on the causa of a delivery?",
+          "a": "If the parties agree on the thing delivered but differ over the grounds, the delivery is still effective.\n• Land owed under a will (in A's view) or under a stipulation (in B's view): ownership passes\n• Money given as a gift and received as a loan: ownership passes (Case 70)",
+          "difficulty": 2,
+          "kind": "judikat",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "What does Iavolenus decide in D 39.5.25 (gift handed over in the wrong name)?",
+          "a": "T was to give E's thing to Titius as a gift in E's name but gave it in his own name: Titius does not become owner (T lacked authority), yet he can ward off E's REI VINDICATIO with the EXCEPTIO DOLI, because E wanted Titius to have it ('BENIGNIUS EST'; Case 68).",
+          "difficulty": 3,
+          "kind": "judikat",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — What are the facts of the case?",
+          "a": "A gives B money intending a gift; B accepts it believing it is a loan for consumption.\n• Variant: B uses up the money",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — What is the legal question?",
+          "a": "Is the transfer a gift or a loan, and does B become owner of the coins when the parties disagree about the causa (IUSTA CAUSA TRADITIONIS)?\n• Variant: once B has used up the money, can A demand it back?",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — Who is the author, and whom does he cite for what?",
+          "a": "Author: Ulpian (Disputations, book 7). He cites Julian for the view that there is no gift.\n• Ulpian adds his own views: not a loan, no transfer of ownership, condictio blocked by the exceptio doli",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — What does Ulpian decide?",
+          "a": "No gift (with Julian) and no loan for consumption; ownership of the coins does not pass, whatever B believed.\n• If B uses up the money: A has the CONDICTIO, but B defeats it with the EXCEPTIO DOLI, because using the coins was what the giver wanted",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — Which legal institutions are involved?",
+          "a": "Mainly: acquisition of ownership through TRADITIO, specifically the requirement of a IUSTA CAUSA.\n• Possible causae: DONATIO and MUTUUM; further: CONDICTIO, EXCEPTIO DOLI, original acquisition of money by use",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — What are the claims and their legal basis?",
+          "a": "A v B: return of the money, because TRADITIO failed for lack of a IUSTA CAUSA (A is still owner) or, after use, because B has been enriched without a valid cause.\n• B v A: keep the money, because A himself intended a gift; asking for it back contradicts his own conduct (VENIRE CONTRA FACTUM PROPRIUM)",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — Which remedies and defences are relevant?",
+          "a": "A v B: CONDICTIO (unjust enrichment) once the money is used up, as the text says; before that, according to Benke/Meissel, a REI VINDICATIO because A is still owner.\n• B v A: EXCEPTIO DOLI against the condictio",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — Which similar cases do you discuss?",
+          "a": "Julian D 41.1.36 (Case 70): the same facts, but ownership passes; also land owed under a will or a stipulation.\n• Iavolenus D 39.5.25 (Case 68): gift in the wrong name; no ownership, but the EXCEPTIO DOLI protects the recipient",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — What is the controversy between Julian and Ulpian?",
+          "a": "Both agree there is no gift. Julian (D 41.1.36): ownership PASSES, because agreement on a transfer without anything in return is enough of a IUSTA CAUSA.\n• Ulpian (about two generations later, end of the classical period): stricter; no agreement on gift or loan, so no IUSTA CAUSA and no transfer of ownership (p. 88)",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — How do you explain Ulpian's decision dogmatically?",
+          "a": "TRADITIO is causal; authority and delivery are present, so the only problem is the IUSTA CAUSA, and the parties' disagreement means there is none. Ownership stays with A, and no MUTUUM arises ('what is mine becomes yours').\n• When B uses up the coins, he acquires ORIGINAL ownership (NUMMOS CONSUMERE), so A has the CONDICTIO instead of the REI VINDICATIO\n• The condictio contradicts A's own will to give, so the EXCEPTIO DOLI blocks it",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        },
+        {
+          "q": "D 12.1.18 pr — Why does A have the CONDICTIO and not the REI VINDICATIO once B has used up the coins?",
+          "a": "Using up the coins (mixing or spending) gives B ORIGINAL ownership, so A is no longer owner and cannot vindicate; what remains is a claim for unjust enrichment, the CONDICTIO (pp. 89, 142, 160).",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Traditio — D 12.1.18 pr",
+          "priority": "core",
+          "readyBy": "2026-10-21"
+        }
+      ],
+      "vision_used": false
+    },
+    "7": {
+      "title": "Model exegesis 3: Gai. 2.78 (TABULA PICTA)",
+      "text": "Lesson of 28 October 2026 (Property; acquisition through ACCESSIO). Benke/Meissel Case 111 (p. 136).\n\n### Text (Gai. 2.78, trans. de Zulueta 1946, as given in EXEGESIS.pdf and the 2025 student notes)\nIf, however, anyone paints anything on a tablet belonging to me, as for instance, a portrait, the contrary rule is adopted, for it is said that the tablet is accessory to the painting; but a good reason for this difference hardly exists. According to this rule it is certain that if you bring an action for the portrait as yours, while I am in possession of the same, and you do not pay me the value of the tablet, you can be barred by an exception on the ground of fraud. But, if, you are in possession, the result will be that I should be granted an equitable action against you, in which instance unless I pay the expenses of the painting, you can bar me by an exception on the ground of fraud, just as if you were a possessor in good faith. It is clear that if either you, or anyone else should steal the tablet, I will be entitled to an action of theft.\n\nLatin: Sed si in tabula mea aliquis pinxerit veluti imaginem, contra probatur: magis enim dicitur tabulam picturae cedere. Cuius diversitatis vix idonea ratio redditur. Certe secundum hanc regulam si me possidente petas imaginem tuam esse nec solvas pretium tabulae, poteris per exceptionem doli mali summoveri; at si tu possideas, consequens est, ut utilis mihi actio adversum te dari debeat; quo casu nisi solvam inpensam picturae, poteris me per exceptionem doli mali repellere, utique si bonae fidei possessor fueris. Illud palam est, quod sive tu subripueris tabulam sive alius, conpetit mihi furti actio.\n\n### BASIC PART\n1. Facts: A paints a picture (for example a portrait) on a wooden tablet that belongs to B. Variant 1: B has the painted tablet and A claims it. Variant 2: A has it and B claims it. Variant 3: A or a third person C steals the tablet.\n2. Legal question: Who is OWNER of the painted tablet (TABULA PICTA), the painter or the owner of the tablet? Which remedies and defences do the parties have, depending on who possesses it? Who can sue for theft?\n3. Decision: The author is GAIUS (Institutes, book 2, a textbook); he cites no other jurist by name. He reports the opinion of his time ('it is said'): the TABLET is ACCESSORY to the PAINTING, the opposite of the rule for writing in the paragraph before. Gaius himself criticises it: 'a good reason for this difference hardly exists'. The consequences under this rule: (1) B possesses and A claims the picture as his without paying for the tablet: A is barred by the EXCEPTIO DOLI. (2) A possesses: B is given an ACTIO UTILIS against A, and unless B pays the cost of the painting, A bars him with the EXCEPTIO DOLI. (3) Whether A or anyone else steals the tablet, B has the ACTIO FURTI.\n\n### INTERPRETATIVE PART\n4. Legal institutions: Acquisition of ownership by ACCESSIO, a 'natural', original mode of acquisition. Rule: ACCESSIO CEDIT PRINCIPALI. If an addition is inseparably joined to a main thing, the whole follows the legal fate of the main thing; its owner acquires the addition and must compensate its former owner (p. 132). Within this, the accession of movables and the TABULA PICTA as the only exception to the usual way of telling the main thing from the addition (pp. 134–136).\n5. Claims: A v B: ownership and handover of the painted tablet. Legal basis: the prevailing opinion that the tablet accedes to the painting, because the artistic work prevails. A v B (if B is owner, as Gaius thinks): compensation for his work and material. Legal basis: he has made the composite more valuable (p. 134). B v A: ownership of the painted tablet. Legal basis: ACCESSIO CEDIT PRINCIPALI, the tablet as the main thing, as with writing on paper (Gaius' own view). B v A (under the prevailing opinion): at least the value of the tablet. Legal basis: he lost his ownership of it. B v thief: a penalty for the theft.\n6. Remedies (the text names them): A v B (B possesses): REI VINDICATIO by the painter as owner; B's defence: EXCEPTIO DOLI until he is paid the value of the tablet (p. 136). B v A (A possesses): ACTIO UTILIS, an action the praetor grants by analogy with an existing action (pp. 136, 153–154); A's defence: EXCEPTIO DOLI until he is paid the cost of the painting. Benke/Meissel conclude from this defence that B asks for the HANDOVER OF THE PAINTING, not just money for the tablet (p. 136). EXEGESIS.pdf instead reads the ACTIO UTILIS as a claim for the value of the tablet; follow the textbook. B v thief (A or C): ACTIO FURTI, a penal action (p. 22).\n\n### DOGMATIC EXPLANATION\n7. Similar cases: WRITING (SCRIPTURA): Gaius D 41.1.9.1 (Case 110) says letters, even gold letters, accede to the paper or parchment. The paper's owner owns the finished work; if he claims it, the writer in possession can resist with the EXCEPTIO DOLI until his costs are paid (p. 135; in D 41.1.9.1 on condition that he acquired the materials in good faith). The Digest version of our rule, Gaius D 41.1.9.2 (Watson): 'Pictures do not accede to the tablets … the tablet accedes to the picture.' The tablet's owner gets an ACTIO UTILIS against the painter in possession if he pays the cost of the painting; a painter who possessed in good faith gets a direct VINDICATIO if he pays the value of the tablet. Paulus D 6.1.23.3 (Case 112): the later, uniform view, under which the picture accedes to the tablet. The statue's arm (Paulus D 6.1.23.5, Case 113): soldered = separable connection; welded = inseparable, so the arm accedes to the statue. Welding similar metals (Pomponius D 41.1.27.2, Case 114).\n8. Controversies: The prevailing opinion in Gaius' time (the tablet accedes to the painting, so the painter becomes owner) against Gaius himself, who sees no good reason to treat painting differently from writing. By the late classical period Gaius' line, based on whether the thing can be the object of a REI VINDICATIO, had become universally accepted (Paulus D 6.1.23.3; p. 136). Proculians and Sabinians are not mentioned in this text.\n9. Dogmatic explanation: ACCESSIO CEDIT PRINCIPALI applies only where things belonging to different owners are INSEPARABLY connected (p. 132). Which thing is the main one follows from Roman procedure: only a thing that can be brought before the court on its own can be the object of a REI VINDICATIO. Ink letters on parchment cannot exist on their own, so they are mere additions (p. 133). Value and labour do not decide the question: wool dyed with expensive purple still belongs to the owner of the wool (p. 134). By this logic a painting would accede to the tablet. The TABULA PICTA is the only exception: the painter's artistic contribution is allowed to override this procedural test, so the painter becomes owner (pp. 134, 136). Whoever loses ownership by accession must be compensated (pp. 132, 134). If he possesses the composite, he holds on to it with the EXCEPTIO DOLI against the owner's REI VINDICATIO; if he does not, he needs an action, here the ACTIO UTILIS. So both parties end up compensated: the tablet's owner for the tablet, the painter for his costs. Gaius' criticism is about consistency: why should painting be treated differently from writing?",
+      "terms": [
+        {
+          "term": "ACCESSIO CEDIT PRINCIPALI",
+          "def": "The addition follows the main thing: whoever owns the main thing acquires what is inseparably joined to it (p. 132)."
+        },
+        {
+          "term": "TABULA PICTA",
+          "def": "A picture painted on another's panel; under the opinion reported in Gai. 2.78 the panel accedes to the painting (p. 136)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is ACCESSIO, and what does the rule ACCESSIO CEDIT PRINCIPALI mean?",
+          "a": "The addition of something to a thing. If an addition is INSEPARABLY joined to a main thing (RES PRINCIPALIS), the whole follows the main thing: its owner acquires the addition.\n• Original, 'natural' mode of acquisition; the former owner of the addition must be compensated (Benke/Meissel p. 132)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "When is a connection 'inseparable' for the purpose of ACCESSIO?",
+          "a": "When separating the parts would cause considerable damage or need disproportionate technical effort (the parts penetrate each other).\n• Welding (FERRUMINATIO) = inseparable; soldering (ADPLUMBATIO) = separable (pp. 132–133, 136–137)",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "What happens in property law if the connection between two things is separable?",
+          "a": "Nothing: each owner keeps his ownership. Separation can be demanded by the ACTIO AD EXHIBENDUM, after which each owner can bring a REI VINDICATIO (p. 133).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "How do Roman jurists decide which thing is the main thing and which is the addition?",
+          "a": "By whether the thing can be brought before the court on its own as the object of a REI VINDICATIO, and by ordinary language (a 'statue with an arm').\n• Value and labour do NOT decide: dyed purple wool still belongs to the owner of the wool (pp. 133–134)",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "What does SUPERFICIES SOLO CEDIT mean?",
+          "a": "Whatever is inseparably connected to land follows the land's legal fate; the land is always the main thing.\n• It is the historical origin of ACCESSIO CEDIT PRINCIPALI (pp. 132, 137)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "What is the TABULA PICTA, and why is it an exception?",
+          "a": "A picture painted on someone else's wooden panel. Under the opinion current in Gaius' time the panel accedes to the painting, so the painter becomes owner.\n• It is the only exception to the procedural (REI VINDICATIO) test for telling the main thing from the addition: the artistic contribution prevails (pp. 134, 136)",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Who owns writing on someone else's paper or parchment (SCRIPTURA)?",
+          "a": "The owner of the paper or parchment, even if the letters are of gold; the writing is a mere addition.\n• If the paper's owner claims it from a writer in possession, the writer can use the EXCEPTIO DOLI until his costs are paid; D 41.1.9.1 adds: if he acquired the materials in good faith (Gaius D 41.1.9.1, Case 110; p. 135)",
+          "difficulty": 1,
+          "kind": "basic",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "How does a person who has lost ownership through ACCESSIO get compensation?",
+          "a": "It depends on possession. If he possesses the composite, he resists the owner's REI VINDICATIO with the EXCEPTIO DOLI until he is compensated. If he does not possess it, he sues: ACTIO IN FACTUM (acquirer in good faith) or CONDICTIO FURTIVA (acquirer with larcenous intent) (pp. 134–135).",
+          "difficulty": 3,
+          "kind": "proces",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "What are the ACTIO UTILIS and the ACTIO IN FACTUM?",
+          "a": "Actions the praetor grants where the edict has no action for the claim but he considers it justified; he takes the closest existing action as a model and creates a new one by analogy (pp. 136, 153–154).\n• ACTIO IN FACTUM: its formula begins with the concrete facts",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "What are the ACTIO FURTI and the CONDICTIO FURTIVA?",
+          "a": "Both are actions of the victim of a FURTUM. ACTIO FURTI = a penal action for a penalty paid to the victim (four times the value for open theft, twice for secret theft); CONDICTIO FURTIVA = recovery of the thing or its value from the thief himself.\n• They can be brought together (p. 22)",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "What is FURTUM?",
+          "a": "Taking a movable thing belonging to another with the intention of enriching oneself (DOLUS); it covers e.g. embezzlement and theft by finding.\n• Only movables can be the object of FURTUM (pp. 20–21)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "What does Paulus decide in D 6.1.23.5 about an arm attached to a statue?",
+          "a": "Soldered arm (ADPLUMBATIO) = separable: separation via the ACTIO AD EXHIBENDUM, then each owner brings a REI VINDICATIO. Welded arm (FERRUMINATIO) = inseparable: the statue's owner acquires the arm, and the arm's former owner gets an ACTIO IN FACTUM for compensation (Case 113).",
+          "difficulty": 2,
+          "kind": "judikat",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "What does Gaius say in the Digest (D 41.1.9.2) about pictures painted on another's tablet?",
+          "a": "The tablet accedes to the picture. The tablet's owner gets an ACTIO UTILIS against the painter in possession if he pays the cost of the painting (otherwise the EXCEPTIO DOLI); a painter who possessed in good faith gets a direct VINDICATIO against the tablet's owner if he pays the value of the tablet.",
+          "difficulty": 3,
+          "kind": "judikat",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "What do Cassius and Proculus/Pegasus say about two similar pieces of metal welded together (D 41.1.27.2)?",
+          "a": "Cassius: the owner of the bigger or more valuable piece becomes owner; if the pieces are identical, either joint ownership or the person in whose name it was done. Proculus and Pegasus: each keeps ownership of his own piece (Case 114).",
+          "difficulty": 3,
+          "kind": "judikat",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "extra",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — What are the facts of the case?",
+          "a": "A paints a picture on a tablet belonging to B.\n• Variants: B possesses the painted tablet and A claims it; A possesses it and B claims it; A or a third person steals it",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — What is the legal question?",
+          "a": "Who owns the painted tablet (TABULA PICTA), the painter or the tablet's owner?\n• Which remedies and defences do the parties have depending on who possesses it, and who can sue for theft?",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — Who is the author, and whose opinion does he report?",
+          "a": "Gaius (Institutes, book 2), with no other jurist named. He reports the opinion of his time ('it is said': the tablet is accessory to the painting) and criticises it ('a good reason for this difference hardly exists').",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — What is decided for each variant?",
+          "a": "B possesses, A claims without paying for the tablet: A is barred by the EXCEPTIO DOLI.\n• A possesses: B gets an ACTIO UTILIS; unless B pays the cost of the painting, A bars him with the EXCEPTIO DOLI\n• A or anyone else steals the tablet: B has the ACTIO FURTI",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — Which legal institution is involved?",
+          "a": "Acquisition of ownership by ACCESSIO (ACCESSIO CEDIT PRINCIPALI), accession of movables, with the TABULA PICTA as an exception.",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — What are the claims and their legal basis?",
+          "a": "A v B: ownership of the painted tablet, based on the prevailing opinion that the tablet accedes to the painting; or at least compensation for his work and material.\n• B v A: ownership, based on ACCESSIO CEDIT PRINCIPALI with the tablet as main thing (Gaius' view, analogy with writing); or at least the value of the tablet\n• B v thief: a penalty for the theft",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — Which remedies and defences apply, and who sues whom?",
+          "a": "A v B (B possesses): REI VINDICATIO; B: EXCEPTIO DOLI until paid for the tablet.\n• B v A (A possesses): ACTIO UTILIS; A: EXCEPTIO DOLI until paid for the painting\n• B v thief: ACTIO FURTI",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — What does the tablet owner's ACTIO UTILIS aim at, according to Benke/Meissel?",
+          "a": "At the HANDOVER of the painting, not just money for the tablet; this follows from the painter's EXCEPTIO DOLI for the cost of the painting (p. 136).\n• EXEGESIS.pdf reads it as a claim for the tablet's value; follow the textbook",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — Which similar cases do you discuss?",
+          "a": "Writing on another's paper (Gaius D 41.1.9.1, Case 110): the paper is the main thing.\n• The Digest version of the picture rule (Gaius D 41.1.9.2)\n• Paulus D 6.1.23.3 (Case 112): the later uniform view, picture accedes to tablet\n• Statue's arm soldered or welded (Paulus D 6.1.23.5, Case 113); welded metals (D 41.1.27.2, Case 114)",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — What is the controversy?",
+          "a": "The prevailing opinion of Gaius' time (the tablet accedes to the painting, so the painter is owner) against Gaius himself (no good reason to treat painting differently from writing).\n• By the late classical period Gaius' line had become universally accepted (Paulus D 6.1.23.3)",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        },
+        {
+          "q": "Gai. 2.78 — How do you explain the TABULA PICTA rule dogmatically?",
+          "a": "ACCESSIO CEDIT PRINCIPALI; the main thing is the one that can be vindicated on its own, and value or labour do not count. By that test the painting would accede to the tablet.\n• The TABULA PICTA is the only exception: the artistic contribution prevails, so the painter is owner\n• Compensation runs both ways through the EXCEPTIO DOLI (the possessor) and the ACTIO UTILIS (the non-possessor)",
+          "difficulty": 3,
+          "kind": "pripad",
+          "topic": "Accessio — Gai. 2.78",
+          "priority": "core",
+          "readyBy": "2026-10-28"
+        }
+      ],
+      "vision_used": false
+    }
+  }
+}

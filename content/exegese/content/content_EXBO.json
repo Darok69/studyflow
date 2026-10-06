@@ -1,0 +1,2669 @@
+{
+ "lecture_id": "EXBO",
+ "title": "Sources of Roman law and the Digest (Borkowski)",
+ "slides": {
+  "1": {
+   "title": "The sources of Roman law: three ancient lists and the archaic period",
+   "text": "Borkowski (ch. 2, p. 27) opens with a warning: there is no finite list of the sources of Roman law, because the Roman jurists never defined the term 'source of law', and different sources mattered in different periods. Three ancient lists survive: Cicero (Topica 5.28, 1st c. BC, in no particular order), the 2nd-century jurist Gaius (Inst. Gai. 1.1–7) and Justinian's Institutes (Inst. 1.2, 6th c. AD), which adopted and amended Gaius. All three name legislation (laws and plebiscites), resolutions of the Senate and the edicts of the magistrates; only Cicero adds equity, custom and decided cases. Robinson explains the difference: Cicero's list was a rhetorical arsenal for advocates, while Gaius and Justinian's drafters simply listed the sources of the IUS CIVILE and the IUS GENTIUM. Gaius added imperial enactments (the emperor's law-making was becoming prominent in the 2nd century); Justinian's Institutes restored custom – but 'custom' had changed meaning: for Cicero it was ancestral tradition (MOS MAIORUM) within the ius civile, for Justinian local and regional variations of imperial law. Section 2.1 starts the archaic period: institutions such as the Senate and the COMITIA CENTURIATA arose under the kings and survived their expulsion in 510 BC; early law was essentially custom embellished by royal decree.",
+   "terms": [
+    {
+     "term": "MOS MAIORUM",
+     "def": "'Custom of the ancestors' – how Cicero understood custom: ancestral tradition in the context of the ius civile."
+    },
+    {
+     "term": "IUS CIVILE / IUS GENTIUM",
+     "def": "The two bodies of law whose sources Gaius and Justinian's Institutes list (according to Robinson)."
+    },
+    {
+     "term": "Inst. Gai. 1.1–7 / Inst. 1.2",
+     "def": "Gaius' list of sources (2nd c. AD) and its adopted and amended version in Justinian's Institutes (6th c. AD)."
+    }
+   ],
+   "cards": [
+    {
+     "q": "Did the Roman jurists define the term 'source of law'?",
+     "a": "No – the term was never defined.\n• So no complete, finite list of sources can be given.\n• Different sources were emphasized in different periods, according to how important they were as instruments of legal reform.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which three ancient texts list the sources of Roman law?",
+     "a": "Cicero, Gaius and Justinian's Institutes.\n• Cicero, Topica 5.28 (1st c. BC) – no particular order.\n• Gaius, Institutes 1.1–7 (2nd c. AD).\n• Justinian's Institutes 1.2 (6th c. AD), which adopted and amended Gaius' list.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Which sources of law appear in all three ancient lists (Cicero, Gaius, Justinian)?",
+     "a": "Legislation, Senate resolutions and magistrates' edicts.\n• Legislation = laws and plebiscites.\n• Resolutions of the Senate.\n• Edicts of the magistrates.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Which sources does Cicero list that are missing from Gaius' list?",
+     "a": "Equity, custom and decided cases.\n• These are not in Gaius' Institutes or in Justinian's Institutes (although Justinian's Institutes later brought custom back).",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "According to Robinson, why does Cicero's list of sources differ from Gaius' list?",
+     "a": "They were written for different purposes.\n• Cicero: a rhetorical purpose – the sources were weapons in the advocate's arsenal.\n• Gaius and Justinian's drafters: they simply listed the sources of the IUS CIVILE and the IUS GENTIUM.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Which source of law did Gaius add to the traditional list, and why?",
+     "a": "Imperial enactments.\n• The emperor's law-making was quickly becoming a major source of law in the 2nd century AD.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How did Justinian's Institutes change Gaius' list of sources?",
+     "a": "They adopted Gaius' list and restored custom as a source of law.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How did the meaning of 'custom' differ between Cicero and Justinian's Institutes (Robinson)?",
+     "a": "Cicero: ancestral tradition; Justinian: local and regional variations.\n• Cicero: custom = MOS MAIORUM (ancestral tradition) within the IUS CIVILE.\n• Justinian's Institutes: local and regional variations of the law of the Roman Empire.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "When were the kings expelled from Rome?",
+     "a": "510 BC.\n• Institutions such as the Senate and the COMITIA CENTURIATA had arisen under the monarchy and survived the expulsion.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What was the law of archaic Rome essentially made of?",
+     "a": "Custom embellished by royal decree.\n• The evidence for this period is very scanty.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "2": {
+   "title": "Archaic period: custom and royal decrees; the Republic begins",
+   "text": "2.1.1 Custom was IUS NON SCRIPTUM – unwritten law made of practices so firmly established that they had become binding. The jurists disagreed whether custom was really 'law' or bound only indirectly, after being recognized through juristic interpretation. Roman law was almost entirely customary in origin: family law (marriage, the rights and duties of family members, the position of the PATERFAMILIAS) and basic property institutions such as MANCIPATIO came from custom. Once the pontiffs and jurists interpreted the law and it began to be written down, custom almost stopped being a formal source. Watson: custom mattered before the Twelve Tables and again in Justinian's codification, but hardly existed in between because of the jurists. It stayed an indirect influence, especially in the later Eastern Empire. 2.1.2 The kings' decrees (LEGES REGIAE) had direct binding force. They were issued especially under Romulus and Servius Tullius, but were probably only a gloss on custom. Pomponius (D.1.2.2.1–2) says Romulus divided the people into 30 CURIAE and that all royal statutes were collected by Sextus Papirius. He wrote about 900 years after Romulus, though, so he is not reliable. The decrees were mostly religious and either prescriptive or condemnatory (TALIO; the punishment for PARRICIDIUM in D.48.9.9pr). 2.2: In the Republic the main sources were legislation, the magistrates' edicts and later the INTERPRETATIO of legal experts. The Twelve Tables (451–450 BC) came out of the struggle of the orders.",
+   "terms": [
+    {
+     "term": "IUS NON SCRIPTUM",
+     "def": "'Law that was not written down' – custom: practices so firmly established that they had acquired binding force."
+    },
+    {
+     "term": "PATERFAMILIAS",
+     "def": "Head of the household; his position was regulated by custom."
+    },
+    {
+     "term": "MANCIPATIO",
+     "def": "The formal mode of conveyance; one of the basic property institutions that originated in custom."
+    },
+    {
+     "term": "LEGES REGIAE",
+     "def": "Decrees of the kings, with direct binding force as law; mainly religious in character."
+    },
+    {
+     "term": "CURIAE",
+     "def": "The thirty parts into which, according to Pomponius, Romulus divided the citizen body; statutes were passed with their advice."
+    },
+    {
+     "term": "TALIO",
+     "def": "Retaliation – a form of self-help allowed in some circumstances as satisfaction for certain personal injuries."
+    },
+    {
+     "term": "PARRICIDIUM",
+     "def": "Killing one's ascendants; regarded as a heinous crime and punished in a horrific ritual manner (D.48.9.9pr)."
+    },
+    {
+     "term": "INTERPRETATIO",
+     "def": "The interpretation of existing law by those learned in it; in the later Republic one of the chief sources of law."
+    }
+   ],
+   "cards": [
+    {
+     "q": "What is meant by IUS NON SCRIPTUM?",
+     "a": "Custom – 'law that was not written down'.\n• It consisted of practices so firmly established that they had acquired binding force.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What did Roman jurists debate about the legal status of custom?",
+     "a": "Whether custom was properly 'law' or only indirectly binding.\n• Indirectly binding = it needed formal recognition through juristic interpretation or some other body.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which areas of Roman law originated in custom (Borkowski's examples)?",
+     "a": "Family law and basic property institutions.\n• Family: formation of marriage, rights and duties of family members, position of the PATERFAMILIAS.\n• Property: e.g. the formal conveyance MANCIPATIO.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Why did custom virtually stop being a formal source of Roman law?",
+     "a": "Because the law came under authoritative interpretation by the pontiffs and jurists and began to be written down.\n• Custom still influenced the law indirectly, especially in the later Eastern Empire.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "What is Watson's thesis on the role of custom in Roman legal history?",
+     "a": "Custom mattered at the beginning and at the end, but hardly in between.\n• Important before the Twelve Tables.\n• Recognized again in Justinian's codification.\n• In between it scarcely existed – because of the role of the jurists.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What were the LEGES REGIAE and how important were they?",
+     "a": "Decrees of the kings, with direct binding force as law.\n• Issued periodically, in large numbers under Romulus and Servius Tullius.\n• Probably no more than a gloss on the custom-based body of law.\n• The way they were made and how far they reached is uncertain.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What does Pomponius say in D.1.2.2.1–2 about law under the kings?",
+     "a": "At first there was no fixed statute law; the kings governed directly.\n• Romulus divided the citizen body into 30 CURIAE and passed statutes with their advice; his successors did the same.\n• All royal statutes were written down in a book by Sextus Papirius, a contemporary of (Tarquinius) Superbus.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "Why is Pomponius' account of the royal statutes regarded as unreliable?",
+     "a": "He wrote about 900 years after Romulus' reign.\n• It is still the best evidence there is.\n• The Papirian compilation may have been made by another Papirius (Gaius), the first Chief Pontiff, or much later.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Who was Pomponius?",
+     "a": "A jurist and legal historian of the 2nd century AD.\n• His single-book 'Manual' (Enchiridion) is quoted in D.1.2.2 as the main ancient account of early Roman legal history.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What was the general character of the royal decrees?",
+     "a": "Mainly religious – their purpose was to appease the gods.\n• Example: no funeral rites for a man struck by lightning (it was assumed that Jupiter had killed him).",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Distinguish prescriptive from condemnatory royal laws.",
+     "a": "Prescriptive laws laid down correct behaviour; condemnatory laws laid down penalties.\n• Prescriptive: e.g. Numa – no one may sprinkle wine on a funeral pyre.\n• Condemnatory: severe penalties for wrongs, sometimes self-help/private redress (e.g. TALIO), and public sanctions such as ritual execution for the worst wrongs.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "What does Modestinus (D.48.9.9pr) report about the punishment for PARRICIDIUM?",
+     "a": "A ritual execution 'according to the custom of our ancestors'.\n• The offender was flogged with blood-coloured rods and sewn into a sack with a dog, a dunghill cock, a viper and a monkey.\n• The sack was thrown into the depths of the sea.\n• PARRICIDIUM = killing one's ascendants.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "extra"
+    },
+    {
+     "q": "What were the chief sources of law in the Roman Republic?",
+     "a": "Legislation, the edicts of the magistrates and, later, INTERPRETATIO.\n• INTERPRETATIO = interpretation by those learned in the law.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "When were the Twelve Tables enacted?",
+     "a": "451–450 BC.\n• The first important landmark in Roman legal history.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What political conflict led to the Twelve Tables (traditional account)?",
+     "a": "The struggle of the orders between patricians and plebeians.\n• Plebeian grievances: the uncertain extent of the consuls' powers and confusion over the tribunes' power to intercede.\n• The patricians were forced to agree to publish the law; Livy treats the Tables as a concession won by the plebeians (Ab Urbe Condita 3.31–59).",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "3": {
+   "title": "The Twelve Tables",
+   "text": "Not everyone accepts Livy's version: Roman Statutes suggests the Twelve Tables may have been a patrician elite regulating itself rather than giving way to plebeian pressure. Pomponius (D.1.2.2.4) tells the traditional story. A commission of ten men studied the laws of Greek city-states, wrote the laws on ivory tablets and set them up in front of the ROSTRA. When they found the first batch incomplete, they added two more tablets, hence 'Twelve Tables'. Livy claims the commissioners went to Greece to study Solon's laws. Modern scholars are cautious: 'Greek cities' probably means southern Italy, and only some rules, such as those on funerals, look Athenian. Westbrook compares the Tables with Ancient Near Eastern codes. The comitia centuriata enacted the provisions. The original tablets are said to have been destroyed when the Gauls sacked Rome around 386 BC, so we know them only through later writers. They were written in clear conditional sentences ('If someone does so and so …'). This was Rome's first code, but not a complete restatement: procedure gets little space and acquisition of property almost none, perhaps to limit what plebeians could learn of the law. The Tables drew on existing custom, some royal decrees and a few innovations. Most of the content was private law, with some public law. Tables X (sacred law) and IX (constitutional rules) are public law. Tables I–III cover procedure; IV, VII, VIII and XI cover substantive private law. The Romans saw the Tables as the foundation of their civil law, and they are reflected especially in the Digest. After the Tables, legislation was no longer the main tool for reforming private law.",
+   "terms": [
+    {
+     "term": "Twelve Tables (XII Tables)",
+     "def": "Rome's first code of law, 451–450 BC, enacted by the comitia centuriata; the foundation of Roman civil law."
+    },
+    {
+     "term": "ROSTRA",
+     "def": "Speakers' platforms in the Forum Romanum, in front of which the tablets were displayed."
+    },
+    {
+     "term": "Commission of ten men",
+     "def": "Board appointed to write the laws; for that year it held supreme executive power and the constitution was suspended."
+    }
+   ],
+   "cards": [
+    {
+     "q": "What alternative to Livy's account of the Twelve Tables does Roman Statutes propose?",
+     "a": "The Tables may have been self-regulation by a patrician elite.\n• On this view they were not a response to plebeian and popular pressure.",
+     "difficulty": 3,
+     "kind": "rozliseni",
+     "priority": "extra"
+    },
+    {
+     "q": "How does Pomponius (D.1.2.2.4) describe the making of the Twelve Tables?",
+     "a": "A board of ten men drafted the laws and displayed them in the Forum.\n• Appointed on the authority of the people to study the laws of Greek city-states.\n• Wrote the laws in full on ivory tablets, set up in front of the ROSTRA.\n• Held sovereign power that year so they could correct the laws.\n• Found the first batch deficient and added two tablets – hence the name 'Twelve Tables'.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "How did the 'Twelve Tables' get their name, according to Pomponius?",
+     "a": "The commission added two tablets to the original set after finding it deficient.\n• The name comes from that enlarged set.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What is the modern view of Greek influence on the Twelve Tables?",
+     "a": "Cautious – little in them is clearly Greek.\n• Livy says the commissioners visited Greece to study Solon's laws, but such a voyage is improbable.\n• 'Greek city-states' more likely means the cities of southern Italy.\n• Some rules (e.g. on behaviour at funerals) are very similar to Athenian legislation.\n• Westbrook: resemblance to the legal codes of the Ancient Near East.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which assembly enacted the Twelve Tables?",
+     "a": "The COMITIA CENTURIATA.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Why do we know the Twelve Tables only from later writers?",
+     "a": "The original tablets were reportedly destroyed when the Gauls sacked Rome, c. 386 BC.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What was the drafting style of the Twelve Tables?",
+     "a": "Clear and simple, using conditional sentences.\n• Basic pattern: 'If someone does so and so, let him be …'.\n• Matches the demand for a published law that people could understand.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Why were the Twelve Tables not a 'codification' in the modern sense?",
+     "a": "They did not restate the whole law.\n• In some areas only the main rules, or rules needing clarification, were stated.\n• Procedure was treated skimpily; acquisition of property was hardly mentioned.\n• Possibly a deliberate ploy to limit the legal expertise plebeians could gain.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "On what did the content of the Twelve Tables rest?",
+     "a": "Mainly existing customary law.\n• Plus some royal decrees and a few innovations.\n• Content: public and private law, with private law greatly predominant.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Which tables of the Twelve Tables contained public law, and what did they regulate?",
+     "a": "Tables X and IX.\n• Table X 'Of sacred law': burials and funerals – no burial or burning within the city; no more than ten flute-players; women mourners must not mutilate themselves or show excessive grief.\n• Table IX (constitutional): capital punishment only by legislation of the COMITIA CENTURIATA; no execution without trial; right of appeal against a death sentence.",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "Which tables of the Twelve Tables dealt with procedure?",
+     "a": "The first three.\n• Table I: summoning the defendant (force allowed if he refuses; transport to be provided if he is ill or aged).\n• Table II: sums the parties had to deposit in court before certain actions.\n• Table III: enforcement of judgments.",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "What did Table III of the Twelve Tables provide on enforcing judgments?",
+     "a": "Thirty days to pay, then seizure.\n• The debtor had 30 days after judgment to pay.\n• If he failed, the creditor could seize him and bring him before the court.\n• If the debt was still unpaid, the creditor could detain him, with severe consequences.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Name the substantive private-law rules Borkowski cites from Tables IV, VII, VIII and XI.",
+     "a": "\n• Table IV: absolute power of the PATERFAMILIAS over his children (fundamental principle of family law).\n• Table VII: land and neighbours, e.g. action over branches overhanging from a neighbour's tree.\n• Table VIII: wrongs – theft, pasturing cattle on another's land, excessive interest, setting fire to houses.\n• Table XI: ban on patrician–plebeian marriage (repealed within a few years).",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "What was the significance of the Twelve Tables for later Roman law?",
+     "a": "The Romans regarded them as the foundation of their civil law.\n• In Cicero's time children could still recite parts of them (by then more ceremonial than legal authority).\n• The jurists' literature is full of references to them, reflected especially in the Digest.\n• They helped shape Western jurisprudence.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Was legislation the main engine of private-law reform in the Republic after the Twelve Tables?",
+     "a": "No.\n• The assemblies rarely enacted laws conflicting with the Twelve Tables.\n• Until the late Republic there were only a handful of statutory changes.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "4": {
+   "title": "Republican assemblies, the Senate and the magistrates' edicts",
+   "text": "Few Republican statutes touched private law. The most important was the LEX AQUILIA (c. 287 BC) on wrongful damage to property. Constitutional statutes were more common, such as the leges Liciniae Sextiae and the lex Hortensia. There were four assemblies. The COMITIA CENTURIATA, organized in military array, elected the senior magistrates and enacted the Twelve Tables. The COMITIA CURIATA was the oldest but mostly conferred powers formally. The COMITIA TRIBUTA was based on geographical tribes, handled routine legislation and elected lesser magistrates. The CONCILIUM PLEBIS became the dominant law-making body, because its presidents, the tribunes, had more time for legislation than the consuls. After the lex Hortensia (c. 287 BC) plebiscites were as valid as statutes. Assemblies met only when a magistrate summoned them. They could accept or reject a bill but not debate or amend it. Votes were counted by group, and the secret ballot came in the late Republic. Women could not vote. The Senate had no legislative power. Its SENATUS CONSULTA carried great persuasive weight but bound only once taken up in an assembly resolution or a magistrate's edict, which made them an indirect source. 2.2.2: Senior magistrates had the IUS EDICENDI. The praetors' edicts produced the IUS HONORARIUM, which stood to the IUS CIVILE roughly as equity stands to the common law. The urban praetor was created in 367 BC and the peregrine praetor around 242 BC. Praetors for the provinces followed in 227 and 198 BC, and Sulla raised their number to eight.",
+   "terms": [
+    {
+     "term": "LEX AQUILIA",
+     "def": "Statute of c. 287 BC reforming the law on wrongful damage to property; the most important Republican statute for private law."
+    },
+    {
+     "term": "COMITIA CENTURIATA",
+     "def": "Most important assembly; people organized in military array; elected high magistrates; enacted the Twelve Tables."
+    },
+    {
+     "term": "COMITIA CURIATA",
+     "def": "Oldest assembly; minor legislative role; formally conferred powers on superior magistrates."
+    },
+    {
+     "term": "COMITIA TRIBUTA",
+     "def": "Assembly based on the geographic division into 'tribes'; routine legislation; elected lesser magistrates."
+    },
+    {
+     "term": "CONCILIUM PLEBIS",
+     "def": "Plebeian assembly presided over by the tribunes; dominant legislative organ of the later Republic."
+    },
+    {
+     "term": "PLEBISCITUM",
+     "def": "What the plebeians laid down on a proposal of a plebeian magistrate (tribune); equal to statutes after the lex Hortensia (Inst. 1.2.4)."
+    },
+    {
+     "term": "LEX HORTENSIA",
+     "def": "Statute of c. 287 BC giving plebiscites the same validity as statutes."
+    },
+    {
+     "term": "SENATUS CONSULTUM (pl. SENATUS CONSULTA)",
+     "def": "Resolution of the Senate; in the Republic persuasive but not legally binding unless incorporated in an assembly resolution or magistrate's edict."
+    },
+    {
+     "term": "IUS EDICENDI",
+     "def": "Right of high-ranking magistrates to issue edicts, i.e. legally binding statements of intent within their sphere of jurisdiction."
+    },
+    {
+     "term": "IUS HONORARIUM",
+     "def": "'Law laid down by magistrates' – the body of law created through the praetors' edicts; gloss/supplement to the ius civile."
+    },
+    {
+     "term": "PRAETOR URBANUS / PRAETOR PEREGRINUS",
+     "def": "Urban praetor (367 BC): jurisdiction within the city; peregrine praetor (c. 242 BC): cases with at least one foreigner."
+    },
+    {
+     "term": "LEGIS ACTIONES",
+     "def": "'Actions-at-law' – the old, highly formal procedure with a limited number of set forms of action."
+    }
+   ],
+   "cards": [
+    {
+     "q": "Which Republican statute was most important for private law, and what did it regulate?",
+     "a": "The LEX AQUILIA (c. 287 BC).\n• It reformed the law on wrongful damage to property.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Name two Republican statutes of constitutional/administrative character mentioned by Borkowski.",
+     "a": "The leges Liciniae Sextiae and the lex Hortensia.\n• Statutes of this type were more frequent than private-law statutes.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "extra"
+    },
+    {
+     "q": "Name the four Republican assemblies and their main functions.",
+     "a": "\n• COMITIA CENTURIATA: most important; people in military array; elected high magistrates; enacted the Twelve Tables.\n• COMITIA CURIATA: oldest; minor legislative role; formally conferred powers on superior magistrates.\n• COMITIA TRIBUTA: geographic 'tribes'; routine legislation; elected lesser magistrates.\n• CONCILIUM PLEBIS: plebeian assembly; dominant legislative organ of the later Republic.",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "Why did the CONCILIUM PLEBIS become the usual organ for legislation in the later Republic?",
+     "a": "Its presidents, the tribunes, had more time for and interest in legislation.\n• The consuls were often away on military duties.\n• Legally, all the assemblies had equal legislative competence (Jolowicz and Nicholas).",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What is a PLEBISCITUM, and how did the LEX HORTENSIA change its force?",
+     "a": "A decision of the plebeians on a proposal by a plebeian magistrate such as a tribune (Inst. 1.2.4).\n• After the LEX HORTENSIA (c. 287 BC), plebiscites were as valid as statutes.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What features did all Republican assemblies share?",
+     "a": "\n• Each was sovereign within its own jurisdiction.\n• Met only when summoned by the presiding magistrate.\n• Could not initiate legislation – voted on a draft bill, normally debated beforehand in the Senate.\n• Could accept or reject the bill, not debate or amend it.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "How did voting work in the Republican assemblies?",
+     "a": "By groups.\n• Each citizen voted orally and publicly within his group; a simple majority in the group decided that group's vote.\n• Bribery led to the secret ballot in the late Republic.\n• COMITIA CENTURIATA: centuries voted in order of rank, highest first, which influenced later voters.\n• Women could not appear or vote.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "Did the Republican Senate have legislative power?",
+     "a": "No – it was an advisory council.\n• It still had great influence and control over the leading men, who were invariably among its members.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "When were SENATUS CONSULTA legally binding in the Republic?",
+     "a": "Only when incorporated into an assembly resolution or a magistrate's edict.\n• Otherwise they carried great persuasive weight but did not bind.\n• So they were a vital but indirect source of Republican legislation.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What role did the Senate play in Republican legislation, apart from passing SENATUS CONSULTA?",
+     "a": "\n• A magistrate normally needed Senate approval before putting a proposal to an assembly.\n• The Senate was often the prime mover of legal reform (it met only when a magistrate convened it).\n• It could declare laws invalid for want of form.\n• It could suspend valid laws in emergencies.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What is the IUS EDICENDI?",
+     "a": "The right of high-ranking magistrates to issue edicts.\n• Edicts = legally binding statements of intent within the magistrate's sphere of jurisdiction.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What is the IUS HONORARIUM and why was it significant?",
+     "a": "Law laid down by magistrates – the body of law formed by the praetors' edicts (cf. D.1.2.2.10).\n• It revolutionized the civil law in the late Republic.\n• It was a gloss on, or supplement to, the IUS CIVILE, comparable to equity and the English common law.\n• It turned an introverted, parochial system into an outward-looking, cosmopolitan one that later ages found easy to adopt.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What comparison does Borkowski use for the relationship between IUS HONORARIUM and IUS CIVILE?",
+     "a": "Equity and the English common law.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Why was the PRAETOR URBANUS created, according to Pomponius (D.1.2.2.27–8)?",
+     "a": "The consuls were often away at war, leaving no one in Rome to deal with legal business.\n• The urban praetor was so called because he exercised jurisdiction within the city.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "When were the urban and the peregrine praetor created?",
+     "a": "Urban praetor: 367 BC; peregrine praetor: c. 242 BC.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Distinguish the jurisdiction of the PRAETOR URBANUS and the PRAETOR PEREGRINUS.",
+     "a": "Urban praetor: administration of justice within the city.\nPeregrine praetor: cases where at least one party was a foreigner.\n• Initially the peregrine praetor probably heard only disputes between foreigners.\n• He was created because of the influx of foreigners (PEREGRINI) into Rome.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "When were praetorships created for the provinces, and how many praetors were there after Sulla?",
+     "a": "\n• 227 BC: two praetorships for Sicily and Sardinia.\n• 198 BC: two for the two Spanish provinces.\n• Sulla's reform: eight praetors.\n• Only the urban and peregrine praetors had full jurisdiction over the civil law.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What two factors allowed the praetors to create the IUS HONORARIUM?",
+     "a": "Their role in litigation and their right to issue edicts.\n• The praetors did not see themselves as creating a supplementary body of law, but in effect they did.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What were the LEGIS ACTIONES?",
+     "a": "The 'actions-at-law', the procedure the urban praetor inherited.\n• Highly formal: claims had to fit one of a limited number of set forms of action.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "5": {
+   "title": "Formulary procedure, the praetor's edict, ius civile vs ius honorarium, interpretatio",
+   "text": "Under the LEGIS ACTIONES the praetor could do little to develop the law, because he was bound to follow the IUS CIVILE. The change came with the foreigners who arrived in the 3rd century BC. They could not use the legis actiones, which were reserved for citizens, so the peregrine praetor developed the formulary system: the issues were set out in writing in a FORMULA instead of rigid set forms. The urban praetor soon adopted it for citizens too, and the legis actiones were largely obsolete well before the end of the Republic. The LEX AEBUTIA (c. 150 BC) formally allowed the formula in disputes between citizens. Edicts were posted on wooden boards (ALBA) in the Forum at the start of each praetor's year. They were mostly taken over from the previous praetor, so a stock body of rules built up from year to year. Praetors relied on legal experts, which made the edict an ideal vehicle for reform. Aediles and provincial governors also issued edicts. The lex Cornelia of 67 BC, prompted partly by Verres, required magistrates to keep to their own edicts. Papinian (D.1.1.7.1) defines the ius honorarium as what the praetors introduced to aid, supplement or correct the ius civile. Kelly describes the history of the edict as a move from adjective (procedural) to substantive law. 2.2.3: INTERPRETATIO began as mere elucidation, but implication and analogy turned it into a gloss on enacted law. It was first a monopoly of the pontiffs (D.1.2.2.6). Example: the Twelve Tables rule on a son sold three times became the basis of emancipation.",
+   "terms": [
+    {
+     "term": "Formulary system / FORMULA",
+     "def": "Procedure developed by the peregrine praetor: the issues between the parties were stated in writing (the formula), not fitted into rigid forms of action."
+    },
+    {
+     "term": "LEX AEBUTIA",
+     "def": "Statute of c. 150 BC formally recognizing the formulary system for disputes between citizens."
+    },
+    {
+     "term": "ALBUM (pl. ALBA)",
+     "def": "Wooden boards in the Forum on which the edicts were displayed at the beginning of the praetor's tenure."
+    },
+    {
+     "term": "LEX CORNELIA (67 BC)",
+     "def": "Required magistrates to act consistently with their own edicts; prompted partly by the irregular conduct of Verres."
+    },
+    {
+     "term": "Aid / supplementation / correction",
+     "def": "The three functions of the ius honorarium in relation to the ius civile according to Papinian (D.1.1.7.1)."
+    },
+    {
+     "term": "INTERPRETATIO",
+     "def": "Elucidation of existing rules of law; initially not a direct source, but it glossed enacted law through implication and extension by analogy."
+    },
+    {
+     "term": "College of Priests (pontiffs)",
+     "def": "Held knowledge of authoritative interpretation and conduct of the actions-at-law in early Rome (D.1.2.2.6)."
+    }
+   ],
+   "cards": [
+    {
+     "q": "Why could the praetor do little to develop the law under the LEGIS ACTIONES?",
+     "a": "He was strictly bound to follow the IUS CIVILE where it applied.\n• His task was to decide whether to grant an action and which form of trial was appropriate.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How did the formulary system arise?",
+     "a": "Through foreigners in Rome.\n• In the 3rd century BC foreigners came to Rome in large numbers.\n• They could not use the LEGIS ACTIONES, which were confined to citizens.\n• So the peregrine praetor developed the formulary system for them.\n• This gave him considerable discretion over the law applied to disputes involving foreigners.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "Distinguish the LEGIS ACTIONES from the formulary system.",
+     "a": "LEGIS ACTIONES: highly formal; claims had to fit a limited number of set forms of action; only for citizens.\nFormulary system: more flexible; the issues were stated in writing in the FORMULA and did not have to fit rigid forms; first developed for foreigners.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "How did the formulary system replace the LEGIS ACTIONES?",
+     "a": "\n• Foreigners used the formula while citizens were at first restricted to the old actions.\n• The urban praetor came under pressure and adopted the new procedure.\n• The procedure for disputes with foreigners was absorbed into the IUS CIVILE.\n• The formulary system gradually ousted the legis actiones, which were largely obsolete well before the end of the Republic.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "What did the LEX AEBUTIA (c. 150 BC) do?",
+     "a": "It formally recognized the formulary system for disputes between citizens.\n• After it, the praetors could act much more radically.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Why, according to Pomponius (D.1.2.2.10), is praetorian law called 'honorary'?",
+     "a": "Because it came from the high honour of the praetorian office.\n• Magistrates published edicts so that citizens would know how each would exercise his jurisdiction.\n• The praetors' edicts formed the IUS HONORARIUM.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "What did a praetor's edict look like and contain?",
+     "a": "Directives and proposals on wooden boards (ALBA) in the Forum.\n• Displayed at the start of his year in office.\n• Typical form: 'I will grant an action if …', 'I will allow possession of the goods if …'.\n• It could add new remedies or defences.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "How did a stable body of praetorian law build up over the years?",
+     "a": "Each praetor took over most of his predecessor's edict.\n• A stock body of rules was carried over from year to year, so the IUS HONORARIUM evolved.\n• Praetors often lacked legal expertise and consulted legal experts, which made the edict an ideal vehicle for law reform.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "Which magistrates besides the urban praetor issued edicts?",
+     "a": "\n• The peregrine praetor: similar but far shorter; by the end of the Republic the two edicts had largely converged.\n• The aediles.\n• Provincial governors: discretion for local circumstances, but mainly the same remedies as in Rome.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What did the LEX CORNELIA of 67 BC require?",
+     "a": "Magistrates had to act consistently with their own edicts.\n• It was prompted partly by the irregular behaviour of Verres.\n• Before it, apparently only public opinion made a praetor keep to his edict.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "How does Papinian (D.1.1.7.1) define the IUS HONORARIUM?",
+     "a": "What the praetors introduced in the public interest to aid, supplement or correct the IUS CIVILE.\n• Papinian, Definitions, book 2; he equated the ius honorarium with praetorian law.\n• Papinian = a late classical jurist.",
+     "difficulty": 1,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "Distinguish the three functions of the IUS HONORARIUM (aid, supplementation, correction), with examples.",
+     "a": "Aid: more convenient and effective remedies for enforcing civil-law claims.\nSupplementation: a remedy where the civil law gave none – e.g. supplementary remedies extending the narrow LEX AQUILIA.\nCorrection: acting against the civil law in the interest of the Roman people, used rarely and with great caution – e.g. letting a claimant take an inheritance ahead of the rightful civil-law heir.",
+     "difficulty": 3,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "How does Kelly describe the history of the praetorian edict?",
+     "a": "As a progress from 'adjective' (procedural) law to substantive law.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Name the main praetorian innovations of the late Republic.",
+     "a": "\n• Remedies for robbery, fraud and duress.\n• More effective protection of proprietary interests.\n• Recognition of informal agreements.\n• More radical still: an alternative form of succession to property on death.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What was INTERPRETATIO, and was it a source of law from the start?",
+     "a": "The elucidation of existing rules of law; at first not a direct source.\n• The interpreter could not create new law.\n• But implication and extension by analogy glossed enacted law ('the skeletal bones acquired some flesh').",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "Who first interpreted Roman law, according to Pomponius (D.1.2.2.6)?",
+     "a": "The College of Priests (pontiffs).\n• They held the knowledge of authoritative interpretation and of conducting the actions-at-law.\n• Each year one of them was appointed to preside over private citizens.\n• Background: religion and the civil law were closely connected in early Rome.",
+     "difficulty": 1,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "Give Borkowski's example of creative pontifical INTERPRETATIO.",
+     "a": "Emancipation.\n• Twelve Tables rule: a father who sold his son three times lost his power over him.\n• Interpretatio made this rule the basis of emancipation, applied also to daughters and grandchildren.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "6": {
+   "title": "The pontiffs lose their monopoly; the Republican jurists and their work",
+   "text": "Watson regards the Twelve Tables and the pontiffs' monopoly of interpretation as decisive for Roman law: they made the giving of legal opinions important and led the State to accept that individuals have a major role in law-making. The monopoly ended when Gnaeus Flavius, clerk to Appius Claudius (censor 312 BC), published his master's collection of the actions-at-law. It became known as the IUS FLAVIANUM, and the pontiffs were no longer the only interpreters. Experts outside the college began giving opinions (RESPONSA) in public and came to be called jurists. The first to advise in public was Tiberius Coruncanius, who around 253 BC became the first plebeian Chief Pontiff (D.1.2.2.35). The Republican jurists were rich aristocrats seeking a political career; they gave advice free and gained gratitude in return. In the late Republic they became full-time specialists and grew in number, and a profession began to emerge. 2.2.3.1: Giving advice was their main work, to judges, praetors, magistrates, governors, advocates, senators and private citizens. These opinions were not binding precedents but shaped the law. Jurists also practised cautelary jurisprudence and taught by example, as when Cicero studied under the two Scaevolas. Their writings turned Roman law into a science. Scholars disagree on Greek influence: Schulz sees a 'Hellenistic' period, Watson thinks there was very little borrowing of rules.",
+   "terms": [
+    {
+     "term": "IUS FLAVIANUM",
+     "def": "Appius Claudius' collection of actions-at-law, published by his clerk Gnaeus Flavius in the closing years of the 4th c. BC; ended the pontiffs' monopoly."
+    },
+    {
+     "term": "RESPONSUM (pl. RESPONSA)",
+     "def": "Legal opinion given by a jurist; not binding and not a precedent, but the accumulation of responsa elucidated the law and filled gaps."
+    },
+    {
+     "term": "Jurists",
+     "def": "Eminent individuals learned in law who gave legal opinions in public (originally outside the college of pontiffs)."
+    },
+    {
+     "term": "Cautelary jurisprudence",
+     "def": "Preventive legal work: drafting formal documents such as wills, coaching people in the set words for ceremonies and transactions, preparing litigants and advocates."
+    },
+    {
+     "term": "TOGA VIRILIS",
+     "def": "Toga of manhood; after assuming it Cicero was taken by his father to the jurist Scaevola to learn law."
+    }
+   ],
+   "cards": [
+    {
+     "q": "Which characteristics of Roman law does Watson attribute to the pontifical INTERPRETATIO?",
+     "a": "\n• The importance later attached to giving legal opinions.\n• The State's acceptance of the individual's important role in law-making.",
+     "difficulty": 3,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "How was the pontiffs' monopoly of legal interpretation broken (Pomponius, D.1.2.2.7)?",
+     "a": "Gnaeus Flavius, clerk of Appius Claudius, published his master's collection of the actions-at-law.\n• The collection became known as the IUS FLAVIANUM.",
+     "difficulty": 1,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "What was the IUS FLAVIANUM and why was it significant?",
+     "a": "Appius Claudius' collection of actions-at-law, made public by Gnaeus Flavius at the end of the 4th century BC.\n• Appius Claudius was censor in 312 BC.\n• Significance: the pontiffs were no longer the only interpreters of the law.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "When was Appius Claudius censor?",
+     "a": "312 BC.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "extra"
+    },
+    {
+     "q": "Who was the first jurist to give legal advice in public?",
+     "a": "Tiberius Coruncanius (Pomponius, D.1.2.2.35).\n• Earlier experts kept the civil law secret or gave only private consultations.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What 'first' did Tiberius Coruncanius achieve in c. 253 BC?",
+     "a": "He became Chief Pontiff – the first plebeian to hold that office.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What were RESPONSA, and were they binding?",
+     "a": "Legal opinions given by jurists – not binding.\n• They did not create precedents.\n• But together they explained the law, gave it shape and filled gaps.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What was typical of the jurists of the later Republic as a social group?",
+     "a": "Hardly a class, still less a profession.\n• Rich men from aristocratic families, aiming at a political career.\n• They shared their expertise free, earning gratitude, respect and a step up the political ladder.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Why did the number of jurists grow in the late Republic?",
+     "a": "\n• Many legal disputes arose in the troubled conditions of the time.\n• The citizen population grew after the Social War.\n• Commercial activity expanded.\n• Jurists increasingly specialized full-time; some came from humble backgrounds and took payment – a profession was emerging.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What was the Republican jurists' most important function, and who consulted them?",
+     "a": "Giving advice.\n• Judges: distinguished citizens without legal expertise.\n• Praetors: administering litigation and drafting edicts.\n• Magistrates and provincial governors.\n• Advocates: skilled orators unskilled in law.\n• Members of the Senate, prospective litigants and ordinary citizens.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What is cautelary jurisprudence?",
+     "a": "The jurist's preventive legal work.\n• Drafting formal written documents such as wills.\n• Coaching people in the set words required in legal ceremonies and transactions.\n• Preparing litigants and advocates to present their cases.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "How did the leading Republican jurists teach?",
+     "a": "By example.\n• A young man aiming at a legal or political career attached himself to a leading jurist and assisted him.\n• This created a tradition of loyalty and continuity.\n• Less eminent jurists probably did some formal teaching.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "With whom did Cicero study law (De Amicitia 1.1)?",
+     "a": "With the two Scaevolas.\n• After taking the TOGA VIRILIS he was taken to Scaevola the augur (consul 117 BC).\n• After the augur's death he went to Scaevola the pontiff (consul 95 BC).",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "extra"
+    },
+    {
+     "q": "Name the types of literature written by Republican jurists (Watson).",
+     "a": "\n• Collections of forms and RESPONSA.\n• Commentaries on the Twelve Tables or on individual statutes.\n• General treatises on the civil law.\n• Monographs on specific legal topics.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Why was the Republican jurists' tradition of legal writing so important?",
+     "a": "It turned Roman law into a science.\n• A body of rules analysed in writing, giving a rich source for further study and comment.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Contrast Schulz's and Watson's views on Greek influence on Republican jurisprudence.",
+     "a": "Schulz (1946): extensive influence – he calls the later Republic the 'Hellenistic' period of Roman jurisprudence.\nWatson: minimal influence on the borrowing of rules, so 'Hellenistic period' is a misnomer; he accepts Greek influence on other aspects of Roman life.",
+     "difficulty": 3,
+     "kind": "rozliseni",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "7": {
+   "title": "Outstanding Republican jurists; the Empire: overview, assemblies, Senate",
+   "text": "Kunkel takes a middle position on Greek influence: it was some but not extensive. He points to dialectical reasoning, a more systematic arrangement of material and the sharp growth of juristic literature. Borkowski then profiles four leading jurists of the later Republic. Sextus Aelius (consul 198 BC) wrote the earliest important juristic work, a commentary on the Twelve Tables and the actions-at-law, and probably the IUS AELIANUM. Quintus Mucius Scaevola (consul 95, chief pontiff 89, murdered 82 BC) argued the CAUSA CURIANA and wrote the first comprehensive treatise on the IUS CIVILE. Aquilius Gallus (praetor 66 BC) was responsible for the edict on fraud. Servius Sulpicius Rufus (consul 51 BC) took up law after Scaevola rebuked him (D.1.2.2.43). He wrote AD BRUTUM, the first commentary on the praetorian edict, and the NOTATA MUCII. 2.3: The Empire before Justinian falls into two halves. The classical period covers roughly the first two and a half centuries AD and was the high point of Roman law, thanks to the jurists. It was followed by a decline in which imperial decrees became almost the only source. The imperial decree was by far the most important form of legislation. Augustus still used the assemblies to legislate on slavery, marriage and inheritance, but they soon became obsolete; the lex de imperio Vespasiani (AD 70) was their last important enactment. In the early Empire the Senate replaced them as the main legislative organ and became the instrument of the imperial will.",
+   "terms": [
+    {
+     "term": "IUS AELIANUM",
+     "def": "Work probably by Sextus Aelius; an updating of the ius Flavianum."
+    },
+    {
+     "term": "CAUSA CURIANA",
+     "def": "Famous trial concerning the interpretation of a will, in which Q. Mucius Scaevola appeared as advocate."
+    },
+    {
+     "term": "AD BRUTUM",
+     "def": "Work of Servius Sulpicius Rufus – the first commentary on the praetorian edict."
+    },
+    {
+     "term": "NOTATA MUCII",
+     "def": "Work of Servius Sulpicius Rufus correcting some of Scaevola's analyses of the civil law."
+    },
+    {
+     "term": "Classical period",
+     "def": "Roughly the first two and a half centuries AD; highest development of Roman law due to the jurists' work."
+    },
+    {
+     "term": "LEX DE IMPERIO VESPASIANI",
+     "def": "AD 70; granted certain powers to Vespasian; the last important comitial enactment (a lex, not a senatus consultum)."
+    }
+   ],
+   "cards": [
+    {
+     "q": "What is Kunkel's middle view on Greek influence on Roman jurisprudence?",
+     "a": "There was some, but not extensive, Greek influence.\n• Dialectical methods of reasoning.\n• A trend towards more systematic arrangement of material.\n• The sharp growth of juristic literature, attributed to Greek literary traditions.",
+     "difficulty": 3,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Who was Sextus Aelius, and what did he write?",
+     "a": "Consul in 198 BC; author of the earliest important juristic work.\n• A commentary on the Twelve Tables and the actions-at-law.\n• Probably the IUS AELIANUM, an updating of the IUS FLAVIANUM.\n• His interest in the actions-at-law shows the formulary system had not yet replaced them when he wrote.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Give the career of Quintus Mucius Scaevola, with dates.",
+     "a": "\n• Tribune 106 BC.\n• Praetor 98 BC.\n• Consul 95 BC.\n• Governor of Asia 94 BC.\n• Chief pontiff 89 BC.\n• Murdered 82 BC.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What was Quintus Mucius Scaevola's most important achievement as a jurist?",
+     "a": "His treatise on the IUS CIVILE.\n• The first comprehensive treatment of the civil law.\n• The first attempt at classifying and analysing the law in detail.\n• A model for later writers.\n• He was also one of the last pontiffs to shape the development of Roman law, and appeared in the CAUSA CURIANA.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What was the CAUSA CURIANA?",
+     "a": "A famous trial about the interpretation of a will.\n• Q. Mucius Scaevola appeared in it as advocate.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "extra"
+    },
+    {
+     "q": "Who was Aquilius Gallus?",
+     "a": "Praetor in 66 BC, responsible for important praetorian innovations.\n• Example: the edict on fraud.\n• He declined the highest honours to devote himself to writing and teaching.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How did Servius Sulpicius Rufus come to study the civil law (D.1.2.2.43)?",
+     "a": "He was rebuked by Quintus Mucius.\n• He consulted Quintus Mucius twice about a client's case and failed to understand the opinion.\n• Mucius told him it was disgraceful for a patrician advocate to be ignorant of the law he pleaded.\n• Stung, Servius applied himself to the civil law.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "Give Servius Sulpicius Rufus' offices and main works.",
+     "a": "Praetor 65 BC, consul 51 BC; pupil of Aquilius Gallus.\n• AD BRUTUM: the first commentary on the praetorian edict.\n• NOTATA MUCII: a correction of some of Scaevola's analyses.\n• Pupils such as Ofilius and Alfenus called him their 'teacher'.\n• Apart from Scaevola, the most eminent of all Republican jurists.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How is the period of the Empire before Justinian divided?",
+     "a": "Into two halves.\n• Classical period: roughly the first two and a half centuries AD – Roman law at its highest level, thanks to the jurists; Rome at its political peak.\n• Second half: traditionally a period of decline, when imperial decrees became virtually the only source of law.",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "Which sources lost importance in the classical period, and which gained?",
+     "a": "Lost: the legislative assemblies and the praetorian edicts.\nGained: juristic INTERPRETATIO and imperial decrees.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "What was by far the most important source of legislation in the Empire?",
+     "a": "The imperial decree.\n• In the early Empire the Republican assemblies and the Senate still carried out some law reforms.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How did Augustus use the Republican assemblies?",
+     "a": "He used them to pass his legislation, while preserving the look of the Republican constitution.\n• The assemblies represented, in theory, the sovereign will of the people.\n• Enactments concerned slavery, matrimonial law and inheritance.\n• The revival did not last: the assemblies just carried out the emperor's wishes and became obsolete.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which were the last significant comitial enactments in the Empire?",
+     "a": "\n• LEX JUNIA VELLEIA, c. AD 28: probably the last significant enactment affecting private law.\n• LEX DE IMPERIO VESPASIANI, AD 70: granted powers to Vespasian; the last important comitial enactment (a lex, not a SENATUS CONSULTUM).",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "How did the Senate's role in legislation change in the early Empire?",
+     "a": "It replaced the assemblies as the primary organ of legislation.\n• The emperor was its leading member, so its SENATUS CONSULTA were very persuasive.\n• It became identified with the imperial will and put the emperor's policy into legislative effect.\n• It controlled the magistrates strictly and took away much of their discretion.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "8": {
+   "title": "Senatus consulta as law; the emperor as legislator; edicta and decreta",
+   "text": "In the 1st century AD SENATUS CONSULTA became IUS NOVUM: senatorial directions that magistrates were bound to observe, enforced through praetorian remedies and the magistrates' IMPERIUM. One example is the SC Silanianum (AD 10, D.29.5.1pr), under which all slaves of a master murdered in his house could be tortured and executed; under Nero about 400 slaves were put to death after a consul's murder. Another is the SC Claudianum (AD 52) on cohabitation between female citizens and male slaves. Probably under Hadrian, senatus consulta became directly binding; the first such was the SC Tertullianum (c. AD 130) on intestate succession. The Senate by then simply rubber-stamped the emperor's proposals and had ceased to make law by c. AD 200. Ulpian (D.1.4.1pr) says the emperor's decision has the force of a statute because the people conferred their whole authority on him. This is an ex post facto rationalization: the convention that the emperor could legislate only emerged in the 2nd century. Imperial decrees took four forms: EDICTA, DECRETA, MANDATA and RESCRIPTA. Edicta could cover any subject; emperors consulted advisers, above all the judicial council, which Hadrian made a central institution. By the late classical period edicts stayed valid until repealed. Examples are the constitutio Antoniniana (212), the Edict on Prices (301) and the Edict of Milan (313). Decreta were the emperor's judicial decisions; collected by jurists, they had become binding precedents by the late classical period. Mandata were instructions to officials.",
+   "terms": [
+    {
+     "term": "IUS NOVUM",
+     "def": "New form of law of the 1st c. AD: senatus consulta as senatorial directions magistrates were bound to observe, given force through their imperium."
+    },
+    {
+     "term": "IMPERIUM",
+     "def": "The magistrates' power through which senatus consulta of the early Empire were given the force of law."
+    },
+    {
+     "term": "S.C. SILANIANUM (AD 10)",
+     "def": "Senatus consultum on questioning (under torture) and execution of the household slaves of a murdered master."
+    },
+    {
+     "term": "S.C. CLAUDIANUM (AD 52)",
+     "def": "Senatus consultum on cohabitation between female citizens and male slaves."
+    },
+    {
+     "term": "S.C. TERTULLIANUM (c. AD 130)",
+     "def": "Amendment of the law of intestacy; apparently the first senatus consultum with direct binding force."
+    },
+    {
+     "term": "EDICTA",
+     "def": "Imperial edicts on an unlimited range of matters; by the late classical period valid until repealed."
+    },
+    {
+     "term": "DECRETA",
+     "def": "Judicial decisions of the emperor (on appeal or at first instance); binding precedents by the late classical period."
+    },
+    {
+     "term": "MANDATA",
+     "def": "Instructions from the emperor, on his council's advice, to subordinate officials on the performance of their duties."
+    },
+    {
+     "term": "Judicial council",
+     "def": "Advisory body of the emperor, originally informal, later permanent; Hadrian made it an indispensable institution staffed by leading jurists."
+    },
+    {
+     "term": "CONSTITUTIO ANTONINIANA",
+     "def": "Imperial edict of AD 212 extending citizenship throughout the Empire."
+    }
+   ],
+   "cards": [
+    {
+     "q": "What was the IUS NOVUM of the 1st century AD?",
+     "a": "SENATUS CONSULTA that had the force of law.\n• They were senatorial directions that magistrates were bound to observe.\n• They were given force through the magistrates' IMPERIUM and enforced through praetorian remedies.\n• Many dealt with the routine administration of the State and imperial policy.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What did the SENATUS CONSULTUM SILANIANUM (AD 10) provide, and why?",
+     "a": "All slaves in the household of a master murdered in his own house could be put to death after questioning under torture.\n• Aim: to punish slaves who failed to protect their master (Ulpian, D.29.5.1pr).\n• It sometimes provoked riots: under Nero about 400 slaves of a murdered consul were executed.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "What did the SENATUS CONSULTUM CLAUDIANUM (AD 52) concern?",
+     "a": "Cohabitation between female citizens and male slaves.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "When did SENATUS CONSULTA acquire direct binding force, and which was apparently the first?",
+     "a": "Probably under Hadrian, without any need for praetorian intervention.\n• The first was apparently the SC TERTULLIANUM (c. AD 130), which amended the law of intestacy.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "By when had the Senate ceased to make law?",
+     "a": "By c. AD 200.\n• It had become a tool of the imperial will that automatically confirmed the emperor's proposals.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "How did Ulpian (D.1.4.1pr) justify the emperor's legislative power?",
+     "a": "A decision of the emperor has the force of a statute, because the people committed to him all their authority and power.\n• Ulpian, Institutes, book 1 – a late classical jurist.",
+     "difficulty": 1,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "Why does Borkowski call Ulpian's justification of imperial law-making an 'ex post facto rationalization'?",
+     "a": "Because the power came first and the explanation later.\n• Augustus and his successors had not claimed a general power to make law.\n• It is unclear how the people transferred their 'entire authority'.\n• In the 2nd century the jurists came to treat the emperor as an independent legislator, and the convention arose (cf. Inst. Gai. 1.5, Inst. 1.2.6).",
+     "difficulty": 3,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What are the four main forms of imperial decree?",
+     "a": "EDICTA, DECRETA, MANDATA, RESCRIPTA.\n• Whether MANDATA belong in the list is debated.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "How did imperial EDICTA differ from magistrates' edicts?",
+     "a": "Magistrates' edicts were limited to their own jurisdiction; the emperor's could cover any matter.\n• From Augustus onwards the emperor normally consulted his advisers before issuing an edict.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "What was the imperial judicial council and who shaped it?",
+     "a": "The advisory body with the greatest influence on legislation.\n• At first informal: it assisted the emperor when he acted as judge.\n• Later permanent: advised on the general development of the law.\n• Hadrian made it an indispensable institution, staffed by leading jurists.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Did imperial edicts lapse when the emperor died?",
+     "a": "In theory yes, as magistrates' edicts lapsed at the end of their term.\n• By the late classical period no one doubted that they stayed valid until repealed.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Name three famous imperial edicts and their dates.",
+     "a": "\n• CONSTITUTIO ANTONINIANA, AD 212: citizenship throughout the Empire.\n• Edict on Prices, AD 301: maximum prices and wages.\n• Edict of Milan, AD 313: ended the persecution of Christianity.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Which edict of Augustus does Paul cite in D.48.18.8pr?",
+     "a": "An edict justifying the torture of slaves in exceptional circumstances.\n• Torture should not be used in every case – only for capital or serious crimes that cannot be investigated in any other way.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "extra"
+    },
+    {
+     "q": "What were imperial DECRETA, and how did they become binding precedents?",
+     "a": "Judicial decisions of the emperor, on appeal or at first instance.\n• Ordinary judgments bound only the parties – they were not precedents.\n• Imperial decreta were reported and filed in the imperial archives, and were seen as authoritative because the emperor made them.\n• Jurists collected them, so by the late classical period they had become binding precedents.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "How did emperors decide cases (DECRETA)?",
+     "a": "Normally guided by advisers from their council, even when they knew law themselves (e.g. Nerva, AD 96–98).\n• They applied existing law but had wide discretion in interpreting it.\n• They could devise new principles and even overrule existing law, though the council would advise caution.",
+     "difficulty": 3,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What were MANDATA?",
+     "a": "Instructions from the emperor, given on his council's advice, to subordinate officials about how to perform their duties.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "9": {
+   "title": "Mandata and rescripta; the Edictum Perpetuum; the classical jurists",
+   "text": "Mandata went mainly to provincial governors and proconsuls. Most were routine administrative orders, and it is arguable whether they were law at all. Some were weightier, though, such as the duty to rid the province of evil men (Paul, D.1.18.3), or Trajan's mandate allowing soldiers to make informal wills. Pliny the Younger, governor of Bithynia under Trajan (AD 98–117), had to write to the emperor because his mandata were unclear. Rescripta, the emperor's written replies to questions and petitions, were probably the richest source of imperial legislation. They came in two kinds. EPISTULAE answered officials or public bodies and were drafted by the AB EPISTULIS office. SUBSCRIPTIONES answered private citizens, who had to submit a LIBELLUS; the A LIBELLIS bureau wrote the reply. Leading jurists such as Papinian and Ulpian ran that bureau, so subscriptiones became an ideal medium for developing the law. 2.3.3: In the 1st century AD the praetors lost importance. There were more of them, the office became a reward for loyalty, and the emperor dominated. Hadrian had Julian revise and consolidate the edicts into the EDICTUM PERPETUUM (c. AD 135). Praetors still issued the edict each year but could no longer innovate. 2.3.4: The classical jurists continued the Republican tradition. What changed was how they worked: the State employed them more and more, especially from Hadrian on. Kunkel divides the classical period into early, mid-classical (AD 96–180) and late stages. Their work consisted of advising, teaching and writing; the most important advice went to emperors in the imperial councils.",
+   "terms": [
+    {
+     "term": "RESCRIPTA",
+     "def": "Written replies from the emperor to questions or petitions addressed to him; perhaps the richest source of imperial legislation."
+    },
+    {
+     "term": "EPISTULAE",
+     "def": "Rescripts in letter form answering officials or public bodies; handled by the office 'of letters' (AB EPISTULIS), signed by the emperor."
+    },
+    {
+     "term": "SUBSCRIPTIONES",
+     "def": "Rescripts answering private citizens; the answer was attached to their petition (LIBELLUS) by the bureau of petitions (A LIBELLIS)."
+    },
+    {
+     "term": "LIBELLUS",
+     "def": "Petition – the form in which private citizens had to present queries to the emperor."
+    },
+    {
+     "term": "AB EPISTULIS / A LIBELLIS",
+     "def": "Imperial office of letters / bureau of petitions, both staffed by jurists."
+    },
+    {
+     "term": "EDICTUM PERPETUUM",
+     "def": "Julian's revision and consolidation of the praetorian edicts commissioned by Hadrian, published c. AD 135; final version of the edict."
+    }
+   ],
+   "cards": [
+    {
+     "q": "Who mainly received imperial MANDATA, and what did they usually contain?",
+     "a": "Provincial governors and proconsuls.\n• Mostly detailed administrative instructions.\n• It is arguable whether they were law at all – they were often an abbreviated version of edicts or other legislation.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What does Ulpian (D.1.16.6.3) report about a proconsul accepting gifts?",
+     "a": "He need not refuse all gifts but should aim for a mean.\n• Not sulkily refusing everything, nor greedily taking too much.\n• Emperors Severus and Antoninus quoted the proverb: 'neither everything, nor every time, nor from every person'.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "extra"
+    },
+    {
+     "q": "Which duty of provincial governors does Paul (D.1.18.3) derive from the imperial warrants of appointment (MANDATA)?",
+     "a": "To cleanse the province of evil men.\n• This applies wherever they come from.\n• In general the governor has authority only over the people of his own province, but sometimes also over non-residents who took part in crime.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "What does Pliny the Younger's governorship of Bithynia show about MANDATA?",
+     "a": "They were not always precise enough.\n• He was governor under Trajan (AD 98–117) and had to exchange letters with the emperor about how to interpret his instructions.\n• Mandata were normally sent with a new governor.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "extra"
+    },
+    {
+     "q": "Which famous MANDATUM is credited to Trajan?",
+     "a": "The mandate allowing soldiers to make informal wills.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What were RESCRIPTA and why were they important?",
+     "a": "The emperor's written replies to questions or petitions.\n• Probably the richest source of imperial legislation.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "Distinguish EPISTULAE from SUBSCRIPTIONES.",
+     "a": "EPISTULAE: letters replying to officials or public bodies about their rights and duties; drafted by the office AB EPISTULIS (staffed by jurists) and signed by the emperor.\nSUBSCRIPTIONES: answers to private citizens, who had to submit a petition (LIBELLUS); the bureau A LIBELLIS attached the answer and the emperor signed the whole document.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Why did private citizens use a LIBELLUS rather than a letter to consult the emperor?",
+     "a": "Private citizens were not normally allowed to write to the emperor.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Why were SUBSCRIPTIONES an ideal medium for developing the law?",
+     "a": "Leading jurists ran the bureau of petitions.\n• Papinian and Ulpian apparently held the post in turn.\n• An answer to a legal query usually made it unnecessary to take the matter to court.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Why did the praetors lose importance in the early Empire?",
+     "a": "\n• The office lost prestige as the number of praetors grew.\n• The praetorship became largely a reward for loyalty to the emperor.\n• The emperor dominated the State.\n• Above all: Hadrian had the edicts consolidated (EDICTUM PERPETUUM).",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What was the EDICTUM PERPETUUM?",
+     "a": "The revision and consolidation of the praetorian edicts that Hadrian commissioned from Julian, published c. AD 135.\n• Praetors still issued the edict yearly but could no longer innovate.\n• It became the final version of the edict, though it still had to be interpreted.\n• It was probably not meant to end all development of the IUS HONORARIUM.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "Who drafted the EDICTUM PERPETUUM, for whom, and when?",
+     "a": "Julian, for Hadrian, c. AD 135.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What changed for the jurists in the classical period compared with the Republic?",
+     "a": "How they worked, not what they did.\n• The State employed them more and more – first ad hoc, then regularly, especially from Hadrian onwards.\n• They became partly glorified civil servants, though many still held high State offices as in the Republic.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Into which three stages does Kunkel divide the classical period?",
+     "a": "Early, mid-classical (AD 96–180) and late.\n• Across these stages the jurists changed from private individuals to men closely tied to the emperor.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What did the work of the classical jurists mainly consist of?",
+     "a": "Advising, teaching and writing.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What was the most important advice given by classical jurists?",
+     "a": "Advice to the emperors, as members of the imperial councils.\n• 'Advice' in a broad sense, including drafting imperial decrees.\n• RESPONSA to judges, magistrates, citizens and litigants continued, especially in the early classical period.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "10": {
+   "title": "Ius respondendi and the Sabinian and Proculian schools",
+   "text": "Pomponius (D.1.2.2.49) says that before Augustus the right to give opinions publicly was not granted by the emperor. Augustus was the first to let jurists give opinions under his authority, the IUS RESPONDENDI. A sealed written opinion from such a jurist to a judge was highly persuasive, though perhaps not strictly binding. The move was political: it won Augustus the loyalty of the men he needed. Gaius (Inst. Gai. 1.7) records a rescript of Hadrian: responsa bound the judge if the jurists holding the ius respondendi agreed unanimously; if they disagreed, the judge could choose. Hadrian probably meant to stop granting the right, and little is heard of it later. 2.3.4.2: Teaching remained informal, and loyalty to a teacher produced schools of legal thought. They began under Augustus with the rivalry between Labeo, a Republican and innovator, and Capito, a supporter of Augustus and a conservative (D.1.2.2.47–8). Each school was named after a disciple. The Proculians followed Labeo; the Sabinians, named after Massurius Sabinus, followed Capito. Personal ties mattered more than politics. The Proculians favoured principle and logic (RATIO), the Sabinians practical solutions and the 'nature of things' (NATURA RERUM). Stein links this to the grammarians' dispute between analogists and anomalists. On male puberty, the Sabinians looked at physical development, while the Proculians set a fixed age of 14, and their rule prevailed. The rivalry faded under Hadrian.",
+   "terms": [
+    {
+     "term": "IUS RESPONDENDI",
+     "def": "Right conferred on some jurists (from Augustus) to give responsa sanctioned by the emperor; a sealed written reply to a judge was highly persuasive."
+    },
+    {
+     "term": "Sabinians",
+     "def": "School following Capito, named after his successor Massurius Sabinus; pragmatic, stressing custom, practice and the nature of things."
+    },
+    {
+     "term": "Proculians",
+     "def": "School following Labeo, named after the disciple Proculus; favoured reasoned decisions based on principle and logic (ratio)."
+    },
+    {
+     "term": "RATIO",
+     "def": "The logic of the civil law – the Proculians' point of reference."
+    },
+    {
+     "term": "NATURA RERUM",
+     "def": "'The nature of things' – the Sabinians' justification of a rule."
+    },
+    {
+     "term": "Analogists / anomalists",
+     "def": "Grammarians' controversy (language governed by general rules vs language as product of usage) which Stein sees reflected in the schools' dispute."
+    }
+   ],
+   "cards": [
+    {
+     "q": "What did Augustus introduce regarding jurists' opinions (Pomponius, D.1.2.2.49)?",
+     "a": "He was the first to allow opinions to be given under his authority.\n• Before Augustus, the emperors did not grant the right to state opinions publicly.\n• Jurists gave opinions on their own confidence, not under seal, and usually wrote to the judges themselves.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "What was the IUS RESPONDENDI?",
+     "a": "The right given to some jurists to issue RESPONSA sanctioned by the emperor.\n• A sealed written reply to a judge from such a jurist was highly persuasive, if not strictly binding.\n• It aimed to make some responsa carry more authority, since conflicting opinions were a problem.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What political motive did Augustus probably have in granting the IUS RESPONDENDI?",
+     "a": "To win loyalty.\n• By granting a favour he could secure the loyalty of men whose support he needed.\n• Most leading early-classical jurists probably held the right.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What did Hadrian's rescript (reported by Gaius, Inst. Gai. 1.7) say about the force of RESPONSA?",
+     "a": "Unanimous responsa bound the judge; otherwise he could choose.\n• Responsa = opinions of men permitted to lay down the law.\n• If the opinions agreed, they had binding force.\n• If they disagreed, the judge could choose which to follow.\n• This applied only to jurists holding the IUS RESPONDENDI.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "What happened to the IUS RESPONDENDI after Hadrian?",
+     "a": "Little is heard of it.\n• Hadrian probably planned to stop granting it.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How did the schools of legal thought arise?",
+     "a": "Through informal teaching.\n• Students attached themselves to eminent jurists.\n• The resulting loyalty produced rival schools.\n• This began under Augustus with Labeo and Capito.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "Contrast Labeo and Capito.",
+     "a": "Labeo: a staunch Republican who refused the consulship from Augustus; a progressive innovator (e.g. the doctrine of unjust enrichment).\nCapito: a fervent supporter of Augustus; a conservative who kept to the tradition handed down to him.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Who succeeded Capito and Labeo, according to Pomponius (D.1.2.2.47–8)?",
+     "a": "Massurius Sabinus succeeded Ateius Capito; Nerva succeeded Labeo.\n• These two increased the disagreements between the schools.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "After whom were the two law schools named, and whom did each follow?",
+     "a": "They were named after two zealous disciples, not the founders.\n• Proculians (after Proculus): followers of Labeo.\n• Sabinians (after Sabinus): followers of Capito.",
+     "difficulty": 1,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Was political allegiance the main difference between Sabinians and Proculians?",
+     "a": "No.\n• There were Republican sympathizers in both camps.\n• Personal allegiance was important: friendship, family, and teacher–student ties.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Contrast the methods of the Proculians and the Sabinians.",
+     "a": "Proculians: reasoned decisions based on principle; appeal to the RATIO (logic) of the civil law.\nSabinians: pragmatic, looking for the practical and fair solution in each case; stressed custom and practice; justified rules by NATURA RERUM (the nature of things).",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Which grammarians' controversy does Stein see reflected in the dispute between the schools?",
+     "a": "Analogists against anomalists.\n• Analogists: language is orderly and governed by general rules.\n• Anomalists: language is the product of usage and practice.",
+     "difficulty": 3,
+     "kind": "rozliseni",
+     "priority": "extra"
+    },
+    {
+     "q": "How did the Sabinians and Proculians differ on the age of puberty for males?",
+     "a": "Sabinians: it depended on the individual's physical development – in doubtful cases a physical examination might be needed.\nProculians: an objective rule for everyone – the age of 14.\n• The Proculian rule prevailed.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "What happened to the rivalry between the schools under Hadrian?",
+     "a": "It faded.\n• Legal disputes continued, but jurists no longer declared allegiance to a school.\n• Before Hadrian, all leading jurists probably belonged to one school or the other, without following it blindly.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What controversial theory did Tellegen propose about the 'schools'?",
+     "a": "That they were sections of the Senate specializing in current legal problems.\n• Their leaders were given the IUS RESPONDENDI.\n• Criticized by Van den Bergh.",
+     "difficulty": 3,
+     "kind": "basic",
+     "priority": "extra"
+    }
+   ],
+   "vision_used": true
+  },
+  "11": {
+   "title": "Classical juristic literature and the jurists Labeo, Sabinus and Julian",
+   "text": "Classical legal writing was more varied and far more voluminous than Republican writing. It was above all casuistic: long discussions of actual and hypothetical cases, with little abstract theory, philosophy or history, and little interest in law reform or in moral, political, social, economic or even procedural questions. Watson calls this legal isolationism. What drove the jurists was interpreting the law and striving for clear legal concepts. Between about 100 BC and AD 250 they developed techniques of analogical and deductive reasoning, and the Roman tradition is marked more by this method than by its substantive rules. Borkowski lists six categories of classical juristic literature. (a) Problematic literature: DIGESTA (Julian's ran to 90 books), plus RESPONSA, QUAESTIONES and DISPUTATIONES. (b) Commentaries on the IUS CIVILE and the edict: Pomponius' commentary on the Edict had 150 books, and Ulpian's AD EDICTUM and AD SABINUM were heavily excerpted for the Digest. (c) Monographs. (d) Textbooks: Gaius' Institutes, c. AD 160. (e) Notes and epitomes, the least reliable. (f) Practitioner materials: REGULAE, DEFINITIONES, SENTENTIAE. The leading jurists: Labeo was credited with founding the Proculian school and was probably the first to stress analogy. Sabinus rose from humble origins; Tiberius granted him the right to give opinions, and his three-book work on the ius civile inspired the later commentaries of Paul and Ulpian. Julian was possibly the greatest jurist of all, from Tunisia; he held high office under Hadrian, Antoninus Pius and Marcus Aurelius and consolidated the Edict.",
+   "terms": [
+    {
+     "term": "Casuistic",
+     "def": "Character of classical legal writing: extensive discussion of cases, actual and hypothetical."
+    },
+    {
+     "term": "DIGESTA",
+     "def": "Title of the most substantial collections of problematic literature, e.g. Julian's Digesta in 90 books."
+    },
+    {
+     "term": "RESPONSA / QUAESTIONES / DISPUTATIONES",
+     "def": "Titles of smaller collections of problematic literature, mainly opinions in matters referred to the jurist."
+    },
+    {
+     "term": "AD EDICTUM / AD SABINUM",
+     "def": "Ulpian's commentaries on the Edict and on Sabinus' ius civile; heavily excerpted by Justinian's Digest commissioners."
+    },
+    {
+     "term": "REGULAE / DEFINITIONES / SENTENTIAE",
+     "def": "Names of practitioner materials: collections of basic rules, procedures, brief summaries and principles."
+    },
+    {
+     "term": "Notes and epitomes",
+     "def": "Comments by jurists on extracts from other jurists' works; suited to criticism; least reliable juristic works."
+    }
+   ],
+   "cards": [
+    {
+     "q": "What was the main character of classical juristic writing?",
+     "a": "Casuistic – extensive discussion of cases, actual and hypothetical.\n• Little abstract reasoning, philosophy or history.\n• No particular interest in law reform.\n• No interest in moral, political, social, economic or even procedural questions.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What does Watson mean by the 'legal isolationism' of the classical jurists?",
+     "a": "They argued as if they lived in a vacuum.\n• They were remote from economic, social, religious and political considerations.\n• Their driving concern was interpreting the law and 'striving for clarity of legal concepts'.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What chiefly characterizes the Roman legal tradition, according to 'The Roman Law Tradition' (1994)?",
+     "a": "Its intellectual methodology rather than its substantive rules.\n• Between about 100 BC and AD 250 the jurists developed refined techniques of analogical and deductive reasoning.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Name the six main categories of classical juristic literature.",
+     "a": "\n• (a) Problematic literature.\n• (b) Commentaries.\n• (c) Monographs.\n• (d) Textbooks.\n• (e) Notes and epitomes.\n• (f) Practitioner materials.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What is 'problematic literature', and what were its main collections called?",
+     "a": "Works discussing difficult legal questions, problems and cases – the most casuistic genre.\n• Largest collections: DIGESTA, e.g. Julian's Digesta in 90 books.\n• Smaller collections, mainly opinions on matters referred to the jurist: RESPONSA, QUAESTIONES, DISPUTATIONES.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "How many books did Julian's Digesta have?",
+     "a": "90 books.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "How many books did Pomponius' commentary on the Edict have, and what was a 'book'?",
+     "a": "150 books.\n• A 'book' of that period was roughly a modern chapter.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Which works of Ulpian were heavily excerpted by Justinian's Digest commissioners?",
+     "a": "AD EDICTUM and AD SABINUM.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What were the commentaries in classical juristic literature?",
+     "a": "Large-scale commentaries on the IUS CIVILE and on the praetors' edicts.\n• Often the most substantial works of the leading jurists.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "Why did monographs increase under Hadrian?",
+     "a": "His bureaucratic reforms led to more monographs on how magistrates and other officials should perform their public duties.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "extra"
+    },
+    {
+     "q": "What is the best-known textbook of the classical age, and when was it written?",
+     "a": "The Institutes of Gaius, c. AD 160.\n• Not necessarily the first textbook.\n• Works written specifically for students were uncommon in the Republic.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Why are notes and epitomes the least reliable juristic works?",
+     "a": "They were comments on extracts from other jurists' works.\n• They were the natural form when criticism was the author's main aim, and they sometimes provoked controversy.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What were practitioner materials, and what were they called?",
+     "a": "Works mainly for practitioners, also useful to students.\n• Collections of basic rules and procedures, brief summaries of rules, and principles.\n• Called REGULAE, DEFINITIONES or SENTENTIAE.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What is Labeo known for as a jurist?",
+     "a": "Credited with founding the Proculian school.\n• A prolific writer: commentaries on the Twelve Tables and the praetorian edicts.\n• Probably the first jurist to stress analogy in legal reasoning, later a key Proculian trait.\n• The outstanding jurist of the transition from Republic to Empire.\n• He spent six months a year in Rome with students and six months writing (D.1.2.2.47).",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What does Pomponius (D.1.2.2.50) tell us about Sabinus' career?",
+     "a": "He rose without wealth or high office.\n• Tiberius allowed him to give opinions to the people at large.\n• He was admitted to the equestrian rank when almost fifty.\n• He had no substantial means and was mostly supported by his pupils.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "What was Sabinus' chief work and its influence?",
+     "a": "A commentary on the IUS CIVILE in three books.\n• Little more than an outline, but treated as a work of the first rank.\n• It inspired major commentaries on the civil law by Paul and Ulpian.\n• He certainly held the IUS RESPONDENDI, and the Sabinians were named after him.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Give the main facts about Julian's career.",
+     "a": "Possibly the most distinguished of all Roman jurists, originally from Tunisia.\n• A Tunisian inscription lists his offices: quaestor, tribune, praetor, consul, governor of Germany, Spain and Africa.\n• He served Hadrian, Antoninus Pius and Marcus Aurelius.\n• Under Hadrian he consolidated the Edict.\n• His salary as quaestor was doubled for his 'extraordinary legal knowledge'.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "12": {
+   "title": "Julian, Pomponius, Gaius, Papinian, Paul, Ulpian, Modestinus",
+   "text": "Julian was the last head of the Sabinians, and the rivalry between the schools ended in his time. Explaining this by Julian's pre-eminence alone underrates Celsus, the last head of the Proculians. Julian's DIGESTA was an exemplary casebook. Pomponius, a contemporary of Julian, wrote the ENCHIRIDION, an elementary legal history that supplies much of the historical material in Justinian's codification, as well as commentaries on Scaevola, Sabinus and the Edict. Gaius was a Sabinian teacher who held no high office and was little known in his day. His INSTITUTES became the model exposition of the law and the basis of Justinian's Institutes. Its division into persons, things and actions proved seminal. It is the only classical juristic work to survive substantially intact, in a 5th-century manuscript found at Verona in 1816. Papinian wrote QUAESTIONES (37 books) and RESPONSA (19 books). He was praetorian prefect in AD 203 and was killed in 212 for refusing to condone Caracalla's murder of his brother. Paul was Papinian's assistant and a critical, wide-ranging author; his SENTENTIAE were used in the lex Romana Visigothorum, and only Ulpian is quoted more in the Digest. Ulpian, a Syrian probably from Tyre, supplies about one-third of the Digest. He wrote mainly in AD 213–17, chiefly AD EDICTUM and AD SABINUM, and was murdered by the praetorian guard probably in AD 223. Modestinus, Ulpian's pupil, was perhaps the last distinguished classical jurist.",
+   "terms": [
+    {
+     "term": "ENCHIRIDION",
+     "def": "Pomponius' elementary account of legal history ('Manual'); source of much historical material in Justinian's codification (D.1.2.2)."
+    },
+    {
+     "term": "Persons – things – actions",
+     "def": "Gaius' tripartite division of the law in his Institutes; seminal in Western jurisprudence."
+    },
+    {
+     "term": "RES COTTIDIANAE",
+     "def": "'Everyday matters' – elementary work traditionally attributed to Gaius; considerable posthumous popularity."
+    },
+    {
+     "term": "PRAEFECTUS PRAETORII",
+     "def": "Chief of the praetorian guard, the emperor's closest adviser; office held by Papinian (AD 203) and Ulpian (under Alexander Severus)."
+    },
+    {
+     "term": "Late classical trio",
+     "def": "Papinian, Paul and Ulpian."
+    }
+   ],
+   "cards": [
+    {
+     "q": "Who was the last head of the Sabinians, and who the last head of the Proculians?",
+     "a": "Julian (Sabinians); Celsus (Proculians).\n• The era of rivalry between the schools appears to have ended in Julian's time.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Why is it unconvincing to say the rivalry of the schools ended because of Julian's pre-eminence?",
+     "a": "It underestimates Celsus, the last head of the Proculians.\n• Celsus was an eminent teacher and prolific writer, perhaps not quite Julian's equal but a distinguished jurist.",
+     "difficulty": 3,
+     "kind": "basic",
+     "priority": "extra"
+    },
+    {
+     "q": "What was Julian's greatest work and its significance?",
+     "a": "His DIGESTA.\n• An exemplary casebook.\n• A catalyst for much important work of the late classical jurists.\n• His works were numerous, of the highest quality, and models of clarity and elegance.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Why is Pomponius important for our knowledge of Roman legal history?",
+     "a": "His ENCHIRIDION, an elementary account of legal history, is the source of much of the historical material in Justinian's codification.\n• He also wrote commentaries on Scaevola and Sabinus and a large work on the praetorian Edict.\n• A contemporary of Julian; he wrote and taught but held no high imperial office.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which school did Gaius belong to, and what was his career like?",
+     "a": "He was a Sabinian teacher and writer.\n• He held no high office and was not well known in his day.\n• He became famous after his death through his Institutes.\n• Career unclear: he seems to have lived or travelled outside Rome for long periods; perhaps he started in Rome and later worked in the eastern provinces.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Why did Gaius' Institutes become so influential?",
+     "a": "Its simplicity and clarity made it the model exposition of the law.\n• It had lasting influence in the post-classical era and beyond.\n• Justinian based his own Institutes on it.\n• Its focus on exposition rather than case analysis added to its later popularity.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What is Gaius' tripartite division of the law?",
+     "a": "Persons, things and actions.\n• A classification that proved seminal in Western jurisprudence.",
+     "difficulty": 1,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "How has Gaius' Institutes come down to us?",
+     "a": "It is the only classical juristic work to survive substantially intact.\n• A 5th-century manuscript, thought to be authentic and virtually complete, was discovered in Verona in 1816.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Name Gaius' works besides the Institutes.",
+     "a": "\n• Commentaries on the IUS CIVILE.\n• A commentary on the provincial Edict.\n• RES COTTIDIANAE ('Everyday matters') – traditionally attributed to him; an elementary work with considerable posthumous popularity.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What were Papinian's main works, and how many books did each have?",
+     "a": "QUAESTIONES (37 books) and RESPONSA (19 books).\n• Both are outstanding examples of problematic literature.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Give the key dates of Papinian's career and death.",
+     "a": "\n• Earlier: head of the office of petitions.\n• AD 203: praetorian prefect (PRAEFECTUS PRAETORII), the emperor's closest adviser.\n• AD 208: visited Britain (York) with Paul, Ulpian and Septimius Severus.\n• AD 212: killed, allegedly for refusing to condone Caracalla's murder of the emperor's brother.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What is known about the jurist Paul?",
+     "a": "Little is certain.\n• Early career in teaching and advocacy; later Papinian's assistant and holder of high office.\n• A prolific author with a critical intellect, writing elementary works, monographs, problematic works, notes and epitomes, collections of decisions, and commentaries on the IUS CIVILE and the Edict.\n• Immense reputation in the post-classical era.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which work of Paul was used extensively in the LEX ROMANA VISIGOTHORUM?",
+     "a": "His SENTENTIAE.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which jurists are most and second-most quoted in Justinian's Digest?",
+     "a": "Ulpian, then Paul.\n• Ulpian: about one-third of the Digest.\n• Only Ulpian is quoted more extensively than Paul.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What share of the Digest consists of passages from Ulpian?",
+     "a": "About one-third.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Where did Ulpian come from, and what was his writing like?",
+     "a": "A Syrian, probably born in Tyre – an example of provincials rising in the Empire.\n• His writings were huge in volume.\n• Perhaps lacking Paul's critical insight, but models of clarity, simplicity and reliability.\n• Unusually for a jurist, he was interested in philosophy: law as the highest form of philosophy, concerned with right and wrong.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "When did Ulpian mainly write, and what does Honoré suggest about his aim?",
+     "a": "Mainly AD 213–17.\n• Possibly meant as a single-handed codification of the law.\n• Honoré (controversial): after the CONSTITUTIO ANTONINIANA of AD 212 (which Ulpian may have drafted) there was a need for a full exposition of the law for the Empire's peoples.",
+     "difficulty": 3,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What were Ulpian's chief works?",
+     "a": "AD EDICTUM and AD SABINUM.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What offices did Ulpian hold, and how did he die?",
+     "a": "\n• Probably head of the office of petitions in the early 3rd century.\n• Later praetorian prefect under Alexander Severus.\n• Murdered by his own guards, probably in AD 223, allegedly in front of the emperor.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Who formed the 'formidable late classical trio' of jurists?",
+     "a": "Papinian, Paul and Ulpian.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Who was Modestinus?",
+     "a": "Perhaps the last distinguished jurist of the classical period.\n• Not in the class of Papinian, Paul and Ulpian.\n• Ulpian calls him his 'pupil' (D.47.2.52.20).\n• He held only minor office but reportedly had influence at the imperial court.\n• He wrote student handbooks, practice manuals and monographs, not large commentaries.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What did Ulpian answer his pupil Modestinus in D.47.2.52.20 (the male ass among the mares)?",
+     "a": "No theft without theftuous intent.\n• Someone who drove off another's male ass and set it loose among his own mares to breed is not guilty of theft unless he had the intent to steal.\n• Ulpian applied the same to horses: liability for theft only with guilty intent.",
+     "difficulty": 3,
+     "kind": "judikat",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "13": {
+   "title": "The post-classical era: why the jurists vanished; Law of Citations; legislation",
+   "text": "The three centuries between the end of the classical period and Justinian's codification are usually seen as a time of decline. There was a great deal of legislation, for example on the Church after Rome's conversion. The emperor's law became the only source, the jurists lost importance and the classical intellectual spirit largely disappeared. The decline was worse in the West, where the Empire was politically fragile and eventually broke up. In the East, flourishing law schools partly halted it. Why were there no outstanding jurists? Borkowski weighs four explanations: classical legal science had exhausted itself, political instability, talent drawn into the Church after the conversion, and Diocletian's bureaucracy, which required anonymous drafters as the Principate turned into the Dominate. None explains everything. Even under Diocletian, Hermogenianus made a name with the CODEX HERMOGENIANUS. Post-classical literature was anonymous and unoriginal (COLLATIO, FRAGMENTA VATICANA). Because summaries distorted the classical texts, rules on authority became necessary. Constantine banned the notes of Paul and Ulpian on Papinian. The Law of Citations (AD 426) gave primary authority to five jurists: Gaius, Papinian, Paul, Ulpian and Modestinus. The majority decided; on a tie, Papinian's view decided; otherwise the judge was free. Critics see this 'counting of heads' as a sign of intellectual fatigue. Legislation grew, especially in the East, and became verbose and conflicting. There were attempts to settle the status of rescripts, and in AD 439 decrees were made inapplicable in another emperor's territory without his consent.",
+   "terms": [
+    {
+     "term": "Post-classical era",
+     "def": "Three centuries between the end of the classical period and Justinian's codification; period of decline, emperor's legislation the sole source."
+    },
+    {
+     "term": "Principate / Dominate",
+     "def": "Phases of the Empire; the transition to the Dominate (Diocletian) meant juristic activity lost its individuality."
+    },
+    {
+     "term": "CODEX HERMOGENIANUS",
+     "def": "Collection of imperial decrees by Hermogenianus (under Diocletian), c. AD 295."
+    },
+    {
+     "term": "COLLATIO LEGUM MOSAICARUM ET ROMANARUM / FRAGMENTA VATICANA",
+     "def": "Anonymous post-classical works (probably early 4th c.) summarizing classical works and imperial legislation."
+    },
+    {
+     "term": "Law of Citations (AD 426)",
+     "def": "Gave primary authority to Gaius, Papinian, Paul, Ulpian and Modestinus; majority rule, Papinian decisive in a tie."
+    }
+   ],
+   "cards": [
+    {
+     "q": "How is the post-classical era generally characterized?",
+     "a": "As a period of decline.\n• It spans the three centuries between the end of the classical period and Justinian's codification.\n• Much legislation driven by huge changes, e.g. laws defining the powers of the Church after the conversion.\n• The emperor's legislation was the only source of law, and the jurists lost importance.\n• The intellectual spirit of the classical period was largely missing.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Why was the post-classical decline worse in the West than in the East?",
+     "a": "West: the Empire was increasingly fragile politically and eventually fell apart.\nEast: the decline was partly halted by flourishing law schools, which prepared the ground for Justinian's work.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Which explanations does Borkowski discuss for the lack of outstanding jurists after the classical period?",
+     "a": "\n• Classical legal science could not go on for ever – after Paul and Ulpian, what was left to do?\n• Political instability from the 3rd century – but the late Republic was unstable and full of jurists.\n• The conversion to Christianity drew talent into the Church – but this does not explain the gap between Modestinus' death (AD 244) and the conversion.\n• Diocletian's bureaucratic reforms required anonymous drafters (Principate → Dominate) – but this does not explain the generation before Diocletian.",
+     "difficulty": 3,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "When did Modestinus die?",
+     "a": "AD 244.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "extra"
+    },
+    {
+     "q": "Which explanation of the jurists' disappearance does Borkowski consider most satisfactory, and what is its weakness?",
+     "a": "Diocletian's bureaucratic reforms.\n• They required anonymous drafters: everything had to appear to come from the emperor, so juristic work lost its individuality in the move from Principate to Dominate.\n• Weakness: it does not explain why there were no outstanding jurists in the generation before Diocletian.",
+     "difficulty": 3,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Who was Hermogenianus?",
+     "a": "A talented jurist under Diocletian.\n• Author of the CODEX HERMOGENIANUS, a collection of imperial decrees, some of which he may have drafted himself.\n• Honoré: secretary of the office of petitions; his rescripts were 'a legal education in themselves'.\n• He is quoted in Justinian's Digest.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Name two works of post-classical juristic literature and their character.",
+     "a": "COLLATIO LEGUM MOSAICARUM ET ROMANARUM and FRAGMENTA VATICANA.\n• Probably early 4th century.\n• Anonymous and unoriginal: summaries of classical works and imperial legislation, with a risk of distorting the originals.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Why did Gaius' Institutes gain authority in the post-classical period?",
+     "a": "Post-classical summaries had caused confusion.\n• Gaius' Institutes hardly needed summarizing, so it was seen as a model exposition of classical law.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What did Constantine prohibit with regard to juristic writings?",
+     "a": "The use of the notes of Paul and Ulpian on Papinian.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "When was the Law of Citations enacted, and which five jurists did it name?",
+     "a": "AD 426.\n• Gaius, Papinian, Paul, Ulpian, Modestinus.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "How did the Law of Citations resolve conflicts between juristic opinions?",
+     "a": "\n• Only the five named jurists had primary authority; their quotations of other jurists also counted.\n• If they conflicted, the majority view prevailed.\n• With no majority, the judge decided as he pleased – unless Papinian had expressed a view, which then had to be followed.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "Why has the Law of Citations been criticized?",
+     "a": "It counted heads instead of weighing the merits of opinions.\n• It was mechanical, though practical.\n• Critics see it as a symptom of the age's alleged intellectual fatigue.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What happened to imperial legislation in the post-classical period?",
+     "a": "It grew, especially in the East.\n• The forms stayed broadly the same, with a greater variety of RESCRIPTA.\n• Decrees became verbose, full of rhetoric glorifying the emperor.\n• Many carelessly drafted decrees caused confusion and conflicts.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "How did post-classical emperors try to limit the authority of rescripts?",
+     "a": "\n• Constantine: rescripts 'contrary to the law' were invalid – ambiguous, since rescripts were themselves law and later law normally repealed earlier law (C.Th.1.2.2).\n• End of the 4th century: rescripts authoritative only for the case for which they were issued (C.Th.1.2.11).\n• Theodosius II: rescripts generally authoritative if stated to be of general application (cf. C.1.14.12pr).",
+     "difficulty": 3,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "What did Theodosius II decide in AD 439 about decrees in a divided Empire?",
+     "a": "Decrees were not to apply in another emperor's territory without his consent.\n• Earlier practice: decrees were issued in the name of all the emperors and were valid throughout the Empire.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "14": {
+   "title": "Codes of imperial law, Christianity, Eastern influence, barbarian codes, vulgarization",
+   "text": "Several collections of imperial decrees were made in the post-classical era. The CODEX GREGORIANUS (c. AD 291) gathered all surviving decrees of the previous hundred years. The CODEX HERMOGENIANUS (c. AD 295) contained the decrees of the years just before it. Both were 'unofficial', not issued in any emperor's name, though they must have had imperial approval. The most important was the THEODOSIAN CODE (AD 438), which collected all imperial legislation since Constantine in 16 books, divided into titles with the decrees in chronological order. It is the most important code in Roman legal history apart from the Twelve Tables and Justinian's codification, and was a model for Justinian. Theodosius II also planned a compilation of juristic writings but never carried it out. 2.4.3: Four factors shaped later law: Christianity, Eastern customs, the barbarian invasions and the law schools. Christianity produced ecclesiastical law and punished divorce without cause, but did not abolish divorce or slavery. Eastern influence gave the law a Byzantine colour, especially the law of persons (marriage gifts, dowry). In D.1.3.32.1 'Julian' says custom has almost statutory force. The attribution is suspect: the text is probably the Digest compilers' work, reflecting the revival of custom. The barbarian kingdoms issued codes for their Roman subjects: the lex Romana Visigothorum (506, Alaric II), the lex Romana Burgundiorum and the Edictum Theodorici. 'Vulgarization' is an ambiguous label for these influences. In the East, the law schools of Beirut and Constantinople led a 5th-century revival of legal learning.",
+   "terms": [
+    {
+     "term": "CODEX GREGORIANUS",
+     "def": "c. AD 291; contained all extant imperial decrees of the previous hundred years; 'unofficial'."
+    },
+    {
+     "term": "CODEX THEODOSIANUS (Theodosian Code)",
+     "def": "AD 438; all imperial legislation in force enacted since Constantine; 16 books divided into titles, decrees chronological within titles."
+    },
+    {
+     "term": "LEX ROMANA VISIGOTHORUM",
+     "def": "AD 506, promulgated by the Visigoth chief Alaric II; legislation (mainly from the Theodosian Code) plus abridged extracts from Gaius and Paul."
+    },
+    {
+     "term": "LEX ROMANA BURGUNDIORUM",
+     "def": "Early 6th c.; for Roman citizens in what is now eastern France; systematic titles based mainly on classical sources."
+    },
+    {
+     "term": "EDICTUM THEODORICI",
+     "def": "Probably by the Ostrogoth chief Theodoric; applied to 'barbarians' as well as Romans; aid to interpretation of existing law."
+    },
+    {
+     "term": "Vulgarization",
+     "def": "Term for the influence of Christianity, Eastern custom and barbarian codes on post-classical Roman law; ambiguous (debasement / departure from classical norms / regional divergence / crude practice)."
+    }
+   ],
+   "cards": [
+    {
+     "q": "Distinguish the CODEX GREGORIANUS from the CODEX HERMOGENIANUS.",
+     "a": "CODEX GREGORIANUS (c. AD 291): all surviving imperial decrees of the previous hundred years.\nCODEX HERMOGENIANUS (c. AD 295): decrees from the years just before its publication.\n• Both were 'unofficial' – not issued in the name of a particular emperor (possibly Diocletian) – but must have had imperial approval.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "What did the Theodosian Code contain, and when was it issued?",
+     "a": "AD 438.\n• All imperial legislation then in force that had been enacted since Constantine.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "How was the Theodosian Code structured?",
+     "a": "16 books, each divided into titles.\n• Within each title the decrees were listed in chronological order.\n• The scheme was not new: it had been used in Diocletian's compilations, which followed some classical works.",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "Why is the Theodosian Code important?",
+     "a": "After the Twelve Tables and Justinian's codification, it is the most important code in Roman legal history.\n• A model, to some extent, for Justinian's codification.\n• A prime historical source for the period's tensions, e.g. taxation and Church matters.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What did Theodosius II plan besides his code of imperial legislation?",
+     "a": "A compilation of juristic literature.\n• It was never carried out.\n• Justinian, who knew of it, wanted to outdo him.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which four factors particularly influenced post-classical Roman law?",
+     "a": "\n• The conversion to Christianity.\n• Eastern customs.\n• The 'barbarian' invasions.\n• The work of the law schools.",
+     "difficulty": 1,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "How did Christianity affect Roman law?",
+     "a": "\n• A complex ecclesiastical law on the relationship between Church and State.\n• Rules on the status of clergy and church functionaries; new offences protecting church property and personnel.\n• Changes to the law of persons, e.g. strict sanctions for divorce without cause.\n• But divorce and slavery were not abolished; slaves' legal position improved under Justinian.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Give examples of Eastern (Greek) influence on late Roman law.",
+     "a": "\n• Constantine and his successors favoured Eastern customs, giving Roman law a Byzantine colour.\n• The bridegroom's substantial gift to the bride on marriage was recognized by late imperial legislation.\n• The dowry (given to the husband by the wife or her family) was affected by Greek custom: legislation reduced the husband's rights in it.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "What does D.1.3.32.1 (attributed to Julian) say about custom?",
+     "a": "Long-established custom has almost the force of a statute.\n• Reason: statutes bind only because the people accepted them, so what the people approved without writing should bind everyone too.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "Why is the attribution of D.1.3.32.1 to Julian suspect, and who probably wrote it?",
+     "a": "It does not fit what we know of Julian.\n• Given the centralizing tendencies of his time, he is unlikely to have given custom 'almost statutory force'.\n• The authors were most probably Justinian's Digest compilers – an example of an interpolation.\n• It reflects the revived importance of custom after its near disappearance as a source following the Twelve Tables.",
+     "difficulty": 3,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What was the LEX ROMANA VISIGOTHORUM?",
+     "a": "A code for Roman citizens promulgated in AD 506 by the Visigoth chief Alaric II.\n• A mix of legislation (mainly from the Theodosian Code) and abridged extracts from classical jurists, especially Gaius and Paul.\n• A debased form of Roman law, but of lasting influence: used in parts of the former Western Empire into the early medieval period.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "Distinguish the three 'barbarian' codes mentioned by Borkowski.",
+     "a": "LEX ROMANA VISIGOTHORUM (AD 506, Alaric II): for Roman citizens; legislation plus extracts from Gaius and Paul.\nLEX ROMANA BURGUNDIORUM (early 6th century): for Roman citizens in what is now eastern France; arranged systematically in titles, mainly from classical sources.\nEDICTUM THEODORICI (same period, probably the Ostrogoth Theodoric): applied to 'barbarians' as well as Romans; meant to aid interpretation of existing law.",
+     "difficulty": 3,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "What senses can the term 'vulgarization' carry?",
+     "a": "\n• Most derogatory: the debasement of Roman law, especially in the 'barbarian' codes.\n• Technical: open departure from classical norms.\n• The divergence between law in remote parts of the Empire and law around Rome and Constantinople.\n• The supposedly crude, unscientific practice of Roman law in the later Empire.",
+     "difficulty": 3,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Which law schools led the 5th-century revival of legal learning in the East?",
+     "a": "Beirut and Constantinople.\n• The revival came especially under Theodosius II.\n• Other schools (Rome, Alexandria, Athens) existed, but these two were by far the most eminent.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "15": {
+   "title": "Justinian's codification: Tribonian, Codex vetus, Fifty Decisions, the Digest",
+   "text": "The eastern law schools taught by lecturing on the classical texts in detail. This return to the originals renewed legal science and made Justinian's work possible. 2.5: The codification was Justinian's most durable achievement and made possible the Reception of Roman law in medieval Europe and beyond. He began it in AD 528, a few months after becoming emperor; he had in effect ruled during his predecessor's reign and probably planned it in advance. The law was in confusion: the Theodosian Code did not restate the whole law, the Law of Citations had sped up the decline of legal science, and there was a mass of new legislation. Tribonian led most of the project. He was a consul and quaestor and knew the classical jurists well; Justinian overlooked his alleged corruption, his supposed pagan sympathies and his unpopularity, according to Procopius. The stages were the Codex vetus, the Fifty Decisions, the Digest, the Institutes, the New Code and the Novellae. The first two were only preparatory and are not part of the CORPUS IURIS CIVILIS. The Codex vetus was set up by the CONSTITUTIO HAEC: ten men under John of Cappadocia, including Tribonian and Theophilus, gathered the imperial enactments still in force. It was published in AD 529, repealed all earlier codes, and survives only in one index page. The Fifty Decisions (AD 530) resolved disputed points of juristic law; no copy survives. Honoré credits the idea of the Digest to both Justinian and Tribonian. The Digest (or PANDECTS) is by far the most important source of Roman law: an anthology of mainly late classical jurists, preserved in the 'Florentine' manuscript. As a model for the Empire it failed, being too large, too complex and too badly arranged.",
+   "terms": [
+    {
+     "term": "Tribonian",
+     "def": "Justinian's chief minister for much of the codification; consul and quaestor; learned in classical juristic works; chaired the Digest commission."
+    },
+    {
+     "term": "CORPUS IURIS CIVILIS",
+     "def": "Name sometimes given to Justinian's codification (Digest, Institutes, New Code, Novellae); the Codex vetus and Fifty Decisions are not part of it."
+    },
+    {
+     "term": "CONSTITUTIO HAEC",
+     "def": "Imperial pronouncement creating the ten-man commission for the first Code (Codex vetus)."
+    },
+    {
+     "term": "CODEX VETUS",
+     "def": "First Code of Justinian, AD 529: all imperial enactments still in force; repealed all previous imperial legislation; not extant except an index page."
+    },
+    {
+     "term": "Fifty Decisions",
+     "def": "Series of decrees of AD 530 abolishing obsolete rules and resolving controversies in juristic literature; no copy survives."
+    },
+    {
+     "term": "DIGEST / PANDECTS",
+     "def": "Centrepiece of Justinian's work: an anthology of juristic literature, mainly late classical, updated for contemporary use; by far the most important source of Roman law."
+    },
+    {
+     "term": "Florentine text",
+     "def": "Manuscript made not long after the Digest's compilation, through which the Digest survived intact."
+    }
+   ],
+   "cards": [
+    {
+     "q": "How did the eastern law schools prepare the ground for Justinian?",
+     "a": "They taught through lectures that examined the classical texts in detail.\n• This return to the original texts renewed the science of law and created the intellectual climate for Justinian's works.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Why is Justinian's codification historically so important?",
+     "a": "It was by far the most durable achievement of his reign.\n• It made possible the Reception of Roman law in medieval Europe and later in many other parts of the world.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "When did Justinian begin the codification?",
+     "a": "AD 528, a few months after he came to the throne.\n• He had effectively ruled during much of his predecessor's short reign and probably planned it beforehand.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Why did Justinian consider a codification necessary?",
+     "a": "The law was in confusion.\n• The Theodosian Code was not a full restatement of the law.\n• Legal science had declined, a decline sped up by the Law of Citations.\n• There was a mass of new imperial legislation.\n• So it was hard to find out the law on any given matter.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Who was Tribonian?",
+     "a": "Justinian's chief minister for much of the codification.\n• Held several important offices, including consul and quaestor.\n• A very learned man, familiar with the classical jurists.\n• Justinian overlooked his alleged corruption, supposed pagan leanings and unpopularity with the Constantinople nobility (according to the Greek writer Procopius).",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "List the main stages of Justinian's codification in order.",
+     "a": "Codex vetus → Fifty Decisions → Digest → Institutes → New Code → Novellae.",
+     "difficulty": 1,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "Which stages of Justinian's codification are not part of the CORPUS IURIS CIVILIS?",
+     "a": "The Codex vetus and the Fifty Decisions.\n• They were only preparatory.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "What does Justinian say in the CONSTITUTIO DEO AUCTORE (c. 1) about the first stage of the codification?",
+     "a": "The imperial laws had become hopelessly confused.\n• The law since the foundation of Rome was of enormous length and beyond human understanding.\n• So the first task was to free the constitutions of the earlier emperors from faults and collect them in one CODEX, without repetition or harmful disagreement.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "How was the CODEX VETUS made?",
+     "a": "\n• The CONSTITUTIO HAEC created a commission of ten men to collect all imperial enactments still in force.\n• An updating exercise: a revision especially of the Theodosian Code and the codes of Diocletian's reign.\n• Led by John of Cappadocia; members included Tribonian and Theophilus (professor at Constantinople).\n• It had wide powers to remove obsolete and confusing material.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "When was the CODEX VETUS published, and what was its effect?",
+     "a": "AD 529, after a little over a year's work.\n• It superseded all earlier imperial legislation – the Theodosian Code and all others were repealed.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "How do we know the content of the CODEX VETUS?",
+     "a": "Only from one surviving index page – no copy of the code survives.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Why is the first Code called 'vetus' ('old')?",
+     "a": "The label was added later to distinguish it from the New Code of AD 534.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What were the Fifty Decisions?",
+     "a": "Decrees of AD 530 that abolished obsolete rules and resolved disputed points in juristic literature.\n• Published, probably the same year, as a separate collection.\n• No copy survives.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "Who conceived the idea of the Digest?",
+     "a": "Probably both Justinian and Tribonian (Honoré).\n• The Codex vetus and the Fifty Decisions may have been Justinian's original plan; Tribonian, a scholar with an outstanding library, may have persuaded him to summarize the jurists' literature.\n• Or it reflects Justinian's own ambition to outdo Theodosius II, who planned but never made a compilation of classical juristic literature.",
+     "difficulty": 3,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What is the Digest (PANDECTS)?",
+     "a": "The centrepiece of Justinian's work: a legal encyclopaedia.\n• An anthology of juristic literature, mainly of the late classical period, updated for contemporary use by the compilers.\n• By far the most important source of Roman law.\n• It culminated the rebirth of legal learning in the eastern law schools of the 5th century.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "How has the text of the Digest survived?",
+     "a": "Intact in a manuscript made not long after its compilation – the 'Florentine' text.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Did the Digest achieve Justinian's aim?",
+     "a": "No – he meant it as a model for his empire, but it was too large, too complex and too badly arranged.\n• Still, its huge mass of material proved invaluable to later ages.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "16": {
+   "title": "Compiling the Digest: commission, task, sources; interpolations",
+   "text": "Two constitutions are the main evidence for how the Digest was compiled: DEO AUCTORE (December AD 530) and TANTA (December 533). Tribonian chose 17 commissioners, himself included: academics, practitioners and ministers. Four were professors: Dorotheus and Anatolius from Beirut, and Theophilus and Cratinus from Constantinople. Their task (Deo auctore 4) was to read the works of the old jurists whom the emperors had authorized to interpret the law, extract their substance, remove repetition and contradiction, and produce one work in place of them all. They did not fully succeed: despite Tanta 15 the Digest contains repetitions and conflicting passages. Tribonian supplied rare books himself (Tanta 17). The claim that about 2,000 books were excerpted is an exaggeration; 1,500–1,600 is more likely. The index lists 38 jurists. Because every quoted jurist now had equal authority, the Law of Citations was repealed, but Ulpian, Paul and Gaius still supply over half the excerpts. The arrangement follows the scheme of the classical commentaries; the project was launched by the constitution AD SENATUM of 22 July 530. 2.5.3.2: Under Tanta 10 the commission could amend texts. These changes, called interpolations, were not marked, so a jurist may be quoted saying something he never wrote. They are detected by comparison with other texts, by breaks in logic, and by language or terminology that is not classical. Not all were made by Justinian's commission; some came from earlier eastern academics. After an early 20th-century obsession, scholars now take a cautious view. Supplement (not in Borkowski): a Digest citation such as D.1.2.2.4 gives book.title.fragment.paragraph, and 'pr' (principium) is the opening part before § 1.",
+   "terms": [
+    {
+     "term": "CONSTITUTIO DEO AUCTORE",
+     "def": "Imperial decree of December AD 530 authorizing the compilation of the Digest; describes the commission and its task."
+    },
+    {
+     "term": "CONSTITUTIO TANTA",
+     "def": "Decree of December AD 533 on the completed Digest (claims of no contradictions, 2,000 books, power to amend)."
+    },
+    {
+     "term": "Constitution AD SENATUM (22 July 530)",
+     "def": "The imperial decree which set the Digest project in motion (Pugsley)."
+    },
+    {
+     "term": "Interpolations",
+     "def": "Amendments made to juristic texts when they were excerpted, without acknowledgment; the compilers had power to amplify or curtail texts (Tanta 10)."
+    },
+    {
+     "term": "Index of authors and works",
+     "def": "Issued with the Digest; shows excerpts from 38 different jurists."
+    },
+    {
+     "term": "Digest citation (supplement)",
+     "def": "D. book . title . fragment . paragraph, e.g. D.1.2.2.4; 'pr' = principium (opening part before § 1), e.g. D.1.4.1pr."
+    }
+   ],
+   "cards": [
+    {
+     "q": "Which two constitutions tell us most about the compilation of the Digest, and when were they enacted?",
+     "a": "CONSTITUTIO DEO AUCTORE (December AD 530) and CONSTITUTIO TANTA (December AD 533).\n• They tell us at least what Justinian chose to reveal.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What did the CONSTITUTIO DEO AUCTORE (c. 3) order Tribonian to do?",
+     "a": "Choose suitable colleagues.\n• From the most eloquent professors and the ablest advocates of the highest court.\n• They worked in the palace on the whole task, under Tribonian's close supervision.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "How many commissioners compiled the Digest, and who were they?",
+     "a": "17, including Tribonian.\n• A mix of leading academics, practitioners and government ministers.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Name the four law professors on the Digest commission and their schools.",
+     "a": "\n• Beirut: Dorotheus and Anatolius.\n• Constantinople: Theophilus and Cratinus.",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "What task does the CONSTITUTIO DEO AUCTORE (c. 4) give the Digest commission?",
+     "a": "To make one work out of the old jurists' books.\n• Read and work through the books on Roman law by the old jurists whom the emperors had authorized to compose and interpret laws.\n• Extract their whole substance.\n• Remove repetition and discrepancy as far as possible.\n• Compile one single work to replace them all.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "Did the compilers succeed in removing all repetition and contradiction from the Digest?",
+     "a": "No.\n• The Digest has many repetitions and inconsistencies.\n• Tanta 15 nevertheless claims that no contradiction found a place in it.\n• Centuries of careful study have not reconciled some conflicting passages.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What does the CONSTITUTIO TANTA (c. 17) say about Tribonian's part in collecting sources?",
+     "a": "Tribonian supplied a very large number of books.\n• Many were unknown even to the most learned men.\n• All were read and the most valuable parts excerpted.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "How many books were reportedly read and excerpted for the Digest, and what is the realistic figure?",
+     "a": "Claimed: about 2,000 books.\n• This is exaggerated; the evidence suggests 1,500–1,600.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "From how many jurists were excerpts taken for the Digest?",
+     "a": "38 different jurists, according to the index of authors and works issued with the Digest.\n• Many more are quoted indirectly through those writers.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Why did the Digest require the repeal of the Law of Citations?",
+     "a": "All jurists quoted in the Digest had to have equal authority.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which jurists dominate the Digest?",
+     "a": "The jurists named in the Law of Citations, especially Ulpian, Paul and Gaius.\n• These three together account for more than half of the excerpts.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What scheme did the overall arrangement of the Digest follow?",
+     "a": "The traditional scheme found in the major classical commentaries.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Which imperial decree set the Digest project in motion, according to Pugsley?",
+     "a": "The constitution AD SENATUM of 22 July 530.",
+     "difficulty": 3,
+     "kind": "cisla",
+     "priority": "extra"
+    },
+    {
+     "q": "What power did the Digest compilers have over the texts (CONSTITUTIO TANTA 10)?",
+     "a": "Power to amend them.\n• If anything seemed superfluous, imperfect or unsuitable, they could expand or shorten it and put it in its most correct form.\n• Purpose: to give practitioners a workable text, not just a summary of the literature.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "What are interpolations?",
+     "a": "Changes made to juristic texts when they were excerpted for the Digest.\n• The compilers named the jurist for each excerpt but did not mark the changes.\n• So a jurist may be quoted saying something he did not write.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "How can interpolations be detected?",
+     "a": "\n• Comparing Digest passages with surviving classical or Byzantine texts.\n• A lack of coherence or logic in a passage (risky – classical jurists could lapse too).\n• Style, construction and vocabulary compared with classical Latin and the style of the particular jurist.\n• Legal terms not known until late law.",
+     "difficulty": 2,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "Why is the linguistic test for interpolations both useful and dangerous?",
+     "a": "Useful: the compilers' first language was probably Greek (Latin was the official language of the courts), and 6th-century Latin differed from Paul's and Ulpian's.\nDangerous: classical jurists may also have written sloppy, unidiomatic Latin.",
+     "difficulty": 3,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "Were all interpolations made by Justinian's commission?",
+     "a": "Not necessarily.\n• Some may have been made earlier, perhaps by academics in the eastern law schools.\n• The commission may have used texts that were already interpolated.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How has scholarly attitude to interpolations changed?",
+     "a": "From obsession to caution.\n• Early 20th century: the hunt for interpolations became an obsession.\n• Interpolations matter if one studies only classical law, for which the Digest is hardly a reliable guide.\n• But classical law is not the whole of Roman law.\n• Interpolations are now seen as necessary amendments for a working code, not as corruption.\n• Interpolation criticism has given way to a more balanced and cautious approach.",
+     "difficulty": 3,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "How do you read a Digest citation such as D.1.2.2.4 or D.1.4.1pr? (supplement – Borkowski uses but does not explain the system)",
+     "a": "D. book . title . fragment . paragraph.\n• D.1.2.2.4 = Digest, book 1, title 2, fragment 2, paragraph 4 (here: Pomponius' Manual on the Twelve Tables).\n• 'pr' = principium, the opening part of a fragment before § 1: D.1.4.1pr = book 1, title 4, fragment 1, principium (Ulpian on the emperor's decisions).",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "17": {
+   "title": "Ban on commentaries, speed of compilation, Nika riots, Bluhme's masses",
+   "text": "Scholars now assume that the classical core of most texts survived and that most changes were cosmetic. 2.5.3.3: Justinian wanted the Digest to be a model, so in Deo auctore 12 he banned commentaries on it, because past commentators' conflicting opinions had thrown the law into confusion. He did allow translations and explanatory notes on difficult passages. Under Tanta 21, doubtful points were to be referred by judges to the emperor, who alone could both make and interpret law. Even so, commentaries appeared before his reign ended. 2.5.3.4: The Digest took three years instead of the ten planned, although most commissioners were not working on it full-time. Several explanations have been offered. The Peters theory says an earlier digest (a 'Pre-Digest') had been made at a law school, but there is no evidence for it. Another view is that the commissioners did not actually read the books; yet Tanta 17 says many books were new to them. Honoré argues that three years was feasible given the commission's organization and books averaging only about 10,000 words. The Nika riots of AD 532 may also have pushed Justinian to finish quickly. The rival Blues and Greens joined against him over heavier taxes on the rich, and one complaint was that Tribonian neglected the administration of justice for the Digest. Honoré thinks the riots had little effect, a view Borkowski finds hard to accept. 2.5.3.5: Bluhme, an early 19th-century German scholar, showed that each title draws on three 'masses' of works, each probably handled by a subcommittee: Sabinian, Edictal and Papinian, followed by a smaller Appendix mass.",
+   "terms": [
+    {
+     "term": "Peters theory (Pre-Digest)",
+     "def": "Speculation that an earlier digest had been compiled at a law school before Justinian, explaining the speed of compilation; no hard evidence."
+    },
+    {
+     "term": "Nika riots (AD 532)",
+     "def": "Rebellion in Constantinople in which the rival Blues and Greens united against Justinian; nearly ended his reign; possibly a catalyst for speedy completion of the Digest."
+    },
+    {
+     "term": "Bluhme's masses",
+     "def": "Three groups of works (Sabinian, Edictal, Papinian) plus a smaller Appendix mass, from which the excerpts within each Digest title were drawn, each probably by a subcommittee."
+    },
+    {
+     "term": "Sabinian mass",
+     "def": "Commentaries on the ius civile (Paul, Ulpian and others) arranged according to Sabinus' system."
+    },
+    {
+     "term": "Edictal mass",
+     "def": "Works on the ius honorarium, specifically the praetorian edict."
+    },
+    {
+     "term": "Papinian mass",
+     "def": "Problematic literature – the genre in which Papinian excelled."
+    }
+   ],
+   "cards": [
+    {
+     "q": "What is the current scholarly view of how far the compilers altered the classical texts?",
+     "a": "The classical 'core' of most texts probably remained intact.\n• Most changes were purely cosmetic.\n• Reason given: the scope of the commission's mandate and the speed of the compilation.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "What did Justinian decree about commentaries on the Digest (Deo auctore 12)?",
+     "a": "He banned them.\n• No lawyer was to confuse the brevity of the work with his own wordy commentary.\n• In earlier times the conflicting opinions of commentators had thrown the whole law into confusion.",
+     "difficulty": 1,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "What did Justinian allow despite the ban on commentaries?",
+     "a": "Translations and explanatory notes on difficult passages.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How were doubtful points in the Digest to be resolved (Tanta 21)?",
+     "a": "Judges were to refer them to the emperor.\n• Only imperial authority could both make laws and interpret them.\n• The rules against confusion probably covered the other parts of the codification too.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "Did Justinian's ban on commentaries work?",
+     "a": "No – commentaries began to appear even before the end of his reign.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How long did the Digest take to compile, compared with the original plan?",
+     "a": "Three years instead of the planned ten.\n• This was remarkably short, as most commissioners probably did not work on it full-time.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What is the Peters theory, and why is it doubted?",
+     "a": "It holds that an earlier digest ('Pre-Digest') had been compiled at a law school before Justinian, perhaps by professors later on the commission.\n• Attractive, but there are no hard facts and no copies.\n• Suppression would have needed a long conspiracy, and Tribonian was 'hardly a burner of books'.",
+     "difficulty": 3,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What are the main explanations for the speed of the Digest's compilation?",
+     "a": "\n• Peters theory: an earlier 'Pre-Digest' already existed – no evidence.\n• The books were not actually read, since the commissioners knew them already – but Justinian says many books were unknown to them.\n• Honoré: three years was feasible given the high level of organization and books averaging only about 10,000 words.\n• The Nika riots (AD 532) pushed Justinian to finish quickly.",
+     "difficulty": 3,
+     "kind": "znaky",
+     "priority": "core"
+    },
+    {
+     "q": "According to Honoré, how long were the books read by the Digest compilers on average?",
+     "a": "About 10,000 words.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What were the Nika riots, and how might they have affected the Digest?",
+     "a": "A rebellion in AD 532 that nearly ended Justinian's reign.\n• The rival factions (Blues and Greens, who cheered chariot teams in the Hippodrome) united against the emperor, mainly over a stricter tax regime on the wealthy.\n• They may have pushed Justinian to finish the Digest fast, as a prestige success (Pugsley); the sloppy final editing supports this.\n• Against: Justinian had urged speed before the riots; Honoré thinks their impact was slight.",
+     "difficulty": 3,
+     "kind": "proces",
+     "priority": "core"
+    },
+    {
+     "q": "How was Tribonian connected with the causes of the Nika riots?",
+     "a": "One alleged cause was poor administration of justice, because Tribonian was devoting his time to the Digest.",
+     "difficulty": 3,
+     "kind": "basic",
+     "priority": "extra"
+    },
+    {
+     "q": "What did Bluhme discover about the Digest?",
+     "a": "That the material within each title is not haphazard.\n• It falls into three groups ('masses') of works, each probably compiled by a subcommittee of Tribonian's commission.\n• Bluhme was a German scholar of the early 19th century.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Name and describe Bluhme's three masses.",
+     "a": "\n• Sabinian: commentaries on the IUS CIVILE by Paul, Ulpian and others, arranged on Sabinus' system.\n• Edictal: works on the IUS HONORARIUM, specifically the praetorian edict.\n• Papinian: problematic literature, the genre in which Papinian excelled.",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "In what order do the masses usually appear within a Digest title?",
+     "a": "Sabinian → Edictal → Papinian → Appendix (last).\n• The Appendix mass is a smaller group of miscellaneous works that did not fit the three main masses.",
+     "difficulty": 2,
+     "kind": "proces",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "18": {
+   "title": "Organizing the commission; the Institutes; the New Code and Novellae",
+   "text": "Bluhme thought the Appendix works reached the commission late and were excerpted by the Papinian committee, which had the lightest load. The outline of his theory is widely accepted and helps explain the speed of the work, but the Appendix part has been criticized. The 11 practitioners were probably added to subcommittees as needed, while the other six commissioners worked in three pairs, one pair per subcommittee. Tribonian was in overall charge and Justinian supervised actively. Honoré sees a carefully planned operation, like a modern law commission. In his reconstruction, the Sabinian and Edictal committees each got through seven books a week and the Papinian committee five. Excerpting took about 18 months, the first draft about eight more, and the Digest was enacted in December 533. Osler and Pugsley challenge his numbers and his picture of the planning; Pugsley argues the Papinian committee was set up only later. 2.5.4: Justinian reorganized legal education into three years of formal teaching followed by two of private study, with the Digest at the core. Dorotheus and Theophilus wrote the Institutes as an introductory textbook, under Tribonian's supervision. Like Gaius' Institutes, on which they were mainly based (together with his RES COTTIDIANAE), they have four books, but they are also divided into titles. They were promulgated the same day as the 50-book Digest and had force of law. 2.5.5: The New Code (AD 534, 12 books, titles, chronological order) replaced all earlier codes. Justinian's later reforms were issued as NOVELLAE CONSTITUTIONES. His codification was meant to make the law manageable and accessible (Tanta 13), but even practitioners struggled with the Digest.",
+   "terms": [
+    {
+     "term": "Institutes of Justinian",
+     "def": "Introductory textbook by Dorotheus and Theophilus under Tribonian; four books divided into titles; based especially on Gaius; promulgated the same day as the Digest with force of law."
+    },
+    {
+     "term": "New Code (AD 534)",
+     "def": "Revision of the Codex vetus by Tribonian and a small commission; twelve books, titles, constitutions in chronological order; superseded all previous codes."
+    },
+    {
+     "term": "NOVELLAE CONSTITUTIONES",
+     "def": "'The new decrees' – Justinian's individual decrees after the New Code (e.g. reforms of family law and inheritance); best regarded as part of the codification."
+    },
+    {
+     "term": "Fifty books",
+     "def": "The Digest or Pandects consisted of fifty books (Prooemium to the Institutes)."
+    }
+   ],
+   "cards": [
+    {
+     "q": "How were the 17 Digest commissioners probably organized?",
+     "a": "\n• The 11 practitioners were probably co-opted onto the subcommittees when needed.\n• The other six formed three pairs, each assigned to one subcommittee.\n• Tribonian had overall responsibility; Justinian actively supervised.",
+     "difficulty": 2,
+     "kind": "schema",
+     "priority": "core"
+    },
+    {
+     "q": "Why has the Appendix part of Bluhme's theory been criticized?",
+     "a": "Bluhme said the Appendix works reached the commission late and were excerpted by the Papinian committee, which had the lightest workload.\n• Critics: it is unlikely the commission discovered books late that it had not known about before.\n• The rest of Bluhme's theory is widely accepted and helps explain the speed of the work.",
+     "difficulty": 3,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How does Honoré reconstruct the Digest commission's workload and timetable?",
+     "a": "\n• Committees worked in parallel on their book lists.\n• Sabinian and Edictal committees: seven books per week each; Papinian committee: five.\n• Each committee had two senior commissioners (chairman and junior member), helped by barristers.\n• Excerpting about 18 months → first draft about 8 months → final editing → enactment December 533.",
+     "difficulty": 3,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "How long did the excerpting and the first draft of the Digest take, according to Honoré?",
+     "a": "Excerpting about 18 months; first draft about 8 months.\n• Then final editing, before enactment in December 533.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "How does Honoré judge Tribonian's chairmanship of the Digest commission?",
+     "a": "'One of the most brilliant feats of organisation in the history of civil administration.'\n• He likens the commission to a modern law commission.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "extra"
+    },
+    {
+     "q": "How do Osler and Pugsley criticize Honoré's account of the Digest commission?",
+     "a": "Osler: the numbers behind Honoré's theory have no foundation; he doubts that each subcommittee split the work equally between its two seniors.\nPugsley: doubts the degree of planning; argues the Papinian committee did not exist at the start and was set up only after a trial run showed a third committee was needed.",
+     "difficulty": 3,
+     "kind": "rozliseni",
+     "priority": "extra"
+    },
+    {
+     "q": "How did Justinian reorganize legal education?",
+     "a": "Three years of formal tuition, then two years of private study.\n• The Digest was to be the core of the new programme.",
+     "difficulty": 2,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "Who wrote Justinian's Institutes, and why?",
+     "a": "Dorotheus and Theophilus, under Tribonian's supervision.\n• The Digest was too daunting for beginners, so an introductory textbook was needed.",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "How many books does the Digest have?",
+     "a": "Fifty books (the Digest or Pandects).",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "On what sources were Justinian's Institutes based (Prooemium §§ 4–6)?",
+     "a": "On all the classical books of Institutes, especially Gaius.\n• Gaius' Institutes and his 'Daily Matters' (RES COTTIDIANAE), plus many other commentaries.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "Compare the structure of Justinian's Institutes with Gaius' Institutes.",
+     "a": "Same: four books.\nDifferent: Justinian's Institutes are also divided into titles; Gaius' are not.",
+     "difficulty": 2,
+     "kind": "rozliseni",
+     "priority": "core"
+    },
+    {
+     "q": "What was unusual about the legal status of Justinian's Institutes?",
+     "a": "Though a student textbook, they had the force of law.\n• They were promulgated on the same day as the Digest.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "Why was a New Code needed, and who made it?",
+     "a": "A flurry of legislation followed the Codex vetus, so a revision was soon needed.\n• Tribonian did it with a small commission.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    },
+    {
+     "q": "When was the New Code promulgated, and how was it structured?",
+     "a": "AD 534.\n• Twelve books, subdivided into titles on specific topics.\n• Imperial pronouncements in chronological order within each title.\n• It superseded all previous codes, included constitutions issued after the first Code, and removed repetitions and obsolete matter.",
+     "difficulty": 1,
+     "kind": "cisla",
+     "priority": "core"
+    },
+    {
+     "q": "What were the NOVELLAE CONSTITUTIONES?",
+     "a": "'The new decrees' – Justinian's individual decrees after the New Code.\n• His reign lasted more than thirty years after the New Code, and he kept legislating, e.g. important reforms of family law and inheritance.\n• They are best treated as part of the codification, though not everyone agrees.",
+     "difficulty": 1,
+     "kind": "definice",
+     "priority": "core"
+    },
+    {
+     "q": "What did Justinian intend his codification (CORPUS IURIS CIVILIS) to achieve (Tanta 13)?",
+     "a": "To make the law manageable and accessible.\n• One system of law made known to all, relieving them of confusion.\n• Laws that are straightforward, brief and easily available.\n• Books cheap enough for rich and poor alike.",
+     "difficulty": 2,
+     "kind": "judikat",
+     "priority": "core"
+    },
+    {
+     "q": "How did the codification work out in practice?",
+     "a": "Parts of it were too complex.\n• Even practitioners struggled with the Digest, and by Justinian's death it was scarcely used in the courts.\n• But his reforms of substantive law and legal education were far-reaching; as a law reformer he is supreme among Roman emperors, possibly apart from Augustus.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "core"
+    }
+   ],
+   "vision_used": true
+  },
+  "19": {
+   "title": "Further reading; start of chapter 3 (Roman litigation)",
+   "text": "The left page closes chapter 2. It points to the online resources for the 6th edition (timeline, biographies of key figures, glossary of Latin terms, Latin originals of the Digest and Institutes extracts, examples of textual analysis) and lists further reading: Watson on the Twelve Tables, Millar on the emperor, Syme on fictions about jurists' lives, Harries/Wood, Honoré and Matthews on the Theodosian Code, and Honoré (2010) on the character and compilation of Justinian's Digest. The right page begins chapter 3, 'Roman Litigation', which goes beyond the topic of the extract. Horace's 'good man' serves as a witness, a guarantor and a judge, but Romans avoided appearing as litigants; Cicero advised avoiding litigation like the plague. The advocacy profession emerged in the mid-Republic, trained in Greek rhetoric and given to ritual abuse (VITUPERATIO) of the opponent.",
+   "terms": [
+    {
+     "term": "VITUPERATIO",
+     "def": "Ritual abuse of the opponent (looks, habits, breeding) by Roman advocates in court."
+    }
+   ],
+   "cards": [
+    {
+     "q": "Which book does Borkowski recommend for further reading on Justinian's Digest project?",
+     "a": "Honoré, T. (2010), Justinian's Digest: Character and Compilation (Oxford University Press).",
+     "difficulty": 1,
+     "kind": "basic",
+     "priority": "extra"
+    },
+    {
+     "q": "How did Romans view acting as a litigant, according to Borkowski (ch. 3)?",
+     "a": "With reluctance.\n• Being a witness, guarantor or judge was a civic duty (Horace's 'good man').\n• Litigation was seen as undignified; Cicero advised avoiding it like the plague, even with the law on one's side.\n• Fear for one's reputation discouraged lawsuits.",
+     "difficulty": 2,
+     "kind": "basic",
+     "priority": "extra"
+    },
+    {
+     "q": "What was VITUPERATIO?",
+     "a": "Ritual abuse of the opponent by Roman advocates – mocking his looks, habits, breeding and so on.\n• Example: in Pro Quinctio Cicero likened his client's opponent to a clown.\n• Because it was ritual, it was probably less intimidating than it sounds.",
+     "difficulty": 2,
+     "kind": "definice",
+     "priority": "extra"
+    }
+   ],
+   "vision_used": true
+  }
+ }
+}

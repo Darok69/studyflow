@@ -1,0 +1,61 @@
+{
+  "exam": {
+    "name": "030116-1 PKU Exegesis of Justinian's Digest (Uni Wien; Dr. Kyriaco Nikias)",
+    "date": "2027-01-13",
+    "language": "en",
+    "format": "Dvě písemná hodnocení — Assessment I st 4. 11. 2026, Assessment II st 13. 1. 2027; v obou se píše EXEGEZE zadaného úryvku Digest ve formátu FÜM 1. Známka = průměr obou, aktivní účast zlepšuje. Výuka anglicky, středy 9–10, HS U14 Juridicum. Doktrína podle Benke/Meissel, Roman Law of Property a Roman Law of Obligations."
+  },
+  "updated_at": "2026-10-06T11:22:02+00:00",
+  "organisers": [],
+  "courses": [
+    {
+      "code": "EX",
+      "number": "030116",
+      "title": "Exegesis of Justinian's Digest",
+      "subject": "Exegesis of Justinian's Digest",
+      "filing": [],
+      "lectures": [
+        {
+          "lecture_id": "EXBO",
+          "unit": "07.10. Introduction",
+          "title": "Sources of Roman law and the Digest (Borkowski)",
+          "slides": 19,
+          "data": "data/EXBO.json",
+          "done": 19
+        },
+        {
+          "lecture_id": "EXG1",
+          "unit": "07.10. Introduction",
+          "title": "Basics of Roman law I (Gamauf)",
+          "slides": 9,
+          "data": "data/EXG1.json",
+          "done": 9
+        },
+        {
+          "lecture_id": "EXG2",
+          "unit": "07.10. Introduction",
+          "title": "Basics of Roman law II (Gamauf)",
+          "slides": 11,
+          "data": "data/EXG2.json",
+          "done": 11
+        },
+        {
+          "lecture_id": "EXG3",
+          "unit": "07.10. Introduction",
+          "title": "Basics of Roman law III (Gamauf)",
+          "slides": 12,
+          "data": "data/EXG3.json",
+          "done": 12
+        },
+        {
+          "lecture_id": "EXME",
+          "unit": "Method",
+          "title": "How to write an exegesis",
+          "slides": 7,
+          "data": "data/EXME.json",
+          "done": 7
+        }
+      ]
+    }
+  ]
+}

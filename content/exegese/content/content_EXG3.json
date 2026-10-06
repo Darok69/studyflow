@@ -1,0 +1,1111 @@
+{
+  "lecture_id": "EXG3",
+  "title": "Basics of Roman law III (Gamauf)",
+  "free_sections": true,
+  "slides": {
+    "1": {
+      "title": "Post-classical period and vulgar law",
+      "text": "In 235 AD the SEVERAN dynasty ended and the empire fell into a crisis of almost 50 YEARS. A decisive factor for the decline of classical legal culture was the CONSTITUTIO ANTONINIANA of 212 AD, by which Emperor CARACALLA granted Roman citizenship to (almost) all inhabitants of the empire: many new citizens remained strangers to Roman law, kept their familiar customs and — especially in the Hellenistic East — expected Roman authorities to respect local legal ideas. Together with legally poorly trained practitioners this produced a Roman VULGAR LAW permeated by popular legal ideas. It no longer distinguished between POSSESSION, OWNERSHIP and LIMITED REAL RIGHTS, nor between OBLIGATORY and DISPOSITIVE transactions (EMPTIONE DOMINIUM TRANSFERTUR — 'by sale ownership passes'). At the same time the FORMULARY PROCEDURE and some outdated institutions (MANCIPATIO, IN IURE CESSIO) disappeared, but so did some restrictive limits of Roman law (e.g. the property INCAPACITY of children in power; the impossibility of DIRECT AGENCY). Emperor DIOCLETIAN (284–305) stabilised the empire by deep constitutional and administrative reforms; in private-law legislation his chanceries returned to classical models in content and style — only a short INTERMEZZO: from CONSTANTINE (307–337) imperial constitutions were drafted no longer by jurists but by RHETORS, who replaced the terse juristic style with verbose rhetoric, and legislation again moved away from classical concepts and opened up to vulgar-law influences.",
+      "terms": [
+        {
+          "term": "Vulgar law (Vulgarrecht)",
+          "def": "Post-classical Roman law mixed with popular legal ideas; blurred classical distinctions (possession/ownership, obligation/disposition)."
+        },
+        {
+          "term": "CONSTITUTIO ANTONINIANA",
+          "def": "212 AD, Caracalla: Roman citizenship for (almost) all inhabitants of the empire."
+        },
+        {
+          "term": "EMPTIONE DOMINIUM TRANSFERTUR",
+          "def": "'By sale ownership passes' — vulgar-law formula showing the merger of obligatory and dispositive transaction."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Which factors worked together in the vulgarisation of Roman law? (Kontrollfrage)",
+          "a": "• CONSTITUTIO ANTONINIANA (212): citizenship for almost all — new citizens kept their local customs and expected authorities to respect them (esp. Hellenistic East)\n• legally poorly trained practitioners\n• (background: the crisis after the end of the Severans in 235)",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Which classical distinctions did vulgar law abandon?",
+          "a": "• possession – ownership – limited real rights\n• obligatory transaction – dispositive transaction ('EMPTIONE DOMINIUM TRANSFERTUR')",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What does EMPTIONE DOMINIUM TRANSFERTUR express?",
+          "a": "'By sale ownership passes' — vulgar law no longer separated the obligatory transaction (sale) from the transfer of ownership.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Which institutions and restrictions disappeared in the post-classical period?",
+          "a": "Disappeared: the FORMULARY PROCEDURE, MANCIPATIO, IN IURE CESSIO.\nAlso dropped restrictions: property incapacity of children in power; impossibility of direct agency.",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish the legislation of Diocletian and of Constantine in style and content.",
+          "a": "DIOCLETIAN (284–305): chanceries returned to classical models in content and style (short intermezzo).\nCONSTANTINE (307–337): constitutions drafted by RHETORS — verbose rhetoric, departure from classical concepts, vulgar-law influences.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "When did the Severan dynasty end and how long did the following crisis last?",
+          "a": "235 AD; a crisis of almost 50 years followed.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "When was the CONSTITUTIO ANTONINIANA issued, by whom, and what did it do?",
+          "a": "212 AD by Caracalla — granted Roman citizenship to (almost) all inhabitants of the empire.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "2": {
+      "title": "Collections of law before Justinian; Citation Law",
+      "text": "In the late 3rd c. AD private law consisted of IUS (the binding writings of the jurists) and LEGES (imperial constitutions), which PREVAILED over ius in case of conflict. A forward-looking development under Diocletian was the first COLLECTION of imperial constitutions (never generally published before), undertaken PRIVATELY by jurists with access to the imperial archives (fn 6: in the 3rd c. the CODEX — a book of durable parchment leaves — replaced the papyrus roll; one codex held many rolls, so law could be collected and published together systematically; hence 'codification' still means a code regulating whole areas of law). The collections were known by their compilers' names: the CODEX GREGORIANUS (291) contained constitutions from HADRIAN on; the CODEX HERMOGENIANUS collected Diocletian's legislation of 293 and 294. Both were well received but are not preserved independently. Emperor THEODOSIUS II planned for the first time an OFFICIAL collection of ius AND leges, but his CODEX THEODOSIANUS (438 AD) contained only constitutions (leges) and continued the two older codices. The mass of ius and countless controversies also overwhelmed practitioners. In the so-called KASSIERGESETZ (321) CONSTANTINE annulled the critical notes of PAULUS and ULPIAN on PAPINIAN's works and gave Papinian's opinions unlimited priority. In 426 Emperors THEODOSIUS II and VALENTINIAN III laid down in the CITATION LAW (Zitiergesetz) that courts should consider only the works of GAIUS, PAPINIAN, PAULUS, ULPIAN and MODESTINUS; if they disagreed, the judge had to follow the MAJORITY; without a majority, PAPINIAN's view was binding. Both measures aimed at PREDICTABILITY and LEGAL CERTAINTY. WEST: the legislation of the Germanic kingdoms arising after 476 in substance corresponded to West Roman vulgar law, valid either (personality principle) only for the Roman population or for all inhabitants; these codes preserved rudiments of Roman law in the early Middle Ages (fn 7, LEGES BARBARORUM: EDICTUM THEODERICI of the Visigothic king Theoderic II (453–466), CODEX EURICIANUS c. 475 by Euric, BREVIARIUM ALARICI / LEX ROMANA VISIGOTHORUM c. 506 by Alaric II). EAST: Roman legal science lived on in the law schools of BERYTOS (Beirut) and CONSTANTINOPLE (from 425 AD), whose teaching followed classical standards and counteracted vulgar tendencies; the preservation of LATIN legal culture in a largely Greek environment was an ESSENTIAL PRECONDITION for Justinian's compilations.",
+      "terms": [
+        {
+          "term": "IUS / LEGES (late antiquity)",
+          "def": "Ius = binding writings of the classical jurists; leges = imperial constitutions, which prevail in conflict."
+        },
+        {
+          "term": "CODEX GREGORIANUS / CODEX HERMOGENIANUS",
+          "def": "Private collections of imperial constitutions under Diocletian: 291 (from Hadrian) / Diocletian's laws of 293–294."
+        },
+        {
+          "term": "CODEX THEODOSIANUS",
+          "def": "438 AD, Theodosius II; official, but contains only leges."
+        },
+        {
+          "term": "KASSIERGESETZ",
+          "def": "Constantine 321: annulled Paulus' and Ulpian's critical notes on Papinian; Papinian given priority."
+        },
+        {
+          "term": "CITATION LAW (Zitiergesetz)",
+          "def": "426 AD, Theodosius II and Valentinian III: only Gaius, Papinian, Paulus, Ulpian, Modestinus; majority rule, tie → Papinian."
+        },
+        {
+          "term": "CODEX (book form)",
+          "def": "Bound book of parchment leaves replacing the papyrus roll in the 3rd c.; origin of 'codification'."
+        },
+        {
+          "term": "LEGES BARBARORUM",
+          "def": "Germanic codes of the West containing vulgar Roman law (Edictum Theoderici, Codex Euricianus, Breviarium Alarici)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What did the CITATION LAW of 426 lay down?",
+          "a": "Courts consider only the works of GAIUS, PAPINIAN, PAULUS, ULPIAN and MODESTINUS.\n• Disagreement → follow the MAJORITY.\n• No majority → PAPINIAN's view binding.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Which five jurists does the Citation Law name?",
+          "a": "Gaius, Papinian, Paulus, Ulpian, Modestinus.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish the KASSIERGESETZ and the CITATION LAW.",
+          "a": "KASSIERGESETZ (Constantine, 321): annulled Paulus' and Ulpian's critical notes on Papinian; Papinian unlimited priority.\nCITATION LAW (Theodosius II & Valentinian III, 426): only five jurists count; majority rule, otherwise Papinian.\n• Same aim: predictability and legal certainty.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish the CODEX GREGORIANUS, CODEX HERMOGENIANUS and CODEX THEODOSIANUS.",
+          "a": "GREGORIANUS (291): private, constitutions from Hadrian on.\nHERMOGENIANUS: private, Diocletian's legislation of 293–294.\nTHEODOSIANUS (438): official, planned for ius and leges but contains only leges; continues the two older codices.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What did late-antique private law consist of, and which part prevailed in conflict?",
+          "a": "IUS (binding writings of the jurists) and LEGES (imperial constitutions); the LEGES prevailed.",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Why could imperial constitutions be collected systematically from the 3rd century on?",
+          "a": "The CODEX (book of parchment leaves) replaced the papyrus roll; one codex held the content of many rolls, so rules could be collected and published together.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Why were the law schools of Berytos and Constantinople a precondition for Justinian's compilations?",
+          "a": "They taught according to classical standards, counteracted vulgar law and preserved LATIN legal culture in a Greek environment — so trained jurists were available.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Give the key years of the pre-Justinianic collections and laws.",
+          "a": "Codex Gregorianus 291 · Codex Hermogenianus 293/294 · Kassiergesetz 321 · school of Constantinople from 425 · Citation Law 426 · Codex Theodosianus 438",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "What law applied in the Germanic kingdoms of the West after 476?",
+          "a": "In substance West Roman VULGAR law — either only for the Roman population (personality principle) or for all inhabitants (e.g. Edictum Theoderici, Codex Euricianus, Breviarium Alarici).",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "3": {
+      "title": "Justinian's compilations: context, aims and the first Codex",
+      "text": "Emperor JUSTINIAN I (527–565) sought fundamental reforms for the East Roman/Byzantine empire and the reconquest of lost territories in the West; truly world-historical, however, was his decision to COLLECT the Roman law of his time. Only his compilations, known as the CORPUS IURIS CIVILIS, transmitted to posterity a representative impression of ancient Roman law and of Roman legal science. Half a millennium later their rediscovery triggered scientific-systematic university teaching of law and a common European legal science; without the reception continental private law would have developed quite differently, and Europe would today have a patchwork of differently shaped private laws. Aims: LEGAL UNITY and LEGAL CERTAINTY. The confusion of the sources — both IUS and LEGES — had to be removed and AUTHORITATIVE (and therefore reliable) collections given to practice (fn 11: parties often relied on FORGED juristic writings and rescripts; courts could not authenticate them). Step 1: in 528 Justinian ordered the collection of imperial constitutions since the Codex Theodosianus, published together with the material of the older codices. This (FIRST) CODEX IUSTINIANUS, not preserved, was finished already in 529. The official TRIBONIAN (d. 542) proved especially able and in 529 became QUAESTOR SACRI PALATII (minister of justice). In this role he prepared 50 constitutions (QUINQUAGINTA DECISIONES) deciding disputes of classical juristic law — already in preparation for the Digest. (Borkowski's reading dates the Fifty Decisions to AD 530.)",
+      "terms": [
+        {
+          "term": "JUSTINIAN I",
+          "def": "East Roman emperor 527–565; commissioned the Corpus iuris civilis."
+        },
+        {
+          "term": "TRIBONIAN",
+          "def": "Leading official of the codification (d. 542); QUAESTOR SACRI PALATII from 529; head of the Digest commission."
+        },
+        {
+          "term": "QUAESTOR SACRI PALATII",
+          "def": "Imperial minister of justice."
+        },
+        {
+          "term": "QUINQUAGINTA DECISIONES",
+          "def": "Fifty constitutions deciding classical controversies in preparation for the Digest."
+        },
+        {
+          "term": "Codex Iustinianus (first)",
+          "def": "Collection of imperial constitutions commissioned 528, finished 529; not preserved; replaced in 534."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What were the main aims of Justinian's compilations?",
+          "a": "LEGAL UNITY and LEGAL CERTAINTY — removing the confusion of ius and leges and giving practice authoritative, reliable collections.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Give the dates of the first Codex Iustinianus.",
+          "a": "Commissioned 528, finished 529; not preserved.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Who was Tribonian and what did he do before the Digest?",
+          "a": "An imperial official (d. 542), from 529 QUAESTOR SACRI PALATII (minister of justice); he prepared the QUINQUAGINTA DECISIONES deciding classical controversies in preparation for the Digest.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What were the QUINQUAGINTA DECISIONES?",
+          "a": "50 constitutions, prepared by Tribonian, deciding disputed questions of classical juristic law in preparation for the Digest.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Why did practice need authoritative collections in Justinian's time (besides the mass of sources)?",
+          "a": "Parties often relied on FORGED juristic writings and rescripts, and courts could not authenticate the sources presented.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        },
+        {
+          "q": "When did Justinian reign?",
+          "a": "527–565.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "4": {
+      "title": "The Digest: commission, Bluhme's mass theory, structure and citation",
+      "text": "In DECEMBER 530 came the most important initiative: Justinian formally commissioned a collection of classical juristic writings reflecting the CURRENT law and FREED FROM CONTROVERSIES (fn 13: start and end of the works are known to the day because Justinian issued a constitution on each occasion; the publication of the Digest was announced by the constitution 'TANTA' of 16 Dec 533). According to Gamauf, TRIBONIAN and FIVE further commission members — the COMPILERS (Latin COMPILARE = to plunder) — were to select suitable texts, SHORTEN them and if necessary adapt them to the current law by textual interventions (INTERPOLATIONS). (Borkowski, the other course reading, counts SEVENTEEN commissioners including Tribonian.) BLUHME'S MASS THEORY: a hypothesis set up in 1820 by the German scholar Friedrich BLUHME explains how a few compilers could work through 2,000 LIBRI (fn 14: one book = a standard papyrus roll of c. 1,500 lines or 10,000 words) of classical writings and reduce them to about 1/20 of their original size in only THREE YEARS. Bluhme observed in the LAST TWO DIGEST TITLES (fn 16: D 50,16 consists of definitions of terms, D 50,17 of legal rules — many short fragments from especially many works, hence ideal for his discovery) that the excerpts were not randomly arranged but that GROUPS ('MASSES') of similar writings alternated. He concluded that three COMMITTEES each excerpted one group: the SABINUS MASS (mainly LIBRI AD SABINUM — commentaries on Sabinus' ius civile), the EDICT MASS (LIBRI AD EDICTUM) and the PAPINIAN MASS (Papinian's works and other problem literature); as an APPENDIX MASS came writings that became available only after the main masses had been divided. STRUCTURE: the compilers made 9,142 EXCERPTS distributed over 50 BOOKS, divided — following the arrangement of the praetorian EDICT — into 430 TITLES. Following classical work titles the collection was called DIGESTA ('ordered things') or PANDECTAE (Greek 'all-containing'). The excerpts are called FRAGMENTA or LEGES. In each fragment a heading, the INSCRIPTIO, identifies the AUTHOR of the original and the WORK. Fn 15: the Digest directly offers works of 39 JURISTS; two thirds of the material comes from LATE CLASSICS; ULPIAN and PAULUS supply 50% of the fragments. (Borkowski: 38 jurists; Ulpian, Paul and Gaius over half of the excerpts; and the 2,000 books an exaggeration — rather 1,500–1,600.) CITATION: today one cites the Digest by BOOK, TITLE, FRAGMENT and, where applicable, PARAGRAPH, because longer fragments were subdivided in the Middle Ages. Fn 17: in the Middle Ages fragments were identified by their opening words; hence the FIRST paragraph is still called PRINCIPIUM (pr., 'beginning') and the SECOND carries the number 1. Example: D 41,2,3,1 (PAULUS LIBRO QUINQUAGENSIMO QUARTO AD EDICTUM = Paulus in the 54th book of his commentary on the edict); title 41,2 'DE ADQUIRENDA VEL AMITTENDA POSSESSIONE' deals with acquisition and loss of possession. INTERPOLATIONS: time pressure limited the compilers' interventions largely to CUTS and MECHANICAL CHANGES (e.g. replacing the word MANCIPATIO by TRADITIO). That many Digest texts were profoundly changed by interpolations was the basic methodological assumption of the 'INTERPOLATION HUNT' (Interpolationenjagd) of the late 19th and early 20th century — but it is UNLIKELY. (Borkowski stresses more strongly that the power to amend was used extensively, while also warning against the excesses of interpolation criticism.) PUBLICATION: already in DECEMBER 533 the Digest was published; juristic writings not included thereby LOST their validity. In legal life its complexity hindered practical application, and in the (likewise reformed) legal education the Latin compilation overwhelmed the Greek-speaking students.",
+      "terms": [
+        {
+          "term": "DIGESTA / PANDECTAE",
+          "def": "Justinian's collection of classical juristic excerpts (533): 'ordered things' / Greek 'all-containing'; 50 books, 430 titles, 9,142 excerpts."
+        },
+        {
+          "term": "Compilers (compilatores)",
+          "def": "The Digest commission (compilare = to plunder) that selected, shortened and adapted the texts."
+        },
+        {
+          "term": "INTERPOLATION",
+          "def": "Textual intervention by the compilers to adapt a classical text to the law of their time."
+        },
+        {
+          "term": "Interpolation hunt (Interpolationenjagd)",
+          "def": "Late 19th/early 20th c. method assuming deep alterations of Digest texts; today considered unlikely."
+        },
+        {
+          "term": "Bluhme's mass theory",
+          "def": "1820: the compilers worked in three committees — Sabinus mass, Edict mass, Papinian mass (+ Appendix mass)."
+        },
+        {
+          "term": "FRAGMENTUM / LEX",
+          "def": "A single excerpt in the Digest."
+        },
+        {
+          "term": "INSCRIPTIO",
+          "def": "Heading of a Digest fragment naming the author and the work (with book number) it was taken from."
+        },
+        {
+          "term": "PRINCIPIUM (pr.)",
+          "def": "The first, unnumbered paragraph of a fragment; the second paragraph is numbered 1."
+        },
+        {
+          "term": "CONSTITUTIO TANTA",
+          "def": "Constitution of 16 Dec 533 announcing the publication of the Digest."
+        }
+      ],
+      "cards": [
+        {
+          "q": "How did the compilers change the texts taken into the Digest? (Kontrollfrage)",
+          "a": "They SELECTED texts, SHORTENED them and, where needed, adapted them to current law by INTERPOLATIONS.\n• Under time pressure mostly cuts and mechanical changes (e.g. MANCIPATIO → TRADITIO).\n• Deep rewriting (assumption of the 'interpolation hunt') is unlikely.\n• Controversies were removed or cut.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "What does Bluhme's mass theory explain, and what are the masses?",
+          "a": "How a few compilers could excerpt 2,000 libri in 3 years: three committees each worked on one group of works.\n• SABINUS mass (libri ad Sabinum)\n• EDICT mass (libri ad edictum)\n• PAPINIAN mass (Papinian + other problem literature)\n• + APPENDIX mass (works available later)",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "On which Digest titles did Bluhme make his observation, and why were they suitable?",
+          "a": "The last two: D 50,16 (definitions of terms) and D 50,17 (legal rules) — many short fragments from especially many works, so the alternating groups were easy to see.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Who set up the mass theory and when?",
+          "a": "Friedrich BLUHME, 1820.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Give the key figures of the Digest.",
+          "a": "• 9,142 excerpts\n• 50 books\n• 430 titles (arranged after the edict)\n• 2,000 libri reduced to c. 1/20 in 3 years\n• works of 39 jurists; Ulpian + Paulus = 50% of fragments (Gamauf)",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "When was the Digest commissioned and when published?",
+          "a": "Commissioned December 530; published December 533 (constitution TANTA, 16 Dec 533).",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Why are the start and end dates of Justinian's compilations known to the day?",
+          "a": "Because Justinian issued a constitution on each occasion (e.g. TANTA of 16 Dec 533 announcing the Digest's publication).",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "How is the Digest arranged and where does the order of titles come from?",
+          "a": "50 books divided into 430 titles, following the arrangement of the praetorian EDICT.",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "What do the names DIGESTA and PANDECTAE mean?",
+          "a": "DIGESTA = 'ordered things' (Latin); PANDECTAE = 'the all-containing' (Greek); both follow classical work titles.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "What does the INSCRIPTIO of a Digest fragment tell you?",
+          "a": "The AUTHOR of the original text and the WORK (with book number) from which it was excerpted.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "How do you cite the Digest, and why is the first paragraph called 'pr.'?",
+          "a": "Book, title, fragment and (if any) paragraph — e.g. D 41,2,3,1.\n• Medieval scholars identified fragments by their opening words, so the first paragraph is the PRINCIPIUM (pr.) and the second is numbered 1.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Decode the citation 'D 41,2,3,1 (Paulus libro quinquagensimo quarto ad edictum)'.",
+          "a": "Digest book 41, title 2 (De adquirenda vel amittenda possessione — acquisition and loss of possession), fragment 3, paragraph 1 (= the SECOND paragraph, after pr.).\n• Inscriptio: Paulus, 54th book of his commentary on the edict.",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        },
+        {
+          "q": "What does it mean that a text is cited as 'D 41,2,3 pr'?",
+          "a": "It is the first, unnumbered paragraph (PRINCIPIUM) of fragment 3 in Digest book 41, title 2.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish the view of the 'interpolation hunt' from today's view as presented by Gamauf.",
+          "a": "Interpolation hunt (late 19th/early 20th c.): many Digest texts were profoundly altered.\nGamauf: unlikely — time pressure limited interventions mostly to cuts and mechanical changes (e.g. mancipatio → traditio).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Give a typical mechanical interpolation by the compilers.",
+          "a": "Replacing the word MANCIPATIO with TRADITIO.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What happened to juristic writings not included in the Digest?",
+          "a": "They lost their validity with its publication in December 533.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Why was the Digest hard to use in Justinian's time?",
+          "a": "Its complexity hindered practical application, and the Latin compilation overwhelmed the Greek-speaking students.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What does the word 'compilers' (compilatores) originally mean?",
+          "a": "From Latin COMPILARE = to plunder/exploit.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "extra"
+        },
+        {
+          "q": "Where do Gamauf and Borkowski differ on the Digest's figures?",
+          "a": "• Commission: Gamauf Tribonian + 5 members; Borkowski 17 incl. Tribonian.\n• Books: Gamauf 2,000 libri; Borkowski calls 2,000 an exaggeration (1,500–1,600).\n• Jurists: Gamauf 39; Borkowski 38.\n• Share: Gamauf Ulpian + Paulus 50%; Borkowski Ulpian, Paul and Gaius over half.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "How large was one 'liber' of a classical juristic work?",
+          "a": "One standard papyrus roll of about 1,500 lines or 10,000 words.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "extra"
+        },
+        {
+          "q": "Which part of the Digest material comes from the late classics?",
+          "a": "Two thirds; Ulpian and Paulus alone supply 50% of the fragments (Gamauf).",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "5": {
+      "title": "Justinian's Institutes, the second Codex and the Novels",
+      "text": "Parallel to the Digest, TRIBONIAN and TWO LAW TEACHERS compiled JUSTINIAN'S INSTITUTES, an AUTHORITATIVE TEXTBOOK to ease the study and understanding of the complex Digest law (fn 19: since the formulary procedure had disappeared centuries earlier, background on the actions was needed to understand the classical Digest texts). Their core was GAIUS' INSTITUTES, updated and enriched with material from other textbooks. In 4 BOOKS they give a continuous text WITHOUT naming sources, divided into titles and paragraphs (fn 20: e.g. Inst. 2,1,34 with Justinian's decision of the TABULA PICTA controversy). The Institutes entered into force in 533 together with the Digest and a new study regulation. SECOND CODEX: Justinian's own legislation quickly made his first Codex obsolete; a revised CODEX IUSTINIANUS entered into force in NOVEMBER 534. It has 12 BOOKS, with 4,600 constitutions arranged in titles CHRONOLOGICALLY (beginning with HADRIAN). It is cited by BOOK, TITLE, CONSTITUTION and PARAGRAPH. An INSCRIPTIO names the legislating emperor and the original ADDRESSEE; the SUBSCRIPTIO records PLACE and DATE of promulgation. Fn 22 example: C 4,44,2 (Impp. Diocletianus et Maximianus AA. Aurelio Lupo, 285 AD); title 4,44 is 'DE RESCINDENDA VENDITIONE' (on rescission of the sale). NOVELS: afterwards Justinian and his successors legislated mainly in GREEK; these NOVELLAE LEGES ('new laws') were transmitted only in PRIVATE collections. Since the joint first print of 1583 by the French humanist DIONYSIUS GOTHOFREDUS (Denis Godefroy, 1549–1622) the collective name CORPUS IURIS CIVILIS has been used for Institutes, Digest, Codex and Novels. Fn 23: current translations of all parts exist only in English; the only complete German one (Otto, Schilling et al., 1831–1839) is partly hard to understand; since 1990 five volumes of a new German translation (Behrends, Knütel, Kuppisch et al.) have appeared (Institutes, Digest up to book 31).",
+      "terms": [
+        {
+          "term": "Justinian's Institutes",
+          "def": "Authoritative textbook (533) by Tribonian and two law teachers, based on Gaius; 4 books, no source references."
+        },
+        {
+          "term": "Codex Iustinianus (second)",
+          "def": "In force Nov 534; 12 books, 4,600 constitutions chronologically from Hadrian; cited book, title, constitution, paragraph."
+        },
+        {
+          "term": "INSCRIPTIO (Codex)",
+          "def": "Names the legislating emperor and the addressee of a constitution."
+        },
+        {
+          "term": "SUBSCRIPTIO",
+          "def": "Records place and date of promulgation of a constitution."
+        },
+        {
+          "term": "NOVELLAE (LEGES)",
+          "def": "Justinian's later legislation, mostly in Greek, transmitted only in private collections."
+        },
+        {
+          "term": "CORPUS IURIS CIVILIS",
+          "def": "Collective name (since Gothofredus' print of 1583) for Institutes, Digest, Codex and Novels."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Name the four parts of the CORPUS IURIS CIVILIS and the year each took effect / form.",
+          "a": "• INSTITUTES — 533\n• DIGEST — published Dec 533\n• CODEX (second) — Nov 534\n• NOVELS — later legislation, mostly Greek, private collections",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Who compiled Justinian's Institutes, on what basis, and why?",
+          "a": "Tribonian and two law teachers; core = Gaius' Institutes, updated and enriched.\n• Purpose: an authoritative textbook to make the complex Digest law easier to study and understand.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish Justinian's Institutes from the Digest in form.",
+          "a": "INSTITUTES: continuous textbook text in 4 books, WITHOUT naming the sources; titles and paragraphs.\nDIGEST: 50 books of excerpts (fragments), each with an INSCRIPTIO naming author and work.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Give the figures of the second Codex Iustinianus.",
+          "a": "In force November 534; 12 books; 4,600 constitutions arranged chronologically in titles, beginning with Hadrian.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "How is the Codex Iustinianus cited, and what do inscriptio and subscriptio of a constitution contain?",
+          "a": "Book, title, constitution, paragraph (e.g. C 4,44,2).\n• INSCRIPTIO: legislating emperor + addressee.\n• SUBSCRIPTIO: place and date of promulgation.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish the INSCRIPTIO of a Digest fragment from the INSCRIPTIO of a Codex constitution.",
+          "a": "Digest: names the JURIST and his WORK (with book number).\nCodex: names the legislating EMPEROR and the ADDRESSEE.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Decode 'C 4,44,2 (Impp. Diocletianus et Maximianus AA. Aurelio Lupo)'.",
+          "a": "Codex book 4, title 44 (De rescindenda venditione — rescission of the sale), constitution 2; issued by Emperors Diocletian and Maximian to Aurelius Lupus (285 AD).",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        },
+        {
+          "q": "Since when and through whom has the name 'Corpus iuris civilis' been used?",
+          "a": "Since the joint first print of 1583 by the French humanist Dionysius GOTHOFREDUS (Denis Godefroy).",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "In which language and form were Justinian's Novels transmitted?",
+          "a": "Mostly in GREEK, and only in PRIVATE collections.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Why did students of Justinian's time need the Institutes to understand the Digest?",
+          "a": "The formulary procedure had disappeared centuries before, so they needed background on the actions to understand the classical texts.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "6": {
+      "title": "Disappearance in Italy and survival in Byzantine law",
+      "text": "Once Justinian had reconquered Italy he formally put his compilations into force there in 554 AD (fn 25: a legend made the CODEX FLORENTINUS, kept in Florence, the official Digest copy sent to Italy by Justinian). After the advance of the LOMBARDS, remnants of Roman-law tradition survived for a time in Byzantine enclaves (RAVENNA, ROME, SOUTHERN ITALY, SICILY). In BYZANTIUM, after Justinian, Greek finally displaced Latin from legal life. Byzantine law had a rich literature based on the Justinianic compilations; its main work, the 60-book BASILICA ('imperial books' / 'imperial law'), completed around 886, also contains material valuable for research on the Digest. The Byzantine legal tradition continued in modern times even under Ottoman rule. In Italy, after the brief Byzantine rule, only isolated traces of the use of the Corpus iuris civilis can be found for half a millennium; in particular there is NO evidence of any use of the DIGEST BEFORE THE 11TH CENTURY.",
+      "terms": [
+        {
+          "term": "BASILICA",
+          "def": "60-book Byzantine law code ('imperial books'), completed c. 886, based on Justinian's compilations; useful for Digest research."
+        },
+        {
+          "term": "CODEX FLORENTINUS",
+          "def": "Digest manuscript kept in Florence; legend made it Justinian's official copy for Italy."
+        }
+      ],
+      "cards": [
+        {
+          "q": "When were Justinian's compilations put into force in Italy?",
+          "a": "554 AD, after the reconquest of Italy.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "What are the BASILICA and why are they relevant for Digest research?",
+          "a": "The 60-book main work of Byzantine law, completed c. 886, based on Justinian's compilations; they contain material valuable for research on the Digest.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Is there evidence for the use of the Digest in Italy before the 11th century?",
+          "a": "No — after the brief Byzantine rule there are only isolated traces of the Corpus iuris for half a millennium and no evidence of Digest use before the 11th century.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Where did Roman-law tradition survive in Italy after the Lombard advance?",
+          "a": "For a time in Byzantine enclaves: Ravenna, Rome, southern Italy, Sicily.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "extra"
+        },
+        {
+          "q": "Which legend surrounds the Codex Florentinus?",
+          "a": "That it was the official Digest copy Justinian sent to Italy.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "7": {
+      "title": "The Glossators",
+      "text": "(Continental) European legal science began at the end of the 11TH CENTURY when a professor of RHETORIC (fn 28: drafting legal documents was regarded as part of rhetoric) named IRNERIUS took up the study of Roman-law sources, especially the DIGEST, at the University of BOLOGNA. From this arose the school of the GLOSSATORS, who for the first time in Western Europe treated the Corpus iuris civilis scientifically. The name comes from their method of adding GLOSSES (notes in the margin or between the lines of a manuscript) to Justinian's texts; glosses gave explanations of words and subject matter or referred to PARALLEL or CONTRARY passages. Using the methods of SCHOLASTICISM (from theology and philosophy) they tried with great acuity to prove the FREEDOM FROM CONTRADICTION presupposed for a source of law; contradictory decisions were harmonised e.g. by attributing them to DIFFERENT FACTS. Their mastery of the sources and their EXEGETICAL skills still deserve admiration. They also began to treat the material systematically in independent works such as INTRODUCTIONES TITULORUM (introductions to Digest or Codex titles) and SUMMAE (monographs on fields of law). From the 12th and 13th centuries students from all over Europe learned Roman law at law faculties in ITALY and FRANCE. Study soon became a prerequisite for posts in state or church administration (ECCLESIA VIVIT LEGE ROMANA — 'the Church lives by Roman law'). Learned judges were persuaded only by Roman-law arguments, making such knowledge desirable for advocates, advisers and officials. Standard works until the 17th century: the SUMMAE on Codex and Institutes by AZO (d. c. 1220) and the GLOSSA ORDINARIA (96,940 glosses on the entire Corpus iuris, c. 1230) by his pupil ACCURSIUS. Because the Glossa ordinaria adapted Roman sources to medieval needs, the interpretation by the gloss weighed more in practice than the wording; the gloss stood ABOVE the Roman sources (QUOD NON AGNOSCIT GLOSSA, NON AGNOSCIT CURIA — what the gloss does not recognise, the court does not recognise). Texts not commented on by the Glossa ordinaria were therefore regarded as NOT RECEIVED. Fn 26: the Austrian legal historian Paul KOSCHAKER (1871–1951) responded with 'Europa und das römische Recht' (first 1947) to the 'crisis of Roman law' proclaimed after 1933, when Nazi Germany rejected Roman law as 'alien', 'individualistic' and 'Jewish'; he argued that Roman law had for centuries fostered a common European identity and linked European states across political divides by a common private law. Fn 29: an example of a gloss is 'CUM IN CORPUS' on D 41,1,36.",
+      "terms": [
+        {
+          "term": "GLOSSATORS",
+          "def": "Bologna school from the late 11th c. (Irnerius) that annotated the Corpus iuris with glosses and harmonised contradictions by scholastic method."
+        },
+        {
+          "term": "GLOSS",
+          "def": "Note in the margin or between the lines explaining words/subject matter or referring to parallel or contrary passages."
+        },
+        {
+          "term": "GLOSSA ORDINARIA",
+          "def": "Accursius' standard apparatus of 96,940 glosses on the whole Corpus iuris, c. 1230."
+        },
+        {
+          "term": "SUMMA",
+          "def": "Monographic systematic presentation of a field of law (e.g. Azo's Summae on Codex and Institutes)."
+        },
+        {
+          "term": "QUOD NON AGNOSCIT GLOSSA, NON AGNOSCIT CURIA",
+          "def": "'What the gloss does not recognise, the court does not recognise' — the gloss stood above the sources."
+        },
+        {
+          "term": "ECCLESIA VIVIT LEGE ROMANA",
+          "def": "'The Church lives by Roman law.'"
+        }
+      ],
+      "cards": [
+        {
+          "q": "Who founded the school of the Glossators, when and where?",
+          "a": "IRNERIUS, a professor of rhetoric, at the University of BOLOGNA at the end of the 11th century.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Describe the Glossators' method.",
+          "a": "• Glosses in the margin/between the lines: explanations of words and subject matter, references to parallel or contrary passages\n• Scholastic method to prove the Corpus iuris free of contradiction\n• Harmonising contradictions by attributing them to different facts\n• Systematic works: INTRODUCTIONES TITULORUM, SUMMAE",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "How did the Glossators deal with contradictory texts in the Corpus iuris?",
+          "a": "They assumed the source was free of contradiction and harmonised conflicting decisions, e.g. by attributing them to different facts (scholastic method).",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What was the GLOSSA ORDINARIA? Give author, date and size.",
+          "a": "The standard gloss apparatus on the entire Corpus iuris by ACCURSIUS (pupil of Azo), c. 1230, with 96,940 glosses; used until the 17th century.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "What does 'QUOD NON AGNOSCIT GLOSSA, NON AGNOSCIT CURIA' mean and what followed from it?",
+          "a": "What the gloss does not recognise, the court does not recognise — the gloss's interpretation weighed more than the Roman wording.\n• Texts not glossed by the Glossa ordinaria counted as NOT RECEIVED.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Why did knowledge of Roman law become a career requirement from the 12th/13th century?",
+          "a": "Study became a prerequisite for posts in state and church administration (ecclesia vivit lege Romana), and learned judges were persuaded only by Roman-law arguments — so advocates, advisers and officials needed it too.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which works of Azo and Accursius became standard until the 17th century?",
+          "a": "AZO (d. c. 1220): Summae on Codex and Institutes.\nACCURSIUS: Glossa ordinaria (c. 1230).",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Why did Koschaker write 'Europa und das römische Recht'?",
+          "a": "In response to the 'crisis of Roman law' after 1933 (Nazi rejection of Roman law as alien); he argued Roman law had fostered a common European identity and a common private law.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "8": {
+      "title": "The Commentators (Consiliators) and legal humanism",
+      "text": "From the middle of the 13TH to the 16TH CENTURY the Glossators were followed by the school of the CONSILIATORS or COMMENTATORS. They treated the Corpus iuris together with CANON law and FEUDAL law, or with the CONSUETUDINES (customary laws) and STATUTA of Italian city-states (fn 31: in case of collision of statutes they restricted each statute's scope — STATUTA SUNT STRICTE INTERPRETANDA — and thus gave priority to Roman law as IUS COMMUNE; the theory of statute collision is a forerunner of modern private international law). The name comes from their legal opinions (CONSILIA) and their commentaries on parts of the Corpus iuris. A CONSILIUM was the opinion of a LAW TEACHER, mostly given to a PRACTITIONER (judge etc.) (fn 32: Italian city republics entrusted administration and justice for a time to an outside PODESTÀ, who could later be held liable in the SYNDICATE PROCEEDINGS; hence his decisions had to rest on the Glossa ordinaria, the COMMUNIS OPINIO DOCTORUM or an opinion of a recognised law teacher). The Consiliators showed great ingenuity in (in)venting appropriate solutions for new problems. Formally these had to be justified from the Corpus iuris, but a stringent derivation from the cited passage mattered less to them than showing that the LEGAL IDEA was in the Corpus iuris and thus covered by its AUTHORITY. In their commentaries the school DETACHED itself from the EXEGETICAL ORDER of the sources; monographs on single fields (TRACTATUS) also appeared. Leading Consiliators: CINO DA PISTOIA (1270–1336), his pupil BARTOLUS de Saxoferrato (1314–1357) and his pupil BALDUS de Ubaldis (1327–1400). Bartolus, a legal 'child prodigy', was for centuries the undisputed authority (NEMO IURISTA NISI BARTOLISTA — 'nobody is a jurist unless a Bartolist'; fn 35: Spain and Portugal made his views binding; study at Padua included LECTURA TEXTUS, GLOSSAE ET BARTOLI). The method of Bartolus and Baldus — the MOS (DOCENDI) ITALICUS — long shaped legal thinking and teaching in Europe; in this form Roman law became the common European IUS COMMUNE with the authority of a RATIO SCRIPTA (written reason). Fn 39 — HUMANISM: legal humanism, mainly 16th-century France (hence MOS GALLICUS), criticised mos Italicus and usus modernus; it made the Corpus iuris an object of PHILOLOGICAL and HISTORICAL research, showed little interest in supporting practice, saw Roman law not as universal ratio scripta but as a product of its time; for the first time it practised TEXTUAL CRITICISM on legal sources, SEARCHED FOR INTERPOLATIONS and reconstructed e.g. the Twelve Tables. The following 'Dutch' or 'ELEGANT' jurisprudence (mainly 17th c.) combined historical interest with practical orientation.",
+      "terms": [
+        {
+          "term": "CONSILIATORS / COMMENTATORS",
+          "def": "School from the mid-13th to the 16th c.; combined the Corpus iuris with canon, feudal and city law; wrote consilia and commentaries."
+        },
+        {
+          "term": "CONSILIUM",
+          "def": "Legal opinion of a law teacher, mostly for a practitioner such as a judge."
+        },
+        {
+          "term": "MOS ITALICUS",
+          "def": "The Italian method of teaching law (Bartolus, Baldus); made Roman law the ius commune as ratio scripta."
+        },
+        {
+          "term": "MOS GALLICUS",
+          "def": "French humanist approach (16th c.): philological-historical study of the sources, textual criticism, search for interpolations."
+        },
+        {
+          "term": "RATIO SCRIPTA",
+          "def": "'Written reason' — the authority attributed to Roman law as ius commune."
+        },
+        {
+          "term": "COMMUNIS OPINIO DOCTORUM",
+          "def": "Prevailing opinion of learned jurists."
+        },
+        {
+          "term": "STATUTA SUNT STRICTE INTERPRETANDA",
+          "def": "'Statutes must be interpreted narrowly' — gave priority to Roman law as ius commune; precursor of private international law."
+        },
+        {
+          "term": "TRACTATUS",
+          "def": "Monograph on a single field of law."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Distinguish the Glossators and the Consiliators (Commentators).",
+          "a": "GLOSSATORS (late 11th–13th c.): glosses on the Corpus iuris following the order of the texts; aim: prove freedom from contradiction.\nCONSILIATORS (mid-13th–16th c.): combine Corpus iuris with canon, feudal and city law; consilia for practice; commentaries detached from the exegetical order; tractatus.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What was a CONSILIUM?",
+          "a": "The legal opinion of a law teacher, mostly given to a practitioner (e.g. a judge).",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "How did the Consiliators justify new solutions?",
+          "a": "Formally from the Corpus iuris — but what mattered was showing that the LEGAL IDEA was in the Corpus iuris and thus covered by its authority, not a stringent derivation from the cited passage.",
+          "difficulty": 3,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Name the three leading Consiliators with their teacher–pupil chain and dates.",
+          "a": "CINO DA PISTOIA (1270–1336) → BARTOLUS de Saxoferrato (1314–1357) → BALDUS de Ubaldis (1327–1400).",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "What does 'NEMO IURISTA NISI BARTOLISTA' express?",
+          "a": "'Nobody is a jurist unless a Bartolist' — Bartolus' undisputed authority for centuries (Spain and Portugal even made his views binding).",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish MOS ITALICUS and MOS GALLICUS.",
+          "a": "MOS ITALICUS (Bartolus, Baldus): practice-oriented; Roman law as universal RATIO SCRIPTA / ius commune.\nMOS GALLICUS (humanism, 16th c. France): philological-historical study; Roman law as product of its time; textual criticism, search for interpolations; little interest in practice.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Which movement first searched for interpolations in legal sources?",
+          "a": "Legal HUMANISM (mos Gallicus, 16th c.), which first practised textual criticism on legal sources.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Why is the Consiliators' theory of statute collision historically important?",
+          "a": "It is a forerunner of modern PRIVATE INTERNATIONAL LAW (statuta sunt stricte interpretanda gave priority to Roman law as ius commune).",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        },
+        {
+          "q": "Why did a podestà's decisions need to rest on the gloss, the communis opinio or a consilium?",
+          "a": "Because he could later be held liable for wrong decisions in the syndicate proceedings.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "9": {
+      "title": "Results of the reception; USUS MODERNUS PANDECTARUM",
+      "text": "The RECEPTION (adoption) of Roman law covered continental Europe from the Iberian Peninsula to the Baltic. It began in the 12TH CENTURY with an early reception in the ecclesiastical sphere and was completed in the 15TH and 16TH CENTURIES (in Germany by the REICHSKAMMERGERICHTSORDNUNG of 1495). Contrary to what critics repeatedly claimed, the reception did NOT primarily mean adopting foreign Roman law and replacing native law; it changed the legal system far more deeply by establishing a SCIENTIFIC, METHODICAL treatment of law. In practice, LEARNED jurists trained in the mos Italicus relied on WRITTEN authorities; they REPLACED LAY JUDGES and conducted proceedings in WRITING. The basis of decisions was no longer unwritten customary law unfamiliar to them, but written — and thus mostly Roman-law — authorities. In the 17th and 18th centuries Roman law of the mos Italicus and native law MERGED into the COMMON LAW (IUS COMMUNE), treated scientifically by an independent German common-law science, the USUS MODERNUS PANDECTARUM ('modern use of the Pandects'); fn 37: university teaching of native law existed only from the 17th century. The methods and concepts developed on the Corpus iuris since the Glossators now also served to process native law. Native substance still DOMINATED in the law of PERSONS, FAMILY and SUCCESSION (Roman law contributed only technical details, e.g. forms of wills) and local practices survived in the law of IMMOVABLES (registration of real rights). THOROUGHLY ROMANISED were the law of MOVABLES (exception: retention of GOOD-FAITH ACQUISITION FROM A NON-OWNER) and above all the LAW OF OBLIGATIONS, which benefited supranational trade.",
+      "terms": [
+        {
+          "term": "RECEPTION",
+          "def": "Adoption of Roman law in continental Europe, 12th–16th c.; above all the establishment of a scientific method in law."
+        },
+        {
+          "term": "USUS MODERNUS PANDECTARUM",
+          "def": "17th–18th c. German common-law science treating the merged Roman and native law (ius commune)."
+        },
+        {
+          "term": "Reichskammergerichtsordnung 1495",
+          "def": "Marks the completion of the reception in Germany."
+        },
+        {
+          "term": "Learned jurists (gelehrte Juristen)",
+          "def": "University-trained jurists (mos Italicus) who replaced lay judges and relied on written authorities."
+        }
+      ],
+      "cards": [
+        {
+          "q": "In what way did the reception influence native law? (Kontrollfrage)",
+          "a": "Mainly by establishing a SCIENTIFIC, METHODICAL treatment of law — not by simply replacing native law.\n• Learned jurists replaced lay judges; written proceedings; written (mostly Roman) authorities instead of unwritten custom.\n• Methods and concepts from the Corpus iuris were applied to native law (usus modernus).\n• Romanised: movables and obligations; native law kept persons, family, succession, immovables.",
+          "difficulty": 3,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Which areas of law were thoroughly romanised by the reception, and which remained native?",
+          "a": "ROMANISED: law of movables (except good-faith acquisition from a non-owner) and above all the law of obligations.\nNATIVE: persons, family, succession (Roman technical details only, e.g. forms of wills) and immovables (registration of real rights).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "When did the reception begin and end? Give the German landmark.",
+          "a": "Began in the 12th century (early reception in the church); completed in the 15th/16th centuries — in Germany by the Reichskammergerichtsordnung of 1495.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "What was the USUS MODERNUS PANDECTARUM?",
+          "a": "The German common-law science of the 17th–18th centuries that scientifically treated the IUS COMMUNE formed by merging Roman law (mos Italicus) and native law.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Which element of Germanic/native law survived even in the romanised law of movables?",
+          "a": "Good-faith acquisition of ownership from a non-owner.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Is it correct that the reception mainly replaced native law with foreign Roman law?",
+          "a": "No (Gamauf): its deeper effect was establishing a scientific, methodical handling of law by learned jurists.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "10": {
+      "title": "Natural law and its codifications: ALR, Code civil, ABGB",
+      "text": "NATURAL LAW: contact with non-Mediterranean cultures in the early modern period raised the question of how to justify rules binding on Europeans and the inhabitants of the 'new world' alike; the REFORMATION, which removed religion's unifying role, posed a similar problem in Europe. Rules were now derived from common HUMAN NATURE or principles of REASON. Many principles of this IUS NATURAE ET GENTIUM were already known from Justinian's codifications but were no longer derived from them alone — so a positive legal order INDEPENDENT of the Corpus iuris became conceivable. Jean DOMAT (1625–1696) developed a 'natural order' of civil law ('Les lois civiles dans leur ordre naturel', 1689–1695); LEIBNIZ (1646–1716) hoped to apply law MORE GEOMETRICO with mathematical precision and repeatedly promoted codification. Absolutist states favoured such ideas, seeing uniform private law as a tool of centralisation and political unification — the climate for replacing the usus modernus by native codifications. PRUSSIAN ALR (Allgemeines Landrecht) 1794: regarded as the FIRST natural-law codification; comprehensively codified Prussian law in the spirit of enlightened but paternalistic absolutism, leaving hardly any area of life unregulated; in private law it often followed Roman law, sometimes down to the wording. FRENCH CODE CIVIL 1804: the world's 'most successful' natural-law codification; combined revolutionary socio-political aims with the results of French common-law science of the Ancien Régime; its substance an amalgam of Roman tradition (the DROIT ÉCRIT of southern France) and medieval customary law (above all the COUTUME DE PARIS). Its precise language and clear structure are exemplary (fn 44: Stendhal claimed to have sharpened his style by reading two or three pages of it every morning while writing 'The Charterhouse of Parma'). The tripartite original version followed a varied INSTITUTIONAL SYSTEM (law of persons – law of property – modes of acquiring ownership). Napoleon's victories spread it across Europe; the Romance countries and former French, Spanish and Portuguese colonies still belong to its legal family. AUSTRIAN ABGB: under Franz von ZEILLER (1751–1828), professor of Roman and natural law in Vienna, the codification begun under MARIA THERESA in 1753 was completed in 1811; in force 1812. In content it stayed in the tradition of the USUS MODERNUS. Structure: the three-part INSTITUTIONAL SYSTEM — Gaius' personae, res, actiones became law of persons, law of things, and common provisions (fn 46: Gaius was discovered only in 1816, but the structure was known through Justinian's Institutes; Austrian civil-law textbooks have followed the PANDECT SYSTEM since the 19th century). § 285 ABGB adopted Gaius' wide concept of things, classing RIGHTS as RES INCORPORALES; hence the ABGB treated property and succession as 'real rights of things' (dingliche Sachenrechte) and obligations as 'personal rights of things' (persönliche Sachenrechte). Approaches to a general part came from natural law. The ABGB radiated to neighbouring codifications and remained in force in Eastern Europe after the Habsburg monarchy until replaced by socialist codes. Three PARTIAL AMENDMENTS (1914–1916) modernised especially the law of obligations along German pandectist lines; today about 40% of its provisions are still in their original wording.",
+      "terms": [
+        {
+          "term": "IUS NATURAE ET GENTIUM",
+          "def": "Early-modern natural and international law, derived from human nature and reason rather than from the Corpus iuris alone."
+        },
+        {
+          "term": "ALR (Allgemeines Landrecht)",
+          "def": "Prussian code of 1794; first natural-law codification; comprehensive and paternalistic."
+        },
+        {
+          "term": "CODE CIVIL",
+          "def": "French code of 1804; most successful natural-law codification; droit écrit + Coutume de Paris; institutional system."
+        },
+        {
+          "term": "ABGB",
+          "def": "Austrian civil code: begun 1753, completed 1811, in force 1812 (Zeiller); usus modernus tradition; institutional system; § 285 res incorporales."
+        },
+        {
+          "term": "Institutional system",
+          "def": "Arrangement derived from Gaius: persons – things – actions (in ABGB: persons, things, common provisions)."
+        },
+        {
+          "term": "DROIT ÉCRIT",
+          "def": "'Written law' — the Roman law prevailing in southern France."
+        },
+        {
+          "term": "MORE GEOMETRICO",
+          "def": "'In the geometrical manner' — Leibniz's ideal of applying law with mathematical precision."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Why did early-modern thinkers derive law from human nature and reason?",
+          "a": "• Contact with non-Mediterranean cultures: rules binding on Europeans and inhabitants of the 'new world' alike were needed.\n• The Reformation removed religion's unifying role.\n→ A legal order independent of the Corpus iuris became conceivable.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Put the natural-law codifications in order with their years.",
+          "a": "Prussian ALR 1794 → French Code civil 1804 → Austrian ABGB 1811/1812.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish the ALR, the Code civil and the ABGB.",
+          "a": "ALR (1794): first natural-law code; paternalistic absolutism, regulates almost every area of life.\nCODE CIVIL (1804): most successful; droit écrit + Coutume de Paris; precise language; spread by Napoleon.\nABGB (1812): usus modernus tradition; institutional system; § 285 res incorporales; ~40% still original.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "How does the ABGB's structure reflect Gaius' Institutes?",
+          "a": "Institutional system: personae – res – actiones became law of persons – law of things – common provisions of persons' and things' law.",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "What did § 285 ABGB take from Gaius, and with what consequence?",
+          "a": "Gaius' wide concept of things including RIGHTS as RES INCORPORALES.\n• Hence property and succession = 'real rights of things', obligations = 'personal rights of things'.",
+          "difficulty": 3,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Give the key dates of the ABGB.",
+          "a": "Codification begun under Maria Theresa 1753 → completed 1811 under Zeiller → in force 1812 → three partial amendments 1914–1916; about 40% of provisions still in the original wording.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Who led the drafting of the ABGB?",
+          "a": "Franz von ZEILLER (1751–1828), professor of Roman and natural law in Vienna.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What was the substance of the French Code civil?",
+          "a": "An amalgam of Roman tradition (DROIT ÉCRIT of southern France) and medieval customary law (above all the COUTUME DE PARIS), combined with revolutionary aims.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "How was the original Code civil of 1804 structured?",
+          "a": "Three parts following a varied institutional system: law of persons – law of property – modes of acquiring ownership.",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "What did the partial amendments of 1914–1916 change in the ABGB?",
+          "a": "They modernised especially the law of obligations according to the concepts of German pandectist science (in line with the BGB).",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which contributions to natural-law thinking are associated with Domat and Leibniz?",
+          "a": "DOMAT (1625–1696): a 'natural order' of civil law outside the Corpus iuris (Les lois civiles dans leur ordre naturel, 1689–1695).\nLEIBNIZ (1646–1716): law applied MORE GEOMETRICO with mathematical precision; promoted codification.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "extra"
+        },
+        {
+          "q": "Why did absolutist states support codification?",
+          "a": "They saw a uniform private law as an instrument of centralisation and political unification.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "11": {
+      "title": "19th century: Historical School, Pandectists, BGB and ZGB",
+      "text": "The defining figure of 19th-century legal science, far beyond Germany, was Friedrich Carl von SAVIGNY (1779–1861). In 'VOM BERUF UNSERER ZEIT FÜR GESETZGEBUNG UND RECHTSWISSENSCHAFT' (1814) he rejected Anton Friedrich Justus THIBAUT's (1772–1840) demand for a private-law codification for Germany; the pamphlet became the FOUNDING MANIFESTO of the HISTORICAL SCHOOL, whose basic assumption was that law can be understood only through research into its HISTORY. Savigny's influence led German-speaking universities to place the study of the Corpus iuris ABOVE the study of the respective codification (fn 48: Koschaker, born 1871, took 44 semester hours of Roman law and only 18 on the ABGB). Concentrating on the 'pure' Roman law of the Corpus iuris turned it into a DE-HISTORICISED legal fund from which PANDECTIST SCIENCE (Pandektenwissenschaft) drew its material to build a systematic, scientifically worked-out modern civil law (fn 49: textbooks by Puchta, Brinz, Vangerow and Bernhard WINDSCHEID — especially influential for the BGB; Josef UNGER established pandectism as the method for the ABGB in Austria). BGB: the German Bürgerliches Gesetzbuch of 1900 was the conclusion and crowning of pandectist science; its content was shaped by Roman law in its pandectist understanding — even though during codification many criticised precisely this as outdated. Experts praised its elaborate GENERAL PART, technically precise language and consistent systematic structure; but exactly these (and the many cross-references) made it largely inaccessible to laymen. It follows the FIVE-PART PANDECT SYSTEM: general part, obligations, property, family, succession (fn 51: used in Roman-law lectures and textbooks since the late 18th c., centred on the Pandects; Savigny helped it prevail). The BGB influenced later codes from Europe (Switzerland, Greece) to Asia (Japan, China); the ABGB amendments of 1914–1916 followed it. ZGB: the Swiss Zivilgesetzbuch, in force 1912, is a successful combination of pandectist science with native traditions; it has no abstract general part and no highly technical language. It contains law of persons, family, succession and property; the law of obligations (OR) is a separate statute. In 1927 modernising TURKEY adopted the ZGB.",
+      "terms": [
+        {
+          "term": "Historical School (Historische Rechtsschule)",
+          "def": "Founded by Savigny's 1814 manifesto: law can only be understood through its history."
+        },
+        {
+          "term": "Pandectist science (Pandektistik)",
+          "def": "19th-c. German legal science building a systematic modern civil law from de-historicised Roman law of the Pandects."
+        },
+        {
+          "term": "Pandect system",
+          "def": "Five-part arrangement: general part, obligations, property, family, succession (BGB)."
+        },
+        {
+          "term": "BGB",
+          "def": "German civil code of 1900; crowning of pandectist science; general part; pandect system."
+        },
+        {
+          "term": "ZGB / OR",
+          "def": "Swiss civil code (1912) without a general part; the law of obligations (OR) is a separate statute; adopted by Turkey 1927."
+        }
+      ],
+      "cards": [
+        {
+          "q": "How did Savigny's rejection of codification become the basis for the BGB? (Kontrollfrage)",
+          "a": "1814 'Vom Beruf…' rejected Thibaut's demand for a code → founding manifesto of the HISTORICAL SCHOOL\n→ universities placed the Corpus iuris above the codifications\n→ 'pure' Roman law became a de-historicised fund for PANDECTIST science\n→ pandectists built a systematic modern civil law → BGB 1900 as its conclusion and crowning.",
+          "difficulty": 3,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "What was the basic methodological assumption of the Historical School?",
+          "a": "That law can be understood only through research into its history.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Who debated codification for Germany in 1814?",
+          "a": "THIBAUT demanded a private-law code; SAVIGNY rejected it in 'Vom Beruf unserer Zeit für Gesetzgebung und Rechtswissenschaft'.",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What are the five parts of the pandect system (BGB)?",
+          "a": "1. General part\n2. Obligations\n3. Property\n4. Family\n5. Succession",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish the institutional system and the pandect system.",
+          "a": "INSTITUTIONAL (Gaius): three parts — persons, things, actions (Code civil, ABGB).\nPANDECT: five parts with a GENERAL PART — general part, obligations, property, family, succession (BGB).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What were the strengths and the weakness of the BGB?",
+          "a": "Strengths: elaborate general part, technically precise language, consistent system.\nWeakness: exactly these (plus many cross-references) made it largely inaccessible to laymen.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish the BGB and the Swiss ZGB.",
+          "a": "BGB (1900): crowning of pandectism; abstract general part; highly technical language; includes obligations.\nZGB (1912): pandectism + native traditions; no abstract general part, no highly technical language; obligations in a separate statute (OR).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Give the dates: BGB, ZGB and its adoption by Turkey.",
+          "a": "BGB 1900 · ZGB in force 1912 · Turkey adopted the ZGB in 1927.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Which pandectist was especially influential for the BGB, and who brought pandectism to Austria?",
+          "a": "Bernhard WINDSCHEID (BGB); Josef UNGER established pandectism as the method for the ABGB.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "extra"
+        },
+        {
+          "q": "How did Savigny's influence show in legal education (Koschaker's example)?",
+          "a": "The Corpus iuris was studied above the codification: Koschaker (b. 1871) took 44 semester hours of Roman law but only 18 on the ABGB.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "extra"
+        },
+        {
+          "q": "Which codes did the BGB influence?",
+          "a": "In Europe Switzerland and Greece, in Asia Japan and China; and the ABGB amendments of 1914–1916.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "12": {
+      "title": "Part 3 as a toolkit for exegesis — review",
+      "text": "Part 3 supplies the technical tools for handling a Digest text: (1) CITATION — D book, title, fragment, paragraph; the first paragraph is the PRINCIPIUM (pr.), the second is numbered 1; Codex citations are book, title, constitution, paragraph. (2) INSCRIPTIO — names author and work (e.g. PAULUS LIBRO QUINQUAGENSIMO QUARTO AD EDICTUM); combined with Part 2 you can place the jurist (period, school) and the genre of the work, and with Bluhme's theory the MASS it belongs to (ad Sabinum, ad edictum, Papinian/problem literature). (3) INTERPOLATIONS — the compilers shortened texts and made mechanical changes (e.g. MANCIPATIO replaced by TRADITIO); deep rewriting is unlikely according to Gamauf, so do not lightly assume a text has been falsified; but remember that controversies were removed or cut. (4) TITLE CONTEXT — the Digest title (e.g. D 41,2 De adquirenda vel amittenda possessione) tells you the subject the compilers assigned the fragment to. The four Kontrollfragen of Part 3 (vulgarisation; how the compilers changed texts; influence of the reception on native law; Savigny and the BGB) are covered by cards in sections 1, 4, 9 and 11.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "A fragment's inscriptio reads 'Ulpianus libro ... ad edictum'. Which mass of Bluhme's theory does it belong to, and what genre is the work?",
+          "a": "The EDICT mass; the work is a late classical commentary on the praetorian edict (LIBER AD EDICTUM).",
+          "difficulty": 3,
+          "kind": "pripad",
+          "priority": "core"
+        },
+        {
+          "q": "A classical jurist's text in the Digest speaks of TRADITIO where the jurist would have discussed MANCIPATIO. What may have happened, according to Gamauf?",
+          "a": "A mechanical interpolation by the compilers: the word MANCIPATIO was replaced by TRADITIO (mancipatio had disappeared in the post-classical period).",
+          "difficulty": 3,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which three pieces of information in the heading/citation of a Digest fragment should you comment on first in an exegesis?",
+          "a": "• Citation (book, title, fragment, paragraph / pr.) and the SUBJECT of the title\n• AUTHOR from the inscriptio (period, school)\n• WORK and its GENRE (and Bluhme mass) from the inscriptio",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    }
+  }
+}

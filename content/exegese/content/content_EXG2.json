@@ -1,0 +1,977 @@
+{
+  "lecture_id": "EXG2",
+  "title": "Basics of Roman law II (Gamauf)",
+  "free_sections": true,
+  "slides": {
+    "1": {
+      "title": "Roman jurisprudence — the creators of Roman law",
+      "text": "Part 2 presents the Roman jurists and their works. Classical Roman law could become the basis of modern continental private law only because ancient legal texts were available at the medieval universities (above all BOLOGNA); until the 19th century legal science in Europe was unthinkable without engaging with the Roman heritage (reception and Justinian's compilations follow in Part 3). Roman JURISPRUDENCE is regarded as the most outstanding and most influential intellectual creation of the Romans. From the PONTIFICAL JURISPRUDENCE of early times (probably already before the 5th c. BC) to the late classics one can follow a continuous, increasingly dense legal discourse. Of the many-voiced discussions from the late 1st c. BC to the early 3rd c. AD, the excerpts preserved in Justinian's CORPUS IURIS CIVILIS still give a — faded — picture; the full wealth of controversies is missing because removing them was the emperor's express instruction to the compilers (fn 3). A connected account of the development is given by the second title of the Digest, D. 1.2 'DE ORIGINE IURIS ET OMNIUM MAGISTRATUUM ET SUCCESSIONE PRUDENTIUM' (on the origin of law, of all magistracies and the succession of jurists), based on the handbook (ENCHIRIDION) of the high classic POMPONIUS (2nd c. AD). Without Pomponius the defining feature of Roman legal development — the formation of a class of jurists and of a legal science carried by it — would hardly be comprehensible. Central position: in Rome the key role belonged NOT to great individual lawgivers (as in Babylon, Israel or Greece) but, after the secularisation of the ius civile, to PRIVATE LEGAL EXPERTS. They influenced the law not by official position but by EXPERTISE gained in intensive engagement with legal questions; legal expertise brought high social prestige, and private persons, politicians, military leaders and judicial officials all relied on their advice. Fn 4: Pomponius D. 1.2.2.37 reports that a Gaius Scipio Nasica received a house on the SACRA VIA at public expense so he could be consulted more easily; Labeo's teacher Gaius TREBATIUS TESTA began his career when Caesar needed an expert on international and public law for the Gallic campaigns.",
+      "terms": [
+        {
+          "term": "JURISPRUDENCE (iurisprudentia)",
+          "def": "Roman legal science, carried by private legal experts; regarded as the Romans' most influential intellectual creation."
+        },
+        {
+          "term": "D. 1.2 DE ORIGINE IURIS",
+          "def": "Second Digest title: history of law, magistracies and jurists, based on Pomponius' ENCHIRIDION."
+        },
+        {
+          "term": "ENCHIRIDION",
+          "def": "Short handbook of Pomponius (2nd c. AD) containing an outline of the history of Roman legal science."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Who held the central position in Roman legal development, in contrast to Babylon, Israel or Greece?",
+          "a": "Not great individual lawgivers but — after the secularisation of the ius civile — PRIVATE LEGAL EXPERTS (jurists).\n• Their influence rested on expertise, not on official position.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Which Digest title gives a connected history of Roman legal science, and on what is it based?",
+          "a": "D. 1.2 'De origine iuris et omnium magistratuum et successione prudentium', based on the ENCHIRIDION (handbook) of the high classic POMPONIUS (2nd c. AD).",
+          "difficulty": 1,
+          "kind": "judikat",
+          "priority": "core"
+        },
+        {
+          "q": "Why do the Digest excerpts give only a 'faded' picture of the classical jurists' discussions?",
+          "a": "Because removing controversies was the emperor's express instruction to the compilers — the full wealth of controversies is missing.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "On what did the influence of Roman jurists rest?",
+          "a": "On their expertise (Fachkenntnis) gained through intensive engagement with legal questions — not on an official position; legal expertise also gave high social prestige.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which anecdote in Pomponius D. 1.2.2.37 shows the public esteem for legal advice?",
+          "a": "A Gaius Scipio Nasica received a house on the SACRA VIA at public expense so that he could be consulted more easily.",
+          "difficulty": 1,
+          "kind": "judikat",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "2": {
+      "title": "Pontifical jurisprudence and verbal formalism",
+      "text": "Until the 3RD CENTURY BC the care of the IUS CIVILE lay exclusively with the college of the PONTIFICES (purely PATRICIAN until 300 BC). Fn 6: they were the highest priests of the state cult, chaired by the PONTIFEX MAXIMUS ('supreme bridge-builder'); the emperor later took over the title and the Pope still bears it. Like the rites of the state cult, the pontifices treated the ius civile largely as SECRET KNOWLEDGE. The VERBAL FORMALISM dominant in the cult also shaped the oldest private law. Fn 7: Roman religion required correct performance of rituals, not belief in dogmas; correctly spoken prayers were thought to bind the gods 'contractually'; if the expected divine counter-performance failed, the ritual was repeated or varied until it worked. Examples: winning a LEGIS ACTIO SACRAMENTO first required reciting the formula correctly (fn 8: LEGE AGERE was regarded as equivalent to CERTIS VERBIS AGERE, 'to sue with fixed words'). For a STIPULATIO to be binding the word SPONDERE originally had to appear in question and answer (fn 9: 'SESTERTIUM DECEM MILIA MIHI DARI SPONDESNE?' — 'SPONDEO'; the religiously connoted spondere points to an origin in an oath with sacral sanctions; the classical period dissolved this formalism — a stipulation was binding as long as the SAME VERB was used in question and answer, which was needed because Latin has no word for 'yes'). Private law developed step by step AWAY FROM VERBAL FORMALISM towards judging transactions by their CONTENT.",
+      "terms": [
+        {
+          "term": "PONTIFICES",
+          "def": "College of the highest priests of the state cult; until the 3rd c. BC exclusive guardians of the ius civile; purely patrician until 300 BC."
+        },
+        {
+          "term": "PONTIFEX MAXIMUS",
+          "def": "Chair of the pontifical college; title later taken by the emperor and still borne by the Pope."
+        },
+        {
+          "term": "LEGIS ACTIO SACRAMENTO",
+          "def": "Oldest form of legal action; success required correct recitation of the fixed formula (certis verbis agere)."
+        },
+        {
+          "term": "STIPULATIO",
+          "def": "Formal oral promise by question and answer; originally the verb SPONDERE was compulsory, classically any matching verb sufficed."
+        },
+        {
+          "term": "Verbal formalism (Wortformalismus)",
+          "def": "Legal effect depends on pronouncing the prescribed words correctly."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Who cared for the IUS CIVILE until the 3rd century BC, and how did they treat it?",
+          "a": "Exclusively the college of PONTIFICES (purely patrician until 300 BC).\n• They treated it largely as secret knowledge, like the rites of the state cult.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Until which year was the college of pontifices purely patrician?",
+          "a": "Until 300 BC.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Give two examples of verbal formalism in the oldest Roman private law.",
+          "a": "• LEGIS ACTIO SACRAMENTO: winning required first the correct recitation of the formula.\n• STIPULATIO: originally the word SPONDERE had to appear in question and answer.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "How did the requirements for a binding STIPULATIO change from early times to the classical period?",
+          "a": "Early: the word SPONDERE compulsory ('…spondesne?' – 'spondeo').\nClassical: any verb sufficed as long as the SAME verb was used in question and answer.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Why did a Roman stipulator's answer have to repeat the verb of the question?",
+          "a": "Because Latin has no word for 'yes' — affirming required repeating the question's verb.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What does the word SPONDERE reveal about the origin of the STIPULATIO?",
+          "a": "It is religiously connoted and points to an origin in an OATH whose breach originally triggered sacral sanctions.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        },
+        {
+          "q": "In which direction did Roman private law develop with regard to form?",
+          "a": "Step by step away from verbal formalism towards judging legal transactions by their CONTENT.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Why was verbal formalism natural for the pontifices, according to Gamauf's footnote on Roman religion?",
+          "a": "Roman religion required correct performance of rituals, not belief in dogma; correctly spoken prayers were thought to bind the gods 'contractually'.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "3": {
+      "title": "Pontifical INTERPRETATIO: 'imitative' transactions (mancipatio, in iure cessio, emancipatio, adoptio)",
+      "text": "The pontifices' attachment to tradition had two partly opposite consequences: clinging to external formalism made the ius civile hard to apply and inflexible; yet traditionalism also FORCED considerable LEGAL CREATIVITY. Since they could not formally introduce innovations, innovation was possible ONLY BY ADAPTING EXISTING FORMULAS: a slight change could make a formula serve an entirely different function. To this PONTIFICAL INTERPRETATIO the ius civile owes some of its most long-lived and characteristic (formal) transactions. From the LEGIS ACTIO SACRAMENTO, which served to establish rights, derived the transactions MANCIPATIO and IN IURE CESSIO, enabling transfer of ownership and creation of real rights. Fn 10: since Ernst RABEL (1874–1955) these are called 'NACHGEFORMTE RECHTSGESCHÄFTE' (imitative/modelled transactions). The mancipation formula gained further flexibility once no real cash sale took place but the sale was performed only SYMBOLICALLY as MANCIPATIO NUMMO UNO ('with one coin'). Fn 11: no real payment (originally weighing out of uncoined bronze before coinage) was needed any more; to preserve the form the scale was just touched with one coin — legal effects followed from observing the FORM, not from the material content. From then on ownership could be acquired by mancipatio not only by way of sale but on ANY LEGAL GROUND, which made mancipatio a versatile ABSTRACT TRANSACTION OF DISPOSITION (Verfügungsgeschäft). Fn 12: abstract means ownership passed even if the TITLE transaction was invalid; unlike TRADITIO, a valid title was unnecessary also because a symbolic sale nummo uno was built into the procedure. Mancipatio could then also transfer FAMILY-LAW POWER: by COEMPTIO the husband's (or his pater familias') power over the wife in a MANUS MARRIAGE was created in mancipation form. A protective rule of the Twelve Tables — loss of PATRIA POTESTAS as sanction for a father who sold his son three times (for temporary use as labour) — gave the pontifices the starting point for transactions allowing voluntary termination of paternal power. Fn 13: Table 4,2 'SI PATER FILIUM TER VENUM DUIT, FILIUS A PATRE LIBER ESTO' (if the father sells the son three times, the son shall be free from the father). EMANCIPATIO released the child from paternal power; ADOPTIO transferred it to another holder of power.",
+      "terms": [
+        {
+          "term": "INTERPRETATIO (pontifical)",
+          "def": "Innovation by slightly adapting existing formulas so that they serve a new function."
+        },
+        {
+          "term": "NACHGEFORMTE RECHTSGESCHÄFTE",
+          "def": "Rabel's term for transactions modelled on another form, e.g. MANCIPATIO and IN IURE CESSIO modelled on the LEGIS ACTIO SACRAMENTO."
+        },
+        {
+          "term": "MANCIPATIO",
+          "def": "Formal civil-law act of transferring ownership (only for citizens); later performed symbolically NUMMO UNO and thus an abstract disposition on any legal ground."
+        },
+        {
+          "term": "IN IURE CESSIO",
+          "def": "Transfer of ownership / creation of real rights by a fictitious lawsuit before the magistrate; derived from the legis actio sacramento."
+        },
+        {
+          "term": "MANCIPATIO NUMMO UNO",
+          "def": "Mancipation 'with one coin': the scale is merely touched with a coin; the sale is only symbolic."
+        },
+        {
+          "term": "Abstract transaction (abstraktes Verfügungsgeschäft)",
+          "def": "Disposition effective even if the underlying title transaction is invalid."
+        },
+        {
+          "term": "COEMPTIO",
+          "def": "Creation of the husband's MANUS over the wife in mancipation form."
+        },
+        {
+          "term": "EMANCIPATIO / ADOPTIO",
+          "def": "Release of a child from PATRIA POTESTAS / transfer of the child to another holder of power — both built on the 'three sales' rule of Table 4,2."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What are 'nachgeformte Rechtsgeschäfte' (imitative transactions)? (Kontrollfrage)",
+          "a": "Transactions the pontifices created by slightly ADAPTING an existing formula to a new function (term by Ernst Rabel).\n• MANCIPATIO and IN IURE CESSIO were modelled on the LEGIS ACTIO SACRAMENTO (a procedure to establish rights).\n• Similarly COEMPTIO, EMANCIPATIO, ADOPTIO built on mancipation / the Twelve-Tables rule on three sales.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "What two partly opposite consequences did the pontifices' attachment to tradition have?",
+          "a": "• External formalism made the ius civile hard to apply and inflexible.\n• But it forced great legal creativity: since no formal innovation was possible, they adapted existing formulas (INTERPRETATIO).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "From which procedure were MANCIPATIO and IN IURE CESSIO derived, and what did they enable?",
+          "a": "From the LEGIS ACTIO SACRAMENTO (procedure establishing rights); they enabled transfer of ownership and creation of real rights.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Why did MANCIPATIO NUMMO UNO make mancipatio an abstract transaction of disposition?",
+          "a": "Because the sale was only symbolic (scale touched with one coin), ownership could be transferred on ANY legal ground, not only by sale.\n• Abstract: ownership passed even if the title transaction was invalid.",
+          "difficulty": 3,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish MANCIPATIO and TRADITIO with regard to the need for a valid title.",
+          "a": "MANCIPATIO (nummo uno): abstract — ownership passes even if the title transaction is invalid; a symbolic sale is built into the act.\nTRADITIO: a valid title is required.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Where did the legal effects of a MANCIPATIO NUMMO UNO come from?",
+          "a": "From observing the FORM, not from the material content of the transaction.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which Twelve-Tables rule did the pontifices use to create EMANCIPATIO and ADOPTIO?",
+          "a": "Table 4,2: 'SI PATER FILIUM TER VENUM DUIT, FILIUS A PATRE LIBER ESTO' — a father who sold his son three times lost PATRIA POTESTAS (originally a protective sanction).",
+          "difficulty": 2,
+          "kind": "judikat",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish EMANCIPATIO and ADOPTIO.",
+          "a": "EMANCIPATIO: release of the child from paternal power.\nADOPTIO: transfer of the child into the power of another holder.",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What was COEMPTIO?",
+          "a": "Creation of the husband's (or his pater familias') power over the wife in a MANUS marriage, in mancipation form.",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Who coined the term 'nachgeformte Rechtsgeschäfte'?",
+          "a": "The legal historian and comparatist Ernst RABEL (1874–1955).",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "4": {
+      "title": "Secular jurisprudence in the Republic (3rd–1st c. BC)",
+      "text": "Priestly jurisprudence ended once the patrician pontifices lost their monopoly in the ius civile and exclusive knowledge of the formulas for actions and transactions. Roman historiography condensed this probably gradual SECULARISATION into a dramatic episode set — like the Twelve Tables — in the struggle of the orders: in 304 BC a scribe named GNAEUS FLAVIUS allegedly took the procedural formulas and published them on his own authority as the IUS FLAVIANUM; not long after, TIBERIUS CORUNCANIUS (fn 16: allegedly in 254 BC the first plebeian PONTIFEX MAXIMUS) is said to have given the first PUBLIC legal instruction. After the turn of the 2nd to the 1st c. BC there are no more jurists with high priestly functions. Important jurists of the 1st c. BC: QUINTUS MUCIUS SCAEVOLA (consul 95 BC), whose work on civil law was still commented on by the high classic Pomponius (AD QUINTUM MUCIUM); Cicero's friend SERVIUS SULPICIUS RUFUS (c. 106–43 BC), who founded an important school, but whose extensive writings are entirely lost. His pupil ALFENUS VARUS (suffect consul 39 BC) is the ONLY REPUBLICAN and the OLDEST jurist whose writings the compilers included in the Digest.",
+      "terms": [
+        {
+          "term": "IUS FLAVIANUM",
+          "def": "Collection of procedural formulas allegedly published by the scribe Gnaeus Flavius in 304 BC — symbol of secularisation."
+        },
+        {
+          "term": "Secularisation of jurisprudence",
+          "def": "End of the pontiffs' monopoly over the ius civile and its formulas; law becomes the domain of lay experts."
+        }
+      ],
+      "cards": [
+        {
+          "q": "How did Roman historiography depict the secularisation of jurisprudence?",
+          "a": "As a dramatic episode in the struggle of the orders:\n• 304 BC the scribe GNAEUS FLAVIUS took and published the procedural formulas (IUS FLAVIANUM).\n• Soon after, TIBERIUS CORUNCANIUS gave the first public legal instruction.",
+          "difficulty": 1,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "What happened in 304 BC according to Roman tradition?",
+          "a": "The scribe Gnaeus Flavius published the procedural formulas on his own authority — the IUS FLAVIANUM.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Who was Tiberius Coruncanius?",
+          "a": "Allegedly the first plebeian PONTIFEX MAXIMUS (254 BC) and the first to give public legal instruction.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which is the oldest jurist — and the only republican one — excerpted in the Digest?",
+          "a": "ALFENUS VARUS (suffect consul 39 BC), pupil of Servius Sulpicius Rufus.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish Quintus Mucius Scaevola and Servius Sulpicius Rufus.",
+          "a": "Q. MUCIUS SCAEVOLA: consul 95 BC; his work on civil law was commented on by Pomponius (AD QUINTUM MUCIUM).\nSERVIUS SULPICIUS RUFUS: c. 106–43 BC, Cicero's friend, founded an important school; his writings are completely lost; pupil Alfenus Varus.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "From when are there no longer jurists with high priestly functions?",
+          "a": "After the turn of the 2nd to the 1st century BC.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "5": {
+      "title": "Classical jurisprudence: early, high and late classics",
+      "text": "The heyday of Roman legal science lasted from the 1ST C. BC to the FIRST THIRD OF THE 3RD C. AD. The jurists further developed the institutions created by the republican pre-classics and refined legal method; a qualitatively and quantitatively important legal literature arose — the material for the DIGEST. Because of their broad agreement in thinking, style of argument and expression, SAVIGNY (1779–1861), founder of the Historical School, idealised the classics as 'FUNGIBLE PERSONS' (fn 19: as few individual differences as between fungible things of one genus; fn 20: in 'Vom Beruf unsrer Zeit…' 1814, supporting his rejection of a civil code). Recent research has removed the basis for this rather metaphorical verdict by showing significant individual traits. EARLY CLASSICS (1st c. AD): mainly senators; gave responsa and wrote. LABEO (d. 10/11 AD) and CAPITO (d. 22 AD) founded the schools named after their successors PROCULUS and SABINUS — the PROCULIANS (Labeo) and SABINIANS (Capito). MASURIUS SABINUS' account of the ius civile was often commented on (AD SABINUM); LABEO counts as an important INNOVATOR who promoted a scientific treatment of the ius civile. HIGH CLASSICS (2nd c. AD): also took on state administration, especially as advisers in the emperor's CONSILIUM, where — after the final redaction of the edict c. 130 AD — the key law-policy decisions were made. The most important Roman jurist of all is the Sabinian JULIAN (consul 148 AD), entrusted by HADRIAN (117–138) with the EDICTUM PERPETUUM; his Proculian contemporary CELSUS (2nd consulship 128 AD) was original but polemical. In the second half of the century GAIUS and POMPONIUS wrote notable teaching works. LATE CLASSICS (Severan dynasty 193–235 AD): often held the highest imperial offices (heads of the rescript chanceries, PRAEFECTUS PRAETORIO — top of administration and justice) and wrote numerous large works in all genres. Their great commentaries (LIBRI AD EDICTUM, LIBRI AD SABINUM) sum up classical development and describe its genesis in detailed CONTROVERSY REPORTS (fn 24: often eliminated or heavily — sometimes distortingly — shortened by the compilers). These works became key sources for Justinian's compilers. PAPINIAN counts as the most ACUTE Roman jurist, his work as especially demanding; in 212 AD, after refusing to justify Caracalla's murder of his brother and co-emperor Geta, he died by a judicial murder instigated by the emperor. Especially well represented in the Digest are the voluminous works of PAULUS and ULPIAN (killed 223 AD in a praetorian revolt).",
+      "terms": [
+        {
+          "term": "Early classics (Frühklassiker)",
+          "def": "1st c. AD; mainly senators; Labeo, Capito, Masurius Sabinus, Proculus."
+        },
+        {
+          "term": "High classics (Hochklassiker)",
+          "def": "2nd c. AD; advisers in the imperial CONSILIUM; Julian, Celsus, Gaius, Pomponius."
+        },
+        {
+          "term": "Late classics (Spätklassiker)",
+          "def": "Severan era 193–235 AD; highest offices; great commentaries; Papinian, Paulus, Ulpian."
+        },
+        {
+          "term": "LIBRI AD EDICTUM / LIBRI AD SABINUM",
+          "def": "Large commentaries on the praetorian edict / on Sabinus' account of the ius civile."
+        },
+        {
+          "term": "CONSILIUM (principis)",
+          "def": "The emperor's council, where high classical jurists sat as advisers."
+        },
+        {
+          "term": "PRAEFECTUS PRAETORIO",
+          "def": "Highest position in administration and justice, held by late classical jurists."
+        },
+        {
+          "term": "'Fungible persons'",
+          "def": "Savigny's idealising metaphor for the classical jurists; refuted by modern research."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Divide the classical period into its three phases with dates and leading jurists.",
+          "a": "• EARLY classics, 1st c. AD: Labeo, Capito, (Masurius) Sabinus, Proculus\n• HIGH classics, 2nd c. AD: Julian, Celsus, Gaius, Pomponius\n• LATE classics, Severans 193–235 AD: Papinian, Paulus, Ulpian",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Which school did LABEO and which did CAPITO found, and why are the schools named differently?",
+          "a": "LABEO → PROCULIANS; CAPITO → SABINIANS.\n• The schools are named after their successors, PROCULUS and SABINUS.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Who is regarded as the most important Roman jurist, and what was his great task?",
+          "a": "The Sabinian JULIAN (consul 148 AD) — Hadrian entrusted him with the final redaction of the edict (EDICTUM PERPETUUM).",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Who is regarded as the most acute (sharpest) Roman jurist, and how did he die?",
+          "a": "PAPINIAN; in 212 AD, after refusing to justify Caracalla's murder of Geta, he was killed in a judicial murder instigated by the emperor.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which two late classical jurists are especially well represented in the Digest?",
+          "a": "PAULUS and ULPIAN (Ulpian was killed in a praetorian revolt in 223 AD).",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish JULIAN and CELSUS.",
+          "a": "JULIAN: Sabinian, consul 148, most important Roman jurist, redacted the EDICTUM PERPETUUM.\nCELSUS: Proculian, 2nd consulship 128, original but with a marked tendency to polemic.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Which functions did the high classical and the late classical jurists hold in the state?",
+          "a": "HIGH classics: advisers in the emperor's CONSILIUM (key law-policy decisions after c. 130 AD).\nLATE classics: highest offices — heads of rescript chanceries, PRAEFECTUS PRAETORIO.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Why were the late classical great commentaries so important for the compilers?",
+          "a": "They summed up the whole classical development and described its genesis in detailed controversy reports — becoming key sources of the Digest (controversy reports were often cut by the compilers).",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What did Savigny mean by calling the classical jurists 'fungible persons', and what does modern research say?",
+          "a": "That they differed as little as fungible things of one genus (broad agreement in thinking and style).\n• Modern research has shown significant individual traits, removing the basis for this metaphor.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which dates frame the late classical period and which two deaths are mentioned for it?",
+          "a": "Severan dynasty 193–235 AD; Papinian killed 212 AD, Ulpian killed 223 AD.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Which commentary tradition refers to Masurius Sabinus, and why is Labeo important?",
+          "a": "Sabinus' account of the ius civile was often commented on (AD SABINUM); LABEO counts as an important innovator who promoted a scientific treatment of the ius civile.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "When did Labeo and Capito die?",
+          "a": "Labeo 10/11 AD; Capito 22 AD.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "6": {
+      "title": "Tasks of the classical jurists: AGERE – CAVERE – RESPONDERE; the structure of a responsum",
+      "text": "Three keywords characterise the jurists' work: AGERE – CAVERE – RESPONDERE. AGERE (to sue): advice in connection with a lawsuit and assistance to a party as advocate. From the 1st c. BC jurists were almost completely displaced from this role by RHETORS such as CICERO (106–43 BC); before large jury courts persuasion mattered more than expertise, and the notoriously LACONIC jurists (fn 25: their responsa often contained only a dry yes or no — 'PARRET / NON PARRET', Petronius) lost out. Fn 26: AQUILIUS GALLUS refused to discuss questions of evidence — 'NIHIL HOC AD IUS; AD CICERONEM' (Cicero, Topica 51); he introduced the remedies for DOLUS (ACTIO DE DOLO, EXCEPTIO DOLI) into the edict. CAVERE (to draft): support and advice in designing transactions (contracts, wills, securities/CAUTIONES — hence 'Kaution'). This 'KAUTELARJURISPRUDENZ' aims, through careful drafting, to protect the party's interests, avoid disputes and, if a lawsuit comes anyway, secure victory. RESPONDERE (to answer) was the CORE activity: giving LEGAL OPINIONS. A RESPONSUM offered ONLY THE SOLUTION OF A LEGAL QUESTION, carried by the professional AUCTORITAS of a respected legal expert (IURIS PERITUS). It was a PRIVATE legal opinion, NOT an authoritative decision of a state organ in a concrete dispute (fn 28: unlike common-law precedent, whose binding force comes from the court's authority, the responsum's weight came only from its author's expertise recognised by other jurists — so it made no difference whether the opinion was developed for a real or a purely hypothetical case). The jurist decided on the FACTS AS PRESENTED IN THE QUERY; a party could rely on the responsum only if it could PROVE those facts at trial (fn 29: in the lamp case, ALFENUS D. 9,2,52,1, the jurist apparently doubted the (provability of the) enquirer's version and, to be safe, also addressed an alternative course of events — perhaps because innkeepers had a poor reputation). SCHEMATIC STRUCTURE of a responsum: (1) statement of the RELEVANT FACTS (unless they can be inferred from the answer), (2) the LEGAL QUESTION derived from them and from the query, (3) the jurist's actual ANSWER (responsum). Fn 30: THE STRUCTURE OF AN EXEGESIS CORRESPONDS TO THIS SCHEME; the answer is often introduced by RESPONDI(T) ('I/he answered'); a classic example is Alfenus D. 9,2,52,1. Not all responsa were reasoned. Common RATIONES DECIDENDI were e.g. derivations from NORMS, LEGAL PRINCIPLES or LEGAL CONCEPTS, ANALOGIES, or appeals to general principles such as BONA FIDES, equity (AEQUITAS) or considerations of usefulness (UTILITAS). Queries could come from private parties, from JUDGES or from the PRAETOR (regarding the suitable formula); especially by advising the often legally inexpert praetors, jurists gained major influence on the edict and on legal development.",
+      "terms": [
+        {
+          "term": "AGERE",
+          "def": "Litigation advice and advocacy; from the 1st c. BC largely taken over by rhetors."
+        },
+        {
+          "term": "CAVERE",
+          "def": "Drafting of transactions (contracts, wills, cautiones) — 'Kautelarjurisprudenz'."
+        },
+        {
+          "term": "RESPONDERE / RESPONSUM",
+          "def": "Core activity: a private legal opinion solving a legal question on the facts presented; authority from the jurist's AUCTORITAS."
+        },
+        {
+          "term": "IURIS PERITUS",
+          "def": "Recognised legal expert whose professional authority carries the responsum."
+        },
+        {
+          "term": "AUCTORITAS",
+          "def": "Professional authority/standing that gave a responsum its weight."
+        },
+        {
+          "term": "RESPONDI(T)",
+          "def": "'I (he) answered' — formula typically introducing the jurist's answer in a responsum."
+        },
+        {
+          "term": "RATIO DECIDENDI",
+          "def": "Reason given for a decision: norms, principles, concepts, analogy, BONA FIDES, AEQUITAS, UTILITAS."
+        },
+        {
+          "term": "BONA FIDES / AEQUITAS / UTILITAS",
+          "def": "Good faith / equity / usefulness — general principles used as rationes decidendi."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Which three keywords describe the tasks of the classical jurists? Explain each in one line.",
+          "a": "AGERE – CAVERE – RESPONDERE:\n• AGERE: litigation advice and advocacy\n• CAVERE: drafting transactions (contracts, wills, cautiones)\n• RESPONDERE: giving legal opinions (responsa) — the core activity",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "What was the core activity of the Roman jurists?",
+          "a": "RESPONDERE — giving legal opinions (RESPONSA).",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Why were jurists displaced from AGERE from the 1st c. BC on?",
+          "a": "Rhetors such as Cicero took over: before large jury courts rhetorical persuasion mattered more than legal expertise, and the laconic jurists, interested in complex legal questions, lost out.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What is KAUTELARJURISPRUDENZ (CAVERE) meant to achieve?",
+          "a": "By careful drafting of a transaction:\n• protect the party's interests\n• avoid disputes\n• secure victory if a lawsuit nevertheless arises",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "What was a RESPONSUM — and what was it not?",
+          "a": "A PRIVATE legal opinion solving a LEGAL QUESTION, carried by the AUCTORITAS of a recognised expert (IURIS PERITUS).\n• NOT an authoritative decision of a state organ in a concrete dispute.",
+          "difficulty": 2,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish a Roman RESPONSUM from a common-law precedent.",
+          "a": "PRECEDENT: binding force from the authority of the COURT.\nRESPONSUM: weight only from the author's expertise recognised by other jurists — so it did not matter whether it was given for a real or a hypothetical case.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "When could a party rely on a responsum in court?",
+          "a": "Only if it could prove the facts presented to the jurist in the query — the jurist decided on those facts.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Name the schematic structure of a responsum (which is also the structure of an exegesis).",
+          "a": "1. Relevant FACTS (unless inferable from the answer)\n2. LEGAL QUESTION derived from facts and query\n3. The jurist's ANSWER (responsum), often introduced by RESPONDI(T)",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "What does Gamauf say about the relation between a responsum and an exegesis?",
+          "a": "The structure of an exegesis corresponds to the scheme of a responsum: facts → legal question → answer (fn 30).",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Which word typically introduces the jurist's actual answer in a responsum?",
+          "a": "RESPONDI(T) — 'I (he) answered'.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which types of RATIONES DECIDENDI did Roman jurists use?",
+          "a": "• derivation from norms, legal principles or legal concepts\n• analogies\n• general principles: BONA FIDES, AEQUITAS (equity), UTILITAS (usefulness)\n(Not every responsum was reasoned.)",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Who could ask a jurist for a responsum, and how did this give jurists influence on the edict?",
+          "a": "Private parties, judges or the PRAETOR (about the suitable formula).\n• Advising the often legally inexpert praetors gave jurists major influence on the edict and legal development.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What does Alfenus' responsum in the lamp case (D. 9,2,52,1) illustrate according to Gamauf?",
+          "a": "That the jurist decides on the facts as reported: Alfenus apparently doubted the (provability of the) enquirer's version and also addressed an alternative course of events to be safe.\n• Gamauf also calls it a classic example of a responsum.",
+          "difficulty": 3,
+          "kind": "judikat",
+          "priority": "core"
+        },
+        {
+          "q": "Which remedies did AQUILIUS GALLUS introduce into the edict, and what is his famous saying?",
+          "a": "ACTIO DE DOLO and EXCEPTIO DOLI; 'NIHIL HOC AD IUS; AD CICERONEM' — he refused to discuss questions of evidence.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "7": {
+      "title": "Legal teaching, the two schools and IUS CONTROVERSUM",
+      "text": "Legal teaching began with a jurist accepting AUDITORES (listeners) who followed him to learn by observing his responding and by discussion with him. Teaching and textbooks for beginners existed at the latest in the 1ST C. AD. At the beginning of the Principate the schools of the SABINIANS and PROCULIANS formed. According to Pomponius' enchiridion all important jurists until the middle of the 2nd c. could be assigned to one of them: SABINIANS — Capito, Sabinus, Cassius, Julian; PROCULIANS — Labeo, Proculus, Neratius (Neraz) and, in the 2nd c., Celsus. Their main difference was said to be methodological: already Pomponius characterised the Sabinians as CONSERVATIVE and the Proculians as INNOVATIVE. Modern research has tried to find further differences without real clarity — a feature one scholar attributes to one school, another sees as typical of the rival school. The schools were NOT training institutions competing for students; membership depended on a TEACHER–PUPIL relationship, not necessarily on exclusive methodological positions. The rivalry shows in OVER 50 known SCHOOL CONTROVERSIES; often one opinion prevailed or a MIDDLE SOLUTION developed (fn 34: a striking example is SPECIFICATIO). GAIUS, himself a Sabinian, records many of them: he calls the Sabinians NOSTRI PRAECEPTORES ('our teachers') and the Proculians DIVERSAE SCHOLAE AUCTORES ('authors of the other school'). Beyond school disputes there were many other disputed questions — IUS CONTROVERSUM — arising almost necessarily from law-finding through responsa of private persons without a unifying higher instance (like today's supreme courts). In borderline cases jurists sometimes advised the praetor to grant 'to be safe' a tailor-made ACTIO PRAESCRIPTIS VERBIS leaving the judge less freedom (fn 35: Ulp. D. 19,5,19 pr). Measures to reduce controversies for legal certainty: the IUS RESPONDENDI; HADRIAN made the concurring opinion of jurists with ius respondendi binding; in late antiquity the CITATION LAW and the 'KASSIERGESETZ' recognised only certain jurists or writings; finally JUSTINIAN decided old controversies by reform constitutions before the Codex and ordered the compilers (not entirely successfully) to keep the Digest free of contradictions.",
+      "terms": [
+        {
+          "term": "AUDITORES",
+          "def": "Listeners who followed a jurist to learn by watching him respond and discussing with him."
+        },
+        {
+          "term": "SABINIANS / PROCULIANS",
+          "def": "The two law schools of the Principate; Sabinians described as conservative, Proculians as innovative (Pomponius)."
+        },
+        {
+          "term": "NOSTRI PRAECEPTORES / DIVERSAE SCHOLAE AUCTORES",
+          "def": "Gaius' terms for the Sabinians ('our teachers') and the Proculians ('authors of the other school')."
+        },
+        {
+          "term": "IUS CONTROVERSUM",
+          "def": "Disputed legal questions arising from law-finding through private responsa without a unifying instance."
+        },
+        {
+          "term": "ACTIO PRAESCRIPTIS VERBIS",
+          "def": "Action tailored to the facts, recommended in borderline cases to limit the judge's freedom of legal assessment."
+        },
+        {
+          "term": "Middle solution (media sententia)",
+          "def": "Compromise that emerged from a school controversy, e.g. in SPECIFICATIO."
+        }
+      ],
+      "cards": [
+        {
+          "q": "List the members of the Sabinian and Proculian schools named by Gamauf (after Pomponius).",
+          "a": "SABINIANS: Capito → Sabinus → Cassius → Julian\nPROCULIANS: Labeo → Proculus → Neratius → Celsus (2nd c.)",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "How did Pomponius characterise the two law schools?",
+          "a": "Sabinians CONSERVATIVE, Proculians INNOVATIVE (open to innovation).",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What decided membership of a Roman law school?",
+          "a": "A TEACHER–PUPIL relationship between jurists — not necessarily exclusive methodological positions; the schools were not training institutions competing for students.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "How many school controversies are known, and how were they often resolved?",
+          "a": "Over 50; often one opinion prevailed or a MIDDLE SOLUTION developed over time (e.g. SPECIFICATIO).",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "How does Gaius refer to the two schools?",
+          "a": "Sabinians (his own school): NOSTRI PRAECEPTORES — 'our teachers'.\nProculians: DIVERSAE SCHOLAE AUCTORES — 'authors of the other school'.",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Why were there so many controversies in Roman law? (Kontrollfrage)",
+          "a": "Law was found discursively through RESPONSA of PRIVATE persons, with no unifying higher instance (like a supreme court).\n• In addition: rivalry of the two schools (over 50 school controversies).",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Which measures were taken over time to reduce controversies?",
+          "a": "IUS RESPONDENDI (Augustus) → HADRIAN: concurring opinion of jurists with ius respondendi binding → late antiquity: KASSIERGESETZ and CITATION LAW → JUSTINIAN: reform constitutions before the Codex + order to keep the Digest free of contradictions.",
+          "difficulty": 2,
+          "kind": "proces",
+          "priority": "core"
+        },
+        {
+          "q": "Why did jurists sometimes recommend an ACTIO PRAESCRIPTIS VERBIS?",
+          "a": "In borderline cases, to make sure the judge could not reach an undesired result on a competing legal view — the tailor-made action left him less freedom in assessing the facts (Ulp. D. 19,5,19 pr).",
+          "difficulty": 3,
+          "kind": "judikat",
+          "priority": "core"
+        },
+        {
+          "q": "Has modern research clarified the methodological differences between the two schools?",
+          "a": "No — a feature one scholar attributes to one school is often seen by another as typical of the rival school.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "When did beginners' teaching and textbooks exist, and how did legal teaching start?",
+          "a": "At the latest in the 1st c. AD; it began with jurists accepting AUDITORES who learned by watching them give responsa and discussing with them.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "8": {
+      "title": "IUS RESPONDENDI",
+      "text": "In the Principate law-making took place largely under the emperor's control or directly through him. After the elimination of popular legislation and the disempowerment of the Senate, it would have been inconsistent to leave law-making by the self-recruiting class of jurists unrestricted. The right, founded by AUGUSTUS and granted to SELECTED jurists, to give legal opinions IN THE EMPEROR'S NAME — IUS RESPONDENDI EX AUCTORITATE PRINCIPIS — fits the apparent CONCENTRATION OF LAW-MAKING IN THE EMPEROR, if the ius respondendi was a PRECONDITION for responding and not merely a boost to its holder's prestige. (Scholars DISAGREE on this.) In favour of the first reading speaks the link to the emperor's AUCTORITAS, showing the weight Augustus attached to it (fn 37: in ch. 34 of his RES GESTAE Augustus claimed never to have had more power than other officials, only to have surpassed them in AUCTORITAS — and precisely this extra auctoritas made a PRINCEPS, 'first among equals', an emperor). HADRIAN decreed that the CONCURRING opinion of jurists with ius respondendi should have the FORCE OF LAW; GAIUS perhaps derived the power of the jurists of his time to make law formally (IURA CONDERE) from this imperial permission (Gai. 1,7).",
+      "terms": [
+        {
+          "term": "IUS RESPONDENDI EX AUCTORITATE PRINCIPIS",
+          "def": "Right granted by Augustus to selected jurists to give responsa on the emperor's authority."
+        },
+        {
+          "term": "IURA CONDERE",
+          "def": "Formal law-making by jurists; Gaius perhaps derived it from Hadrian's rule (Gai. 1,7)."
+        },
+        {
+          "term": "PRINCEPS",
+          "def": "'First (among equals)'; Augustus' title — his superior AUCTORITAS made him emperor."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What was the IUS RESPONDENDI and who introduced it?",
+          "a": "The right, granted by AUGUSTUS to selected jurists, to give legal opinions in the emperor's name (EX AUCTORITATE PRINCIPIS).",
+          "difficulty": 1,
+          "kind": "definice",
+          "priority": "core"
+        },
+        {
+          "q": "What is disputed about the IUS RESPONDENDI, and which argument supports reading it as a precondition for responding?",
+          "a": "Whether it was a PRECONDITION for giving responsa (control of law-making by the emperor) or only a prestige boost.\n• For the precondition reading: the link to the emperor's AUCTORITAS, a concept central to Augustus' rule.",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What did HADRIAN decree about the opinions of jurists with IUS RESPONDENDI?",
+          "a": "Their CONCURRING (unanimous) opinion should have the force of law.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "From what did Gaius perhaps derive the jurists' power IURA CONDERE?",
+          "a": "From Hadrian's rule giving the concurring opinion of jurists with ius respondendi the force of law (Gai. 1,7).",
+          "difficulty": 2,
+          "kind": "judikat",
+          "priority": "core"
+        },
+        {
+          "q": "Why does the IUS RESPONDENDI fit the political logic of the Principate?",
+          "a": "After the end of popular legislation and the disempowerment of the Senate, it would have been inconsistent to leave law-making by the self-recruiting jurists unrestricted — law-making was being concentrated in the emperor.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    },
+    "9": {
+      "title": "Genres of Roman legal literature",
+      "text": "Legal literature grew out of the jurists' work in legal ADVICE and TEACHING. Gamauf distinguishes: (1) PROBLEM LITERATURE (Problemliteratur) — collections of case decisions: RESPONSA (published opinions given to parties, praetor or iudex); QUAESTIONES or DISPUTATIONES (discussions of practical and hypothetical cases, often from teaching); DIGESTA (selected casuistry plus commentary on leges and senatus consulta). Outstanding examples: the RESPONSA and QUAESTIONES of PAPINIAN and the DIGESTA of CELSUS and JULIAN. (2) COMMENTARY LITERATURE — explanations and notes on predecessors' works or on specific bodies of norms: annotated new editions of older jurists as NOTAE (notes) or EPITOMAE (excerpts) (fn 40: Paulus' over-critical notes on Labeo's PITHANA, never missing a chance to contradict the founder of classical jurisprudence); extensive commentaries on early textbooks of ius civile (AD QUINTUM MUCIUM, AD SABINUM). For practice the late classics wrote multi-volume LIBRI AD EDICTUM, commentaries on other norms or on single fields, and ADMINISTRATIVE HANDBOOKS (e.g. LIBRI DE OFFICIO CONSULIS). (3) ELEMENTARY LITERATURE — for teaching: several jurists wrote INSTITUTIONES (introductions), the most important by GAIUS; POMPONIUS' ENCHIRIDION (2nd c.) preserves an outline of the history of Roman legal science. For exegesis: the INSCRIPTIO of every Digest fragment names the author and the work (Part 3), so recognising the GENRE tells you what kind of text you comment on — an opinion on facts (responsa), a teaching discussion (quaestiones), a commentary (ad edictum, ad Sabinum) or a textbook (institutiones).",
+      "terms": [
+        {
+          "term": "Problem literature",
+          "def": "Collections of case decisions: RESPONSA, QUAESTIONES, DISPUTATIONES, DIGESTA."
+        },
+        {
+          "term": "RESPONSA (genre)",
+          "def": "Published legal opinions given to parties, the praetor or a iudex."
+        },
+        {
+          "term": "QUAESTIONES / DISPUTATIONES",
+          "def": "Discussions of practical and hypothetical cases, often from teaching."
+        },
+        {
+          "term": "DIGESTA (classical genre)",
+          "def": "Works presenting selected casuistry and commentary on leges and senatus consulta (e.g. Celsus, Julian)."
+        },
+        {
+          "term": "Commentary literature",
+          "def": "NOTAE, EPITOMAE, commentaries AD QUINTUM MUCIUM, AD SABINUM, LIBRI AD EDICTUM, commentaries on single norms or fields."
+        },
+        {
+          "term": "NOTAE / EPITOMAE",
+          "def": "Annotated new editions of older jurists: notes / excerpts."
+        },
+        {
+          "term": "Elementary literature",
+          "def": "Teaching works: INSTITUTIONES (Gaius), ENCHIRIDION (Pomponius)."
+        },
+        {
+          "term": "LIBRI DE OFFICIO CONSULIS",
+          "def": "Example of an administrative handbook ('books on the office of the consul')."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Into which three groups does Gamauf divide Roman legal literature?",
+          "a": "• PROBLEM literature (case collections)\n• COMMENTARY literature\n• ELEMENTARY literature (for teaching)",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Which genres belong to Roman problem literature? Give the outstanding examples.",
+          "a": "RESPONSA, QUAESTIONES / DISPUTATIONES, DIGESTA.\n• Examples: Papinian's RESPONSA and QUAESTIONES; the DIGESTA of Celsus and Julian.",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Distinguish RESPONSA and QUAESTIONES as literary genres.",
+          "a": "RESPONSA: published legal opinions actually given to parties, praetor or iudex.\nQUAESTIONES / DISPUTATIONES: discussions of practical and HYPOTHETICAL cases, often from teaching.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "What did classical Roman jurists comment on? (Kontrollfrage)",
+          "a": "• works of their predecessors (NOTAE, EPITOMAE; e.g. Paulus on Labeo)\n• early textbooks of ius civile (AD QUINTUM MUCIUM, AD SABINUM)\n• the praetorian edict (LIBRI AD EDICTUM)\n• leges and senatus consulta, other norms and individual fields of law",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "What was the classical genre called DIGESTA (not Justinian's Digest)?",
+          "a": "Works presenting selected casuistry together with commentaries on leges and senatus consulta — e.g. the digesta of Celsus and Julian.",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "priority": "core"
+        },
+        {
+          "q": "Which works belong to Roman elementary literature?",
+          "a": "INSTITUTIONES (introductions — the most important by GAIUS) and POMPONIUS' ENCHIRIDION (short textbook with a history of legal science).",
+          "difficulty": 1,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Why is recognising the genre of the source work useful when writing an exegesis?",
+          "a": "The INSCRIPTIO names author and work; the genre tells you what kind of text you have — an opinion on reported facts (responsa), a teaching discussion of possibly hypothetical cases (quaestiones), a commentary (ad edictum, ad Sabinum) or a textbook (institutiones).",
+          "difficulty": 3,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What was special about Paulus' edition of Labeo's PITHANA?",
+          "a": "It carried (over-)critical notes in which Paulus missed no chance to contradict the authority of the founder of classical jurisprudence.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "10": {
+      "title": "The Institutes of Gaius",
+      "text": "Gaius' INSTITUTES are the best-transmitted, legally-historically most informative and most influential single work of any Roman jurist — a beginners' textbook of itself modest content, written about 161 AD (fn 43: precise dating because Emperor ANTONINUS PIUS, who died that year, appears first as reigning and then as DIVUS, i.e. deified/dead; such an inconsistency suggests the work was an unauthorised 'lecture transcript' by a listener). Gaius himself called the work COMMENTARII (fn 42). The AUTHOR, active c. 140–180 AD, is known only by the name GAIUS. This untypical name (fn 44: Romans normally bore TRIA NOMINA — praenomen, nomen gentile, cognomen, e.g. Marcus Tullius Cicero, 'Cicero' from cicer = chickpea; in the 2nd c. Gaius was used both as praenomen and cognomen) prompted speculative theories: works by other jurists (Gaius Cassius Longinus, Sextus Pomponius), or a slave, freedman or woman behind the name. The best explanation: he came from an EASTERN PROVINCE or was a Roman citizen working there for a time (fn 45: his commentary on the provincial edict; references to non-Roman law, e.g. Gai. 1,55 on the Galatians' kind of patria potestas). TRANSMISSION: within the Corpus iuris the work is present through Digest quotations and its reworking into JUSTINIAN'S INSTITUTES. Unlike all other classical works there is also an almost complete version OUTSIDE the Corpus iuris, untouched by the compilers: the CODEX VERONENSIS, preserving otherwise unknown information on pre-Justinianic law. In 1816 Barthold Georg NIEBUHR (1776–1831) identified a PALIMPSEST in the chapter library of VERONA as a copy of the Institutes. Fn 46: a palimpsest is a manuscript whose original writing was erased so the valuable parchment could be reused; the copy made c. 500 AD was overwritten about three centuries later (in places twice); chemical attempts to make it legible damaged it; modern editions rest on Wilhelm STUDEMUND's facsimile transcription (APOGRAPHUM) of 1874; supplementing fragments on papyrus and parchment from Egypt were published 1927 and 1935; Filippo Briguglio (Bologna) is trying to read the remaining parts with modern technology. Later jurists did not cite Gaius, probably because they did not recognise a teacher WITHOUT IUS RESPONDENDI as an equal IURIS PERITUS. The CITATION LAW of 426 AD finally gave him equal rank with the leading late classics. The Institutes were popular in late antiquity (abridged, vulgarised versions), used in the law schools of BEIRUT and CONSTANTINOPLE, and Justinian based his own Institutes on them. STRUCTURE: 4 BOOKS in 3 PARTS — PERSONAE – RES – ACTIONES. Book 1: brief doctrine of sources, law of persons and family; books 2–3 (under RES): property, obligations and succession (fn 48: Gaius' wide concept of 'res' includes INCORPOREAL things, Gai. 2,12 and 14, still effective in § 285 ABGB); book 4: civil procedure and its history (fn 49: almost all we know about the LEGIS ACTIONES comes from such excursus). Didactic presentation: clear arrangement, rules rather than casuistry, division of genus into species. Justinian's Institutes kept the structure (Inst. 1,2,12). The tripartite INSTITUTIONAL SYSTEM derived from it still shapes, in different form, the French CODE CIVIL (1804) and the ABGB (1812).",
+      "terms": [
+        {
+          "term": "INSTITUTIONES (Gaius)",
+          "def": "Beginners' textbook c. 161 AD in 4 books and 3 parts (personae – res – actiones); Gaius called it commentarii."
+        },
+        {
+          "term": "CODEX VERONENSIS",
+          "def": "Palimpsest in the Verona chapter library, identified by Niebuhr in 1816 as Gaius' Institutes; the only near-complete classical work outside the Corpus iuris."
+        },
+        {
+          "term": "PALIMPSEST",
+          "def": "Manuscript whose original text was erased and overwritten; the first writing can sometimes be deciphered."
+        },
+        {
+          "term": "APOGRAPHUM",
+          "def": "Studemund's facsimile transcription of the Verona palimpsest (1874), basis of modern editions."
+        },
+        {
+          "term": "PERSONAE – RES – ACTIONES",
+          "def": "Gaius' tripartite structure: persons – things – actions = the institutional system."
+        },
+        {
+          "term": "RES INCORPORALES",
+          "def": "Incorporeal things (rights) — part of Gaius' wide concept of res (Gai. 2,12; 2,14), still in § 285 ABGB."
+        },
+        {
+          "term": "TRIA NOMINA",
+          "def": "The three Roman names: praenomen, nomen gentile, cognomen."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What characterises the INSTITUTIONES of Gaius as a work of elementary literature? (Kontrollfrage)",
+          "a": "A beginners' textbook with a didactic presentation:\n• clear arrangement of material, easily understood\n• focus on RULES, not on casuistry\n• systematisation by dividing general concepts into sub-concepts\n• structure personae – res – actiones in 4 books",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        },
+        {
+          "q": "Describe the structure of Gaius' Institutes.",
+          "a": "4 books, 3 parts: PERSONAE – RES – ACTIONES.\n• Book 1: sources of law, persons and family\n• Books 2–3: (res) property, obligations, succession\n• Book 4: civil procedure and its history",
+          "difficulty": 1,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "When were Gaius' Institutes written, and how is this date established?",
+          "a": "About 161 AD — Antoninus Pius (died 161) appears first as reigning and then as DIVUS (deified, i.e. dead).",
+          "difficulty": 2,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Why are Gaius' Institutes unique among classical works in their transmission?",
+          "a": "Besides their presence in the Corpus iuris (Digest quotations, Justinian's Institutes) there is an almost complete version OUTSIDE it, untouched by the compilers — the CODEX VERONENSIS.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Who discovered the Verona manuscript of Gaius, when, and what kind of manuscript is it?",
+          "a": "Barthold Georg NIEBUHR in 1816 — a PALIMPSEST in the chapter library of Verona.",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "core"
+        },
+        {
+          "q": "Give the key dates of the Verona palimpsest of Gaius.",
+          "a": "• copy made c. 500 AD\n• overwritten about three centuries later\n• identified by Niebuhr 1816\n• Studemund's apographum 1874 (basis of today's editions)\n• Egyptian fragments published 1927 and 1935",
+          "difficulty": 1,
+          "kind": "cisla",
+          "priority": "extra"
+        },
+        {
+          "q": "What is the best explanation for Gaius' untypical single name?",
+          "a": "He came from an eastern province or was a Roman citizen working there for a time (interest in provincial matters, commentary on the provincial edict).",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "extra"
+        },
+        {
+          "q": "Why did later classical jurists not cite Gaius, and what changed that?",
+          "a": "They probably did not recognise a teacher without IUS RESPONDENDI as an equal IURIS PERITUS.\n• The CITATION LAW of 426 AD put him on a par with the leading late classics.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "Why do we know about the LEGIS ACTIONES almost only from Gaius?",
+          "a": "Book 4 of his Institutes contains excursus on the older procedure and its history.",
+          "difficulty": 2,
+          "kind": "basic",
+          "priority": "core"
+        },
+        {
+          "q": "What is the 'institutional system', and in which modern codes does it survive?",
+          "a": "The tripartite arrangement PERSONAE – RES – ACTIONES derived from Gaius (kept by Justinian, Inst. 1,2,12).\n• Still visible, in different form, in the French CODE CIVIL (1804) and the ABGB (1812).",
+          "difficulty": 2,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "What is Gaius' wide concept of 'res' and where does it survive?",
+          "a": "It includes INCORPOREAL things (rights) — Gai. 2,12 and 14; it lives on in § 285 ABGB.",
+          "difficulty": 2,
+          "kind": "judikat",
+          "priority": "core"
+        },
+        {
+          "q": "What did Gaius himself call his Institutes?",
+          "a": "COMMENTARII.",
+          "difficulty": 1,
+          "kind": "basic",
+          "priority": "extra"
+        }
+      ],
+      "vision_used": false
+    },
+    "11": {
+      "title": "Part 2 as a toolkit for exegesis — review",
+      "text": "Part 2 contains the article's most direct statement on method: the STRUCTURE OF AN EXEGESIS CORRESPONDS TO THE SCHEME OF A RESPONSUM — relevant facts → legal question → the jurist's answer (often introduced by RESPONDI(T)) — and the answer may be supported by RATIONES DECIDENDI (norms, principles, concepts, analogy, BONA FIDES, AEQUITAS, UTILITAS) or may be unreasoned. Further tools: (1) the responsum is an opinion on facts AS REPORTED — note what the jurist assumes and whether he considers alternative facts (Alfenus D. 9,2,52,1); (2) place the jurist in his period (pre-classical, early/high/late classical) and, where relevant, his SCHOOL (Sabinian / Proculian); (3) identify the GENRE of the work named in the inscriptio; (4) remember that controversies may have been cut by the compilers. The four Kontrollfragen of Part 2 (imitative transactions; what classical jurists commented on; why so many controversies; Gaius' Institutes as elementary literature) are covered by cards in sections 3, 9, 7 and 10.",
+      "terms": [],
+      "cards": [
+        {
+          "q": "A Digest fragment reports facts, poses a question and gives an answer introduced by 'respondit'. How do you map this onto your exegesis?",
+          "a": "It follows the responsum scheme, which is also the exegesis structure:\n1. FACTS → 2. LEGAL QUESTION → 3. ANSWER (respondit) → then look for the RATIO DECIDENDI (norm, principle, analogy, bona fides, aequitas, utilitas) or note that none is given.",
+          "difficulty": 3,
+          "kind": "schema",
+          "priority": "core"
+        },
+        {
+          "q": "Which contextual questions about the author can you answer from Part 2 when commenting a fragment?",
+          "a": "• period: pre-classical, early / high / late classical\n• school: Sabinian or Proculian (if relevant)\n• genre of the work: responsa, quaestiones, digesta, commentary (ad edictum, ad Sabinum), institutiones",
+          "difficulty": 2,
+          "kind": "znaky",
+          "priority": "core"
+        }
+      ],
+      "vision_used": false
+    }
+  }
+}
