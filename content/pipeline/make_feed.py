@@ -55,6 +55,16 @@ SERIES = {
 # `narration`, každý další předmět dostane vlastní řadu s prefixem.
 LEGACY_PACK = "irewi"
 
+# Pořad německého předmětu má německý název i popis — poslouchá se německy.
+SERIES_DE = {
+    "quiz": {"suffix": "Fragen",
+             "desc": ("Prüfungsfragen zu {course} (Universität Wien). Frage, Pause zum lauten "
+                      "Antworten, dann die Antwort. Zum Laufen und für die U-Bahn.")},
+    "narration": {"suffix": "Vorlesung",
+                  "desc": ("Die Erklärung zu jeder Folie von {course} (Universität Wien), "
+                           "am Stück gelesen. Fürs Auto.")},
+}
+
 
 def series_id(series: str) -> str:
     return series if ROOT.name == LEGACY_PACK else f"{ROOT.name}-{series}"
@@ -66,7 +76,7 @@ def show_name(cfg: dict, series: str) -> tuple[str, str]:
     course = cfg["courses"][0]
     short = podcast.get("short") or course.get("code") or ROOT.name.upper()
     long = podcast.get("course") or course.get("title") or short
-    meta = SERIES[series]
+    meta = SERIES_DE[series] if cfg.get("language") == "de" else SERIES[series]
     return f"{short} — {meta['suffix']}", meta["desc"].format(course=long)
 
 AUTHOR = "StudyFlow"
@@ -75,7 +85,8 @@ AUTHOR = "StudyFlow"
 EPOCH = datetime(2026, 1, 1, 8, 0, tzinfo=timezone.utc)
 
 
-def cover(path: Path, title: str, subtitle: str, colour: tuple[int, int, int]) -> None:
+def cover(path: Path, title: str, subtitle: str, colour: tuple[int, int, int],
+          brand: str = "IREWI") -> None:
     """Obal 1500×1500. Apple chce nejmíň 1400 a čtverec."""
     size = 1500
     img = Image.new("RGB", (size, size), colour)
@@ -93,7 +104,11 @@ def cover(path: Path, title: str, subtitle: str, colour: tuple[int, int, int]) -
                 return ImageFont.truetype(candidate, px)
         return ImageFont.load_default(px)
 
-    d.text((110, 980), "IREWI", font=font(210), fill=(255, 255, 255))
+    # Název předmětu velkým písmem; delší název se zmenší, aby se vešel.
+    px = 210
+    while px > 90 and d.textlength(brand, font=font(px)) > size - 220:
+        px -= 10
+    d.text((110, 980), brand, font=font(px), fill=(255, 255, 255))
     d.text((110, 1200), title, font=font(78), fill=(212, 208, 255))
     d.text((110, 1300), subtitle, font=font(56), fill=(168, 162, 220))
     img.save(path, "JPEG", quality=88)
@@ -175,8 +190,10 @@ def main() -> int:
             return 1
         out_dir = AUDIO / series
         title, _ = show_name(cfg, series)
+        de = cfg.get("language") == "de"
         cover(out_dir / "cover.jpg", title.split("—")[-1].strip(),
-              f"{len(manifest['episodes'])} episodes", meta["colour"])
+              f"{len(manifest['episodes'])} {'Folgen' if de else 'episodes'}", meta["colour"],
+              brand=title.split("—")[0].strip())
         (out_dir / "feed.xml").write_text(
             feed_xml(series, cfg, manifest, args.base.rstrip("/"), args.token),
             encoding="utf-8")

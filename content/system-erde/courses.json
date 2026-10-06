@@ -65,5 +65,9 @@
       ]
     }
   ],
-  "language": "de"
+  "language": "de",
+  "podcast": {
+    "short": "System Erde",
+    "course": "STEOP System Erde"
+  }
 }
