@@ -138,8 +138,14 @@ def main() -> int:
                     label = " ".join(parts)
                 r, missing = None, None
                 last = None
+                # `within` = relativní oblast stránky (x0,y0,x1,y1), kde se smí hledat —
+                # tentýž text ve dvou sloupcích tabulky („GRS80" u UTM i Lamberta).
+                area = clip
+                if spec.get("within"):
+                    wx0, wy0, wx1, wy1 = spec["within"]
+                    area = pymupdf.Rect(wx0 * pw, wy0 * ph, wx1 * pw, wy1 * ph) & clip
                 for j, part in enumerate(parts):
-                    hits = find_rects(page, pdf, n, part, clip)
+                    hits = [h for h in find_rects(page, pdf, n, part, clip) if area.contains(h.tl) or area.intersects(h) and area.contains(pymupdf.Point((h.x0 + h.x1) / 2, (h.y0 + h.y1) / 2))]
                     if j == 0:
                         k = spec.get("hit", 0)
                         hit = hits[k] if len(hits) > k else None

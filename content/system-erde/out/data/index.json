@@ -5,7 +5,7 @@
     "language": "de",
     "format": "Modulprüfung schriftlich, 18. 12. 2026 15:15–16:45 (weitere Termine 5. 2. a 19. 2. 2027). Podle starých zkoušek 2017–2022 (studocu) multiple choice německy, často víc správných odpovědí. Tip ze studocu: u Nasdaly teploty a velikosti zrn, u Grasemanna obecné věci + výšky/velikosti. Učebnice Grotzinger/Jordan, Allgemeine Geologie (Springer)."
   },
-  "updated_at": "2026-10-06T07:51:47+00:00",
+  "updated_at": "2026-10-06T09:37:22+00:00",
   "organisers": [],
   "courses": [
     {
@@ -18,10 +18,10 @@
         {
           "lecture_id": "SE01",
           "unit": "Kapitel 1",
-          "title": "System Erde: Grundlagen",
+          "title": "System Erde – Grundlagen",
           "slides": 31,
           "data": "data/SE01.json",
-          "done": 0
+          "done": 31
         },
         {
           "lecture_id": "NA01",
@@ -29,7 +29,7 @@
           "title": "Minerale und Kristalle",
           "slides": 10,
           "data": "data/NA01.json",
-          "done": 0
+          "done": 10
         },
         {
           "lecture_id": "NA02",
@@ -37,7 +37,7 @@
           "title": "Magmatite",
           "slides": 5,
           "data": "data/NA02.json",
-          "done": 0
+          "done": 5
         },
         {
           "lecture_id": "NA03",
@@ -45,7 +45,7 @@
           "title": "Vulkane und Vulkanismus",
           "slides": 5,
           "data": "data/NA03.json",
-          "done": 0
+          "done": 5
         },
         {
           "lecture_id": "NA04",
@@ -53,7 +53,7 @@
           "title": "Metamorphite",
           "slides": 4,
           "data": "data/NA04.json",
-          "done": 0
+          "done": 4
         },
         {
           "lecture_id": "NA05",
@@ -61,7 +61,7 @@
           "title": "Rohstoffe",
           "slides": 6,
           "data": "data/NA05.json",
-          "done": 0
+          "done": 6
         },
         {
           "lecture_id": "NA06",
@@ -69,15 +69,15 @@
           "title": "Sonnensystem und Planeten",
           "slides": 5,
           "data": "data/NA06.json",
-          "done": 0
+          "done": 5
         },
         {
           "lecture_id": "UB01",
           "unit": "Übersicht",
           "title": "Übersichtstabellen",
-          "slides": 0,
+          "slides": 14,
           "data": "data/UB01.json",
-          "done": 0
+          "done": 14
         }
       ]
     }

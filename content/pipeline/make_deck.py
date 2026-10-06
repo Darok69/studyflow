@@ -166,6 +166,11 @@ def main() -> int:
         code = course["code"]
         cards, unknown = [], set()
         lectures = [lec for c in group for lec in c["lectures"]]
+        spec_ready = {l["id"]: l.get("readyBy") for c in json.loads((ROOT / "courses.json").read_text("utf-8"))["courses"]
+                      for l in c["lectures"]}
+        for lec in lectures:
+            if spec_ready.get(lec["lecture_id"]):
+                lec["readyBy"] = spec_ready[lec["lecture_id"]]
         for lec in lectures:
             d = json.loads((DATA / f"{lec['lecture_id']}.json").read_text("utf-8"))
             for slide in d["slides"]:
@@ -185,6 +190,12 @@ def main() -> int:
                         "back": c["a"],
                         "tags": [d["lecture_id"], c.get("priority", "core")],
                         "sourceRef": {"page": slide["n"]},
+                        # Dávkování: lekce smí v courses.json nést `readyBy` (den,
+                        # ke kterému má být naučená) — appka podle něj řadí nové
+                        # karty a drží tempo; termín zkoušky zůstává cílem.
+                        # Jen jádro — organizační a doplňkové karty jdou tempem ke zkoušce.
+                        **({"readyBy": lec["readyBy"]}
+                           if lec.get("readyBy") and c.get("priority", "core") == "core" else {}),
                     })
         # Slepé obrázky (make_blind.py) k přednáškám téhož předmětu.
         blind_path = ROOT / "out" / "blind" / "cards.json"

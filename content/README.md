@@ -32,6 +32,7 @@ když sedí hash zdrojového PDF, a **hotový výklad se nikdy nepřepíše**.
 |---|---|---|
 | [`irewi/`](irewi/README.md) | StEOP Einführung in das internationale Recht, 5. 10. 2026 | hotovo — 758 slidů, 479 karet, podcast |
 | [`pravni-dejiny/`](pravni-dejiny/README.md) | Modulprüfung European and Global Legal History, březnový termín | 724 slidů vyrenderováno, výklad se píše (1 z 23 témat) |
+| [`geoinformation/`](geoinformation/README.md) | MEGIDA Einführung in die Geoinformation, 1. 12. 2026 (praktisch) | běží — prezentace po týdnech + skript ArcGIS Pro |
 | [`system-erde/`](system-erde/README.md) | STEOP System Erde, 18. 12. 2026 | běží — přibývá po týdnech; karty, tabulky, slepé obrázky, test, podcast |
 | [`fernerkundung/`](fernerkundung/README.md) | VO 290234 Bildverarbeitung und Fernerkundung, termín zatím neurčen | hotovo — 599 slidů, 349 karet |
 

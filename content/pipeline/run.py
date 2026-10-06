@@ -298,6 +298,12 @@ def process(lec: dict, course: dict, dpi: int, force: bool, manifest: dict,
         return process_reading(lec, course, src, raw_name, digest, write_work)
 
     doc = pymupdf.open(src)
+    # Jedno PDF na víc lekcí: `"pages": [od, do]` (stránky PDF, 1-based, včetně).
+    # Skript kurzu se tak dá rozdělit po kapitolách na jednotky, ke kterým patří,
+    # a dávkovat po nich; slidy lekce se číslují od 1.
+    if lec.get("pages"):
+        first, last = lec["pages"]
+        doc.select(list(range(first - 1, min(last, doc.page_count))))
     cols, rows = lec["nup"] if lec.get("nup") else detect_grid(doc)
     per_page = cols * rows
     frames = lec.get("cells") == "frames"
@@ -567,11 +573,13 @@ def consistency(results: list[dict]) -> list[str]:
             continue
         d = load_json(f, {})
         lid = d.get("lecture_id", f.stem)
-        want = {s["img"] for s in d.get("slides", [])}
+        # Oddíl souhrnu/tabulek obrázek nemá.
+        want = {s["img"] for s in d.get("slides", []) if s.get("img")}
         for rel in sorted(want):
             if not (OUT / rel).exists():
                 problems.append(f"{lid}: chybí obrázek {rel}")
-        have = {f"img/{lid}/{p.name}" for p in (IMG / lid).glob("*.webp")}
+        # Výřezy slepých obrázků (<ID>_b<hash>.webp, make_blind.py) k žádnému slidu nepatří.
+        have = {f"img/{lid}/{p.name}" for p in (IMG / lid).glob("*.webp") if "_b" not in p.stem}
         for orphan in sorted(have - want):
             problems.append(f"{lid}: obrázek bez záznamu v JSONu — {orphan}")
     return problems
