@@ -55,3 +55,9 @@ uv run content/pipeline/prehled/build.py /tmp/…/part.pdf <tvoje-cast>.html --p
 Spouštěj z `/Users/danielmarek/studyflow`. Headless Chrome může potřebovat vypnutý sandbox.
 Exit 1 = přetéká (vypíše stránky) → zkrať nebo rozděl stránku. Pak si **prohlédni náhledy**
 (nástroj Read na PNG): nic nepřekrývá, tabulky nejsou zmačkané, nadpis na jeden řádek.
+
+## Most do jiného předmětu — `.bridge`
+Když stránka používá pojem z jiného předmětu, který student ještě dobře neumí (typicky property
+law v obligations), dej vedle něj `<div class="bridge">…</div>`: pojem jednou dvěma větami
+vysvětlený PŘÍMO v kontextu té stránky („proč to tady potřebuješ“) + odkaz
+`<span class="link">→ Property Ch. VII</span>`. Krátce, ne výklad celé kapitoly.

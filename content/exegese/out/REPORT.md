@@ -1,6 +1,6 @@
 # REPORT — podklady pro 030116-1 PKU Exegesis of Justinian's Digest (Uni Wien; Dr. Kyriaco Nikias)
 
-Běh: 2026-10-06T13:22:02+02:00
+Běh: 2026-10-07T19:27:31+02:00
 
 ## Zkouška
 - 030116-1 PKU Exegesis of Justinian's Digest (Uni Wien; Dr. Kyriaco Nikias)
@@ -8,9 +8,9 @@ Běh: 2026-10-06T13:22:02+02:00
 - Formát: Dvě písemná hodnocení — Assessment I st 4. 11. 2026, Assessment II st 13. 1. 2027; v obou se píše EXEGEZE zadaného úryvku Digest ve formátu FÜM 1. Známka = průměr obou, aktivní účast zlepšuje. Výuka anglicky, středy 9–10, HS U14 Juridicum. Doktrína podle Benke/Meissel, Roman Law of Property a Roman Law of Obligations.
 
 ## Souhrn
-- Přednášek: 5 · slidů: 58 · obrázky celkem: 5.1 MB
-- Na vision vybráno: 19 slidů (33%)
-- Obsah hotový: 58 · čeká na dopsání: 0
+- Přednášek: 10 · slidů: 98 · obrázky celkem: 5.1 MB
+- Na vision vybráno: 19 slidů (19%)
+- Obsah hotový: 98 · čeká na dopsání: 0
 
 ## Po přednáškách
 
@@ -21,6 +21,11 @@ Běh: 2026-10-06T13:22:02+02:00
 | EXG2 | 11 | 0 | 0 | 11 | 0 |
 | EXG3 | 12 | 0 | 0 | 12 | 0 |
 | EXME | 7 | 0 | 0 | 7 | 0 |
+| EXO1 | 10 | 0 | 0 | 10 | 0 |
+| EXO2 | 10 | 0 | 0 | 10 | 0 |
+| EXO3 | 10 | 0 | 0 | 10 | 0 |
+| EXO4 | 10 | 0 | 0 | 10 | 0 |
+| EXO5 | 0 | 0 | 0 | 0 | 0 |
 
 ## Kontrola obrázků vs. JSON
 

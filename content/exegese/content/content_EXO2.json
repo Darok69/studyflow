@@ -1,0 +1,631 @@
+{
+  "lecture_id": "EXO2",
+  "title": "Obligations II — sale and (partial) impossibility (class 25 Nov)",
+  "free_sections": true,
+  "slides": {
+    "1": {
+      "title": "Sale (EMPTIO VENDITIO): the contract in a nutshell",
+      "text": "Lesson for the class of 25 November 2026 (Obligations; sale, partial impossibility). Page references: 'Obl.' = Benke/Meissel, Roman Law of Obligations; 'Prop.' = Benke/Meissel, Roman Law of Property. Assessment II (13 January 2027) is an exegesis of a Digest fragment on the law of obligations, so this is exam material.\n\n### What sale is\nEMPTIO VENDITIO is the contract by which the parties agree to exchange goods for money (Obl. p. 75). The double name looks at it from both sides: the buyer (EMPTOR) and the seller (VENDITOR).\n\n### The features you name in every exegesis on sale\n\n| Feature | Meaning | Page |\n|---|---|---|\n| CONSENSUAL | The obligations arise from bare agreement (CONSENSUS). No form, no payment and no delivery are needed to conclude the sale. | Obl. pp. 75–76 |\n| SYNALLAGMATIC | Both parties are bound; each is debtor and creditor of the other, and each binds himself to get the other's performance (DO UT DES). | Obl. p. 75 |\n| BONAE FIDEI | The actions are BONAE FIDEI IUDICIA: the IUDEX condemns to QUOD DARE FACERE OPORTET EX FIDE BONA and decides himself what is owed. | Obl. p. 77 |\n| Set of duties | Main duties (deliver the goods, pay the price) plus side duties of care, protection and disclosure, and warranty. | Obl. p. 77 |\n\n### Content and interpretation\nThe parties must agree at least on the ESSENTIALIA NEGOTII: the goods and the price (Obl. p. 76). Gaps are filled by BONA FIDES (NATURALIA NEGOTII, p. 78). The yardstick of interpretation is what the parties agreed, ID QUOD ACTUM EST (Ulpian D 19.1.11.1), including what they would have agreed had they known certain facts (p. 78). Remember this: in partial impossibility the jurists ask exactly this question.\n\n### Actions\n• Buyer v seller: ACTIO EMPTI.\n• Seller v buyer: ACTIO VENDITI.\n\n### Why the moment of agreement matters\nExample 12 (Obl. p. 76): Melitta agrees on 15 January to buy Lucius' necklace for 100; on 16 January her slave is robbed on the way to pay. She stays bound, because the obligation arose on the 15th. Rule of thumb: what exists BEFORE or AT conclusion decides whether the sale is valid (this lesson: initial impossibility); what happens AFTER conclusion is a matter of performance and risk (other rules, Obl. pp. 96–97).",
+      "terms": [
+        {
+          "term": "EMPTIO VENDITIO",
+          "def": "Sale: consensual, synallagmatic contract to exchange goods for money; actions ACTIO EMPTI (buyer) and ACTIO VENDITI (seller), Obl. pp. 75–77."
+        },
+        {
+          "term": "ESSENTIALIA NEGOTII",
+          "def": "The essential terms the parties must agree on; for sale: the goods and the price (Obl. p. 76)."
+        },
+        {
+          "term": "ID QUOD ACTUM EST",
+          "def": "What the parties agreed, in a narrow sense (what they said or intended) and a wider sense (what parties typically agree in such a contract); Ulpian D 19.1.11.1, Obl. p. 78."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is EMPTIO VENDITIO?",
+          "a": "A consensual contract by which the parties agree to exchange goods for money (Obl. p. 75).\n• Buyer = EMPTOR, seller = VENDITOR",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Name the three classifying features of EMPTIO VENDITIO.",
+          "a": "Consensual, synallagmatic, BONAE FIDEI.\n• Consensual: bare agreement creates the obligations, no form\n• Synallagmatic: each party is debtor and creditor of the other (DO UT DES)\n• BONAE FIDEI: the IUDEX decides QUOD DARE FACERE OPORTET EX FIDE BONA",
+          "difficulty": 1,
+          "kind": "znaky",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What are the ESSENTIALIA NEGOTII of a sale?",
+          "a": "The goods and the price: without agreement on both there is no sale (Obl. p. 76).",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Who sues with the ACTIO EMPTI and who with the ACTIO VENDITI?",
+          "a": "ACTIO EMPTI: the buyer sues the seller. ACTIO VENDITI: the seller sues the buyer.\n• Both are BONAE FIDEI IUDICIA (Obl. p. 77)",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What does ID QUOD ACTUM EST mean, and why does it matter for impossibility?",
+          "a": "What the parties agreed (Ulpian D 19.1.11.1); the yardstick for interpreting the sale (Obl. p. 78).\n• Includes what they would have agreed had they known certain facts\n• In partial impossibility the jurists use it to decide whether the rest of the sale stands (p. 104)",
+          "difficulty": 2,
+          "kind": "definice",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Melitta agrees on 15 January to buy a necklace for 100; on 16 January her slave is robbed of the money. Must she still pay?",
+          "a": "Yes: the sale was concluded on 15 January, so the obligation arose then and continues (Obl. p. 76).\n• Later events do not undo a consensual contract\n• Her inability is subsequent and only subjective, not a 'case of impossibility' (p. 97)",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    },
+    "2": {
+      "title": "Property law you need for sale",
+      "text": "### 1. Sale creates only obligations\nA sale gives the buyer a CLAIM to delivery. It does not make him possessor or owner (Prop. p. 28; Obl. pp. 148–149). Keep apart the contract (TITULUS, here the sale) and the conveyance that transfers ownership (MODUS).\n\n### 2. How ownership passes (Prop. pp. 77, 82–85)\n\n| Conveyance | How | Abstract or causal |\n|---|---|---|\n| MANCIPATIO | Formal ceremony with eight people (transferor, transferee, scale-holder, five witnesses); for RES MANCIPI | Abstract: no IUSTA CAUSA needed |\n| IN IURE CESSIO | Sham ownership trial before the praetor | Abstract |\n| TRADITIO | Informal handing over | Causal: (1) authorised transferor, (2) transfer of possession, (3) IUSTA CAUSA, e.g. sale |\n\nRES MANCIPI are Italian estates with buildings, certain praedial servitudes, slaves, and draft and pack animals (cattle, horses, donkeys, mules, hinnies). A mere TRADITIO of a RES MANCIPI gives only bonitarian ownership; quiritary ownership follows by USUCAPIO after one year (movables) or two years (land) (Prop. pp. 83, 85, 100).\nWhy it matters: if a sale is void, a TRADITIO lacks its IUSTA CAUSA and passes no ownership; after a MANCIPATIO ownership passes anyway and the transferor recovers by CONDICTIO (Prop. p. 83).\n\n### 3. The seller need not be owner\nOne can validly sell another's thing (Ulpian D 18.1.28, Case 95/2; Obl. p. 149). Exceptions: buying one's own thing (EMPTIO REI SUAE) and buying a RES FURTIVA when both know it is stolen. Under NEMO PLUS IURIS TRANSFERRE POTEST QUAM IPSE HABET (Ulpian D 41.1.20 pr) the buyer of another's thing does not become owner, and the owner may vindicate it. The Roman seller owes peaceable possession (UTI FRUI HABERE LICERE), not ownership; the buyer's claims depend on EVICTIO, i.e. a third party successfully enforcing his right in rem against him (Obl. pp. 150–151). Until then the buyer may become owner by USUCAPIO. Details: class of 2 December (warranty).\n\n### 4. RES EXTRA COMMERCIUM\nThings outside private commerce: RES PUBLICAE (the Field of Mars, a market square) and RES DIVINI IURIS: RES SACRAE (temples), RES SANCTAE (city walls), RES RELIGIOSAE (tombs). They cannot be sold or usucapted (Obl. p. 98; Prop. p. 102).\n\n### 5. SUPERFICIES SOLO CEDIT\nA permanent building forms one thing with the land and shares its legal fate (Prop. p. 139). You need this for the burnt house in D 18.1.57 pr.",
+      "terms": [
+        {
+          "term": "TRADITIO",
+          "def": "Informal, causal conveyance: needs an authorised transferor, transfer of possession and a IUSTA CAUSA such as sale (Prop. p. 84)."
+        },
+        {
+          "term": "RES MANCIPI",
+          "def": "Italian estates with buildings, certain praedial servitudes, slaves, draft and pack animals; conveyed with full civil-law effect by MANCIPATIO or IN IURE CESSIO (Prop. p. 83)."
+        },
+        {
+          "term": "EVICTIO",
+          "def": "A third party successfully enforces his right in rem (e.g. REI VINDICATIO) against the buyer; prerequisite for the Roman warranty of title (Obl. pp. 150–151)."
+        },
+        {
+          "term": "RES EXTRA COMMERCIUM",
+          "def": "Things outside private commerce: RES PUBLICAE and RES DIVINI IURIS (sacrae, sanctae, religiosae); cannot be sold or usucapted (Obl. p. 98)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Does a valid sale make the buyer owner?",
+          "a": "No: the sale only creates obligations; ownership passes by a conveyance.\n• Conveyances: MANCIPATIO, IN IURE CESSIO, TRADITIO (Prop. p. 77)\n• Sale = TITULUS (IUSTA CAUSA), conveyance = MODUS",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What are the three requirements for acquiring ownership by TRADITIO?",
+          "a": "An authorised transferor, transfer of possession and a IUSTA CAUSA (Prop. p. 84).\n• NEMO PLUS IURIS: a non-owner cannot transfer ownership\n• Sale is the most important IUSTA CAUSA TRADITIONIS",
+          "difficulty": 1,
+          "kind": "znaky",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What are RES MANCIPI?",
+          "a": "Italian estates with buildings, certain praedial servitudes, slaves, and draft and pack animals (Prop. p. 83).\n• Full civil-law transfer by MANCIPATIO or IN IURE CESSIO\n• A mere TRADITIO gives only bonitarian ownership until USUCAPIO",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Can one validly sell a thing one does not own?",
+          "a": "Yes: the seller's ownership does not affect the validity of the sale (Ulpian D 18.1.28; Obl. p. 149).\n• Exceptions: EMPTIO REI SUAE; RES FURTIVA when both parties know it is stolen",
+          "difficulty": 1,
+          "kind": "pripad",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What does the Roman seller owe as regards title, and when can the buyer claim?",
+          "a": "Peaceable possession (UTI FRUI HABERE LICERE), not ownership; the buyer claims only after EVICTIO (Obl. pp. 150–151).\n• EVICTIO = a third party successfully enforces his right in rem against the buyer\n• Until then the buyer may become owner by USUCAPIO",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What are RES EXTRA COMMERCIUM?",
+          "a": "Things outside private commerce: RES PUBLICAE and RES DIVINI IURIS (Obl. p. 98).\n• RES PUBLICAE: Field of Mars, a market square\n• RES SACRAE (temples), RES SANCTAE (city walls), RES RELIGIOSAE (tombs)",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "A void sale was followed by delivery. Does ownership pass after a TRADITIO, and after a MANCIPATIO?",
+          "a": "TRADITIO: no, because it is causal and the IUSTA CAUSA is missing. MANCIPATIO: yes, because it is abstract; the transferor recovers by CONDICTIO (Prop. pp. 83–85).",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What does SUPERFICIES SOLO CEDIT mean?",
+          "a": "A building firmly connected to the land forms one thing with it and shares its legal fate (Prop. p. 139).\n• Relevant in D 18.1.57 pr: legally the burnt house is only part of the land",
+          "difficulty": 2,
+          "kind": "norma",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    },
+    "3": {
+      "title": "Consensus, error, price and object (B–D)",
+      "text": "Before you ask whether performance is possible, check that a sale exists at all: consensus on the type of contract, the object and a price (Obl. pp. 79–96).\n\n### Consensus and error (Obl. pp. 79–85)\nRoman law looks at agreement of the REAL INTENTS, not only of the declarations.\n• Open dissent: both say and want different things (vase offered for 50, accepted for 40) → no sale.\n• FALSA DEMONSTRATIO NON NOCET: both name the wrong estate but mean the same one → sale of the estate they meant (Ulpian D 18.1.9.1).\n• Hidden dissent and error: declarations match, intents do not. An error on an ESSENTIAL point (type of contract = ERROR IN NEGOTIO; identity of the object = ERROR IN CORPORE / IN OBIECTO; price) → no sale.\n• ERROR IN SUBSTANTIA is disputed. Marcellus: irrelevant if they agreed on the object. Ulpian: relevant only if the substance is completely different (vinegar that was never wine; boy instead of girl; but jewellery with some gold is valid). Julian: even a partly different material excludes the sale (silver-plated table).\n• In bonae fidei contracts the IUDEX considers coercion (METUS) and DOLUS MALUS himself, without an EXCEPTIO (p. 85).\n\n### Price (Obl. pp. 86–91)\n• In MONEY: toga for tunica is barter, not sale (Nerva and Proculus, with Paulus, against the Sabinians; Paulus D 18.1.1.1).\n• PRETIUM VERUM: seriously meant; a symbolic or simulated price means a gift (DONATIO).\n• PRETIUM CERTUM: determinable by objective criteria; a price left to a third party (Titius) was disputed (Gaius Inst 3.140).\n\n### Object (Obl. pp. 92–96)\n• Specific goods (species): one individual thing is owed.\n• Unascertained goods (genus): a quantity from a class; GENUS NON PERIT, but a limited genus (wine from my cellar) can perish.\n• EMPTIO REI SPERATAE: a future thing, sale conditional on its coming into existence.\n• EMPTIO SPEI: the chance itself is bought; the buyer pays even if nothing comes.\n• Performance must be possible: IMPOSSIBILIUM NULLA EST OBLIGATIO (p. 96).",
+      "terms": [
+        {
+          "term": "FALSA DEMONSTRATIO NON NOCET",
+          "def": "A false description does no harm: if both parties mean the same thing under a wrong name, the contract arises as intended (Ulpian D 18.1.9.1, Obl. p. 80)."
+        },
+        {
+          "term": "ERROR IN SUBSTANTIA",
+          "def": "Mistake about the material or attributes of the object; disputed whether it excludes a sale (Marcellus, Ulpian, Julian; Obl. pp. 81–83)."
+        },
+        {
+          "term": "GENUS NON PERIT",
+          "def": "'The category does not perish': in a purchase of unascertained goods, performance stays possible as long as things of the class exist (Obl. p. 93)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What does FALSA DEMONSTRATIO NON NOCET mean?",
+          "a": "A wrong description does no harm: if both mean the same thing, the contract arises as actually intended (Obl. p. 80).\n• Both name the Fundus Sempronianus but mean the Fundus Cornelianus → sale of the Cornelianus",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Which errors exclude a sale in Roman law?",
+          "a": "Errors on essential points, because consensus of the real intents is missing (Obl. pp. 80–81).\n• ERROR IN NEGOTIO: type of contract\n• ERROR IN CORPORE / IN OBIECTO: identity of the object\n• Error on the price",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What are the three positions on ERROR IN SUBSTANTIA?",
+          "a": "Marcellus: irrelevant; Ulpian: relevant only if the substances are completely different; Julian: relevant even if the material differs only partly (Obl. p. 83).\n• Ulpian D 18.1.9.2 (wine/vinegar), D 18.1.14 (jewellery with some gold)\n• Julian D 18.1.41.1 (silver-plated table)",
+          "difficulty": 3,
+          "kind": "judikat",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Which requirements must the price in a sale meet?",
+          "a": "It must be in money, seriously meant (PRETIUM VERUM) and clearly defined (PRETIUM CERTUM) (Obl. pp. 86–89).\n• Goods for goods = barter, not sale\n• Symbolic or simulated price = gift",
+          "difficulty": 1,
+          "kind": "znaky",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Gaius Inst 3.140 (Case 56): goods sold for whatever Titius estimates. Valid sale?",
+          "a": "Disputed: Labeo and Cassius said no; Ofilius and Proculus said yes (Obl. pp. 89–90).\n• Supporters expect an estimate in the manner of a VIR BONUS, i.e. an objective criterion",
+          "difficulty": 2,
+          "kind": "judikat",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Purchase of specific vs unascertained goods: what is the difference and why does it matter for impossibility?",
+          "a": "Specific: one individual thing is owed; unascertained: a quantity from a class (GENUS) (Obl. p. 92).\n• GENUS NON PERIT: performance stays possible while things of the class exist\n• A limited genus (wine from my cellar) can perish entirely",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "EMPTIO REI SPERATAE vs EMPTIO SPEI?",
+          "a": "REI SPERATAE: sale of a future thing, conditional on its coming into existence. SPEI: the chance itself is sold; the buyer pays even if nothing comes (Obl. pp. 94–95).\n• 'Next year's harvest for 50.000' = SPEI; 'at 1.000 per ton' = REI SPERATAE",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    },
+    "4": {
+      "title": "Initial objective impossibility and its consequences (E.1–2)",
+      "text": "### What counts as a 'case of impossibility' (Obl. pp. 96–98)\nBenke/Meissel use this term for INITIAL OBJECTIVE impossibility.\n• INITIAL: it exists before or at conclusion of the sale. If it arises later, it is subsequent impossibility, governed by the rules on risk and defective performance.\n• OBJECTIVE: nobody at all could perform. If only this debtor cannot perform (subjective impossibility, inability), the sale is valid. Paying money is never objectively impossible.\n• PRACTICAL impossibility: the object never existed or no longer exists (a Hippocentaur; a library that has already burnt down; Paulus D 18.1.15 pr, Case 70/1).\n• LEGAL impossibility: the thing exists but the law forbids the sale: RES EXTRA COMMERCIUM (Modestinus D 18.1.62.1), buying one's own thing (EMPTIO REI SUAE, Pomponius D 18.1.16 pr), a free man (HOMO LIBER) or a stolen thing (RES FURTIVA) when the parties KNOW it. If the buyer does not know, the sale is valid and the buyer is protected through EVICTIO (p. 98).\n\n### Consequences (Obl. pp. 98–103)\nRule: the sale is void: IMPOSSIBILIUM NULLA EST OBLIGATIO. But a buyer who trusted the contract deserves protection.\n1. PRICE: no sale, so a price paid has no legal ground. The buyer recovers it with the CONDICTIO INDEBITI: a performance, without IUSTA CAUSA, made in the mistaken belief that it was owed; a IUDICIUM STRICTI IURIS for CERTA PECUNIA (p. 99; Paulus D 18.4.7).\n2. RELIANCE interest: losses from trusting in the validity, e.g. Leo pays an architect to plan a garden on land that is a RES RELIGIOSA (Example 28). Recoverable in addition to the price.\n3. EXPECTATION interest: the lost bargain, e.g. Ismene buys a temple vase worth 150 for 100 (Example 29). NOT recoverable: it presupposes a valid contract.\n\n### Why reliance damages?\nBONA FIDES requires parties to tell each other of known impediments; a seller who knows delivery is impossible and keeps silent acts with DOLUS (p. 101; modern: CULPA IN CONTRAHENDO).\n\n### Legal basis: the sources offer three constructions (p. 102)\n• an analogous ACTIO IN FACTUM;\n• the ACTIO DE DOLO (only if the seller acted with DOLUS MALUS; subsidiary; infamy);\n• the ACTIO EMPTI, granted although the sale is void (Modestinus D 18.1.62.1).\nOpen question: is the seller's fault required, or is the buyer's loss enough (p. 103)?",
+      "terms": [
+        {
+          "term": "IMPOSSIBILIUM NULLA EST OBLIGATIO",
+          "def": "Something impossible cannot be owed: a sale aimed at an initially objectively impossible performance is void (Obl. pp. 96, 98)."
+        },
+        {
+          "term": "CONDICTIO INDEBITI",
+          "def": "Action to recover what was performed by mistake on a non-existent debt: performance, no IUSTA CAUSA, mistaken belief; IUDICIUM STRICTI IURIS (Obl. p. 99)."
+        },
+        {
+          "term": "Reliance interest",
+          "def": "The interest in not being misled about the validity of the contract (QUOD INTEREST NE DECEPTUM ESSE); opposite: expectation interest (Obl. pp. 100–103)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is a 'case of impossibility' in Benke/Meissel's sense?",
+          "a": "Initial objective impossibility: before or at conclusion, nobody at all could perform (Obl. pp. 96–97).",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Initial vs subsequent impossibility: what is the difference?",
+          "a": "Initial: exists before or at conclusion → impossibility rules. Subsequent: arises after conclusion → rules on risk and defective performance (Obl. pp. 96–97).",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Objective vs subjective impossibility: what is the difference and the consequence?",
+          "a": "Objective: nobody could perform → sale void. Subjective (inability): only this debtor cannot → sale valid (Obl. p. 97).\n• Paying money is never objectively impossible",
+          "difficulty": 1,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Practical vs legal impossibility: give examples.",
+          "a": "Practical: the object never existed or no longer exists (Hippocentaur, burnt library). Legal: the thing exists but the law forbids the sale (Obl. pp. 97–98).\n• Legal: RES EXTRA COMMERCIUM, EMPTIO REI SUAE, HOMO LIBER / RES FURTIVA knowingly bought",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What does IMPOSSIBILIUM NULLA EST OBLIGATIO mean for a sale?",
+          "a": "Something impossible cannot be owed: a sale aimed at an initially objectively impossible performance is void (Obl. pp. 96, 98).",
+          "difficulty": 1,
+          "kind": "norma",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "A free man is sold as a slave, or a stolen thing is sold. Is the sale void?",
+          "a": "Only if the parties know (the free status, the theft); otherwise the sale is valid (Obl. p. 98).\n• An unknowing buyer of a HOMO LIBER is protected as in EVICTIO, which presupposes a valid sale",
+          "difficulty": 2,
+          "kind": "znaky",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "How does a buyer recover a price paid under a sale void for impossibility?",
+          "a": "With the CONDICTIO INDEBITI (Obl. p. 99).\n• Requirements: a performance, no IUSTA CAUSA, mistaken belief that it was owed\n• IUDICIUM STRICTI IURIS for CERTA PECUNIA",
+          "difficulty": 1,
+          "kind": "proces",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Reliance vs expectation interest: what is the difference, and which does the buyer get in a case of impossibility?",
+          "a": "Reliance: losses from trusting in validity (architect's fee, Example 28). Expectation: the lost bargain (vase worth 150 bought for 100, Example 29) (Obl. pp. 100–101).\n• Buyer gets price + reliance damages, not expectation damages",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "On which legal bases can the buyer claim reliance damages?",
+          "a": "The sources offer three: an analogous ACTIO IN FACTUM, the ACTIO DE DOLO, and the ACTIO EMPTI (Obl. p. 102).\n• ACTIO DE DOLO: subsidiary, requires DOLUS MALUS, brings infamy\n• ACTIO EMPTI: Modestinus D 18.1.62.1",
+          "difficulty": 2,
+          "kind": "proces",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Do reliance damages in impossibility cases require the seller's fault?",
+          "a": "The sources leave it open (Obl. p. 103).\n• Fault: concealing a known impossibility (Pomponius/Celsus D 18.1.6 pr)\n• No fault: the buyer's loss alone (Modestinus D 18.1.62.1); possibility of performance in the seller's sphere",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    },
+    "5": {
+      "title": "Partial impossibility (E.3)",
+      "text": "### The problem\nPARTIAL impossibility = initial objective impossibility of only PART of the performance, e.g. part of the object perished before the sale (Obl. p. 104). The question: is the whole sale void, or does it stand for the rest?\n\n### The criterion: ID QUOD ACTUM EST\nThe jurists shape the consequences according to the parties' original agreement. Ask: would the parties have contracted for the remainder at all?\n• NO → treat it like TOTAL impossibility; the whole sale is void. Example 30: Vibia buys twin slaves for display in her circus; one is already dead. She wanted twins and has no interest in one.\n• YES (the object is divisible by the parties' will) → the contract is adapted: sale of the possible part at a reduced price. Example 31: Vibia buys two slaves for garden work; one is dead. She wants the other and pays for one.\nFirst step in every case: is the impossibility ECONOMICALLY total, or can the contract be adapted?\n\n### The sources\n| Fragment | Facts | Decision |\n|---|---|---|\n| Marcianus D 18.1.44 (Case 70/2) | Two slaves sold for a lump sum; one dead before conclusion | No sale even for the survivor: the lump sum shows the parties priced both as one economic unit |\n| Paulus D 18.1.57 pr (Case 70a) | House sold; unknown to both, it had burnt down | Nerva, Sabinus, Cassius: no sale, price by CONDICTIO. Neratius: if the greater part burnt, the buyer is not bound; if half or less, sale at a reduced price |\n\n### What to notice\n• Neratius gives a plausible QUANTITATIVE threshold. He looks at BOTH parties: only if most of the house is gone may the buyer withdraw; otherwise both stay bound (Obl. p. 105).\n• His solution (withdraw or reduce the price) resembles warranty for quality defects. Both concern flaws already existing at conclusion. But one speaks of a quality defect only after delivery and acceptance, and a mere inability of the seller never makes the sale void (Obl. p. 106).\n\n### Practice\nExercise 24 (Obl. p. 112): Thisbe sells Zenon a plot of which, unknown to him, (a) 100 m² or (b) nearly three quarters are LOCUS RELIGIOSUS; he has paid and spent 20.000 on villa plans. Solve it with this section and the previous one.",
+      "terms": [
+        {
+          "term": "Partial impossibility",
+          "def": "Initial objective impossibility of only part of the performance; consequences follow the ID QUOD ACTUM EST (Obl. p. 104)."
+        },
+        {
+          "term": "Economically total impossibility",
+          "def": "Part of the object is still deliverable, but the parties wanted the object only as a whole, so the sale is treated as wholly impossible (Obl. pp. 104–105)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "What is partial impossibility?",
+          "a": "Initial objective impossibility of only part of the performance, e.g. part of the object perished before conclusion (Obl. p. 104).",
+          "difficulty": 1,
+          "kind": "definice",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "How do the jurists decide the consequences of partial impossibility?",
+          "a": "By the ID QUOD ACTUM EST: would the parties have contracted for the remainder at all? (Obl. p. 104)\n• No → treated like total impossibility, sale void\n• Yes → sale of the possible part at a reduced price",
+          "difficulty": 2,
+          "kind": "schema",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Vibia buys two slaves; one is dead at conclusion. Circus twins vs garden workers: what is the difference?",
+          "a": "Twins for the circus: she wanted only the pair → like total impossibility. Garden workers: divisible → sale of one slave at a reduced price (Examples 30–31, Obl. p. 104).",
+          "difficulty": 2,
+          "kind": "pripad",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Marcianus D 18.1.44 (Case 70/2): two slaves sold for a lump sum, one dead before conclusion. Decision and reason?",
+          "a": "No sale, not even for the surviving slave.\n• The lump sum shows the parties priced both as one economic unit\n• That unit cannot be delivered → economically total impossibility (Obl. p. 104)",
+          "difficulty": 2,
+          "kind": "judikat",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "How does Neratius' solution in D 18.1.57 pr resemble warranty for quality defects, and how does it differ?",
+          "a": "Like warranty: withdrawal or price reduction for a flaw existing at conclusion (Obl. p. 106).\n• Differences: a quality defect presupposes delivery and acceptance; the impossibility question arises only for initial objective impossibility",
+          "difficulty": 3,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    },
+    "6": {
+      "title": "Mini exegesis 1: D 18.1.57 pr (the burnt house)",
+      "text": "Paulus D 18.1.57 pr, Benke/Meissel Case 70a (Obl. pp. 105–106). Summarised from the textbook; read the full text in Watson, vol. 2.\n\n### BASIC PART\n1. Facts: K agrees to buy a house from V. Before the agreement, without either knowing, the house burnt down. Variant: only part of it burnt.\n2. Legal question: Is the sale valid if the house was wholly or partly destroyed at conclusion? If not, what can K claim? If part survives, must K take it?\n3. Decision: The author, PAULUS, reports two opinions. (a) NERVA, SABINUS and CASSIUS: no sale; a price paid can be recovered by CONDICTIO. (b) NERATIUS: if the greater part burnt, the buyer is not bound and can reclaim the price; if half or less burnt, the sale must be performed at a price reduced by the loss in value.\n\n### INTERPRETATIVE PART\n4. Institution: EMPTIO VENDITIO; initial objective (practical) impossibility, total and PARTIAL (Obl. pp. 96, 104).\n5. Claims: K v V: return of the price, which lacks a legal ground. In Neratius' 'half or less' case: K v V delivery of the remaining house at the reduced price; V v K payment of the reduced price.\n6. Remedies: CONDICTIO (INDEBITI): performance, no IUSTA CAUSA, mistake; STRICTI IURIS (p. 99). Where the sale stands: ACTIO EMPTI and ACTIO VENDITI.\n\n### DOGMATIC EXPLANATION\n7. Similar cases: Marcianus D 18.1.44 (Case 70/2): two slaves for a lump sum, one dead → no sale at all. Examples 30–31 (twins vs garden slaves). Paulus D 18.1.15 pr (Case 70/1): object no longer exists.\n8. Controversy: yes. The older jurists treat the case as total impossibility; Neratius introduces a threshold. It is not a school dispute: Nerva sides with Proculus elsewhere, Sabinus and Cassius are Sabinians (p. 86).\n9. Explanation: IMPOSSIBILIUM NULLA EST OBLIGATIO. The difficulty: the land still exists, and in property law the house is only part of it (SUPERFICIES SOLO CEDIT, Prop. p. 139), so something is deliverable. But the contract follows the ID QUOD ACTUM EST: the parties said 'I buy your house', so the house was the main object and the impossibility is economically total. Neratius refines this with a plausible quantitative threshold and weighs both sides: only if most is gone may the buyer withdraw; otherwise both stay bound, and the reduced price keeps the exchange balanced. This resembles warranty for quality defects (p. 106).",
+      "terms": [
+        {
+          "term": "Neratius' threshold",
+          "def": "D 18.1.57 pr: more than half of the house burnt → buyer not bound; half or less → sale at a reduced price (Obl. p. 105)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Paulus D 18.1.57 pr (Case 70a): a house sold had burnt down before conclusion, unknown to both. Opinion of Nerva, Sabinus and Cassius?",
+          "a": "No sale; a price already paid is recoverable by CONDICTIO (Obl. p. 105).",
+          "difficulty": 1,
+          "kind": "judikat",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "D 18.1.57 pr: how does Neratius decide the partly burnt house?",
+          "a": "Greater part burnt → buyer not bound, may reclaim the price; half or less → sale performed at a price reduced by the loss in value (Obl. p. 105).\n• Only in the first case may the buyer choose; otherwise both stay bound",
+          "difficulty": 2,
+          "kind": "judikat",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "D 18.1.57 pr: why is there total impossibility although the land is still there?",
+          "a": "Because the parties bought 'a house': by the ID QUOD ACTUM EST the house was the main object, so the impossibility is economically total (Obl. p. 105).\n• In property law the house is only part of the land (SUPERFICIES SOLO CEDIT), but that does not decide the contract",
+          "difficulty": 3,
+          "kind": "basic",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    },
+    "7": {
+      "title": "Mini exegesis 2: D 18.1.62.1 (land that cannot be sold)",
+      "text": "Modestinus D 18.1.62.1, Benke/Meissel Case 67 (Obl. pp. 98, 102–103). Summarised from the textbook; full text in Watson, vol. 2.\n\n### BASIC PART\n1. Facts: A buys land from B, believing it is private. In fact it is sacred, religious or public land.\n2. Legal question: Is the sale valid? If not, does A have a claim against B, and with which action?\n3. Decision: MODESTINUS (late classical): the sale is not binding, but the buyer may sue with the ACTIO EMPTI for his interest in not having been deceived: QUOD INTEREST, NE DECEPTUM ESSE. One author, one opinion.\n\n### INTERPRETATIVE PART\n4. Institution: EMPTIO VENDITIO; initial objective LEGAL impossibility: RES EXTRA COMMERCIUM (RES PUBLICAE, RES DIVINI IURIS); consequence: reliance damages.\n5. Claims: A v B: (a) return of a price paid, which lacks a legal ground; (b) compensation for losses caused by trusting in a valid sale, e.g. an architect's fee (Example 28), but not the lost bargain (Example 29). B v A: no claim to the price, as there is no sale.\n6. Remedies: price: CONDICTIO INDEBITI (p. 99). Reliance loss: the ACTIO EMPTI granted in the text; other constructions in the sources: an analogous ACTIO IN FACTUM, or the ACTIO DE DOLO if B acted with DOLUS MALUS (subsidiary, infamy) (p. 102).\n\n### DOGMATIC EXPLANATION\n7. Similar cases: Pomponius (Celsus) D 18.1.6 pr (Case 65): the Field of Mars and a free man; Licinnius Rufinus D 18.1.70 (Case 66); Paulus D 18.1.34.3 (Case 68): stolen thing, valid if the buyer does not know.\n8. Controversies: none in the text. Among jurists: the legal basis (ACTIO IN FACTUM, DE DOLO or EMPTI) and whether the seller's fault is required (p. 103).\n9. Explanation: Such land cannot be privately owned, sold or usucapted (Prop. p. 102), so the sale is void: IMPOSSIBILIUM NULLA EST OBLIGATIO. Yet the buyer who trusted deserves protection (p. 99). The tension: the ACTIO EMPTI presupposes a sale. Modestinus resolves it by treating the seller's conduct as a breach of BONA FIDES, which requires parties to disclose known impediments (p. 101; modern CULPA IN CONTRAHENDO). Because there is no valid contract, the buyer gets only the reliance interest; the phrase is the source of the modern term reliance damages. It refers to his disappointed hope and does not necessarily mean the seller knew (p. 103).",
+      "terms": [
+        {
+          "term": "QUOD INTEREST NE DECEPTUM ESSE",
+          "def": "The buyer's interest in not having been deceived (Modestinus D 18.1.62.1); source of the modern term reliance damages (Obl. p. 103)."
+        },
+        {
+          "term": "ACTIO DE DOLO",
+          "def": "Praetorian action against fraudulent conduct: subsidiary, requires DOLUS MALUS, condemnation brings infamy (Obl. p. 102)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Modestinus D 18.1.62.1 (Case 67): A buys land he thinks private; it is sacred, religious or public. Decision?",
+          "a": "No binding sale, but the buyer has the ACTIO EMPTI for his interest in not having been deceived (QUOD INTEREST NE DECEPTUM ESSE) (Obl. p. 103).",
+          "difficulty": 1,
+          "kind": "judikat",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "What does QUOD INTEREST NE DECEPTUM ESSE cover, and what not?",
+          "a": "The reliance interest: losses from trusting that the sale was valid (Obl. p. 103).\n• Not the expectation interest (the lost bargain)\n• Refers to the buyer's disappointed hope; does not necessarily mean the seller knew",
+          "difficulty": 2,
+          "kind": "basic",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "How can Modestinus grant the ACTIO EMPTI although there is no valid sale?",
+          "a": "He treats the seller's conduct as a breach of BONA FIDES, on which the claim rests (Obl. p. 103).\n• BONA FIDES requires disclosure of known impediments (p. 101)",
+          "difficulty": 3,
+          "kind": "basic",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    },
+    "8": {
+      "title": "Mini exegesis 3: D 18.4.8 with D 18.4.7 (the inheritance)",
+      "text": "Iavolenus D 18.4.8, Benke/Meissel Case 109/2 (Obl. pp. 101–102); read together with the fragment before it, Paulus D 18.4.7 (Case 109/1, p. 99). Summarised from the textbook; full text in Watson, vol. 2.\n\n### BASIC PART\n1. Facts: A sells B an inheritance. Variant 1: the inheritance exists, but it is not A's. Variant 2: the inheritance does not exist.\n2. Legal question: Is the sale valid in each variant, and what can B claim from A?\n3. Decision: IAVOLENUS: in variant 1 the buyer receives the estimated value of the inheritance; in variant 2 he receives only the price back plus his transaction costs.\n\n### INTERPRETATIVE PART\n4. Institution: EMPTIO VENDITIO; the line between subjective impossibility (inability) and initial objective impossibility; expectation vs reliance interest.\n5. Claims: Variant 1, B v A: the money value of the inheritance, i.e. the expectation interest. Variant 2, B v A: the price and his costs.\n6. Remedies: Variant 1: ACTIO EMPTI on a valid sale; the seller's duty to perform turns into paying the money equivalent (p. 102). Variant 2: the price by CONDICTIO (so Paulus D 18.4.7). The textbook summary does not name the action for the costs; the sources offer ACTIO IN FACTUM, ACTIO DE DOLO or ACTIO EMPTI (p. 102).\n\n### DOGMATIC EXPLANATION\n7. Similar cases: Paulus D 18.4.7 (Case 109/1): non-existent inheritance → no sale, price by CONDICTIO. Ulpian D 19.1.1 pr (Case 87): a seller who cannot deliver owes expectation damages (p. 149). Ulpian D 18.1.28 (Case 95/2): selling another's thing is valid.\n8. Controversies: none in the text. Paulus mentions only the CONDICTIO for the price; Iavolenus adds the transaction costs.\n9. Explanation: Everything turns on whether ANYONE could perform. In variant 1 the inheritance exists; only this seller cannot deliver it. That is mere inability, which does not prevent a valid sale and does not release the seller (pp. 97, 149). So he must put the buyer where performance would have put him: the value of the inheritance. In variant 2 nobody could perform: IMPOSSIBILIUM NULLA EST OBLIGATIO. Without a contract there is no expectation interest; the buyer is protected only in his reliance: the price and the costs he spent trusting the deal. Interests: a seller who sells what is not his takes the risk of his inability; a seller of something that does not exist is liable only for the buyer's misplaced trust.",
+      "terms": [
+        {
+          "term": "Subjective impossibility (inability)",
+          "def": "Only this debtor cannot perform, e.g. he does not own or possess the thing; the sale stays valid and he owes expectation damages (Obl. pp. 97, 149)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "Paulus D 18.4.7 (Case 109/1): A sells B an inheritance that does not exist; B has paid. Decision?",
+          "a": "No sale, because the object does not exist; the price is recoverable by CONDICTIO (Obl. p. 99).",
+          "difficulty": 1,
+          "kind": "judikat",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Iavolenus D 18.4.8 (Case 109/2): A sells B an inheritance. What does B get if (1) it exists but is not A's, (2) it does not exist?",
+          "a": "(1) The estimated value of the inheritance: inability only, valid sale, expectation damages. (2) Only the price plus transaction costs: initial objective impossibility (Obl. pp. 101–102).",
+          "difficulty": 2,
+          "kind": "judikat",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Why does the buyer get more in variant 1 of D 18.4.8 than in variant 2?",
+          "a": "Variant 1 is only subjective impossibility: the sale is valid, so the seller owes the expectation interest. Variant 2 is objective: no contract, so only the reliance interest (Obl. pp. 97, 102).",
+          "difficulty": 3,
+          "kind": "basic",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    },
+    "9": {
+      "title": "Impossibility in sale: what follows?",
+      "text": "Work through these questions in order. Each answer points you to the consequence (Obl. pp. 94–106, 149).\n\n### Step 1: Is there a sale at all?\nConsensus on contract type, object and price (in money, VERUM, CERTUM)? If not, stop: no sale (dissent, ERROR IN NEGOTIO or IN CORPORE).\n\n### Step 2: When did the obstacle exist?\n\n| Situation | Consequence |\n|---|---|\n| Obstacle arises only AFTER conclusion | Subsequent impossibility: sale valid; rules on risk and defective performance |\n| Future thing sold (EMPTIO REI SPERATAE) | Conditional sale: valid only if the thing comes into existence |\n| Chance sold (EMPTIO SPEI) | Valid whatever happens; the buyer bears the risk |\n| Obstacle exists BEFORE or AT conclusion | Go to step 3 |\n\n### Step 3: Objective or subjective?\n\n| Situation | Consequence |\n|---|---|\n| Only this party cannot perform (seller: another's thing, no possession; buyer: no money) | Inability: sale VALID; a seller who cannot deliver owes the money value = expectation interest (D 18.4.8 variant 1; Ulpian D 19.1.1 pr); title problems via EVICTIO |\n| Nobody could perform | Initial objective impossibility: step 4 |\n\n### Step 4: Practical or legal?\n• Practical: the object never existed or has perished (Hippocentaur, burnt house, dead slave, non-existent inheritance).\n• Legal: RES EXTRA COMMERCIUM; EMPTIO REI SUAE; HOMO LIBER or RES FURTIVA only if the parties know. If the buyer does not know, the sale is valid (buyer protected as in EVICTIO).\n\n### Step 5: Total or partial?\n\n| Situation | Consequence |\n|---|---|\n| Total, or partial but the parties wanted only the whole (lump sum, twins, 'a house') | Sale VOID (IMPOSSIBILIUM NULLA EST OBLIGATIO) |\n| Partial and divisible by the parties' will | Sale of the rest at a REDUCED price |\n| House partly burnt (Neratius) | More than half gone: buyer not bound; half or less: reduced price |\n\n### Step 6: What can the buyer claim if the sale is void?\n• Price: CONDICTIO INDEBITI.\n• Reliance damages (QUOD INTEREST NE DECEPTUM ESSE): ACTIO EMPTI (Modestinus), analogous ACTIO IN FACTUM, or ACTIO DE DOLO if the seller acted with DOLUS MALUS.\n• Expectation damages: NO.\n• Fault requirement: open in the sources.",
+      "terms": [
+        {
+          "term": "Expectation interest",
+          "def": "The position the buyer would be in if the contract had been performed (value of the thing, lost bargain); presupposes a valid contract (Obl. p. 101)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "In which order do you test an impossibility problem in sale?",
+          "a": "Sale concluded? → initial or subsequent? → objective or subjective? → practical or legal? → total or partial? → claims.\n• Void sale: CONDICTIO INDEBITI + reliance damages, no expectation damages",
+          "difficulty": 2,
+          "kind": "schema",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Which claims does the buyer have if his sale is void for initial objective impossibility?",
+          "a": "Return of the price by CONDICTIO INDEBITI and reliance damages; no expectation damages (Obl. pp. 99–103).\n• Reliance: ACTIO EMPTI (Modestinus), ACTIO IN FACTUM or ACTIO DE DOLO",
+          "difficulty": 1,
+          "kind": "schema",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    },
+    "10": {
+      "title": "Exegesis checklist: a fragment on sale",
+      "text": "Use the nine points from the lesson 'How to write an exegesis' (Benke/Meissel Prop. pp. 260–263) and check these sale-specific questions.\n\n| Point | What to check in a fragment on sale |\n|---|---|\n| 1. Facts | Who is seller (V), who buyer (K)? WHAT was sold (specific thing, genus, future thing, chance) and for what price? WHEN did the obstacle exist: before, at or after conclusion? Who knew what? Was the price paid, was the thing delivered? Variants separately. |\n| 2. Legal question | Usually: is the sale valid (wholly, partly)? What can the buyer claim (price back, damages, delivery)? |\n| 3. Decision | Who writes (INSCRIPTIO), who is cited? List every opinion: D 18.1.57 pr has two. |\n| 4. Institution | Name it precisely: 'EMPTIO VENDITIO, initial objective partial impossibility', not just 'sale'. Define in 1–2 sentences: consensual, synallagmatic, BONAE FIDEI. |\n| 5. Claims | K v V AND V v K: price back, reliance loss, delivery of the remainder, reduced price. Say WHAT and WHY. |\n| 6. Remedies | ACTIO EMPTI (buyer), ACTIO VENDITI (seller), CONDICTIO INDEBITI (price without legal ground), ACTIO DE DOLO (subsidiary), ACTIO IN FACTUM. Say who sues whom. In BONAE FIDEI IUDICIA no EXCEPTIO DOLI or METUS is needed (Obl. p. 85). |\n| 7. Similar cases | Impossibility: Cases 65–70a, 109/1–2. Partial: Marcianus D 18.1.44 vs Paulus D 18.1.57 pr. Say how each is similar or different. |\n| 8. Controversies | Nerva/Sabinus/Cassius vs Neratius; legal basis of reliance damages; fault requirement. Otherwise write 'none in the text'. |\n| 9. Dogmatic explanation | From the principle (IMPOSSIBILIUM NULLA EST OBLIGATIO) via the distinctions (objective/subjective, total/partial, ID QUOD ACTUM EST) to the jurist's reasoning; interests: protection of the trusting buyer vs the seller who did not promise more. |\n\n### Typical traps\n• Confusing the SALE with the CONVEYANCE: a void sale does not 'take back ownership'; ask separately whether a TRADITIO or MANCIPATIO happened (Prop. pp. 83–85).\n• Treating the seller's lack of ownership as impossibility: it is not (Obl. p. 149).\n• Granting expectation damages on a void sale.\n• Calling a subsequent loss (after conclusion) a 'case of impossibility'.\n• Giving Paulus' or Neratius' view as the 'right' solution instead of explaining each.",
+      "terms": [
+        {
+          "term": "Case numbers (Obl.)",
+          "def": "Benke/Meissel, Roman Law of Obligations: Case 65 (D 18.1.6 pr), 67 (D 18.1.62.1), 70/1 (D 18.1.15 pr), 70/2 (D 18.1.44), 70a (D 18.1.57 pr), 109/1 (D 18.4.7), 109/2 (D 18.4.8)."
+        }
+      ],
+      "cards": [
+        {
+          "q": "How do you name the dominant institution in an exegesis of D 18.1.57 pr?",
+          "a": "Precisely: EMPTIO VENDITIO, initial objective (partial) impossibility, not just 'sale'.\n• Define sale in 1–2 sentences: consensual, synallagmatic, BONAE FIDEI",
+          "difficulty": 2,
+          "kind": "proces",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Is the seller's lack of ownership a case of impossibility?",
+          "a": "No: the sale of another's thing is valid; the seller's inability makes him liable, and title problems are handled through EVICTIO (Obl. pp. 149–151).",
+          "difficulty": 2,
+          "kind": "rozliseni",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "core",
+          "readyBy": "2026-11-25"
+        },
+        {
+          "q": "Which remedies do you list in an exegesis on impossibility in sale?",
+          "a": "CONDICTIO INDEBITI (price), ACTIO EMPTI / ACTIO VENDITI, ACTIO DE DOLO, analogous ACTIO IN FACTUM; always say who sues whom.\n• In BONAE FIDEI IUDICIA DOLUS and METUS count without an EXCEPTIO (Obl. p. 85)",
+          "difficulty": 2,
+          "kind": "proces",
+          "topic": "25.11. Obligations — sale, impossibility",
+          "priority": "extra",
+          "readyBy": "2026-11-25"
+        }
+      ],
+      "vision_used": false
+    }
+  }
+}

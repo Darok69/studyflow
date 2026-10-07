@@ -136,3 +136,6 @@ body{counter-reset:pg}
 .vt .ev b.y{color:var(--c);display:inline-block;min-width:44px}
 .vt.w .ev b.y{min-width:68px}
 .toc td{padding:1.6px 4px}
+/* "bridge" = a concept from another subject explained in context (e.g. property law inside obligations) */
+.bridge{border:1.5px dashed var(--own);background:#f3f6fd;border-radius:6px;padding:4px 7px;font-size:9.3pt}
+.bridge::before{content:"⌂ Property law in 1 sentence: ";font-weight:700;color:var(--own)}
