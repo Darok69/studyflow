@@ -5,7 +5,7 @@
     "language": "en",
     "format": "Dvě písemná hodnocení — Assessment I st 4. 11. 2026, Assessment II st 13. 1. 2027; v obou se píše EXEGEZE zadaného úryvku Digest ve formátu FÜM 1. Známka = průměr obou, aktivní účast zlepšuje. Výuka anglicky, středy 9–10, HS U14 Juridicum. Doktrína podle Benke/Meissel, Roman Law of Property a Roman Law of Obligations."
   },
-  "updated_at": "2026-10-07T17:27:31+00:00",
+  "updated_at": "2026-10-07T17:33:12+00:00",
   "organisers": [],
   "courses": [
     {
@@ -54,46 +54,6 @@
           "slides": 7,
           "data": "data/EXME.json",
           "done": 7
-        },
-        {
-          "lecture_id": "EXO1",
-          "unit": "18.11. Obligations",
-          "title": "Obligations I — real contracts (class 18 Nov)",
-          "slides": 10,
-          "data": "data/EXO1.json",
-          "done": 10
-        },
-        {
-          "lecture_id": "EXO2",
-          "unit": "25.11. Obligations",
-          "title": "Obligations II — sale and (partial) impossibility (class 25 Nov)",
-          "slides": 10,
-          "data": "data/EXO2.json",
-          "done": 10
-        },
-        {
-          "lecture_id": "EXO3",
-          "unit": "02.12. Obligations",
-          "title": "Obligations III — sale and warranty (class 2 Dec)",
-          "slides": 10,
-          "data": "data/EXO3.json",
-          "done": 10
-        },
-        {
-          "lecture_id": "EXO4",
-          "unit": "09.12. Obligations",
-          "title": "Obligations IV — mandatum (class 9 Dec)",
-          "slides": 10,
-          "data": "data/EXO4.json",
-          "done": 10
-        },
-        {
-          "lecture_id": "EXO5",
-          "unit": "16.12. Obligations",
-          "title": "Obligations V — Lex Aquilia and suretyship",
-          "slides": 0,
-          "data": "data/EXO5.json",
-          "done": 0
         }
       ]
     }
