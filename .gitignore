@@ -60,3 +60,4 @@ content/pipeline/__pycache__/
 # stažené úřední texty smluv – jen keš pro ./run.sh <předmět> articles
 content/*/out/prameny/cache/
 content/roman-property-law/prehled/*.pdf
+content/*/prehled/*.pdf
