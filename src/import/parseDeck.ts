@@ -44,6 +44,12 @@ export interface ParsedDeck {
   remove?: RemoveRule[]
   /** The deck is the whole subject: cards it no longer asks are removed. */
   prune?: boolean
+  /**
+   * Names the subject went by before (e.g. before a translation). A deck whose
+   * name matches no subject merges into one with a former name and renames it —
+   * otherwise a renamed deck would arrive as a second subject without history.
+   */
+  formerNames?: string[]
   errors: string[]
 }
 
@@ -290,6 +296,14 @@ export function parseDeck(raw: string): ParsedDeck {
     updates: parseUpdates(obj.updates),
     remove: parseRemove(obj.remove),
     prune: obj.prune === true,
+    formerNames: parseFormerNames(obj.formerNames),
     errors,
   }
+}
+
+/** `formerNames`: non-empty strings only, anything else is dropped. */
+function parseFormerNames(raw: unknown): string[] | undefined {
+  if (!Array.isArray(raw)) return undefined
+  const names = raw.filter((n): n is string => typeof n === 'string' && n.trim() !== '').map((n) => n.trim())
+  return names.length > 0 ? names : undefined
 }

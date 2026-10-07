@@ -13,7 +13,7 @@ import {
   type TestRun,
 } from './db'
 import type { CardDraft, ParsedDeck } from '../import/parseDeck'
-import { newCardsOnly, planFiling, planPrune, planRemovals, planUpdates } from '../import/mergeDeck'
+import { newCardsOnly, pickMergeTarget, planFiling, planPrune, planRemovals, planUpdates } from '../import/mergeDeck'
 import { deckToJson } from '../import/exportDeck'
 import { backupToJson, type Backup } from '../import/backup'
 import { DEFAULT_RETENTION, newFsrsFields, rate, type FsrsFields } from '../scheduler/fsrs'
@@ -92,6 +92,14 @@ export async function findSubjectsByName(name: string): Promise<Subject[]> {
   if (!wanted) return []
   const all = await db.subjects.toArray()
   return all.filter((s) => s.name.trim().toLowerCase() === wanted)
+}
+
+/** The subject a deck merges into: by its name, else by a former name (→ rename). */
+export async function findMergeTarget(
+  name: string,
+  formerNames?: string[],
+): Promise<{ subject: Subject; rename: boolean } | null> {
+  return pickMergeTarget(await db.subjects.toArray(), name, formerNames)
 }
 
 /**

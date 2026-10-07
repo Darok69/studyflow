@@ -53,7 +53,7 @@ import { decodeDeckPayload, encodeDeckPayload, payloadFromHash } from '../src/li
 import { detectSeparator, parsePlainDeck } from '../src/import/parsePlainText'
 import { encouragement } from '../src/lib/encouragement'
 import { lectureForTopic, matchCourses, orderByCourse } from '../src/lib/materials'
-import { newCardsOnly, planFiling, planPrune, planRemovals, planUpdates, questionKey } from '../src/import/mergeDeck'
+import { newCardsOnly, pickMergeTarget, planFiling, planPrune, planRemovals, planUpdates, questionKey } from '../src/import/mergeDeck'
 import { byPriority, classPace, nextClass } from '../src/scheduler/scheduler'
 import { deckTopicOrder, hasManualOrder, mergeTopicOrder, moveItem, orderedByHand, positionsFor, sortTopicsByClass } from '../src/lib/order'
 import {
@@ -1557,6 +1557,17 @@ console.log('— blind maps: masks stay relative, one card per place —')
     const pd = parseDeck(JSON.stringify({ subject: 'S', prune: true, cards: [{ front: 'f', back: 'b' }], updates: [{ match: 'm', back: 'new answer' }] }))
     ok(pd.prune === true && pd.updates?.[0]?.back === 'new answer', 'prune and answer updates are parsed')
     ok(parseDeck(JSON.stringify({ subject: 'S', prune: 'yes', cards: [{ front: 'f', back: 'b' }] })).prune === false, 'only a literal true prunes')
+
+    // A translated deck carries its old subject name: merge into it and rename, never a second subject.
+    const fn = parseDeck(JSON.stringify({ subject: 'Roman Law of Property', formerNames: ['Roman Law of Property — Römisches Sachenrecht', '', 7], cards: [{ front: 'f', back: 'b' }] }))
+    ok(fn.formerNames?.length === 1 && fn.formerNames[0] === 'Roman Law of Property — Römisches Sachenrecht', 'formerNames keeps only non-empty strings')
+    const subs = [{ id: 'de', name: ' roman law of property — römisches sachenrecht ' }, { id: 'x', name: 'Other' }]
+    const viaFormer = pickMergeTarget(subs, 'Roman Law of Property', fn.formerNames)
+    ok(viaFormer?.subject.id === 'de' && viaFormer.rename === true, 'a subject under a former name is the merge target and gets renamed')
+    const both = [...subs, { id: 'en', name: 'Roman Law of Property' }]
+    const viaName = pickMergeTarget(both, 'Roman Law of Property', fn.formerNames)
+    ok(viaName?.subject.id === 'en' && viaName.rename === false, 'the current name wins over a former one, no rename')
+    ok(pickMergeTarget(subs, 'New', ['Nothing']) === null, 'no match → a new subject')
 
     const deck = parseDeck(
       JSON.stringify({

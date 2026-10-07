@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { parseDeck } from '../import/parseDeck'
 import { parsePlainDeck } from '../import/parsePlainText'
-import { addNewCardsToSubject, createSubject, findSubjectsByName, importDeck } from '../db/repo'
+import { addNewCardsToSubject, createSubject, findMergeTarget, findSubjectsByName, importDeck, updateSubject } from '../db/repo'
 import type { ParsedDeck } from '../import/parseDeck'
 import type { Subject } from '../db/db'
 import { aiPrompt, sampleDeckJson } from '../import/sampleDeck'
@@ -105,9 +105,10 @@ export function Import({ onDone, onCancel, initialText, shared = false, onOpenTe
         setErrors(parsed.errors)
         return
       }
-      const same = await findSubjectsByName(parsed.subject.name)
-      if (same.length > 0) {
-        const r = await addNewCardsToSubject(same[0].id, parsed)
+      const target = await findMergeTarget(parsed.subject.name, parsed.formerNames)
+      if (target) {
+        const r = await addNewCardsToSubject(target.subject.id, parsed)
+        if (target.rename) await updateSubject(target.subject.id, { name: parsed.subject.name })
         setMerged({
           added: r.cardCount,
           duplicates: r.duplicates,
@@ -143,9 +144,9 @@ export function Import({ onDone, onCancel, initialText, shared = false, onOpenTe
         setBusy(false)
         return
       }
-      const same = await findSubjectsByName(parsed.subject.name)
-      if (same.length > 0) {
-        setExisting({ subject: same[0], parsed })
+      const target = await findMergeTarget(parsed.subject.name, parsed.formerNames)
+      if (target) {
+        setExisting({ subject: target.subject, parsed })
         setBusy(false)
         return
       }
@@ -175,6 +176,10 @@ export function Import({ onDone, onCancel, initialText, shared = false, onOpenTe
     if (!existing) return
     setBusy(true)
     const result = await addNewCardsToSubject(existing.subject.id, existing.parsed)
+    // Merged under a former name: the subject takes the deck's current name.
+    if (existing.subject.name.trim().toLowerCase() !== existing.parsed.subject.name.trim().toLowerCase()) {
+      await updateSubject(existing.subject.id, { name: existing.parsed.subject.name })
+    }
     setBusy(false)
     setExisting(null)
     setMerged({

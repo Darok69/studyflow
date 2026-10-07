@@ -190,3 +190,24 @@ export function planRemovals(cards: FilingTarget[], rules: RemoveRule[]): string
     .filter((c) => (c.tags ?? []).some((t) => wanted.has(t.trim().toLowerCase())))
     .map((c) => c.id)
 }
+
+/**
+ * Which existing subject a deck merges into. Its current name wins; otherwise a
+ * subject still carrying one of the deck's former names is taken and must be
+ * renamed (`rename`). Names compare like `findSubjectsByName`: case and
+ * surrounding spaces do not matter.
+ */
+export function pickMergeTarget<S extends { name: string }>(
+  subjects: S[],
+  name: string,
+  formerNames: string[] = [],
+): { subject: S; rename: boolean } | null {
+  const key = (n: string) => n.trim().toLowerCase()
+  const same = subjects.find((s) => key(s.name) === key(name))
+  if (same) return { subject: same, rename: false }
+  for (const former of formerNames) {
+    const old = subjects.find((s) => key(s.name) === key(former))
+    if (old) return { subject: old, rename: true }
+  }
+  return null
+}
