@@ -7,8 +7,8 @@
 #   ./run.sh irewi merge content/content_IL01.json
 #   ./run.sh irewi materials        balíček pro obrazovku Učebnice
 #   ./run.sh irewi deck             balíček karet pro Import
-#   ./run.sh system-erde tests      banka otázek pro zkušební test
-#   ./run.sh system-erde blind      slepé obrázky z diagramů (blind.json)
+#   ./run.sh <předmět> tests        banka otázek pro zkušební test
+#   ./run.sh <předmět> blind        slepé obrázky z diagramů (blind.json)
 #   ./run.sh irewi audio --series quiz
 #   ./run.sh irewi feed --base https://study.dmarka.eu --token <token>
 #   ./run.sh irewi articles         stáhne úřední znění článků smluv
