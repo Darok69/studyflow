@@ -30,6 +30,10 @@ OUT = ROOT / "out" / "studyflow" / "roman-property-law.json"
 
 STAGE = {"judikat": 2, "pripad": 3}
 
+# Do 7. 10. 2026 byl balíček německy pod tímto názvem. Přeložený balíček se
+# podle něj sloučí do Danielova předmětu (formerNames) a přejmenuje ho.
+FORMER_NAMES = ["Roman Law of Property — Römisches Sachenrecht"]
+
 
 def main() -> None:
     files = sorted(DECK.glob("[0-9][0-9]-*.json"))
@@ -53,10 +57,18 @@ def main() -> None:
         seen.add(key)
         c["learnOrder"] = STAGE.get(c.get("kind"), 1) * 100_000 + i
 
-    deck = {**meta, "cards": cards,
-            # Odpověď jde v updates taky: opravená odpověď se tak propíše i do karty,
-            # kterou už má uživatel naimportovanou (identita karty = otázka).
-            "updates": [{"match": c["front"], "back": c["back"], "learnOrder": c["learnOrder"]} for c in cards]}
+    updates = []
+    for c in cards:
+        # Odpověď jde v updates taky: opravená odpověď se tak propíše i do karty,
+        # kterou už má uživatel naimportovanou (identita karty = otázka).
+        updates.append({"match": c["front"], "back": c["back"], "learnOrder": c["learnOrder"]})
+        old = c.pop("old_front", None)
+        if old and old != c["front"]:
+            # Překlad: karta s německou otázkou dostane anglickou otázku, odpověď
+            # i téma — FSRS historie zůstává (přejmenování, ne nová karta).
+            updates.append({"match": old, "front": c["front"], "back": c["back"],
+                            "topic": c["topic"], "learnOrder": c["learnOrder"]})
+    deck = {**meta, "formerNames": FORMER_NAMES, "cards": cards, "updates": updates}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(deck, ensure_ascii=False, indent=1) + "\n", "utf-8")
     by = {s: sum(1 for c in cards if STAGE.get(c.get("kind"), 1) == s) for s in (1, 2, 3)}
