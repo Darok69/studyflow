@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Roman Law of Property — Visual Overview</title>
+<style>
+@page { size: A4 landscape; margin: 0; }
+:root{
+  --ink:#1d2330; --mute:#5b6475; --line:#d9dde5; --paper:#ffffff; --soft:#f5f6f9;
+  --pos:#0f8b8d;  --pos-l:#e3f4f4;   /* possession */
+  --own:#2f5fb3;  --own-l:#e6eefb;   /* ownership & transfer */
+  --usu:#7a4cc2;  --usu-l:#efe8fa;   /* usucapio */
+  --nat:#3d8b3d;  --nat-l:#e7f3e5;   /* natural modes */
+  --pro:#c2462f;  --pro-l:#fbe9e5;   /* protection */
+  --ser:#a56a12;  --ser-l:#f8efdf;   /* servitudes */
+  --pig:#b33a78;  --pig-l:#f9e6f0;   /* pledge */
+  --exg:#222b3d;  --exg-l:#eceef3;   /* exegesis */
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#888}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--ink);font-size:10.8pt;line-height:1.3;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:297mm;height:210mm;background:var(--paper);margin:0 auto 6mm;padding:9mm 11mm 8mm;position:relative;overflow:hidden;page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+@media print{ html,body{background:none} .page{margin:0} }
+
+/* header */
+.hd{display:flex;align-items:flex-end;gap:10px;border-bottom:2.2px solid var(--c);padding-bottom:4px;margin-bottom:6px}
+.hd .tag{background:var(--c);color:#fff;font-weight:700;font-size:8.5pt;letter-spacing:.06em;padding:3px 8px;border-radius:4px;text-transform:uppercase;white-space:nowrap}
+.hd h1{font-family:Georgia,"Times New Roman",serif;font-size:19pt;margin:0;line-height:1;font-weight:700}
+.hd .meta{margin-left:auto;text-align:right;color:var(--mute);font-size:8.3pt;line-height:1.25}
+.hd .meta b{color:var(--c)}
+.lead{color:var(--mute);font-size:9.2pt;margin:0 0 6px}
+.foot{position:absolute;left:11mm;right:11mm;bottom:4mm;display:flex;justify-content:space-between;color:#9aa1ae;font-size:7.3pt}
+
+/* layout */
+.g{display:grid;gap:6px}
+.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr 1fr 1fr}.g4{grid-template-columns:repeat(4,1fr)}
+.g21{grid-template-columns:2fr 1fr}.g12{grid-template-columns:1fr 2fr}.g32{grid-template-columns:3fr 2fr}.g23{grid-template-columns:2fr 3fr}
+.col{display:flex;flex-direction:column;gap:6px}
+
+/* boxes */
+.box{border:1px solid var(--line);border-left:4px solid var(--c,var(--line));border-radius:6px;padding:5px 7px;background:#fff}
+.box.f{background:var(--cl)}
+.box h3{margin:0 0 3px;font-size:10.9pt;color:var(--c);font-weight:700}
+.box h4{margin:4px 0 2px;font-size:10pt}
+.box p{margin:0 0 3px}
+ul{margin:0;padding-left:13px} li{margin:0 0 1.5px}
+.k{font-weight:700}
+.L{font-variant:small-caps;font-weight:600;letter-spacing:.02em}
+.mute{color:var(--mute)}
+.small{font-size:9.4pt}
+.pos{--c:var(--pos);--cl:var(--pos-l)} .own{--c:var(--own);--cl:var(--own-l)} .usu{--c:var(--usu);--cl:var(--usu-l)}
+.nat{--c:var(--nat);--cl:var(--nat-l)} .pro{--c:var(--pro);--cl:var(--pro-l)} .ser{--c:var(--ser);--cl:var(--ser-l)}
+.pig{--c:var(--pig);--cl:var(--pig-l)} .exg{--c:var(--exg);--cl:var(--exg-l)}
+
+/* chips */
+.case{display:block;border:1px dashed var(--c);border-radius:5px;padding:3px 6px;margin:3px 0;background:#fff;font-size:9.5pt}
+.case b{color:var(--c)}
+.mx{display:inline-block;font-style:italic;font-family:Georgia,serif;background:var(--cl);border-radius:4px;padding:0 4px;color:#222}
+.link{display:inline-block;font-size:7.6pt;font-weight:700;color:#fff;background:var(--c);border-radius:8px;padding:0 5px;margin-left:2px;white-space:nowrap;vertical-align:1px}
+.yes{color:#2b7a2b;font-weight:700}.no{color:#b3261e;font-weight:700}
+
+/* flow */
+.flow{display:flex;align-items:stretch;gap:0}
+.flow>.box{flex:1}
+.arr{display:flex;align-items:center;justify-content:center;width:18px;color:var(--c,#888);font-size:15pt;font-weight:700;flex:none}
+.down{text-align:center;color:var(--c,#888);font-size:13pt;line-height:1;margin:-2px 0}
+
+/* gates */
+.gates{display:flex;gap:5px}
+.gate{flex:1;border:2px solid var(--c);border-radius:8px;padding:5px 6px;background:#fff;position:relative}
+.gate .n{position:absolute;top:-9px;left:6px;background:var(--c);color:#fff;border-radius:10px;font-weight:700;font-size:8pt;padding:0 6px}
+.gate h4{margin:2px 0 2px;color:var(--c);font-size:10.4pt}
+
+/* tables */
+table{border-collapse:collapse;width:100%;font-size:9.6pt}
+th{background:var(--c);color:#fff;text-align:left;padding:3px 5px;font-weight:700}
+td{border-bottom:1px solid var(--line);padding:3px 5px;vertical-align:top}
+tr:nth-child(even) td{background:var(--soft)}
+td.h{font-weight:700;color:var(--c)}
+
+/* tree */
+.tree{display:flex;flex-direction:column;align-items:center}
+.tree .node{border:2px solid var(--c);background:var(--cl);border-radius:7px;padding:3px 9px;font-weight:700;text-align:center}
+.tree .kids{display:flex;gap:6px;width:100%;margin-top:9px;position:relative}
+.tree .kids::before{content:"";position:absolute;top:-6px;left:12%;right:12%;border-top:1.6px solid var(--c)}
+.tree .kids>.box{flex:1;position:relative}
+.tree .kids>.box::before{content:"";position:absolute;top:-7px;left:50%;height:6px;border-left:1.6px solid var(--c)}
+
+/* exegesis question box */
+.exq{border:1.6px solid var(--exg);border-radius:7px;padding:5px 7px;background:var(--exg-l)}
+.exq h3{margin:0 0 3px;font-size:10.7pt;color:var(--exg)}
+.exq h3::before{content:"✎ ";}
+
+/* timeline */
+.tl{display:flex;gap:0;align-items:stretch}
+.tl .st{flex:1;border-top:4px solid var(--c);padding:4px 6px 0;font-size:9.6pt}
+.tl .st b{display:block;font-size:9.4pt;color:var(--c)}
+
+/* spectrum */
+.spec{position:relative;margin:6px 0 2px;padding-top:16px}
+.spec .bar{height:9px;border-radius:5px;background:linear-gradient(90deg,#0b5f61,#5fc4c6,#d8f1f1)}
+.spec .lab{position:absolute;top:0;font-size:7.8pt;font-weight:700;color:var(--mute)}
+.spec .pts{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;margin-top:4px}
+.spec .pt{font-size:9pt;border-top:2px solid var(--pos);padding-top:2px}
+.spec .pt b{color:var(--pos)}
+
+/* big map */
+.map{display:grid;grid-template-columns:1fr 22px 1.15fr 22px 1.25fr 22px 1.15fr;align-items:stretch}
+.map .arr{width:auto}
+.num{display:inline-block;min-width:15px;height:15px;border-radius:8px;background:var(--c);color:#fff;font-size:7.5pt;font-weight:700;text-align:center;line-height:15px;padding:0 3px;margin-right:3px}
+.legend{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:9.2pt}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--c);margin-right:4px;vertical-align:-1px}
+
+/* waterfall */
+.wf{display:flex;align-items:flex-end;gap:6px;height:78px;margin-top:4px}
+.wf .b{flex:1;background:var(--pig);color:#fff;font-size:8pt;font-weight:700;text-align:center;border-radius:4px 4px 0 0;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:2px}
+.wf .b.g{background:#d9b3c7;color:#4a1f35}
+
+/* who-holds diagrams */
+.hold{display:grid;grid-template-columns:auto 1fr 1fr;gap:2px 6px;font-size:9.4pt;align-items:center}
+.hold .hh{font-weight:700;color:var(--mute);font-size:7.8pt;text-transform:uppercase}
+.pill{display:inline-block;border-radius:9px;padding:0 6px;font-size:8pt;font-weight:700;border:1.4px solid var(--c);color:var(--c);background:#fff}
+.pill.s{background:var(--c);color:#fff}
+</style>
+</head>
+<body>
+
+<!-- ============ 1. BIG PICTURE ============ -->
+<section class="page exg" style="--c:var(--exg)">
+  <div class="hd"><span class="tag">Overview</span><h1>The whole map on one page</h1>
+    <div class="meta">Benke/Meissel, <i>Roman Law of Property</i>, 2nd ed. (2024)<br>for <b>Exegesis of Justinian's Digest</b> · Assessment I: <b>4 Nov 2026</b></div></div>
+  <p class="lead">Read left to right. <b>Possession is a fact, ownership is a right.</b> Possession leads to ownership (by <span class="L">traditio</span>, <span class="L">occupatio</span> or <span class="L">usucapio</span>). The law then protects both, and the owner can grant limited rights to others. Numbers ① – ⑪ are the page numbers in this PDF.</p>
+
+  <div class="map">
+    <div class="col">
+      <div class="box f exg"><h3>Foundations <span class="link">p. 6</span></h3>
+        <ul class="small"><li><b>Persons:</b> status (<span class="L">libertatis, civitatis, familiae</span>), capacity (<span class="L">infantes, pupilli, furiosi, prodigi</span>)</li>
+        <li><b>Things:</b> only <span class="L">res corporales</span> — <span class="mx">quae tangi possunt</span></li>
+        <li><b>Rights in rem:</b> absolute, against everyone (<span class="L">actiones in rem</span>) vs rights in personam</li></ul></div>
+      <div class="box exg"><h3>Numerus clausus</h3>
+        <table class="small" style="--c:var(--exg)"><tr><th>right</th><th>action</th></tr>
+        <tr><td><span class="L">dominium</span></td><td><span class="L">rei vindicatio</span></td></tr>
+        <tr><td><span class="L">servitutes</span></td><td><span class="L">vindicatio servitutis</span></td></tr>
+        <tr><td><span class="L">pignus</span></td><td><span class="L">vindicatio pignoris</span></td></tr>
+        <tr><td><span class="L">emphyteusis</span></td><td><span class="L">rei vindicatio utilis</span></td></tr>
+        <tr><td><span class="L">superficies</span></td><td><span class="L">actio de superficie</span></td></tr></table></div>
+    </div>
+    <div class="arr">➜</div>
+    <div class="col">
+      <div class="box f pos"><h3>POSSESSIO = fact <span class="link">pp. 3–6</span></h3>
+        <p><b><span class="L">animus</span> + <span class="L">corpus</span></b> → factual control with intent.</p>
+        <ul class="small"><li>proprietary possession vs <b>detention</b> (<span class="L">naturalis possessio</span>)</li>
+        <li><b><span class="L">iusta</span></b>: <span class="mx">nec vi nec clam nec precario</span> → <b>interdicts</b></li>
+        <li><b><span class="L">ex iusta causa</span></b> (civil) → leads to ownership</li>
+        <li>acquire · retain · lose; <span class="L">furtum</span></li></ul></div>
+      <div class="down" style="--c:var(--own)">⇣ <span class="small">possession + causa / time / ownerless thing</span></div>
+      <div class="box f own"><h3>DOMINIUM = right <span class="link">p. 7</span></h3>
+        <ul class="small"><li>use, fruits, dispose, exclude — limited by <span class="L">ius cogens</span></li>
+        <li><span class="mx">nihil commune habet proprietas cum possessione</span></li>
+        <li>quirite vs bonitarian; <span class="L">consortium</span> / <span class="L">condominium</span></li></ul></div>
+    </div>
+    <div class="arr">➜</div>
+    <div class="col">
+      <div class="box f own"><h3>Acquiring ownership <span class="link">p. 8</span></h3>
+        <p class="small"><b>Derivative</b> (from the former owner's right — <span class="mx">nemo plus iuris</span>):</p>
+        <ul class="small"><li><span class="L">mancipatio</span>, <span class="L">in iure cessio</span> (formal, abstract) <span class="link">p. 9</span></li>
+        <li><span class="L">traditio</span> (informal, causal) <span class="link">p. 9</span></li></ul>
+        <p class="small" style="margin-top:3px"><b>Original</b> (no former owner's help):</p>
+        <ul class="small"><li style="color:var(--usu)"><b><span class="L">usucapio</span></b> — cures failed transfers <span class="link" style="background:var(--usu)">p. 10</span></li>
+        <li style="color:var(--nat)"><b>natural modes</b>: <span class="L">occupatio</span>, fruits, <span class="L">accessio</span>, <span class="L">confusio/commixtio</span>, <span class="L">specificatio</span> <span class="link" style="background:var(--nat)">pp. 11–12</span></li></ul></div>
+      <div class="exq small"><h3>Exegesis toolkit</h3>Outline, the questions for every topic, and the concepts that connect the topics <span class="link" style="background:var(--exg)">pp. 18–20</span></div>
+    </div>
+    <div class="arr">➜</div>
+    <div class="col">
+      <div class="box f pro"><h3>Protection <span class="link" style="background:var(--pro)">pp. 13–14</span></h3>
+        <ul class="small"><li>possession → <b>interdicts</b> (temporary)</li>
+        <li>quirite owner → <b><span class="L">rei vindicatio</span></b></li>
+        <li>usucapient / bonitarian → <b><span class="L">actio publiciana</span></b></li>
+        <li>against interference → <b><span class="L">actio negatoria</span></b></li>
+        <li>defences: <span class="L">exceptiones</span> / <span class="L">replicationes</span></li></ul></div>
+      <div class="box f ser"><h3>Limited rights I: servitudes <span class="link" style="background:var(--ser)">p. 15</span></h3>
+        <ul class="small"><li>praedial (rural / urban) · personal (<span class="L">ususfructus</span>, <span class="L">usus</span>, <span class="L">habitatio</span>)</li>
+        <li><span class="L">emphyteusis</span>, <span class="L">superficies</span></li></ul></div>
+      <div class="box f pig"><h3>Limited rights II: pledge <span class="link" style="background:var(--pig)">pp. 16–17</span></h3>
+        <ul class="small"><li>security right in rem; <span class="L">conventio pignoris</span></li>
+        <li>enforcement by sale; rank: <span class="mx">prior tempore potior iure</span></li></ul></div>
+    </div>
+  </div>
+
+  <div style="margin-top:7px" class="g g21">
+    <div class="box exg"><h3>Your timeline (exegesis classes, Wednesdays)</h3>
+      <div class="tl">
+        <div class="st exg"><b>7 Oct</b>Sources &amp; method</div>
+        <div class="st pos"><b>14 Oct</b>Possession · pp. 3–6</div>
+        <div class="st own"><b>21 Oct</b>Traditio · pp. 7–9</div>
+        <div class="st nat"><b>28 Oct</b>Accessio · pp. 10–12</div>
+        <div class="st pro"><b>4 Nov</b>Assessment I · pp. 13–17 by 3 Nov</div>
+      </div></div>
+    <div class="box exg"><h3>Colour code</h3>
+      <div class="legend"><span class="pos">Possession</span><span class="own">Ownership &amp; transfer</span><span class="usu">Usucapio</span><span class="nat">Natural modes</span><span class="pro">Protection</span><span class="ser">Servitudes</span><span class="pig">Pledge</span><span class="exg">Exegesis</span></div>
+      <p class="small mute" style="margin-top:3px">Dashed boxes = classic Digest cases. <span class="mx">Italic</span> = Latin maxims. Pill (e.g. <span class="link" style="background:var(--usu)">p. 10</span>) = a connection to another page.</p></div>
+  </div>
+  <div class="foot"><span>Roman Law of Property — Visual Overview</span><span>1</span></div>
+</section>
+
+<!-- ============ 2. KEY DISTINCTIONS ============ -->
+<section class="page exg" style="--c:var(--exg)">
+  <div class="hd"><span class="tag">Overview</span><h1>The 10 distinctions everything rests on</h1><div class="meta">if you get these right,<br>most fragments become easy to classify</div></div>
+  <table style="--c:var(--exg)">
+    <tr><th style="width:21%">distinction</th><th style="width:31%">side A</th><th style="width:31%">side B</th><th>where it matters</th></tr>
+    <tr><td class="h">Possession vs ownership</td><td><b>Fact</b>: factual control + intent. The possessor <i>wants</i> the thing.</td><td><b>Right</b>: the owner is <i>entitled</i> to it. The thief possesses but never owns.</td><td>every fragment · interdicts vs <span class="L">rei vindicatio</span></td></tr>
+    <tr><td class="h">In rem vs in personam</td><td>Right over a thing, against everyone (<span class="L">actio in rem</span>)</td><td>Claim against one person, e.g. a buyer or debtor (<span class="L">actio in personam</span>)</td><td>a contract (<span class="L">emptio venditio</span>) alone transfers nothing</td></tr>
+    <tr><td class="h">Contract vs conveyance</td><td>Contract = obligation to transfer (<span class="L">titulus</span>)</td><td>Conveyance = the transfer itself (<span class="L">modus</span>): <span class="L">traditio</span>, <span class="L">mancipatio</span></td><td>intent to buy ≠ <span class="L">animus possidendi</span></td></tr>
+    <tr><td class="h">Proprietary possession vs detention</td><td><span class="L">animus rem sibi habendi</span> — for oneself</td><td><span class="L">naturalis possessio</span>: holding for another (tenant, depositary, borrower)</td><td>who has interdicts; <span class="L">brevi manu</span>, <span class="L">constitutum</span></td></tr>
+    <tr><td class="h"><span class="L">Iusta possessio</span> vs <span class="L">possessio ex iusta causa</span></td><td>Unflawed towards the opponent: <span class="mx">nec vi nec clam nec precario</span> → interdicts</td><td>Based on a valid title (sale, gift, dowry…) = civil possession → ownership / <span class="L">usucapio</span></td><td>relational test (<span class="L">alter ab altero</span>) vs title test</td></tr>
+    <tr><td class="h">Derivative vs original</td><td>From the former owner's right; limited by <span class="mx">nemo plus iuris</span></td><td>Without the former owner: <span class="L">usucapio</span>, <span class="L">occupatio</span>, <span class="L">accessio</span>, <span class="L">specificatio</span></td><td>does the acquirer take over encumbrances?</td></tr>
+    <tr><td class="h">Abstract vs causal</td><td><span class="L">mancipatio</span>, <span class="L">in iure cessio</span>: the cause does not matter</td><td><span class="L">traditio</span>: works only with a <span class="L">iusta causa</span> (§ 380 ABGB: <span class="L">titulus</span> + <span class="L">modus</span>)</td><td>Julian vs Ulpian on dissent about the causa</td></tr>
+    <tr><td class="h">Quirite vs bonitarian ownership</td><td><span class="L">dominium ex iure Quiritium</span> → <span class="L">rei vindicatio</span></td><td>Praetorian ownership, e.g. <span class="L">res mancipi</span> by mere <span class="L">traditio</span> → <span class="L">actio publiciana</span></td><td>vendor keeps only <span class="L">nudum ius Quiritium</span></td></tr>
+    <tr><td class="h"><span class="L">Ius civile</span> vs <span class="L">ius honorarium</span></td><td>Old stratum: custom, <span class="L">leges</span>, juristic <span class="L">interpretatio</span></td><td>The praetor's law that adapts it: interdicts, <span class="L">actio publiciana</span>, <span class="L">exceptiones</span></td><td>why there are two "owners" and two layers of remedies</td></tr>
+    <tr><td class="h"><span class="L">Res mancipi</span> vs <span class="L">nec mancipi</span></td><td>Italian land and buildings, certain praedial servitudes, slaves, draft and pack animals</td><td>Everything else (also provincial land)</td><td><span class="L">traditio</span> of a <span class="L">res mancipi</span> → only bonitarian ownership</td></tr>
+  </table>
+  <div class="g g3" style="margin-top:6px">
+    <div class="box f exg"><h3>Who is who in the textbook examples</h3><p class="small">Clara owner · Hector thief · Leander bona fide buyer · Midas depositary · Rusticus landowner · Lea lessee. The same names come back across chapters, so link the cases in your head.</p></div>
+    <div class="box f exg"><h3><span class="L">Ius controversum</span></h3><p class="small">Jurists often disagree on the same case (Trebatius vs Labeo, Sabinians vs Proculians, Julian vs Ulpian). In an exegesis, <b>naming the opposing opinion</b> and the interests behind each view earns points.</p></div>
+    <div class="box f exg"><h3>Persons in power</h3><p class="small">Slaves and children in <span class="L">patria potestas</span> own nothing themselves but <b>acquire for the <span class="L">dominus</span> / <span class="L">pater familias</span></b>, through an order (<span class="L">iussum</span>) or a <span class="L">peculium</span>.</p></div>
+  </div>
+  <div class="foot"><span>Roman Law of Property — Visual Overview</span><span>2</span></div>
+</section>
+
+<!-- ============ 3. FOUNDATIONS + POSSESSION CONCEPT ============ -->
+<section class="page pos" style="--c:var(--pos)">
+  <div class="hd"><span class="tag">Ch. I–II · 14 Oct</span><h1>Possession I — concept and types</h1><div class="meta">book pp. 1–24<br>class: <b>Property; possession</b></div></div>
+  <div class="g g23">
+    <div class="col">
+      <div class="box f"><h3>The formula</h3>
+        <div class="flow">
+          <div class="box" style="text-align:center"><b><span class="L">animus possidendi</span></b><br><span class="small">intent to control</span></div>
+          <div class="arr">+</div>
+          <div class="box" style="text-align:center"><b><span class="L">corpus</span></b><br><span class="small">control: the thing is within your sphere</span></div>
+          <div class="arr">=</div>
+          <div class="box" style="text-align:center;border-width:2px"><b>POSSESSIO</b><br><span class="small">a fact, not a right</span></div>
+        </div>
+        <ul class="small" style="margin-top:4px"><li><span class="L">corpus</span> needs <b>no touching</b>: <span class="mx">oculis et affectu</span> suffices (D 41.2.1.21). But it is <b>never purely symbolic</b>.</li>
+        <li>Correct Latin: possession is acquired <span class="mx">animo et corpore</span>.</li>
+        <li>Why it matters: the possessor is stronger in a dispute (the other side must prove its right), and possession is the basis of ownership.</li></ul>
+      </div>
+      <div class="box"><h3>Types of holding — the tree</h3>
+        <div class="tree">
+          <div class="node">factual control of a thing</div>
+          <div class="kids">
+            <div class="box f"><b>Proprietary possession</b><br><span class="small"><span class="L">animus rem sibi habendi</span> (for oneself). Owner, thief, bona fide buyer.</span></div>
+            <div class="box f"><b>Detention</b> = <span class="L">naturalis possessio</span><br><span class="small"><span class="L">animus rem alteri habendi</span> (for another). Tenant, lessee, depositary, precarist. A holder <span class="L">sui iuris</span>.</span></div>
+            <div class="box f"><b>Possessor's agent</b><br><span class="small">a person <span class="L">alieni iuris</span> (slave Achilles taking sheep to market) = the master's "extended arm".</span></div>
+          </div>
+        </div>
+        <div class="g g2" style="margin-top:5px">
+          <div class="box small"><b>Immediate</b>: control yourself or through persons in your power.<br><b>Mediate</b>: through a detentor <span class="L">sui iuris</span>.</div>
+          <div class="case"><b>Clara → Midas → Hector:</b> Clara deposits her vase with Midas = Clara mediate possessor, Midas detentor. Hector steals it → both lose it, <b>Hector becomes possessor</b> (never owner).</div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3>Two qualities of possession</h3>
+        <div class="g g2">
+          <div class="box"><h4 style="color:var(--pos)"><span class="L">iusta possessio</span></h4><p class="small">Unflawed towards the opponent: <span class="mx">nec vi nec clam nec precario</span>. Judged only <b>relationally</b> (<span class="L">alter ab altero</span>).</p><p class="small"><b>→ interdict protection</b></p></div>
+          <div class="box"><h4 style="color:var(--own)"><span class="L">possessio ex iusta causa</span></h4><p class="small">Civil possession: based on a valid title (sale, gift, loan, dowry).</p><p class="small"><b>→ ownership</b> (authorised transferor) or <b><span class="L">usucapio</span></b> (unauthorised) <span class="link" style="background:var(--usu)">p. 10</span></p></div>
+        </div>
+        <p class="small" style="margin-top:3px">Leander (bona fide buyer) has both qualities. Hector (thief) has neither towards Clara, but he <b>is protected against a robber</b> who robs him.</p>
+      </div>
+      <div class="box"><h3>Possessory interdicts</h3>
+        <ul class="small"><li>Praetorian orders that stop dispossession and escalating conflict; protection is only <b>temporary</b>. The right itself needs an <span class="L">actio in rem</span>.</li>
+        <li><b>Prohibitory</b>: <span class="mx">vim fieri veto</span> · <b>restitutory</b>: <span class="mx">restituas</span></li>
+        <li><span class="L">exceptio vitiosae possessionis</span>: no protection for someone who got the thing <span class="L">vi, clam, precario</span> from the opponent.</li>
+        <li><span class="mx">vim vi repellere licet</span>: a rare case of permitted self-help.</li>
+        <li>Some detentors are protected too: emphyteuta, precarist, pledgee, sequester.</li></ul></div>
+      <div class="box f"><h3>Excursus: <span class="L">furtum</span></h3>
+        <ul class="small"><li>Taking another's <b>movable</b> with intent to enrich oneself (includes embezzlement and keeping found property). <b>No theft of land.</b></li>
+        <li>Intent alone is not enough: an external act is needed (the depositary steals only once he hides the thing).</li>
+        <li>The thief <b>is</b> a possessor (original acquisition), but has no civil possession and no ownership; <span class="L">res furtivae</span> cannot be usucapted (<span class="L">lex Atinia</span>) <span class="link" style="background:var(--usu)">p. 10</span></li>
+        <li><span class="L">actio furti</span> (penalty ×4 / ×2) <b>+</b> <span class="L">condictio furtiva</span> (thing or value). The <span class="L">condictio furtiva</span> and the <span class="L">rei vindicatio</span> cannot be combined: choose one.</li></ul></div>
+    </div>
+  </div>
+  <div class="foot"><span>Possession I</span><span>3</span></div>
+</section>
+
+<!-- ============ 4. ACQUISITION OF POSSESSION ============ -->
+<section class="page pos" style="--c:var(--pos)">
+  <div class="hd"><span class="tag">Ch. III · 14 Oct</span><h1>Possession II — how possession is acquired</h1><div class="meta">book pp. 25–54<br>stricter for acquiring than for retaining</div></div>
+  <div class="g g3">
+    <div class="box f"><h3>Who can acquire?</h3><ul class="small"><li>Persons <span class="L">sui iuris</span> with enough understanding; <b><span class="L">furiosi</span> cannot</b>.</li><li><span class="L">pupillus</span>: yes, once he has <span class="L">intellectus</span> (Paulus D 41.2.1.3)</li><li>Persons in power acquire only <b>for the <span class="L">dominus</span></b>.</li></ul></div>
+    <div class="box f"><h3>Original vs derivative</h3><ul class="small"><li><b>Original</b>: by your own act (<span class="L">occupatio</span> of a <span class="L">res nullius</span>, theft).</li><li><b>Derivative</b>: handed over (<span class="L">traditio</span>).</li><li><b>Derivative needs less <span class="L">corpus</span></b> than original.</li></ul></div>
+    <div class="box f"><h3>How much <span class="L">corpus</span>? Three factors</h3><ul class="small"><li>the mode of acquisition (original is stricter)</li><li>the type of thing (land is easier than movables; small handy things are easy)</li><li>the social environment (high risk from third parties → a clearly visible act is needed)</li></ul></div>
+  </div>
+  <div class="box" style="margin-top:6px"><h3>The <span class="L">corpus</span> spectrum — from strict to lenient (the classic cases on one line)</h3>
+    <div class="spec"><span class="lab" style="left:0">STRICT: real capture needed</span><span class="lab" style="right:0">LENIENT: agreement + the possibility of control</span><div class="bar"></div>
+      <div class="pts">
+        <div class="pt"><b>Wounded wild animal</b> · Gaius D 41.1.5.1<br>only once captured: <span class="mx">multa accidere possunt</span>. Trebatius: as long as you pursue it.</div>
+        <div class="pt"><b>Trapped boar</b> · Proculus D 41.1.55<br>possession once <span class="mx">in meam potestatem pervenit</span></div>
+        <div class="pt"><b>Land</b> · Paulus D 41.2.3.1<br>no need to walk the boundary; <b>setting foot</b> on it with intent is enough</div>
+        <div class="pt"><b><span class="mx">Oculis et affectu</span></b> · D 41.2.1.21<br>agreement in the presence of the goods; a heavy object; keys handed over <b>at</b> the cellar</div>
+        <div class="pt"><b><span class="mx">Quasi manu longa</span></b><br>money laid down before the creditor's eyes; goods placed in the buyer's house</div>
+        <div class="pt"><b><span class="L">Brevi manu</span> / <span class="L">constitutum</span></b><br>"<span class="L">solo animo</span>": only the intent changes, but <span class="L">corpus</span> is already there</div>
+      </div></div>
+  </div>
+  <div class="g g3" style="margin-top:6px">
+    <div class="box"><h3>Tradition surrogates (change without handover)</h3>
+      <div class="hold" style="--c:var(--pos)">
+        <span class="hh"></span><span class="hh">before</span><span class="hh">after</span>
+        <b class="small"><span class="L">Traditio brevi manu</span></b><span><span class="pill">A possessor</span> <span class="pill">B detentor</span></span><span><span class="pill s">B possessor</span></span>
+        <b class="small"><span class="L">Constitutum possessorium</span></b><span><span class="pill s">A possessor</span></span><span><span class="pill s">B mediate possessor</span> <span class="pill">A detentor</span></span>
+      </div>
+      <p class="small" style="margin-top:3px">Brevi manu: a borrower or lessee buys the thing (Gaius D 41.1.9.5). Constitutum: a woman gives away land and leases it back (Ulpian D 6.1.77). They mirror each other.</p></div>
+    <div class="box"><h3>Wine barrel case · Ulpian D 18.6.1.2</h3>
+      <div class="case"><b>Buyer seals barrels in the seller's cellar.</b> Labeo/Ulpian: <span class="no">no possession</span>, because sealing only prevents swapping and shows no <span class="L">animus possidendi</span>. Trebatius: <span class="yes">yes</span>. Contrast: <b>marking timber</b> does give possession.</div>
+      <p class="small"><b>Lesson:</b> intent to buy ≠ intent to possess. Contract ≠ conveyance <span class="link" style="background:var(--own)">p. 9</span>. Also a textbook example of <span class="L">ius controversum</span>.</p></div>
+    <div class="box"><h3>Acquiring through others</h3>
+      <ul class="small"><li><b>Persons in power</b> (<span class="L">alieni iuris</span>): <span class="mx">animo nostro, corpore alieno</span> (Paulus D 41.2.3.12). The master's <span class="L">animus</span> comes from an order (<span class="L">iussum</span>) or a <span class="L">peculium</span>; later approval (<span class="L">ratihabitio</span>) also works.</li>
+      <li><b>Persons <span class="L">sui iuris</span></b>: classical law has only <b>indirect</b> agency (the agent acquires, then hands over). Exceptions: <span class="L">procurator</span>, <span class="L">tutor</span>, <span class="L">curator</span>. Justinian later allows direct agency in general.</li>
+      <li><span class="mx">nemo sibi ipse causam possessionis mutare potest</span>: you cannot change your own title by yourself. Surrogates are fine because both parties agree.</li></ul></div>
+  </div>
+  <div class="foot"><span>Possession II</span><span>4</span></div>
+</section>
+
+<!-- ============ 5. RETAINING / LOSING ============ -->
+<section class="page pos" style="--c:var(--pos)">
+  <div class="hd"><span class="tag">Ch. IV · 14 Oct</span><h1>Possession III — retaining and losing possession</h1><div class="meta">book pp. 55–67<br>tendency: <b>keep existing possession</b></div></div>
+  <div class="g g32">
+    <div class="box"><h3>Decision tree: is possession still there?</h3>
+      <div class="tree">
+        <div class="node">Has the possessor given up his <span class="L">animus</span>? → if yes: possession ends. If no:</div>
+        <div class="kids">
+          <div class="box f"><b>Movable</b><br><span class="small">Test = <b><span class="L">custodia</span></b>: can he lay hands on it at any time?</span>
+            <ul class="small" style="margin-top:3px"><li>mislaid in your own house → <span class="yes">kept</span> (D 41.2.3.13)</li><li>lost outside your sphere → <span class="no">lost</span> (D 41.2.25 pr)</li><li>forgotten buried money → kept while nobody interferes</li></ul></div>
+          <div class="box f"><b>Fugitive slave</b> (<span class="L">servus fugitivus</span>)<br><span class="small">Exception: the master keeps possession <b><span class="L">solo animo</span></b> until a third party takes the slave; he even keeps usucapting. Things the slave takes along and acquires go to the master too.</span></div>
+          <div class="box f"><b>Land</b><br><span class="small">Can be kept <span class="L">solo animo</span> (at first only seasonal pastures; Proculus: all land), but only <b>with a view to returning</b>.</span>
+            <ul class="small" style="margin-top:3px"><li>through detentors: kept even if they die or leave; <span class="no">lost at once</span> if they are driven out by force (D 41.2.44.2)</li></ul></div>
+        </div>
+      </div>
+      <div class="g g2" style="margin-top:6px">
+        <div class="case"><b>Stones in the Tiber · Ulpian D 41.2.13 pr</b> — stones sink in a shipwreck and are later recovered. <span class="no">Possession lost</span> (no control at all), <span class="yes">ownership kept</span>. Shows the <span class="L">custodia</span> test. Contrast the <span class="L">servus fugitivus</span>. <i>(model exegesis for 14 Oct)</i></div>
+        <div class="case"><b>Going to market · Ulpian (Labeo) D 41.2.6.1</b> — B leaves his estate empty, A occupies it. Ulpian (prevailing view): B loses possession <b>only if he cannot drive A out</b> when he returns. Labeo: A possesses as soon as he enters.</div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3>Possession lost ≠ ownership lost</h3>
+        <ul class="small"><li>Goods thrown overboard in an emergency: possession <span class="no">lost</span>, ownership <span class="yes">kept</span>. In doubt, there is no dereliction.</li>
+        <li>A finder who keeps obvious lost property commits <span class="L">furtum</span>.</li>
+        <li>Exception: a <b>wild animal that regains its freedom</b> → ownership ends too <span class="link" style="background:var(--nat)">p. 11</span></li></ul></div>
+      <div class="box"><h3>The intruder rule</h3><p class="small">A occupies B's land intending to possess. A acquires <b>only if B does not try to regain it, or fails</b>. If B regains control, B was the possessor all along. Afterwards B has: interdicts <span class="L">uti possidetis</span> / <span class="L">unde vi</span>, the <span class="L">actio publiciana</span> and the <span class="L">rei vindicatio</span> <span class="link" style="background:var(--pro)">p. 13</span></p></div>
+      <div class="box"><h3>Other rules worth one sentence</h3><ul class="small"><li>A change counts only if it is likely to be permanent (Iavolenus D 41.2.22).</li><li><span class="L">pupilli</span> and <span class="L">furiosi</span> cannot give up possession by intent alone, without tutor or curator.</li><li>A detentor's mental illness, or a sublease, has no effect.</li></ul></div>
+      <div class="exq"><h3>Exegesis: possession fragments — ask</h3><ul class="small">
+        <li>Who has <b>which kind</b> of holding: proprietary possession, detention, possessor's agent? Immediate or mediate?</li>
+        <li><span class="L">animus</span> and <span class="L">corpus</span> present at the decisive moment? Original or derivative? Capacity?</li>
+        <li>Which <span class="L">corpus</span> factors: type of thing, <span class="mx">oculis et affectu</span>, keys, surroundings? A surrogate? Acquisition through others?</li>
+        <li>Retention: <span class="L">custodia</span>, movable or land, <span class="L">servus fugitivus</span>, intruder, expulsion by force?</li>
+        <li><span class="L">iusta</span> towards the opponent? Civil? Which interdict?</li></ul></div>
+    </div>
+  </div>
+  <div class="foot"><span>Possession III</span><span>5</span></div>
+</section>
+
+<!-- ============ 6. POSSESSION ONE-PAGE SUMMARY ============ -->
+<section class="page pos" style="--c:var(--pos)">
+  <div class="hd"><span class="tag">Recap · 14 Oct</span><h1>Possession on one page — the cases and the maxims</h1><div class="meta">use this the evening before class</div></div>
+  <div class="g g2">
+    <div class="box"><h3>The cases at a glance</h3>
+      <table style="--c:var(--pos)"><tr><th>fragment</th><th>facts</th><th>result</th><th>principle</th></tr>
+        <tr><td class="h">D 41.2.3.1</td><td>Buying land</td><td>setting foot is enough</td><td>leniency for land</td></tr>
+        <tr><td class="h">D 41.2.1.21</td><td>Buyer's agent, coins, heavy object, keys</td><td>possession without touching</td><td><span class="mx">oculis et affectu</span></td></tr>
+        <tr><td class="h">D 18.6.1.2</td><td>Sealed wine barrel</td><td><span class="no">no</span> (Labeo/Ulpian) · <span class="yes">yes</span> (Trebatius)</td><td>intent to possess</td></tr>
+        <tr><td class="h">D 41.1.5.1</td><td>Wounded wild animal</td><td>only once captured</td><td>strict <span class="L">corpus</span> for <span class="L">occupatio</span></td></tr>
+        <tr><td class="h">D 41.1.55</td><td>Boar in a trap</td><td>possession if under my control</td><td><span class="mx">in potestatem pervenit</span></td></tr>
+        <tr><td class="h">D 41.1.9.5</td><td>Borrower buys the thing</td><td>possessor without handover</td><td><span class="L">brevi manu</span></td></tr>
+        <tr><td class="h">D 6.1.77</td><td>Gift of land, leased back</td><td>donee possesses through donor</td><td><span class="L">constitutum possessorium</span></td></tr>
+        <tr><td class="h">D 41.2.3.12</td><td>Acquiring through a slave</td><td>master's intent, slave's body</td><td><span class="mx">animo nostro, corpore alieno</span></td></tr>
+        <tr><td class="h">D 41.1.20.2</td><td>Titius takes delivery for co-buyer</td><td>accepted <span class="L">quasi procurator</span></td><td>reasoning by analogy</td></tr>
+        <tr><td class="h">D 41.2.13 pr</td><td>Stones sunk in the Tiber</td><td>possession lost, ownership kept</td><td><span class="L">custodia</span></td></tr>
+        <tr><td class="h">D 41.2.6.1</td><td>Owner at the market, intruder</td><td>lost only if he cannot drive him out</td><td>land kept <span class="L">solo animo</span></td></tr>
+        <tr><td class="h">D 41.2.1.14</td><td>Fugitive slave</td><td>master keeps possessing</td><td><span class="L">solo animo</span> exception</td></tr>
+      </table></div>
+    <div class="col">
+      <div class="box f"><h3>Maxims to quote</h3>
+        <ul><li><span class="mx">nec vi nec clam nec precario</span> — unflawed possession</li>
+        <li><span class="mx">vim vi repellere licet</span> — force may be met with force</li>
+        <li><span class="mx">nemo sibi ipse causam possessionis mutare potest</span> — no self-made title (§ 319 ABGB)</li>
+        <li><span class="mx">animo nostro, corpore alieno</span> — through persons in power</li>
+        <li><span class="mx">nihil commune habet proprietas cum possessione</span> — D 41.2.12.1 (true in principle, but exaggerated)</li>
+        <li><span class="mx">nasciturus pro iam nato habetur…</span> — the unborn child, when it is to its advantage</li></ul></div>
+      <div class="box"><h3>Persons and capacity (Ch. I) in 30 seconds</h3>
+        <table style="--c:var(--pos)"><tr><th>group</th><th>capacity</th></tr>
+          <tr><td><span class="L">infantes</span> (&lt; 7)</td><td>none</td></tr>
+          <tr><td><span class="L">pupilli</span> (boys 7–14, girls 7–12)</td><td>limited: need <span class="L">auctoritas tutoris</span>. A <span class="L">negotium claudicans</span> binds only the side that favours them.</td></tr>
+          <tr><td>minors under 25</td><td>full, but protected (<span class="L">lex Laetoria</span>, <span class="L">restitutio in integrum</span>)</td></tr>
+          <tr><td>women <span class="L">sui iuris</span></td><td><span class="L">tutor mulieris</span> for formal acts (a formality by classical times)</td></tr>
+          <tr><td><span class="L">furiosi</span> · <span class="L">prodigi</span></td><td>none (<span class="L">curator</span>) · barred by the praetor (<span class="L">interdictio</span>)</td></tr></table>
+        <p class="small" style="margin-top:3px"><b>Legal personality</b> = can hold rights. <b>Capacity</b> = can change them by one's own acts. Corporations (<span class="L">universitates</span>) are separate entities: <span class="mx">si quid universitati debetur, singulis non debetur</span>.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Possession recap</span><span>6</span></div>
+</section>
+
+<!-- ============ 7. OWNERSHIP ============ -->
+<section class="page own" style="--c:var(--own)">
+  <div class="hd"><span class="tag">Ch. V · 21 Oct</span><h1>Ownership — <span class="L">dominium</span></h1><div class="meta">book pp. 68–76<br>the full right in rem</div></div>
+  <div class="g g3">
+    <div class="col">
+      <div class="box f"><h3>What the owner may do</h3><ul class="small"><li>use the thing, exclude everyone else, take all fruits</li><li>change or destroy it; grant limited rights (pledge, servitude)</li><li>alienate it, authorise others to dispose, abandon it (dereliction → <span class="L">res derelicta</span>), free slaves (<span class="L">manumissio</span>)</li></ul></div>
+      <div class="box"><h3>Limits</h3><ul class="small"><li><b><span class="L">ius cogens</span></b>: mandatory law, e.g. no gifts between spouses; Augustus' 70-foot building height limit</li><li><b><span class="L">cautio damni infecti</span></b>: security a neighbour can demand when a crumbling building threatens his</li><li>neighbour restrictions = "legal servitudes" <span class="link" style="background:var(--ser)">p. 15</span></li></ul></div>
+      <div class="box f"><h3>Fruits (first look)</h3><p class="small">Periodic yields from normal use. <b><span class="L">fructus naturales</span></b> (milk, wool, crops) and <b><span class="L">fructus civiles</span></b> (rent). They belong to the owner in principle. Who acquires them, and when <span class="link" style="background:var(--nat)">p. 11</span></p></div>
+    </div>
+    <div class="col">
+      <div class="box"><h3>The ladder of rights</h3>
+        <div style="display:flex;flex-direction:column;gap:3px;align-items:center;margin-top:2px">
+          <div class="box f" style="width:55%;text-align:center"><b><span class="L">dominium</span></b><br><span class="small">full right · <span class="L">rei vindicatio</span></span></div>
+          <div class="box f" style="width:75%;text-align:center"><b><span class="L">iura in re aliena</span></b> (limited rights in another's thing)<br><span class="small">servitude · usufruct · pledge · <span class="L">emphyteusis</span> · <span class="L">superficies</span></span></div>
+          <div class="box" style="width:95%;text-align:center;border-left-color:var(--pos)"><b><span class="L">possessio</span></b> (no right at all, a fact)<br><span class="small">interdicts only · but it can grow into ownership</span></div>
+        </div>
+        <p class="small" style="margin-top:4px">Interdicts protect possession <b>temporarily</b>. The <span class="L">rei vindicatio</span> decides ownership <b>for good</b>.</p></div>
+      <div class="box"><h3>Two kinds of ownership</h3>
+        <table style="--c:var(--own)"><tr><th></th><th>quirite</th><th>bonitarian</th></tr>
+        <tr><td class="h">source</td><td><span class="L">ius civile</span></td><td>praetor (<span class="L">ius honorarium</span>)</td></tr>
+        <tr><td class="h">typical case</td><td><span class="L">mancipatio</span>, <span class="L">usucapio</span></td><td><span class="L">res mancipi</span> by mere <span class="L">traditio</span> with a causa</td></tr>
+        <tr><td class="h">action</td><td><span class="L">rei vindicatio</span></td><td><span class="L">actio publiciana</span></td></tr>
+        <tr><td class="h">becomes quirite</td><td>—</td><td>after 1 year (movables) / 2 years (land)</td></tr></table></div>
+    </div>
+    <div class="col">
+      <div class="box"><h3>Joint ownership</h3>
+        <div class="g g2">
+          <div class="box f"><b><span class="L">consortium ercto non cito</span></b><p class="small">The old community of heirs after the <span class="L">pater familias</span> dies. Property <b>undivided, no shares</b>; one member can alienate for all. Ended by the <span class="L">actio familiae erciscundae</span>.</p></div>
+          <div class="box f"><b><span class="L">condominium</span></b><p class="small">Classical form (<span class="L">communio pro indiviso</span>). Each owner has an <b>ideal share (quota)</b> and may dispose of it freely; disposing of the whole needs everyone.</p></div>
+        </div>
+        <div class="case"><b>Leo + Irene co-own slave Pamphilus.</b> Leo mancipates him to Crassus → Crassus gets <b>only Leo's half</b>. He can free Pamphilus only with Irene's consent or after buying her half.</div>
+        <p class="small">End: <span class="L">actio communi dividundo</span> → divide in kind, or one co-owner takes all and pays the others, or sell and split the proceeds.</p></div>
+      <div class="exq"><h3>Exegesis: ownership fragments — ask</h3><ul class="small"><li>Is the issue <b>ownership or mere possession</b>?</li><li>Full ownership or a limited right? Quirite or bonitarian?</li><li>Which power is exercised; does <span class="L">ius cogens</span> limit it?</li><li>Joint owners? Remedy: <span class="L">rei vindicatio</span> or interdict?</li></ul></div>
+    </div>
+  </div>
+  <div class="foot"><span>Ownership</span><span>7</span></div>
+</section>
+
+<!-- ============ 8. ACQUISITION OVERVIEW ============ -->
+<section class="page own" style="--c:var(--own)">
+  <div class="hd"><span class="tag">Ch. VI · 21 Oct</span><h1>How ownership is acquired — the overview tree</h1><div class="meta">book pp. 77–81<br>three categories, two directions</div></div>
+  <div class="tree">
+    <div class="node" style="font-size:11pt">ACQUIRING OWNERSHIP</div>
+    <div class="kids">
+      <div class="box f own"><h3>① By conveyance → <b>derivative</b></h3>
+        <p class="small">The owner (or an authorised person) transfers; the acquirer <b>steps into the owner's position</b>.</p>
+        <ul class="small"><li><span class="L">mancipatio</span>: formal, abstract, <span class="L">res mancipi</span></li><li><span class="L">in iure cessio</span>: formal, abstract, any thing</li><li><span class="L">traditio</span>: informal, <b>causal</b></li></ul>
+        <p class="small" style="margin-top:3px"><span class="mx">nemo plus iuris transferre potest quam ipse habet</span> (Ulpian D 41.1.20 pr): encumbrances pass on (a usufruct stays); a non-owner transfers nothing.</p>
+        <p class="small"><span class="link">p. 9</span></p></div>
+      <div class="box f usu" style="--c:var(--usu);--cl:var(--usu-l)"><h3>② By <span class="L">usucapio</span> → <b>original</b></h3>
+        <p class="small">Qualified possession held for the time set by law. <b>Cures transfers that failed:</b></p>
+        <ul class="small"><li>form defect (<span class="L">res mancipi</span> only handed over)</li><li>transferor not owner, lacks capacity, or no valid causa</li><li>dormant inheritance (<span class="L">usucapio pro herede</span>)</li></ul>
+        <p class="small" style="margin-top:3px">The former owner loses his right <b>with no claim to compensation</b>.</p>
+        <p class="small"><span class="link" style="background:var(--usu)">p. 10</span></p></div>
+      <div class="box f nat" style="--c:var(--nat);--cl:var(--nat-l)"><h3>③ "Natural" modes → <b>original</b></h3>
+        <p class="small">Gaius bases them on <span class="L">naturalis ratio</span> (natural reason):</p>
+        <ul class="small"><li><span class="L">occupatio</span>: take a <span class="L">res nullius</span> (wild boar killed → owner)</li><li><b>fruits</b>: the owner of the mother thing, with four exceptions</li><li><span class="L">accessio</span>: inseparable connection → owner of the main thing</li><li><span class="L">confusio/commixtio</span>: <b>nothing changes</b>, each keeps his share</li><li><span class="L">specificatio</span>: a new thing → Sabinians vs Proculians → <span class="L">media sententia</span></li></ul>
+        <p class="small"><span class="link" style="background:var(--nat)">pp. 11–12</span></p></div>
+    </div>
+  </div>
+  <div class="g g3" style="margin-top:8px">
+    <div class="box"><h3>Why the distinction matters</h3><ul class="small"><li><b>Derivative</b>: you get only what the transferor had → check his right first.</li><li><b>Original</b>: a new right arises; the old one dies. The former owner is left with claims in personam (compensation, <span class="L">condictio</span>).</li></ul></div>
+    <div class="box"><h3>How the three link up</h3><p class="small">A <span class="L">traditio</span> by a <b>non-owner</b> fails as a derivative transfer → the buyer gets <b>civil possession</b> → after 1 or 2 years, <span class="L">usucapio</span> makes him owner → meanwhile the <span class="L">actio publiciana</span> protects him <span class="link" style="background:var(--pro)">p. 14</span></p></div>
+    <div class="box"><h3>Two Latin anchors</h3><ul class="small"><li><span class="mx">nemo plus iuris…</span> → derivative limit</li><li><span class="mx">per traditionem quoque iure naturali res nobis adquiruntur</span> (Inst 2.1.40) → under Justinian <span class="L">traditio</span> works for every thing</li></ul></div>
+  </div>
+  <div class="foot"><span>Acquisition overview</span><span>8</span></div>
+</section>
+
+<!-- ============ 9. TRANSFER ============ -->
+<section class="page own" style="--c:var(--own)">
+  <div class="hd"><span class="tag">Ch. VII · 21 Oct</span><h1>Transfer — <span class="L">mancipatio</span>, <span class="L">in iure cessio</span>, <span class="L">traditio</span></h1><div class="meta">book pp. 82–98<br>class: <b>acquisition through traditio</b></div></div>
+  <div class="g g2">
+    <div class="col">
+      <table style="--c:var(--own)"><tr><th></th><th><span class="L">mancipatio</span></th><th><span class="L">in iure cessio</span></th><th><span class="L">traditio</span></th></tr>
+        <tr><td class="h">form</td><td>8 people: parties, scale-holder, 5 witnesses; bronze and scales; formula</td><td>staged ownership trial before the praetor; the transferor stays silent → <span class="L">addictio</span></td><td>informal handover of possession</td></tr>
+        <tr><td class="h">things</td><td><span class="L">res mancipi</span></td><td>all</td><td><span class="L">res nec mancipi</span> (a <span class="L">res mancipi</span> → bonitarian only)</td></tr>
+        <tr><td class="h">who</td><td>citizens</td><td>citizens</td><td>also non-citizens</td></tr>
+        <tr><td class="h">causa?</td><td colspan="2">abstract: no causa needed; if the causa is missing → <span class="L">condictio</span></td><td><b>causal</b>: <span class="L">iusta causa</span> needed</td></tr>
+        <tr><td class="h">nature</td><td colspan="3" style="text-align:center">all three are <b>derivative</b> → <span class="mx">nemo plus iuris</span></td></tr></table>
+      <div class="box f" style="margin-top:6px"><h3>The <span class="L">mancipatio</span> formula</h3><p class="small"><span class="mx">Hunc ego hominem ex iure Quiritium meum esse aio isque mihi emptus esto hoc aere aeneaque libra</span> — the buyer grasps the slave, strikes the scales with a coin; the seller is silent.</p></div>
+      <div class="box"><h3>The causa dispute — Julian vs Ulpian</h3>
+        <div class="g g2">
+          <div class="case"><b>Julian D 41.1.36</b><br>(1) A gives land thinking he owes it under a will, B thinks under a stipulation → <span class="yes">owner</span>.<br>(2) C gives money <b>as a gift</b>, D takes it <b>as a loan</b> → <span class="yes">owner</span>: both want ownership to pass.</div>
+          <div class="case"><b>Ulpian D 12.1.18 pr</b><br>Same facts (gift vs loan) → <span class="no">no derivative acquisition</span>, because there is no agreed causa. D becomes owner only by <b>spending or mixing</b> the coins (original). Before that C can vindicate, afterwards <span class="L">condictio</span>; but <span class="L">exceptio doli</span>, since C wanted to give.</div>
+        </div>
+        <p class="small" style="margin-top:3px">Julian's view → the <b>abstract</b> model of § 929 BGB.</p></div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3><span class="L">Traditio</span> — the three gates (all must be passed)</h3>
+        <div class="gates" style="margin-top:9px">
+          <div class="gate"><span class="n">1</span><h4>Authority</h4><p class="small">Owner, or someone authorised to dispose. Otherwise <span class="mx">nemo plus iuris</span> → only possession → <span class="L">usucapio</span>.</p></div>
+          <div class="gate"><span class="n">2</span><h4>Possession passes</h4><p class="small">Physically, <span class="L">brevi manu</span>, <span class="L">constitutum possessorium</span>, <span class="mx">oculis et affectu</span>. No symbolic transfer <span class="link">p. 4</span></p></div>
+          <div class="gate"><span class="n">3</span><h4><span class="L">iusta causa</span></h4><p class="small">A ground the law recognises (<span class="L">titulus</span>): sale, loan for consumption (<span class="L">mutuum</span>), gift (<span class="L">donatio</span>), dowry.</p></div>
+        </div>
+        <p class="small" style="margin-top:4px">Pass all three → <b>owner</b> (for a <span class="L">res mancipi</span>: bonitarian). Fail gate 1 → <b>usucapient</b>. Fail gate 3 → possibly the <span class="L">condictio</span>.</p></div>
+      <div class="case"><b>Iavolenus D 39.5.25</b> — T is told to give E's thing to Titius <b>in E's name</b>, but gives it in his own name. Titius is <span class="no">not owner</span> (gate 1 fails), but keeps the thing: <span class="mx">benignius est</span> → <span class="L">exceptio doli</span> against E's <span class="L">rei vindicatio</span>. Related maxim: <span class="mx">venire contra factum proprium</span>.</div>
+      <div class="box"><h3>Modern echoes of the Roman positions</h3>
+        <table style="--c:var(--own)"><tr><th>system</th><th>model</th><th>Roman root</th></tr>
+        <tr><td>Code civil</td><td>contract alone transfers (consensus)</td><td>Inst 2.1.40 read through Grotius</td></tr>
+        <tr><td>BGB § 929</td><td>abstract: delivery + real agreement</td><td>Julian D 41.1.36</td></tr>
+        <tr><td>ABGB §§ 380, 425</td><td>causal: <span class="L">titulus</span> + <span class="L">modus</span></td><td>classical <span class="L">traditio</span></td></tr></table></div>
+      <div class="exq"><h3>Exegesis: <span class="L">traditio</span> fragments — ask</h3><ul class="small"><li>Gate 1: owner, agent, or someone exceeding his authority?</li><li>Gate 2: how was possession transferred? Is it a <span class="L">res mancipi</span>?</li><li>Gate 3: agreement on the causa (Julian vs Ulpian)?</li><li>Fallbacks: original acquisition, <span class="L">condictio</span>, <span class="L">exceptio doli</span>, <span class="L">usucapio</span>.</li></ul></div>
+    </div>
+  </div>
+  <div class="foot"><span>Transfer of ownership</span><span>9</span></div>
+</section>
+
+<!-- ============ 10. USUCAPIO ============ -->
+<section class="page usu" style="--c:var(--usu)">
+  <div class="hd"><span class="tag">Ch. VIII · 28 Oct</span><h1><span class="L">Usucapio</span> — ownership through time</h1><div class="meta">book pp. 99–125<br>original acquisition of civil ownership</div></div>
+  <div class="g g3">
+    <div class="box f"><h3>Why it exists</h3><ul class="small"><li>stops possession and ownership drifting apart for ever</li><li>rewards the good-faith possessor once the time is up</li><li>original: the former owner loses his right</li></ul></div>
+    <div class="box f"><h3>What it cures</h3><ul class="small"><li><b>form defect</b>: a <span class="L">res mancipi</span> only handed over → bonitarian owner → quirite after the time</li><li><b>defect in the transferor</b>: (a) no ownership or authority (<span class="mx">nemo plus iuris</span>), (b) no capacity (<span class="L">pupillus</span>, <span class="L">furiosus</span>, <span class="L">prodigus</span>), (c) no valid causa</li></ul></div>
+    <div class="box f"><h3>Bonitarian owner ≠ every usucapient</h3><p class="small">Only someone who got a <span class="L">res mancipi</span> from an <b>authorised</b> transferor (mere form defect) is a bonitarian owner. Someone who bought from a <b>non-owner</b> is a mere usucapient. Both use the <span class="L">actio publiciana</span> <span class="link" style="background:var(--pro)">p. 14</span></p></div>
+  </div>
+  <div class="box" style="margin-top:7px"><h3>The five requirements — <span class="L">res habilis · titulus · bona fides · possessio · tempus</span></h3>
+    <div class="gates" style="margin-top:10px">
+      <div class="gate"><span class="n">1</span><h4><span class="L">res habilis</span></h4><p class="small">The thing can be usucapted. <b>Not</b>: things outside commerce (market square, temple); <b>stolen things</b> (<span class="L">lex Atinia</span>); things taken by force, land included (<span class="L">leges Iulia et Plautia</span>).</p></div>
+      <div class="gate"><span class="n">2</span><h4><span class="L">titulus</span></h4><p class="small">A causa that would have given ownership if the transferor had been authorised (= <span class="L">iusta causa traditionis</span>). <b>Putative title</b> (the buyer only believes there is one) is disputed: strict Ulpian · middle view · liberal: <span class="L">tolerabilis error</span>.</p></div>
+      <div class="gate"><span class="n">3</span><h4><span class="L">bona fides</span></h4><p class="small">An error <b>of fact</b> at the moment of acquisition. An <b>error of law</b> excludes good faith. Only concrete knowledge harms; mere doubts do not. <span class="mx">mala fides superveniens non nocet</span></p></div>
+      <div class="gate"><span class="n">4</span><h4><span class="L">possessio</span></h4><p class="small"><b>Unflawed</b> (not <span class="L">vi, clam, precario</span>) and <b>uninterrupted</b>. Possession through a detentor is enough. If it is lost, the period starts again.</p></div>
+      <div class="gate"><span class="n">5</span><h4><span class="L">tempus</span></h4><p class="small"><b>1 year movables · 2 years land.</b> A buyer starts again from zero (adding the seller's time is post-classical); an <b>heir continues</b> the deceased's period.</p></div>
+    </div>
+  </div>
+  <div class="g g3" style="margin-top:7px">
+    <div class="case"><b>Paulus D 41.4.2.15</b> — two buy from a minor without his tutor. Buyer 1 thinks he is of age (<b>fact</b>) → <span class="yes">can usucapt</span>. Buyer 2 thinks minors may sell (<b>law</b>) → <span class="no">cannot</span>.</div>
+    <div class="box"><h3><span class="L">Lex Atinia</span> and <span class="L">reversio in potestatem</span></h3><p class="small">Stolen things cannot be usucapted <b>by anyone, even in good faith</b>, until they <b>return into the owner's power</b> (he regains direct custody and knows it is his). No effect on land (land cannot be stolen). Pledgor steals his own pledge back: disputed (Cassius/Paulus vs Labeo).</p></div>
+    <div class="exq"><h3>Exegesis: <span class="L">usucapio</span> — ask</h3><ul class="small"><li>First: <b>why did the derivative acquisition fail?</b></li><li>Then the 5 gates: <span class="L">lex Atinia</span>? title or putative title? error of fact or of law? flawless, uninterrupted possession? time complete?</li><li>Meanwhile: <span class="L">actio publiciana</span>.</li></ul></div>
+  </div>
+  <p class="small mute" style="margin-top:5px">Modern contrast (detail): bona fide acquisition gives ownership <b>at once, with no waiting period</b>, mostly for movables (§ 367 ABGB, § 935 BGB). Roman law instead treats stolen things as impossible to usucapt.</p>
+  <div class="foot"><span>Usucapio</span><span>10</span></div>
+</section>
+
+<!-- ============ 11. NATURAL MODES I: OCCUPATIO, FRUITS ============ -->
+<section class="page nat" style="--c:var(--nat)">
+  <div class="hd"><span class="tag">Ch. IX · 28 Oct</span><h1>Natural modes I — <span class="L">occupatio</span> and fruits</h1><div class="meta">book pp. 126–131<br>original acquisition</div></div>
+  <div class="g g2">
+    <div class="col">
+      <div class="box f"><h3><span class="L">Occupatio</span> = taking a <span class="L">res nullius</span> into possession</h3>
+        <div class="g g3">
+          <div class="box"><b>Originally ownerless</b><p class="small">wild animals, pearls from the seabed</p></div>
+          <div class="box"><b><span class="L">res derelictae</span></b><p class="small">abandoned with intent to give up ownership. A jettisoned cargo is <b>not</b> abandoned.</p></div>
+          <div class="box"><b><span class="L">thesaurus</span></b> (treasure)<p class="small">Sabinians: <span class="L">res nullius</span>. Hadrian: <b>half to the finder, half to the landowner</b>.</p></div>
+        </div></div>
+      <div class="box"><h3>Wild animals</h3><ul class="small"><li>Ownership needs <b>open and secure possession</b> (a strict <span class="L">corpus</span> test, see D 41.1.5.1 <span class="link" style="background:var(--pos)">p. 4</span>).</li><li>The animal regains its natural freedom → possession <b>and ownership</b> are lost.</li><li>Enclosure or fish pond: owned · fenced forest or open lake: not.</li><li><span class="L">consuetudo revertendi</span>: a tamed animal stays owned while it keeps coming back (bees, pigeons). Pets that run away are not ownerless.</li></ul></div>
+      <div class="box"><h3>Lost ≠ ownerless</h3><p class="small">A finder can <b>neither occupy nor usucapt</b> lost property: it is not ownerless, he has no <span class="L">iusta causa</span> and usually no good faith. He should announce the find publicly, or he risks <span class="L">furtum</span>.</p></div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3>Fruits — who gets them, and when?</h3>
+        <div style="display:flex;align-items:center;gap:4px;margin:6px 0 2px">
+          <div class="box" style="flex:1;text-align:center"><b>attached</b><br><span class="small">part of the mother thing</span></div><div class="arr">➜</div>
+          <div class="box" style="flex:1;text-align:center;border-width:2px"><b><span class="L">separatio</span></b><br><span class="small">fruit comes off</span></div><div class="arr">➜</div>
+          <div class="box" style="flex:1;text-align:center;border-width:2px"><b><span class="L">perceptio</span></b><br><span class="small">fruit is gathered (taken into possession)</span></div>
+        </div>
+        <table style="--c:var(--nat)"><tr><th>who</th><th>acquires at</th><th>note</th></tr>
+          <tr><td class="h">owner</td><td><span class="L">separatio</span></td><td>the default rule</td></tr>
+          <tr><td class="h"><span class="L">bonae fidei possessor</span></td><td><span class="L">separatio</span></td><td>originally, free of liens: a reward for good faith</td></tr>
+          <tr><td class="h"><span class="L">emphyteuta</span></td><td><span class="L">separatio</span></td><td>hereditary lessee</td></tr>
+          <tr><td class="h">usufructuary</td><td><span class="L">perceptio</span></td><td>until then the owner's fruits</td></tr>
+          <tr><td class="h">lessee (<span class="L">colonus</span>)</td><td><span class="L">perceptio</span></td><td>derivative; if the lessor interferes → <span class="L">actio conducti</span></td></tr></table>
+        <p class="small" style="margin-top:3px">A thief gets <b>no wool</b> from stolen sheep; a bona fide buyer does. A slave woman's child (<span class="L">partus ancillae</span>) is <b>not</b> a fruit; the young of animals are.</p></div>
+      <div class="box"><h3>Disputed: the usucapient who later learns the truth</h3><p class="small"><b>Pomponius/Paulus</b>: he keeps usucapting (<span class="mx">mala fides superveniens non nocet</span>) but gets <b>no more fruits</b>. <b>Julian</b>: good faith at acquisition covers both, until the owner sues.</p></div>
+      <div class="box"><h3>Link: fruits come back in the <span class="L">rei vindicatio</span></h3><p class="small">After <span class="L">litis contestatio</span> every defendant must restore fruits taken <b>and</b> fruits he failed to take <span class="link" style="background:var(--pro)">p. 14</span></p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Natural modes I</span><span>11</span></div>
+</section>
+
+<!-- ============ 12. NATURAL MODES II: ACCESSIO, MIXING, SPECIFICATIO ============ -->
+<section class="page nat" style="--c:var(--nat)">
+  <div class="hd"><span class="tag">Ch. IX · 28 Oct</span><h1>Natural modes II — <span class="L">accessio</span>, mixing, <span class="L">specificatio</span></h1><div class="meta">book pp. 132–151<br>class: <b>acquisition through accessio</b></div></div>
+  <div class="g g3">
+    <div class="col">
+      <div class="box f"><h3>Step 1 — classify the case</h3>
+        <table style="--c:var(--nat)"><tr><th>what happened</th><th>mode</th><th>effect</th></tr>
+          <tr><td>two things joined <b>inseparably</b></td><td><span class="L">accessio</span></td><td>owner of the main thing</td></tr>
+          <tr><td>joined but <b>can be separated</b></td><td>—</td><td>nothing changes</td></tr>
+          <tr><td>liquids blended / solids mixed</td><td><span class="L">confusio/commixtio</span></td><td>nothing changes</td></tr>
+          <tr><td>a <b>new kind of thing</b> made</td><td><span class="L">specificatio</span></td><td><span class="L">media sententia</span></td></tr>
+          <tr><td>just cleaned or processed</td><td>—</td><td>nothing changes</td></tr></table>
+        <p class="small" style="margin-top:3px">Titus' wool: made into clothes = <span class="L">specificatio</span> · cleaned = processing · dyed with someone's purple = <span class="L">accessio</span> (still Titus').</p></div>
+      <div class="box"><h3><span class="mx">accessio cedit principali</span></h3><ul class="small"><li><b>Inseparable</b> = separating would cause considerable damage or effort. Welding (<span class="L">ferruminatio</span>) is inseparable; soldering (<span class="L">adplumbatio</span>) is not.</li><li><b>Main thing</b> = the one that can be vindicated on its own; value and labour do not count (purple on wool).</li><li>Good or bad faith of the person joining does not matter for ownership.</li></ul></div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3>Land always wins — <span class="mx">superficies solo cedit</span></h3><ul class="small"><li><span class="L">implantatio</span> (once it takes root) · <span class="L">satio</span> (once sown) · <span class="L">alluvio</span> (deposits) · <span class="L">aedificatio</span> (on a foundation; a movable granary stays the builder's)</li><li><b>Building is special</b>: the materials are only <b>latently</b> joined. <span class="L">dominium dormiens</span> revives if the house is demolished.</li><li>Building on another's land <b>knowingly</b> → only <span class="L">ius tollendi</span> (right to remove).</li><li>Building on <b>your own</b> land with another's materials → <span class="L">actio de tigno iuncto</span> (double value).</li></ul></div>
+      <div class="case"><b>Gai. 2.78 — painting on another's panel (<span class="L">tabula picta</span>)</b>: the <b>painter</b> owns it, an exception for artistic work. But <b>writing</b> on another's parchment belongs to the owner of the parchment. Panel owner: <span class="L">exceptio doli</span>, <span class="L">actio utilis</span>. Gaius himself doubts the reasoning. <i>(model exegesis for 28 Oct)</i></div>
+      <div class="case"><b>Paulus D 6.1.23.5 — arm joined to a statue</b>: soldered → the arm's owner keeps it (<span class="L">actio ad exhibendum</span> → <span class="L">rei vindicatio</span>). Welded → the statue's owner acquires it; the arm's owner gets an <span class="L">actio in factum</span>.</div>
+      <div class="case"><b>Celsus D 6.1.38 — bona fide builder</b>: the owner vindicates the land but must reimburse expenses, up to the increase in value. A poor owner may let him remove the building instead. <span class="mx">neque malitiis indulgendum est</span></div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3><span class="L">Specificatio</span> — the school dispute</h3>
+        <div class="g g2">
+          <div class="box"><b>Sabinians</b><p class="small">owner of the <b>material</b>: <span class="mx">sine materia nulla species effici possit</span></p></div>
+          <div class="box"><b>Proculians</b><p class="small">the <b>maker</b>: a new <span class="L">res nullius</span>, <span class="mx">quod factum est, antea nullius fuerat</span></p></div>
+        </div>
+        <div class="down">⇣</div>
+        <div class="box" style="border-width:2px"><b><span class="L">media sententia</span></b> (Gaius D 41.1.7.7)<p class="small"><b>Reversible</b> (metal vessel → can be melted) → owner of the material. <b>Irreversible</b> (ship, clothes, wine, oil, mead) → the maker, who must compensate. Threshing grain creates nothing new.</p></div></div>
+      <div class="box"><h3>Mixing</h3><ul class="small"><li>Without consent: each owner keeps his share → <span class="L">vindicatio pro parte</span> (2 t + 4 t of wheat).</li><li>With consent: co-ownership → <span class="L">actio communi dividundo</span>.</li><li><b>Money is the exception</b>: whoever mixes coins becomes sole owner, even a thief. The loser has the <span class="L">condictio</span> (<span class="L">condictio furtiva</span> against a thief).</li></ul></div>
+      <div class="box"><h3>Who lost his thing — what now?</h3><p class="small">Good faith → <span class="L">actio in factum</span> · theft → <span class="L">condictio furtiva</span> · still possessing → <span class="L">exceptio doli</span> until paid <span class="link" style="background:var(--pro)">p. 13</span></p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Natural modes II</span><span>12</span></div>
+</section>
+
+<!-- ============ 13. PROTECTION I ============ -->
+<section class="page pro" style="--c:var(--pro)">
+  <div class="hd"><span class="tag">Ch. X · by 3 Nov</span><h1>Protection I — procedure and the <span class="L">rei vindicatio</span></h1><div class="meta">book pp. 152–167<br><span class="mx">ubi rem meam invenio, ibi vindico</span></div></div>
+  <div class="box f"><h3>Formulary procedure — two stages</h3>
+    <div class="flow">
+      <div class="box"><b>IN IURE</b> — before the <b>praetor</b><p class="small">He grants an action from his edict, creates one (<span class="L">in factum</span>, <span class="L">utilis</span>), or refuses (<span class="L">denegatio actionis</span>). He does <b>not</b> check the facts.</p></div>
+      <div class="arr">➜</div>
+      <div class="box" style="border-width:2px"><b><span class="L">litis contestatio</span></b><p class="small">The formula is issued: action + any <span class="L">exceptiones</span> = a <b>conditional judgment</b>: "if it is proven, condemn; if not, acquit".</p></div>
+      <div class="arr">➜</div>
+      <div class="box"><b>APUD IUDICEM</b> — before the <b>iudex</b><p class="small">A private citizen establishes the facts and condemns or acquits. <span class="mx">omnis condemnatio pecuniaria est</span>: every condemnation is in money.</p></div>
+    </div></div>
+  <div class="g g2" style="margin-top:6px">
+    <div class="col">
+      <div class="box"><h3>Anatomy of the <span class="L">rei vindicatio</span> formula</h3>
+        <table style="--c:var(--pro)"><tr><th style="width:26%">part</th><th>content</th></tr>
+          <tr><td class="h"><span class="L">intentio</span></td><td><span class="mx">si paret rem … ex iure Quiritium Auli Agerii esse</span> — the basis of the claim; the plaintiff must prove it</td></tr>
+          <tr><td class="h">(<span class="L">exceptio</span>)</td><td>inserted right after the <span class="L">intentio</span>; the defendant must prove it</td></tr>
+          <tr><td class="h"><span class="L">clausula arbitraria</span></td><td><span class="mx">neque ea res restituetur</span> — the order to restore pushes the defendant to give the thing back</td></tr>
+          <tr><td class="h"><span class="L">condemnatio</span></td><td><span class="mx">quanti ea res erit</span> — pay the value. If he refuses out of malice → the plaintiff fixes the value on oath (<span class="L">iusiurandum in litem</span>)</td></tr></table></div>
+      <div class="box"><h3>Who sues whom?</h3><ul class="small"><li><b>Plaintiff</b>: only the <b>quirite owner</b>, who must prove it. A chain of owners back to an original acquisition is the <span class="L">probatio diabolica</span>. Bonitarian owner → <span class="L">actio publiciana</span>.</li><li><b>Defendant</b>: <b>any possessor</b>; Ulpian: any natural possessor who is able to restore.</li><li><b>Fictitious possessors</b>: <span class="mx">pro possessione dolus est</span>, i.e. someone who defends while not possessing, or gives up possession after <span class="L">litis contestatio</span>.</li><li>Preparation: interdicts decide who is defendant (<span class="L">uti possidetis</span> for land, <span class="L">utrubi</span> for movables); <span class="L">actio ad exhibendum</span>.</li></ul></div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3>After <span class="L">litis contestatio</span>: what must be restored?</h3>
+        <p class="small"><b>Principle of <span class="L">restituere</span></b>: the plaintiff is put where he would be if the thing had been returned at <span class="L">litis contestatio</span>.</p>
+        <table style="--c:var(--pro)"><tr><th>issue</th><th>rule</th></tr>
+          <tr><td class="h">fruits after LC</td><td>fruits taken <b>+</b> fruits that should have been taken; good or bad faith does not matter</td></tr>
+          <tr><td class="h">fruits before LC</td><td>bona fide possessor keeps the separated fruits; a bad-faith possessor commits <span class="L">furtum</span></td></tr>
+          <tr><td class="h">thing destroyed after LC</td><td>3 models: possession-based (not liable unless <span class="L">dolus</span>) · Proculians: always liable (even <span class="L">casus</span>) · Sabinians: liable for <span class="L">dolus</span> + <span class="L">culpa</span></td></tr>
+          <tr><td class="h">expenses</td><td>bona fide possessor: value-increasing expenses → <b>retains the thing</b> via <span class="L">exceptio doli</span>; builds after learning the truth → only <span class="L">ius tollendi</span></td></tr></table>
+        <div class="case"><b>Paulus D 6.1.16.1 — the ship</b>: after LC the defendant sends the ship to sea in the sailing season and it sinks → <span class="no">not liable</span> (no fault). He would be liable if he chose an unsuitable crew (<span class="L">culpa in eligendo</span>).</div></div>
+      <div class="box"><h3>Defences — the <span class="L">exceptio</span></h3><ul class="small"><li><b><span class="L">exceptio doli</span></b>: <span class="mx">si in ea re nihil dolo malo Auli Agerii factum sit neque fiat</span> — past fraud (<span class="L">praeteriti</span>) or suing now is itself bad faith (<span class="L">praesentis</span>).</li><li><b><span class="L">exceptio rei venditae et traditae</span></b>: the seller who is still quirite owner sues the buyer he sold and delivered to <span class="link">p. 14</span></li></ul></div>
+    </div>
+  </div>
+  <div class="foot"><span>Protection I</span><span>13</span></div>
+</section>
+
+<!-- ============ 14. PROTECTION II ============ -->
+<section class="page pro" style="--c:var(--pro)">
+  <div class="hd"><span class="tag">Ch. X · by 3 Nov</span><h1>Protection II — <span class="L">publiciana</span>, pleas, <span class="L">negatoria</span></h1><div class="meta">book pp. 168–177</div></div>
+  <div class="g" style="grid-template-columns:1.5fr 1fr 1fr">
+    <div class="box f"><h3>Three actions protecting ownership</h3>
+      <table style="--c:var(--pro)"><tr><th>action</th><th>who</th><th>against</th></tr>
+        <tr><td class="h"><span class="L">rei vindicatio</span></td><td>quirite owner without possession</td><td>possessor</td></tr>
+        <tr><td class="h"><span class="L">actio publiciana</span></td><td>usucapient, bonitarian owner (also a quirite owner, to avoid the <span class="L">probatio diabolica</span>)</td><td>possessor</td></tr>
+        <tr><td class="h"><span class="L">actio negatoria</span></td><td>owner</td><td>anyone who claims a servitude or otherwise interferes (smell, steam, stone chips)</td></tr></table>
+      <p class="small" style="margin-top:3px">Without a claimed right → <span class="L">interdictum quod vi aut clam</span>.</p></div>
+    <div class="box"><h3><span class="L">Actio publiciana</span> — the fiction</h3><p class="small">The plaintiff is treated <b>as if the usucapion period had run</b> (1 or 2 years). Only the <span class="L">intentio</span> differs from the <span class="L">rei vindicatio</span>. He must prove <b><span class="L">traditio</span> on a <span class="L">iusta causa</span></b>; the model formula is purchase.</p>
+      <p class="small"><b>All requirements of <span class="L">usucapio</span> except the time</b> <span class="link" style="background:var(--usu)">p. 10</span></p></div>
+    <div class="case"><b>Pomponius (Julian) D 21.3.2</b>: T buys S's land from Titius. Titius then inherits from S and sells and delivers the land to M. → T's <span class="L">actio publiciana</span> against M <span class="yes">succeeds</span>: the defect is cured, T is bonitarian owner, Titius keeps only <span class="L">nudum ius Quiritium</span>.</div>
+  </div>
+  <div class="box" style="margin-top:6px"><h3>The ping-pong of pleas — read the formula like a dialogue</h3>
+    <div class="g g2">
+      <div>
+        <p class="small k" style="margin-bottom:3px">A) Usucapient vs the true owner</p>
+        <div class="flow" style="--c:var(--pro)">
+          <div class="box small"><b>Usucapient</b>: <span class="L">actio publiciana</span></div><div class="arr">➜</div>
+          <div class="box small"><b>Owner</b>: <span class="L">exceptio iusti dominii</span> — <span class="mx">si ea res Numerii Negidii non sit</span></div><div class="arr">➜</div>
+          <div class="box small" style="border-width:2px"><b>Owner wins</b>: the usucapient stays weaker than the present owner</div>
+        </div>
+      </div>
+      <div>
+        <p class="small k" style="margin-bottom:3px">B) Bonitarian buyer vs the seller (still quirite owner)</p>
+        <div class="flow">
+          <div class="box small"><b>Seller</b>: <span class="L">rei vindicatio</span></div><div class="arr">➜</div>
+          <div class="box small"><b>Buyer</b>: <span class="L">exceptio rei venditae et traditae</span> (or <span class="L">doli</span>)</div><div class="arr">➜</div>
+          <div class="box small" style="border-width:2px"><b>Buyer wins</b></div>
+        </div>
+        <div class="flow" style="margin-top:4px">
+          <div class="box small"><b>Buyer</b>: <span class="L">actio publiciana</span></div><div class="arr">➜</div>
+          <div class="box small"><b>Seller</b>: <span class="L">exceptio iusti dominii</span></div><div class="arr">➜</div>
+          <div class="box small"><b>Buyer</b>: <span class="L">replicatio rei venditae et traditae</span></div><div class="arr">➜</div>
+          <div class="box small" style="border-width:2px"><b>Buyer wins</b></div>
+        </div>
+        <p class="small mute">Causa other than sale → <span class="L">exceptio</span> / <span class="L">replicatio doli</span>.</p>
+      </div>
+    </div></div>
+  <div class="g g2" style="margin-top:6px">
+    <div class="box"><h3>Double sale by unauthorised sellers</h3><p class="small"><b>Neratius</b> (D 19.1.31.2): the buyer who got delivery <b>first</b> wins (by analogy with the owner's double sale). <b>Julian/Ulpian</b> (D 6.2.9.4, different sellers): <b>whoever possesses</b> wins (<span class="mx">melior est causa possidentis</span>).</p></div>
+    <div class="exq"><h3>Exegesis: <span class="L">rei vindicatio</span> fragments — ask</h3><ul class="small"><li>Who claims what from whom, and on which basis? Is the plaintiff a quirite owner (otherwise <span class="L">publiciana</span>)? Is the defendant a possessor (or a fictitious possessor)?</li><li>Which <span class="L">exceptiones</span> and <span class="L">replicationes</span>?</li><li>Restitution: fruits, liability for destruction, expenses and retention by the bona fide possessor.</li></ul></div>
+  </div>
+  <div class="foot"><span>Protection II</span><span>14</span></div>
+</section>
+
+<!-- ============ 15. SERVITUDES ============ -->
+<section class="page ser" style="--c:var(--ser)">
+  <div class="hd"><span class="tag">Ch. XI · by 3 Nov</span><h1>Servitudes, usufruct, <span class="L">emphyteusis</span></h1><div class="meta">book pp. 178–188<br>limited rights in another's thing</div></div>
+  <div class="tree">
+    <div class="node">SERVITUDES — the owner must <b>tolerate</b> or <b>refrain</b>; never act: <span class="mx">servitus in faciendo consistere nequit</span></div>
+    <div class="kids">
+      <div class="box f"><h3>Praedial (landed) servitudes</h3><p class="small">A right of <b>whoever owns</b> the dominant land (<span class="L">praedium dominans</span>) over the servient land (<span class="L">praedium serviens</span>). It goes with the land when it is sold. Modern term: easement.</p>
+        <div class="g g2">
+          <div class="box"><b>Rural</b><ul class="small"><li>passage: <span class="L">iter</span> (walking) · <span class="L">actus</span> (driving cattle) · <span class="L">via</span> (vehicles)</li><li>water: <span class="L">aquae ductus</span>, <span class="L">aquae haustus</span></li><li>pasture: <span class="L">ius pascendi</span></li></ul></div>
+          <div class="box"><b>Urban</b><ul class="small"><li><span class="L">ius altius non tollendi</span>, <span class="L">ius luminis</span></li><li>support: <span class="L">ius tigni immittendi</span>, <span class="L">ius oneris ferendi</span> (the one exception: duty to keep in repair)</li><li>drainage: <span class="L">stillicidium</span>, <span class="L">flumen</span>, <span class="L">cloaca</span></li></ul></div>
+        </div></div>
+      <div class="box f"><h3>Personal servitudes</h3>
+        <p class="small"><b><span class="L">ususfructus</span></b> (Paulus D 7.1.1): <span class="mx">ius alienis rebus utendi fruendi salva rerum substantia</span>, the right to use another's thing and take its fruits while keeping its substance. Ends with the holder's death.</p>
+        <ul class="small"><li>fruits incl. rent; the young of animals yes, <span class="L">partus ancillae</span> no; a herd must be kept up with young animals</li><li><span class="L">cautio usufructuaria</span>: a promise to use it as a decent man would</li><li>others: <span class="L">usus</span> (use only, no fruits), <span class="L">habitatio</span>, <span class="L">operae servorum</span></li><li>≠ loan or lease: those are <b>contracts</b> (in personam)</li></ul></div>
+      <div class="box f"><h3>Hereditary rights</h3><p class="small"><b><span class="L">emphyteusis</span></b>: use of land for rent, alienable and hereditary; the emphyteuta is <i>almost an owner</i> → interdicts and <span class="L">rei vindicatio utilis</span>.</p><p class="small"><b><span class="L">superficies</span></b>: a hereditary right to a building on another's land → <span class="L">interdictum de superficiebus</span>, <span class="L">actio de superficie</span>.</p></div>
+    </div>
+  </div>
+  <div class="g g4" style="margin-top:7px">
+    <div class="box"><h3>Limits</h3><ul class="small"><li><span class="L">vicinitas</span>: the estates are neighbours</li><li><span class="L">utilitas</span>: it must benefit the land, not personal pleasure (walks, meals)</li><li><span class="mx">servitus civiliter exercenda est</span>: exercise it considerately</li><li>no extension by one side (20 sheep ≠ 40)</li></ul></div>
+    <div class="box"><h3>Protection</h3><ul class="small"><li><span class="L">vindicatio servitutis</span> = <span class="L">actio confessoria</span>: "the servitude exists"</li><li>owner's mirror image: <span class="L">actio negatoria</span> <span class="link" style="background:var(--pro)">p. 14</span></li><li>interdicts modelled on possession</li></ul></div>
+    <div class="box"><h3>End</h3><ul class="small"><li><span class="mx">nulli res sua servit</span>: holder becomes owner → ends (<span class="L">confusio</span>)</li><li><span class="L">usucapio libertatis</span>: not used (1 / 2 years); for buildings plus a contrary state (building higher)</li><li>usufruct: holder's death</li></ul></div>
+    <div class="exq"><h3>Exegesis: servitudes — ask</h3><ul class="small"><li>Which type, and what does it allow?</li><li>Limits: no duty to act, <span class="L">utilitas</span>, considerate use, no extension, substance kept</li><li><span class="L">confessoria</span> vs <span class="L">negatoria</span>; end by non-use, <span class="L">confusio</span>, death</li></ul></div>
+  </div>
+  <p class="small mute" style="margin-top:4px">"Legal servitudes" = restrictions that come straight from the law, e.g. the neighbour may collect fallen fruit every other day (<span class="L">interdictum de glande legenda</span>, from the Twelve Tables).</p>
+  <div class="foot"><span>Servitudes</span><span>15</span></div>
+</section>
+
+<!-- ============ 16. PLEDGE I ============ -->
+<section class="page pig" style="--c:var(--pig)">
+  <div class="hd"><span class="tag">Ch. XII · by 3 Nov</span><h1>Pledge I — <span class="L">pignus</span>: what it is and how it arises</h1><div class="meta">book pp. 189–205<br>a security right in rem</div></div>
+  <div class="box f"><h3>The life of a pledge</h3>
+    <div class="flow">
+      <div class="box"><b>1 · Creation</b><ul class="small"><li>a <b>secured money claim</b> (accessory: no debt, no pledge)</li><li>pledgor is <b>owner</b> or authorised (bonitarian ownership is enough)</li><li><b><span class="L">conventio pignoris</span></b>: no delivery needed</li></ul></div>
+      <div class="arr">➜</div>
+      <div class="box"><b>2 · Existence</b><ul class="small"><li>the thing is sold <b>with</b> consent → the pledge ends (waiver), unless it was reserved</li><li>sold <b>without</b> consent → the pledge <b>survives</b> (a movable sold knowingly = <span class="L">furtum</span>)</li></ul></div>
+      <div class="arr">➜</div>
+      <div class="box"><b>3a · Enforcement</b><ul class="small"><li>default → <b>sale</b>, usually at auction (a tacit <span class="L">pactum de vendendo</span>, after notice)</li><li>surplus → the pledgor; any shortfall is still owed</li><li><span class="L">lex commissoria</span> (creditor keeps the thing) banned in 320 AD</li></ul></div>
+      <div class="arr">➜</div>
+      <div class="box"><b>3b · End without sale</b><ul class="small"><li>debt paid (<span class="mx">indivisa est pignoris causa</span>: until it is paid in full)</li><li>waiver · <span class="L">confusio</span> · destruction or <span class="L">specificatio</span></li><li><span class="L">usucapio</span> does <b>not</b> end it</li></ul></div>
+    </div></div>
+  <div class="g g3" style="margin-top:6px">
+    <div class="col">
+      <div class="box"><h3>Three meanings of <span class="L">pignus</span></h3><ol class="small" style="margin:0;padding-left:14px"><li>the pledged thing itself</li><li>the <b>right in rem</b> (arises through <span class="L">conventio pignoris</span>)</li><li>the <b>real contract</b> of pledge (arises on <b>delivery</b>)</li></ol></div>
+      <div class="box"><h3>Types</h3><ul class="small"><li>origin: by contract, by court order, by law</li><li><b>possessory pledge</b>: extra security and visible to all; the pledgee is a detentor with interdicts</li><li><b>non-possessory pledge</b> (hypothec): the pledgor keeps using the thing to earn the money to repay</li></ul></div>
+      <div class="box"><h3>Other securities</h3><ul class="small"><li><span class="L">fideiussio</span>: a personal guarantor, an obligation and not a right in rem</li><li><span class="L">fiducia cum creditore</span>: ownership transferred as security, returned on payment</li></ul></div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3>Remedies</h3>
+        <table style="--c:var(--pig)"><tr><th style="width:40%">action</th><th>who → for what</th></tr>
+          <tr><td class="h"><span class="L">actio pigneraticia in rem</span><br><span class="small">(<span class="L">vindicatio pignoris</span>, <span class="L">Serviana</span>, <span class="L">hypothecaria</span>)</span></td><td>pledgee → the thing, from <b>any possessor</b>, the pledgor included. A third party who does not restore pays full value; the surplus goes to the pledgor.</td></tr>
+          <tr><td class="h"><span class="L">exceptio pigneraticia</span></td><td>possessing pledgee against the pledgor's <span class="L">rei vindicatio</span></td></tr>
+          <tr><td class="h"><span class="L">actio pigneraticia</span> <span class="L">directa</span></td><td>pledgor → return of the thing / the surplus (<span class="L">hyperocha</span>)</td></tr>
+          <tr><td class="h"><span class="L">actio pigneraticia</span> <span class="L">contraria</span></td><td>pledgee → damages and expenses (a sick cow infects his calf)</td></tr></table></div>
+    </div>
+    <div class="col">
+      <div class="box"><h3>Pledging someone else's thing (<span class="L">res aliena pignori data</span>)</h3><p class="small">No valid pledge. If the pledgor <b>later becomes owner</b>, the pledge becomes valid with retroactive effect (<b>convalescence</b>) → <span class="L">actio pigneraticia in rem utilis</span>.</p>
+        <div class="case"><b>The owner becomes the pledgor's heir</b>: <b>Paulus</b> D 13.7.41 <span class="no">no</span> (the owner never wanted the burden) vs <b>Modestinus</b> D 20.1.22 <span class="yes">yes</span> (protect the creditor; the heir also inherits the debt).</div></div>
+      <div class="case"><b>Paulus D 20.1.29.2 — the burnt house</b>: a pledged house burns down; L. Titius buys the land not knowing of the pledge and builds. The pledge <span class="yes">survives</span> in the land <b>and</b> the new house (<span class="mx">superficies solo cedit</span>; a sale without consent is no waiver). The creditors bring the <span class="L">vindicatio pignoris</span>; Titius has the <span class="L">exceptio doli</span> and keeps the house until he is paid the increase in value. <i>(model exegesis in the textbook, ch. XV)</i></div>
+      <div class="box"><h3>Blanket liens</h3><p class="small">A lien over all present and future property; an aggregate such as a shop's stock can be pledged as one thing. Household goods, clothing and close personal slaves are excluded. Scaevola D 20.1.34: the goods in the shop <b>at the time of death</b> are covered; goods sold before are free.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Pledge I</span><span>16</span></div>
+</section>
+
+<!-- ============ 17. PLEDGE II ============ -->
+<section class="page pig" style="--c:var(--pig)">
+  <div class="hd"><span class="tag">Ch. XII · by 3 Nov</span><h1>Pledge II — tacit liens and several creditors</h1><div class="meta">book pp. 206–220<br><span class="mx">prior tempore, potior iure</span></div></div>
+  <div class="g g2">
+    <div class="col">
+      <div class="box f"><h3>Liens without an explicit agreement</h3>
+        <table style="--c:var(--pig)"><tr><th>where</th><th>what is pledged</th><th>how enforced</th></tr>
+          <tr><td class="h">residential lease</td><td>the tenant's <span class="L">invecta illata</span> (movables brought in to stay); secures rent and damages</td><td>landlord may seize them himself; tenant: <span class="L">interdictum de migrando</span></td></tr>
+          <tr><td class="h">agricultural lease</td><td>the <b>fruits</b></td><td><span class="L">vindicatio pignoris</span>; the lessee's own movables only if expressly pledged → <span class="L">interdictum Salvianum</span></td></tr>
+          <tr><td class="h">statutory liens</td><td>loan for repairing a building; the treasury; the ward against the guardian; the wife for her dowry</td><td>often blanket liens</td></tr></table>
+        <p class="small" style="margin-top:3px">A tacit lien (<span class="L">pignus tacitum</span>) is <span class="L">ius dispositivum</span>, not <span class="L">ius cogens</span>: the parties may exclude it.</p></div>
+      <div class="box"><h3>Rank in court — the pleas</h3><ul class="small"><li>Senior pledgee in possession vs junior's <span class="L">vindicatio pignoris</span> → <span class="L">exceptio rei sibi ante pigneratae</span> ("pledged to me earlier")</li><li>Same rank → <span class="mx">melior est causa possidentis</span> → <span class="L">exceptio rei sibi quoque pigneratae</span></li><li>Junior possessor pleads <span class="L">quoque</span> → senior replies with the <span class="L">replicatio rei sibi ante pigneratae</span></li></ul></div>
+      <div class="case"><b>Africanus D 20.4.9 pr — the bath</b>: A leases a bath from 1 July and pledges the slave Eros to the lessor. Before 1 July he pledges Eros to lender C. → <b>the lessor ranks first</b>: the date of the contract counts, not the start of the lease. A pledge for a conditional claim also ranks from its creation.</div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3>Priority — the waterfall (Example 38)</h3>
+        <p class="small">Nike pledges her silver plate (worth 1,000) first to Europa (owed 500), then to Pluto (owed 400). The higher rank is paid <b>in full</b> before the next gets anything; what is left (<span class="L">superfluum</span>) goes back to Nike.</p>
+        <div class="g g2">
+          <div><p class="small k">Proceeds 1,000</p><div class="wf"><div class="b" style="height:100%">Europa<br>500</div><div class="b" style="height:80%">Pluto<br>400</div><div class="b g" style="height:20%">Nike<br>100 left</div></div></div>
+          <div><p class="small k">Proceeds 800</p><div class="wf"><div class="b" style="height:100%">Europa<br>500</div><div class="b" style="height:60%">Pluto<br>300</div><div class="b g" style="height:6%">Nike 0</div></div></div>
+        </div>
+        <p class="small" style="margin-top:3px">The most senior creditor decides <b>when</b> to sell. A sale ends all pledges; lower ranks claim the surplus.</p></div>
+      <div class="box"><h3><span class="L">Ius offerendi ac succedendi</span></h3><p class="small">A junior creditor may <b>pay off</b> the senior and <b>take his rank</b>: Pluto pays Europa 500 → he now ranks first for 500 + his own 400.</p></div>
+      <div class="box"><h3>Exceptions to priority</h3><ul class="small"><li>privileged statutory liens: ward, wife (dowry), treasury</li><li><b>a loan that preserved or improved the thing</b> ranks first, because it raised the value (Ulpian D 20.4.5; Ex 39)</li><li>refinancing: the new creditor takes over the old rank; juniors are no worse off</li></ul></div>
+      <div class="exq"><h3>Exegesis: pledge fragments — ask</h3><ul class="small"><li><b>Created?</b> Secured claim, pledgor's ownership or authority, <span class="L">conventio</span> and its scope</li><li><b>Still there?</b> Sale with or without consent, destruction, <span class="L">specificatio</span>, convalescence</li><li><b>Who enforces, and against whom?</b> <span class="L">vindicatio pignoris</span>, <span class="L">exceptio doli</span>, rank, <span class="L">ius offerendi</span></li></ul></div>
+    </div>
+  </div>
+  <div class="foot"><span>Pledge II</span><span>17</span></div>
+</section>
+
+<!-- ============ 18. EXEGESIS METHOD ============ -->
+<section class="page exg" style="--c:var(--exg)">
+  <div class="hd"><span class="tag">Exegesis</span><h1>How to turn this knowledge into an exegesis</h1><div class="meta">textbook ch. XV (pp. 259–269)<br>+ the course method (StudyFlow "Exegesis" deck)</div></div>
+  <div class="g g2">
+    <div class="col">
+      <div class="box f"><h3>Outline — four parts</h3>
+        <div class="flow">
+          <div class="box small"><b>1 Facts</b><br>short; add facts the jurist takes for granted</div><div class="arr">➜</div>
+          <div class="box small"><b>2 Legal question</b><br>short</div><div class="arr">➜</div>
+          <div class="box small"><b>3 Decision</b><br>short; what the jurist held</div><div class="arr">➜</div>
+          <div class="box small" style="border-width:2px;flex:2"><b>4 Interpretation</b> = the main part<br>classify the decision and explain its reasons</div>
+        </div></div>
+      <div class="box"><h3>What goes into the interpretation</h3><ul class="small"><li>the <b>institution</b> and its technical terms (use the Latin from this PDF)</li><li><b>who wants what from whom, on which legal basis</b>: action, plaintiff and defendant, <span class="L">exceptiones</span>, <span class="L">replicationes</span></li><li><b>related cases</b> and <b>juristic disputes</b> (<span class="L">ius controversum</span>)</li><li>the <b>interests and values</b> behind the decision (security vs autonomy, good faith, legal certainty)</li></ul></div>
+      <div class="box"><h3>Reading an <span class="L">inscriptio</span></h3><p class="small"><b>D 20.1.29.2 Paulus libro quinto responsorum</b> = Digest book 20, title 1, fragment 29, paragraph 2, from book 5 of Paulus' <span class="L">responsa</span>. Paulus is a late classical jurist. A <span class="L">responsum</span> already gives you facts, question and decision.</p></div>
+    </div>
+    <div class="col">
+      <div class="box f"><h3>A universal 6-step checklist for any property fragment</h3>
+        <ol class="small" style="margin:0;padding-left:15px">
+          <li><b>Classify</b>: possession · transfer · <span class="L">usucapio</span> · natural mode · protection · servitude · pledge? Use the map on page 1.</li>
+          <li><b>Thing</b>: movable or land? <span class="L">res mancipi</span>? Stolen?</li>
+          <li><b>Persons</b>: <span class="L">sui</span> or <span class="L">alieni iuris</span>? Capacity? Acting for someone else?</li>
+          <li><b>Holding</b>: possession or detention? <span class="L">iusta</span>? Based on a <span class="L">iusta causa</span>?</li>
+          <li><b>Right</b>: who is owner, and since when? Derivative or original? <span class="mx">nemo plus iuris</span>?</li>
+          <li><b>Remedy</b>: interdict, <span class="L">rei vindicatio</span>, <span class="L">publiciana</span>, <span class="L">negatoria</span>, <span class="L">vindicatio pignoris</span>, plus <span class="L">exceptio</span>/<span class="L">replicatio</span>; restitution (fruits, expenses).</li>
+        </ol></div>
+      <div class="box"><h3>The model exegeses on your timeline</h3>
+        <table style="--c:var(--exg)"><tr><th>class</th><th>fragment</th><th>core in one line</th><th>page</th></tr>
+          <tr><td class="h">14 Oct</td><td>D 41.2.13 pr</td><td>stones in the Tiber: possession lost (<span class="L">custodia</span>), ownership kept</td><td>5</td></tr>
+          <tr><td class="h">21 Oct</td><td>D 12.1.18 pr</td><td>gift vs loan: no agreed causa → no <span class="L">traditio</span>; ownership only by spending the coins</td><td>9</td></tr>
+          <tr><td class="h">28 Oct</td><td>Gai. 2.78</td><td>painting goes to the painter, writing to the owner of the parchment</td><td>12</td></tr>
+          <tr><td class="h">textbook</td><td>D 20.1.29.2</td><td>burnt pledged house: the pledge survives, the bona fide builder retains until paid</td><td>16</td></tr></table></div>
+      <div class="box"><h3>Unlike case solving…</h3><p class="small">…the decision is <b>already given</b>. Your job is to <b>justify</b> it, not to find it, and to show that you know the doctrine around it.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Exegesis method</span><span>18</span></div>
+</section>
+
+<!-- ============ 19. CONNECTIONS ============ -->
+<section class="page exg" style="--c:var(--exg)">
+  <div class="hd"><span class="tag">Connections</span><h1>Threads that run through every chapter</h1><div class="meta">learn these once —<br>they appear everywhere</div></div>
+  <table style="--c:var(--exg)">
+    <tr><th style="width:17%">concept</th><th class="pos" style="background:var(--pos)">possession</th><th style="background:var(--own)">transfer</th><th style="background:var(--usu)">usucapio</th><th style="background:var(--nat)">natural modes</th><th style="background:var(--pro)">protection</th><th style="background:var(--pig)">pledge / servitudes</th></tr>
+    <tr><td class="h"><span class="L">iusta causa</span></td><td>makes possession <b>civil</b></td><td>gate 3 of <span class="L">traditio</span>; Julian vs Ulpian</td><td>= <span class="L">titulus</span>; putative title</td><td>—</td><td><span class="L">publiciana</span> needs <span class="L">traditio</span> + causa</td><td>—</td></tr>
+    <tr><td class="h"><span class="mx">nemo plus iuris</span></td><td>—</td><td>a non-owner transfers nothing</td><td>the reason <span class="L">usucapio</span> is needed</td><td>—</td><td>vendor keeps <span class="L">nudum ius</span></td><td>pledgor must own; encumbrances pass on</td></tr>
+    <tr><td class="h">good faith</td><td>—</td><td>—</td><td><span class="L">bona fides</span>: error of fact, not of law</td><td>b.f. possessor gets fruits at <span class="L">separatio</span>; builder reimbursed</td><td>expenses → retention via <span class="L">exceptio doli</span></td><td>buyer of a pledged thing</td></tr>
+    <tr><td class="h"><span class="L">exceptio doli</span></td><td>—</td><td>D 39.5.25; D 12.1.18 pr</td><td>—</td><td>panel / arm / building owner</td><td>expenses; past vs present fraud</td><td>D 20.1.29.2 builder</td></tr>
+    <tr><td class="h"><span class="mx">superficies solo cedit</span></td><td>—</td><td>—</td><td>—</td><td>land always wins; building = latent</td><td><span class="L">ius tollendi</span></td><td>a pledge of a house covers the land</td></tr>
+    <tr><td class="h"><span class="L">furtum</span></td><td>thief = possessor; finder</td><td>T in D 39.5.25</td><td><span class="L">lex Atinia</span>: no usucapion</td><td>no fruits; mixing coins</td><td><span class="L">condictio furtiva</span> vs <span class="L">rei vindicatio</span></td><td>selling a pledged movable knowingly</td></tr>
+    <tr><td class="h">fruits</td><td>—</td><td>owner's power</td><td>Pomponius/Paulus vs Julian</td><td><span class="L">separatio</span> vs <span class="L">perceptio</span></td><td>restored after LC (taken + neglected)</td><td>usufructuary; lien on fruits</td></tr>
+    <tr><td class="h">1 year / 2 years</td><td>—</td><td>bonitarian → quirite</td><td><span class="L">tempus</span></td><td>—</td><td>fiction of the <span class="L">publiciana</span></td><td><span class="L">usucapio libertatis</span></td></tr>
+    <tr><td class="h"><span class="L">brevi manu</span> / <span class="L">constitutum</span></td><td>tradition surrogates</td><td>gate 2 of <span class="L">traditio</span></td><td>—</td><td>—</td><td>—</td><td>D 6.1.77 (gift, leased back)</td></tr>
+    <tr><td class="h">Sabinians vs Proculians</td><td>—</td><td>—</td><td>—</td><td><span class="L">specificatio</span>; treasure</td><td>destruction after LC</td><td>—</td></tr>
+    <tr><td class="h"><span class="L">confusio</span></td><td>—</td><td>—</td><td>—</td><td>mixing: nothing changes</td><td>—</td><td>holder becomes owner → servitude / pledge ends</td></tr>
+  </table>
+  <div class="g g3" style="margin-top:6px">
+    <div class="box f exg"><h3>The one-sentence story</h3><p class="small">You <b>possess</b> by <span class="L">animus</span> + <span class="L">corpus</span>; with a <b><span class="L">iusta causa</span></b> from the <b>owner</b> you become owner by <span class="L">traditio</span>; from a non-owner you <b>usucapt</b> in 1 or 2 years, protected meanwhile by the <b><span class="L">publiciana</span></b>; once owner you use the <b><span class="L">rei vindicatio</span></b>, and you can burden the thing with <b>servitudes</b> and <b>pledges</b>.</p></div>
+    <div class="box f exg"><h3>The three classic tensions</h3><ul class="small"><li><b>owner vs bona fide acquirer</b>: <span class="L">lex Atinia</span>, <span class="L">publiciana</span>, <span class="L">exceptio iusti dominii</span></li><li><b>material vs labour</b>: <span class="L">accessio</span>, <span class="L">specificatio</span>, building</li><li><b>creditor's security vs owner's autonomy</b>: convalescence (Paulus vs Modestinus), D 20.1.29.2</li></ul></div>
+    <div class="box f exg"><h3>Where the Digest keeps it</h3><ul class="small"><li>D 41.2 possession · D 41.1 acquiring ownership · D 41.3/41.4 usucapion</li><li>D 6.1 <span class="L">rei vindicatio</span> · D 6.2 <span class="L">publiciana</span></li><li>D 7–8 usufruct, servitudes · D 13.7 / D 20 pledge</li></ul></div>
+  </div>
+  <div class="foot"><span>Connections</span><span>19</span></div>
+</section>
+
+<!-- ============ 20. MAXIMS ============ -->
+<section class="page exg" style="--c:var(--exg)">
+  <div class="hd"><span class="tag">Glossary</span><h1>Latin maxims and phrases — by topic</h1><div class="meta">quote them exactly in your exegesis</div></div>
+  <div class="g g3">
+    <div class="col">
+      <div class="box pos"><h3>Persons &amp; possession</h3><ul class="small">
+        <li><span class="mx">nasciturus pro iam nato habetur, quotiens de commodis eius agitur</span> — the unborn child counts as born when it benefits</li>
+        <li><span class="mx">si quid universitati debetur, singulis non debetur</span> — a corporation is not its members (D 3.4.7.1)</li>
+        <li><span class="mx">animo et corpore</span> — the two elements of possession</li>
+        <li><span class="mx">oculis et affectu</span> — possession without touching (D 41.2.1.21)</li>
+        <li><span class="mx">nec vi nec clam nec precario</span> — not by force, not secretly, not by revocable grant</li>
+        <li><span class="mx">vim fieri veto</span> / <span class="mx">restituas</span> — prohibitory / restitutory interdict</li>
+        <li><span class="mx">vim vi repellere licet</span> — force may be met with force</li>
+        <li><span class="mx">nemo sibi ipse causam possessionis mutare potest</span> — no self-made title</li>
+        <li><span class="mx">animo nostro, corpore alieno</span> — our intent, another's body (D 41.2.3.12)</li>
+        <li><span class="mx">quia multa accidere possunt, ut eam non capiamus</span> — the wounded animal (D 41.1.5.1)</li></ul></div>
+    </div>
+    <div class="col">
+      <div class="box own"><h3>Ownership &amp; transfer</h3><ul class="small">
+        <li><span class="mx">nihil commune habet proprietas cum possessione</span> — D 41.2.12.1</li>
+        <li><span class="mx">nemo plus iuris transferre potest quam ipse habet</span> — D 41.1.20 pr</li>
+        <li><span class="mx">hunc ego hominem ex iure Quiritium meum esse aio…</span> — the <span class="L">mancipatio</span> formula</li>
+        <li><span class="mx">per traditionem quoque iure naturali res nobis adquiruntur</span> — Inst 2.1.40</li>
+        <li><span class="mx">venire contra factum proprium</span> — going against one's own earlier conduct</li>
+        <li><span class="mx">benignius est</span> — the kinder solution (D 39.5.25)</li></ul></div>
+      <div class="box usu" style="--c:var(--usu)"><h3>Usucapio</h3><ul class="small">
+        <li><span class="mx">res habilis, titulus, bona fides, possessio, tempus</span></li>
+        <li><span class="mx">mala fides superveniens non nocet</span> — later bad faith does no harm</li>
+        <li><span class="mx">tolerabilis error</span> — an excusable error (putative title)</li></ul></div>
+      <div class="box nat" style="--c:var(--nat)"><h3>Natural modes</h3><ul class="small">
+        <li><span class="mx">accessio cedit principali</span> — the addition follows the main thing</li>
+        <li><span class="mx">superficies solo cedit</span> — what is on the land follows the land</li>
+        <li><span class="mx">sine materia nulla species effici possit</span> — Sabinians</li>
+        <li><span class="mx">quod factum est, antea nullius fuerat</span> — Proculians</li>
+        <li><span class="mx">neque malitiis indulgendum est</span> — malice gets no protection (D 6.1.38)</li></ul></div>
+    </div>
+    <div class="col">
+      <div class="box pro" style="--c:var(--pro)"><h3>Protection</h3><ul class="small">
+        <li><span class="mx">ubi rem meam invenio, ibi vindico</span> — where I find my thing, I claim it</li>
+        <li><span class="mx">omnis condemnatio pecuniaria est</span> — every condemnation is in money</li>
+        <li><span class="mx">si paret rem … ex iure Quiritium Auli Agerii esse</span> — <span class="L">intentio</span></li>
+        <li><span class="mx">neque ea res restituetur</span> · <span class="mx">quanti ea res erit</span></li>
+        <li><span class="mx">pro possessione dolus est</span> — fraud takes the place of possession</li>
+        <li><span class="mx">si ea res Numerii Negidii non sit</span> — <span class="L">exceptio iusti dominii</span></li>
+        <li><span class="mx">melior est causa possidentis</span> — the possessor's position is better</li></ul></div>
+      <div class="box ser" style="--c:var(--ser)"><h3>Servitudes</h3><ul class="small">
+        <li><span class="mx">servitus in faciendo consistere nequit</span> — no duty to act</li>
+        <li><span class="mx">ususfructus est ius alienis rebus utendi fruendi salva rerum substantia</span> — D 7.1.1</li>
+        <li><span class="mx">nulli res sua servit</span> — no servitude over your own thing</li>
+        <li><span class="mx">servitus civiliter exercenda est</span> — use it considerately</li></ul></div>
+      <div class="box pig" style="--c:var(--pig)"><h3>Pledge</h3><ul class="small">
+        <li><span class="mx">prior tempore, potior iure</span> — earlier in time, stronger in law</li>
+        <li><span class="mx">indivisa est pignoris causa</span> — the pledge lasts until the debt is paid in full</li></ul></div>
+    </div>
+  </div>
+  <div class="foot"><span>Latin glossary · source: Benke/Meissel, Roman Law of Property (2nd ed.) — summary for personal study</span><span>20</span></div>
+</section>
+
+</body>
+</html>
