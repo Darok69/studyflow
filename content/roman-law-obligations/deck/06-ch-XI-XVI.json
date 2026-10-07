@@ -1,0 +1,2219 @@
+{
+ "subject": "Roman Law of Obligations",
+ "examDate": "2027-01-13",
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: Basics and rationale",
+   "front": "What are the ACTIONES ADIECTITIAE QUALITATIS?",
+   "back": "'Additional' actions extending a creditor's contractual claim against a (typically asset-less) debtor to the principal behind him, who can be expected to pay.\n• Mostly against the DOMINUS / PATER FAMILIAS for debts of persons in power.\n• DE PECULIO, DE IN REM VERSO, QUOD IUSSU: debtor must be in the principal's power.\n• EXERCITORIA, INSTITORIA: debtor may be in nobody's power or another's.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: Basics and rationale",
+   "front": "Example 74 (livestock trader Clemens): Ago buys a pig and Bellona a goose on credit — what is Clemens' problem?",
+   "back": "Ago is a son in power, Bellona is Dexter's slave: neither can actually pay Clemens.\n• Ago can be sued, but owns nothing — the judgment cannot be enforced.\n• Bellona owns nothing and, as a slave, cannot even be sued.\n• Solution: extend the claim to the power-holder, e.g. Dexter's letter = IUSSUM → ACTIO QUOD IUSSU.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: Basics and rationale",
+   "front": "Which two rationales justify holding a principal liable ADIECTITIAE QUALITATIS?",
+   "back": "Benefit and trust.\n• Benefit: the principal profits from business run by his 'manager', so he answers for its debts.\n• Trust: a creditor who reasonably relied on the principal's wealth may reach it.\n• Example 74 variant: Clemens relied on Dexter's IUSSUM → ACTIO QUOD IUSSU.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: Basics and rationale",
+   "front": "Paulus D 14.1.5.1: how is liability ADIECTITIAE QUALITATIS built into the formula?",
+   "back": "Not as an independent claim: the contractual claim is extended to a further debtor — NON TRANSFERTUR ACTIO, SED ADICITUR.\n• Example 74: ACTIO VENDITI with a QUOD IUSSU clause added to its formula.\n• Modern contrast: direct agency makes the principal the contracting party from the outset.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: Basics and rationale",
+   "front": "Are contractual debts of slaves and children in power legally relevant at all?",
+   "back": "Yes: they bind as natural obligations (OBLIGATIONES NATURALES) — not enforceable, but validly performable.\n• Sons in power incur enforceable obligations (Gaius D 44.7.39), but execution fails: no property.\n• Daughters in power, UXORES IN MANU, slaves: no enforceable obligations (Gai Inst 3.104).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: Basics and rationale",
+   "front": "Property link: why can a slave or son in power not pay his own debts, and what does a PECULIUM change?",
+   "back": "Persons in power own nothing: whatever they acquire belongs to the DOMINUS / PATER FAMILIAS.\n• PECULIUM = assets the DOMINUS leaves to the dependant's independent management — legally still the DOMINUS'.\n• Through it the dependant acquires possession and ownership for him, even without his knowledge.\n• The price: the DOMINUS becomes liable for the dependant's debts by ACTIO DE PECULIO.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: ACTIO DE PECULIO",
+   "front": "When does liability by ACTIO DE PECULIO arise, and which debts does it cover?",
+   "back": "When a power-holder grants a PECULIUM: he becomes liable for the dependant's contractual debts.\n• Every contractual obligation — not only those linked to the grantor's economic aims.\n• Grantor cannot restrict it: Gaius D 15.1.29.1 (Case 243/1), Paulus D 15.1.47 pr (Case 243/2).\n• Contrast: limits on an INSTITOR's PRAEPOSITIO are valid.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: ACTIO DE PECULIO",
+   "front": "ACTIO DE PECULIO: is the DOMINUS liable PRO VIRIBUS or CUM VIRIBUS?",
+   "back": "PRO VIRIBUS: capped at the PECULIUM's value, but the creditor can reach all the DOMINUS' assets.\n• CUM VIRIBUS would mean liability limited to particular assets.\n• Cap = value of the PECULIUM at the time of judgment.\n• The dependant's own liability is unlimited (relevant on release, Ulpian D 15.1.44).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: ACTIO DE PECULIO",
+   "front": "How is the PECULIUM valued for the ACTIO DE PECULIO?",
+   "back": "At judgment: its assets, minus the DOMINUS' claims against it, plus the dependant's claims against the DOMINUS.\n• Deduction: Tubero (Celsus) in Ulpian D 15.1.5.4 (Case 241/1).\n• Effect: the grantor ranks before all other creditors.\n• But his own debts to the PECULIUM count as its assets.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: ACTIO DE PECULIO",
+   "front": "Example 75: Hera lent 1,000 to slave Anicius' PECULIUM and owes him 250; Anicius owes Pomona 700; the PECULIUM holds 1,400. What does Pomona get?",
+   "back": "650 from Hera, by ACTIO VENDITI as ACTIO DE PECULIO.\n• 1,400 − 1,000 (Hera's claim) + 250 (Hera's debt) = 650.\n• The remaining 50 cannot be recovered this way.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: ACTIO DE PECULIO",
+   "front": "Ulpian D 15.1.21 pr (Case 242): may the DOMINUS shrink the PECULIUM to escape its creditors?",
+   "back": "He may withdraw or reshape it at any time, but dolose changes do not reduce his ACTIO DE PECULIO liability.\n• Withdrawal → DOLUS presumed; also a slave deliberately muddling the PECULIUM.\n• Strict rule: once a suit is foreseeable, every change counts as dolose.\n• Not dolose: paying a creditor from the PECULIUM — lowers the cap legitimately.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: ACTIO DE PECULIO",
+   "front": "Example 76: Galenus' PECULIUM (900) owes Omphale 800 and Menander 300; Omphale wins judgment first. Result?",
+   "back": "Omphale recovers 800 in full; Menander, suing later, gets only 100.\n• Creditors are paid in the order they enforce, until the cap is used up.\n• No pro-rata distribution as in insolvency.\n• Exception MERX PECULIARIS → ACTIO TRIBUTORIA (not ADIECTITIAE QUALITATIS).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: DE IN REM VERSO and QUOD IUSSU",
+   "front": "What is the ACTIO DE IN REM VERSO, and when is it typically invoked?",
+   "back": "Liability of the DOMINUS insofar as he is enriched (VERSIO) through the business of a person in his power.\n• Stands beside DE PECULIO in the same part of the formula.\n• Used where there is no PECULIUM or the claim exceeds it (Servius in Alfenus D 15.3.16, Case 245).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: DE IN REM VERSO and QUOD IUSSU",
+   "front": "Which three kinds of benefit to the DOMINUS count as VERSIO?",
+   "back": "Discharge of his debt, his necessary expenses, absorption into his regular capital.\n• Ex 77: slave Maevius borrows from Felix and pays Scipio's 300 rent.\n• Ex 78: son Victor buys bread and wine on credit for Scipio's unfed slaves.\n• Ex 79: Maevius buys seed and sows a field Scipio runs himself.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: DE IN REM VERSO and QUOD IUSSU",
+   "front": "What is the DOMINUS' 'regular capital', and why does it matter for VERSIO?",
+   "back": "Assets he manages directly, not through dependants deciding independently; what is absorbed into it enriches him.\n• Neratius (Paulus D 15.3.19 pr): son's toga, unknowingly used for his funeral → IN REM PATRIS VERSUM.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: DE IN REM VERSO and QUOD IUSSU",
+   "front": "ACTIO DE IN REM VERSO vs ACTIO QUOD IUSSU — how much does the creditor recover?",
+   "back": "DE IN REM VERSO: at most the enrichment, and never more than the agreed price; QUOD IUSSU: the full contractual claim.\n• Cap of the VERSIO: Gaius D 15.3.12 (Case 244).\n• No actual VERSIO, no claim — even if pretended (Ulpian D 15.3.3.9, Case 247).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: DE IN REM VERSO and QUOD IUSSU",
+   "front": "Julian in Africanus D 15.3.17 pr (Case 248): a slave borrows for his DOMINUS but loses the money without fault before using it. VERSIO?",
+   "back": "Yes, if he genuinely meant to use it for the DOMINUS: VERSIO occurs already with the DATIO to the slave.\n• Probably beyond the prevailing view.\n• Parallel to UTILITER COEPTUM in NEGOTIORUM GESTIO: usefulness judged ex ante.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: DE IN REM VERSO and QUOD IUSSU",
+   "front": "What are the requirements of liability by ACTIO QUOD IUSSU?",
+   "back": "The DOMINUS authorised the dependant to contract (IUSSUM), the third party learned of it and contracted relying on it.\n• Clear application of the reliance principle (Gai Inst 4.70).\n• Form free; one deal or a whole class of contracts (Ulpian D 15.4.1.1, Case 249).\n• Later approval (RATIHABITIO) suffices too (Ulpian D 15.4.1.6, Case 250).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: DE IN REM VERSO and QUOD IUSSU",
+   "front": "Property link: IUSSUM to contract vs IUSSUM to acquire ownership through a dependant — what is the difference?",
+   "back": "Acquisition IUSSUM mainly expresses the DOMINUS' ANIMUS REM SIBI HABENDI; third-party reliance plays no role.\n• Contracting IUSSUM matters because the third party relies on it.\n• Property law: without IUSSUM or PECULIUM no acquisition, unless approved later (RATIHABITIO).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p2",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: EXERCITORIA and INSTITORIA",
+   "front": "ACTIO EXERCITORIA — who is liable, and for what?",
+   "back": "The ship operator (EXERCITOR) who made known he appointed a captain (MAGISTER NAVIS) answers for the captain's business obligations.\n• Unqualified PRAEPOSITIO: carriage, supplies, repairs, wages (Ulpian D 14.1.1.7, Case 252).\n• Narrowed by declaration: freight-only captain charters whole ship → no liability (D 14.1.1.12, Case 253).\n• Captain may be in the operator's power, another's, or nobody's.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: EXERCITORIA and INSTITORIA",
+   "front": "ACTIO INSTITORIA — who is liable, and what is the PRAEPOSITIO?",
+   "back": "A business owner who made known he appointed a manager (INSTITOR) answers for obligations causally connected with the business.\n• PRAEPOSITIO = externally recognisable appointment as manager.\n• Ordinary course includes a business loan (Ulpian D 14.3.5.13, Case 257).\n• Explicitly forbidden borrowing → no ACTIO INSTITORIA for the loan.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: EXERCITORIA and INSTITORIA",
+   "front": "Ulpian D 14.3.5.10 (Case 259): a laundry owner leaving on a journey puts an assistant in charge. Liability ADIECTITIAE QUALITATIS?",
+   "back": "Only if the assistant was authorised to deal with third parties (INSTITOR), not for mere internal administration (PROCURATOR).\n• INSTITOR = external business; PROCURATOR = internal administration.\n• Recent scholarship: probably one of his assistants (DISCIPULUS), not an outsider.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XI — Actiones adiectitiae qualitatis: EXERCITORIA and INSTITORIA",
+   "front": "PROCURATOR vs INSTITOR — and what did Papinian's ACTIO QUASI INSTITORIA add?",
+   "back": "PROCURATOR administers internally, INSTITOR deals externally; Papinian extended institorial liability to procurators.\n• PROCURATOR PRAEPOSITUS for loans → DOMINUS liable alongside him (Papinian D 14.3.19 pr, Case 260).\n• Even without PRAEPOSITIO: buyer knew of and relied on the mandate (D 19.1.13.25, Case 261).\n• Most important step toward direct agency; cf § 1029 ABGB apparent authority.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XII — Negotiorum gestio: Concept and another's affairs",
+   "front": "What is NEGOTIORUM GESTIO?",
+   "back": "Deliberately taking care of another's affairs without being bound or authorised by mandate or other contract.\n• Intervener = NEGOTIORUM GESTOR; principal = DOMINUS NEGOTII.\n• Origin AMICITIA: defending an ABSENS INDEFENSUS in court to avert MISSIO IN BONA.\n• A quasi-contract: duties arise from a contract-like factual situation.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XII — Negotiorum gestio: Concept and another's affairs",
+   "front": "ACTIO NEGOTIORUM GESTORUM DIRECTA vs CONTRARIA?",
+   "back": "Both BONAE FIDEI IUDICIA: DIRECTA = principal against gestor; CONTRARIA = gestor against principal.\n• DIRECTA: for what was obtained and, where relevant, damages.\n• CONTRARIA: for certain expenses and losses.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XII — Negotiorum gestio: Concept and another's affairs",
+   "front": "MANDATUM vs NEGOTIORUM GESTIO — common ground and difference?",
+   "back": "Both: (free) management of another's affairs; only mandate rests on an agreement grounding rights and duties.\n• NEGOTIORUM GESTIO is therefore classed as a quasi-contract.\n• In both, mixed interests suffice.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. XII — Negotiorum gestio: Concept and another's affairs",
+   "front": "When is an affair 'another's' (NEGOTIUM ALIENUM), and which intent must the gestor have?",
+   "back": "It must fall within or directly benefit the principal's sphere; gestor acts with ANIMUS REM ALTERI GERENDI.\n• Nursing another's sick slave (C 2.18(19).10, Case 220).\n• Shoring up another's collapsing house (Ulpian D 3.5.9(10).1, Case 219).\n• Paying another's debts (Labeo D 3.5.42(43), Case 222/1); court representation.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XII — Negotiorum gestio: Concept and another's affairs",
+   "front": "Example 80: co-owner Aron repairs the common roof for 10,000 without asking co-owner Iokaste. Claim?",
+   "back": "Yes: as NEGOTIORUM GESTOR he can claim half (5,000) from Iokaste.\n• The necessary repair benefits him, but also serves her — mixed interest suffices.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XII — Negotiorum gestio: Concept and another's affairs",
+   "front": "Do services rendered out of family duty (PIETAS) found a gestor's claim?",
+   "back": "No: support from legal duty or PIETAS is not NEGOTIUM ALIENUM — no reimbursement.\n• Parents (Case 225), stepparents (Case 226), uncle for niece (Modestinus D 3.5.26(27).1, Case 224).\n• Expecting reimbursement (ANIMUS RECIPIENDI) → ACTIO NEGOTIORUM GESTORUM CONTRARIA.\n• Donation or gestio? Circumstances decide (Celsus D 24.1.47, Case 227).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XII — Negotiorum gestio: Usefulness and expenses",
+   "front": "Usefulness (NEGOTIUM UTILITER GESTUM): which two pairs of criteria exist, and which does Roman law apply?",
+   "back": "Objective vs subjective, ex ante vs ex post; Roman law: subjective usefulness, judged ex ante (UTILITER COEPTUM).\n• Subjective: how this principal himself would have acted — individualistic.\n• Ex ante: judged when the gestor starts, not by success.\n• Necessitous intervention is usually in the principal's interest.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XII — Negotiorum gestio: Usefulness and expenses",
+   "front": "Ulpian (Labeo, Proculus, Celsus) D 3.5.9(10).1 (Case 219): A props up B's house, which burns anyway; A nurses B's slave, who dies. Claim?",
+   "back": "Yes: expenses recoverable — usefulness at the start counts, not success (Labeo; Julian).\n• Proculus: house that B had abandoned (derelinquished) → no claim, it would burden B.\n• Celsus: there the gestio was not subjectively useful.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XII — Negotiorum gestio: Usefulness and expenses",
+   "front": "Which expenses can a NEGOTIORUM GESTOR recover?",
+   "back": "Necessary (IMPENSAE NECESSARIAE) and, as a rule, useful ones (IMPENSAE UTILES); never luxury (IMPENSAE VOLUPTATIS CAUSA).\n• Necessary: avert destruction or deterioration, e.g. putting out a fire.\n• Useful: raise the asset's value.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XII — Negotiorum gestio: Usefulness and expenses",
+   "front": "Modestinus D 3.5.26(27) pr (Case 221): adult A builds on land co-owned with his minor brother B; after division A wants the added value. Claim?",
+   "back": "No reimbursement for expenses made VOLUPTATIS CAUSA rather than RE URGENTE.\n• E contrario: necessary and useful expenses reimbursable.\n• Or RE URGENTE limits A to necessary expenses, protecting the minor co-owner.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XII — Negotiorum gestio: Gestor's liability and PROHIBENTE DOMINO",
+   "front": "What is the NEGOTIORUM GESTOR's standard of liability, and when is it lowered or raised?",
+   "back": "In principle OMNIS CULPA — DOLUS and CULPA (Pomponius D 3.5.10(11), Case 217).\n• Lowered: necessitous intervention → only DOLUS.\n• Raised: deals the principal does not usually make → even chance losses.\n• Reason: ambivalence of friendly help vs interference.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XII — Negotiorum gestio: Gestor's liability and PROHIBENTE DOMINO",
+   "front": "Ulpian (Labeo) D 3.5.3.9 (Case 218): A steps in to save friend B from imminent bankruptcy and negligently causes a loss. Liable?",
+   "back": "No: in necessitous intervention the gestor answers only for DOLUS — justified by AEQUITAS.\n• Cf § 680 BGB: intent and gross negligence only.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XII — Negotiorum gestio: Gestor's liability and PROHIBENTE DOMINO",
+   "front": "Pomponius (Proculus) D 3.5.10(11) (Case 217): while B is away, A buys untrained slaves — a deal B never makes — and B suffers loss. Liable?",
+   "back": "Yes, even without fault: the gestor bears losses from unusual dealings.\n• Profit from such a deal goes to the principal.\n• Profit and loss together: COMPENSATIO LUCRI CUM DAMNO (cf § 1312 ABGB).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XII — Negotiorum gestio: Gestor's liability and PROHIBENTE DOMINO",
+   "front": "NEGOTIORUM GESTIO PROHIBENTE DOMINO — may the gestor claim his expenses?",
+   "back": "Disputed: some grant an ACTIO NEGOTIORUM GESTORUM or ACTIO UTILIS; Julian, Paulus and Pomponius deny any action.\n• Against: the principal's declared will must be respected.\n• For: the principal is enriched, e.g. released by the surety's payment.\n• Paulus D 17.1.40 (Case 223/1); Justinian C 2.18(19).24 (Case 223/2).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Concept and FIDEIUSSIO",
+   "readyBy": "2026-12-16",
+   "front": "What is suretyship, and which relationships does it create?",
+   "back": "A further person besides the debtor becomes personally liable with all his assets for the debtor's debt.\n• Contract creditor–surety, tied to the primary debt: three-person relationship.\n• Internal relationship surety–debtor: usually mandate or NEGOTIORUM GESTIO.\n• Standing surety = intercession (INTERCEDERE); SC VELLEIANUM: women → EXCEPTIO SC VELLEIANI.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Concept and FIDEIUSSIO",
+   "readyBy": "2026-12-16",
+   "front": "Suretyship vs pledge — advantages and disadvantages for the creditor?",
+   "back": "Surety: execution against all his assets, but only in personam; pledge: only the thing, but with priority.\n• Insolvent surety → creditor satisfied only pro rata.\n• Pledgee holds a right in rem: priority even in the debtor's bankruptcy.\n• Ex 81: Pelias guarantees Nike's 10,000 loan from Agamemnon.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Concept and FIDEIUSSIO",
+   "readyBy": "2026-12-16",
+   "front": "How is a FIDEIUSSIO concluded?",
+   "back": "By STIPULATIO — creditor asks, guarantor answers yes: QUOD MAEVIUS MIHI DEBET, ID FIDE TUA ESSE IUBES?\n• A verbal contract; the most important classical form of suretyship.\n• Forerunners SPONSIO, FIDEPROMISSIO secure only stipulated claims (others first novated).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Concept and FIDEIUSSIO",
+   "readyBy": "2026-12-16",
+   "front": "Classical FIDEIUSSOR: equal-ranking or subsidiary — and what did Justinian change?",
+   "back": "Classical: equal-ranking alternative debtor; Justinian: subsidiary through the BENEFICIUM EXCUSSIONIS.\n• Classical creditor chooses; procedural consumption bars suing the other afterwards.\n• BENEFICIUM EXCUSSIONIS: creditor must first go to the primary obligor.\n• Modern: subsidiarity and accessoriness; but guarantor-and-payer, § 1357 ABGB.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Accessoriness and objections",
+   "readyBy": "2026-12-16",
+   "front": "What does accessoriness of the FIDEIUSSOR's obligation mean?",
+   "back": "Existence, continuance and amount of his debt depend on the principal debt — he promises QUOD MAEVIUS DEBET.\n• SPONSIO / FIDEPROMISSIO instead follow the debtor's original verbal promise.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Accessoriness and objections",
+   "readyBy": "2026-12-16",
+   "front": "Paulus D 46.1.56.2 (Case 51 a): G lends D a third party's coins; B guarantees repayment by FIDEIUSSIO. Is B bound?",
+   "back": "At delivery no: ownership did not pass, so no MUTUUM arose. Once D spends the coins, B is liable (CONDICTIO).\n• Spending makes D owner and obliges him to repay.\n• B guarantees every legal ground arising from the money transfer.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Accessoriness and objections",
+   "readyBy": "2026-12-16",
+   "front": "Property link: NUMMOS CONSUMERE — why does spending another's coins matter for loans and suretyship?",
+   "back": "Spending or mixing the coins makes the recipient owner originally, though no valid transfer occurred.\n• Before spending: the owner can still vindicate the coins (REI VINDICATIO).\n• After: only a CONDICTIO for repayment — which a FIDEIUSSOR can secure (Case 51 a).\n• Thief who mixes coins: CONDICTIO FURTIVA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Accessoriness and objections",
+   "readyBy": "2026-12-16",
+   "front": "Which of the debtor's defences may the guarantor raise, and which not?",
+   "back": "Defences concerning the debt itself — even against the debtor's will; not strictly personal ones.\n• Yes: EXCEPTIO DOLI, QUOD METUS CAUSA, REI IUDICATAE, PACTI DE NON PETENDO, SC MACEDONIANI.\n• No: BENEFICIUM COMPETENTIAE (ID QUOD FACERE POTEST), e.g. husband restoring the DOS.\n• Marcian D 44.1.19 (Case 51 b); Paulus D 44.1.7.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIII — Suretyship: Accessoriness and objections",
+   "readyBy": "2026-12-16",
+   "front": "Can a natural obligation be secured by FIDEIUSSIO — a slave's loan, or a loan against the SC MACEDONIANUM?",
+   "back": "Yes: the creditor may sue the surety although the slave's debt is unenforceable.\n• SC MACEDONIANUM loan: also imperfect, but the EXCEPTIO is factual — the guarantor can raise it.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Recourse",
+   "readyBy": "2026-12-16",
+   "front": "What is the guarantor's recourse, and which action does he use?",
+   "back": "His right to reimbursement from the person whose debt it materially is; the action follows the internal relationship.\n• Mandate → ACTIO MANDATI CONTRARIA.\n• NEGOTIORUM GESTIO → ACTIO NEGOTIORUM GESTORUM CONTRARIA.\n• Or assignment of the creditor's claim (BENEFICIUM CEDENDARUM ACTIONUM).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. XIII — Suretyship: Recourse",
+   "readyBy": "2026-12-16",
+   "front": "When is the surety–debtor relationship a mandate, and what follows from it?",
+   "back": "When he stands surety at the debtor's request or apparent approval, e.g. in his presence (Ulpian D 17.1.6.2).\n• His payment = expense of the mandate → ACTIO MANDATI CONTRARIA.\n• Mutual duties: e.g. notify the other before paying, to avoid double payment.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Recourse",
+   "readyBy": "2026-12-16",
+   "front": "Ulpian D 17.1.29.3 (Case 177): surety G pays creditor C without telling mandator D; D then pays C again. G's recourse?",
+   "back": "No ACTIO MANDATI CONTRARIA: failing to inform comes very close to DOLUS (CULPA LATA).\n• G may demand that D cede his CONDICTIO INDEBITI against C.\n• So G bears the risk of C's insolvency.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIII — Suretyship: Recourse",
+   "readyBy": "2026-12-16",
+   "front": "Recourse via NEGOTIORUM GESTIO: when is the guarantor's payment useful to the debtor?",
+   "back": "Normally, since it frees the debtor — if the guarantor acts with ANIMUS RECIPIENDI, not to donate.\n• Not useful: paying a non-existent debt or one with a permanent EXCEPTIO.\n• Then CONDICTIO INDEBITI against the creditor (Ulpian D 12.6.25, Case 51 e).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIII — Suretyship: Recourse",
+   "readyBy": "2026-12-16",
+   "front": "Surety against the principal debtor's express wish — does he have recourse?",
+   "back": "Disputed: most refuse the ACTIO NEGOTIORUM GESTORUM CONTRARIA; some grant it or an ACTIO UTILIS.\n• Against: Paulus and Pomponius D 17.1.40 (Case 223/1); Julian, followed by Justinian (Case 223/2).\n• For: the debtor is freed at the guarantor's expense — enrichment.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIII — Suretyship: Recourse",
+   "readyBy": "2026-12-16",
+   "front": "BENEFICIUM CEDENDARUM ACTIONUM: how did recourse by assignment develop?",
+   "back": "Classical agreed assignment → Justinian's right to demand it (CESSIO NECESSARIA) → modern CESSIO LEGIS (§ 1358 ABGB).\n• Technique: MANDATUM IN REM SUAM — guarantor sues on the creditor's action.\n• Advantage: pledges and other sureties attached to the claim pass too.\n• Guarantor 'buys' the claim (Paulus D 46.1.36, Case 51 h).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Co-suretyship",
+   "readyBy": "2026-12-16",
+   "front": "LEX APULEIA vs LEX FURIA DE SPONSU — position of co-guarantors?",
+   "back": "Both only for SPONSIO and FIDEPROMISSIO; APULEIA: joint liability plus internal recourse; FURIA: several liability.\n• APULEIA: creditor claims all from one, who recovers shares from the others.\n• FURIA: creditor must sue each for his share — higher litigation costs.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Co-suretyship",
+   "readyBy": "2026-12-16",
+   "front": "Joint vs several liability?",
+   "back": "Joint: each debtor owes the whole (IN SOLIDUM), creditor receives it only once; several: each owes only a proportionate part.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Co-suretyship",
+   "readyBy": "2026-12-16",
+   "front": "EPISTULA HADRIANI — what does it give co-FIDEIUSSORES?",
+   "back": "Proportionate liability of all solvent co-guarantors, who share the insolvency risk; plus the BENEFICIUM DIVISIONIS.\n• Before: joint full liability (Gai Inst 3.121).\n• Invoker must prove the others' solvency: EXCEPTIO SI NON ET ILLI SOLVENDI SINT.\n• Paid all without invoking it → recourse only by assigned claim (Modestinus D 46.1.39, Case 51 d).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XIII — Suretyship: Co-suretyship",
+   "readyBy": "2026-12-16",
+   "front": "Example 82: D owes C 120,000; W, X, Y, Z are sureties; D is insolvent. What can C take from W under LEX APULEIA, LEX FURIA, EPISTULA HADRIANI?",
+   "back": "APULEIA: all 120,000 (W then recovers 30,000 from each); FURIA: 30,000; HADRIANI: 30,000.\n• Under HADRIANI, if one co-surety is insolvent, the three solvent ones owe 40,000 each.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XIV — Unjustified enrichment: Property law and enrichment",
+   "front": "What is unjustified enrichment, and which remedies reverse it?",
+   "back": "Assets moved without justifying legal cause to someone not entitled; reversed mainly by CONDICTIONES, also ACTIONES IN FACTUM.\n• Ex 83: Agatha pays Belias a non-debt; he mixes the coins → CONDICTIO.\n• Ex 84: Castor plants Pomona's olive trees, owner by accession → her ACTIO IN FACTUM.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIV — Unjustified enrichment: Property law and enrichment",
+   "front": "Property link: REI VINDICATIO or CONDICTIO — how do you decide after a failed transfer?",
+   "back": "Ask whether ownership passed: if not, the owner vindicates the thing; if yes, only an enrichment CONDICTIO.\n• TRADITIO without IUSTA CAUSA → no ownership → REI VINDICATIO.\n• Ownership passed (mixing, PRO SOLUTO, MANCIPATIO) → CONDICTIO in personam.\n• REI VINDICATIO lies against any possessor; CONDICTIO only against the recipient.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. XIV — Unjustified enrichment: Property law and enrichment",
+   "front": "Examples 85 and 86: a slave delivers Agrippa's statue to the wrong address; PRODIGUS Philto sells a vase without his curator. Remedy?",
+   "back": "REI VINDICATIO: without IUSTA CAUSA no ownership passed.\n• Ex 85: Cassandra has no cause either for acquiring or for keeping.\n• Ex 86: curator's consent lacking → REI VINDICATIO (or ACTIO PUBLICIANA) against Helena.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: Property law and enrichment",
+   "front": "When does a recipient become owner yet still owe restitution under the law of obligations?",
+   "back": "Exceptionally: PRO SOLUTO without debt, abstract conveyance, later loss of cause, or original acquisition.\n• Abstract MANCIPATIO / IN IURE CESSIO pass ownership even if the causa was void.\n• Contract dissolved EX NUNC → recipient must re-transfer.\n• Not after USUCAPIO: the usucapient owes nothing; nor the BONA FIDEI POSSESSOR for fruits.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. XIV — Unjustified enrichment: Property law and enrichment",
+   "front": "Example 87: Cato promises Felix 100 by abstract stipulation, meant as DOS; the marriage fails; Felix sues. Defence?",
+   "back": "The abstract promise is valid, but Cato has the EXCEPTIO DOLI; later also a CONDICTIO LIBERATIONIS.\n• Shows: claims, too, can be acquired without justification.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XIV — Unjustified enrichment: Property law and enrichment",
+   "front": "What is a CONDICTIO, and is it only an enrichment action?",
+   "back": "An ACTIO IN PERSONAM for a specific sum (CERTA PECUNIA) or specific thing (CERTA RES).\n• Also contractual: loan repayment (ACTIO CERTAE CREDITAE PECUNIAE), stipulated CERTUM.\n• Enrichment types: INDEBITI, OB REM, OB TURPEM CAUSAM.\n• CONDICTIO EX CAUSA FURTIVA: from a modern view delictual.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: Property law and enrichment",
+   "front": "What are the two meanings of CONDICTIO SINE CAUSA?",
+   "back": "Narrow: restitution after an abstract conveyance (MANCIPATIO, IN IURE CESSIO) without valid causa; broad: umbrella for all enrichment condictions.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XIV — Unjustified enrichment: CONDICTIO INDEBITI",
+   "front": "What are the requirements of the CONDICTIO INDEBITI?",
+   "back": "Performance (DATIO), not owed (INDEBITUM), made by mistake.\n• Aim: reverse a transfer made to perform a supposed obligation.\n• Gaius classes it as a real obligation (Gai Inst 3.91, Case 229).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: CONDICTIO INDEBITI",
+   "front": "What counts as 'performance' for the CONDICTIO INDEBITI?",
+   "back": "A DATIO making the recipient owner, intentionally given and intentionally received.\n• Recipient not owner → REI VINDICATIO / ACTIO PUBLICIANA instead.\n• Ex 88: Cara's iron soldered to a statue → accession, no performance; maybe ACTIO IN FACTUM.\n• Building on another's land: no CONDICTIO, only retention (Julian D 12.6.33, Case 230).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIV — Unjustified enrichment: CONDICTIO INDEBITI",
+   "front": "Which payments count as 'not owed' (INDEBITUM) — and which not?",
+   "back": "Not owed: non-existent debt, permanent EXCEPTIO, unfulfilled condition, ward without tutor; owed: natural obligations, early payment.\n• Ex 89: payment despite PACTUM DE NON PETENDO → reclaimable.\n• Ward: Neratius D 12.6.41 (Case 232); condition: Pomponius D 12.6.16 pr.\n• SC MACEDONIANUM repayment; early payment (Paulus D 12.6.10): no CONDICTIO.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIV — Unjustified enrichment: CONDICTIO INDEBITI",
+   "front": "CONDICTIO INDEBITI: what if the payer, or the recipient, knew there was no debt?",
+   "back": "Payer knew: no CONDICTIO — he is SIMILIS EI QUI DONAT; recipient knew: FURTUM → ACTIO FURTI and CONDICTIO FURTIVA.\n• Mistake of law probably suffices; § 1431 ABGB expressly.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XIV — Unjustified enrichment: OB REM, OB TURPEM CAUSAM, FURTIVA",
+   "front": "CONDICTIO OB REM (CAUSA DATA CAUSA NON SECUTA) — when does it lie?",
+   "back": "Performance given for an expected counter-performance or event, without enforceable contract — and the expectation fails.\n• CAUSA DATA: the agreement suffices for ownership to pass.\n• CAUSA NON SECUTA: only remedy is reclaiming one's own performance.\n• Ex 90: Prosper gives 1,000 DOS; the marriage never happens.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: OB REM, OB TURPEM CAUSAM, FURTIVA",
+   "front": "CONDICTIO OB REM vs CONDICTIO OB CAUSAM FINITAM?",
+   "back": "OB REM: counter-performance typically unenforceable; OB CAUSAM FINITAM: an originally enforceable cause later falls away.\n• Launderer pays for lost clothes; owner finds them → contract action or CONDICTIO (Cassius in Ulpian D 12.7.2).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIV — Unjustified enrichment: OB REM, OB TURPEM CAUSAM, FURTIVA",
+   "front": "CONDICTIO OB TURPEM VEL INIUSTAM CAUSAM — when does it lie, and when not?",
+   "back": "Restitution of performance for an immoral or prohibited purpose, even if achieved — unless the payer is equally to blame.\n• Ex 91 'your money or your life'; Ex 92 unagreed 'reward' to return jewellery.\n• IN PARI TURPITUDINE MELIOR EST CAUSA POSSIDENTIS.\n• Bribing the IUDEX: no restitution (Paulus D 12.5.3, Case 238).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XIV — Unjustified enrichment: OB REM, OB TURPEM CAUSAM, FURTIVA",
+   "front": "Property link: what does the CONDICTIO FURTIVA add to the owner's REI VINDICATIO against a thief?",
+   "back": "Liability for the value even after the thing is gone: FUR SEMPER IN MORA EST.\n• The thief never becomes owner; REI VINDICATIO needs the thing still existing.\n• CONDICTIO FURTIVA lies only against the FUR (or a knowing receiver).\n• Both reipersecutory → choose one; cumulate with the penal ACTIO FURTI.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: Payment orders (DELEGATIO)",
+   "front": "Payment order (DELEGATIO): name the three persons and the three relationships.",
+   "back": "Delegator A, delegatee B, obligee C.\n• A–B: cover relationship; A–C: underlying debt relationship; B–C: performance relationship.\n• Ex 93: B's payment to C discharges B's debt to A and A's debt to C at once.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: Payment orders (DELEGATIO)",
+   "front": "Active vs passive delegation (DELEGATIO OBLIGANDI)?",
+   "back": "Active: novation with change of creditor (C replaces A); passive: novation with change of debtor (B replaces A).\n• Active: B keeps his defences against A (Ex 94: price reduction).\n• Passive: B can raise A's defences against C (Ex 95: loan of 500).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: Payment orders (DELEGATIO)",
+   "front": "Unwinding a payment order: who sues whom if the cover, the underlying, or both relationships are defective?",
+   "back": "Cover defective: B against A; underlying defective: A against C; both defective: B directly against C.\n• The valid relationship stays unaffected.\n• Ex 96: B pays C's DOS for A, owing A nothing → CONDICTIO INDEBITI against A.\n• Ex 97: both defective → B's CONDICTIO against C (Julian D 12.4.7 pr, Case 234).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: Cessation of enrichment and praetorian remedies",
+   "front": "Must a CONDICTIO defendant pay if he is no longer enriched?",
+   "back": "In principle yes — fixed by what was received; but a good-faith disposer is released, except for a surrogate.\n• Knowing disposer: estimated value.\n• Thing perished: liable if negligent or already in delay.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: Cessation of enrichment and praetorian remedies",
+   "front": "Paulus D 12.6.65.8 (Case 229 a): E mistakenly delivers an unowed slave to T, who frees him. What does E's CONDICTIO aim at?",
+   "back": "T in bad faith: the slave's value; T in good faith: only the OPERAE LIBERORUM and his inheritance right.\n• This replacement asset = 'substitute commodum'.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: Cessation of enrichment and praetorian remedies",
+   "front": "Which praetorian remedies balance shifts of assets not based on performance?",
+   "back": "Retention for a BONA FIDE possessor's expenses; ACTIO IN FACTUM after ACCESSIO or SPECIFICATIO; ACTIO UTILIS after consumption.\n• Ex 98: Thisbe builds on Eudemos' land (SUPERFICIES SOLO CEDIT).\n• NEMINEM CUM ALTERIUS DETRIMENTO ET INIURIA FIERI LOCUPLETIOREM (Pomponius D 50.17.206).\n• Amount: QUANTO LOCUPLETIOR FACTUS EST — claimant bears any excess loss.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XIV — Unjustified enrichment: Cessation of enrichment and praetorian remedies",
+   "front": "Pomponius D 46.3.66 (Case 231): ward A, without his tutor, orders B to pay A's creditor C; B wrongly thinks he owes A. B's claim?",
+   "back": "No CONDICTIO INDEBITI against the ward, but an ACTIO UTILIS for QUANTO LOCUPLETIOR FACTUS EST.\n• Ward enriched by the full sum: his real debt to C was discharged.\n• CONDICTIO recovers the sum paid; ACTIO UTILIS only the present enrichment.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. XIV — Unjustified enrichment: Cessation of enrichment and praetorian remedies",
+   "front": "Example 100: why is the ACTIO DE IN REM VERSO also an enrichment remedy?",
+   "back": "The VERSIO is both ground and cap of the DOMINUS' liability.\n• Slave borrows 1,000 for a summer house; land value rises 800.\n• Mistress would have built anyway: 1,000 saved; otherwise: 800.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XIV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: Damages basics",
+   "readyBy": "2026-12-16",
+   "front": "Who bears the loss from harm, and when does it shift to someone else?",
+   "back": "Basic rule: the person whose goods are affected; it shifts to whoever caused the harm unlawfully and culpably.\n• Ex 101: villa worth 800,000 struck by lightning — the owner's loss.\n• Ex 103: neighbour Ares sets it on fire → damages claim of 800,000.\n• Roman risk-sharing like insurance: SOCIETAS, FENUS NAUTICUM.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: Damages basics",
+   "readyBy": "2026-12-16",
+   "front": "Damages EX CONTRACTU vs EX DELICTO?",
+   "back": "EX CONTRACTU: breach of contractually assumed duties; EX DELICTO: breach of duties binding everyone, defined as delicts.\n• Ex 105: Leonidas eats the sold bull; Burrus buys another for 1,200 → 200 contractual damages.\n• Delict core: harm to absolutely protected property and bodily integrity.\n• Ex 106: Lysippe's galloping horse injures senator Cato.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: Damages basics",
+   "readyBy": "2026-12-16",
+   "front": "Indemnification (INDEMNITAS) vs penalty (POENA)?",
+   "back": "INDEMNITAS makes good the loss and never exceeds it; POENA aims at punishment and deterrence.\n• Roman private penalty goes to the injured party, on top of compensation.\n• Modern continental law reserves punishment for the state.\n• Anglo-American punitive damages, e.g. Rock Hudson case: $ 7,250,000 against assistant Miller.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: INIURIA and FURTUM",
+   "readyBy": "2026-12-16",
+   "front": "What is the delict INIURIA, and what does it require?",
+   "back": "Violation of personality rights — honour and physical integrity of free Romans; requires DOLUS (ANIMUS INIURIANDI).\n• E.g. a mocking caterwauling 'concert'; deliberate bodily injury.\n• ACTIO INIURIARUM: penal; victim's own estimate, reviewed AEQUUM ET BONUM.\n• Injuring another's slave intentionally: DAMNUM INIURIA DATUM and INIURIA to the DOMINUS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: INIURIA and FURTUM",
+   "readyBy": "2026-12-16",
+   "front": "What is FURTUM, and how broad is it?",
+   "back": "Appropriating, without authority and intending to enrich oneself, a movable known to be another's.\n• Only movables (Gai Inst 2.51).\n• Includes embezzlement; FURTUM USUS = misusing a deposited or borrowed thing (Gai Inst 3.196).\n• DOLUS must show in an outward act of taking control.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XV — Infliction of harm: INIURIA and FURTUM",
+   "readyBy": "2026-12-16",
+   "front": "Who besides the owner can sue for FURTUM — and can the owner commit it?",
+   "back": "Holders liable for CUSTODIA (e.g. pledgees, borrowers), if solvent; the owner can commit FURTUM himself.\n• Owner taking his own thing from someone with a right of retention (Julian D 47.2.60(59), Case 30).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: INIURIA and FURTUM",
+   "readyBy": "2026-12-16",
+   "front": "Which remedies lie for FURTUM, and how do they combine?",
+   "back": "Penal ACTIO FURTI plus one reipersecutory remedy — CONDICTIO FURTIVA or REI VINDICATIO.\n• FURTUM MANIFESTUM: fourfold; NEC MANIFESTUM: double the value.\n• Penal + reipersecutory: cumulation of actions.\n• CONDICTIO FURTIVA vs REI VINDICATIO: elect one before the praetor.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: DAMNUM INIURIA DATUM, DOLUS, METUS",
+   "readyBy": "2026-12-16",
+   "front": "What is DAMNUM INIURIA DATUM, and which chapters of the LEX AQUILIA matter?",
+   "back": "Delict of destroying or damaging property, built by the jurists on the LEX AQUILIA.\n• Ch. 1: OCCIDERE of slaves and four-legged herd animals.\n• Ch. 3: URERE, FRANGERE, RUMPERE — widened to CORRUMPERE.\n• Killing a dog or goose → ch. 3; indirect harm → ACTIONES IN FACTUM / UTILES.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: DAMNUM INIURIA DATUM, DOLUS, METUS",
+   "readyBy": "2026-12-16",
+   "front": "Why is the ACTIO LEGIS AQUILIAE an ACTIO MIXTA?",
+   "back": "It compensates lost value but also has a (minor) penal element.\n• Ch. 1: highest value in the past year — may exceed the real loss.\n• Several wrongdoers each liable in full (Ulpian D 9.2.11.2: CUM SIT POENA).\n• Denial of the deed → double (Gai Inst 4.9).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. XV — Infliction of harm: DAMNUM INIURIA DATUM, DOLUS, METUS",
+   "readyBy": "2026-12-16",
+   "front": "What is the delict DOLUS, and what is special about the ACTIO DE DOLO?",
+   "back": "Harming someone by malicious deceit or bad-faith conduct; the ACTIO DE DOLO is reipersecutory and subsidiary.\n• Compensation plus any gain the deceiver made.\n• Not for BONA FIDES obligations (contracts, NEGOTIORUM GESTIO): good faith covers deceit.\n• EXCEPTIO DOLI: also a right of retention against restitution claims.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XV — Infliction of harm: DAMNUM INIURIA DATUM, DOLUS, METUS",
+   "readyBy": "2026-12-16",
+   "front": "METUS: which three remedies does classical law give?",
+   "back": "RESTITUTIO IN INTEGRUM, ACTIO QUOD METUS CAUSA, EXCEPTIO METUS.\n• Requires a serious, unlawful or immoral restriction of freedom.\n• ACTIO: generally fourfold, avoided by restoring before judgment.\n• Framed 'in rem': also against the coercer's good-faith successors.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: Concept of damage",
+   "readyBy": "2026-12-16",
+   "front": "DAMNUM EMERGENS vs LUCRUM CESSANS?",
+   "back": "DAMNUM EMERGENS: loss in value of existing assets; LUCRUM CESSANS: lost profit — only if realistic, not speculative.\n• Differential method: market value before vs after the injury.\n• Villa burnt: 800,000 DAMNUM EMERGENS.\n• Lost serious offer of 950,000: 150,000 LUCRUM CESSANS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XV — Infliction of harm: Concept of damage",
+   "readyBy": "2026-12-16",
+   "front": "Ulpian (Vivianus) D 9.2.27.28: a slave boy is castrated without permission and his value rises. Claim?",
+   "back": "No DAMNUM INIURIA DATUM: the owner's assets are not diminished.\n• If intentional: INIURIA to the DOMINUS → ACTIO INIURIARUM.\n• Parallel: picking ripe fruit — no loss; unripe fruit — LEX AQUILIA (D 9.2.27.25).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: Concept of damage",
+   "readyBy": "2026-12-16",
+   "front": "Can a free Roman claim damages for bodily injury or pain?",
+   "back": "No general rule: LIBERUM CORPUS NON RECIPIT AESTIMATIONEM (Gaius D 9.1.3) — only INIURIA and penal offences.\n• Slaves: LEX AQUILIA, as the owner's material loss.\n• Exception: shoemaker's apprentice (Case 276).\n• Modern: pain and suffering (§ 1325 ABGB, § 847 BGB).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XV — Infliction of harm: Concept of damage",
+   "readyBy": "2026-12-16",
+   "front": "Paulus (Pedius) D 9.2.33 pr (Case 278): A kills B's slave X, who is B's natural son. Is B's grief compensated?",
+   "back": "No: Roman law disregards affection value — only the material loss counts.\n• Emotional harm only via INIURIA with ANIMUS INIURIANDI (Ex 107: horse injured to insult its owner).\n• Contrast § 1331 ABGB: affection value for wilful or malicious harm.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Text and assessment scheme",
+   "readyBy": "2026-12-16",
+   "front": "Quote the 1st chapter of the LEX AQUILIA and state its content.",
+   "back": "SI QUIS SERVUM SERVAMVE ALIENUM ALIENAMVE QUADRUPEDEMVE PECUDEM INIURIA OCCIDERIT, QUANTI ID IN EO ANNO PLURIMI FUIT, TANTUM AES DARE DOMINO DAMNAS ESTO.\n• Wrongful killing of another's slave or four-legged herd animal.\n• Owner gets the highest value in that year (Gaius D 9.2.2 pr).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Text and assessment scheme",
+   "readyBy": "2026-12-16",
+   "front": "Quote the 3rd chapter of the LEX AQUILIA and state its content.",
+   "back": "SI QUIS ALTERI DAMNUM FAXIT, QUOD USSERIT FREGERIT RUPERIT INIURIA, QUANTI EA RES ERIT IN DIEBUS TRIGINTA PROXIMIS, TANTUM AES DOMINO DARE DAMNAS ESTO.\n• Loss by wrongful burning, breaking or 'rending'.\n• Owner gets what the matter comes to within the next 30 days (Ulpian D 9.2.27.5).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Text and assessment scheme",
+   "readyBy": "2026-12-16",
+   "front": "When was the LEX AQUILIA passed, and why is the jurists' INTERPRETATIO so important?",
+   "back": "Date uncertain, probably 3rd century BC; classical law rests on INTERPRETATIO, itself a source of law.\n• Classical picture differed much from the wording some 300 years older.\n• It repealed earlier statutes, e.g. Twelve Tables on OS FRACTUM (Ulpian D 9.2.1 pr).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Text and assessment scheme",
+   "readyBy": "2026-12-16",
+   "front": "What are the four stages for assessing liability under the LEX AQUILIA?",
+   "back": "1. Statutory definition (incl. causation); 2. unlawfulness (INIURIA, objective); 3. culpability (INIURIA, subjective); 4. amount.\n• Stage 2: definition indicates unlawfulness, unless a justification applies.\n• Stage 3: DOLUS or CULPA; check lawful excuses.\n• Still the basic test for delictual (and contractual) liability.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Text and assessment scheme",
+   "readyBy": "2026-12-16",
+   "front": "ACTIO LEGIS AQUILIAE (DIRECTA) vs ACTIO IN FACTUM / UTILIS — why the graded concept?",
+   "back": "Active, direct harm: injurer's role obvious → statute; indirect harm or omission: attribution less obvious → analogous actions.\n• Also called ACTIO AD EXEMPLUM LEGIS AQUILIAE.\n• A typology develops where the analogy is regularly granted.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Which animals are QUADRUPEDES PECUDES under ch. 1 (Gaius D 9.2.2.2)?",
+   "back": "Herd animals: sheep, goats, cattle, mules, donkeys, working elephants and camels; pigs disputed (Labeo: yes).\n• Not: dogs and wild animals (bears, lions, panthers) → ch. 3.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "What is OCCIDERE in the sense of ch. 1?",
+   "back": "Active, immediate killing by direct physical action: SI QUIS CORPORE SUO DAMNUM DEDERIT (Gai Inst 3.219).\n• Bare hands, heel, head, sword, cudgel, projectile (Ulpian D 9.2.7.1, Case 263).\n• Load thrown down, botched operation, poison given to drink.\n• VIS is usual but not required.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "What is MORTIS CAUSAM PRAESTARE, and which remedy follows?",
+   "back": "Providing a cause of death without direct action — by omission or indirect conduct; ACTIO UTILIS or IN FACTUM.\n• Starving a slave one must feed (Ulpian (Neratius) D 9.2.9.2).\n• Taking his clothes so he freezes (D 19.5.14.1); making his horse shy.\n• Luring into a trap where B kills: A IN FACTUM, B LEGIS AQUILIAE (D 9.2.9.3).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Midwife's case, Ulpian (Labeo) D 9.2.9 pr (Case 264): a midwife gives a slave woman medicine and she dies. Liability?",
+   "back": "Put into her mouth with the midwife's own hands → OCCIDERE → ACTIO LEGIS AQUILIAE.\n• Merely handed over, the slave took it herself → MORTIS CAUSAM PRAESTARE → ACTIO IN FACTUM.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Ulpian (Celsus) D 9.2.7.6 (Case 263): poison given instead of medicine; a sword handed to a mentally ill slave. Remedy?",
+   "back": "ACTIO IN FACTUM for MORTIS CAUSAM PRAESTARE: the slave acts by his own hand.\n• Sword: suicide likely meant; killing another slave → IN FACTUM too.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Bridge case, Ulpian (Celsus) D 9.2.7.7 (Case 263): G pushes slave H off a bridge and he dies — from the push, sinking, or drowning later. Remedy? And a slave boy hurled against a rock?",
+   "back": "ACTIO LEGIS AQUILIAE in every variant: G set the chain in motion — CORPORE SUO DAMNUM DEDIT.\n• Whether death is immediate or later does not matter.\n• Rock: death from impact, but direct physical contact → ACTIO LEGIS AQUILIAE.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Ulpian (Proculus) D 9.2.7.3: N pushes O, who falls against slave P so that P dies. Who is liable?",
+   "back": "N: no contact with P → ACTIO IN FACTUM; O: not liable, QUIA DAMNUM NON DEDERIT.\n• Open whether O fails definition, unlawfulness or fault.\n• Modern: O cannot be held responsible at all.\n• Cf Neratius D 9.2.53: driving oxen onto a ridge → ACTIO IN FACTUM.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Dog case, Ulpian (Proculus, Julian) D 9.2.11.5: T provokes a dog, which bites slave U. Proculus vs Julian?",
+   "back": "Proculus: ACTIO LEGIS AQUILIAE without distinction; Julian: only if T held the dog, otherwise ACTIO IN FACTUM.\n• Held dog = T's direct instrument.\n• Proculus perhaps: setting a dog on is like throwing a spear.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "What is URERE, and which examples give the ACTIO LEGIS AQUILIAE?",
+   "back": "Ch. 3: actively and directly singeing or setting on fire.\n• Torch in a slave's face (D 9.2.27.6); firing a field or house (D 9.2.27.7).\n• Neighbouring house catches fire → liable for each house (D 9.2.27.8).\n• Killing a ch. 1 object by fire = OCCIDERE.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Ulpian (Celsus) Coll 12.7.4–5 (Case 265): A burns straw on his own field; the fire spreads to B's field. Remedy?",
+   "back": "Majority: ACTIO IN FACTUM — burning straw is no typical cause of fire on a neighbour's field; minority: ACTIO LEGIS AQUILIAE.\n• Contrast: Roman tenements typically spread fire → ACTIO DIRECTA for each house.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Oven attendant's case, Ulpian (Neratius) D 9.2.27.9: tenant C's slave E carelessly watches (or sleeps by) a fire; the rented villa burns. Liability?",
+   "back": "Careful stoker F: not liable (NON PECCAVIT); E: omission → ACTIO UTILIS, falling asleep is NEGLEGENTIA.\n• Tenant C: ACTIO EX LOCATO for CULPA IN ELIGENDO.\n• Landlord D must choose contract or delict.\n• Delict: C noxally liable — pay or surrender E (NOXAE DEDITIO).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "FRANGERE and RUMPERE — what do they cover?",
+   "back": "FRANGERE = breaking; RUMPERE = originally an open wound or bruise, later any injury, also to inanimate objects.\n• FRANGERE: glass cup (D 9.2.27.29, Case 273), door, building, bone.\n• RUMPERE: overloaded mule, miscarriage by push, cut or soiled clothes, grain into river.\n• CORRUMPERE: spilt or soured wine, grain mixed with sand.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "What is CORRUMPERE, and why did the broad reading of RUMPERE matter?",
+   "back": "Umbrella term: any damage to property outside ch. 1 — even URERE and FRANGERE fit under it.\n• Celsus in Ulpian D 9.2.27.16: a general term after specific ones is nothing new.\n• Barrel drilled, wine leaks: direct → LEGIS AQUILIAE, or IN FACTUM (Labeo D 9.2.27.35).\n• Rammed ship (D 9.2.29.2): ACTIO LEGIS AQUILIAE without labelling the act.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Depriving someone of property without damaging its substance — which remedy?",
+   "back": "Not (COR)RUMPERE: with intent to enrich → FURTUM; otherwise an ACTIO IN FACTUM modelled on the LEX AQUILIA.\n• Ring dropped into the Tiber (Alfenus D 19.5.23, Case 268); cup thrown into the sea.\n• Cattle scared off with a red cloth, ending with thieves (D 47.2.50.4).\n• Still requires unlawful and culpable conduct.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Proculus D 41.1.55: an 'animal lover' frees a boar from a hunter's trap. Remedy for the hunter?",
+   "back": "ACTIO IN FACTUM: no ACTIO LEGIS AQUILIAE (substance unharmed), no FURTUM (no intent to enrich).\n• The hunter had already acquired possession and ownership.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Property link: why does the hunter in D 41.1.55 lose his property when the boar escapes?",
+   "back": "A wild animal is owned only while held: once it regains natural freedom it is ownerless again.\n• Hunter became owner by OCCUPATIO once it came into his power.\n• So the loss is real though the boar is unharmed → ACTIO IN FACTUM.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Ulpian (Sabinus) D 9.2.27.21 (Case 267): A knocks coins out of B's hand. Liability?",
+   "back": "Aim that a third party gets them → FURTUM; coins irretrievably lost (river, sea, sewer) → LEX AQUILIA or ACTIO IN FACTUM.\n• Sabinus: irreversible loss equals destruction.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Paulus D 9.2.30.2 (Case 269): someone consumes another's wine or grain without permission. Remedy?",
+   "back": "ACTIO UTILIS: consumption destroys the substance but uses it as intended, so ch. 3 not directly.\n• No FURTUM if he mistook them for his own without DOLUS.\n• Cattle eating neighbour's fallen acorns → ACTIO IN FACTUM (D 19.5.14.3).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "CONDICIO SINE QUA NON vs adequate causation?",
+   "back": "Equivalence: every indispensable condition counts equally; adequacy: only conduct typically leading to such harm.\n• Test: think the act away (omission: add correct conduct) — does the harm vanish?\n• Ex 108: New Year firecracker singes B's coat (adequate), drives C to suicide (not).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Why do the Roman jurists not distinguish equivalent and adequate causation explicitly?",
+   "back": "The typified acts (OCCIDERE, URERE, FRANGERE, RUMPERE) already imply causation and adequacy; it matters in analogous cases.\n• Labeo (D 9.2.7.5): lightly pushing a sickly slave who dies → liable.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Paulus D 9.2.30.4: A gives B's slave a non-fatal wound; the slave dies because B neglects treatment. Liability?",
+   "back": "Only VULNERARE (= RUMPERE, ch. 3), not OCCIDERE: the wound is causal but not the adequate cause of death.\n• A does not answer for B's neglect.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Statutory definition and causation",
+   "readyBy": "2026-12-16",
+   "front": "Overtaking, alternative and cumulative causation — Roman solutions?",
+   "back": "Each injurer is liable in full.\n• Overtaking: A's mortal wound, B's later beating kills — both liable (A: OCCIDERE or VULNERARE).\n• Alternative: unclear who caused it — each as sole cause (Julian D 9.2.51.1).\n• Cumulative: each act alone sufficient — each liable (Ulpian D 9.2.11.4).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "How is unlawfulness established under the LEX AQUILIA?",
+   "back": "Meeting the statutory definition indicates unlawfulness (INIURIA OCCIDERE), unless a justification applies — then no liability; fault is not examined.\n• Modern grounds: self-defence, necessity, permitted self-help, legal authorisation, consent.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "What are the requirements of self-defence as a justification?",
+   "back": "Repelling a present, unlawful attack on protectable interests, proportionately and with no more harm than necessary.\n• Not against lawful acts or self-defence; attacker need not be at fault.\n• Harm to third parties not justified (Paulus D 9.2.45.4).\n• Gaius D 9.2.4 pr (Case 270): killing a slave robber in ambush → not liable.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "Lantern case, Alfenus D 9.2.52.1 (Case 271): P carries off innkeeper K's lantern; K pursues him and knocks out P's eye. Is K liable?",
+   "back": "Not if P struck at him with a lance (self-defence); liable if he blinds an overpowered P, or starts the beating himself.\n• Variant 2: counter-attack, intentional = excessive force.\n• Variant 3: only cheap property attacked → disproportionate; negligent → liable.\n• Killing the thief is not even considered.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "Defence of others vs putative self-defence?",
+   "back": "Defence of others justifies like self-defence; putative self-defence (attack wrongly assumed) never justifies, but may exclude fault.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "When could a thief (FUR) be killed lawfully?",
+   "back": "Twelve Tables: a thief defending himself with weapons, or caught at night; doubtful in classical law (Ulpian (Pomponius) Coll 7.3.2).\n• Probably exceeds the developed concept of defending property.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "What are the requirements of necessity as a justification?",
+   "back": "Harming a third party to save one's interests from imminent danger (not an unlawful attack): danger not self-caused, last resort, suitable.\n• Weighing of goods matters more than in self-defence.\n• Attacking animal → necessity, not self-defence.\n• Saving another's interest is treated like necessity.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "Ulpian (Labeo, Proculus) D 9.2.29.3 (Case 272): a storm drives A's ship into B's anchor lines and C's nets; the crew cuts them. Liable?",
+   "back": "Blameless crew: justified by necessity. Crew (partly) to blame for entanglement: no justification, liable if culpable.\n• Then only the nets' value, not the lost catch — speculative LUCRUM CESSANS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "Ulpian (Celsus) D 9.2.49.1: D tears down E's house to stop an approaching fire that never reaches it. Celsus vs Servius?",
+   "back": "Celsus: justified if D acted IUSTO METU (objective, BONUS PATER FAMILIAS); Servius: not justified, liable if at fault.\n• Clear case if the fire reaches E's site anyway.\n• Servius' exception: magistrates pulling down houses (D 43.24.7.4).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "Permitted self-help: unpermitted water pipe (Ulpian D 9.2.29.1) vs overhanging canopy (Proculus) — why different?",
+   "back": "Removing the pipe through one's house: justified self-help. Tearing down the canopy: liable — he should have sued for removal.\n• Pipe: rescript of Emperor Alexander Severus.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "Property link: how far may an owner defend his property by self-help?",
+   "back": "Only narrowly: VIM VI REPELLERE LICET against forcible dispossession; otherwise he must go to court.\n• Retaking land seized by force (VI) is allowed.\n• Pipe removed: justified; canopy torn down: liable (Proculus).\n• Blinding a thief over a cheap lantern: excessive force.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "Pomponius (Quintus Mucius) D 9.2.39 pr–1: F drives E's pregnant mare off his pasture and she miscarries. Q. Mucius vs Pomponius?",
+   "back": "Q. Mucius: F liable only if he beat or chased her too vigorously or maliciously; Pomponius: no justification, liable for all harm.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Unlawfulness and justification",
+   "readyBy": "2026-12-16",
+   "front": "Special authorisation by the legal system and consent of the injured party — examples?",
+   "back": "Magistrates may seize assets, smash beds on public roads, pull down houses: IURIS EXECUTIO NON HABET INIURIAM.\n• Exceeding authority: liable, e.g. damaged seized goods (D 9.2.29.7).\n• Consent: glass cutters' exclusion of accidental FRANGERE (D 9.2.27.29).\n• Master entering slave in a contest; surgery covered only LEGE ARTIS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Fault",
+   "readyBy": "2026-12-16",
+   "front": "DOLUS vs CULPA — and what is the double meaning of CULPA?",
+   "back": "DOLUS: harm foreseen and accepted (DIRECTUS or EVENTUALIS); CULPA: no intent, but due care (DILIGENTIA) neglected.\n• CULPA broad = fault in general; narrow = negligence.\n• Sources: NEGLEGENTIA, IMPERITIA, INFIRMITAS.\n• CULPA LEVISSIMA suffices (Ulpian D 9.2.44 pr).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Fault",
+   "readyBy": "2026-12-16",
+   "front": "Is the Aquilian standard of care subjective or objective?",
+   "back": "Objective (CULPA IN ABSTRACTO): measured against the VIR BONUS / BONUS PATER FAMILIAS, varied by activity and role.\n• BONUS MEDICUS, good muleteer, BONUS TONSOR.\n• Due care observed → no liability, even if harm follows.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Fault",
+   "readyBy": "2026-12-16",
+   "front": "Tree pruner's case, Paulus (Quintus Mucius) D 9.2.31 (Case 274): a pruner drops a branch that kills a passing slave. Liable?",
+   "back": "Q. Mucius: CULPA if a path runs beneath and no timely warning was shouted. Paulus: no path → unforeseeable, not liable.\n• Saw someone below and dropped anyway → DOLUS, liable.\n• Victim's own carelessness not discussed.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Fault",
+   "readyBy": "2026-12-16",
+   "front": "Alfenus D 9.2.52.4: in a ball game a player pushes a slave boy, who falls and breaks a leg. Liable?",
+   "back": "No: CASUS, not fault — even a careful player need not play so as never to injure.\n• FRANGERE fulfilled, unlawful; liability fails at fault.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Fault",
+   "readyBy": "2026-12-16",
+   "front": "Which circumstances preclude fault?",
+   "back": "Mental incapacity, and acting on the command of a DOMINUS, PATER FAMILIAS or principal.\n• No capacity: FURIOSUS, INFANS (to 7); IMPUBERES INFANTIA MAIORES judged individually (D 9.2.5.2).\n• The act stays unlawful → self-defence against it possible.\n• On command: ACTIO DIRECTA against the power-holder (D 9.2.44.1).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Fault",
+   "readyBy": "2026-12-16",
+   "front": "Culpa compensation vs acting at one's own risk?",
+   "back": "Both free the injurer entirely — Roman law does not split losses; one offsets fault against carelessness, the other removes the duty of care.\n• Culpa compensation: never offsets the injurer's DOLUS.\n• Own risk: voluntary entry into danger — sports, trespassing.\n• Modern law divides the loss (§ 1304 ABGB).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Fault",
+   "readyBy": "2026-12-16",
+   "front": "Barber's case, Ulpian (Mela, Proculus) D 9.2.11 pr: a hard-thrown ball hits a barber's hand and the razor cuts the slave's throat. Who is liable?",
+   "back": "Proculus: shaving where balls fly is negligent, yet whoever entrusts himself to a barber in a dangerous spot has himself to blame.\n• A BONUS TONSOR must shield clients.\n• Mela: whoever was at fault is liable — possibly the ball player.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Fault",
+   "readyBy": "2026-12-16",
+   "front": "Javelin thrower's case, Ulpian D 9.2.9.4: when is a javelin thrower liable for killing a slave?",
+   "back": "Throwing for fun: CULPA, liable; on a practice field: not liable; aiming deliberately at a crossing slave: DOLUS, liable.\n• Practice-field explanations: own risk, culpa compensation, or no CULPA at all.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "Amount under ch. 1 vs ch. 3 of the LEX AQUILIA?",
+   "back": "Ch. 1: highest value in the year before; ch. 3: what the matter comes to within the next 30 days.\n• Year counted from death (Celsus) or mortal injury (Julian, prevailing).\n• PLURIMI read into ch. 3 by interpretation (Ulpian D 9.2.29.8).\n• 30 days: watch healing, include lasting damage.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "What does compensation of the 'interest' include in Aquilian case law?",
+   "back": "Position as if no harm (difference method): DAMNUM EMERGENS plus probable LUCRUM CESSANS, calculated individually.\n• Group loss: troupe slave, quadriga horse (Paulus D 9.2.22.1, Case 277).\n• Inheritance the slave would have acquired; medical costs.\n• Not: affection value (Case 278).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "Shoemaker's apprentice, Ulpian (Julian) D 9.2.5.3–9.2.7 pr (Case 276): a free son in power is injured. Can his father sue?",
+   "back": "Yes, for medical costs and lost income — presumably an ACTIO UTILIS modelled on ch. 3.\n• A son in power resembles a slave.\n• The poor father depends on his earnings — financial loss.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "ACTIO LEGIS AQUILIAE concurring with a contract action or REI VINDICATIO — choose or cumulate?",
+   "back": "In principle choose (both reipersecutory); Paulus D 44.7.34.2: after ACTIO COMMODATI, Aquilian claim for the excess.\n• Same after CONDICTIO FURTIVA (D 47.1.2.3).\n• Compensated via REI VINDICATIO → Aquilian action given up (D 6.1.13).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "Theft followed by destruction, or a ch. 3 injury followed by death — which actions lie?",
+   "back": "Stealing then killing a slave (D 9.2.27 pr) or destroying documents: ACTIO FURTI and ACTIO LEGIS AQUILIAE.\n• Paulus D 47.2.28: documents → only FURTUM.\n• Taking merely to destroy: only LEX AQUILIA (D 9.2.41.1).\n• Ch. 3 then death: ch. 1 too, capped by EXCEPTIO DOLI (Julian D 9.2.47).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "Property link: who besides the owner can sue under the LEX AQUILIA?",
+   "back": "Primarily the owner (D 9.2.11.6); by analogous action also usufructuary, usuary, pledgee and BONA FIDE possessor — even against the owner.\n• USUSFRUCTUS: right to use and take fruits of another's thing, substance preserved.\n• Pledgee: up to his secured claim; Paulus only if no other satisfaction.\n• Co-owners: by share (D 9.2.19, 20).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "Lessee or borrower with CUSTODIA duty — analogous Aquilian action against a third party?",
+   "back": "Disputed: yes if CUSTODIA makes him answer for DAMNUM INIURIA DATUM (possibly Marcellus); Julian: no, he is not liable.\n• Julian D 13.6.19 (Case 27); Ulpian D 19.2.41, D 9.2.11.9.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "Active and passive heritability of the Aquilian claim?",
+   "back": "Actively heritable; passively not — liability ends with the perpetrator's death, except his enrichment (Ulpian D 9.2.23.8).\n• Between death and entry: claim of the HEREDITAS IACENS.\n• Noxal liability ends if the slave dies or is freed.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "What is litiscrescence under the LEX AQUILIA?",
+   "back": "A defendant who denies liability before the praetor and is then found liable pays double (DUPLUM) — Gai Inst 4.9.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. XVI — Lex Aquilia: Amount, concurrence, parties",
+   "readyBy": "2026-12-16",
+   "front": "Noxal liability: how does it work, and when is NOXAE DEDITIO excluded?",
+   "back": "Check the dependant's own liability, then sue the current power-holder (NOXA CAPUT SEQUITUR): he pays or surrenders him (NOXAE DEDITIO).\n• Surrender pays off when damages exceed the slave's value.\n• Excluded if the principal knew and could prevent it, or ordered it → ACTIO DIRECTA.\n• Ulpian (Celsus) D 9.4.2 pr; Paulus D 9.2.45 pr.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-XVI",
+    "p1"
+   ]
+  }
+ ]
+}

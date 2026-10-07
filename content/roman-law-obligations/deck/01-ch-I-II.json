@@ -1,0 +1,988 @@
+{
+  "subject": "Roman Law of Obligations",
+  "examDate": "2027-01-13",
+  "cards": [
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Obligation, rights in rem and liability",
+      "readyBy": "2026-11-18",
+      "front": "What is an OBLIGATIO in Roman law?",
+      "back": "A legal bond (VINCULUM IURIS) between creditor and debtor that creates a duty to perform.\n• Iust Inst 3.13 pr: OBLIGATIO EST IURIS VINCULUM, QUO NECESSITATE ADSTRINGIMUR ALICUIUS SOLVENDAE REI.\n• CREDITOR = entitled party (right/claim); DEBITOR = party bound to perform (duty).\n• Either side may consist of one person or several.\n• Roman OBLIGATIO covers both sides; English \"obligation\" usually means only the debtor's duty.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Obligation, rights in rem and liability",
+      "readyBy": "2026-11-18",
+      "front": "Why is an obligation \"relative\" (IN PERSONAM), and how does a right in rem differ?",
+      "back": "An obligation binds only the particular creditor and debtor; a right in rem is absolute — enforceable against everyone (ERGA OMNES).\n• A's claim lies only against B, never against third persons.\n• Right in rem is defined by its relation to a specific object, not to a debtor.\n• Everyone must respect the holder's access to and use of the asset.\n• Only a third party's interference creates an obligation (restitution, damages, enrichment).",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Obligation, rights in rem and liability",
+      "readyBy": "2026-11-18",
+      "front": "Example 1: Leo sells Ajax's stallion Hector to Helena (she does not know it is Ajax's). Is the sale valid — and who holds which right?",
+      "back": "Sale valid — the vendor's lack of ownership does not affect validity. Helena has a relative right against Leo; Ajax an absolute right.\n• Helena's claim to delivery (due 17 January) lies only against Leo; Leo's price claim only against Helena.\n• Ajax vindicates Hector from whoever possesses him — Leo, or later Helena — and wins.\n• Leo must then compensate Helena; she sues with the ACTIO EMPTI (buyer's action).",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "norma",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Obligation, rights in rem and liability",
+      "readyBy": "2026-11-18",
+      "front": "When does a person have a private-law right (claim) from the Roman perspective?",
+      "back": "When it can be enforced by a court action (usually an ACTIO); the wording of the ACTIO fixes the right's scope and content.\n• Relative right → ACTIO IN PERSONAM; absolute right → ACTIO IN REM.\n• Remedies may bear other names: VINDICATIO, CONDICTIO, INTERDICTUM.\n• The PRAETOR issues the catalogue of remedies and grants them in a FORMULA — or denies protection.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Obligation, rights in rem and liability",
+      "readyBy": "2026-11-18",
+      "front": "Property link: what is the REI VINDICATIO, and why is it an ACTIO IN REM rather than IN PERSONAM?",
+      "back": "The non-possessing owner's action to recover his thing from whoever possesses it — it enforces ownership, a right good against everyone.\n• Not tied to a contract partner: Ajax may sue Leo or Helena, whoever holds Hector.\n• Contrast ACTIO EMPTI: lies only between buyer and seller (IN PERSONAM).\n• Every right in rem has its own ACTIO IN REM; for DOMINIUM it is the REI VINDICATIO.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1",
+        "property-link"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. I — Introduction: Obligation, rights in rem and liability",
+      "readyBy": "2026-11-18",
+      "front": "Insolvency: why is a right in rem stronger than a contractual claim?",
+      "back": "In bankruptcy unsecured claims are all cut by the same quota; a restitution claim based on a right in rem survives in full.\n• Bankruptcy assets are usually worth less than the total claims.\n• Each creditor bears a quota of the total loss, e.g. one third.\n• So a purely contractual claim loses value in insolvency.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "priority": 3,
+      "topic": "Ch. I — Introduction: Obligation, rights in rem and liability",
+      "readyBy": "2026-11-18",
+      "front": "Example 2: Flavius lets Agatha's deposited statue lose its paint in the rain (damage 1.400) and goes bankrupt. What does Agatha get?",
+      "back": "The statue back in full (as owner); her 1.400 damages claim only ranks pro rata — at a 20 % quota she receives 280.\n• Ownership = right in rem, unaffected by bankruptcy.\n• Damages claim = mere obligation, sharing the loss with all other creditors.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p3"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Obligation, rights in rem and liability",
+      "readyBy": "2026-11-18",
+      "front": "Liability vs obligation — what is the difference?",
+      "back": "Liability = having to answer financially (creditor may seize assets); obligation = having to perform: give, do or refrain.\n• Historically liability came first; originally seizure reached the person (debt bondage, sale TRANS TIBERIM).\n• Liability matters only when the debtor fails to perform or performs defectively.\n• Personal liability: all one's assets (the rule); in rem liability: specific assets only, e.g. pledge.\n• For delicts modern usage typically speaks of \"liability\".",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Content and types of obligations",
+      "readyBy": "2026-11-18",
+      "front": "DARE, FACERE, PRAESTARE — what possible contents of an obligation do these terms describe?",
+      "back": "DARE = to give, FACERE = to do, PRAESTARE = to owe / be liable for / guarantee a result.\n• DARE: delivery of a thing (goods or money); in a narrower sense transfer of ownership.\n• FACERE: an action, labour or result — e.g. transport services under a contract for work.\n• PRAESTARE: e.g. standing surety; also accessory duties such as warranty.\n• \"Performance\" covers positive acts and omissions; proper performance discharges the obligation.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. I — Introduction: Content and types of obligations",
+      "readyBy": "2026-11-18",
+      "front": "Property link: how can a DARE (delivery, DATIO) both discharge and create an obligation?",
+      "back": "Handing over a thing usually fulfils a duty — but in real contracts the delivery itself creates the recipient's duty to return.\n• Discharge: the seller \"gives\" the goods, the buyer the money.\n• Creation: a MUTUUM arises only once the money has actually been handed over.\n• A DARE of something not owed creates the CONDICTIO INDEBITI.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p2",
+        "property-link"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 3,
+      "topic": "Ch. I — Introduction: Content and types of obligations",
+      "readyBy": "2026-11-18",
+      "front": "What does the modern umbrella term \"law of obligations\" cover, and what does it exclude?",
+      "back": "Obligations arising from the production, distribution and allocation of goods and services.\n• Excluded: relative rights mainly about personal or family matters (family law, law of persons).\n• Inheritance-law obligations form their own category.\n• Marriage is a contract in modern law but not part of \"contract law\".",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p3"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Content and types of obligations",
+      "readyBy": "2026-11-18",
+      "front": "Which four types of obligations did Roman jurists distinguish by their legal basis?",
+      "back": "Contracts, delicts, quasi-contracts and quasi-delicts.\n• Contracts: bilateral transactions; content follows the agreement (LEX CONTRACTUS).\n• Delicts: acts forbidden by law → compensation and/or penalty (POENA).\n• Quasi-contracts: obligations from lawful acts outside any contract.\n• Quasi-delicts: certain praetorian delicts, partly without fault.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Content and types of obligations",
+      "readyBy": "2026-11-18",
+      "front": "What is a delict, and which are the three key Roman delicts?",
+      "back": "An act forbidden by law; injuring another by an unlawful (usually culpable) act creates an obligation to compensation and/or penalty.\n• INIURIA (assault on body or reputation), FURTUM (theft), DAMNUM INIURIA DATUM (damage to property).\n• Victim's claim = private law; the state punishing crimes = public law.\n• Example 3: Pius smashes Xerxes' goblet → claim for DAMNUM INIURIA DATUM for its value.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. I — Introduction: Content and types of obligations",
+      "readyBy": "2026-11-18",
+      "front": "What are quasi-contracts? Name the most important ones.",
+      "back": "Obligations arising from lawful acts outside any contract.\n• Most important: NEGOTIORUM GESTIO and the CONDICTIONES for unjustified enrichment.\n• Iust Inst 3.27 adds: ending COMMUNIO, guardianship (TUTELA), LEGATUM PER DAMNATIONEM.\n• Difference from contract: no agreement of the parties is the source.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "priority": 3,
+      "topic": "Ch. I — Introduction: Content and types of obligations",
+      "readyBy": "2026-11-18",
+      "front": "Examples 4 and 5: Laura has absent Antonius' earthquake-damaged villa repaired (3.000); Daphne pays Agrippa 500 she does not owe. Which obligations?",
+      "back": "Both quasi-contracts: Laura–Antonius = NEGOTIORUM GESTIO; Daphne recovers the 500 with the CONDICTIO INDEBITI.\n• No contract in either case — lawful acts outside contract.\n• NEGOTIORUM GESTIO balances the interests of principal (Antonius) and gestor (Laura).\n• Daphne paid believing she owed it — the typical CONDICTIO INDEBITI case.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p3"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. I — Introduction: Content and types of obligations",
+      "readyBy": "2026-11-18",
+      "front": "What are quasi-delicts, and why do they matter for modern law?",
+      "back": "Later-classical/post-classical term for certain praetorian delicts, incl. liability irrespective of fault — forerunners of modern strict liability.\n• Occupiers: ACTIO DE DEIECTIS VEL EFFUSIS and ACTIO DE POSITO VEL SUSPENSO (cf § 1318 ABGB).\n• NAUTA, CAUPO, STABULARIUS liable without fault for staff's damage or theft.\n• Also: IUDEX QUI LITEM SUAM FECIT (malicious perversion of justice).\n• Modern strict liability: e.g. motor-vehicle keepers.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-I",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Freedom of contract and the Roman typology",
+      "readyBy": "2026-11-18",
+      "front": "Legal transaction vs contract — definitions?",
+      "back": "Legal transaction: declaration(s) of intent committing to duties or making dispositions; contract: bilateral legal act binding one or both parties to perform.\n• Unilateral transactions need no consent: making a will, abandoning property.\n• Every contract is a bilateral transaction — it needs the other party's consent.\n• Some contracts (SOCIETAS) are multilateral.\n• MUTUUM: bilateral transaction, yet only the lender gains a claim.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Freedom of contract and the Roman typology",
+      "readyBy": "2026-11-18",
+      "front": "What are private autonomy and freedom of contract?",
+      "back": "Private autonomy = shaping one's legal relationships on one's own initiative; its chief expression is freedom of contract.\n• Three elements: freedom to contract, to choose one's partner, to determine the content.\n• Contract terms bind the parties like a statute: LEX CONTRACTUS.\n• ID QUOD ACTUM EST — what was agreed — is basis and yardstick.\n• Ambiguities: interpretation, then supplementary interpretation.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Freedom of contract and the Roman typology",
+      "readyBy": "2026-11-18",
+      "front": "What limits private autonomy in contracting?",
+      "back": "The legal framework: illegality and immorality, intent to be bound, the lawgiver's choice of binding transactions, and factual possibility.\n• Unlawful or CONTRA BONOS MORES → invalid (bribe; penalty securing an engagement or marriage).\n• IUS COGENS = norms not alterable by legal transaction.\n• Jokes and declarations of legally incapable persons do not bind.\n• No one can be obliged to the factually impossible.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Freedom of contract and the Roman typology",
+      "readyBy": "2026-11-18",
+      "front": "What is a CONTRACTUS in Roman law, and what marks a regulated (nominate) contract?",
+      "back": "CONTRACTUS = transaction enforceable independently in court; a regulated contract has a NOMEN, which also names its court claim.\n• E.g. sale, lease, interest-free loan, mandate.\n• Mostly defined by subject matter: EMPTIO VENDITIO = goods for money.\n• STIPULATIO: defined by form (ritual promise), not subject matter.\n• Four types by formation: consensual, real, verbal, literal.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Freedom of contract and the Roman typology",
+      "readyBy": "2026-11-18",
+      "front": "What are innominate contracts, and how are they protected?",
+      "back": "Agreements outside the fixed typology (e.g. barter) — no NOMEN, no specific ACTIO; the praetor protects them by ACTIONES IN FACTUM.\n• Barter (goods for goods) fits no recognised category.\n• Formula opening with a description of the atypical deal (VERBA PRAESCRIBERE) = ACTIO PRAESCRIPTIS VERBIS.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Freedom of contract and the Roman typology",
+      "readyBy": "2026-11-18",
+      "front": "NUDUM PACTUM: not actionable — so what legal effects can a bare pact have?",
+      "back": "Two: as basis of a defence (EXCEPTIO PACTI) and as subsidiary agreement (PACTUM ADIECTUM) to an actionable contract.\n• PACTUM DE NON PETENDO: defendant raises EXCEPTIO PACTI and defeats the claim.\n• PACTA ADIECTA are enforced by the main contract's regular action.\n• E.g. PACTUM DISPLICENTIAE: buyer may test goods and rescind if he dislikes them.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Freedom of contract and the Roman typology",
+      "readyBy": "2026-11-18",
+      "front": "PACTA SUNT SERVANDA: what does it mean, and does it apply in Roman law?",
+      "back": "\"Agreements must be kept\" (from canon law) — modern principle overcoming the Roman typology; Roman law decided binding force by contract type.\n• Modern: every serious, lawful, possible agreement binds (cf §§ 879, 883 ABGB).\n• Roman: PACTA unenforceable; the STIPULATIO was the flexible, content-neutral exception.\n• Modern law still asks for a CAUSA — relativising PACTA SUNT SERVANDA.\n• CAUSA for enforceability, for transfer of ownership, for keeping possession.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "Gai Inst 3.89: which four ways of creating contractual obligations does Gaius distinguish?",
+      "back": "AUT ENIM RE CONTRAHITUR AUT VERBIS AUT LITTERIS AUT CONSENSU — real, verbal, literal and consensual contracts.\n• Consensual (CONSENSUS on essentials): EMPTIO VENDITIO, LOCATIO CONDUCTIO, MANDATUM, SOCIETAS.\n• LOCATIO CONDUCTIO covers lease, contract of employment, contract for work.\n• Common ground: every contractual obligation rests on agreement.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "What is a real contract, and which are the four Roman real contracts?",
+      "back": "A contract concluded by delivery of property (DATIO) on the basis of a typical purpose agreed by consent (CONVENTIO).\n• MUTUUM — interest-free loan for consumption.\n• DEPOSITUM — safekeeping; COMMODATUM — gratuitous loan for use.\n• PIGNUS — real contract of pledge.\n• CONVENTIO alone is not enough: no handover, no real contract.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "Property link: does concluding a sale make the buyer owner?",
+      "back": "No — the contract only creates the obligation to transfer; ownership passes by a separate act of fulfilment (conveyance, e.g. TRADITIO).\n• Roman law treats obligation and its fulfilment as distinct transactions.\n• TRADITIO needs authority to dispose, transfer of possession and a IUSTA CAUSA.\n• Example 1: valid sale, but Leo cannot make Helena owner of Ajax's horse (NEMO PLUS IURIS).",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1",
+        "property-link"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "How is a STIPULATIO concluded, and why is it special among regulated contracts?",
+      "back": "Verbal contract: parties meet and exchange formal question and answer — \"SPONDESNE?\" – \"SPONDEO.\"\n• Defined by form, not subject matter → maximum flexibility; key complement to other contracts.\n• Classical alternatives: \"PROMITTIS?\" – \"PROMITTO.\", \"DABIS?\" – \"DABO.\"\n• Other verbal contracts: DOTIS DICTIO, PROMISSIO OPERARUM (freedman's services to patron).",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "Causal vs abstract stipulation — what is the difference?",
+      "back": "A causal stipulation names the CAUSA of the obligation, which the creditor must prove; an abstract one names no CAUSA.\n• Causal: e.g. EX EMPTO ties the promise to a specific sale.\n• Abstract: may secure an owed price or be a loan — background hidden.\n• Fraudulent use of an abstract stipulation is met with the EXCEPTIO DOLI.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "Example 6: \"CENTUM EX EMPTO MIHI DARE SPONDESNE?\" – \"SPONDEO.\" The promisor had already paid the price. Does the promisee win?",
+      "back": "No — the promise is void and the promisee loses.\n• EX EMPTO makes it a causal stipulation tied to a sale.\n• The creditor must prove a valid CAUSA; the price debt no longer exists.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "Example 7: Julius asks \"SPONDESNE CENTUM MIHI DARE?\", Helena answers \"SPONDEO\". What can Julius claim, and how is Helena protected against abuse?",
+      "back": "Julius may claim 100 without stating any legal ground (abstract stipulation).\n• The 100 might secure a price already owed or be a loan.\n• If Julius sues fraudulently (e.g. for payment already made), Helena needs the EXCEPTIO DOLI.\n• The EXCEPTIO DOLI brings out the background and defeats the claim.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "norma",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "Which action lies on a stipulation?",
+      "back": "Stipulations give IUDICIA STRICTI IURIS; the action depends on whether a CERTUM or an INCERTUM was promised.\n• CERTUM (CERTA PECUNIA or CERTA RES) → CONDICTIO.\n• INCERTUM (e.g. a FACERE) → ACTIO EX STIPULATU.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "How is a literal contract created, and what is it used for?",
+      "back": "By an entry in the PATER FAMILIAS' ledger (CODEX ACCEPTI ET EXPENSI), mainly to modify an existing obligation.\n• E.g. change the nature of a debt or add a further debtor.\n• Entry = fictitious payment → ACTIO CERTAE CREDITAE PECUNIAE (CONDICTIO).\n• Few sources; in classical times replaced by the STIPULATIO with written records.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "priority": 3,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "Example 8: Hermes owes Philemon 8.000 for a donkey, due 5 September, and asks for three months' extension. How can a literal contract help?",
+      "back": "Philemon enters in his ledger that he paid 8.000 to Hermes — from 5 December Hermes owes 8.000 as if under a loan.\n• The sale debt is turned into a loan-type debt.\n• Philemon sues with a CONDICTIO.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p3"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "BONAE FIDEI IUDICIA vs IUDICIA STRICTI IURIS — what is the difference?",
+      "back": "The judge's latitude: EX BONA FIDE the IUDEX weighs all circumstances; a strict formula lays down a narrower programme.\n• Strict: defences count only if pleaded as an EXCEPTIO (e.g. EXCEPTIO DOLI) in the formula.\n• Bona fide: IUDEX considers the claimant's fraud of his own motion — no EXCEPTIO needed.\n• Most contractual claims carry a BONA FIDES clause; all consensual contracts do.\n• Also non-contractual: claims from NEGOTIORUM GESTIO.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Real, consensual, verbal and literal contracts; actions",
+      "readyBy": "2026-11-18",
+      "front": "Example 9: Alexander lends Bellona 1.000 for a year, informally waives the debt shortly before maturity, then sues her a week later. Outcome?",
+      "back": "Bellona must plead an EXCEPTIO PACTI (DE NON PETENDO); otherwise the IUDEX may not consider the waiver and she loses.\n• The loan claim is a IUDICIUM STRICTI IURIS for a fixed sum.\n• IUDEX checks only whether she received that sum as a loan.\n• In a BONAE FIDEI IUDICIUM the waiver would count automatically.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Characterisation of contracts and donation",
+      "readyBy": "2026-11-18",
+      "front": "What is an OBLIGATIO NATURALIS?",
+      "back": "A legal obligation that is not actionable: it can and should be fulfilled, but the creditor cannot sue.\n• If paid, the payee may keep what was paid.\n• E.g. contract with a slave: valid and performable, but no action against the slave.\n• Reason: slaves are not legal persons — being suable is part of legal capacity.\n• Also distinguish OBLIGATIO CIVILIS (IUS CIVILE) vs OBLIGATIO HONORARIA (IUS HONORARIUM).",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Characterisation of contracts and donation",
+      "readyBy": "2026-11-18",
+      "front": "Unilaterally vs bilaterally obliging contracts — and what is an imperfectly bilaterally obliging contract?",
+      "back": "Unilateral: duties on one side only; bilateral: each party is both debtor and creditor; imperfect: the second party is bound only depending on circumstances.\n• Unilateral: stipulation of a sum, MUTUUM — still bilateral transactions!\n• Imperfect: mandate — agent must act; principal owes only reimbursement of expenses, if any arise.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Characterisation of contracts and donation",
+      "readyBy": "2026-11-18",
+      "front": "What is a synallagmatic contract, and how does it relate to a bilaterally obliging one?",
+      "back": "A necessarily bilaterally obliging contract: by its nature each party is creditor and debtor — mutual rights and duties (DO UT DES).\n• E.g. buyer is debtor of the price and creditor of the goods.\n• Every synallagmatic contract is bilaterally obliging, not every bilateral one synallagmatic (mandate).\n• Synallagmatic contracts are always non-gratuitous.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Characterisation of contracts and donation",
+      "readyBy": "2026-11-18",
+      "front": "When is a transaction gratuitous, when non-gratuitous?",
+      "back": "Non-gratuitous (onerous) if counter-performance is promised in exchange; gratuitous if assumed without aiming at a consideration.\n• Reimbursement of expenses or damages is no consideration — mandate stays gratuitous.\n• A fee for the task = consideration → no longer mandate but contract for work.\n• Brokerage: non-gratuitous but not synallagmatic (broker need not act).",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Characterisation of contracts and donation",
+      "readyBy": "2026-11-18",
+      "front": "What is DONATIO, and is a promise of a future donation enforceable?",
+      "back": "A gratuitous grant of a pecuniary advantage; a promise of future donation is enforceable only in the form of a stipulation.\n• Forms: transfer of ownership, assignment of a claim, remission of a debt.\n• Otherwise a donation is valid only once executed (gift transferred).\n• Modern law: informal gratuity promises non-binding; at most once a deed is drawn up.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Characterisation of contracts and donation",
+      "readyBy": "2026-11-18",
+      "front": "Property link: why does it matter that DONATIO is a IUSTA CAUSA?",
+      "back": "Something given with ANIMUS DONANDI passes ownership by TRADITIO; if that fails, the donee can still usucapt (IUSTA CAUSA USUCAPIONIS).\n• TRADITIO is causal: no valid cause, no ownership.\n• If the donor was not owner, USUCAPIO can cure the defect over time.\n• Gift between spouses = no valid donation → no IUSTA CAUSA → no ownership.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2",
+        "property-link"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Characterisation of contracts and donation",
+      "readyBy": "2026-11-18",
+      "front": "LEX CINCIA vs the ban on gifts between spouses — what are the consequences of breach?",
+      "back": "LEX CINCIA: breach-donation effective, only a stipulated promise is repelled; spouses: the gift is invalid under IUS CIVILE.\n• LEX CINCIA (DE DONIS ET MUNERIBUS): no accepting gifts above a certain value; close relatives exempt.\n• Defence against the stipulated promise: EXCEPTIO LEGIS CINCIAE.\n• DONATIO ANTE NUPTIAS (before, in view of marriage) is not caught by the ban.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Pre-contractual obligations: when can a party be liable before any contract exists?",
+      "back": "Serious negotiations create mutual trust; a party causing the other harm through bad faith may be answerable (modern: CULPA IN CONTRAHENDO).\n• E.g. arbitrarily breaking off negotiations after signalling genuine interest.\n• Recoverable: negotiation expenses — travel costs, consultant's fees.\n• Roman rudiments exist in the law of sale.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Initially impossible performance — and negative vs positive interest?",
+      "back": "Promise of initially objectively impossible performance creates no contract; a seller who knew or ought to have known may owe damages.\n• Negative (reliance) interest: position as if one had not relied on the contract.\n• Positive (expectation) interest: needs a valid contract; position as if duly performed.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Closing a contract: what is required, and what does an error do in Roman law?",
+      "back": "Mutual agreement aimed at a specific legal transaction, with intent to be bound — explicit or implied from conduct.\n• Jest: no intent to be bound.\n• Fundamental error (essential feature of subject matter, nature of transaction) → no contract.\n• Other errors: contract valid; recipient protected by rules on defective performance.\n• Modern law: outward impression decides; contract valid but avoidable.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "What is SOLUTIO, and when may the creditor reject performance?",
+      "back": "Fulfilment: debtor performs, creditor accepts — exact performance extinguishes the obligation.\n• Non-recurring obligations (deliver goods) vs continuous ones (rent, services).\n• Creditor may reject any performance not matching the contract; limit = ban on chicanery.\n• May he withhold counter-performance until full performance → contract of simultaneous performance.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "DATIO IN SOLUTUM vs DATIO SOLUTIONIS CAUSA?",
+      "back": "IN SOLUTUM: with creditor's consent something else (ALIUD PRO ALIO) is given instead and discharges; SOLUTIONIS CAUSA: given only to be credited against the debt.\n• IN SOLUTUM = substitute performance, debt fully discharged.\n• SOLUTIONIS CAUSA = modern giving \"on account of performance\"; only the proceeds count.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Example 10: Ago owes Bellona 1.000 from a sale and offers a vase instead. What if she accepts it as payment — and what if only to sell it?",
+      "back": "Accepted as payment: delivery discharges the debt (DATIO IN SOLUTUM). Accepted to sell and credit: vase fetches 800, Ago still owes 200.\n• Variant = DATIO SOLUTIONIS CAUSA.\n• Consent of the creditor is required for any ALIUD PRO ALIO.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Third parties and performance: SOLUTIONIS CAUSA ADIECTUS, undertaking to perform another's obligation, assumption of debt?",
+      "back": "ADIECTUS: third party merely authorised to receive payment; undertaking: agreement with the debtor; assumption: agreement with the creditor.\n• ADIECTUS cannot sue the debtor or dispose of the debt.\n• Undertaking: internal only — creditor still sues his debtor, who is freed if the third party pays.\n• Privative assumption: new debtor replaces old (Roman law: novation).\n• Cumulative assumption: both bound; once one pays, the other is freed.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Contractual liability: which degrees of fault does Roman law know?",
+      "back": "DOLUS (malicious intent) and CULPA (negligence: CULPA LATA gross, CULPA LEVIS slight).\n• DOLUS MALUS = intent to harm; also used as opposite of BONA FIDES.\n• CULPA = falling short of the required diligence without intent to harm.\n• Liability is IUS DISPOSITIVUM, but liability for DOLUS cannot be excluded.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Property link: CASUM SENTIT DOMINUS — what does it mean for accidental loss under a contract?",
+      "back": "The owner bears the risk of accidental destruction (CASUS) — unless the obligation reallocates that risk between the parties.\n• Accidental (no one's fault) defective performance usually creates no contractual liability.\n• Who bears the loss is a question of risk allocation.\n• So it matters who is owner of the thing when the accident happens.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1",
+        "property-link"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "VIS MAIOR vs CASUS MINOR — and what is CUSTODIA liability?",
+      "back": "VIS MAIOR: unforeseeable, uncontrollable events — debtor generally not liable; CASUS MINOR: loss preventable by guarding (CUSTODIA), esp. simple theft.\n• VIS MAIOR: earthquakes, robbers, Germans, pirates, natural death of a slave.\n• Without a CUSTODIA duty, unguarded loss counts as accident.\n• CUSTODIA liability: for theft etc. without proof of breach — in effect strict.\n• Gaius and others later reinterpret it as breach of a duty to guard.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Debtor's delay vs creditor's delay (MORA) — and what follows from delay?",
+      "back": "Debtor's delay: debtor fails to tender conforming performance when due; creditor's delay: creditor refuses performance offered as agreed.\n• Never both for the same duty.\n• In culpable debtor's delay he is liable even for accidental destruction or damage.\n• Partner may withdraw, normally after a period of grace; fixed-date deals (bridal bouquet) immediately.\n• Delay damages owed either way; delay ends with performance or other extinction.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 2,
+      "priority": 3,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "What is misperformance (positive violation of contractual duties)?",
+      "back": "The debtor performs but breaches contractual obligations or a duty of care, thereby injuring the creditor.\n• E.g. a haulier carries a column, which breaks through inexpert handling.\n• Cf Gaius D 19.2.25.7 (Case 170).",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p3"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Warranty for defects as to quality — what are the buyer's remedies?",
+      "back": "Fault-independent liability for an inherent physical flaw: redhibition (cancel and reverse) or reduction of the price.\n• Flaw = lacks an agreed feature or unfit for its typical purpose.\n• Debtor knew of the defect → creditor also recovers consequential losses.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "norma",
+      "level": 2,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Warranty of title in Roman law: when does the claim arise and what does it give?",
+      "back": "Only after eviction — a third party has successfully enforced its right in rem in court; then at least the price back.\n• Debtor owes undisturbed enjoyment (UTI FRUI HABERE LICERE), not an unencumbered title.\n• Classical jurists: even an unknowing debtor is liable for the interest in performance.\n• Debtor who knew of the defect: claim even without prior eviction.\n• Lease: release from further rent instalments.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 3,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Formation, fulfilment and impairments of performance",
+      "readyBy": "2026-11-18",
+      "front": "Property link: in Example 1, when does Helena have a warranty-of-title claim against Leo?",
+      "back": "Only once Ajax has evicted her — i.e. successfully vindicated Hector (REI VINDICATIO) in court.\n• While she enjoys the horse undisturbed, there is no title problem.\n• For sale, the protected position is proprietary possession.\n• Late classical: same if she acquires ownership from Ajax on another ground (ALIA CAUSA).",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2",
+        "property-link"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Termination and obligations outside contract",
+      "readyBy": "2026-11-18",
+      "front": "Which are the main ways a contractual relationship ends?",
+      "back": "SOLUTIO, CONFUSIO, waiver, COMPENSATIO, novation, delegation.\n• After SOLUTIO only warranty and fault-based defect/care claims remain.\n• Novation: new obligation replaces and extinguishes the old one.\n• Delegation: order to perform within a three-party relationship.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 2,
+      "priority": 3,
+      "topic": "Ch. II — Contracts: Termination and obligations outside contract",
+      "readyBy": "2026-11-18",
+      "front": "CONFUSIO vs CONCURSUS CAUSARUM?",
+      "back": "CONFUSIO: creditor and debtor become the same person (e.g. debtor inherits from creditor) — obligation extinguished.\n• CONCURSUS CAUSARUM: creditor gets from B, on another obligation, the very performance A owes.\n• Once B has performed, he can no longer claim from A.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p3"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Termination and obligations outside contract",
+      "readyBy": "2026-11-18",
+      "front": "Waiver and extension: how were they made under IUS CIVILE and by the praetor?",
+      "back": "IUS CIVILE: a strict obligation is waived only by stipulation (ACCEPTILATIO); praetor: informal PACTUM DE NON PETENDO via EXCEPTIO PACTI.\n• ACCEPTILATIO = formal acknowledgement of performance, usable to release debts.\n• Extension moves the due date; may also be granted by PACTUM DE NON PETENDO.\n• BONAE FIDEI IUDICIUM: IUDEX considers waiver/extension under BONA FIDES.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Termination and obligations outside contract",
+      "readyBy": "2026-11-18",
+      "front": "COMPENSATIO (set-off): what are its requirements, and how is it raised in court?",
+      "back": "Setting one debt off against another between parties with mutual claims of the same kind (e.g. money).\n• Further: maturity, connexity (e.g. same obligation), liquidity (counterclaim easily provable).\n• BONAE FIDEI IUDICIUM: IUDEX sets off of his own accord.\n• STRICTI IURIS: an EXCEPTIO DOLI is required.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 3,
+      "priority": 3,
+      "topic": "Ch. II — Contracts: Termination and obligations outside contract",
+      "readyBy": "2026-11-18",
+      "front": "Example 11: Solon, Diana's mandatary, collects 700 for her and spends 120 reimbursable travel costs. What does Diana get?",
+      "back": "On set-off Diana's claim against Solon shrinks to 580.\n• Mutual money claims of the same kind, arising from the same mandate.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p3"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "Ch. II — Contracts: Termination and obligations outside contract",
+      "readyBy": "2026-11-18",
+      "front": "When does a condiction (CONDICTIO) lie, and what is \"performance\"?",
+      "back": "Whoever receives performance must return it if no CAUSA justifies keeping it.\n• Key case: paying an assumed debt by mistake → CONDICTIO INDEBITI.\n• Denied if the payer knew there was no debt.\n• Performance = delivery and receipt with conscious cooperation of transferor and acquirer.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "basic",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Termination and obligations outside contract",
+      "readyBy": "2026-11-18",
+      "front": "Property link: A's material becomes B's by ACCESSIO or SPECIFICATIO. What can A do?",
+      "back": "Claim compensation — a restitution claim not based on performance, since B gained the asset without CAUSA.\n• ACCESSIO: owner of the main thing acquires the attached component.\n• SPECIFICATIO: whoever becomes owner of the newly made thing must compensate.\n• Remedies: ACTIONES IN FACTUM, or EXCEPTIO DOLI against the owner's REI VINDICATIO.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2",
+        "property-link"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 2,
+      "priority": 2,
+      "topic": "Ch. II — Contracts: Termination and obligations outside contract",
+      "readyBy": "2026-11-18",
+      "front": "NEGOTIORUM GESTIO: what claims arise between principal and unauthorised manager?",
+      "back": "No contract: the gestor hands over all benefits; he can claim his costs and damages from the management.\n• Principal: ACTIO NEGOTIORUM GESTORUM DIRECTA; gestor: ACTIO NEGOTIORUM GESTORUM CONTRARIA.\n• Both are BONAE FIDEI IUDICIA.\n• Meddling may be disapproved and make the gestor liable for damages.",
+      "tags": [
+        "roman-law-obligations",
+        "kap-II",
+        "p2"
+      ]
+    }
+  ]
+}

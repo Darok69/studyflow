@@ -1,0 +1,1212 @@
+{
+ "subject": "Roman Law of Obligations",
+ "examDate": "2027-01-13",
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "What is EMPTIO VENDITIO, and why does it have a double name?",
+   "back": "A consensual contract in which the parties agree to exchange goods for money.\n• The sources call it either EMPTIO or VENDITIO.\n• EMPTIO = seen from the buyer's side (EMPTOR); VENDITIO = from the seller's side (VENDITOR).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "Why is EMPTIO VENDITIO a synallagmatic contract?",
+   "back": "Both parties are necessarily bound; each is debtor and creditor of the other, and binds himself to get the other's performance.\n• Buyer owes the price and is owed the goods — and vice versa.\n• Principle DO UT DES: \"I give so that you may give\".",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "What are the ESSENTIALIA NEGOTII of a sale, and what form is needed?",
+   "back": "The indispensable terms the parties must at least agree on: the goods sold and the price.\n• Consensual contract: obligations arise from bare CONSENSUS; no form required.\n• Neither payment of the price nor delivery of the goods is needed to conclude it.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "Conclusion of a sale vs its performance — how does Example 12 (Lucius sells Melitta a gold necklace) show the difference?",
+   "back": "Sale concluded 15 January (consensus on necklace and price 100): both obligations arise then; performed and extinguished 16 January.\n• The obligations created by the sale ≠ their performance.\n• Cash purchase: creation and performance almost coincide.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "Example 12 variant: on 16 January Melitta's slave is robbed on the way to pay; she no longer wants the necklace. Is she still bound?",
+   "back": "Yes — the sale was concluded on 15 January; her obligation to pay arose validly and continues.\n• Consensual creation: later events may make the deal unattractive but do not undo it.\n• Not a \"case of impossibility\": the impossibility is subsequent and only subjective (p. 97).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 3,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "Which duties does EMPTIO VENDITIO include besides delivering the goods and paying the price?",
+   "back": "Various subsidiary duties of disclosure, protection and care.\n• Seller must not culpably damage or destroy sold-but-undelivered goods.\n• He must warn the buyer of dangerous properties of the goods.\n• He must answer for contractually stipulated qualities (warranty for defects as to quality).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "ACTIO EMPTI vs ACTIO VENDITI — who sues whom?",
+   "back": "The buyer sues the seller with the ACTIO EMPTI; the seller sues the buyer with the ACTIO VENDITI.\n• Both are BONAE FIDEI IUDICIA.\n• Formula: QUOD DARE FACERE OPORTET EX FIDE BONA — no list of obligations.\n• The IUDEX determines in each case what is owed; he has leeway.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "Property link: BONA FIDES in contract law vs BONA FIDES in property law — what is the difference?",
+   "back": "Contract law: the standard of honest, fair dealing between contracting parties; property law: the acquirer's unawareness that the transferor was unauthorised.\n• Contract sense: \"good faith\", basic standards of business integrity.\n• Property sense matters for USUCAPIO by a buyer from a non-owner.\n• It can occasionally matter in obligations too, eg seller unaware of a quality defect.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "What are NATURALIA NEGOTII?",
+   "back": "Rules arising from BONA FIDES where the parties agreed nothing express; fixed by the IUDEX and the jurists' opinions.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "What does ID QUOD ACTUM EST mean for interpreting a sale?",
+   "back": "What the parties agreed — the chief source of their rights and duties.\n• Narrow sense: what they expressly said or intended.\n• Wider sense: what parties typically agree on for this type of contract.\n• Also their hypothetical will: what they would have agreed, knowing certain facts.\n• Ulpian D 19.1.11.1: nothing fits good faith better than performing what was agreed.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "Property link: does concluding a sale make the buyer owner of the goods?",
+   "back": "No — the sale only creates obligations; ownership passes by a separate conveyance, usually TRADITIO (or MANCIPATIO / IN IURE CESSIO).\n• Sale = the IUSTA CAUSA TRADITIONIS (legal ground) for the transfer.\n• TRADITIO needs: transferor's authority, transfer of possession, IUSTA CAUSA.\n• Necklace (Example 12): sale on 15 January, delivery on 16 January.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Characterisation",
+   "readyBy": "2026-11-25",
+   "front": "Property link: a RES MANCIPI (eg a slave or an Italian estate) is sold — how does the buyer become civil-law owner?",
+   "back": "By MANCIPATIO (or IN IURE CESSIO); a mere TRADITIO gives only bonitarian ownership until USUCAPIO.\n• RES MANCIPI: Italian land, slaves, draft and pack animals (cattle, horses, mules, donkeys).\n• USUCAPIO cures the form defect: one year (movables) or two years (land).\n• Bonitarian owner sues with ACTIO PUBLICIANA; quirite owner with REI VINDICATIO.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Consensus in Roman law vs modern law — agreement of intents or of declarations?",
+   "back": "Roman law stresses agreement of the actual intents; modern law looks at matching declarations.\n• Modern: consensus if one party understood the other's declaration as matching his own intent.\n• Provided that (mis)understanding was consistent with basic standards of fair dealing.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "What is open dissent? (Example 13: Agatha offers a vase for 50, Tiro answers he will buy it for 40)",
+   "back": "The parties want different things and say so openly — even the declarations do not match → no consensus.\n• If Tiro merely misspoke and really meant 50 → consensus; sale at 50.\n• In Roman law the agreement of intents is decisive.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "FALSA DEMONSTRATIO NON NOCET — meaning and Example 14?",
+   "back": "A false description does no harm: if both parties mean the same thing under a wrong name or price, the contract arises as intended.\n• Example 14: \"Fundus Sempronianus\" named, both mean Fundus Cornelianus → sale of the Cornelianus.\n• Cf Ulpian D 18.1.9.1 (Case 75).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Hidden dissent vs error — what is the difference?",
+   "back": "Hidden dissent: declarations match, intentions do not; error: a party's declaration by mistake does not reflect his real intent.\n• Example 15: each party means a different slave \"Stichus\" (cf Paulus D 45.1.83.1, Case 39).\n• Example 16: Vibia accepts the Fundus Sempronianus but means the Fundus Cornelianus.\n• Neither is visible to an outsider at first.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "What is the Roman consequence of an error on an essential point, and which points are essential?",
+   "back": "No sufficient consensus → no sale and no mutual obligations.\n• Essential: type of contract, object(s) of purchase, price (cf Ulpian D 18.1.9 pr, Case 75).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Error on essential terms: modern Austrian law vs Roman law?",
+   "back": "Austria: contract not void — it can be challenged if the mistaken party deserves protection, and exists until challenged. Rome: no contract.\n• Defective goods (Austria): buyer chooses between challenging and keeping the contract.\n• Keeping it: warranty — repair, supply of missing parts, price reduction.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "What is ERROR IN NEGOTIO? (Example 17: Gaia and Pluto, a statue)",
+   "back": "Error as to the type of transaction → no consensus, no contract.\n• Example 17: Gaia offers to sell a statue; Pluto accepts, believing she lends it.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "What is ERROR IN OBIECTO (ERROR IN CORPORE)?",
+   "back": "Error as to the identity of the object: declaring for one object while meaning another → no sale.\n• Example 16: Vibia declares for the Fundus Sempronianus but wants the Fundus Cornelianus.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "What is ERROR IN SUBSTANTIA, and why is it controversial?",
+   "back": "Error about the attributes or material (substance) of the object, not its identity; jurists disagree whether it voids the sale.\n• At least some jurists: no sale where substance is wholly different — copper as gold, lead as silver.\n• ERROR IN SEXU (about a slave's sex) also prevents a sale.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Why might the jurists have disagreed about ERROR IN SUBSTANTIA (philosophical background)?",
+   "back": "Possibly divergent views on a thing's \"essence\" — parallel to the debate on specification.\n• Aristotelian influence: essence lies in outward FORM → consensus on form suffices.\n• Stoic influence: essence lies in SUBSTANCE → substance must match what was agreed.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Ulpianus D 18.1.9.2 (Case 75): A sells B wine; it turns out to be vinegar. Marcellus vs Ulpian?",
+   "back": "Marcellus: sale valid — they agreed on the object (eg a particular amphora's contents). Ulpian distinguishes.\n• Ulpian: wine gone sour = practically the same substance → valid.\n• Ulpian: liquid that was always vinegar = different substance → no valid sale.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Ulpianus D 18.1.11.1 (Case 76): a female slave is sold — buyer believes (1) she is a virgin, she is not; (2) she is a boy. Valid?",
+   "back": "(2) ERROR IN SEXU → no contract of sale; (1) no ERROR IN SEXU → sale valid.\n• Variant 1: buyer gets a warranty claim for defect as to quality (Ulpian D 19.1.11.5, Case 121).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Julianus D 18.1.41.1 (Case 77): a table both parties believe solid silver is only silver-plated. Sale?",
+   "back": "Julian: no contract of sale arises.\n• Error relevant even though the material differs only partly.\n• Julian goes furthest of the three positions.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Ulpianus D 18.1.14 (Case 78): co-heirs sell one heir jewellery all believe solid gold; it is mostly bronze. Sale?",
+   "back": "Ulpian: sale valid — the item does contain some gold.\n• Substances not completely different → no relevant ERROR IN SUBSTANTIA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "ERROR IN SUBSTANTIA: what are the three positions of Marcellus, Ulpian and Julian?",
+   "back": "Marcellus: irrelevant; Ulpian: relevant only if substances are completely different; Julian: relevant even if material differs only partly.\n• Marcellus: consensus on outward appearance decides (wine/vinegar, Case 75).\n• Ulpian: sour wine, non-virgin, part-gold jewellery → valid (Cases 75, 76, 78).\n• Julian: silver-plated table sold as solid silver → no sale (Case 77).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "ERROR IN SUBSTANTIA vs defect as to quality — consequences and borderline?",
+   "back": "ERROR IN SUBSTANTIA excludes consensus (no sale); a quality defect leaves the sale valid and gives the buyer a warranty claim.\n• Quality defect: material defect impairing proper or expressly agreed use.\n• Gold-plated table sold as solid gold: either no consensus, or valid sale with quality defect.\n• If defect: buyer need not accept defective performance; may sometimes withdraw.\n• Jurists affirming a sale despite ERROR IN SUBSTANTIA protect the buyer by warranty.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "VIS and METUS under IUS CIVILE: is a coerced transaction valid, and how is the coerced party protected?",
+   "back": "In principle valid — Paulus D 4.2.21.5: COACTUS TAMEN VOLUI (though coerced, I still willed). Praetorian remedies protect him.\n• Sued for performance → EXCEPTIO METUS.\n• Already performed → RESTITUTIO IN INTEGRUM: removing the effects of the legal act.\n• Restoration mainly via ACTIO QUOD METUS CAUSA or EXCEPTIO QUOD METUS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Coercion, fear and DOLUS MALUS: IUDICIUM STRICTI IURIS vs BONAE FIDEI IUDICIUM (eg EMPTIO VENDITIO)?",
+   "back": "STRICTI IURIS: defendant must ask the praetor for EXCEPTIO METUS / EXCEPTIO DOLI; BONAE FIDEI: the IUDEX considers them of his own accord.\n• Coercion and DOLUS contradict BONA FIDES → no obligation EX BONA FIDE for the victim.\n• Covers coercion by the claimant or by a third party.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. IV — Sale I: Consensus and error",
+   "readyBy": "2026-11-25",
+   "front": "Exercise 17: Kassandra buys 50 litres of wine in an amphora from Leo. At delivery (a) it is olive oil; (b) the wine had already soured. Sale?",
+   "back": "(a) Ulpian: completely different substance → no sale; Marcellus: valid if they agreed on the amphora's contents. (b) Soured wine: valid (Case 75).\n• (b) Ulpian: sour wine is practically the same substance; Marcellus agrees in result.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "Which requirements must the purchase price meet?",
+   "back": "It must be in money, seriously meant (PRETIUM VERUM) and clearly defined (PRETIUM CERTUM).\n• No consensus on goods-for-money → no sale (another contract may arise).\n• PRETIUM IUSTUM: not required in classical law; post-classical LAESIO ENORMIS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "Paulus D 18.1.1.1 (Case 52): A is to give B a toga and receive a tunica in return. Sale?",
+   "back": "Nerva and Proculus (Paulus agrees): no sale — one cannot tell who is seller and who is buyer.\n• It is barter, an innominate contract.\n• Sabinian minority (Sabinus, Cassius): it is a sale.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "Pomponius D 19.1.6.1 (Case 53): E sells T a tenement house; T pays a fixed sum and promises to renovate another house of E. Sale?",
+   "back": "Yes, EMPTIO VENDITIO; E has the ACTIO VENDITI against T for the renovation.\n• Had the renovation been the only consideration → no sale.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "What is PRETIUM VERUM, and when is it lacking?",
+   "back": "A seriously meant (real) price; lacking where the price is merely symbolic and the parties really intend a gift.\n• Example 18: Leo \"sells\" the Fundus Sempronianus (worth 200.000) to Niobe for 1.\n• PRETIUM SIMULATUM: agreed from the start not to collect the price → gift (Ulpian D 18.1.36, Case 58).\n• Contrast: after a valid sale the seller may defer or waive the price.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "EMPTIO VENDITIO vs DONATIO: in Example 18, can Niobe sue Leo if he refuses to deliver the estate?",
+   "back": "No ACTIO EMPTI: there is no sale, and an informal donative promise (not a stipulation) is unenforceable.\n• DONATIO = gratuitous; contract law for non-gratuitous transactions does not apply.\n• DONATIO only justifies the recipient keeping the gift.\n• DONATIO is a valid CAUSA TRADITIONIS / CAUSA USUCAPIONIS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "What is a mixed gift? (Example 19: Thetis sells her nephew Pausanias land worth 200.000 for 100.000)",
+   "back": "A seriously meant price deliberately below value, with donative intent → still EMPTIO VENDITIO (cf Ulpian D 18.1.38, Case 59).\n• Thetis gifts Pausanias the difference.\n• Requires ANIMUS DONANDI.\n• Rules for non-gratuitous transactions (eg warranty) apply only partially.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "Mixed gift between spouses — valid? What is AGERE IN FRAUDEM LEGIS?",
+   "back": "Invalid: gifts between spouses are prohibited, and the ban cannot be circumvented through an \"advantageous\" sale.\n• AGERE IN FRAUDEM LEGIS: keeping to a rule's wording while consciously subverting its purpose.\n• Even a completed spousal donation lacks a valid CAUSA.\n• Sale between spouses at the real value: unproblematic.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "When is the price a PRETIUM CERTUM?",
+   "back": "When what the buyer owes is determinable by objective criteria — it need not be numerically fixed at conclusion.\n• Example 20: statue \"for 100 or 200\" → no valid sale.\n• Example 21: grain at 100 per metric ton → determinable by weighing.\n• \"What you paid\" / \"what I have in my coffers\" admissible (Ulpian D 18.1.7.1, Case 54).\n• \"Whatever price you name\" (one party's discretion): inadmissible (Gaius D 18.1.35.1, Case 55).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "Gaius Inst 3.140 (Case 56): goods are sold for whatever Titius estimates them to be worth. Valid sale?",
+   "back": "Disputed: Cassius and Labeo — no valid sale; Ofilius and Proculus — valid sale.\n• Supporters expect an estimate in the manner of a VIR BONUS — an objective criterion.\n• Cf Proculus D 17.2.78: ARBITRIUM VIRI BONI is to be followed.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "Third-party price (Case 56): when is the contract formed on each school's view?",
+   "back": "Ofilius/Proculus: once parties agree on the object and on Titius as price-setter; Labeo/Cassius: only when (and if) they accept Titius' price.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "PRETIUM IUSTUM: classical vs post-classical law?",
+   "back": "Classical: private autonomy — parties set the price freely; post-classical: fairness gains weight, gross non-equivalence becomes unacceptable.\n• Classical: \"naturally permissible\" to buy something worth more for less (Paulus D 19.2.22.3, Case 60).\n• Medieval scholars later build the doctrine of the \"just price\" on this.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "What is LAESIO ENORMIS, and where does it come from?",
+   "back": "A seller who receives less than half the value of the goods may rescind the sale.\n• Rescripts of Diocletian: C 4.44.2 (285 AD, Case 61) and C 4.44.8 (293 AD).\n• Protects only the seller; buyers were protected by maximum-price edicts.\n• Modern §§ 934 seq ABGB: any party in a non-gratuitous contract receiving under half.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "proces",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "LAESIO ENORMIS: how does rescission work, and how can the buyer avert it?",
+   "back": "Seller's unilateral declaration removes the sale as legal ground; the parties must restore what was performed.\n• Buyer may prevent it by paying the difference up to the full value.\n• He cannot be forced to pay it → FACULTAS ALTERNATIVA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "What is a facultative obligation (FACULTAS ALTERNATIVA)?",
+   "back": "The debtor owes one performance but may discharge it by rendering a different kind.\n• UNA RES IN OBLIGATIONE, DUAE RES IN SOLUTIONE.\n• LAESIO ENORMIS: buyer owes return of the item; paying the difference is optional.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Purchase price",
+   "readyBy": "2026-11-25",
+   "front": "Exercise 21: Turia sells the Fundus Aemilianus to Solon for 80.000; it was worth 200.000. Classical vs post-classical law?",
+   "back": "Classical: valid, no remedy — private autonomy. Post-classical: LAESIO ENORMIS — 80.000 is under half the value; Turia may rescind.\n• Solon may avert rescission by paying up to the full value (120.000 more).\n• He cannot be forced to pay: FACULTAS ALTERNATIVA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: The goods",
+   "readyBy": "2026-11-25",
+   "front": "Purchase of specified goods (species) vs unascertained goods (genus)?",
+   "back": "Specified: an individually determined object is owed; unascertained: a quantity from a class (GENUS), every item equally suitable.\n• Example 22: Calenus sells \"his vineyard\" after joint inspection → specified.\n• Example 23: \"four hectares of vineyard in the Alban mountains\" → seller may pick any.\n• Not the same as non-fungible/fungible: that is objective (measure, number, weight).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: The goods",
+   "readyBy": "2026-11-25",
+   "front": "GENUS NON PERIT — meaning and limit (limited purchase of unascertained goods)?",
+   "back": "\"The category does not perish\": performance stays possible as long as things of the class exist.\n• Matters for possibility of performance and allocation of risk.\n• Limited genus (\"100 metretes of wine from my cellars\"): impossible if the whole supply perishes.\n• Dispute: did Roman law know only the limited, or also the unlimited genus purchase?",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: The goods",
+   "readyBy": "2026-11-25",
+   "front": "What is an alternative obligation? (Example 24: Europa and Lentulus, sheep)",
+   "back": "The obligor has two or more ways of performing, fixed as items or classes; the choice is typically his (Paulus D 18.1.34.6, Case 84).\n• \"The sheep Ara or the sheep Rando\" → alternative obligation.\n• \"One sheep from my herd\" → limited purchase of unascertained goods.\n• The choice may also lie with the obligee.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: The goods",
+   "readyBy": "2026-11-25",
+   "front": "Alternative vs facultative obligation — and what if the owed performance becomes impossible without the obligor's fault?",
+   "back": "Alternative: DUAE RES IN OBLIGATIONE; facultative: UNA RES IN OBLIGATIONE, DUAE RES IN SOLUTIONE.\n• Facultative: obligor freed; no duty to render the substitute.\n• Alternative: he owes the performance that is still possible.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: The goods",
+   "readyBy": "2026-11-25",
+   "front": "What is EMPTIO REI SPERATAE?",
+   "back": "Purchase of a future thing (fruit, unborn slave child or animal), conditional on its coming into existence (Pomponius D 18.1.8 pr, Case 64).\n• Condition precedent: if fulfilled, effective EX TUNC from the agreement.\n• Neither party may prevent fulfilment; whoever does is treated as if it were fulfilled.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: The goods",
+   "readyBy": "2026-11-25",
+   "front": "Example 25: on 1 January Pharnakes sells Lysippe \"the next calf born of my cow\". Calf born 1 June / cow dies first?",
+   "back": "Calf born → condition satisfied, sale effective EX TUNC (as of 1 January). Cow dies first → condition fails, sale never takes effect.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: The goods",
+   "readyBy": "2026-11-25",
+   "front": "What is EMPTIO SPEI?",
+   "back": "Purchase of the chance (hope) itself: a fixed price is owed whether or not the thing comes into existence — unconditional; buyer bears the risk.\n• Eg a fisherman's catch sold in advance for a lump sum (Case 64).\n• Under BONA FIDES the seller is probably obliged to try to realise the hope.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: The goods",
+   "readyBy": "2026-11-25",
+   "front": "EMPTIO SPEI vs EMPTIO REI SPERATAE — Examples 26 and 27 (Curius sells Helena next year's harvest)?",
+   "back": "\"Entire harvest for 50.000\" → EMPTIO SPEI: Helena pays even if weather destroys it; \"1.000 per ton\" → EMPTIO REI SPERATAE: no harvest, no price.\n• SPEI: object = an immaterial hope; unconditional; buyer bears the risk.\n• REI SPERATAE: conditional; seller bears the yield risk.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: The goods",
+   "readyBy": "2026-11-25",
+   "front": "Exercise 22: Vibia promises Ufens 10.000 for all trophies his horse Olympia wins next year; it never wins. Must she pay? What if she bought \"Olympia's next foal\" for 2.000?",
+   "back": "Trophies: EMPTIO SPEI — she bought the chance and must pay 10.000. Foal: EMPTIO REI SPERATAE — price owed only if born.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "What is a \"case of impossibility\" (initial objective impossibility)?",
+   "back": "Performance prevented by an impossibility that exists before or at conclusion (initial) and that nobody at all could overcome (objective).\n• Thing perished before the sale → impossibility rules.\n• Destroyed after conclusion → subsequent impossibility: passing of risk, defective performance.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Objective impossibility vs subjective impossibility (incapability)?",
+   "back": "Objective: nobody could perform; subjective: this debtor cannot, someone else could. Impossibility rules cover only objective impossibility.\n• Paying the price is objectively possible as long as money exists.\n• Melitta robbed (Example 12): subsequent and subjective → sale stays valid.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Practical vs legal impossibility — examples?",
+   "back": "Practical: the object never existed or no longer exists; legal: physically feasible but prohibited by law.\n• Practical: a Hippocentaur; a library burnt down before conclusion (cf Paulus D 18.1.15 pr, Case 70/1).\n• Legal: RES EXTRA COMMERCIUM; EMPTIO REI SUAE — buying one's own thing (Pomponius D 18.1.16 pr, Case 69).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "What are RES EXTRA COMMERCIUM, and can they be sold?",
+   "back": "Things outside private legal dealings — their sale is legally impossible (cf Modestinus D 18.1.62.1, Case 67).\n• RES PUBLICAE: Field of Mars (Pomponius D 18.1.6 pr, Case 65), a village market square.\n• RES DIVINI IURIS: RES SANCTAE (city walls), RES SACRAE (temples), RES RELIGIOSAE (tombs).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Property link: why is there no route at all for a private buyer to acquire a RES EXTRA COMMERCIUM?",
+   "back": "It cannot be sold (legal impossibility) and cannot be usucapted — it is not a RES HABILIS.\n• So neither the contract nor USUCAPIO can lead to ownership.\n• The buyer can only recover the price (CONDICTIO INDEBITI) and reliance losses.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Sale of a free man (HOMO LIBER) or a stolen thing (RES FURTIVA): when impossible, when valid?",
+   "back": "Impossible only with the parties' knowledge: buyer knows the man is free; both know the thing is stolen. Otherwise the sale arises.\n• Free man: Pomponius (Celsus) D 18.1.6 pr (Case 65); Licinnius Rufinus D 18.1.70 (Case 66).\n• Stolen thing: Paulus D 18.1.34.3 (Case 68).\n• Free man sold to unknowing buyer, freed in STATUS QUAESTIO → EVICTIO; presupposes a valid sale.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Property link: must the seller be owner of the goods for a valid sale?",
+   "back": "No — a sale of another's thing is valid (only subjective impossibility); but under NEMO PLUS IURIS his TRADITIO cannot make the buyer owner.\n• Buyer gets possession and may become owner by USUCAPIO.\n• Not for a RES FURTIVA: no usucaption (LEX ATINIA).\n• Inheritance that is not the seller's: valid sale, buyer gets its value (Case 109/2).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Legal consequences of initial objective impossibility — rule and exception?",
+   "back": "Rule: the sale is invalid — IMPOSSIBILIUM NULLA EST OBLIGATIO.\n• Exception: a buyer who trusted in the contract sometimes gets a claim against the seller.\n• To base it on the ACTIO EMPTI, some jurists assume a sale exists.\n• Not impossible: selling a future thing (REI SPERATAE) or a mere chance (SPEI).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "CONDICTIO INDEBITI — what is it, and what are its requirements?",
+   "back": "Recovery of what was given by mistake to satisfy a non-existent debt — eg a price paid under a sale void for impossibility.\n• A performance: conscious shift of assets from claimant to defendant.\n• No legal ground (IUSTA CAUSA) for it.\n• Mistaken belief that it was owed.\n• IUDICIUM STRICTI IURIS for a CERTA RES or CERTA PECUNIA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Paulus D 18.4.7 (Case 109/1): A sells B an inheritance; after payment it turns out not to exist. Result?",
+   "back": "No sale — the object does not exist; B recovers the price by CONDICTIO.\n• Losses beyond the price are not recoverable with the CONDICTIO INDEBITI.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Reliance damages vs expectation damages?",
+   "back": "Reliance: losses from trusting in the contract's validity, avoidable by timely disclosure; expectation: lost benefit of performance, presupposing a valid contract.\n• German: \"negative\" vs \"positive interest\" (cf § 878 ABGB, § 122 BGB).\n• Impossibility: buyer gets price back plus reliance damages — not expectation damages.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Examples 28 and 29: Leo hires an architect for land that is a RES RELIGIOSA; Ismene buys a temple vase worth 150 for 100. Which loss is which?",
+   "back": "Leo's architect fees = reliance loss (recoverable); Ismene's lost bargain (150 for 100) = expectation loss (not recoverable).\n• Both sales void; the price is recoverable by CONDICTIO INDEBITI.\n• Timely disclosure would have spared Leo, but never given Ismene her bargain.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Why must a seller disclose a known impediment to performance? What is CULPA IN CONTRAHENDO?",
+   "back": "BONA FIDES requires (potential) partners to inform each other; a seller who knowingly stays silent acts with DOLUS.\n• Today: pre-contractual duties of protection, care and disclosure.\n• Breach = CULPA IN CONTRAHENDO (modern term).\n• In contract law DOLUS = the opposite of BONA FIDES.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Iavolenus D 18.4.8 (Case 109/2): A sells B (1) an inheritance that exists but is not A's; (2) a non-existent inheritance. Result?",
+   "back": "(1) Valid sale — only subjective impossibility; buyer gets the inheritance's estimated value (expectation damages). (2) Only price plus transaction costs.\n• (1) Seller's duty to perform turns into paying the money equivalent.\n• (2) = initial objective impossibility.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "On which legal bases can a buyer claim reliance losses in impossibility cases?",
+   "back": "Three constructions: an analogous ACTIO IN FACTUM, the ACTIO DE DOLO (if seller had DOLUS), or the ACTIO EMPTI.\n• ACTIO DE DOLO: subsidiary, requires DOLUS MALUS, conviction brings infamy.\n• ACTIO EMPTI: HOMO LIBER / RES FURTIVA — valid sale if buyer unaware.\n• Other impossibility cases: sale denied, yet ACTIO EMPTI granted.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Modestinus D 18.1.62.1 (Case 67): A buys land that is LOCA SACRA, RELIGIOSA or PUBLICA, believing it private. Result?",
+   "back": "No binding sale, but the buyer has the ACTIO EMPTI for QUOD INTEREST, NE DECEPTUM ESSE — his interest in not being deceived.\n• Justified as the seller's breach of BONA FIDES.\n• Phrase need not mean the seller knowingly promised the impossible.\n• Source of the modern term reliance damages.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Do reliance damages require fault by the seller?",
+   "back": "The sources leave it open: fault (concealing known impossibility, Case 65) or simply the buyer's loss through reliance (Case 67).\n• Strict liability could rest on a seller's guarantee duty.\n• Some jurists place possibility of performance in the seller's sphere of responsibility.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Initial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Exercise 23: thief Victor sells Niobe's vase to unknowing Xerxes; after two years Xerxes sells it to Niobe for 100. Owner? Valid sales?",
+   "back": "Niobe stays owner throughout. Victor→Xerxes: valid sale (Xerxes unaware); Xerxes→Niobe: EMPTIO REI SUAE, void — she recovers 100 by CONDICTIO INDEBITI.\n• NEMO PLUS IURIS: thief transfers no ownership.\n• RES FURTIVA cannot be usucapted (LEX ATINIA), despite two years.\n• Stolen-thing sale void only if both know (Case 68).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Partial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "What is partial impossibility, and what decides its consequences?",
+   "back": "Initial objective impossibility of only part of the performance; consequences follow the parties' original agreement (ID QUOD ACTUM EST).\n• No interest in the remainder → like total impossibility (Example 30: circus twins, one dead).\n• Divisible by the parties' will → rest sold at reduced price (Example 31: garden slaves).\n• Key first step: economically total impossibility, or can the contract be adapted?",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Partial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Marcianus D 18.1.44 (Case 70/2): two slaves sold for a lump sum; one died before conclusion. Sale of the survivor?",
+   "back": "No — no sale even for the survivor.\n• Lump sum → parties treated both as one economic unit priced together.\n• That unit cannot be delivered → economically total impossibility; whole sale invalid.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IV — Sale I: Partial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Paulus D 18.1.57 pr (Case 70 a): K buys V's house; unknown to both it had burnt down. Nerva/Sabinus/Cassius vs Neratius?",
+   "back": "Nerva, Sabinus, Cassius: no sale; price recoverable by CONDICTIO. Neratius: depends on how much burned.\n• Major part burnt → buyer not bound, may withdraw and reclaim the price.\n• Half or less → contract performed at a price reduced by the loss in value.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Partial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Case 70 a: why do Nerva/Sabinus/Cassius see total impossibility, and what is the point of Neratius' threshold?",
+   "back": "Old view: the house was the contractual main object, so the land alone is economically worthless. Neratius: a quantitative threshold for total impossibility.\n• At least half standing → sale valid with price adjustment.\n• He weighs both sides: only when most is gone may the buyer choose.\n• Otherwise both parties remain bound.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Partial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Property link: in Case 70 a the land survives the fire — why is it still total impossibility, given SUPERFICIES SOLO CEDIT?",
+   "back": "In property law the house is only an accession to the land, but contractually (\"I buy your house\") the house was the main object.\n• SUPERFICIES SOLO CEDIT: what is built on land follows the land.\n• Land still deliverable, yet economically total impossibility (Nerva, Sabinus, Cassius).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. IV — Sale I: Partial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Neratius' partial-impossibility solution vs a defect as to quality — similarities and differences?",
+   "back": "Similar: both concern flaws existing at conclusion; termination or price reduction, sale otherwise valid.\n• Quality defect: spoken of only once the buyer took delivery and accepted the object.\n• Impossibility question: only for defects stemming from initial objective impossibility.\n• Seller's mere inability: possibly warranty, but contract not void.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. IV — Sale I: Partial impossibility",
+   "readyBy": "2026-11-25",
+   "front": "Exercise 24: Zenon buys a 1.000 m² plot for 100.000 and spends 20.000 on villa plans; part is LOCUS RELIGIOSUS. (a) 100 m²; (b) nearly three quarters?",
+   "back": "(a) Partial impossibility, remainder suffices → sale of the rest at a reduced price. (b) Economically total impossibility → no sale.\n• (b) Price back by CONDICTIO INDEBITI.\n• (b) 20.000 plans = reliance loss: ACTIO EMPTI (Case 67), ACTIO IN FACTUM or ACTIO DE DOLO.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IV",
+    "p2"
+   ]
+  }
+ ]
+}

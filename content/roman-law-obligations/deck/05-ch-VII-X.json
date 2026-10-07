@@ -1,0 +1,1439 @@
+{
+ "subject": "Roman Law of Obligations",
+ "examDate": "2027-01-13",
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "What three transactions does LOCATIO CONDUCTIO cover?",
+   "back": "One contract type covering lease, contract for work and contract of employment.\n• LOCATIO CONDUCTIO REI: a thing made available for use (and fruits) against payment.\n• LOCATIO CONDUCTIO OPERIS: paid production of a defined result (OPUS).\n• LOCATIO CONDUCTIO OPERARUM: paid use of someone's labour (OPERAE).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "What are the key features of LOCATIO CONDUCTIO as a contract?",
+   "back": "Synallagmatic, consensual contract; the counter-performance (rent, fee, wage) is the MERCES.\n• Concluded by agreement on the use or services and on the MERCES.\n• MERCES as a rule: money, seriously intended, determined (MERCES CERTA).\n• MERCES CERTA: Gai Inst 3.142–143 (Case 144).\n• Actions: ACTIO LOCATI and ACTIO CONDUCTI — both BONAE FIDEI IUDICIA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "LOCATIO CONDUCTIO vs COMMODATUM vs MANDATUM — what is the decisive difference?",
+   "back": "Payment: LOCATIO CONDUCTIO needs a MERCES; free use of a thing is COMMODATUM, free services are MANDATUM.\n• Synallagmatic deals fitting neither LOCATIO nor sale = innominate contracts (Gai Inst 3.144, Case 144).\n• Rent NUMMO UNO (one coin) is void, not seriously meant — Ulpian D 41.2.10.2 (Case 146).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "Who is LOCATOR and who is CONDUCTOR in each type of LOCATIO CONDUCTIO?",
+   "back": "LOCATOR = the party who puts something at the other's disposal; he sues by ACTIO LOCATI, the CONDUCTOR by ACTIO CONDUCTI.\n• Lease: lessor = LOCATOR (the thing); lessee = CONDUCTOR.\n• Work: customer = LOCATOR (often the materials); contractor = CONDUCTOR.\n• Employment: employee = LOCATOR (his time and labour); employer = CONDUCTOR.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "Continuous vs non-recurring obligation — how do the three types of LOCATIO CONDUCTIO differ?",
+   "back": "Lease and employment are continuous obligations; the contract for work creates a non-recurring obligation.\n• Continuous obligations run for a fixed or an unlimited term.\n• Roman law knew only fixed-term employment contracts.\n• Like sale, a synallagmatic BONA FIDES contract: PRETIUM CERTUM rules apply, adapted, to MERCES CERTA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "What is LOCATIO CONDUCTIO REI and what can be its object?",
+   "back": "Agreement granting use (and, where applicable, the fruits) of a thing against remuneration.\n• Objects: chiefly material, non-consumable things, but also rights (e.g. lease of a usufruct).\n• Modern theory: usufructuary lease (fruits) vs lease (use only); Roman jurists drew no such distinction.\n• ABGB umbrella term: \"Bestandvertrag\" (§§ 1090–1121 ABGB).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "What are the lessor's (LOCATOR's) duties and risks in LOCATIO CONDUCTIO REI?",
+   "back": "Place the thing at the lessee's disposal and keep it usable as agreed, including repairs.\n• As owner he bears the risk of damage, loss or destruction by VIS MAIOR.\n• He also bears the rent risk: no or reduced rent after VIS MAIOR.\n• Probably reimburses necessary or useful expenses (Scaevola D 19.2.61 pr, Case 159).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "What are the lessee's (CONDUCTOR's) duties in LOCATIO CONDUCTIO REI?",
+   "back": "Pay rent for the use and, from taking over the thing, answer for CUSTODIA.\n• Liable for harm through DOLUS, CULPA or lack of proper guarding.\n• Usufructuary lease of a farm: duty to cultivate properly (Paulus D 19.2.54.1, Case 160).\n• IUS TOLLENDI: may remove additions he built (Ulpian D 19.2.19.4).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "Property link: the lessee as detentor — what kind of possession does he have, and why does it matter?",
+   "back": "The lessee is a mere detentor (NATURALIS POSSESSIO): he holds for the lessor, who keeps mediate proprietary possession.\n• Detentor = holds with ANIMUS REM ALTERI HABENDI; tenants and lessees are the textbook examples.\n• Lease is a contract IN PERSONAM — the lessee gets no right in rem.\n• Usufructuary lessee (COLONUS) acquires fruits only by PERCEPTIO, derivatively from the lessor.\n• If the lessee buys the thing: TRADITIO BREVI MANU, no handback needed.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "Property link: the landlord's tacit lien — what is the PIGNUS TACITUM in lease?",
+   "back": "A pledge arising automatically on conclusion of the lease, without express agreement.\n• Lessor of a flat: lien over the tenant's INVECTA ILLATA (movables brought in to stay).\n• Lessor of farmland: PIGNUS in the fruits of the land.\n• Landlord may seize by self-help; tenant reclaims impounded things by INTERDICTUM DE MIGRANDO.\n• Default rule (IUS DISPOSITIVUM): the parties may exclude it.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: types and lease (REI)",
+   "front": "Ordinary termination vs termination for good reason — when does each end a lease?",
+   "back": "Ordinary termination ends an open-ended lease; termination for good reason ends any lease EX NUNC.\n• Ordinary: unilateral right of every party; no need to show continuation is unreasonable.\n• LEX CONTRACTUS often fixes dates and notice periods; BONA FIDES bars untimely termination.\n• Good reason: fixed-term or permanent lease, when continuing is unreasonable for one party.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "The lessee damages the leased thing by fault or lack of CUSTODIA — what does the lessor get?",
+   "back": "Damages and, in principle, the rent too — the lessee cannot escape rent through damage he caused.\n• Cf Alfenus D 19.2.29 (Case 162) and D 19.2.30.4 (Case 161).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "Case 163 (Ulpian/Labeo D 19.2.13.7), variants 1–2: tenant A flees approaching soldiers without informing B, or without resisting. Is A liable?",
+   "back": "Yes — in both variants A is liable on the lease for harm caused by his culpable omissions.\n• Harm: looted windows and other items.\n• Rent, variant 1 (no notice): possibly ends, like loss without fault.\n• Rent, variant 2 (no reasonable resistance): fault — he probably still owes rent.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "Case 163, variant 3: tenant A leaves before the soldiers arrive, with no way to inform B or to resist. Result?",
+   "back": "A is not liable: an attack by armed troops is VIS MAIOR, whose risk the owner B bears.\n• A cannot be expected to continue the lease — it ends.\n• Neither party has further contractual claims against the other.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "VIS MAIOR damages the leased thing — who bears the risk, and what can the lessee claim?",
+   "back": "The lessor (CASUM SENTIT DOMINUS if he is owner); the defective performance gives the lessee warranty remedies.\n• Remedies: rent reduction (REMISSIO MERCEDIS) or rescission.\n• New building cuts off light → reduction, even termination (Gaius D 19.2.25.2, Case 148).\n• Demolition seriously curtailing use → deduct rent; minor inconvenience → nothing (Alfenus D 19.2.27 pr, Case 149).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "Warranty in lease vs warranty in sale — from when do the remedies operate?",
+   "back": "Lease remedies operate only EX NUNC, from when performance became defective; sale remedies operate retroactively (EX TUNC).\n• So full rent is owed for the period before the impairment.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "Case 151 (Servius in Ulpian D 19.2.15.2): which harms to a leased field reduce the rent, and which do not?",
+   "back": "VIS MAIOR from outside → no or reduced rent; VITIA QUAE EX IPSA RE ORIUNTUR → lessee's loss, full rent.\n• VIS MAIOR = VIS CUI RESISTI NON POTEST: birds, enemy invasion, mudslide, fungus or heat, earthquake.\n• Defects from the thing itself: wine turning sour, seed ruined by worms or weeds.\n• Rationale: production risks tied to the lessee's activity fall in his sphere.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "What is COLONIA PARTIARIA, and how does it relate to REMISSIO MERCEDIS?",
+   "back": "Sharecropping: the COLONUS PARTIARIUS pays a fixed share of the crop instead of money rent.\n• Permanent sharing of crop-failure risk (Gaius D 19.2.25.6, Case 153).\n• REMISSIO MERCEDIS = rent reduction after VIS MAIOR.\n• Parallel: in both the lessor shares in a bad harvest.\n• Exception to the rule that MERCES must be money.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "Case 150 (Alfenus/Paulus D 19.2.30 pr): A lets a house to B for 30; B sublets flats for 40. A demolishes the house. What can B claim?",
+   "back": "Unsound house: B reclaims rent beyond his use until demolition; demolition without good reason: also his lost sub-lease income.\n• A culpable (or knowing) lessor is liable for consequential losses.\n• Here: B getting less from X and Y than the agreed 40.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "Case 154 (Ulpian D 19.2.19.1), part 1: A unknowingly lets leaky barrels to B; wine leaks out and causes damage. Is A liable?",
+   "back": "Yes — Cassius: ignorance does not release the lessor; A must compensate B's interest.\n• Assessed like a sale of leaky vessels (Pomponius D 19.1.6.4, Case 114).\n• Very likely includes consequential damage: spoilt wine, damaged floor.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "Case 154, part 2: A lets pastures where poisonous plants grow; B's cattle sicken or die. Does A's knowledge matter?",
+   "back": "Yes: unaware, A gets no rent (like rescission); aware, A is liable for B's interest.\n• Interest probably covers all losses directly from the defect.\n• E.g. the animals' loss of value and vet fees.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "What does \"sale breaks lease\" mean, and why is the phrase misleading?",
+   "back": "The buyer, as new owner, may expel the lessee, who then has eviction claims against the lessor (Gaius D 19.2.25.1, Case 158).\n• The buyer owes the lessee nothing contractually.\n• Not the sale but the eviction \"breaks\" it; the lease is not terminated.\n• Lessor's performance becomes defective → lessee claims expectation interest.\n• Lessor may offer a comparable flat instead (Ulpian/Pomponius D 19.2.9 pr, Case 155).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "Ulpian D 45.1.38.17: ALTERI STIPULARI NEMO POTEST — what does it mean for a lessee whose landlord sells?",
+   "back": "No one can stipulate for a third party: Roman law knows no true contracts for the benefit of third parties.\n• True contract: A and B contract so that C can claim performance.\n• Claimless third party: performance to C agreed, without an enforceable claim.\n• Buyer promises seller not to evict: lessee cannot sue; evicting buyer is liable to the seller.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: lease — risk, defects, eviction",
+   "front": "Case 156 (Ulpian D 19.2.7, Tryphoninus D 19.2.8): A lets to B for 50; B sublets to C for 60; owner X evicts C. What can B claim from A?",
+   "back": "His interest via ACTIO CONDUCTI — essentially what he owes C, which may exceed the 50 he paid A.\n• C's expectation interest may exceed 60, e.g. a comparable flat costs 80.\n• B prepaid A 50 and pays C 80 → B claims 80 from A.\n• B has not yet paid A → B claims 30 (80 minus 50).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "What is LOCATIO CONDUCTIO OPERIS?",
+   "back": "A contract to produce an OPUS (work, result) for remuneration.\n• OPUS ranges from a musical performance or heavy transport to teaching or building a house.\n• Contractor (CONDUCTOR) must deliver the result; customer (LOCATOR) pays the fee.\n• Non-recurring obligation.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "What is the contractor's standard of liability for the customer's things?",
+   "back": "DOLUS, CULPA and CUSTODIA, insofar as he holds the customer's things.\n• IMPERITIA (lack of skill) counts as negligence — he acts as an expert (Ulpian/Celsus D 19.2.9.5, Case 165).\n• FULLO: coat gnawed by mice in storage, or wrong coat returned → breach (Ulpian D 19.2.13.6, Case 166).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Example 61: Phobos gives washerwoman Helena his coat to clean within a week. Who keeps the fee if it stays uncleaned?",
+   "back": "Depends on whose sphere caused the failure: Phobos demands it back next day → Helena keeps the fee; Helena falls ill → she loses it.\n• Fee owed if the OPUS fails for reasons outside the contractor's sphere.\n• Not owed if failure lies in the contractor's sphere or fault.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "What is ADPROBATIO in the contract for work, and what are its effects?",
+   "back": "The customer's acceptance of the offered work — comparable to TRADITIO in sale; on acceptance the contract is fulfilled.\n• From ADPROBATIO the work is in the customer's risk sphere.\n• Later defects: warranty rules apply.\n• Before payment the contractor has a right of retention over the customer's things.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Contract for work and materials: LOCATIO CONDUCTIO or EMPTIO VENDITIO? (Example 62)",
+   "back": "Contractor uses (mainly) his own materials → classically a sub-type of sale; initially disputed.\n• Thetis supplies cloth to tailor Philemon → LOCATIO CONDUCTIO; picks his cloth → EMPTIO VENDITIO.\n• Pomponius (Sabinus) D 18.1.20 (Case 63); Gai Inst 3.147 (Case 144).\n• Building contract: always LOCATIO CONDUCTIO — the land, the principal thing, is the customer's.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Property link: the customer supplies materials for a contract for work — does the contractor become owner by SPECIFICATIO?",
+   "back": "No — both agree the materials are worked on for the customer, who stays owner; the contractor is a mere detentor.\n• SPECIFICATIO = making a NOVA SPECIES; MEDIA SENTENTIA gives irreversible products to the maker.\n• That rule does not apply to transformation by mutual consent (LOCATIO CONDUCTIO OPERIS).\n• Exception: LOCATIO CONDUCTIO IRREGULARIS — the contractor becomes owner of the material.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Case 169 (Ulpian D 19.2.13.3): a slave left with a contractor for training is taken abroad and captured or dies. Is the contractor liable?",
+   "back": "Yes — culpable breach: capture or death is VIS MAIOR, but the contractor's breach made it possible.\n• Not liable if the training contract allowed taking the slave abroad.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Case 170 (Gaius D 19.2.25.7): a column breaks while A is transporting it for B. Is A liable?",
+   "back": "Yes, for his own and his helpers' culpable conduct, measured against a DILIGENTISSIMUS.\n• DILIGENTISSIMUS = an exceptionally careful man.\n• Hidden flaw in the stone despite careful handling → not liable.\n• Fee presumably owed so far as he performed (column delivered, gate damaged unloading).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Case 165a (Gai Inst 3.205): the customer's thing is stolen from the contractor. Who has the ACTIO FURTI?",
+   "back": "The contractor, since he bears the theft loss through CUSTODIA liability; if he is insolvent, the customer as owner keeps it.\n• Same interplay for the commodatary (Modestinus Coll 10.2.6, Case 28).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "What is the RECEPTUM liability of NAUTAE, CAUPONES and STABULARII?",
+   "back": "Guarantee that guests' or passengers' belongings are not stolen or damaged, enforced by ACTIO DE RECEPTO.\n• Strict: compensation does not depend on fault.\n• VIS MAIOR excluded via EXCEPTIO DOLI → scope equals CUSTODIA.\n• Justified by these trades' exceptional dishonesty (Ulpian D 4.9.3.1).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "proces",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "How did RECEPTUM liability develop, and does it presuppose a LOCATIO CONDUCTIO?",
+   "back": "From express promises (SALVAM FORE) to an objective duty arising from mere handover (RECIPERE).\n• No LOCATIO needed: also gratuitous carriage or lodging (Paulus D 4.9.6 pr, Case 215).\n• Covers freight and personal belongings (Ulpian D 4.9.1.6, Case 214); interest suffices, not ownership.\n• Modern: §§ 970 ff ABGB — \"danger of the open house\".",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Case 168 (Labeo/Paulus D 14.2.10 pr): A ships B's slaves for a fee; one dies on board. Is full freight owed?",
+   "back": "Paulus (prevailing view): yes — PERICULUM EST LOCATORIS once the slave was taken on board.\n• Natural death = VIS MAIOR; the owner bears the loss of the slave itself.\n• Labeo: no freight for the dead slave.\n• Parties may agree otherwise, e.g. payment only on disembarkation.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Case 167 (Labeo/Paulus D 19.2.62): a canal's embankment collapses after completion but before ADPROBATIO. Is the fee owed?",
+   "back": "Paulus asks whose sphere caused it: VITIUM OPERIS → contractor gets nothing; VITIUM SOLI → customer pays.\n• VITIUM OPERIS = faulty workmanship; VITIUM SOLI = soil unsuitable for a canal.\n• Labeo, without a sphere test: contractor bears payment risk, gets nothing.\n• Cf § 1168 ABGB (comparable sphere distinction).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Theory of spheres: how is the payment risk allocated in LOCATIO CONDUCTIO OPERIS?",
+   "back": "Contractor bears payment risk only for (culpable) defects in his production process; otherwise PERICULUM EST LOCATORIS.\n• Includes VIS MAIOR not clearly attributable to either sphere.\n• Parallel in lease: VIS MAIOR vs VITIA EX IPSA RE (Case 151).\n• Parallel in employment: wage risk also decided by sphere.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Case 167a (Javolenus D 19.2.51.1): work paid in daily instalments, quality to be proved by ADPROBATIO, is done faultily. Result?",
+   "back": "Contractor liable; the customer sues by ACTIO LOCATI — the payment mode does not change liability.\n• Customer refuses ADPROBATIO → contractor in debtor's delay.\n• Or approves, then claims price reduction or rescission.\n• If the customer dictated the technical execution, defects are not the contractor's.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "What makes LOCATIO CONDUCTIO IRREGULARIS \"irregular\"?",
+   "back": "The contractor becomes owner of the material on handover, instead of a mere detentor.\n• Precious metal for vessels or rings: may use it or his own; must transfer the finished work.\n• Mixed grain of several owners in a ship's hold (Alfenus/Paulus D 19.2.31, Case 172).\n• Reason: practical advantages for his performance.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: contract for work (OPERIS)",
+   "front": "Property link: grain of several owners poured together into a ship's hold (Case 172) — who owns it?",
+   "back": "The carrier becomes sole owner; the charterers do not become co-owners.\n• Normal COMMIXTIO: each keeps his share (VINDICATIO PRO PARTE), or co-ownership if mixed by consent.\n• Each delivery to a recipient = a transfer of ownership.\n• Despite owning it, the carrier answers only for negligence (CULPAM DUMTAXAT DEBERE).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VII — Locatio conductio: employment (OPERARUM)",
+   "front": "LOCATIO CONDUCTIO OPERIS vs OPERARUM — how do Examples 63/64 (Lysippe and Nina) differ?",
+   "back": "OPERIS owes a result (OPUS); OPERARUM owes services (OPERAE) over time under another's directions.\n• Teaching one particular aria → OPERIS, done once Nina can sing it.\n• Giving singing lessons → OPERARUM.\n• Employee = LOCATOR renders services; employer = CONDUCTOR pays the wage.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: employment (OPERARUM)",
+   "front": "Who bears the wage risk in Roman employment contracts?",
+   "back": "The employer owes the full wage if non-performance is not the employee's fault — decided by sphere.\n• Employee's own illness → no wage.\n• Employer's illness or death → borne by the employer side.\n• Roman employment was marginal: most labour came from slaves.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. VII — Locatio conductio: employment (OPERARUM)",
+   "front": "Ulpian D 19.2.19.9: scribe B is hired for a year at a fixed wage; employer A dies soon after. Wage for the whole year?",
+   "back": "Yes — rescript of Caracalla and Septimius Severus: not the scribe's fault his services were not rendered.\n• But minus what he earns from someone else that year.\n• Modern parallel: § 1155 ABGB.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "What is MANDATUM?",
+   "back": "A consensual contract by which the MANDATARIUS undertakes to carry out, free of charge, a legal or factual act for the MANDATOR.\n• Rests on agreement — not a one-sided command, despite \"to mandate\" = \"to order\".\n• Necessarily gratuitous: a \"transaction among friends\" (AMICITIA).\n• BONAE FIDEI IUDICIUM: the INTENTIO refers to OPORTERE EX FIDE BONA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "Why is MANDATUM an imperfectly bilateral contract, and which actions arise from it?",
+   "back": "The MANDATOR always has a performance claim; the MANDATARIUS' counterclaims can, but need not, arise.\n• ACTIO MANDATI DIRECTA: performance and surrender of what was obtained.\n• ACTIO MANDATI CONTRARIA: MANDATARIUS claims expenses and losses.\n• No remuneration — the mandate is necessarily gratuitous.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "What is RES INTEGRA, and how can a mandate be ended unilaterally?",
+   "back": "RES INTEGRA = termination still causes neither side reliance loss; while it exists, either party may end the mandate.\n• Agreement matters for formation and for continuation.\n• Unilateral declaration: REVOCATIO (by the MANDATOR) or RENUNTIATIO (by the MANDATARIUS).\n• Note: the book's print appears to swap these two labels.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "What kind of act can be the object of a mandate, and whose affair must it be?",
+   "back": "A legal or a factual act, conducted for someone else — not solely in the MANDATARIUS' own interest.\n• Legal act: standing surety for the MANDATOR.\n• Factual act: erecting a statue in his honour.\n• Common interest possible: a mandate only insofar as the MANDATOR's interest differs.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "MANDATUM vs CONSILIUM (MANDATUM TUA GRATIA) — what is the difference?",
+   "back": "A \"mandate\" purely in the agent's own interest is non-binding advice (CONSILIUM), not MANDATUM (Gaius D 17.1.2.6, Case 174/1).\n• Sources call it MANDATUM TUA GRATIA — misleading, technically no mandate.\n• Adviser is not liable if things go wrong (Gai Inst 3.156, Case 173).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "Case 175 (Ulpian/Celsus D 17.1.16): Aurelius Quietus has his physician build a ball court and baths in the physician's gardens at Ravenna, at Quietus' expense. Recoverable?",
+   "back": "Only insofar as the costs exceed the increase in value of the physician's own property (ACTIO MANDATI CONTRARIA).\n• The value increase served the physician's own interest.\n• Only the excess was spent purely in the MANDATOR's interest.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "Property link: indirect agency in mandate (Example 65) — how does the MANDATOR become owner?",
+   "back": "The MANDATARIUS acquires first in his own name, then transfers to the MANDATOR by a second TRADITIO.\n• Achilles buys from Drakon for Pomona and receives by TRADITIO himself.\n• Classical law: SUI IURIS persons generally act only as indirect agents.\n• Direct agency (immediate effect on the principal) was generally not available.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "What does the MANDATARIUS owe — main duty and secondary duties?",
+   "back": "Carry out the transaction as agreed, safeguarding the MANDATOR's interests (e.g. hand over what he bought).\n• Secondary duties from BONA FIDES: protection, care, information.\n• Report impossibility promptly (Gaius D 17.1.27.2, Case 185).\n• Report other important facts (Ulpian D 17.1.29.3, Case 177).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "Example 66: seriously ill Laura asks Xerxes to bring a medicine from Greece; he breaks his leg. What must he do?",
+   "back": "Tell her promptly so she can ask someone else; failing to inform = CULPA LATA → liable.\n• Cf Gaius D 17.1.27.2 (Case 185).\n• If Laura dies before he leaves, the contract lapses (MANDATUM MORTE SOLVITUR).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "What is the MANDATARIUS' standard of liability, and what may the MANDATOR claim?",
+   "back": "As a rule only DOLUS and CULPA LATA — fitting a gratuitous act of friendship.\n• Typical breach: not performing although he could have.\n• Culpable non-performance → expectation interest (Gaius D 17.1.27.2, Case 185).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "Which expenses must the MANDATOR reimburse? (Example 67)",
+   "back": "Only those incurred BONA FIDE in duly performing the mandate (Gaius D 17.1.27.4, Case 178).\n• Bellona, asked to deliver Agathon's message, hires a horse though riding was not agreed.\n• Horse hire is outside the mandate → not reimbursed.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "Example 68: Vibia buys a slave for Solon; while staying at her house the slave steals from her. Can she claim?",
+   "back": "Yes — a loss directly linked to executing the mandate; ACTIO MANDATI CONTRARIA against Solon.\n• Principal liable irrespective of fault (\"liability for risk\").\n• Extent disputed: the slave's value only, or the whole loss?",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "Slave bought under a mandate steals from the MANDATARIUS: limited or full liability of the MANDATOR? (Neratius/Paulus vs Julian)",
+   "back": "Neratius and Paulus: limited to the slave's value, by analogy to noxal liability; Julian: the whole loss.\n• Paulus (Neratius) D 17.1.26.7 (Case 182).\n• Africanus (Julian) D 47.2.62(61).5 (Case 181).\n• Clearly the whole loss if he knew the slave was a thief and did not warn.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "Why does the MANDATOR bear the risk of accidental losses, and where is the limit? (Example 69)",
+   "back": "Whoever benefits from a gratuitous performance carries the risk of accidental harm — but not the general risk of life.\n• Orestes, robbed of 100 carrying Elektra's message → no claim.\n• Robbery, shipwreck, illness are not mandate-specific (Paulus D 17.1.26.6, Case 179).\n• Rationale: Africanus (Julian) D 47.2.62(61).5 last sentence (Case 181).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. VIII — Mandatum: concept and duties of the parties",
+   "readyBy": "2026-12-09",
+   "front": "Example 70: Omphale asks Teukros to obtain a painting, then buys it herself. Any duty?",
+   "back": "She must tell Teukros so he stops trying — the MANDATOR, too, has BONA FIDES secondary duties.\n• Protection, care and information toward the MANDATARIUS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: impossibility, death, loan mandate",
+   "readyBy": "2026-12-09",
+   "front": "Impossibility without fault in a mandate — what are the consequences?",
+   "back": "MANDATARIUS not liable; MANDATOR cannot demand performance but reimburses expenses incurred before the impossibility.\n• The MANDATARIUS must notify the MANDATOR.\n• Not obtainable at the agreed price, bought dearer: no delivery claim.\n• Offer and acceptance at the higher price = a new contract.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: impossibility, death, loan mandate",
+   "readyBy": "2026-12-09",
+   "front": "Case 183 (Gai Inst 3.161): E mandates T to buy land for 100,000 sesterces; T pays 150,000 though 100,000 would have sufficed. Position?",
+   "back": "E has ACTIO MANDATI for his interest; he may, but need not, take the land — even at 100,000.\n• T has no expense claim if E refuses.\n• Gaius follows Sabinus and Cassius: T's culpable breach.\n• Remarkable: T gets nothing even if willing to hand over at 100,000.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: impossibility, death, loan mandate",
+   "readyBy": "2026-12-09",
+   "front": "Exceeding the mandate's price limit: Sabinian vs Proculian view?",
+   "back": "Sabinians: the MANDATARIUS has no claim at all; Proculians: if he hands over the land, he recovers the agreed 100,000.\n• Sabinian view: Gai Inst 3.161 (Case 183).\n• Proculian view: Gaius D 17.1.4 (Case 184/2).\n• Possible but not done as agreed → liable for the MANDATOR's interest.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: impossibility, death, loan mandate",
+   "readyBy": "2026-12-09",
+   "front": "What does MANDATUM MORTE SOLVITUR mean, and what are its exceptions?",
+   "back": "Death of either party ends the mandate — a highly personal relationship; rights and duties do not pass to heirs.\n• Execution already begun: heir reimburses expenses; gains go to the heirs.\n• MANDATARIUS acting BONA FIDE, unaware of the death: ACTIO MANDATI CONTRARIA (Gai Inst 3.160, Case 186).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: impossibility, death, loan mandate",
+   "readyBy": "2026-12-09",
+   "front": "What is the loan mandate (MANDATUM QUALIFICATUM)?",
+   "back": "A mandates B to lend money to C in B's own name and at B's expense; A covers B's loss if C defaults.\n• Functionally a guarantee (cf § 778 BGB).\n• B cannot claim the sum lent as an \"expense\" — only his loss on default.\n• Unlike the loan on order: the loan arises between MANDATARIUS and third party.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VIII — Mandatum: impossibility, death, loan mandate",
+   "readyBy": "2026-12-09",
+   "front": "Case 173 (Gai Inst 3.156): Ego urges Tu to lend out idle money at interest; the borrower defaults. Is Ego liable — and if he named Titius?",
+   "back": "General urging: no — mere MANDATUM TUA GRATIA; naming Titius: a MANDATUM, Tu recovers by ACTIO MANDATI CONTRARIA.\n• Tu must then lend to Titius.\n• If Titius defaults, Tu recovers his loss from Ego.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VIII — Mandatum: impossibility, death, loan mandate",
+   "readyBy": "2026-12-09",
+   "front": "Urging someone to lend to a specific borrower: binding mandate or mere advice? (Sabinus/Gaius vs Servius)",
+   "back": "Sabinus and Gaius: a binding MANDATUM; Servius reportedly saw even this as mere advice.\n• Controversial in classical law (Gai Inst 3.156, Case 173).\n• Lending generally at interest, no borrower named: advice for all.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VIII — Mandatum: CESSIO, NOVATIO, IN REM SUAM",
+   "readyBy": "2026-12-09",
+   "front": "What is CESSIO, and why was it hard to achieve in Roman law?",
+   "back": "Transfer of a claim so that a new creditor (cessionary) instead of the cedent can demand performance from the debitor cessus.\n• OBLIGATIO = a personal bond between creditor and debtor only.\n• Change of creditor generally only via NOVATIO by stipulation, at the original creditor's request.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VIII — Mandatum: CESSIO, NOVATIO, IN REM SUAM",
+   "readyBy": "2026-12-09",
+   "front": "What is NOVATIO and what are its effects?",
+   "back": "Replacement of an existing obligation by a new one, by stipulation; the old one is extinguished with its securities.\n• Pledges and guarantees attached to the old claim fall away.\n• Can change the creditor, the debtor or the legal ground.\n• E.g. lessor's rent claim turned by stipulation into an obligation enforceable by CONDICTIO.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VIII — Mandatum: CESSIO, NOVATIO, IN REM SUAM",
+   "readyBy": "2026-12-09",
+   "front": "Example 71: Melitta owes Achilles 800, due in two years; Pytheas pays Achilles 700 for the claim. How does Pytheas get it?",
+   "back": "At Achilles' request Melitta promises Pytheas by stipulation what she owes — NOVATIO; Achilles' claim is extinguished.\n• Underlying deal: purchase of a not-yet-due claim for 700.\n• Creditor directing his debtor to bind himself to a new creditor = DELEGATIO OBLIGANDI.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VIII — Mandatum: CESSIO, NOVATIO, IN REM SUAM",
+   "readyBy": "2026-12-09",
+   "front": "What is MANDATUM AD AGENDUM IN REM SUAM?",
+   "back": "The creditor mandates the new creditor to sue the debtor; if he may keep the proceeds, it works like a cession.\n• No consent of the debtor needed.\n• IN REM SUAM: the MANDATARIUS litigates for himself and keeps the proceeds.\n• Basis for keeping them may be a sale of the claim.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VIII — Mandatum: CESSIO, NOVATIO, IN REM SUAM",
+   "readyBy": "2026-12-09",
+   "front": "What were the weaknesses of the MANDATUM IN REM SUAM, and how were they overcome?",
+   "back": "Formally he still enforces another's claim: the debtor may pay the MANDATOR; death or revocation ends the mandate.\n• MANDATOR-debtor deal on extension or waiver → EXCEPTIO against the MANDATARIUS.\n• Rescripts: ACTIO UTILIS despite the MANDATOR's death (Gordianus C 4.10.1).\n• Antoninus Pius: inheritance buyer's ACTIO UTILIS (Ulpian D 2.14.16 pr) → medieval CESSIO theory.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VIII",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IX — Societas: concept, shares, liability",
+   "front": "What is SOCIETAS?",
+   "back": "Two or more persons join to pursue a common economic purpose; consensual contract enforced by ACTIO PRO SOCIO (BONAE FIDEI IUDICIUM).\n• Not an exchange of performances but joint activity toward the agreed aim.\n• Agreement defines the goal and contributions; the rest follows from BONA FIDES.\n• No legal person — it governs only the partners' internal relations.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IX — Societas: concept, shares, liability",
+   "front": "How are profit and loss shares fixed in a SOCIETAS, and what is a SOCIETAS LEONINA?",
+   "back": "By agreement; if unclear, equal shares. A SOCIETAS LEONINA — one partner only losses, another only profits — is void.\n• Equal shares: Ulpian D 17.2.29 pr (Case 189).\n• Larger profit with smaller loss share allowed (Gai Inst 3.149, Case 188).\n• LEONINA offends AEQUITAS (Ulpian D 17.2.29.2, Case 189).\n• Contributions may be in kind, capital or labour.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IX — Societas: concept, shares, liability",
+   "front": "What is the standard of liability between partners (DILIGENTIA QUAM IN SUIS REBUS)?",
+   "back": "The care a partner usually shows in his own affairs — subjective CULPA IN CONCRETO, not the BONUS PATER FAMILIAS.\n• Liability for DOLUS and CULPA; in special cases CUSTODIA.\n• Rationale: whoever picks a careless partner has only himself to blame (Gaius D 17.2.72, Case 198).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IX — Societas: concept, shares, liability",
+   "front": "What is the BENEFICIUM COMPETENTIAE in the ACTIO PRO SOCIO?",
+   "back": "Privileged condemnation: the SOCIUS pays only ID QUOD FACERE POTEST — what he can afford.\n• Exception: a partner who fraudulently reduced his means (Ulpian D 17.2.63 pr, Case 201).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. IX — Societas: concept, shares, liability",
+   "front": "Paulus D 17.2.25 (Case 197): may a partner offset a loss he negligently caused against a gain he made for the SOCIETAS elsewhere?",
+   "back": "No — COMPENSATIO LUCRI CUM DAMNO (deducting gains from damages) is rejected here.\n• The concept fits where the harmful event itself also benefits the injured party.\n• Modern tort law: \"set-off of benefits\".",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. IX — Societas: risk, end, partnership assets",
+   "front": "Case 200 (Ulpian/Julian D 17.2.52.4): partner A in the clothing trade is robbed on a buying trip. Who bears the loss?",
+   "back": "Shared: Julian gives A the ACTIO PRO SOCIO against partner B for half.\n• Covers the money and goods A carried for purchasing.\n• Test: pursuing the business purpose was CONDICIO SINE QUA NON of the loss.\n• Contrast mandate: robbery is general risk of life (Case 179).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. IX — Societas: risk, end, partnership assets",
+   "front": "Case 196 (Ulpian/Celsus D 17.2.58 pr): T (three horses) and E (one) agree to sell them as a quadriga; E's horse dies before the sale. Who bears it?",
+   "back": "E alone: the purpose was only selling; it became impossible, the partnership dissolved, and E gets no share of T's sale.\n• If they intended to co-own the QUADRIGA: loss shared according to shares.\n• Shared risk covers risks typical of the agreed business purpose.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. IX — Societas: risk, end, partnership assets",
+   "front": "On which grounds does a SOCIETAS end?",
+   "back": "Termination (RENUNTIATIO) plus four further grounds.\n• A partner's death or insolvency.\n• Aim achieved.\n• Purpose becomes impossible.\n• Expiry of the agreed term (fixed-term partnership).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IX — Societas: risk, end, partnership assets",
+   "front": "RENUNTIATIO of a SOCIETAS — what are its limits?",
+   "back": "Any partner may renounce, dissolving the whole SOCIETAS — but not untimely, and a fixed-term one only for important reasons.\n• Untimely = losses a later reasonable date would avoid → compensate (Ulpian D 17.2.14, Case 194).\n• Important reasons: essential condition fails, or a partner's damage makes continuing unreasonable.\n• RENUNTIATIO EX NECESSITATE (Paulus D 17.2.65.6, Case 193).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IX — Societas: risk, end, partnership assets",
+   "front": "Contribution QUOAD USUM vs QUOAD SORTEM vs QUOAD DOMINIUM — what is the difference?",
+   "back": "Three ways of contributing a thing: only its use, its value internally, or co-ownership.\n• USUM: contributor keeps ownership, contributes the use only.\n• SORTEM: owner toward third parties; internally partnership property, divided on dissolution.\n• DOMINIUM: co-ownership (CONDOMINIUM) of all partners in agreed shares.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. IX — Societas: risk, end, partnership assets",
+   "front": "Property link: SOCIETAS vs co-ownership — can the partnership itself own its assets?",
+   "back": "No — SOCIETAS lacks legal personality; assets belong to single partners or jointly (CONDOMINIUM) to several or all.\n• CONDOMINIUM: each co-owner holds an ideal quota and may dispose of it.\n• SOCIETAS is a contract (obligations); co-ownership is property law — they may coexist.\n• Dissolution: ACTIO PRO SOCIO for accounts, ACTIO COMMUNI DIVIDUNDO for co-owned things.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. IX — Societas: risk, end, partnership assets",
+   "front": "Examples 72/73: restaurants run as partnerships — when is ACTIO PRO SOCIO enough, and when is ACTIO COMMUNI DIVIDUNDO needed?",
+   "back": "Agatha (premises) and Midas (labour): only ACTIO PRO SOCIO; Kreon and Hecuba's jointly bought land: also ACTIO COMMUNI DIVIDUNDO.\n• Agatha keeps ownership — no change in property law.\n• ACTIO PRO SOCIO: settlement of accounts, profit and loss shares.\n• Joint acquisition within the partnership creates co-ownership.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-IX",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: concept and enforcement",
+   "front": "What are innominate contracts?",
+   "back": "Actionable agreements whose content fits none of the recognised contract types.\n• No standard action available (ACTIO CERTAE CREDITAE PECUNIAE, ACTIO EMPTI, ACTIO LOCATI etc.).\n• Requires synallagmatically linked performances.\n• Classically enforced by ACTIO PRAESCRIPTIS VERBIS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: concept and enforcement",
+   "front": "What are the four patterns of innominate contracts?",
+   "back": "DO UT DES, DO UT FACIAS, FACIO UT FACIAS, FACIO UT DES — combinations of DARE and FACERE.\n• Each performance is promised in order to get the other (SYNALLAGMA).\n• Exchange (PERMUTATIO) = DO UT DES.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: concept and enforcement",
+   "front": "Which two prerequisites must be met to claim performance under an innominate contract?",
+   "back": "A synallagmatic link of the performances and — commonly named — prior performance by the claimant, at least in part.\n• Hence the name \"innominate real contracts\".\n• Contrast EMPTIO VENDITIO and LOCATIO CONDUCTIO: claims arise on mere consensus.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: concept and enforcement",
+   "front": "Case 208a (Ulpian/Julian D 19.5.13.1): E transfers land to T, who is to build a house on part of it and transfer that part back. Which contract?",
+   "back": "An innominate contract — Julian rejects sale, mandate and partnership.\n• No sale: no fixed money price.\n• No mandate: a remuneration was agreed.\n• No partnership: focus on the SYNALLAGMA, not a shared business aim.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. X — Innominate contracts: concept and enforcement",
+   "front": "Case 204 (Ulpian D 19.5.17.3): E and T lend each other their oxen for ten days each; one ox dies. Which action, which standard?",
+   "back": "ACTIO PRAESCRIPTIS VERBIS — innominate contract, not COMMODATUM, since use is exchanged for use.\n• Liability by analogy: negligence up to CUSTODIA.\n• Same standard as in COMMODATUM and LOCATIO CONDUCTIO REI.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. X — Innominate contracts: concept and enforcement",
+   "front": "Case 210a (Pomponius D 19.5.16.1): T lets E sow on T's land, then refuses to let him harvest. Remedy?",
+   "back": "Only damages via ACTIO DE DOLO, the subsidiary delictual remedy.\n• No recognised contract type.\n• No innominate contract either: no SYNALLAGMA — E owed no counter-performance.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: concept and enforcement",
+   "front": "CONDICTIO CAUSA DATA CAUSA NON SECUTA vs ACTIO PRAESCRIPTIS VERBIS — what does each achieve?",
+   "back": "CONDICTIO (earlier law): restitution of one's own performance; ACTIO PRAESCRIPTIS VERBIS (classical): enforcement of the counter-performance.\n• CONDICTIO = OB CAUSAM DATORUM = OB REM — unjust enrichment.\n• ACTIO PRAESCRIPTIS VERBIS: a BONAE FIDEI IUDICIUM.\n• Normally available only once the claimant has performed.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: concept and enforcement",
+   "front": "Case 205 (Papinian D 19.5.7): E gives T ten gold coins so that T frees the slave Stichus; T does not. E's actions?",
+   "back": "ACTIO PRAESCRIPTIS VERBIS for his interest in the manumission, or CONDICTIO (OB CAUSAM DATORUM) for the coins.\n• Pattern: DO UT FACIAS.\n• Choice: expectation interest vs restitution.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. X — Innominate contracts: concept and enforcement",
+   "front": "Why is it called ACTIO PRAESCRIPTIS VERBIS, and what other names does it have?",
+   "back": "The formula is preceded by a description of the specific agreement (DEMONSTRATIO); the INTENTIO frames a IUS CIVILE claim.\n• ACTIO INCERTI CIVILIS (Ulpian/Maurician D 2.14.7.2, Case 202).\n• ACTIO IN FACTUM CIVILIS (Ulpian D 19.5.13 pr, Case 208).\n• Not the praetorian ACTIO IN FACTUM CONCEPTA (Julian in D 2.14.7.2).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: exchange, aestimatum, liability",
+   "front": "PERMUTATIO (exchange): sale or innominate contract? (Sabinians vs Proculians)",
+   "back": "The Proculian view prevailed: a money price is essential to EMPTIO VENDITIO, so exchange is an innominate contract.\n• Sabinians first treated barter as sale (Paulus D 18.1.1.1, Case 52).\n• ABGB: exchange (§§ 1045 ff) and sale (§§ 1053 ff) partly identical rules.\n• § 480 BGB applies sale rules analogously.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. X — Innominate contracts: exchange, aestimatum, liability",
+   "front": "Exchange vs sale — what must the party perform, and when does a claim arise?",
+   "back": "Exchange (DO UT DES): claim arises from DARE — making the other owner; sale: consensus suffices, seller owes undisturbed possession.\n• Handing over another's thing creates no exchange claim (Pedius in Paulus D 19.4.1.3).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: exchange, aestimatum, liability",
+   "front": "What is the aestimatory contract (AESTIMATUM)?",
+   "back": "E hands T goods to sell; if sold, T pays the estimated value and keeps any surplus; unsold, T returns them.\n• Unsold goods are returned after a set period.\n• Enforced by ACTIO DE AESTIMATO, an ACTIO PRAESCRIPTIS VERBIS.\n• The edict apparently had a model formula (Ulpian D 19.3.1, Case 207).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: exchange, aestimatum, liability",
+   "front": "Case 208 (Ulpian D 19.5.13 pr): E gives T an item to sell at a fixed price; T may keep any surplus. Why no mandate, SOCIETAS, sale or lease?",
+   "back": "An innominate contract: T is not gratuitous, has no partnership intent, may return unsold goods, and his reward is not fixed.\n• Mandate: T would sell gratuitously and hand over all proceeds.\n• SOCIETAS: the giver gets a fixed price, not a share.\n• Sale/lease: return possible; reward depends on whether and at what price he sells.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. X — Innominate contracts: exchange, aestimatum, liability",
+   "front": "Aestimatum as SOCIETAS (Ulpian D 17.2.44, Case 195) — why is that classification doubtful?",
+   "back": "Ulpian: SOCIETAS if they intend a partnership to sell — one contributes goods, the other selling effort; a common purpose is doubtful.\n• The giver wants the estimated value.\n• The dealer wants to sell above it and keep the surplus.\n• Without partnership intent: innominate contract (Case 208).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. X — Innominate contracts: exchange, aestimatum, liability",
+   "front": "How are duties, liability and risk determined in innominate contracts?",
+   "back": "By the agreement (ID QUOD ACTUM EST) and by analogy to the most similar nominate contract; liability follows the utility principle.\n• Scope, defective performance, liability and risk: as in the closest nominate contract.\n• Modern parallel: atypical or mixed contracts handled by analogy to regulated types.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. X — Innominate contracts: exchange, aestimatum, liability",
+   "front": "CONTRACTUS MOHATRAE (Ulpian/Labeo D 19.5.19 pr, Case 210) and AESTIMATUM: the goods perish before the sale — who bears the loss?",
+   "back": "Whoever had the main interest: in MOHATRAE usually the recipient (his borrowing interest) — liable for all fault and all accidents.\n• Giver's interest predominates → recipient liable only for culpable loss.\n• AESTIMATUM: same test; seller always liable for DOLUS and CULPA (Ulpian D 19.5.17.1, Case 209).\n• MOHATRAE: MUTUUM arises only when the recipient receives the price.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. X — Innominate contracts: exchange, aestimatum, liability",
+   "front": "Case 206 (Ulpian D 19.5.20 pr): E lets T test horses for three days; T wins a trick-riding competition on them, then declines to buy. E's remedy?",
+   "back": "ACTIO PRAESCRIPTIS VERBIS: the agreement allowed testing, not competing — presumably for the prize money.\n• Subsidiary function: surrender of a gain from conduct outside the agreement, not counter-performance.\n• No CONDICTIO: the gain does not stem from a payment E made to T.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-X",
+    "p1"
+   ]
+  }
+ ]
+}

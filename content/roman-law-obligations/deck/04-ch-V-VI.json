@@ -1,0 +1,1513 @@
+{
+ "subject": "Roman Law of Obligations",
+ "examDate": "2027-01-13",
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "ESSENTIALIA NEGOTII vs ACCIDENTALIA NEGOTII in a sale — what is the difference?",
+   "back": "ESSENTIALIA = object and price, the core of the sale; ACCIDENTALIA = non-essential but possible extra terms, based on private autonomy.\n• Examples of ACCIDENTALIA: special delivery mode, payment by instalments, modified duties.\n• If side agreements are intended, consensus must cover all of them.\n• Dissent on an auxiliary point prevents the whole contract from arising.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "Suspensive vs resolutive condition (CONDICIO) in a sale — how does each work?",
+   "back": "Suspensive: the contract takes effect only once the condition is met. Resolutive: valid from consensus, dissolved when the condition occurs.\n• CONDICIO = future, uncertain event; a certain future event is a time clause (DIES).\n• Example 32: 'if my ship returns safely from Greece, it is sold to you' — suspensive.\n• Example 33: cart sold for 10.000, a gift if the seller wins at gambling — resolutive.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "Resolutive condition fulfilled after delivery: EX TUNC vs EX NUNC effect — how does the seller get the thing back?",
+   "back": "EX TUNC: no CAUSA ever existed, so the seller is still owner → REI VINDICATIO. EX NUNC: ownership transfer stands → CONDICTIO or contract action.\n• Which effect applies depends on the wording of the agreement.\n• EX NUNC: only the CAUSA for keeping the goods lapses.\n• Suspensive condition: even after delivery, only fulfilment creates the CAUSA for ownership.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "LEX MANCIPIO DICTA — what is it and what is its legal basis?",
+   "back": "An oral side agreement made at the MANCIPATIO; binding under Lex XII Tab VI.1: UTI LINGUA NUNCUPASSIT, ITA IUS ESTO.\n• Gist: what is declared orally at the MANCIPATIO shall be law.\n• Typical for a slave: duty to manumit, ban on manumission, duty to export.\n• For a female slave: prohibition of prostitution.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "Example 34 (cf Paulus D 18.1.56, Case 142): slave mancipated on condition she is not prostituted; buyer prostitutes her and resells. Rights of the seller?",
+   "back": "Murena may vindicate the slave even from the third party Capito: on breach, ownership reverted to him.\n• Facts: Murena mancipates her to Thermus, who prostitutes her and sells her to Capito.\n• LEGES MANCIPIO DICTAE act not only IN PERSONAM but IN REM.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "What are PACTA ADIECTA in an EMPTIO VENDITIO?",
+   "back": "Side agreements added to the consensual sale; like the ESSENTIALIA NEGOTII they become binding parts of the contract.\n• Enforceable with the sale actions.\n• Main types: LEX COMMISSORIA, PACTUM DISPLICENTIAE, IN DIEM ADDICTIO.\n• Further: PACTUM DE RETROEMENDO, PACTUM PROTIMISEOS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "LEX COMMISSORIA — content, purpose and type of condition?",
+   "back": "Clause making the sale invalid if the buyer has not paid the full price by a set date (cf Pomponius D 18.3.2, Case 133).\n• Protects the seller; usually paired with payment by instalments.\n• The sale is subject to the resolutive condition of non-payment.\n• Example 35: Nisos may pay Omphale in three quarterly instalments, else the contract fails.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "Does a sale under a LEX COMMISSORIA dissolve IPSO IURE on the buyer's default?",
+   "back": "No — default only gives the seller an option to withdraw, triggered by the objective fact of non-payment (cf Pomponius D 18.3.2, Case 133).\n• Rationale: automatic lapse would let the buyer escape the sale simply by not paying.\n• Tempting for him e.g. if the object perished by VIS MAIOR or he regrets the deal.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "Property link: why can the seller use REI VINDICATIO when a sale falls away under a LEX COMMISSORIA (Example 35)?",
+   "back": "TRADITIO is causal: ownership passes only with a IUSTA CAUSA TRADITIONIS. If the sale is dissolved, that CAUSA lapses too.\n• REI VINDICATIO = the owner's action against any possessor.\n• Nisos has no EXCEPTIO REI VENDITAE ET TRADITAE — there is no sale anymore.\n• Contrast MANCIPATIO: abstract, needs no IUSTA CAUSA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "LEX COMMISSORIA vs modern reservation of ownership?",
+   "back": "Economic counterparts — but under reservation of ownership the seller keeps ownership until the price is fully paid.\n• Technically: transfer of ownership under the suspensive condition of paying the price.\n• LEX COMMISSORIA: the sale itself is resolutively conditional.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "PACTUM DISPLICENTIAE — what is it and how did the jurists construe it?",
+   "back": "Sale on approval / on trial: if the buyer is dissatisfied, the goods count as not bought.\n• Mostly seen as a sale under a resolutive condition: the contract arises at once.\n• The buyer may withdraw within the trial period.\n• Fulfilment depends on one party's will → CONDICIO POTESTATIVA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "Trial before any sale (Example 36: Dionysos offers Hera a vase for 50) vs PACTUM DISPLICENTIAE?",
+   "back": "Classical jurists treat a suspensive potestative condition not as a contract but as a binding offer by the seller.\n• During the trial only the buyer decides.\n• Acceptance within the period → unconditional sale (Hera says within the week she wants it).\n• PACTUM DISPLICENTIAE: contract already concluded, resolutively conditional.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "IN DIEM ADDICTIO — what does it allow, and what counts as a 'better offer'?",
+   "back": "The seller may withdraw if he gets a better offer within a set time (cf Ulpian D 18.2.2 pr, Case 135).\n• Seller's advantage: a buyer is secured while he still looks for a better offer.\n• Better = higher price or better payment terms (earlier date, more convenient place).\n• Also a bidder's greater solvency (cf Ulpian (Pomponius) D 18.2.4.6, Case 137).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "IN DIEM ADDICTIO as suspensive vs resolutive condition — effect on transfer of ownership?",
+   "back": "Suspensive: no IUSTA CAUSA TRADITIONIS until fulfilment, so no transfer of ownership. Resolutive: CAUSA arises at once, lapses on termination.\n• Suspensive: sale effective only if no better offer comes in during the period.\n• Resolutive: effective at once, cancellable on a better offer.\n• Terminated resolutive sale → seller may vindicate from the buyer (cf Ulpian D 6.1.41 pr, Case 136).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 3,
+   "topic": "Ch. V — Sale II: Auxiliary agreements",
+   "readyBy": "2026-12-02",
+   "front": "PACTUM DE RETROEMENDO vs PACTUM PROTIMISEOS?",
+   "back": "DE RETROEMENDO: seller's option to buy back at a pre-fixed price. PROTIMISEOS: buyer may resell only to the original seller.\n• Exercising the option brings the pre-defined repurchase contract into effect (cf Proculus D 19.5.12, Case 141).\n• PROTIMISEOS restricts the buyer's disposal (cf Hermogenian D 18.1.75, Case 140).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Non-performance and expectation interest",
+   "readyBy": "2026-12-02",
+   "front": "Object perishes before vs after conclusion of the sale — initial vs subsequent impossibility?",
+   "back": "Before conclusion: initial impossibility — no contract (possibly reliance damages). After conclusion, before performance: subsequent impossibility — valid contract.\n• Subsequent + seller at fault → damages for non-performance.\n• Subsequent + event outside the seller's responsibility → question of assumption of risk.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Non-performance and expectation interest",
+   "readyBy": "2026-12-02",
+   "front": "Culpable non-performance: what is the seller's duty before delivery, and what does he owe if he breaches it?",
+   "back": "He may neither wilfully nor negligently prevent or impair delivery; otherwise the impossible delivery is replaced by its money equivalent.\n• Until delivery he is still owner, but his freedom of disposal is limited by the duty to deliver.\n• Damages = buyer's interest in having the object (Ulpian D 19.1.1 pr, Case 87).\n• That interest is the expectation interest.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Non-performance and expectation interest",
+   "readyBy": "2026-12-02",
+   "front": "What is expectation interest, and how is it determined?",
+   "back": "A party's interest in proper performance by the other — the loss suffered when the other fails to perform properly (\"positive interest\").\n• Difference method: actual assets vs hypothetical assets after proper performance.\n• Seller: the agreed price; on default also interest on arrears.\n• Buyer: measured by the object's market value.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Non-performance and expectation interest",
+   "readyBy": "2026-12-02",
+   "front": "Agatha buys a vase worth 150 from Bubo for 100; Bubo culpably fails to deliver. What is her expectation interest?",
+   "back": "50 if she has not yet paid (150 − 100); 150 if she has already paid the 100.\n• Advantageous deal: value exceeds price → net gain in assets.\n• Often market value = price → no interest beyond the price.\n• Even if the value is below the price, the buyer can always reclaim the price.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Non-performance and expectation interest",
+   "readyBy": "2026-12-02",
+   "front": "Example 38 (cf Paulus D 19.1.21.3, Case 91): wheat not delivered; buyer skips a cover purchase and two slaves starve. What can he claim?",
+   "back": "Only 30 — the extra cost of the possible cover purchase (130 − 100); nothing for the starved slaves.\n• Goods obtainable elsewhere → expectation interest = extra cost of the substitute transaction.\n• Modern: Obliegenheit to minimise damages; only the unpreventable part is compensated.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Non-performance and expectation interest",
+   "readyBy": "2026-12-02",
+   "front": "Example 39 (Lykaon, flute-playing slave, penalty of 100): why can expectation interest exceed the slave's value?",
+   "back": "The reference point is the specific buyer's wealth: the slave lets Lykaon avoid the penalty → 180 if he has paid.\n• 180 = 80 (value) + 100 (penalty avoided).\n• Only if he cannot make a timely substitute purchase.\n• Example 40: last volume of a nine-volume set — the set (1.200) exceeds the parts (100 each).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Non-performance and expectation interest",
+   "readyBy": "2026-12-02",
+   "front": "Example 41 (Ago wilfully withholds Stichus, whom Lysippe resold to Europa for 120 with a stipulated penalty of 50): what may Lysippe claim?",
+   "back": "170 if she has already paid Ago 100: the value plus lost profit of 20 plus the penalty of 50.\n• DAMNUM EMERGENS = loss of the object itself; LUCRUM CESSANS = lost (resale) profit.\n• Lost profit belongs to non-performance damages.\n• A mere chance of profit not yet materialised is not compensable.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Non-performance and expectation interest",
+   "readyBy": "2026-12-02",
+   "front": "Case 86 (Labeo (Paulus) D 19.1.54 pr): the sold slave breaks his leg carrying out the seller's order before delivery. Is the seller liable?",
+   "back": "Labeo: not if it was an order he usually gave, also to unsold slaves. Paulus: liable if a careful paterfamilias would not have given it.\n• Labeo: subjective standard — DILIGENTIA QUAM IN SUIS REBUS.\n• Paulus: objective standard of a DILIGENS PATER FAMILIAS — was the task dangerous?\n• The seller is always liable for DOLUS MALUS and CULPA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "Example 42 (Ramses: table burnt by lightning, vase clumsily dropped, bowl stolen before collection) — which problem does each loss raise?",
+   "back": "Table: VIS MAIOR → assumption of risk. Vase: seller's fault → non-performance damages. Bowl: lesser accident → is the seller liable for CUSTODIA?\n• Questions: is the seller freed from delivering, and is the buyer freed from paying?\n• Specific goods at fixed prices → the sale was perfected on 1 May.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "What is PERICULUM (risk) in sale, and which kinds of accident are distinguished?",
+   "back": "The hazard of accidental loss, destruction or deterioration — accidental meaning neither party is at fault.\n• VIS MAIOR = acts of God.\n• CASUS MINOR = lesser accidents (relevant for CUSTODIA).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "VIS MAIOR — Roman description and typical examples?",
+   "back": "VIS CUI RESISTI NON POTEST — force that cannot be resisted; unforeseeable or unavoidable events.\n• Natural death, shipwreck, fire.\n• Attacks by pirates or armed robber gangs; flight of slaves.\n• Harm despite utmost care also counts (Example 43: robbers take borrowed silver at knifepoint).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "CUSTODIA — which standard of care does it denote, and how does it differ from the LEX AQUILIA standard?",
+   "back": "Utmost diligence, esp. guarding: TALIS DILIGENTIA, QUALEM QUISQUE DILIGENTISSIMUS PATER FAMILIAS SUIS REBUS ADHIBET (cf Gaius D 13.6.18 pr, Case 23).\n• Lesser accidents = harm that such utmost care could have prevented.\n• LEX AQUILIA: care of a DILIGENS (not DILIGENTISSIMUS) PATER FAMILIAS suffices.\n• Some contracts impose it, e.g. the borrower's CUSTODIA liability.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "Property link: CASUM SENTIT DOMINUS — what does it mean, and how does the Roman sale depart from it?",
+   "back": "'The owner feels the accident': in general the owner bears the risk of accidental loss.\n• The buyer becomes owner by TRADITIO from an authorised seller.\n• So, strictly, risk would pass only on TRADITIO (as in modern law).\n• Roman sale: risk passes earlier — on perfection (PERICULUM EST EMPTORIS).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "PERICULUM EST EMPTORIS — source and core rule?",
+   "back": "From perfection the buyer bears the risk of VIS MAIOR: PERFECTA EMPTIONE PERICULUM AD EMPTOREM RESPICIET (Paulus D 18.6.8 pr, Case 79/1).\n• Covers loss, destruction or deterioration between perfection and delivery.\n• Twofold: non-performance risk and payment risk.\n• Not necessarily linked to TRADITIO, unlike modern law.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "Non-performance risk vs payment risk under PERICULUM EST EMPTORIS?",
+   "back": "Non-performance risk: getting neither goods nor damages despite a valid contract. Payment risk: having to pay without receiving performance.\n• Primary performance = the goods; secondary performance = damages.\n• Payment risk matters only for a party already bearing non-performance risk.\n• After VIS MAIOR post-perfection the buyer bears both.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "Example 44: Probus buys a specific vase (worth 120) from Daphne for 100; an earthquake destroys it after perfection, before delivery. Result?",
+   "back": "No vase and no damages (non-performance risk), yet Probus must still pay 100 (payment risk).\n• Earthquake = VIS MAIOR; Daphne is not at fault.\n• Mere deterioration: likewise full price for defective performance.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "Why did Roman law put the risk on the buyer, and what limited this rule?",
+   "back": "Cash sales prevailed; where delivery was deferred, not taking delivery at once was seen as the buyer's advantage.\n• Requires perfection: goods ascertained, no suspensive condition or time limit left.\n• So many VIS MAIOR impairments fell outside the rule.\n• Non-mandatory: the parties could agree another allocation.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "VIS MAIOR between conclusion (EMPTIO CONTRACTA) and perfection — who bears what?",
+   "back": "Stock reduced but performance still possible → seller bears it (GENUS NON PERIT). Performance impossible → buyer gets nothing, but pays nothing.\n• Before perfection the buyer bears the non-performance risk, not the payment risk.\n• The seller need not supply substitutes.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Assumption of risk — VIS MAIOR, CUSTODIA, PERICULUM EST EMPTORIS",
+   "readyBy": "2026-12-02",
+   "front": "Example 45 (Priamos sells Ismene 20 of 300 amphorae; an earthquake destroys 170 — or the whole cellar): result?",
+   "back": "170 lost: sale unaffected — he must select 20 of the remaining 130 on 15 August. Whole cellar lost: no oil, no price.\n• He cannot claim he meant the 20 from the destroyed part.\n• Limited sale of unascertained goods from that stock.\n• Not ascertained → not perfected → no PERICULUM EST EMPTORIS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Perfection and lesser accidents",
+   "readyBy": "2026-12-02",
+   "front": "EMPTIO CONTRACTA vs EMPTIO PERFECTA?",
+   "back": "CONTRACTA: binding on agreement on object and price. PERFECTA: price fixed, object specified, no suspensive condition or term pending.\n• Perfect = ready for execution: QUID, QUALE, QUANTUM? (cf Paulus D 18.6.8 pr, Case 79/1).\n• Perfection does not require that delivery be due.\n• Perfection is the prerequisite of PERICULUM EST EMPTORIS.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Perfection and lesser accidents",
+   "readyBy": "2026-12-02",
+   "front": "Checklist: which circumstances prevent perfection of a sale?",
+   "back": "Unascertained goods, a pending suspensive condition or term, undetermined quantity or price, and (presumably) defective goods.\n• A resolutive condition does NOT prevent perfection.\n• Unit-price sale: not perfected until the quantity is counted (cf Gaius D 18.1.35.5, Case 62).\n• Defective goods: perfected once the defect is cured (cf Ulpian D 21.1.59 pr).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Perfection and lesser accidents",
+   "readyBy": "2026-12-02",
+   "front": "Example 46 (Lydus buys 100 amphorae from Turia's store: 1 Jan sale, 1 Feb chalk-marked, 1 Apr collected) — when does risk pass?",
+   "back": "On 1 February: the amphorae are ascertained, so the sale is perfected (cf Gaius D 18.1.35.7, Case 80).\n• 1 January: price certain (2.000), goods not yet ascertained.\n• Ascertainment turns a duty to deliver unascertained goods into one for specific goods.\n• Usually joint, so the buyer keeps passing of risk close to TRADITIO.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Perfection and lesser accidents",
+   "readyBy": "2026-12-02",
+   "front": "Umbrella bought 'if it rains tomorrow' (Diana/Terentius) vs racehorse sold for Phaon's birthday (Example 48) — when perfected?",
+   "back": "Umbrella: suspensive condition — perfected only if it rains. Racehorse: suspensive term — perfected on the birthday.\n• While the condition is uncertain, there is no perfected sale.\n• Example 49: all barrels at 100 each — unperfected until they are counted.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Perfection and lesser accidents",
+   "readyBy": "2026-12-02",
+   "front": "OBLIGATIO ALTERNATIVA in sale — who chooses, and when is the sale perfected?",
+   "back": "One of two (or more) individually specified things is owed; in doubt the seller chooses, but the choice may be given to the buyer.\n• Unperfected while it is open which thing is to be delivered.\n• Normally perfected when the choice is exercised.\n• Also when all items but one become impossible through VIS MAIOR.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Perfection and lesser accidents",
+   "readyBy": "2026-12-02",
+   "front": "Case 84 (Paulus D 18.1.34.6): 'Stichus or Pamphilus' sold; both die by VIS MAIOR, one after the other or simultaneously. Must the buyer pay?",
+   "back": "Yes — in both variants the buyer bears the risk as to one slave and pays the price without receiving anything.\n• Variant 1: first death shrinks the pool → survivor ascertained → sale perfected.\n• Second death then falls on the buyer: non-performance and payment risk.\n• Variant 2: Paulus generalises — buyer always bears the risk for one of the two.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. V — Sale II: Perfection and lesser accidents",
+   "readyBy": "2026-12-02",
+   "front": "Example 50: Aristo buys 100 metretes from Iokaste's cellar; the whole cellar is destroyed before ascertainment. Does Paulus' alternative-obligation solution apply?",
+   "back": "Prevailing opinion: no — PERICULUM EST EMPTORIS seems not to apply (cf Gaius D 18.1.35.7, Case 80).\n• Conceivable analogy: whichever 100 had been picked would have perished.\n• Counter: perfection is a separate prerequisite for the passing of risk.\n• Else every impossibility would count as perfection — pointless.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Perfection and lesser accidents",
+   "readyBy": "2026-12-02",
+   "front": "Lesser accident (e.g. theft) before delivery — what are the two views on the seller's CUSTODIA?",
+   "back": "(a) Seller owes CUSTODIA like a borrower → liable for expectation interest. (b) Only DILIGENS PATER FAMILIAS care → released from performance.\n• (a): Paulus D 18.6.3 (Case 79/2); Ulpian D 18.6.4.1 (Case 82) 1st sentence.\n• On (a) only VIS MAIOR frees the seller.\n• On (b) the buyer bears non-performance risk, but not payment risk.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Perfection and lesser accidents",
+   "readyBy": "2026-12-02",
+   "front": "Example 51: Cato buys a thing worth 120 from Helena for 100; it is stolen before delivery. CUSTODIA liability vs risk for CUSTODIA — outcomes?",
+   "back": "With CUSTODIA liability: Helena owes 120, Cato 100 → set-off leaves 20 for Cato. Without: Cato gets nothing and owes nothing.\n• The models differ only when expectation interest exceeds the price.\n• Worth 100, sold for 100 → same result: no performance on either side.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "MORA DEBITORIS — definition, and is fault required?",
+   "back": "The debtor does not offer the owed, still-possible performance on the due date in the agreed form.\n• Consequences in principle only if culpably caused: SI PER EUM STAT.\n• Delay ≠ non-performance or risk cases, where the obstacle is permanent.\n• Roman sources use MORA for any culpable deviation, incl. non-performance.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "Ulpian D 19.1.13.8: why must the buyer offer the price when he sues EX EMPTO?",
+   "back": "Because the seller may hold back the sold thing like a pledge: VENDITOR ENIM QUASI PIGNUS RETINERE POTEST EAM REM QUAM VENDIDIT.\n• OFFERRI PRETIUM AB EMPTORE DEBET, CUM EX EMPTO AGITUR.\n• Illustrates the debtor's duty to offer performance when due.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "Seller in MORA DEBITORIS — what are the consequences?",
+   "back": "He becomes liable even for later accidental loss, owes damages for the delay, and in serious cases the buyer may withdraw.\n• Accidental loss → expectation interest instead of delivery (cf Ulpian D 19.1.1 pr, Case 87).\n• Late slave: his earnings since the due date plus the buyer's lost earnings (Neratius D 19.1.31.1, Case 88).\n• Staying in the contract unreasonable → BONA FIDES probably allowed withdrawal.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "Example 52: Vibia forgets to deliver a specific vase due on 1 March; lightning destroys it on 2 March. Who bears the loss?",
+   "back": "Vibia: in delay since 1 March, she answers also for accidental loss and owes Cato his expectation interest.\n• Risk had passed to Cato on perfection (PERICULUM EST EMPTORIS).\n• The seller's culpable delay shifts it back to her.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "Example 53 (cf Hermogenian D 18.6.20(19), Case 89): Pausanias pays late; Niobe misses a bargain earring deal for lack of cash. Her claim?",
+   "back": "Only default interest — not the lost profit from the missed earring deal.\n• A buyer paying late owes default interest; the seller has no further damages claim.\n• Idea: she should have borrowed; the interest reimburses her borrowing cost.\n• Rate: the customary local rate for borrowing money.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "MORA CREDITORIS — definition, relation to MORA DEBITORIS, and the seller's liability during it?",
+   "back": "The creditor fails to accept performance properly offered; it excludes MORA DEBITORIS (no proper offer, no default of acceptance).\n• Creditor's fault probably not required.\n• Buyer in default: seller liable only for DOLUS and CULPA LATA.\n• VIS MAIOR, lesser accident, slight negligence → buyer pays and gets nothing.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "Case 85/1 (Paulus D 18.6.13(12)): uncollected beds placed on a public road are smashed by the aedile. Who bears the risk?",
+   "back": "The buyer, who had not collected them on time — Paulus reports this as the prevailing view.\n• The buyer was in MORA CREDITORIS.\n• Aediles also acted as traffic police; the beds obstructed traffic.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "MORA CREDITORIS with money debts — how could the debtor free himself?",
+   "back": "By depositing what is owed at certain public places, e.g. temples.\n• Probably from Diocletian (late 3rd c.) on, deposit discharged the debt like performance.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "Case 93 (Ulpian D 18.6.1.3): the wine buyer does not turn up for measuring by the agreed date. What may the seller do?",
+   "back": "After notice he could even pour the wine away — better, though, to keep it and claim storage costs.\n• Storage costs from late acceptance: ACTIO VENDITI.\n• Lost rent for barrels he could have let out is recoverable.\n• He may hire barrels from a third party and charge the buyer.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. V — Sale II: Delay (MORA)",
+   "readyBy": "2026-12-02",
+   "front": "Case 92 (Pomponius D 19.1.9): the buyer of stones fails to remove them from the seller's land as agreed. Remedy?",
+   "back": "The seller can sue the buyer on the sale for removal.\n• The contract may make taking delivery a duty, not just a right.\n• Buyer in MORA CREDITORIS (entitled) and MORA DEBITORIS (obliged to remove).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-V",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty in general",
+   "readyBy": "2026-12-02",
+   "front": "Warranty for defects of title vs defects as to quality — Examples 54 and 55?",
+   "back": "Title: a third party's right defeats the buyer (Ex 54: owner Niketas wins REI VINDICATIO). Quality: the thing itself is defective (Ex 55: diseased cow).\n• Both surface after delivery and payment.\n• Obligations do not end with delivery: warranty claims arise later.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty in general",
+   "readyBy": "2026-12-02",
+   "front": "Warranty — what is its typical feature regarding the seller's fault?",
+   "back": "Liability regardless of fault: the seller answers for defects whether or not he caused or culpably concealed them.\n• Seller's DOLUS matters: it makes liability stricter.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty in general",
+   "readyBy": "2026-12-02",
+   "front": "A defect appears — at which moment did it arise, and which regime applies?",
+   "back": "Present at delivery (not arising after perfection) → warranty; between perfection and delivery → risk or non-performance; after delivery → no claim.\n• Accident after perfection → assumption of risk; seller's fault → non-performance.\n• Root cause present at delivery suffices (cow already infected).\n• Later grounds of eviction are not the seller's concern (Paulus D 21.2.11 pr).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VI — Sale III: Warranty in general",
+   "readyBy": "2026-12-02",
+   "front": "Labeo (Trebatius) in Ulpian D 19.1.13.22: who bears the costs of curing a sold slave before delivery, or of his funeral?",
+   "back": "The buyer — the seller recovers these costs with his action EX VENDITO.\n• Under PERICULUM EST EMPTORIS the buyer bears illness and death after perfection.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty in general",
+   "readyBy": "2026-12-02",
+   "front": "Can warranty be excluded by agreement? (cf Pomponius D 19.1.6.9, Case 101)",
+   "back": "Yes, warranty rules are dispositive — but never for DOLUS MALUS: excluding it violates BONA FIDES.\n• Even after a total waiver the buyer can sue a seller who knowingly kept quiet.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Can one validly sell a thing one does not own? Exceptions? (Ulpian D 18.1.28, Case 95/2)",
+   "back": "Yes: ownership or power of disposal generally has no bearing on the validity of the sale.\n• Exception: buying one's own thing is legally impossible.\n• Exception: no valid sale of a RES FURTIVA if both sides know it is stolen.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Property link: sale vs conveyance — which questions belong to obligations, which to property law?",
+   "back": "Obligations: validity of the sale and the parties' duties. Property: whether TRADITIO was effective and the recipient became owner.\n• Sale = obligation-creating transaction (claim to delivery).\n• Conveyance (TRADITIO, MANCIPATIO) = transfer of ownership.\n• So a non-owner's sale is valid, but his conveyance cannot make the buyer owner.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "The seller of another's thing does not even possess it and cannot deliver — consequence?",
+   "back": "Subjective impossibility (inability) does not release him: he owes expectation damages (cf Ulpian D 19.1.1 pr, Case 87).\n• Gaius D 18.1.35.4: seller of another's thing, losing it by theft without fault, stays liable.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Property link: why does the buyer of another's thing risk eviction — and what is eviction?",
+   "back": "NEMO PLUS IURIS TRANSFERRE POTEST QUAM IPSE HABET: the buyer gets possession, not ownership, so the owner can sue him IN REM.\n• Owner's action: REI VINDICATIO against any possessor.\n• Eviction = a third party successfully enforces his right in rem against the buyer.\n• Also by ACTIO PUBLICIANA, or a limited real right (VINDICATIO PIGNORIS).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "What must a Roman seller guarantee as to title — UTI FRUI HABERE LICERE?",
+   "back": "Peaceable possession — use, fruits, possession; unlike modern Austrian law he need not make the buyer owner.\n• Briefly also LICERE HABERE (cf Julian D 21.2.8, Case 100).\n• Counter-concept: principle of procuring ownership (modern Austrian law).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Principle of eviction — content and rationale?",
+   "back": "Warranty-of-title claims generally depend on eviction; the bare failure to get ownership gives no claim.\n• While possession is peaceable, the seller's performance is not (yet) defective.\n• Usucapion cures the defect: buyer gains original ownership.\n• Contrast: principle of procuring ownership — claims whether or not evicted.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Property link: how does USUCAPIO make the principle of eviction practical?",
+   "back": "The buyer from a non-owner possesses as usucapient; once the period has run he gains original ownership — the defect in title is cured.\n• Periods: one year for movables, two years for land.\n• Requirements: RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS.\n• The former owner loses his right, so no eviction can follow.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "When exactly does eviction occur? (cf Pomponius D 21.2.16.1, Case 103)",
+   "back": "When the buyer surrenders the thing under the CLAUSULA ARBITRARIA, or is condemned to pay its assessed value.\n• Also: buyer lost possession, sues IN REM and loses against the possessor.\n• Chain: evicted sub-buyer claims first; then first buyer vs first seller (Marcellus D 21.2.61, Case 105).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Property link: CLAUSULA ARBITRARIA and condemnation in the REI VINDICATIO — why do both count as eviction?",
+   "back": "Unless the defendant restores the thing (CLAUSULA ARBITRARIA), he is condemned to pay its value (QUANTI EA RES ERIT).\n• OMNIS CONDEMNATIO PECUNIARIA EST — the judge cannot order return itself.\n• Either way the buyer loses the thing or pays for it.\n• Both = successful enforcement of the third party's right in rem.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Claims upon eviction — which remedy for which kind of sale?",
+   "back": "Mancipation sale → ACTIO AUCTORITATIS; stipulation given → action on the stipulation; plain EMPTIO VENDITIO → ACTIO EMPTI.\n• ACTIO AUCTORITATIS: DUPLUM of the price.\n• STIPULATIO DUPLAE: CONDICTIO for double the price.\n• ACTIO EMPTI: expectation interest.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Property link: MANCIPATIO and AUCTORITAS — what is the seller's duty in a mancipation sale?",
+   "back": "AUCTORITATEM PRAESTARE: to assist the buyer in the proceedings whenever a third party sues to enforce a right in rem.\n• MANCIPATIO: formal IUS CIVILE act conveying quirite ownership of RES MANCIPI.\n• Abstract but derivative — a non-owner cannot convey (NEMO PLUS IURIS).\n• Eviction despite assistance → ACTIO AUCTORITATIS for the DUPLUM.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Example 56 (Appius → Silakes; Lyso vindicates): the buyer does not call in the seller and is evicted. Does his ACTIO AUCTORITATIS succeed?",
+   "back": "Appius may raise the defences he could have raised against Lyso — here the EXCEPTIO REI VENDITAE ET TRADITAE.\n• Seller not called in → keeps his defences (cf § 931 ABGB).\n• Appius had got the RES MANCIPI from its owner by mere TRADITIO: bonitary owner.\n• That exception is the bonitary owner's defence against the civil owner who sold and delivered.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "STIPULATIO DUPLAE — what does the seller promise, and how is it enforced?",
+   "back": "REM EMPTAM ET TRADITAM NON EVICTAM ESSE — usually for double the price (DUPLUM).\n• On eviction the buyer sues with a CONDICTIO for double the price.\n• Another multiple may be agreed; none agreed → SIMPLUM (Javolenus D 21.2.60, Case 96).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "When was the seller bound to give a STIPULATIO DUPLAE, and what if he did not?",
+   "back": "Seemingly for slaves bought at market, valuables and provincial land (Ulpian D 21.2.37.1, Case 99; Gaius D 21.2.6, Case 97).\n• Refusal → buyer sues with the ACTIO EMPTI to make him give it.\n• Eviction without stipulation → ACTIO EMPTI for what a stipulation would have yielded (Paul Sent 2.17.2).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "ACTIO EMPTI after eviction — what does the buyer recover? (Julian D 21.2.8, Case 100)",
+   "back": "Expectation damages: the value of the thing plus every advantage lost through the eviction.\n• Described as interest that the thing had been the seller's, or that the buyer becomes owner.\n• Slave: also an inheritance he entered on the buyer's order.\n• Female slave: also her child (PARTUS ANCILLAE).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Example 57 (Pomona → Omphale 100 → Quinta 120, both with STIPULATIO DUPLAE; owner Eros evicts Quinta): what can Quinta and Omphale claim?",
+   "back": "Quinta: 240 from Omphale on the stipulation. Omphale: 200 on her stipulation — or 240 by ACTIO EMPTI, the better choice.\n• Even with a STIPULATIO DUPLAE the buyer may sue on the sale (cf Javolenus D 21.2.60, Case 96).\n• Worthwhile when expectation interest exceeds the stipulated sum.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Warranty of title WITHOUT eviction — which exceptions exist?",
+   "back": "(a) Seller knew he could not dispose; (b) stipulated duty to procure ownership; (c) peaceable possession EX ALIA CAUSA.\n• (a) ACTIO EMPTI for the interest in ownership (Africanus (Julian) D 19.1.30.1, Case 102).\n• (b) action on the stipulation (Ulpian D 18.1.25.1, Case 95/1).\n• (c) ACTIO EMPTI from BONA FIDES — but no action on a STIPULATIO DUPLAE.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "judikat",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "The seller knowingly sold and delivered another's goods — may the buyer sue before eviction? (Africanus (Julian) D 19.1.30.1, Case 102)",
+   "back": "Yes: ACTIO EMPTI against the dishonest seller, without eviction, for his interest in having acquired ownership.\n• Basis: BONA FIDES, which the seller violates by his dishonesty.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "Stipulated duty to procure ownership — what is a guarantee, and what can the buyer claim?",
+   "back": "A guarantee = promise of compensation if a result (here: buyer becomes owner) is not achieved, regardless of fault.\n• Buyer may sue on the stipulation, eviction or not (Ulpian D 18.1.25.1, Case 95/1).\n• Scope per promise — typically a fixed sum, e.g. a multiple of the price.\n• Only informal agreement → seemingly ACTIO EMPTI even before eviction.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Warranty of title — eviction",
+   "readyBy": "2026-12-02",
+   "front": "The buyer of another's thing becomes the owner's heir, or buys it from the owner (Cases 106, 107). Claim against his seller?",
+   "back": "Yes: ACTIO EMPTI from BONA FIDES — his possession is undisturbed EX ALIA CAUSA, by succession, not by the seller's performance.\n• Heir = universal succession (Paulus D 21.2.9, Case 107); purchase = singular (Pomponius D 21.2.29 pr, Case 106).\n• No action on a STIPULATIO DUPLAE: technically no eviction (Paulus D 21.2.9, Case 107).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "What is a defect as to quality?",
+   "back": "A defect (physically) inherent in the thing sold that impairs its ordinary or expressly agreed use.\n• Ordinary use: qualities normally expected of things of its kind — objective norm.\n• Agreed use: promised qualities missing — oral assurances = DICTA ET PROMISSA.\n• Decisive is the parties' agreement: ID QUOD ACTUM EST.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "Quality defects judged by the objective norm vs by agreement — which examples do the sources give?",
+   "back": "Objective: rotten building timber (Case 116), leaking amphorae (Case 114); a sold claim must exist, not be collectable (Case 111).\n• Agreed: vessel below assured capacity (Case 114); 'virgin' slave who is not (Case 121).\n• 'Excellent cook' → truly excellent; 'cook' → average (Gaius D 21.1.18.1, Case 131).\n• Clothes sold as second-hand: wear is no defect (cf Marcian D 18.1.45, Case 117).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "CAVEAT EMPTOR and sales talk — when is there no warranty?",
+   "back": "Apparent defects give no claim — the buyer must examine (cf Florentinus D 18.1.43 pr, Case 118); mere praise binds nobody.\n• 'Good-looking' slave: buyer checks himself; 'has learnt a trade': seller answers for it.\n• Sales talk: no warranty where clearly not meant to bind (Ulpian (Pedius) D 21.1.19 pr, Case 132).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "Seller's duty of disclosure under BONA FIDES — what does Florentinus D 18.1.43.2 say?",
+   "back": "DOLUM MALUM A SE ABESSE PRAESTARE VENDITOR DEBET — the seller must disclose defects and answer for being free of DOLUS MALUS.\n• DOLUS covers speaking unclearly to mislead (OBSCURE LOQUITUR).\n• And cunning concealment: QUI INSIDIOSE OBSCURE DISSIMULAT.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "Example 58 (cf Gaius D 18.1.35.8, Case 113): Leda sells her estate without telling Bruno that his mortal enemy owns the neighbouring estate. Result?",
+   "back": "Bruno has warranty claims against Leda — she knew and did not disclose at conclusion.\n• Basis: the seller's duty of disclosure under BONA FIDES.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "Who were the curule aediles, and why do they matter for warranty?",
+   "back": "Roman magistrates supervising and judging the markets; as magistrates they held the IUS EDICENDI (power to issue general decrees).\n• Their edicts on buying slaves and livestock at market shaped warranty law.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "Aediles' edict: what had a seller of slaves or animals to disclose?",
+   "back": "For slaves: MORBUS and VITIA — FUGITIVUS, ERRO, and noxal liability (Ulpian D 21.1.1.1, Case 123/1).\n• IUMENTA (draught/pack animals): MORBUS or VITIUM (Ulpian D 21.1.38 pr, Case 123/2).\n• PECORA (herd animals) likewise (Ulpian D 21.1.38.5).\n• Other animals were not covered by the edict.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "MORBUS and VITIUM in the edict — slight fever, missing tooth, missing tongue, runaway tendency, gambling?",
+   "back": "MORBUS = any illness except minor ones: slight fever or small wound no; missing tooth no; missing tongue yes.\n• Ulpian D 21.1.1.8 (Case 124/1); Paulus D 21.1.11 (Case 125); Ulpian (Ofilius) D 21.1.8 (Case 124/2).\n• FUGITIVUS once he has shown an inclination to run away (Ulpian (Caelius) D 21.1.17.8, Case 127).\n• Gambling, drinking, lying, quarrelsomeness: outside the edict (Ulpian D 21.1.4.2, Case 126).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "Which two functions does the edict's duty of disclosure serve?",
+   "back": "It informs the buyer (he pays a correspondingly lower price — equivalence) and creates a guarantee that the thing is free of listed defects.\n• Seller liable whether or not he knew of the defect.\n• Basis: failure to inform the unaware buyer, or false assurances.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "ACTIO QUANTI MINORIS vs ACTIO REDHIBITORIA — aim and time limit?",
+   "back": "QUANTI MINORIS: price reduction, within twelve months of the sale. REDHIBITORIA: rescission with mutual restitution, within six months.\n• The buyer may choose.\n• Reduction = what he would have paid less had he known of the defect.\n• Both restore the equivalence the defect upset.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "ACTIO REDHIBITORIA — what does it achieve and what must be restored?",
+   "back": "Buyer is put where he would be had he never contracted: contract dissolved EX TUNC, mutual restitution.\n• Goods and price returned; buyer reimbursed costs (e.g. fees), surrenders benefits.\n• Consequential loss may count: runaway slave steals → seller pays or surrenders him (NOXAE DEDITIO).\n• Return of the goods is in principle a prerequisite.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — aediles' edict and remedies",
+   "readyBy": "2026-12-02",
+   "front": "Case 128 (Ulpian D 21.1.31.11): the slave with an undisclosed defect dies before the buyer can return him. Can he still redhibit?",
+   "back": "Yes. Death without the buyer's fault: redhibition without compensation (MORTUUS REDHIBETUR). By his fault: only if he compensates the lost value.\n• Fault of the buyer, his servants or procurator → slave treated as still alive.\n• Accidental death: the seller bears the risk.\n• Fits especially if the slave died of the very illness grounding redhibition.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "Quality defects outside the edict (not slaves or animals) — which action, and how was the edictal model used?",
+   "back": "The ACTIO EMPTI: via BONA FIDES the aedilician rules became the norm also outside the aediles' jurisdiction.\n• Applies to what counts as a defect and to the legal consequences.\n• Price reduction (Cases 116, 115) and redhibition (Ulpian D 19.1.11.3, Case 121).\n• Quality stipulation: action on it for ID QUOD INTEREST, normally not double.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "Case 121 (Ulpian D 19.1.11.5): the seller knowingly lets the buyer believe a female slave is a virgin. Remedies?",
+   "back": "No REDHIBITIO, but the ACTIO EMPTI to rescind, with restitution of the performances.\n• Keeping her: presumably price reduction.\n• Lack of virginity is no MORBUS or VITIUM under the edict.\n• Alternatively: the slave was perhaps not bought at market.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "Loss caused by a defect vs consequential loss — Examples 59 and 60 (Ago's timber)?",
+   "back": "Defect loss: the thing itself is worth less (paid 1,000, worth 150 → 850). Consequential: harm to other assets (crushed desk, 4,000).\n• Price reduction or restitution cover only the defect loss.\n• Consequential loss only via ACTIO EMPTI if BONA FIDES was breached (fault-based).\n• Modern codes separate them likewise (e.g. § 933a ABGB).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "When does the ACTIO EMPTI give full damages including consequential loss?",
+   "back": "When the seller breached BONA FIDES: knowingly concealed the defect, deceived by fraudulent assertions, or gave DICTA ET PROMISSA that prove false.\n• Assurances: liable even without knowing of the defect (guarantee).\n• Unaware seller, no assurance → only reduction or rescission.\n• Cicero: Pythius staged fishermen to sell Canius his seaside villa.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "Case 116 (Ulpian (Julian) D 19.1.13 pr): a sick animal infects the buyer's herd; defective timber makes a building collapse. Liability?",
+   "back": "Seller unaware: only what the buyer would have paid less. Seller aware: all losses resulting from the purchase.\n• Aware: value of the collapsed building; interest in having bought a healthy animal.\n• The book prints 'the seller's interest' — presumably meant: the buyer's.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "Case 117 (Marcian D 18.1.45): second-hand clothes knowingly sold as new to an unaware buyer. What does he get?",
+   "back": "His interest — QUOD INTEREST (Trebatius, reported by Labeo; Pomponius and Julian agree).\n• Julian: unaware seller liable for the value; aware seller also for the buyer's loss.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "Case 115 (Ulpian (Julian) D 19.1.13.1): the slave sold is a FUGITIVUS, or a FUR. Seller's liability if he knew / did not know?",
+   "back": "Knew: the buyer's interest in not having been deceived. Unaware: runaway → price reduction; thief → no liability.\n• FUGITIVUS must be disclosed under the edict → defect even if seller unaware.\n• FUR not in the edict → defect only if seller knew or assured otherwise.\n• Sellers often stipulated that the slave was no FUR.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "Case 114 (Pomponius D 19.1.6.4): vessels sold with assured capacity, with assured soundness, or with no assurance — and they leak. Liability?",
+   "back": "Assurance → liable, incl. leaked wine. No assurance: one view requires DOLUS MALUS; Labeo (prevailing): seller answers for soundness anyway.\n• Sabinus' parallel on rented barrels (cf Ulpian D 19.2.19.1, Case 154).\n• The fault principle of the ACTIO EMPTI yields to (implied) guarantees.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "Case 122 (Paulus D 19.1.21.2): a table sold as thuja wood is not. Liability — and the alternative reading?",
+   "back": "Seller liable for the buyer's interest in not having been deceived, whether or not he knew — presumed guarantee.\n• As transmitted: valid sale, quality defect on delivery.\n• Reading EMPTIONEM <NON> ESSE: error as to quality → no sale.\n• Then QUOD INTEREST NON ESSE DECEPTUM = reliance interest (cf Modestinus D 18.1.62.1, Case 67).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. VI — Sale III: Quality defects — ACTIO EMPTI and guarantees",
+   "readyBy": "2026-12-02",
+   "front": "Decision tree: the buyer discovers a quality defect after delivery — which remedy?",
+   "back": "Slave or animal with an edictal defect → REDHIBITORIA (6 months) or QUANTI MINORIS (12 months); otherwise ACTIO EMPTI to the same effect.\n• Apparent defect or mere sales talk → no claim.\n• Seller knew and concealed, or false DICTA ET PROMISSA → ACTIO EMPTI for full interest.\n• Quality stipulation → action on it for ID QUOD INTEREST.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-VI",
+    "p1"
+   ]
+  }
+ ]
+}

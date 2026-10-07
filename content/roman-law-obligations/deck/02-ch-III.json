@@ -1,0 +1,1198 @@
+{
+ "subject": "Roman Law of Obligations",
+ "examDate": "2027-01-13",
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Which four real contracts does Roman law recognise?",
+   "back": "MUTUUM, DEPOSITUM, COMMODATUM and PIGNUS — each arises only when a thing is actually handed over.\n• MUTUUM = interest-free loan for consumption.\n• DEPOSITUM = gratuitous safekeeping (deposit).\n• COMMODATUM = gratuitous loan for use; PIGNUS = real contract of pledge.\n• PRECARIUM is similar, but the jurists treated it as a factual arrangement, not a contract.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "What two elements make up every real contract?",
+   "back": "CONVENTIO (agreement) plus DATIO (actual handover); the obligation arises only once the thing has been delivered.\n• CONVENTIO fixes the purpose of the transfer — and thus which real contract it is.\n• It can also fix further terms, e.g. the duration.\n• CONVENTIO alone is not enough: no DATIO, no real contract.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Property effect of the DATIO: in which real contracts does the recipient become owner, and in which only detentor?",
+   "back": "Owner (and proprietary possessor) in MUTUUM and DEPOSITUM IRREGULARE; mere detentor (natural possession) in all other real contracts.\n• MUTUUM: the borrower must be able to spend the money — so he needs ownership.\n• DEPOSITUM, COMMODATUM, PIGNUS: the recipient only holds the thing for the giver.\n• Hence there the very same thing must come back.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Property link: possessor vs detentor — what is the difference, and who is which in the real contracts?",
+   "back": "A possessor holds the thing for himself (ANIMUS REM SIBI HABENDI); a detentor holds it for someone else (NATURALIS POSSESSIO).\n• MUTUUM borrower: owner and proprietary possessor.\n• Depositary and commodatary: detentors — they hold for the giver.\n• Pledgee, precarist, SEQUESTER: natural possessors too, yet protected by possessory interdicts.\n• Possession is a fact (control plus intent); ownership is the right to the thing.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Are Roman real contracts gratuitous?",
+   "back": "In principle yes; the one exception is DEPOSITUM IRREGULARE, where the recipient may use the money but owes interest.\n• Paid safekeeping or paid use = LOCATIO CONDUCTIO, not a real contract.\n• MUTUUM itself carries no interest; interest needs another basis, e.g. a STIPULATIO.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "What is a MUTUUM?",
+   "back": "Interest-free loan for consumption: the lender transfers ownership of money or other fungibles; the borrower returns an equal quantity of the same kind.\n• Formula: TANTUNDEM EIUSDEM GENERIS REDDERE — return as much of the same kind.\n• Not the same coins or grain come back, only equivalents.\n• Being gratuitous, it served mostly loans between friends.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "What are fungible goods, and why does MUTUUM require them?",
+   "back": "Things normally dealt in by quantity, number or weight, where the identity of each piece does not matter — e.g. money, grain, olives.\n• The borrower consumes the goods and returns other pieces of the same kind.\n• That only works if the pieces are interchangeable.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "What are the five requirements of a MUTUUM?",
+   "back": "Loan CONVENTIO, actual DATIO, fungible assets, lender's ownership or power of disposal, and the borrower's acquisition of ownership.\n• Lender not owner → initially no MUTUUM (Case 6: thief lends stolen money).\n• DATIO and CONVENTIO differ in amount → MUTUUM only for the smaller sum (Case 1).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Property link: how does ownership pass to the borrower in a MUTUUM?",
+   "back": "By TRADITIO: transferor's ownership or authority, handover of possession, and a IUSTA CAUSA — the loan itself is a recognised IUSTA CAUSA TRADITIONIS.\n• NEMO PLUS IURIS TRANSFERRE POTEST QUAM IPSE HABET: a non-owner cannot pass ownership.\n• So a lender who is not owner cannot make a full MUTUUM (Case 6).\n• Repayment works the same way: the returned coins become the lender's again.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Who bears the risk of accidental loss in a MUTUUM?",
+   "back": "CASUM SENTIT DOMINUS: the lender until the DATIO, the borrower afterwards — he must repay regardless of fault.\n• As new owner the borrower carries damage, loss or destruction.\n• Matches the economic purpose: the assets enter the borrower's estate.\n• Special rule for the CONTRACTUS MOHATRAE: risk follows interest (Case 3).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 3,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "FENUS NAUTICUM vs ordinary MUTUUM — how is the risk split?",
+   "back": "In the maritime loan the lender shares the venture's risk: ship lost → no repayment; ship arrives → principal plus interest.\n• Greek origin; financed sea trade.\n• Resembles a partnership or insurance.\n• Ordinary MUTUUM: the borrower repays whatever happens.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Which action does the lender have under a MUTUUM, and what is it called for money and for produce?",
+   "back": "The CONDICTIO — a IUDICIUM STRICTI IURIS for a CERTA RES (thing or quantity) or a CERTA PECUNIA (sum).\n• Money loans: ACTIO CERTAE CREDITAE PECUNIAE.\n• Loaned produce: CONDICTIO TRITICARIA (TRITICUM = wheat).\n• Claims the equivalent in kind, quantity and quality — not the very items.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "What can the lender recover by the loan condiction, and why is it so efficient for him?",
+   "back": "Only TANTUNDEM EIUSDEM GENERIS, no interest; he need only allege and prove the delivery.\n• Other aspects of the relationship are in principle irrelevant in court.\n• Interest needs another basis, e.g. a STIPULATIO — hence big commercial loans by stipulation.\n• Lender in blatant bad faith → borrower raises the EXCEPTIO DOLI.\n• Harm in performing (pest-infested grain) → ACTIO DE DOLO or EXCEPTIO DOLI.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Property link: why does the lender sue by CONDICTIO and not by REI VINDICATIO?",
+   "back": "After the DATIO the borrower owns the coins; REI VINDICATIO is the owner's action in rem, so the lender has only a personal claim.\n• REI VINDICATIO: owner against any possessor, for the thing itself, only while it exists.\n• CONDICTIO: action in personam for an equivalent sum or quantity.\n• Case 6: owner E may vindicate while the coins exist; once spent, only condictions remain.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Ulpian (Proculus) D 12.1.11.1 (Case 1): A hands B 10 coins, but they agree B owes 9. What is the loan debt?",
+   "back": "9 — the DATIO counts as MUTUUM only up to the agreed amount.\n• The CONVENTIO limits the DATIO.\n• 10th coin: B may keep it if A gave it on purpose (possibly a gift).\n• If B repays it by mistake → CONDICTIO INDEBITI.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: General remarks and MUTUUM",
+   "readyBy": "2026-11-18",
+   "front": "Ulpian (Proculus) D 12.1.11.1 (Case 1): A hands B 10 coins, but they agree B owes 11. What is the loan debt?",
+   "back": "10 — a MUTUUM cannot exceed what was actually delivered; there is no action for the 11th coin.\n• The DATIO limits the CONVENTIO.\n• To owe 11, a STIPULATIO is needed — for the extra coin or for all eleven.\n• Lesson: CONVENTIO and DATIO together set the debt; the smaller amount wins.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Which three special forms of loan also gave the lender the CONDICTIO by the end of the classical period?",
+   "back": "Loan by assignment/delegation, loan by agreement, and the CONTRACTUS MOHATRAE.\n• Delegation: a third party pays the borrower from the third party's own funds.\n• Agreement: B already owes L money and may keep it for a time as a loan.\n• MOHATRA: L gives goods to sell; B keeps the proceeds as the loan.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "proces",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Loan by assignment/delegation: how does it work, and how does it differ from the basic MUTUUM?",
+   "back": "L instructs his debtor TP to pay B; TP's payment discharges TP's debt to L and creates a MUTUUM between L and B.\n• As if L had collected from TP and lent the money on to B.\n• Needs a loan CONVENTIO between L and B plus TP's actual payment.\n• Real DATIO and transfer of ownership — but the assets were never the lender's.\n• Oldest special form: accepted already classically, for practical purposes.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Julian vs Ulpian: do the loan by agreement and the CONTRACTUS MOHATRAE create a MUTUUM?",
+   "back": "High-classical Julian: no CONDICTIO for either; late-classical Ulpian: both are MUTUUM.\n• Julian: no DATIO — mere agreement (NUDA PACTIONE) cannot create a MUTUUM (Case 4).\n• Julian's fallback in Case 4: the ACTIO MANDATI.\n• Ulpian: agreement suffices (Case 2); MOHATRA = MUTUUM once the goods are sold (Case 3).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Ulpian D 12.1.15 (Case 2): appointee B must pay mandate money to principal A; they agree B may keep it for his business. MUTUUM?",
+   "back": "Yes — A has the CONDICTIO; an agreement between creditor and debtor suffices, no physical DATIO needed.\n• Analogy to the loan by delegation: if two persons can play the roles, one can play both.\n• Shortcut: strictly B would hand the money to A, and A straight back as a loan.\n• Ulpian skips the back-and-forth and treats both transfers as done.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Ulpian (Nerva) D 12.1.11 pr (Case 3): A gives B a bowl to sell, B to keep the proceeds as a loan. When is there a MUTUUM, and who bears accidental loss before the sale?",
+   "back": "MUTUUM once B sells (buyer's payment = DATIO); risk before the sale depends on whose interest and initiative drove the deal.\n• Sale mainly in A's interest (B just a sales agent) → A bears the loss.\n• A sold only to lend B the proceeds → B bears the risk.\n• A then claims the value, presumably by ACTIO PRAESCRIPTIS VERBIS (innominate contract; cf Case 210).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Africanus (Julian) D 17.1.34 pr (Case 4): procurator P has collected L's money and by letter borrows it from L at 6 % interest. MUTUUM?",
+   "back": "No — no DATIO, and NUDA PACTIONE cannot create a MUTUUM; L sues by ACTIO MANDATI for principal and interest.\n• Deferring the handover = consensual modification of the original mandate.\n• As BONAE FIDEI IUDICIUM it covers the 6 % interest; downside: every defence can be raised.\n• Loan serves only P's interest → P bears even accidental loss (utility principle).\n• Julian adds: the CONTRACTUS MOHATRAE is likewise no MUTUUM.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Case 4: why is the procurator's arrangement neither TRADITIO BREVI MANU nor a loan on order?",
+   "back": "P already owned and possessed the collected money, so no BREVI MANU was possible; the loan agreement came only after he received it.\n• BREVI MANU needs a detentor who becomes possessor — like depositary Y with depositor R.\n• Loan on order needs a prior CONVENTIO under which the recipient takes from the third party.\n• The idea of a procurator acquiring directly for his principal plays no part.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Property link: what is TRADITIO BREVI MANU, and how does it turn a deposit into a MUTUUM?",
+   "back": "A detentor becomes possessor by mere agreement — no return and redelivery; with a loan as CAUSA he thereby also becomes owner.\n• The depositary holds for the depositor (detentor); CORPUS already exists.\n• Parties agree on a loan: he now holds for himself (POSSESSOR).\n• Change of CONVENTIO plus BREVI MANU = the loan's DATIO.\n• Ownership passes only if the depositor has authority to dispose.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Ulpian D 12.1.13 pr (Case 6): thief G lends money stolen from E to N, who takes it in good faith and spends it. Claims?",
+   "back": "Initially no MUTUUM (G is no owner); once N mixes or spends the coins, a CONDICTIO lies against N — presumably in G's hands.\n• Before spending: E is still owner → REI VINDICATIO against N.\n• At that stage G has no claim: no MUTUUM, no enrichment condiction.\n• Spending gives N the economic value — the loan convalesces.\n• E keeps ACTIO FURTI and CONDICTIO FURTIVA against thief G.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Case 6: why does Ulpian let the loan between thief and borrower convalesce?",
+   "back": "Most likely to protect the victim E — not the thief or N.\n• E can make the thief assign him the condiction against (presumably solvent) N.\n• Better than relying only on CONDICTIO FURTIVA or ACTIO FURTI against a possibly insolvent thief.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Property link: what is NUMMOS CONSUMERE, and what does it do to the former owner's rights?",
+   "back": "Mixing coins indistinguishably with one's own, or spending them in good faith, gives original ownership; the former owner loses his REI VINDICATIO.\n• Reason: flexible cash management; coins are hard to trace.\n• Former owner keeps only personal claims: CONDICTIO, or CONDICTIO FURTIVA against a thief.\n• Hence borrower N in Case 6 becomes owner after all.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "What is the SENATUS CONSULTUM MACEDONIANUM, and why was it passed?",
+   "back": "A senatorial decree (dated 69–79 AD) to stop loans to sons and daughters under PATRIA POTESTAS.\n• Children in power owned nothing; aim: shield them from debt and creditor pressure.\n• Also from dubious ways of raising money.\n• Trigger: son Macedo, hounded by creditors, murdered his PATER FAMILIAS (Ulpian D 14.6.1 pr).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "proces",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "How does the praetor protect a borrowing child in power under the SC MACEDONIANUM?",
+   "back": "Either he himself denies the lender the CONDICTIO, or he inserts an EXCEPTIO SENATUS CONSULTI MACEDONIANI and leaves the decision to the IUDEX.\n• The EXCEPTIO lets the child defeat the repayment claim.\n• Praetor sets the programme (ACTIO, EXCEPTIO); the IUDEX executes it.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "How far does the SC MACEDONIANUM reach — and when does it not protect?",
+   "back": "Covers sureties, survives the borrower becoming SUI IURIS, catches evasive deals — but not a son who fraudulently posed as SUI IURIS.\n• A surety may also raise the EXCEPTIO SC MACEDONIANI.\n• Evasion: goods handed over to be sold, proceeds kept as loan (Ulpian D 14.6.7.3, Case 8).\n• Fraud by posing as SUI IURIS: Pertinax C 4.28.1 (Case 9a).\n• Approval of the loan by the PATER FAMILIAS excludes the SC.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "What is the legal quality of a loan caught by the SC MACEDONIANUM?",
+   "back": "A natural obligation: the repayment claim exists but is unenforceable because of the EXCEPTIO.\n• If repaid anyway, the lender may keep the money.\n• The child cannot reclaim it as payment of a non-existent debt.\n• The lender's ACTIO ADIECTICIAE QUALITATIS against the PATER FAMILIAS is not barred.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Julian D 14.6.14 (Case 7): A holds power over son B and grandson C; C borrows from D on B's order. Does B's approval exclude the SC MACEDONIANUM?",
+   "back": "No — only approval by the holder of power (A) excludes the SC; B is C's father, but not his PATER FAMILIAS.\n• Rule: PATER FAMILIAS approves the loan → the SC does not apply.\n• B is himself in A's power.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Special loans, unauthorised holder, SC MACEDONIANUM",
+   "readyBy": "2026-11-18",
+   "front": "Paulus D 14.6.17 (Case 10): son B borrows from X to give his sister C a dowry. Can X recover?",
+   "back": "Not from B (SC MACEDONIANUM), but from father A by the ACTIO DE IN REM VERSO.\n• Providing the dowry was A's duty; paying it from X's loan enriched A (VERSIO).\n• Proof: A may claim the DOS back if C dies during the marriage.\n• So B's provision counts as fulfilment of A's duty.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: DEPOSITUM and the principle of utility",
+   "readyBy": "2026-11-18",
+   "front": "What is a DEPOSITUM?",
+   "back": "A thing is handed to someone who agrees to keep it safe gratuitously; in principle the very same items must be returned.\n• Fungibles and non-fungibles can be deposited.\n• Unlike MUTUUM, the depositor's ownership is generally irrelevant.\n• Animals: custody includes feeding and care (cf § 957 ABGB).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: DEPOSITUM and the principle of utility",
+   "readyBy": "2026-11-18",
+   "front": "DEPOSITUM, COMMODATUM, LOCATIO CONDUCTIO — how do they differ when a thing is handed over?",
+   "back": "Gratuitous custody = DEPOSITUM; gratuitous use = COMMODATUM; custody or use for payment = LOCATIO CONDUCTIO.\n• Paid deposit: LOCATIO CONDUCTIO (cf Ulpian D 16.3.1.8, Case 11).\n• Paid use: LOCATIO CONDUCTIO REI (lease/rent).\n• MUTUUM differs from all: ownership passes, only equivalents come back.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: DEPOSITUM and the principle of utility",
+   "readyBy": "2026-11-18",
+   "front": "May the depositary use the deposited thing?",
+   "back": "No — unauthorised use of the deposit is FURTUM.\n• Gai Inst 3.196: ITAQUE SI QUIS RE QUAE APUD EUM DEPOSITA SIT UTATUR, FURTUM COMMITTIT.\n• Agreed use of deposited money changes the deal (MUTUUM or DEPOSITUM IRREGULARE).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: DEPOSITUM and the principle of utility",
+   "readyBy": "2026-11-18",
+   "front": "Which actions arise from a DEPOSITUM, and why is it imperfectly bilateral?",
+   "back": "Depositor: ACTIO DEPOSITI DIRECTA (esp. return); depositary: ACTIO DEPOSITI CONTRARIA for expenses and losses; both BONAE FIDEI IUDICIA.\n• Return claim always arises; counterclaims only possibly → imperfectly bilateral.\n• E.g. feed costs; own livestock infected by diseased deposited animals.\n• Depositary may retain until satisfied — no EXCEPTIO DOLI needed (BONAE FIDEI).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: DEPOSITUM and the principle of utility",
+   "readyBy": "2026-11-18",
+   "front": "What is the principle of utility, and in which two ways does it work?",
+   "back": "Contractual liability follows the distribution of interests: the party with the greater economic interest bears more of the risk.\n• (a) Each contract type has a typical distribution of interests → primary risk allocation.\n• (b) Concrete case deviates from the type → risk allocated differently.\n• MOHATRA: normally recipient bears loss; if (also) in lender's interest → only for fault.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: DEPOSITUM and the principle of utility",
+   "readyBy": "2026-11-18",
+   "front": "For what is the depositary liable, and why so little?",
+   "back": "For DOLUS and conduct close to it — CULPA LATA and breach of DILIGENTIA QUAM IN SUIS REBUS — because custody is a favour.\n• He pursues no economic aim of his own.\n• CULPA LATA: Nerva in D 16.3.32 (Case 12).\n• DILIGENTIA QUAM IN SUIS REBUS: less care than for own property → liable (Celsus, Case 12).\n• Subjective standard: its breach = CULPA IN CONCRETO (vs CULPA IN ABSTRACTO).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: DEPOSITUM and the principle of utility",
+   "readyBy": "2026-11-18",
+   "front": "Which risks does the depositor bear in a DEPOSITUM?",
+   "back": "Damage through the depositary's slight negligence (CULPA LEVIS) and by accident (CASUS).\n• The depositor normally stays owner → CASUM SENTIT DOMINUS.\n• Theft of the deposit by a third party: the depositary is not liable (cf Case 28).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: DEPOSITUM and the principle of utility",
+   "readyBy": "2026-11-18",
+   "front": "When does the depositary's liability rise above DOLUS?",
+   "back": "When his own interest rises: if he pressed his services on the depositor, he answers for DOLUS, CULPA and CUSTODIA.\n• Depositor then bears only VIS MAIOR — shiftable by agreement too (Ulpian D 16.3.1.35, Case 14).\n• Dolose use without consent → liable for resulting accident: CASUS MIXTUS (Ulpian D 16.3.1.25, Case 15).\n• Cf § 965 ABGB.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: DEPOSITUM and the principle of utility",
+   "readyBy": "2026-11-18",
+   "front": "Property link: what does CASUM SENTIT DOMINUS mean for the real contracts?",
+   "back": "The owner bears accidental loss: whoever owns the thing carries its accidental damage or destruction.\n• MUTUUM, DEPOSITUM IRREGULARE: recipient becomes owner → bears the loss, must repay anyway.\n• DEPOSITUM, COMMODATUM: the giver stays owner → he bears CASUS or VIS MAIOR.\n• Contractual liability (CULPA, CUSTODIA) and the utility principle shift this.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "proces",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "How can a deposit of money be turned into a MUTUUM?",
+   "back": "The parties change their CONVENTIO to a loan; by TRADITIO BREVI MANU the depositary becomes possessor and owner — this is the loan's DATIO.\n• Sealed bag of coins = ordinary deposit, legally like any non-fungible thing.\n• Usually a needy depositary asks; the depositor is content with the same amount back.\n• Consequences: borrower bears the risk; lender sues by CONDICTIO.\n• IUSTA CAUSA = the loan; ownership passes only with depositor's authority to dispose.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "Ulpian (Nerva, Proculus, Marcellus) D 12.1.9.9 (Case 16): A deposits 10 coins with B, later lets B use them; then the coins are taken out. When does the loan arise?",
+   "back": "Already with the agreed change of the CONVENTIO and the accompanying TRADITIO BREVI MANU — not only when B takes the money out.\n• From then B bears the risk for the 10 coins.\n• A sues by CONDICTIO.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "Ulpian D 12.1.10 (Case 17): A deposits money with B and at the same time allows him to use it if he wishes. When does a loan arise?",
+   "back": "Only once B actually removes the money from where it is kept — until then it remains a regular DEPOSITUM.\n• Main aim is safekeeping; B's future need is uncertain (auxiliary agreement).\n• A's permission = standing offer; B accepts it by taking the money.\n• The taking also works as TRADITIO BREVI MANU → MUTUUM (or DEPOSITUM IRREGULARE).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "Case 16 vs Case 17: why does the loan arise at different moments?",
+   "back": "Case 16: a later agreement changes the CONVENTIO itself → loan at once; Case 17: permission at deposit is an option → loan on taking.\n• Case 16: TRADITIO BREVI MANU accompanies the new agreement.\n• Case 17: A's standing offer is accepted by B's taking.\n• Practical point: who bears the risk before the money is removed.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "What is a DEPOSITUM IRREGULARE?",
+   "back": "Money deposited with permission for the recipient to use it, with interest depending on the terms — between MUTUUM and DEPOSITUM, enforced by ACTIO DEPOSITI.\n• The label is modern.\n• Like a savings account: safety plus interest; the bank uses the funds, guarantees nominal value.\n• The only exception to the gratuitousness of real contracts.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "Why is the DEPOSITUM IRREGULARE enforced by the ACTIO DEPOSITI, and how is it recognised?",
+   "back": "The giver has a depositor's interest in safety, and the BONAE FIDEI ACTIO DEPOSITI accommodates special terms.\n• Indicator: money handed over loose (open deposit), not sealed (cf Papinian D 16.3.25.1, Case 20).\n• Ownership passes; the recipient may use the money (cf Alfenus D 19.2.31, Case 172).\n• He must repay regardless of fault, as with a loan.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "DEPOSITUM IRREGULARE vs MUTUUM — what is common, what differs?",
+   "back": "Both pass ownership and risk to the recipient; they differ in action, purpose and interest.\n• Action: ACTIO DEPOSITI (BONAE FIDEI) vs CONDICTIO (STRICTI IURIS).\n• Purpose: giver's interest in safety vs borrower's need for money.\n• Interest: available through BONA FIDES vs never through the condiction (needs STIPULATIO).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "Paulus D 16.3.29.1 (Case 18): A deposits money with B, who uses it with A's consent. Does B owe interest?",
+   "back": "Yes — as in all BONAE FIDEI IUDICIA, B owes interest (Paulus evidently means the DEPOSITUM).\n• Interest derived from BONA FIDES, cleanly separated from MUTUUM and CONDICTIO.\n• Unclear whether interest for use or default interest is meant.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "Papinian D 16.3.24 (Case 20 a): Lucius Titius confirms by letter that Sempronius handed him 100 coins for safekeeping (COMMENDASTI). Action, and interest?",
+   "back": "COMMENDARE = deposit → ACTIO DEPOSITI; in this BONAE FIDEI IUDICIUM the judge may award interest for use or for delay.\n• Money taken as a favour to the giver → no interest before default.\n• An agreement on interest for use must be respected.\n• Middle part probably interpolated; final third presumably genuine Papinian.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "Scaevola D 16.3.28 (Case 20 b): C confirms in writing receiving 25.000 sesterces from P and promises interest. Enforceable?",
+   "back": "Yes — a valid agreement on interest for use, enforced by the ACTIO DEPOSITI (BONAE FIDEI IUDICIUM).\n• Irrelevant whether C made a profit with the money or merely consumed it.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "Paulus Coll. 10.7.9 (Case 19): money deposited and (possibly later) its use permitted — MUTUA MAGIS VIDETUR QUAM DEPOSITA. Meaning?",
+   "back": "The deal is nearer to a loan than to a deposit, so the taker bears the risk (PERICULUM).\n• Unclear: deposit turned into MUTUUM (BREVI MANU) or into DEPOSITUM IRREGULARE.\n• Either way the taker must repay regardless of fault.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Deposit of money, DEPOSITUM IRREGULARE, SEQUESTRE",
+   "readyBy": "2026-11-18",
+   "front": "What is a DEPOSITUM SEQUESTRE?",
+   "back": "Two parties disputing ownership deposit the thing with a third person (SEQUESTER), who hands it to the winner of the lawsuit.\n• The SEQUESTER's possession is protected by possessory interdicts.\n• The winner sues the SEQUESTER by the ACTIO DEPOSITI SEQUESTRARIA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "What is a COMMODATUM?",
+   "back": "A thing is handed over (DATIO) for the recipient to use free of charge; the very same thing must be returned.\n• Hence only non-consumables can be lent for use.\n• Lender's ownership is irrelevant (unlike MUTUUM).\n• Gratuitous favour; paid use = LOCATIO CONDUCTIO REI (rent).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "How far may the commodatary use the borrowed thing?",
+   "back": "He may use it while preserving its substance, within limits set by the agreement or BONA FIDES; exceeding them is FURTUM.\n• Gai Inst 3.196: turning it to a different use → FURTI OBLIGATUR.\n• Consequence: liability even for VIS MAIOR following the excess use (Case 23).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Which actions arise from a COMMODATUM, and who bears which costs?",
+   "back": "Lender: ACTIO COMMODATI DIRECTA (esp. return); borrower: ACTIO COMMODATI CONTRARIA; BONAE FIDEI IUDICIUM, imperfectly bilateral.\n• Borrower carries ordinary operating costs (e.g. fodder).\n• He recovers extraordinary expenses and losses caused by the loan.\n• E.g. necessary vet costs for an illness unrelated to the use.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "For what is the commodatary liable, and which risk stays with the lender?",
+   "back": "Borrower: DOLUS, CULPA and CUSTODIA — the loan benefits only him; lender: VIS MAIOR, as owner (CASUM SENTIT DOMINUS).\n• Fairly strict liability, by the utility principle.\n• Avertable VIS MAIOR: failing to save the thing = CULPA (cf Paul Sent 2.4.2, Case 26).\n• CUSTODIA covers e.g. theft by a third party (Case 28).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Compare the liability standards of depositary, commodatary and pledgee.",
+   "back": "Depositary: DOLUS (+ CULPA LATA, DILIGENTIA QUAM IN SUIS REBUS); commodatary and pledgee: DOLUS, CULPA and CUSTODIA.\n• Reason (utility): deposit serves the depositor; commodate and pledge serve the recipient.\n• Depositor bears CULPA LEVIS and CASUS; commodator bears VIS MAIOR.\n• Interests deviating from the type shift liability up or down.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Gaius D 13.6.18 pr (Case 23): what are the three rules on the commodatary's liability?",
+   "back": "(1) Fault yes, VIS MAIOR no; (2) VIS MAIOR too if he exceeded permitted use; (3) lender's own interest lowers liability.\n• (2) Excess use = FURTUM, and a FUR answers for every harm.\n• Silverware taken on a journey, lost to shipwreck or pirates → borrower liable.\n• (3) Both interested (joint dinner for mutual friends) → only CULPA (Gaius).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Lender also interested in the loan: Gaius vs Ulpian on the commodatary's liability?",
+   "back": "Gaius: both parties interested → liable for CULPA; Ulpian: only DOLUS where agreed or where the loan served solely the lender.\n• Gaius' example: C does the cooking, D supplies the silverware.\n• Ulpian's example: jewels lent to wife or fiancée to be adorned for him (Ulpian D 13.6.5.10, Case 25).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Ulpian D 13.6.5.14 (Case 24): E lends T silverware; to avoid carrying it home, E leaves it at T's house overnight, where it is destroyed. Who bears the loss?",
+   "back": "Labeo: E, if he posted his own guard; otherwise T. Ulpian: ACTIO COMMODATI — T answers for CUSTODIA unless otherwise agreed.\n• Laying the table = mandate; lending the silver = commodate.\n• Seen as overnight deposit? It serves the depositary → he is still liable.\n• Labeo speaks of PERICULUM (VIS MAIOR?) — fits the commodate rules poorly.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 3,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Ulpian D 13.6.12.1 (Case 29): lender L's slave S collects the borrowed item from borrower B and runs off with it. Is B liable?",
+   "back": "Depends on intent: if B handed it over to end the loan, his duty ended; if S only came to remind him, B is liable.\n• Transfer of control over the thing matters for risk in a commodate.\n• Handing it to a mere messenger is not an intended end of the loan.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p3"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Julian D 13.6.19 (Case 27): is the commodatary liable for damage caused to the borrowed thing by a third party (DAMNUM INIURIA DATUM)?",
+   "back": "Generally no — that is beyond the CURA AUT DILIGENTIA reasonably expected of a commodatary.\n• Not all jurists read CUSTODIA so narrowly (Ulpian D 19.2.41).\n• Marcellus dissents: liable if preventable or caused by his own guards.\n• Cf Julian: borrower cannot sue for borrowed clothes torn by a third party (Ulpian D 9.2.11.9).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Modestinus Coll 10.2.6 (Case 28): a lent thing is stolen from the commodatary by a third person. Who has the ACTIO FURTI?",
+   "back": "The commodatary — under CUSTODIA liability he carries the loss, so he sues the thief.\n• The lender recovers his loss from the borrower.\n• Borrower insolvent → the owner must keep the right to sue the thief himself.\n• Depositary: no ACTIO FURTI — nor needs one, as not liable for third-party theft.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Julian D 47.2.60 (59) (Case 30): A lends a thing to B and later secretly takes it back. Has B the ACTIO FURTI?",
+   "back": "As a rule no — A took his own property, and this releases B from the duty to return it.\n• Exception: B could retain the thing for necessary expenses → B has the ACTIO FURTI against A.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: COMMODATUM",
+   "readyBy": "2026-11-18",
+   "front": "Modestinus Coll 10.2.5 (Case 31): who bears the maintenance costs of entrusted animals or slaves — depositary or commodatary?",
+   "back": "The depositary may claim them in the ACTIO DEPOSITI, even without a separate counterclaim; the commodatary may not — he uses the thing.\n• Deposit obliges him to keep the thing, not to pay for its upkeep.\n• Commodatary does recover necessary costs of illness of a lent slave or animal.\n• Such costs concern the owner's interest more than the user's.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: PRECARIUM and PIGNUS",
+   "readyBy": "2026-11-18",
+   "front": "What is a PRECARIUM?",
+   "back": "A factual grant of the use of a thing that the grantor may revoke unilaterally at any time — usually made at the recipient's request.\n• Hence loan by entreaty (cf Ulpian D 43.26.1 pr, Case 33).\n• Parallels the COMMODATUM (Ulpian D 43.26.1.3), but treated as factual, not a legal contract.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: PRECARIUM and PIGNUS",
+   "readyBy": "2026-11-18",
+   "front": "How is the PRECARIO ACCIPIENS protected — and how does the PRECARIO DANS get the thing back?",
+   "back": "Possessory interdicts against third parties, but not against the grantor (EXCEPTIO VITIOSAE POSSESSIONIS); the grantor also has the INTERDICTUM DE PRECARIO.\n• Towards the grantor the recipient is an INIUSTUS POSSESSOR.\n• He must give the thing back if he holds it, and cannot reclaim it if not.\n• INTERDICTUM DE PRECARIO: restitution can be demanded at any time.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: PRECARIUM and PIGNUS",
+   "readyBy": "2026-11-18",
+   "front": "What is the real contract of pledge (PIGNUS), and may the pledgee use the pledge?",
+   "back": "One party gives a thing to another, agreed as security for a debt; as a rule the pledgee may not use it.\n• Unauthorised use = FURTUM.\n• Exception: antichresis — use of the pledge serves to (partly) pay off the debt.\n• Contract valid even if the giver lacks power of disposal.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "basic",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: PRECARIUM and PIGNUS",
+   "readyBy": "2026-11-18",
+   "front": "Property link: PIGNUS as a right in rem vs PIGNUS as a real contract — how does each arise?",
+   "back": "The right in rem arises without handover (secured debt, power of disposal, CONVENTIO PIGNORIS); the contract requires DATIO.\n• Right in rem: VINDICATIO PIGNORIS against any possessor; ends with the debt.\n• Contract: personal claims between pledger and pledgee (ACTIO PIGNERATICIA IN PERSONAM).\n• Giver lacks power of disposal: contract yes, right in rem no.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1",
+    "property-link"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 2,
+   "priority": 1,
+   "topic": "Ch. III — Real contracts: PRECARIUM and PIGNUS",
+   "readyBy": "2026-11-18",
+   "front": "ACTIO PIGNERATICIA IN PERSONAM DIRECTA vs CONTRARIA — who claims what?",
+   "back": "DIRECTA: pledger claims return or surplus; CONTRARIA: pledgee claims expenses, damage and a substitute pledge; both BONAE FIDEI IUDICIA.\n• DIRECTA: return (plus damages) once the right of pledge ends, e.g. debt paid.\n• DIRECTA: surplus of the sale proceeds over the debt (SUPERFLUUM, HYPEROCHA).\n• CONTRARIA: substitute pledge if no right in rem arose (no power of disposal).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: PRECARIUM and PIGNUS",
+   "readyBy": "2026-11-18",
+   "front": "For what is the pledgee liable, and why?",
+   "back": "For DOLUS, CULPA and CUSTODIA — a possessory pledge serves only the pledgee's interest (principle of utility).\n• The pledger gets no direct economic benefit from handing over.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Exercises (application)",
+   "readyBy": "2026-11-18",
+   "front": "Ex 1: Aser informally agrees to lend his slave to Mirjam for the harvest, forgets and sends him elsewhere; hail destroys half her crop. Action under a COMMODATUM?",
+   "back": "No — a COMMODATUM arises only with the DATIO; the mere CONVENTIO does not bind.\n• Real contract = CONVENTIO + DATIO.\n• The slave was never handed over → no ACTIO COMMODATI.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Exercises (application)",
+   "readyBy": "2026-11-18",
+   "front": "Ex 3: Cato gives Drusus 2.000, repayable after a year; out of gratitude Drusus declares he will repay 2.200. Action and amount?",
+   "back": "CONDICTIO (ACTIO CERTAE CREDITAE PECUNIAE) for 2.000 — the MUTUUM cannot exceed the DATIO.\n• Parallel: Case 1 (10 delivered, 11 agreed → 10).\n• The extra 200 would need a STIPULATIO.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Exercises (application)",
+   "readyBy": "2026-11-18",
+   "front": "Ex 4: Gaia asks her debtor Hermes to pay Felix a 700 loan; Hermes pays only 500, which Felix accepts. MUTUUM, and Gaia's claim?",
+   "back": "Yes — loan by delegation: MUTUUM between Gaia and Felix for 500, enforced by CONDICTIO (ACTIO CERTAE CREDITAE PECUNIAE).\n• DATIO only 500 → loan debt 500 (cf Case 1).\n• Hermes' payment also discharges 500 of his debt to Gaia.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Exercises (application)",
+   "readyBy": "2026-11-18",
+   "front": "Ex 7: Kriton keeps Juno's lemon tree, moves only his own orange trees into the cellar, and the lemon tree freezes. Contract and liability?",
+   "back": "DEPOSITUM (gratuitous custody, arising by DATIO); Kriton breached DILIGENTIA QUAM IN SUIS REBUS — so he is liable.\n• He treated the deposit worse than his own things.\n• Juno: ACTIO DEPOSITI DIRECTA for damages.\n• Kriton: ACTIO DEPOSITI CONTRARIA for any expenses of care.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Exercises (application)",
+   "readyBy": "2026-11-18",
+   "front": "Ex 11: Iris lends slave Stichus to Ufens; feeding costs 500, then emergency surgery 10.000. What can Ufens recover?",
+   "back": "Not the 500 for food (ordinary upkeep), but the 10.000 necessary medical costs — by the ACTIO COMMODATI CONTRARIA.\n• The commodatary carries ordinary costs because he uses the thing.\n• Illness costs concern the owner's interest (cf Case 31).",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 3,
+   "priority": 2,
+   "topic": "Ch. III — Real contracts: Exercises (application)",
+   "readyBy": "2026-11-18",
+   "front": "Ex 12: Carus pledges two oxen to Daphne; (a) one belongs to Eros; (c) Daphne treats a sick ox herself and it dies. Claims?",
+   "back": "(a) No right in rem in Eros' ox → Daphne demands a substitute pledge (CONTRARIA); (c) Daphne liable for CULPA (DIRECTA).\n• The contract arises by DATIO even without power of disposal.\n• Pledgee answers for DOLUS, CULPA and CUSTODIA.",
+   "tags": [
+    "roman-law-obligations",
+    "kap-III",
+    "p2"
+   ]
+  }
+ ]
+}
