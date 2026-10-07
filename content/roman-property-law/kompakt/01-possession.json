@@ -1,0 +1,1102 @@
+{
+ "part": "I-IV",
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "What does the Roman law of things (property law) deal with?",
+   "back": "It attributes legal objects (things, RES) to legal subjects, ie it governs property rights.\n• Legal subject = anyone capable of rights and duties (legal personality).\n• Things are the objects of legal transactions.",
+   "page": 1,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "Which factors determined a person's legal status in Roman law?",
+   "back": "An interplay of liberty, citizenship, position in the family and gender.\n• STATUS LIBERTATIS: free (INGENUI, LIBERTI) vs slaves (SERVI).\n• STATUS CIVITATIS: eg DOMINIUM EX IURE QUIRITIUM and MANCIPATIO only for citizens.\n• STATUS FAMILIAE: SUI IURIS vs persons in PATRIA POTESTAS.",
+   "page": 1,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "Can slaves and persons in PATRIA POTESTAS hold property?",
+   "back": "No, neither can hold property in their own right; both can acquire for their DOMINUS / PATER FAMILIAS.\n• Slaves are things: they can be sold or pledged.\n• Children of the house and UXOR IN MANU are free (STATUS LIBERTATIS).",
+   "page": 2,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "What does NASCITURUS PRO IAM NATO HABETUR, QUOTIENS DE COMMODIS EIUS AGITUR mean?",
+   "back": "An unborn child is treated as already born whenever this is to its advantage.\n• Otherwise legal personality begins at live birth (Paulus D 1.5.7).\n• Consequence: a child born after the father's death may inherit.",
+   "page": 2,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p2",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "How does Roman law treat corporations (UNIVERSITATES), and what does Ulpian D 3.4.7.1 say?",
+   "back": "Corporations are independent legal entities: they hold rights and act through representatives.\n• SI QUID UNIVERSITATI DEBETUR, SINGULIS NON DEBENTUR.\n• What the corporation owes or is owed is not its members'.\n• Examples: RES PUBLICA, MUNICIPIA, COLLEGIA, SOCIETATES PUBLICANORUM.",
+   "page": 4,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p2",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "Legal personality vs legal capacity — what is the difference?",
+   "back": "Personality = capacity for rights and duties; capacity = ability to change them through one's own acts.\n• Personality begins at birth (for the freeborn).\n• Capacity requires maturity in age and mind.\n• Capacity = capacity to act + criminal capacity.",
+   "page": 4,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "Which age thresholds matter for capacity in Roman law?",
+   "back": "INFANTES (under 7) lack capacity, PUPILLI have limited capacity, PUBERTAS brings full capacity.\n• PUPILLI: boys 7–14, girls 7–12; need AUCTORITAS TUTORIS to incur obligations.\n• PUBERTAS: girls at 12, boys at 14.\n• Minors under 25 protected by LEX (P)LAETORIA and RESTITUTIO IN INTEGRUM.",
+   "page": 5,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "What is a NEGOTIUM CLAUDICANS?",
+   "back": "A 'limping transaction': a PUPILLUS contracts without his tutor; only the part favourable to him binds.\n• The other party is bound, the PUPILLUS is not (Ulpian D 19.1.13.29).\n• A PUPILLUS may improve, but not worsen, his position alone.",
+   "page": 5,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "Which groups besides minors had restricted capacity in Roman law?",
+   "back": "Women SUI IURIS, mentally disabled persons (FURIOSI) and declared spendthrifts (PRODIGI).\n• Women needed a TUTOR MULIERIS for formal acts; a formality by classical times.\n• FURIOSI: no capacity; a CURATOR FURIOSI acts for them.\n• PRODIGUS: declared incapable by the praetor (INTERDICTIO).",
+   "page": 7,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "What are the typical features of property rights (rights IN REM)?",
+   "back": "They give power over a specific thing, enforceable against everyone.\n• Only over corporeal things, RES CORPORALES: QUI TANGI POSSUNT (that can be touched).\n• Absolute: enforced against the world at large by ACTIONES IN REM.\n• Relational rights (creditor–debtor) are enforced by ACTIONES IN PERSONAM.",
+   "page": 8,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Basics: persons, things, property rights",
+   "readyBy": "2026-10-14",
+   "front": "Which property rights does Roman law recognise, and what is the numerus clausus?",
+   "back": "A closed list of rights in rem that parties cannot extend: the numerus clausus.\n• DOMINIUM (REI VINDICATIO); SERVITUTES (VINDICATIO SERVITUTIS); PIGNUS (VINDICATIO PIGNORIS).\n• EMPHYTEUSIS (REI VINDICATIO UTILIS); SUPERFICIES (ACTIO DE SUPERFICIE).\n• Each type is protected by its own ACTIO IN REM.",
+   "page": 9,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-I",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "What is possession (POSSESSIO)?",
+   "back": "Factual control over a thing coupled with the intention to control it.\n• A fact, not a right: it shows who actually controls the thing.\n• Protected only temporarily, by possessory interdicts.",
+   "page": 12,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "Possession vs ownership — what is the difference?",
+   "back": "The possessor has the thing in his power (fact); the owner is entitled to have it (right).\n• Possession says nothing about a right to the thing.\n• Hector the thief acquires possession, but never ownership.",
+   "page": 12,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "Why is possession legally significant (II.B)?",
+   "back": "It prevents conflict: the possessor is stronger in disputes, and possession founds acquisition of ownership.\n• Possessor hands over only once the claimant proves his right.\n• Ownership via TRADITIO, OCCUPATIO (ownerless things) or USUCAPIO.",
+   "page": 13,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "What are the two elements of possession?",
+   "back": "ANIMUS (intent to possess, ANIMUS POSSIDENDI) and CORPUS (control over the thing).\n• Both must be present for possession of a corporeal thing.\n• Correct Latin: possession is acquired/retained ANIMO ET CORPORE.\n• Sources say CORPORE POSSIDERE, never CORPUS alone.",
+   "page": 14,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "Does CORPUS require physical contact with the thing?",
+   "back": "No: the thing must be within one's sphere of influence, so control can be exercised at will.\n• Rusticus possesses his clothes and the cattle on his meadow.\n• Paulus D 41.2.1.21: OCULIS ET AFFECTU suffices, not only CORPORE ET TACTU.\n• But CORPUS is never purely symbolic.",
+   "page": 14,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "What is proprietary possession, and what is ANIMUS REM SIBI HABENDI?",
+   "back": "Possession with the intention of having the thing for oneself (ANIMUS REM SIBI HABENDI).\n• Sources saying POSSESSIO usually mean proprietary possession.\n• Can be exercised through another (mediate), eg lessee Lea for Rusticus.",
+   "page": 14,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "What is NATURALIS POSSESSIO (detention), and who are typical detentors?",
+   "back": "Holding a thing for another (ANIMUS REM ALTERI HABENDI) by a holder SUI IURIS; not proprietary possession.\n• Typical detentors: tenants, leaseholders, lessees, depositaries, precarists.\n• Jurists also use TENERE or HABERE.",
+   "page": 15,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "Detentor vs possessor's agent — what is the difference?",
+   "back": "A detentor is SUI IURIS; a possessor's agent is ALIENI IURIS, the DOMINUS' 'extended arm'.\n• Via a detentor the POSSESSOR has only mediate possession.\n• Via an agent (slave Achilles taking sheep to market) possession is immediate.",
+   "page": 16,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "Immediate vs mediate possession — when does each arise?",
+   "back": "Immediate: control personally or through persons in one's power; mediate: control through a detentor SUI IURIS.\n• Clara deposits her vase with Midas: Clara mediate proprietary, Midas immediate natural possessor.\n• Hector's theft ends both; Hector becomes POSSESSOR.",
+   "page": 16,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — IUSTA POSSESSIO, civil possession, interdicts",
+   "readyBy": "2026-10-14",
+   "front": "IUSTA POSSESSIO vs POSSESSIO EX IUSTA CAUSA — what is the difference?",
+   "back": "Both strengthen the possessor: IUSTA POSSESSIO is unflawed (interdicts); POSSESSIO EX IUSTA CAUSA rests on valid title.\n• IUSTA = NEC VI NEC CLAM NEC PRECARIO, judged relationally.\n• EX IUSTA CAUSA = civil possession: leads to ownership or USUCAPIO.",
+   "page": 16,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — IUSTA POSSESSIO, civil possession, interdicts",
+   "readyBy": "2026-10-14",
+   "front": "What does NEC VI NEC CLAM NEC PRECARIO mean?",
+   "back": "IUSTA POSSESSIO: obtained neither by force, nor secretly, nor by revocable grant (PRECARIUM).\n• Prerequisite for interdict protection: POSSESSIO AD INTERDICTA.\n• PRECARIUM: gratuitous use revocable at will; factual, unlike COMMODATUM.",
+   "page": 17,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — IUSTA POSSESSIO, civil possession, interdicts",
+   "readyBy": "2026-10-14",
+   "front": "What are possessory interdicts and what is their aim?",
+   "back": "Praetorian decrees in individual cases that prevent dispossession and stop escalating conflict over things.\n• Only temporary: the right itself needs a petitory ACTIO IN REM.\n• Also for some natural possessors: emphyteutic lessees, precarists, pledgees, sequesters.",
+   "page": 17,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — IUSTA POSSESSIO, civil possession, interdicts",
+   "readyBy": "2026-10-14",
+   "front": "What is the EXCEPTIO VITIOSAE POSSESSIONIS?",
+   "back": "The part of the interdict formula that denies protection to the INIUSTUS POSSESSOR.\n• Applies if he obtained the thing VI, CLAM or PRECARIO from the opponent.\n• He must then suffer forcible recapture or restitution by that opponent.",
+   "page": 17,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — IUSTA POSSESSIO, civil possession, interdicts",
+   "readyBy": "2026-10-14",
+   "front": "In what sense is possessory protection relational (ALTER AB ALTERO)?",
+   "back": "IUSTA POSSESSIO is assessed only in relation to the opponent, never objectively.\n• A thief robbed in turn is protected against the robber.\n• Owner Clara has an interdict against thief Hector, not bona fide Leander.\n• Against Leander Clara needs an ACTIO IN REM.",
+   "page": 17,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "14.10. Possession — IUSTA POSSESSIO, civil possession, interdicts",
+   "readyBy": "2026-10-14",
+   "front": "Prohibitory vs restitutory interdicts — what is the difference?",
+   "back": "Prohibitory interdicts forbid force against the IUSTUS POSSESSOR; restitutory ones order the thing restored.\n• Prohibitory: VIM FIERI VETO ('I forbid the use of force').\n• Restitutory: RESTITUAS ('you shall restitute').\n• Both are barred by the EXCEPTIO VITIOSAE POSSESSIONIS.",
+   "page": 18,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — IUSTA POSSESSIO, civil possession, interdicts",
+   "readyBy": "2026-10-14",
+   "front": "What does VIM VI REPELLERE LICET mean, and when does it apply?",
+   "back": "It is permitted to repel force with force.\n• Against someone possessing VI towards you, you may retake by force.\n• Leo drives Thisbe off her farm: Thisbe may regain it by force.\n• One of the few cases of permitted self-help.",
+   "page": 18,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — IUSTA POSSESSIO, civil possession, interdicts",
+   "readyBy": "2026-10-14",
+   "front": "What is civil possession (POSSESSIO CIVILIS) and what are its advantages?",
+   "back": "Possession based on a valid title (IUSTA CAUSA), eg sale, donation, loan, dowry: POSSESSIO EX IUSTA CAUSA.\n• From an authorised alienor: the possessor becomes owner (TRADITIO).\n• From an unauthorised one: ownership possible by USUCAPIO.\n• Leander has civil possession; thief Hector never does.",
+   "page": 19,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — FURTUM",
+   "readyBy": "2026-10-14",
+   "front": "What is FURTUM?",
+   "back": "Taking another's movable property with intent to enrich oneself.\n• Broader than modern theft: includes embezzlement and theft by finding.\n• Depositary Diogenes selling Iris' vase commits FURTUM.\n• No theft of land; LEGES IULIAE ET PLAUTIAE bar USUCAPIO of land seized by force.",
+   "page": 20,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — FURTUM",
+   "readyBy": "2026-10-14",
+   "front": "What are the elements of FURTUM?",
+   "back": "Larcenous intent (DOLUS) manifested in an external act of taking a movable thing.\n• DOLUS MALUS: knowingly taking another's thing to enrich oneself.\n• Mere intent is not enough, even for a depositary (D 41.2.3.18).\n• The depositary commits FURTUM only once he hides the thing away.",
+   "page": 21,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — FURTUM",
+   "readyBy": "2026-10-14",
+   "front": "What is the thief's position as regards possession?",
+   "back": "He is POSSESSOR: the taking fulfils ANIMUS and CORPUS; his possession is original.\n• Not civil possession: no IUSTA CAUSA.\n• Flawed towards the victim (eg CLAM).\n• Never ownership; RES FURTIVAE cannot be usucapted (LEX ATINIA).",
+   "page": 21,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — FURTUM",
+   "readyBy": "2026-10-14",
+   "front": "ACTIO FURTI vs CONDICTIO FURTIVA — what is the difference?",
+   "back": "ACTIO FURTI is a penal action; CONDICTIO FURTIVA is reipersecutory, recovering the thing or its value.\n• Penalty paid to the victim: fourfold (FURTUM MANIFESTUM), twofold (NEC MANIFESTUM).\n• CONDICTIO only against the thief, even if the thing has perished.\n• The two may be cumulated.",
+   "page": 22,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "14.10. Possession — FURTUM",
+   "readyBy": "2026-10-14",
+   "front": "CONDICTIO FURTIVA vs REI VINDICATIO — when to use which?",
+   "back": "Both are reipersecutory, so they cannot be cumulated; the owner must choose.\n• CONDICTIO FURTIVA: only against the thief; works even if the thing is gone.\n• REI VINDICATIO: against any possessor, but only while the thing exists.",
+   "page": 22,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Concept, CORPUS and ANIMUS",
+   "readyBy": "2026-10-14",
+   "front": "Exegesis: a Digest fragment is about possession and its protection — which questions should your interpretation address?",
+   "back": "Who has which kind of possession, and on what grounds?\n• ANIMUS and CORPUS present? Proprietary or natural possession (detention)?\n• Immediate or mediate; detentor or possessor's agent?\n• IUSTA towards the opponent (NEC VI NEC CLAM NEC PRECARIO)? Civil (IUSTA CAUSA)?",
+   "page": 12,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-II",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Why are requirements stricter for acquiring possession than for retaining it?",
+   "back": "Acquisition may change established ownership, so it needs clear, predictable rules evident to all.\n• CORPUS is always decisive for acquisition.\n• Once established, possession is kept without constant proof, sometimes even SOLO ANIMO.",
+   "page": 25,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Can possession be transferred by symbols or documents in Roman law?",
+   "back": "No: real factual control is always required.\n• No TRADITIO PER CARTAM (by documents) and no TRADITIO FICTA (fictive transfer).\n• CORPUS may exist without contact, but is never purely symbolic.",
+   "page": 25,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 2,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Who can acquire possession in his own right, and can a PUPILLUS do so alone (Paulus D 41.2.1.3)?",
+   "back": "Only persons SUI IURIS with sufficient understanding; FURIOSI cannot.\n• Ofilius and Nerva: a PUPILLUS can, because possession is factual.\n• Paulus: yes, once he has reached INTELLECTUS (sufficient maturity).\n• Persons in POTESTAS cannot acquire in their own right.",
+   "page": 26,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Original vs derivative acquisition of possession — what is the difference?",
+   "back": "Original: by one's own act without the previous possessor; derivative: transferred by the previous possessor.\n• Original: OCCUPATIO of a RES NULLIUS; also the thief.\n• Derivative: TRADITIO from transferor to transferee.\n• Derivative acquisition demands less CORPUS than original.",
+   "page": 27,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Contract vs conveyance — why does it matter for ANIMUS POSSIDENDI?",
+   "back": "A contract creates the obligation to transfer; the conveyance (eg TRADITIO) transfers the right itself.\n• EMPTIO VENDITIO alone gives neither possession nor ownership.\n• Intent to buy ≠ ANIMUS POSSIDENDI (cart bought 1 March, delivered 15 March).\n• ANIMUS may be explicit or inferred from conduct.",
+   "page": 28,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Ulpianus D 18.6.1.2 (Case 11): a wine buyer seals a barrel in the seller's cellar — does he acquire possession?",
+   "back": "Labeo and Ulpian: no, sealing only prevents substitution and shows no ANIMUS POSSIDENDI.\n• Trebatius: yes, sealing expresses possessory intent.\n• CORPUS is unproblematic: he even touches the barrel.\n• Contrast D 18.6.15(14).1: marking planks does give possession.",
+   "page": 29,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "What is IUS CONTROVERSUM?",
+   "back": "Opposing juristic opinions on the same case or issue, all integrated into the corpus of Roman law.\n• Example: Trebatius vs Labeo/Ulpian on the sealed barrel.\n• No controversy where different facts explain different solutions.",
+   "page": 30,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Which factors determine how much CORPUS is required for acquiring possession?",
+   "back": "Mode of acquisition, type and form of the thing, and the social environment.\n• Derivative needs less than original; land is easier to control than movables.\n• Small handy things are easier to control than bulky stores.\n• High risk of third-party interference demands a manifest act.",
+   "page": 31,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Paulus D 41.2.3.1 (Case 1): must the acquirer of land walk round its whole perimeter?",
+   "back": "No, it suffices to set foot on the land with the intent to acquire it.\n• Setting foot on it is the general rule for land.\n• Borderline (Celsus D 41.2.18.2): land shown from the buyer's own neighbouring tower.",
+   "page": 32,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "What does QUODAMMODO MANU LONGA TRADITA ('as if delivered by a long hand') describe?",
+   "back": "Transfers of possession without a physical act of taking: the possibility of control suffices.\n• Iavolenus D 46.3.79: money laid down before the creditor's eyes.\n• Celsus D 41.2.18.2: goods placed in the buyer's empty house.\n• Not a clearly defined legal concept.",
+   "page": 34,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Paulus D 41.2.1.21 (Case 4): what does acquiring possession OCULIS ET AFFECTU mean?",
+   "back": "Agreeing on immediate transfer in the presence of the goods suffices; no touching (CORPORE ET TACTU) needed.\n• Four cases: buyer's PROCURATOR, coins to a third party, very heavy object, cellar keys.\n• Keys fit only if handed over at the cellar (cf Papinianus D 18.1.74).",
+   "page": 34,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Gaius (Trebatius) D 41.1.5.1 (Case 8): a hunter wounds a wild animal so it can be caught — is he possessor?",
+   "back": "Gaius: only once he captures it — QUIA MULTA ACCIDERE POSSUNT, UT EAM NON CAPIAMUS.\n• Trebatius: yes, as long as he pursues it.\n• Strict CORPUS because OCCUPATIO is an original mode.\n• Proculus D 41.1.55 (trapped boar): possession once IN MEAM POTESTATEM PERVENIT.",
+   "page": 35,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — SOLO ANIMO modes and acquisition through others",
+   "readyBy": "2026-10-14",
+   "front": "Why are TRADITIO BREVI MANU and CONSTITUTUM POSSESSORIUM called modes SOLO ANIMO — and is that accurate?",
+   "back": "Because consensus (ANIMUS) dominates; inaccurately, as CORPUS is never entirely disregarded.\n• Both remain acquisition CORPORE ET ANIMO.\n• They are tradition surrogates: change without visible handover.",
+   "page": 42,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — SOLO ANIMO modes and acquisition through others",
+   "readyBy": "2026-10-14",
+   "front": "What is TRADITIO BREVI MANU (delivery 'by a short hand')?",
+   "back": "A detentor becomes possessor by agreement: the possessor gives up his ANIMUS, the detentor holds for himself.\n• CORPUS already exists through the detention.\n• Gaius D 41.1.9.5: borrower/lessee/depositary buys the thing; no return and redelivery.",
+   "page": 42,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — SOLO ANIMO modes and acquisition through others",
+   "readyBy": "2026-10-14",
+   "front": "What is CONSTITUTUM POSSESSORIUM (possessory agreement)?",
+   "back": "The acquirer gets possession by agreeing that the current possessor or detentor will henceforth hold for him.\n• The acquirer gains mediate possession; the transferor becomes his detentor.\n• Ulpian D 6.1.77: a woman donates land and leases it back.\n• Mirror image of TRADITIO BREVI MANU.",
+   "page": 42,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — SOLO ANIMO modes and acquisition through others",
+   "readyBy": "2026-10-14",
+   "front": "What does NEMO SIBI IPSE CAUSAM POSSESSIONIS MUTARE POTEST mean?",
+   "back": "Nobody can change the title (CAUSA) of his possession of his own accord.\n• Self-declared possessor (thief, detentor) lacks IUSTA CAUSA: no civil possession or USUCAPIO.\n• Tradition surrogates do not violate it: both parties agree.\n• Basis of § 319 ABGB.",
+   "page": 44,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — SOLO ANIMO modes and acquisition through others",
+   "readyBy": "2026-10-14",
+   "front": "What does ANIMO NOSTRO, CORPORE ALIENO mean (Paulus D 41.2.3.12)?",
+   "back": "The DOMINUS acquires possession with his own intent through the physical control of a person in his power.\n• Persons ALIENI IURIS cannot acquire for themselves, only for the DOMINUS.\n• Papinianus D 41.2.48: donated slave sent back with a IUSSUM to acquire the estate.",
+   "page": 45,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — SOLO ANIMO modes and acquisition through others",
+   "readyBy": "2026-10-14",
+   "front": "How do the DOMINUS' CORPUS and ANIMUS arise when he acquires through a person in his power?",
+   "back": "CORPUS: his POTESTAS plus the dependant's actual control; ANIMUS: a IUSSUM or a PECULIUM.\n• IUSSUM = order for one particular transaction.\n• Without IUSSUM or PECULIUM no acquisition, unless later approved (RATIHABITIO).\n• To acquire through a slave, the DOMINUS must possess the slave.",
+   "page": 46,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — SOLO ANIMO modes and acquisition through others",
+   "readyBy": "2026-10-14",
+   "front": "What is a PECULIUM and what does it mean for acquiring possession?",
+   "back": "Assets a DOMINUS lets a dependant manage independently: a general, abstract expression of his possessory intent.\n• Covers all the holder's transactions; he concretises it: ANIMO SERVORUM.\n• The DOMINUS acquires without knowing each deal (Paulus D 41.2.1.5).\n• Dependant's own ANIMUS irrelevant; INTELLECTUS POSSIDENDI suffices.",
+   "page": 46,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "14.10. Possession — SOLO ANIMO modes and acquisition through others",
+   "readyBy": "2026-10-14",
+   "front": "Could persons SUI IURIS acquire possession for another in classical law (direct vs indirect agency)?",
+   "back": "No, generally only indirect agency: the agent acquires first, then transfers to the principal.\n• Direct agency: the transaction immediately affects the principal.\n• Secunda buys for Primus, then hands over in a separate transaction.\n• Transferring possession through a SUI IURIS agent was always possible.",
+   "page": 48,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — SOLO ANIMO modes and acquisition through others",
+   "readyBy": "2026-10-14",
+   "front": "Which persons SUI IURIS could exceptionally acquire possession directly for another?",
+   "back": "CURATOR, TUTOR and PROCURATOR; Justinian later opened direct agency generally.\n• PROCURATOR: often a freedman bound to his master.\n• Ulpian D 41.1.20.2: Titius accepts delivery for co-buyer Ego QUASI PROCURATOR.\n• That is analogy: solving an unregulated case by similarity to recognised ones.",
+   "page": 48,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Acquisition: ANIMUS and CORPUS",
+   "readyBy": "2026-10-14",
+   "front": "Exegesis: a Digest fragment is about the acquisition of possession — which questions should your interpretation address?",
+   "back": "Did the acquirer have ANIMUS POSSIDENDI and CORPUS at the decisive moment?\n• Original or derivative; contract or conveyance; capacity (PUPILLUS, FURIOSUS)?\n• CORPUS factors: type of thing, OCULIS ET AFFECTU, keys, social environment?\n• Tradition surrogate (BREVI MANU, CONSTITUTUM) or acquisition through others (IUSSUM, PECULIUM, agent)?",
+   "page": 25,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-III",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "What does retaining possession require, and when does possession end?",
+   "back": "ANIMUS and CORPUS, judged more leniently; it ends when intent is given up or all control is lost.\n• SOLO ANIMO retention possible for a SERVUS FUGITIVUS and for land.\n• Ends voluntarily (TRADITIO, abandonment) or involuntarily.",
+   "page": 55,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "Does losing possession also mean losing ownership?",
+   "back": "Usually not: possession and ownership are lost separately.\n• Goods thrown overboard in an emergency: possession lost, ownership kept.\n• A finder who keeps obviously lost property is a FUR.\n• Exception: a wild animal regaining freedom ends ownership too.",
+   "page": 55,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "How is retention of possession assessed for movables vs immovables?",
+   "back": "Movables: only with CUSTODIA (exception SERVUS FUGITIVUS); immovables: SOLO ANIMO retention possible in two cases.\n• Land without detentors or possessor's agents.\n• Land where a detentor or possessor's agent was appointed.\n• No single formula: analyse the case types.",
+   "page": 56,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "What basic tendency does Roman law show in retaining possession?",
+   "back": "It preserves existing possession and avoids hasty changes of control.\n• Change recognised only if likely to be permanent (Iavolenus D 41.2.22).\n• TRADITIO to an incapable acquirer: transferor keeps possession (Ulpian) or loses it (Celsus).\n• PUPILLI/FURIOSI cannot give up possession ANIMO without tutor/curator.",
+   "page": 56,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "What is CUSTODIA in the context of retaining possession of movables?",
+   "back": "Control such that one can at any time lay hands on the thing or bring it within reach.\n• Mislaid within one's sphere: possession kept (Paulus D 41.2.3.13).\n• Lost outside one's sphere: possession lost (Pomponius D 41.2.25 pr).\n• Forgotten buried money: kept while nobody intervenes (Papinianus D 41.2.44 pr).",
+   "page": 58,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "Ulpianus D 41.2.13 pr (Case 47): stones sink in the Tiber in a shipwreck and are later recovered — possession and ownership?",
+   "back": "Possession is lost, ownership is not: the owner lost all control over the stones.\n• Illustrates CUSTODIA as the test for movables.\n• Contrast the SERVUS FUGITIVUS, possessed SOLO ANIMO.",
+   "page": 58,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "Who possesses a SERVUS FUGITIVUS (fugitive slave), what he took with him and what he acquires in flight?",
+   "back": "The master retains possession SOLO ANIMO until a third party takes the slave; the rest follows.\n• Master keeps possessing (and usucapting) the slave; no CUSTODIA needed (Paulus D 41.2.1.14).\n• Things taken along: master's, through his possessory agent.\n• Acquisitions: master's, as if under a valid PECULIUM (fiction).",
+   "page": 59,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "Can possession of land be retained SOLO ANIMO — since when and for how long?",
+   "back": "Yes: first only for seasonal pastures (SALTUS); Proculus extended it to all land.\n• Only with a view to re-establishing CORPUS, not indefinitely.\n• Probably lost when possessor or agents failed to return as planned.",
+   "page": 61,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "A occupies B's land without permission, intending to possess — does A immediately acquire possession?",
+   "back": "No: A acquires only if B makes no attempt to regain control, or his attempt fails.\n• If B regains control, B remained possessor throughout.\n• After losing it: interdicts UTI POSSIDETIS, UNDE VI; ACTIO PUBLICIANA, REI VINDICATIO.\n• Same for longer absence (Pomponius D 41.2.25.2).",
+   "page": 61,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "Ulpianus (Labeo) D 41.2.6.1 (Case 52): B goes to market leaving nobody on his estate; A occupies it — does B lose possession?",
+   "back": "Prevailing view (Ulpian): B loses possession only if he cannot evict A on his return.\n• Labeo: A becomes possessor on entering; this view did not prevail.\n• Temporary absence does not end CORPUS.",
+   "page": 62,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "What happens to possession of land when detentors or possessor's agents stop exercising control?",
+   "back": "Usually retained SOLO ANIMO; lost immediately only if they are driven off by force.\n• Death or leaving: retained until the possessor can re-establish CORPUS.\n• Mental illness or sublease (chain of detentors): no effect.\n• Forcible expulsion: drastic interruption, immediate loss (Papinianus D 41.2.44.2).",
+   "page": 63,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "14.10. Possession — Retaining and losing",
+   "readyBy": "2026-10-14",
+   "front": "Exegesis: a Digest fragment is about retaining or losing possession — which questions should your interpretation address?",
+   "back": "Has ANIMUS been given up, or all CORPUS lost?\n• Movable (CUSTODIA) or immovable; special case SERVUS FUGITIVUS?\n• Retention SOLO ANIMO: for how long; was CORPUS re-established?\n• Intruder or detentor problem: attempt to regain, expulsion by force?",
+   "page": 55,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-IV",
+    "p1",
+    "exegese"
+   ]
+  }
+ ]
+}

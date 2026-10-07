@@ -1,0 +1,803 @@
+{
+ "part": "V-VII",
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "What is ownership (DOMINIUM) in Roman law?",
+   "back": "The property right giving the owner (DOMINUS) exclusive control over a thing.\n• Also called PROPRIETAS; jurists also say SUUM EST (\"it is his\").\n• § 354 ABGB: use substance and uses at will, exclude all others.",
+   "page": 68,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "Ownership vs possession — what is the difference?",
+   "back": "Possession is a fact (intentional factual control); ownership is the right to have the thing.\n• Possession needs factual control plus intent to possess like an owner.\n• The possessor merely WANTS the thing; the owner is ENTITLED to it.",
+   "page": 68,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "Interdicts vs REI VINDICATIO — what does each give the owner?",
+   "back": "Interdicts protect possession temporarily; the REI VINDICATIO settles ownership once and for all.\n• Interdicts: for the IUSTUS POSSESSOR against interference and seizure.\n• REI VINDICATIO: owner reclaims his thing from any possessor (cf § 366 ABGB).",
+   "page": 68,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "Ownership vs limited rights in rem (IURA IN RE ALIENA)?",
+   "back": "Ownership is the full right in rem; limited rights give only partial use of another's thing.\n• Examples: servitude (SERVITUS), pledge (PIGNUS), right to build (SUPERFICIARIUS).\n• Owner must tolerate the holder; otherwise he may exclude everyone.",
+   "page": 69,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "What powers does the owner have?",
+   "back": "He may use, exploit and dispose of the thing and exclude all others.\n• Use it, exclude others, take all fruits.\n• Modify or destroy it; grant limited rights (pledge, servitude).\n• Alienate, authorise others to dispose, derelinquish, free slaves (MANUMISSIO).",
+   "page": 70,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "What are fruits? FRUCTUS NATURALES vs FRUCTUS CIVILES?",
+   "back": "Fruits are periodic yields from an object's designated use; they primarily belong to the owner.\n• NATURALES: derived by natural means, e.g. fruit and vegetables.\n• CIVILES: arise from legal transactions, e.g. rent from a lease.",
+   "page": 70,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "What is dereliction and what becomes of the thing?",
+   "back": "The owner voluntarily gives up possession with the evident intent to give up ownership.\n• The thing becomes an ownerless RES DERELICTA.\n• Anyone may then acquire it by OCCUPATIO.",
+   "page": 71,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "What is IUS COGENS and how does it limit ownership?",
+   "back": "Mandatory law that private agreement cannot supersede; the owner exercises his rights only within it.\n• Example: donations between spouses were forbidden.\n• Example: Augustus banned buildings higher than 70 feet.",
+   "page": 71,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "What is the CAUTIO DAMNI INFECTI?",
+   "back": "Security neighbours can demand from an owner whose decaying building threatens their buildings.\n• Owners must ensure their property does not harm others.\n• Neighbour restrictions resembling servitudes are called \"legal servitudes\".",
+   "page": 72,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "NIHIL COMMUNE HABET PROPRIETAS CUM POSSESSIONE — meaning and source?",
+   "back": "Ulpianus D 41.2.12.1: ownership and possession have nothing in common.\n• True: possession is a fact, ownership a right.\n• Exaggerated: the owner usually also possesses and can use interdicts.",
+   "page": 76,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p2",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — Concept, powers and limits",
+   "readyBy": "2026-10-21",
+   "front": "Exegesis: a Digest fragment is about ownership — which questions should your interpretation address?",
+   "back": "Who is owner — and is the issue ownership or mere possession?\n• Full ownership or a limited right in rem (IURA IN RE ALIENA)?\n• Which power is exercised, and does IUS COGENS limit it?\n• Joint owners (CONSORTIUM/CONDOMINIUM)? Remedy: REI VINDICATIO or interdict?",
+   "page": 68,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — Joint ownership",
+   "readyBy": "2026-10-21",
+   "front": "Which two forms of joint ownership does Roman law recognise?",
+   "back": "The old civil-law CONSORTIUM ERCTO NON CITO and classical CONDOMINIUM.\n• CONSORTIUM: community of heirs, property undivided, no shares.\n• CONDOMINIUM (COMMUNIO PRO INDIVISO): each co-owner holds a quota.",
+   "page": 72,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Joint ownership",
+   "readyBy": "2026-10-21",
+   "front": "What is the CONSORTIUM ERCTO NON CITO (Gaius Inst 3.154a–b)?",
+   "back": "Ancient community of SUI HEREDES after the PATER FAMILIAS's death, owning the estate undivided.\n• ERCTO NON CITO = \"without the property having been divided\".\n• No shares; one member alone can validly alienate or manumit for all.\n• Ended by the ACTIO FAMILIAE ERCISCUNDAE.",
+   "page": 73,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — Joint ownership",
+   "readyBy": "2026-10-21",
+   "front": "What characterises the CONDOMINIUM?",
+   "back": "Classical joint ownership: each co-owner holds an ideal share (quota) of the ownership rights.\n• Each may freely dispose of his own quota.\n• Disposing of the whole needs all; alone it affects only his share.\n• Can arise by contract, e.g. a SOCIETAS.",
+   "page": 74,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "21.10. Ownership — Joint ownership",
+   "readyBy": "2026-10-21",
+   "front": "Leo and Irene co-own the slave Pamphilus; Leo mancipates him to Crassus. Result?",
+   "back": "Crassus acquires only Leo's half; Irene keeps her share.\n• A co-owner can effectively dispose only of his quota.\n• Crassus may free Pamphilus only with Irene's consent or after buying her half.",
+   "page": 75,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Joint ownership",
+   "readyBy": "2026-10-21",
+   "front": "How is a CONDOMINIUM ended (ACTIO COMMUNI DIVIDUNDO)?",
+   "back": "Each co-owner can sue for termination and division of the property.\n• Divisible things (e.g. money): division in kind by quota.\n• Otherwise: one takes all and compensates others, or sale and split proceeds.",
+   "page": 75,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-V",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "What are the three categories of acquiring ownership?",
+   "back": "By conveyance, by usucaption (USUCAPIO), and by \"natural\" means.",
+   "page": 77,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "Derivative vs original acquisition of ownership?",
+   "back": "Derivative derives from the former owner's right; original arises without the aid of a former owner.\n• Derivative: conveyance — MANCIPATIO, IN IURE CESSIO, TRADITIO.\n• Original: e.g. USUCAPIO, OCCUPATIO, ACCESSIO.",
+   "page": 77,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "What is a conveyance and which types does Roman law know?",
+   "back": "A legal transaction by which the owner (or authorised person) transfers ownership to the acquirer.\n• Three types: MANCIPATIO, IN IURE CESSIO, TRADITIO.\n• Acquirer succeeds into the vendor's position — derivative acquisition.",
+   "page": 77,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "NEMO PLUS IURIS TRANSFERRE POTEST QUAM IPSE HABET — meaning and source?",
+   "back": "No one can transfer more rights than he himself has (Ulpianus D 41.1.20 pr).\n• Encumbrances pass on: a mancipated slave stays burdened with a USUFRUCTUS.\n• Fewer rights are possible, e.g. reserving a HABITATIO.",
+   "page": 77,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p1",
+    "latin",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "What is USUCAPIO and what role does it play?",
+   "back": "Acquisition of ownership by qualified possession over a statutory period of time.\n• Cures failed conveyances, e.g. non-owner transferor or missing CAUSA.\n• Original mode; former owner loses ownership without any compensation claim.",
+   "page": 78,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "Which are the \"natural\" modes of acquisition?",
+   "back": "Modes Gaius bases on NATURALIS RATIO (natural reason):\n• OCCUPATIO and acquisition of fruits.\n• ACCESSIO, CONFUSIO/COMMIXTIO.\n• SPECIFICATIO.",
+   "page": 79,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "What is OCCUPATIO?",
+   "back": "Taking an ownerless thing (RES NULLIUS) into possession makes you its owner — original acquisition.\n• Examples: wild animal, RES DERELICTA, treasure.\n• Diana kills a wild boar and carries it home: owner.",
+   "page": 79,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "Who owns fruits after separation from the mother object?",
+   "back": "The owner of the mother object — except four groups.\n• BONAE FIDEI POSSESSOR and emphyteutic lessee: on separation (SEPARATIO).\n• Usufructuary leaseholder (COLONUS) and usufructuary: only on seizure (PERCEPTIO).",
+   "page": 79,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "What is ACCESSIO?",
+   "back": "When things become inseparably connected, the owner of the main object originally acquires the secondary one.\n• Former owner of the secondary object can claim compensation.\n• Vibia's metal sheet welded onto Charinus's chariot belongs to Charinus.",
+   "page": 80,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "What happens to ownership in CONFUSIO and COMMIXTIO?",
+   "back": "Nothing changes: each owner keeps his portion of the indistinguishable mixture.\n• Reclaimed by quantity vindication (VINDICATIO PRO PARTE).\n• 2 t of Gripus' + 4 t of Stichus' wheat: 2 t and 4 t.",
+   "page": 80,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — Modes of acquisition (overview)",
+   "readyBy": "2026-10-21",
+   "front": "SPECIFICATIO: Sabinians vs Proculians — and the MEDIA SENTENTIA?",
+   "back": "Who owns a NOVA SPECIES made from another's material was disputed; a compromise prevailed.\n• Sabinians: owner of the material; Proculians: the maker.\n• MEDIA SENTENTIA: reversible → material owner; irreversible → maker, who compensates.\n• Wine from Simon's grapes belongs to the maker.",
+   "page": 80,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "21.10. Ownership — MANCIPATIO and IN IURE CESSIO",
+   "readyBy": "2026-10-21",
+   "front": "IUS CIVILE vs IUS HONORARIUM?",
+   "back": "IUS CIVILE is the older stratum; IUS HONORARIUM is the praetor's law adapting it.\n• IUS CIVILE: MOS MAIORUM, LEGES, plebiscites, INTERPRETATIO.\n• Praetorian creation: bonitarian ownership, protected by ACTIO PUBLICIANA.",
+   "page": 82,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — MANCIPATIO and IN IURE CESSIO",
+   "readyBy": "2026-10-21",
+   "front": "How is a MANCIPATIO performed?",
+   "back": "Formal IUS CIVILE ceremony with eight people: transferor, transferee, scale-holder, five witnesses.\n• Transferee grasps the RES MANCIPI (or a symbol) and recites a formula.\n• He strikes the scales with a coin; the transferor stays silent.\n• Result: civil-law (quirite) ownership.",
+   "page": 82,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — MANCIPATIO and IN IURE CESSIO",
+   "readyBy": "2026-10-21",
+   "front": "HUNC EGO HOMINEM EX IURE QUIRITIUM MEUM ESSE AIO … — what is it?",
+   "back": "The MANCIPATIO formula for buying a slave.\n• \"I claim this slave is mine by the law of Roman citizens…\"\n• \"…bought for me with this copper and these copper scales.\"",
+   "page": 82,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p2",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — MANCIPATIO and IN IURE CESSIO",
+   "readyBy": "2026-10-21",
+   "front": "RES MANCIPI vs RES NEC MANCIPI?",
+   "back": "RES MANCIPI were the key agrarian production goods; all other things are RES NEC MANCIPI.\n• Italian estates with buildings, certain praedial servitudes, slaves.\n• Draft and pack animals: cattle, horses, donkeys, hinnies, mules.\n• Provincial land is not RES MANCIPI (Gai 2.14a).",
+   "page": 83,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — MANCIPATIO and IN IURE CESSIO",
+   "readyBy": "2026-10-21",
+   "front": "Is MANCIPATIO abstract or causal? What are its prerequisites?",
+   "back": "Abstract but derivative: transferor's quirite ownership plus correctly completed formal act.\n• No IUSTA CAUSA and no physical handover needed.\n• Without a valid causa, the transferor recovers by CONDICTIO.\n• Non-owner cannot convey: NEMO PLUS IURIS.",
+   "page": 83,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — MANCIPATIO and IN IURE CESSIO",
+   "readyBy": "2026-10-21",
+   "front": "What is a CONDICTIO?",
+   "back": "A claim reversing asset shifts that are not or no longer justified (unjust enrichment).\n• E.g. after a MANCIPATIO under an invalid sale.\n• Recovers the goods or their monetary value.",
+   "page": 83,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — MANCIPATIO and IN IURE CESSIO",
+   "readyBy": "2026-10-21",
+   "front": "How does IN IURE CESSIO work and what can it be used for?",
+   "back": "Abstract, derivative formal conveyance modelled on the ownership trial before the praetor.\n• Acquirer claims the thing; transferor remains silent.\n• Praetor adjudges ownership to the acquirer (ADDICTIO).\n• Usable for RES MANCIPI and RES NEC MANCIPI.",
+   "page": 84,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "MANCIPATIO and IN IURE CESSIO vs TRADITIO — key differences?",
+   "back": "The first two are formal and abstract; TRADITIO is informal and causal.\n• All three are derivative.\n• TRADITIO is open also to non-citizens.\n• TRADITIO gives quirite ownership only of RES NEC MANCIPI.",
+   "page": 84,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "What are the three requirements for acquiring ownership by TRADITIO?",
+   "back": "Authority of the transferor, transfer of possession, and a valid cause.\n• Ownership or authority of disposal (NEMO PLUS IURIS).\n• POSSESSIO handed over: physically, BREVI MANU or CONSTITUTUM POSSESSORIUM.\n• IUSTA CAUSA (TITULUS) recognised by law.",
+   "page": 84,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "What is a IUSTA CAUSA TRADITIONIS? Name the main ones.",
+   "back": "A legally recognised ground (TITULUS) justifying the permanent transfer of ownership.\n• Most important: sale, loan for consumption (MUTUUM), gift (DONATIO), dowry.",
+   "page": 85,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "Abstract vs causal conveyance (TITULUS and MODUS)?",
+   "back": "Causal: the transfer (MODUS) works only with a valid underlying cause (TITULUS); abstract: the cause is irrelevant.\n• TRADITIO is causal; MANCIPATIO and IN IURE CESSIO are abstract.\n• Austria is causal: § 380 ABGB requires title and mode.",
+   "page": 85,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "Quirite vs bonitarian ownership — what does a mere TRADITIO of a RES MANCIPI give?",
+   "back": "Bonitarian (praetorian) ownership; quirite ownership only after usucaption.\n• Requires an authorised transferor and a IUSTA CAUSA.\n• Bonitarian owner sues by ACTIO PUBLICIANA; quirite owner by REI VINDICATIO.\n• Same content, different procedure.",
+   "page": 85,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "Iavolenus D 39.5.25: T, told to donate E's thing to Titius in E's name, gives it in his own name. Ownership?",
+   "back": "Titius does not become owner: T lacked authority to dispose in his own name.\n• Possession and causa (donation) were present.\n• BENIGNIUS EST: Titius keeps it — EXCEPTIO DOLI against E's REI VINDICATIO.\n• T answers to E (FURTUM).",
+   "page": 85,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "VENIRE CONTRA FACTUM PROPRIUM — meaning and use?",
+   "back": "Acting in contradiction to one's own previous conduct, breaching the trust it created.\n• Donor cannot reclaim his gift; donee defends with EXCEPTIO DOLI (defence of fraud).\n• Used in Iavolenus D 39.5.25 and Ulpianus D 12.1.18 pr.",
+   "page": 86,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "Iulianus D 41.1.36 (1): A delivers land thinking he owes it by will; B thinks by stipulation. Ownership?",
+   "back": "Yes: agreeing the transfer fulfils an obligation suffices, despite dissent on its source.\n• Unproblematic if at least one obligation really exists.\n• Some scholars: the shared purpose itself is a cause — CAUSA SOLVENDI.",
+   "page": 86,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "Iulianus D 41.1.36 (2): C gives money as a gift, D takes it as a loan (MUTUUM). Ownership?",
+   "back": "Yes, per Julian: D acquires ownership derivatively upon delivery.\n• No consensus on gift or loan — classical causa is missing.\n• Analogy: both want ownership to pass without consideration.\n• This common denominator counts as IUSTA CAUSA TRADITIONIS.",
+   "page": 86,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "Ulpianus D 12.1.18 pr: same facts (gift vs loan). Ulpian's solution?",
+   "back": "No derivative acquisition: without consensus there is no IUSTA CAUSA TRADITIONIS.\n• D acquires originally once he uses (mixes or spends) the coins.\n• Before: C may vindicate; after: CONDICTIO.\n• But EXCEPTIO DOLI bars C, who wanted to give.",
+   "page": 89,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "Julian vs Ulpian on dissent about the causa — and the link to modern law?",
+   "back": "Julian lets ownership pass despite dissent; Ulpian, stricter, demands consensus on the causa.\n• Julian keeps the causa requirement; general consensus suffices by analogy.\n• Julian's view is the basis of the abstract theory (§ 929 BGB).",
+   "page": 93,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "Inst 2.1.40: PER TRADITIONEM QUOQUE IURE NATURALI RES NOBIS ADQUIRUNTUR — what does it say?",
+   "back": "Under Justinian, corporeal things of every kind can be transferred by TRADITIO, by natural law.\n• MANCIPATIO, IN IURE CESSIO and quirite/bonitarian split had disappeared.\n• Basis for Grotius: the owner's will alone suffices.",
+   "page": 90,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 2,
+   "priority": 1,
+   "topic": "21.10. Ownership — TRADITIO",
+   "readyBy": "2026-10-21",
+   "front": "Exegesis: a Digest fragment is about TRADITIO — which questions should your interpretation address?",
+   "back": "Check all three requirements: authority, transfer of possession, IUSTA CAUSA.\n• Owner, authorised agent, or someone exceeding authority?\n• Possession transferred how — physically, BREVI MANU, CONSTITUTUM POSSESSORIUM? RES MANCIPI?\n• Consensus on the causa? Fallbacks: original acquisition, CONDICTIO, EXCEPTIO DOLI.",
+   "page": 84,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "21.10. Ownership — Transfer in modern codifications",
+   "readyBy": "2026-10-21",
+   "front": "Which three models of transferring movables do modern codifications use?",
+   "back": "Consensus (French Code civil), abstract conveyance (German BGB), causal conveyance (Austrian ABGB).\n• France: ownership passes with the valid contract (Art 1196 Code civil).\n• § 929 BGB: delivery plus agreement in rem; causa irrelevant (abstraction).\n• ABGB §§ 380, 425: TITULUS plus MODUS.",
+   "page": 89,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "21.10. Ownership — Transfer in modern codifications",
+   "readyBy": "2026-10-21",
+   "front": "Which Roman positions do the three modern models echo?",
+   "back": "Each isolates one aspect of Roman law.\n• Code civil: voluntarist reading of Inst 2.1.40 (Grotius).\n• BGB: Julian D 41.1.36 — consensus on passing of ownership suffices.\n• ABGB: classical causal TRADITIO (TITULUS and MODUS).",
+   "page": 93,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-VII",
+    "p2"
+   ]
+  }
+ ]
+}

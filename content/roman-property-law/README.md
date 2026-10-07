@@ -63,3 +63,22 @@ nechápu, dokud mi tam nedáš znalosti, které k nim potřebuji“.
   C86 (směna jako IUSTA CAUSA). Doplnit, až budou podklady.
 - Nový Fallblatt nebo nová jednotka: přidat soubor, pustit `build.py`, nahrát
   `out/studyflow/roman-property-law.json` jako `/data/materials/deck-roman-property-law.json`.
+
+## Přehledový balíček pro exegezi (anglicky) — `kompakt/`
+
+Daniel 2026-10-07: Roman Law of Property potřebuje rychle projet na exegezi
+(PKU 030116, Assessment I 4. 11. 2026); vyučující řekl, že stačí každé téma
+plošně, ne do hloubky. Proto **samostatný předmět** „Roman Law of Property —
+Overview for Exegesis“ (examDate 2026-11-04) vedle německého podrobného balíčku.
+
+- Karta = jeden pojem; odpověď = jedna věta + max. 3 odrážky (≤ 60 slov, hlídá build).
+  Priorita jen 1/2, žádné detaily. Ke každé kapitole karta „Exegesis: … which
+  questions should your interpretation address?“ (štítek `exegese`).
+- Tempo podle hodin exegeze: kap. I–IV → 14. 10. (68), V–VII → 21. 10. (49),
+  VIII–IX → 28. 10. (55), X–XII + XV → 3. 11. (67). Celkem 239 karet.
+- Zdroj = přepis učebnice v `out/work/`; německé soubory v `deck/` sloužily jen
+  jako kontrolní seznam témat.
+- Sestavení: `uv run content/roman-property-law/build_kompakt.py` →
+  `out/studyflow/roman-property-overview.json`, na produ jako
+  `/data/materials/deck-roman-property-overview.json`. Balíček má `prune: true`
+  (je to celý předmět) a `updates` s odpovědí, takže oprava se po reimportu propíše.

@@ -1,0 +1,1092 @@
+{
+ "part": "X-XII,XV",
+ "cards": [
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "What is an ACTIO IN REM, and who has capacity to sue and to be sued?",
+   "back": "An ACTIO IN REM (property claim) enforces a right in rem; ACTIONES IN PERSONAM enforce relative claims.\n• Claimant: the person asserting the property right.\n• Defendant: the person possessing the thing and denying that right.\n• Ex 27: a claim against a non-possessor fails.",
+   "page": 152,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "What are the two stages of the Roman formulary procedure?",
+   "back": "Proceedings IN IURE before the PRAETOR, then proceedings APUD IUDICEM before the IUDEX.\n• PRAETOR: elected magistrate; his edict lists the ACTIONES and EXCEPTIONES he grants.\n• He grants an edictal ACTIO, creates ACTIO IN FACTUM / UTILIS, or denies (DENEGATIO ACTIONIS).\n• IUDEX: private citizen who establishes the facts, then condemns or acquits.",
+   "page": 152,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "What is the LITIS CONTESTATIO, and why is the formula a 'hypothetical judgement'?",
+   "back": "LITIS CONTESTATIO ends IN IURE: the praetor appoints the IUDEX and issues the formula.\n• The formula contains the ACTIO and any EXCEPTIONES.\n• 'If the claim is shown true, condemn; if not, acquit.'\n• The praetor does not verify the facts; the IUDEX does.",
+   "page": 154,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "Which three actions protect ownership?",
+   "back": "REI VINDICATIO, ACTIO PUBLICIANA and ACTIO NEGATORIA.\n• REI VINDICATIO: civil-law owner who lost possession, against the possessor.\n• ACTIO PUBLICIANA: the same aim for the usucapient.\n• ACTIO NEGATORIA: against all other third-party interference.",
+   "page": 156,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "What are the three parts of the REI VINDICATIO formula?",
+   "back": "INTENTIO (foundation of the claim), CLAUSULA ARBITRARIA (unless restored), CONDEMNATIO (pay the value, or acquit).\n• INTENTIO: SI PARET REM … EX IURE QUIRITIUM AULI AGERII ESSE.\n• CLAUSULA ARBITRARIA: NEQUE EA RES RESTITUETUR — IUSSUM DE RESTITUENDO pressures return.\n• CONDEMNATIO: QUANTI EA RES ERIT; malicious refusal → claimant's IUSIURANDUM IN LITEM.",
+   "page": 156,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "Who may bring a REI VINDICATIO, and what must he prove?",
+   "back": "Only the quirite owner (DOMINIUM EX IURE QUIRITIUM); he bears the burden of proving it.\n• Bonitarian owner cannot (Ex 29 Alcesimus) — he uses the ACTIO PUBLICIANA.\n• Chain of owners back to an original acquisition: PROBATIO DIABOLICA.\n• Not proven → the IUDEX acquits (ABSOLVITO).",
+   "page": 157,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "What does OMNIS CONDEMNATIO PECUNIARIA EST mean for the REI VINDICATIO?",
+   "back": "Every condemnation is for money: the IUDEX cannot order return of the thing itself.\n• The defendant pays its estimated value at judgment (QUANTI EA RES ERIT).\n• Return is only induced through the CLAUSULA ARBITRARIA.",
+   "page": 158,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p2",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Defences and restitution",
+   "readyBy": "2026-11-03",
+   "front": "What is an EXCEPTIO, where does it stand in the formula, and who bears the burden of proof?",
+   "back": "A defence: the ACTIO's wording favours the claimant, but outside considerations favour the defendant.\n• Inserted right after the INTENTIO.\n• INTENTIO (positive foundation): plaintiff proves; EXCEPTIO (negative foundation): defendant proves.\n• Ex 28 (D 39.5.25): EXCEPTIO DOLI against the donor's REI VINDICATIO.",
+   "page": 158,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Protection — Defences and restitution",
+   "readyBy": "2026-11-03",
+   "front": "EXCEPTIO DOLI PRAETERITI (SPECIALIS) vs PRAESENTIS (GENERALIS) — what is the difference?",
+   "back": "PRAETERITI: plaintiff acted fraudulently in the past; PRAESENTIS: bringing the claim itself is a breach of faith.\n• SI IN EA RE NIHIL DOLO MALO AULI AGERII FACTUM SIT NEQUE FIAT.\n• Ex 30: Tullius knowingly took MANCIPATIO without CAUSA → PRAETERITI; realised later → PRAESENTIS.",
+   "page": 159,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "Against whom does the REI VINDICATIO lie (UBI REM MEAM INVENIO, IBI VINDICO)?",
+   "back": "Against any possessor: 'wherever I find my thing, there I vindicate it'.\n• The quirite owner's claim against a non-owner in possession.\n• Presupposes the thing still exists; destruction ends ownership.\n• Ownership is also lost when another acquires original ownership.",
+   "page": 160,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "Which remedies can prepare a REI VINDICATIO?",
+   "back": "Interdicts settle who possesses; ACTIO AD EXHIBENDUM and INTERDICTUM QUEM FUNDUM push the possessor to defend.\n• UTI POSSIDETIS (land), UTRUBI (movables): the defendant's role is better (Ex 31).\n• No duty to defend IN REM; AD EXHIBENDUM (IN PERSONAM): produce the thing in court.\n• Refusal to defend → plaintiff may seize it.",
+   "page": 160,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Procedure and REI VINDICATIO",
+   "readyBy": "2026-11-03",
+   "front": "Which possessors can be sued, and who are FICTI POSSESSORES (PRO POSSESSIONE DOLUS EST)?",
+   "back": "Possessors; and non-possessors treated as possessors because 'fraud replaces possession'.\n• Fraudulently defending without possessing, or giving up possession after LITIS CONTESTATIO.\n• D 6.1.9: Pegasus demanded interdictive possession.\n• Ulpian: any natural possessor able to restore (FACULTAS RESTITUENDI).",
+   "page": 162,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Defences and restitution",
+   "readyBy": "2026-11-03",
+   "front": "What is the principle of RESTITUERE, and which fruits must the defendant restore?",
+   "back": "The plaintiff is placed as if the thing had been returned at LITIS CONTESTATIO.\n• Fruits since LC: FRUCTUS PERCEPTI and PERCIPIENDI (NEGLECTI); Ex 32: 150, not 100.\n• Good or bad faith is irrelevant after LC.\n• Before LC: BONAE FIDEI POSSESSOR owns separated fruits; MALAE FIDEI commits FURTUM.",
+   "page": 163,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Defences and restitution",
+   "readyBy": "2026-11-03",
+   "front": "The thing perishes between LITIS CONTESTATIO and judgment — is the defendant liable?",
+   "back": "Sources diverge: three liability models that cannot be reconciled.\n• Possession-based: no longer possessor → not liable, unless DOLUS (fiction of possession).\n• RESTITUERE (Proculians): always liable — DOLUS, CULPA, even CASUS.\n• Sabinians: liable for any fault — DOLUS or CULPA.",
+   "page": 164,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Protection — Defences and restitution",
+   "readyBy": "2026-11-03",
+   "front": "Paulus D 6.1.16.1: after LITIS CONTESTATIO, B sends the vindicated ship to sea in the sailing season; it sinks. Is B liable?",
+   "back": "No — sailing in the proper season is not negligent; Paulus holds liable only for CULPA (and DOLUS).\n• Liable if he entrusted the ship to unsuitable persons: CULPA IN ELIGENDO.\n• He need not idle the ship — he owes FRUCTUS PERCIPIENDI anyway.",
+   "page": 165,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — Defences and restitution",
+   "readyBy": "2026-11-03",
+   "front": "What can a BONAE FIDEI POSSESSOR claim for his expenses against the vindicating owner?",
+   "back": "Refund of value-increasing expenses (IMPENSAE), enforced by retaining the thing (RETENTIO) until paid.\n• Procedurally: EXCEPTIO DOLI (PRAESENTIS) — the unpaid owner's claim counts as malicious.\n• D 6.1.37: building after learning the truth → no EXCEPTIO, only IUS TOLLENDI.",
+   "page": 166,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — ACTIO PUBLICIANA and ACTIO NEGATORIA",
+   "readyBy": "2026-11-03",
+   "front": "On what fiction is the ACTIO PUBLICIANA based, and how does its formula differ?",
+   "back": "The plaintiff is treated as quirite owner as if the usucaption period (1 year movables, 2 land) had elapsed.\n• Only the INTENTIO differs from the REI VINDICATIO.\n• Requires TRADITIO on a IUSTA CAUSA (model formula: purchase).",
+   "page": 168,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Protection — ACTIO PUBLICIANA and ACTIO NEGATORIA",
+   "readyBy": "2026-11-03",
+   "front": "Who can bring the ACTIO PUBLICIANA, and what must he prove?",
+   "back": "Anyone fulfilling all usucaption requirements except the elapse of time.\n• Usucapients acquiring from a non-owner or on a putative title.\n• Bonitarian owners (RES MANCIPI by TRADITIO).\n• Civil-law owners — avoids PROBATIO DIABOLICA; proof of TRADITIO on valid title suffices.",
+   "page": 169,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Protection — ACTIO PUBLICIANA and ACTIO NEGATORIA",
+   "readyBy": "2026-11-03",
+   "front": "What is the EXCEPTIO IUSTI DOMINII?",
+   "back": "The quirite owner's defence against a usucapient's ACTIO PUBLICIANA: SI EA RES NUMERII NEGIDII NON SIT.\n• If he proves his ownership, the claim fails.\n• So the usucapient stays weaker than the present owner.",
+   "page": 170,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — ACTIO PUBLICIANA and ACTIO NEGATORIA",
+   "readyBy": "2026-11-03",
+   "front": "How does the bonitarian owner prevail against the vendor who is still quirite owner?",
+   "back": "By EXCEPTIO or REPLICATIO REI VENDITAE ET TRADITAE; the vendor keeps only NUDUM IUS QUIRITIUM.\n• Vendor's REI VINDICATIO → EXCEPTIO REI VENDITAE ET TRADITAE (or EXCEPTIO DOLI).\n• Buyer's PUBLICIANA, vendor pleads IUSTI DOMINII → REPLICATIO REI VENDITAE ET TRADITAE.\n• Other IUSTA CAUSA than sale → EXCEPTIO / REPLICATIO DOLI.",
+   "page": 170,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Protection — ACTIO PUBLICIANA and ACTIO NEGATORIA",
+   "readyBy": "2026-11-03",
+   "front": "Pomponius (Iulianus) D 21.3.2: T buys S's land from Titius; Titius inherits from S, then sells and delivers it to M. Can T reclaim it?",
+   "back": "Yes — T's ACTIO PUBLICIANA against M succeeds.\n• Titius' later inheritance cures the defect: T becomes bonitarian owner (convalescence).\n• Titius keeps only NUDUM IUS QUIRITIUM: NEMO PLUS IURIS TRANSFERRE POTEST QUAM IPSE HABET.",
+   "page": 171,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Protection — ACTIO PUBLICIANA and ACTIO NEGATORIA",
+   "readyBy": "2026-11-03",
+   "front": "Unauthorised vendors sell the same thing to two buyers — who is stronger (Neratius vs Julian/Ulpian)?",
+   "back": "Neratius: the buyer who first received delivery; Julian/Ulpian (different vendors): whoever is in possession.\n• Neratius D 19.1.31.2: analogy to the owner's double sale — first TRADITIO wins.\n• Ulpianus (Iulianus) D 6.2.9.4: the antithetical view.",
+   "page": 172,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — ACTIO PUBLICIANA and ACTIO NEGATORIA",
+   "readyBy": "2026-11-03",
+   "front": "What is the ACTIO NEGATORIA for?",
+   "back": "The owner's action declaring that an alleged servitude or other right to interfere does not exist.\n• Also demands restoration of the prior state.\n• Also wards off immissions (cheese-dairy smell, steam, stone chips).\n• No right claimed → INTERDICTUM QUOD VI AUT CLAM against forcible or secret changes.",
+   "page": 173,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Protection — ACTIO PUBLICIANA and ACTIO NEGATORIA",
+   "readyBy": "2026-11-03",
+   "front": "Exegesis: a Digest fragment is about REI VINDICATIO — which questions should your interpretation address?",
+   "back": "Who claims what from whom, on which basis — then defences and restitution.\n• Plaintiff quirite owner (else ACTIO PUBLICIANA)? Defendant possessor (or FICTI POSSESSORES)?\n• EXCEPTIONES (DOLI, REI VENDITAE ET TRADITAE, IUSTI DOMINII) and REPLICATIONES?\n• Restitution: fruits, liability for destruction, expenses and RETENTIO of the BONAE FIDEI POSSESSOR.",
+   "page": 156,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-X",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "What are servitudes, and which types does Roman law distinguish?",
+   "back": "Limited rights in rem in another's property: the owner must tolerate an act or refrain from one.\n• Praedial (rural or urban) vs personal servitudes.\n• NULLI RES SUA SERVIT (Paulus D 8.2.26): no servitude in one's own property.\n• Holder acquires the burdened property → servitude ends (CONFUSIO).",
+   "page": 178,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "What does SERVITUS IN FACIENDO CONSISTERE NEQUIT mean?",
+   "back": "A servitude cannot oblige the owner to act — only to permit or to refrain.\n• Exception: IUS ONERIS FERENDI — the servient owner must keep the supporting building in repair.",
+   "page": 178,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "What is a praedial servitude?",
+   "back": "A right of the current owner of land in another's land, facilitating use of his own.\n• PRAEDIUM DOMINANS (benefitted) vs PRAEDIUM SERVIENS (burdened).\n• Tied to the land; passes with it on sale (Ex 33).\n• Modern term: easement.",
+   "page": 178,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "Name the rural praedial servitudes.",
+   "back": "Servitudes of passage, water and pasture.\n• Passage: ITER (on foot/riding), ACTUS (driving cattle), VIA (driving a vehicle).\n• Water: AQUAE DUCTUS (conducting water), AQUAE HAUSTUS (drawing water).\n• Pasture: IUS PASCENDI.",
+   "page": 179,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "Name the urban praedial servitudes.",
+   "back": "Servitudes of building, support and drainage.\n• Building: IUS ALTIUS NON TOLLENDI (no higher building), IUS LUMINIS (light, view).\n• Support: IUS TIGNI IMMITTENDI (insert a beam), IUS ONERIS FERENDI (rest one's building).\n• Drainage: IUS STILLICIDII (dripping), IUS FLUMINIS (diverting rainwater), IUS CLOACAE (sewage).",
+   "page": 179,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "Which principles limit servitudes (VICINITAS, UTILITAS, CIVILITER EXERCENDA)?",
+   "back": "The estates must adjoin and the servitude must benefit the dominant estate; exercise it considerately.\n• No mere personal pleasure, eg walks or meals (Paulus D 8.1.8 pr).\n• SERVITUS CIVILITER EXERCENDA EST: least inconvenience to the servient owner.\n• No unilateral extension: 20 sheep cannot become 40 (Ex 34).",
+   "page": 180,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "How does Paulus define USUSFRUCTUS (D 7.1.1)?",
+   "back": "USUSFRUCTUS EST IUS ALIENIS REBUS UTENDI FRUENDI SALVA RERUM SUBSTANTIA.\n• Right to use (USUS) and take fruits (FRUCTUS) of another's thing, preserving its substance.\n• Most extensive personal servitude; ends with the holder's death.\n• Ex 35: Hera may live in or rent the house, not convert it.",
+   "page": 181,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "Usufruct: which fruits belong to the usufructuary, and what must he promise the owner?",
+   "back": "The recurrent proceeds, including rent (FRUCTUS CIVILES); the substance stays untouched.\n• PARTUS ANCILLAE is no fruit → owner; the young of animals → usufructuary.\n• Herd (UNIVERSITAS RERUM): replace dead animals with young ones.\n• CAUTIO USUFRUCTUARIA: promise to use BONI VIRI ARBITRATU.",
+   "page": 181,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "Which personal servitudes exist besides usufruct, and how does usufruct differ from loan or lease?",
+   "back": "USUS, HABITATIO, and OPERAE SERVORUM or ANIMALIUM.\n• USUS: right to use only, without fruits.\n• Loan, lease, usufructuary lease: contracts enforced IN PERSONAM, not rights in rem.",
+   "page": 182,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "How is the holder of a servitude protected (VINDICATIO SERVITUTIS vs ACTIO NEGATORIA)?",
+   "back": "By interdicts modelled on the possessor's and by VINDICATIO SERVITUTIS (ACTIO CONFESSORIA), an action in rem.\n• CONFESSORIA: declares the servitude exists and demands conforming conduct.\n• NEGATORIA (owner's counterpart): declares it does not exist.\n• Usufructuary of land: INTERDICTUM UTI POSSIDETIS UTILE.",
+   "page": 183,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "What is USUCAPIO LIBERTATIS?",
+   "back": "The owner usucapts freedom from a servitude the holder does not exercise (NON USUS).\n• Period: one year for movables, two years for land.\n• Over buildings: owner must also create a contrary state, eg build higher.\n• Distinct from usucaption of a servitude (barred for praedial ones: LEX SCRIBONIA).",
+   "page": 183,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "What are 'legal servitudes'?",
+   "back": "Restrictions in favour of neighbours arising directly from statute, not from agreement.\n• Neighbour may collect fallen fruit every other day: INTERDICTUM DE GLANDE LEGENDA.\n• Based on the Twelve Tables; modern example: emergency right of way.",
+   "page": 184,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "EMPHYTEUSIS vs SUPERFICIES — what are they and how are they protected?",
+   "back": "Both alienable, hereditary rights in rem against rent: EMPHYTEUSIS to use land, SUPERFICIES to build on it.\n• Emphyteuta: almost an owner, pays yearly rent; interdicts and REI VINDICATIO UTILIS.\n• Superficiary: INTERDICTUM DE SUPERFICIEBUS; sometimes ACTIO IN FACTUM (DE SUPERFICIE).",
+   "page": 184,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Servitudes, usufruct, emphyteusis",
+   "readyBy": "2026-11-03",
+   "front": "Exegesis: a Digest fragment is about servitudes — which questions should your interpretation address?",
+   "back": "Which servitude exists, what it allows, and how its holder or the owner sues.\n• Type: praedial (rural/urban) or personal (USUSFRUCTUS, USUS)?\n• Limits: IN FACIENDO NEQUIT, UTILITAS, CIVILITER EXERCENDA, no extension; substance preserved.\n• Remedies: VINDICATIO SERVITUTIS vs ACTIO NEGATORIA; extinction by NON USUS, CONFUSIO, death.",
+   "page": 178,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XI",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Concept and creation",
+   "readyBy": "2026-11-03",
+   "front": "What is a right of pledge, and why is it valuable to the creditor?",
+   "back": "A limited right in rem: the creditor may satisfy an unpaid debt from the proceeds of the pledged thing.\n• Enforced by selling it, typically at public auction.\n• In bankruptcy: separated from the estate, no sharing with other creditors.\n• Ex 36: unsecured Labrax got 30 of 100.",
+   "page": 189,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Pledge — Concept and creation",
+   "readyBy": "2026-11-03",
+   "front": "Which types of pledge exist?",
+   "back": "By origin: contractual, judicial, statutory; by possession: possessory pledge vs non-possessory pledge (lien).\n• Possessory: extra security and publicity; pledgee's natural possession is interdict-protected.\n• Lien: the pledger keeps using the thing to earn the repayment.",
+   "page": 190,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Pledge — Concept and creation",
+   "readyBy": "2026-11-03",
+   "front": "Which other securities did Roman law know besides pledge?",
+   "back": "Personal guarantee (FIDEIUSSIO) and transfer of ownership by way of security (FIDUCIA CUM CREDITORE).\n• FIDEIUSSIO: guarantor liable with all his assets — an obligation, not a right in rem.\n• FIDUCIA: creditor becomes owner, must reconvey on payment (a trust).\n• Actions: ACTIO FIDUCIAE DIRECTA (debtor) / CONTRARIA (creditor).",
+   "page": 191,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Concept and creation",
+   "readyBy": "2026-11-03",
+   "front": "What three meanings does PIGNUS have, and how do the right and the contract of pledge arise?",
+   "back": "The pawn itself, the right in rem (right of pledge), and the real contract of pledge.\n• Right of pledge: arises by CONVENTIO PIGNORIS, no delivery needed.\n• Contract of pledge: real contract, arises on delivery to the pledgee.\n• Lien: contract arises only once the pledgee obtains possession.",
+   "page": 192,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "znaky",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Concept and creation",
+   "readyBy": "2026-11-03",
+   "front": "What are the requirements of a right of pledge as a right in rem?",
+   "back": "A secured monetary claim, the pledger's ownership or power of disposal, and a CONVENTIO PIGNORIS.\n• Accessorial: no valid claim, no pledge; it ends with the debt.\n• Bonitarian ownership suffices; else NEMO PLUS IURIS; later acquisition → convalescence.\n• CONVENTIO PIGNORIS = conveyance; fixes the pledged assets and secured debts.",
+   "page": 192,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Concept and creation",
+   "readyBy": "2026-11-03",
+   "front": "What is the ACTIO PIGNERATICIA IN REM?",
+   "back": "The pledgee's action in rem (VINDICATIO PIGNORIS) for the pledged thing against any possessor, pledger included.\n• Also called ACTIO SERVIANA, QUASI SERVIANA, HYPOTHECARIA.\n• Third party failing to restore pays full value; surplus (SUPERFLUUM) goes to the pledger.\n• Possessory pledgee vs pledger's REI VINDICATIO: EXCEPTIO PIGNERATICIA.",
+   "page": 194,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Pledge — Concept and creation",
+   "readyBy": "2026-11-03",
+   "front": "ACTIO PIGNERATICIA IN PERSONAM DIRECTA vs CONTRARIA — who sues for what?",
+   "back": "DIRECTA: pledger reclaims the thing or the surplus; CONTRARIA: pledgee claims damages and expenses.\n• DIRECTA: return once the debt ends; after sale, the SUPERFLUUM (HYPEROCHA).\n• CONTRARIA: eg a sick cow infects the pledgee's calf (Ex 37).\n• CONTRARIA also when the pledger delivered a thing without valid pledge.",
+   "page": 195,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Pledge — Alienation, enforcement, termination",
+   "readyBy": "2026-11-03",
+   "front": "The pledger alienates the pledged thing WITH the creditor's consent — what happens?",
+   "back": "Unreserved consent = waiver: the pledge ends, the buyer gets unburdened ownership.\n• Consent reserving the pledge: buyer's ownership stays burdened (NEMO PLUS IURIS).\n• Marcianus D 20.6.8.14: allowed to sell for 10, sold for 5 → no waiver.\n• The claim against the debtor is unaffected.",
+   "page": 196,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Alienation, enforcement, termination",
+   "readyBy": "2026-11-03",
+   "front": "The pledger alienates the pledged thing WITHOUT the creditor's consent — what happens?",
+   "back": "The pledge survives: the creditor can demand the thing from any possessor.\n• Knowingly selling a movable = FURTUM; the buyer likely gets mere possession.\n• No FURTUM (good faith, or land): buyer presumably owner, burdened with the pledge.\n• The pledge ends only on destruction (or SPECIFICATIO).",
+   "page": 197,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Alienation, enforcement, termination",
+   "readyBy": "2026-11-03",
+   "front": "How is a pledge enforced?",
+   "back": "On default the creditor sells the thing, usually at public auction, and keeps what covers the debt.\n• Tacit PACTUM DE VENDENDO (DISTRAHENDO); prior notice (DENUNTIATIO).\n• LEX COMMISSORIA (creditor keeps the thing) fell out of use; banned 320 AD.\n• Sale ends all pledges; shortfall stays owed; juniors claim surplus by ACTIO UTILIS.",
+   "page": 198,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Alienation, enforcement, termination",
+   "readyBy": "2026-11-03",
+   "front": "What is RES ALIENA PIGNORI DATA, and when does such a pledge convalesce?",
+   "back": "Pledging another's thing without authority gives no valid pledge.\n• Pledger later becomes owner → pledge convalesces retroactively (Paulus D 13.7.41, case 1).\n• Remedy: ACTIO PIGNERATICIA (IN REM) UTILIS — formula requires ownership at pledging.\n• Under the real contract, the pledgee may demand a valid pledge (CONTRARIA).",
+   "page": 199,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Pledge — Alienation, enforcement, termination",
+   "readyBy": "2026-11-03",
+   "front": "Titius pledges E's thing without authority, dies, and E becomes his heir — does the pledge convalesce (Paulus vs Modestinus)?",
+   "back": "Paulus (D 13.7.41): no; Modestinus (D 20.1.22): yes, via ACTIO PIGNERATICIA (IN REM) UTILIS.\n• Paulus: owner's autonomy — E never meant to burden his property.\n• Modestinus: creditor's protection; the heir may be enriched and inherits the debt.",
+   "page": 200,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Alienation, enforcement, termination",
+   "readyBy": "2026-11-03",
+   "front": "On which grounds does a right of pledge end before enforcement?",
+   "back": "The debt ends, waiver, CONFUSIO, or the pledged thing ceases to exist.\n• Debt paid, acquitted or set off; until then INDIVISA EST PIGNORIS CAUSA.\n• Waiver, incl. consent to alienation; CONFUSIO: the creditor becomes owner.\n• Destruction or SPECIFICATIO (wood → ship, D 13.7.18.3); USUCAPIO does not end it.",
+   "page": 201,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 1,
+   "topic": "03.11. Pledge — Alienation, enforcement, termination",
+   "readyBy": "2026-11-03",
+   "front": "Paulus D 20.1.29.2: a pledged house burns down; Lucius Titius buys the land unaware of the pledge and builds. Does the pledge survive?",
+   "back": "Yes — the pledge covered house and land (SUPERFICIES SOLO CEDIT), so it persists in land and new house.\n• The creditors bring VINDICATIO PIGNORIS against Lucius Titius.\n• He has EXCEPTIO DOLI: retains until reimbursed the value increase from building.",
+   "page": 202,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Pledge — Alienation, enforcement, termination",
+   "readyBy": "2026-11-03",
+   "front": "What is a blanket lien, and what did Scaevola decide about a pledged shop (TABERNA)?",
+   "back": "A lien over the pledger's whole present and future property; an aggregate (UNIVERSITAS RERUM) is pledgeable as one.\n• Excluded: household items, clothing, personally close slaves.\n• D 20.1.34 pr: goods in the shop at death; sold goods are freed.\n• D 20.1.34.2: borrowed coins fall under the blanket lien.",
+   "page": 204,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Tacit liens and priority",
+   "readyBy": "2026-11-03",
+   "front": "What is a PIGNUS TACITUM?",
+   "back": "A lien implied in certain contracts without an explicit pledge agreement (D 20.2).\n• Residential lease: the tenant's INVECTA ILLATA; agricultural lease: the fruits.\n• IUS DISPOSITIVUM, not IUS COGENS — the parties may exclude it.",
+   "page": 206,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "rozliseni",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Pledge — Tacit liens and priority",
+   "readyBy": "2026-11-03",
+   "front": "Tacit lien in a residential lease vs an agricultural lease — what differs?",
+   "back": "Landlord: lien over INVECTA ILLATA with self-help seizure; agricultural lessor: lien over fruits, via VINDICATIO PIGNORIS.\n• INVECTA ILLATA: movables brought in to stay; secures rent and damages.\n• The tenant reclaims impounded things by INTERDICTUM DE MIGRANDO.\n• Lessee's own movables only if explicitly pledged → INTERDICTUM SALVIANUM.",
+   "page": 207,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Pledge — Tacit liens and priority",
+   "readyBy": "2026-11-03",
+   "front": "What are statutory liens? Give examples.",
+   "back": "Liens arising directly from statute or the law as a whole, often as blanket liens.\n• Loan for renovating a building (SENATUS CONSULTUM under Marcus Aurelius).\n• Fiscal claims; ward over the guardian's property; wife for return of the DOS.",
+   "page": 209,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "norma",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Tacit liens and priority",
+   "readyBy": "2026-11-03",
+   "front": "What does PRIOR TEMPORE, POTIOR IURE mean for multiple pledges?",
+   "back": "'Earlier in time, stronger in law': rank follows order of creation; the senior is satisfied first and fully.\n• Multiple liens allowed since the high classical period, to use surplus value.\n• Ex 38: proceeds 1.000 → Europa 500, Pluto 400, Nike 100.\n• Proceeds 800 → Europa 500, Pluto only 300.",
+   "page": 210,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1",
+    "latin"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "pripad",
+   "level": 2,
+   "priority": 2,
+   "topic": "03.11. Pledge — Tacit liens and priority",
+   "readyBy": "2026-11-03",
+   "front": "Africanus D 20.4.9 pr: A leases a bath from 1 July and pledges slave Eros to the lessor; before 1 July he pledges Eros to lender C. Who ranks first?",
+   "back": "The lessor — his pledge dates from the earlier contract, not from the start of the lease.\n• D 20.4.9.1: a pledge for a conditional claim ranks by its creation date.\n• If the condition fails, the pledge ends (accessoriality).",
+   "page": 211,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Pledge — Tacit liens and priority",
+   "readyBy": "2026-11-03",
+   "front": "How do pledgees assert their rank in court?",
+   "back": "By EXCEPTIO and REPLICATIO REI SIBI ANTE PIGNERATAE ('pledged to me earlier').\n• Senior possessor vs junior's VINDICATIO PIGNORIS: EXCEPTIO REI SIBI ANTE PIGNERATAE.\n• Same rank: MELIOR EST CAUSA POSSIDENTIS — EXCEPTIO REI SIBI QUOQUE PIGNERATAE.\n• Junior possessor pleads QUOQUE; senior replies REPLICATIO REI SIBI ANTE PIGNERATAE.",
+   "page": 212,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Tacit liens and priority",
+   "readyBy": "2026-11-03",
+   "front": "What is the IUS OFFERENDI AC SUCCEDENDI?",
+   "back": "A junior pledgee may pay off a senior one and step into his rank.\n• The most senior decides when to sell.\n• Ex 38: Pluto pays Europa 500 → senior rank for 500, plus his 400.\n• Tryphoninus D 20.4.20: S's pledge in the HYPEROCHA beats T's later loan.",
+   "page": 213,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Pledge — Tacit liens and priority",
+   "readyBy": "2026-11-03",
+   "front": "Which exceptions break the principle of priority?",
+   "back": "Privileged statutory liens, loans preserving or improving the thing, and agreed succession on refinancing.\n• Statutory privilege: ward's, wife's (DOS) and fiscal liens.\n• Repair loan ranks first — it raised the value (Ex 39; Ulpianus D 20.4.5).\n• Conversion: the new creditor takes the old rank; juniors are unaffected.",
+   "page": 214,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p2"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Pledge — Concept and creation",
+   "readyBy": "2026-11-03",
+   "front": "Exegesis: a Digest fragment is about pledge — which questions should your interpretation address?",
+   "back": "Was a valid pledge created, does it still exist, and who enforces it against whom?\n• Creation: secured claim (accessoriality), pledger's ownership/disposal, CONVENTIO PIGNORIS and its scope.\n• Survival: alienation with/without consent, destruction, SPECIFICATIO, convalescence.\n• Remedies and rank: VINDICATIO PIGNORIS, EXCEPTIO DOLI, PRIOR TEMPORE, IUS OFFERENDI.",
+   "page": 189,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XII",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Writing an exegesis",
+   "readyBy": "2026-11-03",
+   "front": "What is an exegesis, and what does it train?",
+   "back": "Explaining a Roman source text — usually a classical jurist's decision in the Digest — and giving reasons for it.\n• Trains interpreting a text and justifying a pre-existing decision.\n• Shows your knowledge of Roman law.\n• Unlike case solving, the decision is already given.",
+   "page": 260,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XV",
+    "p2",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Writing an exegesis",
+   "readyBy": "2026-11-03",
+   "front": "What is the outline of an exam exegesis?",
+   "back": "Four parts: facts of the case, legal question, the jurist's decision, interpretation.\n• Keep the first three brief; infer facts the jurist tacitly assumes.\n• The interpretation is the main part.\n• Scholarly version adds text, translation and INSCRIPTIO.",
+   "page": 260,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XV",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Writing an exegesis",
+   "readyBy": "2026-11-03",
+   "front": "What should go into the interpretation of an exegesis?",
+   "back": "A dogmatic classification of the decision and the values behind it.\n• Institution and terms; who wants what from whom, on which legal basis.\n• Remedy, claimant/defendant, EXCEPTIONES, REPLICATIONES.\n• Related cases, juristic controversies, the parties' interests.",
+   "page": 262,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XV",
+    "p1",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "definice",
+   "level": 1,
+   "priority": 2,
+   "topic": "03.11. Writing an exegesis",
+   "readyBy": "2026-11-03",
+   "front": "What does the INSCRIPTIO 'D 20.1.29.2 PAULUS LIBRO QUINTO RESPONSORUM' tell you?",
+   "back": "Digest book 20, title 1, fragment 29, paragraph 2 — from book 5 of Paulus' RESPONSA.\n• Paulus: a late classical jurist.\n• A RESPONSUM already gives facts, question and decision.",
+   "page": 264,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XV",
+    "p2",
+    "exegese"
+   ]
+  },
+  {
+   "type": "basic",
+   "kind": "schema",
+   "level": 1,
+   "priority": 1,
+   "topic": "03.11. Writing an exegesis",
+   "readyBy": "2026-11-03",
+   "front": "Model exegesis of D 20.1.29.2: what is the point of Paulus' decision?",
+   "back": "The pledge survives the fire and covers the new building, but the bona fide builder is reimbursed.\n• House pledge includes the land (SUPERFICIES SOLO CEDIT); sale without consent is no waiver.\n• VINDICATIO PIGNORIS vs EXCEPTIO DOLI (retention); MALAE FIDEI builder: only IUS TOLLENDI.\n• Balances the creditor's security against the builder's added value.",
+   "page": 264,
+   "tags": [
+    "roman-property-kompakt",
+    "kap-XV",
+    "p1",
+    "exegese"
+   ]
+  }
+ ]
+}

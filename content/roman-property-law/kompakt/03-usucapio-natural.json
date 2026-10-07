@@ -1,0 +1,893 @@
+{
+  "part": "VIII-IX",
+  "cards": [
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — Functions and form defects",
+      "readyBy": "2026-10-28",
+      "front": "What is USUCAPIO (usucaption) and what does it achieve?",
+      "back": "Acquisition of civil-law ownership through uninterrupted qualified possession over a statutory period.\n• Original acquisition: the former owner loses his right\n• Prevents a permanent separation of possession and ownership\n• Rewards the good-faith possessor once the time has elapsed",
+      "page": 99,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — Functions and form defects",
+      "readyBy": "2026-10-28",
+      "front": "Which three forms of USUCAPIO does the textbook distinguish by function?",
+      "back": "Usucaption curing (1) a form defect, (2) a legal deficiency of the transferor, (3) a dormant inheritance.\n• (1) RES MANCIPI conveyed without MANCIPATIO or IN IURE CESSIO\n• (2) e.g. transferor not owner, or lacking capacity\n• (3) USUCAPIO PRO HEREDE: overt taking, then one year's possession",
+      "page": 99,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — Functions and form defects",
+      "readyBy": "2026-10-28",
+      "front": "In which two typical situations does a form defect lead to usucaption?",
+      "back": "Occupation of an ownerless RES MANCIPI, and simple TRADITIO (delivery) of a RES MANCIPI by the owner with IUSTA CAUSA.\n• Acquirer first becomes only bonitarian owner\n• Civil-law ownership after one year (movables) or two years (land)\n• Meanwhile transferor keeps the bare NUDUM IUS QUIRITIUM",
+      "page": 100,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — Functions and form defects",
+      "readyBy": "2026-10-28",
+      "front": "Bonitarian owner vs. mere usucapient — why is not every usucapient a bonitarian owner?",
+      "back": "Only someone who received a RES MANCIPI from an authorised person (mere form defect) becomes bonitarian owner.\n• Acquirer from an unauthorised vendor is merely a usucapient\n• Bonitarian owner has in substance the strongest right\n• His action: ACTIO PUBLICIANA (civil owner: REI VINDICATIO)",
+      "page": 100,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "Which three categories of legal deficiency relating to the transferor can USUCAPIO cure?",
+      "back": "Lack of ownership or authority, lack of transactional capacity, and lack of a valid CAUSA (legal ground).\n• (a) transferor neither owner nor authorised to dispose\n• (b) PUPILLUS, FURIOSUS, PRODIGUS acting without guardian\n• (c) capable parties but no valid causal agreement",
+      "page": 101,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "norma",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "What does NEMO PLUS IURIS TRANSFERRE POTEST QUAM IPSE HABET mean for a TRADITIO by a non-owner?",
+      "back": "Nobody can transfer more rights than he has: the transferee gets possession, not ownership.\n• Applies where the transferor lacked ownership or authority of disposal\n• USUCAPIO can cure this defect over time",
+      "page": 101,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p2",
+        "latin"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "Why does acquisition from a PUPILLUS, FURIOSUS or PRODIGUS without the guardian's consent fail?",
+      "back": "They own the thing but lack transactional capacity, so there is no IUSTA CAUSA TRADITIONIS.\n• PRODIGUS: spendthrift barred by the praetor from alienating\n• NEGOTIUM CLAUDICANS: the part conferring rights on them stays valid\n• A buyer unaware of the incapacity may usucapt",
+      "page": 101,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "norma",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "Which five requirements must USUCAPIO for a legal deficiency meet, as the textbook names them?",
+      "back": "RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS.\n• RES HABILIS = thing capable of usucaption; TITULUS = legal title\n• BONA FIDES = good faith; POSSESSIO = possession\n• TEMPUS = period of time prescribed by law",
+      "page": 102,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1",
+        "latin"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "Which things are not RES HABILIS, i.e. cannot be usucapted?",
+      "back": "Things outside private commerce and stolen goods; later also things obtained by force.\n• RES EXTRA COMMERCIUM: RES PUBLICAE (market square), RES DIVINI IURIS (temple)\n• RES FURTIVAE (stolen goods): barred by the LEX ATINIA\n• LEGES IULIAE ET PLAUTIAE: things taken by force, including land",
+      "page": 102,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "What is the IUSTA CAUSA USUCAPIONIS?",
+      "back": "A title that would have conferred ownership had the thing come from an authorised transferor.\n• Equivalent to the IUSTA CAUSA TRADITIONIS of derivative acquisition\n• Largely dispensed with: acquisition from incapable persons, putative titles",
+      "page": 103,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "What is a putative title, and how do Roman jurists view it?",
+      "back": "An apparent CAUSA the acquirer wrongly believes valid; jurists disagree whether it suffices.\n• Strict: valid IUSTA CAUSA required (Ulpian D 41.3.27)\n• Middle: rejected for sale, accepted otherwise (PRO DOTE, PRO SUO)\n• Liberal: excusable error (TOLERABILIS ERROR) suffices even for sale",
+      "page": 103,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "What is the content of the usucapient's BONA FIDES (good faith)?",
+      "back": "A mistake about facts at acquisition, e.g. not knowing the transferor lacks ownership, authority or capacity.\n• A legal error (error of law) excludes BONA FIDES\n• Only concrete knowledge is MALA FIDES; mere doubts do not harm\n• No duty to investigate (modern law: no negligence)",
+      "page": 104,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "norma",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "What does MALA FIDES SUPERVENIENS NON NOCET mean for USUCAPIO?",
+      "back": "Bad faith arising later does no harm: BONA FIDES is needed only at the moment of acquisition.\n• Re-acquired possession requires fresh BONA FIDES\n• Disputed for fruits: Pomponius/Paulus vs Julian",
+      "page": 105,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1",
+        "latin"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 2,
+      "priority": 2,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "Paulus D 41.4.2.15 (Case 86): two buyers from a minor without his tutor — one thinks him of age, one thinks minors may alienate. Who can usucapt?",
+      "back": "Only the first buyer: he errs about facts, the second errs about law.\n• Factual error (age) → BONA FIDES, usucaption possible\n• Legal error (minors' capacity) → no usucaption",
+      "page": 106,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "Which requirements does USUCAPIO place on POSSESSIO?",
+      "back": "Possession must be unflawed (IUSTA POSSESSIO: not VI, CLAM, PRECARIO) and uninterrupted for the whole period.\n• Mediate possession through a detentor suffices\n• Loss ends usucaption; regained possession restarts it\n• Meanwhile: ACTIO PUBLICIANA to recover possession",
+      "page": 107,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "How long is the TEMPUS, and does a predecessor's possession count?",
+      "back": "One year for movables, two years for immovables, counted from acquiring possession.\n• A buyer must start anew (ACCESSIO TEMPORIS only post-classical)\n• Heirs continue the deceased's usucaption (SUCCESSIO IN POSSESSIONEM)\n• Heirs need not be BONA FIDE",
+      "page": 108,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — RES HABILIS, TITULUS, BONA FIDES, POSSESSIO, TEMPUS",
+      "readyBy": "2026-10-28",
+      "front": "Exegesis: a Digest fragment is about USUCAPIO — which questions should your interpretation address?",
+      "back": "First ask why derivative acquisition failed, then test the five requirements.\n• Form defect or legal deficiency (ownership, capacity, CAUSA)?\n• RES HABILIS (LEX ATINIA, REVERSIO)? Valid TITULUS or putative title?\n• BONA FIDES at acquisition (fact vs law)? Unflawed POSSESSIO, TEMPUS complete?",
+      "page": 102,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1",
+        "exegese"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. USUCAPIO — LEX ATINIA and modern bona fide acquisition",
+      "readyBy": "2026-10-28",
+      "front": "What does the LEX ATINIA provide?",
+      "back": "Stolen goods (RES FURTIVAE) cannot be usucapted until they return into the owner's POTESTAS (power).\n• Binds the thief and all later acquirers, even in good faith\n• Not for land, which cannot be stolen\n• Blemish removed by REVERSIO IN POTESTATEM",
+      "page": 108,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. USUCAPIO — LEX ATINIA and modern bona fide acquisition",
+      "readyBy": "2026-10-28",
+      "front": "When has a REVERSIO IN POTESTATEM occurred?",
+      "back": "When the owner regains immediate custody of the stolen thing and recognises it as his own.\n• Not enough: recovery via a steward, or return to the detentor\n• Furtivity also ends if owner receives its value (Case 79)\n• Afterwards a BONA FIDE acquirer may usucapt",
+      "page": 108,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "28.10. USUCAPIO — LEX ATINIA and modern bona fide acquisition",
+      "readyBy": "2026-10-28",
+      "front": "Pledgor A steals his pledged thing back from creditor B — can it now be usucapted (Cases 74, 75)?",
+      "back": "Disputed: Cassius/Paulus say yes, Labeo only after its return to the pledgee.\n• Case 74: thing is back in the owner's POTESTAS, though A is FUR\n• Case 75: pledgee's right weighs more; owner's theft blocks usucaption",
+      "page": 109,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "28.10. USUCAPIO — LEX ATINIA and modern bona fide acquisition",
+      "readyBy": "2026-10-28",
+      "front": "Roman USUCAPIO vs. modern bona fide acquisition — what is the difference?",
+      "back": "Both protect trust in honest dealings, but bona fide acquisition gives ownership immediately, without TEMPUS.\n• Acquirer from an unauthorised vendor gets original ownership\n• Mainly movables (Austria: land only via register or usucaption)",
+      "page": 110,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. USUCAPIO — LEX ATINIA and modern bona fide acquisition",
+      "readyBy": "2026-10-28",
+      "front": "What are the typical requirements of modern bona fide acquisition?",
+      "back": "Good faith without negligence, unflawed possession and usually a valid title, mainly for movables.\n• Often consideration required (§ 367 ABGB)\n• Privileged: public auction, businessman's ordinary course, entrusted goods\n• Registered movables (ships, cars) may be excluded (Art 1156 Codice civile)",
+      "page": 111,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "28.10. USUCAPIO — LEX ATINIA and modern bona fide acquisition",
+      "readyBy": "2026-10-28",
+      "front": "Stolen goods: how does modern law differ from Roman law and the LEX ATINIA?",
+      "back": "Rome treats stolen goods as RES INHABILES; modern systems sometimes allow their bona fide acquisition.\n• ABGB: first two cases of § 367 (auction, businessman)\n• BGB § 935(2): only auction, money, bearer bonds\n• Owner may reclaim: ZGB five years, Code civil three years",
+      "page": 114,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-VIII",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "What is OCCUPATIO, and which things can be acquired by it?",
+      "back": "Taking possession of a RES NULLIUS (ownerless thing); an original mode of acquisition.\n• Originally ownerless things: wild animals, pearls from the seabed\n• RES DERELICTAE (intentionally abandoned things)\n• Treasure-trove (THESAURUS), according to the prevailing opinion",
+      "page": 126,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "What does OCCUPATIO of wild animals require, and when is ownership lost?",
+      "back": "Open and secure possession, certainly given when the captor has direct physical control.\n• Animal regains natural freedom → possession and ownership lost\n• Enclosure or fish basin: owned; fenced forest or pond: not (Case 95)",
+      "page": 126,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "What is the CONSUETUDO REVERTENDI?",
+      "back": "The habit of returning: a tamed wild animal stays owned while it habitually returns.\n• Habit lost → animal wild and ownerless again\n• Swarming bees are wild; a returning bee or pigeon is owned\n• Irrelevant for pets: runaway pets are not ownerless",
+      "page": 126,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "When is a thing derelinquished (RES DERELICTA), and what about goods jettisoned at sea?",
+      "back": "When the owner abandons it intending to give up possession and ownership; anyone may then occupy it.\n• Jettison in an emergency: at first only possession is lost\n• In doubt, no dereliction\n• Classical: occupied RES MANCIPI yields only bonitarian ownership",
+      "page": 126,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "Can the finder of lost property acquire ownership by OCCUPATIO or USUCAPIO?",
+      "back": "No: lost but not abandoned property is not ownerless.\n• Finder must give public notice to escape suspicion of FURTUM (theft)\n• No usucaption: no IUSTA CAUSA, usually no BONA FIDES",
+      "page": 128,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "What is a THESAURUS (treasure-trove), and who owns it according to the different opinions?",
+      "back": "A valuable object hidden so long that its owner can no longer be traced.\n• Sabinians (prevailing): RES NULLIUS, acquired by OCCUPATIO\n• Proculians: aware landowner acquires by possessory intent; older view: ACCESSIO\n• Hadrian: half to the finder, half to the landowner",
+      "page": 128,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "What are fruits (FRUCTUS), and which kinds exist?",
+      "back": "Recurring goods or income derived from a thing without diminishing its substance.\n• FRUCTUS NATURALES (milk, wool, eggs) and FRUCTUS CIVILES (rent)\n• Animal offspring is a fruit; PARTUS ANCILLAE (slave's child) is not\n• Before separation: dependent part of the fruit-bearing thing",
+      "page": 128,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "Who acquires fruits, and at which moment?",
+      "back": "Owner, bona fide possessor and EMPHYTEUTA (hereditary lessee) acquire at SEPARATIO; usufructuary and lessee only at PERCEPTIO.\n• SEPARATIO = fruit detached from the fruit-bearing thing\n• PERCEPTIO = gathering, i.e. taking possession\n• Default rule: the owner acquires upon separation",
+      "page": 129,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "How and why does the BONAE FIDEI POSSESSOR acquire fruits?",
+      "back": "At SEPARATIO, originally and free of liens, as a reward for his good faith and investment.\n• He wrongly believes himself to be the owner\n• Thief gets no wool from stolen sheep; bona fide buyer does (Case 104)",
+      "page": 129,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "A usucapient later learns the truth — does he still acquire fruits? (Pomponius/Paulus vs Julian)",
+      "back": "Disputed: Pomponius and Paulus say no, Julian says yes until eviction.\n• Pomponius/Paulus: usucaption continues (MALA FIDES SUPERVENIENS NON NOCET), fruits stop\n• Julian: good faith at acquisition covers both until the owner sues",
+      "page": 129,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "28.10. Natural modes — OCCUPATIO and fruits",
+      "readyBy": "2026-10-28",
+      "front": "Usufructuary and usufructuary lessee: who owns fruits between SEPARATIO and PERCEPTIO?",
+      "back": "The owner of the fruit-bearing thing; usufructuary and lessee acquire only by PERCEPTIO.\n• Only the owner can vindicate fruits taken by third parties\n• Usufructuary: VINDICATIO USUSFRUCTUS; lessee: ACTIO CONDUCTI against lessor\n• Lessee's acquisition is derivative (Example 26)",
+      "page": 130,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "norma",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "What does ACCESSIO CEDIT PRINCIPALI mean?",
+      "back": "The addition follows the main thing: its owner acquires the inseparably connected addition.\n• He must compensate the former owner of the addition\n• Good or bad faith of the connector irrelevant in rem\n• Owners may agree otherwise, e.g. co-ownership",
+      "page": 132,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1",
+        "latin"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "Inseparable vs. severable connection — what is the difference and the consequence?",
+      "back": "Inseparable if separation causes considerable damage or disproportionate effort; only then ownership passes.\n• Interpenetration test: welding inseparable, soldering severable\n• A tree is inseparable once it draws nutrients from the soil\n• Severable: rights unaffected; ACTIO AD EXHIBENDUM, then REI VINDICATIO",
+      "page": 132,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "How do Roman jurists decide which thing is the main component?",
+      "back": "By whether it can be claimed on its own by REI VINDICATIO, and by the nature of things.\n• Writing cannot exist alone: it follows the parchment\n• Statue with a welded arm: the statue is main\n• Value and labour irrelevant (purple dye on wool)",
+      "page": 133,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "Which remedies has someone who lost ownership through ACCESSIO or SPECIFICATIO?",
+      "back": "A claim for compensation against the new owner, or a defence if he still possesses.\n• Good faith: ACTIO IN FACTUM (praetorian action describing the facts)\n• Bad faith or theft: CONDICTIO FURTIVA\n• In possession: EXCEPTIO DOLI against REI VINDICATIO until compensated",
+      "page": 134,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 2,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "Gai. 2.78 (Case 111): C paints on D's wooden panel (TABULA PICTA). Who owns the picture?",
+      "back": "The painter: high-classical opinion lets the artistic contribution prevail, an exception to ACCESSIO CEDIT PRINCIPALI.\n• Contrast: writing on another's parchment belongs to its owner (Case 110)\n• Panel owner: EXCEPTIO DOLI, ACTIO UTILIS\n• Gaius disagrees; late classical law treats painting like writing",
+      "page": 136,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 2,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "Paulus D 6.1.23.5 (Case 113): F's metal arm is soldered or welded to E's statue. Who owns the arm?",
+      "back": "Soldered (ADPLUMBATIO): F keeps it; welded (FERRUMINATIO): E acquires it as owner of the main thing.\n• Soldering: ACTIO AD EXHIBENDUM, then REI VINDICATIO\n• Welding: F gets an ACTIO IN FACTUM for compensation\n• If the arm later breaks off, it stays E's",
+      "page": 136,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "norma",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "What does SUPERFICIES SOLO CEDIT mean?",
+      "back": "What is firmly connected to land (SUPERFICIES) follows the legal fate of the land (SOLUM).\n• Land is always the main component\n• Historical origin of ACCESSIO CEDIT PRINCIPALI\n• Covers IMPLANTATIO, SATIO, ALLUVIO, AEDIFICATIO",
+      "page": 137,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1",
+        "latin"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "znaky",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "Which cases of accession of movables to land does the textbook list?",
+      "back": "IMPLANTATIO (planting), SATIO (sowing), ALLUVIO/AVULSIO (deposits) and AEDIFICATIO (building): the landowner acquires.\n• Plant once it has taken root; seed once sown\n• Deposits once firmly attached by a natural process\n• Building only if on a fundament (movable granary stays builder's, Case 106)",
+      "page": 138,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "Why is AEDIFICATIO (building a house) an exception among accession cases?",
+      "back": "Land and building form one entity, yet the materials remain a severable, latent accession.\n• No ACTIO AD EXHIBENDUM to separate the materials\n• DOMINIUM DORMIENS (dormant ownership) revives on demolition, ends with compensation\n• Unlike SATIO/IMPLANTATIO, where acquisition is irrevocable",
+      "page": 138,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "Someone knowingly builds with his own materials on another's land — what can he claim?",
+      "back": "No compensation, as he deserves no protection; he only has the IUS TOLLENDI.\n• IUS TOLLENDI = right to remove (parts of) the building\n• Only if this does not disadvantage the landowner",
+      "page": 139,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 2,
+      "priority": 1,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "Celsus D 6.1.38 (Case 107): F in good faith buys land from a non-owner, sows and builds; owner E vindicates. Result?",
+      "back": "E gets the land but must reimburse F's expenses, at most the increase in value.\n• Poor owner: F gets IUS TOLLENDI; E may pay the removal value instead\n• NEQUE MALITIIS INDULGENDUM EST: no removal merely to destroy (chicanery)",
+      "page": 139,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. Natural modes — ACCESSIO",
+      "readyBy": "2026-10-28",
+      "front": "What is the ACTIO DE TIGNO IUNCTO?",
+      "back": "Action against someone who builds on his own land with another's materials: he pays double (DUPLUM) their value.\n• Only this constellation, not building on another's land\n• Unclear: penal (owner keeps materials) or reipersecutory (ownership passes)",
+      "page": 140,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — CONFUSIO, COMMIXTIO, SPECIFICATIO",
+      "readyBy": "2026-10-28",
+      "front": "CONFUSIO (blending) or COMMIXTIO (mixing) without the owners' consent — what happens to ownership?",
+      "back": "Ownership continues: each owner claims his share by VINDICATIO PRO PARTE.\n• Share by quantity or value (e.g. gold alloyed with copper)\n• No ACTIO AD EXHIBENDUM and no compensation remedies needed",
+      "page": 141,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 2,
+      "topic": "28.10. Natural modes — CONFUSIO, COMMIXTIO, SPECIFICATIO",
+      "readyBy": "2026-10-28",
+      "front": "Mixing without consent vs. mixing by mutual consent — which remedy?",
+      "back": "Without consent: VINDICATIO PRO PARTE; with consent: COMMUNIO (co-ownership), dissolved by ACTIO COMMUNI DIVIDUNDO.\n• After division each owner vindicates his allotted share",
+      "page": 142,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 2,
+      "topic": "28.10. Natural modes — CONFUSIO, COMMIXTIO, SPECIFICATIO",
+      "readyBy": "2026-10-28",
+      "front": "A mixes B's coins indistinguishably with his own — who owns the money?",
+      "back": "A acquires sole, original ownership, even as a thief.\n• Reason: flexible cash management; coins are hard to trace\n• B: unjust-enrichment CONDICTIO, or CONDICTIO FURTIVA against a thief\n• With good-faith spending: NUMMOS CONSUMERE (using up coins)",
+      "page": 142,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p2"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "definice",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — CONFUSIO, COMMIXTIO, SPECIFICATIO",
+      "readyBy": "2026-10-28",
+      "front": "What is SPECIFICATIO (transformation)?",
+      "back": "Creative transformation of another's object into a thing of a different nature.\n• Product looks different and usually bears a different name\n• Key question: is identity determined by material or by form?",
+      "page": 143,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "28.10. Natural modes — CONFUSIO, COMMIXTIO, SPECIFICATIO",
+      "readyBy": "2026-10-28",
+      "front": "Transformation vs. processing vs. accession — examples with Titus' wool?",
+      "back": "Making clothes = SPECIFICATIO; cleaning = processing; dyeing with one's own purple = ACCESSIO.\n• Processing: no substantial change, no effect on ownership\n• Dyed wool stays Titus' (accession)",
+      "page": 143,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "rozliseni",
+      "level": 2,
+      "priority": 1,
+      "topic": "28.10. Natural modes — CONFUSIO, COMMIXTIO, SPECIFICATIO",
+      "readyBy": "2026-10-28",
+      "front": "Sabinians vs. Proculians on SPECIFICATIO — who owns the new product and why?",
+      "back": "Sabinians: the owner of the material; Proculians: the maker, who occupies a new RES NULLIUS.\n• Sabinians: MATERIA MANENS — SINE MATERIA NULLA SPECIES EFFICI POSSIT\n• Proculians: form decides — QUOD FACTUM EST, ANTEA NULLIUS FUERAT",
+      "page": 144,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1",
+        "latin"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "norma",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — CONFUSIO, COMMIXTIO, SPECIFICATIO",
+      "readyBy": "2026-10-28",
+      "front": "What does the MEDIA SENTENTIA on SPECIFICATIO say (Gaius D 41.1.7.7)?",
+      "back": "Reversible transformation: owner of the material (Sabinian); irreversible: the maker acquires originally (Proculian).\n• Reversibility judged abstractly (metal can be melted down)\n• Maker includes one acting ALIENO NOMINE (in his name)\n• Not if done by mutual consent (LOCATIO CONDUCTIO OPERIS)",
+      "page": 144,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "pripad",
+      "level": 2,
+      "priority": 1,
+      "topic": "28.10. Natural modes — CONFUSIO, COMMIXTIO, SPECIFICATIO",
+      "readyBy": "2026-10-28",
+      "front": "Gaius D 41.1.7.7 (Case 120): vessel from B's metal, ship from planks, wine from grapes, threshed corn — who owns?",
+      "back": "Metal vessel: owner of the metal (reversible); ship, clothes, mead, salve, oil, wine: the maker (irreversible).\n• Threshed grain: owner of the ears\n• Threshing creates nothing new, it only reveals what exists",
+      "page": 145,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1"
+      ]
+    },
+    {
+      "type": "basic",
+      "kind": "schema",
+      "level": 1,
+      "priority": 1,
+      "topic": "28.10. Natural modes — CONFUSIO, COMMIXTIO, SPECIFICATIO",
+      "readyBy": "2026-10-28",
+      "front": "Exegesis: a Digest fragment is about ACCESSIO or SPECIFICATIO — which questions should your interpretation address?",
+      "back": "Classify the case first: ACCESSIO, mixing, or SPECIFICATIO?\n• Inseparable connection? Main thing (REI VINDICATIO test)?\n• Land (SUPERFICIES SOLO CEDIT, AEDIFICATIO)? Reversible transformation (MEDIA SENTENTIA)?\n• Good or bad faith → ACTIO IN FACTUM, CONDICTIO FURTIVA, EXCEPTIO DOLI?",
+      "page": 132,
+      "tags": [
+        "roman-property-kompakt",
+        "kap-IX",
+        "p1",
+        "exegese"
+      ]
+    }
+  ]
+}
